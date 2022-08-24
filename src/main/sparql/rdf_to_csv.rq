@@ -198,10 +198,6 @@ optional {?uri cs:vmmParameterId ?vmmParameterId }
 optional {?uri rdfs:seeAlso ?seeAlso .}
 optional {?uri dbp:inchikey ?inchikey }
 optional {?uri a skos:Concept . ?collection skos:member ?uri .}
-#optional {?collection skos:prefLabel ?prefLabel .}
-#optional {?scheme skos:prefLabel ?prefLabel .}
-#optional {?scheme skos:definition ?definition }
-#filter(?uri = <https://data.vlaanderen.be/id/concept/chemische_stof/ATJFFYVFTNAWJD-UHFFFAOYSA-N>)
 }
 group by ?type ?uri ?prefLabel ?notation ?altLabel ?definition ?exactMatch ?scheme ?isSubjectOf ?collection ?inchi ?iupacName ?pubchem ?smiles ?formula ?vmmParameterId ?seeAlso ?inchikey
 ORDER BY ?altLabel
