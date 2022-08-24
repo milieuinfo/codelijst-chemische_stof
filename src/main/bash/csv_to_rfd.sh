@@ -41,7 +41,7 @@ write(df_in_json, "/tmp/chemische_stof.json")
 ' 
 
 echo '{"@graph" :' > /tmp/chemische_stof.jsonld
-cat /tmp/chemische_stof.json  >> /tmp/chemische_stof.jsonld
+jq . /tmp/chemische_stof.json  >> /tmp/chemische_stof.jsonld
 echo ',
   "@context" : ' >> /tmp/chemische_stof.jsonld
 cat '../resources/be/vlaanderen/omgeving/data/id/conceptscheme/chemische_stof/context.json' >> /tmp/chemische_stof.jsonld

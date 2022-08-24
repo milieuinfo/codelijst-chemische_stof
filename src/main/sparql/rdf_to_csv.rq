@@ -1,4 +1,4 @@
-##sparql --results=CSV --data=../resources/be/vlaanderen/data/id/conceptscheme/chemische_stof/chemische_stof.ttl  --query rdf_to_csv.rq > ../resources/be/vlaanderen/data/id/conceptscheme/chemische_stof/chemische_stof.csv
+##sparql --results=CSV --data=../resources/be/vlaanderen/omgeving/data/id/conceptscheme/chemische_stof/chemische_stof.ttl  --query rdf_to_csv.rq > ../resources/be/vlaanderen/omgeving/data/id/conceptscheme/chemische_stof/chemische_stof.csv
 
 prefix skos:  <http://www.w3.org/2004/02/skos/core#> 
 prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> 
