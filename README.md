@@ -30,14 +30,7 @@ Sparql wordt gebruikt om het rdf-formaat om te zetten naar csv, riot wordt gebru
 
 **_R:_**
 
-Met behulp van de tidyverse bibliotheek in R wordt de csv omgezet naar json.
+Met behulp van de tidyverse bibliotheek in R wordt de csv omgezet naar jsonld.
 ```
 sudo apt install r-base build-essential r-cran-jsonlite r-cran-tidyr r-cran-dplyr
-```
-
-**_jq:_**
-
-Pretty print json.
-```
-sudo apt install jq
 ```
