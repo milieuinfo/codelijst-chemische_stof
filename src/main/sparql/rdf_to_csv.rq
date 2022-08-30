@@ -14,7 +14,7 @@ select DISTINCT
 ?altLabels
 ?definition 
 ?exactMatches  
-?scheme 
+?inScheme 
 ?isSubjectOfs
 ?collections
 ?casNumbers
@@ -36,7 +36,7 @@ select DISTINCT
 ?altLabels
 ?definition 
 ?exactMatches  
-?scheme 
+?inScheme 
 (group_concat(?isSubjectOf;separator="|") as ?isSubjectOfs) 
 ?collections
 ?casNumbers
@@ -58,7 +58,7 @@ select DISTINCT
 ?altLabels
 ?definition 
 (group_concat(?exactMatch;separator="|") as ?exactMatches)  
-?scheme 
+?inScheme 
 ?isSubjectOf 
 ?collections
 ?casNumbers
@@ -80,7 +80,7 @@ select DISTINCT
 ?altLabels
 ?definition 
 ?exactMatch 
-?scheme 
+?inScheme 
 ?isSubjectOf 
 (group_concat(?collection;separator="|") as ?collections) 
 ?casNumbers
@@ -102,7 +102,7 @@ select DISTINCT
 ?altLabels
 ?definition 
 ?exactMatch 
-?scheme 
+?inScheme 
 ?isSubjectOf 
 ?collection
 ?casNumbers
@@ -124,7 +124,7 @@ select DISTINCT
 ?altLabels
 ?definition 
 ?exactMatch 
-?scheme 
+?inScheme 
 ?isSubjectOf 
 ?collection
 ?casNumbers
@@ -145,7 +145,7 @@ select DISTINCT
 (group_concat(?altLabel;separator="|") as ?altLabels) 
 ?definition 
 ?exactMatch 
-?scheme 
+?inScheme 
 ?isSubjectOf 
 ?collection
 ?casNumbers
@@ -166,7 +166,7 @@ select distinct
 ?altLabel 
 ?definition 
 ?exactMatch 
-?scheme 
+?inScheme 
 ?isSubjectOf 
 ?collection
 (group_concat(?casNumber;separator="|") as ?casNumbers)
@@ -184,7 +184,7 @@ a ?type .
 optional {?uri skos:altLabel ?altLabel }
 optional {?uri skos:definition ?definition }
 optional {?uri skos:exactMatch ?exactMatch }
-optional {?uri skos:inScheme ?scheme }
+optional {?uri skos:inScheme ?inScheme }
 optional {?uri skos:isSubjectOf ?isSubjectOf }
 optional {?uri skos:notation ?notation }
 optional {?uri skos:prefLabel ?prefLabel }
@@ -199,27 +199,27 @@ optional {?uri rdfs:seeAlso ?seeAlso .}
 optional {?uri dbp:inchikey ?inchikey }
 optional {?uri a skos:Concept . ?collection skos:member ?uri .}
 }
-group by ?type ?uri ?prefLabel ?notation ?altLabel ?definition ?exactMatch ?scheme ?isSubjectOf ?collection ?inchi ?iupacName ?pubchem ?smiles ?formula ?vmmParameterId ?seeAlso ?inchikey
+group by ?type ?uri ?prefLabel ?notation ?altLabel ?definition ?exactMatch ?inScheme ?isSubjectOf ?collection ?inchi ?iupacName ?pubchem ?smiles ?formula ?vmmParameterId ?seeAlso ?inchikey
 ORDER BY ?altLabel
 }
-group by ?type ?uri ?prefLabel ?notation ?definition ?exactMatch ?scheme ?isSubjectOf ?collection ?inchi ?iupacName ?pubchem ?smiles ?formula ?vmmParameterId ?seeAlso ?inchikey ?casNumbers
+group by ?type ?uri ?prefLabel ?notation ?definition ?exactMatch ?inScheme ?isSubjectOf ?collection ?inchi ?iupacName ?pubchem ?smiles ?formula ?vmmParameterId ?seeAlso ?inchikey ?casNumbers
 ORDER BY ?notation 
 }
-group by ?type ?uri ?prefLabel ?definition ?exactMatch ?scheme ?isSubjectOf ?collection ?inchi ?iupacName ?pubchem ?smiles ?formula ?vmmParameterId ?seeAlso ?inchikey ?casNumbers ?altLabels
+group by ?type ?uri ?prefLabel ?definition ?exactMatch ?inScheme ?isSubjectOf ?collection ?inchi ?iupacName ?pubchem ?smiles ?formula ?vmmParameterId ?seeAlso ?inchikey ?casNumbers ?altLabels
 ORDER BY ?vmmParameterId
 }
-group by ?type ?uri ?prefLabel ?definition ?exactMatch ?scheme ?isSubjectOf ?collection ?inchi ?iupacName ?pubchem ?smiles ?formula ?seeAlso ?inchikey ?casNumbers ?altLabels ?notations
+group by ?type ?uri ?prefLabel ?definition ?exactMatch ?inScheme ?isSubjectOf ?collection ?inchi ?iupacName ?pubchem ?smiles ?formula ?seeAlso ?inchikey ?casNumbers ?altLabels ?notations
 ORDER BY ?collection
 }
-group by ?type ?uri ?prefLabel ?definition ?exactMatch ?scheme ?isSubjectOf ?inchi ?iupacName ?pubchem ?smiles ?formula ?seeAlso ?inchikey ?casNumbers ?altLabels ?notations ?vmmParameterIds
+group by ?type ?uri ?prefLabel ?definition ?exactMatch ?inScheme ?isSubjectOf ?inchi ?iupacName ?pubchem ?smiles ?formula ?seeAlso ?inchikey ?casNumbers ?altLabels ?notations ?vmmParameterIds
 ORDER BY ?exactMatch
 }
-group by ?type ?uri ?prefLabel ?definition ?scheme ?isSubjectOf ?inchi ?iupacName ?pubchem ?smiles ?formula ?seeAlso ?inchikey ?casNumbers ?altLabels ?notations ?vmmParameterIds ?collections
+group by ?type ?uri ?prefLabel ?definition ?inScheme ?isSubjectOf ?inchi ?iupacName ?pubchem ?smiles ?formula ?seeAlso ?inchikey ?casNumbers ?altLabels ?notations ?vmmParameterIds ?collections
 ORDER BY ?isSubjectOf
 }
-group by ?type ?uri ?prefLabel ?definition ?scheme ?inchi ?iupacName ?pubchem ?smiles ?formula ?seeAlso ?inchikey ?casNumbers ?altLabels ?notations ?vmmParameterIds ?collections ?exactMatches
+group by ?type ?uri ?prefLabel ?definition ?inScheme ?inchi ?iupacName ?pubchem ?smiles ?formula ?seeAlso ?inchikey ?casNumbers ?altLabels ?notations ?vmmParameterIds ?collections ?exactMatches
 ORDER BY ?type
 }
-group by ?uri ?prefLabel ?definition ?scheme ?inchi ?iupacName ?pubchem ?smiles ?formula ?seeAlso ?inchikey ?casNumbers ?altLabels ?notations ?vmmParameterIds ?collections ?exactMatches ?isSubjectOfs
+group by ?uri ?prefLabel ?definition ?inScheme ?inchi ?iupacName ?pubchem ?smiles ?formula ?seeAlso ?inchikey ?casNumbers ?altLabels ?notations ?vmmParameterIds ?collections ?exactMatches ?isSubjectOfs
 ORDER BY ?uri
 
