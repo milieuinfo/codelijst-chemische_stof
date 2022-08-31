@@ -31,6 +31,12 @@ for (col in list("https://data.omgeving.vlaanderen.be/id/collection/chemische_st
   names(df2) <- c("uri","member")
   df <- bind_rows(df, df2)
 }
+tco <- subset(df, topConceptOf == 'https://data.omgeving.vlaanderen.be/id/conceptscheme/chemische_stof' ,
+              select=c(uri, topConceptOf))
+htc <- as.list(tco["uri"])
+df2 <- data.frame('https://data.omgeving.vlaanderen.be/id/conceptscheme/chemische_stof', htc)
+names(df2) <- c("uri","hasTopConcept")
+df <- bind_rows(df, df2)
 df <- df %>%
   rename("@id" = uri)
 write.csv(df,"../resources/be/vlaanderen/omgeving/data/id/conceptscheme/chemische_stof/chemische_stof_separate_rows.csv", row.names = FALSE)
