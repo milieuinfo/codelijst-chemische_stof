@@ -11,8 +11,8 @@ df <- df %>%
   separate_rows(exactMatches, sep = "\\|")%>%
   separate_rows(isSubjectOfs, sep = "\\|")%>%
   separate_rows(collections, sep = "\\|")%>%
-  separate_rows(vmmParameterIds, sep = "\\|")%>% 
-  separate_rows(types, sep = "\\|")%>% 
+  separate_rows(vmmParameterIds, sep = "\\|")%>%
+  separate_rows(types, sep = "\\|")%>%
   rename(
     casNumber = casNumbers,
     notation = notations,
