@@ -3,7 +3,7 @@ library(tidyr)
 library(dplyr)
 library(jsonlite)
 library(data.table)
-setwd('/home/gehau/git/codelijst-chemische_stof/src/main/R')
+#setwd('/home/gehau/git/codelijst-chemische_stof/src/main/R')
 
 artifactory <- "https://repo.omgeving.vlaanderen.be/artifactory/release"
 
@@ -20,11 +20,11 @@ version_next_release <- strsplit(version, '-')[[1]][1]
 version_former_release <- paste(strsplit(version_next_release, '\\.')[[1]][1],strsplit(version_next_release, '\\.')[[1]][2],as.character(as.integer(strsplit(version_next_release, '\\.')[[1]][3])-1) , sep = "."  )
 packageFileName_ <- paste(name,'-',version_former_release,'.jar', sep = "")
 packageName_ <- paste(groupId, name, sep = ".")
-package_id <- paste("omg_package", packageName, sep = ":")
-downloadLocation_ <- paste(artifactory, class_path, name, version_former_release, packageFileName, sep = "/")
+package_id <- paste("omg_package", packageName_, sep = ":")
+downloadLocation_ <- paste(artifactory, class_path, name, version_former_release, packageFileName_, sep = "/")
 
 
-df <- read.csv(file = "../resources/be/vlaanderen/omgeving/data/id/catalog/catalog2.csv", sep=",", na.strings=c("","NA"))
+df <- read.csv(file = "../resources/be/vlaanderen/omgeving/data/id/catalog/catalog.csv", sep=",", na.strings=c("","NA"))
 setDT(df)[id == package_id, downloadLocation := downloadLocation_]
 setDT(df)[id == package_id, packageFileName := packageFileName_]
 setDT(df)[id == package_id, packageName := packageName_]
