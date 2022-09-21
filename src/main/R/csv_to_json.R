@@ -47,6 +47,7 @@ df_in_list <- list('@graph' = df, '@context' = context)
 df_in_json <- toJSON(df_in_list, auto_unbox=TRUE)
 # bewaar jsonld
 write(df_in_json, "/tmp/chemische_stof.jsonld")
+
 # serialiseer jsonld naar mooie turtle en mooie jsonld
 # hiervoor dienen jena cli-tools geinstalleerd, zie README.md
 system("riot --formatted=TURTLE /tmp/chemische_stof.jsonld > ../resources/be/vlaanderen/omgeving/data/id/conceptscheme/chemische_stof/chemische_stof.ttl")
