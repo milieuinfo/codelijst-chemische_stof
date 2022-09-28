@@ -3,7 +3,8 @@ library(tidyr)
 library(dplyr)
 library(jsonlite)
 library(data.table)
-
+library(stringr)
+setwd('/home/gehau/git/codelijst-chemische_stof/src/main/R')
 
 artifactory <- "https://repo.omgeving.vlaanderen.be/artifactory/release"
 
@@ -17,20 +18,20 @@ name <- xml_text( xml_find_first(x, "/project/name") )
 
 class_path  <- gsub("\\.","/", groupId) 
 version_next_release <- strsplit(version, '-')[[1]][1]
-version_former_release <- paste(strsplit(version_next_release, '\\.')[[1]][1],strsplit(version_next_release, '\\.')[[1]][2],as.character(as.integer(strsplit(version_next_release, '\\.')[[1]][3])-1) , sep = "."  )
-packageFileName_ <- paste(name,'-',version_former_release,'.jar', sep = "")
+packageFileName_ <- paste(name,'-',version_next_release,'.jar', sep = "")
 packageName_ <- paste(groupId, name, sep = ".")
 package_id <- paste("omg_package", packageName_, sep = ":")
-downloadLocation_ <- paste(artifactory, class_path, name, version_former_release, packageFileName_, sep = "/")
+downloadLocation_ <- paste(artifactory, class_path, name, version_next_release, packageFileName_, sep = "/")
 
 
 df <- read.csv(file = "../resources/be/vlaanderen/omgeving/data/id/dataset/codelijst-chemische_stof/catalog.csv", sep=",", na.strings=c("","NA"))
-setDT(df)[id == package_id, downloadLocation := downloadLocation_]
-setDT(df)[id == package_id, packageFileName := packageFileName_]
-setDT(df)[id == package_id, packageName := packageName_]
-setDT(df)[id == package_id, versionInfo := version_former_release]
+df <- df %>%
+  mutate_all(list(~ str_c("", .)))
+setDT(df)[type == "dcat:Dataset", owl.versionInfo := version_next_release]
+setDT(df)[type == "dcat:Distribution", owl.versionInfo := version_next_release]
 write.csv(df,"../resources/be/vlaanderen/omgeving/data/id/dataset/codelijst-chemische_stof/catalog.csv", row.names = FALSE)
-
+df <- df %>%
+  mutate_all(list(~ str_c("", .)))
 for(col in 1:ncol(df)) {   # for-loop over columns
   df <- df %>%
     separate_rows(col, sep = "\\|")
@@ -45,5 +46,4 @@ df_in_json <- toJSON(df_in_list, auto_unbox=TRUE)
 write(df_in_json, "/tmp/catalog.jsonld")
 system("riot --formatted=TURTLE /tmp/catalog.jsonld > ../resources/be/vlaanderen/omgeving/data/id/dataset/codelijst-chemische_stof/catalog.ttl")
 system("riot --formatted=JSONLD ../resources/be/vlaanderen/omgeving/data/id/dataset/codelijst-chemische_stof/catalog.ttl > ../resources/be/vlaanderen/omgeving/data/id/dataset/codelijst-chemische_stof/catalog.jsonld")
-
 
