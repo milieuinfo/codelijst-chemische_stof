@@ -104,7 +104,12 @@ omg_distribution:codelijst-chemische_stof_jsonld
 
 omg_catalog:codelijst
         a             dcat:Catalog ;
-        dcat:dataset  omg_dataset:codelijst-chemische_stof .
+        dcat:dataset  omg_dataset:codelijst-chemische_stof ;
+        dcat:service  omg_dataservice:sparqlendpoint .
+
+omg_dataservice:sparqlendpoint
+        a                   dcat:DataService ;
+        dcat:servesDataset  omg_dataset:codelijst-chemische_stof .
 
 omg_distribution:codelijst-chemische_stof_ttl
         a                     dcat:Distribution ;

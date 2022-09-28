@@ -2,7 +2,12 @@
   "@graph" : [ {
     "@id" : "omg_catalog:codelijst",
     "@type" : "dcat:Catalog",
-    "dataset" : "omg_dataset:codelijst-chemische_stof"
+    "dataset" : "omg_dataset:codelijst-chemische_stof",
+    "service" : "omg_dataservice:sparqlendpoint"
+  }, {
+    "@id" : "omg_dataservice:sparqlendpoint",
+    "@type" : "dcat:DataService",
+    "servesDataset" : "omg_dataset:codelijst-chemische_stof"
   }, {
     "@id" : "omg_dataset:codelijst-chemische_stof",
     "@type" : "dcat:Dataset",
@@ -227,8 +232,16 @@
       "@id" : "http://purl.org/dc/terms/format",
       "@type" : "@id"
     },
+    "service" : {
+      "@id" : "http://www.w3.org/ns/dcat#service",
+      "@type" : "@id"
+    },
     "dataset" : {
       "@id" : "http://www.w3.org/ns/dcat#dataset",
+      "@type" : "@id"
+    },
+    "servesDataset" : {
+      "@id" : "http://www.w3.org/ns/dcat#servesDataset",
       "@type" : "@id"
     },
     "country" : "http://publications.europa.eu/resource/authority/country/",

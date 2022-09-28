@@ -4,7 +4,7 @@ library(dplyr)
 library(jsonlite)
 library(data.table)
 library(stringr)
-setwd('/home/gehau/git/codelijst-chemische_stof/src/main/R')
+#setwd('/home/gehau/git/codelijst-chemische_stof/src/main/R')
 
 artifactory <- "https://repo.omgeving.vlaanderen.be/artifactory/release"
 
