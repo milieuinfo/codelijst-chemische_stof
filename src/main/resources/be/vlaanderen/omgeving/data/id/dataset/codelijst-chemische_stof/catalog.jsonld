@@ -42,11 +42,12 @@
       "@language" : "nl",
       "@value" : "Thesaurus chemische stoffen"
     },
+    "rootResource" : "omg_conceptscheme:codelijst-chemische_stof",
     "label" : {
       "@language" : "nl",
       "@value" : "Dataset Codelijst Chemische stoffen"
     },
-    "versionInfo" : "1.0.2",
+    "versionInfo" : "1.0.3",
     "contactPoint" : "omg_vcard:helpdesk",
     "distribution" : [ "omg_distribution:codelijst-chemische_stof_csv", "omg_distribution:codelijst-chemische_stof_jsonld", "omg_distribution:codelijst-chemische_stof_ttl" ],
     "landingPage" : "https://data.omgeving.vlaanderen.be/doc/catalog/codelijst.html",
@@ -75,10 +76,10 @@
       "@language" : "nl",
       "@value" : "Codelijst Chemische stoffen, in text/csv formaat."
     },
-    "versionInfo" : "1.0.2",
+    "versionInfo" : "1.0.3",
     "accessURL" : "https://github.com/milieuinfo/codelijst-chemische_stof.git",
     "compressFormat" : "http://www.iana.org/assignments/media-types/application/gzip",
-    "downloadURL" : "https://github.com/milieuinfo/codelijst-chemische_stof/raw/main/src/main/resources/be/vlaanderen/omgeving/data/id/conceptscheme/chemische_stof/chemische_stof.csv",
+    "downloadURL" : "https://raw.githubusercontent.com/milieuinfo/codelijst-chemische_stof/main/src/main/resources/be/vlaanderen/omgeving/data/id/conceptscheme/chemische_stof/chemische_stof.csv",
     "mediaType" : "https://www.iana.org/assignments/media-types/text/csv",
     "page" : "https://data.omgeving.vlaanderen.be/doc/distribution/codelijst-chemische_stof_csv.html"
   }, {
@@ -104,10 +105,10 @@
       "@language" : "nl",
       "@value" : "Codelijst Chemische stoffen, in jsonld rdf-formaat."
     },
-    "versionInfo" : "1.0.2",
+    "versionInfo" : "1.0.3",
     "accessURL" : "https://github.com/milieuinfo/codelijst-chemische_stof.git",
     "compressFormat" : "http://www.iana.org/assignments/media-types/application/gzip",
-    "downloadURL" : "https://github.com/milieuinfo/codelijst-chemische_stof/raw/main/src/main/resources/be/vlaanderen/omgeving/data/id/conceptscheme/chemische_stof/chemische_stof.jsonld",
+    "downloadURL" : "https://raw.githubusercontent.com/milieuinfo/codelijst-chemische_stof/main/src/main/resources/be/vlaanderen/omgeving/data/id/conceptscheme/chemische_stof/chemische_stof.jsonld",
     "mediaType" : "https://www.iana.org/assignments/media-types/application/ld+json",
     "page" : "https://data.omgeving.vlaanderen.be/doc/distribution/codelijst-chemische_stof_jsonld.html"
   }, {
@@ -133,10 +134,10 @@
       "@language" : "nl",
       "@value" : "Codelijst Chemische stoffen, in Turtle rdf-formaat."
     },
-    "versionInfo" : "1.0.2",
+    "versionInfo" : "1.0.3",
     "accessURL" : "https://github.com/milieuinfo/codelijst-chemische_stof.git",
     "compressFormat" : "http://www.iana.org/assignments/media-types/application/gzip",
-    "downloadURL" : "https://github.com/milieuinfo/codelijst-chemische_stof/raw/main/src/main/resources/be/vlaanderen/omgeving/data/id/conceptscheme/chemische_stof/chemische_stof.ttl",
+    "downloadURL" : "https://raw.githubusercontent.com/milieuinfo/codelijst-chemische_stof/main/src/main/resources/be/vlaanderen/omgeving/data/id/conceptscheme/chemische_stof/chemische_stof.ttl",
     "mediaType" : "https://www.iana.org/assignments/media-types/text/turtle",
     "page" : "https://data.omgeving.vlaanderen.be/doc/distribution/codelijst-chemische_stof_ttl.html"
   } ],
@@ -187,12 +188,12 @@
       "@id" : "http://www.w3.org/ns/dcat#contactPoint",
       "@type" : "@id"
     },
-    "versionInfo" : {
-      "@id" : "http://www.w3.org/2002/07/owl#versionInfo"
-    },
     "temporal" : {
       "@id" : "http://purl.org/dc/terms/temporal",
       "@type" : "@id"
+    },
+    "versionInfo" : {
+      "@id" : "http://www.w3.org/2002/07/owl#versionInfo"
     },
     "title" : {
       "@id" : "http://purl.org/dc/terms/title"
@@ -212,16 +213,20 @@
       "@id" : "http://purl.org/dc/terms/license",
       "@type" : "@id"
     },
+    "rootResource" : {
+      "@id" : "http://rdfs.org/ns/void#rootResource",
+      "@type" : "@id"
+    },
     "accessURL" : {
       "@id" : "http://www.w3.org/ns/dcat#accessURL",
       "@type" : "@id"
     },
-    "compressFormat" : {
-      "@id" : "http://www.w3.org/ns/dcat#compressFormat",
-      "@type" : "@id"
-    },
     "downloadURL" : {
       "@id" : "http://www.w3.org/ns/dcat#downloadURL",
+      "@type" : "@id"
+    },
+    "compressFormat" : {
+      "@id" : "http://www.w3.org/ns/dcat#compressFormat",
       "@type" : "@id"
     },
     "mediaType" : {
