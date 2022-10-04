@@ -1,0 +1,505 @@
+{
+  "@graph" : [ {
+    "@id" : "http://dbpedia.org/ontology/",
+    "@type" : "owl:Ontology",
+    "defines" : [ "dbo:formula", "dbo:smiles", "dbo:iupacName", "dbo:Drug", "dbo:casNumber", "dbo:ChemicalSubstance", "dbo:inchi", "dbo:pubchem", "dbo:ChemicalCompound" ]
+  }, {
+    "@id" : "dbo:ChemicalCompound",
+    "@type" : "owl:Class",
+    "comment" : {
+      "@language" : "nl",
+      "@value" : "Een stof is in de scheikunde een vorm van materie die een gelijke chemische samenstelling heeft, een chemisch zuivere stof. Deze wordt gekenmerkt door specifieke, uniforme stofeigenschappen, zoals dichtheid, geleidbaarheid en smeltpunt."
+    },
+    "isDefinedBy" : "http://dbpedia.org/ontology/",
+    "label" : [ {
+      "@language" : "fr",
+      "@value" : "produit chimique"
+    }, {
+      "@language" : "nl",
+      "@value" : "chemische verbinding"
+    }, {
+      "@language" : "en",
+      "@value" : "chemical compound"
+    }, {
+      "@language" : "de",
+      "@value" : "chemische Verbindung"
+    } ],
+    "subClassOf" : "dbo:ChemicalSubstance",
+    "equivalentClass" : "wikidata:Q11173"
+  }, {
+    "@id" : "dbo:ChemicalSubstance",
+    "@type" : "owl:Class",
+    "comment" : {
+      "@language" : "nl",
+      "@value" : "Een stof is in de scheikunde een vorm van materie die een gelijke chemische samenstelling heeft, een chemisch zuivere stof. Deze wordt gekenmerkt door specifieke, uniforme stofeigenschappen, zoals dichtheid, geleidbaarheid en smeltpunt."
+    },
+    "isDefinedBy" : "http://dbpedia.org/ontology/",
+    "label" : [ {
+      "@language" : "de",
+      "@value" : "chemische Substanz"
+    }, {
+      "@language" : "nl",
+      "@value" : "chemische substantie"
+    }, {
+      "@language" : "fr",
+      "@value" : "substance chimique"
+    }, {
+      "@language" : "en",
+      "@value" : "chemical substance"
+    } ],
+    "subClassOf" : "owl:Thing"
+  }, {
+    "@id" : "dbo:Drug",
+    "@type" : "owl:Class",
+    "isDefinedBy" : "http://dbpedia.org/ontology/",
+    "label" : [ {
+      "@language" : "en",
+      "@value" : "drug"
+    }, {
+      "@language" : "nl",
+      "@value" : "geneesmiddel"
+    } ],
+    "subClassOf" : "dbo:ChemicalSubstance",
+    "equivalentClass" : "wikidata:Q8386"
+  }, {
+    "@id" : "dbo:casNumber",
+    "@type" : [ "owl:DatatypeProperty", "rdf:Property" ],
+    "comment" : [ {
+      "@language" : "nl",
+      "@value" : "Een CAS-nummer is een unieke numerieke identifier voor chemische elementen, componenten, polymeren, en legeringen. CAS staat voor Chemical Abstracts Service, een divisie van de American Chemical Society. Soms zijn er verschillende CAS-nummers (\"other CAS\") die exact hetzelfde betekenen. Dit heeft meestal te maken met oudere CAS-nummers die werden toegekend op het moment dat de stof nog niet helemaal gekarakteriseerd was. Later kan men er aldus op uit komen dat verschillende CAS-nummers op eenzelfde molecule betrekking hebben."
+    }, {
+      "@language" : "en",
+      "@value" : "Chemical Abstracts Service number. Applicable to ChemicalCompound or Biomolecule (eg Protein)"
+    } ],
+    "isDefinedBy" : "http://dbpedia.org/ontology/",
+    "label" : [ {
+      "@language" : "nl",
+      "@value" : "CAS nummer"
+    }, {
+      "@language" : "fr",
+      "@value" : "numéro CAS"
+    }, {
+      "@language" : "en",
+      "@value" : "CAS number"
+    } ],
+    "range" : "xsd:string"
+  }, {
+    "@id" : "dbo:formula",
+    "@type" : [ "rdf:Property", "owl:DatatypeProperty" ],
+    "comment" : {
+      "@language" : "nl",
+      "@value" : "De molecuulformule is de korte aanduiding voor een molecuul die aangeeft uit welke elementen en in welke aantallen atomen het is opgebouwd. "
+    },
+    "domain" : "dbo:ChemicalSubstance",
+    "isDefinedBy" : "http://dbpedia.org/ontology/",
+    "label" : [ {
+      "@language" : "nl",
+      "@value" : "formule"
+    }, {
+      "@language" : "fr",
+      "@value" : "formule"
+    }, {
+      "@language" : "en",
+      "@value" : "formula"
+    }, {
+      "@language" : "de",
+      "@value" : "Formel"
+    } ],
+    "range" : "xsd:string"
+  }, {
+    "@id" : "dbo:inchi",
+    "@type" : [ "owl:DatatypeProperty", "rdf:Property" ],
+    "comment" : {
+      "@language" : "nl",
+      "@value" : "De International Chemical Identifier, afgekort InChI, is een tekstuele identificatiecode voor chemische stoffen, vooral bedoeld om moleculen ondubbelzinnig en op een voor mensen leesbare manier te coderen, waarbij het zoeken naar die stof in databanken en via het web gemakkelijker zou worden gemaakt."
+    },
+    "domain" : "dbo:ChemicalCompound",
+    "isDefinedBy" : "http://dbpedia.org/ontology/",
+    "label" : [ {
+      "@language" : "nl",
+      "@value" : "IUPAC internationale chemische identifier"
+    }, {
+      "@language" : "en",
+      "@value" : "The IUPAC International Chemical Identifier"
+    }, {
+      "@language" : "de",
+      "@value" : "Internationale chemische Bezeichnung der IUPAC"
+    } ],
+    "range" : "xsd:string",
+    "sameAs" : "dbo:inchi"
+  }, {
+    "@id" : "dbo:iupacName",
+    "@type" : [ "rdf:Property", "owl:DatatypeProperty" ],
+    "comment" : {
+      "@language" : "nl",
+      "@value" : "IUPAC-nomenclatuur is een systematische manier om elementen en chemische verbindingen te benoemen zoals die door de International Union of Pure and Applied Chemistry (IUPAC) wordt voorgestaan. Vooral in de organische chemie wordt het systeem toegepast, maar met het complexer worden van de stoffen in de anorganische chemie wordt ook daar het gebruik van systematische namen belangrijker. In de IUPAC-nomenclatuur worden stamnamen, plaatsnummers, voorvoegsels, achtervoegsels en tussenvoegsels gebruikt om het type en de positie van zijketens en/of functionele groepen in het molecuul te beschrijven."
+    },
+    "domain" : "dbo:Drug",
+    "isDefinedBy" : "http://dbpedia.org/ontology/",
+    "label" : [ {
+      "@language" : "nl",
+      "@value" : "IUPAC-naam"
+    }, {
+      "@language" : "en",
+      "@value" : "IUPAC name"
+    } ],
+    "range" : "rdf:langString"
+  }, {
+    "@id" : "dbo:pubchem",
+    "@type" : [ "rdf:Property", "owl:DatatypeProperty" ],
+    "comment" : {
+      "@language" : "nl",
+      "@value" : "Verwijst binnen deze stoffenlijst naar de PubChem CID, de unieke 'compound identifier' van PubChem. PubChem is een databank van chemische molecules en hun bio-assays."
+    },
+    "domain" : "dbo:ChemicalSubstance",
+    "isDefinedBy" : "http://dbpedia.org/ontology/",
+    "label" : [ {
+      "@language" : "en",
+      "@value" : "PubChem"
+    }, {
+      "@language" : "ja",
+      "@value" : "PubChem"
+    }, {
+      "@language" : "fr",
+      "@value" : "PubChem"
+    }, {
+      "@language" : "nl",
+      "@value" : "Pubchem"
+    } ],
+    "range" : "xsd:string"
+  }, {
+    "@id" : "dbo:smiles",
+    "@type" : [ "rdf:Property", "owl:DatatypeProperty" ],
+    "comment" : [ {
+      "@language" : "nl",
+      "@value" : "SMILES of voluit simplified molecular-input line-entry specification is een specificatie om de structuur van chemische moleculen op eenduidige wijze te beschrijven als een tekenreeks. SMILES kunnen door de meeste chemische tekenprogramma's ingelezen worden en worden omgezet in een tweedimensionale tekening of een driedimensionaal model van het molecuul. "
+    }, {
+      "@language" : "en",
+      "@value" : "The Simplified Molecular-Input Line-Entry System or SMILES is a specification in form of a line notation for describing the structure of chemical molecules using short ASCII strings."
+    } ],
+    "domain" : "dbo:ChemicalCompound",
+    "isDefinedBy" : "http://dbpedia.org/ontology/",
+    "label" : [ {
+      "@language" : "nl",
+      "@value" : "SMILES"
+    }, {
+      "@language" : "en",
+      "@value" : "SMILES"
+    } ],
+    "range" : "xsd:string"
+  }, {
+    "@id" : "http://dbpedia.org/property/",
+    "@type" : "owl:Ontology"
+  }, {
+    "@id" : "dbp:inchikey",
+    "@type" : [ "owl:DatatypeProperty", "rdf:Property" ],
+    "comment" : {
+      "@language" : "nl",
+      "@value" : "InChIKey is een formaat met een vaste lengte die rechtstreeks is afgeleid van InChI. Het is gebaseerd op een sterke hash (SHA-256-algoritme) van een InChI-string."
+    },
+    "isDefinedBy" : "http://dbpedia.org/property/",
+    "label" : [ {
+      "@language" : "nl",
+      "@value" : "InChIKey"
+    }, {
+      "@language" : "en",
+      "@value" : "InChIKey"
+    } ]
+  }, {
+    "@id" : "http://www.w3.org/2000/01/rdf-schema#",
+    "@type" : "owl:Ontology"
+  }, {
+    "@id" : "rdfs:seeAlso",
+    "@type" : "rdf:Property",
+    "domain" : "rdfs:Resource",
+    "isDefinedBy" : "http://www.w3.org/2000/01/rdf-schema#",
+    "label" : "seeAlso",
+    "range" : "rdfs:Resource"
+  }, {
+    "@id" : "http://www.w3.org/2004/02/skos/core",
+    "@type" : "owl:Ontology"
+  }, {
+    "@id" : "skos:Collection",
+    "@type" : "owl:Class",
+    "isDefinedBy" : "http://www.w3.org/2004/02/skos/core",
+    "label" : {
+      "@language" : "en",
+      "@value" : "Collection"
+    },
+    "disjointWith" : [ "skos:ConceptScheme", "skos:Concept" ]
+  }, {
+    "@id" : "skos:Concept",
+    "@type" : "owl:Class",
+    "isDefinedBy" : "http://www.w3.org/2004/02/skos/core",
+    "label" : {
+      "@language" : "en",
+      "@value" : "Concept"
+    }
+  }, {
+    "@id" : "skos:ConceptScheme",
+    "@type" : "owl:Class",
+    "isDefinedBy" : "http://www.w3.org/2004/02/skos/core",
+    "label" : {
+      "@language" : "en",
+      "@value" : "Concept Scheme"
+    },
+    "disjointWith" : "skos:Concept"
+  }, {
+    "@id" : "skos:altLabel",
+    "@type" : [ "owl:AnnotationProperty", "rdf:Property" ],
+    "isDefinedBy" : "http://www.w3.org/2004/02/skos/core",
+    "label" : {
+      "@language" : "en",
+      "@value" : "alternative label"
+    },
+    "subPropertyOf" : "rdfs:label"
+  }, {
+    "@id" : "skos:hasTopConcept",
+    "@type" : [ "rdf:Property", "owl:ObjectProperty" ],
+    "domain" : "skos:ConceptScheme",
+    "isDefinedBy" : "http://www.w3.org/2004/02/skos/core",
+    "label" : {
+      "@language" : "en",
+      "@value" : "has top concept"
+    },
+    "range" : "skos:Concept",
+    "inverseOf" : "skos:topConceptOf"
+  }, {
+    "@id" : "skos:inScheme",
+    "@type" : [ "rdf:Property", "owl:ObjectProperty" ],
+    "isDefinedBy" : "http://www.w3.org/2004/02/skos/core",
+    "label" : {
+      "@language" : "en",
+      "@value" : "is in scheme"
+    },
+    "range" : "skos:ConceptScheme"
+  }, {
+    "@id" : "skos:member",
+    "@type" : "owl:ObjectProperty",
+    "domain" : "skos:Collection",
+    "isDefinedBy" : "http://www.w3.org/2004/02/skos/core",
+    "label" : {
+      "@language" : "en",
+      "@value" : "has member"
+    }
+  }, {
+    "@id" : "skos:notation",
+    "@type" : [ "owl:DatatypeProperty", "rdf:Property" ],
+    "isDefinedBy" : "http://www.w3.org/2004/02/skos/core",
+    "label" : {
+      "@language" : "en",
+      "@value" : "notation"
+    }
+  }, {
+    "@id" : "skos:prefLabel",
+    "@type" : [ "owl:AnnotationProperty", "rdf:Property" ],
+    "isDefinedBy" : "http://www.w3.org/2004/02/skos/core",
+    "label" : {
+      "@language" : "en",
+      "@value" : "preferred label"
+    },
+    "subPropertyOf" : "rdfs:label"
+  }, {
+    "@id" : "skos:topConceptOf",
+    "@type" : [ "rdf:Property", "owl:ObjectProperty" ],
+    "domain" : "skos:Concept",
+    "isDefinedBy" : "http://www.w3.org/2004/02/skos/core",
+    "label" : {
+      "@language" : "en",
+      "@value" : "is top concept in scheme"
+    },
+    "range" : "skos:ConceptScheme",
+    "subPropertyOf" : "skos:inScheme",
+    "inverseOf" : "skos:hasTopConcept"
+  }, {
+    "@id" : "omg_ont:chemische_stof",
+    "@type" : "owl:Ontology",
+    "abstract" : {
+      "@language" : "nl",
+      "@value" : "Het vocabularium chemische stof specifieert de RDF termen (klassen en properties) voor het beschrijven van chemische stoffen. Het maakt hierbij zoveel mogelijk gebruik van bestaande termen (klassen en properties) uit bestaande , skos, dbo, dbp en een minimale set van nieuwe termen gedefinieerd in het Chemische stof Vocabularium."
+    },
+    "alternative" : {
+      "@language" : "nl",
+      "@value" : "Chemische stof Ontologie"
+    },
+    "creator" : "omg_ag_cl:creator",
+    "description" : {
+      "@language" : "nl",
+      "@value" : "Dit is het vocabularium voor het beschrijven van een chemische stof in de codelijst van chemische stoffen."
+    },
+    "issued" : "2022-10-03",
+    "title" : {
+      "@language" : "nl",
+      "@value" : "Chemische stof Vocabularium"
+    },
+    "belongsTo" : "omg_dataset:codelijst-chemische_stof",
+    "last" : "vl_voc:chemische_stof",
+    "comment" : {
+      "@language" : "nl",
+      "@value" : "Specifieert welke klassen en properties gebruikt worden bij het beschrijven van een chemische stof."
+    },
+    "label" : {
+      "@language" : "nl",
+      "@value" : "Chemische stof Vocabularium"
+    },
+    "sameAs" : "vl_voc:chemische_stof",
+    "versionInfo" : {
+      "@language" : "nl",
+      "@value" : "Versie 1.0.0  oktober 2022"
+    }
+  }, {
+    "@id" : "omg_ag_cl:creator",
+    "@type" : "foaf:Person",
+    "affiliation" : "vl_org:OVO003751",
+    "label" : {
+      "@language" : "nl",
+      "@value" : "Ontwikkelaar codelijst"
+    },
+    "firstName" : "Geert",
+    "lastName" : "Van Haute",
+    "mbox" : "mailto:geert.vanhaute@vlaanderen.be"
+  }, {
+    "@id" : "vl_voc:chemische_stof",
+    "@type" : "owl:Ontology",
+    "label" : {
+      "@language" : "nl",
+      "@value" : "Chemische stof Vocabularium"
+    },
+    "member" : [ "skos:inScheme", "skos:Collection", "dbp:inchikey", "skos:topConceptOf", "dbo:pubchem", "skos:member", "dbo:casNumber", "dbo:Drug", "dbo:inchi", "dbo:ChemicalCompound", "skos:Concept", "skos:prefLabel", "dbo:iupacName", "dbo:ChemicalSubstance", "skos:ConceptScheme", "dbo:smiles", "dbo:formula", "skos:notation", "skos:altLabel", "skos:hasTopConcept" ],
+    "sameAs" : "omg_ont:chemische_stof"
+  }, {
+    "@id" : "vcs:vmmParameterId",
+    "@type" : [ "rdf:Property", "owl:DatatypeProperty" ],
+    "comment" : {
+      "@language" : "nl",
+      "@value" : "De identificator die door VMM wordt gebruikt om 'parameters' te identificeren. Met het begrip parameter duidt VMM intern zowel zuivere chemische stoffen, mengelingen van stoffen, een concatenatie van stoffen en analysecondities als fysico-chemische eigenschappen aan. In deze lijst wordt enkel verwezen naar zuivere chemische stoffen."
+    },
+    "domain" : "skos:Concept",
+    "isDefinedBy" : [ "vl_voc:chemische_stof", "omg_ont:chemische_stof" ],
+    "label" : {
+      "@language" : "nl",
+      "@value" : "VMM parameter identificator"
+    },
+    "range" : "xsd:int"
+  } ],
+  "@context" : {
+    "range" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#range",
+      "@type" : "@id"
+    },
+    "label" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#label"
+    },
+    "isDefinedBy" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#isDefinedBy",
+      "@type" : "@id"
+    },
+    "domain" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#domain",
+      "@type" : "@id"
+    },
+    "comment" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#comment"
+    },
+    "disjointWith" : {
+      "@id" : "http://www.w3.org/2002/07/owl#disjointWith",
+      "@type" : "@id"
+    },
+    "equivalentClass" : {
+      "@id" : "http://www.w3.org/2002/07/owl#equivalentClass",
+      "@type" : "@id"
+    },
+    "subClassOf" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#subClassOf",
+      "@type" : "@id"
+    },
+    "sameAs" : {
+      "@id" : "http://www.w3.org/2002/07/owl#sameAs",
+      "@type" : "@id"
+    },
+    "inverseOf" : {
+      "@id" : "http://www.w3.org/2002/07/owl#inverseOf",
+      "@type" : "@id"
+    },
+    "subPropertyOf" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#subPropertyOf",
+      "@type" : "@id"
+    },
+    "mbox" : {
+      "@id" : "http://xmlns.com/foaf/0.1/mbox",
+      "@type" : "@id"
+    },
+    "lastName" : {
+      "@id" : "http://xmlns.com/foaf/0.1/lastName"
+    },
+    "firstName" : {
+      "@id" : "http://xmlns.com/foaf/0.1/firstName"
+    },
+    "affiliation" : {
+      "@id" : "http://schema.org/affiliation",
+      "@type" : "@id"
+    },
+    "member" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#member",
+      "@type" : "@id"
+    },
+    "defines" : {
+      "@id" : "http://open.vocab.org/terms/defines",
+      "@type" : "@id"
+    },
+    "belongsTo" : {
+      "@id" : "http://rdf-vocabulary.ddialliance.org/xkos#belongsTo",
+      "@type" : "@id"
+    },
+    "abstract" : {
+      "@id" : "http://purl.org/dc/terms/abstract"
+    },
+    "alternative" : {
+      "@id" : "http://purl.org/dc/terms/alternative"
+    },
+    "description" : {
+      "@id" : "http://purl.org/dc/terms/description"
+    },
+    "creator" : {
+      "@id" : "http://purl.org/dc/terms/creator",
+      "@type" : "@id"
+    },
+    "title" : {
+      "@id" : "http://purl.org/dc/terms/title"
+    },
+    "last" : {
+      "@id" : "http://www.w3.org/1999/xhtml/vocab#last",
+      "@type" : "@id"
+    },
+    "versionInfo" : {
+      "@id" : "http://www.w3.org/2002/07/owl#versionInfo"
+    },
+    "issued" : {
+      "@id" : "http://purl.org/dc/terms/issued",
+      "@type" : "http://www.w3.org/2001/XMLSchema#date"
+    },
+    "schema" : "http://schema.org/",
+    "vl_org" : "http://data.vlaanderen.be/id/organisatie/",
+    "owl" : "http://www.w3.org/2002/07/owl#",
+    "vcs" : "https://data.vlaanderen.be/ns/chemische_stof#",
+    "ov" : "http://open.vocab.org/terms/",
+    "xhv" : "http://www.w3.org/1999/xhtml/vocab#",
+    "xsd" : "http://www.w3.org/2001/XMLSchema#",
+    "skos" : "http://www.w3.org/2004/02/skos/core#",
+    "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",
+    "omg_dataset" : "https://data.omgeving.vlaanderen.be/id/dataset/",
+    "xkos" : "http://rdf-vocabulary.ddialliance.org/xkos#",
+    "dbo" : "http://dbpedia.org/ontology/",
+    "dbp" : "http://dbpedia.org/property/",
+    "omg_ont" : "https://data.omgeving.vlaanderen.be/id/ontology/",
+    "skos_core" : "http://www.w3.org/2004/02/skos/core",
+    "dct" : "http://purl.org/dc/terms/",
+    "rdf" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "wdrs" : "http://www.w3.org/2007/05/powder-s#",
+    "vl_voc" : "https://data.omgeving.vlaanderen.be/ns/",
+    "prov" : "http://www.w3.org/ns/prov#",
+    "wikidata" : "http://www.wikidata.org/entity/",
+    "omg_ag_cl" : "https://data.omgeving.vlaanderen.be/id/person/codelijst/",
+    "foaf" : "http://xmlns.com/foaf/0.1/"
+  }
+}

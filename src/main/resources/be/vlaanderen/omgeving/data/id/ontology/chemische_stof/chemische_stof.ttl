@@ -1,0 +1,204 @@
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix vcs:   <https://data.vlaanderen.be/ns/chemische_stof#> .
+@prefix ov:    <http://open.vocab.org/terms/> .
+@prefix xhv:   <http://www.w3.org/1999/xhtml/vocab#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix omg_dataset: <https://data.omgeving.vlaanderen.be/id/dataset/> .
+@prefix xkos:  <http://rdf-vocabulary.ddialliance.org/xkos#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix dbp:   <http://dbpedia.org/property/> .
+@prefix omg_ont: <https://data.omgeving.vlaanderen.be/id/ontology/> .
+@prefix skos_core: <http://www.w3.org/2004/02/skos/core> .
+@prefix dct:   <http://purl.org/dc/terms/> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix wdrs:  <http://www.w3.org/2007/05/powder-s#> .
+@prefix vl_voc: <https://data.omgeving.vlaanderen.be/ns/> .
+@prefix prov:  <http://www.w3.org/ns/prov#> .
+@prefix wikidata: <http://www.wikidata.org/entity/> .
+@prefix omg_ag_cl: <https://data.omgeving.vlaanderen.be/id/person/codelijst/> .
+@prefix schema:        <http://schema.org/> .
+@prefix foaf:          <http://xmlns.com/foaf/0.1/> .
+@prefix vl_org:        <http://data.vlaanderen.be/id/organisatie/> .
+
+vl_voc:chemische_stof
+    a            owl:Ontology ;
+    rdfs:label   "Chemische stof Vocabularium"@nl ;
+    rdfs:member  dbp:inchikey , dbo:pubchem , dbo:casNumber , dbo:Drug , dbo:inchi , dbo:ChemicalCompound , dbo:iupacName , dbo:ChemicalSubstance , dbo:smiles , dbo:formula  , skos:altLabel , skos:Collection , skos:Concept , skos:ConceptScheme , skos:hasTopConcept , skos:inScheme , skos:member , skos:notation , skos:prefLabel , skos:topConceptOf;
+    owl:sameAs   omg_ont:chemische_stof .
+
+omg_ont:chemische_stof
+    a                owl:Ontology ;
+    rdfs:comment     "Specifieert welke klassen en properties gebruikt worden bij het beschrijven van een chemische stof."@nl ;
+    rdfs:label       "Chemische stof Vocabularium"@nl ;
+    dct:abstract     "Het vocabularium chemische stof specifieert de RDF termen (klassen en properties) voor het beschrijven van chemische stoffen. Het maakt hierbij zoveel mogelijk gebruik van bestaande termen (klassen en properties) uit bestaande , skos, dbo, dbp en een minimale set van nieuwe termen gedefinieerd in het Chemische stof Vocabularium."@nl ;
+    dct:alternative  "Chemische stof Ontologie"@nl ;
+    dct:creator      omg_ag_cl:creator ;
+    dct:description  "Dit is het vocabularium voor het beschrijven van een chemische stof in de codelijst van chemische stoffen."@nl ;
+    dct:issued       "2022-10-03"^^xsd:date ;
+    dct:title        "Chemische stof Vocabularium"@nl ;
+    xkos:belongsTo   omg_dataset:codelijst-chemische_stof ;
+    xhv:last         vl_voc:chemische_stof ;
+    owl:sameAs       vl_voc:chemische_stof ;
+    owl:versionInfo  "Versie 1.0.0  oktober 2022"@nl .
+
+omg_ag_cl:creator
+    rdfs:label "Ontwikkelaar codelijst"@nl ;
+    schema:affiliation vl_org:OVO003751 ;
+    a foaf:Person;
+    foaf:firstName "Geert";
+    foaf:lastName "Van Haute";
+    foaf:mbox <mailto:geert.vanhaute@vlaanderen.be>.
+
+vcs:vmmParameterId  a     owl:DatatypeProperty , rdf:Property ;
+                    rdfs:comment      "De identificator die door VMM wordt gebruikt om 'parameters' te identificeren. Met het begrip parameter duidt VMM intern zowel zuivere chemische stoffen, mengelingen van stoffen, een concatenatie van stoffen en analysecondities als fysico-chemische eigenschappen aan. In deze lijst wordt enkel verwezen naar zuivere chemische stoffen."@nl ;
+                    rdfs:domain       skos:Concept ;
+                    rdfs:isDefinedBy  omg_ont:chemische_stof , vl_voc:chemische_stof ;
+                    rdfs:label        "VMM parameter identificator"@nl ;
+                    rdfs:range        xsd:int .
+
+
+dbo:  a   owl:Ontology ;
+      ov:defines  dbo:Drug , dbo:smiles , dbo:pubchem , dbo:iupacName , dbo:inchi , dbo:formula , dbo:ChemicalSubstance , dbo:ChemicalCompound , dbo:casNumber .
+
+
+dbo:ChemicalCompound  a      owl:Class ;
+                      rdfs:comment         "Een stof is in de scheikunde een vorm van materie die een gelijke chemische samenstelling heeft, een chemisch zuivere stof. Deze wordt gekenmerkt door specifieke, uniforme stofeigenschappen, zoals dichtheid, geleidbaarheid en smeltpunt."@nl ;
+                      rdfs:isDefinedBy     dbo: ;
+                      rdfs:label           "chemische Verbindung"@de , "chemical compound"@en , "chemische verbinding"@nl , "produit chimique"@fr ;
+                      rdfs:subClassOf      dbo:ChemicalSubstance ;
+                      owl:equivalentClass  wikidata:Q11173 .
+
+dbo:ChemicalSubstance
+    a                 owl:Class ;
+    rdfs:comment      "Een stof is in de scheikunde een vorm van materie die een gelijke chemische samenstelling heeft, een chemisch zuivere stof. Deze wordt gekenmerkt door specifieke, uniforme stofeigenschappen, zoals dichtheid, geleidbaarheid en smeltpunt."@nl ;
+    rdfs:isDefinedBy  dbo: ;
+    rdfs:label        "chemical substance"@en , "substance chimique"@fr , "chemische substantie"@nl , "chemische Substanz"@de ;
+    rdfs:subClassOf   owl:Thing .
+
+dbo:Drug  a                 owl:Class ;
+          rdfs:isDefinedBy   dbo: ;
+          rdfs:label           "geneesmiddel"@nl , "drug"@en ;
+          rdfs:subClassOf      dbo:ChemicalSubstance ;
+          owl:equivalentClass  wikidata:Q8386 .
+
+dbo:formula  a            rdf:Property , owl:DatatypeProperty ;
+             rdfs:comment      "De molecuulformule is de korte aanduiding voor een molecuul die aangeeft uit welke elementen en in welke aantallen atomen het is opgebouwd. "@nl ;
+             rdfs:domain       dbo:ChemicalSubstance ;
+             rdfs:isDefinedBy  dbo: ;
+             rdfs:label        "formule"@nl , "formule"@fr , "formula"@en , "Formel"@de ;
+             rdfs:range        xsd:string .
+
+dbo:casNumber  a          rdf:Property , owl:DatatypeProperty ;
+               rdfs:comment      "Chemical Abstracts Service number. Applicable to ChemicalCompound or Biomolecule (eg Protein)"@en , "Een CAS-nummer is een unieke numerieke identifier voor chemische elementen, componenten, polymeren, en legeringen. CAS staat voor Chemical Abstracts Service, een divisie van de American Chemical Society. Soms zijn er verschillende CAS-nummers (\"other CAS\") die exact hetzelfde betekenen. Dit heeft meestal te maken met oudere CAS-nummers die werden toegekend op het moment dat de stof nog niet helemaal gekarakteriseerd was. Later kan men er aldus op uit komen dat verschillende CAS-nummers op eenzelfde molecule betrekking hebben."@nl ;
+               rdfs:isDefinedBy  dbo: ;
+               rdfs:label        "CAS number"@en , "numéro CAS"@fr , "CAS nummer"@nl ;
+               rdfs:range        xsd:string .
+
+
+dbo:pubchem  a            rdf:Property , owl:DatatypeProperty ;
+             rdfs:comment      "Verwijst binnen deze stoffenlijst naar de PubChem CID, de unieke 'compound identifier' van PubChem. PubChem is een databank van chemische molecules en hun bio-assays."@nl ;
+             rdfs:domain       dbo:ChemicalSubstance ;
+             rdfs:isDefinedBy  dbo: ;
+             rdfs:label        "PubChem"@fr , "PubChem"@ja , "PubChem"@en , "Pubchem"@nl ;
+             rdfs:range        xsd:string .
+
+
+
+dbo:inchi  a              owl:DatatypeProperty , rdf:Property ;
+           rdfs:comment      "De International Chemical Identifier, afgekort InChI, is een tekstuele identificatiecode voor chemische stoffen, vooral bedoeld om moleculen ondubbelzinnig en op een voor mensen leesbare manier te coderen, waarbij het zoeken naar die stof in databanken en via het web gemakkelijker zou worden gemaakt."@nl ;
+           rdfs:domain       dbo:ChemicalCompound ;
+           rdfs:isDefinedBy  dbo: ;
+           rdfs:label        "IUPAC internationale chemische identifier"@nl , "The IUPAC International Chemical Identifier"@en , "Internationale chemische Bezeichnung der IUPAC"@de ;
+           rdfs:range        xsd:string ;
+           owl:sameAs        dbo:inchi .
+
+dbo:iupacName  a          owl:DatatypeProperty , rdf:Property ;
+               rdfs:comment      "IUPAC-nomenclatuur is een systematische manier om elementen en chemische verbindingen te benoemen zoals die door de International Union of Pure and Applied Chemistry (IUPAC) wordt voorgestaan. Vooral in de organische chemie wordt het systeem toegepast, maar met het complexer worden van de stoffen in de anorganische chemie wordt ook daar het gebruik van systematische namen belangrijker. In de IUPAC-nomenclatuur worden stamnamen, plaatsnummers, voorvoegsels, achtervoegsels en tussenvoegsels gebruikt om het type en de positie van zijketens en/of functionele groepen in het molecuul te beschrijven."@nl ;
+               rdfs:domain       dbo:Drug ;
+               rdfs:isDefinedBy  dbo: ;
+               rdfs:label        "IUPAC name"@en , "IUPAC-naam"@nl ;
+               rdfs:range        rdf:langString .
+
+dbo:smiles  a             owl:DatatypeProperty , rdf:Property ;
+            rdfs:comment      "The Simplified Molecular-Input Line-Entry System or SMILES is a specification in form of a line notation for describing the structure of chemical molecules using short ASCII strings."@en , "SMILES of voluit simplified molecular-input line-entry specification is een specificatie om de structuur van chemische moleculen op eenduidige wijze te beschrijven als een tekenreeks. SMILES kunnen door de meeste chemische tekenprogramma's ingelezen worden en worden omgezet in een tweedimensionale tekening of een driedimensionaal model van het molecuul. "@nl ;
+            rdfs:domain       dbo:ChemicalCompound ;
+            rdfs:isDefinedBy  dbo: ;
+            rdfs:label        "SMILES"@en , "SMILES"@nl ;
+            rdfs:range        xsd:string .
+
+dbp:  a   owl:Ontology .
+
+dbp:inchikey  a       rdf:Property , owl:DatatypeProperty ;
+              rdfs:comment  "InChIKey is een formaat met een vaste lengte die rechtstreeks is afgeleid van InChI. Het is gebaseerd op een sterke hash (SHA-256-algoritme) van een InChI-string."@nl ;
+              rdfs:isDefinedBy  dbp: ;
+              rdfs:label    "InChIKey"@en , "InChIKey"@nl .
+
+skos_core:  a   owl:Ontology .
+
+
+
+skos:Concept  a           owl:Class ;
+              rdfs:isDefinedBy  skos_core: ;
+              rdfs:label        "Concept"@en .
+
+skos:ConceptScheme  a     owl:Class ;
+                    rdfs:isDefinedBy  skos_core: ;
+                    rdfs:label        "Concept Scheme"@en ;
+                    owl:disjointWith  skos:Concept .
+
+skos:Collection  a        owl:Class ;
+                 rdfs:isDefinedBy  skos_core: ;
+                 rdfs:label        "Collection"@en ;
+                 owl:disjointWith  skos:Concept , skos:ConceptScheme .
+
+skos:inScheme  a          owl:ObjectProperty , rdf:Property ;
+               rdfs:isDefinedBy  skos_core: ;
+               rdfs:label        "is in scheme"@en ;
+               rdfs:range        skos:ConceptScheme .
+
+skos:topConceptOf  a        owl:ObjectProperty , rdf:Property ;
+                   rdfs:domain         skos:Concept ;
+                   rdfs:isDefinedBy    skos_core: ;
+                   rdfs:label          "is top concept in scheme"@en ;
+                   rdfs:range          skos:ConceptScheme ;
+                   rdfs:subPropertyOf  skos:inScheme ;
+                   owl:inverseOf       skos:hasTopConcept .
+
+skos:member  a            owl:ObjectProperty ;
+             rdfs:domain       skos:Collection ;
+             rdfs:isDefinedBy  skos_core: ;
+             rdfs:label        "has member"@en .
+
+skos:prefLabel  a           rdf:Property , owl:AnnotationProperty ;
+                rdfs:isDefinedBy    skos_core: ;
+                rdfs:label          "preferred label"@en ;
+                rdfs:subPropertyOf  rdfs:label .
+
+
+skos:notation  a          rdf:Property , owl:DatatypeProperty ;
+               rdfs:isDefinedBy  skos_core: ;
+               rdfs:label        "notation"@en .
+
+skos:altLabel  a            rdf:Property , owl:AnnotationProperty ;
+               rdfs:isDefinedBy    skos_core: ;
+               rdfs:label          "alternative label"@en ;
+               rdfs:subPropertyOf  rdfs:label .
+
+
+skos:hasTopConcept  a     owl:ObjectProperty , rdf:Property ;
+                    rdfs:domain       skos:ConceptScheme ;
+                    rdfs:isDefinedBy  skos_core: ;
+                    rdfs:label        "has top concept"@en ;
+                    rdfs:range        skos:Concept ;
+                    owl:inverseOf     skos:topConceptOf .
+
+rdfs: a owl:Ontology .
+
+rdfs:seeAlso  a           rdf:Property ;
+              rdfs:domain       rdfs:Resource ;
+              rdfs:isDefinedBy  rdfs: ;
+              rdfs:label        "seeAlso" ;
+              rdfs:range        rdfs:Resource .
+

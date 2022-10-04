@@ -1,0 +1,698 @@
+{
+  "@graph" : [ {
+    "@id" : "_:b4",
+    "inversePath" : "skos:notation"
+  }, {
+    "@id" : "_:b5",
+    "inversePath" : "dbo:casNumber"
+  }, {
+    "@id" : "ons:chemische_stof",
+    "@type" : "sh:NodeShape",
+    "comment" : {
+      "@language" : "nl",
+      "@value" : "De uniciteit van een chemische stof wordt bepaald door haar IUPAC-naam. InChI's kunnen gezien worden als verkorte, geformaliseerde versies van de IUPAC-namen van stoffen. InChIKey is een formaat met een vaste lengte dat direct is afgeleid van een InChI. De URI van de chemische stoffen is gebaseerd op de InChIKey."
+    },
+    "isDefinedBy" : [ "omg_voc:chemische-stof-ap-constraints", "omg_ont:chemische-stof-ap-constraints" ],
+    "label" : {
+      "@language" : "nl",
+      "@value" : "chemische stof"
+    },
+    "description" : {
+      "@language" : "nl",
+      "@value" : "Een stof is in de scheikunde een vorm van materie die een gelijke chemische samenstelling heeft, een chemisch zuivere stof. Deze wordt gekenmerkt door specifieke, uniforme stofeigenschappen, zoals dichtheid, geleidbaarheid en smeltpunt."
+    },
+    "name" : {
+      "@language" : "nl",
+      "@value" : "chemische stof"
+    },
+    "property" : [ "omg_ps:chemische_stof_seeAlso", "omg_ps:chemische_stof_inchi", "omg_ps:chemische_stof_notation", "omg_ps:chemische_stof_casNumber", "omg_ps:chemische_stof_vmmParameterId", "omg_ps:chemische_stof_smiles", "omg_ps:chemische_stof_iupacName", "omg_ps:chemische_stof_exactMatch", "omg_ps:chemische_stof_inScheme", "omg_ps:chemische_stof_isSubjectOf", "omg_ps:chemische_stof_definition", "omg_ps:chemische_stof_altLabel", "omg_ps:chemische_stof_formula", "omg_ps:chemische_stof_prefLabel", "omg_ps:chemische_stof_inchikey", "omg_ps:chemische_stof_topConceptOf", "omg_ps:chemische_stof_pubchem" ],
+    "targetClass" : [ "skos:Concept", "dbo:ChemicalSubstance", "dbo:ChemicalCompound" ]
+  }, {
+    "@id" : "ons:chemische_stof_collection",
+    "@type" : "sh:NodeShape",
+    "isDefinedBy" : [ "omg_voc:chemische-stof-ap-constraints", "omg_ont:chemische-stof-ap-constraints" ],
+    "label" : {
+      "@language" : "nl",
+      "@value" : "verzameling"
+    },
+    "description" : {
+      "@language" : "nl",
+      "@value" : "Verzamelingen bundelen chemische stoffen met gelijkaardige eigenschappen, analysemethoden of matrices waarin ze gemeten worden."
+    },
+    "name" : {
+      "@language" : "nl",
+      "@value" : "verzameling"
+    },
+    "property" : [ "omg_ps:chemische_stof_collection_member", "omg_ps:chemische_stof_prefLabel", "omg_ps:chemische_stof_inScheme" ],
+    "targetClass" : "skos:Collection"
+  }, {
+    "@id" : "ons:chemische_stof_schema",
+    "@type" : "sh:NodeShape",
+    "isDefinedBy" : [ "omg_ont:chemische-stof-ap-constraints", "omg_voc:chemische-stof-ap-constraints" ],
+    "label" : {
+      "@language" : "nl",
+      "@value" : "conceptschema van chemische stoffen"
+    },
+    "description" : {
+      "@language" : "nl",
+      "@value" : "Het schema waarbinnen de chemische stoffen gedefinieerd zijn"
+    },
+    "name" : {
+      "@language" : "nl",
+      "@value" : "conceptschema van chemische stoffen"
+    },
+    "property" : [ "omg_ps:chemische_stof_prefLabel", "omg_ps:chemische_stof_schema_hasTopConcept", "omg_ps:chemische_stof_definition" ],
+    "targetClass" : "skos:ConceptScheme"
+  }, {
+    "@id" : "omg_ont:chemische-stof-ap-constraints",
+    "@type" : "owl:Ontology",
+    "abstract" : {
+      "@language" : "nl",
+      "@value" : "Het chemische stof applicatieprofiel specifieert de RDF termen (klassen en properties) en bijhorende constraints die gebruikt worden voor het beschrijven van chemische stoffen. Het maakt hierbij zoveel mogelijk gebruik van bestaande termen (klassen en properties) uit bestaande , skos, dbo, dbp en een minimale set van nieuwe termen gedefinieerd in het Chemische stof Vocabularium."
+    },
+    "alternative" : {
+      "@language" : "nl",
+      "@value" : "Chemische stof AP Shapes"
+    },
+    "creator" : "omg_ag_cl:creator",
+    "dct:description" : {
+      "@language" : "nl",
+      "@value" : "Dit is de SHACL encodering van het applicatieprofiel van een chemische stof."
+    },
+    "issued" : "2022-10-03",
+    "title" : {
+      "@language" : "nl",
+      "@value" : "Chemische stof AP Constraints"
+    },
+    "belongsTo" : "omg_dataset:codelijst-chemische_stof",
+    "last" : "omg_voc:chemische-stof-ap-constraints",
+    "comment" : {
+      "@language" : "nl",
+      "@value" : "Specifieert hoe de data in de codelijst van chemische stoffen te encoderen in RDF (i.e. RDF termen, kardinaliteiten,...)."
+    },
+    "label" : {
+      "@language" : "nl",
+      "@value" : "Chemische stof AP Constraints"
+    },
+    "sameAs" : "omg_voc:chemische-stof-ap-constraints",
+    "versionInfo" : {
+      "@language" : "nl",
+      "@value" : "Versie 1.0.0  oktober 2022"
+    }
+  }, {
+    "@id" : "omg_ag_cl:creator",
+    "@type" : "foaf:Person",
+    "affiliation" : "vl_org:OVO003751",
+    "label" : {
+      "@language" : "nl",
+      "@value" : "Ontwikkelaar codelijst"
+    },
+    "firstName" : "Geert",
+    "lastName" : "Van Haute",
+    "mbox" : "mailto:geert.vanhaute@vlaanderen.be"
+  }, {
+    "@id" : "omg_ps:chemische_stof_altLabel",
+    "@type" : "sh:PropertyShape",
+    "isDefinedBy" : [ "omg_ont:chemische-stof-ap-constraints", "omg_voc:chemische-stof-ap-constraints" ],
+    "label" : {
+      "@language" : "nl",
+      "@value" : "alternatief label"
+    },
+    "datatype" : "rdf:langString",
+    "description" : {
+      "@language" : "nl",
+      "@value" : "Een alternatief lexicaal label voor een bepaalde bron."
+    },
+    "sh:languageIn" : {
+      "@list" : [ "nl" ]
+    },
+    "name" : {
+      "@language" : "nl",
+      "@value" : "alternatief label"
+    },
+    "nodeKind" : "sh:Literal",
+    "path" : "skos:altLabel"
+  }, {
+    "@id" : "omg_ps:chemische_stof_casNumber",
+    "@type" : "sh:PropertyShape",
+    "isDefinedBy" : [ "omg_voc:chemische-stof-ap-constraints", "omg_ont:chemische-stof-ap-constraints" ],
+    "label" : {
+      "@language" : "nl",
+      "@value" : "CAS nummer"
+    },
+    "datatype" : "xsd:string",
+    "description" : {
+      "@language" : "nl",
+      "@value" : "Een CAS-nummer is een unieke numerieke identifier voor chemische elementen, componenten, polymeren, en legeringen. CAS staat voor Chemical Abstracts Service, een divisie van de American Chemical Society. Soms zijn er verschillende CAS-nummers (\"other CAS\") die exact hetzelfde betekenen. Dit heeft meestal te maken met oudere CAS-nummers die werden toegekend op het moment dat de stof nog niet helemaal gekarakteriseerd was. Later kan men er aldus op uit komen dat verschillende CAS-nummers op eenzelfde molecule betrekking hebben."
+    },
+    "sh:minCount" : 1,
+    "name" : {
+      "@language" : "nl",
+      "@value" : "CAS nummer"
+    },
+    "nodeKind" : "sh:Literal",
+    "path" : "dbo:casNumber",
+    "property" : "omg_ps:chemische_stof_unique_casNumber"
+  }, {
+    "@id" : "omg_ps:chemische_stof_collection_member",
+    "@type" : "sh:PropertyShape",
+    "isDefinedBy" : [ "omg_ont:chemische-stof-ap-constraints", "omg_voc:chemische-stof-ap-constraints" ],
+    "label" : {
+      "@language" : "nl",
+      "@value" : ""
+    },
+    "class" : [ "skos:Concept", "dbo:ChemicalCompound", "dbo:ChemicalSubstance" ],
+    "description" : {
+      "@language" : "nl",
+      "@value" : ""
+    },
+    "sh:minCount" : 1,
+    "name" : {
+      "@language" : "nl",
+      "@value" : ""
+    },
+    "nodeKind" : "sh:IRI",
+    "path" : "skos:member"
+  }, {
+    "@id" : "omg_ps:chemische_stof_definition",
+    "@type" : "sh:PropertyShape",
+    "isDefinedBy" : [ "omg_voc:chemische-stof-ap-constraints", "omg_ont:chemische-stof-ap-constraints" ],
+    "label" : {
+      "@language" : "nl",
+      "@value" : "definitie"
+    },
+    "datatype" : "rdf:langString",
+    "description" : {
+      "@language" : "nl",
+      "@value" : "Een uitspraak over de betekenis van het concept, de collectie of het schema."
+    },
+    "sh:languageIn" : {
+      "@list" : [ "nl" ]
+    },
+    "sh:maxCount" : 1,
+    "name" : {
+      "@language" : "nl",
+      "@value" : "definitie"
+    },
+    "nodeKind" : "sh:Literal",
+    "path" : "skos:definition"
+  }, {
+    "@id" : "omg_ps:chemische_stof_exactMatch",
+    "@type" : "sh:PropertyShape",
+    "isDefinedBy" : [ "omg_voc:chemische-stof-ap-constraints", "omg_ont:chemische-stof-ap-constraints" ],
+    "label" : {
+      "@language" : "nl",
+      "@value" : "heeft exacte overeenkomst"
+    },
+    "description" : {
+      "@language" : "nl",
+      "@value" : "skos:exactMatch wordt gebruikt om twee concepten te koppelen, wat aangeeft dat er een hoge mate van vertrouwen bestaat dat de concepten onderling uitwisselbaar kunnen worden gebruikt in een breed scala aan toepassingen voor het ophalen van informatie. skos:exactMatch is een transitieve eigenschap en is een subeigenschap van skos:closeMatch"
+    },
+    "name" : {
+      "@language" : "nl",
+      "@value" : "heeft exacte overeenkomst"
+    },
+    "nodeKind" : "sh:IRI",
+    "path" : "skos:exactMatch"
+  }, {
+    "@id" : "omg_ps:chemische_stof_formula",
+    "@type" : "sh:PropertyShape",
+    "isDefinedBy" : [ "omg_voc:chemische-stof-ap-constraints", "omg_ont:chemische-stof-ap-constraints" ],
+    "label" : {
+      "@language" : "nl",
+      "@value" : "formule"
+    },
+    "datatype" : "xsd:string",
+    "description" : {
+      "@language" : "nl",
+      "@value" : "De molecuulformule is de korte aanduiding voor een molecuul die aangeeft uit welke elementen en in welke aantallen atomen het is opgebouwd. "
+    },
+    "sh:maxCount" : 1,
+    "sh:minCount" : 1,
+    "name" : {
+      "@language" : "nl",
+      "@value" : "formule"
+    },
+    "nodeKind" : "sh:Literal",
+    "path" : "dbo:formula"
+  }, {
+    "@id" : "omg_ps:chemische_stof_inScheme",
+    "@type" : "sh:PropertyShape",
+    "isDefinedBy" : [ "omg_voc:chemische-stof-ap-constraints", "omg_ont:chemische-stof-ap-constraints" ],
+    "label" : {
+      "@language" : "nl",
+      "@value" : "is in schema"
+    },
+    "class" : "skos:ConceptScheme",
+    "description" : {
+      "@language" : "nl",
+      "@value" : "Drukt de relatie uit tussen een 'resource' en het schema dat het bevat."
+    },
+    "sh:maxCount" : 1,
+    "sh:minCount" : 1,
+    "name" : {
+      "@language" : "nl",
+      "@value" : "is in schema"
+    },
+    "nodeKind" : "sh:IRI",
+    "path" : "skos:inScheme"
+  }, {
+    "@id" : "omg_ps:chemische_stof_inchi",
+    "@type" : "sh:PropertyShape",
+    "isDefinedBy" : [ "omg_voc:chemische-stof-ap-constraints", "omg_ont:chemische-stof-ap-constraints" ],
+    "label" : {
+      "@language" : "nl",
+      "@value" : "InChI"
+    },
+    "datatype" : "xsd:string",
+    "description" : {
+      "@language" : "nl",
+      "@value" : "De International Chemical Identifier, afgekort InChI, is een tekstuele identificatiecode voor chemische stoffen, vooral bedoeld om moleculen ondubbelzinnig en op een voor mensen leesbare manier te coderen, waarbij het zoeken naar die stof in databanken en via het web gemakkelijker zou worden gemaakt. "
+    },
+    "sh:maxCount" : 1,
+    "sh:minCount" : 1,
+    "name" : {
+      "@language" : "nl",
+      "@value" : "InChI"
+    },
+    "nodeKind" : "sh:Literal",
+    "path" : "dbo:inchi"
+  }, {
+    "@id" : "omg_ps:chemische_stof_inchikey",
+    "@type" : "sh:PropertyShape",
+    "isDefinedBy" : [ "omg_voc:chemische-stof-ap-constraints", "omg_ont:chemische-stof-ap-constraints" ],
+    "label" : {
+      "@language" : "nl",
+      "@value" : "InChIKey"
+    },
+    "datatype" : "xsd:string",
+    "description" : {
+      "@language" : "nl",
+      "@value" : "InChIKey is een formaat met een vaste lengte die rechtstreeks is afgeleid van InChI. Het is gebaseerd op een sterke hash (SHA-256-algoritme) van een InChI-string."
+    },
+    "sh:maxCount" : 1,
+    "sh:minCount" : 1,
+    "name" : {
+      "@language" : "nl",
+      "@value" : "InChIKey"
+    },
+    "nodeKind" : "sh:Literal",
+    "path" : "dbp:inchikey"
+  }, {
+    "@id" : "omg_ps:chemische_stof_isSubjectOf",
+    "@type" : "sh:PropertyShape",
+    "isDefinedBy" : [ "omg_voc:chemische-stof-ap-constraints", "omg_ont:chemische-stof-ap-constraints" ],
+    "label" : {
+      "@language" : "nl",
+      "@value" : "is onderwerp van"
+    },
+    "datatype" : "rdf:langString",
+    "description" : {
+      "@language" : "nl",
+      "@value" : "Binnen dit schema wordt skos:isSubjectOf gebruikt om de relatie naar wetgeving en analysemethodes te leggen, die betrekking hebben op de chemische stof."
+    },
+    "sh:languageIn" : {
+      "@list" : [ "nl" ]
+    },
+    "name" : {
+      "@language" : "nl",
+      "@value" : "is onderwerp van"
+    },
+    "nodeKind" : "sh:Literal",
+    "path" : "skos:isSubjectOf"
+  }, {
+    "@id" : "omg_ps:chemische_stof_iupacName",
+    "@type" : "sh:PropertyShape",
+    "isDefinedBy" : [ "omg_ont:chemische-stof-ap-constraints", "omg_voc:chemische-stof-ap-constraints" ],
+    "label" : {
+      "@language" : "nl",
+      "@value" : "IUPAC-naam"
+    },
+    "datatype" : "rdf:langString",
+    "description" : {
+      "@language" : "nl",
+      "@value" : "IUPAC-nomenclatuur is een systematische manier om elementen en chemische verbindingen te benoemen zoals die door de International Union of Pure and Applied Chemistry (IUPAC) wordt voorgestaan. Vooral in de organische chemie wordt het systeem toegepast, maar met het complexer worden van de stoffen in de anorganische chemie wordt ook daar het gebruik van systematische namen belangrijker. In de IUPAC-nomenclatuur worden stamnamen, plaatsnummers, voorvoegsels, achtervoegsels en tussenvoegsels gebruikt om het type en de positie van zijketens en/of functionele groepen in het molecuul te beschrijven."
+    },
+    "sh:languageIn" : {
+      "@list" : [ "en" ]
+    },
+    "sh:maxCount" : 1,
+    "name" : {
+      "@language" : "nl",
+      "@value" : "IUPAC-naam"
+    },
+    "nodeKind" : "sh:Literal",
+    "path" : "dbo:iupacName"
+  }, {
+    "@id" : "omg_ps:chemische_stof_notation",
+    "@type" : "sh:PropertyShape",
+    "isDefinedBy" : [ "omg_voc:chemische-stof-ap-constraints", "omg_ont:chemische-stof-ap-constraints" ],
+    "label" : {
+      "@language" : "nl",
+      "@value" : "notatie"
+    },
+    "datatype" : "xsd:string",
+    "description" : {
+      "@language" : "nl",
+      "@value" : "Een notatie, ook wel classificatiecode genoemd, is een reeks tekens zoals \"PCB151\" of \"EtFOSA\" die wordt gebruikt om een stof op unieke wijze te identificeren binnen de context van dit schema."
+    },
+    "name" : {
+      "@language" : "nl",
+      "@value" : "notatie"
+    },
+    "nodeKind" : "sh:Literal",
+    "path" : "skos:notation",
+    "property" : "omg_ps:chemische_stof_unique_notation"
+  }, {
+    "@id" : "omg_ps:chemische_stof_prefLabel",
+    "@type" : "sh:PropertyShape",
+    "isDefinedBy" : [ "omg_voc:chemische-stof-ap-constraints", "omg_ont:chemische-stof-ap-constraints" ],
+    "label" : {
+      "@language" : "nl",
+      "@value" : "voorkeurslabel"
+    },
+    "datatype" : "rdf:langString",
+    "description" : {
+      "@language" : "nl",
+      "@value" : "Het voorkeurslabel in de Nederlandse taal. Slechts 1 voorkeurslabel is toegelaten."
+    },
+    "sh:languageIn" : {
+      "@list" : [ "nl" ]
+    },
+    "sh:maxCount" : 1,
+    "sh:minCount" : 1,
+    "name" : {
+      "@language" : "nl",
+      "@value" : "voorkeurslabel"
+    },
+    "nodeKind" : "sh:Literal",
+    "path" : "skos:prefLabel"
+  }, {
+    "@id" : "omg_ps:chemische_stof_pubchem",
+    "@type" : "sh:PropertyShape",
+    "isDefinedBy" : [ "omg_ont:chemische-stof-ap-constraints", "omg_voc:chemische-stof-ap-constraints" ],
+    "label" : {
+      "@language" : "nl",
+      "@value" : "pubchem"
+    },
+    "datatype" : "xsd:int",
+    "description" : {
+      "@language" : "nl",
+      "@value" : "Verwijst binnen deze stoffenlijst naar de PubChem CID, de unieke 'compound identifier' van PubChem. PubChem is een databank van chemische molecules en hun bio-assays."
+    },
+    "sh:maxCount" : 1,
+    "name" : {
+      "@language" : "nl",
+      "@value" : "pubchem"
+    },
+    "nodeKind" : "sh:Literal",
+    "path" : "dbo:pubchem"
+  }, {
+    "@id" : "omg_ps:chemische_stof_schema_hasTopConcept",
+    "@type" : "sh:PropertyShape",
+    "isDefinedBy" : [ "omg_ont:chemische-stof-ap-constraints", "omg_voc:chemische-stof-ap-constraints" ],
+    "label" : {
+      "@language" : "nl",
+      "@value" : "heeft topconcept"
+    },
+    "class" : [ "skos:Concept", "dbo:ChemicalCompound", "dbo:ChemicalSubstance" ],
+    "description" : {
+      "@language" : "nl",
+      "@value" : "Verbindt een conceptschema met een concept dat bovenaan in een 'broader/narrower' hierarchie staat en voorziet aldus een ingang tot die hierarchie."
+    },
+    "sh:minCount" : 1,
+    "name" : {
+      "@language" : "nl",
+      "@value" : "heeft topconcept"
+    },
+    "nodeKind" : "sh:IRI",
+    "path" : "skos:hasTopConcept"
+  }, {
+    "@id" : "omg_ps:chemische_stof_seeAlso",
+    "@type" : "sh:PropertyShape",
+    "isDefinedBy" : [ "omg_voc:chemische-stof-ap-constraints", "omg_ont:chemische-stof-ap-constraints" ],
+    "label" : {
+      "@language" : "nl",
+      "@value" : "zie ook"
+    },
+    "description" : {
+      "@language" : "nl",
+      "@value" : "Een verwijzing naar een gelijkaardige 'resource' of een document over het onderwerp."
+    },
+    "sh:maxCount" : 1,
+    "name" : {
+      "@language" : "nl",
+      "@value" : "zie ook"
+    },
+    "nodeKind" : "sh:IRI",
+    "path" : "rdfs:seeAlso"
+  }, {
+    "@id" : "omg_ps:chemische_stof_smiles",
+    "@type" : "sh:PropertyShape",
+    "isDefinedBy" : [ "omg_ont:chemische-stof-ap-constraints", "omg_voc:chemische-stof-ap-constraints" ],
+    "label" : {
+      "@language" : "nl",
+      "@value" : "SMILES"
+    },
+    "datatype" : "xsd:string",
+    "description" : {
+      "@language" : "nl",
+      "@value" : "SMILES of voluit simplified molecular-input line-entry specification is een specificatie om de structuur van chemische moleculen op eenduidige wijze te beschrijven als een tekenreeks. SMILES kunnen door de meeste chemische tekenprogramma's ingelezen worden en worden omgezet in een tweedimensionale tekening of een driedimensionaal model van het molecuul. "
+    },
+    "sh:maxCount" : 1,
+    "sh:minCount" : 1,
+    "name" : {
+      "@language" : "nl",
+      "@value" : "SMILES"
+    },
+    "nodeKind" : "sh:Literal",
+    "path" : "dbo:smiles"
+  }, {
+    "@id" : "omg_ps:chemische_stof_topConceptOf",
+    "@type" : "sh:PropertyShape",
+    "isDefinedBy" : [ "omg_ont:chemische-stof-ap-constraints", "omg_voc:chemische-stof-ap-constraints" ],
+    "label" : {
+      "@language" : "nl",
+      "@value" : "topconcept van"
+    },
+    "class" : "skos:ConceptScheme",
+    "description" : {
+      "@language" : "nl",
+      "@value" : "De relatie tussen een concept en het schema, waarvan het een topconcept is."
+    },
+    "sh:maxCount" : 1,
+    "sh:minCount" : 1,
+    "name" : {
+      "@language" : "nl",
+      "@value" : "topconcept van"
+    },
+    "nodeKind" : "sh:IRI",
+    "path" : "skos:topConceptOf"
+  }, {
+    "@id" : "omg_ps:chemische_stof_unique_casNumber",
+    "@type" : "sh:PropertyShape",
+    "isDefinedBy" : [ "omg_ont:chemische-stof-ap-constraints", "omg_voc:chemische-stof-ap-constraints" ],
+    "label" : {
+      "@language" : "nl",
+      "@value" : "uniek CAS nummer"
+    },
+    "description" : {
+      "@language" : "nl",
+      "@value" : "Vanuit 1 CAS nummer kan slechts naar 1 stof worden verwezen."
+    },
+    "sh:maxCount" : 1,
+    "sh:minCount" : 1,
+    "name" : {
+      "@language" : "nl",
+      "@value" : "uniek CAS nummer"
+    },
+    "nodeKind" : "sh:IRI",
+    "path" : "_:b5",
+    "targetObjectsOf" : "dbo:casNumber"
+  }, {
+    "@id" : "omg_ps:chemische_stof_unique_notation",
+    "@type" : "sh:PropertyShape",
+    "isDefinedBy" : [ "omg_voc:chemische-stof-ap-constraints", "omg_ont:chemische-stof-ap-constraints" ],
+    "label" : {
+      "@language" : "nl",
+      "@value" : "unieke notatie"
+    },
+    "description" : {
+      "@language" : "nl",
+      "@value" : "Een notatie, ook wel classificatiecode genoemd, is een reeks tekens zoals \"PCB151\" of \"EtFOSA\" die wordt gebruikt om een stof op unieke wijze te identificeren binnen de context van dit schema. Er kan vanuit verschillende classificatiesystemen, met meerdere notaties verwezen worden naar een stof, maar een notatie is uniek voor een stof, ttz. vanuit 1 notatie kan slechts naar 1 stof worden verwezen."
+    },
+    "sh:maxCount" : 1,
+    "sh:minCount" : 1,
+    "name" : {
+      "@language" : "nl",
+      "@value" : "unieke notatie"
+    },
+    "nodeKind" : "sh:IRI",
+    "path" : "_:b4",
+    "targetObjectsOf" : "skos:notation"
+  }, {
+    "@id" : "omg_ps:chemische_stof_vmmParameterId",
+    "@type" : "sh:PropertyShape",
+    "isDefinedBy" : [ "omg_voc:chemische-stof-ap-constraints", "omg_ont:chemische-stof-ap-constraints" ],
+    "label" : {
+      "@language" : "nl",
+      "@value" : "VMM parameter identificator"
+    },
+    "datatype" : "xsd:int",
+    "description" : {
+      "@language" : "nl",
+      "@value" : "De identificator die door VMM wordt gebruikt om 'parameters' te identificeren. Met het begrip parameter duidt VMM intern zowel zuivere chemische stoffen, mengelingen van stoffen, een concatenatie van stoffen en analysecondities als fysico-chemische eigenschappen aan. In deze lijst wordt enkel verwezen naar zuivere chemische stoffen."
+    },
+    "name" : {
+      "@language" : "nl",
+      "@value" : "VMM parameter identificator"
+    },
+    "nodeKind" : "sh:Literal",
+    "path" : "vcs:vmmParameterId"
+  }, {
+    "@id" : "omg_voc:chemische-stof-ap-constraints",
+    "@type" : "owl:Ontology",
+    "label" : {
+      "@language" : "nl",
+      "@value" : "Chemische stof AP Constraints"
+    },
+    "sameAs" : "omg_ont:chemische-stof-ap-constraints"
+  } ],
+  "@context" : {
+    "path" : {
+      "@id" : "http://www.w3.org/ns/shacl#path",
+      "@type" : "@id"
+    },
+    "nodeKind" : {
+      "@id" : "http://www.w3.org/ns/shacl#nodeKind",
+      "@type" : "@id"
+    },
+    "maxCount" : {
+      "@id" : "http://www.w3.org/ns/shacl#maxCount",
+      "@type" : "http://www.w3.org/2001/XMLSchema#integer"
+    },
+    "isDefinedBy" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#isDefinedBy",
+      "@type" : "@id"
+    },
+    "description" : {
+      "@id" : "http://www.w3.org/ns/shacl#description"
+    },
+    "name" : {
+      "@id" : "http://www.w3.org/ns/shacl#name"
+    },
+    "label" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#label"
+    },
+    "minCount" : {
+      "@id" : "http://www.w3.org/ns/shacl#minCount",
+      "@type" : "http://www.w3.org/2001/XMLSchema#integer"
+    },
+    "datatype" : {
+      "@id" : "http://www.w3.org/ns/shacl#datatype",
+      "@type" : "@id"
+    },
+    "property" : {
+      "@id" : "http://www.w3.org/ns/shacl#property",
+      "@type" : "@id"
+    },
+    "targetClass" : {
+      "@id" : "http://www.w3.org/ns/shacl#targetClass",
+      "@type" : "@id"
+    },
+    "languageIn" : {
+      "@id" : "http://www.w3.org/ns/shacl#languageIn",
+      "@type" : "@id"
+    },
+    "class" : {
+      "@id" : "http://www.w3.org/ns/shacl#class",
+      "@type" : "@id"
+    },
+    "rest" : {
+      "@id" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#rest",
+      "@type" : "@id"
+    },
+    "first" : {
+      "@id" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#first"
+    },
+    "targetObjectsOf" : {
+      "@id" : "http://www.w3.org/ns/shacl#targetObjectsOf",
+      "@type" : "@id"
+    },
+    "inversePath" : {
+      "@id" : "http://www.w3.org/ns/shacl#inversePath",
+      "@type" : "@id"
+    },
+    "mbox" : {
+      "@id" : "http://xmlns.com/foaf/0.1/mbox",
+      "@type" : "@id"
+    },
+    "lastName" : {
+      "@id" : "http://xmlns.com/foaf/0.1/lastName"
+    },
+    "firstName" : {
+      "@id" : "http://xmlns.com/foaf/0.1/firstName"
+    },
+    "affiliation" : {
+      "@id" : "http://schema.org/affiliation",
+      "@type" : "@id"
+    },
+    "title" : {
+      "@id" : "http://purl.org/dc/terms/title"
+    },
+    "versionInfo" : {
+      "@id" : "http://www.w3.org/2002/07/owl#versionInfo"
+    },
+    "belongsTo" : {
+      "@id" : "http://rdf-vocabulary.ddialliance.org/xkos#belongsTo",
+      "@type" : "@id"
+    },
+    "alternative" : {
+      "@id" : "http://purl.org/dc/terms/alternative"
+    },
+    "abstract" : {
+      "@id" : "http://purl.org/dc/terms/abstract"
+    },
+    "issued" : {
+      "@id" : "http://purl.org/dc/terms/issued",
+      "@type" : "http://www.w3.org/2001/XMLSchema#date"
+    },
+    "sameAs" : {
+      "@id" : "http://www.w3.org/2002/07/owl#sameAs",
+      "@type" : "@id"
+    },
+    "comment" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#comment"
+    },
+    "creator" : {
+      "@id" : "http://purl.org/dc/terms/creator",
+      "@type" : "@id"
+    },
+    "last" : {
+      "@id" : "http://www.w3.org/1999/xhtml/vocab#last",
+      "@type" : "@id"
+    },
+    "vv" : "https://data.vlaanderen.be/ns/",
+    "schema" : "http://schema.org/",
+    "vl_org" : "http://data.vlaanderen.be/id/organisatie/",
+    "omg_ps" : "https://data.omgeving.vlaanderen.be/id/propertyshape/",
+    "owl" : "http://www.w3.org/2002/07/owl#",
+    "xhv" : "http://www.w3.org/1999/xhtml/vocab#",
+    "vcs" : "https://data.vlaanderen.be/ns/chemische_stof#",
+    "xsd" : "http://www.w3.org/2001/XMLSchema#",
+    "skos" : "http://www.w3.org/2004/02/skos/core#",
+    "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",
+    "omg_dataset" : "https://data.omgeving.vlaanderen.be/id/dataset/",
+    "xkos" : "http://rdf-vocabulary.ddialliance.org/xkos#",
+    "dbo" : "http://dbpedia.org/ontology/",
+    "omg_ont" : "https://data.omgeving.vlaanderen.be/id/ontology/",
+    "dbp" : "http://dbpedia.org/property/",
+    "dct" : "http://purl.org/dc/terms/",
+    "sh" : "http://www.w3.org/ns/shacl#",
+    "rdf" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "ons" : "https://data.omgeving.vlaanderen.be/id/nodeshape/",
+    "omg_voc" : "https://data.omgeving.vlaanderen.be/ns/",
+    "omg_ag_cl" : "https://data.omgeving.vlaanderen.be/id/person/codelijst/",
+    "foaf" : "http://xmlns.com/foaf/0.1/"
+  }
+}
