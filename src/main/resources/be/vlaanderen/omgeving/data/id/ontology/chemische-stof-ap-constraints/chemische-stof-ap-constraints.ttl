@@ -86,7 +86,7 @@ ons:chemische_stof
     sh:property      omg_ps:chemische_stof_seeAlso, omg_ps:chemische_stof_inchi, omg_ps:chemische_stof_casNumber,
                      omg_ps:chemische_stof_notation, omg_ps:chemische_stof_vmmParameterId, omg_ps:chemische_stof_smiles,
                      omg_ps:chemische_stof_iupacName, omg_ps:chemische_stof_exactMatch, omg_ps:chemische_stof_inScheme,
-                     omg_ps:chemische_stof_isSubjectOf, omg_ps:chemische_stof_definition,
+                     omg_ps:chemische_stof_isReferencedBy, omg_ps:chemische_stof_comment, omg_ps:chemische_stof_definition,
                      omg_ps:chemische_stof_altLabel, omg_ps:chemische_stof_formula, omg_ps:chemische_stof_prefLabel,
                      omg_ps:chemische_stof_inchikey, omg_ps:chemische_stof_topConceptOf, omg_ps:chemische_stof_pubchem ;
     sh:targetClass   skos:Concept, dbo:ChemicalSubstance, dbo:ChemicalCompound .
@@ -129,8 +129,6 @@ omg_ps:chemische_stof_altLabel
     sh:nodeKind      sh:Literal ;
     sh:path          skos:altLabel .
 
-
-
 omg_ps:chemische_stof_casNumber
     a                sh:PropertyShape ;
     rdfs:label       "CAS nummer"@nl ;
@@ -157,15 +155,14 @@ omg_ps:chemische_stof_unique_casNumber
 
 omg_ps:chemische_stof_collection_member
     a                sh:PropertyShape ;
-    rdfs:label       ""@nl ;
-    sh:name          ""@nl ;
-    sh:description   ""@nl ;
+    rdfs:label       "onderdeel"@nl ;
+    sh:name          "onderdeel"@nl ;
+    sh:description   "Een collectie heeft minstens 1 onderdeel."@nl ;
     rdfs:isDefinedBy omg_ont:chemische-stof-ap-constraints, omg_voc:chemische-stof-ap-constraints ;
     sh:class         dbo:ChemicalCompound, dbo:ChemicalSubstance, skos:Concept ;
     sh:minCount      1 ;
     sh:nodeKind      sh:IRI ;
     sh:path          skos:member .
-
 
 omg_ps:chemische_stof_smiles
     a                sh:PropertyShape ;
@@ -227,7 +224,6 @@ omg_ps:chemische_stof_unique_notation
     sh:minCount        1 ;
     sh:maxCount        1 .
 
-
 omg_ps:chemische_stof_inchi
     a                sh:PropertyShape ;
     rdfs:label       "InChI"@nl ;
@@ -253,18 +249,27 @@ omg_ps:chemische_stof_schema_hasTopConcept
     sh:nodeKind      sh:IRI ;
     sh:path          skos:hasTopConcept .
 
-omg_ps:chemische_stof_isSubjectOf
+omg_ps:chemische_stof_comment
     a                sh:PropertyShape ;
-    rdfs:label       "is onderwerp van"@nl ;
-    sh:name          "is onderwerp van"@nl ;
+    rdfs:label       "commentaar"@nl ;
+    sh:name          "commentaar"@nl ;
     sh:description
-                     "Binnen dit schema wordt skos:isSubjectOf gebruikt om de relatie naar wetgeving en analysemethodes te leggen, die betrekking hebben op de chemische stof."@nl ;
+                     "Binnen dit schema wordt rdfs:comment gebruikt om de relatie, in tekstformaat, naar wetgeving en analysemethodes te leggen, die betrekking hebben op de chemische stof. Dit tekstformaat wordt op termijn vervangen door linken naar 'resources'."@nl ;
     rdfs:isDefinedBy omg_ont:chemische-stof-ap-constraints, omg_voc:chemische-stof-ap-constraints ;
     sh:datatype      rdf:langString ;
     sh:languageIn    ( "nl" ) ;
     sh:nodeKind      sh:Literal ;
-    sh:path          skos:isSubjectOf .
+    sh:path          rdfs:comment .
 
+omg_ps:chemische_stof_isReferencedBy
+    a                sh:PropertyShape ;
+    rdfs:label       "wordt vermeld in"@nl ;
+    sh:name          "wordt vermeld in"@nl ;
+    sh:description
+                     "Binnen dit schema wordt dct:isReferencedBy gebruikt om de relatie naar wetgeving en analysemethodes te leggen, die betrekking hebben op de chemische stof."@nl ;
+    rdfs:isDefinedBy omg_ont:chemische-stof-ap-constraints, omg_voc:chemische-stof-ap-constraints ;
+    sh:nodeKind      sh:IRI ;
+    sh:path          dct:isReferencedBy .
 
 omg_ps:chemische_stof_seeAlso
     a                sh:PropertyShape ;
@@ -288,7 +293,6 @@ omg_ps:chemische_stof_definition
     sh:nodeKind      sh:Literal ;
     sh:path          skos:definition .
 
-
 omg_ps:chemische_stof_vmmParameterId
     a                sh:PropertyShape ;
     rdfs:label       "VMM parameter identificator"@nl ;
@@ -298,7 +302,20 @@ omg_ps:chemische_stof_vmmParameterId
     rdfs:isDefinedBy omg_ont:chemische-stof-ap-constraints, omg_voc:chemische-stof-ap-constraints ;
     sh:datatype      xsd:int ;
     sh:nodeKind      sh:Literal ;
+    sh:property      omg_ps:chemische_stof_unique_vmmParameterId ;
     sh:path          vcs:vmmParameterId .
+
+omg_ps:chemische_stof_unique_vmmParameterId
+    a                  sh:PropertyShape ;
+    rdfs:label         "unieke vmmParameterId"@nl ;
+    sh:name            "unieke vmmParameterId"@nl ;
+    sh:description     "Vanuit 1 vmmParameterId nummer kan slechts naar 1 stof worden verwezen."@nl ;
+    rdfs:isDefinedBy   omg_ont:chemische-stof-ap-constraints, omg_voc:chemische-stof-ap-constraints ;
+    sh:nodeKind        sh:IRI ;
+    sh:targetObjectsOf vcs:vmmParameterId ;
+    sh:path            [ sh:inversePath vcs:vmmParameterId ] ;
+    sh:minCount        1 ;
+    sh:maxCount        1 .
 
 omg_ps:chemische_stof_prefLabel
     a                sh:PropertyShape ;
@@ -321,9 +338,23 @@ omg_ps:chemische_stof_iupacName
     rdfs:isDefinedBy omg_ont:chemische-stof-ap-constraints, omg_voc:chemische-stof-ap-constraints ;
     sh:datatype      rdf:langString ;
     sh:languageIn    ( "en" ) ;
+    sh:minCount      1 ;
     sh:maxCount      1 ;
+    sh:property      omg_ps:chemische_stof_unique_iupacName ;
     sh:nodeKind      sh:Literal ;
     sh:path          dbo:iupacName .
+
+omg_ps:chemische_stof_unique_iupacName
+    a                  sh:PropertyShape ;
+    rdfs:label         "unieke IUPAC-naam"@nl ;
+    sh:name            "unieke IUPAC-naam"@nl ;
+    sh:description     "Vanuit 1 IUPAC-naam kan slechts naar 1 stof worden verwezen."@nl ;
+    rdfs:isDefinedBy   omg_ont:chemische-stof-ap-constraints, omg_voc:chemische-stof-ap-constraints ;
+    sh:nodeKind        sh:IRI ;
+    sh:targetObjectsOf dbo:iupacName ;
+    sh:path            [ sh:inversePath dbo:iupacName ] ;
+    sh:minCount        1 ;
+    sh:maxCount        1 .
 
 omg_ps:chemische_stof_formula
     a                sh:PropertyShape ;
@@ -336,8 +367,6 @@ omg_ps:chemische_stof_formula
     sh:minCount      1 ;
     sh:nodeKind      sh:Literal ;
     sh:path          dbo:formula .
-
-
 
 omg_ps:chemische_stof_inScheme
     a                sh:PropertyShape ;

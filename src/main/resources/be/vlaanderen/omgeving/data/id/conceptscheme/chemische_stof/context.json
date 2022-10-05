@@ -59,8 +59,12 @@
       "@id" : "https://data.vlaanderen.be/ns/chemische_stof#vmmParameterId",
       "@type" : "http://www.w3.org/2001/XMLSchema#int"
     },
-    "isSubjectOf" : {
-      "@id" : "http://www.w3.org/2004/02/skos/core#isSubjectOf",
+    "isReferencedBy" : {
+      "@id" : "http://purl.org/dc/terms/isReferencedBy",
+      "@type" : "@id"
+    },
+    "comment" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#comment",
       "@language" : "nl"
     },
     "exactMatch" : {
@@ -94,5 +98,6 @@
     "wk" : "https://data.omgeving.vlaanderen.be/ns/wk#",
     "dc" : "http://purl.org/dc/elements/1.1/",
     "omg_dataset" : "https://data.omgeving.vlaanderen.be/id/dataset/",
+    "co" : "https://data.omgeving.vlaanderen.be/id/concept/observatieprocedure/",
     "xkos" : "http://rdf-vocabulary.ddialliance.org/xkos#"
 }

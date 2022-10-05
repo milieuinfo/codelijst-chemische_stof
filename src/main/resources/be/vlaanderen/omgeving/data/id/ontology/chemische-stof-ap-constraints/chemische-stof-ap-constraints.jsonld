@@ -1,10 +1,16 @@
 {
   "@graph" : [ {
-    "@id" : "_:b4",
-    "inversePath" : "skos:notation"
+    "@id" : "_:b1",
+    "inversePath" : "vcs:vmmParameterId"
   }, {
-    "@id" : "_:b5",
+    "@id" : "_:b3",
     "inversePath" : "dbo:casNumber"
+  }, {
+    "@id" : "_:b6",
+    "inversePath" : "dbo:iupacName"
+  }, {
+    "@id" : "_:b8",
+    "inversePath" : "skos:notation"
   }, {
     "@id" : "ons:chemische_stof",
     "@type" : "sh:NodeShape",
@@ -25,7 +31,7 @@
       "@language" : "nl",
       "@value" : "chemische stof"
     },
-    "property" : [ "omg_ps:chemische_stof_seeAlso", "omg_ps:chemische_stof_inchi", "omg_ps:chemische_stof_notation", "omg_ps:chemische_stof_casNumber", "omg_ps:chemische_stof_vmmParameterId", "omg_ps:chemische_stof_smiles", "omg_ps:chemische_stof_iupacName", "omg_ps:chemische_stof_exactMatch", "omg_ps:chemische_stof_inScheme", "omg_ps:chemische_stof_isSubjectOf", "omg_ps:chemische_stof_definition", "omg_ps:chemische_stof_altLabel", "omg_ps:chemische_stof_formula", "omg_ps:chemische_stof_prefLabel", "omg_ps:chemische_stof_inchikey", "omg_ps:chemische_stof_topConceptOf", "omg_ps:chemische_stof_pubchem" ],
+    "property" : [ "omg_ps:chemische_stof_seeAlso", "omg_ps:chemische_stof_inchi", "omg_ps:chemische_stof_notation", "omg_ps:chemische_stof_casNumber", "omg_ps:chemische_stof_vmmParameterId", "omg_ps:chemische_stof_smiles", "omg_ps:chemische_stof_isReferencedBy", "omg_ps:chemische_stof_iupacName", "omg_ps:chemische_stof_comment", "omg_ps:chemische_stof_exactMatch", "omg_ps:chemische_stof_inScheme", "omg_ps:chemische_stof_definition", "omg_ps:chemische_stof_altLabel", "omg_ps:chemische_stof_formula", "omg_ps:chemische_stof_prefLabel", "omg_ps:chemische_stof_inchikey", "omg_ps:chemische_stof_topConceptOf", "omg_ps:chemische_stof_pubchem" ],
     "targetClass" : [ "skos:Concept", "dbo:ChemicalSubstance", "dbo:ChemicalCompound" ]
   }, {
     "@id" : "ons:chemische_stof_collection",
@@ -159,20 +165,42 @@
     "isDefinedBy" : [ "omg_ont:chemische-stof-ap-constraints", "omg_voc:chemische-stof-ap-constraints" ],
     "label" : {
       "@language" : "nl",
-      "@value" : ""
+      "@value" : "onderdeel"
     },
     "class" : [ "skos:Concept", "dbo:ChemicalCompound", "dbo:ChemicalSubstance" ],
     "description" : {
       "@language" : "nl",
-      "@value" : ""
+      "@value" : "Een collectie heeft minstens 1 onderdeel."
     },
     "sh:minCount" : 1,
     "name" : {
       "@language" : "nl",
-      "@value" : ""
+      "@value" : "onderdeel"
     },
     "nodeKind" : "sh:IRI",
     "path" : "skos:member"
+  }, {
+    "@id" : "omg_ps:chemische_stof_comment",
+    "@type" : "sh:PropertyShape",
+    "isDefinedBy" : [ "omg_voc:chemische-stof-ap-constraints", "omg_ont:chemische-stof-ap-constraints" ],
+    "label" : {
+      "@language" : "nl",
+      "@value" : "commentaar"
+    },
+    "datatype" : "rdf:langString",
+    "description" : {
+      "@language" : "nl",
+      "@value" : "Binnen dit schema wordt rdfs:comment gebruikt om de relatie, in tekstformaat, naar wetgeving en analysemethodes te leggen, die betrekking hebben op de chemische stof. Dit tekstformaat wordt op termijn vervangen door linken naar 'resources'."
+    },
+    "sh:languageIn" : {
+      "@list" : [ "nl" ]
+    },
+    "name" : {
+      "@language" : "nl",
+      "@value" : "commentaar"
+    },
+    "nodeKind" : "sh:Literal",
+    "path" : "rdfs:comment"
   }, {
     "@id" : "omg_ps:chemische_stof_definition",
     "@type" : "sh:PropertyShape",
@@ -299,27 +327,23 @@
     "nodeKind" : "sh:Literal",
     "path" : "dbp:inchikey"
   }, {
-    "@id" : "omg_ps:chemische_stof_isSubjectOf",
+    "@id" : "omg_ps:chemische_stof_isReferencedBy",
     "@type" : "sh:PropertyShape",
     "isDefinedBy" : [ "omg_voc:chemische-stof-ap-constraints", "omg_ont:chemische-stof-ap-constraints" ],
     "label" : {
       "@language" : "nl",
-      "@value" : "is onderwerp van"
+      "@value" : "wordt vermeld in"
     },
-    "datatype" : "rdf:langString",
     "description" : {
       "@language" : "nl",
-      "@value" : "Binnen dit schema wordt skos:isSubjectOf gebruikt om de relatie naar wetgeving en analysemethodes te leggen, die betrekking hebben op de chemische stof."
-    },
-    "sh:languageIn" : {
-      "@list" : [ "nl" ]
+      "@value" : "Binnen dit schema wordt dct:isReferencedBy gebruikt om de relatie naar wetgeving en analysemethodes te leggen, die betrekking hebben op de chemische stof."
     },
     "name" : {
       "@language" : "nl",
-      "@value" : "is onderwerp van"
+      "@value" : "wordt vermeld in"
     },
-    "nodeKind" : "sh:Literal",
-    "path" : "skos:isSubjectOf"
+    "nodeKind" : "sh:IRI",
+    "path" : "dct:isReferencedBy"
   }, {
     "@id" : "omg_ps:chemische_stof_iupacName",
     "@type" : "sh:PropertyShape",
@@ -337,12 +361,14 @@
       "@list" : [ "en" ]
     },
     "sh:maxCount" : 1,
+    "sh:minCount" : 1,
     "name" : {
       "@language" : "nl",
       "@value" : "IUPAC-naam"
     },
     "nodeKind" : "sh:Literal",
-    "path" : "dbo:iupacName"
+    "path" : "dbo:iupacName",
+    "property" : "omg_ps:chemische_stof_unique_iupacName"
   }, {
     "@id" : "omg_ps:chemische_stof_notation",
     "@type" : "sh:PropertyShape",
@@ -507,8 +533,29 @@
       "@value" : "uniek CAS nummer"
     },
     "nodeKind" : "sh:IRI",
-    "path" : "_:b5",
+    "path" : "_:b3",
     "targetObjectsOf" : "dbo:casNumber"
+  }, {
+    "@id" : "omg_ps:chemische_stof_unique_iupacName",
+    "@type" : "sh:PropertyShape",
+    "isDefinedBy" : [ "omg_voc:chemische-stof-ap-constraints", "omg_ont:chemische-stof-ap-constraints" ],
+    "label" : {
+      "@language" : "nl",
+      "@value" : "unieke IUPAC-naam"
+    },
+    "description" : {
+      "@language" : "nl",
+      "@value" : "Vanuit 1 IUPAC-naam kan slechts naar 1 stof worden verwezen."
+    },
+    "sh:maxCount" : 1,
+    "sh:minCount" : 1,
+    "name" : {
+      "@language" : "nl",
+      "@value" : "unieke IUPAC-naam"
+    },
+    "nodeKind" : "sh:IRI",
+    "path" : "_:b6",
+    "targetObjectsOf" : "dbo:iupacName"
   }, {
     "@id" : "omg_ps:chemische_stof_unique_notation",
     "@type" : "sh:PropertyShape",
@@ -528,8 +575,29 @@
       "@value" : "unieke notatie"
     },
     "nodeKind" : "sh:IRI",
-    "path" : "_:b4",
+    "path" : "_:b8",
     "targetObjectsOf" : "skos:notation"
+  }, {
+    "@id" : "omg_ps:chemische_stof_unique_vmmParameterId",
+    "@type" : "sh:PropertyShape",
+    "isDefinedBy" : [ "omg_ont:chemische-stof-ap-constraints", "omg_voc:chemische-stof-ap-constraints" ],
+    "label" : {
+      "@language" : "nl",
+      "@value" : "unieke vmmParameterId"
+    },
+    "description" : {
+      "@language" : "nl",
+      "@value" : "Vanuit 1 vmmParameterId nummer kan slechts naar 1 stof worden verwezen."
+    },
+    "sh:maxCount" : 1,
+    "sh:minCount" : 1,
+    "name" : {
+      "@language" : "nl",
+      "@value" : "unieke vmmParameterId"
+    },
+    "nodeKind" : "sh:IRI",
+    "path" : "_:b1",
+    "targetObjectsOf" : "vcs:vmmParameterId"
   }, {
     "@id" : "omg_ps:chemische_stof_vmmParameterId",
     "@type" : "sh:PropertyShape",
@@ -548,7 +616,8 @@
       "@value" : "VMM parameter identificator"
     },
     "nodeKind" : "sh:Literal",
-    "path" : "vcs:vmmParameterId"
+    "path" : "vcs:vmmParameterId",
+    "property" : "omg_ps:chemische_stof_unique_vmmParameterId"
   }, {
     "@id" : "omg_voc:chemische-stof-ap-constraints",
     "@type" : "owl:Ontology",
@@ -559,6 +628,20 @@
     "sameAs" : "omg_ont:chemische-stof-ap-constraints"
   } ],
   "@context" : {
+    "label" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#label"
+    },
+    "languageIn" : {
+      "@id" : "http://www.w3.org/ns/shacl#languageIn",
+      "@type" : "@id"
+    },
+    "name" : {
+      "@id" : "http://www.w3.org/ns/shacl#name"
+    },
+    "datatype" : {
+      "@id" : "http://www.w3.org/ns/shacl#datatype",
+      "@type" : "@id"
+    },
     "path" : {
       "@id" : "http://www.w3.org/ns/shacl#path",
       "@type" : "@id"
@@ -567,10 +650,6 @@
       "@id" : "http://www.w3.org/ns/shacl#nodeKind",
       "@type" : "@id"
     },
-    "maxCount" : {
-      "@id" : "http://www.w3.org/ns/shacl#maxCount",
-      "@type" : "http://www.w3.org/2001/XMLSchema#integer"
-    },
     "isDefinedBy" : {
       "@id" : "http://www.w3.org/2000/01/rdf-schema#isDefinedBy",
       "@type" : "@id"
@@ -578,34 +657,28 @@
     "description" : {
       "@id" : "http://www.w3.org/ns/shacl#description"
     },
-    "name" : {
-      "@id" : "http://www.w3.org/ns/shacl#name"
-    },
-    "label" : {
-      "@id" : "http://www.w3.org/2000/01/rdf-schema#label"
-    },
     "minCount" : {
       "@id" : "http://www.w3.org/ns/shacl#minCount",
       "@type" : "http://www.w3.org/2001/XMLSchema#integer"
     },
-    "datatype" : {
-      "@id" : "http://www.w3.org/ns/shacl#datatype",
+    "maxCount" : {
+      "@id" : "http://www.w3.org/ns/shacl#maxCount",
+      "@type" : "http://www.w3.org/2001/XMLSchema#integer"
+    },
+    "class" : {
+      "@id" : "http://www.w3.org/ns/shacl#class",
       "@type" : "@id"
     },
-    "property" : {
-      "@id" : "http://www.w3.org/ns/shacl#property",
+    "targetObjectsOf" : {
+      "@id" : "http://www.w3.org/ns/shacl#targetObjectsOf",
       "@type" : "@id"
     },
     "targetClass" : {
       "@id" : "http://www.w3.org/ns/shacl#targetClass",
       "@type" : "@id"
     },
-    "languageIn" : {
-      "@id" : "http://www.w3.org/ns/shacl#languageIn",
-      "@type" : "@id"
-    },
-    "class" : {
-      "@id" : "http://www.w3.org/ns/shacl#class",
+    "property" : {
+      "@id" : "http://www.w3.org/ns/shacl#property",
       "@type" : "@id"
     },
     "rest" : {
@@ -615,13 +688,16 @@
     "first" : {
       "@id" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#first"
     },
-    "targetObjectsOf" : {
-      "@id" : "http://www.w3.org/ns/shacl#targetObjectsOf",
-      "@type" : "@id"
-    },
     "inversePath" : {
       "@id" : "http://www.w3.org/ns/shacl#inversePath",
       "@type" : "@id"
+    },
+    "sameAs" : {
+      "@id" : "http://www.w3.org/2002/07/owl#sameAs",
+      "@type" : "@id"
+    },
+    "comment" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#comment"
     },
     "mbox" : {
       "@id" : "http://xmlns.com/foaf/0.1/mbox",
@@ -656,13 +732,6 @@
     "issued" : {
       "@id" : "http://purl.org/dc/terms/issued",
       "@type" : "http://www.w3.org/2001/XMLSchema#date"
-    },
-    "sameAs" : {
-      "@id" : "http://www.w3.org/2002/07/owl#sameAs",
-      "@type" : "@id"
-    },
-    "comment" : {
-      "@id" : "http://www.w3.org/2000/01/rdf-schema#comment"
     },
     "creator" : {
       "@id" : "http://purl.org/dc/terms/creator",

@@ -206,8 +206,30 @@
       "@value" : "InChIKey"
     } ]
   }, {
+    "@id" : "http://purl.org/dc/terms/",
+    "@type" : "owl:Ontology"
+  }, {
+    "@id" : "dct:isReferencedBy",
+    "@type" : "rdf:Property",
+    "comment" : {
+      "@language" : "en",
+      "@value" : "A related resource that references, cites, or otherwise points to the described resource."
+    },
+    "isDefinedBy" : "http://purl.org/dc/terms/",
+    "label" : {
+      "@language" : "en",
+      "@value" : "Is Referenced By"
+    }
+  }, {
     "@id" : "http://www.w3.org/2000/01/rdf-schema#",
     "@type" : "owl:Ontology"
+  }, {
+    "@id" : "rdfs:comment",
+    "@type" : "rdf:Property",
+    "domain" : "rdfs:Resource",
+    "isDefinedBy" : "http://www.w3.org/2000/01/rdf-schema#",
+    "label" : "comment",
+    "range" : "rdfs:Literal"
   }, {
     "@id" : "rdfs:seeAlso",
     "@type" : "rdf:Property",
@@ -365,7 +387,7 @@
       "@language" : "nl",
       "@value" : "Chemische stof Vocabularium"
     },
-    "member" : [ "skos:inScheme", "skos:Collection", "dbp:inchikey", "skos:topConceptOf", "dbo:pubchem", "skos:member", "dbo:casNumber", "dbo:Drug", "dbo:inchi", "dbo:ChemicalCompound", "skos:Concept", "skos:prefLabel", "dbo:iupacName", "dbo:ChemicalSubstance", "skos:ConceptScheme", "dbo:smiles", "dbo:formula", "skos:notation", "skos:altLabel", "skos:hasTopConcept" ],
+    "member" : [ "dct:isReferencedBy", "skos:inScheme", "skos:Collection", "dbp:inchikey", "skos:topConceptOf", "dbo:pubchem", "skos:member", "dbo:casNumber", "dbo:Drug", "dbo:inchi", "dbo:ChemicalCompound", "rdfs:seeAlso", "skos:Concept", "skos:prefLabel", "dbo:ChemicalSubstance", "dbo:iupacName", "skos:ConceptScheme", "dbo:smiles", "dbo:formula", "skos:notation", "skos:altLabel", "skos:hasTopConcept", "rdfs:comment" ],
     "sameAs" : "omg_ont:chemische_stof"
   }, {
     "@id" : "vcs:vmmParameterId",
