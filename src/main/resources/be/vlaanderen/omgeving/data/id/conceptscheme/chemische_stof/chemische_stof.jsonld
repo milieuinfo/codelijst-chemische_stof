@@ -5410,7 +5410,7 @@
     "pubchem" : "6326970",
     "smiles" : "[Se]",
     "inchikey" : "InChIKey=BUGBHKTXTAQXES-UHFFFAOYSA-N",
-    "isReferencedBy" : [ "co:LUC_I_002", "co:LUC_III_010" ],
+    "isReferencedBy" : [ "co:LUC_I_002", "co:LUC_III_010", "co:WAC_III_B_010", "co:CMA_2_I_B", "co:CMA_2_I_B.6", "co:CMA_2_I_B.1", "co:WAC_III_B_012" ],
     "comment" : [ {
       "@language" : "nl",
       "@value" : "VLAR III (D3, diverse art) 'Se'"
@@ -17954,6 +17954,7 @@
     "pubchem" : "26042",
     "smiles" : "O=[Ti]=O",
     "inchikey" : "InChIKey=GWEVSGVZZGPLCZ-UHFFFAOYSA-N",
+    "isReferencedBy" : "co:WAC_III_B_002",
     "seeAlso" : "compound:26042",
     "inScheme" : "vlcs:chemische_stof",
     "notation" : "TiO2",
@@ -18129,6 +18130,7 @@
     "pubchem" : "23974",
     "smiles" : "[Ce]",
     "inchikey" : "InChIKey=GWXLDORMOJMVQZ-UHFFFAOYSA-N",
+    "isReferencedBy" : "co:WAC_III_B_002",
     "seeAlso" : "compound:23974",
     "inScheme" : "vlcs:chemische_stof",
     "notation" : "Ce",
@@ -21623,7 +21625,7 @@
     "pubchem" : "9161",
     "smiles" : "C1=CC2=C3C(=C1)C=CC3=CC=C2",
     "inchikey" : "InChIKey=HXGDTGSAIMULJN-UHFFFAOYSA-N",
-    "isReferencedBy" : "co:LUC_VI_001",
+    "isReferencedBy" : [ "co:LUC_VI_001", "co:WAC_IV_A_002" ],
     "seeAlso" : "compound:9161",
     "exactMatch" : "wise:CAS_208-96-8",
     "inScheme" : "vlcs:chemische_stof",
@@ -22761,6 +22763,7 @@
     "pubchem" : "1752",
     "smiles" : "CCCCCCCCCC1=CC=C(C=C1)O",
     "inchikey" : "InChIKey=IGFHQQFPSIBGKE-UHFFFAOYSA-N",
+    "isReferencedBy" : "co:WAC_IV_A_005",
     "seeAlso" : "compound:1752",
     "altLabel" : {
       "@language" : "nl",
@@ -23465,7 +23468,7 @@
     "pubchem" : "8900",
     "smiles" : "CCCCCCC",
     "inchikey" : "InChIKey=IMNFDUFMRHMDMM-UHFFFAOYSA-N",
-    "isReferencedBy" : [ "co:LUC_IV_011", "co:LUC_IV_000", "co:LUC_IV_006" ],
+    "isReferencedBy" : [ "co:LUC_IV_011", "co:LUC_IV_000", "co:LUC_IV_006", "co:WAC_IV_A_016" ],
     "comment" : {
       "@language" : "nl",
       "@value" : "VLAR II bijl. 4.4.2 'paraffinische koolwaterstoffen (behalve methaan)'"
@@ -23878,6 +23881,7 @@
     "pubchem" : "946",
     "smiles" : "N(=O)[O-]",
     "inchikey" : "InChIKey=IOVCWXUNBOPUCH-UHFFFAOYSA-M",
+    "isReferencedBy" : [ "co:CMA_2_IV_4", "co:WAC_III_C_002" ],
     "seeAlso" : "compound:946",
     "exactMatch" : "wise:CAS_14797-65-0",
     "inScheme" : "vlcs:chemische_stof",
@@ -24727,9 +24731,6 @@
       "@value" : "p-cresol"
     }, {
       "@language" : "nl",
-      "@value" : "4-methylfenol"
-    }, {
-      "@language" : "nl",
       "@value" : "4-methylfenol (p-cresol)"
     } ],
     "exactMatch" : "wise:CAS_106-44-5",
@@ -24737,7 +24738,7 @@
     "notation" : [ "pcresl", "scresl" ],
     "prefLabel" : {
       "@language" : "nl",
-      "@value" : "som cresol-isomeren"
+      "@value" : "4-methylfenol"
     },
     "topConceptOf" : "vlcs:chemische_stof",
     "vmmParameterId" : "695"
@@ -26940,6 +26941,7 @@
     "pubchem" : "888",
     "smiles" : "[Mg+2]",
     "inchikey" : "InChIKey=JLVVSXFLKOJNIY-UHFFFAOYSA-N",
+    "isReferencedBy" : "co:WAC_III_A_009",
     "seeAlso" : "compound:888",
     "altLabel" : {
       "@language" : "nl",
@@ -30468,6 +30470,7 @@
     "pubchem" : "28179",
     "smiles" : "[F-]",
     "inchikey" : "InChIKey=KRHYYFGTRYWZRS-UHFFFAOYSA-M",
+    "isReferencedBy" : [ "co:CMA_2_II_A.14", "co:WAC_III_C_022", "co:CMA_2_II_B.1", "co:CMA_2_I_C.1.1", "co:WAC_III_C_020", "co:CMA_2_I_C.1.2", "co:CMA_2_I_C" ],
     "seeAlso" : "compound:28179",
     "exactMatch" : "wise:CAS_16984-48-8",
     "inScheme" : "vlcs:chemische_stof",
@@ -37578,6 +37581,7 @@
     "pubchem" : "1061",
     "smiles" : "[O-]P(=O)([O-])[O-]",
     "inchikey" : "InChIKey=NBIIXXVUZAFLBC-UHFFFAOYSA-K",
+    "isReferencedBy" : "co:WAC_III_C_010",
     "seeAlso" : "compound:1061",
     "altLabel" : {
       "@language" : "nl",
@@ -38126,6 +38130,7 @@
     "pubchem" : "943",
     "smiles" : "[N+](=O)([O-])[O-]",
     "inchikey" : "InChIKey=NHNBFGGVMKEFGY-UHFFFAOYSA-N",
+    "isReferencedBy" : [ "co:WAC_III_C_002", "co:CMA_2_IV_4", "co:WAC_III_D_032" ],
     "seeAlso" : "compound:943",
     "exactMatch" : "wise:CAS_14797-55-8",
     "inScheme" : "vlcs:chemische_stof",
@@ -40512,6 +40517,7 @@
     "pubchem" : "5462309",
     "smiles" : "[P]",
     "inchikey" : "InChIKey=OAICVXFJPJFONN-UHFFFAOYSA-N",
+    "isReferencedBy" : "co:WAC_III_C_010",
     "seeAlso" : "compound:5462309",
     "exactMatch" : "wise:CAS_7723-14-0",
     "inScheme" : "vlcs:chemische_stof",
@@ -42277,6 +42283,7 @@
     "pubchem" : "5462310",
     "smiles" : "[C]",
     "inchikey" : "InChIKey=OKTJSMMVPCPJKN-UHFFFAOYSA-N",
+    "isReferencedBy" : [ "co:BOC_versie_2.1", "co:WAC_III_D_050", "co:LUC_IV_011", "co:CMA_2_II_A.7", "co:LUC_IV_012", "co:CMA_1_A.6", "co:LUC_IV_000" ],
     "seeAlso" : "compound:5462310",
     "exactMatch" : "wise:CAS_7440-44-0",
     "inScheme" : "vlcs:chemische_stof",
@@ -43910,6 +43917,7 @@
     "pubchem" : "5460341",
     "smiles" : "[Ca]",
     "inchikey" : "InChIKey=OYPRJOBELJOOCE-UHFFFAOYSA-N",
+    "isReferencedBy" : "co:WAC_III_A_009",
     "seeAlso" : "compound:5460341",
     "exactMatch" : "wise:CAS_7440-70-2",
     "inScheme" : "vlcs:chemische_stof",
@@ -47392,6 +47400,7 @@
     "pubchem" : "1117",
     "smiles" : "[O-]S(=O)(=O)[O-]",
     "inchikey" : "InChIKey=QAOWNCQODCNURD-UHFFFAOYSA-L",
+    "isReferencedBy" : "co:WAC_V_B_003",
     "seeAlso" : "compound:1117",
     "inScheme" : "vlcs:chemische_stof",
     "notation" : "SO4",
@@ -47668,6 +47677,7 @@
     "pubchem" : "2087",
     "smiles" : "C1C2C=CC1C3C2C4(C(=C(C3(C4(Cl)Cl)Cl)Cl)Cl)Cl",
     "inchikey" : "InChIKey=QBYJBZPUGVGKQQ-UHFFFAOYSA-N",
+    "isReferencedBy" : "co:WAC_IV_B_010",
     "seeAlso" : "compound:2087",
     "exactMatch" : "wise:CAS_309-00-2",
     "inScheme" : "vlcs:chemische_stof",
@@ -47895,6 +47905,7 @@
     "pubchem" : "23995",
     "smiles" : "[Zr]",
     "inchikey" : "InChIKey=QCWXUUIWCKQGHC-UHFFFAOYSA-N",
+    "isReferencedBy" : [ "co:CMA_2_I_B.1", "co:WAC_III_B_010" ],
     "seeAlso" : "compound:23995",
     "inScheme" : "vlcs:chemische_stof",
     "notation" : "Zr",
@@ -48401,6 +48412,7 @@
     "pubchem" : "223",
     "smiles" : "[NH4+]",
     "inchikey" : "InChIKey=QGZKDVFQNNGYKY-UHFFFAOYSA-O",
+    "isReferencedBy" : [ "co:WAC_III_E_022", "co:CMA_2_I_E.2", "co:CMA_2_I_E.1", "co:WAC_III_E_021", "co:WAC_IV_A_003", "co:LUC_VII_001", "co:CMA_2_I_E.4", "co:WAC_III_E_023", "co:CMA_2_II_A.16", "co:WAC_III_D_030", "co:CMA_2_I_E", "co:CMA_2_I_C.8", "co:WAC_V_B_003", "co:WAC_III_E_020", "co:LUC_III_003" ],
     "seeAlso" : "compound:223",
     "exactMatch" : "wise:CAS_14798-03-9",
     "inScheme" : "vlcs:chemische_stof",
@@ -50601,6 +50613,7 @@
     "pubchem" : "1119",
     "smiles" : "O=S=O",
     "inchikey" : "InChIKey=RAHZWNYVWXNFOC-UHFFFAOYSA-N",
+    "isReferencedBy" : [ "co:CMA_2_III_E", "co:LUC_III_008" ],
     "seeAlso" : "compound:1119",
     "inScheme" : "vlcs:chemische_stof",
     "notation" : "SO2",
@@ -58216,7 +58229,7 @@
     "pubchem" : "356",
     "smiles" : "CCCCCCCC",
     "inchikey" : "InChIKey=TVMXDCGIABBOFY-UHFFFAOYSA-N",
-    "isReferencedBy" : [ "co:LUC_IV_011", "co:LUC_IV_006", "co:LUC_IV_000" ],
+    "isReferencedBy" : [ "co:WAC_IV_A_016", "co:LUC_IV_011", "co:LUC_IV_006", "co:LUC_IV_000" ],
     "comment" : {
       "@language" : "nl",
       "@value" : "VLAR II bijl. 4.4.2 'paraffinische koolwaterstoffen (behalve methaan)'"
@@ -58874,6 +58887,7 @@
     "pubchem" : "29109",
     "smiles" : "[S-2]",
     "inchikey" : "InChIKey=UCKMPCXJQFINFW-UHFFFAOYSA-N",
+    "isReferencedBy" : [ "co:WAC_III_C_040", "co:WAC_III_C_041" ],
     "seeAlso" : "compound:29109",
     "altLabel" : {
       "@language" : "nl",
@@ -62075,6 +62089,7 @@
     "pubchem" : "312",
     "smiles" : "[Cl-]",
     "inchikey" : "InChIKey=VEXZGXHMUGYJMC-UHFFFAOYSA-M",
+    "isReferencedBy" : [ "co:LUC_III_002", "co:WAC_V_B_003", "co:CMA_2_I_C", "co:WAC_III_D_020" ],
     "seeAlso" : "compound:312",
     "exactMatch" : "wise:CAS_16887-00-6",
     "inScheme" : "vlcs:chemische_stof",
@@ -69326,6 +69341,7 @@
     "pubchem" : "3496",
     "smiles" : "C(C(=O)O)NCP(=O)(O)O",
     "inchikey" : "InChIKey=XDDAORKBJWWYJS-UHFFFAOYSA-N",
+    "isReferencedBy" : "co:WAC_IV_A_029",
     "seeAlso" : "compound:3496",
     "exactMatch" : "wise:CAS_1071-83-6",
     "inScheme" : "vlcs:chemische_stof",
@@ -69713,6 +69729,7 @@
     "pubchem" : "5975",
     "smiles" : "[C-]#N",
     "inchikey" : "InChIKey=XFXPMWWXUTWYJX-UHFFFAOYSA-N",
+    "isReferencedBy" : [ "co:CMA_2_I_C.2.3", "co:WAC_III_C_030", "co:WAC_III_D_036", "co:CMA_2_I_C.2.1", "co:CMA_2_I_C.2.2" ],
     "seeAlso" : "compound:5975",
     "exactMatch" : "wise:CAS_57-12-5",
     "inScheme" : "vlcs:chemische_stof",
@@ -69722,7 +69739,7 @@
       "@value" : "cyanide"
     },
     "topConceptOf" : "vlcs:chemische_stof",
-    "vmmParameterId" : [ "1195", "487", "26", "527", "488", "905" ]
+    "vmmParameterId" : [ "487", "26", "527", "488", "905", "1195" ]
   }, {
     "@id" : "csc:XGCHAIDDPMFRLJ-UHFFFAOYSA-N",
     "@type" : [ "dbo:ChemicalSubstance", "skos:Concept", "dbo:ChemicalCompound" ],
@@ -71149,6 +71166,7 @@
     "pubchem" : "168739",
     "smiles" : "CCCCCCCCCC1=CC=CC=C1[O-].[K+]",
     "inchikey" : "InChIKey=XPCLSVISJWLKJE-UHFFFAOYSA-M",
+    "isReferencedBy" : [ "co:WAC_IV_A_001", "co:WAC_IV_A_005" ],
     "seeAlso" : "compound:168739",
     "inScheme" : "vlcs:chemische_stof",
     "notation" : "C9yFol",
@@ -71551,6 +71569,7 @@
     "pubchem" : "1176",
     "smiles" : "C(=O)(N)N",
     "inchikey" : "InChIKey=XSQUKJJJFZCRTK-UHFFFAOYSA-N",
+    "isReferencedBy" : "co:WAC_IV_A_003",
     "seeAlso" : "compound:1176",
     "inScheme" : "vlcs:chemische_stof",
     "notation" : "urum",
@@ -73982,7 +74001,7 @@
     "pubchem" : "6344",
     "smiles" : "C(Cl)Cl",
     "inchikey" : "InChIKey=YMWUJEATGCHHMB-UHFFFAOYSA-N",
-    "isReferencedBy" : [ "co:LUC_IV_000", "co:LUC_IV_002", "co:LUC_IV_011" ],
+    "isReferencedBy" : [ "co:LUC_IV_000co:WAC_IV_B_040", "co:LUC_IV_002", "co:LUC_IV_011" ],
     "comment" : [ {
       "@language" : "nl",
       "@value" : "VLAR II Art. 5.23.1.1."
@@ -75381,7 +75400,7 @@
     "pubchem" : "1140",
     "smiles" : "CC1=CC=CC=C1",
     "inchikey" : "InChIKey=YXFVVABEGXRONW-UHFFFAOYSA-N",
-    "isReferencedBy" : [ "co:LUC_IV_011", "co:LUC_IV_000", "co:LUC_IV_001" ],
+    "isReferencedBy" : [ "co:LUC_IV_011", "co:LUC_IV_000", "co:LUC_IV_001", "co:CMA_2_III_A" ],
     "comment" : {
       "@language" : "nl",
       "@value" : "VLAR II bijl. 4.4.2"

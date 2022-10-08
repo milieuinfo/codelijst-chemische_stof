@@ -1376,6 +1376,7 @@ csc:IGFHQQFPSIBGKE-UHFFFAOYSA-N
         dbo:pubchem         "1752"^^xsd:int ;
         dbo:smiles          "CCCCCCCCCC1=CC=C(C=C1)O" ;
         dbp:inchikey        "InChIKey=IGFHQQFPSIBGKE-UHFFFAOYSA-N" ;
+        dct:isReferencedBy  co:WAC_IV_A_005 ;
         skos:altLabel       "4-n-nonylfenol"@nl ;
         skos:exactMatch     wise:CAS_104-40-5 ;
         skos:inScheme       vlcs:chemische_stof ;
@@ -2198,6 +2199,7 @@ csc:KRHYYFGTRYWZRS-UHFFFAOYSA-M
         dbo:pubchem         "28179"^^xsd:int ;
         dbo:smiles          "[F-]" ;
         dbp:inchikey        "InChIKey=KRHYYFGTRYWZRS-UHFFFAOYSA-M" ;
+        dct:isReferencedBy  co:CMA_2_II_A.14 , co:WAC_III_C_022 , co:CMA_2_II_B.1 , co:CMA_2_I_C.1.1 , co:WAC_III_C_020 , co:CMA_2_I_C.1.2 , co:CMA_2_I_C ;
         skos:exactMatch     wise:CAS_16984-48-8 ;
         skos:inScheme       vlcs:chemische_stof ;
         skos:notation       "F" ;
@@ -7417,19 +7419,20 @@ csc:NVKAWKQGWWIWPM-ABEVXSGRSA-N
         skos:topConceptOf  vlcs:chemische_stof .
 
 csc:GWXLDORMOJMVQZ-UHFFFAOYSA-N
-        a                  dbo:ChemicalCompound , skos:Concept , dbo:ChemicalSubstance ;
-        rdfs:seeAlso       compound:23974 ;
-        dbo:casNumber      "7440-45-1" , "196959-41-8" , "110123-49-4" ;
-        dbo:formula        "Ce" ;
-        dbo:inchi          "InChI=1S/Ce" ;
-        dbo:iupacName      "CERIUM"@en ;
-        dbo:pubchem        "23974"^^xsd:int ;
-        dbo:smiles         "[Ce]" ;
-        dbp:inchikey       "InChIKey=GWXLDORMOJMVQZ-UHFFFAOYSA-N" ;
-        skos:inScheme      vlcs:chemische_stof ;
-        skos:notation      "Ce" ;
-        skos:prefLabel     "cerium"@nl ;
-        skos:topConceptOf  vlcs:chemische_stof .
+        a                   dbo:ChemicalCompound , skos:Concept , dbo:ChemicalSubstance ;
+        rdfs:seeAlso        compound:23974 ;
+        dbo:casNumber       "7440-45-1" , "196959-41-8" , "110123-49-4" ;
+        dbo:formula         "Ce" ;
+        dbo:inchi           "InChI=1S/Ce" ;
+        dbo:iupacName       "CERIUM"@en ;
+        dbo:pubchem         "23974"^^xsd:int ;
+        dbo:smiles          "[Ce]" ;
+        dbp:inchikey        "InChIKey=GWXLDORMOJMVQZ-UHFFFAOYSA-N" ;
+        dct:isReferencedBy  co:WAC_III_B_002 ;
+        skos:inScheme       vlcs:chemische_stof ;
+        skos:notation       "Ce" ;
+        skos:prefLabel      "cerium"@nl ;
+        skos:topConceptOf   vlcs:chemische_stof .
 
 csc:YBNLWIZAWPBUKQ-UHFFFAOYSA-N
         a                  dbo:ChemicalCompound , dbo:ChemicalSubstance , skos:Concept ;
@@ -8249,20 +8252,21 @@ csc:RHIROFAGUQOFLU-UHFFFAOYSA-N
         vcs:vmmParameterId  "1246"^^xsd:int .
 
 csc:UCKMPCXJQFINFW-UHFFFAOYSA-N
-        a                  dbo:ChemicalCompound , dbo:ChemicalSubstance , skos:Concept ;
-        rdfs:seeAlso       compound:29109 ;
-        dbo:casNumber      "18496-25-8" ;
-        dbo:formula        "S-2" ;
-        dbo:inchi          "InChI=1S/S/q-2" ;
-        dbo:iupacName      "Sulfide"@en ;
-        dbo:pubchem        "29109"^^xsd:int ;
-        dbo:smiles         "[S-2]" ;
-        dbp:inchikey       "InChIKey=UCKMPCXJQFINFW-UHFFFAOYSA-N" ;
-        skos:altLabel      "sulfide (opgeloste en in zuur milieu oplosbare)"@nl ;
-        skos:inScheme      vlcs:chemische_stof ;
-        skos:notation      "S" ;
-        skos:prefLabel     "sulfide"@nl ;
-        skos:topConceptOf  vlcs:chemische_stof .
+        a                   dbo:ChemicalCompound , dbo:ChemicalSubstance , skos:Concept ;
+        rdfs:seeAlso        compound:29109 ;
+        dbo:casNumber       "18496-25-8" ;
+        dbo:formula         "S-2" ;
+        dbo:inchi           "InChI=1S/S/q-2" ;
+        dbo:iupacName       "Sulfide"@en ;
+        dbo:pubchem         "29109"^^xsd:int ;
+        dbo:smiles          "[S-2]" ;
+        dbp:inchikey        "InChIKey=UCKMPCXJQFINFW-UHFFFAOYSA-N" ;
+        dct:isReferencedBy  co:WAC_III_C_040 , co:WAC_III_C_041 ;
+        skos:altLabel       "sulfide (opgeloste en in zuur milieu oplosbare)"@nl ;
+        skos:inScheme       vlcs:chemische_stof ;
+        skos:notation       "S" ;
+        skos:prefLabel      "sulfide"@nl ;
+        skos:topConceptOf   vlcs:chemische_stof .
 
 csc:IOQPZZOEVPZRBK-UHFFFAOYSA-N
         a                  dbo:ChemicalSubstance , skos:Concept , dbo:ChemicalCompound ;
@@ -10036,12 +10040,13 @@ csc:XFXPMWWXUTWYJX-UHFFFAOYSA-N
         dbo:pubchem         "5975"^^xsd:int ;
         dbo:smiles          "[C-]#N" ;
         dbp:inchikey        "InChIKey=XFXPMWWXUTWYJX-UHFFFAOYSA-N" ;
+        dct:isReferencedBy  co:CMA_2_I_C.2.3 , co:WAC_III_C_030 , co:WAC_III_D_036 , co:CMA_2_I_C.2.1 , co:CMA_2_I_C.2.2 ;
         skos:exactMatch     wise:CAS_57-12-5 ;
         skos:inScheme       vlcs:chemische_stof ;
         skos:notation       "CN" ;
         skos:prefLabel      "cyanide"@nl ;
         skos:topConceptOf   vlcs:chemische_stof ;
-        vcs:vmmParameterId  "1195"^^xsd:int , "487"^^xsd:int , "26"^^xsd:int , "527"^^xsd:int , "488"^^xsd:int , "905"^^xsd:int .
+        vcs:vmmParameterId  "487"^^xsd:int , "26"^^xsd:int , "527"^^xsd:int , "488"^^xsd:int , "1195"^^xsd:int , "905"^^xsd:int .
 
 csc:XERJKGMBORTKEO-VZUCSPMQSA-N
         a                  dbo:ChemicalCompound , dbo:ChemicalSubstance , skos:Concept ;
@@ -15586,7 +15591,7 @@ csc:IMNFDUFMRHMDMM-UHFFFAOYSA-N
         dbo:pubchem         "8900"^^xsd:int ;
         dbo:smiles          "CCCCCCC" ;
         dbp:inchikey        "InChIKey=IMNFDUFMRHMDMM-UHFFFAOYSA-N" ;
-        dct:isReferencedBy  co:LUC_IV_011 , co:LUC_IV_000 , co:LUC_IV_006 ;
+        dct:isReferencedBy  co:LUC_IV_011 , co:LUC_IV_000 , co:LUC_IV_006 , co:WAC_IV_A_016 ;
         skos:altLabel       "n-heptaan"@nl ;
         skos:inScheme       vlcs:chemische_stof ;
         skos:notation       "C7a" ;
@@ -15879,6 +15884,7 @@ csc:QBYJBZPUGVGKQQ-UHFFFAOYSA-N
         dbo:pubchem         "2087"^^xsd:int ;
         dbo:smiles          "C1C2C=CC1C3C2C4(C(=C(C3(C4(Cl)Cl)Cl)Cl)Cl)Cl" ;
         dbp:inchikey        "InChIKey=QBYJBZPUGVGKQQ-UHFFFAOYSA-N" ;
+        dct:isReferencedBy  co:WAC_IV_B_010 ;
         skos:exactMatch     wise:CAS_309-00-2 ;
         skos:inScheme       vlcs:chemische_stof ;
         skos:notation       "aldn" ;
@@ -16410,6 +16416,7 @@ csc:NBIIXXVUZAFLBC-UHFFFAOYSA-K
         dbo:pubchem         "1061"^^xsd:int ;
         dbo:smiles          "[O-]P(=O)([O-])[O-]" ;
         dbp:inchikey        "InChIKey=NBIIXXVUZAFLBC-UHFFFAOYSA-K" ;
+        dct:isReferencedBy  co:WAC_III_C_010 ;
         skos:altLabel       "fosfaat"@nl ;
         skos:exactMatch     wise:CAS_14265-44-2 ;
         skos:inScheme       vlcs:chemische_stof ;
@@ -16722,11 +16729,11 @@ csc:IWDCLRJOBJJRNH-UHFFFAOYSA-N
         dbo:pubchem         "2879"^^xsd:int ;
         dbo:smiles          "CC1=CC=C(C=C1)O" ;
         dbp:inchikey        "InChIKey=IWDCLRJOBJJRNH-UHFFFAOYSA-N" ;
-        skos:altLabel       "p-cresol"@nl , "4-methylfenol"@nl , "4-methylfenol (p-cresol)"@nl ;
+        skos:altLabel       "p-cresol"@nl , "4-methylfenol (p-cresol)"@nl ;
         skos:exactMatch     wise:CAS_106-44-5 ;
         skos:inScheme       vlcs:chemische_stof ;
         skos:notation       "pcresl" , "scresl" ;
-        skos:prefLabel      "som cresol-isomeren"@nl ;
+        skos:prefLabel      "4-methylfenol"@nl ;
         skos:topConceptOf   vlcs:chemische_stof ;
         vcs:vmmParameterId  "695"^^xsd:int .
 
@@ -18985,6 +18992,7 @@ csc:IOVCWXUNBOPUCH-UHFFFAOYSA-M
         dbo:pubchem         "946"^^xsd:int ;
         dbo:smiles          "N(=O)[O-]" ;
         dbp:inchikey        "InChIKey=IOVCWXUNBOPUCH-UHFFFAOYSA-M" ;
+        dct:isReferencedBy  co:CMA_2_IV_4 , co:WAC_III_C_002 ;
         skos:exactMatch     wise:CAS_14797-65-0 ;
         skos:inScheme       vlcs:chemische_stof ;
         skos:notation       "NO2" ;
@@ -20613,19 +20621,20 @@ csc:WPYCRFCQABTEKC-UHFFFAOYSA-N
         skos:topConceptOf  vlcs:chemische_stof .
 
 csc:QCWXUUIWCKQGHC-UHFFFAOYSA-N
-        a                  skos:Concept , dbo:ChemicalSubstance , dbo:ChemicalCompound ;
-        rdfs:seeAlso       compound:23995 ;
-        dbo:casNumber      "141631-77-8" , "7440-67-7" , "141631-75-6" , "182260-46-4" , "141631-74-5" ;
-        dbo:formula        "Zr" ;
-        dbo:inchi          "InChI=1S/Zr" ;
-        dbo:iupacName      "ZIRCONIUM"@en ;
-        dbo:pubchem        "23995"^^xsd:int ;
-        dbo:smiles         "[Zr]" ;
-        dbp:inchikey       "InChIKey=QCWXUUIWCKQGHC-UHFFFAOYSA-N" ;
-        skos:inScheme      vlcs:chemische_stof ;
-        skos:notation      "Zr" ;
-        skos:prefLabel     "zirkonium"@nl ;
-        skos:topConceptOf  vlcs:chemische_stof .
+        a                   skos:Concept , dbo:ChemicalSubstance , dbo:ChemicalCompound ;
+        rdfs:seeAlso        compound:23995 ;
+        dbo:casNumber       "141631-77-8" , "7440-67-7" , "141631-75-6" , "182260-46-4" , "141631-74-5" ;
+        dbo:formula         "Zr" ;
+        dbo:inchi           "InChI=1S/Zr" ;
+        dbo:iupacName       "ZIRCONIUM"@en ;
+        dbo:pubchem         "23995"^^xsd:int ;
+        dbo:smiles          "[Zr]" ;
+        dbp:inchikey        "InChIKey=QCWXUUIWCKQGHC-UHFFFAOYSA-N" ;
+        dct:isReferencedBy  co:CMA_2_I_B.1 , co:WAC_III_B_010 ;
+        skos:inScheme       vlcs:chemische_stof ;
+        skos:notation       "Zr" ;
+        skos:prefLabel      "zirkonium"@nl ;
+        skos:topConceptOf   vlcs:chemische_stof .
 
 csc:SIGSPDASOTUPFS-KQMXEUTGSA-N
         a                  dbo:ChemicalSubstance , skos:Concept , dbo:ChemicalCompound ;
@@ -23254,19 +23263,20 @@ csc:OUNSASXJZHBGAI-UHFFFAOYSA-N
         skos:topConceptOf  vlcs:chemische_stof .
 
 csc:QAOWNCQODCNURD-UHFFFAOYSA-L
-        a                  skos:Concept , dbo:ChemicalCompound , dbo:ChemicalSubstance ;
-        rdfs:seeAlso       compound:1117 ;
-        dbo:casNumber      "14808-79-8" , "18785-72-3" ;
-        dbo:formula        "O4S-2" ;
-        dbo:inchi          "InChI=1S/H2O4S/c1-5(2,3)4/h(H2,1,2,3,4)/p-2" ;
-        dbo:iupacName      "SULFATE"@en ;
-        dbo:pubchem        "1117"^^xsd:int ;
-        dbo:smiles         "[O-]S(=O)(=O)[O-]" ;
-        dbp:inchikey       "InChIKey=QAOWNCQODCNURD-UHFFFAOYSA-L" ;
-        skos:inScheme      vlcs:chemische_stof ;
-        skos:notation      "SO4" ;
-        skos:prefLabel     "sulfaat"@nl ;
-        skos:topConceptOf  vlcs:chemische_stof .
+        a                   skos:Concept , dbo:ChemicalCompound , dbo:ChemicalSubstance ;
+        rdfs:seeAlso        compound:1117 ;
+        dbo:casNumber       "14808-79-8" , "18785-72-3" ;
+        dbo:formula         "O4S-2" ;
+        dbo:inchi           "InChI=1S/H2O4S/c1-5(2,3)4/h(H2,1,2,3,4)/p-2" ;
+        dbo:iupacName       "SULFATE"@en ;
+        dbo:pubchem         "1117"^^xsd:int ;
+        dbo:smiles          "[O-]S(=O)(=O)[O-]" ;
+        dbp:inchikey        "InChIKey=QAOWNCQODCNURD-UHFFFAOYSA-L" ;
+        dct:isReferencedBy  co:WAC_V_B_003 ;
+        skos:inScheme       vlcs:chemische_stof ;
+        skos:notation       "SO4" ;
+        skos:prefLabel      "sulfaat"@nl ;
+        skos:topConceptOf   vlcs:chemische_stof .
 
 csc:ODINCKMPIJJUCX-UHFFFAOYSA-N
         a                  dbo:ChemicalSubstance , skos:Concept , dbo:ChemicalCompound ;
@@ -23400,6 +23410,7 @@ csc:OYPRJOBELJOOCE-UHFFFAOYSA-N
         dbo:pubchem         "5460341"^^xsd:int ;
         dbo:smiles          "[Ca]" ;
         dbp:inchikey        "InChIKey=OYPRJOBELJOOCE-UHFFFAOYSA-N" ;
+        dct:isReferencedBy  co:WAC_III_A_009 ;
         skos:exactMatch     wise:CAS_7440-70-2 ;
         skos:inScheme       vlcs:chemische_stof ;
         skos:notation       "Ca" ;
@@ -24620,19 +24631,20 @@ csc:MVPKIPGHRNIOPT-UHFFFAOYSA-N
         skos:topConceptOf  vlcs:chemische_stof .
 
 csc:GWEVSGVZZGPLCZ-UHFFFAOYSA-N
-        a                  dbo:ChemicalCompound , skos:Concept , dbo:ChemicalSubstance ;
-        rdfs:seeAlso       compound:26042 ;
-        dbo:casNumber      "39360-64-0" , "37230-94-7" , "221548-98-7" , "39320-58-6" , "195740-11-5" , "37230-96-9" , "12789-63-8" , "39379-02-7" , "101239-53-6" , "55068-84-3" , "13463-67-7" , "62338-64-1" , "246178-32-5" , "55068-85-4" , "185828-91-5" , "1344-29-2" , "1317-70-0" , "12701-76-7" , "252962-41-7" , "98084-96-9" , "1317-80-2" , "1309-63-3" , "188357-76-8" , "37230-92-5" , "224963-00-2" , "37230-95-8" , "185323-71-1" , "12767-65-6" , "12036-20-3" , "188357-79-1" , "116788-85-3" , "12000-59-8" ;
-        dbo:formula        "O2Ti" ;
-        dbo:inchi          "InChI=1S/2O.Ti" ;
-        dbo:iupacName      "dioxotitanium"@en ;
-        dbo:pubchem        "26042"^^xsd:int ;
-        dbo:smiles         "O=[Ti]=O" ;
-        dbp:inchikey       "InChIKey=GWEVSGVZZGPLCZ-UHFFFAOYSA-N" ;
-        skos:inScheme      vlcs:chemische_stof ;
-        skos:notation      "TiO2" ;
-        skos:prefLabel     "titaandioxide"@nl ;
-        skos:topConceptOf  vlcs:chemische_stof .
+        a                   dbo:ChemicalCompound , skos:Concept , dbo:ChemicalSubstance ;
+        rdfs:seeAlso        compound:26042 ;
+        dbo:casNumber       "39360-64-0" , "37230-94-7" , "221548-98-7" , "39320-58-6" , "195740-11-5" , "37230-96-9" , "12789-63-8" , "39379-02-7" , "101239-53-6" , "55068-84-3" , "13463-67-7" , "62338-64-1" , "246178-32-5" , "55068-85-4" , "185828-91-5" , "1344-29-2" , "1317-70-0" , "12701-76-7" , "252962-41-7" , "98084-96-9" , "1317-80-2" , "1309-63-3" , "188357-76-8" , "37230-92-5" , "224963-00-2" , "37230-95-8" , "185323-71-1" , "12767-65-6" , "12036-20-3" , "188357-79-1" , "116788-85-3" , "12000-59-8" ;
+        dbo:formula         "O2Ti" ;
+        dbo:inchi           "InChI=1S/2O.Ti" ;
+        dbo:iupacName       "dioxotitanium"@en ;
+        dbo:pubchem         "26042"^^xsd:int ;
+        dbo:smiles          "O=[Ti]=O" ;
+        dbp:inchikey        "InChIKey=GWEVSGVZZGPLCZ-UHFFFAOYSA-N" ;
+        dct:isReferencedBy  co:WAC_III_B_002 ;
+        skos:inScheme       vlcs:chemische_stof ;
+        skos:notation       "TiO2" ;
+        skos:prefLabel      "titaandioxide"@nl ;
+        skos:topConceptOf   vlcs:chemische_stof .
 
 csc:UBCKGWBNUIFUST-BJMVGYQFSA-N
         a                  skos:Concept , dbo:ChemicalCompound , dbo:ChemicalSubstance ;
@@ -28215,7 +28227,7 @@ csc:YMWUJEATGCHHMB-UHFFFAOYSA-N
         dbo:pubchem         "6344"^^xsd:int ;
         dbo:smiles          "C(Cl)Cl" ;
         dbp:inchikey        "InChIKey=YMWUJEATGCHHMB-UHFFFAOYSA-N" ;
-        dct:isReferencedBy  co:LUC_IV_000 , co:LUC_IV_002 , co:LUC_IV_011 ;
+        dct:isReferencedBy  co:LUC_IV_000co:WAC_IV_B_040 , co:LUC_IV_002 , co:LUC_IV_011 ;
         skos:exactMatch     wise:CAS_75-09-2 ;
         skos:inScheme       vlcs:chemische_stof ;
         skos:notation       "DClC1a" ;
@@ -28420,6 +28432,7 @@ csc:JLVVSXFLKOJNIY-UHFFFAOYSA-N
         dbo:pubchem         "888"^^xsd:int ;
         dbo:smiles          "[Mg+2]" ;
         dbp:inchikey        "InChIKey=JLVVSXFLKOJNIY-UHFFFAOYSA-N" ;
+        dct:isReferencedBy  co:WAC_III_A_009 ;
         skos:altLabel       "magnesium, tweewaardig"@nl ;
         skos:exactMatch     wise:CAS_7439-95-4 ;
         skos:inScheme       vlcs:chemische_stof ;
@@ -31300,19 +31313,20 @@ csc:NLXGURFLBLRZRO-UHFFFAOYSA-N
         skos:topConceptOf  vlcs:chemische_stof .
 
 csc:XSQUKJJJFZCRTK-UHFFFAOYSA-N
-        a                  skos:Concept , dbo:ChemicalSubstance , dbo:ChemicalCompound ;
-        rdfs:seeAlso       compound:1176 ;
-        dbo:casNumber      "173144-80-4" , "57-13-6" , "174693-33-5" , "30535-50-3" , "37955-36-5" , "173994-65-5" , "175276-38-7" , "4744-36-9" ;
-        dbo:formula        "CH4N2O" ;
-        dbo:inchi          "InChI=1S/CH4N2O/c2-1(3)4/h(H4,2,3,4)" ;
-        dbo:iupacName      "UREA"@en ;
-        dbo:pubchem        "1176"^^xsd:int ;
-        dbo:smiles         "C(=O)(N)N" ;
-        dbp:inchikey       "InChIKey=XSQUKJJJFZCRTK-UHFFFAOYSA-N" ;
-        skos:inScheme      vlcs:chemische_stof ;
-        skos:notation      "urum" ;
-        skos:prefLabel     "ureum"@nl ;
-        skos:topConceptOf  vlcs:chemische_stof .
+        a                   skos:Concept , dbo:ChemicalSubstance , dbo:ChemicalCompound ;
+        rdfs:seeAlso        compound:1176 ;
+        dbo:casNumber       "173144-80-4" , "57-13-6" , "174693-33-5" , "30535-50-3" , "37955-36-5" , "173994-65-5" , "175276-38-7" , "4744-36-9" ;
+        dbo:formula         "CH4N2O" ;
+        dbo:inchi           "InChI=1S/CH4N2O/c2-1(3)4/h(H4,2,3,4)" ;
+        dbo:iupacName       "UREA"@en ;
+        dbo:pubchem         "1176"^^xsd:int ;
+        dbo:smiles          "C(=O)(N)N" ;
+        dbp:inchikey        "InChIKey=XSQUKJJJFZCRTK-UHFFFAOYSA-N" ;
+        dct:isReferencedBy  co:WAC_IV_A_003 ;
+        skos:inScheme       vlcs:chemische_stof ;
+        skos:notation       "urum" ;
+        skos:prefLabel      "ureum"@nl ;
+        skos:topConceptOf   vlcs:chemische_stof .
 
 csc:FCOAHACKGGIURQ-UHFFFAOYSA-N
         a                  dbo:ChemicalCompound , skos:Concept , dbo:ChemicalSubstance ;
@@ -31990,19 +32004,20 @@ csc:WSFSSNUMVMOOMR-UHFFFAOYSA-N
         vcs:vmmParameterId  "846"^^xsd:int .
 
 csc:RAHZWNYVWXNFOC-UHFFFAOYSA-N
-        a                  dbo:ChemicalSubstance , skos:Concept , dbo:ChemicalCompound ;
-        rdfs:seeAlso       compound:1119 ;
-        dbo:casNumber      "83008-56-4" , "7446-09-5" , "89125-89-3" , "12396-99-5" , "12624-32-7" , "8014-94-6" ;
-        dbo:formula        "O2S" ;
-        dbo:inchi          "InChI=1S/O2S/c1-3-2" ;
-        dbo:iupacName      "Sulfur dioxide"@en ;
-        dbo:pubchem        "1119"^^xsd:int ;
-        dbo:smiles         "O=S=O" ;
-        dbp:inchikey       "InChIKey=RAHZWNYVWXNFOC-UHFFFAOYSA-N" ;
-        skos:inScheme      vlcs:chemische_stof ;
-        skos:notation      "SO2" ;
-        skos:prefLabel     "zwaveldioxide"@nl ;
-        skos:topConceptOf  vlcs:chemische_stof .
+        a                   dbo:ChemicalSubstance , skos:Concept , dbo:ChemicalCompound ;
+        rdfs:seeAlso        compound:1119 ;
+        dbo:casNumber       "83008-56-4" , "7446-09-5" , "89125-89-3" , "12396-99-5" , "12624-32-7" , "8014-94-6" ;
+        dbo:formula         "O2S" ;
+        dbo:inchi           "InChI=1S/O2S/c1-3-2" ;
+        dbo:iupacName       "Sulfur dioxide"@en ;
+        dbo:pubchem         "1119"^^xsd:int ;
+        dbo:smiles          "O=S=O" ;
+        dbp:inchikey        "InChIKey=RAHZWNYVWXNFOC-UHFFFAOYSA-N" ;
+        dct:isReferencedBy  co:CMA_2_III_E , co:LUC_III_008 ;
+        skos:inScheme       vlcs:chemische_stof ;
+        skos:notation       "SO2" ;
+        skos:prefLabel      "zwaveldioxide"@nl ;
+        skos:topConceptOf   vlcs:chemische_stof .
 
 csc:NBBZMDUHKWRYSZ-UHFFFAOYSA-N
         a                  skos:Concept , dbo:ChemicalCompound , dbo:ChemicalSubstance ;
@@ -36192,7 +36207,7 @@ csc:YXFVVABEGXRONW-UHFFFAOYSA-N
         dbo:pubchem         "1140"^^xsd:int ;
         dbo:smiles          "CC1=CC=CC=C1" ;
         dbp:inchikey        "InChIKey=YXFVVABEGXRONW-UHFFFAOYSA-N" ;
-        dct:isReferencedBy  co:LUC_IV_011 , co:LUC_IV_000 , co:LUC_IV_001 ;
+        dct:isReferencedBy  co:LUC_IV_011 , co:LUC_IV_000 , co:LUC_IV_001 , co:CMA_2_III_A ;
         skos:exactMatch     wise:CAS_108-88-3 ;
         skos:inScheme       vlcs:chemische_stof ;
         skos:notation       "Tol" ;
@@ -36578,7 +36593,7 @@ csc:HXGDTGSAIMULJN-UHFFFAOYSA-N
         dbo:pubchem         "9161"^^xsd:int ;
         dbo:smiles          "C1=CC2=C3C(=C1)C=CC3=CC=C2" ;
         dbp:inchikey        "InChIKey=HXGDTGSAIMULJN-UHFFFAOYSA-N" ;
-        dct:isReferencedBy  co:LUC_VI_001 ;
+        dct:isReferencedBy  co:LUC_VI_001 , co:WAC_IV_A_002 ;
         skos:exactMatch     wise:CAS_208-96-8 ;
         skos:inScheme       vlcs:chemische_stof ;
         skos:notation       "AcNy" ;
@@ -36939,19 +36954,20 @@ csc:PXFDQFDPXWHEEP-UHFFFAOYSA-M
         skos:topConceptOf  vlcs:chemische_stof .
 
 csc:XPCLSVISJWLKJE-UHFFFAOYSA-M
-        a                  skos:Concept , dbo:ChemicalCompound , dbo:ChemicalSubstance ;
-        rdfs:seeAlso       compound:168739 ;
-        dbo:casNumber      "27936-43-2" , "25154-52-3" ;
-        dbo:formula        "C15H23KO" ;
-        dbo:inchi          "InChI=1S/C15H24O.K/c1-2-3-4-5-6-7-8-11-14-12-9-10-13-15(14)16;/h9-10,12-13,16H,2-8,11H2,1H3;/q;+1/p-1" ;
-        dbo:iupacName      "potassium 2-nonylphenolate"@en ;
-        dbo:pubchem        "168739"^^xsd:int ;
-        dbo:smiles         "CCCCCCCCCC1=CC=CC=C1[O-].[K+]" ;
-        dbp:inchikey       "InChIKey=XPCLSVISJWLKJE-UHFFFAOYSA-M" ;
-        skos:inScheme      vlcs:chemische_stof ;
-        skos:notation      "C9yFol" ;
-        skos:prefLabel     "nonylfenol"@nl ;
-        skos:topConceptOf  vlcs:chemische_stof .
+        a                   skos:Concept , dbo:ChemicalCompound , dbo:ChemicalSubstance ;
+        rdfs:seeAlso        compound:168739 ;
+        dbo:casNumber       "27936-43-2" , "25154-52-3" ;
+        dbo:formula         "C15H23KO" ;
+        dbo:inchi           "InChI=1S/C15H24O.K/c1-2-3-4-5-6-7-8-11-14-12-9-10-13-15(14)16;/h9-10,12-13,16H,2-8,11H2,1H3;/q;+1/p-1" ;
+        dbo:iupacName       "potassium 2-nonylphenolate"@en ;
+        dbo:pubchem         "168739"^^xsd:int ;
+        dbo:smiles          "CCCCCCCCCC1=CC=CC=C1[O-].[K+]" ;
+        dbp:inchikey        "InChIKey=XPCLSVISJWLKJE-UHFFFAOYSA-M" ;
+        dct:isReferencedBy  co:WAC_IV_A_001 , co:WAC_IV_A_005 ;
+        skos:inScheme       vlcs:chemische_stof ;
+        skos:notation       "C9yFol" ;
+        skos:prefLabel      "nonylfenol"@nl ;
+        skos:topConceptOf   vlcs:chemische_stof .
 
 csc:QHMTXANCGGJZRX-WUXMJOGZSA-N
         a                  dbo:ChemicalCompound , skos:Concept , dbo:ChemicalSubstance ;
@@ -37271,6 +37287,7 @@ csc:OAICVXFJPJFONN-UHFFFAOYSA-N
         dbo:pubchem         "5462309"^^xsd:int ;
         dbo:smiles          "[P]" ;
         dbp:inchikey        "InChIKey=OAICVXFJPJFONN-UHFFFAOYSA-N" ;
+        dct:isReferencedBy  co:WAC_III_C_010 ;
         skos:exactMatch     wise:CAS_7723-14-0 ;
         skos:inScheme       vlcs:chemische_stof ;
         skos:prefLabel      "fosfor"@nl ;
@@ -39705,6 +39722,7 @@ csc:OKTJSMMVPCPJKN-UHFFFAOYSA-N
         dbo:pubchem         "5462310"^^xsd:int ;
         dbo:smiles          "[C]" ;
         dbp:inchikey        "InChIKey=OKTJSMMVPCPJKN-UHFFFAOYSA-N" ;
+        dct:isReferencedBy  co:BOC_versie_2.1 , co:WAC_III_D_050 , co:LUC_IV_011 , co:LUC_IV_012 , co:CMA_2_II_A.7 , co:CMA_1_A.6 , co:LUC_IV_000 ;
         skos:exactMatch     wise:CAS_7440-44-0 ;
         skos:inScheme       vlcs:chemische_stof ;
         skos:notation       "C" ;
@@ -40276,6 +40294,7 @@ csc:XDDAORKBJWWYJS-UHFFFAOYSA-N
         dbo:pubchem         "3496"^^xsd:int ;
         dbo:smiles          "C(C(=O)O)NCP(=O)(O)O" ;
         dbp:inchikey        "InChIKey=XDDAORKBJWWYJS-UHFFFAOYSA-N" ;
+        dct:isReferencedBy  co:WAC_IV_A_029 ;
         skos:exactMatch     wise:CAS_1071-83-6 ;
         skos:inScheme       vlcs:chemische_stof ;
         skos:notation       "glyfst" ;
@@ -46135,6 +46154,7 @@ csc:VEXZGXHMUGYJMC-UHFFFAOYSA-M
         dbo:pubchem         "312"^^xsd:int ;
         dbo:smiles          "[Cl-]" ;
         dbp:inchikey        "InChIKey=VEXZGXHMUGYJMC-UHFFFAOYSA-M" ;
+        dct:isReferencedBy  co:LUC_III_002 , co:WAC_V_B_003 , co:CMA_2_I_C , co:WAC_III_D_020 ;
         skos:exactMatch     wise:CAS_16887-00-6 ;
         skos:inScheme       vlcs:chemische_stof ;
         skos:notation       "Cl" ;
@@ -49306,6 +49326,7 @@ csc:QGZKDVFQNNGYKY-UHFFFAOYSA-O
         dbo:pubchem         "223"^^xsd:int ;
         dbo:smiles          "[NH4+]" ;
         dbp:inchikey        "InChIKey=QGZKDVFQNNGYKY-UHFFFAOYSA-O" ;
+        dct:isReferencedBy  co:WAC_III_E_022 , co:CMA_2_I_E.2 , co:WAC_III_E_021 , co:CMA_2_I_E.1 , co:WAC_IV_A_003 , co:LUC_VII_001 , co:CMA_2_I_E.4 , co:WAC_III_E_023 , co:CMA_2_II_A.16 , co:WAC_III_D_030 , co:CMA_2_I_E , co:WAC_V_B_003 , co:CMA_2_I_C.8 , co:WAC_III_E_020 , co:LUC_III_003 ;
         skos:exactMatch     wise:CAS_14798-03-9 ;
         skos:inScheme       vlcs:chemische_stof ;
         skos:notation       "NH4" ;
@@ -49823,6 +49844,7 @@ csc:NHNBFGGVMKEFGY-UHFFFAOYSA-N
         dbo:pubchem         "943"^^xsd:int ;
         dbo:smiles          "[N+](=O)([O-])[O-]" ;
         dbp:inchikey        "InChIKey=NHNBFGGVMKEFGY-UHFFFAOYSA-N" ;
+        dct:isReferencedBy  co:WAC_III_C_002 , co:CMA_2_IV_4 , co:WAC_III_D_032 ;
         skos:exactMatch     wise:CAS_14797-55-8 ;
         skos:inScheme       vlcs:chemische_stof ;
         skos:notation       "NO3" ;
@@ -49947,7 +49969,7 @@ csc:TVMXDCGIABBOFY-UHFFFAOYSA-N
         dbo:pubchem         "356"^^xsd:int ;
         dbo:smiles          "CCCCCCCC" ;
         dbp:inchikey        "InChIKey=TVMXDCGIABBOFY-UHFFFAOYSA-N" ;
-        dct:isReferencedBy  co:LUC_IV_011 , co:LUC_IV_006 , co:LUC_IV_000 ;
+        dct:isReferencedBy  co:WAC_IV_A_016 , co:LUC_IV_011 , co:LUC_IV_006 , co:LUC_IV_000 ;
         skos:altLabel       "n-octaan"@nl ;
         skos:inScheme       vlcs:chemische_stof ;
         skos:notation       "C8a" ;
@@ -52700,7 +52722,7 @@ csc:BUGBHKTXTAQXES-UHFFFAOYSA-N
         dbo:pubchem         "6326970"^^xsd:int ;
         dbo:smiles          "[Se]" ;
         dbp:inchikey        "InChIKey=BUGBHKTXTAQXES-UHFFFAOYSA-N" ;
-        dct:isReferencedBy  co:LUC_I_002 , co:LUC_III_010 ;
+        dct:isReferencedBy  co:LUC_I_002 , co:LUC_III_010 , co:WAC_III_B_010 , co:CMA_2_I_B , co:CMA_2_I_B.6 , co:CMA_2_I_B.1 , co:WAC_III_B_012 ;
         skos:altLabel       "Seleen (Se)"@nl , "seleen (se)"@nl , "seleen, opgelost"@nl ;
         skos:definition     "seleen en seleenverbindingen, uitgedrukt als lood (Pb)"@nl ;
         skos:exactMatch     wise:CAS_7782-49-2 ;
