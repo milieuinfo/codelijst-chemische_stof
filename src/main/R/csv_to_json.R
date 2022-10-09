@@ -6,6 +6,8 @@ library(stringr)
 
 # lees csv
 df <- read.csv(file = "../resources/be/vlaanderen/omgeving/data/id/conceptscheme/chemische_stof/chemische_stof.csv", sep=",", na.strings=c("","NA"))
+df_classification <- read.csv(file = "../resources/be/vlaanderen/omgeving/data/id/conceptscheme/chemische_stof/classification.csv", sep=",", na.strings=c("","NA"))
+df <- bind_rows(df, df_classification)
 # fix voor vctrs_error_incompatible in pubchem column
 df <- df %>%
   mutate_all(list(~ str_c("", .)))
@@ -33,6 +35,16 @@ for (scheme in as.list(schemes$topConceptOf)) {
   hastopconcept <- as.list(topconceptof["uri"])
   df2 <- data.frame(scheme, hastopconcept)
   names(df2) <- c("uri","hasTopConcept")
+  df <- bind_rows(df, df2)
+}
+# narrower uit "inverse" relatie broader
+broaders <- na.omit(distinct(df['broader']))
+for (broad in as.list(broaders$broader)) {
+  relation <- subset(df, broader == broad ,
+                     select=c(uri, broader))
+  narrowers <- as.list(relation["uri"])
+  df2 <- data.frame(broad, narrowers)
+  names(df2) <- c("uri","narrower")
   df <- bind_rows(df, df2)
 }
 df <- df %>%

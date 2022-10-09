@@ -1,16 +1,16 @@
 {
   "@graph" : [ {
-    "@id" : "_:b1",
-    "inversePath" : "vcs:vmmParameterId"
-  }, {
-    "@id" : "_:b3",
+    "@id" : "_:b0",
     "inversePath" : "dbo:casNumber"
   }, {
-    "@id" : "_:b6",
-    "inversePath" : "dbo:iupacName"
+    "@id" : "_:b2",
+    "inversePath" : "vcs:vmmParameterId"
   }, {
-    "@id" : "_:b8",
+    "@id" : "_:b5",
     "inversePath" : "skos:notation"
+  }, {
+    "@id" : "_:b7",
+    "inversePath" : "dbo:iupacName"
   }, {
     "@id" : "ons:chemische_stof",
     "@type" : "sh:NodeShape",
@@ -32,7 +32,7 @@
       "@value" : "chemische stof"
     },
     "property" : [ "omg_ps:chemische_stof_seeAlso", "omg_ps:chemische_stof_inchi", "omg_ps:chemische_stof_notation", "omg_ps:chemische_stof_casNumber", "omg_ps:chemische_stof_vmmParameterId", "omg_ps:chemische_stof_smiles", "omg_ps:chemische_stof_isReferencedBy", "omg_ps:chemische_stof_iupacName", "omg_ps:chemische_stof_comment", "omg_ps:chemische_stof_exactMatch", "omg_ps:chemische_stof_inScheme", "omg_ps:chemische_stof_definition", "omg_ps:chemische_stof_altLabel", "omg_ps:chemische_stof_formula", "omg_ps:chemische_stof_prefLabel", "omg_ps:chemische_stof_inchikey", "omg_ps:chemische_stof_topConceptOf", "omg_ps:chemische_stof_pubchem" ],
-    "targetClass" : [ "skos:Concept", "dbo:ChemicalSubstance", "dbo:ChemicalCompound" ]
+    "targetClass" : [ "dbo:ChemicalSubstance", "dbo:ChemicalCompound" ]
   }, {
     "@id" : "ons:chemische_stof_collection",
     "@type" : "sh:NodeShape",
@@ -441,7 +441,7 @@
       "@language" : "nl",
       "@value" : "heeft topconcept"
     },
-    "class" : [ "skos:Concept", "dbo:ChemicalCompound", "dbo:ChemicalSubstance" ],
+    "class" : "skos:Concept",
     "description" : {
       "@language" : "nl",
       "@value" : "Verbindt een conceptschema met een concept dat bovenaan in een 'broader/narrower' hierarchie staat en voorziet aldus een ingang tot die hierarchie."
@@ -507,7 +507,6 @@
       "@value" : "De relatie tussen een concept en het schema, waarvan het een topconcept is."
     },
     "sh:maxCount" : 1,
-    "sh:minCount" : 1,
     "name" : {
       "@language" : "nl",
       "@value" : "topconcept van"
@@ -533,7 +532,7 @@
       "@value" : "uniek CAS nummer"
     },
     "nodeKind" : "sh:IRI",
-    "path" : "_:b3",
+    "path" : "_:b0",
     "targetObjectsOf" : "dbo:casNumber"
   }, {
     "@id" : "omg_ps:chemische_stof_unique_iupacName",
@@ -554,7 +553,7 @@
       "@value" : "unieke IUPAC-naam"
     },
     "nodeKind" : "sh:IRI",
-    "path" : "_:b6",
+    "path" : "_:b7",
     "targetObjectsOf" : "dbo:iupacName"
   }, {
     "@id" : "omg_ps:chemische_stof_unique_notation",
@@ -575,7 +574,7 @@
       "@value" : "unieke notatie"
     },
     "nodeKind" : "sh:IRI",
-    "path" : "_:b8",
+    "path" : "_:b5",
     "targetObjectsOf" : "skos:notation"
   }, {
     "@id" : "omg_ps:chemische_stof_unique_vmmParameterId",
@@ -596,7 +595,7 @@
       "@value" : "unieke vmmParameterId"
     },
     "nodeKind" : "sh:IRI",
-    "path" : "_:b1",
+    "path" : "_:b2",
     "targetObjectsOf" : "vcs:vmmParameterId"
   }, {
     "@id" : "omg_ps:chemische_stof_vmmParameterId",
@@ -628,6 +627,10 @@
     "sameAs" : "omg_ont:chemische-stof-ap-constraints"
   } ],
   "@context" : {
+    "inversePath" : {
+      "@id" : "http://www.w3.org/ns/shacl#inversePath",
+      "@type" : "@id"
+    },
     "label" : {
       "@id" : "http://www.w3.org/2000/01/rdf-schema#label"
     },
@@ -673,14 +676,6 @@
       "@id" : "http://www.w3.org/ns/shacl#targetObjectsOf",
       "@type" : "@id"
     },
-    "targetClass" : {
-      "@id" : "http://www.w3.org/ns/shacl#targetClass",
-      "@type" : "@id"
-    },
-    "property" : {
-      "@id" : "http://www.w3.org/ns/shacl#property",
-      "@type" : "@id"
-    },
     "rest" : {
       "@id" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#rest",
       "@type" : "@id"
@@ -688,8 +683,12 @@
     "first" : {
       "@id" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#first"
     },
-    "inversePath" : {
-      "@id" : "http://www.w3.org/ns/shacl#inversePath",
+    "targetClass" : {
+      "@id" : "http://www.w3.org/ns/shacl#targetClass",
+      "@type" : "@id"
+    },
+    "property" : {
+      "@id" : "http://www.w3.org/ns/shacl#property",
       "@type" : "@id"
     },
     "sameAs" : {

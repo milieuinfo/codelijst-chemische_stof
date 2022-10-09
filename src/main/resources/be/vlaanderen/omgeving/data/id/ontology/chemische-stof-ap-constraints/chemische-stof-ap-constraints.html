@@ -286,9 +286,7 @@
                   <h2 class="sp_section_title_table">chemische stof</h2>
                   <p><em>De uniciteit van een chemische stof wordt bepaald door haar IUPAC-naam. InChI's kunnen gezien worden als verkorte, geformaliseerde versies van de IUPAC-namen van stoffen. InChIKey is een formaat met een vaste lengte dat direct is afgeleid van een InChI. De URI van de chemische stoffen is gebaseerd op de InChIKey.</em></p>
                   <ul class="sp_list_description_properties sp_ul">
-                     <li>Target Class: <a href="http://www.w3.org/2004/02/skos/core#Concept">skos:Concept</a></li>
                      <li>Target Class: <a href="http://dbpedia.org/ontology/ChemicalSubstance">dbo:ChemicalSubstance</a></li>
-                     <li>Target Class: <a href="http://dbpedia.org/ontology/ChemicalCompound">dbo:ChemicalCompound</a></li>
                   </ul>
                   <table class="sp_table_propertyshapes table-striped table-responsive">
                      <thead>
@@ -464,7 +462,7 @@
                            <td><code><a href="http://www.w3.org/2004/02/skos/core#topConceptOf">skos:topConceptOf</a></code></td>
                            <td><code><a href="#ons:chemische_stof_schema">conceptschema van chemische stoffen</a></code><br></td>
                            <td>
-                              <div style="width:30px">1..1</div>
+                              <div style="width:30px">0..1</div>
                            </td>
                            <td class="sp_table_propertyshapes_col_description">De relatie tussen een concept en het schema, waarvan het een topconcept is.</td>
                         </tr>
@@ -530,7 +528,7 @@
                         <tr>
                            <td>heeft topconcept</td>
                            <td><code><a href="http://www.w3.org/2004/02/skos/core#hasTopConcept">skos:hasTopConcept</a></code></td>
-                           <td><code><a href="#ons:chemische_stof">chemische stof</a></code><br></td>
+                           <td><code>skos:Concept</code><br></td>
                            <td>
                               <div style="width:30px">1..*</div>
                            </td>
@@ -580,7 +578,7 @@
                         <tr>
                            <td>onderdeel</td>
                            <td><code><a href="http://www.w3.org/2004/02/skos/core#member">skos:member</a></code></td>
-                           <td><code><a href="#ons:chemische_stof">chemische stof</a></code><br></td>
+                           <td><code>skos:Concept</code><br></td>
                            <td>
                               <div style="width:30px">1..*</div>
                            </td>

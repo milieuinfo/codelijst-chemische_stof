@@ -89,7 +89,7 @@ ons:chemische_stof
                      omg_ps:chemische_stof_isReferencedBy, omg_ps:chemische_stof_comment, omg_ps:chemische_stof_definition,
                      omg_ps:chemische_stof_altLabel, omg_ps:chemische_stof_formula, omg_ps:chemische_stof_prefLabel,
                      omg_ps:chemische_stof_inchikey, omg_ps:chemische_stof_topConceptOf, omg_ps:chemische_stof_pubchem ;
-    sh:targetClass   skos:Concept, dbo:ChemicalSubstance, dbo:ChemicalCompound .
+    sh:targetClass   dbo:ChemicalSubstance, dbo:ChemicalCompound . #skos:Concept
 
 # Property Shapes
 omg_ps:chemische_stof_inchikey
@@ -113,7 +113,7 @@ omg_ps:chemische_stof_topConceptOf
     rdfs:isDefinedBy omg_ont:chemische-stof-ap-constraints, omg_voc:chemische-stof-ap-constraints ;
     sh:class         skos:ConceptScheme ;
     sh:maxCount      1 ;
-    sh:minCount      1 ;
+    #sh:minCount      1 ;
     sh:nodeKind      sh:IRI ;
     sh:path          skos:topConceptOf .
 
@@ -244,7 +244,7 @@ omg_ps:chemische_stof_schema_hasTopConcept
     sh:description
                      "Verbindt een conceptschema met een concept dat bovenaan in een 'broader/narrower' hierarchie staat en voorziet aldus een ingang tot die hierarchie."@nl ;
     rdfs:isDefinedBy omg_ont:chemische-stof-ap-constraints, omg_voc:chemische-stof-ap-constraints ;
-    sh:class         dbo:ChemicalCompound, dbo:ChemicalSubstance, skos:Concept ;
+    sh:class         skos:Concept ; #dbo:ChemicalCompound, dbo:ChemicalSubstance,
     sh:minCount      1 ;
     sh:nodeKind      sh:IRI ;
     sh:path          skos:hasTopConcept .

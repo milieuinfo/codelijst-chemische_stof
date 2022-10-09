@@ -79,8 +79,32 @@
       "@id" : "http://www.w3.org/2004/02/skos/core#member",
       "@type" : "@id"
     },
+    "broader" : {
+      "@id" : "http://www.w3.org/2004/02/skos/core#broader",
+      "@type" : "@id"
+    },
+    "narrower" : {
+      "@id" : "http://www.w3.org/2004/02/skos/core#narrower",
+      "@type" : "@id"
+    },
     "belongsTo" : {
       "@id" : "http://rdf-vocabulary.ddialliance.org/xkos#belongsTo",
+      "@type" : "@id"
+    },
+    "levels" : {
+      "@id" : "http://rdf-vocabulary.ddialliance.org/xkos#levels",
+      "@type" : "@id"
+    },
+    "depth" : {
+      "@id" : "http://rdf-vocabulary.ddialliance.org/xkos#depth",
+      "@type" : "http://www.w3.org/2001/XMLSchema#positiveInteger"
+    },
+    "first" : {
+      "@id" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#first",
+      "@type" : "@id"
+    },
+    "rest" : {
+      "@id" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#rest",
       "@type" : "@id"
     },
     "xsd" : "http://www.w3.org/2001/XMLSchema#",
@@ -91,6 +115,8 @@
     "vcs" : "https://data.vlaanderen.be/ns/chemische_stof#",
     "vlcs" : "https://data.omgeving.vlaanderen.be/id/conceptscheme/",
     "csc" : "https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/",
+    "cscl" : "https://data.omgeving.vlaanderen.be/id/classificationlevel/chemische_stof/",
+    "list" : "https://data.omgeving.vlaanderen.be/id/list/chemische_stof/",
     "cosc" : "https://data.omgeving.vlaanderen.be/id/collection/chemische_stof/",
     "dbp" : "http://dbpedia.org/property/",
     "wise" : "http://dd.eionet.europa.eu/vocabulary/wise/ObservedProperty/",
@@ -99,5 +125,6 @@
     "dc" : "http://purl.org/dc/elements/1.1/",
     "omg_dataset" : "https://data.omgeving.vlaanderen.be/id/dataset/",
     "co" : "https://data.omgeving.vlaanderen.be/id/concept/observatieprocedure/",
-    "xkos" : "http://rdf-vocabulary.ddialliance.org/xkos#"
+    "xkos" : "http://rdf-vocabulary.ddialliance.org/xkos#",
+    "rdf" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
 }
