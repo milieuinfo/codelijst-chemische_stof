@@ -47,7 +47,7 @@
       "@language" : "nl",
       "@value" : "Dataset Codelijst Chemische stoffen"
     },
-    "versionInfo" : "1.0.6",
+    "versionInfo" : "1.0.7",
     "contactPoint" : "omg_vcard:helpdesk",
     "distribution" : [ "omg_distribution:codelijst-chemische_stof_csv", "omg_distribution:codelijst-chemische_stof_jsonld", "omg_distribution:codelijst-chemische_stof_ttl" ],
     "landingPage" : "https://data.omgeving.vlaanderen.be/doc/catalog/codelijst.html",
@@ -76,7 +76,7 @@
       "@language" : "nl",
       "@value" : "Codelijst Chemische stoffen, in text/csv formaat."
     },
-    "versionInfo" : "1.0.6",
+    "versionInfo" : "1.0.7",
     "accessURL" : "https://github.com/milieuinfo/codelijst-chemische_stof.git",
     "compressFormat" : "http://www.iana.org/assignments/media-types/application/gzip",
     "downloadURL" : "https://raw.githubusercontent.com/milieuinfo/codelijst-chemische_stof/main/src/main/resources/be/vlaanderen/omgeving/data/id/conceptscheme/chemische_stof/chemische_stof.csv",
@@ -105,7 +105,7 @@
       "@language" : "nl",
       "@value" : "Codelijst Chemische stoffen, in jsonld rdf-formaat."
     },
-    "versionInfo" : "1.0.6",
+    "versionInfo" : "1.0.7",
     "accessURL" : "https://github.com/milieuinfo/codelijst-chemische_stof.git",
     "compressFormat" : "http://www.iana.org/assignments/media-types/application/gzip",
     "downloadURL" : "https://raw.githubusercontent.com/milieuinfo/codelijst-chemische_stof/main/src/main/resources/be/vlaanderen/omgeving/data/id/conceptscheme/chemische_stof/chemische_stof.jsonld",
@@ -134,7 +134,7 @@
       "@language" : "nl",
       "@value" : "Codelijst Chemische stoffen, in Turtle rdf-formaat."
     },
-    "versionInfo" : "1.0.6",
+    "versionInfo" : "1.0.7",
     "accessURL" : "https://github.com/milieuinfo/codelijst-chemische_stof.git",
     "compressFormat" : "http://www.iana.org/assignments/media-types/application/gzip",
     "downloadURL" : "https://raw.githubusercontent.com/milieuinfo/codelijst-chemische_stof/main/src/main/resources/be/vlaanderen/omgeving/data/id/conceptscheme/chemische_stof/chemische_stof.ttl",
@@ -192,9 +192,6 @@
       "@id" : "http://purl.org/dc/terms/temporal",
       "@type" : "@id"
     },
-    "versionInfo" : {
-      "@id" : "http://www.w3.org/2002/07/owl#versionInfo"
-    },
     "title" : {
       "@id" : "http://purl.org/dc/terms/title"
     },
@@ -208,6 +205,9 @@
     },
     "label" : {
       "@id" : "http://www.w3.org/2000/01/rdf-schema#label"
+    },
+    "versionInfo" : {
+      "@id" : "http://www.w3.org/2002/07/owl#versionInfo"
     },
     "rootResource" : {
       "@id" : "http://rdfs.org/ns/void#rootResource",

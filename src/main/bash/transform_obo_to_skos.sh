@@ -2,7 +2,7 @@
 
 #dit scriptje maakt gebruik van robot, een javatool https://github.com/ontodev/robot
 #git clone en een mvn clean install voor gebruik
-# zet obo bestand http://classyfire.wishartlab.com/system/downloads/1_0/chemont/ChemOnt_2_1.obo.zip
+# zet obo bestand uit http://classyfire.wishartlab.com/system/downloads/1_0/chemont/ChemOnt_2_1.obo.zip
 # om in turtle
 
 /opt/robot/bin/robot convert -i '../chemont/obo/ChemOnt_2_1.obo'  --format ttl -o '../chemont/turtle/ChemOnt_2_1.ttl'
