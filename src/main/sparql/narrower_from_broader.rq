@@ -1,0 +1,25 @@
+prefix skos:  <http://www.w3.org/2004/02/skos/core#>
+prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#>
+prefix dbo:   <http://dbpedia.org/ontology/>
+prefix cs:    <https://data.vlaanderen.be/ns/chemische_stof#>
+prefix dbp:   <http://dbpedia.org/property/>
+prefix owl: <http://www.w3.org/2002/07/owl#>
+prefix csc: <https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/>
+prefix vlcs:  <https://data.omgeving.vlaanderen.be/id/conceptscheme/>
+
+
+
+construct
+
+{
+?narrower skos:broader ?broader
+
+}
+
+where
+
+{
+
+?broader skos:narrower ?narrower
+
+}

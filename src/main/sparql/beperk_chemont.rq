@@ -1,0 +1,34 @@
+# riot --formatted=TURTLE /home/gehau/git/codelijst-chemische_stof/src/main/resources/be/vlaanderen/omgeving/data/id/conceptscheme/chemische_stof/skos_chemont_2_1.ttl /home/gehau/git/codelijst-chemische_stof/src/main/resources/be/vlaanderen/omgeving/data/id/conceptscheme/chemische_stof/chemische_stof.ttl > /tmp/cs.ttl
+##sparql --results=TURTLE --data=/tmp/cs.ttl  --query beperk_chemont.rq
+prefix skos:  <http://www.w3.org/2004/02/skos/core#>
+prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#>
+prefix dbo:   <http://dbpedia.org/ontology/>
+prefix cs:    <https://data.vlaanderen.be/ns/chemische_stof#>
+prefix dbp:   <http://dbpedia.org/property/>
+prefix owl: <http://www.w3.org/2002/07/owl#>
+prefix csc: <https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/>
+prefix vlcs:  <https://data.omgeving.vlaanderen.be/id/conceptscheme/>
+
+
+
+construct
+
+{
+?broader ?p2 ?o2 .
+
+}
+
+where
+
+{
+?s a dbo:ChemicalCompound ;
+skos:broader+ ?broader ;
+?p ?o .
+?broader ?p2 ?o2 .
+FILTER( ?p2 != skos:narrower )
+
+}
+
+
+
+
