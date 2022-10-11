@@ -1,15 +1,15 @@
 {
   "@graph" : [ {
     "@id" : "_:b0",
-    "inversePath" : "dbo:casNumber"
+    "inversePath" : "skos:notation"
   }, {
     "@id" : "_:b2",
     "inversePath" : "vcs:vmmParameterId"
   }, {
-    "@id" : "_:b5",
-    "inversePath" : "skos:notation"
+    "@id" : "_:b4",
+    "inversePath" : "dbo:casNumber"
   }, {
-    "@id" : "_:b7",
+    "@id" : "_:b5",
     "inversePath" : "dbo:iupacName"
   }, {
     "@id" : "ons:chemische_stof",
@@ -532,7 +532,7 @@
       "@value" : "uniek CAS nummer"
     },
     "nodeKind" : "sh:IRI",
-    "path" : "_:b0",
+    "path" : "_:b4",
     "targetObjectsOf" : "dbo:casNumber"
   }, {
     "@id" : "omg_ps:chemische_stof_unique_iupacName",
@@ -553,7 +553,7 @@
       "@value" : "unieke IUPAC-naam"
     },
     "nodeKind" : "sh:IRI",
-    "path" : "_:b7",
+    "path" : "_:b5",
     "targetObjectsOf" : "dbo:iupacName"
   }, {
     "@id" : "omg_ps:chemische_stof_unique_notation",
@@ -574,7 +574,7 @@
       "@value" : "unieke notatie"
     },
     "nodeKind" : "sh:IRI",
-    "path" : "_:b5",
+    "path" : "_:b0",
     "targetObjectsOf" : "skos:notation"
   }, {
     "@id" : "omg_ps:chemische_stof_unique_vmmParameterId",
@@ -634,10 +634,6 @@
     "label" : {
       "@id" : "http://www.w3.org/2000/01/rdf-schema#label"
     },
-    "languageIn" : {
-      "@id" : "http://www.w3.org/ns/shacl#languageIn",
-      "@type" : "@id"
-    },
     "name" : {
       "@id" : "http://www.w3.org/ns/shacl#name"
     },
@@ -660,6 +656,10 @@
     "description" : {
       "@id" : "http://www.w3.org/ns/shacl#description"
     },
+    "languageIn" : {
+      "@id" : "http://www.w3.org/ns/shacl#languageIn",
+      "@type" : "@id"
+    },
     "minCount" : {
       "@id" : "http://www.w3.org/ns/shacl#minCount",
       "@type" : "http://www.w3.org/2001/XMLSchema#integer"
@@ -676,13 +676,6 @@
       "@id" : "http://www.w3.org/ns/shacl#targetObjectsOf",
       "@type" : "@id"
     },
-    "rest" : {
-      "@id" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#rest",
-      "@type" : "@id"
-    },
-    "first" : {
-      "@id" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#first"
-    },
     "targetClass" : {
       "@id" : "http://www.w3.org/ns/shacl#targetClass",
       "@type" : "@id"
@@ -690,6 +683,13 @@
     "property" : {
       "@id" : "http://www.w3.org/ns/shacl#property",
       "@type" : "@id"
+    },
+    "rest" : {
+      "@id" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#rest",
+      "@type" : "@id"
+    },
+    "first" : {
+      "@id" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#first"
     },
     "sameAs" : {
       "@id" : "http://www.w3.org/2002/07/owl#sameAs",

@@ -364,6 +364,7 @@
       "@language" : "nl",
       "@value" : "Chemische stof Vocabularium"
     },
+    "member" : [ "skos:hasTopConcept", "rdfs:comment", "skos:ConceptScheme", "skos:topConceptOf", "dbo:formula", "rdfs:seeAlso", "skos:prefLabel", "dbo:ChemicalSubstance", "dbo:iupacName", "dbo:pubchem", "dct:isReferencedBy", "skos:inScheme", "vcs:vmmParameterId", "dbo:casNumber", "skos:member", "dbp:inchikey", "dbo:smiles", "dbo:ChemicalCompound", "dbo:Drug", "skos:Concept", "dbo:inchi", "skos:Collection", "skos:altLabel", "skos:notation" ],
     "sameAs" : "vl_voc:chemische_stof",
     "versionInfo" : {
       "@language" : "nl",
@@ -387,7 +388,7 @@
       "@language" : "nl",
       "@value" : "Chemische stof Vocabularium"
     },
-    "member" : [ "dct:isReferencedBy", "skos:inScheme", "skos:Collection", "dbp:inchikey", "skos:topConceptOf", "dbo:pubchem", "skos:member", "dbo:casNumber", "dbo:Drug", "dbo:inchi", "dbo:ChemicalCompound", "rdfs:seeAlso", "skos:Concept", "skos:prefLabel", "dbo:ChemicalSubstance", "dbo:iupacName", "skos:ConceptScheme", "dbo:smiles", "dbo:formula", "skos:notation", "skos:altLabel", "skos:hasTopConcept", "rdfs:comment" ],
+    "member" : [ "rdfs:comment", "dbo:iupacName", "dbo:Drug", "skos:ConceptScheme", "dbo:ChemicalCompound", "dbo:formula", "dbo:ChemicalSubstance", "dbo:smiles", "dbo:inchi", "rdfs:seeAlso", "dbo:casNumber", "skos:prefLabel", "skos:notation", "skos:Concept", "dbp:inchikey", "skos:member", "skos:altLabel", "vcs:vmmParameterId", "dbo:pubchem", "dct:isReferencedBy", "skos:topConceptOf", "skos:inScheme", "skos:hasTopConcept", "skos:Collection" ],
     "sameAs" : "omg_ont:chemische_stof"
   }, {
     "@id" : "vcs:vmmParameterId",
@@ -473,6 +474,10 @@
       "@id" : "http://rdf-vocabulary.ddialliance.org/xkos#belongsTo",
       "@type" : "@id"
     },
+    "last" : {
+      "@id" : "http://www.w3.org/1999/xhtml/vocab#last",
+      "@type" : "@id"
+    },
     "abstract" : {
       "@id" : "http://purl.org/dc/terms/abstract"
     },
@@ -488,10 +493,6 @@
     },
     "title" : {
       "@id" : "http://purl.org/dc/terms/title"
-    },
-    "last" : {
-      "@id" : "http://www.w3.org/1999/xhtml/vocab#last",
-      "@type" : "@id"
     },
     "versionInfo" : {
       "@id" : "http://www.w3.org/2002/07/owl#versionInfo"
@@ -518,7 +519,7 @@
     "dct" : "http://purl.org/dc/terms/",
     "rdf" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
     "wdrs" : "http://www.w3.org/2007/05/powder-s#",
-    "vl_voc" : "https://data.omgeving.vlaanderen.be/ns/",
+    "vl_voc" : "https://data.vlaanderen.be/ns/",
     "prov" : "http://www.w3.org/ns/prov#",
     "wikidata" : "http://www.wikidata.org/entity/",
     "omg_ag_cl" : "https://data.omgeving.vlaanderen.be/id/person/codelijst/",

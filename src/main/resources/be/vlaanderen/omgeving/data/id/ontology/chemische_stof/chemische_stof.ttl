@@ -14,7 +14,7 @@
 @prefix dct:   <http://purl.org/dc/terms/> .
 @prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix wdrs:  <http://www.w3.org/2007/05/powder-s#> .
-@prefix vl_voc: <https://data.omgeving.vlaanderen.be/ns/> .
+@prefix vl_voc: <https://data.vlaanderen.be/ns/> .
 @prefix prov:  <http://www.w3.org/ns/prov#> .
 @prefix wikidata: <http://www.wikidata.org/entity/> .
 @prefix omg_ag_cl: <https://data.omgeving.vlaanderen.be/id/person/codelijst/> .
@@ -25,7 +25,7 @@
 vl_voc:chemische_stof
     a            owl:Ontology ;
     rdfs:label   "Chemische stof Vocabularium"@nl ;
-    rdfs:member  rdfs:seeAlso, rdfs:comment, dbp:inchikey , dbo:pubchem , dbo:casNumber , dbo:Drug , dbo:inchi , dbo:ChemicalCompound , dbo:iupacName , dbo:ChemicalSubstance , dbo:smiles , dbo:formula  , skos:altLabel , skos:Collection , skos:Concept , skos:ConceptScheme , skos:hasTopConcept , skos:inScheme , skos:member , skos:notation , skos:prefLabel , skos:topConceptOf, dct:isReferencedBy;
+    rdfs:member  vcs:vmmParameterId, rdfs:seeAlso, rdfs:comment, dbp:inchikey , dbo:pubchem , dbo:casNumber , dbo:Drug , dbo:inchi , dbo:ChemicalCompound , dbo:iupacName , dbo:ChemicalSubstance , dbo:smiles , dbo:formula  , skos:altLabel , skos:Collection , skos:Concept , skos:ConceptScheme , skos:hasTopConcept , skos:inScheme , skos:member , skos:notation , skos:prefLabel , skos:topConceptOf, dct:isReferencedBy;
     owl:sameAs   omg_ont:chemische_stof .
 
 omg_ont:chemische_stof
@@ -41,6 +41,7 @@ omg_ont:chemische_stof
     xkos:belongsTo   omg_dataset:codelijst-chemische_stof ;
     xhv:last         vl_voc:chemische_stof ;
     owl:sameAs       vl_voc:chemische_stof ;
+    rdfs:member  vcs:vmmParameterId, rdfs:seeAlso, rdfs:comment, dbp:inchikey , dbo:pubchem , dbo:casNumber , dbo:Drug , dbo:inchi , dbo:ChemicalCompound , dbo:iupacName , dbo:ChemicalSubstance , dbo:smiles , dbo:formula  , skos:altLabel , skos:Collection , skos:Concept , skos:ConceptScheme , skos:hasTopConcept , skos:inScheme , skos:member , skos:notation , skos:prefLabel , skos:topConceptOf, dct:isReferencedBy;
     owl:versionInfo  "Versie 1.0.0  oktober 2022"@nl .
 
 omg_ag_cl:creator
