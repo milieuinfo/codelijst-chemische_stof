@@ -60,7 +60,7 @@ omg_dataset:codelijst-chemische_stof
         dcterms:temporal            omg_periodoftime:dataset_omg ;
         dcterms:title               "Thesaurus chemische stoffen"@nl ;
         void:rootResource           omg_conceptscheme:chemische_stof ;
-        owl:versionInfo             "1.0.8" ;
+        owl:versionInfo             "1.0.9" ;
         dcat:contactPoint           omg_vcard:helpdesk ;
         dcat:distribution           omg_distribution:codelijst-chemische_stof_csv , omg_distribution:codelijst-chemische_stof_ttl , omg_distribution:codelijst-chemische_stof_jsonld ;
         dcat:landingPage            <https://data.omgeving.vlaanderen.be/doc/catalog/codelijst.html> ;
@@ -78,7 +78,7 @@ omg_distribution:codelijst-chemische_stof_csv
         dcterms:issued        "2022-09-10"^^xsd:date ;
         dcterms:rightsHolder  ovo:OVO003751 ;
         dcterms:title         "Codelijst Chemische stoffen in text/csv formaat."@nl ;
-        owl:versionInfo       "1.0.8" ;
+        owl:versionInfo       "1.0.9" ;
         dcat:accessURL        <https://github.com/milieuinfo/codelijst-chemische_stof.git> ;
         dcat:compressFormat   <http://www.iana.org/assignments/media-types/application/gzip> ;
         dcat:downloadURL      <https://raw.githubusercontent.com/milieuinfo/codelijst-chemische_stof/main/src/main/resources/be/vlaanderen/omgeving/data/id/conceptscheme/chemische_stof/chemische_stof.csv> ;
@@ -96,7 +96,7 @@ omg_distribution:codelijst-chemische_stof_jsonld
         dcterms:issued        "2022-09-10"^^xsd:date ;
         dcterms:rightsHolder  ovo:OVO003751 ;
         dcterms:title         "Codelijst Chemische stoffen in jsonld rdf-formaat."@nl ;
-        owl:versionInfo       "1.0.8" ;
+        owl:versionInfo       "1.0.9" ;
         dcat:accessURL        <https://github.com/milieuinfo/codelijst-chemische_stof.git> ;
         dcat:compressFormat   <http://www.iana.org/assignments/media-types/application/gzip> ;
         dcat:downloadURL      <https://raw.githubusercontent.com/milieuinfo/codelijst-chemische_stof/main/src/main/resources/be/vlaanderen/omgeving/data/id/conceptscheme/chemische_stof/chemische_stof.jsonld> ;
@@ -123,7 +123,7 @@ omg_distribution:codelijst-chemische_stof_ttl
         dcterms:issued        "2022-09-10"^^xsd:date ;
         dcterms:rightsHolder  ovo:OVO003751 ;
         dcterms:title         "Codelijst Chemische stoffen in Turtle rdf-formaat."@nl ;
-        owl:versionInfo       "1.0.8" ;
+        owl:versionInfo       "1.0.9" ;
         dcat:accessURL        <https://github.com/milieuinfo/codelijst-chemische_stof.git> ;
         dcat:compressFormat   <http://www.iana.org/assignments/media-types/application/gzip> ;
         dcat:downloadURL      <https://raw.githubusercontent.com/milieuinfo/codelijst-chemische_stof/main/src/main/resources/be/vlaanderen/omgeving/data/id/conceptscheme/chemische_stof/chemische_stof.ttl> ;
