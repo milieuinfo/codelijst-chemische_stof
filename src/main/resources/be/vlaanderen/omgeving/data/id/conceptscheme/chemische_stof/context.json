@@ -35,6 +35,10 @@
       "@id" : "http://www.w3.org/2004/02/skos/core#prefLabel",
       "@language" : "nl"
     },
+    "prefLabel_en" : {
+      "@id" : "http://www.w3.org/2004/02/skos/core#prefLabel",
+      "@language" : "en"
+    },
     "seeAlso" : {
       "@id" : "http://www.w3.org/2000/01/rdf-schema#seeAlso",
       "@type" : "@id"
@@ -75,6 +79,10 @@
       "@id" : "http://www.w3.org/2004/02/skos/core#definition",
       "@language" : "nl"
     },
+    "definition_en" : {
+      "@id" : "http://www.w3.org/2004/02/skos/core#definition",
+      "@language" : "en"
+    },
     "member" : {
       "@id" : "http://www.w3.org/2004/02/skos/core#member",
       "@type" : "@id"
@@ -109,6 +117,7 @@
     },
     "xsd" : "http://www.w3.org/2001/XMLSchema#",
     "skos" : "http://www.w3.org/2004/02/skos/core#",
+    "tax_nodes" : "http://classyfire.wishartlab.com/tax_nodes/",
     "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",
     "compound" : "https://pubchem.ncbi.nlm.nih.gov/compound/",
     "dbo" : "http://dbpedia.org/ontology/",
