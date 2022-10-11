@@ -4,9 +4,15 @@ library(dplyr)
 library(jsonlite)
 library(stringr)
 
+#setwd('/home/gehau/git/codelijst-chemische_stof/src/main/R')
 # lees csv
 df <- read.csv(file = "../resources/be/vlaanderen/omgeving/data/id/conceptscheme/chemische_stof/chemische_stof.csv", sep=",", na.strings=c("","NA"))
 df_classification <- read.csv(file = "../resources/be/vlaanderen/omgeving/data/id/conceptscheme/chemische_stof/classification.csv", sep=",", na.strings=c("","NA"))
+# verwijder kolom stof_uri
+df_classification <-df_classification[ , -which(names(df_classification) %in% c("stof_uri"))]
+# distinct rows
+df_classification <- distinct(df_classification)
+# bind classification to stoffen
 df <- bind_rows(df, df_classification)
 # fix voor vctrs_error_incompatible in pubchem column
 df <- df %>%
@@ -47,6 +53,8 @@ for (broad in as.list(broaders$broader)) {
   names(df2) <- c("uri","narrower")
   df <- bind_rows(df, df2)
 }
+
+# rename columns
 df <- df %>%
   rename("@id" = uri,
          "@type" = type)

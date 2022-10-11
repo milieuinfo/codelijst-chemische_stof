@@ -9,7 +9,9 @@ echo "convert obo to owl-model"
 
 # zet Turtle om naar skos-model
 echo "convert owl-model to skos model"
-sparql --results=TURTLE --data=../chemont/turtle/ChemOnt_2_1.ttl  --query ../sparql/chemont_to_skos.rq | sed -e 's;http://purl.obolibrary.org/obo/;https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/;'> '../chemont/turtle/skos_chemont_2_1.ttl'
+sparql --results=TURTLE --data=../chemont/turtle/ChemOnt_2_1.ttl  --query ../sparql/chemont_to_skos.rq | sed -e 's;http://purl.obolibrary.org/obo/;https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/;' > '/tmp/skos_chemont_2_1_a.ttl'
+sparql --results=TURTLE --data=../chemont/turtle/ChemOnt_2_1.ttl  --query ../sparql/chemont_to_skos_schema.rq  > '/tmp/skos_chemont_2_1_b.ttl'
+riot --formatted=TURTLE  '/tmp/skos_chemont_2_1_b.ttl' '/tmp/skos_chemont_2_1_b.ttl' > '../chemont/turtle/skos_chemont_2_1.ttl'
 
 # filter er die delen uit die echt van toepassing zijn
 

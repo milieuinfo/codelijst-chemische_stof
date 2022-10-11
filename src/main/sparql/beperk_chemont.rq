@@ -15,11 +15,11 @@ construct
 
 {
 ?broader ?p2 ?o2 .
-
+vlcs:chemische_stof ?p3 ?o3 .
 }
 
 where
-
+{
 {
 ?s a dbo:ChemicalCompound ;
 skos:broader+ ?broader ;
@@ -27,6 +27,11 @@ skos:broader+ ?broader ;
 ?broader ?p2 ?o2 .
 FILTER( ?p2 != skos:narrower )
 
+}
+UNION
+{
+vlcs:chemische_stof ?p3 ?o3 .
+}
 }
 
 

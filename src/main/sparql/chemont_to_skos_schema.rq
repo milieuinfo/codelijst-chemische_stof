@@ -12,34 +12,22 @@ prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
 construct
 
 {
-?s a skos:Concept ;
-skos:broader ?broader ;
+vlcs:chemische_stof a skos:ConceptScheme ;
 skos:prefLabel ?label ;
 skos:definition ?definition ;
 skos:altLabel ?altLabel ;
-skos:notation ?notation ;
-skos:inScheme   vlcs:chemische_stof ;
-.
-?broader skos:narrower ?s ;
-.
+skos:notation ?notation .
+
 }
 
 where
 
 {
-?s a owl:Class ;
-
-rdfs:label ?la ;
-
-.
-optional {?s rdfs:subClassOf ?broader . FILTER( ?broader != <http://purl.obolibrary.org/obo/CHEMONTID_9999999> ) }
-optional {?s <http://purl.obolibrary.org/obo/IAO_0000115> ?def . BIND(STRLANG(?def, "en") AS ?definition) }
-optional {?s <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> ?al . BIND(STRLANG(?al, "en") AS ?altLabel)}
-optional { ?s <http://www.geneontology.org/formats/oboInOwl#id> ?notation }
-optional {?s <http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym> ?al . BIND(STRLANG(?al, "en") AS ?altLabel)}
-
-BIND(STRLANG(?la, "en") AS ?label)
-
-FILTER( ?s != <http://purl.obolibrary.org/obo/CHEMONTID_9999999> )
-
+<http://purl.obolibrary.org/obo/CHEMONTID_9999999> a owl:Class ;
+    rdfs:label ?la .
+    optional {<http://purl.obolibrary.org/obo/CHEMONTID_9999999> <http://purl.obolibrary.org/obo/IAO_0000115> ?def . BIND(STRLANG(?def, "en") AS ?definition) }
+    optional {<http://purl.obolibrary.org/obo/CHEMONTID_9999999> <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> ?al . BIND(STRLANG(?al, "en") AS ?altLabel)}
+    optional { <http://purl.obolibrary.org/obo/CHEMONTID_9999999> <http://www.geneontology.org/formats/oboInOwl#id> ?notation }
+    optional {<http://purl.obolibrary.org/obo/CHEMONTID_9999999> <http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym> ?al . BIND(STRLANG(?al, "en") AS ?altLabel)}
+    BIND(STRLANG(?la, "en") AS ?label)
 }
