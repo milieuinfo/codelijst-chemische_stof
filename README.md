@@ -3,7 +3,9 @@
 ## Samenvatting
 
 Dit project bevat een codelijst met eenduidige benamingen van chemische stoffen en tools om deze lijst te beheren en om te zetten naar webformaten.
-![Model](src/main/documentation/model.ttl)
+
+## Model
+![Model](src/main/documentation/model.png)
 ## Gebruik
 
 - Voeg een definitie van een nieuwe chemische stof toe aan $PROJECT_HOME/src/main/resources/be/vlaanderen/omgeving/data/id/conceptscheme/chemische_stof/chemische_stof.csv
