@@ -36,7 +36,6 @@ skos:Concept  rdf:type     "skos:Concept" ;
 
 rdf:List  rdf:type      "rdf:List" ;
         rdf:first       xkos:ClassificationLevel ;
-        rdf:rest        "rdfs:Resource" ;
         rdf:rest        rdf:List ;
         skos:prefLabel  "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString" .
 
