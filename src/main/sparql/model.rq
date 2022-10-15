@@ -13,7 +13,7 @@ prefix vlcs:  <https://data.omgeving.vlaanderen.be/id/conceptscheme/>
 prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
 construct
 {
-    ?type ?p ?datatype
+?type ?p ?datatype
 }
 
 where
@@ -22,24 +22,23 @@ where
     optional{?o a ?type2}
 
     bind(  COALESCE(
-        IF(isliteral(?o), str(datatype(?o)) , 1/0),
-        IF(exists{?o a ?type2}, ?type2, 1/0),
-        #IF(?o = rdf:nil, "rdf:nil", 1/0),
-        "rdfs:Resource"
-        )  as ?datatype)
-   NOT EXISTS { ?s a dbo:ChemicalCompound  }
-   NOT EXISTS { ?s a dbo:ChemicalSubstance  }
-    }
-    UNION
-    {
-        ?s a ?type ; ?p ?o .
-        optional{?o a ?type2}
-        bind(  COALESCE(
-            IF(isliteral(?o), str(datatype(?o)) , 1/0),
-            IF(exists{?o a ?type2}, ?type2, 1/0),
-
-            "rdfs:Resource"
-            )  as ?datatype)
-       FILTER (?type = dbo:ChemicalCompound )
-     }
+    IF(isliteral(?o), str(datatype(?o)) , 1/0),
+    IF(exists{?o a ?type2}, ?type2, 1/0),
+    #IF(?o = rdf:nil, "rdf:nil", 1/0),
+    "rdfs:Resource"
+    )  as ?datatype)
+NOT EXISTS { ?s a dbo:ChemicalCompound  }
+NOT EXISTS { ?s a dbo:ChemicalSubstance  }
+}
+UNION
+{
+?s a ?type ; ?p ?o .
+optional{?o a ?type2}
+bind(  COALESCE(
+IF(isliteral(?o), str(datatype(?o)) , 1/0),
+IF(exists{?o a ?type2}, ?type2, 1/0),
+"rdfs:Resource"
+)  as ?datatype)
+FILTER (?type = dbo:ChemicalCompound )
+}
 }

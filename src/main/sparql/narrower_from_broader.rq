@@ -12,14 +12,14 @@ prefix vlcs:  <https://data.omgeving.vlaanderen.be/id/conceptscheme/>
 construct
 
 {
-?narrower skos:broader ?broader
 
+    ?broader skos:narrower ?narrower
 }
 
 where
 
 {
+    ?narrower skos:broader ?broader
 
-?broader skos:narrower ?narrower
 
 }

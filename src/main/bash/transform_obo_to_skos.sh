@@ -11,7 +11,7 @@ echo "convert obo to owl-model"
 echo "convert owl-model to skos model"
 sparql --results=TURTLE --data=../chemont/turtle/ChemOnt_2_1.ttl  --query ../sparql/chemont_to_skos.rq | sed -e 's;http://purl.obolibrary.org/obo/;https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/;' > '/tmp/skos_chemont_2_1_a.ttl'
 sparql --results=TURTLE --data=../chemont/turtle/ChemOnt_2_1.ttl  --query ../sparql/chemont_to_skos_schema.rq  > '/tmp/skos_chemont_2_1_b.ttl'
-riot --formatted=TURTLE  '/tmp/skos_chemont_2_1_b.ttl' '/tmp/skos_chemont_2_1_b.ttl' > '../chemont/turtle/skos_chemont_2_1.ttl'
+riot --formatted=TURTLE  '/tmp/skos_chemont_2_1_a.ttl' '/tmp/skos_chemont_2_1_b.ttl' '../chemont/turtle/skos_chemont_2_1_verrijkt.ttl' > '../chemont/turtle/skos_chemont_2_1.ttl'
 
 # filter er die delen uit die echt van toepassing zijn
 
@@ -26,3 +26,5 @@ sparql --results=TURTLE --data=/tmp/cs2.ttl  --query ../sparql/narrower_from_bro
 riot --formatted=TURTLE /tmp/cs2.ttl /tmp/cs3.ttl > ../resources/be/vlaanderen/omgeving/data/id/conceptscheme/chemische_stof/chemische_stof_chemont_taxonomy.ttl
 
 riot --formatted=JSONLD ../resources/be/vlaanderen/omgeving/data/id/conceptscheme/chemische_stof/chemische_stof_chemont_taxonomy.ttl > ../resources/be/vlaanderen/omgeving/data/id/conceptscheme/chemische_stof/chemische_stof_chemont_taxonomy.jsonld
+
+shacl v --shapes ../resources/be/vlaanderen/omgeving/data/id/ontology/chemische-stof-ap-constraints/chemische-stof-ap-constraints.ttl --data ../resources/be/vlaanderen/omgeving/data/id/conceptscheme/chemische_stof/chemische_stof_chemont_taxonomy.ttl

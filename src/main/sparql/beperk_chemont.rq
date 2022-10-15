@@ -8,14 +8,17 @@ prefix dbp:   <http://dbpedia.org/property/>
 prefix owl: <http://www.w3.org/2002/07/owl#>
 prefix csc: <https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/>
 prefix vlcs:  <https://data.omgeving.vlaanderen.be/id/conceptscheme/>
-
+prefix xkos:        <http://rdf-vocabulary.ddialliance.org/xkos#>
+prefix rdf:         <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
 
 
 construct
-
 {
+?s ?p ?o .
 ?broader ?p2 ?o2 .
 vlcs:chemische_stof ?p3 ?o3 .
+?cl ?pcl ?ocl .
+?l ?pl ?ol .
 }
 
 where
@@ -25,12 +28,18 @@ where
 skos:broader+ ?broader ;
 ?p ?o .
 ?broader ?p2 ?o2 .
-FILTER( ?p2 != skos:narrower )
-
 }
 UNION
 {
 vlcs:chemische_stof ?p3 ?o3 .
+}
+UNION
+{
+   ?cl ?pcl ?ocl ; a xkos:ClassificationLevel .
+}
+UNION
+{
+   ?l ?pl ?ol ; a rdf:List .
 }
 }
 
