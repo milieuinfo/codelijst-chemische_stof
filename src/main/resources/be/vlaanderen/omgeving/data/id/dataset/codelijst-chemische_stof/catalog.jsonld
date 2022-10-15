@@ -1,294 +1,311 @@
 {
-  "@graph" : [ {
-    "@id" : "omg_catalog:codelijst",
-    "@type" : "dcat:Catalog",
-    "dataset" : "omg_dataset:codelijst-chemische_stof",
-    "service" : "omg_dataservice:sparqlendpoint"
-  }, {
-    "@id" : "omg_dataservice:sparqlendpoint",
-    "@type" : "dcat:DataService",
-    "servesDataset" : "omg_dataset:codelijst-chemische_stof"
-  }, {
-    "@id" : "omg_dataset:codelijst-chemische_stof",
-    "@type" : "dcat:Dataset",
-    "identifier" : "be.vlaanderen.omgeving.data.id.dataset.codelijst-chemische_stof",
-    "dc:language" : {
-      "@language" : "nl",
-      "@value" : "nl"
-    },
-    "accessRights" : "access_right:PUBLIC",
-    "accrualPeriodicity" : "frequency:IRREG",
-    "alternative" : {
-      "@language" : "nl",
-      "@value" : "Codelijst Chemische stoffen Dataset"
-    },
-    "description" : {
-      "@language" : "nl",
-      "@value" : "Deze dataset bevat een lijst van chemische stoffen, die gebruikt worden binnen het beleidsdomein omgeving van de Vlaamse Overheid en zoals die initieel binnen het kader van het OSLO thema omgeving is opgesteld."
-    },
-    "dcterms:identifier" : {
-      "@id" : "omg_dataset:codelijst-chemische_stof"
-    },
-    "issued" : "2022-03-01",
-    "dcterms:language" : {
-      "@id" : "language:NLD"
-    },
-    "license" : "http://data.vlaanderen.be/id/licentie/modellicentie-gratis-hergebruik/v1.0",
-    "publisher" : "ovo:OVO003323",
-    "rightsHolder" : "ovo:OVO003751",
-    "spatial" : [ "https://www.geonames.org/3337388/flanders", "country:BEL" ],
-    "temporal" : "omg_periodoftime:dataset_omg",
-    "title" : {
-      "@language" : "nl",
-      "@value" : "Thesaurus chemische stoffen"
-    },
-    "rootResource" : "omg_conceptscheme:chemische_stof",
-    "label" : {
-      "@language" : "nl",
-      "@value" : "Dataset Codelijst Chemische stoffen"
-    },
-    "versionInfo" : "1.0.10",
-    "contactPoint" : "omg_vcard:helpdesk",
-    "distribution" : [ "omg_distribution:codelijst-chemische_stof_csv", "omg_distribution:codelijst-chemische_stof_jsonld", "omg_distribution:codelijst-chemische_stof_ttl" ],
-    "landingPage" : "https://data.omgeving.vlaanderen.be/doc/catalog/codelijst.html",
-    "theme" : [ "gemet:10087", "datatheme_be:ENVI", "eurovoc:2407", "datatheme_eu:ENVI" ],
-    "page" : "https://data.omgeving.vlaanderen.be/doc/dataset/codelijst-chemische_stof.html"
-  }, {
-    "@id" : "omg_distribution:codelijst-chemische_stof_csv",
-    "@type" : "dcat:Distribution",
-    "identifier" : "be.vlaanderen.omgeving.data.id.distribution.codelijst-chemische_stof_ttl",
-    "accessRights" : "access_right:PUBLIC",
-    "description" : {
-      "@language" : "nl",
-      "@value" : "Codelijst Chemische stoffen, geserialiseerd in csv tabelformaat."
-    },
-    "format" : "file_type:CSV",
-    "dcterms:identifier" : {
-      "@id" : "omg_distribution:codelijst-chemische_stof_ttl"
-    },
-    "issued" : "2022-09-10",
-    "rightsHolder" : "ovo:OVO003751",
-    "title" : {
-      "@language" : "nl",
-      "@value" : "Codelijst Chemische stoffen in text/csv formaat."
-    },
-    "label" : {
-      "@language" : "nl",
-      "@value" : "Codelijst Chemische stoffen, in text/csv formaat."
-    },
-    "versionInfo" : "1.0.10",
-    "accessURL" : "https://github.com/milieuinfo/codelijst-chemische_stof.git",
-    "compressFormat" : "http://www.iana.org/assignments/media-types/application/gzip",
-    "downloadURL" : "https://raw.githubusercontent.com/milieuinfo/codelijst-chemische_stof/main/src/main/resources/be/vlaanderen/omgeving/data/id/conceptscheme/chemische_stof/chemische_stof.csv",
-    "mediaType" : "https://www.iana.org/assignments/media-types/text/csv",
-    "page" : "https://data.omgeving.vlaanderen.be/doc/distribution/codelijst-chemische_stof_csv.html"
-  }, {
-    "@id" : "omg_distribution:codelijst-chemische_stof_jsonld",
-    "@type" : "dcat:Distribution",
-    "identifier" : "be.vlaanderen.omgeving.data.id.distribution.codelijst-chemische_stof_jsonld",
-    "accessRights" : "access_right:PUBLIC",
-    "description" : {
-      "@language" : "nl",
-      "@value" : "Codelijst Chemische stoffen, geserialiseerd in een jsonld bestand."
-    },
-    "format" : "file_type:JSON_LD",
-    "dcterms:identifier" : {
-      "@id" : "omg_distribution:codelijst-chemische_stof_jsonld"
-    },
-    "issued" : "2022-09-10",
-    "rightsHolder" : "ovo:OVO003751",
-    "title" : {
-      "@language" : "nl",
-      "@value" : "Codelijst Chemische stoffen in jsonld rdf-formaat."
-    },
-    "label" : {
-      "@language" : "nl",
-      "@value" : "Codelijst Chemische stoffen, in jsonld rdf-formaat."
-    },
-    "versionInfo" : "1.0.10",
-    "accessURL" : "https://github.com/milieuinfo/codelijst-chemische_stof.git",
-    "compressFormat" : "http://www.iana.org/assignments/media-types/application/gzip",
-    "downloadURL" : "https://raw.githubusercontent.com/milieuinfo/codelijst-chemische_stof/main/src/main/resources/be/vlaanderen/omgeving/data/id/conceptscheme/chemische_stof/chemische_stof.jsonld",
-    "mediaType" : "https://www.iana.org/assignments/media-types/application/ld+json",
-    "page" : "https://data.omgeving.vlaanderen.be/doc/distribution/codelijst-chemische_stof_jsonld.html"
-  }, {
-    "@id" : "omg_distribution:codelijst-chemische_stof_ttl",
-    "@type" : "dcat:Distribution",
-    "identifier" : "be.vlaanderen.omgeving.data.id.distribution.codelijst-chemische_stof_ttl",
-    "accessRights" : "access_right:PUBLIC",
-    "description" : {
-      "@language" : "nl",
-      "@value" : "Codelijst Chemische stoffen, geserialiseerd in Turtle bestand."
-    },
-    "format" : "file_type:RDF_TURTLE",
-    "dcterms:identifier" : {
-      "@id" : "omg_distribution:codelijst-chemische_stof_ttl"
-    },
-    "issued" : "2022-09-10",
-    "rightsHolder" : "ovo:OVO003751",
-    "title" : {
-      "@language" : "nl",
-      "@value" : "Codelijst Chemische stoffen in Turtle rdf-formaat."
-    },
-    "label" : {
-      "@language" : "nl",
-      "@value" : "Codelijst Chemische stoffen, in Turtle rdf-formaat."
-    },
-    "versionInfo" : "1.0.10",
-    "accessURL" : "https://github.com/milieuinfo/codelijst-chemische_stof.git",
-    "compressFormat" : "http://www.iana.org/assignments/media-types/application/gzip",
-    "downloadURL" : "https://raw.githubusercontent.com/milieuinfo/codelijst-chemische_stof/main/src/main/resources/be/vlaanderen/omgeving/data/id/conceptscheme/chemische_stof/chemische_stof.ttl",
-    "mediaType" : "https://www.iana.org/assignments/media-types/text/turtle",
-    "page" : "https://data.omgeving.vlaanderen.be/doc/distribution/codelijst-chemische_stof_ttl.html"
-  } ],
-  "@context" : {
-    "distribution" : {
-      "@id" : "http://www.w3.org/ns/dcat#distribution",
-      "@type" : "@id"
-    },
-    "alternative" : {
-      "@id" : "http://purl.org/dc/terms/alternative"
-    },
-    "description" : {
-      "@id" : "http://purl.org/dc/terms/description"
-    },
-    "identifier" : {
-      "@id" : "http://purl.org/dc/elements/1.1/identifier"
-    },
-    "spatial" : {
-      "@id" : "http://purl.org/dc/terms/spatial",
-      "@type" : "@id"
-    },
-    "page" : {
-      "@id" : "http://xmlns.com/foaf/0.1/page",
-      "@type" : "@id"
-    },
-    "theme" : {
-      "@id" : "http://www.w3.org/ns/dcat#theme",
-      "@type" : "@id"
-    },
-    "landingPage" : {
-      "@id" : "http://www.w3.org/ns/dcat#landingPage",
-      "@type" : "@id"
-    },
-    "rightsHolder" : {
-      "@id" : "http://purl.org/dc/terms/rightsHolder",
-      "@type" : "@id"
-    },
-    "language" : "http://publications.europa.eu/resource/authority/language/",
-    "accrualPeriodicity" : {
-      "@id" : "http://purl.org/dc/terms/accrualPeriodicity",
-      "@type" : "@id"
-    },
-    "publisher" : {
-      "@id" : "http://purl.org/dc/terms/publisher",
-      "@type" : "@id"
-    },
-    "contactPoint" : {
-      "@id" : "http://www.w3.org/ns/dcat#contactPoint",
-      "@type" : "@id"
-    },
-    "temporal" : {
-      "@id" : "http://purl.org/dc/terms/temporal",
-      "@type" : "@id"
-    },
-    "title" : {
-      "@id" : "http://purl.org/dc/terms/title"
-    },
-    "issued" : {
-      "@id" : "http://purl.org/dc/terms/issued",
-      "@type" : "http://www.w3.org/2001/XMLSchema#date"
-    },
-    "accessRights" : {
-      "@id" : "http://purl.org/dc/terms/accessRights",
-      "@type" : "@id"
-    },
-    "label" : {
-      "@id" : "http://www.w3.org/2000/01/rdf-schema#label"
-    },
-    "versionInfo" : {
-      "@id" : "http://www.w3.org/2002/07/owl#versionInfo"
-    },
-    "rootResource" : {
-      "@id" : "http://rdfs.org/ns/void#rootResource",
-      "@type" : "@id"
-    },
-    "license" : {
-      "@id" : "http://purl.org/dc/terms/license",
-      "@type" : "@id"
-    },
-    "accessURL" : {
-      "@id" : "http://www.w3.org/ns/dcat#accessURL",
-      "@type" : "@id"
-    },
-    "downloadURL" : {
-      "@id" : "http://www.w3.org/ns/dcat#downloadURL",
-      "@type" : "@id"
-    },
-    "compressFormat" : {
-      "@id" : "http://www.w3.org/ns/dcat#compressFormat",
-      "@type" : "@id"
-    },
-    "mediaType" : {
-      "@id" : "http://www.w3.org/ns/dcat#mediaType",
-      "@type" : "@id"
-    },
-    "format" : {
-      "@id" : "http://purl.org/dc/terms/format",
-      "@type" : "@id"
-    },
-    "service" : {
-      "@id" : "http://www.w3.org/ns/dcat#service",
-      "@type" : "@id"
-    },
-    "dataset" : {
-      "@id" : "http://www.w3.org/ns/dcat#dataset",
-      "@type" : "@id"
-    },
-    "servesDataset" : {
-      "@id" : "http://www.w3.org/ns/dcat#servesDataset",
-      "@type" : "@id"
-    },
-    "country" : "http://publications.europa.eu/resource/authority/country/",
-    "formats" : "http://www.w3.org/ns/formats/",
-    "spdx" : "http://spdx.org/rdf/terms#",
-    "owl" : "http://www.w3.org/2002/07/owl#",
-    "omg_catalog" : "https://data.omgeving.vlaanderen.be/id/catalog/",
-    "ssd" : "http://www.w3.org/ns/sparql-service-description#",
-    "xsd" : "http://www.w3.org/2001/XMLSchema#",
-    "omg_graphcollection" : "https://data.omgeving.vlaanderen.be/id/graphcollection/",
-    "skos" : "http://www.w3.org/2004/02/skos/core#",
-    "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",
-    "datatheme_eu" : "http://publications.europa.eu/resource/authority/data-theme/",
-    "eurovoc" : "http://eurovoc.europa.eu/",
-    "omg_id" : "https://data.omgeving.vlaanderen.be/id/",
-    "omg_dataset" : "https://data.omgeving.vlaanderen.be/id/dataset/",
-    "access_right" : "http://publications.europa.eu/resource/authority/access-right/",
-    "frequency" : "http://publications.europa.eu/resource/authority/frequency/",
-    "sd" : "http://www.w3.org/ns/sparql-service-description#",
-    "omg_periodoftime" : "https://data.omgeving.vlaanderen.be/id/periodoftime/",
-    "omg_collection" : "https://data.omgeving.vlaanderen.be/id/collection/",
-    "file_type" : "http://publications.europa.eu/resource/authority/file-type/",
-    "dcterms" : "http://purl.org/dc/terms/",
-    "dcat" : "http://www.w3.org/ns/dcat#",
-    "foaf" : "http://xmlns.com/foaf/0.1/",
-    "assettype" : "http://purl.org/adms/assettype/",
-    "omg_dataservice" : "https://data.omgeving.vlaanderen.be/id/dataservice/",
-    "void" : "http://rdfs.org/ns/void#",
-    "adms" : "http://www.w3.org/ns/adms#",
-    "gemet" : "http://www.eionet.europa.eu/gemet/concept/",
-    "omg_named_graph" : "https://data.omgeving.vlaanderen.be/id/namedgraph/",
-    "omg_vcard" : "https://data.omgeving.vlaanderen.be/id/vcard/",
-    "ovo" : "http://data.vlaanderen.be/id/organisatie/",
-    "vcard" : "http://www.w3.org/2006/vcard/ns#",
-    "omg_ontology" : "https://data.omgeving.vlaanderen.be/id/ontology/",
-    "omg_graph" : "https://data.omgeving.vlaanderen.be/id/graph/",
-    "rdf" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
-    "omg_distribution" : "https://data.omgeving.vlaanderen.be/id/distribution/",
-    "omg_service" : "https://data.omgeving.vlaanderen.be/id/service/",
-    "datatheme_be" : "http://vocab.belgif.be/auth/datatheme/",
-    "omg_conceptscheme" : "https://data.omgeving.vlaanderen.be/id/conceptscheme/",
-    "omg_package" : "https://data.omgeving.vlaanderen.be/id/package/",
-    "dc" : "http://purl.org/dc/elements/1.1/"
-  }
+    "@graph": [
+        {
+            "@id": "omg_dataset:codelijst-chemische_stof",
+            "dcat:distribution": [
+                {
+                    "@id": "omg_distribution:codelijst-chemische_stof_csv"
+                },
+                {
+                    "@id": "omg_distribution:codelijst-chemische_stof_jsonld"
+                },
+                {
+                    "@id": "omg_distribution:codelijst-chemische_stof_ttl"
+                }
+            ],
+            "dcterms:alternative": {
+                "@language": "nl",
+                "@value": "Codelijst Chemische stoffen Dataset"
+            },
+            "dcterms:description": {
+                "@language": "nl",
+                "@value": "Deze dataset bevat een lijst van chemische stoffen, die gebruikt worden binnen het beleidsdomein omgeving van de Vlaamse Overheid en zoals die initieel binnen het kader van het OSLO thema omgeving is opgesteld."
+            },
+            "dc:identifier": "be.vlaanderen.omgeving.data.id.dataset.codelijst-chemische_stof",
+            "dcterms:spatial": [
+                {
+                    "@id": "https://www.geonames.org/3337388/flanders"
+                },
+                {
+                    "@id": "country:BEL"
+                }
+            ],
+            "foaf:page": {
+                "@id": "https://data.omgeving.vlaanderen.be/doc/dataset/codelijst-chemische_stof.html"
+            },
+            "dcat:theme": [
+                {
+                    "@id": "gemet:10087"
+                },
+                {
+                    "@id": "datatheme_be:ENVI"
+                },
+                {
+                    "@id": "eurovoc:2407"
+                },
+                {
+                    "@id": "datatheme_eu:ENVI"
+                }
+            ],
+            "dcat:landingPage": {
+                "@id": "https://data.omgeving.vlaanderen.be/doc/catalog/codelijst.html"
+            },
+            "dcterms:rightsHolder": {
+                "@id": "ovo:OVO003751"
+            },
+            "dc:language": {
+                "@language": "nl",
+                "@value": "nl"
+            },
+            "dcterms:accrualPeriodicity": {
+                "@id": "frequency:IRREG"
+            },
+            "dcterms:publisher": {
+                "@id": "ovo:OVO003323"
+            },
+            "dcat:contactPoint": {
+                "@id": "omg_id:vcard/helpdesk"
+            },
+            "dcterms:temporal": {
+                "@id": "omg_id:periodoftime/dataset_omg"
+            },
+            "dcterms:identifier": {
+                "@id": "omg_dataset:codelijst-chemische_stof"
+            },
+            "dcterms:title": {
+                "@language": "nl",
+                "@value": "Thesaurus chemische stoffen"
+            },
+            "@type": "dcat:Dataset",
+            "dcterms:issued": {
+                "@value": "2022-03-01",
+                "@type": "xsd:date"
+            },
+            "dcterms:language": {
+                "@id": "language:NLD"
+            },
+            "dcterms:accessRights": {
+                "@id": "access_right:PUBLIC"
+            },
+            "rdfs:label": {
+                "@language": "nl",
+                "@value": "Dataset Codelijst Chemische stoffen"
+            },
+            "owl:versionInfo": "1.0.10",
+            "void:rootResource": {
+                "@id": "omg_conceptscheme:chemische_stof"
+            },
+            "dcterms:license": {
+                "@id": "http://data.vlaanderen.be/id/licentie/modellicentie-gratis-hergebruik/v1.0"
+            }
+        },
+        {
+            "@id": "omg_distribution:codelijst-chemische_stof_csv",
+            "owl:versionInfo": "1.0.10",
+            "dcterms:issued": {
+                "@value": "2022-09-10",
+                "@type": "xsd:date"
+            },
+            "dcat:accessURL": {
+                "@id": "https://github.com/milieuinfo/codelijst-chemische_stof.git"
+            },
+            "dcterms:title": {
+                "@language": "nl",
+                "@value": "Codelijst Chemische stoffen in text/csv formaat."
+            },
+            "dcterms:description": {
+                "@language": "nl",
+                "@value": "Codelijst Chemische stoffen, geserialiseerd in csv tabelformaat."
+            },
+            "dc:identifier": "be.vlaanderen.omgeving.data.id.distribution.codelijst-chemische_stof_ttl",
+            "rdfs:label": {
+                "@language": "nl",
+                "@value": "Codelijst Chemische stoffen, in text/csv formaat."
+            },
+            "dcat:downloadURL": {
+                "@id": "https://raw.githubusercontent.com/milieuinfo/codelijst-chemische_stof/main/src/main/resources/be/vlaanderen/omgeving/data/id/conceptscheme/chemische_stof/chemische_stof.csv"
+            },
+            "dcat:compressFormat": {
+                "@id": "http://www.iana.org/assignments/media-types/application/gzip"
+            },
+            "dcterms:accessRights": {
+                "@id": "access_right:PUBLIC"
+            },
+            "@type": "dcat:Distribution",
+            "dcterms:rightsHolder": {
+                "@id": "ovo:OVO003751"
+            },
+            "foaf:page": {
+                "@id": "https://data.omgeving.vlaanderen.be/doc/distribution/codelijst-chemische_stof_csv.html"
+            },
+            "dcterms:identifier": {
+                "@id": "omg_distribution:codelijst-chemische_stof_ttl"
+            },
+            "dcat:mediaType": {
+                "@id": "https://www.iana.org/assignments/media-types/text/csv"
+            },
+            "dcterms:format": {
+                "@id": "file_type:CSV"
+            }
+        },
+        {
+            "@id": "omg_distribution:codelijst-chemische_stof_jsonld",
+            "dcat:mediaType": {
+                "@id": "https://www.iana.org/assignments/media-types/application/ld+json"
+            },
+            "foaf:page": {
+                "@id": "https://data.omgeving.vlaanderen.be/doc/distribution/codelijst-chemische_stof_jsonld.html"
+            },
+            "owl:versionInfo": "1.0.10",
+            "dc:identifier": "be.vlaanderen.omgeving.data.id.distribution.codelijst-chemische_stof_jsonld",
+            "@type": "dcat:Distribution",
+            "dcterms:identifier": {
+                "@id": "omg_distribution:codelijst-chemische_stof_jsonld"
+            },
+            "dcat:downloadURL": {
+                "@id": "https://raw.githubusercontent.com/milieuinfo/codelijst-chemische_stof/main/src/main/resources/be/vlaanderen/omgeving/data/id/conceptscheme/chemische_stof/chemische_stof.jsonld"
+            },
+            "dcat:accessURL": {
+                "@id": "https://github.com/milieuinfo/codelijst-chemische_stof.git"
+            },
+            "dcterms:format": {
+                "@id": "file_type:JSON_LD"
+            },
+            "dcterms:issued": {
+                "@value": "2022-09-10",
+                "@type": "xsd:date"
+            },
+            "dcat:compressFormat": {
+                "@id": "http://www.iana.org/assignments/media-types/application/gzip"
+            },
+            "dcterms:rightsHolder": {
+                "@id": "ovo:OVO003751"
+            },
+            "dcterms:title": {
+                "@language": "nl",
+                "@value": "Codelijst Chemische stoffen in jsonld rdf-formaat."
+            },
+            "dcterms:accessRights": {
+                "@id": "access_right:PUBLIC"
+            },
+            "rdfs:label": {
+                "@language": "nl",
+                "@value": "Codelijst Chemische stoffen, in jsonld rdf-formaat."
+            },
+            "dcterms:description": {
+                "@language": "nl",
+                "@value": "Codelijst Chemische stoffen, geserialiseerd in een jsonld bestand."
+            }
+        },
+        {
+            "@id": "omg_distribution:codelijst-chemische_stof_ttl",
+            "dcterms:accessRights": {
+                "@id": "access_right:PUBLIC"
+            },
+            "dcat:accessURL": {
+                "@id": "https://github.com/milieuinfo/codelijst-chemische_stof.git"
+            },
+            "dcat:mediaType": {
+                "@id": "https://www.iana.org/assignments/media-types/text/turtle"
+            },
+            "dcterms:rightsHolder": {
+                "@id": "ovo:OVO003751"
+            },
+            "@type": "dcat:Distribution",
+            "dcterms:issued": {
+                "@value": "2022-09-10",
+                "@type": "xsd:date"
+            },
+            "dcterms:description": {
+                "@language": "nl",
+                "@value": "Codelijst Chemische stoffen, geserialiseerd in Turtle bestand."
+            },
+            "dcat:downloadURL": {
+                "@id": "https://raw.githubusercontent.com/milieuinfo/codelijst-chemische_stof/main/src/main/resources/be/vlaanderen/omgeving/data/id/conceptscheme/chemische_stof/chemische_stof.ttl"
+            },
+            "owl:versionInfo": "1.0.10",
+            "dcterms:format": {
+                "@id": "file_type:RDF_TURTLE"
+            },
+            "dc:identifier": "be.vlaanderen.omgeving.data.id.distribution.codelijst-chemische_stof_ttl",
+            "foaf:page": {
+                "@id": "https://data.omgeving.vlaanderen.be/doc/distribution/codelijst-chemische_stof_ttl.html"
+            },
+            "dcterms:title": {
+                "@language": "nl",
+                "@value": "Codelijst Chemische stoffen in Turtle rdf-formaat."
+            },
+            "dcat:compressFormat": {
+                "@id": "http://www.iana.org/assignments/media-types/application/gzip"
+            },
+            "dcterms:identifier": {
+                "@id": "omg_distribution:codelijst-chemische_stof_ttl"
+            },
+            "rdfs:label": {
+                "@language": "nl",
+                "@value": "Codelijst Chemische stoffen, in Turtle rdf-formaat."
+            }
+        },
+        {
+            "@id": "omg_catalog:codelijst",
+            "dcat:service": {
+                "@id": "omg_dataservice:sparqlendpoint"
+            },
+            "dcat:dataset": {
+                "@id": "omg_dataset:codelijst-chemische_stof"
+            },
+            "@type": "dcat:Catalog"
+        },
+        {
+            "@id": "omg_dataservice:sparqlendpoint",
+            "dcat:servesDataset": {
+                "@id": "omg_dataset:codelijst-chemische_stof"
+            },
+            "@type": "dcat:DataService"
+        }
+    ],
+    "@context": {
+        "country": "http://publications.europa.eu/resource/authority/country/",
+        "formats": "http://www.w3.org/ns/formats/",
+        "spdx": "http://spdx.org/rdf/terms#",
+        "omg_catalog": "https://data.omgeving.vlaanderen.be/id/catalog/",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "ssd": "http://www.w3.org/ns/sparql-service-description#",
+        "omg_graphcollection": "https://data.omgeving.vlaanderen.be/id/graphcollection/",
+        "xsd": "http://www.w3.org/2001/XMLSchema#",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "datatheme_eu": "http://publications.europa.eu/resource/authority/data-theme/",
+        "eurovoc": "http://eurovoc.europa.eu/",
+        "language": "http://publications.europa.eu/resource/authority/language/",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "omg_id": "https://data.omgeving.vlaanderen.be/id/",
+        "access_right": "http://publications.europa.eu/resource/authority/access-right/",
+        "omg_dataset": "https://data.omgeving.vlaanderen.be/id/dataset/",
+        "frequency": "http://publications.europa.eu/resource/authority/frequency/",
+        "sd": "http://www.w3.org/ns/sparql-service-description#",
+        "omg_collection": "https://data.omgeving.vlaanderen.be/id/collection/",
+        "omg_periodoftime": "https://data.omgeving.vlaanderen.be/id/periodoftime/",
+        "file_type": "http://publications.europa.eu/resource/authority/file-type/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "dcat": "http://www.w3.org/ns/dcat#",
+        "assettype": "http://purl.org/adms/assettype/",
+        "foaf": "http://xmlns.com/foaf/0.1/",
+        "omg_dataservice": "https://data.omgeving.vlaanderen.be/id/dataservice/",
+        "void": "http://rdfs.org/ns/void#",
+        "adms": "http://www.w3.org/ns/adms#",
+        "gemet": "http://www.eionet.europa.eu/gemet/concept/",
+        "omg_named_graph": "https://data.omgeving.vlaanderen.be/id/namedgraph/",
+        "omg_vcard": "https://data.omgeving.vlaanderen.be/id/vcard/",
+        "ovo": "http://data.vlaanderen.be/id/organisatie/",
+        "vcard": "http://www.w3.org/2006/vcard/ns#",
+        "omg_ontology": "https://data.omgeving.vlaanderen.be/id/ontology/",
+        "omg_graph": "https://data.omgeving.vlaanderen.be/id/graph/",
+        "omg_distribution": "https://data.omgeving.vlaanderen.be/id/distribution/",
+        "omg_service": "https://data.omgeving.vlaanderen.be/id/service/",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "datatheme_be": "http://vocab.belgif.be/auth/datatheme/",
+        "omg_conceptscheme": "https://data.omgeving.vlaanderen.be/id/conceptscheme/",
+        "omg_package": "https://data.omgeving.vlaanderen.be/id/package/",
+        "dc": "http://purl.org/dc/elements/1.1/"
+    }
 }
