@@ -63,6 +63,7 @@
             "dcterms:publisher": {
                 "@id": "ovo:OVO003323"
             },
+            "owl:versionInfo": "1.0.11",
             "dcat:contactPoint": {
                 "@id": "omg_id:vcard/helpdesk"
             },
@@ -91,7 +92,6 @@
                 "@language": "nl",
                 "@value": "Dataset Codelijst Chemische stoffen"
             },
-            "owl:versionInfo": "1.0.10",
             "void:rootResource": {
                 "@id": "omg_conceptscheme:chemische_stof"
             },
@@ -101,7 +101,6 @@
         },
         {
             "@id": "omg_distribution:codelijst-chemische_stof_csv",
-            "owl:versionInfo": "1.0.10",
             "dcterms:issued": {
                 "@value": "2022-09-10",
                 "@type": "xsd:date"
@@ -122,6 +121,7 @@
                 "@language": "nl",
                 "@value": "Codelijst Chemische stoffen, in text/csv formaat."
             },
+            "owl:versionInfo": "1.0.11",
             "dcat:downloadURL": {
                 "@id": "https://raw.githubusercontent.com/milieuinfo/codelijst-chemische_stof/main/src/main/resources/be/vlaanderen/omgeving/data/id/conceptscheme/chemische_stof/chemische_stof.csv"
             },
@@ -156,7 +156,6 @@
             "foaf:page": {
                 "@id": "https://data.omgeving.vlaanderen.be/doc/distribution/codelijst-chemische_stof_jsonld.html"
             },
-            "owl:versionInfo": "1.0.10",
             "dc:identifier": "be.vlaanderen.omgeving.data.id.distribution.codelijst-chemische_stof_jsonld",
             "@type": "dcat:Distribution",
             "dcterms:identifier": {
@@ -168,6 +167,7 @@
             "dcat:accessURL": {
                 "@id": "https://github.com/milieuinfo/codelijst-chemische_stof.git"
             },
+            "owl:versionInfo": "1.0.11",
             "dcterms:format": {
                 "@id": "file_type:JSON_LD"
             },
@@ -223,7 +223,7 @@
             "dcat:downloadURL": {
                 "@id": "https://raw.githubusercontent.com/milieuinfo/codelijst-chemische_stof/main/src/main/resources/be/vlaanderen/omgeving/data/id/conceptscheme/chemische_stof/chemische_stof.ttl"
             },
-            "owl:versionInfo": "1.0.10",
+            "owl:versionInfo": "1.0.11",
             "dcterms:format": {
                 "@id": "file_type:RDF_TURTLE"
             },
