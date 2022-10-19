@@ -14,11 +14,12 @@ prefix rdf:         <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
 
 construct
 {
-?s ?p ?o .
+?s ?p ?o ; skos:broaderTransitive ?broader .
 ?broader ?p2 ?o2 .
 vlcs:chemische_stof ?p3 ?o3 .
 ?cl ?pcl ?ocl .
 ?l ?pl ?ol .
+?broader skos:narrowerTransitive ?s .
 }
 
 where
