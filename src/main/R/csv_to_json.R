@@ -16,7 +16,6 @@ to_jsonld <- function(dataframe) {
   return(df_in_json)
 }
 
-
 expand_df_on_pipe <- function(dataframe) {
   # fix voor vctrs_error_incompatible in pubchem column
   df <- dataframe %>%
@@ -83,17 +82,12 @@ narrower_from_broader  <- function(df) {
 # lees csv
 df <- read.csv(file = "../resources/be/vlaanderen/omgeving/data/id/conceptscheme/chemische_stof/chemische_stof.csv", sep=",", na.strings=c("","NA"))
 
-df <- expand_df_on_pipe(df)
-
-df <- members_from_collection(df)
-
-df <- hasTopConcept_from_topConceptOf(df)
+df <- expand_df_on_pipe(df)%>% 
+  members_from_collection()%>%
+  hasTopConcept_from_topConceptOf()%>%
+  rename_columns()
 
 #df <- narrower_from_broader(df)
-
-df <- rename_columns(df)
-
-
 
 # write volledig geexpandeerde csv, ter controle, deze wordt niet aan versiebeheer toegevoegd
 write.csv(df,"../resources/be/vlaanderen/omgeving/data/id/conceptscheme/chemische_stof/chemische_stof_separate_rows.csv", row.names = FALSE)
@@ -109,18 +103,14 @@ system("riot --formatted=JSONLD ../resources/be/vlaanderen/omgeving/data/id/conc
 
 
 df_classification <- read.csv(file = "../resources/be/vlaanderen/omgeving/data/id/conceptscheme/chemische_stof/classification.csv", sep=",", na.strings=c("","NA"))
-# verwijder kolom stof_uri
-df_classification <-df_classification[ , -which(names(df_classification) %in% c("stof_uri", "stof_uri_response"))]
-# distinct rows
-df_classification <- distinct(df_classification)
-
-df_classification <- expand_df_on_pipe(df_classification)
-
-df_classification <- members_from_collection(df_classification)
-
-df_classification <- hasTopConcept_from_topConceptOf(df_classification)
-
-df_classification <- rename_columns(df_classification)
+# verwijder kolom stof_uri en stof_uri_response
+# # distinct rows
+df_classification <-df_classification[ , -which(names(df_classification) %in% c("stof_uri", "stof_uri_response"))] %>%
+  distinct() %>%
+  expand_df_on_pipe()%>%
+  members_from_collection()%>%
+  hasTopConcept_from_topConceptOf()%>%
+  rename_columns()
 
 write(to_jsonld(df_classification), "/tmp/classification.jsonld")
 system("riot --formatted=TURTLE /tmp/classification.jsonld > ../chemont/turtle/skos_chemont_2_1_verrijkt.ttl")
