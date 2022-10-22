@@ -1,0 +1,15 @@
+prefix skos:    <http://www.w3.org/2004/02/skos/core#>
+prefix dbo:     <http://dbpedia.org/ontology/>
+prefix dbp:     <http://dbpedia.org/property/>
+prefix chebi:   <http://purl.obolibrary.org/obo/chebi/>
+prefix csc:     <https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/>
+
+construct
+{
+?stof skos:exactMatch ?chebi .
+}
+where
+{
+    ?stof a dbo:ChemicalCompound ; dbp:inchikey ?inchikey .
+    ?chebi chebi:inchikey ?inchikey .
+}
