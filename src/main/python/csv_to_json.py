@@ -1,6 +1,7 @@
 import json
 import pandas as pd
 from functions.functions import *
+
 context = json.load(open("../resources/be/vlaanderen/omgeving/data/id/conceptscheme/chemische_stof/context.json"))
 df = pd.read_csv("../resources/be/vlaanderen/omgeving/data/id/conceptscheme/chemische_stof/chemische_stof.csv", sep=",", na_values=["", "NA"])
 df = expand_df_on_pipe(df)
