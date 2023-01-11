@@ -1,6 +1,10 @@
 import json
 import pandas as pd
 from functions.functions import *
+from rdflib import Graph, plugin
+
+#g = Graph()
+#g.parse("/tmp/chemische_stof.jsonld")
 
 context = json.load(open("../resources/be/vlaanderen/omgeving/data/id/conceptscheme/chemische_stof/context.json"))
 df = pd.read_csv("../resources/be/vlaanderen/omgeving/data/id/conceptscheme/chemische_stof/chemische_stof.csv", sep=",", na_values=["", "NA"])
@@ -11,8 +15,9 @@ df = hasTopConcept_from_topConceptOf(df)
 df = rename_columns(df)
 df = df.drop_duplicates()
 
+
+jsonld = to_jsonld(df, context)
 with open("/tmp/chemische_stof.jsonld", "w") as f:
-    jsonld = to_jsonld(df, context)
     f.write(jsonld)
 
 
