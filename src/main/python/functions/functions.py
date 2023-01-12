@@ -92,6 +92,7 @@ def hasTopConcept_from_topConceptOf(df: pd.DataFrame) -> pd.DataFrame:
 def narrower_from_broader(df: pd.DataFrame) -> pd.DataFrame:
     This function takes a dataframe with a column 'broader' and returns a dataframe with a column 'narrower'
     The 'narrower' column is created by taking the 'broader' column and reversing the relationship.
+    The 'narrower' column contains the uri's of the concepts that are narrower than the concept in the 'broader' column.
     The 'narrower' column is then added to the original dataframe.
     
     Parameters
@@ -103,6 +104,16 @@ def narrower_from_broader(df: pd.DataFrame) -> pd.DataFrame:
     -------
     pd.DataFrame
         A dataframe with a column 'narrower'
+        
+    # 1. Select all rows with a broader value
+    # 2. Remove duplicates
+    # 3. For each broader value
+    # 4. Select all rows with that broader value
+    # 5. Select the uri and broader values
+    # 6. Select the uri values
+    # 7. Create a new dataframe with the broader value as uri and the uri values as narrower
+    # 8. Add the new dataframe to the original dataframe
+    # 9. Return the new dataframe
 '''
 def narrower_from_broader(df: pd.DataFrame) -> pd.DataFrame:
     # narrower uit "inverse" relatie broader
