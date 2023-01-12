@@ -31,6 +31,9 @@ def expand_df_on_pipe(Dataset<Row> df) {
     for (String colname in df.columns()) {
         //df.col(col).show()
         Column column = df.col(colname)
+        for (String str in column){
+            List a = string_split(str)
+        }
 //        def df3 = df.select( df.col(colname))
 //        df3.show()
 //        people.select(when(col("gender").equalTo("male"), 0)
@@ -70,9 +73,12 @@ File jsonld_file = new File("/tmp/test.jsonld")
 File context_file = new File("/home/gehau/git/codelijst-chemische_stof/src/main/resources/be/vlaanderen/omgeving/data/id/conceptscheme/chemische_stof/context.json")
 
 Dataset<Row> df = spark.read().option("header", "true").csv(csv_file);
+
+def a = df.collect()
 //df = members_from_collection(df)
 //df.show();
-//expand_df_on_pipe(df).show();
+expand_df_on_pipe(df).show();
+
 LazyMap contextmap = new JsonSlurper().parse(context_file)
 
 String jsonld = to_jsonld(df, contextmap)
