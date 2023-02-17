@@ -1318,7 +1318,7 @@ csc:JZRCRCFPVAXHHQ-UHFFFAOYSA-N
         skos:altLabel   "2h,2h,3h,3h-perfluorundecaanzuur"@nl ;
         skos:broader    csc:CHEMONTID_0003086 ;
         skos:inScheme   vlcs:chemische_stof ;
-        skos:notation   "H-PFUdA" ;
+        skos:notation   "H-PFUdA" , "4H-PFUnDA" ;
         skos:prefLabel  "2H,2H,3H,3H-perfluorundecaanzuur"@nl .
 
 csc:AAPVQEMYVNZIOO-UHFFFAOYSA-N
@@ -1567,7 +1567,7 @@ csc:JWBOIMRXGHLCPP-UHFFFAOYSA-N
         dbo:pubchem         "4211"^^xsd:int ;
         dbo:smiles          "C1=CC=C(C(=C1)C(C2=CC=C(C=C2)Cl)C(Cl)Cl)Cl" ;
         dbp:inchikey        "JWBOIMRXGHLCPP-UHFFFAOYSA-N" ;
-        skos:altLabel       "2,4'-dichloordifenyldichloorethaan"@nl , "o,p’-ddd"@nl ;
+        skos:altLabel       "o,p\uFFFD-ddd"@nl , "2,4'-dichloordifenyldichloorethaan"@nl ;
         skos:broader        csc:CHEMONTID_0000369 ;
         skos:exactMatch     wise:CAS_53-19-0 ;
         skos:inScheme       vlcs:chemische_stof ;
@@ -3517,7 +3517,7 @@ csc:CKRXVVGETMYFIO-UHFFFAOYSA-N
         skos:altLabel   "perfluoroctaansulfonylamide(N-ethyl)azijnzuur"@nl , "N-ethylperfluoroctaansulfonamido-azijnzuur"@nl , "n-ethylperfluoroctaansulfonamidoazijnzuur"@nl , "n-ethylperfluor-n-octaansulfonamido-azijnzuur (etpfosaa)"@nl ;
         skos:broader    csc:CHEMONTID_0003960 ;
         skos:inScheme   vlcs:chemische_stof ;
-        skos:notation   "EtFOSAA" ;
+        skos:notation   "EtPFOSAA" , "EtFOSAA" ;
         skos:prefLabel  "n-ethylperfluor-n-octaansulfonamido-azijnzuur"@nl .
 
 csc:ZNQOETZUGRUONW-UHFFFAOYSA-N
@@ -4819,7 +4819,7 @@ csc:ALVYVCQIFHTIRD-UHFFFAOYSA-N
         skos:altLabel   "8:2 fluortelomeersulfonzuur (8:2 fts)"@nl , "8:2 fluortelomeersulfonzuur"@nl ;
         skos:broader    csc:CHEMONTID_0001179 ;
         skos:inScheme   vlcs:chemische_stof ;
-        skos:notation   "H-PFC10asfzr" ;
+        skos:notation   "8:2 FTS" , "H-PFC10asfzr" ;
         skos:prefLabel  "2-(perfluoroctyl)ethaan-1-sulfonzuur (8:2 FTS)"@nl .
 
 csc:QDNMBJXNLJFNHT-UHFFFAOYSA-N
@@ -5081,6 +5081,21 @@ csc:PPQNQXQZIWHJRB-UHFFFAOYSA-N
         skos:inScheme   vlcs:chemische_stof ;
         skos:notation   "3C1ycltn" ;
         skos:prefLabel  "3-methylcholantreen"@nl .
+
+csc:WHZXTVOEGZRRJM-UHFFFAOYSA-N
+        rdf:type        dbo:ChemicalSubstance , dbo:ChemicalCompound , skos:Concept ;
+        rdfs:seeAlso    compound:71404795 ;
+        dbo:casNumber   "70887-84-2" ;
+        dbo:formula     "C10H2F16O2" ;
+        dbo:inchi       "InChI=1S/C10H2F16O2/c11-2(1-3(27)28)4(12,13)5(14,15)6(16,17)7(18,19)8(20,21)9(22,23)10(24,25)26/h1H,(H,27,28)" ;
+        dbo:iupacName   "3,4,4,5,5,6,6,7,7,8,8,9,9,10,10,10-hexadecafluorodec-2-enoic acid"@en ;
+        dbo:pubchem     "71404795"^^xsd:int ;
+        dbo:smiles      "C(=C(C(C(C(C(C(C(C(F)(F)F)(F)F)(F)F)(F)F)(F)F)(F)F)(F)F)F)C(=O)O" ;
+        dbp:inchikey    "WHZXTVOEGZRRJM-UHFFFAOYSA-N" ;
+        skos:broader    csc:CHEMONTID_0003086 ;
+        skos:inScheme   vlcs:chemische_stof ;
+        skos:notation   "8:2 FTUCA" ;
+        skos:prefLabel  "8:2 fluortelomeer onverzadigd carboxylzuur"@nl .
 
 csc:RQDJADAKIFFEKQ-UHFFFAOYSA-N
         rdf:type        skos:Concept , dbo:ChemicalCompound , dbo:ChemicalSubstance ;
@@ -6537,6 +6552,21 @@ csc:BAVYZALUXZFZLV-UHFFFAOYSA-N
         skos:notation   "MC1yAe" ;
         skos:prefLabel  "monomethylamine"@nl .
 
+csc:BJNCSIWIMCWIMS-UHFFFAOYSA-N
+        rdf:type        skos:Concept , dbo:ChemicalSubstance , dbo:ChemicalCompound ;
+        rdfs:seeAlso    compound:12731198 ;
+        dbo:casNumber   "141074-63-7" ;
+        dbo:formula     "C15HF29O2" ;
+        dbo:inchi       "InChI=1S/C15HF29O2/c16-2(17,1(45)46)3(18,19)4(20,21)5(22,23)6(24,25)7(26,27)8(28,29)9(30,31)10(32,33)11(34,35)12(36,37)13(38,39)14(40,41)15(42,43)44/h(H,45,46)" ;
+        dbo:iupacName   "2,2,3,3,4,4,5,5,6,6,7,7,8,8,9,9,10,10,11,11,12,12,13,13,14,14,15,15,15-nonacosafluoropentadecanoic acid"@en ;
+        dbo:pubchem     "12731198"^^xsd:int ;
+        dbo:smiles      "C(=O)(C(C(C(C(C(C(C(C(C(C(C(C(C(C(F)(F)F)(F)F)(F)F)(F)F)(F)F)(F)F)(F)F)(F)F)(F)F)(F)F)(F)F)(F)F)(F)F)(F)F)O" ;
+        dbp:inchikey    "BJNCSIWIMCWIMS-UHFFFAOYSA-N" ;
+        skos:broader    csc:CHEMONTID_0002949 ;
+        skos:inScheme   vlcs:chemische_stof ;
+        skos:notation   "PFPeDA" ;
+        skos:prefLabel  "perfluor-n-pentadecaanzuur"@nl .
+
 csc:TUBQDCKAWGHZPF-UHFFFAOYSA-N
         rdf:type        dbo:ChemicalCompound , dbo:ChemicalSubstance , skos:Concept ;
         rdfs:seeAlso    compound:30692 ;
@@ -7344,6 +7374,21 @@ csc:PFEFOYRSMXVNEL-UHFFFAOYSA-N
         skos:notation   "246TttC4yFol" ;
         skos:prefLabel  "2,4,6-tri-tert-butylfenol"@nl .
 
+csc:KHLRYLUKBJEYFH-UHFFFAOYSA-N
+        rdf:type        dbo:ChemicalCompound , skos:Concept , dbo:ChemicalSubstance ;
+        rdfs:seeAlso    compound:101536705 ;
+        dbo:casNumber   "943913-15-3" ;
+        dbo:formula     "C18H9F30O4P" ;
+        dbo:inchi       "InChI=1S/C18H9F30O4P/c19-5(20,7(23,24)9(27,28)11(31,32)12(33,34)14(37,38)16(41,42)18(46,47)48)1-3-51-53(49,50)52-4-2-6(21,22)8(25,26)10(29,30)13(35,36)15(39,40)17(43,44)45/h1-4H2,(H,49,50)" ;
+        dbo:iupacName   "3,3,4,4,5,5,6,6,7,7,8,8,9,9,10,10,10-heptadecafluorodecyl 3,3,4,4,5,5,6,6,7,7,8,8,8-tridecafluorooctyl hydrogen phosphate"@en ;
+        dbo:pubchem     "101536705"^^xsd:int ;
+        dbo:smiles      "C(COP(=O)(O)OCCC(C(C(C(C(C(F)(F)F)(F)F)(F)F)(F)F)(F)F)(F)F)C(C(C(C(C(C(C(C(F)(F)F)(F)F)(F)F)(F)F)(F)F)(F)F)(F)F)(F)F" ;
+        dbp:inchikey    "KHLRYLUKBJEYFH-UHFFFAOYSA-N" ;
+        skos:broader    csc:CHEMONTID_0003459 ;
+        skos:inScheme   vlcs:chemische_stof ;
+        skos:notation   "6:2/8:2 diPAP" ;
+        skos:prefLabel  "6:2/8:2 fluortelomerfosfaat diester"@nl .
+
 csc:RJTJVVYSTUQWNI-UHFFFAOYSA-N
         rdf:type        dbo:ChemicalCompound , skos:Concept , dbo:ChemicalSubstance ;
         rdfs:seeAlso    compound:13652 ;
@@ -7388,6 +7433,21 @@ csc:VJJPUSNTGOMMGY-MRVIYFEKSA-N
         skos:inScheme   vlcs:chemische_stof ;
         skos:notation   "etpsde" ;
         skos:prefLabel  "etoposide"@nl .
+
+csc:TXGIGTRUEITPSC-UHFFFAOYSA-N
+        rdf:type        dbo:ChemicalCompound , dbo:ChemicalSubstance , skos:Concept ;
+        rdfs:seeAlso    compound:20734543 ;
+        dbo:casNumber   "757124-72-4" ;
+        dbo:formula     "C6H5F9O3S" ;
+        dbo:inchi       "InChI=1S/C6H5F9O3S/c7-3(8,1-2-19(16,17)18)4(9,10)5(11,12)6(13,14)15/h1-2H2,(H,16,17,18)" ;
+        dbo:iupacName   "3,3,4,4,5,5,6,6,6-nonafluorohexane-1-sulfonic acid"@en ;
+        dbo:pubchem     "20734543"^^xsd:int ;
+        dbo:smiles      "C(CS(=O)(=O)O)C(C(C(C(F)(F)F)(F)F)(F)F)(F)F" ;
+        dbp:inchikey    "TXGIGTRUEITPSC-UHFFFAOYSA-N" ;
+        skos:broader    csc:CHEMONTID_0001179 ;
+        skos:inScheme   vlcs:chemische_stof ;
+        skos:notation   "4:2 FTS" ;
+        skos:prefLabel  "4:2 fluortelomeersulfonzuur"@nl .
 
 csc:CIEXPHRYOLIQQD-UHFFFAOYSA-N
         rdf:type        dbo:ChemicalCompound , skos:Concept , dbo:ChemicalSubstance ;
@@ -8467,6 +8527,21 @@ csc:OZHJEQVYCBTHJT-UHFFFAOYSA-N
         skos:inScheme   vlcs:chemische_stof ;
         skos:prefLabel  "pentabroomtolueen"@nl .
 
+csc:JTUSORDQZVOEAZ-UHFFFAOYSA-N
+        rdf:type        skos:Concept , dbo:ChemicalCompound , dbo:ChemicalSubstance ;
+        rdfs:seeAlso    compound:38881 ;
+        dbo:casNumber   "41464-51-1" ;
+        dbo:formula     "C12H5Cl5" ;
+        dbo:inchi       "InChI=1S/C12H5Cl5/c13-8-3-1-2-6(12(8)17)7-4-10(15)11(16)5-9(7)14/h1-5H" ;
+        dbo:iupacName   "1,2,4-trichloro-5-(2,3-dichlorophenyl)benzene"@en ;
+        dbo:pubchem     "38881"^^xsd:int ;
+        dbo:smiles      "C1=CC(=C(C(=C1)Cl)Cl)C2=CC(=C(C=C2Cl)Cl)Cl" ;
+        dbp:inchikey    "JTUSORDQZVOEAZ-UHFFFAOYSA-N" ;
+        skos:broader    csc:CHEMONTID_0003030 ;
+        skos:inScheme   vlcs:chemische_stof ;
+        skos:notation   "PCB97" ;
+        skos:prefLabel  "2,2',3,4',5'-pentachloorbifenyl"@nl .
+
 csc:CUDYYMUUJHLCGZ-UHFFFAOYSA-N
         rdf:type        dbo:ChemicalCompound , skos:Concept , dbo:ChemicalSubstance ;
         rdfs:seeAlso    compound:25485 ;
@@ -8483,20 +8558,20 @@ csc:CUDYYMUUJHLCGZ-UHFFFAOYSA-N
         skos:notation   "22C1oxC3ox1C" , "DC3yegcC1yEt" ;
         skos:prefLabel  "dipropyleenglycolmonomethylether"@nl .
 
-csc:JTUSORDQZVOEAZ-UHFFFAOYSA-N
-        rdf:type        skos:Concept , dbo:ChemicalCompound , dbo:ChemicalSubstance ;
-        rdfs:seeAlso    compound:38881 ;
-        dbo:casNumber   "41464-51-1" ;
-        dbo:formula     "C12H5Cl5" ;
-        dbo:inchi       "InChI=1S/C12H5Cl5/c13-8-3-1-2-6(12(8)17)7-4-10(15)11(16)5-9(7)14/h1-5H" ;
-        dbo:iupacName   "1,2,4-trichloro-5-(2,3-dichlorophenyl)benzene"@en ;
-        dbo:pubchem     "38881"^^xsd:int ;
-        dbo:smiles      "C1=CC(=C(C(=C1)Cl)Cl)C2=CC(=C(C=C2Cl)Cl)Cl" ;
-        dbp:inchikey    "JTUSORDQZVOEAZ-UHFFFAOYSA-N" ;
-        skos:broader    csc:CHEMONTID_0003030 ;
+csc:JMIXTHMPTMXARZ-UHFFFAOYSA-N
+        rdf:type        dbo:ChemicalCompound , skos:Concept , dbo:ChemicalSubstance ;
+        rdfs:seeAlso    compound:21964789 ;
+        dbo:casNumber   "791563-89-8" ;
+        dbo:formula     "C13HF27O3S" ;
+        dbo:inchi       "InChI=1S/C13HF27O3S/c14-1(15,2(16,17)4(20,21)6(24,25)8(28,29)10(32,33)12(36,37)38)3(18,19)5(22,23)7(26,27)9(30,31)11(34,35)13(39,40)44(41,42)43/h(H,41,42,43)" ;
+        dbo:iupacName   "1,1,2,2,3,3,4,4,5,5,6,6,7,7,8,8,9,9,10,10,11,11,12,12,13,13,13-heptacosafluorotridecane-1-sulfonic acid"@en ;
+        dbo:pubchem     "21964789"^^xsd:int ;
+        dbo:smiles      "C(C(C(C(C(C(C(F)(F)F)(F)F)(F)F)(F)F)(F)F)(F)F)(C(C(C(C(C(C(F)(F)S(=O)(=O)O)(F)F)(F)F)(F)F)(F)F)(F)F)(F)F" ;
+        dbp:inchikey    "JMIXTHMPTMXARZ-UHFFFAOYSA-N" ;
+        skos:broader    csc:CHEMONTID_0003961 ;
         skos:inScheme   vlcs:chemische_stof ;
-        skos:notation   "PCB97" ;
-        skos:prefLabel  "2,2',3,4',5'-pentachloorbifenyl"@nl .
+        skos:notation   "PFTrDS" ;
+        skos:prefLabel  "Perfluor-n-tridecaansulfonzuur"@nl .
 
 csc:QBAYIBZITZBSFO-UHFFFAOYSA-N
         rdf:type        skos:Concept , dbo:ChemicalCompound , dbo:ChemicalSubstance ;
@@ -8857,6 +8932,21 @@ csc:JANBFCARANRIKJ-UHFFFAOYSA-N
         skos:broader    csc:CHEMONTID_0001350 ;
         skos:inScheme   vlcs:chemische_stof ;
         skos:prefLabel  "di-isopentylftalaat"@nl .
+
+csc:ZDYYWMSLMLTXDM-UHFFFAOYSA-N
+        rdf:type        skos:Concept , dbo:ChemicalCompound , dbo:ChemicalSubstance ;
+        rdfs:seeAlso    compound:14550408 ;
+        dbo:casNumber   "57677-95-9" ;
+        dbo:formula     "C16H9F26O4P" ;
+        dbo:inchi       "InChI=1S/C16H9F26O4P/c17-5(18,7(21,22)9(25,26)11(29,30)13(33,34)15(37,38)39)1-3-45-47(43,44)46-4-2-6(19,20)8(23,24)10(27,28)12(31,32)14(35,36)16(40,41)42/h1-4H2,(H,43,44)" ;
+        dbo:iupacName   "bis(3,3,4,4,5,5,6,6,7,7,8,8,8-tridecafluorooctyl) hydrogen phosphate"@en ;
+        dbo:pubchem     "14550408"^^xsd:int ;
+        dbo:smiles      "C(COP(=O)(O)OCCC(C(C(C(C(C(F)(F)F)(F)F)(F)F)(F)F)(F)F)(F)F)C(C(C(C(C(C(F)(F)F)(F)F)(F)F)(F)F)(F)F)(F)F" ;
+        dbp:inchikey    "ZDYYWMSLMLTXDM-UHFFFAOYSA-N" ;
+        skos:broader    csc:CHEMONTID_0003459 ;
+        skos:inScheme   vlcs:chemische_stof ;
+        skos:notation   "6:2 diPAP" ;
+        skos:prefLabel  "6:2 fluortelomeerfosfaat diester"@nl .
 
 csc:OORLZFUTLGXMEF-UHFFFAOYSA-N
         rdf:type        dbo:ChemicalSubstance , skos:Concept , dbo:ChemicalCompound ;
@@ -9745,7 +9835,7 @@ csc:HYWZIAVPBSTISZ-UHFFFAOYSA-N
         skos:altLabel   "perfluordecaansulfonzuur (pfds)"@nl , "perfluor-n-decaansulfonzuur (pfds)"@nl , "perfluor-1-decaansulfonzuur"@nl ;
         skos:broader    csc:CHEMONTID_0003961 ;
         skos:inScheme   vlcs:chemische_stof ;
-        skos:notation   "L_PFDS" ;
+        skos:notation   "L_PFDS" , "PFDS" ;
         skos:prefLabel  "perfluor-n-decaansulfonzuur"@nl .
 
 csc:WKBPZYKAUNRMKP-UHFFFAOYSA-N
@@ -9979,7 +10069,7 @@ csc:QZHDEAJFRJCDMF-UHFFFAOYSA-N
         skos:altLabel   "perfluor-n-hexaansulfonzuur (pfhxs)"@nl , "perfluor-n-hexaansulfonzuur"@nl , "perfluorhexaansulfonzuur"@nl ;
         skos:broader    csc:CHEMONTID_0003961 ;
         skos:inScheme   vlcs:chemische_stof ;
-        skos:notation   "L_PFHxS" ;
+        skos:notation   "L_PFHxS" , "PFHxS" ;
         skos:prefLabel  "perfluorhexaansulfonzuur (pfhxs)"@nl .
 
 csc:MLUCVPSAIODCQM-NSCUHMNNSA-N
@@ -10594,12 +10684,12 @@ csc:KCXMKQUNVWSEMD-UHFFFAOYSA-N
         dbo:pubchem         "7503"^^xsd:int ;
         dbo:smiles          "C1=CC=C(C=C1)CCl" ;
         dbp:inchikey        "KCXMKQUNVWSEMD-UHFFFAOYSA-N" ;
-        skos:altLabel       "alfa-chloortolueen"@nl , "alfa-chloortolueen (benzylchloride)"@nl , "α -chloortolueen"@nl , "benzylchloride"@nl ;
+        skos:altLabel       "alfa-chloortolueen"@nl , "alfa-chloortolueen (benzylchloride)"@nl , "? -chloortolueen"@nl , "benzylchloride"@nl ;
         skos:broader        csc:CHEMONTID_0003980 ;
         skos:exactMatch     wise:CAS_100-44-7 ;
         skos:inScheme       vlcs:chemische_stof ;
         skos:notation       "benzCl" ;
-        skos:prefLabel      "α -chloortolueen "@nl ;
+        skos:prefLabel      "? -chloortolueen "@nl ;
         vcs:vmmParameterId  "724"^^xsd:int .
 
 csc:ZSLUVFAKFWKJRC-BJUDXGSMSA-N
@@ -11048,21 +11138,6 @@ csc:TYMLOMAKGOJONV-UHFFFAOYSA-N
         skos:notation   "4NO2An" ;
         skos:prefLabel  "4-nitroaniline"@nl .
 
-csc:IMRYETFJNLKUHK-UHFFFAOYSA-N
-        rdf:type        dbo:ChemicalSubstance , skos:Concept , dbo:ChemicalCompound ;
-        rdfs:seeAlso    compound:91696 ;
-        dbo:casNumber   "68140-48-7" ;
-        dbo:formula     "C18H26O" ;
-        dbo:inchi       "InChI=1S/C18H26O/c1-10(2)17-12(4)18(6,7)16-8-11(3)14(13(5)19)9-15(16)17/h8-10,12,17H,1-7H3" ;
-        dbo:iupacName   "1-(1,1,2,6-tetramethyl-3-propan-2-yl-2,3-dihydroinden-5-yl)ethanone"@en ;
-        dbo:pubchem     "91696"^^xsd:int ;
-        dbo:smiles      "CC1C(C2=C(C1(C)C)C=C(C(=C2)C(=O)C)C)C(C)C" ;
-        dbp:inchikey    "IMRYETFJNLKUHK-UHFFFAOYSA-N" ;
-        skos:broader    csc:CHEMONTID_0000027 ;
-        skos:inScheme   vlcs:chemische_stof ;
-        skos:notation   "ATTI" ;
-        skos:prefLabel  "traseolide"@nl .
-
 csc:SIXSYDAISGFNSX-UHFFFAOYSA-N
         rdf:type        dbo:ChemicalSubstance , dbo:ChemicalCompound , skos:Concept ;
         rdfs:seeAlso    compound:23952 ;
@@ -11077,6 +11152,21 @@ csc:SIXSYDAISGFNSX-UHFFFAOYSA-N
         skos:inScheme   vlcs:chemische_stof ;
         skos:notation   "Sc" ;
         skos:prefLabel  "scandium"@nl .
+
+csc:IMRYETFJNLKUHK-UHFFFAOYSA-N
+        rdf:type        dbo:ChemicalSubstance , skos:Concept , dbo:ChemicalCompound ;
+        rdfs:seeAlso    compound:91696 ;
+        dbo:casNumber   "68140-48-7" ;
+        dbo:formula     "C18H26O" ;
+        dbo:inchi       "InChI=1S/C18H26O/c1-10(2)17-12(4)18(6,7)16-8-11(3)14(13(5)19)9-15(16)17/h8-10,12,17H,1-7H3" ;
+        dbo:iupacName   "1-(1,1,2,6-tetramethyl-3-propan-2-yl-2,3-dihydroinden-5-yl)ethanone"@en ;
+        dbo:pubchem     "91696"^^xsd:int ;
+        dbo:smiles      "CC1C(C2=C(C1(C)C)C=C(C(=C2)C(=O)C)C)C(C)C" ;
+        dbp:inchikey    "IMRYETFJNLKUHK-UHFFFAOYSA-N" ;
+        skos:broader    csc:CHEMONTID_0000027 ;
+        skos:inScheme   vlcs:chemische_stof ;
+        skos:notation   "ATTI" ;
+        skos:prefLabel  "traseolide"@nl .
 
 csc:FNPXMHRZILFCKX-UHFFFAOYSA-N
         rdf:type        dbo:ChemicalSubstance , dbo:ChemicalCompound , skos:Concept ;
@@ -11356,7 +11446,7 @@ csc:HUWXDEQWWKGHRV-UHFFFAOYSA-N
         skos:exactMatch     wise:CAS_91-94-1 ;
         skos:inScheme       vlcs:chemische_stof ;
         skos:notation       "33DClbzdne" ;
-        skos:prefLabel      "3,3’-dichloorbenzidine"@nl ;
+        skos:prefLabel      "3,3\uFFFD-dichloorbenzidine"@nl ;
         vcs:vmmParameterId  "474"^^xsd:int .
 
 csc:LCXMEXLGMKFLQO-UHFFFAOYSA-N
@@ -11393,6 +11483,21 @@ csc:TVYLLZQTGLZFBW-ZBFHGGJFSA-N
         skos:inScheme   vlcs:chemische_stof ;
         skos:notation   "tramdl" ;
         skos:prefLabel  "tramadol"@nl .
+
+csc:FZTRDYSPWWJCOF-UHFFFAOYSA-N
+        rdf:type        dbo:ChemicalSubstance , skos:Concept , dbo:ChemicalCompound ;
+        rdfs:seeAlso    compound:14250578 ;
+        dbo:casNumber   "57678-01-0" ;
+        dbo:formula     "C8H6F13O4P" ;
+        dbo:inchi       "InChI=1S/C8H6F13O4P/c9-3(10,1-2-25-26(22,23)24)4(11,12)5(13,14)6(15,16)7(17,18)8(19,20)21/h1-2H2,(H2,22,23,24)" ;
+        dbo:iupacName   "3,3,4,4,5,5,6,6,7,7,8,8,8-tridecafluorooctyl dihydrogen phosphate"@en ;
+        dbo:pubchem     "14250578"^^xsd:int ;
+        dbo:smiles      "C(COP(=O)(O)O)C(C(C(C(C(C(F)(F)F)(F)F)(F)F)(F)F)(F)F)(F)F" ;
+        dbp:inchikey    "FZTRDYSPWWJCOF-UHFFFAOYSA-N" ;
+        skos:broader    csc:CHEMONTID_0003458 ;
+        skos:inScheme   vlcs:chemische_stof ;
+        skos:notation   "6:2 PAP" ;
+        skos:prefLabel  "6:2 fluortelomeerfosfaat monoester"@nl .
 
 csc:SQFLFRQWPBEDHM-UHFFFAOYSA-N
         rdf:type            dbo:ChemicalCompound , dbo:ChemicalSubstance , skos:Concept ;
@@ -11813,7 +11918,7 @@ csc:CXGONMQFMIYUJR-UHFFFAOYSA-N
         skos:altLabel   "perfluor-n-dodecaanzuur (pfdoda)"@nl , "perfluor-n-dodecaanzuur"@nl , "perfluordodecaanzuur (pfdoda)"@nl ;
         skos:broader    csc:CHEMONTID_0003962 ;
         skos:inScheme   vlcs:chemische_stof ;
-        skos:notation   "PFDoA" ;
+        skos:notation   "PFDoA" , "PFDoDA" ;
         skos:prefLabel  "perfluordodecaanzuur"@nl .
 
 csc:DGAIEPBNLOQYER-UHFFFAOYSA-N
@@ -12351,7 +12456,7 @@ csc:GFZPUWKGPNHWHD-UHFFFAOYSA-N
         skos:altLabel   "n-methylperfluor-n-butaansulfonamide (mepfbsa)"@nl , "n-methylperfluor-n-butaansulfonamide"@nl ;
         skos:broader    csc:CHEMONTID_0001585 ;
         skos:inScheme   vlcs:chemische_stof ;
-        skos:notation   "NC1yPFC4asfA" ;
+        skos:notation   "MePFBSA" , "NC1yPFC4asfA" ;
         skos:prefLabel  "N-methylperfluorbutaansulfonamide"@nl .
 
 csc:ZYGHJZDHTFUPRJ-UHFFFAOYSA-N
@@ -13014,7 +13119,7 @@ csc:JLYXXMFPNIAWKQ-UHFFFAOYSA-N
         dbo:pubchem         "727"^^xsd:int ;
         dbo:smiles          "C1(C(C(C(C(C1Cl)Cl)Cl)Cl)Cl)Cl" ;
         dbp:inchikey        "JLYXXMFPNIAWKQ-UHFFFAOYSA-N" ;
-        skos:altLabel       "eta-hexachloorcyclohexaan"@nl , "alfa-hexachloorcyclohexaan"@nl , "β-hexachloorcyclo-hexaan (β-hch)"@nl , "delta-hexachloorcyclohexaan"@nl , "hexachloorcyclohexaan, alle isomeren"@nl , "epsilon-hexachloorcyclohexaan"@nl , "som hexachloorcyclohexaan-isomeren"@nl , "α-hexachloorcyclo-hexaan (α-hch)"@nl , "σ-hexachloorcyclo-hexaan (σ-hch)"@nl , "beta-hexachloorcyclohexaan (beta-hch)"@nl , "delta-hexachloorcyclohexaan (delta-hch)"@nl , "gamma-hexachloorcyclohexaan (lindaan)"@nl , "gamma-hexachloorcyclohexaan (gamma-hch, lindaan)"@nl , "y-hexachloorcyclo-hexaan (y-hch)"@nl , "gamma-hexachloorcyclohexaan"@nl , "alfa-hexachloorcyclohexaan (alfa-hch)"@nl ;
+        skos:altLabel       "eta-hexachloorcyclohexaan"@nl , "alfa-hexachloorcyclohexaan"@nl , "delta-hexachloorcyclohexaan"@nl , "hexachloorcyclohexaan, alle isomeren"@nl , "epsilon-hexachloorcyclohexaan"@nl , "som hexachloorcyclohexaan-isomeren"@nl , "beta-hexachloorcyclohexaan (beta-hch)"@nl , "delta-hexachloorcyclohexaan (delta-hch)"@nl , "gamma-hexachloorcyclohexaan (lindaan)"@nl , "gamma-hexachloorcyclohexaan (gamma-hch, lindaan)"@nl , "y-hexachloorcyclo-hexaan (y-hch)"@nl , "gamma-hexachloorcyclohexaan"@nl , "alfa-hexachloorcyclohexaan (alfa-hch)"@nl , "?-hexachloorcyclo-hexaan (?-hch)"@nl ;
         skos:broader        csc:CHEMONTID_0004485 ;
         skos:exactMatch     wise:CAS_319-84-6 , wise:CAS_58-89-9 , wise:CAS_319-85-7 , wise:CAS_608-73-1 , wise:CAS_6108-10-7 , wise:CAS_319-86-8 ;
         skos:inScheme       vlcs:chemische_stof ;
@@ -13202,7 +13307,7 @@ csc:IAKOZHOLGAGEJT-UHFFFAOYSA-N
         dbo:pubchem         "4115"^^xsd:int ;
         dbo:smiles          "COC1=CC=C(C=C1)C(C2=CC=C(C=C2)OC)C(Cl)(Cl)Cl" ;
         dbp:inchikey        "IAKOZHOLGAGEJT-UHFFFAOYSA-N" ;
-        skos:altLabel       "p,p’-methoxychlor"@nl ;
+        skos:altLabel       "p,p\uFFFD-methoxychlor"@nl ;
         skos:broader        csc:CHEMONTID_0000369 ;
         skos:exactMatch     wise:CAS_72-43-5 ;
         skos:inScheme       vlcs:chemische_stof ;
@@ -15214,7 +15319,7 @@ csc:NNJVILVZKWQKPM-UHFFFAOYSA-N
         skos:broader    csc:CHEMONTID_0004209 ;
         skos:inScheme   vlcs:chemische_stof ;
         skos:notation   "lidcine" ;
-        skos:prefLabel  "lidocaïne"@nl .
+        skos:prefLabel  "lidoca\uFFFDne"@nl .
 
 csc:HSZLKTCKAYXVBX-DCAGQSADSA-N
         rdf:type        dbo:ChemicalCompound , skos:Concept , dbo:ChemicalSubstance ;
@@ -16356,6 +16461,21 @@ csc:IEDKVDCIEARIIU-UHFFFAOYSA-N
         skos:inScheme   vlcs:chemische_stof ;
         skos:notation   "2C19on" ;
         skos:prefLabel  "2-nonadecanon"@nl .
+
+csc:MIABSAQIFYEDJP-UHFFFAOYSA-N
+        rdf:type        dbo:ChemicalCompound , skos:Concept , dbo:ChemicalSubstance ;
+        rdfs:seeAlso    compound:10143739 ;
+        dbo:casNumber   "57678-03-2" ;
+        dbo:formula     "C10H6F17O4P" ;
+        dbo:inchi       "InChI=1S/C10H6F17O4P/c11-3(12,1-2-31-32(28,29)30)4(13,14)5(15,16)6(17,18)7(19,20)8(21,22)9(23,24)10(25,26)27/h1-2H2,(H2,28,29,30)" ;
+        dbo:iupacName   "3,3,4,4,5,5,6,6,7,7,8,8,9,9,10,10,10-heptadecafluorodecyl dihydrogen phosphate"@en ;
+        dbo:pubchem     "10143739"^^xsd:int ;
+        dbo:smiles      "C(COP(=O)(O)O)C(C(C(C(C(C(C(C(F)(F)F)(F)F)(F)F)(F)F)(F)F)(F)F)(F)F)(F)F" ;
+        dbp:inchikey    "MIABSAQIFYEDJP-UHFFFAOYSA-N" ;
+        skos:broader    csc:CHEMONTID_0003458 ;
+        skos:inScheme   vlcs:chemische_stof ;
+        skos:notation   "8:2 PAP" ;
+        skos:prefLabel  "8:2 fluortelomeerfosfaat monoester"@nl .
 
 csc:PZTAFRMXSAAHMQ-UHFFFAOYSA-M
         rdf:type        dbo:ChemicalCompound , dbo:ChemicalSubstance , skos:Concept ;
@@ -18945,6 +19065,21 @@ csc:DQZCVNGCTZLGAQ-UHFFFAOYSA-N
         skos:notation   "cycrn" ;
         skos:prefLabel  "cycluron"@nl .
 
+csc:AFDRCEOKCOUICI-UHFFFAOYSA-N
+        rdf:type        dbo:ChemicalCompound , dbo:ChemicalSubstance , skos:Concept ;
+        rdfs:seeAlso    compound:52915299 ;
+        dbo:casNumber   "919005-14-4" ;
+        dbo:formula     "C7H2F12O4" ;
+        dbo:inchi       "InChI=1S/C7H2F12O4/c8-1(3(9,10)2(20)21)22-5(13,14)4(11,12)6(15,16)23-7(17,18)19/h1H,(H,20,21)" ;
+        dbo:iupacName   "2,2,3-trifluoro-3-[1,1,2,2,3,3-hexafluoro-3-(trifluoromethoxy)propoxy]propanoic acid"@en ;
+        dbo:pubchem     "52915299"^^xsd:int ;
+        dbo:smiles      "C(C(C(=O)O)(F)F)(OC(C(C(OC(F)(F)F)(F)F)(F)F)(F)F)F" ;
+        dbp:inchikey    "AFDRCEOKCOUICI-UHFFFAOYSA-N" ;
+        skos:broader    csc:CHEMONTID_0003000 ;
+        skos:inScheme   vlcs:chemische_stof ;
+        skos:notation   "ADONA" ;
+        skos:prefLabel  "4,8-dioxa-3H-perfluornonaanzuur"@nl .
+
 csc:KQCMTOWTPBNWDB-UHFFFAOYSA-N
         rdf:type            skos:Concept , dbo:ChemicalSubstance , dbo:ChemicalCompound ;
         rdfs:seeAlso        compound:11123 ;
@@ -19430,6 +19565,21 @@ csc:WJCNZQLZVWNLKY-UHFFFAOYSA-N
         skos:inScheme   vlcs:chemische_stof ;
         skos:notation   "tabdzl" ;
         skos:prefLabel  "thiabendazole"@nl .
+
+csc:IHYMJUVQLSNPPP-UHFFFAOYSA-N
+        rdf:type        dbo:ChemicalSubstance , skos:Concept , dbo:ChemicalCompound ;
+        rdfs:seeAlso    compound:5125273 ;
+        dbo:casNumber   "674-13-5" ;
+        dbo:formula     "C3HF5O3" ;
+        dbo:inchi       "InChI=1S/C3HF5O3/c4-2(5,1(9)10)11-3(6,7)8/h(H,9,10)" ;
+        dbo:iupacName   "2,2-difluoro-2-(trifluoromethoxy)acetic acid"@en ;
+        dbo:pubchem     "5125273"^^xsd:int ;
+        dbo:smiles      "C(=O)(C(OC(F)(F)F)(F)F)O" ;
+        dbp:inchikey    "IHYMJUVQLSNPPP-UHFFFAOYSA-N" ;
+        skos:broader    csc:CHEMONTID_0003000 ;
+        skos:inScheme   vlcs:chemische_stof ;
+        skos:notation   "PFMOAA" ;
+        skos:prefLabel  "perfluor-2-methoxyazijnzuur"@nl .
 
 csc:CXOYNJAHPUASHN-UHFFFAOYSA-N
         rdf:type        dbo:ChemicalCompound , skos:Concept , dbo:ChemicalSubstance ;
@@ -20443,6 +20593,7 @@ csc:OKOCIUJVPQKDLL-UHFFFAOYSA-N
         skos:altLabel   "n-(carboxymethyl)-n,n-dimethyl-3-((((perfluorhexyl)ethyl)sulfonyl)amino)-, hydroxide"@nl ;
         skos:broader    csc:CHEMONTID_0002404 ;
         skos:inScheme   vlcs:chemische_stof ;
+        skos:notation   "Capstone B (CDPOS)" ;
         skos:prefLabel  "N-(carboxymethyl)-N,N-dimethyl-3-((((perfluorhexyl)ethyl)sulfonyl)amino)-, hydroxide"@nl .
 
 csc:ZKRSTHSWOFIHMZ-UHFFFAOYSA-N
@@ -20551,6 +20702,22 @@ csc:SUPCQIBBMFXVTL-UHFFFAOYSA-N
         skos:notation   "C2ymtclt" ;
         skos:prefLabel  "ethylmethacrylaat"@nl .
 
+csc:SIDINRCMMRKXGQ-UHFFFAOYSA-N
+        rdf:type        skos:Concept , dbo:ChemicalSubstance , dbo:ChemicalCompound ;
+        rdfs:seeAlso    compound:77222 ;
+        dbo:casNumber   "2058-94-8" ;
+        dbo:formula     "C11HF21O2" ;
+        dbo:inchi       "InChI=1S/C11HF21O2/c12-2(13,1(33)34)3(14,15)4(16,17)5(18,19)6(20,21)7(22,23)8(24,25)9(26,27)10(28,29)11(30,31)32/h(H,33,34)" ;
+        dbo:iupacName   "2,2,3,3,4,4,5,5,6,6,7,7,8,8,9,9,10,10,11,11,11-henicosafluoroundecanoic acid"@en ;
+        dbo:pubchem     "77222"^^xsd:int ;
+        dbo:smiles      "C(=O)(C(C(C(C(C(C(C(C(C(C(F)(F)F)(F)F)(F)F)(F)F)(F)F)(F)F)(F)F)(F)F)(F)F)(F)F)O" ;
+        dbp:inchikey    "SIDINRCMMRKXGQ-UHFFFAOYSA-N" ;
+        skos:altLabel   "perfluorundecaanzuur"@nl , "perfluorundecaanzuur (pfunda)"@nl , "perfluor-n-undecaanzuur (pfunda)"@nl ;
+        skos:broader    csc:CHEMONTID_0003962 ;
+        skos:inScheme   vlcs:chemische_stof ;
+        skos:notation   "PFUdA" , "PFUnDA" ;
+        skos:prefLabel  "perfluor-n-undecaanzuur"@nl .
+
 csc:KFAKZJUYBOYVKA-UHFFFAOYSA-N
         rdf:type        dbo:ChemicalSubstance , skos:Concept , dbo:ChemicalCompound ;
         rdfs:seeAlso    compound:29572 ;
@@ -20565,22 +20732,6 @@ csc:KFAKZJUYBOYVKA-UHFFFAOYSA-N
         skos:inScheme   vlcs:chemische_stof ;
         skos:notation   "25DClTol" ;
         skos:prefLabel  "2,5-dichloortolueen"@nl .
-
-csc:SIDINRCMMRKXGQ-UHFFFAOYSA-N
-        rdf:type        skos:Concept , dbo:ChemicalSubstance , dbo:ChemicalCompound ;
-        rdfs:seeAlso    compound:77222 ;
-        dbo:casNumber   "2058-94-8" ;
-        dbo:formula     "C11HF21O2" ;
-        dbo:inchi       "InChI=1S/C11HF21O2/c12-2(13,1(33)34)3(14,15)4(16,17)5(18,19)6(20,21)7(22,23)8(24,25)9(26,27)10(28,29)11(30,31)32/h(H,33,34)" ;
-        dbo:iupacName   "2,2,3,3,4,4,5,5,6,6,7,7,8,8,9,9,10,10,11,11,11-henicosafluoroundecanoic acid"@en ;
-        dbo:pubchem     "77222"^^xsd:int ;
-        dbo:smiles      "C(=O)(C(C(C(C(C(C(C(C(C(C(F)(F)F)(F)F)(F)F)(F)F)(F)F)(F)F)(F)F)(F)F)(F)F)(F)F)O" ;
-        dbp:inchikey    "SIDINRCMMRKXGQ-UHFFFAOYSA-N" ;
-        skos:altLabel   "perfluorundecaanzuur"@nl , "perfluorundecaanzuur (pfunda)"@nl , "perfluor-n-undecaanzuur (pfunda)"@nl ;
-        skos:broader    csc:CHEMONTID_0003962 ;
-        skos:inScheme   vlcs:chemische_stof ;
-        skos:notation   "PFUdA" ;
-        skos:prefLabel  "perfluor-n-undecaanzuur"@nl .
 
 csc:XNWFRZJHXBZDAG-UHFFFAOYSA-N
         rdf:type            dbo:ChemicalSubstance , dbo:ChemicalCompound , skos:Concept ;
@@ -20615,6 +20766,21 @@ csc:WPYCRFCQABTEKC-UHFFFAOYSA-N
         skos:notation   "DGRE" ;
         skos:prefLabel  "diglycidyl resorcinol ether (dgre)"@nl .
 
+csc:SIGSPDASOTUPFS-KQMXEUTGSA-N
+        rdf:type        dbo:ChemicalSubstance , skos:Concept , dbo:ChemicalCompound ;
+        rdfs:seeAlso    compound:43249 ;
+        dbo:casNumber   "60282-87-3" ;
+        dbo:formula     "C21H26O2" ;
+        dbo:inchi       "InChI=1S/C21H26O2/c1-3-20-11-9-17-16-8-6-15(22)13-14(16)5-7-18(17)19(20)10-12-21(20,23)4-2/h2,10,12-13,16-19,23H,3,5-9,11H2,1H3/t16?,17?,18?,19?,20?,21-/m0/s1" ;
+        dbo:iupacName   "(17R)-13-ethyl-17-ethynyl-17-hydroxy-1,2,6,7,8,9,10,11,12,14-decahydrocyclopenta[a]phenanthren-3-one"@en ;
+        dbo:pubchem     "43249"^^xsd:int ;
+        dbo:smiles      "CCC12CCC3C(C1C=CC2(C#C)O)CCC4=CC(=O)CCC34" ;
+        dbp:inchikey    "SIGSPDASOTUPFS-KQMXEUTGSA-N" ;
+        skos:broader    csc:CHEMONTID_0003570 ;
+        skos:inScheme   vlcs:chemische_stof ;
+        skos:notation   "gesdn" ;
+        skos:prefLabel  "gestodeen"@nl .
+
 csc:QCWXUUIWCKQGHC-UHFFFAOYSA-N
         rdf:type            skos:Concept , dbo:ChemicalSubstance , dbo:ChemicalCompound ;
         rdfs:seeAlso        compound:23995 ;
@@ -20630,21 +20796,6 @@ csc:QCWXUUIWCKQGHC-UHFFFAOYSA-N
         skos:inScheme       vlcs:chemische_stof ;
         skos:notation       "Zr" ;
         skos:prefLabel      "zirkonium"@nl .
-
-csc:SIGSPDASOTUPFS-KQMXEUTGSA-N
-        rdf:type        dbo:ChemicalSubstance , skos:Concept , dbo:ChemicalCompound ;
-        rdfs:seeAlso    compound:43249 ;
-        dbo:casNumber   "60282-87-3" ;
-        dbo:formula     "C21H26O2" ;
-        dbo:inchi       "InChI=1S/C21H26O2/c1-3-20-11-9-17-16-8-6-15(22)13-14(16)5-7-18(17)19(20)10-12-21(20,23)4-2/h2,10,12-13,16-19,23H,3,5-9,11H2,1H3/t16?,17?,18?,19?,20?,21-/m0/s1" ;
-        dbo:iupacName   "(17R)-13-ethyl-17-ethynyl-17-hydroxy-1,2,6,7,8,9,10,11,12,14-decahydrocyclopenta[a]phenanthren-3-one"@en ;
-        dbo:pubchem     "43249"^^xsd:int ;
-        dbo:smiles      "CCC12CCC3C(C1C=CC2(C#C)O)CCC4=CC(=O)CCC34" ;
-        dbp:inchikey    "SIGSPDASOTUPFS-KQMXEUTGSA-N" ;
-        skos:broader    csc:CHEMONTID_0003570 ;
-        skos:inScheme   vlcs:chemische_stof ;
-        skos:notation   "gesdn" ;
-        skos:prefLabel  "gestodeen"@nl .
 
 csc:RFHAOTPXVQNOHP-UHFFFAOYSA-N
         rdf:type        dbo:ChemicalCompound , skos:Concept , dbo:ChemicalSubstance ;
@@ -21384,6 +21535,21 @@ csc:FJDPATXIBIBRIM-UHFFFAOYSA-N
         skos:notation   "cyfntn" ;
         skos:prefLabel  "cyfenothrin"@nl .
 
+csc:KZUSAXRVIONPJU-UHFFFAOYSA-N
+        rdf:type        dbo:ChemicalCompound , dbo:ChemicalSubstance , skos:Concept ;
+        rdfs:seeAlso    compound:2776093 ;
+        dbo:casNumber   "172155-07-6" ;
+        dbo:formula     "C10HF19O2" ;
+        dbo:inchi       "InChI=1S/C10HF19O2/c11-2(12,1(30)31)3(13,8(21,22)23)5(15,16)7(19,20)6(17,18)4(14,9(24,25)26)10(27,28)29/h(H,30,31)" ;
+        dbo:iupacName   "2,2,3,4,4,5,5,6,6,7,8,8,8-tridecafluoro-3,7-bis(trifluoromethyl)octanoic acid"@en ;
+        dbo:pubchem     "2776093"^^xsd:int ;
+        dbo:smiles      "C(=O)(C(C(C(C(C(C(C(F)(F)F)(C(F)(F)F)F)(F)F)(F)F)(F)F)(C(F)(F)F)F)(F)F)O" ;
+        dbp:inchikey    "KZUSAXRVIONPJU-UHFFFAOYSA-N" ;
+        skos:broader    csc:CHEMONTID_0003086 ;
+        skos:inScheme   vlcs:chemische_stof ;
+        skos:notation   "P37DMOA" ;
+        skos:prefLabel  "perfluor-3-7-dimethyloctaanzuur"@nl .
+
 csc:QSLMDECMDJKHMQ-UHFFFAOYSA-N
         rdf:type        dbo:ChemicalCompound , dbo:ChemicalSubstance , skos:Concept ;
         rdfs:seeAlso    compound:4011 ;
@@ -22006,7 +22172,7 @@ csc:RNVCVTLRINQCPJ-UHFFFAOYSA-N
         dbo:pubchem     "7242"^^xsd:int ;
         dbo:smiles      "CC1=CC=CC=C1N" ;
         dbp:inchikey    "RNVCVTLRINQCPJ-UHFFFAOYSA-N" ;
-        skos:altLabel   "o-toluïdine "@nl , "o-toluïdine"@nl ;
+        skos:altLabel   "o-tolu\uFFFDdine"@nl , "o-tolu\uFFFDdine "@nl ;
         skos:broader    csc:CHEMONTID_0003964 ;
         skos:inScheme   vlcs:chemische_stof ;
         skos:notation   "2C1yAn" ;
@@ -23002,7 +23168,7 @@ csc:CFCRODHVHXGTPC-UHFFFAOYSA-N
         skos:altLabel   "perfluor-n-dodecaansulfonzuur (pfdods)"@nl , "perfluordodecaansulfonzuur (pfdods)"@nl , "perfluor-n-dodecaansulfonzuur"@nl ;
         skos:broader    csc:CHEMONTID_0003961 ;
         skos:inScheme   vlcs:chemische_stof ;
-        skos:notation   "PFDoAS" ;
+        skos:notation   "PFDoDS" , "PFDoAS" ;
         skos:prefLabel  "perfluordodecaansulfonzuur"@nl .
 
 csc:HGLDOAKPQXAFKI-YPZZEJLDSA-N
@@ -24190,7 +24356,7 @@ csc:ZTSDOGSKTICNPQ-UHFFFAOYSA-N
         skos:altLabel   "perfluoroctadecaanzuur"@nl , "perfluor-n-octadecaanzuur"@nl ;
         skos:broader    csc:CHEMONTID_0002949 ;
         skos:inScheme   vlcs:chemische_stof ;
-        skos:notation   "PFC18azr" ;
+        skos:notation   "PFODA" , "PFC18azr" ;
         skos:prefLabel  "perfluor-n-octadecaanzuur (pfoda)"@nl .
 
 csc:RXXCIBALSKQCAE-UHFFFAOYSA-N
@@ -24422,7 +24588,7 @@ csc:YVPYQUNUQOZFHG-UHFFFAOYSA-N
         skos:broader    csc:CHEMONTID_0003097 ;
         skos:inScheme   vlcs:chemische_stof ;
         skos:notation   "amdTzinzr" ;
-        skos:prefLabel  "amidotrizoïnezuur"@nl .
+        skos:prefLabel  "amidotrizo\uFFFDnezuur"@nl .
 
 csc:DWZSTEUTHNUVQD-UHFFFAOYSA-N
         rdf:type        skos:Concept , dbo:ChemicalSubstance , dbo:ChemicalCompound ;
@@ -25644,7 +25810,7 @@ csc:PIEXCQIOSMOEOU-UHFFFAOYSA-N
         skos:broader    csc:CHEMONTID_0002273 ;
         skos:inScheme   vlcs:chemische_stof ;
         skos:notation   "BCDMH" ;
-        skos:prefLabel  "1-broom-3-chloor-5,5-dimethylhidantoïne"@nl .
+        skos:prefLabel  "1-broom-3-chloor-5,5-dimethylhidanto\uFFFDne"@nl .
 
 csc:RTCOGUMHFFWOJV-UHFFFAOYSA-N
         rdf:type        dbo:ChemicalSubstance , dbo:ChemicalCompound , skos:Concept ;
@@ -26690,7 +26856,7 @@ csc:HKOIXWVRNLGFOR-YANNOFPNSA-N
         skos:broader    csc:CHEMONTID_0000058 ;
         skos:inScheme   vlcs:chemische_stof ;
         skos:notation   "norcdine" ;
-        skos:prefLabel  "norcodeïne"@nl .
+        skos:prefLabel  "norcode\uFFFDne"@nl .
 
 csc:FFCCBBNQPIMUJI-UHFFFAOYSA-N
         rdf:type        dbo:ChemicalCompound , dbo:ChemicalSubstance , skos:Concept ;
@@ -26732,7 +26898,7 @@ csc:RDYMFSUJUZBWLH-UHFFFAOYSA-N
         dbo:pubchem         "3224"^^xsd:int ;
         dbo:smiles          "C1C2C(COS(=O)O1)C3(C(=C(C2(C3(Cl)Cl)Cl)Cl)Cl)Cl" ;
         dbp:inchikey        "RDYMFSUJUZBWLH-UHFFFAOYSA-N" ;
-        skos:altLabel       "α-endosulfan"@nl , "endosulfan (som alfa- en beta-isomeer)"@nl ;
+        skos:altLabel       "?-endosulfan"@nl , "endosulfan (som alfa- en beta-isomeer)"@nl ;
         skos:broader        csc:CHEMONTID_0002074 ;
         skos:exactMatch     wise:CAS_115-29-7 ;
         skos:inScheme       vlcs:chemische_stof ;
@@ -27087,7 +27253,7 @@ csc:LVDGGZAZAYHXEY-UHFFFAOYSA-N
         skos:altLabel   "perfluor-n-tridecaanzuur (pftrda)"@nl , "perfluortridecaanzuur"@nl ;
         skos:broader    csc:CHEMONTID_0002949 ;
         skos:inScheme   vlcs:chemische_stof ;
-        skos:notation   "PFTDA" ;
+        skos:notation   "PFTDA" , "PFTrDA" ;
         skos:prefLabel  "perfluortridecaanzuur (pftrda)"@nl .
 
 csc:PXNPSORLYYNBLA-UHFFFAOYSA-N
@@ -27290,7 +27456,7 @@ csc:JGTNAGYHADQMCM-UHFFFAOYSA-N
         skos:altLabel   "perfluorbutaansulfonzuur"@nl , "perfluorbutaansulfonzuur (pfbs)"@nl , "perfluor-n-butaansulfonzuur"@nl ;
         skos:broader    csc:CHEMONTID_0003961 ;
         skos:inScheme   vlcs:chemische_stof ;
-        skos:notation   "L_PFBS" ;
+        skos:notation   "L_PFBS" , "PFBS" ;
         skos:prefLabel  "perfluor-n-butaansulfonzuur (pfbs)"@nl .
 
 csc:ZZORFUFYDOWNEF-UHFFFAOYSA-N
@@ -28050,7 +28216,7 @@ csc:SPTHHTGLGVZZRH-UHFFFAOYSA-N
         dbp:inchikey    "SPTHHTGLGVZZRH-UHFFFAOYSA-N" ;
         skos:broader    csc:CHEMONTID_0004238 ;
         skos:inScheme   vlcs:chemische_stof ;
-        skos:prefLabel  "arsenobetaïne"@nl .
+        skos:prefLabel  "arsenobeta\uFFFDne"@nl .
 
 csc:AMIMRNSIRUDHCM-UHFFFAOYSA-N
         rdf:type        skos:Concept , dbo:ChemicalCompound , dbo:ChemicalSubstance ;
@@ -29016,6 +29182,21 @@ csc:WDCYWAQPCXBPJA-UHFFFAOYSA-N
         skos:notation   "13DNO2Ben" ;
         skos:prefLabel  "1,3-dinitrobenzeen"@nl .
 
+csc:ICKAEAFPESRWOT-UHFFFAOYSA-N
+        rdf:type        dbo:ChemicalCompound , skos:Concept , dbo:ChemicalSubstance ;
+        rdfs:seeAlso    compound:101650 ;
+        dbo:casNumber   "646-83-3" ;
+        dbo:formula     "C8HF15O3S" ;
+        dbo:inchi       "InChI=1S/C8HF15O3S/c9-1(4(14,15)8(21,22)23)2(10,11)5(16,17)7(20,27(24,25)26)6(18,19)3(1,12)13/h(H,24,25,26)" ;
+        dbo:iupacName   "1,2,2,3,3,4,5,5,6,6-decafluoro-4-(1,1,2,2,2-pentafluoroethyl)cyclohexane-1-sulfonic acid"@en ;
+        dbo:pubchem     "101650"^^xsd:int ;
+        dbo:smiles      "C1(C(C(C(C(C1(F)F)(F)F)(F)S(=O)(=O)O)(F)F)(F)F)(C(C(F)(F)F)(F)F)F" ;
+        dbp:inchikey    "ICKAEAFPESRWOT-UHFFFAOYSA-N" ;
+        skos:broader    csc:CHEMONTID_0004485 ;
+        skos:inScheme   vlcs:chemische_stof ;
+        skos:notation   "PFECHS" ;
+        skos:prefLabel  "perfluor-4-ethylcyclohexaansulfonzuur"@nl .
+
 csc:RWLALWYNXFYRGW-UHFFFAOYSA-N
         rdf:type        dbo:ChemicalCompound , skos:Concept , dbo:ChemicalSubstance ;
         rdfs:seeAlso    compound:7211 ;
@@ -29265,7 +29446,7 @@ csc:CXZGQIAOTKWCDB-UHFFFAOYSA-N
         skos:altLabel   "perfluor-n-pentaanzuur"@nl , "perfluor-n-pentaanzuur (pfpea)"@nl , "perfluorpentaanzuur (pfpea)"@nl ;
         skos:broader    csc:CHEMONTID_0003962 ;
         skos:inScheme   vlcs:chemische_stof ;
-        skos:notation   "PFPA" ;
+        skos:notation   "PFPA" , "PFPeA" ;
         skos:prefLabel  "perfluorpentaanzuur"@nl .
 
 csc:AMRQXHFXNZFDCH-VIFPVBQESA-N
@@ -30360,6 +30541,21 @@ csc:BULLHNJGPPOUOX-UHFFFAOYSA-N
         skos:notation   "Clactn" ;
         skos:prefLabel  "chlooraceton"@nl .
 
+csc:VDKPSKAXYKUKMK-UHFFFAOYSA-N
+        rdf:type        dbo:ChemicalSubstance , skos:Concept , dbo:ChemicalCompound ;
+        rdfs:seeAlso    compound:10642942 ;
+        dbo:casNumber   "159381-10-9" ;
+        dbo:formula     "C7H6F9NO4S" ;
+        dbo:inchi       "InChI=1S/C7H6F9NO4S/c1-2(3(18)19)17-22(20,21)7(15,16)5(10,11)4(8,9)6(12,13)14/h2,17H,1H3,(H,18,19)" ;
+        dbo:iupacName   "2-(1,1,2,2,3,3,4,4,4-nonafluorobutylsulfonylamino)propanoic acid"@en ;
+        dbo:pubchem     "10642942"^^xsd:int ;
+        dbo:smiles      "CC(C(=O)O)NS(=O)(=O)C(C(C(C(F)(F)F)(F)F)(F)F)(F)F" ;
+        dbp:inchikey    "VDKPSKAXYKUKMK-UHFFFAOYSA-N" ;
+        skos:broader    csc:CHEMONTID_0004314 ;
+        skos:inScheme   vlcs:chemische_stof ;
+        skos:notation   "MePFBSAA" ;
+        skos:prefLabel  "N-methylperfluorbutaansulfonylamide azijnzuur"@nl .
+
 csc:VWQVUPCCIRVNHF-NJFSPNSNSA-N
         rdf:type        skos:Concept , dbo:ChemicalSubstance , dbo:ChemicalCompound ;
         rdfs:seeAlso    compound:104964 ;
@@ -30430,7 +30626,7 @@ csc:UOAMTSKGCBMZTC-UHFFFAOYSA-N
         dbo:pubchem         "8268"^^xsd:int ;
         dbo:smiles          "C1=CC(=CC=C1C(C2=CC=C(C=C2)Cl)(C(Cl)(Cl)Cl)O)Cl" ;
         dbp:inchikey        "UOAMTSKGCBMZTC-UHFFFAOYSA-N" ;
-        skos:altLabel       "p,p’-dicofol"@nl ;
+        skos:altLabel       "p,p\uFFFD-dicofol"@nl ;
         skos:broader        csc:CHEMONTID_0000369 ;
         skos:exactMatch     wise:CAS_115-32-2 ;
         skos:inScheme       vlcs:chemische_stof ;
@@ -30889,6 +31085,21 @@ csc:JHFAEUICJHBVHB-UHFFFAOYSA-N
         skos:notation   "23DHindl2on" ;
         skos:prefLabel  "2,3-dihydroindol-2-on"@nl .
 
+csc:SZVGIJOITCPDPM-UHFFFAOYSA-N
+        rdf:type        skos:Concept , dbo:ChemicalCompound , dbo:ChemicalSubstance ;
+        rdfs:seeAlso    compound:15099039 ;
+        dbo:casNumber   "763051-92-9" ;
+        dbo:formula     "C10HClF20O4S" ;
+        dbo:inchi       "InChI=1S/C10HClF20O4S/c11-7(24,25)5(20,21)3(16,17)1(12,13)2(14,15)4(18,19)6(22,23)8(26,27)35-9(28,29)10(30,31)36(32,33)34/h(H,32,33,34)" ;
+        dbo:iupacName   "2-(8-chloro-1,1,2,2,3,3,4,4,5,5,6,6,7,7,8,8-hexadecafluorooctoxy)-1,1,2,2-tetrafluoroethanesulfonic acid"@en ;
+        dbo:pubchem     "15099039"^^xsd:int ;
+        dbo:smiles      "C(C(C(C(C(F)(F)Cl)(F)F)(F)F)(F)F)(C(C(C(OC(C(F)(F)S(=O)(=O)O)(F)F)(F)F)(F)F)(F)F)(F)F" ;
+        dbp:inchikey    "SZVGIJOITCPDPM-UHFFFAOYSA-N" ;
+        skos:broader    csc:CHEMONTID_0001179 ;
+        skos:inScheme   vlcs:chemische_stof ;
+        skos:notation   "11Cl‐PF3OUnDS" ;
+        skos:prefLabel  "11‐chloroeicosafluoro‐3‐oxaundecane‐1‐sulfonzuur"@nl .
+
 csc:BYBLEWFAAKGYCD-UHFFFAOYSA-N
         rdf:type            dbo:ChemicalSubstance , skos:Concept , dbo:ChemicalCompound ;
         rdfs:seeAlso        compound:4189 ;
@@ -31056,6 +31267,21 @@ csc:JXTHNDFMNIQAHM-UHFFFAOYSA-N
         skos:inScheme   vlcs:chemische_stof ;
         skos:notation   "DClHAc" ;
         skos:prefLabel  "dichloorazijnzuur"@nl .
+
+csc:SJKDXZGLKADOQD-UHFFFAOYSA-N
+        rdf:type        dbo:ChemicalSubstance , dbo:ChemicalCompound , skos:Concept ;
+        rdfs:seeAlso    compound:87185480 ;
+        dbo:casNumber   "39492-89-2" ;
+        dbo:formula     "C5HF9O5" ;
+        dbo:inchi       "InChI=1S/C5HF9O5/c6-2(7,1(15)16)17-4(11,12)19-5(13,14)18-3(8,9)10/h(H,15,16)" ;
+        dbo:iupacName   "2-[[difluoro(trifluoromethoxy)methoxy]-difluoromethoxy]-2,2-difluoroacetic acid"@en ;
+        dbo:pubchem     "87185480"^^xsd:int ;
+        dbo:smiles      "C(=O)(C(OC(OC(OC(F)(F)F)(F)F)(F)F)(F)F)O" ;
+        dbp:inchikey    "SJKDXZGLKADOQD-UHFFFAOYSA-N" ;
+        skos:broader    csc:CHEMONTID_0003000 ;
+        skos:inScheme   vlcs:chemische_stof ;
+        skos:notation   "PFO3OA" ;
+        skos:prefLabel  "perfluor-3,5,7-trioxaoctaanzuur"@nl .
 
 csc:FOHHWGVAOVDVLP-UHFFFAOYSA-N
         rdf:type        skos:Concept , dbo:ChemicalSubstance , dbo:ChemicalCompound ;
@@ -32324,7 +32550,7 @@ csc:LHTCFGRXHNJRBP-UHFFFAOYSA-N
         skos:broader    csc:CHEMONTID_0001167 ;
         skos:inScheme   vlcs:chemische_stof ;
         skos:notation   "geetxldiC10y" ;
-        skos:prefLabel  "geëthoxyleerde isodecylalcohol"@nl .
+        skos:prefLabel  "ge\uFFFDthoxyleerde isodecylalcohol"@nl .
 
 csc:VVAQOYUUECXZAZ-UHFFFAOYSA-N
         rdf:type        skos:Concept , dbo:ChemicalCompound , dbo:ChemicalSubstance ;
@@ -32892,7 +33118,7 @@ csc:OYGQVDSRYXATEL-UHFFFAOYSA-N
         skos:altLabel   "perfluor-1-heptaansulfonzuur"@nl , "perfluor-n-heptaansulfonzuur (pfhps)"@nl , "perfluor-n-heptaansulfonzuur"@nl ;
         skos:broader    csc:CHEMONTID_0003961 ;
         skos:inScheme   vlcs:chemische_stof ;
-        skos:notation   "L_PFHpS" ;
+        skos:notation   "PFHpS" , "L_PFHpS" ;
         skos:prefLabel  "perfluorheptaansulfonzuur (pfhps)"@nl .
 
 csc:HXDOZKJGKXYMEW-UHFFFAOYSA-N
@@ -33406,7 +33632,7 @@ csc:OJMBMWRMTMHMSZ-UHFFFAOYSA-N
         skos:altLabel   "perfluor-n-hexadecaanzuur (pfhxda)"@nl , "perfluorhexadecaanzuur (pfhxda)"@nl , "perfluor-n-hexadecaanzuur"@nl ;
         skos:broader    csc:CHEMONTID_0002949 ;
         skos:inScheme   vlcs:chemische_stof ;
-        skos:notation   "PFC16azr" ;
+        skos:notation   "PFHxDA" , "PFC16azr" ;
         skos:prefLabel  "perfluorhexadecaanzuur"@nl .
 
 csc:YREYEVIYCVEVJK-UHFFFAOYSA-N
@@ -33739,7 +33965,7 @@ csc:RIPPXFWUYXTRNJ-BHARVXRSSA-N
         skos:broader    csc:CHEMONTID_0001350 ;
         skos:inScheme   vlcs:chemische_stof ;
         skos:notation   "norccine" ;
-        skos:prefLabel  "norcocaïne"@nl .
+        skos:prefLabel  "norcoca\uFFFDne"@nl .
 
 csc:KENZYIHFBRWMOD-UHFFFAOYSA-N
         rdf:type        skos:Concept , dbo:ChemicalSubstance , dbo:ChemicalCompound ;
@@ -33921,6 +34147,21 @@ csc:GOPWOUQJIMLDDM-UHFFFAOYSA-N
         skos:inScheme   vlcs:chemische_stof ;
         skos:notation   "DC4yiFt" ;
         skos:prefLabel  "dibutylisoftalaat"@nl .
+
+csc:CZTBTZZANBJSLY-UHFFFAOYSA-N
+        rdf:type        skos:Concept , dbo:ChemicalCompound , dbo:ChemicalSubstance ;
+        rdfs:seeAlso    compound:12498036 ;
+        dbo:casNumber   "863090-89-5" ;
+        dbo:formula     "C5HF9O3" ;
+        dbo:inchi       "InChI=1S/C5HF9O3/c6-2(7,1(15)16)3(8,9)4(10,11)17-5(12,13)14/h(H,15,16)" ;
+        dbo:iupacName   "2,2,3,3,4,4-hexafluoro-4-(trifluoromethoxy)butanoic acid"@en ;
+        dbo:pubchem     "12498036"^^xsd:int ;
+        dbo:smiles      "C(=O)(C(C(C(OC(F)(F)F)(F)F)(F)F)(F)F)O" ;
+        dbp:inchikey    "CZTBTZZANBJSLY-UHFFFAOYSA-N" ;
+        skos:broader    csc:CHEMONTID_0000483 ;
+        skos:inScheme   vlcs:chemische_stof ;
+        skos:notation   "PFMOBA" ;
+        skos:prefLabel  "perfluor-4-methoxybutaanzuur"@nl .
 
 csc:LHHGDZSESBACKH-UHFFFAOYSA-N
         rdf:type            dbo:ChemicalSubstance , dbo:ChemicalCompound , skos:Concept ;
@@ -34134,7 +34375,7 @@ csc:AFWOYEYXUDHGHF-UHFFFAOYSA-N
         skos:altLabel   "bisperfluordecylwaterstoffosfaat (8:2 diPAP)"@nl , "8:2 fluortelomeerfosfaat diester"@nl , "bisperfluordecylwaterstoffosfaat (8:2 dipap)"@nl ;
         skos:broader    csc:CHEMONTID_0003459 ;
         skos:inScheme   vlcs:chemische_stof ;
-        skos:notation   "bisPFC10yPO4" ;
+        skos:notation   "8:2 diPAP" , "bisPFC10yPO4" ;
         skos:prefLabel  "8:2 fluortelomeerfosfaat diester (8:2 dipap)"@nl .
 
 csc:JARKCYVAAOWBJS-UHFFFAOYSA-N
@@ -34216,7 +34457,7 @@ csc:IBOFVQJTBBUKMU-UHFFFAOYSA-N
         skos:broader    csc:CHEMONTID_0000369 ;
         skos:inScheme   vlcs:chemische_stof ;
         skos:notation   "44C1yeb2ClAn" ;
-        skos:prefLabel  "4,4’-methylenebis(2-chlooraniline)"@nl .
+        skos:prefLabel  "4,4\uFFFD-methylenebis(2-chlooraniline)"@nl .
 
 csc:ZEKANFGSDXODPD-UHFFFAOYSA-N
         rdf:type        dbo:ChemicalCompound , dbo:ChemicalSubstance , skos:Concept ;
@@ -34414,7 +34655,7 @@ csc:VZCYOOQTPOCHFL-OWOJBTEDSA-N
         skos:broader    csc:CHEMONTID_0000346 ;
         skos:inScheme   vlcs:chemische_stof ;
         skos:notation   "malinzr" ;
-        skos:prefLabel  "maleïnezuur"@nl .
+        skos:prefLabel  "male\uFFFDnezuur"@nl .
 
 csc:WQYWHGOKYSMVFW-ZOKDRQBOSA-N
         rdf:type        dbo:ChemicalCompound , dbo:ChemicalSubstance , skos:Concept ;
@@ -35107,7 +35348,7 @@ csc:UCNVFOCBFJOQAL-UHFFFAOYSA-N
         dbo:pubchem         "3035"^^xsd:int ;
         dbo:smiles          "C1=CC(=CC=C1C(=C(Cl)Cl)C2=CC=C(C=C2)Cl)Cl" ;
         dbp:inchikey        "UCNVFOCBFJOQAL-UHFFFAOYSA-N" ;
-        skos:altLabel       "4,4'-dichloordifenyldichlooretheen"@nl , "p,p’-dde"@nl ;
+        skos:altLabel       "4,4'-dichloordifenyldichlooretheen"@nl , "p,p\uFFFD-dde"@nl ;
         skos:broader        csc:CHEMONTID_0000369 ;
         skos:exactMatch     wise:CAS_72-55-9 ;
         skos:inScheme       vlcs:chemische_stof ;
@@ -35223,7 +35464,7 @@ csc:VIONGDJUYAYOPU-UHFFFAOYSA-N
         skos:altLabel   "6:2 fluortelomeersulfonzuur (6:2 fts)"@nl , "2-(perfluorhexyl)ethaan-1-sulfonzuur (6:2 fts)"@nl , "2-(perfluorhexyl)ethaan-1-sulfonzuur (6:2 FTS)"@nl , "6:2 fluortelomeersulfonzuur"@nl , "1H,1H,2H,2H-perfluorooctaansulfonzuur"@nl ;
         skos:broader    csc:CHEMONTID_0001179 ;
         skos:inScheme   vlcs:chemische_stof ;
-        skos:notation   "2PFC6yC2a1sf" ;
+        skos:notation   "6:2 FTS" , "H4PFOS" , "2PFC6yC2a1sf" ;
         skos:prefLabel  "1h,1h,2h,2h-perfluorooctaansulfonzuur"@nl .
 
 csc:YPFDHNVEDLHUCE-UHFFFAOYSA-N
@@ -37247,7 +37488,7 @@ csc:ACEKLXZRZOWKRY-UHFFFAOYSA-N
         skos:altLabel   "perfluor-n-pentaansulfonzuur"@nl , "perfluor-1-pentaansulfonzuur"@nl , "perfluor-n-pentaansulfonzuur (pfpes)"@nl ;
         skos:broader    csc:CHEMONTID_0003961 ;
         skos:inScheme   vlcs:chemische_stof ;
-        skos:notation   "PFC5asfzr" ;
+        skos:notation   "PFPeS" , "PFC5asfzr" ;
         skos:prefLabel  "perfluorpentaansulfonzuur (pfpes)"@nl .
 
 csc:DEIGXXQKDWULML-UHFFFAOYSA-N
@@ -37575,7 +37816,7 @@ csc:MNEXVZFQQPKDHC-UHFFFAOYSA-N
         skos:altLabel   "perfluornonaan-1-sulfonzuur"@nl , "perfluor-n-nonaansulfonzuur"@nl ;
         skos:broader    csc:CHEMONTID_0003961 ;
         skos:inScheme   vlcs:chemische_stof ;
-        skos:notation   "PFC9asfzr" ;
+        skos:notation   "PFNS" , "PFC9asfzr" ;
         skos:prefLabel  "perfluor-n-nonaansulfonzuur (pfns)"@nl .
 
 csc:GKQHIYSTBXDYNQ-UHFFFAOYSA-M
@@ -37674,6 +37915,21 @@ csc:GRPRVIYRYGLIJU-UHFFFAOYSA-N
         skos:prefLabel      "demeton-S"@nl ;
         vcs:vmmParameterId  "729"^^xsd:int .
 
+csc:SHXWCVYOXRDMCX-UHFFFAOYSA-N
+        rdf:type        dbo:ChemicalCompound , skos:Concept , dbo:ChemicalSubstance ;
+        rdfs:seeAlso    compound:1615 ;
+        dbo:casNumber   "69610-10-2" , "42542-10-9" , "54946-52-0" ;
+        dbo:formula     "C11H15NO2" ;
+        dbo:inchi       "InChI=1S/C11H15NO2/c1-8(12-2)5-9-3-4-10-11(6-9)14-7-13-10/h3-4,6,8,12H,5,7H2,1-2H3" ;
+        dbo:iupacName   "1-(1,3-benzodioxol-5-yl)-N-methylpropan-2-amine"@en ;
+        dbo:pubchem     "1615"^^xsd:int ;
+        dbo:smiles      "CC(CC1=CC2=C(C=C1)OCO2)NC" ;
+        dbp:inchikey    "SHXWCVYOXRDMCX-UHFFFAOYSA-N" ;
+        skos:broader    csc:CHEMONTID_0000296 ;
+        skos:inScheme   vlcs:chemische_stof ;
+        skos:notation   "34C1yeDoxmaf" ;
+        skos:prefLabel  "3,4-methyleendioxymethamfetamine"@nl .
+
 csc:AHJKRLASYNVKDZ-UHFFFAOYSA-N
         rdf:type            skos:Concept , dbo:ChemicalCompound , dbo:ChemicalSubstance ;
         rdfs:seeAlso        compound:6294 ;
@@ -37689,23 +37945,8 @@ csc:AHJKRLASYNVKDZ-UHFFFAOYSA-N
         skos:exactMatch     wise:CAS_72-54-8 ;
         skos:inScheme       vlcs:chemische_stof ;
         skos:notation       "44DDD" ;
-        skos:prefLabel      "p,p’-ddd"@nl ;
+        skos:prefLabel      "p,p\uFFFD-ddd"@nl ;
         vcs:vmmParameterId  "261"^^xsd:int .
-
-csc:SHXWCVYOXRDMCX-UHFFFAOYSA-N
-        rdf:type        dbo:ChemicalCompound , skos:Concept , dbo:ChemicalSubstance ;
-        rdfs:seeAlso    compound:1615 ;
-        dbo:casNumber   "69610-10-2" , "42542-10-9" , "54946-52-0" ;
-        dbo:formula     "C11H15NO2" ;
-        dbo:inchi       "InChI=1S/C11H15NO2/c1-8(12-2)5-9-3-4-10-11(6-9)14-7-13-10/h3-4,6,8,12H,5,7H2,1-2H3" ;
-        dbo:iupacName   "1-(1,3-benzodioxol-5-yl)-N-methylpropan-2-amine"@en ;
-        dbo:pubchem     "1615"^^xsd:int ;
-        dbo:smiles      "CC(CC1=CC2=C(C=C1)OCO2)NC" ;
-        dbp:inchikey    "SHXWCVYOXRDMCX-UHFFFAOYSA-N" ;
-        skos:broader    csc:CHEMONTID_0000296 ;
-        skos:inScheme   vlcs:chemische_stof ;
-        skos:notation   "34C1yeDoxmaf" ;
-        skos:prefLabel  "3,4-methyleendioxymethamfetamine"@nl .
 
 csc:GSNZNZUNAJCHDO-UHFFFAOYSA-N
         rdf:type        dbo:ChemicalSubstance , dbo:ChemicalCompound , skos:Concept ;
@@ -37751,6 +37992,21 @@ csc:WTEVQBCEXWBHNA-JXMROGBWSA-N
         skos:inScheme   vlcs:chemische_stof ;
         skos:notation   "citl" ;
         skos:prefLabel  "citral"@nl .
+
+csc:AJMAYLFJZQYRHN-UHFFFAOYSA-N
+        rdf:type        dbo:ChemicalCompound , skos:Concept , dbo:ChemicalSubstance ;
+        rdfs:seeAlso    compound:23136180 ;
+        dbo:casNumber   "120226-60-0" ;
+        dbo:formula     "C12H5F21O3S" ;
+        dbo:inchi       "InChI=1S/C12H5F21O3S/c13-3(14,1-2-37(34,35)36)4(15,16)5(17,18)6(19,20)7(21,22)8(23,24)9(25,26)10(27,28)11(29,30)12(31,32)33/h1-2H2,(H,34,35,36)" ;
+        dbo:iupacName   "3,3,4,4,5,5,6,6,7,7,8,8,9,9,10,10,11,11,12,12,12-henicosafluorododecane-1-sulfonic acid"@en ;
+        dbo:pubchem     "23136180"^^xsd:int ;
+        dbo:smiles      "C(CS(=O)(=O)O)C(C(C(C(C(C(C(C(C(C(F)(F)F)(F)F)(F)F)(F)F)(F)F)(F)F)(F)F)(F)F)(F)F)(F)F" ;
+        dbp:inchikey    "AJMAYLFJZQYRHN-UHFFFAOYSA-N" ;
+        skos:broader    csc:CHEMONTID_0001179 ;
+        skos:inScheme   vlcs:chemische_stof ;
+        skos:notation   "10:2 FTS" ;
+        skos:prefLabel  "10:2 fluortelomeersulfonzuur"@nl .
 
 csc:BXPMAGSOWXBZHS-WEVVVXLNSA-N
         rdf:type        skos:Concept , dbo:ChemicalSubstance , dbo:ChemicalCompound ;
@@ -38374,7 +38630,7 @@ csc:OIRFJRBSRORBCM-UHFFFAOYSA-N
         skos:broader    csc:CHEMONTID_0002551 ;
         skos:inScheme   vlcs:chemische_stof ;
         skos:notation   "jopninzr" ;
-        skos:prefLabel  "jopanoïnezuur"@nl .
+        skos:prefLabel  "jopano\uFFFDnezuur"@nl .
 
 csc:VACCAVUAMIDAGB-UHFFFAOYSA-N
         rdf:type        dbo:ChemicalCompound , dbo:ChemicalSubstance , skos:Concept ;
@@ -39019,6 +39275,21 @@ csc:RRVIAQKBTUQODI-UHFFFAOYSA-N
         skos:prefLabel      "metabenzthiazuron"@nl ;
         vcs:vmmParameterId  "276"^^xsd:int .
 
+csc:FUVKFLJWBHVMHX-UHFFFAOYSA-N
+        rdf:type        dbo:ChemicalSubstance , dbo:ChemicalCompound , skos:Concept ;
+        rdfs:seeAlso    compound:10958205 ;
+        dbo:casNumber   "30334-69-1" ;
+        dbo:formula     "C4H2F9NO2S" ;
+        dbo:inchi       "InChI=1S/C4H2F9NO2S/c5-1(6,3(9,10)11)2(7,8)4(12,13)17(14,15)16/h(H2,14,15,16)" ;
+        dbo:iupacName   "1,1,2,2,3,3,4,4,4-nonafluorobutane-1-sulfonamide"@en ;
+        dbo:pubchem     "10958205"^^xsd:int ;
+        dbo:smiles      "C(C(C(F)(F)S(=O)(=O)N)(F)F)(C(F)(F)F)(F)F" ;
+        dbp:inchikey    "FUVKFLJWBHVMHX-UHFFFAOYSA-N" ;
+        skos:broader    csc:CHEMONTID_0003966 ;
+        skos:inScheme   vlcs:chemische_stof ;
+        skos:notation   "PFBSA" ;
+        skos:prefLabel  "perfluorbutaansulfonamide"@nl .
+
 csc:WWZKQHOCKIZLMA-UHFFFAOYSA-N
         rdf:type        dbo:ChemicalSubstance , skos:Concept , dbo:ChemicalCompound ;
         rdfs:seeAlso    compound:379 ;
@@ -39136,7 +39407,7 @@ csc:XKXPBJBODVHDAW-UHFFFAOYSA-N
         dbo:pubchem     "66538"^^xsd:int ;
         dbo:smiles      "C1=CC(=C(C=C1N)Cl)C2=C(C=C(C=C2)N)Cl" ;
         dbp:inchikey    "XKXPBJBODVHDAW-UHFFFAOYSA-N" ;
-        skos:altLabel   "2,2’-dichloorbenzidine"@nl ;
+        skos:altLabel   "2,2\uFFFD-dichloorbenzidine"@nl ;
         skos:broader    csc:CHEMONTID_0003955 ;
         skos:inScheme   vlcs:chemische_stof ;
         skos:notation   "22DClbzdne" ;
@@ -39812,7 +40083,7 @@ csc:CVUGPAFCQJIYDT-UHFFFAOYSA-N
         skos:exactMatch     wise:CAS_789-02-6 ;
         skos:inScheme       vlcs:chemische_stof ;
         skos:notation       "24DDT" ;
-        skos:prefLabel      "o,p’-ddt"@nl ;
+        skos:prefLabel      "o,p\uFFFD-ddt"@nl ;
         vcs:vmmParameterId  "257"^^xsd:int .
 
 csc:GPAPPPVRLPGFEQ-UHFFFAOYSA-N
@@ -40961,6 +41232,7 @@ csc:AGIMOOYNBDLMJV-UHFFFAOYSA-N
         dbp:inchikey    "AGIMOOYNBDLMJV-UHFFFAOYSA-N" ;
         skos:broader    csc:CHEMONTID_0003000 ;
         skos:inScheme   vlcs:chemische_stof ;
+        skos:notation   "PFMOPrA" ;
         skos:prefLabel  "perfluor-3-methoxypropaanzuur"@nl .
 
 csc:YXISVHDWGVMPGJ-UHFFFAOYSA-N
@@ -43582,7 +43854,7 @@ csc:YVGGHNCTFXOJCH-UHFFFAOYSA-N
         dbo:pubchem         "3036"^^xsd:int ;
         dbo:smiles          "C1=CC(=CC=C1C(C2=CC=C(C=C2)Cl)C(Cl)(Cl)Cl)Cl" ;
         dbp:inchikey        "YVGGHNCTFXOJCH-UHFFFAOYSA-N" ;
-        skos:altLabel       "p,p’-ddt"@nl , "p,p'-ddt"@nl , "4,4'-dichloordifenyltrichloorethaan"@nl ;
+        skos:altLabel       "p,p'-ddt"@nl , "p,p\uFFFD-ddt"@nl , "4,4'-dichloordifenyltrichloorethaan"@nl ;
         skos:broader        csc:CHEMONTID_0000369 ;
         skos:exactMatch     wise:CAS_50-29-3 ;
         skos:inScheme       vlcs:chemische_stof ;
@@ -43631,7 +43903,7 @@ csc:CCEKAJIANROZEO-UHFFFAOYSA-N
         skos:altLabel   "n-ethyl perfluoroctaansulfonamide"@nl , "n-ethylperfluor-n-octaansulfonamide (etpfosa)"@nl , "N-ethylperfluoroctaansulfonamide"@nl , "N-ethyl perfluoroctaansulfonamide"@nl , "n-ethylperfluoroctaan-1-sulfonamide (etpfosa)"@nl ;
         skos:broader    csc:CHEMONTID_0003960 ;
         skos:inScheme   vlcs:chemische_stof ;
-        skos:notation   "EtFOSA" ;
+        skos:notation   "EtFOSA" , "EtPFOSA" ;
         skos:prefLabel  "n-ethylperfluor-n-octaansulfonamide"@nl .
 
 csc:GUTLYIVDDKVIGB-UHFFFAOYSA-N
@@ -43749,6 +44021,21 @@ csc:VTNQPKFIQCLBDU-UHFFFAOYSA-N
         skos:notation       "actCl" ;
         skos:prefLabel      "acetochloor"@nl ;
         vcs:vmmParameterId  "857"^^xsd:int .
+
+csc:OWQCHLFKOGVODW-UHFFFAOYSA-M
+        rdf:type        skos:Concept , dbo:ChemicalCompound , dbo:ChemicalSubstance ;
+        rdfs:seeAlso    compound:25210512 ;
+        dbo:casNumber   "73606-19-6" ;
+        dbo:formula     "C8ClF16KO4S" ;
+        dbo:inchi       "InChI=1S/C8HClF16O4S.K/c9-5(18,19)3(14,15)1(10,11)2(12,13)4(16,17)6(20,21)29-7(22,23)8(24,25)30(26,27)28;/h(H,26,27,28);/q;+1/p-1" ;
+        dbo:iupacName   "potassium;2-(6-chloro-1,1,2,2,3,3,4,4,5,5,6,6-dodecafluorohexoxy)-1,1,2,2-tetrafluoroethanesulfonate"@en ;
+        dbo:pubchem     "25210512"^^xsd:int ;
+        dbo:smiles      "C(C(C(C(F)(F)Cl)(F)F)(F)F)(C(C(OC(C(F)(F)S(=O)(=O)[O-])(F)F)(F)F)(F)F)(F)F.[K+]" ;
+        dbp:inchikey    "OWQCHLFKOGVODW-UHFFFAOYSA-M" ;
+        skos:broader    csc:CHEMONTID_0001179 ;
+        skos:inScheme   vlcs:chemische_stof ;
+        skos:notation   "9Cl-PF3ONS" ;
+        skos:prefLabel  "9-Chloorhexadecafluor-3-oxanonaansulfonzuur"@nl .
 
 csc:QRTMTZAUGTXZOA-ZGYDFYMOSA-N
         rdf:type        skos:Concept , dbo:ChemicalSubstance , dbo:ChemicalCompound ;
@@ -44535,6 +44822,21 @@ csc:WGQKYBSKWIADBV-UHFFFAOYSA-N
         skos:notation   "benzAe" ;
         skos:prefLabel  "benzylamine"@nl .
 
+csc:WDZLGCSJJWEQJO-UHFFFAOYSA-N
+        rdf:type        skos:Concept , dbo:ChemicalSubstance , dbo:ChemicalCompound ;
+        rdfs:seeAlso    compound:11603678 ;
+        dbo:casNumber   "41997-13-1" ;
+        dbo:formula     "C6H2F13NO2S" ;
+        dbo:inchi       "InChI=1S/C6H2F13NO2S/c7-1(8,3(11,12)5(15,16)17)2(9,10)4(13,14)6(18,19)23(20,21)22/h(H2,20,21,22)" ;
+        dbo:iupacName   "1,1,2,2,3,3,4,4,5,5,6,6,6-tridecafluorohexane-1-sulfonamide"@en ;
+        dbo:pubchem     "11603678"^^xsd:int ;
+        dbo:smiles      "C(C(C(C(F)(F)S(=O)(=O)N)(F)F)(F)F)(C(C(F)(F)F)(F)F)(F)F" ;
+        dbp:inchikey    "WDZLGCSJJWEQJO-UHFFFAOYSA-N" ;
+        skos:broader    csc:CHEMONTID_0003966 ;
+        skos:inScheme   vlcs:chemische_stof ;
+        skos:notation   "PFHxSA" ;
+        skos:prefLabel  "perfluorhexaansulfonamide"@nl .
+
 csc:VWQVUPCCIRVNHF-UHFFFAOYSA-N
         rdf:type        dbo:ChemicalSubstance , dbo:ChemicalCompound , skos:Concept ;
         rdfs:seeAlso    compound:23993 ;
@@ -44644,7 +44946,7 @@ csc:FKNQFGJONOIPTF-UHFFFAOYSA-N
         dbo:pubchem         "923"^^xsd:int ;
         dbo:smiles          "[Na+]" ;
         dbp:inchikey        "FKNQFGJONOIPTF-UHFFFAOYSA-N" ;
-        skos:altLabel       "natrium, éénwaardig"@nl ;
+        skos:altLabel       "natrium, \uFFFD\uFFFDnwaardig"@nl ;
         skos:broader        csc:CHEMONTID_0000425 ;
         skos:exactMatch     wise:CAS_7440-23-5 ;
         skos:inScheme       vlcs:chemische_stof ;
@@ -45924,6 +46226,21 @@ csc:DCOPUUMXTXDBNB-UHFFFAOYSA-N
         skos:prefLabel      "diclofenac"@nl ;
         vcs:vmmParameterId  "1398"^^xsd:int .
 
+csc:UKHUPOMCGUFNAP-UHFFFAOYSA-N
+        rdf:type        skos:Concept , dbo:ChemicalCompound , dbo:ChemicalSubstance ;
+        rdfs:seeAlso    compound:22141518 ;
+        dbo:casNumber   "749786-16-1" ;
+        dbo:formula     "C11HF23O3S" ;
+        dbo:inchi       "InChI=1S/C11HF23O3S/c12-1(13,2(14,15)4(18,19)6(22,23)8(26,27)10(30,31)32)3(16,17)5(20,21)7(24,25)9(28,29)11(33,34)38(35,36)37/h(H,35,36,37)" ;
+        dbo:iupacName   "1,1,2,2,3,3,4,4,5,5,6,6,7,7,8,8,9,9,10,10,11,11,11-tricosafluoroundecane-1-sulfonic acid"@en ;
+        dbo:pubchem     "22141518"^^xsd:int ;
+        dbo:smiles      "C(C(C(C(C(C(F)(F)F)(F)F)(F)F)(F)F)(F)F)(C(C(C(C(C(F)(F)S(=O)(=O)O)(F)F)(F)F)(F)F)(F)F)(F)F" ;
+        dbp:inchikey    "UKHUPOMCGUFNAP-UHFFFAOYSA-N" ;
+        skos:broader    csc:CHEMONTID_0003961 ;
+        skos:inScheme   vlcs:chemische_stof ;
+        skos:notation   "PFUnDS" ;
+        skos:prefLabel  "perfluor-n-undecaansulfonzuur "@nl .
+
 csc:BZRUVKZGXNSXMB-UHFFFAOYSA-N
         rdf:type            skos:Concept , dbo:ChemicalCompound , dbo:ChemicalSubstance ;
         rdfs:seeAlso        compound:23712 ;
@@ -46060,7 +46377,7 @@ csc:ZDYJWDIWLRZXDB-UHFFFAOYSA-N
         dbo:pubchem         "246598"^^xsd:int ;
         dbo:smiles          "C1=CC=C(C(=C1)C(=C(Cl)Cl)C2=CC=C(C=C2)Cl)Cl" ;
         dbp:inchikey        "ZDYJWDIWLRZXDB-UHFFFAOYSA-N" ;
-        skos:altLabel       "op'dichloordifenyldichlooretheen"@nl , "o,p’-dde"@nl ;
+        skos:altLabel       "op'dichloordifenyldichlooretheen"@nl , "o,p\uFFFD-dde"@nl ;
         skos:broader        csc:CHEMONTID_0000369 ;
         skos:exactMatch     wise:CAS_3424-82-6 ;
         skos:inScheme       vlcs:chemische_stof ;
@@ -46223,7 +46540,7 @@ csc:SRMWNTGHXHOWBT-UHFFFAOYSA-N
         skos:altLabel   "n-methylperfluor-n-octaansulfonamide (mepfosa)"@nl , "N-methylperfluoroctaansulfonamide"@nl , "n-methylperfluor-n-octaansulfonamide"@nl , "N-methyl perfluoroctaansulfonamide"@nl , "n-methylperfluoroctaan-1-sulfonamide (mepfosa)"@nl ;
         skos:broader    csc:CHEMONTID_0003960 ;
         skos:inScheme   vlcs:chemische_stof ;
-        skos:notation   "MeFOSA" ;
+        skos:notation   "MePFOSA" , "MeFOSA" ;
         skos:prefLabel  "n-methyl perfluoroctaansulfonamide"@nl .
 
 csc:JFALSRSLKYAFGM-BJUDXGSMSA-N
@@ -47339,6 +47656,21 @@ csc:IAEGWXHKWJGQAZ-UHFFFAOYSA-N
         skos:inScheme   vlcs:chemische_stof ;
         skos:notation   "235TC1yprzne" ;
         skos:prefLabel  "2,3,5-trimethylpyrazine"@nl .
+
+csc:QNDHIRFIMVNHBN-UHFFFAOYSA-N
+        rdf:type        dbo:ChemicalCompound , dbo:ChemicalSubstance , skos:Concept ;
+        rdfs:seeAlso    compound:22286931 ;
+        dbo:casNumber   "2355-31-9" ;
+        dbo:formula     "C11H6F17NO4S" ;
+        dbo:inchi       "InChI=1S/C11H6F17NO4S/c1-29(2-3(30)31)34(32,33)11(27,28)9(22,23)7(18,19)5(14,15)4(12,13)6(16,17)8(20,21)10(24,25)26/h2H2,1H3,(H,30,31)" ;
+        dbo:iupacName   "2-[1,1,2,2,3,3,4,4,5,5,6,6,7,7,8,8,8-heptadecafluorooctylsulfonyl(methyl)amino]acetic acid"@en ;
+        dbo:pubchem     "22286931"^^xsd:int ;
+        dbo:smiles      "CN(CC(=O)O)S(=O)(=O)C(C(C(C(C(C(C(C(F)(F)F)(F)F)(F)F)(F)F)(F)F)(F)F)(F)F)(F)F" ;
+        dbp:inchikey    "QNDHIRFIMVNHBN-UHFFFAOYSA-N" ;
+        skos:broader    csc:CHEMONTID_0003960 ;
+        skos:inScheme   vlcs:chemische_stof ;
+        skos:notation   "MePFOSAA" , "NmeFOSAA" ;
+        skos:prefLabel  "N-methylperfluoroctaansulfonamido-azijnzuur"@nl .
 
 csc:VRXISYRYNOUKHO-UHFFFAOYSA-N
         rdf:type        dbo:ChemicalCompound , skos:Concept , dbo:ChemicalSubstance ;
@@ -48605,7 +48937,7 @@ csc:NPYPAHLBTDXSSS-UHFFFAOYSA-N
         skos:exactMatch     wise:CAS_7440-09-7 ;
         skos:inScheme       vlcs:chemische_stof ;
         skos:notation       "K" ;
-        skos:prefLabel      "kalium, éénwaardig"@nl ;
+        skos:prefLabel      "kalium, \uFFFD\uFFFDnwaardig"@nl ;
         vcs:vmmParameterId  "744"^^xsd:int , "988"^^xsd:int , "1943"^^xsd:int , "1258"^^xsd:int .
 
 csc:KVBKAPANDHPRDG-UHFFFAOYSA-N
@@ -48684,6 +49016,21 @@ csc:BQYJATMQXGBDHF-UHFFFAOYSA-N
         skos:inScheme   vlcs:chemische_stof ;
         skos:notation   "Dfncnzl" ;
         skos:prefLabel  "difenoconazool"@nl .
+
+csc:RVMKCACFKFAJPS-UHFFFAOYSA-N
+        rdf:type        dbo:ChemicalCompound , skos:Concept , dbo:ChemicalSubstance ;
+        rdfs:seeAlso    compound:57358057 ;
+        dbo:casNumber   "39492-90-5" ;
+        dbo:formula     "C6HF11O6" ;
+        dbo:inchi       "InChI=1S/C6HF11O6/c7-2(8,1(18)19)20-4(12,13)22-6(16,17)23-5(14,15)21-3(9,10)11/h(H,18,19)" ;
+        dbo:iupacName   "2-[[[difluoro(trifluoromethoxy)methoxy]-difluoromethoxy]-difluoromethoxy]-2,2-difluoroacetic acid"@en ;
+        dbo:pubchem     "57358057"^^xsd:int ;
+        dbo:smiles      "C(=O)(C(OC(OC(OC(OC(F)(F)F)(F)F)(F)F)(F)F)(F)F)O" ;
+        dbp:inchikey    "RVMKCACFKFAJPS-UHFFFAOYSA-N" ;
+        skos:broader    csc:CHEMONTID_0003000 ;
+        skos:inScheme   vlcs:chemische_stof ;
+        skos:notation   "PFO4DA" ;
+        skos:prefLabel  "perfluor-3,5,7,9-tetraoxadecaanzuur"@nl .
 
 csc:GSWAOPJLTADLTN-UHFFFAOYSA-N
         rdf:type            dbo:ChemicalCompound , skos:Concept , dbo:ChemicalSubstance ;
@@ -50563,7 +50910,7 @@ csc:CSEBNABAWMZWIF-UHFFFAOYSA-N
         skos:altLabel   "perfluor-2-propoxypropaanzuur (hfpo-da)"@nl , "perfluor-2-propoxypropaanzuur"@nl , "2,3,3,3-tetrafluor-2(heptafluorpropoxy)propionzuur"@nl ;
         skos:broader    csc:CHEMONTID_0003000 ;
         skos:inScheme   vlcs:chemische_stof ;
-        skos:notation   "FRD-903" ;
+        skos:notation   "HFPO-DA" , "FRD-903" ;
         skos:prefLabel  "2,3,3,3-tetrafluor-2-(heptafluorpropoxy)propionzuur"@nl .
 
 csc:AFOVBPMGZPJPKX-UHFFFAOYSA-N
@@ -50766,11 +51113,11 @@ csc:ZBCBWPMODOFKDW-UHFFFAOYSA-N
         dbo:pubchem     "8113"^^xsd:int ;
         dbo:smiles      "C(CO)NCCO" ;
         dbp:inchikey    "ZBCBWPMODOFKDW-UHFFFAOYSA-N" ;
-        skos:altLabel   "diethanolamine"@nl , "2,2’-iminodiethanol "@nl ;
+        skos:altLabel   "diethanolamine"@nl , "2,2\uFFFD-iminodiethanol "@nl ;
         skos:broader    csc:CHEMONTID_0001897 ;
         skos:inScheme   vlcs:chemische_stof ;
         skos:notation   "DC2olAe" ;
-        skos:prefLabel  "2,2’-iminodiethanol"@nl .
+        skos:prefLabel  "2,2\uFFFD-iminodiethanol"@nl .
 
 csc:JRLPEMVDPFPYPJ-UHFFFAOYSA-N
         rdf:type        dbo:ChemicalSubstance , dbo:ChemicalCompound , skos:Concept ;
@@ -50847,6 +51194,7 @@ csc:WQNQTJSLPDZSDK-UHFFFAOYSA-N
         skos:altLabel   "N-[3-(dimethyloxidoamino)propyl]-tridecafluoroctaansulfonamide"@nl ;
         skos:broader    csc:CHEMONTID_0000270 ;
         skos:inScheme   vlcs:chemische_stof ;
+        skos:notation   "Capstone A (DPOSA)" ;
         skos:prefLabel  "n-[3-(dimethyloxidoamino)propyl]-tridecafluoroctaansulfonamide"@nl .
 
 csc:FDPIMTJIUBPUKL-UHFFFAOYSA-N
@@ -53202,6 +53550,21 @@ csc:XNLICIUVMPYHGG-UHFFFAOYSA-N
         skos:notation   "2C5on" ;
         skos:prefLabel  "2-pentanon"@nl .
 
+csc:KKOYBOFPUBHPFO-UHFFFAOYSA-N
+        rdf:type        dbo:ChemicalSubstance , skos:Concept , dbo:ChemicalCompound ;
+        rdfs:seeAlso    compound:25355 ;
+        dbo:casNumber   "10548-10-4" ;
+        dbo:formula     "C9H21O3PS3" ;
+        dbo:inchi       "InChI=1S/C9H21O3PS3/c1-6-11-13(14,12-7-2)15-8-16(10)9(3,4)5/h6-8H2,1-5H3" ;
+        dbo:iupacName   "tert-butylsulfinylmethylsulfanyl-diethoxy-sulfanylidenephosphorane"@en ;
+        dbo:pubchem     "25355"^^xsd:int ;
+        dbo:smiles      "CCOP(=S)(OCC)SCS(=O)C(C)(C)C" ;
+        dbp:inchikey    "KKOYBOFPUBHPFO-UHFFFAOYSA-N" ;
+        skos:broader    csc:CHEMONTID_0004164 ;
+        skos:inScheme   vlcs:chemische_stof ;
+        skos:notation   "terbfSO" ;
+        skos:prefLabel  "terbufos-sulfoxide"@nl .
+
 csc:POOSGDOYLQNASK-UHFFFAOYSA-N
         rdf:type        dbo:ChemicalCompound , skos:Concept , dbo:ChemicalSubstance ;
         rdfs:seeAlso    compound:12592 ;
@@ -53217,20 +53580,20 @@ csc:POOSGDOYLQNASK-UHFFFAOYSA-N
         skos:notation   "C24a" ;
         skos:prefLabel  "tetracosaan"@nl .
 
-csc:KKOYBOFPUBHPFO-UHFFFAOYSA-N
-        rdf:type        dbo:ChemicalSubstance , skos:Concept , dbo:ChemicalCompound ;
-        rdfs:seeAlso    compound:25355 ;
-        dbo:casNumber   "10548-10-4" ;
-        dbo:formula     "C9H21O3PS3" ;
-        dbo:inchi       "InChI=1S/C9H21O3PS3/c1-6-11-13(14,12-7-2)15-8-16(10)9(3,4)5/h6-8H2,1-5H3" ;
-        dbo:iupacName   "tert-butylsulfinylmethylsulfanyl-diethoxy-sulfanylidenephosphorane"@en ;
-        dbo:pubchem     "25355"^^xsd:int ;
-        dbo:smiles      "CCOP(=S)(OCC)SCS(=O)C(C)(C)C" ;
-        dbp:inchikey    "KKOYBOFPUBHPFO-UHFFFAOYSA-N" ;
-        skos:broader    csc:CHEMONTID_0004164 ;
+csc:GCSHTDCBGCURHU-UHFFFAOYSA-N
+        rdf:type        skos:Concept , dbo:ChemicalCompound , dbo:ChemicalSubstance ;
+        rdfs:seeAlso    compound:138394354 ;
+        dbo:casNumber   "39492-88-1" ;
+        dbo:formula     "C4HF7O4" ;
+        dbo:inchi       "InChI=1S/C4HF7O4/c5-2(6,1(12)13)14-4(10,11)15-3(7,8)9/h(H,12,13)" ;
+        dbo:iupacName   "2-[difluoro(trifluoromethoxy)methoxy]-2,2-difluoroacetic acid"@en ;
+        dbo:pubchem     "138394354"^^xsd:int ;
+        dbo:smiles      "C(=O)(C(OC(OC(F)(F)F)(F)F)(F)F)O" ;
+        dbp:inchikey    "GCSHTDCBGCURHU-UHFFFAOYSA-N" ;
+        skos:broader    csc:CHEMONTID_0003000 ;
         skos:inScheme   vlcs:chemische_stof ;
-        skos:notation   "terbfSO" ;
-        skos:prefLabel  "terbufos-sulfoxide"@nl .
+        skos:notation   "PFO2HxA" ;
+        skos:prefLabel  "perfluor-3,5-dioxahexaanzuur "@nl .
 
 csc:JEEQUUSFXYRPRK-UHFFFAOYSA-N
         rdf:type        dbo:ChemicalCompound , skos:Concept , dbo:ChemicalSubstance ;
@@ -54286,7 +54649,7 @@ csc:XGYLSRFSXKAYCR-UHFFFAOYSA-N
         dbo:pubchem         "12007"^^xsd:int ;
         dbo:smiles          "CC1=CC(=C(C=C1)N)Cl" ;
         dbp:inchikey        "XGYLSRFSXKAYCR-UHFFFAOYSA-N" ;
-        skos:altLabel       "2-chloor-para-toluïdine"@nl ;
+        skos:altLabel       "2-chloor-para-tolu\uFFFDdine"@nl ;
         skos:broader        csc:CHEMONTID_0003964 ;
         skos:exactMatch     wise:CAS_615-65-6 ;
         skos:inScheme       vlcs:chemische_stof ;

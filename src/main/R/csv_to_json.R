@@ -6,6 +6,9 @@ library(stringr)
 
 #setwd('/home/gehau/git/codelijst-chemische_stof/src/main/R')
 
+library(svDialogs)
+
+
 # functie om dataframe om te zetten naar jsonld
 to_jsonld <- function(dataframe) {
   # lees context
