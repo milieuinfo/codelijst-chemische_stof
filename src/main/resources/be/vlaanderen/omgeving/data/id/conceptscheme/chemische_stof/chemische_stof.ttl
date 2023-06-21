@@ -401,12 +401,12 @@ csc:LELOWRISYMNNSU-UHFFFAOYSA-N
         dbo:smiles          "C#N" ;
         dbp:inchikey        "LELOWRISYMNNSU-UHFFFAOYSA-N" ;
         dct:isReferencedBy  co:LUC_III_009 ;
-        skos:altLabel       "waterstofcyanide"@nl , "waterstofcyanide (hcn)"@nl ;
+        skos:altLabel       "waterstofcyanide (HCN)"@nl ;
         skos:broader        csc:CHEMONTID_0000362 ;
         skos:exactMatch     wise:CAS_74-90-8 ;
         skos:inScheme       vlcs:chemische_stof ;
         skos:notation       "HCN" ;
-        skos:prefLabel      "waterstofcyanide (HCN)"@nl ;
+        skos:prefLabel      "waterstofcyanide"@nl ;
         vcs:vmmParameterId  "1158"^^xsd:int .
 
 csc:PYZHTHZEHQHHEN-UHFFFAOYSA-N
@@ -1567,7 +1567,7 @@ csc:JWBOIMRXGHLCPP-UHFFFAOYSA-N
         dbo:pubchem         "4211"^^xsd:int ;
         dbo:smiles          "C1=CC=C(C(=C1)C(C2=CC=C(C=C2)Cl)C(Cl)Cl)Cl" ;
         dbp:inchikey        "JWBOIMRXGHLCPP-UHFFFAOYSA-N" ;
-        skos:altLabel       "o,p\uFFFD-ddd"@nl , "2,4'-dichloordifenyldichloorethaan"@nl ;
+        skos:altLabel       "2,4'-dichloordifenyldichloorethaan"@nl , "o,p’-ddd"@nl ;
         skos:broader        csc:CHEMONTID_0000369 ;
         skos:exactMatch     wise:CAS_53-19-0 ;
         skos:inScheme       vlcs:chemische_stof ;
@@ -7893,11 +7893,11 @@ csc:VNWKTOKETHGBQD-UHFFFAOYSA-N
         dbo:pubchem     "297"^^xsd:int ;
         dbo:smiles      "C" ;
         dbp:inchikey    "VNWKTOKETHGBQD-UHFFFAOYSA-N" ;
-        skos:altLabel   "methaan"@nl , "methaan (ch4)"@nl ;
+        skos:altLabel   "methaan (CH4)"@nl ;
         skos:broader    csc:CHEMONTID_0002500 ;
         skos:inScheme   vlcs:chemische_stof ;
         skos:notation   "C1a" ;
-        skos:prefLabel  "methaan (CH4)"@nl .
+        skos:prefLabel  "methaan"@nl .
 
 csc:NDJKXXJCMXVBJW-UHFFFAOYSA-N
         rdf:type        dbo:ChemicalSubstance , dbo:ChemicalCompound , skos:Concept ;
@@ -8600,13 +8600,13 @@ csc:VYZAMTAEIAYCRO-UHFFFAOYSA-N
         dbo:smiles          "[Cr]" ;
         dbp:inchikey        "VYZAMTAEIAYCRO-UHFFFAOYSA-N" ;
         dct:isReferencedBy  co:LUC_I_002 , co:LUC_III_010 ;
-        skos:altLabel       "chroom"@nl , "chroom (cr)"@nl , "chroom, opgelost"@nl ;
+        skos:altLabel       "chroom (Cr)"@nl , "chroom, opgelost"@nl ;
         skos:broader        csc:CHEMONTID_0000426 ;
         skos:definition     "chroom en chroomverbindingen, uitgedrukt als chroom (Cr)"@nl ;
         skos:exactMatch     wise:CAS_7440-47-3 ;
         skos:inScheme       vlcs:chemische_stof ;
         skos:notation       "Cr" ;
-        skos:prefLabel      "Chroom (Cr)"@nl ;
+        skos:prefLabel      "chroom"@nl ;
         vcs:vmmParameterId  "1929"^^xsd:int , "154"^^xsd:int , "155"^^xsd:int , "153"^^xsd:int .
 
 csc:DAIIXVPKQATIMF-UHFFFAOYSA-N
@@ -11446,7 +11446,7 @@ csc:HUWXDEQWWKGHRV-UHFFFAOYSA-N
         skos:exactMatch     wise:CAS_91-94-1 ;
         skos:inScheme       vlcs:chemische_stof ;
         skos:notation       "33DClbzdne" ;
-        skos:prefLabel      "3,3\uFFFD-dichloorbenzidine"@nl ;
+        skos:prefLabel      "3,3’-dichloorbenzidine"@nl ;
         vcs:vmmParameterId  "474"^^xsd:int .
 
 csc:LCXMEXLGMKFLQO-UHFFFAOYSA-N
@@ -12032,11 +12032,11 @@ csc:QAOWNCQODCNURD-UHFFFAOYSA-N
         dbo:smiles          "OS(=O)(=O)O" ;
         dbp:inchikey        "QAOWNCQODCNURD-UHFFFAOYSA-N" ;
         dct:isReferencedBy  co:LUC_III_008 ;
-        skos:altLabel       "zwavelzuur (h2so4)"@nl , "zwavelzuur"@nl ;
+        skos:altLabel       "zwavelzuur (H2SO4)"@nl ;
         skos:broader        csc:CHEMONTID_0001077 ;
         skos:inScheme       vlcs:chemische_stof ;
         skos:notation       "H2SO4" ;
-        skos:prefLabel      "zwavelzuur (H2SO4)"@nl .
+        skos:prefLabel      "zwavelzuur"@nl .
 
 csc:WRZOMWDJOLIVQP-UHFFFAOYSA-N
         rdf:type        skos:Concept , dbo:ChemicalSubstance , dbo:ChemicalCompound ;
@@ -13307,7 +13307,7 @@ csc:IAKOZHOLGAGEJT-UHFFFAOYSA-N
         dbo:pubchem         "4115"^^xsd:int ;
         dbo:smiles          "COC1=CC=C(C=C1)C(C2=CC=C(C=C2)OC)C(Cl)(Cl)Cl" ;
         dbp:inchikey        "IAKOZHOLGAGEJT-UHFFFAOYSA-N" ;
-        skos:altLabel       "p,p\uFFFD-methoxychlor"@nl ;
+        skos:altLabel       "p,p’-methoxychlor"@nl ;
         skos:broader        csc:CHEMONTID_0000369 ;
         skos:exactMatch     wise:CAS_72-43-5 ;
         skos:inScheme       vlcs:chemische_stof ;
@@ -16018,11 +16018,11 @@ csc:ZWPVHELAQPIZHO-UHFFFAOYSA-N
         dbo:pubchem     "38876"^^xsd:int ;
         dbo:smiles      "C1=CC(=C(C=C1Cl)Cl)C2=C(C=CC(=C2)Cl)Cl" ;
         dbp:inchikey    "ZWPVHELAQPIZHO-UHFFFAOYSA-N" ;
-        skos:altLabel   "2,2',4,5'-tetrachloorbifenyl"@nl ;
+        skos:altLabel   "2,2',4,5'-tetrachloorbifenyl (pcb49)"@nl ;
         skos:broader    csc:CHEMONTID_0003030 ;
         skos:inScheme   vlcs:chemische_stof ;
         skos:notation   "PCB49" ;
-        skos:prefLabel  "2,2',4,5'-tetrachloorbifenyl (pcb49)"@nl .
+        skos:prefLabel  "2,2',4,5'-tetrachloorbifenyl"@nl .
 
 csc:XWTYSIMOBUGWOL-UHFFFAOYSA-N
         rdf:type        dbo:ChemicalCompound , skos:Concept , dbo:ChemicalSubstance ;
@@ -17191,10 +17191,10 @@ csc:JCXJVPUVTGWSNB-UHFFFAOYSA-N
         dbo:smiles          "N(=O)[O]" ;
         dbp:inchikey        "JCXJVPUVTGWSNB-UHFFFAOYSA-N" ;
         dct:isReferencedBy  co:LUC_II_001 ;
-        skos:altLabel       "stikstofdioxide (no2)"@nl ;
+        skos:altLabel       "stikstofdioxide (NO2)"@nl ;
         skos:broader        csc:CHEMONTID_0000554 ;
         skos:inScheme       vlcs:chemische_stof ;
-        skos:prefLabel      "stikstofdioxide (NO2)"@nl .
+        skos:prefLabel      "stikstofdioxide"@nl .
 
 csc:XOJVVFBFDXDTEG-UHFFFAOYSA-N
         rdf:type        dbo:ChemicalCompound , skos:Concept , dbo:ChemicalSubstance ;
@@ -19015,10 +19015,11 @@ csc:VJHCJDRQFCCTHL-UHFFFAOYSA-N
         dbo:pubchem     "24748"^^xsd:int ;
         dbo:smiles      "CC(=O)O.C(C(C(C(C(C=O)O)O)O)O)O" ;
         dbp:inchikey    "VJHCJDRQFCCTHL-UHFFFAOYSA-N" ;
+        skos:altLabel   "carboxymethylcellulose (CMC)"@nl ;
         skos:broader    csc:CHEMONTID_0001498 ;
         skos:inScheme   vlcs:chemische_stof ;
         skos:notation   "CMC" ;
-        skos:prefLabel  "carboxymethylcellulose (CMC)"@nl .
+        skos:prefLabel  "carboxymethylcellulose"@nl .
 
 csc:LZDKZFUFMNSQCJ-UHFFFAOYSA-N
         rdf:type        dbo:ChemicalCompound , dbo:ChemicalSubstance , skos:Concept ;
@@ -20246,11 +20247,11 @@ csc:MGFYIUFZLHCRTH-UHFFFAOYSA-N
         dbo:pubchem     "8758"^^xsd:int ;
         dbo:smiles      "C(C(=O)O)N(CC(=O)O)CC(=O)O" ;
         dbp:inchikey    "MGFYIUFZLHCRTH-UHFFFAOYSA-N" ;
-        skos:altLabel   "nitrilotriazijnzuur (nta)"@nl ;
+        skos:altLabel   "nitrilotriazijnzuur (NTA)"@nl ;
         skos:broader    csc:CHEMONTID_0002404 ;
         skos:inScheme   vlcs:chemische_stof ;
         skos:notation   "NTA" ;
-        skos:prefLabel  "nitrilotriazijnzuur (NTA)"@nl .
+        skos:prefLabel  "nitrilotriazijnzuur"@nl .
 
 csc:DPSPPJIUMHPXMA-UHFFFAOYSA-N
         rdf:type        dbo:ChemicalSubstance , dbo:ChemicalCompound , skos:Concept ;
@@ -22172,7 +22173,7 @@ csc:RNVCVTLRINQCPJ-UHFFFAOYSA-N
         dbo:pubchem     "7242"^^xsd:int ;
         dbo:smiles      "CC1=CC=CC=C1N" ;
         dbp:inchikey    "RNVCVTLRINQCPJ-UHFFFAOYSA-N" ;
-        skos:altLabel   "o-tolu\uFFFDdine"@nl , "o-tolu\uFFFDdine "@nl ;
+        skos:altLabel   "o-toluïdine"@nl ;
         skos:broader    csc:CHEMONTID_0003964 ;
         skos:inScheme   vlcs:chemische_stof ;
         skos:notation   "2C1yAn" ;
@@ -24588,7 +24589,7 @@ csc:YVPYQUNUQOZFHG-UHFFFAOYSA-N
         skos:broader    csc:CHEMONTID_0003097 ;
         skos:inScheme   vlcs:chemische_stof ;
         skos:notation   "amdTzinzr" ;
-        skos:prefLabel  "amidotrizo\uFFFDnezuur"@nl .
+        skos:prefLabel  "amidotrizoïnezuur"@nl .
 
 csc:DWZSTEUTHNUVQD-UHFFFAOYSA-N
         rdf:type        skos:Concept , dbo:ChemicalSubstance , dbo:ChemicalCompound ;
@@ -25810,7 +25811,7 @@ csc:PIEXCQIOSMOEOU-UHFFFAOYSA-N
         skos:broader    csc:CHEMONTID_0002273 ;
         skos:inScheme   vlcs:chemische_stof ;
         skos:notation   "BCDMH" ;
-        skos:prefLabel  "1-broom-3-chloor-5,5-dimethylhidanto\uFFFDne"@nl .
+        skos:prefLabel  "1-broom-3-chloor-5,5-dimethylhidantoïne"@nl .
 
 csc:RTCOGUMHFFWOJV-UHFFFAOYSA-N
         rdf:type        dbo:ChemicalSubstance , dbo:ChemicalCompound , skos:Concept ;
@@ -26856,7 +26857,7 @@ csc:HKOIXWVRNLGFOR-YANNOFPNSA-N
         skos:broader    csc:CHEMONTID_0000058 ;
         skos:inScheme   vlcs:chemische_stof ;
         skos:notation   "norcdine" ;
-        skos:prefLabel  "norcode\uFFFDne"@nl .
+        skos:prefLabel  "norcodeine"@nl .
 
 csc:FFCCBBNQPIMUJI-UHFFFAOYSA-N
         rdf:type        dbo:ChemicalCompound , dbo:ChemicalSubstance , skos:Concept ;
@@ -27902,13 +27903,13 @@ csc:PWHULOQIROXLJO-UHFFFAOYSA-N
         dbo:smiles          "[Mn]" ;
         dbp:inchikey        "PWHULOQIROXLJO-UHFFFAOYSA-N" ;
         dct:isReferencedBy  co:LUC_I_002 , co:LUC_III_010 ;
-        skos:altLabel       "mangaan, opgelost"@nl , "Mangaan (Mn)"@nl , "mangaan"@nl ;
+        skos:altLabel       "Mangaan (Mn)"@nl , "mangaan"@nl ;
         skos:broader        csc:CHEMONTID_0000426 ;
         skos:definition     "mangaan en mangaanverbindingen, uitgedrukt als mangaan (Mn)"@nl ;
         skos:exactMatch     wise:CAS_7439-96-5 ;
         skos:inScheme       vlcs:chemische_stof ;
         skos:notation       "Mn" ;
-        skos:prefLabel      "mangaan (mn)"@nl ;
+        skos:prefLabel      "mangaan"@nl ;
         vcs:vmmParameterId  "172"^^xsd:int , "1947"^^xsd:int , "174"^^xsd:int , "173"^^xsd:int .
 
 csc:ZRDUSMYWDRPZRM-UHFFFAOYSA-N
@@ -28101,10 +28102,10 @@ csc:BHIWKHZACMWKOJ-UHFFFAOYSA-N
         skos:prefLabel  "methyl 2-methylpropanoaat"@nl .
 
 csc:QSHDDOUJBYECFT-UHFFFAOYSA-N
-        rdf:type            dbo:ChemicalSubstance , dbo:ChemicalCompound , skos:Concept ;
-        rdfs:comment        "VLAR II (D5) 'kwik en zijn verbindingen' en 'kwik en kwikverbindingen, uitgedrukt als kwik(Hg)' en 'kwik en zijn verbindingen (uitgedrukt in Hg)'"@nl , "VLAR III (D3 art. 3.12.3.1.6) 'kwik'"@nl , "VLAR III (D3) 'kwik en kwikverbindingen, uitgedrukt als kwik (Hg)'"@nl , "VLAR II bijl. 2.5.8.4 'totaal gasvormig kwik'"@nl , "VLAR II (D2) 'kwik'"@nl , "VLAR III (D3, diverse art) 'Hg'"@nl , "VLAR III (D3) 'kwik en zijn verbindingen, uitgedrukt als kwik (Hg)'"@nl , "VLAR II bijl. 4.4.2 'Kwik en zijn verbindingen, uitgedrukt in Hg'"@nl ;
+        rdf:type            dbo:ChemicalCompound , dbo:ChemicalSubstance , skos:Concept ;
+        rdfs:comment        "VLAR II (D5) 'kwik en zijn verbindingen' en 'kwik en kwikverbindingen, uitgedrukt als kwik(Hg)' en 'kwik en zijn verbindingen (uitgedrukt in Hg)'"@nl , "VLAR II bijl. 2.5.8.4 'totaal gasvormig kwik'"@nl , "VLAR III (D3) 'kwik en zijn verbindingen, uitgedrukt als kwik (Hg)'"@nl , "VLAR III (D3 art. 3.12.3.1.6) 'kwik'"@nl , "VLAR II (D2) 'kwik'"@nl , "VLAR III (D3, diverse art) 'Hg'"@nl , "VLAR II bijl. 4.4.2 'Kwik en zijn verbindingen, uitgedrukt in Hg'"@nl , "VLAR III (D3) 'kwik en kwikverbindingen, uitgedrukt als kwik (Hg)'"@nl ;
         rdfs:seeAlso        compound:23931 ;
-        dbo:casNumber       "8030-64-6" , "92355-34-5" , "123720-03-6" , "92786-62-4" , "51887-47-9" , "7439-97-6" , "149038-91-5" ;
+        dbo:casNumber       "7439-97-6" , "92786-62-4" , "8030-64-6" , "92355-34-5" , "149038-91-5" , "51887-47-9" , "123720-03-6" ;
         dbo:formula         "Hg" ;
         dbo:inchi           "InChI=1S/Hg" ;
         dbo:iupacName       "Mercury"@en ;
@@ -28112,14 +28113,14 @@ csc:QSHDDOUJBYECFT-UHFFFAOYSA-N
         dbo:smiles          "[Hg]" ;
         dbp:inchikey        "QSHDDOUJBYECFT-UHFFFAOYSA-N" ;
         dct:isReferencedBy  co:LUC_I_002 , co:LUC_III_010 ;
-        skos:altLabel       "kwik"@nl , "kwik, opgelost"@nl , "kwik (hg)"@nl ;
+        skos:altLabel       "kwik, opgelost"@nl , "kwik (Hg)"@nl ;
         skos:broader        csc:CHEMONTID_0000426 ;
         skos:definition     "kwik en kwikverbindingen, uitgedrukt als kwik (Hg)"@nl ;
         skos:exactMatch     wise:CAS_7439-97-6 ;
         skos:inScheme       vlcs:chemische_stof ;
         skos:notation       "Hg" ;
-        skos:prefLabel      "Kwik (Hg)"@nl ;
-        vcs:vmmParameterId  "694"^^xsd:int , "166"^^xsd:int , "168"^^xsd:int , "167"^^xsd:int .
+        skos:prefLabel      "kwik"@nl ;
+        vcs:vmmParameterId  "167"^^xsd:int , "694"^^xsd:int , "166"^^xsd:int , "168"^^xsd:int .
 
 csc:WABPQHHGFIMREM-UHFFFAOYSA-N
         rdf:type            skos:Concept , dbo:ChemicalSubstance , dbo:ChemicalCompound ;
@@ -28139,7 +28140,7 @@ csc:WABPQHHGFIMREM-UHFFFAOYSA-N
         skos:exactMatch     wise:CAS_7439-92-1 ;
         skos:inScheme       vlcs:chemische_stof ;
         skos:notation       "Pb" ;
-        skos:prefLabel      "Lood (Pb)"@nl ;
+        skos:prefLabel      "lood"@nl ;
         vcs:vmmParameterId  "1956"^^xsd:int , "170"^^xsd:int , "171"^^xsd:int , "169"^^xsd:int .
 
 csc:PGCGUUGEUBFBPP-UHFFFAOYSA-N
@@ -28216,7 +28217,7 @@ csc:SPTHHTGLGVZZRH-UHFFFAOYSA-N
         dbp:inchikey    "SPTHHTGLGVZZRH-UHFFFAOYSA-N" ;
         skos:broader    csc:CHEMONTID_0004238 ;
         skos:inScheme   vlcs:chemische_stof ;
-        skos:prefLabel  "arsenobeta\uFFFDne"@nl .
+        skos:prefLabel  "arsenobetaïne"@nl .
 
 csc:AMIMRNSIRUDHCM-UHFFFAOYSA-N
         rdf:type        skos:Concept , dbo:ChemicalCompound , dbo:ChemicalSubstance ;
@@ -28245,12 +28246,12 @@ csc:QGZKDVFQNNGYKY-UHFFFAOYSA-N
         dbo:smiles          "N" ;
         dbp:inchikey        "QGZKDVFQNNGYKY-UHFFFAOYSA-N" ;
         dct:isReferencedBy  co:LUC_III_003 ;
-        skos:altLabel       "ammoniak"@nl , "ammoniak (nh3)"@nl ;
+        skos:altLabel       "ammoniak (NH3)"@nl ;
         skos:broader        csc:CHEMONTID_0000434 ;
         skos:exactMatch     wise:CAS_7664-41-7 ;
         skos:inScheme       vlcs:chemische_stof ;
         skos:notation       "NH3" ;
-        skos:prefLabel      "ammoniak (NH3)"@nl ;
+        skos:prefLabel      "ammoniak"@nl ;
         vcs:vmmParameterId  "19"^^xsd:int .
 
 csc:JRUGFHHEKLYFPC-UHFFFAOYSA-N
@@ -29318,11 +29319,11 @@ csc:CURLTUGMZLYLDI-UHFFFAOYSA-N
         dbo:smiles          "C(=O)=O" ;
         dbp:inchikey        "CURLTUGMZLYLDI-UHFFFAOYSA-N" ;
         dct:isReferencedBy  co:LUC_II_001 ;
-        skos:altLabel       "kooldioxide"@nl , "koolstofdioxide (co2)"@nl ;
+        skos:altLabel       "koolstofdioxide (CO2)"@nl ;
         skos:broader        csc:CHEMONTID_0000554 ;
         skos:inScheme       vlcs:chemische_stof ;
         skos:notation       "CO2" ;
-        skos:prefLabel      "koolstofdioxide (CO2)"@nl .
+        skos:prefLabel      "koolstofdioxide"@nl .
 
 csc:NDSBDLSWTGLNQA-UHFFFAOYSA-N
         rdf:type            skos:Concept , dbo:ChemicalCompound , dbo:ChemicalSubstance ;
@@ -30258,7 +30259,8 @@ csc:AKEJUJNQAAGONA-UHFFFAOYSA-N
         dct:isReferencedBy  co:LUC_III_008 ;
         skos:broader        csc:CHEMONTID_0000554 ;
         skos:inScheme       vlcs:chemische_stof ;
-        skos:prefLabel      "zwaveltrioxide (SO3)"@nl .
+        skos:notation       "SO3" ;
+        skos:prefLabel      "zwaveltrioxide"@nl .
 
 csc:JJDFVIDVSCYKDS-UHFFFAOYSA-N
         rdf:type        skos:Concept , dbo:ChemicalSubstance , dbo:ChemicalCompound ;
@@ -30626,7 +30628,7 @@ csc:UOAMTSKGCBMZTC-UHFFFAOYSA-N
         dbo:pubchem         "8268"^^xsd:int ;
         dbo:smiles          "C1=CC(=CC=C1C(C2=CC=C(C=C2)Cl)(C(Cl)(Cl)Cl)O)Cl" ;
         dbp:inchikey        "UOAMTSKGCBMZTC-UHFFFAOYSA-N" ;
-        skos:altLabel       "p,p\uFFFD-dicofol"@nl ;
+        skos:altLabel       "p,p’-dicofol"@nl ;
         skos:broader        csc:CHEMONTID_0000369 ;
         skos:exactMatch     wise:CAS_115-32-2 ;
         skos:inScheme       vlcs:chemische_stof ;
@@ -31017,12 +31019,12 @@ csc:NLZUEZXRPGMBCV-UHFFFAOYSA-N
         dbo:pubchem         "31404"^^xsd:int ;
         dbo:smiles          "CC1=CC(=C(C(=C1)C(C)(C)C)O)C(C)(C)C" ;
         dbp:inchikey        "NLZUEZXRPGMBCV-UHFFFAOYSA-N" ;
-        skos:altLabel       "butylhydroxytolueen (bht)"@nl , "butylhydroxytolueen"@nl ;
+        skos:altLabel       "butylhydroxytolueen (BHT)"@nl ;
         skos:broader        csc:CHEMONTID_0002811 ;
         skos:exactMatch     wise:CAS_128-37-0 ;
         skos:inScheme       vlcs:chemische_stof ;
         skos:notation       "BHT" ;
-        skos:prefLabel      "butylhydroxytolueen (BHT)"@nl ;
+        skos:prefLabel      "butylhydroxytolueen"@nl ;
         vcs:vmmParameterId  "1511"^^xsd:int .
 
 csc:WPALTCMYPARVNV-UHFFFAOYSA-N
@@ -32550,7 +32552,7 @@ csc:LHTCFGRXHNJRBP-UHFFFAOYSA-N
         skos:broader    csc:CHEMONTID_0001167 ;
         skos:inScheme   vlcs:chemische_stof ;
         skos:notation   "geetxldiC10y" ;
-        skos:prefLabel  "ge\uFFFDthoxyleerde isodecylalcohol"@nl .
+        skos:prefLabel  "geëthoxyleerde isodecylalcohol"@nl .
 
 csc:VVAQOYUUECXZAZ-UHFFFAOYSA-N
         rdf:type        skos:Concept , dbo:ChemicalCompound , dbo:ChemicalSubstance ;
@@ -33352,11 +33354,11 @@ csc:ZWEHNKRNPOVVGH-UHFFFAOYSA-N
         dbo:smiles          "CCC(=O)C" ;
         dbp:inchikey        "ZWEHNKRNPOVVGH-UHFFFAOYSA-N" ;
         dct:isReferencedBy  co:LUC_IV_000 , co:LUC_IV_012 , co:LUC_IV_007 ;
-        skos:altLabel       "2-butanon"@nl , "2-butanon (mek)"@nl ;
+        skos:altLabel       "2-butanon (MEK)"@nl ;
         skos:broader        csc:CHEMONTID_0000118 ;
         skos:inScheme       vlcs:chemische_stof ;
         skos:notation       "2C4on" ;
-        skos:prefLabel      "2-butanon (MEK)"@nl .
+        skos:prefLabel      "2-butanon"@nl .
 
 csc:VLLVVZDKBSYMCG-UHFFFAOYSA-N
         rdf:type        dbo:ChemicalSubstance , dbo:ChemicalCompound , skos:Concept ;
@@ -33980,7 +33982,7 @@ csc:RIPPXFWUYXTRNJ-BHARVXRSSA-N
         skos:broader    csc:CHEMONTID_0001350 ;
         skos:inScheme   vlcs:chemische_stof ;
         skos:notation   "norccine" ;
-        skos:prefLabel  "norcoca\uFFFDne"@nl .
+        skos:prefLabel  "norcocaine"@nl .
 
 csc:KENZYIHFBRWMOD-UHFFFAOYSA-N
         rdf:type        skos:Concept , dbo:ChemicalSubstance , dbo:ChemicalCompound ;
@@ -34472,7 +34474,7 @@ csc:IBOFVQJTBBUKMU-UHFFFAOYSA-N
         skos:broader    csc:CHEMONTID_0000369 ;
         skos:inScheme   vlcs:chemische_stof ;
         skos:notation   "44C1yeb2ClAn" ;
-        skos:prefLabel  "4,4\uFFFD-methylenebis(2-chlooraniline)"@nl .
+        skos:prefLabel  "4,4’-methylenebis(2-chlooraniline)"@nl .
 
 csc:ZEKANFGSDXODPD-UHFFFAOYSA-N
         rdf:type        dbo:ChemicalCompound , dbo:ChemicalSubstance , skos:Concept ;
@@ -34670,7 +34672,7 @@ csc:VZCYOOQTPOCHFL-OWOJBTEDSA-N
         skos:broader    csc:CHEMONTID_0000346 ;
         skos:inScheme   vlcs:chemische_stof ;
         skos:notation   "malinzr" ;
-        skos:prefLabel  "male\uFFFDnezuur"@nl .
+        skos:prefLabel  "maleïnezuur"@nl .
 
 csc:WQYWHGOKYSMVFW-ZOKDRQBOSA-N
         rdf:type        dbo:ChemicalCompound , dbo:ChemicalSubstance , skos:Concept ;
@@ -35363,7 +35365,7 @@ csc:UCNVFOCBFJOQAL-UHFFFAOYSA-N
         dbo:pubchem         "3035"^^xsd:int ;
         dbo:smiles          "C1=CC(=CC=C1C(=C(Cl)Cl)C2=CC=C(C=C2)Cl)Cl" ;
         dbp:inchikey        "UCNVFOCBFJOQAL-UHFFFAOYSA-N" ;
-        skos:altLabel       "4,4'-dichloordifenyldichlooretheen"@nl , "p,p\uFFFD-dde"@nl ;
+        skos:altLabel       "4,4'-dichloordifenyldichlooretheen"@nl , "p,p’-dde"@nl ;
         skos:broader        csc:CHEMONTID_0000369 ;
         skos:exactMatch     wise:CAS_72-55-9 ;
         skos:inScheme       vlcs:chemische_stof ;
@@ -36750,24 +36752,24 @@ csc:HFZWRUODUSTPEG-UHFFFAOYSA-N
 
 csc:RQNWIZPPADIBDY-UHFFFAOYSA-N
         rdf:type            skos:Concept , dbo:ChemicalSubstance , dbo:ChemicalCompound ;
-        rdfs:comment        "VLAR III (D3) 'Arseen en de verbindingen daarvan, uitgedrukt als arseen (As)'"@nl , "VLAR (D2) 'arseen'"@nl , "VLAR II bijl. 4.4.2 'arseen en zijn verbindingen, uitgedrukt in As'"@nl , "VLAR II (D5) 'arseen en arseenverbindingen, uitgedrukt als arseen (As)'"@nl , "VLAR III (D3) 'AsH3'"@nl , "VLAREM II bijlage 4.4.2"@nl , "VLAR III (D3, diverse art) 'As'"@nl , "VLAR bijl. II 2.5.8 'arseen'"@nl ;
+        rdfs:comment        "VLAR II (D5) 'arseen en arseenverbindingen, uitgedrukt als arseen (As)'"@nl , "VLAR (D2) 'arseen'"@nl , "VLAR III (D3, diverse art) 'As'"@nl , "VLAR III (D3) 'AsH3'"@nl , "VLAR II bijl. 4.4.2 'arseen en zijn verbindingen, uitgedrukt in As'"@nl , "VLAR bijl. II 2.5.8 'arseen'"@nl , "VLAREM II bijlage 4.4.2"@nl , "VLAR III (D3) 'Arseen en de verbindingen daarvan, uitgedrukt als arseen (As)'"@nl ;
         rdfs:seeAlso        compound:5359596 ;
-        dbo:casNumber       "55624-62-9" , "7440-38-2" , "7784-42-1" , "39277-51-5" ;
+        dbo:casNumber       "7784-42-1" , "39277-51-5" , "7440-38-2" , "55624-62-9" ;
         dbo:formula         "As" ;
         dbo:inchi           "InChI=1S/As" ;
         dbo:iupacName       "Arsenic"@en ;
         dbo:pubchem         "5359596"^^xsd:int ;
         dbo:smiles          "[As]" ;
         dbp:inchikey        "RQNWIZPPADIBDY-UHFFFAOYSA-N" ;
-        dct:isReferencedBy  co:LUC_III_010 , co:LUC_I_002 ;
-        skos:altLabel       "arseenwaterstof (ash3)"@nl , "arseenwaterstof (AsH3)"@nl , "arseen (as)"@nl , "arseen"@nl , "arseen, opgelost"@nl ;
+        dct:isReferencedBy  co:LUC_I_002 , co:LUC_III_010 ;
+        skos:altLabel       "arseen, opgelost"@nl , "arseen"@nl , "arseen (As)"@nl ;
         skos:broader        csc:CHEMONTID_0000431 ;
         skos:definition     "arseen en arseenverbindingen, uitgedrukt als arseen (As)"@nl ;
         skos:exactMatch     wise:CAS_7440-38-2 ;
         skos:inScheme       vlcs:chemische_stof ;
         skos:notation       "As" ;
-        skos:prefLabel      "Arseen (As)"@nl ;
-        vcs:vmmParameterId  "136"^^xsd:int , "1919"^^xsd:int , "135"^^xsd:int , "1987"^^xsd:int , "137"^^xsd:int .
+        skos:prefLabel      "arseen"@nl ;
+        vcs:vmmParameterId  "1987"^^xsd:int , "1919"^^xsd:int , "137"^^xsd:int , "136"^^xsd:int , "135"^^xsd:int .
 
 csc:CHHCCYVOJBBCIY-UHFFFAOYSA-N
         rdf:type        skos:Concept , dbo:ChemicalCompound , dbo:ChemicalSubstance ;
@@ -37960,7 +37962,7 @@ csc:AHJKRLASYNVKDZ-UHFFFAOYSA-N
         skos:exactMatch     wise:CAS_72-54-8 ;
         skos:inScheme       vlcs:chemische_stof ;
         skos:notation       "44DDD" ;
-        skos:prefLabel      "p,p\uFFFD-ddd"@nl ;
+        skos:prefLabel      "p,p’-ddd"@nl ;
         vcs:vmmParameterId  "261"^^xsd:int .
 
 csc:SGZRQMALQBXAIQ-UHFFFAOYSA-N
@@ -38645,7 +38647,7 @@ csc:OIRFJRBSRORBCM-UHFFFAOYSA-N
         skos:broader    csc:CHEMONTID_0002551 ;
         skos:inScheme   vlcs:chemische_stof ;
         skos:notation   "jopninzr" ;
-        skos:prefLabel  "jopano\uFFFDnezuur"@nl .
+        skos:prefLabel  "jopanoïnezuur"@nl .
 
 csc:VACCAVUAMIDAGB-UHFFFAOYSA-N
         rdf:type        dbo:ChemicalCompound , dbo:ChemicalSubstance , skos:Concept ;
@@ -39422,7 +39424,7 @@ csc:XKXPBJBODVHDAW-UHFFFAOYSA-N
         dbo:pubchem     "66538"^^xsd:int ;
         dbo:smiles      "C1=CC(=C(C=C1N)Cl)C2=C(C=C(C=C2)N)Cl" ;
         dbp:inchikey    "XKXPBJBODVHDAW-UHFFFAOYSA-N" ;
-        skos:altLabel   "2,2\uFFFD-dichloorbenzidine"@nl ;
+        skos:altLabel   "2,2’-dichloorbenzidine"@nl ;
         skos:broader    csc:CHEMONTID_0003955 ;
         skos:inScheme   vlcs:chemische_stof ;
         skos:notation   "22DClbzdne" ;
@@ -40098,7 +40100,7 @@ csc:CVUGPAFCQJIYDT-UHFFFAOYSA-N
         skos:exactMatch     wise:CAS_789-02-6 ;
         skos:inScheme       vlcs:chemische_stof ;
         skos:notation       "24DDT" ;
-        skos:prefLabel      "o,p\uFFFD-ddt"@nl ;
+        skos:prefLabel      "o,p’-ddt"@nl ;
         vcs:vmmParameterId  "257"^^xsd:int .
 
 csc:GPAPPPVRLPGFEQ-UHFFFAOYSA-N
@@ -41469,7 +41471,7 @@ csc:WUOBERCRSABHOT-UHFFFAOYSA-N
         skos:exactMatch     wise:CAS_7440-36-0 ;
         skos:inScheme       vlcs:chemische_stof ;
         skos:notation       "Sb" ;
-        skos:prefLabel      "antimoon (sb)"@nl ;
+        skos:prefLabel      "antimoon"@nl ;
         vcs:vmmParameterId  "132"^^xsd:int , "1964"^^xsd:int , "133"^^xsd:int , "134"^^xsd:int .
 
 csc:UDPGUMQDCGORJQ-UHFFFAOYSA-N
@@ -43885,7 +43887,7 @@ csc:YVGGHNCTFXOJCH-UHFFFAOYSA-N
         dbo:pubchem         "3036"^^xsd:int ;
         dbo:smiles          "C1=CC(=CC=C1C(C2=CC=C(C=C2)Cl)C(Cl)(Cl)Cl)Cl" ;
         dbp:inchikey        "YVGGHNCTFXOJCH-UHFFFAOYSA-N" ;
-        skos:altLabel       "p,p'-ddt"@nl , "p,p\uFFFD-ddt"@nl , "4,4'-dichloordifenyltrichloorethaan"@nl ;
+        skos:altLabel       "p,p’-ddt"@nl , "p,p'-ddt"@nl , "4,4'-dichloordifenyltrichloorethaan"@nl ;
         skos:broader        csc:CHEMONTID_0000369 ;
         skos:exactMatch     wise:CAS_50-29-3 ;
         skos:inScheme       vlcs:chemische_stof ;
@@ -43949,13 +43951,13 @@ csc:GUTLYIVDDKVIGB-UHFFFAOYSA-N
         dbo:smiles          "[Co]" ;
         dbp:inchikey        "GUTLYIVDDKVIGB-UHFFFAOYSA-N" ;
         dct:isReferencedBy  co:LUC_III_010 , co:LUC_I_002 ;
-        skos:altLabel       "kobalt (co)"@nl , "kobalt"@nl ;
+        skos:altLabel       "kobalt"@nl , "kobalt (Co)"@nl ;
         skos:broader        csc:CHEMONTID_0000426 ;
         skos:definition     "kobalt en kobaltverbindingen, uitgedrukt als kobalt (Co)"@nl ;
         skos:exactMatch     wise:CAS_7440-48-4 ;
         skos:inScheme       vlcs:chemische_stof ;
         skos:notation       "Co" ;
-        skos:prefLabel      "Kobalt (Co)"@nl ;
+        skos:prefLabel      "Kobalt"@nl ;
         vcs:vmmParameterId  "161"^^xsd:int , "162"^^xsd:int , "1928"^^xsd:int , "160"^^xsd:int .
 
 csc:SAPGTCDSBGMXCD-UHFFFAOYSA-N
@@ -44644,8 +44646,8 @@ csc:UGFAIRIUMAVXCW-UHFFFAOYSA-N
         skos:altLabel       "koolstofmonoxide (CO)"@nl , "koolmonoxide"@nl ;
         skos:broader        csc:CHEMONTID_0000434 ;
         skos:inScheme       vlcs:chemische_stof ;
-        skos:notation       "CMO" ;
-        skos:prefLabel      "koolstofmonoxide (co)"@nl .
+        skos:notation       "CO" ;
+        skos:prefLabel      "koolstofmonoxide"@nl .
 
 csc:BTZVKSVLFLRBRE-UHFFFAOYSA-N
         rdf:type        dbo:ChemicalCompound , dbo:ChemicalSubstance , skos:Concept ;
@@ -44948,7 +44950,7 @@ csc:WLZRMCYVCSSEQC-UHFFFAOYSA-N
         skos:exactMatch     wise:CAS_7440-43-9 ;
         skos:inScheme       vlcs:chemische_stof ;
         skos:notation       "Cd" ;
-        skos:prefLabel      "cadmium (cd)"@nl ;
+        skos:prefLabel      "cadmium"@nl ;
         vcs:vmmParameterId  "148"^^xsd:int , "149"^^xsd:int , "147"^^xsd:int , "1926"^^xsd:int .
 
 csc:STNSYZSNIYTNMI-UHFFFAOYSA-N
@@ -44977,7 +44979,7 @@ csc:FKNQFGJONOIPTF-UHFFFAOYSA-N
         dbo:pubchem         "923"^^xsd:int ;
         dbo:smiles          "[Na+]" ;
         dbp:inchikey        "FKNQFGJONOIPTF-UHFFFAOYSA-N" ;
-        skos:altLabel       "natrium, \uFFFD\uFFFDnwaardig"@nl ;
+        skos:altLabel       "natrium, eenwaardig"@nl ;
         skos:broader        csc:CHEMONTID_0000425 ;
         skos:exactMatch     wise:CAS_7440-23-5 ;
         skos:inScheme       vlcs:chemische_stof ;
@@ -46408,7 +46410,7 @@ csc:ZDYJWDIWLRZXDB-UHFFFAOYSA-N
         dbo:pubchem         "246598"^^xsd:int ;
         dbo:smiles          "C1=CC=C(C(=C1)C(=C(Cl)Cl)C2=CC=C(C=C2)Cl)Cl" ;
         dbp:inchikey        "ZDYJWDIWLRZXDB-UHFFFAOYSA-N" ;
-        skos:altLabel       "op'dichloordifenyldichlooretheen"@nl , "o,p\uFFFD-dde"@nl ;
+        skos:altLabel       "op'dichloordifenyldichlooretheen"@nl , "o,p’-dde"@nl ;
         skos:broader        csc:CHEMONTID_0000369 ;
         skos:exactMatch     wise:CAS_3424-82-6 ;
         skos:inScheme       vlcs:chemische_stof ;
@@ -51161,11 +51163,11 @@ csc:ZBCBWPMODOFKDW-UHFFFAOYSA-N
         dbo:pubchem     "8113"^^xsd:int ;
         dbo:smiles      "C(CO)NCCO" ;
         dbp:inchikey    "ZBCBWPMODOFKDW-UHFFFAOYSA-N" ;
-        skos:altLabel   "diethanolamine"@nl , "2,2\uFFFD-iminodiethanol "@nl ;
+        skos:altLabel   "diethanolamine"@nl ;
         skos:broader    csc:CHEMONTID_0001897 ;
         skos:inScheme   vlcs:chemische_stof ;
         skos:notation   "DC2olAe" ;
-        skos:prefLabel  "2,2\uFFFD-iminodiethanol"@nl .
+        skos:prefLabel  "2,2’-iminodiethanol"@nl .
 
 csc:JRLPEMVDPFPYPJ-UHFFFAOYSA-N
         rdf:type        dbo:ChemicalSubstance , dbo:ChemicalCompound , skos:Concept ;
@@ -53029,7 +53031,8 @@ csc:ODUCDPQEXGNKDN-UHFFFAOYSA-N
         skos:altLabel       "stikstofmonoxide (NO)"@nl ;
         skos:broader        csc:CHEMONTID_0000554 ;
         skos:inScheme       vlcs:chemische_stof ;
-        skos:prefLabel      "stikstofmonoxide (no)"@nl .
+        skos:notation       "NO" ;
+        skos:prefLabel      "stikstofmonoxide"@nl .
 
 csc:AMQJEAYHLZJPGS-UHFFFAOYSA-N
         rdf:type        dbo:ChemicalSubstance , dbo:ChemicalCompound , skos:Concept ;
@@ -54700,7 +54703,7 @@ csc:XGYLSRFSXKAYCR-UHFFFAOYSA-N
         dbo:pubchem         "12007"^^xsd:int ;
         dbo:smiles          "CC1=CC(=C(C=C1)N)Cl" ;
         dbp:inchikey        "XGYLSRFSXKAYCR-UHFFFAOYSA-N" ;
-        skos:altLabel       "2-chloor-para-tolu\uFFFDdine"@nl ;
+        skos:altLabel       "2-chloor-para-toluïdine"@nl ;
         skos:broader        csc:CHEMONTID_0003964 ;
         skos:exactMatch     wise:CAS_615-65-6 ;
         skos:inScheme       vlcs:chemische_stof ;
