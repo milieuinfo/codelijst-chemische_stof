@@ -6831,7 +6831,7 @@ csc:JMYWPEQXUQGQNF-UHFFFAOYSA-N
         dbo:casNumber   "17233-71-5" ;
         dbo:formula     "CH2S6" ;
         dbo:inchi       "InChI=1S/CH2S6/c1-2-4-6-7-5-3-1/h1H2" ;
-        dbo:iupacName   "Hexathiepane"@en ;
+        dbo:iupacName   "hexathiepane"@en ;
         dbo:pubchem     "87012"^^xsd:int ;
         dbo:smiles      "C1SSSSSS1" ;
         dbp:inchikey    "JMYWPEQXUQGQNF-UHFFFAOYSA-N" ;
@@ -11633,21 +11633,6 @@ csc:WXNZTHHGJRFXKQ-UHFFFAOYSA-N
         skos:notation    "4ClFol" ;
         skos:prefLabel   "4-chloorfenol"@nl .
 
-csc:LRUDIIUSNGCQKF-UHFFFAOYSA-N
-        rdf:type        dbo:ChemicalSubstance , skos:Concept , dbo:ChemicalCompound ;
-        rdfs:seeAlso    compound:8705 ;
-        dbo:casNumber   "136-85-6" , "49636-02-4" ;
-        dbo:formula     "C7H7N3" ;
-        dbo:inchi       "InChI=1S/C7H7N3/c1-5-2-3-6-7(4-5)9-10-8-6/h2-4H,1H3,(H,8,9,10)" ;
-        dbo:iupacName   "5-methyl-2H-benzotriazole"@en ;
-        dbo:pubchem     "8705"^^xsd:int ;
-        dbo:smiles      "CC1=CC2=NNN=C2C=C1" ;
-        dbp:inchikey    "LRUDIIUSNGCQKF-UHFFFAOYSA-N" ;
-        skos:broader    csc:CHEMONTID_0000315 ;
-        skos:inScheme   vlcs:chemische_stof ;
-        skos:notation   "5C1y1Hbztazl" ;
-        skos:prefLabel  "5-methyl-1H-benzotriazool"@nl .
-
 csc:SGTNSNPWRIOYBX-UHFFFAOYSA-N
         rdf:type        skos:Concept , dbo:ChemicalCompound , dbo:ChemicalSubstance ;
         rdfs:seeAlso    compound:2520 ;
@@ -11662,6 +11647,21 @@ csc:SGTNSNPWRIOYBX-UHFFFAOYSA-N
         skos:inScheme   vlcs:chemische_stof ;
         skos:notation   "verpml" ;
         skos:prefLabel  "verapamil"@nl .
+
+csc:LRUDIIUSNGCQKF-UHFFFAOYSA-N
+        rdf:type        dbo:ChemicalSubstance , skos:Concept , dbo:ChemicalCompound ;
+        rdfs:seeAlso    compound:8705 ;
+        dbo:casNumber   "136-85-6" , "49636-02-4" ;
+        dbo:formula     "C7H7N3" ;
+        dbo:inchi       "InChI=1S/C7H7N3/c1-5-2-3-6-7(4-5)9-10-8-6/h2-4H,1H3,(H,8,9,10)" ;
+        dbo:iupacName   "5-methyl-2H-benzotriazole"@en ;
+        dbo:pubchem     "8705"^^xsd:int ;
+        dbo:smiles      "CC1=CC2=NNN=C2C=C1" ;
+        dbp:inchikey    "LRUDIIUSNGCQKF-UHFFFAOYSA-N" ;
+        skos:broader    csc:CHEMONTID_0000315 ;
+        skos:inScheme   vlcs:chemische_stof ;
+        skos:notation   "5C1y1Hbztazl" ;
+        skos:prefLabel  "5-methyl-1H-benzotriazool"@nl .
 
 csc:LGHZJDKSVUTELU-UHFFFAOYSA-N
         rdf:type        dbo:ChemicalCompound , dbo:ChemicalSubstance , skos:Concept ;
@@ -12994,21 +12994,21 @@ csc:SXHLTVKPNQVZGL-UHFFFAOYSA-N
         skos:prefLabel  "2,3,3'-trichloorbifenyl"@nl .
 
 csc:JLYXXMFPNIAWKQ-UHFFFAOYSA-N
-        rdf:type         dbo:ChemicalCompound , skos:Concept , dbo:ChemicalSubstance ;
+        rdf:type         dbo:ChemicalSubstance , dbo:ChemicalCompound , skos:Concept ;
         rdfs:seeAlso     compound:727 ;
-        dbo:casNumber    "39284-22-5" , "319-86-8" , "58-89-9" , "20437-97-2" , "6108-10-7" , "60291-32-9" , "6108-13-0" , "319-85-7" , "6108-12-9" , "319-84-6" , "89609-19-8" , "608-73-1" , "6108-11-8" ;
+        dbo:casNumber    "60291-32-9" , "6108-11-8" , "20437-97-2" , "608-73-1" , "89609-19-8" , "6108-13-0" , "39284-22-5" , "6108-12-9" ;
         dbo:formula      "C6H6Cl6" ;
         dbo:inchi        "InChI=1S/C6H6Cl6/c7-1-2(8)4(10)6(12)5(11)3(1)9/h1-6H" ;
         dbo:iupacName    "1,2,3,4,5,6-Hexachlorocyclohexane"@en ;
         dbo:pubchem      "727"^^xsd:int ;
         dbo:smiles       "C1(C(C(C(C(C1Cl)Cl)Cl)Cl)Cl)Cl" ;
         dbp:inchikey     "JLYXXMFPNIAWKQ-UHFFFAOYSA-N" ;
-        skos:altLabel    "eta-hexachloorcyclohexaan"@nl , "alfa-hexachloorcyclohexaan"@nl , "delta-hexachloorcyclohexaan"@nl , "hexachloorcyclohexaan, alle isomeren"@nl , "beta-hexachloorcyclohexaan"@nl , "epsilon-hexachloorcyclohexaan"@nl , "som hexachloorcyclohexaan-isomeren"@nl , "beta-hexachloorcyclohexaan (beta-hch)"@nl , "delta-hexachloorcyclohexaan (delta-hch)"@nl , "gamma-hexachloorcyclohexaan (lindaan)"@nl , "lindaan"@nl , "gamma-hexachloorcyclohexaan (gamma-hch, lindaan)"@nl , "y-hexachloorcyclo-hexaan (y-hch)"@nl , "gamma-hexachloorcyclohexaan"@nl , "alfa-hexachloorcyclohexaan (alfa-hch)"@nl , "?-hexachloorcyclo-hexaan (?-hch)"@nl ;
+        skos:altLabel    "lindaan"@nl , "som hexachloorcyclohexaan-isomeren"@nl ;
         skos:broader     csc:CHEMONTID_0004485 ;
-        skos:exactMatch  wise:CAS_319-84-6 , wise:CAS_58-89-9 , wise:CAS_319-85-7 , wise:CAS_608-73-1 , wise:CAS_6108-10-7 , wise:CAS_319-86-8 ;
+        skos:exactMatch  wise:CAS_608-73-1 ;
         skos:inScheme    vlcs:chemische_stof ;
-        skos:notation    "aHCH" , "sHCH" , "dHCH" , "hHCH" , "cHCH" , "eHCH" , "bHCH" ;
-        skos:prefLabel   "hexachloorcyclohexaan"@nl .
+        skos:notation    "HCH" ;
+        skos:prefLabel   "hexachloorcyclohexaan, alle isomeren"@nl .
 
 csc:MZHCENGPTKEIGP-UHFFFAOYSA-N
         rdf:type         dbo:ChemicalCompound , skos:Concept , dbo:ChemicalSubstance ;
@@ -14794,21 +14794,6 @@ csc:SNKLPZOJLXDZCW-UHFFFAOYSA-N
         skos:notation   "411DC1yC2y2C" ;
         skos:prefLabel  "4-(1,1-dimethylethyl)-2-methyl-fenol"@nl .
 
-csc:RYMZZMVNJRMUDD-HGQWONQESA-N
-        rdf:type        dbo:ChemicalCompound , skos:Concept , dbo:ChemicalSubstance ;
-        rdfs:seeAlso    compound:54454 ;
-        dbo:casNumber   "79902-63-9" ;
-        dbo:formula     "C25H38O5" ;
-        dbo:inchi       "InChI=1S/C25H38O5/c1-6-25(4,5)24(28)30-21-12-15(2)11-17-8-7-16(3)20(23(17)21)10-9-19-13-18(26)14-22(27)29-19/h7-8,11,15-16,18-21,23,26H,6,9-10,12-14H2,1-5H3/t15-,16-,18+,19+,20-,21-,23-/m0/s1" ;
-        dbo:iupacName   "[(1S,3R,7S,8S,8aR)-8-[2-[(2R,4R)-4-hydroxy-6-oxooxan-2-yl]ethyl]-3,7-dimethyl-1,2,3,7,8,8a-hexahydronaphthalen-1-yl] 2,2-dimethylbutanoate"@en ;
-        dbo:pubchem     "54454"^^xsd:int ;
-        dbo:smiles      "CCC(C)(C)C(=O)OC1CC(C=C2C1C(C(C=C2)C)CCC3CC(CC(=O)O3)O)C" ;
-        dbp:inchikey    "RYMZZMVNJRMUDD-HGQWONQESA-N" ;
-        skos:broader    csc:CHEMONTID_0001244 ;
-        skos:inScheme   vlcs:chemische_stof ;
-        skos:notation   "simvstne" ;
-        skos:prefLabel  "simvastatine"@nl .
-
 csc:SGNBVLSWZMBQTH-UHFFFAOYSA-N
         rdf:type        dbo:ChemicalCompound , skos:Concept , dbo:ChemicalSubstance ;
         rdfs:seeAlso    compound:312822 ;
@@ -14823,6 +14808,21 @@ csc:SGNBVLSWZMBQTH-UHFFFAOYSA-N
         skos:inScheme   vlcs:chemische_stof ;
         skos:notation   "campEsrol" ;
         skos:prefLabel  "campesterol"@nl .
+
+csc:RYMZZMVNJRMUDD-HGQWONQESA-N
+        rdf:type        dbo:ChemicalCompound , skos:Concept , dbo:ChemicalSubstance ;
+        rdfs:seeAlso    compound:54454 ;
+        dbo:casNumber   "79902-63-9" ;
+        dbo:formula     "C25H38O5" ;
+        dbo:inchi       "InChI=1S/C25H38O5/c1-6-25(4,5)24(28)30-21-12-15(2)11-17-8-7-16(3)20(23(17)21)10-9-19-13-18(26)14-22(27)29-19/h7-8,11,15-16,18-21,23,26H,6,9-10,12-14H2,1-5H3/t15-,16-,18+,19+,20-,21-,23-/m0/s1" ;
+        dbo:iupacName   "[(1S,3R,7S,8S,8aR)-8-[2-[(2R,4R)-4-hydroxy-6-oxooxan-2-yl]ethyl]-3,7-dimethyl-1,2,3,7,8,8a-hexahydronaphthalen-1-yl] 2,2-dimethylbutanoate"@en ;
+        dbo:pubchem     "54454"^^xsd:int ;
+        dbo:smiles      "CCC(C)(C)C(=O)OC1CC(C=C2C1C(C(C=C2)C)CCC3CC(CC(=O)O3)O)C" ;
+        dbp:inchikey    "RYMZZMVNJRMUDD-HGQWONQESA-N" ;
+        skos:broader    csc:CHEMONTID_0001244 ;
+        skos:inScheme   vlcs:chemische_stof ;
+        skos:notation   "simvstne" ;
+        skos:prefLabel  "simvastatine"@nl .
 
 csc:ABOOPXYCKNFDNJ-UHFFFAOYSA-N
         rdf:type        dbo:ChemicalCompound , skos:Concept , dbo:ChemicalSubstance ;
@@ -19690,6 +19690,21 @@ csc:KWTSXDURSIMDCE-UHFFFAOYSA-N
         skos:notation   "amfAe" ;
         skos:prefLabel  "amfetamine"@nl .
 
+csc:ZIEWAMOXCOLNSJ-UHFFFAOYSA-N
+        rdf:type        skos:Concept , dbo:ChemicalSubstance , dbo:ChemicalCompound ;
+        rdfs:seeAlso    compound:94382 ;
+        dbo:casNumber   "27541-88-4" ;
+        dbo:formula     "C12H6Cl3NO3" ;
+        dbo:inchi       "InChI=1S/C12H6Cl3NO3/c13-7-8(16-12(19)11(14)15)10(18)6-4-2-1-3-5(6)9(7)17/h1-4,11H,(H,16,19)" ;
+        dbo:iupacName   "2,2-dichloro-N-(3-chloro-1,4-dioxonaphthalen-2-yl)acetamide"@en ;
+        dbo:pubchem     "94382"^^xsd:int ;
+        dbo:smiles      "C1=CC=C2C(=C1)C(=O)C(=C(C2=O)Cl)NC(=O)C(Cl)Cl" ;
+        dbp:inchikey    "ZIEWAMOXCOLNSJ-UHFFFAOYSA-N" ;
+        skos:broader    csc:CHEMONTID_0000153 ;
+        skos:inScheme   vlcs:chemische_stof ;
+        skos:notation   "chinnmd" ;
+        skos:prefLabel  "chinonamid"@nl .
+
 csc:LKJPSUCKSLORMF-UHFFFAOYSA-N
         rdf:type         dbo:ChemicalCompound , dbo:ChemicalSubstance , skos:Concept ;
         rdfs:seeAlso     compound:15629 ;
@@ -19706,20 +19721,21 @@ csc:LKJPSUCKSLORMF-UHFFFAOYSA-N
         skos:notation    "Mlnrn" ;
         skos:prefLabel   "monolinuron"@nl .
 
-csc:ZIEWAMOXCOLNSJ-UHFFFAOYSA-N
-        rdf:type        skos:Concept , dbo:ChemicalSubstance , dbo:ChemicalCompound ;
-        rdfs:seeAlso    compound:94382 ;
-        dbo:casNumber   "27541-88-4" ;
-        dbo:formula     "C12H6Cl3NO3" ;
-        dbo:inchi       "InChI=1S/C12H6Cl3NO3/c13-7-8(16-12(19)11(14)15)10(18)6-4-2-1-3-5(6)9(7)17/h1-4,11H,(H,16,19)" ;
-        dbo:iupacName   "2,2-dichloro-N-(3-chloro-1,4-dioxonaphthalen-2-yl)acetamide"@en ;
-        dbo:pubchem     "94382"^^xsd:int ;
-        dbo:smiles      "C1=CC=C2C(=C1)C(=O)C(=C(C2=O)Cl)NC(=O)C(Cl)Cl" ;
-        dbp:inchikey    "ZIEWAMOXCOLNSJ-UHFFFAOYSA-N" ;
-        skos:broader    csc:CHEMONTID_0000153 ;
-        skos:inScheme   vlcs:chemische_stof ;
-        skos:notation   "chinnmd" ;
-        skos:prefLabel  "chinonamid"@nl .
+csc:JLYXXMFPNIAWKQ-GPIVLXJGSA-N
+        rdf:type         dbo:ChemicalSubstance , skos:Concept , dbo:ChemicalCompound ;
+        rdfs:seeAlso     compound:727 ;
+        dbo:casNumber    "319-86-8" ;
+        dbo:formula      "C6H6Cl6" ;
+        dbo:inchi        "InChI=1S/C6H6Cl6/c7-1-2(8)4(10)6(12)5(11)3(1)9/h1-6H/t1-,2-,3-,4+,5-,6-" ;
+        dbo:iupacName    "(1r,2R,3S,4s,5R,6S)-1,2,3,4,5,6-hexachlorocyclohexane "@en ;
+        dbo:smiles       "Cl[C@H]1[C@H](Cl)[C@@H](Cl)[C@H](Cl)[C@H](Cl)[C@@H]1Cl" ;
+        dbp:inchikey     "JLYXXMFPNIAWKQ-GPIVLXJGSA-N" ;
+        skos:altLabel    "δ-lindaan"@nl , "δ-hexachlorocyclohexaan"@nl ;
+        skos:broader     csc:CHEMONTID_0004485 ;
+        skos:exactMatch  wise:CAS_319-86-8 ;
+        skos:inScheme    vlcs:chemische_stof ;
+        skos:notation    "dHCH" ;
+        skos:prefLabel   "delta-hexachloorcyclohexaan"@nl .
 
 csc:VHVPQPYKVGDNFY-ZPGVKDDISA-N
         rdf:type        dbo:ChemicalSubstance , dbo:ChemicalCompound , skos:Concept ;
@@ -21109,6 +21125,7 @@ csc:HGINCPLSRVDWNT-UHFFFAOYSA-N
         dbo:pubchem     "7847"^^xsd:int ;
         dbo:smiles      "C=CC=O" ;
         dbp:inchikey    "HGINCPLSRVDWNT-UHFFFAOYSA-N" ;
+        skos:altLabel   "acroleïne"@nl ;
         skos:broader    csc:CHEMONTID_0002436 ;
         skos:inScheme   vlcs:chemische_stof ;
         skos:notation   "acAh" ;
@@ -36909,6 +36926,7 @@ csc:VXNZUUAINFGPBY-UHFFFAOYSA-N
         dbo:pubchem     "7844"^^xsd:int ;
         dbo:smiles      "CCC=C" ;
         dbp:inchikey    "VXNZUUAINFGPBY-UHFFFAOYSA-N" ;
+        skos:altLabel   "1-buteen"@nl ;
         skos:broader    csc:CHEMONTID_0004476 ;
         skos:inScheme   vlcs:chemische_stof ;
         skos:notation   "polC4e" ;
@@ -38838,7 +38856,7 @@ csc:ADFXKUOMJKEIND-UHFFFAOYSA-N
         dbo:iupacName   "1,3-Dicyclohexylurea"@en ;
         dbo:pubchem     "4277"^^xsd:int ;
         dbo:smiles      "C1CCC(CC1)NC(=O)NC2CCCCC2" ;
-        dbp:inchikey    "ADFXKUOMJKEIND-UHFFFAOYSA-N" ;
+        dbp:inchikey    "7847" ;
         skos:broader    csc:CHEMONTID_0000517 ;
         skos:inScheme   vlcs:chemische_stof ;
         skos:notation   "13DccC6yurum" ;
@@ -42392,6 +42410,22 @@ csc:RMLPZKRPSQVRAB-UHFFFAOYSA-N
         skos:notation   "TmcsPO4" ;
         skos:prefLabel  "tri-m-cresylfosfaat"@nl .
 
+csc:JLYXXMFPNIAWKQ-SHFUYGGZSA-N
+        rdf:type         skos:Concept , dbo:ChemicalCompound , dbo:ChemicalSubstance ;
+        rdfs:seeAlso     compound:727 ;
+        dbo:casNumber    "319-84-6" ;
+        dbo:formula      "C6H6Cl6" ;
+        dbo:inchi        "InChI=1S/C6H6Cl6/c7-1-2(8)4(10)6(12)5(11)3(1)9/h1-6H/t1-,2-,3-,4-,5+,6+/m1/s1" ;
+        dbo:iupacName    "(1R,2R,3R,4R,5S,6S)-1,2,3,4,5,6-hexachlorocyclohexane"@en ;
+        dbo:smiles       "Cl[C@H]1[C@H](Cl)[C@@H](Cl)[C@H](Cl)[C@H](Cl)[C@H]1Cl" ;
+        dbp:inchikey     "JLYXXMFPNIAWKQ-SHFUYGGZSA-N" ;
+        skos:altLabel    "α-hexachlorocyclohexaan"@nl , "α-lindaan"@nl ;
+        skos:broader     csc:CHEMONTID_0004485 ;
+        skos:exactMatch  wise:CAS_319-84-6 ;
+        skos:inScheme    vlcs:chemische_stof ;
+        skos:notation    "aHCH" ;
+        skos:prefLabel   "alfa-hexachloorcyclohexaan"@nl .
+
 csc:DDUIUBPJPOKOMV-UHFFFAOYSA-N
         rdf:type        skos:Concept , dbo:ChemicalSubstance , dbo:ChemicalCompound ;
         rdfs:seeAlso    compound:13290 ;
@@ -45008,6 +45042,22 @@ csc:ULYZAYCEDJDHCC-UHFFFAOYSA-N
         skos:inScheme       vlcs:chemische_stof ;
         skos:notation       "2ClC3a" ;
         skos:prefLabel      "2-chloorpropaan"@nl .
+
+csc:JLYXXMFPNIAWKQ-DCLYFUHFNA-N
+        rdf:type         dbo:ChemicalCompound , dbo:ChemicalSubstance , skos:Concept ;
+        rdfs:seeAlso     compound:727 ;
+        dbo:casNumber    "6108-10-7" ;
+        dbo:formula      "C6H6Cl6" ;
+        dbo:inchi        "InChI=1S/C6H6Cl6/c7-1-2(8)4(10)6(12)5(11)3(1)9/h1-6H/t1-,2-,3-,4-,5-,6-" ;
+        dbo:iupacName    "(1R,2R,3R,4S,5S,6S)-1,2,3,4,5,6-hexachlorocyclohexane"@en ;
+        dbo:smiles       "Cl[C@H]1[C@H](Cl)[C@H](Cl)[C@H](Cl)[C@@H](Cl)[C@H]1Cl" ;
+        dbp:inchikey     "JLYXXMFPNIAWKQ-DCLYFUHFNA-N" ;
+        skos:altLabel    "ε-hexachlorocyclohexaan"@nl , "ε-1,2,3,4,5,6-hexachlorocyclohexaan"@nl ;
+        skos:broader     csc:CHEMONTID_0004485 ;
+        skos:exactMatch  wise:CAS_6108-10-7 ;
+        skos:inScheme    vlcs:chemische_stof ;
+        skos:notation    "eHCH" ;
+        skos:prefLabel   "epsilon-hexachloorcyclohexaan"@nl .
 
 csc:IALRSQMWHFKJJA-UHFFFAOYSA-N
         rdf:type        dbo:ChemicalSubstance , dbo:ChemicalCompound , skos:Concept ;
@@ -49105,6 +49155,22 @@ csc:CJDWRQLODFKPEL-UHFFFAOYSA-N
         skos:notation   "tefbzrn" ;
         skos:prefLabel  "teflubenzuron"@nl .
 
+csc:JLYXXMFPNIAWKQ-GNIYUCBRSA-N
+        rdf:type         skos:Concept , dbo:ChemicalSubstance , dbo:ChemicalCompound ;
+        rdfs:seeAlso     compound:727 ;
+        dbo:casNumber    "58-89-9" ;
+        dbo:formula      "C6H6Cl6" ;
+        dbo:inchi        "InChI=1S/C6H6Cl6/c7-1-2(8)4(10)6(12)5(11)3(1)9/h1-6H/t1-,2-,3-,4+,5+,6+" ;
+        dbo:iupacName    "(1r,2R,3S,4r,5R,6S)-1,2,3,4,5,6-hexachlorocyclohexane"@en ;
+        dbo:smiles       "Cl[C@H]1[C@H](Cl)[C@@H](Cl)[C@@H](Cl)[C@H](Cl)[C@H]1Cl" ;
+        dbp:inchikey     "JLYXXMFPNIAWKQ-GNIYUCBRSA-N" ;
+        skos:altLabel    "lindaan"@nl , "γ-lindaan"@nl , "γ-hexachlorocyclohexaan"@nl ;
+        skos:broader     csc:CHEMONTID_0004485 ;
+        skos:exactMatch  wise:CAS_58-89-9 ;
+        skos:inScheme    vlcs:chemische_stof ;
+        skos:notation    "gHCH" ;
+        skos:prefLabel   "gamma-hexachloorcyclohexaan"@nl .
+
 csc:MKPDWECBUAZOHP-AFYJWTTESA-N
         rdf:type        dbo:ChemicalCompound , dbo:ChemicalSubstance , skos:Concept ;
         rdfs:seeAlso    compound:5875 ;
@@ -49119,6 +49185,22 @@ csc:MKPDWECBUAZOHP-AFYJWTTESA-N
         skos:inScheme   vlcs:chemische_stof ;
         skos:notation   "parmtsn" ;
         skos:prefLabel  "paramethason"@nl .
+
+csc:JLYXXMFPNIAWKQ-CDRYSYESSA-N
+        rdf:type         skos:Concept , dbo:ChemicalCompound , dbo:ChemicalSubstance ;
+        rdfs:seeAlso     compound:727 ;
+        dbo:casNumber    "319-85-7" ;
+        dbo:formula      "C6H6Cl6" ;
+        dbo:inchi        "InChI=1S/C6H6Cl6/c7-1-2(8)4(10)6(12)5(11)3(1)9/h1-6H/t1-,2-,3+,4+,5-,6-" ;
+        dbo:iupacName    "(1r,2t,3c,4t,5c,6t)-1,2,3,4,5,6-hexachlorocyclohexane"@en ;
+        dbo:smiles       "Cl[C@H]1[C@H](Cl)[C@@H](Cl)[C@H](Cl)[C@@H](Cl)[C@@H]1Cl" ;
+        dbp:inchikey     "JLYXXMFPNIAWKQ-CDRYSYESSA-N" ;
+        skos:altLabel    "β-hexachlorocyclohexaan"@nl , "β-lindaan"@nl ;
+        skos:broader     csc:CHEMONTID_0004485 ;
+        skos:exactMatch  wise:CAS_319-85-7 ;
+        skos:inScheme    vlcs:chemische_stof ;
+        skos:notation    "bHCH" ;
+        skos:prefLabel   "beta-hexachloorcyclohexaan"@nl .
 
 csc:VPOMSPZBQMDLTM-UHFFFAOYSA-N
         rdf:type        dbo:ChemicalSubstance , skos:Concept , dbo:ChemicalCompound ;

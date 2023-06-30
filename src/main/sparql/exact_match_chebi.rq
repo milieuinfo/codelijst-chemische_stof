@@ -11,7 +11,7 @@ prefix owl: <http://www.w3.org/2002/07/owl#>
 
 construct
 {
-    ?stof skos:exactMatch ?chebi ; dct:type ?type .
+    ?stof skos:exactMatch ?chebi ; dct:type ?type ; a ?chebi .
 }
 where
 {{
