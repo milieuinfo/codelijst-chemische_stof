@@ -29,16 +29,23 @@ where
 ?s a owl:Class ;
 
 rdfs:label ?la ;
-
 .
+BIND(STRLANG(?la, "en") AS ?label)
 optional {?s rdfs:subClassOf ?broader . FILTER( ?broader != <http://purl.obolibrary.org/obo/CHEMONTID_9999999> ) }
 optional {?s <http://purl.obolibrary.org/obo/IAO_0000115> ?def . BIND(STRLANG(?def, "en") AS ?definition) }
-optional {?s <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> ?al . BIND(STRLANG(?al, "en") AS ?altLabel)}
+optional {?s <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> ?al2 .
+            BIND(STRLANG(?al2, "en") AS ?altLabel)
+            FILTER NOT EXISTS { ?s rdfs:label ?al2}
+}
 optional { ?s <http://www.geneontology.org/formats/oboInOwl#id> ?notation }
-optional {?s <http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym> ?al . BIND(STRLANG(?al, "en") AS ?altLabel)}
+optional {?s <http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym> ?al .
+            BIND(STRLANG(?al, "en") AS ?altLabel)
+            FILTER NOT EXISTS { ?s rdfs:label ?al}
+            }
 
-BIND(STRLANG(?la, "en") AS ?label)
+#BIND(STRLANG(?la, "en") AS ?label)
 
 FILTER( ?s != <http://purl.obolibrary.org/obo/CHEMONTID_9999999> )
+
 
 }
