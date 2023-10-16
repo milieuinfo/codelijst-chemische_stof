@@ -1,14 +1,16 @@
-##sparql --results=CSV --data=../resources/be/vlaanderen/omgeving/data/id/conceptscheme/chemische_stof/chemische_stof.ttl  --query rdf_to_csv.rq > ../resources/be/vlaanderen/omgeving/data/id/conceptscheme/chemische_stof/chemische_stof.csv
+##sparql --results=CSV --data=../resources/be/vlaanderen/omgeving/data/id/conceptscheme/chemische_stof/chemische_stof.ttl  --query rdf_to_csv.rq >
 
-prefix skos:  <http://www.w3.org/2004/02/skos/core#> 
+prefix skos:  <http://www.w3.org/2004/02/skos/core#>
 prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> 
 prefix dbo:   <http://dbpedia.org/ontology/> 
 prefix cs:    <https://data.vlaanderen.be/ns/chemische_stof#> 
 prefix dbp:   <http://dbpedia.org/property/> 
 
 select DISTINCT
-(group_concat(?type;separator="|") as ?types)
+
 ?uri
+?inchikey
+?inchi
 ?prefLabel 
 ?notations 
 ?altLabels
@@ -18,15 +20,14 @@ select DISTINCT
 ?isSubjectOfs
 ?collections
 ?casNumbers
-?inchi
 ?iupacName
 ?pubchem
 ?smiles
 ?formula
 ?vmmParameterIds
 ?seeAlso
-?inchikey
 ?topConceptOf
+(group_concat(?type;separator="|") as ?types)
 WHERE
 {
 select DISTINCT
@@ -99,15 +100,15 @@ select DISTINCT
 WHERE
 {
 select DISTINCT
-?type 
+?type
 ?uri
-?prefLabel 
-?notations 
+?prefLabel
+?notations
 ?altLabels
-?definition 
-?exactMatch 
-?inScheme 
-?isSubjectOf 
+?definition
+?exactMatch
+?inScheme
+?isSubjectOf
 ?collection
 ?casNumbers
 ?inchi
@@ -115,7 +116,7 @@ select DISTINCT
 ?pubchem
 ?smiles
 ?formula
-(group_concat(?vmmParameterId;separator="|") as ?vmmParameterIds) 
+(group_concat(?vmmParameterId;separator="|") as ?vmmParameterIds)
 ?seeAlso
 ?inchikey
 ?topConceptOf
@@ -188,11 +189,13 @@ select distinct
 ?topConceptOf
 where 
 {?uri
-a ?type .
+    a ?type ;
+    skos:inScheme ?inScheme .
+FILTER ( ?inScheme = <https://data.omgeving.vlaanderen.be/id/conceptscheme/chemische_stof> )
 optional {?uri skos:altLabel ?altLabel }
 optional {?uri skos:definition ?definition }
 optional {?uri skos:exactMatch ?exactMatch }
-optional {?uri skos:inScheme ?inScheme }
+#optional {?uri skos:inScheme ?inScheme }
 optional {?uri skos:isSubjectOf ?isSubjectOf }
 optional {?uri skos:notation ?notation }
 optional {?uri skos:prefLabel ?prefLabel }
