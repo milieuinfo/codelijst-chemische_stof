@@ -12,7 +12,7 @@ library(svDialogs)
 # functie om dataframe om te zetten naar jsonld
 to_jsonld <- function(dataframe) {
   # lees context
-  context <- jsonlite::read_json("../resources/be/vlaanderen/omgeving/data/id/conceptscheme/chemische_stof/context.json")
+  context <- jsonlite::read_json("../resources/source/codelijst_context.json")
   # jsonld constructie
   df_in_list <- list('@graph' = dataframe, '@context' = context)
   df_in_json <- toJSON(df_in_list, auto_unbox=TRUE)
@@ -83,7 +83,7 @@ narrower_from_broader  <- function(df) {
 }
 
 # lees csv
-df <- read.csv(file = "../resources/be/vlaanderen/omgeving/data/id/conceptscheme/chemische_stof/chemische_stof.csv", sep=",", na.strings=c("","NA"))
+df <- read.csv(file = "../resources/source/codelijst_chemische_stof_source.csv", sep=",", na.strings=c("","NA"))
 
 df <- expand_df_on_pipe(df)%>% 
   members_from_collection()%>%
@@ -106,7 +106,7 @@ system("riot --output=RDF/XML ../resources/be/vlaanderen/omgeving/data/id/concep
 #system("shacl v --shapes ../resources/be/vlaanderen/omgeving/data/id/ontology/chemische-stof-ap-constraints/chemische-stof-ap-constraints.ttl --data ../resources/be/vlaanderen/omgeving/data/id/conceptscheme/chemische_stof/chemische_stof.ttl")
 
 
-df_classification <- read.csv(file = "../resources/be/vlaanderen/omgeving/data/id/conceptscheme/chemische_stof/classification.csv", sep=",", na.strings=c("","NA"))
+df_classification <- read.csv(file = "../resources/source/codelijst_chemische_stof_classification_source.csv", sep=",", na.strings=c("","NA"))
 # verwijder kolom stof_uri en stof_uri_response
 # # distinct rows
 df_classification <-df_classification[ , -which(names(df_classification) %in% c("stof_uri", "stof_uri_response"))] %>%

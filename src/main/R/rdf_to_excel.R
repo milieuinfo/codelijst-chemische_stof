@@ -34,6 +34,7 @@ collapse_df_on_pipe <- function(df, id_col) {
 ttl_file <- tempfile(fileext = ".ttl")
 csv_file <- tempfile(fileext = ".csv")
 excel_file <- "../resources/be/vlaanderen/omgeving/data/id/conceptscheme/chemische_stof/chemische_stof.xlsx"
+target_csv_file <- "../resources/be/vlaanderen/omgeving/data/id/conceptscheme/chemische_stof/chemische_stof.csv"
 riot_cmd <- paste("riot --formatted=TURTLE ../resources/be/vlaanderen/omgeving/data/id/conceptscheme/chemische_stof/*.ttl > ", ttl_file, sep="")
 system(riot_cmd)
 sparql_cmd <- paste("sparql --results=CSV --query ../sparql/rdf_to_excel.rq --data=", ttl_file, " > ", csv_file, sep="")
@@ -43,6 +44,7 @@ df <- read.csv(file = csv_file, sep=",")
 
 df <- collapse_df_on_pipe(df, 'uri') 
 df[is.na(df)] = ""
+write.csv(df, target_csv_file,  row.names=FALSE)
 write.xlsx(df, excel_file, sheetName = 'codelijst chemische stoffen', row.names=FALSE)
 
 
