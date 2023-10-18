@@ -529,7 +529,6 @@ csc:MGNCLNQXLYJVJD-UHFFFAOYSA-N
 
 csc:RWSOTUBLDIXVET-UHFFFAOYSA-N
         rdf:type         dbo:ChemicalSubstance , dbo:ChemicalCompound , skos:Concept;
-        rdfs:comment     "VLAR II Art. 5.7.14.1"@nl , "VLAR II Art. 5.28.3.5.1 'H2S'"@nl , "VLAR III (D3, diverse art) 'H2S' en 'H2S-gehalte'"@nl , "VLAREM II bijlage 4.4.2 'zwavelwaterstof'"@nl , "VLAR III (D3) 'zwavelwaterstof'"@nl;
         rdfs:seeAlso     compound:402;
         dbo:casNumber    "12684-31-0" , "56591-09-4" , "11144-15-3" , "56645-30-8" , "8050-82-6" , "12673-82-4" , "81032-32-8" , "56449-52-6" , "63705-05-5" , "7783-06-4" , "13465-07-1" , "57035-13-9" , "12767-24-7";
         dbo:formula      "H2S";
@@ -540,6 +539,7 @@ csc:RWSOTUBLDIXVET-UHFFFAOYSA-N
         dbp:inchikey     "RWSOTUBLDIXVET-UHFFFAOYSA-N";
         skos:altLabel    "waterstofsulfide (H2S)"@nl , "octylzwavel"@nl;
         skos:broader     csc:CHEMONTID_0000555;
+        skos:comment     "VLAR II Art. 5.28.3.5.1 'H2S'"@nl , "VLAR III (D3, diverse art) 'H2S' en 'H2S-gehalte'"@nl , "VLAR III (D3) 'zwavelwaterstof'"@nl , "VLAREM II bijlage 4.4.2 'zwavelwaterstof'"@nl , "VLAR II Art. 5.7.14.1"@nl;
         skos:exactMatch  wise:CAS_7783-06-4;
         skos:inScheme    vlcs:chemische_stof;
         skos:notation    "H2S" , "S8";
@@ -1544,7 +1544,6 @@ csc:YQUQWHNMBPIWGK-UHFFFAOYSA-N
 
 csc:LCGLNKUTAGEVQW-UHFFFAOYSA-N
         rdf:type        dbo:ChemicalSubstance , dbo:ChemicalCompound , skos:Concept;
-        rdfs:comment    "VLAREM II bijlage 4.4.2"@nl;
         rdfs:seeAlso    compound:8254;
         dbo:casNumber   "115-10-6" , "157621-61-9";
         dbo:formula     "C2H6O";
@@ -1555,13 +1554,13 @@ csc:LCGLNKUTAGEVQW-UHFFFAOYSA-N
         dbp:inchikey    "LCGLNKUTAGEVQW-UHFFFAOYSA-N";
         skos:altLabel   "dimethylether"@nl;
         skos:broader    csc:CHEMONTID_0001167;
+        skos:comment    "VLAREM II bijlage 4.4.2"@nl;
         skos:inScheme   vlcs:chemische_stof;
         skos:notation   "DC1yEtr";
         skos:prefLabel  "dimethylether "@nl .
 
 csc:SBMIVUVRFPGOEB-UHFFFAOYSA-N
         rdf:type         skos:Concept , dbo:ChemicalCompound , dbo:ChemicalSubstance;
-        rdfs:comment     "VLAR II+ bijlagen"@nl , "VLAR III (D3, diverse art)  'dioxinen en furanen'"@nl;
         rdfs:seeAlso     compound:42138;
         dbo:casNumber    "57117-41-6";
         dbo:formula      "C12H3Cl5O";
@@ -1572,6 +1571,7 @@ csc:SBMIVUVRFPGOEB-UHFFFAOYSA-N
         dbp:inchikey     "SBMIVUVRFPGOEB-UHFFFAOYSA-N";
         skos:altLabel    "1,2,3,7,8-pentachloordibenzofuraan"@nl , "1,2,3,7,8-pentachloordibenzofuraan (pecdf)"@nl , " 1,2,3,7,8-pentachloordibenzofuraan"@nl;
         skos:broader     csc:CHEMONTID_0003029;
+        skos:comment     "VLAR II+ bijlagen"@nl , "VLAR III (D3, diverse art)  'dioxinen en furanen'"@nl;
         skos:exactMatch  wise:CAS_57117-41-6;
         skos:inScheme    vlcs:chemische_stof;
         skos:notation    "PCDF94";
@@ -1717,7 +1717,6 @@ csc:PNPCRKVUWYDDST-UHFFFAOYSA-N
 
 csc:BUGBHKTXTAQXES-UHFFFAOYSA-N
         rdf:type         dbo:ChemicalSubstance , skos:Concept , dbo:ChemicalCompound;
-        rdfs:comment     "VLAR III (D3, diverse art) 'Se'"@nl , "VLAR II bijl. 4.4.2 'seleen en zijn verbindingen, uitgedrukt in Se'"@nl , "VLAR III (D3) 'seleenverbindingen, uitgedrukt als Se'"@nl;
         rdfs:seeAlso     compound:6326970;
         dbo:casNumber    "11133-88-3" , "95788-45-7" , "12640-30-1" , "50954-17-1" , "7783-07-5" , "51882-60-1" , "7782-49-2" , "37258-85-8" , "12641-96-2" , "37256-19-2" , "37276-15-6" , "37368-02-8" , "12733-65-2" , "11125-23-8" , "12640-29-8";
         dbo:formula      "Se";
@@ -1728,6 +1727,7 @@ csc:BUGBHKTXTAQXES-UHFFFAOYSA-N
         dbp:inchikey     "BUGBHKTXTAQXES-UHFFFAOYSA-N";
         skos:altLabel    "Seleen (Se)"@nl;
         skos:broader     csc:CHEMONTID_0000434;
+        skos:comment     "VLAR III (D3, diverse art) 'Se'"@nl , "VLAR III (D3) 'seleenverbindingen, uitgedrukt als Se'"@nl , "VLAR II bijl. 4.4.2 'seleen en zijn verbindingen, uitgedrukt in Se'"@nl;
         skos:definition  "seleen en seleenverbindingen, uitgedrukt als lood (Pb)"@nl;
         skos:exactMatch  wise:CAS_7782-49-2;
         skos:inScheme    vlcs:chemische_stof;
@@ -1751,7 +1751,6 @@ csc:CGYGETOMCSJHJU-UHFFFAOYSA-N
 
 csc:WYURNTSHIVDZCO-UHFFFAOYSA-N
         rdf:type        dbo:ChemicalSubstance , dbo:ChemicalCompound , skos:Concept;
-        rdfs:comment    "VLAR II bijl. 4.4.2"@nl;
         rdfs:seeAlso    compound:8028;
         dbo:casNumber   "109-99-9" , "24979-97-3" , "77392-70-2";
         dbo:formula     "C4H8O";
@@ -1762,6 +1761,7 @@ csc:WYURNTSHIVDZCO-UHFFFAOYSA-N
         dbp:inchikey    "WYURNTSHIVDZCO-UHFFFAOYSA-N";
         skos:altLabel   "tetrahydrofuraan"@nl;
         skos:broader    csc:CHEMONTID_0002648;
+        skos:comment    "VLAR II bijl. 4.4.2"@nl;
         skos:inScheme   vlcs:chemische_stof;
         skos:notation   "T4Hfrn" , "PTMEG";
         skos:prefLabel  "polytetramethyletherglycol"@nl .
@@ -1798,7 +1798,6 @@ csc:AMQJEAYHLZJPGS-UHFFFAOYSA-N
 
 csc:ODUCDPQEXGNKDN-UHFFFAOYSA-N
         rdf:type        skos:Concept , dbo:ChemicalCompound , dbo:ChemicalSubstance;
-        rdfs:comment    "VLAR II bijl. 4.4.2"@nl , "VLAR II bijl. 2.5.3 'NO'"@nl;
         rdfs:seeAlso    compound:945;
         dbo:casNumber   "90452-29-2" , "10102-43-9" , "53851-19-7" , "51005-21-1" , "51005-20-0" , "90880-94-7" , "14332-28-6";
         dbo:formula     "HNO";
@@ -1809,6 +1808,7 @@ csc:ODUCDPQEXGNKDN-UHFFFAOYSA-N
         dbp:inchikey    "ODUCDPQEXGNKDN-UHFFFAOYSA-N";
         skos:altLabel   "stikstofmonoxide (NO)"@nl;
         skos:broader    csc:CHEMONTID_0000554;
+        skos:comment    "VLAR II bijl. 4.4.2"@nl , "VLAR II bijl. 2.5.3 'NO'"@nl;
         skos:inScheme   vlcs:chemische_stof;
         skos:notation   "NO";
         skos:prefLabel  "stikstofmonoxide"@nl .
@@ -2229,7 +2229,6 @@ csc:MHZGKXUYDGKKIU-UHFFFAOYSA-N
 
 csc:RFFLAFLAYFXFSW-UHFFFAOYSA-N
         rdf:type         dbo:ChemicalCompound , dbo:ChemicalSubstance , skos:Concept;
-        rdfs:comment     "VLAREM II bijlage 4.4.2"@nl;
         rdfs:seeAlso     compound:7239;
         dbo:casNumber    "24634-92-2" , "25321-22-6" , "95-50-1";
         dbo:formula      "C6H4Cl2";
@@ -2240,6 +2239,7 @@ csc:RFFLAFLAYFXFSW-UHFFFAOYSA-N
         dbp:inchikey     "RFFLAFLAYFXFSW-UHFFFAOYSA-N";
         skos:altLabel    "1,2-dichloorbenzeen "@nl;
         skos:broader     csc:CHEMONTID_0002564;
+        skos:comment     "VLAREM II bijlage 4.4.2"@nl;
         skos:exactMatch  wise:CAS_95-50-1;
         skos:inScheme    vlcs:chemische_stof;
         skos:notation    "12DClBen";
@@ -2382,7 +2382,6 @@ csc:HOQADATXFBOEGG-UHFFFAOYSA-N
 
 csc:ATJFFYVFTNAWJD-UHFFFAOYSA-N
         rdf:type         skos:Concept , dbo:ChemicalCompound , dbo:ChemicalSubstance;
-        rdfs:comment     "VLAR III (D3, diverse art) 'Sn'"@nl , "VLAR II D5 'tin en tinverbindingen, uitgedrukt als tin (Sn)'"@nl , "VLAR II bijl. 4.4.2 'tin en zijn verbindingen, uitgedrukt in Sn'"@nl , "VLAR III (D3) 'tinverbindingen, met inbegrip van organotinverbindingen, uitgedrukt als Sn'"@nl;
         rdfs:seeAlso     compound:5352426;
         dbo:casNumber    "7440-31-5";
         dbo:formula      "Sn";
@@ -2393,6 +2392,7 @@ csc:ATJFFYVFTNAWJD-UHFFFAOYSA-N
         dbp:inchikey     "ATJFFYVFTNAWJD-UHFFFAOYSA-N";
         skos:altLabel    "Tin (Sn)"@nl;
         skos:broader     csc:CHEMONTID_0000427;
+        skos:comment     "VLAR II bijl. 4.4.2 'tin en zijn verbindingen, uitgedrukt in Sn'"@nl , "VLAR III (D3, diverse art) 'Sn'"@nl , "VLAR III (D3) 'tinverbindingen, met inbegrip van organotinverbindingen, uitgedrukt als Sn'"@nl , "VLAR II D5 'tin en tinverbindingen, uitgedrukt als tin (Sn)'"@nl;
         skos:definition  "tin en tinverbindingen, uitgedrukt als tin (Sn)"@nl;
         skos:exactMatch  wise:CAS_7440-31-5;
         skos:inScheme    vlcs:chemische_stof;
@@ -2506,7 +2506,6 @@ csc:OXQHJIGWZNIQDS-UHFFFAOYSA-N
 
 csc:HGUFODBRKLSHSI-UHFFFAOYSA-N
         rdf:type         skos:Concept , dbo:ChemicalSubstance , dbo:ChemicalCompound;
-        rdfs:comment     "VLAR III (D3, diverse art)  'dioxinen en furanen'"@nl , "VLAR II+ bijlagen"@nl;
         rdfs:seeAlso     compound:15625;
         dbo:casNumber    "1746-01-6" , "56795-67-6";
         dbo:formula      "C12H4Cl4O2";
@@ -2517,6 +2516,7 @@ csc:HGUFODBRKLSHSI-UHFFFAOYSA-N
         dbp:inchikey     "HGUFODBRKLSHSI-UHFFFAOYSA-N";
         skos:altLabel    "2,3,7,8-tetrachloordibenzodioxine (tcdd)"@nl , " 2,3,7,8-tetrachloordibenzodioxine"@nl , "2,3,7,8-tetrachloordibenzodioxine"@nl;
         skos:broader     csc:CHEMONTID_0000420;
+        skos:comment     "VLAR II+ bijlagen"@nl , "VLAR III (D3, diverse art)  'dioxinen en furanen'"@nl;
         skos:exactMatch  wise:CAS_1746-01-6;
         skos:inScheme    vlcs:chemische_stof;
         skos:notation    "PCDD48";
@@ -2739,7 +2739,6 @@ csc:KXDAEFPNCMNJSK-UHFFFAOYSA-N
 
 csc:KSMVNVHUTQZITP-UHFFFAOYSA-N
         rdf:type         skos:Concept , dbo:ChemicalCompound , dbo:ChemicalSubstance;
-        rdfs:comment     "VLAR II+ bijlagen"@nl , "VLAR III (D3, diverse art)  'dioxinen en furanen'"@nl;
         rdfs:seeAlso     compound:39929;
         dbo:casNumber    "51207-31-9";
         dbo:formula      "C12H4Cl4O";
@@ -2750,6 +2749,7 @@ csc:KSMVNVHUTQZITP-UHFFFAOYSA-N
         dbp:inchikey     "KSMVNVHUTQZITP-UHFFFAOYSA-N";
         skos:altLabel    "2,3,7,8-tetrachloordibenzofuraan (tecdf)"@nl , " 2,3,7,8-tetrachloordibenzofuraan"@nl , "2,3,7,8-tetrachloordibenzofuran"@nl;
         skos:broader     csc:CHEMONTID_0003029;
+        skos:comment     "VLAR III (D3, diverse art)  'dioxinen en furanen'"@nl , "VLAR II+ bijlagen"@nl;
         skos:exactMatch  wise:CAS_51207-31-9;
         skos:inScheme    vlcs:chemische_stof;
         skos:notation    "PCDF83";
@@ -2847,7 +2847,6 @@ csc:ZVQXQPNJHRNGID-UHFFFAOYSA-N
 
 csc:DXBHBZVCASKNBY-UHFFFAOYSA-N
         rdf:type         dbo:ChemicalSubstance , dbo:ChemicalCompound , skos:Concept;
-        rdfs:comment     "VLAR II (D2) 'benzo(a)antraceen'"@nl;
         rdfs:seeAlso     compound:5954;
         dbo:casNumber    "56-55-3";
         dbo:formula      "C18H12";
@@ -2858,6 +2857,7 @@ csc:DXBHBZVCASKNBY-UHFFFAOYSA-N
         dbp:inchikey     "DXBHBZVCASKNBY-UHFFFAOYSA-N";
         skos:altLabel    "benzo(a)antraceen"@nl , "benzo(a)antra-ceen"@nl , "benz(a)anthraceen"@nl;
         skos:broader     csc:CHEMONTID_0000025;
+        skos:comment     "VLAR II (D2) 'benzo(a)antraceen'"@nl;
         skos:exactMatch  wise:CAS_56-55-3;
         skos:inScheme    vlcs:chemische_stof;
         skos:notation    "BaA";
@@ -3640,7 +3640,6 @@ csc:JRLPEMVDPFPYPJ-UHFFFAOYSA-N
 
 csc:ZBCBWPMODOFKDW-UHFFFAOYSA-N
         rdf:type        skos:Concept , dbo:ChemicalCompound , dbo:ChemicalSubstance;
-        rdfs:comment    "VLAREM II bijlage 4.4.2"@nl;
         rdfs:seeAlso    compound:8113;
         dbo:casNumber   "111-42-2" , "61791-44-4" , "61791-46-6" , "8033-73-6";
         dbo:formula     "C4H11NO2";
@@ -3651,6 +3650,7 @@ csc:ZBCBWPMODOFKDW-UHFFFAOYSA-N
         dbp:inchikey    "ZBCBWPMODOFKDW-UHFFFAOYSA-N";
         skos:altLabel   "diethanolamine"@nl;
         skos:broader    csc:CHEMONTID_0001897;
+        skos:comment    "VLAREM II bijlage 4.4.2"@nl;
         skos:inScheme   vlcs:chemische_stof;
         skos:notation   "DC2olAe";
         skos:prefLabel  "2,2’-iminodiethanol"@nl .
@@ -3795,7 +3795,6 @@ csc:INGSNVSERUZOAK-UHFFFAOYSA-N
 
 csc:WSLDOOZREJYCGB-UHFFFAOYSA-N
         rdf:type         dbo:ChemicalSubstance , skos:Concept , dbo:ChemicalCompound;
-        rdfs:comment     "VLAR II Art. 5.7.1.4/Art. 5.7.7.1"@nl , "VLAR III (D3)"@nl , "VLAR II bijl. 4.4.2"@nl;
         rdfs:seeAlso     compound:11;
         dbo:casNumber    "7572-29-4" , "52399-93-6" , "107-06-2";
         dbo:formula      "C2H4Cl2";
@@ -3806,6 +3805,7 @@ csc:WSLDOOZREJYCGB-UHFFFAOYSA-N
         dbp:inchikey     "WSLDOOZREJYCGB-UHFFFAOYSA-N";
         skos:altLabel    "1,2-dichloorethaan (edc)"@nl;
         skos:broader     csc:CHEMONTID_0001516;
+        skos:comment     "VLAR II bijl. 4.4.2"@nl , "VLAR II Art. 5.7.1.4/Art. 5.7.7.1"@nl , "VLAR III (D3)"@nl;
         skos:exactMatch  wise:CAS_107-06-2;
         skos:inScheme    vlcs:chemische_stof;
         skos:notation    "12DClC2a";
@@ -4164,7 +4164,6 @@ csc:KYWIYKKSMDLRDC-UHFFFAOYSA-N
 
 csc:HPNMFZURTQLUMO-UHFFFAOYSA-N
         rdf:type         dbo:ChemicalSubstance , dbo:ChemicalCompound , skos:Concept;
-        rdfs:comment     "VLAREM II bijlage 4.4.2"@nl;
         rdfs:seeAlso     compound:8021;
         dbo:casNumber    "109-89-7";
         dbo:formula      "C4H11N";
@@ -4175,6 +4174,7 @@ csc:HPNMFZURTQLUMO-UHFFFAOYSA-N
         dbp:inchikey     "HPNMFZURTQLUMO-UHFFFAOYSA-N";
         skos:altLabel    "di-ethylamine "@nl , "di-ethylamine"@nl;
         skos:broader     csc:CHEMONTID_0002228;
+        skos:comment     "VLAREM II bijlage 4.4.2"@nl;
         skos:exactMatch  wise:CAS_109-89-7;
         skos:inScheme    vlcs:chemische_stof;
         skos:notation    "DC2yAe";
@@ -4441,7 +4441,6 @@ csc:RRRXPPIDPYTNJG-UHFFFAOYSA-N
 
 csc:TVMXDCGIABBOFY-UHFFFAOYSA-N
         rdf:type        dbo:ChemicalSubstance , skos:Concept , dbo:ChemicalCompound;
-        rdfs:comment    "VLAR II bijl. 4.4.2 'paraffinische koolwaterstoffen (behalve methaan)'"@nl;
         rdfs:seeAlso    compound:356;
         dbo:casNumber   "31372-91-5" , "50985-84-7" , "111-65-9";
         dbo:formula     "C8H18";
@@ -4452,6 +4451,7 @@ csc:TVMXDCGIABBOFY-UHFFFAOYSA-N
         dbp:inchikey    "TVMXDCGIABBOFY-UHFFFAOYSA-N";
         skos:altLabel   "n-octaan"@nl;
         skos:broader    csc:CHEMONTID_0002500;
+        skos:comment    "VLAR II bijl. 4.4.2 'paraffinische koolwaterstoffen (behalve methaan)'"@nl;
         skos:inScheme   vlcs:chemische_stof;
         skos:notation   "C8a";
         skos:prefLabel  "octaan"@nl .
@@ -4671,7 +4671,6 @@ csc:KWGUFOITWDSNQY-UHFFFAOYSA-N
 
 csc:FMMWHPNWAFZXNH-UHFFFAOYSA-N
         rdf:type         skos:Concept , dbo:ChemicalCompound , dbo:ChemicalSubstance;
-        rdfs:comment     "VLAR III (D3, diverse art)"@nl , "VLAR II bijl. 2.5.8.1.'B(a)P'"@nl , "VLAR II bijl. 4.4.2"@nl , "VLAR II (D2) 'benzo(a)pyreen'"@nl;
         rdfs:seeAlso     compound:2336;
         dbo:casNumber    "34505-58-3" , "6699-27-0" , "819804-28-9" , "50-32-8" , "42299-33-2";
         dbo:formula      "C20H12";
@@ -4682,6 +4681,7 @@ csc:FMMWHPNWAFZXNH-UHFFFAOYSA-N
         dbp:inchikey     "FMMWHPNWAFZXNH-UHFFFAOYSA-N";
         skos:altLabel    "benzo(a)pyreen"@nl;
         skos:broader     csc:CHEMONTID_0000316;
+        skos:comment     "VLAR II bijl. 2.5.8.1.'B(a)P'"@nl , "VLAR II (D2) 'benzo(a)pyreen'"@nl , "VLAR III (D3, diverse art)"@nl , "VLAR II bijl. 4.4.2"@nl;
         skos:exactMatch  wise:CAS_50-32-8;
         skos:inScheme    vlcs:chemische_stof;
         skos:notation    "BaP";
@@ -5165,7 +5165,6 @@ csc:OPKOKAMJFNKNAS-UHFFFAOYSA-N
 
 csc:LFQSCWFLJHTTHZ-UHFFFAOYSA-N
         rdf:type        skos:Concept , dbo:ChemicalSubstance , dbo:ChemicalCompound;
-        rdfs:comment    "VLAR II Art 5.23.1.1."@nl , "VLAR II bijl. 4.4.2 'alkylalcohol'"@nl;
         rdfs:seeAlso    compound:702;
         dbo:casNumber   "8024-45-1" , "71329-38-9" , "8000-16-6" , "71076-86-3" , "68475-56-9" , "121182-78-3" , "64-17-5";
         dbo:formula     "C2H6O";
@@ -5175,6 +5174,7 @@ csc:LFQSCWFLJHTTHZ-UHFFFAOYSA-N
         dbo:smiles      "CCO";
         dbp:inchikey    "LFQSCWFLJHTTHZ-UHFFFAOYSA-N";
         skos:broader    csc:CHEMONTID_0000286;
+        skos:comment    "VLAR II bijl. 4.4.2 'alkylalcohol'"@nl , "VLAR II Art 5.23.1.1."@nl;
         skos:inScheme   vlcs:chemische_stof;
         skos:notation   "C2OH";
         skos:prefLabel  "ethanol"@nl .
@@ -5716,7 +5716,6 @@ csc:UQMRAFJOBWOFNS-UHFFFAOYSA-N
 
 csc:GSWAOPJLTADLTN-UHFFFAOYSA-N
         rdf:type         dbo:ChemicalSubstance , skos:Concept , dbo:ChemicalCompound;
-        rdfs:comment     "VLAR III (D3, diverse art) 'NOx, uitgedrukt als NO2'"@nl , "VLAR III (D3, diverse art) 'NOx'"@nl , "VLAR II (D2) 'stikstofoxiden (NOx)'"@nl , "VLAR III (D3) 'stikstofmonoxide (NO) en stikstofdioxide (NO2), uitgedrukt in NO2'"@nl , "VLAR II (D4) 'stikstofoxiden (uitgedrukt in NO2)'"@nl , "VLAR II (D5) 'stikstofoxiden, uitgedrukt in NO2' 'stikstofoxiden (NOx), uitgedrukt als NO2' 'NOx, uitgedrukt als NO2' 'NOx''"@nl , " 'NOX als som van stikstofmonoxide (NO) en stikstofdioxide (NO2)'"@nl , "VLAR II bijl. 2.5.3. 'stikstofoxiden'"@nl , "VLAR II bijl. 4.4.2 'stikstofoxiden (stikstofmonoxide en stikstofdioxide), uitgedrukt als stikstofdioxide'"@nl;
         rdfs:seeAlso     compound:160954;
         dbo:casNumber    "11129-69-4" , "11104-93-1";
         dbo:formula      "H3NO";
@@ -5727,6 +5726,7 @@ csc:GSWAOPJLTADLTN-UHFFFAOYSA-N
         dbp:inchikey     "GSWAOPJLTADLTN-UHFFFAOYSA-N";
         skos:altLabel    "stikstofoxiden (NOx), uitgedrukt als NO2"@nl;
         skos:broader     csc:CHEMONTID_0000554;
+        skos:comment     "VLAR II (D4) 'stikstofoxiden (uitgedrukt in NO2)'"@nl , " 'NOX als som van stikstofmonoxide (NO) en stikstofdioxide (NO2)'"@nl , "VLAR II (D5) 'stikstofoxiden, uitgedrukt in NO2' 'stikstofoxiden (NOx), uitgedrukt als NO2' 'NOx, uitgedrukt als NO2' 'NOx''"@nl , "VLAR III (D3, diverse art) 'NOx'"@nl , "VLAR II bijl. 2.5.3. 'stikstofoxiden'"@nl , "VLAR III (D3, diverse art) 'NOx, uitgedrukt als NO2'"@nl , "VLAR II (D2) 'stikstofoxiden (NOx)'"@nl , "VLAR II bijl. 4.4.2 'stikstofoxiden (stikstofmonoxide en stikstofdioxide), uitgedrukt als stikstofdioxide'"@nl , "VLAR III (D3) 'stikstofmonoxide (NO) en stikstofdioxide (NO2), uitgedrukt in NO2'"@nl;
         skos:definition  "stikstofoxiden (stikstofmonoxide en stikstofdioxide), uitgedrukt als NO2(def VLAR II, D1: stikstofoxiden: de som van stikstofmonoxide en stikstofdioxide, uitgedrukt als stikstofdioxide (NO2))"@nl;
         skos:inScheme    vlcs:chemische_stof;
         skos:prefLabel   "stikstofoxiden (nox), uitgedrukt als no2"@nl .
@@ -5763,7 +5763,6 @@ csc:BQYJATMQXGBDHF-UHFFFAOYSA-N
 
 csc:ZNQVEEAIQZEUHB-UHFFFAOYSA-N
         rdf:type        dbo:ChemicalCompound , dbo:ChemicalSubstance , skos:Concept;
-        rdfs:comment    "VLAR II bijl. 4.4.2"@nl;
         rdfs:seeAlso    compound:8076;
         dbo:casNumber   "110-80-5" , "96231-36-6";
         dbo:formula     "C4H10O2";
@@ -5773,6 +5772,7 @@ csc:ZNQVEEAIQZEUHB-UHFFFAOYSA-N
         dbo:smiles      "CCOCCO";
         dbp:inchikey    "ZNQVEEAIQZEUHB-UHFFFAOYSA-N";
         skos:broader    csc:CHEMONTID_0001167;
+        skos:comment    "VLAR II bijl. 4.4.2"@nl;
         skos:inScheme   vlcs:chemische_stof;
         skos:notation   "2C2oxC2ol";
         skos:prefLabel  "2-ethoxyethanol"@nl .
@@ -6235,7 +6235,6 @@ csc:LGPPATCNSOSOQH-UHFFFAOYSA-N
 
 csc:KXKVLQRXCPHEJC-UHFFFAOYSA-N
         rdf:type        dbo:ChemicalSubstance , skos:Concept , dbo:ChemicalCompound;
-        rdfs:comment    "VLAR II bijl. 4.4.2"@nl;
         rdfs:seeAlso    compound:6584;
         dbo:casNumber   "79-20-9";
         dbo:formula     "C3H6O2";
@@ -6245,6 +6244,7 @@ csc:KXKVLQRXCPHEJC-UHFFFAOYSA-N
         dbo:smiles      "CC(=O)OC";
         dbp:inchikey    "KXKVLQRXCPHEJC-UHFFFAOYSA-N";
         skos:broader    csc:CHEMONTID_0003416;
+        skos:comment    "VLAR II bijl. 4.4.2"@nl;
         skos:inScheme   vlcs:chemische_stof;
         skos:notation   "C1yactt";
         skos:prefLabel  "methylacetaat"@nl .
@@ -6266,7 +6266,6 @@ csc:RMMXTBMQSGEXHJ-UHFFFAOYSA-N
 
 csc:CYRMSUTZVYGINF-UHFFFAOYSA-N
         rdf:type         dbo:ChemicalSubstance , skos:Concept , dbo:ChemicalCompound;
-        rdfs:comment     "VLAREM II bijlage 4.4.2"@nl;
         rdfs:seeAlso     compound:6389;
         dbo:casNumber    "79620-41-0" , "83589-40-6" , "91315-61-6" , "62185-70-0" , "75-69-4";
         dbo:formula      "CCl3F";
@@ -6277,6 +6276,7 @@ csc:CYRMSUTZVYGINF-UHFFFAOYSA-N
         dbp:inchikey     "CYRMSUTZVYGINF-UHFFFAOYSA-N";
         skos:altLabel    "trichloorfluormethaan "@nl;
         skos:broader     csc:CHEMONTID_0004521;
+        skos:comment     "VLAREM II bijlage 4.4.2"@nl;
         skos:exactMatch  wise:CAS_75-69-4;
         skos:inScheme    vlcs:chemische_stof;
         skos:notation    "CFK11";
@@ -6438,7 +6438,6 @@ csc:BZLVMXJERCGZMT-UHFFFAOYSA-N
 
 csc:UHOVQNZJYSORNB-UHFFFAOYSA-N
         rdf:type         dbo:ChemicalSubstance , skos:Concept , dbo:ChemicalCompound;
-        rdfs:comment     "VLAR III (D3, diverse art) "@nl , "VLAR II (D2) diverse art."@nl , "VLAR II bijl. 4.4.2"@nl , "VLAR II bijl. 2.5.3"@nl;
         rdfs:seeAlso     compound:241;
         dbo:casNumber    "54682-86-9" , "71-43-2" , "68956-52-5" , "26181-88-4" , "27271-55-2" , "174973-66-1";
         dbo:formula      "C6H6";
@@ -6448,6 +6447,7 @@ csc:UHOVQNZJYSORNB-UHFFFAOYSA-N
         dbo:smiles       "C1=CC=CC=C1";
         dbp:inchikey     "UHOVQNZJYSORNB-UHFFFAOYSA-N";
         skos:broader     csc:CHEMONTID_0002279;
+        skos:comment     "VLAR II bijl. 4.4.2"@nl , "VLAR II (D2) diverse art."@nl , "VLAR II bijl. 2.5.3"@nl , "VLAR III (D3, diverse art) "@nl;
         skos:exactMatch  wise:CAS_71-43-2;
         skos:inScheme    vlcs:chemische_stof;
         skos:notation    "Ben";
@@ -6652,7 +6652,6 @@ csc:MFSWTRQUCLNFOM-UHFFFAOYSA-N
 
 csc:DKGAVHZHDRPRBM-UHFFFAOYSA-N
         rdf:type        dbo:ChemicalSubstance , skos:Concept , dbo:ChemicalCompound;
-        rdfs:comment    "VLAR II bijl. 4.4.2 'alkylalcohol'"@nl;
         rdfs:seeAlso    compound:6386;
         dbo:casNumber   "75-65-0";
         dbo:formula     "C4H10O";
@@ -6663,6 +6662,7 @@ csc:DKGAVHZHDRPRBM-UHFFFAOYSA-N
         dbp:inchikey    "DKGAVHZHDRPRBM-UHFFFAOYSA-N";
         skos:altLabel   "tertiair-butanol"@nl;
         skos:broader    csc:CHEMONTID_0001670;
+        skos:comment    "VLAR II bijl. 4.4.2 'alkylalcohol'"@nl;
         skos:inScheme   vlcs:chemische_stof;
         skos:notation   "ttC4ol";
         skos:prefLabel  "t-butanol"@nl .
@@ -7184,7 +7184,6 @@ csc:LIPRQQHINVWJCH-UHFFFAOYSA-N
 
 csc:QSKPIOLLBIHNAC-UHFFFAOYSA-N
         rdf:type        dbo:ChemicalCompound , skos:Concept , dbo:ChemicalSubstance;
-        rdfs:comment    "VLAREM II bijlage 4.4.2"@nl;
         rdfs:seeAlso    compound:33;
         dbo:casNumber   "107-20-0";
         dbo:formula     "C2H3ClO";
@@ -7195,6 +7194,7 @@ csc:QSKPIOLLBIHNAC-UHFFFAOYSA-N
         dbp:inchikey    "QSKPIOLLBIHNAC-UHFFFAOYSA-N";
         skos:altLabel   "chlooraceetaldehyde "@nl;
         skos:broader    csc:CHEMONTID_0001516;
+        skos:comment    "VLAREM II bijlage 4.4.2"@nl;
         skos:inScheme   vlcs:chemische_stof;
         skos:notation   "ClacAh";
         skos:prefLabel  "chlooraceetaldehyde"@nl .
@@ -7399,7 +7399,6 @@ csc:BULHJTXRZFEUDQ-UHFFFAOYSA-N
 
 csc:BHWVLZJTVIYLIV-UHFFFAOYSA-N
         rdf:type         dbo:ChemicalCompound , dbo:ChemicalSubstance , skos:Concept;
-        rdfs:comment     "VLAR III (D3) 'dioxineachtige PCB's'"@nl;
         rdfs:seeAlso     compound:51043;
         dbo:casNumber    "70362-50-4";
         dbo:formula      "C12H6Cl4";
@@ -7410,6 +7409,7 @@ csc:BHWVLZJTVIYLIV-UHFFFAOYSA-N
         dbp:inchikey     "BHWVLZJTVIYLIV-UHFFFAOYSA-N";
         skos:altLabel    "pcb 81"@nl , "3,4,4',5-tetrachloorbifenyl (pcb81)"@nl , "3,4,4',5-tetrachlorobifenyl"@nl;
         skos:broader     csc:CHEMONTID_0003030;
+        skos:comment     "VLAR III (D3) 'dioxineachtige PCB's'"@nl;
         skos:exactMatch  wise:CAS_70362-50-4;
         skos:inScheme    vlcs:chemische_stof;
         skos:notation    "PCB81";
@@ -7573,7 +7573,6 @@ csc:HJIQVKXMQOLFFS-UHFFFAOYSA-N
 
 csc:BDAGIHXWWSANSR-UHFFFAOYSA-N
         rdf:type        dbo:ChemicalCompound , skos:Concept , dbo:ChemicalSubstance;
-        rdfs:comment    "VLAREM II bijlage 4.4.2"@nl;
         rdfs:seeAlso    compound:284;
         dbo:casNumber   "15907-03-6" , "8006-93-7" , "7056-83-9" , "64-18-6" , "82069-14-5";
         dbo:formula     "CH2O2";
@@ -7584,6 +7583,7 @@ csc:BDAGIHXWWSANSR-UHFFFAOYSA-N
         dbp:inchikey    "BDAGIHXWWSANSR-UHFFFAOYSA-N";
         skos:altLabel   "methaanzuur"@nl , "mierenzuur "@nl;
         skos:broader    csc:CHEMONTID_0001205;
+        skos:comment    "VLAREM II bijlage 4.4.2"@nl;
         skos:inScheme   vlcs:chemische_stof;
         skos:notation   "C1azr";
         skos:prefLabel  "mierenzuur"@nl .
@@ -7984,7 +7984,6 @@ csc:HORNXRXVQWOLPJ-UHFFFAOYSA-N
 
 csc:OAKJQQAXSVQMHS-UHFFFAOYSA-N
         rdf:type        dbo:ChemicalSubstance , skos:Concept , dbo:ChemicalCompound;
-        rdfs:comment    "VLAREM II bijlage 4.4.2"@nl;
         rdfs:seeAlso    compound:9321;
         dbo:casNumber   "302-01-2" , "634-62-8" , "119775-10-9" , "31886-26-7" , "37836-27-4" , "75013-58-0";
         dbo:formula     "H4N2";
@@ -7995,6 +7994,7 @@ csc:OAKJQQAXSVQMHS-UHFFFAOYSA-N
         dbp:inchikey    "OAKJQQAXSVQMHS-UHFFFAOYSA-N";
         skos:altLabel   "hydrazine"@nl;
         skos:broader    csc:CHEMONTID_0000434;
+        skos:comment    "VLAREM II bijlage 4.4.2"@nl;
         skos:inScheme   vlcs:chemische_stof;
         skos:notation   "hydzne";
         skos:prefLabel  "hydrazine "@nl .
@@ -8689,7 +8689,6 @@ csc:PYLWMHQQBFSUBP-UHFFFAOYSA-N
 
 csc:KFZMGEQAYNKOFK-UHFFFAOYSA-N
         rdf:type        dbo:ChemicalSubstance , skos:Concept , dbo:ChemicalCompound;
-        rdfs:comment    "VLAR II bijl. 4.4.2 'alkylalcohol'"@nl;
         rdfs:seeAlso    compound:3776;
         dbo:casNumber   "67-63-0" , "5131-95-3" , "8013-70-5";
         dbo:formula     "C3H8O";
@@ -8700,6 +8699,7 @@ csc:KFZMGEQAYNKOFK-UHFFFAOYSA-N
         dbp:inchikey    "KFZMGEQAYNKOFK-UHFFFAOYSA-N";
         skos:altLabel   "isopropanol"@nl;
         skos:broader    csc:CHEMONTID_0001661;
+        skos:comment    "VLAR II bijl. 4.4.2 'alkylalcohol'"@nl;
         skos:inScheme   vlcs:chemische_stof;
         skos:notation   "2C3ol";
         skos:prefLabel  "2-propanol"@nl .
@@ -8722,7 +8722,6 @@ csc:IZUPBVBPLAPZRR-UHFFFAOYSA-N
 
 csc:QPJDMGCKMHUXFD-UHFFFAOYSA-N
         rdf:type        skos:Concept , dbo:ChemicalSubstance , dbo:ChemicalCompound;
-        rdfs:comment    "VLAREM II bijlage 4.4.2"@nl;
         rdfs:seeAlso    compound:10477;
         dbo:casNumber   "506-77-4";
         dbo:formula     "CClN";
@@ -8732,12 +8731,12 @@ csc:QPJDMGCKMHUXFD-UHFFFAOYSA-N
         dbo:smiles      "C(#N)Cl";
         dbp:inchikey    "QPJDMGCKMHUXFD-UHFFFAOYSA-N";
         skos:broader    csc:CHEMONTID_0004084;
+        skos:comment    "VLAREM II bijlage 4.4.2"@nl;
         skos:inScheme   vlcs:chemische_stof;
         skos:prefLabel  "chloorcyaan"@nl .
 
 csc:BASFCYQUMIYNBI-UHFFFAOYSA-N
         rdf:type         dbo:ChemicalSubstance , skos:Concept , dbo:ChemicalCompound;
-        rdfs:comment     "VLAREM II bijlage 4.4.2"@nl;
         rdfs:seeAlso     compound:23939;
         dbo:casNumber    "7440-06-4" , "21547-63-7";
         dbo:formula      "Pt";
@@ -8748,6 +8747,7 @@ csc:BASFCYQUMIYNBI-UHFFFAOYSA-N
         dbp:inchikey     "BASFCYQUMIYNBI-UHFFFAOYSA-N";
         skos:altLabel    "platina (Pt)"@nl;
         skos:broader     csc:CHEMONTID_0000426;
+        skos:comment     "VLAREM II bijlage 4.4.2"@nl;
         skos:definition  "Platina en zijn verbindingen, uitgedrukt als Pt"@nl;
         skos:inScheme    vlcs:chemische_stof;
         skos:notation    "Pt";
@@ -9377,7 +9377,6 @@ csc:JLYXXMFPNIAWKQ-DCLYFUHFNA-N
 
 csc:ULYZAYCEDJDHCC-UHFFFAOYSA-N
         rdf:type        dbo:ChemicalCompound , skos:Concept , dbo:ChemicalSubstance;
-        rdfs:comment    "VLAR II bijl. 4.4.2"@nl;
         rdfs:seeAlso    compound:6361;
         dbo:casNumber   "75-29-6";
         dbo:formula     "C3H7Cl";
@@ -9387,6 +9386,7 @@ csc:ULYZAYCEDJDHCC-UHFFFAOYSA-N
         dbo:smiles      "CC(C)Cl";
         dbp:inchikey    "ULYZAYCEDJDHCC-UHFFFAOYSA-N";
         skos:broader    csc:CHEMONTID_0001516;
+        skos:comment    "VLAR II bijl. 4.4.2"@nl;
         skos:inScheme   vlcs:chemische_stof;
         skos:notation   "2ClC3a";
         skos:prefLabel  "2-chloorpropaan"@nl .
@@ -9471,7 +9471,6 @@ csc:HYHJOUPYTUBFIX-UHFFFAOYSA-N
 
 csc:YNQLUTRBYVCPMQ-UHFFFAOYSA-N
         rdf:type         dbo:ChemicalSubstance , dbo:ChemicalCompound , skos:Concept;
-        rdfs:comment     "VLAR II bijl. 4.4.2"@nl;
         rdfs:seeAlso     compound:7500;
         dbo:casNumber    "28213-80-1" , "70955-17-8" , "68908-88-3" , "100-41-4";
         dbo:formula      "C8H10";
@@ -9481,6 +9480,7 @@ csc:YNQLUTRBYVCPMQ-UHFFFAOYSA-N
         dbo:smiles       "CCC1=CC=CC=C1";
         dbp:inchikey     "YNQLUTRBYVCPMQ-UHFFFAOYSA-N";
         skos:broader     csc:CHEMONTID_0002279;
+        skos:comment     "VLAR II bijl. 4.4.2"@nl;
         skos:exactMatch  wise:CAS_100-41-4;
         skos:inScheme    vlcs:chemische_stof;
         skos:notation    "C2yBen";
@@ -9700,7 +9700,6 @@ csc:DFCAFRGABIXSDS-UHFFFAOYSA-N
 
 csc:JHIVVAPYMSGYDF-UHFFFAOYSA-N
         rdf:type        dbo:ChemicalSubstance , dbo:ChemicalCompound , skos:Concept;
-        rdfs:comment    "VLAR II bijl. 4.4.2"@nl;
         rdfs:seeAlso    compound:7967;
         dbo:casNumber   "11119-77-0" , "9003-41-2" , "108-94-1" , "9075-99-4";
         dbo:formula     "C6H10O";
@@ -9710,6 +9709,7 @@ csc:JHIVVAPYMSGYDF-UHFFFAOYSA-N
         dbo:smiles      "C1CCC(=O)CC1";
         dbp:inchikey    "JHIVVAPYMSGYDF-UHFFFAOYSA-N";
         skos:broader    csc:CHEMONTID_0003487;
+        skos:comment    "VLAR II bijl. 4.4.2"@nl;
         skos:inScheme   vlcs:chemische_stof;
         skos:notation   "cycC6on";
         skos:prefLabel  "cyclohexanon"@nl .
@@ -9828,7 +9828,6 @@ csc:STNSYZSNIYTNMI-UHFFFAOYSA-N
 
 csc:WLZRMCYVCSSEQC-UHFFFAOYSA-N
         rdf:type         dbo:ChemicalCompound , skos:Concept , dbo:ChemicalSubstance;
-        rdfs:comment     "VLAR II (D5) 'cadmium en cadmiumverbindingen, uitgedrukt als cadmium (Cd)'"@nl , "VLAR III (D3) 'cadmium en de verbindingen daarvan, uitgedrukt als cadmium (Cd)"@nl , "VLAR III (D3, diverse art) 'Cd'"@nl , "VLAR II bijl. 4.4.2 'cadmium en zijn verbindingen, uitgedrukt in Cd'"@nl , "VLAR III (D3) 'cadmium en zijn verbindingen, uitgedrukt in Cd'"@nl , "VLAR Bijl. 2.5.2 en bijl. 2.5.8.1. 'cadmium'"@nl , "VLAR II (D2) 'cadmium'"@nl;
         rdfs:seeAlso     compound:31193;
         dbo:casNumber    "22537-48-0" , "7440-43-9";
         dbo:formula      "Cd+2";
@@ -9839,6 +9838,7 @@ csc:WLZRMCYVCSSEQC-UHFFFAOYSA-N
         dbp:inchikey     "WLZRMCYVCSSEQC-UHFFFAOYSA-N";
         skos:altLabel    "Cadmium (Cd)"@nl;
         skos:broader     csc:CHEMONTID_0000426;
+        skos:comment     "VLAR III (D3) 'cadmium en de verbindingen daarvan, uitgedrukt als cadmium (Cd)"@nl , "VLAR II (D2) 'cadmium'"@nl , "VLAR II bijl. 4.4.2 'cadmium en zijn verbindingen, uitgedrukt in Cd'"@nl , "VLAR III (D3, diverse art) 'Cd'"@nl , "VLAR Bijl. 2.5.2 en bijl. 2.5.8.1. 'cadmium'"@nl , "VLAR III (D3) 'cadmium en zijn verbindingen, uitgedrukt in Cd'"@nl , "VLAR II (D5) 'cadmium en cadmiumverbindingen, uitgedrukt als cadmium (Cd)'"@nl;
         skos:definition  "cadmium en cadmiumverbindingen, uitgedrukt als cadmium (Cd)"@nl;
         skos:exactMatch  wise:CAS_7440-43-9;
         skos:inScheme    vlcs:chemische_stof;
@@ -9862,7 +9862,6 @@ csc:DMQQXDPCRUGSQB-UHFFFAOYSA-N
 
 csc:XBDQKXXYIPTUBI-UHFFFAOYSA-N
         rdf:type        dbo:ChemicalSubstance , skos:Concept , dbo:ChemicalCompound;
-        rdfs:comment    "VLAREM II bijlage 4.4.2"@nl;
         rdfs:seeAlso    compound:1032;
         dbo:casNumber   "79-09-4" , "68937-68-8" , "68990-37-4" , "3349-08-4" , "784139-72-6";
         dbo:formula     "C3H6O2";
@@ -9873,6 +9872,7 @@ csc:XBDQKXXYIPTUBI-UHFFFAOYSA-N
         dbp:inchikey    "XBDQKXXYIPTUBI-UHFFFAOYSA-N";
         skos:altLabel   "propionzuur "@nl;
         skos:broader    csc:CHEMONTID_0001205;
+        skos:comment    "VLAREM II bijlage 4.4.2"@nl;
         skos:inScheme   vlcs:chemische_stof;
         skos:notation   "propozr";
         skos:prefLabel  "propionzuur"@nl .
@@ -9939,7 +9939,6 @@ csc:WGQKYBSKWIADBV-UHFFFAOYSA-N
 
 csc:XUAWBXBYHDRROL-UHFFFAOYSA-N
         rdf:type         dbo:ChemicalCompound , dbo:ChemicalSubstance , skos:Concept;
-        rdfs:comment     "VLAR III (D3) 'dioxineachtige PCB's'"@nl;
         rdfs:seeAlso     compound:38306;
         dbo:casNumber    "39635-31-9";
         dbo:formula      "C12H3Cl7";
@@ -9950,6 +9949,7 @@ csc:XUAWBXBYHDRROL-UHFFFAOYSA-N
         dbp:inchikey     "XUAWBXBYHDRROL-UHFFFAOYSA-N";
         skos:altLabel    "2,3,3',4,4',5,5'-heptachloorbifenyl (pcb189)"@nl , "pcb 189"@nl , "PCB 189"@nl;
         skos:broader     csc:CHEMONTID_0003030;
+        skos:comment     "VLAR III (D3) 'dioxineachtige PCB's'"@nl;
         skos:exactMatch  wise:CAS_39635-31-9;
         skos:inScheme    vlcs:chemische_stof;
         skos:notation    "PCB189";
@@ -10017,7 +10017,6 @@ csc:DECPGQLXYYCNEZ-UHFFFAOYSA-N
 
 csc:ROSDSFDQCJNGOL-UHFFFAOYSA-N
         rdf:type         dbo:ChemicalCompound , skos:Concept , dbo:ChemicalSubstance;
-        rdfs:comment     "VLAREM II bijlage 4.4.2"@nl;
         rdfs:seeAlso     compound:674;
         dbo:casNumber    "124-40-3";
         dbo:formula      "C2H7N";
@@ -10028,6 +10027,7 @@ csc:ROSDSFDQCJNGOL-UHFFFAOYSA-N
         dbp:inchikey     "ROSDSFDQCJNGOL-UHFFFAOYSA-N";
         skos:altLabel    "dimethylamine "@nl;
         skos:broader     csc:CHEMONTID_0002228;
+        skos:comment     "VLAREM II bijlage 4.4.2"@nl;
         skos:exactMatch  wise:CAS_124-40-3;
         skos:inScheme    vlcs:chemische_stof;
         skos:notation    "DC1yAe";
@@ -10126,7 +10126,6 @@ csc:BTZVKSVLFLRBRE-UHFFFAOYSA-N
 
 csc:UGFAIRIUMAVXCW-UHFFFAOYSA-N
         rdf:type        skos:Concept , dbo:ChemicalCompound , dbo:ChemicalSubstance;
-        rdfs:comment    "VLAR II bijl. 4.4.2 'koolstofmonoxide'"@nl , "VLAR bijl. 2.5.3. diverse plaatsen 'koolmonoxide'"@nl , "VLAR II (D2) 'koolmonoxide'"@nl , "VLAR III (D3, diverse art) 'CO'"@nl;
         rdfs:seeAlso    compound:281;
         dbo:casNumber   "155399-52-3" , "82063-46-5" , "153929-54-5" , "630-08-0" , "167416-30-0" , "162342-48-5" , "192819-80-0" , "18421-60-8";
         dbo:formula     "CO";
@@ -10137,6 +10136,7 @@ csc:UGFAIRIUMAVXCW-UHFFFAOYSA-N
         dbp:inchikey    "UGFAIRIUMAVXCW-UHFFFAOYSA-N";
         skos:altLabel   "koolmonoxide"@nl , "koolstofmonoxide (CO)"@nl;
         skos:broader    csc:CHEMONTID_0000434;
+        skos:comment    "VLAR bijl. 2.5.3. diverse plaatsen 'koolmonoxide'"@nl , "VLAR III (D3, diverse art) 'CO'"@nl , "VLAR II bijl. 4.4.2 'koolstofmonoxide'"@nl , "VLAR II (D2) 'koolmonoxide'"@nl;
         skos:inScheme   vlcs:chemische_stof;
         skos:notation   "CO";
         skos:prefLabel  "koolstofmonoxide"@nl .
@@ -10311,7 +10311,6 @@ csc:FHIVAFMUCKRCQO-UHFFFAOYSA-N
 
 csc:VLKZOEOYAKHREP-UHFFFAOYSA-N
         rdf:type        skos:Concept , dbo:ChemicalCompound , dbo:ChemicalSubstance;
-        rdfs:comment    "VLAR II bijl. 4.4.2 'paraffinische koolwaterstoffen (behalve methaan)'"@nl;
         rdfs:seeAlso    compound:8058;
         dbo:casNumber   "8031-34-3" , "110-54-3" , "92112-69-1" , "68476-44-8";
         dbo:formula     "C6H14";
@@ -10322,6 +10321,7 @@ csc:VLKZOEOYAKHREP-UHFFFAOYSA-N
         dbp:inchikey    "VLKZOEOYAKHREP-UHFFFAOYSA-N";
         skos:altLabel   "n-hexaan"@nl;
         skos:broader    csc:CHEMONTID_0002500;
+        skos:comment    "VLAR II bijl. 4.4.2 'paraffinische koolwaterstoffen (behalve methaan)'"@nl;
         skos:inScheme   vlcs:chemische_stof;
         skos:notation   "C6a";
         skos:prefLabel  "hexaan"@nl .
@@ -10421,7 +10421,6 @@ csc:TWXDDNPPQUTEOV-UHFFFAOYSA-N
 
 csc:JIGUQPWFLRLWPJ-UHFFFAOYSA-N
         rdf:type        dbo:ChemicalCompound , skos:Concept , dbo:ChemicalSubstance;
-        rdfs:comment    "VLAR II bijl. 4.4.2"@nl;
         rdfs:seeAlso    compound:8821;
         dbo:casNumber   "87605-70-7" , "116404-62-7" , "37199-30-7" , "169238-64-6" , "140-88-5" , "9003-32-1" , "153313-65-6";
         dbo:formula     "C5H8O2";
@@ -10431,6 +10430,7 @@ csc:JIGUQPWFLRLWPJ-UHFFFAOYSA-N
         dbo:smiles      "CCOC(=O)C=C";
         dbp:inchikey    "JIGUQPWFLRLWPJ-UHFFFAOYSA-N";
         skos:broader    csc:CHEMONTID_0004452;
+        skos:comment    "VLAR II bijl. 4.4.2"@nl;
         skos:inScheme   vlcs:chemische_stof;
         skos:notation   "C2yaclt";
         skos:prefLabel  "ethylacrylaat"@nl .
@@ -10743,7 +10743,6 @@ csc:YTDHEFNWWHSXSU-UHFFFAOYSA-N
 
 csc:NTIZESTWPVYFNL-UHFFFAOYSA-N
         rdf:type        dbo:ChemicalSubstance , dbo:ChemicalCompound , skos:Concept;
-        rdfs:comment    "VLAR II bijl. 4.4.2"@nl;
         rdfs:seeAlso    compound:7909;
         dbo:casNumber   "108-10-1";
         dbo:formula     "C6H12O";
@@ -10754,6 +10753,7 @@ csc:NTIZESTWPVYFNL-UHFFFAOYSA-N
         dbp:inchikey    "NTIZESTWPVYFNL-UHFFFAOYSA-N";
         skos:altLabel   "4-methyl-2-pentanon (MIBK)"@nl , "4-methyl-2-pentanon (mibk)"@nl;
         skos:broader    csc:CHEMONTID_0000118;
+        skos:comment    "VLAR II bijl. 4.4.2"@nl;
         skos:inScheme   vlcs:chemische_stof;
         skos:notation   "4C1y2C5on";
         skos:prefLabel  "4-methyl-2-pentanon"@nl .
@@ -10805,7 +10805,6 @@ csc:SAPGTCDSBGMXCD-UHFFFAOYSA-N
 
 csc:GUTLYIVDDKVIGB-UHFFFAOYSA-N
         rdf:type         dbo:ChemicalCompound , dbo:ChemicalSubstance , skos:Concept;
-        rdfs:comment     "VLAR II bijl. 4.4.2 'kobalt en zijn verbindingen, uitgedrukt in Co'"@nl , "VLAR III (D3, diverse art) 'Co'"@nl , "VLAR III (D3) 'Kobalt en kobaltverbindingen, uitgedrukt als kobalt (Co)'"@nl , "VLAR II D5 'kobalt en kobaltverbindingen, uitgedrukt als kobalt (Co)'"@nl;
         rdfs:seeAlso     compound:104730;
         dbo:casNumber    "7440-48-4" , "16610-75-6";
         dbo:formula      "Co";
@@ -10816,6 +10815,7 @@ csc:GUTLYIVDDKVIGB-UHFFFAOYSA-N
         dbp:inchikey     "GUTLYIVDDKVIGB-UHFFFAOYSA-N";
         skos:altLabel    "kobalt (Co)"@nl , "kobalt"@nl;
         skos:broader     csc:CHEMONTID_0000426;
+        skos:comment     "VLAR III (D3) 'Kobalt en kobaltverbindingen, uitgedrukt als kobalt (Co)'"@nl , "VLAR III (D3, diverse art) 'Co'"@nl , "VLAR II D5 'kobalt en kobaltverbindingen, uitgedrukt als kobalt (Co)'"@nl , "VLAR II bijl. 4.4.2 'kobalt en zijn verbindingen, uitgedrukt in Co'"@nl;
         skos:definition  "kobalt en kobaltverbindingen, uitgedrukt als kobalt (Co)"@nl;
         skos:exactMatch  wise:CAS_7440-48-4;
         skos:inScheme    vlcs:chemische_stof;
@@ -11048,7 +11048,6 @@ csc:NIWWFAAXEMMFMS-IGMARMGPSA-N
 
 csc:LHRCREOYAASXPZ-UHFFFAOYSA-N
         rdf:type         dbo:ChemicalCompound , dbo:ChemicalSubstance , skos:Concept;
-        rdfs:comment     "VLAR II bijl. 4.4.2"@nl , "VLAR II (D2)"@nl;
         rdfs:seeAlso     compound:5889;
         dbo:casNumber    "53-70-3" , "56-56-4";
         dbo:formula      "C22H14";
@@ -11059,6 +11058,7 @@ csc:LHRCREOYAASXPZ-UHFFFAOYSA-N
         dbp:inchikey     "LHRCREOYAASXPZ-UHFFFAOYSA-N";
         skos:altLabel    "dibenzo(a,h)antraceen"@nl , "dibenzo(a,h)an-traceen"@nl;
         skos:broader     csc:CHEMONTID_0000025;
+        skos:comment     "VLAR II (D2)"@nl , "VLAR II bijl. 4.4.2"@nl;
         skos:exactMatch  wise:CAS_53-70-3;
         skos:inScheme    vlcs:chemische_stof;
         skos:notation    "DBahAnt";
@@ -11158,7 +11158,6 @@ csc:YEHHNHSVUHPNNT-UHFFFAOYSA-N
 
 csc:RYHBNJHYFVUHQT-UHFFFAOYSA-N
         rdf:type         dbo:ChemicalSubstance , skos:Concept , dbo:ChemicalCompound;
-        rdfs:comment     "VLAR II bijl. 4.4.2"@nl;
         rdfs:seeAlso     compound:31275;
         dbo:casNumber    "28347-91-3" , "28347-88-8" , "123-91-1" , "54841-74-6" , "39449-24-6";
         dbo:formula      "C4H8O2";
@@ -11168,6 +11167,7 @@ csc:RYHBNJHYFVUHQT-UHFFFAOYSA-N
         dbo:smiles       "C1COCCO1";
         dbp:inchikey     "RYHBNJHYFVUHQT-UHFFFAOYSA-N";
         skos:broader     csc:CHEMONTID_0001313;
+        skos:comment     "VLAR II bijl. 4.4.2"@nl;
         skos:exactMatch  wise:CAS_123-91-1;
         skos:inScheme    vlcs:chemische_stof;
         skos:notation    "14DOxan";
@@ -11948,7 +11948,6 @@ csc:JOPOVCBBYLSVDA-UHFFFAOYSA-N
 
 csc:WDMKCPIVJOGHBF-UHFFFAOYSA-N
         rdf:type         dbo:ChemicalCompound , dbo:ChemicalSubstance , skos:Concept;
-        rdfs:comment     "VLAR III (D3, diverse art)  'dioxinen en furanen'"@nl , "VLAR II+ bijlagen"@nl;
         rdfs:seeAlso     compound:38199;
         dbo:casNumber    "67652-39-5" , "67562-39-4" , "38998-75-3";
         dbo:formula      "C12HCl7O";
@@ -11959,6 +11958,7 @@ csc:WDMKCPIVJOGHBF-UHFFFAOYSA-N
         dbp:inchikey     "WDMKCPIVJOGHBF-UHFFFAOYSA-N";
         skos:altLabel    "1,2,3,4,6,7,8-heptachloordibenzofuraan (hpcdf)"@nl , " 1,2,3,4,6,7,8-heptachloordibenzofuraan"@nl , "1,2,3,4,6,7,8-heptachloordibenzofuran"@nl;
         skos:broader     csc:CHEMONTID_0003029;
+        skos:comment     "VLAR II+ bijlagen"@nl , "VLAR III (D3, diverse art)  'dioxinen en furanen'"@nl;
         skos:exactMatch  wise:CAS_67562-39-4;
         skos:inScheme    vlcs:chemische_stof;
         skos:notation    "PCDF131";
@@ -12272,7 +12272,6 @@ csc:LUQMWGMGWJEGAT-UHFFFAOYSA-N
 
 csc:DKPFZGUDAPQIHT-UHFFFAOYSA-N
         rdf:type        dbo:ChemicalCompound , skos:Concept , dbo:ChemicalSubstance;
-        rdfs:comment    "VLAR II bijl. 4.4.2"@nl;
         rdfs:seeAlso    compound:31272;
         dbo:casNumber   "123-86-4";
         dbo:formula     "C6H12O2";
@@ -12283,6 +12282,7 @@ csc:DKPFZGUDAPQIHT-UHFFFAOYSA-N
         dbp:inchikey    "DKPFZGUDAPQIHT-UHFFFAOYSA-N";
         skos:altLabel   "butylacetaat"@nl;
         skos:broader    csc:CHEMONTID_0001238;
+        skos:comment    "VLAR II bijl. 4.4.2"@nl;
         skos:inScheme   vlcs:chemische_stof;
         skos:notation   "C4yactt";
         skos:prefLabel  "n-butylacetaat"@nl .
@@ -12471,7 +12471,6 @@ csc:LIUBOLYWYDGCSJ-UHFFFAOYSA-N
 
 csc:GQPLMRYTRLFLPF-UHFFFAOYSA-N
         rdf:type        dbo:ChemicalCompound , dbo:ChemicalSubstance , skos:Concept;
-        rdfs:comment    "VLAR III (D3) 'N2O'"@nl , "VLAR II (D1, definities broeikasgassen)"@nl;
         rdfs:seeAlso    compound:948;
         dbo:casNumber   "129451-49-6" , "126386-65-0" , "10024-97-2" , "147527-07-9" , "175876-44-5" , "130835-71-1";
         dbo:formula     "N2O";
@@ -12482,6 +12481,7 @@ csc:GQPLMRYTRLFLPF-UHFFFAOYSA-N
         dbp:inchikey    "GQPLMRYTRLFLPF-UHFFFAOYSA-N";
         skos:altLabel   "distikstofoxide (lachgas)"@nl , "distikstofoxide (N2O)"@nl;
         skos:broader    csc:CHEMONTID_0000553;
+        skos:comment    "VLAR II (D1, definities broeikasgassen)"@nl , "VLAR III (D3) 'N2O'"@nl;
         skos:inScheme   vlcs:chemische_stof;
         skos:notation   "N2O";
         skos:prefLabel  "distikstofoxide (n2o)"@nl .
@@ -12834,7 +12834,6 @@ csc:QEHKBHWEUPXBCW-UHFFFAOYSA-N
 
 csc:AUHZEENZYGFFBQ-UHFFFAOYSA-N
         rdf:type         dbo:ChemicalCompound , skos:Concept , dbo:ChemicalSubstance;
-        rdfs:comment     "VLAR II bijl. 4.4.2 'trimethylbenzeen'"@nl;
         rdfs:seeAlso     compound:7947;
         dbo:casNumber    "108-67-8";
         dbo:formula      "C9H12";
@@ -12844,6 +12843,7 @@ csc:AUHZEENZYGFFBQ-UHFFFAOYSA-N
         dbo:smiles       "CC1=CC(=CC(=C1)C)C";
         dbp:inchikey     "AUHZEENZYGFFBQ-UHFFFAOYSA-N";
         skos:broader     csc:CHEMONTID_0002279;
+        skos:comment     "VLAR II bijl. 4.4.2 'trimethylbenzeen'"@nl;
         skos:exactMatch  wise:CAS_108-67-8;
         skos:inScheme    vlcs:chemische_stof;
         skos:notation    "135TC1yBen";
@@ -12973,7 +12973,6 @@ csc:HVYWMOMLDIMFJA-DPAQBDIFSA-N
 
 csc:VAYGXNSJCAHWJZ-UHFFFAOYSA-N
         rdf:type        skos:Concept , dbo:ChemicalCompound , dbo:ChemicalSubstance;
-        rdfs:comment    "VLAREM II bijlage 4.4.2"@nl;
         rdfs:seeAlso    compound:6497;
         dbo:casNumber   "77-78-1" , "139443-72-4" , "62086-97-9" , "98478-67-2";
         dbo:formula     "C2H6O4S";
@@ -12983,6 +12982,7 @@ csc:VAYGXNSJCAHWJZ-UHFFFAOYSA-N
         dbo:smiles      "COS(=O)(=O)OC";
         dbp:inchikey    "VAYGXNSJCAHWJZ-UHFFFAOYSA-N";
         skos:broader    csc:CHEMONTID_0001184;
+        skos:comment    "VLAREM II bijlage 4.4.2"@nl;
         skos:inScheme   vlcs:chemische_stof;
         skos:notation   "DC1ySO4";
         skos:prefLabel  "dimethylsulfaat"@nl .
@@ -13037,7 +13037,6 @@ csc:QZSFJRIWRPJUOH-UHFFFAOYSA-N
 
 csc:ZHLICBPIXDOFFG-UHFFFAOYSA-N
         rdf:type         skos:Concept , dbo:ChemicalSubstance , dbo:ChemicalCompound;
-        rdfs:comment     "VLAR III (D3) 'dioxineachtige PCB's'"@nl;
         rdfs:seeAlso     compound:36231;
         dbo:casNumber    "32774-16-6" , "1336-36-3";
         dbo:formula      "C12H4Cl6";
@@ -13048,6 +13047,7 @@ csc:ZHLICBPIXDOFFG-UHFFFAOYSA-N
         dbp:inchikey     "ZHLICBPIXDOFFG-UHFFFAOYSA-N";
         skos:altLabel    "pcb 169"@nl , "3,3',4,4',5,5'-hexachloorbifenyl"@nl , "PCB 169"@nl;
         skos:broader     csc:CHEMONTID_0003030;
+        skos:comment     "VLAR III (D3) 'dioxineachtige PCB's'"@nl;
         skos:exactMatch  wise:CAS_32774-16-6 , wise:CAS_1336-36-3;
         skos:inScheme    vlcs:chemische_stof;
         skos:notation    "PCB169";
@@ -13280,7 +13280,6 @@ csc:UDPGUMQDCGORJQ-UHFFFAOYSA-N
 
 csc:WUOBERCRSABHOT-UHFFFAOYSA-N
         rdf:type         dbo:ChemicalSubstance , dbo:ChemicalCompound , skos:Concept;
-        rdfs:comment     "VLAR III (D3) 'antimoon en antimoonverbindingen, uitgedrukt in Antimoon (Sb)'"@nl , "VLAR II (D5) 'antimoon en antimoonverbindingen, uitgedrukt als antimoon (Sb)' en 'antimoon en antimoonverbindingen, uitgedrukt als Sb'"@nl , "VLAR II bijl. 4.4.2 'antimoon en zijn verbindingen, uitgedrukt in Sb'"@nl , "VLAR III (D3) 'antimoon'"@nl , "VLAR III (D3, diverse art) 'Sb'"@nl;
         rdfs:seeAlso     compound:23967;
         dbo:casNumber    "117011-47-9" , "73063-67-9" , "7440-36-0";
         dbo:formula      "Sb2";
@@ -13291,6 +13290,7 @@ csc:WUOBERCRSABHOT-UHFFFAOYSA-N
         dbp:inchikey     "WUOBERCRSABHOT-UHFFFAOYSA-N";
         skos:altLabel    "Antimoon (Sb)"@nl;
         skos:broader     csc:CHEMONTID_0000431;
+        skos:comment     "VLAR III (D3) 'antimoon'"@nl , "VLAR II bijl. 4.4.2 'antimoon en zijn verbindingen, uitgedrukt in Sb'"@nl , "VLAR III (D3, diverse art) 'Sb'"@nl , "VLAR II (D5) 'antimoon en antimoonverbindingen, uitgedrukt als antimoon (Sb)' en 'antimoon en antimoonverbindingen, uitgedrukt als Sb'"@nl , "VLAR III (D3) 'antimoon en antimoonverbindingen, uitgedrukt in Antimoon (Sb)'"@nl;
         skos:definition  "antimoon en antimoonverbindingen, uitgedrukt als antimoon (Sb)"@nl;
         skos:exactMatch  wise:CAS_7440-36-0;
         skos:inScheme    vlcs:chemische_stof;
@@ -13815,7 +13815,6 @@ csc:DMDPGPKXQDIQQG-UHFFFAOYSA-N
 
 csc:LYCAIKOWRPUZTN-UHFFFAOYSA-N
         rdf:type        skos:Concept , dbo:ChemicalSubstance , dbo:ChemicalCompound;
-        rdfs:comment    "VLAREM II bijlage 4.4.2"@nl;
         rdfs:seeAlso    compound:174;
         dbo:casNumber   "107-21-1" , "71767-64-1" , "25322-68-3" , "2219-51-4" , "37225-26-6" , "37221-95-7";
         dbo:formula     "C2H6O2";
@@ -13826,6 +13825,7 @@ csc:LYCAIKOWRPUZTN-UHFFFAOYSA-N
         dbp:inchikey    "LYCAIKOWRPUZTN-UHFFFAOYSA-N";
         skos:altLabel   "ethyleenglycol "@nl , "glycol (monoethyleenglycol)"@nl , "ethyleenglycol"@nl;
         skos:broader    csc:CHEMONTID_0002467;
+        skos:comment    "VLAREM II bijlage 4.4.2"@nl;
         skos:inScheme   vlcs:chemische_stof;
         skos:notation   "glycl";
         skos:prefLabel  "polyethyleenglycol"@nl .
@@ -14060,7 +14060,6 @@ csc:NUPJIGQFXCQJBK-UHFFFAOYSA-N
 
 csc:BRLQWZUYTZBJKN-UHFFFAOYSA-N
         rdf:type         dbo:ChemicalCompound , dbo:ChemicalSubstance , skos:Concept;
-        rdfs:comment     "VLAREM II bijlage 4.4.2"@nl;
         rdfs:seeAlso     compound:7835;
         dbo:casNumber    "109351-74-8" , "36250-81-4" , "6806-86-6" , "13403-37-7" , "9009-12-5" , "106-89-8" , "56227-39-5";
         dbo:formula      "C3H5ClO";
@@ -14071,6 +14070,7 @@ csc:BRLQWZUYTZBJKN-UHFFFAOYSA-N
         dbp:inchikey     "BRLQWZUYTZBJKN-UHFFFAOYSA-N";
         skos:altLabel    "epichloorhydrine"@nl , "1-chloor-2,3-epoxypropaan(epichloorhydrine)"@nl;
         skos:broader     csc:CHEMONTID_0000159;
+        skos:comment     "VLAREM II bijlage 4.4.2"@nl;
         skos:exactMatch  wise:CAS_106-89-8;
         skos:inScheme    vlcs:chemische_stof;
         skos:notation    "epClhdne";
@@ -14748,7 +14748,6 @@ csc:OKTJSMMVPCPJKN-UHFFFAOYSA-N
 
 csc:YAHNWSSFXMVPOU-UHFFFAOYSA-N
         rdf:type         skos:Concept , dbo:ChemicalSubstance , dbo:ChemicalCompound;
-        rdfs:comment     "VLAR III (D3) 'dioxineachtige PCB's'"@nl;
         rdfs:seeAlso     compound:47650;
         dbo:casNumber    "65510-44-3";
         dbo:formula      "C12H5Cl5";
@@ -14759,6 +14758,7 @@ csc:YAHNWSSFXMVPOU-UHFFFAOYSA-N
         dbp:inchikey     "YAHNWSSFXMVPOU-UHFFFAOYSA-N";
         skos:altLabel    "2',3,4,4',5-pentachloorbifenyl (pcb123)"@nl , "2,3',4,4',5'-pentachloorbifenyl"@nl , "pcb 123"@nl;
         skos:broader     csc:CHEMONTID_0003030;
+        skos:comment     "VLAR III (D3) 'dioxineachtige PCB's'"@nl;
         skos:exactMatch  wise:CAS_65510-44-3;
         skos:inScheme    vlcs:chemische_stof;
         skos:notation    "PCB123";
@@ -15487,7 +15487,6 @@ csc:PPKPKFIWDXDAGC-NSCUHMNNSA-N
 
 csc:XTAHLACQOVXINQ-UHFFFAOYSA-N
         rdf:type         skos:Concept , dbo:ChemicalCompound , dbo:ChemicalSubstance;
-        rdfs:comment     "VLAR II+ bijlagen"@nl , "VLAR III (D3, diverse art)  'dioxinen en furanen'"@nl;
         rdfs:seeAlso     compound:43495;
         dbo:casNumber    "60851-34-5";
         dbo:formula      "C12H2Cl6O";
@@ -15498,6 +15497,7 @@ csc:XTAHLACQOVXINQ-UHFFFAOYSA-N
         dbp:inchikey     "XTAHLACQOVXINQ-UHFFFAOYSA-N";
         skos:altLabel    "2,3,4,6,7,8-hexachloordibenzofuraan"@nl , "2,3,4,6,7,8-hexachloordibenzofuraan (hxcdf)"@nl , "2,3,4,6,7,8-hexachloordibenzofuran"@nl;
         skos:broader     csc:CHEMONTID_0003029;
+        skos:comment     "VLAR III (D3, diverse art)  'dioxinen en furanen'"@nl , "VLAR II+ bijlagen"@nl;
         skos:exactMatch  wise:CAS_60851-34-5;
         skos:inScheme    vlcs:chemische_stof;
         skos:notation    "PCDF130";
@@ -15611,7 +15611,6 @@ csc:YMHOBZXQZVXHBM-UHFFFAOYSA-N
 
 csc:YTWXDQVNPCIEOX-UHFFFAOYSA-N
         rdf:type         dbo:ChemicalSubstance , skos:Concept , dbo:ChemicalCompound;
-        rdfs:comment     "VLAR III (D3) 'dioxineachtige PCB's'"@nl;
         rdfs:seeAlso     compound:50891;
         dbo:casNumber    "69782-90-7";
         dbo:formula      "C12H4Cl6";
@@ -15622,6 +15621,7 @@ csc:YTWXDQVNPCIEOX-UHFFFAOYSA-N
         dbp:inchikey     "YTWXDQVNPCIEOX-UHFFFAOYSA-N";
         skos:altLabel    "2,3,3',4,4',5'-hexachloorbifenyl (pcb157)"@nl , "pcb 157"@nl , "PCB 157"@nl;
         skos:broader     csc:CHEMONTID_0003030;
+        skos:comment     "VLAR III (D3) 'dioxineachtige PCB's'"@nl;
         skos:exactMatch  wise:CAS_69782-90-7;
         skos:inScheme    vlcs:chemische_stof;
         skos:notation    "PCB157";
@@ -15994,7 +15994,6 @@ csc:YIWUKEYIRIRTPP-UHFFFAOYSA-N
 
 csc:BKVIYDNLLOSFOA-UHFFFAOYSA-N
         rdf:type         skos:Concept , dbo:ChemicalCompound , dbo:ChemicalSubstance;
-        rdfs:comment     "VLAR III (D3) 'thallium en de verbindingen daarvan, uitgedrukt als thallium (Tl)"@nl , "VLAR II bijl. 2.5.2 'thallium'"@nl , "VLAR III (D3, diverse art) 'Tl'"@nl , "VLAR II bijl. 4.4.2 'thallium en zijn verbindingen, uitgedrukt in Se'"@nl , "VLAR II (D5) 'thallium en thalliumverbindingen, uitgedrukt als thallium'"@nl;
         rdfs:seeAlso     compound:5359464;
         dbo:casNumber    "7440-28-0" , "113835-49-7" , "82870-81-3";
         dbo:formula      "Tl";
@@ -16004,6 +16003,7 @@ csc:BKVIYDNLLOSFOA-UHFFFAOYSA-N
         dbo:smiles       "[Tl]";
         dbp:inchikey     "BKVIYDNLLOSFOA-UHFFFAOYSA-N";
         skos:broader     csc:CHEMONTID_0000427;
+        skos:comment     "VLAR II (D5) 'thallium en thalliumverbindingen, uitgedrukt als thallium'"@nl , "VLAR II bijl. 4.4.2 'thallium en zijn verbindingen, uitgedrukt in Se'"@nl , "VLAR III (D3, diverse art) 'Tl'"@nl , "VLAR II bijl. 2.5.2 'thallium'"@nl , "VLAR III (D3) 'thallium en de verbindingen daarvan, uitgedrukt als thallium (Tl)"@nl;
         skos:definition  "thallium en thalliumverbindingen, uitgedrukt als thallium (Tl)"@nl;
         skos:exactMatch  wise:CAS_7440-28-0;
         skos:inScheme    vlcs:chemische_stof;
@@ -16971,7 +16971,6 @@ csc:HSUGRBWQSSZJOP-RTWAWAEBSA-N
 
 csc:XYLMUPLGERFSHI-UHFFFAOYSA-N
         rdf:type        skos:Concept , dbo:ChemicalSubstance , dbo:ChemicalCompound;
-        rdfs:comment    "VLAR II bijl. 4.4.2"@nl;
         rdfs:seeAlso    compound:7407;
         dbo:casNumber   "98-83-9" , "25014-31-7" , "42612-14-6";
         dbo:formula     "C9H10";
@@ -16982,6 +16981,7 @@ csc:XYLMUPLGERFSHI-UHFFFAOYSA-N
         dbp:inchikey    "XYLMUPLGERFSHI-UHFFFAOYSA-N";
         skos:altLabel   "alfa-methylstyreen"@nl;
         skos:broader    csc:CHEMONTID_0000045;
+        skos:comment    "VLAR II bijl. 4.4.2"@nl;
         skos:inScheme   vlcs:chemische_stof;
         skos:notation   "aC1ysrn";
         skos:prefLabel  "isopropenylbenzeen (alfa-methylstyreen)"@nl .
@@ -17553,7 +17553,6 @@ csc:BHNQPLPANNDEGL-UHFFFAOYSA-N
 
 csc:KFUSEUYYWQURPO-OWOJBTEDSA-N
         rdf:type         skos:Concept , dbo:ChemicalSubstance , dbo:ChemicalCompound;
-        rdfs:comment     "VLAREM II bijlage 4.4.2"@nl;
         rdfs:seeAlso     compound:638186;
         dbo:casNumber    "156-60-5" , "43695-79-0" , "540-59-0";
         dbo:formula      "C2H2Cl2";
@@ -17564,6 +17563,7 @@ csc:KFUSEUYYWQURPO-OWOJBTEDSA-N
         dbp:inchikey     "KFUSEUYYWQURPO-OWOJBTEDSA-N";
         skos:altLabel    "trans-1,2-dichlooretheen"@nl , "1,2-dichlooretheen, cis"@nl , "1,2-dichloorethyleen "@nl , "1,2-dichlooretheen,trans"@nl , "1,2-dichloorethyleen"@nl;
         skos:broader     csc:CHEMONTID_0002863;
+        skos:comment     "VLAREM II bijlage 4.4.2"@nl;
         skos:exactMatch  wise:CAS_540-59-0 , wise:CAS_156-60-5;
         skos:inScheme    vlcs:chemische_stof;
         skos:notation    "12DClC2e" , "t12DClC2e";
@@ -17934,7 +17934,6 @@ csc:CHHCCYVOJBBCIY-UHFFFAOYSA-N
 
 csc:RQNWIZPPADIBDY-UHFFFAOYSA-N
         rdf:type         dbo:ChemicalCompound , dbo:ChemicalSubstance , skos:Concept;
-        rdfs:comment     "VLAR III (D3) 'Arseen en de verbindingen daarvan, uitgedrukt als arseen (As)'"@nl , "VLAREM II bijlage 4.4.2"@nl , "VLAR bijl. II 2.5.8 'arseen'"@nl , "VLAR II bijl. 4.4.2 'arseen en zijn verbindingen, uitgedrukt in As'"@nl , "VLAR III (D3) 'AsH3'"@nl , "VLAR III (D3, diverse art) 'As'"@nl , "VLAR (D2) 'arseen'"@nl , "VLAR II (D5) 'arseen en arseenverbindingen, uitgedrukt als arseen (As)'"@nl;
         rdfs:seeAlso     compound:5359596;
         dbo:casNumber    "55624-62-9" , "7440-38-2" , "39277-51-5" , "7784-42-1";
         dbo:formula      "As";
@@ -17945,6 +17944,7 @@ csc:RQNWIZPPADIBDY-UHFFFAOYSA-N
         dbp:inchikey     "RQNWIZPPADIBDY-UHFFFAOYSA-N";
         skos:altLabel    "arseen (As)"@nl;
         skos:broader     csc:CHEMONTID_0000431;
+        skos:comment     "VLAREM II bijlage 4.4.2"@nl , "VLAR III (D3, diverse art) 'As'"@nl , "VLAR III (D3) 'AsH3'"@nl , "VLAR (D2) 'arseen'"@nl , "VLAR III (D3) 'Arseen en de verbindingen daarvan, uitgedrukt als arseen (As)'"@nl , "VLAR bijl. II 2.5.8 'arseen'"@nl , "VLAR II (D5) 'arseen en arseenverbindingen, uitgedrukt als arseen (As)'"@nl , "VLAR II bijl. 4.4.2 'arseen en zijn verbindingen, uitgedrukt in As'"@nl;
         skos:definition  "arseen en arseenverbindingen, uitgedrukt als arseen (As)"@nl;
         skos:exactMatch  wise:CAS_7440-38-2;
         skos:inScheme    vlcs:chemische_stof;
@@ -17985,7 +17985,6 @@ csc:YNPNZTXNASCQKK-UHFFFAOYSA-N
 
 csc:NIXOWILDQLNWCW-UHFFFAOYSA-N
         rdf:type        skos:Concept , dbo:ChemicalSubstance , dbo:ChemicalCompound;
-        rdfs:comment    "VLAREM II bijlage 4.4.2"@nl;
         rdfs:seeAlso    compound:6581;
         dbo:casNumber   "165724-08-3" , "9007-20-9" , "87913-02-8" , "79-10-7" , "71767-28-7" , "88650-89-9" , "25987-55-7" , "54182-57-9" , "125857-68-3" , "65742-16-7" , "71767-27-6" , "9003-03-6" , "39341-22-5" , "54578-44-8" , "56747-65-0" , "82446-45-5" , "51142-25-7" , "37241-23-9" , "11132-69-7" , "105913-47-1" , "59233-19-1" , "54990-82-8" , "29862-29-1" , "174594-09-3" , "101360-15-0" , "55927-87-2" , "81031-52-9" , "104922-39-6";
         dbo:formula     "C3H4O2";
@@ -17996,6 +17995,7 @@ csc:NIXOWILDQLNWCW-UHFFFAOYSA-N
         dbp:inchikey    "NIXOWILDQLNWCW-UHFFFAOYSA-N";
         skos:altLabel   "2-propeenzuur"@nl , "acrylzuur"@nl;
         skos:broader    csc:CHEMONTID_0004451;
+        skos:comment    "VLAREM II bijlage 4.4.2"@nl;
         skos:inScheme   vlcs:chemische_stof;
         skos:notation   "2C3ezr";
         skos:prefLabel  "acrylzuur "@nl .
@@ -18234,7 +18234,6 @@ csc:VQTVFIMEENGCJA-UHFFFAOYSA-N
 
 csc:YXFVVABEGXRONW-UHFFFAOYSA-N
         rdf:type         skos:Concept , dbo:ChemicalSubstance , dbo:ChemicalCompound;
-        rdfs:comment     "VLAR II bijl. 4.4.2"@nl;
         rdfs:seeAlso     compound:1140;
         dbo:casNumber    "3101-08-4" , "50643-04-4" , "108-88-3";
         dbo:formula      "C7H8";
@@ -18244,6 +18243,7 @@ csc:YXFVVABEGXRONW-UHFFFAOYSA-N
         dbo:smiles       "CC1=CC=CC=C1";
         dbp:inchikey     "YXFVVABEGXRONW-UHFFFAOYSA-N";
         skos:broader     csc:CHEMONTID_0001091;
+        skos:comment     "VLAR II bijl. 4.4.2"@nl;
         skos:exactMatch  wise:CAS_108-88-3;
         skos:inScheme    vlcs:chemische_stof;
         skos:notation    "Tol";
@@ -18401,7 +18401,6 @@ csc:QJAIOCKFIORVFU-UHFFFAOYSA-N
 
 csc:PYUSJFJVDVSXIU-UHFFFAOYSA-N
         rdf:type         dbo:ChemicalCompound , skos:Concept , dbo:ChemicalSubstance;
-        rdfs:comment     "VLAR II+ bijlagen"@nl , "VLAR III (D3, diverse art)  'dioxinen en furanen'"@nl;
         rdfs:seeAlso     compound:51720;
         dbo:casNumber    "72918-21-9";
         dbo:formula      "C12H2Cl6O";
@@ -18412,6 +18411,7 @@ csc:PYUSJFJVDVSXIU-UHFFFAOYSA-N
         dbp:inchikey     "PYUSJFJVDVSXIU-UHFFFAOYSA-N";
         skos:altLabel    "1,2,3,7,8,9-hexachloordibenzofuraan"@nl , " 1,2,3,7,8,9-hexachloordibenzofuraan"@nl , "1,2,3,7,8,9-hexachloordibenzofuraan (hxcdf)"@nl;
         skos:broader     csc:CHEMONTID_0003029;
+        skos:comment     "VLAR II+ bijlagen"@nl , "VLAR III (D3, diverse art)  'dioxinen en furanen'"@nl;
         skos:exactMatch  wise:CAS_72918-21-9;
         skos:inScheme    vlcs:chemische_stof;
         skos:notation    "PCDF124";
@@ -18449,7 +18449,6 @@ csc:HZAXFHJVJLSVMW-UHFFFAOYSA-N
 
 csc:XPFVYQJUAUNWIW-UHFFFAOYSA-N
         rdf:type        dbo:ChemicalCompound , dbo:ChemicalSubstance , skos:Concept;
-        rdfs:comment    "VLAR II bijl. 4.4.2 "@nl;
         rdfs:seeAlso    compound:7361;
         dbo:casNumber   "98-00-0" , "93793-62-5" , "25212-86-6" , "88161-36-8";
         dbo:formula     "C5H6O2";
@@ -18460,6 +18459,7 @@ csc:XPFVYQJUAUNWIW-UHFFFAOYSA-N
         dbp:inchikey    "XPFVYQJUAUNWIW-UHFFFAOYSA-N";
         skos:altLabel   "furfurylalcohol"@nl , "2-furaanmethanol"@nl;
         skos:broader    csc:CHEMONTID_0004144;
+        skos:comment    "VLAR II bijl. 4.4.2 "@nl;
         skos:inScheme   vlcs:chemische_stof;
         skos:notation   "2furC1ol";
         skos:prefLabel  "furfurylalcohol "@nl .
@@ -18676,7 +18676,6 @@ csc:VBLXCTYLWZJBKA-UHFFFAOYSA-N
 
 csc:WCLNVRQZUKYVAI-UHFFFAOYSA-N
         rdf:type         dbo:ChemicalSubstance , dbo:ChemicalCompound , skos:Concept;
-        rdfs:comment     "VLAR II+ bijlagen"@nl , "VLAR III (D3, diverse art)  'dioxinen en furanen'"@nl;
         rdfs:seeAlso     compound:37270;
         dbo:casNumber    "35822-46-9";
         dbo:formula      "C12HCl7O2";
@@ -18687,6 +18686,7 @@ csc:WCLNVRQZUKYVAI-UHFFFAOYSA-N
         dbp:inchikey     "WCLNVRQZUKYVAI-UHFFFAOYSA-N";
         skos:altLabel    "1,2,3,4,6,7,8-heptachloordibenzodioxine (hpcdd)"@nl , " 1,2,3,4,6,7,8-heptachloordibenzodioxine"@nl , "1,2,3,4,6,7,8-heptachloordibenzo-p-dioxine"@nl , "1,2,3,4,6,7,8-heptachloordibenzodioxine"@nl;
         skos:broader     csc:CHEMONTID_0000420;
+        skos:comment     "VLAR II+ bijlagen"@nl , "VLAR III (D3, diverse art)  'dioxinen en furanen'"@nl;
         skos:exactMatch  wise:CAS_35822-46-9;
         skos:inScheme    vlcs:chemische_stof;
         skos:notation    "PCDD73";
@@ -19117,7 +19117,6 @@ csc:LINPIYWFGCPVIE-UHFFFAOYSA-N
 
 csc:ZXEKIIBDNHEJCQ-UHFFFAOYSA-N
         rdf:type        skos:Concept , dbo:ChemicalSubstance , dbo:ChemicalCompound;
-        rdfs:comment    "VLAR II bijl. 4.4.2 'alkylalcohol'"@nl;
         rdfs:seeAlso    compound:6560;
         dbo:casNumber   "78-83-1" , "68989-27-5";
         dbo:formula     "C4H10O";
@@ -19128,6 +19127,7 @@ csc:ZXEKIIBDNHEJCQ-UHFFFAOYSA-N
         dbp:inchikey    "ZXEKIIBDNHEJCQ-UHFFFAOYSA-N";
         skos:altLabel   "2-methylpropanol (iso-butanol)"@nl;
         skos:broader    csc:CHEMONTID_0000286;
+        skos:comment    "VLAR II bijl. 4.4.2 'alkylalcohol'"@nl;
         skos:inScheme   vlcs:chemische_stof;
         skos:notation   "2C1yC3ol";
         skos:prefLabel  "isobutanol"@nl .
@@ -19164,7 +19164,6 @@ csc:ILKJAFIWWBXGDU-WRRBAOOESA-N
 
 csc:IUTPYMGCWINGEY-UHFFFAOYSA-N
         rdf:type         skos:Concept , dbo:ChemicalCompound , dbo:ChemicalSubstance;
-        rdfs:comment     "VLAR III (D3) 'dioxineachtige PCB's'"@nl;
         rdfs:seeAlso     compound:35823;
         dbo:casNumber    "31508-00-6";
         dbo:formula      "C12H5Cl5";
@@ -19175,6 +19174,7 @@ csc:IUTPYMGCWINGEY-UHFFFAOYSA-N
         dbp:inchikey     "IUTPYMGCWINGEY-UHFFFAOYSA-N";
         skos:altLabel    "pcb 118"@nl , "2,3',4,4',5-pentachloorbifenyl (pcb118)"@nl , "PCB 118"@nl;
         skos:broader     csc:CHEMONTID_0003030;
+        skos:comment     "VLAR III (D3) 'dioxineachtige PCB's'"@nl;
         skos:exactMatch  wise:CAS_31508-00-6;
         skos:inScheme    vlcs:chemische_stof;
         skos:notation    "PCB118";
@@ -19658,7 +19658,6 @@ csc:ZLSWBLPERHFHIS-UHFFFAOYSA-N
 
 csc:URLKBWYHVLBVBO-UHFFFAOYSA-N
         rdf:type         skos:Concept , dbo:ChemicalCompound , dbo:ChemicalSubstance;
-        rdfs:comment     "VLAR II bijl. 4.4.2 'xylenen'"@nl;
         rdfs:seeAlso     compound:7809;
         dbo:casNumber    "68650-36-2" , "106-42-3" , "68411-39-2";
         dbo:formula      "C8H10";
@@ -19669,6 +19668,7 @@ csc:URLKBWYHVLBVBO-UHFFFAOYSA-N
         dbp:inchikey     "URLKBWYHVLBVBO-UHFFFAOYSA-N";
         skos:altLabel    "p-xyleen"@nl , "1,4-xyleen"@nl , "1,4-Dimethylbenzeen"@nl;
         skos:broader     csc:CHEMONTID_0004211;
+        skos:comment     "VLAR II bijl. 4.4.2 'xylenen'"@nl;
         skos:exactMatch  wise:CAS_106-42-3;
         skos:inScheme    vlcs:chemische_stof;
         skos:notation    "14xyln";
@@ -19752,7 +19752,6 @@ csc:RUIFULUFLANOCI-UHFFFAOYSA-N
 
 csc:SECXISVLQFMRJM-UHFFFAOYSA-N
         rdf:type        dbo:ChemicalSubstance , dbo:ChemicalCompound , skos:Concept;
-        rdfs:comment    "VLAREM II bijlage 4.4.2"@nl;
         rdfs:seeAlso    compound:13387;
         dbo:casNumber   "26138-58-9" , "872-50-4" , "30207-69-3" , "51013-18-4" , "57762-46-6" , "53774-35-9";
         dbo:formula     "C5H9NO";
@@ -19763,6 +19762,7 @@ csc:SECXISVLQFMRJM-UHFFFAOYSA-N
         dbp:inchikey    "SECXISVLQFMRJM-UHFFFAOYSA-N";
         skos:altLabel   "n-methylpyrrolidon"@nl , "N-methylpyrrolidon "@nl;
         skos:broader    csc:CHEMONTID_0003449;
+        skos:comment    "VLAREM II bijlage 4.4.2"@nl;
         skos:inScheme   vlcs:chemische_stof;
         skos:notation   "1C1y2prldnn";
         skos:prefLabel  "1-methyl-2-pyrrolidinon"@nl .
@@ -20239,7 +20239,6 @@ csc:UCSJYZPVAKXKNQ-HZYVHMACSA-N
 
 csc:XSTXAVWGXDQKEL-UHFFFAOYSA-N
         rdf:type         dbo:ChemicalSubstance , dbo:ChemicalCompound , skos:Concept;
-        rdfs:comment     "VLAR II Art. 5.4.3.1.4"@nl , "VLAR II bijl. 4.4.2"@nl;
         rdfs:seeAlso     compound:6575;
         dbo:casNumber    "79-01-6" , "52037-46-4";
         dbo:formula      "C2HCl3";
@@ -20250,6 +20249,7 @@ csc:XSTXAVWGXDQKEL-UHFFFAOYSA-N
         dbp:inchikey     "XSTXAVWGXDQKEL-UHFFFAOYSA-N";
         skos:altLabel    "trichlooretheen (tri)"@nl , "trichloorethyleen (tri)"@nl , "trichlooretheen"@nl;
         skos:broader     csc:CHEMONTID_0002863;
+        skos:comment     "VLAR II Art. 5.4.3.1.4"@nl , "VLAR II bijl. 4.4.2"@nl;
         skos:exactMatch  wise:CAS_79-01-6;
         skos:inScheme    vlcs:chemische_stof;
         skos:notation    "TClC2e";
@@ -20758,7 +20758,6 @@ csc:PWWVAXIEGOYWEE-UHFFFAOYSA-N
 
 csc:PXBRQCKWGAHEHS-UHFFFAOYSA-N
         rdf:type         dbo:ChemicalCompound , dbo:ChemicalSubstance , skos:Concept;
-        rdfs:comment     "VLAREM II bijlage 4.4.2"@nl;
         rdfs:seeAlso     compound:6391;
         dbo:casNumber    "62185-71-1" , "75-71-8" , "185009-39-6";
         dbo:formula      "CCl2F2";
@@ -20769,6 +20768,7 @@ csc:PXBRQCKWGAHEHS-UHFFFAOYSA-N
         dbp:inchikey     "PXBRQCKWGAHEHS-UHFFFAOYSA-N";
         skos:altLabel    "dichloordifluormethaan"@nl , "dichloordifluormethaan (cfk12)"@nl;
         skos:broader     csc:CHEMONTID_0004521;
+        skos:comment     "VLAREM II bijlage 4.4.2"@nl;
         skos:exactMatch  wise:CAS_75-71-8;
         skos:inScheme    vlcs:chemische_stof;
         skos:notation    "CFK12";
@@ -20852,7 +20852,6 @@ csc:ISRUGXGCCGIOQO-UHFFFAOYSA-N
 
 csc:XTXRWKRVRITETP-UHFFFAOYSA-N
         rdf:type        skos:Concept , dbo:ChemicalSubstance , dbo:ChemicalCompound;
-        rdfs:comment    "VLAR II bijl. 4.4.2"@nl;
         rdfs:seeAlso    compound:7904;
         dbo:casNumber   "108-05-4" , "220713-36-0" , "85306-26-9" , "82041-23-4" , "61891-42-7";
         dbo:formula     "C4H6O2";
@@ -20862,13 +20861,13 @@ csc:XTXRWKRVRITETP-UHFFFAOYSA-N
         dbo:smiles      "CC(=O)OC=C";
         dbp:inchikey    "XTXRWKRVRITETP-UHFFFAOYSA-N";
         skos:broader    csc:CHEMONTID_0002354;
+        skos:comment    "VLAR II bijl. 4.4.2"@nl;
         skos:inScheme   vlcs:chemische_stof;
         skos:notation   "vinactt";
         skos:prefLabel  "vinylacetaat"@nl .
 
 csc:XYFCBTPGUUZFHI-UHFFFAOYSA-N
         rdf:type        skos:Concept , dbo:ChemicalCompound , dbo:ChemicalSubstance;
-        rdfs:comment    "VLAR III (D3) 'fosforwaterstof'"@nl , "VLAREM II bijlage 4.4.2"@nl;
         rdfs:seeAlso    compound:24404;
         dbo:casNumber   "167076-44-0" , "29879-37-6" , "7803-51-2";
         dbo:formula     "H3P";
@@ -20879,6 +20878,7 @@ csc:XYFCBTPGUUZFHI-UHFFFAOYSA-N
         dbp:inchikey    "XYFCBTPGUUZFHI-UHFFFAOYSA-N";
         skos:altLabel   "fosforwaterstof of fosfine of fosfaan?"@nl;
         skos:broader    csc:CHEMONTID_0000434;
+        skos:comment    "VLAR III (D3) 'fosforwaterstof'"@nl , "VLAREM II bijlage 4.4.2"@nl;
         skos:inScheme   vlcs:chemische_stof;
         skos:notation   "fosfne";
         skos:prefLabel  "fosfine"@nl .
@@ -20964,7 +20964,6 @@ csc:RLLPVAHGXHCWKJ-HKUYNNGSSA-N
 
 csc:ZTQSAGDEMFDKMZ-UHFFFAOYSA-N
         rdf:type        dbo:ChemicalCompound , skos:Concept , dbo:ChemicalSubstance;
-        rdfs:comment    "VLAREM II bijlage 4.4.2"@nl;
         rdfs:seeAlso    compound:261;
         dbo:casNumber   "123-72-8";
         dbo:formula     "C4H8O";
@@ -20975,6 +20974,7 @@ csc:ZTQSAGDEMFDKMZ-UHFFFAOYSA-N
         dbp:inchikey    "ZTQSAGDEMFDKMZ-UHFFFAOYSA-N";
         skos:altLabel   "butyraldehyde"@nl;
         skos:broader    csc:CHEMONTID_0002434;
+        skos:comment    "VLAREM II bijlage 4.4.2"@nl;
         skos:inScheme   vlcs:chemische_stof;
         skos:notation   "C4al";
         skos:prefLabel  "butanal"@nl .
@@ -21300,7 +21300,6 @@ csc:VLLVVZDKBSYMCG-UHFFFAOYSA-N
 
 csc:ZWEHNKRNPOVVGH-UHFFFAOYSA-N
         rdf:type        dbo:ChemicalCompound , skos:Concept , dbo:ChemicalSubstance;
-        rdfs:comment    "VLAR II bijl. 4.4.2 'butanon'"@nl;
         rdfs:seeAlso    compound:6569;
         dbo:casNumber   "78-93-3" , "135311-02-3";
         dbo:formula     "C4H8O";
@@ -21311,6 +21310,7 @@ csc:ZWEHNKRNPOVVGH-UHFFFAOYSA-N
         dbp:inchikey    "ZWEHNKRNPOVVGH-UHFFFAOYSA-N";
         skos:altLabel   "2-butanon (MEK)"@nl;
         skos:broader    csc:CHEMONTID_0000118;
+        skos:comment    "VLAR II bijl. 4.4.2 'butanon'"@nl;
         skos:inScheme   vlcs:chemische_stof;
         skos:notation   "2C4on";
         skos:prefLabel  "2-butanon"@nl .
@@ -21348,7 +21348,6 @@ csc:PCHJSUWPFVWCPO-UHFFFAOYSA-N
 
 csc:LGXVIGDEPROXKC-UHFFFAOYSA-N
         rdf:type         dbo:ChemicalSubstance , dbo:ChemicalCompound , skos:Concept;
-        rdfs:comment     "VLAR II bijl. 4.4.2"@nl;
         rdfs:seeAlso     compound:6366;
         dbo:casNumber    "50926-92-6" , "50861-72-8" , "75-35-4" , "37243-65-5" , "25038-48-6" , "56590-95-5" , "9002-85-1" , "120025-75-4" , "9050-12-8" , "39373-50-7";
         dbo:formula      "C2H2Cl2";
@@ -21359,6 +21358,7 @@ csc:LGXVIGDEPROXKC-UHFFFAOYSA-N
         dbp:inchikey     "LGXVIGDEPROXKC-UHFFFAOYSA-N";
         skos:altLabel    "1,1-dichloorethaan"@nl , "1,1-dichlooretheen"@nl;
         skos:broader     csc:CHEMONTID_0001168;
+        skos:comment     "VLAR II bijl. 4.4.2"@nl;
         skos:exactMatch  wise:CAS_75-35-4;
         skos:inScheme    vlcs:chemische_stof;
         skos:notation    "11DClC2e";
@@ -21578,7 +21578,6 @@ csc:YQEZLKZALYSWHR-UHFFFAOYSA-N
 
 csc:OFBQJSOFQDEBGM-UHFFFAOYSA-N
         rdf:type        dbo:ChemicalCompound , skos:Concept , dbo:ChemicalSubstance;
-        rdfs:comment    "VLAR II bijl. 4.4.2 'paraffinische koolwaterstoffen (behalve methaan)'"@nl;
         rdfs:seeAlso    compound:8003;
         dbo:casNumber   "102056-77-9" , "68476-55-1" , "68475-60-5" , "68476-43-7" , "109-66-0" , "8031-35-4" , "68647-60-9";
         dbo:formula     "C5H12";
@@ -21589,6 +21588,7 @@ csc:OFBQJSOFQDEBGM-UHFFFAOYSA-N
         dbp:inchikey    "OFBQJSOFQDEBGM-UHFFFAOYSA-N";
         skos:altLabel   "pentaan"@nl;
         skos:broader    csc:CHEMONTID_0002500;
+        skos:comment    "VLAR II bijl. 4.4.2 'paraffinische koolwaterstoffen (behalve methaan)'"@nl;
         skos:inScheme   vlcs:chemische_stof;
         skos:notation   "C5a";
         skos:prefLabel  "n-pentaan"@nl .
@@ -21717,7 +21717,6 @@ csc:CWRYPZZKDGJXCA-UHFFFAOYSA-N
 
 csc:IVSZLXZYQVIEFR-UHFFFAOYSA-N
         rdf:type         dbo:ChemicalSubstance , dbo:ChemicalCompound , skos:Concept;
-        rdfs:comment     "VLAR II bijl. 4.4.2 'xylenen'"@nl;
         rdfs:seeAlso     compound:7929;
         dbo:casNumber    "108-38-3";
         dbo:formula      "C8H10";
@@ -21728,6 +21727,7 @@ csc:IVSZLXZYQVIEFR-UHFFFAOYSA-N
         dbp:inchikey     "IVSZLXZYQVIEFR-UHFFFAOYSA-N";
         skos:altLabel    "m-xyleen"@nl , "1,3-xyleen"@nl , "1,3-Dimethylbenzeen"@nl;
         skos:broader     csc:CHEMONTID_0004209;
+        skos:comment     "VLAR II bijl. 4.4.2 'xylenen'"@nl;
         skos:exactMatch  wise:CAS_108-38-3;
         skos:inScheme    vlcs:chemische_stof;
         skos:notation    "13xyln";
@@ -21857,7 +21857,6 @@ csc:GBNHEBQXJVDXSW-UHFFFAOYSA-N
 
 csc:BKIMMITUMNQMOS-UHFFFAOYSA-N
         rdf:type        dbo:ChemicalCompound , dbo:ChemicalSubstance , skos:Concept;
-        rdfs:comment    "VLAR II bijl. 4.4.2 'paraffinische koolwaterstoffen (behalve methaan)'"@nl;
         rdfs:seeAlso    compound:8141;
         dbo:casNumber   "111-84-2" , "61193-19-9";
         dbo:formula     "C9H20";
@@ -21868,6 +21867,7 @@ csc:BKIMMITUMNQMOS-UHFFFAOYSA-N
         dbp:inchikey    "BKIMMITUMNQMOS-UHFFFAOYSA-N";
         skos:altLabel   "nonaan"@nl;
         skos:broader    csc:CHEMONTID_0002500;
+        skos:comment    "VLAR II bijl. 4.4.2 'paraffinische koolwaterstoffen (behalve methaan)'"@nl;
         skos:inScheme   vlcs:chemische_stof;
         skos:notation   "C9a";
         skos:prefLabel  "n-nonaan"@nl .
@@ -22056,7 +22056,6 @@ csc:DZUPKTNAUCDVTL-UHFFFAOYSA-N
 
 csc:PXHVJJICTQNCMI-UHFFFAOYSA-N
         rdf:type         dbo:ChemicalCompound , dbo:ChemicalSubstance , skos:Concept;
-        rdfs:comment     "VLAR II bijl. 4.4.2 nikkel (nikkelmetaal, nikkelsulfide en sulfidische ertsen, nikkeloxide en nikkelcarbonaat, nikkeltetracarbonyl), uitgedrukt in Ni'"@nl , "VLAR III (D3, diverse art) 'Ni'"@nl , "VLAR II (D5) 'nikkel en nikkelverbindingen, uitgedrukt als nikkel (Ni)'"@nl , "VLAR II bijl. 4.4.2 'nikkel en zijn verbindingen, uitgedrukt in Ni'"@nl , "VLAR III (D3) 'Nikkel'"@nl , "VLAR II (D2/D5) 'nikkel'"@nl , "VLAR III (D3) 'Nikkel en de verbindingen daarvan, uitgedrukt als nikkel (Ni)'"@nl , "VLAR bijl. 2.5.8.1 'Nikkel'"@nl;
         rdfs:seeAlso     compound:935;
         dbo:casNumber    "8049-31-8" , "112084-17-0" , "14903-34-5" , "7440-02-0" , "21595-53-9" , "17375-04-1" , "68412-20-4" , "53527-81-4" , "39303-46-3" , "195161-84-3";
         dbo:formula      "Ni";
@@ -22067,6 +22066,7 @@ csc:PXHVJJICTQNCMI-UHFFFAOYSA-N
         dbp:inchikey     "PXHVJJICTQNCMI-UHFFFAOYSA-N";
         skos:altLabel    "Nikkel (Ni)"@nl;
         skos:broader     csc:CHEMONTID_0000426;
+        skos:comment     "VLAR II (D2/D5) 'nikkel'"@nl , "VLAR III (D3) 'Nikkel'"@nl , "VLAR II bijl. 4.4.2 nikkel (nikkelmetaal, nikkelsulfide en sulfidische ertsen, nikkeloxide en nikkelcarbonaat, nikkeltetracarbonyl), uitgedrukt in Ni'"@nl , "VLAR bijl. 2.5.8.1 'Nikkel'"@nl , "VLAR III (D3) 'Nikkel en de verbindingen daarvan, uitgedrukt als nikkel (Ni)'"@nl , "VLAR II bijl. 4.4.2 'nikkel en zijn verbindingen, uitgedrukt in Ni'"@nl , "VLAR III (D3, diverse art) 'Ni'"@nl , "VLAR II (D5) 'nikkel en nikkelverbindingen, uitgedrukt als nikkel (Ni)'"@nl;
         skos:definition  "nikkel en nikkelverbindingen, uitgedrukt als nikkel (Ni)"@nl;
         skos:exactMatch  wise:CAS_7440-02-0;
         skos:inScheme    vlcs:chemische_stof;
@@ -22292,7 +22292,6 @@ csc:ZKGSEEWIVLAUNH-UHFFFAOYSA-N
 
 csc:GOOHAUXETOMSMM-UHFFFAOYSA-N
         rdf:type        skos:Concept , dbo:ChemicalCompound , dbo:ChemicalSubstance;
-        rdfs:comment    "VLAREM II bijlage 4.4.2"@nl;
         rdfs:seeAlso    compound:6378;
         dbo:casNumber   "16033-71-9" , "75-56-9";
         dbo:formula     "C3H6O";
@@ -22303,6 +22302,7 @@ csc:GOOHAUXETOMSMM-UHFFFAOYSA-N
         dbp:inchikey    "GOOHAUXETOMSMM-UHFFFAOYSA-N";
         skos:altLabel   "propyleenoxide"@nl;
         skos:broader    csc:CHEMONTID_0000159;
+        skos:comment    "VLAREM II bijlage 4.4.2"@nl;
         skos:inScheme   vlcs:chemische_stof;
         skos:notation   "C3yeO";
         skos:prefLabel  "1,2-epoxypropaan"@nl .
@@ -22416,7 +22416,6 @@ csc:RAHZWNYVWXNFOC-UHFFFAOYSA-N
 
 csc:WSFSSNUMVMOOMR-UHFFFAOYSA-N
         rdf:type         skos:Concept , dbo:ChemicalCompound , dbo:ChemicalSubstance;
-        rdfs:comment     "VLAR III (D3, diverse art) "@nl , "VLAR II bijl. 4.4.2"@nl , "VLAR II (D5, diverse art)"@nl;
         rdfs:seeAlso     compound:712;
         dbo:casNumber    "30525-89-4" , "8006-07-3" , "112068-71-0" , "12795-06-1" , "50-00-0" , "8013-13-6" , "8005-38-7" , "53026-80-5";
         dbo:formula      "CH2O";
@@ -22427,6 +22426,7 @@ csc:WSFSSNUMVMOOMR-UHFFFAOYSA-N
         dbp:inchikey     "WSFSSNUMVMOOMR-UHFFFAOYSA-N";
         skos:altLabel    "formaldehyde"@nl , "paraformaldehyde"@nl;
         skos:broader     csc:CHEMONTID_0001831;
+        skos:comment     "VLAR II (D5, diverse art)"@nl , "VLAR III (D3, diverse art) "@nl , "VLAR II bijl. 4.4.2"@nl;
         skos:exactMatch  wise:CAS_50-00-0;
         skos:inScheme    vlcs:chemische_stof;
         skos:notation    "C1al" , "parfAh";
@@ -22810,7 +22810,6 @@ csc:UFHFLCQGNIYNRP-JMRXTUGHSA-N
 
 csc:NBBJYMSMWIIQGU-UHFFFAOYSA-N
         rdf:type        dbo:ChemicalCompound , skos:Concept , dbo:ChemicalSubstance;
-        rdfs:comment    "VLAREM II bijlage 4.4.2"@nl;
         rdfs:seeAlso    compound:527;
         dbo:casNumber   "123-38-6";
         dbo:formula     "C3H6O";
@@ -22821,6 +22820,7 @@ csc:NBBJYMSMWIIQGU-UHFFFAOYSA-N
         dbp:inchikey    "NBBJYMSMWIIQGU-UHFFFAOYSA-N";
         skos:altLabel   "propanal"@nl , "propionaldehyde"@nl;
         skos:broader    csc:CHEMONTID_0002434;
+        skos:comment    "VLAREM II bijlage 4.4.2"@nl;
         skos:inScheme   vlcs:chemische_stof;
         skos:notation   "C3al";
         skos:prefLabel  "propionaldehyde "@nl .
@@ -23635,7 +23635,6 @@ csc:LEONUFNNVUYDNQ-OIOBTWANSA-N
 
 csc:BDERNNFJNOPAEC-UHFFFAOYSA-N
         rdf:type        dbo:ChemicalCompound , dbo:ChemicalSubstance , skos:Concept;
-        rdfs:comment    "VLAR II bijl. 4.4.2 'alkylalcohol'"@nl;
         rdfs:seeAlso    compound:1031;
         dbo:casNumber   "71-23-8" , "62309-51-7";
         dbo:formula     "C3H8O";
@@ -23646,6 +23645,7 @@ csc:BDERNNFJNOPAEC-UHFFFAOYSA-N
         dbp:inchikey    "BDERNNFJNOPAEC-UHFFFAOYSA-N";
         skos:altLabel   "propanol"@nl;
         skos:broader    csc:CHEMONTID_0000286;
+        skos:comment    "VLAR II bijl. 4.4.2 'alkylalcohol'"@nl;
         skos:inScheme   vlcs:chemische_stof;
         skos:notation   "C3ol";
         skos:prefLabel  "n-propanol"@nl .
@@ -23862,7 +23862,6 @@ csc:IXQGCWUGDFDQMF-UHFFFAOYSA-N
 
 csc:VEZCTZWLJYWARH-UHFFFAOYSA-N
         rdf:type         dbo:ChemicalSubstance , dbo:ChemicalCompound , skos:Concept;
-        rdfs:comment     "VLAR III (D3, diverse art)  'dioxinen en furanen'"@nl , "VLAR II+ bijlagen"@nl;
         rdfs:seeAlso     compound:41510;
         dbo:casNumber    "55673-89-7";
         dbo:formula      "C12HCl7O";
@@ -23873,6 +23872,7 @@ csc:VEZCTZWLJYWARH-UHFFFAOYSA-N
         dbp:inchikey     "VEZCTZWLJYWARH-UHFFFAOYSA-N";
         skos:altLabel    " 1,2,3,4,7,8,9-heptachloordibenzofuraan"@nl , "1,2,3,4,7,8,9-heptachloordibenzofuraan (hpcdf)"@nl , "1,2,3,4,7,8,9-heptachloordibenzofuran"@nl;
         skos:broader     csc:CHEMONTID_0003029;
+        skos:comment     "VLAR II+ bijlagen"@nl , "VLAR III (D3, diverse art)  'dioxinen en furanen'"@nl;
         skos:exactMatch  wise:CAS_55673-89-7;
         skos:inScheme    vlcs:chemische_stof;
         skos:notation    "PCDF134";
@@ -24096,7 +24096,6 @@ csc:BULLHNJGPPOUOX-UHFFFAOYSA-N
 
 csc:REHONNLQRWTIFF-UHFFFAOYSA-N
         rdf:type         dbo:ChemicalCompound , skos:Concept , dbo:ChemicalSubstance;
-        rdfs:comment     "VLAR III (D3) 'dioxineachtige PCB's'"@nl;
         rdfs:seeAlso     compound:63090;
         dbo:casNumber    "57465-28-8";
         dbo:formula      "C12H5Cl5";
@@ -24107,6 +24106,7 @@ csc:REHONNLQRWTIFF-UHFFFAOYSA-N
         dbp:inchikey     "REHONNLQRWTIFF-UHFFFAOYSA-N";
         skos:altLabel    "3,3',4,4',5-pentachloorbifenyl"@nl , "3,3',4,4',5-pentachloorbifenyl (pcb126)"@nl , "pcb 126"@nl;
         skos:broader     csc:CHEMONTID_0003030;
+        skos:comment     "VLAR III (D3) 'dioxineachtige PCB's'"@nl;
         skos:exactMatch  wise:CAS_57465-28-8;
         skos:inScheme    vlcs:chemische_stof;
         skos:notation    "PCB126";
@@ -24129,7 +24129,6 @@ csc:AMSPWOYQQAWRRM-UHFFFAOYSA-N
 
 csc:AFFLGGQVNFXPEV-UHFFFAOYSA-N
         rdf:type        dbo:ChemicalSubstance , skos:Concept , dbo:ChemicalCompound;
-        rdfs:comment    "VLAR II bijl. 4.4.2 'Olefinische koolwaterstoffen (behalve 1,3-butadieen)'"@nl;
         rdfs:seeAlso    compound:13381;
         dbo:casNumber   "68037-01-4" , "105054-87-3" , "872-05-9" , "25189-70-2" , "108778-38-7";
         dbo:formula     "C10H20";
@@ -24139,6 +24138,7 @@ csc:AFFLGGQVNFXPEV-UHFFFAOYSA-N
         dbo:smiles      "CCCCCCCCC=C";
         dbp:inchikey    "AFFLGGQVNFXPEV-UHFFFAOYSA-N";
         skos:broader    csc:CHEMONTID_0004476;
+        skos:comment    "VLAR II bijl. 4.4.2 'Olefinische koolwaterstoffen (behalve 1,3-butadieen)'"@nl;
         skos:inScheme   vlcs:chemische_stof;
         skos:notation   "1C10e";
         skos:prefLabel  "1-deceen"@nl .
@@ -24358,7 +24358,6 @@ csc:JJDFVIDVSCYKDS-UHFFFAOYSA-N
 
 csc:AKEJUJNQAAGONA-UHFFFAOYSA-N
         rdf:type        dbo:ChemicalCompound , skos:Concept , dbo:ChemicalSubstance;
-        rdfs:comment    "VLAR II Art. 5.7.3.1 'zwaveltrioxide'"@nl , "VLAR II Art. 5.7.2.3 'gasvormig zwaveldioxide en zwaveltrioxide, met inbegrip van zuurdruppels berekend als SO2-equivalent'"@nl , "VLAR III (D3, diverse art) 'SO3'"@nl;
         rdfs:seeAlso    compound:24682;
         dbo:casNumber   "12210-38-7" , "7446-11-9";
         dbo:formula     "O3S";
@@ -24368,6 +24367,7 @@ csc:AKEJUJNQAAGONA-UHFFFAOYSA-N
         dbo:smiles      "O=S(=O)=O";
         dbp:inchikey    "AKEJUJNQAAGONA-UHFFFAOYSA-N";
         skos:broader    csc:CHEMONTID_0000554;
+        skos:comment    "VLAR II Art. 5.7.2.3 'gasvormig zwaveldioxide en zwaveltrioxide, met inbegrip van zuurdruppels berekend als SO2-equivalent'"@nl , "VLAR II Art. 5.7.3.1 'zwaveltrioxide'"@nl , "VLAR III (D3, diverse art) 'SO3'"@nl;
         skos:inScheme   vlcs:chemische_stof;
         skos:notation   "SO3";
         skos:prefLabel  "zwaveltrioxide"@nl .
@@ -24568,7 +24568,6 @@ csc:CUUQUEAUUPYEKK-UHFFFAOYSA-N
 
 csc:HAXBIWFMXWRORI-UHFFFAOYSA-N
         rdf:type         dbo:ChemicalSubstance , dbo:ChemicalCompound , skos:Concept;
-        rdfs:comment     "VLAR II (D2)"@nl;
         rdfs:seeAlso     compound:9158;
         dbo:casNumber    "207-08-9";
         dbo:formula      "C20H12";
@@ -24578,6 +24577,7 @@ csc:HAXBIWFMXWRORI-UHFFFAOYSA-N
         dbo:smiles       "C1=CC=C2C=C3C4=CC=CC5=C4C(=CC=C5)C3=CC2=C1";
         dbp:inchikey     "HAXBIWFMXWRORI-UHFFFAOYSA-N";
         skos:broader     csc:CHEMONTID_0000023;
+        skos:comment     "VLAR II (D2)"@nl;
         skos:exactMatch  wise:CAS_207-08-9;
         skos:inScheme    vlcs:chemische_stof;
         skos:notation    "BkF";
@@ -24879,7 +24879,6 @@ csc:LHJGJYXLEPZJPM-UHFFFAOYSA-N
 
 csc:JBIJLHTVPXGSAM-UHFFFAOYSA-N
         rdf:type        dbo:ChemicalSubstance , dbo:ChemicalCompound , skos:Concept;
-        rdfs:comment    "VLAREM II bijlage 4.4.2"@nl;
         rdfs:seeAlso    compound:7057;
         dbo:casNumber   "91-59-8";
         dbo:formula     "C10H9N";
@@ -24890,6 +24889,7 @@ csc:JBIJLHTVPXGSAM-UHFFFAOYSA-N
         dbp:inchikey    "JBIJLHTVPXGSAM-UHFFFAOYSA-N";
         skos:altLabel   "2-aminonaftaleen"@nl;
         skos:broader    csc:CHEMONTID_0000023;
+        skos:comment    "VLAREM II bijlage 4.4.2"@nl;
         skos:inScheme   vlcs:chemische_stof;
         skos:notation   "2AoNaf";
         skos:prefLabel  "2-naftylamine"@nl .
@@ -25047,7 +25047,6 @@ csc:AQPHBYQUCKHJLT-UHFFFAOYSA-N
 
 csc:UBOXGVDOUJQMTN-UHFFFAOYSA-N
         rdf:type         dbo:ChemicalCompound , skos:Concept , dbo:ChemicalSubstance;
-        rdfs:comment     "VLAR II bijl. 4.4.2"@nl;
         rdfs:seeAlso     compound:6574;
         dbo:casNumber    "79-00-5";
         dbo:formula      "C2H3Cl3";
@@ -25057,6 +25056,7 @@ csc:UBOXGVDOUJQMTN-UHFFFAOYSA-N
         dbo:smiles       "C(C(Cl)Cl)Cl";
         dbp:inchikey     "UBOXGVDOUJQMTN-UHFFFAOYSA-N";
         skos:broader     csc:CHEMONTID_0001516;
+        skos:comment     "VLAR II bijl. 4.4.2"@nl;
         skos:exactMatch  wise:CAS_79-00-5;
         skos:inScheme    vlcs:chemische_stof;
         skos:notation    "112TClC2a";
@@ -25279,7 +25279,6 @@ csc:NDSBDLSWTGLNQA-UHFFFAOYSA-N
 
 csc:CURLTUGMZLYLDI-UHFFFAOYSA-N
         rdf:type        dbo:ChemicalCompound , skos:Concept , dbo:ChemicalSubstance;
-        rdfs:comment    "VLAR III (D3, Art. 3.6.2.6.1) (CO2-gehalte'"@nl , "VLAR II  (D1, definities)"@nl;
         rdfs:seeAlso    compound:280;
         dbo:casNumber   "124-38-9" , "34496-91-8" , "85540-96-1" , "12181-60-1" , "18923-20-1" , "122427-25-2" , "39310-68-4";
         dbo:formula     "CO2";
@@ -25290,6 +25289,7 @@ csc:CURLTUGMZLYLDI-UHFFFAOYSA-N
         dbp:inchikey    "CURLTUGMZLYLDI-UHFFFAOYSA-N";
         skos:altLabel   "koolstofdioxide (CO2)"@nl;
         skos:broader    csc:CHEMONTID_0000554;
+        skos:comment    "VLAR III (D3, Art. 3.6.2.6.1) (CO2-gehalte'"@nl , "VLAR II  (D1, definities)"@nl;
         skos:inScheme   vlcs:chemische_stof;
         skos:notation   "CO2";
         skos:prefLabel  "koolstofdioxide"@nl .
@@ -25694,7 +25694,6 @@ csc:MWOOGOJBHIARFG-UHFFFAOYSA-N
 
 csc:UQMGJOKDKOLIDP-UHFFFAOYSA-N
         rdf:type         skos:Concept , dbo:ChemicalSubstance , dbo:ChemicalCompound;
-        rdfs:comment     "VLAR III (D3) 'dioxineachtige PCB's'"@nl;
         rdfs:seeAlso     compound:36187;
         dbo:casNumber    "80333-65-9" , "32598-13-3";
         dbo:formula      "C12H6Cl4";
@@ -25705,6 +25704,7 @@ csc:UQMGJOKDKOLIDP-UHFFFAOYSA-N
         dbp:inchikey     "UQMGJOKDKOLIDP-UHFFFAOYSA-N";
         skos:altLabel    "PCB77"@nl , "pcb 77"@nl , "3,3',4,4'-tetrachloorbifenyl"@nl , "3,3',4,4'-tetrachloorbifenyl (pcb77)"@nl;
         skos:broader     csc:CHEMONTID_0003030;
+        skos:comment     "VLAR III (D3) 'dioxineachtige PCB's'"@nl;
         skos:exactMatch  wise:CAS_32598-13-3;
         skos:inScheme    vlcs:chemische_stof;
         skos:notation    "PCB77";
@@ -26214,7 +26214,6 @@ csc:YBRBMKDOPFTVDT-UHFFFAOYSA-N
 
 csc:YMWUJEATGCHHMB-UHFFFAOYSA-N
         rdf:type         dbo:ChemicalSubstance , dbo:ChemicalCompound , skos:Concept;
-        rdfs:comment     "VLAR II bijl. 4.4.2"@nl , "VLAR II Art. 5.4.3.1.4 'methyleenchloride'"@nl , "VLAR II Art. 5.23.1.1."@nl;
         rdfs:seeAlso     compound:6344;
         dbo:casNumber    "1605-72-7" , "75-09-2";
         dbo:formula      "CH2Cl2";
@@ -26224,6 +26223,7 @@ csc:YMWUJEATGCHHMB-UHFFFAOYSA-N
         dbo:smiles       "C(Cl)Cl";
         dbp:inchikey     "YMWUJEATGCHHMB-UHFFFAOYSA-N";
         skos:broader     csc:CHEMONTID_0004157;
+        skos:comment     "VLAR II Art. 5.23.1.1."@nl , "VLAR II bijl. 4.4.2"@nl , "VLAR II Art. 5.4.3.1.4 'methyleenchloride'"@nl;
         skos:exactMatch  wise:CAS_75-09-2;
         skos:inScheme    vlcs:chemische_stof;
         skos:notation    "DClC1a";
@@ -26354,7 +26354,6 @@ csc:JRUGFHHEKLYFPC-UHFFFAOYSA-N
 
 csc:QGZKDVFQNNGYKY-UHFFFAOYSA-N
         rdf:type         skos:Concept , dbo:ChemicalCompound , dbo:ChemicalSubstance;
-        rdfs:comment     "VLAR III (D3, diverse art) 'NH3'"@nl , "VLAR II (D2/D5) 'ammoniak' en 'ammoniak (NH3)' en 'NH3'"@nl , "VLAR III (D3, diverse art) 'ammoniak'"@nl;
         rdfs:seeAlso     compound:222;
         dbo:casNumber    "17778-88-0" , "214478-05-4" , "7664-41-7" , "15194-15-7" , "13774-92-0" , "8007-57-6" , "208990-07-2";
         dbo:formula      "H3N";
@@ -26365,6 +26364,7 @@ csc:QGZKDVFQNNGYKY-UHFFFAOYSA-N
         dbp:inchikey     "QGZKDVFQNNGYKY-UHFFFAOYSA-N";
         skos:altLabel    "ammoniak (NH3)"@nl;
         skos:broader     csc:CHEMONTID_0000434;
+        skos:comment     "VLAR III (D3, diverse art) 'ammoniak'"@nl , "VLAR III (D3, diverse art) 'NH3'"@nl , "VLAR II (D2/D5) 'ammoniak' en 'ammoniak (NH3)' en 'NH3'"@nl;
         skos:exactMatch  wise:CAS_7664-41-7;
         skos:inScheme    vlcs:chemische_stof;
         skos:notation    "NH3";
@@ -26462,7 +26462,6 @@ csc:PGCGUUGEUBFBPP-UHFFFAOYSA-N
 
 csc:WABPQHHGFIMREM-UHFFFAOYSA-N
         rdf:type         dbo:ChemicalCompound , dbo:ChemicalSubstance , skos:Concept;
-        rdfs:comment     "VLAR bijl. 2.5.2. 'lood'"@nl , "VLAR III (D3, diverse art) 'lood en zijn verbindingen, uitgedrukt in Pb'"@nl , "VLAR III (D3) 'lood en loodverbindingen, uitgedrukt als lood (Pb)'"@nl , "VLAR II (D5) 'lood en zijn verbindingen, uitgedrukt in/als Pb'  'lood en loodverbindingen, uitgedrukt als lood (Pb)'"@nl , "VLAR III (D3, diverse art) 'Pb'"@nl , "VLAR III (D3) 'lood-verbindingen, uitgedrukt als Pb'"@nl , "VLAR II (D2), diverse artikels 'lood'"@nl , "VLAR II bijl. 4.4.2 'lood en zijn verbindingen, uitgedrukt in Pb'"@nl;
         rdfs:seeAlso     compound:5352425;
         dbo:casNumber    "54076-28-7" , "14701-27-0" , "15158-12-0" , "724427-66-1" , "7439-92-1";
         dbo:formula      "Pb";
@@ -26473,6 +26472,7 @@ csc:WABPQHHGFIMREM-UHFFFAOYSA-N
         dbp:inchikey     "WABPQHHGFIMREM-UHFFFAOYSA-N";
         skos:altLabel    "lood"@nl , "lood (Pb)"@nl;
         skos:broader     csc:CHEMONTID_0000427;
+        skos:comment     "VLAR III (D3, diverse art) 'Pb'"@nl , "VLAR II (D2), diverse artikels 'lood'"@nl , "VLAR II bijl. 4.4.2 'lood en zijn verbindingen, uitgedrukt in Pb'"@nl , "VLAR II (D5) 'lood en zijn verbindingen, uitgedrukt in/als Pb'  'lood en loodverbindingen, uitgedrukt als lood (Pb)'"@nl , "VLAR III (D3) 'lood-verbindingen, uitgedrukt als Pb'"@nl , "VLAR bijl. 2.5.2. 'lood'"@nl , "VLAR III (D3) 'lood en loodverbindingen, uitgedrukt als lood (Pb)'"@nl , "VLAR III (D3, diverse art) 'lood en zijn verbindingen, uitgedrukt in Pb'"@nl;
         skos:definition  "lood en loodverbindingen, uitgedrukt als lood (Pb)"@nl;
         skos:exactMatch  wise:CAS_7439-92-1;
         skos:inScheme    vlcs:chemische_stof;
@@ -26481,7 +26481,6 @@ csc:WABPQHHGFIMREM-UHFFFAOYSA-N
 
 csc:QSHDDOUJBYECFT-UHFFFAOYSA-N
         rdf:type         skos:Concept , dbo:ChemicalSubstance , dbo:ChemicalCompound;
-        rdfs:comment     "VLAR III (D3) 'kwik en kwikverbindingen, uitgedrukt als kwik (Hg)'"@nl , "VLAR II bijl. 4.4.2 'Kwik en zijn verbindingen, uitgedrukt in Hg'"@nl , "VLAR III (D3, diverse art) 'Hg'"@nl , "VLAR II (D2) 'kwik'"@nl , "VLAR III (D3 art. 3.12.3.1.6) 'kwik'"@nl , "VLAR III (D3) 'kwik en zijn verbindingen, uitgedrukt als kwik (Hg)'"@nl , "VLAR II bijl. 2.5.8.4 'totaal gasvormig kwik'"@nl , "VLAR II (D5) 'kwik en zijn verbindingen' en 'kwik en kwikverbindingen, uitgedrukt als kwik(Hg)' en 'kwik en zijn verbindingen (uitgedrukt in Hg)'"@nl;
         rdfs:seeAlso     compound:23931;
         dbo:casNumber    "123720-03-6" , "51887-47-9" , "149038-91-5" , "92355-34-5" , "8030-64-6" , "92786-62-4" , "7439-97-6";
         dbo:formula      "Hg";
@@ -26492,6 +26491,7 @@ csc:QSHDDOUJBYECFT-UHFFFAOYSA-N
         dbp:inchikey     "QSHDDOUJBYECFT-UHFFFAOYSA-N";
         skos:altLabel    "kwik (Hg)"@nl;
         skos:broader     csc:CHEMONTID_0000426;
+        skos:comment     "VLAR III (D3, diverse art) 'Hg'"@nl , "VLAR III (D3) 'kwik en zijn verbindingen, uitgedrukt als kwik (Hg)'"@nl , "VLAR II bijl. 4.4.2 'Kwik en zijn verbindingen, uitgedrukt in Hg'"@nl , "VLAR III (D3 art. 3.12.3.1.6) 'kwik'"@nl , "VLAR II (D5) 'kwik en zijn verbindingen' en 'kwik en kwikverbindingen, uitgedrukt als kwik(Hg)' en 'kwik en zijn verbindingen (uitgedrukt in Hg)'"@nl , "VLAR III (D3) 'kwik en kwikverbindingen, uitgedrukt als kwik (Hg)'"@nl , "VLAR II bijl. 2.5.8.4 'totaal gasvormig kwik'"@nl , "VLAR II (D2) 'kwik'"@nl;
         skos:definition  "kwik en kwikverbindingen, uitgedrukt als kwik (Hg)"@nl;
         skos:exactMatch  wise:CAS_7439-97-6;
         skos:inScheme    vlcs:chemische_stof;
@@ -26591,7 +26591,6 @@ csc:WHUUTDBJXJRKMK-UHFFFAOYSA-N
 
 csc:KWKAKUADMBZCLK-UHFFFAOYSA-N
         rdf:type        dbo:ChemicalCompound , dbo:ChemicalSubstance , skos:Concept;
-        rdfs:comment    "VLAR II bijl. 4.4.2 'Olefinische koolwaterstoffen (behalve 1,3-butadieen)'"@nl;
         rdfs:seeAlso    compound:8125;
         dbo:casNumber   "68526-54-5" , "111-66-0" , "68527-00-4";
         dbo:formula     "C8H16";
@@ -26601,13 +26600,13 @@ csc:KWKAKUADMBZCLK-UHFFFAOYSA-N
         dbo:smiles      "CCCCCCC=C";
         dbp:inchikey    "KWKAKUADMBZCLK-UHFFFAOYSA-N";
         skos:broader    csc:CHEMONTID_0004476;
+        skos:comment    "VLAR II bijl. 4.4.2 'Olefinische koolwaterstoffen (behalve 1,3-butadieen)'"@nl;
         skos:inScheme   vlcs:chemische_stof;
         skos:notation   "1C8e";
         skos:prefLabel  "1-octeen"@nl .
 
 csc:HYBBIBNJHNGZAN-UHFFFAOYSA-N
         rdf:type        dbo:ChemicalCompound , dbo:ChemicalSubstance , skos:Concept;
-        rdfs:comment    "VLAREM II bijlage 4.4.2"@nl;
         rdfs:seeAlso    compound:7362;
         dbo:casNumber   "98-01-1";
         dbo:formula     "C5H4O2";
@@ -26618,6 +26617,7 @@ csc:HYBBIBNJHNGZAN-UHFFFAOYSA-N
         dbp:inchikey    "HYBBIBNJHNGZAN-UHFFFAOYSA-N";
         skos:altLabel   "2-furaldehyde "@nl , "2-furaldehyde"@nl;
         skos:broader    csc:CHEMONTID_0003213;
+        skos:comment    "VLAREM II bijlage 4.4.2"@nl;
         skos:inScheme   vlcs:chemische_stof;
         skos:notation   "furfrl";
         skos:prefLabel  "furfural"@nl .
@@ -26686,7 +26686,6 @@ csc:ZRDUSMYWDRPZRM-UHFFFAOYSA-N
 
 csc:PWHULOQIROXLJO-UHFFFAOYSA-N
         rdf:type         dbo:ChemicalSubstance , dbo:ChemicalCompound , skos:Concept;
-        rdfs:comment     "VLAR III (D3) 'Mangaan en mangaanverbindingen, uitgedrukt in mangaan (Mn)'"@nl , "VLAR II D5 'mangaan en mangaanverbindingen, uitgedrukt als mangaan (Mn)'"@nl , "VLAR III (D3, diverse art) 'Mn'"@nl , "VLAR II bijl. 4.4.2 'mangaan en zijn verbindingen, uitgedrukt in Mn'"@nl;
         rdfs:seeAlso     compound:23930;
         dbo:casNumber    "8031-40-1" , "195161-78-5" , "17375-02-9" , "7439-96-5" , "8075-39-6" , "22325-60-6" , "39303-06-5" , "19768-33-3";
         dbo:formula      "Mn";
@@ -26697,6 +26696,7 @@ csc:PWHULOQIROXLJO-UHFFFAOYSA-N
         dbp:inchikey     "PWHULOQIROXLJO-UHFFFAOYSA-N";
         skos:altLabel    "mangaan"@nl , "Mangaan (Mn)"@nl;
         skos:broader     csc:CHEMONTID_0000426;
+        skos:comment     "VLAR II D5 'mangaan en mangaanverbindingen, uitgedrukt als mangaan (Mn)'"@nl , "VLAR II bijl. 4.4.2 'mangaan en zijn verbindingen, uitgedrukt in Mn'"@nl , "VLAR III (D3, diverse art) 'Mn'"@nl , "VLAR III (D3) 'Mangaan en mangaanverbindingen, uitgedrukt in mangaan (Mn)'"@nl;
         skos:definition  "mangaan en mangaanverbindingen, uitgedrukt als mangaan (Mn)"@nl;
         skos:exactMatch  wise:CAS_7439-96-5;
         skos:inScheme    vlcs:chemische_stof;
@@ -28397,7 +28397,6 @@ csc:RJWUMFHQJJBBOD-UHFFFAOYSA-N
 
 csc:LRHPLDYGYMQRHN-UHFFFAOYSA-N
         rdf:type        dbo:ChemicalSubstance , skos:Concept , dbo:ChemicalCompound;
-        rdfs:comment    "VLAR II bijl. 4.4.2 'alkylalcohol'"@nl;
         rdfs:seeAlso    compound:263;
         dbo:casNumber   "35296-72-1" , "107569-51-7" , "14254-05-8" , "220713-25-7" , "71-36-3" , "42031-19-6";
         dbo:formula     "C4H10O";
@@ -28408,6 +28407,7 @@ csc:LRHPLDYGYMQRHN-UHFFFAOYSA-N
         dbp:inchikey    "LRHPLDYGYMQRHN-UHFFFAOYSA-N";
         skos:altLabel   "n-butanol"@nl;
         skos:broader    csc:CHEMONTID_0000286;
+        skos:comment    "VLAR II bijl. 4.4.2 'alkylalcohol'"@nl;
         skos:inScheme   vlcs:chemische_stof;
         skos:notation   "C4ol";
         skos:prefLabel  "butanol"@nl .
@@ -28658,7 +28658,6 @@ csc:SSDSCDGVMJFTEQ-UHFFFAOYSA-N
 
 csc:WIDHRBRBACOVOY-UHFFFAOYSA-N
         rdf:type         skos:Concept , dbo:ChemicalSubstance , dbo:ChemicalCompound;
-        rdfs:comment     "VLAR III (D3) 'dioxineachtige PCB's'"@nl;
         rdfs:seeAlso     compound:36188;
         dbo:casNumber    "32598-14-4";
         dbo:formula      "C12H5Cl5";
@@ -28669,6 +28668,7 @@ csc:WIDHRBRBACOVOY-UHFFFAOYSA-N
         dbp:inchikey     "WIDHRBRBACOVOY-UHFFFAOYSA-N";
         skos:altLabel    "pcb 105"@nl , "2,3,3',4,4'-pentachloorbifenyl"@nl , "2,3,3',4,4'-pentachloorbifenyl (pcb105)"@nl;
         skos:broader     csc:CHEMONTID_0003030;
+        skos:comment     "VLAR III (D3) 'dioxineachtige PCB's'"@nl;
         skos:exactMatch  wise:CAS_32598-14-4;
         skos:inScheme    vlcs:chemische_stof;
         skos:notation    "PCB105";
@@ -29515,7 +29515,6 @@ csc:RGVYUPIYFIVQDS-UHFFFAOYSA-N
 
 csc:HEDRZPFGACZZDS-UHFFFAOYSA-N
         rdf:type         dbo:ChemicalCompound , dbo:ChemicalSubstance , skos:Concept;
-        rdfs:comment     ",  (syn: trichloormethaan)"@nl , "VLAR II bijl. 4.4.2 'trichloormethaan'"@nl;
         rdfs:seeAlso     compound:6212;
         dbo:casNumber    "67-66-3" , "8013-54-5";
         dbo:formula      "CHCl3";
@@ -29526,6 +29525,7 @@ csc:HEDRZPFGACZZDS-UHFFFAOYSA-N
         dbp:inchikey     "HEDRZPFGACZZDS-UHFFFAOYSA-N";
         skos:altLabel    "chloroform"@nl , "trichloormethaan (chloroform)"@nl;
         skos:broader     csc:CHEMONTID_0004160;
+        skos:comment     ",  (syn: trichloormethaan)"@nl , "VLAR II bijl. 4.4.2 'trichloormethaan'"@nl;
         skos:exactMatch  wise:CAS_67-66-3;
         skos:inScheme    vlcs:chemische_stof;
         skos:notation    "TClC1a";
@@ -29823,7 +29823,6 @@ csc:RUYUCCQRWINUHE-UHFFFAOYSA-N
 
 csc:SFZCNBIFKDRMGX-UHFFFAOYSA-N
         rdf:type        dbo:ChemicalCompound , dbo:ChemicalSubstance , skos:Concept;
-        rdfs:comment    "VLAR II (D1, definities broeikasgassen)"@nl;
         rdfs:seeAlso    compound:17358;
         dbo:casNumber   "59109-69-2" , "29267-82-1" , "2551-62-4" , "36575-03-8";
         dbo:formula     "F6S";
@@ -29834,6 +29833,7 @@ csc:SFZCNBIFKDRMGX-UHFFFAOYSA-N
         dbp:inchikey    "SFZCNBIFKDRMGX-UHFFFAOYSA-N";
         skos:altLabel   "zwavelhexafluoride"@nl , "zwavelhexafluoride (sf6)"@nl;
         skos:broader    csc:CHEMONTID_0000437;
+        skos:comment    "VLAR II (D1, definities broeikasgassen)"@nl;
         skos:inScheme   vlcs:chemische_stof;
         skos:notation   "SF6";
         skos:prefLabel  "zwavelhexafluoride (SF6)"@nl .
@@ -30066,7 +30066,6 @@ csc:QCDWFXQBSFUVSP-UHFFFAOYSA-N
 
 csc:KRHYYFGTRYWZRS-UHFFFAOYSA-N
         rdf:type        dbo:ChemicalSubstance , skos:Concept , dbo:ChemicalCompound;
-        rdfs:comment    "VLAR III (D3) 'waterstoffluoride(HF)'"@nl , "VLAR II (D5) 'HF'"@nl , "VLAR III (D3) 'HF'"@nl , "VLAR II bijl. 2.5.1 'fluorwaterstof'"@nl;
         rdfs:seeAlso    compound:14917;
         dbo:casNumber   "37249-79-9" , "32057-09-3" , "7664-39-3";
         dbo:formula     "FH";
@@ -30077,6 +30076,7 @@ csc:KRHYYFGTRYWZRS-UHFFFAOYSA-N
         dbp:inchikey    "KRHYYFGTRYWZRS-UHFFFAOYSA-N";
         skos:altLabel   "waterstoffluoride (hf)"@nl , "waterstoffluoride  (HF)"@nl;
         skos:broader    csc:CHEMONTID_0000548;
+        skos:comment    "VLAR III (D3) 'waterstoffluoride(HF)'"@nl , "VLAR II (D5) 'HF'"@nl , "VLAR II bijl. 2.5.1 'fluorwaterstof'"@nl , "VLAR III (D3) 'HF'"@nl;
         skos:inScheme   vlcs:chemische_stof;
         skos:notation   "HF";
         skos:prefLabel  "waterstoffluoride"@nl .
@@ -30570,7 +30570,6 @@ csc:VTRWMTJQBQJKQH-UHFFFAOYSA-N
 
 csc:NLHHRLWOUZZQLW-UHFFFAOYSA-N
         rdf:type         skos:Concept , dbo:ChemicalSubstance , dbo:ChemicalCompound;
-        rdfs:comment     "VLAREM II bijlage 4.4.2"@nl , "VLAR II Art. 5.7.1.4/ Art. 5.7.7.1/Art. 5.7.13.1"@nl;
         rdfs:seeAlso     compound:7855;
         dbo:casNumber    "107-13-1" , "63908-52-1" , "29754-21-0";
         dbo:formula      "C3H3N";
@@ -30581,6 +30580,7 @@ csc:NLHHRLWOUZZQLW-UHFFFAOYSA-N
         dbp:inchikey     "NLHHRLWOUZZQLW-UHFFFAOYSA-N";
         skos:altLabel    "acrylonitril"@nl;
         skos:broader     csc:CHEMONTID_0000362;
+        skos:comment     "VLAREM II bijlage 4.4.2"@nl , "VLAR II Art. 5.7.1.4/ Art. 5.7.7.1/Art. 5.7.13.1"@nl;
         skos:exactMatch  wise:CAS_107-13-1;
         skos:inScheme    vlcs:chemische_stof;
         skos:notation    "aclntl";
@@ -30935,7 +30935,6 @@ csc:VWAMTBXLZPEDQO-FWEXOAGLSA-N
 
 csc:DVKJHBMWWAPEIU-UHFFFAOYSA-N
         rdf:type        dbo:ChemicalCompound , skos:Concept , dbo:ChemicalSubstance;
-        rdfs:comment    "VLAREM II bijlage 4.4.2"@nl;
         rdfs:seeAlso    compound:11443;
         dbo:casNumber   "59539-76-3" , "1321-38-6" , "584-84-9" , "26471-62-5" , "86-91-9" , "26006-20-2";
         dbo:formula     "C9H6N2O2";
@@ -30946,6 +30945,7 @@ csc:DVKJHBMWWAPEIU-UHFFFAOYSA-N
         dbp:inchikey    "DVKJHBMWWAPEIU-UHFFFAOYSA-N";
         skos:altLabel   "2,4-tolueendi-isocyanaat"@nl , "2,4-tolueendiisocyanaat"@nl;
         skos:broader    csc:CHEMONTID_0003983;
+        skos:comment    "VLAREM II bijlage 4.4.2"@nl;
         skos:inScheme   vlcs:chemische_stof;
         skos:notation   "24TolDiCN";
         skos:prefLabel  "2,4-tolueendi-isocyanaat "@nl .
@@ -31349,7 +31349,6 @@ csc:ZOKXUAHZSKEQSS-UHFFFAOYSA-N
 
 csc:WCYYQNSQJHPVMG-UHFFFAOYSA-N
         rdf:type         dbo:ChemicalSubstance , dbo:ChemicalCompound , skos:Concept;
-        rdfs:comment     "VLAR II+ bijlagen"@nl , "VLAR III (D3, diverse art)  'dioxinen en furanen'"@nl;
         rdfs:seeAlso     compound:38251;
         dbo:casNumber    "39227-28-6";
         dbo:formula      "C12H2Cl6O2";
@@ -31360,6 +31359,7 @@ csc:WCYYQNSQJHPVMG-UHFFFAOYSA-N
         dbp:inchikey     "WCYYQNSQJHPVMG-UHFFFAOYSA-N";
         skos:altLabel    "1,2,3,4,7,8-hexachloordibenzodioxine (hxcdd)"@nl , " 1,2,3,4,7,8-hexachloordibenzodioxine"@nl , "1,2,3,4,7,8-hexachloordibenzo-para-dioxine"@nl , "1,2,3,4,7,8-hexachloordibenzo-p-dioxine"@nl;
         skos:broader     csc:CHEMONTID_0000420;
+        skos:comment     "VLAR II+ bijlagen"@nl , "VLAR III (D3, diverse art)  'dioxinen en furanen'"@nl;
         skos:exactMatch  wise:CAS_39227-28-6;
         skos:inScheme    vlcs:chemische_stof;
         skos:notation    "PCDD66";
@@ -32099,7 +32099,6 @@ csc:XEEYBQQBJWHFJM-UHFFFAOYSA-N
 
 csc:CTQNGGLPUBDAKN-UHFFFAOYSA-N
         rdf:type         dbo:ChemicalCompound , skos:Concept , dbo:ChemicalSubstance;
-        rdfs:comment     "VLAR II bijl. 4.4.2 'xylenen'"@nl;
         rdfs:seeAlso     compound:7237;
         dbo:casNumber    "68411-84-7" , "95-47-6";
         dbo:formula      "C8H10";
@@ -32110,6 +32109,7 @@ csc:CTQNGGLPUBDAKN-UHFFFAOYSA-N
         dbp:inchikey     "CTQNGGLPUBDAKN-UHFFFAOYSA-N";
         skos:altLabel    "o-xyleen"@nl , "1,2-xyleen"@nl , "1,2-Dimethylbenzeen"@nl;
         skos:broader     csc:CHEMONTID_0004210;
+        skos:comment     "VLAR II bijl. 4.4.2 'xylenen'"@nl;
         skos:exactMatch  wise:CAS_95-47-6;
         skos:inScheme    vlcs:chemische_stof;
         skos:notation    "12xyln";
@@ -32255,7 +32255,6 @@ csc:KEVMYFLMMDUPJE-UHFFFAOYSA-N
 
 csc:SXQBHARYMNFBPS-UHFFFAOYSA-N
         rdf:type         skos:Concept , dbo:ChemicalSubstance , dbo:ChemicalCompound;
-        rdfs:comment     "VLAR II (D2)"@nl;
         rdfs:seeAlso     compound:9131;
         dbo:casNumber    "348085-46-1" , "193-39-5";
         dbo:formula      "C22H12";
@@ -32266,6 +32265,7 @@ csc:SXQBHARYMNFBPS-UHFFFAOYSA-N
         dbp:inchikey     "SXQBHARYMNFBPS-UHFFFAOYSA-N";
         skos:altLabel    "indeno(1,2,3-cd)pyreen (b)"@nl , "indeno(1,2,3-cd)pyreen"@nl;
         skos:broader     csc:CHEMONTID_0001851;
+        skos:comment     "VLAR II (D2)"@nl;
         skos:exactMatch  wise:CAS_193-39-5;
         skos:inScheme    vlcs:chemische_stof;
         skos:notation    "InP";
@@ -32363,7 +32363,6 @@ csc:LVDKZNITIUWNER-UHFFFAOYSA-N
 
 csc:RNVCVTLRINQCPJ-UHFFFAOYSA-N
         rdf:type        skos:Concept , dbo:ChemicalCompound , dbo:ChemicalSubstance;
-        rdfs:comment    "VLAREM II bijlage 4.4.2"@nl;
         rdfs:seeAlso    compound:7242;
         dbo:casNumber   "95-53-4";
         dbo:formula     "C7H9N";
@@ -32374,6 +32373,7 @@ csc:RNVCVTLRINQCPJ-UHFFFAOYSA-N
         dbp:inchikey    "RNVCVTLRINQCPJ-UHFFFAOYSA-N";
         skos:altLabel   "o-toluïdine"@nl;
         skos:broader    csc:CHEMONTID_0003964;
+        skos:comment    "VLAREM II bijlage 4.4.2"@nl;
         skos:inScheme   vlcs:chemische_stof;
         skos:notation   "2C1yAn";
         skos:prefLabel  "2-methylaniline"@nl .
@@ -32441,7 +32441,6 @@ csc:ZDPHROOEEOARMN-UHFFFAOYSA-N
 
 csc:ZGEGCLOFRBLKSE-UHFFFAOYSA-N
         rdf:type        skos:Concept , dbo:ChemicalCompound , dbo:ChemicalSubstance;
-        rdfs:comment    "VLAR II bijl. 4.4.2 'Olefinische koolwaterstoffen (behalve 1,3-butadieen)'"@nl;
         rdfs:seeAlso    compound:11610;
         dbo:casNumber   "25339-56-4" , "68526-53-4" , "592-76-7";
         dbo:formula     "C7H14";
@@ -32451,6 +32450,7 @@ csc:ZGEGCLOFRBLKSE-UHFFFAOYSA-N
         dbo:smiles      "CCCCCC=C";
         dbp:inchikey    "ZGEGCLOFRBLKSE-UHFFFAOYSA-N";
         skos:broader    csc:CHEMONTID_0004476;
+        skos:comment    "VLAR II bijl. 4.4.2 'Olefinische koolwaterstoffen (behalve 1,3-butadieen)'"@nl;
         skos:inScheme   vlcs:chemische_stof;
         skos:notation   "1C7e";
         skos:prefLabel  "1-hepteen"@nl .
@@ -32577,7 +32577,6 @@ csc:SFVFIFLLYFPGHH-UHFFFAOYSA-M
 
 csc:QTBSBXVTEAMEQO-UHFFFAOYSA-N
         rdf:type        skos:Concept , dbo:ChemicalCompound , dbo:ChemicalSubstance;
-        rdfs:comment    "VLAREM II bijlage 4.4.2"@nl;
         rdfs:seeAlso    compound:176;
         dbo:casNumber   "207004-55-5" , "64-19-7" , "68475-71-8" , "157090-22-7" , "77671-22-8" , "9035-69-2";
         dbo:formula     "C2H4O2";
@@ -32588,6 +32587,7 @@ csc:QTBSBXVTEAMEQO-UHFFFAOYSA-N
         dbp:inchikey    "QTBSBXVTEAMEQO-UHFFFAOYSA-N";
         skos:altLabel   "azijnzuur"@nl;
         skos:broader    csc:CHEMONTID_0001205;
+        skos:comment    "VLAREM II bijlage 4.4.2"@nl;
         skos:inScheme   vlcs:chemische_stof;
         skos:notation   "HAc";
         skos:prefLabel  "azijnzuur "@nl .
@@ -32833,7 +32833,6 @@ csc:VDUWPHTZYNWKRN-UHFFFAOYSA-N
 
 csc:DURPTKYDGMDSBL-UHFFFAOYSA-N
         rdf:type        skos:Concept , dbo:ChemicalSubstance , dbo:ChemicalCompound;
-        rdfs:comment    "VLAR II bijl. 4.4.2 'dibutylether'"@nl;
         rdfs:seeAlso    compound:8909;
         dbo:casNumber   "142-96-1";
         dbo:formula     "C8H18O";
@@ -32843,6 +32842,7 @@ csc:DURPTKYDGMDSBL-UHFFFAOYSA-N
         dbo:smiles      "CCCCOCCCC";
         dbp:inchikey    "DURPTKYDGMDSBL-UHFFFAOYSA-N";
         skos:broader    csc:CHEMONTID_0001167;
+        skos:comment    "VLAR II bijl. 4.4.2 'dibutylether'"@nl;
         skos:inScheme   vlcs:chemische_stof;
         skos:prefLabel  "di-n-butylether"@nl .
 
@@ -33776,7 +33776,6 @@ csc:WPYCRFCQABTEKC-UHFFFAOYSA-N
 
 csc:XNWFRZJHXBZDAG-UHFFFAOYSA-N
         rdf:type        skos:Concept , dbo:ChemicalCompound , dbo:ChemicalSubstance;
-        rdfs:comment    "VLAR II bijl. 4.4.2"@nl;
         rdfs:seeAlso    compound:8019;
         dbo:casNumber   "216693-45-7" , "178613-33-7" , "162582-19-6" , "154885-26-4" , "185250-24-2" , "41396-14-9" , "187523-66-6" , "77102-87-5" , "12623-96-0" , "95507-80-5" , "126966-17-4" , "95507-78-1" , "91826-72-1" , "154701-70-9" , "146162-92-7" , "109-86-4" , "165338-17-0" , "9004-74-4" , "64543-87-9" , "195970-98-0" , "166441-82-3" , "104841-59-0" , "163294-10-8" , "142172-77-8" , "69592-91-2" , "54386-07-1" , "212969-32-9" , "86002-19-9" , "158360-78-2" , "57244-93-6" , "163733-28-6" , "134919-42-9" , "102868-77-9" , "207799-14-2" , "138753-86-3" , "189209-93-6" , "72664-19-8" , "193008-24-1";
         dbo:formula     "C3H8O2";
@@ -33786,6 +33785,7 @@ csc:XNWFRZJHXBZDAG-UHFFFAOYSA-N
         dbo:smiles      "COCCO";
         dbp:inchikey    "XNWFRZJHXBZDAG-UHFFFAOYSA-N";
         skos:broader    csc:CHEMONTID_0001167;
+        skos:comment    "VLAR II bijl. 4.4.2"@nl;
         skos:inScheme   vlcs:chemische_stof;
         skos:notation   "2C1oxC2ol";
         skos:prefLabel  "2-methoxyethanol"@nl .
@@ -34150,7 +34150,6 @@ csc:IVENSCMCQBJAKW-UHFFFAOYSA-N
 
 csc:LIKMAJRDDDTEIG-UHFFFAOYSA-N
         rdf:type        skos:Concept , dbo:ChemicalSubstance , dbo:ChemicalCompound;
-        rdfs:comment    "VLAR II bijl. 4.4.2 'Olefinische koolwaterstoffen (behalve 1,3-butadieen)'"@nl;
         rdfs:seeAlso    compound:11597;
         dbo:casNumber   "153522-12-4" , "592-41-6" , "33004-04-5" , "68783-15-3" , "68526-99-8";
         dbo:formula     "C6H12";
@@ -34160,6 +34159,7 @@ csc:LIKMAJRDDDTEIG-UHFFFAOYSA-N
         dbo:smiles      "CCCCC=C";
         dbp:inchikey    "LIKMAJRDDDTEIG-UHFFFAOYSA-N";
         skos:broader    csc:CHEMONTID_0004476;
+        skos:comment    "VLAR II bijl. 4.4.2 'Olefinische koolwaterstoffen (behalve 1,3-butadieen)'"@nl;
         skos:inScheme   vlcs:chemische_stof;
         skos:prefLabel  "1-hexeen"@nl .
 
@@ -34806,7 +34806,6 @@ csc:BBEAQIROQSPTKN-UHFFFAOYSA-N
 
 csc:OGBQILNBLMPPDP-UHFFFAOYSA-N
         rdf:type         dbo:ChemicalCompound , skos:Concept , dbo:ChemicalSubstance;
-        rdfs:comment     "VLAR II+ bijlagen"@nl , "VLAR III (D3, diverse art)  'dioxinen en furanen'"@nl;
         rdfs:seeAlso     compound:42128;
         dbo:casNumber    "57117-31-4";
         dbo:formula      "C12H3Cl5O";
@@ -34817,6 +34816,7 @@ csc:OGBQILNBLMPPDP-UHFFFAOYSA-N
         dbp:inchikey     "OGBQILNBLMPPDP-UHFFFAOYSA-N";
         skos:altLabel    "2,3,4,7,8-pentachloordibenzofuran"@nl , " 2,3,4,7,8-pentachloordibenzofuraan"@nl , "2,3,4,7,8-pentachloordibenzofuraan (pecdf)"@nl;
         skos:broader     csc:CHEMONTID_0003029;
+        skos:comment     "VLAR III (D3, diverse art)  'dioxinen en furanen'"@nl , "VLAR II+ bijlagen"@nl;
         skos:exactMatch  wise:CAS_57117-31-4;
         skos:inScheme    vlcs:chemische_stof;
         skos:notation    "PCDF114";
@@ -35356,7 +35356,6 @@ csc:GBAWQJNHVWMTLU-UHFFFAOYSA-N
 
 csc:YCLUIPQDHHPDJJ-UHFFFAOYSA-N
         rdf:type         dbo:ChemicalSubstance , dbo:ChemicalCompound , skos:Concept;
-        rdfs:comment     "VLAR II+ bijlagen"@nl , "VLAR III (D3, diverse art)  'dioxinen en furanen'"@nl;
         rdfs:seeAlso     compound:42540;
         dbo:casNumber    "57653-85-7";
         dbo:formula      "C12H2Cl6O2";
@@ -35367,6 +35366,7 @@ csc:YCLUIPQDHHPDJJ-UHFFFAOYSA-N
         dbp:inchikey     "YCLUIPQDHHPDJJ-UHFFFAOYSA-N";
         skos:altLabel    "1,2,3,6,7,8-hexachloordibenzo-para-dioxine"@nl , "1,2,3,6,7,8-hexachloordibenzodioxine"@nl , "1,2,3,6,7,8-hexachloordibenzodioxine (hxcdd)"@nl , " 1,2,3,6,7,8-hexachloordibenzodioxine"@nl;
         skos:broader     csc:CHEMONTID_0000420;
+        skos:comment     "VLAR II+ bijlagen"@nl , "VLAR III (D3, diverse art)  'dioxinen en furanen'"@nl;
         skos:exactMatch  wise:CAS_57653-85-7;
         skos:inScheme    vlcs:chemische_stof;
         skos:notation    "PCDD67";
@@ -35374,7 +35374,6 @@ csc:YCLUIPQDHHPDJJ-UHFFFAOYSA-N
 
 csc:GWHJZXXIDMPWGX-UHFFFAOYSA-N
         rdf:type         dbo:ChemicalSubstance , dbo:ChemicalCompound , skos:Concept;
-        rdfs:comment     "VLAR II bijl. 4.4.2 'trimethylbenzeen'"@nl;
         rdfs:seeAlso     compound:7247;
         dbo:casNumber    "95-36-3" , "95-63-6";
         dbo:formula      "C9H12";
@@ -35384,6 +35383,7 @@ csc:GWHJZXXIDMPWGX-UHFFFAOYSA-N
         dbo:smiles       "CC1=CC(=C(C=C1)C)C";
         dbp:inchikey     "GWHJZXXIDMPWGX-UHFFFAOYSA-N";
         skos:broader     csc:CHEMONTID_0002279;
+        skos:comment     "VLAR II bijl. 4.4.2 'trimethylbenzeen'"@nl;
         skos:exactMatch  wise:CAS_95-63-6;
         skos:inScheme    vlcs:chemische_stof;
         skos:notation    "124TC1yBen";
@@ -35574,7 +35574,6 @@ csc:DUFVKSUJRWYZQP-UHFFFAOYSA-N
 
 csc:TZIHFWKZFHZASV-UHFFFAOYSA-N
         rdf:type        dbo:ChemicalCompound , skos:Concept , dbo:ChemicalSubstance;
-        rdfs:comment    "VLAREM II bijlage 4.4.2"@nl;
         rdfs:seeAlso    compound:7865;
         dbo:casNumber   "107-31-3";
         dbo:formula     "C2H4O2";
@@ -35585,6 +35584,7 @@ csc:TZIHFWKZFHZASV-UHFFFAOYSA-N
         dbp:inchikey    "TZIHFWKZFHZASV-UHFFFAOYSA-N";
         skos:altLabel   "methylformiaat"@nl , "methylformaat"@nl;
         skos:broader    csc:CHEMONTID_0001238;
+        skos:comment    "VLAREM II bijlage 4.4.2"@nl;
         skos:inScheme   vlcs:chemische_stof;
         skos:notation   "C1yfmt";
         skos:prefLabel  "methylformiaat "@nl .
@@ -36750,7 +36750,6 @@ csc:FIADGNVRKBPQEU-UHFFFAOYSA-N
 
 csc:LEONUFNNVUYDNQ-UHFFFAOYSA-N
         rdf:type         skos:Concept , dbo:ChemicalCompound , dbo:ChemicalSubstance;
-        rdfs:comment     "VLAR III (D3) 'vanadium'"@nl , "VLAR III (D3, diverse art) 'V'"@nl , "VLAR II D5 'vanadium en vanadiumverbindingen, uitgedrukt als vanadium (V)' of 'vanadium'"@nl , "VLAR II bijl. 4.4.2 'vanadium en zijn verbindingen, uitgedrukt in V'"@nl , "VLAR III (D3) 'Vanadium en vanadiumverbindingen, uitgedrukt in vanadium (V)'"@nl;
         rdfs:seeAlso     compound:23990;
         dbo:casNumber    "195161-77-4" , "24763-58-4" , "22541-77-1" , "14782-33-3" , "22537-31-1" , "7440-62-2";
         dbo:formula      "V";
@@ -36761,6 +36760,7 @@ csc:LEONUFNNVUYDNQ-UHFFFAOYSA-N
         dbp:inchikey     "LEONUFNNVUYDNQ-UHFFFAOYSA-N";
         skos:altLabel    "Vanadium (V)"@nl;
         skos:broader     csc:CHEMONTID_0000426;
+        skos:comment     "VLAR III (D3) 'vanadium'"@nl , "VLAR III (D3, diverse art) 'V'"@nl , "VLAR II bijl. 4.4.2 'vanadium en zijn verbindingen, uitgedrukt in V'"@nl , "VLAR III (D3) 'Vanadium en vanadiumverbindingen, uitgedrukt in vanadium (V)'"@nl , "VLAR II D5 'vanadium en vanadiumverbindingen, uitgedrukt als vanadium (V)' of 'vanadium'"@nl;
         skos:definition  "vanadium en vanadiumverbindingen, uitgedrukt als vanadium (V)"@nl;
         skos:exactMatch  wise:CAS_7440-62-2;
         skos:inScheme    vlcs:chemische_stof;
@@ -36831,7 +36831,6 @@ csc:MEFQWPUMEMWTJP-UHFFFAOYSA-N
 
 csc:PPBRXRYQALVLMV-UHFFFAOYSA-N
         rdf:type         dbo:ChemicalSubstance , dbo:ChemicalCompound , skos:Concept;
-        rdfs:comment     "VLAR II bijl. 4.4.2"@nl;
         rdfs:seeAlso     compound:7501;
         dbo:casNumber    "79637-11-9" , "9003-53-6" , "12770-88-6" , "68441-35-0" , "100-42-5" , "68987-41-7";
         dbo:formula      "C8H8";
@@ -36842,6 +36841,7 @@ csc:PPBRXRYQALVLMV-UHFFFAOYSA-N
         dbp:inchikey     "PPBRXRYQALVLMV-UHFFFAOYSA-N";
         skos:altLabel    "polystyreen"@nl;
         skos:broader     csc:CHEMONTID_0000037;
+        skos:comment     "VLAR II bijl. 4.4.2"@nl;
         skos:exactMatch  wise:CAS_100-42-5;
         skos:inScheme    vlcs:chemische_stof;
         skos:notation    "styrn" , "polstyrn";
@@ -36926,7 +36926,6 @@ csc:NTJOBXMMWNYJFB-UHFFFAOYSA-N
 
 csc:QGJOPFRUJISHPQ-UHFFFAOYSA-N
         rdf:type        dbo:ChemicalSubstance , dbo:ChemicalCompound , skos:Concept;
-        rdfs:comment    "VLAREM II bijlage 4.4.2 'zwavelkoolstof'"@nl , "VLAR II Art. 5.7.14.1"@nl;
         rdfs:seeAlso    compound:6348;
         dbo:casNumber   "12539-80-9" , "75-15-0" , "355120-85-3";
         dbo:formula     "CS2";
@@ -36936,6 +36935,7 @@ csc:QGJOPFRUJISHPQ-UHFFFAOYSA-N
         dbo:smiles      "C(=S)=S";
         dbp:inchikey    "QGJOPFRUJISHPQ-UHFFFAOYSA-N";
         skos:broader    csc:CHEMONTID_0000555;
+        skos:comment    "VLAR II Art. 5.7.14.1"@nl , "VLAREM II bijlage 4.4.2 'zwavelkoolstof'"@nl;
         skos:inScheme   vlcs:chemische_stof;
         skos:notation   "CS2";
         skos:prefLabel  "koolstofdisulfide"@nl .
@@ -36957,7 +36957,6 @@ csc:GUTLYIVDDKVIGB-YPZZEJLDSA-N
 
 csc:FYGHSUNMUKGBRK-UHFFFAOYSA-N
         rdf:type        dbo:ChemicalCompound , dbo:ChemicalSubstance , skos:Concept;
-        rdfs:comment    "VLAR II bijl. 4.4.2 'trimethylbenzeen'"@nl;
         rdfs:seeAlso    compound:10686;
         dbo:casNumber   "526-73-8" , "25551-13-7";
         dbo:formula     "C9H12";
@@ -36967,6 +36966,7 @@ csc:FYGHSUNMUKGBRK-UHFFFAOYSA-N
         dbo:smiles      "CC1=C(C(=CC=C1)C)C";
         dbp:inchikey    "FYGHSUNMUKGBRK-UHFFFAOYSA-N";
         skos:broader    csc:CHEMONTID_0002279;
+        skos:comment    "VLAR II bijl. 4.4.2 'trimethylbenzeen'"@nl;
         skos:inScheme   vlcs:chemische_stof;
         skos:notation   "123TC1yBen";
         skos:prefLabel  "1,2,3-trimethylbenzeen"@nl .
@@ -37127,7 +37127,6 @@ csc:WSPOMRSOLSGNFJ-AUWJEWJLSA-N
 
 csc:ISWSIDIOOBJBQZ-UHFFFAOYSA-N
         rdf:type         dbo:ChemicalCompound , skos:Concept , dbo:ChemicalSubstance;
-        rdfs:comment     "VLAR II bijl. 4.4.2"@nl , "VLAR III (D3, diverse art)"@nl;
         rdfs:seeAlso     compound:996;
         dbo:casNumber    "8002-07-1" , "14534-23-7" , "50356-25-7" , "1336-35-2" , "108-95-2" , "61788-41-8" , "73607-76-8" , "63496-48-0" , "27073-41-2";
         dbo:formula      "C6H6O";
@@ -37137,6 +37136,7 @@ csc:ISWSIDIOOBJBQZ-UHFFFAOYSA-N
         dbo:smiles       "C1=CC=C(C=C1)O";
         dbp:inchikey     "ISWSIDIOOBJBQZ-UHFFFAOYSA-N";
         skos:broader     csc:CHEMONTID_0004647;
+        skos:comment     "VLAR II bijl. 4.4.2"@nl , "VLAR III (D3, diverse art)"@nl;
         skos:exactMatch  wise:CAS_108-95-2;
         skos:inScheme    vlcs:chemische_stof;
         skos:notation    "Fol";
@@ -37329,7 +37329,6 @@ csc:XOJVVFBFDXDTEG-UHFFFAOYSA-N
 
 csc:JCXJVPUVTGWSNB-UHFFFAOYSA-N
         rdf:type        dbo:ChemicalCompound , dbo:ChemicalSubstance , skos:Concept;
-        rdfs:comment    "VLAR bijl. 2.5.3. 'NO2'"@nl , "VLAR II bijl. 4.4.2"@nl , "VLAR II diverse art."@nl;
         rdfs:seeAlso    compound:3032552;
         dbo:casNumber   "10102-44-0" , "66252-28-6" , "50443-93-1" , "119990-11-3" , "56003-83-9" , "78246-05-6" , "127999-62-6";
         dbo:formula     "NO2";
@@ -37340,6 +37339,7 @@ csc:JCXJVPUVTGWSNB-UHFFFAOYSA-N
         dbp:inchikey    "JCXJVPUVTGWSNB-UHFFFAOYSA-N";
         skos:altLabel   "stikstofdioxide (NO2)"@nl;
         skos:broader    csc:CHEMONTID_0000554;
+        skos:comment    "VLAR bijl. 2.5.3. 'NO2'"@nl , "VLAR II bijl. 4.4.2"@nl , "VLAR II diverse art."@nl;
         skos:inScheme   vlcs:chemische_stof;
         skos:prefLabel  "stikstofdioxide"@nl .
 
@@ -37480,7 +37480,6 @@ csc:YHJDZIQOCSDIQU-OEDJVVDHSA-N
 
 csc:VGVHNLRUAMRIEW-UHFFFAOYSA-N
         rdf:type        dbo:ChemicalCompound , skos:Concept , dbo:ChemicalSubstance;
-        rdfs:comment    "VLAR II bijl. 4.4.2"@nl;
         rdfs:seeAlso    compound:11525;
         dbo:casNumber   "589-92-4" , "1331-22-2";
         dbo:formula     "C7H12O";
@@ -37491,6 +37490,7 @@ csc:VGVHNLRUAMRIEW-UHFFFAOYSA-N
         dbp:inchikey    "VGVHNLRUAMRIEW-UHFFFAOYSA-N";
         skos:altLabel   "methylcyclohexanon"@nl , "methylcyclohexanon "@nl;
         skos:broader    csc:CHEMONTID_0003487;
+        skos:comment    "VLAR II bijl. 4.4.2"@nl;
         skos:inScheme   vlcs:chemische_stof;
         skos:notation   "4Cy1cycC6on";
         skos:prefLabel  "4-methylcyclohexanon"@nl .
@@ -37514,7 +37514,6 @@ csc:XCSGPAVHZFQHGE-UHFFFAOYSA-N
 
 csc:PTTPXKJBFFKCEK-UHFFFAOYSA-N
         rdf:type        dbo:ChemicalCompound , skos:Concept , dbo:ChemicalSubstance;
-        rdfs:comment    "VLAR II bijl. 4.4.2"@nl;
         rdfs:seeAlso    compound:7958;
         dbo:casNumber   "108-83-8" , "68514-40-9";
         dbo:formula     "C9H18O";
@@ -37525,6 +37524,7 @@ csc:PTTPXKJBFFKCEK-UHFFFAOYSA-N
         dbp:inchikey    "PTTPXKJBFFKCEK-UHFFFAOYSA-N";
         skos:altLabel   "2,6-dimethyl-4-heptanon"@nl;
         skos:broader    csc:CHEMONTID_0000118;
+        skos:comment    "VLAR II bijl. 4.4.2"@nl;
         skos:inScheme   vlcs:chemische_stof;
         skos:notation   "26DC1y4C7on";
         skos:prefLabel  "2,6-dimethylheptaan-4-on"@nl .
@@ -37836,7 +37836,6 @@ csc:NMWSKOLWZZWHPL-UHFFFAOYSA-N
 
 csc:IAYPIBMASNFSPL-UHFFFAOYSA-N
         rdf:type         skos:Concept , dbo:ChemicalCompound , dbo:ChemicalSubstance;
-        rdfs:comment     "VLAR III (D3) 'ethyleenoxide'"@nl , "VLAREM II bijlage 4.4.2"@nl;
         rdfs:seeAlso     compound:6354;
         dbo:casNumber    "37341-05-2" , "75-21-8" , "9072-62-2" , "19034-08-3" , "99932-75-9" , "184288-32-2";
         dbo:formula      "C2H4O";
@@ -37847,6 +37846,7 @@ csc:IAYPIBMASNFSPL-UHFFFAOYSA-N
         dbp:inchikey     "IAYPIBMASNFSPL-UHFFFAOYSA-N";
         skos:altLabel    "ethyleenoxide "@nl;
         skos:broader     csc:CHEMONTID_0000159;
+        skos:comment     "VLAR III (D3) 'ethyleenoxide'"@nl , "VLAREM II bijlage 4.4.2"@nl;
         skos:exactMatch  wise:CAS_75-21-8;
         skos:inScheme    vlcs:chemische_stof;
         skos:notation    "C2yeO";
@@ -38312,7 +38312,6 @@ csc:AFBPFSWMIHJQDM-UHFFFAOYSA-N
 
 csc:VZGDMQKNWNREIO-UHFFFAOYSA-N
         rdf:type         dbo:ChemicalSubstance , dbo:ChemicalCompound , skos:Concept;
-        rdfs:comment     "VLAR III (D3) "@nl , "VLAR II bijl. 4.4.2"@nl;
         rdfs:seeAlso     compound:5943;
         dbo:casNumber    "56-23-5";
         dbo:formula      "CCl4";
@@ -38323,6 +38322,7 @@ csc:VZGDMQKNWNREIO-UHFFFAOYSA-N
         dbp:inchikey     "VZGDMQKNWNREIO-UHFFFAOYSA-N";
         skos:altLabel    "tetrachloormethaan"@nl , "tetrachloormethaan (tetra)"@nl;
         skos:broader     csc:CHEMONTID_0004157;
+        skos:comment     "VLAR II bijl. 4.4.2"@nl , "VLAR III (D3) "@nl;
         skos:exactMatch  wise:CAS_56-23-5;
         skos:inScheme    vlcs:chemische_stof;
         skos:notation    "T4ClC1a";
@@ -38803,7 +38803,6 @@ csc:NIHNNTQXNPWCJQ-UHFFFAOYSA-N
 
 csc:IMNFDUFMRHMDMM-UHFFFAOYSA-N
         rdf:type        skos:Concept , dbo:ChemicalCompound , dbo:ChemicalSubstance;
-        rdfs:comment    "VLAR II bijl. 4.4.2 'paraffinische koolwaterstoffen (behalve methaan)'"@nl;
         rdfs:seeAlso    compound:8900;
         dbo:casNumber   "44607-13-8" , "142-82-5" , "8031-33-2";
         dbo:formula     "C7H16";
@@ -38814,13 +38813,13 @@ csc:IMNFDUFMRHMDMM-UHFFFAOYSA-N
         dbp:inchikey    "IMNFDUFMRHMDMM-UHFFFAOYSA-N";
         skos:altLabel   "n-heptaan"@nl;
         skos:broader    csc:CHEMONTID_0002500;
+        skos:comment    "VLAR II bijl. 4.4.2 'paraffinische koolwaterstoffen (behalve methaan)'"@nl;
         skos:inScheme   vlcs:chemische_stof;
         skos:notation   "C7a";
         skos:prefLabel  "heptaan"@nl .
 
 csc:UFWIBTONFRDIAS-UHFFFAOYSA-N
         rdf:type         dbo:ChemicalSubstance , skos:Concept , dbo:ChemicalCompound;
-        rdfs:comment     "VLAREM II bijlage 4.4.2"@nl;
         rdfs:seeAlso     compound:931;
         dbo:casNumber    "91-20-3" , "68412-25-9" , "72931-45-4";
         dbo:formula      "C10H8";
@@ -38831,6 +38830,7 @@ csc:UFWIBTONFRDIAS-UHFFFAOYSA-N
         dbp:inchikey     "UFWIBTONFRDIAS-UHFFFAOYSA-N";
         skos:altLabel    "naftaleen"@nl;
         skos:broader     csc:CHEMONTID_0000023;
+        skos:comment     "VLAREM II bijlage 4.4.2"@nl;
         skos:exactMatch  wise:CAS_91-20-3;
         skos:inScheme    vlcs:chemische_stof;
         skos:notation    "Naf";
@@ -39786,7 +39786,6 @@ csc:CBMXCNPQDUJNHT-UHFFFAOYSA-N
 
 csc:FSPZPQQWDODWAU-UHFFFAOYSA-N
         rdf:type         dbo:ChemicalCompound , dbo:ChemicalSubstance , skos:Concept;
-        rdfs:comment     "VLAR II+ bijlagen"@nl , "VLAR III (D3, diverse art)  'dioxinen en furanen'"@nl;
         rdfs:seeAlso     compound:38439;
         dbo:casNumber    "40321-76-4";
         dbo:formula      "C12H3Cl5O2";
@@ -39797,6 +39796,7 @@ csc:FSPZPQQWDODWAU-UHFFFAOYSA-N
         dbp:inchikey     "FSPZPQQWDODWAU-UHFFFAOYSA-N";
         skos:altLabel    "1,2,3,7,8-pentachloordibenzo-para-dioxine"@nl , "1,2,3,7,8-pentachloordibenzo-p-dioxine"@nl , " 1,2,3,7,8-pentachloordibenzodioxine"@nl , "1,2,3,7,8-pentachloordibenzodioxine"@nl;
         skos:broader     csc:CHEMONTID_0000420;
+        skos:comment     "VLAR III (D3, diverse art)  'dioxinen en furanen'"@nl , "VLAR II+ bijlagen"@nl;
         skos:exactMatch  wise:CAS_40321-76-4;
         skos:inScheme    vlcs:chemische_stof;
         skos:notation    "PCDD54";
@@ -40072,7 +40072,6 @@ csc:AJYPYWFCUWHZMZ-UHFFFAOYSA-M
 
 csc:XEKOWRVHYACXOJ-UHFFFAOYSA-N
         rdf:type        dbo:ChemicalCompound , dbo:ChemicalSubstance , skos:Concept;
-        rdfs:comment    "VLAR II bijl. 4.4.2"@nl;
         rdfs:seeAlso    compound:8857;
         dbo:casNumber   "141-78-6";
         dbo:formula     "C4H8O2";
@@ -40082,6 +40081,7 @@ csc:XEKOWRVHYACXOJ-UHFFFAOYSA-N
         dbo:smiles      "CCOC(=O)C";
         dbp:inchikey    "XEKOWRVHYACXOJ-UHFFFAOYSA-N";
         skos:broader    csc:CHEMONTID_0001238;
+        skos:comment    "VLAR II bijl. 4.4.2"@nl;
         skos:inScheme   vlcs:chemische_stof;
         skos:notation   "C2yactt";
         skos:prefLabel  "ethylacetaat"@nl .
@@ -40842,7 +40842,6 @@ csc:CJJOSEISRRTUQB-UHFFFAOYSA-N
 
 csc:NOWKCMXCCJGMRR-UHFFFAOYSA-N
         rdf:type        skos:Concept , dbo:ChemicalCompound , dbo:ChemicalSubstance;
-        rdfs:comment    "VLAREM II bijlage 4.4.2"@nl;
         rdfs:seeAlso    compound:9033;
         dbo:casNumber   "96956-24-0" , "81210-08-4" , "68130-99-4" , "9002-98-6" , "68130-98-3" , "92047-44-4" , "69522-69-6" , "81210-07-3" , "81210-09-5" , "39289-19-5" , "151-56-4" , "145379-92-6" , "96956-23-9" , "96956-22-8" , "66456-64-2" , "99932-76-0" , "9077-52-5";
         dbo:formula     "C2H5N";
@@ -40852,6 +40851,7 @@ csc:NOWKCMXCCJGMRR-UHFFFAOYSA-N
         dbo:smiles      "C1CN1";
         dbp:inchikey    "NOWKCMXCCJGMRR-UHFFFAOYSA-N";
         skos:broader    csc:CHEMONTID_0000103;
+        skos:comment    "VLAREM II bijlage 4.4.2"@nl;
         skos:inScheme   vlcs:chemische_stof;
         skos:notation   "C2yeimne";
         skos:prefLabel  "ethyleenimine"@nl .
@@ -41084,7 +41084,6 @@ csc:UJOBWOGCFQCDNV-UHFFFAOYSA-N
 
 csc:FOIBFBMSLDGNHL-UHFFFAOYSA-N
         rdf:type         dbo:ChemicalSubstance , dbo:ChemicalCompound , skos:Concept;
-        rdfs:comment     "VLAR III (D3, diverse art)  'dioxinen en furanen'"@nl , "VLAR II+ bijlagen"@nl;
         rdfs:seeAlso     compound:18636;
         dbo:casNumber    "3268-87-9";
         dbo:formula      "C12Cl8O2";
@@ -41095,6 +41094,7 @@ csc:FOIBFBMSLDGNHL-UHFFFAOYSA-N
         dbp:inchikey     "FOIBFBMSLDGNHL-UHFFFAOYSA-N";
         skos:altLabel    "octachloordibenzodioxine (ocdd)"@nl , "octachloordibenzodioxine"@nl , "octachloordibenzo-para-dioxine"@nl;
         skos:broader     csc:CHEMONTID_0000420;
+        skos:comment     "VLAR III (D3, diverse art)  'dioxinen en furanen'"@nl , "VLAR II+ bijlagen"@nl;
         skos:exactMatch  wise:CAS_3268-87-9;
         skos:inScheme    vlcs:chemische_stof;
         skos:notation    "PCDD75";
@@ -41116,7 +41116,6 @@ csc:GRLPQNLYRHEGIJ-UHFFFAOYSA-J
 
 csc:VEXZGXHMUGYJMC-UHFFFAOYSA-N
         rdf:type        dbo:ChemicalCompound , dbo:ChemicalSubstance , skos:Concept;
-        rdfs:comment    "VLAR II (D5, diverse art) 'HCl'"@nl , "VLAR III (D3) 'waterstofchloride (HCl)'"@nl , "VLAR II bijl. 2.5.1 'chloorwaterstof'"@nl , "VLAR III (D3, diverse art) 'HCl'"@nl;
         rdfs:seeAlso    compound:313;
         dbo:casNumber   "218625-68-4" , "61674-62-2" , "51005-19-7" , "113962-65-5" , "7647-01-0";
         dbo:formula     "ClH";
@@ -41127,6 +41126,7 @@ csc:VEXZGXHMUGYJMC-UHFFFAOYSA-N
         dbp:inchikey    "VEXZGXHMUGYJMC-UHFFFAOYSA-N";
         skos:altLabel   "zoutzuur"@nl;
         skos:broader    csc:CHEMONTID_0000548;
+        skos:comment    "VLAR II bijl. 2.5.1 'chloorwaterstof'"@nl , "VLAR III (D3, diverse art) 'HCl'"@nl , "VLAR III (D3) 'waterstofchloride (HCl)'"@nl , "VLAR II (D5, diverse art) 'HCl'"@nl;
         skos:inScheme   vlcs:chemische_stof;
         skos:notation   "HCl";
         skos:prefLabel  "waterstofchloride"@nl .
@@ -41413,7 +41413,6 @@ csc:PSQYTAPXSHCGMF-BQYQJAHWSA-N
 
 csc:LVYBAQIVPKCOEE-UHFFFAOYSA-N
         rdf:type         skos:Concept , dbo:ChemicalSubstance , dbo:ChemicalCompound;
-        rdfs:comment     "VLAR III (D3, diverse art)  'dioxinen en furanen'"@nl , "VLAR II+ bijlagen"@nl;
         rdfs:seeAlso     compound:51130;
         dbo:casNumber    "70648-26-9";
         dbo:formula      "C12H2Cl6O";
@@ -41424,6 +41423,7 @@ csc:LVYBAQIVPKCOEE-UHFFFAOYSA-N
         dbp:inchikey     "LVYBAQIVPKCOEE-UHFFFAOYSA-N";
         skos:altLabel    "1,2,3,4,7,8-hexachloordibenzofuraan (hxcdf)"@nl , "1,2,3,4,7,8-hexachloordibenzofuran"@nl , " 1,2,3,4,7,8-hexachloordibenzofuraan"@nl;
         skos:broader     csc:CHEMONTID_0003029;
+        skos:comment     "VLAR II+ bijlagen"@nl , "VLAR III (D3, diverse art)  'dioxinen en furanen'"@nl;
         skos:exactMatch  wise:CAS_70648-26-9;
         skos:inScheme    vlcs:chemische_stof;
         skos:notation    "PCDF118";
@@ -42070,7 +42070,6 @@ csc:BWLUMTFWVZZZND-UHFFFAOYSA-N
 
 csc:YGYAWVDWMABLBF-UHFFFAOYSA-N
         rdf:type        dbo:ChemicalCompound , skos:Concept , dbo:ChemicalSubstance;
-        rdfs:comment    "VLAREM II bijlage 4.4.2"@nl;
         rdfs:seeAlso    compound:6371;
         dbo:casNumber   "75-44-5";
         dbo:formula     "CCl2O";
@@ -42081,6 +42080,7 @@ csc:YGYAWVDWMABLBF-UHFFFAOYSA-N
         dbp:inchikey    "YGYAWVDWMABLBF-UHFFFAOYSA-N";
         skos:altLabel   "fosgeen"@nl;
         skos:broader    csc:CHEMONTID_0000550;
+        skos:comment    "VLAREM II bijlage 4.4.2"@nl;
         skos:inScheme   vlcs:chemische_stof;
         skos:notation   "fosgn";
         skos:prefLabel  "fosgeen "@nl .
@@ -42134,7 +42134,6 @@ csc:CKBRQZNRCSJHFT-NJFSPNSNSA-N
 
 csc:OCJBOOLMMGQPQU-UHFFFAOYSA-N
         rdf:type         skos:Concept , dbo:ChemicalCompound , dbo:ChemicalSubstance;
-        rdfs:comment     "VLAREM II bijlage 4.4.2"@nl;
         rdfs:seeAlso     compound:4685;
         dbo:casNumber    "73513-56-1" , "106-46-7";
         dbo:formula      "C6H4Cl2";
@@ -42145,6 +42144,7 @@ csc:OCJBOOLMMGQPQU-UHFFFAOYSA-N
         dbp:inchikey     "OCJBOOLMMGQPQU-UHFFFAOYSA-N";
         skos:altLabel    "1,4-dichloorbenzeen"@nl;
         skos:broader     csc:CHEMONTID_0002564;
+        skos:comment     "VLAREM II bijlage 4.4.2"@nl;
         skos:exactMatch  wise:CAS_106-46-7;
         skos:inScheme    vlcs:chemische_stof;
         skos:notation    "14DClBen";
@@ -42425,7 +42425,6 @@ csc:WRZOMWDJOLIVQP-UHFFFAOYSA-N
 
 csc:QAOWNCQODCNURD-UHFFFAOYSA-N
         rdf:type        dbo:ChemicalCompound , skos:Concept , dbo:ChemicalSubstance;
-        rdfs:comment    "VLAR III (D3) 'zwavelzuur'"@nl , "VLAR II Art. 5.7.2.3 'gasvormig zwaveldioxide en zwaveltrioxide, met inbegrip van zuurdruppels berekend als SO2-equivalent'"@nl;
         rdfs:seeAlso    compound:1118;
         dbo:casNumber   "127529-01-5" , "119540-51-1" , "140623-70-7" , "12772-98-4" , "7664-93-9" , "13537-15-0";
         dbo:formula     "H2O4S";
@@ -42436,13 +42435,13 @@ csc:QAOWNCQODCNURD-UHFFFAOYSA-N
         dbp:inchikey    "QAOWNCQODCNURD-UHFFFAOYSA-N";
         skos:altLabel   "zwavelzuur (H2SO4)"@nl;
         skos:broader    csc:CHEMONTID_0001077;
+        skos:comment    "VLAR III (D3) 'zwavelzuur'"@nl , "VLAR II Art. 5.7.2.3 'gasvormig zwaveldioxide en zwaveltrioxide, met inbegrip van zuurdruppels berekend als SO2-equivalent'"@nl;
         skos:inScheme   vlcs:chemische_stof;
         skos:notation   "H2SO4";
         skos:prefLabel  "zwavelzuur"@nl .
 
 csc:CYTYCFOTNPOANT-UHFFFAOYSA-N
         rdf:type         dbo:ChemicalSubstance , dbo:ChemicalCompound , skos:Concept;
-        rdfs:comment     " (PER bij droogkuis),  'tetrachloorethyleen',  'tetrachloorethyleen'"@nl , "VLAR II Art. 5.4.3.1.4 'perchloorethyleen'"@nl , "VLAR II bijl. 4.4.2 'tetrachloorethyleen'"@nl;
         rdfs:seeAlso     compound:31373;
         dbo:casNumber    "127-18-4";
         dbo:formula      "C2Cl4";
@@ -42453,6 +42452,7 @@ csc:CYTYCFOTNPOANT-UHFFFAOYSA-N
         dbp:inchikey     "CYTYCFOTNPOANT-UHFFFAOYSA-N";
         skos:altLabel    "tetrachloorethyleen (per)"@nl , "tetrachlooretheen (per)"@nl , "per (perchloorethyleen)"@nl , "tetrachlooretheen"@nl;
         skos:broader     csc:CHEMONTID_0002863;
+        skos:comment     "VLAR II Art. 5.4.3.1.4 'perchloorethyleen'"@nl , "VLAR II bijl. 4.4.2 'tetrachloorethyleen'"@nl , " (PER bij droogkuis),  'tetrachloorethyleen',  'tetrachloorethyleen'"@nl;
         skos:exactMatch  wise:CAS_127-18-4;
         skos:inScheme    vlcs:chemische_stof;
         skos:notation    "T4ClC2e";
@@ -42645,7 +42645,6 @@ csc:KIDWGGCIROEJJW-GQCTYLIASA-N
 
 csc:CSCPPACGZOOCGX-UHFFFAOYSA-N
         rdf:type        dbo:ChemicalSubstance , skos:Concept , dbo:ChemicalCompound;
-        rdfs:comment    "VLAR II bijl. 4.4.2"@nl;
         rdfs:seeAlso    compound:180;
         dbo:casNumber   "67-64-1";
         dbo:formula     "C3H6O";
@@ -42655,6 +42654,7 @@ csc:CSCPPACGZOOCGX-UHFFFAOYSA-N
         dbo:smiles      "CC(=O)C";
         dbp:inchikey    "CSCPPACGZOOCGX-UHFFFAOYSA-N";
         skos:broader    csc:CHEMONTID_0000118;
+        skos:comment    "VLAR II bijl. 4.4.2"@nl;
         skos:inScheme   vlcs:chemische_stof;
         skos:notation   "actn";
         skos:prefLabel  "aceton"@nl .
@@ -42876,7 +42876,6 @@ csc:QAOJBHRZQQDFHA-UHFFFAOYSA-N
 
 csc:VVQNEPGJFQJSBK-UHFFFAOYSA-N
         rdf:type        dbo:ChemicalCompound , skos:Concept , dbo:ChemicalSubstance;
-        rdfs:comment    "VLAR II bijl. 4.4.2"@nl;
         rdfs:seeAlso    compound:6658;
         dbo:casNumber   "9065-11-6" , "220713-32-6" , "162221-54-7" , "80-62-6";
         dbo:formula     "C5H8O2";
@@ -42886,6 +42885,7 @@ csc:VVQNEPGJFQJSBK-UHFFFAOYSA-N
         dbo:smiles      "CC(=C)C(=O)OC";
         dbp:inchikey    "VVQNEPGJFQJSBK-UHFFFAOYSA-N";
         skos:broader    csc:CHEMONTID_0003626;
+        skos:comment    "VLAR II bijl. 4.4.2"@nl;
         skos:inScheme   vlcs:chemische_stof;
         skos:notation   "C1ymtclt";
         skos:prefLabel  "methylmethacrylaat"@nl .
@@ -42983,7 +42983,6 @@ csc:TVYLLZQTGLZFBW-ZBFHGGJFSA-N
 
 csc:LCXMEXLGMKFLQO-UHFFFAOYSA-N
         rdf:type         skos:Concept , dbo:ChemicalCompound , dbo:ChemicalSubstance;
-        rdfs:comment     "VLAR III (D3) 'dioxineachtige PCB's'"@nl;
         rdfs:seeAlso     compound:38019;
         dbo:casNumber    "38380-08-4";
         dbo:formula      "C12H4Cl6";
@@ -42994,6 +42993,7 @@ csc:LCXMEXLGMKFLQO-UHFFFAOYSA-N
         dbp:inchikey     "LCXMEXLGMKFLQO-UHFFFAOYSA-N";
         skos:altLabel    "2,3,3',4,4',5-hexachloorbifenyl"@nl , "pcb 156"@nl;
         skos:broader     csc:CHEMONTID_0003030;
+        skos:comment     "VLAR III (D3) 'dioxineachtige PCB's'"@nl;
         skos:exactMatch  wise:CAS_38380-08-4;
         skos:inScheme    vlcs:chemische_stof;
         skos:notation    "PCB156";
@@ -43001,7 +43001,6 @@ csc:LCXMEXLGMKFLQO-UHFFFAOYSA-N
 
 csc:HUWXDEQWWKGHRV-UHFFFAOYSA-N
         rdf:type         dbo:ChemicalSubstance , dbo:ChemicalCompound , skos:Concept;
-        rdfs:comment     "VLAREM II bijlage 4.4.2"@nl;
         rdfs:seeAlso     compound:7070;
         dbo:casNumber    "86349-58-8" , "91-94-1";
         dbo:formula      "C12H10Cl2N2";
@@ -43012,6 +43011,7 @@ csc:HUWXDEQWWKGHRV-UHFFFAOYSA-N
         dbp:inchikey     "HUWXDEQWWKGHRV-UHFFFAOYSA-N";
         skos:altLabel    "3,3'-dichloorbenzidine"@nl;
         skos:broader     csc:CHEMONTID_0003956;
+        skos:comment     "VLAREM II bijlage 4.4.2"@nl;
         skos:exactMatch  wise:CAS_91-94-1;
         skos:inScheme    vlcs:chemische_stof;
         skos:notation    "33DClbzdne";
@@ -43049,7 +43049,6 @@ csc:VNEBWJSWMVTSHK-UHFFFAOYSA-L
 
 csc:JEYJJJXOFWNEHN-UHFFFAOYSA-N
         rdf:type         dbo:ChemicalSubstance , dbo:ChemicalCompound , skos:Concept;
-        rdfs:comment     "VLAR II+ bijlagen"@nl , "VLAR III (D3, diverse art)  'dioxinen en furanen'"@nl;
         rdfs:seeAlso     compound:42140;
         dbo:casNumber    "57117-44-9";
         dbo:formula      "C12H2Cl6O";
@@ -43060,6 +43059,7 @@ csc:JEYJJJXOFWNEHN-UHFFFAOYSA-N
         dbp:inchikey     "JEYJJJXOFWNEHN-UHFFFAOYSA-N";
         skos:altLabel    "1,2,3,6,7,8-hexachloordibenzofuraan"@nl , " 1,2,3,6,7,8-hexachloordibenzofuraan"@nl , "1,2,3,6,7,8-hexachloordibenzofuran"@nl;
         skos:broader     csc:CHEMONTID_0003029;
+        skos:comment     "VLAR III (D3, diverse art)  'dioxinen en furanen'"@nl , "VLAR II+ bijlagen"@nl;
         skos:exactMatch  wise:CAS_57117-44-9;
         skos:inScheme    vlcs:chemische_stof;
         skos:notation    "PCDF121";
@@ -43674,7 +43674,6 @@ csc:SEQDDYPDSLOBDC-UHFFFAOYSA-N
 
 csc:POAOYUHQDCAZBD-UHFFFAOYSA-N
         rdf:type        dbo:ChemicalSubstance , dbo:ChemicalCompound , skos:Concept;
-        rdfs:comment    "VLAR II bijl. 4.4.2"@nl;
         rdfs:seeAlso    compound:8133;
         dbo:casNumber   "9004-77-7" , "111-76-2";
         dbo:formula     "C6H14O2";
@@ -43684,6 +43683,7 @@ csc:POAOYUHQDCAZBD-UHFFFAOYSA-N
         dbo:smiles      "CCCCOCCO";
         dbp:inchikey    "POAOYUHQDCAZBD-UHFFFAOYSA-N";
         skos:broader    csc:CHEMONTID_0001167;
+        skos:comment    "VLAR II bijl. 4.4.2"@nl;
         skos:inScheme   vlcs:chemische_stof;
         skos:notation   "2C4oxC2ol";
         skos:prefLabel  "2-butoxyethanol"@nl .
@@ -43767,7 +43767,6 @@ csc:ZSLUVFAKFWKJRC-BJUDXGSMSA-N
 
 csc:KCXMKQUNVWSEMD-UHFFFAOYSA-N
         rdf:type         skos:Concept , dbo:ChemicalSubstance , dbo:ChemicalCompound;
-        rdfs:comment     "VLAREM II bijlage 4.4.2"@nl;
         rdfs:seeAlso     compound:7503;
         dbo:casNumber    "100-44-7" , "25168-05-2" , "27987-13-9";
         dbo:formula      "C7H7Cl";
@@ -43778,6 +43777,7 @@ csc:KCXMKQUNVWSEMD-UHFFFAOYSA-N
         dbp:inchikey     "KCXMKQUNVWSEMD-UHFFFAOYSA-N";
         skos:altLabel    "benzylchloride"@nl , "alfa-chloortolueen (benzylchloride)"@nl;
         skos:broader     csc:CHEMONTID_0003980;
+        skos:comment     "VLAREM II bijlage 4.4.2"@nl;
         skos:exactMatch  wise:CAS_100-44-7;
         skos:inScheme    vlcs:chemische_stof;
         skos:notation    "benzCl";
@@ -44000,7 +44000,6 @@ csc:NFACJZMKEDPNKN-UHFFFAOYSA-N
 
 csc:QPJVMBTYPHYUOC-UHFFFAOYSA-N
         rdf:type        skos:Concept , dbo:ChemicalCompound , dbo:ChemicalSubstance;
-        rdfs:comment    "VLAREM II bijlage 4.4.2"@nl;
         rdfs:seeAlso    compound:7150;
         dbo:casNumber   "93-58-3";
         dbo:formula     "C8H8O2";
@@ -44010,6 +44009,7 @@ csc:QPJVMBTYPHYUOC-UHFFFAOYSA-N
         dbo:smiles      "COC(=O)C1=CC=CC=C1";
         dbp:inchikey    "QPJVMBTYPHYUOC-UHFFFAOYSA-N";
         skos:broader    csc:CHEMONTID_0001350;
+        skos:comment    "VLAREM II bijlage 4.4.2"@nl;
         skos:inScheme   vlcs:chemische_stof;
         skos:prefLabel  "methylbenzoaat"@nl .
 
@@ -45049,7 +45049,6 @@ csc:GUCVJGMIXFAOAE-OUBTZVSYSA-N
 
 csc:RTZKZFJDLAIYFH-UHFFFAOYSA-N
         rdf:type        skos:Concept , dbo:ChemicalCompound , dbo:ChemicalSubstance;
-        rdfs:comment    "VLAR II bijl. 4.4.2"@nl;
         rdfs:seeAlso    compound:3283;
         dbo:casNumber   "60-29-7" , "68991-48-0" , "71011-10-4" , "7578-39-4" , "74446-43-8" , "69227-20-9" , "69013-19-0" , "70131-58-7";
         dbo:formula     "C4H10O";
@@ -45060,13 +45059,13 @@ csc:RTZKZFJDLAIYFH-UHFFFAOYSA-N
         dbp:inchikey    "RTZKZFJDLAIYFH-UHFFFAOYSA-N";
         skos:altLabel   "diethylether"@nl;
         skos:broader    csc:CHEMONTID_0001167;
+        skos:comment    "VLAR II bijl. 4.4.2"@nl;
         skos:inScheme   vlcs:chemische_stof;
         skos:notation   "DC2yEtr";
         skos:prefLabel  "di-ethylether"@nl .
 
 csc:SXZSFWHOSHAKMN-UHFFFAOYSA-N
         rdf:type         dbo:ChemicalCompound , skos:Concept , dbo:ChemicalSubstance;
-        rdfs:comment     "VLAR III (D3) 'dioxineachtige PCB's'"@nl;
         rdfs:seeAlso     compound:53036;
         dbo:casNumber    "74472-37-0";
         dbo:formula      "C12H5Cl5";
@@ -45077,6 +45076,7 @@ csc:SXZSFWHOSHAKMN-UHFFFAOYSA-N
         dbp:inchikey     "SXZSFWHOSHAKMN-UHFFFAOYSA-N";
         skos:altLabel    "PCB 114"@nl , "pcb 114"@nl , "2,3,4,4',5-pentachloorbifenyl (pcb114)"@nl;
         skos:broader     csc:CHEMONTID_0003030;
+        skos:comment     "VLAR III (D3) 'dioxineachtige PCB's'"@nl;
         skos:exactMatch  wise:CAS_74472-37-0;
         skos:inScheme    vlcs:chemische_stof;
         skos:notation    "PCB114";
@@ -45676,7 +45676,6 @@ csc:CUONGYYJJVDODC-UHFFFAOYSA-N
 
 csc:RWGFKTVRMDUZSP-UHFFFAOYSA-N
         rdf:type         skos:Concept , dbo:ChemicalCompound , dbo:ChemicalSubstance;
-        rdfs:comment     "VLAR II bijl. 4.4.2"@nl;
         rdfs:seeAlso     compound:7406;
         dbo:casNumber    "81834-12-0" , "54596-41-7" , "60328-46-3" , "68553-94-6" , "55128-06-8" , "53986-84-8" , "117079-77-3" , "56451-72-0" , "105270-05-1" , "11120-46-0" , "51609-87-1" , "98-82-8" , "120037-99-2" , "51609-83-7" , "12627-11-1" , "61584-89-2" , "61584-90-5" , "57657-06-4" , "52932-49-7" , "39470-87-6" , "53112-49-5" , "60880-98-0" , "55465-00-4" , "60120-16-3" , "172641-48-4" , "9055-91-8" , "86090-91-7" , "58033-91-3" , "40494-15-3" , "9044-64-8" , "68411-37-0" , "98444-30-5" , "63849-49-0" , "56748-62-0" , "172867-64-0" , "144637-93-4" , "68333-89-1";
         dbo:formula      "C9H12";
@@ -45687,6 +45686,7 @@ csc:RWGFKTVRMDUZSP-UHFFFAOYSA-N
         dbp:inchikey     "RWGFKTVRMDUZSP-UHFFFAOYSA-N";
         skos:altLabel    "isopropylbenzeen (cumeen)"@nl , "isopropylbenzeen"@nl;
         skos:broader     csc:CHEMONTID_0000355;
+        skos:comment     "VLAR II bijl. 4.4.2"@nl;
         skos:exactMatch  wise:CAS_98-82-8;
         skos:inScheme    vlcs:chemische_stof;
         skos:notation    "cumn";
@@ -45799,7 +45799,6 @@ csc:JZQKKSLKJUAGIC-UHFFFAOYSA-N
 
 csc:KZBUYRJDOAKODT-UHFFFAOYSA-N
         rdf:type        skos:Concept , dbo:ChemicalSubstance , dbo:ChemicalCompound;
-        rdfs:comment    "VLAR II bijl. 2.5.1"@nl , "VLAR III (D3) 'chloor, uitgedrukt als Cl2'"@nl , "VLAR II bijl. 4.4.2 'chloorgas'"@nl , "VLAR III (D3) 'chloorgas'"@nl , "VLAR II (D5)"@nl , "VLAR III (D3) 'chloorgas, uitgedrukt als Cl2'"@nl;
         rdfs:seeAlso    compound:24526;
         dbo:casNumber   "7782-50-5";
         dbo:formula     "Cl2";
@@ -45810,6 +45809,7 @@ csc:KZBUYRJDOAKODT-UHFFFAOYSA-N
         dbp:inchikey    "KZBUYRJDOAKODT-UHFFFAOYSA-N";
         skos:altLabel   "chloor"@nl;
         skos:broader    csc:CHEMONTID_0000432;
+        skos:comment    "VLAR II (D5)"@nl , "VLAR III (D3) 'chloor, uitgedrukt als Cl2'"@nl , "VLAR II bijl. 4.4.2 'chloorgas'"@nl , "VLAR III (D3) 'chloorgas, uitgedrukt als Cl2'"@nl , "VLAR II bijl. 2.5.1"@nl , "VLAR III (D3) 'chloorgas'"@nl;
         skos:inScheme   vlcs:chemische_stof;
         skos:notation   "Cl2";
         skos:prefLabel  "dichloor"@nl .
@@ -45846,7 +45846,6 @@ csc:DAIIXVPKQATIMF-UHFFFAOYSA-N
 
 csc:VYZAMTAEIAYCRO-UHFFFAOYSA-N
         rdf:type         skos:Concept , dbo:ChemicalCompound , dbo:ChemicalSubstance;
-        rdfs:comment     "VLAR III (D3, diverse art) 'Cr'"@nl , "VLAR II bijl. 4.4.2 'chroom en zijn verbindingen, uitgedrukt in Cr'"@nl , "VLAR II D5 'chroom en zijn verbindingen uitgedrukt in Cr' en 'chroom en chroomverbindingen, uitgedrukt als chroom (Cr)'"@nl;
         rdfs:seeAlso     compound:23976;
         dbo:casNumber    "188785-87-7" , "195161-82-1" , "19498-56-7" , "7440-47-3";
         dbo:formula      "Cr";
@@ -45857,6 +45856,7 @@ csc:VYZAMTAEIAYCRO-UHFFFAOYSA-N
         dbp:inchikey     "VYZAMTAEIAYCRO-UHFFFAOYSA-N";
         skos:altLabel    "chroom (Cr)"@nl;
         skos:broader     csc:CHEMONTID_0000426;
+        skos:comment     "VLAR II D5 'chroom en zijn verbindingen uitgedrukt in Cr' en 'chroom en chroomverbindingen, uitgedrukt als chroom (Cr)'"@nl , "VLAR II bijl. 4.4.2 'chroom en zijn verbindingen, uitgedrukt in Cr'"@nl , "VLAR III (D3, diverse art) 'Cr'"@nl;
         skos:definition  "chroom en chroomverbindingen, uitgedrukt als chroom (Cr)"@nl;
         skos:exactMatch  wise:CAS_7440-47-3;
         skos:inScheme    vlcs:chemische_stof;
@@ -45999,7 +45999,6 @@ csc:FAOSYNUKPVJLNZ-UHFFFAOYSA-N
 
 csc:BAPJBEWLBFYGME-UHFFFAOYSA-N
         rdf:type        skos:Concept , dbo:ChemicalSubstance , dbo:ChemicalCompound;
-        rdfs:comment    "VLAR II bijl. 4.4.2"@nl;
         rdfs:seeAlso    compound:7294;
         dbo:casNumber   "102256-29-1" , "96-33-3";
         dbo:formula     "C4H6O2";
@@ -46009,6 +46008,7 @@ csc:BAPJBEWLBFYGME-UHFFFAOYSA-N
         dbo:smiles      "COC(=O)C=C";
         dbp:inchikey    "BAPJBEWLBFYGME-UHFFFAOYSA-N";
         skos:broader    csc:CHEMONTID_0004452;
+        skos:comment    "VLAR II bijl. 4.4.2"@nl;
         skos:inScheme   vlcs:chemische_stof;
         skos:notation   "C1yaclt";
         skos:prefLabel  "methylacrylaat"@nl .
@@ -46137,7 +46137,6 @@ csc:UCKMPCXJQFINFW-UHFFFAOYSA-N
 
 csc:RHIROFAGUQOFLU-UHFFFAOYSA-N
         rdf:type         dbo:ChemicalSubstance , dbo:ChemicalCompound , skos:Concept;
-        rdfs:comment     "VLAR II+ bijlagen"@nl , "VLAR III (D3, diverse art)  'dioxinen en furanen'"@nl;
         rdfs:seeAlso     compound:38200;
         dbo:casNumber    "39001-02-0";
         dbo:formula      "C12Cl8O";
@@ -46148,6 +46147,7 @@ csc:RHIROFAGUQOFLU-UHFFFAOYSA-N
         dbp:inchikey     "RHIROFAGUQOFLU-UHFFFAOYSA-N";
         skos:altLabel    "octachloordibenzofuran"@nl , " octachloordibenzofuraan"@nl , "octachloordibenzofuraan (ocdf)"@nl , "octachloordibenzofuraan"@nl;
         skos:broader     csc:CHEMONTID_0003029;
+        skos:comment     "VLAR III (D3, diverse art)  'dioxinen en furanen'"@nl , "VLAR II+ bijlagen"@nl;
         skos:exactMatch  wise:CAS_39001-02-0;
         skos:inScheme    vlcs:chemische_stof;
         skos:notation    "PCDF135";
@@ -46541,7 +46541,6 @@ csc:NDJKXXJCMXVBJW-UHFFFAOYSA-N
 
 csc:VNWKTOKETHGBQD-UHFFFAOYSA-N
         rdf:type        dbo:ChemicalSubstance , dbo:ChemicalCompound , skos:Concept;
-        rdfs:comment    "VLAR III (D3, art 3.12.5.1.7) 'CH4-gehalte'"@nl , "VLAR II (D1, definities broeikasgassen)"@nl;
         rdfs:seeAlso    compound:297;
         dbo:casNumber   "74-82-8";
         dbo:formula     "CH4";
@@ -46552,6 +46551,7 @@ csc:VNWKTOKETHGBQD-UHFFFAOYSA-N
         dbp:inchikey    "VNWKTOKETHGBQD-UHFFFAOYSA-N";
         skos:altLabel   "methaan (CH4)"@nl;
         skos:broader    csc:CHEMONTID_0002500;
+        skos:comment    "VLAR III (D3, art 3.12.5.1.7) 'CH4-gehalte'"@nl , "VLAR II (D1, definities broeikasgassen)"@nl;
         skos:inScheme   vlcs:chemische_stof;
         skos:notation   "C1a";
         skos:prefLabel  "methaan"@nl .
@@ -46697,7 +46697,6 @@ csc:VHHHONWQHHHLTI-UHFFFAOYSA-N
 
 csc:UOCLXMDMGBRAIB-UHFFFAOYSA-N
         rdf:type         skos:Concept , dbo:ChemicalSubstance , dbo:ChemicalCompound;
-        rdfs:comment     "VLAR II bijl. 4.4.2"@nl , "VLAR II Art. 5.4.3.1.4"@nl;
         rdfs:seeAlso     compound:6278;
         dbo:casNumber    "71-55-6" , "74552-83-3";
         dbo:formula      "C2H3Cl3";
@@ -46707,6 +46706,7 @@ csc:UOCLXMDMGBRAIB-UHFFFAOYSA-N
         dbo:smiles       "CC(Cl)(Cl)Cl";
         dbp:inchikey     "UOCLXMDMGBRAIB-UHFFFAOYSA-N";
         skos:broader     csc:CHEMONTID_0001516;
+        skos:comment     "VLAR II Art. 5.4.3.1.4"@nl , "VLAR II bijl. 4.4.2"@nl;
         skos:exactMatch  wise:CAS_71-55-6;
         skos:inScheme    vlcs:chemische_stof;
         skos:notation    "111TClC2a";
@@ -47514,7 +47514,6 @@ csc:YXEOEPYIBGTLML-UHFFFAOYSA-N
 
 csc:SWXVUIWOUIDPGS-UHFFFAOYSA-N
         rdf:type        dbo:ChemicalCompound , skos:Concept , dbo:ChemicalSubstance;
-        rdfs:comment    "VLAR II bijl. 4.4.2"@nl;
         rdfs:seeAlso    compound:31256;
         dbo:casNumber   "123-42-2";
         dbo:formula     "C6H12O2";
@@ -47524,6 +47523,7 @@ csc:SWXVUIWOUIDPGS-UHFFFAOYSA-N
         dbo:smiles      "CC(=O)CC(C)(C)O";
         dbp:inchikey    "SWXVUIWOUIDPGS-UHFFFAOYSA-N";
         skos:broader    csc:CHEMONTID_0002913;
+        skos:comment    "VLAR II bijl. 4.4.2"@nl;
         skos:inScheme   vlcs:chemische_stof;
         skos:notation   "4Hox4C1y2C5o";
         skos:prefLabel  "4-hydroxy-4-methyl-2-pentanon"@nl .
@@ -47876,7 +47876,6 @@ csc:BJNCSIWIMCWIMS-UHFFFAOYSA-N
 
 csc:BAVYZALUXZFZLV-UHFFFAOYSA-N
         rdf:type        dbo:ChemicalCompound , dbo:ChemicalSubstance , skos:Concept;
-        rdfs:comment    "VLAREM II bijlage 4.4.2"@nl;
         rdfs:seeAlso    compound:6329;
         dbo:casNumber   "74-89-5" , "119775-09-6" , "85404-17-7" , "42939-70-8";
         dbo:formula     "CH5N";
@@ -47887,6 +47886,7 @@ csc:BAVYZALUXZFZLV-UHFFFAOYSA-N
         dbp:inchikey    "BAVYZALUXZFZLV-UHFFFAOYSA-N";
         skos:altLabel   "methylamine"@nl , "methylamine "@nl;
         skos:broader    csc:CHEMONTID_0000469;
+        skos:comment    "VLAREM II bijlage 4.4.2"@nl;
         skos:inScheme   vlcs:chemische_stof;
         skos:notation   "MC1yAe";
         skos:prefLabel  "monomethylamine"@nl .
@@ -48091,7 +48091,6 @@ csc:FOANIXZHAMJWOI-UHFFFAOYSA-N
 
 csc:FTOVXSOBNPWTSH-UHFFFAOYSA-N
         rdf:type         dbo:ChemicalSubstance , skos:Concept , dbo:ChemicalCompound;
-        rdfs:comment     "VLAR II (D2)"@nl;
         rdfs:seeAlso     compound:9153;
         dbo:casNumber    "205-99-2";
         dbo:formula      "C20H12";
@@ -48102,6 +48101,7 @@ csc:FTOVXSOBNPWTSH-UHFFFAOYSA-N
         dbp:inchikey     "FTOVXSOBNPWTSH-UHFFFAOYSA-N";
         skos:altLabel    "benzo(b)fluorantheen"@nl , "benzo(b)fluorantheen (b)"@nl;
         skos:broader     csc:CHEMONTID_0000025;
+        skos:comment     "VLAR II (D2)"@nl;
         skos:exactMatch  wise:CAS_205-99-2;
         skos:inScheme    vlcs:chemische_stof;
         skos:notation    "BbF";
@@ -48351,7 +48351,6 @@ csc:BRPSAOUFIJSKOT-UHFFFAOYSA-N
 
 csc:BZHJMEDXRYGGRV-UHFFFAOYSA-N
         rdf:type         dbo:ChemicalSubstance , dbo:ChemicalCompound , skos:Concept;
-        rdfs:comment     "VLAR II Art. 5.7.7.1"@nl , "VLAREM bijlage 2.5.1 'monovinylchloride'"@nl , "VLAR III (D3) 'vinylchloride'"@nl , "VLAREM II bijlage 4.4.2"@nl;
         rdfs:seeAlso     compound:6338;
         dbo:casNumber    "75-01-4" , "9002-86-2";
         dbo:formula      "C2H3Cl";
@@ -48362,6 +48361,7 @@ csc:BZHJMEDXRYGGRV-UHFFFAOYSA-N
         dbp:inchikey     "BZHJMEDXRYGGRV-UHFFFAOYSA-N";
         skos:altLabel    "vinylchloride"@nl , "chlooretheen (vinylchloride)"@nl;
         skos:broader     csc:CHEMONTID_0002863;
+        skos:comment     "VLAREM II bijlage 4.4.2"@nl , "VLAR III (D3) 'vinylchloride'"@nl , "VLAR II Art. 5.7.7.1"@nl , "VLAREM bijlage 2.5.1 'monovinylchloride'"@nl;
         skos:exactMatch  wise:CAS_75-01-4;
         skos:inScheme    vlcs:chemische_stof;
         skos:notation    "ClC2e";
@@ -48369,7 +48369,6 @@ csc:BZHJMEDXRYGGRV-UHFFFAOYSA-N
 
 csc:ZAFNJMIOTHYJRJ-UHFFFAOYSA-N
         rdf:type        dbo:ChemicalSubstance , skos:Concept , dbo:ChemicalCompound;
-        rdfs:comment    "VLAR II bijl. 4.4.2"@nl;
         rdfs:seeAlso    compound:7914;
         dbo:casNumber   "108-20-3";
         dbo:formula     "C6H14O";
@@ -48380,6 +48379,7 @@ csc:ZAFNJMIOTHYJRJ-UHFFFAOYSA-N
         dbp:inchikey    "ZAFNJMIOTHYJRJ-UHFFFAOYSA-N";
         skos:altLabel   "di-isopropylether"@nl;
         skos:broader    csc:CHEMONTID_0001167;
+        skos:comment    "VLAR II bijl. 4.4.2"@nl;
         skos:inScheme   vlcs:chemische_stof;
         skos:notation   "DiC3yEtr";
         skos:prefLabel  "diisopropylether"@nl .
@@ -49511,7 +49511,6 @@ csc:JZHDEEOTEUVLHR-UHFFFAOYSA-N
 
 csc:MVPPADPHJFYWMZ-UHFFFAOYSA-N
         rdf:type         skos:Concept , dbo:ChemicalSubstance , dbo:ChemicalCompound;
-        rdfs:comment     "VLAR II bijl. 4.4.2"@nl;
         rdfs:seeAlso     compound:7964;
         dbo:casNumber    "50717-45-8" , "108-90-7" , "68411-45-0";
         dbo:formula      "C6H5Cl";
@@ -49521,6 +49520,7 @@ csc:MVPPADPHJFYWMZ-UHFFFAOYSA-N
         dbo:smiles       "C1=CC=C(C=C1)Cl";
         dbp:inchikey     "MVPPADPHJFYWMZ-UHFFFAOYSA-N";
         skos:broader     csc:CHEMONTID_0001099;
+        skos:comment     "VLAR II bijl. 4.4.2"@nl;
         skos:exactMatch  wise:CAS_108-90-7;
         skos:inScheme    vlcs:chemische_stof;
         skos:notation    "ClBen";
@@ -49944,7 +49944,6 @@ csc:AWZVYNHQGTZJIH-UHFFFAOYSA-N
 
 csc:AZXHAWRMEPZSSV-UHFFFAOYSA-N
         rdf:type         dbo:ChemicalCompound , dbo:ChemicalSubstance , skos:Concept;
-        rdfs:comment     "VLAR III (D3) 'dioxineachtige PCB's'"@nl;
         rdfs:seeAlso     compound:40479;
         dbo:casNumber    "52663-72-6";
         dbo:formula      "C12H4Cl6";
@@ -49955,6 +49954,7 @@ csc:AZXHAWRMEPZSSV-UHFFFAOYSA-N
         dbp:inchikey     "AZXHAWRMEPZSSV-UHFFFAOYSA-N";
         skos:altLabel    "2,3',4,4',5,5'-hexachloorbifenyl (pcb167)"@nl , "2,3',4,4',5,5'-hexachloorbifenyl"@nl , "PCB 167"@nl;
         skos:broader     csc:CHEMONTID_0003030;
+        skos:comment     "VLAR III (D3) 'dioxineachtige PCB's'"@nl;
         skos:exactMatch  wise:CAS_52663-72-6;
         skos:inScheme    vlcs:chemische_stof;
         skos:notation    "PCB167";
@@ -50327,7 +50327,6 @@ csc:AHTPATJNIAFOLR-UHFFFAOYSA-N
 
 csc:KAKZBPTYRLMSJV-UHFFFAOYSA-N
         rdf:type        skos:Concept , dbo:ChemicalSubstance , dbo:ChemicalCompound;
-        rdfs:comment    "VLAREM II bijlage 4.4.2"@nl;
         rdfs:seeAlso    compound:7845;
         dbo:casNumber   "25339-57-5" , "130983-70-9" , "68441-48-5" , "68514-37-4" , "106-99-0";
         dbo:formula     "C4H6";
@@ -50337,6 +50336,7 @@ csc:KAKZBPTYRLMSJV-UHFFFAOYSA-N
         dbo:smiles      "C=CC=C";
         dbp:inchikey    "KAKZBPTYRLMSJV-UHFFFAOYSA-N";
         skos:broader    csc:CHEMONTID_0001019;
+        skos:comment    "VLAREM II bijlage 4.4.2"@nl;
         skos:inScheme   vlcs:chemische_stof;
         skos:notation   "13butDen";
         skos:prefLabel  "1,3-butadieen"@nl .
@@ -50694,7 +50694,6 @@ csc:SHOJXDKTYKFBRD-UHFFFAOYSA-N
 
 csc:KUFFULVDNCHOFZ-UHFFFAOYSA-N
         rdf:type         dbo:ChemicalSubstance , dbo:ChemicalCompound , skos:Concept;
-        rdfs:comment     "VLAREM II bijlage 4.4.2"@nl;
         rdfs:seeAlso     compound:7771;
         dbo:casNumber    "105-67-9";
         dbo:formula      "C8H10O";
@@ -50705,6 +50704,7 @@ csc:KUFFULVDNCHOFZ-UHFFFAOYSA-N
         dbp:inchikey     "KUFFULVDNCHOFZ-UHFFFAOYSA-N";
         skos:altLabel    "2,4-dimethylfenol"@nl , "2,4-xylenol "@nl;
         skos:broader     csc:CHEMONTID_0004212;
+        skos:comment     "VLAREM II bijlage 4.4.2"@nl;
         skos:exactMatch  wise:CAS_105-67-9;
         skos:inScheme    vlcs:chemische_stof;
         skos:notation    "24DC1yFol";
@@ -51233,7 +51233,6 @@ csc:RXDMAYSSBPYBFW-UHFFFAOYSA-N
 
 csc:BTANRVKWQNVYAZ-UHFFFAOYSA-N
         rdf:type        skos:Concept , dbo:ChemicalCompound , dbo:ChemicalSubstance;
-        rdfs:comment    "VLAR II bijl. 4.4.2 'alkylalcohol'"@nl;
         rdfs:seeAlso    compound:6568;
         dbo:casNumber   "78-92-2" , "15892-23-6" , "4221-99-2";
         dbo:formula     "C4H10O";
@@ -51244,6 +51243,7 @@ csc:BTANRVKWQNVYAZ-UHFFFAOYSA-N
         dbp:inchikey    "BTANRVKWQNVYAZ-UHFFFAOYSA-N";
         skos:altLabel   "s-butanol"@nl;
         skos:broader    csc:CHEMONTID_0001661;
+        skos:comment    "VLAR II bijl. 4.4.2 'alkylalcohol'"@nl;
         skos:inScheme   vlcs:chemische_stof;
         skos:notation   "2C4ol";
         skos:prefLabel  "2-butanol"@nl .
@@ -51372,7 +51372,6 @@ csc:OCHOKXCPKDPNQU-UHFFFAOYSA-N
 
 csc:IKHGUXGNUITLKF-UHFFFAOYSA-N
         rdf:type        dbo:ChemicalSubstance , skos:Concept , dbo:ChemicalCompound;
-        rdfs:comment    "VLAREM II bijlage 4.4.2"@nl;
         rdfs:seeAlso    compound:177;
         dbo:casNumber   "75-07-0";
         dbo:formula     "C2H4O";
@@ -51383,6 +51382,7 @@ csc:IKHGUXGNUITLKF-UHFFFAOYSA-N
         dbp:inchikey    "IKHGUXGNUITLKF-UHFFFAOYSA-N";
         skos:altLabel   "acetaldehyde "@nl , "ethanal"@nl;
         skos:broader    csc:CHEMONTID_0002230;
+        skos:comment    "VLAREM II bijlage 4.4.2"@nl;
         skos:inScheme   vlcs:chemische_stof;
         skos:notation   "C2al";
         skos:prefLabel  "acetaldehyde"@nl .
@@ -51633,7 +51633,6 @@ csc:ZOXJGFHDIHLPTG-UHFFFAOYSA-N
 
 csc:PAAZPARNPHGIKF-UHFFFAOYSA-N
         rdf:type         dbo:ChemicalCompound , dbo:ChemicalSubstance , skos:Concept;
-        rdfs:comment     "VLAR II bijl. 4.4.2"@nl;
         rdfs:seeAlso     compound:7839;
         dbo:casNumber    "8003-07-4" , "624-61-3" , "106-93-4";
         dbo:formula      "C2H4Br2";
@@ -51643,6 +51642,7 @@ csc:PAAZPARNPHGIKF-UHFFFAOYSA-N
         dbo:smiles       "C(CBr)Br";
         dbp:inchikey     "PAAZPARNPHGIKF-UHFFFAOYSA-N";
         skos:broader     csc:CHEMONTID_0001515;
+        skos:comment     "VLAR II bijl. 4.4.2"@nl;
         skos:exactMatch  wise:CAS_106-93-4;
         skos:inScheme    vlcs:chemische_stof;
         skos:notation    "12DBrC2a";
@@ -52035,7 +52035,6 @@ csc:XIGAUIHYSDTJHW-UHFFFAOYSA-N
 
 csc:DIOQZVSQGTUSAI-UHFFFAOYSA-N
         rdf:type        dbo:ChemicalSubstance , skos:Concept , dbo:ChemicalCompound;
-        rdfs:comment    "VLAR II bijl. 4.4.2 'paraffinische koolwaterstoffen (behalve methaan)'"@nl;
         rdfs:seeAlso    compound:15600;
         dbo:casNumber   "63335-87-5" , "124-18-5" , "73138-29-1";
         dbo:formula     "C10H22";
@@ -52046,6 +52045,7 @@ csc:DIOQZVSQGTUSAI-UHFFFAOYSA-N
         dbp:inchikey    "DIOQZVSQGTUSAI-UHFFFAOYSA-N";
         skos:altLabel   "decaan"@nl;
         skos:broader    csc:CHEMONTID_0002500;
+        skos:comment    "VLAR II bijl. 4.4.2 'paraffinische koolwaterstoffen (behalve methaan)'"@nl;
         skos:inScheme   vlcs:chemische_stof;
         skos:notation   "C10a";
         skos:prefLabel  "n-decaan"@nl .
@@ -52235,7 +52235,6 @@ csc:VNWKTOKETHGBQD-OUBTZVSYSA-N
 
 csc:ZMXDDKWLCZADIW-UHFFFAOYSA-N
         rdf:type        skos:Concept , dbo:ChemicalCompound , dbo:ChemicalSubstance;
-        rdfs:comment    "VLAR II bijl. 4.4.2 N, N-dimethylformamide"@nl;
         rdfs:seeAlso    compound:6228;
         dbo:casNumber   "68-12-2" , "33513-42-7" , "114057-15-7" , "15175-63-0" , "15175-77-6";
         dbo:formula     "C3H7NO";
@@ -52245,6 +52244,7 @@ csc:ZMXDDKWLCZADIW-UHFFFAOYSA-N
         dbo:smiles      "CN(C)C=O";
         dbp:inchikey    "ZMXDDKWLCZADIW-UHFFFAOYSA-N";
         skos:broader    csc:CHEMONTID_0001664;
+        skos:comment    "VLAR II bijl. 4.4.2 N, N-dimethylformamide"@nl;
         skos:inScheme   vlcs:chemische_stof;
         skos:notation   "DC1yfAd";
         skos:prefLabel  "dimethylformamide"@nl .
@@ -53986,7 +53986,6 @@ csc:PYZHTHZEHQHHEN-UHFFFAOYSA-N
 
 csc:LELOWRISYMNNSU-UHFFFAOYSA-N
         rdf:type         dbo:ChemicalCompound , skos:Concept , dbo:ChemicalSubstance;
-        rdfs:comment     "VLAR II bijl. 4.4.2 'cyaanwaterstof'"@nl , "VLAR II Art. 5.20.2.7. 'HCN'"@nl;
         rdfs:seeAlso     compound:768;
         dbo:casNumber    "191234-22-7" , "341972-31-4" , "74-90-8";
         dbo:formula      "CHN";
@@ -53997,6 +53996,7 @@ csc:LELOWRISYMNNSU-UHFFFAOYSA-N
         dbp:inchikey     "LELOWRISYMNNSU-UHFFFAOYSA-N";
         skos:altLabel    "waterstofcyanide (HCN)"@nl;
         skos:broader     csc:CHEMONTID_0000362;
+        skos:comment     "VLAR II Art. 5.20.2.7. 'HCN'"@nl , "VLAR II bijl. 4.4.2 'cyaanwaterstof'"@nl;
         skos:exactMatch  wise:CAS_74-90-8;
         skos:inScheme    vlcs:chemische_stof;
         skos:notation    "HCN";
@@ -54218,7 +54218,6 @@ csc:ZKLPARSLTMPFCP-UHFFFAOYSA-N
 
 csc:LGIRBUBHIWTVCK-UHFFFAOYSA-N
         rdf:type         dbo:ChemicalCompound , skos:Concept , dbo:ChemicalSubstance;
-        rdfs:comment     "VLAR III (D3, diverse art)  'dioxinen en furanen'"@nl , "VLAR II+ bijlagen"@nl;
         rdfs:seeAlso     compound:29575;
         dbo:casNumber    "19408-74-3";
         dbo:formula      "C12H2Cl6O2";
@@ -54229,6 +54228,7 @@ csc:LGIRBUBHIWTVCK-UHFFFAOYSA-N
         dbp:inchikey     "LGIRBUBHIWTVCK-UHFFFAOYSA-N";
         skos:altLabel    "1,2,3,7,8,9-hexachloordibenzodioxine (hxcdd)"@nl , "1,2,3,7,8,9-hexachloordibenzo-para-dioxine"@nl , "1,2,3,7,8,9-hexachloordibenzodioxine"@nl , "1,2,3,7,8,9-hexachloordibenzo-p-dioxine"@nl;
         skos:broader     csc:CHEMONTID_0000420;
+        skos:comment     "VLAR III (D3, diverse art)  'dioxinen en furanen'"@nl , "VLAR II+ bijlagen"@nl;
         skos:exactMatch  wise:CAS_19408-74-3;
         skos:inScheme    vlcs:chemische_stof;
         skos:notation    "PCDD70";

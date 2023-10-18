@@ -6,6 +6,9 @@ prefix dbo:   <http://dbpedia.org/ontology/>
 prefix cs:    <https://data.vlaanderen.be/ns/chemische_stof#> 
 prefix dbp:   <http://dbpedia.org/property/>
 prefix dct:   <http://purl.org/dc/terms/>
+prefix xkos:   <http://rdf-vocabulary.ddialliance.org/xkos#>
+prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+
 
 
 select distinct
@@ -16,6 +19,7 @@ select distinct
 ?notation
 ?definition
 ?note
+?comment
 ?casNumber
 ?inchi
 ?iupacName
@@ -23,13 +27,22 @@ select distinct
 ?formula
 ?pubchem
 ?seeAlso
-?collection
+?levels
 ?exactMatch
 ?broader
 ?broaderTransitive
+?narrower
 ?dct_type
 ?type
+?collection
 ?member
+?first
+?rest
+?depth
+?hasTopConcept
+?belongsTo
+?topConceptOf
+
 where 
 {?uri a ?type .
 optional {?uri skos:altLabel ?altLabel }
@@ -51,6 +64,17 @@ optional {?uri dbp:inchikey ?inchikey }
 optional {?uri skos:broaderTransitive ?broaderTransitive .}
 optional {?collection skos:member ?uri .}
 optional {?uri skos:member ?member .}
+optional {?uri skos:narrower ?narrower .}
+optional {?uri rdf:rest ?rest .}
+optional {?uri rdf:first ?first .}
+optional {?uri skos:comment ?comment .}
+optional {?uri xkos:levels ?levels .}
+optional {?uri xkos:belongsTo ?belongsTo .}
+optional {?uri xkos:depth ?depth .}
+optional {?uri skos:hasTopConcept ?hasTopConcept .}
+optional {?uri skos:topConceptOf ?topConceptOf .}
+
+
 }
 
 
