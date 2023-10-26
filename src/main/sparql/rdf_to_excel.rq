@@ -42,7 +42,7 @@ select distinct
 ?hasTopConcept
 ?belongsTo
 ?topConceptOf
-
+?inScheme
 where 
 {?uri a ?type .
 optional {?uri skos:altLabel ?altLabel }
@@ -73,6 +73,7 @@ optional {?uri xkos:belongsTo ?belongsTo .}
 optional {?uri xkos:depth ?depth .}
 optional {?uri skos:hasTopConcept ?hasTopConcept .}
 optional {?uri skos:topConceptOf ?topConceptOf .}
+optional {?uri skos:inScheme ?inScheme .}
 
 
 }

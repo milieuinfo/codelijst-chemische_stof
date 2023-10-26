@@ -825,20 +825,6 @@ csc:XYBSIYMGXVUVGY-UHFFFAOYSA-N
         skos:notation    "PBDE47";
         skos:prefLabel   "2,2',4,4'-tetrabroomdifenylether (bde47)"@nl .
 
-csc:DYQBMRZOOXYHIM-NCKOGSTASA-N
-        rdf:type        skos:Concept , dbo:ChemicalCompound , dbo:ChemicalSubstance;
-        rdfs:seeAlso    compound:5282243;
-        dbo:casNumber   "64-75-5";
-        dbo:formula     "C22H25ClN2O8";
-        dbo:inchi       "InChI=1S/C22H24N2O8.ClH/c1-21(31)8-5-4-6-11(25)12(8)16(26)13-9(21)7-10-15(24(2)3)17(27)14(20(23)30)19(29)22(10,32)18(13)28;/h4-6,9-10,15,25-26,30-32H,7,23H2,1-3H3;1H/b20-14-;/t9-,10-,15-,21+,22-;/m0./s1";
-        dbo:iupacName   "(2Z,4S,4aS,5aS,6S,12aS)-2-(amino-hydroxymethylidene)-4-dimethylamino-6,10,11,12a-tetrahydroxy-6-methyl-4,4a,5,5a-tetrahydrotetracene-1,3,12-trione hydrochloride"@en;
-        dbo:pubchem     "5282243"^^xsd:int;
-        dbo:smiles      "CC1(C2CC3C(C(=O)C(=C(N)O)C(=O)C3(C(=O)C2=C(C4=C1C=CC=C4O)O)O)N(C)C)O.Cl";
-        dbp:inchikey    "DYQBMRZOOXYHIM-NCKOGSTASA-N";
-        skos:inScheme   vlcs:chemische_stof;
-        skos:notation   "T4cycnHCl";
-        skos:prefLabel  "tetracycline hydrochloride"@nl .
-
 csc:IJFPVINAQGWBRJ-UHFFFAOYSA-N
         rdf:type        dbo:ChemicalSubstance , dbo:ChemicalCompound , skos:Concept;
         rdfs:seeAlso    compound:33934;
@@ -2691,6 +2677,21 @@ csc:OCJYIGYOJCODJL-UHFFFAOYSA-N
         skos:inScheme   vlcs:chemische_stof;
         skos:notation   "meczne";
         skos:prefLabel  "meclozine"@nl .
+
+csc:UHHHTIKWXBRCLT-VDBOFHIQSA-N
+        rdf:type        skos:Concept , dbo:ChemicalSubstance , dbo:ChemicalCompound;
+        rdfs:seeAlso    compound:5463942;
+        dbo:casNumber   "62149-53-5" , "24390-14-5";
+        dbo:formula     "C46H58Cl2N4O18";
+        dbo:inchi       "InChI=1S/2C22H24N2O8.C2H6O.2ClH.H2O/c2*1-7-8-5-4-6-9(25)11(8)16(26)12-10(7)17(27)14-15(24(2)3)18(28)13(21(23)31)20(30)22(14,32)19(12)29;1-2-3;;;/h2*4-7,10,14-15,17,25-27,30,32H,1-3H3,(H2,23,31);3H,2H2,1H3;2*1H;1H2/t2*7-,10+,14+,15-,17-,22-;;;;/m00..../s1";
+        dbo:iupacName   "(4S,4aR,5S,5aR,6R,12aR)-4-(dimethylamino)-1,5,10,11,12a-pentahydroxy-6-methyl-3,12-dioxo-4a,5,5a,6-tetrahydro-4H-tetracene-2-carboxamide;ethanol;hydrate;dihydrochloride"@en;
+        dbo:pubchem     "5463942"^^xsd:int;
+        dbo:smiles      "CCO.CC1C2C(C3C(C(=O)C(=C(C3(C(=O)C2=C(C4=C1C=CC=C4O)O)O)O)C(=O)N)N(C)C)O.CC1C2C(C3C(C(=O)C(=C(C3(C(=O)C2=C(C4=C1C=CC=C4O)O)O)O)C(=O)N)N(C)C)O.O.Cl.Cl ";
+        dbp:inchikey    "UHHHTIKWXBRCLT-VDBOFHIQSA-N";
+        skos:broader    csc:CHEMONTID_0000181;
+        skos:inScheme   vlcs:chemische_stof;
+        skos:notation   "doxccnhct";
+        skos:prefLabel  "doxycycline hyclaat"@nl .
 
 csc:WRYLYDPHFGVWKC-UHFFFAOYSA-N
         rdf:type        dbo:ChemicalSubstance , skos:Concept , dbo:ChemicalCompound;
@@ -11020,14 +11021,15 @@ csc:LUZDYPLAQQGJEA-UHFFFAOYSA-N
 
 csc:IFEJLMHZNQJGQU-UDEWSXLWSA-M
         rdf:type        dbo:ChemicalCompound , dbo:ChemicalSubstance , skos:Concept;
-        rdfs:seeAlso    compound:6436024;
+        rdfs:seeAlso    compound:17756794;
         dbo:casNumber   "55028-72-3" , "40665-92-7";
         dbo:formula     "C22H28ClNaO6";
         dbo:inchi       "InChI=1S/C22H29ClO6.Na/c23-15-6-5-7-17(12-15)29-14-16(24)10-11-19-18(20(25)13-21(19)26)8-3-1-2-4-9-22(27)28;/h1,3,5-7,10-12,16,18-21,24-26H,2,4,8-9,13-14H2,(H,27,28);/q;+1/p-1/b3-1-,11-10+;/t16-,18-,19?,20+,21-;/m1./s1";
         dbo:iupacName   "sodium (Z)-7-[(1R,3R,5S)-2-[(E,3R)-4-(3-chlorophenoxy)-3-hydroxybut-1-enyl]-3,5-dihydroxycyclopentyl]hept-5-enoate"@en;
-        dbo:pubchem     "6436024"^^xsd:int;
+        dbo:pubchem     "17756794"^^xsd:int;
         dbo:smiles      "C1C(C(C(C1O)C=CC(COC2=CC(=CC=C2)Cl)O)CC=CCCCC(=O)[O-])O.[Na+]";
         dbp:inchikey    "IFEJLMHZNQJGQU-UDEWSXLWSA-M";
+        skos:broader    csc:CHEMONTID_0000514;
         skos:inScheme   vlcs:chemische_stof;
         skos:notation   "cloptnl";
         skos:prefLabel  "cloprostenol"@nl .
@@ -11042,6 +11044,7 @@ csc:NIWWFAAXEMMFMS-IGMARMGPSA-N
         dbo:pubchem     "167403"^^xsd:int;
         dbo:smiles      "[Cm]";
         dbp:inchikey    "NIWWFAAXEMMFMS-IGMARMGPSA-N";
+        skos:broader    csc:CHEMONTID_0000430;
         skos:inScheme   vlcs:chemische_stof;
         skos:notation   "Cm247";
         skos:prefLabel  "curium 247"@nl .
@@ -12713,17 +12716,6 @@ csc:VLHAGZNBWKUMRW-UHFFFAOYSA-N
         skos:notation   "3C2y24DC1yC5";
         skos:prefLabel  "3-ethyl-2,4-dimethylpentaan"@nl .
 
-csc:QBJCDRCOQAVMJK-UHFFFAOYSA-N
-        rdf:type        dbo:ChemicalSubstance , skos:Concept , dbo:ChemicalCompound;
-        dbo:casNumber   "683-18-1";
-        dbo:formula     "0";
-        dbo:inchi       "InChI=1S/2C4H9.2Cl.Sn/c2*1-3-4-2;;;/h2*1,3-4H2,2H3;;;";
-        dbo:iupacName   "dibutyl-dichlorostannane"@en;
-        dbo:smiles      "0";
-        dbp:inchikey    "QBJCDRCOQAVMJK-UHFFFAOYSA-N";
-        skos:inScheme   vlcs:chemische_stof;
-        skos:prefLabel  "dibutyltindichloride"@nl .
-
 csc:FOCAUTSVDIKZOP-UHFFFAOYSA-N
         rdf:type         dbo:ChemicalCompound , dbo:ChemicalSubstance , skos:Concept;
         rdfs:seeAlso     compound:300;
@@ -14300,7 +14292,7 @@ csc:DFBKLUNHFCTMDC-UHFFFAOYSA-N
         dbo:smiles       "C1C2C3C(C1C4C2O4)C5(C(=C(C3(C5(Cl)Cl)Cl)Cl)Cl)Cl";
         dbp:inchikey     "DFBKLUNHFCTMDC-UHFFFAOYSA-N";
         skos:broader     csc:CHEMONTID_0001549;
-        skos:exactMatch  csc: , wise:CAS_72-20-8;
+        skos:exactMatch  wise:CAS_72-20-8;
         skos:inScheme    vlcs:chemische_stof;
         skos:notation    "endn";
         skos:prefLabel   "endrin"@nl .
@@ -14315,6 +14307,7 @@ csc:LFNLGNPSGWYGGD-NJFSPNSNSA-N
         dbo:pubchem     "104958"^^xsd:int;
         dbo:smiles      "[Np]";
         dbp:inchikey    "LFNLGNPSGWYGGD-NJFSPNSNSA-N";
+        skos:broader    csc:LFNLGNPSGWYGGD-UHFFFAOYSA-N;
         skos:inScheme   vlcs:chemische_stof;
         skos:notation   "Np239";
         skos:prefLabel  "neptunium 239"@nl .
@@ -19360,6 +19353,7 @@ csc:STRTXDFFNXSZQB-UHFFFAOYSA-N
         dbo:pubchem     "21917771"^^xsd:int;
         dbo:smiles      "C(#N)N.[Ca+2]";
         dbp:inchikey    "STRTXDFFNXSZQB-UHFFFAOYSA-N";
+        skos:broader    csc:CHEMONTID_0000469;
         skos:inScheme   vlcs:chemische_stof;
         skos:notation   "CacaAd";
         skos:prefLabel  "calciumcyanamide"@nl .
@@ -22657,6 +22651,22 @@ csc:LACXVZHAJMVESG-UHFFFAOYSA-N
         skos:notation   "PCB85";
         skos:prefLabel  "2,2',3,4,4'-pentachloorbifenyl"@nl .
 
+csc:WDQNIWFZKXZFAY-UHFFFAOYSA-M
+        rdf:type        dbo:ChemicalCompound , dbo:ChemicalSubstance , skos:Concept;
+        rdfs:seeAlso    compound:16682804;
+        dbo:casNumber   "900-95-8";
+        dbo:formula     "C20H18O2Sn";
+        dbo:inchi       "InChI=1S/3C6H5.C2H4O2.Sn/c3*1-2-4-6-5-3-1;1-2(3)4;/h3*1-5H;1H3,(H,3,4);/q;;;;+1/p-1";
+        dbo:iupacName   "triphenylstannyl acetate"@en;
+        dbo:pubchem     "16682804"^^xsd:int;
+        dbo:smiles      "CC(=O)O[Sn](C1=CC=CC=C1)(C2=CC=CC=C2)C3=CC=CC=C3";
+        dbp:inchikey    "WDQNIWFZKXZFAY-UHFFFAOYSA-M";
+        skos:altLabel   "trifenyltinacetaat"@nl;
+        skos:broader    csc:CHEMONTID_0002279;
+        skos:inScheme   vlcs:chemische_stof;
+        skos:notation   "fentactt";
+        skos:prefLabel  "fentinacetaat"@nl .
+
 csc:UFHLMYOGRXOCSL-UHFFFAOYSA-N
         rdf:type        dbo:ChemicalCompound , skos:Concept , dbo:ChemicalSubstance;
         rdfs:seeAlso    compound:39681;
@@ -23771,20 +23781,6 @@ csc:XXSIKMDLPWYFIJ-UHFFFAOYSA-N
         skos:notation   "NPEO4";
         skos:prefLabel  "nonylfenoltetraethoxylaat"@nl .
 
-csc:IZRXCFCWDMSBQY-NXURVHCDSA-N
-        rdf:type        dbo:ChemicalSubstance , dbo:ChemicalCompound , skos:Concept;
-        rdfs:seeAlso    compound:5284437;
-        dbo:casNumber   "2058-46-0";
-        dbo:formula     "C22H25ClN2O9";
-        dbo:inchi       "InChI=1S/C22H24N2O9.ClH/c1-21(32)7-5-4-6-8(25)9(7)15(26)10-12(21)17(28)13-14(24(2)3)16(27)11(20(23)31)19(30)22(13,33)18(10)29;/h4-6,12-14,17,25-26,28,31-33H,23H2,1-3H3;1H/b20-11-;/t12-,13-,14+,17+,21-,22+;/m1./s1";
-        dbo:iupacName   "(2Z,4S,4aR,5S,5aR,6S,12aS)-2-(amino-hydroxymethylidene)-4-dimethylamino-5,6,10,11,12a-pentahydroxy-6-methyl-4,4a,5,5a-tetrahydrotetracene-1,3,12-trione hydrochloride"@en;
-        dbo:pubchem     "5284437"^^xsd:int;
-        dbo:smiles      "CC1(C2C(C3C(C(=O)C(=C(N)O)C(=O)C3(C(=O)C2=C(C4=C1C=CC=C4O)O)O)N(C)C)O)O.Cl";
-        dbp:inchikey    "IZRXCFCWDMSBQY-NXURVHCDSA-N";
-        skos:inScheme   vlcs:chemische_stof;
-        skos:notation   "OxT4ccnHCl";
-        skos:prefLabel  "oxytetracycline hydrochloride"@nl .
-
 csc:HICJAEZEEBOKGV-UHFFFAOYSA-N
         rdf:type        skos:Concept , dbo:ChemicalSubstance , dbo:ChemicalCompound;
         rdfs:seeAlso    compound:213014;
@@ -24416,20 +24412,6 @@ csc:BJLRAKFWOUAROE-UHFFFAOYSA-N
         skos:inScheme   vlcs:chemische_stof;
         skos:notation   "DDPA";
         skos:prefLabel  "verdyl acetaat"@nl .
-
-csc:QDDHZFKCHWYXJF-PCLMCNLLSA-N
-        rdf:type        skos:Concept , dbo:ChemicalSubstance , dbo:ChemicalCompound;
-        rdfs:seeAlso    compound:5463942;
-        dbo:casNumber   "62149-53-5" , "24390-14-5";
-        dbo:formula     "C46H58Cl2N4O18";
-        dbo:inchi       "InChI=1S/2C22H24N2O8.C2H6O.2ClH.H2O/c2*1-7-8-5-4-6-9(25)11(8)16(26)12-10(7)17(27)14-15(24(2)3)18(28)13(21(23)31)20(30)22(14,32)19(12)29;1-2-3;;;/h2*4-7,10,14-15,17,25-27,31-32H,23H2,1-3H3;3H,2H2,1H3;2*1H;1H2/b2*21-13+;;;;/t2*7-,10+,14+,15-,17-,22-;;;;/m00..../s1";
-        dbo:iupacName   "(2E,4S,4aR,5S,5aR,6R,12aS)-2-(amino-hydroxymethylidene)-4-dimethylamino-5,10,11,12a-tetrahydroxy-6-methyl-4a,5,5a,6-tetrahydro-4H-tetracene-1,3,12-trione; ethanol; hydrate; dihydrochloride"@en;
-        dbo:pubchem     "5463942"^^xsd:int;
-        dbo:smiles      "CCO.CC1C2C(C3C(C(=O)C(=C(N)O)C(=O)C3(C(=O)C2=C(C4=C1C=CC=C4O)O)O)N(C)C)O.CC1C2C(C3C(C(=O)C(=C(N)O)C(=O)C3(C(=O)C2=C(C4=C1C=CC=C4O)O)O)N(C)C)O.O.Cl.Cl";
-        dbp:inchikey    "QDDHZFKCHWYXJF-PCLMCNLLSA-N";
-        skos:inScheme   vlcs:chemische_stof;
-        skos:notation   "doxccnhct";
-        skos:prefLabel  "doxycycline hyclaat"@nl .
 
 csc:XOGPDSATLSAZEK-UHFFFAOYSA-N
         rdf:type        skos:Concept , dbo:ChemicalSubstance , dbo:ChemicalCompound;
@@ -26470,7 +26452,7 @@ csc:WABPQHHGFIMREM-UHFFFAOYSA-N
         dbo:pubchem      "5352425"^^xsd:int;
         dbo:smiles       "[Pb]";
         dbp:inchikey     "WABPQHHGFIMREM-UHFFFAOYSA-N";
-        skos:altLabel    "lood"@nl , "lood (Pb)"@nl;
+        skos:altLabel    "lood (Pb)"@nl;
         skos:broader     csc:CHEMONTID_0000427;
         skos:comment     "VLAR III (D3, diverse art) 'Pb'"@nl , "VLAR II (D2), diverse artikels 'lood'"@nl , "VLAR II bijl. 4.4.2 'lood en zijn verbindingen, uitgedrukt in Pb'"@nl , "VLAR II (D5) 'lood en zijn verbindingen, uitgedrukt in/als Pb'  'lood en loodverbindingen, uitgedrukt als lood (Pb)'"@nl , "VLAR III (D3) 'lood-verbindingen, uitgedrukt als Pb'"@nl , "VLAR bijl. 2.5.2. 'lood'"@nl , "VLAR III (D3) 'lood en loodverbindingen, uitgedrukt als lood (Pb)'"@nl , "VLAR III (D3, diverse art) 'lood en zijn verbindingen, uitgedrukt in Pb'"@nl;
         skos:definition  "lood en loodverbindingen, uitgedrukt als lood (Pb)"@nl;
@@ -26694,7 +26676,7 @@ csc:PWHULOQIROXLJO-UHFFFAOYSA-N
         dbo:pubchem      "23930"^^xsd:int;
         dbo:smiles       "[Mn]";
         dbp:inchikey     "PWHULOQIROXLJO-UHFFFAOYSA-N";
-        skos:altLabel    "mangaan"@nl , "Mangaan (Mn)"@nl;
+        skos:altLabel    "Mangaan (Mn)"@nl;
         skos:broader     csc:CHEMONTID_0000426;
         skos:comment     "VLAR II D5 'mangaan en mangaanverbindingen, uitgedrukt als mangaan (Mn)'"@nl , "VLAR II bijl. 4.4.2 'mangaan en zijn verbindingen, uitgedrukt in Mn'"@nl , "VLAR III (D3, diverse art) 'Mn'"@nl , "VLAR III (D3) 'Mangaan en mangaanverbindingen, uitgedrukt in mangaan (Mn)'"@nl;
         skos:definition  "mangaan en mangaanverbindingen, uitgedrukt als mangaan (Mn)"@nl;
@@ -33649,6 +33631,7 @@ csc:KPHWPUGNDIVLNH-UHFFFAOYSA-M
         dbo:pubchem      "27194"^^xsd:int;
         dbo:smiles       "C1=CC=C(C(=C1)CC(=O)[O-])NC2=C(C=CC=C2Cl)Cl.[Na+]";
         dbp:inchikey     "KPHWPUGNDIVLNH-UHFFFAOYSA-M";
+        skos:broader     csc:DCOPUUMXTXDBNB-UHFFFAOYSA-N;
         skos:exactMatch  wise:CAS_15307-79-6;
         skos:inScheme    vlcs:chemische_stof;
         skos:prefLabel   "diclofenac, natrium"@nl .
@@ -37723,6 +37706,7 @@ csc:NSMUHPMZFPKNMZ-FCFLHPMBSA-M
         dbo:pubchem     "11953851"^^xsd:int;
         dbo:smiles      "CCC1=C(C2=NC1=CC3=C(C4=C([N-]3)C(=C5C(C(C(=N5)C=C6C(=C(C(=C2)[N-]6)C=C)C)C)CCC(=O)OCC=C(C)CCCC(C)CCCC(C)CCCC(C)C)C(C4=O)C(=O)OC)C)C=O.[Mg+2]";
         dbp:inchikey    "NSMUHPMZFPKNMZ-FCFLHPMBSA-M";
+        skos:broader    csc:CHEMONTID_0000430;
         skos:inScheme   vlcs:chemische_stof;
         skos:notation   "CHLFb";
         skos:prefLabel  "chlorofyl-b"@nl .
@@ -37866,6 +37850,21 @@ csc:VGTPCRGMBIAPIM-UHFFFAOYSA-M
         skos:inScheme   vlcs:chemische_stof;
         skos:notation   "NatoCN";
         skos:prefLabel  "natriumthiocyanaat"@nl .
+
+csc:YCIHPQHVWDULOY-FMZCEJRJSA-N
+        rdf:type        dbo:ChemicalCompound , skos:Concept , dbo:ChemicalSubstance;
+        rdfs:seeAlso    compound:5282243;
+        dbo:casNumber   "64-75-5";
+        dbo:formula     "C22H25ClN2O8";
+        dbo:inchi       "InChI=1S/C22H24N2O8.ClH/c1-21(31)8-5-4-6-11(25)12(8)16(26)13-9(21)7-10-15(24(2)3)17(27)14(20(23)30)19(29)22(10,32)18(13)28;/h4-6,9-10,15,25-26,30-32H,7,23H2,1-3H3;1H/b20-14-;/t9-,10-,15-,21+,22-;/m0./s1";
+        dbo:iupacName   "(2Z,4S,4aS,5aS,6S,12aS)-2-(amino-hydroxymethylidene)-4-dimethylamino-6,10,11,12a-tetrahydroxy-6-methyl-4,4a,5,5a-tetrahydrotetracene-1,3,12-trione hydrochloride"@en;
+        dbo:pubchem     "5282243"^^xsd:int;
+        dbo:smiles      "CC1(C2CC3C(C(=O)C(=C(N)O)C(=O)C3(C(=O)C2=C(C4=C1C=CC=C4O)O)O)N(C)C)O.Cl";
+        dbp:inchikey    "YCIHPQHVWDULOY-FMZCEJRJSA-N";
+        skos:broader    csc:CHEMONTID_0000181;
+        skos:inScheme   vlcs:chemische_stof;
+        skos:notation   "T4cycnHCl";
+        skos:prefLabel  "tetracycline hydrochloride"@nl .
 
 csc:JDZUWXRNKHXZFE-UHFFFAOYSA-N
         rdf:type        dbo:ChemicalSubstance , skos:Concept , dbo:ChemicalCompound;
@@ -38754,6 +38753,21 @@ csc:HJIUPFPIEBPYIE-UHFFFAOYSA-N
         skos:inScheme   vlcs:chemische_stof;
         skos:notation   "crimdne";
         skos:prefLabel  "crimidine"@nl .
+
+csc:SVDOODSCHVSYEK-IFLJXUKPSA-N
+        rdf:type        dbo:ChemicalSubstance , dbo:ChemicalCompound , skos:Concept;
+        rdfs:seeAlso    compound:5284437;
+        dbo:casNumber   "2058-46-0";
+        dbo:formula     "C22H25ClN2O9";
+        dbo:inchi       "InChI=1S/C22H24N2O9.ClH/c1-21(32)7-5-4-6-8(25)9(7)15(26)10-12(21)17(28)13-14(24(2)3)16(27)11(20(23)31)19(30)22(13,33)18(10)29;/h4-6,12-14,17,25-26,28,31-33H,23H2,1-3H3;1H/b20-11-;/t12-,13-,14+,17+,21-,22+;/m1./s1";
+        dbo:iupacName   "(2Z,4S,4aR,5S,5aR,6S,12aS)-2-(amino-hydroxymethylidene)-4-dimethylamino-5,6,10,11,12a-pentahydroxy-6-methyl-4,4a,5,5a-tetrahydrotetracene-1,3,12-trione hydrochloride"@en;
+        dbo:pubchem     "5284437"^^xsd:int;
+        dbo:smiles      "CC1(C2C(C3C(C(=O)C(=C(N)O)C(=O)C3(C(=O)C2=C(C4=C1C=CC=C4O)O)O)N(C)C)O)O.Cl";
+        dbp:inchikey    "SVDOODSCHVSYEK-IFLJXUKPSA-N";
+        skos:broader    csc:CHEMONTID_0000181;
+        skos:inScheme   vlcs:chemische_stof;
+        skos:notation   "OxT4ccnHCl";
+        skos:prefLabel  "oxytetracycline hydrochloride"@nl .
 
 csc:FYZBOYWSHKHDMT-UHFFFAOYSA-N
         rdf:type        dbo:ChemicalCompound , dbo:ChemicalSubstance , skos:Concept;
@@ -39939,17 +39953,6 @@ csc:VGPIBGGRCVEHQZ-UHFFFAOYSA-N
         skos:notation   "bittnl";
         skos:prefLabel  "bitertanol"@nl .
 
-csc:NRNWARROUIEBPJ-UHFFFAOYSA-N
-        rdf:type        dbo:ChemicalCompound , dbo:ChemicalSubstance , skos:Concept;
-        dbo:casNumber   "639-58-7";
-        dbo:formula     "0";
-        dbo:inchi       "InChI=1S/3C6H5.Cl.Sn/c3*1-2-4-6-5-3-1;;/h3*1-5H;;";
-        dbo:iupacName   "chloro-tri(phenyl)stannane"@en;
-        dbo:smiles      "0";
-        dbp:inchikey    "NRNWARROUIEBPJ-UHFFFAOYSA-N";
-        skos:inScheme   vlcs:chemische_stof;
-        skos:prefLabel  "trifenyltinchloride"@nl .
-
 csc:ZAXXZBQODQDCOW-UHFFFAOYSA-N
         rdf:type        skos:Concept , dbo:ChemicalCompound , dbo:ChemicalSubstance;
         rdfs:seeAlso    compound:3033863;
@@ -41103,16 +41106,16 @@ csc:FOIBFBMSLDGNHL-UHFFFAOYSA-N
 csc:GRLPQNLYRHEGIJ-UHFFFAOYSA-J
         rdf:type        dbo:ChemicalSubstance , dbo:ChemicalCompound , skos:Concept;
         rdfs:seeAlso    compound:24856;
-        dbo:casNumber   "10043-67-1" , "131315-49-6" , "10043-01-3";
+        dbo:casNumber   "10043-67-1";
         dbo:formula     "AlKO8S2";
         dbo:inchi       "InChI=1S/Al.K.2H2O4S/c;;2*1-5(2,3)4/h;;2*(H2,1,2,3,4)/q+3;+1;;/p-4";
-        dbo:iupacName   "Aluminum potassium disulfate"@en;
+        dbo:iupacName   "aluminum;potassium;disulfate"@en;
         dbo:pubchem     "24856"^^xsd:int;
         dbo:smiles      "[O-]S(=O)(=O)[O-].[O-]S(=O)(=O)[O-].[Al+3].[K+]";
         dbp:inchikey    "GRLPQNLYRHEGIJ-UHFFFAOYSA-J";
+        skos:broader    csc:CHEMONTID_0000739;
         skos:inScheme   vlcs:chemische_stof;
-        skos:notation   "AlSO4";
-        skos:prefLabel  "aluminiumsulfaat"@nl .
+        skos:prefLabel  "aluminumkaliumdisulfate"@nl .
 
 csc:VEXZGXHMUGYJMC-UHFFFAOYSA-N
         rdf:type        dbo:ChemicalCompound , dbo:ChemicalSubstance , skos:Concept;
@@ -41640,6 +41643,18 @@ csc:NPPQSCRMBWNHMW-UHFFFAOYSA-N
         skos:inScheme   vlcs:chemische_stof;
         skos:notation   "mepbmt";
         skos:prefLabel  "meprobamaat"@nl .
+
+csc:RJGHQTVXGKYATR-UHFFFAOYSA-L
+        rdf:type        dbo:ChemicalSubstance , skos:Concept , dbo:ChemicalCompound;
+        dbo:casNumber   "683-18-1";
+        dbo:formula     "0";
+        dbo:inchi       "InChI=1S/2C4H9.2Cl.Sn/c2*1-3-4-2;;;/h2*1,3-4H2,2H3;;;";
+        dbo:iupacName   "dibutyl-dichlorostannane"@en;
+        dbo:smiles      "0";
+        dbp:inchikey    "RJGHQTVXGKYATR-UHFFFAOYSA-L";
+        skos:broader    csc:CHEMONTID_0004090;
+        skos:inScheme   vlcs:chemische_stof;
+        skos:prefLabel  "dibutyltindichloride"@nl .
 
 csc:CSWBSLXBXRFNST-MQQKCMAXSA-N
         rdf:type        dbo:ChemicalSubstance , dbo:ChemicalCompound , skos:Concept;
@@ -44194,20 +44209,20 @@ csc:LRTFPLFDLJYEKT-UHFFFAOYSA-N
         skos:notation   "4iC3yAn";
         skos:prefLabel  "4-isopropylaniline (cumidine)"@nl .
 
-csc:ZPEIMTDSQAKGNT-UHFFFAOYSA-N
-        rdf:type        skos:Concept , dbo:ChemicalSubstance , dbo:ChemicalCompound;
-        rdfs:seeAlso    compound:2726;
-        dbo:casNumber   "50-53-3" , "34468-21-8";
-        dbo:formula     "C17H19ClN2S";
-        dbo:inchi       "InChI=1S/C17H19ClN2S/c1-19(2)10-5-11-20-14-6-3-4-7-16(14)21-17-9-8-13(18)12-15(17)20/h3-4,6-9,12H,5,10-11H2,1-2H3";
-        dbo:iupacName   "3-(2-chlorophenothiazin-10-yl)-N,N-dimethylpropan-1-amine"@en;
-        dbo:pubchem     "2726"^^xsd:int;
-        dbo:smiles      "CN(C)CCCN1C2=CC=CC=C2SC3=C1C=C(C=C3)Cl";
-        dbp:inchikey    "ZPEIMTDSQAKGNT-UHFFFAOYSA-N";
-        skos:broader    csc:CHEMONTID_0000310;
+csc:DIZPMCHEQGEION-UHFFFAOYSA-H
+        rdf:type        dbo:ChemicalCompound , skos:Concept , dbo:ChemicalSubstance;
+        rdfs:seeAlso    compound:24850;
+        dbo:casNumber   "10043-01-03";
+        dbo:formula     "Al2O12S3";
+        dbo:inchi       "InChI=1S/2Al.3H2O4S/c;;3*1-5(2,3)4/h;;3*(H2,1,2,3,4)/q2*+3;;;/p-6";
+        dbo:iupacName   "dialuminum;trisulfate"@en;
+        dbo:pubchem     "24850"^^xsd:int;
+        dbo:smiles      "[O-]S(=O)(=O)[O-].[O-]S(=O)(=O)[O-].[O-]S(=O)(=O)[O-].[Al+3].[Al+3]";
+        dbp:inchikey    "DIZPMCHEQGEION-UHFFFAOYSA-H";
+        skos:broader    csc:CHEMONTID_0000739;
         skos:inScheme   vlcs:chemische_stof;
-        skos:notation   "Clpmzne";
-        skos:prefLabel  "chloorpromazine"@nl .
+        skos:notation   "AlSO4";
+        skos:prefLabel  "aluminiumsulfaat"@nl .
 
 csc:PLGQWYOULXPJRE-UHFFFAOYSA-N
         rdf:type        dbo:ChemicalSubstance , dbo:ChemicalCompound , skos:Concept;
@@ -44240,6 +44255,21 @@ csc:YBGZDTIWKVFICR-JLHYYAGUSA-N
         skos:inScheme    vlcs:chemische_stof;
         skos:notation    "2C2yC6y4C1ox";
         skos:prefLabel   "octinoxaat"@nl .
+
+csc:ZPEIMTDSQAKGNT-UHFFFAOYSA-N
+        rdf:type        skos:Concept , dbo:ChemicalSubstance , dbo:ChemicalCompound;
+        rdfs:seeAlso    compound:2726;
+        dbo:casNumber   "50-53-3" , "34468-21-8";
+        dbo:formula     "C17H19ClN2S";
+        dbo:inchi       "InChI=1S/C17H19ClN2S/c1-19(2)10-5-11-20-14-6-3-4-7-16(14)21-17-9-8-13(18)12-15(17)20/h3-4,6-9,12H,5,10-11H2,1-2H3";
+        dbo:iupacName   "3-(2-chlorophenothiazin-10-yl)-N,N-dimethylpropan-1-amine"@en;
+        dbo:pubchem     "2726"^^xsd:int;
+        dbo:smiles      "CN(C)CCCN1C2=CC=CC=C2SC3=C1C=C(C=C3)Cl";
+        dbp:inchikey    "ZPEIMTDSQAKGNT-UHFFFAOYSA-N";
+        skos:broader    csc:CHEMONTID_0000310;
+        skos:inScheme   vlcs:chemische_stof;
+        skos:notation   "Clpmzne";
+        skos:prefLabel  "chloorpromazine"@nl .
 
 csc:IVJISJACKSSFGE-UHFFFAOYSA-N
         rdf:type        skos:Concept , dbo:ChemicalCompound , dbo:ChemicalSubstance;
@@ -44454,6 +44484,18 @@ csc:VNENJHUOPQAPAT-UHFFFAOYSA-N
         skos:inScheme   vlcs:chemische_stof;
         skos:notation   "5HOxtabdzle";
         skos:prefLabel  "5-hydroxythiabendazole"@nl .
+
+csc:NJVOZLGKTAPUTQ-UHFFFAOYSA-M
+        rdf:type        dbo:ChemicalSubstance , dbo:ChemicalCompound , skos:Concept;
+        dbo:casNumber   "639-58-7";
+        dbo:formula     "0";
+        dbo:inchi       "InChI=1S/3C6H5.Cl.Sn/c3*1-2-4-6-5-3-1;;/h3*1-5H;;";
+        dbo:iupacName   "chloro-tri(phenyl)stannane"@en;
+        dbo:smiles      "0";
+        dbp:inchikey    "NJVOZLGKTAPUTQ-UHFFFAOYSA-M";
+        skos:broader    csc:CHEMONTID_0002279;
+        skos:inScheme   vlcs:chemische_stof;
+        skos:prefLabel  "trifenyltinchloride"@nl .
 
 csc:KAVGMUDTWQVPDF-UHFFFAOYSA-N
         rdf:type         dbo:ChemicalCompound , dbo:ChemicalSubstance , skos:Concept;
@@ -44925,21 +44967,10 @@ csc:CNYGFPPAGUCRIC-UHFFFAOYSA-L
         dbo:pubchem     "2724411"^^xsd:int;
         dbo:smiles      "CN(C)C1=CC=C(C=C1)C(=C2C=CC(=[N+](C)C)C=C2)C3=CC=CC=C3.CN(C)C1=CC=C(C=C1)C(=C2C=CC(=[N+](C)C)C=C2)C3=CC=CC=C3.C(=O)(C(=O)O)O.C(=O)(C(=O)[O-])O.C(=O)(C(=O)[O-])O";
         dbp:inchikey    "CNYGFPPAGUCRIC-UHFFFAOYSA-L";
+        skos:broader    csc:CHEMONTID_0000369;
         skos:inScheme   vlcs:chemische_stof;
         skos:notation   "malcgoxlt";
         skos:prefLabel  "malachietgroen-oxalaat"@nl .
-
-csc:NCMLSPGQECDTSJ-UHFFFAOYSA-N
-        rdf:type        skos:Concept , dbo:ChemicalSubstance , dbo:ChemicalCompound;
-        dbo:casNumber   "56-36-0";
-        dbo:formula     "0";
-        dbo:inchi       "InChI=1S/3C4H9.C2H3O2.Sn/c3*1-3-4-2;1-2(3)4;/h3*1,3-4H2,2H3;1H3;";
-        dbo:iupacName   "Tributylstannyl acetate"@en;
-        dbo:smiles      "0";
-        dbp:inchikey    "NCMLSPGQECDTSJ-UHFFFAOYSA-N";
-        skos:inScheme   vlcs:chemische_stof;
-        skos:notation   "TC4ySnactt";
-        skos:prefLabel  "tributyltinacetaat"@nl .
 
 csc:IDQHRQQSSQDLTR-UHFFFAOYSA-N
         rdf:type        skos:Concept , dbo:ChemicalCompound , dbo:ChemicalSubstance;
@@ -47226,6 +47257,22 @@ csc:MQXQVCLAUDMCEF-CWLIKTDRSA-N
         skos:notation    "amxclne";
         skos:prefLabel   "amoxicilline"@nl .
 
+csc:YYYARFHFWYKNLF-UHFFFAOYSA-N
+        rdf:type        dbo:ChemicalCompound , dbo:ChemicalSubstance , skos:Concept;
+        rdfs:seeAlso    compound:111804;
+        dbo:casNumber   "7481-49-4" , "3761-53-3";
+        dbo:formula     "C18H16N2O7S2";
+        dbo:inchi       "InChI=1S/C18H16N2O7S2/c1-10-3-6-15(11(2)7-10)19-20-17-14-5-4-13(28(22,23)24)8-12(14)9-16(18(17)21)29(25,26)27/h3-9,21H,1-2H3,(H,22,23,24)(H,25,26,27)";
+        dbo:iupacName   "4-[(2,4-dimethylphenyl)diazenyl]-3-hydroxynaphthalene-2,7-disulfonic acid"@en;
+        dbo:pubchem     "111804"^^xsd:int;
+        dbo:smiles      "CC1=CC(=C(C=C1)N=NC2=C3C=CC(=CC3=CC(=C2O)S(=O)(=O)O)S(=O)(=O)O)C";
+        dbp:inchikey    "YYYARFHFWYKNLF-UHFFFAOYSA-N ";
+        skos:altLabel   "c.i. food red 5"@nl;
+        skos:broader    csc:VILFVXYKHXVYAB-UHFFFAOYSA-N;
+        skos:inScheme   vlcs:chemische_stof;
+        skos:notation   "cifrd5";
+        skos:prefLabel  "C.I. Food Red 5"@nl .
+
 csc:GJRQTCIYDGXPES-UHFFFAOYSA-N
         rdf:type        skos:Concept , dbo:ChemicalCompound , dbo:ChemicalSubstance;
         rdfs:seeAlso    compound:8038;
@@ -47553,6 +47600,7 @@ csc:XFWOTCACTPMVSB-UHFFFAOYSA-M
         dbo:pubchem     "74764357"^^xsd:int;
         dbo:smiles      "CC1=NC(=NC(=N1)OC)NC(=O)N=S(=O)(C2=C(C=CC(=C2)I)C(=O)OC)[O-].[Na+]";
         dbp:inchikey    "XFWOTCACTPMVSB-UHFFFAOYSA-M";
+        skos:broader    csc:CHEMONTID_0001350;
         skos:inScheme   vlcs:chemische_stof;
         skos:notation   "IsfrnC1yNa";
         skos:prefLabel  "jodosulfuron-methyl-natrium"@nl .
@@ -51338,21 +51386,6 @@ csc:ZGCHATBSUIJLRL-UHFFFAOYSA-N
         skos:notation   "hydznSO4";
         skos:prefLabel  "hydrazinesulfaat"@nl .
 
-csc:OIQRYZXXBZHDRY-NNIZZXHBSA-L
-        rdf:type        dbo:ChemicalSubstance , dbo:ChemicalCompound , skos:Concept;
-        rdfs:seeAlso    compound:6321395;
-        dbo:casNumber   "3761-53-3" , "64553-71-5" , "7481-49-4";
-        dbo:formula     "C18H14N2Na2O7S2";
-        dbo:inchi       "InChI=1S/C18H16N2O7S2.2Na/c1-10-3-6-15(11(2)7-10)19-20-17-14-9-13(28(22,23)24)5-4-12(14)8-16(18(17)21)29(25,26)27;;/h3-9,19H,1-2H3,(H,22,23,24)(H,25,26,27);;/q;2*+1/p-2/b20-17+;;";
-        dbo:iupacName   "disodium (4E)-4-[(2,4-dimethylphenyl)hydrazinylidene]-3-oxonaphthalene-2,6-disulfonate"@en;
-        dbo:pubchem     "6321395"^^xsd:int;
-        dbo:smiles      "CC1=CC(=C(C=C1)NN=C2C3=C(C=CC(=C3)S(=O)(=O)[O-])C=C(C2=O)S(=O)(=O)[O-])C.[Na+].[Na+]";
-        dbp:inchikey    "OIQRYZXXBZHDRY-NNIZZXHBSA-L";
-        skos:altLabel   "c.i. food red 5"@nl;
-        skos:inScheme   vlcs:chemische_stof;
-        skos:notation   "cifrd5";
-        skos:prefLabel  "C.I. Food Red 5"@nl .
-
 csc:OCHOKXCPKDPNQU-UHFFFAOYSA-N
         rdf:type         skos:Concept , dbo:ChemicalSubstance , dbo:ChemicalCompound;
         rdfs:seeAlso     compound:19520;
@@ -51554,19 +51587,6 @@ csc:FITIWKDOCAUBQD-UHFFFAOYSA-N
         skos:inScheme   vlcs:chemische_stof;
         skos:notation   "protofs";
         skos:prefLabel  "prothiofos"@nl .
-
-csc:KFSLACSYHBJOPS-UHFFFAOYSA-N
-        rdf:type        dbo:ChemicalSubstance , dbo:ChemicalCompound , skos:Concept;
-        dbo:casNumber   "900-95-8";
-        dbo:formula     "0";
-        dbo:inchi       "InChI=1S/3C6H5.C2H3O2.Sn/c3*1-2-4-6-5-3-1;1-2(3)4;/h3*1-5H;1H3;";
-        dbo:iupacName   "tri(phenyl)stannyl acetate"@en;
-        dbo:smiles      "0";
-        dbp:inchikey    "KFSLACSYHBJOPS-UHFFFAOYSA-N";
-        skos:altLabel   "trifenyltinacetaat"@nl;
-        skos:inScheme   vlcs:chemische_stof;
-        skos:notation   "fentactt";
-        skos:prefLabel  "fentinacetaat"@nl .
 
 csc:TXEYQDLBPFQVAA-UHFFFAOYSA-N
         rdf:type         dbo:ChemicalCompound , skos:Concept , dbo:ChemicalSubstance;
@@ -53559,6 +53579,19 @@ csc:VCHOFVSNWYPAEF-UHFFFAOYSA-N
         skos:inScheme   vlcs:chemische_stof;
         skos:notation   "13DactBen";
         skos:prefLabel  "1,3-diacetylbenzeen"@nl .
+
+csc:PWBHRVGYSMBMIO-UHFFFAOYSA-M
+        rdf:type        dbo:ChemicalCompound , dbo:ChemicalSubstance , skos:Concept;
+        dbo:casNumber   "56-36-0";
+        dbo:formula     "0";
+        dbo:inchi       "InChI=1S/3C4H9.C2H4O2.Sn/c3*1-3-4-2;1-2(3)4;/h3*1,3-4H2,2H3;1H3,(H,3,4);/q;;;;+1/p-1";
+        dbo:iupacName   "Tributylstannyl acetate"@en;
+        dbo:smiles      "0";
+        dbp:inchikey    "PWBHRVGYSMBMIO-UHFFFAOYSA-M";
+        skos:broader    csc:CHEMONTID_0004072;
+        skos:inScheme   vlcs:chemische_stof;
+        skos:notation   "TC4ySnactt";
+        skos:prefLabel  "tributyltinacetaat"@nl .
 
 csc:IFTRQJLVEBNKJK-UHFFFAOYSA-N
         rdf:type        dbo:ChemicalSubstance , dbo:ChemicalCompound , skos:Concept;
