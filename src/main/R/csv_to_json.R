@@ -87,7 +87,6 @@ df <- read.csv(file = "../resources/source/codelijst_chemische_stof_source.csv",
 
 df <- expand_df_on_pipe(df)%>% 
   members_from_collection()%>%
-  hasTopConcept_from_topConceptOf()%>%
   rename_columns()
 
 #df <- narrower_from_broader(df)
