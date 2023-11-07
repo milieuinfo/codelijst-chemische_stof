@@ -108,7 +108,7 @@ ons:chemische_stof
     sh:property      omg_ps:chemische_stof_rdf_type, omg_ps:chemische_stof_seeAlso, omg_ps:chemische_stof_inchi, omg_ps:chemische_stof_casNumber,
                      omg_ps:chemische_stof_notation, omg_ps:chemische_stof_smiles, omg_ps:chemische_stof_narrowertransitive, omg_ps:chemische_stof_narrower,
                      omg_ps:chemische_stof_iupacName, omg_ps:chemische_stof_exactMatch, omg_ps:chemische_stof_inScheme,
-                     omg_ps:chemische_stof_isReferencedBy, omg_ps:chemische_stof_comment, omg_ps:chemische_stof_definition,
+                     omg_ps:chemische_stof_comment, omg_ps:chemische_stof_definition,
                      omg_ps:chemische_stof_altLabel, omg_ps:chemische_stof_formula, omg_ps:chemische_stof_prefLabel,
                      omg_ps:chemische_stof_inchikey,  omg_ps:chemische_stof_pubchem , omg_ps:chemische_stof_broader, omg_ps:chemische_stof_broadertransitive;
     sh:closed true ;
@@ -525,14 +525,14 @@ omg_ps:chemische_stof_comment
     sh:nodeKind      sh:Literal ;
     sh:path          skos:comment .
 
-omg_ps:chemische_stof_isReferencedBy
-    a                sh:PropertyShape ;
-    rdfs:label       "wordt vermeld in"@nl ;
-    sh:name          "wordt vermeld in"@nl ;
-    sh:description   "Binnen dit schema wordt dct:isReferencedBy gebruikt om de relatie naar wetgeving en analysemethodes te leggen, die betrekking hebben op de chemische stof."@nl ;
-    rdfs:isDefinedBy omg_ont:chemische-stof-ap-constraints, omg_voc:chemische-stof-ap-constraints ;
-    sh:nodeKind      sh:IRI ;
-    sh:path          dct:isReferencedBy .
+#omg_ps:chemische_stof_isReferencedBy
+#    a                sh:PropertyShape ;
+#    rdfs:label       "wordt vermeld in"@nl ;
+#    sh:name          "wordt vermeld in"@nl ;
+#    sh:description   "Binnen dit schema wordt dct:isReferencedBy gebruikt om de relatie naar wetgeving en analysemethodes te leggen, die betrekking hebben op de chemische stof."@nl ;
+#    rdfs:isDefinedBy omg_ont:chemische-stof-ap-constraints, omg_voc:chemische-stof-ap-constraints ;
+#    sh:nodeKind      sh:IRI ;
+#    sh:path          dct:isReferencedBy .
 
 omg_ps:chemische_stof_seeAlso
     a                sh:PropertyShape ;
