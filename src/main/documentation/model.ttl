@@ -1,4 +1,9 @@
-@prefix :            <http://purl.obolibrary.org/obo/ChemOnt.owl#> .
+@prefix :            <http://purl.obolibrary.org/obo/chebi.owl#> .
+@prefix chebi:       <http://purl.obolibrary.org/obo/chebi/> .
+@prefix chebi1:      <http://purl.obolibrary.org/obo/chebi#2> .
+@prefix chebi2:      <http://purl.obolibrary.org/obo/chebi#> .
+@prefix chebi3:      <http://purl.obolibrary.org/obo/chebi#3> .
+@prefix chebi4:      <http://purl.obolibrary.org/obo/chebi#1> .
 @prefix co:          <https://data.omgeving.vlaanderen.be/id/concept/observatieprocedure/> .
 @prefix compound:    <https://pubchem.ncbi.nlm.nih.gov/compound/> .
 @prefix cosc:        <https://data.omgeving.vlaanderen.be/id/collection/chemische_stof/> .
@@ -10,6 +15,8 @@
 @prefix dc:          <http://purl.org/dc/elements/1.1/> .
 @prefix dct:         <http://purl.org/dc/terms/> .
 @prefix list:        <https://data.omgeving.vlaanderen.be/id/list/chemische_stof/> .
+@prefix obo:         <http://purl.obolibrary.org/obo/> .
+@prefix oboInOwl:    <http://www.geneontology.org/formats/oboInOwl#> .
 @prefix omg_dataset: <https://data.omgeving.vlaanderen.be/id/dataset/> .
 @prefix owl:         <http://www.w3.org/2002/07/owl#> .
 @prefix rdf:         <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
@@ -24,59 +31,65 @@
 @prefix xml:         <http://www.w3.org/XML/1998/namespace> .
 @prefix xsd:         <http://www.w3.org/2001/XMLSchema#> .
 
-skos:Concept  rdf:type     "skos:Concept" ;
-        rdfs:seeAlso       "rdfs:Resource" ;
-        skos:definition    "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString" ;
-        skos:inScheme      skos:ConceptScheme ;
-        skos:narrower      skos:Concept , dbo:ChemicalCompound ;
-        skos:broader       skos:Concept ;
-        skos:notation      "http://www.w3.org/2001/XMLSchema#string" ;
-        skos:prefLabel     "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString" ;
-        skos:topConceptOf  skos:ConceptScheme .
-
-rdf:List  rdf:type      "rdf:List" ;
-        rdf:first       xkos:ClassificationLevel ;
-        rdf:rest        rdf:List ;
-        skos:prefLabel  "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString" .
-
-skos:Collection  rdf:type  "skos:Collection" ;
-        skos:inScheme   skos:ConceptScheme ;
-        skos:member       dbo:ChemicalCompound , skos:Concept ;
-        skos:prefLabel  "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString" .
-
-skos:ConceptScheme  rdf:type  "skos:ConceptScheme" ;
-        xkos:belongsTo      "dcat:Dataset" ;
-        xkos:levels         rdf:List ;
-        skos:altLabel       "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString" ;
-        skos:definition     "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString" ;
-        skos:hasTopConcept  skos:Concept ;
-        skos:notation       "http://www.w3.org/2001/XMLSchema#string" ;
-        skos:prefLabel      "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString" .
-
-dbo:ChemicalCompound  rdf:type  "dbo:ChemicalCompound" , "skos:Concept" , "dbo:ChemicalSubstance";
-        rdfs:comment        "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString" ;
-        rdfs:seeAlso        "rdfs:Resource" ;
-        dbo:casNumber       "http://www.w3.org/2001/XMLSchema#string" ;
-        dbo:formula         "http://www.w3.org/2001/XMLSchema#string" ;
-        dbo:inchi           "http://www.w3.org/2001/XMLSchema#string" ;
-        dbo:iupacName       "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString" ;
-        dbo:pubchem         "http://www.w3.org/2001/XMLSchema#int" ;
-        dbo:smiles          "http://www.w3.org/2001/XMLSchema#string" ;
-        dbp:inchikey        "http://www.w3.org/2001/XMLSchema#string" ;
-        dct:isReferencedBy  "rdfs:Resource" ;
-        skos:altLabel       "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString" ;
-        skos:broader        skos:Concept ;
-        skos:definition     "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString" ;
-        skos:exactMatch     "skos:Concept" ;
-        skos:inScheme       skos:ConceptScheme ;
-        skos:notation       "http://www.w3.org/2001/XMLSchema#string" ;
-        skos:prefLabel      "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString" ;
-        cs:vmmParameterId   "http://www.w3.org/2001/XMLSchema#int" .
-
 xkos:ClassificationLevel
-        rdf:type         "xkos:ClassificationLevel" ;
-        xkos:depth       "http://www.w3.org/2001/XMLSchema#positiveInteger" ;
-        skos:definition  "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString" ;
-        skos:inScheme    skos:ConceptScheme ;
-        skos:member      skos:Concept ;
+        rdf:type         "xkos:ClassificationLevel";
+        xkos:depth       "http://www.w3.org/2001/XMLSchema#positiveInteger";
+        skos:definition  "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString";
+        skos:inScheme    skos:ConceptScheme;
+        skos:member      skos:Concept;
         skos:prefLabel   "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString" .
+
+dbo:ChemicalCompound  rdf:type   "dbo:ChemicalCompound";
+                      rdfs:seeAlso             "rdfs:Resource";
+                      dbo:casNumber            "http://www.w3.org/2001/XMLSchema#string";
+                      dbo:formula              "http://www.w3.org/2001/XMLSchema#string";
+                      dbo:inchi                "http://www.w3.org/2001/XMLSchema#string";
+                      dbo:iupacName            "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString";
+                      dbo:pubchem              "http://www.w3.org/2001/XMLSchema#int";
+                      dbo:smiles               "http://www.w3.org/2001/XMLSchema#string";
+                      dbp:inchikey             "http://www.w3.org/2001/XMLSchema#string";
+                      dct:type                 "rdfs:Resource";
+                      skos:altLabel            "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString";
+                      skos:broader             skos:Concept , dbo:ChemicalSubstance , dbo:ChemicalCompound;
+                      skos:broaderTransitive   dbo:ChemicalCompound , skos:Concept , dbo:ChemicalSubstance;
+                      skos:comment             "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString";
+                      skos:definition          "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString";
+                      skos:exactMatch          "rdfs:Resource";
+                      skos:inScheme            skos:ConceptScheme;
+                      skos:narrower            skos:Concept , dbo:ChemicalCompound , dbo:ChemicalSubstance;
+                      skos:narrowerTransitive  dbo:ChemicalSubstance , dbo:ChemicalCompound , skos:Concept;
+                      skos:notation            "http://www.w3.org/2001/XMLSchema#string";
+                      skos:note                "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString";
+                      skos:prefLabel           "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString" .
+
+skos:ConceptScheme  rdf:type  "skos:ConceptScheme";
+                    xkos:belongsTo      "rdfs:Resource";
+                    xkos:levels         rdf:List;
+                    skos:altLabel       "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString";
+                    skos:definition     "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString";
+                    skos:hasTopConcept  skos:Concept;
+                    skos:notation       "http://www.w3.org/2001/XMLSchema#string";
+                    skos:prefLabel      "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString" .
+
+skos:Collection  rdf:type  "skos:Collection ";
+                 skos:inScheme   skos:ConceptScheme;
+                 skos:member    skos:Concept;
+                 skos:prefLabel  "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString" .
+
+rdf:List  rdf:type      "rdf:List";
+          rdf:first       xkos:ClassificationLevel;
+          rdf:rest        "rdfs:Resource";
+          rdf:rest        rdf:List;
+          skos:prefLabel  "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString" .
+
+skos:Concept  rdf:type           "skos:Concept";
+              rdfs:seeAlso             "rdfs:Resource";
+              skos:altLabel            "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString";
+              skos:broader             skos:Concept;
+              skos:definition          "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString";
+              skos:inScheme            skos:ConceptScheme;
+              skos:narrower           skos:Concept , dbo:ChemicalCompound , dbo:ChemicalSubstance;
+              skos:narrowerTransitive  skos:Concept , dbo:ChemicalCompound , dbo:ChemicalSubstance;
+              skos:notation            "http://www.w3.org/2001/XMLSchema#string";
+              skos:prefLabel           "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString";
+              skos:topConceptOf        skos:ConceptScheme .

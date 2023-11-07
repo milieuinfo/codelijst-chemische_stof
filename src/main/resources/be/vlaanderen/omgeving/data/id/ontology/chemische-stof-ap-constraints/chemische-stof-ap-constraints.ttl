@@ -24,27 +24,27 @@
 omg_ont:chemische-stof-ap-constraints
     a               owl:Ontology ;
     rdfs:comment
-                    "Specifieert hoe de data in de codelijst van chemische stoffen te encoderen in RDF (i.e. RDF termen, kardinaliteiten,...)."@nl ;
-    rdfs:label      "Chemische stof AP Constraints"@nl ;
-    dct:abstract    "Het chemische stof applicatieprofiel specifieert de RDF termen (klassen en properties) en bijhorende constraints die gebruikt worden voor het beschrijven van chemische stoffen. Het maakt hierbij zoveel mogelijk gebruik van bestaande termen (klassen en properties) uit bestaande , skos, dbo, dbp en een minimale set van nieuwe termen gedefinieerd in het Chemische stof Vocabularium."@nl ;
-    dct:alternative "Chemische stof AP Shapes"@nl ;
+                    "Specifieert hoe de data in de codelijst van chemische stoffen te encoderen in RDF (i.e. RDF termen, kardinaliteiten,...)."@en ;
+    rdfs:label      "Chemische stof AP Constraints"@en ;
+    dct:abstract    "Het chemische stof applicatieprofiel specifieert de RDF termen (klassen en properties) en bijhorende constraints die gebruikt worden voor het beschrijven van chemische stoffen. Het maakt hierbij zoveel mogelijk gebruik van bestaande termen (klassen en properties) uit bestaande , skos, dbo, dbp en een minimale set van nieuwe termen gedefinieerd in het Chemische stof Vocabularium."@en ;
+    dct:alternative "Chemische stof AP Shapes"@en ;
     dct:creator     omg_ag_cl:creator ;
-    dct:description "Dit is de SHACL encodering van het applicatieprofiel van een chemische stof."@nl ;
+    dct:description "Dit is de SHACL encodering van het applicatieprofiel van een chemische stof."@en ;
     dct:issued      "2022-10-03"^^xsd:date ;
-    dct:title       "Chemische stof AP Constraints"@nl ;
+    dct:title       "Chemische stof AP Constraints"@en ;
     xkos:belongsTo  omg_dataset:codelijst-chemische_stof ;
     xhv:last        omg_voc:chemische-stof-ap-constraints ;
     owl:sameAs      omg_voc:chemische-stof-ap-constraints ;
-    owl:versionInfo "Versie 2.0.0  oktober 2023"@nl .
+    owl:versionInfo "Versie 2.0.0  oktober 2023"@en .
 
 
 omg_voc:chemische-stof-ap-constraints
     a          owl:Ontology ;
-    rdfs:label "Chemische stof AP Constraints"@nl ;
+    rdfs:label "Chemische stof AP Constraints"@en ;
     owl:sameAs omg_ont:chemische-stof-ap-constraints .
 
 omg_ag_cl:creator
-    rdfs:label "Ontwikkelaar codelijst"@nl ;
+    rdfs:label "Ontwikkelaar codelijst"@en ;
     schema:affiliation vl_org:OVO003751 ;
     a foaf:Person;
     foaf:firstName "Geert";
@@ -54,9 +54,9 @@ omg_ag_cl:creator
 # Node Shapes
 ons:chemische_stof_schema
     a                sh:NodeShape ;
-    rdfs:label       "conceptschema van chemische stoffen"@nl ;
-    sh:name          "conceptschema van chemische stoffen"@nl ;
-    sh:description   "Het schema waarbinnen de chemische stoffen gedefinieerd zijn"@nl ;
+    rdfs:label       "conceptschema van chemische stoffen"@en ;
+    sh:name          "conceptschema van chemische stoffen"@en ;
+    sh:description   "Het schema waarbinnen de chemische stoffen gedefinieerd zijn"@en ;
     rdfs:isDefinedBy omg_ont:chemische-stof-ap-constraints, omg_voc:chemische-stof-ap-constraints ;
     sh:property      omg_ps:chemische_stof_notation, omg_ps:col_cs_rdf_type, omg_ps:conceptscheme_altLabel, omg_ps:conceptscheme_prefLabel, omg_ps:chemische_stof_schema_hasTopConcept,
                      omg_ps:chemische_stof_definition , omg_ps:schema_levels, omg_ps:schema_belongsTo;
@@ -67,9 +67,9 @@ ons:chemische_stof_schema
 
 ons:chemische_stof_collection
     a                sh:NodeShape ;
-    rdfs:label       "verzameling"@nl ;
-    sh:name          "verzameling"@nl ;
-    sh:description   "Verzamelingen bundelen chemische stoffen met gelijkaardige eigenschappen, analysemethoden of matrices waarin ze gemeten worden."@nl ;
+    rdfs:label       "verzameling"@en ;
+    sh:name          "verzameling"@en ;
+    sh:description   "Verzamelingen bundelen chemische stoffen met gelijkaardige eigenschappen, analysemethoden of matrices waarin ze gemeten worden."@en ;
     rdfs:isDefinedBy omg_ont:chemische-stof-ap-constraints, omg_voc:chemische-stof-ap-constraints ;
     sh:property      omg_ps:chemische_stof_prefLabel, omg_ps:chemische_stof_collection_member,
                      omg_ps:chemische_stof_inScheme ;
@@ -78,9 +78,9 @@ ons:chemische_stof_collection
 
 ons:chemische_stof_classificationlevel
     a                sh:NodeShape ;
-    rdfs:label       "classificatieniveau"@nl ;
-    sh:name          "classificatieniveau"@nl ;
-    sh:description   "Classificatieniveau's bundelen CHEMONT categorieen van gelijk taxonomisch niveau (Kingdom, Superclass, Class, Subclass)."@nl ;
+    rdfs:label       "classificatieniveau"@en ;
+    sh:name          "classificatieniveau"@en ;
+    sh:description   "Classificatieniveau's bundelen CHEMONT categorieen van gelijk taxonomisch niveau (Kingdom, Superclass, Class, Subclass)."@en ;
     rdfs:isDefinedBy omg_ont:chemische-stof-ap-constraints, omg_voc:chemische-stof-ap-constraints ;
     sh:property      omg_ps:col_cs_rdf_type, omg_ps:chemische_stof_prefLabel, omg_ps:chemische_stof_classificationlevel_member,
                      omg_ps:chemische_stof_inScheme, omg_ps:chemische_stof_classificationlevel_depth , omg_ps:chemische_stof_definition;
@@ -89,9 +89,9 @@ ons:chemische_stof_classificationlevel
 
 ons:schema_list
     a                sh:NodeShape ;
-    rdfs:label       "list"@nl ;
-    sh:name          "list"@nl ;
-    sh:description   "Classificatieniveau's zijn verbonden met elkaar door een rdf List"@nl ;
+    rdfs:label       "list"@en ;
+    sh:name          "list"@en ;
+    sh:description   "Classificatieniveau's zijn verbonden met elkaar door een rdf List"@en ;
     rdfs:isDefinedBy omg_ont:chemische-stof-ap-constraints, omg_voc:chemische-stof-ap-constraints ;
     sh:property      omg_ps:col_cs_rdf_type, omg_ps:chemische_stof_prefLabel, omg_ps:first,
                      omg_ps:rest ;
@@ -100,10 +100,10 @@ ons:schema_list
 
 ons:chemische_stof
     a                sh:NodeShape ;
-    rdfs:label       "chemische stof"@nl ;
-    sh:name          "chemische stof"@nl ;
-    sh:description   "Een stof is in de scheikunde een vorm van materie die een gelijke chemische samenstelling heeft, een chemisch zuivere stof. Deze wordt gekenmerkt door specifieke, uniforme stofeigenschappen, zoals dichtheid, geleidbaarheid en smeltpunt."@nl ;
-    rdfs:comment     "De uniciteit van een chemische stof wordt bepaald door haar IUPAC-naam. InChI's kunnen gezien worden als verkorte, geformaliseerde versies van de IUPAC-namen van stoffen. InChIKey is een formaat met een vaste lengte dat direct is afgeleid van een InChI. De URI van de chemische stoffen is gebaseerd op de InChIKey."@nl ;
+    rdfs:label       "chemische stof"@en ;
+    sh:name          "chemische stof"@en ;
+    sh:description   "Een stof is in de scheikunde een vorm van materie die een gelijke chemische samenstelling heeft, een chemisch zuivere stof. Deze wordt gekenmerkt door specifieke, uniforme stofeigenschappen, zoals dichtheid, geleidbaarheid en smeltpunt."@en ;
+    rdfs:comment     "De uniciteit van een chemische stof wordt bepaald door haar IUPAC-naam. InChI's kunnen gezien worden als verkorte, geformaliseerde versies van de IUPAC-namen van stoffen. InChIKey is een formaat met een vaste lengte dat direct is afgeleid van een InChI. De URI van de chemische stoffen is gebaseerd op de InChIKey."@en ;
     rdfs:isDefinedBy omg_ont:chemische-stof-ap-constraints, omg_voc:chemische-stof-ap-constraints ;
     sh:property      omg_ps:chemische_stof_rdf_type, omg_ps:chemische_stof_seeAlso, omg_ps:chemische_stof_inchi, omg_ps:chemische_stof_casNumber,
                      omg_ps:chemische_stof_notation, omg_ps:chemische_stof_smiles, omg_ps:chemische_stof_narrowertransitive, omg_ps:chemische_stof_narrower,
@@ -118,10 +118,10 @@ ons:chemische_stof
 
 ons:categorie
     a                sh:NodeShape ;
-    rdfs:label       "categorie"@nl ;
-    sh:name          "categorie"@nl ;
-    sh:description   "Een categorie uit de CHEMONT taxonomie"@nl ;
-    rdfs:comment     ""@nl ;
+    rdfs:label       "categorie"@en ;
+    sh:name          "categorie"@en ;
+    sh:description   "Een categorie uit de CHEMONT taxonomie"@en ;
+    rdfs:comment     ""@en ;
     rdfs:isDefinedBy omg_ont:chemische-stof-ap-constraints, omg_voc:chemische-stof-ap-constraints ;
     sh:property      omg_ps:categorie_rdf_type, omg_ps:categorie_seeAlso, omg_ps:categorie_narrower, omg_ps:chemische_stof_notation,
                      omg_ps:chemische_stof_inScheme, omg_ps:categorie_narrowertransitive,
@@ -135,22 +135,22 @@ ons:categorie
     sh:target ons:concept .
 
 
-#                skos:definition  "Organic compounds containing the functional group -CO-Cl."@nl ;
+#                skos:definition  "Organic compounds containing the functional group -CO-Cl."@en ;
 ons:concept a sh:SPARQLTarget ;
-            rdfs:label "Sparql query list of nil"@nl ;
+            rdfs:label "Sparql query list of nil"@en ;
             sh:select "SELECT ?this WHERE { ?this a <http://www.w3.org/2004/02/skos/core#Concept>. FILTER NOT EXISTS { ?this a <http://dbpedia.org/ontology/ChemicalSubstance>. } }"^^xsd:string .
 
 ons:ChemicalSubstance_ChemicalCompound_Concept a sh:SPARQLTarget ;
-           rdfs:label "Sparql query list of nil"@nl ;
+           rdfs:label "Sparql query list of nil"@en ;
            sh:select "SELECT ?this WHERE { ?this a <http://www.w3.org/2004/02/skos/core#Concept> ; a <http://dbpedia.org/ontology/ChemicalSubstance> ; a <http://dbpedia.org/ontology/ChemicalCompound>.  }"^^xsd:string .
 
 
 # Property Shapes
 omg_ps:chemische_stof_rdf_type
     a                sh:PropertyShape ;
-    rdfs:label       "rdf type"@nl ;
-    sh:name          "rdf type"@nl ;
-    sh:description   "Aanduiding dat een bron een instantie van een bepaalde klasse is."@nl ;
+    rdfs:label       "rdf type"@en ;
+    sh:name          "rdf type"@en ;
+    sh:description   "Aanduiding dat een bron een instantie van een bepaalde klasse is."@en ;
     rdfs:isDefinedBy omg_ont:chemische-stof-ap-constraints-limited, omg_voc:chemische-stof-ap-constraints-limited ;
     sh:maxCount      3 ;
     sh:minCount      3 ;
@@ -159,9 +159,9 @@ omg_ps:chemische_stof_rdf_type
 
 omg_ps:categorie_rdf_type
     a                sh:PropertyShape ;
-    rdfs:label       "rdf type"@nl ;
-    sh:name          "rdf type"@nl ;
-    sh:description   "Aanduiding dat een bron een instantie van een bepaalde klasse is."@nl ;
+    rdfs:label       "rdf type"@en ;
+    sh:name          "rdf type"@en ;
+    sh:description   "Aanduiding dat een bron een instantie van een bepaalde klasse is."@en ;
     rdfs:isDefinedBy omg_ont:chemische-stof-ap-constraints-limited, omg_voc:chemische-stof-ap-constraints-limited ;
     sh:maxCount      1 ;
     sh:minCount      1 ;
@@ -170,9 +170,9 @@ omg_ps:categorie_rdf_type
 
 omg_ps:col_cs_rdf_type
     a                sh:PropertyShape ;
-    rdfs:label       "rdf type"@nl ;
-    sh:name          "rdf type"@nl ;
-    sh:description   "Aanduiding dat een bron een instantie van een bepaalde klasse is."@nl ;
+    rdfs:label       "rdf type"@en ;
+    sh:name          "rdf type"@en ;
+    sh:description   "Aanduiding dat een bron een instantie van een bepaalde klasse is."@en ;
     rdfs:isDefinedBy omg_ont:chemische-stof-ap-constraints-limited, omg_voc:chemische-stof-ap-constraints-limited ;
     sh:maxCount      1 ;
     sh:minCount      1 ;
@@ -181,9 +181,9 @@ omg_ps:col_cs_rdf_type
 
 omg_ps:schema_belongsTo
     a                sh:PropertyShape ;
-    rdfs:label       "behoort tot dataset"@nl ;
-    sh:name          "behoort tot dataset"@nl ;
-    sh:description   "De relatie tussen een conceptschema en de dataset waartoe het behoort."@nl ;
+    rdfs:label       "behoort tot dataset"@en ;
+    sh:name          "behoort tot dataset"@en ;
+    sh:description   "De relatie tussen een conceptschema en de dataset waartoe het behoort."@en ;
     rdfs:isDefinedBy omg_ont:chemische-stof-ap-constraints-limited, omg_voc:chemische-stof-ap-constraints-limited ;
     sh:nodeKind      sh:IRI ;
     sh:minCount      1 ;
@@ -191,9 +191,9 @@ omg_ps:schema_belongsTo
 
 omg_ps:chemische_stof_classificationlevel_depth
     a                sh:PropertyShape ;
-    rdfs:label       "diepte"@nl ;
-    sh:name          "diepte"@nl ;
-    sh:description   "Het aantal classificatieniveau's"@nl ;
+    rdfs:label       "diepte"@en ;
+    sh:name          "diepte"@en ;
+    sh:description   "Het aantal classificatieniveau's"@en ;
     rdfs:isDefinedBy omg_ont:chemische-stof-ap-constraints, omg_voc:chemische-stof-ap-constraints ;
     sh:datatype      xsd:positiveInteger ;
     sh:nodeKind      sh:Literal ;
@@ -201,9 +201,9 @@ omg_ps:chemische_stof_classificationlevel_depth
 
 omg_ps:schema_levels
     a                sh:PropertyShape ;
-    rdfs:label       "niveau's"@nl ;
-    sh:name          "niveau's"@nl ;
-    sh:description   "De relatie tussen een concept en een nauwer, specifieker concept binnen hetzelfde schema."@nl ;
+    rdfs:label       "niveau's"@en ;
+    sh:name          "niveau's"@en ;
+    sh:description   "De relatie tussen een concept en een nauwer, specifieker concept binnen hetzelfde schema."@en ;
     rdfs:isDefinedBy omg_ont:chemische-stof-ap-constraints, omg_voc:chemische-stof-ap-constraints ;
     sh:class         rdf:List ;
     sh:minCount      1 ;
@@ -213,9 +213,9 @@ omg_ps:schema_levels
 
 omg_ps:first
     a                sh:PropertyShape ;
-    rdfs:label       "eerste"@nl ;
-    sh:name          "eerste"@nl ;
-    sh:description   "De relatie tussen een list object en een classificatieniveau"@nl ;
+    rdfs:label       "eerste"@en ;
+    sh:name          "eerste"@en ;
+    sh:description   "De relatie tussen een list object en een classificatieniveau"@en ;
     rdfs:isDefinedBy omg_ont:chemische-stof-ap-constraints, omg_voc:chemische-stof-ap-constraints ;
     sh:class         xkos:ClassificationLevel ;
     sh:minCount      1 ;
@@ -225,9 +225,9 @@ omg_ps:first
 
 omg_ps:rest
     a                sh:PropertyShape ;
-    rdfs:label       "rest"@nl ;
-    sh:name          "rest"@nl ;
-    sh:description   "De relatie tussen een list object, dat via rdf:first verwijst naar een hoger classificatieniveau, en een list object dat via rdf:first verwijst naar een lager classificatieniveau."@nl ;
+    rdfs:label       "rest"@en ;
+    sh:name          "rest"@en ;
+    sh:description   "De relatie tussen een list object, dat via rdf:first verwijst naar een hoger classificatieniveau, en een list object dat via rdf:first verwijst naar een lager classificatieniveau."@en ;
     rdfs:isDefinedBy omg_ont:chemische-stof-ap-constraints, omg_voc:chemische-stof-ap-constraints ;
 #sh:class   rdf:List ;
     sh:minCount      1 ;
@@ -238,9 +238,9 @@ omg_ps:rest
 
 omg_ps:categorie_narrower
     a                sh:PropertyShape ;
-    rdfs:label       "specifieker concept"@nl ;
-    sh:name          "specifieker concept"@nl ;
-    sh:description   "De relatie tussen een concept en een nauwer, specifieker concept binnen hetzelfde schema."@nl ;
+    rdfs:label       "specifieker concept"@en ;
+    sh:name          "specifieker concept"@en ;
+    sh:description   "De relatie tussen een concept en een nauwer, specifieker concept binnen hetzelfde schema."@en ;
     rdfs:isDefinedBy omg_ont:chemische-stof-ap-constraints, omg_voc:chemische-stof-ap-constraints ;
     sh:class         skos:Concept ;
     sh:minCount      1 ;
@@ -249,9 +249,9 @@ omg_ps:categorie_narrower
 
 omg_ps:chemische_stof_narrower
     a                sh:PropertyShape ;
-    rdfs:label       "specifieker concept"@nl ;
-    sh:name          "specifieker concept"@nl ;
-    sh:description   "De relatie tussen een concept en een nauwer, specifieker concepten binnen hetzelfde schema."@nl ;
+    rdfs:label       "specifieker concept"@en ;
+    sh:name          "specifieker concept"@en ;
+    sh:description   "De relatie tussen een concept en een nauwer, specifieker concepten binnen hetzelfde schema."@en ;
     rdfs:isDefinedBy omg_ont:chemische-stof-ap-constraints, omg_voc:chemische-stof-ap-constraints ;
     sh:class         skos:Concept ;
     sh:nodeKind      sh:IRI ;
@@ -259,9 +259,9 @@ omg_ps:chemische_stof_narrower
 
 omg_ps:chemische_stof_narrowertransitive
     a                sh:PropertyShape ;
-    rdfs:label       "transitief specifiekere concepten"@nl ;
-    sh:name          "transitief specifiekere concepten"@nl ;
-    sh:description   "De relatie tussen een concept en nauwere, specifiekere concepten binnen hetzelfde schema."@nl ;
+    rdfs:label       "transitief specifiekere concepten"@en ;
+    sh:name          "transitief specifiekere concepten"@en ;
+    sh:description   "De relatie tussen een concept en nauwere, specifiekere concepten binnen hetzelfde schema."@en ;
     rdfs:isDefinedBy omg_ont:chemische-stof-ap-constraints, omg_voc:chemische-stof-ap-constraints ;
     sh:class         skos:Concept ;
     sh:nodeKind      sh:IRI ;
@@ -269,9 +269,9 @@ omg_ps:chemische_stof_narrowertransitive
 
 omg_ps:categorie_narrowertransitive
     a                sh:PropertyShape ;
-    rdfs:label       "transitief specifiekere concepten"@nl ;
-    sh:name          "transitief specifiekere concepten"@nl ;
-    sh:description   "De relatie tussen een concept en een nauwere, specifiekere concepten binnen hetzelfde schema."@nl ;
+    rdfs:label       "transitief specifiekere concepten"@en ;
+    sh:name          "transitief specifiekere concepten"@en ;
+    sh:description   "De relatie tussen een concept en een nauwere, specifiekere concepten binnen hetzelfde schema."@en ;
     rdfs:isDefinedBy omg_ont:chemische-stof-ap-constraints, omg_voc:chemische-stof-ap-constraints ;
     sh:class         skos:Concept ;
     sh:minCount      1 ;
@@ -280,9 +280,9 @@ omg_ps:categorie_narrowertransitive
 
 omg_ps:categorie_broader
     a                sh:PropertyShape ;
-    rdfs:label       "breder concept"@nl ;
-    sh:name          "breder concept"@nl ;
-    sh:description   "De relatie tussen een concept en een breder, minder specifiek concept binnen hetzelfde schema."@nl ;
+    rdfs:label       "breder concept"@en ;
+    sh:name          "breder concept"@en ;
+    sh:description   "De relatie tussen een concept en een breder, minder specifiek concept binnen hetzelfde schema."@en ;
     rdfs:isDefinedBy omg_ont:chemische-stof-ap-constraints, omg_voc:chemische-stof-ap-constraints ;
     sh:class         skos:Concept ;
     sh:maxCount      1 ;
@@ -292,9 +292,9 @@ omg_ps:categorie_broader
 
 omg_ps:chemische_stof_broader
     a                sh:PropertyShape ;
-    rdfs:label       "breder concept"@nl ;
-    sh:name          "breder concept"@nl ;
-    sh:description   "De relatie tussen een concept en een breder, minder specifiek concept binnen hetzelfde schema."@nl ;
+    rdfs:label       "breder concept"@en ;
+    sh:name          "breder concept"@en ;
+    sh:description   "De relatie tussen een concept en een breder, minder specifiek concept binnen hetzelfde schema."@en ;
     rdfs:isDefinedBy omg_ont:chemische-stof-ap-constraints, omg_voc:chemische-stof-ap-constraints ;
     sh:class         skos:Concept ;
     sh:maxCount      1 ;
@@ -304,9 +304,9 @@ omg_ps:chemische_stof_broader
 
 omg_ps:chemische_stof_broadertransitive
     a                sh:PropertyShape ;
-    rdfs:label       "transitief bredere concepten"@nl ;
-    sh:name          "transitief bredere concepten"@nl ;
-    sh:description   "De relatie tussen een concept en transitief bredere, minder specifieke concepten binnen hetzelfde schema."@nl ;
+    rdfs:label       "transitief bredere concepten"@en ;
+    sh:name          "transitief bredere concepten"@en ;
+    sh:description   "De relatie tussen een concept en transitief bredere, minder specifieke concepten binnen hetzelfde schema."@en ;
     rdfs:isDefinedBy omg_ont:chemische-stof-ap-constraints, omg_voc:chemische-stof-ap-constraints ;
     sh:class         skos:Concept ;
     sh:minCount      1 ;
@@ -315,9 +315,9 @@ omg_ps:chemische_stof_broadertransitive
 
 omg_ps:chemische_stof_inchikey
     a                sh:PropertyShape ;
-    rdfs:label       "InChIKey"@nl ;
-    sh:name          "InChIKey"@nl ;
-    sh:description   "InChIKey is een formaat met een vaste lengte die rechtstreeks is afgeleid van InChI. Het is gebaseerd op een sterke hash (SHA-256-algoritme) van een InChI-string."@nl ;
+    rdfs:label       "InChIKey"@en ;
+    sh:name          "InChIKey"@en ;
+    sh:description   "InChIKey is een formaat met een vaste lengte die rechtstreeks is afgeleid van InChI. Het is gebaseerd op een sterke hash (SHA-256-algoritme) van een InChI-string."@en ;
     rdfs:isDefinedBy omg_ont:chemische-stof-ap-constraints, omg_voc:chemische-stof-ap-constraints ;
     sh:datatype      xsd:string ;
     sh:maxCount      1 ;
@@ -329,9 +329,9 @@ omg_ps:chemische_stof_inchikey
 
 omg_ps:chemische_stof_unique_inchikey
     a                  sh:PropertyShape ;
-    rdfs:label         "unieke InChIKey"@nl ;
-    sh:name            "unieke InChIKey"@nl ;
-    sh:description     "Vanuit 1 InChIKey kan slechts naar 1 stof worden verwezen."@nl ;
+    rdfs:label         "unieke InChIKey"@en ;
+    sh:name            "unieke InChIKey"@en ;
+    sh:description     "Vanuit 1 InChIKey kan slechts naar 1 stof worden verwezen."@en ;
     rdfs:isDefinedBy   omg_ont:chemische-stof-ap-constraints, omg_voc:chemische-stof-ap-constraints ;
     sh:nodeKind        sh:IRI ;
     sh:targetObjectsOf dbp:inchikey ;
@@ -341,9 +341,9 @@ omg_ps:chemische_stof_unique_inchikey
 
 omg_ps:categorie_stof_topConceptOf
     a                sh:PropertyShape ;
-    rdfs:label       "topconcept van"@nl ;
-    sh:name          "topconcept van"@nl ;
-    sh:description   "De relatie tussen een concept en het schema, waarvan het een topconcept is."@nl ;
+    rdfs:label       "topconcept van"@en ;
+    sh:name          "topconcept van"@en ;
+    sh:description   "De relatie tussen een concept en het schema, waarvan het een topconcept is."@en ;
     rdfs:isDefinedBy omg_ont:chemische-stof-ap-constraints, omg_voc:chemische-stof-ap-constraints ;
     sh:class         skos:ConceptScheme ;
     sh:maxCount      1 ;
@@ -353,9 +353,9 @@ omg_ps:categorie_stof_topConceptOf
 
 omg_ps:chemische_stof_altLabel
     a                sh:PropertyShape ;
-    rdfs:label       "alternatief label"@nl ;
-    sh:name          "alternatief label"@nl ;
-    sh:description   "Een alternatief lexicaal label voor een bepaalde bron."@nl ;
+    rdfs:label       "alternatief label"@en ;
+    sh:name          "alternatief label"@en ;
+    sh:description   "Een alternatief lexicaal label voor een bepaalde bron."@en ;
     rdfs:isDefinedBy omg_ont:chemische-stof-ap-constraints, omg_voc:chemische-stof-ap-constraints ;
     sh:datatype      rdf:langString ;
     sh:languageIn    ( "nl" "en" ) ;
@@ -364,9 +364,9 @@ omg_ps:chemische_stof_altLabel
 
 omg_ps:chemische_stof_casNumber
     a                sh:PropertyShape ;
-    rdfs:label       "CAS nummer"@nl ;
-    sh:name          "CAS nummer"@nl ;
-    sh:description   "Een CAS-nummer is een unieke numerieke identifier voor chemische elementen, componenten, polymeren, en legeringen. CAS staat voor Chemical Abstracts Service, een divisie van de American Chemical Society. Soms zijn er verschillende CAS-nummers (\"other CAS\") die exact hetzelfde betekenen. Dit heeft meestal te maken met oudere CAS-nummers die werden toegekend op het moment dat de stof nog niet helemaal gekarakteriseerd was. Later kan men er aldus op uit komen dat verschillende CAS-nummers op eenzelfde molecule betrekking hebben."@nl ;
+    rdfs:label       "CAS nummer"@en ;
+    sh:name          "CAS nummer"@en ;
+    sh:description   "Een CAS-nummer is een unieke numerieke identifier voor chemische elementen, componenten, polymeren, en legeringen. CAS staat voor Chemical Abstracts Service, een divisie van de American Chemical Society. Soms zijn er verschillende CAS-nummers (\"other CAS\") die exact hetzelfde betekenen. Dit heeft meestal te maken met oudere CAS-nummers die werden toegekend op het moment dat de stof nog niet helemaal gekarakteriseerd was. Later kan men er aldus op uit komen dat verschillende CAS-nummers op eenzelfde molecule betrekking hebben."@en ;
     rdfs:isDefinedBy omg_ont:chemische-stof-ap-constraints, omg_voc:chemische-stof-ap-constraints ;
     sh:datatype      xsd:string ;
     sh:minCount      1 ;
@@ -376,9 +376,9 @@ omg_ps:chemische_stof_casNumber
 
 omg_ps:chemische_stof_unique_casNumber
     a                  sh:PropertyShape ;
-    rdfs:label         "uniek CAS nummer"@nl ;
-    sh:name            "uniek CAS nummer"@nl ;
-    sh:description     "Vanuit 1 CAS nummer kan slechts naar 1 stof worden verwezen."@nl ;
+    rdfs:label         "uniek CAS nummer"@en ;
+    sh:name            "uniek CAS nummer"@en ;
+    sh:description     "Vanuit 1 CAS nummer kan slechts naar 1 stof worden verwezen."@en ;
     rdfs:isDefinedBy   omg_ont:chemische-stof-ap-constraints, omg_voc:chemische-stof-ap-constraints ;
     sh:nodeKind        sh:IRI ;
     sh:targetObjectsOf dbo:casNumber ;
@@ -388,9 +388,9 @@ omg_ps:chemische_stof_unique_casNumber
 
 omg_ps:chemische_stof_collection_member
     a                sh:PropertyShape ;
-    rdfs:label       "onderdeel"@nl ;
-    sh:name          "onderdeel"@nl ;
-    sh:description   "Een collectie heeft minstens 1 onderdeel."@nl ;
+    rdfs:label       "onderdeel"@en ;
+    sh:name          "onderdeel"@en ;
+    sh:description   "Een collectie heeft minstens 1 onderdeel."@en ;
     rdfs:isDefinedBy omg_ont:chemische-stof-ap-constraints, omg_voc:chemische-stof-ap-constraints ;
     sh:class         dbo:ChemicalCompound, dbo:ChemicalSubstance, skos:Concept ;
     sh:minCount      1 ;
@@ -399,9 +399,9 @@ omg_ps:chemische_stof_collection_member
 
 omg_ps:chemische_stof_classificationlevel_member
     a                sh:PropertyShape ;
-    rdfs:label       "onderdeel"@nl ;
-    sh:name          "onderdeel"@nl ;
-    sh:description   "Een classificationlevel heeft minstens 1 onderdeel."@nl ;
+    rdfs:label       "onderdeel"@en ;
+    sh:name          "onderdeel"@en ;
+    sh:description   "Een classificationlevel heeft minstens 1 onderdeel."@en ;
     rdfs:isDefinedBy omg_ont:chemische-stof-ap-constraints, omg_voc:chemische-stof-ap-constraints ;
     sh:class         skos:Concept ;
     sh:minCount      1 ;
@@ -410,9 +410,9 @@ omg_ps:chemische_stof_classificationlevel_member
 
 omg_ps:chemische_stof_smiles
     a                sh:PropertyShape ;
-    rdfs:label       "SMILES"@nl ;
-    sh:name          "SMILES"@nl ;
-    sh:description   "SMILES of voluit simplified molecular-input line-entry specification is een specificatie om de structuur van chemische moleculen op eenduidige wijze te beschrijven als een tekenreeks. SMILES kunnen door de meeste chemische tekenprogramma's ingelezen worden en worden omgezet in een tweedimensionale tekening of een driedimensionaal model van het molecuul. "@nl ;
+    rdfs:label       "SMILES"@en ;
+    sh:name          "SMILES"@en ;
+    sh:description   "SMILES of voluit simplified molecular-input line-entry specification is een specificatie om de structuur van chemische moleculen op eenduidige wijze te beschrijven als een tekenreeks. SMILES kunnen door de meeste chemische tekenprogramma's ingelezen worden en worden omgezet in een tweedimensionale tekening of een driedimensionaal model van het molecuul. "@en ;
     rdfs:isDefinedBy omg_ont:chemische-stof-ap-constraints, omg_voc:chemische-stof-ap-constraints ;
     sh:datatype      xsd:string ;
     sh:maxCount      1 ;
@@ -423,18 +423,18 @@ omg_ps:chemische_stof_smiles
 
 omg_ps:chemische_stof_exactMatch
     a                sh:PropertyShape ;
-    rdfs:label       "heeft exacte overeenkomst"@nl ;
-    sh:name          "heeft exacte overeenkomst"@nl ;
-    sh:description   "skos:exactMatch wordt gebruikt om twee concepten te koppelen, wat aangeeft dat er een hoge mate van vertrouwen bestaat dat de concepten onderling uitwisselbaar kunnen worden gebruikt in een breed scala aan toepassingen voor het ophalen van informatie. skos:exactMatch is een transitieve eigenschap en is een subeigenschap van skos:closeMatch"@nl ;
+    rdfs:label       "heeft exacte overeenkomst"@en ;
+    sh:name          "heeft exacte overeenkomst"@en ;
+    sh:description   "skos:exactMatch wordt gebruikt om twee concepten te koppelen, wat aangeeft dat er een hoge mate van vertrouwen bestaat dat de concepten onderling uitwisselbaar kunnen worden gebruikt in een breed scala aan toepassingen voor het ophalen van informatie. skos:exactMatch is een transitieve eigenschap en is een subeigenschap van skos:closeMatch"@en ;
     rdfs:isDefinedBy omg_ont:chemische-stof-ap-constraints, omg_voc:chemische-stof-ap-constraints ;
     sh:nodeKind      sh:IRI ;
     sh:path          skos:exactMatch .
 
 omg_ps:chemische_stof_pubchem
     a                sh:PropertyShape ;
-    rdfs:label       "pubchem"@nl ;
-    sh:name          "pubchem"@nl ;
-    sh:description   "Verwijst binnen deze stoffenlijst naar de PubChem CID, de unieke 'compound identifier' van PubChem. PubChem is een databank van chemische molecules en hun bio-assays."@nl ;
+    rdfs:label       "pubchem"@en ;
+    sh:name          "pubchem"@en ;
+    sh:description   "Verwijst binnen deze stoffenlijst naar de PubChem CID, de unieke 'compound identifier' van PubChem. PubChem is een databank van chemische molecules en hun bio-assays."@en ;
     rdfs:isDefinedBy omg_ont:chemische-stof-ap-constraints, omg_voc:chemische-stof-ap-constraints ;
     sh:datatype      xsd:int ;
     sh:maxCount      1 ;
@@ -445,9 +445,9 @@ omg_ps:chemische_stof_pubchem
 
 omg_ps:chemische_stof_unique_pubchem
     a                  sh:PropertyShape ;
-    rdfs:label         "unieke pubchem CID"@nl ;
-    sh:name            "unieke pubchem CID"@nl ;
-    sh:description     "Vanuit 1 pubchem CID kan slechts naar 1 stof worden verwezen."@nl ;
+    rdfs:label         "unieke pubchem CID"@en ;
+    sh:name            "unieke pubchem CID"@en ;
+    sh:description     "Vanuit 1 pubchem CID kan slechts naar 1 stof worden verwezen."@en ;
     rdfs:isDefinedBy   omg_ont:chemische-stof-ap-constraints, omg_voc:chemische-stof-ap-constraints ;
     sh:nodeKind        sh:IRI ;
     sh:targetObjectsOf dbo:pubchem ;
@@ -457,9 +457,9 @@ omg_ps:chemische_stof_unique_pubchem
 
 omg_ps:chemische_stof_notation
     a                sh:PropertyShape ;
-    rdfs:label       "notatie"@nl ;
-    sh:name          "notatie"@nl ;
-    sh:description   "Een notatie, ook wel classificatiecode genoemd, is een reeks tekens zoals \"PCB151\" of \"EtFOSA\" die wordt gebruikt om een stof op unieke wijze te identificeren binnen de context van dit schema."@nl ;
+    rdfs:label       "notatie"@en ;
+    sh:name          "notatie"@en ;
+    sh:description   "Een notatie, ook wel classificatiecode genoemd, is een reeks tekens zoals \"PCB151\" of \"EtFOSA\" die wordt gebruikt om een stof op unieke wijze te identificeren binnen de context van dit schema."@en ;
     rdfs:isDefinedBy omg_ont:chemische-stof-ap-constraints, omg_voc:chemische-stof-ap-constraints ;
     sh:datatype      xsd:string ;
     sh:nodeKind      sh:Literal ;
@@ -468,9 +468,9 @@ omg_ps:chemische_stof_notation
 
 omg_ps:chemische_stof_unique_notation
     a                  sh:PropertyShape ;
-    rdfs:label         "unieke notatie"@nl ;
-    sh:name            "unieke notatie"@nl ;
-    sh:description     "Een notatie, ook wel classificatiecode genoemd, is een reeks tekens zoals \"PCB151\" of \"EtFOSA\" die wordt gebruikt om een stof op unieke wijze te identificeren binnen de context van dit schema. Er kan vanuit verschillende classificatiesystemen, met meerdere notaties verwezen worden naar een stof, maar een notatie is uniek voor een stof, ttz. vanuit 1 notatie kan slechts naar 1 stof worden verwezen."@nl ;
+    rdfs:label         "unieke notatie"@en ;
+    sh:name            "unieke notatie"@en ;
+    sh:description     "Een notatie, ook wel classificatiecode genoemd, is een reeks tekens zoals \"PCB151\" of \"EtFOSA\" die wordt gebruikt om een stof op unieke wijze te identificeren binnen de context van dit schema. Er kan vanuit verschillende classificatiesystemen, met meerdere notaties verwezen worden naar een stof, maar een notatie is uniek voor een stof, ttz. vanuit 1 notatie kan slechts naar 1 stof worden verwezen."@en ;
     rdfs:isDefinedBy   omg_ont:chemische-stof-ap-constraints, omg_voc:chemische-stof-ap-constraints ;
     sh:nodeKind        sh:IRI ;
     sh:targetObjectsOf skos:notation ;
@@ -480,9 +480,9 @@ omg_ps:chemische_stof_unique_notation
 
 omg_ps:chemische_stof_inchi
     a                sh:PropertyShape ;
-    rdfs:label       "InChI"@nl ;
-    sh:name          "InChI"@nl ;
-    sh:description   "De International Chemical Identifier, afgekort InChI, is een tekstuele identificatiecode voor chemische stoffen, vooral bedoeld om moleculen ondubbelzinnig en op een voor mensen leesbare manier te coderen, waarbij het zoeken naar die stof in databanken en via het web gemakkelijker zou worden gemaakt. "@nl ;
+    rdfs:label       "InChI"@en ;
+    sh:name          "InChI"@en ;
+    sh:description   "De International Chemical Identifier, afgekort InChI, is een tekstuele identificatiecode voor chemische stoffen, vooral bedoeld om moleculen ondubbelzinnig en op een voor mensen leesbare manier te coderen, waarbij het zoeken naar die stof in databanken en via het web gemakkelijker zou worden gemaakt. "@en ;
     rdfs:isDefinedBy omg_ont:chemische-stof-ap-constraints, omg_voc:chemische-stof-ap-constraints ;
     sh:datatype      xsd:string ;
     sh:maxCount      1 ;
@@ -493,9 +493,9 @@ omg_ps:chemische_stof_inchi
 
 omg_ps:chemische_stof_unique_inchi
     a                  sh:PropertyShape ;
-    rdfs:label         "unieke InChI"@nl ;
-    sh:name            "unieke InChI"@nl ;
-    sh:description     "Vanuit 1 InChI kan slechts naar 1 stof worden verwezen."@nl ;
+    rdfs:label         "unieke InChI"@en ;
+    sh:name            "unieke InChI"@en ;
+    sh:description     "Vanuit 1 InChI kan slechts naar 1 stof worden verwezen."@en ;
     rdfs:isDefinedBy   omg_ont:chemische-stof-ap-constraints, omg_voc:chemische-stof-ap-constraints ;
     sh:nodeKind        sh:IRI ;
     sh:targetObjectsOf dbo:inchi ;
@@ -505,9 +505,9 @@ omg_ps:chemische_stof_unique_inchi
 
 omg_ps:chemische_stof_schema_hasTopConcept
     a                sh:PropertyShape ;
-    rdfs:label       "heeft topconcept"@nl ;
-    sh:name          "heeft topconcept"@nl ;
-    sh:description   "Verbindt een conceptschema met een concept dat bovenaan in een 'broader/narrower' hierarchie staat en voorziet aldus een ingang tot die hierarchie."@nl ;
+    rdfs:label       "heeft topconcept"@en ;
+    sh:name          "heeft topconcept"@en ;
+    sh:description   "Verbindt een conceptschema met een concept dat bovenaan in een 'broader/narrower' hierarchie staat en voorziet aldus een ingang tot die hierarchie."@en ;
     rdfs:isDefinedBy omg_ont:chemische-stof-ap-constraints, omg_voc:chemische-stof-ap-constraints ;
     sh:class         skos:Concept ; #dbo:ChemicalCompound, dbo:ChemicalSubstance,
     sh:minCount      1 ;
@@ -516,9 +516,9 @@ omg_ps:chemische_stof_schema_hasTopConcept
 
 omg_ps:chemische_stof_comment
     a                sh:PropertyShape ;
-    rdfs:label       "commentaar"@nl ;
-    sh:name          "commentaar"@nl ;
-    sh:description   "Binnen dit schema wordt skos:comment gebruikt om de relatie, in tekstformaat, naar wetgeving en analysemethodes te leggen, die betrekking hebben op de chemische stof. Dit tekstformaat wordt op termijn vervangen door linken naar 'resources'."@nl ;
+    rdfs:label       "commentaar"@en ;
+    sh:name          "commentaar"@en ;
+    sh:description   "Binnen dit schema wordt skos:comment gebruikt om de relatie, in tekstformaat, naar wetgeving en analysemethodes te leggen, die betrekking hebben op de chemische stof. Dit tekstformaat wordt op termijn vervangen door linken naar 'resources'."@en ;
     rdfs:isDefinedBy omg_ont:chemische-stof-ap-constraints, omg_voc:chemische-stof-ap-constraints ;
     sh:datatype      rdf:langString ;
     sh:languageIn    ( "nl" ) ;
@@ -527,18 +527,18 @@ omg_ps:chemische_stof_comment
 
 #omg_ps:chemische_stof_isReferencedBy
 #    a                sh:PropertyShape ;
-#    rdfs:label       "wordt vermeld in"@nl ;
-#    sh:name          "wordt vermeld in"@nl ;
-#    sh:description   "Binnen dit schema wordt dct:isReferencedBy gebruikt om de relatie naar wetgeving en analysemethodes te leggen, die betrekking hebben op de chemische stof."@nl ;
+#    rdfs:label       "wordt vermeld in"@en ;
+#    sh:name          "wordt vermeld in"@en ;
+#    sh:description   "Binnen dit schema wordt dct:isReferencedBy gebruikt om de relatie naar wetgeving en analysemethodes te leggen, die betrekking hebben op de chemische stof."@en ;
 #    rdfs:isDefinedBy omg_ont:chemische-stof-ap-constraints, omg_voc:chemische-stof-ap-constraints ;
 #    sh:nodeKind      sh:IRI ;
 #    sh:path          dct:isReferencedBy .
 
 omg_ps:chemische_stof_seeAlso
     a                sh:PropertyShape ;
-    rdfs:label       "zie ook"@nl ;
-    sh:name          "zie ook"@nl ;
-    sh:description   "Een verwijzing naar een gelijkaardige 'resource' of een document over het onderwerp."@nl ;
+    rdfs:label       "zie ook"@en ;
+    sh:name          "zie ook"@en ;
+    sh:description   "Een verwijzing naar een gelijkaardige 'resource' of een document over het onderwerp."@en ;
     rdfs:isDefinedBy omg_ont:chemische-stof-ap-constraints, omg_voc:chemische-stof-ap-constraints ;
     sh:maxCount      1 ;
     sh:nodeKind      sh:IRI ;
@@ -546,9 +546,9 @@ omg_ps:chemische_stof_seeAlso
 
 omg_ps:categorie_seeAlso
     a                sh:PropertyShape ;
-    rdfs:label       "zie ook"@nl ;
-    sh:name          "zie ook"@nl ;
-    sh:description   "Een verwijzing naar een gelijkaardige 'resource' of een document over het onderwerp."@nl ;
+    rdfs:label       "zie ook"@en ;
+    sh:name          "zie ook"@en ;
+    sh:description   "Een verwijzing naar een gelijkaardige 'resource' of een document over het onderwerp."@en ;
     rdfs:isDefinedBy omg_ont:chemische-stof-ap-constraints, omg_voc:chemische-stof-ap-constraints ;
     sh:maxCount      1 ;
     sh:nodeKind      sh:IRI ;
@@ -556,9 +556,9 @@ omg_ps:categorie_seeAlso
 
 omg_ps:chemische_stof_definition
     a                sh:PropertyShape ;
-    rdfs:label       "definitie"@nl ;
-    sh:name          "definitie"@nl ;
-    sh:description   "Een uitspraak over de betekenis van het concept, de collectie of het schema."@nl ;
+    rdfs:label       "definitie"@en ;
+    sh:name          "definitie"@en ;
+    sh:description   "Een uitspraak over de betekenis van het concept, de collectie of het schema."@en ;
     rdfs:isDefinedBy omg_ont:chemische-stof-ap-constraints, omg_voc:chemische-stof-ap-constraints ;
     sh:datatype      rdf:langString ;
     sh:languageIn    ( "nl" "en" ) ;
@@ -575,9 +575,9 @@ omg_ps:chemische_stof_definition
 
 omg_ps:chemische_stof_prefLabel
     a                sh:PropertyShape ;
-    rdfs:label       "voorkeurslabel"@nl ;
-    sh:name          "voorkeurslabel"@nl ;
-    sh:description   "Het voorkeurslabel in de Nederlandse taal. Slechts 1 voorkeurslabel is toegelaten."@nl ;
+    rdfs:label       "voorkeurslabel"@en ;
+    sh:name          "voorkeurslabel"@en ;
+    sh:description   "Het voorkeurslabel in de Nederlandse taal. Slechts 1 voorkeurslabel is toegelaten."@en ;
     rdfs:isDefinedBy omg_ont:chemische-stof-ap-constraints, omg_voc:chemische-stof-ap-constraints ;
     sh:datatype      rdf:langString ;
     sh:languageIn    ( "nl" ) ;
@@ -588,9 +588,9 @@ omg_ps:chemische_stof_prefLabel
 
 omg_ps:categorie_prefLabel
     a                sh:PropertyShape ;
-    rdfs:label       "voorkeurslabel"@nl ;
-    sh:name          "voorkeurslabel"@nl ;
-    sh:description   "Het voorkeurslabel in de engelse taal. Slechts 1 voorkeurslabel is toegelaten."@nl ;
+    rdfs:label       "voorkeurslabel"@en ;
+    sh:name          "voorkeurslabel"@en ;
+    sh:description   "Het voorkeurslabel in de engelse taal. Slechts 1 voorkeurslabel is toegelaten."@en ;
     rdfs:isDefinedBy omg_ont:chemische-stof-ap-constraints, omg_voc:chemische-stof-ap-constraints ;
     sh:datatype      rdf:langString ;
     sh:languageIn    ( "en" ) ;
@@ -601,9 +601,9 @@ omg_ps:categorie_prefLabel
 
 omg_ps:conceptscheme_prefLabel
     a                sh:PropertyShape ;
-    rdfs:label       "voorkeurslabel"@nl ;
-    sh:name          "voorkeurslabel"@nl ;
-    sh:description   "Het voorkeurslabel."@nl ;
+    rdfs:label       "voorkeurslabel"@en ;
+    sh:name          "voorkeurslabel"@en ;
+    sh:description   "Het voorkeurslabel."@en ;
     rdfs:isDefinedBy omg_ont:chemische-stof-ap-constraints, omg_voc:chemische-stof-ap-constraints ;
     sh:datatype      rdf:langString ;
     sh:languageIn    ( "en" "nl" ) ;
@@ -615,9 +615,9 @@ omg_ps:conceptscheme_prefLabel
 
 omg_ps:conceptscheme_altLabel
     a                sh:PropertyShape ;
-    rdfs:label       "voorkeurslabel"@nl ;
-    sh:name          "voorkeurslabel"@nl ;
-    sh:description   "Het voorkeurslabel."@nl ;
+    rdfs:label       "voorkeurslabel"@en ;
+    sh:name          "voorkeurslabel"@en ;
+    sh:description   "Het voorkeurslabel."@en ;
     rdfs:isDefinedBy omg_ont:chemische-stof-ap-constraints, omg_voc:chemische-stof-ap-constraints ;
     sh:datatype      rdf:langString ;
     sh:languageIn    ( "en" "nl" ) ;
@@ -628,9 +628,9 @@ omg_ps:conceptscheme_altLabel
 
 omg_ps:chemische_stof_iupacName
     a                sh:PropertyShape ;
-    rdfs:label       "IUPAC-naam"@nl ;
-    sh:name          "IUPAC-naam"@nl ;
-    sh:description   "IUPAC-nomenclatuur is een systematische manier om elementen en chemische verbindingen te benoemen zoals die door de International Union of Pure and Applied Chemistry (IUPAC) wordt voorgestaan. Vooral in de organische chemie wordt het systeem toegepast, maar met het complexer worden van de stoffen in de anorganische chemie wordt ook daar het gebruik van systematische namen belangrijker. In de IUPAC-nomenclatuur worden stamnamen, plaatsnummers, voorvoegsels, achtervoegsels en tussenvoegsels gebruikt om het type en de positie van zijketens en/of functionele groepen in het molecuul te beschrijven."@nl ;
+    rdfs:label       "IUPAC-naam"@en ;
+    sh:name          "IUPAC-naam"@en ;
+    sh:description   "IUPAC-nomenclatuur is een systematische manier om elementen en chemische verbindingen te benoemen zoals die door de International Union of Pure and Applied Chemistry (IUPAC) wordt voorgestaan. Vooral in de organische chemie wordt het systeem toegepast, maar met het complexer worden van de stoffen in de anorganische chemie wordt ook daar het gebruik van systematische namen belangrijker. In de IUPAC-nomenclatuur worden stamnamen, plaatsnummers, voorvoegsels, achtervoegsels en tussenvoegsels gebruikt om het type en de positie van zijketens en/of functionele groepen in het molecuul te beschrijven."@en ;
     rdfs:isDefinedBy omg_ont:chemische-stof-ap-constraints, omg_voc:chemische-stof-ap-constraints ;
     sh:datatype      rdf:langString ;
     sh:languageIn    ( "en" ) ;
@@ -642,9 +642,9 @@ omg_ps:chemische_stof_iupacName
 
 omg_ps:chemische_stof_unique_iupacName
     a                  sh:PropertyShape ;
-    rdfs:label         "unieke IUPAC-naam"@nl ;
-    sh:name            "unieke IUPAC-naam"@nl ;
-    sh:description     "Vanuit 1 IUPAC-naam kan slechts naar 1 stof worden verwezen."@nl ;
+    rdfs:label         "unieke IUPAC-naam"@en ;
+    sh:name            "unieke IUPAC-naam"@en ;
+    sh:description     "Vanuit 1 IUPAC-naam kan slechts naar 1 stof worden verwezen."@en ;
     rdfs:isDefinedBy   omg_ont:chemische-stof-ap-constraints, omg_voc:chemische-stof-ap-constraints ;
     sh:nodeKind        sh:IRI ;
     sh:targetObjectsOf dbo:iupacName ;
@@ -654,9 +654,9 @@ omg_ps:chemische_stof_unique_iupacName
 
 omg_ps:chemische_stof_formula
     a                sh:PropertyShape ;
-    rdfs:label       "formule"@nl ;
-    sh:name          "formule"@nl ;
-    sh:description   "De molecuulformule is de korte aanduiding voor een molecuul die aangeeft uit welke elementen en in welke aantallen atomen het is opgebouwd. "@nl ;
+    rdfs:label       "formule"@en ;
+    sh:name          "formule"@en ;
+    sh:description   "De molecuulformule is de korte aanduiding voor een molecuul die aangeeft uit welke elementen en in welke aantallen atomen het is opgebouwd. "@en ;
     rdfs:isDefinedBy omg_ont:chemische-stof-ap-constraints, omg_voc:chemische-stof-ap-constraints ;
     sh:datatype      xsd:string ;
     sh:maxCount      1 ;
@@ -666,9 +666,9 @@ omg_ps:chemische_stof_formula
 
 omg_ps:chemische_stof_inScheme
     a                sh:PropertyShape ;
-    rdfs:label       "is in schema"@nl ;
-    sh:name          "is in schema"@nl ;
-    sh:description   "Drukt de relatie uit tussen een 'resource' en het schema dat het bevat."@nl ;
+    rdfs:label       "is in schema"@en ;
+    sh:name          "is in schema"@en ;
+    sh:description   "Drukt de relatie uit tussen een 'resource' en het schema dat het bevat."@en ;
     rdfs:isDefinedBy omg_ont:chemische-stof-ap-constraints, omg_voc:chemische-stof-ap-constraints ;
     sh:class         skos:ConceptScheme ;
     sh:maxCount      1 ;
