@@ -33,7 +33,13 @@
 						font-size: 0.875em;
 					}
 					
-					h2 {margin: 25px 0px 10px 0px;}
+					h2 {
+						margin: 25px 0px 10px 0px;
+					}
+					
+					h3 {
+						font-size: 1.4em;
+					}
 					
 					@media only print {
 					}
@@ -63,14 +69,9 @@
 						list-style-type: none;
 					}
 					
-					.sp_list_description_properties ul {
-						display: block;
-						list-style-type: disc;
-						margin-block-start: 1em;
-						margin-block-end: 1em;
-						margin-inline-start: 0px;
-						margin-inline-end: 0px;
-						padding-inline-start: 40px;
+					.sp_list_description_properties {
+						/* don't set it lower otherwise it gets hidden in PDF */
+						padding-left: 20px;
 					}
 					
 					dl, ol, ul {
@@ -82,55 +83,59 @@
 						display: list-item;
 						text-align: -webkit-match-parent;
 					}
-							
-					.sp_ul {
-						list-style-type: disc;
-					}
 					
 					.sp_section_title_header {
-						margin-top: 0;
-						margin-bottom: 2.5rem !important;
-						margin-block-start: 0.67em;
-					    margin-block-end: 0.67em;
-					    margin-inline-start: 0px;
-					    margin-inline-end: 0px;    
-					}
-					
-					.sp_section_title_header {
+						font-family: Georgia, Garamond, serif;	
+						margin-top: 25px;
+						margin-bottom: 2.5rem;
 					    font-size: 1.5625rem;
+						display: block;
+						font-weight: 500;
+						color: #1e1e1f;
+						line-height: 1.2em;   
 					}
-					
 					
 					.sp_section_subtitle {
+						font-family: Georgia, Garamond, serif;	
 						margin-top: 0;
-					}
-					
-					.sp_section_subtitle ,.sp_section_title_table {
-						margin-block-start: 0.83em;
-					    margin-block-end: 0.83em;
-					    margin-inline-start: 0px;
-					    margin-inline-end: 0px;    
-					}
-							
-					.sp_section_title_header, .sp_section_subtitle, .sp_section_title_table {
 						margin-bottom: 0.5rem;
 						display: block;
 						font-weight: 500;
 						color: #1e1e1f;
-						line-height: 1.2em;
+						line-height: 1.2em;  
 					}
 					
-					.sp_section_title_header, 
-						.sp_section_title_toc, 
-						.sp_section_title_table, 
-						.sp_section_subtitle {
+					.sp_section_title_table {
 						font-family: Georgia, Garamond, serif;	
-					}	
+						/* 0 because URI is right under */
+						margin-bottom: 0rem;
+						display: block;
+						font-weight: 500;
+						color: #1e1e1f;
+						line-height: 1.2em; 
+					}
+							
+
+					.sp_section_title_toc {
+						font-family: Georgia, Garamond, serif;	
+					}
+
+					/* URI below the title of the section */
+					.sp_section_uri	 {
+						margin-top: 0px;
+					}
+
+					/* div wrapping section title and URI below - same as a paragraph margin */
+					.sp_section_title_table_wrapper {
+						margin-bottom: 16px;
+						border-bottom: 1px solid;	
+					}
+					
 					 
 					table {
 						display: table;
 						border-spacing: 0px;
-						margin-botton: 1rem;
+						margin-bottom: 1rem;
 					}
 					
 					tr:nth-child(even) {
@@ -193,7 +198,7 @@
 							.container {
 							    width: calc(100% - 40px);
 							    max-width: 1000px;
-							    margin-left: auto;
+							    margin-left: 300px;
 							    margin-right: auto;
 							}
 							.container {width: calc(100% - 500px);}
@@ -202,44 +207,45 @@
 								top: 0;
 								left: 0;
 								font-size: small;
-								padding: 10px 20px;
+								padding: 10px 10px;
 								width: auto;
 								border-right: solid 2px #eeeeee;
 								bottom: 0;
 								overflow-y: scroll;
 								background-color:white;
+								max-width:255px;
 							}
-							.sp_list_toc {padding-left: 0px;}							
+							.sp_list_toc {padding-left: 0px;}
+							.sp_list_toc_l2 {padding-left: 10px;}					
 						</style>
       <meta charset="UTF-8">
       <meta name="lang" content="en">
       <meta property="og:locale" content="en">
-      <title>Chemische stof AP Constraints</title>
-      <meta name="apple-mobile-web-app-title" content="Chemische stof AP Constraints">
-      <meta name="twitter:title" content="Chemische stof AP Constraints">
-      <meta property="og:title" content="Chemische stof AP Constraints">
    </head>
    <body>
       <div class="sp_container_principal container pt-4">
-         <h1 class="mb-4 sp_section_title_header">Chemische stof AP Constraints</h1>
+         <h1 class="mb-4 sp_section_title_header"></h1>
          <div><br></div>
          <div class="sp_section_title_toc toc">
             <h2 id="Index">Table of Contents</h2>
             <ul role="list" class="sp_list_toc ul_type_none t-x-mode">
                <li><a href="#prefixes">Namespaces</a></li>
                <li><a href="#diagrams">Diagrams</a></li>
-               <li><a href="#ons:categorie">categorie</a></li>
-               <li><a href="#ons:chemische_stof">chemische stof</a></li>
-               <li><a href="#ons:chemische_stof_classificationlevel">classificatieniveau</a></li>
-               <li><a href="#ons:chemische_stof_schema">conceptschema van chemische stoffen</a></li>
-               <li><a href="#ons:schema_list">list</a></li>
-               <li><a href="#ons:chemische_stof_collection">verzameling</a></li>
+               <li><a href="#documentation">Model documentation</a><ul role="list" class="ul_type_none sp_list_toc_l2">
+                     <li><a href="#ons:chemische_stof_schema"></a></li>
+                     <li><a href="#ons:schema_list"></a></li>
+                     <li><a href="#ons:chemische_stof_classificationlevel"></a></li>
+                     <li><a href="#ons:categorie"></a></li>
+                     <li><a href="#ons:chemische_stof"></a></li>
+                     <li><a href="#ons:chemische_stof_collection"></a></li>
+                  </ul>
+               </li>
             </ul>
          </div>
          <div class="row mt-3">
             <div class="col">
                <section id="prefixes">
-                  <h2 class="sp_section_title_table">Namespaces</h2>
+                  <h2 class="sp_section_subtitle">Namespaces</h2>
                   <table class="sp_table_prefixes table table-striped table-responsive">
                      <thead>
                         <tr>
@@ -257,10 +263,6 @@
                            <td><a href="http://dbpedia.org/property/" target="_blank">http://dbpedia.org/property/</a></td>
                         </tr>
                         <tr>
-                           <td>dct</td>
-                           <td><a href="http://purl.org/dc/terms/" target="_blank">http://purl.org/dc/terms/</a></td>
-                        </tr>
-                        <tr>
                            <td>rdf</td>
                            <td><a href="http://www.w3.org/1999/02/22-rdf-syntax-ns#" target="_blank">http://www.w3.org/1999/02/22-rdf-syntax-ns#</a></td>
                         </tr>
@@ -271,10 +273,6 @@
                         <tr>
                            <td>skos</td>
                            <td><a href="http://www.w3.org/2004/02/skos/core#" target="_blank">http://www.w3.org/2004/02/skos/core#</a></td>
-                        </tr>
-                        <tr>
-                           <td>vcs</td>
-                           <td><a href="https://data.vlaanderen.be/ns/chemische_stof#" target="_blank">https://data.vlaanderen.be/ns/chemische_stof#</a></td>
                         </tr>
                         <tr>
                            <td>xkos</td>
@@ -292,27 +290,31 @@
             <div class="sp_section_col">
                <section>
                   <h2 id="diagrams" class="sp_section_subtitle">Diagrams</h2>
-                  <div><?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentStyleType="text/css" height="887px" preserveAspectRatio="none" style="width:1184px;height:887px;background:#FFFFFF;" version="1.1" viewBox="0 0 1184 887" width="1184px" zoomAndPan="magnify"><defs xmlns=""/><g xmlns=""><!--MD5=[bf38eb52160f91c864ae877a11d25f87]
-class ons:chemische_stof_schema--><a href="#ons:chemische_stof_schema" target="_top" title="#ons:chemische_stof_schema" xlink:actuate="onRequest" xlink:href="#ons:chemische_stof_schema" xlink:show="new" xlink:title="#ons:chemische_stof_schema" xlink:type="simple"><g id="elem_ons:chemische_stof_schema"><rect codeLine="6" fill="#F1F1F1" height="66.8906" id="uml_ons:chemische_stof_schema" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="266" x="472" y="394"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="202" x="504" y="411.9951">ons:chemische_stof_schema</text><line style="stroke:#181818;stroke-width:0.5;" x1="473" x2="737" y1="420.2969" y2="420.2969"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="254" x="478" y="437.292">skos:definition  : rdf:langString  [0..2]</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="254" x="478" y="453.5889">skos:prefLabel  : rdf:langString  [1..2]</text></g></a><!--MD5=[e26081150a54feee97befd454a48c707]
-class skos:Concept--><g id="elem_skos:Concept"><rect fill="#F1F1F1" height="26.2969" id="uml_skos:Concept" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="103" x="614.5" y="855"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="97" x="617.5" y="872.9951">skos:Concept</text></g><!--MD5=[4900a8bacf625522903b1867a8d0fb98]
-class ons:schema_list--><a href="#ons:schema_list" target="_top" title="#ons:schema_list" xlink:actuate="onRequest" xlink:href="#ons:schema_list" xlink:show="new" xlink:title="#ons:schema_list" xlink:type="simple"><g id="elem_ons:schema_list"><rect codeLine="11" fill="#F1F1F1" height="66.8906" id="uml_ons:schema_list" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="266" x="472" y="553"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="112" x="549" y="570.9951">ons:schema_list</text><line style="stroke:#181818;stroke-width:0.5;" x1="473" x2="737" y1="579.2969" y2="579.2969"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="92" x="478" y="596.292">rdf:rest  [1..*]</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="254" x="478" y="612.5889">skos:prefLabel  : rdf:langString  [1..1]</text></g></a><!--MD5=[e6e06b3e0e865a56bcf0c6e3080ab0da]
-class ons:chemische_stof_classificationlevel--><a href="#ons:chemische_stof_classificationlevel" target="_top" title="#ons:chemische_stof_classificationlevel" xlink:actuate="onRequest" xlink:href="#ons:chemische_stof_classificationlevel" xlink:show="new" xlink:title="#ons:chemische_stof_classificationlevel" xlink:type="simple"><g id="elem_ons:chemische_stof_classificationlevel"><rect codeLine="15" fill="#F1F1F1" height="50.5938" id="uml_ons:chemische_stof_classificationlevel" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="271" x="402.5" y="712"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="265" x="405.5" y="729.9951">ons:chemische_stof_classificationlevel</text><line style="stroke:#181818;stroke-width:0.5;" x1="403.5" x2="672.5" y1="738.2969" y2="738.2969"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="254" x="408.5" y="755.292">skos:prefLabel  : rdf:langString  [1..1]</text></g></a><!--MD5=[03928817f4bfd886b1ab8125d35e4ea7]
-class ons:categorie--><a href="#ons:categorie" target="_top" title="#ons:categorie" xlink:actuate="onRequest" xlink:href="#ons:categorie" xlink:show="new" xlink:title="#ons:categorie" xlink:type="simple"><g id="elem_ons:categorie"><rect codeLine="19" fill="#F1F1F1" height="132.0781" id="uml_ons:categorie" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="266" x="132" y="88.5"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="96" x="217" y="106.4951">ons:categorie</text><line style="stroke:#181818;stroke-width:0.5;" x1="133" x2="397" y1="114.7969" y2="114.7969"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="206" x="138" y="131.792">rdfs:comment  : rdf:langString</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="130" x="138" y="148.0889">rdfs:seeAlso  [0..1]</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="199" x="138" y="164.3857">skos:altLabel  : rdf:langString</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="254" x="138" y="180.6826">skos:definition  : rdf:langString  [0..2]</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="180" x="138" y="196.9795">skos:notation  : xsd:string</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="254" x="138" y="213.2764">skos:prefLabel  : rdf:langString  [1..1]</text></g></a><!--MD5=[b468fe925995540a8451ab2763cd7ae7]
-class ons:chemische_stof--><a href="#ons:chemische_stof" target="_top" title="#ons:chemische_stof" xlink:actuate="onRequest" xlink:href="#ons:chemische_stof" xlink:show="new" xlink:title="#ons:chemische_stof" xlink:type="simple"><g id="elem_ons:chemische_stof"><rect codeLine="30" fill="#F1F1F1" height="295.0469" id="uml_ons:chemische_stof" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="331" x="484.5" y="7"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="140" x="580" y="24.9951">ons:chemische_stof</text><line style="stroke:#181818;stroke-width:0.5;" x1="485.5" x2="814.5" y1="33.2969" y2="33.2969"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="238" x="490.5" y="50.292">dbo:casNumber  : xsd:string  [1..*]</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="212" x="490.5" y="66.5889">dbo:formula  : xsd:string  [1..1]</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="193" x="490.5" y="82.8857">dbo:inchi  : xsd:string  [1..1]</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="262" x="490.5" y="99.1826">dbo:iupacName  : rdf:langString  [1..1]</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="205" x="490.5" y="115.4795">dbo:pubchem  : xsd:int  [0..1]</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="205" x="490.5" y="131.7764">dbo:smiles  : xsd:string  [1..1]</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="217" x="490.5" y="148.0732">dbp:inchikey  : xsd:string  [1..1]</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="136" x="490.5" y="164.3701">dct:isReferencedBy</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="206" x="490.5" y="180.667">rdfs:comment  : rdf:langString</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="130" x="490.5" y="196.9639">rdfs:seeAlso  [0..1]</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="199" x="490.5" y="213.2607">skos:altLabel  : rdf:langString</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="254" x="490.5" y="229.5576">skos:definition  : rdf:langString  [0..2]</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="117" x="490.5" y="245.8545">skos:exactMatch</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="180" x="490.5" y="262.1514">skos:notation  : xsd:string</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="254" x="490.5" y="278.4482">skos:prefLabel  : rdf:langString  [1..1]</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="319" x="490.5" y="294.7451">vv:chemische_stof#vmmParameterId  : xsd:int</text></g></a><!--MD5=[aa68743e71ee4f049262ecb27832d2bd]
-class ons:chemische_stof_collection--><a href="#ons:chemische_stof_collection" target="_top" title="#ons:chemische_stof_collection" xlink:actuate="onRequest" xlink:href="#ons:chemische_stof_collection" xlink:show="new" xlink:title="#ons:chemische_stof_collection" xlink:type="simple"><g id="elem_ons:chemische_stof_collection"><rect codeLine="49" fill="#F1F1F1" height="50.5938" id="uml_ons:chemische_stof_collection" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="266" x="911" y="129"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="213" x="937.5" y="146.9951">ons:chemische_stof_collection</text><line style="stroke:#181818;stroke-width:0.5;" x1="912" x2="1176" y1="155.2969" y2="155.2969"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="254" x="917" y="172.292">skos:prefLabel  : rdf:langString  [1..1]</text></g></a><!--MD5=[331197ca27290769b120d81d6d0a3504]
-link ons:chemische_stof_schema to skos:Concept--><g id="link_ons:chemische_stof_schema_skos:Concept"><path codeLine="8" d="M668.9697,461.1935 C701.8744,482.5213 738.4699,513.54 755,553 C766.5054,580.4653 766.6206,592.5832 755,620 C747.5179,637.6528 732.4253,632.7774 724,650 C689.6209,720.2764 737.0726,753.6415 705,825 C700.6075,834.7729 693.1373,843.8445 685.9032,851.1119 " fill="none" id="ons:chemische_stof_schema-to-skos:Concept" style="stroke:#800000;stroke-width:1.0;"/><polygon fill="#800000" points="681.9296,854.9567,691.179,851.573,685.5229,851.4799,685.616,845.8238,681.9296,854.9567" style="stroke:#800000;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="132" x="725" y="663.0669">skos:hasTopConcept</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="33" x="774.5" y="678.1997">[1..*]</text></g><!--MD5=[e08d20975d8f0d56d9c5d7abd5a68c3c]
-link ons:chemische_stof_schema to ons:schema_list--><g id="link_ons:chemische_stof_schema_ons:schema_list"><path codeLine="10" d="M605,461.2198 C605,486.5162 605,521.1935 605,547.6519 " fill="none" id="ons:chemische_stof_schema-to-ons:schema_list" style="stroke:#800000;stroke-width:1.0;"/><polygon fill="#800000" points="605,552.8288,609,543.8288,605,547.8288,601,543.8288,605,552.8288" style="stroke:#800000;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="69" x="606" y="504.0669">xkos:levels</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="33" x="628" y="519.1997">[1..*]</text></g><!--MD5=[c5cca935fe7923a0152bf66647b06857]
-link ons:schema_list to ons:chemische_stof_classificationlevel--><g id="link_ons:schema_list_ons:chemische_stof_classificationlevel"><path codeLine="12" d="M590.1305,620.0118 C578.5893,646.0227 562.7222,681.7828 551.5336,706.9988 " fill="none" id="ons:schema_list-to-ons:chemische_stof_classificationlevel" style="stroke:#800000;stroke-width:1.0;"/><polygon fill="#800000" points="549.501,711.5797,556.8076,704.9756,551.529,707.0094,549.4952,701.7308,549.501,711.5797" style="stroke:#800000;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="86" x="577" y="670.5669">rdf:first  [1..*]</text></g><!--MD5=[98137886bb2f6554fb6e1f1ac7bf1198]
-link ons:chemische_stof_classificationlevel to ons:chemische_stof_schema--><g id="link_ons:chemische_stof_classificationlevel_ons:chemische_stof_schema"><path codeLine="16" d="M466.6769,711.861 C426.0767,693.1562 378.7128,663.4054 355,620 C340.7236,593.8676 339.3651,578.343 355,553 C381.193,510.5429 426.6178,481.9518 471.6232,462.9349 " fill="none" id="ons:chemische_stof_classificationlevel-to-ons:chemische_stof_schema" style="stroke:#800000;stroke-width:1.0;"/><polygon fill="#800000" points="476.2579,461.0093,466.412,460.7685,471.6406,462.9277,469.4814,468.1563,476.2579,461.0093" style="stroke:#800000;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="97" x="356" y="583.5669">skos:inScheme</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="34" x="387.5" y="598.6997">[1..1]</text></g><!--MD5=[8ab92863348fa94eea015bef2556719d]
-link ons:chemische_stof_classificationlevel to skos:Concept--><g id="link_ons:chemische_stof_classificationlevel_skos:Concept"><path codeLine="17" d="M553.6614,763.0252 C565.7429,781.497 583.6225,806.3826 603,825 C613.6219,835.2053 626.9075,844.6603 638.5366,852.0904 " fill="none" id="ons:chemische_stof_classificationlevel-to-skos:Concept" style="stroke:#800000;stroke-width:1.0;"/><polygon fill="#800000" points="643.0699,854.9392,637.5779,846.7637,638.8364,852.2788,633.3213,853.5373,643.0699,854.9392" style="stroke:#800000;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="88" x="604" y="806.0669">skos:member</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="33" x="635.5" y="821.1997">[1..*]</text></g><!--MD5=[0c45049e1dd9dfbdebed4c088bdadf3b]
-link ons:categorie to skos:Concept--><g id="link_ons:categorie_skos:Concept"><path codeLine="23" d="M146.1125,220.7026 C78.0257,268.2065 6,339.3021 6,427.5 C6,427.5 6,427.5 6,737.5 C6,809.7482 74.5387,801.9163 143,825 C228.0651,853.6821 492.0934,863.6867 609.1413,866.7729 " fill="none" id="ons:categorie-to-skos:Concept" style="stroke:#800000;stroke-width:1.0;"/><polygon fill="#800000" points="614.263,866.906,605.3699,862.6736,609.2647,866.7761,605.1621,870.6709,614.263,866.906" style="stroke:#800000;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="83" x="7" y="583.5669">skos:broader</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="34" x="35.5" y="598.6997">[0..1]</text></g><!--MD5=[0c45049e1dd9dfbdebed4c088bdadf3b]
-link ons:categorie to skos:Concept--><g id="link_ons:categorie_skos:Concept"><path codeLine="26" d="M227.609,220.6637 C200.6538,274.5931 169,353.646 169,427.5 C169,427.5 169,427.5 169,737.5 C169,827.5797 478.2909,856.7493 608.8921,865.051 " fill="none" id="ons:categorie-to-skos:Concept-1" style="stroke:#800000;stroke-width:1.0;"/><polygon fill="#800000" points="614.2188,865.3843,605.4863,860.8298,609.2286,865.0719,604.9864,868.8141,614.2188,865.3843" style="stroke:#800000;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="89" x="170" y="583.5669">skos:narrower</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="33" x="202" y="598.6997">[1..*]</text></g><!--MD5=[7df0b468195134536ba9dc245f315567]
-link ons:categorie to ons:chemische_stof_schema--><g id="link_ons:categorie_ons:chemische_stof_schema"><path codeLine="25" d="M262.7094,220.9499 C264.8294,267.2077 275.5913,327.0042 313,364 C335.4691,386.2211 402.6807,401.6735 466.9618,411.767 " fill="none" id="ons:categorie-to-ons:chemische_stof_schema" style="stroke:#800000;stroke-width:1.0;"/><polygon fill="#800000" points="471.979,412.545,463.6982,407.2132,467.038,411.7789,462.4724,415.1187,471.979,412.545" style="stroke:#800000;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="97" x="314" y="345.0669">skos:inScheme</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="34" x="345.5" y="360.1997">[1..1]</text></g><!--MD5=[7df0b468195134536ba9dc245f315567]
-link ons:categorie to ons:chemische_stof_schema--><g id="link_ons:categorie_ons:chemische_stof_schema"><path codeLine="29" d="M325.4006,220.8591 C367.4707,264.7601 426.3534,321.7915 485,364 C498.6098,373.7951 513.9224,383.05 528.9404,391.3084 " fill="none" id="ons:categorie-to-ons:chemische_stof_schema-1" style="stroke:#800000;stroke-width:1.0;"/><polygon fill="#800000" points="533.5895,393.8389,527.597,386.0229,529.1979,391.4485,523.7723,393.0494,533.5895,393.8389" style="stroke:#800000;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="121" x="486" y="345.0669">skos:topConceptOf</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="34" x="529.5" y="360.1997">[0..1]</text></g><!--MD5=[4aec7a47eaf4680173106a789bce2823]
-link ons:chemische_stof to skos:Concept--><g id="link_ons:chemische_stof_skos:Concept"><path codeLine="42" d="M815.6885,277.0501 C854.1064,319.2186 884,370.382 884,427.5 C884,427.5 884,427.5 884,737.5 C884,812.733 787.236,845.6453 722.6435,859.2342 " fill="none" id="ons:chemische_stof-to-skos:Concept" style="stroke:#800000;stroke-width:1.0;"/><polygon fill="#800000" points="717.663,860.2574,727.2839,862.3642,722.5607,859.2511,725.6738,854.5279,717.663,860.2574" style="stroke:#800000;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="83" x="885" y="583.5669">skos:broader</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="34" x="913.5" y="598.6997">[1..1]</text></g><!--MD5=[6bf6e3bfd53c505f55a71327f27a6c6d]
-link ons:chemische_stof to ons:chemische_stof_schema--><g id="link_ons:chemische_stof_ons:chemische_stof_schema"><path codeLine="45" d="M625.6561,302.1861 C620.3809,334.1894 615.2417,365.3671 611.409,388.6188 " fill="none" id="ons:chemische_stof-to-ons:chemische_stof_schema" style="stroke:#800000;stroke-width:1.0;"/><polygon fill="#800000" points="610.5623,393.7553,615.9729,385.5258,611.3756,388.8219,608.0795,384.2245,610.5623,393.7553" style="stroke:#800000;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="97" x="621" y="345.0669">skos:inScheme</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="34" x="652.5" y="360.1997">[1..1]</text></g><!--MD5=[1b816c3e29963f1bfefe2cd0adf2727f]
-link ons:chemische_stof_collection to ons:chemische_stof_schema--><g id="link_ons:chemische_stof_collection_ons:chemische_stof_schema"><path codeLine="50" d="M1009.1268,180.1796 C967.764,210.3313 896.4181,261.3807 833,302 C787.0409,331.4368 774.7765,337.615 727,364 C710.4734,373.127 692.5178,382.6734 675.5923,391.5097 " fill="none" id="ons:chemische_stof_collection-to-ons:chemische_stof_schema" style="stroke:#800000;stroke-width:1.0;"/><polygon fill="#800000" points="670.8478,393.9821,680.6776,393.37,675.2818,391.6714,676.9805,386.2756,670.8478,393.9821" style="stroke:#800000;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="97" x="786" y="345.0669">skos:inScheme</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="34" x="817.5" y="360.1997">[1..1]</text></g><!--MD5=[856c858adf3b879ba09ff4824a98fcd9]
-link ons:chemische_stof_collection to skos:Concept--><g id="link_ons:chemische_stof_collection_skos:Concept"><path codeLine="51" d="M1047.125,180.048 C1052.75,228.3156 1064,336.2561 1064,427.5 C1064,427.5 1064,427.5 1064,737.5 C1064,808.4543 832.7133,847.0662 722.766,861.4127 " fill="none" id="ons:chemische_stof_collection-to-skos:Concept" style="stroke:#800000;stroke-width:1.0;"/><polygon fill="#800000" points="717.6235,862.0775,727.0622,864.8902,722.5822,861.4362,726.0361,856.9562,717.6235,862.0775" style="stroke:#800000;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="88" x="1065" y="583.5669">skos:member</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="33" x="1096.5" y="598.6997">[1..*]</text></g><!--MD5=[47bda51f0d00652c693b2ec8aa353968]
+                  <div><?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentStyleType="text/css" height="1000px" preserveAspectRatio="none" style="width:1968px;height:1000px;background:#FFFFFF;" version="1.1" viewBox="0 0 1968 1000" width="1968px" zoomAndPan="magnify"><defs xmlns=""/><g xmlns=""><!--MD5=[bf38eb52160f91c864ae877a11d25f87]
+class ons:chemische_stof_schema--><a href="#ons:chemische_stof_schema" target="_top" title="#ons:chemische_stof_schema" xlink:actuate="onRequest" xlink:href="#ons:chemische_stof_schema" xlink:show="new" xlink:title="#ons:chemische_stof_schema" xlink:type="simple"><g id="elem_ons:chemische_stof_schema"><rect codeLine="6" fill="#F1F1F1" height="132.0781" id="uml_ons:chemische_stof_schema" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="266" x="498" y="378"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="202" x="530" y="395.9951">ons:chemische_stof_schema</text><line style="stroke:#181818;stroke-width:0.5;" x1="499" x2="763" y1="404.2969" y2="404.2969"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="97" x="504" y="421.292">rdf:type  [1..1]</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="243" x="504" y="437.5889">skos:altLabel  : rdf:langString  [1..2]</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="254" x="504" y="453.8857">skos:definition  : rdf:langString  [0..2]</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="180" x="504" y="470.1826">skos:notation  : xsd:string</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="254" x="504" y="486.4795">skos:prefLabel  : rdf:langString  [1..2]</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="153" x="504" y="502.7764">xkos:belongsTo  [1..*]</text></g></a><!--MD5=[e26081150a54feee97befd454a48c707]
+class skos:Concept--><g id="elem_skos:Concept"><rect fill="#F1F1F1" height="26.2969" id="uml_skos:Concept" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="103" x="988.5" y="968"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="97" x="991.5" y="985.9951">skos:Concept</text></g><!--MD5=[4900a8bacf625522903b1867a8d0fb98]
+class ons:schema_list--><a href="#ons:schema_list" target="_top" title="#ons:schema_list" xlink:actuate="onRequest" xlink:href="#ons:schema_list" xlink:show="new" xlink:title="#ons:schema_list" xlink:type="simple"><g id="elem_ons:schema_list"><rect codeLine="15" fill="#F1F1F1" height="83.1875" id="uml_ons:schema_list" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="266" x="765" y="602"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="112" x="842" y="619.9951">ons:schema_list</text><line style="stroke:#181818;stroke-width:0.5;" x1="766" x2="1030" y1="628.2969" y2="628.2969"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="92" x="771" y="645.292">rdf:rest  [1..*]</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="97" x="771" y="661.5889">rdf:type  [1..1]</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="254" x="771" y="677.8857">skos:prefLabel  : rdf:langString  [1..1]</text></g></a><!--MD5=[e6e06b3e0e865a56bcf0c6e3080ab0da]
+class ons:chemische_stof_classificationlevel--><a href="#ons:chemische_stof_classificationlevel" target="_top" title="#ons:chemische_stof_classificationlevel" xlink:actuate="onRequest" xlink:href="#ons:chemische_stof_classificationlevel" xlink:show="new" xlink:title="#ons:chemische_stof_classificationlevel" xlink:type="simple"><g id="elem_ons:chemische_stof_classificationlevel"><rect codeLine="20" fill="#F1F1F1" height="99.4844" id="uml_ons:chemische_stof_classificationlevel" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="271" x="762.5" y="777"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="265" x="765.5" y="794.9951">ons:chemische_stof_classificationlevel</text><line style="stroke:#181818;stroke-width:0.5;" x1="763.5" x2="1032.5" y1="803.2969" y2="803.2969"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="97" x="768.5" y="820.292">rdf:type  [1..1]</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="254" x="768.5" y="836.5889">skos:definition  : rdf:langString  [0..2]</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="254" x="768.5" y="852.8857">skos:prefLabel  : rdf:langString  [1..1]</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="226" x="768.5" y="869.1826">xkos:depth  : xsd:positiveInteger</text></g></a><!--MD5=[03928817f4bfd886b1ab8125d35e4ea7]
+class ons:categorie--><a href="#ons:categorie" target="_top" title="#ons:categorie" xlink:actuate="onRequest" xlink:href="#ons:categorie" xlink:show="new" xlink:title="#ons:categorie" xlink:type="simple"><g id="elem_ons:categorie"><rect codeLine="27" fill="#F1F1F1" height="148.375" id="uml_ons:categorie" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="266" x="264" y="72.5"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="96" x="349" y="90.4951">ons:categorie</text><line style="stroke:#181818;stroke-width:0.5;" x1="265" x2="529" y1="98.7969" y2="98.7969"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="97" x="270" y="115.792">rdf:type  [1..1]</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="130" x="270" y="132.0889">rdfs:seeAlso  [0..1]</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="199" x="270" y="148.3857">skos:altLabel  : rdf:langString</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="213" x="270" y="164.6826">skos:comment  : rdf:langString</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="254" x="270" y="180.9795">skos:definition  : rdf:langString  [0..2]</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="180" x="270" y="197.2764">skos:notation  : xsd:string</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="254" x="270" y="213.5732">skos:prefLabel  : rdf:langString  [1..1]</text></g></a><!--MD5=[b468fe925995540a8451ab2763cd7ae7]
+class ons:chemische_stof--><a href="#ons:chemische_stof" target="_top" title="#ons:chemische_stof" xlink:actuate="onRequest" xlink:href="#ons:chemische_stof" xlink:show="new" xlink:title="#ons:chemische_stof" xlink:type="simple"><g id="elem_ons:chemische_stof"><rect codeLine="40" fill="#F1F1F1" height="278.75" id="uml_ons:chemische_stof" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="274" x="1354" y="7"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="140" x="1421" y="24.9951">ons:chemische_stof</text><line style="stroke:#181818;stroke-width:0.5;" x1="1355" x2="1627" y1="33.2969" y2="33.2969"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="238" x="1360" y="50.292">dbo:casNumber  : xsd:string  [1..*]</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="212" x="1360" y="66.5889">dbo:formula  : xsd:string  [1..1]</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="193" x="1360" y="82.8857">dbo:inchi  : xsd:string  [1..1]</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="262" x="1360" y="99.1826">dbo:iupacName  : rdf:langString  [1..1]</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="205" x="1360" y="115.4795">dbo:pubchem  : xsd:int  [0..1]</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="205" x="1360" y="131.7764">dbo:smiles  : xsd:string  [1..1]</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="217" x="1360" y="148.0732">dbp:inchikey  : xsd:string  [1..1]</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="97" x="1360" y="164.3701">rdf:type  [3..3]</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="130" x="1360" y="180.667">rdfs:seeAlso  [0..1]</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="199" x="1360" y="196.9639">skos:altLabel  : rdf:langString</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="213" x="1360" y="213.2607">skos:comment  : rdf:langString</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="254" x="1360" y="229.5576">skos:definition  : rdf:langString  [0..2]</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="117" x="1360" y="245.8545">skos:exactMatch</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="180" x="1360" y="262.1514">skos:notation  : xsd:string</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="254" x="1360" y="278.4482">skos:prefLabel  : rdf:langString  [1..1]</text></g></a><!--MD5=[aa68743e71ee4f049262ecb27832d2bd]
+class ons:chemische_stof_collection--><a href="#ons:chemische_stof_collection" target="_top" title="#ons:chemische_stof_collection" xlink:actuate="onRequest" xlink:href="#ons:chemische_stof_collection" xlink:show="new" xlink:title="#ons:chemische_stof_collection" xlink:type="simple"><g id="elem_ons:chemische_stof_collection"><rect codeLine="61" fill="#F1F1F1" height="50.5938" id="uml_ons:chemische_stof_collection" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="266" x="848" y="121"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="213" x="874.5" y="138.9951">ons:chemische_stof_collection</text><line style="stroke:#181818;stroke-width:0.5;" x1="849" x2="1113" y1="147.2969" y2="147.2969"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="254" x="854" y="164.292">skos:prefLabel  : rdf:langString  [1..1]</text></g></a><!--MD5=[331197ca27290769b120d81d6d0a3504]
+link ons:chemische_stof_schema to skos:Concept--><g id="link_ons:chemische_stof_schema_skos:Concept"><path codeLine="10" d="M582.5683,510.1176 C542.403,573.7273 498.1135,671.1526 540,747 C630.1909,910.3162 872.3185,960.5616 983.1722,975.2637 " fill="none" id="ons:chemische_stof_schema-to-skos:Concept" style="stroke:#800000;stroke-width:1.0;"/><polygon fill="#800000" points="988.3506,975.9372,979.9418,970.8096,983.3924,975.2922,978.9098,978.7428,988.3506,975.9372" style="stroke:#800000;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="132" x="541" y="728.0669">skos:hasTopConcept</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="33" x="590.5" y="743.1997">[1..*]</text></g><!--MD5=[e08d20975d8f0d56d9c5d7abd5a68c3c]
+link ons:chemische_stof_schema to ons:schema_list--><g id="link_ons:chemische_stof_schema_ons:schema_list"><path codeLine="14" d="M719.5363,510.1535 C758.4835,539.2545 803.2116,572.675 838.1467,598.7782 " fill="none" id="ons:chemische_stof_schema-to-ons:schema_list" style="stroke:#800000;stroke-width:1.0;"/><polygon fill="#800000" points="842.3575,601.9244,837.5421,593.333,838.3521,598.9316,832.7536,599.7416,842.3575,601.9244" style="stroke:#800000;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="69" x="797" y="553.0669">xkos:levels</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="33" x="819" y="568.1997">[1..*]</text></g><!--MD5=[c5cca935fe7923a0152bf66647b06857]
+link ons:schema_list to ons:chemische_stof_classificationlevel--><g id="link_ons:schema_list_ons:chemische_stof_classificationlevel"><path codeLine="16" d="M898,685.0255 C898,710.6386 898,743.788 898,771.5596 " fill="none" id="ons:schema_list-to-ons:chemische_stof_classificationlevel" style="stroke:#800000;stroke-width:1.0;"/><polygon fill="#800000" points="898,776.6795,902,767.6795,898,771.6795,894,767.6795,898,776.6795" style="stroke:#800000;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="86" x="899" y="735.5669">rdf:first  [1..*]</text></g><!--MD5=[98137886bb2f6554fb6e1f1ac7bf1198]
+link ons:chemische_stof_classificationlevel to ons:chemische_stof_schema--><g id="link_ons:chemische_stof_classificationlevel_ons:chemische_stof_schema"><path codeLine="23" d="M788.3012,776.9209 C729.7341,748.0937 666.2183,712.2036 649,685 C617.218,634.7871 615.0939,566.3657 619.5389,515.2543 " fill="none" id="ons:chemische_stof_classificationlevel-to-ons:chemische_stof_schema" style="stroke:#800000;stroke-width:1.0;"/><polygon fill="#800000" points="620.0192,510.051,615.2087,518.6451,619.5595,515.0298,623.1748,519.3806,620.0192,510.051" style="stroke:#800000;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="97" x="650" y="640.5669">skos:inScheme</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="34" x="681.5" y="655.6997">[1..1]</text></g><!--MD5=[8ab92863348fa94eea015bef2556719d]
+link ons:chemische_stof_classificationlevel to skos:Concept--><g id="link_ons:chemische_stof_classificationlevel_skos:Concept"><path codeLine="24" d="M927.6144,876.0848 C941.1828,896.5508 958.3862,919.7093 977,938 C987.4231,948.2422 1000.5665,957.6443 1012.1481,965.0275 " fill="none" id="ons:chemische_stof_classificationlevel-to-skos:Concept" style="stroke:#800000;stroke-width:1.0;"/><polygon fill="#800000" points="1016.6678,967.8582,1011.1638,959.6908,1012.4304,965.2041,1006.9172,966.4707,1016.6678,967.8582" style="stroke:#800000;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="88" x="978" y="919.0669">skos:member</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="33" x="1009.5" y="934.1997">[1..*]</text></g><!--MD5=[0c45049e1dd9dfbdebed4c088bdadf3b]
+link ons:categorie to skos:Concept--><g id="link_ons:categorie_skos:Concept"><path codeLine="31" d="M397,220.7734 C397,280.9564 397,367.9464 397,444 C397,444 397,444 397,826.5 C397,946.6065 826.5075,973.5897 983.4521,979.4403 " fill="none" id="ons:categorie-to-skos:Concept" style="stroke:#800000;stroke-width:1.0;"/><polygon fill="#800000" points="988.4675,979.6235,979.6196,975.2975,983.4708,979.4409,979.3274,983.2922,988.4675,979.6235" style="stroke:#800000;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="83" x="398" y="640.5669">skos:broader</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="34" x="426.5" y="655.6997">[0..1]</text></g><!--MD5=[0c45049e1dd9dfbdebed4c088bdadf3b]
+link ons:categorie to skos:Concept--><g id="link_ons:categorie_skos:Concept"><path codeLine="35" d="M326.308,220.7626 C279.9976,277.3418 228,359.6503 228,444 C228,444 228,444 228,826.5 C228,950.194 362.9886,908.0422 483,938 C576.5345,961.3485 860.6826,974.3646 983.0026,979.0158 " fill="none" id="ons:categorie-to-skos:Concept-1" style="stroke:#800000;stroke-width:1.0;"/><polygon fill="#800000" points="988.3494,979.2177,979.5069,974.8806,983.353,979.0288,979.2047,982.8749,988.3494,979.2177" style="stroke:#800000;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="89" x="229" y="640.5669">skos:narrower</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="33" x="261" y="655.6997">[1..*]</text></g><!--MD5=[0c45049e1dd9dfbdebed4c088bdadf3b]
+link ons:categorie to skos:Concept--><g id="link_ons:categorie_skos:Concept"><path codeLine="36" d="M263.8067,186.6209 C150.4959,229.9625 6,311.2563 6,444 C6,444 6,444 6,826.5 C6,952.2332 143.5867,909.2976 266,938 C402.2915,969.9565 828.198,978.3712 983.0176,980.4026 " fill="none" id="ons:categorie-to-skos:Concept-2" style="stroke:#800000;stroke-width:1.0;"/><polygon fill="#800000" points="988.4098,980.4722,979.4622,976.3563,983.4102,980.4076,979.3589,984.3556,988.4098,980.4722" style="stroke:#800000;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="150" x="7" y="640.5669">skos:narrowerTransitive</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="33" x="65.5" y="655.6997">[1..*]</text></g><!--MD5=[7df0b468195134536ba9dc245f315567]
+link ons:categorie to ons:chemische_stof_schema--><g id="link_ons:categorie_ons:chemische_stof_schema"><path codeLine="34" d="M500.0445,220.774 C531.7839,247.7959 564.5146,280.5055 588,316 C599.3289,333.122 607.939,353.5093 614.3647,372.9241 " fill="none" id="ons:categorie-to-ons:chemische_stof_schema" style="stroke:#800000;stroke-width:1.0;"/><polygon fill="#800000" points="615.9515,377.8365,616.9913,368.0427,614.4145,373.0786,609.3786,370.5018,615.9515,377.8365" style="stroke:#800000;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="97" x="604" y="329.0669">skos:inScheme</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="34" x="635.5" y="344.1997">[1..1]</text></g><!--MD5=[7df0b468195134536ba9dc245f315567]
+link ons:categorie to ons:chemische_stof_schema--><g id="link_ons:categorie_ons:chemische_stof_schema"><path codeLine="39" d="M405.202,220.9289 C412.9296,262.0243 427.9233,311.8974 457,348 C467.3944,360.906 480.0134,372.3485 493.6565,382.4223 " fill="none" id="ons:categorie-to-ons:chemische_stof_schema-1" style="stroke:#800000;stroke-width:1.0;"/><polygon fill="#800000" points="497.9222,385.5049,492.9706,376.9913,493.8697,382.5762,488.2847,383.4753,497.9222,385.5049" style="stroke:#800000;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="121" x="458" y="329.0669">skos:topConceptOf</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="34" x="501.5" y="344.1997">[0..1]</text></g><!--MD5=[4aec7a47eaf4680173106a789bce2823]
+link ons:chemische_stof to skos:Concept--><g id="link_ons:chemische_stof_skos:Concept"><path codeLine="51" d="M1491,286.1165 C1491,335.9409 1491,392.4798 1491,444 C1491,444 1491,444 1491,826.5 C1491,926.7203 1389.4114,904.3759 1295,938 C1229.24,961.4201 1149.2938,972.2534 1096.6518,977.1501 " fill="none" id="ons:chemische_stof-to-skos:Concept" style="stroke:#800000;stroke-width:1.0;"/><polygon fill="#800000" points="1091.644,977.6056,1100.9695,980.7735,1096.6234,977.1525,1100.2444,972.8064,1091.644,977.6056" style="stroke:#800000;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="83" x="1492" y="640.5669">skos:broader</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="34" x="1520.5" y="655.6997">[1..1]</text></g><!--MD5=[4aec7a47eaf4680173106a789bce2823]
+link ons:chemische_stof to skos:Concept--><g id="link_ons:chemische_stof_skos:Concept"><path codeLine="52" d="M1603.9869,286.2401 C1631.9062,333.5325 1654,388.4927 1654,444 C1654,444 1654,444 1654,826.5 C1654,940.7673 1249.0161,971.3364 1096.8613,978.7891 " fill="none" id="ons:chemische_stof-to-skos:Concept-1" style="stroke:#800000;stroke-width:1.0;"/><polygon fill="#800000" points="1091.5564,979.0446,1100.7384,982.6069,1096.5506,978.804,1100.3535,974.6162,1091.5564,979.0446" style="stroke:#800000;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="144" x="1655" y="640.5669">skos:broaderTransitive</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="33" x="1710.5" y="655.6997">[1..*]</text></g><!--MD5=[4aec7a47eaf4680173106a789bce2823]
+link ons:chemische_stof to skos:Concept--><g id="link_ons:chemische_stof_skos:Concept"><path codeLine="57" d="M1628.0956,191.0629 C1736.6074,235.9468 1870,316.9585 1870,444 C1870,444 1870,444 1870,826.5 C1870,979.6292 1693.8497,906.4784 1544,938 C1459.9343,955.6836 1209.9959,971.4528 1096.8158,977.9054 " fill="none" id="ons:chemische_stof-to-skos:Concept-2" style="stroke:#800000;stroke-width:1.0;"/><polygon fill="#800000" points="1091.5309,978.2056,1100.7433,981.6887,1096.5229,977.922,1100.2896,973.7016,1091.5309,978.2056" style="stroke:#800000;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="89" x="1871" y="648.0669">skos:narrower</text></g><!--MD5=[4aec7a47eaf4680173106a789bce2823]
+link ons:chemische_stof to skos:Concept--><g id="link_ons:chemische_stof_skos:Concept"><path codeLine="58" d="M1433.7569,286.2665 C1350.7936,484.4977 1197.1231,834.7398 1106,938 C1096.3292,948.9589 1083.23,958.2621 1071.2505,965.3819 " fill="none" id="ons:chemische_stof-to-skos:Concept-3" style="stroke:#800000;stroke-width:1.0;"/><polygon fill="#800000" points="1066.8961,967.9052,1076.6887,966.8538,1071.2223,965.3983,1072.6777,959.9319,1066.8961,967.9052" style="stroke:#800000;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="150" x="1295" y="648.0669">skos:narrowerTransitive</text></g><!--MD5=[6bf6e3bfd53c505f55a71327f27a6c6d]
+link ons:chemische_stof to ons:chemische_stof_schema--><g id="link_ons:chemische_stof_ons:chemische_stof_schema"><path codeLine="56" d="M1353.6954,202.2706 C1287.1355,228.685 1205.8058,260.0532 1132,286 C1010.3708,328.7594 870.3012,372.4735 769.2447,403.0495 " fill="none" id="ons:chemische_stof-to-ons:chemische_stof_schema" style="stroke:#800000;stroke-width:1.0;"/><polygon fill="#800000" points="764.1603,404.5868,773.9328,405.8107,768.9463,403.1397,771.6174,398.1531,764.1603,404.5868" style="stroke:#800000;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="97" x="1037" y="329.0669">skos:inScheme</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="34" x="1068.5" y="344.1997">[1..1]</text></g><!--MD5=[1b816c3e29963f1bfefe2cd0adf2727f]
+link ons:chemische_stof_collection to ons:chemische_stof_schema--><g id="link_ons:chemische_stof_collection_ons:chemische_stof_schema"><path codeLine="62" d="M950.8563,172.1222 C898.4838,216.6387 789.0046,309.6961 712.8066,374.4644 " fill="none" id="ons:chemische_stof_collection-to-ons:chemische_stof_schema" style="stroke:#800000;stroke-width:1.0;"/><polygon fill="#800000" points="708.7489,377.9134,718.1969,375.1323,712.5586,374.6751,713.0157,369.0368,708.7489,377.9134" style="stroke:#800000;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="97" x="775" y="329.0669">skos:inScheme</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="34" x="806.5" y="344.1997">[1..1]</text></g><!--MD5=[856c858adf3b879ba09ff4824a98fcd9]
+link ons:chemische_stof_collection to skos:Concept--><g id="link_ons:chemische_stof_collection_skos:Concept"><path codeLine="63" d="M985.8339,172.2689 C1003.5642,268.5055 1064.7346,616.1858 1079,906 C1079.6992,920.205 1084.1208,924.7317 1079,938 C1075.2034,947.8373 1067.9959,956.816 1060.7997,963.9948 " fill="none" id="ons:chemische_stof_collection-to-skos:Concept" style="stroke:#800000;stroke-width:1.0;"/><polygon fill="#800000" points="1056.8248,967.7919,1066.0957,964.4677,1060.4403,964.3382,1060.5698,958.6828,1056.8248,967.7919" style="stroke:#800000;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="88" x="1062" y="640.5669">skos:member</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="33" x="1093.5" y="655.6997">[1..*]</text></g><!--MD5=[4eb52eb50fd05d22fd164ea7853759c3]
 @startuml
 skinparam classFontSize 14
 !define LIGHTORANGE
@@ -320,26 +322,36 @@ skinparam componentStyle uml2
 skinparam wrapMessageWidth 100
 skinparam ArrowColor #Maroon
 Class "ons:chemische_stof_schema" [[#ons:chemische_stof_schema]] 
+"ons:chemische_stof_schema" : rdf:type  [1..1]  
+"ons:chemische_stof_schema" : skos:altLabel  : rdf:langString  [1..2]  
 "ons:chemische_stof_schema" : skos:definition  : rdf:langString  [0..2]  
 "ons:chemische_stof_schema" --> "skos:Concept" : skos:hasTopConcept  [1..*]  
+"ons:chemische_stof_schema" : skos:notation  : xsd:string  
 "ons:chemische_stof_schema" : skos:prefLabel  : rdf:langString  [1..2]  
+"ons:chemische_stof_schema" : xkos:belongsTo  [1..*]  
 "ons:chemische_stof_schema" --> "ons:schema_list" : xkos:levels  [1..*]  
 Class "ons:schema_list" [[#ons:schema_list]] 
 "ons:schema_list" --> "ons:chemische_stof_classificationlevel" : rdf:first  [1..*]  
 "ons:schema_list" : rdf:rest  [1..*]  
+"ons:schema_list" : rdf:type  [1..1]  
 "ons:schema_list" : skos:prefLabel  : rdf:langString  [1..1]  
 Class "ons:chemische_stof_classificationlevel" [[#ons:chemische_stof_classificationlevel]] 
+"ons:chemische_stof_classificationlevel" : rdf:type  [1..1]  
+"ons:chemische_stof_classificationlevel" : skos:definition  : rdf:langString  [0..2]  
 "ons:chemische_stof_classificationlevel" --> "ons:chemische_stof_schema" : skos:inScheme  [1..1]  
 "ons:chemische_stof_classificationlevel" --> "skos:Concept" : skos:member  [1..*]  
 "ons:chemische_stof_classificationlevel" : skos:prefLabel  : rdf:langString  [1..1]  
+"ons:chemische_stof_classificationlevel" : xkos:depth  : xsd:positiveInteger  
 Class "ons:categorie" [[#ons:categorie]] 
-"ons:categorie" : rdfs:comment  : rdf:langString  
+"ons:categorie" : rdf:type  [1..1]  
 "ons:categorie" : rdfs:seeAlso  [0..1]  
 "ons:categorie" : skos:altLabel  : rdf:langString  
 "ons:categorie" --> "skos:Concept" : skos:broader  [0..1]  
+"ons:categorie" : skos:comment  : rdf:langString  
 "ons:categorie" : skos:definition  : rdf:langString  [0..2]  
 "ons:categorie" --> "ons:chemische_stof_schema" : skos:inScheme  [1..1]  
 "ons:categorie" --> "skos:Concept" : skos:narrower  [1..*]  
+"ons:categorie" --> "skos:Concept" : skos:narrowerTransitive  [1..*]  
 "ons:categorie" : skos:notation  : xsd:string  
 "ons:categorie" : skos:prefLabel  : rdf:langString  [1..1]  
 "ons:categorie" --> "ons:chemische_stof_schema" : skos:topConceptOf  [0..1]  
@@ -351,17 +363,19 @@ Class "ons:chemische_stof" [[#ons:chemische_stof]]
 "ons:chemische_stof" : dbo:pubchem  : xsd:int  [0..1]  
 "ons:chemische_stof" : dbo:smiles  : xsd:string  [1..1]  
 "ons:chemische_stof" : dbp:inchikey  : xsd:string  [1..1]  
-"ons:chemische_stof" : dct:isReferencedBy  
-"ons:chemische_stof" : rdfs:comment  : rdf:langString  
+"ons:chemische_stof" : rdf:type  [3..3]  
 "ons:chemische_stof" : rdfs:seeAlso  [0..1]  
 "ons:chemische_stof" : skos:altLabel  : rdf:langString  
 "ons:chemische_stof" --> "skos:Concept" : skos:broader  [1..1]  
+"ons:chemische_stof" --> "skos:Concept" : skos:broaderTransitive  [1..*]  
+"ons:chemische_stof" : skos:comment  : rdf:langString  
 "ons:chemische_stof" : skos:definition  : rdf:langString  [0..2]  
 "ons:chemische_stof" : skos:exactMatch  
 "ons:chemische_stof" --> "ons:chemische_stof_schema" : skos:inScheme  [1..1]  
+"ons:chemische_stof" --> "skos:Concept" : skos:narrower  
+"ons:chemische_stof" --> "skos:Concept" : skos:narrowerTransitive  
 "ons:chemische_stof" : skos:notation  : xsd:string  
 "ons:chemische_stof" : skos:prefLabel  : rdf:langString  [1..1]  
-"ons:chemische_stof" : vv:chemische_stof#vmmParameterId  : xsd:int  
 Class "ons:chemische_stof_collection" [[#ons:chemische_stof_collection]] 
 "ons:chemische_stof_collection" --> "ons:chemische_stof_schema" : skos:inScheme  [1..1]  
 "ons:chemische_stof_collection" --> "skos:Concept" : skos:member  [1..*]  
@@ -377,26 +391,36 @@ skinparam componentStyle uml2
 skinparam wrapMessageWidth 100
 skinparam ArrowColor #Maroon
 Class "ons:chemische_stof_schema" [[#ons:chemische_stof_schema]] 
+"ons:chemische_stof_schema" : rdf:type  [1..1]  
+"ons:chemische_stof_schema" : skos:altLabel  : rdf:langString  [1..2]  
 "ons:chemische_stof_schema" : skos:definition  : rdf:langString  [0..2]  
 "ons:chemische_stof_schema" --> "skos:Concept" : skos:hasTopConcept  [1..*]  
+"ons:chemische_stof_schema" : skos:notation  : xsd:string  
 "ons:chemische_stof_schema" : skos:prefLabel  : rdf:langString  [1..2]  
+"ons:chemische_stof_schema" : xkos:belongsTo  [1..*]  
 "ons:chemische_stof_schema" --> "ons:schema_list" : xkos:levels  [1..*]  
 Class "ons:schema_list" [[#ons:schema_list]] 
 "ons:schema_list" --> "ons:chemische_stof_classificationlevel" : rdf:first  [1..*]  
 "ons:schema_list" : rdf:rest  [1..*]  
+"ons:schema_list" : rdf:type  [1..1]  
 "ons:schema_list" : skos:prefLabel  : rdf:langString  [1..1]  
 Class "ons:chemische_stof_classificationlevel" [[#ons:chemische_stof_classificationlevel]] 
+"ons:chemische_stof_classificationlevel" : rdf:type  [1..1]  
+"ons:chemische_stof_classificationlevel" : skos:definition  : rdf:langString  [0..2]  
 "ons:chemische_stof_classificationlevel" --> "ons:chemische_stof_schema" : skos:inScheme  [1..1]  
 "ons:chemische_stof_classificationlevel" --> "skos:Concept" : skos:member  [1..*]  
 "ons:chemische_stof_classificationlevel" : skos:prefLabel  : rdf:langString  [1..1]  
+"ons:chemische_stof_classificationlevel" : xkos:depth  : xsd:positiveInteger  
 Class "ons:categorie" [[#ons:categorie]] 
-"ons:categorie" : rdfs:comment  : rdf:langString  
+"ons:categorie" : rdf:type  [1..1]  
 "ons:categorie" : rdfs:seeAlso  [0..1]  
 "ons:categorie" : skos:altLabel  : rdf:langString  
 "ons:categorie" --> "skos:Concept" : skos:broader  [0..1]  
+"ons:categorie" : skos:comment  : rdf:langString  
 "ons:categorie" : skos:definition  : rdf:langString  [0..2]  
 "ons:categorie" --> "ons:chemische_stof_schema" : skos:inScheme  [1..1]  
 "ons:categorie" --> "skos:Concept" : skos:narrower  [1..*]  
+"ons:categorie" --> "skos:Concept" : skos:narrowerTransitive  [1..*]  
 "ons:categorie" : skos:notation  : xsd:string  
 "ons:categorie" : skos:prefLabel  : rdf:langString  [1..1]  
 "ons:categorie" --> "ons:chemische_stof_schema" : skos:topConceptOf  [0..1]  
@@ -408,17 +432,19 @@ Class "ons:chemische_stof" [[#ons:chemische_stof]]
 "ons:chemische_stof" : dbo:pubchem  : xsd:int  [0..1]  
 "ons:chemische_stof" : dbo:smiles  : xsd:string  [1..1]  
 "ons:chemische_stof" : dbp:inchikey  : xsd:string  [1..1]  
-"ons:chemische_stof" : dct:isReferencedBy  
-"ons:chemische_stof" : rdfs:comment  : rdf:langString  
+"ons:chemische_stof" : rdf:type  [3..3]  
 "ons:chemische_stof" : rdfs:seeAlso  [0..1]  
 "ons:chemische_stof" : skos:altLabel  : rdf:langString  
 "ons:chemische_stof" --> "skos:Concept" : skos:broader  [1..1]  
+"ons:chemische_stof" --> "skos:Concept" : skos:broaderTransitive  [1..*]  
+"ons:chemische_stof" : skos:comment  : rdf:langString  
 "ons:chemische_stof" : skos:definition  : rdf:langString  [0..2]  
 "ons:chemische_stof" : skos:exactMatch  
 "ons:chemische_stof" --> "ons:chemische_stof_schema" : skos:inScheme  [1..1]  
+"ons:chemische_stof" --> "skos:Concept" : skos:narrower  
+"ons:chemische_stof" --> "skos:Concept" : skos:narrowerTransitive  
 "ons:chemische_stof" : skos:notation  : xsd:string  
 "ons:chemische_stof" : skos:prefLabel  : rdf:langString  [1..1]  
-"ons:chemische_stof" : vv:chemische_stof#vmmParameterId  : xsd:int  
 Class "ons:chemische_stof_collection" [[#ons:chemische_stof_collection]] 
 "ons:chemische_stof_collection" --> "ons:chemische_stof_schema" : skos:inScheme  [1..1]  
 "ons:chemische_stof_collection" --> "skos:Concept" : skos:member  [1..*]  
@@ -435,7 +461,7 @@ JVM: OpenJDK 64-Bit Server VM
 Default Encoding: ANSI_X3.4-1968
 Language: en
 Country: US
---></g></svg></div><small class="form-text text-muted">Click diagram to navigate to corresponding section | <a href="http://www.plantuml.com/plantuml/png/hLPDRzf04BtpAxPmgnI4evvyg9IYDeqKI1KYzO0GMkmnNh4Vriv2eB--NfiFOxpO9haWCpllpSppp7XnnMH2DHKau1Jnbv9cmlu1yRvrleGGCGda-UdnzzlBwyFuyMS7J-vA94f2wcvs7CXQyFl2wRkcoGWGwHB-ij34n1iC2iSFMglteU9Aazw8QgLaPsZ3awwIw0Sn28RfxnoDYkRsIT0kcKvxpjFPZ7IkONs2AuL-LX4pJ4cIcdGO-PpAvSHe9fU4J0Vz_lsCN6Uwk_jEkXdPKCa04dCaZoc-gMHlJTcyVlzh7TiUccY8dka2U6LQNjEqx7bkc7E6MMPRIyzX0nmBAHN4FlFVIrom7OKzypj6AsMJzH2BM42jnbdOxhwYY6cyKAMKhFNJKElMJ3AlL6YJLAjRhCBLrM-Lh2wrIat0vCGQe91-kn2LNIb0B43NjAFZlTqeD3MmL9h1IS-3vIJRoISZJIrAY7IRL0LnGH3WWQFA1xUWLz4nAu5ouwpW0kEMSg4L3JCjQ-ArMZEbo1_eaoOrI6fNRqL3N1GXbQ674hOO-kX-6otwvCQQpN6nlaG5_PtZxHXbnzZQCE52fNdXU9sFotdDruRd08wK5cjEgw1U3PJ986Ot0TS93SRKzaAjvfK4oNfX3mwncHt0KdTNub0m3jW-vIIlTGMxrjZ0-0nV8G8DQIE4FtPktuOBfHhdsYeNtarNImdOPBzu3IBVVfSvKi2M1cP4JH1VJVQpFbrDLqirgCr-kM3OR4h6taQ8F_Ok2WRqKtWs0DTk3Ofp26pkpil2qSDvHoXmVFBLeCpyWHj1WQhL2uXP22HWEk2GFwSAnoh4_0-8nEn8dW7-1m00" target="_blank">View as PNG</a></small>
+--></g></svg></div><small class="form-text text-muted">Click diagram to navigate to corresponding section | <a href="http://www.plantuml.com/plantuml/png/hLPDR-8m4BtpAxpqjb8Hj7lYi192tMwbGgK5QGy88PDCY8LZMxPfON_znWa98SI90rnGi6VUVBsPiTeI9h344V8eLkeNPtf6_W4Q_EXyyo4W3D3xs-ll-SUVqVJrfQDEuZmId44ihWyKq2wYJuNRBud519J26_XBV1sYGRzVk1v9oR_6d7A97YPOSiuwOsCUTJbJGo-4YAZuTwKq3rRcAy9Tj5WyM6-NIzIfqnqYwGT3VH20q6BGwmsMg4b1RRaQOghVyHeeEY9Gp3OpBGdRf3XFZZX9Aeacd5KYzHsG7Xz_ecu2DkRC0w5py12hEHV7qzIlxuv-CQvnvjLU-KDrzCX5LqW8RatEtW3549njuXWSVKyoOUxJWnKbIkTW53w1gW9IWLXdyaSw5Svo4ft9vTPAtYJzGWBY9GbCp6Oy2uXK5uKeEMla93Y9LT6s9EPMa44f7ouHLNTTXQYj1MlovD2F5krRcweIrbRf4ky9cvc3gpotDt44qHfaGmVKPSEj-YrGzscEHJozZzD1S1Md-nFUc8QDSVQCJ3W-v9B0YJFPoOaQ9vaQ1fI4Oh83ZAZYQKqjWetZ-aB7NekrvDXFYj5WBrw2KRm2dSnTGzgIipTmqoLiXirQhY1X6-Mvn2nbIGsCs_Qva6z3yTQfq_aA_GWAbRUEIyjej8n1OyPVyzWlDTsbdNuUSrtVPye1bz6EuYhLGOCgOLv8hbBS2UnDiQ5Kkx6I0OZTsbnajebfbr9VLUgfY51GxLqMQQnREBJLBGoavrxlkLxIFfKkf5r7KqdHPJxLHjG8KDEhrK4qpxjglUitTGu1U-pf2TPUM1lklTQtsvoyLhEO-DgesxpFx_SEv9I2PynQdt-vXFNLLy2uyxkgZ7p3Swe0rIft8V41UKHw5DBl27J8VPN-WKZe0qezKFy1" target="_blank">View as PNG</a></small>
                   <!--@startuml
 skinparam classFontSize 14
 !define LIGHTORANGE
@@ -443,26 +469,36 @@ skinparam componentStyle uml2
 skinparam wrapMessageWidth 100
 skinparam ArrowColor #Maroon
 Class "ons:chemische_stof_schema" [[#ons:chemische_stof_schema]] 
+"ons:chemische_stof_schema" : rdf:type  [1..1]  
+"ons:chemische_stof_schema" : skos:altLabel  : rdf:langString  [1..2]  
 "ons:chemische_stof_schema" : skos:definition  : rdf:langString  [0..2]  
 "ons:chemische_stof_schema" - -> "skos:Concept" : skos:hasTopConcept  [1..*]  
+"ons:chemische_stof_schema" : skos:notation  : xsd:string  
 "ons:chemische_stof_schema" : skos:prefLabel  : rdf:langString  [1..2]  
+"ons:chemische_stof_schema" : xkos:belongsTo  [1..*]  
 "ons:chemische_stof_schema" - -> "ons:schema_list" : xkos:levels  [1..*]  
 Class "ons:schema_list" [[#ons:schema_list]] 
 "ons:schema_list" - -> "ons:chemische_stof_classificationlevel" : rdf:first  [1..*]  
 "ons:schema_list" : rdf:rest  [1..*]  
+"ons:schema_list" : rdf:type  [1..1]  
 "ons:schema_list" : skos:prefLabel  : rdf:langString  [1..1]  
 Class "ons:chemische_stof_classificationlevel" [[#ons:chemische_stof_classificationlevel]] 
+"ons:chemische_stof_classificationlevel" : rdf:type  [1..1]  
+"ons:chemische_stof_classificationlevel" : skos:definition  : rdf:langString  [0..2]  
 "ons:chemische_stof_classificationlevel" - -> "ons:chemische_stof_schema" : skos:inScheme  [1..1]  
 "ons:chemische_stof_classificationlevel" - -> "skos:Concept" : skos:member  [1..*]  
 "ons:chemische_stof_classificationlevel" : skos:prefLabel  : rdf:langString  [1..1]  
+"ons:chemische_stof_classificationlevel" : xkos:depth  : xsd:positiveInteger  
 Class "ons:categorie" [[#ons:categorie]] 
-"ons:categorie" : rdfs:comment  : rdf:langString  
+"ons:categorie" : rdf:type  [1..1]  
 "ons:categorie" : rdfs:seeAlso  [0..1]  
 "ons:categorie" : skos:altLabel  : rdf:langString  
 "ons:categorie" - -> "skos:Concept" : skos:broader  [0..1]  
+"ons:categorie" : skos:comment  : rdf:langString  
 "ons:categorie" : skos:definition  : rdf:langString  [0..2]  
 "ons:categorie" - -> "ons:chemische_stof_schema" : skos:inScheme  [1..1]  
 "ons:categorie" - -> "skos:Concept" : skos:narrower  [1..*]  
+"ons:categorie" - -> "skos:Concept" : skos:narrowerTransitive  [1..*]  
 "ons:categorie" : skos:notation  : xsd:string  
 "ons:categorie" : skos:prefLabel  : rdf:langString  [1..1]  
 "ons:categorie" - -> "ons:chemische_stof_schema" : skos:topConceptOf  [0..1]  
@@ -474,17 +510,19 @@ Class "ons:chemische_stof" [[#ons:chemische_stof]]
 "ons:chemische_stof" : dbo:pubchem  : xsd:int  [0..1]  
 "ons:chemische_stof" : dbo:smiles  : xsd:string  [1..1]  
 "ons:chemische_stof" : dbp:inchikey  : xsd:string  [1..1]  
-"ons:chemische_stof" : dct:isReferencedBy  
-"ons:chemische_stof" : rdfs:comment  : rdf:langString  
+"ons:chemische_stof" : rdf:type  [3..3]  
 "ons:chemische_stof" : rdfs:seeAlso  [0..1]  
 "ons:chemische_stof" : skos:altLabel  : rdf:langString  
 "ons:chemische_stof" - -> "skos:Concept" : skos:broader  [1..1]  
+"ons:chemische_stof" - -> "skos:Concept" : skos:broaderTransitive  [1..*]  
+"ons:chemische_stof" : skos:comment  : rdf:langString  
 "ons:chemische_stof" : skos:definition  : rdf:langString  [0..2]  
 "ons:chemische_stof" : skos:exactMatch  
 "ons:chemische_stof" - -> "ons:chemische_stof_schema" : skos:inScheme  [1..1]  
+"ons:chemische_stof" - -> "skos:Concept" : skos:narrower  
+"ons:chemische_stof" - -> "skos:Concept" : skos:narrowerTransitive  
 "ons:chemische_stof" : skos:notation  : xsd:string  
 "ons:chemische_stof" : skos:prefLabel  : rdf:langString  [1..1]  
-"ons:chemische_stof" : vv:chemische_stof#vmmParameterId  : xsd:int  
 Class "ons:chemische_stof_collection" [[#ons:chemische_stof_collection]] 
 "ons:chemische_stof_collection" - -> "ons:chemische_stof_schema" : skos:inScheme  [1..1]  
 "ons:chemische_stof_collection" - -> "skos:Concept" : skos:member  [1..*]  
@@ -496,395 +534,16 @@ hide empty members
 --></section>
             </div>
          </div>
+         <h2 id="documentation" class="sp_section_subtitle">Model documentation</h2>
          <div class="row mt-3">
             <div class="col">
-               <section id="ons:categorie">
-                  <h2 class="sp_section_title_table">categorie</h2>
-                  <table class="sp_table_propertyshapes table-striped table-responsive">
-                     <thead>
-                        <tr>
-                           <th>Property name</th>
-                           <th>URI</th>
-                           <th>Expected value</th>
-                           <th>Card.</th>
-                           <th class="sp_description_column">Description</th>
-                        </tr>
-                     </thead>
-                     <tbody>
-                        <tr>
-                           <td>alternatief label</td>
-                           <td><code><a href="http://www.w3.org/2004/02/skos/core#altLabel">skos:altLabel</a></code></td>
-                           <td><code>rdf:langString</code><br></td>
-                           <td>
-                              <div style="width:30px">0..*</div>
-                           </td>
-                           <td class="sp_table_propertyshapes_col_description">Een alternatief lexicaal label voor een bepaalde bron.</td>
-                        </tr>
-                        <tr>
-                           <td>breder concept</td>
-                           <td><code><a href="http://www.w3.org/2004/02/skos/core#broader">skos:broader</a></code></td>
-                           <td><code>skos:Concept</code><br></td>
-                           <td>
-                              <div style="width:30px">0..1</div>
-                           </td>
-                           <td class="sp_table_propertyshapes_col_description">De relatie tussen een concept en een breder, minder specifiek concept binnen hetzelfde
-                              schema.</td>
-                        </tr>
-                        <tr>
-                           <td>commentaar</td>
-                           <td><code><a href="http://www.w3.org/2000/01/rdf-schema#comment">rdfs:comment</a></code></td>
-                           <td><code>rdf:langString</code><br></td>
-                           <td>
-                              <div style="width:30px">0..*</div>
-                           </td>
-                           <td class="sp_table_propertyshapes_col_description">Binnen dit schema wordt rdfs:comment gebruikt om de relatie, in tekstformaat, naar
-                              wetgeving en analysemethodes te leggen, die betrekking hebben op de chemische stof.
-                              Dit tekstformaat wordt op termijn vervangen door linken naar 'resources'.</td>
-                        </tr>
-                        <tr>
-                           <td>definitie</td>
-                           <td><code><a href="http://www.w3.org/2004/02/skos/core#definition">skos:definition</a></code></td>
-                           <td><code>rdf:langString</code><br></td>
-                           <td>
-                              <div style="width:30px">0..2</div>
-                           </td>
-                           <td class="sp_table_propertyshapes_col_description">Een uitspraak over de betekenis van het concept, de collectie of het schema.</td>
-                        </tr>
-                        <tr>
-                           <td>is in schema</td>
-                           <td><code><a href="http://www.w3.org/2004/02/skos/core#inScheme">skos:inScheme</a></code></td>
-                           <td><code><a href="#ons:chemische_stof_schema">conceptschema van chemische stoffen</a></code><br></td>
-                           <td>
-                              <div style="width:30px">1..1</div>
-                           </td>
-                           <td class="sp_table_propertyshapes_col_description">Drukt de relatie uit tussen een 'resource' en het schema dat het bevat.</td>
-                        </tr>
-                        <tr>
-                           <td>notatie</td>
-                           <td><code><a href="http://www.w3.org/2004/02/skos/core#notation">skos:notation</a></code></td>
-                           <td><code>xsd:string</code><br></td>
-                           <td>
-                              <div style="width:30px">0..*</div>
-                           </td>
-                           <td class="sp_table_propertyshapes_col_description">Een notatie, ook wel classificatiecode genoemd, is een reeks tekens zoals "PCB151"
-                              of "EtFOSA" die wordt gebruikt om een stof op unieke wijze te identificeren binnen
-                              de context van dit schema.</td>
-                        </tr>
-                        <tr>
-                           <td>specifieker concept</td>
-                           <td><code><a href="http://www.w3.org/2004/02/skos/core#narrower">skos:narrower</a></code></td>
-                           <td><code>skos:Concept</code><br></td>
-                           <td>
-                              <div style="width:30px">1..*</div>
-                           </td>
-                           <td class="sp_table_propertyshapes_col_description">De relatie tussen een concept en een nauwer, specifieker concept binnen hetzelfde
-                              schema.</td>
-                        </tr>
-                        <tr>
-                           <td>topconcept van</td>
-                           <td><code><a href="http://www.w3.org/2004/02/skos/core#topConceptOf">skos:topConceptOf</a></code></td>
-                           <td><code><a href="#ons:chemische_stof_schema">conceptschema van chemische stoffen</a></code><br></td>
-                           <td>
-                              <div style="width:30px">0..1</div>
-                           </td>
-                           <td class="sp_table_propertyshapes_col_description">De relatie tussen een concept en het schema, waarvan het een topconcept is.</td>
-                        </tr>
-                        <tr>
-                           <td>voorkeurslabel</td>
-                           <td><code><a href="http://www.w3.org/2004/02/skos/core#prefLabel">skos:prefLabel</a></code></td>
-                           <td><code>rdf:langString</code><br></td>
-                           <td>
-                              <div style="width:30px">1..1</div>
-                           </td>
-                           <td class="sp_table_propertyshapes_col_description">Het voorkeurslabel in de engelse taal. Slechts 1 voorkeurslabel is toegelaten.</td>
-                        </tr>
-                        <tr>
-                           <td>zie ook</td>
-                           <td><code><a href="http://www.w3.org/2000/01/rdf-schema#seeAlso">rdfs:seeAlso</a></code></td>
-                           <td><code>IRI</code><br></td>
-                           <td>
-                              <div style="width:30px">0..1</div>
-                           </td>
-                           <td class="sp_table_propertyshapes_col_description">Een verwijzing naar een gelijkaardige 'resource' of een document over het onderwerp.</td>
-                        </tr>
-                     </tbody>
-                  </table>
-               </section>
-            </div>
-         </div><br><div class="row mt-3">
-            <div class="col">
-               <section id="ons:chemische_stof">
-                  <h2 class="sp_section_title_table">chemische stof</h2>
-                  <p><em>De uniciteit van een chemische stof wordt bepaald door haar IUPAC-naam. InChI's kunnen gezien worden als verkorte, geformaliseerde versies van de IUPAC-namen van stoffen. InChIKey is een formaat met een vaste lengte dat direct is afgeleid van een InChI. De URI van de chemische stoffen is gebaseerd op de InChIKey.</em></p>
-                  <ul class="sp_list_description_properties sp_ul">
-                     <li>Target Class: <a href="http://dbpedia.org/ontology/ChemicalSubstance">dbo:ChemicalSubstance</a></li>
-                  </ul>
-                  <table class="sp_table_propertyshapes table-striped table-responsive">
-                     <thead>
-                        <tr>
-                           <th>Property name</th>
-                           <th>URI</th>
-                           <th>Expected value</th>
-                           <th>Card.</th>
-                           <th class="sp_description_column">Description</th>
-                        </tr>
-                     </thead>
-                     <tbody>
-                        <tr>
-                           <td>CAS nummer</td>
-                           <td><code><a href="http://dbpedia.org/ontology/casNumber">dbo:casNumber</a></code></td>
-                           <td><code>xsd:string</code><br></td>
-                           <td>
-                              <div style="width:30px">1..*</div>
-                           </td>
-                           <td class="sp_table_propertyshapes_col_description">Een CAS-nummer is een unieke numerieke identifier voor chemische elementen, componenten,
-                              polymeren, en legeringen. CAS staat voor Chemical Abstracts Service, een divisie van
-                              de American Chemical Society. Soms zijn er verschillende CAS-nummers ("other CAS")
-                              die exact hetzelfde betekenen. Dit heeft meestal te maken met oudere CAS-nummers die
-                              werden toegekend op het moment dat de stof nog niet helemaal gekarakteriseerd was.
-                              Later kan men er aldus op uit komen dat verschillende CAS-nummers op eenzelfde molecule
-                              betrekking hebben.</td>
-                        </tr>
-                        <tr>
-                           <td>IUPAC-naam</td>
-                           <td><code><a href="http://dbpedia.org/ontology/iupacName">dbo:iupacName</a></code></td>
-                           <td><code>rdf:langString</code><br></td>
-                           <td>
-                              <div style="width:30px">1..1</div>
-                           </td>
-                           <td class="sp_table_propertyshapes_col_description">IUPAC-nomenclatuur is een systematische manier om elementen en chemische verbindingen
-                              te benoemen zoals die door de International Union of Pure and Applied Chemistry (IUPAC)
-                              wordt voorgestaan. Vooral in de organische chemie wordt het systeem toegepast, maar
-                              met het complexer worden van de stoffen in de anorganische chemie wordt ook daar het
-                              gebruik van systematische namen belangrijker. In de IUPAC-nomenclatuur worden stamnamen,
-                              plaatsnummers, voorvoegsels, achtervoegsels en tussenvoegsels gebruikt om het type
-                              en de positie van zijketens en/of functionele groepen in het molecuul te beschrijven.</td>
-                        </tr>
-                        <tr>
-                           <td>InChI</td>
-                           <td><code><a href="http://dbpedia.org/ontology/inchi">dbo:inchi</a></code></td>
-                           <td><code>xsd:string</code><br></td>
-                           <td>
-                              <div style="width:30px">1..1</div>
-                           </td>
-                           <td class="sp_table_propertyshapes_col_description">De International Chemical Identifier, afgekort InChI, is een tekstuele identificatiecode
-                              voor chemische stoffen, vooral bedoeld om moleculen ondubbelzinnig en op een voor
-                              mensen leesbare manier te coderen, waarbij het zoeken naar die stof in databanken
-                              en via het web gemakkelijker zou worden gemaakt. </td>
-                        </tr>
-                        <tr>
-                           <td>InChIKey</td>
-                           <td><code><a href="http://dbpedia.org/property/inchikey">dbp:inchikey</a></code></td>
-                           <td><code>xsd:string</code><br></td>
-                           <td>
-                              <div style="width:30px">1..1</div>
-                           </td>
-                           <td class="sp_table_propertyshapes_col_description">InChIKey is een formaat met een vaste lengte die rechtstreeks is afgeleid van InChI.
-                              Het is gebaseerd op een sterke hash (SHA-256-algoritme) van een InChI-string.</td>
-                        </tr>
-                        <tr>
-                           <td>SMILES</td>
-                           <td><code><a href="http://dbpedia.org/ontology/smiles">dbo:smiles</a></code></td>
-                           <td><code>xsd:string</code><br></td>
-                           <td>
-                              <div style="width:30px">1..1</div>
-                           </td>
-                           <td class="sp_table_propertyshapes_col_description">SMILES of voluit simplified molecular-input line-entry specification is een specificatie
-                              om de structuur van chemische moleculen op eenduidige wijze te beschrijven als een
-                              tekenreeks. SMILES kunnen door de meeste chemische tekenprogramma's ingelezen worden
-                              en worden omgezet in een tweedimensionale tekening of een driedimensionaal model van
-                              het molecuul. </td>
-                        </tr>
-                        <tr>
-                           <td>VMM parameter identificator</td>
-                           <td><code><a href="https://data.vlaanderen.be/ns/chemische_stof#vmmParameterId">vv:chemische_stof#vmmParameterId</a></code></td>
-                           <td><code>xsd:int</code><br></td>
-                           <td>
-                              <div style="width:30px">0..*</div>
-                           </td>
-                           <td class="sp_table_propertyshapes_col_description">De identificator die door VMM wordt gebruikt om 'parameters' te identificeren. Met
-                              het begrip parameter duidt VMM intern zowel zuivere chemische stoffen, mengelingen
-                              van stoffen, een concatenatie van stoffen en analysecondities als fysico-chemische
-                              eigenschappen aan. In deze lijst wordt enkel verwezen naar zuivere chemische stoffen.</td>
-                        </tr>
-                        <tr>
-                           <td>alternatief label</td>
-                           <td><code><a href="http://www.w3.org/2004/02/skos/core#altLabel">skos:altLabel</a></code></td>
-                           <td><code>rdf:langString</code><br></td>
-                           <td>
-                              <div style="width:30px">0..*</div>
-                           </td>
-                           <td class="sp_table_propertyshapes_col_description">Een alternatief lexicaal label voor een bepaalde bron.</td>
-                        </tr>
-                        <tr>
-                           <td>breder concept</td>
-                           <td><code><a href="http://www.w3.org/2004/02/skos/core#broader">skos:broader</a></code></td>
-                           <td><code>skos:Concept</code><br></td>
-                           <td>
-                              <div style="width:30px">1..1</div>
-                           </td>
-                           <td class="sp_table_propertyshapes_col_description">De relatie tussen een concept en een breder, minder specifiek concept binnen hetzelfde
-                              schema.</td>
-                        </tr>
-                        <tr>
-                           <td>commentaar</td>
-                           <td><code><a href="http://www.w3.org/2000/01/rdf-schema#comment">rdfs:comment</a></code></td>
-                           <td><code>rdf:langString</code><br></td>
-                           <td>
-                              <div style="width:30px">0..*</div>
-                           </td>
-                           <td class="sp_table_propertyshapes_col_description">Binnen dit schema wordt rdfs:comment gebruikt om de relatie, in tekstformaat, naar
-                              wetgeving en analysemethodes te leggen, die betrekking hebben op de chemische stof.
-                              Dit tekstformaat wordt op termijn vervangen door linken naar 'resources'.</td>
-                        </tr>
-                        <tr>
-                           <td>definitie</td>
-                           <td><code><a href="http://www.w3.org/2004/02/skos/core#definition">skos:definition</a></code></td>
-                           <td><code>rdf:langString</code><br></td>
-                           <td>
-                              <div style="width:30px">0..2</div>
-                           </td>
-                           <td class="sp_table_propertyshapes_col_description">Een uitspraak over de betekenis van het concept, de collectie of het schema.</td>
-                        </tr>
-                        <tr>
-                           <td>formule</td>
-                           <td><code><a href="http://dbpedia.org/ontology/formula">dbo:formula</a></code></td>
-                           <td><code>xsd:string</code><br></td>
-                           <td>
-                              <div style="width:30px">1..1</div>
-                           </td>
-                           <td class="sp_table_propertyshapes_col_description">De molecuulformule is de korte aanduiding voor een molecuul die aangeeft uit welke
-                              elementen en in welke aantallen atomen het is opgebouwd. </td>
-                        </tr>
-                        <tr>
-                           <td>heeft exacte overeenkomst</td>
-                           <td><code><a href="http://www.w3.org/2004/02/skos/core#exactMatch">skos:exactMatch</a></code></td>
-                           <td><code>IRI</code><br></td>
-                           <td>
-                              <div style="width:30px">0..*</div>
-                           </td>
-                           <td class="sp_table_propertyshapes_col_description">skos:exactMatch wordt gebruikt om twee concepten te koppelen, wat aangeeft dat er
-                              een hoge mate van vertrouwen bestaat dat de concepten onderling uitwisselbaar kunnen
-                              worden gebruikt in een breed scala aan toepassingen voor het ophalen van informatie.
-                              skos:exactMatch is een transitieve eigenschap en is een subeigenschap van skos:closeMatch</td>
-                        </tr>
-                        <tr>
-                           <td>is in schema</td>
-                           <td><code><a href="http://www.w3.org/2004/02/skos/core#inScheme">skos:inScheme</a></code></td>
-                           <td><code><a href="#ons:chemische_stof_schema">conceptschema van chemische stoffen</a></code><br></td>
-                           <td>
-                              <div style="width:30px">1..1</div>
-                           </td>
-                           <td class="sp_table_propertyshapes_col_description">Drukt de relatie uit tussen een 'resource' en het schema dat het bevat.</td>
-                        </tr>
-                        <tr>
-                           <td>notatie</td>
-                           <td><code><a href="http://www.w3.org/2004/02/skos/core#notation">skos:notation</a></code></td>
-                           <td><code>xsd:string</code><br></td>
-                           <td>
-                              <div style="width:30px">0..*</div>
-                           </td>
-                           <td class="sp_table_propertyshapes_col_description">Een notatie, ook wel classificatiecode genoemd, is een reeks tekens zoals "PCB151"
-                              of "EtFOSA" die wordt gebruikt om een stof op unieke wijze te identificeren binnen
-                              de context van dit schema.</td>
-                        </tr>
-                        <tr>
-                           <td>pubchem</td>
-                           <td><code><a href="http://dbpedia.org/ontology/pubchem">dbo:pubchem</a></code></td>
-                           <td><code>xsd:int</code><br></td>
-                           <td>
-                              <div style="width:30px">0..1</div>
-                           </td>
-                           <td class="sp_table_propertyshapes_col_description">Verwijst binnen deze stoffenlijst naar de PubChem CID, de unieke 'compound identifier'
-                              van PubChem. PubChem is een databank van chemische molecules en hun bio-assays.</td>
-                        </tr>
-                        <tr>
-                           <td>voorkeurslabel</td>
-                           <td><code><a href="http://www.w3.org/2004/02/skos/core#prefLabel">skos:prefLabel</a></code></td>
-                           <td><code>rdf:langString</code><br></td>
-                           <td>
-                              <div style="width:30px">1..1</div>
-                           </td>
-                           <td class="sp_table_propertyshapes_col_description">Het voorkeurslabel in de Nederlandse taal. Slechts 1 voorkeurslabel is toegelaten.</td>
-                        </tr>
-                        <tr>
-                           <td>wordt vermeld in</td>
-                           <td><code><a href="http://purl.org/dc/terms/isReferencedBy">dct:isReferencedBy</a></code></td>
-                           <td><code>IRI</code><br></td>
-                           <td>
-                              <div style="width:30px">0..*</div>
-                           </td>
-                           <td class="sp_table_propertyshapes_col_description">Binnen dit schema wordt dct:isReferencedBy gebruikt om de relatie naar wetgeving en
-                              analysemethodes te leggen, die betrekking hebben op de chemische stof.</td>
-                        </tr>
-                        <tr>
-                           <td>zie ook</td>
-                           <td><code><a href="http://www.w3.org/2000/01/rdf-schema#seeAlso">rdfs:seeAlso</a></code></td>
-                           <td><code>IRI</code><br></td>
-                           <td>
-                              <div style="width:30px">0..1</div>
-                           </td>
-                           <td class="sp_table_propertyshapes_col_description">Een verwijzing naar een gelijkaardige 'resource' of een document over het onderwerp.</td>
-                        </tr>
-                     </tbody>
-                  </table>
-               </section>
-            </div>
-         </div><br><div class="row mt-3">
-            <div class="col">
-               <section id="ons:chemische_stof_classificationlevel">
-                  <h2 class="sp_section_title_table">classificatieniveau</h2>
-                  <ul class="sp_list_description_properties sp_ul">
-                     <li>Target Class: <a href="http://rdf-vocabulary.ddialliance.org/xkos#ClassificationLevel">xkos:ClassificationLevel</a></li>
-                  </ul>
-                  <table class="sp_table_propertyshapes table-striped table-responsive">
-                     <thead>
-                        <tr>
-                           <th>Property name</th>
-                           <th>URI</th>
-                           <th>Expected value</th>
-                           <th>Card.</th>
-                           <th class="sp_description_column">Description</th>
-                        </tr>
-                     </thead>
-                     <tbody>
-                        <tr>
-                           <td>is in schema</td>
-                           <td><code><a href="http://www.w3.org/2004/02/skos/core#inScheme">skos:inScheme</a></code></td>
-                           <td><code><a href="#ons:chemische_stof_schema">conceptschema van chemische stoffen</a></code><br></td>
-                           <td>
-                              <div style="width:30px">1..1</div>
-                           </td>
-                           <td class="sp_table_propertyshapes_col_description">Drukt de relatie uit tussen een 'resource' en het schema dat het bevat.</td>
-                        </tr>
-                        <tr>
-                           <td>onderdeel</td>
-                           <td><code><a href="http://www.w3.org/2004/02/skos/core#member">skos:member</a></code></td>
-                           <td><code>skos:Concept</code><br></td>
-                           <td>
-                              <div style="width:30px">1..*</div>
-                           </td>
-                           <td class="sp_table_propertyshapes_col_description">Een classificationlevel heeft minstens 1 onderdeel.</td>
-                        </tr>
-                        <tr>
-                           <td>voorkeurslabel</td>
-                           <td><code><a href="http://www.w3.org/2004/02/skos/core#prefLabel">skos:prefLabel</a></code></td>
-                           <td><code>rdf:langString</code><br></td>
-                           <td>
-                              <div style="width:30px">1..1</div>
-                           </td>
-                           <td class="sp_table_propertyshapes_col_description">Het voorkeurslabel in de Nederlandse taal. Slechts 1 voorkeurslabel is toegelaten.</td>
-                        </tr>
-                     </tbody>
-                  </table>
-               </section>
-            </div>
-         </div><br><div class="row mt-3">
-            <div class="col">
                <section id="ons:chemische_stof_schema">
-                  <h2 class="sp_section_title_table">conceptschema van chemische stoffen</h2>
-                  <ul class="sp_list_description_properties sp_ul">
-                     <li>Target Class: <a href="http://www.w3.org/2004/02/skos/core#ConceptScheme">skos:ConceptScheme</a></li>
+                  <div class="sp_section_title_table_wrapper">
+                     <h3 class="sp_section_title_table"></h3>
+                  </div>
+                  <ul class="sp_list_description_properties">
+                     <li>Applies to: <a href="http://www.w3.org/2004/02/skos/core#ConceptScheme">skos:ConceptScheme</a></li>
+                     <li>Closed shape</li>
                   </ul>
                   <table class="sp_table_propertyshapes table-striped table-responsive">
                      <thead>
@@ -898,42 +557,76 @@ hide empty members
                      </thead>
                      <tbody>
                         <tr>
-                           <td>definitie</td>
-                           <td><code><a href="http://www.w3.org/2004/02/skos/core#definition">skos:definition</a></code></td>
-                           <td><code>rdf:langString</code><br></td>
-                           <td>
-                              <div style="width:30px">0..2</div>
-                           </td>
-                           <td class="sp_table_propertyshapes_col_description">Een uitspraak over de betekenis van het concept, de collectie of het schema.</td>
-                        </tr>
-                        <tr>
-                           <td>heeft topconcept</td>
-                           <td><code><a href="http://www.w3.org/2004/02/skos/core#hasTopConcept">skos:hasTopConcept</a></code></td>
-                           <td><code>skos:Concept</code><br></td>
-                           <td>
-                              <div style="width:30px">1..*</div>
-                           </td>
-                           <td class="sp_table_propertyshapes_col_description">Verbindt een conceptschema met een concept dat bovenaan in een 'broader/narrower'
-                              hierarchie staat en voorziet aldus een ingang tot die hierarchie.</td>
-                        </tr>
-                        <tr>
-                           <td>niveau's</td>
-                           <td><code><a href="http://rdf-vocabulary.ddialliance.org/xkos#levels">xkos:levels</a></code></td>
-                           <td><code><a href="#ons:schema_list">list</a></code><br></td>
-                           <td>
-                              <div style="width:30px">1..*</div>
-                           </td>
-                           <td class="sp_table_propertyshapes_col_description">De relatie tussen een concept en een nauwer, specifieker concept binnen hetzelfde
-                              schema.</td>
-                        </tr>
-                        <tr>
-                           <td>voorkeurslabel</td>
+                           <td></td>
                            <td><code><a href="http://www.w3.org/2004/02/skos/core#prefLabel">skos:prefLabel</a></code></td>
                            <td><code>rdf:langString</code><br></td>
                            <td>
                               <div style="width:30px">1..2</div>
                            </td>
-                           <td class="sp_table_propertyshapes_col_description">Het voorkeurslabel.</td>
+                           <td class="sp_table_propertyshapes_col_description"></td>
+                        </tr>
+                        <tr>
+                           <td></td>
+                           <td><code><a href="http://www.w3.org/2004/02/skos/core#notation">skos:notation</a></code></td>
+                           <td><code>xsd:string</code><br></td>
+                           <td>
+                              <div style="width:30px">0..*</div>
+                           </td>
+                           <td class="sp_table_propertyshapes_col_description"></td>
+                        </tr>
+                        <tr>
+                           <td></td>
+                           <td><code><a href="http://www.w3.org/1999/02/22-rdf-syntax-ns#type">rdf:type</a></code></td>
+                           <td><code>IRI</code><br></td>
+                           <td>
+                              <div style="width:30px">1..1</div>
+                           </td>
+                           <td class="sp_table_propertyshapes_col_description"></td>
+                        </tr>
+                        <tr>
+                           <td></td>
+                           <td><code><a href="http://www.w3.org/2004/02/skos/core#altLabel">skos:altLabel</a></code></td>
+                           <td><code>rdf:langString</code><br></td>
+                           <td>
+                              <div style="width:30px">1..2</div>
+                           </td>
+                           <td class="sp_table_propertyshapes_col_description"></td>
+                        </tr>
+                        <tr>
+                           <td></td>
+                           <td><code><a href="http://www.w3.org/2004/02/skos/core#hasTopConcept">skos:hasTopConcept</a></code></td>
+                           <td><code>skos:Concept</code><br></td>
+                           <td>
+                              <div style="width:30px">1..*</div>
+                           </td>
+                           <td class="sp_table_propertyshapes_col_description"></td>
+                        </tr>
+                        <tr>
+                           <td></td>
+                           <td><code><a href="http://rdf-vocabulary.ddialliance.org/xkos#levels">xkos:levels</a></code></td>
+                           <td><code>rdf:List</code><br></td>
+                           <td>
+                              <div style="width:30px">1..*</div>
+                           </td>
+                           <td class="sp_table_propertyshapes_col_description"></td>
+                        </tr>
+                        <tr>
+                           <td></td>
+                           <td><code><a href="http://rdf-vocabulary.ddialliance.org/xkos#belongsTo">xkos:belongsTo</a></code></td>
+                           <td><code>IRI</code><br></td>
+                           <td>
+                              <div style="width:30px">1..*</div>
+                           </td>
+                           <td class="sp_table_propertyshapes_col_description"></td>
+                        </tr>
+                        <tr>
+                           <td></td>
+                           <td><code><a href="http://www.w3.org/2004/02/skos/core#definition">skos:definition</a></code></td>
+                           <td><code>rdf:langString</code><br></td>
+                           <td>
+                              <div style="width:30px">0..2</div>
+                           </td>
+                           <td class="sp_table_propertyshapes_col_description"></td>
                         </tr>
                      </tbody>
                   </table>
@@ -942,9 +635,12 @@ hide empty members
          </div><br><div class="row mt-3">
             <div class="col">
                <section id="ons:schema_list">
-                  <h2 class="sp_section_title_table">list</h2>
-                  <ul class="sp_list_description_properties sp_ul">
-                     <li>Target Class: <a href="http://www.w3.org/1999/02/22-rdf-syntax-ns#List">rdf:List</a></li>
+                  <div class="sp_section_title_table_wrapper">
+                     <h3 class="sp_section_title_table"></h3>
+                  </div>
+                  <ul class="sp_list_description_properties">
+                     <li>Applies to: <a href="http://www.w3.org/1999/02/22-rdf-syntax-ns#List">rdf:List</a></li>
+                     <li>Closed shape</li>
                   </ul>
                   <table class="sp_table_propertyshapes table-striped table-responsive">
                      <thead>
@@ -958,32 +654,455 @@ hide empty members
                      </thead>
                      <tbody>
                         <tr>
-                           <td>eerste</td>
-                           <td><code><a href="http://www.w3.org/1999/02/22-rdf-syntax-ns#first">rdf:first</a></code></td>
-                           <td><code><a href="#ons:chemische_stof_classificationlevel">classificatieniveau</a></code><br></td>
-                           <td>
-                              <div style="width:30px">1..*</div>
-                           </td>
-                           <td class="sp_table_propertyshapes_col_description">De relatie tussen een list object en een classificatieniveau</td>
-                        </tr>
-                        <tr>
-                           <td>rest</td>
+                           <td></td>
                            <td><code><a href="http://www.w3.org/1999/02/22-rdf-syntax-ns#rest">rdf:rest</a></code></td>
                            <td><code>IRI</code><br></td>
                            <td>
                               <div style="width:30px">1..*</div>
                            </td>
-                           <td class="sp_table_propertyshapes_col_description">De relatie tussen een list object, dat via rdf:first verwijst naar een hoger classificatieniveau,
-                              en een list object dat via rdf:first verwijst naar een lager classificatieniveau.</td>
+                           <td class="sp_table_propertyshapes_col_description"></td>
                         </tr>
                         <tr>
-                           <td>voorkeurslabel</td>
+                           <td></td>
+                           <td><code><a href="http://www.w3.org/1999/02/22-rdf-syntax-ns#first">rdf:first</a></code></td>
+                           <td><code>xkos:ClassificationLevel</code><br></td>
+                           <td>
+                              <div style="width:30px">1..*</div>
+                           </td>
+                           <td class="sp_table_propertyshapes_col_description"></td>
+                        </tr>
+                        <tr>
+                           <td></td>
+                           <td><code><a href="http://www.w3.org/1999/02/22-rdf-syntax-ns#type">rdf:type</a></code></td>
+                           <td><code>IRI</code><br></td>
+                           <td>
+                              <div style="width:30px">1..1</div>
+                           </td>
+                           <td class="sp_table_propertyshapes_col_description"></td>
+                        </tr>
+                        <tr>
+                           <td></td>
                            <td><code><a href="http://www.w3.org/2004/02/skos/core#prefLabel">skos:prefLabel</a></code></td>
                            <td><code>rdf:langString</code><br></td>
                            <td>
                               <div style="width:30px">1..1</div>
                            </td>
-                           <td class="sp_table_propertyshapes_col_description">Het voorkeurslabel in de Nederlandse taal. Slechts 1 voorkeurslabel is toegelaten.</td>
+                           <td class="sp_table_propertyshapes_col_description"></td>
+                        </tr>
+                     </tbody>
+                  </table>
+               </section>
+            </div>
+         </div><br><div class="row mt-3">
+            <div class="col">
+               <section id="ons:chemische_stof_classificationlevel">
+                  <div class="sp_section_title_table_wrapper">
+                     <h3 class="sp_section_title_table"></h3>
+                  </div>
+                  <ul class="sp_list_description_properties">
+                     <li>Applies to: <a href="http://rdf-vocabulary.ddialliance.org/xkos#ClassificationLevel">xkos:ClassificationLevel</a></li>
+                     <li>Closed shape</li>
+                  </ul>
+                  <table class="sp_table_propertyshapes table-striped table-responsive">
+                     <thead>
+                        <tr>
+                           <th>Property name</th>
+                           <th>URI</th>
+                           <th>Expected value</th>
+                           <th>Card.</th>
+                           <th class="sp_description_column">Description</th>
+                        </tr>
+                     </thead>
+                     <tbody>
+                        <tr>
+                           <td></td>
+                           <td><code><a href="http://www.w3.org/2004/02/skos/core#member">skos:member</a></code></td>
+                           <td><code>skos:Concept</code><br></td>
+                           <td>
+                              <div style="width:30px">1..*</div>
+                           </td>
+                           <td class="sp_table_propertyshapes_col_description"></td>
+                        </tr>
+                        <tr>
+                           <td></td>
+                           <td><code><a href="http://rdf-vocabulary.ddialliance.org/xkos#depth">xkos:depth</a></code></td>
+                           <td><code>xsd:positiveInteger</code><br></td>
+                           <td>
+                              <div style="width:30px">0..*</div>
+                           </td>
+                           <td class="sp_table_propertyshapes_col_description"></td>
+                        </tr>
+                        <tr>
+                           <td></td>
+                           <td><code><a href="http://www.w3.org/2004/02/skos/core#prefLabel">skos:prefLabel</a></code></td>
+                           <td><code>rdf:langString</code><br></td>
+                           <td>
+                              <div style="width:30px">1..1</div>
+                           </td>
+                           <td class="sp_table_propertyshapes_col_description"></td>
+                        </tr>
+                        <tr>
+                           <td></td>
+                           <td><code><a href="http://www.w3.org/1999/02/22-rdf-syntax-ns#type">rdf:type</a></code></td>
+                           <td><code>IRI</code><br></td>
+                           <td>
+                              <div style="width:30px">1..1</div>
+                           </td>
+                           <td class="sp_table_propertyshapes_col_description"></td>
+                        </tr>
+                        <tr>
+                           <td></td>
+                           <td><code><a href="http://www.w3.org/2004/02/skos/core#inScheme">skos:inScheme</a></code></td>
+                           <td><code>skos:ConceptScheme</code><br></td>
+                           <td>
+                              <div style="width:30px">1..1</div>
+                           </td>
+                           <td class="sp_table_propertyshapes_col_description"></td>
+                        </tr>
+                        <tr>
+                           <td></td>
+                           <td><code><a href="http://www.w3.org/2004/02/skos/core#definition">skos:definition</a></code></td>
+                           <td><code>rdf:langString</code><br></td>
+                           <td>
+                              <div style="width:30px">0..2</div>
+                           </td>
+                           <td class="sp_table_propertyshapes_col_description"></td>
+                        </tr>
+                     </tbody>
+                  </table>
+               </section>
+            </div>
+         </div><br><div class="row mt-3">
+            <div class="col">
+               <section id="ons:categorie">
+                  <div class="sp_section_title_table_wrapper">
+                     <h3 class="sp_section_title_table"></h3>
+                  </div>
+                  <ul class="sp_list_description_properties">
+                     <li>Closed shape</li>
+                  </ul>Applies to: <br><code>
+                     <pre>SELECT ?this WHERE { ?this a &lt;http://www.w3.org/2004/02/skos/core#Concept&gt;. FILTER NOT EXISTS { ?this a &lt;http://dbpedia.org/ontology/ChemicalSubstance&gt;. } }</pre></code><table class="sp_table_propertyshapes table-striped table-responsive">
+                     <thead>
+                        <tr>
+                           <th>Property name</th>
+                           <th>URI</th>
+                           <th>Expected value</th>
+                           <th>Card.</th>
+                           <th class="sp_description_column">Description</th>
+                        </tr>
+                     </thead>
+                     <tbody>
+                        <tr>
+                           <td></td>
+                           <td><code><a href="http://www.w3.org/2004/02/skos/core#prefLabel">skos:prefLabel</a></code></td>
+                           <td><code>rdf:langString</code><br></td>
+                           <td>
+                              <div style="width:30px">1..1</div>
+                           </td>
+                           <td class="sp_table_propertyshapes_col_description"></td>
+                        </tr>
+                        <tr>
+                           <td></td>
+                           <td><code><a href="http://www.w3.org/2004/02/skos/core#altLabel">skos:altLabel</a></code></td>
+                           <td><code>rdf:langString</code><br></td>
+                           <td>
+                              <div style="width:30px">0..*</div>
+                           </td>
+                           <td class="sp_table_propertyshapes_col_description"></td>
+                        </tr>
+                        <tr>
+                           <td></td>
+                           <td><code><a href="http://www.w3.org/2004/02/skos/core#broader">skos:broader</a></code></td>
+                           <td><code>skos:Concept</code><br></td>
+                           <td>
+                              <div style="width:30px">0..1</div>
+                           </td>
+                           <td class="sp_table_propertyshapes_col_description"></td>
+                        </tr>
+                        <tr>
+                           <td></td>
+                           <td><code><a href="http://www.w3.org/2004/02/skos/core#inScheme">skos:inScheme</a></code></td>
+                           <td><code>skos:ConceptScheme</code><br></td>
+                           <td>
+                              <div style="width:30px">1..1</div>
+                           </td>
+                           <td class="sp_table_propertyshapes_col_description"></td>
+                        </tr>
+                        <tr>
+                           <td></td>
+                           <td><code><a href="http://www.w3.org/2000/01/rdf-schema#seeAlso">rdfs:seeAlso</a></code></td>
+                           <td><code>IRI</code><br></td>
+                           <td>
+                              <div style="width:30px">0..1</div>
+                           </td>
+                           <td class="sp_table_propertyshapes_col_description"></td>
+                        </tr>
+                        <tr>
+                           <td></td>
+                           <td><code><a href="http://www.w3.org/2004/02/skos/core#comment">skos:comment</a></code></td>
+                           <td><code>rdf:langString</code><br></td>
+                           <td>
+                              <div style="width:30px">0..*</div>
+                           </td>
+                           <td class="sp_table_propertyshapes_col_description"></td>
+                        </tr>
+                        <tr>
+                           <td></td>
+                           <td><code><a href="http://www.w3.org/2004/02/skos/core#definition">skos:definition</a></code></td>
+                           <td><code>rdf:langString</code><br></td>
+                           <td>
+                              <div style="width:30px">0..2</div>
+                           </td>
+                           <td class="sp_table_propertyshapes_col_description"></td>
+                        </tr>
+                        <tr>
+                           <td></td>
+                           <td><code><a href="http://www.w3.org/2004/02/skos/core#notation">skos:notation</a></code></td>
+                           <td><code>xsd:string</code><br></td>
+                           <td>
+                              <div style="width:30px">0..*</div>
+                           </td>
+                           <td class="sp_table_propertyshapes_col_description"></td>
+                        </tr>
+                        <tr>
+                           <td></td>
+                           <td><code><a href="http://www.w3.org/1999/02/22-rdf-syntax-ns#type">rdf:type</a></code></td>
+                           <td><code>IRI</code><br></td>
+                           <td>
+                              <div style="width:30px">1..1</div>
+                           </td>
+                           <td class="sp_table_propertyshapes_col_description"></td>
+                        </tr>
+                        <tr>
+                           <td></td>
+                           <td><code><a href="http://www.w3.org/2004/02/skos/core#narrowerTransitive">skos:narrowerTransitive</a></code></td>
+                           <td><code>skos:Concept</code><br></td>
+                           <td>
+                              <div style="width:30px">1..*</div>
+                           </td>
+                           <td class="sp_table_propertyshapes_col_description"></td>
+                        </tr>
+                        <tr>
+                           <td></td>
+                           <td><code><a href="http://www.w3.org/2004/02/skos/core#narrower">skos:narrower</a></code></td>
+                           <td><code>skos:Concept</code><br></td>
+                           <td>
+                              <div style="width:30px">1..*</div>
+                           </td>
+                           <td class="sp_table_propertyshapes_col_description"></td>
+                        </tr>
+                        <tr>
+                           <td></td>
+                           <td><code><a href="http://www.w3.org/2004/02/skos/core#topConceptOf">skos:topConceptOf</a></code></td>
+                           <td><code>skos:ConceptScheme</code><br></td>
+                           <td>
+                              <div style="width:30px">0..1</div>
+                           </td>
+                           <td class="sp_table_propertyshapes_col_description"></td>
+                        </tr>
+                     </tbody>
+                  </table>
+               </section>
+            </div>
+         </div><br><div class="row mt-3">
+            <div class="col">
+               <section id="ons:chemische_stof">
+                  <div class="sp_section_title_table_wrapper">
+                     <h3 class="sp_section_title_table"></h3>
+                  </div>
+                  <ul class="sp_list_description_properties">
+                     <li>Closed shape</li>
+                  </ul>Applies to: <br><code>
+                     <pre>SELECT ?this WHERE { ?this a &lt;http://www.w3.org/2004/02/skos/core#Concept&gt; ; a &lt;http://dbpedia.org/ontology/ChemicalSubstance&gt; ; a &lt;http://dbpedia.org/ontology/ChemicalCompound&gt;.  }</pre></code><table class="sp_table_propertyshapes table-striped table-responsive">
+                     <thead>
+                        <tr>
+                           <th>Property name</th>
+                           <th>URI</th>
+                           <th>Expected value</th>
+                           <th>Card.</th>
+                           <th class="sp_description_column">Description</th>
+                        </tr>
+                     </thead>
+                     <tbody>
+                        <tr>
+                           <td></td>
+                           <td><code><a href="http://www.w3.org/2000/01/rdf-schema#seeAlso">rdfs:seeAlso</a></code></td>
+                           <td><code>IRI</code><br></td>
+                           <td>
+                              <div style="width:30px">0..1</div>
+                           </td>
+                           <td class="sp_table_propertyshapes_col_description"></td>
+                        </tr>
+                        <tr>
+                           <td></td>
+                           <td><code><a href="http://dbpedia.org/ontology/inchi">dbo:inchi</a></code></td>
+                           <td><code>xsd:string</code><br></td>
+                           <td>
+                              <div style="width:30px">1..1</div>
+                           </td>
+                           <td class="sp_table_propertyshapes_col_description"></td>
+                        </tr>
+                        <tr>
+                           <td></td>
+                           <td><code><a href="http://www.w3.org/2004/02/skos/core#notation">skos:notation</a></code></td>
+                           <td><code>xsd:string</code><br></td>
+                           <td>
+                              <div style="width:30px">0..*</div>
+                           </td>
+                           <td class="sp_table_propertyshapes_col_description"></td>
+                        </tr>
+                        <tr>
+                           <td></td>
+                           <td><code><a href="http://dbpedia.org/ontology/casNumber">dbo:casNumber</a></code></td>
+                           <td><code>xsd:string</code><br></td>
+                           <td>
+                              <div style="width:30px">1..*</div>
+                           </td>
+                           <td class="sp_table_propertyshapes_col_description"></td>
+                        </tr>
+                        <tr>
+                           <td></td>
+                           <td><code><a href="http://dbpedia.org/ontology/smiles">dbo:smiles</a></code></td>
+                           <td><code>xsd:string</code><br></td>
+                           <td>
+                              <div style="width:30px">1..1</div>
+                           </td>
+                           <td class="sp_table_propertyshapes_col_description"></td>
+                        </tr>
+                        <tr>
+                           <td></td>
+                           <td><code><a href="http://dbpedia.org/ontology/iupacName">dbo:iupacName</a></code></td>
+                           <td><code>rdf:langString</code><br></td>
+                           <td>
+                              <div style="width:30px">1..1</div>
+                           </td>
+                           <td class="sp_table_propertyshapes_col_description"></td>
+                        </tr>
+                        <tr>
+                           <td></td>
+                           <td><code><a href="http://www.w3.org/2004/02/skos/core#comment">skos:comment</a></code></td>
+                           <td><code>rdf:langString</code><br></td>
+                           <td>
+                              <div style="width:30px">0..*</div>
+                           </td>
+                           <td class="sp_table_propertyshapes_col_description"></td>
+                        </tr>
+                        <tr>
+                           <td></td>
+                           <td><code><a href="http://www.w3.org/2004/02/skos/core#exactMatch">skos:exactMatch</a></code></td>
+                           <td><code>IRI</code><br></td>
+                           <td>
+                              <div style="width:30px">0..*</div>
+                           </td>
+                           <td class="sp_table_propertyshapes_col_description"></td>
+                        </tr>
+                        <tr>
+                           <td></td>
+                           <td><code><a href="http://www.w3.org/2004/02/skos/core#inScheme">skos:inScheme</a></code></td>
+                           <td><code>skos:ConceptScheme</code><br></td>
+                           <td>
+                              <div style="width:30px">1..1</div>
+                           </td>
+                           <td class="sp_table_propertyshapes_col_description"></td>
+                        </tr>
+                        <tr>
+                           <td></td>
+                           <td><code><a href="http://www.w3.org/1999/02/22-rdf-syntax-ns#type">rdf:type</a></code></td>
+                           <td><code>IRI</code><br></td>
+                           <td>
+                              <div style="width:30px">3..3</div>
+                           </td>
+                           <td class="sp_table_propertyshapes_col_description"></td>
+                        </tr>
+                        <tr>
+                           <td></td>
+                           <td><code><a href="http://www.w3.org/2004/02/skos/core#definition">skos:definition</a></code></td>
+                           <td><code>rdf:langString</code><br></td>
+                           <td>
+                              <div style="width:30px">0..2</div>
+                           </td>
+                           <td class="sp_table_propertyshapes_col_description"></td>
+                        </tr>
+                        <tr>
+                           <td></td>
+                           <td><code><a href="http://www.w3.org/2004/02/skos/core#altLabel">skos:altLabel</a></code></td>
+                           <td><code>rdf:langString</code><br></td>
+                           <td>
+                              <div style="width:30px">0..*</div>
+                           </td>
+                           <td class="sp_table_propertyshapes_col_description"></td>
+                        </tr>
+                        <tr>
+                           <td></td>
+                           <td><code><a href="http://dbpedia.org/ontology/formula">dbo:formula</a></code></td>
+                           <td><code>xsd:string</code><br></td>
+                           <td>
+                              <div style="width:30px">1..1</div>
+                           </td>
+                           <td class="sp_table_propertyshapes_col_description"></td>
+                        </tr>
+                        <tr>
+                           <td></td>
+                           <td><code><a href="http://www.w3.org/2004/02/skos/core#broaderTransitive">skos:broaderTransitive</a></code></td>
+                           <td><code>skos:Concept</code><br></td>
+                           <td>
+                              <div style="width:30px">1..*</div>
+                           </td>
+                           <td class="sp_table_propertyshapes_col_description"></td>
+                        </tr>
+                        <tr>
+                           <td></td>
+                           <td><code><a href="http://www.w3.org/2004/02/skos/core#prefLabel">skos:prefLabel</a></code></td>
+                           <td><code>rdf:langString</code><br></td>
+                           <td>
+                              <div style="width:30px">1..1</div>
+                           </td>
+                           <td class="sp_table_propertyshapes_col_description"></td>
+                        </tr>
+                        <tr>
+                           <td></td>
+                           <td><code><a href="http://www.w3.org/2004/02/skos/core#narrowerTransitive">skos:narrowerTransitive</a></code></td>
+                           <td><code>skos:Concept</code><br></td>
+                           <td>
+                              <div style="width:30px">0..*</div>
+                           </td>
+                           <td class="sp_table_propertyshapes_col_description"></td>
+                        </tr>
+                        <tr>
+                           <td></td>
+                           <td><code><a href="http://dbpedia.org/property/inchikey">dbp:inchikey</a></code></td>
+                           <td><code>xsd:string</code><br></td>
+                           <td>
+                              <div style="width:30px">1..1</div>
+                           </td>
+                           <td class="sp_table_propertyshapes_col_description"></td>
+                        </tr>
+                        <tr>
+                           <td></td>
+                           <td><code><a href="http://www.w3.org/2004/02/skos/core#narrower">skos:narrower</a></code></td>
+                           <td><code>skos:Concept</code><br></td>
+                           <td>
+                              <div style="width:30px">0..*</div>
+                           </td>
+                           <td class="sp_table_propertyshapes_col_description"></td>
+                        </tr>
+                        <tr>
+                           <td></td>
+                           <td><code><a href="http://dbpedia.org/ontology/pubchem">dbo:pubchem</a></code></td>
+                           <td><code>xsd:int</code><br></td>
+                           <td>
+                              <div style="width:30px">0..1</div>
+                           </td>
+                           <td class="sp_table_propertyshapes_col_description"></td>
+                        </tr>
+                        <tr>
+                           <td></td>
+                           <td><code><a href="http://www.w3.org/2004/02/skos/core#broader">skos:broader</a></code></td>
+                           <td><code>skos:Concept</code><br></td>
+                           <td>
+                              <div style="width:30px">1..1</div>
+                           </td>
+                           <td class="sp_table_propertyshapes_col_description"></td>
                         </tr>
                      </tbody>
                   </table>
@@ -992,9 +1111,12 @@ hide empty members
          </div><br><div class="row mt-3">
             <div class="col">
                <section id="ons:chemische_stof_collection">
-                  <h2 class="sp_section_title_table">verzameling</h2>
-                  <ul class="sp_list_description_properties sp_ul">
-                     <li>Target Class: <a href="http://www.w3.org/2004/02/skos/core#Collection">skos:Collection</a></li>
+                  <div class="sp_section_title_table_wrapper">
+                     <h3 class="sp_section_title_table"></h3>
+                  </div>
+                  <ul class="sp_list_description_properties">
+                     <li>Applies to: <a href="http://www.w3.org/2004/02/skos/core#Collection">skos:Collection</a></li>
+                     <li>Closed shape</li>
                   </ul>
                   <table class="sp_table_propertyshapes table-striped table-responsive">
                      <thead>
@@ -1008,31 +1130,31 @@ hide empty members
                      </thead>
                      <tbody>
                         <tr>
-                           <td>is in schema</td>
-                           <td><code><a href="http://www.w3.org/2004/02/skos/core#inScheme">skos:inScheme</a></code></td>
-                           <td><code><a href="#ons:chemische_stof_schema">conceptschema van chemische stoffen</a></code><br></td>
-                           <td>
-                              <div style="width:30px">1..1</div>
-                           </td>
-                           <td class="sp_table_propertyshapes_col_description">Drukt de relatie uit tussen een 'resource' en het schema dat het bevat.</td>
-                        </tr>
-                        <tr>
-                           <td>onderdeel</td>
+                           <td></td>
                            <td><code><a href="http://www.w3.org/2004/02/skos/core#member">skos:member</a></code></td>
                            <td><code>skos:Concept</code><br></td>
                            <td>
                               <div style="width:30px">1..*</div>
                            </td>
-                           <td class="sp_table_propertyshapes_col_description">Een collectie heeft minstens 1 onderdeel.</td>
+                           <td class="sp_table_propertyshapes_col_description"></td>
                         </tr>
                         <tr>
-                           <td>voorkeurslabel</td>
+                           <td></td>
                            <td><code><a href="http://www.w3.org/2004/02/skos/core#prefLabel">skos:prefLabel</a></code></td>
                            <td><code>rdf:langString</code><br></td>
                            <td>
                               <div style="width:30px">1..1</div>
                            </td>
-                           <td class="sp_table_propertyshapes_col_description">Het voorkeurslabel in de Nederlandse taal. Slechts 1 voorkeurslabel is toegelaten.</td>
+                           <td class="sp_table_propertyshapes_col_description"></td>
+                        </tr>
+                        <tr>
+                           <td></td>
+                           <td><code><a href="http://www.w3.org/2004/02/skos/core#inScheme">skos:inScheme</a></code></td>
+                           <td><code>skos:ConceptScheme</code><br></td>
+                           <td>
+                              <div style="width:30px">1..1</div>
+                           </td>
+                           <td class="sp_table_propertyshapes_col_description"></td>
                         </tr>
                      </tbody>
                   </table>

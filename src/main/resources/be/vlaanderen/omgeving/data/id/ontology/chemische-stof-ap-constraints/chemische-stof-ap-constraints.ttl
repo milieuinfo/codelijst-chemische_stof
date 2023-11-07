@@ -607,6 +607,7 @@ omg_ps:conceptscheme_prefLabel
     rdfs:isDefinedBy omg_ont:chemische-stof-ap-constraints, omg_voc:chemische-stof-ap-constraints ;
     sh:datatype      rdf:langString ;
     sh:languageIn    ( "en" "nl" ) ;
+    sh:uniqueLang true ;
     sh:maxCount      2 ;
     sh:minCount      1 ;
     sh:nodeKind      sh:Literal ;
