@@ -1,0 +1,63 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_81783",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "obo:IAO_0000115": "A triazolobenzothiazole that is [1,2,4]triazolo[3,4-b][1,3]benzothiazole which is substituted at position 5 by a methyl group. A fungicide used for the control of rice blast, it is not approved for use within the European Union.",
+    "chebi:charge": "0",
+    "chebi:formula": "C9H7N3S",
+    "chebi:inchi": "InChI=1S/C9H7N3S/c1-6-3-2-4-7-8(6)12-5-10-11-9(12)13-7/h2-5H,1H3",
+    "chebi:inchikey": "DQJCHOQLCLEDLL-UHFFFAOYSA-N",
+    "chebi:smiles": "Cc1cccc2sc3nncn3c12",
+    "geneontology:hasDbXref": [
+        "CAS:41814-78-2",
+        "HMDB:HMDB0031809",
+        "KEGG:C18492",
+        "PDBeChem:BEA",
+        "Pesticides:tricyclazole",
+        "PMID:10888518",
+        "PMID:15996714",
+        "PMID:18488130",
+        "PMID:19062069",
+        "PMID:22933369",
+        "PMID:23507498",
+        "PMID:23973553",
+        "PMID:25335466",
+        "PPDB:660",
+        "Reaxys:980261"
+    ],
+    "geneontology:hasId": "81783",
+    "geneontology:hasSynonym": [
+        "5-methyl[1,2,4]triazolo[3,4-b][1,3]benzothiazole",
+        "5-methyl-1,2,4-triazolo[3,4-b]benzothiazole",
+        "5-methyl-striazolo-[3,4-b]benzothiazole",
+        "Blascide",
+        "Blas-T",
+        "Pilarblas",
+        "Sivic",
+        "Tizole",
+        "Trizole"
+    ],
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#3_STAR"
+    },
+    "rdfs:label": "tricyclazole",
+    "rdfs:subClassOf": [
+        {
+            "@id": "obo:CHEBI_48908"
+        },
+        {
+            "@id": "b96_genid-00f1db82e1ab437c844115a94dc63e635-bn81783t5f41032"
+        },
+        {
+            "@id": "b96_genid-00f1db82e1ab437c844115a94dc63e635-bn81783t11f64933"
+        },
+        {
+            "@id": "b96_genid-00f1db82e1ab437c844115a94dc63e635-bn81783t11f86328"
+        }
+    ]
+}

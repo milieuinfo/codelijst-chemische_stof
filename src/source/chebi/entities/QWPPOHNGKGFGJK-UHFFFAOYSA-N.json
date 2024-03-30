@@ -1,0 +1,62 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_24757",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "obo:IAO_0000115": "A chlorine oxoacid with formula HOCl; a weak, unstable acid, it is the active form of chlorine in water.",
+    "chebi:charge": "0",
+    "chebi:formula": "ClHO",
+    "chebi:inchi": "InChI=1S/ClHO/c1-2/h2H",
+    "chebi:inchikey": "QWPPOHNGKGFGJK-UHFFFAOYSA-N",
+    "chebi:smiles": "OCl",
+    "http://purl.uniprot.org/core/name": "hypochlorous acid",
+    "geneontology:hasDbXref": [
+        "PMID:15589368",
+        "CAS:7790-92-3",
+        "Gmelin:688",
+        "PMID:11640916",
+        "PMID:12079432",
+        "PMID:12215218",
+        "PMID:7487057",
+        "PMID:8072005"
+    ],
+    "geneontology:hasId": "24757",
+    "geneontology:hasSynonym": [
+        "[ClOH]",
+        "Chlor(I)-saeure",
+        "chloranol",
+        "HClO",
+        "HOCl",
+        "hydroxidochlorine",
+        "hypochloric acid",
+        "hypochlorige Saeure"
+    ],
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#3_STAR"
+    },
+    "rdfs:label": "hypochlorous acid",
+    "rdfs:subClassOf": [
+        {
+            "@id": "obo:CHEBI_26523"
+        },
+        {
+            "@id": "obo:CHEBI_33426"
+        },
+        {
+            "@id": "b350_genid-00f1db82e1ab437c844115a94dc63e635-bn24757t4f29222"
+        },
+        {
+            "@id": "b350_genid-00f1db82e1ab437c844115a94dc63e635-bn24757t11f38462"
+        },
+        {
+            "@id": "b350_genid-00f1db82e1ab437c844115a94dc63e635-bn24757t11f76797"
+        },
+        {
+            "@id": "b350_genid-00f1db82e1ab437c844115a94dc63e635-bn24757t11f77746"
+        }
+    ]
+}

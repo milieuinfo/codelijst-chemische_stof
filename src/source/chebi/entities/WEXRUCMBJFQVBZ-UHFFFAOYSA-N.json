@@ -1,0 +1,72 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_7983",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "obo:IAO_0000115": "A member of the class of barbiturates, the structure of which is that of barbituric acid substituted at C-5 by ethyl and sec-pentyl groups.",
+    "chebi:charge": "0",
+    "chebi:formula": "C11H18N2O3",
+    "chebi:inchi": "InChI=1S/C11H18N2O3/c1-4-6-7(3)11(5-2)8(14)12-10(16)13-9(11)15/h7H,4-6H2,1-3H3,(H2,12,13,14,15,16)",
+    "chebi:inchikey": "WEXRUCMBJFQVBZ-UHFFFAOYSA-N",
+    "chebi:smiles": "CCCC(C)C1(CC)C(=O)NC(=O)NC1=O",
+    "geneontology:hasDbXref": [
+        "PMID:2579237",
+        "PMID:3599019",
+        "PMID:6864729",
+        "PMID:15857133",
+        "PMID:3654008",
+        "Beilstein:87067",
+        "CAS:76-74-4",
+        "Drug_Central:2095",
+        "DrugBank:DB00312",
+        "Gmelin:281792",
+        "HMDB:HMDB0014457",
+        "KEGG:C07422",
+        "KEGG:D00499",
+        "LINCS:LSM-1566",
+        "PMID:15324906",
+        "PMID:15801854",
+        "PMID:16720246",
+        "PMID:1977910",
+        "PMID:19879734",
+        "PMID:2215478",
+        "PMID:23246494",
+        "PMID:23345614",
+        "PMID:23526799",
+        "PMID:23663566",
+        "PMID:7154009",
+        "PMID:9016329",
+        "PMID:9412440",
+        "PMID:9599235",
+        "Reaxys:87067",
+        "VSDB:3000",
+        "Wikipedia:Pentobarbital"
+    ],
+    "geneontology:hasId": "7983",
+    "geneontology:hasSynonym": [
+        "5-Ethyl-5-(1-methylbutyl)-2,4,6(1H,3H,5H)-pyrimidinetrione",
+        "5-ethyl-5-(1-methylbutyl)barbituric acid",
+        "5-Ethyl-5-(1-methyl-butyl)-pyrimidine-2,4,6-trione",
+        "5-ethyl-5-(pentan-2-yl)pyrimidine-2,4,6(1H,3H,5H)-trione",
+        "5-ethyl-5-(sec-pentyl)barbituric acid",
+        "Nembutal",
+        "Pentobarbital",
+        "Pentobarbitone"
+    ],
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#3_STAR"
+    },
+    "rdfs:label": "pentobarbital",
+    "rdfs:subClassOf": [
+        {
+            "@id": "obo:CHEBI_22693"
+        },
+        {
+            "@id": "b131_genid-00f1db82e1ab437c844115a94dc63e635-bn7983t11f91016"
+        }
+    ]
+}

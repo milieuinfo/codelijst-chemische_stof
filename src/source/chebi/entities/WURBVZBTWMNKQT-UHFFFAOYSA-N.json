@@ -1,0 +1,43 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_84002",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "obo:IAO_0000115": "A member of the class of triazoles that is 1-hydroxy-3,3-dimethyl-1-(1,2,4-triazol-1-yl)butan-2-one in which the hydroxyl hydrogen is replaced by a 4-chlorophenyl group.",
+    "chebi:charge": "0",
+    "chebi:formula": "C14H16ClN3O2",
+    "chebi:inchi": "InChI=1S/C14H16ClN3O2/c1-14(2,3)12(19)13(18-9-16-8-17-18)20-11-6-4-10(15)5-7-11/h4-9,13H,1-3H3",
+    "chebi:inchikey": "WURBVZBTWMNKQT-UHFFFAOYSA-N",
+    "chebi:smiles": "CC(C)(C)C(=O)C(Oc1ccc(Cl)cc1)n1cncn1",
+    "geneontology:hasDbXref": [
+        "LINCS:LSM-4424",
+        "PPDB:648"
+    ],
+    "geneontology:hasId": "84002",
+    "geneontology:hasSynonym": "1-(4-chlorophenoxy)-3,3-dimethyl-1-(1H-1,2,4-triazol-1-yl)butan-2-one",
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#3_STAR"
+    },
+    "rdfs:label": "1-(4-chlorophenoxy)-3,3-dimethyl-1-(1,2,4-triazol-1-yl)butan-2-one",
+    "rdfs:subClassOf": [
+        {
+            "@id": "obo:CHEBI_17087"
+        },
+        {
+            "@id": "obo:CHEBI_35618"
+        },
+        {
+            "@id": "obo:CHEBI_35727"
+        },
+        {
+            "@id": "obo:CHEBI_83403"
+        },
+        {
+            "@id": "obo:CHEBI_141498"
+        }
+    ]
+}

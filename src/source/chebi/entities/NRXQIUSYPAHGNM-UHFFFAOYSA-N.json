@@ -1,0 +1,53 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_81821",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "obo:IAO_0000115": "A  nitrile that is benzonitrile substituted by a hydroxy group at position 4 and iodo groups at positions 3 and 5.",
+    "chebi:charge": "0",
+    "chebi:formula": "C7H3I2NO",
+    "chebi:inchi": "InChI=1S/C7H3I2NO/c8-5-1-4(3-10)2-6(9)7(5)11/h1-2,11H",
+    "chebi:inchikey": "NRXQIUSYPAHGNM-UHFFFAOYSA-N",
+    "chebi:smiles": "Oc1c(I)cc(cc1I)C#N",
+    "geneontology:hasDbXref": [
+        "CAS:1689-83-4",
+        "KEGG:C18546",
+        "Pesticides:ioxynil",
+        "PMID:22893975",
+        "PMID:24449421",
+        "PPDB:402",
+        "Reaxys:2364041"
+    ],
+    "geneontology:hasId": "81821",
+    "geneontology:hasSynonym": [
+        "4-hydroxy-3,5-diiodobenzonitrile",
+        "Actril",
+        "Bentrol",
+        "Loxynil"
+    ],
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#3_STAR"
+    },
+    "rdfs:label": "ioxynil",
+    "rdfs:subClassOf": [
+        {
+            "@id": "obo:CHEBI_18379"
+        },
+        {
+            "@id": "obo:CHEBI_24863"
+        },
+        {
+            "@id": "b3_genid-00f1db82e1ab437c844115a94dc63e635-bn81821t11f24527"
+        },
+        {
+            "@id": "b3_genid-00f1db82e1ab437c844115a94dc63e635-bn81821t11f35703"
+        },
+        {
+            "@id": "b3_genid-00f1db82e1ab437c844115a94dc63e635-bn81821t11f78298"
+        }
+    ]
+}

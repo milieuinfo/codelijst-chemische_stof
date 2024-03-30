@@ -1,0 +1,59 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_38505",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "chebi:charge": "0",
+    "chebi:formula": "C11H15NO2",
+    "chebi:inchi": "InChI=1S/C11H15NO2/c1-8(2)9-6-4-5-7-10(9)14-11(13)12-3/h4-8H,1-3H3,(H,12,13)",
+    "chebi:inchikey": "QBSJMKIUCUGGNG-UHFFFAOYSA-N",
+    "chebi:smiles": "CNC(=O)Oc1ccccc1C(C)C",
+    "http://purl.uniprot.org/core/name": "isoprocarb",
+    "geneontology:hasDbXref": [
+        "Beilstein:1875020",
+        "CAS:2631-40-5",
+        "KEGG:C18418",
+        "PPDB:1184"
+    ],
+    "geneontology:hasId": "38505",
+    "geneontology:hasSynonym": [
+        "2-(1-Methylethyl)phenol methylcarbamate",
+        "2-(1-Methylethyl)phenyl methylcarbamate",
+        "2-(propan-2-yl)phenyl methylcarbamate",
+        "2-isopropylphenyl methylcarbamate",
+        "N-Methyl-2-isopropylphenylcarbam",
+        "o-Cumenyl methylcarbamate",
+        "o-Cumenyl N-methylcarbamate",
+        "o-Isopropylphenol methylcarbamate",
+        "o-Isopropylphenyl methylcarbamate",
+        "o-Isopropylphenyl N-methylcarbamate"
+    ],
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#3_STAR"
+    },
+    "rdfs:label": "isoprocarb",
+    "rdfs:subClassOf": [
+        {
+            "@id": "obo:CHEBI_23003"
+        },
+        {
+            "@id": "b199_genid-00f1db82e1ab437c844115a94dc63e635-bn38505t11f33286"
+        },
+        {
+            "@id": "b199_genid-00f1db82e1ab437c844115a94dc63e635-bn38505t11f38461"
+        },
+        {
+            "@id": "b199_genid-00f1db82e1ab437c844115a94dc63e635-bn38505t11f38462"
+        },
+        {
+            "@id": "b199_genid-00f1db82e1ab437c844115a94dc63e635-bn38505t8f38506"
+        },
+        {
+            "@id": "b199_genid-00f1db82e1ab437c844115a94dc63e635-bn38505t8f45379"
+        }
+    ]
+}

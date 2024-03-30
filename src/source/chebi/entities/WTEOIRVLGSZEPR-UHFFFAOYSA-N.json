@@ -1,0 +1,36 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_33093",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "chebi:charge": "0",
+    "chebi:formula": "BF3",
+    "chebi:inchi": "InChI=1S/BF3/c2-1(3)4",
+    "chebi:inchikey": "WTEOIRVLGSZEPR-UHFFFAOYSA-N",
+    "chebi:smiles": "FB(F)F",
+    "geneontology:hasDbXref": [
+        "CAS:7637-07-2",
+        "Gmelin:1519"
+    ],
+    "geneontology:hasId": "33093",
+    "geneontology:hasSynonym": [
+        "BF3",
+        "[BF3]",
+        "boron fluoride",
+        "Bortrifluorid",
+        "trifluoridoboron",
+        "trifluoroborane",
+        "trifluoroboron"
+    ],
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#3_STAR"
+    },
+    "rdfs:label": "boron trifluoride",
+    "rdfs:subClassOf": {
+        "@id": "obo:CHEBI_38901"
+    }
+}

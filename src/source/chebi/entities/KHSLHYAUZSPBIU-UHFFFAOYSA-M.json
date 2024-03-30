@@ -1,0 +1,69 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_167207",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "obo:IAO_0000115": "The organic bromide salt of benzododecinium. It is a cationic surfactant that has antispetic and disinfectant properties.",
+    "chebi:charge": "0",
+    "chebi:formula": "C21H38N.Br",
+    "chebi:inchi": "InChI=1S/C21H38N.BrH/c1-4-5-6-7-8-9-10-11-12-16-19-22(2,3)20-21-17-14-13-15-18-21;/h13-15,17-18H,4-12,16,19-20H2,1-3H3;1H/q+1;/p-1",
+    "chebi:inchikey": "KHSLHYAUZSPBIU-UHFFFAOYSA-M",
+    "chebi:smiles": "[Br-].CCCCCCCCCCCC[N+](C)(C)CC1=CC=CC=C1",
+    "geneontology:hasDbXref": [
+        "CAS:7281-04-1",
+        "Chemspider:22165",
+        "PMID:15028484",
+        "PMID:15250425",
+        "PMID:18653213",
+        "PMID:19013584",
+        "PMID:1909133",
+        "PMID:19095241",
+        "PMID:20550489",
+        "PMID:30295500",
+        "PMID:7762946",
+        "Reaxys:3579193",
+        "Wikipedia:Benzododecinium_bromide"
+    ],
+    "geneontology:hasId": "167207",
+    "geneontology:hasSynonym": [
+        "Ajatin",
+        "Bacfor BL",
+        "benzyldimethyldodecylammonium bromide",
+        "benzyldodecyldimethylammonium bromide",
+        "dimethyldodecylbenzylammonium bromide",
+        "dimethyl laurylbenzene ammonium bromide",
+        "dodecyl dimethyl benzyl ammonium bromide",
+        "N-benzyl-N,N-dimethyldodecan-1-aminium bromide",
+        "N-dodecyl-N,N-dimethylbenzenemethanaminium bromide",
+        "Sinnoquat BL 95",
+        "Sterinol"
+    ],
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#3_STAR"
+    },
+    "rdfs:label": "benzododecinium bromide",
+    "rdfs:subClassOf": [
+        {
+            "@id": "obo:CHEBI_35273"
+        },
+        {
+            "@id": "obo:CHEBI_48369"
+        },
+        {
+            "@id": "b251_genid-00f1db82e1ab437c844115a94dc63e635-bn167207t11f35195"
+        },
+        {
+            "@id": "b251_genid-00f1db82e1ab437c844115a94dc63e635-bn167207t11f48218"
+        },
+        {
+            "@id": "b251_genid-00f1db82e1ab437c844115a94dc63e635-bn167207t11f48219"
+        },
+        {
+            "@id": "b251_genid-00f1db82e1ab437c844115a94dc63e635-bn167207t10f135611"
+        }
+    ]
+}

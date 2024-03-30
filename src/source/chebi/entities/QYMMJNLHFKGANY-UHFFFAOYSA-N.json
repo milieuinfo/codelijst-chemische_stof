@@ -1,0 +1,58 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_38845",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "chebi:charge": "0",
+    "chebi:formula": "C11H15BrClO3PS",
+    "chebi:inchi": "InChI=1S/C11H15BrClO3PS/c1-3-7-18-17(14,15-4-2)16-11-6-5-9(12)8-10(11)13/h5-6,8H,3-4,7H2,1-2H3",
+    "chebi:inchikey": "QYMMJNLHFKGANY-UHFFFAOYSA-N",
+    "chebi:smiles": "CCCSP(=O)(OCC)Oc1ccc(Br)cc1Cl",
+    "geneontology:hasDbXref": [
+        "Beilstein:2150258",
+        "CAS:41198-08-7",
+        "KEGG:C18404",
+        "PPDB:538"
+    ],
+    "geneontology:hasId": "38845",
+    "geneontology:hasSynonym": [
+        "Curacron",
+        "O-(4-bromo-2-chlorophenyl) O-ethyl S-propyl phosphorothioate",
+        "O-(4-bromo-2-chlorophenyl) O-ethyl S-propyl thiophosphate",
+        "Phosphorothioic acid, O-(4-bromo-2-chlorophenyl) O-ethyl S-propyl ester"
+    ],
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#3_STAR"
+    },
+    "rdfs:label": "profenofos",
+    "rdfs:subClassOf": [
+        {
+            "@id": "obo:CHEBI_83403"
+        },
+        {
+            "@id": "obo:CHEBI_25705"
+        },
+        {
+            "@id": "obo:CHEBI_37512"
+        },
+        {
+            "@id": "obo:CHEBI_25708"
+        },
+        {
+            "@id": "b359_genid-00f1db82e1ab437c844115a94dc63e635-bn38845t11f22153"
+        },
+        {
+            "@id": "b359_genid-00f1db82e1ab437c844115a94dc63e635-bn38845t11f33286"
+        },
+        {
+            "@id": "b359_genid-00f1db82e1ab437c844115a94dc63e635-bn38845t11f38462"
+        },
+        {
+            "@id": "b359_genid-00f1db82e1ab437c844115a94dc63e635-bn38845t8f38852"
+        }
+    ]
+}

@@ -1,0 +1,49 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_31980",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "obo:IAO_0000115": "A fluorocarbon that is propane in which all of the hydrogens have been replaced by fluorines.",
+    "chebi:charge": "0",
+    "chebi:formula": "C3F8",
+    "chebi:inchi": "InChI=1S/C3F8/c4-1(5,2(6,7)8)3(9,10)11",
+    "chebi:inchikey": "QYSGYZVSCZSLHT-UHFFFAOYSA-N",
+    "chebi:smiles": "C(C(C(F)(F)F)(F)F)(F)(F)F",
+    "geneontology:hasDbXref": [
+        "Beilstein:1704032",
+        "CAS:76-19-7",
+        "Drug_Central:2104",
+        "Gmelin:83079",
+        "KEGG:D01738"
+    ],
+    "geneontology:hasId": "31980",
+    "geneontology:hasSynonym": [
+        "1,1,1,2,2,3,3,3-octafluoropropane",
+        "Definity",
+        "FC 218",
+        "Freon 218",
+        "Octafluorpropan",
+        "Oktafluorpropan",
+        "perfluoropropane",
+        "Perflutren"
+    ],
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#3_STAR"
+    },
+    "rdfs:label": "octafluoropropane",
+    "rdfs:subClassOf": [
+        {
+            "@id": "obo:CHEBI_24067"
+        },
+        {
+            "@id": "obo:CHEBI_38824"
+        },
+        {
+            "@id": "b256_genid-00f1db82e1ab437c844115a94dc63e635-bn31980t9f32879"
+        }
+    ]
+}

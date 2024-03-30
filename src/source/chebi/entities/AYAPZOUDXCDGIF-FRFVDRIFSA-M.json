@@ -1,0 +1,40 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_7448",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "chebi:charge": "0",
+    "chebi:inchi": "InChI=1S/C21H22N2O5S.Na/c1-4-28-13-10-9-11-7-5-6-8-12(11)14(13)17(24)22-15-18(25)23-16(20(26)27)21(2,3)29-19(15)23;/h5-10,15-16,19H,4H2,1-3H3,(H,22,24)(H,26,27);/q;+1/p-1/t15-,16+,19-;/m1./s1",
+    "chebi:inchikey": "AYAPZOUDXCDGIF-FRFVDRIFSA-M",
+    "chebi:smiles": "[Na+].[H][C@]12SC(C)(C)[C@@H](N1C(=O)[C@H]2NC(=O)c1c(OCC)ccc2ccccc12)C([O-])=O",
+    "geneontology:hasDbXref": [
+        "DrugBank:DB00607",
+        "Beilstein:4287293",
+        "CAS:985-16-0",
+        "KEGG:C08124"
+    ],
+    "geneontology:hasId": "7448",
+    "geneontology:hasSynonym": [
+        "6-(2-ethoxy-1-naphthamido)penicillin sodium",
+        "Nafcillin sodium",
+        "nafcillin sodium anhydrous",
+        "sodium (2S,5R,6R)-6-{[(2-ethoxynaphthalen-1-yl)carbonyl]amino}-3,3-dimethyl-7-oxo-4-thia-1-azabicyclo[3.2.0]heptane-2-carboxylate",
+        "sodium 6beta-(2-ethoxynaphthalene-1-carboxamido)-2,2-dimethylpenam-3alpha-carboxylate"
+    ],
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#3_STAR"
+    },
+    "rdfs:label": "nafcillin sodium",
+    "rdfs:subClassOf": [
+        {
+            "@id": "obo:CHEBI_38700"
+        },
+        {
+            "@id": "b90_genid-00f1db82e1ab437c844115a94dc63e635-bn7448t10f51918"
+        }
+    ]
+}

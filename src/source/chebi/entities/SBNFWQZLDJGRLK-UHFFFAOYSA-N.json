@@ -1,0 +1,47 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_34916",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "chebi:charge": "0",
+    "chebi:formula": "C23H26O3",
+    "chebi:inchi": "InChI=1S/C23H26O3/c1-16(2)13-20-21(23(20,3)4)22(24)25-15-17-9-8-12-19(14-17)26-18-10-6-5-7-11-18/h5-14,20-21H,15H2,1-4H3",
+    "chebi:inchikey": "SBNFWQZLDJGRLK-UHFFFAOYSA-N",
+    "chebi:smiles": "CC(C)=CC1C(C(=O)OCc2cccc(Oc3ccccc3)c2)C1(C)C",
+    "geneontology:hasDbXref": [
+        "Beilstein:2160930",
+        "CAS:26002-80-2",
+        "Drug_Central:4686",
+        "KEGG:C14387",
+        "KEGG:D08357",
+        "LINCS:LSM-4363",
+        "PPDB:517",
+        "VSDB:517"
+    ],
+    "geneontology:hasId": "34916",
+    "geneontology:hasSynonym": [
+        "2,2-Dimethyl-3-(2-methyl-1-propenyl)cyclopropanecarboxylic acid (3-phenoxyphenyl)methyl ester",
+        "3-phenoxybenzyl 2,2-dimethyl-3-(2-methylprop-1-en-1-yl)cyclopropanecarboxylate",
+        "Phenothrin",
+        "Sumithrin"
+    ],
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#3_STAR"
+    },
+    "rdfs:label": "phenothrin",
+    "rdfs:subClassOf": [
+        {
+            "@id": "obo:CHEBI_50351"
+        },
+        {
+            "@id": "b298_genid-00f1db82e1ab437c844115a94dc63e635-bn34916t8f3680"
+        },
+        {
+            "@id": "b298_genid-00f1db82e1ab437c844115a94dc63e635-bn34916t11f39116"
+        }
+    ]
+}

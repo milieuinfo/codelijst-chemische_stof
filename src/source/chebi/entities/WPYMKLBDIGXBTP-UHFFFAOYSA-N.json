@@ -1,0 +1,89 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_30746",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "obo:IAO_0000115": "A compound comprising a benzene ring core carrying a carboxylic acid substituent.",
+    "chebi:charge": "0",
+    "chebi:formula": "C7H6O2",
+    "chebi:inchi": "InChI=1S/C7H6O2/c8-7(9)6-4-2-1-3-5-6/h1-5H,(H,8,9)",
+    "chebi:inchikey": "WPYMKLBDIGXBTP-UHFFFAOYSA-N",
+    "chebi:smiles": "OC(=O)c1ccccc1",
+    "geneontology:hasDbXref": [
+        "PMID:17439666",
+        "HMDB:HMDB0001870",
+        "KEGG:C00180",
+        "MetaCyc:BENZOATE",
+        "PMID:18314336",
+        "Beilstein:636131",
+        "CAS:65-85-0",
+        "Drug_Central:4664",
+        "DrugBank:DB03793",
+        "Gmelin:2946",
+        "KEGG:C00539",
+        "KEGG:D00038",
+        "KNApSAcK:C00000207",
+        "LINCS:LSM-37118",
+        "PDBeChem:BEZ",
+        "PMID:16728954",
+        "PPDB:1475",
+        "Reaxys:636131",
+        "Wikipedia:Benzoic_Acid",
+        "YMDB:YMDB02301"
+    ],
+    "geneontology:hasId": "30746",
+    "geneontology:hasSynonym": [
+        "acide benzoique",
+        "Aromatic carboxylic acid",
+        "Benzenecarboxylic acid",
+        "Benzeneformic acid",
+        "Benzenemethanoic acid",
+        "Benzoesaeure",
+        "Benzoic acid",
+        "BENZOIC ACID",
+        "Dracylic acid",
+        "E210",
+        "Phenylcarboxylic acid",
+        "Phenylformic acid"
+    ],
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#3_STAR"
+    },
+    "rdfs:label": "benzoic acid",
+    "rdfs:subClassOf": [
+        {
+            "@id": "obo:CHEBI_22723"
+        },
+        {
+            "@id": "b193_genid-00f1db82e1ab437c844115a94dc63e635-bn30746tmms73f16150"
+        },
+        {
+            "@id": "b193_genid-00f1db82e1ab437c844115a94dc63e635-bn30746t4f16150"
+        },
+        {
+            "@id": "b193_genid-00f1db82e1ab437c844115a94dc63e635-bn30746t11f64996"
+        },
+        {
+            "@id": "b193_genid-00f1db82e1ab437c844115a94dc63e635-bn30746t11f65001"
+        },
+        {
+            "@id": "b193_genid-00f1db82e1ab437c844115a94dc63e635-bn30746t11f65256"
+        },
+        {
+            "@id": "b193_genid-00f1db82e1ab437c844115a94dc63e635-bn30746t11f76924"
+        },
+        {
+            "@id": "b193_genid-00f1db82e1ab437c844115a94dc63e635-bn30746t11f76967"
+        },
+        {
+            "@id": "b193_genid-00f1db82e1ab437c844115a94dc63e635-bn30746t11f84735"
+        },
+        {
+            "@id": "b193_genid-00f1db82e1ab437c844115a94dc63e635-bn30746t11f88188"
+        }
+    ]
+}

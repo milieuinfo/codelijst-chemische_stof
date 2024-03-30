@@ -1,0 +1,68 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_5009",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "obo:IAO_0000115": "A carbamate ester that is the O-ethyl carbamate of 2-(4-phenoxyphenoxy)ethylamine.",
+    "chebi:charge": "0",
+    "chebi:formula": "C17H19NO4",
+    "chebi:inchi": "InChI=1S/C17H19NO4/c1-2-20-17(19)18-12-13-21-14-8-10-16(11-9-14)22-15-6-4-3-5-7-15/h3-11H,2,12-13H2,1H3,(H,18,19)",
+    "chebi:inchikey": "HJUFTIJOISQSKQ-UHFFFAOYSA-N",
+    "chebi:smiles": "CCOC(=O)NCCOc1ccc(Oc2ccccc2)cc1",
+    "geneontology:hasDbXref": [
+        "Beilstein:6932817",
+        "CAS:72490-01-8",
+        "CAS:79127-80-3",
+        "KEGG:C11078",
+        "Patent:CN103651557",
+        "Patent:US4215135",
+        "Pesticides:fenoxycarb",
+        "PMID:19898762",
+        "PMID:2098484",
+        "PMID:2904969",
+        "PPDB:304",
+        "Reaxys:6932817",
+        "Wikipedia:Fenoxycarb"
+    ],
+    "geneontology:hasId": "5009",
+    "geneontology:hasSynonym": [
+        "(2-(4-phenoxyphenoxy)ethyl)carbamic acid ethyl ester",
+        "ethyl (2-(p-phenoxyphenoxy)ethyl)carbamate",
+        "ethyl [2-(4-phenoxyphenoxy)ethyl]carbamate",
+        "Fenoxycarb",
+        "Insegar",
+        "N-(2-(p-phenoxyphenoxy)ethyl)carbamic acid",
+        "O-ethyl N-[2-(4-phenoxyphenoxy)ethyl]carbamate"
+    ],
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#3_STAR"
+    },
+    "rdfs:label": "fenoxycarb",
+    "rdfs:subClassOf": [
+        {
+            "@id": "obo:CHEBI_35618"
+        },
+        {
+            "@id": "obo:CHEBI_23003"
+        },
+        {
+            "@id": "b482_genid-00f1db82e1ab437c844115a94dc63e635-bn5009t11f24852"
+        },
+        {
+            "@id": "b482_genid-00f1db82e1ab437c844115a94dc63e635-bn5009t11f24942"
+        },
+        {
+            "@id": "b482_genid-00f1db82e1ab437c844115a94dc63e635-bn5009t11f35703"
+        },
+        {
+            "@id": "b482_genid-00f1db82e1ab437c844115a94dc63e635-bn5009t8f39264"
+        },
+        {
+            "@id": "b482_genid-00f1db82e1ab437c844115a94dc63e635-bn5009t11f78298"
+        }
+    ]
+}

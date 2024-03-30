@@ -1,0 +1,44 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_90027",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "chebi:charge": "0",
+    "chebi:formula": "C17H34O2",
+    "chebi:inchi": "InChI=1S/C17H34O2/c1-4-5-6-7-8-9-10-11-12-13-14-15-17(18)19-16(2)3/h16H,4-15H2,1-3H3",
+    "chebi:inchikey": "AXISYYRBXTVTFY-UHFFFAOYSA-N",
+    "chebi:smiles": "CCCCCCCCCCCCCC(=O)OC(C)C",
+    "geneontology:hasDbXref": [
+        "PMID:24421258",
+        "CAS:110-27-0",
+        "HMDB:HMDB0040392",
+        "PPDB:1319"
+    ],
+    "geneontology:hasId": "90027",
+    "geneontology:hasSynonym": [
+        "1-Methylethyl tetradecanoate",
+        "Bisomel",
+        "Crodamol 1PM",
+        "Deltyl extra",
+        "Estergel (TN)",
+        "FEMA 3556",
+        "Isomyst",
+        "Isopropyl myristate [usan]",
+        "Iso-propyl N-tetradecanoate",
+        "Methylethyl tetradecanoate",
+        "Myristic acid isopropyl ester",
+        "propan-2-yl tetradecanoate",
+        "Tetradecanoic acid methyethyl ester"
+    ],
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#2_STAR"
+    },
+    "rdfs:label": "Isopropyl tetradecanoate",
+    "rdfs:subClassOf": {
+        "@id": "obo:CHEBI_35748"
+    }
+}

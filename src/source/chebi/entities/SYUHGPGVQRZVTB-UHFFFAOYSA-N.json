@@ -1,0 +1,82 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@graph": [
+        {
+            "@id": "obo:CHEBI_33314",
+            "@type": "http://www.w3.org/2002/07/owl#Class",
+            "chebi:charge": "0",
+            "chebi:formula": "Rn",
+            "chebi:inchi": "InChI=1S/Rn",
+            "chebi:inchikey": "SYUHGPGVQRZVTB-UHFFFAOYSA-N",
+            "chebi:smiles": "[Rn]",
+            "geneontology:hasDbXref": [
+                "CAS:10043-92-2",
+                "Gmelin:16242",
+                "WebElements:Rn"
+            ],
+            "geneontology:hasId": "33314",
+            "geneontology:hasSynonym": [
+                "Rn",
+                "86Rn",
+                "niton",
+                "radium emanation",
+                "radon"
+            ],
+            "geneontology:inSubset": {
+                "@id": "obo:chebi#3_STAR"
+            },
+            "rdfs:label": "radon atom",
+            "rdfs:subClassOf": [
+                {
+                    "@id": "obo:CHEBI_33560"
+                },
+                {
+                    "@id": "obo:CHEBI_33309"
+                }
+            ]
+        },
+        {
+            "@id": "obo:CHEBI_49997",
+            "@type": "http://www.w3.org/2002/07/owl#Class",
+            "obo:IAO_0000115": "A monoatomic radon that has an oxidation state of zero.",
+            "chebi:charge": "0",
+            "chebi:formula": "Rn",
+            "chebi:inchi": "InChI=1S/Rn",
+            "chebi:inchikey": "SYUHGPGVQRZVTB-UHFFFAOYSA-N",
+            "chebi:smiles": "[Rn]",
+            "geneontology:hasDbXref": [
+                "CAS:10043-92-2",
+                "CAS:14859-67-7",
+                "KEGG:C16454",
+                "MolBase:927",
+                "PMID:19822438",
+                "PMID:20494496",
+                "PMID:21062804",
+                "PMID:21555169",
+                "PMID:21778159",
+                "PMID:22105600",
+                "PMID:22115433",
+                "Reaxys:14738348",
+                "Wikipedia:Radon"
+            ],
+            "geneontology:hasId": "49997",
+            "geneontology:hasSynonym": [
+                "[Rn]",
+                "Alphatron",
+                "Radon-222"
+            ],
+            "geneontology:inSubset": {
+                "@id": "obo:chebi#3_STAR"
+            },
+            "rdfs:label": "radon(0)",
+            "rdfs:subClassOf": {
+                "@id": "obo:CHEBI_49999"
+            }
+        }
+    ]
+}

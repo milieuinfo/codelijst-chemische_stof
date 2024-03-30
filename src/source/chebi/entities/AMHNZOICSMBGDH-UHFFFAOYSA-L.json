@@ -1,0 +1,56 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_52498",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "obo:IAO_0000115": "A polymeric complex of zinc with the ethylene bis(dithiocarbamate) anionic ligand. Formerly used as an agricultural fungicide for the control of downy mildews and rusts, its use is no longer permitted in the US or the EU.",
+    "chebi:charge": "0",
+    "chebi:formula": "C4H6N2S4Zn",
+    "chebi:inchi": "InChI=1S/C4H8N2S4.Zn/c7-3(8)5-1-2-6-4(9)10;/h1-2H2,(H2,5,7,8)(H2,6,9,10);/q;+2/p-2",
+    "chebi:inchikey": "AMHNZOICSMBGDH-UHFFFAOYSA-L",
+    "chebi:smiles": "[Zn++].[S-]C(=S)NCCNC([S-])=S",
+    "geneontology:hasDbXref": [
+        "Beilstein:4165797",
+        "CAS:12122-67-7",
+        "KEGG:C15232",
+        "Patent:CN1648120",
+        "Patent:US2690448",
+        "Pesticides:zineb",
+        "PMID:22155123",
+        "PMID:23871785",
+        "PMID:465777",
+        "PPDB:683",
+        "Reaxys:4165797",
+        "Wikipedia:Zineb"
+    ],
+    "geneontology:hasId": "52498",
+    "geneontology:hasSynonym": [
+        "[{2-[(sulfanylcarbothioyl)amino]ethyl}carbamodithioato(2-)-kappa(2)S,S']zinc",
+        "zinc ethane-1,2-diyldicarbamodithioate"
+    ],
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#3_STAR"
+    },
+    "rdfs:label": "zineb",
+    "rdfs:subClassOf": [
+        {
+            "@id": "obo:CHEBI_33839"
+        },
+        {
+            "@id": "obo:CHEBI_83060"
+        },
+        {
+            "@id": "obo:CHEBI_36566"
+        },
+        {
+            "@id": "b203_genid-00f1db82e1ab437c844115a94dc63e635-bn52498t10f77308"
+        },
+        {
+            "@id": "b203_genid-00f1db82e1ab437c844115a94dc63e635-bn52498t11f86328"
+        }
+    ]
+}

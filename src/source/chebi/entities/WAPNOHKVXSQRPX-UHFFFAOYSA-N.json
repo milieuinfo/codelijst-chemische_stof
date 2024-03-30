@@ -1,0 +1,51 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_669",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "obo:IAO_0000115": "An aromatic alcohol that is ethanol substituted by a phenyl group at position 1.",
+    "chebi:charge": "0",
+    "chebi:formula": "C8H10O",
+    "chebi:inchi": "InChI=1S/C8H10O/c1-7(9)8-5-3-2-4-6-8/h2-7,9H,1H3",
+    "chebi:inchikey": "WAPNOHKVXSQRPX-UHFFFAOYSA-N",
+    "chebi:smiles": "CC(O)c1ccccc1",
+    "http://purl.uniprot.org/core/name": "1-phenylethanol",
+    "geneontology:hasDbXref": [
+        "Beilstein:1905149",
+        "CAS:98-85-1",
+        "Gmelin:2959",
+        "KEGG:C07112",
+        "PMID:16226717",
+        "PMID:24392725",
+        "PMID:24945457",
+        "Reaxys:1905149"
+    ],
+    "geneontology:hasId": "669",
+    "geneontology:hasSynonym": [
+        "(1-Hydroxyethyl)benzene",
+        "1-Phenethyl alcohol",
+        "1-Phenylethanol",
+        "alpha-methylbenzenemethanol",
+        "alpha-Methylbenzyl alcohol",
+        "alpha-phenylethanol",
+        "alpha-phenylethyl alcohol",
+        "Methylphenyl carbinol",
+        "Styrallyl alcohol"
+    ],
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#3_STAR"
+    },
+    "rdfs:label": "1-phenylethanol",
+    "rdfs:subClassOf": [
+        {
+            "@id": "obo:CHEBI_33854"
+        },
+        {
+            "@id": "b125_genid-00f1db82e1ab437c844115a94dc63e635-bn669t11f75771"
+        }
+    ]
+}

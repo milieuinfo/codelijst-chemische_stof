@@ -1,0 +1,31 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_82548",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "chebi:charge": "0",
+    "chebi:formula": "C24H12O2",
+    "chebi:inchi": "InChI=1S/C24H12O2/c25-23-17-7-3-1-5-13(17)15-9-11-20-22-16(10-12-19(23)21(15)22)14-6-2-4-8-18(14)24(20)26/h1-12H",
+    "chebi:inchikey": "ZTWQZJLUUZHJGS-UHFFFAOYSA-N",
+    "chebi:smiles": "O=c1c2ccccc2c2ccc3c4c(ccc1c24)c1ccccc1c3=O",
+    "geneontology:hasDbXref": [
+        "CAS:128-66-5",
+        "KEGG:C19545"
+    ],
+    "geneontology:hasId": "82548",
+    "geneontology:hasSynonym": [
+        "C.I. Vat Yellow 4",
+        "Dibenzo[b,def]chrysene-7,14-dione"
+    ],
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#2_STAR"
+    },
+    "rdfs:label": "Vat Yellow 4",
+    "rdfs:subClassOf": {
+        "@id": "obo:CHEBI_35300"
+    }
+}

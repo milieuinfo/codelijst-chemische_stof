@@ -1,0 +1,59 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_74848",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "obo:IAO_0000115": "A primary aliphatic amine that is n-pentane in which a hydrogen of one of the methyl groups is replaced by an amino group. A water-soluble liquid with boiling point 104degreeC, it is a strong irritant.",
+    "chebi:charge": "0",
+    "chebi:formula": "C5H13N",
+    "chebi:inchi": "InChI=1S/C5H13N/c1-2-3-4-5-6/h2-6H2,1H3",
+    "chebi:inchikey": "DPBLXKKOBLCELK-UHFFFAOYSA-N",
+    "chebi:smiles": "CCCCCN",
+    "geneontology:hasDbXref": [
+        "CAS:110-58-7",
+        "DrugBank:DB02045",
+        "Patent:CN101619025",
+        "PDBeChem:AML",
+        "PMID:31998587",
+        "PMID:36202886",
+        "PMID:6106950",
+        "PMID:6136581",
+        "Reaxys:505953",
+        "Wikipedia:Pentylamine"
+    ],
+    "geneontology:hasId": "74848",
+    "geneontology:hasSynonym": [
+        "pentylamine",
+        "1-aminopentane",
+        "1-pentanamine",
+        "1-pentylamine",
+        "CH3(CH2)4NH2",
+        "Me(CH2)4NH2",
+        "monoamylamine",
+        "n-AmNH2",
+        "n-amylamine",
+        "N-amylamine",
+        "n-C5H11NH2",
+        "norleucamine",
+        "n-pentylamine"
+    ],
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#3_STAR"
+    },
+    "rdfs:label": "pentan-1-amine",
+    "rdfs:subClassOf": [
+        {
+            "@id": "obo:CHEBI_17062"
+        },
+        {
+            "@id": "b95_genid-00f1db82e1ab437c844115a94dc63e635-bn74848tmms73f195516"
+        },
+        {
+            "@id": "b95_genid-00f1db82e1ab437c844115a94dc63e635-bn74848t5f195516"
+        }
+    ]
+}

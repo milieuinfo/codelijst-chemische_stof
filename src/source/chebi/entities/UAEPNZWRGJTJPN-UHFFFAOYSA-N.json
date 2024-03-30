@@ -1,0 +1,75 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_165745",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "obo:IAO_0000115": "A cycloalkane that is cyclohexane substituted by a single methyl group.",
+    "chebi:charge": "0",
+    "chebi:formula": "C7H14",
+    "chebi:inchi": "InChI=1S/C7H14/c1-7-5-3-2-4-6-7/h7H,2-6H2,1H3",
+    "chebi:inchikey": "UAEPNZWRGJTJPN-UHFFFAOYSA-N",
+    "chebi:smiles": "CC1CCCCC1",
+    "geneontology:hasDbXref": [
+        "CAS:108-87-2",
+        "Chemspider:7674",
+        "FooDB:FDB004722",
+        "KNApSAcK:C00035853",
+        "LIPID_MAPS_instance:LMFA11000660",
+        "PDBeChem:QTE",
+        "PMID:16392847",
+        "PMID:22097862",
+        "PMID:27228731",
+        "PMID:27976520",
+        "PMID:29873476",
+        "PMID:30489070",
+        "PMID:31196293",
+        "PMID:31365258",
+        "PMID:31893214",
+        "PMID:31984280",
+        "PMID:32195573",
+        "PMID:33092386",
+        "PMID:33260965",
+        "PMID:33284739",
+        "PMID:33296761",
+        "PMID:33634302",
+        "Reaxys:505972",
+        "Wikipedia:Methylcyclohexane"
+    ],
+    "geneontology:hasId": "165745",
+    "geneontology:hasSynonym": [
+        "cyclohexylmethane",
+        "hexahydrotoluene",
+        "methyl cyclohexane",
+        "methyl-cyclohexane",
+        "sextone B",
+        "toluene hexahydride"
+    ],
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#3_STAR"
+    },
+    "rdfs:label": "methylcyclohexane",
+    "rdfs:subClassOf": [
+        {
+            "@id": "obo:CHEBI_134179"
+        },
+        {
+            "@id": "obo:CHEBI_23453"
+        },
+        {
+            "@id": "b285_genid-00f1db82e1ab437c844115a94dc63e635-bn165745t9f29005"
+        },
+        {
+            "@id": "b285_genid-00f1db82e1ab437c844115a94dc63e635-bn165745t11f48357"
+        },
+        {
+            "@id": "b285_genid-00f1db82e1ab437c844115a94dc63e635-bn165745t11f76924"
+        },
+        {
+            "@id": "b285_genid-00f1db82e1ab437c844115a94dc63e635-bn165745t11f77746"
+        }
+    ]
+}

@@ -1,0 +1,47 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_34245",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "obo:IAO_0000115": "A dichloroaniline carrying chloro groups at positions 2 and 5.",
+    "chebi:charge": "0",
+    "chebi:formula": "C6H5Cl2N",
+    "chebi:inchi": "InChI=1S/C6H5Cl2N/c7-4-1-2-5(8)6(9)3-4/h1-3H,9H2",
+    "chebi:inchikey": "AVYGCQXNNJPXSS-UHFFFAOYSA-N",
+    "chebi:smiles": "Nc1cc(Cl)ccc1Cl",
+    "geneontology:hasDbXref": [
+        "Beilstein:1447438",
+        "CAS:95-82-9",
+        "Gmelin:601975",
+        "KEGG:C14712",
+        "PMID:1276995",
+        "Reaxys:1447438"
+    ],
+    "geneontology:hasId": "34245",
+    "geneontology:hasSynonym": [
+        "1-Amino-2,5-dichlorobenzene",
+        "2,5-DCA",
+        "2,5-Dichloranilin",
+        "2,5-dichloro-1-aminobenzene",
+        "2,5-Dichloroaniline",
+        "2,5-dichlorobenzenamine",
+        "2,5-dichlorobenzeneamine",
+        "2-amino-1,4-dichlorobenzene"
+    ],
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#3_STAR"
+    },
+    "rdfs:label": "2,5-dichloroaniline",
+    "rdfs:subClassOf": [
+        {
+            "@id": "obo:CHEBI_23696"
+        },
+        {
+            "@id": "b210_genid-00f1db82e1ab437c844115a94dc63e635-bn34245t8f28618"
+        }
+    ]
+}

@@ -1,0 +1,38 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_34093",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "chebi:charge": "0",
+    "chebi:formula": "C16H10O",
+    "chebi:inchi": "InChI=1S/C16H10O/c17-14-9-7-12-5-4-10-2-1-3-11-6-8-13(14)16(12)15(10)11/h1-9,17H",
+    "chebi:inchikey": "BIJNHUAPTJVVNQ-UHFFFAOYSA-N",
+    "chebi:smiles": "Oc1ccc2ccc3cccc4ccc1c2c34",
+    "geneontology:hasDbXref": [
+        "PMID:22815468",
+        "CAS:5315-79-7",
+        "HMDB:HMDB0013139",
+        "KEGG:C14519",
+        "PMID:15159317",
+        "PMID:15247141"
+    ],
+    "geneontology:hasId": "34093",
+    "geneontology:hasSynonym": [
+        "1,5-dihydropyren-1-ol",
+        "1-HYDROXYPYRENE",
+        "1-Hydroxy pyrene",
+        "1-Pyrenol",
+        "Pyren-1-ol"
+    ],
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#2_STAR"
+    },
+    "rdfs:label": "1-Hydroxypyrene",
+    "rdfs:subClassOf": {
+        "@id": "obo:CHEBI_59659"
+    }
+}

@@ -1,0 +1,45 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_32927",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "obo:IAO_0000115": "A straight-chain alkane with 19 carbon atoms. It has been found as a component of essential oils isolated from Artemisia armeniaca.",
+    "chebi:charge": "0",
+    "chebi:formula": "C19H40",
+    "chebi:inchi": "InChI=1S/C19H40/c1-3-5-7-9-11-13-15-17-19-18-16-14-12-10-8-6-4-2/h3-19H2,1-2H3",
+    "chebi:inchikey": "LQERIDTXQFOHKA-UHFFFAOYSA-N",
+    "chebi:smiles": "CCCCCCCCCCCCCCCCCCC",
+    "geneontology:hasDbXref": [
+        "Beilstein:1742892",
+        "CAS:629-92-5",
+        "PMID:22724515",
+        "PMID:23949856",
+        "PMID:24459478",
+        "Reaxys:1742892"
+    ],
+    "geneontology:hasId": "32927",
+    "geneontology:hasSynonym": [
+        "CH3-[CH2]17-CH3",
+        "n-nonadecane",
+        "Nonadekan"
+    ],
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#3_STAR"
+    },
+    "rdfs:label": "nonadecane",
+    "rdfs:subClassOf": [
+        {
+            "@id": "obo:CHEBI_83563"
+        },
+        {
+            "@id": "b438_genid-00f1db82e1ab437c844115a94dc63e635-bn32927t11f27311"
+        },
+        {
+            "@id": "b438_genid-00f1db82e1ab437c844115a94dc63e635-bn32927t11f76924"
+        }
+    ]
+}

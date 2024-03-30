@@ -1,0 +1,53 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_59981",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "obo:IAO_0000115": "A pyrrole carrying an acetyl substituent at the 2-position.",
+    "chebi:charge": "0",
+    "chebi:formula": "C6H7NO",
+    "chebi:inchi": "InChI=1S/C6H7NO/c1-5(8)6-3-2-4-7-6/h2-4,7H,1H3",
+    "chebi:inchikey": "IGJQUJNPMOYEJY-UHFFFAOYSA-N",
+    "chebi:smiles": "CC(=O)c1ccc[nH]1",
+    "geneontology:hasDbXref": [
+        "PMID:2917974",
+        "Beilstein:1882",
+        "CAS:1072-83-9",
+        "Gmelin:50167",
+        "PMID:23933556",
+        "PMID:3542764",
+        "Reaxys:1882"
+    ],
+    "geneontology:hasId": "59981",
+    "geneontology:hasSynonym": [
+        "1-(1H-pyrrol-2-yl)1-ethanone",
+        "1-(1H-Pyrrol-2-yl)ethan-1-one",
+        "1-(1H-Pyrrol-2-yl)ethanone",
+        "1-(1H-pyrrole-2-yl)-ethanone",
+        "1-(2-Pyrrolyl)-1-ethanone",
+        "2-Acetyl-1H-pyrrole",
+        "2-Pyrrolylethanone",
+        "2-Pyrrolyl methyl ketone",
+        "Methyl pyrrol-2-yl ketone",
+        "Pyrrole-alpha-methyl ketone"
+    ],
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#3_STAR"
+    },
+    "rdfs:label": "2-acetylpyrrole",
+    "rdfs:subClassOf": [
+        {
+            "@id": "obo:CHEBI_51867"
+        },
+        {
+            "@id": "obo:CHEBI_76224"
+        },
+        {
+            "@id": "obo:CHEBI_26455"
+        }
+    ]
+}

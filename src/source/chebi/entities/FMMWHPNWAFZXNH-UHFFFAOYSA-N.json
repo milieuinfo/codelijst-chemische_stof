@@ -1,0 +1,61 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_29865",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "obo:IAO_0000115": "An ortho- and peri-fused polycyclic arene consisting of five fused benzene rings.",
+    "chebi:charge": "0",
+    "chebi:formula": "C20H12",
+    "chebi:inchi": "InChI=1S/C20H12/c1-2-7-17-15(4-1)12-16-9-8-13-5-3-6-14-10-11-18(17)20(16)19(13)14/h1-12H",
+    "chebi:inchikey": "FMMWHPNWAFZXNH-UHFFFAOYSA-N",
+    "chebi:smiles": "c1ccc2c(c1)cc1ccc3cccc4ccc2c1c34",
+    "geneontology:hasDbXref": [
+        "PMID:7561049",
+        "Beilstein:1911333",
+        "CAS:50-32-8",
+        "Gmelin:262573",
+        "KEGG:C07535",
+        "LINCS:LSM-2198",
+        "PMID:11932001",
+        "PMID:16256111",
+        "PMID:16381670",
+        "PMID:1844333",
+        "PMID:26530167",
+        "PMID:26703252",
+        "PMID:7721048",
+        "Reaxys:1911333",
+        "Wikipedia:Benzo(a)pyrene"
+    ],
+    "geneontology:hasId": "29865",
+    "geneontology:hasSynonym": [
+        "(B(a)P)",
+        "3,4-Benzopyrene",
+        "3,4-Benzpyrene",
+        "3,4-BP",
+        "Benzo(a)pyrene",
+        "Benzo[a]pyrene",
+        "benzo[def]chrysene",
+        "benzo[pqr]tetraphene",
+        "Benzpyrene",
+        "BP"
+    ],
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#3_STAR"
+    },
+    "rdfs:label": "benzo[a]pyrene",
+    "rdfs:subClassOf": [
+        {
+            "@id": "obo:CHEBI_35300"
+        },
+        {
+            "@id": "b198_genid-00f1db82e1ab437c844115a94dc63e635-bn29865t11f50903"
+        },
+        {
+            "@id": "b198_genid-00f1db82e1ab437c844115a94dc63e635-bn29865t11f75771"
+        }
+    ]
+}

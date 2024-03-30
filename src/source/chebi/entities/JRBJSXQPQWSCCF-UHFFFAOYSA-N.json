@@ -1,0 +1,28 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_82321",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "chebi:charge": "0",
+    "chebi:formula": "C14H16N2O2",
+    "chebi:inchi": "InChI=1S/C14H16N2O2/c1-17-13-7-9(3-5-11(13)15)10-4-6-12(16)14(8-10)18-2/h3-8H,15-16H2,1-2H3",
+    "chebi:inchikey": "JRBJSXQPQWSCCF-UHFFFAOYSA-N",
+    "chebi:smiles": "COc1cc(ccc1N)-c1ccc(N)c(OC)c1",
+    "geneontology:hasDbXref": [
+        "CAS:119-90-4",
+        "KEGG:C19231"
+    ],
+    "geneontology:hasId": "82321",
+    "geneontology:hasSynonym": "ortho-Dianisidine",
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#2_STAR"
+    },
+    "rdfs:label": "3,3'-Dimethoxybenzidine",
+    "rdfs:subClassOf": {
+        "@id": "obo:CHEBI_22888"
+    }
+}

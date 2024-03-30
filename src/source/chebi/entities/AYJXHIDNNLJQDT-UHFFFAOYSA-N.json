@@ -1,0 +1,29 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_179251",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "chebi:charge": "0",
+    "chebi:formula": "C9H12O2",
+    "chebi:inchi": "InChI=1S/C9H12O2/c1-6-4-7(10)5-9(2,3)8(6)11/h4H,5H2,1-3H3",
+    "chebi:inchikey": "AYJXHIDNNLJQDT-UHFFFAOYSA-N",
+    "chebi:smiles": "O=C1C(CC(=O)C=C1C)(C)C",
+    "geneontology:hasDbXref": [
+        "CAS:1125-21-9",
+        "Chemspider:56162",
+        "HMDB:HMDB0040216"
+    ],
+    "geneontology:hasId": "179251",
+    "geneontology:hasSynonym": "2,6,6-trimethylcyclohex-2-ene-1,4-dione",
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#2_STAR"
+    },
+    "rdfs:label": "2,6,6-Trimethyl-2-cyclohexene-1,4-dione",
+    "rdfs:subClassOf": {
+        "@id": "obo:CHEBI_48953"
+    }
+}

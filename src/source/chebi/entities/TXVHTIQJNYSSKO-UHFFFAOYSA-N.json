@@ -1,0 +1,54 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_34567",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "obo:IAO_0000115": "An ortho- and peri-fused polycyclic arene consisting of five fused benzene rings. It is listed as a Group 3 carcinogen by the IARC.",
+    "chebi:charge": "0",
+    "chebi:formula": "C20H12",
+    "chebi:inchi": "InChI=1S/C20H12/c1-2-8-16-15(7-1)17-9-3-5-13-11-12-14-6-4-10-18(16)20(14)19(13)17/h1-12H",
+    "chebi:inchikey": "TXVHTIQJNYSSKO-UHFFFAOYSA-N",
+    "chebi:smiles": "c1ccc2c(c1)c1cccc3ccc4cccc2c4c13",
+    "geneontology:hasDbXref": [
+        "PMID:7561049",
+        "Beilstein:1911334",
+        "CAS:192-97-2",
+        "KEGG:C14435",
+        "LINCS:LSM-36984",
+        "PMID:24812998",
+        "PMID:25903191",
+        "Reaxys:1911334",
+        "Wikipedia:Benzo(e)pyrene"
+    ],
+    "geneontology:hasId": "34567",
+    "geneontology:hasSynonym": [
+        "1,2-Benzopyrene",
+        "1,2-Benzpyrene",
+        "4,5-Benzopyrene",
+        "4,5-Benzpyrene",
+        "9,10-Benzpyrene",
+        "B(e)P",
+        "Benzo(e)pyrene",
+        "Benzo(l)pyrene",
+        "Benzo[e]pyrene"
+    ],
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#3_STAR"
+    },
+    "rdfs:label": "benzo[e]pyrene",
+    "rdfs:subClassOf": [
+        {
+            "@id": "obo:CHEBI_35300"
+        },
+        {
+            "@id": "b244_genid-00f1db82e1ab437c844115a94dc63e635-bn34567t11f25435"
+        },
+        {
+            "@id": "b244_genid-00f1db82e1ab437c844115a94dc63e635-bn34567t11f50903"
+        }
+    ]
+}

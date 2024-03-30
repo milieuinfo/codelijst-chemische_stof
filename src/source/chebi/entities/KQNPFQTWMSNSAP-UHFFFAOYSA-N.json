@@ -1,0 +1,88 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_16135",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "obo:IAO_0000115": "A branched fatty acid comprising propanoic acid carrying a methyl branch at C-2.",
+    "chebi:charge": "0",
+    "chebi:formula": "C4H8O2",
+    "chebi:inchi": "InChI=1S/C4H8O2/c1-3(2)4(5)6/h3H,1-2H3,(H,5,6)",
+    "chebi:inchikey": "KQNPFQTWMSNSAP-UHFFFAOYSA-N",
+    "chebi:smiles": "CC(C)C(O)=O",
+    "geneontology:hasDbXref": [
+        "Beilstein:635770",
+        "BPDB:3128",
+        "CAS:79-31-2",
+        "DrugBank:DB02531",
+        "Gmelin:49630",
+        "HMDB:HMDB0001873",
+        "KEGG:C02632",
+        "KNApSAcK:C00029462",
+        "LIPID_MAPS_instance:LMFA01020071",
+        "MetaCyc:ISOBUTYRATE",
+        "PDBeChem:ALQ",
+        "PMID:10757489",
+        "PMID:17580301",
+        "PMID:17877388",
+        "PPDB:3128",
+        "Reaxys:635770",
+        "UM-BBD_compID:c0383",
+        "Wikipedia:Isobutyric_acid"
+    ],
+    "geneontology:hasId": "16135",
+    "geneontology:hasSynonym": [
+        "2,2-dimethylacetic acid",
+        "2-Methylpropanoate",
+        "2-methylpropanoic acid",
+        "2-Methylpropanoic acid",
+        "2-METHYL-PROPIONIC ACID",
+        "2-Methylpropionsaeure",
+        "alpha-isobutyric acid",
+        "alpha-methylpropanoic acid",
+        "alpha-methylpropionic acid",
+        "Dimethylacetic acid",
+        "Isobutanoate",
+        "isobutanoic acid",
+        "Isobuttersaeure",
+        "Isobutyrate",
+        "Isobutyric acid",
+        "ISOBUTYRIC ACID",
+        "iso-butyric acid",
+        "iso-C3H7COOH",
+        "isopropylformic acid"
+    ],
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#3_STAR"
+    },
+    "rdfs:label": "isobutyric acid",
+    "rdfs:subClassOf": [
+        {
+            "@id": "obo:CHEBI_140601"
+        },
+        {
+            "@id": "obo:CHEBI_39417"
+        },
+        {
+            "@id": "b293_genid-00f1db82e1ab437c844115a94dc63e635-bn16135tmms73f48944"
+        },
+        {
+            "@id": "b293_genid-00f1db82e1ab437c844115a94dc63e635-bn16135t11f27311"
+        },
+        {
+            "@id": "b293_genid-00f1db82e1ab437c844115a94dc63e635-bn16135t4f48944"
+        },
+        {
+            "@id": "obo:CHEBI_62499"
+        },
+        {
+            "@id": "b293_genid-00f1db82e1ab437c844115a94dc63e635-bn16135t11f76924"
+        },
+        {
+            "@id": "b293_genid-00f1db82e1ab437c844115a94dc63e635-bn16135t11f83056"
+        }
+    ]
+}

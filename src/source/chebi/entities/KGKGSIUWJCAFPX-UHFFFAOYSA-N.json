@@ -1,0 +1,59 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_949",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "obo:IAO_0000115": "A dichlorobenzene compound that is 1,3-dichlorobenzene in which the hydrogen atom at position 2 is substituted by a thioamide group. A proherbicide used to control a wide range of broad-leaved and grass weeds.",
+    "chebi:charge": "0",
+    "chebi:formula": "C7H5Cl2NS",
+    "chebi:inchi": "InChI=1S/C7H5Cl2NS/c8-4-2-1-3-5(9)6(4)7(10)11/h1-3H,(H2,10,11)",
+    "chebi:inchikey": "KGKGSIUWJCAFPX-UHFFFAOYSA-N",
+    "chebi:smiles": "C=1C(=C(C(=S)N)C(Cl)=CC1)Cl",
+    "geneontology:hasDbXref": [
+        "CAS:1918-13-4",
+        "KEGG:C11041",
+        "Pesticides:chlorthiamid",
+        "PMID:10854608",
+        "PMID:1916084",
+        "PMID:3067458",
+        "PMID:5549686",
+        "PMID:5588846",
+        "PPDB:158",
+        "Reaxys:1910353"
+    ],
+    "geneontology:hasId": "949",
+    "geneontology:hasSynonym": [
+        "2,6-dichlorobenzene-1-carbothioamide",
+        "2,6-dichlorobenzenecarbothioamide",
+        "2,6-Dichlorothiobenzamide",
+        "2,6-Dichlor-thiobenzamid",
+        "Chlorthiamid",
+        "Chlorthioamide",
+        "Chlortiamid",
+        "Chlortiamide",
+        "SD 7961",
+        "WL-5792"
+    ],
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#2_STAR"
+    },
+    "rdfs:label": "2,6-dichlorothiobenzamide",
+    "rdfs:subClassOf": [
+        {
+            "@id": "obo:CHEBI_23697"
+        },
+        {
+            "@id": "b242_genid-00f1db82e1ab437c844115a94dc63e635-bn949t11f33286"
+        },
+        {
+            "@id": "obo:CHEBI_47956"
+        },
+        {
+            "@id": "b242_genid-00f1db82e1ab437c844115a94dc63e635-bn949t11f136646"
+        }
+    ]
+}

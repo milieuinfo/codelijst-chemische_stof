@@ -1,0 +1,28 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_201434",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "chebi:charge": "0",
+    "chebi:formula": "C20H17F2N3O3.ClH",
+    "chebi:inchi": "InChI=1S/C20H17F2N3O3.ClH/c21-12-1-3-13(4-2-12)25-11-15(20(27)28)19(26)14-9-16(22)18(10-17(14)25)24-7-5-23-6-8-24;/h1-4,9-11,23H,5-8H2,(H,27,28);1H",
+    "chebi:inchikey": "KNWODGJQLCISLC-UHFFFAOYSA-N",
+    "chebi:smiles": "Cl.FC1=C(N2CCNCC2)C=C3N(C4=CC=C(F)C=C4)C=C(C(C3=C1)=O)C(=O)O",
+    "geneontology:hasDbXref": [
+        "Chemspider:50726",
+        "KEGG:D05802"
+    ],
+    "geneontology:hasId": "201434",
+    "geneontology:hasSynonym": "6-luoro-1-(4-luorophenyl)-4-oxo-7-piperazin-1-ylquinoline-3-carboxylic acid;hydrochloride",
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#2_STAR"
+    },
+    "rdfs:label": "Sarafloxacin hydrochloride",
+    "rdfs:subClassOf": {
+        "@id": "obo:CHEBI_26513"
+    }
+}

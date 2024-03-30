@@ -1,0 +1,65 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_31575",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "obo:IAO_0000115": "An ethyl ester resulting from the formal condensation of the carboxy group of 4-hydroxybenzoic acid with ethanol,",
+    "chebi:charge": "0",
+    "chebi:formula": "C9H10O3",
+    "chebi:inchi": "InChI=1S/C9H10O3/c1-2-12-9(11)7-3-5-8(10)6-4-7/h3-6,10H,2H2,1H3",
+    "chebi:inchikey": "NUVBSKCKDOMJSU-UHFFFAOYSA-N",
+    "chebi:smiles": "C(=O)(C1=CC=C(C=C1)O)OCC",
+    "geneontology:hasDbXref": [
+        "CAS:120-47-8",
+        "Drug_Central:4773",
+        "HMDB:HMDB0032573",
+        "KEGG:D01647",
+        "KNApSAcK:C00033837",
+        "PDBeChem:E4B",
+        "PMID:26901724",
+        "PMID:27106519",
+        "PMID:27377865",
+        "Reaxys:1101972",
+        "Wikipedia:Ethylparaben"
+    ],
+    "geneontology:hasId": "31575",
+    "geneontology:hasSynonym": [
+        "4-hydroxybenzoic acid ethyl ester",
+        "E214",
+        "E-214",
+        "ethyl 4-hydroxybenzoate",
+        "ethyl paraben",
+        "Ethyl parahydroxybenzoate",
+        "ethyl p-hydroxybenzoate",
+        "p-hydroxybenzoic acid ethyl ester",
+        "p-Oxybenzoesaeureaethylester"
+    ],
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#3_STAR"
+    },
+    "rdfs:label": "ethylparaben",
+    "rdfs:subClassOf": [
+        {
+            "@id": "obo:CHEBI_23990"
+        },
+        {
+            "@id": "b21_genid-00f1db82e1ab437c844115a94dc63e635-bn31575t11f35718"
+        },
+        {
+            "@id": "b21_genid-00f1db82e1ab437c844115a94dc63e635-bn31575t11f65256"
+        },
+        {
+            "@id": "b21_genid-00f1db82e1ab437c844115a94dc63e635-bn31575t11f76924"
+        },
+        {
+            "@id": "b21_genid-00f1db82e1ab437c844115a94dc63e635-bn31575t11f76989"
+        },
+        {
+            "@id": "obo:CHEBI_85122"
+        }
+    ]
+}

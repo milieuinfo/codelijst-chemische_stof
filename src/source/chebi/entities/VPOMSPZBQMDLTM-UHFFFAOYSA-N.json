@@ -1,0 +1,29 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_88214",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "obo:IAO_0000115": "A dichlorophenol in which the two chloro substituents are located at positions 3 and 5.",
+    "chebi:charge": "0",
+    "chebi:formula": "C6H4Cl2O",
+    "chebi:inchi": "InChI=1S/C6H4Cl2O/c7-4-1-5(8)3-6(9)2-4/h1-3,9H",
+    "chebi:inchikey": "VPOMSPZBQMDLTM-UHFFFAOYSA-N",
+    "chebi:smiles": "C1=C(C=C(C=C1O)Cl)Cl",
+    "geneontology:hasDbXref": [
+        "CAS:591-35-5",
+        "PMID:11278001",
+        "Reaxys:1906458"
+    ],
+    "geneontology:hasId": "88214",
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#3_STAR"
+    },
+    "rdfs:label": "3,5-dichlorophenol",
+    "rdfs:subClassOf": {
+        "@id": "obo:CHEBI_23702"
+    }
+}

@@ -1,0 +1,43 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_136540",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "obo:IAO_0000115": "A hydrochloride resulting from the reaction of equimolar amounts of phenylhydrazine and hydrogen chloride.",
+    "chebi:charge": "0",
+    "chebi:formula": "C6H9ClN2",
+    "chebi:inchi": "InChI=1S/C6H8N2.ClH/c7-8-6-4-2-1-3-5-6;/h1-5,8H,7H2;1H",
+    "chebi:inchikey": "JOVOSQBPPZZESK-UHFFFAOYSA-N",
+    "chebi:smiles": "C=1(C=CC=CC1)NN.Cl",
+    "geneontology:hasDbXref": [
+        "CAS:59-88-1",
+        "PMID:12242684",
+        "PMID:138272",
+        "PMID:2141786",
+        "PMID:2386504"
+    ],
+    "geneontology:hasId": "136540",
+    "geneontology:hasSynonym": [
+        "phenylhydrazine-HCl",
+        "phenylhydrazine monohydrochloride",
+        "Phenylhydrazin hydrochlorid",
+        "phenylhydrazinium chloride",
+        "PhNHNH2.HCl"
+    ],
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#3_STAR"
+    },
+    "rdfs:label": "phenylhydrazine hydrochloride",
+    "rdfs:subClassOf": [
+        {
+            "@id": "obo:CHEBI_36807"
+        },
+        {
+            "@id": "b154_genid-00f1db82e1ab437c844115a94dc63e635-bn136540t10f27924"
+        }
+    ]
+}

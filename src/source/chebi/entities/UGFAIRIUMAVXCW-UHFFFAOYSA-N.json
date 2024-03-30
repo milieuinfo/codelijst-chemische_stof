@@ -1,0 +1,115 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_17245",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "obo:IAO_0000115": "A one-carbon compound in which the carbon is joined only to a single oxygen. It is a colourless, odourless, tasteless, toxic gas.",
+    "chebi:charge": "0",
+    "chebi:formula": "CO",
+    "chebi:inchi": "InChI=1S/CO/c1-2",
+    "chebi:inchikey": "UGFAIRIUMAVXCW-UHFFFAOYSA-N",
+    "chebi:smiles": "[C-]#[O+]",
+    "http://purl.uniprot.org/core/name": "CO",
+    "geneontology:hasDbXref": [
+        "Beilstein:1900508",
+        "Beilstein:3535285",
+        "Beilstein:3587264",
+        "CAS:630-08-0",
+        "Gmelin:421",
+        "HMDB:HMDB0001361",
+        "KEGG:C00237",
+        "KEGG:D09706",
+        "MetaCyc:CARBON-MONOXIDE",
+        "MolBase:753",
+        "PDBeChem:CMO",
+        "PMID:10085152",
+        "PMID:10679539",
+        "PMID:11572959",
+        "PMID:14527438",
+        "PMID:14563665",
+        "PMID:15127883",
+        "PMID:15598489",
+        "PMID:16371440",
+        "PMID:16520836",
+        "PMID:17041734",
+        "PMID:18094356",
+        "PMID:19909254",
+        "PMID:23762709",
+        "PMID:7022476",
+        "PMID:8240252",
+        "PMID:8620577",
+        "UM-BBD_compID:c0369",
+        "Wikipedia:Carbon_monoxide"
+    ],
+    "geneontology:hasId": "17245",
+    "geneontology:hasSynonym": [
+        "CO",
+        "[CO]",
+        "C#O",
+        "carbon(II) oxide",
+        "carbon monooxide",
+        "Carbon monoxide",
+        "CARBON MONOXIDE"
+    ],
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#3_STAR"
+    },
+    "rdfs:label": "carbon monoxide",
+    "rdfs:subClassOf": [
+        {
+            "@id": "obo:CHEBI_64708"
+        },
+        {
+            "@id": "obo:CHEBI_138675"
+        },
+        {
+            "@id": "obo:CHEBI_23014"
+        },
+        {
+            "@id": "b319_genid-00f1db82e1ab437c844115a94dc63e635-bn17245t11f25212"
+        },
+        {
+            "@id": "b319_genid-00f1db82e1ab437c844115a94dc63e635-bn17245t11f25355"
+        },
+        {
+            "@id": "b319_genid-00f1db82e1ab437c844115a94dc63e635-bn17245t11f25512"
+        },
+        {
+            "@id": "b319_genid-00f1db82e1ab437c844115a94dc63e635-bn17245t11f35620"
+        },
+        {
+            "@id": "b319_genid-00f1db82e1ab437c844115a94dc63e635-bn17245t11f38500"
+        },
+        {
+            "@id": "b319_genid-00f1db82e1ab437c844115a94dc63e635-bn17245t11f50183"
+        },
+        {
+            "@id": "b319_genid-00f1db82e1ab437c844115a94dc63e635-bn17245t11f50406"
+        },
+        {
+            "@id": "b319_genid-00f1db82e1ab437c844115a94dc63e635-bn17245t11f50910"
+        },
+        {
+            "@id": "b319_genid-00f1db82e1ab437c844115a94dc63e635-bn17245t11f52214"
+        },
+        {
+            "@id": "b319_genid-00f1db82e1ab437c844115a94dc63e635-bn17245t5f58072"
+        },
+        {
+            "@id": "b319_genid-00f1db82e1ab437c844115a94dc63e635-bn17245t11f59163"
+        },
+        {
+            "@id": "b319_genid-00f1db82e1ab437c844115a94dc63e635-bn17245t11f62488"
+        },
+        {
+            "@id": "b319_genid-00f1db82e1ab437c844115a94dc63e635-bn17245t11f75771"
+        },
+        {
+            "@id": "b319_genid-00f1db82e1ab437c844115a94dc63e635-bn17245t11f77746"
+        }
+    ]
+}

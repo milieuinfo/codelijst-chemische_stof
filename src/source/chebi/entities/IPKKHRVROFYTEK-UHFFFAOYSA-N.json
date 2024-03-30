@@ -1,0 +1,58 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_34680",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "obo:IAO_0000115": "A  phthalate ester that is the dipentyl ester of benzene-1,2-dicarboxylic acid.",
+    "chebi:charge": "0",
+    "chebi:formula": "C18H26O4",
+    "chebi:inchi": "InChI=1S/C18H26O4/c1-3-5-9-13-21-17(19)15-11-7-8-12-16(15)18(20)22-14-10-6-4-2/h7-8,11-12H,3-6,9-10,13-14H2,1-2H3",
+    "chebi:inchikey": "IPKKHRVROFYTEK-UHFFFAOYSA-N",
+    "chebi:smiles": "CCCCCOC(=O)c1ccccc1C(=O)OCCCCC",
+    "geneontology:hasDbXref": [
+        "PMID:19840837",
+        "Beilstein:1987323",
+        "CAS:131-18-0",
+        "KEGG:C14300",
+        "PMID:21177253",
+        "PMID:23696197",
+        "PMID:24116085",
+        "PMID:26454885",
+        "Reaxys:1987323"
+    ],
+    "geneontology:hasId": "34680",
+    "geneontology:hasSynonym": [
+        "1,2-Benzenedicarboxylic acid dipentyl ester",
+        "Amyl phthalate",
+        "Diamyl phthalate",
+        "di-n-Amyl phthalate",
+        "Di-n-pentyl phthalate",
+        "dipentyl benzene-1,2-dicarboxylate",
+        "DPNP",
+        "DPP",
+        "Phthalic acid diamyl ester",
+        "Phthalic acid dipentyl ester"
+    ],
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#3_STAR"
+    },
+    "rdfs:label": "dipentyl phthalate",
+    "rdfs:subClassOf": [
+        {
+            "@id": "obo:CHEBI_51307"
+        },
+        {
+            "@id": "obo:CHEBI_35484"
+        },
+        {
+            "@id": "b0_genid-00f1db82e1ab437c844115a94dc63e635-bn34680t8f44884"
+        },
+        {
+            "@id": "b0_genid-00f1db82e1ab437c844115a94dc63e635-bn34680t11f79056"
+        }
+    ]
+}

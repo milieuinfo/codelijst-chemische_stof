@@ -1,0 +1,47 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_43619",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "obo:IAO_0000115": "A straight chain alkane composed of 20 carbon atoms. It has been isolated from the leaves of Agave attenuata.",
+    "chebi:charge": "0",
+    "chebi:formula": "C20H42",
+    "chebi:inchi": "InChI=1S/C20H42/c1-3-5-7-9-11-13-15-17-19-20-18-16-14-12-10-8-6-4-2/h3-20H2,1-2H3",
+    "chebi:inchikey": "CBFCDTFDPHXCNY-UHFFFAOYSA-N",
+    "chebi:smiles": "CCCCCCCCCCCCCCCCCCCC",
+    "geneontology:hasDbXref": [
+        "Beilstein:1700722",
+        "CAS:112-95-8",
+        "HMDB:HMDB0059909",
+        "PDBeChem:LFA",
+        "PMID:23459067",
+        "PMID:23880873",
+        "PMID:23899195",
+        "Reaxys:1700722",
+        "Wikipedia:Icosane"
+    ],
+    "geneontology:hasId": "43619",
+    "geneontology:hasSynonym": [
+        "CH3-[CH2]18-CH3",
+        "eicosane",
+        "EICOSANE",
+        "n-eicosane",
+        "octyldodecane"
+    ],
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#3_STAR"
+    },
+    "rdfs:label": "icosane",
+    "rdfs:subClassOf": [
+        {
+            "@id": "obo:CHEBI_83563"
+        },
+        {
+            "@id": "b278_genid-00f1db82e1ab437c844115a94dc63e635-bn43619t11f76924"
+        }
+    ]
+}

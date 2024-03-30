@@ -1,0 +1,28 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_81955",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "chebi:charge": "0",
+    "chebi:formula": "C11H21NOS",
+    "chebi:inchi": "InChI=1S/C11H21NOS/c1-3-12(11(13)14-4-2)10-8-6-5-7-9-10/h10H,3-9H2,1-2H3",
+    "chebi:inchikey": "DFCAFRGABIXSDS-UHFFFAOYSA-N",
+    "chebi:smiles": "CCSC(=O)N(CC)C1CCCCC1",
+    "geneontology:hasDbXref": [
+        "CAS:1134-23-2",
+        "KEGG:C18780",
+        "PPDB:188"
+    ],
+    "geneontology:hasId": "81955",
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#2_STAR"
+    },
+    "rdfs:label": "Cycloate",
+    "rdfs:subClassOf": {
+        "@id": "obo:CHEBI_17062"
+    }
+}

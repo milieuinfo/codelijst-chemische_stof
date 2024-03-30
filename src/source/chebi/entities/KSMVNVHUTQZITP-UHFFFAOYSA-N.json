@@ -1,0 +1,31 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_81506",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "chebi:charge": "0",
+    "chebi:formula": "C12H4Cl4O",
+    "chebi:inchi": "InChI=1S/C12H4Cl4O/c13-7-1-5-6-2-8(14)10(16)4-12(6)17-11(5)3-9(7)15/h1-4H",
+    "chebi:inchikey": "KSMVNVHUTQZITP-UHFFFAOYSA-N",
+    "chebi:smiles": "Clc1cc2oc3cc(Cl)c(Cl)cc3c2cc1Cl",
+    "geneontology:hasDbXref": [
+        "CAS:51207-31-9",
+        "KEGG:C18104"
+    ],
+    "geneontology:hasId": "81506",
+    "geneontology:hasSynonym": [
+        "2,3,7,8-TCDF",
+        "PCDF 83"
+    ],
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#2_STAR"
+    },
+    "rdfs:label": "2,3,7,8-Tetrachlorodibenzofuran",
+    "rdfs:subClassOf": {
+        "@id": "obo:CHEBI_134046"
+    }
+}

@@ -1,0 +1,33 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_182609",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "chebi:charge": "0",
+    "chebi:formula": "C10H12N2O",
+    "chebi:inchi": "InChI=1S/C10H12N2O/c1-12-9(4-5-10(12)13)8-3-2-6-11-7-8/h2-3,6-7,9H,4-5H2,1H3",
+    "chebi:inchikey": "UIKROCXWUNQSPJ-UHFFFAOYSA-N",
+    "chebi:smiles": "O=C1N(C(CC1)C=2C=CC=NC2)C",
+    "geneontology:hasDbXref": [
+        "HMDB:HMDB0001046",
+        "Chemspider:395"
+    ],
+    "geneontology:hasId": "182609",
+    "geneontology:hasSynonym": "1-methyl-5-pyridin-3-ylpyrrolidin-2-one",
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#2_STAR"
+    },
+    "rdfs:label": "1-Methyl-5-(3-pyridinyl)-2-pyrrolidinone",
+    "rdfs:subClassOf": [
+        {
+            "@id": "obo:CHEBI_26421"
+        },
+        {
+            "@id": "obo:CHEBI_38260"
+        }
+    ]
+}

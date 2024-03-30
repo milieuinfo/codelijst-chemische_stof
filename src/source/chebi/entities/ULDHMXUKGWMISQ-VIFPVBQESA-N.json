@@ -1,0 +1,59 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_15399",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "obo:IAO_0000115": "A carvone having (S) configuration.",
+    "chebi:charge": "0",
+    "chebi:formula": "C10H14O",
+    "chebi:inchi": "InChI=1S/C10H14O/c1-7(2)9-5-4-8(3)10(11)6-9/h4,9H,1,5-6H2,2-3H3/t9-/m0/s1",
+    "chebi:inchikey": "ULDHMXUKGWMISQ-VIFPVBQESA-N",
+    "chebi:smiles": "CC(=C)[C@H]1CC=C(C)C(=O)C1",
+    "http://purl.uniprot.org/core/name": "(S)-carvone",
+    "geneontology:hasDbXref": [
+        "PMID:11380545",
+        "Beilstein:2042970",
+        "Beilstein:3588498",
+        "Beilstein:6767373",
+        "CAS:2244-16-8",
+        "Gmelin:637294",
+        "KEGG:C11383",
+        "KNApSAcK:C00010891",
+        "Reaxys:2042970"
+    ],
+    "geneontology:hasId": "15399",
+    "geneontology:hasSynonym": [
+        "(S)-carvone",
+        "(+)-(4S)-carvone",
+        "(+)-(S)-Carvone",
+        "(+)-Carvone",
+        "(4S)-p-mentha-1(6),8-dien-2-one",
+        "(5S)-2-methyl-5-(1-methylethenyl)-2-cyclohexen-1-one",
+        "(5S)-2-methyl-5-(prop-1-en-2-yl)cyclohex-2-en-1-one",
+        "(S)-(+)-carvone",
+        "(S)-(+)-p-mentha-6,8-dien-2-one",
+        "(S)-2-methyl-5-(1-methylethenyl)-2-cyclohexen-1-one",
+        "(S)-2-methyl-5-(1-methylvinyl)cyclohex-2-en-1-one",
+        "(S)-5-isopropenyl-2-methylcyclohex-2-en-1-one",
+        "Carvol",
+        "Carvone",
+        "d-(+)-carvone",
+        "d-carvone"
+    ],
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#3_STAR"
+    },
+    "rdfs:label": "(+)-carvone",
+    "rdfs:subClassOf": [
+        {
+            "@id": "b336_genid-00f1db82e1ab437c844115a94dc63e635-bn15399t6f15400"
+        },
+        {
+            "@id": "obo:CHEBI_38265"
+        }
+    ]
+}

@@ -1,0 +1,79 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_34630",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "obo:IAO_0000115": "A carbamate ester that is the isopropyl ester of 3-chlorophenylcarbamic acid.",
+    "chebi:charge": "0",
+    "chebi:formula": "C10H12ClNO2",
+    "chebi:inchi": "InChI=1S/C10H12ClNO2/c1-7(2)14-10(13)12-9-5-3-4-8(11)6-9/h3-7H,1-2H3,(H,12,13)",
+    "chebi:inchikey": "CWJSHJJYOPWUGX-UHFFFAOYSA-N",
+    "chebi:smiles": "CC(C)OC(=O)Nc1cccc(Cl)c1",
+    "geneontology:hasDbXref": [
+        "Beilstein:2211397",
+        "CAS:101-21-3",
+        "KEGG:C14506",
+        "PMID:21757399",
+        "PMID:22753523",
+        "PMID:22982221",
+        "PMID:23295769",
+        "PMID:23674283",
+        "PMID:23708426",
+        "PMID:24166079",
+        "PPDB:153",
+        "Reaxys:2211397",
+        "Wikipedia:Chlorpropham"
+    ],
+    "geneontology:hasId": "34630",
+    "geneontology:hasSynonym": [
+        "(3-Chlorophenyl)carbamic acid, 1-methylethyl ester",
+        "1-Methylethyl (3-chlorophenyl)carbamate",
+        "3-Chlorocarbanilic acid, isopropyl ester",
+        "Chloropropham",
+        "Chlorprophame",
+        "isopropyl (3-chlorophenyl)carbamate",
+        "Isopropyl 3-chlorocarbanilate",
+        "Isopropyl 3-chlorophenylcarbamate",
+        "Isopropyl m-chlorocarbanilate",
+        "Isopropyl-m-chlorocarbanilate",
+        "Isopropyl meta-chlorocarbanilate",
+        "Isopropyl N-(3-chlorophenyl)carbamate",
+        "Isopropyl-N-(3-chlorophenyl)carbamate",
+        "Isopropyl-N-(3-chlorphenyl)-carbamat",
+        "Isopropyl N-(m-chlorophenyl)carbamate",
+        "Isopropyl-N-3-chlorophenyl carbamate",
+        "Isopropyl-N-m-chlorophenyl-carbamate",
+        "m-Chlorocarbanilic acid, isopropyl ester",
+        "m-Chlorocarbanilic acid isopropyl ester",
+        "N-(3-Chlorophenyl)carbamic acid, isopropyl ester",
+        "N-(3-Chlorophenyl)isopropyl carbamate",
+        "N-3-Chlorophenylisopropylcarbamate",
+        "O-Isopropyl N-(3-chlorophenyl)carbamate",
+        "propan-2-yl (3-chlorophenyl)carbamate"
+    ],
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#3_STAR"
+    },
+    "rdfs:label": "chlorpropham",
+    "rdfs:subClassOf": [
+        {
+            "@id": "obo:CHEBI_22712"
+        },
+        {
+            "@id": "obo:CHEBI_83403"
+        },
+        {
+            "@id": "obo:CHEBI_23003"
+        },
+        {
+            "@id": "b390_genid-00f1db82e1ab437c844115a94dc63e635-bn34630t11f24527"
+        },
+        {
+            "@id": "b390_genid-00f1db82e1ab437c844115a94dc63e635-bn34630t11f35219"
+        }
+    ]
+}

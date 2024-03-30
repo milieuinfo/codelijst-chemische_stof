@@ -1,0 +1,146 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_3387",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "obo:IAO_0000115": "A dibenzoazepine that is 5H-dibenzo[b,f]azepine carrying a carbamoyl substituent at the azepine nitrogen, used as an anticonvulsant.",
+    "chebi:charge": "0",
+    "chebi:formula": "C15H12N2O",
+    "chebi:inchi": "InChI=1S/C15H12N2O/c16-15(18)17-13-7-3-1-5-11(13)9-10-12-6-2-4-8-14(12)17/h1-10H,(H2,16,18)",
+    "chebi:inchikey": "FFGPTBGBLSHEPO-UHFFFAOYSA-N",
+    "chebi:smiles": "NC(=O)N1c2ccccc2C=Cc2ccccc12",
+    "geneontology:hasDbXref": [
+        "PMID:22322005",
+        "Beilstein:1246090",
+        "CAS:298-46-4",
+        "Drug_Central:489",
+        "DrugBank:DB00564",
+        "HMDB:HMDB0014704",
+        "KEGG:C06868",
+        "KEGG:D00252",
+        "LINCS:LSM-3610",
+        "Patent:US2004220187",
+        "Patent:US2007167446",
+        "Patent:US2011177136",
+        "Patent:US2011245283",
+        "Patent:US2948718",
+        "PMID:10411478",
+        "PMID:11071486",
+        "PMID:11129121",
+        "PMID:11240598",
+        "PMID:11475584",
+        "PMID:11595204",
+        "PMID:11888243",
+        "PMID:11891095",
+        "PMID:12073283",
+        "PMID:12228880",
+        "PMID:12475188",
+        "PMID:12749779",
+        "PMID:12799799",
+        "PMID:12957643",
+        "PMID:14160216",
+        "PMID:14572037",
+        "PMID:14581052",
+        "PMID:14713026",
+        "PMID:14723323",
+        "PMID:15165631",
+        "PMID:15557493",
+        "PMID:15665743",
+        "PMID:15683742",
+        "PMID:15739418",
+        "PMID:15820347",
+        "PMID:15850602",
+        "PMID:16033627",
+        "PMID:16150575",
+        "PMID:16245817",
+        "PMID:16380297",
+        "PMID:16394456",
+        "PMID:16437428",
+        "PMID:16538175",
+        "PMID:16562645",
+        "PMID:16616830",
+        "PMID:16990009",
+        "PMID:17027750",
+        "PMID:17028629",
+        "PMID:17207414",
+        "PMID:17582711",
+        "PMID:17873967",
+        "PMID:17949959",
+        "PMID:18163657",
+        "PMID:18415623",
+        "PMID:18637155",
+        "PMID:18652684",
+        "PMID:18656520",
+        "PMID:18969759",
+        "PMID:19135617",
+        "PMID:19473818",
+        "PMID:19741433",
+        "PMID:19921623",
+        "PMID:27967303",
+        "PMID:7602118",
+        "Reaxys:1246090",
+        "Wikipedia:Carbamazepine"
+    ],
+    "geneontology:hasId": "3387",
+    "geneontology:hasSynonym": [
+        "5-Carbamoyl-5H-dibenz(b,f)azepine",
+        "5-carbamoyl-5H-dibenz[b,f]azepine",
+        "5-Carbamoyl-5H-dibenzo(b,f)azepine",
+        "5-Carbamyl-5H-dibenzo(b,f)azepine",
+        "5H-Dibenz(b,f)azepine-5-carboxamide",
+        "5H-dibenzo[b,f]azepine-5-carboxamide",
+        "Carbamazepen",
+        "carbamazepina",
+        "carbamazepinum",
+        "Carnexiv"
+    ],
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#3_STAR"
+    },
+    "rdfs:label": "carbamazepine",
+    "rdfs:subClassOf": [
+        {
+            "@id": "obo:CHEBI_47804"
+        },
+        {
+            "@id": "obo:CHEBI_47857"
+        },
+        {
+            "@id": "b177_genid-00f1db82e1ab437c844115a94dc63e635-bn3387t11f35477"
+        },
+        {
+            "@id": "b177_genid-00f1db82e1ab437c844115a94dc63e635-bn3387t11f35480"
+        },
+        {
+            "@id": "b177_genid-00f1db82e1ab437c844115a94dc63e635-bn3387t11f35481"
+        },
+        {
+            "@id": "b177_genid-00f1db82e1ab437c844115a94dc63e635-bn3387t11f35623"
+        },
+        {
+            "@id": "b177_genid-00f1db82e1ab437c844115a94dc63e635-bn3387t11f35703"
+        },
+        {
+            "@id": "b177_genid-00f1db82e1ab437c844115a94dc63e635-bn3387t11f38633"
+        },
+        {
+            "@id": "b177_genid-00f1db82e1ab437c844115a94dc63e635-bn3387t11f52290"
+        },
+        {
+            "@id": "b177_genid-00f1db82e1ab437c844115a94dc63e635-bn3387t11f61115"
+        },
+        {
+            "@id": "b177_genid-00f1db82e1ab437c844115a94dc63e635-bn3387t11f64370"
+        },
+        {
+            "@id": "b177_genid-00f1db82e1ab437c844115a94dc63e635-bn3387t11f78298"
+        },
+        {
+            "@id": "b177_genid-00f1db82e1ab437c844115a94dc63e635-bn3387t11f88188"
+        }
+    ]
+}

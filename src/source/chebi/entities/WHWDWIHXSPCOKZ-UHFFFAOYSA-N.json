@@ -1,0 +1,23 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_145744",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "chebi:charge": "0",
+    "chebi:formula": "C18H36O",
+    "chebi:inchi": "InChI=1S/C18H36O/c1-15(2)9-6-10-16(3)11-7-12-17(4)13-8-14-18(5)19/h15-17H,6-14H2,1-5H3",
+    "chebi:inchikey": "WHWDWIHXSPCOKZ-UHFFFAOYSA-N",
+    "chebi:smiles": "O=C(CCCC(CCCC(CCCC(C)C)C)C)C",
+    "geneontology:hasId": "145744",
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#2_STAR"
+    },
+    "rdfs:label": "hexahydrofarnesyl acetone",
+    "rdfs:subClassOf": {
+        "@id": "obo:CHEBI_17087"
+    }
+}

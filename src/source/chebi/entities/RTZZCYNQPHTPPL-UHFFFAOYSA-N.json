@@ -1,0 +1,42 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_34346",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "obo:IAO_0000115": "A member of the class of 3-nitrophenols that is phenol in which one of the hydrogens that is meta to the hydroxy group has been replaced by a nitro group.",
+    "chebi:charge": "0",
+    "chebi:formula": "C6H5NO3",
+    "chebi:inchi": "InChI=1S/C6H5NO3/c8-6-3-1-2-5(4-6)7(9)10/h1-4,8H",
+    "chebi:inchikey": "RTZZCYNQPHTPPL-UHFFFAOYSA-N",
+    "chebi:smiles": "Oc1cccc(c1)[N+]([O-])=O",
+    "geneontology:hasDbXref": [
+        "Beilstein:1907946",
+        "CAS:554-84-7",
+        "Gmelin:3293",
+        "KEGG:C14418",
+        "MetaCyc:CPD-9127",
+        "PMID:23763200",
+        "PMID:24068503",
+        "Reaxys:1907946"
+    ],
+    "geneontology:hasId": "34346",
+    "geneontology:hasSynonym": [
+        "1-hydroxy-3-nitrobenzene",
+        "3-hydroxynitrobenzene",
+        "3-Nitrophenol",
+        "meta-nitrophenol",
+        "m-Hydroxynitrobenzene",
+        "m-nitrophenol"
+    ],
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#3_STAR"
+    },
+    "rdfs:label": "3-nitrophenol",
+    "rdfs:subClassOf": {
+        "@id": "obo:CHEBI_88313"
+    }
+}

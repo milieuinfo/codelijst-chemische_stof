@@ -1,0 +1,46 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_37824",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "obo:IAO_0000115": "A monochloroaniline that is p-toluidine in which one of the hydrogens that is meta to the amino group is replaced by a chlorine.",
+    "chebi:charge": "0",
+    "chebi:formula": "C7H8ClN",
+    "chebi:inchi": "InChI=1S/C7H8ClN/c1-5-2-3-6(9)4-7(5)8/h2-4H,9H2,1H3",
+    "chebi:inchikey": "RQKFYFNZSHWXAW-UHFFFAOYSA-N",
+    "chebi:smiles": "Cc1ccc(N)cc1Cl",
+    "geneontology:hasDbXref": [
+        "Beilstein:636511",
+        "CAS:95-74-9"
+    ],
+    "geneontology:hasId": "37824",
+    "geneontology:hasSynonym": [
+        "1-Amino-3-chloro-4-methylbenzene",
+        "2-Chloro-4-aminotoluene",
+        "3-chloro-4-methylaniline",
+        "3-Chloro-4-methylbenzenamine",
+        "3-Chloro-4-methylphenylamine"
+    ],
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#3_STAR"
+    },
+    "rdfs:label": "3-chloro-p-toluidine",
+    "rdfs:subClassOf": [
+        {
+            "@id": "obo:CHEBI_83403"
+        },
+        {
+            "@id": "obo:CHEBI_23130"
+        },
+        {
+            "@id": "b90_genid-00f1db82e1ab437c844115a94dc63e635-bn37824t11f33289"
+        },
+        {
+            "@id": "b90_genid-00f1db82e1ab437c844115a94dc63e635-bn37824t8f37825"
+        }
+    ]
+}

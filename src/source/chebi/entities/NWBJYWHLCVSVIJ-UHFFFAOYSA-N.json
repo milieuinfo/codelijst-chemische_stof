@@ -1,0 +1,66 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_29022",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "obo:IAO_0000115": "A member of the class of 6-aminopurines that is adenine in which one of the hydrogens of the amino group is replaced by a benzyl group.",
+    "chebi:charge": "0",
+    "chebi:formula": "C12H11N5",
+    "chebi:inchi": "InChI=1S/C12H11N5/c1-2-4-9(5-3-1)6-13-11-10-12(15-7-14-10)17-8-16-11/h1-5,7-8H,6H2,(H2,13,14,15,16,17)",
+    "chebi:inchikey": "NWBJYWHLCVSVIJ-UHFFFAOYSA-N",
+    "chebi:smiles": "C(Nc1ncnc2[nH]cnc12)c1ccccc1",
+    "geneontology:hasDbXref": [
+        "Beilstein:616790",
+        "BPDB:1324",
+        "CAS:1214-39-7",
+        "Gmelin:145502",
+        "HMDB:HMDB0039238",
+        "KEGG:C11263",
+        "KNApSAcK:C00000092",
+        "LINCS:LSM-3396",
+        "MetaCyc:CPD-4604",
+        "PDBeChem:EMU",
+        "PMID:16691305",
+        "PMID:23043692",
+        "PMID:24579378",
+        "Reaxys:616790",
+        "Wikipedia:6-Benzylaminopurine"
+    ],
+    "geneontology:hasId": "29022",
+    "geneontology:hasSynonym": [
+        "6-(benzylamino)purine",
+        "6-[(phenylmethyl)amino]-9H-purine",
+        "6-BAP",
+        "6-Benzylaminopurine",
+        "BAP",
+        "benzyladenine",
+        "Cytokinin B",
+        "N(6)-(benzylamino)purine",
+        "N6-Benzyladenine",
+        "N-benzyl-9H-purin-6-amine",
+        "N-BENZYL-9H-PURIN-6-AMINE",
+        "N-Benzyladenine"
+    ],
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#3_STAR"
+    },
+    "rdfs:label": "N-benzyladenine",
+    "rdfs:subClassOf": [
+        {
+            "@id": "obo:CHEBI_20706"
+        },
+        {
+            "@id": "b26_genid-00f1db82e1ab437c844115a94dc63e635-bn29022t8f16708"
+        },
+        {
+            "@id": "b26_genid-00f1db82e1ab437c844115a94dc63e635-bn29022t11f23530"
+        },
+        {
+            "@id": "b26_genid-00f1db82e1ab437c844115a94dc63e635-bn29022t11f76924"
+        }
+    ]
+}

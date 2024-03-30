@@ -1,0 +1,62 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_141154",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "obo:IAO_0000115": "A carbamate ester that is 5-nitroimidazole in which the hydrogens at positions 1 and 2 are replaced by methyl and (carbamoyloxy)methyl groups, respectively. An antiprotozoal agent, it is used in veterinary medicine for the treatment of histomoniasis and swine dysentery.",
+    "chebi:charge": "0",
+    "chebi:formula": "C6H8N4O4",
+    "chebi:inchi": "InChI=1S/C6H8N4O4/c1-9-4(3-14-6(7)11)8-2-5(9)10(12)13/h2H,3H2,1H3,(H2,7,11)",
+    "chebi:inchikey": "PQFRTXSWDXZRRS-UHFFFAOYSA-N",
+    "chebi:smiles": "C=1(N(C(=NC1)COC(=O)N)C)[N+]([O-])=O",
+    "geneontology:hasDbXref": [
+        "PMID:28372197",
+        "CAS:7681-76-7",
+        "KEGG:D05752",
+        "PMID:15287575",
+        "PMID:21257565",
+        "PMID:22711930",
+        "PMID:25059163",
+        "PMID:25141357",
+        "PMID:26662037",
+        "PMID:27423157",
+        "PMID:28665122",
+        "PMID:564505",
+        "PMID:937800",
+        "VSDB:2406",
+        "Wikipedia:Ronidazole"
+    ],
+    "geneontology:hasId": "141154",
+    "geneontology:hasSynonym": [
+        "(1-methyl-5-nitro-1H-imidazol-2-yl)methyl carbamate",
+        "1-methyl-5-nitro-1H-imidazole-2-methanol  carbamate ester",
+        "carbamic acid (1-methyl-5-nitro-2-imidazolyl)methyl ester",
+        "ronidazol",
+        "ronidazolum"
+    ],
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#3_STAR"
+    },
+    "rdfs:label": "ronidazole",
+    "rdfs:subClassOf": [
+        {
+            "@id": "obo:CHEBI_35716"
+        },
+        {
+            "@id": "obo:CHEBI_24780"
+        },
+        {
+            "@id": "obo:CHEBI_23003"
+        },
+        {
+            "@id": "b172_genid-00f1db82e1ab437c844115a94dc63e635-bn141154t11f35442"
+        },
+        {
+            "@id": "b172_genid-00f1db82e1ab437c844115a94dc63e635-bn141154t11f35820"
+        }
+    ]
+}

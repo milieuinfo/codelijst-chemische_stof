@@ -1,0 +1,57 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_42266",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "obo:IAO_0000115": "An alkane comprising of two carbon atoms.",
+    "chebi:charge": "0",
+    "chebi:formula": "C2H6",
+    "chebi:inchi": "InChI=1S/C2H6/c1-2/h1-2H3",
+    "chebi:inchikey": "OTMSDBZUPAUEDD-UHFFFAOYSA-N",
+    "chebi:smiles": "CC",
+    "geneontology:hasDbXref": [
+        "PMID:14664856",
+        "Beilstein:1730716",
+        "CAS:74-84-0",
+        "Gmelin:212",
+        "PMID:12826252",
+        "PMID:16236899",
+        "Reaxys:1730716",
+        "Wikipedia:Ethane"
+    ],
+    "geneontology:hasId": "42266",
+    "geneontology:hasSynonym": [
+        "C2H6",
+        "Aethan",
+        "bimethyl",
+        "CH3-CH3",
+        "dimethyl",
+        "Ethan",
+        "ETHANE",
+        "ethyl hydride",
+        "methylmethane",
+        "R-170"
+    ],
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#3_STAR"
+    },
+    "rdfs:label": "ethane",
+    "rdfs:subClassOf": [
+        {
+            "@id": "obo:CHEBI_18310"
+        },
+        {
+            "@id": "obo:CHEBI_138675"
+        },
+        {
+            "@id": "b33_genid-00f1db82e1ab437c844115a94dc63e635-bn42266t11f76924"
+        },
+        {
+            "@id": "b33_genid-00f1db82e1ab437c844115a94dc63e635-bn42266t11f78433"
+        }
+    ]
+}

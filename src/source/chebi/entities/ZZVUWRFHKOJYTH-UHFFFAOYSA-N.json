@@ -1,0 +1,89 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_4636",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "obo:IAO_0000115": "An ether that is the benzhydryl ether of 2-(dimethylamino)ethanol. It is a H1-receptor antagonist used as a antipruritic and antitussive drug.",
+    "chebi:charge": "0",
+    "chebi:formula": "C17H21NO",
+    "chebi:inchi": "InChI=1S/C17H21NO/c1-18(2)13-14-19-17(15-9-5-3-6-10-15)16-11-7-4-8-12-16/h3-12,17H,13-14H2,1-2H3",
+    "chebi:inchikey": "ZZVUWRFHKOJYTH-UHFFFAOYSA-N",
+    "chebi:smiles": "CN(C)CCOC(c1ccccc1)c1ccccc1",
+    "geneontology:hasDbXref": [
+        "Beilstein:1914136",
+        "CAS:58-73-1",
+        "DrugBank:DB01075",
+        "HMDB:HMDB0001927",
+        "KEGG:C14015",
+        "KEGG:D00300",
+        "KEGG:D02419",
+        "LINCS:LSM-5581",
+        "Patent:US2421714",
+        "Patent:US2427878",
+        "PDBeChem:2PM",
+        "VSDB:2973",
+        "Wikipedia:Diphenhydramine"
+    ],
+    "geneontology:hasId": "4636",
+    "geneontology:hasSynonym": [
+        "2-(benzhydryloxy)-N,N-dimethylethylamine",
+        "2-(diphenylmethoxy)-N,N-dimethylethanamine",
+        "2-diphenylmethoxy-N,N-demthylethanamine",
+        "alpha-(2-dimethylaminoethoxy)diphenylmethane",
+        "beta-dimethylaminoethanol diphenylmethyl ether",
+        "beta-dimethylaminoethyl benzhydryl ether",
+        "difenhidramina",
+        "diphenhydraminum",
+        "N-(2-(diphenylmethoxy)ethyl)-N,N-dimethylamine",
+        "O-benzhydryldimethylaminoethanol"
+    ],
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#3_STAR"
+    },
+    "rdfs:label": "diphenhydramine",
+    "rdfs:subClassOf": [
+        {
+            "@id": "obo:CHEBI_25698"
+        },
+        {
+            "@id": "obo:CHEBI_50996"
+        },
+        {
+            "@id": "b225_genid-00f1db82e1ab437c844115a94dc63e635-bn4636t11f35717"
+        },
+        {
+            "@id": "b225_genid-00f1db82e1ab437c844115a94dc63e635-bn4636t11f36333"
+        },
+        {
+            "@id": "b225_genid-00f1db82e1ab437c844115a94dc63e635-bn4636t11f37955"
+        },
+        {
+            "@id": "b225_genid-00f1db82e1ab437c844115a94dc63e635-bn4636t11f48407"
+        },
+        {
+            "@id": "b225_genid-00f1db82e1ab437c844115a94dc63e635-bn4636t11f48876"
+        },
+        {
+            "@id": "b225_genid-00f1db82e1ab437c844115a94dc63e635-bn4636t11f50857"
+        },
+        {
+            "@id": "b225_genid-00f1db82e1ab437c844115a94dc63e635-bn4636t11f50919"
+        },
+        {
+            "@id": "b225_genid-00f1db82e1ab437c844115a94dc63e635-bn4636t11f51177"
+        },
+        {
+            "@id": "b225_genid-00f1db82e1ab437c844115a94dc63e635-bn4636t11f59683"
+        },
+        {
+            "@id": "b225_genid-00f1db82e1ab437c844115a94dc63e635-bn4636t11f66956"
+        },
+        {
+            "@id": "b225_genid-00f1db82e1ab437c844115a94dc63e635-bn4636t11f146270"
+        }
+    ]
+}

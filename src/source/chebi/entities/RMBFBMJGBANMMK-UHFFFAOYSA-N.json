@@ -1,0 +1,42 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_920",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "obo:IAO_0000115": "A dinitrotoluene in which the methyl group is ortho to one of the nitro groups and para to the other. It is the most common isomer of dinitrotoluene.",
+    "chebi:charge": "0",
+    "chebi:formula": "C7H6N2O4",
+    "chebi:inchi": "InChI=1S/C7H6N2O4/c1-5-2-3-6(8(10)11)4-7(5)9(12)13/h2-4H,1H3",
+    "chebi:inchikey": "RMBFBMJGBANMMK-UHFFFAOYSA-N",
+    "chebi:smiles": "Cc1ccc(cc1[N+]([O-])=O)[N+]([O-])=O",
+    "http://purl.uniprot.org/core/name": "2,4-dinitrotoluene",
+    "geneontology:hasDbXref": [
+        "CAS:121-14-2",
+        "KEGG:C11006",
+        "PMID:24467368",
+        "PMID:24893713",
+        "Reaxys:1912834",
+        "Wikipedia:2,4-Dinitrotoluene"
+    ],
+    "geneontology:hasId": "920",
+    "geneontology:hasSynonym": [
+        "1-methyl-2,4-dinitrobenzene",
+        "2,4-dinitro-1-methylbenzene",
+        "2,4-dinitromethylbenzene",
+        "2,4-Dinitrotoluene",
+        "2,4-dinitrotoluol",
+        "2,4-DNT",
+        "DNT"
+    ],
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#3_STAR"
+    },
+    "rdfs:label": "2,4-dinitrotoluene",
+    "rdfs:subClassOf": {
+        "@id": "obo:CHEBI_23822"
+    }
+}

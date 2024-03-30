@@ -1,0 +1,50 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_38603",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "chebi:charge": "0",
+    "chebi:formula": "C5H12ClO2PS2",
+    "chebi:inchi": "InChI=1S/C5H12ClO2PS2/c1-3-7-9(10,8-4-2)11-5-6/h3-5H2,1-2H3",
+    "chebi:inchikey": "QGTYWWGEWOBMAK-UHFFFAOYSA-N",
+    "chebi:smiles": "CCOP(=S)(OCC)SCCl",
+    "geneontology:hasDbXref": [
+        "Beilstein:1680996",
+        "CAS:24934-91-6",
+        "KEGG:C18686",
+        "PPDB:142"
+    ],
+    "geneontology:hasId": "38603",
+    "geneontology:hasSynonym": [
+        "Chlormephos",
+        "Chlormethylfos",
+        "Phosphorodithioic acid, S-(chloromethyl) O,O-diethyl ester",
+        "S-(chloromethyl) O,O-diethyl dithiophosphate",
+        "S-(chloromethyl) O,O-diethyl phosphorodithioate"
+    ],
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#3_STAR"
+    },
+    "rdfs:label": "chlormephos",
+    "rdfs:subClassOf": [
+        {
+            "@id": "obo:CHEBI_25705"
+        },
+        {
+            "@id": "obo:CHEBI_37512"
+        },
+        {
+            "@id": "obo:CHEBI_25715"
+        },
+        {
+            "@id": "b226_genid-00f1db82e1ab437c844115a94dc63e635-bn38603t11f33286"
+        },
+        {
+            "@id": "b226_genid-00f1db82e1ab437c844115a94dc63e635-bn38603t11f38462"
+        }
+    ]
+}

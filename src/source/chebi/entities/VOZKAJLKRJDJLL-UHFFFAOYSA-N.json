@@ -1,0 +1,38 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_34237",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "obo:IAO_0000115": "An aminotoluene that is para-toluidine with an additional amino group at position 2.",
+    "chebi:charge": "0",
+    "chebi:formula": "C7H10N2",
+    "chebi:inchi": "InChI=1S/C7H10N2/c1-5-2-3-6(8)4-7(5)9/h2-4H,8-9H2,1H3",
+    "chebi:inchikey": "VOZKAJLKRJDJLL-UHFFFAOYSA-N",
+    "chebi:smiles": "Cc1ccc(N)cc1N",
+    "geneontology:hasDbXref": [
+        "CAS:95-80-7",
+        "KEGG:C14401",
+        "Reaxys:2205839"
+    ],
+    "geneontology:hasId": "34237",
+    "geneontology:hasSynonym": "4-methylbenzene-1,3-diamine",
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#3_STAR"
+    },
+    "rdfs:label": "2,4-diaminotoluene",
+    "rdfs:subClassOf": [
+        {
+            "@id": "obo:CHEBI_22531"
+        },
+        {
+            "@id": "b61_genid-00f1db82e1ab437c844115a94dc63e635-bn34237t11f25212"
+        },
+        {
+            "@id": "b61_genid-00f1db82e1ab437c844115a94dc63e635-bn34237t8f37825"
+        }
+    ]
+}

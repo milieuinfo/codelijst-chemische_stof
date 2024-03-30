@@ -1,0 +1,54 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_34432",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "obo:IAO_0000115": "A member of the class of phenols that is phenol which is substituted at the para- position by an octyl group.",
+    "chebi:charge": "0",
+    "chebi:formula": "C14H22O",
+    "chebi:inchi": "InChI=1S/C14H22O/c1-2-3-4-5-6-7-8-13-9-11-14(15)12-10-13/h9-12,15H,2-8H2,1H3",
+    "chebi:inchikey": "NTDQQZYCCIDJRK-UHFFFAOYSA-N",
+    "chebi:smiles": "CCCCCCCCc1ccc(O)cc1",
+    "geneontology:hasDbXref": [
+        "CAS:1806-26-4",
+        "KEGG:C14132",
+        "PMID:20980040",
+        "PMID:22435736",
+        "PMID:23435201",
+        "PMID:23520882",
+        "PMID:23562958",
+        "PMID:23714150",
+        "PMID:23818073",
+        "PMID:23877625",
+        "PMID:24209326",
+        "Reaxys:2046736"
+    ],
+    "geneontology:hasId": "34432",
+    "geneontology:hasSynonym": [
+        "1-(p-hydroxyphenyl)octane",
+        "4-n-octylphenol",
+        "p-octylphenol"
+    ],
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#3_STAR"
+    },
+    "rdfs:label": "4-octylphenol",
+    "rdfs:subClassOf": [
+        {
+            "@id": "obo:CHEBI_33853"
+        },
+        {
+            "@id": "b7_genid-00f1db82e1ab437c844115a94dc63e635-bn34432t11f25212"
+        },
+        {
+            "@id": "b7_genid-00f1db82e1ab437c844115a94dc63e635-bn34432t11f35195"
+        },
+        {
+            "@id": "b7_genid-00f1db82e1ab437c844115a94dc63e635-bn34432t11f76988"
+        }
+    ]
+}

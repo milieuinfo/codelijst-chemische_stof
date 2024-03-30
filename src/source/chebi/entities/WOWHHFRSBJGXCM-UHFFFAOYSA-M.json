@@ -1,0 +1,66 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_53581",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "obo:IAO_0000115": "The organic chloride salt of cetyltrimethylammonium.",
+    "chebi:charge": "0",
+    "chebi:formula": "C19H42ClN",
+    "chebi:inchi": "InChI=1S/C19H42N.ClH/c1-5-6-7-8-9-10-11-12-13-14-15-16-17-18-19-20(2,3)4;/h5-19H2,1-4H3;1H/q+1;/p-1",
+    "chebi:inchikey": "WOWHHFRSBJGXCM-UHFFFAOYSA-M",
+    "chebi:smiles": "[Cl-].CCCCCCCCCCCCCCCC[N+](C)(C)C",
+    "geneontology:hasDbXref": [
+        "PMID:7526642",
+        "Beilstein:3657974",
+        "CAS:112-02-7",
+        "PMID:16112676",
+        "PMID:21850311",
+        "PMID:22149605",
+        "PMID:22440666",
+        "PMID:22805227",
+        "PMID:23072317",
+        "PMID:23303088",
+        "PMID:23325721",
+        "PMID:23771497",
+        "PMID:23934938",
+        "PMID:24001670",
+        "PMID:8287131",
+        "Reaxys:3657974"
+    ],
+    "geneontology:hasId": "53581",
+    "geneontology:hasSynonym": [
+        "Arquad 16-50",
+        "Cetrimonium chloride",
+        "cetyl(trimethyl)ammonium chloride",
+        "Cetyl trimethyl ammonium chloride",
+        "CTAC",
+        "hexadecyl(trimethyl)ammonium chloride",
+        "N,N,N-Trimethyl-1-hexadecanaminium chloride",
+        "N,N,N-trimethylhexadecan-1-aminium chloride",
+        "Palmityltrimethylammonium chloride",
+        "Trimethylcetylammonium chloride",
+        "Trimethylhexadecylammonium chloride"
+    ],
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#3_STAR"
+    },
+    "rdfs:label": "cetyltrimethylammonium chloride",
+    "rdfs:subClassOf": [
+        {
+            "@id": "obo:CHEBI_36094"
+        },
+        {
+            "@id": "obo:CHEBI_35273"
+        },
+        {
+            "@id": "b185_genid-00f1db82e1ab437c844115a94dc63e635-bn53581t11f35195"
+        },
+        {
+            "@id": "b185_genid-00f1db82e1ab437c844115a94dc63e635-bn53581t10f39561"
+        }
+    ]
+}

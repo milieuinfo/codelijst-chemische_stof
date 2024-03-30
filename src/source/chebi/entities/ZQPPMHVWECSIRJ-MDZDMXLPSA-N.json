@@ -1,0 +1,75 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_27997",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "obo:IAO_0000115": "A 9-octadecenoic acid and the trans-isomer of oleic acid.",
+    "chebi:charge": "0",
+    "chebi:formula": "C18H34O2",
+    "chebi:inchi": "InChI=1S/C18H34O2/c1-2-3-4-5-6-7-8-9-10-11-12-13-14-15-16-17-18(19)20/h9-10H,2-8,11-17H2,1H3,(H,19,20)/b10-9+",
+    "chebi:inchikey": "ZQPPMHVWECSIRJ-MDZDMXLPSA-N",
+    "chebi:smiles": "CCCCCCCC\\C=C\\CCCCCCCC(O)=O",
+    "geneontology:hasDbXref": [
+        "Beilstein:1726543",
+        "CAS:112-79-8",
+        "Gmelin:171874",
+        "HMDB:HMDB0000573",
+        "KEGG:C01712",
+        "LIPID_MAPS_instance:LMFA01030073",
+        "PDBeChem:ELA",
+        "PMID:10342226",
+        "PMID:23601386",
+        "PMID:24800387",
+        "PMID:8018112",
+        "PMID:881948",
+        "Reaxys:1726543",
+        "Wikipedia:Elaidic_acid"
+    ],
+    "geneontology:hasId": "27997",
+    "geneontology:hasSynonym": [
+        "(9E)-octadec-9-enoic acid",
+        "(9E)-Octadecenoic acid",
+        "(E)-Oleic acid",
+        "9-OCTADECENOIC ACID",
+        "9-Octadecenoic acid, (E)-",
+        "9-trans-Octadecenoic acid",
+        "Acide elaidique",
+        "D9-trans-Octadecenoic acid",
+        "Elaidic acid",
+        "Elaidinsaeure",
+        "Elaidinsaure",
+        "trans-9-Octadecenoic acid",
+        "trans-D9-Octadecenoic acid",
+        "trans-Delta(9)-octadecenoic acid",
+        "trans-Elaidic acid",
+        "trans-Oleic acid"
+    ],
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#3_STAR"
+    },
+    "rdfs:label": "elaidic acid",
+    "rdfs:subClassOf": [
+        {
+            "@id": "obo:CHEBI_36021"
+        },
+        {
+            "@id": "b180_genid-00f1db82e1ab437c844115a94dc63e635-bn27997tmms73f30825"
+        },
+        {
+            "@id": "b180_genid-00f1db82e1ab437c844115a94dc63e635-bn27997t4f30825"
+        },
+        {
+            "@id": "b180_genid-00f1db82e1ab437c844115a94dc63e635-bn27997t9f37607"
+        },
+        {
+            "@id": "b180_genid-00f1db82e1ab437c844115a94dc63e635-bn27997t11f78295"
+        },
+        {
+            "@id": "b180_genid-00f1db82e1ab437c844115a94dc63e635-bn27997t4f231086"
+        }
+    ]
+}

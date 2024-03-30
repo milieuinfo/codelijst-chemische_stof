@@ -1,0 +1,69 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_81828",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "obo:IAO_0000115": "An ethyl ester resulting from the formal condensation of the carboxy group of pyraflufen with ethanol. A proherbicide for pyraflufen, it is used for the control of broad-leaved weeds and grasses in a variety of crops.",
+    "chebi:charge": "0",
+    "chebi:formula": "C15H13Cl2F3N2O4",
+    "chebi:inchi": "InChI=1S/C15H13Cl2F3N2O4/c1-3-24-11(23)6-25-10-4-7(9(18)5-8(10)16)13-12(17)14(22(2)21-13)26-15(19)20/h4-5,15H,3,6H2,1-2H3",
+    "chebi:inchikey": "APTZNLHMIGJTEW-UHFFFAOYSA-N",
+    "chebi:smiles": "C1(=C(C=C(C(=C1)OCC(OCC)=O)Cl)F)C2=NN(C(=C2Cl)OC(F)F)C",
+    "geneontology:hasDbXref": [
+        "AGR:IND43730727",
+        "AGR:IND44405977",
+        "CAS:129630-19-9",
+        "KEGG:C18554",
+        "Patent:CN101828555",
+        "Pesticides:derivatives/pyraflufen-ethyl",
+        "PMID:17159321",
+        "PPDB:565",
+        "Reaxys:11519423"
+    ],
+    "geneontology:hasId": "81828",
+    "geneontology:hasSynonym": [
+        "ethyl [2-chloro-5-(4-chloro-5-difluoromethoxy-1-methylpyrazol-3-yl)-4-fluorophenoxy]acetate",
+        "ethyl {2-chloro-5-[4-chloro-5-(difluoromethoxy)-1-methyl-1H-pyrazol-3-yl]-4-fluorophenoxy}acetate",
+        "ethyl 2-[2-chloro-5-[4-chloro-5-(difluoromethoxy)-1-methyl-1H-pyrazol-3-yl]-4-fluorophenoxy]acetate"
+    ],
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#3_STAR"
+    },
+    "rdfs:label": "pyraflufen-ethyl",
+    "rdfs:subClassOf": [
+        {
+            "@id": "obo:CHEBI_35618"
+        },
+        {
+            "@id": "obo:CHEBI_23990"
+        },
+        {
+            "@id": "obo:CHEBI_26410"
+        },
+        {
+            "@id": "obo:CHEBI_83403"
+        },
+        {
+            "@id": "obo:CHEBI_64459"
+        },
+        {
+            "@id": "obo:CHEBI_83575"
+        },
+        {
+            "@id": "b205_genid-00f1db82e1ab437c844115a94dc63e635-bn81828t11f33286"
+        },
+        {
+            "@id": "b205_genid-00f1db82e1ab437c844115a94dc63e635-bn81828t11f73192"
+        },
+        {
+            "@id": "b205_genid-00f1db82e1ab437c844115a94dc63e635-bn81828t11f136646"
+        },
+        {
+            "@id": "b205_genid-00f1db82e1ab437c844115a94dc63e635-bn81828t8f138287"
+        }
+    ]
+}

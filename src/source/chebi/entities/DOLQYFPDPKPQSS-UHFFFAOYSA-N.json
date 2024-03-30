@@ -1,0 +1,52 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_39901",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "obo:IAO_0000115": "A  primary arylamine that is aniline in which the hydrogens at the 3- and 4-positions are replaced by methyl groups. A low-melting, crystalline solid, it is used in the production of vitamin B2, dyes, pesticides and other chemicals.",
+    "chebi:charge": "0",
+    "chebi:formula": "C8H11N",
+    "chebi:inchi": "InChI=1S/C8H11N/c1-6-3-4-8(9)5-7(6)2/h3-5H,9H2,1-2H3",
+    "chebi:inchikey": "DOLQYFPDPKPQSS-UHFFFAOYSA-N",
+    "chebi:smiles": "Cc1ccc(N)cc1C",
+    "geneontology:hasDbXref": [
+        "Beilstein:507414",
+        "CAS:95-64-7",
+        "DrugBank:DB03018",
+        "PDBeChem:34A",
+        "PMID:1499570",
+        "PMID:18113546",
+        "Reaxys:507414",
+        "Wikipedia:3,4-xylidine"
+    ],
+    "geneontology:hasId": "39901",
+    "geneontology:hasSynonym": [
+        "1-amino-3,4-dimethylbenzene",
+        "3,4-dimethylaminobenzene",
+        "3,4-DIMETHYLANILINE",
+        "3,4-dimethylbenzenamine",
+        "3,4-dimethylbenzene-1-amine",
+        "3,4-dimethylbenzeneamine",
+        "3,4-dimethylphenylamine",
+        "3,4-xylidine",
+        "3,4-xylylamine",
+        "4-amino-1,2-dimethylbenzene",
+        "4-amino-o-xylene"
+    ],
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#3_STAR"
+    },
+    "rdfs:label": "3,4-dimethylaniline",
+    "rdfs:subClassOf": [
+        {
+            "@id": "obo:CHEBI_50471"
+        },
+        {
+            "@id": "obo:CHEBI_23806"
+        }
+    ]
+}

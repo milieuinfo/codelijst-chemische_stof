@@ -1,0 +1,59 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_6482",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "obo:IAO_0000115": "A member of the class of phenylureas that is N-methyl urea substituted by a methoxy group at position 1 and a 3,4-dichlorophenyl group at position 3.",
+    "chebi:charge": "0",
+    "chebi:formula": "C9H10Cl2N2O2",
+    "chebi:inchi": "InChI=1S/C9H10Cl2N2O2/c1-13(15-2)9(14)12-6-3-4-7(10)8(11)5-6/h3-5H,1-2H3,(H,12,14)",
+    "chebi:inchikey": "XKJMBINCVNINCA-UHFFFAOYSA-N",
+    "chebi:smiles": "CON(C)C(=O)Nc1ccc(Cl)c(Cl)c1",
+    "geneontology:hasDbXref": [
+        "CAS:330-55-2",
+        "KEGG:C11007",
+        "Pesticides:linuron",
+        "PMID:23586778",
+        "PMID:24410802",
+        "PMID:25238184",
+        "PPDB:419",
+        "Reaxys:2128725"
+    ],
+    "geneontology:hasId": "6482",
+    "geneontology:hasSynonym": [
+        "1-Methoxy-1-methyl-3-(3,4-dichlorophenyl)urea",
+        "3-(3,4-dichlorophenyl)-1-methoxy-1-methylurea",
+        "N'-(3,4-dichlorophenyl)-N-methoxy-N-methyl Urea"
+    ],
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#3_STAR"
+    },
+    "rdfs:label": "linuron",
+    "rdfs:subClassOf": [
+        {
+            "@id": "obo:CHEBI_23697"
+        },
+        {
+            "@id": "obo:CHEBI_134043"
+        },
+        {
+            "@id": "b312_genid-00f1db82e1ab437c844115a94dc63e635-bn6482t11f24527"
+        },
+        {
+            "@id": "b312_genid-00f1db82e1ab437c844115a94dc63e635-bn6482t11f33286"
+        },
+        {
+            "@id": "b312_genid-00f1db82e1ab437c844115a94dc63e635-bn6482t11f35703"
+        },
+        {
+            "@id": "b312_genid-00f1db82e1ab437c844115a94dc63e635-bn6482t8f44383"
+        },
+        {
+            "@id": "b312_genid-00f1db82e1ab437c844115a94dc63e635-bn6482t11f78298"
+        }
+    ]
+}

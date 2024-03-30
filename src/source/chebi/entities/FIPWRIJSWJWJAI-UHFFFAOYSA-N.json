@@ -1,0 +1,49 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_32687",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "chebi:charge": "0",
+    "chebi:formula": "C19H30O5",
+    "chebi:inchi": "InChI=1S/C19H30O5/c1-3-5-7-20-8-9-21-10-11-22-14-17-13-19-18(23-15-24-19)12-16(17)6-4-2/h12-13H,3-11,14-15H2,1-2H3",
+    "chebi:inchikey": "FIPWRIJSWJWJAI-UHFFFAOYSA-N",
+    "chebi:smiles": "CCCCOCCOCCOCc1cc2OCOc2cc1CCC",
+    "geneontology:hasDbXref": [
+        "Beilstein:288063",
+        "CAS:51-03-6",
+        "Drug_Central:4276",
+        "KEGG:C18880",
+        "KEGG:D08383",
+        "PPDB:529",
+        "VSDB:529",
+        "Wikipedia:Piperonyl_Butoxide"
+    ],
+    "geneontology:hasId": "32687",
+    "geneontology:hasSynonym": [
+        "(3,4-methylenedioxy-6-propylbenzyl) (butyl) diethylene glycol ether",
+        "(butylcarbityl)(6-propylpiperonyl)ether",
+        "2-(2-butoxyethoxy)ethyl 6-propylpiperonyl ether",
+        "5-{[2-(2-butoxyethoxy)ethoxy]methyl}-6-propyl-1,3-benzodioxole",
+        "5-propyl-4-(2,5,8-trioxa-dodecyl)-1,3-benzodioxole",
+        "6-propylpiperonyl butyl diethylene glycol ether",
+        "alpha-(2-(2-n-butoxyethoxy)-ethoxy)-4,5-methylenedioxy-2-propyltoluene",
+        "alpha-[2-(2-butoxyethoxy)ethoxy]-4,5-(methylenedioxy)-2-propyltoluene",
+        "butyl carbitol 6-propylpiperonyl ether"
+    ],
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#3_STAR"
+    },
+    "rdfs:label": "piperonyl butoxide",
+    "rdfs:subClassOf": [
+        {
+            "@id": "obo:CHEBI_38298"
+        },
+        {
+            "@id": "b194_genid-00f1db82e1ab437c844115a94dc63e635-bn32687t11f25943"
+        }
+    ]
+}

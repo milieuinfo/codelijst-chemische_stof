@@ -1,0 +1,76 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_34395",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "obo:IAO_0000115": "A hydroxytoluene that is 3-methylphenol which is substituted by a chlorine at position 4. A <a href=\"https://en.wikipedia.org/wiki/Ryanodine_receptor\" target=\"_blank\">ryanodine receptor</a> agonist.",
+    "chebi:charge": "0",
+    "chebi:formula": "C7H7ClO",
+    "chebi:inchi": "InChI=1S/C7H7ClO/c1-5-4-6(9)2-3-7(5)8/h2-4,9H,1H3",
+    "chebi:inchikey": "CFKMVGJGLGKFKI-UHFFFAOYSA-N",
+    "chebi:smiles": "C1=C(C=CC(=C1C)Cl)O",
+    "geneontology:hasDbXref": [
+        "PMID:30684528",
+        "CAS:59-50-7",
+        "KEGG:C14331",
+        "KEGG:D03468",
+        "PDBeChem:43M",
+        "PMID:10360873",
+        "PMID:10625004",
+        "PMID:12761215",
+        "PMID:12884985",
+        "PMID:12944669",
+        "PMID:15491450",
+        "PMID:15537710",
+        "PMID:16168959",
+        "PMID:16530265",
+        "PMID:16601083",
+        "PMID:16807860",
+        "PMID:19904006",
+        "PMID:20818538",
+        "PMID:23561324",
+        "PMID:25479114",
+        "PMID:27591377",
+        "PMID:30655298",
+        "PMID:31165076",
+        "PMID:31988840",
+        "Wikipedia:P-Chlorocresol"
+    ],
+    "geneontology:hasId": "34395",
+    "geneontology:hasSynonym": [
+        "1-chloro-2-methyl-4-hydroxybenzene",
+        "2-chloro-5-hydroxytoluene",
+        "3-methyl-4-chlorophenol",
+        "4-chloro-3-methylphenol",
+        "4-chloro-5-methylphenol",
+        "6-chloro-3-hydroxytoluene",
+        "para-chloro-meta-cresol",
+        "p-chlorocresol",
+        "p-chloro-m-cresol"
+    ],
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#3_STAR"
+    },
+    "rdfs:label": "4-chloro-m-cresol",
+    "rdfs:subClassOf": [
+        {
+            "@id": "obo:CHEBI_83403"
+        },
+        {
+            "@id": "obo:CHEBI_24751"
+        },
+        {
+            "@id": "b294_genid-00f1db82e1ab437c844115a94dc63e635-bn34395t11f33281"
+        },
+        {
+            "@id": "b294_genid-00f1db82e1ab437c844115a94dc63e635-bn34395t11f48219"
+        },
+        {
+            "@id": "b294_genid-00f1db82e1ab437c844115a94dc63e635-bn34395t11f67114"
+        }
+    ]
+}

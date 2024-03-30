@@ -1,0 +1,52 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_43098",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "obo:IAO_0000115": "A straight-chain alkane with seven carbon atoms. It has been found in Jeffrey pine (Pinus jeffreyi).",
+    "chebi:charge": "0",
+    "chebi:formula": "C7H16",
+    "chebi:inchi": "InChI=1S/C7H16/c1-3-5-7-6-4-2/h3-7H2,1-2H3",
+    "chebi:inchikey": "IMNFDUFMRHMDMM-UHFFFAOYSA-N",
+    "chebi:smiles": "CCCCCCC",
+    "http://purl.uniprot.org/core/name": "heptane",
+    "geneontology:hasDbXref": [
+        "Beilstein:1730763",
+        "CAS:142-82-5",
+        "Gmelin:49760",
+        "HMDB:HMDB0031447",
+        "MetaCyc:CPD-9286",
+        "PDBeChem:HP6",
+        "PMID:12226360",
+        "PMID:23544797",
+        "Wikipedia:Heptane"
+    ],
+    "geneontology:hasId": "43098",
+    "geneontology:hasSynonym": [
+        "CH3-[CH2]5-CH3",
+        "Heptan",
+        "n-heptane"
+    ],
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#3_STAR"
+    },
+    "rdfs:label": "heptane",
+    "rdfs:subClassOf": [
+        {
+            "@id": "obo:CHEBI_18310"
+        },
+        {
+            "@id": "obo:CHEBI_134179"
+        },
+        {
+            "@id": "b636_genid-00f1db82e1ab437c844115a94dc63e635-bn43098t11f48355"
+        },
+        {
+            "@id": "b636_genid-00f1db82e1ab437c844115a94dc63e635-bn43098t11f76924"
+        }
+    ]
+}

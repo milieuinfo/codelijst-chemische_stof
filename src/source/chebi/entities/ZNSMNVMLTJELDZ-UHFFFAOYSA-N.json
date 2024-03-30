@@ -1,0 +1,32 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_34573",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "chebi:charge": "0",
+    "chebi:formula": "C4H8Cl2O",
+    "chebi:inchi": "InChI=1S/C4H8Cl2O/c5-1-3-7-4-2-6/h1-4H2",
+    "chebi:inchikey": "ZNSMNVMLTJELDZ-UHFFFAOYSA-N",
+    "chebi:smiles": "ClCCOCCCl",
+    "geneontology:hasDbXref": [
+        "CAS:111-44-4",
+        "KEGG:C14688",
+        "PPDB:2714"
+    ],
+    "geneontology:hasId": "34573",
+    "geneontology:hasSynonym": [
+        "1,5-Dichloro-3-oxapentane",
+        "2,2'-Dichlorethyl ether"
+    ],
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#2_STAR"
+    },
+    "rdfs:label": "Bis(2-chloroethyl)ether",
+    "rdfs:subClassOf": {
+        "@id": "obo:CHEBI_25698"
+    }
+}

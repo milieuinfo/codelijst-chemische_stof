@@ -1,0 +1,35 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_38055",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "chebi:charge": "0",
+    "chebi:formula": "C6H6N10",
+    "chebi:inchi": "InChI=1S/C6H6N10/c7-1-10-4-12-2(8)14-6-15-3(9)13-5(11-1)16(4)6/h(H6,7,8,9,10,11,12,13,14,15)",
+    "chebi:inchikey": "YSRVJVDFHZYRPA-UHFFFAOYSA-N",
+    "chebi:smiles": "Nc1nc2nc(N)nc3nc(N)nc(n1)n23",
+    "geneontology:hasDbXref": [
+        "Beilstein:27284",
+        "CAS:1502-47-2",
+        "Gmelin:241276"
+    ],
+    "geneontology:hasId": "38055",
+    "geneontology:hasSynonym": [
+        "1,3,4,6,7,9,9b-heptaazaphenalene-2,5,8-triamine",
+        "2,5,8-triamino-1,3,4,6,7,9,9b-heptaaza-phenalene",
+        "2,5,8-triamino-tri-s-triazine",
+        "cyamelurotriamide",
+        "triamino-s-heptazine"
+    ],
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#3_STAR"
+    },
+    "rdfs:label": "melem",
+    "rdfs:subClassOf": {
+        "@id": "obo:CHEBI_39193"
+    }
+}

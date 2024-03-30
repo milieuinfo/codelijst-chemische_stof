@@ -1,0 +1,30 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_168426",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "chebi:charge": "0",
+    "chebi:formula": "C12H20O7",
+    "chebi:inchi": "InChI=1S/C12H20O7/c1-4-17-9(13)7-12(16,11(15)19-6-3)8-10(14)18-5-2/h16H,4-8H2,1-3H3",
+    "chebi:inchikey": "DOOTYTYQINUNNV-UHFFFAOYSA-N",
+    "chebi:smiles": "OC(CC(OCC)=O)(CC(OCC)=O)C(OCC)=O",
+    "geneontology:hasDbXref": [
+        "CAS:77-93-0",
+        "Chemspider:13850879",
+        "HMDB:HMDB0034263",
+        "KEGG:D06228"
+    ],
+    "geneontology:hasId": "168426",
+    "geneontology:hasSynonym": "triethyl 2-hydroxypropane-1,2,3-tricarboxylate",
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#2_STAR"
+    },
+    "rdfs:label": "Triethyl citrate",
+    "rdfs:subClassOf": {
+        "@id": "obo:CHEBI_36586"
+    }
+}

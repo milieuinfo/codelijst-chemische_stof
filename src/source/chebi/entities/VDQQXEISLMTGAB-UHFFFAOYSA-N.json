@@ -1,0 +1,84 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_53767",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "obo:IAO_0000115": "An  organic sodium salt derivative of toluene-4-sulfonamide with a chloro substituent in place of an amino hydrogen.",
+    "chebi:charge": "0",
+    "chebi:formula": "C7H7ClNNaO2S",
+    "chebi:inchi": "InChI=1S/C7H7ClNO2S.Na/c1-6-2-4-7(5-3-6)12(10,11)9-8;/h2-5H,1H3;/q-1;+1",
+    "chebi:inchikey": "VDQQXEISLMTGAB-UHFFFAOYSA-N",
+    "chebi:smiles": "[Na+].Cc1ccc(cc1)S(=O)(=O)[N-]Cl",
+    "geneontology:hasDbXref": [
+        "Beilstein:3599375",
+        "CAS:127-65-1",
+        "KEGG:D02445",
+        "PMID:10513008",
+        "PMID:11601449",
+        "PMID:24195278",
+        "PMID:24213014",
+        "PMID:2758361",
+        "Reaxys:3599375",
+        "Wikipedia:Chloramine_T"
+    ],
+    "geneontology:hasId": "53767",
+    "geneontology:hasSynonym": [
+        "(N-Chloro-p-toluenesulfonamido)sodium",
+        "Acti-chlore",
+        "Chloralone",
+        "Chloramine-t",
+        "Chloramine-T",
+        "Chlorasan",
+        "Chloraseptine",
+        "Chlorazan",
+        "Chlorazene",
+        "Chlorazone",
+        "Chlorina Aktivin",
+        "Chlorosol",
+        "Chlorozone",
+        "Chlorseptol",
+        "Heliogen",
+        "Mannolite",
+        "Monochloramine T",
+        "Multichlor",
+        "N-Chloro-p-toluenesulfonamide sodium",
+        "Sodium chloramine T",
+        "sodium chloro[(4-methylphenyl)sulfonyl]azanide",
+        "Sodium N-chloro-p-toluenesulfonamide",
+        "Sodium p-toluenesulfonchloramide",
+        "Sodium p-toluenesulfonylchloramide",
+        "Sodium tosylchloramide",
+        "Tampules",
+        "Tochlorine",
+        "Tolamine",
+        "Tosilcloramida sodica",
+        "Tosylchloramide sodique",
+        "Tosylchloramide sodium",
+        "Tosylchloramidum natricum"
+    ],
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#3_STAR"
+    },
+    "rdfs:label": "chloramine T",
+    "rdfs:subClassOf": [
+        {
+            "@id": "obo:CHEBI_38700"
+        },
+        {
+            "@id": "b397_genid-00f1db82e1ab437c844115a94dc63e635-bn53767t11f48219"
+        },
+        {
+            "@id": "b397_genid-00f1db82e1ab437c844115a94dc63e635-bn53767t11f50904"
+        },
+        {
+            "@id": "b397_genid-00f1db82e1ab437c844115a94dc63e635-bn53767t11f51076"
+        },
+        {
+            "@id": "b397_genid-00f1db82e1ab437c844115a94dc63e635-bn53767t10f53787"
+        }
+    ]
+}

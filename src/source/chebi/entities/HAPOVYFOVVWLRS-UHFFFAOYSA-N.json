@@ -1,0 +1,91 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_4887",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "obo:IAO_0000115": "A  dicarboximide that is pyrrolidine-2,5-dione in which the hydrogens at position 3 are substituted by one methyl and one ethyl group. An antiepileptic, it is used in the treatment of absence seizures and may be used for myoclonic seizures, but is ineffective against tonic-clonic seizures.",
+    "chebi:charge": "0",
+    "chebi:formula": "C7H11NO2",
+    "chebi:inchi": "InChI=1S/C7H11NO2/c1-3-7(2)4-5(9)8-6(7)10/h3-4H2,1-2H3,(H,8,9,10)",
+    "chebi:inchikey": "HAPOVYFOVVWLRS-UHFFFAOYSA-N",
+    "chebi:smiles": "CCC1(C)CC(=O)NC1=O",
+    "geneontology:hasDbXref": [
+        "PMID:12873507",
+        "CAS:77-67-8",
+        "Chemspider:3175",
+        "Drug_Central:1087",
+        "DrugBank:DB00593",
+        "HMDB:HMDB0014731",
+        "KEGG:C07505",
+        "KEGG:D00539",
+        "LINCS:LSM-5195",
+        "PMID:16606760",
+        "PMID:1681105",
+        "PMID:17011080",
+        "PMID:17046248",
+        "PMID:17451232",
+        "PMID:17481896",
+        "PMID:1847429",
+        "PMID:18949032",
+        "PMID:19005061",
+        "PMID:1992141",
+        "PMID:2061925",
+        "PMID:21332949",
+        "PMID:21945797",
+        "PMID:2296016",
+        "PMID:2308142",
+        "PMID:3336019",
+        "PMID:3820228",
+        "PMID:8246220",
+        "PMID:8627613",
+        "PMID:8691481",
+        "PMID:9016327",
+        "Reaxys:117054",
+        "Wikipedia:Ethosuximide"
+    ],
+    "geneontology:hasId": "4887",
+    "geneontology:hasSynonym": [
+        "ethosuximide",
+        "(+-)-2-ethyl-2-methylsuccinimide",
+        "2-ethyl-2-methylsuccinimide",
+        "2-methyl-2-ethylsuccinimide",
+        "3-ethyl-3-methyl-2,5-pyrrolidinedione",
+        "3-ethyl-3-methylpyrrolidine-2,5-dione",
+        "3-ethyl-3-methylsuccinimide",
+        "3-methyl-3-ethylpyrrolidine-2,5-dione",
+        "3-methyl-3-ethylsuccinimide",
+        "Aethosuximide",
+        "alpha-ethyl-alpha-methylsuccinimide",
+        "alpha-methyl-alpha-ethylsuccinimide",
+        "Ethosuximide",
+        "ethosuximidum",
+        "etosuximida",
+        "gamma-ethyl-gamma-methyl-succinimide",
+        "gamma-methyl-gamma-ethyl-succinimide"
+    ],
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#3_STAR"
+    },
+    "rdfs:label": "ethosuximide",
+    "rdfs:subClassOf": [
+        {
+            "@id": "obo:CHEBI_35356"
+        },
+        {
+            "@id": "obo:CHEBI_38275"
+        },
+        {
+            "@id": "b416_genid-00f1db82e1ab437c844115a94dc63e635-bn4887t11f35623"
+        },
+        {
+            "@id": "b416_genid-00f1db82e1ab437c844115a94dc63e635-bn4887t11f176497"
+        },
+        {
+            "@id": "b416_genid-00f1db82e1ab437c844115a94dc63e635-bn4887t11f194338"
+        }
+    ]
+}

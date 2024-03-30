@@ -1,0 +1,42 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_33337",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "chebi:charge": "0",
+    "chebi:formula": "Ac",
+    "chebi:inchi": "InChI=1S/Ac",
+    "chebi:inchikey": "QQINRWTZWGJFDB-UHFFFAOYSA-N",
+    "chebi:smiles": "[Ac]",
+    "geneontology:hasDbXref": [
+        "CAS:7440-34-8",
+        "WebElements:Ac"
+    ],
+    "geneontology:hasId": "33337",
+    "geneontology:hasSynonym": [
+        "Ac",
+        "89Ac",
+        "actinio",
+        "actinium",
+        "Aktinium"
+    ],
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#3_STAR"
+    },
+    "rdfs:label": "actinium atom",
+    "rdfs:subClassOf": [
+        {
+            "@id": "obo:CHEBI_33320"
+        },
+        {
+            "@id": "obo:CHEBI_33562"
+        },
+        {
+            "@id": "obo:CHEBI_33335"
+        }
+    ]
+}

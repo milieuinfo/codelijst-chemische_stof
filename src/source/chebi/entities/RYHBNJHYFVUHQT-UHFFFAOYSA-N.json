@@ -1,0 +1,66 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_47032",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "obo:IAO_0000115": "A dioxane with oxygen atoms at positions 1 and 4.",
+    "chebi:charge": "0",
+    "chebi:formula": "C4H8O2",
+    "chebi:inchi": "InChI=1S/C4H8O2/c1-2-6-4-3-5-1/h1-4H2",
+    "chebi:inchikey": "RYHBNJHYFVUHQT-UHFFFAOYSA-N",
+    "chebi:smiles": "C1COCCO1",
+    "geneontology:hasDbXref": [
+        "Beilstein:102551",
+        "CAS:123-91-1",
+        "DrugBank:DB03316",
+        "KEGG:C14440",
+        "LINCS:LSM-37087",
+        "PDBeChem:DIO",
+        "PMID:14550759",
+        "PMID:18044507",
+        "PMID:20598439",
+        "PPDB:1638",
+        "Reaxys:102551",
+        "Wikipedia:1,4-Dioxane"
+    ],
+    "geneontology:hasId": "47032",
+    "geneontology:hasSynonym": [
+        "1,4-DIETHYLENE DIOXIDE",
+        "1,4-dioxacyclohexane",
+        "1,4-Dioxan",
+        "1,4-Dioxane",
+        "di(ethylene oxide)",
+        "Dioxan-1,4",
+        "dioxane-1,4",
+        "glycol ethylene ether",
+        "p-Dioxane",
+        "tetrahydro-1,4-dioxin",
+        "tetrahydro-para-dioxin",
+        "tetrahydro-p-dioxin"
+    ],
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#3_STAR"
+    },
+    "rdfs:label": "1,4-dioxane",
+    "rdfs:subClassOf": [
+        {
+            "@id": "obo:CHEBI_134179"
+        },
+        {
+            "@id": "obo:CHEBI_46923"
+        },
+        {
+            "@id": "b337_genid-00f1db82e1ab437c844115a94dc63e635-bn47032t11f25212"
+        },
+        {
+            "@id": "b337_genid-00f1db82e1ab437c844115a94dc63e635-bn47032t11f48355"
+        },
+        {
+            "@id": "b337_genid-00f1db82e1ab437c844115a94dc63e635-bn47032t11f50903"
+        }
+    ]
+}

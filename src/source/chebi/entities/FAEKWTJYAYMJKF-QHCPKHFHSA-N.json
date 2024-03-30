@@ -1,0 +1,36 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_8805",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "chebi:charge": "0",
+    "chebi:formula": "C27H36N2O4",
+    "chebi:inchi": "InChI=1S/C27H36N2O4/c1-4-33-25-17-20(12-13-22(25)27(31)32)18-26(30)28-23(16-19(2)3)21-10-6-7-11-24(21)29-14-8-5-9-15-29/h6-7,10-13,17,19,23H,4-5,8-9,14-16,18H2,1-3H3,(H,28,30)(H,31,32)/t23-/m0/s1",
+    "chebi:inchikey": "FAEKWTJYAYMJKF-QHCPKHFHSA-N",
+    "chebi:smiles": "CCOc1cc(CC(=O)N[C@@H](CC(C)C)c2ccccc2N2CCCCC2)ccc1C(O)=O",
+    "geneontology:hasDbXref": [
+        "CAS:135062-02-1",
+        "Drug_Central:2366",
+        "HMDB:HMDB0015048",
+        "KEGG:C07670",
+        "KEGG:D00594",
+        "LINCS:LSM-3863"
+    ],
+    "geneontology:hasId": "8805",
+    "geneontology:hasSynonym": [
+        "(S)-(+)-Repaglinide",
+        "enyglid",
+        "surepost"
+    ],
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#2_STAR"
+    },
+    "rdfs:label": "Repaglinide",
+    "rdfs:subClassOf": {
+        "@id": "obo:CHEBI_26151"
+    }
+}

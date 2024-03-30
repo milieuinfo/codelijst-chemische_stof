@@ -1,0 +1,24 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_129711",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "chebi:charge": "0",
+    "chebi:formula": "C20H25F3N2O3",
+    "chebi:inchi": "InChI=1S/C20H25F3N2O3/c21-20(22,23)9-18(27)25-11-16-19(14-3-1-2-4-15(14)25)17(12-26)24(16)10-13-5-7-28-8-6-13/h1-4,13,16-17,19,26H,5-12H2/t16-,17+,19+/m1/s1",
+    "chebi:inchikey": "DJGMPCRJWDHKNS-AOIWGVFYSA-N",
+    "chebi:smiles": "C1COCCC1CN2[C@@H]3CN(C4=CC=CC=C4[C@@H]3[C@@H]2CO)C(=O)CC(F)(F)F",
+    "geneontology:hasDbXref": "LINCS:LSM-41262",
+    "geneontology:hasId": "129711",
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#2_STAR"
+    },
+    "rdfs:label": "1-[(1R,2aS,8bS)-1-(hydroxymethyl)-2-(4-oxanylmethyl)-1,2a,3,8b-tetrahydroazeto[2,3-c]quinolin-4-yl]-3,3,3-trifluoro-1-propanone",
+    "rdfs:subClassOf": {
+        "@id": "obo:CHEBI_36709"
+    }
+}

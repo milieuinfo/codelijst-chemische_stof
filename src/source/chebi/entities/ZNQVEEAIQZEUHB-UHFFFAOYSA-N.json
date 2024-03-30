@@ -1,0 +1,65 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_46788",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "obo:IAO_0000115": "A  hydroxyether that is the  ethyl ether derivative of ethylene glycol.",
+    "chebi:charge": "0",
+    "chebi:formula": "C4H10O2",
+    "chebi:inchi": "InChI=1S/C4H10O2/c1-2-6-4-3-5/h5H,2-4H2,1H3",
+    "chebi:inchikey": "ZNQVEEAIQZEUHB-UHFFFAOYSA-N",
+    "chebi:smiles": "CCOCCO",
+    "geneontology:hasDbXref": [
+        "Beilstein:1098271",
+        "CAS:110-80-5",
+        "DrugBank:DB02249",
+        "Gmelin:82142",
+        "HMDB:HMDB0031213",
+        "KEGG:C14687",
+        "PDBeChem:ETX",
+        "PMID:12209180",
+        "PMID:24399739",
+        "PMID:2625497",
+        "PMID:7151721",
+        "Reaxys:1098271",
+        "Wikipedia:2-Ethoxyethanol"
+    ],
+    "geneontology:hasId": "46788",
+    "geneontology:hasSynonym": [
+        "2EE",
+        "2-Ethoxyethanol",
+        "2-ETHOXYETHANOL",
+        "2-ethoxyethyl alcohol",
+        "beta-ethoxyethanol",
+        "Cellosolve",
+        "ethylene glycol ethyl ether",
+        "ethylene glycol monoethyl ether",
+        "HOCH2CH2OC2H5",
+        "Oxitol"
+    ],
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#3_STAR"
+    },
+    "rdfs:label": "2-ethoxyethanol",
+    "rdfs:subClassOf": [
+        {
+            "@id": "obo:CHEBI_15734"
+        },
+        {
+            "@id": "obo:CHEBI_172390"
+        },
+        {
+            "@id": "b376_genid-00f1db82e1ab437c844115a94dc63e635-bn46788t8f30742"
+        },
+        {
+            "@id": "b376_genid-00f1db82e1ab437c844115a94dc63e635-bn46788t11f48356"
+        },
+        {
+            "@id": "b376_genid-00f1db82e1ab437c844115a94dc63e635-bn46788t11f50905"
+        }
+    ]
+}

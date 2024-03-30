@@ -1,0 +1,58 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_36605",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "obo:IAO_0000115": "The cyclic dicarboxylic anhydride that is the anhydride of phthalic acid.",
+    "chebi:charge": "0",
+    "chebi:formula": "C8H4O3",
+    "chebi:inchi": "InChI=1S/C8H4O3/c9-7-5-3-1-2-4-6(5)8(10)11-7/h1-4H",
+    "chebi:inchikey": "LGRFSURHDFAFJT-UHFFFAOYSA-N",
+    "chebi:smiles": "O=C1OC(=O)c2ccccc12",
+    "geneontology:hasDbXref": [
+        "PMID:1447476",
+        "Beilstein:118515",
+        "CAS:85-44-9",
+        "Gmelin:27200",
+        "PMID:12269934",
+        "PMID:21901887",
+        "PMID:21902644",
+        "PMID:22222149",
+        "PMID:22883110",
+        "PMID:22887795",
+        "PMID:23549605",
+        "PMID:23680900",
+        "Reaxys:118515",
+        "Wikipedia:Phthalic_anhydride"
+    ],
+    "geneontology:hasId": "36605",
+    "geneontology:hasSynonym": [
+        "1,2-benzenedicarboxylic acid anhydride",
+        "1,3-dioxophthalan",
+        "1,3-isobenzofurandione",
+        "1,3-phthalandione",
+        "2-benzofuran-1,3-dione",
+        "o-phthalic acid anhydride",
+        "ortho-phthalic acid anhydride",
+        "Phthalsaeureanhydrid"
+    ],
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#3_STAR"
+    },
+    "rdfs:label": "phthalic anhydride",
+    "rdfs:subClassOf": [
+        {
+            "@id": "obo:CHEBI_36609"
+        },
+        {
+            "@id": "obo:CHEBI_38831"
+        },
+        {
+            "@id": "b390_genid-00f1db82e1ab437c844115a94dc63e635-bn36605t11f50904"
+        }
+    ]
+}

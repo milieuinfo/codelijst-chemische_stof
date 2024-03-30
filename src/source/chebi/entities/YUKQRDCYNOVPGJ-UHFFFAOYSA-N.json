@@ -1,0 +1,60 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_32497",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "obo:IAO_0000115": "A thiocarboxamide consiting of acetamide having the oxygen replaced by sulfur.",
+    "chebi:charge": "0",
+    "chebi:formula": "C2H5NS",
+    "chebi:inchi": "InChI=1S/C2H5NS/c1-2(3)4/h1H3,(H2,3,4)",
+    "chebi:inchikey": "YUKQRDCYNOVPGJ-UHFFFAOYSA-N",
+    "chebi:smiles": "CC(N)=S",
+    "geneontology:hasDbXref": [
+        "Beilstein:506006",
+        "CAS:62-55-5",
+        "KEGG:C19302",
+        "PMID:20138653",
+        "PMID:20534638",
+        "PMID:20931291",
+        "PMID:21182490",
+        "PMID:21455425",
+        "PMID:21489598",
+        "PMID:21647311",
+        "PMID:21699073",
+        "PMID:21733084",
+        "PMID:21733883",
+        "PMID:21749370",
+        "Reaxys:506006",
+        "Wikipedia:Thioacetamide"
+    ],
+    "geneontology:hasId": "32497",
+    "geneontology:hasSynonym": [
+        "acetic acid thioamide",
+        "Acetothioamide",
+        "ethanethioamide",
+        "methylthioamide",
+        "TAA",
+        "Thiacetamide",
+        "Thioacetimidic acid",
+        "Thioactamide"
+    ],
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#3_STAR"
+    },
+    "rdfs:label": "thioacetamide",
+    "rdfs:subClassOf": [
+        {
+            "@id": "obo:CHEBI_47956"
+        },
+        {
+            "@id": "b410_genid-00f1db82e1ab437c844115a94dc63e635-bn32497t8f27856"
+        },
+        {
+            "@id": "b410_genid-00f1db82e1ab437c844115a94dc63e635-bn32497t11f50908"
+        }
+    ]
+}

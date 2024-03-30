@@ -1,0 +1,63 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_18308",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "obo:IAO_0000115": "A alpha,beta-unsaturated monocarboxylic acid that is ethene substituted by a carboxy group.",
+    "chebi:charge": "0",
+    "chebi:formula": "C3H4O2",
+    "chebi:inchi": "InChI=1S/C3H4O2/c1-2-3(4)5/h2H,1H2,(H,4,5)",
+    "chebi:inchikey": "NIXOWILDQLNWCW-UHFFFAOYSA-N",
+    "chebi:smiles": "OC(=O)C=C",
+    "geneontology:hasDbXref": [
+        "Beilstein:635743",
+        "CAS:79-10-7",
+        "DrugBank:DB02579",
+        "Gmelin:1817",
+        "HMDB:HMDB0031647",
+        "KEGG:C00511",
+        "LIPID_MAPS_instance:LMFA01030193",
+        "MetaCyc:MY148411",
+        "MetaCyc:MY149879",
+        "PDBeChem:AKR",
+        "PMID:24650085",
+        "PMID:24673501",
+        "Reaxys:635743",
+        "Wikipedia:Acrylic_acid"
+    ],
+    "geneontology:hasId": "18308",
+    "geneontology:hasSynonym": [
+        "2-Propenoic acid",
+        "acroleic acid",
+        "Acrylate",
+        "Acrylic acid",
+        "ACRYLIC ACID",
+        "ethylenecarboxylic acid",
+        "prop-2-enoic acid",
+        "Propenoate",
+        "Propenoic acid",
+        "Vinylformic acid"
+    ],
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#3_STAR"
+    },
+    "rdfs:label": "acrylic acid",
+    "rdfs:subClassOf": [
+        {
+            "@id": "obo:CHEBI_79020"
+        },
+        {
+            "@id": "b73_genid-00f1db82e1ab437c844115a94dc63e635-bn18308tmms73f37080"
+        },
+        {
+            "@id": "b73_genid-00f1db82e1ab437c844115a94dc63e635-bn18308t11f25212"
+        },
+        {
+            "@id": "b73_genid-00f1db82e1ab437c844115a94dc63e635-bn18308t4f37080"
+        }
+    ]
+}

@@ -1,0 +1,52 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_38881",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "chebi:charge": "0",
+    "chebi:formula": "C14H17N2O4PS",
+    "chebi:inchi": "InChI=1S/C14H17N2O4PS/c1-3-18-21(22,19-4-2)20-13-10-11-14(17)16(15-13)12-8-6-5-7-9-12/h5-11H,3-4H2,1-2H3",
+    "chebi:inchikey": "CXJSOEPQXUCJSA-UHFFFAOYSA-N",
+    "chebi:smiles": "CCOP(=S)(OCC)Oc1ccc(=O)n(n1)-c1ccccc1",
+    "geneontology:hasDbXref": [
+        "Beilstein:302741",
+        "CAS:119-12-0",
+        "KEGG:C18762",
+        "PPDB:570"
+    ],
+    "geneontology:hasId": "38881",
+    "geneontology:hasSynonym": [
+        "O,O-diethyl O-(6-oxo-1-phenyl-1,6-dihydropyridazin-3-yl) phosphorothioate",
+        "O,O-diethyl O-(6-oxo-1-phenyl-1,6-dihydropyridazin-3-yl) thiophosphate",
+        "Phosphorothioic acid, O-(1,6-dihydro-6-oxo-1-phenyl-3-pyridazinyl) O,O-diethyl ester",
+        "Pyridaphenthion"
+    ],
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#3_STAR"
+    },
+    "rdfs:label": "pyridaphenthion",
+    "rdfs:subClassOf": [
+        {
+            "@id": "obo:CHEBI_37512"
+        },
+        {
+            "@id": "obo:CHEBI_25715"
+        },
+        {
+            "@id": "obo:CHEBI_26414"
+        },
+        {
+            "@id": "b398_genid-00f1db82e1ab437c844115a94dc63e635-bn38881t11f33286"
+        },
+        {
+            "@id": "b398_genid-00f1db82e1ab437c844115a94dc63e635-bn38881t11f38462"
+        },
+        {
+            "@id": "b398_genid-00f1db82e1ab437c844115a94dc63e635-bn38881t8f38885"
+        }
+    ]
+}

@@ -1,0 +1,28 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_81930",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "chebi:charge": "0",
+    "chebi:formula": "C11H13F3N2O3S",
+    "chebi:inchi": "InChI=1S/C11H13F3N2O3S/c1-6-4-7(2)10(5-9(6)15-8(3)17)16-20(18,19)11(12,13)14/h4-5,16H,1-3H3,(H,15,17)",
+    "chebi:inchikey": "OKIBNKKYNPBDRS-UHFFFAOYSA-N",
+    "chebi:smiles": "CC(=O)Nc1cc(NS(=O)(=O)C(F)(F)F)c(C)cc1C",
+    "geneontology:hasDbXref": [
+        "CAS:53780-34-0",
+        "KEGG:C18743",
+        "PPDB:434"
+    ],
+    "geneontology:hasId": "81930",
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#2_STAR"
+    },
+    "rdfs:label": "Mefluidide",
+    "rdfs:subClassOf": {
+        "@id": "obo:CHEBI_35358"
+    }
+}

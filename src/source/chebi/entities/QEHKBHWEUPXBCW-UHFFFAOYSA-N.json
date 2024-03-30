@@ -1,0 +1,37 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_37382",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "chebi:charge": "0",
+    "chebi:formula": "Cl3N",
+    "chebi:inchi": "InChI=1S/Cl3N/c1-4(2)3",
+    "chebi:inchikey": "QEHKBHWEUPXBCW-UHFFFAOYSA-N",
+    "chebi:smiles": "ClN(Cl)Cl",
+    "geneontology:hasDbXref": [
+        "CAS:10025-85-1",
+        "Gmelin:1840",
+        "MolBase:1397"
+    ],
+    "geneontology:hasId": "37382",
+    "geneontology:hasSynonym": [
+        "[NCl3]",
+        "Agene",
+        "NCl3",
+        "nitrogen chloride",
+        "trichloramine",
+        "trichloridonitrogen",
+        "trichloroazane"
+    ],
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#3_STAR"
+    },
+    "rdfs:label": "nitrogen trichloride",
+    "rdfs:subClassOf": {
+        "@id": "obo:CHEBI_37381"
+    }
+}

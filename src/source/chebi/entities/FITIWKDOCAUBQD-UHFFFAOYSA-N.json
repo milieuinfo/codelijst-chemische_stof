@@ -1,0 +1,70 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_38873",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "obo:IAO_0000115": "An organic thiophosphate that is the 2,4-dichlorophenyl ester of O-ethyl S-propyl dithiophosphoric acid.",
+    "chebi:charge": "0",
+    "chebi:formula": "C11H15Cl2O2PS2",
+    "chebi:inchi": "InChI=1S/C11H15Cl2O2PS2/c1-3-7-18-16(17,14-4-2)15-11-6-5-9(12)8-10(11)13/h5-6,8H,3-4,7H2,1-2H3",
+    "chebi:inchikey": "FITIWKDOCAUBQD-UHFFFAOYSA-N",
+    "chebi:smiles": "CCCSP(=S)(OCC)Oc1ccc(Cl)cc1Cl",
+    "geneontology:hasDbXref": [
+        "Beilstein:1998314",
+        "CAS:34643-46-4",
+        "KEGG:C18405",
+        "PMID:10384797",
+        "PMID:11337831",
+        "PMID:11347620",
+        "PMID:12842175",
+        "PMID:17287007",
+        "PMID:17592615",
+        "PMID:19737786",
+        "PMID:20390940",
+        "PMID:21744237",
+        "PMID:3192132",
+        "PPDB:560",
+        "Reaxys:1998314"
+    ],
+    "geneontology:hasId": "38873",
+    "geneontology:hasSynonym": [
+        "Dichlorpropaphos",
+        "O-(2,4-dichlorophenyl) O-ethyl S-propyl dithiophosphate",
+        "O-(2,4-dichlorophenyl) O-ethyl S-propyl phosphorodithionate",
+        "Prothiophos"
+    ],
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#3_STAR"
+    },
+    "rdfs:label": "prothiofos",
+    "rdfs:subClassOf": [
+        {
+            "@id": "obo:CHEBI_33261"
+        },
+        {
+            "@id": "obo:CHEBI_23697"
+        },
+        {
+            "@id": "obo:CHEBI_37512"
+        },
+        {
+            "@id": "b201_genid-00f1db82e1ab437c844115a94dc63e635-bn38873t8f16738"
+        },
+        {
+            "@id": "b201_genid-00f1db82e1ab437c844115a94dc63e635-bn38873t11f24852"
+        },
+        {
+            "@id": "b201_genid-00f1db82e1ab437c844115a94dc63e635-bn38873t11f33286"
+        },
+        {
+            "@id": "b201_genid-00f1db82e1ab437c844115a94dc63e635-bn38873t11f37733"
+        },
+        {
+            "@id": "b201_genid-00f1db82e1ab437c844115a94dc63e635-bn38873t11f38462"
+        }
+    ]
+}

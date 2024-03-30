@@ -1,0 +1,82 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_3015",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "obo:IAO_0000115": "A member of the class of benzimidazoles that is the methyl ester of  [1-(butylcarbamoyl)-1H-benzimidazol-2-yl]carbamic acid. A foliar fungicide used to control a wide range of Ascomycetes and Fungi Imperfecti in a wide range of crops.",
+    "chebi:charge": "0",
+    "chebi:formula": "C14H18N4O3",
+    "chebi:inchi": "InChI=1S/C14H18N4O3/c1-3-4-9-15-13(19)18-11-8-6-5-7-10(11)16-12(18)17-14(20)21-2/h5-8H,3-4,9H2,1-2H3,(H,15,19)(H,16,17,20)",
+    "chebi:inchikey": "RIOXQFHNBCKOKP-UHFFFAOYSA-N",
+    "chebi:smiles": "CCCCNC(=O)n1c(NC(=O)OC)nc2ccccc12",
+    "geneontology:hasDbXref": [
+        "Beilstein:825455",
+        "CAS:17804-35-2",
+        "HMDB:HMDB0031767",
+        "KEGG:C10896",
+        "Pesticides:benomyl",
+        "PMID:15813220",
+        "PMID:16903866",
+        "PMID:19049291",
+        "PMID:24693254",
+        "PMID:24782104",
+        "PMID:25045800",
+        "PMID:25104429",
+        "PMID:25145128",
+        "PPDB:66",
+        "Reaxys:825455",
+        "Wikipedia:Benomyl"
+    ],
+    "geneontology:hasId": "3015",
+    "geneontology:hasSynonym": [
+        "1-(Butylcarbamoyl)-2-benzimidazolecarbamic acid, methyl ester",
+        "1-(Butylcarbamoyl)-2-benzimidazol-methylcarbamat",
+        "1-(N-Butylcarbamoyl)-2-(methoxy-carboxamido)-benzimidazol",
+        "Benlate",
+        "Benomyl",
+        "methyl [1-(butylcarbamoyl)-1H-benzimidazol-2-yl]carbamate",
+        "Methyl 1-(butylamino)carbonyl-1H-benzimidazol-2-ylcarbamate",
+        "Methyl 1-(butylcarbamoyl)-2-benzimidazolecarbamate",
+        "Methyl N-(1-butylcarbamoyl-2-benzimidazole)carbamate"
+    ],
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#3_STAR"
+    },
+    "rdfs:label": "benomyl",
+    "rdfs:subClassOf": [
+        {
+            "@id": "obo:CHEBI_62733"
+        },
+        {
+            "@id": "obo:CHEBI_23003"
+        },
+        {
+            "@id": "obo:CHEBI_22715"
+        },
+        {
+            "@id": "b63_genid-00f1db82e1ab437c844115a94dc63e635-bn3015t11f22153"
+        },
+        {
+            "@id": "b63_genid-00f1db82e1ab437c844115a94dc63e635-bn3015t11f35443"
+        },
+        {
+            "@id": "b63_genid-00f1db82e1ab437c844115a94dc63e635-bn3015t11f60832"
+        },
+        {
+            "@id": "b63_genid-00f1db82e1ab437c844115a94dc63e635-bn3015t11f61951"
+        },
+        {
+            "@id": "b63_genid-00f1db82e1ab437c844115a94dc63e635-bn3015t11f86328"
+        },
+        {
+            "@id": "obo:CHEBI_87036"
+        },
+        {
+            "@id": "obo:CHEBI_87064"
+        }
+    ]
+}

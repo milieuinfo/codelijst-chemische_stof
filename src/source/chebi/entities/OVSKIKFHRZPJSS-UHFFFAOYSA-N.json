@@ -1,0 +1,88 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_28854",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "obo:IAO_0000115": "A chlorophenoxyacetic acid that is phenoxyacetic acid in which the ring hydrogens at postions 2 and 4 are substituted by chlorines.",
+    "chebi:charge": "0",
+    "chebi:formula": "C8H6Cl2O3",
+    "chebi:inchi": "InChI=1S/C8H6Cl2O3/c9-5-1-2-7(6(10)3-5)13-4-8(11)12/h1-3H,4H2,(H,11,12)",
+    "chebi:inchikey": "OVSKIKFHRZPJSS-UHFFFAOYSA-N",
+    "chebi:smiles": "OC(=O)COc1ccc(Cl)cc1Cl",
+    "geneontology:hasDbXref": [
+        "MetaCyc:CPD-9009",
+        "Beilstein:1214242",
+        "CAS:94-75-7",
+        "Gmelin:51306",
+        "HMDB:HMDB0041797",
+        "KEGG:C03664",
+        "LINCS:LSM-19988",
+        "PDBeChem:CFA",
+        "Pesticides:2,4-d",
+        "PMID:10794133",
+        "PMID:11165716",
+        "PMID:11423340",
+        "PMID:11566291",
+        "PMID:12231832",
+        "PMID:15198722",
+        "PMID:16785163",
+        "PMID:17568655",
+        "PMID:18969687",
+        "PMID:6362003",
+        "PPDB:4",
+        "Reaxys:1214242",
+        "Wikipedia:2,4-Dichlorophenoxyacetic_acid"
+    ],
+    "geneontology:hasId": "28854",
+    "geneontology:hasSynonym": [
+        "(2,4-dichlorophenoxy)acetic acid",
+        "(2,4-Dichlorphenoxy)essigsaeure",
+        "2,4-D acid",
+        "2,4-Dichlorophenoxyacetate",
+        "2,4-Dichlorophenoxyacetic acid",
+        "2,4-Dichlorphenoxyessigsaeure",
+        "acide 2,4-dichloro phenoxyacetique",
+        "Hedonal",
+        "Trinoxol"
+    ],
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#3_STAR"
+    },
+    "rdfs:label": "2,4-D",
+    "rdfs:subClassOf": [
+        {
+            "@id": "obo:CHEBI_23697"
+        },
+        {
+            "@id": "obo:CHEBI_23152"
+        },
+        {
+            "@id": "b12_genid-00f1db82e1ab437c844115a94dc63e635-bn28854tmms73f19351"
+        },
+        {
+            "@id": "b12_genid-00f1db82e1ab437c844115a94dc63e635-bn28854t4f19351"
+        },
+        {
+            "@id": "b12_genid-00f1db82e1ab437c844115a94dc63e635-bn28854t11f23582"
+        },
+        {
+            "@id": "b12_genid-00f1db82e1ab437c844115a94dc63e635-bn28854t11f26841"
+        },
+        {
+            "@id": "b12_genid-00f1db82e1ab437c844115a94dc63e635-bn28854t11f33286"
+        },
+        {
+            "@id": "b12_genid-00f1db82e1ab437c844115a94dc63e635-bn28854t11f60575"
+        },
+        {
+            "@id": "b12_genid-00f1db82e1ab437c844115a94dc63e635-bn28854t11f77484"
+        },
+        {
+            "@id": "b12_genid-00f1db82e1ab437c844115a94dc63e635-bn28854t11f78298"
+        }
+    ]
+}

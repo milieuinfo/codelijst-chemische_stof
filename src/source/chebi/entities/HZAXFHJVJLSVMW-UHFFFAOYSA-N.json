@@ -1,0 +1,91 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_16000",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "obo:IAO_0000115": "A member of the class of  ethanolamines that is ethane with an amino substituent at C-1 and a hydroxy substituent at C-2, making it both a primary amine and a primary alcohol.",
+    "chebi:charge": "0",
+    "chebi:formula": "C2H7NO",
+    "chebi:inchi": "InChI=1S/C2H7NO/c3-1-2-4/h4H,1-3H2",
+    "chebi:inchikey": "HZAXFHJVJLSVMW-UHFFFAOYSA-N",
+    "chebi:smiles": "NCCO",
+    "geneontology:hasDbXref": [
+        "PMID:10930630",
+        "PMID:24023812",
+        "PMID:6196640",
+        "PMID:3654008",
+        "PMID:12834252",
+        "Beilstein:505944",
+        "CAS:141-43-5",
+        "DrugBank:DB03994",
+        "Gmelin:1650",
+        "HMDB:HMDB0000149",
+        "KEGG:C00189",
+        "KEGG:D05074",
+        "KNApSAcK:C00007279",
+        "PDBeChem:ETA",
+        "PMID:15149650",
+        "PMID:6708049",
+        "Reaxys:505944",
+        "UM-BBD_compID:c0594",
+        "Wikipedia:Ethanolamine"
+    ],
+    "geneontology:hasId": "16000",
+    "geneontology:hasSynonym": [
+        "MEA",
+        "1-amino-2-hydroxyethane",
+        "2-amino-1-ethanol",
+        "2-aminoethan-1-ol",
+        "2-aminoethanol",
+        "2-Amino-ethanol",
+        "2-aminoethyl alcohol",
+        "2-Hydroxyethylamine",
+        "Aethanolamin",
+        "Aminoethanol",
+        "beta-aminoethanol",
+        "beta-aminoethyl alcohol",
+        "beta-ethanolamine",
+        "beta-hydroxyethylamine",
+        "colamine",
+        "ETA",
+        "Ethanolamine",
+        "glycinol",
+        "Hea",
+        "monoethanolamine",
+        "MONOETHANOLAMINE"
+    ],
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#3_STAR"
+    },
+    "rdfs:label": "ethanolamine",
+    "rdfs:subClassOf": [
+        {
+            "@id": "obo:CHEBI_15734"
+        },
+        {
+            "@id": "obo:CHEBI_23981"
+        },
+        {
+            "@id": "obo:CHEBI_32877"
+        },
+        {
+            "@id": "b566_genid-00f1db82e1ab437c844115a94dc63e635-bn16000tmms73f57603"
+        },
+        {
+            "@id": "b566_genid-00f1db82e1ab437c844115a94dc63e635-bn16000t5f57603"
+        },
+        {
+            "@id": "b566_genid-00f1db82e1ab437c844115a94dc63e635-bn16000t11f75771"
+        },
+        {
+            "@id": "b566_genid-00f1db82e1ab437c844115a94dc63e635-bn16000t11f76971"
+        },
+        {
+            "@id": "b566_genid-00f1db82e1ab437c844115a94dc63e635-bn16000t11f77746"
+        }
+    ]
+}

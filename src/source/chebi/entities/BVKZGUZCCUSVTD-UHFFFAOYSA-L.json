@@ -1,0 +1,44 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_41609",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "chebi:charge": "-2",
+    "chebi:formula": "CO3",
+    "chebi:inchi": "InChI=1S/CH2O3/c2-1(3)4/h(H2,2,3,4)/p-2",
+    "chebi:inchikey": "BVKZGUZCCUSVTD-UHFFFAOYSA-L",
+    "chebi:smiles": "[O-]C([O-])=O",
+    "geneontology:hasDbXref": [
+        "PDBeChem:CO3",
+        "Beilstein:3600898",
+        "CAS:3812-32-6",
+        "Gmelin:1559"
+    ],
+    "geneontology:hasId": "41609",
+    "geneontology:hasSynonym": [
+        "[CO3](2-)",
+        "CARBONATE ION",
+        "CO3(2-)",
+        "Karbonat",
+        "trioxidocarbonate(2-)"
+    ],
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#3_STAR"
+    },
+    "rdfs:label": "carbonate",
+    "rdfs:subClassOf": [
+        {
+            "@id": "obo:CHEBI_35604"
+        },
+        {
+            "@id": "b249_genid-00f1db82e1ab437c844115a94dc63e635-bn41609tmms73f17544"
+        },
+        {
+            "@id": "b249_genid-00f1db82e1ab437c844115a94dc63e635-bn41609t5f17544"
+        }
+    ]
+}

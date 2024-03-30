@@ -1,0 +1,48 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_51687",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "obo:IAO_0000115": "An ortho-fused polycyclic arene found commonly in the coal tar.",
+    "chebi:charge": "0",
+    "chebi:formula": "C18H12",
+    "chebi:inchi": "InChI=1S/C18H12/c1-3-7-15-13(5-1)9-11-18-16-8-4-2-6-14(16)10-12-17(15)18/h1-12H",
+    "chebi:inchikey": "WDECIBYCCFPHNR-UHFFFAOYSA-N",
+    "chebi:smiles": "c1ccc2c(c1)ccc1c3ccccc3ccc21",
+    "geneontology:hasDbXref": [
+        "Beilstein:1909297",
+        "CAS:218-01-9",
+        "Gmelin:262600",
+        "KEGG:C14222",
+        "MetaCyc:CPD-13772",
+        "PMID:24128549",
+        "PMID:24382467",
+        "PMID:24519633",
+        "Wikipedia:Chrysene"
+    ],
+    "geneontology:hasId": "51687",
+    "geneontology:hasSynonym": [
+        "1,2,5,6-dibenzonaphthalene",
+        "1,2-Benzophenanthrene",
+        "Benz[a]phenanthrene",
+        "benzo[a]phenanthrene",
+        "Chrysen",
+        "Chrysene"
+    ],
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#3_STAR"
+    },
+    "rdfs:label": "chrysene",
+    "rdfs:subClassOf": [
+        {
+            "@id": "obo:CHEBI_35296"
+        },
+        {
+            "@id": "b132_genid-00f1db82e1ab437c844115a94dc63e635-bn51687t11f76924"
+        }
+    ]
+}

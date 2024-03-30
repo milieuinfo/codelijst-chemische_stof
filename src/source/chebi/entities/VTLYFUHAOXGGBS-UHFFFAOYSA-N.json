@@ -1,0 +1,59 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_29034",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "chebi:charge": "+3",
+    "chebi:formula": "Fe",
+    "chebi:inchi": "InChI=1S/Fe/q+3",
+    "chebi:inchikey": "VTLYFUHAOXGGBS-UHFFFAOYSA-N",
+    "chebi:smiles": "[Fe+3]",
+    "http://purl.uniprot.org/core/name": "Fe(3+)",
+    "geneontology:hasDbXref": [
+        "CAS:20074-52-6",
+        "Gmelin:15986",
+        "KEGG:C14819",
+        "PDBeChem:FE"
+    ],
+    "geneontology:hasId": "29034",
+    "geneontology:hasSynonym": [
+        "Fe(3+)",
+        "Fe(III)",
+        "FE (III) ION",
+        "Fe3+",
+        "Ferric ion",
+        "ferric iron",
+        "iron, ion (Fe(3+))",
+        "Iron(3+)",
+        "iron(3+) ion",
+        "iron(III) cation"
+    ],
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#3_STAR"
+    },
+    "rdfs:label": "iron(3+)",
+    "rdfs:subClassOf": [
+        {
+            "@id": "obo:CHEBI_24875"
+        },
+        {
+            "@id": "obo:CHEBI_27153"
+        },
+        {
+            "@id": "b85_genid-00f1db82e1ab437c844115a94dc63e635-bn29034t11f23357"
+        },
+        {
+            "@id": "b85_genid-00f1db82e1ab437c844115a94dc63e635-bn29034t11f75771"
+        },
+        {
+            "@id": "b85_genid-00f1db82e1ab437c844115a94dc63e635-bn29034t11f76971"
+        },
+        {
+            "@id": "b85_genid-00f1db82e1ab437c844115a94dc63e635-bn29034t11f77746"
+        }
+    ]
+}

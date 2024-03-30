@@ -1,0 +1,73 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_4653",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "obo:IAO_0000115": "A pyrimidopyrimidine that is 2,2',2'',2'''-(pyrimido[5,4-d]pyrimidine-2,6-diyldinitrilo)tetraethanol substituted by piperidin-1-yl groups at positions 4 and 8 respectively. A vasodilator agent, it inhibits the formation of blood clots.",
+    "chebi:charge": "0",
+    "chebi:formula": "C24H40N8O4",
+    "chebi:inchi": "InChI=1S/C24H40N8O4/c33-15-11-31(12-16-34)23-26-20-19(21(27-23)29-7-3-1-4-8-29)25-24(32(13-17-35)14-18-36)28-22(20)30-9-5-2-6-10-30/h33-36H,1-18H2",
+    "chebi:inchikey": "IZEKFCXSFNUWAM-UHFFFAOYSA-N",
+    "chebi:smiles": "OCCN(CCO)c1nc(N2CCCCC2)c2nc(nc(N3CCCCC3)c2n1)N(CCO)CCO",
+    "geneontology:hasDbXref": [
+        "Beilstein:0068373",
+        "CAS:58-32-2",
+        "Drug_Central:924",
+        "DrugBank:DB00975",
+        "KEGG:D00302",
+        "LINCS:LSM-3927",
+        "Patent:GB807826",
+        "Patent:US3031450",
+        "PMID:11098344",
+        "PMID:11709364",
+        "Reaxys:68373",
+        "Wikipedia:Dipyridamole"
+    ],
+    "geneontology:hasId": "4653",
+    "geneontology:hasSynonym": [
+        "2,2',2'',2'''-[(4,8-dipiperidin-1-ylpyrimido[5,4-d]pyrimidine-2,6-diyl)dinitrilo]tetraethanol",
+        "Cardoxin",
+        "Cleridium 150",
+        "Curantyl",
+        "dipiridamol",
+        "Dipyridamine",
+        "dipyridamolum",
+        "Dipyudamine",
+        "Dypyridamol",
+        "Persantin"
+    ],
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#3_STAR"
+    },
+    "rdfs:label": "dipyridamole",
+    "rdfs:subClassOf": [
+        {
+            "@id": "obo:CHEBI_26151"
+        },
+        {
+            "@id": "obo:CHEBI_50996"
+        },
+        {
+            "@id": "obo:CHEBI_33573"
+        },
+        {
+            "@id": "b47_genid-00f1db82e1ab437c844115a94dc63e635-bn4653t11f35620"
+        },
+        {
+            "@id": "obo:CHEBI_48514"
+        },
+        {
+            "@id": "b47_genid-00f1db82e1ab437c844115a94dc63e635-bn4653t11f50427"
+        },
+        {
+            "@id": "b47_genid-00f1db82e1ab437c844115a94dc63e635-bn4653t11f50444"
+        },
+        {
+            "@id": "b47_genid-00f1db82e1ab437c844115a94dc63e635-bn4653t11f50445"
+        }
+    ]
+}

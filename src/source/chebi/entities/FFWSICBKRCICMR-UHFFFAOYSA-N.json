@@ -1,0 +1,46 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_88432",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "chebi:charge": "0",
+    "chebi:formula": "C7H14O",
+    "chebi:inchi": "InChI=1S/C7H14O/c1-6(2)4-5-7(3)8/h6H,4-5H2,1-3H3",
+    "chebi:inchikey": "FFWSICBKRCICMR-UHFFFAOYSA-N",
+    "chebi:smiles": "CC(C)CCC(C)=O",
+    "geneontology:hasDbXref": [
+        "PMID:17314143",
+        "PMID:24023812",
+        "PMID:24421258",
+        "CAS:110-12-3",
+        "HMDB:HMDB0031549"
+    ],
+    "geneontology:hasId": "88432",
+    "geneontology:hasSynonym": [
+        "(CH3)2CHCH2CH2COCH3",
+        "2-hexanone-5-methyl",
+        "2-Methyl-5-Hexanone",
+        "5-Methyl-2-Hexanone",
+        "5-methylhexan-2-one",
+        "5-Methylhexan-2-one",
+        "5-Methylhexan-2-one [UN2302] [Flammable liquid]",
+        "Isoamyl methyl ketone",
+        "Isobutylacetone",
+        "Isopentyl methyl ketone",
+        "Ketone, methyl isoamyl",
+        "Methyl isoamyl ketone",
+        "Methyl isopentyl ketone",
+        "MIAK"
+    ],
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#2_STAR"
+    },
+    "rdfs:label": "5-methyl-2-hexanone",
+    "rdfs:subClassOf": {
+        "@id": "obo:CHEBI_17087"
+    }
+}

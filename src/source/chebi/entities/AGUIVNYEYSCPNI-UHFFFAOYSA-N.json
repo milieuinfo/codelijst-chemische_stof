@@ -1,0 +1,46 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_28950",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "obo:IAO_0000115": "A nitramine that is methylamine in which one of the hydrogens attached to the nitrogen is substituted by a nitro group while the other is substituted by a 2,4,6-trinitrophenyl group. A yellow crystalline powder, it is a high explosive, capable of being detonated by friction, shock, or a spark.",
+    "chebi:charge": "0",
+    "chebi:formula": "C7H5N5O8",
+    "chebi:inchi": "InChI=1S/C7H5N5O8/c1-8(12(19)20)7-5(10(15)16)2-4(9(13)14)3-6(7)11(17)18/h2-3H,1H3",
+    "chebi:inchikey": "AGUIVNYEYSCPNI-UHFFFAOYSA-N",
+    "chebi:smiles": "CN(c1c(cc(cc1[N+]([O-])=O)[N+]([O-])=O)[N+]([O-])=O)[N+]([O-])=O",
+    "geneontology:hasDbXref": [
+        "CAS:479-45-8",
+        "Reaxys:964788",
+        "Wikipedia:Tetryl"
+    ],
+    "geneontology:hasId": "28950",
+    "geneontology:hasSynonym": [
+        "nitramine",
+        "(trinitrophenyl)methylnitramine",
+        "2,4,6-(trinitrophenyl)methylnitroamine",
+        "2,4,6-tetryl",
+        "2,4,6-trinitrophenylmethylnitramine",
+        "2,4,6-trinitrophenyl-N-methylnitramine",
+        "N-methyl-N,2,4,6-tetranitroaniline",
+        "N-methyl-N,2,4,6-tetranitrobenzenamine",
+        "N-methyl-N-nitro-2,4,6-trinitroaniline",
+        "N-picryl-N-methylnitramine"
+    ],
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#3_STAR"
+    },
+    "rdfs:label": "N-methyl-N-picrylnitramine",
+    "rdfs:subClassOf": [
+        {
+            "@id": "obo:CHEBI_25543"
+        },
+        {
+            "@id": "b195_genid-00f1db82e1ab437c844115a94dc63e635-bn28950t11f63490"
+        }
+    ]
+}

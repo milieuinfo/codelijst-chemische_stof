@@ -1,0 +1,86 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_28837",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "obo:IAO_0000115": "A straight-chain saturated fatty acid that is heptane in which one of the hydrogens of a terminal methyl group has been replaced by a carboxy group. Octanoic acid is also known as caprylic acid.",
+    "chebi:charge": "0",
+    "chebi:formula": "C8H16O2",
+    "chebi:inchi": "InChI=1S/C8H16O2/c1-2-3-4-5-6-7-8(9)10/h2-7H2,1H3,(H,9,10)",
+    "chebi:inchikey": "WWZKQHOCKIZLMA-UHFFFAOYSA-N",
+    "chebi:smiles": "CCCCCCCC(O)=O",
+    "geneontology:hasDbXref": [
+        "Beilstein:1747180",
+        "CAS:124-07-2",
+        "Drug_Central:3998",
+        "DrugBank:DB04519",
+        "Gmelin:142966",
+        "HMDB:HMDB0000482",
+        "KEGG:C06423",
+        "KEGG:D05220",
+        "KNApSAcK:C00001231",
+        "LIPID_MAPS_instance:LMFA01010008",
+        "MetaCyc:CPD-195",
+        "PDBeChem:OCA",
+        "PMID:16162522",
+        "PMID:16872526",
+        "PMID:19096058",
+        "Reaxys:1747180",
+        "Wikipedia:Caprylic_acid"
+    ],
+    "geneontology:hasId": "28837",
+    "geneontology:hasSynonym": [
+        "1-heptanecarboxylic acid",
+        "8:0",
+        "acide octanoique",
+        "Acide octanoique",
+        "acido octanoico",
+        "Acido octanoico",
+        "Acidum octanocium",
+        "acidum octanoicum",
+        "C8:0",
+        "Caprylic acid",
+        "CH3-[CH2]6-COOH",
+        "Kaprylsaeure",
+        "n-caprylic acid",
+        "n-octanoic acid",
+        "n-octoic acid",
+        "n-octylic acid",
+        "Octanoic acid",
+        "OCTANOIC ACID (CAPRYLIC ACID)",
+        "Octansaeure",
+        "octoic acid",
+        "Octylic acid"
+    ],
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#3_STAR"
+    },
+    "rdfs:label": "octanoic acid",
+    "rdfs:subClassOf": [
+        {
+            "@id": "obo:CHEBI_59554"
+        },
+        {
+            "@id": "obo:CHEBI_39418"
+        },
+        {
+            "@id": "b248_genid-00f1db82e1ab437c844115a94dc63e635-bn28837tmms73f25646"
+        },
+        {
+            "@id": "b248_genid-00f1db82e1ab437c844115a94dc63e635-bn28837t4f25646"
+        },
+        {
+            "@id": "b248_genid-00f1db82e1ab437c844115a94dc63e635-bn28837t11f33282"
+        },
+        {
+            "@id": "b248_genid-00f1db82e1ab437c844115a94dc63e635-bn28837t11f76971"
+        },
+        {
+            "@id": "b248_genid-00f1db82e1ab437c844115a94dc63e635-bn28837t11f77746"
+        }
+    ]
+}

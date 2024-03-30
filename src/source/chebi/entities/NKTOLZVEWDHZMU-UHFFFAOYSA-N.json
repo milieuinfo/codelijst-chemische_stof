@@ -1,0 +1,71 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_191381",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "obo:IAO_0000115": "A member of the class of phenols that phenol substituted by methyl groups at positions 2 and 5.",
+    "chebi:charge": "0",
+    "chebi:formula": "C8H10O",
+    "chebi:inchi": "InChI=1S/C8H10O/c1-6-3-4-7(2)8(9)5-6/h3-5,9H,1-2H3",
+    "chebi:inchikey": "NKTOLZVEWDHZMU-UHFFFAOYSA-N",
+    "chebi:smiles": "CC1=CC(O)=C(C)C=C1",
+    "geneontology:hasDbXref": [
+        "PMID:1518957",
+        "PMID:25641836",
+        "CAS:95-87-4",
+        "Chemspider:13839128",
+        "FooDB:FDB002413",
+        "HMDB:HMDB0030540",
+        "KNApSAcK:C00052609",
+        "MetaCyc:CPD-16609",
+        "PMCID:PMC217231",
+        "PMID:16267294",
+        "PMID:16633656",
+        "PMID:22392083",
+        "PMID:27310574",
+        "PMID:27987461",
+        "PMID:30827565",
+        "PMID:32626269",
+        "PMID:3730312",
+        "PMID:4330964",
+        "PMID:6995451",
+        "PMID:8199688",
+        "Reaxys:1099260"
+    ],
+    "geneontology:hasId": "191381",
+    "geneontology:hasSynonym": [
+        "1,2,5-xylenol",
+        "1,4-dimethyl-2-hydroxybenzene",
+        "1-hydroxy-2,5-dimethylbenzene",
+        "2,5-dimethylphenol",
+        "2,5-Dmp",
+        "2-hydroxy-p-xylene",
+        "3,6-dimethylphenol",
+        "3,6-xylenol",
+        "6-methyl-m-cresol",
+        "FEMA 3595",
+        "p-xylenol"
+    ],
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#3_STAR"
+    },
+    "rdfs:label": "2,5-xylenol",
+    "rdfs:subClassOf": [
+        {
+            "@id": "obo:CHEBI_33853"
+        },
+        {
+            "@id": "b84_genid-00f1db82e1ab437c844115a94dc63e635-bn191381t11f27311"
+        },
+        {
+            "@id": "b84_genid-00f1db82e1ab437c844115a94dc63e635-bn191381t9f27417"
+        },
+        {
+            "@id": "b84_genid-00f1db82e1ab437c844115a94dc63e635-bn191381t11f75767"
+        }
+    ]
+}

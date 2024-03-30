@@ -1,0 +1,74 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_6128",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "obo:IAO_0000115": "An oxo monocarboxylic acid that consists of propionic acid substituted by a 3-benzoylphenyl group at position 2.",
+    "chebi:charge": "0",
+    "chebi:formula": "C16H14O3",
+    "chebi:inchi": "InChI=1S/C16H14O3/c1-11(16(18)19)13-8-5-9-14(10-13)15(17)12-6-3-2-4-7-12/h2-11H,1H3,(H,18,19)",
+    "chebi:inchikey": "DKYWVDODHFEZIM-UHFFFAOYSA-N",
+    "chebi:smiles": "CC(C(O)=O)c1cccc(c1)C(=O)c1ccccc1",
+    "geneontology:hasDbXref": [
+        "CAS:22071-15-4",
+        "Drug_Central:1528",
+        "DrugBank:DB01009",
+        "HMDB:HMDB0015144",
+        "KEGG:C01716",
+        "KEGG:D00132",
+        "LINCS:LSM-1955",
+        "PMID:11452775",
+        "PMID:12772856",
+        "PMID:18969772",
+        "Reaxys:2216071",
+        "Wikipedia:Ketoprofen"
+    ],
+    "geneontology:hasId": "6128",
+    "geneontology:hasSynonym": [
+        "2-(3-benzoylphenyl)propanoic acid",
+        "2-(3-Benzoylphenyl)propionic acid",
+        "3-Benzoyl-alpha-methylbenzeneacetic acid",
+        "3-Benzoylhydratropic acid",
+        "Ketoprofen",
+        "L'Acide (benzoyl-3-phenyl)-2-propionique",
+        "m-Benzoylhydratropic acid",
+        "Orudis (TN)"
+    ],
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#3_STAR"
+    },
+    "rdfs:label": "ketoprofen",
+    "rdfs:subClassOf": [
+        {
+            "@id": "obo:CHEBI_35871"
+        },
+        {
+            "@id": "obo:CHEBI_22726"
+        },
+        {
+            "@id": "b60_genid-00f1db82e1ab437c844115a94dc63e635-bn6128t8f30768"
+        },
+        {
+            "@id": "b60_genid-00f1db82e1ab437c844115a94dc63e635-bn6128t11f35475"
+        },
+        {
+            "@id": "b60_genid-00f1db82e1ab437c844115a94dc63e635-bn6128t11f35493"
+        },
+        {
+            "@id": "b60_genid-00f1db82e1ab437c844115a94dc63e635-bn6128t11f35544"
+        },
+        {
+            "@id": "b60_genid-00f1db82e1ab437c844115a94dc63e635-bn6128t11f35703"
+        },
+        {
+            "@id": "b60_genid-00f1db82e1ab437c844115a94dc63e635-bn6128t11f78298"
+        },
+        {
+            "@id": "b60_genid-00f1db82e1ab437c844115a94dc63e635-bn6128t11f88188"
+        }
+    ]
+}

@@ -1,0 +1,72 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_83569",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "obo:IAO_0000115": "A member of the class of substituted anilines that is N-(pentan-3-yl)aniline bearing two additional nitro substituents at positions 2 and 6 as well as two methyl substituents at positions 3 and 4. A herbicide used to control most annual grasses and many annual broad-leaved weeds.",
+    "chebi:charge": "0",
+    "chebi:formula": "C13H19N3O4",
+    "chebi:inchi": "InChI=1S/C13H19N3O4/c1-5-10(6-2)14-12-11(15(17)18)7-8(3)9(4)13(12)16(19)20/h7,10,14H,5-6H2,1-4H3",
+    "chebi:inchikey": "CHIFOSRWCNZCFN-UHFFFAOYSA-N",
+    "chebi:smiles": "CCC(CC)Nc1c(cc(C)c(C)c1[N+]([O-])=O)[N+]([O-])=O",
+    "geneontology:hasDbXref": [
+        "CAS:40487-42-1",
+        "KEGG:C11019",
+        "Pesticides:pendimethalin",
+        "PMID:22983723",
+        "PMID:23646829",
+        "PMID:24007481",
+        "PMID:24183287",
+        "PMID:24240661",
+        "PMID:24293324",
+        "PMID:24587520",
+        "PMID:24688423",
+        "PMID:25145238",
+        "PMID:25398239",
+        "PPDB:511",
+        "Reaxys:2157711",
+        "Wikipedia:Pendimethalin"
+    ],
+    "geneontology:hasId": "83569",
+    "geneontology:hasSynonym": [
+        "3,4-Dimethyl-2,6-dinitro-N-(1-ethylpropyl)aniline",
+        "3,4-dimethyl-2,6-dinitro-N-(pentan-3-yl)aniline",
+        "N-(1-Ethylpropyl)-2,6-dinitro-3,4-xylidine",
+        "N-(1-Ethylpropyl)-3,4-dimethyl-2,6-dinitroaniline",
+        "N-(1-Ethylpropyl)-3,4-dimethyl-2,6-dinitrobenzenamine",
+        "N-(3-Pentyl)-3,4-dimethyl-2,6-dinitroaniline",
+        "pendimethaline",
+        "Penoxalin",
+        "Penoxaline",
+        "Penoxyn",
+        "Phenoxalin"
+    ],
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#3_STAR"
+    },
+    "rdfs:label": "pendimethalin",
+    "rdfs:subClassOf": [
+        {
+            "@id": "obo:CHEBI_35716"
+        },
+        {
+            "@id": "obo:CHEBI_48975"
+        },
+        {
+            "@id": "obo:CHEBI_50995"
+        },
+        {
+            "@id": "b305_genid-00f1db82e1ab437c844115a94dc63e635-bn83569t11f24527"
+        },
+        {
+            "@id": "b305_genid-00f1db82e1ab437c844115a94dc63e635-bn83569t11f33286"
+        },
+        {
+            "@id": "b305_genid-00f1db82e1ab437c844115a94dc63e635-bn83569t11f78298"
+        }
+    ]
+}

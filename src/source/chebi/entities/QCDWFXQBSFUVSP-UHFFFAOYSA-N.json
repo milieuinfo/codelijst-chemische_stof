@@ -1,0 +1,63 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_64275",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "obo:IAO_0000115": "An aromatic ether that is phenol substituted on oxygen by a 2-hydroxyethyl group.",
+    "chebi:charge": "0",
+    "chebi:formula": "C8H10O2",
+    "chebi:inchi": "InChI=1S/C8H10O2/c9-6-7-10-8-4-2-1-3-5-8/h1-5,9H,6-7H2",
+    "chebi:inchikey": "QCDWFXQBSFUVSP-UHFFFAOYSA-N",
+    "chebi:smiles": "OCCOc1ccccc1",
+    "geneontology:hasDbXref": [
+        "PMID:21616561",
+        "Beilstein:1364011",
+        "CAS:122-99-6",
+        "Drug_Central:3442",
+        "HMDB:HMDB0041607",
+        "PDBeChem:268",
+        "PMID:21835019",
+        "Reaxys:1364011",
+        "Wikipedia:Phenoxyethanol"
+    ],
+    "geneontology:hasId": "64275",
+    "geneontology:hasSynonym": [
+        "1-Hydroxy-2-phenoxyethane",
+        "2-Hydroxyethyl phenyl ether",
+        "2-Phenoxyethyl alcohol",
+        "beta-Hydroxyethyl phenyl ether",
+        "Ethylene glycol monophenyl ether",
+        "Phenoxyethanol",
+        "Phenoxytol",
+        "Phenyl cellosolve",
+        "Phenylmonoglycol ether"
+    ],
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#3_STAR"
+    },
+    "rdfs:label": "2-phenoxyethanol",
+    "rdfs:subClassOf": [
+        {
+            "@id": "obo:CHEBI_15734"
+        },
+        {
+            "@id": "obo:CHEBI_35618"
+        },
+        {
+            "@id": "obo:CHEBI_172390"
+        },
+        {
+            "@id": "b177_genid-00f1db82e1ab437c844115a94dc63e635-bn64275t8f15882"
+        },
+        {
+            "@id": "b177_genid-00f1db82e1ab437c844115a94dc63e635-bn64275t11f35441"
+        },
+        {
+            "@id": "b177_genid-00f1db82e1ab437c844115a94dc63e635-bn64275t11f35488"
+        }
+    ]
+}

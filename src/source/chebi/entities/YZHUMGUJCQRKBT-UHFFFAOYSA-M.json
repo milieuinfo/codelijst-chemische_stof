@@ -1,0 +1,47 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_65242",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "obo:IAO_0000115": "An inorganic sodium salt that has chlorate as the counter-ion. An oxidising agent, it is used for bleaching paper and as a herbicide. It is also used in the manufacture of dyes, explosives and matches.",
+    "chebi:charge": "0",
+    "chebi:formula": "ClNaO3",
+    "chebi:inchi": "InChI=1S/ClHO3.Na/c2-1(3)4;/h(H,2,3,4);/q;+1/p-1",
+    "chebi:inchikey": "YZHUMGUJCQRKBT-UHFFFAOYSA-M",
+    "chebi:smiles": "[Na+].[O-]Cl(=O)=O",
+    "geneontology:hasDbXref": [
+        "CAS:7775-09-9",
+        "KEGG:C18765",
+        "PMID:22205670",
+        "PMID:22366135",
+        "PPDB:1126",
+        "Reaxys:11332523",
+        "Wikipedia:Sodium_chlorate"
+    ],
+    "geneontology:hasId": "65242",
+    "geneontology:hasSynonym": [
+        "Chlorate de sodium",
+        "Chlorate salt of sodium",
+        "Chloric acid, sodium salt",
+        "Chlorsaure"
+    ],
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#3_STAR"
+    },
+    "rdfs:label": "sodium chlorate",
+    "rdfs:subClassOf": [
+        {
+            "@id": "obo:CHEBI_23109"
+        },
+        {
+            "@id": "obo:CHEBI_38702"
+        },
+        {
+            "@id": "b466_genid-00f1db82e1ab437c844115a94dc63e635-bn65242t11f24527"
+        }
+    ]
+}

@@ -1,0 +1,84 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_28619",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "obo:IAO_0000115": "A member of the class of acrylamides that results from the formal condensation of acrylic acid with ammonia.",
+    "chebi:charge": "0",
+    "chebi:formula": "C3H5NO",
+    "chebi:inchi": "InChI=1S/C3H5NO/c1-2-3(4)5/h2H,1H2,(H2,4,5)",
+    "chebi:inchikey": "HRPVXLWXLXDGHG-UHFFFAOYSA-N",
+    "chebi:smiles": "NC(=O)C=C",
+    "http://purl.uniprot.org/core/name": "acrylamide",
+    "geneontology:hasDbXref": [
+        "Beilstein:605349",
+        "CAS:79-06-1",
+        "Gmelin:81842",
+        "HMDB:HMDB0004296",
+        "KEGG:C01659",
+        "Patent:US2535245",
+        "PMID:10719038",
+        "PMID:12166997",
+        "PMID:15240786",
+        "PMID:15901921",
+        "PMID:17032038",
+        "PMID:17234719",
+        "PMID:17484107",
+        "PMID:17558658",
+        "PMID:17720246",
+        "PMID:18469268",
+        "PMID:19022940",
+        "PMID:19846048",
+        "PMID:22136129",
+        "PMID:22784192",
+        "PMID:7767980",
+        "Reaxys:605349",
+        "UM-BBD_compID:c0149",
+        "Wikipedia:Acrylamide"
+    ],
+    "geneontology:hasId": "28619",
+    "geneontology:hasSynonym": [
+        "2-Propenamide",
+        "Acrylamide",
+        "Akrylamid",
+        "ethylenecarboxamide",
+        "prop-2-enamide"
+    ],
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#3_STAR"
+    },
+    "rdfs:label": "acrylamide",
+    "rdfs:subClassOf": [
+        {
+            "@id": "obo:CHEBI_83628"
+        },
+        {
+            "@id": "obo:CHEBI_140324"
+        },
+        {
+            "@id": "obo:CHEBI_22216"
+        },
+        {
+            "@id": "b527_genid-00f1db82e1ab437c844115a94dc63e635-bn28619t8f18308"
+        },
+        {
+            "@id": "b527_genid-00f1db82e1ab437c844115a94dc63e635-bn28619t11f22333"
+        },
+        {
+            "@id": "b527_genid-00f1db82e1ab437c844115a94dc63e635-bn28619t11f25435"
+        },
+        {
+            "@id": "b527_genid-00f1db82e1ab437c844115a94dc63e635-bn28619t11f50903"
+        },
+        {
+            "@id": "b527_genid-00f1db82e1ab437c844115a94dc63e635-bn28619t11f50910"
+        },
+        {
+            "@id": "b527_genid-00f1db82e1ab437c844115a94dc63e635-bn28619t11f77523"
+        }
+    ]
+}

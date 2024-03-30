@@ -1,0 +1,27 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_82382",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "chebi:charge": "0",
+    "chebi:formula": "C15H11NO2",
+    "chebi:inchi": "InChI=1S/C15H11NO2/c1-8-6-7-11-12(13(8)16)15(18)10-5-3-2-4-9(10)14(11)17/h2-7H,16H2,1H3",
+    "chebi:inchikey": "ZLCUIOWQYBYEBG-UHFFFAOYSA-N",
+    "chebi:smiles": "Cc1ccc2C(=O)c3ccccc3C(=O)c2c1N",
+    "geneontology:hasDbXref": [
+        "CAS:82-28-0",
+        "KEGG:C19320"
+    ],
+    "geneontology:hasId": "82382",
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#2_STAR"
+    },
+    "rdfs:label": "1-Amino-2-methylanthraquinone",
+    "rdfs:subClassOf": {
+        "@id": "obo:CHEBI_22580"
+    }
+}

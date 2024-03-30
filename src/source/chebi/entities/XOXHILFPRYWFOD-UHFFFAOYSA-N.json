@@ -1,0 +1,66 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_59057",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "obo:IAO_0000115": "A sulfonamide antimicrobial used for urinary tract infections and in veterinary medicine.",
+    "chebi:charge": "0",
+    "chebi:formula": "C10H9ClN4O2S",
+    "chebi:inchi": "InChI=1S/C10H9ClN4O2S/c11-9-5-6-10(14-13-9)15-18(16,17)8-3-1-7(12)2-4-8/h1-6H,12H2,(H,14,15)",
+    "chebi:inchikey": "XOXHILFPRYWFOD-UHFFFAOYSA-N",
+    "chebi:smiles": "C=1(C=CC(=CC1)N)S(NC=2C=CC(=NN2)Cl)(=O)=O",
+    "geneontology:hasDbXref": [
+        "PMID:7486915",
+        "PMID:3237218",
+        "Beilstein:261558",
+        "CAS:80-32-0",
+        "Drug_Central:2498",
+        "KEGG:D05948",
+        "LINCS:LSM-5456",
+        "PMID:18969712",
+        "PMID:24234758",
+        "PMID:24806993",
+        "PMID:26291757",
+        "Reaxys:261558",
+        "VSDB:1746"
+    ],
+    "geneontology:hasId": "59057",
+    "geneontology:hasSynonym": [
+        "4-Amino-N-(6-chloro-3-pyridazinyl)benzenesulfonamide",
+        "4-amino-N-(6-chloropyridazin-3-yl)benzenesulfonamide",
+        "N1-(6-Chloro-3-pyridazinyl)sulfanilamide",
+        "SCP",
+        "sulfachlorpyridazine",
+        "sulfachlorpyridazinum",
+        "sulfacloropiridazina",
+        "sulphachlorpyridazine"
+    ],
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#3_STAR"
+    },
+    "rdfs:label": "sulfachloropyridazine",
+    "rdfs:subClassOf": [
+        {
+            "@id": "obo:CHEBI_36683"
+        },
+        {
+            "@id": "obo:CHEBI_35358"
+        },
+        {
+            "@id": "obo:CHEBI_37921"
+        },
+        {
+            "@id": "b463_genid-00f1db82e1ab437c844115a94dc63e635-bn59057t11f36047"
+        },
+        {
+            "@id": "b463_genid-00f1db82e1ab437c844115a94dc63e635-bn59057t11f50502"
+        },
+        {
+            "@id": "b463_genid-00f1db82e1ab437c844115a94dc63e635-bn59057t11f88188"
+        }
+    ]
+}

@@ -1,0 +1,44 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_83479",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "obo:IAO_0000115": "A heteroaryl hydroxy compound that is pyridazin-3-ol substituted by an amino group at position 5 and a chloro group at position 4. It is a metabolite of the herbicide chloridazone.",
+    "chebi:charge": "0",
+    "chebi:formula": "C4H4ClN3O",
+    "chebi:inchi": "InChI=1S/C4H4ClN3O/c5-3-2(6)1-7-8-4(3)9/h1H,(H3,6,8,9)",
+    "chebi:inchikey": "FEWPCPCEGBPTAL-UHFFFAOYSA-N",
+    "chebi:smiles": "Nc1cnnc(O)c1Cl",
+    "geneontology:hasDbXref": [
+        "CAS:6339-19-1",
+        "PMID:22322333",
+        "Reaxys:638650"
+    ],
+    "geneontology:hasId": "83479",
+    "geneontology:hasSynonym": "5-amino-4-chloropyridazin-3-ol",
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#3_STAR"
+    },
+    "rdfs:label": "chloridazone-desphenyl",
+    "rdfs:subClassOf": [
+        {
+            "@id": "obo:CHEBI_50471"
+        },
+        {
+            "@id": "obo:CHEBI_36683"
+        },
+        {
+            "@id": "obo:CHEBI_74818"
+        },
+        {
+            "@id": "obo:CHEBI_37921"
+        },
+        {
+            "@id": "b175_genid-00f1db82e1ab437c844115a94dc63e635-bn83479t11f83399"
+        }
+    ]
+}

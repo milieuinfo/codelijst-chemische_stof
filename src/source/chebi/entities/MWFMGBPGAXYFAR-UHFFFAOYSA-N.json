@@ -1,0 +1,38 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_15348",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "chebi:charge": "0",
+    "chebi:formula": "C4H7NO",
+    "chebi:inchi": "InChI=1S/C4H7NO/c1-4(2,6)3-5/h6H,1-2H3",
+    "chebi:inchikey": "MWFMGBPGAXYFAR-UHFFFAOYSA-N",
+    "chebi:smiles": "CC(C)(O)C#N",
+    "http://purl.uniprot.org/core/name": "2-hydroxy-2-methylpropanenitrile",
+    "geneontology:hasDbXref": [
+        "CAS:75-86-5",
+        "DrugBank:DB02203",
+        "KEGG:C02659"
+    ],
+    "geneontology:hasId": "15348",
+    "geneontology:hasSynonym": [
+        "2-Hydroxy-2-methylpropanenitrile",
+        "2-Hydroxyisobutyronitrile",
+        "2-Methyllactonitrile",
+        "Acetone cyanhydrin",
+        "Acetone cyanohydrin",
+        "acetone-cyanohydrin",
+        "alpha-Hydroxyisobutyronitrile"
+    ],
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#3_STAR"
+    },
+    "rdfs:label": "2-hydroxy-2-methylpropanenitrile",
+    "rdfs:subClassOf": {
+        "@id": "obo:CHEBI_23437"
+    }
+}

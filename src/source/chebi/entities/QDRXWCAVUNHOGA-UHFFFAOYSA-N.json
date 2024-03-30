@@ -1,0 +1,51 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_38592",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "obo:IAO_0000115": "An acetate ester consisting of 1,4-naphthoquinone bearing acetoxy and dodecyl substituents at positions 2 and 3 respectively.",
+    "chebi:charge": "0",
+    "chebi:formula": "C24H32O4",
+    "chebi:inchi": "InChI=1S/C24H32O4/c1-3-4-5-6-7-8-9-10-11-12-17-21-22(26)19-15-13-14-16-20(19)23(27)24(21)28-18(2)25/h13-16H,3-12,17H2,1-2H3",
+    "chebi:inchikey": "QDRXWCAVUNHOGA-UHFFFAOYSA-N",
+    "chebi:smiles": "CCCCCCCCCCCCC1=C(OC(C)=O)C(=O)c2ccccc2C1=O",
+    "geneontology:hasDbXref": [
+        "Beilstein:2016033",
+        "CAS:57960-19-7",
+        "KEGG:C18535",
+        "Patent:NL7505470",
+        "Patent:US4082848",
+        "Patent:US6342499",
+        "PMID:11975169",
+        "PPDB:10",
+        "Reaxys:2016033"
+    ],
+    "geneontology:hasId": "38592",
+    "geneontology:hasSynonym": [
+        "2-(acetyloxy)-3-dodecyl-1,4-naphthalenedione",
+        "3-dodecyl-1,4-dioxo-1,4-dihydronaphthalen-2-yl acetate",
+        "3-dodecyl-2-hydroxy-1,4-naphthoquinone acetate"
+    ],
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#3_STAR"
+    },
+    "rdfs:label": "acequinocyl",
+    "rdfs:subClassOf": [
+        {
+            "@id": "obo:CHEBI_47622"
+        },
+        {
+            "@id": "obo:CHEBI_132142"
+        },
+        {
+            "@id": "b209_genid-00f1db82e1ab437c844115a94dc63e635-bn38592t11f22153"
+        },
+        {
+            "@id": "b209_genid-00f1db82e1ab437c844115a94dc63e635-bn38592t11f38499"
+        }
+    ]
+}

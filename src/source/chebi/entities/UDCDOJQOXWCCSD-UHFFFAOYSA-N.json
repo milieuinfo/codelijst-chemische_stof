@@ -1,0 +1,38 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_83470",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "obo:IAO_0000115": "A member of the class of  sulfamides that is N,N-dimethylsulfuric diamide substituted by a 4-methylphenyl group at the amino nitrogen atom. It is a metabolite of the agrochemical tolylfluanid.",
+    "chebi:charge": "0",
+    "chebi:formula": "C9H14N2O2S",
+    "chebi:inchi": "InChI=1S/C9H14N2O2S/c1-8-4-6-9(7-5-8)10-14(12,13)11(2)3/h4-7,10H,1-3H3",
+    "chebi:inchikey": "UDCDOJQOXWCCSD-UHFFFAOYSA-N",
+    "chebi:smiles": "CN(C)S(=O)(=O)Nc1ccc(C)cc1",
+    "geneontology:hasDbXref": [
+        "CAS:66840-71-9",
+        "Reaxys:2838538"
+    ],
+    "geneontology:hasId": "83470",
+    "geneontology:hasSynonym": [
+        "DMTST",
+        "N,N-dimethyl-N'-(4-methylphenyl)sulfuric diamide",
+        "N,N-dimethyl-N'-p-tolylsulphamide"
+    ],
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#3_STAR"
+    },
+    "rdfs:label": "N,N-dimethyl-N'-p-tolylsulfamide",
+    "rdfs:subClassOf": [
+        {
+            "@id": "obo:CHEBI_51871"
+        },
+        {
+            "@id": "b297_genid-00f1db82e1ab437c844115a94dc63e635-bn83470t11f83399"
+        }
+    ]
+}

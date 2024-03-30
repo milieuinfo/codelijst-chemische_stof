@@ -1,0 +1,68 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_35014",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "obo:IAO_0000115": "A member of the class of thioureas that is the dimethyl ester of (1,2-phenylenedicarbamothioyl)biscarbamic acid. A fungicide effective against a broad spectrum of diseases in fruit, vegetables, turf and other crops including eyespot, scab, powdery mildew and grey mould.",
+    "chebi:charge": "0",
+    "chebi:formula": "C12H14N4O4S2",
+    "chebi:inchi": "InChI=1S/C12H14N4O4S2/c1-19-11(17)15-9(21)13-7-5-3-4-6-8(7)14-10(22)16-12(18)20-2/h3-6H,1-2H3,(H2,13,15,17,21)(H2,14,16,18,22)",
+    "chebi:inchikey": "QGHREAKMXXNCOA-UHFFFAOYSA-N",
+    "chebi:smiles": "COC(=O)NC(=S)Nc1ccccc1NC(=S)NC(=O)OC",
+    "geneontology:hasDbXref": [
+        "CAS:23564-05-8",
+        "KEGG:C14432",
+        "Pesticides:thiophanate-methyl",
+        "PMID:22057426",
+        "PMID:22667099",
+        "PMID:23242258",
+        "PMID:23775824",
+        "PMID:23978278",
+        "PMID:24256946",
+        "PMID:24366405",
+        "PPDB:640",
+        "Reaxys:937942"
+    ],
+    "geneontology:hasId": "35014",
+    "geneontology:hasSynonym": [
+        "1,2-Bis(3-(methoxycarbonyl)-2-thioureido)benzene",
+        "1,2-Bis(methoxycarbonylthioureido)benzene",
+        "1,2-Di-(3-methoxycarbonyl-2-thioureido)benzene",
+        "dimethyl (1,2-phenylenedicarbamothioyl)biscarbamate",
+        "dimethyl 4,4'-(o-phenylene)bis(3-thioallophanate)",
+        "dimethyl N,N'-[1,2-phenylenebis(azanediylcarbonothioyl)]dicarbamate",
+        "dimethyl N,N'-[1,2-phenylenebis(iminocarbonothioyl)]bis[carbamate]",
+        "Methylthiofanate",
+        "Methylthiophanate",
+        "Methyl thiophanate",
+        "o-Bis(3-methoxycarbonyl-2-thioureido)benzene"
+    ],
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#3_STAR"
+    },
+    "rdfs:label": "thiophanate-methyl",
+    "rdfs:subClassOf": [
+        {
+            "@id": "obo:CHEBI_23003"
+        },
+        {
+            "@id": "obo:CHEBI_87061"
+        },
+        {
+            "@id": "obo:CHEBI_51276"
+        },
+        {
+            "@id": "b222_genid-00f1db82e1ab437c844115a94dc63e635-bn35014t8f34043"
+        },
+        {
+            "@id": "b222_genid-00f1db82e1ab437c844115a94dc63e635-bn35014t11f86328"
+        },
+        {
+            "@id": "obo:CHEBI_87037"
+        }
+    ]
+}

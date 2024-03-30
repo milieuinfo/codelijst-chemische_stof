@@ -1,0 +1,60 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_18316",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "obo:IAO_0000115": "A monohydroxy-1,3,5-triazine that is  atrazine in which the chloro group has been replaced by a hydroxy group.",
+    "chebi:charge": "0",
+    "chebi:formula": "C8H15N5O",
+    "chebi:inchi": "InChI=1S/C8H15N5O/c1-4-9-6-11-7(10-5(2)3)13-8(14)12-6/h5H,4H2,1-3H3,(H3,9,10,11,12,13,14)",
+    "chebi:inchikey": "NFMIMWNQWAWNDW-UHFFFAOYSA-N",
+    "chebi:smiles": "CCNc1nc(O)nc(NC(C)C)n1",
+    "http://purl.uniprot.org/core/name": "hydroxyatrazine",
+    "geneontology:hasDbXref": [
+        "Beilstein:612018",
+        "CAS:2163-68-0",
+        "KEGG:C06552",
+        "MetaCyc:HYDROXYATRAZINE",
+        "PMID:11476505",
+        "PMID:20299293",
+        "PMID:22153354",
+        "PMID:24062064",
+        "Reaxys:612018",
+        "UM-BBD_compID:c0161"
+    ],
+    "geneontology:hasId": "18316",
+    "geneontology:hasSynonym": [
+        "hydroxyatrazine",
+        "2-hydroxyatrazine",
+        "4-(Ethylamino)-2-hydroxy-6-(isopropylamino)-1,3,5-triazine",
+        "4-(ethylamino)-6-(isopropylamino)-1,3,5-triazin-2-ol",
+        "4-(ethylamino)-6-(isopropylamino)-s-triazin-2-ol",
+        "Hydroxyatrazine",
+        "hydroxydechloroatrazine"
+    ],
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#3_STAR"
+    },
+    "rdfs:label": "4-ethylamino-6-isopropylamino-1,3,5-triazin-2-ol",
+    "rdfs:subClassOf": [
+        {
+            "@id": "obo:CHEBI_38170"
+        },
+        {
+            "@id": "b51_genid-00f1db82e1ab437c844115a94dc63e635-bn18316t8f15930"
+        },
+        {
+            "@id": "obo:CHEBI_38172"
+        },
+        {
+            "@id": "b51_genid-00f1db82e1ab437c844115a94dc63e635-bn18316t11f76967"
+        },
+        {
+            "@id": "b51_genid-00f1db82e1ab437c844115a94dc63e635-bn18316t11f83399"
+        }
+    ]
+}

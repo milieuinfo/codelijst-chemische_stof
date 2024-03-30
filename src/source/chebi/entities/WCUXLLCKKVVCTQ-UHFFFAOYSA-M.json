@@ -1,0 +1,55 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_32588",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "obo:IAO_0000115": "A metal chloride salt with a K(+) counterion.",
+    "chebi:charge": "0",
+    "chebi:formula": "ClK",
+    "chebi:inchi": "InChI=1S/ClH.K/h1H;/q;+1/p-1",
+    "chebi:inchikey": "WCUXLLCKKVVCTQ-UHFFFAOYSA-M",
+    "chebi:smiles": "[Cl-].[K+]",
+    "geneontology:hasDbXref": [
+        "CAS:7447-40-7",
+        "DrugBank:DB00761",
+        "KEGG:D02060",
+        "MetaCyc:KCL",
+        "MolBase:881",
+        "Reaxys:3534978",
+        "Wikipedia:Potassium_Chloride"
+    ],
+    "geneontology:hasId": "32588",
+    "geneontology:hasSynonym": [
+        "[KCl]",
+        "Kaliumchlorid",
+        "Kaon-Cl 10",
+        "KCl",
+        "Klor-con",
+        "Klotrix",
+        "Monopotassium chloride",
+        "muriate of potash",
+        "sylvite"
+    ],
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#3_STAR"
+    },
+    "rdfs:label": "potassium chloride",
+    "rdfs:subClassOf": [
+        {
+            "@id": "obo:CHEBI_26218"
+        },
+        {
+            "@id": "obo:CHEBI_36093"
+        },
+        {
+            "@id": "obo:CHEBI_190303"
+        },
+        {
+            "@id": "b430_genid-00f1db82e1ab437c844115a94dc63e635-bn32588t11f33287"
+        }
+    ]
+}

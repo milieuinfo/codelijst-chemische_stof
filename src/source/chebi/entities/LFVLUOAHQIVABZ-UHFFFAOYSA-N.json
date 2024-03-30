@@ -1,0 +1,30 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_82136",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "chebi:charge": "0",
+    "chebi:formula": "C8H8Cl2IO3PS",
+    "chebi:inchi": "InChI=1S/C8H8Cl2IO3PS/c1-12-15(16,13-2)14-8-4-5(9)7(11)3-6(8)10/h3-4H,1-2H3",
+    "chebi:inchikey": "LFVLUOAHQIVABZ-UHFFFAOYSA-N",
+    "chebi:smiles": "COP(=S)(OC)Oc1cc(Cl)c(I)cc1Cl",
+    "geneontology:hasDbXref": [
+        "CAS:18181-70-9",
+        "KEGG:C19002",
+        "PPDB:400",
+        "VSDB:400"
+    ],
+    "geneontology:hasId": "82136",
+    "geneontology:hasSynonym": "Jodfenphos",
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#2_STAR"
+    },
+    "rdfs:label": "Iodofenphos",
+    "rdfs:subClassOf": {
+        "@id": "obo:CHEBI_37512"
+    }
+}

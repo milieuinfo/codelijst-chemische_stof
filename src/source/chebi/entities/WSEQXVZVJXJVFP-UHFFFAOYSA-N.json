@@ -1,0 +1,50 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_77397",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "obo:IAO_0000115": "A nitrile that is 1,3-dihydro-2-benzofuran-5-carbonitrile in which one of the hydrogens at position 1 is replaced by a p-fluorophenyl group, while the other is replaced by a 3-(dimethylamino)propyl group.",
+    "chebi:charge": "0",
+    "chebi:formula": "C20H21FN2O",
+    "chebi:inchi": "InChI=1S/C20H21FN2O/c1-23(2)11-3-10-20(17-5-7-18(21)8-6-17)19-9-4-15(13-22)12-16(19)14-24-20/h4-9,12H,3,10-11,14H2,1-2H3",
+    "chebi:inchikey": "WSEQXVZVJXJVFP-UHFFFAOYSA-N",
+    "chebi:smiles": "CN(C)CCCC1(OCc2cc(ccc12)C#N)c1ccc(F)cc1",
+    "geneontology:hasDbXref": [
+        "CAS:59729-33-8",
+        "KEGG:C07572",
+        "KEGG:D07704",
+        "LINCS:LSM-1585"
+    ],
+    "geneontology:hasId": "77397",
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#3_STAR"
+    },
+    "rdfs:label": "1-[3-(dimethylamino)propyl]-1-(4-fluorophenyl)-1,3-dihydro-2-benzofuran-5-carbonitrile",
+    "rdfs:subClassOf": [
+        {
+            "@id": "obo:CHEBI_18379"
+        },
+        {
+            "@id": "obo:CHEBI_50996"
+        },
+        {
+            "@id": "obo:CHEBI_37407"
+        },
+        {
+            "@id": "obo:CHEBI_38831"
+        },
+        {
+            "@id": "obo:CHEBI_37143"
+        },
+        {
+            "@id": "b206_genid-00f1db82e1ab437c844115a94dc63e635-bn77397tmms73f77408"
+        },
+        {
+            "@id": "b206_genid-00f1db82e1ab437c844115a94dc63e635-bn77397t5f77408"
+        }
+    ]
+}

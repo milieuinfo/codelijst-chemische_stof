@@ -1,0 +1,67 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_81942",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "obo:IAO_0000115": "A member of the class of pyrazolopyrimidines that is the ethyl ester of 2-[(diethoxyphosphorothioyl)oxy]-5-methylpyrazolo[1,5-a]pyrimidine-6-carboxylic acid. A profungicide (by hydrolysis of the thionophosphate group to afford the corresponding 2-hydroxypyrazolopyrimidine fungicide), it is used to control Erysiphe, Helminthosporium and Rhynchospium in cereals.",
+    "chebi:charge": "0",
+    "chebi:formula": "C14H20N3O5PS",
+    "chebi:inchi": "InChI=1S/C14H20N3O5PS/c1-5-19-14(18)11-9-17-12(15-10(11)4)8-13(16-17)22-23(24,20-6-2)21-7-3/h8-9H,5-7H2,1-4H3",
+    "chebi:inchikey": "JOOMJVFZQRQWKR-UHFFFAOYSA-N",
+    "chebi:smiles": "CCOC(=O)c1cn2nc(OP(=S)(OCC)OCC)cc2nc1C",
+    "geneontology:hasDbXref": [
+        "AGR:IND83071499",
+        "AGR:IND87068666",
+        "CAS:13457-18-6",
+        "KEGG:C18761",
+        "Patent:EP0111747",
+        "Pesticides:pyrazophos",
+        "PMID:1063720",
+        "PMID:2742999",
+        "PMID:7881218",
+        "PPDB:566",
+        "Reaxys:577209"
+    ],
+    "geneontology:hasId": "81942",
+    "geneontology:hasSynonym": [
+        "2-(O,O-Diethylthionophosphoryl)-5-methyl-6-carbethoxy-pyrazolo-(1,5a)pyrimidine",
+        "Ethyl 2-((diethoxyphosphinothioyl)oxy)-5-methylpyrazolo(1,5-a)pyrimidine-6-carboxylate",
+        "ethyl 2-[(diethoxyphosphorothioyl)oxy]-5-methylpyrazolo[1,5-a]pyrimidine-6-carboxylate",
+        "O,O-Diethyl O-(5-methyl-6-(ethoxycarbonyl)-pyrazolo-(1,5-a)-pyrimid-2-yl)-thionophosphate",
+        "O-6-ethoxycarbonyl-5-methylpyrazolo[1,5-a]pyrimidin-2-yl O,O-diethyl phosphorothioate"
+    ],
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#3_STAR"
+    },
+    "rdfs:label": "pyrazophos",
+    "rdfs:subClassOf": [
+        {
+            "@id": "obo:CHEBI_23990"
+        },
+        {
+            "@id": "obo:CHEBI_37512"
+        },
+        {
+            "@id": "obo:CHEBI_38669"
+        },
+        {
+            "@id": "b153_genid-00f1db82e1ab437c844115a94dc63e635-bn81942t11f24852"
+        },
+        {
+            "@id": "b153_genid-00f1db82e1ab437c844115a94dc63e635-bn81942t11f83741"
+        },
+        {
+            "@id": "b153_genid-00f1db82e1ab437c844115a94dc63e635-bn81942t11f86328"
+        },
+        {
+            "@id": "b153_genid-00f1db82e1ab437c844115a94dc63e635-bn81942t11f136645"
+        },
+        {
+            "@id": "b153_genid-00f1db82e1ab437c844115a94dc63e635-bn81942t8f141398"
+        }
+    ]
+}

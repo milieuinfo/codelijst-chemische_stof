@@ -1,0 +1,50 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_39870",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "obo:IAO_0000115": "A member of the class of  alkylamines that is propane substituted by an amino group at C-1.",
+    "chebi:charge": "0",
+    "chebi:formula": "C3H9N",
+    "chebi:inchi": "InChI=1S/C3H9N/c1-2-3-4/h2-4H2,1H3",
+    "chebi:inchikey": "WGYKZJWCGVVSQN-UHFFFAOYSA-N",
+    "chebi:smiles": "CCCN",
+    "geneontology:hasDbXref": [
+        "Beilstein:1098243",
+        "CAS:107-10-8",
+        "Gmelin:1529",
+        "HMDB:HMDB0034006",
+        "MetaCyc:CPD-9379",
+        "PMID:24630062",
+        "Reaxys:1098243",
+        "Wikipedia:Propylamine"
+    ],
+    "geneontology:hasId": "39870",
+    "geneontology:hasSynonym": [
+        "1-aminopropane",
+        "1-propanamine",
+        "1-Propylamine",
+        "mono-n-propylamine",
+        "n-propylamine",
+        "propan-1-amine"
+    ],
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#3_STAR"
+    },
+    "rdfs:label": "propylamine",
+    "rdfs:subClassOf": [
+        {
+            "@id": "obo:CHEBI_22331"
+        },
+        {
+            "@id": "b146_genid-00f1db82e1ab437c844115a94dc63e635-bn39870tmms73f566825"
+        },
+        {
+            "@id": "b146_genid-00f1db82e1ab437c844115a94dc63e635-bn39870t5f566825"
+        }
+    ]
+}

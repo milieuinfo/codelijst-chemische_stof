@@ -1,0 +1,39 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_33377",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "chebi:charge": "0",
+    "chebi:formula": "Dy",
+    "chebi:inchi": "InChI=1S/Dy",
+    "chebi:inchikey": "KBQHZAAAGSGFKK-UHFFFAOYSA-N",
+    "chebi:smiles": "[Dy]",
+    "geneontology:hasDbXref": [
+        "CAS:7429-91-6",
+        "Gmelin:16278",
+        "WebElements:Dy"
+    ],
+    "geneontology:hasId": "33377",
+    "geneontology:hasSynonym": [
+        "Dy",
+        "66Dy",
+        "disprosio",
+        "dysprosium"
+    ],
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#3_STAR"
+    },
+    "rdfs:label": "dysprosium atom",
+    "rdfs:subClassOf": [
+        {
+            "@id": "obo:CHEBI_33562"
+        },
+        {
+            "@id": "obo:CHEBI_33319"
+        }
+    ]
+}

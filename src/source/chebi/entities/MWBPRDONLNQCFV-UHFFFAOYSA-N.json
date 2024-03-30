@@ -1,0 +1,30 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_81978",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "chebi:charge": "0",
+    "chebi:formula": "C10H16Cl3NOS",
+    "chebi:inchi": "InChI=1S/C10H16Cl3NOS/c1-6(2)14(7(3)4)10(15)16-5-8(11)9(12)13/h6-7H,5H2,1-4H3",
+    "chebi:inchikey": "MWBPRDONLNQCFV-UHFFFAOYSA-N",
+    "chebi:smiles": "CC(C)N(C(C)C)C(=O)SCC(Cl)=C(Cl)Cl",
+    "geneontology:hasDbXref": [
+        "CAS:2303-17-5",
+        "KEGG:C18813",
+        "LINCS:LSM-25662",
+        "PPDB:650"
+    ],
+    "geneontology:hasId": "81978",
+    "geneontology:hasSynonym": "Triallate",
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#2_STAR"
+    },
+    "rdfs:label": "Tri-allate",
+    "rdfs:subClassOf": {
+        "@id": "obo:CHEBI_32876"
+    }
+}

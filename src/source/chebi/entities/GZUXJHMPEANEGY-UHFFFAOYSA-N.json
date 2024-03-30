@@ -1,0 +1,75 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_39275",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "obo:IAO_0000115": "A one-carbon compound in which the carbon is attached by single bonds to three hydrogen atoms and one bromine atom. It is produced naturally by marine algae.",
+    "chebi:charge": "0",
+    "chebi:formula": "CH3Br",
+    "chebi:inchi": "InChI=1S/CH3Br/c1-2/h1H3",
+    "chebi:inchikey": "GZUXJHMPEANEGY-UHFFFAOYSA-N",
+    "chebi:smiles": "[H]C([H])([H])Br",
+    "http://purl.uniprot.org/core/name": "bromomethane",
+    "geneontology:hasDbXref": [
+        "Beilstein:1209223",
+        "CAS:74-83-9",
+        "FooDB:FDB008126",
+        "Gmelin:916",
+        "HMDB:HMDB0031524",
+        "KEGG:C18447",
+        "MetaCyc:CPD-12221",
+        "PDBeChem:BMM",
+        "PMID:11878373",
+        "PMID:17265727",
+        "PMID:18853797",
+        "PMID:23800997",
+        "PMID:28614932",
+        "PMID:31832645",
+        "PMID:32067016",
+        "PMID:32245114",
+        "PMID:32745138",
+        "PPDB:462",
+        "Reaxys:1209223",
+        "Wikipedia:Bromomethane"
+    ],
+    "geneontology:hasId": "39275",
+    "geneontology:hasSynonym": [
+        "CH3Br",
+        "Brommethan",
+        "BROMOMETHANE",
+        "Embafume",
+        "MeBr",
+        "Methylbromid",
+        "methyl bromide",
+        "Monobrommethan",
+        "monobromomethane"
+    ],
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#3_STAR"
+    },
+    "rdfs:label": "bromomethane",
+    "rdfs:subClassOf": [
+        {
+            "@id": "obo:CHEBI_22926"
+        },
+        {
+            "@id": "obo:CHEBI_25253"
+        },
+        {
+            "@id": "obo:CHEBI_39278"
+        },
+        {
+            "@id": "b412_genid-00f1db82e1ab437c844115a94dc63e635-bn39275t11f39277"
+        },
+        {
+            "@id": "b412_genid-00f1db82e1ab437c844115a94dc63e635-bn39275t11f76507"
+        },
+        {
+            "@id": "b412_genid-00f1db82e1ab437c844115a94dc63e635-bn39275t11f84735"
+        }
+    ]
+}

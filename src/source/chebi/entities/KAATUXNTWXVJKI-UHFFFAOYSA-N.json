@@ -1,0 +1,66 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_4042",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "obo:IAO_0000115": "A carboxylic ester resulting from the formal condensation between 3-(2,2-dichlorovinyl)-2,2-dimethylcyclopropanecarboxylic acid and the alcoholic hydroxy group of hydroxy(3-phenoxyphenyl)acetonitrile.",
+    "chebi:charge": "0",
+    "chebi:formula": "C22H19Cl2NO3",
+    "chebi:inchi": "InChI=1S/C22H19Cl2NO3/c1-22(2)17(12-19(23)24)20(22)21(26)28-18(13-25)14-7-6-10-16(11-14)27-15-8-4-3-5-9-15/h3-12,17-18,20H,1-2H3",
+    "chebi:inchikey": "KAATUXNTWXVJKI-UHFFFAOYSA-N",
+    "chebi:smiles": "CC1(C)C(C=C(Cl)Cl)C1C(=O)OC(C#N)c1cccc(Oc2ccccc2)c1",
+    "geneontology:hasDbXref": [
+        "CAS:52315-07-8",
+        "Drug_Central:4409",
+        "KEGG:C10984",
+        "KEGG:D07763",
+        "PMID:17420035",
+        "PMID:18922205",
+        "PMID:20508922",
+        "PPDB:197",
+        "VSDB:197"
+    ],
+    "geneontology:hasId": "4042",
+    "geneontology:hasSynonym": [
+        "alpha-Cyano(3-phenoxyphenyl)methyl (+-)cis,trans-3-(2,2-dichlorovinyl)-2,2-dimethylcyclopropanecarboxylate",
+        "cyano(3-phenoxyphenyl)methyl 3-(2,2-dichloroethenyl)-2,2-dimethylcyclopropanecarboxylate",
+        "Cypermethrin"
+    ],
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#3_STAR"
+    },
+    "rdfs:label": "cypermethrin",
+    "rdfs:subClassOf": [
+        {
+            "@id": "obo:CHEBI_18379"
+        },
+        {
+            "@id": "obo:CHEBI_35618"
+        },
+        {
+            "@id": "obo:CHEBI_36683"
+        },
+        {
+            "@id": "obo:CHEBI_50351"
+        },
+        {
+            "@id": "b215_genid-00f1db82e1ab437c844115a94dc63e635-bn4042t11f33286"
+        },
+        {
+            "@id": "b215_genid-00f1db82e1ab437c844115a94dc63e635-bn4042t11f33904"
+        },
+        {
+            "@id": "b215_genid-00f1db82e1ab437c844115a94dc63e635-bn4042t11f39116"
+        },
+        {
+            "@id": "b215_genid-00f1db82e1ab437c844115a94dc63e635-bn4042t11f39259"
+        },
+        {
+            "@id": "b215_genid-00f1db82e1ab437c844115a94dc63e635-bn4042t8f39308"
+        }
+    ]
+}

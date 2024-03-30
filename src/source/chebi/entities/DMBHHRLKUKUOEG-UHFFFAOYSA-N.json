@@ -1,0 +1,78 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_4640",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "obo:IAO_0000115": "An aromatic amine containing two phenyl substituents. It has been used as a fungicide for the treatment of superficial scald in apples and pears, but is no longer approved for this purpose within the European Union.",
+    "chebi:charge": "0",
+    "chebi:formula": "C12H11N",
+    "chebi:inchi": "InChI=1S/C12H11N/c1-3-7-11(8-4-1)13-12-9-5-2-6-10-12/h1-10,13H",
+    "chebi:inchikey": "DMBHHRLKUKUOEG-UHFFFAOYSA-N",
+    "chebi:smiles": "N(c1ccccc1)c1ccccc1",
+    "geneontology:hasDbXref": [
+        "Beilstein:508755",
+        "CAS:122-39-4",
+        "Gmelin:67833",
+        "HMDB:HMDB0032562",
+        "KEGG:C11016",
+        "MetaCyc:CPD-9937",
+        "Pesticides:diphenylamine",
+        "PMID:16172927",
+        "PMID:16336182",
+        "PMID:23200380",
+        "PMID:23311914",
+        "PMID:6446435",
+        "PMID:8192920",
+        "PPDB:1335",
+        "Reaxys:508755",
+        "Wikipedia:Diphenylamine"
+    ],
+    "geneontology:hasId": "4640",
+    "geneontology:hasSynonym": [
+        "(phenylamino)benzene",
+        "anilinobenzene",
+        "C6H5-NH-C6H5",
+        "Diphenylamine",
+        "DPA",
+        "N,N-diphenylamine",
+        "N-phenylaniline",
+        "N-phenylbenzenamine"
+    ],
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#3_STAR"
+    },
+    "rdfs:label": "diphenylamine",
+    "rdfs:subClassOf": [
+        {
+            "@id": "obo:CHEBI_33860"
+        },
+        {
+            "@id": "obo:CHEBI_50995"
+        },
+        {
+            "@id": "obo:CHEBI_87039"
+        },
+        {
+            "@id": "b69_genid-00f1db82e1ab437c844115a94dc63e635-bn4640t11f22586"
+        },
+        {
+            "@id": "b69_genid-00f1db82e1ab437c844115a94dc63e635-bn4640t11f48578"
+        },
+        {
+            "@id": "b69_genid-00f1db82e1ab437c844115a94dc63e635-bn4640t11f72773"
+        },
+        {
+            "@id": "b69_genid-00f1db82e1ab437c844115a94dc63e635-bn4640t11f72774"
+        },
+        {
+            "@id": "b69_genid-00f1db82e1ab437c844115a94dc63e635-bn4640t11f86328"
+        },
+        {
+            "@id": "b69_genid-00f1db82e1ab437c844115a94dc63e635-bn4640t11f173084"
+        }
+    ]
+}

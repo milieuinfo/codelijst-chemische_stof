@@ -1,0 +1,41 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_83520",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "obo:IAO_0000115": "A monocarboxylic acid that is oxoacetic acid substituted by a phenyl(propan-2-yl)amino group at position 2. It is a metabolite of the herbicide propachlor.",
+    "chebi:charge": "0",
+    "chebi:formula": "C11H13NO3",
+    "chebi:inchi": "InChI=1S/C11H13NO3/c1-8(2)12(10(13)11(14)15)9-6-4-3-5-7-9/h3-8H,1-2H3,(H,14,15)",
+    "chebi:inchikey": "HYHJOUPYTUBFIX-UHFFFAOYSA-N",
+    "chebi:smiles": "CC(C)N(C(=O)C(O)=O)c1ccccc1",
+    "geneontology:hasDbXref": [
+        "CAS:70628-36-3",
+        "PMID:438465",
+        "Reaxys:8762695"
+    ],
+    "geneontology:hasId": "83520",
+    "geneontology:hasSynonym": [
+        "N-isopropyl-N-phenyloxamic acid",
+        "oxo[phenyl(propan-2-yl)amino]acetic acid"
+    ],
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#3_STAR"
+    },
+    "rdfs:label": "propachlor OXA",
+    "rdfs:subClassOf": [
+        {
+            "@id": "obo:CHEBI_13248"
+        },
+        {
+            "@id": "obo:CHEBI_25384"
+        },
+        {
+            "@id": "b560_genid-00f1db82e1ab437c844115a94dc63e635-bn83520t11f83399"
+        }
+    ]
+}

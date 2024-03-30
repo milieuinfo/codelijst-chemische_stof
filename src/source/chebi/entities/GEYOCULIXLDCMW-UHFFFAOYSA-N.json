@@ -1,0 +1,59 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_34043",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "obo:IAO_0000115": "A phenylenediamine in which the two amino groups are ortho to each other.",
+    "chebi:charge": "0",
+    "chebi:formula": "C6H8N2",
+    "chebi:inchi": "InChI=1S/C6H8N2/c7-5-3-1-2-4-6(5)8/h1-4H,7-8H2",
+    "chebi:inchikey": "GEYOCULIXLDCMW-UHFFFAOYSA-N",
+    "chebi:smiles": "Nc1ccccc1N",
+    "geneontology:hasDbXref": [
+        "PMID:2420897",
+        "Beilstein:606074",
+        "CAS:95-54-5",
+        "KEGG:C14402",
+        "PMID:23099167",
+        "PMID:23172354",
+        "PMID:23220522",
+        "PMID:23232561",
+        "PMID:23245188",
+        "PMID:23317160",
+        "PMID:23323634",
+        "PMID:23364618",
+        "PMID:23452313",
+        "PMID:9025914",
+        "Reaxys:606074",
+        "Wikipedia:O-Phenylenediamine"
+    ],
+    "geneontology:hasId": "34043",
+    "geneontology:hasSynonym": [
+        "OPDA",
+        "1,2-Diaminobenzene",
+        "2-Aminoaniline",
+        "2-Phenylene diamine",
+        "benzene-1,2-diamine",
+        "o-Phenylenediamine",
+        "phenylene-1,2-dimaine"
+    ],
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#3_STAR"
+    },
+    "rdfs:label": "1,2-phenylenediamine",
+    "rdfs:subClassOf": [
+        {
+            "@id": "obo:CHEBI_51402"
+        },
+        {
+            "@id": "b296_genid-00f1db82e1ab437c844115a94dc63e635-bn34043t9f16716"
+        },
+        {
+            "@id": "b296_genid-00f1db82e1ab437c844115a94dc63e635-bn34043t11f17499"
+        }
+    ]
+}

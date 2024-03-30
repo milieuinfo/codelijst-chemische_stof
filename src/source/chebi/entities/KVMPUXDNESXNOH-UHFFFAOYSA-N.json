@@ -1,0 +1,23 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_143728",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "chebi:charge": "0",
+    "chebi:formula": "C9H18Cl3O4P",
+    "chebi:inchi": "InChI=1S/C9H18Cl3O4P/c1-7(4-10)14-17(13,15-8(2)5-11)16-9(3)6-12/h7-9H,4-6H2,1-3H3",
+    "chebi:inchikey": "KVMPUXDNESXNOH-UHFFFAOYSA-N",
+    "chebi:smiles": "ClCC(OP(=O)(OC(CCl)C)OC(CCl)C)C",
+    "geneontology:hasId": "143728",
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#2_STAR"
+    },
+    "rdfs:label": "tris(1-chloropropan-2-yl) phosphate",
+    "rdfs:subClassOf": {
+        "@id": "obo:CHEBI_37562"
+    }
+}

@@ -1,0 +1,27 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_81992",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "chebi:charge": "0",
+    "chebi:formula": "C12H8Cl5N3O2",
+    "chebi:inchi": "InChI=1S/C12H8Cl5N3O2/c1-2-22-10(21)9-18-11(12(15,16)17)20(19-9)8-4-3-6(13)5-7(8)14/h3-5H,2H2,1H3",
+    "chebi:inchikey": "GMBRUAIJEFRHFQ-UHFFFAOYSA-N",
+    "chebi:smiles": "CCOC(=O)c1nc(n(n1)-c1ccc(Cl)cc1Cl)C(Cl)(Cl)Cl",
+    "geneontology:hasDbXref": [
+        "CAS:103112-35-2",
+        "KEGG:C18831"
+    ],
+    "geneontology:hasId": "81992",
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#2_STAR"
+    },
+    "rdfs:label": "Fenchlorazole-ethyl",
+    "rdfs:subClassOf": {
+        "@id": "obo:CHEBI_23697"
+    }
+}

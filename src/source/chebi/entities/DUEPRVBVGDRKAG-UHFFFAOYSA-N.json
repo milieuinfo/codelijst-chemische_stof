@@ -1,0 +1,65 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_34611",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "chebi:charge": "0",
+    "chebi:formula": "C12H15NO3",
+    "chebi:inchi": "InChI=1S/C12H15NO3/c1-12(2)7-8-5-4-6-9(10(8)16-12)15-11(14)13-3/h4-6H,7H2,1-3H3,(H,13,14)",
+    "chebi:inchikey": "DUEPRVBVGDRKAG-UHFFFAOYSA-N",
+    "chebi:smiles": "CNC(=O)Oc1cccc2CC(C)(C)Oc12",
+    "http://purl.uniprot.org/core/name": "carbofuran",
+    "geneontology:hasDbXref": [
+        "Beilstein:1428746",
+        "Beilstein:8312603",
+        "CAS:1563-66-2",
+        "KEGG:C14291",
+        "LINCS:LSM-3186",
+        "PPDB:118"
+    ],
+    "geneontology:hasId": "34611",
+    "geneontology:hasSynonym": [
+        "2,2-dimethyl-2,3-dihydro-1-benzofuran-7-yl methylcarbamate",
+        "2,2-Dimethyl-2,3-dihydro-7-benzofuranyl N-methylcarbamate",
+        "2,3-Dihydro-2,2-dimethylbenzofuran-7-yl methylcarbamate",
+        "Carbofuran",
+        "Furadan"
+    ],
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#3_STAR"
+    },
+    "rdfs:label": "carbofuran",
+    "rdfs:subClassOf": [
+        {
+            "@id": "obo:CHEBI_23003"
+        },
+        {
+            "@id": "obo:CHEBI_38830"
+        },
+        {
+            "@id": "b126_genid-00f1db82e1ab437c844115a94dc63e635-bn34611t11f22153"
+        },
+        {
+            "@id": "b126_genid-00f1db82e1ab437c844115a94dc63e635-bn34611t11f25491"
+        },
+        {
+            "@id": "b126_genid-00f1db82e1ab437c844115a94dc63e635-bn34611t11f33286"
+        },
+        {
+            "@id": "b126_genid-00f1db82e1ab437c844115a94dc63e635-bn34611t11f33289"
+        },
+        {
+            "@id": "b126_genid-00f1db82e1ab437c844115a94dc63e635-bn34611t11f37733"
+        },
+        {
+            "@id": "b126_genid-00f1db82e1ab437c844115a94dc63e635-bn34611t11f38461"
+        },
+        {
+            "@id": "b126_genid-00f1db82e1ab437c844115a94dc63e635-bn34611t11f38462"
+        }
+    ]
+}

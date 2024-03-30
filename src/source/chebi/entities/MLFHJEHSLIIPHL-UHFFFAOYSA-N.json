@@ -1,0 +1,67 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_31725",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "obo:IAO_0000115": "The acetate ester of isoamylol.",
+    "chebi:charge": "0",
+    "chebi:formula": "C7H14O2",
+    "chebi:inchi": "InChI=1S/C7H14O2/c1-6(2)4-5-9-7(3)8/h6H,4-5H2,1-3H3",
+    "chebi:inchikey": "MLFHJEHSLIIPHL-UHFFFAOYSA-N",
+    "chebi:smiles": "CC(C)CCOC(C)=O",
+    "http://purl.uniprot.org/core/name": "3-methylbutyl acetate",
+    "geneontology:hasDbXref": [
+        "Beilstein:1744750",
+        "CAS:123-92-2",
+        "Gmelin:101452",
+        "KEGG:C12296",
+        "PMID:15491859",
+        "PMID:25626919",
+        "Reaxys:1744750"
+    ],
+    "geneontology:hasId": "31725",
+    "geneontology:hasSynonym": [
+        "3-methylbutyl acetate",
+        "3-methyl-1-butanol acetate",
+        "3-methyl-1-butyl acetate",
+        "3-methyl-but-1-yl acetate",
+        "3-methylbutyl ethanoate",
+        "acetate d'isoamyle",
+        "acetate d'isopentyle",
+        "acetate de 3-methylbutyle",
+        "acetic acid, 3-methylbutyl ester",
+        "acetic acid, isopentyl ester",
+        "amylacetic ester",
+        "beta-methyl butyl acetate",
+        "CH3C(O)O(CH2)2CH(CH3)2",
+        "i-amyl acetate",
+        "Isoamylacetat",
+        "Isoamyl acetate",
+        "Isoamylazetat",
+        "isoamyl ethanoate",
+        "isopentyl acetate",
+        "isopentyl ethanoate"
+    ],
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#3_STAR"
+    },
+    "rdfs:label": "isoamyl acetate",
+    "rdfs:subClassOf": [
+        {
+            "@id": "obo:CHEBI_47622"
+        },
+        {
+            "@id": "b534_genid-00f1db82e1ab437c844115a94dc63e635-bn31725t8f15837"
+        },
+        {
+            "@id": "b534_genid-00f1db82e1ab437c844115a94dc63e635-bn31725t11f25212"
+        },
+        {
+            "@id": "b534_genid-00f1db82e1ab437c844115a94dc63e635-bn31725t11f75772"
+        }
+    ]
+}

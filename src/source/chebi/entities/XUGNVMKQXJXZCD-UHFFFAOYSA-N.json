@@ -1,0 +1,52 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_84262",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "obo:IAO_0000115": "A fatty acid ester obtained by the formal condensation of carboxy group of palmitic acid with  propan-2-ol. Metabolite observed in cancer metabolism.",
+    "chebi:charge": "0",
+    "chebi:formula": "C19H38O2",
+    "chebi:inchi": "InChI=1S/C19H38O2/c1-4-5-6-7-8-9-10-11-12-13-14-15-16-17-19(20)21-18(2)3/h18H,4-17H2,1-3H3",
+    "chebi:inchikey": "XUGNVMKQXJXZCD-UHFFFAOYSA-N",
+    "chebi:smiles": "CCCCCCCCCCCCCCCC(=O)OC(C)C",
+    "geneontology:hasDbXref": [
+        "PMID:25518943",
+        "CAS:142-91-6",
+        "HMDB:HMDB0035474",
+        "KEGG:D04632",
+        "LIPID_MAPS_instance:LMFA07010675",
+        "PMID:25272650",
+        "Reaxys:1786567",
+        "Wikipedia:Isopropyl_palmitate"
+    ],
+    "geneontology:hasId": "84262",
+    "geneontology:hasSynonym": [
+        "1-methylethyl hexadecanoate",
+        "isopropyl hexadecanoate",
+        "isopropyl n-hexadecanoate",
+        "palmitic acid isopropyl ester",
+        "propan-2-yl hexadecanoate"
+    ],
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#3_STAR"
+    },
+    "rdfs:label": "isopropyl palmitate",
+    "rdfs:subClassOf": [
+        {
+            "@id": "obo:CHEBI_35748"
+        },
+        {
+            "@id": "obo:CHEBI_35725"
+        },
+        {
+            "@id": "b26_genid-00f1db82e1ab437c844115a94dc63e635-bn84262t8f15756"
+        },
+        {
+            "@id": "b26_genid-00f1db82e1ab437c844115a94dc63e635-bn84262t11f77746"
+        }
+    ]
+}

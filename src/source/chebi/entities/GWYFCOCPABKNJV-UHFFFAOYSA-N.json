@@ -1,0 +1,73 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_28484",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "obo:IAO_0000115": "A C5, branched-chain saturated fatty acid.",
+    "chebi:charge": "0",
+    "chebi:formula": "C5H10O2",
+    "chebi:inchi": "InChI=1S/C5H10O2/c1-4(2)3-5(6)7/h4H,3H2,1-2H3,(H,6,7)",
+    "chebi:inchikey": "GWYFCOCPABKNJV-UHFFFAOYSA-N",
+    "chebi:smiles": "CC(C)CC(O)=O",
+    "geneontology:hasDbXref": [
+        "Beilstein:1098522",
+        "CAS:503-74-2",
+        "DrugBank:DB03750",
+        "Gmelin:101117",
+        "KEGG:C08262",
+        "KNApSAcK:C00001189",
+        "LIPID_MAPS_instance:LMFA01020181",
+        "PDBeChem:IVA",
+        "PMID:12743728",
+        "PPDB:3129"
+    ],
+    "geneontology:hasId": "28484",
+    "geneontology:hasSynonym": [
+        "3-methylbutanoic acid",
+        "3-Methylbutanoic acid",
+        "3-Methylbuttersaeure",
+        "3-methylbutyric acid",
+        "3-methyl-n-butyric acid",
+        "beta-methylbutyric acid",
+        "delphinic acid",
+        "isobutylformic acid",
+        "isopentanoic acid",
+        "isopropylacetic acid",
+        "Isovalerate",
+        "isovalerianic acid",
+        "Isovaleriansaeure",
+        "Isovaleric acid",
+        "ISOVALERIC ACID"
+    ],
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#3_STAR"
+    },
+    "rdfs:label": "isovaleric acid",
+    "rdfs:subClassOf": [
+        {
+            "@id": "obo:CHEBI_26666"
+        },
+        {
+            "@id": "obo:CHEBI_39417"
+        },
+        {
+            "@id": "obo:CHEBI_38653"
+        },
+        {
+            "@id": "b396_genid-00f1db82e1ab437c844115a94dc63e635-bn28484tmms73f48942"
+        },
+        {
+            "@id": "b396_genid-00f1db82e1ab437c844115a94dc63e635-bn28484t4f48942"
+        },
+        {
+            "@id": "b396_genid-00f1db82e1ab437c844115a94dc63e635-bn28484t11f75768"
+        },
+        {
+            "@id": "b396_genid-00f1db82e1ab437c844115a94dc63e635-bn28484t11f76924"
+        }
+    ]
+}

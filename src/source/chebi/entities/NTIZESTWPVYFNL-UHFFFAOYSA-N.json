@@ -1,0 +1,68 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_82344",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "chebi:charge": "0",
+    "chebi:formula": "C6H12O",
+    "chebi:inchi": "InChI=1S/C6H12O/c1-5(2)4-6(3)7/h5H,4H2,1-3H3",
+    "chebi:inchikey": "NTIZESTWPVYFNL-UHFFFAOYSA-N",
+    "chebi:smiles": "CC(C)CC(C)=O",
+    "http://purl.uniprot.org/core/name": "4-methylpentan-2-one",
+    "geneontology:hasDbXref": [
+        "PMID:17314143",
+        "PMID:5556886",
+        "PMID:22284503",
+        "PMID:24657864",
+        "CAS:108-10-1",
+        "HMDB:HMDB0002939",
+        "KEGG:C19263",
+        "KEGG:D04989",
+        "PMID:12592578",
+        "PMID:16464817",
+        "PMID:17485256",
+        "PMID:7987494",
+        "PPDB:1303",
+        "Wikipedia:Methyl isobutyl ketone"
+    ],
+    "geneontology:hasId": "82344",
+    "geneontology:hasSynonym": [
+        "4-methylpentan-2-one",
+        "2-Methyl-4-pentanal",
+        "2-Methyl-4-pentanone",
+        "2-Methylpropyl methyl ketone",
+        "4-Methyl-2-oxopentane",
+        "4-Methyl-2-pentanon",
+        "4-Methyl-2-pentanone",
+        "4-Methyl-pentan-2-on",
+        "4-Methylpentan-2-one",
+        "4-Metilpentan-2-one",
+        "Ethyl iso-butyl ketone",
+        "Hexanone",
+        "Hexon",
+        "Hexone",
+        "Isobutyl-methylketon",
+        "Isobutyl methyl ketone",
+        "Isohexanone",
+        "Isopropylacetone",
+        "Isopropyl acetone",
+        "Methyl I-butyl ketone",
+        "Methyl-isobutyl-cetone",
+        "Methylisobutylketon",
+        "Methylpentan-2-one",
+        "Metilisobutilchetone",
+        "Metyloizobutyloketon",
+        "Shell mibk"
+    ],
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#2_STAR"
+    },
+    "rdfs:label": "Methyl isobutyl ketone",
+    "rdfs:subClassOf": {
+        "@id": "obo:CHEBI_17087"
+    }
+}

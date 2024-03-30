@@ -1,0 +1,51 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_33192",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "obo:IAO_0000115": "A cyanide salt containing equal numbers of sodium cations and cyanide anions.",
+    "chebi:charge": "0",
+    "chebi:formula": "CNNa",
+    "chebi:inchi": "InChI=1S/CN.Na/c1-2;/q-1;+1",
+    "chebi:inchikey": "MNWBNISUBARLIT-UHFFFAOYSA-N",
+    "chebi:smiles": "[C-]#N.[Na+]",
+    "geneontology:hasDbXref": [
+        "Beilstein:3587243",
+        "CAS:143-33-9",
+        "Gmelin:1041163",
+        "KEGG:C18673",
+        "PMID:12782041",
+        "PMID:19831452",
+        "PMID:22710495",
+        "PMID:25895263"
+    ],
+    "geneontology:hasId": "33192",
+    "geneontology:hasSynonym": [
+        "cyanide of sodium",
+        "NaCN",
+        "Natriumcyanid",
+        "Natriumzyanid"
+    ],
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#3_STAR"
+    },
+    "rdfs:label": "sodium cyanide",
+    "rdfs:subClassOf": [
+        {
+            "@id": "obo:CHEBI_26714"
+        },
+        {
+            "@id": "obo:CHEBI_64708"
+        },
+        {
+            "@id": "obo:CHEBI_36572"
+        },
+        {
+            "@id": "b546_genid-00f1db82e1ab437c844115a94dc63e635-bn33192t11f134084"
+        }
+    ]
+}

@@ -1,0 +1,57 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_518305",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "obo:IAO_0000115": "A primary arylamine that is aniline in which the hydrogens at the 2- and 5-positions are replaced by methyl groups. It is used in the manufacture of dyes and other chemicals.",
+    "chebi:charge": "0",
+    "chebi:formula": "C8H11N",
+    "chebi:inchi": "InChI=1S/C8H11N/c1-6-3-4-7(2)8(9)5-6/h3-5H,9H2,1-2H3",
+    "chebi:inchikey": "VOWZNBNDMFLQGM-UHFFFAOYSA-N",
+    "chebi:smiles": "Cc1ccc(C)c(N)c1",
+    "geneontology:hasDbXref": [
+        "PMID:17482318",
+        "Beilstein:2205178",
+        "CAS:95-78-3",
+        "DrugBank:DB02163",
+        "KEGG:C18993",
+        "PDBeChem:XYD",
+        "PMID:20188874",
+        "Reaxys:2205178",
+        "Wikipedia:2,5-Xylidine"
+    ],
+    "geneontology:hasId": "518305",
+    "geneontology:hasSynonym": [
+        "1-amino-2,5-dimethylbenzene",
+        "2,5-DIMETHYLANILINE",
+        "2,5-dimethylbenzenamine",
+        "2,5-Dimethyl-benzenamine",
+        "2,5-dimethylbenzeneamine",
+        "2,5-dimethylphenylamine",
+        "2,5-xylidene",
+        "2,5-xylidine",
+        "2-amino-1,4-dimethylbenzene",
+        "2-amino-1,4-xylene",
+        "2-amino-p-xylene",
+        "5-methyl-o-toluidine",
+        "6-methyl-m-toluidine",
+        "p-dimethylaniline",
+        "p-xylidine"
+    ],
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#3_STAR"
+    },
+    "rdfs:label": "2,5-dimethylaniline",
+    "rdfs:subClassOf": [
+        {
+            "@id": "obo:CHEBI_50471"
+        },
+        {
+            "@id": "obo:CHEBI_23806"
+        }
+    ]
+}

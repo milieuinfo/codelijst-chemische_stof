@@ -1,0 +1,86 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_38508",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "obo:IAO_0000115": "A carbamate ester obtained by the formal condensation of the phenolic group of 3,5-dimethyl-4-(methylsulfanyl)phenol with the carboxy group of  methylcarbamic acid.",
+    "chebi:charge": "0",
+    "chebi:formula": "C11H15NO2S",
+    "chebi:inchi": "InChI=1S/C11H15NO2S/c1-7-5-9(14-11(13)12-3)6-8(2)10(7)15-4/h5-6H,1-4H3,(H,12,13)",
+    "chebi:inchikey": "YFBPRJGDJKVWAH-UHFFFAOYSA-N",
+    "chebi:smiles": "CNC(=O)OC1=CC(C)=C(SC)C(C)=C1",
+    "geneontology:hasDbXref": [
+        "Beilstein:1881431",
+        "CAS:2032-65-7",
+        "KEGG:C18651",
+        "Pesticides:methiocarb",
+        "PMID:19270930",
+        "PMID:22623520",
+        "PMID:24380738",
+        "PMID:9197969",
+        "PPDB:457",
+        "Reaxys:1881431",
+        "Wikipedia:Methiocarb"
+    ],
+    "geneontology:hasId": "38508",
+    "geneontology:hasSynonym": [
+        "3,5-dimethyl-4-(methylsulfanyl)phenyl methylcarbamate",
+        "3,5-Dimethyl-4-(methylthio)phenol methylcarbamate",
+        "3,5-Dimethyl-4-(methylthio)phenyl methylcarbamate",
+        "3,5-Dimethyl-4-methylthiophenyl N-methylcarbamate",
+        "4-Methylmercapto-3,5-dimethylphenyl N-methylcarbamate",
+        "4-Methylmercapto-3,5-xylyl methylcarbamate",
+        "4-Methylthio-3,5-dimethylphenyl methylcarbamate",
+        "4-Methylthio-3,5-xylyl methylcarbamate",
+        "mesurol"
+    ],
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#3_STAR"
+    },
+    "rdfs:label": "methiocarb",
+    "rdfs:subClassOf": [
+        {
+            "@id": "obo:CHEBI_86315"
+        },
+        {
+            "@id": "obo:CHEBI_23003"
+        },
+        {
+            "@id": "obo:CHEBI_35683"
+        },
+        {
+            "@id": "b379_genid-00f1db82e1ab437c844115a94dc63e635-bn38508t11f22153"
+        },
+        {
+            "@id": "b379_genid-00f1db82e1ab437c844115a94dc63e635-bn38508t11f24852"
+        },
+        {
+            "@id": "b379_genid-00f1db82e1ab437c844115a94dc63e635-bn38508t11f33286"
+        },
+        {
+            "@id": "b379_genid-00f1db82e1ab437c844115a94dc63e635-bn38508t11f33289"
+        },
+        {
+            "@id": "b379_genid-00f1db82e1ab437c844115a94dc63e635-bn38508t11f33904"
+        },
+        {
+            "@id": "b379_genid-00f1db82e1ab437c844115a94dc63e635-bn38508t11f35703"
+        },
+        {
+            "@id": "b379_genid-00f1db82e1ab437c844115a94dc63e635-bn38508t11f38462"
+        },
+        {
+            "@id": "b379_genid-00f1db82e1ab437c844115a94dc63e635-bn38508t8f38509"
+        },
+        {
+            "@id": "b379_genid-00f1db82e1ab437c844115a94dc63e635-bn38508t8f45379"
+        },
+        {
+            "@id": "b379_genid-00f1db82e1ab437c844115a94dc63e635-bn38508t11f78298"
+        }
+    ]
+}

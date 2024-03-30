@@ -1,0 +1,60 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_73171",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "obo:IAO_0000115": "A tertiary alcohol that is methanol in which the hydrogens attached to the carbon are replaced by cyclopropyl, p-methoxyphenyl and pyrimidin-5-yl groups. By inhibiting gibberellin biosynthesis, ancymidol reduces plant growth, resulting in reduced internode elongation and thus more compact plants. It is used in the commercial production of a wide variety of container-grown bedding and foliage plants, including chrysanthemums, Easter lilies and poinsettias.",
+    "chebi:charge": "0",
+    "chebi:formula": "C15H16N2O2",
+    "chebi:inchi": "InChI=1S/C15H16N2O2/c1-19-14-6-4-12(5-7-14)15(18,11-2-3-11)13-8-16-10-17-9-13/h4-11,18H,2-3H2,1H3",
+    "chebi:inchikey": "HUTDUHSNJYTCAR-UHFFFAOYSA-N",
+    "chebi:smiles": "COc1ccc(cc1)C(O)(C1CC1)c1cncnc1",
+    "geneontology:hasDbXref": [
+        "Patent:US3818009",
+        "CAS:12771-68-5",
+        "KEGG:C18774",
+        "MetaCyc:CPD-4022",
+        "Patent:FR1569940",
+        "PMID:18832186",
+        "PMID:22749285",
+        "PPDB:38",
+        "Reaxys:6212277"
+    ],
+    "geneontology:hasId": "73171",
+    "geneontology:hasSynonym": [
+        "Abide",
+        "alpha-cyclopropyl-4-methoxy-alpha-(pyrimidin-5-yl)benzyl alcohol",
+        "alpha-Cyclopropyl-4-methoxy-alpha-(pyrimidin-5-yl)benzylalkohol",
+        "alpha-cyclopropyl-alpha-(4-methoxyphenyl)-5-pyrimidinemethanol",
+        "ancymidole",
+        "A-rest",
+        "cyclopropyl(4-methoxyphenyl)pyrimidin-5-ylmethanol",
+        "EL-531",
+        "Reducymol"
+    ],
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#3_STAR"
+    },
+    "rdfs:label": "ancymidol",
+    "rdfs:subClassOf": [
+        {
+            "@id": "obo:CHEBI_26878"
+        },
+        {
+            "@id": "obo:CHEBI_39447"
+        },
+        {
+            "@id": "b542_genid-00f1db82e1ab437c844115a94dc63e635-bn73171t11f35219"
+        },
+        {
+            "@id": "b542_genid-00f1db82e1ab437c844115a94dc63e635-bn73171t11f63958"
+        },
+        {
+            "@id": "b542_genid-00f1db82e1ab437c844115a94dc63e635-bn73171t11f73193"
+        }
+    ]
+}

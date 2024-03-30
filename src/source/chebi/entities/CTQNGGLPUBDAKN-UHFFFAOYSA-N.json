@@ -1,0 +1,65 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_28063",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "obo:IAO_0000115": "A xylene substituted by methyl groups at positions 1 and 2.",
+    "chebi:charge": "0",
+    "chebi:formula": "C8H10",
+    "chebi:inchi": "InChI=1S/C8H10/c1-7-5-3-4-6-8(7)2/h3-6H,1-2H3",
+    "chebi:inchikey": "CTQNGGLPUBDAKN-UHFFFAOYSA-N",
+    "chebi:smiles": "Cc1ccccc1C",
+    "geneontology:hasDbXref": [
+        "PMID:19167006",
+        "PMID:24421258",
+        "Beilstein:1815558",
+        "CAS:95-47-6",
+        "Chemspider:6967",
+        "DrugBank:DB03029",
+        "FooDB:FDB005819",
+        "Gmelin:67796",
+        "HMDB:HMDB0059851",
+        "KEGG:C07212",
+        "KNApSAcK:C00056020",
+        "MetaCyc:CPD-1421",
+        "PDBeChem:OXE",
+        "PMID:10598955",
+        "PMID:11357330",
+        "PMID:18656653",
+        "PMID:22960059",
+        "PMID:24246944",
+        "PMID:28621498",
+        "PMID:31911380",
+        "PMID:33465657",
+        "PMID:7399721",
+        "PMID:7691530",
+        "Reaxys:1815558",
+        "UM-BBD_compID:c0248",
+        "Wikipedia:O-Xylene"
+    ],
+    "geneontology:hasId": "28063",
+    "geneontology:hasSynonym": [
+        "1,2-dimethylbenzene",
+        "1,2-Dimethylbenzol",
+        "1,2-xylene",
+        "2-xylene",
+        "3,4-xylene",
+        "o-Dimethylbenzene",
+        "o-Methyltoluene",
+        "ortho-xylene",
+        "ORTHO-XYLENE",
+        "o-Xylene",
+        "o-Xylol"
+    ],
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#3_STAR"
+    },
+    "rdfs:label": "o-xylene",
+    "rdfs:subClassOf": {
+        "@id": "obo:CHEBI_27338"
+    }
+}

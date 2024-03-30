@@ -1,0 +1,55 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_145669",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "obo:IAO_0000115": "A member of the class of napthalenes that is naphthalene which is substituted by an isopropyl group at positions 2 and 6. It is a plant growth regulator which inhibits the sprouting of potatoes during storage.",
+    "chebi:charge": "0",
+    "chebi:formula": "C16H20",
+    "chebi:inchi": "InChI=1S/C16H20/c1-11(2)13-5-7-16-10-14(12(3)4)6-8-15(16)9-13/h5-12H,1-4H3",
+    "chebi:inchikey": "GWLLTEXUIOFAFE-UHFFFAOYSA-N",
+    "chebi:smiles": "C12=CC=C(C=C1C=CC(=C2)C(C)C)C(C)C",
+    "geneontology:hasDbXref": [
+        "AGR:IND44620801",
+        "CAS:24157-81-1",
+        "HMDB:HMDB0059902",
+        "PMID:12541589",
+        "PMID:19680850",
+        "PMID:2085898",
+        "PMID:26682357",
+        "PMID:26716880",
+        "PMID:4006835",
+        "PMID:4074941",
+        "PMID:6126346",
+        "PMID:729105",
+        "PMID:9585087",
+        "Reaxys:1932163",
+        "Wikipedia:2,6-Diisopropylnaphthalene"
+    ],
+    "geneontology:hasId": "145669",
+    "geneontology:hasSynonym": [
+        "2,6-bis(1-methylethyl)naphthalene",
+        "2,6-di(propan-2-yl)naphthalene",
+        "2,6-DIPN",
+        "Amplify"
+    ],
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#3_STAR"
+    },
+    "rdfs:label": "2,6-diisopropylnaphthalene",
+    "rdfs:subClassOf": [
+        {
+            "@id": "obo:CHEBI_25477"
+        },
+        {
+            "@id": "b392_genid-00f1db82e1ab437c844115a94dc63e635-bn145669t11f33286"
+        },
+        {
+            "@id": "b392_genid-00f1db82e1ab437c844115a94dc63e635-bn145669t11f35219"
+        }
+    ]
+}

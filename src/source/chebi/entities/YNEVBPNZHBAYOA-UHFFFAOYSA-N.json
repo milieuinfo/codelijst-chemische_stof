@@ -1,0 +1,29 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_82092",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "chebi:charge": "0",
+    "chebi:formula": "C12H18N2O2",
+    "chebi:inchi": "InChI=1S/C12H18N2O2/c1-8-6-10(16-12(15)13-3)7-9(2)11(8)14(4)5/h6-7H,1-5H3,(H,13,15)",
+    "chebi:inchikey": "YNEVBPNZHBAYOA-UHFFFAOYSA-N",
+    "chebi:smiles": "CNC(=O)Oc1cc(C)c(N(C)C)c(C)c1",
+    "geneontology:hasDbXref": [
+        "CAS:315-18-4",
+        "KEGG:C18952",
+        "PPDB:1199"
+    ],
+    "geneontology:hasId": "82092",
+    "geneontology:hasSynonym": "Zectran",
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#2_STAR"
+    },
+    "rdfs:label": "Mexacarbate",
+    "rdfs:subClassOf": {
+        "@id": "obo:CHEBI_22712"
+    }
+}

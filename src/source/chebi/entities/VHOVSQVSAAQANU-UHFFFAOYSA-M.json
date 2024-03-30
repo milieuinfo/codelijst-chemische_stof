@@ -1,0 +1,69 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_81772",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "obo:IAO_0000115": "A quaternary ammonium salt consisting of equimolar amounts of mepiquat cations and chloride anions. A plant growth regulator, it is used in agriculture to reduce vegetative growth including sprout suppression in garlic, leeks and onions.",
+    "chebi:charge": "0",
+    "chebi:formula": "C7H16ClN",
+    "chebi:inchi": "InChI=1S/C7H16N.ClH/c1-8(2)6-4-3-5-7-8;/h3-7H2,1-2H3;1H/q+1;/p-1",
+    "chebi:inchikey": "VHOVSQVSAAQANU-UHFFFAOYSA-M",
+    "chebi:smiles": "[Cl-].C1CCCC[N+]1(C)C",
+    "geneontology:hasDbXref": [
+        "AGR:IND20510176",
+        "AGR:IND43641959",
+        "AGR:IND500678139",
+        "CAS:24307-26-4",
+        "KEGG:C18475",
+        "Patent:DE2207575",
+        "Patent:EP0573177",
+        "Patent:US3905798",
+        "Pesticides:derivatives/mepiquat%20chloride",
+        "PMID:15568470",
+        "PMID:19305533",
+        "PMID:22954676",
+        "PMID:24489020",
+        "PMID:25017155",
+        "PPDB:437",
+        "Reaxys:3914089"
+    ],
+    "geneontology:hasId": "81772",
+    "geneontology:hasSynonym": [
+        "1,1-dimethylpiperidinium chloride",
+        "BAS 083",
+        "BAS-083",
+        "BAS 08301W",
+        "BAS 08305 W",
+        "BAS 08306 W",
+        "BAS 08307 W",
+        "BAS 083W",
+        "BAS-85559X",
+        "N,N-dimethyl-piperidinium chloride",
+        "Pix Ultra"
+    ],
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#3_STAR"
+    },
+    "rdfs:label": "mepiquat chloride",
+    "rdfs:subClassOf": [
+        {
+            "@id": "obo:CHEBI_35273"
+        },
+        {
+            "@id": "obo:CHEBI_23114"
+        },
+        {
+            "@id": "b414_genid-00f1db82e1ab437c844115a94dc63e635-bn81772t11f33286"
+        },
+        {
+            "@id": "b414_genid-00f1db82e1ab437c844115a94dc63e635-bn81772t11f35219"
+        },
+        {
+            "@id": "b414_genid-00f1db82e1ab437c844115a94dc63e635-bn81772t10f90548"
+        }
+    ]
+}

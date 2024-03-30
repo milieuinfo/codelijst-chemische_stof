@@ -1,0 +1,59 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_82017",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "obo:IAO_0000115": "An aminopyridine that is pyridin-4-amine substituted by chloro groups at positions 3 and 5, a fluoro group at position 6 and a carboxymethoxy group at position 2.",
+    "chebi:charge": "0",
+    "chebi:formula": "C7H5Cl2FN2O3",
+    "chebi:inchi": "InChI=1S/C7H5Cl2FN2O3/c8-3-5(11)4(9)7(12-6(3)10)15-1-2(13)14/h1H2,(H2,11,12)(H,13,14)",
+    "chebi:inchikey": "MEFQWPUMEMWTJP-UHFFFAOYSA-N",
+    "chebi:smiles": "Nc1c(Cl)c(F)nc(OCC(O)=O)c1Cl",
+    "geneontology:hasDbXref": [
+        "CAS:69377-81-7",
+        "KEGG:C18858",
+        "Pesticides:fluroxypyr",
+        "PMID:23128745",
+        "PMID:24719846",
+        "PMID:25205153",
+        "PPDB:347",
+        "Reaxys:7136185",
+        "Wikipedia:Fluroxypyr"
+    ],
+    "geneontology:hasId": "82017",
+    "geneontology:hasSynonym": "[(4-amino-3,5-dichloro-6-fluoropyridin-2-yl)oxy]acetic acid",
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#3_STAR"
+    },
+    "rdfs:label": "fluroxypyr",
+    "rdfs:subClassOf": [
+        {
+            "@id": "obo:CHEBI_35618"
+        },
+        {
+            "@id": "obo:CHEBI_25384"
+        },
+        {
+            "@id": "obo:CHEBI_36683"
+        },
+        {
+            "@id": "obo:CHEBI_37143"
+        },
+        {
+            "@id": "obo:CHEBI_38207"
+        },
+        {
+            "@id": "b502_genid-00f1db82e1ab437c844115a94dc63e635-bn82017t11f24527"
+        },
+        {
+            "@id": "b502_genid-00f1db82e1ab437c844115a94dc63e635-bn82017t11f35703"
+        },
+        {
+            "@id": "b502_genid-00f1db82e1ab437c844115a94dc63e635-bn82017t11f78298"
+        }
+    ]
+}

@@ -1,0 +1,80 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_16188",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "obo:IAO_0000115": "An octanol carrying the hydroxy group at position 1.",
+    "chebi:charge": "0",
+    "chebi:formula": "C8H18O",
+    "chebi:inchi": "InChI=1S/C8H18O/c1-2-3-4-5-6-7-8-9/h9H,2-8H2,1H3",
+    "chebi:inchikey": "KBPLFHHGFOOTCA-UHFFFAOYSA-N",
+    "chebi:smiles": "CCCCCCCCO",
+    "http://purl.uniprot.org/core/name": "octan-1-ol",
+    "geneontology:hasDbXref": [
+        "Beilstein:1697461",
+        "CAS:111-87-5",
+        "Gmelin:82528",
+        "KEGG:C00756",
+        "KNApSAcK:C00001264",
+        "PDBeChem:OC9",
+        "PMID:19846748",
+        "PMID:20954704",
+        "PMID:21485271",
+        "PMID:24290301",
+        "PMID:29881455",
+        "PMID:32707169",
+        "PMID:33099596",
+        "PMID:33531600",
+        "PMID:34003632",
+        "PMID:35071860",
+        "PMID:35779097",
+        "PMID:35985434",
+        "PMID:36130986",
+        "PMID:36171735",
+        "Reaxys:1697461",
+        "UM-BBD_compID:c0045"
+    ],
+    "geneontology:hasId": "16188",
+    "geneontology:hasSynonym": [
+        "1-hydroxyoctane",
+        "1-Octanol",
+        "1-Oktanol",
+        "capryl alcohol",
+        "caprylic alcohol",
+        "n-heptyl carbinol",
+        "n-octan-1-ol",
+        "OCTAN-1-OL",
+        "primary octyl alcohol"
+    ],
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#3_STAR"
+    },
+    "rdfs:label": "octan-1-ol",
+    "rdfs:subClassOf": [
+        {
+            "@id": "obo:CHEBI_15734"
+        },
+        {
+            "@id": "b218_genid-00f1db82e1ab437c844115a94dc63e635-bn16188t11f35718"
+        },
+        {
+            "@id": "obo:CHEBI_37868"
+        },
+        {
+            "@id": "b218_genid-00f1db82e1ab437c844115a94dc63e635-bn16188t11f62803"
+        },
+        {
+            "@id": "b218_genid-00f1db82e1ab437c844115a94dc63e635-bn16188t11f76924"
+        },
+        {
+            "@id": "b218_genid-00f1db82e1ab437c844115a94dc63e635-bn16188t11f76969"
+        },
+        {
+            "@id": "b218_genid-00f1db82e1ab437c844115a94dc63e635-bn16188t11f83074"
+        }
+    ]
+}

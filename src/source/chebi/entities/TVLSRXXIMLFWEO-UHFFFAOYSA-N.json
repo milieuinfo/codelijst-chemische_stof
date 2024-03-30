@@ -1,0 +1,67 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_8434",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "obo:IAO_0000115": "A member of the class of ureas that is 1H-imidazole-1-carboxamide substituted by a propyl and a 2-(2,4,6-trichlorophenoxy)ethyl group at the amino nitrogen atom. A fungicide active against a wide range of diseases affecting field crops, fruit, turf and vegetables.",
+    "chebi:charge": "0",
+    "chebi:formula": "C15H16Cl3N3O2",
+    "chebi:inchi": "InChI=1S/C15H16Cl3N3O2/c1-2-4-20(15(22)21-5-3-19-10-21)6-7-23-14-12(17)8-11(16)9-13(14)18/h3,5,8-10H,2,4,6-7H2,1H3",
+    "chebi:inchikey": "TVLSRXXIMLFWEO-UHFFFAOYSA-N",
+    "chebi:smiles": "CCCN(CCOc1c(Cl)cc(Cl)cc1Cl)C(=O)n1ccnc1",
+    "geneontology:hasDbXref": [
+        "CAS:67747-09-5",
+        "KEGG:C11182",
+        "Pesticides:prochloraz",
+        "PMID:24401010",
+        "PMID:24964350",
+        "PMID:25163568",
+        "PPDB:536",
+        "Reaxys:8155344"
+    ],
+    "geneontology:hasId": "8434",
+    "geneontology:hasSynonym": "N-propyl-N-[2-(2,4,6-trichlorophenoxy)ethyl]-1H-imidazole-1-carboxamide",
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#3_STAR"
+    },
+    "rdfs:label": "prochloraz",
+    "rdfs:subClassOf": [
+        {
+            "@id": "obo:CHEBI_35618"
+        },
+        {
+            "@id": "obo:CHEBI_47857"
+        },
+        {
+            "@id": "obo:CHEBI_24780"
+        },
+        {
+            "@id": "obo:CHEBI_60600"
+        },
+        {
+            "@id": "obo:CHEBI_87067"
+        },
+        {
+            "@id": "obo:CHEBI_87068"
+        },
+        {
+            "@id": "obo:CHEBI_27096"
+        },
+        {
+            "@id": "b190_genid-00f1db82e1ab437c844115a94dc63e635-bn8434t11f35703"
+        },
+        {
+            "@id": "b190_genid-00f1db82e1ab437c844115a94dc63e635-bn8434t11f77884"
+        },
+        {
+            "@id": "b190_genid-00f1db82e1ab437c844115a94dc63e635-bn8434t11f78298"
+        },
+        {
+            "@id": "b190_genid-00f1db82e1ab437c844115a94dc63e635-bn8434t11f86328"
+        }
+    ]
+}

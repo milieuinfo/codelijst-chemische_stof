@@ -1,0 +1,52 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_39234",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "obo:IAO_0000115": "The ethyl ester of (2E,4E)-3,7,11-trimethyldodeca-2,4-dienoic acid",
+    "chebi:charge": "0",
+    "chebi:formula": "C17H30O2",
+    "chebi:inchi": "InChI=1S/C17H30O2/c1-6-19-17(18)13-16(5)12-8-11-15(4)10-7-9-14(2)3/h8,12-15H,6-7,9-11H2,1-5H3/b12-8+,16-13+",
+    "chebi:inchikey": "FYQGBXGJFWXIPP-UEVLXMDPSA-N",
+    "chebi:smiles": "CCOC(=O)\\C=C(C)\\C=C\\CC(C)CCCC(C)C",
+    "geneontology:hasDbXref": [
+        "Beilstein:2210285",
+        "CAS:41096-46-2",
+        "KEGG:C18862",
+        "PPDB:1025"
+    ],
+    "geneontology:hasId": "39234",
+    "geneontology:hasSynonym": [
+        "(2E,4E)-3,7,11-trimethyldodeca-2,4-dienoic acid, ethyl ester",
+        "(2E,4E)-hydroprene",
+        "(E,E)-3,7,11-trimethyl-2,4-dodecadienoic acid, ethyl ester",
+        "(RS)-hydroprene",
+        "ethyl (2E,4E)-3,7,11-trimethyl-2,4-dodecadienoate",
+        "ethyl (2E,4E)-3,7,11-trimethyldodeca-2,4-dienoate",
+        "ethyl (E,E)-(+-)-3,7,11-trimethyl-2,4-dodecadienoate",
+        "ethyl (E,E)-3,7,11-trimethyl-2,4-dodecadienoate",
+        "ethyl 3,7,11-trimethyl-trans-2,trans-4-dodecadienoate",
+        "Gencor",
+        "Hydroprene",
+        "ZR 512"
+    ],
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#3_STAR"
+    },
+    "rdfs:label": "hydroprene",
+    "rdfs:subClassOf": [
+        {
+            "@id": "obo:CHEBI_23990"
+        },
+        {
+            "@id": "obo:CHEBI_36757"
+        },
+        {
+            "@id": "b267_genid-00f1db82e1ab437c844115a94dc63e635-bn39234t11f24942"
+        }
+    ]
+}

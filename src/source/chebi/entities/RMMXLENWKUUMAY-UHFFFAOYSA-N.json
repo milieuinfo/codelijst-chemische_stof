@@ -1,0 +1,75 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_9434",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "obo:IAO_0000115": "A member of the class of  benzimidazoles  used widely in the treatment of hypertension.",
+    "chebi:charge": "0",
+    "chebi:formula": "C33H30N4O2",
+    "chebi:inchi": "InChI=1S/C33H30N4O2/c1-4-9-30-35-31-21(2)18-24(32-34-27-12-7-8-13-28(27)36(32)3)19-29(31)37(30)20-22-14-16-23(17-15-22)25-10-5-6-11-26(25)33(38)39/h5-8,10-19H,4,9,20H2,1-3H3,(H,38,39)",
+    "chebi:inchikey": "RMMXLENWKUUMAY-UHFFFAOYSA-N",
+    "chebi:smiles": "CCCc1nc2c(C)cc(cc2n1Cc1ccc(cc1)-c1ccccc1C(O)=O)-c1nc2ccccc2n1C",
+    "geneontology:hasDbXref": [
+        "PMID:24048485",
+        "Beilstein:6624054",
+        "CAS:144701-48-4",
+        "Drug_Central:2583",
+        "DrugBank:DB00966",
+        "HMDB:HMDB0015101",
+        "KEGG:C07710",
+        "KEGG:D00627",
+        "LINCS:LSM-3657",
+        "Patent:EP502314",
+        "PMID:11558835",
+        "PMID:15498586",
+        "PMID:18008027",
+        "PMID:18360028",
+        "Reaxys:6624054",
+        "Wikipedia:Telmisartan"
+    ],
+    "geneontology:hasId": "9434",
+    "geneontology:hasSynonym": [
+        "4'-((1,4'-dimethyl-2'-propyl(2,6'-bi-1H-benzimidazol)-1'-yl)methyl)-(1,1'-biphenyl)-2-carboxylic acid",
+        "4'-((4-methyl-6-(1-methyl-2-benzimidazolyl)-2-propyl-1-benzimidazolyl)methyl)-2-biphenylcarboxylic acid",
+        "4'-[(1,4'-dimethyl-2'propyl[2,6'-bi-1H-benzimidazol]-1'-yl)methyl]-[1,1'-biphenyl]-2-carboxylic acid",
+        "4'-[(1,7'-dimethyl-2'-propyl-1H,3'H-2,5'-bibenzimidazol-3'-yl)methyl][1,1'-biphenyl]-2-carboxylic acid",
+        "4'-[(1,7'-dimethyl-2'-propyl-1H,3'H-2,5'-bibenzimidazol-3'-yl)methyl]biphenyl-2-carboxylic acid",
+        "BIBR 277",
+        "Micardis",
+        "Telmisartan"
+    ],
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#3_STAR"
+    },
+    "rdfs:label": "telmisartan",
+    "rdfs:subClassOf": [
+        {
+            "@id": "obo:CHEBI_22888"
+        },
+        {
+            "@id": "obo:CHEBI_22715"
+        },
+        {
+            "@id": "b76_genid-00f1db82e1ab437c844115a94dc63e635-bn9434t11f35457"
+        },
+        {
+            "@id": "b76_genid-00f1db82e1ab437c844115a94dc63e635-bn9434t11f35674"
+        },
+        {
+            "@id": "b76_genid-00f1db82e1ab437c844115a94dc63e635-bn9434t11f35703"
+        },
+        {
+            "@id": "b76_genid-00f1db82e1ab437c844115a94dc63e635-bn9434t11f61016"
+        },
+        {
+            "@id": "b76_genid-00f1db82e1ab437c844115a94dc63e635-bn9434t11f78298"
+        },
+        {
+            "@id": "obo:CHEBI_141493"
+        }
+    ]
+}

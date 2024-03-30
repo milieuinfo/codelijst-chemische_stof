@@ -1,0 +1,77 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@graph": [
+        {
+            "@id": "obo:CHEBI_28694",
+            "@type": "http://www.w3.org/2002/07/owl#Class",
+            "chebi:charge": "0",
+            "chebi:formula": "Cu",
+            "chebi:inchi": "InChI=1S/Cu",
+            "chebi:inchikey": "RYGMFSIKBFXOCR-UHFFFAOYSA-N",
+            "chebi:smiles": "[Cu]",
+            "geneontology:hasDbXref": [
+                "CAS:7440-50-8",
+                "Gmelin:16269",
+                "KEGG:C00070",
+                "WebElements:Cu"
+            ],
+            "geneontology:hasId": "28694",
+            "geneontology:hasSynonym": [
+                "Cu",
+                "29Cu",
+                "cobre",
+                "copper",
+                "Copper",
+                "cuivre",
+                "cuprum",
+                "Kupfer"
+            ],
+            "geneontology:inSubset": {
+                "@id": "obo:chebi#3_STAR"
+            },
+            "rdfs:label": "copper atom",
+            "rdfs:subClassOf": [
+                {
+                    "@id": "obo:CHEBI_88184"
+                },
+                {
+                    "@id": "b146_genid-00f1db82e1ab437c844115a94dc63e635-bn28694t11f27027"
+                },
+                {
+                    "@id": "obo:CHEBI_33366"
+                },
+                {
+                    "@id": "b146_genid-00f1db82e1ab437c844115a94dc63e635-bn28694t11f76971"
+                }
+            ]
+        },
+        {
+            "@id": "obo:CHEBI_30052",
+            "@type": "http://www.w3.org/2002/07/owl#Class",
+            "chebi:charge": "0",
+            "chebi:formula": "Cu",
+            "chebi:inchi": "InChI=1S/Cu",
+            "chebi:inchikey": "RYGMFSIKBFXOCR-UHFFFAOYSA-N",
+            "chebi:smiles": "[Cu]",
+            "geneontology:hasDbXref": "CAS:7440-50-8",
+            "geneontology:hasId": "30052",
+            "geneontology:hasSynonym": [
+                "copper",
+                "Cu(0)",
+                "Cun"
+            ],
+            "geneontology:inSubset": {
+                "@id": "obo:chebi#3_STAR"
+            },
+            "rdfs:label": "copper(0)",
+            "rdfs:subClassOf": {
+                "@id": "obo:CHEBI_37404"
+            }
+        }
+    ]
+}

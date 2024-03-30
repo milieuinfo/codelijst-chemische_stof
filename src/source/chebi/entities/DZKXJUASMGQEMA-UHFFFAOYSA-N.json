@@ -1,0 +1,60 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_138721",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "obo:IAO_0000115": "A tetradecanoate ester (myristate ester) resulting from the formal condensation of the carboxy group of tetradecanoic acid (myristic acid) with the hydroxy group of tetradecan-1-ol (myristyl alcohol). Used as an emollient.",
+    "chebi:charge": "0",
+    "chebi:formula": "C28H56O2",
+    "chebi:inchi": "InChI=1S/C28H56O2/c1-3-5-7-9-11-13-15-17-19-21-23-25-27-30-28(29)26-24-22-20-18-16-14-12-10-8-6-4-2/h3-27H2,1-2H3",
+    "chebi:inchikey": "DZKXJUASMGQEMA-UHFFFAOYSA-N",
+    "chebi:smiles": "C(CCCCCCCC)CCCCC(OCCCCCCCCCCCCCC)=O",
+    "http://purl.uniprot.org/core/name": "tetradecanyl tetradecanoate",
+    "geneontology:hasDbXref": [
+        "PMID:20195781",
+        "PMID:28096191",
+        "CAS:3234-85-3",
+        "LIPID_MAPS_instance:LMFA07010035",
+        "PMID:20552985",
+        "PMID:23112831",
+        "PMID:24675043",
+        "PMID:25860691",
+        "PMID:28334689",
+        "Reaxys:1801576"
+    ],
+    "geneontology:hasId": "138721",
+    "geneontology:hasSynonym": [
+        "tetradecanyl tetradecanoate",
+        "14:0-14:0Alc",
+        "Ceraphyl 424",
+        "Cetiol MM",
+        "Crodamol MM",
+        "Cyclochem MM",
+        "Liponate MM",
+        "myristyl myristate",
+        "myristyl tetradecanoate",
+        "tetradecyl myristate"
+    ],
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#3_STAR"
+    },
+    "rdfs:label": "tetradecyl tetradecanoate",
+    "rdfs:subClassOf": [
+        {
+            "@id": "obo:CHEBI_10036"
+        },
+        {
+            "@id": "obo:CHEBI_87691"
+        },
+        {
+            "@id": "b143_genid-00f1db82e1ab437c844115a94dc63e635-bn138721t8f77417"
+        },
+        {
+            "@id": "b143_genid-00f1db82e1ab437c844115a94dc63e635-bn138721t11f84735"
+        }
+    ]
+}

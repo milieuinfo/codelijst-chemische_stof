@@ -1,0 +1,62 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_6704",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "obo:IAO_0000115": "A carbamate ester that is methyl 1H-benzimidazol-2-ylcarbamate substituted by a benzoyl group at position 5.",
+    "chebi:charge": "0",
+    "chebi:formula": "C16H13N3O3",
+    "chebi:inchi": "InChI=1S/C16H13N3O3/c1-22-16(21)19-15-17-12-8-7-11(9-13(12)18-15)14(20)10-5-3-2-4-6-10/h2-9H,1H3,(H2,17,18,19,21)",
+    "chebi:inchikey": "OPXLLQIJSORQAM-UHFFFAOYSA-N",
+    "chebi:smiles": "COC(=O)Nc1nc2cc(ccc2[nH]1)C(=O)c1ccccc1",
+    "geneontology:hasDbXref": [
+        "Beilstein:759809",
+        "CAS:31431-39-7",
+        "Drug_Central:1641",
+        "DrugBank:DB00643",
+        "KEGG:D00368",
+        "LINCS:LSM-3749",
+        "PMID:6126101",
+        "Reaxys:759809",
+        "Wikipedia:Mebendazole"
+    ],
+    "geneontology:hasId": "6704",
+    "geneontology:hasSynonym": [
+        "(5-benzoyl-1H-benzimidazol-2-yl)-carbamic acid methyl ester",
+        "MBDZ",
+        "Mebendazole",
+        "methyl (5-benzoyl-1H-benzimidazol-2-yl)carbamate",
+        "Vermox"
+    ],
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#3_STAR"
+    },
+    "rdfs:label": "mebendazole",
+    "rdfs:subClassOf": [
+        {
+            "@id": "obo:CHEBI_76224"
+        },
+        {
+            "@id": "obo:CHEBI_23003"
+        },
+        {
+            "@id": "obo:CHEBI_22715"
+        },
+        {
+            "@id": "b140_genid-00f1db82e1ab437c844115a94dc63e635-bn6704t11f35444"
+        },
+        {
+            "@id": "b140_genid-00f1db82e1ab437c844115a94dc63e635-bn6704t9f41275"
+        },
+        {
+            "@id": "b140_genid-00f1db82e1ab437c844115a94dc63e635-bn6704t11f60832"
+        },
+        {
+            "@id": "b140_genid-00f1db82e1ab437c844115a94dc63e635-bn6704t11f61951"
+        }
+    ]
+}

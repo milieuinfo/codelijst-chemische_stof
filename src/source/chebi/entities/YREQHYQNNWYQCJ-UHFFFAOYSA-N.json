@@ -1,0 +1,52 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_39348",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "obo:IAO_0000115": "An aromatic ether that is the 3-phenoxybenzyl ether of 2-(4-ethoxyphenyl)-2-methylpropan-1-ol.",
+    "chebi:charge": "0",
+    "chebi:formula": "C25H28O3",
+    "chebi:inchi": "InChI=1S/C25H28O3/c1-4-27-22-15-13-21(14-16-22)25(2,3)19-26-18-20-9-8-12-24(17-20)28-23-10-6-5-7-11-23/h5-17H,4,18-19H2,1-3H3",
+    "chebi:inchikey": "YREQHYQNNWYQCJ-UHFFFAOYSA-N",
+    "chebi:smiles": "CCOc1ccc(cc1)C(C)(C)COCc1cccc(Oc2ccccc2)c1",
+    "geneontology:hasDbXref": [
+        "Beilstein:7047812",
+        "CAS:80844-07-1",
+        "KEGG:C18410",
+        "KEGG:D09202",
+        "Patent:FR2481695",
+        "Patent:US4397864",
+        "PMID:10635564",
+        "PMID:11272920",
+        "PMID:11857772",
+        "PMID:9648233",
+        "PPDB:283",
+        "Reaxys:7047812",
+        "Wikipedia:Etofenprox"
+    ],
+    "geneontology:hasId": "39348",
+    "geneontology:hasSynonym": [
+        "1-{[2-(4-ethoxyphenyl)-2-methylpropoxy]methyl}-3-phenoxybenzene",
+        "Ethofenprox",
+        "Ethophenprox"
+    ],
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#3_STAR"
+    },
+    "rdfs:label": "etofenprox",
+    "rdfs:subClassOf": [
+        {
+            "@id": "obo:CHEBI_35618"
+        },
+        {
+            "@id": "b415_genid-00f1db82e1ab437c844115a94dc63e635-bn39348t8f39350"
+        },
+        {
+            "@id": "b415_genid-00f1db82e1ab437c844115a94dc63e635-bn39348t11f39351"
+        }
+    ]
+}

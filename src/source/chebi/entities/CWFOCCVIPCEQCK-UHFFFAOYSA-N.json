@@ -1,0 +1,75 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_39347",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "obo:IAO_0000115": "A member of the class of pyrroles that is 4-bromo-1H-pyrrole-3-carbonitrile which is substituted at positions 1, 2 and 5 by ethoxymethyl, p-chlorophenyl and trifluoromethyl groups, respectively. A proinsecticide used for termite control and crop protection against several insects and mite pests.",
+    "chebi:charge": "0",
+    "chebi:formula": "C15H11BrClF3N2O",
+    "chebi:inchi": "InChI=1S/C15H11BrClF3N2O/c1-2-23-8-22-13(9-3-5-10(17)6-4-9)11(7-21)12(16)14(22)15(18,19)20/h3-6H,2,8H2,1H3",
+    "chebi:inchikey": "CWFOCCVIPCEQCK-UHFFFAOYSA-N",
+    "chebi:smiles": "CCOCn1c(c(C#N)c(Br)c1C(F)(F)F)-c1ccc(Cl)cc1",
+    "geneontology:hasDbXref": [
+        "Beilstein:6940152",
+        "CAS:122453-73-0",
+        "KEGG:C18455",
+        "Pesticides:chlorfenapyr",
+        "PMID:25114438",
+        "PMID:27588945",
+        "PMID:27616623",
+        "PMID:28672113",
+        "PMID:29318380",
+        "PPDB:136"
+    ],
+    "geneontology:hasId": "39347",
+    "geneontology:hasSynonym": [
+        "4-bromo-2-(4-chlorophenyl)-1-(ethoxymethyl)-5-(trifluoromethyl)-1H-pyrrole-3-carbonitrile",
+        "AC 303630",
+        "Chlorfenapyr",
+        "CL 303630",
+        "Pirate"
+    ],
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#3_STAR"
+    },
+    "rdfs:label": "chlorfenapyr",
+    "rdfs:subClassOf": [
+        {
+            "@id": "obo:CHEBI_18379"
+        },
+        {
+            "@id": "obo:CHEBI_83403"
+        },
+        {
+            "@id": "obo:CHEBI_25705"
+        },
+        {
+            "@id": "obo:CHEBI_26455"
+        },
+        {
+            "@id": "obo:CHEBI_38657"
+        },
+        {
+            "@id": "obo:CHEBI_38804"
+        },
+        {
+            "@id": "obo:CHEBI_38806"
+        },
+        {
+            "@id": "obo:CHEBI_141498"
+        },
+        {
+            "@id": "b388_genid-00f1db82e1ab437c844115a94dc63e635-bn39347t11f136644"
+        },
+        {
+            "@id": "b388_genid-00f1db82e1ab437c844115a94dc63e635-bn39347t11f136647"
+        },
+        {
+            "@id": "b388_genid-00f1db82e1ab437c844115a94dc63e635-bn39347t8f141497"
+        }
+    ]
+}

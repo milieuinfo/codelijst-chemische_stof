@@ -1,0 +1,42 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_34216",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "chebi:charge": "0",
+    "chebi:formula": "C12H5Cl5",
+    "chebi:inchi": "InChI=1S/C12H5Cl5/c13-7-3-1-2-6(4-7)8-5-9(14)11(16)12(17)10(8)15/h1-5H",
+    "chebi:inchikey": "BQENMISTWGTJIJ-UHFFFAOYSA-N",
+    "chebi:smiles": "Clc1cccc(c1)-c1cc(Cl)c(Cl)c(Cl)c1Cl",
+    "geneontology:hasDbXref": [
+        "Beilstein:4464227",
+        "CAS:70424-69-0",
+        "KEGG:C14365"
+    ],
+    "geneontology:hasId": "34216",
+    "geneontology:hasSynonym": [
+        "2,3,3',4,5-pentachloro-1,1'-biphenyl",
+        "2,3,3',4,5-Pentachlorobiphenyl",
+        "2,3,4,5,3'-pentachlorobiphenyl",
+        "PCB 106"
+    ],
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#3_STAR"
+    },
+    "rdfs:label": "2,3,3',4,5-pentachlorobiphenyl",
+    "rdfs:subClassOf": [
+        {
+            "@id": "obo:CHEBI_83403"
+        },
+        {
+            "@id": "obo:CHEBI_26888"
+        },
+        {
+            "@id": "obo:CHEBI_36721"
+        }
+    ]
+}

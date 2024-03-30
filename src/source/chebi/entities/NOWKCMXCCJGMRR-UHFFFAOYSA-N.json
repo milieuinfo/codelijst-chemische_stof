@@ -1,0 +1,54 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_30969",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "chebi:charge": "0",
+    "chebi:formula": "C2H5N",
+    "chebi:inchi": "InChI=1S/C2H5N/c1-2-3-1/h3H,1-2H2",
+    "chebi:inchikey": "NOWKCMXCCJGMRR-UHFFFAOYSA-N",
+    "chebi:smiles": "C1CN1",
+    "geneontology:hasDbXref": [
+        "Beilstein:102380",
+        "CAS:151-56-4",
+        "Gmelin:616",
+        "KEGG:C11687"
+    ],
+    "geneontology:hasId": "30969",
+    "geneontology:hasSynonym": [
+        "azacyclopropane",
+        "Aziridine",
+        "dimethyleneimine",
+        "EI",
+        "ethyleneimine",
+        "ethylenimine"
+    ],
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#3_STAR"
+    },
+    "rdfs:label": "aziridine",
+    "rdfs:subClassOf": [
+        {
+            "@id": "obo:CHEBI_36389"
+        },
+        {
+            "@id": "obo:CHEBI_37949"
+        },
+        {
+            "@id": "obo:CHEBI_22681"
+        },
+        {
+            "@id": "b106_genid-00f1db82e1ab437c844115a94dc63e635-bn30969tmms73f50929"
+        },
+        {
+            "@id": "b106_genid-00f1db82e1ab437c844115a94dc63e635-bn30969t11f22333"
+        },
+        {
+            "@id": "b106_genid-00f1db82e1ab437c844115a94dc63e635-bn30969t5f50929"
+        }
+    ]
+}

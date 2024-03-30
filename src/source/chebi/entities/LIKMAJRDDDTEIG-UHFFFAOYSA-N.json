@@ -1,0 +1,31 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_24579",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "obo:IAO_0000115": "An alkene that is hexane carrying a double bond at position 1.",
+    "chebi:charge": "0",
+    "chebi:formula": "C6H12",
+    "chebi:inchi": "InChI=1S/C6H12/c1-3-5-6-4-2/h3H,1,4-6H2,2H3",
+    "chebi:inchikey": "LIKMAJRDDDTEIG-UHFFFAOYSA-N",
+    "chebi:smiles": "CCCCC=C",
+    "geneontology:hasDbXref": [
+        "CAS:592-41-6",
+        "PMID:25452152",
+        "Reaxys:1209240",
+        "Wikipedia:1-Hexene"
+    ],
+    "geneontology:hasId": "24579",
+    "geneontology:hasSynonym": "hex-1-ene",
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#3_STAR"
+    },
+    "rdfs:label": "1-hexene",
+    "rdfs:subClassOf": {
+        "@id": "obo:CHEBI_32878"
+    }
+}

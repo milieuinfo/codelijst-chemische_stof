@@ -1,0 +1,45 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_31643",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "obo:IAO_0000115": "A non-ionic gadolinium chelate having a macrocyclic tetraamine framework. It is used as a paramagnetic contrast agent in magnetic resonance imaging (MRI).",
+    "chebi:charge": "0",
+    "chebi:inchi": "InChI=1S/C17H32N4O7.Gd/c1-14(22)10-18-2-4-19(11-15(23)24)6-8-21(13-17(27)28)9-7-20(5-3-18)12-16(25)26;/h14,22H,2-13H2,1H3,(H,23,24)(H,25,26)(H,27,28);/q;+3/p-3",
+    "chebi:inchikey": "DPNNNPAKRZOSMO-UHFFFAOYSA-K",
+    "chebi:smiles": "[H][O]1C(C)C[N]23CC[N]45CC[N]67CC[N]8(CC2)CC(=O)[O-][Gd+3]13468([O-]C(=O)C5)[O-]C(=O)C7",
+    "geneontology:hasDbXref": [
+        "CAS:120066-54-8",
+        "DrugBank:DB00597",
+        "Gmelin:897397",
+        "KEGG:D01137",
+        "Patent:EP292689",
+        "Patent:US4885363",
+        "Wikipedia:Gadoteridol"
+    ],
+    "geneontology:hasId": "31643",
+    "geneontology:hasSynonym": [
+        "[2,2',2''-{10-[2-(hydroxy-kappaO)propyl]-1,4,7,10-tetraazacyclododecane-1,4,7-triyl-kappa(4)N(1),N(4),N(7),N(10)}triacetato-kappaO(3-)]gadolinium",
+        "gadolinium 2,2',2''-[10-(2-hydroxypropyl)-1,4,7,10-tetraazacyclododecane-1,4,7-triyl]triacetate",
+        "gadolinium-HP-DO3A",
+        "gadoteridolum",
+        "Gd-HPDO3A",
+        "GD-HP-DO 3A"
+    ],
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#3_STAR"
+    },
+    "rdfs:label": "gadoteridol",
+    "rdfs:subClassOf": [
+        {
+            "@id": "obo:CHEBI_35730"
+        },
+        {
+            "@id": "b94_genid-00f1db82e1ab437c844115a94dc63e635-bn31643t11f37335"
+        }
+    ]
+}

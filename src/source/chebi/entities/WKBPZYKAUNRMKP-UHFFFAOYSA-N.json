@@ -1,0 +1,31 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_83993",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "obo:IAO_0000115": "A member of the classof triazoles that is 1,2,4-triazole substituted at position 1 by a 2-(2,4-dichlorophenyl)pentyl group.",
+    "chebi:charge": "0",
+    "chebi:formula": "C13H15Cl2N3",
+    "chebi:inchi": "InChI=1S/C13H15Cl2N3/c1-2-3-10(7-18-9-16-8-17-18)12-5-4-11(14)6-13(12)15/h4-6,8-10H,2-3,7H2,1H3",
+    "chebi:inchikey": "WKBPZYKAUNRMKP-UHFFFAOYSA-N",
+    "chebi:smiles": "CCCC(Cn1cncn1)c1ccc(Cl)cc1Cl",
+    "geneontology:hasDbXref": "PPDB:509",
+    "geneontology:hasId": "83993",
+    "geneontology:hasSynonym": "1-[2-(2,4-dichlorophenyl)pentyl]-1H-1,2,4-triazole",
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#3_STAR"
+    },
+    "rdfs:label": "1-[2-(2,4-dichlorophenyl)pentyl]1,2,4-triazole",
+    "rdfs:subClassOf": [
+        {
+            "@id": "obo:CHEBI_35727"
+        },
+        {
+            "@id": "obo:CHEBI_23697"
+        }
+    ]
+}

@@ -1,0 +1,111 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@graph": [
+        {
+            "@id": "obo:CHEBI_29235",
+            "@type": "http://www.w3.org/2002/07/owl#Class",
+            "chebi:charge": "0",
+            "chebi:formula": "H",
+            "chebi:inchi": "InChI=1S/H",
+            "chebi:inchikey": "YZCKVEUIGOORGS-UHFFFAOYSA-N",
+            "chebi:smiles": "[H]",
+            "geneontology:hasId": "29235",
+            "geneontology:hasSynonym": [
+                "H(.)",
+                "monohydrogen"
+            ],
+            "geneontology:inSubset": {
+                "@id": "obo:chebi#3_STAR"
+            },
+            "rdfs:label": "hydrogen(.)",
+            "rdfs:subClassOf": {
+                "@id": "obo:CHEBI_33251",
+                "@type": "http://www.w3.org/2002/07/owl#Class",
+                "chebi:charge": "0",
+                "chebi:formula": "H",
+                "chebi:inchi": "InChI=1S/H",
+                "chebi:inchikey": "YZCKVEUIGOORGS-UHFFFAOYSA-N",
+                "chebi:smiles": "[H]",
+                "geneontology:hasId": "33251",
+                "geneontology:hasSynonym": "atomic hydrogen",
+                "geneontology:inSubset": {
+                    "@id": "obo:chebi#3_STAR"
+                },
+                "rdfs:label": "monoatomic hydrogen",
+                "rdfs:subClassOf": [
+                    {
+                        "@id": "obo:CHEBI_33260"
+                    },
+                    {
+                        "@id": "obo:CHEBI_33238"
+                    }
+                ]
+            }
+        },
+        {
+            "@id": "obo:CHEBI_33251",
+            "@type": "http://www.w3.org/2002/07/owl#Class",
+            "chebi:charge": "0",
+            "chebi:formula": "H",
+            "chebi:inchi": "InChI=1S/H",
+            "chebi:inchikey": "YZCKVEUIGOORGS-UHFFFAOYSA-N",
+            "chebi:smiles": "[H]",
+            "geneontology:hasId": "33251",
+            "geneontology:hasSynonym": "atomic hydrogen",
+            "geneontology:inSubset": {
+                "@id": "obo:chebi#3_STAR"
+            },
+            "rdfs:label": "monoatomic hydrogen",
+            "rdfs:subClassOf": [
+                {
+                    "@id": "obo:CHEBI_33260"
+                },
+                {
+                    "@id": "obo:CHEBI_33238"
+                }
+            ]
+        },
+        {
+            "@id": "obo:CHEBI_49637",
+            "@type": "http://www.w3.org/2002/07/owl#Class",
+            "chebi:charge": "0",
+            "chebi:formula": "H",
+            "chebi:inchi": "InChI=1S/H",
+            "chebi:inchikey": "YZCKVEUIGOORGS-UHFFFAOYSA-N",
+            "chebi:smiles": "[H]",
+            "geneontology:hasDbXref": "WebElements:H",
+            "geneontology:hasId": "49637",
+            "geneontology:hasSynonym": [
+                "H",
+                "1H",
+                "hidrogeno",
+                "hydrogen",
+                "hydrogene",
+                "Wasserstoff"
+            ],
+            "geneontology:inSubset": {
+                "@id": "obo:chebi#3_STAR"
+            },
+            "rdfs:label": "hydrogen atom",
+            "rdfs:subClassOf": [
+                {
+                    "@id": "obo:CHEBI_24835"
+                },
+                {
+                    "@id": "obo:CHEBI_33559"
+                },
+                {
+                    "@id": "obo:CHEBI_25585"
+                },
+                {
+                    "@id": "b434_genid-00f1db82e1ab437c844115a94dc63e635-bn49637t11f33937"
+                }
+            ]
+        }
+    ]
+}

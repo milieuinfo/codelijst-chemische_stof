@@ -1,0 +1,49 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_52052",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "obo:IAO_0000115": "A propanone that is propan-2-one substituted by a phenyl group at position 1.",
+    "chebi:charge": "0",
+    "chebi:formula": "C9H10O",
+    "chebi:inchi": "InChI=1S/C9H10O/c1-8(10)7-9-5-3-2-4-6-9/h2-6H,7H2,1H3",
+    "chebi:inchikey": "QCCDLTOVEPVEJK-UHFFFAOYSA-N",
+    "chebi:smiles": "CC(=O)Cc1ccccc1",
+    "http://purl.uniprot.org/core/name": "phenylacetone",
+    "geneontology:hasDbXref": [
+        "Beilstein:742120",
+        "CAS:103-79-7",
+        "KEGG:C15512",
+        "MetaCyc:CPD-7233",
+        "PMID:9682156",
+        "Reaxys:742120",
+        "Wikipedia:Phenylacetone"
+    ],
+    "geneontology:hasId": "52052",
+    "geneontology:hasSynonym": [
+        "1-Phenyl-2-propanone",
+        "1-phenylpropan-2-one",
+        "3-Phenyl-2-propanone",
+        "Benzyl methyl ketone",
+        "Methyl benzyl ketone",
+        "Phenyl-2-propanone",
+        "Phenylacetone",
+        "Phenylmethyl methyl ketone"
+    ],
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#3_STAR"
+    },
+    "rdfs:label": "phenylacetone",
+    "rdfs:subClassOf": [
+        {
+            "@id": "obo:CHEBI_51867"
+        },
+        {
+            "@id": "obo:CHEBI_26292"
+        }
+    ]
+}

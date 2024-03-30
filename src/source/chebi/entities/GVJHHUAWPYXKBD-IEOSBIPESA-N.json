@@ -1,0 +1,104 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_18145",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "obo:IAO_0000115": "An alpha-tocopherol that has R,R,R configuration. The naturally occurring stereoisomer of alpha-tocopherol, it is found particularly in sunflower and olive oils.",
+    "chebi:charge": "0",
+    "chebi:formula": "C29H50O2",
+    "chebi:inchi": "InChI=1S/C29H50O2/c1-20(2)12-9-13-21(3)14-10-15-22(4)16-11-18-29(8)19-17-26-25(7)27(30)23(5)24(6)28(26)31-29/h20-22,30H,9-19H2,1-8H3/t21-,22-,29-/m1/s1",
+    "chebi:inchikey": "GVJHHUAWPYXKBD-IEOSBIPESA-N",
+    "chebi:smiles": "CC(C)CCC[C@@H](C)CCC[C@@H](C)CCC[C@]1(C)CCc2c(C)c(O)c(C)c(C)c2O1",
+    "http://purl.uniprot.org/core/name": "(+)-alpha-tocopherol",
+    "geneontology:hasDbXref": [
+        "Beilstein:5300493",
+        "Beilstein:94012",
+        "CAS:59-02-9",
+        "Chemspider:14265",
+        "Drug_Central:4280",
+        "DrugBank:DB00163",
+        "FooDB:FDB000565",
+        "HMDB:HMDB0001893",
+        "KEGG:C02477",
+        "KNApSAcK:C00007366",
+        "LIPID_MAPS_instance:LMPR02020001",
+        "MetaCyc:ALPHA-TOCOPHEROL",
+        "PDBeChem:VIV",
+        "PMID:11427352",
+        "PMID:12899840",
+        "PMID:14657365",
+        "PMID:16512933",
+        "PMID:17031012",
+        "PMID:17310859",
+        "PMID:19389964",
+        "PMID:19663978",
+        "PMID:20209471",
+        "PMID:21591326",
+        "PMID:23599266",
+        "PMID:28694484",
+        "PMID:31013594",
+        "PMID:33197771",
+        "Reaxys:94012",
+        "Wikipedia:Alpha-Tocopherol"
+    ],
+    "geneontology:hasId": "18145",
+    "geneontology:hasSynonym": [
+        "(+)-alpha-tocopherol",
+        "(2R,4'R,8'R)-alpha-tocopherol",
+        "(2R)-2,5,7,8-tetramethyl-2-[(4R,8R)-4,8,12-trimethyltridecyl]-3,4-dihydro-2H-1-benzopyran-6-ol",
+        "(2R)-2,5,7,8-tetramethyl-2-[(4R,8R)-4,8,12-trimethyltridecyl]-3,4-dihydro-2H-chromen-6-ol",
+        "(2R)-2,5,7,8-TETRAMETHYL-2-[(4R,8R)-4,8,12-TRIMETHYLTRIDECYL]CHROMAN-6-OL",
+        "(all-R)-alpha-tocopherol",
+        "5,7,8-trimethyltocol",
+        "alpha-Tocopherol",
+        "d-alpha-tocopherol",
+        "RRR-alpha-tocopherol",
+        "Vitamin E"
+    ],
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#3_STAR"
+    },
+    "rdfs:label": "(R,R,R)-alpha-tocopherol",
+    "rdfs:subClassOf": [
+        {
+            "@id": "obo:CHEBI_22470"
+        },
+        {
+            "@id": "b385_genid-00f1db82e1ab437c844115a94dc63e635-bn18145t11f22586"
+        },
+        {
+            "@id": "b385_genid-00f1db82e1ab437c844115a94dc63e635-bn18145t11f22587"
+        },
+        {
+            "@id": "b385_genid-00f1db82e1ab437c844115a94dc63e635-bn18145t11f27027"
+        },
+        {
+            "@id": "b385_genid-00f1db82e1ab437c844115a94dc63e635-bn18145t11f37700"
+        },
+        {
+            "@id": "b385_genid-00f1db82e1ab437c844115a94dc63e635-bn18145t6f46430"
+        },
+        {
+            "@id": "b385_genid-00f1db82e1ab437c844115a94dc63e635-bn18145t11f50249"
+        },
+        {
+            "@id": "b385_genid-00f1db82e1ab437c844115a94dc63e635-bn18145t11f50733"
+        },
+        {
+            "@id": "b385_genid-00f1db82e1ab437c844115a94dc63e635-bn18145t11f50846"
+        },
+        {
+            "@id": "b385_genid-00f1db82e1ab437c844115a94dc63e635-bn18145t11f50855"
+        },
+        {
+            "@id": "b385_genid-00f1db82e1ab437c844115a94dc63e635-bn18145t11f76924"
+        },
+        {
+            "@id": "b385_genid-00f1db82e1ab437c844115a94dc63e635-bn18145t11f84735"
+        }
+    ]
+}

@@ -1,0 +1,50 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_50717",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "obo:IAO_0000115": "A methylnaphthalene carrying a methyl substituent at position 1.",
+    "chebi:charge": "0",
+    "chebi:formula": "C11H10",
+    "chebi:inchi": "InChI=1S/C11H10/c1-9-5-4-7-10-6-2-3-8-11(9)10/h2-8H,1H3",
+    "chebi:inchikey": "QPUYECUOLPXSFR-UHFFFAOYSA-N",
+    "chebi:smiles": "Cc1cccc2ccccc12",
+    "geneontology:hasDbXref": [
+        "Beilstein:506793",
+        "CAS:90-12-0",
+        "HMDB:HMDB0032860",
+        "KEGG:C14082",
+        "PMID:19823936",
+        "PMID:22367023",
+        "PMID:22863852",
+        "PMID:24011230",
+        "Reaxys:506793",
+        "UM-BBD_compID:c0713",
+        "Wikipedia:1-Methylnaphthalene"
+    ],
+    "geneontology:hasId": "50717",
+    "geneontology:hasSynonym": [
+        "1-Methylnaphthalene",
+        "alpha-methylnaphthalene",
+        "alpha-Methylnaphthalene"
+    ],
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#3_STAR"
+    },
+    "rdfs:label": "1-methylnaphthalene",
+    "rdfs:subClassOf": [
+        {
+            "@id": "obo:CHEBI_50715"
+        },
+        {
+            "@id": "b263_genid-00f1db82e1ab437c844115a94dc63e635-bn50717t11f50903"
+        },
+        {
+            "@id": "b263_genid-00f1db82e1ab437c844115a94dc63e635-bn50717t11f76924"
+        }
+    ]
+}

@@ -1,0 +1,53 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_34037",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "obo:IAO_0000115": "A trimethylbenzene carrying methyl groups at positions 1, 2 and 3. It has been found in  Centaurium erythraea.",
+    "chebi:charge": "0",
+    "chebi:formula": "C9H12",
+    "chebi:inchi": "InChI=1S/C9H12/c1-7-5-4-6-8(2)9(7)3/h4-6H,1-3H3",
+    "chebi:inchikey": "FYGHSUNMUKGBRK-UHFFFAOYSA-N",
+    "chebi:smiles": "Cc1cccc(C)c1C",
+    "geneontology:hasDbXref": [
+        "Beilstein:1903410",
+        "CAS:526-73-8",
+        "Gmelin:326517",
+        "HMDB:HMDB0059901",
+        "KEGG:C14518",
+        "PMID:10028199",
+        "PMID:11109746",
+        "PMID:1129786",
+        "PMID:22349896",
+        "PMID:23365607",
+        "PMID:9117193",
+        "Reaxys:1903410",
+        "Wikipedia:1,2,3-Trimethylbenzene"
+    ],
+    "geneontology:hasId": "34037",
+    "geneontology:hasSynonym": [
+        "1,2,3-Trimethylbenzene",
+        "hemellitol",
+        "Hemimellitene",
+        "hemimellitol"
+    ],
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#3_STAR"
+    },
+    "rdfs:label": "1,2,3-trimethylbenzene",
+    "rdfs:subClassOf": [
+        {
+            "@id": "obo:CHEBI_38641"
+        },
+        {
+            "@id": "b264_genid-00f1db82e1ab437c844115a94dc63e635-bn34037t11f50910"
+        },
+        {
+            "@id": "b264_genid-00f1db82e1ab437c844115a94dc63e635-bn34037t11f76924"
+        }
+    ]
+}

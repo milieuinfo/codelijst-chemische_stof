@@ -1,0 +1,65 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_5778",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "obo:IAO_0000115": "A benzothiadiazine that is 3,4-dihydro-2H-1,2,4-benzothiadiazine 1,1-dioxide substituted by a chloro group at position 6 and a sulfonamide at 7. It is diuretic used for the treatment of hypertension and congestive heart failure.",
+    "chebi:charge": "0",
+    "chebi:formula": "C7H8ClN3O4S2",
+    "chebi:inchi": "InChI=1S/C7H8ClN3O4S2/c8-4-1-5-7(2-6(4)16(9,12)13)17(14,15)11-3-10-5/h1-2,10-11H,3H2,(H2,9,12,13)",
+    "chebi:inchikey": "JZUFKLXOESDKRF-UHFFFAOYSA-N",
+    "chebi:smiles": "NS(=O)(=O)c1cc2c(NCNS2(=O)=O)cc1Cl",
+    "geneontology:hasDbXref": [
+        "CAS:58-93-5",
+        "Drug_Central:1385",
+        "DrugBank:DB00999",
+        "HMDB:HMDB0001928",
+        "KEGG:C07041",
+        "KEGG:D00340",
+        "LINCS:LSM-5308",
+        "PDBeChem:HCZ",
+        "PMID:24055851",
+        "PMID:24657333",
+        "PMID:24849193",
+        "Reaxys:625101",
+        "Wikipedia:Hydrochlorothiazide"
+    ],
+    "geneontology:hasId": "5778",
+    "geneontology:hasSynonym": [
+        "6-chloro-3,4-dihydro-2H-1,2,4-benzothiadiazine-7-sulfonamide 1,1-dioxide",
+        "Esidrix (TN)",
+        "hidroclorotiazida",
+        "hydrochlorothiazidum"
+    ],
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#3_STAR"
+    },
+    "rdfs:label": "hydrochlorothiazide",
+    "rdfs:subClassOf": [
+        {
+            "@id": "obo:CHEBI_36683"
+        },
+        {
+            "@id": "obo:CHEBI_35358"
+        },
+        {
+            "@id": "obo:CHEBI_50265"
+        },
+        {
+            "@id": "b212_genid-00f1db82e1ab437c844115a94dc63e635-bn5778t11f35498"
+        },
+        {
+            "@id": "b212_genid-00f1db82e1ab437c844115a94dc63e635-bn5778t11f35674"
+        },
+        {
+            "@id": "b212_genid-00f1db82e1ab437c844115a94dc63e635-bn5778t11f35703"
+        },
+        {
+            "@id": "b212_genid-00f1db82e1ab437c844115a94dc63e635-bn5778t11f78298"
+        }
+    ]
+}

@@ -1,0 +1,23 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_167473",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "chebi:charge": "0",
+    "chebi:formula": "C6H12O6",
+    "chebi:inchi": "InChI=1S/C6H12O6/c7-1-2-3(8)4(9)5(10)6(11)12-2/h2-11H,1H2",
+    "chebi:inchikey": "WQZGKKKJIJFFOK-UHFFFAOYSA-N",
+    "chebi:smiles": "O1C(C(O)C(O)C(O)C1O)CO",
+    "geneontology:hasId": "167473",
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#2_STAR"
+    },
+    "rdfs:label": "hexopyranose",
+    "rdfs:subClassOf": {
+        "@id": "obo:CHEBI_18133"
+    }
+}

@@ -1,0 +1,28 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_7070",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "chebi:charge": "0",
+    "chebi:formula": "C4H12N.Cl",
+    "chebi:inchi": "InChI=1S/C4H12N.ClH/c1-5(2,3)4;/h1-4H3;1H/q+1;/p-1",
+    "chebi:inchikey": "OKIZCWYLBDKLSU-UHFFFAOYSA-M",
+    "chebi:smiles": "[Cl-].C[N+](C)(C)C",
+    "geneontology:hasDbXref": [
+        "CAS:75-57-0",
+        "KEGG:C11335"
+    ],
+    "geneontology:hasId": "7070",
+    "geneontology:hasSynonym": "Tetramethylammonium chloride",
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#2_STAR"
+    },
+    "rdfs:label": "N,N,N-Trimethylmethanaminium chloride",
+    "rdfs:subClassOf": {
+        "@id": "obo:CHEBI_50860"
+    }
+}

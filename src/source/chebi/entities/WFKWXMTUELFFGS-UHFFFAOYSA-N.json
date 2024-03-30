@@ -1,0 +1,49 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_27998",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "chebi:charge": "0",
+    "chebi:formula": "W",
+    "chebi:inchi": "InChI=1S/W",
+    "chebi:inchikey": "WFKWXMTUELFFGS-UHFFFAOYSA-N",
+    "chebi:smiles": "[W]",
+    "http://purl.uniprot.org/core/name": "W",
+    "geneontology:hasDbXref": [
+        "CAS:7440-33-7",
+        "Gmelin:16317",
+        "KEGG:C00753",
+        "PDBeChem:W",
+        "WebElements:W"
+    ],
+    "geneontology:hasId": "27998",
+    "geneontology:hasSynonym": [
+        "W",
+        "74W",
+        "Tungsten",
+        "tungsten atom",
+        "tungstene",
+        "tungsteno",
+        "volframio",
+        "wolfram",
+        "Wolfram",
+        "wolframio",
+        "wolframium"
+    ],
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#3_STAR"
+    },
+    "rdfs:label": "tungsten",
+    "rdfs:subClassOf": [
+        {
+            "@id": "obo:CHEBI_33350"
+        },
+        {
+            "@id": "b141_genid-00f1db82e1ab437c844115a94dc63e635-bn27998t11f27027"
+        }
+    ]
+}

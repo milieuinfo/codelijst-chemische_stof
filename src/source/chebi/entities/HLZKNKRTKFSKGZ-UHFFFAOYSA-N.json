@@ -1,0 +1,81 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_77417",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "obo:IAO_0000115": "A long-chain fatty alcohol that is tetradecane substituted by a hydroxy group at position 1.",
+    "chebi:charge": "0",
+    "chebi:formula": "C14H30O",
+    "chebi:inchi": "InChI=1S/C14H30O/c1-2-3-4-5-6-7-8-9-10-11-12-13-14-15/h15H,2-14H2,1H3",
+    "chebi:inchikey": "HLZKNKRTKFSKGZ-UHFFFAOYSA-N",
+    "chebi:smiles": "CCCCCCCCCCCCCCO",
+    "http://purl.uniprot.org/core/name": "tetradecan-1-ol",
+    "geneontology:hasDbXref": [
+        "PMID:21970810",
+        "PMID:29180361",
+        "BPDB:2124",
+        "CAS:112-72-1",
+        "HMDB:HMDB0011638",
+        "KNApSAcK:C00032309",
+        "LIPID_MAPS_instance:LMFA05000041",
+        "MetaCyc:CPD-7875",
+        "PMID:16050993",
+        "PMID:16099484",
+        "PMID:17101015",
+        "PMID:17470028",
+        "PMID:19563290",
+        "PMID:27622757",
+        "PMID:29450150",
+        "PMID:29524598",
+        "PMID:30652935",
+        "PMID:3180775",
+        "PMID:31870865",
+        "PMID:36240575",
+        "PMID:36416567",
+        "PMID:36432063",
+        "PMID:5577442",
+        "PPDB:2124",
+        "Reaxys:1742652",
+        "Wikipedia:1-Tetradecanol"
+    ],
+    "geneontology:hasId": "77417",
+    "geneontology:hasSynonym": [
+        "1-hydroxytetradecane",
+        "1-tetradecanol",
+        "1-tetradecyl alcohol",
+        "myristic alcohol",
+        "myristyl alcohol",
+        "n-tetradecan-1-ol",
+        "n-tetradecanol",
+        "n-tetradecanol-1",
+        "n-tetradecyl alcohol",
+        "tetradecanol",
+        "tetradecanol-1",
+        "tetradecyl alcohol"
+    ],
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#3_STAR"
+    },
+    "rdfs:label": "tetradecan-1-ol",
+    "rdfs:subClassOf": [
+        {
+            "@id": "obo:CHEBI_77396"
+        },
+        {
+            "@id": "b490_genid-00f1db82e1ab437c844115a94dc63e635-bn77417t11f26013"
+        },
+        {
+            "@id": "b490_genid-00f1db82e1ab437c844115a94dc63e635-bn77417t11f27311"
+        },
+        {
+            "@id": "b490_genid-00f1db82e1ab437c844115a94dc63e635-bn77417t11f76924"
+        },
+        {
+            "@id": "obo:CHEBI_195550"
+        }
+    ]
+}

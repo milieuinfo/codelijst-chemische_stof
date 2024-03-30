@@ -1,0 +1,63 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_17153",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "obo:IAO_0000115": "An aldehyde that consists of ethane bearing a formyl substituent. The parent of the class of propanals.",
+    "chebi:charge": "0",
+    "chebi:formula": "C3H6O",
+    "chebi:inchi": "InChI=1S/C3H6O/c1-2-3-4/h3H,2H2,1H3",
+    "chebi:inchikey": "NBBJYMSMWIIQGU-UHFFFAOYSA-N",
+    "chebi:smiles": "[H]C(=O)CC",
+    "http://purl.uniprot.org/core/name": "propanal",
+    "geneontology:hasDbXref": [
+        "CAS:123-38-6",
+        "HMDB:HMDB0003366",
+        "KEGG:C00479",
+        "MetaCyc:CPD-665",
+        "PDBeChem:CBG",
+        "PMID:20097366",
+        "PMID:21568340",
+        "Reaxys:506010",
+        "UM-BBD_compID:c0207",
+        "Wikipedia:Propanal"
+    ],
+    "geneontology:hasId": "17153",
+    "geneontology:hasSynonym": [
+        "1-Propanal",
+        "Aldehyde propionique",
+        "C2H5CHO",
+        "Methylacetaldehyde",
+        "n-Propanal",
+        "n-Propionaldehyde",
+        "Propaldehyde",
+        "Propanal",
+        "Propanaldehyde",
+        "Propional",
+        "propionaldehyde",
+        "Propionaldehyde",
+        "Propionic aldehyde",
+        "Propylaldehyde",
+        "Propyl aldehyde",
+        "Propylic aldehyde"
+    ],
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#3_STAR"
+    },
+    "rdfs:label": "propanal",
+    "rdfs:subClassOf": [
+        {
+            "@id": "obo:CHEBI_73359"
+        },
+        {
+            "@id": "obo:CHEBI_26282"
+        },
+        {
+            "@id": "b28_genid-00f1db82e1ab437c844115a94dc63e635-bn17153t11f76971"
+        }
+    ]
+}

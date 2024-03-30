@@ -1,0 +1,51 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_38588",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "chebi:charge": "0",
+    "chebi:formula": "C10H23O2PS2",
+    "chebi:inchi": "InChI=1S/C10H23O2PS2/c1-6-9(4)14-13(11,12-8-3)15-10(5)7-2/h9-10H,6-8H2,1-5H3",
+    "chebi:inchikey": "KXRPCFINVWWFHQ-UHFFFAOYSA-N",
+    "chebi:smiles": "CCOP(=O)(SC(C)CC)SC(C)CC",
+    "http://purl.uniprot.org/core/name": "cadusafos",
+    "geneontology:hasDbXref": [
+        "CAS:95465-99-9",
+        "KEGG:C18395",
+        "PPDB:106"
+    ],
+    "geneontology:hasId": "38588",
+    "geneontology:hasSynonym": [
+        "Ebufos",
+        "O-ethyl S,S-bis(1-methylpropyl) dithiophosphate",
+        "O-ethyl S,S-bis(butan-2-yl) phosphorodithioate",
+        "O-Ethyl-S,S-di-sec-butylphosphorodithioate",
+        "Phosphorodithioic acid, O-ethyl-, S,S-bis(1-methylpropyl)ester",
+        "S,S-Di-sec-butyl O-ethyl phosphorodithioate"
+    ],
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#3_STAR"
+    },
+    "rdfs:label": "cadusafos",
+    "rdfs:subClassOf": [
+        {
+            "@id": "obo:CHEBI_37512"
+        },
+        {
+            "@id": "obo:CHEBI_25715"
+        },
+        {
+            "@id": "b330_genid-00f1db82e1ab437c844115a94dc63e635-bn38588t11f25491"
+        },
+        {
+            "@id": "b330_genid-00f1db82e1ab437c844115a94dc63e635-bn38588t11f33286"
+        },
+        {
+            "@id": "b330_genid-00f1db82e1ab437c844115a94dc63e635-bn38588t11f38462"
+        }
+    ]
+}

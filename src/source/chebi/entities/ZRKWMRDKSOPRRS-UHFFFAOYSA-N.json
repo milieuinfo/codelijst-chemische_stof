@@ -1,0 +1,73 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_50102",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "obo:IAO_0000115": "A member of the class of N-nitrosoureas that is urea in which one of the nitrogens is substituted by methyl and nitroso groups.",
+    "chebi:charge": "0",
+    "chebi:formula": "C2H5N3O2",
+    "chebi:inchi": "InChI=1S/C2H5N3O2/c1-5(4-7)2(3)6/h1H3,(H2,3,6)",
+    "chebi:inchikey": "ZRKWMRDKSOPRRS-UHFFFAOYSA-N",
+    "chebi:smiles": "CN(N=O)C(N)=O",
+    "geneontology:hasDbXref": [
+        "PMID:8603364",
+        "Beilstein:1756040",
+        "CAS:684-93-5",
+        "KEGG:C14595",
+        "PMID:11479921",
+        "PMID:12767522",
+        "PMID:15990165",
+        "PMID:19181008",
+        "PMID:24441676",
+        "PMID:6243984",
+        "PMID:8098217",
+        "Wikipedia:N-Methyl-N-nitrosourea"
+    ],
+    "geneontology:hasId": "50102",
+    "geneontology:hasSynonym": [
+        "1-(aminocarbonyl)-1-methyl-2-oxohydrazine",
+        "1-methyl-1-nitrosourea",
+        "1-nitroso-1-methylurea",
+        "Methylnitrosoharnstoff",
+        "Methylnitrosourea",
+        "methylnitrosouree",
+        "MNU",
+        "nitrosomethylurea",
+        "N-methyl-N-nitrosocarbamide",
+        "N-Methyl-N-nitrosoharnstoff",
+        "N-Methyl-N-nitrosourea",
+        "N-methyl-N-nitrosouree",
+        "NMH",
+        "NMU",
+        "N-nitrosomethylurea",
+        "N-nitroso-N-methylcarbamide",
+        "N-Nitroso-N-methylharnstoff",
+        "N-nitroso-N-methylurea",
+        "N-nitroso-N-methyluree"
+    ],
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#3_STAR"
+    },
+    "rdfs:label": "N-methyl-N-nitrosourea",
+    "rdfs:subClassOf": [
+        {
+            "@id": "obo:CHEBI_76551"
+        },
+        {
+            "@id": "b384_genid-00f1db82e1ab437c844115a94dc63e635-bn50102t11f22333"
+        },
+        {
+            "@id": "b384_genid-00f1db82e1ab437c844115a94dc63e635-bn50102t11f25435"
+        },
+        {
+            "@id": "b384_genid-00f1db82e1ab437c844115a94dc63e635-bn50102t11f50903"
+        },
+        {
+            "@id": "b384_genid-00f1db82e1ab437c844115a94dc63e635-bn50102t11f50905"
+        }
+    ]
+}

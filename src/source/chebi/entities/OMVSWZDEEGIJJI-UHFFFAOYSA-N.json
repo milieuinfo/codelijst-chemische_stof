@@ -1,0 +1,29 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_89871",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "chebi:charge": "0",
+    "chebi:formula": "C16H30O4",
+    "chebi:inchi": "InChI=1S/C16H30O4/c1-10(2)13(20-15(18)12(5)6)16(7,8)9-19-14(17)11(3)4/h10-13H,9H2,1-8H3",
+    "chebi:inchikey": "OMVSWZDEEGIJJI-UHFFFAOYSA-N",
+    "chebi:smiles": "O=C(OCC(C(OC(=O)C(C)C)C(C)C)(C)C)C(C)C",
+    "geneontology:hasDbXref": [
+        "PMID:22284503",
+        "PMID:23454028",
+        "HMDB:HMDB0059777"
+    ],
+    "geneontology:hasId": "89871",
+    "geneontology:hasSynonym": "2,2,4-trimethyl-1-[(2-methylpropanoyl)oxy]pentan-3-yl 2-methylpropanoate",
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#2_STAR"
+    },
+    "rdfs:label": "2,2,4-Trimethyl-1,3-pentadienol diisobutyrate",
+    "rdfs:subClassOf": {
+        "@id": "obo:CHEBI_51307"
+    }
+}

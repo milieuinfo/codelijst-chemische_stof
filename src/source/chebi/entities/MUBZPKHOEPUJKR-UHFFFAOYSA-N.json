@@ -1,0 +1,70 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_16995",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "obo:IAO_0000115": "An alpha,omega-dicarboxylic acid that is ethane substituted by carboxyl groups at positions 1 and 2.",
+    "chebi:charge": "0",
+    "chebi:formula": "C2H2O4",
+    "chebi:inchi": "InChI=1S/C2H2O4/c3-1(4)2(5)6/h(H,3,4)(H,5,6)",
+    "chebi:inchikey": "MUBZPKHOEPUJKR-UHFFFAOYSA-N",
+    "chebi:smiles": "OC(=O)C(O)=O",
+    "geneontology:hasDbXref": [
+        "PMID:22735334",
+        "Beilstein:385686",
+        "CAS:144-62-7",
+        "DrugBank:DB03902",
+        "Gmelin:2208",
+        "HMDB:HMDB0002329",
+        "KEGG:C00209",
+        "KNApSAcK:C00001198",
+        "LIPID_MAPS_instance:LMFA01170031",
+        "MetaCyc:OXALATE",
+        "PDBeChem:OXD",
+        "PMID:15587083",
+        "Reaxys:385686",
+        "Wikipedia:Oxalic_acid"
+    ],
+    "geneontology:hasId": "16995",
+    "geneontology:hasSynonym": [
+        "Ethandisaeure",
+        "ethane-1,2-dioic acid",
+        "Ethanedioic acid",
+        "H2ox",
+        "HOOCCOOH",
+        "Oxalic acid",
+        "OXALIC ACID",
+        "Oxalsaeure"
+    ],
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#3_STAR"
+    },
+    "rdfs:label": "oxalic acid",
+    "rdfs:subClassOf": [
+        {
+            "@id": "obo:CHEBI_28383"
+        },
+        {
+            "@id": "b573_genid-00f1db82e1ab437c844115a94dc63e635-bn16995tmms73f30623"
+        },
+        {
+            "@id": "b573_genid-00f1db82e1ab437c844115a94dc63e635-bn16995t4f46904"
+        },
+        {
+            "@id": "b573_genid-00f1db82e1ab437c844115a94dc63e635-bn16995t11f76924"
+        },
+        {
+            "@id": "b573_genid-00f1db82e1ab437c844115a94dc63e635-bn16995t11f77746"
+        },
+        {
+            "@id": "b573_genid-00f1db82e1ab437c844115a94dc63e635-bn16995t11f84735"
+        },
+        {
+            "@id": "b573_genid-00f1db82e1ab437c844115a94dc63e635-bn16995t4f132952"
+        }
+    ]
+}

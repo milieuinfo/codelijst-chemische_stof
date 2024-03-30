@@ -1,0 +1,72 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_6964",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "obo:IAO_0000115": "A member of the class of azepanes that is azepane in which the nitrogen is substituted by an (ethylsulfanyl)carbonyl group, -C(=O)SEt. A thiocarbamate herbicide not approved for use in the U.S. or European Union, it is used control grass weeds in rice paddies.",
+    "chebi:charge": "0",
+    "chebi:formula": "C9H17NOS",
+    "chebi:inchi": "InChI=1S/C9H17NOS/c1-2-12-9(11)10-7-5-3-4-6-8-10/h2-8H2,1H3",
+    "chebi:inchikey": "DEDOPGXGGQYYMW-UHFFFAOYSA-N",
+    "chebi:smiles": "C1CN(C(SCC)=O)CCCC1",
+    "geneontology:hasDbXref": [
+        "AGR:IND91023048",
+        "CAS:2212-67-1",
+        "KEGG:C11086",
+        "Pesticides:molinate",
+        "PMID:11452140",
+        "PMID:16380149",
+        "PMID:16417035",
+        "PMID:19545510",
+        "PMID:20862524",
+        "PMID:20954713",
+        "PMID:21216347",
+        "PMID:22456730",
+        "PMID:24193246",
+        "PMID:24928378",
+        "PMID:24946031",
+        "PMID:25636851",
+        "PMID:25905461",
+        "PMID:27421102",
+        "PPDB:473"
+    ],
+    "geneontology:hasId": "6964",
+    "geneontology:hasSynonym": [
+        "ethyl 1-hexamethyleneiminecarbothiolate",
+        "Ordram",
+        "S-ethyl 1-hexamethyleneiminothiocarbamate",
+        "S-ethyl azepane-1-carbothioate",
+        "S-ethyl hexahydro-1H-azepine-1-carbothioate",
+        "S-ethyl hexahydroazepine-1-carbothioate",
+        "S-ethyl N,N-hexamethylenethiocarbamate",
+        "S-ethyl N,N-hexamethylenothiocarbamate",
+        "S-ethyl-N-hexamethylenethiocarbamate",
+        "S-ethyl perhydroazepine-1-carbothioate",
+        "S-ethyl perhydroazepine-1-thiocarboxylate"
+    ],
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#3_STAR"
+    },
+    "rdfs:label": "molinate",
+    "rdfs:subClassOf": [
+        {
+            "@id": "b27_genid-00f1db82e1ab437c844115a94dc63e635-bn6964t11f24527"
+        },
+        {
+            "@id": "b27_genid-00f1db82e1ab437c844115a94dc63e635-bn6964t11f33286"
+        },
+        {
+            "@id": "obo:CHEBI_38128"
+        },
+        {
+            "@id": "obo:CHEBI_46986"
+        },
+        {
+            "@id": "b27_genid-00f1db82e1ab437c844115a94dc63e635-bn6964t11f145047"
+        }
+    ]
+}

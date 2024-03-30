@@ -1,0 +1,32 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_33371",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "chebi:charge": "0",
+    "chebi:formula": "[99Tc]",
+    "chebi:inchi": "InChI=1S/Tc/i1+1",
+    "chebi:inchikey": "GKLVYJBZJHMRIY-OUBTZVSYSA-N",
+    "chebi:smiles": "[99Tc]",
+    "geneontology:hasDbXref": [
+        "CAS:14133-76-7",
+        "Gmelin:41657"
+    ],
+    "geneontology:hasId": "33371",
+    "geneontology:hasSynonym": [
+        "(99)43Tc",
+        "(99)Tc",
+        "technetium, isotope of mass 99"
+    ],
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#3_STAR"
+    },
+    "rdfs:label": "technetium-99",
+    "rdfs:subClassOf": {
+        "@id": "obo:CHEBI_33353"
+    }
+}

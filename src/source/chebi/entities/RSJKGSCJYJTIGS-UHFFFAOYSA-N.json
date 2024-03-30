@@ -1,0 +1,41 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_46342",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "obo:IAO_0000115": "A straight-chain alkane with 11 carbon atoms.",
+    "chebi:charge": "0",
+    "chebi:formula": "C11H24",
+    "chebi:inchi": "InChI=1S/C11H24/c1-3-5-7-9-11-10-8-6-4-2/h3-11H2,1-2H3",
+    "chebi:inchikey": "RSJKGSCJYJTIGS-UHFFFAOYSA-N",
+    "chebi:smiles": "CCCCCCCCCCC",
+    "geneontology:hasDbXref": [
+        "Beilstein:1697099",
+        "CAS:1120-21-4",
+        "Gmelin:142928",
+        "MetaCyc:CPD-9289",
+        "PDBeChem:UND",
+        "Reaxys:1697099",
+        "Wikipedia:Undecane"
+    ],
+    "geneontology:hasId": "46342",
+    "geneontology:hasSynonym": [
+        "CH3-[CH2]9-CH3",
+        "hendecane",
+        "Hendekan",
+        "n-undecane",
+        "UNDECANE",
+        "Undekan"
+    ],
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#3_STAR"
+    },
+    "rdfs:label": "undecane",
+    "rdfs:subClassOf": {
+        "@id": "obo:CHEBI_18310"
+    }
+}

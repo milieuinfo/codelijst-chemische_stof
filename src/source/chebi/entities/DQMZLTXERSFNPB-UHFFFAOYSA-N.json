@@ -1,0 +1,57 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_8412",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "obo:IAO_0000115": "A pyrimidone that is dihydropyrimidine-4,6(1H,5H)-dione substituted by an ethyl and a phenyl group at position 5. It is used as an  anticonvulsant for treatment of various types of seizures.",
+    "chebi:charge": "0",
+    "chebi:formula": "C12H14N2O2",
+    "chebi:inchi": "InChI=1S/C12H14N2O2/c1-2-12(9-6-4-3-5-7-9)10(15)13-8-14-11(12)16/h3-7H,2,8H2,1H3,(H,13,15)(H,14,16)",
+    "chebi:inchikey": "DQMZLTXERSFNPB-UHFFFAOYSA-N",
+    "chebi:smiles": "CCC1(C(=O)NCNC1=O)c1ccccc1",
+    "geneontology:hasDbXref": [
+        "CAS:125-33-7",
+        "Drug_Central:2267",
+        "DrugBank:DB00794",
+        "HMDB:HMDB0014932",
+        "KEGG:C07371",
+        "KEGG:D00474",
+        "LINCS:LSM-2700",
+        "PMID:10716065",
+        "PMID:17253477",
+        "PMID:24712318",
+        "PMID:24812533",
+        "Reaxys:218034",
+        "Wikipedia:Primidone"
+    ],
+    "geneontology:hasId": "8412",
+    "geneontology:hasSynonym": [
+        "2-deoxyphenobarbital",
+        "5-ethyl-5-phenyldihydropyrimidine-4,6(1H,5H)-dione",
+        "5-Phenyl-5-ethyl-Hexahydropyrimidine-4,6-dione",
+        "primidona",
+        "primidonum"
+    ],
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#3_STAR"
+    },
+    "rdfs:label": "primidone",
+    "rdfs:subClassOf": [
+        {
+            "@id": "obo:CHEBI_38337"
+        },
+        {
+            "@id": "b100_genid-00f1db82e1ab437c844115a94dc63e635-bn8412t11f35623"
+        },
+        {
+            "@id": "b100_genid-00f1db82e1ab437c844115a94dc63e635-bn8412t11f35703"
+        },
+        {
+            "@id": "b100_genid-00f1db82e1ab437c844115a94dc63e635-bn8412t11f78298"
+        }
+    ]
+}

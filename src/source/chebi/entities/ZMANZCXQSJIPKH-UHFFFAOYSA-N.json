@@ -1,0 +1,54 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_35026",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "obo:IAO_0000115": "A tertiary amine that is ammonia in which each hydrogen atom is substituted by an ethyl group.",
+    "chebi:charge": "0",
+    "chebi:formula": "C6H15N",
+    "chebi:inchi": "InChI=1S/C6H15N/c1-4-7(5-2)6-3/h4-6H2,1-3H3",
+    "chebi:inchikey": "ZMANZCXQSJIPKH-UHFFFAOYSA-N",
+    "chebi:smiles": "CCN(CC)CC",
+    "geneontology:hasDbXref": [
+        "Beilstein:605283",
+        "CAS:121-44-8",
+        "Gmelin:2455",
+        "HMDB:HMDB0032539",
+        "KEGG:C14691",
+        "MetaCyc:TRIETHYLAMINE",
+        "PDBeChem:TEA",
+        "PMID:24359525",
+        "Reaxys:605283",
+        "Wikipedia:Triethylamine"
+    ],
+    "geneontology:hasId": "35026",
+    "geneontology:hasSynonym": [
+        "TEN",
+        "TEA",
+        "(C2H5)3N",
+        "(diethylamino)ethane",
+        "N,N,N-triethylamine",
+        "N,N-diethylethanamine",
+        "N,N-Diethylethanamine",
+        "NEt3",
+        "Triaethylamin",
+        "Triethylamin",
+        "Triethylamine"
+    ],
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#3_STAR"
+    },
+    "rdfs:label": "triethylamine",
+    "rdfs:subClassOf": [
+        {
+            "@id": "obo:CHEBI_32876"
+        },
+        {
+            "@id": "b157_genid-00f1db82e1ab437c844115a94dc63e635-bn35026tmms73f45791"
+        }
+    ]
+}

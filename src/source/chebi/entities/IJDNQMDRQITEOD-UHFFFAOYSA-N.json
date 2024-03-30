@@ -1,0 +1,55 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_37808",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "obo:IAO_0000115": "A straight chain alkane composed of 4 carbon atoms.",
+    "chebi:charge": "0",
+    "chebi:formula": "C4H10",
+    "chebi:inchi": "InChI=1S/C4H10/c1-3-4-2/h3-4H2,1-2H3",
+    "chebi:inchikey": "IJDNQMDRQITEOD-UHFFFAOYSA-N",
+    "chebi:smiles": "CCCC",
+    "http://purl.uniprot.org/core/name": "butane",
+    "geneontology:hasDbXref": [
+        "PMID:24179026",
+        "Beilstein:969129",
+        "CAS:106-97-8",
+        "Gmelin:1148",
+        "PDBeChem:NBU",
+        "Reaxys:969129",
+        "Wikipedia:Butane"
+    ],
+    "geneontology:hasId": "37808",
+    "geneontology:hasSynonym": [
+        "E943a",
+        "E 943a",
+        "E-943a",
+        "n-Butan",
+        "n-butane",
+        "N-BUTANE",
+        "n-C4H10",
+        "R-600"
+    ],
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#3_STAR"
+    },
+    "rdfs:label": "butane",
+    "rdfs:subClassOf": [
+        {
+            "@id": "obo:CHEBI_18310"
+        },
+        {
+            "@id": "obo:CHEBI_138675"
+        },
+        {
+            "@id": "b616_genid-00f1db82e1ab437c844115a94dc63e635-bn37808t11f78017"
+        },
+        {
+            "@id": "b616_genid-00f1db82e1ab437c844115a94dc63e635-bn37808t11f78433"
+        }
+    ]
+}

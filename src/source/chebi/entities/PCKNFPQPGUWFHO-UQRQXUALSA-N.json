@@ -1,0 +1,24 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_39376",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "chebi:charge": "0",
+    "chebi:formula": "C25H20ClF2N3O3",
+    "chebi:inchi": "InChI=1S/C25H20ClF2N3O3/c26-18-10-8-17(9-11-18)23(16-6-7-16)31-34-14-15-4-12-19(13-5-15)29-25(33)30-24(32)22-20(27)2-1-3-21(22)28/h1-5,8-13,16H,6-7,14H2,(H2,29,30,32,33)/b31-23+",
+    "chebi:inchikey": "PCKNFPQPGUWFHO-UQRQXUALSA-N",
+    "chebi:smiles": "Fc1cccc(F)c1C(=O)NC(=O)Nc1ccc(CO\\N=C(/C2CC2)c2ccc(Cl)cc2)cc1",
+    "geneontology:hasId": "39376",
+    "geneontology:hasSynonym": "N-({4-[({[(1E)-(4-chlorophenyl)(cyclopropyl)methylene]amino}oxy)methyl]phenyl}carbamoyl)-2,6-difluorobenzamide",
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#3_STAR"
+    },
+    "rdfs:label": "(E)-flucycloxuron",
+    "rdfs:subClassOf": {
+        "@id": "obo:CHEBI_39375"
+    }
+}

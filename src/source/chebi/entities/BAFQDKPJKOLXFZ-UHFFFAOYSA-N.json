@@ -1,0 +1,28 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_165199",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "chebi:charge": "0",
+    "chebi:formula": "C8H10NO6P",
+    "chebi:inchi": "InChI=1S/C8H10NO6P/c1-13-16(12,14-2)15-8-5-3-7(4-6-8)9(10)11/h3-6H,1-2H3",
+    "chebi:inchikey": "BAFQDKPJKOLXFZ-UHFFFAOYSA-N",
+    "chebi:smiles": "P(OC1=CC=C([N+]([O-])=O)C=C1)(OC)(OC)=O",
+    "geneontology:hasDbXref": [
+        "CAS:950-35-6",
+        "Chemspider:13114"
+    ],
+    "geneontology:hasId": "165199",
+    "geneontology:hasSynonym": "dimethyl (4-nitrophenyl) phosphate",
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#2_STAR"
+    },
+    "rdfs:label": "Paraoxon-methyl",
+    "rdfs:subClassOf": {
+        "@id": "obo:CHEBI_35716"
+    }
+}

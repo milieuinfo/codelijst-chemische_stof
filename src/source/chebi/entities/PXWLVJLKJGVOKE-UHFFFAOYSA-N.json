@@ -1,0 +1,63 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_135538",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "obo:IAO_0000115": "A pyrazolone derivative that is antipyrine substituted at C-4 by an isopropyl group.",
+    "chebi:charge": "0",
+    "chebi:formula": "C14H18N2O",
+    "chebi:inchi": "InChI=1S/C14H18N2O/c1-10(2)13-11(3)15(4)16(14(13)17)12-8-6-5-7-9-12/h5-10H,1-4H3",
+    "chebi:inchikey": "PXWLVJLKJGVOKE-UHFFFAOYSA-N",
+    "chebi:smiles": "CC(C)c1c(C)n(C)n(-c2ccccc2)c1=O",
+    "geneontology:hasDbXref": [
+        "PMID:3425858",
+        "Beilstein:204533",
+        "CAS:479-92-5",
+        "Drug_Central:2309",
+        "KEGG:D01380",
+        "PMID:12097837",
+        "PMID:21684706",
+        "PMID:23277879",
+        "PMID:25221653",
+        "PMID:26319751",
+        "Reaxys:204533",
+        "Wikipedia:Propyphenazone"
+    ],
+    "geneontology:hasId": "135538",
+    "geneontology:hasSynonym": [
+        "1,5-dimethyl-2-phenyl-4-(propan-2-yl)-1,2-dihydro-3H-pyrazol-3-one",
+        "1-Phenyl-2,3-dimethyl-4-isopropyl-3-pyrazolin-5-one",
+        "1-Phenyl-2,3-dimethyl-4-isopropylpyrazol-5-one",
+        "4-Isopropyl-1,5-dimethyl-2-phenyl-1,2-dihydro-pyrazol-3-one",
+        "4-Isopropylantipyrine",
+        "Isopropylantipyrine",
+        "Isopropylphenazone",
+        "propifenazona",
+        "propyphenazonum"
+    ],
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#3_STAR"
+    },
+    "rdfs:label": "propyphenazone",
+    "rdfs:subClassOf": [
+        {
+            "@id": "obo:CHEBI_83328"
+        },
+        {
+            "@id": "b173_genid-00f1db82e1ab437c844115a94dc63e635-bn135538t8f31225"
+        },
+        {
+            "@id": "b173_genid-00f1db82e1ab437c844115a94dc63e635-bn135538t11f35475"
+        },
+        {
+            "@id": "b173_genid-00f1db82e1ab437c844115a94dc63e635-bn135538t11f35481"
+        },
+        {
+            "@id": "b173_genid-00f1db82e1ab437c844115a94dc63e635-bn135538t11f49110"
+        }
+    ]
+}

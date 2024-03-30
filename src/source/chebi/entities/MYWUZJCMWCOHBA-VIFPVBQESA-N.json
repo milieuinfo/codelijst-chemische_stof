@@ -1,0 +1,115 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_6809",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "obo:IAO_0000115": "A member of the class of amphetamines in which the amino group of (S)-amphetamine carries a methyl substituent.",
+    "chebi:charge": "0",
+    "chebi:formula": "C10H15N",
+    "chebi:inchi": "InChI=1S/C10H15N/c1-9(11-2)8-10-6-4-3-5-7-10/h3-7,9,11H,8H2,1-2H3/t9-/m0/s1",
+    "chebi:inchikey": "MYWUZJCMWCOHBA-VIFPVBQESA-N",
+    "chebi:smiles": "CN[C@@H](C)Cc1ccccc1",
+    "geneontology:hasDbXref": [
+        "PMID:24349338",
+        "Beilstein:2207147",
+        "CAS:537-46-2",
+        "Drug_Central:1732",
+        "DrugBank:DB01577",
+        "HMDB:HMDB0015517",
+        "KEGG:C07164",
+        "KEGG:D08187",
+        "PDBeChem:B40",
+        "PMID:11221576",
+        "PMID:11406298",
+        "PMID:11711870",
+        "PMID:11717374",
+        "PMID:11829406",
+        "PMID:11831503",
+        "PMID:11847428",
+        "PMID:11896153",
+        "PMID:11984857",
+        "PMID:14645148",
+        "PMID:14769818",
+        "PMID:15380623",
+        "PMID:15542724",
+        "PMID:15542728",
+        "PMID:15808793",
+        "PMID:18279499",
+        "PMID:18509037",
+        "PMID:18521756",
+        "PMID:18991860",
+        "PMID:18991862",
+        "PMID:19269222",
+        "PMID:19384581",
+        "PMID:19576287",
+        "PMID:19732271",
+        "PMID:25724762",
+        "PMID:26302754",
+        "PMID:26541330",
+        "PMID:26568405",
+        "PMID:26683901",
+        "PMID:26775284",
+        "PMID:26992824",
+        "PMID:27232669",
+        "Reaxys:2207147",
+        "Wikipedia:Methamphetamine"
+    ],
+    "geneontology:hasId": "6809",
+    "geneontology:hasSynonym": [
+        "(+)-(S)-N-alpha-dimethylphenethylamine",
+        "(2S)-N-methyl-1-phenylpropan-2-amine",
+        "(alphaS)-N,alpha-dimethylbenzeneethanamine",
+        "(S)-N,alpha-dimethylbenzeneethanamine",
+        "d-1-phenyl-2-methylaminopropane",
+        "d-deoxyephedrine",
+        "d-desoxyephedrine",
+        "dextromethamphetamine",
+        "d-N-methylamphetamine",
+        "d-phenylisopropylmethylamine",
+        "metamfetamine",
+        "metamfetaminum",
+        "metanfetamina",
+        "Methamphetamine",
+        "methyl-beta-phenylisopropylamine"
+    ],
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#3_STAR"
+    },
+    "rdfs:label": "methamphetamine",
+    "rdfs:subClassOf": [
+        {
+            "@id": "obo:CHEBI_35338"
+        },
+        {
+            "@id": "obo:CHEBI_32863"
+        },
+        {
+            "@id": "b21_genid-00f1db82e1ab437c844115a94dc63e635-bn6809tmms73f132297"
+        },
+        {
+            "@id": "b21_genid-00f1db82e1ab437c844115a94dc63e635-bn6809t8f4469"
+        },
+        {
+            "@id": "b21_genid-00f1db82e1ab437c844115a94dc63e635-bn6809t11f35337"
+        },
+        {
+            "@id": "b21_genid-00f1db82e1ab437c844115a94dc63e635-bn6809t11f35471"
+        },
+        {
+            "@id": "b21_genid-00f1db82e1ab437c844115a94dc63e635-bn6809t11f35703"
+        },
+        {
+            "@id": "b21_genid-00f1db82e1ab437c844115a94dc63e635-bn6809t11f50910"
+        },
+        {
+            "@id": "b21_genid-00f1db82e1ab437c844115a94dc63e635-bn6809t11f78298"
+        },
+        {
+            "@id": "b21_genid-00f1db82e1ab437c844115a94dc63e635-bn6809t5f132297"
+        }
+    ]
+}

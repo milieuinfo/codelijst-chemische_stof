@@ -1,0 +1,63 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_15997",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "obo:IAO_0000115": "An alkylamine having isobutyl as the alkyl group. It has been isolated from Sambucus nigra (Elderberry).",
+    "chebi:charge": "0",
+    "chebi:formula": "C4H11N",
+    "chebi:inchi": "InChI=1S/C4H11N/c1-4(2)3-5/h4H,3,5H2,1-2H3",
+    "chebi:inchikey": "KDSNLYIMUZNERS-UHFFFAOYSA-N",
+    "chebi:smiles": "C(N)C(C)C",
+    "geneontology:hasDbXref": [
+        "Beilstein:385626",
+        "CAS:78-81-9",
+        "Gmelin:81862",
+        "HMDB:HMDB0034198",
+        "KEGG:C02787",
+        "MetaCyc:CPD-630",
+        "PDBeChem:IBN",
+        "PMID:2620174",
+        "Reaxys:385626",
+        "Wikipedia:Isobutylamine"
+    ],
+    "geneontology:hasId": "15997",
+    "geneontology:hasSynonym": [
+        "1-Amino-2-methylpropane",
+        "2-Methyl-1-Aminopropane",
+        "2-methyl-1-propanamine",
+        "2-Methyl-1-propanamine",
+        "2-Methylpropanamine",
+        "2-Methylpropylamine",
+        "3-Methyl-2-propylamine",
+        "IBA",
+        "I-Butylamine",
+        "Isobutylamine",
+        "iso-Butylamine",
+        "iso-C4H9NH2",
+        "Monoisobutylamine",
+        "Valamine"
+    ],
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#3_STAR"
+    },
+    "rdfs:label": "2-methylpropanamine",
+    "rdfs:subClassOf": [
+        {
+            "@id": "obo:CHEBI_22331"
+        },
+        {
+            "@id": "b229_genid-00f1db82e1ab437c844115a94dc63e635-bn15997tmms73f57601"
+        },
+        {
+            "@id": "b229_genid-00f1db82e1ab437c844115a94dc63e635-bn15997t5f57601"
+        },
+        {
+            "@id": "b229_genid-00f1db82e1ab437c844115a94dc63e635-bn15997t11f76924"
+        }
+    ]
+}

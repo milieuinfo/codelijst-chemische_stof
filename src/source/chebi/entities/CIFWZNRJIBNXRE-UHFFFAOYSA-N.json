@@ -1,0 +1,72 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_6751",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "obo:IAO_0000115": "A member of the class of aminopyrimidines that is N-phenylpyrimidin-2-amine carrying additional methyl and 1-propynyl substituents at positions 4 and 6 respectively. A fungicide used to control a wide range of diseases including grey mould on strawberries, tomatoes and cucumabers, and scab on apples and pears.",
+    "chebi:charge": "0",
+    "chebi:formula": "C14H13N3",
+    "chebi:inchi": "InChI=1S/C14H13N3/c1-3-7-13-10-11(2)15-14(17-13)16-12-8-5-4-6-9-12/h4-6,8-10H,1-2H3,(H,15,16,17)",
+    "chebi:inchikey": "CIFWZNRJIBNXRE-UHFFFAOYSA-N",
+    "chebi:smiles": "CC#Cc1cc(C)nc(Nc2ccccc2)n1",
+    "geneontology:hasDbXref": [
+        "PMID:23436777",
+        "CAS:110235-47-7",
+        "KEGG:C10919",
+        "Patent:NZ548020",
+        "Patent:WO2012011287",
+        "Pesticides:mepanipyrim",
+        "PMID:12619685",
+        "PMID:21047134",
+        "PMID:22562348",
+        "PMID:23285970",
+        "PMID:23410121",
+        "PMID:23887887",
+        "PMID:24432637",
+        "PMID:8987670",
+        "PMID:9779415",
+        "PMID:9779416",
+        "PMID:9850581",
+        "PMID:9882586",
+        "PPDB:435",
+        "Reaxys:8392999"
+    ],
+    "geneontology:hasId": "6751",
+    "geneontology:hasSynonym": [
+        "4-methyl-N-phenyl-6-(1-propynyl)-2-pyrimidinamine",
+        "4-Methyl-N-phenyl-6-(1-propynyl)-2-pyrimidinamine",
+        "N-(4-methyl-6-prop-1-ynylpyrimidin-2-yl)aniline",
+        "N-(4-Methyl-6-prop-1-ynylpyrimidin-2-yl)aniline"
+    ],
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#3_STAR"
+    },
+    "rdfs:label": "mepanipyrim",
+    "rdfs:subClassOf": [
+        {
+            "@id": "obo:CHEBI_38338"
+        },
+        {
+            "@id": "obo:CHEBI_73474"
+        },
+        {
+            "@id": "obo:CHEBI_50995"
+        },
+        {
+            "@id": "obo:CHEBI_87208"
+        },
+        {
+            "@id": "b308_genid-00f1db82e1ab437c844115a94dc63e635-bn6751t11f50908"
+        },
+        {
+            "@id": "b308_genid-00f1db82e1ab437c844115a94dc63e635-bn6751t11f72768"
+        },
+        {
+            "@id": "b308_genid-00f1db82e1ab437c844115a94dc63e635-bn6751t11f86328"
+        }
+    ]
+}

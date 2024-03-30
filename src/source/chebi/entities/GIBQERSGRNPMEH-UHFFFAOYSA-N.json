@@ -1,0 +1,39 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_88873",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "chebi:charge": "0",
+    "chebi:formula": "C15H24",
+    "chebi:inchi": "InChI=1S/C15H24/c1-10(2)13-7-5-11(3)14-8-6-12(4)15(14)9-13/h11-12H,5-9H2,1-4H3",
+    "chebi:inchikey": "GIBQERSGRNPMEH-UHFFFAOYSA-N",
+    "chebi:smiles": "CC(C)=C1CCC(C)C=2CCC(C)C2C1",
+    "geneontology:hasDbXref": [
+        "PMID:24023812",
+        "CAS:88-84-6",
+        "HMDB:HMDB0038157",
+        "KNApSAcK:C00020376"
+    ],
+    "geneontology:hasId": "88873",
+    "geneontology:hasSynonym": [
+        "1,2,3,4,5,6,7,8-Octahydro-1,4-dimethyl-7-(1-methylethylidene)azulene, 9CI",
+        "1,4-dimethyl-7-(propan-2-ylidene)-1,2,3,4,5,6,7,8-octahydroazulene",
+        "beta -cis-guaiene",
+        "beta -guainene",
+        "b-Guaiene",
+        "Cis-beta -guainene",
+        "Guaia-1(5),7(11)-diene",
+        "Guaiene"
+    ],
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#2_STAR"
+    },
+    "rdfs:label": "beta-Guaiene",
+    "rdfs:subClassOf": {
+        "@id": "obo:CHEBI_35189"
+    }
+}

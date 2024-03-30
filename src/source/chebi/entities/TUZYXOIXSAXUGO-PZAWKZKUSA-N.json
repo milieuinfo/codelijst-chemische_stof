@@ -1,0 +1,88 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_63618",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "obo:IAO_0000115": "A carboxylic ester resulting from the formal condensation of (S)-2-methylbutyric acid with the hydroxy group adjacent to the ring junction of (3R,5R)-7-[(1S,2S,6S,8S,8aR)-6,8-dihydroxy-2-methyl-1,2,6,7,8,8a-hexahydronaphthalen-1-yl]-3,5-dihydroxyheptanoic acid. Derived from microbial transformation of mevastatin, pravastatin is a reversible inhibitor of 3-hydroxy-3-methylglutaryl-coenzyme A (HMG-CoA). The sodium salt is used for lowering cholesterol and preventing cardiovascular disease. It is one of the lower potency statins, but has the advantage of fewer side effects compared with lovastatin and simvastatin.",
+    "chebi:charge": "0",
+    "chebi:formula": "C23H36O7",
+    "chebi:inchi": "InChI=1S/C23H36O7/c1-4-13(2)23(29)30-20-11-17(25)9-15-6-5-14(3)19(22(15)20)8-7-16(24)10-18(26)12-21(27)28/h5-6,9,13-14,16-20,22,24-26H,4,7-8,10-12H2,1-3H3,(H,27,28)/t13-,14-,16+,17+,18+,19-,20-,22-/m0/s1",
+    "chebi:inchikey": "TUZYXOIXSAXUGO-PZAWKZKUSA-N",
+    "chebi:smiles": "[H][C@]12[C@H](C[C@H](O)C=C1C=C[C@H](C)[C@@H]2CC[C@@H](O)C[C@@H](O)CC(O)=O)OC(=O)[C@@H](C)CC",
+    "geneontology:hasDbXref": [
+        "DrugBank:DB00175",
+        "HMDB:HMDB0005022",
+        "PMID:21749370",
+        "CAS:81093-37-0",
+        "Drug_Central:2239",
+        "KEGG:C01844",
+        "KEGG:D08410",
+        "KNApSAcK:C00000565",
+        "LINCS:LSM-3347",
+        "PMID:21851379",
+        "PMID:25264019",
+        "Reaxys:4825538",
+        "Wikipedia:Pravastatin"
+    ],
+    "geneontology:hasId": "63618",
+    "geneontology:hasSynonym": [
+        "(+)-(3R,5R)-3,5-dihydroxy-7-[(1S,2S,6S,8S,8aR)-6-hydroxy-2-methyl-8-{[(S)-2-methylbutyryl]oxy}-1,2,6,7,8,8a-hexahydro-1-naphthyl]heptanoic acid",
+        "(3R,5R)-3,5-dihydroxy-7-[(1S,2S,6S,8S,8aR)-6-hydroxy-2-methyl-8-{[(2S)-2-methylbutanoyl]oxy}-1,2,6,7,8,8a-hexahydronaphthalen-1-yl]heptanoic acid",
+        "pravastatina",
+        "pravastatin acid",
+        "pravastatine",
+        "pravastatinum"
+    ],
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#3_STAR"
+    },
+    "rdfs:label": "pravastatin",
+    "rdfs:subClassOf": [
+        {
+            "@id": "obo:CHEBI_35681"
+        },
+        {
+            "@id": "obo:CHEBI_33308"
+        },
+        {
+            "@id": "obo:CHEBI_36785"
+        },
+        {
+            "@id": "obo:CHEBI_35868"
+        },
+        {
+            "@id": "obo:CHEBI_61355"
+        },
+        {
+            "@id": "obo:CHEBI_87633"
+        },
+        {
+            "@id": "b256_genid-00f1db82e1ab437c844115a94dc63e635-bn63618tmms73f63660"
+        },
+        {
+            "@id": "b256_genid-00f1db82e1ab437c844115a94dc63e635-bn63618t11f25212"
+        },
+        {
+            "@id": "b256_genid-00f1db82e1ab437c844115a94dc63e635-bn63618t11f35703"
+        },
+        {
+            "@id": "b256_genid-00f1db82e1ab437c844115a94dc63e635-bn63618t11f35821"
+        },
+        {
+            "@id": "b256_genid-00f1db82e1ab437c844115a94dc63e635-bn63618t8f38655"
+        },
+        {
+            "@id": "b256_genid-00f1db82e1ab437c844115a94dc63e635-bn63618t8f63655"
+        },
+        {
+            "@id": "b256_genid-00f1db82e1ab437c844115a94dc63e635-bn63618t4f63660"
+        },
+        {
+            "@id": "b256_genid-00f1db82e1ab437c844115a94dc63e635-bn63618t11f78298"
+        }
+    ]
+}

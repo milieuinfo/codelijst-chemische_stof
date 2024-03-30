@@ -1,0 +1,67 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_28822",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "obo:IAO_0000115": "A C20 striaght-chain saturated fatty acid which forms a minor constituent of peanut (L. arachis) and corn oils. Used as an organic thin film in the production of liquid crystals for a wide variety of technical applications.",
+    "chebi:charge": "0",
+    "chebi:formula": "C20H40O2",
+    "chebi:inchi": "InChI=1S/C20H40O2/c1-2-3-4-5-6-7-8-9-10-11-12-13-14-15-16-17-18-19-20(21)22/h2-19H2,1H3,(H,21,22)",
+    "chebi:inchikey": "VKOBVWXKNCXXDE-UHFFFAOYSA-N",
+    "chebi:smiles": "CCCCCCCCCCCCCCCCCCCC(O)=O",
+    "geneontology:hasDbXref": [
+        "Beilstein:1788211",
+        "CAS:506-30-9",
+        "Gmelin:854866",
+        "HMDB:HMDB0002212",
+        "KEGG:C06425",
+        "KNApSAcK:C00001209",
+        "LIPID_MAPS_instance:LMFA01010020",
+        "MetaCyc:ARACHIDIC_ACID",
+        "Patent:CN102352348",
+        "Patent:WO2013000382",
+        "PDBeChem:DCR",
+        "PMID:17279692",
+        "PMID:18036601",
+        "PMID:19908738",
+        "Reaxys:1788211",
+        "Wikipedia:Arachidic_acid"
+    ],
+    "geneontology:hasId": "28822",
+    "geneontology:hasSynonym": [
+        "arachic acid",
+        "arachidic acid",
+        "Arachidic acid",
+        "arachidinic acid",
+        "Arachinsaeure",
+        "C20:0",
+        "CH3-[CH2]18-COOH",
+        "eicosanoic acid",
+        "n-eicosanoic acid"
+    ],
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#3_STAR"
+    },
+    "rdfs:label": "icosanoic acid",
+    "rdfs:subClassOf": [
+        {
+            "@id": "obo:CHEBI_15904"
+        },
+        {
+            "@id": "obo:CHEBI_39418"
+        },
+        {
+            "@id": "b433_genid-00f1db82e1ab437c844115a94dc63e635-bn28822tmms73f32360"
+        },
+        {
+            "@id": "b433_genid-00f1db82e1ab437c844115a94dc63e635-bn28822t4f32360"
+        },
+        {
+            "@id": "b433_genid-00f1db82e1ab437c844115a94dc63e635-bn28822t11f76924"
+        }
+    ]
+}

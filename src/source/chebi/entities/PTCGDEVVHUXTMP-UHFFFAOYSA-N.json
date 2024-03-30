@@ -1,0 +1,62 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_81792",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "obo:IAO_0000115": "A member of the class of benzamides, obtained by formal condensation of the carboxy group of 2-(trifluoromethyl)benzoic acid with the amino group of 3-(ispropyloxy)aniline.  A fungicide used to control a range of pathogens especially Rhizoctonia spp. on rice, turf and other crops.",
+    "chebi:charge": "0",
+    "chebi:formula": "C17H16F3NO2",
+    "chebi:inchi": "InChI=1S/C17H16F3NO2/c1-11(2)23-13-7-5-6-12(10-13)21-16(22)14-8-3-4-9-15(14)17(18,19)20/h3-11H,1-2H3,(H,21,22)",
+    "chebi:inchikey": "PTCGDEVVHUXTMP-UHFFFAOYSA-N",
+    "chebi:smiles": "CC(C)Oc1cccc(NC(=O)c2ccccc2C(F)(F)F)c1",
+    "geneontology:hasDbXref": [
+        "CAS:66332-96-5",
+        "KEGG:C18502",
+        "MetaCyc:CPD-15890",
+        "PDBeChem:FTN",
+        "Pesticides:flutolanil",
+        "PMID:21587472",
+        "PPDB:352",
+        "Reaxys:2163858"
+    ],
+    "geneontology:hasId": "81792",
+    "geneontology:hasSynonym": [
+        "3'-isopropoxy-2-trifloromethylbenzoic acid anilide",
+        "alpha,alpha,alpha-trifluoro-3'-isopropoxy-o-toluanilide",
+        "alpha,alpha,alpha-Trifluoro-3'-isopropoxy-o-toluanilide",
+        "Moncut",
+        "N-(3-(1-Methylethoxy)phenyl)-2-(trifluoromethyl)benzamide",
+        "N-(3-isopropoxyphenyl)-2-(trifluoromethyl)benzamide",
+        "N-[3-(propan-2-yloxy)phenyl]-2-(trifluoromethyl)benzamide",
+        "NNF-136",
+        "o-trifluoromethyl-m'-isopropoxybenzoic anilide"
+    ],
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#3_STAR"
+    },
+    "rdfs:label": "flutolanil",
+    "rdfs:subClassOf": [
+        {
+            "@id": "obo:CHEBI_35618"
+        },
+        {
+            "@id": "obo:CHEBI_22702"
+        },
+        {
+            "@id": "obo:CHEBI_83565"
+        },
+        {
+            "@id": "b142_genid-00f1db82e1ab437c844115a94dc63e635-bn81792t11f83072"
+        },
+        {
+            "@id": "b142_genid-00f1db82e1ab437c844115a94dc63e635-bn81792t11f86328"
+        },
+        {
+            "@id": "obo:CHEBI_87018"
+        }
+    ]
+}

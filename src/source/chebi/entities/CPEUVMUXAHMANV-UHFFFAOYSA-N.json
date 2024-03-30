@@ -1,0 +1,75 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_77095",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "obo:IAO_0000115": "A member of the class of mebendazole in which the benzoyl group is replaced by a p-fluorobenzoyl group. A broad-spectrum anthelmintic, it is used, particularly in veterinary medicine, for the treatment of nematodal infections.",
+    "chebi:charge": "0",
+    "chebi:formula": "C16H12FN3O3",
+    "chebi:inchi": "InChI=1S/C16H12FN3O3/c1-23-16(22)20-15-18-12-7-4-10(8-13(12)19-15)14(21)9-2-5-11(17)6-3-9/h2-8H,1H3,(H2,18,19,20,22)",
+    "chebi:inchikey": "CPEUVMUXAHMANV-UHFFFAOYSA-N",
+    "chebi:smiles": "COC(=O)Nc1nc2cc(ccc2[nH]1)C(=O)c1ccc(F)cc1",
+    "geneontology:hasDbXref": [
+        "PMID:6126101",
+        "CAS:31430-15-6",
+        "Drug_Central:1186",
+        "KEGG:D04200",
+        "LINCS:LSM-5916",
+        "Patent:DE2029637",
+        "Patent:US3657267",
+        "PMID:20348394",
+        "PMID:20444026",
+        "PMID:21609260",
+        "PMID:22640491",
+        "PMID:22717022",
+        "PMID:23075539",
+        "PMID:23287076",
+        "PMID:23884106",
+        "PMID:24297155",
+        "PMID:3810656",
+        "PMID:538808",
+        "PMID:7101714",
+        "PMID:7212160",
+        "Reaxys:763480",
+        "Wikipedia:Flubendazole"
+    ],
+    "geneontology:hasId": "77095",
+    "geneontology:hasSynonym": [
+        "(5-(4-fluorobenzoyl)-1H-benzimidazole-2-yl)carbamic acid methyl ester",
+        "flubendazol",
+        "flubendazolum",
+        "methyl [5-(4-fluorobenzoyl)-1H-benzimidazol-2-yl]carbamate",
+        "methyl 5-(p-fluorobenzoyl)-2-benzimidazolecarbamate",
+        "Methyl N-(5-(p-fluorobenzoyl)-2-benzimidazolyl)carbamate",
+        "R 17,889",
+        "R 17899"
+    ],
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#3_STAR"
+    },
+    "rdfs:label": "flubendazole",
+    "rdfs:subClassOf": [
+        {
+            "@id": "obo:CHEBI_76224"
+        },
+        {
+            "@id": "obo:CHEBI_23003"
+        },
+        {
+            "@id": "obo:CHEBI_37143"
+        },
+        {
+            "@id": "obo:CHEBI_22715"
+        },
+        {
+            "@id": "b346_genid-00f1db82e1ab437c844115a94dc63e635-bn77095t11f35444"
+        },
+        {
+            "@id": "b346_genid-00f1db82e1ab437c844115a94dc63e635-bn77095t11f50905"
+        }
+    ]
+}

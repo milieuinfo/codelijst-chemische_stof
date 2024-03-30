@@ -1,0 +1,86 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_87185",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "obo:IAO_0000115": "A carboxamide that is the N-dichloroacetyl derivative of (1R,2S)-2-amino-3-fluoro-1-[4-(methanesulfonyl)phenyl]propan-1-ol. A synthetic veterinary antibiotic that is used for treatment of bovine respiratory disease and foot rot; also used in aquaculture.",
+    "chebi:charge": "0",
+    "chebi:formula": "C12H14Cl2FNO4S",
+    "chebi:inchi": "InChI=1S/C12H14Cl2FNO4S/c1-21(19,20)8-4-2-7(3-5-8)10(17)9(6-15)16-12(18)11(13)14/h2-5,9-11,17H,6H2,1H3,(H,16,18)/t9-,10-/m1/s1",
+    "chebi:inchikey": "AYIRNRDRBQJXIF-NXEZZACHSA-N",
+    "chebi:smiles": "CS(=O)(=O)c1ccc(cc1)[C@@H](O)[C@@H](CF)NC(=O)C(Cl)Cl",
+    "geneontology:hasDbXref": [
+        "CAS:73231-34-2",
+        "KEGG:D04194",
+        "LINCS:LSM-5287",
+        "Patent:EP14437",
+        "Patent:US4235892",
+        "PMID:25287575",
+        "PMID:25395188",
+        "PMID:25567063",
+        "PMID:25572306",
+        "PMID:25612770",
+        "PMID:25614968",
+        "PMID:25618189",
+        "PMID:25623169",
+        "PMID:25675893",
+        "PMID:25686865",
+        "PMID:25706107",
+        "PMID:25723132",
+        "PMID:25744433",
+        "PMID:25771961",
+        "PMID:25827198",
+        "PMID:25830490",
+        "PMID:25886128",
+        "PMID:25886555",
+        "PMID:25891823",
+        "PMID:25913426",
+        "PMID:25973625",
+        "PMID:26025252",
+        "PMID:26049592",
+        "Reaxys:4202553",
+        "VSDB:1777",
+        "Wikipedia:Florfenicol"
+    ],
+    "geneontology:hasId": "87185",
+    "geneontology:hasSynonym": [
+        "(-)-Florfenicol",
+        "2,2-dichloro-N-{(1R,2S)-3-fluoro-1-hydroxy-1-[4-(methanesulfonyl)phenyl]propan-2-yl}acetamide",
+        "D-threo-2,2-Dichloro-N-(alpha-(fluoromethyl)-beta-hydroxy-p-(methylsulfonyl)phenethyl)acetamide",
+        "Nuflor",
+        "Nuflor gold",
+        "Sch 25298",
+        "Sch-25298"
+    ],
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#3_STAR"
+    },
+    "rdfs:label": "florfenicol",
+    "rdfs:subClassOf": [
+        {
+            "@id": "obo:CHEBI_35681"
+        },
+        {
+            "@id": "obo:CHEBI_36683"
+        },
+        {
+            "@id": "obo:CHEBI_37143"
+        },
+        {
+            "@id": "obo:CHEBI_140325"
+        },
+        {
+            "@id": "obo:CHEBI_35850"
+        },
+        {
+            "@id": "b92_genid-00f1db82e1ab437c844115a94dc63e635-bn87185t11f33281"
+        },
+        {
+            "@id": "b92_genid-00f1db82e1ab437c844115a94dc63e635-bn87185t8f36386"
+        }
+    ]
+}

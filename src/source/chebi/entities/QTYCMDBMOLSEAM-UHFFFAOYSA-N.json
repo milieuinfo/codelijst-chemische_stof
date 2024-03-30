@@ -1,0 +1,63 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_81770",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "obo:IAO_0000115": "A member of the class of cyclopentanols carrying 1,2,4-triazol-1-ylmethyl, 4-chlorobenzyl and isopropyl substituents at positions 1, 2 and 5 respectively. Used to control a range of seed diseases in rice, vegetables and other, mainly non-food, crops.",
+    "chebi:charge": "0",
+    "chebi:formula": "C18H24ClN3O",
+    "chebi:inchi": "InChI=1S/C18H24ClN3O/c1-13(2)17-8-5-15(9-14-3-6-16(19)7-4-14)18(17,23)10-22-12-20-11-21-22/h3-4,6-7,11-13,15,17,23H,5,8-10H2,1-2H3",
+    "chebi:inchikey": "QTYCMDBMOLSEAM-UHFFFAOYSA-N",
+    "chebi:smiles": "CC(C)C1CCC(Cc2ccc(Cl)cc2)C1(O)Cn1cncn1",
+    "geneontology:hasDbXref": [
+        "CAS:125225-28-7",
+        "KEGG:C18471",
+        "Patent:AU2010277783",
+        "Patent:EP2265122",
+        "Patent:EP2289320",
+        "Patent:WO2012035670",
+        "Pesticides:ipconazole",
+        "PPDB:1140",
+        "Reaxys:11288948"
+    ],
+    "geneontology:hasId": "81770",
+    "geneontology:hasSynonym": [
+        "2-((4-chlorophenyl)methyl)-5-(1-methylethyl)-1-(1H-1,2,4-triazol-1-ylmethyl)cyclopentanol",
+        "2-(4-chlorobenzyl)-5-isopropyl-1-(1H-1,2,4-triazol-1-ylmethyl)cyclopentanol",
+        "2-[(4-chlorophenyl)methyl]-5-(1-methylethyl)-1-(1H-1,2,4-triazol-1-ylmethyl)cyclopentanol"
+    ],
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#3_STAR"
+    },
+    "rdfs:label": "ipconazole",
+    "rdfs:subClassOf": [
+        {
+            "@id": "obo:CHEBI_26878"
+        },
+        {
+            "@id": "obo:CHEBI_35727"
+        },
+        {
+            "@id": "obo:CHEBI_83403"
+        },
+        {
+            "@id": "obo:CHEBI_87100"
+        },
+        {
+            "@id": "obo:CHEBI_87067"
+        },
+        {
+            "@id": "obo:CHEBI_23495"
+        },
+        {
+            "@id": "b293_genid-00f1db82e1ab437c844115a94dc63e635-bn81770t11f77884"
+        },
+        {
+            "@id": "b293_genid-00f1db82e1ab437c844115a94dc63e635-bn81770t11f86328"
+        }
+    ]
+}

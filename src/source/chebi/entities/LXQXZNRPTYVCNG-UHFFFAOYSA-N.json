@@ -1,0 +1,40 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_33389",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "chebi:charge": "0",
+    "chebi:formula": "Am",
+    "chebi:inchi": "InChI=1S/Am",
+    "chebi:inchikey": "LXQXZNRPTYVCNG-UHFFFAOYSA-N",
+    "chebi:smiles": "[Am]",
+    "geneontology:hasDbXref": [
+        "CAS:7440-35-9",
+        "WebElements:Am"
+    ],
+    "geneontology:hasId": "33389",
+    "geneontology:hasSynonym": [
+        "Am",
+        "95Am",
+        "americio",
+        "americium",
+        "Americium",
+        "Amerizium"
+    ],
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#3_STAR"
+    },
+    "rdfs:label": "americium atom",
+    "rdfs:subClassOf": [
+        {
+            "@id": "obo:CHEBI_33320"
+        },
+        {
+            "@id": "obo:CHEBI_33562"
+        }
+    ]
+}

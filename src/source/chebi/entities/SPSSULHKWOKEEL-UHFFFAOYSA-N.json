@@ -1,0 +1,61 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_46053",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "obo:IAO_0000115": "A trinitrotoluene having the nitro groups at positions 2, 4 and 6.",
+    "chebi:charge": "0",
+    "chebi:formula": "C7H5N3O6",
+    "chebi:inchi": "InChI=1S/C7H5N3O6/c1-4-6(9(13)14)2-5(8(11)12)3-7(4)10(15)16/h2-3H,1H3",
+    "chebi:inchikey": "SPSSULHKWOKEEL-UHFFFAOYSA-N",
+    "chebi:smiles": "Cc1c(cc(cc1[N+]([O-])=O)[N+]([O-])=O)[N+]([O-])=O",
+    "geneontology:hasDbXref": [
+        "PMID:20219247",
+        "Beilstein:1887900",
+        "CAS:118-96-7",
+        "DrugBank:DB01676",
+        "KEGG:C16391",
+        "PDBeChem:TNL",
+        "PMID:19427119",
+        "PMID:28845964",
+        "Reaxys:1887900",
+        "Wikipedia:Trinitrotoluene"
+    ],
+    "geneontology:hasId": "46053",
+    "geneontology:hasSynonym": [
+        "trinitrotoluene",
+        "1-methyl-2,4,6-trinitrobenzene",
+        "2,4,6-TNT",
+        "2,4,6-Trinitrotoluene",
+        "2,4,6-Trinitrotoluol",
+        "2-methyl-1,3,5-trinitrobenzene",
+        "alpha-TNT",
+        "s-trinitrotoluene",
+        "s-Trinitrotoluol",
+        "sym-Trinitrotoluol",
+        "TNT",
+        "Trinitrotoluen",
+        "Trinitrotoluol",
+        "Tritol",
+        "Trotyl"
+    ],
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#3_STAR"
+    },
+    "rdfs:label": "2,4,6-trinitrotoluene",
+    "rdfs:subClassOf": [
+        {
+            "@id": "obo:CHEBI_27135"
+        },
+        {
+            "@id": "b198_genid-00f1db82e1ab437c844115a94dc63e635-bn46053t8f48113"
+        },
+        {
+            "@id": "b198_genid-00f1db82e1ab437c844115a94dc63e635-bn46053t11f63490"
+        }
+    ]
+}

@@ -1,0 +1,74 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@graph": [
+        {
+            "@id": "obo:CHEBI_18291",
+            "@type": "http://www.w3.org/2002/07/owl#Class",
+            "chebi:charge": "0",
+            "chebi:formula": "Mn",
+            "chebi:inchi": "InChI=1S/Mn",
+            "chebi:inchikey": "PWHULOQIROXLJO-UHFFFAOYSA-N",
+            "chebi:smiles": "[Mn]",
+            "http://purl.uniprot.org/core/name": "Mn",
+            "geneontology:hasDbXref": [
+                "CAS:7439-96-5",
+                "KEGG:C00034",
+                "WebElements:Mn"
+            ],
+            "geneontology:hasId": "18291",
+            "geneontology:hasSynonym": [
+                "Mn",
+                "25Mn",
+                "Mangan",
+                "manganese",
+                "Manganese",
+                "manganeso",
+                "manganum"
+            ],
+            "geneontology:inSubset": {
+                "@id": "obo:chebi#3_STAR"
+            },
+            "rdfs:label": "manganese atom",
+            "rdfs:subClassOf": [
+                {
+                    "@id": "b153_genid-00f1db82e1ab437c844115a94dc63e635-bn18291t11f27027"
+                },
+                {
+                    "@id": "obo:CHEBI_33352"
+                },
+                {
+                    "@id": "b153_genid-00f1db82e1ab437c844115a94dc63e635-bn18291t11f76971"
+                }
+            ]
+        },
+        {
+            "@id": "obo:CHEBI_35154",
+            "@type": "http://www.w3.org/2002/07/owl#Class",
+            "chebi:charge": "0",
+            "chebi:formula": "Mn",
+            "chebi:inchi": "InChI=1S/Mn",
+            "chebi:inchikey": "PWHULOQIROXLJO-UHFFFAOYSA-N",
+            "chebi:smiles": "[Mn]",
+            "geneontology:hasDbXref": "CAS:7439-96-5",
+            "geneontology:hasId": "35154",
+            "geneontology:hasSynonym": [
+                "manganese",
+                "colloidal manganese",
+                "Mn(0)",
+                "Mnn"
+            ],
+            "geneontology:inSubset": {
+                "@id": "obo:chebi#3_STAR"
+            },
+            "rdfs:label": "manganese(0)",
+            "rdfs:subClassOf": {
+                "@id": "obo:CHEBI_35115"
+            }
+        }
+    ]
+}

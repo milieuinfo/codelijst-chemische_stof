@@ -1,0 +1,97 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_3567",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "obo:IAO_0000115": "The organic bromide salt that is the bromide salt of cetyltrimethylammonium; one of the components of the topical antiseptic cetrimide.",
+    "chebi:charge": "0",
+    "chebi:inchi": "InChI=1S/C19H42N.BrH/c1-5-6-7-8-9-10-11-12-13-14-15-16-17-18-19-20(2,3)4;/h5-19H2,1-4H3;1H/q+1;/p-1",
+    "chebi:inchikey": "LZZYPRNAOMGNLH-UHFFFAOYSA-M",
+    "chebi:smiles": "[Br-].CCCCCCCCCCCCCCCC[N+](C)(C)C",
+    "geneontology:hasDbXref": [
+        "PMID:7526642",
+        "Beilstein:3598189",
+        "CAS:57-09-0",
+        "DrugBank:DB01718",
+        "Gmelin:156228",
+        "KEGG:C11275",
+        "KEGG:D03454",
+        "MetaCyc:CTAB",
+        "PMID:10669577",
+        "PMID:12127527",
+        "PMID:15149689",
+        "PMID:15916434",
+        "PMID:16658142",
+        "PMID:17145794",
+        "PMID:17284452",
+        "PMID:17294516",
+        "PMID:18298942",
+        "PMID:19382783",
+        "PMID:23219565",
+        "PMID:23618346",
+        "PMID:23792315",
+        "PMID:23981419",
+        "PMID:6196640",
+        "PMID:7381846",
+        "PMID:9056367",
+        "PMID:9357523",
+        "PPDB:126",
+        "Reaxys:3598189",
+        "VSDB:126",
+        "Wikipedia:Cetrimonium_bromide"
+    ],
+    "geneontology:hasId": "3567",
+    "geneontology:hasSynonym": [
+        "Cetrimide",
+        "Bromat",
+        "Bromure de cetrimonium",
+        "Bromuro de cetrimonio",
+        "Cee dee",
+        "Centimide",
+        "Cetab",
+        "cetrimide",
+        "Cetrimonii bromidum",
+        "Cetrimonium bromide",
+        "Cetyltrimethylammonium bromide",
+        "Cetyl trimethyl ammonium bromide",
+        "CTAB",
+        "Ctmab",
+        "Hexadecyl-trimethyl-ammonium; bromide",
+        "hexadecyltrimethylammonium bromide",
+        "N,N,N-Trimethyl-1-hexadecanaminium bromide",
+        "N,N,N-Trimethylcetylammonium bromide",
+        "N,N,N-trimethylhexadecan-1-aminium bromide",
+        "N-Cetyltrimethylammonium bromide",
+        "N-Hexadecyl-N,N,N-trimethylammonium bromide",
+        "n-Hexadecyltrimethylammonium bromide",
+        "N-Hexadecyltrimethylammonium bromide",
+        "Palmityltrimethyl ammonium bromide",
+        "Trimethylcetylammonium bromide",
+        "Trimethylhexadecylammonium bromide"
+    ],
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#3_STAR"
+    },
+    "rdfs:label": "cetyltrimethylammonium bromide",
+    "rdfs:subClassOf": [
+        {
+            "@id": "obo:CHEBI_35273"
+        },
+        {
+            "@id": "obo:CHEBI_48369"
+        },
+        {
+            "@id": "b486_genid-00f1db82e1ab437c844115a94dc63e635-bn3567t11f27780"
+        },
+        {
+            "@id": "b486_genid-00f1db82e1ab437c844115a94dc63e635-bn3567t11f35195"
+        },
+        {
+            "@id": "b486_genid-00f1db82e1ab437c844115a94dc63e635-bn3567t10f39561"
+        }
+    ]
+}

@@ -1,0 +1,38 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_34758",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "chebi:charge": "0",
+    "chebi:formula": "C9H7Cl3O3",
+    "chebi:inchi": "InChI=1S/C9H7Cl3O3/c1-4(9(13)14)15-8-3-6(11)5(10)2-7(8)12/h2-4H,1H3,(H,13,14)",
+    "chebi:inchikey": "ZLSWBLPERHFHIS-UHFFFAOYSA-N",
+    "chebi:smiles": "CC(Oc1cc(Cl)c(Cl)cc1Cl)C(O)=O",
+    "geneontology:hasDbXref": [
+        "CAS:93-72-1",
+        "KEGG:C14532",
+        "PPDB:300"
+    ],
+    "geneontology:hasId": "34758",
+    "geneontology:hasSynonym": [
+        "2,4,5-TP",
+        "2-(2,4,5-Trichlorophenoxy)propionic acid",
+        "Silvex"
+    ],
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#2_STAR"
+    },
+    "rdfs:label": "Fenoprop",
+    "rdfs:subClassOf": [
+        {
+            "@id": "obo:CHEBI_25384"
+        },
+        {
+            "@id": "b155_genid-00f1db82e1ab437c844115a94dc63e635-bn34758t11f60575"
+        }
+    ]
+}

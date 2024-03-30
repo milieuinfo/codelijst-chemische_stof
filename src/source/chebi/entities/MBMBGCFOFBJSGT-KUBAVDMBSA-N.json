@@ -1,0 +1,88 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_28125",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "obo:IAO_0000115": "A docosahexaenoic acid having six cis-double bonds at positions 4, 7, 10, 13, 16 and 19.",
+    "chebi:charge": "0",
+    "chebi:formula": "C22H32O2",
+    "chebi:inchi": "InChI=1S/C22H32O2/c1-2-3-4-5-6-7-8-9-10-11-12-13-14-15-16-17-18-19-20-21-22(23)24/h3-4,6-7,9-10,12-13,15-16,18-19H,2,5,8,11,14,17,20-21H2,1H3,(H,23,24)/b4-3-,7-6-,10-9-,13-12-,16-15-,19-18-",
+    "chebi:inchikey": "MBMBGCFOFBJSGT-KUBAVDMBSA-N",
+    "chebi:smiles": "C(\\C/C=C\\C/C=C\\C/C=C\\CC)=C\\C/C=C\\C/C=C\\CCC(=O)O",
+    "geneontology:hasDbXref": [
+        "Beilstein:1715505",
+        "CAS:6217-54-5",
+        "Drug_Central:4289",
+        "DrugBank:DB03756",
+        "HMDB:HMDB0002183",
+        "KEGG:C06429",
+        "LIPID_MAPS_instance:LMFA01030185",
+        "MetaCyc:CPD-10244",
+        "PDBeChem:HXA",
+        "PMID:12359365",
+        "PMID:12538082",
+        "PMID:17291553",
+        "PMID:18072818",
+        "PMID:18220672",
+        "PMID:21045096",
+        "Reaxys:1715505",
+        "Wikipedia:Docosahexaenoic_acid"
+    ],
+    "geneontology:hasId": "28125",
+    "geneontology:hasSynonym": [
+        "DHA",
+        "(4Z,7Z,10Z,13Z,16Z,19Z)-docosa-4,7,10,13,16,19-hexaenoic acid",
+        "(4Z,7Z,10Z,13Z,16Z,19Z)-Docosahexaenoic acid",
+        "22:6(n-3)",
+        "22:6-4, 7,10,13,16,19",
+        "4,7,10,13,16,19-docosahexaenoic acid",
+        "4,7,10,13,16,19-Docosahexaenoic acid",
+        "all-cis-4,7,10,13,16,19-docosahexaenoic acid",
+        "all-cis-DHA",
+        "cervonic acid",
+        "Doconexent",
+        "docosa-4,7,10,13,16,19-hexaenoic acid",
+        "DOCOSA-4,7,10,13,16,19-HEXAENOIC ACID",
+        "Docosahexaenoic acid"
+    ],
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#3_STAR"
+    },
+    "rdfs:label": "all-cis-docosa-4,7,10,13,16,19-hexaenoic acid",
+    "rdfs:subClassOf": [
+        {
+            "@id": "obo:CHEBI_25681"
+        },
+        {
+            "@id": "b492_genid-00f1db82e1ab437c844115a94dc63e635-bn28125tmms73f77016"
+        },
+        {
+            "@id": "b492_genid-00f1db82e1ab437c844115a94dc63e635-bn28125t11f35610"
+        },
+        {
+            "@id": "obo:CHEBI_36005"
+        },
+        {
+            "@id": "b492_genid-00f1db82e1ab437c844115a94dc63e635-bn28125t11f50733"
+        },
+        {
+            "@id": "b492_genid-00f1db82e1ab437c844115a94dc63e635-bn28125t11f75771"
+        },
+        {
+            "@id": "b492_genid-00f1db82e1ab437c844115a94dc63e635-bn28125t4f77016"
+        },
+        {
+            "@id": "b492_genid-00f1db82e1ab437c844115a94dc63e635-bn28125t11f77746"
+        },
+        {
+            "@id": "b492_genid-00f1db82e1ab437c844115a94dc63e635-bn28125t11f83146"
+        },
+        {
+            "@id": "b492_genid-00f1db82e1ab437c844115a94dc63e635-bn28125t11f84735"
+        }
+    ]
+}

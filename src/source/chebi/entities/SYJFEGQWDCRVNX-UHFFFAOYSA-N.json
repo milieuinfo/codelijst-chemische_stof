@@ -1,0 +1,49 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_64163",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "obo:IAO_0000115": "The organic cation formed formally by addition of an ethylene bridge between the nitrogen atoms of 2,2'-bipyridine. Most often available as the dibromide.",
+    "chebi:charge": "+2",
+    "chebi:formula": "C12H12N2",
+    "chebi:inchi": "InChI=1S/C12H12N2/c1-3-7-13-9-10-14-8-4-2-6-12(14)11(13)5-1/h1-8H,9-10H2/q+2",
+    "chebi:inchikey": "SYJFEGQWDCRVNX-UHFFFAOYSA-N",
+    "chebi:smiles": "C1C[n+]2ccccc2-c2cccc[n+]12",
+    "geneontology:hasDbXref": [
+        "CAS:2764-72-9",
+        "KEGG:C18577",
+        "PPDB:1541",
+        "Reaxys:3670526",
+        "Wikipedia:Diquat"
+    ],
+    "geneontology:hasId": "64163",
+    "geneontology:hasSynonym": [
+        "1,1'-Ethylene-2,2'-bipyridyldylium ion",
+        "1,1'-Ethylene-2,2'-bipyridylium ion",
+        "6,7-dihydrodipyrido[1,2-a:2',1'-c]pyrazinediium",
+        "9,10-Dihydro-8a,10a-diazoniaphenanthrene",
+        "Diquat dication"
+    ],
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#3_STAR"
+    },
+    "rdfs:label": "diquat",
+    "rdfs:subClassOf": [
+        {
+            "@id": "obo:CHEBI_25697"
+        },
+        {
+            "@id": "b242_genid-00f1db82e1ab437c844115a94dc63e635-bn64163t11f23582"
+        },
+        {
+            "@id": "b242_genid-00f1db82e1ab437c844115a94dc63e635-bn64163t11f24527"
+        },
+        {
+            "@id": "b242_genid-00f1db82e1ab437c844115a94dc63e635-bn64163t9f30351"
+        }
+    ]
+}

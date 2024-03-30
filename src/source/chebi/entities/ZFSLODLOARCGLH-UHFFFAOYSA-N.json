@@ -1,0 +1,112 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@graph": [
+        {
+            "@id": "obo:CHEBI_17696",
+            "@type": "http://www.w3.org/2002/07/owl#Class",
+            "obo:IAO_0000115": "The keto tautomer of cyanuric acid.",
+            "chebi:charge": "0",
+            "chebi:formula": "C3H3N3O3",
+            "chebi:inchi": "InChI=1S/C3H3N3O3/c7-1-4-2(8)6-3(9)5-1/h(H3,4,5,6,7,8,9)",
+            "chebi:inchikey": "ZFSLODLOARCGLH-UHFFFAOYSA-N",
+            "chebi:smiles": "O=c1[nH]c(=O)[nH]c(=O)[nH]1",
+            "geneontology:hasDbXref": [
+                "CAS:108-80-5",
+                "Beilstein:126982",
+                "Gmelin:101413",
+                "MetaCyc:CYANURIC-ACID",
+                "Patent:CN101830859",
+                "PMID:15909931",
+                "Reaxys:126982"
+            ],
+            "geneontology:hasId": "17696",
+            "geneontology:hasSynonym": [
+                "1,3,5-triazinane-2,4,6-trione",
+                "1,3,5-triazine-2,4,6(1H,3H,5H)-trione",
+                "Isocyanursaeure",
+                "Isozyanursaeure",
+                "s-triazine-2,4,6-trione"
+            ],
+            "geneontology:inSubset": {
+                "@id": "obo:chebi#3_STAR"
+            },
+            "rdfs:label": "isocyanuric acid",
+            "rdfs:subClassOf": [
+                {
+                    "@id": "b125_genid-00f1db82e1ab437c844115a94dc63e635-bn17696t11f35703"
+                },
+                {
+                    "@id": "b125_genid-00f1db82e1ab437c844115a94dc63e635-bn17696t7f38028"
+                },
+                {
+                    "@id": "obo:CHEBI_38779"
+                }
+            ]
+        },
+        {
+            "@id": "obo:CHEBI_38028",
+            "@type": "http://www.w3.org/2002/07/owl#Class",
+            "obo:IAO_0000115": "The enol tautomer of isocyanuric acid.",
+            "chebi:charge": "0",
+            "chebi:formula": "C3H3N3O3",
+            "chebi:inchi": "InChI=1S/C3H3N3O3/c7-1-4-2(8)6-3(9)5-1/h(H3,4,5,6,7,8,9)",
+            "chebi:inchikey": "ZFSLODLOARCGLH-UHFFFAOYSA-N",
+            "chebi:smiles": "Oc1nc(O)nc(O)n1",
+            "http://purl.uniprot.org/core/name": "cyanurate",
+            "geneontology:hasDbXref": [
+                "CAS:108-80-5",
+                "Beilstein:607755",
+                "CAS:504-19-8",
+                "Gmelin:217836",
+                "HMDB:HMDB0041861",
+                "KEGG:C06554",
+                "PMID:24304959",
+                "PMID:24418618",
+                "PMID:25818466",
+                "Reaxys:607755",
+                "UM-BBD_compID:c0163",
+                "Wikipedia:Cyanuric_acid"
+            ],
+            "geneontology:hasId": "38028",
+            "geneontology:hasSynonym": [
+                "cyanurate",
+                "1,3,5-Triazin-2,4,6-triol",
+                "1,3,5-triazine-2,4,6-triol",
+                "2,4,6-trihydroxy-1,3,5-triazine",
+                "Cyanuric acid",
+                "Cyanursaeure",
+                "s-2,4,6-triazinetriol",
+                "s-triazine-2,4,6-triol",
+                "sym-triazine-2,4,6-triol",
+                "sym-triazinetriol",
+                "triazine-2,4,6-triol",
+                "tricyanic acid",
+                "trihydroxycyanidine",
+                "Zyanursaeure"
+            ],
+            "geneontology:inSubset": {
+                "@id": "obo:chebi#3_STAR"
+            },
+            "rdfs:label": "cyanuric acid",
+            "rdfs:subClassOf": [
+                {
+                    "@id": "obo:CHEBI_26588"
+                },
+                {
+                    "@id": "obo:CHEBI_74818"
+                },
+                {
+                    "@id": "b125_genid-00f1db82e1ab437c844115a94dc63e635-bn38028t7f17696"
+                },
+                {
+                    "@id": "b125_genid-00f1db82e1ab437c844115a94dc63e635-bn38028t11f35703"
+                }
+            ]
+        }
+    ]
+}

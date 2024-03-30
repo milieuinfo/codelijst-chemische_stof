@@ -1,0 +1,46 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_3245",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "obo:IAO_0000115": "An acrylate ester obtained by the formal condensation of the hydroxy group of  butan-1-ol with the carboxy group of  acrylic acid.",
+    "chebi:charge": "0",
+    "chebi:formula": "C7H12O2",
+    "chebi:inchi": "InChI=1S/C7H12O2/c1-3-5-6-9-7(8)4-2/h4H,2-3,5-6H2,1H3",
+    "chebi:inchikey": "CQEYYJKEWSMYFG-UHFFFAOYSA-N",
+    "chebi:smiles": "CCCCOC(=O)C=C",
+    "geneontology:hasDbXref": [
+        "CAS:141-32-2",
+        "KEGG:C10921",
+        "PMID:23970461",
+        "PMID:24415829",
+        "Reaxys:1749970"
+    ],
+    "geneontology:hasId": "3245",
+    "geneontology:hasSynonym": [
+        "Acrylic acid butyl ester",
+        "Butyl acrylate",
+        "butyl prop-2-enoate",
+        "n-Butyl acrylate",
+        "n-Butyl propenoate"
+    ],
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#3_STAR"
+    },
+    "rdfs:label": "butyl acrylate",
+    "rdfs:subClassOf": [
+        {
+            "@id": "b350_genid-00f1db82e1ab437c844115a94dc63e635-bn3245t8f18308"
+        },
+        {
+            "@id": "b350_genid-00f1db82e1ab437c844115a94dc63e635-bn3245t8f28885"
+        },
+        {
+            "@id": "obo:CHEBI_50424"
+        }
+    ]
+}

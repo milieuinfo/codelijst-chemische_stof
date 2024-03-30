@@ -1,0 +1,31 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_34320",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "chebi:charge": "0",
+    "chebi:formula": "C14H16N2",
+    "chebi:inchi": "InChI=1S/C14H16N2/c1-9-7-11(3-5-13(9)15)12-4-6-14(16)10(2)8-12/h3-8H,15-16H2,1-2H3",
+    "chebi:inchikey": "NUIURNJTPRWVAP-UHFFFAOYSA-N",
+    "chebi:smiles": "Cc1cc(ccc1N)-c1ccc(N)c(C)c1",
+    "geneontology:hasDbXref": [
+        "CAS:119-93-7",
+        "KEGG:C14443"
+    ],
+    "geneontology:hasId": "34320",
+    "geneontology:hasSynonym": [
+        "3,3'-Dimethyl-4,4'-diaminobiphenyl",
+        "o-Tolidine"
+    ],
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#2_STAR"
+    },
+    "rdfs:label": "3,3'-Dimethylbenzidine",
+    "rdfs:subClassOf": {
+        "@id": "obo:CHEBI_22888"
+    }
+}

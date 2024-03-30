@@ -1,0 +1,64 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_6009",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "chebi:charge": "0",
+    "chebi:formula": "C15H24NO4PS",
+    "chebi:inchi": "InChI=1S/C15H24NO4PS/c1-6-18-21(22,16-11(2)3)20-14-10-8-7-9-13(14)15(17)19-12(4)5/h7-12H,6H2,1-5H3,(H,16,22)",
+    "chebi:inchikey": "HOQADATXFBOEGG-UHFFFAOYSA-N",
+    "chebi:smiles": "CCOP(=S)(NC(C)C)Oc1ccccc1C(=O)OC(C)C",
+    "geneontology:hasDbXref": [
+        "Beilstein:2949615",
+        "CAS:25311-71-1",
+        "KEGG:C11002",
+        "PPDB:406"
+    ],
+    "geneontology:hasId": "6009",
+    "geneontology:hasSynonym": [
+        "1-methylethyl-2-((ethoxy((1-methylethyl)amino)phosphinothioyl)oxy) benzoate",
+        "1-methylethyl 2-({ethoxy[(1-methylethyl)amino]phosphorothioyl}oxy)benzoate",
+        "2-[[ethoxy[(1-methylethyl)amino]phosphinothioyl]oxy]benzoic acid 1-methylethyl ester",
+        "Isofenphos",
+        "isophenphos",
+        "isopropyl 2-{[ethoxy(isopropylamino)phosphorothioyl]oxy}benzoate",
+        "isopropylsalicylate, O-ester with O-ethyl isopropylphosphoramidothioate",
+        "O-ethyl O-(2-isopropoxycarbonyl)phenyl isopropylphosphoramidothioate",
+        "Oftanol",
+        "propan-2-yl 2-({ethoxy[(propan-2-yl)amino]phosphorothioyl}oxy)benzoate"
+    ],
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#3_STAR"
+    },
+    "rdfs:label": "isofenphos",
+    "rdfs:subClassOf": [
+        {
+            "@id": "obo:CHEBI_25715"
+        },
+        {
+            "@id": "obo:CHEBI_35725"
+        },
+        {
+            "@id": "obo:CHEBI_26596"
+        },
+        {
+            "@id": "b509_genid-00f1db82e1ab437c844115a94dc63e635-bn6009t11f33286"
+        },
+        {
+            "@id": "obo:CHEBI_37592"
+        },
+        {
+            "@id": "obo:CHEBI_37735"
+        },
+        {
+            "@id": "b509_genid-00f1db82e1ab437c844115a94dc63e635-bn6009t11f38462"
+        },
+        {
+            "@id": "b509_genid-00f1db82e1ab437c844115a94dc63e635-bn6009t8f38703"
+        }
+    ]
+}

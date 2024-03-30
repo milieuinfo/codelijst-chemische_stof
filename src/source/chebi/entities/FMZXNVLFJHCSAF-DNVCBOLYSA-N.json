@@ -1,0 +1,27 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_95345",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "chebi:charge": "0",
+    "chebi:formula": "C20H18N4O5S2",
+    "chebi:inchi": "InChI=1S/C20H18N4O5S2/c21-17(26)11-3-5-23(6-4-11)9-12-10-31-19-15(18(27)24(19)16(12)20(28)29)22-14(25)8-13-2-1-7-30-13/h1-7,15,19H,8-10H2,(H3-,21,22,25,26,28,29)/t15-,19-/m1/s1",
+    "chebi:inchikey": "FMZXNVLFJHCSAF-DNVCBOLYSA-N",
+    "chebi:smiles": "C1C(=C(N2[C@H](S1)[C@@H](C2=O)NC(=O)CC3=CC=CS3)C(=O)[O-])C[N+]4=CC=C(C=C4)C(=O)N",
+    "geneontology:hasDbXref": [
+        "LINCS:LSM-6717",
+        "VSDB:1792"
+    ],
+    "geneontology:hasId": "95345",
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#2_STAR"
+    },
+    "rdfs:label": "(6R,7R)-3-[(4-carbamoyl-1-pyridin-1-iumyl)methyl]-8-oxo-7-[(1-oxo-2-thiophen-2-ylethyl)amino]-5-thia-1-azabicyclo[4.2.0]oct-2-ene-2-carboxylate",
+    "rdfs:subClassOf": {
+        "@id": "obo:CHEBI_23066"
+    }
+}

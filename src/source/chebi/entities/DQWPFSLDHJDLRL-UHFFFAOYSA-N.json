@@ -1,0 +1,48 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_45927",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "obo:IAO_0000115": "A trialkyl phosphate that is the triethy ester derivative of  phosphoric acid.",
+    "chebi:charge": "0",
+    "chebi:formula": "C6H15O4P",
+    "chebi:inchi": "InChI=1S/C6H15O4P/c1-4-8-11(7,9-5-2)10-6-3/h4-6H2,1-3H3",
+    "chebi:inchikey": "DQWPFSLDHJDLRL-UHFFFAOYSA-N",
+    "chebi:smiles": "CCOP(=O)(OCC)OCC",
+    "geneontology:hasDbXref": [
+        "AGR:IND500700835",
+        "Beilstein:1705772",
+        "CAS:78-40-0",
+        "DrugBank:DB03347",
+        "MetaCyc:CPD-3703",
+        "PDBeChem:TEN",
+        "Reaxys:1705772",
+        "Wikipedia:Triethyl_phosphate"
+    ],
+    "geneontology:hasId": "45927",
+    "geneontology:hasSynonym": [
+        "Ethyl phosphate",
+        "o-Phosphoric acid triethyl ester",
+        "TEP",
+        "Triethoxyphosphine oxide",
+        "Triethylphosphate",
+        "TRIETHYL PHOSPHATE",
+        "Tris(ethyl) phosphate"
+    ],
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#3_STAR"
+    },
+    "rdfs:label": "triethyl phosphate",
+    "rdfs:subClassOf": [
+        {
+            "@id": "obo:CHEBI_37562"
+        },
+        {
+            "@id": "b101_genid-00f1db82e1ab437c844115a94dc63e635-bn45927t8f16236"
+        }
+    ]
+}

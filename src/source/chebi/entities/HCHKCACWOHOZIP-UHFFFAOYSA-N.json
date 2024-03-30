@@ -1,0 +1,75 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@graph": [
+        {
+            "@id": "obo:CHEBI_27363",
+            "@type": "http://www.w3.org/2002/07/owl#Class",
+            "chebi:charge": "0",
+            "chebi:formula": "Zn",
+            "chebi:inchi": "InChI=1S/Zn",
+            "chebi:inchikey": "HCHKCACWOHOZIP-UHFFFAOYSA-N",
+            "chebi:smiles": "[Zn]",
+            "geneontology:hasDbXref": [
+                "CAS:7440-66-6",
+                "Gmelin:16321",
+                "KEGG:C00038",
+                "PDBeChem:ZN",
+                "WebElements:Zn"
+            ],
+            "geneontology:hasId": "27363",
+            "geneontology:hasSynonym": [
+                "Zn",
+                "30Zn",
+                "cinc",
+                "zinc",
+                "zincum",
+                "Zink",
+                "Zn(II)",
+                "Zn2+"
+            ],
+            "geneontology:inSubset": {
+                "@id": "obo:chebi#3_STAR"
+            },
+            "rdfs:label": "zinc atom",
+            "rdfs:subClassOf": [
+                {
+                    "@id": "obo:CHEBI_33340"
+                },
+                {
+                    "@id": "b428_genid-00f1db82e1ab437c844115a94dc63e635-bn27363t11f27027"
+                }
+            ]
+        },
+        {
+            "@id": "obo:CHEBI_30185",
+            "@type": "http://www.w3.org/2002/07/owl#Class",
+            "chebi:charge": "0",
+            "chebi:formula": "Zn",
+            "chebi:inchi": "InChI=1S/Zn",
+            "chebi:inchikey": "HCHKCACWOHOZIP-UHFFFAOYSA-N",
+            "chebi:smiles": "[Zn]",
+            "geneontology:hasDbXref": [
+                "CAS:7440-66-6",
+                "DrugBank:DB01593"
+            ],
+            "geneontology:hasId": "30185",
+            "geneontology:hasSynonym": [
+                "zinc",
+                "Zn(0)",
+                "Znn"
+            ],
+            "geneontology:inSubset": {
+                "@id": "obo:chebi#3_STAR"
+            },
+            "rdfs:label": "zinc(0)",
+            "rdfs:subClassOf": {
+                "@id": "obo:CHEBI_37253"
+            }
+        }
+    ]
+}

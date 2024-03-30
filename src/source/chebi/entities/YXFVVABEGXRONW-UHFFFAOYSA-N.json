@@ -1,0 +1,109 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_17578",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "obo:IAO_0000115": "The simplest member of the class toluenes consisting of a benzene core which bears a single methyl substituent.",
+    "chebi:charge": "0",
+    "chebi:formula": "C7H8",
+    "chebi:inchi": "InChI=1S/C7H8/c1-7-5-3-2-4-6-7/h2-6H,1H3",
+    "chebi:inchikey": "YXFVVABEGXRONW-UHFFFAOYSA-N",
+    "chebi:smiles": "Cc1ccccc1",
+    "http://purl.uniprot.org/core/name": "toluene",
+    "geneontology:hasDbXref": [
+        "Beilstein:635760",
+        "CAS:108-88-3",
+        "DrugBank:DB01900",
+        "Gmelin:2456",
+        "KEGG:C01455",
+        "PDBeChem:MBN",
+        "PMID:11182169",
+        "PMID:11314682",
+        "PMID:11846266",
+        "PMID:11991009",
+        "PMID:12062755",
+        "PMID:12213539",
+        "PMID:12237258",
+        "PMID:12784113",
+        "PMID:12876426",
+        "PMID:14512097",
+        "PMID:14559343",
+        "PMID:14605898",
+        "PMID:15015825",
+        "PMID:15019953",
+        "PMID:15119846",
+        "PMID:15193425",
+        "PMID:15542760",
+        "PMID:15567510",
+        "PMID:15695158",
+        "PMID:15796064",
+        "PMID:16316648",
+        "PMID:16348226",
+        "PMID:16601996",
+        "PMID:17145141",
+        "PMID:17175136",
+        "PMID:17497535",
+        "PMID:17725881",
+        "PMID:18397809",
+        "PMID:18832024",
+        "PMID:19261054",
+        "PMID:19384711",
+        "PMID:19429395",
+        "PMID:19635754",
+        "PMID:19765629",
+        "PMID:19825861",
+        "PMID:19928203",
+        "PMID:19969016",
+        "PMID:20347282",
+        "PMID:20837561",
+        "PMID:21430649",
+        "PMID:21655021",
+        "PMID:21731073",
+        "PMID:21802510",
+        "PMID:21840036",
+        "Reaxys:635760",
+        "UM-BBD_compID:c0114",
+        "Wikipedia:Toluene"
+    ],
+    "geneontology:hasId": "17578",
+    "geneontology:hasSynonym": [
+        "toluene",
+        "methylbenzene",
+        "phenylmethane",
+        "Toluen",
+        "Toluene",
+        "TOLUENE",
+        "Toluol"
+    ],
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#3_STAR"
+    },
+    "rdfs:label": "toluene",
+    "rdfs:subClassOf": [
+        {
+            "@id": "obo:CHEBI_134179"
+        },
+        {
+            "@id": "obo:CHEBI_27024"
+        },
+        {
+            "@id": "obo:CHEBI_38975"
+        },
+        {
+            "@id": "b436_genid-00f1db82e1ab437c844115a94dc63e635-bn17578t11f48355"
+        },
+        {
+            "@id": "b436_genid-00f1db82e1ab437c844115a94dc63e635-bn17578t11f48873"
+        },
+        {
+            "@id": "b436_genid-00f1db82e1ab437c844115a94dc63e635-bn17578t11f50910"
+        },
+        {
+            "@id": "b436_genid-00f1db82e1ab437c844115a94dc63e635-bn17578t11f62803"
+        }
+    ]
+}

@@ -1,0 +1,50 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_89263",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "chebi:charge": "0",
+    "chebi:formula": "C10H14",
+    "chebi:inchi": "InChI=1S/C10H14/c1-8(2)10-7-5-4-6-9(10)3/h4-8H,1-3H3",
+    "chebi:inchikey": "WWRCMNKATXZARA-UHFFFAOYSA-N",
+    "chebi:smiles": "CC(C)C1=CC=CC=C1C",
+    "geneontology:hasDbXref": [
+        "PMID:19167006",
+        "PMID:24023812",
+        "PMID:24657864",
+        "CAS:527-84-4",
+        "HMDB:HMDB0037050",
+        "KNApSAcK:C00010974",
+        "PMID:19772730",
+        "PMID:3979538"
+    ],
+    "geneontology:hasId": "89263",
+    "geneontology:hasSynonym": [
+        "1-(1-Methylethyl)-2-methylbenzene",
+        "1-Methyl,2-N-isopropylbenzene",
+        "1-Methyl-2-(1-methylethyl)-benzene",
+        "1-Methyl-2-(1-methylethyl)-Benzene",
+        "1-Methyl-2-(1-methylethyl)benzene, 9CI",
+        "1-methyl-2-(propan-2-yl)benzene",
+        "1-Methyl-2-isopropylbenzene",
+        "1-Methyl-2-isopropylbenzol",
+        "2-Isopropyltoluene",
+        "Cymene, ortho",
+        "O-Cymene",
+        "O-Cymol",
+        "O-Isopropyltoluene",
+        "O-Mentha-1,3,5-triene",
+        "Ortho-cymene"
+    ],
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#2_STAR"
+    },
+    "rdfs:label": "1-Isopropyl-2-methylbenzene",
+    "rdfs:subClassOf": {
+        "@id": "obo:CHEBI_38976"
+    }
+}

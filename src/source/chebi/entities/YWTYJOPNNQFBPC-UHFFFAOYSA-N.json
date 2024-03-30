@@ -1,0 +1,418 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@graph": [
+        {
+            "@id": "obo:CHEBI_39168",
+            "@type": "http://www.w3.org/2002/07/owl#Class",
+            "obo:IAO_0000115": "The E-isomer of imidacloprid.",
+            "chebi:charge": "0",
+            "chebi:formula": "C9H10ClN5O2",
+            "chebi:inchi": "InChI=1S/C9H10ClN5O2/c10-8-2-1-7(5-12-8)6-14-4-3-11-9(14)13-15(16)17/h1-2,5H,3-4,6H2,(H,11,13)",
+            "chebi:inchikey": "YWTYJOPNNQFBPC-UHFFFAOYSA-N",
+            "chebi:smiles": "[O-][N+](=O)\\N=C1/NCCN1CC1=CC=C(Cl)N=C1",
+            "geneontology:hasDbXref": [
+                "CAS:138261-41-3",
+                "KEGG:C11110",
+                "Pesticides:imidacloprid",
+                "Beilstein:8069674",
+                "PDBeChem:IM4",
+                "PMID:18338186",
+                "PMID:18477694",
+                "PMID:25267717",
+                "PPDB:397",
+                "VSDB:397"
+            ],
+            "geneontology:hasId": "39168",
+            "geneontology:hasSynonym": "(2E)-1-[(6-chloropyridin-3-yl)methyl]-N-nitroimidazolidin-2-imine",
+            "geneontology:inSubset": {
+                "@id": "obo:chebi#3_STAR"
+            },
+            "rdfs:label": "(E)-imidacloprid",
+            "rdfs:subClassOf": {
+                "@id": "obo:CHEBI_5870",
+                "@type": "http://www.w3.org/2002/07/owl#Class",
+                "obo:IAO_0000115": "An imidazolidine that is N-nitroimidazolidin-2-imine bearing a (6-chloro-3-pyridinyl)methyl substituent at position 1.",
+                "chebi:charge": "0",
+                "chebi:formula": "C9H10ClN5O2",
+                "chebi:inchi": "InChI=1S/C9H10ClN5O2/c10-8-2-1-7(5-12-8)6-14-4-3-11-9(14)13-15(16)17/h1-2,5H,3-4,6H2,(H,11,13)",
+                "chebi:inchikey": "YWTYJOPNNQFBPC-UHFFFAOYSA-N",
+                "chebi:smiles": "[O-][N+](=O)N=C1NCCN1Cc1ccc(Cl)nc1",
+                "geneontology:hasDbXref": [
+                    "Beilstein:5444268",
+                    "CAS:105827-78-9",
+                    "CAS:138261-41-3",
+                    "KEGG:C11110",
+                    "Patent:EP192060",
+                    "Patent:US4742060",
+                    "Pesticides:imidacloprid",
+                    "PMID:11502148",
+                    "PMID:11673842",
+                    "PMID:11699773",
+                    "PMID:11872245",
+                    "PMID:12146171",
+                    "PMID:12720336",
+                    "PMID:14690387",
+                    "PMID:14747770",
+                    "PMID:15154510",
+                    "PMID:15212911",
+                    "PMID:15246549",
+                    "PMID:15922528",
+                    "PMID:16156564",
+                    "PMID:16160767",
+                    "PMID:16406588",
+                    "PMID:16453147",
+                    "PMID:16539142",
+                    "PMID:16690142",
+                    "PMID:16845714",
+                    "PMID:18069649",
+                    "PMID:18188485",
+                    "PMID:18190949",
+                    "PMID:18348816",
+                    "PMID:18924117",
+                    "PMID:18973940",
+                    "PMID:18977458",
+                    "PMID:19916392",
+                    "PMID:19962320",
+                    "PMID:22022787",
+                    "PMID:22083888",
+                    "PMID:22119037",
+                    "PMID:22200056",
+                    "PMID:22224401",
+                    "PMID:22228315",
+                    "PMID:22290795",
+                    "PMID:22370410",
+                    "PMID:22375594",
+                    "PMID:22375595",
+                    "PMID:22395200",
+                    "PMID:22398690",
+                    "PMID:22420257",
+                    "PMID:22447470",
+                    "PMID:22459587",
+                    "PMID:22461500",
+                    "PMID:24515672",
+                    "PMID:25155403",
+                    "PMID:25314907",
+                    "PMID:25342464",
+                    "PMID:25467410",
+                    "PMID:25492586",
+                    "PMID:25557105",
+                    "PMID:25597673",
+                    "PMID:25607931",
+                    "PMID:25612154",
+                    "PMID:25618634",
+                    "PMID:25666568",
+                    "PMID:25755197",
+                    "PMID:25799432",
+                    "PMID:25826181",
+                    "PMID:25837412",
+                    "PMID:25840341",
+                    "PMID:34634905",
+                    "Reaxys:5444268",
+                    "Wikipedia:Imidacloprid"
+                ],
+                "geneontology:hasId": "5870",
+                "geneontology:hasSynonym": [
+                    "1-((6-chloro-3-pyridinyl)methyl)-N-nitro-2-imidazolidinimine",
+                    "1-((6-chloro-3-pyridyl)methyl)-N-nitro-2-imidazolidinimine",
+                    "1-[(6-chloropyridin-3-yl)methyl]-N-nitroimidazolidin-2-imine",
+                    "IMD",
+                    "Imidacloprid"
+                ],
+                "geneontology:inSubset": {
+                    "@id": "obo:chebi#3_STAR"
+                },
+                "rdfs:label": "imidacloprid",
+                "rdfs:subClassOf": [
+                    {
+                        "@id": "obo:CHEBI_38261"
+                    },
+                    {
+                        "@id": "b458_genid-00f1db82e1ab437c844115a94dc63e635-bn5870t11f25540"
+                    },
+                    {
+                        "@id": "b458_genid-00f1db82e1ab437c844115a94dc63e635-bn5870t11f35703"
+                    },
+                    {
+                        "@id": "obo:CHEBI_39172"
+                    },
+                    {
+                        "@id": "b458_genid-00f1db82e1ab437c844115a94dc63e635-bn5870t8f39174"
+                    },
+                    {
+                        "@id": "b458_genid-00f1db82e1ab437c844115a94dc63e635-bn5870t11f47958"
+                    },
+                    {
+                        "@id": "b458_genid-00f1db82e1ab437c844115a94dc63e635-bn5870t11f50902"
+                    },
+                    {
+                        "@id": "b458_genid-00f1db82e1ab437c844115a94dc63e635-bn5870t11f78298"
+                    }
+                ]
+            }
+        },
+        {
+            "@id": "obo:CHEBI_39169",
+            "@type": "http://www.w3.org/2002/07/owl#Class",
+            "obo:IAO_0000115": "The Z-isomer of imidacloprid.",
+            "chebi:charge": "0",
+            "chebi:formula": "C9H10ClN5O2",
+            "chebi:inchi": "InChI=1S/C9H10ClN5O2/c10-8-2-1-7(5-12-8)6-14-4-3-11-9(14)13-15(16)17/h1-2,5H,3-4,6H2,(H,11,13)",
+            "chebi:inchikey": "YWTYJOPNNQFBPC-UHFFFAOYSA-N",
+            "chebi:smiles": "[O-][N+](=O)\\N=C1\\NCCN1Cc1ccc(Cl)nc1",
+            "geneontology:hasDbXref": "Beilstein:8323128",
+            "geneontology:hasId": "39169",
+            "geneontology:hasSynonym": "(2Z)-1-[(6-chloropyridin-3-yl)methyl]-N-nitroimidazolidin-2-imine",
+            "geneontology:inSubset": {
+                "@id": "obo:chebi#3_STAR"
+            },
+            "rdfs:label": "(Z)-imidacloprid",
+            "rdfs:subClassOf": {
+                "@id": "obo:CHEBI_5870",
+                "@type": "http://www.w3.org/2002/07/owl#Class",
+                "obo:IAO_0000115": "An imidazolidine that is N-nitroimidazolidin-2-imine bearing a (6-chloro-3-pyridinyl)methyl substituent at position 1.",
+                "chebi:charge": "0",
+                "chebi:formula": "C9H10ClN5O2",
+                "chebi:inchi": "InChI=1S/C9H10ClN5O2/c10-8-2-1-7(5-12-8)6-14-4-3-11-9(14)13-15(16)17/h1-2,5H,3-4,6H2,(H,11,13)",
+                "chebi:inchikey": "YWTYJOPNNQFBPC-UHFFFAOYSA-N",
+                "chebi:smiles": "[O-][N+](=O)N=C1NCCN1Cc1ccc(Cl)nc1",
+                "geneontology:hasDbXref": [
+                    "Beilstein:5444268",
+                    "CAS:105827-78-9",
+                    "CAS:138261-41-3",
+                    "KEGG:C11110",
+                    "Patent:EP192060",
+                    "Patent:US4742060",
+                    "Pesticides:imidacloprid",
+                    "PMID:11502148",
+                    "PMID:11673842",
+                    "PMID:11699773",
+                    "PMID:11872245",
+                    "PMID:12146171",
+                    "PMID:12720336",
+                    "PMID:14690387",
+                    "PMID:14747770",
+                    "PMID:15154510",
+                    "PMID:15212911",
+                    "PMID:15246549",
+                    "PMID:15922528",
+                    "PMID:16156564",
+                    "PMID:16160767",
+                    "PMID:16406588",
+                    "PMID:16453147",
+                    "PMID:16539142",
+                    "PMID:16690142",
+                    "PMID:16845714",
+                    "PMID:18069649",
+                    "PMID:18188485",
+                    "PMID:18190949",
+                    "PMID:18348816",
+                    "PMID:18924117",
+                    "PMID:18973940",
+                    "PMID:18977458",
+                    "PMID:19916392",
+                    "PMID:19962320",
+                    "PMID:22022787",
+                    "PMID:22083888",
+                    "PMID:22119037",
+                    "PMID:22200056",
+                    "PMID:22224401",
+                    "PMID:22228315",
+                    "PMID:22290795",
+                    "PMID:22370410",
+                    "PMID:22375594",
+                    "PMID:22375595",
+                    "PMID:22395200",
+                    "PMID:22398690",
+                    "PMID:22420257",
+                    "PMID:22447470",
+                    "PMID:22459587",
+                    "PMID:22461500",
+                    "PMID:24515672",
+                    "PMID:25155403",
+                    "PMID:25314907",
+                    "PMID:25342464",
+                    "PMID:25467410",
+                    "PMID:25492586",
+                    "PMID:25557105",
+                    "PMID:25597673",
+                    "PMID:25607931",
+                    "PMID:25612154",
+                    "PMID:25618634",
+                    "PMID:25666568",
+                    "PMID:25755197",
+                    "PMID:25799432",
+                    "PMID:25826181",
+                    "PMID:25837412",
+                    "PMID:25840341",
+                    "PMID:34634905",
+                    "Reaxys:5444268",
+                    "Wikipedia:Imidacloprid"
+                ],
+                "geneontology:hasId": "5870",
+                "geneontology:hasSynonym": [
+                    "1-((6-chloro-3-pyridinyl)methyl)-N-nitro-2-imidazolidinimine",
+                    "1-((6-chloro-3-pyridyl)methyl)-N-nitro-2-imidazolidinimine",
+                    "1-[(6-chloropyridin-3-yl)methyl]-N-nitroimidazolidin-2-imine",
+                    "IMD",
+                    "Imidacloprid"
+                ],
+                "geneontology:inSubset": {
+                    "@id": "obo:chebi#3_STAR"
+                },
+                "rdfs:label": "imidacloprid",
+                "rdfs:subClassOf": [
+                    {
+                        "@id": "obo:CHEBI_38261"
+                    },
+                    {
+                        "@id": "b458_genid-00f1db82e1ab437c844115a94dc63e635-bn5870t11f25540"
+                    },
+                    {
+                        "@id": "b458_genid-00f1db82e1ab437c844115a94dc63e635-bn5870t11f35703"
+                    },
+                    {
+                        "@id": "obo:CHEBI_39172"
+                    },
+                    {
+                        "@id": "b458_genid-00f1db82e1ab437c844115a94dc63e635-bn5870t8f39174"
+                    },
+                    {
+                        "@id": "b458_genid-00f1db82e1ab437c844115a94dc63e635-bn5870t11f47958"
+                    },
+                    {
+                        "@id": "b458_genid-00f1db82e1ab437c844115a94dc63e635-bn5870t11f50902"
+                    },
+                    {
+                        "@id": "b458_genid-00f1db82e1ab437c844115a94dc63e635-bn5870t11f78298"
+                    }
+                ]
+            }
+        },
+        {
+            "@id": "obo:CHEBI_5870",
+            "@type": "http://www.w3.org/2002/07/owl#Class",
+            "obo:IAO_0000115": "An imidazolidine that is N-nitroimidazolidin-2-imine bearing a (6-chloro-3-pyridinyl)methyl substituent at position 1.",
+            "chebi:charge": "0",
+            "chebi:formula": "C9H10ClN5O2",
+            "chebi:inchi": "InChI=1S/C9H10ClN5O2/c10-8-2-1-7(5-12-8)6-14-4-3-11-9(14)13-15(16)17/h1-2,5H,3-4,6H2,(H,11,13)",
+            "chebi:inchikey": "YWTYJOPNNQFBPC-UHFFFAOYSA-N",
+            "chebi:smiles": "[O-][N+](=O)N=C1NCCN1Cc1ccc(Cl)nc1",
+            "geneontology:hasDbXref": [
+                "Beilstein:5444268",
+                "CAS:105827-78-9",
+                "CAS:138261-41-3",
+                "KEGG:C11110",
+                "Patent:EP192060",
+                "Patent:US4742060",
+                "Pesticides:imidacloprid",
+                "PMID:11502148",
+                "PMID:11673842",
+                "PMID:11699773",
+                "PMID:11872245",
+                "PMID:12146171",
+                "PMID:12720336",
+                "PMID:14690387",
+                "PMID:14747770",
+                "PMID:15154510",
+                "PMID:15212911",
+                "PMID:15246549",
+                "PMID:15922528",
+                "PMID:16156564",
+                "PMID:16160767",
+                "PMID:16406588",
+                "PMID:16453147",
+                "PMID:16539142",
+                "PMID:16690142",
+                "PMID:16845714",
+                "PMID:18069649",
+                "PMID:18188485",
+                "PMID:18190949",
+                "PMID:18348816",
+                "PMID:18924117",
+                "PMID:18973940",
+                "PMID:18977458",
+                "PMID:19916392",
+                "PMID:19962320",
+                "PMID:22022787",
+                "PMID:22083888",
+                "PMID:22119037",
+                "PMID:22200056",
+                "PMID:22224401",
+                "PMID:22228315",
+                "PMID:22290795",
+                "PMID:22370410",
+                "PMID:22375594",
+                "PMID:22375595",
+                "PMID:22395200",
+                "PMID:22398690",
+                "PMID:22420257",
+                "PMID:22447470",
+                "PMID:22459587",
+                "PMID:22461500",
+                "PMID:24515672",
+                "PMID:25155403",
+                "PMID:25314907",
+                "PMID:25342464",
+                "PMID:25467410",
+                "PMID:25492586",
+                "PMID:25557105",
+                "PMID:25597673",
+                "PMID:25607931",
+                "PMID:25612154",
+                "PMID:25618634",
+                "PMID:25666568",
+                "PMID:25755197",
+                "PMID:25799432",
+                "PMID:25826181",
+                "PMID:25837412",
+                "PMID:25840341",
+                "PMID:34634905",
+                "Reaxys:5444268",
+                "Wikipedia:Imidacloprid"
+            ],
+            "geneontology:hasId": "5870",
+            "geneontology:hasSynonym": [
+                "1-((6-chloro-3-pyridinyl)methyl)-N-nitro-2-imidazolidinimine",
+                "1-((6-chloro-3-pyridyl)methyl)-N-nitro-2-imidazolidinimine",
+                "1-[(6-chloropyridin-3-yl)methyl]-N-nitroimidazolidin-2-imine",
+                "IMD",
+                "Imidacloprid"
+            ],
+            "geneontology:inSubset": {
+                "@id": "obo:chebi#3_STAR"
+            },
+            "rdfs:label": "imidacloprid",
+            "rdfs:subClassOf": [
+                {
+                    "@id": "obo:CHEBI_38261"
+                },
+                {
+                    "@id": "b458_genid-00f1db82e1ab437c844115a94dc63e635-bn5870t11f25540"
+                },
+                {
+                    "@id": "b458_genid-00f1db82e1ab437c844115a94dc63e635-bn5870t11f35703"
+                },
+                {
+                    "@id": "obo:CHEBI_39172"
+                },
+                {
+                    "@id": "b458_genid-00f1db82e1ab437c844115a94dc63e635-bn5870t8f39174"
+                },
+                {
+                    "@id": "b458_genid-00f1db82e1ab437c844115a94dc63e635-bn5870t11f47958"
+                },
+                {
+                    "@id": "b458_genid-00f1db82e1ab437c844115a94dc63e635-bn5870t11f50902"
+                },
+                {
+                    "@id": "b458_genid-00f1db82e1ab437c844115a94dc63e635-bn5870t11f78298"
+                }
+            ]
+        }
+    ]
+}

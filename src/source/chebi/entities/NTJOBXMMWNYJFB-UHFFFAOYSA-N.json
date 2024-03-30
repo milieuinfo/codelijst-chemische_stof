@@ -1,0 +1,82 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_64045",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "obo:IAO_0000115": "A member of the class of benzamides resulting from the formal condensation of the carboxy group of 4-amino-5-(ethylsulfonyl)-2-methoxybenzoic acid with the primary amino group of 2-(aminomethyl)-1-ethylpyrrolidine. It is a potent, selective dopamine D2 and D3 receptor antagonist. It is an atypical antipsychotic/antischizophrenic agent with limited extrapyrimidal side effects.",
+    "chebi:charge": "0",
+    "chebi:formula": "C17H27N3O4S",
+    "chebi:inchi": "InChI=1S/C17H27N3O4S/c1-4-20-8-6-7-12(20)11-19-17(21)13-9-16(25(22,23)5-2)14(18)10-15(13)24-3/h9-10,12H,4-8,11,18H2,1-3H3,(H,19,21)",
+    "chebi:inchikey": "NTJOBXMMWNYJFB-UHFFFAOYSA-N",
+    "chebi:smiles": "CCN1CCCC1CNC(=O)c1cc(c(N)cc1OC)S(=O)(=O)CC",
+    "geneontology:hasDbXref": [
+        "CAS:71675-85-9",
+        "Drug_Central:179",
+        "DrugBank:DB06288",
+        "HMDB:HMDB0015633",
+        "KEGG:D07310",
+        "LINCS:LSM-1669",
+        "Patent:BE872585",
+        "Patent:US4401822",
+        "PMID:21176108",
+        "PMID:21647545",
+        "PMID:21663752",
+        "PMID:21746752",
+        "PMID:21822161",
+        "PMID:21845006",
+        "PMID:21852060",
+        "PMID:21886905",
+        "PMID:21888613",
+        "PMID:21969105",
+        "PMID:22035899",
+        "PMID:22059694",
+        "PMID:22121864",
+        "PMID:22241281",
+        "PMID:22250612",
+        "Reaxys:6876191",
+        "Wikipedia:Amisulpride"
+    ],
+    "geneontology:hasId": "64045",
+    "geneontology:hasSynonym": [
+        "4-Amino-N-((1-ethyl-2-pyrrolidinyl)methyl)-5-(ethylsulfonyl)-2-methoxybenzamide",
+        "4-Amino-N-((1-ethyl-2-pyrrolidinyl)methyl)-5-(ethylsulfonyl)-o-anisamide",
+        "4-amino-N-[(1-ethylpyrrolidin-2-yl)methyl]-5-(ethylsulfonyl)-2-methoxybenzamide",
+        "Aminosultopride",
+        "amisulprida",
+        "amisulpridum"
+    ],
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#3_STAR"
+    },
+    "rdfs:label": "amisulpride",
+    "rdfs:subClassOf": [
+        {
+            "@id": "obo:CHEBI_38260"
+        },
+        {
+            "@id": "obo:CHEBI_33860"
+        },
+        {
+            "@id": "obo:CHEBI_62733"
+        },
+        {
+            "@id": "obo:CHEBI_22702"
+        },
+        {
+            "@id": "obo:CHEBI_35850"
+        },
+        {
+            "@id": "b11_genid-00f1db82e1ab437c844115a94dc63e635-bn64045t11f35703"
+        },
+        {
+            "@id": "b11_genid-00f1db82e1ab437c844115a94dc63e635-bn64045t11f65191"
+        },
+        {
+            "@id": "b11_genid-00f1db82e1ab437c844115a94dc63e635-bn64045t11f78298"
+        }
+    ]
+}

@@ -1,0 +1,41 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_24536",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "chebi:charge": "0",
+    "chebi:formula": "C6H6Cl6",
+    "chebi:inchi": "InChI=1S/C6H6Cl6/c7-1-2(8)4(10)6(12)5(11)3(1)9/h1-6H",
+    "chebi:inchikey": "JLYXXMFPNIAWKQ-UHFFFAOYSA-N",
+    "chebi:smiles": "ClC1C(Cl)C(Cl)C(Cl)C(Cl)C1Cl",
+    "geneontology:hasDbXref": [
+        "Beilstein:1907331",
+        "CAS:608-73-1",
+        "Gmelin:261134",
+        "KEGG:C18738",
+        "PMID:31394347",
+        "PMID:32827819"
+    ],
+    "geneontology:hasId": "24536",
+    "geneontology:hasSynonym": [
+        "1,2,3,4,5,6-hexachlorocyclohexane",
+        "1,2,3,4,5,6-Hexachlorocyclohexane",
+        "benzene hexachloride",
+        "BHC",
+        "HCH",
+        "Hexachlorcyclohexan",
+        "hexachlorocyclohexanes",
+        "Hexachlorzyklohexan"
+    ],
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#3_STAR"
+    },
+    "rdfs:label": "hexachlorocyclohexane",
+    "rdfs:subClassOf": {
+        "@id": "obo:CHEBI_39154"
+    }
+}

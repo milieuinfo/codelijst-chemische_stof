@@ -1,0 +1,92 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_3750",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "obo:IAO_0000115": "The ethyl ester of clofibric acid.",
+    "chebi:charge": "0",
+    "chebi:formula": "C12H15ClO3",
+    "chebi:inchi": "InChI=1S/C12H15ClO3/c1-4-15-11(14)12(2,3)16-10-7-5-9(13)6-8-10/h5-8H,4H2,1-3H3",
+    "chebi:inchikey": "KNHUKKLJHYUCFP-UHFFFAOYSA-N",
+    "chebi:smiles": "CCOC(=O)C(C)(C)Oc1ccc(Cl)cc1",
+    "geneontology:hasDbXref": [
+        "Beilstein:1913459",
+        "CAS:637-07-0",
+        "Chemspider:2694",
+        "Drug_Central:694",
+        "DrugBank:DB00636",
+        "HMDB:HMDB0014774",
+        "KEGG:C06916",
+        "KEGG:D00279",
+        "LINCS:LSM-2996",
+        "Patent:GB860303",
+        "Patent:US3262850",
+        "PMCID:PMC7258001",
+        "PMCID:PMC8265473",
+        "PMID:23603800",
+        "PMID:26949064",
+        "PMID:27354598",
+        "PMID:28248971",
+        "PMID:28485676",
+        "PMID:28512725",
+        "PMID:28779283",
+        "PMID:29059162",
+        "PMID:30642049",
+        "PMID:33070841",
+        "PMID:33893992",
+        "Wikipedia:Clofibrate"
+    ],
+    "geneontology:hasId": "3750",
+    "geneontology:hasSynonym": [
+        "2-(4-Chlorophenoxy)-2-methylpropanoic acid ethyl ester",
+        "2-(p-Chlorophenoxy)-2-methylpropionic acid ethyl ester",
+        "alpha-(p-Chlorophenoxy)isobutyric acid, ethyl ester",
+        "alpha-p-Chlorophenoxyisobutyryl ethyl ester",
+        "Atromid-S",
+        "Clofibrate",
+        "clofibrato",
+        "clofibratum",
+        "ELPI",
+        "EPIB",
+        "ethyl 2-(4-chlorophenoxy)-2-methylpropanoate",
+        "Ethyl 2-(p-chlorophenoxy)isobutyrate",
+        "Ethyl chlorophenoxyisobutyrate",
+        "Ethyl clofibrate",
+        "Lipofacton",
+        "Liprin"
+    ],
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#3_STAR"
+    },
+    "rdfs:label": "clofibrate",
+    "rdfs:subClassOf": [
+        {
+            "@id": "obo:CHEBI_35618"
+        },
+        {
+            "@id": "obo:CHEBI_23990"
+        },
+        {
+            "@id": "obo:CHEBI_83403"
+        },
+        {
+            "@id": "b283_genid-00f1db82e1ab437c844115a94dc63e635-bn3750t8f34648"
+        },
+        {
+            "@id": "b283_genid-00f1db82e1ab437c844115a94dc63e635-bn3750t11f35679"
+        },
+        {
+            "@id": "b283_genid-00f1db82e1ab437c844115a94dc63e635-bn3750t11f35821"
+        },
+        {
+            "@id": "b283_genid-00f1db82e1ab437c844115a94dc63e635-bn3750t11f70782"
+        },
+        {
+            "@id": "b283_genid-00f1db82e1ab437c844115a94dc63e635-bn3750t11f176497"
+        }
+    ]
+}

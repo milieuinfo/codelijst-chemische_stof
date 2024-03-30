@@ -1,0 +1,52 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_137978",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "obo:IAO_0000115": "A chloroalkane that is propane in which a hydrogen from each of the terminal methyl groups has been replaced by a chlorine.",
+    "chebi:charge": "0",
+    "chebi:formula": "C3H6Cl2",
+    "chebi:inchi": "InChI=1S/C3H6Cl2/c4-2-1-3-5/h1-3H2",
+    "chebi:inchikey": "YHRUOJUYPBUZOS-UHFFFAOYSA-N",
+    "chebi:smiles": "ClCCCCl",
+    "http://purl.uniprot.org/core/name": "1,3-dichloropropane",
+    "geneontology:hasDbXref": [
+        "AGR:IND23328194",
+        "CAS:142-28-9",
+        "Patent:EP1067105",
+        "PMID:14709629",
+        "PMID:28416262",
+        "PMID:9008720",
+        "Reaxys:505960"
+    ],
+    "geneontology:hasId": "137978",
+    "geneontology:hasSynonym": [
+        "1,3-DCP",
+        "CH2ClCH2CH2Cl",
+        "Cl(CH2)3Cl",
+        "ClCH2CH2CH2Cl",
+        "trimethylene dichloride"
+    ],
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#3_STAR"
+    },
+    "rdfs:label": "1,3-dichloropropane",
+    "rdfs:subClassOf": [
+        {
+            "@id": "obo:CHEBI_23115"
+        },
+        {
+            "@id": "obo:CHEBI_23128"
+        },
+        {
+            "@id": "b79_genid-00f1db82e1ab437c844115a94dc63e635-bn137978t11f25491"
+        },
+        {
+            "@id": "b79_genid-00f1db82e1ab437c844115a94dc63e635-bn137978t11f78298"
+        }
+    ]
+}

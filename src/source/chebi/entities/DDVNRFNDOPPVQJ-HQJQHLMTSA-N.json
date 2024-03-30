@@ -1,0 +1,61 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_32253",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "obo:IAO_0000115": "A carboxylic ester obtained by formal condensation of 3-(2,2-dichlorovinyl)-2,2-dimethylcyclopropanecarboxylic acid and 2,3,5,6-tetrafluorobenzyl alcohol.",
+    "chebi:charge": "0",
+    "chebi:formula": "C15H12Cl2F4O2",
+    "chebi:inchi": "InChI=1S/C15H12Cl2F4O2/c1-15(2)7(3-10(16)17)11(15)14(22)23-5-6-12(20)8(18)4-9(19)13(6)21/h3-4,7,11H,5H2,1-2H3/t7-,11+/m1/s1",
+    "chebi:inchikey": "DDVNRFNDOPPVQJ-HQJQHLMTSA-N",
+    "chebi:smiles": "CC1(C)[C@H](C=C(Cl)Cl)[C@H]1C(=O)OCc1c(F)c(F)cc(F)c1F",
+    "geneontology:hasDbXref": [
+        "Beilstein:8349003",
+        "CAS:118712-89-3",
+        "KEGG:C13410",
+        "KEGG:D01932",
+        "Patent:WO2010075965",
+        "Patent:WO2011030122",
+        "PMID:10414789",
+        "PMID:16552726",
+        "PMID:20410569",
+        "PMID:21377505",
+        "PMID:21736273",
+        "PPDB:1282",
+        "Reaxys:8349003"
+    ],
+    "geneontology:hasId": "32253",
+    "geneontology:hasSynonym": [
+        "(2,3,5,6-Tetrafluorophenyl)methyl(1R,3S)-3-(2,2-dichloroethenyl)-2,2-dimethylcyclopropanecarboxylate",
+        "2,3,5,6-tetrafluorobenzyl (1R,3S)-3-(2,2-dichloroethenyl)-2,2-dimethylcyclopropanecarboxylate",
+        "Transfluthrin"
+    ],
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#3_STAR"
+    },
+    "rdfs:label": "transfluthrin",
+    "rdfs:subClassOf": [
+        {
+            "@id": "obo:CHEBI_33308"
+        },
+        {
+            "@id": "obo:CHEBI_36683"
+        },
+        {
+            "@id": "obo:CHEBI_37143"
+        },
+        {
+            "@id": "obo:CHEBI_51454"
+        },
+        {
+            "@id": "b25_genid-00f1db82e1ab437c844115a94dc63e635-bn32253t11f39116"
+        },
+        {
+            "@id": "b25_genid-00f1db82e1ab437c844115a94dc63e635-bn32253t8f39308"
+        }
+    ]
+}

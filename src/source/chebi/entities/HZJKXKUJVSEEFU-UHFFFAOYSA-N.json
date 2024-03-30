@@ -1,0 +1,33 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_83729",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "obo:IAO_0000115": "A nitrile that is hexanenitrile substituted at the 2-position by p-chlorophenyl and (1,2,4-triazol-1-yl)methyl groups.",
+    "chebi:charge": "0",
+    "chebi:formula": "C15H17ClN4",
+    "chebi:inchi": "InChI=1S/C15H17ClN4/c1-2-3-8-15(9-17,10-20-12-18-11-19-20)13-4-6-14(16)7-5-13/h4-7,11-12H,2-3,8,10H2,1H3",
+    "chebi:inchikey": "HZJKXKUJVSEEFU-UHFFFAOYSA-N",
+    "chebi:smiles": "CCCCC(Cn1cncn1)(C#N)c1ccc(Cl)cc1",
+    "geneontology:hasDbXref": "PPDB:478",
+    "geneontology:hasId": "83729",
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#3_STAR"
+    },
+    "rdfs:label": "2-(4-chlorophenyl)-2-(1H-1,2,4-triazol-1-ylmethyl)hexanenitrile",
+    "rdfs:subClassOf": [
+        {
+            "@id": "obo:CHEBI_18379"
+        },
+        {
+            "@id": "obo:CHEBI_35727"
+        },
+        {
+            "@id": "obo:CHEBI_83403"
+        }
+    ]
+}

@@ -1,0 +1,53 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_6637",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "obo:IAO_0000115": "A magnesium hydroxide in which the magnesium atom is bound to two hydroxide groups.",
+    "chebi:charge": "0",
+    "chebi:formula": "H2MgO2",
+    "chebi:inchi": "InChI=1S/Mg.2H2O/h;2*1H2/q+2;;/p-2",
+    "chebi:inchikey": "VTHJTEIRLNZDEV-UHFFFAOYSA-L",
+    "chebi:smiles": "[OH-].[OH-].[Mg++]",
+    "geneontology:hasDbXref": [
+        "CAS:1309-42-8",
+        "Drug_Central:4244",
+        "Gmelin:485572",
+        "KEGG:C07876",
+        "KEGG:D06425",
+        "PMID:25310742",
+        "Reaxys:11342935",
+        "Wikipedia:Magnesium_Hydroxide"
+    ],
+    "geneontology:hasId": "6637",
+    "geneontology:hasSynonym": [
+        "Magnesia, [Milk of]",
+        "magnesium(2+) hydroxide",
+        "magnesium(II) hydroxide",
+        "magnesium hydrate",
+        "Magnesiumhydroxid",
+        "Magnesium hydroxide",
+        "Mg(OH)2",
+        "milk of magnesia",
+        "Milk of magnesia"
+    ],
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#3_STAR"
+    },
+    "rdfs:label": "magnesium dihydroxide",
+    "rdfs:subClassOf": [
+        {
+            "@id": "obo:CHEBI_35149"
+        },
+        {
+            "@id": "b91_genid-00f1db82e1ab437c844115a94dc63e635-bn6637t11f65265"
+        },
+        {
+            "@id": "b91_genid-00f1db82e1ab437c844115a94dc63e635-bn6637t11f79314"
+        }
+    ]
+}

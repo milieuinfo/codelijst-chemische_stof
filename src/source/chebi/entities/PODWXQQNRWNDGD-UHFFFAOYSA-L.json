@@ -1,0 +1,52 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_32150",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "obo:IAO_0000115": "A hydrate consisting of sodium thiosulfate with 5 mol eq. of water.",
+    "chebi:charge": "0",
+    "chebi:inchi": "InChI=1S/2Na.H2O3S2.5H2O/c;;1-5(2,3)4;;;;;/h;;(H2,1,2,3,4);5*1H2/q2*+1;;;;;;/p-2",
+    "chebi:inchikey": "PODWXQQNRWNDGD-UHFFFAOYSA-L",
+    "chebi:smiles": "[Na+].[Na+].[H]O[H].[H]O[H].[H]O[H].[H]O[H].[H]O[H].[O-]S([S-])(=O)=O",
+    "geneontology:hasDbXref": [
+        "CAS:10102-17-7",
+        "KEGG:C12488",
+        "KEGG:D01091",
+        "Wikipedia:Sodium_thiosulfate"
+    ],
+    "geneontology:hasId": "32150",
+    "geneontology:hasSynonym": [
+        "disodium thiosulfate pentahydrate",
+        "Na2S2O3.5H2O",
+        "PEDMARK",
+        "sodium sulfurothioate hydrate (2:1:5)",
+        "sodium sulfurothioate--water (1/5)",
+        "Sodium thiosulfate",
+        "thiosulfuric acid, disodium salt, pentahydrate"
+    ],
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#3_STAR"
+    },
+    "rdfs:label": "sodium thiosulfate pentahydrate",
+    "rdfs:subClassOf": [
+        {
+            "@id": "obo:CHEBI_35505"
+        },
+        {
+            "@id": "b120_genid-00f1db82e1ab437c844115a94dc63e635-bn32150t11f76595"
+        },
+        {
+            "@id": "b120_genid-00f1db82e1ab437c844115a94dc63e635-bn32150t11f86327"
+        },
+        {
+            "@id": "b120_genid-00f1db82e1ab437c844115a94dc63e635-bn32150t11f90749"
+        },
+        {
+            "@id": "b120_genid-00f1db82e1ab437c844115a94dc63e635-bn32150t10f132112"
+        }
+    ]
+}

@@ -1,0 +1,77 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_18012",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "obo:IAO_0000115": "A butenedioic acid in which the C=C double bond has E geometry. It is an intermediate metabolite in the citric acid cycle.",
+    "chebi:charge": "0",
+    "chebi:formula": "C4H4O4",
+    "chebi:inchi": "InChI=1S/C4H4O4/c5-3(6)1-2-4(7)8/h1-2H,(H,5,6)(H,7,8)/b2-1+",
+    "chebi:inchikey": "VZCYOOQTPOCHFL-OWOJBTEDSA-N",
+    "chebi:smiles": "OC(=O)\\C=C\\C(O)=O",
+    "geneontology:hasDbXref": [
+        "PMID:17439666",
+        "Beilstein:605763",
+        "CAS:110-17-8",
+        "Drug_Central:3229",
+        "DrugBank:DB01677",
+        "FooDB:FDB003291",
+        "Gmelin:49855",
+        "HMDB:HMDB0000134",
+        "KEGG:C00122",
+        "KEGG:D02308",
+        "KNApSAcK:C00001183",
+        "MetaCyc:FUM",
+        "PDBeChem:FUM",
+        "PMID:21414846",
+        "PMID:22113915",
+        "PMID:22217732",
+        "PMID:22516248",
+        "PMID:23472183",
+        "PPDB:1347",
+        "Reaxys:605763",
+        "Wikipedia:Fumaric_Acid"
+    ],
+    "geneontology:hasId": "18012",
+    "geneontology:hasSynonym": [
+        "(2E)-2-butenedioic acid",
+        "(2E)-but-2-enedioic acid",
+        "(E)-2-butenedioic acid",
+        "E297",
+        "Fumaric acid",
+        "FUMARIC ACID",
+        "Fumarsaeure",
+        "trans-1,2-ethylenedicarboxylic acid",
+        "trans-but-2-enedioic acid",
+        "trans-Butenedioic acid",
+        "trans-ethene-1,2-dioic acid"
+    ],
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#3_STAR"
+    },
+    "rdfs:label": "fumaric acid",
+    "rdfs:subClassOf": [
+        {
+            "@id": "b456_genid-00f1db82e1ab437c844115a94dc63e635-bn18012tmms73f29806"
+        },
+        {
+            "@id": "obo:CHEBI_22958"
+        },
+        {
+            "@id": "b456_genid-00f1db82e1ab437c844115a94dc63e635-bn18012t4f37154"
+        },
+        {
+            "@id": "b456_genid-00f1db82e1ab437c844115a94dc63e635-bn18012t11f64049"
+        },
+        {
+            "@id": "b456_genid-00f1db82e1ab437c844115a94dc63e635-bn18012t11f78675"
+        },
+        {
+            "@id": "b456_genid-00f1db82e1ab437c844115a94dc63e635-bn18012t11f176497"
+        }
+    ]
+}

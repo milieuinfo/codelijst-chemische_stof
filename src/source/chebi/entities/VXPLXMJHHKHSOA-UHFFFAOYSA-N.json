@@ -1,0 +1,73 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_82035",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "obo:IAO_0000115": "A carbamate ester that is the isopropyl ester of phenylcarbamic acid. It is a selective herbicide used for the control of annual grasses and some broad-leaf weeds and is also a growth regulator for control of sprouting in stored potatoes.",
+    "chebi:charge": "0",
+    "chebi:formula": "C10H13NO2",
+    "chebi:inchi": "InChI=1S/C10H13NO2/c1-8(2)13-10(12)11-9-6-4-3-5-7-9/h3-8H,1-2H3,(H,11,12)",
+    "chebi:inchikey": "VXPLXMJHHKHSOA-UHFFFAOYSA-N",
+    "chebi:smiles": "C1=CC=CC(=C1)NC(OC(C)C)=O",
+    "geneontology:hasDbXref": [
+        "CAS:122-42-9",
+        "KEGG:C18887",
+        "Pesticides:propham",
+        "PMID:4858217",
+        "PMID:5066259",
+        "PPDB:550",
+        "Reaxys:2209666"
+    ],
+    "geneontology:hasId": "82035",
+    "geneontology:hasSynonym": [
+        "1-methylethyl N-phenylcarbamate",
+        "1-methylethyl phenylcarbamate",
+        "Agermin",
+        "Ban-Hoe",
+        "Beet-Kleen",
+        "Birgin",
+        "Chem-Hoe",
+        "Collavin",
+        "IFC",
+        "IFK",
+        "INPC",
+        "IPPC",
+        "isopropyl carbanilate",
+        "isopropyl carbanilic acid ester",
+        "isopropyl-N-phenylcarbamate",
+        "isopropyl phenylcarbamate",
+        "isopropyl phenyl urethane",
+        "N-phenyl isopropyl carbamate",
+        "O-isopropyl N-phenylcarbamate",
+        "Premalox",
+        "profam",
+        "propan-2-yl phenylcarbamate",
+        "prophos",
+        "Tixit",
+        "Triherbide",
+        "Tuberit",
+        "Tuberite"
+    ],
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#3_STAR"
+    },
+    "rdfs:label": "propham",
+    "rdfs:subClassOf": [
+        {
+            "@id": "obo:CHEBI_22712"
+        },
+        {
+            "@id": "obo:CHEBI_23003"
+        },
+        {
+            "@id": "b121_genid-00f1db82e1ab437c844115a94dc63e635-bn82035t11f24527"
+        },
+        {
+            "@id": "b121_genid-00f1db82e1ab437c844115a94dc63e635-bn82035t11f35219"
+        }
+    ]
+}

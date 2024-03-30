@@ -1,0 +1,38 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_9720",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "chebi:charge": "0",
+    "chebi:formula": "C20H31NO",
+    "chebi:inchi": "InChI=1S/C20H31NO/c22-20(18-10-4-1-5-11-18,19-12-6-2-7-13-19)14-17-21-15-8-3-9-16-21/h1,4-5,10-11,19,22H,2-3,6-9,12-17H2",
+    "chebi:inchikey": "HWHLPVGTWGOCJO-UHFFFAOYSA-N",
+    "chebi:smiles": "OC(CCN1CCCCC1)(C1CCCCC1)c1ccccc1",
+    "geneontology:hasDbXref": [
+        "CAS:144-11-6",
+        "Drug_Central:2745",
+        "HMDB:HMDB0014520",
+        "KEGG:C07171",
+        "KEGG:D08638",
+        "LINCS:LSM-5060"
+    ],
+    "geneontology:hasId": "9720",
+    "geneontology:hasSynonym": [
+        "benzhexol",
+        "benzhexol HCl",
+        "benzhexol hydrochloride",
+        "trihexyphenidyl HCl",
+        "trihexyphenidyl hydrochloride"
+    ],
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#2_STAR"
+    },
+    "rdfs:label": "Trihexyphenidyl",
+    "rdfs:subClassOf": {
+        "@id": "obo:CHEBI_32952"
+    }
+}

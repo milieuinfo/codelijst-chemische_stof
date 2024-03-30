@@ -1,0 +1,48 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_38506",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "obo:IAO_0000115": "A member of the class of  phenols carrying an isopropyl group at position 2.",
+    "chebi:charge": "0",
+    "chebi:formula": "C9H12O",
+    "chebi:inchi": "InChI=1S/C9H12O/c1-7(2)8-5-3-4-6-9(8)10/h3-7,10H,1-2H3",
+    "chebi:inchikey": "CRBJBYGJVIBWIY-UHFFFAOYSA-N",
+    "chebi:smiles": "CC(C)c1ccccc1O",
+    "http://purl.uniprot.org/core/name": "2-isopropylphenol",
+    "geneontology:hasDbXref": [
+        "PMID:7811094",
+        "AGR:IND92001800",
+        "Beilstein:1363322",
+        "CAS:88-69-7",
+        "HMDB:HMDB0032029",
+        "MetaCyc:CPD-14150",
+        "PMID:14758593",
+        "Reaxys:1363322"
+    ],
+    "geneontology:hasId": "38506",
+    "geneontology:hasSynonym": [
+        "1-Hydroxy-2-isopropylbenzene",
+        "2-(1-Methylethyl)phenol",
+        "2-(propan-2-yl)phenol",
+        "o-Cumenol",
+        "o-Hydroxycumene",
+        "o-Isopropylphenol"
+    ],
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#3_STAR"
+    },
+    "rdfs:label": "2-isopropylphenol",
+    "rdfs:subClassOf": [
+        {
+            "@id": "obo:CHEBI_33853"
+        },
+        {
+            "@id": "b351_genid-00f1db82e1ab437c844115a94dc63e635-bn38506t9f34656"
+        }
+    ]
+}

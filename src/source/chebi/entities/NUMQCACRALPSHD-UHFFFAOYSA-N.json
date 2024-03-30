@@ -1,0 +1,58 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_141564",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "obo:IAO_0000115": "An ether having ethyl and tert-butyl as the two alkyl components. It is used as an engine fuel additive to reduce emissions of carbon monoxide and soot.",
+    "chebi:charge": "0",
+    "chebi:formula": "C6H14O",
+    "chebi:inchi": "InChI=1S/C6H14O/c1-5-7-6(2,3)4/h5H2,1-4H3",
+    "chebi:inchikey": "NUMQCACRALPSHD-UHFFFAOYSA-N",
+    "chebi:smiles": "CCOC(C)(C)C",
+    "geneontology:hasDbXref": [
+        "CAS:637-92-3",
+        "Chemspider:11996",
+        "PMID:20544807",
+        "PMID:21288640",
+        "PMID:22177017",
+        "PMID:23474617",
+        "PMID:25108826",
+        "PMID:25559863",
+        "PMID:25644031",
+        "PMID:26538808",
+        "PMID:28152311",
+        "PMID:28279869",
+        "PMID:29478141",
+        "Reaxys:1731469",
+        "Wikipedia:Ethyl_tert-butyl_ether"
+    ],
+    "geneontology:hasId": "141564",
+    "geneontology:hasSynonym": [
+        "2-ethoxy-2-methylpropane",
+        "2-methyl-2-ethoxypropane",
+        "ETBE",
+        "ethyl t-butyl ether",
+        "ethyl tert-butyl ether",
+        "t-BuOEt",
+        "t-butyl ethyl ether"
+    ],
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#3_STAR"
+    },
+    "rdfs:label": "tert-butyl ethyl ether",
+    "rdfs:subClassOf": [
+        {
+            "@id": "obo:CHEBI_25698"
+        },
+        {
+            "@id": "obo:CHEBI_134179"
+        },
+        {
+            "@id": "b17_genid-00f1db82e1ab437c844115a94dc63e635-bn141564t11f62803"
+        }
+    ]
+}

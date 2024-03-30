@@ -1,0 +1,66 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_4514",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "obo:IAO_0000115": "The ester resulting from the formal condensation of 1-cyclohexylcyclohexanecarboxylic acid with 2-(diethylamino)ethanol. An anticholinergic, it is used as the hydrochloride to treat or prevent spasm in the muscles of the gastrointestinal tract, particularly that associated with irritable bowel syndrome.",
+    "chebi:charge": "0",
+    "chebi:formula": "C19H35NO2",
+    "chebi:inchi": "InChI=1S/C19H35NO2/c1-3-20(4-2)15-16-22-18(21)19(13-9-6-10-14-19)17-11-7-5-8-12-17/h17H,3-16H2,1-2H3",
+    "chebi:inchikey": "CURUTKGFNZGFSE-UHFFFAOYSA-N",
+    "chebi:smiles": "CCN(CC)CCOC(=O)C1(CCCCC1)C1CCCCC1",
+    "geneontology:hasDbXref": [
+        "Beilstein:2282819",
+        "CAS:77-19-0",
+        "Drug_Central:868",
+        "DrugBank:DB00804",
+        "KEGG:C06951",
+        "KEGG:D07820",
+        "LINCS:LSM-3534",
+        "Patent:US2474796",
+        "Wikipedia:Dicyclomine"
+    ],
+    "geneontology:hasId": "4514",
+    "geneontology:hasSynonym": [
+        "2-(diethylamino)ethyl 1,1&#39;-bi(cyclohexyl)-1-carboxylate",
+        "2-(diethylamino)ethyl 1-cyclohexylcyclohexanecarboxylate",
+        "Bicyclohexyl-1-carboxylic acid 2-diethylamino-ethyl ester",
+        "dicicloverina",
+        "Dicyclomine",
+        "DICYCLOMINE",
+        "Dicycloverin",
+        "dicycloverine",
+        "dicycloverinum"
+    ],
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#3_STAR"
+    },
+    "rdfs:label": "dicyclomine",
+    "rdfs:subClassOf": [
+        {
+            "@id": "obo:CHEBI_33308"
+        },
+        {
+            "@id": "obo:CHEBI_32876"
+        },
+        {
+            "@id": "b377_genid-00f1db82e1ab437c844115a94dc63e635-bn4514t11f48876"
+        },
+        {
+            "@id": "b377_genid-00f1db82e1ab437c844115a94dc63e635-bn4514t11f50370"
+        },
+        {
+            "@id": "b377_genid-00f1db82e1ab437c844115a94dc63e635-bn4514t8f52153"
+        },
+        {
+            "@id": "b377_genid-00f1db82e1ab437c844115a94dc63e635-bn4514t11f53784"
+        },
+        {
+            "@id": "b377_genid-00f1db82e1ab437c844115a94dc63e635-bn4514t8f59738"
+        }
+    ]
+}

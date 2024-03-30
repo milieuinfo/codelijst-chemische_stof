@@ -1,0 +1,66 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_44557",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "chebi:charge": "0",
+    "chebi:formula": "C6H9NO6",
+    "chebi:inchi": "InChI=1S/C6H9NO6/c8-4(9)1-7(2-5(10)11)3-6(12)13/h1-3H2,(H,8,9)(H,10,11)(H,12,13)",
+    "chebi:inchikey": "MGFYIUFZLHCRTH-UHFFFAOYSA-N",
+    "chebi:smiles": "OC(=O)CN(CC(O)=O)CC(O)=O",
+    "geneontology:hasDbXref": [
+        "Beilstein:1710776",
+        "CAS:139-13-9",
+        "DrugBank:DB03040",
+        "Gmelin:3726",
+        "KEGG:C14695",
+        "PDBeChem:NTA"
+    ],
+    "geneontology:hasId": "44557",
+    "geneontology:hasSynonym": [
+        "NTA",
+        "alpha,alpha',alpha''-trimethylaminetricarboxylic acid",
+        "Complexon I",
+        "H3nta",
+        "Komplexon I",
+        "N,N-bis(carboxymethyl)glycine",
+        "N(CH2-COOH)3",
+        "nitrilo-2,2',2''-triacetic acid",
+        "Nitrilotriacetate",
+        "Nitrilotriacetic acid",
+        "NITRILOTRIACETIC ACID",
+        "Nitrilotriessigsaeure",
+        "tri(carboxymethyl)amine",
+        "triglycine",
+        "Triglycollamic acid",
+        "Trilon A"
+    ],
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#3_STAR"
+    },
+    "rdfs:label": "nitrilotriacetic acid",
+    "rdfs:subClassOf": [
+        {
+            "@id": "obo:CHEBI_27093"
+        },
+        {
+            "@id": "obo:CHEBI_39054"
+        },
+        {
+            "@id": "b511_genid-00f1db82e1ab437c844115a94dc63e635-bn44557tmms73f39057"
+        },
+        {
+            "@id": "b511_genid-00f1db82e1ab437c844115a94dc63e635-bn44557t4f39053"
+        },
+        {
+            "@id": "b511_genid-00f1db82e1ab437c844115a94dc63e635-bn44557t11f50903"
+        },
+        {
+            "@id": "b511_genid-00f1db82e1ab437c844115a94dc63e635-bn44557t11f50909"
+        }
+    ]
+}

@@ -1,0 +1,33 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_82057",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "chebi:charge": "0",
+    "chebi:formula": "C13H15NO2",
+    "chebi:inchi": "InChI=1S/C13H15NO2/c1-10-12(8-5-9-16-10)13(15)14-11-6-3-2-4-7-11/h2-4,6-7H,5,8-9H2,1H3,(H,14,15)",
+    "chebi:inchikey": "YPCALTGLHFLNGA-UHFFFAOYSA-N",
+    "chebi:smiles": "CC1=C(CCCO1)C(=O)Nc1ccccc1",
+    "geneontology:hasDbXref": [
+        "CAS:24691-76-7",
+        "KEGG:C18914",
+        "PPDB:2849"
+    ],
+    "geneontology:hasId": "82057",
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#2_STAR"
+    },
+    "rdfs:label": "Pyracarbolid",
+    "rdfs:subClassOf": [
+        {
+            "@id": "obo:CHEBI_13248"
+        },
+        {
+            "@id": "obo:CHEBI_87015"
+        }
+    ]
+}

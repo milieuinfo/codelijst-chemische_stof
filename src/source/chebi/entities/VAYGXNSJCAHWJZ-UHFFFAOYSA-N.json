@@ -1,0 +1,48 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_59050",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "obo:IAO_0000115": "The dimethyl ester of sulfuric acid.",
+    "chebi:charge": "0",
+    "chebi:formula": "C2H6O4S",
+    "chebi:inchi": "InChI=1S/C2H6O4S/c1-5-7(3,4)6-2/h1-2H3",
+    "chebi:inchikey": "VAYGXNSJCAHWJZ-UHFFFAOYSA-N",
+    "chebi:smiles": "COS(=O)(=O)OC",
+    "geneontology:hasDbXref": [
+        "Beilstein:635994",
+        "CAS:77-78-1",
+        "KEGG:C19177",
+        "PMID:2299638"
+    ],
+    "geneontology:hasId": "59050",
+    "geneontology:hasSynonym": [
+        "DMS",
+        "Dimethoxysulfone",
+        "Dimethyl monosulfate",
+        "Dimethyl sulphate",
+        "Sulfate dimethylique",
+        "Sulfato de dimetilo",
+        "Sulfuric acid, dimethyl ester",
+        "Sulfuric acid dimethyl ester"
+    ],
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#3_STAR"
+    },
+    "rdfs:label": "dimethyl sulfate",
+    "rdfs:subClassOf": [
+        {
+            "@id": "obo:CHEBI_29281"
+        },
+        {
+            "@id": "b376_genid-00f1db82e1ab437c844115a94dc63e635-bn59050t11f22333"
+        },
+        {
+            "@id": "b376_genid-00f1db82e1ab437c844115a94dc63e635-bn59050t11f35705"
+        }
+    ]
+}

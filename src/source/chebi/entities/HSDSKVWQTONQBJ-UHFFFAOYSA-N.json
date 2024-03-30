@@ -1,0 +1,28 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_195895",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "chebi:charge": "0",
+    "chebi:formula": "C10H12O",
+    "chebi:inchi": "InChI=1S/C10H12O/c1-7-4-5-10(9(3)11)8(2)6-7/h4-6H,1-3H3",
+    "chebi:inchikey": "HSDSKVWQTONQBJ-UHFFFAOYSA-N",
+    "chebi:smiles": "O=C(C1=C(C=C(C=C1)C)C)C",
+    "geneontology:hasDbXref": [
+        "Chemspider:21105883",
+        "HMDB:HMDB0032140"
+    ],
+    "geneontology:hasId": "195895",
+    "geneontology:hasSynonym": "1-(2,4-dimethylphenyl)ethanone",
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#2_STAR"
+    },
+    "rdfs:label": "2',4'-Dimethylacetophenone",
+    "rdfs:subClassOf": {
+        "@id": "obo:CHEBI_76224"
+    }
+}

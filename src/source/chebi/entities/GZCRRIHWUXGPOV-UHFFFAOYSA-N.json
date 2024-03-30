@@ -1,0 +1,39 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_33376",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "chebi:charge": "0",
+    "chebi:formula": "Tb",
+    "chebi:inchi": "InChI=1S/Tb",
+    "chebi:inchikey": "GZCRRIHWUXGPOV-UHFFFAOYSA-N",
+    "chebi:smiles": "[Tb]",
+    "geneontology:hasDbXref": [
+        "CAS:7440-27-9",
+        "Gmelin:16311",
+        "WebElements:Tb"
+    ],
+    "geneontology:hasId": "33376",
+    "geneontology:hasSynonym": [
+        "Tb",
+        "65Tb",
+        "terbio",
+        "terbium"
+    ],
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#3_STAR"
+    },
+    "rdfs:label": "terbium atom",
+    "rdfs:subClassOf": [
+        {
+            "@id": "obo:CHEBI_33562"
+        },
+        {
+            "@id": "obo:CHEBI_33319"
+        }
+    ]
+}

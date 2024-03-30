@@ -1,0 +1,42 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_39170",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "obo:IAO_0000115": "A nitenpyram in which the double bond has E configuration.",
+    "chebi:charge": "0",
+    "chebi:formula": "C11H15ClN4O2",
+    "chebi:inchi": "InChI=1S/C11H15ClN4O2/c1-3-15(11(13-2)8-16(17)18)7-9-4-5-10(12)14-6-9/h4-6,8,13H,3,7H2,1-2H3/b11-8+",
+    "chebi:inchikey": "CFRPSFYHXJZSBI-DHZHZOJOSA-N",
+    "chebi:smiles": "CCN(Cc1ccc(Cl)nc1)C(\\NC)=C\\[N+]([O-])=O",
+    "geneontology:hasDbXref": [
+        "Beilstein:8489488",
+        "CAS:150824-47-8",
+        "KEGG:C18511",
+        "PPDB:1612",
+        "VSDB:1612"
+    ],
+    "geneontology:hasId": "39170",
+    "geneontology:hasSynonym": [
+        "(1E)-N-((6-chloro-3-pyridinyl)methyl)-N-ethyl-N'-methyl-2-nitro-1,1-ethenediamine",
+        "(E)-N-[(6-chloropyridin-3-yl)methyl]-N-ethyl-N'-methyl-2-nitroethene-1,1-diamine",
+        "nitenpyram",
+        "TI 304"
+    ],
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#3_STAR"
+    },
+    "rdfs:label": "(E)-nitenpyram",
+    "rdfs:subClassOf": [
+        {
+            "@id": "obo:CHEBI_39167"
+        },
+        {
+            "@id": "obo:CHEBI_39171"
+        }
+    ]
+}

@@ -1,0 +1,164 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_4917",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "obo:IAO_0000115": "A phenylpropanoid formally derived from guaiacol with an allyl chain substituted para to the hydroxy group. It is a major component of clove essential oil, and exhibits antibacterial, analgesic and antioxidant properties. It has been widely used in dentistry to treat toothache and pulpitis.",
+    "chebi:charge": "0",
+    "chebi:formula": "C10H12O2",
+    "chebi:inchi": "InChI=1S/C10H12O2/c1-3-4-8-5-6-9(11)10(7-8)12-2/h3,5-7,11H,1,4H2,2H3",
+    "chebi:inchikey": "RRAFCDWBNXTKKO-UHFFFAOYSA-N",
+    "chebi:smiles": "COC1=CC(CC=C)=CC=C1O",
+    "http://purl.uniprot.org/core/name": "eugenol",
+    "geneontology:hasDbXref": [
+        "Beilstein:1366759",
+        "BPDB:2008",
+        "CAS:97-53-0",
+        "Chemspider:13876103",
+        "Drug_Central:4648",
+        "FooDB:FDB012171",
+        "HMDB:HMDB0005809",
+        "KEGG:C10453",
+        "KEGG:D04117",
+        "KNApSAcK:C00000619",
+        "LINCS:LSM-2720",
+        "MetaCyc:CPD-6481",
+        "PDBeChem:EOL",
+        "PMID:11033063",
+        "PMID:11806158",
+        "PMID:14745850",
+        "PMID:15574415",
+        "PMID:18218839",
+        "PMID:20809147",
+        "PMID:22075131",
+        "PMID:22923067",
+        "PMID:23181601",
+        "PMID:23261812",
+        "PMID:23264268",
+        "PMID:2329164",
+        "PMID:23313798",
+        "PMID:23325490",
+        "PMID:23422484",
+        "PMID:23422489",
+        "PMID:23444040",
+        "PMID:23594212",
+        "PMID:23666640",
+        "PMID:23677922",
+        "PMID:23707945",
+        "PMID:23768603",
+        "PMID:23768604",
+        "PMID:23791894",
+        "PMID:23837051",
+        "PMID:23841789",
+        "PMID:23852671",
+        "PMID:28044068",
+        "PMID:29079364",
+        "PMID:32737935",
+        "PMID:33291666",
+        "PMID:33916044",
+        "PMID:8596779",
+        "PMID:9084914",
+        "Reaxys:1366759",
+        "Wikipedia:Eugenol"
+    ],
+    "geneontology:hasId": "4917",
+    "geneontology:hasSynonym": [
+        "1,3,4-Eugenol",
+        "1-allyl-3-methoxy-4-hydroxybenzene",
+        "1-allyl-4-hydroxy-3-methoxybenzene",
+        "1-Hydroxy-2-methoxy-4-allylbenzene",
+        "1-Hydroxy-2-methoxy-4-prop-2-enylbenzene",
+        "1-Hydroxy-2-methoxy-4-propenylbenzene",
+        "2-Hydroxy-5-allylanisole",
+        "2-Methoxy-1-hydroxy-4-allylbenzene",
+        "2-methoxy-4-(2-propen-1-yl)phenol",
+        "2-Methoxy-4-(2-propen-1-yl)phenol",
+        "2-Methoxy-4-(2-propenyl)phenol",
+        "2-methoxy-4-(prop-2-en-1-yl)phenol",
+        "2-Methoxy-4-allylphenol",
+        "2-Methoxy-4-prop-2-enylphenol",
+        "2-methoxy-4-prop-2-enyl-phenol",
+        "4-Allyl-1-hydroxy-2-methoxybenzene",
+        "4-allyl-2-methoxyphenol",
+        "4-Allyl-2-methoxyphenol",
+        "4-Allylcatechol-2-methyl ether",
+        "4-Allylguaiacol",
+        "4-Hydroxy-3-methoxy-1-allylbenzene",
+        "Allylguaiacol",
+        "Caryophyllic acid",
+        "Eugenic acid",
+        "Eugenol",
+        "p-Allylguaiacol",
+        "p-Eugenol"
+    ],
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#3_STAR"
+    },
+    "rdfs:label": "eugenol",
+    "rdfs:subClassOf": [
+        {
+            "@id": "obo:CHEBI_33853"
+        },
+        {
+            "@id": "obo:CHEBI_26004"
+        },
+        {
+            "@id": "obo:CHEBI_25235"
+        },
+        {
+            "@id": "obo:CHEBI_195237"
+        },
+        {
+            "@id": "b171_genid-00f1db82e1ab437c844115a94dc63e635-bn4917t11f27311"
+        },
+        {
+            "@id": "b171_genid-00f1db82e1ab437c844115a94dc63e635-bn4917t8f28591"
+        },
+        {
+            "@id": "b171_genid-00f1db82e1ab437c844115a94dc63e635-bn4917t11f33282"
+        },
+        {
+            "@id": "b171_genid-00f1db82e1ab437c844115a94dc63e635-bn4917t11f35480"
+        },
+        {
+            "@id": "b171_genid-00f1db82e1ab437c844115a94dc63e635-bn4917t11f35610"
+        },
+        {
+            "@id": "b171_genid-00f1db82e1ab437c844115a94dc63e635-bn4917t11f35617"
+        },
+        {
+            "@id": "b171_genid-00f1db82e1ab437c844115a94dc63e635-bn4917t11f38623"
+        },
+        {
+            "@id": "b171_genid-00f1db82e1ab437c844115a94dc63e635-bn4917t11f38634"
+        },
+        {
+            "@id": "b171_genid-00f1db82e1ab437c844115a94dc63e635-bn4917t11f38867"
+        },
+        {
+            "@id": "b171_genid-00f1db82e1ab437c844115a94dc63e635-bn4917t11f48578"
+        },
+        {
+            "@id": "b171_genid-00f1db82e1ab437c844115a94dc63e635-bn4917t11f50904"
+        },
+        {
+            "@id": "b171_genid-00f1db82e1ab437c844115a94dc63e635-bn4917t11f67079"
+        },
+        {
+            "@id": "b171_genid-00f1db82e1ab437c844115a94dc63e635-bn4917t11f68495"
+        },
+        {
+            "@id": "b171_genid-00f1db82e1ab437c844115a94dc63e635-bn4917t11f73240"
+        },
+        {
+            "@id": "b171_genid-00f1db82e1ab437c844115a94dc63e635-bn4917t11f85234"
+        },
+        {
+            "@id": "b171_genid-00f1db82e1ab437c844115a94dc63e635-bn4917t11f139492"
+        }
+    ]
+}

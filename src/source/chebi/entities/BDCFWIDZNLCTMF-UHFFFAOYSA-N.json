@@ -1,0 +1,57 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_131607",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "obo:IAO_0000115": "A tertiary alcohol that is isopropanol in which the hydrogen attached to the carbon bearing the hydroxy group has been replaced by a phenyl group.",
+    "chebi:charge": "0",
+    "chebi:formula": "C9H12O",
+    "chebi:inchi": "InChI=1S/C9H12O/c1-9(2,10)8-6-4-3-5-7-8/h3-7,10H,1-2H3",
+    "chebi:inchikey": "BDCFWIDZNLCTMF-UHFFFAOYSA-N",
+    "chebi:smiles": "C(C1=CC=CC=C1)(O)(C)C",
+    "http://purl.uniprot.org/core/name": "2-phenylpropan-2-ol",
+    "geneontology:hasDbXref": [
+        "CAS:617-94-7",
+        "PMID:1276088",
+        "PMID:22033099",
+        "PMID:3811631",
+        "Reaxys:1905012"
+    ],
+    "geneontology:hasId": "131607",
+    "geneontology:hasSynonym": [
+        "1-hydroxycumene",
+        "2-phenyl-2-propanol",
+        "2-phenylisopropanol",
+        "alpha,alpha-dimethylbenzenemethanol",
+        "alpha,alpha-dimethylbenzyl aldohol",
+        "alpha-cumyl alcohol",
+        "dimethylphenylcarbinol",
+        "dimethylphenylmethanol",
+        "phenyldimethylcarbinol"
+    ],
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#3_STAR"
+    },
+    "rdfs:label": "2-phenylpropan-2-ol",
+    "rdfs:subClassOf": [
+        {
+            "@id": "obo:CHEBI_26878"
+        },
+        {
+            "@id": "obo:CHEBI_22743"
+        },
+        {
+            "@id": "b118_genid-00f1db82e1ab437c844115a94dc63e635-bn131607t9f34656"
+        },
+        {
+            "@id": "b118_genid-00f1db82e1ab437c844115a94dc63e635-bn131607t11f76967"
+        },
+        {
+            "@id": "b118_genid-00f1db82e1ab437c844115a94dc63e635-bn131607t11f131604"
+        }
+    ]
+}

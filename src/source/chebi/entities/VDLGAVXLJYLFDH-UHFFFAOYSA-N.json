@@ -1,0 +1,71 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_81853",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "obo:IAO_0000115": "An aromatic amide resulting from the formal condensation of the carboxy group of 1-methylcyclohexanecarboxylic acid with the amino group of 4-amino-2,3-dichlorophenol.",
+    "chebi:charge": "0",
+    "chebi:formula": "C14H17Cl2NO2",
+    "chebi:inchi": "InChI=1S/C14H17Cl2NO2/c1-14(7-3-2-4-8-14)13(19)17-9-5-6-10(18)12(16)11(9)15/h5-6,18H,2-4,7-8H2,1H3,(H,17,19)",
+    "chebi:inchikey": "VDLGAVXLJYLFDH-UHFFFAOYSA-N",
+    "chebi:smiles": "CC1(CCCCC1)C(=O)Nc1ccc(O)c(Cl)c1Cl",
+    "geneontology:hasDbXref": [
+        "PMID:23052036",
+        "AGR:IND500627165",
+        "CAS:126833-17-8",
+        "KEGG:C18593",
+        "Patent:EP339418",
+        "Patent:US5059623",
+        "Pesticides:fenhexamid",
+        "PMID:17390774",
+        "PMID:19285148",
+        "PMID:22045588",
+        "PMID:23139232",
+        "PPDB:298",
+        "Reaxys:8996658"
+    ],
+    "geneontology:hasId": "81853",
+    "geneontology:hasSynonym": [
+        "2',3'-dichloro-4'-hydroxy-1-methylcyclohexanecarboxanilide",
+        "fenhexamide",
+        "KBR 2738",
+        "KBR-2738",
+        "N-(2,3-dichloro-4-hydroxyphenyl)-1-methylcyclohexane-1-carboxamide",
+        "N-(2,3-dichloro-4-hydroxyphenyl)-1-methylcyclohexanecarboxamide",
+        "Teldor"
+    ],
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#3_STAR"
+    },
+    "rdfs:label": "fenhexamid",
+    "rdfs:subClassOf": [
+        {
+            "@id": "obo:CHEBI_33853"
+        },
+        {
+            "@id": "obo:CHEBI_29347"
+        },
+        {
+            "@id": "obo:CHEBI_23697"
+        },
+        {
+            "@id": "obo:CHEBI_62733"
+        },
+        {
+            "@id": "obo:CHEBI_87015"
+        },
+        {
+            "@id": "b382_genid-00f1db82e1ab437c844115a94dc63e635-bn81853t11f83316"
+        },
+        {
+            "@id": "b382_genid-00f1db82e1ab437c844115a94dc63e635-bn81853t11f83317"
+        },
+        {
+            "@id": "b382_genid-00f1db82e1ab437c844115a94dc63e635-bn81853t11f86328"
+        }
+    ]
+}

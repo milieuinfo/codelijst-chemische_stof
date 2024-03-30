@@ -1,0 +1,52 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_29108",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "chebi:charge": "+2",
+    "chebi:formula": "Ca",
+    "chebi:inchi": "InChI=1S/Ca/q+2",
+    "chebi:inchikey": "BHPQYMZQTOCNFJ-UHFFFAOYSA-N",
+    "chebi:smiles": "[Ca++]",
+    "http://purl.uniprot.org/core/name": "Ca(2+)",
+    "geneontology:hasDbXref": [
+        "KEGG:C00076",
+        "CAS:14127-61-8",
+        "Gmelin:6850",
+        "PDBeChem:CA"
+    ],
+    "geneontology:hasId": "29108",
+    "geneontology:hasSynonym": [
+        "Ca(2+)",
+        "Ca2+",
+        "calcium, doubly charged positive ion",
+        "calcium(2+) ion",
+        "calcium(II) cation",
+        "CALCIUM ION"
+    ],
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#3_STAR"
+    },
+    "rdfs:label": "calcium(2+)",
+    "rdfs:subClassOf": [
+        {
+            "@id": "obo:CHEBI_30412"
+        },
+        {
+            "@id": "obo:CHEBI_60240"
+        },
+        {
+            "@id": "b141_genid-00f1db82e1ab437c844115a94dc63e635-bn29108t11f23357"
+        },
+        {
+            "@id": "obo:CHEBI_39123"
+        },
+        {
+            "@id": "b141_genid-00f1db82e1ab437c844115a94dc63e635-bn29108t11f77746"
+        }
+    ]
+}

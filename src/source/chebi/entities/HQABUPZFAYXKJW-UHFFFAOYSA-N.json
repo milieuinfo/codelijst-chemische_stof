@@ -1,0 +1,56 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_43799",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "obo:IAO_0000115": "A primary aliphatic amine that is butane substituted by an amino group at position 1.",
+    "chebi:charge": "0",
+    "chebi:formula": "C4H11N",
+    "chebi:inchi": "InChI=1S/C4H11N/c1-2-3-4-5/h2-5H2,1H3",
+    "chebi:inchikey": "HQABUPZFAYXKJW-UHFFFAOYSA-N",
+    "chebi:smiles": "CCCCN",
+    "geneontology:hasDbXref": [
+        "Beilstein:605269",
+        "CAS:109-73-9",
+        "DrugBank:DB03659",
+        "Gmelin:1784",
+        "MetaCyc:BUTYLAMINE",
+        "PDBeChem:LYT",
+        "PMID:16387436",
+        "PMID:23470444",
+        "PMID:23734590",
+        "Reaxys:605269",
+        "Wikipedia:N-Butylamine"
+    ],
+    "geneontology:hasId": "43799",
+    "geneontology:hasSynonym": [
+        "butylamine",
+        "1-Aminobutan",
+        "1-aminobutane",
+        "1-butanamine",
+        "1-butylamine",
+        "butanamine",
+        "BUTYLAMINE",
+        "monobutylamine",
+        "mono-n-butylamine",
+        "n-Butylamin",
+        "n-butylamine",
+        "n-C4H9NH2"
+    ],
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#3_STAR"
+    },
+    "rdfs:label": "butan-1-amine",
+    "rdfs:subClassOf": [
+        {
+            "@id": "obo:CHEBI_17062"
+        },
+        {
+            "@id": "b521_genid-00f1db82e1ab437c844115a94dc63e635-bn43799tmms73f195458"
+        }
+    ]
+}

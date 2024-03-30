@@ -1,0 +1,31 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_81513",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "chebi:charge": "0",
+    "chebi:formula": "C12HCl7O",
+    "chebi:inchi": "InChI=1S/C12HCl7O/c13-3-1-2-4-6(15)7(16)8(17)10(19)12(4)20-11(2)9(18)5(3)14/h1H",
+    "chebi:inchikey": "WDMKCPIVJOGHBF-UHFFFAOYSA-N",
+    "chebi:smiles": "Clc1cc2c(oc3c(Cl)c(Cl)c(Cl)c(Cl)c23)c(Cl)c1Cl",
+    "geneontology:hasDbXref": [
+        "CAS:67562-39-4",
+        "KEGG:C18111"
+    ],
+    "geneontology:hasId": "81513",
+    "geneontology:hasSynonym": [
+        "1,2,3,4,6,7,8-HpCDF",
+        "PCDF 131"
+    ],
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#2_STAR"
+    },
+    "rdfs:label": "1,2,3,4,6,7,8-Heptachlorodibenzofuran",
+    "rdfs:subClassOf": {
+        "@id": "obo:CHEBI_134046"
+    }
+}

@@ -1,0 +1,36 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_83711",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "obo:IAO_0000115": "A member of the class of triazoles that is 1-hexyl-1H-1,2,4-triazole in which the hydrogens at position 2 of the hexyl chain are replaced by hydroxy and 2,4-dichlorophenyl groups.",
+    "chebi:charge": "0",
+    "chebi:formula": "C14H17Cl2N3O",
+    "chebi:inchi": "InChI=1S/C14H17Cl2N3O/c1-2-3-6-14(20,8-19-10-17-9-18-19)12-5-4-11(15)7-13(12)16/h4-5,7,9-10,20H,2-3,6,8H2,1H3",
+    "chebi:inchikey": "STMIIPIFODONDC-UHFFFAOYSA-N",
+    "chebi:smiles": "CCCCC(O)(Cn1cncn1)c1ccc(Cl)cc1Cl",
+    "geneontology:hasDbXref": "PPDB:382",
+    "geneontology:hasId": "83711",
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#3_STAR"
+    },
+    "rdfs:label": "2-(2,4-dichlorophenyl)-1-(1H-1,2,4-triazol-1-yl)hexan-2-ol",
+    "rdfs:subClassOf": [
+        {
+            "@id": "obo:CHEBI_26878"
+        },
+        {
+            "@id": "obo:CHEBI_35727"
+        },
+        {
+            "@id": "obo:CHEBI_23697"
+        },
+        {
+            "@id": "b217_genid-00f1db82e1ab437c844115a94dc63e635-bn83711t11f38161"
+        }
+    ]
+}

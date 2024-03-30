@@ -1,0 +1,90 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_34608",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "obo:IAO_0000115": "A dicarboximide that is 3a,4,7,7a-tetrahydrophthalimide in which the hydrogen attached to the nitrogen is replaced by a trichloromethyl group. A non-systemic fungicide introduced in the 1950s, it is widely used for the control of fungal diseases in fruits, vegetables, and ornamental crops.",
+    "chebi:charge": "0",
+    "chebi:formula": "C9H8Cl3NO2S",
+    "chebi:inchi": "InChI=1S/C9H8Cl3NO2S/c10-9(11,12)16-13-7(14)5-3-1-2-4-6(5)8(13)15/h1-2,5-6H,3-4H2",
+    "chebi:inchikey": "LDVVMCZRFWMZSG-UHFFFAOYSA-N",
+    "chebi:smiles": "ClC(Cl)(Cl)SN1C(=O)C2CC=CCC2C1=O",
+    "geneontology:hasDbXref": [
+        "CAS:133-06-2",
+        "KEGG:C14438",
+        "Patent:US2553771",
+        "Patent:US2653155",
+        "Patent:US2713058",
+        "Pesticides:captan",
+        "PMID:20433167",
+        "PMID:20569196",
+        "PMID:21121628",
+        "PMID:21381057",
+        "PMID:21381058",
+        "PMID:23692481",
+        "PMID:23742211",
+        "PMID:6578186",
+        "PMID:9530801",
+        "PPDB:114",
+        "Wikipedia:Captan"
+    ],
+    "geneontology:hasId": "34608",
+    "geneontology:hasSynonym": [
+        "1,2,3,6-tetrahydro-N-(trichloromethylthio)phthalimide",
+        "2-[(trichloromethyl)sulfanyl]-3a,4,7,7a-tetrahydro-1H-isoindole-1,3(2H)-dione",
+        "3a,4,7,7a-Tetrahydro-2-((trichloromethyl)thio)-1H-isoindole-1,3(2H)-dione",
+        "3a,4,7,7a-tetrahydro-N-(trichloromethanesulphenyl)phthalimide",
+        "Amercide",
+        "Bangton",
+        "Captab",
+        "Captadin",
+        "Captaf",
+        "captane",
+        "Captanex",
+        "Captex",
+        "ENT 26,538",
+        "Hexacap",
+        "Kaptan",
+        "Malipur",
+        "Merpan",
+        "N-(trichloromethylmercapto)-Delta(4)-tetrahydrophthalimide",
+        "N-[(trichloromethyl)thio]tetrahydrophthalimide",
+        "Neracid",
+        "N-trichloromethylmercapto-4-cyclohexene-1,2-dicarboximide",
+        "N-trichloromethylthio-3a,4,7,7a-tetrahydrophthalimide",
+        "N-trichloromethylthiocyclohex-4-ene-1,2-dicarboximide",
+        "Orthocide",
+        "Osocide",
+        "SR406",
+        "SR 406",
+        "Vanicide",
+        "Venturin",
+        "Vondcaptan",
+        "Zenecal"
+    ],
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#3_STAR"
+    },
+    "rdfs:label": "captan",
+    "rdfs:subClassOf": [
+        {
+            "@id": "obo:CHEBI_33261"
+        },
+        {
+            "@id": "obo:CHEBI_36683"
+        },
+        {
+            "@id": "obo:CHEBI_24897"
+        },
+        {
+            "@id": "b365_genid-00f1db82e1ab437c844115a94dc63e635-bn34608t11f86328"
+        },
+        {
+            "@id": "obo:CHEBI_87198"
+        }
+    ]
+}

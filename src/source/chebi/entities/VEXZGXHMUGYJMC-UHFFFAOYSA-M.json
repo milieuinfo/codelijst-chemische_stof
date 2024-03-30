@@ -1,0 +1,61 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_17996",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "obo:IAO_0000115": "A halide anion formed when chlorine picks up an electron to form an an anion.",
+    "chebi:charge": "-1",
+    "chebi:formula": "Cl",
+    "chebi:inchi": "InChI=1S/ClH/h1H/p-1",
+    "chebi:inchikey": "VEXZGXHMUGYJMC-UHFFFAOYSA-M",
+    "chebi:smiles": "[Cl-]",
+    "http://purl.uniprot.org/core/name": "chloride",
+    "geneontology:hasDbXref": [
+        "Beilstein:3587171",
+        "CAS:16887-00-6",
+        "Gmelin:14910",
+        "KEGG:C00115",
+        "KEGG:C00698",
+        "PDBeChem:CL",
+        "UM-BBD_compID:c0884"
+    ],
+    "geneontology:hasId": "17996",
+    "geneontology:hasSynonym": [
+        "Chloride",
+        "chloride(1-)",
+        "Chloride(1-)",
+        "Chloride ion",
+        "CHLORIDE ION",
+        "Chlorine anion",
+        "Cl-",
+        "Cl(-)"
+    ],
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#3_STAR"
+    },
+    "rdfs:label": "chloride",
+    "rdfs:subClassOf": [
+        {
+            "@id": "obo:CHEBI_16042"
+        },
+        {
+            "@id": "b388_genid-00f1db82e1ab437c844115a94dc63e635-bn17996t5f17883"
+        },
+        {
+            "@id": "b388_genid-00f1db82e1ab437c844115a94dc63e635-bn17996t11f23357"
+        },
+        {
+            "@id": "obo:CHEBI_33432"
+        },
+        {
+            "@id": "b388_genid-00f1db82e1ab437c844115a94dc63e635-bn17996t11f76971"
+        },
+        {
+            "@id": "b388_genid-00f1db82e1ab437c844115a94dc63e635-bn17996t11f77746"
+        }
+    ]
+}

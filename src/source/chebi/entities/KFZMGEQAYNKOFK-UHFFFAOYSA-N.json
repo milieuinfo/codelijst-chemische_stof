@@ -1,0 +1,68 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_17824",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "obo:IAO_0000115": "A secondary alcohol that is propane in which one of the hydrogens attached to the central carbon is substituted by a hydroxy group.",
+    "chebi:charge": "0",
+    "chebi:formula": "C3H8O",
+    "chebi:inchi": "InChI=1S/C3H8O/c1-3(2)4/h3-4H,1-2H3",
+    "chebi:inchikey": "KFZMGEQAYNKOFK-UHFFFAOYSA-N",
+    "chebi:smiles": "CC(C)O",
+    "http://purl.uniprot.org/core/name": "propan-2-ol",
+    "geneontology:hasDbXref": [
+        "Beilstein:635639",
+        "CAS:67-63-0",
+        "Drug_Central:4215",
+        "DrugBank:DB04402",
+        "Gmelin:1464",
+        "HMDB:HMDB0000863",
+        "KEGG:C01845",
+        "KEGG:D00137",
+        "KNApSAcK:C00048438",
+        "MetaCyc:ISO-PROPANOL",
+        "PDBeChem:IPA",
+        "PMID:24524727",
+        "PMID:24653974",
+        "Reaxys:635639",
+        "UM-BBD_compID:c0519",
+        "Wikipedia:Isopropyl_Alcohol",
+        "YMDB:YMDB01718"
+    ],
+    "geneontology:hasId": "17824",
+    "geneontology:hasSynonym": [
+        "1-methylethanol",
+        "1-methylethyl alcohol",
+        "2-hydroxypropane",
+        "2-Propanol",
+        "IPA",
+        "i-propanol",
+        "i-Propylalkohol",
+        "Isopropanol",
+        "isopropyl alcohol",
+        "Isopropyl alcohol",
+        "ISOPROPYL ALCOHOL",
+        "Isopropylalkohol",
+        "Propan-2-ol",
+        "sec-propanol"
+    ],
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#3_STAR"
+    },
+    "rdfs:label": "propan-2-ol",
+    "rdfs:subClassOf": [
+        {
+            "@id": "obo:CHEBI_35681"
+        },
+        {
+            "@id": "obo:CHEBI_167095"
+        },
+        {
+            "@id": "b241_genid-00f1db82e1ab437c844115a94dc63e635-bn17824t11f48356"
+        }
+    ]
+}

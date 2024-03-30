@@ -1,0 +1,62 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_16836",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "obo:IAO_0000115": "A member of the class of 4-nitrophenols that is phenol in which the hydrogen that is para to the hydroxy group has been replaced by a nitro group.",
+    "chebi:charge": "0",
+    "chebi:formula": "C6H5NO3",
+    "chebi:inchi": "InChI=1S/C6H5NO3/c8-6-3-1-5(2-4-6)7(9)10/h1-4,8H",
+    "chebi:inchikey": "BTJIUGUIPKRLHP-UHFFFAOYSA-N",
+    "chebi:smiles": "Oc1ccc(cc1)[N+]([O-])=O",
+    "geneontology:hasDbXref": [
+        "Beilstein:1281877",
+        "CAS:100-02-7",
+        "DrugBank:DB04417",
+        "Gmelin:3311",
+        "HMDB:HMDB0001232",
+        "KEGG:C00870",
+        "MetaCyc:P-NITROPHENOL",
+        "PDBeChem:NPO",
+        "PMID:19365648",
+        "Reaxys:1281877",
+        "UM-BBD_compID:c0086",
+        "Wikipedia:4-Nitrophenol"
+    ],
+    "geneontology:hasId": "16836",
+    "geneontology:hasSynonym": [
+        "4-Hydroxynitrobenzene",
+        "4-Nitrophenol",
+        "Niphen",
+        "paranitrophenol",
+        "p-hydroxynitrobenzene",
+        "p-Nitrophenol",
+        "P-NITROPHENOL",
+        "PNP"
+    ],
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#3_STAR"
+    },
+    "rdfs:label": "4-nitrophenol",
+    "rdfs:subClassOf": [
+        {
+            "@id": "b239_genid-00f1db82e1ab437c844115a94dc63e635-bn16836tmms73f57917"
+        },
+        {
+            "@id": "b239_genid-00f1db82e1ab437c844115a94dc63e635-bn16836t4f57917"
+        },
+        {
+            "@id": "b239_genid-00f1db82e1ab437c844115a94dc63e635-bn16836t11f75771"
+        },
+        {
+            "@id": "b239_genid-00f1db82e1ab437c844115a94dc63e635-bn16836t11f76967"
+        },
+        {
+            "@id": "obo:CHEBI_88306"
+        }
+    ]
+}

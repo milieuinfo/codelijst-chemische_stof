@@ -1,0 +1,71 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_79736",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "obo:IAO_0000115": "A dithiocarbamate salt that is the zinc salt of dimethyldithiocarbamic acid. It is a broad-spectrum fungicide and bird and animal repellent that is also used to accelerate the vulcanisation of rubber.",
+    "chebi:charge": "0",
+    "chebi:formula": "C6H12N2S4Zn",
+    "chebi:inchi": "InChI=1S/2C3H7NS2.Zn/c2*1-4(2)3(5)6;/h2*1-2H3,(H,5,6);/q;;+2/p-2",
+    "chebi:inchikey": "DUBNHZYBDBBJHD-UHFFFAOYSA-L",
+    "chebi:smiles": "CN(C)C(=S)S[Zn]SC(=S)N(C)C",
+    "geneontology:hasDbXref": [
+        "CAS:137-30-4",
+        "KEGG:C15229",
+        "Patent:US2492314",
+        "Pesticides:ziram",
+        "PMID:16007644",
+        "PMID:1842586",
+        "PMID:18818210",
+        "PMID:20842346",
+        "PMID:22159898",
+        "PMID:23298479",
+        "PMID:24750788",
+        "PMID:8478981",
+        "Reaxys:3707008",
+        "Wikipedia:Ziram"
+    ],
+    "geneontology:hasId": "79736",
+    "geneontology:hasSynonym": [
+        "(T-4)-bis(dimethylcarbamodithioato-kappaS,kappaS')zinc",
+        "bis(dimethylcarbamodithioato-S,S')zinc",
+        "bis(dimethyldithiocarbamato)zinc",
+        "bis-dimethyldithiocarbamate de zinc",
+        "dimethyldithiocarbamate zinc salt",
+        "zinc bis(dimethylcarbamodithioate)",
+        "zinc bis(dimethyldithiocarbamate)",
+        "zinc bis(dimethyldithiocarbamoyl)disulphide",
+        "zinc bis(dimethylthiocarbamoyl)disulfide"
+    ],
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#3_STAR"
+    },
+    "rdfs:label": "ziram",
+    "rdfs:subClassOf": [
+        {
+            "@id": "obo:CHEBI_83060"
+        },
+        {
+            "@id": "obo:CHEBI_27364"
+        },
+        {
+            "@id": "b124_genid-00f1db82e1ab437c844115a94dc63e635-bn79736t10f29105"
+        },
+        {
+            "@id": "b124_genid-00f1db82e1ab437c844115a94dc63e635-bn79736t11f68495"
+        },
+        {
+            "@id": "b124_genid-00f1db82e1ab437c844115a94dc63e635-bn79736t8f83061"
+        },
+        {
+            "@id": "b124_genid-00f1db82e1ab437c844115a94dc63e635-bn79736t10f84293"
+        },
+        {
+            "@id": "b124_genid-00f1db82e1ab437c844115a94dc63e635-bn79736t11f86328"
+        }
+    ]
+}

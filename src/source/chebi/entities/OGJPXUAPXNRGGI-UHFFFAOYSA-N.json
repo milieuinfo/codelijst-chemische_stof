@@ -1,0 +1,85 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_100246",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "obo:IAO_0000115": "A quinolinemonocarboxylic acid with broad-spectrum antibacterial activity against most gram-negative and gram-positive bacteria. Norfloxacin is bactericidal and its mode of action depends on blocking of bacterial DNA replication by binding itself to an enzyme called DNA gyrase.",
+    "chebi:charge": "0",
+    "chebi:formula": "C16H18FN3O3",
+    "chebi:inchi": "InChI=1S/C16H18FN3O3/c1-2-19-9-11(16(22)23)15(21)10-7-12(17)14(8-13(10)19)20-5-3-18-4-6-20/h7-9,18H,2-6H2,1H3,(H,22,23)",
+    "chebi:inchikey": "OGJPXUAPXNRGGI-UHFFFAOYSA-N",
+    "chebi:smiles": "CCn1cc(C(O)=O)c(=O)c2cc(F)c(cc12)N1CCNCC1",
+    "geneontology:hasDbXref": [
+        "Patent:DE2840910",
+        "Patent:US4292317",
+        "Beilstein:567897",
+        "CAS:70458-96-7",
+        "Drug_Central:1967",
+        "DrugBank:DB01059",
+        "Gmelin:1576626",
+        "HMDB:HMDB0015192",
+        "KEGG:C06687",
+        "KEGG:D00210",
+        "LINCS:LSM-5286",
+        "Patent:BE863429",
+        "Patent:US4146719",
+        "PMID:3317294",
+        "PMID:3908074",
+        "PMID:6211142",
+        "PMID:6224685",
+        "PMID:6234465",
+        "PMID:6454381",
+        "PMID:6461606",
+        "Reaxys:567897",
+        "VSDB:1831",
+        "Wikipedia:Norfloxacin"
+    ],
+    "geneontology:hasId": "100246",
+    "geneontology:hasSynonym": [
+        "1,4-Dihydro-1-ethyl-6-fluoro-4-oxo-7-(1-piperazinyl)-3-quinolinecarboxylic acid",
+        "1-Ethyl-6-fluor-1,4-dihydro-4-oxo-7-(1-piperazinyl)-3-chinolincarbonsaeure",
+        "1-Ethyl-6-fluoro-1,4-dihydro-4-oxo-7-(1-piperazinyl)-3-quinolinecarboxylic acid",
+        "1-ethyl-6-fluoro-4-oxo-7-(piperazin-1-yl)-1,4-dihydroquinoline-3-carboxylic acid",
+        "NFLX",
+        "norfloxacine",
+        "norfloxacino",
+        "norfloxacinum"
+    ],
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#3_STAR"
+    },
+    "rdfs:label": "norfloxacin",
+    "rdfs:subClassOf": [
+        {
+            "@id": "obo:CHEBI_23765"
+        },
+        {
+            "@id": "obo:CHEBI_26512"
+        },
+        {
+            "@id": "obo:CHEBI_46848"
+        },
+        {
+            "@id": "obo:CHEBI_86324"
+        },
+        {
+            "@id": "obo:CHEBI_87211"
+        },
+        {
+            "@id": "b80_genid-00f1db82e1ab437c844115a94dc63e635-bn100246t11f35703"
+        },
+        {
+            "@id": "b80_genid-00f1db82e1ab437c844115a94dc63e635-bn100246t11f36047"
+        },
+        {
+            "@id": "b80_genid-00f1db82e1ab437c844115a94dc63e635-bn100246t11f59517"
+        },
+        {
+            "@id": "b80_genid-00f1db82e1ab437c844115a94dc63e635-bn100246t11f78298"
+        }
+    ]
+}

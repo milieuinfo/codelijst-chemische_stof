@@ -1,0 +1,29 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_173322",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "chebi:charge": "0",
+    "chebi:formula": "C5H12S",
+    "chebi:inchi": "InChI=1S/C5H12S/c1-2-3-4-5-6/h6H,2-5H2,1H3",
+    "chebi:inchikey": "ZRKMQKLGEQPLNS-UHFFFAOYSA-N",
+    "chebi:smiles": "SCCCCC",
+    "geneontology:hasDbXref": [
+        "CAS:110-66-7",
+        "Chemspider:7776",
+        "HMDB:HMDB0032457"
+    ],
+    "geneontology:hasId": "173322",
+    "geneontology:hasSynonym": "pentane-1-thiol",
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#2_STAR"
+    },
+    "rdfs:label": "1-Pentanethiol",
+    "rdfs:subClassOf": {
+        "@id": "obo:CHEBI_47908"
+    }
+}

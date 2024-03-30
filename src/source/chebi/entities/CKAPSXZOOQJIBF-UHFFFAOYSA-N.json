@@ -1,0 +1,68 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_5692",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "obo:IAO_0000115": "A member of the class of chlorobenzenes that is benzene in which all of the hydrogens are replaced by chlorines. An agricultural fungicide introduced in the mid-1940s and formerly used as a seed treatment, its use has been banned since 1984 under the Stockholm Convention on Persistent Organic Pollutants.",
+    "chebi:charge": "0",
+    "chebi:formula": "C6Cl6",
+    "chebi:inchi": "InChI=1S/C6Cl6/c7-1-2(8)4(10)6(12)5(11)3(1)9",
+    "chebi:inchikey": "CKAPSXZOOQJIBF-UHFFFAOYSA-N",
+    "chebi:smiles": "Clc1c(Cl)c(Cl)c(Cl)c(Cl)c1Cl",
+    "geneontology:hasDbXref": [
+        "Beilstein:1912585",
+        "CAS:118-74-1",
+        "Gmelin:27278",
+        "HMDB:HMDB0032566",
+        "KEGG:C11042",
+        "PMID:10641019",
+        "PMID:12117784",
+        "PMID:17150971",
+        "PMID:23336922",
+        "PMID:23462309",
+        "PMID:23627767",
+        "PMID:23747559",
+        "PMID:23923419",
+        "PMID:23973543",
+        "PMID:24148401",
+        "PMID:24311623",
+        "PMID:24365113",
+        "PPDB:380",
+        "Reaxys:1912585",
+        "Wikipedia:Hexachlorobenzene"
+    ],
+    "geneontology:hasId": "5692",
+    "geneontology:hasSynonym": [
+        "1,2,3,4,5,6-hexachlorobenzene",
+        "HCB",
+        "Hexachlorbenzol",
+        "Hexachlorobenzene",
+        "perchlorobenzene",
+        "phenyl perchloryl"
+    ],
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#3_STAR"
+    },
+    "rdfs:label": "hexachlorobenzene",
+    "rdfs:subClassOf": [
+        {
+            "@id": "obo:CHEBI_23132"
+        },
+        {
+            "@id": "obo:CHEBI_87034"
+        },
+        {
+            "@id": "b318_genid-00f1db82e1ab437c844115a94dc63e635-bn5692t11f50903"
+        },
+        {
+            "@id": "b318_genid-00f1db82e1ab437c844115a94dc63e635-bn5692t11f77853"
+        },
+        {
+            "@id": "b318_genid-00f1db82e1ab437c844115a94dc63e635-bn5692t11f86328"
+        }
+    ]
+}

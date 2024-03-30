@@ -1,0 +1,112 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_39867",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "obo:IAO_0000115": "A branched-chain saturated fatty acid that comprises of a propyl substituent on a pentanoic acid stem.",
+    "chebi:charge": "0",
+    "chebi:formula": "C8H16O2",
+    "chebi:inchi": "InChI=1S/C8H16O2/c1-3-5-7(6-4-2)8(9)10/h7H,3-6H2,1-2H3,(H,9,10)",
+    "chebi:inchikey": "NIJJYAXOARWZEE-UHFFFAOYSA-N",
+    "chebi:smiles": "CCCC(CCC)C(O)=O",
+    "geneontology:hasDbXref": [
+        "Beilstein:1750447",
+        "CAS:99-66-1",
+        "Drug_Central:2803",
+        "DrugBank:DB00313",
+        "HMDB:HMDB0001877",
+        "KEGG:C07185",
+        "KEGG:D00399",
+        "LINCS:LSM-4620",
+        "LIPID_MAPS_instance:LMFA01020291",
+        "PDBeChem:2PP",
+        "PMID:11716839",
+        "PMID:12475192",
+        "PMID:15124690",
+        "PMID:15560954",
+        "PMID:15578701",
+        "PMID:16496131",
+        "PMID:16621443",
+        "PMID:16759735",
+        "PMID:17156483",
+        "PMID:17273758",
+        "PMID:19280426",
+        "PMID:19318486",
+        "PMID:23792104",
+        "PMID:23810771",
+        "PMID:23949302",
+        "PMID:24135375",
+        "PMID:24200999",
+        "PMID:24348849",
+        "PMID:8558327",
+        "PMID:8681902",
+        "Reaxys:1750447",
+        "Wikipedia:Valproic_Acid"
+    ],
+    "geneontology:hasId": "39867",
+    "geneontology:hasSynonym": [
+        "DPA",
+        "Depakene",
+        "2-n-propyl-n-valeric acid",
+        "2-propylpentanoic acid",
+        "2-PROPYL-PENTANOIC ACID",
+        "2-propylvaleric acid",
+        "4-heptanecarboxylic acid",
+        "acide valproique",
+        "acido valproico",
+        "acidum valproicum",
+        "di-n-propylacetic acid",
+        "Di-n-propylessigsaeure",
+        "dipropylacetic acid",
+        "n-DPA",
+        "VALPROIC ACID",
+        "Valproinsaeure",
+        "VPA"
+    ],
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#3_STAR"
+    },
+    "rdfs:label": "valproic acid",
+    "rdfs:subClassOf": [
+        {
+            "@id": "obo:CHEBI_39417"
+        },
+        {
+            "@id": "obo:CHEBI_35819"
+        },
+        {
+            "@id": "b68_genid-00f1db82e1ab437c844115a94dc63e635-bn39867tmms73f60654"
+        },
+        {
+            "@id": "b68_genid-00f1db82e1ab437c844115a94dc63e635-bn39867t8f17418"
+        },
+        {
+            "@id": "b68_genid-00f1db82e1ab437c844115a94dc63e635-bn39867t11f35471"
+        },
+        {
+            "@id": "b68_genid-00f1db82e1ab437c844115a94dc63e635-bn39867t11f35477"
+        },
+        {
+            "@id": "b68_genid-00f1db82e1ab437c844115a94dc63e635-bn39867t11f35623"
+        },
+        {
+            "@id": "b68_genid-00f1db82e1ab437c844115a94dc63e635-bn39867t11f50905"
+        },
+        {
+            "@id": "b68_genid-00f1db82e1ab437c844115a94dc63e635-bn39867t11f51374"
+        },
+        {
+            "@id": "b68_genid-00f1db82e1ab437c844115a94dc63e635-bn39867t4f60654"
+        },
+        {
+            "@id": "b68_genid-00f1db82e1ab437c844115a94dc63e635-bn39867t11f61115"
+        },
+        {
+            "@id": "b68_genid-00f1db82e1ab437c844115a94dc63e635-bn39867t11f63726"
+        }
+    ]
+}

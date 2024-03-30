@@ -1,0 +1,48 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_131421",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "obo:IAO_0000115": "A member of the class of phenols carrying two tert-butyl substituents at positions 2 and 6.",
+    "chebi:charge": "0",
+    "chebi:formula": "C14H22O",
+    "chebi:inchi": "InChI=1S/C14H22O/c1-13(2,3)10-8-7-9-11(12(10)15)14(4,5)6/h7-9,15H,1-6H3",
+    "chebi:inchikey": "DKCPKDPYUFEZCP-UHFFFAOYSA-N",
+    "chebi:smiles": "OC1=C(C(C)(C)C)C=CC=C1C(C)(C)C",
+    "geneontology:hasDbXref": [
+        "CAS:128-39-2",
+        "Chemspider:29135",
+        "PMID:27279638",
+        "PMID:27454828",
+        "PMID:27506338",
+        "Reaxys:1841887",
+        "Wikipedia:2,6-Di-tert-butylphenol"
+    ],
+    "geneontology:hasId": "131421",
+    "geneontology:hasSynonym": [
+        "2,6-(1,1-Dimethylethyl)phenol",
+        "2,6-Bis(1,1-dimethylethyl)phenol",
+        "2,6-Bis(t-butyl)phenol",
+        "2,6-Bis(tert-butyl)phenol",
+        "2,6-Di-t-butylphenol"
+    ],
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#3_STAR"
+    },
+    "rdfs:label": "2,6-di-tert-butylphenol",
+    "rdfs:subClassOf": [
+        {
+            "@id": "obo:CHEBI_33853"
+        },
+        {
+            "@id": "obo:CHEBI_38976"
+        },
+        {
+            "@id": "b59_genid-00f1db82e1ab437c844115a94dc63e635-bn131421t11f22586"
+        }
+    ]
+}

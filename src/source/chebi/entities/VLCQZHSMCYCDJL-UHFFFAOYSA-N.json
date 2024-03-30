@@ -1,0 +1,60 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_9678",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "obo:IAO_0000115": "The methyl ester of tribenuron.",
+    "chebi:charge": "0",
+    "chebi:formula": "C15H17N5O6S",
+    "chebi:inchi": "InChI=1S/C15H17N5O6S/c1-9-16-13(18-14(17-9)26-4)20(2)15(22)19-27(23,24)11-8-6-5-7-10(11)12(21)25-3/h5-8H,1-4H3,(H,19,22)",
+    "chebi:inchikey": "VLCQZHSMCYCDJL-UHFFFAOYSA-N",
+    "chebi:smiles": "COC(=O)c1ccccc1S(=O)(=O)NC(=O)N(C)c1nc(C)nc(OC)n1",
+    "geneontology:hasDbXref": [
+        "CAS:101200-48-0",
+        "KEGG:C10962",
+        "PDBeChem:1TB",
+        "Pesticides:tribenuron",
+        "PMID:20048324",
+        "PMID:21277578",
+        "PMID:21637929",
+        "PMID:21983197",
+        "PMID:22217454",
+        "PPDB:655",
+        "Reaxys:7447730"
+    ],
+    "geneontology:hasId": "9678",
+    "geneontology:hasSynonym": [
+        "methyl 2-[({[(4-methoxy-6-methyl-1,3,5-triazin-2-yl)(methyl)amino]carbonyl}amino)sulfonyl]benzoate",
+        "METHYL 2-[4-METHOXY-6-METHYL-1,3,5-TRAZIN-2-YL(METHYL)CARBAMOYLSULFAMOYL]BENZOATE",
+        "methyl 2-{[(4-methoxy-6-methyl-1,3,5-triazin-2-yl)(methyl)carbamoyl]sulfamoyl}benzoate",
+        "Sulfmethmeton-methyl",
+        "Tribenuron methyl",
+        "Tribenuron-methyl",
+        "Tribenuron methyl ester"
+    ],
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#3_STAR"
+    },
+    "rdfs:label": "tribenuron methyl",
+    "rdfs:subClassOf": [
+        {
+            "@id": "obo:CHEBI_25248"
+        },
+        {
+            "@id": "obo:CHEBI_76983"
+        },
+        {
+            "@id": "obo:CHEBI_38177"
+        },
+        {
+            "@id": "b449_genid-00f1db82e1ab437c844115a94dc63e635-bn9678t11f24527"
+        },
+        {
+            "@id": "b449_genid-00f1db82e1ab437c844115a94dc63e635-bn9678t8f83571"
+        }
+    ]
+}

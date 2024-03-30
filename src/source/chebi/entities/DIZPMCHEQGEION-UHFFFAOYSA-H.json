@@ -1,0 +1,47 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_74768",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "obo:IAO_0000115": "An aluminium sulfate that contains no water of crystallisation.",
+    "chebi:charge": "0",
+    "chebi:formula": "Al2O12S3",
+    "chebi:inchi": "InChI=1S/2Al.3H2O4S/c;;3*1-5(2,3)4/h;;3*(H2,1,2,3,4)/q2*+3;;;/p-6",
+    "chebi:inchikey": "DIZPMCHEQGEION-UHFFFAOYSA-H",
+    "chebi:smiles": "[Al+3].[Al+3].[O-]S([O-])(=O)=O.[O-]S([O-])(=O)=O.[O-]S([O-])(=O)=O",
+    "geneontology:hasDbXref": [
+        "CAS:10043-01-3",
+        "PPDB:26"
+    ],
+    "geneontology:hasId": "74768",
+    "geneontology:hasSynonym": [
+        "Al2(SO4)3",
+        "alum",
+        "aluminium(III) sulfate",
+        "aluminium sesquisulfate",
+        "aluminium sulfate (2:3)",
+        "aluminium sulfate (anh.)",
+        "aluminium sulfate anhydrous",
+        "aluminum(III) sulfate",
+        "aluminum sulfate",
+        "aluminum sulfate (2:3)",
+        "aluminum sulfate anhydrous",
+        "dialuminium trisulfate",
+        "dialuminum trisulfate",
+        "sulfatodialuminium disulfate",
+        "sulfatodialuminum disulfate",
+        "sulfuric acid, aluminium salt (3:2)",
+        "sulfuric acid, aluminum salt (3:2)"
+    ],
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#3_STAR"
+    },
+    "rdfs:label": "aluminium sulfate (anhydrous)",
+    "rdfs:subClassOf": {
+        "@id": "obo:CHEBI_74772"
+    }
+}

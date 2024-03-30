@@ -1,0 +1,33 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_33325",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "chebi:charge": "0",
+    "chebi:formula": "Ra",
+    "chebi:inchi": "InChI=1S/Ra",
+    "chebi:inchikey": "HCWPIIXVSYCSAN-UHFFFAOYSA-N",
+    "chebi:smiles": "[Ra]",
+    "geneontology:hasDbXref": [
+        "CAS:7440-14-4",
+        "WebElements:Ra"
+    ],
+    "geneontology:hasId": "33325",
+    "geneontology:hasSynonym": [
+        "Ra",
+        "88Ra",
+        "radio",
+        "radium"
+    ],
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#3_STAR"
+    },
+    "rdfs:label": "radium atom",
+    "rdfs:subClassOf": {
+        "@id": "obo:CHEBI_22313"
+    }
+}

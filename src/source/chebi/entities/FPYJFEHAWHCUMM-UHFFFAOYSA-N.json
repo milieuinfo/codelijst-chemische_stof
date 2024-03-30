@@ -1,0 +1,55 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_474859",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "obo:IAO_0000115": "A cyclic dicarboxylic anhydride that is the cyclic anhydride of maleic acid.",
+    "chebi:charge": "0",
+    "chebi:formula": "C4H2O3",
+    "chebi:inchi": "InChI=1S/C4H2O3/c5-3-1-2-4(6)7-3/h1-2H",
+    "chebi:inchikey": "FPYJFEHAWHCUMM-UHFFFAOYSA-N",
+    "chebi:smiles": "O=C1OC(=O)C=C1",
+    "geneontology:hasDbXref": [
+        "PMID:1789402",
+        "PMID:3711550",
+        "Beilstein:106909",
+        "CAS:108-31-6",
+        "Gmelin:2728",
+        "PMID:24315947",
+        "PMID:26073302",
+        "PMID:26328347",
+        "PMID:26639665",
+        "PMID:26961914",
+        "Reaxys:106909",
+        "Wikipedia:Maleic_anhydride"
+    ],
+    "geneontology:hasId": "474859",
+    "geneontology:hasSynonym": [
+        "MA",
+        "2,5-Furandione",
+        "cis-Butenedioic anhydride",
+        "Dihydro-2,5-dioxofuran",
+        "furan-2,5-dione",
+        "Maleic acid anhydride",
+        "Toxilic anhydride"
+    ],
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#3_STAR"
+    },
+    "rdfs:label": "maleic anhydride",
+    "rdfs:subClassOf": [
+        {
+            "@id": "obo:CHEBI_36609"
+        },
+        {
+            "@id": "obo:CHEBI_24129"
+        },
+        {
+            "@id": "b225_genid-00f1db82e1ab437c844115a94dc63e635-bn474859t11f50904"
+        }
+    ]
+}

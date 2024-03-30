@@ -1,0 +1,51 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_28786",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "chebi:charge": "0",
+    "chebi:formula": "C12H14N2.2Cl",
+    "chebi:inchi": "InChI=1S/C12H14N2.2ClH/c1-13-7-3-11(4-8-13)12-5-9-14(2)10-6-12;;/h3-10H,1-2H3;2*1H/q+2;;/p-2",
+    "chebi:inchikey": "FIKAKWIAUPDISJ-UHFFFAOYSA-L",
+    "chebi:smiles": "[Cl-].[Cl-].C[n+]1ccc(cc1)-c1cc[n+](C)cc1",
+    "geneontology:hasDbXref": [
+        "CAS:1910-42-5",
+        "KEGG:C00225",
+        "PPDB:1524",
+        "Wikipedia:Paraquat"
+    ],
+    "geneontology:hasId": "28786",
+    "geneontology:hasSynonym": [
+        "1,1'-dimethyl-[4,4'-bipyridin]-1,1'-diium dichloride",
+        "1,1'-Dimethyl-4,4'-bipyridinium dichloride",
+        "1,1'-Dimethyl-4,4'-dipyridylium dichloride",
+        "4,4'-Dimethyldipyridyl dichloride",
+        "Methyl viologen",
+        "Methyl viologen dichloride",
+        "N,N'-Dimethyl-4,4'-bipyridinium dichloride",
+        "N,N'-Dimethyl-4,4'-bipyridylium dichloride",
+        "Paraquat dichloride"
+    ],
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#3_STAR"
+    },
+    "rdfs:label": "paraquat dichloride",
+    "rdfs:subClassOf": [
+        {
+            "@id": "obo:CHEBI_36094"
+        },
+        {
+            "@id": "b193_genid-00f1db82e1ab437c844115a94dc63e635-bn28786t11f24527"
+        },
+        {
+            "@id": "b193_genid-00f1db82e1ab437c844115a94dc63e635-bn28786t11f26088"
+        },
+        {
+            "@id": "b193_genid-00f1db82e1ab437c844115a94dc63e635-bn28786t10f34905"
+        }
+    ]
+}

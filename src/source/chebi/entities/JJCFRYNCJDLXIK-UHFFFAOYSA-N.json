@@ -1,0 +1,70 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_4046",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "obo:IAO_0000115": "The product resulting from the formal oxidative coupling of position 5 of 5H-dibenzo[a,d]cycloheptene with position 4 of 1-methylpiperidine resulting in the formation of a double bond between the two fragments. It is a sedating antihistamine with antimuscarinic and calcium-channel blocking actions. It is used (particularly as the hydrochloride sesquihydrate) for the relief of allergic conditions including rhinitis, conjunctivitis due to inhalant allergens and foods, urticaria and angioedema, and in pruritic skin disorders. Unlike other antihistamines, it is also a seratonin receptor antagonist, making it useful in conditions such as vascular headache and anorexia.",
+    "chebi:charge": "0",
+    "chebi:formula": "C21H21N",
+    "chebi:inchi": "InChI=1S/C21H21N/c1-22-14-12-18(13-15-22)21-19-8-4-2-6-16(19)10-11-17-7-3-5-9-20(17)21/h2-11H,12-15H2,1H3",
+    "chebi:inchikey": "JJCFRYNCJDLXIK-UHFFFAOYSA-N",
+    "chebi:smiles": "CN1CCC(CC1)=C1c2ccccc2C=Cc2ccccc12",
+    "geneontology:hasDbXref": [
+        "Beilstein:1348386",
+        "CAS:129-03-3",
+        "Drug_Central:765",
+        "DrugBank:DB00434",
+        "KEGG:C06935",
+        "KEGG:D07765",
+        "LINCS:LSM-5419",
+        "Patent:US3014911",
+        "PMID:10843226",
+        "Wikipedia:Cyproheptadine"
+    ],
+    "geneontology:hasId": "4046",
+    "geneontology:hasSynonym": [
+        "1-methyl-4-(5-dibenzo(a,e)cycloheptatrienylidene)piperidine",
+        "1-Methyl-4-(5H-dibenzo(a,d)cycloheptenylidene)piperidine",
+        "4-(5-dibenzo(a,d)cyclohepten-5-ylidine)-1-methylpiperidine",
+        "4-(5H-dibenzo(a,d)cyclohepten-5-ylidene)-1-methylpiperidine",
+        "4-(5H-dibenzo[a,d][7]annulen-5-ylidene)-1-methylpiperidine",
+        "4-(5H-dibenzo[a,d]cyclohepten-5-ylidene)-1-methylpiperidine",
+        "4-Dibenzo[a,d]cyclohepten-5-ylidene-1-methyl-piperidine",
+        "5-(1-methylpiperidylidene-4)-5H-dibenzo(a,d)cyclopheptene",
+        "ciproheptadina",
+        "Cyproheptadine",
+        "CYPROHEPTADINE",
+        "cyproheptadinum"
+    ],
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#3_STAR"
+    },
+    "rdfs:label": "cyproheptadine",
+    "rdfs:subClassOf": [
+        {
+            "@id": "obo:CHEBI_26151"
+        },
+        {
+            "@id": "obo:CHEBI_32876"
+        },
+        {
+            "@id": "b116_genid-00f1db82e1ab437c844115a94dc63e635-bn4046t11f37955"
+        },
+        {
+            "@id": "b116_genid-00f1db82e1ab437c844115a94dc63e635-bn4046t11f48279"
+        },
+        {
+            "@id": "b116_genid-00f1db82e1ab437c844115a94dc63e635-bn4046t11f50857"
+        },
+        {
+            "@id": "b116_genid-00f1db82e1ab437c844115a94dc63e635-bn4046t11f55324"
+        },
+        {
+            "@id": "b116_genid-00f1db82e1ab437c844115a94dc63e635-bn4046t11f59683"
+        }
+    ]
+}

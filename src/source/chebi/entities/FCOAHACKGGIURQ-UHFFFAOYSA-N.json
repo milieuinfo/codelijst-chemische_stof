@@ -1,0 +1,56 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_79737",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "obo:IAO_0000115": "An organic thiophosphate that is the S-benzyl O,O-diisopropyl ester of phosphorothioic acid. Used as a rice fungicide to control leaf and ear blast, stem rot and sheath blight.",
+    "chebi:charge": "0",
+    "chebi:formula": "C13H21O3PS",
+    "chebi:inchi": "InChI=1S/C13H21O3PS/c1-11(2)15-17(14,16-12(3)4)18-10-13-8-6-5-7-9-13/h5-9,11-12H,10H2,1-4H3",
+    "chebi:inchikey": "FCOAHACKGGIURQ-UHFFFAOYSA-N",
+    "chebi:smiles": "CC(C)OP(=O)(OC(C)C)SCc1ccccc1",
+    "geneontology:hasDbXref": [
+        "CAS:26087-47-8",
+        "HMDB:HMDB0031768",
+        "KEGG:C15230",
+        "Patent:CN101569313",
+        "Patent:CN101647467",
+        "Patent:CN1930986",
+        "Pesticides:iprobenfos",
+        "PMID:16235270",
+        "PMID:21674152",
+        "PPDB:1207",
+        "Reaxys:1974687"
+    ],
+    "geneontology:hasId": "79737",
+    "geneontology:hasSynonym": [
+        "Kitazin P",
+        "O,O-Bis(1-methylethyl) S-(phenylmethyl)phosphorothioate",
+        "O,O-Diisopropyl S-benzyl phosphorothioate",
+        "O,O-DIIsopropyl S-benzyl thiophosphate",
+        "Phosphorothioic acid, S-benzyl O,O-diisopropyl ester",
+        "S-Benzyl diisopropyl phosphorothioate",
+        "S-Benzyl O,O-diisopropyl phosphorothioate",
+        "S-Benzyl O,O-diisopropyl thiophosphate",
+        "S-benzyl O,O-dipropan-2-yl phosphorothioate"
+    ],
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#3_STAR"
+    },
+    "rdfs:label": "iprobenfos",
+    "rdfs:subClassOf": [
+        {
+            "@id": "obo:CHEBI_37512"
+        },
+        {
+            "@id": "b165_genid-00f1db82e1ab437c844115a94dc63e635-bn79737t11f83741"
+        },
+        {
+            "@id": "b165_genid-00f1db82e1ab437c844115a94dc63e635-bn79737t11f86328"
+        }
+    ]
+}

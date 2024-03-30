@@ -1,0 +1,29 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_195650",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "chebi:charge": "0",
+    "chebi:formula": "C6H12O",
+    "chebi:inchi": "InChI=1S/C6H12O/c1-4-5(2)6(3)7/h5H,4H2,1-3H3",
+    "chebi:inchikey": "UIHCLUNTQKBZGK-UHFFFAOYSA-N",
+    "chebi:smiles": "O=C(C(CC)C)C",
+    "geneontology:hasDbXref": [
+        "CAS:565-61-7",
+        "Chemspider:10788",
+        "LIPID_MAPS_instance:LMFA12000027"
+    ],
+    "geneontology:hasId": "195650",
+    "geneontology:hasSynonym": "3-methylpentan-2-one",
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#2_STAR"
+    },
+    "rdfs:label": "3-Methylpentan-2-one",
+    "rdfs:subClassOf": {
+        "@id": "obo:CHEBI_17087"
+    }
+}

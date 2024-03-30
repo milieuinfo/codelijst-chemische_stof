@@ -1,0 +1,51 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_16881",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "chebi:charge": "0",
+    "chebi:formula": "C8H7N",
+    "chebi:inchi": "InChI=1S/C8H7N/c1-2-4-8-7(3-1)5-6-9-8/h1-6,9H",
+    "chebi:inchikey": "SIKJAQJRHWYJAI-UHFFFAOYSA-N",
+    "chebi:smiles": "c1cc2ccccc2[nH]1",
+    "http://purl.uniprot.org/core/name": "indole",
+    "geneontology:hasDbXref": [
+        "Beilstein:107693",
+        "CAS:120-72-9",
+        "DrugBank:DB04532",
+        "Gmelin:3477",
+        "KEGG:C00463",
+        "KNApSAcK:C00001418",
+        "PDBeChem:IND"
+    ],
+    "geneontology:hasId": "16881",
+    "geneontology:hasSynonym": [
+        "indole",
+        "2,3-Benzopyrrole",
+        "Indol",
+        "Indole",
+        "INDOLE"
+    ],
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#3_STAR"
+    },
+    "rdfs:label": "1H-indole",
+    "rdfs:subClassOf": [
+        {
+            "@id": "obo:CHEBI_38180"
+        },
+        {
+            "@id": "b158_genid-00f1db82e1ab437c844115a94dc63e635-bn16881t7f35579"
+        },
+        {
+            "@id": "obo:CHEBI_35581"
+        },
+        {
+            "@id": "b158_genid-00f1db82e1ab437c844115a94dc63e635-bn16881t11f76971"
+        }
+    ]
+}

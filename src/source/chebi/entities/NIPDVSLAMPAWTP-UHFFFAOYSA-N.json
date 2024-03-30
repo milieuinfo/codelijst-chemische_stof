@@ -1,0 +1,43 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_48977",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "chebi:charge": "0",
+    "chebi:formula": "C7H8N2O3",
+    "chebi:inchi": "InChI=1S/C7H8N2O3/c1-12-7-3-2-5(9(10)11)4-6(7)8/h2-4H,8H2,1H3",
+    "chebi:inchikey": "NIPDVSLAMPAWTP-UHFFFAOYSA-N",
+    "chebi:smiles": "COc1ccc(cc1N)[N+]([O-])=O",
+    "geneontology:hasDbXref": [
+        "Beilstein:879620",
+        "CAS:99-59-2",
+        "KEGG:C19469"
+    ],
+    "geneontology:hasId": "48977",
+    "geneontology:hasSynonym": [
+        "2-Amino-1-methoxy-4-nitrobenzene",
+        "2-Amino-4-nitroanisole",
+        "2-Methoxy-5-nitroaniline",
+        "2-Methoxy-5-nitrobenzenamine",
+        "5-Nitro-2-methoxyaniline",
+        "5-Nitro-o-anisidine",
+        "Azoamine Scarlet K",
+        "Fast Scarlet R"
+    ],
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#3_STAR"
+    },
+    "rdfs:label": "2-methoxy-5-nitroaniline",
+    "rdfs:subClassOf": [
+        {
+            "@id": "obo:CHEBI_48975"
+        },
+        {
+            "@id": "obo:CHEBI_48976"
+        }
+    ]
+}

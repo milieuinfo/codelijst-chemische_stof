@@ -1,0 +1,76 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_141213",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "obo:IAO_0000115": "A member of the class of isoxazoles that is 1,2-oxazole substituted by a 2-(methanesulfonyl)-4-(trifluoromethyl)benzoyl group and a cyclopropyl group at positions 4 and 5, respectively. It is a 4-hydroxyphenylpyruvate dioxygenase inhibitor which is used as a herbicide for weed control in maize and sugarcane.",
+    "chebi:charge": "0",
+    "chebi:formula": "C15H12F3NO4S",
+    "chebi:inchi": "InChI=1S/C15H12F3NO4S/c1-24(21,22)12-6-9(15(16,17)18)4-5-10(12)13(20)11-7-19-23-14(11)8-2-3-8/h4-8H,2-3H2,1H3",
+    "chebi:inchikey": "OYIKARCXOQLFHF-UHFFFAOYSA-N",
+    "chebi:smiles": "CS(C=1C=C(C=CC1C(C=2C=NOC2C3CC3)=O)C(F)(F)F)(=O)=O",
+    "geneontology:hasDbXref": [
+        "AGR:IND44260626",
+        "AGR:IND601309029",
+        "CAS:141112-29-0",
+        "DrugBank:DB12938",
+        "Patent:EP527036",
+        "PMID:10858299",
+        "PMID:11455644",
+        "PMID:12236689",
+        "PMID:12502399",
+        "PMID:15092948",
+        "PMID:19333913",
+        "PMID:22677522",
+        "PMID:29170513",
+        "Reaxys:8344543"
+    ],
+    "geneontology:hasId": "141213",
+    "geneontology:hasSynonym": [
+        "Balance",
+        "(5-cyclopropyl-1,2-oxazol-4-yl)(alpha,alpha,alpha-trifluoro-2-mesyl-p-tolyl)methanone",
+        "(5-cyclopropyl-1,2-oxazol-4-yl)[2-(methylsulfonyl)-4-(trifluoromethyl)phenyl]methanone",
+        "(5-cyclopropyl-4-isoxazolyl)[2-(methylsulfonyl)-4-(trifluoromethyl)phenyl]methanone",
+        "(5-cyclopropylisoxazol-4-yl)(alpha,alpha,alpha-trifluoro-2-mesyl-p-tolyl)methanone",
+        "5-cyclopropyl-1,2-oxazol-4-yl alpha,alpha,alpha-trifluoro-2-mesyl-p-tolyl ketone",
+        "5-cyclopropyl-4-[2-methanesulfonyl-4-(trifluoromethyl)benzoyl]-1,2-oxazole",
+        "EXP 31130A",
+        "Merlin",
+        "RP 201772",
+        "RPA 201772"
+    ],
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#3_STAR"
+    },
+    "rdfs:label": "isoxaflutole",
+    "rdfs:subClassOf": [
+        {
+            "@id": "obo:CHEBI_76224"
+        },
+        {
+            "@id": "obo:CHEBI_55373"
+        },
+        {
+            "@id": "obo:CHEBI_83565"
+        },
+        {
+            "@id": "obo:CHEBI_51454"
+        },
+        {
+            "@id": "obo:CHEBI_35850"
+        },
+        {
+            "@id": "b54_genid-00f1db82e1ab437c844115a94dc63e635-bn141213t11f33286"
+        },
+        {
+            "@id": "b54_genid-00f1db82e1ab437c844115a94dc63e635-bn141213t11f38317"
+        },
+        {
+            "@id": "b54_genid-00f1db82e1ab437c844115a94dc63e635-bn141213t11f136646"
+        }
+    ]
+}

@@ -1,0 +1,50 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_7728",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "obo:IAO_0000115": "An 8-carbon primary aliphatic amine.",
+    "chebi:charge": "0",
+    "chebi:formula": "C8H19N",
+    "chebi:inchi": "InChI=1S/C8H19N/c1-2-3-4-5-6-7-8-9/h2-9H2,1H3",
+    "chebi:inchikey": "IOQPZZOEVPZRBK-UHFFFAOYSA-N",
+    "chebi:smiles": "CCCCCCCCN",
+    "geneontology:hasDbXref": [
+        "CAS:111-86-4",
+        "KEGG:C01740",
+        "PMID:29674022",
+        "PMID:37438993",
+        "PMID:6216130",
+        "Reaxys:1679227"
+    ],
+    "geneontology:hasId": "7728",
+    "geneontology:hasSynonym": [
+        "1-Aminooctane",
+        "1-octanamine",
+        "Monoctylamine",
+        "N-Octylamine",
+        "Octylamine"
+    ],
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#3_STAR"
+    },
+    "rdfs:label": "octan-1-amine",
+    "rdfs:subClassOf": [
+        {
+            "@id": "obo:CHEBI_17062"
+        },
+        {
+            "@id": "b652_genid-00f1db82e1ab437c844115a94dc63e635-bn7728tmms73f195453"
+        },
+        {
+            "@id": "b652_genid-00f1db82e1ab437c844115a94dc63e635-bn7728t11f25212"
+        },
+        {
+            "@id": "b652_genid-00f1db82e1ab437c844115a94dc63e635-bn7728t5f195453"
+        }
+    ]
+}

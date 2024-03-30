@@ -1,0 +1,68 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_78870",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "obo:IAO_0000115": "An inorganic sodium salt having nitrite as the counterion. Used as a food preservative and antidote to cyanide poisoning.",
+    "chebi:charge": "0",
+    "chebi:formula": "NNaO2",
+    "chebi:inchi": "InChI=1S/HNO2.Na/c2-1-3;/h(H,2,3);/q;+1/p-1",
+    "chebi:inchikey": "LPXPTNMVRIOKMN-UHFFFAOYSA-M",
+    "chebi:smiles": "[Na+].[O-]N=O",
+    "geneontology:hasDbXref": [
+        "CAS:7632-00-0",
+        "KEGG:D05865",
+        "PMID:24200576",
+        "PMID:24266433",
+        "PMID:24333935",
+        "PMID:24363302",
+        "PMID:24535441",
+        "PMID:24639423",
+        "PMID:24658348",
+        "PMID:24834717",
+        "PMID:24861891",
+        "PMID:24878382",
+        "PMID:24898570",
+        "PMID:24929713",
+        "Reaxys:906771",
+        "Wikipedia:Sodium_nitrite"
+    ],
+    "geneontology:hasId": "78870",
+    "geneontology:hasSynonym": [
+        "NaNO2",
+        "Natrium nitrit",
+        "Nitrite de sodium",
+        "Nitrito sodico"
+    ],
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#3_STAR"
+    },
+    "rdfs:label": "sodium nitrite",
+    "rdfs:subClassOf": [
+        {
+            "@id": "obo:CHEBI_38702"
+        },
+        {
+            "@id": "obo:CHEBI_46648"
+        },
+        {
+            "@id": "b436_genid-00f1db82e1ab437c844115a94dc63e635-bn78870t11f35674"
+        },
+        {
+            "@id": "b436_genid-00f1db82e1ab437c844115a94dc63e635-bn78870t11f64909"
+        },
+        {
+            "@id": "b436_genid-00f1db82e1ab437c844115a94dc63e635-bn78870t11f65256"
+        },
+        {
+            "@id": "b436_genid-00f1db82e1ab437c844115a94dc63e635-bn78870t11f77962"
+        },
+        {
+            "@id": "b436_genid-00f1db82e1ab437c844115a94dc63e635-bn78870t11f90749"
+        }
+    ]
+}

@@ -1,0 +1,55 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_88215",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "obo:IAO_0000115": "An osmium coordination entity consisting of four oxygen atoms bound to a central osmium atom via covalent double bonds.",
+    "chebi:charge": "0",
+    "chebi:formula": "O4Os",
+    "chebi:inchi": "InChI=1S/4O.Os",
+    "chebi:inchikey": "VUVGYHUDAICLFK-UHFFFAOYSA-N",
+    "chebi:smiles": "O=[Os](=O)(=O)=O",
+    "geneontology:hasDbXref": [
+        "PMID:12530969",
+        "CAS:20816-12-0",
+        "PMID:23975065",
+        "PMID:25871651",
+        "Reaxys:11406415",
+        "Wikipedia:Osmium_tetroxide"
+    ],
+    "geneontology:hasId": "88215",
+    "geneontology:hasSynonym": [
+        "Osmic acid",
+        "Osmic acid anhydride",
+        "Osmium oxide",
+        "Osmium tetraoxide",
+        "Perosmic acid anhydride",
+        "Perosmic oxide",
+        "tetraoxoosmium"
+    ],
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#3_STAR"
+    },
+    "rdfs:label": "osmium tetroxide",
+    "rdfs:subClassOf": [
+        {
+            "@id": "obo:CHEBI_35731"
+        },
+        {
+            "@id": "b95_genid-00f1db82e1ab437c844115a94dc63e635-bn88215t11f50913"
+        },
+        {
+            "@id": "b95_genid-00f1db82e1ab437c844115a94dc63e635-bn88215t11f63248"
+        },
+        {
+            "@id": "b95_genid-00f1db82e1ab437c844115a94dc63e635-bn88215t11f64909"
+        },
+        {
+            "@id": "b95_genid-00f1db82e1ab437c844115a94dc63e635-bn88215t11f77178"
+        }
+    ]
+}

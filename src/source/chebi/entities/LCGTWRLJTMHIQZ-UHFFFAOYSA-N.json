@@ -1,0 +1,82 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_47802",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "obo:IAO_0000115": "A mancude organic heterotricyclic parent that consists of a seven-membered nitrogen hetrocycle fused with two benzene rings.",
+    "chebi:charge": "0",
+    "chebi:formula": "C14H11N",
+    "chebi:inchi": "InChI=1S/C14H11N/c1-3-7-13-11(5-1)9-10-12-6-2-4-8-14(12)15-13/h1-10,15H",
+    "chebi:inchikey": "LCGTWRLJTMHIQZ-UHFFFAOYSA-N",
+    "chebi:smiles": "N1C2=C(C=CC=C2)C=CC2=C1C=CC=C2",
+    "geneontology:hasDbXref": [
+        "PMID:22322005",
+        "Beilstein:1343358",
+        "CAS:256-96-2",
+        "Chemspider:8857",
+        "PDBeChem:ONB",
+        "PMID:11767950",
+        "PMID:12052500",
+        "PMID:12061877",
+        "PMID:15837018",
+        "PMID:16203183",
+        "PMID:17236778",
+        "PMID:18779941",
+        "PMID:19486265",
+        "PMID:19774656",
+        "PMID:20922935",
+        "PMID:21087114",
+        "PMID:21441615",
+        "PMID:22751668",
+        "PMID:2322636",
+        "PMID:24358274",
+        "PMID:27175105",
+        "PMID:27389944",
+        "PMID:27807790",
+        "PMID:30660838",
+        "PMID:30754023",
+        "PMID:30823329",
+        "PMID:31718245",
+        "PMID:33381027",
+        "PMID:33842007",
+        "PMID:3680120",
+        "PMID:4146691",
+        "PMID:5982986",
+        "PMID:7587936",
+        "PMID:8385460",
+        "PMID:870507",
+        "Reaxys:1343358",
+        "Wikipedia:Dibenzazepine"
+    ],
+    "geneontology:hasId": "47802",
+    "geneontology:hasSynonym": [
+        "dibenzazepine",
+        "2,2'-iminostilbene",
+        "2,3,6,7-dibenzazepine",
+        "5H-Dibenz[b,f]azepin",
+        "5H-dibenz[b,f]azepine",
+        "5H-dibenzazepine",
+        "dibenz(b,f)azepine",
+        "iminostilbene",
+        "o,o'-iminostilbene"
+    ],
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#3_STAR"
+    },
+    "rdfs:label": "5H-dibenzo[b,f]azepine",
+    "rdfs:subClassOf": [
+        {
+            "@id": "obo:CHEBI_47804"
+        },
+        {
+            "@id": "obo:CHEBI_36416"
+        },
+        {
+            "@id": "b360_genid-00f1db82e1ab437c844115a94dc63e635-bn47802t11f83399"
+        }
+    ]
+}

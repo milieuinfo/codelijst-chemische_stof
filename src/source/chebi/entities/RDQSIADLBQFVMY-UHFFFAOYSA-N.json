@@ -1,0 +1,49 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_89187",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "chebi:charge": "0",
+    "chebi:formula": "C14H20O2",
+    "chebi:inchi": "InChI=1S/C14H20O2/c1-13(2,3)10-7-9(15)8-11(12(10)16)14(4,5)6/h7-8H,1-6H3",
+    "chebi:inchikey": "RDQSIADLBQFVMY-UHFFFAOYSA-N",
+    "chebi:smiles": "C1=C(C(=O)C(=CC1=O)C(C)(C)C)C(C)(C)C",
+    "geneontology:hasDbXref": [
+        "CAS:719-22-2",
+        "HMDB:HMDB0013817"
+    ],
+    "geneontology:hasId": "89187",
+    "geneontology:hasSynonym": [
+        "2,6-Bis(1,1-dimethylethyl)-2,5-Cyclohexadiene-1,4-dione",
+        "2,6-Bis(1,1-Dimethylethyl)-2,5-cyclohexadiene-1,4-dione",
+        "2,6-Bis(1, 1-Dimethylethyl)-2,5-cyclohexadiene-1,4-dione",
+        "2,6-Bis-(1,1-Dimethylethyl)-2,5-cycloxehadien-1,4-dione",
+        "2,6-Bis-tert-Butylbenzoquinone",
+        "2,6-Di-t-Butyl-p-benzoquinone",
+        "2,6-di-tert-butyl-1,4-benzoquinone",
+        "2,6-Di-tert-butyl-1,4-benzoquinone",
+        "2,6-Ditert-butylbenzo-1,4-quinone (ACD/Name 4.0)",
+        "2,6-di-tert-butylcyclohexa-2,5-diene-1,4-dione",
+        "2,6-Di-tert-Butyl-para-benzoquinone",
+        "2,6-di-tert-butyl-p-benzoquinone",
+        "2,6-Di-tert-butyl-p-Benzoquinone",
+        "2,6-Di-tert-Butyl-p-benzoquinone",
+        "2, 6-Di-tert-butyl-p-benzoquinone",
+        "2,6-Di-tert-butylquinone",
+        "2, 6-Di-tert-butylquinone",
+        "Benzoquinone, 2,6-di-(1,1-dimethylethyl)",
+        "DBQ",
+        "p-Benzoquinone, 2,6-bis-(1,1-dimethylethyl)"
+    ],
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#2_STAR"
+    },
+    "rdfs:label": "2,6-Di-tert-butylbenzoquinone",
+    "rdfs:subClassOf": {
+        "@id": "obo:CHEBI_132124"
+    }
+}

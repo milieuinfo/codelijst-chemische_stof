@@ -1,0 +1,27 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_125455",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "chebi:charge": "0",
+    "chebi:formula": "C12H8Cl6O",
+    "chebi:inchi": "InChI=1S/C12H8Cl6O/c13-8-9(14)11(16)5-3-1-2(6-7(3)19-6)4(5)10(8,15)12(11,17)18/h2-7H,1H2",
+    "chebi:inchikey": "DFBKLUNHFCTMDC-UHFFFAOYSA-N",
+    "chebi:smiles": "C1C2C3C(C1C4C2O4)C5(C(=C(C3(C5(Cl)Cl)Cl)Cl)Cl)Cl",
+    "geneontology:hasDbXref": [
+        "HMDB:HMDB0031211",
+        "LINCS:LSM-36947"
+    ],
+    "geneontology:hasId": "125455",
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#2_STAR"
+    },
+    "rdfs:label": "LSM-36947",
+    "rdfs:subClassOf": {
+        "@id": "obo:CHEBI_25409"
+    }
+}

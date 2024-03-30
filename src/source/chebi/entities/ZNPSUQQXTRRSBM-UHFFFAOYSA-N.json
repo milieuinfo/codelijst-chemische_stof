@@ -1,0 +1,28 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_34441",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "chebi:charge": "0",
+    "chebi:formula": "C11H16O",
+    "chebi:inchi": "InChI=1S/C11H16O/c1-2-3-4-5-10-6-8-11(12)9-7-10/h6-9,12H,2-5H2,1H3",
+    "chebi:inchikey": "ZNPSUQQXTRRSBM-UHFFFAOYSA-N",
+    "chebi:smiles": "CCCCCc1ccc(O)cc1",
+    "geneontology:hasDbXref": [
+        "CAS:14938-35-3",
+        "KEGG:C14466"
+    ],
+    "geneontology:hasId": "34441",
+    "geneontology:hasSynonym": "p-Amylphenol",
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#2_STAR"
+    },
+    "rdfs:label": "4-n-Pentylphenol",
+    "rdfs:subClassOf": {
+        "@id": "obo:CHEBI_33853"
+    }
+}

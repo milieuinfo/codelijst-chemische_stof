@@ -1,0 +1,65 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_41189",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "obo:IAO_0000115": "A butanediol that is butane in which one hydrogen of each of the methyl groups is substituted by a hydroxy group. A colourless, water-miscible, viscous liquid at room temperature (m.p. 16degreeC) with a high boiling point (230degreeC), it is mainly used for the production of other organic chemicals, particularly the solvent oxolane (also known as tetrahydrofuran or THF).",
+    "chebi:charge": "0",
+    "chebi:formula": "C4H10O2",
+    "chebi:inchi": "InChI=1S/C4H10O2/c5-3-1-2-4-6/h5-6H,1-4H2",
+    "chebi:inchikey": "WERYXYBDKMZEQL-UHFFFAOYSA-N",
+    "chebi:smiles": "OCCCCO",
+    "geneontology:hasDbXref": [
+        "CAS:110-63-4",
+        "DrugBank:DB01955",
+        "PDBeChem:BU1",
+        "PMID:11803699",
+        "PMID:15298490",
+        "PMID:16193534",
+        "PMID:17854202",
+        "PMID:18203723",
+        "PMID:19915428",
+        "PMID:20112336",
+        "PMID:21548140",
+        "PMID:21602812",
+        "Reaxys:1633445",
+        "Wikipedia:1,4-Butanediol"
+    ],
+    "geneontology:hasId": "41189",
+    "geneontology:hasSynonym": [
+        "1,4-BD",
+        "1,4-BUTANEDIOL",
+        "1,4-butylene glycol",
+        "1,4-dihydroxybutane",
+        "1,4-tetramethylene glycol",
+        "HO(CH2)4OH",
+        "HOCH2CH2CH2CH2OH",
+        "tetramethylene 1,4-diol",
+        "tetramethylene glycol"
+    ],
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#3_STAR"
+    },
+    "rdfs:label": "butane-1,4-diol",
+    "rdfs:subClassOf": [
+        {
+            "@id": "obo:CHEBI_13643"
+        },
+        {
+            "@id": "obo:CHEBI_52684"
+        },
+        {
+            "@id": "b144_genid-00f1db82e1ab437c844115a94dc63e635-bn41189t11f48356"
+        },
+        {
+            "@id": "b144_genid-00f1db82e1ab437c844115a94dc63e635-bn41189t11f50266"
+        },
+        {
+            "@id": "b144_genid-00f1db82e1ab437c844115a94dc63e635-bn41189t11f50910"
+        }
+    ]
+}

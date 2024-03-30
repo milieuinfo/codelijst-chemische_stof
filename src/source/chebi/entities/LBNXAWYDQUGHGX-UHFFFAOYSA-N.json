@@ -1,0 +1,34 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_88592",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "chebi:charge": "0",
+    "chebi:formula": "C13H20",
+    "chebi:inchi": "InChI=1S/C13H20/c1-2-3-4-5-7-10-13-11-8-6-9-12-13/h6,8-9,11-12H,2-5,7,10H2,1H3",
+    "chebi:inchikey": "LBNXAWYDQUGHGX-UHFFFAOYSA-N",
+    "chebi:smiles": "CCCCCCCC1=CC=CC=C1",
+    "geneontology:hasDbXref": [
+        "PMID:24421258",
+        "PMID:5073722",
+        "HMDB:HMDB0061825",
+        "PMID:16352706",
+        "PMID:19168707",
+        "PMID:19502530",
+        "PMID:22514334",
+        "PMID:8920179"
+    ],
+    "geneontology:hasId": "88592",
+    "geneontology:hasSynonym": "heptylbenzene",
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#2_STAR"
+    },
+    "rdfs:label": "1-Phenylheptane",
+    "rdfs:subClassOf": {
+        "@id": "obo:CHEBI_22712"
+    }
+}

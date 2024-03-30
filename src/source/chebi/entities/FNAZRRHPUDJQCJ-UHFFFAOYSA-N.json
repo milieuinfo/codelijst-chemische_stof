@@ -1,0 +1,53 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_32931",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "obo:IAO_0000115": "An alkane that has 21 carbons and a straight-chain structure. It has been isolated from plants like Periploca laevigata and Carthamus tinctorius.",
+    "chebi:charge": "0",
+    "chebi:formula": "C21H44",
+    "chebi:inchi": "InChI=1S/C21H44/c1-3-5-7-9-11-13-15-17-19-21-20-18-16-14-12-10-8-6-4-2/h3-21H2,1-2H3",
+    "chebi:inchikey": "FNAZRRHPUDJQCJ-UHFFFAOYSA-N",
+    "chebi:smiles": "CCCCCCCCCCCCCCCCCCCCC",
+    "geneontology:hasDbXref": [
+        "Beilstein:1748500",
+        "CAS:629-94-7",
+        "MetaCyc:CPD-7935",
+        "Patent:US2008293992",
+        "Patent:US7615672",
+        "PMID:19018567",
+        "PMID:22439883",
+        "PMID:23371463",
+        "PMID:24060842",
+        "PMID:24459472",
+        "Reaxys:1748500"
+    ],
+    "geneontology:hasId": "32931",
+    "geneontology:hasSynonym": [
+        "CH3-[CH2]19-CH3",
+        "heneicosane",
+        "n-heneicosane"
+    ],
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#3_STAR"
+    },
+    "rdfs:label": "henicosane",
+    "rdfs:subClassOf": [
+        {
+            "@id": "obo:CHEBI_83563"
+        },
+        {
+            "@id": "b209_genid-00f1db82e1ab437c844115a94dc63e635-bn32931t11f26013"
+        },
+        {
+            "@id": "b209_genid-00f1db82e1ab437c844115a94dc63e635-bn32931t11f27311"
+        },
+        {
+            "@id": "b209_genid-00f1db82e1ab437c844115a94dc63e635-bn32931t11f76924"
+        }
+    ]
+}

@@ -1,0 +1,78 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_49000",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "obo:IAO_0000115": "A primary alcohol that is ethanol substituted by a phenyl group at position 2.",
+    "chebi:charge": "0",
+    "chebi:formula": "C8H10O",
+    "chebi:inchi": "InChI=1S/C8H10O/c9-7-6-8-4-2-1-3-5-8/h1-5,9H,6-7H2",
+    "chebi:inchikey": "WRMNZCZEMHIOCP-UHFFFAOYSA-N",
+    "chebi:smiles": "OCCc1ccccc1",
+    "http://purl.uniprot.org/core/name": "2-phenylethanol",
+    "geneontology:hasDbXref": [
+        "PMID:23836015",
+        "Beilstein:1905732",
+        "CAS:60-12-8",
+        "DrugBank:DB02192",
+        "Gmelin:240469",
+        "HMDB:HMDB0033944",
+        "KEGG:C05853",
+        "KEGG:D00192",
+        "KNApSAcK:C00002663",
+        "MetaCyc:CPD-7035",
+        "PDBeChem:PEL",
+        "PMID:19517523",
+        "PMID:22690913",
+        "PMID:23385159",
+        "PMID:24423498",
+        "Reaxys:1905732",
+        "Wikipedia:Phenethyl_alcohol"
+    ],
+    "geneontology:hasId": "49000",
+    "geneontology:hasSynonym": [
+        "2-Hydroxyethylbenzene",
+        "2-PEA",
+        "2-Phenylethanol",
+        "2-PHENYL-ETHANOL",
+        "Benzeneethanol",
+        "Benzylmethanol",
+        "beta-PEA",
+        "beta-Phenethyl alcohol",
+        "beta-Phenylethanol",
+        "beta-Phenylethyl alcohol",
+        "Phenethyl alcohol",
+        "Phenylethyl alcohol"
+    ],
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#3_STAR"
+    },
+    "rdfs:label": "2-phenylethanol",
+    "rdfs:subClassOf": [
+        {
+            "@id": "obo:CHEBI_15734"
+        },
+        {
+            "@id": "obo:CHEBI_22712"
+        },
+        {
+            "@id": "b214_genid-00f1db82e1ab437c844115a94dc63e635-bn49000t11f35219"
+        },
+        {
+            "@id": "b214_genid-00f1db82e1ab437c844115a94dc63e635-bn49000t11f48318"
+        },
+        {
+            "@id": "b214_genid-00f1db82e1ab437c844115a94dc63e635-bn49000t11f75772"
+        },
+        {
+            "@id": "b214_genid-00f1db82e1ab437c844115a94dc63e635-bn49000t11f76924"
+        },
+        {
+            "@id": "b214_genid-00f1db82e1ab437c844115a94dc63e635-bn49000t11f76956"
+        }
+    ]
+}

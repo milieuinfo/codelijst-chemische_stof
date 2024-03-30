@@ -1,0 +1,56 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_17272",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "obo:IAO_0000115": "The conjugate base of propionic acid; a key precursor in lipid biosynthesis.",
+    "chebi:charge": "-1",
+    "chebi:formula": "C3H5O2",
+    "chebi:inchi": "InChI=1S/C3H6O2/c1-2-3(4)5/h2H2,1H3,(H,4,5)/p-1",
+    "chebi:inchikey": "XBDQKXXYIPTUBI-UHFFFAOYSA-M",
+    "chebi:smiles": "CCC([O-])=O",
+    "http://purl.uniprot.org/core/name": "propanoate",
+    "geneontology:hasDbXref": [
+        "KEGG:C00163",
+        "Beilstein:3587503",
+        "CAS:72-03-7",
+        "Gmelin:1820",
+        "PMID:17951291",
+        "PMID:18375549",
+        "PMID:2647392",
+        "UM-BBD_compID:c0277"
+    ],
+    "geneontology:hasId": "17272",
+    "geneontology:hasSynonym": [
+        "propanoate",
+        "carboxylatoethane",
+        "CH3-CH2-COO(-)",
+        "EtCO2 anion",
+        "ethanecarboxylate",
+        "ethylformate",
+        "metacetonate",
+        "methylacetate",
+        "propanate",
+        "propanoic acid, ion(1-)",
+        "pseudoacetate"
+    ],
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#3_STAR"
+    },
+    "rdfs:label": "propionate",
+    "rdfs:subClassOf": [
+        {
+            "@id": "b260_genid-00f1db82e1ab437c844115a94dc63e635-bn17272t5f30768"
+        },
+        {
+            "@id": "b260_genid-00f1db82e1ab437c844115a94dc63e635-bn17272t11f77746"
+        },
+        {
+            "@id": "obo:CHEBI_78113"
+        }
+    ]
+}

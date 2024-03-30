@@ -1,0 +1,30 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_180557",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "chebi:charge": "0",
+    "chebi:formula": "C8H10O",
+    "chebi:inchi": "InChI=1S/C8H10O/c1-6-4-3-5-7(2)8(6)9/h3-5,9H,1-2H3",
+    "chebi:inchikey": "NXXYKOUNUYWIHA-UHFFFAOYSA-N",
+    "chebi:smiles": "OC1=C(C=CC=C1C)C",
+    "geneontology:hasDbXref": [
+        "CAS:576-26-1",
+        "Chemspider:13839174",
+        "HMDB:HMDB0032150",
+        "PDBeChem:2MY"
+    ],
+    "geneontology:hasId": "180557",
+    "geneontology:hasSynonym": "2,6-dimethylphenol",
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#2_STAR"
+    },
+    "rdfs:label": "2,6-Dimethylphenol",
+    "rdfs:subClassOf": {
+        "@id": "obo:CHEBI_24751"
+    }
+}

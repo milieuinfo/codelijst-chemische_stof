@@ -1,0 +1,29 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_174373",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "chebi:charge": "0",
+    "chebi:formula": "C11H15NO4S",
+    "chebi:inchi": "InChI=1S/C11H15NO4S/c1-3-17(14,15)8-9-6-4-5-7-10(9)16-11(13)12-2/h4-7H,3,8H2,1-2H3,(H,12,13)",
+    "chebi:inchikey": "IOPTXXRNXCPJGO-UHFFFAOYSA-N",
+    "chebi:smiles": "S(=O)(=O)(CC=1C(OC(=O)NC)=CC=CC1)CC",
+    "geneontology:hasDbXref": [
+        "CAS:53380-23-7",
+        "Chemspider:106713",
+        "HMDB:HMDB0040288"
+    ],
+    "geneontology:hasId": "174373",
+    "geneontology:hasSynonym": "[2-(ethylsulonylmethyl)phenyl] N-methylcarbamate",
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#2_STAR"
+    },
+    "rdfs:label": "2-(Ethylsulfonylmethyl)phenyl methylcarbamate",
+    "rdfs:subClassOf": {
+        "@id": "obo:CHEBI_23003"
+    }
+}

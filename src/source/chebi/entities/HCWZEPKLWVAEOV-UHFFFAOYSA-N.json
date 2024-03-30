@@ -1,0 +1,42 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_34206",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "obo:IAO_0000115": "A tetrachlorobiphenyl that is biphenyl in which the hydrogens at the 2 and 5 position of each benzene ring are replaced by chlorines.",
+    "chebi:charge": "0",
+    "chebi:formula": "C12H6Cl4",
+    "chebi:inchi": "InChI=1S/C12H6Cl4/c13-7-1-3-11(15)9(5-7)10-6-8(14)2-4-12(10)16/h1-6H",
+    "chebi:inchikey": "HCWZEPKLWVAEOV-UHFFFAOYSA-N",
+    "chebi:smiles": "Clc1ccc(Cl)c(c1)-c1cc(Cl)ccc1Cl",
+    "geneontology:hasDbXref": [
+        "Beilstein:2053828",
+        "CAS:35693-99-3",
+        "KEGG:C14199"
+    ],
+    "geneontology:hasId": "34206",
+    "geneontology:hasSynonym": [
+        "2,2',5,5'-TCB",
+        "2,2',5,5'-tetrachloro-1,1'-biphenyl",
+        "2,2',5,5'-Tetrachlorobiphenyl",
+        "2,3',5,6'-tetrachlorobiphenyl",
+        "2,5,2',5'-tetrachlorobiphenyl",
+        "PCB 52"
+    ],
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#3_STAR"
+    },
+    "rdfs:label": "2,2',5,5'-tetrachlorobiphenyl",
+    "rdfs:subClassOf": [
+        {
+            "@id": "obo:CHEBI_23697"
+        },
+        {
+            "@id": "obo:CHEBI_36720"
+        }
+    ]
+}

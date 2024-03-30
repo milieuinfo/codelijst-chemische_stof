@@ -1,0 +1,69 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@graph": [
+        {
+            "@id": "obo:CHEBI_27214",
+            "@type": "http://www.w3.org/2002/07/owl#Class",
+            "chebi:charge": "0",
+            "chebi:formula": "U",
+            "chebi:inchi": "InChI=1S/U",
+            "chebi:inchikey": "JFALSRSLKYAFGM-UHFFFAOYSA-N",
+            "chebi:smiles": "[U]",
+            "geneontology:hasDbXref": [
+                "CAS:7440-61-1",
+                "WebElements:U"
+            ],
+            "geneontology:hasId": "27214",
+            "geneontology:hasSynonym": [
+                "U",
+                "92U",
+                "Uran",
+                "uranio",
+                "uranium"
+            ],
+            "geneontology:inSubset": {
+                "@id": "obo:chebi#3_STAR"
+            },
+            "rdfs:label": "uranium atom",
+            "rdfs:subClassOf": [
+                {
+                    "@id": "obo:CHEBI_33320"
+                },
+                {
+                    "@id": "obo:CHEBI_33562"
+                }
+            ]
+        },
+        {
+            "@id": "obo:CHEBI_49936",
+            "@type": "http://www.w3.org/2002/07/owl#Class",
+            "chebi:charge": "0",
+            "chebi:formula": "U",
+            "chebi:inchi": "InChI=1S/U",
+            "chebi:inchikey": "JFALSRSLKYAFGM-UHFFFAOYSA-N",
+            "chebi:smiles": "[U]",
+            "geneontology:hasDbXref": [
+                "Gmelin:16315",
+                "PDBeChem:U1"
+            ],
+            "geneontology:hasId": "49936",
+            "geneontology:hasSynonym": [
+                "uranium",
+                "U(0)",
+                "URANIUM ATOM"
+            ],
+            "geneontology:inSubset": {
+                "@id": "obo:chebi#3_STAR"
+            },
+            "rdfs:label": "uranium(0)",
+            "rdfs:subClassOf": {
+                "@id": "obo:CHEBI_50558"
+            }
+        }
+    ]
+}

@@ -1,0 +1,29 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_178624",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "chebi:charge": "0",
+    "chebi:formula": "C9H10O",
+    "chebi:inchi": "InChI=1S/C9H10O/c1-7-3-4-9(6-10)8(2)5-7/h3-6H,1-2H3",
+    "chebi:inchikey": "GISVICWQYMUPJF-UHFFFAOYSA-N",
+    "chebi:smiles": "O=CC1=C(C=C(C=C1)C)C",
+    "geneontology:hasDbXref": [
+        "CAS:15764-16-6",
+        "Chemspider:21105885",
+        "HMDB:HMDB0032142"
+    ],
+    "geneontology:hasId": "178624",
+    "geneontology:hasSynonym": "2,4-dimethylbenzaldehyde",
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#2_STAR"
+    },
+    "rdfs:label": "2,4-Dimethylbenzaldehyde",
+    "rdfs:subClassOf": {
+        "@id": "obo:CHEBI_36586"
+    }
+}

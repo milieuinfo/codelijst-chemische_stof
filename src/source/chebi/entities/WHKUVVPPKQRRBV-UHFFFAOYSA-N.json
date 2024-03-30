@@ -1,0 +1,62 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_50099",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "obo:IAO_0000115": "A chlorophenoxyacetic acid that is (4-chlorophenoxy)acetic acid substituted by a methyl group at position 2.",
+    "chebi:charge": "0",
+    "chebi:formula": "C9H9ClO3",
+    "chebi:inchi": "InChI=1S/C9H9ClO3/c1-6-4-7(10)2-3-8(6)13-5-9(11)12/h2-4H,5H2,1H3,(H,11,12)",
+    "chebi:inchikey": "WHKUVVPPKQRRBV-UHFFFAOYSA-N",
+    "chebi:smiles": "Cc1cc(Cl)ccc1OCC(O)=O",
+    "geneontology:hasDbXref": [
+        "Beilstein:2051752",
+        "CAS:94-74-6",
+        "KEGG:C18528",
+        "Patent:GB573479",
+        "Patent:GB573510",
+        "Patent:US274810",
+        "Pesticides:mcpa",
+        "PMID:15669026",
+        "PPDB:427",
+        "Reaxys:2051752",
+        "Wikipedia:MCPA"
+    ],
+    "geneontology:hasId": "50099",
+    "geneontology:hasSynonym": [
+        "((4-chloro-o-tolyl)oxy)acetic acid",
+        "(2-Methyl-4-chlorophenoxy)acetic acid",
+        "[(4-Chloro-o-tolyl)oxy]acetic acid",
+        "2,4-MCPA",
+        "2-Methyl-4-chlorophenoxyacetic acid",
+        "2-Methyl-4-chlorphenoxyessigsaeure",
+        "Agroxone",
+        "MCP",
+        "MCPA"
+    ],
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#3_STAR"
+    },
+    "rdfs:label": "(4-chloro-2-methylphenoxy)acetic acid",
+    "rdfs:subClassOf": [
+        {
+            "@id": "obo:CHEBI_83403"
+        },
+        {
+            "@id": "obo:CHEBI_23152"
+        },
+        {
+            "@id": "b155_genid-00f1db82e1ab437c844115a94dc63e635-bn50099t11f26841"
+        },
+        {
+            "@id": "b155_genid-00f1db82e1ab437c844115a94dc63e635-bn50099t11f60575"
+        },
+        {
+            "@id": "b155_genid-00f1db82e1ab437c844115a94dc63e635-bn50099t11f78298"
+        }
+    ]
+}

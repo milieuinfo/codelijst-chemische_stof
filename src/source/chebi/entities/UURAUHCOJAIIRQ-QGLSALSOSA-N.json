@@ -1,0 +1,74 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_44137",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "obo:IAO_0000115": "A carbotricyclic compound that is pleuromutilin in which the hydroxyacetate group is replaced by a 2-{[2-(diethylamino)ethyl]sulfanyl}acetate group. An antibacterial drug, tiamulin is used in veterinary medicine (generally as its hydrogen fumarate salt) for the treatment of swine dysentery caused by Serpulina hyodysenteriae.",
+    "chebi:charge": "0",
+    "chebi:formula": "C28H47NO4S",
+    "chebi:inchi": "InChI=1S/C28H47NO4S/c1-8-26(6)17-22(33-23(31)18-34-16-15-29(9-2)10-3)27(7)19(4)11-13-28(20(5)25(26)32)14-12-21(30)24(27)28/h8,19-20,22,24-25,32H,1,9-18H2,2-7H3/t19-,20+,22-,24+,25+,26-,27+,28+/m1/s1",
+    "chebi:inchikey": "UURAUHCOJAIIRQ-QGLSALSOSA-N",
+    "chebi:smiles": "CCN(CC)CCSCC(=O)O[C@@H]1C[C@@](C)(C=C)[C@@H](O)[C@H](C)[C@]23CCC(=O)[C@H]2[C@@]1(C)[C@H](C)CC3",
+    "geneontology:hasDbXref": [
+        "CAS:55297-95-5",
+        "KEGG:C12065",
+        "KEGG:D06127",
+        "Patent:DE2248237",
+        "Patent:US3919290",
+        "PDBeChem:MUL",
+        "PMID:15013817",
+        "PMID:16253666",
+        "PMID:25592328",
+        "PMID:3170319",
+        "PMID:3686511",
+        "Reaxys:7348837",
+        "Wikipedia:Tiamulin"
+    ],
+    "geneontology:hasId": "44137",
+    "geneontology:hasSynonym": [
+        "(3aS,4R,5S,6S,8R,9R,9aR,10R)-5-hydroxy-4,6,9,10-tetramethyl-1-oxo-6-vinyldecahydro-3a,9-propanocyclopenta[8]annulen-8-yl {[2-(diethylamino)ethyl]sulfanyl}acetate",
+        "tiamulina",
+        "tiamuline",
+        "tiamulinum"
+    ],
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#3_STAR"
+    },
+    "rdfs:label": "tiamulin",
+    "rdfs:subClassOf": [
+        {
+            "@id": "obo:CHEBI_35681"
+        },
+        {
+            "@id": "obo:CHEBI_33308"
+        },
+        {
+            "@id": "obo:CHEBI_3992"
+        },
+        {
+            "@id": "obo:CHEBI_50996"
+        },
+        {
+            "@id": "obo:CHEBI_52557"
+        },
+        {
+            "@id": "obo:CHEBI_16385"
+        },
+        {
+            "@id": "obo:CHEBI_38032"
+        },
+        {
+            "@id": "obo:CHEBI_72588"
+        },
+        {
+            "@id": "b36_genid-00f1db82e1ab437c844115a94dc63e635-bn44137t8f8269"
+        },
+        {
+            "@id": "b36_genid-00f1db82e1ab437c844115a94dc63e635-bn44137t11f36047"
+        }
+    ]
+}

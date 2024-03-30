@@ -1,0 +1,106 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_4388",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "obo:IAO_0000115": "A cyclopropanecarboxylate ester obtained by formal condensation between 3-(2,2-dibromovinyl)-2,2-dimethylcyclopropanecarboxylic acid and cyano(3-phenoxyphenyl)methanol. It is the active insecticide of the proinsecticide tralomethrin.",
+    "chebi:charge": "0",
+    "chebi:formula": "C22H19Br2NO3",
+    "chebi:inchi": "InChI=1S/C22H19Br2NO3/c1-22(2)17(12-19(23)24)20(22)21(26)28-18(13-25)14-7-6-10-16(11-14)27-15-8-4-3-5-9-15/h3-12,17-18,20H,1-2H3/t17-,18+,20-/m0/s1",
+    "chebi:inchikey": "OWZREIFADZCYQD-NSHGMRRFSA-N",
+    "chebi:smiles": "CC1(C)[C@@H](C=C(Br)Br)[C@H]1C(=O)O[C@H](C#N)c1cccc(Oc2ccccc2)c1",
+    "geneontology:hasDbXref": [
+        "Beilstein:6746312",
+        "CAS:52918-63-5",
+        "Drug_Central:4378",
+        "DrugBank:DB13600",
+        "HMDB:HMDB0041866",
+        "KEGG:C10985",
+        "KEGG:D07785",
+        "Pesticides:deltamethrin",
+        "PMID:12049274",
+        "PMID:12706396",
+        "PMID:14563173",
+        "PMID:15088704",
+        "PMID:16169030",
+        "PMID:16310970",
+        "PMID:17507155",
+        "PMID:20839770",
+        "PMID:21324359",
+        "PMID:21771693",
+        "PMID:32249328",
+        "PMID:32485514",
+        "PMID:32596996",
+        "PMID:32651933",
+        "PMID:32757256",
+        "PMID:32799158",
+        "PMID:32876326",
+        "PMID:32914306",
+        "PMID:32976580",
+        "PMID:33001569",
+        "PMID:33035892",
+        "PMID:33046642",
+        "PMID:33069802",
+        "PPDB:205",
+        "Reaxys:6746312",
+        "VSDB:205",
+        "Wikipedia:Deltamethrin"
+    ],
+    "geneontology:hasId": "4388",
+    "geneontology:hasSynonym": [
+        "(S)-alpha-cyano-3-phenoxybenzyl (1R,3R)-3-(2,2-dibromovinyl)-2,2-dimethylcyclopropanecarboxylate",
+        "(S)-alpha-cyano-3-phenoxybenzyl (1R)-cis-3-(2,2-dibromovinyl)-2,2-dimethylcyclopropanecarboxylate",
+        "(S)-cyano(3-phenoxyphenyl)methyl (1R,3R)-3-(2,2-dibromoethenyl)-2,2-dimethylcyclopropane-1-carboxylate",
+        "(S)-cyano(3-phenoxyphenyl)methyl (1R,3R)-3-(2,2-dibromoethenyl)-2,2-dimethylcyclopropanecarboxylate",
+        "Ballistic",
+        "Cropro D-Sect",
+        "decamethrin",
+        "decamethrine",
+        "Decis",
+        "Decis Options",
+        "DeltaGard",
+        "Deltamethrin",
+        "Deltashield",
+        "Scalibor"
+    ],
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#3_STAR"
+    },
+    "rdfs:label": "deltamethrin",
+    "rdfs:subClassOf": [
+        {
+            "@id": "obo:CHEBI_18379"
+        },
+        {
+            "@id": "obo:CHEBI_35618"
+        },
+        {
+            "@id": "obo:CHEBI_50351"
+        },
+        {
+            "@id": "obo:CHEBI_37141"
+        },
+        {
+            "@id": "b43_genid-00f1db82e1ab437c844115a94dc63e635-bn4388t11f22583"
+        },
+        {
+            "@id": "b43_genid-00f1db82e1ab437c844115a94dc63e635-bn4388t11f33286"
+        },
+        {
+            "@id": "b43_genid-00f1db82e1ab437c844115a94dc63e635-bn4388t11f37153"
+        },
+        {
+            "@id": "b43_genid-00f1db82e1ab437c844115a94dc63e635-bn4388t11f38807"
+        },
+        {
+            "@id": "b43_genid-00f1db82e1ab437c844115a94dc63e635-bn4388t11f39116"
+        },
+        {
+            "@id": "b43_genid-00f1db82e1ab437c844115a94dc63e635-bn4388t8f39344"
+        }
+    ]
+}

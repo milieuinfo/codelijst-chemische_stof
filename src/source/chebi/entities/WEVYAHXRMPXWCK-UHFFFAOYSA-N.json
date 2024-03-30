@@ -1,0 +1,57 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_38472",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "obo:IAO_0000115": "A nitrile that is hydrogen cyanide in which the hydrogen has been replaced by a methyl group.",
+    "chebi:charge": "0",
+    "chebi:formula": "C2H3N",
+    "chebi:inchi": "InChI=1S/C2H3N/c1-2-3/h1H3",
+    "chebi:inchikey": "WEVYAHXRMPXWCK-UHFFFAOYSA-N",
+    "chebi:smiles": "CC#N",
+    "geneontology:hasDbXref": [
+        "PMID:17347819",
+        "Beilstein:741857",
+        "CAS:75-05-8",
+        "Gmelin:895",
+        "PDBeChem:CCN",
+        "PMID:19100763",
+        "PMID:20370615",
+        "PMID:985423",
+        "PPDB:1349",
+        "Reaxys:741857",
+        "Wikipedia:Acetonitrile"
+    ],
+    "geneontology:hasId": "38472",
+    "geneontology:hasSynonym": [
+        "ACETONITRILE",
+        "CH3-C#N",
+        "cyanomethane",
+        "ethanenitrile",
+        "MeCN",
+        "methyl cyanide",
+        "NCMe"
+    ],
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#3_STAR"
+    },
+    "rdfs:label": "acetonitrile",
+    "rdfs:subClassOf": [
+        {
+            "@id": "obo:CHEBI_80291"
+        },
+        {
+            "@id": "obo:CHEBI_134179"
+        },
+        {
+            "@id": "b137_genid-00f1db82e1ab437c844115a94dc63e635-bn38472t11f48358"
+        },
+        {
+            "@id": "b137_genid-00f1db82e1ab437c844115a94dc63e635-bn38472t11f77941"
+        }
+    ]
+}

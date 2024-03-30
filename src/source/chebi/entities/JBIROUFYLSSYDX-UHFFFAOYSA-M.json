@@ -1,0 +1,101 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_167208",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "obo:IAO_0000115": "The organic chloride salt of benzododecinium. It has antiseptic and disinfectant properties, and used as a preservative in eye drop formulations.",
+    "chebi:charge": "0",
+    "chebi:formula": "C21H38N.Cl",
+    "chebi:inchi": "InChI=1S/C21H38N.ClH/c1-4-5-6-7-8-9-10-11-12-16-19-22(2,3)20-21-17-14-13-15-18-21;/h13-15,17-18H,4-12,16,19-20H2,1-3H3;1H/q+1;/p-1",
+    "chebi:inchikey": "JBIROUFYLSSYDX-UHFFFAOYSA-M",
+    "chebi:smiles": "[Cl-].CCCCCCCCCCCC[N+](C)(C)CC1=CC=CC=C1",
+    "geneontology:hasDbXref": [
+        "CAS:139-07-1",
+        "Chemspider:8423",
+        "KEGG:D07210",
+        "PMID:10502386",
+        "PMID:1218610",
+        "PMID:20993",
+        "PMID:21393196",
+        "PMID:22563942",
+        "PMID:23317851",
+        "PMID:26552532",
+        "PMID:27269251",
+        "PMID:28927165",
+        "PMID:29175345",
+        "PMID:30669421",
+        "PMID:31459099",
+        "PMID:32958787",
+        "PMID:4660474",
+        "PMID:5122544",
+        "PMID:5581135",
+        "PMID:6121844",
+        "PMID:8091336",
+        "Reaxys:3921689"
+    ],
+    "geneontology:hasId": "167208",
+    "geneontology:hasSynonym": [
+        "benzododecinii chloridum",
+        "benzyldimethyldodecylammonium chloride",
+        "benzyldimethyllaurylammonium chloride",
+        "benzyldimethyl-n-dodecylammonium chloride",
+        "benzyldodecyldimethylammonium chloride",
+        "benzyl-dodecyl-dimethylazanium chloride",
+        "Catigene OM",
+        "Catinal CB 50",
+        "Catiogen PAN",
+        "Catiolite BC 50",
+        "Cequartyl A",
+        "chlorure de benzododecinium",
+        "cloruro de benzododecinio",
+        "dimethylbenzyldodecylammonium chloride",
+        "dimethylbenzyllaurylammonium chloride",
+        "dimethyldodecylbenzylammonium chloride",
+        "dodecylbenzyldimethylammonium chloride",
+        "dodecyldimethylbenzylammonium chloride",
+        "laurylbenzyldimethylammonium chloride",
+        "lauryldimethylbenzylammonium chloride",
+        "lauryl dimethyl benzyl ammonium chloride",
+        "N,N-dimethyl-N-dodecylbenzenemethanaminium chloride",
+        "N-benzyl-N,N-dimethyldodecan-1-aminium chloride",
+        "N-benzyl-N-dodecyl-N,N-dimethylammonium chloride",
+        "N-dodecyl-N,N-dimethylbenzenemethanaminium chloride",
+        "N-dodecyl-N,N-dimethyl-N-benzylammonium chloride",
+        "N-lauryldimethylbenzylammonium chloride",
+        "Rolcril",
+        "Swanol",
+        "Tetranil",
+        "Zephirol"
+    ],
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#3_STAR"
+    },
+    "rdfs:label": "benzododecinium chloride",
+    "rdfs:subClassOf": [
+        {
+            "@id": "obo:CHEBI_36094"
+        },
+        {
+            "@id": "obo:CHEBI_35273"
+        },
+        {
+            "@id": "b67_genid-00f1db82e1ab437c844115a94dc63e635-bn167208t11f35195"
+        },
+        {
+            "@id": "b67_genid-00f1db82e1ab437c844115a94dc63e635-bn167208t11f48218"
+        },
+        {
+            "@id": "b67_genid-00f1db82e1ab437c844115a94dc63e635-bn167208t11f48219"
+        },
+        {
+            "@id": "b67_genid-00f1db82e1ab437c844115a94dc63e635-bn167208t11f51076"
+        },
+        {
+            "@id": "b67_genid-00f1db82e1ab437c844115a94dc63e635-bn167208t10f135611"
+        }
+    ]
+}

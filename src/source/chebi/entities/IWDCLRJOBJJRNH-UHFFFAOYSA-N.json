@@ -1,0 +1,65 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_17847",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "obo:IAO_0000115": "A cresol that consists of toluene substituted by a hydroxy group at position 4. It is a metabolite of aromatic amino acid metabolism produced by intestinal microflora in humans and animals.",
+    "chebi:charge": "0",
+    "chebi:formula": "C7H8O",
+    "chebi:inchi": "InChI=1S/C7H8O/c1-6-2-4-7(8)5-3-6/h2-5,8H,1H3",
+    "chebi:inchikey": "IWDCLRJOBJJRNH-UHFFFAOYSA-N",
+    "chebi:smiles": "Cc1ccc(O)cc1",
+    "http://purl.uniprot.org/core/name": "4-methylphenol",
+    "geneontology:hasDbXref": [
+        "Beilstein:1305151",
+        "CAS:106-44-5",
+        "DrugBank:DB01688",
+        "Gmelin:2779",
+        "HMDB:HMDB0001858",
+        "KEGG:C01468",
+        "KNApSAcK:C00002645",
+        "MetaCyc:CPD-108",
+        "PDBeChem:PCR",
+        "PMID:12427124",
+        "PMID:17660685",
+        "Reaxys:1305151",
+        "UM-BBD_compID:c0127",
+        "Wikipedia:P-cresol"
+    ],
+    "geneontology:hasId": "17847",
+    "geneontology:hasSynonym": [
+        "4-methylphenol",
+        "1-hydroxy-4-methylbenzene",
+        "4-Cresol",
+        "4-Hydroxytoluene",
+        "4-Methylphenol",
+        "paracresol",
+        "p-Cresol",
+        "P-CRESOL",
+        "p-Kresol",
+        "p-methylphenol",
+        "p-tolyl alcohol"
+    ],
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#3_STAR"
+    },
+    "rdfs:label": "p-cresol",
+    "rdfs:subClassOf": [
+        {
+            "@id": "obo:CHEBI_25399"
+        },
+        {
+            "@id": "b32_genid-00f1db82e1ab437c844115a94dc63e635-bn17847t11f64584"
+        },
+        {
+            "@id": "b32_genid-00f1db82e1ab437c844115a94dc63e635-bn17847t11f76971"
+        },
+        {
+            "@id": "b32_genid-00f1db82e1ab437c844115a94dc63e635-bn17847t11f77746"
+        }
+    ]
+}

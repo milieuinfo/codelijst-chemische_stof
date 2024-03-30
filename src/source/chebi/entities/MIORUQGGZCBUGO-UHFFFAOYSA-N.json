@@ -1,0 +1,37 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_33394",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "chebi:charge": "0",
+    "chebi:formula": "Fm",
+    "chebi:inchi": "InChI=1S/Fm",
+    "chebi:inchikey": "MIORUQGGZCBUGO-UHFFFAOYSA-N",
+    "chebi:smiles": "[Fm]",
+    "geneontology:hasDbXref": [
+        "CAS:7440-72-4",
+        "WebElements:Fm"
+    ],
+    "geneontology:hasId": "33394",
+    "geneontology:hasSynonym": [
+        "Fm",
+        "100Fm",
+        "fermio"
+    ],
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#3_STAR"
+    },
+    "rdfs:label": "fermium",
+    "rdfs:subClassOf": [
+        {
+            "@id": "obo:CHEBI_33320"
+        },
+        {
+            "@id": "obo:CHEBI_33562"
+        }
+    ]
+}

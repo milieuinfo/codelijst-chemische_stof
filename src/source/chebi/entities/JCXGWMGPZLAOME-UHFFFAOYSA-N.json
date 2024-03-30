@@ -1,0 +1,40 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_33301",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "chebi:charge": "0",
+    "chebi:formula": "Bi",
+    "chebi:inchi": "InChI=1S/Bi",
+    "chebi:inchikey": "JCXGWMGPZLAOME-UHFFFAOYSA-N",
+    "chebi:smiles": "[Bi]",
+    "geneontology:hasDbXref": [
+        "CAS:7440-69-9",
+        "WebElements:Bi"
+    ],
+    "geneontology:hasId": "33301",
+    "geneontology:hasSynonym": [
+        "Bi",
+        "83Bi",
+        "Bismut",
+        "bismuth",
+        "bismuto",
+        "Wismut"
+    ],
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#3_STAR"
+    },
+    "rdfs:label": "bismuth atom",
+    "rdfs:subClassOf": [
+        {
+            "@id": "obo:CHEBI_33521"
+        },
+        {
+            "@id": "obo:CHEBI_33300"
+        }
+    ]
+}

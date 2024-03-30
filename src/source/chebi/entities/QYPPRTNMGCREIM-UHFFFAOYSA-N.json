@@ -1,0 +1,51 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_29852",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "chebi:charge": "0",
+    "chebi:formula": "CH5AsO3",
+    "chebi:inchi": "InChI=1S/CH5AsO3/c1-2(3,4)5/h1H3,(H2,3,4,5)",
+    "chebi:inchikey": "QYPPRTNMGCREIM-UHFFFAOYSA-N",
+    "chebi:smiles": "C[As](O)(O)=O",
+    "geneontology:hasDbXref": [
+        "KEGG:C07294",
+        "Beilstein:1739373",
+        "CAS:124-58-3",
+        "Gmelin:1316748",
+        "PPDB:1575"
+    ],
+    "geneontology:hasId": "29852",
+    "geneontology:hasSynonym": [
+        "MAA",
+        "MeAsO(OH)2",
+        "methanearsonic acid",
+        "Methylarsonic acid",
+        "monomethylarsonic acid"
+    ],
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#3_STAR"
+    },
+    "rdfs:label": "methylarsonic acid",
+    "rdfs:subClassOf": [
+        {
+            "@id": "obo:CHEBI_64708"
+        },
+        {
+            "@id": "obo:CHEBI_22638"
+        },
+        {
+            "@id": "obo:CHEBI_50955"
+        },
+        {
+            "@id": "b3_genid-00f1db82e1ab437c844115a94dc63e635-bn29852tmms73f33409"
+        },
+        {
+            "@id": "b3_genid-00f1db82e1ab437c844115a94dc63e635-bn29852t4f33409"
+        }
+    ]
+}

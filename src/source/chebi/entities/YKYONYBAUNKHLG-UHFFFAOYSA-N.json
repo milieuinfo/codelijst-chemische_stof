@@ -1,0 +1,51 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_40116",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "obo:IAO_0000115": "An  acetate ester obtained by the formal condensation of acetic acid with propanol.",
+    "chebi:charge": "0",
+    "chebi:formula": "C5H10O2",
+    "chebi:inchi": "InChI=1S/C5H10O2/c1-3-4-7-5(2)6/h3-4H2,1-2H3",
+    "chebi:inchikey": "YKYONYBAUNKHLG-UHFFFAOYSA-N",
+    "chebi:smiles": "CCCOC(C)=O",
+    "http://purl.uniprot.org/core/name": "propyl acetate",
+    "geneontology:hasDbXref": [
+        "CAS:109-60-4",
+        "DrugBank:DB01670",
+        "HMDB:HMDB0034237",
+        "Patent:WO2011071131",
+        "PDBeChem:4PA",
+        "PMID:21535646",
+        "PMID:22821412",
+        "Wikipedia:Propyl_acetate"
+    ],
+    "geneontology:hasId": "40116",
+    "geneontology:hasSynonym": [
+        "1-acetoxypropane",
+        "n-Propyl acetate",
+        "propyl ethanoate"
+    ],
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#3_STAR"
+    },
+    "rdfs:label": "propyl acetate",
+    "rdfs:subClassOf": [
+        {
+            "@id": "obo:CHEBI_47622"
+        },
+        {
+            "@id": "b99_genid-00f1db82e1ab437c844115a94dc63e635-bn40116t8f28831"
+        },
+        {
+            "@id": "b99_genid-00f1db82e1ab437c844115a94dc63e635-bn40116t11f48318"
+        },
+        {
+            "@id": "b99_genid-00f1db82e1ab437c844115a94dc63e635-bn40116t11f76924"
+        }
+    ]
+}

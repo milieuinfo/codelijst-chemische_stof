@@ -1,0 +1,66 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_89993",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "chebi:charge": "0",
+    "chebi:formula": "C6H10O",
+    "chebi:inchi": "InChI=1S/C6H10O/c1-5(2)4-6(3)7/h4H,1-3H3",
+    "chebi:inchikey": "SHOJXDKTYKFBRD-UHFFFAOYSA-N",
+    "chebi:smiles": "CC(C)=CC(C)=O",
+    "geneontology:hasDbXref": [
+        "PMID:17314143",
+        "PMID:24657864",
+        "CAS:141-79-7",
+        "HMDB:HMDB0031563"
+    ],
+    "geneontology:hasId": "89993",
+    "geneontology:hasSynonym": [
+        "(CH3)2C=CHC(=O)CH3",
+        "1-Methylpent-2-en-4-one",
+        "2,2-Dimethylvinyl methyl ketone",
+        "2-Methyl-2-penten-4-one",
+        "2-Methyl-2-pentenone-4",
+        "2-Methyl-4-oxo-2-pentene",
+        "3-Isohexen-2-one",
+        "3-PENTEN,2-ONE,4-METHYL MESITYLOXIDE",
+        "4-Methyl-3-penten-2-on",
+        "4-Methyl-3-Penten-2-one",
+        "4-Methyl-3-penten-2-one (mesityl oxide)",
+        "4-Methyl-3-pentene-2-one",
+        "4-methylpent-3-en-2-one",
+        "4-Methylpent-3-en-2-one",
+        "4-Metil-3-penten-2-one",
+        "FEMA 3368",
+        "Isobutenyl methyl ketone",
+        "Isopropylideneacetone",
+        "Isopropylidene acetone",
+        "Isopropylidene-Acetone",
+        "Mesityloxid",
+        "Mesityloxid(german)",
+        "Mesityl oxide",
+        "Mesityl oxide [UN1229] [Flammable liquid]",
+        "Mesityloxyde",
+        "Methyl 2,2-dimethylvinyl ketone",
+        "Methyl 2-methyl-1-propenyl ketone",
+        "Methyl isobutenyl ketone",
+        "Ossido di mesitile",
+        "Oxyde de mesityle"
+    ],
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#2_STAR"
+    },
+    "rdfs:label": "4-Methyl-3-penten-2-one, 9CI",
+    "rdfs:subClassOf": [
+        {
+            "@id": "obo:CHEBI_78840"
+        },
+        {
+            "@id": "b151_genid-00f1db82e1ab437c844115a94dc63e635-bn89993t8f18308"
+        }
+    ]
+}

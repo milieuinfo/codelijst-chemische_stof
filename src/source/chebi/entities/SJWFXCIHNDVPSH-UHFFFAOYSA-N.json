@@ -1,0 +1,66 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_37869",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "obo:IAO_0000115": "An octanol carrying the hydroxy group at position 2.",
+    "chebi:charge": "0",
+    "chebi:formula": "C8H18O",
+    "chebi:inchi": "InChI=1S/C8H18O/c1-3-4-5-6-7-8(2)9/h8-9H,3-7H2,1-2H3",
+    "chebi:inchikey": "SJWFXCIHNDVPSH-UHFFFAOYSA-N",
+    "chebi:smiles": "CCCCCCC(C)O",
+    "geneontology:hasDbXref": [
+        "AGR:IND44612730",
+        "Beilstein:1719322",
+        "CAS:123-96-6",
+        "FooDB:FDB003342",
+        "Gmelin:131016",
+        "LIPID_MAPS_instance:LMFA05000620",
+        "PMID:22763743",
+        "PMID:23918924",
+        "PMID:32278948",
+        "PMID:36135888",
+        "Reaxys:1719322",
+        "Wikipedia:2-Octanol"
+    ],
+    "geneontology:hasId": "37869",
+    "geneontology:hasSynonym": [
+        "1-methyl-1-heptanol",
+        "1-methylheptyl alcohol",
+        "2-hydroxyoctane",
+        "2-octanol",
+        "2-octyl alcohol",
+        "beta-octyl alcohol",
+        "hexylmethylcarbinol",
+        "hexyl methyl carbinol",
+        "methylhexylcarbinol",
+        "methyl hexyl carbinol",
+        "n-octan-2-ol",
+        "sec-caprylic alcohol",
+        "sec-octyl alcohol",
+        "secondary caprylic alcohol",
+        "s-octyl alcohol"
+    ],
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#3_STAR"
+    },
+    "rdfs:label": "octan-2-ol",
+    "rdfs:subClassOf": [
+        {
+            "@id": "obo:CHEBI_35681"
+        },
+        {
+            "@id": "obo:CHEBI_37868"
+        },
+        {
+            "@id": "b163_genid-00f1db82e1ab437c844115a94dc63e635-bn37869t11f27311"
+        },
+        {
+            "@id": "b163_genid-00f1db82e1ab437c844115a94dc63e635-bn37869t11f76924"
+        }
+    ]
+}

@@ -1,0 +1,55 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_39282",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "obo:IAO_0000115": "A member of the class of  iodomethanes that is methane in which one of the hydrogens is replaced by iodine.",
+    "chebi:charge": "0",
+    "chebi:formula": "CH3I",
+    "chebi:inchi": "InChI=1S/CH3I/c1-2/h1H3",
+    "chebi:inchikey": "INQOMBQAUSQDDS-UHFFFAOYSA-N",
+    "chebi:smiles": "[H]C([H])([H])I",
+    "http://purl.uniprot.org/core/name": "iodomethane",
+    "geneontology:hasDbXref": [
+        "Beilstein:969135",
+        "CAS:74-88-4",
+        "Gmelin:1233",
+        "KEGG:C18448",
+        "PMID:19806715",
+        "PMID:8750905",
+        "PPDB:1233",
+        "Reaxys:969135",
+        "Wikipedia:Iodomethane"
+    ],
+    "geneontology:hasId": "39282",
+    "geneontology:hasSynonym": [
+        "CH3I",
+        "Iodmethan",
+        "Jod-methan",
+        "MeI",
+        "Methyliodid",
+        "methyl iodide",
+        "Methyljodid",
+        "Monoiodmethan",
+        "monoiodomethane"
+    ],
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#3_STAR"
+    },
+    "rdfs:label": "iodomethane",
+    "rdfs:subClassOf": [
+        {
+            "@id": "obo:CHEBI_25253"
+        },
+        {
+            "@id": "obo:CHEBI_39284"
+        },
+        {
+            "@id": "b645_genid-00f1db82e1ab437c844115a94dc63e635-bn39282t11f39277"
+        }
+    ]
+}

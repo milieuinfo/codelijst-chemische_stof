@@ -1,0 +1,59 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_17327",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "obo:IAO_0000115": "A diterpenoid that is hexadec-2-en-1-ol substituted by methyl groups at positions 3, 7, 11 and 15.",
+    "chebi:charge": "0",
+    "chebi:formula": "C20H40O",
+    "chebi:inchi": "InChI=1S/C20H40O/c1-17(2)9-6-10-18(3)11-7-12-19(4)13-8-14-20(5)15-16-21/h15,17-19,21H,6-14,16H2,1-5H3/b20-15+/t18-,19-/m1/s1",
+    "chebi:inchikey": "BOTWFXYSPFMFNR-PYDDKJGSSA-N",
+    "chebi:smiles": "CC(C)CCC[C@@H](C)CCC[C@@H](C)CCC\\C(C)=C\\CO",
+    "http://purl.uniprot.org/core/name": "phytol",
+    "geneontology:hasDbXref": [
+        "CAS:150-86-7",
+        "CAS:7541-49-3",
+        "HMDB:HMDB0002019",
+        "KEGG:C01389",
+        "KNApSAcK:C00003467",
+        "LIPID_MAPS_instance:LMPR0104010002",
+        "MetaCyc:PHYTOL",
+        "PMID:17015885",
+        "PMID:24333358",
+        "PMID:24392173",
+        "PMID:24422895",
+        "Reaxys:7855349"
+    ],
+    "geneontology:hasId": "17327",
+    "geneontology:hasSynonym": [
+        "(2E,7R,11R)-3,7,11,15-tetramethyl-2-hexadecen-1-ol",
+        "(2E,7R,11R)-3,7,11,15-tetramethylhexadec-2-en-1-ol",
+        "Phytol",
+        "trans-Phytol"
+    ],
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#3_STAR"
+    },
+    "rdfs:label": "phytol",
+    "rdfs:subClassOf": [
+        {
+            "@id": "obo:CHEBI_77396"
+        },
+        {
+            "@id": "obo:CHEBI_23849"
+        },
+        {
+            "@id": "b232_genid-00f1db82e1ab437c844115a94dc63e635-bn17327t11f38941"
+        },
+        {
+            "@id": "b232_genid-00f1db82e1ab437c844115a94dc63e635-bn17327t11f76924"
+        },
+        {
+            "@id": "b232_genid-00f1db82e1ab437c844115a94dc63e635-bn17327t11f84735"
+        }
+    ]
+}

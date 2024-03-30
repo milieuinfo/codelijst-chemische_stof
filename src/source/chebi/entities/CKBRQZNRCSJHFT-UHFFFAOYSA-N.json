@@ -1,0 +1,38 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_33393",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "chebi:charge": "0",
+    "chebi:formula": "Es",
+    "chebi:inchi": "InChI=1S/Es",
+    "chebi:inchikey": "CKBRQZNRCSJHFT-UHFFFAOYSA-N",
+    "chebi:smiles": "[Es]",
+    "geneontology:hasDbXref": [
+        "CAS:7429-92-7",
+        "WebElements:Es"
+    ],
+    "geneontology:hasId": "33393",
+    "geneontology:hasSynonym": [
+        "Es",
+        "99Es",
+        "einsteinio",
+        "einsteinium"
+    ],
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#3_STAR"
+    },
+    "rdfs:label": "einsteinium atom",
+    "rdfs:subClassOf": [
+        {
+            "@id": "obo:CHEBI_33320"
+        },
+        {
+            "@id": "obo:CHEBI_33562"
+        }
+    ]
+}

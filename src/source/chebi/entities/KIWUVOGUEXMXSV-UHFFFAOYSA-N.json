@@ -1,0 +1,34 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_8830",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "chebi:charge": "0",
+    "chebi:formula": "C3H3NOS2",
+    "chebi:inchi": "InChI=1S/C3H3NOS2/c5-2-1-7-3(6)4-2/h1H2,(H,4,5,6)",
+    "chebi:inchikey": "KIWUVOGUEXMXSV-UHFFFAOYSA-N",
+    "chebi:smiles": "O=C1CSC(=S)N1",
+    "geneontology:hasDbXref": [
+        "CAS:141-84-4",
+        "KEGG:C07280"
+    ],
+    "geneontology:hasId": "8830",
+    "geneontology:hasSynonym": [
+        "2-sulfanylidene-1,3-thiazolidin-4-one",
+        "2-sulfanylidene-4-thiazolidinone",
+        "2-Thioxo-4-thiazolidinone",
+        "2-thioxothiazolidin-4-one",
+        "Rhodanine"
+    ],
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#2_STAR"
+    },
+    "rdfs:label": "rhodanine",
+    "rdfs:subClassOf": {
+        "@id": "obo:CHEBI_48891"
+    }
+}

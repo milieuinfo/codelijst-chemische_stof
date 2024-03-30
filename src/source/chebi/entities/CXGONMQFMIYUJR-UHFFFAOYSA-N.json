@@ -1,0 +1,56 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_90633",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "obo:IAO_0000115": "A fluoroalkanoic acid that is dodecanoic acid in which all of the hydrogens attached to carbon atoms are replaced by fluorines. It is a highly persistent, bioaccumulative breakdown product of stain- and grease-proof coatings on food packaging, soft furnishings and carpets.",
+    "chebi:charge": "0",
+    "chebi:formula": "C12HF23O2",
+    "chebi:inchi": "InChI=1S/C12HF23O2/c13-2(14,1(36)37)3(15,16)4(17,18)5(19,20)6(21,22)7(23,24)8(25,26)9(27,28)10(29,30)11(31,32)12(33,34)35/h(H,36,37)",
+    "chebi:inchikey": "CXGONMQFMIYUJR-UHFFFAOYSA-N",
+    "chebi:smiles": "OC(C(C(C(C(C(C(C(C(C(C(C(F)(F)F)(F)F)(F)F)(F)F)(F)F)(F)F)(F)F)(F)F)(F)F)(F)F)(F)F)=O",
+    "geneontology:hasDbXref": [
+        "CAS:307-55-1",
+        "PMID:17400581",
+        "PMID:18028973",
+        "PMID:18760846",
+        "PMID:19397962",
+        "PMID:20100736",
+        "PMID:21677784",
+        "PMID:23353032",
+        "PMID:23800682",
+        "PMID:24753098",
+        "PMID:26168851",
+        "Reaxys:1811257"
+    ],
+    "geneontology:hasId": "90633",
+    "geneontology:hasSynonym": [
+        "2,2,3,3,4,4,5,5,6,6,7,7,8,8,9,9,10,10,11,11,12,12,12-tricosafluorododecanoic acid",
+        "C11F23CO2H",
+        "C11F23COOH",
+        "n-C11F23CO2H",
+        "n-C11F23COOH",
+        "perfluorolauric acid",
+        "PFDoA",
+        "tricosafluorododecanoic acid"
+    ],
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#3_STAR"
+    },
+    "rdfs:label": "perfluorododecanoic acid",
+    "rdfs:subClassOf": [
+        {
+            "@id": "obo:CHEBI_35551"
+        },
+        {
+            "@id": "b397_genid-00f1db82e1ab437c844115a94dc63e635-bn90633t8f30805"
+        },
+        {
+            "@id": "b397_genid-00f1db82e1ab437c844115a94dc63e635-bn90633t11f78298"
+        }
+    ]
+}

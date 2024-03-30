@@ -1,0 +1,91 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_27693",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "obo:IAO_0000115": "A member of the class of phytosterols that is stigmast-5-ene substituted by a beta-hydroxy group at position 3.",
+    "chebi:charge": "0",
+    "chebi:formula": "C29H50O",
+    "chebi:inchi": "InChI=1S/C29H50O/c1-7-21(19(2)3)9-8-20(4)25-12-13-26-24-11-10-22-18-23(30)14-16-28(22,5)27(24)15-17-29(25,26)6/h10,19-21,23-27,30H,7-9,11-18H2,1-6H3/t20-,21-,23+,24+,25-,26+,27+,28+,29-/m1/s1",
+    "chebi:inchikey": "KZJWDPNRJALLNS-VJSFXXLFSA-N",
+    "chebi:smiles": "[H][C@@]1(CC[C@@]2([H])[C@]3([H])CC=C4C[C@@H](O)CC[C@]4(C)[C@@]3([H])CC[C@]12C)[C@H](C)CC[C@@H](CC)C(C)C",
+    "http://purl.uniprot.org/core/name": "sitosterol",
+    "geneontology:hasDbXref": [
+        "Beilstein:1916156",
+        "CAS:83-46-5",
+        "Drug_Central:2451",
+        "KEGG:C01753",
+        "KEGG:D08518",
+        "KNApSAcK:C00003672",
+        "KNApSAcK:C00023770",
+        "LIPID_MAPS_instance:LMST01040129",
+        "PMID:20525330",
+        "PMID:23199991",
+        "PMID:23215694",
+        "PMID:23250922",
+        "PMID:23266618",
+        "PMID:23516045",
+        "PMID:23624268"
+    ],
+    "geneontology:hasId": "27693",
+    "geneontology:hasSynonym": [
+        "(-)-beta-Sitosterol",
+        "(24R)-Ethylcholest-5-en-3beta-ol",
+        "(24R)-Stigmast-5-en-3beta-ol",
+        "(3beta)-Stigmast-5-en-3-ol",
+        "22,23-Dihydrostigmasterol",
+        "24alpha-Ethylcholesterol",
+        "alpha-Dihydrofucosterol",
+        "Azuprostat",
+        "beta-Sitosterin",
+        "beta-Sitosterol",
+        "Cupreol",
+        "Nimbosterol",
+        "Sitosterol",
+        "stigmast-5-en-3beta-ol",
+        "Triastonal"
+    ],
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#3_STAR"
+    },
+    "rdfs:label": "sitosterol",
+    "rdfs:subClassOf": [
+        {
+            "@id": "obo:CHEBI_1722"
+        },
+        {
+            "@id": "obo:CHEBI_188923"
+        },
+        {
+            "@id": "obo:CHEBI_35348"
+        },
+        {
+            "@id": "obo:CHEBI_26125"
+        },
+        {
+            "@id": "b340_genid-00f1db82e1ab437c844115a94dc63e635-bn27693t11f22586"
+        },
+        {
+            "@id": "b340_genid-00f1db82e1ab437c844115a94dc63e635-bn27693t9f26773"
+        },
+        {
+            "@id": "b340_genid-00f1db82e1ab437c844115a94dc63e635-bn27693t11f35821"
+        },
+        {
+            "@id": "b340_genid-00f1db82e1ab437c844115a94dc63e635-bn27693t11f52303"
+        },
+        {
+            "@id": "b340_genid-00f1db82e1ab437c844115a94dc63e635-bn27693t11f75771"
+        },
+        {
+            "@id": "b340_genid-00f1db82e1ab437c844115a94dc63e635-bn27693t11f76924"
+        },
+        {
+            "@id": "obo:CHEBI_131703"
+        }
+    ]
+}

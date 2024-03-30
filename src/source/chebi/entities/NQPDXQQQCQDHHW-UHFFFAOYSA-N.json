@@ -1,0 +1,30 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_94759",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "chebi:charge": "0",
+    "chebi:formula": "C14H9Cl3N2OS",
+    "chebi:inchi": "InChI=1S/C14H9Cl3N2OS/c1-21-14-18-9-5-8(16)12(6-10(9)19-14)20-11-4-2-3-7(15)13(11)17/h2-6H,1H3,(H,18,19)",
+    "chebi:inchikey": "NQPDXQQQCQDHHW-UHFFFAOYSA-N",
+    "chebi:smiles": "CSC1=NC2=CC(=C(C=C2N1)Cl)OC3=C(C(=CC=C3)Cl)Cl",
+    "geneontology:hasDbXref": [
+        "CAS:68786-66-3",
+        "Drug_Central:2734",
+        "LINCS:LSM-5875",
+        "VSDB:1773"
+    ],
+    "geneontology:hasId": "94759",
+    "geneontology:hasSynonym": "fasinex",
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#2_STAR"
+    },
+    "rdfs:label": "6-chloro-5-(2,3-dichlorophenoxy)-2-(methylthio)-1H-benzimidazole",
+    "rdfs:subClassOf": {
+        "@id": "obo:CHEBI_35618"
+    }
+}

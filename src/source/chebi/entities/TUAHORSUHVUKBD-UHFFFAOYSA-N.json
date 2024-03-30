@@ -1,0 +1,47 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_82292",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "obo:IAO_0000115": "An ortho-fused polycyclic arene resulting from the symmetrical fusion of the C1-C2 bonds of two naphthalene units.",
+    "chebi:charge": "0",
+    "chebi:formula": "C18H12",
+    "chebi:inchi": "InChI=1S/C18H12/c1-3-7-16-13(5-1)9-11-15-12-10-14-6-2-4-8-17(14)18(15)16/h1-12H",
+    "chebi:inchikey": "TUAHORSUHVUKBD-UHFFFAOYSA-N",
+    "chebi:smiles": "C12=C3C(=CC=C1C=CC4=C2C=CC=C4)C=CC=C3",
+    "geneontology:hasDbXref": [
+        "CAS:195-19-7",
+        "KEGG:C19197",
+        "PMID:11409939",
+        "PMID:3107851",
+        "PMID:3592667",
+        "PMID:6586652",
+        "Reaxys:1909296",
+        "Wikipedia:Benzo(c)phenanthrene"
+    ],
+    "geneontology:hasId": "82292",
+    "geneontology:hasSynonym": [
+        "3,4-benzophenanthrene",
+        "3,4-Benzphenanthrene",
+        "BcPh",
+        "benzo(c)phenanthrene",
+        "benzo-3,4-phenanthrene",
+        "tetrahelicene"
+    ],
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#3_STAR"
+    },
+    "rdfs:label": "benzo[c]phenanthrene",
+    "rdfs:subClassOf": [
+        {
+            "@id": "obo:CHEBI_33836"
+        },
+        {
+            "@id": "obo:CHEBI_35296"
+        }
+    ]
+}

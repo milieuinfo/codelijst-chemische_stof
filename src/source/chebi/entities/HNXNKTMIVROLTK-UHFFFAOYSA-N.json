@@ -1,0 +1,25 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_228336",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "chebi:charge": "0",
+    "chebi:formula": "C12H25NO",
+    "chebi:inchi": "InChI=1S/C12H25NO/c1-4-5-6-7-8-9-10-11-12(14)13(2)3/h4-11H2,1-3H3",
+    "chebi:inchikey": "HNXNKTMIVROLTK-UHFFFAOYSA-N",
+    "chebi:smiles": "O=C(N(C)C)CCCCCCCCC",
+    "geneontology:hasDbXref": "Chemspider:24865",
+    "geneontology:hasId": "228336",
+    "geneontology:hasSynonym": "N,N-dimethyldecanamide",
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#2_STAR"
+    },
+    "rdfs:label": "N,N-Dimethyldecanamide",
+    "rdfs:subClassOf": {
+        "@id": "obo:CHEBI_29348"
+    }
+}

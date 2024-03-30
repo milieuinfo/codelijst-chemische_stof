@@ -1,0 +1,32 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_29298",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "chebi:charge": "0",
+    "chebi:formula": "T2",
+    "chebi:inchi": "InChI=1S/H2/h1H/i1+2T",
+    "chebi:inchikey": "UFHFLCQGNIYNRP-JMRXTUGHSA-N",
+    "chebi:smiles": "[3H][3H]",
+    "geneontology:hasDbXref": [
+        "CAS:10028-17-8",
+        "Gmelin:16"
+    ],
+    "geneontology:hasId": "29298",
+    "geneontology:hasSynonym": [
+        "T2",
+        "(3)H2",
+        "Tritium"
+    ],
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#3_STAR"
+    },
+    "rdfs:label": "ditritium",
+    "rdfs:subClassOf": {
+        "@id": "obo:CHEBI_18276"
+    }
+}

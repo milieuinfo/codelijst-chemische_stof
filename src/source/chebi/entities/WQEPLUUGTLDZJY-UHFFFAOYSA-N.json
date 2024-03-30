@@ -1,0 +1,73 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_42504",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "obo:IAO_0000115": "A straight-chain saturated fatty acid containing fifteen-carbon atoms.",
+    "chebi:charge": "0",
+    "chebi:formula": "C15H30O2",
+    "chebi:inchi": "InChI=1S/C15H30O2/c1-2-3-4-5-6-7-8-9-10-11-12-13-14-15(16)17/h2-14H2,1H3,(H,16,17)",
+    "chebi:inchikey": "WQEPLUUGTLDZJY-UHFFFAOYSA-N",
+    "chebi:smiles": "CCCCCCCCCCCCCCC(O)=O",
+    "geneontology:hasDbXref": [
+        "Beilstein:1773831",
+        "CAS:1002-84-2",
+        "HMDB:HMDB0000826",
+        "KEGG:C16537",
+        "KNApSAcK:C00007423",
+        "LIPID_MAPS_instance:LMFA01010015",
+        "PDBeChem:F15",
+        "PMID:23442377",
+        "PMID:24930002",
+        "Reaxys:1773831",
+        "Wikipedia:Pentadecanoic_acid"
+    ],
+    "geneontology:hasId": "42504",
+    "geneontology:hasSynonym": [
+        "15:00",
+        "C15",
+        "C15:0",
+        "n-pentadecanoic acid",
+        "n-Pentadecanoic acid",
+        "PENTADECANOIC ACID",
+        "pentadecylic acid",
+        "Pentadecylic acid"
+    ],
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#3_STAR"
+    },
+    "rdfs:label": "pentadecanoic acid",
+    "rdfs:subClassOf": [
+        {
+            "@id": "obo:CHEBI_15904"
+        },
+        {
+            "@id": "obo:CHEBI_39418"
+        },
+        {
+            "@id": "b198_genid-00f1db82e1ab437c844115a94dc63e635-bn42504tmms73f78795"
+        },
+        {
+            "@id": "b198_genid-00f1db82e1ab437c844115a94dc63e635-bn42504t11f76924"
+        },
+        {
+            "@id": "b198_genid-00f1db82e1ab437c844115a94dc63e635-bn42504t11f78295"
+        },
+        {
+            "@id": "b198_genid-00f1db82e1ab437c844115a94dc63e635-bn42504t4f78795"
+        },
+        {
+            "@id": "b198_genid-00f1db82e1ab437c844115a94dc63e635-bn42504t11f83056"
+        },
+        {
+            "@id": "b198_genid-00f1db82e1ab437c844115a94dc63e635-bn42504t11f84735"
+        },
+        {
+            "@id": "b198_genid-00f1db82e1ab437c844115a94dc63e635-bn42504t11f85234"
+        }
+    ]
+}

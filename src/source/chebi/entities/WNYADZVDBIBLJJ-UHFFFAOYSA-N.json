@@ -1,0 +1,28 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_82362",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "chebi:charge": "0",
+    "chebi:formula": "C4H8N2O",
+    "chebi:inchi": "InChI=1S/C4H8N2O/c7-5-6-3-1-2-4-6/h1-4H2",
+    "chebi:inchikey": "WNYADZVDBIBLJJ-UHFFFAOYSA-N",
+    "chebi:smiles": "O=NN1CCCC1",
+    "geneontology:hasDbXref": [
+        "CAS:930-55-2",
+        "HMDB:HMDB0031642",
+        "KEGG:C19285"
+    ],
+    "geneontology:hasId": "82362",
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#2_STAR"
+    },
+    "rdfs:label": "N-Nitrosopyrrolidine",
+    "rdfs:subClassOf": {
+        "@id": "obo:CHEBI_38260"
+    }
+}

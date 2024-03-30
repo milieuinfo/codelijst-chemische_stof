@@ -1,0 +1,37 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_3566",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "chebi:charge": "0",
+    "chebi:inchi": "InChI=1S/C21H38N.ClH.H2O/c1-2-3-4-5-6-7-8-9-10-11-12-13-14-16-19-22-20-17-15-18-21-22;;/h15,17-18,20-21H,2-14,16,19H2,1H3;1H;1H2/q+1;;/p-1",
+    "chebi:inchikey": "NFCRBQADEGXVDL-UHFFFAOYSA-M",
+    "chebi:smiles": "O.[Cl-].CCCCCCCCCCCCCCCC[n+]1ccccc1",
+    "geneontology:hasDbXref": [
+        "CAS:6004-24-6",
+        "Gmelin:717786",
+        "KEGG:C11307",
+        "KEGG:D01062"
+    ],
+    "geneontology:hasId": "3566",
+    "geneontology:hasSynonym": [
+        "1-hexadecylpyridinium chloride monohydrate",
+        "1-hexadecylpyridinium chloride--water (1/1)"
+    ],
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#3_STAR"
+    },
+    "rdfs:label": "cetylpyridinium chloride monohydrate",
+    "rdfs:subClassOf": [
+        {
+            "@id": "obo:CHEBI_35505"
+        },
+        {
+            "@id": "b47_genid-00f1db82e1ab437c844115a94dc63e635-bn3566t10f32915"
+        }
+    ]
+}

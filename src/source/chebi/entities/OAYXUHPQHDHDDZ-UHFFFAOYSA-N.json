@@ -1,0 +1,28 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_195270",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "chebi:charge": "0",
+    "chebi:formula": "C8H18O3",
+    "chebi:inchi": "InChI=1S/C8H18O3/c1-2-3-5-10-7-8-11-6-4-9/h9H,2-8H2,1H3",
+    "chebi:inchikey": "OAYXUHPQHDHDDZ-UHFFFAOYSA-N",
+    "chebi:smiles": "O(CCCC)CCOCCO",
+    "geneontology:hasDbXref": [
+        "CAS:112-34-5",
+        "Chemspider:13839549"
+    ],
+    "geneontology:hasId": "195270",
+    "geneontology:hasSynonym": "2-(2-butoxyethoxy)ethanol",
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#2_STAR"
+    },
+    "rdfs:label": "Ethanol, 2-(2-butoxyethoxy)-",
+    "rdfs:subClassOf": {
+        "@id": "obo:CHEBI_25698"
+    }
+}

@@ -1,0 +1,47 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_85259",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "obo:IAO_0000115": "A secondary aliphatic amine where both N-substituents are ethyl.",
+    "chebi:charge": "0",
+    "chebi:formula": "C4H11N",
+    "chebi:inchi": "InChI=1S/C4H11N/c1-3-5-4-2/h5H,3-4H2,1-2H3",
+    "chebi:inchikey": "HPNMFZURTQLUMO-UHFFFAOYSA-N",
+    "chebi:smiles": "CCNCC",
+    "geneontology:hasDbXref": [
+        "CAS:109-89-7",
+        "HMDB:HMDB0041878",
+        "MetaCyc:DIETHYLAMINE",
+        "Reaxys:605268",
+        "Wikipedia:Diethylamine"
+    ],
+    "geneontology:hasId": "85259",
+    "geneontology:hasSynonym": [
+        "DEA",
+        "(C2H5)2NH",
+        "Diaethylamin",
+        "Et2NH",
+        "N,N-Diethylamine",
+        "N-ethylethanamine"
+    ],
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#3_STAR"
+    },
+    "rdfs:label": "diethylamine",
+    "rdfs:subClassOf": [
+        {
+            "@id": "obo:CHEBI_50981"
+        },
+        {
+            "@id": "b515_genid-00f1db82e1ab437c844115a94dc63e635-bn85259tmms73f132181"
+        },
+        {
+            "@id": "b515_genid-00f1db82e1ab437c844115a94dc63e635-bn85259t5f132181"
+        }
+    ]
+}

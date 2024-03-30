@@ -1,0 +1,32 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_135936",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "chebi:charge": "0",
+    "chebi:formula": "[99Mo]",
+    "chebi:inchi": "InChI=1S/Mo/i1+3",
+    "chebi:inchikey": "ZOKXTWBITQBERF-AKLPVKDBSA-N",
+    "chebi:smiles": "[Mo]",
+    "geneontology:hasDbXref": [
+        "CAS:14119-15-4",
+        "Drug_Central:4286"
+    ],
+    "geneontology:hasId": "135936",
+    "geneontology:hasSynonym": [
+        "99Mo",
+        "Molybdenum-99",
+        "Molybdenum isotope of mass 99"
+    ],
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#2_STAR"
+    },
+    "rdfs:label": "Molybdenum Mo-99",
+    "rdfs:subClassOf": {
+        "@id": "obo:CHEBI_33497"
+    }
+}

@@ -1,0 +1,72 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_38954",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "obo:IAO_0000115": "An organic sulfide that is diphenyl sulfide in which the hydrogen at the para position of each of the phenyl groups has been replaced by a (dimethoxyphosphorothioyl)oxy group.",
+    "chebi:charge": "0",
+    "chebi:formula": "C16H20O6P2S3",
+    "chebi:inchi": "InChI=1S/C16H20O6P2S3/c1-17-23(25,18-2)21-13-5-9-15(10-6-13)27-16-11-7-14(8-12-16)22-24(26,19-3)20-4/h5-12H,1-4H3",
+    "chebi:inchikey": "WWJZWCUNLNYYAU-UHFFFAOYSA-N",
+    "chebi:smiles": "S=P(OC)(OC1=CC=C(C=C1)SC2=CC=C(C=C2)OP(=S)(OC)OC)OC",
+    "geneontology:hasDbXref": [
+        "Beilstein:1896901",
+        "CAS:3383-96-8",
+        "KEGG:C18809",
+        "KEGG:D06062",
+        "LINCS:LSM-3148",
+        "Pesticides:temephos",
+        "PMID:27180726",
+        "PMID:27419140",
+        "PPDB:618",
+        "VSDB:618"
+    ],
+    "geneontology:hasId": "38954",
+    "geneontology:hasSynonym": [
+        "temephos",
+        "Abate",
+        "O,O,O',O'-tetramethyl O,O'-(sulfanediyldi-4,1-phenylene) bis(phosphorothioate)",
+        "O,O,O',O'-tetramethyl O,O'-(sulfanediyldibenzene-4,1-diyl) bis(phosphorothioate)",
+        "O,O,O',O'-tetramethyl O,O'-(sulfanediyldibenzene-4,1-diyl) bis(thiophosphate)",
+        "O,O,O',O'-tetramethyl O,O'-thiodi-p-phenylene bis(phosphorothioate)",
+        "O,O,O',O'-tetramethyl O,O'-thiodi-p-phenylene diphosphorothioate",
+        "O,O'-(thiodi-4,1-phenylene) bis(O,O-dimethyl phosphorothioate)",
+        "O,O'-(Thiodi-p-phenylene) O,O,O',O'-tetramethyl bis(phosphorothioate)",
+        "Phosphorothioic acid, O,O'-(thiodi-4,1-phenylene) O,O,O',O'-tetramethyl ester",
+        "temefos"
+    ],
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#3_STAR"
+    },
+    "rdfs:label": "temephos",
+    "rdfs:subClassOf": [
+        {
+            "@id": "obo:CHEBI_16385"
+        },
+        {
+            "@id": "obo:CHEBI_37512"
+        },
+        {
+            "@id": "obo:CHEBI_25715"
+        },
+        {
+            "@id": "b232_genid-00f1db82e1ab437c844115a94dc63e635-bn38954t11f22153"
+        },
+        {
+            "@id": "b232_genid-00f1db82e1ab437c844115a94dc63e635-bn38954t11f33286"
+        },
+        {
+            "@id": "b232_genid-00f1db82e1ab437c844115a94dc63e635-bn38954t11f38462"
+        },
+        {
+            "@id": "b232_genid-00f1db82e1ab437c844115a94dc63e635-bn38954t11f38956"
+        },
+        {
+            "@id": "b232_genid-00f1db82e1ab437c844115a94dc63e635-bn38954t8f38957"
+        }
+    ]
+}

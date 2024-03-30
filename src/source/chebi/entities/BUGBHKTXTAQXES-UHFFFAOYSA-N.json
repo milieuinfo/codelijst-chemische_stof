@@ -1,0 +1,48 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_27568",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "chebi:charge": "0",
+    "chebi:formula": "Se",
+    "chebi:inchi": "InChI=1S/Se",
+    "chebi:inchikey": "BUGBHKTXTAQXES-UHFFFAOYSA-N",
+    "chebi:smiles": "[Se]",
+    "geneontology:hasDbXref": [
+        "CAS:7782-49-2",
+        "DrugBank:DB11135",
+        "FooDB:FDB013400",
+        "HMDB:HMDB0001349",
+        "KEGG:C01529",
+        "WebElements:Se",
+        "Wikipedia:Selenium"
+    ],
+    "geneontology:hasId": "27568",
+    "geneontology:hasSynonym": [
+        "Se",
+        "34Se",
+        "Selen",
+        "selenio",
+        "selenium",
+        "Selenium"
+    ],
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#3_STAR"
+    },
+    "rdfs:label": "selenium atom",
+    "rdfs:subClassOf": [
+        {
+            "@id": "obo:CHEBI_25585"
+        },
+        {
+            "@id": "obo:CHEBI_33303"
+        },
+        {
+            "@id": "b240_genid-00f1db82e1ab437c844115a94dc63e635-bn27568t11f27027"
+        }
+    ]
+}

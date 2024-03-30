@@ -1,0 +1,29 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_178389",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "chebi:charge": "0",
+    "chebi:formula": "C9H20O",
+    "chebi:inchi": "InChI=1S/C9H20O/c1-7(2)5-9(10)6-8(3)4/h7-10H,5-6H2,1-4H3",
+    "chebi:inchikey": "HXQPUEQDBSPXTE-UHFFFAOYSA-N",
+    "chebi:smiles": "OC(CC(C)C)CC(C)C",
+    "geneontology:hasDbXref": [
+        "CAS:108-82-7",
+        "Chemspider:7669",
+        "HMDB:HMDB0031153"
+    ],
+    "geneontology:hasId": "178389",
+    "geneontology:hasSynonym": "2,6-dimethylheptan-4-ol",
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#2_STAR"
+    },
+    "rdfs:label": "Diisobutylcarbinol",
+    "rdfs:subClassOf": {
+        "@id": "obo:CHEBI_35681"
+    }
+}

@@ -1,0 +1,35 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_145412",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "obo:IAO_0000115": "A methyl ester resulting from the formal condensation of the carboxylic acid group of 2-[4-(2,4-dichlorophenoxy)phenoxy]propanoic acid with methanol.",
+    "chebi:charge": "0",
+    "chebi:formula": "C16H14Cl2O4",
+    "chebi:inchi": "InChI=1S/C16H14Cl2O4/c1-10(16(19)20-2)21-12-4-6-13(7-5-12)22-15-8-3-11(17)9-14(15)18/h3-10H,1-2H3",
+    "chebi:inchikey": "BACHBFVBHLGWSL-UHFFFAOYSA-N",
+    "chebi:smiles": "C=1(C(=CC(=CC1)Cl)Cl)OC2=CC=C(C=C2)OC(C(OC)=O)C",
+    "geneontology:hasId": "145412",
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#3_STAR"
+    },
+    "rdfs:label": "methyl 2-[4-(2,4-dichlorophenoxy)phenoxy]propanoate",
+    "rdfs:subClassOf": [
+        {
+            "@id": "obo:CHEBI_35618"
+        },
+        {
+            "@id": "obo:CHEBI_25248"
+        },
+        {
+            "@id": "obo:CHEBI_23697"
+        },
+        {
+            "@id": "obo:CHEBI_46786"
+        }
+    ]
+}

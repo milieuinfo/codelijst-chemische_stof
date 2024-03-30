@@ -1,0 +1,63 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_282662",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "obo:IAO_0000115": "A quarternary ammonium cation having one dodecyl and three methyl substituents around the central nitrogen.",
+    "chebi:charge": "0",
+    "chebi:formula": "C15H34BrN",
+    "chebi:inchi": "InChI=1S/C15H34N.BrH/c1-5-6-7-8-9-10-11-12-13-14-15-16(2,3)4;/h5-15H2,1-4H3;1H/q+1;/p-1",
+    "chebi:inchikey": "XJWSAJYUBXQQDR-UHFFFAOYSA-M",
+    "chebi:smiles": "[Br-].CCCCCCCCCCCC[N+](C)(C)C",
+    "geneontology:hasDbXref": [
+        "PMID:6196640",
+        "Beilstein:3597463",
+        "CAS:1119-94-4",
+        "PMID:23557027",
+        "PMID:24000823",
+        "PMID:24095792",
+        "PMID:24692308",
+        "PMID:24959928",
+        "PMID:25072661",
+        "Reaxys:3597463"
+    ],
+    "geneontology:hasId": "282662",
+    "geneontology:hasSynonym": [
+        "Dctab",
+        "DDTMABr",
+        "DTAB",
+        "Laurtrimonium bromide",
+        "Lauryltrimethylaminium bromide",
+        "Lauryltrimethylammonium bromide",
+        "LTAB",
+        "Morpan D",
+        "N,N,N-Trimethyl-1-dodecanaminiuim bromide",
+        "N,N,N-trimethyldodecan-1-aminium bromide",
+        "N,N,N-Trimethyldodecan-1-ammonium bromide",
+        "N-Lauryl-N,N,N-trimethylammonium bromide",
+        "Trimethyldodecylammonium bromide",
+        "Trimethyllaurylammonium bromide"
+    ],
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#3_STAR"
+    },
+    "rdfs:label": "dodecyltrimethylammonium bromide",
+    "rdfs:subClassOf": [
+        {
+            "@id": "obo:CHEBI_35273"
+        },
+        {
+            "@id": "obo:CHEBI_22925"
+        },
+        {
+            "@id": "b287_genid-00f1db82e1ab437c844115a94dc63e635-bn282662t11f35195"
+        },
+        {
+            "@id": "b287_genid-00f1db82e1ab437c844115a94dc63e635-bn282662t10f41378"
+        }
+    ]
+}

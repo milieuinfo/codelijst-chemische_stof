@@ -1,0 +1,41 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_29310",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "chebi:charge": "0",
+    "chebi:formula": "Cl2",
+    "chebi:inchi": "InChI=1S/Cl2/c1-2",
+    "chebi:inchikey": "KZBUYRJDOAKODT-UHFFFAOYSA-N",
+    "chebi:smiles": "ClCl",
+    "geneontology:hasDbXref": [
+        "Beilstein:3902968",
+        "CAS:7782-50-5",
+        "Gmelin:788"
+    ],
+    "geneontology:hasId": "29310",
+    "geneontology:hasSynonym": [
+        "Cl2",
+        "chlorine",
+        "molecular chlorine"
+    ],
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#3_STAR"
+    },
+    "rdfs:label": "dichlorine",
+    "rdfs:subClassOf": [
+        {
+            "@id": "obo:CHEBI_138675"
+        },
+        {
+            "@id": "obo:CHEBI_33435"
+        },
+        {
+            "@id": "b338_genid-00f1db82e1ab437c844115a94dc63e635-bn29310t11f132717"
+        }
+    ]
+}

@@ -1,0 +1,45 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_29861",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "obo:IAO_0000115": "An ortho- and peri-fused polycyclic arene comprising of five benzene rings that is anthracene in which the d,e and k,l sides are fused to benzene rings.",
+    "chebi:charge": "0",
+    "chebi:formula": "C20H12",
+    "chebi:inchi": "InChI=1S/C20H12/c1-5-13-6-2-11-17-18-12-4-8-14-7-3-10-16(20(14)18)15(9-1)19(13)17/h1-12H",
+    "chebi:inchikey": "CSHWQDPOILHKBI-UHFFFAOYSA-N",
+    "chebi:smiles": "c1cc2cccc3c4cccc5cccc(c(c1)c23)c45",
+    "geneontology:hasDbXref": [
+        "Beilstein:1911335",
+        "CAS:198-55-0",
+        "Gmelin:104944",
+        "KEGG:C19497",
+        "PMID:12399915",
+        "Reaxys:1911335",
+        "Wikipedia:Perylene"
+    ],
+    "geneontology:hasId": "29861",
+    "geneontology:hasSynonym": [
+        "alpha-perylene",
+        "dibenz[de,kl]anthracene",
+        "peri-dinaphthalene",
+        "perilene",
+        "Perylen"
+    ],
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#3_STAR"
+    },
+    "rdfs:label": "perylene",
+    "rdfs:subClassOf": [
+        {
+            "@id": "obo:CHEBI_35300"
+        },
+        {
+            "@id": "obo:CHEBI_60201"
+        }
+    ]
+}

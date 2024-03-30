@@ -1,0 +1,29 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_35828",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "chebi:charge": "+3",
+    "chebi:formula": "As",
+    "chebi:inchi": "InChI=1S/As/q+3",
+    "chebi:inchikey": "LULLIKNODDLMDQ-UHFFFAOYSA-N",
+    "chebi:smiles": "[As+3]",
+    "geneontology:hasDbXref": "Gmelin:40114",
+    "geneontology:hasId": "35828",
+    "geneontology:hasSynonym": [
+        "arsenic(3+) ion",
+        "arsenic(III) cation",
+        "As(3+)"
+    ],
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#3_STAR"
+    },
+    "rdfs:label": "arsenic(3+)",
+    "rdfs:subClassOf": {
+        "@id": "obo:CHEBI_35827"
+    }
+}

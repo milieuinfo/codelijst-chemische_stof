@@ -1,0 +1,54 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_17915",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "obo:IAO_0000115": "A epsilon-lactone that is oxepane substituted by an oxo group at position 2.",
+    "chebi:charge": "0",
+    "chebi:formula": "C6H10O2",
+    "chebi:inchi": "InChI=1S/C6H10O2/c7-6-4-2-1-3-5-8-6/h1-5H2",
+    "chebi:inchikey": "PAPBSGBWRJIAAV-UHFFFAOYSA-N",
+    "chebi:smiles": "O=C1CCCCCO1",
+    "http://purl.uniprot.org/core/name": "hexano-6-lactone",
+    "geneontology:hasDbXref": [
+        "Beilstein:106919",
+        "CAS:502-44-3",
+        "Gmelin:675457",
+        "HMDB:HMDB0060476",
+        "KEGG:C01880",
+        "MetaCyc:CPD-101",
+        "PMID:24453135",
+        "Reaxys:106919",
+        "UM-BBD_compID:c0059",
+        "Wikipedia:Caprolactone"
+    ],
+    "geneontology:hasId": "17915",
+    "geneontology:hasSynonym": [
+        "1,6-hexanolide",
+        "1-Oxa-2-oxocycloheptane",
+        "2-oxacycloheptanone",
+        "2-Oxepanone",
+        "2-oxohexamethylene oxide",
+        "6-hexanolactone",
+        "6-Hexanolide",
+        "6-hydroxyhexanoic acid, epsilon-lactone",
+        "6-hydroxyhexanoic acid lactone",
+        "caprolactone",
+        "epsilon-Caprolactone",
+        "epsilon-caprolactone monomer",
+        "hexan-6-olide",
+        "hexanoic acid, epsilon-lactone",
+        "oxepan-2-one"
+    ],
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#3_STAR"
+    },
+    "rdfs:label": "hexano-6-lactone",
+    "rdfs:subClassOf": {
+        "@id": "obo:CHEBI_50239"
+    }
+}

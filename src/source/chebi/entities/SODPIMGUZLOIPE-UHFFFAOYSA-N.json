@@ -1,0 +1,57 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_1808",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "obo:IAO_0000115": "A chlorophenoxyacetic acid that is phenoxyacetic acid carrying a chloro substituent at position 4.",
+    "chebi:charge": "0",
+    "chebi:formula": "C8H7ClO3",
+    "chebi:inchi": "InChI=1S/C8H7ClO3/c9-6-1-3-7(4-2-6)12-5-8(10)11/h1-4H,5H2,(H,10,11)",
+    "chebi:inchikey": "SODPIMGUZLOIPE-UHFFFAOYSA-N",
+    "chebi:smiles": "OC(=O)COc1ccc(Cl)cc1",
+    "geneontology:hasDbXref": [
+        "Beilstein:1211804",
+        "CAS:122-88-3",
+        "Gmelin:397082",
+        "KEGG:C07088",
+        "PMID:11523589",
+        "PMID:17215075",
+        "PPDB:7",
+        "Reaxys:1211804",
+        "Wikipedia:4-Chlorophenoxyacetic_acid"
+    ],
+    "geneontology:hasId": "1808",
+    "geneontology:hasSynonym": [
+        "(p-chlorophenoxy)acetic acid",
+        "4-Chlorophenoxyacetate",
+        "4-chlorophenoxyacetic acid",
+        "4-Chlorphenoxyessigsaeure",
+        "4-CPA",
+        "para-chlorophenoxyacetic acid"
+    ],
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#3_STAR"
+    },
+    "rdfs:label": "(4-chlorophenoxy)acetic acid",
+    "rdfs:subClassOf": [
+        {
+            "@id": "obo:CHEBI_83403"
+        },
+        {
+            "@id": "b187_genid-00f1db82e1ab437c844115a94dc63e635-bn1808tmms73f28739"
+        },
+        {
+            "@id": "obo:CHEBI_23152"
+        },
+        {
+            "@id": "b187_genid-00f1db82e1ab437c844115a94dc63e635-bn1808t4f28739"
+        },
+        {
+            "@id": "b187_genid-00f1db82e1ab437c844115a94dc63e635-bn1808t11f60575"
+        }
+    ]
+}

@@ -1,0 +1,63 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_75703",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "obo:IAO_0000115": "The (R)-enantiomer of 2-(4-chloro-2-methylphenoxy)propanoic acid; the active stereoisomer of the racemic herbicide mecoprop.",
+    "chebi:charge": "0",
+    "chebi:formula": "C10H11ClO3",
+    "chebi:inchi": "InChI=1S/C10H11ClO3/c1-6-5-8(11)3-4-9(6)14-7(2)10(12)13/h3-5,7H,1-2H3,(H,12,13)/t7-/m1/s1",
+    "chebi:inchikey": "WNTGYJSOUMFZEP-SSDOTTSWSA-N",
+    "chebi:smiles": "C[C@@H](Oc1ccc(Cl)cc1C)C(O)=O",
+    "geneontology:hasDbXref": [
+        "AGR:IND44300259",
+        "CAS:16484-77-8",
+        "KEGG:C18608",
+        "Patent:CA2703613",
+        "Patent:WO2009053063",
+        "Patent:WO2010017929",
+        "Pesticides:mecoprop-p",
+        "PMID:22959720",
+        "PMID:23361178",
+        "PPDB:431",
+        "Reaxys:1960621",
+        "Wikipedia:Mecoprop"
+    ],
+    "geneontology:hasId": "75703",
+    "geneontology:hasSynonym": [
+        "(+)-Mcpp",
+        "(2R)-2-(4-chloro-2-methylphenoxy)propanoic acid",
+        "(2R)-2-(4-chloro-2-methylphenoxy)propionic acid",
+        "(R)-2-(4-chloro-2-methylphenoxy)propanoic acid",
+        "(R)-2-(4-chloro-o-tolyloxy)propionic acid",
+        "(R)-MCPP",
+        "2M-4XP",
+        "d-Mecoprop",
+        "Mecoprop-P"
+    ],
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#3_STAR"
+    },
+    "rdfs:label": "(R)-mecoprop",
+    "rdfs:subClassOf": [
+        {
+            "@id": "b184_genid-00f1db82e1ab437c844115a94dc63e635-bn75703tmms73f75284"
+        },
+        {
+            "@id": "b184_genid-00f1db82e1ab437c844115a94dc63e635-bn75703t11f60575"
+        },
+        {
+            "@id": "b184_genid-00f1db82e1ab437c844115a94dc63e635-bn75703t4f75284"
+        },
+        {
+            "@id": "obo:CHEBI_75704"
+        },
+        {
+            "@id": "b184_genid-00f1db82e1ab437c844115a94dc63e635-bn75703t6f75712"
+        }
+    ]
+}

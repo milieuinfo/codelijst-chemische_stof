@@ -1,0 +1,41 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_22154",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "obo:IAO_0000115": "A polycyclic aromatic hydrocarbon derived from naphthalene by the addition of an ethylene bridge connecting C-1 and C-8.",
+    "chebi:charge": "0",
+    "chebi:formula": "C12H10",
+    "chebi:inchi": "InChI=1S/C12H10/c1-3-9-4-2-6-11-8-7-10(5-1)12(9)11/h1-6H,7-8H2",
+    "chebi:inchikey": "CWRYPZZKDGJXCA-UHFFFAOYSA-N",
+    "chebi:smiles": "C1Cc2cccc3cccc1c23",
+    "geneontology:hasDbXref": [
+        "Beilstein:386081",
+        "CAS:83-32-9",
+        "Gmelin:261742",
+        "KEGG:C19312",
+        "Patent:CN102898269",
+        "Patent:CN103304357",
+        "PMID:24239307",
+        "PMID:24420562",
+        "PMID:24746347",
+        "Reaxys:386081",
+        "Wikipedia:Acenaphthene"
+    ],
+    "geneontology:hasId": "22154",
+    "geneontology:hasSynonym": [
+        "1,2-dihydroacenaphthylene",
+        "peri-ethylenenaphthalene"
+    ],
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#3_STAR"
+    },
+    "rdfs:label": "acenaphthene",
+    "rdfs:subClassOf": {
+        "@id": "obo:CHEBI_22156"
+    }
+}

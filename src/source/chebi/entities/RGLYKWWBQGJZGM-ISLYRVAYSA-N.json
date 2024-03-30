@@ -1,0 +1,112 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_41922",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "obo:IAO_0000115": "An olefinic compound that is trans-hex-3-ene in which the hydrogens at positions 3 and 4 have been replaced by p-hydroxyphenyl groups.",
+    "chebi:charge": "0",
+    "chebi:formula": "C18H20O2",
+    "chebi:inchi": "InChI=1S/C18H20O2/c1-3-17(13-5-9-15(19)10-6-13)18(4-2)14-7-11-16(20)12-8-14/h5-12,19-20H,3-4H2,1-2H3/b18-17+",
+    "chebi:inchikey": "RGLYKWWBQGJZGM-ISLYRVAYSA-N",
+    "chebi:smiles": "CC\\C(c1ccc(O)cc1)=C(\\CC)c1ccc(O)cc1",
+    "geneontology:hasDbXref": [
+        "Beilstein:2056095",
+        "CAS:56-53-1",
+        "Drug_Central:875",
+        "DrugBank:DB00255",
+        "FooDB:FDB007498",
+        "HMDB:HMDB0014400",
+        "KEGG:C07620",
+        "KEGG:D00577",
+        "PDBeChem:DES",
+        "PMID:12877905",
+        "PMID:15322263",
+        "PMID:16665969",
+        "PMID:19303142",
+        "PMID:21795073",
+        "PMID:21852823",
+        "PMID:24247716",
+        "PMID:25934356",
+        "PMID:28461243",
+        "PMID:29344720",
+        "PMID:29609831",
+        "PMID:29658110",
+        "PMID:30049842",
+        "PMID:30153466",
+        "PMID:30594671",
+        "PMID:30685453",
+        "PMID:30758926",
+        "PMID:30866048",
+        "PMID:31119342",
+        "PMID:31119346",
+        "PMID:31247589",
+        "PMID:31259848",
+        "PMID:31280197",
+        "PMID:31283846",
+        "PMID:31300300",
+        "PMID:8832405",
+        "PMID:9202463",
+        "Wikipedia:Diethylstilbestrol"
+    ],
+    "geneontology:hasId": "41922",
+    "geneontology:hasSynonym": [
+        "diethylstilbestrol",
+        "DES",
+        "(E)-3,4-bis(4-hydroxyphenyl)-3-hexene",
+        "(E)-4,4'-(1,2-diethyl-1,2-ethenediyl)bisphenol",
+        "4,4'-(3E)-hex-3-ene-3,4-diyldiphenol",
+        "4,4'-dihydroxy-alpha,beta-diethylstilbene",
+        "alpha,alpha'-diethyl-(E)-4,4'-stilbenediol",
+        "Diethylstilbestrol",
+        "diethylstilbestrolum",
+        "dietilestilbestrol",
+        "Distilbene",
+        "trans-4,4'-(1,2-diethyl-1,2-ethenediyl)bisphenol",
+        "trans-Diethylstilbesterol",
+        "trans-Diethylstilbestrol",
+        "trans-Diethylstilboesterol"
+    ],
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#3_STAR"
+    },
+    "rdfs:label": "diethylstilbestrol",
+    "rdfs:subClassOf": [
+        {
+            "@id": "obo:CHEBI_26195"
+        },
+        {
+            "@id": "obo:CHEBI_78840"
+        },
+        {
+            "@id": "b46_genid-00f1db82e1ab437c844115a94dc63e635-bn41922t11f35610"
+        },
+        {
+            "@id": "b46_genid-00f1db82e1ab437c844115a94dc63e635-bn41922t11f35718"
+        },
+        {
+            "@id": "b46_genid-00f1db82e1ab437c844115a94dc63e635-bn41922t11f38215"
+        },
+        {
+            "@id": "b46_genid-00f1db82e1ab437c844115a94dc63e635-bn41922t11f49200"
+        },
+        {
+            "@id": "b46_genid-00f1db82e1ab437c844115a94dc63e635-bn41922t11f50903"
+        },
+        {
+            "@id": "b46_genid-00f1db82e1ab437c844115a94dc63e635-bn41922t11f76988"
+        },
+        {
+            "@id": "b46_genid-00f1db82e1ab437c844115a94dc63e635-bn41922t11f137626"
+        },
+        {
+            "@id": "b46_genid-00f1db82e1ab437c844115a94dc63e635-bn41922t11f138015"
+        },
+        {
+            "@id": "b46_genid-00f1db82e1ab437c844115a94dc63e635-bn41922t11f138880"
+        }
+    ]
+}

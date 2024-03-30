@@ -1,0 +1,33 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_82892",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "obo:IAO_0000115": "A member of the class of imidazoles that is 1-(2,4-dichlorophenyl)-2-(imidazol-1-yl)ethanol in which the hydroxyl hydrogen is replaced by a 2,4-dichlorobenzyl group.",
+    "chebi:charge": "0",
+    "chebi:formula": "C18H14Cl4N2O",
+    "chebi:inchi": "InChI=1S/C18H14Cl4N2O/c19-13-2-1-12(16(21)7-13)10-25-18(9-24-6-5-23-11-24)15-4-3-14(20)8-17(15)22/h1-8,11,18H,9-10H2",
+    "chebi:inchikey": "BYBLEWFAAKGYCD-UHFFFAOYSA-N",
+    "chebi:smiles": "Clc1ccc(COC(Cn2ccnc2)c2ccc(Cl)cc2Cl)c(Cl)c1",
+    "geneontology:hasId": "82892",
+    "geneontology:hasSynonym": "1-[2-(2,4-dichlorobenzyloxy)-2-(2,4-dichlorophenyl)ethyl]-1H-imidazole",
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#3_STAR"
+    },
+    "rdfs:label": "1-[2-(2,4-dichlorobenzyloxy)-2-(2,4-dichlorophenyl)ethyl]imidazole",
+    "rdfs:subClassOf": [
+        {
+            "@id": "obo:CHEBI_25698"
+        },
+        {
+            "@id": "obo:CHEBI_23697"
+        },
+        {
+            "@id": "obo:CHEBI_24780"
+        }
+    ]
+}

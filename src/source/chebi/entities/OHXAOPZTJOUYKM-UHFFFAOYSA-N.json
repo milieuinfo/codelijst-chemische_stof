@@ -1,0 +1,27 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_82419",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "chebi:charge": "0",
+    "chebi:formula": "C4H7Cl",
+    "chebi:inchi": "InChI=1S/C4H7Cl/c1-4(2)3-5/h1,3H2,2H3",
+    "chebi:inchikey": "OHXAOPZTJOUYKM-UHFFFAOYSA-N",
+    "chebi:smiles": "CC(=C)CCl",
+    "geneontology:hasDbXref": [
+        "CAS:563-47-3",
+        "KEGG:C19363"
+    ],
+    "geneontology:hasId": "82419",
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#2_STAR"
+    },
+    "rdfs:label": "3-Chloro-2-methylpropene",
+    "rdfs:subClassOf": {
+        "@id": "obo:CHEBI_36683"
+    }
+}

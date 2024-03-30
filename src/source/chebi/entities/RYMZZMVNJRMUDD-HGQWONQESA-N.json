@@ -1,0 +1,86 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_9150",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "obo:IAO_0000115": "A member of the class of hexahydronaphthalenes that is lovastatin in which the 2-methylbutyrate ester moiety has been replaced by a 2,2-dimethylbutyrate ester group. It is used as a cholesterol-lowering and anti-cardiovascular disease drug.",
+    "chebi:charge": "0",
+    "chebi:formula": "C25H38O5",
+    "chebi:inchi": "InChI=1S/C25H38O5/c1-6-25(4,5)24(28)30-21-12-15(2)11-17-8-7-16(3)20(23(17)21)10-9-19-13-18(26)14-22(27)29-19/h7-8,11,15-16,18-21,23,26H,6,9-10,12-14H2,1-5H3/t15-,16-,18+,19+,20-,21-,23-/m0/s1",
+    "chebi:inchikey": "RYMZZMVNJRMUDD-HGQWONQESA-N",
+    "chebi:smiles": "CCC(C)(C)C(=O)O[C@H]1C[C@@H](C)C=C2C=C[C@H](C)[C@H](CC[C@@H]3C[C@@H](O)CC(=O)O3)[C@@H]12",
+    "geneontology:hasDbXref": [
+        "Beilstein:4768037",
+        "CAS:79902-63-9",
+        "Drug_Central:2445",
+        "DrugBank:DB00641",
+        "HMDB:HMDB0005007",
+        "KEGG:D00434",
+        "LINCS:LSM-2492",
+        "Patent:EP33538",
+        "Patent:US4444784",
+        "PMID:11336576",
+        "PMID:12827636",
+        "PMID:14561068",
+        "PMID:14691614",
+        "PMID:14973129",
+        "PMID:16144183",
+        "PMID:17640385",
+        "PMID:18199328",
+        "PMID:18688862",
+        "PMID:18936176",
+        "PMID:22737247",
+        "Wikipedia:Simvastatin"
+    ],
+    "geneontology:hasId": "9150",
+    "geneontology:hasSynonym": [
+        "(1S,3R,7S,8S,8aR)-8-{2-[(2R,4R)-4-hydroxy-6-oxotetrahydro-2H-pyran-2-yl]ethyl}-3,7-dimethyl-1,2,3,7,8,8a-hexahydronaphthalen-1-yl 2,2-dimethylbutanoate",
+        "2,2-dimethylbutyric acid, 8-ester with (4R,6R)-6-(2-((1S,2S,6R,8S,8aR)-1,2,6,7,8,8a-hexahydro-8-hydroxy-2,6-dimethyl-1-naphthyl)ethyl)tetrahydro-4-hydroxy-2H-pyran-2-one",
+        "MK-733",
+        "Simvastatin",
+        "Simvastatina",
+        "Simvastatine",
+        "Simvastatinum",
+        "Zocor"
+    ],
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#3_STAR"
+    },
+    "rdfs:label": "simvastatin",
+    "rdfs:subClassOf": [
+        {
+            "@id": "obo:CHEBI_35748"
+        },
+        {
+            "@id": "obo:CHEBI_18946"
+        },
+        {
+            "@id": "obo:CHEBI_87633"
+        },
+        {
+            "@id": "b282_genid-00f1db82e1ab437c844115a94dc63e635-bn9150t11f35664"
+        },
+        {
+            "@id": "b282_genid-00f1db82e1ab437c844115a94dc63e635-bn9150t8f40303"
+        },
+        {
+            "@id": "b282_genid-00f1db82e1ab437c844115a94dc63e635-bn9150t11f50266"
+        },
+        {
+            "@id": "b282_genid-00f1db82e1ab437c844115a94dc63e635-bn9150t11f77255"
+        },
+        {
+            "@id": "obo:CHEBI_142348"
+        },
+        {
+            "@id": "b282_genid-00f1db82e1ab437c844115a94dc63e635-bn9150t11f173085"
+        },
+        {
+            "@id": "b282_genid-00f1db82e1ab437c844115a94dc63e635-bn9150t11f176497"
+        }
+    ]
+}

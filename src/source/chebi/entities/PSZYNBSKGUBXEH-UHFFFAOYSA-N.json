@@ -1,0 +1,40 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_30895",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "chebi:charge": "0",
+    "chebi:formula": "C10H8O3S",
+    "chebi:inchi": "InChI=1S/C10H8O3S/c11-14(12,13)10-7-3-5-8-4-1-2-6-9(8)10/h1-7H,(H,11,12,13)",
+    "chebi:inchikey": "PSZYNBSKGUBXEH-UHFFFAOYSA-N",
+    "chebi:smiles": "OS(=O)(=O)c1cccc2ccccc12",
+    "geneontology:hasDbXref": [
+        "Beilstein:2099069",
+        "CAS:85-47-2",
+        "Gmelin:366290",
+        "KEGG:C16201"
+    ],
+    "geneontology:hasId": "30895",
+    "geneontology:hasSynonym": [
+        "1-naphthalenesulfonic acid",
+        "alpha-naphthalenesulfonic acid",
+        "Naphthalene-1-sulfonate",
+        "naphthalene-1-sulphonic acid"
+    ],
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#3_STAR"
+    },
+    "rdfs:label": "naphthalene-1-sulfonic acid",
+    "rdfs:subClassOf": [
+        {
+            "@id": "obo:CHEBI_36336"
+        },
+        {
+            "@id": "b175_genid-00f1db82e1ab437c844115a94dc63e635-bn30895tmms73f25474"
+        }
+    ]
+}

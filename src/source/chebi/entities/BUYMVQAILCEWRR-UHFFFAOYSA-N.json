@@ -1,0 +1,73 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_38729",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "obo:IAO_0000115": "An dialkyl phosphate resulting from the formal condensation of the acidic hydroxy group of dimethyl hydrogen phosphate with the alcoholic hydroxy group of 1,2-dibromo-2,2-dichloroethanol. An organophosphate insecticide, it is no longer approved for use within the European Union.",
+    "chebi:charge": "0",
+    "chebi:formula": "C4H7Br2Cl2O4P",
+    "chebi:inchi": "InChI=1S/C4H7Br2Cl2O4P/c1-10-13(9,11-2)12-3(5)4(6,7)8/h3H,1-2H3",
+    "chebi:inchikey": "BUYMVQAILCEWRR-UHFFFAOYSA-N",
+    "chebi:smiles": "COP(=O)(OC)OC(Br)C(Cl)(Cl)Br",
+    "geneontology:hasDbXref": [
+        "Beilstein:2049930",
+        "CAS:300-76-5",
+        "KEGG:C18749",
+        "Patent:GB855157",
+        "Patent:US2971882",
+        "Pesticides:naled",
+        "PPDB:480",
+        "Wikipedia:Naled"
+    ],
+    "geneontology:hasId": "38729",
+    "geneontology:hasSynonym": [
+        "1,2-dibromo-2,2-dichloroethyl dimethyl phosphate",
+        "Bromex",
+        "Dibrom",
+        "dimethyl-1,2-dibromo-2,2-dichloroethyl phosphate",
+        "O,O-dimethyl O-2,2-dichloro-1,2-dibromoethyl phosphate",
+        "O-(1,2-dibromo-2,2-dichloroethyl)-O,O-dimethyl phosphate",
+        "Ortho-Dibrom",
+        "phosphoric acid, 1,2-dibromo-2,2-dichloroethyl dimethyl ester"
+    ],
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#3_STAR"
+    },
+    "rdfs:label": "naled",
+    "rdfs:subClassOf": [
+        {
+            "@id": "obo:CHEBI_36683"
+        },
+        {
+            "@id": "obo:CHEBI_37141"
+        },
+        {
+            "@id": "obo:CHEBI_16648"
+        },
+        {
+            "@id": "obo:CHEBI_25708"
+        },
+        {
+            "@id": "b247_genid-00f1db82e1ab437c844115a94dc63e635-bn38729t11f22153"
+        },
+        {
+            "@id": "b247_genid-00f1db82e1ab437c844115a94dc63e635-bn38729t11f33282"
+        },
+        {
+            "@id": "b247_genid-00f1db82e1ab437c844115a94dc63e635-bn38729t11f33286"
+        },
+        {
+            "@id": "b247_genid-00f1db82e1ab437c844115a94dc63e635-bn38729t11f35718"
+        },
+        {
+            "@id": "b247_genid-00f1db82e1ab437c844115a94dc63e635-bn38729t11f37733"
+        },
+        {
+            "@id": "b247_genid-00f1db82e1ab437c844115a94dc63e635-bn38729t11f38462"
+        }
+    ]
+}

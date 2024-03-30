@@ -1,0 +1,62 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_17997",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "obo:IAO_0000115": "An elemental molecule consisting of two trivalently-bonded nitrogen atoms.",
+    "chebi:charge": "0",
+    "chebi:formula": "N2",
+    "chebi:inchi": "InChI=1S/N2/c1-2",
+    "chebi:inchikey": "IJGRMHOSHXDMSA-UHFFFAOYSA-N",
+    "chebi:smiles": "N#N",
+    "http://purl.uniprot.org/core/name": "N2",
+    "geneontology:hasDbXref": [
+        "CAS:7727-37-9",
+        "Drug_Central:4251",
+        "Gmelin:150",
+        "HMDB:HMDB0001371",
+        "KEGG:C00697",
+        "KEGG:D00083",
+        "MetaCyc:NITROGEN-MOLECULE",
+        "PDBeChem:HDZ",
+        "PMID:18334638",
+        "PMID:22237545",
+        "Reaxys:15940095",
+        "Wikipedia:Nitrogen"
+    ],
+    "geneontology:hasId": "17997",
+    "geneontology:hasSynonym": [
+        "N2",
+        "N#N",
+        "molecular nitrogen",
+        "Nitrogen"
+    ],
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#3_STAR"
+    },
+    "rdfs:label": "dinitrogen",
+    "rdfs:subClassOf": [
+        {
+            "@id": "obo:CHEBI_25362"
+        },
+        {
+            "@id": "obo:CHEBI_138675"
+        },
+        {
+            "@id": "b619_genid-00f1db82e1ab437c844115a94dc63e635-bn17997t5f30102"
+        },
+        {
+            "@id": "obo:CHEBI_33266"
+        },
+        {
+            "@id": "b619_genid-00f1db82e1ab437c844115a94dc63e635-bn17997t11f77974"
+        },
+        {
+            "@id": "b619_genid-00f1db82e1ab437c844115a94dc63e635-bn17997t11f78017"
+        }
+    ]
+}

@@ -1,0 +1,58 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_82040",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "obo:IAO_0000115": "A member of the class of quinolines carrying two chloro substituents at positions 5 and 7 together with a 4-fluorophenoxy substituent at position 4. A fungicide used mainly to control powdery mildew in cereals.",
+    "chebi:charge": "0",
+    "chebi:formula": "C15H8Cl2FNO",
+    "chebi:inchi": "InChI=1S/C15H8Cl2FNO/c16-9-7-12(17)15-13(8-9)19-6-5-14(15)20-11-3-1-10(18)2-4-11/h1-8H",
+    "chebi:inchikey": "WRPIRSINYZBGPK-UHFFFAOYSA-N",
+    "chebi:smiles": "Fc1ccc(Oc2ccnc3cc(Cl)cc(Cl)c23)cc1",
+    "geneontology:hasDbXref": [
+        "CAS:124495-18-7",
+        "KEGG:C18892",
+        "Patent:EP2308303",
+        "Pesticides:quinoxyfen",
+        "PMID:21337673",
+        "PMID:23175987",
+        "PMID:23182285",
+        "PMID:23534560",
+        "PMID:24674876",
+        "PMID:25306363",
+        "PPDB:580",
+        "Reaxys:11339818"
+    ],
+    "geneontology:hasId": "82040",
+    "geneontology:hasSynonym": [
+        "5,7-dichloro-4-(4-fluorophenoxy)quinoline",
+        "5,7-dichloro-4-quinolyl 4-fluorophenyl ether",
+        "DE 795",
+        "HSDB 7946"
+    ],
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#3_STAR"
+    },
+    "rdfs:label": "quinoxyfen",
+    "rdfs:subClassOf": [
+        {
+            "@id": "obo:CHEBI_35618"
+        },
+        {
+            "@id": "obo:CHEBI_36683"
+        },
+        {
+            "@id": "obo:CHEBI_26513"
+        },
+        {
+            "@id": "obo:CHEBI_83575"
+        },
+        {
+            "@id": "b204_genid-00f1db82e1ab437c844115a94dc63e635-bn82040t11f86328"
+        }
+    ]
+}

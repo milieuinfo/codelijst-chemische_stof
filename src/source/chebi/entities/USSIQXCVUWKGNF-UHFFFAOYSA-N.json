@@ -1,0 +1,39 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_167309",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "obo:IAO_0000115": "A ketone that is heptan-3-one substituted by a dimethylamino group at position 6 and two phenyl groups at position 4.",
+    "chebi:charge": "0",
+    "chebi:formula": "C21H27NO",
+    "chebi:inchi": "InChI=1S/C21H27NO/c1-5-20(23)21(16-17(2)22(3)4,18-12-8-6-9-13-18)19-14-10-7-11-15-19/h6-15,17H,5,16H2,1-4H3",
+    "chebi:inchikey": "USSIQXCVUWKGNF-UHFFFAOYSA-N",
+    "chebi:smiles": "CCC(=O)C(CC(C)N(C)C)(C1=CC=CC=C1)C1=CC=CC=C1",
+    "geneontology:hasId": "167309",
+    "geneontology:hasSynonym": "6-(dimethylamino)-4,4-diphenyl-3-heptanone",
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#3_STAR"
+    },
+    "rdfs:label": "6-(dimethylamino)-4,4-diphenylheptan-3-one",
+    "rdfs:subClassOf": [
+        {
+            "@id": "obo:CHEBI_17087"
+        },
+        {
+            "@id": "obo:CHEBI_50996"
+        },
+        {
+            "@id": "obo:CHEBI_22712"
+        },
+        {
+            "@id": "obo:CHEBI_51614"
+        },
+        {
+            "@id": "b28_genid-00f1db82e1ab437c844115a94dc63e635-bn167309t8f50139"
+        }
+    ]
+}

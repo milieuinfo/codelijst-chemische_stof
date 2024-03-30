@@ -1,0 +1,46 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_31450",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "chebi:charge": "0",
+    "chebi:formula": "C24H25NO3",
+    "chebi:inchi": "InChI=1S/C24H25NO3/c1-16(2)13-20-22(24(20,3)4)23(26)28-21(15-25)17-9-8-12-19(14-17)27-18-10-6-5-7-11-18/h5-14,20-22H,1-4H3",
+    "chebi:inchikey": "FJDPATXIBIBRIM-UHFFFAOYSA-N",
+    "chebi:smiles": "CC(C)=CC1C(C(=O)OC(C#N)c2cccc(Oc3ccccc3)c2)C1(C)C",
+    "geneontology:hasDbXref": [
+        "Beilstein:2904235",
+        "CAS:39515-40-7",
+        "KEGG:C12962",
+        "KEGG:D01511",
+        "PPDB:1181"
+    ],
+    "geneontology:hasId": "31450",
+    "geneontology:hasSynonym": [
+        "cyano(3-phenoxyphenyl)methyl 2,2-dimethyl-3-(2-methylprop-1-en-1-yl)cyclopropanecarboxylate",
+        "Cyphenothrin",
+        "d.d-T-Cyphenothrin"
+    ],
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#3_STAR"
+    },
+    "rdfs:label": "cyphenothrin",
+    "rdfs:subClassOf": [
+        {
+            "@id": "obo:CHEBI_50351"
+        },
+        {
+            "@id": "b208_genid-00f1db82e1ab437c844115a94dc63e635-bn31450t8f3680"
+        },
+        {
+            "@id": "b208_genid-00f1db82e1ab437c844115a94dc63e635-bn31450t11f33286"
+        },
+        {
+            "@id": "b208_genid-00f1db82e1ab437c844115a94dc63e635-bn31450t11f39116"
+        }
+    ]
+}

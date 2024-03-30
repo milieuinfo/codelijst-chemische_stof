@@ -1,0 +1,66 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@graph": [
+        {
+            "@id": "obo:CHEBI_29287",
+            "@type": "http://www.w3.org/2002/07/owl#Class",
+            "chebi:charge": "0",
+            "chebi:formula": "Au",
+            "chebi:inchi": "InChI=1S/Au",
+            "chebi:inchikey": "PCHJSUWPFVWCPO-UHFFFAOYSA-N",
+            "chebi:smiles": "[Au]",
+            "geneontology:hasDbXref": [
+                "CAS:7440-57-5",
+                "WebElements:Au"
+            ],
+            "geneontology:hasId": "29287",
+            "geneontology:hasSynonym": [
+                "Au",
+                "79Au",
+                "aurum",
+                "gold",
+                "Gold",
+                "or",
+                "oro"
+            ],
+            "geneontology:inSubset": {
+                "@id": "obo:chebi#3_STAR"
+            },
+            "rdfs:label": "gold atom",
+            "rdfs:subClassOf": {
+                "@id": "obo:CHEBI_33366"
+            }
+        },
+        {
+            "@id": "obo:CHEBI_30050",
+            "@type": "http://www.w3.org/2002/07/owl#Class",
+            "chebi:charge": "0",
+            "chebi:formula": "Au",
+            "chebi:inchi": "InChI=1S/Au",
+            "chebi:inchikey": "PCHJSUWPFVWCPO-UHFFFAOYSA-N",
+            "chebi:smiles": "[Au]",
+            "geneontology:hasDbXref": "CAS:7440-57-5",
+            "geneontology:hasId": "30050",
+            "geneontology:hasSynonym": [
+                "gold",
+                "Au(0)",
+                "Aun",
+                "colloidal gold",
+                "gold flake",
+                "gold leaf"
+            ],
+            "geneontology:inSubset": {
+                "@id": "obo:chebi#3_STAR"
+            },
+            "rdfs:label": "gold(0)",
+            "rdfs:subClassOf": {
+                "@id": "obo:CHEBI_33970"
+            }
+        }
+    ]
+}

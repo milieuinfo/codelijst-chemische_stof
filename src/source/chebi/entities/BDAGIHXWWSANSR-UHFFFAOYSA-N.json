@@ -1,0 +1,101 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_30751",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "obo:IAO_0000115": "The simplest carboxylic acid, containing a single carbon. Occurs naturally in various sources including the venom of bee and ant stings, and is a useful organic synthetic reagent. Principally used as a preservative and antibacterial agent in livestock feed. Induces severe metabolic acidosis and ocular injury in human subjects.",
+    "chebi:charge": "0",
+    "chebi:formula": "CH2O2",
+    "chebi:inchi": "InChI=1S/CH2O2/c2-1-3/h1H,(H,2,3)",
+    "chebi:inchikey": "BDAGIHXWWSANSR-UHFFFAOYSA-N",
+    "chebi:smiles": "[H]C(O)=O",
+    "geneontology:hasDbXref": [
+        "HMDB:HMDB0000142",
+        "KEGG:C00058",
+        "MetaCyc:FORMATE",
+        "PMID:3946945",
+        "Beilstein:1209246",
+        "BPDB:1749",
+        "CAS:64-18-6",
+        "DrugBank:DB01942",
+        "Gmelin:1008",
+        "KNApSAcK:C00001182",
+        "LIPID_MAPS_instance:LMFA01010040",
+        "Patent:CN101481304",
+        "PDBeChem:FMT",
+        "PMID:12591956",
+        "PMID:14637377",
+        "PMID:15811469",
+        "PMID:16120414",
+        "PMID:16185830",
+        "PMID:16222862",
+        "PMID:16230297",
+        "PMID:16445901",
+        "PMID:16465784",
+        "PMID:18034701",
+        "PMID:18397576",
+        "PMID:22080171",
+        "PMID:22280475",
+        "PMID:22304812",
+        "PMID:22385261",
+        "PMID:22447125",
+        "PMID:22483350",
+        "PMID:22499553",
+        "PMID:22540994",
+        "PMID:22606986",
+        "PMID:22622393",
+        "PMID:7361809",
+        "Reaxys:1209246",
+        "Wikipedia:Formic_acid"
+    ],
+    "geneontology:hasId": "30751",
+    "geneontology:hasSynonym": [
+        "Acide formique",
+        "Ameisensaeure",
+        "aminic acid",
+        "bilorin",
+        "Formic acid",
+        "FORMIC ACID",
+        "formylic acid",
+        "HCO2H",
+        "HCOOH",
+        "H-COOH",
+        "hydrogen carboxylic acid",
+        "Methanoic acid",
+        "methoic acid"
+    ],
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#3_STAR"
+    },
+    "rdfs:label": "formic acid",
+    "rdfs:subClassOf": [
+        {
+            "@id": "obo:CHEBI_25384"
+        },
+        {
+            "@id": "b115_genid-00f1db82e1ab437c844115a94dc63e635-bn30751tmms73f15740"
+        },
+        {
+            "@id": "b115_genid-00f1db82e1ab437c844115a94dc63e635-bn30751t4f15740"
+        },
+        {
+            "@id": "b115_genid-00f1db82e1ab437c844115a94dc63e635-bn30751t11f25212"
+        },
+        {
+            "@id": "b115_genid-00f1db82e1ab437c844115a94dc63e635-bn30751t11f33282"
+        },
+        {
+            "@id": "b115_genid-00f1db82e1ab437c844115a94dc63e635-bn30751t11f46787"
+        },
+        {
+            "@id": "b115_genid-00f1db82e1ab437c844115a94dc63e635-bn30751t11f48356"
+        },
+        {
+            "@id": "b115_genid-00f1db82e1ab437c844115a94dc63e635-bn30751t11f74783"
+        }
+    ]
+}

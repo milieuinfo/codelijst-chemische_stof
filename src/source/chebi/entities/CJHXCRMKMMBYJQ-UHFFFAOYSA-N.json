@@ -1,0 +1,58 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_81958",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "obo:IAO_0000115": "A member of the class of aminopyrimidines that is 2-dimethylaminopyrimidine carrying methyl, butyl and hydroxy substituents at posiitons 4, 5 and 6 respectively. A fungicide first marketed in 1970, and used particularly in glasshouses to control powdery mildew, it is no longer approved for use within the European Union.",
+    "chebi:charge": "0",
+    "chebi:formula": "C11H19N3O",
+    "chebi:inchi": "InChI=1S/C11H19N3O/c1-5-6-7-9-8(2)12-11(14(3)4)13-10(9)15/h5-7H2,1-4H3,(H,12,13,15)",
+    "chebi:inchikey": "CJHXCRMKMMBYJQ-UHFFFAOYSA-N",
+    "chebi:smiles": "CCCCc1c(C)nc(nc1O)N(C)C",
+    "geneontology:hasDbXref": [
+        "CAS:5221-53-4",
+        "KEGG:C18784",
+        "Patent:WO2006069715",
+        "Pesticides:dimethirimol",
+        "PMID:4833650",
+        "PMID:5083102",
+        "PMID:5675634",
+        "PPDB:243",
+        "Reaxys:746334"
+    ],
+    "geneontology:hasId": "81958",
+    "geneontology:hasSynonym": [
+        "2-Dimethylamino-4-hydroxy-5-n-butyl-6-methylpyrimidine",
+        "2-Dimethylamino-4-methyl-5-n-butyl-6-hydroxypyrimidine",
+        "5-Butyl-2-(dimethylamino)-6-methyl-4(1H)-pyrimidinone",
+        "5-Butyl-2-(dimethylamino)-6-methyl-4-pyrimidinol",
+        "5-butyl-2-(dimethylamino)-6-methylpyrimidin-4(1H)-one",
+        "5-n-Butyl-2-dimethylamino-4-hydroxy-6-methylpyrimidine",
+        "Dimethyrimol"
+    ],
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#3_STAR"
+    },
+    "rdfs:label": "dimethirimol",
+    "rdfs:subClassOf": [
+        {
+            "@id": "obo:CHEBI_50996"
+        },
+        {
+            "@id": "obo:CHEBI_38338"
+        },
+        {
+            "@id": "obo:CHEBI_87207"
+        },
+        {
+            "@id": "obo:CHEBI_38340"
+        },
+        {
+            "@id": "b316_genid-00f1db82e1ab437c844115a94dc63e635-bn81958t11f86328"
+        }
+    ]
+}

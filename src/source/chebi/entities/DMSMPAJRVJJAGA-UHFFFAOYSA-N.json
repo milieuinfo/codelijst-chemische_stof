@@ -1,0 +1,74 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_167099",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "obo:IAO_0000115": "An organic heterobicyclic compound based on a fused 1,2-thiazole and benzene bicyclic ring skeleton, with the S atom positioned adjacent to one of the positions of ring fusion.",
+    "chebi:charge": "0",
+    "chebi:formula": "C7H5NOS",
+    "chebi:inchi": "InChI=1S/C7H5NOS/c9-7-5-3-1-2-4-6(5)10-8-7/h1-4H,(H,8,9)",
+    "chebi:inchikey": "DMSMPAJRVJJAGA-UHFFFAOYSA-N",
+    "chebi:smiles": "O=c1[nH]sc2ccccc12",
+    "geneontology:hasDbXref": [
+        "PMID:6446435",
+        "Beilstein:119510",
+        "CAS:2634-33-5",
+        "HMDB:HMDB0034413",
+        "PMID:10201825",
+        "PMID:10604041",
+        "PMID:17988285",
+        "PMID:21903403",
+        "PMID:23429043",
+        "PMID:8833462",
+        "PMID:9046655",
+        "PMID:9231500",
+        "PPDB:1361",
+        "Reaxys:119510",
+        "Wikipedia:Benzisothiazolinone"
+    ],
+    "geneontology:hasId": "167099",
+    "geneontology:hasSynonym": [
+        "1,2-benzisothiazol-3(2H)-one",
+        "1,2-Benzisothiazol-3(2H)-one",
+        "1,2-Benzisothiazolin-3-one",
+        "1,2-Benzisothiazoline-3-one",
+        "2,3-dihydro-3-oxo-1,2-benzisothiazole",
+        "benzisothiazolone",
+        "BIT",
+        "IPX"
+    ],
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#3_STAR"
+    },
+    "rdfs:label": "benzo[d]isothiazol-3-one",
+    "rdfs:subClassOf": [
+        {
+            "@id": "obo:CHEBI_38101"
+        },
+        {
+            "@id": "obo:CHEBI_27171"
+        },
+        {
+            "@id": "b73_genid-00f1db82e1ab437c844115a94dc63e635-bn167099t11f35703"
+        },
+        {
+            "@id": "b73_genid-00f1db82e1ab437c844115a94dc63e635-bn167099t11f48219"
+        },
+        {
+            "@id": "b73_genid-00f1db82e1ab437c844115a94dc63e635-bn167099t11f50427"
+        },
+        {
+            "@id": "b73_genid-00f1db82e1ab437c844115a94dc63e635-bn167099t11f78298"
+        },
+        {
+            "@id": "b73_genid-00f1db82e1ab437c844115a94dc63e635-bn167099t11f88188"
+        },
+        {
+            "@id": "b73_genid-00f1db82e1ab437c844115a94dc63e635-bn167099t11f139492"
+        }
+    ]
+}

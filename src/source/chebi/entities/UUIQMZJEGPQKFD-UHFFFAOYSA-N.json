@@ -1,0 +1,39 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_88806",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "chebi:charge": "0",
+    "chebi:formula": "C5H10O2",
+    "chebi:inchi": "InChI=1S/C5H10O2/c1-3-4-5(6)7-2/h3-4H2,1-2H3",
+    "chebi:inchikey": "UUIQMZJEGPQKFD-UHFFFAOYSA-N",
+    "chebi:smiles": "CCCC(=O)OC",
+    "geneontology:hasDbXref": [
+        "PMID:23454028",
+        "CAS:623-42-7",
+        "HMDB:HMDB0033890",
+        "Wikipedia:Methyl_butyrate"
+    ],
+    "geneontology:hasId": "88806",
+    "geneontology:hasSynonym": [
+        "Butanoic acid, methyl ester",
+        "Butyric acid, methyl ester",
+        "methyl butanoate",
+        "Methyl butanoate",
+        "Methyl ester of butanoic acid",
+        "Methyl N-butanoate",
+        "Methyl N-butyrate",
+        "N-Butyric acid methyl ester"
+    ],
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#2_STAR"
+    },
+    "rdfs:label": "Methyl butyrate",
+    "rdfs:subClassOf": {
+        "@id": "obo:CHEBI_35748"
+    }
+}

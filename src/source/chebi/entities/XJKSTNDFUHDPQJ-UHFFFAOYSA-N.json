@@ -1,0 +1,39 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_52242",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "obo:IAO_0000115": "A para-terphenyl that consists of benzene attached to two phenyl units at positions 1 and 4 respectively.",
+    "chebi:charge": "0",
+    "chebi:formula": "C18H14",
+    "chebi:inchi": "InChI=1S/C18H14/c1-3-7-15(8-4-1)17-11-13-18(14-12-17)16-9-5-2-6-10-16/h1-14H",
+    "chebi:inchikey": "XJKSTNDFUHDPQJ-UHFFFAOYSA-N",
+    "chebi:smiles": "c1ccc(cc1)-c1ccc(cc1)-c1ccccc1",
+    "geneontology:hasDbXref": [
+        "Beilstein:1908447",
+        "CAS:92-94-4",
+        "PMID:17269654",
+        "Reaxys:1908447"
+    ],
+    "geneontology:hasId": "52242",
+    "geneontology:hasSynonym": [
+        "1,1':4',1''-Terphenyl",
+        "4-Phenylbiphenyl",
+        "p-Diphenylbenzene",
+        "p-Terphenyl",
+        "PTP",
+        "p-Triphenyl",
+        "Santowax P"
+    ],
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#3_STAR"
+    },
+    "rdfs:label": "1,4-diphenylbenzene",
+    "rdfs:subClassOf": {
+        "@id": "obo:CHEBI_75874"
+    }
+}

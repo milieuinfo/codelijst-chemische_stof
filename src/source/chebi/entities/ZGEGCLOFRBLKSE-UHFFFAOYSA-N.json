@@ -1,0 +1,29 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_186747",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "chebi:charge": "0",
+    "chebi:formula": "C7H14",
+    "chebi:inchi": "InChI=1S/C7H14/c1-3-5-7-6-4-2/h3H,1,4-7H2,2H3",
+    "chebi:inchikey": "ZGEGCLOFRBLKSE-UHFFFAOYSA-N",
+    "chebi:smiles": "C(CCC=C)CC",
+    "geneontology:hasDbXref": [
+        "CAS:592-76-7",
+        "Chemspider:11121",
+        "LIPID_MAPS_instance:LMFA11000319"
+    ],
+    "geneontology:hasId": "186747",
+    "geneontology:hasSynonym": "hept-1-ene",
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#2_STAR"
+    },
+    "rdfs:label": "1-Heptene",
+    "rdfs:subClassOf": {
+        "@id": "obo:CHEBI_24632"
+    }
+}

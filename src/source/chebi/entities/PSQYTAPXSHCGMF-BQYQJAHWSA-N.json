@@ -1,0 +1,55 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_32325",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "obo:IAO_0000115": "An ionone that is but-3-en-2-one substituted by a 2,6,6-trimethylcyclohex-1-en-1-yl group at position 4.",
+    "chebi:charge": "0",
+    "chebi:formula": "C13H20O",
+    "chebi:inchi": "InChI=1S/C13H20O/c1-10-6-5-9-13(3,4)12(10)8-7-11(2)14/h7-8H,5-6,9H2,1-4H3/b8-7+",
+    "chebi:inchikey": "PSQYTAPXSHCGMF-BQYQJAHWSA-N",
+    "chebi:smiles": "CC(=O)\\C=C\\C1=C(C)CCCC1(C)C",
+    "http://purl.uniprot.org/core/name": "beta-ionone",
+    "geneontology:hasDbXref": [
+        "Beilstein:1909545",
+        "CAS:79-77-6",
+        "HMDB:HMDB0036565",
+        "KEGG:C12287",
+        "KNApSAcK:C00029816",
+        "MetaCyc:CPD-7204",
+        "PMID:12565197",
+        "PMID:12719936",
+        "PMID:18031901",
+        "PMID:22187222",
+        "PMID:23413580",
+        "Reaxys:1909545"
+    ],
+    "geneontology:hasId": "32325",
+    "geneontology:hasSynonym": [
+        "(3E)-4-(2,6,6-trimethylcyclohex-1-en-1-yl)but-3-en-2-one",
+        "(E)-beta-Ionone",
+        "beta-E-Ionone",
+        "beta-Ionon",
+        "beta-Ionone",
+        "trans-beta-Ionone"
+    ],
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#3_STAR"
+    },
+    "rdfs:label": "beta-ionone",
+    "rdfs:subClassOf": [
+        {
+            "@id": "obo:CHEBI_49248"
+        },
+        {
+            "@id": "b139_genid-00f1db82e1ab437c844115a94dc63e635-bn32325t11f22586"
+        },
+        {
+            "@id": "b139_genid-00f1db82e1ab437c844115a94dc63e635-bn32325t11f48318"
+        }
+    ]
+}

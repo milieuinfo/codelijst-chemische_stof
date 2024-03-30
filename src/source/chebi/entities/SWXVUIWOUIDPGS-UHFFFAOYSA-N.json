@@ -1,0 +1,50 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_55381",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "obo:IAO_0000115": "A beta-hydroxy ketone formed by hydroxylation of 4-methylpentan-2-one at the 4-position. It has been isolated from Achnatherum robustum.",
+    "chebi:charge": "0",
+    "chebi:formula": "C6H12O2",
+    "chebi:inchi": "InChI=1S/C6H12O2/c1-5(7)4-6(2,3)8/h8H,4H2,1-3H3",
+    "chebi:inchikey": "SWXVUIWOUIDPGS-UHFFFAOYSA-N",
+    "chebi:smiles": "CC(=O)CC(C)(C)O",
+    "geneontology:hasDbXref": [
+        "PMID:18155147",
+        "Beilstein:1740440",
+        "CAS:123-42-2",
+        "HMDB:HMDB0031511",
+        "PMID:16718565",
+        "PMID:24227491",
+        "Reaxys:1740440",
+        "Wikipedia:Diacetone_alcohol"
+    ],
+    "geneontology:hasId": "55381",
+    "geneontology:hasSynonym": [
+        "2-Methyl-2-pentanol-4-one",
+        "4-Hydroxy-2-keto-4-methylpentane",
+        "4-Hydroxy-4-methyl-2-pentanone",
+        "4-hydroxy-4-methylpentan-2-one",
+        "Acetonyldimethylcarbinol",
+        "Diacetonalkohol",
+        "Diacetone-alcool",
+        "Diacetonyl alcohol",
+        "Dimethyl acetonyl carbinol"
+    ],
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#3_STAR"
+    },
+    "rdfs:label": "diacetone alcohol",
+    "rdfs:subClassOf": [
+        {
+            "@id": "obo:CHEBI_55380"
+        },
+        {
+            "@id": "b231_genid-00f1db82e1ab437c844115a94dc63e635-bn55381t11f76924"
+        }
+    ]
+}

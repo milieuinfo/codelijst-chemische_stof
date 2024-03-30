@@ -1,0 +1,85 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_7798",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "obo:IAO_0000115": "A cyclohexenecarboxylate ester that is the ethyl ester of oseltamivir acid. An antiviral prodrug (it is hydrolysed to the active free carboxylic acid in the liver), it is used to slow the spread of influenza.",
+    "chebi:charge": "0",
+    "chebi:formula": "C16H28N2O4",
+    "chebi:inchi": "InChI=1S/C16H28N2O4/c1-5-12(6-2)22-14-9-11(16(20)21-7-3)8-13(17)15(14)18-10(4)19/h9,12-15H,5-8,17H2,1-4H3,(H,18,19)/t13-,14+,15+/m0/s1",
+    "chebi:inchikey": "VSZGPKBBMSAYNT-RRFJBIMHSA-N",
+    "chebi:smiles": "CCOC(=O)C1=C[C@@H](OC(CC)CC)[C@H](NC(C)=O)[C@@H](N)C1",
+    "geneontology:hasDbXref": [
+        "Beilstein:8003908",
+        "CAS:196618-13-0",
+        "Drug_Central:2001",
+        "DrugBank:DB00198",
+        "HMDB:HMDB0014343",
+        "KEGG:C08092",
+        "KEGG:D08306",
+        "Patent:US5763483",
+        "PMID:11075941",
+        "PMID:11270942",
+        "PMID:11825310",
+        "PMID:17912363",
+        "PMID:18559644",
+        "PMID:18936828",
+        "PMID:19355841",
+        "PMID:19439487",
+        "PMID:19557131",
+        "PMID:19884755",
+        "Reaxys:8003908",
+        "Wikipedia:Oseltamivir"
+    ],
+    "geneontology:hasId": "7798",
+    "geneontology:hasSynonym": [
+        "oseltamivir",
+        "(-)-oseltamivir",
+        "1-Cyclohexene-1-carboxylic acid, 4-(acetylamino)-5-amino-3-(1-ethylpropoxy)-, ethyl ester, (3R-(3alpha,4beta,5alpha))-",
+        "Agucort",
+        "Ethyl (3R,4R,5S)-4-acetamido-5-amino-3-(1-ethylpropoxy)-1-cyclohexene-1-carboxylate",
+        "ethyl (3R,4R,5S)-4-acetamido-5-amino-3-(pentan-3-yloxy)cyclohex-1-ene-1-carboxylate",
+        "GS-4104",
+        "HSDB 7433",
+        "Oseltamivir",
+        "oseltamivirum",
+        "Tamiflu"
+    ],
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#3_STAR"
+    },
+    "rdfs:label": "oseltamivir",
+    "rdfs:subClassOf": [
+        {
+            "@id": "obo:CHEBI_50994"
+        },
+        {
+            "@id": "obo:CHEBI_22160"
+        },
+        {
+            "@id": "obo:CHEBI_46668"
+        },
+        {
+            "@id": "b84_genid-00f1db82e1ab437c844115a94dc63e635-bn7798t11f35703"
+        },
+        {
+            "@id": "b84_genid-00f1db82e1ab437c844115a94dc63e635-bn7798t11f36044"
+        },
+        {
+            "@id": "obo:CHEBI_37529"
+        },
+        {
+            "@id": "b84_genid-00f1db82e1ab437c844115a94dc63e635-bn7798t11f50266"
+        },
+        {
+            "@id": "b84_genid-00f1db82e1ab437c844115a94dc63e635-bn7798t11f52425"
+        },
+        {
+            "@id": "b84_genid-00f1db82e1ab437c844115a94dc63e635-bn7798t11f78298"
+        }
+    ]
+}

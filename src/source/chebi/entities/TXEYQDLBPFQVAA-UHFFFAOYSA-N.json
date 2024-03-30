@@ -1,0 +1,47 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_38825",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "chebi:charge": "0",
+    "chebi:formula": "CF4",
+    "chebi:inchi": "InChI=1S/CF4/c2-1(3,4)5",
+    "chebi:inchikey": "TXEYQDLBPFQVAA-UHFFFAOYSA-N",
+    "chebi:smiles": "FC(F)(F)F",
+    "geneontology:hasDbXref": [
+        "Beilstein:1697288",
+        "CAS:75-73-0",
+        "Gmelin:2016"
+    ],
+    "geneontology:hasId": "38825",
+    "geneontology:hasSynonym": [
+        "CF4",
+        "carbon tetrafluoride",
+        "Freon 14",
+        "Halon 14",
+        "perfluoromethane",
+        "tetrafluoridocarbon",
+        "Tetrafluorkohlenstoff",
+        "Tetrafluormethan",
+        "tetrafluorocarbon"
+    ],
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#3_STAR"
+    },
+    "rdfs:label": "tetrafluoromethane",
+    "rdfs:subClassOf": [
+        {
+            "@id": "obo:CHEBI_39281"
+        },
+        {
+            "@id": "obo:CHEBI_38824"
+        },
+        {
+            "@id": "b238_genid-00f1db82e1ab437c844115a94dc63e635-bn38825t11f78433"
+        }
+    ]
+}

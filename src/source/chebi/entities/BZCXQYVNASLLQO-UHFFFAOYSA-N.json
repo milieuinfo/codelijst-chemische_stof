@@ -1,0 +1,27 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_82279",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "chebi:charge": "0",
+    "chebi:formula": "C18H10",
+    "chebi:inchi": "InChI=1S/C18H10/c1-2-11-4-6-13-7-5-12-8-9-15-10-14(3-1)16(11)18(13)17(12)15/h1-10H",
+    "chebi:inchikey": "BZCXQYVNASLLQO-UHFFFAOYSA-N",
+    "chebi:smiles": "c1cc2cc3cccc4ccc5ccc1c2c5c34",
+    "geneontology:hasDbXref": [
+        "CAS:27208-37-3",
+        "KEGG:C19173"
+    ],
+    "geneontology:hasId": "82279",
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#2_STAR"
+    },
+    "rdfs:label": "Cyclopenta[cd]pyrene",
+    "rdfs:subClassOf": {
+        "@id": "obo:CHEBI_59659"
+    }
+}

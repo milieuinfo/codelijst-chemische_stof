@@ -1,0 +1,60 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_28897",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "obo:IAO_0000115": "A straight-chain alkane with 15 carbon atoms. It is a component of volatile oils isolated from plants species like Scandix balansae.",
+    "chebi:charge": "0",
+    "chebi:formula": "C15H32",
+    "chebi:inchi": "InChI=1S/C15H32/c1-3-5-7-9-11-13-15-14-12-10-8-6-4-2/h3-15H2,1-2H3",
+    "chebi:inchikey": "YCOZIPAWZNQLMR-UHFFFAOYSA-N",
+    "chebi:smiles": "CCCCCCCCCCCCCCC",
+    "http://purl.uniprot.org/core/name": "pentadecane",
+    "geneontology:hasDbXref": [
+        "Beilstein:1698194",
+        "CAS:629-62-9",
+        "DrugBank:DB03715",
+        "HMDB:HMDB0059886",
+        "KEGG:C08388",
+        "KNApSAcK:C00001265",
+        "LIPID_MAPS_instance:LMFA11000006",
+        "MetaCyc:CPD-7946",
+        "PDBeChem:MYS",
+        "PMID:14598162",
+        "PMID:15330541",
+        "PMID:23847066",
+        "PMID:23973758",
+        "Reaxys:1698194",
+        "Wikipedia:Pentadecane"
+    ],
+    "geneontology:hasId": "28897",
+    "geneontology:hasSynonym": [
+        "CH3-[CH2]13-CH3",
+        "n-Pentadecane",
+        "Pentadecane",
+        "PENTADECANE",
+        "Pentadekan"
+    ],
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#3_STAR"
+    },
+    "rdfs:label": "pentadecane",
+    "rdfs:subClassOf": [
+        {
+            "@id": "obo:CHEBI_83563"
+        },
+        {
+            "@id": "b70_genid-00f1db82e1ab437c844115a94dc63e635-bn28897t11f27311"
+        },
+        {
+            "@id": "b70_genid-00f1db82e1ab437c844115a94dc63e635-bn28897t11f75767"
+        },
+        {
+            "@id": "b70_genid-00f1db82e1ab437c844115a94dc63e635-bn28897t11f76924"
+        }
+    ]
+}

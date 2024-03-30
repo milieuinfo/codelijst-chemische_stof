@@ -1,0 +1,67 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_15743",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "obo:IAO_0000115": "A member of the class of  butanals that consists of propane bearing a formyl substituent at the 1-position. The parent of the class of butanals.",
+    "chebi:charge": "0",
+    "chebi:formula": "C4H8O",
+    "chebi:inchi": "InChI=1S/C4H8O/c1-2-3-4-5/h4H,2-3H2,1H3",
+    "chebi:inchikey": "ZTQSAGDEMFDKMZ-UHFFFAOYSA-N",
+    "chebi:smiles": "[H]C(=O)CCC",
+    "http://purl.uniprot.org/core/name": "butanal",
+    "geneontology:hasDbXref": [
+        "CAS:123-72-8",
+        "HMDB:HMDB0003543",
+        "KEGG:C01412",
+        "MetaCyc:BUTANAL",
+        "PMID:16347493",
+        "PMID:20833537",
+        "Reaxys:506061",
+        "Wikipedia:Butanal"
+    ],
+    "geneontology:hasId": "15743",
+    "geneontology:hasSynonym": [
+        "1-Butanal",
+        "Aldehyde butyrique",
+        "Aldeide butirrica",
+        "Butal",
+        "Butaldehyde",
+        "butan-1-al",
+        "Butanal",
+        "Butanaldehyde",
+        "Butylaldehyde",
+        "Butyl aldehyde",
+        "Butyral",
+        "Butyraldehyd",
+        "Butyraldehyde",
+        "Butyric aldehyde",
+        "Butyrylaldehyde",
+        "n-Butanal",
+        "n-Butyl aldehyde",
+        "n-Butyraldehyde",
+        "n-C3H7CHO"
+    ],
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#3_STAR"
+    },
+    "rdfs:label": "butanal",
+    "rdfs:subClassOf": [
+        {
+            "@id": "obo:CHEBI_22939"
+        },
+        {
+            "@id": "b190_genid-00f1db82e1ab437c844115a94dc63e635-bn15743t11f59163"
+        },
+        {
+            "@id": "b190_genid-00f1db82e1ab437c844115a94dc63e635-bn15743t11f75771"
+        },
+        {
+            "@id": "b190_genid-00f1db82e1ab437c844115a94dc63e635-bn15743t11f76971"
+        }
+    ]
+}

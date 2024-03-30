@@ -1,0 +1,59 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_39227",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "obo:IAO_0000115": "A member of the class of chloroethanes that is ethane in which all the hydrogens are replaced by chloro groups.",
+    "chebi:charge": "0",
+    "chebi:formula": "C2Cl6",
+    "chebi:inchi": "InChI=1S/C2Cl6/c3-1(4,5)2(6,7)8",
+    "chebi:inchikey": "VHHHONWQHHHLTI-UHFFFAOYSA-N",
+    "chebi:smiles": "ClC(Cl)(Cl)C(Cl)(Cl)Cl",
+    "geneontology:hasDbXref": [
+        "Beilstein:1740341",
+        "CAS:67-72-1",
+        "Gmelin:26648",
+        "KEGG:C19248",
+        "MetaCyc:HEXACHLOROETHANE",
+        "Patent:CN103086839",
+        "Patent:CN202185170",
+        "PMID:12169420",
+        "PMID:12695780",
+        "PMID:21852846",
+        "PMID:23942782",
+        "Reaxys:1740341",
+        "Wikipedia:Hexachloroethane"
+    ],
+    "geneontology:hasId": "39227",
+    "geneontology:hasSynonym": [
+        "C2Cl6",
+        "1,1,1,2,2,2-hexachloroethane",
+        "carbon hexachloride",
+        "Hexachloraethan",
+        "Hexachlorethan",
+        "perchloroethane",
+        "R-110"
+    ],
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#3_STAR"
+    },
+    "rdfs:label": "hexachloroethane",
+    "rdfs:subClassOf": [
+        {
+            "@id": "obo:CHEBI_39226"
+        },
+        {
+            "@id": "obo:CHEBI_36016"
+        },
+        {
+            "@id": "b404_genid-00f1db82e1ab437c844115a94dc63e635-bn39227t11f50903"
+        },
+        {
+            "@id": "b404_genid-00f1db82e1ab437c844115a94dc63e635-bn39227t11f78433"
+        }
+    ]
+}

@@ -1,0 +1,57 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_132446",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "obo:IAO_0000115": "A perfluoroalkanesulfonic acid that is butane-1-sulfonic acid in which all of the hydrogens of the butyl group have been replaced by fluorines.",
+    "chebi:charge": "0",
+    "chebi:formula": "C4HF9O3S",
+    "chebi:inchi": "InChI=1S/C4HF9O3S/c5-1(6,3(9,10)11)2(7,8)4(12,13)17(14,15)16/h(H,14,15,16)",
+    "chebi:inchikey": "JGTNAGYHADQMCM-UHFFFAOYSA-N",
+    "chebi:smiles": "C(C(C(S(O)(=O)=O)(F)F)(F)F)(C(F)(F)F)(F)F",
+    "geneontology:hasDbXref": [
+        "CAS:375-73-5",
+        "Patent:WO2011093371",
+        "PMID:16433328",
+        "PMID:17917760",
+        "PMID:19059455",
+        "PMID:19429410",
+        "PMID:20451658",
+        "PMID:23441933",
+        "PMID:24238775",
+        "PMID:25268321",
+        "PMID:26360456",
+        "PMID:26610298",
+        "PMID:26780052",
+        "PMID:26889942",
+        "Reaxys:1813588",
+        "Wikipedia:Perfluorobutanesulfonic_acid"
+    ],
+    "geneontology:hasId": "132446",
+    "geneontology:hasSynonym": [
+        "1,1,2,2,3,3,4,4,4-nonafluoro-1-butanesulfonic acid",
+        "1-perfluorobutanesulfonic acid",
+        "FC-98",
+        "nonafluoro-1-butanesulfonic acid",
+        "nonafluorobutane-1-sulfonic acid",
+        "nonafluorobutanesulfonic acid",
+        "perfluorobutane-1-sulfonic acid",
+        "PFBS"
+    ],
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#3_STAR"
+    },
+    "rdfs:label": "perfluorobutanesulfonic acid",
+    "rdfs:subClassOf": [
+        {
+            "@id": "obo:CHEBI_132447"
+        },
+        {
+            "@id": "b105_genid-00f1db82e1ab437c844115a94dc63e635-bn132446t11f35195"
+        }
+    ]
+}

@@ -1,0 +1,59 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_5014",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "obo:IAO_0000115": "A carboxylic ester obtained by formal condensation between 2-(4-chlorophenyl)-3-methylbutyric acid and cyano(3-phenoxyphenyl)methanol.",
+    "chebi:charge": "0",
+    "chebi:formula": "C25H22ClNO3",
+    "chebi:inchi": "InChI=1S/C25H22ClNO3/c1-17(2)24(18-11-13-20(26)14-12-18)25(28)30-23(16-27)19-7-6-10-22(15-19)29-21-8-4-3-5-9-21/h3-15,17,23-24H,1-2H3",
+    "chebi:inchikey": "NYPJDWWKZLNGGM-UHFFFAOYSA-N",
+    "chebi:smiles": "CC(C)C(C(=O)OC(C#N)c1cccc(Oc2ccccc2)c1)c1ccc(Cl)cc1",
+    "geneontology:hasDbXref": [
+        "Beilstein:2025982",
+        "CAS:51630-58-1",
+        "KEGG:C10988",
+        "KEGG:D07952",
+        "PPDB:314",
+        "Reaxys:2025982",
+        "VSDB:314"
+    ],
+    "geneontology:hasId": "5014",
+    "geneontology:hasSynonym": [
+        "alpha-cyano-(3-phenoxyphenyl)methyl-4-chloro-alpha-(1-methylethyl)benzeneacetate",
+        "alpha-cyano-3-phenoxybenzyl 2-(4-chlorophenyl)-3-methylbutyrate",
+        "alpha-cyano-m-phenoxybenzyl 2-(p-chlorophenyl)-3-methylbutyrate",
+        "cyano(3-phenoxyphenyl)methyl 2-(4-chlorophenyl)-3-methylbutanoate",
+        "Fenvalerate",
+        "phenvalerate",
+        "Pydrin"
+    ],
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#3_STAR"
+    },
+    "rdfs:label": "fenvalerate",
+    "rdfs:subClassOf": [
+        {
+            "@id": "obo:CHEBI_33308"
+        },
+        {
+            "@id": "obo:CHEBI_35618"
+        },
+        {
+            "@id": "obo:CHEBI_83403"
+        },
+        {
+            "@id": "b36_genid-00f1db82e1ab437c844115a94dc63e635-bn5014t11f39116"
+        },
+        {
+            "@id": "b36_genid-00f1db82e1ab437c844115a94dc63e635-bn5014t11f39259"
+        },
+        {
+            "@id": "b36_genid-00f1db82e1ab437c844115a94dc63e635-bn5014t8f39345"
+        }
+    ]
+}

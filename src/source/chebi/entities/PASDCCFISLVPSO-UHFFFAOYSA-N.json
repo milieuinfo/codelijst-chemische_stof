@@ -1,0 +1,57 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_82275",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "obo:IAO_0000115": "An acyl chloride consisting of benzene in which a hydrogen is replaced by an acyl chloride group. It is an important chemical intermediate for the manufacture of other chemicals, dyes, perfumes, herbicides and pharmaceuticals.",
+    "chebi:charge": "0",
+    "chebi:formula": "C7H5ClO",
+    "chebi:inchi": "InChI=1S/C7H5ClO/c8-7(9)6-4-2-1-3-5-6/h1-5H",
+    "chebi:inchikey": "PASDCCFISLVPSO-UHFFFAOYSA-N",
+    "chebi:smiles": "ClC(=O)C1=CC=CC=C1",
+    "geneontology:hasDbXref": [
+        "CAS:98-88-4",
+        "KEGG:C19168",
+        "PMID:10476457",
+        "PMID:1069541",
+        "PMID:12371201",
+        "PMID:14833424",
+        "PMID:19697904",
+        "PMID:24471690",
+        "PMID:30372914",
+        "PMID:3820773",
+        "PMID:533824",
+        "PMID:6957389",
+        "PMID:7327367",
+        "Reaxys:471389",
+        "Wikipedia:Benzoyl_chloride"
+    ],
+    "geneontology:hasId": "82275",
+    "geneontology:hasSynonym": [
+        "alpha-chlorobenzaldehyde",
+        "benzenecarbonyl chloride",
+        "benzoic acid chloride"
+    ],
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#3_STAR"
+    },
+    "rdfs:label": "benzoyl chloride",
+    "rdfs:subClassOf": [
+        {
+            "@id": "obo:CHEBI_22712"
+        },
+        {
+            "@id": "obo:CHEBI_36687"
+        },
+        {
+            "@id": "b65_genid-00f1db82e1ab437c844115a94dc63e635-bn82275t8f30746"
+        },
+        {
+            "@id": "b65_genid-00f1db82e1ab437c844115a94dc63e635-bn82275t11f50903"
+        }
+    ]
+}

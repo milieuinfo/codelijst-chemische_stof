@@ -1,0 +1,63 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_34675",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "obo:IAO_0000115": "A diester resulting from the formal condensation of the carboxy groups of adipic acid with 2-ethylhexan-1-ol. It is used as a plasticiser in the preparation of various polymers.",
+    "chebi:charge": "0",
+    "chebi:formula": "C22H42O4",
+    "chebi:inchi": "InChI=1S/C22H42O4/c1-5-9-13-19(7-3)17-25-21(23)15-11-12-16-22(24)26-18-20(8-4)14-10-6-2/h19-20H,5-18H2,1-4H3",
+    "chebi:inchikey": "SAOKZLXYCUGLFA-UHFFFAOYSA-N",
+    "chebi:smiles": "CCCCC(CC)COC(=O)CCCCC(=O)OCC(CC)CCCC",
+    "geneontology:hasDbXref": [
+        "CAS:103-23-1",
+        "HMDB:HMDB0040270",
+        "KEGG:C14240",
+        "PMID:16303285",
+        "PMID:23246700",
+        "PMID:23356645",
+        "PMID:24016063",
+        "PMID:6697017",
+        "PMID:7781821",
+        "Reaxys:1803774",
+        "Wikipedia:Bis(2-ethylhexyl)_adipate"
+    ],
+    "geneontology:hasId": "34675",
+    "geneontology:hasSynonym": [
+        "adipic acid bis(2-ethylhexyl) ester",
+        "BEHA",
+        "bis(2-ethylhexyl) hexanedioate",
+        "DEHA",
+        "Di(2-ethylhexyl) adipate",
+        "Diethylhexyl adipate",
+        "Dioctyl adipate"
+    ],
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#3_STAR"
+    },
+    "rdfs:label": "bis(2-ethylhexyl) adipate",
+    "rdfs:subClassOf": [
+        {
+            "@id": "obo:CHEBI_33308"
+        },
+        {
+            "@id": "obo:CHEBI_51307"
+        },
+        {
+            "@id": "obo:CHEBI_131927"
+        },
+        {
+            "@id": "b288_genid-00f1db82e1ab437c844115a94dc63e635-bn34675t8f16011"
+        },
+        {
+            "@id": "b288_genid-00f1db82e1ab437c844115a94dc63e635-bn34675t8f30832"
+        },
+        {
+            "@id": "b288_genid-00f1db82e1ab437c844115a94dc63e635-bn34675t11f79056"
+        }
+    ]
+}

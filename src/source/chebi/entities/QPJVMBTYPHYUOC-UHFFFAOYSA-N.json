@@ -1,0 +1,48 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_72775",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "obo:IAO_0000115": "A benzoate ester obtained by condensation of benzoic acid and methanol.",
+    "chebi:charge": "0",
+    "chebi:formula": "C8H8O2",
+    "chebi:inchi": "InChI=1S/C8H8O2/c1-10-8(9)7-5-3-2-4-6-7/h2-6H,1H3",
+    "chebi:inchikey": "QPJVMBTYPHYUOC-UHFFFAOYSA-N",
+    "chebi:smiles": "COC(=O)c1ccccc1",
+    "http://purl.uniprot.org/core/name": "methyl benzoate",
+    "geneontology:hasDbXref": [
+        "CAS:93-58-3",
+        "HMDB:HMDB0033968",
+        "MetaCyc:CPD-6441",
+        "PMID:10852939",
+        "Reaxys:1072099",
+        "Wikipedia:Methyl_benzoate"
+    ],
+    "geneontology:hasId": "72775",
+    "geneontology:hasSynonym": [
+        "Benzoic acid, methyl ester",
+        "Methyl benzenecarboxylate"
+    ],
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#3_STAR"
+    },
+    "rdfs:label": "methyl benzoate",
+    "rdfs:subClassOf": [
+        {
+            "@id": "obo:CHEBI_36054"
+        },
+        {
+            "@id": "obo:CHEBI_25248"
+        },
+        {
+            "@id": "b256_genid-00f1db82e1ab437c844115a94dc63e635-bn72775t11f24850"
+        },
+        {
+            "@id": "b256_genid-00f1db82e1ab437c844115a94dc63e635-bn72775t11f25212"
+        }
+    ]
+}

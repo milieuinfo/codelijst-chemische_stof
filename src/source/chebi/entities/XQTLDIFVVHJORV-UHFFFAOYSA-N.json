@@ -1,0 +1,77 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_82044",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "obo:IAO_0000115": "A C-nitro compound that is nitrobenzene in which the four hydrogens located ortho- and para- to the nitro group have been replaced by chlorines. A fungicide used to control dry rot, it is no longer approved for use within the European Union.",
+    "chebi:charge": "0",
+    "chebi:formula": "C6HCl4NO2",
+    "chebi:inchi": "InChI=1S/C6HCl4NO2/c7-2-1-3(8)5(10)6(4(2)9)11(12)13/h1H",
+    "chebi:inchikey": "XQTLDIFVVHJORV-UHFFFAOYSA-N",
+    "chebi:smiles": "[O-][N+](=O)c1c(Cl)c(Cl)cc(Cl)c1Cl",
+    "geneontology:hasDbXref": [
+        "AGR:IND20401074",
+        "AGR:IND89050292",
+        "AGR:IND89050293",
+        "AGR:IND93002735",
+        "CAS:117-18-0",
+        "HMDB:HMDB0031808",
+        "KEGG:C18897",
+        "Pesticides:tecnazene",
+        "PMID:11409977",
+        "PMID:18800534",
+        "PMID:8851822",
+        "PMID:9064247",
+        "PPDB:615",
+        "Reaxys:1973805"
+    ],
+    "geneontology:hasId": "82044",
+    "geneontology:hasSynonym": [
+        "tecnazene",
+        "Folosan",
+        "1,2,4,5-tetrachloro-3-nitrobenzene",
+        "2,3,5,6-TCNB",
+        "2,3,5,6-Tetrachlor-1-nitrobenzol",
+        "2,3,5,6-Tetrachloro-1-nitrobenzene",
+        "2,3,5,6-tetrachloronitrobenzene",
+        "Altritan",
+        "Arena",
+        "Bygran",
+        "Easytec",
+        "Fumite",
+        "Fusarex",
+        "Hickstor",
+        "Hystore",
+        "Myfusan",
+        "Nebulin",
+        "TCNB",
+        "Tecnazen",
+        "tetrachloronitrobenzene",
+        "Turbostore"
+    ],
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#3_STAR"
+    },
+    "rdfs:label": "tecnazene",
+    "rdfs:subClassOf": [
+        {
+            "@id": "obo:CHEBI_35716"
+        },
+        {
+            "@id": "obo:CHEBI_87034"
+        },
+        {
+            "@id": "obo:CHEBI_26888"
+        },
+        {
+            "@id": "b2_genid-00f1db82e1ab437c844115a94dc63e635-bn82044t8f36697"
+        },
+        {
+            "@id": "b2_genid-00f1db82e1ab437c844115a94dc63e635-bn82044t11f86328"
+        }
+    ]
+}

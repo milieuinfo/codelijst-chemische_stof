@@ -1,0 +1,171 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_15940",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "obo:IAO_0000115": "A pyridinemonocarboxylic acid that is pyridine in which the hydrogen at position 3 is replaced by a carboxy group.",
+    "chebi:charge": "0",
+    "chebi:formula": "C6H5NO2",
+    "chebi:inchi": "InChI=1S/C6H5NO2/c8-6(9)5-2-1-3-7-4-5/h1-4H,(H,8,9)",
+    "chebi:inchikey": "PVNIIMVLHYAWGP-UHFFFAOYSA-N",
+    "chebi:smiles": "OC(=O)c1cccnc1",
+    "geneontology:hasDbXref": [
+        "PMID:22770225",
+        "PMID:699281",
+        "PMID:182198",
+        "AGR:IND607088605",
+        "Beilstein:109591",
+        "CAS:59-67-6",
+        "Chemspider:913",
+        "Drug_Central:2835",
+        "DrugBank:DB00627",
+        "FooDB:FDB001014",
+        "Gmelin:3340",
+        "HMDB:HMDB0001488",
+        "KEGG:C00253",
+        "KEGG:D00049",
+        "KNApSAcK:C00000208",
+        "LINCS:LSM-4676",
+        "MetaCyc:NIACINE",
+        "PDBeChem:NIO",
+        "PMID:10540864",
+        "PMID:113218",
+        "PMID:12563315",
+        "PMID:12789870",
+        "PMID:135660",
+        "PMID:14550884",
+        "PMID:15037193",
+        "PMID:15183629",
+        "PMID:15205990",
+        "PMID:15311728",
+        "PMID:15627518",
+        "PMID:15651982",
+        "PMID:16018787",
+        "PMID:16172771",
+        "PMID:16322787",
+        "PMID:16400392",
+        "PMID:16449845",
+        "PMID:16767301",
+        "PMID:16877271",
+        "PMID:16945375",
+        "PMID:18037924",
+        "PMID:186078",
+        "PMID:18993152",
+        "PMID:18996527",
+        "PMID:19369827",
+        "PMID:19592242",
+        "PMID:19678716",
+        "PMID:19779335",
+        "PMID:20979384",
+        "PMID:21632263",
+        "PMID:22116693",
+        "PMID:22155410",
+        "PMID:22229411",
+        "PMID:22366213",
+        "PMID:22458880",
+        "PMID:24029555",
+        "PMID:24568240",
+        "PMID:24675661",
+        "PMID:24848081",
+        "PMID:24975217",
+        "PMID:25040591",
+        "PMID:25241762",
+        "PMID:25429652",
+        "PMID:32954525",
+        "PMID:33273654",
+        "PMID:33932650",
+        "PMID:34066686",
+        "PMID:34085526",
+        "PMID:34117670",
+        "PMID:4033386",
+        "PMID:4259917",
+        "PMID:582105",
+        "PMID:7217784",
+        "PMID:7581845",
+        "PMID:8306147",
+        "PMID:8423912",
+        "PMID:8679452",
+        "PMID:9107536",
+        "Reaxys:109591",
+        "Wikipedia:Niacin"
+    ],
+    "geneontology:hasId": "15940",
+    "geneontology:hasSynonym": [
+        "3-carboxylpyridine",
+        "3-carboxypyridine",
+        "3-pyridinecarboxylic acid",
+        "3-Pyridylcarboxylic acid",
+        "acide nicotinique",
+        "acido nicotinico",
+        "acidum nicotinicum",
+        "anti-pellagra vitamin",
+        "beta-pyridinecarboxylic acid",
+        "m-pyridinecarboxylic acid",
+        "Niacin",
+        "Niacor",
+        "Niaspan",
+        "Nicotinic acid",
+        "NICOTINIC ACID",
+        "Nicotinsaure",
+        "Nikotinsaeure",
+        "P.P. factor",
+        "pellagra preventive factor",
+        "PP factor",
+        "pyridine-3-carboxylic acid",
+        "pyridine-beta-carboxylic acid",
+        "pyridine-carboxylique-3",
+        "vitamin B3"
+    ],
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#3_STAR"
+    },
+    "rdfs:label": "nicotinic acid",
+    "rdfs:subClassOf": [
+        {
+            "@id": "obo:CHEBI_26416"
+        },
+        {
+            "@id": "obo:CHEBI_26420"
+        },
+        {
+            "@id": "b151_genid-00f1db82e1ab437c844115a94dc63e635-bn15940tmms73f32544"
+        },
+        {
+            "@id": "b151_genid-00f1db82e1ab437c844115a94dc63e635-bn15940t11f25212"
+        },
+        {
+            "@id": "b151_genid-00f1db82e1ab437c844115a94dc63e635-bn15940t4f32544"
+        },
+        {
+            "@id": "b151_genid-00f1db82e1ab437c844115a94dc63e635-bn15940t11f35620"
+        },
+        {
+            "@id": "b151_genid-00f1db82e1ab437c844115a94dc63e635-bn15940t11f35679"
+        },
+        {
+            "@id": "b151_genid-00f1db82e1ab437c844115a94dc63e635-bn15940t11f50247"
+        },
+        {
+            "@id": "b151_genid-00f1db82e1ab437c844115a94dc63e635-bn15940t11f75771"
+        },
+        {
+            "@id": "b151_genid-00f1db82e1ab437c844115a94dc63e635-bn15940t11f76924"
+        },
+        {
+            "@id": "b151_genid-00f1db82e1ab437c844115a94dc63e635-bn15940t11f76971"
+        },
+        {
+            "@id": "b151_genid-00f1db82e1ab437c844115a94dc63e635-bn15940t11f84087"
+        },
+        {
+            "@id": "b151_genid-00f1db82e1ab437c844115a94dc63e635-bn15940t11f84264"
+        },
+        {
+            "@id": "obo:CHEBI_176839"
+        }
+    ]
+}

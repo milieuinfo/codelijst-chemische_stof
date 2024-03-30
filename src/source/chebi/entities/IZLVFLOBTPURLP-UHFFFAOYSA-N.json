@@ -1,0 +1,28 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_81050",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "chebi:charge": "0",
+    "chebi:formula": "C7H7NO4",
+    "chebi:inchi": "InChI=1S/C7H7NO4/c1-12-7-4-5(8(10)11)2-3-6(7)9/h2-4,9H,1H3",
+    "chebi:inchikey": "IZLVFLOBTPURLP-UHFFFAOYSA-N",
+    "chebi:smiles": "COc1cc(ccc1O)[N+]([O-])=O",
+    "geneontology:hasDbXref": [
+        "CAS:3251-56-7",
+        "KEGG:C17386"
+    ],
+    "geneontology:hasId": "81050",
+    "geneontology:hasSynonym": "4-Nitroguaiacol",
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#2_STAR"
+    },
+    "rdfs:label": "2-Methoxy-4-nitrophenol",
+    "rdfs:subClassOf": {
+        "@id": "obo:CHEBI_88306"
+    }
+}

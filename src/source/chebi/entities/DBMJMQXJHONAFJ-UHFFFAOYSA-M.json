@@ -1,0 +1,53 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_8984",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "obo:IAO_0000115": "An organic sodium salt that is the sodium salt of dodecyl hydrogen sulfate.",
+    "chebi:charge": "0",
+    "chebi:formula": "C12H25NaO4S",
+    "chebi:inchi": "InChI=1S/C12H26O4S.Na/c1-2-3-4-5-6-7-8-9-10-11-12-16-17(13,14)15;/h2-12H2,1H3,(H,13,14,15);/q;+1/p-1",
+    "chebi:inchikey": "DBMJMQXJHONAFJ-UHFFFAOYSA-M",
+    "chebi:smiles": "[Na+].CCCCCCCCCCCCOS([O-])(=O)=O",
+    "geneontology:hasDbXref": [
+        "PMID:29079364",
+        "Beilstein:3599286",
+        "CAS:151-21-3",
+        "DrugBank:DB00815",
+        "Gmelin:117722",
+        "KEGG:C11166",
+        "KEGG:D01045"
+    ],
+    "geneontology:hasId": "8984",
+    "geneontology:hasSynonym": [
+        "SDS",
+        "SLS",
+        "sodium dodecylsulfate",
+        "Sodium dodecyl sulfate",
+        "sodium dodecyl sulphate",
+        "Sodium lauryl sulfate",
+        "sodium lauryl sulphate"
+    ],
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#3_STAR"
+    },
+    "rdfs:label": "sodium dodecyl sulfate",
+    "rdfs:subClassOf": [
+        {
+            "@id": "obo:CHEBI_38700"
+        },
+        {
+            "@id": "b12_genid-00f1db82e1ab437c844115a94dc63e635-bn8984t10f23872"
+        },
+        {
+            "@id": "b12_genid-00f1db82e1ab437c844115a94dc63e635-bn8984t11f27780"
+        },
+        {
+            "@id": "b12_genid-00f1db82e1ab437c844115a94dc63e635-bn8984t11f50533"
+        }
+    ]
+}

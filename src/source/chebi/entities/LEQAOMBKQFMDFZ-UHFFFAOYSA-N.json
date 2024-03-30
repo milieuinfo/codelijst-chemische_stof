@@ -1,0 +1,73 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_34779",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "obo:IAO_0000115": "The dialdehyde that is the smallest possible and which consists of ethane having oxo groups on both carbons.",
+    "chebi:charge": "0",
+    "chebi:formula": "C2H2O2",
+    "chebi:inchi": "InChI=1S/C2H2O2/c3-1-2-4/h1-2H",
+    "chebi:inchikey": "LEQAOMBKQFMDFZ-UHFFFAOYSA-N",
+    "chebi:smiles": "[H]C(=O)C([H])=O",
+    "http://purl.uniprot.org/core/name": "glyoxal",
+    "geneontology:hasDbXref": [
+        "PMID:9506998",
+        "PMID:23543734",
+        "Beilstein:1732463",
+        "CAS:107-22-2",
+        "FooDB:FDB007802",
+        "KEGG:C14448",
+        "MetaCyc:CPD-8887",
+        "PDBeChem:GXT",
+        "PMID:11833298",
+        "PMID:15899002",
+        "PMID:18343213",
+        "PMID:18533367",
+        "PMID:23180757",
+        "PMID:23531876",
+        "PMID:23990306",
+        "PPDB:272",
+        "Reaxys:1732463",
+        "Wikipedia:Glyoxal"
+    ],
+    "geneontology:hasId": "34779",
+    "geneontology:hasSynonym": [
+        "oxal",
+        "1,2-Ethanedione",
+        "Biformal",
+        "Biformyl",
+        "Diformal",
+        "Diformyl",
+        "ethane-1,2-dial",
+        "ethanedial",
+        "Ethanedial",
+        "glyoxal aldehyde",
+        "glyoxylaldehyde",
+        "Oxalaldehyde"
+    ],
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#3_STAR"
+    },
+    "rdfs:label": "glyoxal",
+    "rdfs:subClassOf": [
+        {
+            "@id": "obo:CHEBI_38124"
+        },
+        {
+            "@id": "b370_genid-00f1db82e1ab437c844115a94dc63e635-bn34779t11f25944"
+        },
+        {
+            "@id": "b370_genid-00f1db82e1ab437c844115a94dc63e635-bn34779t11f26155"
+        },
+        {
+            "@id": "b370_genid-00f1db82e1ab437c844115a94dc63e635-bn34779t11f33286"
+        },
+        {
+            "@id": "b370_genid-00f1db82e1ab437c844115a94dc63e635-bn34779t11f50904"
+        }
+    ]
+}

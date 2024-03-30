@@ -1,0 +1,73 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_102130",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "obo:IAO_0000115": "A sulfonamide consisting of pyrimidine with a methyl substituent at the 4-position and a 4-aminobenzenesulfonamido group at the 2-position.",
+    "chebi:charge": "0",
+    "chebi:formula": "C11H12N4O2S",
+    "chebi:inchi": "InChI=1S/C11H12N4O2S/c1-8-6-7-13-11(14-8)15-18(16,17)10-4-2-9(12)3-5-10/h2-7H,12H2,1H3,(H,13,14,15)",
+    "chebi:inchikey": "QPPBRPIAZZHUNT-UHFFFAOYSA-N",
+    "chebi:smiles": "Cc1ccnc(NS(=O)(=O)c2ccc(N)cc2)n1",
+    "geneontology:hasDbXref": [
+        "PMID:11431418",
+        "PMID:2434548",
+        "PMID:6864729",
+        "Patent:US2407966",
+        "PMID:13037579",
+        "Beilstein:249133",
+        "CAS:127-79-7",
+        "Drug_Central:2510",
+        "DrugBank:DB01581",
+        "Gmelin:219949",
+        "KEGG:D02435",
+        "LINCS:LSM-5979",
+        "PMID:23627444",
+        "PMID:24508883",
+        "Wikipedia:Sulfamerazine"
+    ],
+    "geneontology:hasId": "102130",
+    "geneontology:hasSynonym": [
+        "(p-Aminobenzolsulfonyl)-2-amino-4-methylpyrimidin",
+        "2-(4-Aminobenzenesulfonamido)-4-methylpyrimidine",
+        "2-(p-Aminobenzolsulfonamido)-4-methylpyrimidine",
+        "2-(Sulfanilamido)-4-methylpyrimidine",
+        "2-Sulfa-4-methylpyrimidine",
+        "4-Amino-N-(4-methyl-2-pyrimidinyl)-benzenesulfonamide",
+        "4-amino-N-(4-methylpyrimidin-2-yl)benzenesulfonamide",
+        "N(1)-(4-Methyl-2-pyrimidinyl)sulfanilamide",
+        "N-(4-Methyl-2-pyrimidyl)sulfanilamide",
+        "sulfamerazina",
+        "sulfamerazinum",
+        "Sulfamethyldiazine",
+        "Sulphamerazine"
+    ],
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#3_STAR"
+    },
+    "rdfs:label": "sulfamerazine",
+    "rdfs:subClassOf": [
+        {
+            "@id": "obo:CHEBI_39447"
+        },
+        {
+            "@id": "obo:CHEBI_35358"
+        },
+        {
+            "@id": "obo:CHEBI_87228"
+        },
+        {
+            "@id": "b264_genid-00f1db82e1ab437c844115a94dc63e635-bn102130t11f35441"
+        },
+        {
+            "@id": "b264_genid-00f1db82e1ab437c844115a94dc63e635-bn102130t8f45373"
+        },
+        {
+            "@id": "b264_genid-00f1db82e1ab437c844115a94dc63e635-bn102130t11f88188"
+        }
+    ]
+}

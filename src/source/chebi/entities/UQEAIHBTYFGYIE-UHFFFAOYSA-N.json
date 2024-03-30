@@ -1,0 +1,39 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_78002",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "obo:IAO_0000115": "An organosiloxane consisting of two trimethylsilyl groups covalently bound to a central oxygen.",
+    "chebi:charge": "0",
+    "chebi:formula": "C6H18OSi2",
+    "chebi:inchi": "InChI=1S/C6H18OSi2/c1-8(2,3)7-9(4,5)6/h1-6H3",
+    "chebi:inchikey": "UQEAIHBTYFGYIE-UHFFFAOYSA-N",
+    "chebi:smiles": "C[Si](C)(C)O[Si](C)(C)C",
+    "geneontology:hasDbXref": [
+        "CAS:107-46-0",
+        "PMID:22192564",
+        "PMID:22812650",
+        "PMID:23121963",
+        "Reaxys:1736258",
+        "Wikipedia:Hexamethyldisiloxane"
+    ],
+    "geneontology:hasId": "78002",
+    "geneontology:hasSynonym": [
+        "((CH3)3Si)2O",
+        "Bis(trimethylsilyl)ether",
+        "Bis(trimethylsilyl)oxide",
+        "HMDSO",
+        "Oxybis(trimethylsilane)"
+    ],
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#3_STAR"
+    },
+    "rdfs:label": "hexamethyldisiloxane",
+    "rdfs:subClassOf": {
+        "@id": "obo:CHEBI_48150"
+    }
+}

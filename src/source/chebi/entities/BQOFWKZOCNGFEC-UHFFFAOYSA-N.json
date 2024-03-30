@@ -1,0 +1,40 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_35661",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "chebi:charge": "0",
+    "chebi:formula": "C10H16",
+    "chebi:inchi": "InChI=1S/C10H16/c1-7-4-5-8-9(6-7)10(8,2)3/h4,8-9H,5-6H2,1-3H3",
+    "chebi:inchikey": "BQOFWKZOCNGFEC-UHFFFAOYSA-N",
+    "chebi:smiles": "CC1=CCC2C(C1)C2(C)C",
+    "geneontology:hasDbXref": [
+        "Beilstein:1902766",
+        "BPDB:2110",
+        "CAS:13466-78-9"
+    ],
+    "geneontology:hasId": "35661",
+    "geneontology:hasSynonym": [
+        "3,7,7-trimethylbicyclo[4.1.0]hept-3-ene",
+        "3-carene",
+        "carene",
+        "Delta(3)-carene",
+        "Delta-car-3-ene"
+    ],
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#3_STAR"
+    },
+    "rdfs:label": "car-3-ene",
+    "rdfs:subClassOf": [
+        {
+            "@id": "obo:CHEBI_35187"
+        },
+        {
+            "@id": "b171_genid-00f1db82e1ab437c844115a94dc63e635-bn35661t9f35663"
+        }
+    ]
+}

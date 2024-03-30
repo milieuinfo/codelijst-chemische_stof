@@ -1,0 +1,36 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_38570",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "chebi:charge": "0",
+    "chebi:formula": "C9H12O",
+    "chebi:inchi": "InChI=1S/C9H12O/c1-6-4-7(2)8(3)9(10)5-6/h4-5,10H,1-3H3",
+    "chebi:inchikey": "OGRAOKJKVGDSFR-UHFFFAOYSA-N",
+    "chebi:smiles": "Cc1cc(C)c(C)c(O)c1",
+    "geneontology:hasDbXref": [
+        "Beilstein:2042210",
+        "CAS:697-82-5"
+    ],
+    "geneontology:hasId": "38570",
+    "geneontology:hasSynonym": [
+        "1-Hydroxy-2,3,5-trimethylbenzene",
+        "Isopseudocumenol"
+    ],
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#3_STAR"
+    },
+    "rdfs:label": "2,3,5-trimethylphenol",
+    "rdfs:subClassOf": [
+        {
+            "@id": "obo:CHEBI_33853"
+        },
+        {
+            "@id": "b86_genid-00f1db82e1ab437c844115a94dc63e635-bn38570t9f34039"
+        }
+    ]
+}

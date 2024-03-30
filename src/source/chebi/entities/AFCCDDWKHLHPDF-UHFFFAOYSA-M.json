@@ -1,0 +1,74 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_81737",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "obo:IAO_0000115": "An organic sodium salt resulting from the formal reaction of methylcarbamodithioic acid with 1 mol eq. sodium hydroxide. It is used as an agricultural pesticide, mainly as a broad spectrum soil fumigant for the control of weeds, nematodes, soil-borne insects and fungi.",
+    "chebi:charge": "0",
+    "chebi:formula": "C2H4NNaS2",
+    "chebi:inchi": "InChI=1S/C2H5NS2.Na/c1-3-2(4)5;/h1H3,(H2,3,4,5);/q;+1/p-1",
+    "chebi:inchikey": "AFCCDDWKHLHPDF-UHFFFAOYSA-M",
+    "chebi:smiles": "CNC(=S)[S-].[Na+]",
+    "geneontology:hasDbXref": [
+        "PMID:25144617",
+        "AGR:IND605887337",
+        "CAS:137-42-8",
+        "KEGG:C18424",
+        "Pesticides:derivatives/metam-sodium",
+        "PMID:17390826",
+        "PMID:20557209",
+        "PMID:28476076",
+        "PMID:29649189",
+        "PPDB:447",
+        "Reaxys:1071426"
+    ],
+    "geneontology:hasId": "81737",
+    "geneontology:hasSynonym": [
+        "metam-sodium",
+        "Carbam",
+        "carbam-sodium",
+        "carbathion",
+        "metam",
+        "metham",
+        "methylcarbamodithioic acid, sodium salt",
+        "methyldithiocarbamic acid sodium salt",
+        "Sectagon",
+        "SMDC",
+        "sodium metam",
+        "sodium methylcarbamodithioate",
+        "sodium methyldithiocarbamate",
+        "sodium N-methylcarbamodithioate",
+        "Vapam"
+    ],
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#2_STAR"
+    },
+    "rdfs:label": "metam-sodium",
+    "rdfs:subClassOf": [
+        {
+            "@id": "obo:CHEBI_38700"
+        },
+        {
+            "@id": "obo:CHEBI_39190"
+        },
+        {
+            "@id": "b20_genid-00f1db82e1ab437c844115a94dc63e635-bn81737t11f136644"
+        },
+        {
+            "@id": "b20_genid-00f1db82e1ab437c844115a94dc63e635-bn81737t11f136645"
+        },
+        {
+            "@id": "b20_genid-00f1db82e1ab437c844115a94dc63e635-bn81737t11f136646"
+        },
+        {
+            "@id": "b20_genid-00f1db82e1ab437c844115a94dc63e635-bn81737t11f141301"
+        },
+        {
+            "@id": "b20_genid-00f1db82e1ab437c844115a94dc63e635-bn81737t10f141326"
+        }
+    ]
+}

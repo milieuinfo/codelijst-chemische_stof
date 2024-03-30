@@ -1,0 +1,60 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_34238",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "obo:IAO_0000115": "A bromophenol that is phenol in which the hydrogens at positions 2 and 4 have been replaced by bromines.",
+    "chebi:charge": "0",
+    "chebi:formula": "C6H4Br2O",
+    "chebi:inchi": "InChI=1S/C6H4Br2O/c7-4-1-2-6(9)5(8)3-4/h1-3,9H",
+    "chebi:inchikey": "FAXWFCTVSHEODL-UHFFFAOYSA-N",
+    "chebi:smiles": "C1=CC(=CC(=C1O)Br)Br",
+    "http://purl.uniprot.org/core/name": "2,4-dibromophenol",
+    "geneontology:hasDbXref": [
+        "AGR:IND44086700",
+        "CAS:615-58-7",
+        "FooDB:FDB008794",
+        "HMDB:HMDB0032079",
+        "KEGG:C14521",
+        "KNApSAcK:C00033541",
+        "PMID:16911838",
+        "PMID:19664797",
+        "PMID:20065618",
+        "PMID:21459404",
+        "PMID:22697042",
+        "PMID:23786809",
+        "PMID:25229997",
+        "PMID:25817024",
+        "PMID:26295539",
+        "PMID:26602791",
+        "PMID:27085014",
+        "PMID:28893619",
+        "PMID:29191314",
+        "Reaxys:1861291",
+        "Wikipedia:2,4-Dibromophenol"
+    ],
+    "geneontology:hasId": "34238",
+    "geneontology:hasSynonym": "2,4-DBP",
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#3_STAR"
+    },
+    "rdfs:label": "2,4-dibromophenol",
+    "rdfs:subClassOf": [
+        {
+            "@id": "obo:CHEBI_37147"
+        },
+        {
+            "@id": "obo:CHEBI_33624"
+        },
+        {
+            "@id": "obo:CHEBI_172368"
+        },
+        {
+            "@id": "b155_genid-00f1db82e1ab437c844115a94dc63e635-bn34238t11f76507"
+        }
+    ]
+}

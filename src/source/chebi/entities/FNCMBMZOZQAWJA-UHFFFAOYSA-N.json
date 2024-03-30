@@ -1,0 +1,42 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_83542",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "obo:IAO_0000115": "A carbamate ester obtained by the formal condensation of the phenolic group of 3,5-dimethyl-4-(methylsulfinyl)phenol with the carboxy group of methylcarbamic acid. It is a metabolite of the pesticide methiocarb.",
+    "chebi:charge": "0",
+    "chebi:formula": "C11H15NO3S",
+    "chebi:inchi": "InChI=1S/C11H15NO3S/c1-7-5-9(15-11(13)12-3)6-8(2)10(7)16(4)14/h5-6H,1-4H3,(H,12,13)",
+    "chebi:inchikey": "FNCMBMZOZQAWJA-UHFFFAOYSA-N",
+    "chebi:smiles": "CNC(=O)Oc1cc(C)c(c(C)c1)S(C)=O",
+    "geneontology:hasDbXref": [
+        "CAS:2635-10-1",
+        "PMID:23252625",
+        "PMID:8568832",
+        "Reaxys:2130137"
+    ],
+    "geneontology:hasId": "83542",
+    "geneontology:hasSynonym": [
+        "3,5-dimethyl-4-(methylsulfinyl)phenyl methylcarbamate",
+        "Mesurol sulfoxide"
+    ],
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#3_STAR"
+    },
+    "rdfs:label": "methiocarb-sulfoxide",
+    "rdfs:subClassOf": [
+        {
+            "@id": "obo:CHEBI_23003"
+        },
+        {
+            "@id": "obo:CHEBI_22063"
+        },
+        {
+            "@id": "b205_genid-00f1db82e1ab437c844115a94dc63e635-bn83542t11f83399"
+        }
+    ]
+}

@@ -1,0 +1,72 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_34714",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "obo:IAO_0000115": "A monocarboxylic acid amide that is N-methylacetamide in which one of the hydrogens of the methyl group attached to the carbonyl moiety is replaced by a (dimethoxyphosphorothioyl)sulfanediyl group.",
+    "chebi:charge": "0",
+    "chebi:formula": "C5H12NO3PS2",
+    "chebi:inchi": "InChI=1S/C5H12NO3PS2/c1-6-5(7)4-12-10(11,8-2)9-3/h4H2,1-3H3,(H,6,7)",
+    "chebi:inchikey": "MCWXGJITAZMZEV-UHFFFAOYSA-N",
+    "chebi:smiles": "CNC(=O)CSP(=S)(OC)OC",
+    "geneontology:hasDbXref": [
+        "CAS:60-51-5",
+        "KEGG:C14326",
+        "LINCS:LSM-24992",
+        "Pesticides:dimethoate",
+        "PMID:11054639",
+        "PMID:15803959",
+        "PPDB:244",
+        "Reaxys:1785339",
+        "Wikipedia:Dimethoate"
+    ],
+    "geneontology:hasId": "34714",
+    "geneontology:hasSynonym": [
+        "2-Dimethoxyphosphinothioylthio-N-methylacetamide",
+        "Dimethoate",
+        "O,O-dimethyl S-[2-(methylamino)-2-oxoethyl] dithiophosphate",
+        "O,O-dimethyl S-[2-(methylamino)-2-oxoethyl] phosphorodithioate",
+        "Phosphamide",
+        "Phosphorodithioic acid, O,O-dimethyl S-(2-(methylamino)-2-oxoethyl) ester"
+    ],
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#3_STAR"
+    },
+    "rdfs:label": "dimethoate",
+    "rdfs:subClassOf": [
+        {
+            "@id": "obo:CHEBI_29347"
+        },
+        {
+            "@id": "obo:CHEBI_37512"
+        },
+        {
+            "@id": "b496_genid-00f1db82e1ab437c844115a94dc63e635-bn34714t11f22153"
+        },
+        {
+            "@id": "b496_genid-00f1db82e1ab437c844115a94dc63e635-bn34714t11f24852"
+        },
+        {
+            "@id": "b496_genid-00f1db82e1ab437c844115a94dc63e635-bn34714t11f33286"
+        },
+        {
+            "@id": "b496_genid-00f1db82e1ab437c844115a94dc63e635-bn34714t11f35703"
+        },
+        {
+            "@id": "b496_genid-00f1db82e1ab437c844115a94dc63e635-bn34714t11f37733"
+        },
+        {
+            "@id": "b496_genid-00f1db82e1ab437c844115a94dc63e635-bn34714t11f38462"
+        },
+        {
+            "@id": "b496_genid-00f1db82e1ab437c844115a94dc63e635-bn34714t8f38731"
+        },
+        {
+            "@id": "b496_genid-00f1db82e1ab437c844115a94dc63e635-bn34714t11f78298"
+        }
+    ]
+}

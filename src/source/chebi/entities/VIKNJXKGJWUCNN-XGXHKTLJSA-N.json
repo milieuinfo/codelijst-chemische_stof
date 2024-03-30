@@ -1,0 +1,111 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_7627",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "obo:IAO_0000115": "A 17beta-hydroxy steroid that is testosterone in which the hydrogen at position 17 is replaced by an ethynyl group and in which the methyl group attached to position 10 is replaced by hydrogen.",
+    "chebi:charge": "0",
+    "chebi:formula": "C20H26O2",
+    "chebi:inchi": "InChI=1S/C20H26O2/c1-3-20(22)11-9-18-17-6-4-13-12-14(21)5-7-15(13)16(17)8-10-19(18,20)2/h1,12,15-18,22H,4-11H2,2H3/t15-,16+,17+,18-,19-,20-/m0/s1",
+    "chebi:inchikey": "VIKNJXKGJWUCNN-XGXHKTLJSA-N",
+    "chebi:smiles": "C[C@]12CC[C@H]3[C@@H](CCC4=CC(=O)CC[C@H]34)[C@@H]1CC[C@@]2(O)C#C",
+    "geneontology:hasDbXref": [
+        "Beilstein:1915671",
+        "CAS:68-22-4",
+        "Drug_Central:1962",
+        "DrugBank:DB00717",
+        "HMDB:HMDB0014855",
+        "KEGG:C05028",
+        "KEGG:D00182",
+        "LIPID_MAPS_instance:LMST02030097",
+        "Patent:US2744122",
+        "Patent:US2849462",
+        "PDBeChem:NDR",
+        "PMID:120838",
+        "PMID:21860523",
+        "PMID:24019188",
+        "Reaxys:1915671",
+        "Wikipedia:Norethisterone"
+    ],
+    "geneontology:hasId": "7627",
+    "geneontology:hasSynonym": [
+        "norethisterone",
+        "(17alpha)-17-ethynyl-17-hydroxyestra-4,8(14),9-trien-3-one",
+        "(17alpha)-17-hydroxy-19-norpregn-4-en-20-yn-3-one",
+        "17alpha-ethinyl-19-nortestosterone",
+        "17alpha-ethinylestra-4-en-17beta-ol-3-one",
+        "17alpha-ethynyl-17beta-hydroxy-19-norandrost-4-en-3-one",
+        "17alpha-ethynyl-17-hydroxy-4-estren-3-one",
+        "17-alpha-ethynyl-17-hydroxy-4-estren-3-one",
+        "17alpha-ethynyl-19-nor-4-androsten-17beta-ol-3-one",
+        "17alpha-ethynyl-19-norandrost-4-en-17beta-ol-3-one",
+        "17-alpha-ethynyl-19-norandrost-4-en-17-beta-ol-3-one",
+        "17alpha-ethynyl-19-nortestosterone",
+        "17-alpha-ethynyl-19-nortestosterone",
+        "17alpha-ethynyl-4-estren-17-ol-3-one",
+        "17-alpha-ethynyl-4-estren-17-ol-3-one",
+        "17beta-hydroxy-19-norpregn-4-en-20-yn-3-one",
+        "17-beta-hydroxy-19-norpregn-4-en-20-yn-3-one",
+        "17-ethynyl-17beta-hydroxyestr-4-en-3-one",
+        "17-hydroxy-19-nor-17alpha-pregn-4-en-20-yn-3-one",
+        "17-hydroxy-19-nor-17-alpha-pregn-4-en-20-yn-3-one",
+        "19-nor-17alpha-ethynyl-17beta-hydroxy-4-androsten-3-one",
+        "19-Nor-17alpha-ethynyl-17beta-hydroxy-4-androsten-3-one",
+        "19-nor-17-alpha-ethynyl-17-beta-hydroxy-4-androsten-3-one",
+        "19-nor-17alpha-ethynylandrosten-17beta-ol-3-one",
+        "19-nor-17-alpha-ethynylandrosten-17-beta-ol-3-one",
+        "19-nor-17alpha-ethynyltestosterone",
+        "19-nor-17-alpha-ethynyltestosterone",
+        "19-nor-ethindrone",
+        "19-norethisterone",
+        "19-Norethisterone",
+        "4-estren-17alpha-ethynyl-17beta-ol-3-one",
+        "Camila",
+        "Conludag",
+        "Micronor",
+        "Micronovum",
+        "Mini-pe",
+        "Mini-pill",
+        "Norcolut",
+        "norethindrone",
+        "Norethisteron",
+        "norethisteronum",
+        "noretisterona",
+        "Noriday",
+        "Norluten",
+        "Norlutin",
+        "Primolut-N",
+        "Utovlan"
+    ],
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#3_STAR"
+    },
+    "rdfs:label": "norethisterone",
+    "rdfs:subClassOf": [
+        {
+            "@id": "obo:CHEBI_47909"
+        },
+        {
+            "@id": "obo:CHEBI_35343"
+        },
+        {
+            "@id": "obo:CHEBI_26878"
+        },
+        {
+            "@id": "obo:CHEBI_73477"
+        },
+        {
+            "@id": "b421_genid-00f1db82e1ab437c844115a94dc63e635-bn7627t9f23966"
+        },
+        {
+            "@id": "b421_genid-00f1db82e1ab437c844115a94dc63e635-bn7627t11f49326"
+        },
+        {
+            "@id": "b421_genid-00f1db82e1ab437c844115a94dc63e635-bn7627t11f59826"
+        }
+    ]
+}

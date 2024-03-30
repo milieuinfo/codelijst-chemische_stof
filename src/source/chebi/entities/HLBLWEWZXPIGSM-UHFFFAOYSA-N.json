@@ -1,0 +1,31 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_34384",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "chebi:charge": "0",
+    "chebi:formula": "C12H12N2O",
+    "chebi:inchi": "InChI=1S/C12H12N2O/c13-9-1-5-11(6-2-9)15-12-7-3-10(14)4-8-12/h1-8H,13-14H2",
+    "chebi:inchikey": "HLBLWEWZXPIGSM-UHFFFAOYSA-N",
+    "chebi:smiles": "Nc1ccc(Oc2ccc(N)cc2)cc1",
+    "geneontology:hasDbXref": [
+        "CAS:101-80-4",
+        "KEGG:C14759"
+    ],
+    "geneontology:hasId": "34384",
+    "geneontology:hasSynonym": [
+        "4,4'-Oxybisbenzenamine",
+        "4,4'-Oxydianiline"
+    ],
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#2_STAR"
+    },
+    "rdfs:label": "4-Aminophenyl ether",
+    "rdfs:subClassOf": {
+        "@id": "obo:CHEBI_35618"
+    }
+}

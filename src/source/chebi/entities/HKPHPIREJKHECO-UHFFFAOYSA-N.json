@@ -1,0 +1,85 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_3230",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "obo:IAO_0000115": "An aromatic amide that is 2-choro-N-(2,6-diethylphenyl)acetamide in which the amide nitrogen has been replaced by a butoxymethyl group.",
+    "chebi:charge": "0",
+    "chebi:formula": "C17H26ClNO2",
+    "chebi:inchi": "InChI=1S/C17H26ClNO2/c1-4-7-11-21-13-19(16(20)12-18)17-14(5-2)9-8-10-15(17)6-3/h8-10H,4-7,11-13H2,1-3H3",
+    "chebi:inchikey": "HKPHPIREJKHECO-UHFFFAOYSA-N",
+    "chebi:smiles": "C1=CC=C(C(=C1CC)N(COCCCC)C(CCl)=O)CC",
+    "http://purl.uniprot.org/core/name": "butachlor",
+    "geneontology:hasDbXref": [
+        "AGR:IND601190844",
+        "CAS:23184-66-9",
+        "KEGG:C10931",
+        "MetaCyc:CPD-18941",
+        "PMID:20183093",
+        "PMID:25097380",
+        "PMID:25378033",
+        "PMID:25528421",
+        "PMID:25708297",
+        "PMID:25763539",
+        "PMID:26027538",
+        "PMID:26368393",
+        "PMID:26372161",
+        "PMID:26461443",
+        "PMID:26946506",
+        "PMID:26971167",
+        "PMID:27071456",
+        "PMID:27182978",
+        "PMID:27419617",
+        "PMID:27480594",
+        "PMID:27514993",
+        "PMID:27522569",
+        "PMID:27579872",
+        "PMID:27943158",
+        "PMID:27974272",
+        "PMID:27987462",
+        "PMID:28045224",
+        "PMID:28190210",
+        "PPDB:101",
+        "Reaxys:2873811"
+    ],
+    "geneontology:hasId": "3230",
+    "geneontology:hasSynonym": [
+        "2',6'-Diethyl-N-butoxymethyl-2-chloroacetanilide",
+        "2',6'-Diethyl-N-butoxymethyl-alpha-chloroacetanilide",
+        "2-Chloro-2',6'-diethyl-N-(butoxymethyl)acetanilide",
+        "N-(Butoxymethyl)-2-chloro-2',6'-diethylacetanilide",
+        "N-(butoxymethyl)-2-chloro-N-(2,6-diethylphenyl)acetamide",
+        "N-Butoxymethyl-alpha-chloro-2',6'-diethylacetanilide"
+    ],
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#3_STAR"
+    },
+    "rdfs:label": "butachlor",
+    "rdfs:subClassOf": [
+        {
+            "@id": "obo:CHEBI_36683"
+        },
+        {
+            "@id": "obo:CHEBI_62733"
+        },
+        {
+            "@id": "obo:CHEBI_140326"
+        },
+        {
+            "@id": "b487_genid-00f1db82e1ab437c844115a94dc63e635-bn3230t11f24527"
+        },
+        {
+            "@id": "b487_genid-00f1db82e1ab437c844115a94dc63e635-bn3230t8f28884"
+        },
+        {
+            "@id": "b487_genid-00f1db82e1ab437c844115a94dc63e635-bn3230t11f35703"
+        },
+        {
+            "@id": "b487_genid-00f1db82e1ab437c844115a94dc63e635-bn3230t11f78298"
+        }
+    ]
+}

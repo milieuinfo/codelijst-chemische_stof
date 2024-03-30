@@ -1,0 +1,80 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_28661",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "obo:IAO_0000115": "A C18, omega-6 acid fatty acid comprising a linolenic acid having cis- double bonds at positions 6, 9 and 12.",
+    "chebi:charge": "0",
+    "chebi:formula": "C18H30O2",
+    "chebi:inchi": "InChI=1S/C18H30O2/c1-2-3-4-5-6-7-8-9-10-11-12-13-14-15-16-17-18(19)20/h6-7,9-10,12-13H,2-5,8,11,14-17H2,1H3,(H,19,20)/b7-6-,10-9-,13-12-",
+    "chebi:inchikey": "VZCCETWTMQHEPK-QNEBEIHSSA-N",
+    "chebi:smiles": "CCCCC\\C=C/C\\C=C/C\\C=C/CCCCC(O)=O",
+    "geneontology:hasDbXref": [
+        "Beilstein:1712253",
+        "CAS:506-26-3",
+        "Drug_Central:1276",
+        "HMDB:HMDB0003073",
+        "KEGG:C06426",
+        "KEGG:D07213",
+        "KNApSAcK:C00001226",
+        "LIPID_MAPS_instance:LMFA01030141",
+        "MetaCyc:CPD-8117",
+        "PMID:11385052",
+        "PMID:24435467",
+        "PMID:9732298",
+        "Reaxys:1712253",
+        "Wikipedia:Gamma-Linolenic_acid"
+    ],
+    "geneontology:hasId": "28661",
+    "geneontology:hasSynonym": [
+        "(6,9,12)-linolenic acid",
+        "(6Z,9Z,12Z)-octadeca-6,9,12-trienoic acid",
+        "(6Z,9Z,12Z)-Octadecatrienoic acid",
+        "(Z,Z,Z)-6,9,12-octadecatrienoic acid",
+        "18:3 (n-6)",
+        "6,9,12-Octadecatrienoic acid",
+        "6-cis,9-cis,12-cis-octadecatrienoic acid",
+        "all-cis-6,9,12-octadecatrienoic acid",
+        "C18:3, n-6,9,12 all-cis",
+        "C18:3 (n-6)",
+        "cis-Delta(6,9,12)-octadecatrienoic acid",
+        "gamma-Linolenic acid",
+        "gamma-Linolensaeure",
+        "gamoleic acid",
+        "gamolenic acid",
+        "Gamolenic acid",
+        "GLA",
+        "Octadeca-6,9,12-triensaeure"
+    ],
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#3_STAR"
+    },
+    "rdfs:label": "gamma-linolenic acid",
+    "rdfs:subClassOf": [
+        {
+            "@id": "obo:CHEBI_36009"
+        },
+        {
+            "@id": "obo:CHEBI_25048"
+        },
+        {
+            "@id": "b455_genid-00f1db82e1ab437c844115a94dc63e635-bn28661tmms73f32391"
+        },
+        {
+            "@id": "b455_genid-00f1db82e1ab437c844115a94dc63e635-bn28661t4f32391"
+        },
+        {
+            "@id": "b455_genid-00f1db82e1ab437c844115a94dc63e635-bn28661t11f75771"
+        },
+        {
+            "@id": "b455_genid-00f1db82e1ab437c844115a94dc63e635-bn28661t11f76924"
+        },
+        {
+            "@id": "b455_genid-00f1db82e1ab437c844115a94dc63e635-bn28661t11f77746"
+        }
+    ]
+}

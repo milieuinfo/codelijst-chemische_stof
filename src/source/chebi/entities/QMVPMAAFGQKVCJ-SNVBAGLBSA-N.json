@@ -1,0 +1,42 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_10360",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "obo:IAO_0000115": "A citronellol that is oct-6-ene substituted by a hydroxy group at position 1 and methyl groups at positions 3 and 7 (the 3R-enantiomer).",
+    "chebi:charge": "0",
+    "chebi:formula": "C10H20O",
+    "chebi:inchi": "InChI=1S/C10H20O/c1-9(2)5-4-6-10(3)7-8-11/h5,10-11H,4,6-8H2,1-3H3/t10-/m1/s1",
+    "chebi:inchikey": "QMVPMAAFGQKVCJ-SNVBAGLBSA-N",
+    "chebi:smiles": "C[C@@H](CCO)CCC=C(C)C",
+    "geneontology:hasDbXref": [
+        "KNApSAcK:C00000844",
+        "Beilstein:1721506",
+        "CAS:1117-61-9",
+        "KEGG:C09849",
+        "KNApSAcK:C00003038",
+        "LIPID_MAPS_instance:LMPR0102010008",
+        "Reaxys:1721506"
+    ],
+    "geneontology:hasId": "10360",
+    "geneontology:hasSynonym": [
+        "(3R)-3,7-dimethyloct-6-en-1-ol",
+        "(R)-(+)-Citronellol"
+    ],
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#3_STAR"
+    },
+    "rdfs:label": "(R)-(+)-citronellol",
+    "rdfs:subClassOf": [
+        {
+            "@id": "obo:CHEBI_50462"
+        },
+        {
+            "@id": "b259_genid-00f1db82e1ab437c844115a94dc63e635-bn10360t6f88"
+        }
+    ]
+}

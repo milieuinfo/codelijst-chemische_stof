@@ -1,0 +1,71 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_9715",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "obo:IAO_0000115": "A member of the class of N-alkylpiperazines in which the two amino groups of piperazine are replaced by 1-formamido-2,2,2-trichloroethyl groups. A fungicide active against a range of diseases including powdery mildew, scab and rust.",
+    "chebi:charge": "0",
+    "chebi:formula": "C10H14Cl6N4O2",
+    "chebi:inchi": "InChI=1S/C10H14Cl6N4O2/c11-9(12,13)7(17-5-21)19-1-2-20(4-3-19)8(18-6-22)10(14,15)16/h5-8H,1-4H2,(H,17,21)(H,18,22)",
+    "chebi:inchikey": "RROQIUMZODEXOR-UHFFFAOYSA-N",
+    "chebi:smiles": "ClC(Cl)(Cl)C(NC=O)N1CCN(CC1)C(NC=O)C(Cl)(Cl)Cl",
+    "geneontology:hasDbXref": [
+        "CAS:26644-46-2",
+        "KEGG:C10960",
+        "Patent:EP0031454",
+        "Patent:US3975527",
+        "Pesticides:triforine",
+        "PMID:1002932",
+        "PMID:1267484",
+        "PMID:15052559",
+        "PMID:24122157",
+        "PMID:2471555",
+        "PMID:597629",
+        "PMID:680740",
+        "PMID:7821004",
+        "PMID:890154",
+        "PPDB:669",
+        "Reaxys:626358"
+    ],
+    "geneontology:hasId": "9715",
+    "geneontology:hasSynonym": [
+        "1,4-Bis(1-formamido-2,2,2-trichloroethyl)piperazine",
+        "1,4-Bis(2,2,2-trichloro-1-formamidoethyl)piperazine",
+        "Biformylchlorazin",
+        "Funginex",
+        "N,N'-(1,4-Piperazinediylbis(2,2,2-trichloroethylidene))bisformamide",
+        "N,N'-(Piperazine-1,4-diylbis((trichloromethyl)methylene))diformamide",
+        "N,N'-[piperazine-1,4-diylbis(2,2,2-trichloroethane-1,1-diyl)]diformamide"
+    ],
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#3_STAR"
+    },
+    "rdfs:label": "triforine",
+    "rdfs:subClassOf": [
+        {
+            "@id": "obo:CHEBI_36683"
+        },
+        {
+            "@id": "obo:CHEBI_46845"
+        },
+        {
+            "@id": "obo:CHEBI_24079"
+        },
+        {
+            "@id": "obo:CHEBI_60600"
+        },
+        {
+            "@id": "b105_genid-00f1db82e1ab437c844115a94dc63e635-bn9715t11f50904"
+        },
+        {
+            "@id": "b105_genid-00f1db82e1ab437c844115a94dc63e635-bn9715t11f77884"
+        },
+        {
+            "@id": "b105_genid-00f1db82e1ab437c844115a94dc63e635-bn9715t11f86328"
+        }
+    ]
+}

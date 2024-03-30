@@ -1,0 +1,29 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_171765",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "chebi:charge": "0",
+    "chebi:formula": "C9H16O2",
+    "chebi:inchi": "InChI=1S/C9H16O2/c1-3-4-5-8-7(2)6-9(10)11-8/h7-8H,3-6H2,1-2H3/t7-,8-/m1/s1",
+    "chebi:inchikey": "WNVCMFHPRIBNCW-HTQZYQBOSA-N",
+    "chebi:smiles": "O1[C@@H]([C@@H](CC1=O)C)CCCC",
+    "geneontology:hasDbXref": [
+        "CAS:55013-32-6",
+        "Chemspider:37679",
+        "HMDB:HMDB0059894"
+    ],
+    "geneontology:hasId": "171765",
+    "geneontology:hasSynonym": "(4R,5R)-5-butyl-4-methyloxolan-2-one",
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#2_STAR"
+    },
+    "rdfs:label": "(Z)-Oak lactone",
+    "rdfs:subClassOf": {
+        "@id": "obo:CHEBI_37581"
+    }
+}

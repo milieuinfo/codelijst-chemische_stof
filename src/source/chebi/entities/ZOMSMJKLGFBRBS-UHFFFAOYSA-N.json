@@ -1,0 +1,48 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_3018",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "obo:IAO_0000115": "A  benzothiadiazine that is 1H-2,1,3-benzothiadiazin-4(3H)-one 2,2-dioxide substituted by an isopropyl group at position 3.",
+    "chebi:charge": "0",
+    "chebi:formula": "C10H12N2O3S",
+    "chebi:inchi": "InChI=1S/C10H12N2O3S/c1-7(2)12-10(13)8-5-3-4-6-9(8)11-16(12,14)15/h3-7,11H,1-2H3",
+    "chebi:inchikey": "ZOMSMJKLGFBRBS-UHFFFAOYSA-N",
+    "chebi:smiles": "CC(C)N1C(=O)c2ccccc2NS1(=O)=O",
+    "geneontology:hasDbXref": [
+        "CAS:25057-89-0",
+        "KEGG:C10965",
+        "LINCS:LSM-20931",
+        "Pesticides:bentazone",
+        "PMID:24393062",
+        "PMID:24412734",
+        "PMID:25281094",
+        "PPDB:71",
+        "Reaxys:530220",
+        "Wikipedia:Bentazon"
+    ],
+    "geneontology:hasId": "3018",
+    "geneontology:hasSynonym": "3-(propan-2-yl)-1H-2,1,3-benzothiadiazin-4(3H)-one 2,2-dioxide",
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#3_STAR"
+    },
+    "rdfs:label": "bentazone",
+    "rdfs:subClassOf": [
+        {
+            "@id": "obo:CHEBI_50265"
+        },
+        {
+            "@id": "b168_genid-00f1db82e1ab437c844115a94dc63e635-bn3018t11f24527"
+        },
+        {
+            "@id": "b168_genid-00f1db82e1ab437c844115a94dc63e635-bn3018t11f35703"
+        },
+        {
+            "@id": "b168_genid-00f1db82e1ab437c844115a94dc63e635-bn3018t11f78298"
+        }
+    ]
+}

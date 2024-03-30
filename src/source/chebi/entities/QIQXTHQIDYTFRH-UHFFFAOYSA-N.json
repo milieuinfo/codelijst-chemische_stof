@@ -1,0 +1,93 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_28842",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "obo:IAO_0000115": "A C18 straight-chain saturated fatty acid component of many animal and vegetable lipids. As well as in the diet, it is used in hardening soaps, softening plastics and in making cosmetics, candles and  plastics.",
+    "chebi:charge": "0",
+    "chebi:formula": "C18H36O2",
+    "chebi:inchi": "InChI=1S/C18H36O2/c1-2-3-4-5-6-7-8-9-10-11-12-13-14-15-16-17-18(19)20/h2-17H2,1H3,(H,19,20)",
+    "chebi:inchikey": "QIQXTHQIDYTFRH-UHFFFAOYSA-N",
+    "chebi:smiles": "C(CCCCCCCCCC)CCCCCCC(=O)O",
+    "geneontology:hasDbXref": [
+        "PMID:17439666",
+        "PMID:22735334",
+        "PMID:26884207",
+        "KEGG:C01530",
+        "MetaCyc:STEARIC_ACID",
+        "Beilstein:608585",
+        "CAS:57-11-4",
+        "Drug_Central:4611",
+        "DrugBank:DB03193",
+        "Gmelin:11738",
+        "HMDB:HMDB0000827",
+        "KEGG:D00119",
+        "KNApSAcK:C00001238",
+        "LIPID_MAPS_instance:LMFA01010018",
+        "PDBeChem:STE",
+        "PMID:11425337",
+        "PMID:16448636",
+        "PMID:18982377",
+        "PMID:19468063",
+        "PMID:19838949",
+        "PMID:7763343",
+        "Reaxys:608585",
+        "Wikipedia:Stearic_acid"
+    ],
+    "geneontology:hasId": "28842",
+    "geneontology:hasSynonym": [
+        "18:0",
+        "acide octadecanoique",
+        "acide stearique",
+        "C18:0",
+        "CH3-[CH2]16-COOH",
+        "n-octadecanoic acid",
+        "Octadecanoic acid",
+        "Octadecansaeure",
+        "octadecoic acid",
+        "Oktadekansaeure",
+        "stearic acid",
+        "STEARIC ACID",
+        "Stearinsaeure"
+    ],
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#3_STAR"
+    },
+    "rdfs:label": "octadecanoic acid",
+    "rdfs:subClassOf": [
+        {
+            "@id": "obo:CHEBI_15904"
+        },
+        {
+            "@id": "obo:CHEBI_26607"
+        },
+        {
+            "@id": "obo:CHEBI_39418"
+        },
+        {
+            "@id": "b240_genid-00f1db82e1ab437c844115a94dc63e635-bn28842tmms73f25629"
+        },
+        {
+            "@id": "b240_genid-00f1db82e1ab437c844115a94dc63e635-bn28842t4f25629"
+        },
+        {
+            "@id": "b240_genid-00f1db82e1ab437c844115a94dc63e635-bn28842t9f32926"
+        },
+        {
+            "@id": "b240_genid-00f1db82e1ab437c844115a94dc63e635-bn28842t11f76924"
+        },
+        {
+            "@id": "b240_genid-00f1db82e1ab437c844115a94dc63e635-bn28842t11f77746"
+        },
+        {
+            "@id": "b240_genid-00f1db82e1ab437c844115a94dc63e635-bn28842t11f83056"
+        },
+        {
+            "@id": "b240_genid-00f1db82e1ab437c844115a94dc63e635-bn28842t11f84735"
+        }
+    ]
+}

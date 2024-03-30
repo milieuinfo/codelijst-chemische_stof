@@ -1,0 +1,71 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_27810",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "obo:IAO_0000115": "A  benzenediol that is benzene dihydroxylated at positions 1 and 3.",
+    "chebi:charge": "0",
+    "chebi:formula": "C6H6O2",
+    "chebi:inchi": "InChI=1S/C6H6O2/c7-5-2-1-3-6(8)4-5/h1-4,7-8H",
+    "chebi:inchikey": "GHMLBKRAJCXXBS-UHFFFAOYSA-N",
+    "chebi:smiles": "Oc1cccc(O)c1",
+    "http://purl.uniprot.org/core/name": "resorcinol",
+    "geneontology:hasDbXref": [
+        "PMID:29079364",
+        "Beilstein:906905",
+        "CAS:108-46-3",
+        "Drug_Central:3524",
+        "Gmelin:26734",
+        "HMDB:HMDB0032037",
+        "KEGG:C01751",
+        "KEGG:D00133",
+        "KNApSAcK:C00002671",
+        "MetaCyc:CPD-623",
+        "PDBeChem:RCO",
+        "PMID:11792395",
+        "PMID:23352755",
+        "PMID:24269627",
+        "PMID:3263257",
+        "Reaxys:906905",
+        "UM-BBD_compID:c0265",
+        "Wikipedia:Resorcinol"
+    ],
+    "geneontology:hasId": "27810",
+    "geneontology:hasSynonym": [
+        "1,3-Benzenediol",
+        "1,3-Dihydroxybenzene",
+        "1,3-Dihydroxybenzol",
+        "benzene-1,3-diol",
+        "m-Hydroquinone",
+        "m-hydroxyphenol",
+        "Resorcin",
+        "Resorcinol",
+        "RESORCINOL",
+        "Resorzin"
+    ],
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#3_STAR"
+    },
+    "rdfs:label": "resorcinol",
+    "rdfs:subClassOf": [
+        {
+            "@id": "obo:CHEBI_139520"
+        },
+        {
+            "@id": "obo:CHEBI_33572"
+        },
+        {
+            "@id": "obo:CHEBI_17701"
+        },
+        {
+            "@id": "b309_genid-00f1db82e1ab437c844115a94dc63e635-bn27810t11f91025"
+        },
+        {
+            "@id": "b309_genid-00f1db82e1ab437c844115a94dc63e635-bn27810t11f139492"
+        }
+    ]
+}

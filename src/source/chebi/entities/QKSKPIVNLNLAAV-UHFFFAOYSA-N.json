@@ -1,0 +1,66 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_25434",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "obo:IAO_0000115": "An ethyl sulfide that is diethyl sulfide in which a hydrogen from each of the terminal methyl groups is replaced by a chlorine. It is a powerful vesicant regulated under the Chemical Weapons Convention.",
+    "chebi:charge": "0",
+    "chebi:formula": "C4H8Cl2S",
+    "chebi:inchi": "InChI=1S/C4H8Cl2S/c5-1-3-7-4-2-6/h1-4H2",
+    "chebi:inchikey": "QKSKPIVNLNLAAV-UHFFFAOYSA-N",
+    "chebi:smiles": "ClCCSCCCl",
+    "geneontology:hasDbXref": [
+        "Beilstein:1733595",
+        "CAS:505-60-2",
+        "Gmelin:324535",
+        "KEGG:C19164",
+        "PMID:15908294",
+        "PMID:19559099",
+        "PMID:23091586",
+        "PMID:24467472",
+        "PMID:24641121",
+        "PMID:24791566",
+        "PMID:24801489",
+        "Wikipedia:Sulfur mustard"
+    ],
+    "geneontology:hasId": "25434",
+    "geneontology:hasSynonym": [
+        "1,1'-thiobis(2-chloroethane)",
+        "1-chloro-2-[(2-chloroethyl)sulfanyl]ethane",
+        "1-chloro-2-[(2-chloroethyl)thio]ethane",
+        "bis(2-chloroethyl)sulfane",
+        "bis(2-chloroethyl) sulphide",
+        "Iprit",
+        "Lost",
+        "mustard gas",
+        "Mustard gas",
+        "Senfgas",
+        "sulfur mustard",
+        "Yperite"
+    ],
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#3_STAR"
+    },
+    "rdfs:label": "bis(2-chloroethyl) sulfide",
+    "rdfs:subClassOf": [
+        {
+            "@id": "obo:CHEBI_36683"
+        },
+        {
+            "@id": "obo:CHEBI_23996"
+        },
+        {
+            "@id": "b241_genid-00f1db82e1ab437c844115a94dc63e635-bn25434t11f22333"
+        },
+        {
+            "@id": "b241_genid-00f1db82e1ab437c844115a94dc63e635-bn25434t11f50903"
+        },
+        {
+            "@id": "b241_genid-00f1db82e1ab437c844115a94dc63e635-bn25434t11f78592"
+        }
+    ]
+}

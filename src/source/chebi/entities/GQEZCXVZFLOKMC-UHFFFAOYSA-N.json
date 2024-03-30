@@ -1,0 +1,43 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_77507",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "obo:IAO_0000115": "An unbranched sixteen-carbon alkene with one double bond between C-1 and C-2.",
+    "chebi:charge": "0",
+    "chebi:formula": "C16H32",
+    "chebi:inchi": "InChI=1S/C16H32/c1-3-5-7-9-11-13-15-16-14-12-10-8-6-4-2/h3H,1,4-16H2,2H3",
+    "chebi:inchikey": "GQEZCXVZFLOKMC-UHFFFAOYSA-N",
+    "chebi:smiles": "CCCCCCCCCCCCCCC=C",
+    "geneontology:hasDbXref": [
+        "CAS:629-73-2",
+        "MetaCyc:CPD-14228",
+        "PMID:22100714",
+        "PMID:22806617",
+        "PMID:24352015",
+        "Reaxys:1753401"
+    ],
+    "geneontology:hasId": "77507",
+    "geneontology:hasSynonym": [
+        "1-Cetene",
+        "1-n-Hexadecene",
+        "alpha-Hexadecene",
+        "alpha-Hexadecylene",
+        "Cetene",
+        "Cetylene",
+        "hexadec-1-ene",
+        "Hexadecylene-1",
+        "n-Hexadec-1-ene"
+    ],
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#3_STAR"
+    },
+    "rdfs:label": "1-hexadecene",
+    "rdfs:subClassOf": {
+        "@id": "obo:CHEBI_32878"
+    }
+}

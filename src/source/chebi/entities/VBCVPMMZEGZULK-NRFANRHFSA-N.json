@@ -1,0 +1,42 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_38630",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "chebi:charge": "0",
+    "chebi:formula": "C22H17ClF3N3O7",
+    "chebi:inchi": "InChI=1S/C22H17ClF3N3O7/c1-33-18(30)21-10-12-9-13(23)3-8-16(12)17(21)27-28(11-35-21)19(31)29(20(32)34-2)14-4-6-15(7-5-14)36-22(24,25)26/h3-9H,10-11H2,1-2H3/t21-/m0/s1",
+    "chebi:inchikey": "VBCVPMMZEGZULK-NRFANRHFSA-N",
+    "chebi:smiles": "COC(=O)N(C(=O)N1CO[C@]2(Cc3cc(Cl)ccc3C2=N1)C(=O)OC)c1ccc(OC(F)(F)F)cc1",
+    "geneontology:hasDbXref": [
+        "Beilstein:8366683",
+        "CAS:173584-44-6",
+        "KEGG:C18569",
+        "KEGG:D06316",
+        "PPDB:399"
+    ],
+    "geneontology:hasId": "38630",
+    "geneontology:hasSynonym": [
+        "methyl (4aS)-7-chloro-2-{(methoxycarbonyl)[4-(trifluoromethoxy)phenyl]carbamoyl}-2,5-dihydroindeno[1,2-e][1,3,4]oxadiazine-4a(3H)-carboxylate",
+        "Steward"
+    ],
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#3_STAR"
+    },
+    "rdfs:label": "indoxacarb",
+    "rdfs:subClassOf": [
+        {
+            "@id": "obo:CHEBI_25248"
+        },
+        {
+            "@id": "obo:CHEBI_25705"
+        },
+        {
+            "@id": "b381_genid-00f1db82e1ab437c844115a94dc63e635-bn38630t11f38634"
+        }
+    ]
+}

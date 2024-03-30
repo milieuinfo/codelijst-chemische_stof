@@ -1,0 +1,36 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_82029",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "chebi:charge": "0",
+    "chebi:formula": "C15H11ClF3NO4",
+    "chebi:inchi": "InChI=1S/C15H11ClF3NO4/c1-2-23-14-8-10(4-5-12(14)20(21)22)24-13-6-3-9(7-11(13)16)15(17,18)19/h3-8H,2H2,1H3",
+    "chebi:inchikey": "OQMBBFQZGJFLBU-UHFFFAOYSA-N",
+    "chebi:smiles": "CCOc1cc(Oc2ccc(cc2Cl)C(F)(F)F)ccc1[N+]([O-])=O",
+    "geneontology:hasDbXref": [
+        "CAS:42874-03-3",
+        "KEGG:C18881",
+        "PPDB:502"
+    ],
+    "geneontology:hasId": "82029",
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#2_STAR"
+    },
+    "rdfs:label": "Oxyfluorfen",
+    "rdfs:subClassOf": [
+        {
+            "@id": "obo:CHEBI_35618"
+        },
+        {
+            "@id": "b2_genid-00f1db82e1ab437c844115a94dc63e635-bn82029t11f24527"
+        },
+        {
+            "@id": "b2_genid-00f1db82e1ab437c844115a94dc63e635-bn82029t11f73192"
+        }
+    ]
+}

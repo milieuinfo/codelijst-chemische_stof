@@ -1,0 +1,51 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_472657",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "obo:IAO_0000115": "A third-generation cephalosporin antibiotic bearing vinyl and (2Z)-2-(2-amino-1,3-thiazol-4-yl)-2-[(carboxymethoxy)imino]acetamido groups at positions 3 and 7, respectively, of the cephem skeleton. It is used in the treatment of gonorrhoea, tonsilitis, pharyngitis, bronchitis, and urinary tract infections.",
+    "chebi:charge": "0",
+    "chebi:formula": "C16H15N5O7S2",
+    "chebi:inchi": "InChI=1S/C16H15N5O7S2/c1-2-6-4-29-14-10(13(25)21(14)11(6)15(26)27)19-12(24)9(20-28-3-8(22)23)7-5-30-16(17)18-7/h2,5,10,14H,1,3-4H2,(H2,17,18)(H,19,24)(H,22,23)(H,26,27)/b20-9-/t10-,14-/m1/s1",
+    "chebi:inchikey": "OKBVVJOGVLARMR-QSWIMTSFSA-N",
+    "chebi:smiles": "[H][C@]12SCC(C=C)=C(N1C(=O)[C@H]2NC(=O)C(=N/OCC(O)=O)\\c1csc(N)n1)C(O)=O",
+    "geneontology:hasDbXref": [
+        "PMID:29017833",
+        "Beilstein:6025058",
+        "CAS:79350-37-1",
+        "Drug_Central:537",
+        "DrugBank:DB00671",
+        "KEGG:C06881",
+        "KEGG:D00258",
+        "Patent:EP30630",
+        "Patent:US4409214",
+        "PMID:17116681"
+    ],
+    "geneontology:hasId": "472657",
+    "geneontology:hasSynonym": [
+        "(-)-cefixim",
+        "(6R,7R)-7-({(2Z)-2-(2-amino-1,3-thiazol-4-yl)-2-[(carboxymethoxy)imino]acetyl}amino)-3-ethenyl-8-oxo-5-thia-1-azabicyclo[4.2.0]oct-2-ene-2-carboxylic acid",
+        "7beta-{(2Z)-2-(2-amino-1,3-thiazol-4-yl)-2-[(carboxymethoxy)imino]acetamido}-3-ethenyl-3,4-didehydrocepham-4-carboxylic acid",
+        "cefixima",
+        "cefiximum"
+    ],
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#3_STAR"
+    },
+    "rdfs:label": "cefixime",
+    "rdfs:subClassOf": [
+        {
+            "@id": "obo:CHEBI_23066"
+        },
+        {
+            "@id": "b116_genid-00f1db82e1ab437c844115a94dc63e635-bn472657t11f36047"
+        },
+        {
+            "@id": "b116_genid-00f1db82e1ab437c844115a94dc63e635-bn472657t11f88188"
+        }
+    ]
+}

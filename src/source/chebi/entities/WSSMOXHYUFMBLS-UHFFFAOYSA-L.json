@@ -1,0 +1,48 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_86249",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "obo:IAO_0000115": "A hydrate that is the tetrahydrate form of iron dichloride.",
+    "chebi:charge": "0",
+    "chebi:formula": "Cl2FeH8O4",
+    "chebi:inchi": "InChI=1S/2ClH.Fe.4H2O/h2*1H;;4*1H2/q;;+2;;;;/p-2",
+    "chebi:inchikey": "WSSMOXHYUFMBLS-UHFFFAOYSA-L",
+    "chebi:smiles": "O.O.O.O.Cl[Fe]Cl",
+    "geneontology:hasDbXref": [
+        "Wikipedia:Iron(II)_chloride",
+        "CAS:13478-10-9",
+        "Reaxys:15675997"
+    ],
+    "geneontology:hasId": "86249",
+    "geneontology:hasSynonym": [
+        "dichloroiron--water (1/4)",
+        "FeCl2.4H2O",
+        "Ferrous chloride, tetrahydrate",
+        "Iron(2+) chloride, tetrahydrate",
+        "Iron (II) chloride, tetrahydrate",
+        "Iron chloride tetrahydrate"
+    ],
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#3_STAR"
+    },
+    "rdfs:label": "iron dichloride tetrahydrate",
+    "rdfs:subClassOf": [
+        {
+            "@id": "obo:CHEBI_35505"
+        },
+        {
+            "@id": "obo:CHEBI_36093"
+        },
+        {
+            "@id": "obo:CHEBI_33892"
+        },
+        {
+            "@id": "b201_genid-00f1db82e1ab437c844115a94dc63e635-bn86249t10f30812"
+        }
+    ]
+}

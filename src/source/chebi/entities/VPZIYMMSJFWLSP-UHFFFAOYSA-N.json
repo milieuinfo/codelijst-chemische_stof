@@ -1,0 +1,36 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_80596",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "chebi:charge": "0",
+    "chebi:formula": "C15H12N2O2",
+    "chebi:inchi": "InChI=1S/C15H12N2O2/c16-15(19)17-13-4-2-1-3-10(13)5-6-11-9-12(18)7-8-14(11)17/h1-9,18H,(H2,16,19)",
+    "chebi:inchikey": "VPZIYMMSJFWLSP-UHFFFAOYSA-N",
+    "chebi:smiles": "C1=2C(C=CC=3C(N1C(=O)N)=CC=CC3)=CC(=CC2)O",
+    "geneontology:hasDbXref": [
+        "CAS:68011-66-5",
+        "HMDB:HMDB0060651",
+        "KEGG:C16601"
+    ],
+    "geneontology:hasId": "80596",
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#2_STAR"
+    },
+    "rdfs:label": "2-Hydroxycarbamazepine",
+    "rdfs:subClassOf": [
+        {
+            "@id": "obo:CHEBI_47804"
+        },
+        {
+            "@id": "obo:CHEBI_47857"
+        },
+        {
+            "@id": "b71_genid-00f1db82e1ab437c844115a94dc63e635-bn80596t8f80599"
+        }
+    ]
+}

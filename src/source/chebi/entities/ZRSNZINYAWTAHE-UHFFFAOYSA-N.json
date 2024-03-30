@@ -1,0 +1,70 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_28235",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "obo:IAO_0000115": "A member of the class of benzaldehydes consisting of benzaldehyde itself carrying a methoxy substituent at position 4.",
+    "chebi:charge": "0",
+    "chebi:formula": "C8H8O2",
+    "chebi:inchi": "InChI=1S/C8H8O2/c1-10-8-4-2-7(6-9)3-5-8/h2-6H,1H3",
+    "chebi:inchikey": "ZRSNZINYAWTAHE-UHFFFAOYSA-N",
+    "chebi:smiles": "C=1(C=CC(C(=O)[H])=CC1)OC",
+    "http://purl.uniprot.org/core/name": "4-methoxybenzaldehyde",
+    "geneontology:hasDbXref": [
+        "PMID:20809147",
+        "CAS:123-11-5",
+        "HMDB:HMDB0029686",
+        "KEGG:C10761",
+        "KNApSAcK:C00002636",
+        "PMID:22502535",
+        "PMID:22610435",
+        "PMID:24817361",
+        "PMID:27081359",
+        "PMID:27333544",
+        "PMID:28190358",
+        "PMID:28534578",
+        "PMID:28846628",
+        "PMID:28892803",
+        "PMID:29029251",
+        "PMID:29029346",
+        "Reaxys:471382",
+        "Wikipedia:Anisaldehyde"
+    ],
+    "geneontology:hasId": "28235",
+    "geneontology:hasSynonym": [
+        "4-methoxybenzaldehyde",
+        "4-Anisaldehyde",
+        "4-Methoxy-Benzaldehyde",
+        "Anisal",
+        "p-Anisaldehyde",
+        "p-Anisic aldehyde",
+        "Para-Anisaldehyde",
+        "p-Formylanisole",
+        "p-Methoxybenzaldehyde"
+    ],
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#3_STAR"
+    },
+    "rdfs:label": "p-methoxybenzaldehyde",
+    "rdfs:subClassOf": [
+        {
+            "@id": "obo:CHEBI_22698"
+        },
+        {
+            "@id": "b401_genid-00f1db82e1ab437c844115a94dc63e635-bn28235t11f71692"
+        },
+        {
+            "@id": "b401_genid-00f1db82e1ab437c844115a94dc63e635-bn28235t11f76924"
+        },
+        {
+            "@id": "b401_genid-00f1db82e1ab437c844115a94dc63e635-bn28235t11f76969"
+        },
+        {
+            "@id": "b401_genid-00f1db82e1ab437c844115a94dc63e635-bn28235t11f84087"
+        }
+    ]
+}

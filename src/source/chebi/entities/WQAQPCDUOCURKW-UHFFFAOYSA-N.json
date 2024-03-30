@@ -1,0 +1,29 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_177389",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "chebi:charge": "0",
+    "chebi:formula": "C4H10S",
+    "chebi:inchi": "InChI=1S/C4H10S/c1-2-3-4-5/h5H,2-4H2,1H3",
+    "chebi:inchikey": "WQAQPCDUOCURKW-UHFFFAOYSA-N",
+    "chebi:smiles": "SCCCC",
+    "geneontology:hasDbXref": [
+        "CAS:109-79-5",
+        "Chemspider:7721",
+        "HMDB:HMDB0031322"
+    ],
+    "geneontology:hasId": "177389",
+    "geneontology:hasSynonym": "butane-1-thiol",
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#2_STAR"
+    },
+    "rdfs:label": "butanethiol",
+    "rdfs:subClassOf": {
+        "@id": "obo:CHEBI_47908"
+    }
+}

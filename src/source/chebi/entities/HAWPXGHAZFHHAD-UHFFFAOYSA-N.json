@@ -1,0 +1,54 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_28925",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "chebi:charge": "0",
+    "chebi:formula": "C5H11Cl2N",
+    "chebi:inchi": "InChI=1S/C5H11Cl2N/c1-8(4-2-6)5-3-7/h2-5H2,1H3",
+    "chebi:inchikey": "HAWPXGHAZFHHAD-UHFFFAOYSA-N",
+    "chebi:smiles": "CN(CCCl)CCCl",
+    "geneontology:hasDbXref": [
+        "CAS:51-75-2",
+        "Drug_Central:1647",
+        "DrugBank:DB00888",
+        "KEGG:C07115",
+        "KEGG:D07671",
+        "Wikipedia:Mechlorethamine"
+    ],
+    "geneontology:hasId": "28925",
+    "geneontology:hasSynonym": [
+        "nitrogen mustard",
+        "2,2'-dichloro-N-methyldiethylamine",
+        "2-chloro-N-(2-chloroethyl)-N-methylethanamine",
+        "beta,beta'-dichlorodiethyl-N-methylamine",
+        "bis(2-chloroethyl)methylamine",
+        "bis(beta-chloroethyl)methylamine",
+        "chlormethine",
+        "Chlormethine",
+        "Mechlorethamine",
+        "methylbis(2-chloroethyl)amine",
+        "methylbis(beta-chloroethyl)amine",
+        "N-methyl-bis(2-chloroethyl)amine",
+        "N-methyl-bis(beta-chloroethyl)amine"
+    ],
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#3_STAR"
+    },
+    "rdfs:label": "mechlorethamine",
+    "rdfs:subClassOf": [
+        {
+            "@id": "obo:CHEBI_36683"
+        },
+        {
+            "@id": "obo:CHEBI_37598"
+        },
+        {
+            "@id": "b418_genid-00f1db82e1ab437c844115a94dc63e635-bn28925t11f22333"
+        }
+    ]
+}

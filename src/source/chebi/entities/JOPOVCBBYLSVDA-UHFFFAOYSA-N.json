@@ -1,0 +1,43 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_33007",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "chebi:charge": "+6",
+    "chebi:formula": "Cr",
+    "chebi:inchi": "InChI=1S/Cr/q+6",
+    "chebi:inchikey": "JOPOVCBBYLSVDA-UHFFFAOYSA-N",
+    "chebi:smiles": "[Cr+6]",
+    "http://purl.uniprot.org/core/name": "Cr(6+)",
+    "geneontology:hasDbXref": [
+        "CAS:18540-29-9",
+        "Gmelin:54876",
+        "KEGG:C19161"
+    ],
+    "geneontology:hasId": "33007",
+    "geneontology:hasSynonym": [
+        "Cr(6+)",
+        "chromium(6+) ion",
+        "chromium(VI)",
+        "chromium(VI) cation",
+        "chromium hexavalent ion",
+        "Chromium hexavalent ion",
+        "Chromium ion (6+)"
+    ],
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#3_STAR"
+    },
+    "rdfs:label": "chromium(6+)",
+    "rdfs:subClassOf": [
+        {
+            "@id": "obo:CHEBI_33423"
+        },
+        {
+            "@id": "obo:CHEBI_33516"
+        }
+    ]
+}

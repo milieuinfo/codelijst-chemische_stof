@@ -1,0 +1,50 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_50139",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "obo:IAO_0000115": "A dialkyl ketone with butyl and ethyl as the two alkyl groups.",
+    "chebi:charge": "0",
+    "chebi:formula": "C7H14O",
+    "chebi:inchi": "InChI=1S/C7H14O/c1-3-5-6-7(8)4-2/h3-6H2,1-2H3",
+    "chebi:inchikey": "NGAZZOYFWWSOGK-UHFFFAOYSA-N",
+    "chebi:smiles": "CCCCC(=O)CC",
+    "geneontology:hasDbXref": [
+        "PMID:22284503",
+        "Beilstein:506161",
+        "CAS:106-35-4",
+        "HMDB:HMDB0031482",
+        "PMID:23870484",
+        "Reaxys:506161",
+        "Wikipedia:3-Heptanone"
+    ],
+    "geneontology:hasId": "50139",
+    "geneontology:hasSynonym": [
+        "3-Heptanone",
+        "Aethylbutylketon",
+        "Butyl ethyl ketone",
+        "Ethylbutylcetone",
+        "Ethyl n-butyl ketone",
+        "Ethyl-n-butyl ketone",
+        "n-Butyl ethyl ketone"
+    ],
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#3_STAR"
+    },
+    "rdfs:label": "heptan-3-one",
+    "rdfs:subClassOf": [
+        {
+            "@id": "obo:CHEBI_18044"
+        },
+        {
+            "@id": "b49_genid-00f1db82e1ab437c844115a94dc63e635-bn50139t11f25212"
+        },
+        {
+            "@id": "b49_genid-00f1db82e1ab437c844115a94dc63e635-bn50139t11f59163"
+        }
+    ]
+}

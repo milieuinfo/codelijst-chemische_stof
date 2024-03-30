@@ -1,0 +1,60 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_36014",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "obo:IAO_0000115": "A one-carbon compound that is methane in which one of the hydrogens is replaced by a chloro group.",
+    "chebi:charge": "0",
+    "chebi:formula": "CH3Cl",
+    "chebi:inchi": "InChI=1S/CH3Cl/c1-2/h1H3",
+    "chebi:inchikey": "NEHMKBQYUWJMIP-UHFFFAOYSA-N",
+    "chebi:smiles": "[H]C([H])([H])Cl",
+    "http://purl.uniprot.org/core/name": "chloromethane",
+    "geneontology:hasDbXref": [
+        "Beilstein:1696839",
+        "CAS:74-87-3",
+        "Gmelin:24898",
+        "KEGG:C19446",
+        "MetaCyc:CPD-845",
+        "PMID:12738255",
+        "PMID:7679475",
+        "Reaxys:1696839",
+        "UM-BBD_compID:c0599",
+        "Wikipedia:Chloromethane"
+    ],
+    "geneontology:hasId": "36014",
+    "geneontology:hasSynonym": [
+        "CH3Cl",
+        "MeCl",
+        "Methylchlorid",
+        "methylchloride",
+        "methyl chloride",
+        "monochloromethane",
+        "R-40"
+    ],
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#3_STAR"
+    },
+    "rdfs:label": "chloromethane",
+    "rdfs:subClassOf": [
+        {
+            "@id": "obo:CHEBI_23148"
+        },
+        {
+            "@id": "obo:CHEBI_25253"
+        },
+        {
+            "@id": "b46_genid-00f1db82e1ab437c844115a94dc63e635-bn36014t11f25435"
+        },
+        {
+            "@id": "b46_genid-00f1db82e1ab437c844115a94dc63e635-bn36014t11f76507"
+        },
+        {
+            "@id": "b46_genid-00f1db82e1ab437c844115a94dc63e635-bn36014t11f78433"
+        }
+    ]
+}

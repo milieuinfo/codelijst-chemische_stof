@@ -1,0 +1,28 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_81786",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "chebi:charge": "0",
+    "chebi:formula": "C15H18Cl2N2O3",
+    "chebi:inchi": "InChI=1S/C15H18Cl2N2O3/c1-8(2)21-12-7-11(9(16)6-10(12)17)19-14(20)22-13(18-19)15(3,4)5/h6-8H,1-5H3",
+    "chebi:inchikey": "CHNUNORXWHYHNE-UHFFFAOYSA-N",
+    "chebi:smiles": "CC(C)Oc1cc(c(Cl)cc1Cl)-n1nc(oc1=O)C(C)(C)C",
+    "geneontology:hasDbXref": [
+        "CAS:19666-30-9",
+        "KEGG:C18496",
+        "PPDB:496"
+    ],
+    "geneontology:hasId": "81786",
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#2_STAR"
+    },
+    "rdfs:label": "Oxadiazon",
+    "rdfs:subClassOf": {
+        "@id": "obo:CHEBI_35618"
+    }
+}

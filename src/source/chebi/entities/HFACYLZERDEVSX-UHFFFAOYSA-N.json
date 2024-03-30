@@ -1,0 +1,61 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_80495",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "obo:IAO_0000115": "A member of the class of biphenyls that is 1,1'-biphenyl in which the hydrogen at the para-position of each phenyl group has been replaced by an amino group.",
+    "chebi:charge": "0",
+    "chebi:formula": "C12H12N2",
+    "chebi:inchi": "InChI=1S/C12H12N2/c13-11-5-1-9(2-6-11)10-3-7-12(14)8-4-10/h1-8H,13-14H2",
+    "chebi:inchikey": "HFACYLZERDEVSX-UHFFFAOYSA-N",
+    "chebi:smiles": "C1=C(C=CC(=C1)C=2C=CC(=CC2)N)N",
+    "geneontology:hasDbXref": [
+        "CAS:92-87-5",
+        "HMDB:HMDB0041835",
+        "KEGG:C16444",
+        "PMID:15317128",
+        "PMID:21089809",
+        "PMID:23766236",
+        "PMID:25151432",
+        "PMID:25281283",
+        "PMID:25757908",
+        "PMID:7341968",
+        "Reaxys:742770",
+        "Wikipedia:Benzidine"
+    ],
+    "geneontology:hasId": "80495",
+    "geneontology:hasSynonym": [
+        "(1,1'-biphenyl)-4,4'-diamine",
+        "4,4'-bianiline",
+        "4,4'-biphenyldiamine",
+        "4,4'-biphenylenediamine",
+        "4,4'-diamino-1,1'-biphenyl",
+        "4,4'-diaminobiphenyl",
+        "4,4'-diaminodiphenyl",
+        "4,4'-diphenylenediamine",
+        "biphenyl-4,4'-diamine",
+        "C.I. azoic diazo component 112",
+        "p,p'-bianiline",
+        "p,p'-diaminodiphenyl",
+        "p-diaminodiphenyl"
+    ],
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#3_STAR"
+    },
+    "rdfs:label": "benzidine",
+    "rdfs:subClassOf": [
+        {
+            "@id": "obo:CHEBI_48975"
+        },
+        {
+            "@id": "obo:CHEBI_22888"
+        },
+        {
+            "@id": "b454_genid-00f1db82e1ab437c844115a94dc63e635-bn80495t11f50903"
+        }
+    ]
+}

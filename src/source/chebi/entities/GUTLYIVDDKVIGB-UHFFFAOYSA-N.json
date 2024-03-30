@@ -1,0 +1,49 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_27638",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "obo:IAO_0000115": "A cobalt group element atom that has atomic number 27.",
+    "chebi:charge": "0",
+    "chebi:formula": "Co",
+    "chebi:inchi": "InChI=1S/Co",
+    "chebi:inchikey": "GUTLYIVDDKVIGB-UHFFFAOYSA-N",
+    "chebi:smiles": "[Co]",
+    "http://purl.uniprot.org/core/name": "Co",
+    "geneontology:hasDbXref": [
+        "CAS:7440-48-4",
+        "KEGG:C00175",
+        "KEGG:C19171",
+        "PDBeChem:3CO",
+        "WebElements:Co"
+    ],
+    "geneontology:hasId": "27638",
+    "geneontology:hasSynonym": [
+        "Co",
+        "27Co",
+        "cobalt",
+        "Cobalt",
+        "cobalto",
+        "cobaltum",
+        "Kobalt"
+    ],
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#3_STAR"
+    },
+    "rdfs:label": "cobalt atom",
+    "rdfs:subClassOf": [
+        {
+            "@id": "obo:CHEBI_88184"
+        },
+        {
+            "@id": "b373_genid-00f1db82e1ab437c844115a94dc63e635-bn27638t11f27027"
+        },
+        {
+            "@id": "obo:CHEBI_33358"
+        }
+    ]
+}

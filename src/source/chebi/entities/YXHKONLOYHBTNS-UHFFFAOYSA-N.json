@@ -1,0 +1,54 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_73716",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "obo:IAO_0000115": "The simplest diazo compound, in which a diazo group is attached to a methylene group.",
+    "chebi:charge": "0",
+    "chebi:formula": "CH2N2",
+    "chebi:inchi": "InChI=1S/CH2N2/c1-3-2/h1H2",
+    "chebi:inchikey": "YXHKONLOYHBTNS-UHFFFAOYSA-N",
+    "chebi:smiles": "C=[N+]=[N-]",
+    "geneontology:hasDbXref": [
+        "CAS:334-88-3",
+        "KEGG:C19387",
+        "PMID:20885373",
+        "PMID:21618376",
+        "PMID:6675207",
+        "Reaxys:102415",
+        "Wikipedia:Diazomethane"
+    ],
+    "geneontology:hasId": "73716",
+    "geneontology:hasSynonym": [
+        "diazirine",
+        "acomethylene",
+        "azimethylene",
+        "diazonium methylide",
+        "EINECS 206-382-7"
+    ],
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#3_STAR"
+    },
+    "rdfs:label": "diazomethane",
+    "rdfs:subClassOf": [
+        {
+            "@id": "obo:CHEBI_39444"
+        },
+        {
+            "@id": "b444_genid-00f1db82e1ab437c844115a94dc63e635-bn73716t11f22333"
+        },
+        {
+            "@id": "b444_genid-00f1db82e1ab437c844115a94dc63e635-bn73716t11f35610"
+        },
+        {
+            "@id": "b444_genid-00f1db82e1ab437c844115a94dc63e635-bn73716t11f50903"
+        },
+        {
+            "@id": "b444_genid-00f1db82e1ab437c844115a94dc63e635-bn73716t11f64909"
+        }
+    ]
+}

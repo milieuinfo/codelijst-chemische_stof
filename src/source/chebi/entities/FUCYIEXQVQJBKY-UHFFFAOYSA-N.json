@@ -1,0 +1,35 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_140564",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "obo:IAO_0000115": "A member of the cadinene family of sesquiterpenes in which the double bonds are located at the 4-4a and 7-8 positions, and in which the isopropyl group at position 1 is cis to the hydrogen at the adjacent bridgehead carbon (position 8a).",
+    "chebi:charge": "0",
+    "chebi:formula": "C15H24",
+    "chebi:inchi": "InChI=1S/C15H24/c1-10(2)13-8-6-12(4)14-7-5-11(3)9-15(13)14/h9-10,13,15H,5-8H2,1-4H3",
+    "chebi:inchikey": "FUCYIEXQVQJBKY-UHFFFAOYSA-N",
+    "chebi:smiles": "CC(C)C1CCC(C)=C2CCC(C)=CC12",
+    "http://purl.uniprot.org/core/name": "delta-cadinene",
+    "geneontology:hasId": "140564",
+    "geneontology:hasSynonym": [
+        "4,7-dimethyl-1-(propan-2-yl)-1,2,3,5,6,8a-hexahydronaphthalene",
+        "4,7-dimethyl-1-isopropyl-1,2,3,5,6,8a-hexahydronaphthalene",
+        "rel-(1R,8aS)-1-isopropyl-4,7-dimethyl-1,2,3,5,6,8a-hexahydronaphthalene"
+    ],
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#3_STAR"
+    },
+    "rdfs:label": "delta-cadinene",
+    "rdfs:subClassOf": [
+        {
+            "@id": "obo:CHEBI_142348"
+        },
+        {
+            "@id": "obo:CHEBI_22976"
+        }
+    ]
+}

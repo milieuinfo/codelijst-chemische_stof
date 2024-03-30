@@ -1,0 +1,43 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_46635",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "obo:IAO_0000115": "A dichloroaniline carrying chloro substituents at positions 2 and 4.",
+    "chebi:charge": "0",
+    "chebi:formula": "C6H5Cl2N",
+    "chebi:inchi": "InChI=1S/C6H5Cl2N/c7-4-1-2-6(9)5(8)3-4/h1-3H,9H2",
+    "chebi:inchikey": "KQCMTOWTPBNWDB-UHFFFAOYSA-N",
+    "chebi:smiles": "Nc1ccc(Cl)cc1Cl",
+    "geneontology:hasDbXref": [
+        "Beilstein:386422",
+        "CAS:554-00-7",
+        "Gmelin:201203",
+        "KEGG:C14419",
+        "PMID:17624189",
+        "PMID:22321051",
+        "Reaxys:386422",
+        "UM-BBD_compID:c0765"
+    ],
+    "geneontology:hasId": "46635",
+    "geneontology:hasSynonym": [
+        "1-amino-2,4-dichlorobenzene",
+        "2,4-DCA",
+        "2,4-Dichloranilin",
+        "2,4-Dichloroaniline",
+        "2,4-dichlorobenzenamine",
+        "2,4-dichlorophenylamine",
+        "o,p-dichloroaniline"
+    ],
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#3_STAR"
+    },
+    "rdfs:label": "2,4-dichloroaniline",
+    "rdfs:subClassOf": {
+        "@id": "obo:CHEBI_23696"
+    }
+}

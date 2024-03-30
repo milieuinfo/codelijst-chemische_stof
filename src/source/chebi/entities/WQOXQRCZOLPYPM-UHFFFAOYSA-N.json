@@ -1,0 +1,53 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_4608",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "obo:IAO_0000115": "An organic disulfide that is methane in which one of the hydrogens has been replaced by a methyldisulfanyl group.",
+    "chebi:charge": "0",
+    "chebi:formula": "C2H6S2",
+    "chebi:inchi": "InChI=1S/C2H6S2/c1-3-4-2/h1-2H3",
+    "chebi:inchikey": "WQOXQRCZOLPYPM-UHFFFAOYSA-N",
+    "chebi:smiles": "CSSC",
+    "http://purl.uniprot.org/core/name": "dimethyl disulfide",
+    "geneontology:hasDbXref": [
+        "Beilstein:1730824",
+        "CAS:624-92-0",
+        "Gmelin:1581",
+        "HMDB:HMDB0005879",
+        "KEGG:C08371",
+        "KNApSAcK:C00001245",
+        "PMID:17942746",
+        "PMID:24701929",
+        "PMID:24768513",
+        "PMID:24897851",
+        "PPDB:2886",
+        "Reaxys:1730824",
+        "Wikipedia:Methyl_disulfide"
+    ],
+    "geneontology:hasId": "4608",
+    "geneontology:hasSynonym": [
+        "(methyldisulfanyl)methane",
+        "2,3-dithiabutane",
+        "dimethyldisulfide",
+        "Dimethyl disulfide",
+        "dimethyl disulphide",
+        "Methyl disulfide"
+    ],
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#3_STAR"
+    },
+    "rdfs:label": "dimethyl disulfide",
+    "rdfs:subClassOf": [
+        {
+            "@id": "obo:CHEBI_35489"
+        },
+        {
+            "@id": "b196_genid-00f1db82e1ab437c844115a94dc63e635-bn4608t11f76206"
+        }
+    ]
+}

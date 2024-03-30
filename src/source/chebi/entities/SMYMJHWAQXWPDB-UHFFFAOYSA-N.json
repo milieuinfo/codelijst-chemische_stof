@@ -1,0 +1,66 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_27903",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "obo:IAO_0000115": "A chlorophenoxyacetic acid that is phenoxyacetic acid in which the ring hydrogens at postions 2, 4 and 5 are substituted by chlorines.",
+    "chebi:charge": "0",
+    "chebi:formula": "C8H5Cl3O3",
+    "chebi:inchi": "InChI=1S/C8H5Cl3O3/c9-4-1-6(11)7(2-5(4)10)14-3-8(12)13/h1-2H,3H2,(H,12,13)",
+    "chebi:inchikey": "SMYMJHWAQXWPDB-UHFFFAOYSA-N",
+    "chebi:smiles": "OC(=O)COc1cc(Cl)c(Cl)cc1Cl",
+    "geneontology:hasDbXref": [
+        "MetaCyc:CPD-10896",
+        "Beilstein:2055620",
+        "CAS:93-76-5",
+        "Gmelin:434052",
+        "KEGG:C07100",
+        "LINCS:LSM-24946",
+        "Pesticides:2,4,5-t",
+        "PMID:23085749",
+        "PMID:23167922",
+        "PPDB:1532",
+        "Reaxys:2055620",
+        "Wikipedia:2,4,5-Trichlorophenoxyacetic_acid"
+    ],
+    "geneontology:hasId": "27903",
+    "geneontology:hasSynonym": [
+        "(2,4,5-Trichlorphenoxy)essigsaeure",
+        "2,4,5-T",
+        "2,4,5-Trichlorophenoxyacetic acid",
+        "2,4,5-Trichlorphenoxyessigsaeure",
+        "Esteron 245",
+        "Trioxone"
+    ],
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#3_STAR"
+    },
+    "rdfs:label": "(2,4,5-trichlorophenoxy)acetic acid",
+    "rdfs:subClassOf": [
+        {
+            "@id": "obo:CHEBI_23152"
+        },
+        {
+            "@id": "obo:CHEBI_27096"
+        },
+        {
+            "@id": "b177_genid-00f1db82e1ab437c844115a94dc63e635-bn27903tmms73f19331"
+        },
+        {
+            "@id": "b177_genid-00f1db82e1ab437c844115a94dc63e635-bn27903t4f19331"
+        },
+        {
+            "@id": "b177_genid-00f1db82e1ab437c844115a94dc63e635-bn27903t11f23582"
+        },
+        {
+            "@id": "b177_genid-00f1db82e1ab437c844115a94dc63e635-bn27903t11f26841"
+        },
+        {
+            "@id": "b177_genid-00f1db82e1ab437c844115a94dc63e635-bn27903t11f60575"
+        }
+    ]
+}

@@ -1,0 +1,42 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_34203",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "obo:IAO_0000115": "A hexachlorobiphenyl that is biphenyl in which both of the phenyl rings are substituted at positons 2, 4, and 6 by chlorines.",
+    "chebi:charge": "0",
+    "chebi:formula": "C12H4Cl6",
+    "chebi:inchi": "InChI=1S/C12H4Cl6/c13-5-1-7(15)11(8(16)2-5)12-9(17)3-6(14)4-10(12)18/h1-4H",
+    "chebi:inchikey": "ICOAEPDGFWLUTI-UHFFFAOYSA-N",
+    "chebi:smiles": "Clc1cc(Cl)c(c(Cl)c1)-c1c(Cl)cc(Cl)cc1Cl",
+    "geneontology:hasDbXref": [
+        "Beilstein:2058693",
+        "CAS:33979-03-2",
+        "KEGG:C14202"
+    ],
+    "geneontology:hasId": "34203",
+    "geneontology:hasSynonym": [
+        "2,2',4,4',6,6'-Hcb",
+        "2,2',4,4',6,6'-hexachloro-1,1'-biphenyl",
+        "2,2',4,4',6,6'-Hexachlorobiphenyl",
+        "2,2',4,4',6,6'-Hexachlorodiphenyl",
+        "2,4,6,2',4',6'-Hexachlorobiphenyl",
+        "PCB 155"
+    ],
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#3_STAR"
+    },
+    "rdfs:label": "2,2',4,4',6,6'-hexachlorobiphenyl",
+    "rdfs:subClassOf": [
+        {
+            "@id": "obo:CHEBI_27096"
+        },
+        {
+            "@id": "obo:CHEBI_36722"
+        }
+    ]
+}

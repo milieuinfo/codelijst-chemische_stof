@@ -1,0 +1,60 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_83527",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "obo:IAO_0000115": "A tertiary amino compound that is N,N-dimethylethanamine substituted at position 1 by a 1-hydroxycyclohexyl and 4-hydroxyphenyl group. It is a metabolite of the drug venlafaxine.",
+    "chebi:charge": "0",
+    "chebi:formula": "C16H25NO2",
+    "chebi:inchi": "InChI=1S/C16H25NO2/c1-17(2)12-15(13-6-8-14(18)9-7-13)16(19)10-4-3-5-11-16/h6-9,15,18-19H,3-5,10-12H2,1-2H3",
+    "chebi:inchikey": "KYYIDSXMWOZKMP-UHFFFAOYSA-N",
+    "chebi:smiles": "CN(C)CC(c1ccc(O)cc1)C1(O)CCCCC1",
+    "geneontology:hasDbXref": [
+        "CAS:93413-62-8",
+        "Drug_Central:4380",
+        "DrugBank:DB06700",
+        "HMDB:HMDB0015646",
+        "KEGG:D07793",
+        "PMID:24493333",
+        "PMID:24502274",
+        "PMID:24989434",
+        "PMID:25086830",
+        "PMID:25188033",
+        "Reaxys:4234613",
+        "Wikipedia:Desvenlafaxine"
+    ],
+    "geneontology:hasId": "83527",
+    "geneontology:hasSynonym": [
+        "1-[2-(dimethylamino)-1-(4-hydroxyphenyl)ethyl]cyclohexanol",
+        "4-[2-(dimethylamino)-1-(1-hydroxycyclohexyl)ethyl]phenol",
+        "desvenlafaxine"
+    ],
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#3_STAR"
+    },
+    "rdfs:label": "O-desmethylvenlafaxine",
+    "rdfs:subClassOf": [
+        {
+            "@id": "obo:CHEBI_33853"
+        },
+        {
+            "@id": "obo:CHEBI_50996"
+        },
+        {
+            "@id": "obo:CHEBI_23480"
+        },
+        {
+            "@id": "b336_genid-00f1db82e1ab437c844115a94dc63e635-bn83527t11f35469"
+        },
+        {
+            "@id": "b336_genid-00f1db82e1ab437c844115a94dc63e635-bn83527t11f49103"
+        },
+        {
+            "@id": "b336_genid-00f1db82e1ab437c844115a94dc63e635-bn83527t11f83399"
+        }
+    ]
+}

@@ -1,0 +1,66 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_81767",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "obo:IAO_0000115": "A member of the class of imidothioates that is the S-4-chlorobenzyl thioester of N-(2,4-dichlorophenyl)-2-(1H-1,2,4-triazol-1-yl)ethanimidothioic acid. Used to control a range of fungal diseases affecting fruit, vegetables, turf and ornamentals. It has a low mammalian toxicity and shows a moderate level of toxicity to fish, daphnia and earthworms but is relatively non-toxic to honey bees, birds and algae.",
+    "chebi:charge": "0",
+    "chebi:formula": "C17H13Cl3N4S",
+    "chebi:inchi": "InChI=1S/C17H13Cl3N4S/c18-13-3-1-12(2-4-13)9-25-17(8-24-11-21-10-22-24)23-16-6-5-14(19)7-15(16)20/h1-7,10-11H,8-9H2",
+    "chebi:inchikey": "AGKSTYPVMZODRV-UHFFFAOYSA-N",
+    "chebi:smiles": "C1=C(C=CC(=C1)CSC(CN2N=CN=C2)=NC3=C(C=C(C=C3)Cl)Cl)Cl",
+    "geneontology:hasDbXref": [
+        "AGR:IND89018447",
+        "CAS:86598-92-7",
+        "KEGG:C18468",
+        "Patent:CN101106903",
+        "Patent:CN101167455",
+        "Pesticides:imibenconazole",
+        "PMID:22289359",
+        "PPDB:1026",
+        "Reaxys:11339125"
+    ],
+    "geneontology:hasId": "81767",
+    "geneontology:hasSynonym": [
+        "(4-chlorophenyl)methyl N-(2,4-dichlorophenyl)-1H-1,2,4-triazole-1-ethanimidothioate",
+        "4-chlorobenzyl N-(2,4-dichlorophenyl)-2-(1H-1,2,4-triazol-1-yl)ethanimidothioate",
+        "4-chlorobenzyl N-2,4-dichlorophenyl-2-(1H-1,2,4-triazol-1-yl)thioacetamidate",
+        "HF 6305",
+        "HF 8505",
+        "Manage"
+    ],
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#3_STAR"
+    },
+    "rdfs:label": "imibenconazole",
+    "rdfs:subClassOf": [
+        {
+            "@id": "obo:CHEBI_35727"
+        },
+        {
+            "@id": "obo:CHEBI_23697"
+        },
+        {
+            "@id": "obo:CHEBI_83403"
+        },
+        {
+            "@id": "obo:CHEBI_87100"
+        },
+        {
+            "@id": "obo:CHEBI_87067"
+        },
+        {
+            "@id": "obo:CHEBI_83991"
+        },
+        {
+            "@id": "b31_genid-00f1db82e1ab437c844115a94dc63e635-bn81767t11f77884"
+        },
+        {
+            "@id": "b31_genid-00f1db82e1ab437c844115a94dc63e635-bn81767t11f86328"
+        }
+    ]
+}

@@ -1,0 +1,33 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_81910",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "chebi:charge": "+1",
+    "chebi:formula": "C17H17N2",
+    "chebi:inchi": "InChI=1S/C17H17N2/c1-18-16(14-9-5-3-6-10-14)13-17(19(18)2)15-11-7-4-8-12-15/h3-13H,1-2H3/q+1",
+    "chebi:inchikey": "LBGPXIPGGRQBJW-UHFFFAOYSA-N",
+    "chebi:smiles": "Cn1c(cc(-c2ccccc2)[n+]1C)-c1ccccc1",
+    "geneontology:hasDbXref": [
+        "CAS:49866-87-7",
+        "KEGG:C18717",
+        "PPDB:232"
+    ],
+    "geneontology:hasId": "81910",
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#2_STAR"
+    },
+    "rdfs:label": "Difenzoquat",
+    "rdfs:subClassOf": [
+        {
+            "@id": "obo:CHEBI_36820"
+        },
+        {
+            "@id": "obo:CHEBI_26410"
+        }
+    ]
+}

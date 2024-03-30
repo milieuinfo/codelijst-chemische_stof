@@ -1,0 +1,29 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_196451",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "chebi:charge": "0",
+    "chebi:formula": "C9H12O",
+    "chebi:inchi": "InChI=1S/C9H12O/c1-6-4-7(2)9(10)8(3)5-6/h4-5,10H,1-3H3",
+    "chebi:inchikey": "BPRYUXCVCCNUFE-UHFFFAOYSA-N",
+    "chebi:smiles": "OC1=C(C=C(C=C1C)C)C",
+    "geneontology:hasDbXref": [
+        "CAS:527-60-6",
+        "Chemspider:10248",
+        "HMDB:HMDB0032544"
+    ],
+    "geneontology:hasId": "196451",
+    "geneontology:hasSynonym": "2,4,6-trimethylphenol",
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#2_STAR"
+    },
+    "rdfs:label": "2,4,6-Trimethylphenol",
+    "rdfs:subClassOf": {
+        "@id": "obo:CHEBI_24751"
+    }
+}

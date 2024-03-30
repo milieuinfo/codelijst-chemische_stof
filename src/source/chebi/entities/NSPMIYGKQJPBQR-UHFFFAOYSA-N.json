@@ -1,0 +1,73 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@graph": [
+        {
+            "@id": "obo:CHEBI_35550",
+            "@type": "http://www.w3.org/2002/07/owl#Class",
+            "chebi:charge": "0",
+            "chebi:formula": "C2H3N3",
+            "chebi:inchi": "InChI=1S/C2H3N3/c1-3-2-5-4-1/h1-2H,(H,3,4,5)",
+            "chebi:inchikey": "NSPMIYGKQJPBQR-UHFFFAOYSA-N",
+            "chebi:smiles": "c1nc[nH]n1",
+            "geneontology:hasDbXref": [
+                "Beilstein:104767",
+                "CAS:288-88-0",
+                "Gmelin:122679"
+            ],
+            "geneontology:hasId": "35550",
+            "geneontology:hasSynonym": "s-Triazole",
+            "geneontology:inSubset": {
+                "@id": "obo:chebi#3_STAR"
+            },
+            "rdfs:label": "1H-1,2,4-triazole",
+            "rdfs:subClassOf": [
+                {
+                    "@id": "obo:CHEBI_35560"
+                },
+                {
+                    "@id": "b8_genid-00f1db82e1ab437c844115a94dc63e635-bn35550t7f35561"
+                },
+                {
+                    "@id": "b8_genid-00f1db82e1ab437c844115a94dc63e635-bn35550t7f46077"
+                }
+            ]
+        },
+        {
+            "@id": "obo:CHEBI_46077",
+            "@type": "http://www.w3.org/2002/07/owl#Class",
+            "chebi:charge": "0",
+            "chebi:formula": "C2H3N3",
+            "chebi:inchi": "InChI=1S/C2H3N3/c1-3-2-5-4-1/h1-2H,(H,3,4,5)",
+            "chebi:inchikey": "NSPMIYGKQJPBQR-UHFFFAOYSA-N",
+            "chebi:smiles": "c1nnc[nH]1",
+            "geneontology:hasDbXref": [
+                "Beilstein:605619",
+                "CAS:63598-71-0",
+                "Gmelin:323206",
+                "PDBeChem:TRI"
+            ],
+            "geneontology:hasId": "46077",
+            "geneontology:hasSynonym": "1,2,4-TRIAZOLE",
+            "geneontology:inSubset": {
+                "@id": "obo:chebi#3_STAR"
+            },
+            "rdfs:label": "4H-1,2,4-triazole",
+            "rdfs:subClassOf": [
+                {
+                    "@id": "obo:CHEBI_35560"
+                },
+                {
+                    "@id": "b8_genid-00f1db82e1ab437c844115a94dc63e635-bn46077t7f35550"
+                },
+                {
+                    "@id": "b8_genid-00f1db82e1ab437c844115a94dc63e635-bn46077t7f35561"
+                }
+            ]
+        }
+    ]
+}

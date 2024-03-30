@@ -1,0 +1,38 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_6954",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "chebi:charge": "0",
+    "chebi:formula": "C14H10Cl4",
+    "chebi:inchi": "InChI=1S/C14H10Cl4/c15-10-7-5-9(6-8-10)13(14(17)18)11-3-1-2-4-12(11)16/h1-8,13-14H",
+    "chebi:inchikey": "JWBOIMRXGHLCPP-UHFFFAOYSA-N",
+    "chebi:smiles": "C1=CC=C(C(=C1)C(C2=CC=C(C=C2)Cl)C(Cl)Cl)Cl",
+    "geneontology:hasDbXref": [
+        "CAS:53-19-0",
+        "Drug_Central:1820",
+        "HMDB:HMDB0014786",
+        "KEGG:D00420",
+        "LINCS:LSM-1451"
+    ],
+    "geneontology:hasId": "6954",
+    "geneontology:hasSynonym": [
+        "chloditan",
+        "chlodithane",
+        "lysodren",
+        "Lysodren (TN)",
+        "mitotan",
+        "opeprim"
+    ],
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#2_STAR"
+    },
+    "rdfs:label": "Mitotane",
+    "rdfs:subClassOf": {
+        "@id": "obo:CHEBI_51614"
+    }
+}

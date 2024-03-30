@@ -1,0 +1,103 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_31264",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "obo:IAO_0000115": "A (synthetic) quaternary ammonium salt that is benzyldimethylamine in which the nitrogen is quaternised by a 2-{2-[p-(2,4,4-trimethylpentan-2-yl)phenoxy]ethoxy}ethyl group, with chloride as the counter-ion. An antiseptic and disinfectant, it is active against a broad spectrum of bacteria, fungi, moulds and viruses.",
+    "chebi:charge": "0",
+    "chebi:formula": "C27H42ClNO2",
+    "chebi:inchi": "InChI=1S/C27H42NO2.ClH/c1-26(2,3)22-27(4,5)24-13-15-25(16-14-24)30-20-19-29-18-17-28(6,7)21-23-11-9-8-10-12-23;/h8-16H,17-22H2,1-7H3;1H/q+1;/p-1",
+    "chebi:inchikey": "UREZNYTWGJKWBI-UHFFFAOYSA-M",
+    "chebi:smiles": "[Cl-].CC(C)(C)CC(C)(C)c1ccc(OCCOCC[N+](C)(C)Cc2ccccc2)cc1",
+    "geneontology:hasDbXref": [
+        "CAS:121-54-0",
+        "KEGG:C12539",
+        "KEGG:D01140",
+        "Patent:US2115250",
+        "PMID:11453769",
+        "PMID:11606328",
+        "PMID:12595925",
+        "PMID:16750419",
+        "PMID:17867553",
+        "PMID:22828255",
+        "PMID:2310164",
+        "PMID:2735743",
+        "PMID:3416474",
+        "PMID:3995765",
+        "Wikipedia:3898548",
+        "Wikipedia:Benzethonium_chloride"
+    ],
+    "geneontology:hasId": "31264",
+    "geneontology:hasSynonym": [
+        "{2-[2-(4-diisobutylphenoxy)ethoxy]ethyl}dimethylbenzylammonium chloride",
+        "Anti-germ 77",
+        "Antiseptol",
+        "Banagerm",
+        "benzethonii chloridum",
+        "benzetonium chloride",
+        "benzyldimethyl(2-{2-[4-(1,1,3,3-tetramethylbutyl)phenoxy]ethoxy}ethyl)ammonium chloride",
+        "benzyldimethyl(2-{2-[p-(1,1,3,3-tetramethylbutyl)phenoxy]ethoxy}ethyl)ammonium chloride",
+        "benzyldimethyl-p-(1,1,3,3-tetramethylbutyl)phenoxyethoxy-ethylammonium chloride",
+        "BZT",
+        "chlorure de benzethonium",
+        "cloruro de benzetonio",
+        "Diapp",
+        "diisobutylphenoxyethoxyethyldimethyl benzyl ammonium chloride",
+        "diisobutylphenoxyethoxyethyl dimethyl benzyl ammonium chloride",
+        "Disilyn",
+        "Hyamine",
+        "Hyamine 1622",
+        "Inactisol",
+        "Kylacol",
+        "Microklenz",
+        "N,N-dimethyl-N-(2-{2-[4-(1,1,3,3-tetramethylbutyl)phenoxy]ethoxy}ethyl)-benzenemethanaminium chloride",
+        "N-benzyl-N,N-dimethyl-2-{2-[4-(2,4,4-trimethylpentan-2-yl)phenoxy]ethoxy}ethanaminium chloride",
+        "Neostelin green",
+        "p-diisobutyl phenoxyethoxyethyl dimethyl benzylammonium chloride",
+        "Phemeride",
+        "Phemerol chloride",
+        "Phemithyn",
+        "Polymine D",
+        "p-tert-octylphenoxyethoxyethyldimethylbenzylammonium chloride",
+        "QAC",
+        "Quatrachlor",
+        "Salanine",
+        "Sanizol",
+        "Solamin",
+        "Solamine"
+    ],
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#3_STAR"
+    },
+    "rdfs:label": "benzethonium chloride",
+    "rdfs:subClassOf": [
+        {
+            "@id": "obo:CHEBI_35618"
+        },
+        {
+            "@id": "obo:CHEBI_35273"
+        },
+        {
+            "@id": "obo:CHEBI_23114"
+        },
+        {
+            "@id": "b345_genid-00f1db82e1ab437c844115a94dc63e635-bn31264t11f22587"
+        },
+        {
+            "@id": "b345_genid-00f1db82e1ab437c844115a94dc63e635-bn31264t11f33282"
+        },
+        {
+            "@id": "b345_genid-00f1db82e1ab437c844115a94dc63e635-bn31264t11f35718"
+        },
+        {
+            "@id": "b345_genid-00f1db82e1ab437c844115a94dc63e635-bn31264t11f48218"
+        },
+        {
+            "@id": "b345_genid-00f1db82e1ab437c844115a94dc63e635-bn31264t11f48219"
+        }
+    ]
+}

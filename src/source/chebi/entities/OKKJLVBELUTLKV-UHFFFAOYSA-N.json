@@ -1,0 +1,99 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_17790",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "obo:IAO_0000115": "The primary alcohol that is the simplest aliphatic alcohol, comprising a methyl and an alcohol group.",
+    "chebi:charge": "0",
+    "chebi:formula": "CH4O",
+    "chebi:inchi": "InChI=1S/CH4O/c1-2/h2H,1H3",
+    "chebi:inchikey": "OKKJLVBELUTLKV-UHFFFAOYSA-N",
+    "chebi:smiles": "CO",
+    "http://purl.uniprot.org/core/name": "methanol",
+    "geneontology:hasDbXref": [
+        "PMID:11684179",
+        "Beilstein:1098229",
+        "CAS:67-56-1",
+        "Gmelin:449",
+        "HMDB:HMDB0001875",
+        "KEGG:C00132",
+        "KEGG:D02309",
+        "MetaCyc:METOH",
+        "PDBeChem:MOH",
+        "PMID:11141607",
+        "PMID:11430978",
+        "PMID:11489599",
+        "PMID:11680737",
+        "PMID:14012711",
+        "PMID:14678513",
+        "PMID:14760634",
+        "PMID:15172721",
+        "PMID:15906011",
+        "PMID:16705261",
+        "PMID:17451998",
+        "PMID:17733096",
+        "PMID:19064074",
+        "PMID:19850112",
+        "PMID:20314698",
+        "Reaxys:1098229",
+        "UM-BBD_compID:c0132",
+        "Wikipedia:Methanol"
+    ],
+    "geneontology:hasId": "17790",
+    "geneontology:hasSynonym": [
+        "carbinol",
+        "CH3OH",
+        "MeOH",
+        "Methanol",
+        "METHANOL",
+        "Methyl alcohol",
+        "Methylalkohol",
+        "spirit of wood",
+        "wood alcohol",
+        "wood naphtha",
+        "wood spirit"
+    ],
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#3_STAR"
+    },
+    "rdfs:label": "methanol",
+    "rdfs:subClassOf": [
+        {
+            "@id": "obo:CHEBI_15734"
+        },
+        {
+            "@id": "obo:CHEBI_134179"
+        },
+        {
+            "@id": "obo:CHEBI_50584"
+        },
+        {
+            "@id": "obo:CHEBI_64708"
+        },
+        {
+            "@id": "b121_genid-00f1db82e1ab437c844115a94dc63e635-bn17790t11f33292"
+        },
+        {
+            "@id": "b121_genid-00f1db82e1ab437c844115a94dc63e635-bn17790t11f48360"
+        },
+        {
+            "@id": "b121_genid-00f1db82e1ab437c844115a94dc63e635-bn17790t4f52090"
+        },
+        {
+            "@id": "b121_genid-00f1db82e1ab437c844115a94dc63e635-bn17790t11f75771"
+        },
+        {
+            "@id": "b121_genid-00f1db82e1ab437c844115a94dc63e635-bn17790t11f76971"
+        },
+        {
+            "@id": "b121_genid-00f1db82e1ab437c844115a94dc63e635-bn17790t11f77746"
+        },
+        {
+            "@id": "b121_genid-00f1db82e1ab437c844115a94dc63e635-bn17790t11f131604"
+        }
+    ]
+}

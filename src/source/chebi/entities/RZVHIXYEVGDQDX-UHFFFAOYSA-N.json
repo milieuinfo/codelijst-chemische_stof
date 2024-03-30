@@ -1,0 +1,51 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_40448",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "obo:IAO_0000115": "An anthraquinone that is anthracene in which positions 9 and 10 have been oxidised to carbonyls.",
+    "chebi:charge": "0",
+    "chebi:formula": "C14H8O2",
+    "chebi:inchi": "InChI=1S/C14H8O2/c15-13-9-5-1-2-6-10(9)14(16)12-8-4-3-7-11(12)13/h1-8H",
+    "chebi:inchikey": "RZVHIXYEVGDQDX-UHFFFAOYSA-N",
+    "chebi:smiles": "O=C1c2ccccc2C(=O)c2ccccc12",
+    "geneontology:hasDbXref": [
+        "PMID:14500876",
+        "Beilstein:390030",
+        "CAS:84-65-1",
+        "Gmelin:102870",
+        "KEGG:C16207",
+        "LINCS:LSM-19969",
+        "MetaCyc:CPD-10180",
+        "PDBeChem:9TA",
+        "PPDB:41",
+        "Reaxys:390030",
+        "Wikipedia:Anthraquinone"
+    ],
+    "geneontology:hasId": "40448",
+    "geneontology:hasSynonym": [
+        "anthraquinone",
+        "9,10-Anthracendion",
+        "9,10-anthracenedione",
+        "9,10-Anthrachinon",
+        "9,10-Anthraquinone",
+        "9,10-dioxoanthracene",
+        "9,10-quinone",
+        "anthra-9,10-quinone",
+        "anthracene-9,10-dione",
+        "Anthrachinon",
+        "anthradione",
+        "Az-Q"
+    ],
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#3_STAR"
+    },
+    "rdfs:label": "9,10-anthraquinone",
+    "rdfs:subClassOf": {
+        "@id": "obo:CHEBI_22580"
+    }
+}

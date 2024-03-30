@@ -1,0 +1,67 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_45571",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "obo:IAO_0000115": "A C7, straight-chain fatty acid that contributes to the odour of some rancid oils. Used in the preparation of esters for the fragrance industry, and as an additive in cigarettes.",
+    "chebi:charge": "0",
+    "chebi:formula": "C7H14O2",
+    "chebi:inchi": "InChI=1S/C7H14O2/c1-2-3-4-5-6-7(8)9/h2-6H2,1H3,(H,8,9)",
+    "chebi:inchikey": "MNWFXJYAOYHMED-UHFFFAOYSA-N",
+    "chebi:smiles": "CCCCCCC(O)=O",
+    "geneontology:hasDbXref": [
+        "MetaCyc:CPD-7619",
+        "Beilstein:1744723",
+        "CAS:111-14-8",
+        "DrugBank:DB02938",
+        "Gmelin:142428",
+        "HMDB:HMDB0000666",
+        "KEGG:C17714",
+        "LIPID_MAPS_instance:LMFA01010007",
+        "PDBeChem:SHV",
+        "PMID:23999410",
+        "Reaxys:1744723",
+        "Wikipedia:Heptanoic_acid"
+    ],
+    "geneontology:hasId": "45571",
+    "geneontology:hasSynonym": [
+        "CH3-[CH2]5-COOH",
+        "enanthic acid",
+        "enanthylic acid",
+        "HEPTANOIC ACID",
+        "Heptansaeure",
+        "heptoic acid",
+        "heptylic acid",
+        "n-heptanoic acid",
+        "n-heptoic acid",
+        "n-heptylic acid",
+        "oenanthic acid",
+        "Oenanthsaeure",
+        "oenanthylic acid"
+    ],
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#3_STAR"
+    },
+    "rdfs:label": "heptanoic acid",
+    "rdfs:subClassOf": [
+        {
+            "@id": "obo:CHEBI_59554"
+        },
+        {
+            "@id": "obo:CHEBI_39418"
+        },
+        {
+            "@id": "b549_genid-00f1db82e1ab437c844115a94dc63e635-bn45571tmms73f32362"
+        },
+        {
+            "@id": "b549_genid-00f1db82e1ab437c844115a94dc63e635-bn45571t4f32362"
+        },
+        {
+            "@id": "b549_genid-00f1db82e1ab437c844115a94dc63e635-bn45571t11f76924"
+        }
+    ]
+}

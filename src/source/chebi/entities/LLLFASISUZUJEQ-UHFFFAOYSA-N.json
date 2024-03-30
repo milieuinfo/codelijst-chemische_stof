@@ -1,0 +1,52 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_7778",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "obo:IAO_0000115": "A monothiocarbamic ester that is carbamothioic S-acid substituted by two ethyl groups at the nitrogen atom and a 2-chlorobenzyl group at the the sulfur atom.",
+    "chebi:charge": "0",
+    "chebi:formula": "C12H16ClNOS",
+    "chebi:inchi": "InChI=1S/C12H16ClNOS/c1-3-14(4-2)12(15)16-9-10-7-5-6-8-11(10)13/h5-8H,3-4,9H2,1-2H3",
+    "chebi:inchikey": "LLLFASISUZUJEQ-UHFFFAOYSA-N",
+    "chebi:smiles": "CCN(CC)C(=O)SCc1ccccc1Cl",
+    "geneontology:hasDbXref": [
+        "CAS:34622-58-7",
+        "KEGG:C11087",
+        "Patent:WO2004010784",
+        "Patent:WO2009053095",
+        "Pesticides:orbencarb",
+        "PPDB:493",
+        "Reaxys:1968914"
+    ],
+    "geneontology:hasId": "7778",
+    "geneontology:hasSynonym": [
+        "Diethylthiocarbamic acid S-(o-chlorobenzyl) ester",
+        "S-(2-chlorobenzyl) diethylcarbamothioate",
+        "S-(2-Chlorobenzyl)-N,N-diethylthiolcarbamate"
+    ],
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#3_STAR"
+    },
+    "rdfs:label": "orbencarb",
+    "rdfs:subClassOf": [
+        {
+            "@id": "obo:CHEBI_83403"
+        },
+        {
+            "@id": "obo:CHEBI_38128"
+        },
+        {
+            "@id": "b414_genid-00f1db82e1ab437c844115a94dc63e635-bn7778t11f24527"
+        },
+        {
+            "@id": "b414_genid-00f1db82e1ab437c844115a94dc63e635-bn7778t11f35703"
+        },
+        {
+            "@id": "b414_genid-00f1db82e1ab437c844115a94dc63e635-bn7778t11f78298"
+        }
+    ]
+}

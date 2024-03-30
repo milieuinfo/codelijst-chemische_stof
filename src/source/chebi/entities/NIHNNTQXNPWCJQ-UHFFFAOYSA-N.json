@@ -1,0 +1,66 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_28266",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "obo:IAO_0000115": "An ortho-fused tricyclic hydrocarbon that is a major component of fossil fuels and their derivatives",
+    "chebi:charge": "0",
+    "chebi:formula": "C13H10",
+    "chebi:inchi": "InChI=1S/C13H10/c1-3-7-12-10(5-1)9-11-6-2-4-8-13(11)12/h1-8H,9H2",
+    "chebi:inchikey": "NIHNNTQXNPWCJQ-UHFFFAOYSA-N",
+    "chebi:smiles": "C1C2=CC=CC=C2C2=CC=CC=C12",
+    "geneontology:hasDbXref": [
+        "Beilstein:1363491",
+        "CAS:86-73-7",
+        "Chemspider:6592",
+        "FooDB:FDB007671",
+        "Gmelin:28451",
+        "KEGG:C07715",
+        "MetaCyc:FLUORENE",
+        "PDBeChem:9FL",
+        "PMID:15120562",
+        "PMID:15800860",
+        "PMID:16539455",
+        "PMID:17129129",
+        "PMID:17243671",
+        "PMID:17285163",
+        "PMID:17824593",
+        "PMID:19060398",
+        "PMID:21110374",
+        "PMID:21478643",
+        "PMID:23202077",
+        "PMID:24584240",
+        "PMID:24889657",
+        "PMID:28409789",
+        "Reaxys:1363491",
+        "UM-BBD_compID:c0388",
+        "Wikipedia:Fluorene"
+    ],
+    "geneontology:hasId": "28266",
+    "geneontology:hasSynonym": [
+        "2,2'-Methylenebiphenyl",
+        "2,3-benzindene",
+        "9H-fluorene",
+        "Diphenylenemethane",
+        "Fluoren",
+        "Fluorene",
+        "o-biphenylenemethane",
+        "o-biphenylmethane"
+    ],
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#3_STAR"
+    },
+    "rdfs:label": "fluorene",
+    "rdfs:subClassOf": [
+        {
+            "@id": "obo:CHEBI_37089"
+        },
+        {
+            "@id": "obo:CHEBI_35296"
+        }
+    ]
+}

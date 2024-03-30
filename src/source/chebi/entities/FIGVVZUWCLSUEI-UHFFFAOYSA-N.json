@@ -1,0 +1,51 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_32934",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "obo:IAO_0000115": "A straight chain alkane containing 23 carbon atoms.",
+    "chebi:charge": "0",
+    "chebi:formula": "C23H48",
+    "chebi:inchi": "InChI=1S/C23H48/c1-3-5-7-9-11-13-15-17-19-21-23-22-20-18-16-14-12-10-8-6-4-2/h3-23H2,1-2H3",
+    "chebi:inchikey": "FIGVVZUWCLSUEI-UHFFFAOYSA-N",
+    "chebi:smiles": "CCCCCCCCCCCCCCCCCCCCCCC",
+    "geneontology:hasDbXref": [
+        "PMID:22724515",
+        "PMID:22439883",
+        "Beilstein:1756000",
+        "BPDB:1389",
+        "CAS:638-67-5",
+        "KEGG:C17433",
+        "KNApSAcK:C00032409",
+        "LIPID_MAPS_instance:LMFA11000589",
+        "MetaCyc:CPD-7947",
+        "PMID:23811454",
+        "PMID:24673591",
+        "PMID:24687179",
+        "Reaxys:1756000"
+    ],
+    "geneontology:hasId": "32934",
+    "geneontology:hasSynonym": [
+        "CH3-[CH2]21-CH3",
+        "n-tricosane"
+    ],
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#3_STAR"
+    },
+    "rdfs:label": "tricosane",
+    "rdfs:subClassOf": [
+        {
+            "@id": "obo:CHEBI_83563"
+        },
+        {
+            "@id": "b192_genid-00f1db82e1ab437c844115a94dc63e635-bn32934t11f27311"
+        },
+        {
+            "@id": "b192_genid-00f1db82e1ab437c844115a94dc63e635-bn32934t11f76924"
+        }
+    ]
+}

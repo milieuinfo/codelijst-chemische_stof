@@ -1,0 +1,63 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_53578",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "obo:IAO_0000115": "A diisocyanate compound with the two isocyanates linked by a hexane-1,6-diyl group.",
+    "chebi:charge": "0",
+    "chebi:formula": "C8H12N2O2",
+    "chebi:inchi": "InChI=1S/C8H12N2O2/c11-7-9-5-3-1-2-4-6-10-8-12/h1-6H2",
+    "chebi:inchikey": "RRAMGCGOFNQTLD-UHFFFAOYSA-N",
+    "chebi:smiles": "O=C=NCCCCCCN=C=O",
+    "geneontology:hasDbXref": [
+        "PMID:17042142",
+        "PMID:11927838",
+        "PMID:21878336",
+        "PMID:6296214",
+        "PMID:23262421",
+        "Beilstein:956709",
+        "CAS:822-06-0",
+        "Gmelin:50636",
+        "PMID:16731584",
+        "PMID:22293954",
+        "PMID:22419182",
+        "PMID:22449630",
+        "PMID:23178851",
+        "PMID:23421488",
+        "PMID:24083673",
+        "Reaxys:956709",
+        "Wikipedia:Hexamethylene_diisocyanate"
+    ],
+    "geneontology:hasId": "53578",
+    "geneontology:hasSynonym": [
+        "HDI",
+        "HMDI",
+        "1,6-diisocyanatohexane",
+        "1,6-Diisocyanatohexane",
+        "1,6-Hexamethylene diisocyanate",
+        "1,6-Hexanediol diisocyanate",
+        "1,6-Hexylene diisocyanate",
+        "Hexamethylene-1,6-diisocyanate",
+        "Hexamethylene diisocyanate",
+        "Hexane 1,6-diisocyanate"
+    ],
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#3_STAR"
+    },
+    "rdfs:label": "hexamethylene diisocyanate",
+    "rdfs:subClassOf": [
+        {
+            "@id": "obo:CHEBI_53213"
+        },
+        {
+            "@id": "b101_genid-00f1db82e1ab437c844115a94dc63e635-bn53578t11f50904"
+        },
+        {
+            "@id": "b101_genid-00f1db82e1ab437c844115a94dc63e635-bn53578t11f59174"
+        }
+    ]
+}

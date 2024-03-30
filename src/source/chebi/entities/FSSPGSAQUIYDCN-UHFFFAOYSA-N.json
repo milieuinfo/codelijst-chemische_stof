@@ -1,0 +1,27 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_82370",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "chebi:charge": "0",
+    "chebi:formula": "C3H6O3S",
+    "chebi:inchi": "InChI=1S/C3H6O3S/c4-7(5)3-1-2-6-7/h1-3H2",
+    "chebi:inchikey": "FSSPGSAQUIYDCN-UHFFFAOYSA-N",
+    "chebi:smiles": "O=S1(=O)CCCO1",
+    "geneontology:hasDbXref": [
+        "CAS:1120-71-4",
+        "KEGG:C19296"
+    ],
+    "geneontology:hasId": "82370",
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#2_STAR"
+    },
+    "rdfs:label": "1,3-Propane sultone",
+    "rdfs:subClassOf": {
+        "@id": "obo:CHEBI_38088"
+    }
+}

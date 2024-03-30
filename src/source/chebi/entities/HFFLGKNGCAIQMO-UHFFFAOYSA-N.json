@@ -1,0 +1,53 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_48814",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "obo:IAO_0000115": "An organochlorine compound that consists of  acetaldehyde where all the methyl hydrogens are replaced by chloro groups.",
+    "chebi:charge": "0",
+    "chebi:formula": "C2HCl3O",
+    "chebi:inchi": "InChI=1S/C2HCl3O/c3-2(4,5)1-6/h1H",
+    "chebi:inchikey": "HFFLGKNGCAIQMO-UHFFFAOYSA-N",
+    "chebi:smiles": "[H]C(=O)C(Cl)(Cl)Cl",
+    "geneontology:hasDbXref": [
+        "Beilstein:506422",
+        "CAS:75-87-6",
+        "DrugBank:DB02650",
+        "KEGG:C14866",
+        "Patent:CN102030623",
+        "Patent:CN102108046",
+        "PDBeChem:CLX",
+        "PMID:14975357",
+        "Reaxys:506422",
+        "Wikipedia:Chloral"
+    ],
+    "geneontology:hasId": "48814",
+    "geneontology:hasSynonym": [
+        "2,2,2-trichloroethanal",
+        "Chloral",
+        "Trichloroacetaldehyde",
+        "TRI-CHLORO-ACETALDEHYDE"
+    ],
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#3_STAR"
+    },
+    "rdfs:label": "trichloroacetaldehyde",
+    "rdfs:subClassOf": [
+        {
+            "@id": "obo:CHEBI_17478"
+        },
+        {
+            "@id": "obo:CHEBI_36683"
+        },
+        {
+            "@id": "b459_genid-00f1db82e1ab437c844115a94dc63e635-bn48814t8f15343"
+        },
+        {
+            "@id": "b459_genid-00f1db82e1ab437c844115a94dc63e635-bn48814t11f75771"
+        }
+    ]
+}

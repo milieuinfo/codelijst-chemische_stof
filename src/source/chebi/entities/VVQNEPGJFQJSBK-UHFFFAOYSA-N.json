@@ -1,0 +1,78 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_34840",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "obo:IAO_0000115": "An enoate ester having methacrylic acid as the carboxylic acid component and methanol as the alcohol component.",
+    "chebi:charge": "0",
+    "chebi:formula": "C5H8O2",
+    "chebi:inchi": "InChI=1S/C5H8O2/c1-4(2)5(6)7-3/h1H2,2-3H3",
+    "chebi:inchikey": "VVQNEPGJFQJSBK-UHFFFAOYSA-N",
+    "chebi:smiles": "COC(C(C)=C)=O",
+    "geneontology:hasDbXref": [
+        "PMID:10444249",
+        "PMID:11714252",
+        "Beilstein:605459",
+        "CAS:80-62-6",
+        "Gmelin:2691",
+        "HMDB:HMDB0032385",
+        "KEGG:C14527",
+        "PMID:16020090",
+        "PMID:22566411",
+        "PMID:23242048",
+        "PMID:23306624",
+        "PMID:23342990",
+        "PMID:23432523",
+        "PMID:23450227",
+        "PMID:23508285",
+        "PMID:23583434",
+        "PMID:23584430",
+        "PMID:23719017",
+        "PMID:9036138",
+        "Reaxys:605459",
+        "Wikipedia:Methyl_methacrylate"
+    ],
+    "geneontology:hasId": "34840",
+    "geneontology:hasSynonym": [
+        "MMA",
+        "2-(Methoxycarbonyl)-1-propene",
+        "2-Methyl-2-propenoic acid methyl ester",
+        "2-Methylacrylic acid methyl ester",
+        "Methacrylate de methyle",
+        "Methacrylic acid methyl ester",
+        "Methacrylsaeuremethyl ester",
+        "Methyl 2-methyl-2-propenoate",
+        "Methyl 2-methylacrylate",
+        "Methyl 2-methylpropenoate",
+        "Methyl alpha-methylacrylate",
+        "Methyl-methacrylat",
+        "Methylmethacrylate",
+        "Methyl methacrylate",
+        "Methyl methylacrylate"
+    ],
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#3_STAR"
+    },
+    "rdfs:label": "methyl methacrylate",
+    "rdfs:subClassOf": [
+        {
+            "@id": "obo:CHEBI_51702"
+        },
+        {
+            "@id": "obo:CHEBI_25248"
+        },
+        {
+            "@id": "b104_genid-00f1db82e1ab437c844115a94dc63e635-bn34840t8f25219"
+        },
+        {
+            "@id": "b104_genid-00f1db82e1ab437c844115a94dc63e635-bn34840t11f50904"
+        },
+        {
+            "@id": "b104_genid-00f1db82e1ab437c844115a94dc63e635-bn34840t11f74236"
+        }
+    ]
+}

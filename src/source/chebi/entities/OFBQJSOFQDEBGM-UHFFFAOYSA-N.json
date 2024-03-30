@@ -1,0 +1,53 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_37830",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "obo:IAO_0000115": "A straight chain alkane consisting of 5 carbon atoms.",
+    "chebi:charge": "0",
+    "chebi:formula": "C5H12",
+    "chebi:inchi": "InChI=1S/C5H12/c1-3-5-4-2/h3-5H2,1-2H3",
+    "chebi:inchikey": "OFBQJSOFQDEBGM-UHFFFAOYSA-N",
+    "chebi:smiles": "CCCCC",
+    "geneontology:hasDbXref": [
+        "Beilstein:969132",
+        "CAS:109-66-0",
+        "Gmelin:1766",
+        "HMDB:HMDB0029603",
+        "PDBeChem:LNK",
+        "PMID:14664856",
+        "PMID:24284369",
+        "PMID:24702114",
+        "Wikipedia:Pentane"
+    ],
+    "geneontology:hasId": "37830",
+    "geneontology:hasSynonym": [
+        "CH3-[CH2]3-CH3",
+        "n-pentane",
+        "Pentan",
+        "PENTANE",
+        "R-601"
+    ],
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#3_STAR"
+    },
+    "rdfs:label": "pentane",
+    "rdfs:subClassOf": [
+        {
+            "@id": "obo:CHEBI_18310"
+        },
+        {
+            "@id": "obo:CHEBI_134179"
+        },
+        {
+            "@id": "b75_genid-00f1db82e1ab437c844115a94dc63e635-bn37830t11f48355"
+        },
+        {
+            "@id": "b75_genid-00f1db82e1ab437c844115a94dc63e635-bn37830t11f78433"
+        }
+    ]
+}

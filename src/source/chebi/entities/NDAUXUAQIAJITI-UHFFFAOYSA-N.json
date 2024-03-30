@@ -1,0 +1,62 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_2549",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "obo:IAO_0000115": "A member of the class of phenylethanolamines that is 4-(2-amino-1-hydroxyethyl)-2-(hydroxymethyl)phenol having a tert-butyl group attached to the nirogen atom. It acts as a beta-adrenergic agonist used in the treatment of asthma and chronic obstructive pulmonary disease (COPD).",
+    "chebi:charge": "0",
+    "chebi:formula": "C13H21NO3",
+    "chebi:inchi": "InChI=1S/C13H21NO3/c1-13(2,3)14-7-12(17)9-4-5-11(16)10(6-9)8-15/h4-6,12,14-17H,7-8H2,1-3H3",
+    "chebi:inchikey": "NDAUXUAQIAJITI-UHFFFAOYSA-N",
+    "chebi:smiles": "CC(C)(C)NCC(O)c1ccc(O)c(CO)c1",
+    "geneontology:hasDbXref": [
+        "CAS:18559-94-9",
+        "Drug_Central:105",
+        "DrugBank:DB01001",
+        "HMDB:HMDB0001937",
+        "KEGG:D02147",
+        "LINCS:LSM-5178",
+        "PMID:8267204",
+        "PMID:9847435",
+        "Reaxys:2213614",
+        "Wikipedia:Albuterol"
+    ],
+    "geneontology:hasId": "2549",
+    "geneontology:hasSynonym": [
+        "4-[2-(tert-butylamino)-1-hydroxyethyl]-2-(hydroxymethyl)phenol",
+        "Albuterol",
+        "Proventil",
+        "Salbutamol"
+    ],
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#3_STAR"
+    },
+    "rdfs:label": "albuterol",
+    "rdfs:subClassOf": [
+        {
+            "@id": "obo:CHEBI_33853"
+        },
+        {
+            "@id": "obo:CHEBI_50995"
+        },
+        {
+            "@id": "obo:CHEBI_25990"
+        },
+        {
+            "@id": "b38_genid-00f1db82e1ab437c844115a94dc63e635-bn2549t11f35522"
+        },
+        {
+            "@id": "b38_genid-00f1db82e1ab437c844115a94dc63e635-bn2549t11f35523"
+        },
+        {
+            "@id": "b38_genid-00f1db82e1ab437c844115a94dc63e635-bn2549t11f35703"
+        },
+        {
+            "@id": "b38_genid-00f1db82e1ab437c844115a94dc63e635-bn2549t11f78298"
+        }
+    ]
+}

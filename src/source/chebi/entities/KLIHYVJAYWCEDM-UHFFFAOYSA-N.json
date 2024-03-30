@@ -1,0 +1,28 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_82438",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "chebi:charge": "0",
+    "chebi:formula": "C22H14",
+    "chebi:inchi": "InChI=1S/C22H14/c1-3-7-19-15(5-1)9-11-17-13-18-12-10-16-6-2-4-8-20(16)22(18)14-21(17)19/h1-14H",
+    "chebi:inchikey": "KLIHYVJAYWCEDM-UHFFFAOYSA-N",
+    "chebi:smiles": "c1ccc2c(c1)ccc1cc3ccc4ccccc4c3cc21",
+    "geneontology:hasDbXref": [
+        "CAS:224-41-9",
+        "KEGG:C19389"
+    ],
+    "geneontology:hasId": "82438",
+    "geneontology:hasSynonym": "Dibenzo-1,2,7,8-anthracene",
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#2_STAR"
+    },
+    "rdfs:label": "Dibenz[a,j]anthracene",
+    "rdfs:subClassOf": {
+        "@id": "obo:CHEBI_25961"
+    }
+}

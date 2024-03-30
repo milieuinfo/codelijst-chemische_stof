@@ -1,0 +1,80 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_28794",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "obo:IAO_0000115": "A chromenone having the keto group located at the 2-position.",
+    "chebi:charge": "0",
+    "chebi:formula": "C9H6O2",
+    "chebi:inchi": "InChI=1S/C9H6O2/c10-9-6-5-7-3-1-2-4-8(7)11-9/h1-6H",
+    "chebi:inchikey": "ZYGHJZDHTFUPRJ-UHFFFAOYSA-N",
+    "chebi:smiles": "O=C1OC2=CC=CC=C2C=C1",
+    "geneontology:hasDbXref": [
+        "PMID:28166217",
+        "Beilstein:383644",
+        "CAS:91-64-5",
+        "Drug_Central:738",
+        "DrugBank:DB04665",
+        "Gmelin:165222",
+        "HMDB:HMDB0001218",
+        "KEGG:C05851",
+        "KEGG:D07751",
+        "KNApSAcK:C00002460",
+        "LINCS:LSM-2519",
+        "MetaCyc:COUMARIN",
+        "PDBeChem:COU",
+        "PMID:16086027",
+        "PMID:16822524",
+        "PMID:17988284",
+        "PMID:19025869",
+        "PMID:20206186",
+        "PMID:21046436",
+        "PMID:21462332",
+        "PMID:21798343",
+        "PMID:8735869",
+        "Reaxys:383644",
+        "Wikipedia:Coumarin"
+    ],
+    "geneontology:hasId": "28794",
+    "geneontology:hasSynonym": [
+        "1,2-Benzopyrone",
+        "2H-1-Benzopyran-2-one",
+        "2H-benzo[b]pyran-2-one",
+        "2H-chromen-2-one",
+        "2-Propenoic acid, 3-(2-hydroxyphenyl)-, delta-lactone",
+        "2-Propenoic acid, 3-(2-hydroxyphenyl)-, d-lactone",
+        "5,6-Benzo-2-pyrone",
+        "Benzo-alpha-pyrone",
+        "Benzo-a-pyrone",
+        "cis-o-Coumarinic acid lactone",
+        "Coumarine",
+        "Coumarinic anhydride",
+        "Cumarin",
+        "o-hydroxycinnamic acid delta-lactone",
+        "o-Hydroxycinnamic acid lactone",
+        "Rattex",
+        "Tonka bean camphor"
+    ],
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#3_STAR"
+    },
+    "rdfs:label": "coumarin",
+    "rdfs:subClassOf": [
+        {
+            "@id": "obo:CHEBI_23403"
+        },
+        {
+            "@id": "b217_genid-00f1db82e1ab437c844115a94dc63e635-bn28794t11f51121"
+        },
+        {
+            "@id": "b217_genid-00f1db82e1ab437c844115a94dc63e635-bn28794t11f76924"
+        },
+        {
+            "@id": "b217_genid-00f1db82e1ab437c844115a94dc63e635-bn28794t11f77746"
+        }
+    ]
+}

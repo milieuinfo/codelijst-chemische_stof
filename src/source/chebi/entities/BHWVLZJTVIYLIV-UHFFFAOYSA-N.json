@@ -1,0 +1,39 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_81516",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "chebi:charge": "0",
+    "chebi:formula": "C12H6Cl4",
+    "chebi:inchi": "InChI=1S/C12H6Cl4/c13-9-3-1-7(2-4-9)8-5-10(14)12(16)11(15)6-8/h1-6H",
+    "chebi:inchikey": "BHWVLZJTVIYLIV-UHFFFAOYSA-N",
+    "chebi:smiles": "Clc1ccc(cc1)-c1cc(Cl)c(Cl)c(Cl)c1",
+    "geneontology:hasDbXref": [
+        "CAS:70362-50-4",
+        "KEGG:C18114"
+    ],
+    "geneontology:hasId": "81516",
+    "geneontology:hasSynonym": "PCB 81",
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#2_STAR"
+    },
+    "rdfs:label": "3,4,4',5-Tetrachlorobiphenyl",
+    "rdfs:subClassOf": [
+        {
+            "@id": "obo:CHEBI_83403"
+        },
+        {
+            "@id": "obo:CHEBI_36720"
+        },
+        {
+            "@id": "obo:CHEBI_22888"
+        },
+        {
+            "@id": "obo:CHEBI_27096"
+        }
+    ]
+}

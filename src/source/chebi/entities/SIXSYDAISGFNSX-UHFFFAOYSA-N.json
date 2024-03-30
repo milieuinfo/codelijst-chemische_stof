@@ -1,0 +1,42 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_33330",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "chebi:charge": "0",
+    "chebi:formula": "Sc",
+    "chebi:inchi": "InChI=1S/Sc",
+    "chebi:inchikey": "SIXSYDAISGFNSX-UHFFFAOYSA-N",
+    "chebi:smiles": "[Sc]",
+    "geneontology:hasDbXref": [
+        "CAS:7440-20-2",
+        "WebElements:Sc"
+    ],
+    "geneontology:hasId": "33330",
+    "geneontology:hasSynonym": [
+        "Sc",
+        "21Sc",
+        "escandio",
+        "scandium",
+        "Skandium"
+    ],
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#3_STAR"
+    },
+    "rdfs:label": "scandium atom",
+    "rdfs:subClassOf": [
+        {
+            "@id": "obo:CHEBI_33561"
+        },
+        {
+            "@id": "obo:CHEBI_33321"
+        },
+        {
+            "@id": "obo:CHEBI_33335"
+        }
+    ]
+}

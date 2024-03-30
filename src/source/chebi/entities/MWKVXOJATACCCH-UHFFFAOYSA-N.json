@@ -1,0 +1,52 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_132497",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "obo:IAO_0000115": "An isoxazoline that is the ethyl ester of isoxadifen. It is used as a herbicide safener, especially in conjunction with the herbicides fenoxaprop-P-ethyl and iodosulfuron-methyl-sodium. It is not approved for use within the European Union.",
+    "chebi:charge": "0",
+    "chebi:formula": "C18H17NO3",
+    "chebi:inchi": "InChI=1S/C18H17NO3/c1-2-21-17(20)16-13-18(22-19-16,14-9-5-3-6-10-14)15-11-7-4-8-12-15/h3-12H,2,13H2,1H3",
+    "chebi:inchikey": "MWKVXOJATACCCH-UHFFFAOYSA-N",
+    "chebi:smiles": "O1N=C(CC1(C2=CC=CC=C2)C3=CC=CC=C3)C(=O)OCC",
+    "geneontology:hasDbXref": [
+        "CAS:163520-33-0",
+        "Pesticides:derivatives/isoxadifen-ethyl",
+        "PMID:19663557",
+        "PMID:20127755",
+        "PPDB:1576",
+        "Reaxys:8913194"
+    ],
+    "geneontology:hasId": "132497",
+    "geneontology:hasSynonym": [
+        "ethyl 4,5-dihydro-5,5-diphenyl-1,2-oxazole-3-carboxylate",
+        "ethyl 4,5-dihydro-5,5-diphenyl-3-isoxazolecarboxylate",
+        "ethyl 5,5-diphenyl-4,5-dihydro-1,2-oxazole-3-carboxylate",
+        "isoxadifen ethyl"
+    ],
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#3_STAR"
+    },
+    "rdfs:label": "isoxadifen-ethyl",
+    "rdfs:subClassOf": [
+        {
+            "@id": "obo:CHEBI_23990"
+        },
+        {
+            "@id": "obo:CHEBI_87553"
+        },
+        {
+            "@id": "b5_genid-00f1db82e1ab437c844115a94dc63e635-bn132497t11f33286"
+        },
+        {
+            "@id": "b5_genid-00f1db82e1ab437c844115a94dc63e635-bn132497t11f132272"
+        },
+        {
+            "@id": "b5_genid-00f1db82e1ab437c844115a94dc63e635-bn132497t8f132496"
+        }
+    ]
+}

@@ -1,0 +1,57 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_29103",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "obo:IAO_0000115": "A monoatomic monocation obtained from potassium.",
+    "chebi:charge": "+1",
+    "chebi:formula": "K",
+    "chebi:inchi": "InChI=1S/K/q+1",
+    "chebi:inchikey": "NPYPAHLBTDXSSS-UHFFFAOYSA-N",
+    "chebi:smiles": "[K+]",
+    "http://purl.uniprot.org/core/name": "K(+)",
+    "geneontology:hasDbXref": [
+        "KEGG:C00238",
+        "CAS:24203-36-9",
+        "Gmelin:15203",
+        "KEGG:D08403",
+        "PDBeChem:K"
+    ],
+    "geneontology:hasId": "29103",
+    "geneontology:hasSynonym": [
+        "K(+)",
+        "K+",
+        "potassium(1+) ion",
+        "potassium(I) cation",
+        "potassium cation",
+        "POTASSIUM ION"
+    ],
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#3_STAR"
+    },
+    "rdfs:label": "potassium(1+)",
+    "rdfs:subClassOf": [
+        {
+            "@id": "obo:CHEBI_25414"
+        },
+        {
+            "@id": "obo:CHEBI_60242"
+        },
+        {
+            "@id": "obo:CHEBI_33504"
+        },
+        {
+            "@id": "b108_genid-00f1db82e1ab437c844115a94dc63e635-bn29103t11f23357"
+        },
+        {
+            "@id": "obo:CHEBI_37247"
+        },
+        {
+            "@id": "b108_genid-00f1db82e1ab437c844115a94dc63e635-bn29103t11f77746"
+        }
+    ]
+}

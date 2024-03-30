@@ -1,0 +1,52 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_39393",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "obo:IAO_0000115": "An organosilicon compound that is dimethylsilane in which one of the hydrogens attached to the silicon is replaced by a 4-ethoxyphenyl group, while the other is replaced by a 3-(4-fluoro-3-phenoxyphenyl)propyl group. It is an insecticide used to control soil-borne insects.",
+    "chebi:charge": "0",
+    "chebi:formula": "C25H29FO2Si",
+    "chebi:inchi": "InChI=1S/C25H29FO2Si/c1-4-27-21-13-15-23(16-14-21)29(2,3)18-8-9-20-12-17-24(26)25(19-20)28-22-10-6-5-7-11-22/h5-7,10-17,19H,4,8-9,18H2,1-3H3",
+    "chebi:inchikey": "HPYNBECUCCGGPA-UHFFFAOYSA-N",
+    "chebi:smiles": "CCOc1ccc(cc1)[Si](C)(C)CCCc1ccc(F)c(Oc2ccccc2)c1",
+    "geneontology:hasDbXref": [
+        "AGR:IND43666813",
+        "AGR:IND43670552",
+        "CAS:105024-66-6",
+        "KEGG:C18412",
+        "Patent:CN101356924",
+        "Patent:CN101606531",
+        "Pesticides:silafluofen",
+        "PMID:12749190",
+        "PPDB:2555",
+        "Reaxys:11330565",
+        "Wikipedia:Silafluofen"
+    ],
+    "geneontology:hasId": "39393",
+    "geneontology:hasSynonym": "(4-ethoxyphenyl)[3-(4-fluoro-3-phenoxyphenyl)propyl]dimethylsilane",
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#3_STAR"
+    },
+    "rdfs:label": "silafluofen",
+    "rdfs:subClassOf": [
+        {
+            "@id": "obo:CHEBI_35618"
+        },
+        {
+            "@id": "obo:CHEBI_37143"
+        },
+        {
+            "@id": "obo:CHEBI_25713"
+        },
+        {
+            "@id": "b519_genid-00f1db82e1ab437c844115a94dc63e635-bn39393t11f39351"
+        },
+        {
+            "@id": "b519_genid-00f1db82e1ab437c844115a94dc63e635-bn39393t8f39394"
+        }
+    ]
+}

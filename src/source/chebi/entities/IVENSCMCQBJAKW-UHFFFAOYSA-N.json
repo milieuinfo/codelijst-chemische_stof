@@ -1,0 +1,57 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_27399",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "obo:IAO_0000115": "A diamino-1,3,5-triazine that is N-ethyl-1,3,5-triazine-2,4-diamine substituted by a chloro group at position 6.",
+    "chebi:charge": "0",
+    "chebi:formula": "C5H8ClN5",
+    "chebi:inchi": "InChI=1S/C5H8ClN5/c1-2-8-5-10-3(6)9-4(7)11-5/h2H2,1H3,(H3,7,8,9,10,11)",
+    "chebi:inchikey": "IVENSCMCQBJAKW-UHFFFAOYSA-N",
+    "chebi:smiles": "CCNc1nc(N)nc(Cl)n1",
+    "geneontology:hasDbXref": [
+        "Beilstein:8150",
+        "CAS:1007-28-9",
+        "KEGG:C06556",
+        "MetaCyc:CPD-805",
+        "PMID:14759146",
+        "PMID:9920461",
+        "Reaxys:8150",
+        "UM-BBD_compID:c0166"
+    ],
+    "geneontology:hasId": "27399",
+    "geneontology:hasSynonym": [
+        "2-amino-4-chloro-6-(ethylamino)-s-triazine",
+        "2-amino-4-chloro-6-ethylamino-s-triazine",
+        "2-chloro-4-amino-6-ethylamino-s-triazine",
+        "6-chloro-N-ethyl-1,3,5-triazine-2,4-diamine",
+        "6-deisopropylatrazine",
+        "amino-2-chloro-6-ethylamino-s-triazine",
+        "Deisopropylatrazine"
+    ],
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#3_STAR"
+    },
+    "rdfs:label": "deisopropylatrazine",
+    "rdfs:subClassOf": [
+        {
+            "@id": "obo:CHEBI_38168"
+        },
+        {
+            "@id": "obo:CHEBI_38170"
+        },
+        {
+            "@id": "b35_genid-00f1db82e1ab437c844115a94dc63e635-bn27399t8f27726"
+        },
+        {
+            "@id": "b35_genid-00f1db82e1ab437c844115a94dc63e635-bn27399t11f76976"
+        },
+        {
+            "@id": "b35_genid-00f1db82e1ab437c844115a94dc63e635-bn27399t11f83399"
+        }
+    ]
+}

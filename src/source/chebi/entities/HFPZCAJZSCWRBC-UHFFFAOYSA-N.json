@@ -1,0 +1,79 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_28768",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "obo:IAO_0000115": "A monoterpene that is toluene substituted by an isopropyl group at position 4.",
+    "chebi:charge": "0",
+    "chebi:formula": "C10H14",
+    "chebi:inchi": "InChI=1S/C10H14/c1-8(2)10-6-4-9(3)5-7-10/h4-8H,1-3H3",
+    "chebi:inchikey": "HFPZCAJZSCWRBC-UHFFFAOYSA-N",
+    "chebi:smiles": "CC(C)c1ccc(C)cc1",
+    "http://purl.uniprot.org/core/name": "p-cymene",
+    "geneontology:hasDbXref": [
+        "PMID:24023812",
+        "PMID:24421258",
+        "PMID:11341314",
+        "Beilstein:1903377",
+        "BPDB:2018",
+        "CAS:99-87-6",
+        "Gmelin:305912",
+        "HMDB:HMDB0005805",
+        "KEGG:C06575",
+        "KNApSAcK:C00003040",
+        "LIPID_MAPS_instance:LMPR0102090014",
+        "MetaCyc:CPD-1001",
+        "PMID:15508832",
+        "PMID:17826989",
+        "PMID:19040104",
+        "Reaxys:1903377",
+        "UM-BBD_compID:c0375",
+        "Wikipedia:P-cymene"
+    ],
+    "geneontology:hasId": "28768",
+    "geneontology:hasSynonym": [
+        "1-isopropyl-4-methylbenzene",
+        "1-methyl-4-(1-methylethyl)benzene",
+        "1-methyl-4-(propan-2-yl)benzene",
+        "1-methyl-4-isopropylbenzene",
+        "4-cymene",
+        "4-Isopropyl-1-methylbenzene",
+        "4-Isopropyltoluene",
+        "4-methyl-1-(propan-2-yl)benzene",
+        "4-Methyl-1-isopropylbenzene",
+        "Cymene",
+        "Isopropyltoluene",
+        "Para-cymene",
+        "p-cimene",
+        "p-Cymene",
+        "p-cymol",
+        "p-isopropyltoluene",
+        "p-methylcumene",
+        "p-methylisopropylbenzene"
+    ],
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#3_STAR"
+    },
+    "rdfs:label": "p-cymene",
+    "rdfs:subClassOf": [
+        {
+            "@id": "obo:CHEBI_35187"
+        },
+        {
+            "@id": "obo:CHEBI_27024"
+        },
+        {
+            "@id": "b461_genid-00f1db82e1ab437c844115a94dc63e635-bn28768t11f27311"
+        },
+        {
+            "@id": "b461_genid-00f1db82e1ab437c844115a94dc63e635-bn28768t11f76924"
+        },
+        {
+            "@id": "b461_genid-00f1db82e1ab437c844115a94dc63e635-bn28768t11f84087"
+        }
+    ]
+}

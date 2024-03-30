@@ -1,0 +1,70 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_28885",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "obo:IAO_0000115": "A primary alcohol that is butane in which a hydrogen of one of the methyl groups is substituted by a hydroxy group. It it produced in small amounts in humans by the gut microbes.",
+    "chebi:charge": "0",
+    "chebi:formula": "C4H10O",
+    "chebi:inchi": "InChI=1S/C4H10O/c1-2-3-4-5/h5H,2-4H2,1H3",
+    "chebi:inchikey": "LRHPLDYGYMQRHN-UHFFFAOYSA-N",
+    "chebi:smiles": "CCCCO",
+    "http://purl.uniprot.org/core/name": "butan-1-ol",
+    "geneontology:hasDbXref": [
+        "Beilstein:969148",
+        "CAS:71-36-3",
+        "DrugBank:DB02145",
+        "Gmelin:25753",
+        "HMDB:HMDB0004327",
+        "KEGG:C06142",
+        "KEGG:D03200",
+        "MetaCyc:BUTANOL",
+        "PDBeChem:1BO",
+        "PMID:23980702",
+        "PMID:7096503",
+        "PPDB:1309",
+        "Reaxys:969148",
+        "Wikipedia:N-Butanol"
+    ],
+    "geneontology:hasId": "28885",
+    "geneontology:hasSynonym": [
+        "1-Butanol",
+        "1-BUTANOL",
+        "1-butyl alcohol",
+        "1-hydroxybutane",
+        "BuOH",
+        "n-butan-1-ol",
+        "n-Butanol",
+        "n-butyl alcohol",
+        "n-Butylalkohol",
+        "propyl carbinol"
+    ],
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#3_STAR"
+    },
+    "rdfs:label": "butan-1-ol",
+    "rdfs:subClassOf": [
+        {
+            "@id": "obo:CHEBI_15734"
+        },
+        {
+            "@id": "obo:CHEBI_50584"
+        },
+        {
+            "@id": "obo:CHEBI_157770"
+        },
+        {
+            "@id": "b443_genid-00f1db82e1ab437c844115a94dc63e635-bn28885t11f48356"
+        },
+        {
+            "@id": "b443_genid-00f1db82e1ab437c844115a94dc63e635-bn28885t11f75771"
+        },
+        {
+            "@id": "b443_genid-00f1db82e1ab437c844115a94dc63e635-bn28885t11f77746"
+        }
+    ]
+}

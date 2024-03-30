@@ -1,0 +1,61 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_38945",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "chebi:charge": "0",
+    "chebi:formula": "C8H20O5P2S2",
+    "chebi:inchi": "InChI=1S/C8H20O5P2S2/c1-5-9-14(16,10-6-2)13-15(17,11-7-3)12-8-4/h5-8H2,1-4H3",
+    "chebi:inchikey": "XIUROWKZWPIAIB-UHFFFAOYSA-N",
+    "chebi:smiles": "CCOP(=S)(OCC)OP(=S)(OCC)OCC",
+    "geneontology:hasDbXref": [
+        "Beilstein:1714019",
+        "CAS:3689-24-5",
+        "KEGG:C18691",
+        "PPDB:604"
+    ],
+    "geneontology:hasId": "38945",
+    "geneontology:hasSynonym": [
+        "Bis(O,O-diethylphosphorothionic) anhydride",
+        "Dithion",
+        "Dithiophos",
+        "O,O,O,O-tetraethyl dithiodiphosphate",
+        "O,O,O,O-Tetraethyl dithiopyrophosphate",
+        "Sulfotepp",
+        "TEDP",
+        "TEDTP",
+        "Tetraethyl dithiopyrophosphate",
+        "Thiodiphosphoric acid, tetraethyl ester"
+    ],
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#3_STAR"
+    },
+    "rdfs:label": "sulfotep",
+    "rdfs:subClassOf": [
+        {
+            "@id": "obo:CHEBI_37512"
+        },
+        {
+            "@id": "obo:CHEBI_25715"
+        },
+        {
+            "@id": "b292_genid-00f1db82e1ab437c844115a94dc63e635-bn38945t11f22153"
+        },
+        {
+            "@id": "b292_genid-00f1db82e1ab437c844115a94dc63e635-bn38945t11f33286"
+        },
+        {
+            "@id": "b292_genid-00f1db82e1ab437c844115a94dc63e635-bn38945t11f37733"
+        },
+        {
+            "@id": "b292_genid-00f1db82e1ab437c844115a94dc63e635-bn38945t11f38462"
+        },
+        {
+            "@id": "b292_genid-00f1db82e1ab437c844115a94dc63e635-bn38945t8f38947"
+        }
+    ]
+}

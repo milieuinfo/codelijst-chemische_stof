@@ -1,0 +1,53 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_39248",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "obo:IAO_0000115": "A long-chain fatty acid that is henicosane in which one of the methyl groups has been oxidised to give the corresponding carboxylic acid.",
+    "chebi:charge": "0",
+    "chebi:formula": "C21H42O2",
+    "chebi:inchi": "InChI=1S/C21H42O2/c1-2-3-4-5-6-7-8-9-10-11-12-13-14-15-16-17-18-19-20-21(22)23/h2-20H2,1H3,(H,22,23)",
+    "chebi:inchikey": "CKDDRHZIAZRDBW-UHFFFAOYSA-N",
+    "chebi:smiles": "CCCCCCCCCCCCCCCCCCCCC(O)=O",
+    "geneontology:hasDbXref": [
+        "PMID:16332663",
+        "Beilstein:1711889",
+        "CAS:2363-71-5",
+        "LIPID_MAPS_instance:LMFA01010021",
+        "PMID:9965255",
+        "Reaxys:1711889"
+    ],
+    "geneontology:hasId": "39248",
+    "geneontology:hasSynonym": [
+        "Heneicosansaeure",
+        "21:0",
+        "C21:0",
+        "heneicosanoic acid",
+        "heneicosylic acid",
+        "n-heneicosanoic acid",
+        "n-heneicosylic acid",
+        "n-henicosanoic acid"
+    ],
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#3_STAR"
+    },
+    "rdfs:label": "henicosanoic acid",
+    "rdfs:subClassOf": [
+        {
+            "@id": "obo:CHEBI_15904"
+        },
+        {
+            "@id": "obo:CHEBI_39418"
+        },
+        {
+            "@id": "b322_genid-00f1db82e1ab437c844115a94dc63e635-bn39248tmms73f78797"
+        },
+        {
+            "@id": "b322_genid-00f1db82e1ab437c844115a94dc63e635-bn39248t4f78797"
+        }
+    ]
+}

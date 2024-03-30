@@ -1,0 +1,57 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_25219",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "obo:IAO_0000115": "An alpha,beta-unsaturated monocarboxylic acid that is acrylic acid in which the hydrogen at position 2 is substituted by a methyl group.",
+    "chebi:charge": "0",
+    "chebi:formula": "C4H6O2",
+    "chebi:inchi": "InChI=1S/C4H6O2/c1-3(2)4(5)6/h1H2,2H3,(H,5,6)",
+    "chebi:inchikey": "CERQOIWHTDAKMF-UHFFFAOYSA-N",
+    "chebi:smiles": "CC(=C)C(O)=O",
+    "geneontology:hasDbXref": [
+        "Beilstein:1719937",
+        "CAS:79-41-4",
+        "Gmelin:49631",
+        "PMID:24227222",
+        "PMID:24398912",
+        "Reaxys:1719937",
+        "Wikipedia:Methacrylic_acid"
+    ],
+    "geneontology:hasId": "25219",
+    "geneontology:hasSynonym": [
+        "2-methyl-2-propenoic acid",
+        "2-methylacrylic acid",
+        "2-methylenepropionic acid",
+        "2-methylprop-2-enoic acid",
+        "2-methylpropenoic acid",
+        "2-Methylpropensaeure",
+        "alpha-methacrylic acid",
+        "alpha-methylacrylic acid",
+        "Methacrylsaeure",
+        "Methakrylsaeure",
+        "methylacrylic acid"
+    ],
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#3_STAR"
+    },
+    "rdfs:label": "methacrylic acid",
+    "rdfs:subClassOf": [
+        {
+            "@id": "obo:CHEBI_79020"
+        },
+        {
+            "@id": "b293_genid-00f1db82e1ab437c844115a94dc63e635-bn25219tmms73f25218"
+        },
+        {
+            "@id": "b293_genid-00f1db82e1ab437c844115a94dc63e635-bn25219t8f18308"
+        },
+        {
+            "@id": "b293_genid-00f1db82e1ab437c844115a94dc63e635-bn25219t4f25218"
+        }
+    ]
+}

@@ -1,0 +1,69 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_3745",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "obo:IAO_0000115": "A carbohydrate-containing antibiotic that is the  semisynthetic derivative of lincomycin, a natural antibiotic.",
+    "chebi:charge": "0",
+    "chebi:formula": "C18H33ClN2O5S",
+    "chebi:inchi": "InChI=1S/C18H33ClN2O5S/c1-5-6-10-7-11(21(3)8-10)17(25)20-12(9(2)19)16-14(23)13(22)15(24)18(26-16)27-4/h9-16,18,22-24H,5-8H2,1-4H3,(H,20,25)/t9?,10-,11+,12?,13+,14-,15-,16-,18-/m1/s1",
+    "chebi:inchikey": "KDLRVYVGXIQJDK-NOWPCOIGSA-N",
+    "chebi:smiles": "CCC[C@@H]1C[C@H](N(C)C1)C(=O)NC(C(C)Cl)[C@H]1O[C@H](SC)[C@H](O)[C@@H](O)[C@H]1O",
+    "geneontology:hasDbXref": [
+        "CAS:18323-44-9",
+        "DrugBank:DB01190",
+        "HMDB:HMDB0015321",
+        "KEGG:C06914",
+        "KEGG:C13684",
+        "KEGG:D00277",
+        "KEGG:D02132",
+        "PMID:11691576",
+        "PMID:18695329",
+        "PMID:24310902",
+        "Reaxys:5624049",
+        "Wikipedia:Clindamycin"
+    ],
+    "geneontology:hasId": "3745",
+    "geneontology:hasSynonym": [
+        "7(S)-Chloro-7-deoxylincomycin",
+        "7-CDL",
+        "Cleocin (TN)",
+        "Clindamycin",
+        "methyl 7-chloro-6,7,8-trideoxy-6-({[(2S,4R)-1-methyl-4-propylpyrrolidin-2-yl]carbonyl}amino)-1-thio-D-glycero-alpha-D-galacto-octopyranoside",
+        "Methyl 7-chloro-6,7,8-trideoxy-6-(1-methyl-trans-4-propyl-L-2-pyrrolidinecarboxamido)-1-thio-L-threo-alpha-D-galacto-octopyranoside"
+    ],
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#3_STAR"
+    },
+    "rdfs:label": "clindamycin",
+    "rdfs:subClassOf": [
+        {
+            "@id": "obo:CHEBI_36683"
+        },
+        {
+            "@id": "obo:CHEBI_35275"
+        },
+        {
+            "@id": "obo:CHEBI_72588"
+        },
+        {
+            "@id": "b226_genid-00f1db82e1ab437c844115a94dc63e635-bn3745t8f6472"
+        },
+        {
+            "@id": "obo:CHEBI_23007"
+        },
+        {
+            "@id": "b226_genid-00f1db82e1ab437c844115a94dc63e635-bn3745t11f35703"
+        },
+        {
+            "@id": "obo:CHEBI_46770"
+        },
+        {
+            "@id": "b226_genid-00f1db82e1ab437c844115a94dc63e635-bn3745t11f78298"
+        }
+    ]
+}

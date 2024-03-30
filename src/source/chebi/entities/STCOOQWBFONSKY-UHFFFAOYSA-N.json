@@ -1,0 +1,43 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_35019",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "obo:IAO_0000115": "A trialkyl phosphate that is the tributyl ester of phosphoric acid.",
+    "chebi:charge": "0",
+    "chebi:formula": "C12H27O4P",
+    "chebi:inchi": "InChI=1S/C12H27O4P/c1-4-7-10-14-17(13,15-11-8-5-2)16-12-9-6-3/h4-12H2,1-3H3",
+    "chebi:inchikey": "STCOOQWBFONSKY-UHFFFAOYSA-N",
+    "chebi:smiles": "CCCCOP(=O)(OCCCC)OCCCC",
+    "geneontology:hasDbXref": [
+        "Beilstein:1710584",
+        "CAS:126-73-8",
+        "KEGG:C14439",
+        "PMID:23644771",
+        "PMID:23963271",
+        "Wikipedia:Tributyl_phosphate"
+    ],
+    "geneontology:hasId": "35019",
+    "geneontology:hasSynonym": [
+        "Butyl phosphate",
+        "Phosphoric acid, tributyl ester",
+        "Phosphoric acid tri-n-butyl ester",
+        "TBP",
+        "Tributyle (phosphate de)",
+        "Tributylphosphat",
+        "Tributylphosphate",
+        "Tributyl phosphate",
+        "Tri-n-butyl phosphate"
+    ],
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#3_STAR"
+    },
+    "rdfs:label": "tributyl phosphate",
+    "rdfs:subClassOf": {
+        "@id": "obo:CHEBI_37562"
+    }
+}

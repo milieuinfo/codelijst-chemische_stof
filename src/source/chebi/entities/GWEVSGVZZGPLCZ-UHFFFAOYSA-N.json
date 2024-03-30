@@ -1,0 +1,55 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_32234",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "obo:IAO_0000115": "A titanium oxide with the formula TiO2.  A naturally occurring oxide sourced from ilmenite, rutile and anatase, it has a wide range of applications.",
+    "chebi:charge": "0",
+    "chebi:formula": "O2Ti",
+    "chebi:inchi": "InChI=1S/2O.Ti",
+    "chebi:inchikey": "GWEVSGVZZGPLCZ-UHFFFAOYSA-N",
+    "chebi:smiles": "O=[Ti]=O",
+    "geneontology:hasDbXref": [
+        "PMID:29079364",
+        "CAS:13463-67-7",
+        "Drug_Central:4237",
+        "Gmelin:833511",
+        "Gmelin:9354",
+        "KEGG:C13409",
+        "KEGG:D01931",
+        "MolBase:272",
+        "PPDB:1311",
+        "Wikipedia:Titanium_Dioxide"
+    ],
+    "geneontology:hasId": "32234",
+    "geneontology:hasSynonym": [
+        "[TiO2]",
+        "bis(oxido)titanium",
+        "dioxido de titanio",
+        "dioxyde de titane",
+        "E 171",
+        "oxido de titanio(IV)",
+        "TiO2",
+        "Titandioxid",
+        "titania",
+        "titanium(IV) oxide",
+        "Titanium dioxide",
+        "Titanium oxide"
+    ],
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#3_STAR"
+    },
+    "rdfs:label": "titanium dioxide",
+    "rdfs:subClassOf": [
+        {
+            "@id": "b389_genid-00f1db82e1ab437c844115a94dc63e635-bn32234t11f77182"
+        },
+        {
+            "@id": "obo:CHEBI_134438"
+        }
+    ]
+}

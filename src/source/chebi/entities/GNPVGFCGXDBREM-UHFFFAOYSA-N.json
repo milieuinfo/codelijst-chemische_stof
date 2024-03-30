@@ -1,0 +1,41 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_30441",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "chebi:charge": "0",
+    "chebi:formula": "Ge",
+    "chebi:inchi": "InChI=1S/Ge",
+    "chebi:inchikey": "GNPVGFCGXDBREM-UHFFFAOYSA-N",
+    "chebi:smiles": "[Ge]",
+    "geneontology:hasDbXref": [
+        "CAS:7440-56-4",
+        "WebElements:Ge"
+    ],
+    "geneontology:hasId": "30441",
+    "geneontology:hasSynonym": [
+        "Ge",
+        "32Ge",
+        "germanio",
+        "germanium"
+    ],
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#3_STAR"
+    },
+    "rdfs:label": "germanium atom",
+    "rdfs:subClassOf": [
+        {
+            "@id": "obo:CHEBI_137980"
+        },
+        {
+            "@id": "obo:CHEBI_25585"
+        },
+        {
+            "@id": "obo:CHEBI_33306"
+        }
+    ]
+}

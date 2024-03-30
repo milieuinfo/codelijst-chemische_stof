@@ -1,0 +1,37 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_18855",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "obo:IAO_0000115": "A  tetrachlorobenzene carrying chloro groups at positions 1, 2 , 3 and 4.",
+    "chebi:charge": "0",
+    "chebi:formula": "C6H2Cl4",
+    "chebi:inchi": "InChI=1S/C6H2Cl4/c7-3-1-2-4(8)6(10)5(3)9/h1-2H",
+    "chebi:inchikey": "GBDZXPJXOMHESU-UHFFFAOYSA-N",
+    "chebi:smiles": "Clc1ccc(Cl)c(Cl)c1Cl",
+    "geneontology:hasDbXref": [
+        "Beilstein:1910025",
+        "CAS:634-66-2",
+        "Gmelin:3772",
+        "KEGG:C18236",
+        "PMID:23780226",
+        "Reaxys:1910025",
+        "UM-BBD_compID:c0734"
+    ],
+    "geneontology:hasId": "18855",
+    "geneontology:hasSynonym": [
+        "1,2,3,4-benzene tetrachloride",
+        "1,2,3,4-Tetrachlorbenzol"
+    ],
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#3_STAR"
+    },
+    "rdfs:label": "1,2,3,4-tetrachlorobenzene",
+    "rdfs:subClassOf": {
+        "@id": "obo:CHEBI_26888"
+    }
+}

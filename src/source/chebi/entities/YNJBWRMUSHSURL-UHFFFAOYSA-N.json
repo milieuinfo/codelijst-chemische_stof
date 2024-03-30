@@ -1,0 +1,77 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_30956",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "obo:IAO_0000115": "A monocarboxylic acid that is acetic acid in which all three methyl hydrogens are substituted by chlorine.",
+    "chebi:charge": "0",
+    "chebi:formula": "C2HCl3O2",
+    "chebi:inchi": "InChI=1S/C2HCl3O2/c3-2(4,5)1(6)7/h(H,6,7)",
+    "chebi:inchikey": "YNJBWRMUSHSURL-UHFFFAOYSA-N",
+    "chebi:smiles": "OC(=O)C(Cl)(Cl)Cl",
+    "geneontology:hasDbXref": [
+        "MetaCyc:CPD-9675",
+        "Beilstein:970119",
+        "CAS:76-03-9",
+        "Drug_Central:3627",
+        "Gmelin:2842",
+        "KEGG:C11150",
+        "KEGG:D08633",
+        "PMID:12573897",
+        "PMID:16298895",
+        "PMID:16815816",
+        "PMID:16901594",
+        "PMID:21269351",
+        "PMID:21332915",
+        "PMID:21457391",
+        "PMID:21497335",
+        "PMID:21523508",
+        "PMID:21529453",
+        "PMID:21549800",
+        "PMID:21716542",
+        "Reaxys:970119",
+        "Wikipedia:Trichloroacetic_Acid"
+    ],
+    "geneontology:hasId": "30956",
+    "geneontology:hasSynonym": [
+        "TCA",
+        "trichloracetic acid",
+        "Trichloressigsaeure",
+        "Trichloroacetic acid",
+        "trichloroethanoic acid"
+    ],
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#3_STAR"
+    },
+    "rdfs:label": "trichloroacetic acid",
+    "rdfs:subClassOf": [
+        {
+            "@id": "obo:CHEBI_25384"
+        },
+        {
+            "@id": "obo:CHEBI_36683"
+        },
+        {
+            "@id": "b396_genid-00f1db82e1ab437c844115a94dc63e635-bn30956tmms73f27455"
+        },
+        {
+            "@id": "b396_genid-00f1db82e1ab437c844115a94dc63e635-bn30956t8f15366"
+        },
+        {
+            "@id": "b396_genid-00f1db82e1ab437c844115a94dc63e635-bn30956t11f25212"
+        },
+        {
+            "@id": "b396_genid-00f1db82e1ab437c844115a94dc63e635-bn30956t4f27455"
+        },
+        {
+            "@id": "b396_genid-00f1db82e1ab437c844115a94dc63e635-bn30956t11f50903"
+        },
+        {
+            "@id": "b396_genid-00f1db82e1ab437c844115a94dc63e635-bn30956t11f75771"
+        }
+    ]
+}

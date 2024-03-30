@@ -1,0 +1,62 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_17514",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "obo:IAO_0000115": "A pseudohalide anion that is the conjugate base of hydrogen cyanide.",
+    "chebi:charge": "-1",
+    "chebi:formula": "CN",
+    "chebi:inchi": "InChI=1S/CN/c1-2/q-1",
+    "chebi:inchikey": "XFXPMWWXUTWYJX-UHFFFAOYSA-N",
+    "chebi:smiles": "[C-]#N",
+    "geneontology:hasDbXref": [
+        "Beilstein:1900509",
+        "CAS:57-12-5",
+        "Gmelin:89",
+        "HMDB:HMDB0002084",
+        "KEGG:C00177",
+        "MetaCyc:CPD-13584",
+        "PDBeChem:CYN",
+        "PMID:11386635",
+        "PMID:14871577",
+        "PMID:17554165",
+        "PMID:7839575",
+        "Reaxys:1900509",
+        "Wikipedia:Cyanide"
+    ],
+    "geneontology:hasId": "17514",
+    "geneontology:hasSynonym": [
+        "CN-",
+        "CN(-)",
+        "Cyanide",
+        "CYANIDE ION",
+        "nitridocarbonate(1-)",
+        "Prussiate",
+        "Zyanid"
+    ],
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#3_STAR"
+    },
+    "rdfs:label": "cyanide",
+    "rdfs:subClassOf": [
+        {
+            "@id": "b300_genid-00f1db82e1ab437c844115a94dc63e635-bn17514tmms73f18407"
+        },
+        {
+            "@id": "b300_genid-00f1db82e1ab437c844115a94dc63e635-bn17514t5f18407"
+        },
+        {
+            "@id": "obo:CHEBI_36828"
+        },
+        {
+            "@id": "b300_genid-00f1db82e1ab437c844115a94dc63e635-bn17514t5f36856"
+        },
+        {
+            "@id": "b300_genid-00f1db82e1ab437c844115a94dc63e635-bn17514t11f38500"
+        }
+    ]
+}

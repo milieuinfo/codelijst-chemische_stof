@@ -1,0 +1,33 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_17034",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "chebi:charge": "0",
+    "chebi:formula": "C18H36O",
+    "chebi:inchi": "InChI=1S/C18H36O/c1-2-3-4-5-6-7-8-9-10-11-12-13-14-15-16-17-18-19/h18H,2-17H2,1H3",
+    "chebi:inchikey": "FWWQKRXKHIRPJY-UHFFFAOYSA-N",
+    "chebi:smiles": "CCCCCCCCCCCCCCCCCC=O",
+    "http://purl.uniprot.org/core/name": "octadecanal",
+    "geneontology:hasDbXref": [
+        "CAS:638-66-4",
+        "KEGG:C01838",
+        "LIPID_MAPS_instance:LMFA06000098"
+    ],
+    "geneontology:hasId": "17034",
+    "geneontology:hasSynonym": [
+        "Octadecanal",
+        "stearaldehyde"
+    ],
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#3_STAR"
+    },
+    "rdfs:label": "octadecanal",
+    "rdfs:subClassOf": {
+        "@id": "obo:CHEBI_73359"
+    }
+}

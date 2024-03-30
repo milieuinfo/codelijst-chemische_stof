@@ -1,0 +1,72 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_33070",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "obo:IAO_0000115": "A indol-3-yl carboxylic acid that is butanoic acid carrying a 1H-indol-3-yl substituent at position 1.",
+    "chebi:charge": "0",
+    "chebi:formula": "C12H13NO2",
+    "chebi:inchi": "InChI=1S/C12H13NO2/c14-12(15)7-3-4-9-8-13-11-6-2-1-5-10(9)11/h1-2,5-6,8,13H,3-4,7H2,(H,14,15)",
+    "chebi:inchikey": "JTEDVYBZBROSJT-UHFFFAOYSA-N",
+    "chebi:smiles": "OC(=O)CCCc1c[nH]c2ccccc12",
+    "geneontology:hasDbXref": [
+        "Beilstein:171120",
+        "BPDB:1465",
+        "CAS:133-32-4",
+        "DrugBank:DB02740",
+        "Gmelin:143637",
+        "HMDB:HMDB0002096",
+        "KEGG:C11284",
+        "KNApSAcK:C00000116",
+        "PDBeChem:3IB",
+        "PMID:23201417",
+        "PMID:23795714",
+        "Reaxys:171120",
+        "Wikipedia:Indole-3-butyric_acid"
+    ],
+    "geneontology:hasId": "33070",
+    "geneontology:hasSynonym": [
+        "IBA",
+        "1H-indole-3-butanoic acid",
+        "3-INDOLEBUTYRIC ACID",
+        "3-indolyl-gamma-butyric acid",
+        "4-(1H-indol-3-yl)butanoic acid",
+        "4-(indol-3-yl)butyric acid",
+        "4-indol-3-ylbutyric acid",
+        "indole-3-butanoic acid",
+        "Indole-3-butyric acid",
+        "Indolebutyric acid",
+        "Seradix"
+    ],
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#3_STAR"
+    },
+    "rdfs:label": "indole-3-butyric acid",
+    "rdfs:subClassOf": [
+        {
+            "@id": "obo:CHEBI_24810"
+        },
+        {
+            "@id": "b174_genid-00f1db82e1ab437c844115a94dc63e635-bn33070tmms73f143274"
+        },
+        {
+            "@id": "b174_genid-00f1db82e1ab437c844115a94dc63e635-bn33070t11f22676"
+        },
+        {
+            "@id": "b174_genid-00f1db82e1ab437c844115a94dc63e635-bn33070t8f30772"
+        },
+        {
+            "@id": "b174_genid-00f1db82e1ab437c844115a94dc63e635-bn33070t11f37848"
+        },
+        {
+            "@id": "b174_genid-00f1db82e1ab437c844115a94dc63e635-bn33070t11f76924"
+        },
+        {
+            "@id": "b174_genid-00f1db82e1ab437c844115a94dc63e635-bn33070t4f143274"
+        }
+    ]
+}

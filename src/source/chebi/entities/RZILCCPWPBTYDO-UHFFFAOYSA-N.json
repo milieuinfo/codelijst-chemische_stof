@@ -1,0 +1,97 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_82012",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "obo:IAO_0000115": "A member of the class of 3-(3,4-substituted-phenyl)-1,1-dimethylureas that is urea in which one of the nitrogens is substituted by a 3-(trifluoromethyl)phenyl group while the other is substituted by two methyl groups. It is a herbicide used for the control of broadleaf weeds and annual grasses in cotton.",
+    "chebi:charge": "0",
+    "chebi:formula": "C10H11F3N2O",
+    "chebi:inchi": "InChI=1S/C10H11F3N2O/c1-15(2)9(16)14-8-5-3-4-7(6-8)10(11,12)13/h3-6H,1-2H3,(H,14,16)",
+    "chebi:inchikey": "RZILCCPWPBTYDO-UHFFFAOYSA-N",
+    "chebi:smiles": "CN(C)C(=O)NC1=CC=CC(=C1)C(F)(F)F",
+    "http://purl.uniprot.org/core/name": "fluometuron",
+    "geneontology:hasDbXref": [
+        "AGR:IND21963329",
+        "AGR:IND23242470",
+        "AGR:IND23259860",
+        "AGR:IND23265146",
+        "AGR:IND23309858",
+        "AGR:IND23328937",
+        "AGR:IND43726769",
+        "AGR:IND43952632",
+        "AGR:IND43960254",
+        "AGR:IND44774971",
+        "AGR:IND601309267",
+        "AGR:IND601309285",
+        "AGR:IND601311640",
+        "CAS:2164-17-2",
+        "Chemspider:15702",
+        "KEGG:C18853",
+        "MetaCyc:CPD-23257",
+        "Pesticides:fluometuron",
+        "PMID:1384777",
+        "PMID:15488576",
+        "PMID:15537934",
+        "PMID:17165123",
+        "PMID:17263484",
+        "PMID:17604822",
+        "PMID:17760353",
+        "PMID:18729373",
+        "PMID:19356113",
+        "PMID:20545302",
+        "PMID:22023336",
+        "PMID:32626105",
+        "PMID:7571346",
+        "PPDB:336",
+        "Reaxys:2217354",
+        "Wikipedia:Fluometuron"
+    ],
+    "geneontology:hasId": "82012",
+    "geneontology:hasSynonym": [
+        "1,1-dimethyl-3-(alpha,alpha,alpha-trifluoro-m-tolyl)urea",
+        "1,1-dimethyl-3-[3-(trifluoromethyl)phenyl]urea",
+        "C 2059",
+        "Ciba 2059",
+        "Cotogard",
+        "Cotoran",
+        "Cottonex",
+        "herbicide C-2059",
+        "Higalcoton",
+        "Lanex",
+        "N,N-dimethyl-N'-[3-(trifluoromethyl)phenyl]urea",
+        "N-(meta-trifluoromethylphenyl)-N,N'-dimethylurea",
+        "N-(m-trifluoromethylphenyl)-N',N'-dimethylurea",
+        "Pakhtaran"
+    ],
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#3_STAR"
+    },
+    "rdfs:label": "fluometuron",
+    "rdfs:subClassOf": [
+        {
+            "@id": "obo:CHEBI_157693"
+        },
+        {
+            "@id": "obo:CHEBI_83565"
+        },
+        {
+            "@id": "b339_genid-00f1db82e1ab437c844115a94dc63e635-bn82012t11f24527"
+        },
+        {
+            "@id": "b339_genid-00f1db82e1ab437c844115a94dc63e635-bn82012t11f26089"
+        },
+        {
+            "@id": "b339_genid-00f1db82e1ab437c844115a94dc63e635-bn82012t11f33286"
+        },
+        {
+            "@id": "b339_genid-00f1db82e1ab437c844115a94dc63e635-bn82012t11f35703"
+        },
+        {
+            "@id": "b339_genid-00f1db82e1ab437c844115a94dc63e635-bn82012t11f78298"
+        }
+    ]
+}

@@ -1,0 +1,29 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_189140",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "chebi:charge": "0",
+    "chebi:formula": "C12H27O4P",
+    "chebi:inchi": "InChI=1S/C12H27O4P/c1-10(2)7-14-17(13,15-8-11(3)4)16-9-12(5)6/h10-12H,7-9H2,1-6H3",
+    "chebi:inchikey": "HRKAMJBPFPHCSD-UHFFFAOYSA-N",
+    "chebi:smiles": "P(OCC(C)C)(OCC(C)C)(OCC(C)C)=O",
+    "geneontology:hasDbXref": [
+        "CAS:126-71-6",
+        "Chemspider:29088",
+        "KEGG:D70387"
+    ],
+    "geneontology:hasId": "189140",
+    "geneontology:hasSynonym": "tris(2-methylpropyl) phosphate",
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#2_STAR"
+    },
+    "rdfs:label": "Tri-isobutylphosphate",
+    "rdfs:subClassOf": {
+        "@id": "obo:CHEBI_37562"
+    }
+}

@@ -1,0 +1,54 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_16583",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "obo:IAO_0000115": "An alpha-diketone that is butane substituted by oxo groups at positions 2 and 3. It is a metabolite produced during the malolactic fermentation.",
+    "chebi:charge": "0",
+    "chebi:formula": "C4H6O2",
+    "chebi:inchi": "InChI=1S/C4H6O2/c1-3(5)4(2)6/h1-2H3",
+    "chebi:inchikey": "QSJXEFYPDANLFS-UHFFFAOYSA-N",
+    "chebi:smiles": "CC(=O)C(C)=O",
+    "http://purl.uniprot.org/core/name": "diacetyl",
+    "geneontology:hasDbXref": [
+        "Beilstein:605398",
+        "CAS:431-03-8",
+        "HMDB:HMDB0003407",
+        "KEGG:C00741",
+        "PMID:15654607",
+        "PMID:24614328",
+        "Reaxys:605398"
+    ],
+    "geneontology:hasId": "16583",
+    "geneontology:hasSynonym": [
+        "diacetyl",
+        "2,3-Butadione",
+        "2,3-butandione",
+        "2,3-Butanedione",
+        "2,3-Diketobutane",
+        "2,3-Dioxobutane",
+        "Biacetyl",
+        "Diacetyl",
+        "Dimethylglyoxal",
+        "Dimethyl glyoxal"
+    ],
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#3_STAR"
+    },
+    "rdfs:label": "butane-2,3-dione",
+    "rdfs:subClassOf": [
+        {
+            "@id": "obo:CHEBI_51869"
+        },
+        {
+            "@id": "b292_genid-00f1db82e1ab437c844115a94dc63e635-bn16583t11f75772"
+        },
+        {
+            "@id": "b292_genid-00f1db82e1ab437c844115a94dc63e635-bn16583t11f76971"
+        }
+    ]
+}

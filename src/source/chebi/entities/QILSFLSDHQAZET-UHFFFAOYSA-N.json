@@ -1,0 +1,69 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_156087",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "obo:IAO_0000115": "A secondary alcohol that is  diphenylmethane which carries a hydroxy group at position 1.",
+    "chebi:charge": "0",
+    "chebi:formula": "C13H12O",
+    "chebi:inchi": "InChI=1S/C13H12O/c14-13(11-7-3-1-4-8-11)12-9-5-2-6-10-12/h1-10,13-14H",
+    "chebi:inchikey": "QILSFLSDHQAZET-UHFFFAOYSA-N",
+    "chebi:smiles": "C(C1=CC=CC=C1)(C2=CC=CC=C2)O",
+    "http://purl.uniprot.org/core/name": "diphenylmethanol",
+    "geneontology:hasDbXref": [
+        "PMID:3994362",
+        "CAS:91-01-0",
+        "PMID:11162873",
+        "PMID:11354909",
+        "PMID:12160905",
+        "PMID:16345181",
+        "PMID:26843970",
+        "PMID:461994",
+        "PMID:604421",
+        "Reaxys:1424379",
+        "Wikipedia:Diphenylmethanol"
+    ],
+    "geneontology:hasId": "156087",
+    "geneontology:hasSynonym": [
+        "alpha-phenylbenzenemethanol",
+        "alpha-phenylbenzyl alcohol",
+        "benzhydrol",
+        "benzhydryl alcohol",
+        "benzohydrol",
+        "diphenylcarbinol",
+        "diphenyl carbinol",
+        "diphenylmethyl alcohol",
+        "hydroxydiphenylmethane"
+    ],
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#3_STAR"
+    },
+    "rdfs:label": "diphenylmethanol",
+    "rdfs:subClassOf": [
+        {
+            "@id": "obo:CHEBI_35681"
+        },
+        {
+            "@id": "obo:CHEBI_22743"
+        },
+        {
+            "@id": "b235_genid-00f1db82e1ab437c844115a94dc63e635-bn156087t9f38884"
+        },
+        {
+            "@id": "b235_genid-00f1db82e1ab437c844115a94dc63e635-bn156087t11f76967"
+        },
+        {
+            "@id": "b235_genid-00f1db82e1ab437c844115a94dc63e635-bn156087t11f76976"
+        },
+        {
+            "@id": "b235_genid-00f1db82e1ab437c844115a94dc63e635-bn156087t11f84087"
+        },
+        {
+            "@id": "b235_genid-00f1db82e1ab437c844115a94dc63e635-bn156087t11f86264"
+        }
+    ]
+}

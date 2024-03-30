@@ -1,0 +1,30 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_176693",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "chebi:charge": "0",
+    "chebi:formula": "C11H16",
+    "chebi:inchi": "InChI=1S/C11H16/c1-2-3-5-8-11-9-6-4-7-10-11/h4,6-7,9-10H,2-3,5,8H2,1H3",
+    "chebi:inchikey": "PWATWSYOIIXYMA-UHFFFAOYSA-N",
+    "chebi:smiles": "C(CCC)CC1=CC=CC=C1",
+    "geneontology:hasDbXref": [
+        "CAS:538-68-1",
+        "Chemspider:10404",
+        "HMDB:HMDB0059834",
+        "PDBeChem:3H2"
+    ],
+    "geneontology:hasId": "176693",
+    "geneontology:hasSynonym": "pentylbenzene",
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#2_STAR"
+    },
+    "rdfs:label": "Pentylbenzene",
+    "rdfs:subClassOf": {
+        "@id": "obo:CHEBI_22712"
+    }
+}

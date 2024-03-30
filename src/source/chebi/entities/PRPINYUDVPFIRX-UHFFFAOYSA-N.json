@@ -1,0 +1,60 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_32918",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "obo:IAO_0000115": "A naphthylacetic acid substituted by a carboxymethyl group at position 1.",
+    "chebi:charge": "0",
+    "chebi:formula": "C12H10O2",
+    "chebi:inchi": "InChI=1S/C12H10O2/c13-12(14)8-10-6-3-5-9-4-1-2-7-11(9)10/h1-7H,8H2,(H,13,14)",
+    "chebi:inchikey": "PRPINYUDVPFIRX-UHFFFAOYSA-N",
+    "chebi:smiles": "OC(=O)Cc1cccc2ccccc12",
+    "geneontology:hasDbXref": [
+        "Beilstein:1308415",
+        "BPDB:1330",
+        "CAS:86-87-3",
+        "DrugBank:DB01750",
+        "Gmelin:2062516",
+        "KEGG:C13014",
+        "KEGG:D01558",
+        "PDBeChem:NLA",
+        "PMID:24272685",
+        "PMID:24690897",
+        "PPDB:1330",
+        "Reaxys:1308415",
+        "Wikipedia:1-Naphthaleneacetic_acid"
+    ],
+    "geneontology:hasId": "32918",
+    "geneontology:hasSynonym": [
+        "NAA",
+        "(naphthalen-1-yl)acetic acid",
+        "1-Naphthylacetic acid",
+        "alpha-NAA",
+        "alpha-naphthaleneacetic acid",
+        "naphthalen-1-ylacetic acid",
+        "NAPHTHALEN-1-YL-ACETIC ACID",
+        "naphthalene-1-acetic acid"
+    ],
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#3_STAR"
+    },
+    "rdfs:label": "1-naphthaleneacetic acid",
+    "rdfs:subClassOf": [
+        {
+            "@id": "b148_genid-00f1db82e1ab437c844115a94dc63e635-bn32918tmms73f156230"
+        },
+        {
+            "@id": "b148_genid-00f1db82e1ab437c844115a94dc63e635-bn32918t11f26841"
+        },
+        {
+            "@id": "obo:CHEBI_35629"
+        },
+        {
+            "@id": "b148_genid-00f1db82e1ab437c844115a94dc63e635-bn32918t4f156230"
+        }
+    ]
+}

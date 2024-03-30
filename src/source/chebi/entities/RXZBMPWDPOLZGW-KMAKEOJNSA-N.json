@@ -1,0 +1,25 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_181408",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "chebi:charge": "0",
+    "chebi:formula": "C41H76N2O15",
+    "chebi:inchi": "InChI=1S/C41H76N2O15/c1-15-29-41(10,49)34(45)24(4)31(42-53-21-52-17-16-50-13)22(2)19-39(8,48)36(58-38-32(44)28(43(11)12)18-23(3)54-38)25(5)33(26(6)37(47)56-29)57-30-20-40(9,51-14)35(46)27(7)55-30/h22-30,32-36,38,44-46,48-49H,15-21H2,1-14H3/b42-31+/t22-,23?,24+,25+,26-,27?,28?,29-,30?,32?,33+,34-,35?,36-,38?,39-,40?,41-/m1/s1",
+    "chebi:inchikey": "RXZBMPWDPOLZGW-KMAKEOJNSA-N",
+    "chebi:smiles": "O([C@@H]1[C@H]([C@H](OC2OC(C(O)C(OC)(C2)C)C)[C@H](C(O[C@@H]([C@@](O)([C@H](O)[C@H](\\C(=N\\OCOCCOC)\\[C@@H](C[C@]1(O)C)C)C)C)CC)=O)C)C)C3OC(CC(N(C)C)C3O)C",
+    "geneontology:hasDbXref": "Chemspider:7842291",
+    "geneontology:hasId": "181408",
+    "geneontology:hasSynonym": "(3R,4S,5S,6R,7R,9R,10E,11S,12R,13S,14R)-6-[4-(dimethylamino)-3-hydroxy-6-methyloxan-2-yl]oxy-14-ethyl-7,12,13-trihydroxy-4-(5-hydroxy-4-methoxy-4,6-dimethyloxan-2-yl)oxy-10-(2-methoxyethoxymethoxyimino)-3,5,7,9,11,13-hexamethyl-oxacyclotetradecan-2-one",
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#2_STAR"
+    },
+    "rdfs:label": "(3R,4S,5S,6R,7R,9R,10E,11S,12R,13S,14R)-6-[4-(Dimethylamino)-3-hydroxy-6-methyloxan-2-yl]oxy-14-ethyl-7,12,13-trihydroxy-4-(5-hydroxy-4-methoxy-4,6-dimethyloxan-2-yl)oxy-10-(2-methoxyethoxymethoxyimino)-3,5,7,9,11,13-hexamethyl-oxacyclotetradecan-2-one",
+    "rdfs:subClassOf": {
+        "@id": "obo:CHEBI_47779"
+    }
+}

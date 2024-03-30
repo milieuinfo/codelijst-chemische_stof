@@ -1,0 +1,42 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_15138",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "obo:IAO_0000115": "A divalent inorganic anion obtained by removal of both protons from hydrogen sulfide.",
+    "chebi:charge": "-2",
+    "chebi:formula": "S",
+    "chebi:inchi": "InChI=1S/S/q-2",
+    "chebi:inchikey": "UCKMPCXJQFINFW-UHFFFAOYSA-N",
+    "chebi:smiles": "[S--]",
+    "geneontology:hasDbXref": [
+        "CAS:18496-25-8",
+        "UM-BBD_compID:c0569"
+    ],
+    "geneontology:hasId": "15138",
+    "geneontology:hasSynonym": [
+        "Sulfide",
+        "S(2-)",
+        "sulfanediide",
+        "sulphide"
+    ],
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#3_STAR"
+    },
+    "rdfs:label": "sulfide(2-)",
+    "rdfs:subClassOf": [
+        {
+            "@id": "obo:CHEBI_79388"
+        },
+        {
+            "@id": "b293_genid-00f1db82e1ab437c844115a94dc63e635-bn15138tmms73f29919"
+        },
+        {
+            "@id": "b293_genid-00f1db82e1ab437c844115a94dc63e635-bn15138t5f29919"
+        }
+    ]
+}

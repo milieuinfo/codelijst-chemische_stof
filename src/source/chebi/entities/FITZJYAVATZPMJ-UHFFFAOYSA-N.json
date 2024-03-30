@@ -1,0 +1,42 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_41070",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "chebi:charge": "0",
+    "chebi:formula": "C10H8O6S2",
+    "chebi:inchi": "InChI=1S/C10H8O6S2/c11-17(12,13)9-3-1-7-5-10(18(14,15)16)4-2-8(7)6-9/h1-6H,(H,11,12,13)(H,14,15,16)",
+    "chebi:inchikey": "FITZJYAVATZPMJ-UHFFFAOYSA-N",
+    "chebi:smiles": "OS(=O)(=O)c1ccc2cc(ccc2c1)S(O)(=O)=O",
+    "geneontology:hasDbXref": [
+        "Beilstein:2221088",
+        "CAS:581-75-9",
+        "DrugBank:DB04640",
+        "Gmelin:1831721",
+        "KEGG:C16194",
+        "PDBeChem:BIH"
+    ],
+    "geneontology:hasId": "41070",
+    "geneontology:hasSynonym": [
+        "2,6-naphthalenedisulfonic acid",
+        "Ebert-Merz beta-acid",
+        "NAPHTHALENE-2,6-DISULFONIC ACID",
+        "naphthalene-2,6-disulphonic acid"
+    ],
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#3_STAR"
+    },
+    "rdfs:label": "naphthalene-2,6-disulfonic acid",
+    "rdfs:subClassOf": [
+        {
+            "@id": "obo:CHEBI_36336"
+        },
+        {
+            "@id": "b203_genid-00f1db82e1ab437c844115a94dc63e635-bn41070tmms73f25475"
+        }
+    ]
+}

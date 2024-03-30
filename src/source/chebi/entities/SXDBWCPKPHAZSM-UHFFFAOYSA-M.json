@@ -1,0 +1,41 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_29223",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "chebi:charge": "-1",
+    "chebi:formula": "BrO3",
+    "chebi:inchi": "InChI=1S/BrHO3/c2-1(3)4/h(H,2,3,4)/p-1",
+    "chebi:inchikey": "SXDBWCPKPHAZSM-UHFFFAOYSA-M",
+    "chebi:smiles": "[O-]Br(=O)=O",
+    "geneontology:hasDbXref": [
+        "CAS:15541-45-4",
+        "Gmelin:1888"
+    ],
+    "geneontology:hasId": "29223",
+    "geneontology:hasSynonym": [
+        "Bromat",
+        "[BrO3](-)",
+        "BrO3(-)",
+        "trioxidobromate(1-)"
+    ],
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#3_STAR"
+    },
+    "rdfs:label": "bromate",
+    "rdfs:subClassOf": [
+        {
+            "@id": "obo:CHEBI_79389"
+        },
+        {
+            "@id": "obo:CHEBI_33444"
+        },
+        {
+            "@id": "b236_genid-00f1db82e1ab437c844115a94dc63e635-bn29223t5f49382"
+        }
+    ]
+}

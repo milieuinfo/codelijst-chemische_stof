@@ -1,0 +1,44 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_52741",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "obo:IAO_0000115": "A phosphonic acid compound having a 2-chloroethyl substituent attached to the P-atom.",
+    "chebi:charge": "0",
+    "chebi:formula": "C2H6ClO3P",
+    "chebi:inchi": "InChI=1S/C2H6ClO3P/c3-1-2-7(4,5)6/h1-2H2,(H2,4,5,6)",
+    "chebi:inchikey": "UDPGUMQDCGORJQ-UHFFFAOYSA-N",
+    "chebi:smiles": "OP(O)(=O)CCCl",
+    "geneontology:hasDbXref": [
+        "Beilstein:1751208",
+        "CAS:16672-87-0",
+        "Gmelin:745885",
+        "KEGG:C18399",
+        "PPDB:274"
+    ],
+    "geneontology:hasId": "52741",
+    "geneontology:hasSynonym": [
+        "2-Cepa",
+        "2-Chloraethyl-phosphonsaeure",
+        "2-Chloroethanephosphonic acid",
+        "Acide chloro-2-ethyl-phosphonique",
+        "Chloroethylphosphonic acid",
+        "Ethephon"
+    ],
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#3_STAR"
+    },
+    "rdfs:label": "(2-chloroethyl)phosphonic acid",
+    "rdfs:subClassOf": [
+        {
+            "@id": "obo:CHEBI_26069"
+        },
+        {
+            "@id": "b194_genid-00f1db82e1ab437c844115a94dc63e635-bn52741t11f26155"
+        }
+    ]
+}

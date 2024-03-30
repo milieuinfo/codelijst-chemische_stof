@@ -1,0 +1,33 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_34332",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "chebi:charge": "0",
+    "chebi:formula": "C8H10O",
+    "chebi:inchi": "InChI=1S/C8H10O/c1-2-7-4-3-5-8(9)6-7/h3-6,9H,2H2,1H3",
+    "chebi:inchikey": "HMNKTRSOROOSPP-UHFFFAOYSA-N",
+    "chebi:smiles": "CCc1cccc(O)c1",
+    "geneontology:hasDbXref": [
+        "PMID:24029555",
+        "CAS:620-17-7",
+        "HMDB:HMDB0059873",
+        "KEGG:C14386"
+    ],
+    "geneontology:hasId": "34332",
+    "geneontology:hasSynonym": [
+        "3-ethylphenol",
+        "3-Ethyl-phenol"
+    ],
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#2_STAR"
+    },
+    "rdfs:label": "3-Ethylphenol",
+    "rdfs:subClassOf": {
+        "@id": "obo:CHEBI_33853"
+    }
+}

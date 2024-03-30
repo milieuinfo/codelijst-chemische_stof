@@ -1,0 +1,109 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_50743",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "obo:IAO_0000115": "A steroid ester resulting from the formal condensation of the carboxy group of acetic acid with the 17-hydroxy group of cyproterone. It is an antiandrogenic drug which has recently been recognized to promote the occurrence and growth of intracranial meningiomas.",
+    "chebi:charge": "0",
+    "chebi:formula": "C24H29ClO4",
+    "chebi:inchi": "InChI=1S/C24H29ClO4/c1-12(26)24(29-13(2)27)8-6-16-14-10-20(25)19-11-21(28)15-9-18(15)23(19,4)17(14)5-7-22(16,24)3/h10-11,14-18H,5-9H2,1-4H3/t14-,15+,16-,17-,18-,22-,23-,24-/m0/s1",
+    "chebi:inchikey": "UWFYSQMTEOIJJG-FDTZYFLXSA-N",
+    "chebi:smiles": "[H][C@@]12C[C@]1([H])[C@@]1(C)C(=CC2=O)C(Cl)=C[C@@]2([H])[C@]3([H])CC[C@](OC(C)=O)(C(C)=O)[C@@]3(C)CC[C@]12[H]",
+    "geneontology:hasDbXref": [
+        "PMID:24134630",
+        "DrugBank:DB04839",
+        "Patent:DE1189991",
+        "Patent:US3234093",
+        "Beilstein:2342172",
+        "CAS:427-51-0",
+        "Chemspider:9496",
+        "Drug_Central:766",
+        "KEGG:D01368",
+        "PDBeChem:CA4",
+        "PMCID:PMC7208009",
+        "PMID:11393581",
+        "PMID:11551428",
+        "PMID:14583927",
+        "PMID:15063071",
+        "PMID:16372511",
+        "PMID:17167851",
+        "PMID:17311914",
+        "PMID:30666456",
+        "PMID:31197615",
+        "PMID:31634588",
+        "PMID:31815317",
+        "PMID:32418729",
+        "PMID:33055297",
+        "PMID:33081822",
+        "PMID:33392938",
+        "PMID:33394263",
+        "PMID:33536184",
+        "PMID:33750846",
+        "PMID:33989640",
+        "PMID:34125226",
+        "PMID:34176757",
+        "PMID:34187864",
+        "PMID:34196865",
+        "PMID:34274044",
+        "PMID:34592677",
+        "PMID:34613529",
+        "Wikipedia:Cyproterone_Acetate"
+    ],
+    "geneontology:hasId": "50743",
+    "geneontology:hasSynonym": [
+        "(1beta,2beta)-17-(acetyloxy)-6-chloro-1,2-dihydro-3'H-cyclopropa[1,2]pregna-1,4,6-triene-3,20-dione",
+        "(1R,3aS,3bR,7aR,8aS,8bS,8cS,10aS)-1-acetyl-5-chloro-8b,10a-dimethyl-7-oxo-1,2,3,3a,3b,7,7a,8,8a,8b,8c,9,10,10a-tetradecahydrocyclopenta[a]cyclopropa[g]phenanthren-1-yl acetate",
+        "1,2alpha-methylene-6-chloro-17alpha-acetoxy-4,6-pregnadiene-3,20-dione",
+        "1,2alpha-methylene-6-chloro-Delta(4,6)-pregnadien-17alpha-ol-3,20-dione acetate",
+        "1,2alpha-methylene-6-chloro-pregna-4,6-diene-3,20-dione 17alpha-acetate",
+        "17alpha-acetoxy-6-chloro-1alpha,2alpha-methylenepregna-4,6-diene-3,20-dione",
+        "6-chloro-1,2alpha-methylene-17alpha-hydroxy-Delta(6)-progesterone acetate",
+        "6-chloro-1,2alpha-methylene-6-dehydro-17alpha-hydroxyprogesterone acetate",
+        "6-chloro-17-hydroxy-1alpha,2alpha-methylenepregna-4,6-diene-3,20-dione acetate",
+        "6-chloro-3,20-dioxo-1beta,2beta-dihydro-3'H-cyclopropa[1,2]pregna-4,6-dien-17-yl acetate",
+        "acetic acid (8R,9S,10S,13S,14S,17R)-17-acetyl-6-(S)-chloro-10,13-dimethyl-3-(R)-oxo-1,2,3,8,9,10,11,12,13,14,15,16,17,20-tetradecahydro-cyclopropa[1,2]cyclopenta[a]phenanthren-17-yl ester",
+        "Androcur",
+        "Cyprostat",
+        "cyproterone 17alpha-acetate",
+        "Cyproterone 17-O-acetate",
+        "CYPROTERONE ACETATE",
+        "SH 714"
+    ],
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#3_STAR"
+    },
+    "rdfs:label": "cyproterone acetate",
+    "rdfs:subClassOf": [
+        {
+            "@id": "obo:CHEBI_47622"
+        },
+        {
+            "@id": "obo:CHEBI_47909"
+        },
+        {
+            "@id": "obo:CHEBI_36885"
+        },
+        {
+            "@id": "obo:CHEBI_47880"
+        },
+        {
+            "@id": "obo:CHEBI_77175"
+        },
+        {
+            "@id": "b353_genid-00f1db82e1ab437c844115a94dc63e635-bn50743t11f35497"
+        },
+        {
+            "@id": "b353_genid-00f1db82e1ab437c844115a94dc63e635-bn50743t8f50742"
+        },
+        {
+            "@id": "b353_genid-00f1db82e1ab437c844115a94dc63e635-bn50743t11f59826"
+        },
+        {
+            "@id": "b353_genid-00f1db82e1ab437c844115a94dc63e635-bn50743t11f176497"
+        }
+    ]
+}

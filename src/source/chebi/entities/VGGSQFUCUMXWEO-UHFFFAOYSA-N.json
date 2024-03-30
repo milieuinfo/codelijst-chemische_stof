@@ -1,0 +1,52 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_18153",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "chebi:charge": "0",
+    "chebi:formula": "C2H4",
+    "chebi:inchi": "InChI=1S/C2H4/c1-2/h1-2H2",
+    "chebi:inchikey": "VGGSQFUCUMXWEO-UHFFFAOYSA-N",
+    "chebi:smiles": "C=C",
+    "http://purl.uniprot.org/core/name": "ethene",
+    "geneontology:hasDbXref": [
+        "Beilstein:1730731",
+        "BPDB:2009",
+        "CAS:74-85-1",
+        "Gmelin:214",
+        "KEGG:C06547",
+        "KNApSAcK:C00000175",
+        "UM-BBD_compID:c0359"
+    ],
+    "geneontology:hasId": "18153",
+    "geneontology:hasSynonym": [
+        "Aethen",
+        "Aethylen",
+        "CH2=CH2",
+        "Ethylene",
+        "H2C=CH2",
+        "R-1150"
+    ],
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#3_STAR"
+    },
+    "rdfs:label": "ethene",
+    "rdfs:subClassOf": [
+        {
+            "@id": "obo:CHEBI_138675"
+        },
+        {
+            "@id": "obo:CHEBI_32878"
+        },
+        {
+            "@id": "b42_genid-00f1db82e1ab437c844115a94dc63e635-bn18153t11f37848"
+        },
+        {
+            "@id": "b42_genid-00f1db82e1ab437c844115a94dc63e635-bn18153t11f78433"
+        }
+    ]
+}

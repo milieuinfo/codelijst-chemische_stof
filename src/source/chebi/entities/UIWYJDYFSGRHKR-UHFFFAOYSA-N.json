@@ -1,0 +1,39 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_33375",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "chebi:charge": "0",
+    "chebi:formula": "Gd",
+    "chebi:inchi": "InChI=1S/Gd",
+    "chebi:inchikey": "UIWYJDYFSGRHKR-UHFFFAOYSA-N",
+    "chebi:smiles": "[Gd]",
+    "geneontology:hasDbXref": [
+        "CAS:7440-54-2",
+        "Gmelin:16286",
+        "WebElements:Gd"
+    ],
+    "geneontology:hasId": "33375",
+    "geneontology:hasSynonym": [
+        "Gd",
+        "64Gd",
+        "gadolinio",
+        "gadolinium"
+    ],
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#3_STAR"
+    },
+    "rdfs:label": "gadolinium atom",
+    "rdfs:subClassOf": [
+        {
+            "@id": "obo:CHEBI_33562"
+        },
+        {
+            "@id": "obo:CHEBI_33319"
+        }
+    ]
+}

@@ -1,0 +1,35 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_31938",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "chebi:charge": "0",
+    "chebi:formula": "C13H11NO3",
+    "chebi:inchi": "InChI=1S/C13H11NO3/c15-10-7-5-9(6-8-10)14-13(17)11-3-1-2-4-12(11)16/h1-8,15-16H,(H,14,17)",
+    "chebi:inchikey": "LGCMKPRGGJRYGM-UHFFFAOYSA-N",
+    "chebi:smiles": "C(NC1=CC=C(C=C1)O)(=O)C2=C(O)C=CC=C2",
+    "geneontology:hasDbXref": [
+        "CAS:526-18-1",
+        "Drug_Central:2000",
+        "KEGG:D01579"
+    ],
+    "geneontology:hasId": "31938",
+    "geneontology:hasSynonym": [
+        "oksafenamide",
+        "osalmide",
+        "oxaphenamid",
+        "oxaphenamide",
+        "salmidochol"
+    ],
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#2_STAR"
+    },
+    "rdfs:label": "Osalmid",
+    "rdfs:subClassOf": {
+        "@id": "obo:CHEBI_50860"
+    }
+}

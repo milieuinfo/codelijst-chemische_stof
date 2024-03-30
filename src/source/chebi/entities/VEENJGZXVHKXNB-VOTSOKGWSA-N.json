@@ -1,0 +1,55 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_38658",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "chebi:charge": "0",
+    "chebi:formula": "C8H16NO5P",
+    "chebi:inchi": "InChI=1S/C8H16NO5P/c1-7(6-8(10)9(2)3)14-15(11,12-4)13-5/h6H,1-5H3/b7-6+",
+    "chebi:inchikey": "VEENJGZXVHKXNB-VOTSOKGWSA-N",
+    "chebi:smiles": "COP(=O)(OC)O\\C(C)=C\\C(=O)N(C)C",
+    "geneontology:hasDbXref": [
+        "Beilstein:1880084",
+        "CAS:141-66-2",
+        "KEGG:C18656",
+        "PPDB:224"
+    ],
+    "geneontology:hasId": "38658",
+    "geneontology:hasSynonym": [
+        "(1E)-3-(dimethylamino)-1-methyl-3-oxoprop-1-en-1-yl dimethyl phosphate",
+        "(E)-2-Dimethylcarbamoyl-1-methylvinyl dimethyl phosphate",
+        "(E)-Phosphoric acid, 3-(dimethylamino)-1-methyl-3-oxo-1-propenyl dimethyl ester",
+        "3-(Dimethoxyphosphinyloxy)-N,N-dimethyl-cis-crotonamide",
+        "3-Dimethoxyphosphinoyloxy-N,N-dimethylisocrotonamide",
+        "Bidrin",
+        "Dimethyl (E)-2-dimethyl-carbamoyl-1-methylvinyl phosphate"
+    ],
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#3_STAR"
+    },
+    "rdfs:label": "dicrotophos",
+    "rdfs:subClassOf": [
+        {
+            "@id": "obo:CHEBI_16648"
+        },
+        {
+            "@id": "obo:CHEBI_25708"
+        },
+        {
+            "@id": "b391_genid-00f1db82e1ab437c844115a94dc63e635-bn38658t11f22153"
+        },
+        {
+            "@id": "b391_genid-00f1db82e1ab437c844115a94dc63e635-bn38658t11f33286"
+        },
+        {
+            "@id": "b391_genid-00f1db82e1ab437c844115a94dc63e635-bn38658t11f33289"
+        },
+        {
+            "@id": "b391_genid-00f1db82e1ab437c844115a94dc63e635-bn38658t11f38462"
+        }
+    ]
+}

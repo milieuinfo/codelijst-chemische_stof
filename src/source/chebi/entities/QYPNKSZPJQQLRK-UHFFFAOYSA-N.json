@@ -1,0 +1,58 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_38452",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "obo:IAO_0000115": "A carbohydrazide that is hydrazine in which the amino hydrogens have been replaced by tert-butyl, 3,5-dimethylbenzoyl and 4-ethylbenzoyl groups respectively. It is an insecticide used widely against caterpillars.",
+    "chebi:charge": "0",
+    "chebi:formula": "C22H28N2O2",
+    "chebi:inchi": "InChI=1S/C22H28N2O2/c1-7-17-8-10-18(11-9-17)20(25)23-24(22(4,5)6)21(26)19-13-15(2)12-16(3)14-19/h8-14H,7H2,1-6H3,(H,23,25)",
+    "chebi:inchikey": "QYPNKSZPJQQLRK-UHFFFAOYSA-N",
+    "chebi:smiles": "CCc1ccc(cc1)C(=O)NN(C(=O)c1cc(C)cc(C)c1)C(C)(C)C",
+    "geneontology:hasDbXref": [
+        "Beilstein:7822297",
+        "CAS:112410-23-8",
+        "KEGG:C18526",
+        "Patent:CN103553255",
+        "Patent:CN103766364",
+        "Pesticides:tebufenozide",
+        "PMID:14745824",
+        "PMID:15759403",
+        "PMID:22730139",
+        "PMID:24121094",
+        "PPDB:611",
+        "Reaxys:7822297",
+        "Wikipedia:Tebufenozide"
+    ],
+    "geneontology:hasId": "38452",
+    "geneontology:hasSynonym": [
+        "3,5-dimethylbenzoic acid 1-(1,1-dimethylethyl)-2-(4-ethylbenzoyl)hydrazide",
+        "N'-(t-butyl)-N'-(3,5-dimethylbenzoyl)-N-(4-ethylbenzoyl)hydrazine",
+        "N-tert-butyl-N'-(4-ethylbenzoyl)-3,5-dimethylbenzohydrazide"
+    ],
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#3_STAR"
+    },
+    "rdfs:label": "tebufenozide",
+    "rdfs:subClassOf": [
+        {
+            "@id": "obo:CHEBI_35363"
+        },
+        {
+            "@id": "b362_genid-00f1db82e1ab437c844115a94dc63e635-bn38452t11f35703"
+        },
+        {
+            "@id": "b362_genid-00f1db82e1ab437c844115a94dc63e635-bn38452t11f38456"
+        },
+        {
+            "@id": "b362_genid-00f1db82e1ab437c844115a94dc63e635-bn38452t8f38457"
+        },
+        {
+            "@id": "b362_genid-00f1db82e1ab437c844115a94dc63e635-bn38452t11f78298"
+        }
+    ]
+}

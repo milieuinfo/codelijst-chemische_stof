@@ -1,0 +1,78 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_34682",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "obo:IAO_0000115": "A member of the class of  pyrimidines that is pyrimidine carrying an isopropyl group at position 2, a methyl group at position 6 and a (diethoxyphosphorothioyl)oxy group at position 4.",
+    "chebi:charge": "0",
+    "chebi:formula": "C12H21N2O3PS",
+    "chebi:inchi": "InChI=1S/C12H21N2O3PS/c1-6-15-18(19,16-7-2)17-11-8-10(5)13-12(14-11)9(3)4/h8-9H,6-7H2,1-5H3",
+    "chebi:inchikey": "FHIVAFMUCKRCQO-UHFFFAOYSA-N",
+    "chebi:smiles": "CCOP(=S)(OCC)Oc1cc(C)nc(n1)C(C)C",
+    "geneontology:hasDbXref": [
+        "Beilstein:273790",
+        "CAS:333-41-5",
+        "HMDB:HMDB0032943",
+        "KEGG:C14324",
+        "KEGG:D07856",
+        "MetaCyc:CPD-8965",
+        "Pesticides:diazinon",
+        "PMID:14536034",
+        "PMID:18819606",
+        "PPDB:212",
+        "Reaxys:273790",
+        "VSDB:212",
+        "Wikipedia:Diazinon"
+    ],
+    "geneontology:hasId": "34682",
+    "geneontology:hasSynonym": [
+        "Diazinon",
+        "Dimpylate",
+        "O,O-Diethyl 2-isopropyl-4-methylpyrimidyl-6-thiophosphate",
+        "O,O-Diethyl O-(2-isopropyl-4-methyl-6-pyrimidyl) thionophosphate",
+        "O,O-Diethyl O-(2-isopropyl-6-methyl-4-pyrimidinyl) phosphorothioate",
+        "O,O-diethyl O-[6-methyl-2-(1-methylethyl)pyrimidin-4-yl] thiophosphate",
+        "O,O-diethyl O-[6-methyl-2-(propan-2-yl)pyrimidin-4-yl] phosphorothioate",
+        "Phosphorothioic acid, O,O-diethyl O-(6-methyl-2-(1-methylethyl)-4-pyrimidinyl) ester"
+    ],
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#3_STAR"
+    },
+    "rdfs:label": "diazinon",
+    "rdfs:subClassOf": [
+        {
+            "@id": "obo:CHEBI_39447"
+        },
+        {
+            "@id": "obo:CHEBI_37512"
+        },
+        {
+            "@id": "b187_genid-00f1db82e1ab437c844115a94dc63e635-bn34682t11f22153"
+        },
+        {
+            "@id": "b187_genid-00f1db82e1ab437c844115a94dc63e635-bn34682t11f25491"
+        },
+        {
+            "@id": "b187_genid-00f1db82e1ab437c844115a94dc63e635-bn34682t11f33286"
+        },
+        {
+            "@id": "b187_genid-00f1db82e1ab437c844115a94dc63e635-bn34682t11f35703"
+        },
+        {
+            "@id": "b187_genid-00f1db82e1ab437c844115a94dc63e635-bn34682t11f37733"
+        },
+        {
+            "@id": "b187_genid-00f1db82e1ab437c844115a94dc63e635-bn34682t11f38462"
+        },
+        {
+            "@id": "b187_genid-00f1db82e1ab437c844115a94dc63e635-bn34682t8f38629"
+        },
+        {
+            "@id": "b187_genid-00f1db82e1ab437c844115a94dc63e635-bn34682t11f78298"
+        }
+    ]
+}

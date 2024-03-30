@@ -1,0 +1,41 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_38451",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "chebi:charge": "0",
+    "chebi:formula": "C18H19ClN2O2",
+    "chebi:inchi": "InChI=1S/C18H19ClN2O2/c1-18(2,3)21(17(23)14-7-5-4-6-8-14)20-16(22)13-9-11-15(19)12-10-13/h4-12H,1-3H3,(H,20,22)",
+    "chebi:inchikey": "CNKHSLKYRMDDNQ-UHFFFAOYSA-N",
+    "chebi:smiles": "CC(C)(C)N(NC(=O)c1ccc(Cl)cc1)C(=O)c1ccccc1",
+    "geneontology:hasDbXref": [
+        "Beilstein:8421868",
+        "CAS:112226-61-6",
+        "KEGG:C18791",
+        "PPDB:376"
+    ],
+    "geneontology:hasId": "38451",
+    "geneontology:hasSynonym": [
+        "4-chlorobenzoic acid 2-benzoyl-2-(1,1-dimethylethyl)hydrazide",
+        "N'-benzoyl-N'-tert-butyl-4-chlorobenzohydrazide"
+    ],
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#3_STAR"
+    },
+    "rdfs:label": "halofenozide",
+    "rdfs:subClassOf": [
+        {
+            "@id": "obo:CHEBI_83403"
+        },
+        {
+            "@id": "obo:CHEBI_38455"
+        },
+        {
+            "@id": "b339_genid-00f1db82e1ab437c844115a94dc63e635-bn38451t8f38457"
+        }
+    ]
+}

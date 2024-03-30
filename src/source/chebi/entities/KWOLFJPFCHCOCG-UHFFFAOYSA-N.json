@@ -1,0 +1,57 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_27632",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "obo:IAO_0000115": "A methyl ketone that is acetone in which one of the methyl groups has been replaced by a phenyl group.",
+    "chebi:charge": "0",
+    "chebi:formula": "C8H8O",
+    "chebi:inchi": "InChI=1S/C8H8O/c1-7(9)8-5-3-2-4-6-8/h2-6H,1H3",
+    "chebi:inchikey": "KWOLFJPFCHCOCG-UHFFFAOYSA-N",
+    "chebi:smiles": "CC(=O)c1ccccc1",
+    "http://purl.uniprot.org/core/name": "acetophenone",
+    "geneontology:hasDbXref": [
+        "CAS:98-86-2",
+        "DrugBank:DB04619",
+        "HMDB:HMDB0033910",
+        "KEGG:C07113",
+        "KNApSAcK:C00002685",
+        "PMID:10397882",
+        "PMID:24634568",
+        "UM-BBD_compID:c0117",
+        "Wikipedia:Acetophenone"
+    ],
+    "geneontology:hasId": "27632",
+    "geneontology:hasSynonym": [
+        "1-phenylethan-1-one",
+        "1-phenylethanone",
+        "1-Phenylethanone",
+        "Acetophenone",
+        "Acetylbenzene",
+        "benzoyl methide",
+        "Methyl phenyl ketone",
+        "Phenyl methyl ketone"
+    ],
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#3_STAR"
+    },
+    "rdfs:label": "acetophenone",
+    "rdfs:subClassOf": [
+        {
+            "@id": "obo:CHEBI_22187"
+        },
+        {
+            "@id": "b323_genid-00f1db82e1ab437c844115a94dc63e635-bn27632t11f35703"
+        },
+        {
+            "@id": "b323_genid-00f1db82e1ab437c844115a94dc63e635-bn27632t11f47868"
+        },
+        {
+            "@id": "b323_genid-00f1db82e1ab437c844115a94dc63e635-bn27632t11f75767"
+        }
+    ]
+}

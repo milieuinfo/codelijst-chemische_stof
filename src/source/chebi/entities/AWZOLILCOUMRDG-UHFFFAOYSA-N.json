@@ -1,0 +1,62 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_34735",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "obo:IAO_0000115": "An organic thiophosphate that is the O-ethyl-S,S-diphenyl ester of phosphorodithioic acid.  Used to control a variety of fungal diseases on rice including blast, ear blight and stem rot. Edifenphos is moderately toxic to mammals and fish but poses more of a risk to aquatic invertebrates.",
+    "chebi:charge": "0",
+    "chebi:formula": "C14H15O2PS2",
+    "chebi:inchi": "InChI=1S/C14H15O2PS2/c1-2-16-17(15,18-13-9-5-3-6-10-13)19-14-11-7-4-8-12-14/h3-12H,2H2,1H3",
+    "chebi:inchikey": "AWZOLILCOUMRDG-UHFFFAOYSA-N",
+    "chebi:smiles": "CCOP(=O)(Sc1ccccc1)Sc1ccccc1",
+    "geneontology:hasDbXref": [
+        "CAS:17109-49-8",
+        "HMDB:HMDB0031781",
+        "KEGG:C14436",
+        "Pesticides:edifenphos",
+        "PMID:15198308",
+        "PMID:25129879",
+        "PMID:6836611",
+        "PMID:8360628",
+        "PMID:9536649",
+        "PMID:977919",
+        "PPDB:1205",
+        "Reaxys:1988797"
+    ],
+    "geneontology:hasId": "34735",
+    "geneontology:hasSynonym": [
+        "BAY 78418",
+        "Bayer 78418",
+        "EDDP",
+        "Edifenphos",
+        "Ediphenophos",
+        "O-Ethyl-S,S-diphenyl dithiophosphate",
+        "O-ethyl S,S-diphenyl phosphorodithioate",
+        "Phosphorodithioic acid, O-ethyl-S,S-diphenyl ester"
+    ],
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#3_STAR"
+    },
+    "rdfs:label": "edifenphos",
+    "rdfs:subClassOf": [
+        {
+            "@id": "obo:CHEBI_37512"
+        },
+        {
+            "@id": "b85_genid-00f1db82e1ab437c844115a94dc63e635-bn34735t11f38462"
+        },
+        {
+            "@id": "b85_genid-00f1db82e1ab437c844115a94dc63e635-bn34735t11f50910"
+        },
+        {
+            "@id": "b85_genid-00f1db82e1ab437c844115a94dc63e635-bn34735t11f83741"
+        },
+        {
+            "@id": "b85_genid-00f1db82e1ab437c844115a94dc63e635-bn34735t11f86328"
+        }
+    ]
+}

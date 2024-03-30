@@ -1,0 +1,33 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_77515",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "obo:IAO_0000115": "An alkylbenzene comprising dodecane substituted at position 5 by a phenyl group.",
+    "chebi:charge": "0",
+    "chebi:formula": "C18H30",
+    "chebi:inchi": "InChI=1S/C18H30/c1-3-5-7-8-10-14-17(13-6-4-2)18-15-11-9-12-16-18/h9,11-12,15-17H,3-8,10,13-14H2,1-2H3",
+    "chebi:inchikey": "NPAWGLOPXKCTCV-UHFFFAOYSA-N",
+    "chebi:smiles": "CCCCCCCC(CCCC)c1ccccc1",
+    "geneontology:hasDbXref": [
+        "CAS:2719-63-3",
+        "Reaxys:2442659"
+    ],
+    "geneontology:hasId": "77515",
+    "geneontology:hasSynonym": [
+        "(1-butyloctyl)benzene",
+        "alpha-butyloctylbenzene",
+        "dodecan-5-ylbenzene"
+    ],
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#3_STAR"
+    },
+    "rdfs:label": "5-phenyldodecane",
+    "rdfs:subClassOf": {
+        "@id": "obo:CHEBI_38976"
+    }
+}

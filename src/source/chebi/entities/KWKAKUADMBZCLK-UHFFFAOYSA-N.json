@@ -1,0 +1,43 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_46708",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "obo:IAO_0000115": "An octene with an unsaturation C-1.",
+    "chebi:charge": "0",
+    "chebi:formula": "C8H16",
+    "chebi:inchi": "InChI=1S/C8H16/c1-3-5-7-8-6-4-2/h3H,1,4-8H2,2H3",
+    "chebi:inchikey": "KWKAKUADMBZCLK-UHFFFAOYSA-N",
+    "chebi:smiles": "CCCCCCC=C",
+    "geneontology:hasDbXref": [
+        "Beilstein:1734497",
+        "CAS:111-66-0",
+        "Gmelin:2825",
+        "HMDB:HMDB0032449",
+        "PMID:23763205",
+        "PMID:23822166",
+        "Reaxys:1734497",
+        "Wikipedia:1-Octene"
+    ],
+    "geneontology:hasId": "46708",
+    "geneontology:hasSynonym": [
+        "1-C8H16",
+        "1-caprylene",
+        "alpha-octene",
+        "alpha-octylene",
+        "caprylene",
+        "n-1-octene",
+        "oct-1-ene"
+    ],
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#3_STAR"
+    },
+    "rdfs:label": "1-octene",
+    "rdfs:subClassOf": {
+        "@id": "obo:CHEBI_46709"
+    }
+}

@@ -1,0 +1,89 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_17263",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "obo:IAO_0000115": "A 17-oxo steroid that is estra-1,3,5(10)-triene substituted by an hydroxy group at position 3 and an oxo group at position 17.",
+    "chebi:charge": "0",
+    "chebi:formula": "C18H22O2",
+    "chebi:inchi": "InChI=1S/C18H22O2/c1-18-9-8-14-13-5-3-12(19)10-11(13)2-4-15(14)16(18)6-7-17(18)20/h3,5,10,14-16,19H,2,4,6-9H2,1H3/t14-,15-,16+,18+/m1/s1",
+    "chebi:inchikey": "DNXHEGUUPJUMQT-CBZIJGRNSA-N",
+    "chebi:smiles": "[H][C@]12CC[C@]3(C)C(=O)CC[C@@]3([H])[C@]1([H])CCc1cc(O)ccc21",
+    "http://purl.uniprot.org/core/name": "estrone",
+    "geneontology:hasDbXref": [
+        "Beilstein:1915077",
+        "CAS:53-16-7",
+        "Drug_Central:3188",
+        "DrugBank:DB00655",
+        "Gmelin:542591",
+        "HMDB:HMDB0000145",
+        "KEGG:C00468",
+        "KEGG:D00067",
+        "KNApSAcK:C00003663",
+        "LINCS:LSM-3837",
+        "LIPID_MAPS_instance:LMST02010004",
+        "Patent:FR1305992",
+        "Patent:US1967350",
+        "Patent:US1967351",
+        "PDBeChem:J3Z",
+        "PMID:11786692",
+        "PMID:13908815",
+        "PMID:15784278",
+        "PMID:17447557",
+        "PMID:19610377",
+        "PMID:23647561",
+        "PMID:24390165",
+        "PMID:24398390",
+        "Reaxys:1915077",
+        "Wikipedia:Estrone"
+    ],
+    "geneontology:hasId": "17263",
+    "geneontology:hasSynonym": [
+        "3-Hydroxy-1,3,5(10)-estratrien-17-one",
+        "3-hydroxyestra-1,3,5(10)-trien-17-one",
+        "Estrone",
+        "follicular hormone",
+        "folliculin",
+        "oestrone"
+    ],
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#3_STAR"
+    },
+    "rdfs:label": "estrone",
+    "rdfs:subClassOf": [
+        {
+            "@id": "obo:CHEBI_33853"
+        },
+        {
+            "@id": "obo:CHEBI_177917"
+        },
+        {
+            "@id": "obo:CHEBI_19168"
+        },
+        {
+            "@id": "obo:CHEBI_36834"
+        },
+        {
+            "@id": "b85_genid-00f1db82e1ab437c844115a94dc63e635-bn17263t9f23966"
+        },
+        {
+            "@id": "b85_genid-00f1db82e1ab437c844115a94dc63e635-bn17263t11f35610"
+        },
+        {
+            "@id": "b85_genid-00f1db82e1ab437c844115a94dc63e635-bn17263t11f50114"
+        },
+        {
+            "@id": "b85_genid-00f1db82e1ab437c844115a94dc63e635-bn17263t11f50646"
+        },
+        {
+            "@id": "b85_genid-00f1db82e1ab437c844115a94dc63e635-bn17263t11f75771"
+        },
+        {
+            "@id": "b85_genid-00f1db82e1ab437c844115a94dc63e635-bn17263t11f77746"
+        }
+    ]
+}

@@ -1,0 +1,31 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_89727",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "chebi:charge": "0",
+    "chebi:formula": "C10H14",
+    "chebi:inchi": "InChI=1S/C10H14/c1-4-10-6-5-8(2)9(3)7-10/h5-7H,4H2,1-3H3",
+    "chebi:inchikey": "SBUYFICWQNHBCM-UHFFFAOYSA-N",
+    "chebi:smiles": "CCC1=CC=C(C)C(C)=C1",
+    "geneontology:hasDbXref": [
+        "PMID:17314143",
+        "HMDB:HMDB0059832"
+    ],
+    "geneontology:hasId": "89727",
+    "geneontology:hasSynonym": [
+        "2-Methyl-p-ethyltoluene",
+        "4-ethyl-1,2-dimethylbenzene"
+    ],
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#2_STAR"
+    },
+    "rdfs:label": "4-Ethyl-o-xylene",
+    "rdfs:subClassOf": {
+        "@id": "obo:CHEBI_27024"
+    }
+}

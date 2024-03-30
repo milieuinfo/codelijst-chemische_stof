@@ -1,0 +1,46 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_41921",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "obo:IAO_0000115": "An ortho-fused bicyclic arene comprising of benzene and cyclopentene rings.",
+    "chebi:charge": "0",
+    "chebi:formula": "C9H8",
+    "chebi:inchi": "InChI=1S/C9H8/c1-2-5-9-7-3-6-8(9)4-1/h1-6H,7H2",
+    "chebi:inchikey": "YBYIRNPNPLQARY-UHFFFAOYSA-N",
+    "chebi:smiles": "C1C=Cc2ccccc12",
+    "geneontology:hasDbXref": [
+        "Beilstein:635873",
+        "CAS:95-13-6",
+        "DrugBank:DB02815",
+        "Gmelin:27265",
+        "PDBeChem:DEN",
+        "PMID:24217495",
+        "PMID:24804069",
+        "Reaxys:635873",
+        "Wikipedia:Indene"
+    ],
+    "geneontology:hasId": "41921",
+    "geneontology:hasSynonym": [
+        "indene",
+        "Inden",
+        "INDENE",
+        "indonaphthene"
+    ],
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#3_STAR"
+    },
+    "rdfs:label": "1H-indene",
+    "rdfs:subClassOf": [
+        {
+            "@id": "obo:CHEBI_37910"
+        },
+        {
+            "@id": "obo:CHEBI_35426"
+        }
+    ]
+}

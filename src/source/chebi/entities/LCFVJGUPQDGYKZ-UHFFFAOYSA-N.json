@@ -1,0 +1,30 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_34578",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "chebi:charge": "0",
+    "chebi:formula": "C21H24O4",
+    "chebi:inchi": "InChI=1S/C21H24O4/c1-21(2,15-3-7-17(8-4-15)22-11-19-13-24-19)16-5-9-18(10-6-16)23-12-20-14-25-20/h3-10,19-20H,11-14H2,1-2H3",
+    "chebi:inchikey": "LCFVJGUPQDGYKZ-UHFFFAOYSA-N",
+    "chebi:smiles": "CC(C)(c1ccc(OCC2CO2)cc1)c1ccc(OCC2CO2)cc1",
+    "geneontology:hasDbXref": [
+        "CAS:1675-54-3",
+        "HMDB:HMDB0032737",
+        "KEGG:C14348",
+        "LINCS:LSM-1345"
+    ],
+    "geneontology:hasId": "34578",
+    "geneontology:hasSynonym": "2,2-Bis(4-glycidyloxyphenyl)propane",
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#2_STAR"
+    },
+    "rdfs:label": "Bisphenol A diglycidyl ether",
+    "rdfs:subClassOf": {
+        "@id": "obo:CHEBI_51614"
+    }
+}

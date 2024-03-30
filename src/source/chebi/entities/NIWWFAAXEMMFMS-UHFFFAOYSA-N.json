@@ -1,0 +1,38 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_33390",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "chebi:charge": "0",
+    "chebi:formula": "Cm",
+    "chebi:inchi": "InChI=1S/Cm",
+    "chebi:inchikey": "NIWWFAAXEMMFMS-UHFFFAOYSA-N",
+    "chebi:smiles": "[Cm]",
+    "geneontology:hasDbXref": [
+        "CAS:7440-51-9",
+        "WebElements:Cm"
+    ],
+    "geneontology:hasId": "33390",
+    "geneontology:hasSynonym": [
+        "Cm",
+        "96Cm",
+        "curio",
+        "curium"
+    ],
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#3_STAR"
+    },
+    "rdfs:label": "curium atom",
+    "rdfs:subClassOf": [
+        {
+            "@id": "obo:CHEBI_33320"
+        },
+        {
+            "@id": "obo:CHEBI_33562"
+        }
+    ]
+}

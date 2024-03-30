@@ -1,0 +1,60 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_18624",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "obo:IAO_0000115": "A 1,3-dichloropropene with a (E)-configuration.",
+    "chebi:charge": "0",
+    "chebi:formula": "C3H4Cl2",
+    "chebi:inchi": "InChI=1S/C3H4Cl2/c4-2-1-3-5/h1-2H,3H2/b2-1+",
+    "chebi:inchikey": "UOORRWUZONOOLO-OWOJBTEDSA-N",
+    "chebi:smiles": "ClC\\C=C\\Cl",
+    "geneontology:hasDbXref": [
+        "Beilstein:8403040",
+        "CAS:10061-02-6",
+        "CAS:542-75-6",
+        "HMDB:HMDB0013592",
+        "KEGG:C06609",
+        "KEGG:C18627",
+        "MetaCyc:CPD-9112",
+        "PMID:15473640",
+        "PMID:18576217",
+        "PMID:23899962",
+        "Reaxys:8403040",
+        "UM-BBD_compID:c0611"
+    ],
+    "geneontology:hasId": "18624",
+    "geneontology:hasSynonym": [
+        "(1E)-1,3-Dichloro-1-propene",
+        "(1E)-1,3-dichloroprop-1-ene",
+        "(E)-1,3-Dichloro-1-propene",
+        "(E)-1,3-Dichloropropene",
+        "D-D 92",
+        "trans-1,3-Dichloro-1-propene",
+        "trans-1,3-Dichloropropene",
+        "trans-1,3-Dichloropropylene",
+        "trans-3-Chloroallyl chloride"
+    ],
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#3_STAR"
+    },
+    "rdfs:label": "(E)-1,3-dichloropropene",
+    "rdfs:subClassOf": [
+        {
+            "@id": "obo:CHEBI_36387"
+        },
+        {
+            "@id": "b13_genid-00f1db82e1ab437c844115a94dc63e635-bn18624t9f16052"
+        },
+        {
+            "@id": "obo:CHEBI_18918"
+        },
+        {
+            "@id": "b13_genid-00f1db82e1ab437c844115a94dc63e635-bn18624t11f39276"
+        }
+    ]
+}

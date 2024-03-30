@@ -1,0 +1,71 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_3639",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "obo:IAO_0000115": "A dinitrile that is benzene-1,3-dicarbonitrile substituted by four chloro groups. A non-systemic fungicide first introduced in the 1960s, it is used to control a range of diseases in a wide variety of crops.",
+    "chebi:charge": "0",
+    "chebi:formula": "C8Cl4N2",
+    "chebi:inchi": "InChI=1S/C8Cl4N2/c9-5-3(1-13)6(10)8(12)7(11)4(5)2-14",
+    "chebi:inchikey": "CRQQGFGUEAVUIL-UHFFFAOYSA-N",
+    "chebi:smiles": "Clc1c(Cl)c(C#N)c(Cl)c(C#N)c1Cl",
+    "http://purl.uniprot.org/core/name": "chlorothalonil",
+    "geneontology:hasDbXref": [
+        "Beilstein:1978326",
+        "CAS:1897-45-6",
+        "KEGG:C11037",
+        "Patent:US3290353",
+        "Patent:US3652637",
+        "Pesticides:chlorothalonil",
+        "PMID:11016668",
+        "PMID:14575671",
+        "PMID:17482661",
+        "PMID:23116300",
+        "PMID:23866729",
+        "PMID:24455968",
+        "PMID:24984836",
+        "PMID:24990551",
+        "PPDB:150",
+        "Reaxys:1978326",
+        "Wikipedia:Chlorothalonil"
+    ],
+    "geneontology:hasId": "3639",
+    "geneontology:hasSynonym": [
+        "1,3-Dicyanotetrachlorobenzene",
+        "2,4,5,6-Tetrachloro-3-cyanobenzonitrile",
+        "2,4,5,6-tetrachlorobenzene-1,3-dicarbonitrile",
+        "Chlorothalonil",
+        "Daconil",
+        "meta-TCPN",
+        "meta-Tetrachlorophthalodinitrile",
+        "m-TCPN",
+        "m-Tetrachlorophthalonitrile",
+        "Tetrachloroisophthalonitrile",
+        "TPN"
+    ],
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#3_STAR"
+    },
+    "rdfs:label": "chlorothalonil",
+    "rdfs:subClassOf": [
+        {
+            "@id": "obo:CHEBI_87034"
+        },
+        {
+            "@id": "obo:CHEBI_26888"
+        },
+        {
+            "@id": "b357_genid-00f1db82e1ab437c844115a94dc63e635-bn3639t8f38218"
+        },
+        {
+            "@id": "obo:CHEBI_51308"
+        },
+        {
+            "@id": "b357_genid-00f1db82e1ab437c844115a94dc63e635-bn3639t11f86328"
+        }
+    ]
+}

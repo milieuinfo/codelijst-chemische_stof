@@ -1,0 +1,41 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_48362",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "obo:IAO_0000115": "A butene with unsaturation at position 1.",
+    "chebi:charge": "0",
+    "chebi:formula": "C4H8",
+    "chebi:inchi": "InChI=1S/C4H8/c1-3-4-2/h3H,1,4H2,2H3",
+    "chebi:inchikey": "VXNZUUAINFGPBY-UHFFFAOYSA-N",
+    "chebi:smiles": "CCC=C",
+    "geneontology:hasDbXref": [
+        "Beilstein:1098262",
+        "CAS:106-98-9",
+        "Gmelin:25205",
+        "PMID:24819240",
+        "Reaxys:1098262",
+        "Wikipedia:1-Butene"
+    ],
+    "geneontology:hasId": "48362",
+    "geneontology:hasSynonym": [
+        "1-butene",
+        "1-butylene",
+        "1-C4H8",
+        "alpha-butene",
+        "alpha-butylene",
+        "butene-1",
+        "ethylethylene"
+    ],
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#3_STAR"
+    },
+    "rdfs:label": "but-1-ene",
+    "rdfs:subClassOf": {
+        "@id": "obo:CHEBI_48361"
+    }
+}

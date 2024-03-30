@@ -1,0 +1,41 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_51988",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "obo:IAO_0000115": "An organic chloride salt comprising of a tetrabutylammonium cation and chloride anion.",
+    "chebi:charge": "0",
+    "chebi:formula": "C16H36ClN",
+    "chebi:inchi": "InChI=1S/C16H36N.ClH/c1-5-9-13-17(14-10-6-2,15-11-7-3)16-12-8-4;/h5-16H2,1-4H3;1H/q+1;/p-1",
+    "chebi:inchikey": "NHGXDBSUJJNIRV-UHFFFAOYSA-M",
+    "chebi:smiles": "[Cl-].CCCC[N+](CCCC)(CCCC)CCCC",
+    "geneontology:hasDbXref": [
+        "Beilstein:3571227",
+        "CAS:1112-67-0",
+        "Gmelin:10839",
+        "PMID:24677262",
+        "Reaxys:3571227"
+    ],
+    "geneontology:hasId": "51988",
+    "geneontology:hasSynonym": [
+        "N,N,N-tributyl-1-butanaminium chloride",
+        "N,N,N-tributylbutan-1-aminium chloride",
+        "tetra-N-butylammonium chloride"
+    ],
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#3_STAR"
+    },
+    "rdfs:label": "tetrabutylammonium chloride",
+    "rdfs:subClassOf": [
+        {
+            "@id": "obo:CHEBI_36094"
+        },
+        {
+            "@id": "obo:CHEBI_51992"
+        }
+    ]
+}

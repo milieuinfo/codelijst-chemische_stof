@@ -1,0 +1,61 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_29033",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "chebi:charge": "+2",
+    "chebi:formula": "Fe",
+    "chebi:inchi": "InChI=1S/Fe/q+2",
+    "chebi:inchikey": "CWYNVVGOOAEACU-UHFFFAOYSA-N",
+    "chebi:smiles": "[Fe++]",
+    "http://purl.uniprot.org/core/name": "Fe(2+)",
+    "geneontology:hasDbXref": [
+        "CAS:15438-31-0",
+        "Gmelin:6845",
+        "KEGG:C14818",
+        "PDBeChem:FE2"
+    ],
+    "geneontology:hasId": "29033",
+    "geneontology:hasSynonym": [
+        "Fe(2+)",
+        "Fe(II)",
+        "FE (II) ION",
+        "Fe2+",
+        "Ferrous ion",
+        "Iron(2+)",
+        "iron(2+) ion",
+        "iron(II) cation",
+        "iron ion(2+)"
+    ],
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#3_STAR"
+    },
+    "rdfs:label": "iron(2+)",
+    "rdfs:subClassOf": [
+        {
+            "@id": "obo:CHEBI_24875"
+        },
+        {
+            "@id": "obo:CHEBI_30412"
+        },
+        {
+            "@id": "obo:CHEBI_60240"
+        },
+        {
+            "@id": "b392_genid-00f1db82e1ab437c844115a94dc63e635-bn29033t11f23357"
+        },
+        {
+            "@id": "b392_genid-00f1db82e1ab437c844115a94dc63e635-bn29033t11f75771"
+        },
+        {
+            "@id": "b392_genid-00f1db82e1ab437c844115a94dc63e635-bn29033t11f75772"
+        },
+        {
+            "@id": "b392_genid-00f1db82e1ab437c844115a94dc63e635-bn29033t11f77746"
+        }
+    ]
+}

@@ -1,0 +1,43 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_34666",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "obo:IAO_0000115": "A polychlorobiphenyl that is biphenyl in which all of the hydrogens are replaced by chlorines.",
+    "chebi:charge": "0",
+    "chebi:formula": "C12Cl10",
+    "chebi:inchi": "InChI=1S/C12Cl10/c13-3-1(4(14)8(18)11(21)7(3)17)2-5(15)9(19)12(22)10(20)6(2)16",
+    "chebi:inchikey": "ONXPZLFXDMAPRO-UHFFFAOYSA-N",
+    "chebi:smiles": "Clc1c(Cl)c(Cl)c(c(Cl)c1Cl)-c1c(Cl)c(Cl)c(Cl)c(Cl)c1Cl",
+    "geneontology:hasDbXref": [
+        "Beilstein:2065289",
+        "CAS:2051-24-3",
+        "Gmelin:1481615",
+        "KEGG:C14368"
+    ],
+    "geneontology:hasId": "34666",
+    "geneontology:hasSynonym": [
+        "2,2',3,3',4,4',5,5',6,6'-decachloro-1,1'-biphenyl",
+        "2,2',3,3',4,4',5,5',6,6'-decachlorobiphenyl",
+        "decachloro-1,1'-biphenyl",
+        "Decachlorobiphenyl",
+        "PCB 209",
+        "perchlorobiphenyl"
+    ],
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#3_STAR"
+    },
+    "rdfs:label": "decachlorobiphenyl",
+    "rdfs:subClassOf": [
+        {
+            "@id": "obo:CHEBI_53156"
+        },
+        {
+            "@id": "obo:CHEBI_83390"
+        }
+    ]
+}

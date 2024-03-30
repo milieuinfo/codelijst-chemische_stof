@@ -1,0 +1,76 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_16973",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "obo:IAO_0000115": "A mineralocorticoid that is progesterone substituted at position 21 by a hydroxy group.",
+    "chebi:charge": "0",
+    "chebi:formula": "C21H30O3",
+    "chebi:inchi": "InChI=1S/C21H30O3/c1-20-9-7-14(23)11-13(20)3-4-15-16-5-6-18(19(24)12-22)21(16,2)10-8-17(15)20/h11,15-18,22H,3-10,12H2,1-2H3/t15-,16-,17-,18+,20-,21-/m0/s1",
+    "chebi:inchikey": "ZESRJSPZRDMNHY-YFWFAHHUSA-N",
+    "chebi:smiles": "[H][C@@]1(CC[C@@]2([H])[C@]3([H])CCC4=CC(=O)CC[C@]4(C)[C@@]3([H])CC[C@]12C)C(=O)CO",
+    "http://purl.uniprot.org/core/name": "21-hydroxyprogesterone",
+    "geneontology:hasDbXref": [
+        "PMID:22770225",
+        "Beilstein:2062123",
+        "CAS:64-85-7",
+        "Drug_Central:820",
+        "KEGG:C03205",
+        "KEGG:D07792",
+        "LIPID_MAPS_instance:LMST02030087",
+        "MetaCyc:11-DEOXYCORTICOSTERONE",
+        "PDBeChem:1CA",
+        "Reaxys:2062123",
+        "Wikipedia:Desoxycorticosterone"
+    ],
+    "geneontology:hasId": "16973",
+    "geneontology:hasSynonym": [
+        "21-hydroxyprogesterone",
+        "11-Deoxycorticosterone",
+        "21-Hydroxy-4-pregnene-3,20-dione",
+        "21-hydroxypregn-4-ene-3,20-dione",
+        "4-pregnen-21-ol-3,20-dione",
+        "Cortexone",
+        "Deoxycorticosterone",
+        "DESOXYCORTICOSTERONE",
+        "desoxycortone",
+        "Desoxycortone",
+        "DOC",
+        "Kendall's desoxy compound B",
+        "Reichstein's substance Q"
+    ],
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#3_STAR"
+    },
+    "rdfs:label": "11-deoxycorticosterone",
+    "rdfs:subClassOf": [
+        {
+            "@id": "obo:CHEBI_47909"
+        },
+        {
+            "@id": "obo:CHEBI_35344"
+        },
+        {
+            "@id": "obo:CHEBI_36885"
+        },
+        {
+            "@id": "obo:CHEBI_139590"
+        },
+        {
+            "@id": "obo:CHEBI_25354"
+        },
+        {
+            "@id": "b123_genid-00f1db82e1ab437c844115a94dc63e635-bn16973t8f17026"
+        },
+        {
+            "@id": "b123_genid-00f1db82e1ab437c844115a94dc63e635-bn16973t11f75771"
+        },
+        {
+            "@id": "b123_genid-00f1db82e1ab437c844115a94dc63e635-bn16973t11f77746"
+        }
+    ]
+}

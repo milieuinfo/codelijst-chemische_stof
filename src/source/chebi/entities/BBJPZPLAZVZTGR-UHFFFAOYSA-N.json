@@ -1,0 +1,33 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_82215",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "chebi:charge": "0",
+    "chebi:formula": "C6H7F3N4OS",
+    "chebi:inchi": "InChI=1S/C6H7F3N4OS/c1-10-4(14)13(2)5-12-11-3(15-5)6(7,8)9/h1-2H3,(H,10,14)",
+    "chebi:inchikey": "BBJPZPLAZVZTGR-UHFFFAOYSA-N",
+    "chebi:smiles": "CNC(=O)N(C)c1nnc(s1)C(F)(F)F",
+    "geneontology:hasDbXref": [
+        "CAS:25366-23-8",
+        "KEGG:C19093",
+        "PPDB:632"
+    ],
+    "geneontology:hasId": "82215",
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#2_STAR"
+    },
+    "rdfs:label": "Thiazafluron",
+    "rdfs:subClassOf": [
+        {
+            "@id": "obo:CHEBI_38101"
+        },
+        {
+            "@id": "obo:CHEBI_38106"
+        }
+    ]
+}

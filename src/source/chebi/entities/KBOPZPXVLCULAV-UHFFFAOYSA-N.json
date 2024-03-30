@@ -1,0 +1,92 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_6775",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "obo:IAO_0000115": "A monohydroxybenzoic acid that is salicylic acid substituted by an amino group at the 5-position.",
+    "chebi:charge": "0",
+    "chebi:formula": "C7H7NO3",
+    "chebi:inchi": "InChI=1S/C7H7NO3/c8-4-1-2-6(9)5(3-4)7(10)11/h1-3,9H,8H2,(H,10,11)",
+    "chebi:inchikey": "KBOPZPXVLCULAV-UHFFFAOYSA-N",
+    "chebi:smiles": "Nc1ccc(O)c(c1)C(O)=O",
+    "geneontology:hasDbXref": [
+        "PMID:28166217",
+        "Beilstein:2090421",
+        "CAS:89-57-6",
+        "Drug_Central:1710",
+        "DrugBank:DB00244",
+        "HMDB:HMDB0014389",
+        "KEGG:D00377",
+        "LINCS:LSM-5427",
+        "MetaCyc:CPD-12711",
+        "PMID:10648473",
+        "PMID:22304735",
+        "PMID:22648999",
+        "PMID:23137838",
+        "PMID:23146664",
+        "PMID:23302220",
+        "Reaxys:2090421",
+        "Wikipedia:Mesalamine"
+    ],
+    "geneontology:hasId": "6775",
+    "geneontology:hasSynonym": [
+        "3-carboxy-4-hydroxyaniline",
+        "5-amino-2-hydroxybenzoic acid",
+        "5-Aminosalicylic acid",
+        "5-ASA",
+        "Asacol",
+        "Asacolitin",
+        "Canasa",
+        "Claversal",
+        "Fisalamine",
+        "Iialda",
+        "Lixacol",
+        "m-Aminosalicylic acid",
+        "mesalazina",
+        "mesalazine",
+        "Mesalazine",
+        "mesalazinum",
+        "Mesasal",
+        "p-Aminosalicylsaeure",
+        "Pentasa",
+        "Rowasa",
+        "Salofalk"
+    ],
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#3_STAR"
+    },
+    "rdfs:label": "mesalamine",
+    "rdfs:subClassOf": [
+        {
+            "@id": "obo:CHEBI_33853"
+        },
+        {
+            "@id": "obo:CHEBI_25384"
+        },
+        {
+            "@id": "obo:CHEBI_33709"
+        },
+        {
+            "@id": "obo:CHEBI_33860"
+        },
+        {
+            "@id": "obo:CHEBI_25389"
+        },
+        {
+            "@id": "b217_genid-00f1db82e1ab437c844115a94dc63e635-bn6775tmms73f20551"
+        },
+        {
+            "@id": "b217_genid-00f1db82e1ab437c844115a94dc63e635-bn6775t8f16914"
+        },
+        {
+            "@id": "b217_genid-00f1db82e1ab437c844115a94dc63e635-bn6775t4f20551"
+        },
+        {
+            "@id": "b217_genid-00f1db82e1ab437c844115a94dc63e635-bn6775t11f35475"
+        }
+    ]
+}

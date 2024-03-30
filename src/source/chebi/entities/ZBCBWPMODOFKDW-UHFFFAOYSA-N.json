@@ -1,0 +1,54 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_28123",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "obo:IAO_0000115": "A member of the class of ethanolamines that is ethanolamine having a N-hydroxyethyl substituent.",
+    "chebi:charge": "0",
+    "chebi:formula": "C4H11NO2",
+    "chebi:inchi": "InChI=1S/C4H11NO2/c6-3-1-5-2-4-7/h5-7H,1-4H2",
+    "chebi:inchikey": "ZBCBWPMODOFKDW-UHFFFAOYSA-N",
+    "chebi:smiles": "OCCNCCO",
+    "geneontology:hasDbXref": [
+        "CAS:111-42-2",
+        "HMDB:HMDB0004437",
+        "KEGG:C06772",
+        "KEGG:D02337",
+        "LINCS:LSM-26236",
+        "PMID:12571685",
+        "PMID:15304302",
+        "PMID:23567043",
+        "PMID:24275050",
+        "Reaxys:605315",
+        "UM-BBD_compID:c0589",
+        "Wikipedia:Diethanolamine"
+    ],
+    "geneontology:hasId": "28123",
+    "geneontology:hasSynonym": [
+        "2,2'-iminodiethanol",
+        "bis-(2-hydroxy-ethyl)-amine",
+        "Diethanolamine",
+        "diolamine",
+        "H2dea",
+        "N,N-di(hydroxyethyl)amine"
+    ],
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#3_STAR"
+    },
+    "rdfs:label": "diethanolamine",
+    "rdfs:subClassOf": [
+        {
+            "@id": "obo:CHEBI_23981"
+        },
+        {
+            "@id": "b470_genid-00f1db82e1ab437c844115a94dc63e635-bn28123t8f16000"
+        },
+        {
+            "@id": "b470_genid-00f1db82e1ab437c844115a94dc63e635-bn28123t11f76967"
+        }
+    ]
+}

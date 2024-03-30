@@ -1,0 +1,50 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_62995",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "obo:IAO_0000115": "A glycol in which the two hydroxy groups are at positions 2 and 4 of 2-methylpentane (isopentane).",
+    "chebi:charge": "0",
+    "chebi:formula": "C6H14O2",
+    "chebi:inchi": "InChI=1S/C6H14O2/c1-5(7)4-6(2,3)8/h5,7-8H,4H2,1-3H3",
+    "chebi:inchikey": "SVTBMSDMJJWYQN-UHFFFAOYSA-N",
+    "chebi:smiles": "CC(O)CC(C)(C)O",
+    "geneontology:hasDbXref": [
+        "Beilstein:1098298",
+        "CAS:107-41-5",
+        "Patent:WO2010048675",
+        "PMID:14524450",
+        "PMID:20185893",
+        "PMID:2529099",
+        "PMID:886995",
+        "PPDB:1315",
+        "Reaxys:1098298",
+        "Wikipedia:2-Methyl-2,4-pentanediol"
+    ],
+    "geneontology:hasId": "62995",
+    "geneontology:hasSynonym": [
+        "1,1,3-trimethyl-1,3-propanediol",
+        "1,1,3-Trimethyltrimethylenediol",
+        "1,3,3-trimethyl-1,3-propanediol",
+        "1,3-dimethyl-3-hydroxybutanol",
+        "2,4-Dihydroxy-2-methylpentane",
+        "2-Methyl-2,4-pentandiol",
+        "2-Methyl-2,4-pentanediol",
+        "2-Methyl pentane-2,4-diol",
+        "4-Methyl-2,4-pentanediol",
+        "alpha,alpha,alpha'-trimethyltrimethylene glycol",
+        "Hexylene glycol",
+        "MPD"
+    ],
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#3_STAR"
+    },
+    "rdfs:label": "2-methylpentane-2,4-diol",
+    "rdfs:subClassOf": {
+        "@id": "obo:CHEBI_13643"
+    }
+}

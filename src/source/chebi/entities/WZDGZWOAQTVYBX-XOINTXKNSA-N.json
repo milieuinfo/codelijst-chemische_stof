@@ -1,0 +1,51 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_32223",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "obo:IAO_0000115": "Estran-3-one with a double bond between positions 5 and 10, and bearing both an ethynyl group and a hydroxy group at position 17 (R-configuration). A synthetic steroid hormone drug which acts as an agonist at all five type I steroid hormone receptors, it is used in the prevention of postmenopausal osteoporosis and for treatment of endometriosis.",
+    "chebi:charge": "0",
+    "chebi:formula": "C21H28O2",
+    "chebi:inchi": "InChI=1S/C21H28O2/c1-4-21(23)10-8-18-19-13(2)11-14-12-15(22)5-6-16(14)17(19)7-9-20(18,21)3/h1,13,17-19,23H,5-12H2,2-3H3/t13-,17-,18+,19-,20+,21+/m1/s1",
+    "chebi:inchikey": "WZDGZWOAQTVYBX-XOINTXKNSA-N",
+    "chebi:smiles": "[H][C@]12CC[C@@]3(C)[C@@]([H])(CC[C@@]3(O)C#C)[C@]1([H])[C@H](C)CC1=C2CCC(=O)C1",
+    "geneontology:hasDbXref": [
+        "CAS:5630-53-5",
+        "Drug_Central:2655",
+        "KEGG:D01639",
+        "Patent:US3340279",
+        "Patent:US3475465"
+    ],
+    "geneontology:hasId": "32223",
+    "geneontology:hasSynonym": [
+        "(17R)-17-hydroxy-7alpha-methyl-19-norpregn-5(10)-en-20-yn-3-one",
+        "(7alpha,17alpha)-17-hydroxy-7-methyl-19-norpregn-5(10)-en-20-yn-3-one",
+        "(7alpha,17beta)-17-ethynyl-17-hydroxy-7-methylestr-5(10)en-3-one",
+        "17alpha-ethynyl-17beta-hydroxy-7alpha-methylestr-5(10)-en-3-one",
+        "17-hydroxy-7alpha-methyl-19-nor-17alpha-pregn-5(10)-en-20-yn-3-one",
+        "tibolona",
+        "tibolonum"
+    ],
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#3_STAR"
+    },
+    "rdfs:label": "tibolone",
+    "rdfs:subClassOf": [
+        {
+            "@id": "obo:CHEBI_35343"
+        },
+        {
+            "@id": "obo:CHEBI_73477"
+        },
+        {
+            "@id": "b253_genid-00f1db82e1ab437c844115a94dc63e635-bn32223t11f50646"
+        },
+        {
+            "@id": "b253_genid-00f1db82e1ab437c844115a94dc63e635-bn32223t11f51060"
+        }
+    ]
+}

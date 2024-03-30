@@ -1,0 +1,39 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_143155",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "obo:IAO_0000115": "A member of the class of quinolines that is quinoline which is substituted by a chloro group at position 5 and by a 2-[(heptan-2-yl)oxy]-2-oxoethoxy group at position 8.",
+    "chebi:charge": "0",
+    "chebi:formula": "C18H22ClNO3",
+    "chebi:inchi": "InChI=1S/C18H22ClNO3/c1-3-4-5-7-13(2)23-17(21)12-22-16-10-9-15(19)14-8-6-11-20-18(14)16/h6,8-11,13H,3-5,7,12H2,1-2H3",
+    "chebi:inchikey": "COYBRKAVBMYYSF-UHFFFAOYSA-N",
+    "chebi:smiles": "C12=C(C=CC(=C1N=CC=C2)OCC(=O)OC(C)CCCCC)Cl",
+    "geneontology:hasId": "143155",
+    "geneontology:hasSynonym": [
+        "1-methylhexyl 2-[(5-chloro-8-quinolinyl)oxy]acetate",
+        "2-heptyl 2-(5-chloro-8-quinolinyloxy)acetate"
+    ],
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#3_STAR"
+    },
+    "rdfs:label": "heptan-2-yl [(5-chloroquinolin-8-yl)oxy]acetate",
+    "rdfs:subClassOf": [
+        {
+            "@id": "obo:CHEBI_33308"
+        },
+        {
+            "@id": "obo:CHEBI_35618"
+        },
+        {
+            "@id": "obo:CHEBI_36683"
+        },
+        {
+            "@id": "obo:CHEBI_26513"
+        }
+    ]
+}

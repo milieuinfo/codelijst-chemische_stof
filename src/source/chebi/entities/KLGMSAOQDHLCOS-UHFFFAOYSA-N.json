@@ -1,0 +1,52 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_38718",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "obo:IAO_0000115": "An organic thiophosphate that is O,O-diethyl hydrogen phosphorodithioate in which the hydrogen attached to a sulfur is replaced by a 2-[(ethoxycarbonyl)(methyl)amino]-2-oxoethyl group.",
+    "chebi:charge": "0",
+    "chebi:formula": "C10H20NO5PS2",
+    "chebi:inchi": "InChI=1S/C10H20NO5PS2/c1-5-14-10(13)11(4)9(12)8-19-17(18,15-6-2)16-7-3/h5-8H2,1-4H3",
+    "chebi:inchikey": "KLGMSAOQDHLCOS-UHFFFAOYSA-N",
+    "chebi:smiles": "CCOC(=O)N(C)C(=O)CSP(=S)(OCC)OCC",
+    "geneontology:hasDbXref": [
+        "Beilstein:1888011",
+        "CAS:2595-54-2",
+        "KEGG:C18661",
+        "PPDB:429",
+        "Reaxys:1888011"
+    ],
+    "geneontology:hasId": "38718",
+    "geneontology:hasSynonym": [
+        "ethyl {[(diethoxyphosphorothioyl)sulfanyl]acetyl}methylcarbamate",
+        "O,O-Diethyl S-(N-ethoxycarbonyl-N-methylcarbamoylmethyl) phosphorodithioate"
+    ],
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#3_STAR"
+    },
+    "rdfs:label": "mecarbam",
+    "rdfs:subClassOf": [
+        {
+            "@id": "obo:CHEBI_23003"
+        },
+        {
+            "@id": "obo:CHEBI_37512"
+        },
+        {
+            "@id": "obo:CHEBI_25715"
+        },
+        {
+            "@id": "b272_genid-00f1db82e1ab437c844115a94dc63e635-bn38718t11f22153"
+        },
+        {
+            "@id": "b272_genid-00f1db82e1ab437c844115a94dc63e635-bn38718t11f33286"
+        },
+        {
+            "@id": "b272_genid-00f1db82e1ab437c844115a94dc63e635-bn38718t11f38462"
+        }
+    ]
+}

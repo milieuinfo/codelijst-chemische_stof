@@ -1,0 +1,73 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_36773",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "obo:IAO_0000115": "A cyclic monoterpene ketone that is bornane bearing an oxo substituent at position 2. A naturally occurring monoterpenoid.",
+    "chebi:charge": "0",
+    "chebi:formula": "C10H16O",
+    "chebi:inchi": "InChI=1S/C10H16O/c1-9(2)7-4-5-10(9,3)8(11)6-7/h7H,4-6H2,1-3H3",
+    "chebi:inchikey": "DSSYKIVIOFKYAU-UHFFFAOYSA-N",
+    "chebi:smiles": "CC1(C)C2CCC1(C)C(=O)C2",
+    "http://purl.uniprot.org/core/name": "camphor",
+    "geneontology:hasDbXref": [
+        "CAS:76-22-2",
+        "CAS:464-48-2",
+        "KEGG:C00809",
+        "Beilstein:1907611",
+        "Beilstein:3196099",
+        "Beilstein:6475830",
+        "Drug_Central:470",
+        "DrugBank:DB01744",
+        "Gmelin:83275",
+        "KEGG:C18369",
+        "KEGG:D00098",
+        "KNApSAcK:C00000135",
+        "LIPID_MAPS_instance:LMPR0102120001",
+        "MetaCyc:Camphor",
+        "PMID:17488023",
+        "PMID:19384733",
+        "PMID:20950270",
+        "PMID:21562741",
+        "PMID:21620923",
+        "PMID:21777420",
+        "PMID:21906366",
+        "Reaxys:3196099",
+        "Wikipedia:Camphor"
+    ],
+    "geneontology:hasId": "36773",
+    "geneontology:hasSynonym": [
+        "1,7,7-trimethylbicyclo[2.2.1]heptan-2-one",
+        "2-bornanone",
+        "2-camphanone",
+        "2-keto-1,7,7-trimethylnorcamphane",
+        "bornan-2-one",
+        "Camphor",
+        "Formosa camphor",
+        "gum camphor",
+        "Japan camphor",
+        "Kampfer",
+        "laurel camphor",
+        "root bark oil",
+        "spirit of camphor"
+    ],
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#3_STAR"
+    },
+    "rdfs:label": "camphor",
+    "rdfs:subClassOf": [
+        {
+            "@id": "obo:CHEBI_23446"
+        },
+        {
+            "@id": "obo:CHEBI_22912"
+        },
+        {
+            "@id": "b115_genid-00f1db82e1ab437c844115a94dc63e635-bn36773t11f76924"
+        }
+    ]
+}

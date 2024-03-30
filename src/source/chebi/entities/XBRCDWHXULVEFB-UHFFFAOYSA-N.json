@@ -1,0 +1,41 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_27139",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "chebi:charge": "+1",
+    "chebi:formula": "C18H15Sn",
+    "chebi:inchi": "InChI=1S/3C6H5.Sn/c3*1-2-4-6-5-3-1;/h3*1-5H;/q;;;+1",
+    "chebi:inchikey": "XBRCDWHXULVEFB-UHFFFAOYSA-N",
+    "chebi:smiles": "c1ccc(cc1)[Sn+](c1ccccc1)c1ccccc1",
+    "geneontology:hasDbXref": [
+        "Beilstein:3907538",
+        "CAS:668-34-8",
+        "Gmelin:336769",
+        "UM-BBD_compID:c0696"
+    ],
+    "geneontology:hasId": "27139",
+    "geneontology:hasSynonym": [
+        "[SnPh3](+)",
+        "Fentin",
+        "SnPh3(+)",
+        "triphenylstannylium",
+        "Triphenyltin"
+    ],
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#3_STAR"
+    },
+    "rdfs:label": "triphenyltin(1+)",
+    "rdfs:subClassOf": [
+        {
+            "@id": "obo:CHEBI_25717"
+        },
+        {
+            "@id": "b262_genid-00f1db82e1ab437c844115a94dc63e635-bn27139t11f22583"
+        }
+    ]
+}

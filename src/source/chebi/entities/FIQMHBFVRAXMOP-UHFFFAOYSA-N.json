@@ -1,0 +1,41 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_36601",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "obo:IAO_0000115": "A phosphine oxide in which the substituents on phosphorus are three phenyl groups.",
+    "chebi:charge": "0",
+    "chebi:formula": "C18H15OP",
+    "chebi:inchi": "InChI=1S/C18H15OP/c19-20(16-10-4-1-5-11-16,17-12-6-2-7-13-17)18-14-8-3-9-15-18/h1-15H",
+    "chebi:inchikey": "FIQMHBFVRAXMOP-UHFFFAOYSA-N",
+    "chebi:smiles": "O=P(c1ccccc1)(c1ccccc1)c1ccccc1",
+    "geneontology:hasDbXref": [
+        "Beilstein:745854",
+        "CAS:791-28-6",
+        "Gmelin:6758",
+        "PMID:24280613",
+        "PMID:24285309",
+        "Reaxys:745854",
+        "Wikipedia:Triphenylphosphine_oxide"
+    ],
+    "geneontology:hasId": "36601",
+    "geneontology:hasSynonym": [
+        "triphenyl-lambda(5)-phosphanone",
+        "Triphenylphosphanoxid",
+        "triphenylphosphanoxide",
+        "triphenylphosphine oxide",
+        "triphenyl phosphine oxide",
+        "triphenyl phosphorus oxide"
+    ],
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#3_STAR"
+    },
+    "rdfs:label": "triphenylphosphane oxide",
+    "rdfs:subClassOf": {
+        "@id": "obo:CHEBI_59656"
+    }
+}

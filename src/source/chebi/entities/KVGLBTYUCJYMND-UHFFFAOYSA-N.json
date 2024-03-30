@@ -1,0 +1,49 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_38689",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "chebi:charge": "0",
+    "chebi:formula": "C10H15OPS2",
+    "chebi:inchi": "InChI=1S/C10H15OPS2/c1-3-11-12(13,4-2)14-10-8-6-5-7-9-10/h5-9H,3-4H2,1-2H3",
+    "chebi:inchikey": "KVGLBTYUCJYMND-UHFFFAOYSA-N",
+    "chebi:smiles": "CCOP(=S)(CC)Sc1ccccc1",
+    "geneontology:hasDbXref": [
+        "Beilstein:1958949",
+        "CAS:944-22-9",
+        "KEGG:C18987",
+        "PPDB:356"
+    ],
+    "geneontology:hasId": "38689",
+    "geneontology:hasSynonym": [
+        "(+-)-O-Ethyl S-phenyl ethylphosphonodithioate",
+        "Dyphonate",
+        "Ethylphosphonodithioic acid O-ethyl S-phenyl ester",
+        "O-ethyl S-phenyl ethylphosphonodithioate"
+    ],
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#3_STAR"
+    },
+    "rdfs:label": "fonofos",
+    "rdfs:subClassOf": [
+        {
+            "@id": "obo:CHEBI_37512"
+        },
+        {
+            "@id": "obo:CHEBI_25715"
+        },
+        {
+            "@id": "b315_genid-00f1db82e1ab437c844115a94dc63e635-bn38689t11f33286"
+        },
+        {
+            "@id": "b315_genid-00f1db82e1ab437c844115a94dc63e635-bn38689t11f37733"
+        },
+        {
+            "@id": "b315_genid-00f1db82e1ab437c844115a94dc63e635-bn38689t11f38462"
+        }
+    ]
+}

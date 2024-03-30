@@ -1,0 +1,28 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_82326",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "chebi:charge": "0",
+    "chebi:formula": "C4H8O",
+    "chebi:inchi": "InChI=1S/C4H8O/c1-2-4-3-5-4/h4H,2-3H2,1H3",
+    "chebi:inchikey": "RBACIKXCRWGCBB-UHFFFAOYSA-N",
+    "chebi:smiles": "CCC1CO1",
+    "geneontology:hasDbXref": [
+        "CAS:106-88-7",
+        "KEGG:C19237"
+    ],
+    "geneontology:hasId": "82326",
+    "geneontology:hasSynonym": "1-Butene oxide",
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#2_STAR"
+    },
+    "rdfs:label": "1,2-Epoxybutane",
+    "rdfs:subClassOf": {
+        "@id": "obo:CHEBI_32955"
+    }
+}

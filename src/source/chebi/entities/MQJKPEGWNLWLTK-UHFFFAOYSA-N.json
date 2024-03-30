@@ -1,0 +1,95 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_4325",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "obo:IAO_0000115": "A  sulfone that is diphenylsulfone in which the hydrogen atom at the 4 position of each of the phenyl groups is substituted by an amino group. It is active against a wide  range of bacteria, but is mainly employed for its actions against Mycobacterium leprae, being used as part of multidrug regimens in the treatment of all forms of leprosy.",
+    "chebi:charge": "0",
+    "chebi:formula": "C12H12N2O2S",
+    "chebi:inchi": "InChI=1S/C12H12N2O2S/c13-9-1-5-11(6-2-9)17(15,16)12-7-3-10(14)4-8-12/h1-8H,13-14H2",
+    "chebi:inchikey": "MQJKPEGWNLWLTK-UHFFFAOYSA-N",
+    "chebi:smiles": "Nc1ccc(cc1)S(=O)(=O)c1ccc(N)cc1",
+    "geneontology:hasDbXref": [
+        "Beilstein:788055",
+        "CAS:80-08-0",
+        "Drug_Central:782",
+        "DrugBank:DB00250",
+        "HMDB:HMDB0014395",
+        "KEGG:C07666",
+        "KEGG:D00592",
+        "LINCS:LSM-5714",
+        "Patent:FR829926",
+        "PMID:16361748",
+        "PMID:18035772",
+        "PMID:24232126",
+        "PMID:24512442",
+        "PMID:28434260",
+        "PMID:28699887",
+        "PMID:28732451",
+        "PMID:29045131",
+        "PMID:29192974",
+        "PMID:29192999",
+        "PMID:29233746",
+        "PMID:29280553",
+        "Reaxys:788055",
+        "Wikipedia:Dapsone"
+    ],
+    "geneontology:hasId": "4325",
+    "geneontology:hasSynonym": [
+        "1,1'-sulfonylbis(4-aminobenzene)",
+        "4,4'-dapsone",
+        "4,4'-diaminodiphenyl sulfone",
+        "4,4'-sulfonylbisaniline",
+        "4,4'-Sulfonylbisbenzenamine",
+        "4,4'-sulfonyldianiline",
+        "4-(4-amino-benzenesulfonyl)-phenylamine",
+        "4-(4-aminophenylsulfonyl)aniline",
+        "4-(4-aminophenylsulfonyl)benzenamine",
+        "4-aminophenyl sulfone",
+        "bis(4-aminophenyl)sulfone",
+        "Bis(p-aminophenyl) sulfone",
+        "DADPS",
+        "dapsona",
+        "Dapsone",
+        "DAPSONE",
+        "dapsonum",
+        "DDS",
+        "Diaphenylsulfone",
+        "DIAPHENYLSULFONE",
+        "p,p'-diaminodiphenyl sulfone",
+        "p,p-sulphonylbisbenzamine",
+        "p,p-sulphonylbisbenzenamine",
+        "p-aminophenyl sulfone"
+    ],
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#3_STAR"
+    },
+    "rdfs:label": "dapsone",
+    "rdfs:subClassOf": [
+        {
+            "@id": "obo:CHEBI_48975"
+        },
+        {
+            "@id": "obo:CHEBI_35850"
+        },
+        {
+            "@id": "b557_genid-00f1db82e1ab437c844115a94dc63e635-bn4325t11f35441"
+        },
+        {
+            "@id": "b557_genid-00f1db82e1ab437c844115a94dc63e635-bn4325t11f35472"
+        },
+        {
+            "@id": "b557_genid-00f1db82e1ab437c844115a94dc63e635-bn4325t11f35816"
+        },
+        {
+            "@id": "b557_genid-00f1db82e1ab437c844115a94dc63e635-bn4325t11f38068"
+        },
+        {
+            "@id": "b557_genid-00f1db82e1ab437c844115a94dc63e635-bn4325t8f78360"
+        }
+    ]
+}

@@ -1,0 +1,69 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_3017",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "obo:IAO_0000115": "The methyl ester of bensulfuron. An acetolactate synthase inhibitor, it is used as a herbicide for the control of a variety of both annual and perennial weeds in crops, particularly wheat and rice. It is not licensed for use within the UK.",
+    "chebi:charge": "0",
+    "chebi:formula": "C16H18N4O7S",
+    "chebi:inchi": "InChI=1S/C16H18N4O7S/c1-25-12-8-13(26-2)18-15(17-12)19-16(22)20-28(23,24)9-10-6-4-5-7-11(10)14(21)27-3/h4-8H,9H2,1-3H3,(H2,17,18,19,20,22)",
+    "chebi:inchikey": "XMQFTWRPUQYINF-UHFFFAOYSA-N",
+    "chebi:smiles": "O=C(NS(CC=1C=CC=CC1C(OC)=O)(=O)=O)NC2=NC(=CC(=N2)OC)OC",
+    "geneontology:hasDbXref": [
+        "CAS:83055-99-6",
+        "KEGG:C10937",
+        "PDBeChem:60G",
+        "Pesticides:derivatives/bensulfuron-methyl",
+        "PMID:24406793",
+        "PMID:25463855",
+        "PMID:25797565",
+        "PMID:26021849",
+        "PMID:26453234",
+        "PPDB:68",
+        "Reaxys:7447488"
+    ],
+    "geneontology:hasId": "3017",
+    "geneontology:hasSynonym": [
+        "Bensulfuron methyl",
+        "bensulfuron methyl ester",
+        "methyl 2-({[(4,6-dimethoxypyrimidin-2-yl)carbamoyl]sulfamoyl}methyl)benzoate",
+        "methyl 2-[[[[[(4,6-dimethoxy-2-pyrimidinyl)amino]carbonyl]amino]sulfonyl]methyl]benzoate",
+        "methyl alpha-((4,6-dimethoxypyrimidin-2-yl)ureidosulfonyl)-o-toluate",
+        "methyl alpha-[(4,6-dimethoxypyrimidin-2-ylcarbamoyl)sulfamoyl]-o-toluate",
+        "Methyl bensulfuron"
+    ],
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#3_STAR"
+    },
+    "rdfs:label": "bensulfuron-methyl",
+    "rdfs:subClassOf": [
+        {
+            "@id": "obo:CHEBI_35618"
+        },
+        {
+            "@id": "obo:CHEBI_25248"
+        },
+        {
+            "@id": "obo:CHEBI_39447"
+        },
+        {
+            "@id": "b339_genid-00f1db82e1ab437c844115a94dc63e635-bn3017t11f22180"
+        },
+        {
+            "@id": "b339_genid-00f1db82e1ab437c844115a94dc63e635-bn3017t11f24527"
+        },
+        {
+            "@id": "b339_genid-00f1db82e1ab437c844115a94dc63e635-bn3017t11f33286"
+        },
+        {
+            "@id": "obo:CHEBI_76983"
+        },
+        {
+            "@id": "b339_genid-00f1db82e1ab437c844115a94dc63e635-bn3017t8f132880"
+        }
+    ]
+}

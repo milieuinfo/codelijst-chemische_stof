@@ -1,0 +1,51 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_28093",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "obo:IAO_0000115": "A bornane monoterpenoid that is 1,7,7-trimethylbicyclo[2.2.1]heptane substituted by a hydroxy group at position 2.",
+    "chebi:charge": "0",
+    "chebi:formula": "C10H18O",
+    "chebi:inchi": "InChI=1S/C10H18O/c1-9(2)7-4-5-10(9,3)8(11)6-7/h7-8,11H,4-6H2,1-3H3",
+    "chebi:inchikey": "DTGKSKDOIYIVQL-UHFFFAOYSA-N",
+    "chebi:smiles": "CC1(C)C2CCC1(C)C(O)C2",
+    "http://purl.uniprot.org/core/name": "borneol",
+    "geneontology:hasDbXref": [
+        "Beilstein:1903042",
+        "CAS:507-70-0",
+        "Gmelin:185292",
+        "KEGG:C01411",
+        "KNApSAcK:C00003028"
+    ],
+    "geneontology:hasId": "28093",
+    "geneontology:hasSynonym": [
+        "Sumatra camphor",
+        "1,7,7-trimethylbicyclo[2.2.1]heptan-2-ol",
+        "Borneo camphor",
+        "Borneol",
+        "bornyl alcohol",
+        "endo-1,7,7-trimethylbicyclo[2.2.1]heptan-2-ol",
+        "endo-2-bornanol",
+        "endo-2-camphanol",
+        "endo-2-hydroxycamphane"
+    ],
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#3_STAR"
+    },
+    "rdfs:label": "borneol",
+    "rdfs:subClassOf": [
+        {
+            "@id": "obo:CHEBI_22912"
+        },
+        {
+            "@id": "b121_genid-00f1db82e1ab437c844115a94dc63e635-bn28093t11f25212"
+        },
+        {
+            "@id": "b121_genid-00f1db82e1ab437c844115a94dc63e635-bn28093t11f27311"
+        }
+    ]
+}

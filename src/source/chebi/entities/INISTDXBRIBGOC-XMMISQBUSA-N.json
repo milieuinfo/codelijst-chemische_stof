@@ -1,0 +1,45 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_39367",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "obo:IAO_0000115": "The (2R) diastereomers of fluvalinate. A synthetic pyrethroid insecticide, it is used to control varroa mites in honey bee colonies.",
+    "chebi:charge": "0",
+    "chebi:formula": "C26H22ClF3N2O3",
+    "chebi:inchi": "InChI=1S/C26H22ClF3N2O3/c1-16(2)24(32-22-12-11-18(14-21(22)27)26(28,29)30)25(33)35-23(15-31)17-7-6-10-20(13-17)34-19-8-4-3-5-9-19/h3-14,16,23-24,32H,1-2H3/t23?,24-/m1/s1",
+    "chebi:inchikey": "INISTDXBRIBGOC-XMMISQBUSA-N",
+    "chebi:smiles": "CC(C)[C@@H](Nc1ccc(cc1Cl)C(F)(F)F)C(=O)OC(C#N)c1cccc(Oc2ccccc2)c1",
+    "geneontology:hasDbXref": [
+        "Beilstein:8398002",
+        "CAS:102851-06-9",
+        "KEGG:C18790",
+        "PPDB:608",
+        "VSDB:608"
+    ],
+    "geneontology:hasId": "39367",
+    "geneontology:hasSynonym": [
+        "tau-fluvalinate",
+        "(RS)-alpha-cyano-3-phenoxybenzyl N-(2-chloro-alpha,alpha,alpha-trifluoro-p-tolyl)-D-valinate",
+        "cyano(3-phenoxyphenyl)methyl N-[2-chloro-4-(trifluoromethyl)phenyl]-D-valinate",
+        "N-[2-chloro-4-(trifluoromethyl)phenyl]-D-valine cyano(3-phenoxyphenyl)methyl ester"
+    ],
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#3_STAR"
+    },
+    "rdfs:label": "tau-fluvalinate",
+    "rdfs:subClassOf": [
+        {
+            "@id": "obo:CHEBI_5135"
+        },
+        {
+            "@id": "b646_genid-00f1db82e1ab437c844115a94dc63e635-bn39367t11f39116"
+        },
+        {
+            "@id": "b646_genid-00f1db82e1ab437c844115a94dc63e635-bn39367t11f39259"
+        }
+    ]
+}

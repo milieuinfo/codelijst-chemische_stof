@@ -1,0 +1,47 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_89206",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "chebi:charge": "0",
+    "chebi:formula": "C6H12O",
+    "chebi:inchi": "InChI=1S/C6H12O/c1-3-4-5-6(2)7/h3-5H2,1-2H3",
+    "chebi:inchikey": "QQZOPKMRPOGIEB-UHFFFAOYSA-N",
+    "chebi:smiles": "O=C(CCCC)C",
+    "http://purl.uniprot.org/core/name": "hexan-2-one",
+    "geneontology:hasDbXref": [
+        "PMID:17314143",
+        "PMID:24023812",
+        "PMID:5556886",
+        "MetaCyc:2K-ADIPATE",
+        "CAS:591-78-6",
+        "HMDB:HMDB0005842",
+        "PMID:2550357",
+        "PMID:6278344"
+    ],
+    "geneontology:hasId": "89206",
+    "geneontology:hasSynonym": [
+        "hexan-2-one",
+        "2-Hexanone",
+        "2-Hexanone Methyl N-butyl ketone",
+        "Butyl methyl ketone",
+        "Hexan-2-one",
+        "Methyl butyl ketone",
+        "Methyl N-butyl ketone",
+        "MNBK",
+        "N-Butyl methyl ketone",
+        "N-C4H9COCH3",
+        "Propylacetone"
+    ],
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#2_STAR"
+    },
+    "rdfs:label": "2-Oxohexane",
+    "rdfs:subClassOf": {
+        "@id": "obo:CHEBI_17087"
+    }
+}

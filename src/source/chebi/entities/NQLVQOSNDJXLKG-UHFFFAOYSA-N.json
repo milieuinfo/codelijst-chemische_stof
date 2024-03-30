@@ -1,0 +1,50 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_81941",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "obo:IAO_0000115": "A monothiocarbamic ester that is carbamothioic S-acid substituted by two propyl groups at the nitrogen atom and a benzyl group at the the sulfur atom.",
+    "chebi:charge": "0",
+    "chebi:formula": "C14H21NOS",
+    "chebi:inchi": "InChI=1S/C14H21NOS/c1-3-10-15(11-4-2)14(16)17-12-13-8-6-5-7-9-13/h5-9H,3-4,10-12H2,1-2H3",
+    "chebi:inchikey": "NQLVQOSNDJXLKG-UHFFFAOYSA-N",
+    "chebi:smiles": "CCCN(CCC)C(=O)SCc1ccccc1",
+    "geneontology:hasDbXref": [
+        "CAS:52888-80-9",
+        "KEGG:C18760",
+        "Patent:US2011152098",
+        "Patent:WO2011075562",
+        "Pesticides:prosulfocarb",
+        "PMID:23180504",
+        "PMID:23423954",
+        "PPDB:557",
+        "Reaxys:4804364"
+    ],
+    "geneontology:hasId": "81941",
+    "geneontology:hasSynonym": "S-benzyl dipropylcarbamothioate",
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#3_STAR"
+    },
+    "rdfs:label": "prosulfocarb",
+    "rdfs:subClassOf": [
+        {
+            "@id": "obo:CHEBI_22712"
+        },
+        {
+            "@id": "obo:CHEBI_38128"
+        },
+        {
+            "@id": "b111_genid-00f1db82e1ab437c844115a94dc63e635-bn81941t11f24527"
+        },
+        {
+            "@id": "b111_genid-00f1db82e1ab437c844115a94dc63e635-bn81941t11f35703"
+        },
+        {
+            "@id": "b111_genid-00f1db82e1ab437c844115a94dc63e635-bn81941t11f78298"
+        }
+    ]
+}

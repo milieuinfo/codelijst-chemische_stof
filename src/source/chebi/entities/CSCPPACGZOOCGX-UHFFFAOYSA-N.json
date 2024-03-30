@@ -1,0 +1,79 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_15347",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "obo:IAO_0000115": "A methyl ketone that consists of propane bearing an oxo group at C2.",
+    "chebi:charge": "0",
+    "chebi:formula": "C3H6O",
+    "chebi:inchi": "InChI=1S/C3H6O/c1-3(2)4/h1-2H3",
+    "chebi:inchikey": "CSCPPACGZOOCGX-UHFFFAOYSA-N",
+    "chebi:smiles": "CC(C)=O",
+    "http://purl.uniprot.org/core/name": "acetone",
+    "geneontology:hasDbXref": [
+        "PMID:17190852",
+        "Beilstein:635680",
+        "CAS:67-64-1",
+        "Gmelin:1466",
+        "HMDB:HMDB0001659",
+        "KEGG:C00207",
+        "KEGG:D02311",
+        "LIPID_MAPS_instance:LMFA12000057",
+        "MetaCyc:ACETONE",
+        "PDBeChem:ACN",
+        "PMID:17347819",
+        "Reaxys:635680",
+        "UM-BBD_compID:c0556",
+        "Wikipedia:Acetone"
+    ],
+    "geneontology:hasId": "15347",
+    "geneontology:hasSynonym": [
+        "acetone",
+        "methyl ketone",
+        "2-Propanone",
+        "Aceton",
+        "Acetone",
+        "ACETONE",
+        "Azeton",
+        "beta-Ketopropane",
+        "dimethylcetone",
+        "Dimethylketon",
+        "dimethylketone",
+        "Dimethyl ketone",
+        "propan-2-one",
+        "Propanon",
+        "propanone",
+        "Pyroacetic ether"
+    ],
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#3_STAR"
+    },
+    "rdfs:label": "acetone",
+    "rdfs:subClassOf": [
+        {
+            "@id": "obo:CHEBI_51867"
+        },
+        {
+            "@id": "obo:CHEBI_134179"
+        },
+        {
+            "@id": "obo:CHEBI_73693"
+        },
+        {
+            "@id": "obo:CHEBI_26292"
+        },
+        {
+            "@id": "b358_genid-00f1db82e1ab437c844115a94dc63e635-bn15347t11f48358"
+        },
+        {
+            "@id": "b358_genid-00f1db82e1ab437c844115a94dc63e635-bn15347t11f77746"
+        },
+        {
+            "@id": "b358_genid-00f1db82e1ab437c844115a94dc63e635-bn15347t11f77941"
+        }
+    ]
+}

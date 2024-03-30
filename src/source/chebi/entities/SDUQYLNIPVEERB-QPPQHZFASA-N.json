@@ -1,0 +1,176 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_175901",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "obo:IAO_0000115": "A 2'-deoxycytidine having geminal fluoro substituents in the 2'-position. An inhibitor of ribonucleotide reductase, gemcitabine is used in the treatment of various carcinomas, particularly non-small cell lung cancer, pancreatic cancer, bladder cancer and breast cancer.",
+    "chebi:charge": "0",
+    "chebi:formula": "C9H11F2N3O4",
+    "chebi:inchi": "InChI=1S/C9H11F2N3O4/c10-9(11)6(16)4(3-15)18-7(9)14-2-1-5(12)13-8(14)17/h1-2,4,6-7,15-16H,3H2,(H2,12,13,17)/t4-,6-,7-/m1/s1",
+    "chebi:inchikey": "SDUQYLNIPVEERB-QPPQHZFASA-N",
+    "chebi:smiles": "Nc1ccn([C@@H]2O[C@H](CO)[C@@H](O)C2(F)F)c(=O)n1",
+    "geneontology:hasDbXref": [
+        "PMID:12520460",
+        "DrugBank:DB00441",
+        "PMID:17347561",
+        "Beilstein:5382060",
+        "CAS:95058-81-4",
+        "Drug_Central:1283",
+        "KEGG:C07650",
+        "KEGG:D02368",
+        "LINCS:LSM-5333",
+        "Patent:EP1939198",
+        "Patent:EP2108368",
+        "Patent:EP2275135",
+        "Patent:GB2136425",
+        "Patent:US2009124797",
+        "Patent:US2010111852",
+        "Patent:US4808614",
+        "PDBeChem:GEO",
+        "PMID:11034044",
+        "PMID:11061612",
+        "PMID:11088063",
+        "PMID:11122828",
+        "PMID:11132538",
+        "PMID:11142482",
+        "PMID:11221019",
+        "PMID:11356111",
+        "PMID:11374818",
+        "PMID:11489002",
+        "PMID:11504793",
+        "PMID:11510027",
+        "PMID:11585734",
+        "PMID:11595724",
+        "PMID:11807603",
+        "PMID:11859947",
+        "PMID:11901308",
+        "PMID:12057041",
+        "PMID:12057046",
+        "PMID:12057157",
+        "PMID:12115355",
+        "PMID:12142097",
+        "PMID:12571808",
+        "PMID:12722678",
+        "PMID:12722691",
+        "PMID:12743987",
+        "PMID:12761494",
+        "PMID:12798170",
+        "PMID:12917815",
+        "PMID:12954073",
+        "PMID:14606642",
+        "PMID:14653877",
+        "PMID:14720338",
+        "PMID:15131028",
+        "PMID:15160243",
+        "PMID:15221904",
+        "PMID:15282439",
+        "PMID:15297392",
+        "PMID:15542781",
+        "PMID:15637766",
+        "PMID:15744590",
+        "PMID:16001951",
+        "PMID:16041610",
+        "PMID:16080557",
+        "PMID:16143373",
+        "PMID:16149285",
+        "PMID:16317298",
+        "PMID:16500746",
+        "PMID:16555971",
+        "PMID:16584929",
+        "PMID:16807461",
+        "PMID:16807463",
+        "PMID:16894289",
+        "PMID:16905983",
+        "PMID:17101674",
+        "PMID:17296311",
+        "PMID:17296587",
+        "PMID:17429628",
+        "PMID:17460420",
+        "PMID:17602464",
+        "PMID:17639396",
+        "PMID:17887663",
+        "PMID:17939651",
+        "PMID:17941128",
+        "PMID:17987263",
+        "PMID:18035967",
+        "PMID:18050344",
+        "PMID:18086345",
+        "PMID:18166944",
+        "PMID:18186604",
+        "PMID:18257544",
+        "PMID:18348652",
+        "PMID:18773046",
+        "PMID:18789834",
+        "PMID:18819792",
+        "PMID:18981552",
+        "PMID:19034448",
+        "PMID:19177022",
+        "PMID:19399788",
+        "PMID:19839926",
+        "PMID:19879060",
+        "PMID:22763439",
+        "PMID:28594276",
+        "PMID:28608357",
+        "PMID:28912244",
+        "Reaxys:5382060",
+        "Wikipedia:Gemcitabine"
+    ],
+    "geneontology:hasId": "175901",
+    "geneontology:hasSynonym": [
+        "2',2'-Difluorodeoxycytidine",
+        "2'-deoxy-2',2'-difluorocytidine",
+        "2'-Deoxy-2',2'-difluorocytidine",
+        "4-amino-1-((2R,4R,5R)-3,3-difluoro-4-hydroxy-5-(hydroxymethyl)-tetrahydrofuran-2-yl)pyrimidin-2(1H)-one",
+        "gemcitabina",
+        "gemcitabinum"
+    ],
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#3_STAR"
+    },
+    "rdfs:label": "gemcitabine",
+    "rdfs:subClassOf": [
+        {
+            "@id": "obo:CHEBI_37143"
+        },
+        {
+            "@id": "obo:CHEBI_19255"
+        },
+        {
+            "@id": "b312_genid-00f1db82e1ab437c844115a94dc63e635-bn175901t11f35221"
+        },
+        {
+            "@id": "b312_genid-00f1db82e1ab437c844115a94dc63e635-bn175901t11f35610"
+        },
+        {
+            "@id": "b312_genid-00f1db82e1ab437c844115a94dc63e635-bn175901t11f35703"
+        },
+        {
+            "@id": "b312_genid-00f1db82e1ab437c844115a94dc63e635-bn175901t11f35705"
+        },
+        {
+            "@id": "b312_genid-00f1db82e1ab437c844115a94dc63e635-bn175901t11f36044"
+        },
+        {
+            "@id": "b312_genid-00f1db82e1ab437c844115a94dc63e635-bn175901t11f47868"
+        },
+        {
+            "@id": "b312_genid-00f1db82e1ab437c844115a94dc63e635-bn175901t11f50266"
+        },
+        {
+            "@id": "b312_genid-00f1db82e1ab437c844115a94dc63e635-bn175901t11f59517"
+        },
+        {
+            "@id": "b312_genid-00f1db82e1ab437c844115a94dc63e635-bn175901t11f74213"
+        },
+        {
+            "@id": "b312_genid-00f1db82e1ab437c844115a94dc63e635-bn175901t11f78298"
+        },
+        {
+            "@id": "b312_genid-00f1db82e1ab437c844115a94dc63e635-bn175901t11f132992"
+        }
+    ]
+}

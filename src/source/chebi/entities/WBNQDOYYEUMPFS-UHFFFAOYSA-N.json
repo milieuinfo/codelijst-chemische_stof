@@ -1,0 +1,55 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_34873",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "obo:IAO_0000115": "A nitrosamine that is N-ethylethanamine substituted by a nitroso group at the N-atom.",
+    "chebi:charge": "0",
+    "chebi:formula": "C4H10N2O",
+    "chebi:inchi": "InChI=1S/C4H10N2O/c1-3-6(4-2)5-7/h3-4H2,1-2H3",
+    "chebi:inchikey": "WBNQDOYYEUMPFS-UHFFFAOYSA-N",
+    "chebi:smiles": "CCN(CC)N=O",
+    "geneontology:hasDbXref": [
+        "Beilstein:1744991",
+        "CAS:55-18-5",
+        "KEGG:C14422",
+        "PMID:24696076",
+        "PMID:24755254",
+        "Reaxys:1744991"
+    ],
+    "geneontology:hasId": "34873",
+    "geneontology:hasSynonym": [
+        "1,1-diethyl-2-oxohydrazine",
+        "DANA",
+        "DEN",
+        "Diethylnitrosamine",
+        "diethylnitrosoamine",
+        "N,N-diethylnitrosamine",
+        "N,N-diethylnitrosoamine",
+        "NDEA",
+        "N-ethyl-N-nitrosoethanamine",
+        "N-Nitrosodiethylamine"
+    ],
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#3_STAR"
+    },
+    "rdfs:label": "N-nitrosodiethylamine",
+    "rdfs:subClassOf": [
+        {
+            "@id": "obo:CHEBI_35803"
+        },
+        {
+            "@id": "b384_genid-00f1db82e1ab437c844115a94dc63e635-bn34873t11f25435"
+        },
+        {
+            "@id": "b384_genid-00f1db82e1ab437c844115a94dc63e635-bn34873t11f50903"
+        },
+        {
+            "@id": "b384_genid-00f1db82e1ab437c844115a94dc63e635-bn34873t11f50908"
+        }
+    ]
+}

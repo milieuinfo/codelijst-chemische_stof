@@ -1,0 +1,100 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@graph": [
+        {
+            "@id": "obo:CHEBI_39183",
+            "@type": "http://www.w3.org/2002/07/owl#Class",
+            "chebi:charge": "0",
+            "chebi:formula": "C7H14N4O3",
+            "chebi:inchi": "InChI=1S/C7H14N4O3/c1-8-7(10-11(12)13)9-4-6-2-3-14-5-6/h6H,2-5H2,1H3,(H2,8,9,10)",
+            "chebi:inchikey": "YKBZOVFACRVRJN-UHFFFAOYSA-N",
+            "chebi:smiles": "CNC(NCC1CCOC1)=N[N+]([O-])=O",
+            "geneontology:hasDbXref": [
+                "Beilstein:10659734",
+                "CAS:165252-70-0",
+                "KEGG:C18509",
+                "Pesticides:dinotefuran",
+                "PPDB:1195"
+            ],
+            "geneontology:hasId": "39183",
+            "geneontology:hasSynonym": [
+                "1-methyl-2-nitro-3-(tetrahydro-3-furylmethyl)guanidine",
+                "1-methyl-2-nitro-3-(tetrahydrofuran-3-ylmethyl)guanidine",
+                "Dinotefuran"
+            ],
+            "geneontology:inSubset": {
+                "@id": "obo:chebi#3_STAR"
+            },
+            "rdfs:label": "dinotefuran",
+            "rdfs:subClassOf": [
+                {
+                    "@id": "obo:CHEBI_26912"
+                },
+                {
+                    "@id": "b87_genid-00f1db82e1ab437c844115a94dc63e635-bn39183t11f25540"
+                },
+                {
+                    "@id": "b87_genid-00f1db82e1ab437c844115a94dc63e635-bn39183t8f39181"
+                }
+            ]
+        },
+        {
+            "@id": "obo:CHEBI_39184",
+            "@type": "http://www.w3.org/2002/07/owl#Class",
+            "chebi:charge": "0",
+            "chebi:formula": "C7H14N4O3",
+            "chebi:inchi": "InChI=1S/C7H14N4O3/c1-8-7(10-11(12)13)9-4-6-2-3-14-5-6/h6H,2-5H2,1H3,(H2,8,9,10)",
+            "chebi:inchikey": "YKBZOVFACRVRJN-UHFFFAOYSA-N",
+            "chebi:smiles": "CN\\C(NCC1CCOC1)=N/[N+]([O-])=O",
+            "geneontology:hasDbXref": "Beilstein:9048445",
+            "geneontology:hasId": "39184",
+            "geneontology:hasSynonym": "(2E)-1-methyl-2-nitro-3-(tetrahydrofuran-3-ylmethyl)guanidine",
+            "geneontology:inSubset": {
+                "@id": "obo:chebi#3_STAR"
+            },
+            "rdfs:label": "(E)-dinotefuran",
+            "rdfs:subClassOf": {
+                "@id": "obo:CHEBI_39183",
+                "@type": "http://www.w3.org/2002/07/owl#Class",
+                "chebi:charge": "0",
+                "chebi:formula": "C7H14N4O3",
+                "chebi:inchi": "InChI=1S/C7H14N4O3/c1-8-7(10-11(12)13)9-4-6-2-3-14-5-6/h6H,2-5H2,1H3,(H2,8,9,10)",
+                "chebi:inchikey": "YKBZOVFACRVRJN-UHFFFAOYSA-N",
+                "chebi:smiles": "CNC(NCC1CCOC1)=N[N+]([O-])=O",
+                "geneontology:hasDbXref": [
+                    "Beilstein:10659734",
+                    "CAS:165252-70-0",
+                    "KEGG:C18509",
+                    "Pesticides:dinotefuran",
+                    "PPDB:1195"
+                ],
+                "geneontology:hasId": "39183",
+                "geneontology:hasSynonym": [
+                    "1-methyl-2-nitro-3-(tetrahydro-3-furylmethyl)guanidine",
+                    "1-methyl-2-nitro-3-(tetrahydrofuran-3-ylmethyl)guanidine",
+                    "Dinotefuran"
+                ],
+                "geneontology:inSubset": {
+                    "@id": "obo:chebi#3_STAR"
+                },
+                "rdfs:label": "dinotefuran",
+                "rdfs:subClassOf": [
+                    {
+                        "@id": "obo:CHEBI_26912"
+                    },
+                    {
+                        "@id": "b87_genid-00f1db82e1ab437c844115a94dc63e635-bn39183t11f25540"
+                    },
+                    {
+                        "@id": "b87_genid-00f1db82e1ab437c844115a94dc63e635-bn39183t8f39181"
+                    }
+                ]
+            }
+        }
+    ]
+}

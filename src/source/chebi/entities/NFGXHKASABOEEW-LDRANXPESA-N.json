@@ -1,0 +1,50 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_34839",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "chebi:charge": "0",
+    "chebi:formula": "C19H34O3",
+    "chebi:inchi": "InChI=1S/C19H34O3/c1-15(2)22-18(20)14-17(4)11-8-10-16(3)12-9-13-19(5,6)21-7/h8,11,14-16H,9-10,12-13H2,1-7H3/b11-8+,17-14+",
+    "chebi:inchikey": "NFGXHKASABOEEW-LDRANXPESA-N",
+    "chebi:smiles": "COC(C)(C)CCCC(C)C\\C=C\\C(C)=C\\C(=O)OC(C)C",
+    "geneontology:hasDbXref": [
+        "Beilstein:1913191",
+        "CAS:40596-69-8",
+        "CAS:41205-06-5",
+        "KEGG:C14308",
+        "KEGG:D08200",
+        "PPDB:1457",
+        "VSDB:1457"
+    ],
+    "geneontology:hasId": "34839",
+    "geneontology:hasSynonym": [
+        "(E,E)-11-methoxy-3,7,11-trimethyl-2,4-dodecadienoic acid 1-methylethyl ester",
+        "(E,E)-1-Methylethyl 11-methoxy-3,7,11-trimethyl-2,4-dodecadienoate",
+        "(E,E)-isopropyl 11-methoxy-3,7,11-trimethyl-2,4-dodecadienoate",
+        "isopropyl (2E,4E)-11-methoxy-3,7,11-trimethyldodeca-2,4-dienoate",
+        "isopropyl (EE)-(RS)-11-methoxy-3,7,11-trimethyldodeca-2,4-dienoate",
+        "Methoprene",
+        "propan-2-yl (2E,4E)-11-methoxy-3,7,11-trimethyldodeca-2,4-dienoate",
+        "ZR 515"
+    ],
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#3_STAR"
+    },
+    "rdfs:label": "methoprene",
+    "rdfs:subClassOf": [
+        {
+            "@id": "obo:CHEBI_35725"
+        },
+        {
+            "@id": "b48_genid-00f1db82e1ab437c844115a94dc63e635-bn34839t11f24942"
+        },
+        {
+            "@id": "obo:CHEBI_39257"
+        }
+    ]
+}

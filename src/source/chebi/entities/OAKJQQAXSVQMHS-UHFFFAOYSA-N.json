@@ -1,0 +1,54 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_15571",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "chebi:charge": "0",
+    "chebi:formula": "H4N2",
+    "chebi:inchi": "InChI=1S/H4N2/c1-2/h1-2H2",
+    "chebi:inchikey": "OAKJQQAXSVQMHS-UHFFFAOYSA-N",
+    "chebi:smiles": "NN",
+    "http://purl.uniprot.org/core/name": "hydrazine",
+    "geneontology:hasDbXref": [
+        "Beilstein:878137",
+        "CAS:302-01-2",
+        "Gmelin:190",
+        "KEGG:C05361",
+        "UM-BBD_compID:c0651"
+    ],
+    "geneontology:hasId": "15571",
+    "geneontology:hasSynonym": [
+        "diamine",
+        "diazane",
+        "H2NNH2",
+        "Hydrazin",
+        "Hydrazine",
+        "N2H4",
+        "nitrogen hydride"
+    ],
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#3_STAR"
+    },
+    "rdfs:label": "hydrazine",
+    "rdfs:subClassOf": [
+        {
+            "@id": "obo:CHEBI_24631"
+        },
+        {
+            "@id": "obo:CHEBI_35107"
+        },
+        {
+            "@id": "b46_genid-00f1db82e1ab437c844115a94dc63e635-bn15571t4f30095"
+        },
+        {
+            "@id": "b46_genid-00f1db82e1ab437c844115a94dc63e635-bn15571t5f35324"
+        },
+        {
+            "@id": "b46_genid-00f1db82e1ab437c844115a94dc63e635-bn15571t11f77090"
+        }
+    ]
+}

@@ -1,0 +1,59 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_38640",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "obo:IAO_0000115": "A butenolide that is but-2-en-4-olide bearing a 2,4,6-trimethylphenyl group at position 3, a 3,3-dimethylbutyryloxy group at position 4 and a spiro-fused cyclopentyl ring at position 5.",
+    "chebi:charge": "0",
+    "chebi:formula": "C23H30O4",
+    "chebi:inchi": "InChI=1S/C23H30O4/c1-14-11-15(2)18(16(3)12-14)19-20(26-17(24)13-22(4,5)6)23(27-21(19)25)9-7-8-10-23/h11-12H,7-10,13H2,1-6H3",
+    "chebi:inchikey": "GOLXNESZZPUPJE-UHFFFAOYSA-N",
+    "chebi:smiles": "Cc1cc(C)c(c(C)c1)C1=C(OC(=O)CC(C)(C)C)C2(CCCC2)OC1=O",
+    "geneontology:hasDbXref": [
+        "Beilstein:9659908",
+        "CAS:283594-90-1",
+        "KEGG:C18488",
+        "Patent:CN101578990",
+        "Patent:CN101584318",
+        "Patent:US2009156669",
+        "PMID:17171254",
+        "PMID:17952621",
+        "PMID:18330133",
+        "PMID:18432613",
+        "PMID:18785225",
+        "PMID:19170251",
+        "PMID:19418483",
+        "PMID:19479746",
+        "PMID:19784784",
+        "PMID:20676519",
+        "PMID:21539251",
+        "Reaxys:9659908"
+    ],
+    "geneontology:hasId": "38640",
+    "geneontology:hasSynonym": [
+        "2-oxo-3-(2,4,6-trimethylphenyl)-1-oxaspiro[4.4]non-3-en-4-yl 3,3-dimethylbutanoate",
+        "3-mesityl-2-oxo-1-oxaspiro[4.4]non-3-en-4-yl 3,3-dimethylbutanoate"
+    ],
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#3_STAR"
+    },
+    "rdfs:label": "spiromesifen",
+    "rdfs:subClassOf": [
+        {
+            "@id": "obo:CHEBI_50523"
+        },
+        {
+            "@id": "b338_genid-00f1db82e1ab437c844115a94dc63e635-bn38640t11f24852"
+        },
+        {
+            "@id": "b338_genid-00f1db82e1ab437c844115a94dc63e635-bn38640t8f34833"
+        },
+        {
+            "@id": "b338_genid-00f1db82e1ab437c844115a94dc63e635-bn38640t8f38647"
+        }
+    ]
+}

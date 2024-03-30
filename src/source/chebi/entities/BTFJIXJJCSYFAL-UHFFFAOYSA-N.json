@@ -1,0 +1,72 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_75627",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "obo:IAO_0000115": "A long-chain primary fatty alcohol that is icosane in which one of the terminal methyl hydrogens is replaced by a hydroxy group.",
+    "chebi:charge": "0",
+    "chebi:formula": "C20H42O",
+    "chebi:inchi": "InChI=1S/C20H42O/c1-2-3-4-5-6-7-8-9-10-11-12-13-14-15-16-17-18-19-20-21/h21H,2-20H2,1H3",
+    "chebi:inchikey": "BTFJIXJJCSYFAL-UHFFFAOYSA-N",
+    "chebi:smiles": "CCCCCCCCCCCCCCCCCCCCO",
+    "http://purl.uniprot.org/core/name": "eicosan-1-ol",
+    "geneontology:hasDbXref": [
+        "PMID:24421258",
+        "AGR:IND601331134",
+        "CAS:629-96-9",
+        "HMDB:HMDB0011619",
+        "KNApSAcK:C00035094",
+        "LIPID_MAPS_instance:LMFA05000221",
+        "MetaCyc:CPD-7869",
+        "PMID:10777893",
+        "PMID:18515230",
+        "PMID:25364658",
+        "PMID:30772670",
+        "PMID:33100100",
+        "PMID:35613215",
+        "PMID:36840197",
+        "PMID:37102467",
+        "PMID:37111302",
+        "Reaxys:1705104",
+        "Wikipedia:Arachidyl_alcohol"
+    ],
+    "geneontology:hasId": "75627",
+    "geneontology:hasSynonym": [
+        "eicosan-1-ol",
+        "1-eicosanol",
+        "1-icosanol",
+        "arachic alcohol",
+        "arachidic alcohol",
+        "arachidyl alcohol",
+        "eicosanol",
+        "eicosanol-(1)",
+        "eicosyl alcohol",
+        "n-1-eicosanol",
+        "n-eicosanol"
+    ],
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#3_STAR"
+    },
+    "rdfs:label": "icosan-1-ol",
+    "rdfs:subClassOf": [
+        {
+            "@id": "obo:CHEBI_77396"
+        },
+        {
+            "@id": "b184_genid-00f1db82e1ab437c844115a94dc63e635-bn75627t11f27311"
+        },
+        {
+            "@id": "b184_genid-00f1db82e1ab437c844115a94dc63e635-bn75627t11f76924"
+        },
+        {
+            "@id": "b184_genid-00f1db82e1ab437c844115a94dc63e635-bn75627t11f77746"
+        },
+        {
+            "@id": "obo:CHEBI_197480"
+        }
+    ]
+}

@@ -1,0 +1,35 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_19389",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "obo:IAO_0000115": "A member of the class of amino-nitrotoluenes that is 2,6-diaminotoluene bearing a nitro substituent at position 4.",
+    "chebi:charge": "0",
+    "chebi:formula": "C7H9N3O2",
+    "chebi:inchi": "InChI=1S/C7H9N3O2/c1-4-6(8)2-5(10(11)12)3-7(4)9/h2-3H,8-9H2,1H3",
+    "chebi:inchikey": "SPOWAUDUGZVURQ-UHFFFAOYSA-N",
+    "chebi:smiles": "Cc1c(N)cc(cc1N)[N+]([O-])=O",
+    "geneontology:hasDbXref": [
+        "CAS:59229-75-3",
+        "KEGG:C16397",
+        "Reaxys:2724113"
+    ],
+    "geneontology:hasId": "19389",
+    "geneontology:hasSynonym": "4-Nitro-2,6-toluenediamine",
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#3_STAR"
+    },
+    "rdfs:label": "2,6-diamino-4-nitrotoluene",
+    "rdfs:subClassOf": [
+        {
+            "@id": "obo:CHEBI_22482"
+        },
+        {
+            "@id": "b194_genid-00f1db82e1ab437c844115a94dc63e635-bn19389t11f76206"
+        }
+    ]
+}

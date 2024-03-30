@@ -1,0 +1,91 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_27915",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "obo:IAO_0000115": "A trimer of cyanamide, with a 1,3,5-triazine skeleton.",
+    "chebi:charge": "0",
+    "chebi:formula": "C3H6N6",
+    "chebi:inchi": "InChI=1S/C3H6N6/c4-1-7-2(5)9-3(6)8-1/h(H6,4,5,6,7,8,9)",
+    "chebi:inchikey": "JDSHMPZPIAZGSV-UHFFFAOYSA-N",
+    "chebi:smiles": "Nc1nc(N)nc(N)n1",
+    "geneontology:hasDbXref": [
+        "Beilstein:124341",
+        "CAS:108-78-1",
+        "Gmelin:101433",
+        "HMDB:HMDB0041922",
+        "KEGG:C08737",
+        "MetaCyc:CPD-7398",
+        "Patent:US2737513",
+        "Patent:US2760961",
+        "Patent:US3111519",
+        "PDBeChem:AX2",
+        "PMID:19193777",
+        "PMID:19899757",
+        "PMID:23752785",
+        "PMID:24121226",
+        "PMID:24182201",
+        "PMID:24206822",
+        "PMID:24297478",
+        "PMID:24327168",
+        "PMID:24339199",
+        "PMID:24355167",
+        "PMID:24397789",
+        "PMID:24460139",
+        "PMID:24507656",
+        "PMID:24530299",
+        "PMID:24533440",
+        "PMID:24582682",
+        "PMID:24607582",
+        "PMID:24720965",
+        "PMID:24725874",
+        "PMID:24727351",
+        "PMID:24730385",
+        "PMID:24734554",
+        "PMID:24742261",
+        "PMID:24759748",
+        "PMID:24767052",
+        "PMID:24785124",
+        "Reaxys:124341",
+        "UM-BBD_compID:c0258"
+    ],
+    "geneontology:hasId": "27915",
+    "geneontology:hasSynonym": [
+        "1,3,5-triazine-2,4,6-triamine",
+        "2,4,6-Triamino-1,3,5-triazine",
+        "2,4,6-Triamino-s-triazine",
+        "Cyanuramide",
+        "Cyanuric triamide",
+        "Cyanurotriamide",
+        "Cyanurotriamine",
+        "Melamine",
+        "s-Triazinetriamine",
+        "sym-triaminotriazine",
+        "Triaminotriazine"
+    ],
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#3_STAR"
+    },
+    "rdfs:label": "melamine",
+    "rdfs:subClassOf": [
+        {
+            "@id": "obo:CHEBI_38175"
+        },
+        {
+            "@id": "b85_genid-00f1db82e1ab437c844115a94dc63e635-bn27915tmms73f77798"
+        },
+        {
+            "@id": "b85_genid-00f1db82e1ab437c844115a94dc63e635-bn27915t8f16698"
+        },
+        {
+            "@id": "b85_genid-00f1db82e1ab437c844115a94dc63e635-bn27915t11f76206"
+        },
+        {
+            "@id": "b85_genid-00f1db82e1ab437c844115a94dc63e635-bn27915t5f77798"
+        }
+    ]
+}

@@ -1,0 +1,31 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_36626",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "chebi:charge": "0",
+    "chebi:formula": "C8H6N2",
+    "chebi:inchi": "InChI=1S/C8H6N2/c1-2-7-3-5-9-6-8(7)10-4-1/h1-6H",
+    "chebi:inchikey": "MXBVNILGVJVVMH-UHFFFAOYSA-N",
+    "chebi:smiles": "c1cnc2cnccc2c1",
+    "geneontology:hasDbXref": [
+        "Beilstein:109360",
+        "CAS:253-69-0"
+    ],
+    "geneontology:hasId": "36626",
+    "geneontology:hasSynonym": [
+        "1,7-diazanaphthalene",
+        "1,7-pyridopyridine"
+    ],
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#3_STAR"
+    },
+    "rdfs:label": "1,7-naphthyridine",
+    "rdfs:subClassOf": {
+        "@id": "obo:CHEBI_36624"
+    }
+}

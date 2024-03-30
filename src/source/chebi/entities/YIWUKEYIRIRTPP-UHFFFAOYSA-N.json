@@ -1,0 +1,48 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_16011",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "obo:IAO_0000115": "A primary alcohol that is hexan-1-ol substituted by an ethyl group at position 2.",
+    "chebi:charge": "0",
+    "chebi:formula": "C8H18O",
+    "chebi:inchi": "InChI=1S/C8H18O/c1-3-5-6-8(4-2)7-9/h8-9H,3-7H2,1-2H3",
+    "chebi:inchikey": "YIWUKEYIRIRTPP-UHFFFAOYSA-N",
+    "chebi:smiles": "CCCCC(CC)CO",
+    "http://purl.uniprot.org/core/name": "2-ethylhexan-1-ol",
+    "geneontology:hasDbXref": [
+        "CAS:104-76-7",
+        "HMDB:HMDB0031231",
+        "KEGG:C02498",
+        "PMID:22520499",
+        "PMID:24529788",
+        "PMID:24716585",
+        "Reaxys:1719280",
+        "Wikipedia:2-Ethylhexanol"
+    ],
+    "geneontology:hasId": "16011",
+    "geneontology:hasSynonym": [
+        "2-ethyl-1-hexanol",
+        "2-Ethyl-1-hexanol",
+        "2-Ethylhexan-1-ol"
+    ],
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#3_STAR"
+    },
+    "rdfs:label": "2-ethylhexan-1-ol",
+    "rdfs:subClassOf": [
+        {
+            "@id": "obo:CHEBI_15734"
+        },
+        {
+            "@id": "b84_genid-00f1db82e1ab437c844115a94dc63e635-bn16011t11f27311"
+        },
+        {
+            "@id": "b84_genid-00f1db82e1ab437c844115a94dc63e635-bn16011t11f76924"
+        }
+    ]
+}

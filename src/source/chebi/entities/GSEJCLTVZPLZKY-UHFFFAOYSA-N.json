@@ -1,0 +1,77 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_28621",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "obo:IAO_0000115": "A tertiary amino compound that is ammonia in which each of the hydrogens is substituted by a 2-hydroxyethyl group.",
+    "chebi:charge": "0",
+    "chebi:formula": "C6H15NO3",
+    "chebi:inchi": "InChI=1S/C6H15NO3/c8-4-1-7(2-5-9)3-6-10/h8-10H,1-6H2",
+    "chebi:inchikey": "GSEJCLTVZPLZKY-UHFFFAOYSA-N",
+    "chebi:smiles": "OCCN(CCO)CCO",
+    "geneontology:hasDbXref": [
+        "CAS:102-71-6",
+        "Drug_Central:2768",
+        "HMDB:HMDB0032538",
+        "KEGG:C06771",
+        "KEGG:D00215",
+        "MetaCyc:CPD0-2459",
+        "PDBeChem:211",
+        "PMID:11038241",
+        "PMID:12637103",
+        "PMID:15850295",
+        "PMID:26478337",
+        "Reaxys:1699263",
+        "UM-BBD_compID:c0491",
+        "Wikipedia:Triethanolamine"
+    ],
+    "geneontology:hasId": "28621",
+    "geneontology:hasSynonym": [
+        "2,2',2''-nitrilotriethanol",
+        "2,2',2''-NITRILOTRIETHANOL",
+        "2,2',2''-nitrilotris(ethanol)",
+        "H3tea",
+        "N(CH2CH2OH)3",
+        "nitrilo-2,2',2''-triethanol",
+        "nitrilotriethanol",
+        "TEA",
+        "Triethanolamine",
+        "tris(2-hydroxyethyl)amine",
+        "tris(beta-hydroxyethyl)amine",
+        "Trolamine"
+    ],
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#3_STAR"
+    },
+    "rdfs:label": "triethanolamine",
+    "rdfs:subClassOf": [
+        {
+            "@id": "obo:CHEBI_50996"
+        },
+        {
+            "@id": "obo:CHEBI_27136"
+        },
+        {
+            "@id": "obo:CHEBI_22478"
+        },
+        {
+            "@id": "b356_genid-00f1db82e1ab437c844115a94dc63e635-bn28621tmms73f132755"
+        },
+        {
+            "@id": "b356_genid-00f1db82e1ab437c844115a94dc63e635-bn28621t8f35026"
+        },
+        {
+            "@id": "b356_genid-00f1db82e1ab437c844115a94dc63e635-bn28621t11f35195"
+        },
+        {
+            "@id": "b356_genid-00f1db82e1ab437c844115a94dc63e635-bn28621t11f35225"
+        },
+        {
+            "@id": "b356_genid-00f1db82e1ab437c844115a94dc63e635-bn28621t5f132755"
+        }
+    ]
+}

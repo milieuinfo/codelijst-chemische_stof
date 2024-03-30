@@ -1,0 +1,78 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_17148",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "obo:IAO_0000115": "A four-carbon alkane-alpha,omega-diamine. It is obtained by the breakdown of amino acids and is responsible for the foul odour of putrefying flesh.",
+    "chebi:charge": "0",
+    "chebi:formula": "C4H12N2",
+    "chebi:inchi": "InChI=1S/C4H12N2/c5-3-1-2-4-6/h1-6H2",
+    "chebi:inchikey": "KIDHWZJUCRJVML-UHFFFAOYSA-N",
+    "chebi:smiles": "NCCCCN",
+    "geneontology:hasDbXref": [
+        "PMID:22735334",
+        "Beilstein:605282",
+        "BPDB:1393",
+        "CAS:110-60-1",
+        "DrugBank:DB01917",
+        "ECMDB:ECMDB01414",
+        "Gmelin:1715",
+        "HMDB:HMDB0001414",
+        "KEGG:C00134",
+        "KNApSAcK:C00001428",
+        "MetaCyc:PUTRESCINE",
+        "PDBeChem:PUT",
+        "PMID:12053479",
+        "PMID:15453685",
+        "PMID:16346523",
+        "PMID:18721677",
+        "PMID:24331418",
+        "PMID:24820075",
+        "PMID:24864091",
+        "Reaxys:605282",
+        "Wikipedia:Putrescine",
+        "YMDB:YMDB00132"
+    ],
+    "geneontology:hasId": "17148",
+    "geneontology:hasSynonym": [
+        "1,4-Butanediamine",
+        "1,4-butylenediamine",
+        "1,4-DIAMINOBUTANE",
+        "1,4-tetramethylenediamine",
+        "butane-1,4-diamine",
+        "Butane-1,4-diamine",
+        "butylenediamine",
+        "H2N(CH2)4NH2",
+        "Putrescin",
+        "putrescina",
+        "Putrescine",
+        "Putreszin",
+        "Tetramethylendiamin",
+        "Tetramethylenediamine"
+    ],
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#3_STAR"
+    },
+    "rdfs:label": "putrescine",
+    "rdfs:subClassOf": [
+        {
+            "@id": "obo:CHEBI_35411"
+        },
+        {
+            "@id": "b250_genid-00f1db82e1ab437c844115a94dc63e635-bn17148tmms73f326268"
+        },
+        {
+            "@id": "b250_genid-00f1db82e1ab437c844115a94dc63e635-bn17148t11f22586"
+        },
+        {
+            "@id": "b250_genid-00f1db82e1ab437c844115a94dc63e635-bn17148t11f78675"
+        },
+        {
+            "@id": "b250_genid-00f1db82e1ab437c844115a94dc63e635-bn17148t5f326268"
+        }
+    ]
+}

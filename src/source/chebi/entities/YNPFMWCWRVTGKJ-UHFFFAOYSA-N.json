@@ -1,0 +1,53 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_31843",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "obo:IAO_0000115": "The hydrochloride salt of mianserin, a tetracyclic compound with antidepressant effects.",
+    "chebi:charge": "0",
+    "chebi:formula": "C18H21ClN2",
+    "chebi:inchi": "InChI=1S/C18H20N2.ClH/c1-19-10-11-20-17-9-5-3-7-15(17)12-14-6-2-4-8-16(14)18(20)13-19;/h2-9,18H,10-13H2,1H3;1H",
+    "chebi:inchikey": "YNPFMWCWRVTGKJ-UHFFFAOYSA-N",
+    "chebi:smiles": "[H+].[Cl-].CN1CCN2C(C1)c1ccccc1Cc1ccccc21",
+    "geneontology:hasDbXref": [
+        "PMID:24134630",
+        "Beilstein:4280594",
+        "CAS:21535-47-7",
+        "DrugBank:DB06148",
+        "KEGG:D01358",
+        "Patent:CN101544644",
+        "PMID:16006201",
+        "PMID:22822535",
+        "PMID:23124562",
+        "PMID:347571",
+        "PMID:505987",
+        "Reaxys:4280594"
+    ],
+    "geneontology:hasId": "31843",
+    "geneontology:hasSynonym": [
+        "1,2,3,4,10,14b-Hexahydro-2-methyldibenzo(c,f)pyrazino(1,2-a)azepine hydrochloride",
+        "1,2,3,4,10,14b-Hexahydro-2-methyldibenzo(c,f)-pyrazino(1,2-a)azepine monohydrochloride",
+        "2-methyl-1,2,3,4,10,14b-hexahydrodibenzo[c,f]pyrazino[1,2-a]azepine hydrochloride",
+        "Dibenzo(c,f)pyrazino(1,2-a)azepine, 1,2,3,4,10,14b-hexahydro-2-methyl-, monohydrochloride",
+        "Mianserine hydrochloride"
+    ],
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#3_STAR"
+    },
+    "rdfs:label": "mianserin hydrochloride",
+    "rdfs:subClassOf": [
+        {
+            "@id": "obo:CHEBI_36807"
+        },
+        {
+            "@id": "b399_genid-00f1db82e1ab437c844115a94dc63e635-bn31843t10f51137"
+        },
+        {
+            "@id": "b399_genid-00f1db82e1ab437c844115a94dc63e635-bn31843t11f176497"
+        }
+    ]
+}

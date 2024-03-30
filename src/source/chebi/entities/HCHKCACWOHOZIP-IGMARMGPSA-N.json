@@ -1,0 +1,46 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_82623",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "obo:IAO_0000115": "A zinc atom in which the nucleus contains 35 neutrons. It has a half-life of 244 days, decaying by emission of a positron (beta(+) decay), and is the most abundant and stable of the 25 known radioisotopes of zinc.",
+    "chebi:charge": "0",
+    "chebi:formula": "[65Zn]",
+    "chebi:inchi": "InChI=1S/Zn/i1+0",
+    "chebi:inchikey": "HCHKCACWOHOZIP-IGMARMGPSA-N",
+    "chebi:smiles": "[65Zn]",
+    "geneontology:hasDbXref": [
+        "CAS:13982-39-3",
+        "PMID:11431342",
+        "PMID:13615323",
+        "PMID:13694484",
+        "PMID:13734409",
+        "PMID:13744376",
+        "PMID:13783426",
+        "PMID:13841044",
+        "PMID:14425466",
+        "PMID:1682403",
+        "PMID:17807441",
+        "PMID:19448268"
+    ],
+    "geneontology:hasId": "82623",
+    "geneontology:hasSynonym": [
+        "((65)Zn)zinc",
+        "(65)30Zn",
+        "(65)Zn",
+        "zinc, isotope of mass 65",
+        "zinc-65",
+        "Zn-65"
+    ],
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#3_STAR"
+    },
+    "rdfs:label": "zinc-65 atom",
+    "rdfs:subClassOf": {
+        "@id": "obo:CHEBI_27363"
+    }
+}

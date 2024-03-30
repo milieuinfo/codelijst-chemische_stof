@@ -1,0 +1,54 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_28817",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "obo:IAO_0000115": "A straight-chain alkane with 12 carbon atoms. It has been isolated from the essential oils of various plants including Zingiber officinale (ginger).",
+    "chebi:charge": "0",
+    "chebi:formula": "C12H26",
+    "chebi:inchi": "InChI=1S/C12H26/c1-3-5-7-9-11-12-10-8-6-4-2/h3-12H2,1-2H3",
+    "chebi:inchikey": "SNRUBQQJIBEYMU-UHFFFAOYSA-N",
+    "chebi:smiles": "CCCCCCCCCCCC",
+    "http://purl.uniprot.org/core/name": "dodecane",
+    "geneontology:hasDbXref": [
+        "Beilstein:1697175",
+        "CAS:112-40-3",
+        "DrugBank:DB02771",
+        "Gmelin:201408",
+        "HMDB:HMDB0031444",
+        "KEGG:C08374",
+        "KNApSAcK:C00001248",
+        "LIPID_MAPS_instance:LMFA11000004",
+        "MetaCyc:CPD-9290",
+        "PDBeChem:D12",
+        "PMID:24493301",
+        "Reaxys:1697175",
+        "Wikipedia:Dodecane"
+    ],
+    "geneontology:hasId": "28817",
+    "geneontology:hasSynonym": [
+        "Bihexyl",
+        "CH3-[CH2]10-CH3",
+        "Dihexyl",
+        "Dodecane",
+        "DODECANE",
+        "Dodekan",
+        "n-Dodecane"
+    ],
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#3_STAR"
+    },
+    "rdfs:label": "dodecane",
+    "rdfs:subClassOf": [
+        {
+            "@id": "obo:CHEBI_18310"
+        },
+        {
+            "@id": "b184_genid-00f1db82e1ab437c844115a94dc63e635-bn28817t11f76924"
+        }
+    ]
+}

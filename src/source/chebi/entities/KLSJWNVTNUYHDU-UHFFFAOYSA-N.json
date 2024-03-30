@@ -1,0 +1,68 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_40036",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "obo:IAO_0000115": "A member of the class of triazoles that is 1H-1,2,4-triazole substituted by an amino group at position 3. Used to control annual grasses and aquatic weeds (but not on food crops because it causes cancer in laboratory animals). Its use within the EU was banned from September 2017 on the grounds of potential groundwater contamination and risks to aquatic life; there have also been concerns about its endocrine-disrupting properties.",
+    "chebi:charge": "0",
+    "chebi:formula": "C2H4N4",
+    "chebi:inchi": "InChI=1S/C2H4N4/c3-2-4-1-5-6-2/h1H,(H3,3,4,5,6)",
+    "chebi:inchikey": "KLSJWNVTNUYHDU-UHFFFAOYSA-N",
+    "chebi:smiles": "N1N=C(N=C1)N",
+    "geneontology:hasDbXref": [
+        "Beilstein:107687",
+        "CAS:61-82-5",
+        "Gmelin:200706",
+        "KEGG:C11261",
+        "LINCS:LSM-4595",
+        "MetaCyc:CPD0-1491",
+        "Patent:AU2012202062",
+        "Patent:WO2007147209",
+        "PDBeChem:3TR",
+        "Pesticides:amitrole",
+        "PMID:11673067",
+        "PMID:17549540",
+        "PMID:25820916",
+        "PMID:7546330",
+        "PMID:7986209",
+        "PPDB:31",
+        "Reaxys:107687",
+        "Wikipedia:Amitrole"
+    ],
+    "geneontology:hasId": "40036",
+    "geneontology:hasSynonym": [
+        "1H-1,2,4-triazol-3-amine",
+        "1H-1,2,4-triazol-3-ylamine",
+        "2-Amino-1,3,4-triazole",
+        "3-Amino-1,2,4-triazole",
+        "3-amino-s-triazole",
+        "3-AT",
+        "Aminotriazole",
+        "Amitrole"
+    ],
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#3_STAR"
+    },
+    "rdfs:label": "amitrole",
+    "rdfs:subClassOf": [
+        {
+            "@id": "obo:CHEBI_35727"
+        },
+        {
+            "@id": "obo:CHEBI_33860"
+        },
+        {
+            "@id": "b279_genid-00f1db82e1ab437c844115a94dc63e635-bn40036t11f24527"
+        },
+        {
+            "@id": "b279_genid-00f1db82e1ab437c844115a94dc63e635-bn40036t11f75380"
+        },
+        {
+            "@id": "b279_genid-00f1db82e1ab437c844115a94dc63e635-bn40036t11f138208"
+        }
+    ]
+}

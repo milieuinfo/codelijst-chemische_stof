@@ -1,0 +1,56 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_38693",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "chebi:charge": "0",
+    "chebi:formula": "C9H12ClO4P",
+    "chebi:inchi": "InChI=1S/C9H12ClO4P/c1-12-15(11,13-2)14-9-7-5-3-4-6(7)8(9)10/h3-4,6-7H,5H2,1-2H3",
+    "chebi:inchikey": "GBAWQJNHVWMTLU-UHFFFAOYSA-N",
+    "chebi:smiles": "COP(=O)(OC)OC1=C(Cl)C2C=CCC12",
+    "geneontology:hasDbXref": [
+        "Beilstein:1978448",
+        "CAS:23560-59-0",
+        "KEGG:C18660",
+        "PPDB:379",
+        "VSDB:379"
+    ],
+    "geneontology:hasId": "38693",
+    "geneontology:hasSynonym": [
+        "7-chlorobicyclo[3.2.0]hepta-2,6-dien-6-yl dimethyl phosphate",
+        "Hostaquick",
+        "O,O'-Dimethyl-O-(6-chlorobicyclo(3.2.0)heptadiene-1,5-yl)phosphate",
+        "Ragadan"
+    ],
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#3_STAR"
+    },
+    "rdfs:label": "heptenophos",
+    "rdfs:subClassOf": [
+        {
+            "@id": "obo:CHEBI_36683"
+        },
+        {
+            "@id": "obo:CHEBI_25708"
+        },
+        {
+            "@id": "obo:CHEBI_37562"
+        },
+        {
+            "@id": "b279_genid-00f1db82e1ab437c844115a94dc63e635-bn38693t11f22153"
+        },
+        {
+            "@id": "b279_genid-00f1db82e1ab437c844115a94dc63e635-bn38693t11f33286"
+        },
+        {
+            "@id": "b279_genid-00f1db82e1ab437c844115a94dc63e635-bn38693t11f38462"
+        },
+        {
+            "@id": "b279_genid-00f1db82e1ab437c844115a94dc63e635-bn38693t9f38694"
+        }
+    ]
+}

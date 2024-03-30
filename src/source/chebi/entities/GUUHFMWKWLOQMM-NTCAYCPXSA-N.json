@@ -1,0 +1,53 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_55365",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "obo:IAO_0000115": "A member of the class of  cinnamaldehydes carrying a hexyl substituent at the alpha-position.",
+    "chebi:charge": "0",
+    "chebi:formula": "C15H20O",
+    "chebi:inchi": "InChI=1S/C15H20O/c1-2-3-4-6-11-15(13-16)12-14-9-7-5-8-10-14/h5,7-10,12-13H,2-4,6,11H2,1H3/b15-12+",
+    "chebi:inchikey": "GUUHFMWKWLOQMM-NTCAYCPXSA-N",
+    "chebi:smiles": "CCCCCC\\C(C=O)=C/c1ccccc1",
+    "geneontology:hasDbXref": [
+        "Beilstein:2502968",
+        "CAS:101-86-0",
+        "HMDB:HMDB0031736",
+        "Patent:US5792467",
+        "PMID:16456532",
+        "PMID:22302311",
+        "Reaxys:2502968"
+    ],
+    "geneontology:hasId": "55365",
+    "geneontology:hasSynonym": [
+        "(2E)-2-benzylideneoctanal",
+        "2-(Phenylmethylene)octanal",
+        "2-[(E)-benzylidene]octanal",
+        "2-Benzylideneoctanal",
+        "2-Hexyl-3-phenyl-2-propenal",
+        "2-Hexylcinnamaldehyde",
+        "alpha-Hexyl-beta-phenylacrolein",
+        "alpha-Hexylcinnamaldehyde",
+        "alpha-hexylcinnamic aldehyde",
+        "alpha-Hexylcinnamic aldehyde",
+        "alpha-Hexylcinnamyl aldehyde",
+        "alpha-n-Hexyl-beta-phenylacrolein",
+        "Hexyl cinnamic aldehyde"
+    ],
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#3_STAR"
+    },
+    "rdfs:label": "alpha-hexylcinnamaldehyde",
+    "rdfs:subClassOf": [
+        {
+            "@id": "obo:CHEBI_23245"
+        },
+        {
+            "@id": "b375_genid-00f1db82e1ab437c844115a94dc63e635-bn55365t8f16731"
+        }
+    ]
+}

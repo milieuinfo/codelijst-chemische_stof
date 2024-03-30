@@ -1,0 +1,89 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_9661",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "obo:IAO_0000115": "A triglyceride obtained by acetylation of the three hydroxy groups of glycerol. It has fungistatic properties (based on release of acetic acid) and has been used in the topical treatment of minor dermatophyte infections.",
+    "chebi:charge": "0",
+    "chebi:formula": "C9H14O6",
+    "chebi:inchi": "InChI=1S/C9H14O6/c1-6(10)13-4-9(15-8(3)12)5-14-7(2)11/h9H,4-5H2,1-3H3",
+    "chebi:inchikey": "URAYPUMNDPQOKB-UHFFFAOYSA-N",
+    "chebi:smiles": "CC(=O)OCC(COC(C)=O)OC(C)=O",
+    "http://purl.uniprot.org/core/name": "triacetin",
+    "geneontology:hasDbXref": [
+        "Beilstein:1792353",
+        "CAS:102-76-1",
+        "Drug_Central:3624",
+        "HMDB:HMDB0029592",
+        "KEGG:D00384",
+        "LIPID_MAPS_instance:LMGL03012615",
+        "PMID:14555416",
+        "PMID:23293041",
+        "PMID:23996800",
+        "PMID:24574778",
+        "Reaxys:1792353",
+        "Wikipedia:Triacetin"
+    ],
+    "geneontology:hasId": "9661",
+    "geneontology:hasSynonym": [
+        "1,2,3-Propanetriol triacetate",
+        "1,2,3-Propanetriyl triacetate",
+        "1,2,3-triacetoxypropane",
+        "1,2,3-triacetylglycerol",
+        "2-(Acetyloxy)-1-[(acetyloxy)methyl]ethyl acetate",
+        "E1518",
+        "E 1518",
+        "E-1518",
+        "Enzactin",
+        "glycerin triacetate",
+        "Glycerol triacetate",
+        "Glyceryl triacetate",
+        "propane-1,2,3-triyl triacetate",
+        "triacetina",
+        "triacetine",
+        "triacetinum",
+        "Triacetyl glycerin",
+        "Triacetyl glycerine",
+        "Triacetylglycerol"
+    ],
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#3_STAR"
+    },
+    "rdfs:label": "triacetin",
+    "rdfs:subClassOf": [
+        {
+            "@id": "obo:CHEBI_17855"
+        },
+        {
+            "@id": "b6_genid-00f1db82e1ab437c844115a94dc63e635-bn9661t8f15366"
+        },
+        {
+            "@id": "b6_genid-00f1db82e1ab437c844115a94dc63e635-bn9661t11f46787"
+        },
+        {
+            "@id": "b6_genid-00f1db82e1ab437c844115a94dc63e635-bn9661t11f60809"
+        },
+        {
+            "@id": "b6_genid-00f1db82e1ab437c844115a94dc63e635-bn9661t11f62803"
+        },
+        {
+            "@id": "b6_genid-00f1db82e1ab437c844115a94dc63e635-bn9661t11f63047"
+        },
+        {
+            "@id": "b6_genid-00f1db82e1ab437c844115a94dc63e635-bn9661t11f76924"
+        },
+        {
+            "@id": "b6_genid-00f1db82e1ab437c844115a94dc63e635-bn9661t11f77969"
+        },
+        {
+            "@id": "b6_genid-00f1db82e1ab437c844115a94dc63e635-bn9661t11f78059"
+        },
+        {
+            "@id": "b6_genid-00f1db82e1ab437c844115a94dc63e635-bn9661t11f86327"
+        }
+    ]
+}

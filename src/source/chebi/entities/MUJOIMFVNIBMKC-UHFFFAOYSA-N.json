@@ -1,0 +1,59 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_81763",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "obo:IAO_0000115": "A member of the class of benzodioxoles that is 2,2-difluoro-1,3-benzodioxole substituted at position 4 by a 3-cyanopyrrol-4-yl group. A fungicide seed treatment for control of a range of diseases including Fusarium, Rhizoctonia and Alternaria.",
+    "chebi:charge": "0",
+    "chebi:formula": "C12H6F2N2O2",
+    "chebi:inchi": "InChI=1S/C12H6F2N2O2/c13-12(14)17-10-3-1-2-8(11(10)18-12)9-6-16-5-7(9)4-15/h1-3,5-6,16H",
+    "chebi:inchikey": "MUJOIMFVNIBMKC-UHFFFAOYSA-N",
+    "chebi:smiles": "C1=CC=C2C(=C1C3=CNC=C3C#N)OC(O2)(F)F",
+    "geneontology:hasDbXref": [
+        "PMID:23436777",
+        "PMID:23799251",
+        "PMID:24598029",
+        "CAS:131341-86-1",
+        "KEGG:C18462",
+        "Pesticides:fludioxonil",
+        "PMID:23052036",
+        "PMID:23256745",
+        "PMID:24423402",
+        "PMID:24635026",
+        "PPDB:330",
+        "Reaxys:8393936"
+    ],
+    "geneontology:hasId": "81763",
+    "geneontology:hasSynonym": "4-(2,2-difluoro-1,3-benzodioxol-4-yl)-1H-pyrrole-3-carbonitrile",
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#3_STAR"
+    },
+    "rdfs:label": "fludioxonil",
+    "rdfs:subClassOf": [
+        {
+            "@id": "obo:CHEBI_18379"
+        },
+        {
+            "@id": "obo:CHEBI_38298"
+        },
+        {
+            "@id": "obo:CHEBI_37143"
+        },
+        {
+            "@id": "obo:CHEBI_26455"
+        },
+        {
+            "@id": "b574_genid-00f1db82e1ab437c844115a94dc63e635-bn81763t11f35497"
+        },
+        {
+            "@id": "b574_genid-00f1db82e1ab437c844115a94dc63e635-bn81763t11f63951"
+        },
+        {
+            "@id": "b574_genid-00f1db82e1ab437c844115a94dc63e635-bn81763t11f86328"
+        }
+    ]
+}

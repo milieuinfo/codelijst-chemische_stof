@@ -1,0 +1,51 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_55318",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "obo:IAO_0000115": "A quarternary ammonium bromide salt in which the cation has four propyl substituents around the central nitrogen.",
+    "chebi:charge": "0",
+    "chebi:formula": "C12H28BrN",
+    "chebi:inchi": "InChI=1S/C12H28N.BrH/c1-5-9-13(10-6-2,11-7-3)12-8-4;/h5-12H2,1-4H3;1H/q+1;/p-1",
+    "chebi:inchikey": "BGQMOFGZRJUORO-UHFFFAOYSA-M",
+    "chebi:smiles": "[Br-].CCC[N+](CCC)(CCC)CCC",
+    "geneontology:hasDbXref": [
+        "PMID:6196640",
+        "Beilstein:3567846",
+        "CAS:1941-30-6",
+        "Patent:CN101148411",
+        "Patent:EP0335067",
+        "PMID:21591705",
+        "PMID:9101237",
+        "Reaxys:3567846"
+    ],
+    "geneontology:hasId": "55318",
+    "geneontology:hasSynonym": [
+        "N,N,N-tripropyl-1-propanaminium bromide",
+        "N,N,N-tripropyl-1-propanaminium bromide (1:1)",
+        "N,N,N-tripropylpropan-1-aminium bromide",
+        "tetra-n-propylammonium bromide"
+    ],
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#3_STAR"
+    },
+    "rdfs:label": "tetrapropylammonium bromide",
+    "rdfs:subClassOf": [
+        {
+            "@id": "obo:CHEBI_35273"
+        },
+        {
+            "@id": "obo:CHEBI_22925"
+        },
+        {
+            "@id": "b131_genid-00f1db82e1ab437c844115a94dc63e635-bn55318t11f50509"
+        },
+        {
+            "@id": "b131_genid-00f1db82e1ab437c844115a94dc63e635-bn55318t10f55319"
+        }
+    ]
+}

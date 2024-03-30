@@ -1,0 +1,51 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_33128",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "chebi:charge": "0",
+    "chebi:formula": "C60",
+    "chebi:inchi": "InChI=1S/C60/c1-2-5-6-3(1)8-12-10-4(1)9-11-7(2)17-21-13(5)23-24-14(6)22-18(8)28-20(12)30-26-16(10)15(9)25-29-19(11)27(17)37-41-31(21)33(23)43-44-34(24)32(22)42-38(28)48-40(30)46-36(26)35(25)45-39(29)47(37)55-49(41)51(43)57-52(44)50(42)56(48)59-54(46)53(45)58(55)60(57)59",
+    "chebi:inchikey": "XMWRBQBLMFGWIX-UHFFFAOYSA-N",
+    "chebi:smiles": "c12c3c4c5c1c1c6c7c2c2c8c3c3c9c4c4c%10c5c5c1c1c6c6c%11c7c2c2c7c8c3c3c8c9c4c4c9c%10c5c5c1c1c6c6c%11c2c2c7c3c3c8c4c4c9c5c1c1c6c2c3c41",
+    "geneontology:hasDbXref": [
+        "Beilstein:5901022",
+        "CAS:99685-96-8",
+        "Chemspider:110185",
+        "Gmelin:100331",
+        "PMID:22498298",
+        "PMID:25118710",
+        "Reaxys:5901022"
+    ],
+    "geneontology:hasId": "33128",
+    "geneontology:hasSynonym": [
+        "(C60-Ih)[5,6]fullerene",
+        "[5,6]fullerene-C60-Ih",
+        "[60]fullerene",
+        "[60-Ih]fullerene",
+        "buckminsterfulereno",
+        "Buckminsterfulleren",
+        "buckminsterfullerene",
+        "Buckyball",
+        "footballene",
+        "fullerene 60",
+        "fullerene C60",
+        "soccerballene"
+    ],
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#3_STAR"
+    },
+    "rdfs:label": "C60 fullerene",
+    "rdfs:subClassOf": [
+        {
+            "@id": "obo:CHEBI_33416"
+        },
+        {
+            "@id": "b345_genid-00f1db82e1ab437c844115a94dc63e635-bn33128t11f176497"
+        }
+    ]
+}

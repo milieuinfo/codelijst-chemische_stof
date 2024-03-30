@@ -1,0 +1,90 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_28201",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "obo:IAO_0000115": "A member of the class of rotenones that consists of 1,2,12,12a-tetrahydrochromeno[3,4-b]furo[2,3-h]chromen-6(6aH)-one substituted at position 2 by a prop-1-en-2-yl group and at positions 8 and 9 by methoxy groups (the 2R,6aS,12aS-isomer). A non-systemic insecticide, it is the principal insecticidal constituent of derris (the dried rhizome and root of Derris elliptica).",
+    "chebi:charge": "0",
+    "chebi:formula": "C23H22O6",
+    "chebi:inchi": "InChI=1S/C23H22O6/c1-11(2)16-8-14-15(28-16)6-5-12-22(24)21-13-7-18(25-3)19(26-4)9-17(13)27-10-20(21)29-23(12)14/h5-7,9,16,20-21H,1,8,10H2,2-4H3/t16-,20-,21+/m1/s1",
+    "chebi:inchikey": "JUVIOZPCNVVQFO-HBGVWJBISA-N",
+    "chebi:smiles": "[H][C@@]1(CC2=C3O[C@]4([H])COC5=C(C=C(OC)C(OC)=C5)[C@]4([H])C(=O)C3=CC=C2O1)C(C)=C",
+    "geneontology:hasDbXref": [
+        "Beilstein:99070",
+        "BPDB:587",
+        "CAS:83-79-4",
+        "DrugBank:DB11457",
+        "FooDB:FDB012837",
+        "HMDB:HMDB0034436",
+        "KEGG:C07593",
+        "KNApSAcK:C00002568",
+        "LINCS:LSM-5260",
+        "LIPID_MAPS_instance:LMPK12060007",
+        "Patent:CN102007944",
+        "Patent:CN102090406",
+        "PDBeChem:970",
+        "PMID:14976342",
+        "PMID:15043430",
+        "PMID:15790535",
+        "PMID:17077549",
+        "PMID:19013527",
+        "PMID:32972993",
+        "PMID:33402167",
+        "PMID:33901458",
+        "PMID:33961406",
+        "Reaxys:99070",
+        "VSDB:587",
+        "Wikipedia:Rotenone"
+    ],
+    "geneontology:hasId": "28201",
+    "geneontology:hasSynonym": [
+        "(-)-cis-rotenone",
+        "(-)-rotenone",
+        "(12aS,6aS,2R)-8,9-dimethoxy-2-(1-methylvinyl)-1,2-dihydrochromano[3,4-b]furano [2,3-h]chroman-6-one",
+        "(2R,6aS,12aS)-8,9-dimethoxy-2-(prop-1-en-2-yl)-1,2,12,12a-tetrahydrochromeno[3,4-b]furo[2,3-h]chromen-6(6aH)-one",
+        "[2R-(2alpha,6aalpha,12aalpha)]-1,2,12,12a-tetrahydro-8,9-dimethoxy-2-(1-methylethenyl)[1]benzopyrano[3,4-b]furo[2,3-H][1]benzopyran-6(6aH)-one",
+        "5'beta-rotenone",
+        "barbasco",
+        "canex",
+        "dactinol",
+        "Derris",
+        "noxfire",
+        "paraderil",
+        "Rotenone",
+        "tubatoxin"
+    ],
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#3_STAR"
+    },
+    "rdfs:label": "rotenone",
+    "rdfs:subClassOf": [
+        {
+            "@id": "obo:CHEBI_38164"
+        },
+        {
+            "@id": "obo:CHEBI_72581"
+        },
+        {
+            "@id": "b181_genid-00f1db82e1ab437c844115a94dc63e635-bn28201t11f22917"
+        },
+        {
+            "@id": "b181_genid-00f1db82e1ab437c844115a94dc63e635-bn28201t11f25212"
+        },
+        {
+            "@id": "b181_genid-00f1db82e1ab437c844115a94dc63e635-bn28201t11f27026"
+        },
+        {
+            "@id": "b181_genid-00f1db82e1ab437c844115a94dc63e635-bn28201t11f35610"
+        },
+        {
+            "@id": "b181_genid-00f1db82e1ab437c844115a94dc63e635-bn28201t11f38498"
+        },
+        {
+            "@id": "b181_genid-00f1db82e1ab437c844115a94dc63e635-bn28201t11f167183"
+        }
+    ]
+}

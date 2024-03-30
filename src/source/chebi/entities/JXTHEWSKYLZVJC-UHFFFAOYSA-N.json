@@ -1,0 +1,62 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_60833",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "obo:IAO_0000115": "A dicarboxylic acid monoamide which results from addition of one equivalent of 1-naphthylamine to phthalic anhydride.",
+    "chebi:charge": "0",
+    "chebi:formula": "C18H13NO3",
+    "chebi:inchi": "InChI=1S/C18H13NO3/c20-17(14-9-3-4-10-15(14)18(21)22)19-16-11-5-7-12-6-1-2-8-13(12)16/h1-11H,(H,19,20)(H,21,22)",
+    "chebi:inchikey": "JXTHEWSKYLZVJC-UHFFFAOYSA-N",
+    "chebi:smiles": "OC(=O)c1ccccc1C(=O)Nc1cccc2ccccc12",
+    "geneontology:hasDbXref": [
+        "CAS:132-66-1",
+        "KEGG:C18869",
+        "Patent:US2556665",
+        "PPDB:482",
+        "Reaxys:2814102"
+    ],
+    "geneontology:hasId": "60833",
+    "geneontology:hasSynonym": [
+        "1-N-naphthylphthalamic acid",
+        "2-((1-naphthalenylamino)carbonyl)benzoic acid",
+        "2-(naphthalen-1-ylcarbamoyl)benzoic acid",
+        "2-[(1-naphthylamino)carbonyl]benzoic acid",
+        "2-[N-(1-naphthylcarbamoyl)]benzoic acid",
+        "alpha-naphthylphthalamic acid",
+        "N-(1-naphthalenyl)phthalamic acid",
+        "N-1-Naphthylphthalamic acid",
+        "N-1-naphthyl-phthalamidsaeure",
+        "N-1-napthylphthalamic acid",
+        "N-alpha-naphthylphthalamic acid",
+        "NPA"
+    ],
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#3_STAR"
+    },
+    "rdfs:label": "naptalam",
+    "rdfs:subClassOf": [
+        {
+            "@id": "obo:CHEBI_33575"
+        },
+        {
+            "@id": "obo:CHEBI_35735"
+        },
+        {
+            "@id": "b200_genid-00f1db82e1ab437c844115a94dc63e635-bn60833tmms73f62072"
+        },
+        {
+            "@id": "b200_genid-00f1db82e1ab437c844115a94dc63e635-bn60833t11f24527"
+        },
+        {
+            "@id": "b200_genid-00f1db82e1ab437c844115a94dc63e635-bn60833t4f62072"
+        },
+        {
+            "@id": "obo:CHEBI_88360"
+        }
+    ]
+}

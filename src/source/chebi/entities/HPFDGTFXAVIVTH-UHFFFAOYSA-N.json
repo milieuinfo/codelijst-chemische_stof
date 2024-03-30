@@ -1,0 +1,28 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_183311",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "chebi:charge": "0",
+    "chebi:formula": "C10H22O4",
+    "chebi:inchi": "InChI=1S/C10H22O4/c1-8(11)5-13-10(3)7-14-9(2)6-12-4/h8-11H,5-7H2,1-4H3",
+    "chebi:inchikey": "HPFDGTFXAVIVTH-UHFFFAOYSA-N",
+    "chebi:smiles": "O(CC(OCC(O)C)C)C(COC)C",
+    "geneontology:hasDbXref": [
+        "CAS:20324-33-8",
+        "Chemspider:27970"
+    ],
+    "geneontology:hasId": "183311",
+    "geneontology:hasSynonym": "1-[1-(1-methoxypropan-2-yloxy)propan-2-yloxy]propan-2-ol",
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#2_STAR"
+    },
+    "rdfs:label": "1-((1-((1-Methoxypropan-2-yl)oxy)propan-2-yl)oxy)propan-2-ol",
+    "rdfs:subClassOf": {
+        "@id": "obo:CHEBI_35681"
+    }
+}

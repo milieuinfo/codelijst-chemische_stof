@@ -1,0 +1,29 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_82096",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "chebi:charge": "0",
+    "chebi:formula": "C12H17NO2",
+    "chebi:inchi": "InChI=1S/C12H17NO2/c1-8(2)10-5-9(3)6-11(7-10)15-12(14)13-4/h5-8H,1-4H3,(H,13,14)",
+    "chebi:inchikey": "DTAPQAJKAFRNJB-UHFFFAOYSA-N",
+    "chebi:smiles": "CNC(=O)Oc1cc(C)cc(c1)C(C)C",
+    "geneontology:hasDbXref": [
+        "CAS:2631-37-0",
+        "KEGG:C18956",
+        "PPDB:540",
+        "VSDB:540"
+    ],
+    "geneontology:hasId": "82096",
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#2_STAR"
+    },
+    "rdfs:label": "Promecarb",
+    "rdfs:subClassOf": {
+        "@id": "obo:CHEBI_38976"
+    }
+}

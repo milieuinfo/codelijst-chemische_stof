@@ -1,0 +1,41 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_33372",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "chebi:charge": "0",
+    "chebi:formula": "Nd",
+    "chebi:inchi": "InChI=1S/Nd",
+    "chebi:inchikey": "QEFYFXOXNSNQGX-UHFFFAOYSA-N",
+    "chebi:smiles": "[Nd]",
+    "geneontology:hasDbXref": [
+        "CAS:7440-00-8",
+        "Gmelin:16212",
+        "WebElements:Nd"
+    ],
+    "geneontology:hasId": "33372",
+    "geneontology:hasSynonym": [
+        "Nd",
+        "60Nd",
+        "neodimio",
+        "Neodym",
+        "neodyme",
+        "neodymium"
+    ],
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#3_STAR"
+    },
+    "rdfs:label": "neodymium atom",
+    "rdfs:subClassOf": [
+        {
+            "@id": "obo:CHEBI_33562"
+        },
+        {
+            "@id": "obo:CHEBI_33319"
+        }
+    ]
+}

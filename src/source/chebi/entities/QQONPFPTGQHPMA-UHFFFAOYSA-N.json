@@ -1,0 +1,59 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_16052",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "obo:IAO_0000115": "An alkene that is propane with a double bond at position 1.",
+    "chebi:charge": "0",
+    "chebi:formula": "C3H6",
+    "chebi:inchi": "InChI=1S/C3H6/c1-3-2/h3H,1H2,2H3",
+    "chebi:inchikey": "QQONPFPTGQHPMA-UHFFFAOYSA-N",
+    "chebi:smiles": "CC=C",
+    "http://purl.uniprot.org/core/name": "propene",
+    "geneontology:hasDbXref": [
+        "Beilstein:1696878",
+        "CAS:115-07-1",
+        "Gmelin:852",
+        "KEGG:C11505",
+        "MetaCyc:PROPENE",
+        "PMID:24242248",
+        "PMID:24504669",
+        "Reaxys:1696878",
+        "UM-BBD_compID:c0067",
+        "Wikipedia:Propene"
+    ],
+    "geneontology:hasId": "16052",
+    "geneontology:hasSynonym": [
+        "1-propene",
+        "1-propylene",
+        "CH2=CH-CH3",
+        "methylethene",
+        "methylethylene",
+        "prop-1-ene",
+        "Propene",
+        "propylene",
+        "R-1270"
+    ],
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#3_STAR"
+    },
+    "rdfs:label": "propene",
+    "rdfs:subClassOf": [
+        {
+            "@id": "obo:CHEBI_138675"
+        },
+        {
+            "@id": "obo:CHEBI_32878"
+        },
+        {
+            "@id": "b266_genid-00f1db82e1ab437c844115a94dc63e635-bn16052t11f35703"
+        },
+        {
+            "@id": "b266_genid-00f1db82e1ab437c844115a94dc63e635-bn16052t11f78433"
+        }
+    ]
+}

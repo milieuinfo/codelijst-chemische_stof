@@ -1,0 +1,76 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_15409",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "obo:IAO_0000115": "A p-menthan-3-ol which has (1R,2S,5R)-stereochemistry. It is the most common naturally occurring enantiomer.",
+    "chebi:charge": "0",
+    "chebi:formula": "C10H20O",
+    "chebi:inchi": "InChI=1S/C10H20O/c1-7(2)9-5-4-8(3)6-10(9)11/h7-11H,4-6H2,1-3H3/t8-,9+,10-/m1/s1",
+    "chebi:inchikey": "NOOLISFMXDJSKH-KXUCPTDWSA-N",
+    "chebi:smiles": "CC(C)[C@@H]1CC[C@@H](C)C[C@H]1O",
+    "http://purl.uniprot.org/core/name": "(-)-menthol",
+    "geneontology:hasDbXref": [
+        "CAS:2216-51-5",
+        "Drug_Central:934",
+        "DrugBank:DB00825",
+        "HMDB:HMDB0003352",
+        "KEGG:C00400",
+        "KEGG:D00064",
+        "KNApSAcK:C00000810",
+        "LIPID_MAPS_instance:LMPR0102090001",
+        "MetaCyc:--MENTHOL",
+        "Patent:CN101602651",
+        "Patent:US2011313205",
+        "PMID:17021997",
+        "PMID:17498839",
+        "PMID:18640225",
+        "PMID:21353674",
+        "PMID:22218824",
+        "PMID:22348831",
+        "PMID:23800946",
+        "PMID:23963768",
+        "PMID:7974298",
+        "Reaxys:1902293",
+        "Wikipedia:Menthol"
+    ],
+    "geneontology:hasId": "15409",
+    "geneontology:hasSynonym": [
+        "(-)-(1R,3R,4S)-menthol",
+        "(-)-Menthol",
+        "(1alpha,2beta,5alpha)-5-methyl-2(1-methylethyl)cyclohexanol",
+        "(1R,2S,5R)-5-methyl-2-(propan-2-yl)cyclohexan-1-ol",
+        "(1R,3R,4S)-(-)-menthol",
+        "(1R-(1-alpha,2-beta,5-alpha))-5-methyl-2-(1-methylethyl)cyclohexanol",
+        "levomenthol",
+        "levomentholum",
+        "levomentol",
+        "l-menthol",
+        "L-Menthol"
+    ],
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#3_STAR"
+    },
+    "rdfs:label": "(-)-menthol",
+    "rdfs:subClassOf": [
+        {
+            "@id": "obo:CHEBI_25187"
+        },
+        {
+            "@id": "b99_genid-00f1db82e1ab437c844115a94dc63e635-bn15409t11f51177"
+        },
+        {
+            "@id": "b99_genid-00f1db82e1ab437c844115a94dc63e635-bn15409t11f53784"
+        },
+        {
+            "@id": "b99_genid-00f1db82e1ab437c844115a94dc63e635-bn15409t11f59683"
+        },
+        {
+            "@id": "b99_genid-00f1db82e1ab437c844115a94dc63e635-bn15409t6f76306"
+        }
+    ]
+}

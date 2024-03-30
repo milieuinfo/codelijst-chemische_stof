@@ -1,0 +1,63 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_1217",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "obo:IAO_0000115": "An organic sulfide that is the methyl thioether of 1,3-benzothiazole-2-thiol.",
+    "chebi:charge": "0",
+    "chebi:formula": "C8H7NS2",
+    "chebi:inchi": "InChI=1S/C8H7NS2/c1-10-8-9-6-4-2-3-5-7(6)11-8/h2-5H,1H3",
+    "chebi:inchikey": "UTBVIMLZIRIFFR-UHFFFAOYSA-N",
+    "chebi:smiles": "CSc1nc2ccccc2s1",
+    "geneontology:hasDbXref": [
+        "Beilstein:122357",
+        "CAS:615-22-5",
+        "KEGG:C10910",
+        "PMID:10960915",
+        "PMID:11778869",
+        "PMID:15497849",
+        "PMID:15595654",
+        "PMID:15750776",
+        "PMID:15952387",
+        "PMID:18409609",
+        "PMID:18568896",
+        "PMID:20692014",
+        "PMID:21590714",
+        "PMID:22286078",
+        "PMID:3381542",
+        "Reaxys:122357"
+    ],
+    "geneontology:hasId": "1217",
+    "geneontology:hasSynonym": [
+        "2-(Methylmercapto)benzothiazole",
+        "2-(methylsulfanyl)-1,3-benzothiazole",
+        "2-(methylthio)benzothiazole",
+        "2-Methylthiobenzothiazole",
+        "MTBT"
+    ],
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#3_STAR"
+    },
+    "rdfs:label": "2-methylthio-1,3-benzothiazole",
+    "rdfs:subClassOf": [
+        {
+            "@id": "obo:CHEBI_86315"
+        },
+        {
+            "@id": "obo:CHEBI_37947"
+        },
+        {
+            "@id": "b43_genid-00f1db82e1ab437c844115a94dc63e635-bn1217t9f45993"
+        },
+        {
+            "@id": "b43_genid-00f1db82e1ab437c844115a94dc63e635-bn1217t11f72768"
+        },
+        {
+            "@id": "b43_genid-00f1db82e1ab437c844115a94dc63e635-bn1217t11f76206"
+        }
+    ]
+}

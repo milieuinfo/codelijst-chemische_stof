@@ -1,0 +1,72 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_31225",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "obo:IAO_0000115": "A  pyrazolone derivative that is 1,2-dihydropyrazol-3-one substituted with methyl groups at N-1 and C-5 and with a phenyl group at N-2.",
+    "chebi:charge": "0",
+    "chebi:formula": "C11H12N2O",
+    "chebi:inchi": "InChI=1S/C11H12N2O/c1-9-8-11(14)13(12(9)2)10-6-4-3-5-7-10/h3-8H,1-2H3",
+    "chebi:inchikey": "VEQOALNAAJBPNY-UHFFFAOYSA-N",
+    "chebi:smiles": "Cc1cc(=O)n(-c2ccccc2)n1C",
+    "geneontology:hasDbXref": [
+        "PMID:3425858",
+        "Beilstein:157775",
+        "CAS:60-80-0",
+        "Drug_Central:861",
+        "DrugBank:DB01435",
+        "HMDB:HMDB0015503",
+        "KEGG:C13244",
+        "KEGG:D01776",
+        "LINCS:LSM-3038",
+        "PMID:24345239",
+        "PMID:25038548",
+        "PMID:25435228",
+        "PMID:25631541",
+        "PMID:26703262",
+        "Reaxys:157775",
+        "Wikipedia:Antipyrine"
+    ],
+    "geneontology:hasId": "31225",
+    "geneontology:hasSynonym": [
+        "1,2-Dihydro-1,5-dimethyl-2-phenyl-3H-pyrazol-3-one",
+        "1,5-dimethyl-2-phenyl-1,2-dihydro-3H-pyrazol-3-one",
+        "2,3-Dimethyl-1-phenyl-5-pyrazolone",
+        "Antipyrine",
+        "fenazona",
+        "phenazone",
+        "Phenazone",
+        "phenazonum"
+    ],
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#3_STAR"
+    },
+    "rdfs:label": "antipyrine",
+    "rdfs:subClassOf": [
+        {
+            "@id": "b400_genid-00f1db82e1ab437c844115a94dc63e635-bn31225t11f35475"
+        },
+        {
+            "@id": "b400_genid-00f1db82e1ab437c844115a94dc63e635-bn31225t11f35481"
+        },
+        {
+            "@id": "b400_genid-00f1db82e1ab437c844115a94dc63e635-bn31225t11f35493"
+        },
+        {
+            "@id": "b400_genid-00f1db82e1ab437c844115a94dc63e635-bn31225t11f35703"
+        },
+        {
+            "@id": "b400_genid-00f1db82e1ab437c844115a94dc63e635-bn31225t11f73263"
+        },
+        {
+            "@id": "b400_genid-00f1db82e1ab437c844115a94dc63e635-bn31225t11f78298"
+        },
+        {
+            "@id": "obo:CHEBI_83328"
+        }
+    ]
+}

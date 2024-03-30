@@ -1,0 +1,65 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_77092",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "obo:IAO_0000115": "A member of the class of benzimidazoles that is 1H-benzimidazole  which is substituted at positons 2 and 5 by (methoxycarbonyl)amino and phenylsulfanediyl groups, respectively. A broad-spectrum anthelmintic, it is used, particularly in veterinary medicine, for the treatment of nematodal infections.",
+    "chebi:charge": "0",
+    "chebi:formula": "C15H13N3O2S",
+    "chebi:inchi": "InChI=1S/C15H13N3O2S/c1-20-15(19)18-14-16-12-8-7-11(9-13(12)17-14)21-10-5-3-2-4-6-10/h2-9H,1H3,(H2,16,17,18,19)",
+    "chebi:inchikey": "HDDSHPAODJUKPD-UHFFFAOYSA-N",
+    "chebi:smiles": "COC(=O)Nc1nc2cc(Sc3ccccc3)ccc2[nH]1",
+    "http://purl.uniprot.org/core/name": "fenbendazole",
+    "geneontology:hasDbXref": [
+        "CAS:43210-67-9",
+        "Drug_Central:4536",
+        "HMDB:HMDB0029745",
+        "KEGG:D04140",
+        "LINCS:LSM-3134",
+        "Patent:DE2164690",
+        "Patent:US3954791",
+        "PMID:22048645",
+        "PMID:23488766",
+        "PMID:23959307",
+        "PMID:24183965",
+        "Reaxys:759077",
+        "VSDB:1758",
+        "Wikipedia:Fenbendazole"
+    ],
+    "geneontology:hasId": "77092",
+    "geneontology:hasSynonym": [
+        "[5-(phenylthio)-1H-benzimidazol-2-yl]carbamic acid methyl ester",
+        "2-(methoxycarbonylamino)-5-(phenylthio)benzimidazole",
+        "5-(phenylthio)-2-benzimidazolecarbamic acid methyl ester",
+        "fenbendazol",
+        "fenbendazolum",
+        "Hoe 881v",
+        "methyl [5-(phenylsulfanyl)-1H-benzimidazol-2-yl]carbamate",
+        "methyl [5-(phenylthio)-1H-benzimidazol-2-yl]carbamate",
+        "methyl 5-(phenylthio)-2-benzimidazolecarbamate",
+        "Panacur",
+        "Safe-quard"
+    ],
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#3_STAR"
+    },
+    "rdfs:label": "fenbendazole",
+    "rdfs:subClassOf": [
+        {
+            "@id": "obo:CHEBI_23003"
+        },
+        {
+            "@id": "obo:CHEBI_22715"
+        },
+        {
+            "@id": "obo:CHEBI_35683"
+        },
+        {
+            "@id": "b441_genid-00f1db82e1ab437c844115a94dc63e635-bn77092t11f35444"
+        }
+    ]
+}

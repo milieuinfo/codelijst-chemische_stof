@@ -1,0 +1,34 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_30891",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "chebi:charge": "0",
+    "chebi:formula": "C10H8O6S2",
+    "chebi:inchi": "InChI=1S/C10H8O6S2/c11-17(12,13)8-4-5-9-7(6-8)2-1-3-10(9)18(14,15)16/h1-6H,(H,11,12,13)(H,14,15,16)",
+    "chebi:inchikey": "HEWDOWUUTBCVJP-UHFFFAOYSA-N",
+    "chebi:smiles": "OS(=O)(=O)c1ccc2c(cccc2c1)S(O)(=O)=O",
+    "geneontology:hasDbXref": [
+        "Beilstein:2662632",
+        "CAS:525-37-1",
+        "KEGG:C16193"
+    ],
+    "geneontology:hasId": "30891",
+    "geneontology:hasSynonym": "1,6-naphthalenedisulfonic acid",
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#3_STAR"
+    },
+    "rdfs:label": "naphthalene-1,6-disulfonic acid",
+    "rdfs:subClassOf": [
+        {
+            "@id": "obo:CHEBI_36336"
+        },
+        {
+            "@id": "b453_genid-00f1db82e1ab437c844115a94dc63e635-bn30891tmms73f25472"
+        }
+    ]
+}

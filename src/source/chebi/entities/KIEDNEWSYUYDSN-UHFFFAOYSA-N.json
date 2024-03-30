@@ -1,0 +1,73 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_3751",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "obo:IAO_0000115": "An isoxazolidinone that is 1,2-oxazolidin-3-one substituted by a 2-chlorobenzyl group at position 2 and two methyl groups at position 4.",
+    "chebi:charge": "0",
+    "chebi:formula": "C12H14ClNO2",
+    "chebi:inchi": "InChI=1S/C12H14ClNO2/c1-12(2)8-16-14(11(12)15)7-9-5-3-4-6-10(9)13/h3-6H,7-8H2,1-2H3",
+    "chebi:inchikey": "KIEDNEWSYUYDSN-UHFFFAOYSA-N",
+    "chebi:smiles": "C1ON(CC=2C=CC=CC2Cl)C(C1(C)C)=O",
+    "geneontology:hasDbXref": [
+        "CAS:81777-89-1",
+        "KEGG:C11095",
+        "Pesticides:clomazone",
+        "PMID:21191867",
+        "PMID:23538322",
+        "PMID:24515809",
+        "PMID:24562457",
+        "PMID:24792474",
+        "PMID:25380132",
+        "PMID:25779373",
+        "PMID:26370279",
+        "PMID:27332840",
+        "PMID:28458150",
+        "PMID:28719874",
+        "PMID:32625947",
+        "PMID:33640824",
+        "PMID:34446194",
+        "PMID:36688907",
+        "PMID:36778854",
+        "PPDB:168",
+        "Reaxys:7480026",
+        "Wikipedia:Clomazone"
+    ],
+    "geneontology:hasId": "3751",
+    "geneontology:hasSynonym": [
+        "2-(2-chlorobenzyl)-4,4-dimethyl-1,2-oxazolidin-3-one",
+        "Dimethazone",
+        "FMC57020"
+    ],
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#3_STAR"
+    },
+    "rdfs:label": "clomazone",
+    "rdfs:subClassOf": [
+        {
+            "@id": "obo:CHEBI_83403"
+        },
+        {
+            "@id": "b252_genid-00f1db82e1ab437c844115a94dc63e635-bn3751t11f24527"
+        },
+        {
+            "@id": "b252_genid-00f1db82e1ab437c844115a94dc63e635-bn3751t11f33286"
+        },
+        {
+            "@id": "b252_genid-00f1db82e1ab437c844115a94dc63e635-bn3751t11f35703"
+        },
+        {
+            "@id": "obo:CHEBI_55375"
+        },
+        {
+            "@id": "b252_genid-00f1db82e1ab437c844115a94dc63e635-bn3751t11f78298"
+        },
+        {
+            "@id": "b252_genid-00f1db82e1ab437c844115a94dc63e635-bn3751t11f138208"
+        }
+    ]
+}

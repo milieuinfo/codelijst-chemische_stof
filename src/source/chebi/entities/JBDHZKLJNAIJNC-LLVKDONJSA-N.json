@@ -1,0 +1,80 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_132921",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "obo:IAO_0000115": "A carboxylic ester resulting from the formal condensation of the carboxy group of clodinafop with the hydroxy group of prop-2-yn-1-ol. It is widely used as a herbicide for the control of annual grass weeds in cereal crops.",
+    "chebi:charge": "0",
+    "chebi:formula": "C17H13ClFNO4",
+    "chebi:inchi": "InChI=1S/C17H13ClFNO4/c1-3-8-22-17(21)11(2)23-13-4-6-14(7-5-13)24-16-15(19)9-12(18)10-20-16/h1,4-7,9-11H,8H2,2H3/t11-/m1/s1",
+    "chebi:inchikey": "JBDHZKLJNAIJNC-LLVKDONJSA-N",
+    "chebi:smiles": "C=1C(=C(N=CC1Cl)OC=2C=CC(=CC2)O[C@@H](C(OCC#C)=O)C)F",
+    "geneontology:hasDbXref": [
+        "PMID:16047877",
+        "PMID:24121741",
+        "PMID:26065513",
+        "CAS:105512-06-9",
+        "Patent:EP248968",
+        "Patent:US47133109",
+        "Pesticides:derivatives/clodinafop-propargyl",
+        "PMID:12880264",
+        "PMID:18605901",
+        "PMID:23612716",
+        "PMID:24502211",
+        "PMID:26578063",
+        "PPDB:165",
+        "Reaxys:8857008"
+    ],
+    "geneontology:hasId": "132921",
+    "geneontology:hasSynonym": [
+        "(R)-2-(4-((5-chloro-3-fluoro-2-pyridinyl)oxy)phenoxy)propionic acid 2-propynyl ester",
+        "2-propynyl (2R)-2-[4-[(5-chloro-3-fluoro-2-pyridinyl)oxy]phenoxy]propanoate",
+        "clodinafop propargyl ester",
+        "prop-2-yn-1-yl (2R)-2-{4-[(5-chloro-3-fluoropyridin-2-yl)oxy]phenoxy}propanoate",
+        "prop-2-ynyl (R)-2-[4-(5-chloro-3-fluoro-2-pyridyloxy)phenoxy]propionate",
+        "Topik"
+    ],
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#3_STAR"
+    },
+    "rdfs:label": "clodinafop-propargyl",
+    "rdfs:subClassOf": [
+        {
+            "@id": "obo:CHEBI_33308"
+        },
+        {
+            "@id": "obo:CHEBI_26421"
+        },
+        {
+            "@id": "obo:CHEBI_35618"
+        },
+        {
+            "@id": "obo:CHEBI_36683"
+        },
+        {
+            "@id": "obo:CHEBI_37143"
+        },
+        {
+            "@id": "obo:CHEBI_34935"
+        },
+        {
+            "@id": "b62_genid-00f1db82e1ab437c844115a94dc63e635-bn132921t11f24527"
+        },
+        {
+            "@id": "b62_genid-00f1db82e1ab437c844115a94dc63e635-bn132921t8f28905"
+        },
+        {
+            "@id": "b62_genid-00f1db82e1ab437c844115a94dc63e635-bn132921t11f33286"
+        },
+        {
+            "@id": "b62_genid-00f1db82e1ab437c844115a94dc63e635-bn132921t11f70722"
+        },
+        {
+            "@id": "b62_genid-00f1db82e1ab437c844115a94dc63e635-bn132921t8f132841"
+        }
+    ]
+}

@@ -1,0 +1,34 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_81534",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "chebi:charge": "0",
+    "chebi:formula": "C12H4Br6O",
+    "chebi:inchi": "InChI=1S/C12H4Br6O/c13-5-1-9(17)11(3-7(5)15)19-12-4-8(16)6(14)2-10(12)18/h1-4H",
+    "chebi:inchikey": "RZXIRSKYBISPGF-UHFFFAOYSA-N",
+    "chebi:smiles": "Brc1cc(Br)c(Oc2cc(Br)c(Br)cc2Br)cc1Br",
+    "geneontology:hasDbXref": [
+        "CAS:68631-49-2",
+        "HMDB:HMDB0037525",
+        "KEGG:C18137"
+    ],
+    "geneontology:hasId": "81534",
+    "geneontology:hasSynonym": "BDE 153",
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#2_STAR"
+    },
+    "rdfs:label": "2,2',4,4',5,5'-Hexabromodiphenyl ether",
+    "rdfs:subClassOf": [
+        {
+            "@id": "obo:CHEBI_35618"
+        },
+        {
+            "@id": "obo:CHEBI_37141"
+        }
+    ]
+}

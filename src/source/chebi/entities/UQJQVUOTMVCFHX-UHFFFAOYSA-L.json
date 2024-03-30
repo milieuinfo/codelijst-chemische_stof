@@ -1,0 +1,66 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_81934",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "obo:IAO_0000115": "A dithiocarbamate salt that is the disodium salt of ethylenebis(dithiocarbamic acid). A fungicide, algicide and bactericide used on various crops including on cotton, capsicums, onions and rice crops, it is considered to be a carcinogen, so is not licensed for use within the European Union. Mixing nabam with zinc sulfate affords the fungicide zineb.",
+    "chebi:charge": "0",
+    "chebi:formula": "C4H6N2Na2S4",
+    "chebi:inchi": "InChI=1S/C4H8N2S4.2Na/c7-3(8)5-1-2-6-4(9)10;;/h1-2H2,(H2,5,7,8)(H2,6,9,10);;/q;2*+1/p-2",
+    "chebi:inchikey": "UQJQVUOTMVCFHX-UHFFFAOYSA-L",
+    "chebi:smiles": "[Na+].[Na+].[S-]C(=S)NCCNC([S-])=S",
+    "geneontology:hasDbXref": [
+        "CAS:142-59-6",
+        "HMDB:HMDB0031224",
+        "KEGG:C18748",
+        "Patent:US1504404",
+        "Patent:US2317765",
+        "Pesticides:nabam",
+        "PMID:1161698",
+        "PMID:17797593",
+        "PMID:18966479",
+        "PMID:1904852",
+        "PMID:1929852",
+        "PMID:23799268",
+        "PPDB:479"
+    ],
+    "geneontology:hasId": "81934",
+    "geneontology:hasSynonym": [
+        "1,2-ethanediylbiscarbamodithioic acid disodium salt",
+        "Dinatrium-(N,N'-aethylen-bis(dithiocarbamat))",
+        "Di-natrium-aethylenbisdithiocarbamat",
+        "disodium ethane-1,2-diyldicarbamodithioate",
+        "disodium ethylene-1,2-bisdithiocarbamate",
+        "disodium ethylenebis(dithiocarbamate)",
+        "disodium N,N'-1,2-ethanediylbis(carbamodithioate)",
+        "disodium N,N'-ethane-1,2-diyldicarbamodithioate",
+        "Dithane A-40",
+        "N,N'-ethylene bis(dithiocarbamate de sodium)",
+        "nabame",
+        "Parzate",
+        "sodium ethylenebis(dithiocarbamate)",
+        "Spring-bak"
+    ],
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#3_STAR"
+    },
+    "rdfs:label": "nabam",
+    "rdfs:subClassOf": [
+        {
+            "@id": "obo:CHEBI_38700"
+        },
+        {
+            "@id": "obo:CHEBI_83060"
+        },
+        {
+            "@id": "b14_genid-00f1db82e1ab437c844115a94dc63e635-bn81934t10f77308"
+        },
+        {
+            "@id": "b14_genid-00f1db82e1ab437c844115a94dc63e635-bn81934t11f86328"
+        }
+    ]
+}

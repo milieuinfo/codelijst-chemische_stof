@@ -1,0 +1,60 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_37144",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "obo:IAO_0000115": "An epoxide that is 1,2-epoxypropene in which one of the methyl hydrogens is substituted by chlorine.",
+    "chebi:charge": "0",
+    "chebi:formula": "C3H5ClO",
+    "chebi:inchi": "InChI=1S/C3H5ClO/c4-1-3-2-5-3/h3H,1-2H2",
+    "chebi:inchikey": "BRLQWZUYTZBJKN-UHFFFAOYSA-N",
+    "chebi:smiles": "ClCC1CO1",
+    "geneontology:hasDbXref": [
+        "Beilstein:79785",
+        "CAS:106-89-8",
+        "CAS:13403-37-7",
+        "Gmelin:164180",
+        "HMDB:HMDB0034232",
+        "KEGG:C14449",
+        "Patent:US2011054197",
+        "PMID:17441735",
+        "PMID:20547378",
+        "PMID:8586023",
+        "PPDB:1733",
+        "Reaxys:79785",
+        "UM-BBD_compID:c0077",
+        "Wikipedia:Epichlorohydrin"
+    ],
+    "geneontology:hasId": "37144",
+    "geneontology:hasSynonym": [
+        "(chloromethyl)ethylene oxide",
+        "(RS)-3-chloro-1,2-epoxypropane",
+        "1-Chloro-2,3-epoxypropane",
+        "2,3-epoxypropyl chloride",
+        "2-(chloromethyl)oxirane",
+        "3-chloro-1,2-epoxypropane",
+        "alpha-epichlorohydrin",
+        "chloromethyloxirane",
+        "Epichlorohydrin",
+        "gamma-chloropropylene oxide"
+    ],
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#3_STAR"
+    },
+    "rdfs:label": "epichlorohydrin",
+    "rdfs:subClassOf": [
+        {
+            "@id": "obo:CHEBI_32955"
+        },
+        {
+            "@id": "obo:CHEBI_36683"
+        },
+        {
+            "@id": "b176_genid-00f1db82e1ab437c844115a94dc63e635-bn37144t8f38685"
+        }
+    ]
+}

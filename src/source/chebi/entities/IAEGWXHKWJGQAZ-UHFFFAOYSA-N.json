@@ -1,0 +1,69 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_190131",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "obo:IAO_0000115": "A member of the class of pyrazines that is pyrazine in which three hydrogens at positions 2, 3 and 5 have been replaced by methyl groups.",
+    "chebi:charge": "0",
+    "chebi:formula": "C7H10N2",
+    "chebi:inchi": "InChI=1S/C7H10N2/c1-5-4-8-6(2)7(3)9-5/h4H,1-3H3",
+    "chebi:inchikey": "IAEGWXHKWJGQAZ-UHFFFAOYSA-N",
+    "chebi:smiles": "CC1=CN=C(C)C(C)=N1",
+    "geneontology:hasDbXref": [
+        "PMID:34827734",
+        "AGR:IND607193238",
+        "CAS:14667-55-1",
+        "Chemspider:24972",
+        "FooDB:FDB008527",
+        "HMDB:HMDB0031844",
+        "KNApSAcK:C00053868",
+        "PMCID:PMC9075160",
+        "PMID:24486684",
+        "PMID:31390142",
+        "PMID:31585995",
+        "PMID:33572908",
+        "PMID:33671408",
+        "PMID:33740424",
+        "PMID:34033768",
+        "PMID:34047404",
+        "PMID:34778213",
+        "PMID:34825167",
+        "Reaxys:2423",
+        "Wikipedia:2,3,5-Trimethylpyrazine"
+    ],
+    "geneontology:hasId": "190131",
+    "geneontology:hasSynonym": [
+        "2,3,5-trimethylpyrazine",
+        "2,3,5-trimethyl pyrazine",
+        "2,3,6-trimethylpyrazine",
+        "FEMA 3244"
+    ],
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#3_STAR"
+    },
+    "rdfs:label": "trimethylpyrazine",
+    "rdfs:subClassOf": [
+        {
+            "@id": "obo:CHEBI_38314"
+        },
+        {
+            "@id": "b573_genid-00f1db82e1ab437c844115a94dc63e635-bn190131t11f26013"
+        },
+        {
+            "@id": "b573_genid-00f1db82e1ab437c844115a94dc63e635-bn190131t11f35617"
+        },
+        {
+            "@id": "b573_genid-00f1db82e1ab437c844115a94dc63e635-bn190131t11f75767"
+        },
+        {
+            "@id": "b573_genid-00f1db82e1ab437c844115a94dc63e635-bn190131t11f76924"
+        },
+        {
+            "@id": "b573_genid-00f1db82e1ab437c844115a94dc63e635-bn190131t11f76969"
+        }
+    ]
+}

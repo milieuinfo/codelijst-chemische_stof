@@ -1,0 +1,52 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_24565",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "chebi:charge": "0",
+    "chebi:formula": "C6H18N3OP",
+    "chebi:inchi": "InChI=1S/C6H18N3OP/c1-7(2)11(10,8(3)4)9(5)6/h1-6H3",
+    "chebi:inchikey": "GNOIPBMMFNIUFM-UHFFFAOYSA-N",
+    "chebi:smiles": "CN(C)P(=O)(N(C)C)N(C)C",
+    "geneontology:hasDbXref": [
+        "Beilstein:1099903",
+        "CAS:680-31-9",
+        "Gmelin:3259",
+        "KEGG:C19250"
+    ],
+    "geneontology:hasId": "24565",
+    "geneontology:hasSynonym": [
+        "HEMPA",
+        "hexamethylorthophosphoric triamide",
+        "Hexamethylphosphoramid",
+        "hexamethylphosphoramide",
+        "hexamethylphosphoric acid triamide",
+        "Hexamethylphosphorsaeuretriamid",
+        "HMPA",
+        "HMPT",
+        "HMPTA",
+        "N,N,N',N',N'',N''-hexamethylphosphoric triamide",
+        "phosphoric acid hexamethyltriamide",
+        "phosphoric hexamethyltriamide",
+        "phosphoric tris(dimethylamide)"
+    ],
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#3_STAR"
+    },
+    "rdfs:label": "hexamethylphosphoric triamide",
+    "rdfs:subClassOf": [
+        {
+            "@id": "obo:CHEBI_17102"
+        },
+        {
+            "@id": "b333_genid-00f1db82e1ab437c844115a94dc63e635-bn24565t11f25435"
+        },
+        {
+            "@id": "b333_genid-00f1db82e1ab437c844115a94dc63e635-bn24565t11f67105"
+        }
+    ]
+}

@@ -1,0 +1,80 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_3390",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "obo:IAO_0000115": "A carbamate ester obtained by the formal condensation of  1-naphthol with methylcarbamic acid.",
+    "chebi:charge": "0",
+    "chebi:formula": "C12H11NO2",
+    "chebi:inchi": "InChI=1S/C12H11NO2/c1-13-12(14)15-11-8-4-6-9-5-2-3-7-10(9)11/h2-8H,1H3,(H,13,14)",
+    "chebi:inchikey": "CVXBEEMKQHEXEN-UHFFFAOYSA-N",
+    "chebi:smiles": "CNC(=O)Oc1cccc2ccccc12",
+    "http://purl.uniprot.org/core/name": "carbaryl",
+    "geneontology:hasDbXref": [
+        "CAS:63-25-2",
+        "Drug_Central:3066",
+        "KEGG:C07491",
+        "KEGG:D07613",
+        "LINCS:LSM-37123",
+        "PMID:15092421",
+        "PMID:15092693",
+        "PMID:19025094",
+        "PPDB:115",
+        "Reaxys:1875862",
+        "Wikipedia:Carbaryl"
+    ],
+    "geneontology:hasId": "3390",
+    "geneontology:hasSynonym": [
+        "1-Naphthalenol, methylcarbamate",
+        "1-Naphthalenyl methylcarbamate",
+        "1-naphthol N-methylcarbamate",
+        "1-Naphthyl N-methylcarbamate",
+        "alpha-Naphthyl N-methylcarbamate",
+        "Carbaril",
+        "Carbaryl",
+        "naphthalen-1-yl methylcarbamate",
+        "N-Methyl-1-naphthyl carbamate",
+        "N-Methyl-alpha-naphthylurethan",
+        "Sevin"
+    ],
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#3_STAR"
+    },
+    "rdfs:label": "carbaryl",
+    "rdfs:subClassOf": [
+        {
+            "@id": "obo:CHEBI_23003"
+        },
+        {
+            "@id": "obo:CHEBI_25477"
+        },
+        {
+            "@id": "b386_genid-00f1db82e1ab437c844115a94dc63e635-bn3390t8f10319"
+        },
+        {
+            "@id": "b386_genid-00f1db82e1ab437c844115a94dc63e635-bn3390t11f22153"
+        },
+        {
+            "@id": "b386_genid-00f1db82e1ab437c844115a94dc63e635-bn3390t11f33286"
+        },
+        {
+            "@id": "b386_genid-00f1db82e1ab437c844115a94dc63e635-bn3390t11f35219"
+        },
+        {
+            "@id": "b386_genid-00f1db82e1ab437c844115a94dc63e635-bn3390t11f37733"
+        },
+        {
+            "@id": "b386_genid-00f1db82e1ab437c844115a94dc63e635-bn3390t11f38461"
+        },
+        {
+            "@id": "b386_genid-00f1db82e1ab437c844115a94dc63e635-bn3390t11f38462"
+        },
+        {
+            "@id": "b386_genid-00f1db82e1ab437c844115a94dc63e635-bn3390t8f45379"
+        }
+    ]
+}

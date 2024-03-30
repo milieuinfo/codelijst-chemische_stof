@@ -1,0 +1,38 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_38847",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "chebi:charge": "0",
+    "chebi:formula": "C7F16",
+    "chebi:inchi": "InChI=1S/C7F16/c8-1(9,2(10,11)4(14,15)6(18,19)20)3(12,13)5(16,17)7(21,22)23",
+    "chebi:inchikey": "LGUZHRODIJCVOC-UHFFFAOYSA-N",
+    "chebi:smiles": "FC(F)(F)C(F)(F)C(F)(F)C(F)(F)C(F)(F)C(F)(F)C(F)(F)F",
+    "geneontology:hasDbXref": [
+        "Beilstein:1716335",
+        "CAS:335-57-9",
+        "Gmelin:275957"
+    ],
+    "geneontology:hasId": "38847",
+    "geneontology:hasSynonym": [
+        "1,1,1,2,2,3,3,4,4,5,5,6,6,7,7,7-hexadecafluoroheptane",
+        "hexadecafluoroheptane",
+        "perfluoro-n-heptane"
+    ],
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#3_STAR"
+    },
+    "rdfs:label": "perfluoroheptane",
+    "rdfs:subClassOf": [
+        {
+            "@id": "obo:CHEBI_38824"
+        },
+        {
+            "@id": "b392_genid-00f1db82e1ab437c844115a94dc63e635-bn38847t9f43098"
+        }
+    ]
+}

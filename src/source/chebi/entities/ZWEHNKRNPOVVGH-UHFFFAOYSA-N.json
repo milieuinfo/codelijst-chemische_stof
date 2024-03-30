@@ -1,0 +1,80 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_28398",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "obo:IAO_0000115": "A dialkyl ketone that is a four-carbon ketone carrying a single keto- group at position C-2.",
+    "chebi:charge": "0",
+    "chebi:formula": "C4H8O",
+    "chebi:inchi": "InChI=1S/C4H8O/c1-3-4(2)5/h3H2,1-2H3",
+    "chebi:inchikey": "ZWEHNKRNPOVVGH-UHFFFAOYSA-N",
+    "chebi:smiles": "CCC(C)=O",
+    "http://purl.uniprot.org/core/name": "butan-2-one",
+    "geneontology:hasDbXref": [
+        "Beilstein:741880",
+        "CAS:78-93-3",
+        "Gmelin:25656",
+        "HMDB:HMDB0000474",
+        "KEGG:C02845",
+        "LIPID_MAPS_instance:LMFA12000043",
+        "MetaCyc:MEK",
+        "PMID:20403429",
+        "PMID:23050457",
+        "Reaxys:741880",
+        "UM-BBD_compID:c0020",
+        "Wikipedia:Butanone"
+    ],
+    "geneontology:hasId": "28398",
+    "geneontology:hasSynonym": [
+        "butanone",
+        "2-Butanon",
+        "2-Butanone",
+        "3-butanone",
+        "Aethylmethylketon",
+        "butanone 2",
+        "C2H5COCH3",
+        "ethyl(methyl) ketone",
+        "ethyl methyl cetone",
+        "Ethylmethylketon",
+        "ethylmethyl ketone",
+        "Ethyl methyl ketone",
+        "meetco",
+        "MEK",
+        "methyl(ethyl) ketone",
+        "methylacetone",
+        "methyl acetone",
+        "methyl ethyl cetone",
+        "Methylethylketon",
+        "methylethyl ketone",
+        "Methyl ethyl ketone",
+        "oxobutane"
+    ],
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#3_STAR"
+    },
+    "rdfs:label": "butan-2-one",
+    "rdfs:subClassOf": [
+        {
+            "@id": "obo:CHEBI_18044"
+        },
+        {
+            "@id": "obo:CHEBI_51867"
+        },
+        {
+            "@id": "obo:CHEBI_134179"
+        },
+        {
+            "@id": "obo:CHEBI_22951"
+        },
+        {
+            "@id": "b200_genid-00f1db82e1ab437c844115a94dc63e635-bn28398t11f48358"
+        },
+        {
+            "@id": "b200_genid-00f1db82e1ab437c844115a94dc63e635-bn28398t11f76969"
+        }
+    ]
+}

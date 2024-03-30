@@ -1,0 +1,47 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_39839",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "obo:IAO_0000115": "A member of the class of  phenols that is phenol substituted by methyl groups at positions 3 and 4.",
+    "chebi:charge": "0",
+    "chebi:formula": "C8H10O",
+    "chebi:inchi": "InChI=1S/C8H10O/c1-6-3-4-8(9)5-7(6)2/h3-5,9H,1-2H3",
+    "chebi:inchikey": "YCOXTKKNXUZSKD-UHFFFAOYSA-N",
+    "chebi:smiles": "Cc1ccc(O)cc1C",
+    "geneontology:hasDbXref": [
+        "Beilstein:1099267",
+        "CAS:95-65-8",
+        "DrugBank:DB04052",
+        "HMDB:HMDB0032151",
+        "PDBeChem:2MP",
+        "PMID:11217037",
+        "Reaxys:1099267",
+        "Wikipedia:3,4-Xylenol"
+    ],
+    "geneontology:hasId": "39839",
+    "geneontology:hasSynonym": [
+        "1,2-Dimethyl-4-hydroxybenzene",
+        "1,3,4-Xylenol",
+        "3,4-dimethylphenol",
+        "3,4-DMP",
+        "4,5-Dimethylphenol",
+        "4-Hydroxy-1,2-dimethylbenzene"
+    ],
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#3_STAR"
+    },
+    "rdfs:label": "3,4-xylenol",
+    "rdfs:subClassOf": [
+        {
+            "@id": "obo:CHEBI_33853"
+        },
+        {
+            "@id": "b67_genid-00f1db82e1ab437c844115a94dc63e635-bn39839t9f28063"
+        }
+    ]
+}

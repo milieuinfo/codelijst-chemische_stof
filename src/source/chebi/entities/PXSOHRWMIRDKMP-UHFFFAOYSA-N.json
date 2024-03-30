@@ -1,0 +1,75 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_27090",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "obo:IAO_0000115": "A member of the class of 1,4-benzoquinones that is 1,4-benzoquinone in which three of the ring hydrogens are replaced by aziridin-1-yl groups.",
+    "chebi:charge": "0",
+    "chebi:formula": "C12H13N3O2",
+    "chebi:inchi": "InChI=1S/C12H13N3O2/c16-9-7-8(13-1-2-13)12(17)11(15-5-6-15)10(9)14-3-4-14/h7H,1-6H2",
+    "chebi:inchikey": "PXSOHRWMIRDKMP-UHFFFAOYSA-N",
+    "chebi:smiles": "O=C1C=C(N2CC2)C(=O)C(N2CC2)=C1N1CC1",
+    "geneontology:hasDbXref": [
+        "CAS:68-76-8",
+        "Drug_Central:4372",
+        "KEGG:C19542",
+        "KEGG:D07254",
+        "PMID:146335",
+        "PMID:20371239",
+        "PMID:362189",
+        "PMID:3672382",
+        "PMID:582920",
+        "PMID:624547",
+        "PMID:74416",
+        "Reaxys:238057",
+        "Wikipedia:Triaziquone"
+    ],
+    "geneontology:hasId": "27090",
+    "geneontology:hasSynonym": [
+        "1,1',1''-(3,6-Dioxo-1,4-cyclohexadiene-1,2,4-triyl)trisaziridine",
+        "2,3,5-Ethylenimine-1,4-benzoquinone",
+        "2,3,5-Tri(1-aziridinyl)-p-benzoquinone",
+        "2,3,5-Tri-(1-aziridinyl)-p-benzoquinone",
+        "2,3,5-Triethyleneimino-1,4-benzoquinone",
+        "2,3,5-Tris(1-aziridino)-p-benzoquinone",
+        "2,3,5-Tris(1-aziridinyl)-2,5-cyclohexadiene-1,4-dione",
+        "2,3,5-Tris(1-aziridinyl)-p-benzoquinone",
+        "2,3,5-tris(aziridin-1-yl)-1,4-benzoquinone",
+        "2,3,5-Tris(aziridino)-1,4-benzoquinone",
+        "2,3,5-Tris(ethyleneimino)-1,4-benzoquinone",
+        "2,3,5-Tris(ethylenimino)-1,4-benzoquinone",
+        "2,3,5-Tris(ethylenimino)benzoquinone",
+        "2,3,5-Tris(ethylenimino)-p-benzoquinone",
+        "2,3,5-Trisethyleneiminobenzoquinone",
+        "Triazichon",
+        "triazicuona",
+        "Triaziquonum",
+        "Triethyleneaminobenzoquinone",
+        "Tris(1-aziridinyl)-p-benzoquinone",
+        "Tris(aziridinyl)-para-benzoquinone",
+        "Tris(aziridinyl)-p-benzoquinone",
+        "Tris(ethyleneimino)benzoquinone"
+    ],
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#3_STAR"
+    },
+    "rdfs:label": "triaziquone",
+    "rdfs:subClassOf": [
+        {
+            "@id": "obo:CHEBI_132124"
+        },
+        {
+            "@id": "obo:CHEBI_22681"
+        },
+        {
+            "@id": "b172_genid-00f1db82e1ab437c844115a94dc63e635-bn27090t11f22333"
+        },
+        {
+            "@id": "b172_genid-00f1db82e1ab437c844115a94dc63e635-bn27090t11f35610"
+        }
+    ]
+}

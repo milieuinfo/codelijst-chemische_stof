@@ -1,0 +1,38 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_82405",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "chebi:charge": "0",
+    "chebi:formula": "C14H10O4",
+    "chebi:inchi": "InChI=1S/C14H10O4/c15-13(11-7-3-1-4-8-11)17-18-14(16)12-9-5-2-6-10-12/h1-10H",
+    "chebi:inchikey": "OMPJBNCRMGITSC-UHFFFAOYSA-N",
+    "chebi:smiles": "O=C(OOC(=O)c1ccccc1)c1ccccc1",
+    "geneontology:hasDbXref": [
+        "CAS:94-36-0",
+        "Drug_Central:328",
+        "HMDB:HMDB0032040",
+        "KEGG:C19346",
+        "KEGG:D03093",
+        "VSDB:1847"
+    ],
+    "geneontology:hasId": "82405",
+    "geneontology:hasSynonym": [
+        "acetoxyl",
+        "benoxyl",
+        "benzoperoxide",
+        "benzoyl superoxide",
+        "diphenylglyoxal peroxide"
+    ],
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#2_STAR"
+    },
+    "rdfs:label": "Benzoyl peroxide",
+    "rdfs:subClassOf": {
+        "@id": "obo:CHEBI_36586"
+    }
+}

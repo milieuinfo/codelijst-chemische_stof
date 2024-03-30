@@ -1,0 +1,52 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_77322",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "obo:IAO_0000115": "A fatty acid methyl ester derived from hexanoic (caproic acid).",
+    "chebi:charge": "0",
+    "chebi:formula": "C7H14O2",
+    "chebi:inchi": "InChI=1S/C7H14O2/c1-3-4-5-6-7(8)9-2/h3-6H2,1-2H3",
+    "chebi:inchikey": "NUKZAGXMHTUAFE-UHFFFAOYSA-N",
+    "chebi:smiles": "CCCCCC(=O)OC",
+    "geneontology:hasDbXref": [
+        "Beilstein:1744683",
+        "CAS:106-70-7",
+        "HMDB:HMDB0035238",
+        "PMID:12537447",
+        "PMID:23710076",
+        "Reaxys:1744683"
+    ],
+    "geneontology:hasId": "77322",
+    "geneontology:hasSynonym": [
+        "Caproic acid, methyl ester",
+        "Hexanoic acid, methyl ester",
+        "Methyl caproate",
+        "Methyl capronate",
+        "Methyl hexoate",
+        "Methyl hexylate",
+        "Methyl n-hexanoate"
+    ],
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#3_STAR"
+    },
+    "rdfs:label": "methyl hexanoate",
+    "rdfs:subClassOf": [
+        {
+            "@id": "obo:CHEBI_4986"
+        },
+        {
+            "@id": "obo:CHEBI_87656"
+        },
+        {
+            "@id": "b16_genid-00f1db82e1ab437c844115a94dc63e635-bn77322t11f35617"
+        },
+        {
+            "@id": "b16_genid-00f1db82e1ab437c844115a94dc63e635-bn77322t11f76924"
+        }
+    ]
+}

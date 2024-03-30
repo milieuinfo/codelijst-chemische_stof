@@ -1,0 +1,72 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_18407",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "obo:IAO_0000115": "A one-carbon compound consisting of a methine group triple bonded to a nitrogen atom",
+    "chebi:charge": "0",
+    "chebi:formula": "CHN",
+    "chebi:inchi": "InChI=1S/CHN/c1-2/h1H",
+    "chebi:inchikey": "LELOWRISYMNNSU-UHFFFAOYSA-N",
+    "chebi:smiles": "C#N",
+    "http://purl.uniprot.org/core/name": "hydrogen cyanide",
+    "geneontology:hasDbXref": [
+        "CAS:74-90-8",
+        "HMDB:HMDB0060292",
+        "KEGG:C01326",
+        "KNApSAcK:C00007569",
+        "MetaCyc:HCN",
+        "PMID:19849830",
+        "PMID:26700190",
+        "PMID:26778429",
+        "PMID:26823582",
+        "PMID:26940198",
+        "PMID:27123778",
+        "Reaxys:1718793",
+        "Wikipedia:Hydrogen_cyanide"
+    ],
+    "geneontology:hasId": "18407",
+    "geneontology:hasSynonym": [
+        "[CHN]",
+        "Blausaeure",
+        "Cyanwasserstoff",
+        "formonitrile",
+        "HCN",
+        "hydridonitridocarbon",
+        "hydrocyanic acid",
+        "hydrogen(nitridocarbonate)",
+        "Hydrogen cyanide",
+        "methanenitrile"
+    ],
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#3_STAR"
+    },
+    "rdfs:label": "hydrogen cyanide",
+    "rdfs:subClassOf": [
+        {
+            "@id": "obo:CHEBI_64708"
+        },
+        {
+            "@id": "obo:CHEBI_33405"
+        },
+        {
+            "@id": "b366_genid-00f1db82e1ab437c844115a94dc63e635-bn18407t4f17514"
+        },
+        {
+            "@id": "b366_genid-00f1db82e1ab437c844115a94dc63e635-bn18407t7f36856"
+        },
+        {
+            "@id": "b366_genid-00f1db82e1ab437c844115a94dc63e635-bn18407t11f64909"
+        },
+        {
+            "@id": "b366_genid-00f1db82e1ab437c844115a94dc63e635-bn18407t11f76971"
+        },
+        {
+            "@id": "b366_genid-00f1db82e1ab437c844115a94dc63e635-bn18407t11f77746"
+        }
+    ]
+}

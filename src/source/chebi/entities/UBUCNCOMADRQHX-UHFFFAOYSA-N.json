@@ -1,0 +1,27 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_34875",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "chebi:charge": "0",
+    "chebi:formula": "C12H10N2O",
+    "chebi:inchi": "InChI=1S/C12H10N2O/c15-13-14(11-7-3-1-4-8-11)12-9-5-2-6-10-12/h1-10H",
+    "chebi:inchikey": "UBUCNCOMADRQHX-UHFFFAOYSA-N",
+    "chebi:smiles": "O=NN(c1ccccc1)c1ccccc1",
+    "geneontology:hasDbXref": [
+        "CAS:86-30-6",
+        "KEGG:C14742"
+    ],
+    "geneontology:hasId": "34875",
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#2_STAR"
+    },
+    "rdfs:label": "N-Nitrosodiphenylamine",
+    "rdfs:subClassOf": {
+        "@id": "obo:CHEBI_25996"
+    }
+}

@@ -1,0 +1,51 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_76606",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "obo:IAO_0000115": "A carbamate ester resulting from the formal condensation of the carboxy group of carbamic acid with methanol.",
+    "chebi:charge": "0",
+    "chebi:formula": "C2H5NO2",
+    "chebi:inchi": "InChI=1S/C2H5NO2/c1-5-2(3)4/h1H3,(H2,3,4)",
+    "chebi:inchikey": "GTCAXTIRRLKXRU-UHFFFAOYSA-N",
+    "chebi:smiles": "COC(N)=O",
+    "geneontology:hasDbXref": [
+        "CAS:598-55-0",
+        "KEGG:C19445",
+        "Patent:DE753127",
+        "Patent:US2834799",
+        "PMID:12732908",
+        "PMID:1383732",
+        "PMID:1499772",
+        "PMID:1582888",
+        "PMID:1870618",
+        "PMID:2774954",
+        "PMID:2900737",
+        "PMID:3569709",
+        "Reaxys:635779",
+        "Wikipedia:Methyl_carbamate"
+    ],
+    "geneontology:hasId": "76606",
+    "geneontology:hasSynonym": [
+        "carbamic acid methyl ester",
+        "H2NCO2Me",
+        "H2NCOOCH3",
+        "MeO2CNH2",
+        "methoxycarbonylamine",
+        "methylurethan",
+        "methylurethane",
+        "NH2CO2Me",
+        "urethylane"
+    ],
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#3_STAR"
+    },
+    "rdfs:label": "methyl carbamate",
+    "rdfs:subClassOf": {
+        "@id": "obo:CHEBI_23003"
+    }
+}

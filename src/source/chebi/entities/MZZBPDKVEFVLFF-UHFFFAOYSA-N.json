@@ -1,0 +1,61 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_38069",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "obo:IAO_0000115": "A chloro-1,3,5-triazine that is 2-chloro-1,3,5-triazine substituted by an ethyl amino and a (2-cyanopropan-2-yl)amino group at positions 6 and 4 respectively.",
+    "chebi:charge": "0",
+    "chebi:formula": "C9H13ClN6",
+    "chebi:inchi": "InChI=1S/C9H13ClN6/c1-4-12-7-13-6(10)14-8(15-7)16-9(2,3)5-11/h4H2,1-3H3,(H2,12,13,14,15,16)",
+    "chebi:inchikey": "MZZBPDKVEFVLFF-UHFFFAOYSA-N",
+    "chebi:smiles": "CCNc1nc(Cl)nc(NC(C)(C)C#N)n1",
+    "geneontology:hasDbXref": [
+        "PMID:24631619",
+        "Beilstein:615509",
+        "CAS:21725-46-2",
+        "KEGG:C14299",
+        "Pesticides:cyanazine",
+        "PMID:16882534",
+        "PMID:23762632",
+        "PMID:24607126",
+        "PPDB:185",
+        "Reaxys:615509",
+        "UM-BBD_compID:c0176"
+    ],
+    "geneontology:hasId": "38069",
+    "geneontology:hasSynonym": [
+        "2-([4-chloro-6-(ethylamino)-1,3,5-triazin-2-yl]amino)-2-methylpropanenitrile",
+        "2-[[4-chloro-6-(ethylamino)-s-triazin-2-yl]amino]-2-methylpropionitrile",
+        "2-{[4-chloro-6-(ethylamino)-1,3,5-triazin-2-yl]amino}-2-methylpropanenitrile",
+        "2-Chloro-4-(1-cyano-1-methylethylamino)-6-ethylamine-1,3,5-triazine",
+        "2-chloro-4-(1-cyano-1-methylethylamino)-6-ethylamino-1,3,5-triazine",
+        "Bladex",
+        "Cyanazine",
+        "Fortrol"
+    ],
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#3_STAR"
+    },
+    "rdfs:label": "cyanazine",
+    "rdfs:subClassOf": [
+        {
+            "@id": "obo:CHEBI_38168"
+        },
+        {
+            "@id": "obo:CHEBI_38176"
+        },
+        {
+            "@id": "b26_genid-00f1db82e1ab437c844115a94dc63e635-bn38069t11f24527"
+        },
+        {
+            "@id": "b26_genid-00f1db82e1ab437c844115a94dc63e635-bn38069t11f35703"
+        },
+        {
+            "@id": "b26_genid-00f1db82e1ab437c844115a94dc63e635-bn38069t11f78298"
+        }
+    ]
+}

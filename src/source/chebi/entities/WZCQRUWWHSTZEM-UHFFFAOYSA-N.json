@@ -1,0 +1,46 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_8092",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "obo:IAO_0000115": "A  phenylenediamine  taht is benzene substituted at positions 1 and 3 with amino functions.",
+    "chebi:charge": "0",
+    "chebi:formula": "C6H8N2",
+    "chebi:inchi": "InChI=1S/C6H8N2/c7-5-2-1-3-6(8)4-5/h1-4H,7-8H2",
+    "chebi:inchikey": "WZCQRUWWHSTZEM-UHFFFAOYSA-N",
+    "chebi:smiles": "Nc1cccc(N)c1",
+    "geneontology:hasDbXref": [
+        "PMID:1395635",
+        "Beilstein:471357",
+        "CAS:108-45-2",
+        "CAS:25265-76-3",
+        "KEGG:C02454",
+        "PMID:22511621",
+        "PMID:23425124",
+        "PMID:23573921",
+        "Reaxys:471357",
+        "Wikipedia:M-Phenylenediamine"
+    ],
+    "geneontology:hasId": "8092",
+    "geneontology:hasSynonym": [
+        "1,3-Benzenediamine",
+        "1,3-Diaminobenzene",
+        "3-Aminoaniline",
+        "3-Phenylenediamine",
+        "benzene-1,3-diamine",
+        "m-Diaminobenzene",
+        "meta-Phenylenediamine",
+        "m-Phenylenediamine"
+    ],
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#3_STAR"
+    },
+    "rdfs:label": "1,3-phenylenediamine",
+    "rdfs:subClassOf": {
+        "@id": "obo:CHEBI_51402"
+    }
+}

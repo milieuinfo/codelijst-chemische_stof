@@ -1,0 +1,28 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_3494",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "chebi:charge": "0",
+    "chebi:formula": "C25H26N9O8S2.Na",
+    "chebi:inchi": "InChI=1S/C25H27N9O8S2.Na/c1-3-32-8-9-33(21(39)20(32)38)24(42)27-15(12-4-6-14(35)7-5-12)18(36)26-16-19(37)34-17(23(40)41)13(10-43-22(16)34)11-44-25-28-29-30-31(25)2;/h4-7,15-16,22,35H,3,8-11H2,1-2H3,(H,26,36)(H,27,42)(H,40,41);/q;+1/p-1/t15-,16-,22-;/m1./s1",
+    "chebi:inchikey": "NCFTXMQPRQZFMZ-WERGMSTESA-M",
+    "chebi:smiles": "[Na+].CCN1CCN(C(=O)N[C@@H](C(=O)N[C@H]2[C@H]3SCC(CSc4nnnn4C)=C(N3C2=O)C([O-])=O)c2ccc(O)cc2)C(=O)C1=O",
+    "geneontology:hasDbXref": [
+        "CAS:62893-20-3",
+        "KEGG:C08112",
+        "KEGG:D00918"
+    ],
+    "geneontology:hasId": "3494",
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#2_STAR"
+    },
+    "rdfs:label": "Cefoperazone sodium",
+    "rdfs:subClassOf": {
+        "@id": "obo:CHEBI_50860"
+    }
+}

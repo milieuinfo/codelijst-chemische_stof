@@ -1,0 +1,55 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_28755",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "obo:IAO_0000115": "A trichlorophenol with phenolic substituents on positions 2, 4 and 6.",
+    "chebi:charge": "0",
+    "chebi:formula": "C6H3Cl3O",
+    "chebi:inchi": "InChI=1S/C6H3Cl3O/c7-3-1-4(8)6(10)5(9)2-3/h1-2,10H",
+    "chebi:inchikey": "LINPIYWFGCPVIE-UHFFFAOYSA-N",
+    "chebi:smiles": "Oc1c(Cl)cc(Cl)cc1Cl",
+    "geneontology:hasDbXref": [
+        "PMID:24078273",
+        "Beilstein:776729",
+        "CAS:88-06-2",
+        "Gmelin:3766",
+        "KEGG:C07098",
+        "MetaCyc:TRICHLOROPHENOL",
+        "PDBeChem:T6C",
+        "PMID:21863115",
+        "PMID:22748215",
+        "PMID:23995979",
+        "Reaxys:776729",
+        "UM-BBD_compID:c0330",
+        "Wikipedia:2,4,6-Trichlorophenol"
+    ],
+    "geneontology:hasId": "28755",
+    "geneontology:hasSynonym": [
+        "1,3,5-Trichloro-2-hydroxybenzene",
+        "2,4,6-TCP",
+        "2,4,6-Trichlorophenol"
+    ],
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#3_STAR"
+    },
+    "rdfs:label": "2,4,6-trichlorophenol",
+    "rdfs:subClassOf": [
+        {
+            "@id": "obo:CHEBI_27102"
+        },
+        {
+            "@id": "b402_genid-00f1db82e1ab437c844115a94dc63e635-bn28755tmms73f140426"
+        },
+        {
+            "@id": "b402_genid-00f1db82e1ab437c844115a94dc63e635-bn28755t11f50903"
+        },
+        {
+            "@id": "b402_genid-00f1db82e1ab437c844115a94dc63e635-bn28755t4f140426"
+        }
+    ]
+}

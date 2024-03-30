@@ -1,0 +1,66 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_5098",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "obo:IAO_0000115": "A penicillin compound having a 6beta-[3-(2-chloro-6-fluorophenyl)-5-methyl-1,2-oxazole-4-carboxamido] side-chain.",
+    "chebi:charge": "0",
+    "chebi:formula": "C19H17ClFN3O5S",
+    "chebi:inchi": "InChI=1S/C19H17ClFN3O5S/c1-7-10(12(23-29-7)11-8(20)5-4-6-9(11)21)15(25)22-13-16(26)24-14(18(27)28)19(2,3)30-17(13)24/h4-6,13-14,17H,1-3H3,(H,22,25)(H,27,28)/t13-,14+,17-/m1/s1",
+    "chebi:inchikey": "UIOFUWFRIANQPC-JKIFEVAISA-N",
+    "chebi:smiles": "[H][C@]12SC(C)(C)[C@@H](N1C(=O)[C@H]2NC(=O)c1c(C)onc1-c1c(F)cccc1Cl)C(O)=O",
+    "geneontology:hasDbXref": [
+        "PMID:12569987",
+        "PMID:25998949",
+        "PMID:29017833",
+        "Beilstein:4771988",
+        "CAS:5250-39-5",
+        "Drug_Central:1183",
+        "DrugBank:DB00301",
+        "KEGG:C11748",
+        "KEGG:D04196",
+        "PMID:15773973",
+        "PMID:23032409",
+        "PMID:23542420",
+        "PMID:5481218",
+        "Reaxys:4771988",
+        "Wikipedia:Flucloxacillin"
+    ],
+    "geneontology:hasId": "5098",
+    "geneontology:hasSynonym": [
+        "(2S,5R,6R)-6-({[3-(2-chloro-6-fluorophenyl)-5-methyl-1,2-oxazol-4-yl]carbonyl}amino)-3,3-dimethyl-7-oxo-4-thia-1-azabicyclo[3.2.0]heptane-2-carboxylic acid",
+        "3-(2-Chloro-6-fluorophenyl)-5-methyl-4-isoxazolylpenicillin",
+        "6beta-[3-(2-chloro-6-fluorophenyl)-5-methyl-1,2-oxazole-4-carboxamido]-2,2-dimethylpenam-3alpha-carboxylic acid",
+        "Floxacillin",
+        "Floxapen",
+        "flucloxacilina",
+        "Flucloxacillin",
+        "flucloxacilline",
+        "flucloxacillinum"
+    ],
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#3_STAR"
+    },
+    "rdfs:label": "flucloxacillin",
+    "rdfs:subClassOf": [
+        {
+            "@id": "obo:CHEBI_17334"
+        },
+        {
+            "@id": "obo:CHEBI_88187"
+        },
+        {
+            "@id": "b321_genid-00f1db82e1ab437c844115a94dc63e635-bn5098tmms73f52037"
+        },
+        {
+            "@id": "b321_genid-00f1db82e1ab437c844115a94dc63e635-bn5098t11f36047"
+        },
+        {
+            "@id": "b321_genid-00f1db82e1ab437c844115a94dc63e635-bn5098t4f52037"
+        }
+    ]
+}

@@ -1,0 +1,82 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_27584",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "obo:IAO_0000115": "A pregnane-based steroidal hormone produced by the outer-section (zona glomerulosa) of the adrenal cortex in the adrenal gland, and acts on the distal tubules and collecting ducts of the kidney to cause the conservation of sodium, secretion of potassium, increased water retention, and increased blood pressure. The overall effect of aldosterone is to increase reabsorption of ions and water in the kidney.",
+    "chebi:charge": "0",
+    "chebi:formula": "C21H28O5",
+    "chebi:inchi": "InChI=1S/C21H28O5/c1-20-7-6-13(24)8-12(20)2-3-14-15-4-5-16(18(26)10-22)21(15,11-23)9-17(25)19(14)20/h8,11,14-17,19,22,25H,2-7,9-10H2,1H3/t14-,15-,16+,17-,19+,20-,21+/m0/s1",
+    "chebi:inchikey": "PQSUYGKTWSAVDQ-ZVIOFETBSA-N",
+    "chebi:smiles": "[H][C@@]1(CC[C@@]2([H])[C@]3([H])CCC4=CC(=O)CC[C@]4(C)[C@@]3([H])[C@@H](O)C[C@]12C=O)C(=O)CO",
+    "http://purl.uniprot.org/core/name": "aldosterone",
+    "geneontology:hasDbXref": [
+        "PMID:10438974",
+        "Beilstein:3224996",
+        "CAS:52-39-1",
+        "Drug_Central:111",
+        "DrugBank:DB04630",
+        "HMDB:HMDB0000037",
+        "KEGG:C01780",
+        "LINCS:LSM-42770",
+        "LIPID_MAPS_instance:LMST02030026",
+        "PDBeChem:AS4",
+        "Reaxys:3224996",
+        "Wikipedia:Aldosterone"
+    ],
+    "geneontology:hasId": "27584",
+    "geneontology:hasSynonym": [
+        "(+)-aldosterone",
+        "(11beta)-11,21-dihydroxy-3,20-dioxopregn-4-en-18-al",
+        "11beta,21-Dihydroxy-3,20-dioxo-4-pregnen-18-al",
+        "11beta,21-dihydroxy-3,20-dioxopregn-4-en-18-al",
+        "Aldosterone",
+        "ALDOSTERONE"
+    ],
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#3_STAR"
+    },
+    "rdfs:label": "aldosterone",
+    "rdfs:subClassOf": [
+        {
+            "@id": "obo:CHEBI_35346"
+        },
+        {
+            "@id": "obo:CHEBI_47909"
+        },
+        {
+            "@id": "obo:CHEBI_35344"
+        },
+        {
+            "@id": "obo:CHEBI_36885"
+        },
+        {
+            "@id": "obo:CHEBI_139590"
+        },
+        {
+            "@id": "obo:CHEBI_131565"
+        },
+        {
+            "@id": "obo:CHEBI_25354"
+        },
+        {
+            "@id": "obo:CHEBI_64600"
+        },
+        {
+            "@id": "b151_genid-00f1db82e1ab437c844115a94dc63e635-bn27584t9f8386"
+        },
+        {
+            "@id": "obo:CHEBI_36887"
+        },
+        {
+            "@id": "b151_genid-00f1db82e1ab437c844115a94dc63e635-bn27584t11f75771"
+        },
+        {
+            "@id": "b151_genid-00f1db82e1ab437c844115a94dc63e635-bn27584t11f77746"
+        }
+    ]
+}

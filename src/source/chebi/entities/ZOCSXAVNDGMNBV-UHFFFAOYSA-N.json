@@ -1,0 +1,46 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_83394",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "obo:IAO_0000115": "A member of the class of pyrazoles that is 1H-pyrazole that is substituted at positions 1, 3, 4, and 5 by 2,6-dichloro-4-(trifluoromethyl)phenyl, cyano, (trifluoromethyl)sulfinyl, and amino groups, respectively.",
+    "chebi:charge": "0",
+    "chebi:formula": "C12H4Cl2F6N4OS",
+    "chebi:inchi": "InChI=1S/C12H4Cl2F6N4OS/c13-5-1-4(11(15,16)17)2-6(14)8(5)24-10(22)9(7(3-21)23-24)26(25)12(18,19)20/h1-2H,22H2",
+    "chebi:inchikey": "ZOCSXAVNDGMNBV-UHFFFAOYSA-N",
+    "chebi:smiles": "Nc1c(c(nn1-c1c(Cl)cc(cc1Cl)C(F)(F)F)C#N)S(=O)C(F)(F)F",
+    "geneontology:hasDbXref": [
+        "LINCS:LSM-1608",
+        "PPDB:316",
+        "VSDB:316"
+    ],
+    "geneontology:hasId": "83394",
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#3_STAR"
+    },
+    "rdfs:label": "5-amino-1-[2,6-dichloro-4-(trifluoromethyl)phenyl]-4-[(trifluoromethyl)sulfinyl]-1H-pyrazole-3-carbonitrile",
+    "rdfs:subClassOf": [
+        {
+            "@id": "obo:CHEBI_18379"
+        },
+        {
+            "@id": "obo:CHEBI_26410"
+        },
+        {
+            "@id": "obo:CHEBI_23697"
+        },
+        {
+            "@id": "obo:CHEBI_50994"
+        },
+        {
+            "@id": "obo:CHEBI_22063"
+        },
+        {
+            "@id": "obo:CHEBI_83565"
+        }
+    ]
+}

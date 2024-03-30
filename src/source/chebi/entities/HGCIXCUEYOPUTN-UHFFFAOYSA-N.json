@@ -1,0 +1,42 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_36404",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "obo:IAO_0000115": "A cycloalkene that is cylohexane with a single double bond.",
+    "chebi:charge": "0",
+    "chebi:formula": "C6H10",
+    "chebi:inchi": "InChI=1S/C6H10/c1-2-4-6-5-3-1/h1-2H,3-6H2",
+    "chebi:inchikey": "HGCIXCUEYOPUTN-UHFFFAOYSA-N",
+    "chebi:smiles": "C1CCC=CC1",
+    "geneontology:hasDbXref": [
+        "Beilstein:906737",
+        "CAS:110-83-8",
+        "Gmelin:1659",
+        "PMID:24227283",
+        "Reaxys:906737",
+        "Wikipedia:Cyclohexene"
+    ],
+    "geneontology:hasId": "36404",
+    "geneontology:hasSynonym": [
+        "1,2,3,4-tetrahydrobenzene",
+        "1-cyclohexene",
+        "3,4,5,6-tetrahydrobenzene",
+        "benzenetetrahydride",
+        "benzene tetrahydride",
+        "cyclohex-1-ene",
+        "tetrahydrobenzene",
+        "Zyklohexen"
+    ],
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#3_STAR"
+    },
+    "rdfs:label": "cyclohexene",
+    "rdfs:subClassOf": {
+        "@id": "obo:CHEBI_33643"
+    }
+}

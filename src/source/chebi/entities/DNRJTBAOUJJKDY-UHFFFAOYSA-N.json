@@ -1,0 +1,29 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_88666",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "chebi:charge": "0",
+    "chebi:formula": "C18H26O",
+    "chebi:inchi": "InChI=1S/C18H26O/c1-11-8-16-15(9-14(11)13(3)19)17(4,5)10-12(2)18(16,6)7/h8-9,12H,10H2,1-7H3",
+    "chebi:inchikey": "DNRJTBAOUJJKDY-UHFFFAOYSA-N",
+    "chebi:smiles": "CC1=CC2=C(C=C1C(C)=O)C(C)(C)CC(C)C2(C)C",
+    "geneontology:hasDbXref": [
+        "PMID:24421258",
+        "HMDB:HMDB0061860",
+        "PMID:21298260"
+    ],
+    "geneontology:hasId": "88666",
+    "geneontology:hasSynonym": "1-(3,5,5,6,8,8-hexamethyl-5,6,7,8-tetrahydronaphthalen-2-yl)ethan-1-one",
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#2_STAR"
+    },
+    "rdfs:label": "2-Acetyl-3,5,5,6,8,8-hexamethyl-5,6,7,8- tetrahydronaphthalene",
+    "rdfs:subClassOf": {
+        "@id": "obo:CHEBI_36786"
+    }
+}

@@ -1,0 +1,37 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_48615",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "obo:IAO_0000115": "A dimethylnaphthalene carrying methyl groups at positions 2 and 3.",
+    "chebi:charge": "0",
+    "chebi:formula": "C12H12",
+    "chebi:inchi": "InChI=1S/C12H12/c1-9-7-11-5-3-4-6-12(11)8-10(9)2/h3-8H,1-2H3",
+    "chebi:inchikey": "WWGUMAYGTYQSGA-UHFFFAOYSA-N",
+    "chebi:smiles": "Cc1cc2ccccc2cc1C",
+    "geneontology:hasDbXref": [
+        "Patent:EP1852409",
+        "Beilstein:1852621",
+        "CAS:581-40-8",
+        "PMID:11494104",
+        "PMID:19212594",
+        "PMID:21218222",
+        "Reaxys:1852621"
+    ],
+    "geneontology:hasId": "48615",
+    "geneontology:hasSynonym": [
+        "2,3-DMN",
+        "Guajen"
+    ],
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#3_STAR"
+    },
+    "rdfs:label": "2,3-dimethylnaphthalene",
+    "rdfs:subClassOf": {
+        "@id": "obo:CHEBI_48853"
+    }
+}

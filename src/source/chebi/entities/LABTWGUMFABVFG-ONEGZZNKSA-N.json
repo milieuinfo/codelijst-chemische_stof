@@ -1,0 +1,50 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_145276",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "obo:IAO_0000115": "A methyl propenyl ketone in which the double bond has (E)-configuration. It is a key odorant responsible for the chestnut-like aroma in green tea.",
+    "chebi:charge": "0",
+    "chebi:formula": "C5H8O",
+    "chebi:inchi": "InChI=1S/C5H8O/c1-3-4-5(2)6/h3-4H,1-2H3/b4-3+",
+    "chebi:inchikey": "LABTWGUMFABVFG-ONEGZZNKSA-N",
+    "chebi:smiles": "O=C(/C=C/C)C",
+    "http://purl.uniprot.org/core/name": "(E)-pent-3-en-2-one",
+    "geneontology:hasDbXref": [
+        "PMID:25619643",
+        "AGR:IND606344169",
+        "CAS:3102-33-8",
+        "LIPID_MAPS_instance:LMFA12000028",
+        "PMID:29735103",
+        "PMID:30255657"
+    ],
+    "geneontology:hasId": "145276",
+    "geneontology:hasSynonym": [
+        "(E)-pent-3-en-2-one",
+        "(3E)-penten-2-one",
+        "(E)-3-penten-2-one",
+        "trans-3-penten-2-one"
+    ],
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#3_STAR"
+    },
+    "rdfs:label": "(3E)-pent-3-en-2-one",
+    "rdfs:subClassOf": [
+        {
+            "@id": "obo:CHEBI_134179"
+        },
+        {
+            "@id": "obo:CHEBI_89540"
+        },
+        {
+            "@id": "b347_genid-00f1db82e1ab437c844115a94dc63e635-bn145276t11f35617"
+        },
+        {
+            "@id": "b347_genid-00f1db82e1ab437c844115a94dc63e635-bn145276t11f76924"
+        }
+    ]
+}

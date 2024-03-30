@@ -1,0 +1,27 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_82445",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "chebi:charge": "0",
+    "chebi:formula": "C2HBr2N",
+    "chebi:inchi": "InChI=1S/C2HBr2N/c3-2(4)1-5/h2H",
+    "chebi:inchikey": "NDSBDLSWTGLNQA-UHFFFAOYSA-N",
+    "chebi:smiles": "BrC(Br)C#N",
+    "geneontology:hasDbXref": [
+        "CAS:3252-43-5",
+        "KEGG:C19396"
+    ],
+    "geneontology:hasId": "82445",
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#2_STAR"
+    },
+    "rdfs:label": "Dibromoacetonitrile",
+    "rdfs:subClassOf": {
+        "@id": "obo:CHEBI_80291"
+    }
+}

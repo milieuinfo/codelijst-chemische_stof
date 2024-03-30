@@ -1,0 +1,60 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_33421",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "obo:IAO_0000115": "A carbamate ester that is 4-chlorobut-2-yn-1-yl ester of N-(3-chlorophenyl)carbamic acid. A herbicide, it is no longer approved for use within the European Community.",
+    "chebi:charge": "0",
+    "chebi:formula": "C11H9Cl2NO2",
+    "chebi:inchi": "InChI=1S/C11H9Cl2NO2/c12-6-1-2-7-16-11(15)14-10-5-3-4-9(13)8-10/h3-5,8H,6-7H2,(H,14,15)",
+    "chebi:inchikey": "MCOQHIWZJUDQIC-UHFFFAOYSA-N",
+    "chebi:smiles": "ClCC#CCOC(=O)Nc1cccc(Cl)c1",
+    "geneontology:hasDbXref": [
+        "AGR:IND87074542",
+        "AGR:IND87099844",
+        "AGR:IND92063155",
+        "Beilstein:2376181",
+        "CAS:101-27-9",
+        "KEGG:C19059",
+        "Patent:US2906614",
+        "Pesticides:barban",
+        "PMID:5009514",
+        "PMID:5453300",
+        "PPDB:1108",
+        "Reaxys:2376181"
+    ],
+    "geneontology:hasId": "33421",
+    "geneontology:hasSynonym": [
+        "2-butynyl-4-chloro-m-chlorocarbanilate",
+        "4-chloro-2-butynyl 3-chlorocarbanilate",
+        "4-chloro-2-butynyl 3-chlorophenylcarbamate",
+        "4-chloro-2-butynyl m-chlorocarbanilate",
+        "4-chloro-2-butynyl m-chlorophenylcarbamate",
+        "4-chloro-2-butynyl meta-chlorocarbanilate",
+        "4-chlorobut-2-yn-1-yl (3-chlorophenyl)carbamate",
+        "4-chlorobut-2-ynyl 3-chlorophenylcarbamate",
+        "4-chlorobut-2-ynyl-m-chlorocarbanilate"
+    ],
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#3_STAR"
+    },
+    "rdfs:label": "barban",
+    "rdfs:subClassOf": [
+        {
+            "@id": "obo:CHEBI_83403"
+        },
+        {
+            "@id": "obo:CHEBI_23003"
+        },
+        {
+            "@id": "obo:CHEBI_73474"
+        },
+        {
+            "@id": "b497_genid-00f1db82e1ab437c844115a94dc63e635-bn33421t11f24527"
+        }
+    ]
+}

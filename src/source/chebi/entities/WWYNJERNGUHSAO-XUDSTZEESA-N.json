@@ -1,0 +1,92 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_6443",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "chebi:charge": "0",
+    "chebi:formula": "C21H28O2",
+    "chebi:inchi": "InChI=1S/C21H28O2/c1-3-20-11-9-17-16-8-6-15(22)13-14(16)5-7-18(17)19(20)10-12-21(20,23)4-2/h2,13,16-19,23H,3,5-12H2,1H3/t16-,17+,18+,19-,20-,21-/m0/s1",
+    "chebi:inchikey": "WWYNJERNGUHSAO-XUDSTZEESA-N",
+    "chebi:smiles": "[H][C@]12CCC(=O)C=C1CC[C@]1([H])[C@]2([H])CC[C@@]2(CC)[C@@]1([H])CC[C@@]2(O)C#C",
+    "geneontology:hasDbXref": [
+        "Beilstein:6067808",
+        "CAS:6533-00-2",
+        "CAS:797-63-7",
+        "DrugBank:DB00367",
+        "KEGG:C08149",
+        "KEGG:C08153",
+        "KEGG:D00950",
+        "KEGG:D00954",
+        "LIPID_MAPS_instance:LMST02030119",
+        "Patent:BE623844",
+        "Patent:US3959322",
+        "PDBeChem:NOG"
+    ],
+    "geneontology:hasId": "6443",
+    "geneontology:hasSynonym": [
+        "levonorgestrel",
+        "(-)-13-Ethyl-17-hydroxy-18,19-dinor-17alpha-pregn-4-en-20-yn-3-one",
+        "13-beta-Ethyl-17alpha-ethynyl-17beta-hydroxygon-4-en-3-one",
+        "13-Ethyl-17-alpha-ethynyl-17-beta-hydroxy-4-gonen-3-one",
+        "13-Ethyl-17-alpha-ethynylgon-4-en-17-beta-ol-3-one",
+        "17-alpha-Ethinyl-13-beta-ethyl-17-beta-hydroxy-4-estren-3-one",
+        "17alpha-Ethynyl-13beta-ethyl-3-oxo-4-estren-17beta-ol",
+        "17-alpha-Ethynyl-13-ethyl-19-nortestosterone",
+        "17alpha-ethynyl-17beta-hydroxy-18a-homoestr-4-en-3-one",
+        "17alpha-Ethynyl-17-hydroxy-18-methylestr-4-en-3-one",
+        "17alpha-Ethynyl-18-homo-19-nortestosterone",
+        "17-Ethynyl-18-methyl-19-nortestosterone",
+        "18-Methyl-17-alpha-ethynyl-19-nortestosterone",
+        "18-Methylnorethisterone",
+        "d(-)-Norgestrel",
+        "Jadelle",
+        "Levonelle",
+        "Levonorgestrel",
+        "levonorgestrelum",
+        "Levonova",
+        "Microlut",
+        "Microluton",
+        "Microval",
+        "Mirena",
+        "NorLevo",
+        "Plan B",
+        "Postinor"
+    ],
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#3_STAR"
+    },
+    "rdfs:label": "levonorgestrel",
+    "rdfs:subClassOf": [
+        {
+            "@id": "obo:CHEBI_47909"
+        },
+        {
+            "@id": "obo:CHEBI_35343"
+        },
+        {
+            "@id": "obo:CHEBI_73477"
+        },
+        {
+            "@id": "b235_genid-00f1db82e1ab437c844115a94dc63e635-bn6443t8f7630"
+        },
+        {
+            "@id": "b235_genid-00f1db82e1ab437c844115a94dc63e635-bn6443t11f49323"
+        },
+        {
+            "@id": "b235_genid-00f1db82e1ab437c844115a94dc63e635-bn6443t11f49324"
+        },
+        {
+            "@id": "b235_genid-00f1db82e1ab437c844115a94dc63e635-bn6443t11f49326"
+        },
+        {
+            "@id": "b235_genid-00f1db82e1ab437c844115a94dc63e635-bn6443t6f50900"
+        },
+        {
+            "@id": "b235_genid-00f1db82e1ab437c844115a94dc63e635-bn6443t11f59826"
+        }
+    ]
+}

@@ -1,0 +1,58 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_38730",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "chebi:charge": "0",
+    "chebi:formula": "C5H12NO4PS",
+    "chebi:inchi": "InChI=1S/C5H12NO4PS/c1-6-5(7)4-12-11(8,9-2)10-3/h4H2,1-3H3,(H,6,7)",
+    "chebi:inchikey": "PZXOQEXFMJCDPG-UHFFFAOYSA-N",
+    "chebi:smiles": "CNC(=O)CSP(=O)(OC)OC",
+    "geneontology:hasDbXref": [
+        "Beilstein:1785256",
+        "CAS:1113-02-6",
+        "KEGG:C18662",
+        "PPDB:492"
+    ],
+    "geneontology:hasId": "38730",
+    "geneontology:hasSynonym": [
+        "2-Dimethoxyphosphinoylthio-N-methylacetamide",
+        "Dimethoxon",
+        "O,O-Dimethyl S-((methylcarbamoyl)methyl)phosphorothioate",
+        "O,O-Dimethyl-S-(N-methylcarbamoylmethyl)phosphorothioate",
+        "O,O-Dimethyl S-(N-methylcarbamoylmethyl) phosphorothiolate",
+        "O,O-Dimethyl S-(N-methylcarbamoylmethyl) thiophosphate",
+        "O,O-Dimethyl S-[(methylcarbamoyl)methyl] phosphorothioate",
+        "O,O-dimethyl S-[2-(methylamino)-2-oxoethyl] phosphorothioate",
+        "O,O-dimethyl S-[2-(methylamino)-2-oxoethyl] thiophosphate",
+        "Phosphorothioic acid, O,O-dimethyl S-(2-(methylamino)-2-oxoethyl) ester"
+    ],
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#3_STAR"
+    },
+    "rdfs:label": "omethoate",
+    "rdfs:subClassOf": [
+        {
+            "@id": "obo:CHEBI_37512"
+        },
+        {
+            "@id": "obo:CHEBI_25715"
+        },
+        {
+            "@id": "b187_genid-00f1db82e1ab437c844115a94dc63e635-bn38730t11f22153"
+        },
+        {
+            "@id": "b187_genid-00f1db82e1ab437c844115a94dc63e635-bn38730t11f33286"
+        },
+        {
+            "@id": "b187_genid-00f1db82e1ab437c844115a94dc63e635-bn38730t11f38462"
+        },
+        {
+            "@id": "b187_genid-00f1db82e1ab437c844115a94dc63e635-bn38730t8f38731"
+        }
+    ]
+}

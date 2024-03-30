@@ -1,0 +1,73 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_34698",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "obo:IAO_0000115": "The diethyl ester of benzene-1,2-dicarboxylic acid.",
+    "chebi:charge": "0",
+    "chebi:formula": "C12H14O4",
+    "chebi:inchi": "InChI=1S/C12H14O4/c1-3-15-11(13)9-7-5-6-8-10(9)12(14)16-4-2/h5-8H,3-4H2,1-2H3",
+    "chebi:inchikey": "FLKPEMZONWLCSK-UHFFFAOYSA-N",
+    "chebi:smiles": "CCOC(=O)c1ccccc1C(=O)OCC",
+    "geneontology:hasDbXref": [
+        "PMID:19840837",
+        "PMID:26730679",
+        "Beilstein:1912500",
+        "CAS:84-66-2",
+        "Gmelin:261704",
+        "KEGG:C14175",
+        "KEGG:D03804",
+        "PMID:16784196",
+        "PMID:23880707",
+        "PMID:24418706",
+        "PMID:26004250",
+        "PMID:27639077",
+        "PMID:28577407",
+        "PMID:28580013",
+        "Reaxys:1912500",
+        "Wikipedia:Diethyl_phthalate"
+    ],
+    "geneontology:hasId": "34698",
+    "geneontology:hasSynonym": [
+        "1,2-Benzenedicarboxylic acid diethyl ester",
+        "1,2-Diethyl phthalate",
+        "DEP",
+        "Diethyl 1,2-benzenedicarboxylate",
+        "diethyl benzene-1,2-dicarboxylate",
+        "Diethyl o-phthalate",
+        "Diethyl phthalate",
+        "Ethyl phthalate",
+        "o-Benzenedicarboxylic acid diethyl ester",
+        "o-Bis(ethoxycarbonyl)benzene",
+        "Phthalic acid diethyl ester",
+        "Phthalsaeurediaethylester"
+    ],
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#3_STAR"
+    },
+    "rdfs:label": "diethyl phthalate",
+    "rdfs:subClassOf": [
+        {
+            "@id": "obo:CHEBI_23990"
+        },
+        {
+            "@id": "obo:CHEBI_51307"
+        },
+        {
+            "@id": "obo:CHEBI_35484"
+        },
+        {
+            "@id": "b212_genid-00f1db82e1ab437c844115a94dc63e635-bn34698t11f50905"
+        },
+        {
+            "@id": "b212_genid-00f1db82e1ab437c844115a94dc63e635-bn34698t11f50910"
+        },
+        {
+            "@id": "b212_genid-00f1db82e1ab437c844115a94dc63e635-bn34698t11f79056"
+        }
+    ]
+}

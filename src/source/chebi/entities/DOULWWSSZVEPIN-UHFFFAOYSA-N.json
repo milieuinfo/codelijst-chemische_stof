@@ -1,0 +1,42 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_83468",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "obo:IAO_0000115": "A member of the class of phenylureas that is 1-methylurea substituted by a p-cumenyl group at position 3. It is a metabolite of the herbicide isoproturon.",
+    "chebi:charge": "0",
+    "chebi:formula": "C11H16N2O",
+    "chebi:inchi": "InChI=1S/C11H16N2O/c1-8(2)9-4-6-10(7-5-9)13-11(14)12-3/h4-8H,1-3H3,(H2,12,13,14)",
+    "chebi:inchikey": "DOULWWSSZVEPIN-UHFFFAOYSA-N",
+    "chebi:smiles": "CNC(=O)Nc1ccc(cc1)C(C)C",
+    "http://purl.uniprot.org/core/name": "1-methyl-3-[4-(propan-2-yl)phenyl]urea",
+    "geneontology:hasDbXref": [
+        "CAS:34123-57-4",
+        "PMID:16332769",
+        "Reaxys:2970914"
+    ],
+    "geneontology:hasId": "83468",
+    "geneontology:hasSynonym": [
+        "1-methyl-3-[4-(propan-2-yl)phenyl]urea",
+        "N'-(isopropylphenyl)-N-methylurea"
+    ],
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#3_STAR"
+    },
+    "rdfs:label": "isoproturon-monodemethyl",
+    "rdfs:subClassOf": [
+        {
+            "@id": "obo:CHEBI_157694"
+        },
+        {
+            "@id": "obo:CHEBI_134043"
+        },
+        {
+            "@id": "b92_genid-00f1db82e1ab437c844115a94dc63e635-bn83468t11f83399"
+        }
+    ]
+}

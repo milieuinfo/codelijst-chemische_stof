@@ -1,0 +1,74 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_9123",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "obo:IAO_0000115": "A member of the class of tetralins that is tetralin which is substituted at positions 1 and 4 by a methylamino and a 3,4-dichlorophenyl group, respectively (the S,S diastereoisomer). A selective serotonin-reuptake inhibitor (SSRI), it is administered orally as the hydrochloride salt as an antidepressant for the treatment of depression, obsessive-compulsive disorder, panic disorder and post-traumatic stress disorder.",
+    "chebi:charge": "0",
+    "chebi:formula": "C17H17Cl2N",
+    "chebi:inchi": "InChI=1S/C17H17Cl2N/c1-20-17-9-7-12(13-4-2-3-5-14(13)17)11-6-8-15(18)16(19)10-11/h2-6,8,10,12,17,20H,7,9H2,1H3/t12-,17-/m0/s1",
+    "chebi:inchikey": "VGKDLMBJGBXTGI-SJCJKPOMSA-N",
+    "chebi:smiles": "[H][C@]1(CC[C@H](NC)c2ccccc12)c1ccc(Cl)c(Cl)c1",
+    "geneontology:hasDbXref": [
+        "Beilstein:5753709",
+        "CAS:79617-96-2",
+        "Drug_Central:2436",
+        "DrugBank:DB01104",
+        "HMDB:HMDB0005010",
+        "KEGG:C07246",
+        "KEGG:D02360",
+        "LINCS:LSM-3843",
+        "Patent:US4536518",
+        "PDBeChem:SRE",
+        "PMID:19502000",
+        "PMID:21823671",
+        "Reaxys:5753709",
+        "Wikipedia:Sertraline"
+    ],
+    "geneontology:hasId": "9123",
+    "geneontology:hasSynonym": [
+        "(+)-sertraline",
+        "(1S,4S)-4-(3,4-dichlorophenyl)-N-methyl-1,2,3,4-tetrahydronaphthalen-1-amine",
+        "(1S,4S)-sertraline",
+        "(1S-cis)-1,2,3,4-tetrahydro-4-(3,4-dichlorophenyl)-N-methyl-1-naphthalenamine",
+        "cis-(+)-sertraline",
+        "CP 51974",
+        "sertralina",
+        "Sertraline",
+        "sertralinum"
+    ],
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#3_STAR"
+    },
+    "rdfs:label": "sertraline",
+    "rdfs:subClassOf": [
+        {
+            "@id": "obo:CHEBI_36786"
+        },
+        {
+            "@id": "obo:CHEBI_23697"
+        },
+        {
+            "@id": "obo:CHEBI_50995"
+        },
+        {
+            "@id": "b409_genid-00f1db82e1ab437c844115a94dc63e635-bn9123tmms73f64214"
+        },
+        {
+            "@id": "b409_genid-00f1db82e1ab437c844115a94dc63e635-bn9123t9f35008"
+        },
+        {
+            "@id": "b409_genid-00f1db82e1ab437c844115a94dc63e635-bn9123t11f35469"
+        },
+        {
+            "@id": "b409_genid-00f1db82e1ab437c844115a94dc63e635-bn9123t11f50949"
+        },
+        {
+            "@id": "b409_genid-00f1db82e1ab437c844115a94dc63e635-bn9123t5f64214"
+        }
+    ]
+}

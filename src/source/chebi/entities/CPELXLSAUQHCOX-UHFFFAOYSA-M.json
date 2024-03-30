@@ -1,0 +1,48 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_15858",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "chebi:charge": "-1",
+    "chebi:formula": "Br",
+    "chebi:inchi": "InChI=1S/BrH/h1H/p-1",
+    "chebi:inchikey": "CPELXLSAUQHCOX-UHFFFAOYSA-M",
+    "chebi:smiles": "[Br-]",
+    "http://purl.uniprot.org/core/name": "bromide",
+    "geneontology:hasDbXref": [
+        "Beilstein:3587179",
+        "CAS:24959-67-9",
+        "Gmelin:14908",
+        "KEGG:C00720",
+        "KEGG:C01324",
+        "PDBeChem:BR"
+    ],
+    "geneontology:hasId": "15858",
+    "geneontology:hasSynonym": [
+        "Br-",
+        "Br(-)",
+        "Bromide",
+        "bromide(1-)",
+        "BROMIDE ION",
+        "bromine anion"
+    ],
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#3_STAR"
+    },
+    "rdfs:label": "bromide",
+    "rdfs:subClassOf": [
+        {
+            "@id": "obo:CHEBI_16042"
+        },
+        {
+            "@id": "obo:CHEBI_36896"
+        },
+        {
+            "@id": "b347_genid-00f1db82e1ab437c844115a94dc63e635-bn15858t5f47266"
+        }
+    ]
+}

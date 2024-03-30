@@ -1,0 +1,95 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_7071",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "obo:IAO_0000115": "A monocarboxylic acid amide resulting from the formal condensation of the carboxy group of m-toluic acid with the nitrogen of diethylamine. First developed by the U.S. Army in 1946 for use by military personnel in insect-infested areas, it is the most widely used insect repellent worldwide.",
+    "chebi:charge": "0",
+    "chebi:formula": "C12H17NO",
+    "chebi:inchi": "InChI=1S/C12H17NO/c1-4-13(5-2)12(14)11-8-6-7-10(3)9-11/h6-9H,4-5H2,1-3H3",
+    "chebi:inchikey": "MMOXZBCLCQITDF-UHFFFAOYSA-N",
+    "chebi:smiles": "CCN(CC)C(=O)c1cccc(C)c1",
+    "geneontology:hasDbXref": [
+        "AGR:IND603426025",
+        "CAS:134-62-3",
+        "Drug_Central:4418",
+        "KEGG:C10935",
+        "KEGG:D02379",
+        "LINCS:LSM-4114",
+        "PDBeChem:DE3",
+        "Pesticides:diethyltoluamide",
+        "PMID:20797533",
+        "PMID:20963476",
+        "PMID:21937991",
+        "PMID:22289669",
+        "PMID:23167529",
+        "PMID:23261834",
+        "PMID:23407786",
+        "PMID:23437043",
+        "PMID:2499696",
+        "PMID:25748344",
+        "PMID:26467804",
+        "PMID:27138630",
+        "PMID:27345502",
+        "PMID:27510858",
+        "PMID:27639850",
+        "PMID:27657095",
+        "PMID:28676765",
+        "PMID:29077936",
+        "PMID:30395919",
+        "PMID:3352115",
+        "PMID:7564300",
+        "PMID:8187533",
+        "PPDB:1190",
+        "Reaxys:2046711",
+        "Wikipedia:DEET"
+    ],
+    "geneontology:hasId": "7071",
+    "geneontology:hasSynonym": [
+        "3-methyl-N,N-diethylbenzamide",
+        "Autan",
+        "deet",
+        "DEET",
+        "Detamide",
+        "diethyltoluamide",
+        "diethyl toluamide",
+        "diethyltoluamidum",
+        "dietiltoluamida",
+        "Flypel",
+        "m-Delphene",
+        "Metadelphene",
+        "Muscol",
+        "N,N-diethyl-3-methylbenzamide",
+        "Off",
+        "Off!",
+        "Repel"
+    ],
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#3_STAR"
+    },
+    "rdfs:label": "N,N-diethyl-m-toluamide",
+    "rdfs:subClassOf": [
+        {
+            "@id": "obo:CHEBI_29347"
+        },
+        {
+            "@id": "obo:CHEBI_22702"
+        },
+        {
+            "@id": "b543_genid-00f1db82e1ab437c844115a94dc63e635-bn7071t8f10589"
+        },
+        {
+            "@id": "b543_genid-00f1db82e1ab437c844115a94dc63e635-bn7071t11f35703"
+        },
+        {
+            "@id": "b543_genid-00f1db82e1ab437c844115a94dc63e635-bn7071t11f71692"
+        },
+        {
+            "@id": "b543_genid-00f1db82e1ab437c844115a94dc63e635-bn7071t11f78298"
+        }
+    ]
+}

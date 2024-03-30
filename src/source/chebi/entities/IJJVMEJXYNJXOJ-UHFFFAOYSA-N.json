@@ -1,0 +1,62 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_83923",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "obo:IAO_0000115": "A member of the class of quinazolines that is 6-fluoroquinazolin-4-one carrying additional 1,2,4-triazol-1-yl and 2,4-dichlorophenyl substituents at positions 2 and 3 respectively. A fungicide used to control Ascomycetes, Deuteromycetes and Basidiomycetes spp. on cereals, beets and fruit.",
+    "chebi:charge": "0",
+    "chebi:formula": "C16H8Cl2FN5O",
+    "chebi:inchi": "InChI=1S/C16H8Cl2FN5O/c17-9-1-4-14(12(18)5-9)24-15(25)11-6-10(19)2-3-13(11)22-16(24)23-8-20-7-21-23/h1-8H",
+    "chebi:inchikey": "IJJVMEJXYNJXOJ-UHFFFAOYSA-N",
+    "chebi:smiles": "Fc1ccc2nc(-n3cncn3)n(-c3ccc(Cl)cc3Cl)c(=O)c2c1",
+    "geneontology:hasDbXref": [
+        "PMID:23993516",
+        "PMID:24861743",
+        "CAS:136426-54-5",
+        "Patent:EP2289324",
+        "Patent:NZ553660",
+        "Patent:NZ585433",
+        "Pesticides:fluquinconazol",
+        "PPDB:342",
+        "Reaxys:11158677"
+    ],
+    "geneontology:hasId": "83923",
+    "geneontology:hasSynonym": [
+        "3-(2,4-Dichlorophenyl)-6-fluoro-2-(1H-1,2,4-triazol-1-yl)-4(3H)-quinazolinone",
+        "3-(2,4-dichlorophenyl)-6-fluoro-2-(1H-1,2,4-triazol-1-yl)quinazolin-4(3H)-one"
+    ],
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#3_STAR"
+    },
+    "rdfs:label": "fluquinconazole",
+    "rdfs:subClassOf": [
+        {
+            "@id": "obo:CHEBI_35727"
+        },
+        {
+            "@id": "obo:CHEBI_23697"
+        },
+        {
+            "@id": "obo:CHEBI_37143"
+        },
+        {
+            "@id": "obo:CHEBI_38530"
+        },
+        {
+            "@id": "obo:CHEBI_87100"
+        },
+        {
+            "@id": "obo:CHEBI_87067"
+        },
+        {
+            "@id": "b621_genid-00f1db82e1ab437c844115a94dc63e635-bn83923t11f77884"
+        },
+        {
+            "@id": "b621_genid-00f1db82e1ab437c844115a94dc63e635-bn83923t11f86328"
+        }
+    ]
+}

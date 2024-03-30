@@ -1,0 +1,73 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_35720",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "obo:IAO_0000115": "A quinolinemonocarboxylic acid that is 1,4-dihydroquinoline-3-carboxylic acid substituted by an oxo group at position 4, a fluoro group at position 6, a cyclopropyl group at position 1 and a 4-ethylpiperazin-1-yl group at position 7. It is a veterinary antibacterial agent used for the treatment of pets.",
+    "chebi:charge": "0",
+    "chebi:formula": "C19H22FN3O3",
+    "chebi:inchi": "InChI=1S/C19H22FN3O3/c1-2-21-5-7-22(8-6-21)17-10-16-13(9-15(17)20)18(24)14(19(25)26)11-23(16)12-3-4-12/h9-12H,2-8H2,1H3,(H,25,26)",
+    "chebi:inchikey": "SPFYMRJSYKOXGV-UHFFFAOYSA-N",
+    "chebi:smiles": "C1=C(C(=CC2=C1N(C=C(C2=O)C(=O)O)C3CC3)F)N4CCN(CC4)CC",
+    "geneontology:hasDbXref": [
+        "PMID:26963935",
+        "CAS:93106-60-6",
+        "Drug_Central:1017",
+        "HMDB:HMDB0029861",
+        "KEGG:D02473",
+        "LINCS:LSM-3709",
+        "Patent:KR20130080422",
+        "Patent:RU2491922",
+        "Patent:US4659603",
+        "PMID:15967281",
+        "PMID:19376344",
+        "PMID:24380725",
+        "PMID:8828132",
+        "Reaxys:5307824",
+        "VSDB:1762",
+        "Wikipedia:Enrofloxacin"
+    ],
+    "geneontology:hasId": "35720",
+    "geneontology:hasSynonym": [
+        "1-cyclopropyl-7-(4-ethylpiperazin-1-yl)-6-fluoro-4-oxo-1,4-dihydroquinoline-3-carboxylic acid",
+        "Baytril",
+        "Enrofloxacin"
+    ],
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#3_STAR"
+    },
+    "rdfs:label": "enrofloxacin",
+    "rdfs:subClassOf": [
+        {
+            "@id": "obo:CHEBI_23765"
+        },
+        {
+            "@id": "obo:CHEBI_26512"
+        },
+        {
+            "@id": "obo:CHEBI_37143"
+        },
+        {
+            "@id": "obo:CHEBI_46845"
+        },
+        {
+            "@id": "obo:CHEBI_51454"
+        },
+        {
+            "@id": "obo:CHEBI_46848"
+        },
+        {
+            "@id": "b193_genid-00f1db82e1ab437c844115a94dc63e635-bn35720t11f33281"
+        },
+        {
+            "@id": "b193_genid-00f1db82e1ab437c844115a94dc63e635-bn35720t11f33282"
+        },
+        {
+            "@id": "b193_genid-00f1db82e1ab437c844115a94dc63e635-bn35720t11f35610"
+        }
+    ]
+}

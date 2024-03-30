@@ -1,0 +1,43 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_38737",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "chebi:charge": "0",
+    "chebi:formula": "C12H27OPS3",
+    "chebi:inchi": "InChI=1S/C12H27OPS3/c1-4-7-10-15-14(13,16-11-8-5-2)17-12-9-6-3/h4-12H2,1-3H3",
+    "chebi:inchikey": "ZOKXUAHZSKEQSS-UHFFFAOYSA-N",
+    "chebi:smiles": "CCCCSP(=O)(SCCCC)SCCCC",
+    "geneontology:hasDbXref": [
+        "Beilstein:1910992",
+        "CAS:78-48-8",
+        "PPDB:656"
+    ],
+    "geneontology:hasId": "38737",
+    "geneontology:hasSynonym": [
+        "Butifos",
+        "butyl phosphorotrithioate",
+        "DEF",
+        "DEF defoliant",
+        "phosphorotrithioic acid, S,S,S-tributyl ester",
+        "S,S,S-tributyl phosphorotrithioate",
+        "S,S,S-tributyl trithiophosphate",
+        "tributylphosphorotrithioate"
+    ],
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#3_STAR"
+    },
+    "rdfs:label": "tribufos",
+    "rdfs:subClassOf": [
+        {
+            "@id": "obo:CHEBI_37512"
+        },
+        {
+            "@id": "b386_genid-00f1db82e1ab437c844115a94dc63e635-bn38737t11f23582"
+        }
+    ]
+}

@@ -1,0 +1,50 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_75620",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "obo:IAO_0000115": "A wax ester obtained by the formal condensation of the carboxy group of oleic acid with the hydroxy group of decanol.",
+    "chebi:charge": "0",
+    "chebi:formula": "C28H54O2",
+    "chebi:inchi": "InChI=1S/C28H54O2/c1-3-5-7-9-11-13-14-15-16-17-18-19-20-22-24-26-28(29)30-27-25-23-21-12-10-8-6-4-2/h15-16H,3-14,17-27H2,1-2H3/b16-15-",
+    "chebi:inchikey": "SASYSVUEVMOWPL-NXVVXOECSA-N",
+    "chebi:smiles": "CCCCCCCCCCOC(=O)CCCCCCC\\C=C/CCCCCCCC",
+    "http://purl.uniprot.org/core/name": "1-O-decyl-(9Z)-octadecenoate",
+    "geneontology:hasDbXref": [
+        "CAS:3687-46-5",
+        "Patent:CH689373",
+        "Patent:US5702714",
+        "PMID:15848063",
+        "PMID:20006088",
+        "PMID:20704600",
+        "Reaxys:5964812"
+    ],
+    "geneontology:hasId": "75620",
+    "geneontology:hasSynonym": [
+        "1-O-decyl-(9Z)-octadecenoate",
+        "9-Octadecenoic acid, decyl ester",
+        "decanol oleate ester",
+        "decyl (9Z)-octadec-9-enoate",
+        "Decyl 9-octadecenoate",
+        "Oleic acid, decyl ester"
+    ],
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#3_STAR"
+    },
+    "rdfs:label": "decyl oleate",
+    "rdfs:subClassOf": [
+        {
+            "@id": "obo:CHEBI_10036"
+        },
+        {
+            "@id": "b314_genid-00f1db82e1ab437c844115a94dc63e635-bn75620t8f16196"
+        },
+        {
+            "@id": "b314_genid-00f1db82e1ab437c844115a94dc63e635-bn75620t8f28903"
+        }
+    ]
+}

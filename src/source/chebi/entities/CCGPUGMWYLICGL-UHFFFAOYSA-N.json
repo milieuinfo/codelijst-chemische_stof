@@ -1,0 +1,29 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_7491",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "chebi:charge": "0",
+    "chebi:formula": "C12H16Cl2N2O",
+    "chebi:inchi": "InChI=1S/C12H16Cl2N2O/c1-3-4-7-16(2)12(17)15-9-5-6-10(13)11(14)8-9/h5-6,8H,3-4,7H2,1-2H3,(H,15,17)",
+    "chebi:inchikey": "CCGPUGMWYLICGL-UHFFFAOYSA-N",
+    "chebi:smiles": "CCCCN(C)C(=O)Nc1ccc(Cl)c(Cl)c1",
+    "geneontology:hasDbXref": [
+        "CAS:555-37-3",
+        "KEGG:C11188",
+        "PPDB:483"
+    ],
+    "geneontology:hasId": "7491",
+    "geneontology:hasSynonym": "Kloben",
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#2_STAR"
+    },
+    "rdfs:label": "Neburon",
+    "rdfs:subClassOf": {
+        "@id": "obo:CHEBI_47857"
+    }
+}

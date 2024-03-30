@@ -1,0 +1,71 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_8240",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "obo:IAO_0000115": "An arenecarbaldehyde that is 1,3-benzodioxole substituted by a formyl substituent at position 5. It has been isolated from Piper nigrum.",
+    "chebi:charge": "0",
+    "chebi:formula": "C8H6O3",
+    "chebi:inchi": "InChI=1S/C8H6O3/c9-4-6-1-2-7-8(3-6)11-5-10-7/h1-4H,5H2",
+    "chebi:inchikey": "SATCULPHIDQDRE-UHFFFAOYSA-N",
+    "chebi:smiles": "[H]C(=O)c1ccc2OCOc2c1",
+    "http://purl.uniprot.org/core/name": "piperonal",
+    "geneontology:hasDbXref": [
+        "Beilstein:131691",
+        "CAS:120-57-0",
+        "Gmelin:4186",
+        "HMDB:HMDB0032612",
+        "KEGG:C10812",
+        "KNApSAcK:C00002666",
+        "Patent:EP0429316",
+        "Patent:EP1253147",
+        "Patent:WO0157016",
+        "PMID:21854175",
+        "PMID:23711775",
+        "PMID:6730989",
+        "PMID:8308845",
+        "Reaxys:131691",
+        "Wikipedia:Piperonal"
+    ],
+    "geneontology:hasId": "8240",
+    "geneontology:hasSynonym": [
+        "1,3-benzodioxole-5-carbaldehyde",
+        "1,3-benzodioxole-5-carboxaldehyde",
+        "3,4-(methylenedioxy)benzaldehyde",
+        "3,4-dihydroxybenzaldehyde methylene ketal",
+        "3,4-methylenedioxybenzaldehyde",
+        "5-formyl-1,3-benzodioxole",
+        "heliotropin",
+        "heliotropine",
+        "Piperonal",
+        "piperonaldehyde",
+        "piperonylaldehyde",
+        "piperonyl aldehyde",
+        "protocatechuic aldehyde methylene ether"
+    ],
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#3_STAR"
+    },
+    "rdfs:label": "piperonal",
+    "rdfs:subClassOf": [
+        {
+            "@id": "obo:CHEBI_33855"
+        },
+        {
+            "@id": "obo:CHEBI_38298"
+        },
+        {
+            "@id": "b302_genid-00f1db82e1ab437c844115a94dc63e635-bn8240t11f48318"
+        },
+        {
+            "@id": "b302_genid-00f1db82e1ab437c844115a94dc63e635-bn8240t11f71692"
+        },
+        {
+            "@id": "b302_genid-00f1db82e1ab437c844115a94dc63e635-bn8240t11f76924"
+        }
+    ]
+}

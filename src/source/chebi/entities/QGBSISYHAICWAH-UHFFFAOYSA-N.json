@@ -1,0 +1,89 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_147423",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "obo:IAO_0000115": "A guanidine in which one of the amino hydrogens of guanidine itself is substituted by a cyano group. It is used in the manufacture of fertilizers, pharmaceuticals, explosives, oil well drilling muds, and dyestuffs.",
+    "chebi:charge": "0",
+    "chebi:formula": "C2H4N4",
+    "chebi:inchi": "InChI=1S/C2H4N4/c3-1-6-2(4)5/h(H4,4,5,6)",
+    "chebi:inchikey": "QGBSISYHAICWAH-UHFFFAOYSA-N",
+    "chebi:smiles": "N(C(N)=N)C#N",
+    "geneontology:hasDbXref": [
+        "CAS:461-58-5",
+        "PMID:28764101",
+        "PMID:28946251",
+        "PMID:29202250",
+        "PMID:29751437",
+        "PMID:30083899",
+        "PMID:30527048",
+        "PMID:30658719",
+        "PMID:30715712",
+        "PMID:30724561",
+        "PMID:31589701",
+        "PMID:31635001",
+        "PMID:31854584",
+        "PMID:32105918",
+        "PMID:32109658",
+        "PMID:606712",
+        "Reaxys:605637",
+        "Wikipedia:2-Cyanoguanidine"
+    ],
+    "geneontology:hasId": "147423",
+    "geneontology:hasSynonym": [
+        "1-cyanoguanidine",
+        "2-cyanoguanidine",
+        "ACR-H 3636",
+        "Adeka EH 3636",
+        "Adeka EH 3636AS",
+        "AI3-14632",
+        "Araldite HT 986",
+        "Araldite XB 2879B",
+        "Araldite XB 2979B",
+        "Bakelite VE 2560",
+        "DCD",
+        "DICY",
+        "dicyandiamide",
+        "dicyandiamido",
+        "dicyandiamin",
+        "dicyanodiamide",
+        "Dyhard 100S",
+        "Epicure DICY 15",
+        "Epicure DICY 7",
+        "guanidine-1-carbonitrile",
+        "N-cyanoguanidine",
+        "Pyroset DO",
+        "XB 2879B"
+    ],
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#3_STAR"
+    },
+    "rdfs:label": "cyanoguanidine",
+    "rdfs:subClassOf": [
+        {
+            "@id": "obo:CHEBI_18379"
+        },
+        {
+            "@id": "obo:CHEBI_24436"
+        },
+        {
+            "@id": "b224_genid-00f1db82e1ab437c844115a94dc63e635-bn147423t11f33287"
+        },
+        {
+            "@id": "b224_genid-00f1db82e1ab437c844115a94dc63e635-bn147423t11f63490"
+        },
+        {
+            "@id": "b224_genid-00f1db82e1ab437c844115a94dc63e635-bn147423t11f75358"
+        },
+        {
+            "@id": "b224_genid-00f1db82e1ab437c844115a94dc63e635-bn147423t11f79314"
+        },
+        {
+            "@id": "b224_genid-00f1db82e1ab437c844115a94dc63e635-bn147423t11f148436"
+        }
+    ]
+}

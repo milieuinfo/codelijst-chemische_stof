@@ -1,0 +1,42 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_83365",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "obo:IAO_0000115": "A member of the class of morpholines that is 2,6-dimethylmorpholine in which the hydrogen attached to the nitrogen is replaced by a tridecyl group. The configuration at positions 2 and 6 is unknown or unspecified.",
+    "chebi:charge": "0",
+    "chebi:formula": "C19H39NO",
+    "chebi:inchi": "InChI=1S/C19H39NO/c1-4-5-6-7-8-9-10-11-12-13-14-15-20-16-18(2)21-19(3)17-20/h18-19H,4-17H2,1-3H3",
+    "chebi:inchikey": "YTOPFCCWCSOHFV-UHFFFAOYSA-N",
+    "chebi:smiles": "CCCCCCCCCCCCCN1CC(C)OC(C)C1",
+    "geneontology:hasDbXref": [
+        "HMDB:HMDB0031810",
+        "KEGG:C11285",
+        "CAS:24602-86-6",
+        "Reaxys:608429"
+    ],
+    "geneontology:hasId": "83365",
+    "geneontology:hasSynonym": [
+        "(2Xi,6Xi)-2,6-dimethyl-4-tridecylmorpholine",
+        "N-tridecyl-2,6-dimethylmorpholine"
+    ],
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#3_STAR"
+    },
+    "rdfs:label": "2,6-dimethyl-4-tridecylmorpholine",
+    "rdfs:subClassOf": [
+        {
+            "@id": "obo:CHEBI_50996"
+        },
+        {
+            "@id": "obo:CHEBI_38785"
+        },
+        {
+            "@id": "b97_genid-00f1db82e1ab437c844115a94dc63e635-bn83365t11f86328"
+        }
+    ]
+}

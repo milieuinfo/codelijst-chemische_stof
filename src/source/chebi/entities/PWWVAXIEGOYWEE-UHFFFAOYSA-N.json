@@ -1,0 +1,84 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_8461",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "obo:IAO_0000115": "A  tertiary amine that is a substituted phenothiazine in which the ring nitrogen at position 10 is attached to C-3 of an N,N-dimethylpropan-2-amine moiety.",
+    "chebi:charge": "0",
+    "chebi:formula": "C17H20N2S",
+    "chebi:inchi": "InChI=1S/C17H20N2S/c1-13(18(2)3)12-19-14-8-4-6-10-16(14)20-17-11-7-5-9-15(17)19/h4-11,13H,12H2,1-3H3",
+    "chebi:inchikey": "PWWVAXIEGOYWEE-UHFFFAOYSA-N",
+    "chebi:smiles": "CC(CN1c2ccccc2Sc2ccccc12)N(C)C",
+    "geneontology:hasDbXref": [
+        "Beilstein:88554",
+        "CAS:60-87-7",
+        "Drug_Central:2286",
+        "DrugBank:DB01069",
+        "Gmelin:337077",
+        "HMDB:HMDB0015202",
+        "KEGG:C07404",
+        "KEGG:D00494",
+        "LINCS:LSM-4440",
+        "Patent:US2530451",
+        "Patent:US2607773",
+        "Reaxys:88554",
+        "Wikipedia:Promethazine"
+    ],
+    "geneontology:hasId": "8461",
+    "geneontology:hasSynonym": [
+        "promethazine",
+        "(2-dimethylamino-2-methyl)ethyl-N-dibenzoparathiazine",
+        "10-(2-Dimethylaminopropyl)phenothiazine",
+        "10-[2-(dimethylamino)propyl]phenothiazine",
+        "N,N,alpha-trimethyl-10H-phenothiazine-10-ethanamine",
+        "N,N-dimethyl-1-(10H-phenothiazin-10-yl)propan-2-amine",
+        "N-(2'-dimethylamino-2'-methyl)ethylphenothiazine",
+        "proazamine",
+        "prometazina",
+        "Promethazine",
+        "promethazinum"
+    ],
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#3_STAR"
+    },
+    "rdfs:label": "promethazine",
+    "rdfs:subClassOf": [
+        {
+            "@id": "obo:CHEBI_32876"
+        },
+        {
+            "@id": "obo:CHEBI_38093"
+        },
+        {
+            "@id": "b163_genid-00f1db82e1ab437c844115a94dc63e635-bn8461tmms73f61214"
+        },
+        {
+            "@id": "b163_genid-00f1db82e1ab437c844115a94dc63e635-bn8461t11f35717"
+        },
+        {
+            "@id": "b163_genid-00f1db82e1ab437c844115a94dc63e635-bn8461t11f36333"
+        },
+        {
+            "@id": "b163_genid-00f1db82e1ab437c844115a94dc63e635-bn8461t11f37955"
+        },
+        {
+            "@id": "b163_genid-00f1db82e1ab437c844115a94dc63e635-bn8461t11f50857"
+        },
+        {
+            "@id": "b163_genid-00f1db82e1ab437c844115a94dc63e635-bn8461t11f50919"
+        },
+        {
+            "@id": "b163_genid-00f1db82e1ab437c844115a94dc63e635-bn8461t11f59683"
+        },
+        {
+            "@id": "b163_genid-00f1db82e1ab437c844115a94dc63e635-bn8461t5f61214"
+        },
+        {
+            "@id": "b163_genid-00f1db82e1ab437c844115a94dc63e635-bn8461t11f149553"
+        }
+    ]
+}

@@ -1,0 +1,67 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_28903",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "obo:IAO_0000115": "A fatty alcohol consisting of a hydroxy function at C-1 of an unbranched saturated chain of ten carbon atoms.",
+    "chebi:charge": "0",
+    "chebi:formula": "C10H22O",
+    "chebi:inchi": "InChI=1S/C10H22O/c1-2-3-4-5-6-7-8-9-10-11/h11H,2-10H2,1H3",
+    "chebi:inchikey": "MWKFXSUHUHTGQN-UHFFFAOYSA-N",
+    "chebi:smiles": "C(CCCCCCC)CCO",
+    "http://purl.uniprot.org/core/name": "decan-1-ol",
+    "geneontology:hasDbXref": [
+        "PMID:17314143",
+        "Beilstein:1735221",
+        "CAS:112-30-1",
+        "Gmelin:218613",
+        "HMDB:HMDB0011624",
+        "KEGG:C01633",
+        "KNApSAcK:C00030100",
+        "LIPID_MAPS_instance:LMFA05000062",
+        "PDBeChem:DE1",
+        "PMID:18597345",
+        "PMID:18601223",
+        "PMID:27471068",
+        "PMID:5485018",
+        "PPDB:1732",
+        "Reaxys:1735221",
+        "Wikipedia:1-Decanol"
+    ],
+    "geneontology:hasId": "28903",
+    "geneontology:hasSynonym": [
+        "1-Decanol",
+        "capric alcohol",
+        "caprinic alcohol",
+        "Decyl alcohol",
+        "n-decan-1-ol",
+        "n-Decanol",
+        "n-decyl alcohol",
+        "nonylcarbinol"
+    ],
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#3_STAR"
+    },
+    "rdfs:label": "decan-1-ol",
+    "rdfs:subClassOf": [
+        {
+            "@id": "obo:CHEBI_15734"
+        },
+        {
+            "@id": "b11_genid-00f1db82e1ab437c844115a94dc63e635-bn28903t11f25212"
+        },
+        {
+            "@id": "b11_genid-00f1db82e1ab437c844115a94dc63e635-bn28903t11f26013"
+        },
+        {
+            "@id": "b11_genid-00f1db82e1ab437c844115a94dc63e635-bn28903t11f48356"
+        },
+        {
+            "@id": "obo:CHEBI_195598"
+        }
+    ]
+}

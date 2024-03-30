@@ -1,0 +1,28 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_191146",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "chebi:charge": "0",
+    "chebi:formula": "C11H15NO",
+    "chebi:inchi": "InChI=1S/C11H15NO/c1-9(12-10(2)13)8-11-6-4-3-5-7-11/h3-7,9H,8H2,1-2H3,(H,12,13)",
+    "chebi:inchikey": "YPKBVWZHVTZSPU-UHFFFAOYSA-N",
+    "chebi:smiles": "O=C(NC(CC1=CC=CC=C1)C)C",
+    "geneontology:hasDbXref": [
+        "CAS:14383-60-9",
+        "Chemspider:24836"
+    ],
+    "geneontology:hasId": "191146",
+    "geneontology:hasSynonym": "N-(1-phenylpropan-2-yl)acetamide",
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#2_STAR"
+    },
+    "rdfs:label": "N-acetylamphetamine",
+    "rdfs:subClassOf": {
+        "@id": "obo:CHEBI_35338"
+    }
+}

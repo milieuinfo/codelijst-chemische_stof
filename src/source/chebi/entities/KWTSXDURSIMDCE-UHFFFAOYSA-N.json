@@ -1,0 +1,24 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_132233",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "obo:IAO_0000115": "A primary amine that is isopropylamine in which a hydrogen attached to one of the methyl groups has been replaced by a phenyl group.",
+    "chebi:charge": "0",
+    "chebi:formula": "C9H13N",
+    "chebi:inchi": "InChI=1S/C9H13N/c1-8(10)7-9-5-3-2-4-6-9/h2-6,8H,7,10H2,1H3",
+    "chebi:inchikey": "KWTSXDURSIMDCE-UHFFFAOYSA-N",
+    "chebi:smiles": "C=1(C=CC=CC1)CC(C)N",
+    "geneontology:hasId": "132233",
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#3_STAR"
+    },
+    "rdfs:label": "1-phenylpropan-2-amine",
+    "rdfs:subClassOf": {
+        "@id": "obo:CHEBI_32877"
+    }
+}

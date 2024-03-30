@@ -1,0 +1,120 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@graph": [
+        {
+            "@id": "obo:CHEBI_16397",
+            "@type": "http://www.w3.org/2002/07/owl#Class",
+            "obo:IAO_0000115": "The simplest monocarboxylic acid amide, obtained by formal condensation of formic acid with ammonia. The parent of the class of formaldehydes.",
+            "chebi:charge": "0",
+            "chebi:formula": "CH3NO",
+            "chebi:inchi": "InChI=1S/CH3NO/c2-1-3/h1H,(H2,2,3)",
+            "chebi:inchikey": "ZHNUHDYFZUAESO-UHFFFAOYSA-N",
+            "chebi:smiles": "[H]C(N)=O",
+            "http://purl.uniprot.org/core/name": "formamide",
+            "geneontology:hasDbXref": [
+                "Beilstein:505995",
+                "CAS:75-12-7",
+                "Gmelin:824",
+                "HMDB:HMDB0001536",
+                "KEGG:C00488",
+                "MetaCyc:FORMAMIDE",
+                "PDBeChem:ARF",
+                "PMID:11282235",
+                "PMID:11545392",
+                "PMID:12115814",
+                "PMID:14750843",
+                "PMID:15082074",
+                "PMID:17184725",
+                "PMID:19334838",
+                "PMID:21215846",
+                "PMID:21229996",
+                "PMID:21573300",
+                "PMID:21647491",
+                "PMID:21647492",
+                "PMID:21769603",
+                "PMID:21932847",
+                "Reaxys:505995",
+                "UM-BBD_compID:c0796",
+                "Wikipedia:Formamide"
+            ],
+            "geneontology:hasId": "16397",
+            "geneontology:hasSynonym": [
+                "Ameisensaeureamid",
+                "carbamaldehyde",
+                "Formamid",
+                "Formamide",
+                "FORMAMIDE",
+                "formimidic acid",
+                "Methanamid",
+                "Methanamide"
+            ],
+            "geneontology:inSubset": {
+                "@id": "obo:chebi#3_STAR"
+            },
+            "rdfs:label": "formamide",
+            "rdfs:subClassOf": [
+                {
+                    "@id": "obo:CHEBI_29347"
+                },
+                {
+                    "@id": "obo:CHEBI_24079"
+                },
+                {
+                    "@id": "obo:CHEBI_64708"
+                },
+                {
+                    "@id": "b135_genid-00f1db82e1ab437c844115a94dc63e635-bn16397t8f30751"
+                },
+                {
+                    "@id": "b135_genid-00f1db82e1ab437c844115a94dc63e635-bn16397t11f46787"
+                },
+                {
+                    "@id": "b135_genid-00f1db82e1ab437c844115a94dc63e635-bn16397t7f48431"
+                }
+            ]
+        },
+        {
+            "@id": "obo:CHEBI_48431",
+            "@type": "http://www.w3.org/2002/07/owl#Class",
+            "obo:IAO_0000115": "A carboximidic acid that is  formic acid in which the carbonyl oxygen is replaced by an imino group.",
+            "chebi:charge": "0",
+            "chebi:formula": "CH3NO",
+            "chebi:inchi": "InChI=1S/CH3NO/c2-1-3/h1H,(H2,2,3)",
+            "chebi:inchikey": "ZHNUHDYFZUAESO-UHFFFAOYSA-N",
+            "chebi:smiles": "[H]C(O)=N",
+            "geneontology:hasDbXref": [
+                "Beilstein:1918433",
+                "PMID:16331898",
+                "Reaxys:1918433"
+            ],
+            "geneontology:hasId": "48431",
+            "geneontology:hasSynonym": "imidoformic acid",
+            "geneontology:inSubset": {
+                "@id": "obo:chebi#3_STAR"
+            },
+            "rdfs:label": "formimidic acid",
+            "rdfs:subClassOf": [
+                {
+                    "@id": "obo:CHEBI_64708"
+                },
+                {
+                    "@id": "obo:CHEBI_48378"
+                },
+                {
+                    "@id": "b135_genid-00f1db82e1ab437c844115a94dc63e635-bn48431tmms73f16397"
+                },
+                {
+                    "@id": "b135_genid-00f1db82e1ab437c844115a94dc63e635-bn48431t7f16397"
+                },
+                {
+                    "@id": "b135_genid-00f1db82e1ab437c844115a94dc63e635-bn48431t8f30751"
+                }
+            ]
+        }
+    ]
+}

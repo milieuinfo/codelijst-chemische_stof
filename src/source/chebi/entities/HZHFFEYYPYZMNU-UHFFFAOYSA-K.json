@@ -1,0 +1,39 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_37333",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "obo:IAO_0000115": "A non-ionic gadolinium chelate having a macrocyclic triamine framework. It is used as a paramagnetic contrast agent in magnetic resonance imaging (MRI).",
+    "chebi:charge": "0",
+    "chebi:formula": "C16H26GdN5O8",
+    "chebi:inchi": "InChI=1S/C16H29N5O8.Gd/c1-17-12(22)7-20(10-15(26)27)5-3-19(9-14(24)25)4-6-21(11-16(28)29)8-13(23)18-2;/h3-11H2,1-2H3,(H,17,22)(H,18,23)(H,24,25)(H,26,27)(H,28,29);/q;+3/p-3",
+    "chebi:inchikey": "HZHFFEYYPYZMNU-UHFFFAOYSA-K",
+    "chebi:smiles": "CNC1=[O][Gd+3]234567[O-]C(=O)C[N]2(CC[N]3(CC(=O)[O-]4)C1)CC[N]5(CC(=O)[O-]6)CC(NC)=[O]7",
+    "geneontology:hasDbXref": [
+        "DrugBank:DB00225",
+        "CAS:131410-48-5",
+        "Wikipedia:Gadodiamide"
+    ],
+    "geneontology:hasId": "37333",
+    "geneontology:hasSynonym": [
+        "[N,N-bis(2-{[(carboxy-kappaO)methyl][2-(methylamino)-2-(oxo-kappaO)ethyl]amino-kappaN}ethyl)glycinato(3-)-kappa(2)N,O]gadolinium",
+        "gadolinium [bis(2-{(carboxylatomethyl)[2-(methylamino)-2-oxoethyl]amino}ethyl)amino]acetate",
+        "gadolinium 5,8-bis(carboxylatomethyl)-11-[2-(methylamino)-2-oxoethyl]-3-oxo-2,5,8,11-tetraazatridecan-13-oate"
+    ],
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#3_STAR"
+    },
+    "rdfs:label": "gadodiamide",
+    "rdfs:subClassOf": [
+        {
+            "@id": "obo:CHEBI_35730"
+        },
+        {
+            "@id": "b569_genid-00f1db82e1ab437c844115a94dc63e635-bn37333t11f37335"
+        }
+    ]
+}

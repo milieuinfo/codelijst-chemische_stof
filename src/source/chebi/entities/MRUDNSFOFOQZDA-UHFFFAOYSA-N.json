@@ -1,0 +1,50 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_48623",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "obo:IAO_0000115": "A chlorobenzoic acid carrying two chloro groups at positions 2 and 6 respectively.",
+    "chebi:charge": "0",
+    "chebi:formula": "C7H4Cl2O2",
+    "chebi:inchi": "InChI=1S/C7H4Cl2O2/c8-4-2-1-3-5(9)6(4)7(10)11/h1-3H,(H,10,11)",
+    "chebi:inchikey": "MRUDNSFOFOQZDA-UHFFFAOYSA-N",
+    "chebi:smiles": "OC(=O)c1c(Cl)cccc1Cl",
+    "geneontology:hasDbXref": [
+        "Beilstein:973858",
+        "CAS:50-30-6",
+        "PMID:17240021",
+        "PMID:18970297",
+        "PMID:22922990",
+        "PMID:24302680",
+        "Reaxys:973858"
+    ],
+    "geneontology:hasId": "48623",
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#3_STAR"
+    },
+    "rdfs:label": "2,6-dichlorobenzoic acid",
+    "rdfs:subClassOf": [
+        {
+            "@id": "obo:CHEBI_23697"
+        },
+        {
+            "@id": "obo:CHEBI_23134"
+        },
+        {
+            "@id": "b565_genid-00f1db82e1ab437c844115a94dc63e635-bn48623tmms73f48624"
+        },
+        {
+            "@id": "b565_genid-00f1db82e1ab437c844115a94dc63e635-bn48623t8f30746"
+        },
+        {
+            "@id": "b565_genid-00f1db82e1ab437c844115a94dc63e635-bn48623t4f48624"
+        },
+        {
+            "@id": "b565_genid-00f1db82e1ab437c844115a94dc63e635-bn48623t11f76976"
+        }
+    ]
+}

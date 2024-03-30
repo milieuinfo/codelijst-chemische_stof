@@ -1,0 +1,63 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_7858",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "obo:IAO_0000115": "An anilide obtained by formal condensation of the amino group of aniline with the carboxy group of 2-methyl-5,6-dihydro-4,4-dioxo-1,4-oxathiine-3-carboxylic acid. A fungicide for the control of rust diseases on ornamentals, cereals and nursery trees as well as fairy rings on turf.",
+    "chebi:charge": "0",
+    "chebi:formula": "C12H13NO4S",
+    "chebi:inchi": "InChI=1S/C12H13NO4S/c1-9-11(18(15,16)8-7-17-9)12(14)13-10-5-3-2-4-6-10/h2-6H,7-8H2,1H3,(H,13,14)",
+    "chebi:inchikey": "AMEKQAFGQBKLKX-UHFFFAOYSA-N",
+    "chebi:smiles": "CC1=C(C(=O)Nc2ccccc2)S(=O)(=O)CCO1",
+    "geneontology:hasDbXref": [
+        "AGR:IND89017547",
+        "AGR:IND89036207",
+        "CAS:5259-88-1",
+        "KEGG:C10956",
+        "Pesticides:oxycarboxin",
+        "PMID:21587625",
+        "PMID:4772377",
+        "PMID:5441309",
+        "PMID:6732737",
+        "PMID:6776177",
+        "PPDB:500",
+        "Reaxys:1432554"
+    ],
+    "geneontology:hasId": "7858",
+    "geneontology:hasSynonym": [
+        "2-methyl-N-phenyl-5,6-dihydro-1,4-oxathiine-3-carboxamide 4,4-dioxide",
+        "5,6-Dihydro-2-methyl-N-phenyl-1,4-oxathiin-3-carboxamide 4,4-dioxide",
+        "Dihydro-2-methyl-1,4-oxathiin-3-carboxanilide 4,4-dioxide"
+    ],
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#3_STAR"
+    },
+    "rdfs:label": "oxycarboxin",
+    "rdfs:subClassOf": [
+        {
+            "@id": "obo:CHEBI_13248"
+        },
+        {
+            "@id": "obo:CHEBI_38104"
+        },
+        {
+            "@id": "obo:CHEBI_38106"
+        },
+        {
+            "@id": "obo:CHEBI_87015"
+        },
+        {
+            "@id": "obo:CHEBI_35850"
+        },
+        {
+            "@id": "b204_genid-00f1db82e1ab437c844115a94dc63e635-bn7858t11f83072"
+        },
+        {
+            "@id": "b204_genid-00f1db82e1ab437c844115a94dc63e635-bn7858t11f86328"
+        }
+    ]
+}

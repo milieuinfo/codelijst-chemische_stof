@@ -1,0 +1,55 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_138164",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "obo:IAO_0000115": "An organic sodium salt that is the sodium salt of fomesafen. A protoporphyrinogen oxidase inhibitor, it was specially developed for post-emergence control of broad-leaf weeds in soya.",
+    "chebi:charge": "0",
+    "chebi:formula": "C15H9ClF3N2NaO6S",
+    "chebi:inchi": "InChI=1S/C15H10ClF3N2O6S.Na/c1-28(25,26)20-14(22)10-7-9(3-4-12(10)21(23)24)27-13-5-2-8(6-11(13)16)15(17,18)19;/h2-7H,1H3,(H,20,22);/q;+1/p-1",
+    "chebi:inchikey": "CRHGSCXKJPJNAB-UHFFFAOYSA-M",
+    "chebi:smiles": "C1=C(C=C(C(=C1)OC2=CC=C(C(=C2)C(=O)[N-]S(C)(=O)=O)[N+]([O-])=O)Cl)C(F)(F)F.[Na+]",
+    "geneontology:hasDbXref": [
+        "CAS:108731-70-0",
+        "Pesticides:derivatives/fomesafen-sodium",
+        "PMID:7855041",
+        "Reaxys:9310032"
+    ],
+    "geneontology:hasId": "138164",
+    "geneontology:hasSynonym": [
+        "5-[2-chloro-4-(trifluoromethyl)phenoxy]-N-(methylsulfonyl)-2-nitrobenzamide sodium salt",
+        "Flex",
+        "Flex sodium",
+        "fomesafen sodium",
+        "Reflex",
+        "sodium [5-(2-chloro-alpha,alpha,alpha-trifluoro-p-tolyloxy)-2-nitrobenzoyl]mesylazanide",
+        "sodium {5-[2-chloro-4-(trifluoromethyl)phenoxy]-2-nitrobenzoyl}(methanesulfonyl)azanide",
+        "sodium {5-[2-chloro-4-(trifluoromethyl)phenoxy]-2-nitrobenzoyl}(methylsulfonyl)azanide",
+        "sodium fomesafen"
+    ],
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#3_STAR"
+    },
+    "rdfs:label": "fomesafen-sodium",
+    "rdfs:subClassOf": [
+        {
+            "@id": "obo:CHEBI_38700"
+        },
+        {
+            "@id": "b355_genid-00f1db82e1ab437c844115a94dc63e635-bn138164t11f24527"
+        },
+        {
+            "@id": "b355_genid-00f1db82e1ab437c844115a94dc63e635-bn138164t11f33286"
+        },
+        {
+            "@id": "b355_genid-00f1db82e1ab437c844115a94dc63e635-bn138164t11f73192"
+        },
+        {
+            "@id": "b355_genid-00f1db82e1ab437c844115a94dc63e635-bn138164t10f138163"
+        }
+    ]
+}

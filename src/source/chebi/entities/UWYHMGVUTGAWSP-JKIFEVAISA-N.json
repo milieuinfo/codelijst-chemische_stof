@@ -1,0 +1,66 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_7809",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "obo:IAO_0000115": "A penicillin antibiotic carrying a 5-methyl-3-phenylisoxazole-4-carboxamide group at position 6beta.",
+    "chebi:charge": "0",
+    "chebi:formula": "C19H19N3O5S",
+    "chebi:inchi": "InChI=1S/C19H19N3O5S/c1-9-11(12(21-27-9)10-7-5-4-6-8-10)15(23)20-13-16(24)22-14(18(25)26)19(2,3)28-17(13)22/h4-8,13-14,17H,1-3H3,(H,20,23)(H,25,26)/t13-,14+,17-/m1/s1",
+    "chebi:inchikey": "UWYHMGVUTGAWSP-JKIFEVAISA-N",
+    "chebi:smiles": "[H][C@]12SC(C)(C)[C@@H](N1C(=O)[C@H]2NC(=O)c1c(C)onc1-c1ccccc1)C(O)=O",
+    "geneontology:hasDbXref": [
+        "PMID:29017833",
+        "Beilstein:1093589",
+        "CAS:66-79-5",
+        "Drug_Central:2006",
+        "DrugBank:DB00713",
+        "HMDB:HMDB0014851",
+        "KEGG:C07334",
+        "KEGG:D08307",
+        "LINCS:LSM-6005",
+        "Patent:US2996501",
+        "PMID:14010809",
+        "PMID:20407237",
+        "PMID:24295979",
+        "PMID:24936596",
+        "PMID:8566082",
+        "Reaxys:1093589",
+        "Wikipedia:Oxacillin"
+    ],
+    "geneontology:hasId": "7809",
+    "geneontology:hasSynonym": [
+        "(2S,5R,6R)-3,3-dimethyl-6-{[(5-methyl-3-phenylisoxazol-4-yl)carbonyl]amino}-7-oxo-4-thia-1-azabicyclo[3.2.0]heptane-2-carboxylic acid",
+        "(5-methyl-3-phenyl-4-isoxazolyl)penicillin",
+        "2,2-dimethyl-6beta-(5-methyl-3-phenyl-1,2-oxazole-4-carboxamido)penam-3alpha-carboxylic acid",
+        "5-methyl-3-phenyl-4-isoxazolyl-penicillin",
+        "6beta-(5-methyl-3-phenylisoxazol-4-yl)penicillanic acid",
+        "Oxacillin",
+        "oxazocillin"
+    ],
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#3_STAR"
+    },
+    "rdfs:label": "oxacillin",
+    "rdfs:subClassOf": [
+        {
+            "@id": "obo:CHEBI_17334"
+        },
+        {
+            "@id": "b364_genid-00f1db82e1ab437c844115a94dc63e635-bn7809tmms73f52132"
+        },
+        {
+            "@id": "b364_genid-00f1db82e1ab437c844115a94dc63e635-bn7809t11f33282"
+        },
+        {
+            "@id": "b364_genid-00f1db82e1ab437c844115a94dc63e635-bn7809t11f36047"
+        },
+        {
+            "@id": "b364_genid-00f1db82e1ab437c844115a94dc63e635-bn7809t4f52132"
+        }
+    ]
+}

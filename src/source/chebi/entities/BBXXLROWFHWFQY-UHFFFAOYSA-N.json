@@ -1,0 +1,62 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_81989",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "obo:IAO_0000115": "An aminopyrimidine that is 2-ethylaminopyrimidin-4-one carrying butyl and methyl substituents at positions 5 and 6 respectively. A fungicide first marketed in 1970 and used as a seed treatment for diseaases such as damping-off, it is not licensed for use within the European Union.",
+    "chebi:charge": "0",
+    "chebi:formula": "C11H19N3O",
+    "chebi:inchi": "InChI=1S/C11H19N3O/c1-4-6-7-9-8(3)13-11(12-5-2)14-10(9)15/h4-7H2,1-3H3,(H2,12,13,14,15)",
+    "chebi:inchikey": "BBXXLROWFHWFQY-UHFFFAOYSA-N",
+    "chebi:smiles": "CCCCc1c(C)[nH]c(NCC)nc1=O",
+    "geneontology:hasDbXref": [
+        "PMID:11407590",
+        "PMID:4833650",
+        "AGR:IND43747567",
+        "AGR:IND81011071",
+        "CAS:23947-60-6",
+        "KEGG:C18828",
+        "Patent:CN101548677",
+        "Patent:CN101664033",
+        "Patent:CN101669475",
+        "Patent:DE3715705",
+        "Pesticides:ethirimol",
+        "PMID:18944340",
+        "PMID:4927739",
+        "PPDB:277",
+        "Reaxys:1572438"
+    ],
+    "geneontology:hasId": "81989",
+    "geneontology:hasSynonym": [
+        "2-Ethylamino-4-methyl-5-n-butyl-6-hydroxypyrimidine",
+        "5-Butyl-2-(ethylamino)-6-methyl-4(1H)-pyrimidinone",
+        "5-Butyl-2-(ethylamino)-6-methyl-4-pyrimidinol",
+        "5-butyl-2-(ethylamino)-6-methylpyrimidin-4(1H)-one",
+        "5-n-Butyl-2-ethylamino-4-hydroxy-6-methylpyrimidine"
+    ],
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#3_STAR"
+    },
+    "rdfs:label": "ethirimol",
+    "rdfs:subClassOf": [
+        {
+            "@id": "obo:CHEBI_38337"
+        },
+        {
+            "@id": "obo:CHEBI_38338"
+        },
+        {
+            "@id": "obo:CHEBI_50995"
+        },
+        {
+            "@id": "obo:CHEBI_87207"
+        },
+        {
+            "@id": "b113_genid-00f1db82e1ab437c844115a94dc63e635-bn81989t11f86328"
+        }
+    ]
+}

@@ -1,0 +1,39 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_83719",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "obo:IAO_0000115": "A ketone that is butan-2-one substituted by a 4-chlorophenoxy and a 1H-imidazol-1-yl group at position 1 and 2 methyl groups at position 3.",
+    "chebi:charge": "0",
+    "chebi:formula": "C15H17ClN2O2",
+    "chebi:inchi": "InChI=1S/C15H17ClN2O2/c1-15(2,3)13(19)14(18-9-8-17-10-18)20-12-6-4-11(16)5-7-12/h4-10,14H,1-3H3",
+    "chebi:inchikey": "OWEGWHBOCFMBLP-UHFFFAOYSA-N",
+    "chebi:smiles": "C(C(=O)C(N1C=CN=C1)OC2=CC=C(C=C2)Cl)(C)(C)C",
+    "geneontology:hasDbXref": "PPDB:2454",
+    "geneontology:hasId": "83719",
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#3_STAR"
+    },
+    "rdfs:label": "1-(4-chlorophenoxy)-1-(1H-imidazol-1-yl)-3,3-dimethylbutan-2-one",
+    "rdfs:subClassOf": [
+        {
+            "@id": "obo:CHEBI_17087"
+        },
+        {
+            "@id": "obo:CHEBI_35618"
+        },
+        {
+            "@id": "obo:CHEBI_83403"
+        },
+        {
+            "@id": "obo:CHEBI_24780"
+        },
+        {
+            "@id": "obo:CHEBI_141498"
+        }
+    ]
+}

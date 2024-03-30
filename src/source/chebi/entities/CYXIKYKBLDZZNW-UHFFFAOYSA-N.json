@@ -1,0 +1,27 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_82423",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "chebi:charge": "0",
+    "chebi:formula": "C2H2ClF3",
+    "chebi:inchi": "InChI=1S/C2H2ClF3/c3-1-2(4,5)6/h1H2",
+    "chebi:inchikey": "CYXIKYKBLDZZNW-UHFFFAOYSA-N",
+    "chebi:smiles": "FC(F)(F)CCl",
+    "geneontology:hasDbXref": [
+        "CAS:75-88-7",
+        "KEGG:C19367"
+    ],
+    "geneontology:hasId": "82423",
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#2_STAR"
+    },
+    "rdfs:label": "2-Chloro-1,1,1-trifluoroethane",
+    "rdfs:subClassOf": {
+        "@id": "obo:CHEBI_37143"
+    }
+}

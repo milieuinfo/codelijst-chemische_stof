@@ -1,0 +1,32 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_36662",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "chebi:charge": "0",
+    "chebi:formula": "C14H10N2O10S2",
+    "chebi:inchi": "InChI=1S/C14H10N2O10S2/c17-15(18)11-5-3-9(13(7-11)27(21,22)23)1-2-10-4-6-12(16(19)20)8-14(10)28(24,25)26/h1-8H,(H,21,22,23)(H,24,25,26)/b2-1+",
+    "chebi:inchikey": "UETHPMGVZHBAFB-OWOJBTEDSA-N",
+    "chebi:smiles": "OS(=O)(=O)c1cc(ccc1\\C=C\\c1ccc(cc1S(O)(=O)=O)[N+]([O-])=O)[N+]([O-])=O",
+    "geneontology:hasDbXref": [
+        "KEGG:C13706",
+        "Beilstein:2956867"
+    ],
+    "geneontology:hasId": "36662",
+    "geneontology:hasSynonym": [
+        "4,4'-Dinitrostilbene-2,2'-disulfonic acid",
+        "2,2'-(E)-ethene-1,2-diylbis(5-nitrobenzenesulfonic acid)",
+        "5,5'-dinitro-2,2'-[(1E)-ethene-1,2-diyl]dibenzenesulfonic acid"
+    ],
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#3_STAR"
+    },
+    "rdfs:label": "4,4'-dinitro-trans-stilbene-2,2'-disulfonic acid",
+    "rdfs:subClassOf": {
+        "@id": "obo:CHEBI_34663"
+    }
+}

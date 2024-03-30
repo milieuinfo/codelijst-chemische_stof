@@ -1,0 +1,72 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_64356",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "obo:IAO_0000115": "A gamma-amino acid that is gamma-aminobutyric acid (GABA) carrying an isobutyl substitutent at the beta-position (the S-enantiomer). Binds with high affinity to the alpha2-delta site (an auxiliary subunit of voltage-gated calcium channels) in central nervous system tissues.",
+    "chebi:charge": "0",
+    "chebi:formula": "C8H17NO2",
+    "chebi:inchi": "InChI=1S/C8H17NO2/c1-6(2)3-7(5-9)4-8(10)11/h6-7H,3-5,9H2,1-2H3,(H,10,11)/t7-/m0/s1",
+    "chebi:inchikey": "AYXYPKUFHZROOJ-ZETCQYMHSA-N",
+    "chebi:smiles": "CC(C)C[C@H](CN)CC(O)=O",
+    "geneontology:hasDbXref": [
+        "CAS:148553-50-8",
+        "Drug_Central:2255",
+        "DrugBank:DB00230",
+        "KEGG:D02716",
+        "Patent:EP1178034",
+        "Patent:EP2418194",
+        "Patent:US2008311635",
+        "Patent:US6359169",
+        "PMID:22339078",
+        "PMID:22345870",
+        "PMID:22362672",
+        "PMID:22366121",
+        "PMID:22404404",
+        "PMID:22413436",
+        "PMID:22415534",
+        "PMID:22415535",
+        "PMID:22424859",
+        "PMID:22431439",
+        "PMID:22448469",
+        "PMID:22449111",
+        "PMID:22459341",
+        "PMID:22468635",
+        "PMID:22470326",
+        "PMID:22473300",
+        "PMID:22473872",
+        "PMID:22476240",
+        "PMID:22480279",
+        "Reaxys:8404778",
+        "Wikipedia:Pregabalin"
+    ],
+    "geneontology:hasId": "64356",
+    "geneontology:hasSynonym": [
+        "(3S)-3-(aminomethyl)-5-methylhexanoic acid",
+        "(S)-3-Isobutyl GABA",
+        "3-Isobutyl GABA",
+        "Lyrica"
+    ],
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#3_STAR"
+    },
+    "rdfs:label": "pregabalin",
+    "rdfs:subClassOf": [
+        {
+            "@id": "obo:CHEBI_33707"
+        },
+        {
+            "@id": "b93_genid-00f1db82e1ab437c844115a94dc63e635-bn64356t8f16865"
+        },
+        {
+            "@id": "b93_genid-00f1db82e1ab437c844115a94dc63e635-bn64356t11f35623"
+        },
+        {
+            "@id": "b93_genid-00f1db82e1ab437c844115a94dc63e635-bn64356t11f38215"
+        }
+    ]
+}

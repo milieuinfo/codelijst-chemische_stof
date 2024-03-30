@@ -1,0 +1,71 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_28112",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "obo:IAO_0000115": "Chemical element (nickel group element atom) with atomic number 28.",
+    "chebi:charge": "0",
+    "chebi:formula": "Ni",
+    "chebi:inchi": "InChI=1S/Ni",
+    "chebi:inchikey": "PXHVJJICTQNCMI-UHFFFAOYSA-N",
+    "chebi:smiles": "[Ni]",
+    "http://purl.uniprot.org/core/name": "Ni",
+    "geneontology:hasDbXref": [
+        "CAS:7440-02-0",
+        "Gmelin:16229",
+        "KEGG:C00291",
+        "PMID:12756270",
+        "PMID:14634084",
+        "PMID:14734778",
+        "PMID:15165199",
+        "PMID:19828094",
+        "PMID:20477134",
+        "PMID:22762130",
+        "PMID:23142754",
+        "PMID:23317102",
+        "PMID:23692032",
+        "PMID:23692035",
+        "PMID:23723488",
+        "PMID:23834453",
+        "PMID:23857010",
+        "PMID:23895079",
+        "PMID:23909687",
+        "PMID:9060994",
+        "PMID:9886425",
+        "Reaxys:4122946",
+        "WebElements:Ni",
+        "Wikipedia:Nickel"
+    ],
+    "geneontology:hasId": "28112",
+    "geneontology:hasSynonym": [
+        "Ni",
+        "28Ni",
+        "niccolum",
+        "nickel",
+        "Nickel",
+        "niquel",
+        "Raney alloy"
+    ],
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#3_STAR"
+    },
+    "rdfs:label": "nickel atom",
+    "rdfs:subClassOf": [
+        {
+            "@id": "obo:CHEBI_88184"
+        },
+        {
+            "@id": "b167_genid-00f1db82e1ab437c844115a94dc63e635-bn28112t11f27027"
+        },
+        {
+            "@id": "obo:CHEBI_33362"
+        },
+        {
+            "@id": "b167_genid-00f1db82e1ab437c844115a94dc63e635-bn28112t11f53000"
+        }
+    ]
+}

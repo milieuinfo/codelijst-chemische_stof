@@ -1,0 +1,53 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_82043",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "obo:IAO_0000115": "A monocarboxylic acid amide that is propanamide substituted by a benzyl and an isopropyl group at the nitrogen atom and two methyl groups at position 2. It is an agrochemical used as a herbicide.",
+    "chebi:charge": "0",
+    "chebi:formula": "C15H23NO",
+    "chebi:inchi": "InChI=1S/C15H23NO/c1-12(2)16(14(17)15(3,4)5)11-13-9-7-6-8-10-13/h6-10,12H,11H2,1-5H3",
+    "chebi:inchikey": "RJKCKKDSSSRYCB-UHFFFAOYSA-N",
+    "chebi:smiles": "CC(C)N(Cc1ccccc1)C(=O)C(C)(C)C",
+    "geneontology:hasDbXref": [
+        "AGR:IND86014658",
+        "CAS:35256-85-0",
+        "KEGG:C18896",
+        "Patent:EP0110660",
+        "Patent:US4456472",
+        "Pesticides:tebutam",
+        "PPDB:613"
+    ],
+    "geneontology:hasId": "82043",
+    "geneontology:hasSynonym": [
+        "Butam",
+        "N-benzyl-2,2-dimethyl-N-(propan-2-yl)propanamide",
+        "N-benzyl-N-isopropylpivalamide",
+        "N-Benzyl-N-isopropyltrimethylacetamide"
+    ],
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#3_STAR"
+    },
+    "rdfs:label": "tebutam",
+    "rdfs:subClassOf": [
+        {
+            "@id": "obo:CHEBI_29347"
+        },
+        {
+            "@id": "b66_genid-00f1db82e1ab437c844115a94dc63e635-bn82043t11f24527"
+        },
+        {
+            "@id": "b66_genid-00f1db82e1ab437c844115a94dc63e635-bn82043t11f33286"
+        },
+        {
+            "@id": "b66_genid-00f1db82e1ab437c844115a94dc63e635-bn82043t11f35703"
+        },
+        {
+            "@id": "b66_genid-00f1db82e1ab437c844115a94dc63e635-bn82043t11f78298"
+        }
+    ]
+}

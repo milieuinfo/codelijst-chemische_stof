@@ -1,0 +1,53 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_38960",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "chebi:charge": "0",
+    "chebi:formula": "C9H21O2PS3",
+    "chebi:inchi": "InChI=1S/C9H21O2PS3/c1-6-10-12(13,11-7-2)15-8-14-9(3,4)5/h6-8H2,1-5H3",
+    "chebi:inchikey": "XLNZEKHULJKQBA-UHFFFAOYSA-N",
+    "chebi:smiles": "CCOP(=S)(OCC)SCSC(C)(C)C",
+    "geneontology:hasDbXref": [
+        "Beilstein:1710115",
+        "CAS:13071-79-9",
+        "KEGG:C18693",
+        "PPDB:621"
+    ],
+    "geneontology:hasId": "38960",
+    "geneontology:hasSynonym": [
+        "Counter",
+        "Phosphorodithioic acid S-((tert-butylthio)methyl) O,O-diethyl ester",
+        "S-[(tert-butylsulfanyl)methyl] O,O-diethyl dithiophosphate",
+        "S-[(tert-butylsulfanyl)methyl] O,O-diethyl phosphorodithioate",
+        "S-t-Butylthio-methyl-O,O-diethyl phosphorodithioate"
+    ],
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#3_STAR"
+    },
+    "rdfs:label": "terbufos",
+    "rdfs:subClassOf": [
+        {
+            "@id": "obo:CHEBI_33261"
+        },
+        {
+            "@id": "obo:CHEBI_37512"
+        },
+        {
+            "@id": "obo:CHEBI_25715"
+        },
+        {
+            "@id": "b320_genid-00f1db82e1ab437c844115a94dc63e635-bn38960t11f25491"
+        },
+        {
+            "@id": "b320_genid-00f1db82e1ab437c844115a94dc63e635-bn38960t11f33286"
+        },
+        {
+            "@id": "b320_genid-00f1db82e1ab437c844115a94dc63e635-bn38960t11f38462"
+        }
+    ]
+}

@@ -1,0 +1,38 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_33387",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "chebi:charge": "0",
+    "chebi:formula": "Np",
+    "chebi:inchi": "InChI=1S/Np",
+    "chebi:inchikey": "LFNLGNPSGWYGGD-UHFFFAOYSA-N",
+    "chebi:smiles": "[Np]",
+    "geneontology:hasDbXref": [
+        "CAS:7439-99-8",
+        "WebElements:Np"
+    ],
+    "geneontology:hasId": "33387",
+    "geneontology:hasSynonym": [
+        "Np",
+        "93Np",
+        "neptunio",
+        "neptunium"
+    ],
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#3_STAR"
+    },
+    "rdfs:label": "neptunium atom",
+    "rdfs:subClassOf": [
+        {
+            "@id": "obo:CHEBI_33320"
+        },
+        {
+            "@id": "obo:CHEBI_33562"
+        }
+    ]
+}

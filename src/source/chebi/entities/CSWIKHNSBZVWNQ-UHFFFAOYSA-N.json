@@ -1,0 +1,59 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_83523",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "obo:IAO_0000115": "A monocarboxylic acid amide that is acetamide substituted by a chloro group at position 2 and a  2-ethoxyethyl and a 2-methyl-1-phenylprop-1-en-1-yl at the nitrogen atom. It is an agrochemical used as a herbicide.",
+    "chebi:charge": "0",
+    "chebi:formula": "C16H22ClNO2",
+    "chebi:inchi": "InChI=1S/C16H22ClNO2/c1-4-20-11-10-18(15(19)12-17)16(13(2)3)14-8-6-5-7-9-14/h5-9H,4,10-12H2,1-3H3",
+    "chebi:inchikey": "CSWIKHNSBZVWNQ-UHFFFAOYSA-N",
+    "chebi:smiles": "CCOCCN(C(=O)CCl)C(=C(C)C)c1ccccc1",
+    "geneontology:hasDbXref": [
+        "CAS:106700-29-2",
+        "Patent:EP1315420",
+        "Patent:WO0217719",
+        "Pesticides:pethoxamid",
+        "PPDB:1011",
+        "Reaxys:4873772"
+    ],
+    "geneontology:hasId": "83523",
+    "geneontology:hasSynonym": [
+        "2-chloro-N-(2-ethoxyethyl)-N-(2-methyl-1-phenylprop-1-en-1-yl)acetamide",
+        "pethoxamid"
+    ],
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#3_STAR"
+    },
+    "rdfs:label": "pethoxamide",
+    "rdfs:subClassOf": [
+        {
+            "@id": "obo:CHEBI_25698"
+        },
+        {
+            "@id": "obo:CHEBI_29347"
+        },
+        {
+            "@id": "obo:CHEBI_78840"
+        },
+        {
+            "@id": "obo:CHEBI_36683"
+        },
+        {
+            "@id": "b363_genid-00f1db82e1ab437c844115a94dc63e635-bn83523t11f24527"
+        },
+        {
+            "@id": "b363_genid-00f1db82e1ab437c844115a94dc63e635-bn83523t11f33286"
+        },
+        {
+            "@id": "b363_genid-00f1db82e1ab437c844115a94dc63e635-bn83523t11f35703"
+        },
+        {
+            "@id": "b363_genid-00f1db82e1ab437c844115a94dc63e635-bn83523t11f78298"
+        }
+    ]
+}

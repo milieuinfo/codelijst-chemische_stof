@@ -1,0 +1,39 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_33388",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "chebi:charge": "0",
+    "chebi:formula": "Pu",
+    "chebi:inchi": "InChI=1S/Pu",
+    "chebi:inchikey": "OYEHPCDNVJXUIW-UHFFFAOYSA-N",
+    "chebi:smiles": "[Pu]",
+    "geneontology:hasDbXref": [
+        "CAS:7440-07-5",
+        "KEGG:C19159",
+        "WebElements:Pu"
+    ],
+    "geneontology:hasId": "33388",
+    "geneontology:hasSynonym": [
+        "Pu",
+        "94Pu",
+        "plutonio",
+        "plutonium"
+    ],
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#3_STAR"
+    },
+    "rdfs:label": "plutonium atom",
+    "rdfs:subClassOf": [
+        {
+            "@id": "obo:CHEBI_33320"
+        },
+        {
+            "@id": "obo:CHEBI_33562"
+        }
+    ]
+}

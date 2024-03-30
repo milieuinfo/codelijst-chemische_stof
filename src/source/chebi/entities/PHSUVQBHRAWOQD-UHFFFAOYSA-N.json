@@ -1,0 +1,29 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_82045",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "chebi:charge": "0",
+    "chebi:formula": "C16H25NOS",
+    "chebi:inchi": "InChI=1S/C16H25NOS/c1-5-13(3)17(14(4)6-2)16(18)19-12-15-10-8-7-9-11-15/h7-11,13-14H,5-6,12H2,1-4H3",
+    "chebi:inchikey": "PHSUVQBHRAWOQD-UHFFFAOYSA-N",
+    "chebi:smiles": "CCC(C)N(C(C)CC)C(=O)SCc1ccccc1",
+    "geneontology:hasDbXref": [
+        "CAS:36756-79-3",
+        "KEGG:C18898",
+        "PPDB:643"
+    ],
+    "geneontology:hasId": "82045",
+    "geneontology:hasSynonym": "Thiocarbazil",
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#2_STAR"
+    },
+    "rdfs:label": "Tiocarbazil",
+    "rdfs:subClassOf": {
+        "@id": "obo:CHEBI_22712"
+    }
+}

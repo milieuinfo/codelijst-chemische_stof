@@ -1,0 +1,39 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_28805",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "chebi:charge": "0",
+    "chebi:formula": "C2H2Cl2",
+    "chebi:inchi": "InChI=1S/C2H2Cl2/c3-1-2-4/h1-2H/b2-1-",
+    "chebi:inchikey": "KFUSEUYYWQURPO-UPHRSURJSA-N",
+    "chebi:smiles": "Cl\\C=C/Cl",
+    "http://purl.uniprot.org/core/name": "(Z)-1,2-dichloroethene",
+    "geneontology:hasDbXref": [
+        "Beilstein:1071208",
+        "CAS:156-59-2",
+        "Gmelin:122694",
+        "KEGG:C06792",
+        "UM-BBD_compID:c0357"
+    ],
+    "geneontology:hasId": "28805",
+    "geneontology:hasSynonym": [
+        "(Z)-1,2-dichloroethene",
+        "(Z)-1,2-dichloroethylene",
+        "cis-1,2-Dichloroethene",
+        "cis-1,2-dichloroethylene",
+        "cis-Acetylene dichloride",
+        "cis-dichloroethylene"
+    ],
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#3_STAR"
+    },
+    "rdfs:label": "cis-1,2-dichloroethene",
+    "rdfs:subClassOf": {
+        "@id": "obo:CHEBI_18882"
+    }
+}

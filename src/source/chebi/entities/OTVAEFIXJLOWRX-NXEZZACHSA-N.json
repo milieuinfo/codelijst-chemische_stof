@@ -1,0 +1,52 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_32215",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "chebi:charge": "0",
+    "chebi:formula": "C12H15Cl2NO5S",
+    "chebi:inchi": "InChI=1S/C12H15Cl2NO5S/c1-21(19,20)8-4-2-7(3-5-8)10(17)9(6-16)15-12(18)11(13)14/h2-5,9-11,16-17H,6H2,1H3,(H,15,18)/t9-,10-/m1/s1",
+    "chebi:inchikey": "OTVAEFIXJLOWRX-NXEZZACHSA-N",
+    "chebi:smiles": "CS(=O)(=O)c1ccc(cc1)[C@@H](O)[C@@H](CO)NC(=O)C(Cl)Cl",
+    "geneontology:hasDbXref": [
+        "CAS:15318-45-3",
+        "Drug_Central:2624",
+        "DrugBank:DB08621",
+        "KEGG:C12853",
+        "KEGG:D01407",
+        "LINCS:LSM-5858",
+        "PDBeChem:TH8",
+        "VSDB:1911"
+    ],
+    "geneontology:hasId": "32215",
+    "geneontology:hasSynonym": [
+        "(+)-Thiamphenicol",
+        "2,2-dichloro-N-{(1R,2R)-2-hydroxy-1-(hydroxymethyl)-2-[4-(methylsulfonyl)phenyl]ethyl}acetamide",
+        "Armai (TN)",
+        "D-(+)-threo-2,2-Dichloro-N-(beta-hydroxy-alpha-(hydroxymethyl)-p-(methylsulfonyl)phenethyl)acetamide",
+        "Thiamphenicol",
+        "Thiocymetin (TN)"
+    ],
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#3_STAR"
+    },
+    "rdfs:label": "thiamphenicol",
+    "rdfs:subClassOf": [
+        {
+            "@id": "obo:CHEBI_29347"
+        },
+        {
+            "@id": "obo:CHEBI_35850"
+        },
+        {
+            "@id": "b32_genid-00f1db82e1ab437c844115a94dc63e635-bn32215t11f33281"
+        },
+        {
+            "@id": "b32_genid-00f1db82e1ab437c844115a94dc63e635-bn32215t11f35705"
+        }
+    ]
+}

@@ -1,0 +1,69 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_82076",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "obo:IAO_0000115": "A member of the class of triazenes that is dichlorotriazene in which the hydrogen is replaced by an o-chloroanilino group. A fungicide formerly used to control leaf spots and downy mildew, it is no longer approved for use within the European Union.",
+    "chebi:charge": "0",
+    "chebi:formula": "C9H5Cl3N4",
+    "chebi:inchi": "InChI=1S/C9H5Cl3N4/c10-5-3-1-2-4-6(5)13-9-15-7(11)14-8(12)16-9/h1-4H,(H,13,14,15,16)",
+    "chebi:inchikey": "IMHBYKMAHXWHRP-UHFFFAOYSA-N",
+    "chebi:smiles": "Clc1ccccc1Nc1nc(Cl)nc(Cl)n1",
+    "geneontology:hasDbXref": [
+        "AGR:IND91056136",
+        "CAS:101-05-3",
+        "KEGG:C18935",
+        "Patent:US2720480",
+        "Patent:US2820032",
+        "Patent:US3074946",
+        "Pesticides:anilazine",
+        "PMID:4682330",
+        "PMID:6108427",
+        "PMID:9066850",
+        "PPDB:39",
+        "Reaxys:223133",
+        "Wikipedia:Anilazine"
+    ],
+    "geneontology:hasId": "82076",
+    "geneontology:hasSynonym": [
+        "(o-chloroanilino)dichlorotriazine",
+        "2,4-dichloro-6-(2-chloroanilino)-1,3,5-triazine",
+        "2,4-dichloro-6-(o-chloroanilino)-s-triazine",
+        "2-(2-Chloranilin)-4,6-dichlor-1,3,5-triazin",
+        "2-chloro-N-(4,6-dichloro-1,3,5-triazin-2-yl)aniline",
+        "4,6-dichloro-N-(2-chlorophenyl)-1,3,5-triazin-2-amine",
+        "anilazin",
+        "Aniyaline",
+        "Dairene",
+        "Dyrene",
+        "Kemate",
+        "Triasym",
+        "Triasyn",
+        "Zinochlor"
+    ],
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#3_STAR"
+    },
+    "rdfs:label": "anilazine",
+    "rdfs:subClassOf": [
+        {
+            "@id": "obo:CHEBI_83403"
+        },
+        {
+            "@id": "obo:CHEBI_50995"
+        },
+        {
+            "@id": "obo:CHEBI_38656"
+        },
+        {
+            "@id": "obo:CHEBI_38102"
+        },
+        {
+            "@id": "b633_genid-00f1db82e1ab437c844115a94dc63e635-bn82076t11f86328"
+        }
+    ]
+}

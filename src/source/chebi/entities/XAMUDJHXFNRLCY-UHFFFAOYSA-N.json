@@ -1,0 +1,60 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_34917",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "obo:IAO_0000115": "An organic thiophosphate that is  ethyl mandelate in which the hydroxy group has been replaced by a (dimethoxyphosphorothioyl)sulfanediyl group.",
+    "chebi:charge": "0",
+    "chebi:formula": "C12H17O4PS2",
+    "chebi:inchi": "InChI=1S/C12H17O4PS2/c1-4-16-12(13)11(10-8-6-5-7-9-10)19-17(18,14-2)15-3/h5-9,11H,4H2,1-3H3",
+    "chebi:inchikey": "XAMUDJHXFNRLCY-UHFFFAOYSA-N",
+    "chebi:smiles": "CCOC(=O)C(SP(=S)(OC)OC)c1ccccc1",
+    "geneontology:hasDbXref": [
+        "Beilstein:2474108",
+        "CAS:2597-03-7",
+        "KEGG:C14429",
+        "Patent:CN102037953",
+        "Patent:CN102037996",
+        "PPDB:518",
+        "Reaxys:2474108",
+        "Wikipedia:Phenthoate"
+    ],
+    "geneontology:hasId": "34917",
+    "geneontology:hasSynonym": [
+        "Dimephenthioate",
+        "ethyl [(dimethoxyphosphorothioyl)sulfanyl](phenyl)acetate",
+        "Ethyl alpha-((dimethoxyphosphenothioyl)thio)benzeneacetate",
+        "Fenthoate",
+        "O,O-Dimethyl S-alpha-Ethoxycarbonylbenzyl phosphorodithioate",
+        "Phenthoate",
+        "S-[alpha-(Ethoxycarbonyl)benzyl] O,O-dimethyl phosphorodithioate"
+    ],
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#3_STAR"
+    },
+    "rdfs:label": "phenthoate",
+    "rdfs:subClassOf": [
+        {
+            "@id": "obo:CHEBI_23990"
+        },
+        {
+            "@id": "obo:CHEBI_37512"
+        },
+        {
+            "@id": "obo:CHEBI_25715"
+        },
+        {
+            "@id": "b266_genid-00f1db82e1ab437c844115a94dc63e635-bn34917t11f22153"
+        },
+        {
+            "@id": "b266_genid-00f1db82e1ab437c844115a94dc63e635-bn34917t11f33286"
+        },
+        {
+            "@id": "b266_genid-00f1db82e1ab437c844115a94dc63e635-bn34917t11f38462"
+        }
+    ]
+}

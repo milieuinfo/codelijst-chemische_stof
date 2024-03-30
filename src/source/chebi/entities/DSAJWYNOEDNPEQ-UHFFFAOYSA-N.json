@@ -1,0 +1,59 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@graph": [
+        {
+            "@id": "obo:CHEBI_32594",
+            "@type": "http://www.w3.org/2002/07/owl#Class",
+            "chebi:charge": "0",
+            "chebi:formula": "Ba",
+            "chebi:inchi": "InChI=1S/Ba",
+            "chebi:inchikey": "DSAJWYNOEDNPEQ-UHFFFAOYSA-N",
+            "chebi:smiles": "[Ba]",
+            "geneontology:hasDbXref": "WebElements:Ba",
+            "geneontology:hasId": "32594",
+            "geneontology:hasSynonym": [
+                "Ba",
+                "56Ba",
+                "bario",
+                "barium",
+                "Barium",
+                "baryum"
+            ],
+            "geneontology:inSubset": {
+                "@id": "obo:chebi#3_STAR"
+            },
+            "rdfs:label": "barium atom",
+            "rdfs:subClassOf": {
+                "@id": "obo:CHEBI_22313"
+            }
+        },
+        {
+            "@id": "obo:CHEBI_32595",
+            "@type": "http://www.w3.org/2002/07/owl#Class",
+            "chebi:charge": "0",
+            "chebi:formula": "Ba",
+            "chebi:inchi": "InChI=1S/Ba",
+            "chebi:inchikey": "DSAJWYNOEDNPEQ-UHFFFAOYSA-N",
+            "chebi:smiles": "[Ba]",
+            "geneontology:hasDbXref": "CAS:7440-39-3",
+            "geneontology:hasId": "32595",
+            "geneontology:hasSynonym": [
+                "barium",
+                "Ba(0)",
+                "Ban"
+            ],
+            "geneontology:inSubset": {
+                "@id": "obo:chebi#3_STAR"
+            },
+            "rdfs:label": "barium(0)",
+            "rdfs:subClassOf": {
+                "@id": "obo:CHEBI_37134"
+            }
+        }
+    ]
+}

@@ -1,0 +1,51 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_77273",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "obo:IAO_0000115": "A phytocannabinoid that is Delta(9)-tetrahydrocannabinol in which the C-11 methyl has been fully oxidised to a carboxy group. Further enzymatic oxidation product of 11-hydroxy-Delta(9)-tetrahydrocannabinol.",
+    "chebi:charge": "0",
+    "chebi:formula": "C21H28O4",
+    "chebi:inchi": "InChI=1S/C21H28O4/c1-4-5-6-7-13-10-17(22)19-15-12-14(20(23)24)8-9-16(15)21(2,3)25-18(19)11-13/h10-12,15-16,22H,4-9H2,1-3H3,(H,23,24)/t15-,16-/m1/s1",
+    "chebi:inchikey": "YOVRGSHRZRJTLZ-HZPDHXFCSA-N",
+    "chebi:smiles": "CCCCCc1cc(O)c2[C@@H]3C=C(CC[C@H]3C(C)(C)Oc2c1)C(O)=O",
+    "geneontology:hasDbXref": [
+        "PMID:20630472",
+        "PMID:21871147",
+        "PMID:24185550",
+        "CAS:56354-06-4",
+        "PMID:1324293",
+        "PMID:28171147",
+        "Reaxys:6374032",
+        "Wikipedia:11-nor-9-Carboxy-THC"
+    ],
+    "geneontology:hasId": "77273",
+    "geneontology:hasSynonym": [
+        "(6aR,10aR)-1-hydroxy-6,6-dimethyl-3-pentyl-6a,7,8,10a-tetrahydro-6H-benzo[c]chromene-9-carboxylic acid",
+        "(6aR,10aR)-6a,7,8,10a-tetrahydro-1-hydroxy-6,6-dimethyl-3-pentyl-6H-dibenzo[b,d]pyran-9-carboxylic acid",
+        "11-COOH-THC",
+        "11-nor-9-carboxy-delta-9-tetrahydrocannabinol",
+        "11-nor-9-carboxy-THC",
+        "THC-11-oic acid",
+        "THC-COOH"
+    ],
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#3_STAR"
+    },
+    "rdfs:label": "11-nor-9-carboxy-Delta(9)-tetrahydrocannabinol",
+    "rdfs:subClassOf": [
+        {
+            "@id": "obo:CHEBI_67196"
+        },
+        {
+            "@id": "b439_genid-00f1db82e1ab437c844115a94dc63e635-bn77273t8f66964"
+        },
+        {
+            "@id": "b439_genid-00f1db82e1ab437c844115a94dc63e635-bn77273t11f76967"
+        }
+    ]
+}

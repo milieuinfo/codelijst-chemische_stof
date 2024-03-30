@@ -1,0 +1,40 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_32145",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "chebi:charge": "0",
+    "chebi:formula": "HNaO",
+    "chebi:inchi": "InChI=1S/Na.H2O/h;1H2/q+1;/p-1",
+    "chebi:inchikey": "HEMHJVSKTPXQMS-UHFFFAOYSA-M",
+    "chebi:smiles": "[OH-].[Na+]",
+    "geneontology:hasDbXref": [
+        "CAS:1310-73-2",
+        "Gmelin:68430",
+        "KEGG:C12569",
+        "KEGG:D01169"
+    ],
+    "geneontology:hasId": "32145",
+    "geneontology:hasSynonym": [
+        "Aetznatron",
+        "caustic soda",
+        "hydroxyde de sodium",
+        "NaOH",
+        "Natriumhydroxid",
+        "soda lye",
+        "sodium hydrate",
+        "Sodium hydroxide",
+        "soude caustique"
+    ],
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#3_STAR"
+    },
+    "rdfs:label": "sodium hydroxide",
+    "rdfs:subClassOf": {
+        "@id": "obo:CHEBI_33978"
+    }
+}

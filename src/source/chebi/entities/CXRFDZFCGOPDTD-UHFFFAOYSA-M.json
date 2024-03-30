@@ -1,0 +1,30 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_3565",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "chebi:charge": "0",
+    "chebi:inchi": "InChI=1S/C17H38N.BrH/c1-5-6-7-8-9-10-11-12-13-14-15-16-17-18(2,3)4;/h5-17H2,1-4H3;1H/q+1;/p-1",
+    "chebi:inchikey": "CXRFDZFCGOPDTD-UHFFFAOYSA-M",
+    "chebi:smiles": "[N+](C)(C)(CCCCCCCCCCCCCC)C.[Br-]",
+    "geneontology:hasDbXref": [
+        "CAS:8044-71-1",
+        "KEGG:C11279"
+    ],
+    "geneontology:hasId": "3565",
+    "geneontology:hasSynonym": [
+        "Myristyltrimethylaminium bromide",
+        "Tetradecyl trimethyl ammonium bromide"
+    ],
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#2_STAR"
+    },
+    "rdfs:label": "Cetrimide",
+    "rdfs:subClassOf": {
+        "@id": "obo:CHEBI_50860"
+    }
+}

@@ -1,0 +1,79 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_15837",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "obo:IAO_0000115": "An primary alcohol that is butan-1-ol in which a hydrogen at position 3 has been replaced by a methyl group.",
+    "chebi:charge": "0",
+    "chebi:formula": "C5H12O",
+    "chebi:inchi": "InChI=1S/C5H12O/c1-5(2)3-4-6/h5-6H,3-4H2,1-2H3",
+    "chebi:inchikey": "PHTQWCKDNZKARW-UHFFFAOYSA-N",
+    "chebi:smiles": "CC(C)CCO",
+    "http://purl.uniprot.org/core/name": "3-methylbutanol",
+    "geneontology:hasDbXref": [
+        "Beilstein:1718835",
+        "CAS:123-51-3",
+        "DrugBank:DB02296",
+        "Gmelin:49460",
+        "HMDB:HMDB0006007",
+        "KEGG:C07328",
+        "PMID:23043843",
+        "PMID:23698045",
+        "PMID:24487533",
+        "PMID:24767042",
+        "PMID:24804072",
+        "PMID:24862930",
+        "Reaxys:1718835",
+        "YMDB:YMDB00570"
+    ],
+    "geneontology:hasId": "15837",
+    "geneontology:hasSynonym": [
+        "3-methylbutanol",
+        "1-HYDROXY-3-METHYLBUTANE",
+        "2-methyl-4-butanol",
+        "3-methyl-1-butanol",
+        "3-methylbutan-1-ol",
+        "3-Methylbutanol",
+        "alcool isoamylique",
+        "i-amyl alcohol",
+        "Isoamyl alcohol",
+        "Iso-amylalkohol",
+        "isobutylcarbinol",
+        "isopentan-1-ol",
+        "isopentanol",
+        "Isopentyl alcohol",
+        "Isopentylalkohol",
+        "primary isoamyl alcohol"
+    ],
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#3_STAR"
+    },
+    "rdfs:label": "isoamylol",
+    "rdfs:subClassOf": [
+        {
+            "@id": "obo:CHEBI_15734"
+        },
+        {
+            "@id": "obo:CHEBI_134179"
+        },
+        {
+            "@id": "b98_genid-00f1db82e1ab437c844115a94dc63e635-bn15837t9f30362"
+        },
+        {
+            "@id": "b98_genid-00f1db82e1ab437c844115a94dc63e635-bn15837t11f35718"
+        },
+        {
+            "@id": "obo:CHEBI_50584"
+        },
+        {
+            "@id": "b98_genid-00f1db82e1ab437c844115a94dc63e635-bn15837t11f75772"
+        },
+        {
+            "@id": "b98_genid-00f1db82e1ab437c844115a94dc63e635-bn15837t11f76206"
+        }
+    ]
+}

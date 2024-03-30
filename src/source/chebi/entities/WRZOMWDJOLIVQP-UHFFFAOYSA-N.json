@@ -1,0 +1,28 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_82422",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "chebi:charge": "0",
+    "chebi:formula": "C7H8ClN",
+    "chebi:inchi": "InChI=1S/C7H8ClN/c1-5-2-3-6(8)4-7(5)9/h2-4H,9H2,1H3",
+    "chebi:inchikey": "WRZOMWDJOLIVQP-UHFFFAOYSA-N",
+    "chebi:smiles": "Cc1ccc(Cl)cc1N",
+    "geneontology:hasDbXref": [
+        "CAS:95-79-4",
+        "KEGG:C19366"
+    ],
+    "geneontology:hasId": "82422",
+    "geneontology:hasSynonym": "5-Chloro-o-toluidine",
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#2_STAR"
+    },
+    "rdfs:label": "5-Chloro-ortho-toluidine",
+    "rdfs:subClassOf": {
+        "@id": "obo:CHEBI_83403"
+    }
+}

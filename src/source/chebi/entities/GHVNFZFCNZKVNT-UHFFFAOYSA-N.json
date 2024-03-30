@@ -1,0 +1,93 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_30813",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "obo:IAO_0000115": "A C10, straight-chain saturated fatty acid.",
+    "chebi:charge": "0",
+    "chebi:formula": "C10H20O2",
+    "chebi:inchi": "InChI=1S/C10H20O2/c1-2-3-4-5-6-7-8-9-10(11)12/h2-9H2,1H3,(H,11,12)",
+    "chebi:inchikey": "GHVNFZFCNZKVNT-UHFFFAOYSA-N",
+    "chebi:smiles": "C(CCCCCC)CCC(=O)O",
+    "geneontology:hasDbXref": [
+        "PMID:24357269",
+        "KEGG:C01571",
+        "MetaCyc:CPD-3617",
+        "Beilstein:1754556",
+        "CAS:334-48-5",
+        "DrugBank:DB03600",
+        "ECMDB:ECMDB21204",
+        "Gmelin:69184",
+        "HMDB:HMDB0000511",
+        "KNApSAcK:C00001213",
+        "LIPID_MAPS_instance:LMFA01010010",
+        "PDBeChem:DKA",
+        "PMID:19168249",
+        "PMID:20661498",
+        "PMID:24284257",
+        "YMDB:YMDB00677"
+    ],
+    "geneontology:hasId": "30813",
+    "geneontology:hasSynonym": [
+        "10:0",
+        "1-nonanecarboxylic acid",
+        "C10:0",
+        "capric acid",
+        "caprinic acid",
+        "CH3-[CH2]8-COOH",
+        "Decanoate",
+        "Decanoic acid",
+        "DECANOIC ACID",
+        "decoic acid",
+        "Decylic acid",
+        "Dekansaeure",
+        "Kaprinsaeure",
+        "n-Capric acid",
+        "n-decanoic acid",
+        "n-decoic acid",
+        "n-decylic acid"
+    ],
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#3_STAR"
+    },
+    "rdfs:label": "decanoic acid",
+    "rdfs:subClassOf": [
+        {
+            "@id": "obo:CHEBI_59554"
+        },
+        {
+            "@id": "obo:CHEBI_39418"
+        },
+        {
+            "@id": "b308_genid-00f1db82e1ab437c844115a94dc63e635-bn30813tmms73f27689"
+        },
+        {
+            "@id": "b308_genid-00f1db82e1ab437c844115a94dc63e635-bn30813t11f27311"
+        },
+        {
+            "@id": "b308_genid-00f1db82e1ab437c844115a94dc63e635-bn30813t4f27689"
+        },
+        {
+            "@id": "b308_genid-00f1db82e1ab437c844115a94dc63e635-bn30813t11f33282"
+        },
+        {
+            "@id": "b308_genid-00f1db82e1ab437c844115a94dc63e635-bn30813t9f41808"
+        },
+        {
+            "@id": "b308_genid-00f1db82e1ab437c844115a94dc63e635-bn30813t11f67079"
+        },
+        {
+            "@id": "b308_genid-00f1db82e1ab437c844115a94dc63e635-bn30813t11f76924"
+        },
+        {
+            "@id": "b308_genid-00f1db82e1ab437c844115a94dc63e635-bn30813t11f77746"
+        },
+        {
+            "@id": "b308_genid-00f1db82e1ab437c844115a94dc63e635-bn30813t11f84735"
+        }
+    ]
+}

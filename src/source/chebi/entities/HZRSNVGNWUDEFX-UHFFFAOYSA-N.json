@@ -1,0 +1,73 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_78780",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "obo:IAO_0000115": "A carbamate ester that is the methyl ester of [2-({[1-(4-chlorophenyl)-1H-pyrazol-3-yl]oxy}methyl)phenyl]methoxycarbamic acid. A fungicide used to control major plant pathogens including Septoria tritici, Puccinia spp. and Pyrenophora teres.",
+    "chebi:charge": "0",
+    "chebi:formula": "C19H18ClN3O4",
+    "chebi:inchi": "InChI=1S/C19H18ClN3O4/c1-25-19(24)23(26-2)17-6-4-3-5-14(17)13-27-18-11-12-22(21-18)16-9-7-15(20)8-10-16/h3-12H,13H2,1-2H3",
+    "chebi:inchikey": "HZRSNVGNWUDEFX-UHFFFAOYSA-N",
+    "chebi:smiles": "CON(C(=O)OC)c1ccccc1COc1ccn(n1)-c1ccc(Cl)cc1",
+    "geneontology:hasDbXref": [
+        "PMID:24380616",
+        "CAS:175013-18-0",
+        "KEGG:C18561",
+        "Pesticides:pyraclostrobin",
+        "PMID:22730168",
+        "PMID:23554042",
+        "PMID:23793800",
+        "PMID:23998307",
+        "PMID:24144943",
+        "PMID:24533668",
+        "PMID:24772573",
+        "PMID:24908975",
+        "PPDB:564",
+        "Reaxys:10095527"
+    ],
+    "geneontology:hasId": "78780",
+    "geneontology:hasSynonym": [
+        "methyl [2-({[1-(4-chlorophenyl)-1H-pyrazol-3-yl]oxy}methyl)phenyl]methoxycarbamate",
+        "Pyraclostrobine"
+    ],
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#3_STAR"
+    },
+    "rdfs:label": "pyraclostrobin",
+    "rdfs:subClassOf": [
+        {
+            "@id": "obo:CHEBI_35618"
+        },
+        {
+            "@id": "obo:CHEBI_26410"
+        },
+        {
+            "@id": "obo:CHEBI_83403"
+        },
+        {
+            "@id": "obo:CHEBI_23003"
+        },
+        {
+            "@id": "obo:CHEBI_87066"
+        },
+        {
+            "@id": "b571_genid-00f1db82e1ab437c844115a94dc63e635-bn78780t11f35703"
+        },
+        {
+            "@id": "b571_genid-00f1db82e1ab437c844115a94dc63e635-bn78780t11f38499"
+        },
+        {
+            "@id": "b571_genid-00f1db82e1ab437c844115a94dc63e635-bn78780t11f78298"
+        },
+        {
+            "@id": "b571_genid-00f1db82e1ab437c844115a94dc63e635-bn78780t11f86328"
+        },
+        {
+            "@id": "obo:CHEBI_86485"
+        }
+    ]
+}

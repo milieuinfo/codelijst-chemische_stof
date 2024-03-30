@@ -1,0 +1,30 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_192115",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "chebi:charge": "0",
+    "chebi:formula": "C7H9N",
+    "chebi:inchi": "InChI=1S/C7H9N/c1-6-3-4-8-7(2)5-6/h3-5H,1-2H3",
+    "chebi:inchikey": "JYYNAJVZFGKDEQ-UHFFFAOYSA-N",
+    "chebi:smiles": "N1=C(C=C(C=C1)C)C",
+    "geneontology:hasDbXref": [
+        "CAS:108-47-4",
+        "Chemspider:21132380",
+        "HMDB:HMDB0032244",
+        "PDBeChem:RVV"
+    ],
+    "geneontology:hasId": "192115",
+    "geneontology:hasSynonym": "2,4-dimethylpyridine",
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#2_STAR"
+    },
+    "rdfs:label": "2,4-Dimethylpyridine",
+    "rdfs:subClassOf": {
+        "@id": "obo:CHEBI_25340"
+    }
+}

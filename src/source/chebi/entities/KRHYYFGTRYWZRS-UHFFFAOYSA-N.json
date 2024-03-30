@@ -1,0 +1,56 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_29228",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "obo:IAO_0000115": "A diatomic molecule containing covalently bonded hydrogen and fluorine atoms.",
+    "chebi:charge": "0",
+    "chebi:formula": "FH",
+    "chebi:inchi": "InChI=1S/FH/h1H",
+    "chebi:inchikey": "KRHYYFGTRYWZRS-UHFFFAOYSA-N",
+    "chebi:smiles": "F[H]",
+    "geneontology:hasDbXref": [
+        "CAS:7664-39-3",
+        "Drug_Central:4499",
+        "Gmelin:166",
+        "KEGG:C16487"
+    ],
+    "geneontology:hasId": "29228",
+    "geneontology:hasSynonym": [
+        "Fluoride",
+        "[HF]",
+        "fluorane",
+        "fluoridohydrogen",
+        "fluorure d'hydrogene",
+        "Fluorwasserstoff",
+        "HF",
+        "hydrofluoric acid",
+        "Hydrogenfluorid",
+        "Hydrogen fluoride"
+    ],
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#3_STAR"
+    },
+    "rdfs:label": "hydrogen fluoride",
+    "rdfs:subClassOf": [
+        {
+            "@id": "obo:CHEBI_37176"
+        },
+        {
+            "@id": "obo:CHEBI_18140"
+        },
+        {
+            "@id": "b298_genid-00f1db82e1ab437c844115a94dc63e635-bn29228tmms73f17051"
+        },
+        {
+            "@id": "b298_genid-00f1db82e1ab437c844115a94dc63e635-bn29228t4f17051"
+        },
+        {
+            "@id": "b298_genid-00f1db82e1ab437c844115a94dc63e635-bn29228t5f50314"
+        }
+    ]
+}

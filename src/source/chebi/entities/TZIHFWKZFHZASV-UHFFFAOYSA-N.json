@@ -1,0 +1,64 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_77699",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "obo:IAO_0000115": "A formate ester resulting from the formal condensation of formic acid with methanol. A low-boiling (31.5 degreeC) colourless, flammable liquid, it has been used as a fumigant and larvicide for tobacco and food crops.",
+    "chebi:charge": "0",
+    "chebi:formula": "C2H4O2",
+    "chebi:inchi": "InChI=1S/C2H4O2/c1-4-2-3/h2H,1H3",
+    "chebi:inchikey": "TZIHFWKZFHZASV-UHFFFAOYSA-N",
+    "chebi:smiles": "COC=O",
+    "http://purl.uniprot.org/core/name": "methyl formate",
+    "geneontology:hasDbXref": [
+        "CAS:107-31-3",
+        "PMID:21969072",
+        "PMID:23268565",
+        "Reaxys:1734623"
+    ],
+    "geneontology:hasId": "77699",
+    "geneontology:hasSynonym": [
+        "formiate de methyle",
+        "formic acid methyl ester",
+        "HCO2CH3",
+        "HCOOCH3",
+        "methanoic acid methyl ester",
+        "Methylformiat",
+        "methyl methanoate",
+        "R-611"
+    ],
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#3_STAR"
+    },
+    "rdfs:label": "methyl formate",
+    "rdfs:subClassOf": [
+        {
+            "@id": "obo:CHEBI_25248"
+        },
+        {
+            "@id": "obo:CHEBI_134179"
+        },
+        {
+            "@id": "obo:CHEBI_52343"
+        },
+        {
+            "@id": "b279_genid-00f1db82e1ab437c844115a94dc63e635-bn77699t8f17790"
+        },
+        {
+            "@id": "b279_genid-00f1db82e1ab437c844115a94dc63e635-bn77699t11f24852"
+        },
+        {
+            "@id": "b279_genid-00f1db82e1ab437c844115a94dc63e635-bn77699t11f39276"
+        },
+        {
+            "@id": "b279_genid-00f1db82e1ab437c844115a94dc63e635-bn77699t11f48358"
+        },
+        {
+            "@id": "b279_genid-00f1db82e1ab437c844115a94dc63e635-bn77699t11f78433"
+        }
+    ]
+}

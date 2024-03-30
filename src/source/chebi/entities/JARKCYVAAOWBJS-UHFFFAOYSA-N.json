@@ -1,0 +1,70 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_88528",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "obo:IAO_0000115": "A saturated fatty aldehyde that is hexane in which one of the terminal methyl group has been mono-oxygenated to form the corresponding aldehyde.",
+    "chebi:charge": "0",
+    "chebi:formula": "C6H12O",
+    "chebi:inchi": "InChI=1S/C6H12O/c1-2-3-4-5-6-7/h6H,2-5H2,1H3",
+    "chebi:inchikey": "JARKCYVAAOWBJS-UHFFFAOYSA-N",
+    "chebi:smiles": "C(CCC)CC([H])=O",
+    "http://purl.uniprot.org/core/name": "hexanal",
+    "geneontology:hasDbXref": [
+        "PMID:19167006",
+        "PMID:22284503",
+        "Beilstein:506198",
+        "CAS:66-25-1",
+        "HMDB:HMDB0005994",
+        "KNApSAcK:C00000357",
+        "LIPID_MAPS_instance:LMFA06000109",
+        "MetaCyc:HEXANAL",
+        "PMID:17487452",
+        "PMID:27025353",
+        "Reaxys:506198",
+        "Wikipedia:Hexanal"
+    ],
+    "geneontology:hasId": "88528",
+    "geneontology:hasSynonym": [
+        "1-Hexanal",
+        "Aldehyde C-6",
+        "C6 aldehyde",
+        "Caproaldehyde",
+        "Caproic aldehyde",
+        "Hexaldehyde",
+        "Hexan-1-al",
+        "Hexanaldehyde",
+        "Hexoic aldehyde",
+        "Hexylaldehyde",
+        "n-C5H11CHO",
+        "N-Caproaldehyde",
+        "n-Caproic aldehyde",
+        "N-Hexanal",
+        "N-Hexylaldehyde"
+    ],
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#3_STAR"
+    },
+    "rdfs:label": "hexanal",
+    "rdfs:subClassOf": [
+        {
+            "@id": "obo:CHEBI_12834"
+        },
+        {
+            "@id": "obo:CHEBI_142621"
+        },
+        {
+            "@id": "obo:CHEBI_133249"
+        },
+        {
+            "@id": "b64_genid-00f1db82e1ab437c844115a94dc63e635-bn88528t9f29021"
+        },
+        {
+            "@id": "b64_genid-00f1db82e1ab437c844115a94dc63e635-bn88528t11f84087"
+        }
+    ]
+}

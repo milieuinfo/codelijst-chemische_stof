@@ -1,0 +1,41 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_88620",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "chebi:charge": "0",
+    "chebi:formula": "C8H16O2",
+    "chebi:inchi": "InChI=1S/C8H16O2/c1-3-4-5-6-7-8(9)10-2/h3-7H2,1-2H3",
+    "chebi:inchikey": "XNCNNDVCAUWAIT-UHFFFAOYSA-N",
+    "chebi:smiles": "CCCCCCC(=O)OC",
+    "geneontology:hasDbXref": [
+        "PMID:17314143",
+        "CAS:106-73-0",
+        "HMDB:HMDB0031478"
+    ],
+    "geneontology:hasId": "88620",
+    "geneontology:hasSynonym": [
+        "FEMA 2705",
+        "Heptanoic acid, methyl ester",
+        "Heptanoic acid methyl ester",
+        "Methyl enanthate",
+        "Methyl ester of heptanoic acid",
+        "methyl heptanoate",
+        "Methyl heptoate",
+        "Methyl heptylate",
+        "Methyl N-heptanoate",
+        "Methyl N-heptylate",
+        "Methyl oenanthylate"
+    ],
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#2_STAR"
+    },
+    "rdfs:label": "Methyl heptanoate",
+    "rdfs:subClassOf": {
+        "@id": "obo:CHEBI_35748"
+    }
+}

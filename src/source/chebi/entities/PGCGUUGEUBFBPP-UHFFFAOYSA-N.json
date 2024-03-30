@@ -1,0 +1,36 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_38495",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "chebi:charge": "0",
+    "chebi:formula": "AlP",
+    "chebi:inchi": "InChI=1S/Al.P/q+3;-3",
+    "chebi:inchikey": "PGCGUUGEUBFBPP-UHFFFAOYSA-N",
+    "chebi:smiles": "[Al+3].[P-3]",
+    "geneontology:hasDbXref": [
+        "CAS:20859-73-8",
+        "Gmelin:37808"
+    ],
+    "geneontology:hasId": "38495",
+    "geneontology:hasSynonym": [
+        "aluminum monophosphide",
+        "aluminum phosphide"
+    ],
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#3_STAR"
+    },
+    "rdfs:label": "aluminium phosphide",
+    "rdfs:subClassOf": [
+        {
+            "@id": "obo:CHEBI_35510"
+        },
+        {
+            "@id": "b87_genid-00f1db82e1ab437c844115a94dc63e635-bn38495t11f38500"
+        }
+    ]
+}

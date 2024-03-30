@@ -1,0 +1,44 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_28685",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "chebi:charge": "0",
+    "chebi:formula": "Mo",
+    "chebi:inchi": "InChI=1S/Mo",
+    "chebi:inchikey": "ZOKXTWBITQBERF-UHFFFAOYSA-N",
+    "chebi:smiles": "[Mo]",
+    "http://purl.uniprot.org/core/name": "Mo",
+    "geneontology:hasDbXref": [
+        "CAS:7439-98-7",
+        "Gmelin:16205",
+        "KEGG:C00150",
+        "WebElements:Mo"
+    ],
+    "geneontology:hasId": "28685",
+    "geneontology:hasSynonym": [
+        "Mo",
+        "42Mo",
+        "molibdeno",
+        "Molybdaen",
+        "molybdene",
+        "molybdenum",
+        "Molybdenum"
+    ],
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#3_STAR"
+    },
+    "rdfs:label": "molybdenum atom",
+    "rdfs:subClassOf": [
+        {
+            "@id": "obo:CHEBI_33350"
+        },
+        {
+            "@id": "b361_genid-00f1db82e1ab437c844115a94dc63e635-bn28685t11f27027"
+        }
+    ]
+}

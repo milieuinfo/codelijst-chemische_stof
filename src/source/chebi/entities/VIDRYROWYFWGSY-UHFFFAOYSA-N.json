@@ -1,0 +1,53 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_9207",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "obo:IAO_0000115": "A hydrochloride salt that is the monohydrochloride of sotalol. It has both beta-adrenoreceptor blocking (Vaughan Williams Class II) and cardiac action potential duration prolongation (Vaughan Williams Class III) antiarrhythmic properties. It is used (usually as the hydrochloride salt) for the management of ventricular and supraventricular arrhythmias.",
+    "chebi:charge": "0",
+    "chebi:formula": "C12H21ClN2O3S",
+    "chebi:inchi": "InChI=1S/C12H20N2O3S.ClH/c1-9(2)13-8-12(15)10-4-6-11(7-5-10)14-18(3,16)17;/h4-7,9,12-15H,8H2,1-3H3;1H",
+    "chebi:inchikey": "VIDRYROWYFWGSY-UHFFFAOYSA-N",
+    "chebi:smiles": "Cl.CC(C)NCC(O)c1ccc(NS(C)(=O)=O)cc1",
+    "geneontology:hasDbXref": [
+        "CAS:959-24-0",
+        "DrugBank:DB00489",
+        "KEGG:D01026",
+        "Reaxys:4279514"
+    ],
+    "geneontology:hasId": "9207",
+    "geneontology:hasSynonym": [
+        "4'-(1-hydroxy-2-(isopropylamino)ethyl)methanesulfonanilide monohydrochloride",
+        "4-(2-Isopropylamino-1-hydroxyaethyl)methanesulfonailid hydrochlorid",
+        "Betapace",
+        "Betapace AF",
+        "isopropylaminohydroxyethylmethanesulfonanilide hydrochloride",
+        "N-(2-hydroxy-2-{4-[(methylsulfonyl)amino]phenyl}ethyl)propan-2-aminium chloride",
+        "N-{4-[1-hydroxy-2-(propan-2-ylamino)ethyl]phenyl}methanesulfonamide hydrochloride",
+        "N-isopropyl-beta-(4-methanesulfonamidophenyl)ethanolamine hydrochloride",
+        "sotalol HCl",
+        "sotalol monohydrochloride"
+    ],
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#3_STAR"
+    },
+    "rdfs:label": "sotalol hydrochloride",
+    "rdfs:subClassOf": [
+        {
+            "@id": "obo:CHEBI_36807"
+        },
+        {
+            "@id": "b427_genid-00f1db82e1ab437c844115a94dc63e635-bn9207t11f35530"
+        },
+        {
+            "@id": "b427_genid-00f1db82e1ab437c844115a94dc63e635-bn9207t11f38070"
+        },
+        {
+            "@id": "b427_genid-00f1db82e1ab437c844115a94dc63e635-bn9207t10f63647"
+        }
+    ]
+}

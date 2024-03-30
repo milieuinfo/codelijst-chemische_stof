@@ -1,0 +1,68 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_9242",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "obo:IAO_0000115": "The spiroketal resulting from the formal condensation of 4-tert-butylcyclohexanone with 3-[ethyl(propyl)amino]propane-1,2-diol. An inhibitor of ergosterol synthesis, it is a broad spectrum agricultural fungicide used particularly against powdery mildew in the production of cereals, bananas and grapes.",
+    "chebi:charge": "0",
+    "chebi:formula": "C18H35NO2",
+    "chebi:inchi": "InChI=1S/C18H35NO2/c1-6-12-19(7-2)13-16-14-20-18(21-16)10-8-15(9-11-18)17(3,4)5/h15-16H,6-14H2,1-5H3",
+    "chebi:inchikey": "PUYXTUJWRLOUCW-UHFFFAOYSA-N",
+    "chebi:smiles": "CCCN(CC)CC1COC2(CCC(CC2)C(C)(C)C)O1",
+    "geneontology:hasDbXref": [
+        "AGR:IND43667533",
+        "CAS:118134-30-8",
+        "KEGG:C11124",
+        "Patent:DE3735555",
+        "Patent:US4851405",
+        "Pesticides:spiroxamine",
+        "PMID:16366700",
+        "PMID:16526469",
+        "PMID:17804411",
+        "PMID:19733892",
+        "PMID:20060629",
+        "PPDB:599",
+        "Reaxys:11342560"
+    ],
+    "geneontology:hasId": "9242",
+    "geneontology:hasSynonym": [
+        "(8-tert-Butyl-1,4-dioxa-spiro[4.5]dec-2-ylmethyl)-ethyl-propyl-amine",
+        "8-(1,1-dimethylethyl)-N-ethyl-N-propyl-1,4-dioxaspiro(4.5)decane-2-methanamine",
+        "Impulse",
+        "KWG4168",
+        "N-[(8-tert-butyl-1,4-dioxaspiro[4.5]dec-2-yl)methyl]-N-ethylpropan-1-amine",
+        "Prosper",
+        "Spiroxamine"
+    ],
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#3_STAR"
+    },
+    "rdfs:label": "spiroxamine",
+    "rdfs:subClassOf": [
+        {
+            "@id": "obo:CHEBI_50996"
+        },
+        {
+            "@id": "obo:CHEBI_72600"
+        },
+        {
+            "@id": "obo:CHEBI_39430"
+        },
+        {
+            "@id": "b149_genid-00f1db82e1ab437c844115a94dc63e635-bn9242t11f35703"
+        },
+        {
+            "@id": "b149_genid-00f1db82e1ab437c844115a94dc63e635-bn9242t11f78298"
+        },
+        {
+            "@id": "b149_genid-00f1db82e1ab437c844115a94dc63e635-bn9242t11f83317"
+        },
+        {
+            "@id": "b149_genid-00f1db82e1ab437c844115a94dc63e635-bn9242t11f86328"
+        }
+    ]
+}

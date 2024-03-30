@@ -1,0 +1,93 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_8382",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "obo:IAO_0000115": "A synthetic glucocorticoid drug that is particularly effective as an immunosuppressant, and affects virtually all of the immune system. Prednisone is a prodrug that is converted by the liver into prednisolone (a beta-hydroxy group instead of the oxo group at position 11), which is the active drug and also a steroid.",
+    "chebi:charge": "0",
+    "chebi:formula": "C21H26O5",
+    "chebi:inchi": "InChI=1S/C21H26O5/c1-19-7-5-13(23)9-12(19)3-4-14-15-6-8-21(26,17(25)11-22)20(15,2)10-16(24)18(14)19/h5,7,9,14-15,18,22,26H,3-4,6,8,10-11H2,1-2H3/t14-,15-,18+,19-,20-,21-/m0/s1",
+    "chebi:inchikey": "XOFYZVNMUHMLCC-ZPOLXVRWSA-N",
+    "chebi:smiles": "[H][C@@]12CCC3=CC(=O)C=C[C@]3(C)[C@@]1([H])C(=O)C[C@@]1(C)[C@@]2([H])CC[C@]1(O)C(=O)CO",
+    "geneontology:hasDbXref": [
+        "PMID:10438974",
+        "Beilstein:2065301",
+        "CAS:53-03-2",
+        "Drug_Central:2253",
+        "DrugBank:DB00635",
+        "KEGG:C07370",
+        "Patent:US2579479",
+        "Patent:US2837464",
+        "Patent:US2897216",
+        "Patent:US3134718",
+        "PMID:15859934",
+        "PMID:18971570",
+        "PMID:23093541",
+        "PMID:23395281",
+        "Reaxys:2065301",
+        "Wikipedia:Prednisone"
+    ],
+    "geneontology:hasId": "8382",
+    "geneontology:hasSynonym": [
+        "1,2-Dehydrocortisone",
+        "1,4-Pregnadiene-17alpha,21-diol-3,11,20-trione",
+        "17,21-dihydroxypregna-1,4-diene-3,11,20-trione",
+        "17,21-Dihydroxypregna-1,4-diene-3,11,20-trione",
+        "Dehydrocortisone",
+        "prednison",
+        "prednisona",
+        "prednisonum"
+    ],
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#3_STAR"
+    },
+    "rdfs:label": "prednisone",
+    "rdfs:subClassOf": [
+        {
+            "@id": "obo:CHEBI_47787"
+        },
+        {
+            "@id": "obo:CHEBI_77166"
+        },
+        {
+            "@id": "obo:CHEBI_61313"
+        },
+        {
+            "@id": "obo:CHEBI_35344"
+        },
+        {
+            "@id": "obo:CHEBI_36885"
+        },
+        {
+            "@id": "obo:CHEBI_139590"
+        },
+        {
+            "@id": "obo:CHEBI_139592"
+        },
+        {
+            "@id": "obo:CHEBI_35342"
+        },
+        {
+            "@id": "obo:CHEBI_24261"
+        },
+        {
+            "@id": "b344_genid-00f1db82e1ab437c844115a94dc63e635-bn8382t11f35472"
+        },
+        {
+            "@id": "b344_genid-00f1db82e1ab437c844115a94dc63e635-bn8382t11f35610"
+        },
+        {
+            "@id": "b344_genid-00f1db82e1ab437c844115a94dc63e635-bn8382t11f35705"
+        },
+        {
+            "@id": "b344_genid-00f1db82e1ab437c844115a94dc63e635-bn8382t11f37962"
+        },
+        {
+            "@id": "b344_genid-00f1db82e1ab437c844115a94dc63e635-bn8382t11f50266"
+        }
+    ]
+}

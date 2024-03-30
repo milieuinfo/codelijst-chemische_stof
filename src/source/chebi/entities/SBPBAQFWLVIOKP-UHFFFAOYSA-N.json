@@ -1,0 +1,94 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_34631",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "obo:IAO_0000115": "An  organic thiophosphate that is O,O-diethyl hydrogen phosphorothioate in which the hydrogen of the hydroxy group has been replaced by a 3,5,6-trichloropyridin-2-yl group.",
+    "chebi:charge": "0",
+    "chebi:formula": "C9H11Cl3NO3PS",
+    "chebi:inchi": "InChI=1S/C9H11Cl3NO3PS/c1-3-14-17(18,15-4-2)16-9-7(11)5-6(10)8(12)13-9/h5H,3-4H2,1-2H3",
+    "chebi:inchikey": "SBPBAQFWLVIOKP-UHFFFAOYSA-N",
+    "chebi:smiles": "CCOP(=S)(OCC)Oc1nc(Cl)c(Cl)cc1Cl",
+    "http://purl.uniprot.org/core/name": "chlorpyrifos",
+    "geneontology:hasDbXref": [
+        "Beilstein:1545756",
+        "CAS:2921-88-2",
+        "HMDB:HMDB0041856",
+        "KEGG:C14322",
+        "KEGG:D07688",
+        "Pesticides:chlorpyrifos",
+        "PMID:11882345",
+        "PMID:18166376",
+        "PMID:31152760",
+        "PPDB:154",
+        "Reaxys:1545756",
+        "Wikipedia:Chlorpyrifos"
+    ],
+    "geneontology:hasId": "34631",
+    "geneontology:hasSynonym": [
+        "Cobalt",
+        "Bolton",
+        "Brodan",
+        "Chlorpyrifos",
+        "chlorpyrifos ethyl",
+        "Chlorpyrifos-ethyl",
+        "Chlorpyriphos",
+        "Detmol",
+        "Dowco 179",
+        "Dursban",
+        "Empire",
+        "Equity",
+        "Eradex",
+        "Lentrek",
+        "Lock-On",
+        "Lorsban",
+        "m-Chlorpyrifos",
+        "Nufos",
+        "o,o-Diethyl-o-(3,5,6-trichloro-2-pyridyl)phosphorothioate",
+        "O,O-diethyl O-(3,5,6-trichloropyridin-2-yl) phosphorothioate",
+        "O,O-diethyl O-(3,5,6-trichloropyridin-2-yl) thiophosphate",
+        "Phosphorothioic acid, O,O-diethyl O-(3,5,6-trichloro-2-pyridinyl) ester",
+        "Piridane",
+        "Stipend",
+        "Tricel",
+        "Trichlorpyrphos",
+        "Warhawk"
+    ],
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#3_STAR"
+    },
+    "rdfs:label": "chlorpyrifos",
+    "rdfs:subClassOf": [
+        {
+            "@id": "obo:CHEBI_37512"
+        },
+        {
+            "@id": "obo:CHEBI_39173"
+        },
+        {
+            "@id": "b311_genid-00f1db82e1ab437c844115a94dc63e635-bn34631t11f22153"
+        },
+        {
+            "@id": "b311_genid-00f1db82e1ab437c844115a94dc63e635-bn34631t11f24852"
+        },
+        {
+            "@id": "b311_genid-00f1db82e1ab437c844115a94dc63e635-bn34631t11f33286"
+        },
+        {
+            "@id": "b311_genid-00f1db82e1ab437c844115a94dc63e635-bn34631t11f35703"
+        },
+        {
+            "@id": "b311_genid-00f1db82e1ab437c844115a94dc63e635-bn34631t11f37733"
+        },
+        {
+            "@id": "b311_genid-00f1db82e1ab437c844115a94dc63e635-bn34631t11f38462"
+        },
+        {
+            "@id": "b311_genid-00f1db82e1ab437c844115a94dc63e635-bn34631t11f78298"
+        }
+    ]
+}

@@ -1,0 +1,44 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_36026",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "obo:IAO_0000115": "A member of the class of  chloroethanes that is ethane substituted by chloro groups at positions 1, 1, 2 and 2.",
+    "chebi:charge": "0",
+    "chebi:formula": "C2H2Cl4",
+    "chebi:inchi": "InChI=1S/C2H2Cl4/c3-1(4)2(5)6/h1-2H",
+    "chebi:inchikey": "QPFMBZIOSGYJDE-UHFFFAOYSA-N",
+    "chebi:smiles": "ClC(Cl)C(Cl)Cl",
+    "geneontology:hasDbXref": [
+        "Beilstein:969206",
+        "CAS:79-34-5",
+        "Gmelin:184809",
+        "KEGG:C19534",
+        "MetaCyc:1122-TETRACHLOROETHANE",
+        "PMID:18830144",
+        "PMID:6767185",
+        "Reaxys:969206",
+        "Wikipedia:1,1,2,2-Tetrachloroethane"
+    ],
+    "geneontology:hasId": "36026",
+    "geneontology:hasSynonym": [
+        "1,1,2,2-Tetrachloraethan",
+        "1,1,2,2-tetrachlorethane",
+        "1,1-dichloro-2,2-dichloroethane",
+        "acetylene tetrachloride",
+        "s-Tetrachloroethane",
+        "sym-Tetrachloroethane",
+        "Tetrachloroethane"
+    ],
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#3_STAR"
+    },
+    "rdfs:label": "1,1,2,2-tetrachloroethane",
+    "rdfs:subClassOf": {
+        "@id": "obo:CHEBI_36016"
+    }
+}

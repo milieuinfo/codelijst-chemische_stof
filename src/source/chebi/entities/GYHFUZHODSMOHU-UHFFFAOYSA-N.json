@@ -1,0 +1,63 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_84268",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "obo:IAO_0000115": "A saturated fatty aldehyde formally arising from reduction of the carboxy group of nonanoic acid. Metabolite observed in cancer metabolism.",
+    "chebi:charge": "0",
+    "chebi:formula": "C9H18O",
+    "chebi:inchi": "InChI=1S/C9H18O/c1-2-3-4-5-6-7-8-9-10/h9H,2-8H2,1H3",
+    "chebi:inchikey": "GYHFUZHODSMOHU-UHFFFAOYSA-N",
+    "chebi:smiles": "CCCCCCCCC=O",
+    "http://purl.uniprot.org/core/name": "nonanal",
+    "geneontology:hasDbXref": [
+        "PMID:25518943",
+        "PMID:25466114",
+        "CAS:124-19-6",
+        "HMDB:HMDB0059835",
+        "KNApSAcK:C00030828",
+        "LIPID_MAPS_instance:LMFA06000040",
+        "MetaCyc:CPD-8491",
+        "PMID:25172748",
+        "Reaxys:1236701",
+        "Wikipedia:Nonanal"
+    ],
+    "geneontology:hasId": "84268",
+    "geneontology:hasSynonym": [
+        "n-nonaldehyde",
+        "nonanoic aldehyde",
+        "nonylaldehyde",
+        "nonyl aldehyde",
+        "nonylic aldehyde",
+        "pelargonaldehyde",
+        "pelargonic aldehyde"
+    ],
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#3_STAR"
+    },
+    "rdfs:label": "nonanal",
+    "rdfs:subClassOf": [
+        {
+            "@id": "obo:CHEBI_12834"
+        },
+        {
+            "@id": "obo:CHEBI_142621"
+        },
+        {
+            "@id": "obo:CHEBI_133249"
+        },
+        {
+            "@id": "b404_genid-00f1db82e1ab437c844115a94dc63e635-bn84268t8f29019"
+        },
+        {
+            "@id": "b404_genid-00f1db82e1ab437c844115a94dc63e635-bn84268t11f76924"
+        },
+        {
+            "@id": "b404_genid-00f1db82e1ab437c844115a94dc63e635-bn84268t11f77746"
+        }
+    ]
+}

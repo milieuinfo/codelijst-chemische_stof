@@ -1,0 +1,51 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_81850",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "obo:IAO_0000115": "A quaternary ammonium ion that is choline in which the hydroxy group has been replaced by a chlorine. Its salts (particularly the chloride salt, known as chlormequat chloride) are used as plant growth retardants.",
+    "chebi:charge": "+1",
+    "chebi:formula": "C5H13ClN",
+    "chebi:inchi": "InChI=1S/C5H13ClN/c1-7(2,3)5-4-6/h4-5H2,1-3H3/q+1",
+    "chebi:inchikey": "JUZXDNPBRPUIOR-UHFFFAOYSA-N",
+    "chebi:smiles": "[N+](CCCl)(C)(C)C",
+    "geneontology:hasDbXref": [
+        "CAS:7003-89-6",
+        "KEGG:C18585",
+        "Pesticides:chlormequat",
+        "PMID:16466532",
+        "PMID:21497564",
+        "PMID:22686367",
+        "PMID:26536804",
+        "PMID:27020619",
+        "PMID:27423755",
+        "Reaxys:1736831",
+        "Wikipedia:chlormequat"
+    ],
+    "geneontology:hasId": "81850",
+    "geneontology:hasSynonym": [
+        "chlormequat",
+        "(2-chloroethyl)trimethylammonium",
+        "(beta-chloroethyl)trimethylammonium",
+        "2-chloro-N,N,N-trimethylethan-1-aminium",
+        "2-chloro-N,N,N-trimethylethanaminium",
+        "trimethyl-(2-chloroethyl)-ammonium",
+        "trimethyl-(beta-chloroethyl)-ammonium"
+    ],
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#3_STAR"
+    },
+    "rdfs:label": "chlormequat",
+    "rdfs:subClassOf": [
+        {
+            "@id": "obo:CHEBI_35267"
+        },
+        {
+            "@id": "b184_genid-00f1db82e1ab437c844115a94dc63e635-bn81850t11f35219"
+        }
+    ]
+}

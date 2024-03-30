@@ -1,0 +1,86 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_102516",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "obo:IAO_0000115": "A sulfonamide consisting of pyridazine having a methoxy substituent at the 6-position and a 4-aminobenzenesulfonamido group at the 3-position.",
+    "chebi:charge": "0",
+    "chebi:formula": "C11H12N4O3S",
+    "chebi:inchi": "InChI=1S/C11H12N4O3S/c1-18-11-7-6-10(13-14-11)15-19(16,17)9-4-2-8(12)3-5-9/h2-7H,12H2,1H3,(H,13,15)",
+    "chebi:inchikey": "VLYWMPOKSSWJAL-UHFFFAOYSA-N",
+    "chebi:smiles": "C1=CC(=CC=C1N)S(NC2=NN=C(C=C2)OC)(=O)=O",
+    "geneontology:hasDbXref": [
+        "PMID:11431418",
+        "PMID:6864729",
+        "PMID:7486915",
+        "PMID:23183348",
+        "Beilstein:277076",
+        "CAS:80-35-3",
+        "Drug_Central:2515",
+        "Gmelin:1443440",
+        "KEGG:D02439",
+        "LINCS:LSM-5204",
+        "Patent:US2712012",
+        "PMID:13363378",
+        "PMID:13488278",
+        "PMID:13521763",
+        "PMID:13559967",
+        "PMID:13583950",
+        "PMID:13615757",
+        "PMID:13635077",
+        "Reaxys:277076"
+    ],
+    "geneontology:hasId": "102516",
+    "geneontology:hasSynonym": [
+        "3-(4-Aminobenzenesulfonamido)-6-methoxypyridazine",
+        "3-(p-Aminobenzenesulfamido)-6-methoxypyridazine",
+        "3-Methoxy-6-sulfanylamidopyridazine",
+        "3-p-Aminobenzenesulphonamido-6-methoxypyridazine",
+        "3-Sulfa-6-methoxypyridazine",
+        "3-Sulfanilamide-6-methoxypyridazine",
+        "3-Sulfanilamido-6-methoxypyridazine",
+        "4-Amino-N-(6-methoxy-3-pyridazinyl)-benzenesulfonamide",
+        "4-amino-N-(6-methoxypyridazin-3-yl)benzenesulfonamide",
+        "6-Methoxy-3-pyridazinylsulfanilamide",
+        "6-Methoxy-3-sulfanilamidopyridazine",
+        "6-Sulfanilamido-3-methoxypyridazine",
+        "N(1)-(6-Methoxy-3-pyridazinyl)sulfanilamide",
+        "Solfametossipiridazina",
+        "sulfamethoxipyridazine",
+        "sulfamethoxypyridazinum",
+        "sulfametoxipiridazina",
+        "Sulfametoxipiridazine",
+        "Sulphamethoxypyridazine"
+    ],
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#3_STAR"
+    },
+    "rdfs:label": "sulfamethoxypyridazine",
+    "rdfs:subClassOf": [
+        {
+            "@id": "obo:CHEBI_35358"
+        },
+        {
+            "@id": "obo:CHEBI_87228"
+        },
+        {
+            "@id": "obo:CHEBI_37921"
+        },
+        {
+            "@id": "b468_genid-00f1db82e1ab437c844115a94dc63e635-bn102516t11f35441"
+        },
+        {
+            "@id": "b468_genid-00f1db82e1ab437c844115a94dc63e635-bn102516t8f45373"
+        },
+        {
+            "@id": "b468_genid-00f1db82e1ab437c844115a94dc63e635-bn102516t11f50502"
+        },
+        {
+            "@id": "b468_genid-00f1db82e1ab437c844115a94dc63e635-bn102516t11f88188"
+        }
+    ]
+}

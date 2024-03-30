@@ -1,0 +1,65 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_78673",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "obo:IAO_0000115": "A peroxol that is cumene in which the alpha-hydrogen is replaced by a hydroperoxy group.",
+    "chebi:charge": "0",
+    "chebi:formula": "C9H12O2",
+    "chebi:inchi": "InChI=1S/C9H12O2/c1-9(2,11-10)8-6-4-3-5-7-8/h3-7,10H,1-2H3",
+    "chebi:inchikey": "YQHLDYVWEZKEOX-UHFFFAOYSA-N",
+    "chebi:smiles": "CC(C)(OO)c1ccccc1",
+    "http://purl.uniprot.org/core/name": "cumene hydroperoxide",
+    "geneontology:hasDbXref": [
+        "CAS:80-15-9",
+        "MetaCyc:CPD0-1449",
+        "PMID:23357941",
+        "PMID:23707950",
+        "PMID:23767299",
+        "PMID:24073228",
+        "PMID:24492382",
+        "PMID:26985019",
+        "Reaxys:1908117",
+        "Wikipedia:Cumene_hydroperoxide"
+    ],
+    "geneontology:hasId": "78673",
+    "geneontology:hasSynonym": [
+        "1-Methyl-1-phenylethyl hydroperoxide",
+        "7-Cumyl hydroperoxide",
+        "alpha,alpha-Dimethylbenzyl hydroperoxide",
+        "alpha-Cumene hydroperoxide",
+        "alpha-Cumyl hydroperoxide",
+        "CHP",
+        "Cumenyl hydroperoxide",
+        "Cumolhydroperoxid",
+        "Cumyl hydroperoxide",
+        "Hydroperoxyde de cumene",
+        "Hydroperoxyde de cumyle",
+        "Isopropylbenzene hydroperoxide"
+    ],
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#3_STAR"
+    },
+    "rdfs:label": "cumene hydroperoxide",
+    "rdfs:subClassOf": [
+        {
+            "@id": "obo:CHEBI_35924"
+        },
+        {
+            "@id": "b478_genid-00f1db82e1ab437c844115a94dc63e635-bn78673t9f34656"
+        },
+        {
+            "@id": "b478_genid-00f1db82e1ab437c844115a94dc63e635-bn78673t11f63248"
+        },
+        {
+            "@id": "b478_genid-00f1db82e1ab437c844115a94dc63e635-bn78673t11f78298"
+        },
+        {
+            "@id": "b478_genid-00f1db82e1ab437c844115a94dc63e635-bn78673t11f131604"
+        }
+    ]
+}

@@ -1,0 +1,42 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_50415",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "obo:IAO_0000115": "A methylpyridine carrying a methyl substituent at position 2.",
+    "chebi:charge": "0",
+    "chebi:formula": "C6H7N",
+    "chebi:inchi": "InChI=1S/C6H7N/c1-6-4-2-3-5-7-6/h2-5H,1H3",
+    "chebi:inchikey": "BSKHPKMHTQYZBB-UHFFFAOYSA-N",
+    "chebi:smiles": "Cc1ccccn1",
+    "geneontology:hasDbXref": [
+        "Beilstein:104581",
+        "CAS:109-06-8",
+        "Gmelin:2639",
+        "KEGG:C14447",
+        "PMID:21359348",
+        "PMID:23290448",
+        "Reaxys:104581",
+        "Wikipedia:2-methylpyridine"
+    ],
+    "geneontology:hasId": "50415",
+    "geneontology:hasSynonym": [
+        "2-Mepy",
+        "2-Methylpyridine",
+        "2-picoline",
+        "alpha-picoline",
+        "o-methylpyridine",
+        "o-picoline"
+    ],
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#3_STAR"
+    },
+    "rdfs:label": "2-methylpyridine",
+    "rdfs:subClassOf": {
+        "@id": "obo:CHEBI_50414"
+    }
+}

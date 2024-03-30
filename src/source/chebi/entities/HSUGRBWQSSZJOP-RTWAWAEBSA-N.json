@@ -1,0 +1,78 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_101278",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "obo:IAO_0000115": "A 5-[2-(dimethylamino)ethyl]-2-(4-methoxyphenyl)-4-oxo-2,3,4,5-tetrahydro-1,5-benzothiazepin-3-yl acetate in which both stereocentres have S configuration. A calcium-channel blocker and vasodilator, it is used as the hydrochloride in the management of angina pectoris and hypertension.",
+    "chebi:charge": "0",
+    "chebi:formula": "C22H26N2O4S",
+    "chebi:inchi": "InChI=1S/C22H26N2O4S/c1-15(25)28-20-21(16-9-11-17(27-4)12-10-16)29-19-8-6-5-7-18(19)24(22(20)26)14-13-23(2)3/h5-12,20-21H,13-14H2,1-4H3/t20-,21+/m1/s1",
+    "chebi:inchikey": "HSUGRBWQSSZJOP-RTWAWAEBSA-N",
+    "chebi:smiles": "COc1ccc(cc1)[C@@H]1Sc2ccccc2N(CCN(C)C)C(=O)[C@@H]1OC(C)=O",
+    "geneontology:hasDbXref": [
+        "Beilstein:3573079",
+        "CAS:42399-41-7",
+        "Drug_Central:897",
+        "DrugBank:DB00343",
+        "HMDB:HMDB0014487",
+        "KEGG:C06958",
+        "KEGG:D07845",
+        "LINCS:LSM-2523",
+        "Patent:DE1805714",
+        "Patent:DE3415035",
+        "Patent:US3562257",
+        "Patent:US4552695",
+        "PMID:11937779",
+        "PMID:16651034",
+        "PMID:19167257",
+        "PMID:23687551",
+        "PMID:24261918",
+        "PMID:25122162",
+        "PMID:8369596",
+        "Reaxys:3573079",
+        "VSDB:1863",
+        "Wikipedia:Diltiazem"
+    ],
+    "geneontology:hasId": "101278",
+    "geneontology:hasSynonym": [
+        "(+)-cis-5-[2-(dimethylamino)ethyl]-2,3-dihydro-3-hydroxy-2-(p-methoxyphenyl)-1,5-benzothiazepin-4(5H)-one acetate ester",
+        "(2S,3S)-5-(2-(dimethylamino)ethyl)-2-(4-methoxyphenyl)-4-oxo-2,3,4,5-tetrahydrobenzo[b][1,4]thiazepin-3-yl acetate",
+        "(2S,3S)-5-[2-(dimethylamino)ethyl]-2-(4-methoxyphenyl)-4-oxo-2,3,4,5-tetrahydro-1,5-benzothiazepin-3-yl acetate",
+        "(2S-cis)-3-(acetyloxy)-5-[2-(dimethylamino)ethyl]-2,3-dihydro-2-(4-methoxyphenyl)-1,5-benzothiazepin-4(5H)-one",
+        "Acetic acid (2S,3S)-5-(2-dimethylamino-ethyl)-2-(4-methoxy-phenyl)-4-oxo-2,3,4,5-tetrahydro-benzo[b][1,4]thiazepin-3-yl ester",
+        "d-cis-diltiazem",
+        "D-cis-diltiazem",
+        "diltiazemum"
+    ],
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#3_STAR"
+    },
+    "rdfs:label": "diltiazem",
+    "rdfs:subClassOf": [
+        {
+            "@id": "obo:CHEBI_82814"
+        },
+        {
+            "@id": "b533_genid-00f1db82e1ab437c844115a94dc63e635-bn101278tmms73f82812"
+        },
+        {
+            "@id": "b533_genid-00f1db82e1ab437c844115a94dc63e635-bn101278t11f35620"
+        },
+        {
+            "@id": "b533_genid-00f1db82e1ab437c844115a94dc63e635-bn101278t11f35674"
+        },
+        {
+            "@id": "b533_genid-00f1db82e1ab437c844115a94dc63e635-bn101278t11f38215"
+        },
+        {
+            "@id": "b533_genid-00f1db82e1ab437c844115a94dc63e635-bn101278t5f82812"
+        },
+        {
+            "@id": "b533_genid-00f1db82e1ab437c844115a94dc63e635-bn101278t6f82813"
+        }
+    ]
+}

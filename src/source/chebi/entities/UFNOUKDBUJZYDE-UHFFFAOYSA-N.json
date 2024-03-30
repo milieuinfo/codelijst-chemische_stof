@@ -1,0 +1,36 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_83748",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "obo:IAO_0000115": "A tertiary alcohol that is butan-2-ol substituted by a 4-chlorophenyl group at position 2, a cyclopropyl group at position 3 and a 1H-1,2,4-triazol-1-yl group at position 1.",
+    "chebi:charge": "0",
+    "chebi:formula": "C15H18ClN3O",
+    "chebi:inchi": "InChI=1S/C15H18ClN3O/c1-11(12-2-3-12)15(20,8-19-10-17-9-18-19)13-4-6-14(16)7-5-13/h4-7,9-12,20H,2-3,8H2,1H3",
+    "chebi:inchikey": "UFNOUKDBUJZYDE-UHFFFAOYSA-N",
+    "chebi:smiles": "CC(C1CC1)C(O)(Cn1cncn1)c1ccc(Cl)cc1",
+    "geneontology:hasDbXref": "PPDB:198",
+    "geneontology:hasId": "83748",
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#3_STAR"
+    },
+    "rdfs:label": "2-(4-chlorophenyl)-3-cyclopropyl-1-(1H-1,2,4-triazol-1-yl)butan-2-ol",
+    "rdfs:subClassOf": [
+        {
+            "@id": "obo:CHEBI_26878"
+        },
+        {
+            "@id": "obo:CHEBI_35727"
+        },
+        {
+            "@id": "obo:CHEBI_83403"
+        },
+        {
+            "@id": "obo:CHEBI_51454"
+        }
+    ]
+}

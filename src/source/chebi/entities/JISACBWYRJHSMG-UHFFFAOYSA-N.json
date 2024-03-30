@@ -1,0 +1,51 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_38677",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "chebi:charge": "0",
+    "chebi:formula": "C10H16NO5PS2",
+    "chebi:inchi": "InChI=1S/C10H16NO5PS2/c1-11(2)19(12,13)10-7-5-9(6-8-10)16-17(18,14-3)15-4/h5-8H,1-4H3",
+    "chebi:inchikey": "JISACBWYRJHSMG-UHFFFAOYSA-N",
+    "chebi:smiles": "COP(=S)(OC)Oc1ccc(cc1)S(=O)(=O)N(C)C",
+    "geneontology:hasDbXref": [
+        "CAS:52-85-7",
+        "KEGG:C18658",
+        "VSDB:1598"
+    ],
+    "geneontology:hasId": "38677",
+    "geneontology:hasSynonym": [
+        "Famophos",
+        "O-[4-(dimethylsulfamoyl)phenyl] O,O-dimethyl phosphorothioate",
+        "O-[4-(dimethylsulfamoyl)phenyl] O,O-dimethyl thiophosphate",
+        "Phosphorothioic acid, O-(4-((dimethylamino)sulfonyl)phenyl) O,O-dimethyl ester"
+    ],
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#3_STAR"
+    },
+    "rdfs:label": "famphur",
+    "rdfs:subClassOf": [
+        {
+            "@id": "obo:CHEBI_37512"
+        },
+        {
+            "@id": "obo:CHEBI_25715"
+        },
+        {
+            "@id": "b119_genid-00f1db82e1ab437c844115a94dc63e635-bn38677t11f33286"
+        },
+        {
+            "@id": "b119_genid-00f1db82e1ab437c844115a94dc63e635-bn38677t11f35443"
+        },
+        {
+            "@id": "b119_genid-00f1db82e1ab437c844115a94dc63e635-bn38677t11f38462"
+        },
+        {
+            "@id": "b119_genid-00f1db82e1ab437c844115a94dc63e635-bn38677t8f38678"
+        }
+    ]
+}

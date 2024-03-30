@@ -1,0 +1,64 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_9927",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "obo:IAO_0000115": "A monocarboxylic acid amide consisting of L-valine in which the amino hydrogens have been replaced by a pentanoyl and a  [2'-(1H-tetrazol-5-yl)biphenyl]-4-yl]methyl group. It exhibits  antihypertensive activity.",
+    "chebi:charge": "0",
+    "chebi:formula": "C24H29N5O3",
+    "chebi:inchi": "InChI=1S/C24H29N5O3/c1-4-5-10-21(30)29(22(16(2)3)24(31)32)15-17-11-13-18(14-12-17)19-8-6-7-9-20(19)23-25-27-28-26-23/h6-9,11-14,16,22H,4-5,10,15H2,1-3H3,(H,31,32)(H,25,26,27,28)/t22-/m0/s1",
+    "chebi:inchikey": "ACWBQPMHZXGDFX-QFIPXVFZSA-N",
+    "chebi:smiles": "CCCCC(=O)N(Cc1ccc(cc1)-c1ccccc1-c1nnn[nH]1)[C@@H](C(C)C)C(O)=O",
+    "geneontology:hasDbXref": [
+        "Beilstein:7754038",
+        "CAS:137862-53-4",
+        "Drug_Central:2806",
+        "DrugBank:DB00177",
+        "HMDB:HMDB0014323",
+        "KEGG:D00400",
+        "LINCS:LSM-2993",
+        "Patent:EP443983",
+        "Patent:US5399578",
+        "Reaxys:7754038",
+        "Wikipedia:Valsartan"
+    ],
+    "geneontology:hasId": "9927",
+    "geneontology:hasSynonym": [
+        "(S)-N-valeryl-N-{[2'-(1H-tetrazol-5-yl)biphenyl-4-yl]-methyl}-valine",
+        "Diovan",
+        "N-(p-(o-1H-tetrazol-5-ylphenyl)benzyl)-N-valeryl-L-valine",
+        "N-pentanoyl-N-{[2'-(1H-tetrazol-5-yl)[1,1'-biphenyl]-4-yl]methyl}-L-valine",
+        "N-pentanoyl-N-{[2'-(1H-tetrazol-5-yl)biphenyl-4-yl]methyl}-L-valine"
+    ],
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#3_STAR"
+    },
+    "rdfs:label": "valsartan",
+    "rdfs:subClassOf": [
+        {
+            "@id": "obo:CHEBI_29347"
+        },
+        {
+            "@id": "obo:CHEBI_25384"
+        },
+        {
+            "@id": "obo:CHEBI_48420"
+        },
+        {
+            "@id": "b12_genid-00f1db82e1ab437c844115a94dc63e635-bn9927t11f35674"
+        },
+        {
+            "@id": "b12_genid-00f1db82e1ab437c844115a94dc63e635-bn9927t11f35703"
+        },
+        {
+            "@id": "b12_genid-00f1db82e1ab437c844115a94dc63e635-bn9927t11f61016"
+        },
+        {
+            "@id": "b12_genid-00f1db82e1ab437c844115a94dc63e635-bn9927t11f78298"
+        }
+    ]
+}

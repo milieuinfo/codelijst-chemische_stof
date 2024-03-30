@@ -1,0 +1,34 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_80502",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "chebi:charge": "0",
+    "chebi:formula": "C9H11N3O",
+    "chebi:inchi": "InChI=1S/C9H11N3O/c13-11-12-6-2-4-9(12)8-3-1-5-10-7-8/h1,3,5,7,9H,2,4,6H2",
+    "chebi:inchikey": "XKABJYQDMJTNGQ-UHFFFAOYSA-N",
+    "chebi:smiles": "O=NN1CCCC1c1cccnc1",
+    "geneontology:hasDbXref": [
+        "CAS:16543-55-8",
+        "HMDB:HMDB0041940",
+        "KEGG:C16452"
+    ],
+    "geneontology:hasId": "80502",
+    "geneontology:hasSynonym": "NNN",
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#2_STAR"
+    },
+    "rdfs:label": "N'-Nitrosonornicotine",
+    "rdfs:subClassOf": [
+        {
+            "@id": "obo:CHEBI_26421"
+        },
+        {
+            "@id": "obo:CHEBI_38260"
+        }
+    ]
+}

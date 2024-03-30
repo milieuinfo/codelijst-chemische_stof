@@ -1,0 +1,47 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_38893",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "obo:IAO_0000115": "A carbamate ester that consists of 2,3,5-trimethylphenol carrying an O-(N-methylcarbamoyl) group. One of two constituents of trimethacarb.",
+    "chebi:charge": "0",
+    "chebi:formula": "C11H15NO2",
+    "chebi:inchi": "InChI=1S/C11H15NO2/c1-7-5-8(2)9(3)10(6-7)14-11(13)12-4/h5-6H,1-4H3,(H,12,13)",
+    "chebi:inchikey": "NYOKZHDTNBDPOB-UHFFFAOYSA-N",
+    "chebi:smiles": "CNC(=O)Oc1cc(C)cc(C)c1C",
+    "geneontology:hasDbXref": [
+        "Beilstein:2331082",
+        "CAS:2655-15-4",
+        "KEGG:C18957",
+        "PPDB:671",
+        "Reaxys:2331082"
+    ],
+    "geneontology:hasId": "38893",
+    "geneontology:hasSynonym": [
+        "2,3,5-Trimethylphenol methylcarbamate",
+        "2,3,5-Trimethylphenyl N-methylcarbamate",
+        "methylcarbamic acid 2,3,5-trimethylphenyl ester"
+    ],
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#3_STAR"
+    },
+    "rdfs:label": "2,3,5-trimethylphenyl methylcarbamate",
+    "rdfs:subClassOf": [
+        {
+            "@id": "obo:CHEBI_23003"
+        },
+        {
+            "@id": "b38_genid-00f1db82e1ab437c844115a94dc63e635-bn38893t11f24852"
+        },
+        {
+            "@id": "b38_genid-00f1db82e1ab437c844115a94dc63e635-bn38893t11f33286"
+        },
+        {
+            "@id": "b38_genid-00f1db82e1ab437c844115a94dc63e635-bn38893t8f38570"
+        }
+    ]
+}

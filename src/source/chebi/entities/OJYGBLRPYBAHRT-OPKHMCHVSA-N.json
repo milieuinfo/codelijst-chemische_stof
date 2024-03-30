@@ -1,0 +1,36 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_81902",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "chebi:charge": "0",
+    "chebi:formula": "C8H11Cl3O6",
+    "chebi:inchi": "InChI=1S/C8H11Cl3O6/c9-8(10,11)7-16-5-3(14)4(2(13)1-12)15-6(5)17-7/h2-7,12-14H,1H2/t2?,3-,4+,5+,6?,7+/m0/s1",
+    "chebi:inchikey": "OJYGBLRPYBAHRT-OPKHMCHVSA-N",
+    "chebi:smiles": "OCC(O)[C@H]1OC2O[C@@H](O[C@@H]2[C@H]1O)C(Cl)(Cl)Cl",
+    "geneontology:hasDbXref": [
+        "CAS:15879-93-3",
+        "Drug_Central:3086",
+        "KEGG:C18707"
+    ],
+    "geneontology:hasId": "81902",
+    "geneontology:hasSynonym": [
+        "alphachloralose",
+        "anhydroglucochloral",
+        "chloralosane",
+        "glucochloral",
+        "glucochloralose",
+        "kalmettumsomniferum"
+    ],
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#2_STAR"
+    },
+    "rdfs:label": "Chloralose",
+    "rdfs:subClassOf": {
+        "@id": "obo:CHEBI_39430"
+    }
+}

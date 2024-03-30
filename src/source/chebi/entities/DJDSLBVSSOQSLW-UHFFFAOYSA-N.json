@@ -1,0 +1,55 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_17243",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "obo:IAO_0000115": "The mono(2-ethylhexyl) ester of benzene-1,2-dicarboxylic acid.",
+    "chebi:charge": "0",
+    "chebi:formula": "C16H22O4",
+    "chebi:inchi": "InChI=1S/C16H22O4/c1-3-5-8-12(4-2)11-20-16(19)14-10-7-6-9-13(14)15(17)18/h6-7,9-10,12H,3-5,8,11H2,1-2H3,(H,17,18)",
+    "chebi:inchikey": "DJDSLBVSSOQSLW-UHFFFAOYSA-N",
+    "chebi:smiles": "CCCCC(CC)COC(=O)c1ccccc1C(O)=O",
+    "geneontology:hasDbXref": [
+        "Beilstein:3206630",
+        "CAS:4376-20-9",
+        "KEGG:C03343",
+        "LINCS:LSM-36855"
+    ],
+    "geneontology:hasId": "17243",
+    "geneontology:hasSynonym": [
+        "(2-ethylhexyl) hydrogen phthalate",
+        "1,2-benzenedicarboxylic acid, mono(2-ethylhexyl) ester",
+        "2-([(2-ethylhexyl)oxy]carbonyl)benzoic acid",
+        "2-(2-ethylhexyloxycarbonyl)benzoic acid",
+        "2-ethylhexyl hydrogen phthalate",
+        "2-Ethylhexyl phthalate",
+        "MEHP",
+        "mono(2-ethylhexyl)phthalate",
+        "mono-(2-ethylhexyl)phthalate",
+        "mono-2-ethylhexyl phthalate",
+        "monoethylhexyl phthalate",
+        "phthalic acid, 2-ethylhexyl ester"
+    ],
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#3_STAR"
+    },
+    "rdfs:label": "mono(2-ethylhexyl) phthalate",
+    "rdfs:subClassOf": [
+        {
+            "@id": "b51_genid-00f1db82e1ab437c844115a94dc63e635-bn17243tmms73f58071"
+        },
+        {
+            "@id": "b51_genid-00f1db82e1ab437c844115a94dc63e635-bn17243t8f16011"
+        },
+        {
+            "@id": "b51_genid-00f1db82e1ab437c844115a94dc63e635-bn17243t4f58071"
+        },
+        {
+            "@id": "obo:CHEBI_132610"
+        }
+    ]
+}

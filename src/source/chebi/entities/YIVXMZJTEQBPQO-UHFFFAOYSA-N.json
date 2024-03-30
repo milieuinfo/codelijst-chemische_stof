@@ -1,0 +1,71 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_73173",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "obo:IAO_0000115": "A monocarboxylic acid that is butyric acid in which one of the hydrogens at position 4 is replaced by a 2,4-dichlorophenoxy group. A selective post-emergence herbicide.",
+    "chebi:charge": "0",
+    "chebi:formula": "C10H10Cl2O3",
+    "chebi:inchi": "InChI=1S/C10H10Cl2O3/c11-7-3-4-9(8(12)6-7)15-5-1-2-10(13)14/h3-4,6H,1-2,5H2,(H,13,14)",
+    "chebi:inchikey": "YIVXMZJTEQBPQO-UHFFFAOYSA-N",
+    "chebi:smiles": "OC(=O)CCCOc1ccc(Cl)cc1Cl",
+    "geneontology:hasDbXref": [
+        "CAS:94-82-6",
+        "KEGG:C14404",
+        "Patent:GB804565",
+        "Patent:GB883255",
+        "Pesticides:2,4-db",
+        "PPDB:5",
+        "Reaxys:1976809",
+        "Wikipedia:2,4-DB"
+    ],
+    "geneontology:hasId": "73173",
+    "geneontology:hasSynonym": [
+        "2,4-D butyric acid",
+        "4-(2,4-DB)",
+        "4-(2,4-dichlorophenoxy)butanoic acid",
+        "4-(2,4-Dichlorophenoxy)butyric acid",
+        "Butoxone",
+        "Butyrac",
+        "Embutox",
+        "gamma-(2,4-dichlorophenoxy)butanoic acid",
+        "gamma-(2,4-dichlorophenoxy)-butanoic acid",
+        "gamma-(2,4-dichlorophenoxy)butyric acid",
+        "gamma-(2,4-dichlorophenoxy)-butyric acid",
+        "Legumex"
+    ],
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#3_STAR"
+    },
+    "rdfs:label": "2,4-DB",
+    "rdfs:subClassOf": [
+        {
+            "@id": "obo:CHEBI_35618"
+        },
+        {
+            "@id": "obo:CHEBI_25384"
+        },
+        {
+            "@id": "obo:CHEBI_36683"
+        },
+        {
+            "@id": "b83_genid-00f1db82e1ab437c844115a94dc63e635-bn73173tmms73f143277"
+        },
+        {
+            "@id": "b83_genid-00f1db82e1ab437c844115a94dc63e635-bn73173t11f26841"
+        },
+        {
+            "@id": "b83_genid-00f1db82e1ab437c844115a94dc63e635-bn73173t11f33286"
+        },
+        {
+            "@id": "b83_genid-00f1db82e1ab437c844115a94dc63e635-bn73173t11f60575"
+        },
+        {
+            "@id": "b83_genid-00f1db82e1ab437c844115a94dc63e635-bn73173t4f143277"
+        }
+    ]
+}

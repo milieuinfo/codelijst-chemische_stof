@@ -1,0 +1,36 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_138738",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "obo:IAO_0000115": "A member of the class of furans that is furan-3(2H)-one which is substituted at positions 2, 4, and 5 by phenyl, m-(trifluoromethyl)phenyl, and methylamino groups, respectively.",
+    "chebi:charge": "0",
+    "chebi:formula": "C18H14F3NO2",
+    "chebi:inchi": "InChI=1S/C18H14F3NO2/c1-22-17-14(12-8-5-9-13(10-12)18(19,20)21)15(23)16(24-17)11-6-3-2-4-7-11/h2-10,16,22H,1H3",
+    "chebi:inchikey": "NYRMIJKDBAQCHC-UHFFFAOYSA-N",
+    "chebi:smiles": "O1C(=C(C(C1C2=CC=CC=C2)=O)C3=CC=CC(=C3)C(F)(F)F)NC",
+    "geneontology:hasDbXref": "PPDB:349",
+    "geneontology:hasId": "138738",
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#3_STAR"
+    },
+    "rdfs:label": "5-(methylamino)-2-phenyl-4-[3-(trifluoromethyl)phenyl]furan-3(2H)-one",
+    "rdfs:subClassOf": [
+        {
+            "@id": "obo:CHEBI_3992"
+        },
+        {
+            "@id": "obo:CHEBI_24129"
+        },
+        {
+            "@id": "obo:CHEBI_50995"
+        },
+        {
+            "@id": "obo:CHEBI_83565"
+        }
+    ]
+}

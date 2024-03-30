@@ -1,0 +1,80 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_5004",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "obo:IAO_0000115": "A monocarboxylic acid that is propanoic acid in which one of the hydrogens at position 2 is substituted by a 3-phenoxyphenyl group. A non-steroidal anti-inflammatory drug, the dihydrate form of the calcium salt is used for the management of mild to moderate pain and for the relief of pain and inflammation associated with  disorders such as arthritis. It is pharmacologically similar to aspirin, but causes less gastrointestinal bleeding.",
+    "chebi:charge": "0",
+    "chebi:formula": "C15H14O3",
+    "chebi:inchi": "InChI=1S/C15H14O3/c1-11(15(16)17)12-6-5-9-14(10-12)18-13-7-3-2-4-8-13/h2-11H,1H3,(H,16,17)",
+    "chebi:inchikey": "RDJGLLICXDHJDY-UHFFFAOYSA-N",
+    "chebi:smiles": "CC(C(O)=O)c1cccc(Oc2ccccc2)c1",
+    "geneontology:hasDbXref": [
+        "PMID:28166217",
+        "CAS:31879-05-7",
+        "Drug_Central:1154",
+        "DrugBank:DB00573",
+        "KEGG:C06997",
+        "KEGG:D02350",
+        "Patent:US3600437",
+        "PMID:21328296",
+        "PMID:21342694",
+        "PMID:25554116",
+        "PMID:30168706",
+        "PMID:4616811",
+        "Reaxys:2118687",
+        "Wikipedia:_Fenoprofen"
+    ],
+    "geneontology:hasId": "5004",
+    "geneontology:hasSynonym": [
+        "(+-)-2-(3-phenoxyphenyl)propionic acid",
+        "(+-)-m-phenoxyhydratropic acid",
+        "2-(3-phenoxyphenyl)propanoic acid",
+        "2-(3-phenoxyphenyl)propionic acid",
+        "2-(m-phenoxyphenyl)propionic acid",
+        "alpha-(m-phenoxyphenyl)propionic acid",
+        "alpha-methyl-3-phenoxybenzeneacetic acid",
+        "Fenoprofen",
+        "FENOPROFEN",
+        "fenoprofene",
+        "fenoprofeno",
+        "fenoprofenum"
+    ],
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#3_STAR"
+    },
+    "rdfs:label": "fenoprofen",
+    "rdfs:subClassOf": [
+        {
+            "@id": "obo:CHEBI_25384"
+        },
+        {
+            "@id": "b22_genid-00f1db82e1ab437c844115a94dc63e635-bn5004tmms73f60566"
+        },
+        {
+            "@id": "b22_genid-00f1db82e1ab437c844115a94dc63e635-bn5004t11f35475"
+        },
+        {
+            "@id": "b22_genid-00f1db82e1ab437c844115a94dc63e635-bn5004t11f35481"
+        },
+        {
+            "@id": "b22_genid-00f1db82e1ab437c844115a94dc63e635-bn5004t11f35493"
+        },
+        {
+            "@id": "b22_genid-00f1db82e1ab437c844115a94dc63e635-bn5004t11f50629"
+        },
+        {
+            "@id": "b22_genid-00f1db82e1ab437c844115a94dc63e635-bn5004t11f50630"
+        },
+        {
+            "@id": "b22_genid-00f1db82e1ab437c844115a94dc63e635-bn5004t4f60566"
+        },
+        {
+            "@id": "b22_genid-00f1db82e1ab437c844115a94dc63e635-bn5004t11f88188"
+        }
+    ]
+}

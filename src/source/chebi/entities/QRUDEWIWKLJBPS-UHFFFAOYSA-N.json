@@ -1,0 +1,51 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_75331",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "obo:IAO_0000115": "The simplest member of the class of benzotriazoles that consists of a benzene nucleus fused to a 1H-1,2,3-triazole ring.",
+    "chebi:charge": "0",
+    "chebi:formula": "C6H5N3",
+    "chebi:inchi": "InChI=1S/C6H5N3/c1-2-4-6-5(3-1)7-9-8-6/h1-4H,(H,7,8,9)",
+    "chebi:inchikey": "QRUDEWIWKLJBPS-UHFFFAOYSA-N",
+    "chebi:smiles": "c1ccc2[nH]nnc2c1",
+    "geneontology:hasDbXref": [
+        "CAS:95-14-7",
+        "PDBeChem:0CT",
+        "PMID:23652707",
+        "PMID:23923790",
+        "Reaxys:112133",
+        "Wikipedia:Benzotriazole"
+    ],
+    "geneontology:hasId": "75331",
+    "geneontology:hasSynonym": [
+        "1,2,3-triaza-1H-indene",
+        "1,2,-aminozophenylene",
+        "1H-benzotriazole",
+        "2,3-diazaindole",
+        "azimidobenzene",
+        "aziminobenzene",
+        "benzene azimide",
+        "benzisotriazole",
+        "BTA"
+    ],
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#3_STAR"
+    },
+    "rdfs:label": "benzotriazole",
+    "rdfs:subClassOf": [
+        {
+            "@id": "obo:CHEBI_48912"
+        },
+        {
+            "@id": "b273_genid-00f1db82e1ab437c844115a94dc63e635-bn75331t11f35703"
+        },
+        {
+            "@id": "b273_genid-00f1db82e1ab437c844115a94dc63e635-bn75331t11f78298"
+        }
+    ]
+}

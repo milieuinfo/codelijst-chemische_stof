@@ -1,0 +1,66 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_81810",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "obo:IAO_0000115": "A member of the class of naphthalenes that is naphthalene which is substituted by a 2-amino-2-oxoethyl group at position 1. It is a synthetic auxin that is widely used in agriculture to promote the growth of numerous fruits, for root cuttings and as a fruit thinning agent.",
+    "chebi:charge": "0",
+    "chebi:formula": "C12H11NO",
+    "chebi:inchi": "InChI=1S/C12H11NO/c13-12(14)8-10-6-3-5-9-4-1-2-7-11(9)10/h1-7H,8H2,(H2,13,14)",
+    "chebi:inchikey": "XFNJVKMNNVCYEK-UHFFFAOYSA-N",
+    "chebi:smiles": "C1=CC=C2C(=C1)C(=CC=C2)CC(N)=O",
+    "http://purl.uniprot.org/core/name": "1-naphthaleneacetamide",
+    "geneontology:hasDbXref": [
+        "CAS:86-86-2",
+        "FooDB:FDB010671",
+        "HMDB:HMDB0032710",
+        "KEGG:C18533",
+        "MetaCyc:ALPHA-NAPHTHALENEACETAMIDE",
+        "Patent:DE10204456",
+        "Pesticides:naphthaleneacetamide",
+        "PMID:23175988",
+        "PMID:25690333",
+        "PMID:28958533",
+        "PMID:4840905",
+        "PMID:7380786",
+        "PPDB:1729",
+        "Reaxys:1945547",
+        "Wikipedia:1-Naphthaleneacetamide"
+    ],
+    "geneontology:hasId": "81810",
+    "geneontology:hasSynonym": [
+        "1-naphthylacetamide",
+        "2-(1-naphthyl)acetamide",
+        "2-(naphthalen-1-yl)acetamide",
+        "alpha-NAA amide",
+        "alpha-naphthaleneacetamide",
+        "alpha-naphthaleneacetic acid amide",
+        "alpha-naphthylacetamide",
+        "Amid-Thin",
+        "Amid-Thin W",
+        "Dirigol N",
+        "Dirigol-N",
+        "Frufix",
+        "NAAm",
+        "Rootone"
+    ],
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#3_STAR"
+    },
+    "rdfs:label": "1-naphthaleneacetamide",
+    "rdfs:subClassOf": [
+        {
+            "@id": "obo:CHEBI_25477"
+        },
+        {
+            "@id": "obo:CHEBI_140324"
+        },
+        {
+            "@id": "b306_genid-00f1db82e1ab437c844115a94dc63e635-bn81810t11f26841"
+        }
+    ]
+}

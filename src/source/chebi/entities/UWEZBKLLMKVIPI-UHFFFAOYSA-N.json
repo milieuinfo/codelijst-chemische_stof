@@ -1,0 +1,33 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_40810",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "obo:IAO_0000115": "A dinitrophenol having the nitro groups at the 2- and 5-positions.",
+    "chebi:charge": "0",
+    "chebi:formula": "C6H4N2O5",
+    "chebi:inchi": "InChI=1S/C6H4N2O5/c9-6-3-4(7(10)11)1-2-5(6)8(12)13/h1-3,9H",
+    "chebi:inchikey": "UWEZBKLLMKVIPI-UHFFFAOYSA-N",
+    "chebi:smiles": "Oc1cc(ccc1[N+]([O-])=O)[N+]([O-])=O",
+    "geneontology:hasDbXref": [
+        "Beilstein:1913411",
+        "CAS:329-71-5",
+        "Gmelin:102981"
+    ],
+    "geneontology:hasId": "40810",
+    "geneontology:hasSynonym": [
+        "2,5-DNP",
+        "gamma-dinitrophenol"
+    ],
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#3_STAR"
+    },
+    "rdfs:label": "2,5-dinitrophenol",
+    "rdfs:subClassOf": {
+        "@id": "obo:CHEBI_39352"
+    }
+}

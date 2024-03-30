@@ -1,0 +1,29 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_82149",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "chebi:charge": "0",
+    "chebi:formula": "C8H20O7P2",
+    "chebi:inchi": "InChI=1S/C8H20O7P2/c1-5-11-16(9,12-6-2)15-17(10,13-7-3)14-8-4/h5-8H2,1-4H3",
+    "chebi:inchikey": "IDCBOTIENDVCBQ-UHFFFAOYSA-N",
+    "chebi:smiles": "CCOP(=O)(OCC)OP(=O)(OCC)OCC",
+    "geneontology:hasDbXref": [
+        "CAS:107-49-3",
+        "KEGG:C19017",
+        "PPDB:1272"
+    ],
+    "geneontology:hasId": "82149",
+    "geneontology:hasSynonym": "Tetraethyl pyrophosphate",
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#2_STAR"
+    },
+    "rdfs:label": "TEPP",
+    "rdfs:subClassOf": {
+        "@id": "obo:CHEBI_62889"
+    }
+}

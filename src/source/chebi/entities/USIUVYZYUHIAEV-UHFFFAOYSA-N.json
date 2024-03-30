@@ -1,0 +1,49 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_39258",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "obo:IAO_0000115": "An aromatic ether in which the oxygen is attached to two phenyl substituents. It has been found in muscat grapes and vanilla.",
+    "chebi:charge": "0",
+    "chebi:formula": "C12H10O",
+    "chebi:inchi": "InChI=1S/C12H10O/c1-3-7-11(8-4-1)13-12-9-5-2-6-10-12/h1-10H",
+    "chebi:inchikey": "USIUVYZYUHIAEV-UHFFFAOYSA-N",
+    "chebi:smiles": "O(c1ccccc1)c1ccccc1",
+    "geneontology:hasDbXref": [
+        "Beilstein:1364620",
+        "CAS:101-84-8",
+        "Gmelin:165477",
+        "HMDB:HMDB0034446",
+        "Reaxys:1364620",
+        "Wikipedia:Diphenyl_ether"
+    ],
+    "geneontology:hasId": "39258",
+    "geneontology:hasSynonym": [
+        "1,1'-oxybis(benzene)",
+        "1,1'-oxybisbenzene",
+        "1,1'-oxydibenzene",
+        "Diphenylaether",
+        "Diphenylether",
+        "Diphenyloxid",
+        "diphenyl oxide",
+        "oxybisbenzene",
+        "phenoxybenzene",
+        "phenyl ether"
+    ],
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#3_STAR"
+    },
+    "rdfs:label": "diphenyl ether",
+    "rdfs:subClassOf": [
+        {
+            "@id": "obo:CHEBI_35618"
+        },
+        {
+            "@id": "b34_genid-00f1db82e1ab437c844115a94dc63e635-bn39258t11f76924"
+        }
+    ]
+}

@@ -1,0 +1,41 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_37825",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "obo:IAO_0000115": "An aminotoluene in which the amino substituent is para to the methyl group.",
+    "chebi:charge": "0",
+    "chebi:formula": "C7H9N",
+    "chebi:inchi": "InChI=1S/C7H9N/c1-6-2-4-7(8)5-3-6/h2-5H,8H2,1H3",
+    "chebi:inchikey": "RZXMPPFPUUCRFN-UHFFFAOYSA-N",
+    "chebi:smiles": "Cc1ccc(N)cc1",
+    "http://purl.uniprot.org/core/name": "4-aminotoluene",
+    "geneontology:hasDbXref": [
+        "Beilstein:471281",
+        "CAS:106-49-0",
+        "PMID:24285397",
+        "PMID:24428433",
+        "Reaxys:471281"
+    ],
+    "geneontology:hasId": "37825",
+    "geneontology:hasSynonym": [
+        "4-aminotoluene",
+        "4-Aminotoluene",
+        "4-methylaniline",
+        "4-Methylbenzenamine",
+        "4-Toluidine",
+        "p-Methylbenzenamine",
+        "p-Tolylamine"
+    ],
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#3_STAR"
+    },
+    "rdfs:label": "p-toluidine",
+    "rdfs:subClassOf": {
+        "@id": "obo:CHEBI_22531"
+    }
+}

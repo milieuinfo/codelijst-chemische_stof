@@ -1,0 +1,47 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_34677",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "obo:IAO_0000115": "The diheptyl ester of benzene-1,2-dicarboxylic acid.",
+    "chebi:charge": "0",
+    "chebi:formula": "C22H34O4",
+    "chebi:inchi": "InChI=1S/C22H34O4/c1-3-5-7-9-13-17-25-21(23)19-15-11-12-16-20(19)22(24)26-18-14-10-8-6-4-2/h11-12,15-16H,3-10,13-14,17-18H2,1-2H3",
+    "chebi:inchikey": "JQCXWCOOWVGKMT-UHFFFAOYSA-N",
+    "chebi:smiles": "CCCCCCCOC(=O)c1ccccc1C(=O)OCCCCCCC",
+    "geneontology:hasDbXref": [
+        "PMID:19840837",
+        "Beilstein:2336623",
+        "CAS:3648-21-3",
+        "KEGG:C14575",
+        "PMID:19643158",
+        "PMID:22687992",
+        "PMID:6148222"
+    ],
+    "geneontology:hasId": "34677",
+    "geneontology:hasSynonym": [
+        "1,2-Benzenedicarboxylic acid diheptyl ester",
+        "DHPP",
+        "diheptyl benzene-1,2-dicarboxylate",
+        "Di-n-Heptylphthalate",
+        "Di-n-heptyl phthalate",
+        "Heptyl phthalate",
+        "Phthalic acid diheptyl ester"
+    ],
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#3_STAR"
+    },
+    "rdfs:label": "diheptyl phthalate",
+    "rdfs:subClassOf": [
+        {
+            "@id": "obo:CHEBI_51307"
+        },
+        {
+            "@id": "obo:CHEBI_35484"
+        }
+    ]
+}

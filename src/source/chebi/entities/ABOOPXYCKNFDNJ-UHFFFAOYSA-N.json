@@ -1,0 +1,36 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_137509",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "obo:IAO_0000115": "A monocarboxylic acid that is 2-phenoxypropanoic acid in which the phenyl group is substituted at the para position by a (6-chloroquinoxalin-2-yl)oxy group.",
+    "chebi:charge": "0",
+    "chebi:formula": "C17H13ClN2O4",
+    "chebi:inchi": "InChI=1S/C17H13ClN2O4/c1-10(17(21)22)23-12-3-5-13(6-4-12)24-16-9-19-15-8-11(18)2-7-14(15)20-16/h2-10H,1H3,(H,21,22)",
+    "chebi:inchikey": "ABOOPXYCKNFDNJ-UHFFFAOYSA-N",
+    "chebi:smiles": "C1=C(N=C2C(=N1)C=C(C=C2)Cl)OC3=CC=C(C=C3)OC(C(O)=O)C",
+    "geneontology:hasId": "137509",
+    "geneontology:hasSynonym": "2-{4-[(6-chloroquinoxalin-2-yl)oxy]phenoxy}propionic acid",
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#3_STAR"
+    },
+    "rdfs:label": "2-{4-[(6-chloroquinoxalin-2-yl)oxy]phenoxy}propanoic acid",
+    "rdfs:subClassOf": [
+        {
+            "@id": "obo:CHEBI_35618"
+        },
+        {
+            "@id": "obo:CHEBI_25384"
+        },
+        {
+            "@id": "obo:CHEBI_36683"
+        },
+        {
+            "@id": "obo:CHEBI_38771"
+        }
+    ]
+}

@@ -1,0 +1,68 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@graph": [
+        {
+            "@id": "obo:CHEBI_49695",
+            "@type": "http://www.w3.org/2002/07/owl#Class",
+            "chebi:charge": "0",
+            "chebi:formula": "Kr",
+            "chebi:inchi": "InChI=1S/Kr",
+            "chebi:inchikey": "DNNSSWSSYDEUBZ-UHFFFAOYSA-N",
+            "chebi:smiles": "[Kr]",
+            "geneontology:hasDbXref": [
+                "MolBase:925",
+                "PDBeChem:KR"
+            ],
+            "geneontology:hasId": "49695",
+            "geneontology:hasSynonym": [
+                "[Kr]",
+                "KRYPTON"
+            ],
+            "geneontology:inSubset": {
+                "@id": "obo:chebi#3_STAR"
+            },
+            "rdfs:label": "krypton(0)",
+            "rdfs:subClassOf": {
+                "@id": "obo:CHEBI_49987"
+            }
+        },
+        {
+            "@id": "obo:CHEBI_49696",
+            "@type": "http://www.w3.org/2002/07/owl#Class",
+            "chebi:charge": "0",
+            "chebi:formula": "Kr",
+            "chebi:inchi": "InChI=1S/Kr",
+            "chebi:inchikey": "DNNSSWSSYDEUBZ-UHFFFAOYSA-N",
+            "chebi:smiles": "[Kr]",
+            "geneontology:hasDbXref": [
+                "CAS:7439-90-9",
+                "WebElements:Kr"
+            ],
+            "geneontology:hasId": "49696",
+            "geneontology:hasSynonym": [
+                "Kr",
+                "36Kr",
+                "cripton",
+                "kripton",
+                "krypton"
+            ],
+            "geneontology:inSubset": {
+                "@id": "obo:chebi#3_STAR"
+            },
+            "rdfs:label": "krypton atom",
+            "rdfs:subClassOf": [
+                {
+                    "@id": "obo:CHEBI_33560"
+                },
+                {
+                    "@id": "obo:CHEBI_33309"
+                }
+            ]
+        }
+    ]
+}

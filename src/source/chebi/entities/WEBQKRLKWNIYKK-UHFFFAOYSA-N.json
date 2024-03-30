@@ -1,0 +1,54 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_38624",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "chebi:charge": "0",
+    "chebi:formula": "C6H15O3PS2",
+    "chebi:inchi": "InChI=1S/C6H15O3PS2/c1-4-11-5-6-12-10(7,8-2)9-3/h4-6H2,1-3H3",
+    "chebi:inchikey": "WEBQKRLKWNIYKK-UHFFFAOYSA-N",
+    "chebi:smiles": "CCSCCSP(=O)(OC)OC",
+    "geneontology:hasDbXref": [
+        "Beilstein:1707311",
+        "CAS:919-86-8",
+        "KEGG:C18655",
+        "PPDB:206"
+    ],
+    "geneontology:hasId": "38624",
+    "geneontology:hasSynonym": [
+        "DSM",
+        "O,O-dimethyl S-(2-(ethylthio)ethyl)phosphorothioate",
+        "O,O-dimethyl S-ethylmercaptoethyl thiophosphate",
+        "phosphorothioic acid, S-[2-(ethylthio)ethyl] O,O-dimethyl ester",
+        "S-[2-(ethylsulfanyl)ethyl] O,O-dimethyl phosphorothioate",
+        "S-[2-(ethylsulfanyl)ethyl] O,O-dimethyl thiophosphate"
+    ],
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#3_STAR"
+    },
+    "rdfs:label": "demeton-S-methyl",
+    "rdfs:subClassOf": [
+        {
+            "@id": "obo:CHEBI_37512"
+        },
+        {
+            "@id": "obo:CHEBI_25715"
+        },
+        {
+            "@id": "b124_genid-00f1db82e1ab437c844115a94dc63e635-bn38624t11f22153"
+        },
+        {
+            "@id": "b124_genid-00f1db82e1ab437c844115a94dc63e635-bn38624t11f33286"
+        },
+        {
+            "@id": "b124_genid-00f1db82e1ab437c844115a94dc63e635-bn38624t11f38462"
+        },
+        {
+            "@id": "b124_genid-00f1db82e1ab437c844115a94dc63e635-bn38624t8f38625"
+        }
+    ]
+}

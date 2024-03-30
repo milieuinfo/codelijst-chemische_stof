@@ -1,0 +1,73 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_6908",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "obo:IAO_0000115": "A phosphonic ester that is dimethyl phosphonate in which the hydrogen atom attched to the phosphorous is substituted by a 2,2,2-trichloro-1-hydroxyethyl group.",
+    "chebi:charge": "0",
+    "chebi:formula": "C4H8Cl3O4P",
+    "chebi:inchi": "InChI=1S/C4H8Cl3O4P/c1-10-12(9,11-2)3(8)4(5,6)7/h3,8H,1-2H3",
+    "chebi:inchikey": "NFACJZMKEDPNKN-UHFFFAOYSA-N",
+    "chebi:smiles": "COP(=O)(OC)C(O)C(Cl)(Cl)Cl",
+    "geneontology:hasDbXref": [
+        "Beilstein:1709434",
+        "CAS:52-68-6",
+        "Drug_Central:1787",
+        "KEGG:C07971",
+        "KEGG:D00805",
+        "LINCS:LSM-4995",
+        "PMID:19775726",
+        "PMID:24122545",
+        "PPDB:657",
+        "Reaxys:1709434",
+        "VSDB:657",
+        "Wikipedia:Metrifonate"
+    ],
+    "geneontology:hasId": "6908",
+    "geneontology:hasSynonym": [
+        "(+-)-Trichlorfon",
+        "1-Hydroxy-2,2,2-trichloroethylphosphonic acid dimethyl ester",
+        "Chlorophos",
+        "dimethyl (2,2,2-trichloro-1-hydroxyethyl)phosphonate",
+        "Methyl chlorophos",
+        "metrifonate",
+        "Metrifonate",
+        "metrifonato",
+        "metrifonatum",
+        "Trichlorfon"
+    ],
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#3_STAR"
+    },
+    "rdfs:label": "trichlorfon",
+    "rdfs:subClassOf": [
+        {
+            "@id": "obo:CHEBI_36683"
+        },
+        {
+            "@id": "obo:CHEBI_37592"
+        },
+        {
+            "@id": "obo:CHEBI_37735"
+        },
+        {
+            "@id": "b55_genid-00f1db82e1ab437c844115a94dc63e635-bn6908t11f24852"
+        },
+        {
+            "@id": "b55_genid-00f1db82e1ab437c844115a94dc63e635-bn6908t11f33286"
+        },
+        {
+            "@id": "b55_genid-00f1db82e1ab437c844115a94dc63e635-bn6908t11f35443"
+        },
+        {
+            "@id": "b55_genid-00f1db82e1ab437c844115a94dc63e635-bn6908t11f37733"
+        },
+        {
+            "@id": "b55_genid-00f1db82e1ab437c844115a94dc63e635-bn6908t11f38462"
+        }
+    ]
+}

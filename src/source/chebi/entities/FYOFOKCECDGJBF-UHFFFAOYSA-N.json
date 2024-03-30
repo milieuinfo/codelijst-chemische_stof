@@ -1,0 +1,39 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_30251",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "chebi:charge": "0",
+    "chebi:formula": "C5FeO5",
+    "chebi:inchi": "InChI=1S/5CO.Fe/c5*1-2;",
+    "chebi:inchikey": "FYOFOKCECDGJBF-UHFFFAOYSA-N",
+    "chebi:smiles": "[O]#C[Fe](C#[O])(C#[O])(C#[O])C#[O]",
+    "geneontology:hasDbXref": [
+        "CAS:13463-40-6",
+        "Gmelin:3567",
+        "Gmelin:3568",
+        "MolBase:49"
+    ],
+    "geneontology:hasId": "30251",
+    "geneontology:hasSynonym": [
+        "[Fe(CO)5]",
+        "iron pentacarbonyl",
+        "pentacarbonyliron(0)"
+    ],
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#3_STAR"
+    },
+    "rdfs:label": "pentacarbonyliron",
+    "rdfs:subClassOf": [
+        {
+            "@id": "obo:CHEBI_33892"
+        },
+        {
+            "@id": "obo:CHEBI_36604"
+        }
+    ]
+}

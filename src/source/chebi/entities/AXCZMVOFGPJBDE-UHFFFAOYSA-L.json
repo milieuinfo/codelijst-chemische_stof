@@ -1,0 +1,47 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_31341",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "chebi:charge": "0",
+    "chebi:inchi": "InChI=1S/Ca.2H2O/h;2*1H2/q+2;;/p-2",
+    "chebi:inchikey": "AXCZMVOFGPJBDE-UHFFFAOYSA-L",
+    "chebi:smiles": "[OH-].[OH-].[Ca++]",
+    "geneontology:hasDbXref": [
+        "CAS:1305-62-0",
+        "Gmelin:846915",
+        "KEGG:C12277",
+        "KEGG:D01083",
+        "PPDB:110"
+    ],
+    "geneontology:hasId": "31341",
+    "geneontology:hasSynonym": [
+        "Ca(OH)2",
+        "calcium(2+) hydroxide",
+        "calcium(II) hydroxide",
+        "calcium hydrate",
+        "Calcium hydroxide",
+        "geloeschter Kalk",
+        "hydralime",
+        "hydrated lime",
+        "Kalziumhydroxid",
+        "Loeschkalk",
+        "slaked lime"
+    ],
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#3_STAR"
+    },
+    "rdfs:label": "calcium dihydroxide",
+    "rdfs:subClassOf": [
+        {
+            "@id": "obo:CHEBI_35150"
+        },
+        {
+            "@id": "b87_genid-00f1db82e1ab437c844115a94dc63e635-bn31341t11f74783"
+        }
+    ]
+}

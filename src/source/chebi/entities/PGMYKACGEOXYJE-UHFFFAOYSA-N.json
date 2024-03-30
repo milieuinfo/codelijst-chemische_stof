@@ -1,0 +1,41 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_87362",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "obo:IAO_0000115": "An acetate ester of pentanol.",
+    "chebi:charge": "0",
+    "chebi:formula": "C7H14O2",
+    "chebi:inchi": "InChI=1S/C7H14O2/c1-3-4-5-6-9-7(2)8/h3-6H2,1-2H3",
+    "chebi:inchikey": "PGMYKACGEOXYJE-UHFFFAOYSA-N",
+    "chebi:smiles": "CCCCCOC(C)=O",
+    "http://purl.uniprot.org/core/name": "pentyl acetate",
+    "geneontology:hasDbXref": [
+        "CAS:628-63-7",
+        "Reaxys:1744753"
+    ],
+    "geneontology:hasId": "87362",
+    "geneontology:hasSynonym": [
+        "amyl acetate",
+        "Amyl acetic ester"
+    ],
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#3_STAR"
+    },
+    "rdfs:label": "pentyl acetate",
+    "rdfs:subClassOf": [
+        {
+            "@id": "obo:CHEBI_47622"
+        },
+        {
+            "@id": "b89_genid-00f1db82e1ab437c844115a94dc63e635-bn87362t11f25212"
+        },
+        {
+            "@id": "b89_genid-00f1db82e1ab437c844115a94dc63e635-bn87362t8f44884"
+        }
+    ]
+}

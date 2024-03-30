@@ -1,0 +1,42 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_28119",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "chebi:charge": "0",
+    "chebi:formula": "C12H4Cl4O2",
+    "chebi:inchi": "InChI=1S/C12H4Cl4O2/c13-5-1-9-10(2-6(5)14)18-12-4-8(16)7(15)3-11(12)17-9/h1-4H",
+    "chebi:inchikey": "HGUFODBRKLSHSI-UHFFFAOYSA-N",
+    "chebi:smiles": "Clc1cc2Oc3cc(Cl)c(Cl)cc3Oc2cc1Cl",
+    "geneontology:hasDbXref": [
+        "Beilstein:271116",
+        "CAS:1746-01-6",
+        "Gmelin:366537",
+        "KEGG:C07557",
+        "LINCS:LSM-37232",
+        "Wikipedia:2,3,7,8-Tetrachlorodibenzo-P-Dioxin"
+    ],
+    "geneontology:hasId": "28119",
+    "geneontology:hasSynonym": [
+        "2,3,7,8-Tetrachlorodibenzodioxin",
+        "2,3,7,8-Tetrachlorodibenzo-p-dioxin",
+        "2,3,7,8-tetrachlorooxanthrene",
+        "Dioxin",
+        "dioxine",
+        "PCDD 48",
+        "TCDD",
+        "Tetrachlorodibenzodioxin",
+        "tetradioxin"
+    ],
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#3_STAR"
+    },
+    "rdfs:label": "2,3,7,8-tetrachlorodibenzodioxine",
+    "rdfs:subClassOf": {
+        "@id": "obo:CHEBI_36682"
+    }
+}

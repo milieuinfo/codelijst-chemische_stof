@@ -1,0 +1,85 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_28938",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "obo:IAO_0000115": "An onium cation obtained by protonation of ammonia.",
+    "chebi:charge": "+1",
+    "chebi:formula": "H4N",
+    "chebi:inchi": "InChI=1S/H3N/h1H3/p+1",
+    "chebi:inchikey": "QGZKDVFQNNGYKY-UHFFFAOYSA-O",
+    "chebi:smiles": "[H][N+]([H])([H])[H]",
+    "http://purl.uniprot.org/core/name": "NH4(+)",
+    "geneontology:hasDbXref": [
+        "PMID:18515490",
+        "CAS:14798-03-9",
+        "Gmelin:84",
+        "KEGG:C01342",
+        "MetaCyc:AMMONIUM",
+        "MolBase:929",
+        "PDBeChem:NH4",
+        "PMID:11319011",
+        "PMID:11341317",
+        "PMID:12096804",
+        "PMID:14512268",
+        "PMID:14879753",
+        "PMID:16345391",
+        "PMID:16903292",
+        "PMID:17392693",
+        "PMID:19199063",
+        "PMID:19596600",
+        "PMID:19682559",
+        "PMID:19716251",
+        "PMID:21993530",
+        "PMID:22265469",
+        "PMID:22524020",
+        "PMID:22562341",
+        "PMID:22631217",
+        "Reaxys:16093784",
+        "Wikipedia:Ammonium"
+    ],
+    "geneontology:hasId": "28938",
+    "geneontology:hasSynonym": [
+        "NH4(+)",
+        "[NH4](+)",
+        "Ammonium(1+)",
+        "ammonium cation",
+        "ammonium ion",
+        "azanium",
+        "NH4+"
+    ],
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#3_STAR"
+    },
+    "rdfs:label": "ammonium",
+    "rdfs:subClassOf": [
+        {
+            "@id": "obo:CHEBI_50313"
+        },
+        {
+            "@id": "obo:CHEBI_60242"
+        },
+        {
+            "@id": "obo:CHEBI_35106"
+        },
+        {
+            "@id": "b228_genid-00f1db82e1ab437c844115a94dc63e635-bn28938t4f16134"
+        },
+        {
+            "@id": "b228_genid-00f1db82e1ab437c844115a94dc63e635-bn28938t11f23357"
+        },
+        {
+            "@id": "b228_genid-00f1db82e1ab437c844115a94dc63e635-bn28938t11f75772"
+        },
+        {
+            "@id": "b228_genid-00f1db82e1ab437c844115a94dc63e635-bn28938t11f76971"
+        },
+        {
+            "@id": "b228_genid-00f1db82e1ab437c844115a94dc63e635-bn28938t11f77746"
+        }
+    ]
+}

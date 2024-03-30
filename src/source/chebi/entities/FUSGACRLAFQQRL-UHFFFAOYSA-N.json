@@ -1,0 +1,70 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_23995",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "obo:IAO_0000115": "A member of the class of N-nitrosoureas that is urea in which one of the nitrogens is substituted by ethyl and nitroso groups.",
+    "chebi:charge": "0",
+    "chebi:formula": "C3H7N3O2",
+    "chebi:inchi": "InChI=1S/C3H7N3O2/c1-2-6(5-8)3(4)7/h2H2,1H3,(H2,4,7)",
+    "chebi:inchikey": "FUSGACRLAFQQRL-UHFFFAOYSA-N",
+    "chebi:smiles": "CCN(N=O)C(N)=O",
+    "geneontology:hasDbXref": [
+        "Beilstein:1761174",
+        "CAS:759-73-9",
+        "KEGG:C19178",
+        "PMID:11732210",
+        "PMID:11853764",
+        "PMID:11880538",
+        "PMID:16423555",
+        "PMID:21861612",
+        "PMID:22012195",
+        "PMID:22238669",
+        "PMID:23551873",
+        "PMID:24175309",
+        "PMID:8603364",
+        "Reaxys:1761174",
+        "Wikipedia:ENU"
+    ],
+    "geneontology:hasId": "23995",
+    "geneontology:hasSynonym": [
+        "1-(Aminocarbonyl)-1-ethyl-2-oxohydrazine",
+        "1-ethyl-1-nitrosourea",
+        "1-Ethyl-1-nitrosourea",
+        "Aethylnitroso-harnstoff",
+        "ENU",
+        "Ethyl nitrosourea",
+        "N-Ethylnitrosourea",
+        "N-Ethyl-N-nitroso carbamide",
+        "N-Ethyl-N-nitroso-urea",
+        "NEU"
+    ],
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#3_STAR"
+    },
+    "rdfs:label": "N-ethyl-N-nitrosourea",
+    "rdfs:subClassOf": [
+        {
+            "@id": "obo:CHEBI_76551"
+        },
+        {
+            "@id": "b249_genid-00f1db82e1ab437c844115a94dc63e635-bn23995t8f16199"
+        },
+        {
+            "@id": "b249_genid-00f1db82e1ab437c844115a94dc63e635-bn23995t11f22333"
+        },
+        {
+            "@id": "b249_genid-00f1db82e1ab437c844115a94dc63e635-bn23995t11f25435"
+        },
+        {
+            "@id": "b249_genid-00f1db82e1ab437c844115a94dc63e635-bn23995t11f50902"
+        },
+        {
+            "@id": "b249_genid-00f1db82e1ab437c844115a94dc63e635-bn23995t11f50903"
+        }
+    ]
+}

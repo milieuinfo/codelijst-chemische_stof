@@ -1,0 +1,28 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_3608",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "chebi:charge": "0",
+    "chebi:formula": "C9H10BrClN2O2",
+    "chebi:inchi": "InChI=1S/C9H10BrClN2O2/c1-13(15-2)9(14)12-6-3-4-7(10)8(11)5-6/h3-5H,1-2H3,(H,12,14)",
+    "chebi:inchikey": "NLYNUTMZTCLNOO-UHFFFAOYSA-N",
+    "chebi:smiles": "CON(C)C(=O)Nc1ccc(Br)c(Cl)c1",
+    "geneontology:hasDbXref": [
+        "CAS:13360-45-7",
+        "KEGG:C11009",
+        "PPDB:132"
+    ],
+    "geneontology:hasId": "3608",
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#2_STAR"
+    },
+    "rdfs:label": "Chlorbromuron",
+    "rdfs:subClassOf": {
+        "@id": "obo:CHEBI_47857"
+    }
+}

@@ -1,0 +1,44 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_1800",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "obo:IAO_0000115": "A member of the class of phenols that is o-cresol in which the hydrogen para to the hydroxy group is replaced by a chlorine.",
+    "chebi:charge": "0",
+    "chebi:formula": "C7H7ClO",
+    "chebi:inchi": "InChI=1S/C7H7ClO/c1-5-4-6(8)2-3-7(5)9/h2-4,9H,1H3",
+    "chebi:inchikey": "RHPUJHQBPORFGV-UHFFFAOYSA-N",
+    "chebi:smiles": "Cc1cc(Cl)ccc1O",
+    "http://purl.uniprot.org/core/name": "2-methyl-4-chlorophenol",
+    "geneontology:hasDbXref": [
+        "CAS:1570-64-5",
+        "KEGG:C03359"
+    ],
+    "geneontology:hasId": "1800",
+    "geneontology:hasSynonym": [
+        "2-methyl-4-chlorophenol",
+        "4-Chloro-2-cresol",
+        "4-Chloro-2-methylphenol",
+        "4-Chloro-o-cresol",
+        "p-Chloro-o-cresol"
+    ],
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#3_STAR"
+    },
+    "rdfs:label": "4-chloro-2-methylphenol",
+    "rdfs:subClassOf": [
+        {
+            "@id": "obo:CHEBI_33853"
+        },
+        {
+            "@id": "obo:CHEBI_83403"
+        },
+        {
+            "@id": "b53_genid-00f1db82e1ab437c844115a94dc63e635-bn1800t8f28054"
+        }
+    ]
+}

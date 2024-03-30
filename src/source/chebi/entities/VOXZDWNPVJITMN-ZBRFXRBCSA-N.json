@@ -1,0 +1,90 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_16469",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "obo:IAO_0000115": "The 17beta-isomer of estradiol.",
+    "chebi:charge": "0",
+    "chebi:formula": "C18H24O2",
+    "chebi:inchi": "InChI=1S/C18H24O2/c1-18-9-8-14-13-5-3-12(19)10-11(13)2-4-15(14)16(18)6-7-17(18)20/h3,5,10,14-17,19-20H,2,4,6-9H2,1H3/t14-,15-,16+,17+,18+/m1/s1",
+    "chebi:inchikey": "VOXZDWNPVJITMN-ZBRFXRBCSA-N",
+    "chebi:smiles": "[H][C@]12CC[C@]3(C)[C@@H](O)CC[C@@]3([H])[C@]1([H])CCc1cc(O)ccc21",
+    "http://purl.uniprot.org/core/name": "17beta-estradiol",
+    "geneontology:hasDbXref": [
+        "PMID:3621671",
+        "PMID:24134630",
+        "PMID:10438974",
+        "PMID:14681337",
+        "Beilstein:1914275",
+        "CAS:50-28-2",
+        "Chemspider:5554",
+        "Drug_Central:1057",
+        "DrugBank:DB00783",
+        "Gmelin:290805",
+        "HMDB:HMDB0000151",
+        "KEGG:C00951",
+        "KEGG:D00105",
+        "LINCS:LSM-2421",
+        "LIPID_MAPS_instance:LMST02010001",
+        "PDBeChem:EST",
+        "PMID:10585175",
+        "PMID:10843196",
+        "PMID:11703424",
+        "PMID:16313478",
+        "PMID:17124377",
+        "PMID:1777462",
+        "PMID:23901460",
+        "PMID:24449492",
+        "PMID:8098802",
+        "PMID:8567793",
+        "Reaxys:1914275",
+        "Wikipedia:Estradiol"
+    ],
+    "geneontology:hasId": "16469",
+    "geneontology:hasSynonym": [
+        "(17beta)-estra-1,3,5(10)-triene-3,17-diol",
+        "17beta-estra-1,3,5(10)-triene-3,17-diol",
+        "17beta oestradiol",
+        "17beta-oestradiol",
+        "beta-Estradiol",
+        "cis-estradiol",
+        "estra-1,3,5(10)-triene-3,17beta-diol",
+        "Estradiol",
+        "ESTRADIOL",
+        "Estradiol-17beta"
+    ],
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#3_STAR"
+    },
+    "rdfs:label": "17beta-estradiol",
+    "rdfs:subClassOf": [
+        {
+            "@id": "obo:CHEBI_35343"
+        },
+        {
+            "@id": "obo:CHEBI_23965"
+        },
+        {
+            "@id": "b63_genid-00f1db82e1ab437c844115a94dc63e635-bn16469t11f50114"
+        },
+        {
+            "@id": "b63_genid-00f1db82e1ab437c844115a94dc63e635-bn16469t11f62872"
+        },
+        {
+            "@id": "b63_genid-00f1db82e1ab437c844115a94dc63e635-bn16469t11f75771"
+        },
+        {
+            "@id": "b63_genid-00f1db82e1ab437c844115a94dc63e635-bn16469t11f77746"
+        },
+        {
+            "@id": "b63_genid-00f1db82e1ab437c844115a94dc63e635-bn16469t11f83056"
+        },
+        {
+            "@id": "b63_genid-00f1db82e1ab437c844115a94dc63e635-bn16469t11f176497"
+        }
+    ]
+}

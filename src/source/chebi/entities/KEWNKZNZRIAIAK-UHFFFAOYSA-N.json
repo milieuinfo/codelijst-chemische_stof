@@ -1,0 +1,42 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_52048",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "obo:IAO_0000115": "The 2,3,5,6-isomer of tetrachlorophenol",
+    "chebi:charge": "0",
+    "chebi:formula": "C6H2Cl4O",
+    "chebi:inchi": "InChI=1S/C6H2Cl4O/c7-2-1-3(8)5(10)6(11)4(2)9/h1,11H",
+    "chebi:inchikey": "KEWNKZNZRIAIAK-UHFFFAOYSA-N",
+    "chebi:smiles": "Oc1c(Cl)c(Cl)cc(Cl)c1Cl",
+    "geneontology:hasDbXref": [
+        "Beilstein:2049586",
+        "CAS:935-95-5",
+        "KEGG:C15505"
+    ],
+    "geneontology:hasId": "52048",
+    "geneontology:hasSynonym": [
+        "2,3,5,6-TeCP",
+        "2,3,5,6-Tetrachlorophenate",
+        "2,3,5,6-Tetrachloro phenol"
+    ],
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#3_STAR"
+    },
+    "rdfs:label": "2,3,5,6-tetrachlorophenol",
+    "rdfs:subClassOf": [
+        {
+            "@id": "b232_genid-00f1db82e1ab437c844115a94dc63e635-bn52048tmms73f59815"
+        },
+        {
+            "@id": "obo:CHEBI_52049"
+        },
+        {
+            "@id": "b232_genid-00f1db82e1ab437c844115a94dc63e635-bn52048t4f59815"
+        }
+    ]
+}

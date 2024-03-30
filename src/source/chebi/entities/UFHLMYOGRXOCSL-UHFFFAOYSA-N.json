@@ -1,0 +1,72 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_6047",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "obo:IAO_0000115": "A malonate ester that is diisopropyl malonate in which the two methylene hydrogens at position 2 are replaced by a 1,3-dithiolan-2-ylidene group. An insecticide and fungicide used to control a range of diseases including Pyricularia oryzae, Helminthosporium sigmoideum and Fusarium nivale.",
+    "chebi:charge": "0",
+    "chebi:formula": "C12H18O4S2",
+    "chebi:inchi": "InChI=1S/C12H18O4S2/c1-7(2)15-10(13)9(11(14)16-8(3)4)12-17-5-6-18-12/h7-8H,5-6H2,1-4H3",
+    "chebi:inchikey": "UFHLMYOGRXOCSL-UHFFFAOYSA-N",
+    "chebi:smiles": "CC(C)OC(=O)C(C(=O)OC(C)C)=C1SCCS1",
+    "geneontology:hasDbXref": [
+        "Beilstein:2128528",
+        "CAS:50512-35-1",
+        "HMDB:HMDB0031779",
+        "KEGG:C11111",
+        "Pesticides:isoprothiolane",
+        "PMID:19757109",
+        "PMID:23500396",
+        "PMID:23537300",
+        "PMID:24617140",
+        "PMID:2927019",
+        "PPDB:408",
+        "Reaxys:2128528"
+    ],
+    "geneontology:hasId": "6047",
+    "geneontology:hasSynonym": [
+        "bis(1-methylethyl) 1,3-dithiolan-2-ylidenepropanedioate",
+        "di(propan-2-yl) 1,3-dithiolan-2-ylidenemalonate",
+        "diisopropyl 1,3-dithiolan-2-ylidenemalonate",
+        "di-isopropyl 1,3-dithiolane-2-ylidenemalonate",
+        "diisopropyl 2-(1,3-dithiolan-2-ylidene)malonate",
+        "Isoprothiolane"
+    ],
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#3_STAR"
+    },
+    "rdfs:label": "isoprothiolane",
+    "rdfs:subClassOf": [
+        {
+            "@id": "obo:CHEBI_35725"
+        },
+        {
+            "@id": "b308_genid-00f1db82e1ab437c844115a94dc63e635-bn6047t11f24852"
+        },
+        {
+            "@id": "b308_genid-00f1db82e1ab437c844115a94dc63e635-bn6047t8f30794"
+        },
+        {
+            "@id": "b308_genid-00f1db82e1ab437c844115a94dc63e635-bn6047t9f38079"
+        },
+        {
+            "@id": "obo:CHEBI_38083"
+        },
+        {
+            "@id": "obo:CHEBI_39192"
+        },
+        {
+            "@id": "b308_genid-00f1db82e1ab437c844115a94dc63e635-bn6047t11f78298"
+        },
+        {
+            "@id": "b308_genid-00f1db82e1ab437c844115a94dc63e635-bn6047t11f83741"
+        },
+        {
+            "@id": "b308_genid-00f1db82e1ab437c844115a94dc63e635-bn6047t11f86328"
+        }
+    ]
+}

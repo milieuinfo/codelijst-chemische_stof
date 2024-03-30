@@ -1,0 +1,57 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_90112",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "obo:IAO_0000115": "An organic sodium salt having 3-[(ethyl{4-[(4-{ethyl[(3-sulfonatophenyl)methyl]amino}phenyl)(phenyl)methylidene]cyclohexa-2,5-dien-1-ylidene}azaniumyl)methyl]benzene-1-sulfonate. Used as a substitute for Light green SF yellowish in Masson's trichrome, although it is prone to fade. Previously used as a food dye but is now no longer approved.",
+    "chebi:charge": "0",
+    "chebi:formula": "C37H35N2NaO6S2",
+    "chebi:inchi": "InChI=1S/C37H36N2O6S2.Na/c1-3-38(26-28-10-8-14-35(24-28)46(40,41)42)33-20-16-31(17-21-33)37(30-12-6-5-7-13-30)32-18-22-34(23-19-32)39(4-2)27-29-11-9-15-36(25-29)47(43,44)45;/h5-25H,3-4,26-27H2,1-2H3,(H-,40,41,42,43,44,45);/q;+1/p-1",
+    "chebi:inchikey": "XKTMIJODWOEBKO-UHFFFAOYSA-M",
+    "chebi:smiles": "[Na+].C/1(=C(/C2=CC=C(C=C2)N(CC)CC3=CC(=CC=C3)S([O-])(=O)=O)\\C4=CC=CC=C4)\\C=C/C(=[N+](\\CC5=CC(=CC=C5)S([O-])(=O)=O)/CC)/C=C1",
+    "geneontology:hasDbXref": [
+        "CAS:4680-78-8",
+        "PMID:2673559",
+        "Reaxys:18635422",
+        "Reaxys:5716108"
+    ],
+    "geneontology:hasId": "90112",
+    "geneontology:hasSynonym": [
+        "C.I. Acid Green 3",
+        "Acid green 3",
+        "C.I. 42085",
+        "C.I. Acid Green 3, monosodium salt",
+        "C.I. Acid Green 3, sodium salt",
+        "C.I. Food Green 1",
+        "FD and C green No. 1",
+        "guinea green B",
+        "Guinee green",
+        "guinia green B",
+        "sodium 3-[(ethyl{4-[(4-{ethyl[(3-sulfonatophenyl)methyl]amino}phenyl)(phenyl)methylidene]cyclohexa-2,5-dien-1-ylidene}azaniumyl)methyl]benzene-1-sulfonate"
+    ],
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#3_STAR"
+    },
+    "rdfs:label": "Guinee green B",
+    "rdfs:subClassOf": [
+        {
+            "@id": "obo:CHEBI_38700"
+        },
+        {
+            "@id": "b316_genid-00f1db82e1ab437c844115a94dc63e635-bn90112t11f51217"
+        },
+        {
+            "@id": "b316_genid-00f1db82e1ab437c844115a94dc63e635-bn90112t11f77178"
+        },
+        {
+            "@id": "b316_genid-00f1db82e1ab437c844115a94dc63e635-bn90112t11f77182"
+        },
+        {
+            "@id": "b316_genid-00f1db82e1ab437c844115a94dc63e635-bn90112t10f90115"
+        }
+    ]
+}

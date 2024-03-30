@@ -1,0 +1,138 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@graph": [
+        {
+            "@id": "obo:CHEBI_16199",
+            "@type": "http://www.w3.org/2002/07/owl#Class",
+            "obo:IAO_0000115": "A carbonyl group with two C-bound amine groups. The commercially available fertilizer has an analysis of 46-0-0 (N-P2O5-K2O).",
+            "chebi:charge": "0",
+            "chebi:formula": "CH4N2O",
+            "chebi:inchi": "InChI=1S/CH4N2O/c2-1(3)4/h(H4,2,3,4)",
+            "chebi:inchikey": "XSQUKJJJFZCRTK-UHFFFAOYSA-N",
+            "chebi:smiles": "NC(N)=O",
+            "http://purl.uniprot.org/core/name": "urea",
+            "geneontology:hasDbXref": [
+                "PMID:22770225",
+                "Beilstein:635724",
+                "CAS:57-13-6",
+                "Drug_Central:4264",
+                "DrugBank:DB03904",
+                "ECMDB:ECMDB04172",
+                "Gmelin:1378",
+                "HMDB:HMDB0000294",
+                "KEGG:C00086",
+                "KEGG:D00023",
+                "KNApSAcK:C00007314",
+                "MetaCyc:UREA",
+                "PDBeChem:URE",
+                "PMID:18037357",
+                "PPDB:1728",
+                "Reaxys:635724",
+                "UM-BBD_compID:c0165",
+                "Wikipedia:Urea",
+                "YMDB:YMDB00003"
+            ],
+            "geneontology:hasId": "16199",
+            "geneontology:hasSynonym": [
+                "1728",
+                "carbamide",
+                "Carbamide",
+                "carbonyldiamide",
+                "E927b",
+                "H2NC(O)NH2",
+                "Harnstoff",
+                "Karbamid",
+                "ur",
+                "Urea",
+                "UREA",
+                "uree"
+            ],
+            "geneontology:inSubset": {
+                "@id": "obo:chebi#3_STAR"
+            },
+            "rdfs:label": "urea",
+            "rdfs:subClassOf": [
+                {
+                    "@id": "obo:CHEBI_29347"
+                },
+                {
+                    "@id": "obo:CHEBI_64708"
+                },
+                {
+                    "@id": "b14_genid-00f1db82e1ab437c844115a94dc63e635-bn16199t8f28976"
+                },
+                {
+                    "@id": "b14_genid-00f1db82e1ab437c844115a94dc63e635-bn16199t11f33287"
+                },
+                {
+                    "@id": "b14_genid-00f1db82e1ab437c844115a94dc63e635-bn16199t7f48376"
+                },
+                {
+                    "@id": "b14_genid-00f1db82e1ab437c844115a94dc63e635-bn16199t11f64577"
+                },
+                {
+                    "@id": "b14_genid-00f1db82e1ab437c844115a94dc63e635-bn16199t11f75771"
+                },
+                {
+                    "@id": "b14_genid-00f1db82e1ab437c844115a94dc63e635-bn16199t11f75772"
+                },
+                {
+                    "@id": "b14_genid-00f1db82e1ab437c844115a94dc63e635-bn16199t11f76971"
+                },
+                {
+                    "@id": "b14_genid-00f1db82e1ab437c844115a94dc63e635-bn16199t11f77746"
+                },
+                {
+                    "@id": "b14_genid-00f1db82e1ab437c844115a94dc63e635-bn16199t11f83056"
+                }
+            ]
+        },
+        {
+            "@id": "obo:CHEBI_48376",
+            "@type": "http://www.w3.org/2002/07/owl#Class",
+            "chebi:charge": "0",
+            "chebi:formula": "CH4N2O",
+            "chebi:inchi": "InChI=1S/CH4N2O/c2-1(3)4/h(H4,2,3,4)",
+            "chebi:inchikey": "XSQUKJJJFZCRTK-UHFFFAOYSA-N",
+            "chebi:smiles": "NC(O)=N",
+            "geneontology:hasDbXref": [
+                "Beilstein:773698",
+                "CAS:4744-36-9"
+            ],
+            "geneontology:hasId": "48376",
+            "geneontology:hasSynonym": [
+                "isourea",
+                "carbamimic acid",
+                "carbonamidimidic acid",
+                "H2N-C(=NH)-OH",
+                "H2N-C(OH)=NH",
+                "HO-C(=NH)-NH2",
+                "Isoharnstoff",
+                "pseudourea"
+            ],
+            "geneontology:inSubset": {
+                "@id": "obo:chebi#3_STAR"
+            },
+            "rdfs:label": "carbamimidic acid",
+            "rdfs:subClassOf": [
+                {
+                    "@id": "obo:CHEBI_64708"
+                },
+                {
+                    "@id": "obo:CHEBI_48379"
+                },
+                {
+                    "@id": "b14_genid-00f1db82e1ab437c844115a94dc63e635-bn48376tmms73f16199"
+                },
+                {
+                    "@id": "b14_genid-00f1db82e1ab437c844115a94dc63e635-bn48376t7f16199"
+                }
+            ]
+        }
+    ]
+}

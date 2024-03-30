@@ -1,0 +1,58 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_42263",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "obo:IAO_0000115": "A diether that is the 1,2-dimethyl ether of ethane-1,2-diol.",
+    "chebi:charge": "0",
+    "chebi:formula": "C4H10O2",
+    "chebi:inchi": "InChI=1S/C4H10O2/c1-5-3-4-6-2/h3-4H2,1-2H3",
+    "chebi:inchikey": "XTHFKEDIFFGKHM-UHFFFAOYSA-N",
+    "chebi:smiles": "COCCOC",
+    "geneontology:hasDbXref": [
+        "Beilstein:1209237",
+        "CAS:110-71-4",
+        "Gmelin:1801",
+        "PDBeChem:DXE",
+        "PMID:15515094",
+        "PMID:18465765",
+        "Reaxys:1209237",
+        "Wikipedia:1,2-dimethoxyethane"
+    ],
+    "geneontology:hasId": "42263",
+    "geneontology:hasSynonym": [
+        "DME",
+        "1,2-Dimethoxyethan",
+        "1,2-DIMETHOXYETHANE",
+        "2,5-dioxahexane",
+        "alpha,beta-dimethoxyethane",
+        "CH3OCH2CH2OCH3",
+        "Dimethyl Cellosolve",
+        "dme",
+        "Egdme",
+        "ethylene glycol dimethyl ether",
+        "Ethylenglycoldimethylether",
+        "Ethylenglykoldimethylether",
+        "glyme",
+        "monoglyme"
+    ],
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#3_STAR"
+    },
+    "rdfs:label": "1,2-dimethoxyethane",
+    "rdfs:subClassOf": [
+        {
+            "@id": "obo:CHEBI_46786"
+        },
+        {
+            "@id": "b19_genid-00f1db82e1ab437c844115a94dc63e635-bn42263t8f30742"
+        },
+        {
+            "@id": "b19_genid-00f1db82e1ab437c844115a94dc63e635-bn42263t11f48355"
+        }
+    ]
+}

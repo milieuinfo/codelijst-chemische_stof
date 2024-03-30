@@ -1,0 +1,33 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_33324",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "chebi:charge": "0",
+    "chebi:formula": "Sr",
+    "chebi:inchi": "InChI=1S/Sr",
+    "chebi:inchikey": "CIOAGBVUUVVLOB-UHFFFAOYSA-N",
+    "chebi:smiles": "[Sr]",
+    "geneontology:hasDbXref": [
+        "CAS:7440-24-6",
+        "WebElements:Sr"
+    ],
+    "geneontology:hasId": "33324",
+    "geneontology:hasSynonym": [
+        "Sr",
+        "38Sr",
+        "estroncio",
+        "strontium"
+    ],
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#3_STAR"
+    },
+    "rdfs:label": "strontium atom",
+    "rdfs:subClassOf": {
+        "@id": "obo:CHEBI_22313"
+    }
+}

@@ -1,0 +1,95 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_28875",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "obo:IAO_0000115": "A straight-chain, fourteen-carbon, long-chain saturated fatty acid mostly found in milk fat.",
+    "chebi:charge": "0",
+    "chebi:formula": "C14H28O2",
+    "chebi:inchi": "InChI=1S/C14H28O2/c1-2-3-4-5-6-7-8-9-10-11-12-13-14(15)16/h2-13H2,1H3,(H,15,16)",
+    "chebi:inchikey": "TUNFSRHWOTWDNC-UHFFFAOYSA-N",
+    "chebi:smiles": "CCCCCCCCCCCCCC(O)=O",
+    "geneontology:hasDbXref": [
+        "PMID:15149689",
+        "PMID:16509590",
+        "PMID:28600633",
+        "PMID:20920594",
+        "PMID:19761868",
+        "Beilstein:508624",
+        "CAS:544-63-8",
+        "DrugBank:DB08231",
+        "Gmelin:242115",
+        "HMDB:HMDB0000806",
+        "KEGG:C06424",
+        "KNApSAcK:C00001228",
+        "LIPID_MAPS_instance:LMFA01010014",
+        "MetaCyc:CPD-7836",
+        "PDBeChem:MYR",
+        "PMID:13129458",
+        "PMID:16554156",
+        "PMID:19154695",
+        "PMID:19786012",
+        "PMID:19902021",
+        "PMID:19955401",
+        "PMID:20634506",
+        "PMID:21955528",
+        "PMID:22030224",
+        "PMID:27206979",
+        "PMID:6802973",
+        "Reaxys:508624",
+        "Wikipedia:Myristic_acid"
+    ],
+    "geneontology:hasId": "28875",
+    "geneontology:hasSynonym": [
+        "14",
+        "14:0",
+        "14:00",
+        "1-tetradecanecarboxylic acid",
+        "acide tetradecanoique",
+        "C14",
+        "CH3-[CH2]12-COOH",
+        "myristic acid",
+        "Myristic acid",
+        "MYRISTIC ACID",
+        "Myristinsaeure",
+        "n-Tetradecan-1-oic acid",
+        "n-tetradecanoic acid",
+        "n-Tetradecoic acid",
+        "Tetradecanoic acid",
+        "tetradecoic acid"
+    ],
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#3_STAR"
+    },
+    "rdfs:label": "tetradecanoic acid",
+    "rdfs:subClassOf": [
+        {
+            "@id": "obo:CHEBI_15904"
+        },
+        {
+            "@id": "obo:CHEBI_39418"
+        },
+        {
+            "@id": "b262_genid-00f1db82e1ab437c844115a94dc63e635-bn28875tmms73f30807"
+        },
+        {
+            "@id": "b262_genid-00f1db82e1ab437c844115a94dc63e635-bn28875t4f30807"
+        },
+        {
+            "@id": "b262_genid-00f1db82e1ab437c844115a94dc63e635-bn28875t11f77746"
+        },
+        {
+            "@id": "b262_genid-00f1db82e1ab437c844115a94dc63e635-bn28875t11f78444"
+        },
+        {
+            "@id": "b262_genid-00f1db82e1ab437c844115a94dc63e635-bn28875t11f83056"
+        },
+        {
+            "@id": "b262_genid-00f1db82e1ab437c844115a94dc63e635-bn28875t11f84735"
+        }
+    ]
+}

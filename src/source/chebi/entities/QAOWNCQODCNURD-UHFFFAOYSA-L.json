@@ -1,0 +1,106 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_16189",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "obo:IAO_0000115": "A sulfur oxoanion obtained by deprotonation of both OH groups of sulfuric acid.",
+    "chebi:charge": "-2",
+    "chebi:formula": "O4S",
+    "chebi:inchi": "InChI=1S/H2O4S/c1-5(2,3)4/h(H2,1,2,3,4)/p-2",
+    "chebi:inchikey": "QAOWNCQODCNURD-UHFFFAOYSA-L",
+    "chebi:smiles": "[O-]S([O-])(=O)=O",
+    "http://purl.uniprot.org/core/name": "sulfate",
+    "geneontology:hasDbXref": [
+        "PMID:17439666",
+        "Beilstein:3648446",
+        "CAS:14808-79-8",
+        "Gmelin:2120",
+        "HMDB:HMDB0001448",
+        "KEGG:C00059",
+        "KEGG:D05963",
+        "MetaCyc:SULFATE",
+        "PDBeChem:SO4",
+        "PMID:11200094",
+        "PMID:11452993",
+        "PMID:11581495",
+        "PMID:11798107",
+        "PMID:12166931",
+        "PMID:12668033",
+        "PMID:14597181",
+        "PMID:15093386",
+        "PMID:15984785",
+        "PMID:16186560",
+        "PMID:16345535",
+        "PMID:16347366",
+        "PMID:16348007",
+        "PMID:16483812",
+        "PMID:16534979",
+        "PMID:16656509",
+        "PMID:16742508",
+        "PMID:16742518",
+        "PMID:17120760",
+        "PMID:17420092",
+        "PMID:17709180",
+        "PMID:18398178",
+        "PMID:18815700",
+        "PMID:18846414",
+        "PMID:19047345",
+        "PMID:19244483",
+        "PMID:19544990",
+        "PMID:19628332",
+        "PMID:19812358",
+        "PMID:30398859",
+        "Reaxys:3648446",
+        "Wikipedia:Sulfate"
+    ],
+    "geneontology:hasId": "16189",
+    "geneontology:hasSynonym": [
+        "[SO4](2-)",
+        "SO4(2-)",
+        "Sulfate",
+        "Sulfate(2-)",
+        "Sulfate anion(2-)",
+        "Sulfate dianion",
+        "SULFATE ION",
+        "Sulfuric acid ion(2-)",
+        "sulphate",
+        "sulphate ion",
+        "tetraoxidosulfate(2-)",
+        "tetraoxosulfate(2-)",
+        "tetraoxosulfate(VI)"
+    ],
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#3_STAR"
+    },
+    "rdfs:label": "sulfate",
+    "rdfs:subClassOf": [
+        {
+            "@id": "obo:CHEBI_33482"
+        },
+        {
+            "@id": "obo:CHEBI_79388"
+        },
+        {
+            "@id": "obo:CHEBI_24834"
+        },
+        {
+            "@id": "obo:CHEBI_48154"
+        },
+        {
+            "@id": "b183_genid-00f1db82e1ab437c844115a94dc63e635-bn16189t11f23357"
+        },
+        {
+            "@id": "b183_genid-00f1db82e1ab437c844115a94dc63e635-bn16189t5f45696"
+        },
+        {
+            "@id": "b183_genid-00f1db82e1ab437c844115a94dc63e635-bn16189t11f75772"
+        },
+        {
+            "@id": "b183_genid-00f1db82e1ab437c844115a94dc63e635-bn16189t11f77746"
+        }
+    ]
+}

@@ -1,0 +1,53 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_50569",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "obo:IAO_0000115": "The acetate ester of isobutanol.",
+    "chebi:charge": "0",
+    "chebi:formula": "C6H12O2",
+    "chebi:inchi": "InChI=1S/C6H12O2/c1-5(2)4-8-6(3)7/h5H,4H2,1-3H3",
+    "chebi:inchikey": "GJRQTCIYDGXPES-UHFFFAOYSA-N",
+    "chebi:smiles": "CC(C)COC(C)=O",
+    "geneontology:hasDbXref": [
+        "Beilstein:1741909",
+        "CAS:110-19-0",
+        "Gmelin:101394",
+        "Reaxys:1741909",
+        "Wikipedia:Isobutyl_acetate"
+    ],
+    "geneontology:hasId": "50569",
+    "geneontology:hasSynonym": [
+        "2-methyl-1-propyl acetate",
+        "2-methylpropyl acetate",
+        "2-methylpropyl ethanoate",
+        "acetate d'isobutyle",
+        "acetic acid, 2-methylpropyl ester",
+        "acetic acid, isobutyl ester",
+        "beta-methylpropyl ethanoate",
+        "Essigsaeureisobutylester",
+        "i-butyl acetate",
+        "Isobutylacetat",
+        "Isobutylazetat",
+        "isobutyl ethanoate"
+    ],
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#3_STAR"
+    },
+    "rdfs:label": "isobutyl acetate",
+    "rdfs:subClassOf": [
+        {
+            "@id": "obo:CHEBI_47622"
+        },
+        {
+            "@id": "b313_genid-00f1db82e1ab437c844115a94dc63e635-bn50569t8f46645"
+        },
+        {
+            "@id": "b313_genid-00f1db82e1ab437c844115a94dc63e635-bn50569t11f75772"
+        }
+    ]
+}

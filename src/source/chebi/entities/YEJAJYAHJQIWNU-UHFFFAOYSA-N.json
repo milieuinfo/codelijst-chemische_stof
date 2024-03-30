@@ -1,0 +1,60 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_2951",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "obo:IAO_0000115": "The hydrochloride salt of azelastine.",
+    "chebi:charge": "0",
+    "chebi:inchi": "InChI=1S/C22H24ClN3O.ClH/c1-25-13-4-5-18(12-14-25)26-22(27)20-7-3-2-6-19(20)21(24-26)15-16-8-10-17(23)11-9-16;/h2-3,6-11,18H,4-5,12-15H2,1H3;1H",
+    "chebi:inchikey": "YEJAJYAHJQIWNU-UHFFFAOYSA-N",
+    "chebi:smiles": "Cl.CN1CCCC(CC1)n1nc(Cc2ccc(Cl)cc2)c2ccccc2c1=O",
+    "geneontology:hasDbXref": [
+        "DrugBank:DB00972",
+        "Beilstein:4834474",
+        "CAS:79307-93-0",
+        "KEGG:D00659"
+    ],
+    "geneontology:hasId": "2951",
+    "geneontology:hasSynonym": [
+        "azelastine",
+        "azelastina",
+        "azelastinum",
+        "4-(4-chlorobenzyl)-2-(1-methylazepan-4-yl)phthalazin-1(2H)-one hydrochloride",
+        "4-(p-Chlorobenzyl)-2-(hexahydro-1-methyl-1H-azepin-4-yl)-1(2H)-phthalazinone monohydrochloride",
+        "Azelastine HCl"
+    ],
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#3_STAR"
+    },
+    "rdfs:label": "azelastine hydrochloride",
+    "rdfs:subClassOf": [
+        {
+            "@id": "obo:CHEBI_36807"
+        },
+        {
+            "@id": "b388_genid-00f1db82e1ab437c844115a94dc63e635-bn2951t10f2950"
+        },
+        {
+            "@id": "b388_genid-00f1db82e1ab437c844115a94dc63e635-bn2951t11f35523"
+        },
+        {
+            "@id": "b388_genid-00f1db82e1ab437c844115a94dc63e635-bn2951t11f37955"
+        },
+        {
+            "@id": "b388_genid-00f1db82e1ab437c844115a94dc63e635-bn2951t11f49167"
+        },
+        {
+            "@id": "b388_genid-00f1db82e1ab437c844115a94dc63e635-bn2951t11f50427"
+        },
+        {
+            "@id": "b388_genid-00f1db82e1ab437c844115a94dc63e635-bn2951t11f50857"
+        },
+        {
+            "@id": "b388_genid-00f1db82e1ab437c844115a94dc63e635-bn2951t11f64964"
+        }
+    ]
+}

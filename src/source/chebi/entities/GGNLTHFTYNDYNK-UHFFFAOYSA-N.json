@@ -1,0 +1,28 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_82144",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "chebi:charge": "0",
+    "chebi:formula": "C11H15Cl2O2PS3",
+    "chebi:inchi": "InChI=1S/C11H15Cl2O2PS3/c1-3-14-16(17,15-4-2)19-8-18-11-7-9(12)5-6-10(11)13/h5-7H,3-4,8H2,1-2H3",
+    "chebi:inchikey": "GGNLTHFTYNDYNK-UHFFFAOYSA-N",
+    "chebi:smiles": "CCOP(=S)(OCC)SCSc1cc(Cl)ccc1Cl",
+    "geneontology:hasDbXref": [
+        "CAS:2275-14-1",
+        "KEGG:C19010",
+        "PPDB:1274"
+    ],
+    "geneontology:hasId": "82144",
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#2_STAR"
+    },
+    "rdfs:label": "Phenkapton",
+    "rdfs:subClassOf": {
+        "@id": "obo:CHEBI_16385"
+    }
+}

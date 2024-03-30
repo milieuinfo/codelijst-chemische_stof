@@ -1,0 +1,92 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_17169",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "obo:IAO_0000115": "An arenecarbaldehyde that consists of benzene bearing a single formyl substituent; the simplest aromatic aldehyde and parent of the class of benzaldehydes.",
+    "chebi:charge": "0",
+    "chebi:formula": "C7H6O",
+    "chebi:inchi": "InChI=1S/C7H6O/c8-6-7-4-2-1-3-5-7/h1-6H",
+    "chebi:inchikey": "HUMNYLRZRPPJDN-UHFFFAOYSA-N",
+    "chebi:smiles": "O=Cc1ccccc1",
+    "http://purl.uniprot.org/core/name": "benzaldehyde",
+    "geneontology:hasDbXref": [
+        "KEGG:C00193",
+        "PMID:16557466",
+        "CAS:100-52-7",
+        "HMDB:HMDB0006115",
+        "KEGG:C00261",
+        "KEGG:D02314",
+        "MetaCyc:BENZALDEHYDE",
+        "PDBeChem:HBX",
+        "PMID:11943806",
+        "PMID:12692643",
+        "PMID:12738275",
+        "PMID:12746108",
+        "PMID:1388821",
+        "PMID:15087594",
+        "PMID:15658857",
+        "PMID:16248550",
+        "PMID:16508147",
+        "PMID:18348134",
+        "PMID:20733068",
+        "PMID:20878540",
+        "PMID:21035797",
+        "PMID:21538605",
+        "PMID:21773601",
+        "PMID:21828928",
+        "PMID:23263855",
+        "Reaxys:471223",
+        "UM-BBD_compID:c0279",
+        "Wikipedia:Benzaldehyde"
+    ],
+    "geneontology:hasId": "17169",
+    "geneontology:hasSynonym": [
+        "Artificial almond oil",
+        "Benzaldehyde",
+        "Benzanoaldehyde",
+        "Benzene carbaldehyde",
+        "Benzenecarbonal",
+        "Benzenecarboxaldehyde",
+        "Benzene carboxaldehyde",
+        "Benzenemethylal",
+        "Benzoic acid aldehyde",
+        "Benzoic aldehyde",
+        "Benzylaldehyde",
+        "Ethereal oil of bitter almonds",
+        "Phenylformaldehyde",
+        "Phenylmethanal",
+        "Synthetic oil of bitter almond"
+    ],
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#3_STAR"
+    },
+    "rdfs:label": "benzaldehyde",
+    "rdfs:subClassOf": [
+        {
+            "@id": "obo:CHEBI_22698"
+        },
+        {
+            "@id": "b540_genid-00f1db82e1ab437c844115a94dc63e635-bn17169t11f35617"
+        },
+        {
+            "@id": "b540_genid-00f1db82e1ab437c844115a94dc63e635-bn17169t11f48318"
+        },
+        {
+            "@id": "b540_genid-00f1db82e1ab437c844115a94dc63e635-bn17169t11f62873"
+        },
+        {
+            "@id": "b540_genid-00f1db82e1ab437c844115a94dc63e635-bn17169t11f65001"
+        },
+        {
+            "@id": "b540_genid-00f1db82e1ab437c844115a94dc63e635-bn17169t11f76924"
+        },
+        {
+            "@id": "b540_genid-00f1db82e1ab437c844115a94dc63e635-bn17169t11f77118"
+        }
+    ]
+}

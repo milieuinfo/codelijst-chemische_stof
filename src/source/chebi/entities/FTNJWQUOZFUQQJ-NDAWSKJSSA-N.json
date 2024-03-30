@@ -1,0 +1,69 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_2942",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "obo:IAO_0000115": "A member of the family of azadirachtins that is isolated from the neem tree (Azadirachta indica).",
+    "chebi:charge": "0",
+    "chebi:formula": "C35H44O16",
+    "chebi:inchi": "InChI=1S/C35H44O16/c1-8-15(2)24(38)49-18-12-19(48-16(3)36)32(26(39)43-6)13-46-21-22(32)31(18)14-47-34(42,27(40)44-7)25(31)29(4,23(21)37)35-20-11-17(30(35,5)51-35)33(41)9-10-45-28(33)50-20/h8-10,17-23,25,28,37,41-42H,11-14H2,1-7H3/b15-8+/t17-,18+,19-,20+,21-,22-,23-,25+,28+,29-,30+,31+,32+,33+,34+,35+/m1/s1",
+    "chebi:inchikey": "FTNJWQUOZFUQQJ-NDAWSKJSSA-N",
+    "chebi:smiles": "[H][C@@]12OC=C[C@]1(O)[C@@H]1C[C@H](O2)[C@]2(O[C@@]12C)[C@]1(C)[C@H](O)[C@@H]2OC[C@@]3([C@@H](C[C@H](OC(=O)C(\\C)=C\\C)[C@@]4(CO[C@](O)(C(=O)OC)[C@@]14[H])[C@@]23[H])OC(C)=O)C(=O)OC",
+    "geneontology:hasDbXref": [
+        "Beilstein:4650697",
+        "BPDB:46",
+        "CAS:11141-17-6",
+        "KEGG:C08748",
+        "KNApSAcK:C00003698",
+        "LIPID_MAPS_instance:LMPR0106100001",
+        "PMID:11990361",
+        "PMID:24708208",
+        "Reaxys:4650697"
+    ],
+    "geneontology:hasId": "2942",
+    "geneontology:hasSynonym": [
+        "Azadirachtin",
+        "Azadirachtin A",
+        "dimethyl (2aR,3S,4S,4aR,5S,7aS,8S,10R,10aS,10bR)-10-acetoxy-3,5-dihydroxy-4-[(1aR,2S,3aS,6aS,7S,7aS)-6a-hydroxy-7a-methyl-3a,6a,7,7a-tetrahydro-2,7-methanofuro[2,3-b]oxireno[e]oxepin-1a(2H)-yl]-4-methyl-8-{[(2E)-2-methylbut-2-enoyl]oxy}octahydro-1H-naphtho[1,8a-c:4,5-b'c']difuran-5,10a(8H)-dicarboxylate"
+    ],
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#3_STAR"
+    },
+    "rdfs:label": "azadirachtin A",
+    "rdfs:subClassOf": [
+        {
+            "@id": "obo:CHEBI_35681"
+        },
+        {
+            "@id": "obo:CHEBI_47622"
+        },
+        {
+            "@id": "obo:CHEBI_32955"
+        },
+        {
+            "@id": "obo:CHEBI_26878"
+        },
+        {
+            "@id": "obo:CHEBI_38163"
+        },
+        {
+            "@id": "obo:CHEBI_51702"
+        },
+        {
+            "@id": "obo:CHEBI_25248"
+        },
+        {
+            "@id": "obo:CHEBI_38473"
+        },
+        {
+            "@id": "obo:CHEBI_59780"
+        },
+        {
+            "@id": "b245_genid-00f1db82e1ab437c844115a94dc63e635-bn2942t11f62868"
+        }
+    ]
+}

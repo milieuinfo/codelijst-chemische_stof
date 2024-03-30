@@ -1,0 +1,82 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@graph": [
+        {
+            "@id": "obo:CHEBI_16170",
+            "@type": "http://www.w3.org/2002/07/owl#Class",
+            "obo:IAO_0000115": "Elemental mercury of oxidation state zero.",
+            "chebi:charge": "0",
+            "chebi:formula": "Hg",
+            "chebi:inchi": "InChI=1S/Hg",
+            "chebi:inchikey": "QSHDDOUJBYECFT-UHFFFAOYSA-N",
+            "chebi:smiles": "[Hg]",
+            "http://purl.uniprot.org/core/name": "Hg",
+            "geneontology:hasDbXref": [
+                "CAS:7439-97-6",
+                "KEGG:C01319",
+                "UM-BBD_compID:c0387",
+                "Wikipedia:Mercury_(element)"
+            ],
+            "geneontology:hasId": "16170",
+            "geneontology:hasSynonym": [
+                "Hg",
+                "Elemental mercury",
+                "Hg(0)",
+                "Hgn",
+                "mercury",
+                "Mercury",
+                "metallic mercury"
+            ],
+            "geneontology:inSubset": {
+                "@id": "obo:chebi#3_STAR"
+            },
+            "rdfs:label": "mercury(0)",
+            "rdfs:subClassOf": [
+                {
+                    "@id": "obo:CHEBI_35113"
+                },
+                {
+                    "@id": "b270_genid-00f1db82e1ab437c844115a94dc63e635-bn16170t11f50910"
+                }
+            ]
+        },
+        {
+            "@id": "obo:CHEBI_25195",
+            "@type": "http://www.w3.org/2002/07/owl#Class",
+            "chebi:charge": "0",
+            "chebi:formula": "Hg",
+            "chebi:inchi": "InChI=1S/Hg",
+            "chebi:inchikey": "QSHDDOUJBYECFT-UHFFFAOYSA-N",
+            "chebi:smiles": "[Hg]",
+            "geneontology:hasDbXref": [
+                "CAS:7439-97-6",
+                "WebElements:Hg"
+            ],
+            "geneontology:hasId": "25195",
+            "geneontology:hasSynonym": [
+                "Hg",
+                "mercury",
+                "80Hg",
+                "azogue",
+                "hydrargyrum",
+                "liquid silver",
+                "mercure",
+                "mercurio",
+                "Quecksilber",
+                "quicksilver"
+            ],
+            "geneontology:inSubset": {
+                "@id": "obo:chebi#3_STAR"
+            },
+            "rdfs:label": "mercury atom",
+            "rdfs:subClassOf": {
+                "@id": "obo:CHEBI_33340"
+            }
+        }
+    ]
+}

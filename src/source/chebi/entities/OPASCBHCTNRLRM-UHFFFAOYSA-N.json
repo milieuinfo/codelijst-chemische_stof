@@ -1,0 +1,57 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_38962",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "chebi:charge": "0",
+    "chebi:formula": "C6H15O2PS3",
+    "chebi:inchi": "InChI=1S/C6H15O2PS3/c1-4-11-5-6-12-9(10,7-2)8-3/h4-6H2,1-3H3",
+    "chebi:inchikey": "OPASCBHCTNRLRM-UHFFFAOYSA-N",
+    "chebi:smiles": "CCSCCSP(=S)(OC)OC",
+    "geneontology:hasDbXref": [
+        "Beilstein:1707379",
+        "CAS:640-15-3",
+        "KEGG:C18665",
+        "PPDB:639"
+    ],
+    "geneontology:hasId": "38962",
+    "geneontology:hasSynonym": [
+        "S-[2-(ethylsulfanyl)ethyl] O,O-dimethyl dithiophosphate",
+        "Ekatin",
+        "M 81",
+        "O,O-Dimethyl-S-(2-ethylmercaptoethyl) dithiophosphate",
+        "Phosphorodithioic acid, S-(2-(ethylthio)ethyl) O,O-dimethyl ester",
+        "S-[2-(ethylsulfanyl)ethyl] O,O-dimethyl phosphorodithioate"
+    ],
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#3_STAR"
+    },
+    "rdfs:label": "thiometon",
+    "rdfs:subClassOf": [
+        {
+            "@id": "obo:CHEBI_33261"
+        },
+        {
+            "@id": "obo:CHEBI_37512"
+        },
+        {
+            "@id": "obo:CHEBI_25715"
+        },
+        {
+            "@id": "b138_genid-00f1db82e1ab437c844115a94dc63e635-bn38962t11f22153"
+        },
+        {
+            "@id": "b138_genid-00f1db82e1ab437c844115a94dc63e635-bn38962t11f33286"
+        },
+        {
+            "@id": "b138_genid-00f1db82e1ab437c844115a94dc63e635-bn38962t11f38462"
+        },
+        {
+            "@id": "b138_genid-00f1db82e1ab437c844115a94dc63e635-bn38962t8f38625"
+        }
+    ]
+}

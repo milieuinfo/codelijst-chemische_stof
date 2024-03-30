@@ -1,0 +1,57 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_45895",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "obo:IAO_0000115": "A tertiary alcohol alcohol that is isobutane substituted by a hydroxy group at position 2.",
+    "chebi:charge": "0",
+    "chebi:formula": "C4H10O",
+    "chebi:inchi": "InChI=1S/C4H10O/c1-4(2,3)5/h5H,1-3H3",
+    "chebi:inchikey": "DKGAVHZHDRPRBM-UHFFFAOYSA-N",
+    "chebi:smiles": "CC(C)(C)O",
+    "http://purl.uniprot.org/core/name": "tert-butanol",
+    "geneontology:hasDbXref": [
+        "Beilstein:906698",
+        "CAS:75-65-0",
+        "Gmelin:1833",
+        "HMDB:HMDB0031456",
+        "PDBeChem:TBU",
+        "PMID:11409007",
+        "PMID:11452135",
+        "Reaxys:906698",
+        "UM-BBD_compID:c0516",
+        "Wikipedia:Tert-Butyl_alcohol"
+    ],
+    "geneontology:hasId": "45895",
+    "geneontology:hasSynonym": [
+        "(CH3)3C-OH",
+        "1,1-dimethylethanol",
+        "2-methylpropan-2-ol",
+        "t-butanol",
+        "t-butyl alchohol",
+        "t-Butylalkohol",
+        "tert-butyl alcohol",
+        "TERTIARY-BUTYL ALCOHOL",
+        "trimethylcarbinol",
+        "trimethylmethanol"
+    ],
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#3_STAR"
+    },
+    "rdfs:label": "tert-butanol",
+    "rdfs:subClassOf": [
+        {
+            "@id": "obo:CHEBI_26878"
+        },
+        {
+            "@id": "b55_genid-00f1db82e1ab437c844115a94dc63e635-bn45895t9f30363"
+        },
+        {
+            "@id": "b55_genid-00f1db82e1ab437c844115a94dc63e635-bn45895t11f76967"
+        }
+    ]
+}

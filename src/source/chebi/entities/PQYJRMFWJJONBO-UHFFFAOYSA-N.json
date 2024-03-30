@@ -1,0 +1,27 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_82282",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "chebi:charge": "0",
+    "chebi:formula": "C9H15Br6O4P",
+    "chebi:inchi": "InChI=1S/C9H15Br6O4P/c10-1-7(13)4-17-20(16,18-5-8(14)2-11)19-6-9(15)3-12/h7-9H,1-6H2",
+    "chebi:inchikey": "PQYJRMFWJJONBO-UHFFFAOYSA-N",
+    "chebi:smiles": "BrCC(Br)COP(=O)(OCC(Br)CBr)OCC(Br)CBr",
+    "geneontology:hasDbXref": [
+        "CAS:126-72-7",
+        "KEGG:C19182"
+    ],
+    "geneontology:hasId": "82282",
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#2_STAR"
+    },
+    "rdfs:label": "Tris(2,3-dibromopropyl) phosphate",
+    "rdfs:subClassOf": {
+        "@id": "obo:CHEBI_37562"
+    }
+}

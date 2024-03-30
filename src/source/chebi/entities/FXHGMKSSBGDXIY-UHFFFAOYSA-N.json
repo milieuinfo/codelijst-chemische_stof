@@ -1,0 +1,73 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_34787",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "obo:IAO_0000115": "An n-alkanal resulting from the oxidation of the alcoholic hydroxy group of heptan-1-ol to the corresponding aldehyde. An endogenous aldehyde coming from membrane lipid oxidation, it is found in the blood of lung cancer patients and has been regarded as a potential biomarker of lung cancer.",
+    "chebi:charge": "0",
+    "chebi:formula": "C7H14O",
+    "chebi:inchi": "InChI=1S/C7H14O/c1-2-3-4-5-6-7-8/h7H,2-6H2,1H3",
+    "chebi:inchikey": "FXHGMKSSBGDXIY-UHFFFAOYSA-N",
+    "chebi:smiles": "O=CCCCCCC",
+    "http://purl.uniprot.org/core/name": "heptanal",
+    "geneontology:hasDbXref": [
+        "PMID:24421258",
+        "PMID:22626821",
+        "AGR:IND92060298",
+        "CAS:111-71-7",
+        "HMDB:HMDB0031475",
+        "KEGG:C14390",
+        "KNApSAcK:C00034880",
+        "PMID:13684163",
+        "PMID:13802512",
+        "PMID:15556514",
+        "PMID:20120041",
+        "PMID:24401388",
+        "PMID:28292517",
+        "PMID:28366212",
+        "PMID:29526787",
+        "Wikipedia:Heptanal"
+    ],
+    "geneontology:hasId": "34787",
+    "geneontology:hasSynonym": [
+        "aldehyde C-7",
+        "enanthal",
+        "enanthaldehyde",
+        "enanthic aldehyde",
+        "heptaldehyde",
+        "heptanaldehyde",
+        "heptylaldehyde",
+        "heptyl aldehyde",
+        "n-C6H13CHO",
+        "n-heptaldehyde",
+        "n-Heptaldehyde",
+        "n-heptanal",
+        "n-heptylaldehyde",
+        "oenanthal",
+        "oenanthaldehyde",
+        "oenanthic aldehyde",
+        "oenanthol"
+    ],
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#3_STAR"
+    },
+    "rdfs:label": "heptanal",
+    "rdfs:subClassOf": [
+        {
+            "@id": "obo:CHEBI_12834"
+        },
+        {
+            "@id": "obo:CHEBI_142621"
+        },
+        {
+            "@id": "obo:CHEBI_133249"
+        },
+        {
+            "@id": "b260_genid-00f1db82e1ab437c844115a94dc63e635-bn34787t11f59163"
+        }
+    ]
+}

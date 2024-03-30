@@ -1,0 +1,27 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_82400",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "chebi:charge": "0",
+    "chebi:formula": "C20H12",
+    "chebi:inchi": "InChI=1S/C20H12/c1-2-8-15-13(6-1)12-14-7-5-11-17-16-9-3-4-10-18(16)20(15)19(14)17/h1-12H",
+    "chebi:inchikey": "OQDXASJSCOTNQS-UHFFFAOYSA-N",
+    "chebi:smiles": "c1ccc-2c(c1)-c1cccc3cc4ccccc4c-2c13",
+    "geneontology:hasDbXref": [
+        "CAS:203-33-8",
+        "KEGG:C19341"
+    ],
+    "geneontology:hasId": "82400",
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#2_STAR"
+    },
+    "rdfs:label": "Benzo[a]fluoranthene",
+    "rdfs:subClassOf": {
+        "@id": "obo:CHEBI_46955"
+    }
+}

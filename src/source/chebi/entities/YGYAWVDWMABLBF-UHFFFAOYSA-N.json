@@ -1,0 +1,55 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_29365",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "obo:IAO_0000115": "An acyl chloride obtained by substitution of both hydrogens of formaldehyde by chlorine.",
+    "chebi:charge": "0",
+    "chebi:formula": "CCl2O",
+    "chebi:inchi": "InChI=1S/CCl2O/c2-1(3)4",
+    "chebi:inchikey": "YGYAWVDWMABLBF-UHFFFAOYSA-N",
+    "chebi:smiles": "ClC(Cl)=O",
+    "geneontology:hasDbXref": [
+        "CAS:75-44-5",
+        "PMID:21031186",
+        "PMID:21222562",
+        "PMID:21293301",
+        "PMID:21309662",
+        "Reaxys:1098367"
+    ],
+    "geneontology:hasId": "29365",
+    "geneontology:hasSynonym": [
+        "Carbon dichloride oxide",
+        "Carbone (oxychlorure de)",
+        "Carbonic acid dichloride",
+        "Carbonic chloride",
+        "Carbonic dichloride",
+        "Carbon oxychloride",
+        "Carbonylchlorid",
+        "Carbonyl chloride",
+        "carbonyl dichloride",
+        "Carbonyl dichloride",
+        "Chloroformyl chloride",
+        "COCl2",
+        "Dichloroformaldehyde",
+        "Fosgeen",
+        "Fosgen",
+        "Phosgen"
+    ],
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#3_STAR"
+    },
+    "rdfs:label": "phosgene",
+    "rdfs:subClassOf": [
+        {
+            "@id": "obo:CHEBI_36687"
+        },
+        {
+            "@id": "b74_genid-00f1db82e1ab437c844115a94dc63e635-bn29365t8f16842"
+        }
+    ]
+}

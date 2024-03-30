@@ -1,0 +1,49 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_34104",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "obo:IAO_0000115": "A mononitronaphthalene substituted by a nitro group at position 1.",
+    "chebi:charge": "0",
+    "chebi:formula": "C10H7NO2",
+    "chebi:inchi": "InChI=1S/C10H7NO2/c12-11(13)10-7-3-5-8-4-1-2-6-9(8)10/h1-7H",
+    "chebi:inchikey": "RJKGJBPXVHTNJL-UHFFFAOYSA-N",
+    "chebi:smiles": "[O-][N+](=O)c1cccc2ccccc12",
+    "geneontology:hasDbXref": [
+        "Beilstein:1867714",
+        "CAS:86-57-7",
+        "KEGG:C14040",
+        "PMID:21264431",
+        "PMID:21420130",
+        "PMID:21922113",
+        "PMID:22894348",
+        "PMID:23013142",
+        "PMID:9020398",
+        "Reaxys:1867714"
+    ],
+    "geneontology:hasId": "34104",
+    "geneontology:hasSynonym": [
+        "1-Nitronaphthalene",
+        "alpha-nitronaphthalene",
+        "Nitrol"
+    ],
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#3_STAR"
+    },
+    "rdfs:label": "1-nitronaphthalene",
+    "rdfs:subClassOf": [
+        {
+            "@id": "obo:CHEBI_50632"
+        },
+        {
+            "@id": "b313_genid-00f1db82e1ab437c844115a94dc63e635-bn34104t11f75771"
+        },
+        {
+            "@id": "b313_genid-00f1db82e1ab437c844115a94dc63e635-bn34104t11f78298"
+        }
+    ]
+}

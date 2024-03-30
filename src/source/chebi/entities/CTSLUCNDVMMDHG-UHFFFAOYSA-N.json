@@ -1,0 +1,30 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_83658",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "obo:IAO_0000115": "A pyrimidone that is pyrimidine-2,4(1H,3H)-dione substituted by a bromo group at position 5, a butan-2-yl group at position 3 and a methyl group at position 6.",
+    "chebi:charge": "0",
+    "chebi:formula": "C9H13BrN2O2",
+    "chebi:inchi": "InChI=1S/C9H13BrN2O2/c1-4-5(2)12-8(13)7(10)6(3)11-9(12)14/h5H,4H2,1-3H3,(H,11,14)",
+    "chebi:inchikey": "CTSLUCNDVMMDHG-UHFFFAOYSA-N",
+    "chebi:smiles": "CCC(C)n1c(=O)[nH]c(C)c(Br)c1=O",
+    "geneontology:hasDbXref": "PPDB:88",
+    "geneontology:hasId": "83658",
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#3_STAR"
+    },
+    "rdfs:label": "5-bromo-3-(butan-2-yl)-6-methylpyrimidine-2,4(1H,3H)-dione",
+    "rdfs:subClassOf": [
+        {
+            "@id": "obo:CHEBI_38337"
+        },
+        {
+            "@id": "obo:CHEBI_37141"
+        }
+    ]
+}

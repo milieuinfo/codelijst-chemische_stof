@@ -1,0 +1,48 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_34440",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "obo:IAO_0000115": "A member of the class of phenols that is phenol which is para-substituted with a nonyl group.",
+    "chebi:charge": "0",
+    "chebi:formula": "C15H24O",
+    "chebi:inchi": "InChI=1S/C15H24O/c1-2-3-4-5-6-7-8-9-14-10-12-15(16)13-11-14/h10-13,16H,2-9H2,1H3",
+    "chebi:inchikey": "IGFHQQFPSIBGKE-UHFFFAOYSA-N",
+    "chebi:smiles": "CCCCCCCCCc1ccc(O)cc1",
+    "geneontology:hasDbXref": [
+        "CAS:104-40-5",
+        "HMDB:HMDB0038982",
+        "KEGG:C14550",
+        "LINCS:LSM-19987",
+        "PMID:18506497",
+        "PMID:21823570",
+        "PMID:22133150",
+        "PMID:24805085",
+        "PPDB:1543",
+        "Reaxys:2047450"
+    ],
+    "geneontology:hasId": "34440",
+    "geneontology:hasSynonym": [
+        "4-n-Nonylphenol",
+        "4-Nonylphenol",
+        "para Nonyl phenol",
+        "p-n-Nonylphenol",
+        "p-Nonylphenol"
+    ],
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#3_STAR"
+    },
+    "rdfs:label": "4-nonylphenol",
+    "rdfs:subClassOf": [
+        {
+            "@id": "obo:CHEBI_33853"
+        },
+        {
+            "@id": "b604_genid-00f1db82e1ab437c844115a94dc63e635-bn34440t11f78298"
+        }
+    ]
+}

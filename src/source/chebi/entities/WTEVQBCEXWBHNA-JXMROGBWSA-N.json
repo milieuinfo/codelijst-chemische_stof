@@ -1,0 +1,63 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_16980",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "obo:IAO_0000115": "A monoterpenoid that is (2E,6E)-octa-2,6-dienal substituted by methyl groups at positions 3 and 7.",
+    "chebi:charge": "0",
+    "chebi:formula": "C10H16O",
+    "chebi:inchi": "InChI=1S/C10H16O/c1-9(2)5-4-6-10(3)7-8-11/h5,7-8H,4,6H2,1-3H3/b10-7+",
+    "chebi:inchikey": "WTEVQBCEXWBHNA-JXMROGBWSA-N",
+    "chebi:smiles": "CC(C)=CCC\\C(C)=C\\C=O",
+    "http://purl.uniprot.org/core/name": "(2E)-geranial",
+    "geneontology:hasDbXref": [
+        "CAS:141-27-5",
+        "CAS:5392-40-5",
+        "HMDB:HMDB0035078",
+        "KEGG:C01499",
+        "KNApSAcK:C00003035",
+        "LIPID_MAPS_instance:LMPR0102010003",
+        "MetaCyc:GERANIAL",
+        "PMID:23938144",
+        "PMID:24682420",
+        "Reaxys:1721873"
+    ],
+    "geneontology:hasId": "16980",
+    "geneontology:hasSynonym": [
+        "(2E)-geranial",
+        "neral",
+        "(2E)-3,7-dimethylocta-2,6-dienal",
+        "(E)-Citral",
+        "(E)-Geranial",
+        "alpha-Citral",
+        "citral A",
+        "Geranial",
+        "lemonal",
+        "trans-Citral"
+    ],
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#3_STAR"
+    },
+    "rdfs:label": "geranial",
+    "rdfs:subClassOf": [
+        {
+            "@id": "obo:CHEBI_137934"
+        },
+        {
+            "@id": "obo:CHEBI_25409"
+        },
+        {
+            "@id": "obo:CHEBI_51688"
+        },
+        {
+            "@id": "b220_genid-00f1db82e1ab437c844115a94dc63e635-bn16980t11f27311"
+        },
+        {
+            "@id": "b220_genid-00f1db82e1ab437c844115a94dc63e635-bn16980t11f76924"
+        }
+    ]
+}

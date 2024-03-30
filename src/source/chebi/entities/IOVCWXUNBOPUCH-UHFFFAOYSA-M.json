@@ -1,0 +1,60 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_16301",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "obo:IAO_0000115": "The nitrogen oxoanion formed by loss of a proton from nitrous acid.",
+    "chebi:charge": "-1",
+    "chebi:formula": "NO2",
+    "chebi:inchi": "InChI=1S/HNO2/c2-1-3/h(H,2,3)/p-1",
+    "chebi:inchikey": "IOVCWXUNBOPUCH-UHFFFAOYSA-M",
+    "chebi:smiles": "[O-]N=O",
+    "http://purl.uniprot.org/core/name": "nitrite",
+    "geneontology:hasDbXref": [
+        "CAS:14797-65-0",
+        "Gmelin:977",
+        "KEGG:C00088",
+        "PDBeChem:NO2",
+        "Wikipedia:Nitrite"
+    ],
+    "geneontology:hasId": "16301",
+    "geneontology:hasSynonym": [
+        "NO2",
+        "[NO2](-)",
+        "dioxidonitrate(1-)",
+        "dioxonitrate(1-)",
+        "dioxonitrate(III)",
+        "Nitrit",
+        "Nitrite",
+        "nitrite(1-)",
+        "nitrite anion",
+        "NITRITE ION",
+        "nitrous acid, ion(1-)",
+        "NO2(-)"
+    ],
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#3_STAR"
+    },
+    "rdfs:label": "nitrite",
+    "rdfs:subClassOf": [
+        {
+            "@id": "obo:CHEBI_33458"
+        },
+        {
+            "@id": "obo:CHEBI_79389"
+        },
+        {
+            "@id": "b1_genid-00f1db82e1ab437c844115a94dc63e635-bn16301t5f25567"
+        },
+        {
+            "@id": "obo:CHEBI_62764"
+        },
+        {
+            "@id": "b1_genid-00f1db82e1ab437c844115a94dc63e635-bn16301t11f77746"
+        }
+    ]
+}

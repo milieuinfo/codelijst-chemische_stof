@@ -1,0 +1,29 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_82219",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "chebi:charge": "0",
+    "chebi:formula": "C10H21NOS",
+    "chebi:inchi": "InChI=1S/C10H21NOS/c1-4-7-11(8-5-2)10(12)13-9-6-3/h4-9H2,1-3H3",
+    "chebi:inchikey": "OKUGPJPKMAEJOE-UHFFFAOYSA-N",
+    "chebi:smiles": "CCCSC(=O)N(CCC)CCC",
+    "geneontology:hasDbXref": [
+        "CAS:1929-77-7",
+        "KEGG:C19097",
+        "PPDB:679"
+    ],
+    "geneontology:hasId": "82219",
+    "geneontology:hasSynonym": "Vernolate",
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#2_STAR"
+    },
+    "rdfs:label": "S-propyl dipropylcarbamothioate",
+    "rdfs:subClassOf": {
+        "@id": "obo:CHEBI_32876"
+    }
+}

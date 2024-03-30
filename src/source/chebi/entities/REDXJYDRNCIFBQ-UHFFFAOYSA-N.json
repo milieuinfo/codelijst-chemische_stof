@@ -1,0 +1,43 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_49470",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "obo:IAO_0000115": "An aluminium cation that has a charge of +3.",
+    "chebi:charge": "+3",
+    "chebi:formula": "Al",
+    "chebi:inchi": "InChI=1S/Al/q+3",
+    "chebi:inchikey": "REDXJYDRNCIFBQ-UHFFFAOYSA-N",
+    "chebi:smiles": "[Al+3]",
+    "geneontology:hasDbXref": [
+        "Gmelin:15989",
+        "PDBeChem:AL"
+    ],
+    "geneontology:hasId": "49470",
+    "geneontology:hasSynonym": [
+        "Al(3+)",
+        "aluminium(3+) ion",
+        "aluminium(III) cation",
+        "aluminium ion",
+        "ALUMINUM ION"
+    ],
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#3_STAR"
+    },
+    "rdfs:label": "aluminium(3+)",
+    "rdfs:subClassOf": [
+        {
+            "@id": "obo:CHEBI_27153"
+        },
+        {
+            "@id": "obo:CHEBI_33627"
+        },
+        {
+            "@id": "obo:CHEBI_63062"
+        }
+    ]
+}

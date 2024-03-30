@@ -1,0 +1,57 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_38764",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "chebi:charge": "0",
+    "chebi:formula": "C7H17O2PS3",
+    "chebi:inchi": "InChI=1S/C7H17O2PS3/c1-4-8-10(11,9-5-2)13-7-12-6-3/h4-7H2,1-3H3",
+    "chebi:inchikey": "BULVZWIRKLYCBC-UHFFFAOYSA-N",
+    "chebi:smiles": "CCOP(=S)(OCC)SCSCC",
+    "geneontology:hasDbXref": [
+        "Beilstein:1708517",
+        "CAS:298-02-2",
+        "KEGG:C18690",
+        "PPDB:519"
+    ],
+    "geneontology:hasId": "38764",
+    "geneontology:hasSynonym": [
+        "O,O-Diethyl S-(ethylthio)methyl phosphorodithioate",
+        "O,O-diethyl S-[(ethylsulfanyl)methyl] dithiophosphate",
+        "O,O-diethyl S-[(ethylsulfanyl)methyl] phosphorodithioate",
+        "O,O-Diethyl S-ethylmercaptomethyl dithiophosphate",
+        "Phosphorodithioic acid, O,O-diethyl S-((ethylthio)methyl) ester",
+        "Thimet"
+    ],
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#3_STAR"
+    },
+    "rdfs:label": "phorate",
+    "rdfs:subClassOf": [
+        {
+            "@id": "obo:CHEBI_37512"
+        },
+        {
+            "@id": "obo:CHEBI_25715"
+        },
+        {
+            "@id": "b244_genid-00f1db82e1ab437c844115a94dc63e635-bn38764t11f22153"
+        },
+        {
+            "@id": "b244_genid-00f1db82e1ab437c844115a94dc63e635-bn38764t11f33286"
+        },
+        {
+            "@id": "b244_genid-00f1db82e1ab437c844115a94dc63e635-bn38764t11f37733"
+        },
+        {
+            "@id": "b244_genid-00f1db82e1ab437c844115a94dc63e635-bn38764t11f38462"
+        },
+        {
+            "@id": "b244_genid-00f1db82e1ab437c844115a94dc63e635-bn38764t8f38829"
+        }
+    ]
+}

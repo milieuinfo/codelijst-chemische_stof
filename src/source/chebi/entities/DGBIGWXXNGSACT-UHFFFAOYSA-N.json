@@ -1,0 +1,61 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_3756",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "obo:IAO_0000115": "1,3-Dihydro-2H-1,4-benzodiazepin-2-one in which the hydrogens at positions 5 and 7 are substituted by 2-chlorophenyl and nitro groups, respectively. It is used in the treatment of all types of epilepsy and seizures, as well as myoclonus and associated abnormal movements, and panic disorders. However, its use can be limited by the development of tolerance and by sedation.",
+    "chebi:charge": "0",
+    "chebi:formula": "C15H10ClN3O3",
+    "chebi:inchi": "InChI=1S/C15H10ClN3O3/c16-12-4-2-1-3-10(12)15-11-7-9(19(21)22)5-6-13(11)18-14(20)8-17-15/h1-7H,8H2,(H,18,20)",
+    "chebi:inchikey": "DGBIGWXXNGSACT-UHFFFAOYSA-N",
+    "chebi:smiles": "[O-][N+](=O)c1ccc2NC(=O)CN=C(c3ccccc3Cl)c2c1",
+    "geneontology:hasDbXref": [
+        "PMID:12873507",
+        "Beilstein:759557",
+        "CAS:1622-61-3",
+        "Drug_Central:703",
+        "DrugBank:DB01068",
+        "KEGG:D00280",
+        "Patent:US3116203",
+        "Patent:US3121076",
+        "Patent:US3335181",
+        "PMID:10633040",
+        "PMID:12213069",
+        "Wikipedia:Clonazepam"
+    ],
+    "geneontology:hasId": "3756",
+    "geneontology:hasSynonym": [
+        "1,3-dihydro-7-nitro-5-(2-chlorophenyl)-2H-1,4.benzodiazepin-2-one",
+        "5-(2-chlorophenyl)-7-nitro-1,3-dihydro-2H-1,4-benzodiazepin-2-one",
+        "5-(2-Chloro-phenyl)-7-nitro-1,3-dihydro-benzo[e][1,4]diazepin-2-one",
+        "5-(2-chlorophenyl)-7-nitro-1H-benzo[e][1,4]diazepin-2(3H)-one",
+        "5-(o-chlorophenyl)-7-nitro-1,3-dihydro-2H-1,4-benzodiazepin-2-one",
+        "CLONAZEPAM",
+        "clonazepamum"
+    ],
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#3_STAR"
+    },
+    "rdfs:label": "clonazepam",
+    "rdfs:subClassOf": [
+        {
+            "@id": "obo:CHEBI_83403"
+        },
+        {
+            "@id": "b45_genid-00f1db82e1ab437c844115a94dc63e635-bn3756t11f35474"
+        },
+        {
+            "@id": "obo:CHEBI_35500"
+        },
+        {
+            "@id": "b45_genid-00f1db82e1ab437c844115a94dc63e635-bn3756t11f35623"
+        },
+        {
+            "@id": "b45_genid-00f1db82e1ab437c844115a94dc63e635-bn3756t11f50268"
+        }
+    ]
+}

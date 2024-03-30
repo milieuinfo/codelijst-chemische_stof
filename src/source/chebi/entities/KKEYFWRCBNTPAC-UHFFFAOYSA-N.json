@@ -1,0 +1,53 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_15702",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "obo:IAO_0000115": "A benzenedicarboxylic acid carrying carboxy groups at positions 1 and 4. One of three possible isomers of benzenedicarboxylic acid, the others being phthalic and isophthalic acids.",
+    "chebi:charge": "0",
+    "chebi:formula": "C8H6O4",
+    "chebi:inchi": "InChI=1S/C8H6O4/c9-7(10)5-1-2-6(4-3-5)8(11)12/h1-4H,(H,9,10)(H,11,12)",
+    "chebi:inchikey": "KKEYFWRCBNTPAC-UHFFFAOYSA-N",
+    "chebi:smiles": "OC(=O)c1ccc(cc1)C(O)=O",
+    "geneontology:hasDbXref": [
+        "Beilstein:1909333",
+        "CAS:100-21-0",
+        "Gmelin:50561",
+        "HMDB:HMDB0002428",
+        "KEGG:C06337",
+        "MetaCyc:TEREPHTHALATE",
+        "PMID:24101250",
+        "PMID:24473302",
+        "PMID:24527803",
+        "Reaxys:1909333",
+        "Wikipedia:Terephthalic_acid"
+    ],
+    "geneontology:hasId": "15702",
+    "geneontology:hasSynonym": [
+        "1,4-Benzenedicarboxylic acid",
+        "benzene-1,4-dicarboxylic acid",
+        "para-benzenedicarboxylic acid",
+        "p-benzenedicarboxylic acid",
+        "Terephthalic acid",
+        "TPA"
+    ],
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#3_STAR"
+    },
+    "rdfs:label": "terephthalic acid",
+    "rdfs:subClassOf": [
+        {
+            "@id": "obo:CHEBI_26094"
+        },
+        {
+            "@id": "b267_genid-00f1db82e1ab437c844115a94dc63e635-bn15702tmms73f30043"
+        },
+        {
+            "@id": "b267_genid-00f1db82e1ab437c844115a94dc63e635-bn15702t4f30801"
+        }
+    ]
+}

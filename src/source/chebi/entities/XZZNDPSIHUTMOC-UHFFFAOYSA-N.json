@@ -1,0 +1,51 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_35033",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "obo:IAO_0000115": "An  aryl phosphate resulting from the formal condensation of phosphoric acid with 3 mol eq. of phenol.",
+    "chebi:charge": "0",
+    "chebi:formula": "C18H15O4P",
+    "chebi:inchi": "InChI=1S/C18H15O4P/c19-23(20-16-10-4-1-5-11-16,21-17-12-6-2-7-13-17)22-18-14-8-3-9-15-18/h1-15H",
+    "chebi:inchikey": "XZZNDPSIHUTMOC-UHFFFAOYSA-N",
+    "chebi:smiles": "O=P(Oc1ccccc1)(Oc1ccccc1)Oc1ccccc1",
+    "geneontology:hasDbXref": [
+        "Beilstein:1888236",
+        "CAS:115-86-6",
+        "KEGG:C14235",
+        "PMID:24316320",
+        "PMID:24395120",
+        "Reaxys:1888236",
+        "Wikipedia:Triphenyl_phosphate"
+    ],
+    "geneontology:hasId": "35033",
+    "geneontology:hasSynonym": [
+        "TPP",
+        "Phosphoric acid, triphenyl ester",
+        "Triphenoxyphosphine oxide",
+        "Triphenylphosphate",
+        "Triphenyl phosphate"
+    ],
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#3_STAR"
+    },
+    "rdfs:label": "triphenyl phosphate",
+    "rdfs:subClassOf": [
+        {
+            "@id": "obo:CHEBI_36943"
+        },
+        {
+            "@id": "b44_genid-00f1db82e1ab437c844115a94dc63e635-bn35033t8f15882"
+        },
+        {
+            "@id": "b44_genid-00f1db82e1ab437c844115a94dc63e635-bn35033t11f79056"
+        },
+        {
+            "@id": "b44_genid-00f1db82e1ab437c844115a94dc63e635-bn35033t11f79314"
+        }
+    ]
+}

@@ -1,0 +1,45 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_49544",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "chebi:charge": "+3",
+    "chebi:formula": "Cr",
+    "chebi:inchi": "InChI=1S/Cr/q+3",
+    "chebi:inchikey": "BFGKITSFLPAWGI-UHFFFAOYSA-N",
+    "chebi:smiles": "[Cr+3]",
+    "http://purl.uniprot.org/core/name": "Cr(3+)",
+    "geneontology:hasDbXref": [
+        "CAS:16065-83-1",
+        "Gmelin:15996",
+        "KEGG:C19368",
+        "PDBeChem:CR",
+        "UM-BBD_compID:c0804"
+    ],
+    "geneontology:hasId": "49544",
+    "geneontology:hasSynonym": [
+        "Cr(3+)",
+        "chromic ion",
+        "chromium(3+) ion",
+        "chromium(III)",
+        "chromium(III) cation",
+        "Chromium (III) ion",
+        "CHROMIUM ION"
+    ],
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#3_STAR"
+    },
+    "rdfs:label": "chromium(3+)",
+    "rdfs:subClassOf": [
+        {
+            "@id": "obo:CHEBI_27153"
+        },
+        {
+            "@id": "obo:CHEBI_33516"
+        }
+    ]
+}

@@ -1,0 +1,24 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_195171",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "chebi:charge": "0",
+    "chebi:formula": "C8H7NO",
+    "chebi:inchi": "InChI=1S/C8H7NO/c10-8-5-6-3-1-2-4-7(6)9-8/h1-5,9-10H",
+    "chebi:inchikey": "JHFAEUICJHBVHB-UHFFFAOYSA-N",
+    "chebi:smiles": "OC=1NC=2C(C1)=CC=CC2",
+    "geneontology:hasId": "195171",
+    "geneontology:hasSynonym": "1H-indol-2-ol",
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#2_STAR"
+    },
+    "rdfs:label": "2-hydroxyindole",
+    "rdfs:subClassOf": {
+        "@id": "obo:CHEBI_84729"
+    }
+}

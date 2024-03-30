@@ -1,0 +1,45 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_27573",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "chebi:charge": "0",
+    "chebi:formula": "Si",
+    "chebi:inchi": "InChI=1S/Si",
+    "chebi:inchikey": "XUIMIQQOPSSXEZ-UHFFFAOYSA-N",
+    "chebi:smiles": "[Si]",
+    "geneontology:hasDbXref": [
+        "CAS:7440-21-3",
+        "KEGG:C06263",
+        "WebElements:Si"
+    ],
+    "geneontology:hasId": "27573",
+    "geneontology:hasSynonym": [
+        "Si",
+        "14Si",
+        "silicio",
+        "silicium",
+        "silicon",
+        "Silicon",
+        "Silizium"
+    ],
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#3_STAR"
+    },
+    "rdfs:label": "silicon atom",
+    "rdfs:subClassOf": [
+        {
+            "@id": "obo:CHEBI_137980"
+        },
+        {
+            "@id": "obo:CHEBI_25585"
+        },
+        {
+            "@id": "obo:CHEBI_33306"
+        }
+    ]
+}

@@ -1,0 +1,47 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_39300",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "chebi:charge": "0",
+    "chebi:formula": "C19H26O4S",
+    "chebi:inchi": "InChI=1S/C19H26O4S/c1-5-14-21-24(20)23-18-9-7-6-8-17(18)22-16-12-10-15(11-13-16)19(2,3)4/h1,10-13,17-18H,6-9,14H2,2-4H3",
+    "chebi:inchikey": "ZYHMJXZULPZUED-UHFFFAOYSA-N",
+    "chebi:smiles": "CC(C)(C)c1ccc(OC2CCCCC2OS(=O)OCC#C)cc1",
+    "geneontology:hasDbXref": [
+        "Beilstein:6934289",
+        "CAS:2312-35-8",
+        "KEGG:C18602",
+        "PPDB:547"
+    ],
+    "geneontology:hasId": "39300",
+    "geneontology:hasSynonym": [
+        "2-(4-tert-butylphenoxy)cyclohexyl prop-2-yn-1-yl sulfite",
+        "2-(4-tert-butylphenoxy)cyclohexyl prop-2-ynyl sulfite",
+        "2-(4-tert-butylphenoxy)cyclohexyl prop-2-ynyl sulphite",
+        "2-(p-t-butylphenoxy)cyclohexyl propargyl sulfite",
+        "2-(p-tert-butylphenoxy)cyclohexyl 2-propynyl sulfite",
+        "2-(p-tert-butylphenoxy)cyclohexyl propargyl sulfite",
+        "BPPS",
+        "Propargite"
+    ],
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#3_STAR"
+    },
+    "rdfs:label": "propargite",
+    "rdfs:subClassOf": [
+        {
+            "@id": "obo:CHEBI_73477"
+        },
+        {
+            "@id": "obo:CHEBI_39088"
+        },
+        {
+            "@id": "b219_genid-00f1db82e1ab437c844115a94dc63e635-bn39300t11f39301"
+        }
+    ]
+}

@@ -1,0 +1,29 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_179423",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "chebi:charge": "0",
+    "chebi:formula": "C8H11N",
+    "chebi:inchi": "InChI=1S/C8H11N/c1-3-8-5-4-7(2)9-6-8/h4-6H,3H2,1-2H3",
+    "chebi:inchikey": "NTSLROIKFLNUIJ-UHFFFAOYSA-N",
+    "chebi:smiles": "N=1C=C(CC)C=CC1C",
+    "geneontology:hasDbXref": [
+        "CAS:104-90-5",
+        "Chemspider:21105900",
+        "HMDB:HMDB0029729"
+    ],
+    "geneontology:hasId": "179423",
+    "geneontology:hasSynonym": "5-ethyl-2-methylpyridine",
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#2_STAR"
+    },
+    "rdfs:label": "5-Ethyl-2-methylpyridine",
+    "rdfs:subClassOf": {
+        "@id": "obo:CHEBI_25340"
+    }
+}

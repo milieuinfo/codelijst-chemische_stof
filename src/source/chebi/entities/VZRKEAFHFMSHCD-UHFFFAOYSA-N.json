@@ -1,0 +1,37 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_81991",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "chebi:charge": "0",
+    "chebi:formula": "C11H21NO3",
+    "chebi:inchi": "InChI=1S/C11H21NO3/c1-4-6-8-12(10(3)13)9-7-11(14)15-5-2/h4-9H2,1-3H3",
+    "chebi:inchikey": "VZRKEAFHFMSHCD-UHFFFAOYSA-N",
+    "chebi:smiles": "CCCCN(CCC(=O)OCC)C(C)=O",
+    "geneontology:hasDbXref": [
+        "BPDB:2194",
+        "CAS:52304-36-6",
+        "KEGG:C18830"
+    ],
+    "geneontology:hasId": "81991",
+    "geneontology:hasSynonym": "Ethyl butylacetylaminopropionate",
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#2_STAR"
+    },
+    "rdfs:label": "Ethyl 3-(N-butylacetamido)propionate",
+    "rdfs:subClassOf": [
+        {
+            "@id": "obo:CHEBI_23990"
+        },
+        {
+            "@id": "obo:CHEBI_22160"
+        },
+        {
+            "@id": "obo:CHEBI_140326"
+        }
+    ]
+}

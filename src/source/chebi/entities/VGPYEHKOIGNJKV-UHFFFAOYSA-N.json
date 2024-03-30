@@ -1,0 +1,80 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_81696",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "obo:IAO_0000115": "A carbamate ester that is methyl carbamate substituted by a (4-aminophenyl)sulfonyl group at the nitrogen atom. A dihydropteroate synthase inhibitor, it is used (normally as the corresponding sodium salt, asulam-sodium) as a herbicide, mainly for killing bracken.",
+    "chebi:charge": "0",
+    "chebi:formula": "C8H10N2O4S",
+    "chebi:inchi": "InChI=1S/C8H10N2O4S/c1-14-8(11)10-15(12,13)7-4-2-6(9)3-5-7/h2-5H,9H2,1H3,(H,10,11)",
+    "chebi:inchikey": "VGPYEHKOIGNJKV-UHFFFAOYSA-N",
+    "chebi:smiles": "COC(=O)NS(=O)(=O)c1ccc(N)cc1",
+    "geneontology:hasDbXref": [
+        "AGR:IND44109762",
+        "CAS:3337-71-1",
+        "KEGG:C18350",
+        "Patent:BE622214",
+        "Patent:CN101492401",
+        "Patent:CN101704771",
+        "Pesticides:asulam",
+        "PMID:1452156",
+        "PMID:18965512",
+        "PMID:29673416",
+        "PMID:6711013",
+        "PPDB:1551",
+        "Reaxys:2697523",
+        "Wikipedia:Asulam"
+    ],
+    "geneontology:hasId": "81696",
+    "geneontology:hasSynonym": [
+        "4-Amino-benzolsulfonyl-methylcarbamat",
+        "asulame",
+        "methyl [(4-aminophenyl)sulfonyl]carbamate",
+        "methyl N-(4-aminobenzenesulfonyl)carbamate",
+        "methyl sulfanilylcarbamate",
+        "N(1)-methoxycarbonylsulfanilamide"
+    ],
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#3_STAR"
+    },
+    "rdfs:label": "asulam",
+    "rdfs:subClassOf": [
+        {
+            "@id": "obo:CHEBI_50994"
+        },
+        {
+            "@id": "obo:CHEBI_23003"
+        },
+        {
+            "@id": "obo:CHEBI_48975"
+        },
+        {
+            "@id": "obo:CHEBI_35358"
+        },
+        {
+            "@id": "b406_genid-00f1db82e1ab437c844115a94dc63e635-bn81696tmms73f142669"
+        },
+        {
+            "@id": "b406_genid-00f1db82e1ab437c844115a94dc63e635-bn81696t11f24527"
+        },
+        {
+            "@id": "b406_genid-00f1db82e1ab437c844115a94dc63e635-bn81696t11f33286"
+        },
+        {
+            "@id": "b406_genid-00f1db82e1ab437c844115a94dc63e635-bn81696t11f35703"
+        },
+        {
+            "@id": "b406_genid-00f1db82e1ab437c844115a94dc63e635-bn81696t11f50502"
+        },
+        {
+            "@id": "b406_genid-00f1db82e1ab437c844115a94dc63e635-bn81696t11f78298"
+        },
+        {
+            "@id": "b406_genid-00f1db82e1ab437c844115a94dc63e635-bn81696t4f142669"
+        }
+    ]
+}

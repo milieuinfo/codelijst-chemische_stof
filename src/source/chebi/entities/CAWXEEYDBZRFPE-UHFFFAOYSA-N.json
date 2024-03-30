@@ -1,0 +1,28 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_5705",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "chebi:charge": "0",
+    "chebi:formula": "C12H20N4O2",
+    "chebi:inchi": "InChI=1S/C12H20N4O2/c1-14(2)10-13-11(17)16(12(18)15(10)3)9-7-5-4-6-8-9/h9H,4-8H2,1-3H3",
+    "chebi:inchikey": "CAWXEEYDBZRFPE-UHFFFAOYSA-N",
+    "chebi:smiles": "CN(C)c1nc(=O)n(C2CCCCC2)c(=O)n1C",
+    "geneontology:hasDbXref": [
+        "CAS:51235-04-2",
+        "KEGG:C10926",
+        "PPDB:384"
+    ],
+    "geneontology:hasId": "5705",
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#2_STAR"
+    },
+    "rdfs:label": "Hexazinone",
+    "rdfs:subClassOf": {
+        "@id": "obo:CHEBI_26588"
+    }
+}

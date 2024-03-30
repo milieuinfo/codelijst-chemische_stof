@@ -1,0 +1,89 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_47612",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "obo:IAO_0000115": "A monocarboxylic acid amide obtained by the formal condensation of the carboxy group of 4-chlorobenzoic acid with the amino group of 2-[4-(2-aminoethyl)phenoxy]-2-methylpropanoic acid. Benafibrate is used for the treatment of hyperlipidaemia.",
+    "chebi:charge": "0",
+    "chebi:formula": "C19H20ClNO4",
+    "chebi:inchi": "InChI=1S/C19H20ClNO4/c1-19(2,18(23)24)25-16-9-3-13(4-10-16)11-12-21-17(22)14-5-7-15(20)8-6-14/h3-10H,11-12H2,1-2H3,(H,21,22)(H,23,24)",
+    "chebi:inchikey": "IIBYAHWJQTYFKB-UHFFFAOYSA-N",
+    "chebi:smiles": "CC(C)(OC1=CC=C(CCNC(=O)C2=CC=C(Cl)C=C2)C=C1)C(O)=O",
+    "geneontology:hasDbXref": [
+        "PMID:23603800",
+        "CAS:41859-67-0",
+        "Chemspider:35728",
+        "Drug_Central:362",
+        "DrugBank:DB01393",
+        "HMDB:HMDB0015465",
+        "KEGG:D01366",
+        "LINCS:LSM-3015",
+        "Patent:DE2149070",
+        "Patent:US3781328",
+        "PDBeChem:PEM",
+        "PMID:12122004",
+        "PMID:12782154",
+        "PMID:17379010",
+        "PMID:18787029",
+        "PMID:19131462",
+        "PMID:28931607",
+        "PMID:32107855",
+        "PMID:32509533",
+        "PMID:32721217",
+        "PMID:32798077",
+        "PMID:32976735",
+        "PMID:33205029",
+        "PMID:33549744",
+        "PMID:34447954",
+        "Reaxys:4267656",
+        "Wikipedia:Bezafibrate"
+    ],
+    "geneontology:hasId": "47612",
+    "geneontology:hasSynonym": [
+        "2-(p-(2-(p-Chlorobenzamido)ethyl)phenoxy)-2-methylpropionic acid",
+        "2-{4-[2-(4-chlorobenzamido)ethyl]phenoxy}-2-methylpropanoic acid",
+        "Befizal",
+        "bezafibrato",
+        "bezafibratum",
+        "Bezalip",
+        "Bezatol SR (TN)",
+        "Cedur"
+    ],
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#3_STAR"
+    },
+    "rdfs:label": "bezafibrate",
+    "rdfs:subClassOf": [
+        {
+            "@id": "obo:CHEBI_35618"
+        },
+        {
+            "@id": "obo:CHEBI_29347"
+        },
+        {
+            "@id": "obo:CHEBI_25384"
+        },
+        {
+            "@id": "obo:CHEBI_83403"
+        },
+        {
+            "@id": "b613_genid-00f1db82e1ab437c844115a94dc63e635-bn47612t8f30768"
+        },
+        {
+            "@id": "b613_genid-00f1db82e1ab437c844115a94dc63e635-bn47612t11f35679"
+        },
+        {
+            "@id": "b613_genid-00f1db82e1ab437c844115a94dc63e635-bn47612t11f35703"
+        },
+        {
+            "@id": "b613_genid-00f1db82e1ab437c844115a94dc63e635-bn47612t11f78298"
+        },
+        {
+            "@id": "b613_genid-00f1db82e1ab437c844115a94dc63e635-bn47612t11f176497"
+        }
+    ]
+}

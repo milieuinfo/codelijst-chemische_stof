@@ -1,0 +1,88 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_160246",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "obo:IAO_0000115": "A  pyrazolone  that is 1,2-dihydro-3H-pyrazol-3-one substituted by a dimethylamino group at position 4, methyl groups at positions 1 and 5 and a phenyl group at position 2. It exhibits analgesic, anti-inflammatory, and antipyretic properties.",
+    "chebi:charge": "0",
+    "chebi:formula": "C13H17N3O",
+    "chebi:inchi": "InChI=1S/C13H17N3O/c1-10-12(14(2)3)13(17)16(15(10)4)11-8-6-5-7-9-11/h5-9H,1-4H3",
+    "chebi:inchikey": "RMMXTBMQSGEXHJ-UHFFFAOYSA-N",
+    "chebi:smiles": "CN(C)c1c(C)n(C)n(-c2ccccc2)c1=O",
+    "geneontology:hasDbXref": [
+        "Beilstein:222626",
+        "CAS:58-15-1",
+        "Drug_Central:171",
+        "DrugBank:DB01424",
+        "Gmelin:103164",
+        "HMDB:HMDB0015493",
+        "KEGG:C07539",
+        "KEGG:D00556",
+        "LINCS:LSM-20000",
+        "PMID:23603897",
+        "PMID:23727364",
+        "PMID:24428683",
+        "Reaxys:222626",
+        "Wikipedia:Aminophenazone"
+    ],
+    "geneontology:hasId": "160246",
+    "geneontology:hasSynonym": [
+        "(Dimethylamino)phenazone",
+        "1,5-Dimethyl-4-dimethylamino-2-phenyl-3-pyrazolone",
+        "1-Phenyl-2,3-dimethyl-4-(dimethylamino)-5-pyrazolone",
+        "1-Phenyl-2,3-dimethyl-4-dimethylaminopyrazol-5-one",
+        "2,3-Dimethyl-4-dimethylamino-1-phenyl-5-pyrazolone",
+        "3-Keto-1,5-dimethyl-4-dimethylamino-2-phenyl-2,3-dihydropyrazole",
+        "4-(Dimethylamino)-1,2-dihydro-1,5-dimethyl-2-phenyl-3H-pyrazol-3-one",
+        "4-(dimethylamino)-1,5-dimethyl-2-phenyl-1,2-dihydro-3H-pyrazol-3-one",
+        "4-(Dimethylamino)-1,5-dimethyl-2-phenyl-1,2-dihydro-3H-pyrazol-3-one",
+        "4-(Dimethylamino)antipyrine",
+        "4-Dimethylamino-1-phenyl-2,3-dimethylpyrazolone",
+        "4-Dimethylamino-2,3-dimethyl-1-phenyl-3-pyrazolin-5-one",
+        "4-Dimethylamino-2,3-dimethyl-1-phenyl-5-pyrazolone",
+        "4-Dimethylaminoantipyrine",
+        "4-Dimethylaminophenazone",
+        "aminofenazona",
+        "Aminofenazone",
+        "Aminophenazon",
+        "aminophenazonum",
+        "Aminopyrine",
+        "Dimethylaminoantipyrine",
+        "Dimethylaminoazophene",
+        "Dimethylaminophenazon",
+        "Dimethylaminophenazone",
+        "Dimethylaminophenyldimethylpyrazolone",
+        "Dipyrine"
+    ],
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#3_STAR"
+    },
+    "rdfs:label": "aminophenazone",
+    "rdfs:subClassOf": [
+        {
+            "@id": "obo:CHEBI_50996"
+        },
+        {
+            "@id": "obo:CHEBI_83328"
+        },
+        {
+            "@id": "b82_genid-00f1db82e1ab437c844115a94dc63e635-bn160246t11f35475"
+        },
+        {
+            "@id": "b82_genid-00f1db82e1ab437c844115a94dc63e635-bn160246t11f35481"
+        },
+        {
+            "@id": "b82_genid-00f1db82e1ab437c844115a94dc63e635-bn160246t11f35493"
+        },
+        {
+            "@id": "b82_genid-00f1db82e1ab437c844115a94dc63e635-bn160246t11f35703"
+        },
+        {
+            "@id": "b82_genid-00f1db82e1ab437c844115a94dc63e635-bn160246t11f78298"
+        }
+    ]
+}

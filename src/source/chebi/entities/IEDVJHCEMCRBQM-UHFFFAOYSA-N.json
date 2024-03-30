@@ -1,0 +1,90 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_45924",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "obo:IAO_0000115": "An aminopyrimidine antibiotic whose structure consists of pyrimidine 2,4-diamine and 1,2,3-trimethoxybenzene moieties linked by a methylene bridge.",
+    "chebi:charge": "0",
+    "chebi:formula": "C14H18N4O3",
+    "chebi:inchi": "InChI=1S/C14H18N4O3/c1-19-10-5-8(6-11(20-2)12(10)21-3)4-9-7-17-14(16)18-13(9)15/h5-7H,4H2,1-3H3,(H4,15,16,17,18)",
+    "chebi:inchikey": "IEDVJHCEMCRBQM-UHFFFAOYSA-N",
+    "chebi:smiles": "C=1(CC=2C(=NC(N)=NC2)N)C=C(C(OC)=C(C1)OC)OC",
+    "geneontology:hasDbXref": [
+        "PMID:7602118",
+        "PMID:28166217",
+        "PMID:8911701",
+        "Beilstein:625127",
+        "CAS:738-70-5",
+        "Drug_Central:2755",
+        "DrugBank:DB00440",
+        "Gmelin:808843",
+        "HMDB:HMDB0014583",
+        "KEGG:C01965",
+        "KEGG:D00145",
+        "LINCS:LSM-5246",
+        "PDBeChem:TOP",
+        "PMID:10423629",
+        "PMID:10969053",
+        "PMID:11051625",
+        "PMID:14629008",
+        "PMID:15203044",
+        "PMID:16311012",
+        "PMID:18816075",
+        "PMID:25111783",
+        "PMID:25361939",
+        "PMID:26546758",
+        "PMID:26566149",
+        "PMID:26942256",
+        "PMID:26987772",
+        "Reaxys:625127",
+        "VSDB:1745",
+        "Wikipedia:Trimethoprim"
+    ],
+    "geneontology:hasId": "45924",
+    "geneontology:hasSynonym": [
+        "2,4-diamino-5-(3,4,5-trimethoxybenzyl)pyrimidine",
+        "5-(3,4,5-trimethoxybenzyl)pyrimidine-2,4-diamine",
+        "5-[(3,4,5-trimethoxyphenyl)methyl]-2,4-pyrimidinediamine",
+        "Proloprim",
+        "Trimethoprim",
+        "TRIMETHOPRIM",
+        "Trimpex"
+    ],
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#3_STAR"
+    },
+    "rdfs:label": "trimethoprim",
+    "rdfs:subClassOf": [
+        {
+            "@id": "obo:CHEBI_51683"
+        },
+        {
+            "@id": "obo:CHEBI_38338"
+        },
+        {
+            "@id": "b598_genid-00f1db82e1ab437c844115a94dc63e635-bn45924tmms73f46235"
+        },
+        {
+            "@id": "b598_genid-00f1db82e1ab437c844115a94dc63e635-bn45924t11f35498"
+        },
+        {
+            "@id": "b598_genid-00f1db82e1ab437c844115a94dc63e635-bn45924t11f35703"
+        },
+        {
+            "@id": "b598_genid-00f1db82e1ab437c844115a94dc63e635-bn45924t11f36047"
+        },
+        {
+            "@id": "b598_genid-00f1db82e1ab437c844115a94dc63e635-bn45924t11f50683"
+        },
+        {
+            "@id": "b598_genid-00f1db82e1ab437c844115a94dc63e635-bn45924t11f78298"
+        },
+        {
+            "@id": "b598_genid-00f1db82e1ab437c844115a94dc63e635-bn45924t11f88188"
+        }
+    ]
+}

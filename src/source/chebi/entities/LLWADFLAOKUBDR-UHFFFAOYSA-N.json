@@ -1,0 +1,54 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_81806",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "obo:IAO_0000115": "A monocarboxylic acid that is butyric acid substituted by a 2-methyl-4-chlorophenoxy group at position 4.",
+    "chebi:charge": "0",
+    "chebi:formula": "C11H13ClO3",
+    "chebi:inchi": "InChI=1S/C11H13ClO3/c1-8-7-9(12)4-5-10(8)15-6-2-3-11(13)14/h4-5,7H,2-3,6H2,1H3,(H,13,14)",
+    "chebi:inchikey": "LLWADFLAOKUBDR-UHFFFAOYSA-N",
+    "chebi:smiles": "Cc1cc(Cl)ccc1OCCCC(O)=O",
+    "geneontology:hasDbXref": [
+        "CAS:94-81-5",
+        "KEGG:C18529",
+        "Pesticides:mcpb",
+        "PMID:22500447",
+        "PPDB:428",
+        "Reaxys:2215202"
+    ],
+    "geneontology:hasId": "81806",
+    "geneontology:hasSynonym": [
+        "4-(4-chloro-2-methylphenoxy)butanoic acid",
+        "4-(4-chloro-o-tolyloxy)butyric acid",
+        "MCPB"
+    ],
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#3_STAR"
+    },
+    "rdfs:label": "2-methyl-4-chlorophenoxybutyric acid",
+    "rdfs:subClassOf": [
+        {
+            "@id": "obo:CHEBI_35618"
+        },
+        {
+            "@id": "obo:CHEBI_25384"
+        },
+        {
+            "@id": "obo:CHEBI_83403"
+        },
+        {
+            "@id": "b416_genid-00f1db82e1ab437c844115a94dc63e635-bn81806t11f35703"
+        },
+        {
+            "@id": "b416_genid-00f1db82e1ab437c844115a94dc63e635-bn81806t11f60575"
+        },
+        {
+            "@id": "b416_genid-00f1db82e1ab437c844115a94dc63e635-bn81806t11f78298"
+        }
+    ]
+}

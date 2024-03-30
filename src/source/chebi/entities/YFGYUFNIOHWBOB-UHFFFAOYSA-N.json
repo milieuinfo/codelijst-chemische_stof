@@ -1,0 +1,71 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_8248",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "obo:IAO_0000115": "An aminopyrimidine that is N,N,4,5-tetramethylpyrimidin-2-amine substituted by a (dimethylcarbamoyl)oxy group at position 4.",
+    "chebi:charge": "0",
+    "chebi:formula": "C11H18N4O2",
+    "chebi:inchi": "InChI=1S/C11H18N4O2/c1-7-8(2)12-10(14(3)4)13-9(7)17-11(16)15(5)6/h1-6H3",
+    "chebi:inchikey": "YFGYUFNIOHWBOB-UHFFFAOYSA-N",
+    "chebi:smiles": "CN(C)C(=O)Oc1nc(nc(C)c1C)N(C)C",
+    "geneontology:hasDbXref": [
+        "Beilstein:663442",
+        "CAS:23103-98-2",
+        "KEGG:C11079",
+        "Pesticides:pirimicarb",
+        "PMID:17220085",
+        "PMID:23598106",
+        "PMID:23616278",
+        "PMID:23992615",
+        "PPDB:530",
+        "Reaxys:663442",
+        "Wikipedia:Pirimicarb"
+    ],
+    "geneontology:hasId": "8248",
+    "geneontology:hasSynonym": [
+        "2-(dimethylamino)-5,6-dimethylpyrimidin-4-yl dimethylcarbamate",
+        "Dimethylcarbamic acid 2-(dimethylamino)-5,6-dimethyl-4-pyrimidinyl ester",
+        "Pirimicarb"
+    ],
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#3_STAR"
+    },
+    "rdfs:label": "pirimicarb",
+    "rdfs:subClassOf": [
+        {
+            "@id": "obo:CHEBI_50996"
+        },
+        {
+            "@id": "obo:CHEBI_38338"
+        },
+        {
+            "@id": "obo:CHEBI_23003"
+        },
+        {
+            "@id": "b389_genid-00f1db82e1ab437c844115a94dc63e635-bn8248t11f24852"
+        },
+        {
+            "@id": "b389_genid-00f1db82e1ab437c844115a94dc63e635-bn8248t11f33286"
+        },
+        {
+            "@id": "b389_genid-00f1db82e1ab437c844115a94dc63e635-bn8248t11f35703"
+        },
+        {
+            "@id": "b389_genid-00f1db82e1ab437c844115a94dc63e635-bn8248t11f38461"
+        },
+        {
+            "@id": "b389_genid-00f1db82e1ab437c844115a94dc63e635-bn8248t11f38462"
+        },
+        {
+            "@id": "b389_genid-00f1db82e1ab437c844115a94dc63e635-bn8248t8f38544"
+        },
+        {
+            "@id": "b389_genid-00f1db82e1ab437c844115a94dc63e635-bn8248t11f78298"
+        }
+    ]
+}

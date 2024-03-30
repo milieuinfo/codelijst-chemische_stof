@@ -1,0 +1,47 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_48983",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "obo:IAO_0000115": "A methylquinoline carrying a methyl substituent at position 4.",
+    "chebi:charge": "0",
+    "chebi:formula": "C10H9N",
+    "chebi:inchi": "InChI=1S/C10H9N/c1-8-6-7-11-10-5-3-2-4-9(8)10/h2-7H,1H3",
+    "chebi:inchikey": "MUDSDYNRBDKLGK-UHFFFAOYSA-N",
+    "chebi:smiles": "Cc1ccnc2ccccc12",
+    "http://purl.uniprot.org/core/name": "4-methylquinoline",
+    "geneontology:hasDbXref": [
+        "Beilstein:110926",
+        "CAS:491-35-0",
+        "MetaCyc:CPD-15135",
+        "PMID:8702284",
+        "PMID:8860954",
+        "Reaxys:110926",
+        "Wikipedia:Lepidine"
+    ],
+    "geneontology:hasId": "48983",
+    "geneontology:hasSynonym": [
+        "4-Lepidine",
+        "Cincholepidine",
+        "gamma-Methylquinoline",
+        "Lepidin",
+        "Lepidine",
+        "p-Methylquinoline"
+    ],
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#3_STAR"
+    },
+    "rdfs:label": "4-methylquinoline",
+    "rdfs:subClassOf": [
+        {
+            "@id": "obo:CHEBI_48982"
+        },
+        {
+            "@id": "b575_genid-00f1db82e1ab437c844115a94dc63e635-bn48983t11f25435"
+        }
+    ]
+}

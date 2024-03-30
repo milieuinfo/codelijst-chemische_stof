@@ -1,0 +1,74 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@graph": [
+        {
+            "@id": "obo:CHEBI_22984",
+            "@type": "http://www.w3.org/2002/07/owl#Class",
+            "chebi:charge": "0",
+            "chebi:formula": "Ca",
+            "chebi:inchi": "InChI=1S/Ca",
+            "chebi:inchikey": "OYPRJOBELJOOCE-UHFFFAOYSA-N",
+            "chebi:smiles": "[Ca]",
+            "http://purl.uniprot.org/core/name": "Ca",
+            "geneontology:hasDbXref": [
+                "CAS:7440-70-2",
+                "DrugBank:DB01373",
+                "KEGG:C00076",
+                "WebElements:Ca"
+            ],
+            "geneontology:hasId": "22984",
+            "geneontology:hasSynonym": [
+                "Ca",
+                "20Ca",
+                "calcio",
+                "calcium",
+                "Calcium",
+                "Kalzium"
+            ],
+            "geneontology:inSubset": {
+                "@id": "obo:chebi#3_STAR"
+            },
+            "rdfs:label": "calcium atom",
+            "rdfs:subClassOf": [
+                {
+                    "@id": "obo:CHEBI_22313"
+                },
+                {
+                    "@id": "b57_genid-00f1db82e1ab437c844115a94dc63e635-bn22984t11f33937"
+                }
+            ]
+        },
+        {
+            "@id": "obo:CHEBI_29320",
+            "@type": "http://www.w3.org/2002/07/owl#Class",
+            "chebi:charge": "0",
+            "chebi:formula": "Ca",
+            "chebi:inchi": "InChI=1S/Ca",
+            "chebi:inchikey": "OYPRJOBELJOOCE-UHFFFAOYSA-N",
+            "chebi:smiles": "[Ca]",
+            "geneontology:hasDbXref": [
+                "CAS:7440-70-2",
+                "Beilstein:4241647",
+                "Gmelin:16277"
+            ],
+            "geneontology:hasId": "29320",
+            "geneontology:hasSynonym": [
+                "calcium",
+                "Ca(0)",
+                "Can"
+            ],
+            "geneontology:inSubset": {
+                "@id": "obo:chebi#3_STAR"
+            },
+            "rdfs:label": "calcium(0)",
+            "rdfs:subClassOf": {
+                "@id": "obo:CHEBI_35155"
+            }
+        }
+    ]
+}

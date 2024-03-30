@@ -1,0 +1,50 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_16382",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "chebi:charge": "-1",
+    "chebi:formula": "I",
+    "chebi:inchi": "InChI=1S/HI/h1H/p-1",
+    "chebi:inchikey": "XMBWDFGMSWQBCA-UHFFFAOYSA-M",
+    "chebi:smiles": "[I-]",
+    "http://purl.uniprot.org/core/name": "iodide",
+    "geneontology:hasDbXref": [
+        "Beilstein:3587184",
+        "CAS:20461-54-5",
+        "Gmelin:14912",
+        "KEGG:C00708",
+        "PDBeChem:IOD"
+    ],
+    "geneontology:hasId": "16382",
+    "geneontology:hasSynonym": [
+        "I-",
+        "I(-)",
+        "Iodide",
+        "iodide(1-)",
+        "IODIDE ION",
+        "iodine anion"
+    ],
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#3_STAR"
+    },
+    "rdfs:label": "iodide",
+    "rdfs:subClassOf": [
+        {
+            "@id": "obo:CHEBI_16042"
+        },
+        {
+            "@id": "obo:CHEBI_36897"
+        },
+        {
+            "@id": "b333_genid-00f1db82e1ab437c844115a94dc63e635-bn16382t5f43451"
+        },
+        {
+            "@id": "b333_genid-00f1db82e1ab437c844115a94dc63e635-bn16382t11f77746"
+        }
+    ]
+}

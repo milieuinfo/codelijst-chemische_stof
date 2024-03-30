@@ -1,0 +1,71 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_32368",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "obo:IAO_0000115": "A straight-chain, eleven-carbon saturated medium-chain fatty acid found in body fluids; the most fungitoxic of the C7:0 - C18:0 fatty acid series.",
+    "chebi:charge": "0",
+    "chebi:formula": "C11H22O2",
+    "chebi:inchi": "InChI=1S/C11H22O2/c1-2-3-4-5-6-7-8-9-10-11(12)13/h2-10H2,1H3,(H,12,13)",
+    "chebi:inchikey": "ZDPHROOEEOARMN-UHFFFAOYSA-N",
+    "chebi:smiles": "CCCCCCCCCCC(O)=O",
+    "geneontology:hasDbXref": [
+        "Beilstein:1759287",
+        "CAS:112-37-8",
+        "Gmelin:102992",
+        "HMDB:HMDB0000947",
+        "KEGG:C17715",
+        "LIPID_MAPS_instance:LMFA01010011",
+        "PDBeChem:11A",
+        "PMID:16332663",
+        "PMID:1739406",
+        "PMID:18516670",
+        "Reaxys:1759287",
+        "Wikipedia:Undecylic_acid"
+    ],
+    "geneontology:hasId": "32368",
+    "geneontology:hasSynonym": [
+        "1-decanecarboxylic acid",
+        "CH3-[CH2]9-COOH",
+        "hendecanoic acid",
+        "Hendecanoic acid",
+        "n-undecanoic acid",
+        "n-undecoic acid",
+        "n-undecylic acid",
+        "UDA",
+        "undecoic acid",
+        "undecylic acid",
+        "Undekansaeure"
+    ],
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#3_STAR"
+    },
+    "rdfs:label": "undecanoic acid",
+    "rdfs:subClassOf": [
+        {
+            "@id": "obo:CHEBI_59554"
+        },
+        {
+            "@id": "obo:CHEBI_39418"
+        },
+        {
+            "@id": "b111_genid-00f1db82e1ab437c844115a94dc63e635-bn32368tmms73f32369"
+        },
+        {
+            "@id": "b111_genid-00f1db82e1ab437c844115a94dc63e635-bn32368t4f32369"
+        },
+        {
+            "@id": "b111_genid-00f1db82e1ab437c844115a94dc63e635-bn32368t11f35718"
+        },
+        {
+            "@id": "b111_genid-00f1db82e1ab437c844115a94dc63e635-bn32368t9f46342"
+        },
+        {
+            "@id": "b111_genid-00f1db82e1ab437c844115a94dc63e635-bn32368t11f77746"
+        }
+    ]
+}

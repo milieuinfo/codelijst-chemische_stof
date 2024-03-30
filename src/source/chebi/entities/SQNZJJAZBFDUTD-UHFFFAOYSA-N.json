@@ -1,0 +1,42 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_38978",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "obo:IAO_0000115": "A tetramethylbenzene carrying methyl groups at positions 1, 2, 4 and 5.",
+    "chebi:charge": "0",
+    "chebi:formula": "C10H14",
+    "chebi:inchi": "InChI=1S/C10H14/c1-7-5-9(3)10(4)6-8(7)2/h5-6H,1-4H3",
+    "chebi:inchikey": "SQNZJJAZBFDUTD-UHFFFAOYSA-N",
+    "chebi:smiles": "Cc1cc(C)c(C)cc1C",
+    "geneontology:hasDbXref": [
+        "PMID:24315030",
+        "Beilstein:1903393",
+        "CAS:95-93-2",
+        "Gmelin:101593",
+        "KEGG:C14534",
+        "PMID:11530642",
+        "PMID:21319859",
+        "Reaxys:1903393",
+        "Wikipedia:Durene"
+    ],
+    "geneontology:hasId": "38978",
+    "geneontology:hasSynonym": [
+        "1,2,4,5-tetramethylbenzene",
+        "1,2,4,5-Tetramethylbenzene",
+        "2,5-dimethyl-p-xylene",
+        "Durene",
+        "Durol"
+    ],
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#3_STAR"
+    },
+    "rdfs:label": "durene",
+    "rdfs:subClassOf": {
+        "@id": "obo:CHEBI_38977"
+    }
+}

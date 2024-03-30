@@ -1,0 +1,35 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_89195",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "chebi:charge": "0",
+    "chebi:formula": "C9H18O",
+    "chebi:inchi": "InChI=1S/C9H18O/c1-7(2)5-9(10)6-8(3)4/h7-8H,5-6H2,1-4H3",
+    "chebi:inchikey": "PTTPXKJBFFKCEK-UHFFFAOYSA-N",
+    "chebi:smiles": "O=C(CC(C)C)CC(C)C",
+    "geneontology:hasDbXref": [
+        "CAS:626-33-5",
+        "HMDB:HMDB0013821"
+    ],
+    "geneontology:hasId": "89195",
+    "geneontology:hasSynonym": [
+        "2,6-dimethylheptan-4-one",
+        "2-methyl-4-heptanone",
+        "2-Methylheptan-4-one",
+        "4-Heptanone, 2-methyl-",
+        "Isobutyl N-propyl ketone",
+        "Isobutyl propyl ketone"
+    ],
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#2_STAR"
+    },
+    "rdfs:label": "2-Methyl-4-heptanone",
+    "rdfs:subClassOf": {
+        "@id": "obo:CHEBI_17087"
+    }
+}

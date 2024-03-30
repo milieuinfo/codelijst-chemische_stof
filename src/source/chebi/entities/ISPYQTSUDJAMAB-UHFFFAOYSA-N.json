@@ -1,0 +1,42 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_47083",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "chebi:charge": "0",
+    "chebi:formula": "C6H5ClO",
+    "chebi:inchi": "InChI=1S/C6H5ClO/c7-5-3-1-2-4-6(5)8/h1-4,8H",
+    "chebi:inchikey": "ISPYQTSUDJAMAB-UHFFFAOYSA-N",
+    "chebi:smiles": "Oc1ccccc1Cl",
+    "geneontology:hasDbXref": [
+        "Beilstein:1905114",
+        "CAS:95-57-8",
+        "DrugBank:DB03110",
+        "Gmelin:2999",
+        "KEGG:C14219",
+        "PDBeChem:2CH"
+    ],
+    "geneontology:hasId": "47083",
+    "geneontology:hasSynonym": [
+        "2-Chloro-1-hydroxybenzene",
+        "2-Chlorophenol",
+        "2-CHLOROPHENOL",
+        "o-chlorophenol"
+    ],
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#3_STAR"
+    },
+    "rdfs:label": "2-chlorophenol",
+    "rdfs:subClassOf": [
+        {
+            "@id": "obo:CHEBI_53291"
+        },
+        {
+            "@id": "obo:CHEBI_38857"
+        }
+    ]
+}

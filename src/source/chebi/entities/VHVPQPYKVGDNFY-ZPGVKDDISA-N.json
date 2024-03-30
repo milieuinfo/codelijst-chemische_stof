@@ -1,0 +1,80 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_6076",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "obo:IAO_0000115": "An N-arylpiperazine that is cis-ketoconazole in which the imidazol-1-yl group is replaced by a 1,2,4-triazol-1-yl group and in which the actyl group attached to the piperazine moiety is replaced by a p-[(+-)1-sec-butyl-5-oxo-1,5-dihydro-4H-1,2,4-triazol-4-yl]phenyl group. A potent P-glycoprotein and CYP3A4 inhibitor, it is used as an antifungal drug for the treatment of various fungal infections, including aspergillosis, blastomycosis, candidiasis, chromoblastomycosis, coccidioidomycosis, cryptococcosis, histoplasmosis, and sporotrichosis.",
+    "chebi:charge": "0",
+    "chebi:formula": "C35H38Cl2N8O4",
+    "chebi:inchi": "InChI=1S/C35H38Cl2N8O4/c1-3-25(2)45-34(46)44(24-40-45)29-7-5-27(6-8-29)41-14-16-42(17-15-41)28-9-11-30(12-10-28)47-19-31-20-48-35(49-31,21-43-23-38-22-39-43)32-13-4-26(36)18-33(32)37/h4-13,18,22-25,31H,3,14-17,19-21H2,1-2H3/t25?,31-,35-/m0/s1",
+    "chebi:inchikey": "VHVPQPYKVGDNFY-ZPGVKDDISA-N",
+    "chebi:smiles": "CCC(C)n1ncn(-c2ccc(cc2)N2CCN(CC2)c2ccc(OC[C@H]3CO[C@@](Cn4cncn4)(O3)c3ccc(Cl)cc3Cl)cc2)c1=O",
+    "http://purl.uniprot.org/core/name": "itraconazole",
+    "geneontology:hasDbXref": [
+        "CAS:84625-61-6",
+        "DrugBank:DB01167",
+        "KEGG:D00350",
+        "Patent:EP6711",
+        "Patent:US4267179",
+        "PMID:11219548",
+        "PMID:11403818",
+        "PMID:11422002",
+        "PMID:15521894",
+        "PMID:19025521",
+        "PMID:20400651",
+        "PMID:25326091",
+        "VSDB:1853",
+        "Wikipedia:Itraconazole"
+    ],
+    "geneontology:hasId": "6076",
+    "geneontology:hasSynonym": [
+        "2-(butan-2-yl)-4-{4-[4-(4-{[(2R,4S)-2-(2,4-dichlorophenyl)-2-(1H-1,2,4-triazol-1-ylmethyl)-1,3-dioxolan-4-yl]methoxy}phenyl)piperazin-1-yl]phenyl}-2,4-dihydro-3H-1,2,4-triazol-3-one",
+        "Itraconazole",
+        "Itrizole (TN)",
+        "Oriconazole",
+        "Sporanox (TN)"
+    ],
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#3_STAR"
+    },
+    "rdfs:label": "itraconazole",
+    "rdfs:subClassOf": [
+        {
+            "@id": "obo:CHEBI_35618"
+        },
+        {
+            "@id": "obo:CHEBI_35727"
+        },
+        {
+            "@id": "obo:CHEBI_23697"
+        },
+        {
+            "@id": "obo:CHEBI_59779"
+        },
+        {
+            "@id": "obo:CHEBI_46848"
+        },
+        {
+            "@id": "obo:CHEBI_87071"
+        },
+        {
+            "@id": "obo:CHEBI_39430"
+        },
+        {
+            "@id": "b426_genid-00f1db82e1ab437c844115a94dc63e635-bn6076t11f50183"
+        },
+        {
+            "@id": "b426_genid-00f1db82e1ab437c844115a94dc63e635-bn6076t11f77748"
+        },
+        {
+            "@id": "obo:CHEBI_87101"
+        },
+        {
+            "@id": "b426_genid-00f1db82e1ab437c844115a94dc63e635-bn6076t11f140921"
+        }
+    ]
+}

@@ -1,0 +1,75 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_17747",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "obo:IAO_0000115": "A phthalate ester that is the bis(2-ethylhexyl) ester of benzene-1,2-dicarboxylic acid.",
+    "chebi:charge": "0",
+    "chebi:formula": "C24H38O4",
+    "chebi:inchi": "InChI=1S/C24H38O4/c1-5-9-13-19(7-3)17-27-23(25)21-15-11-12-16-22(21)24(26)28-18-20(8-4)14-10-6-2/h11-12,15-16,19-20H,5-10,13-14,17-18H2,1-4H3",
+    "chebi:inchikey": "BJQHLKABXJIVAM-UHFFFAOYSA-N",
+    "chebi:smiles": "CCCCC(CC)COC(=O)c1ccccc1C(=O)OCC(CC)CCCC",
+    "http://purl.uniprot.org/core/name": "bis(2-ethylhexyl)phthalate",
+    "geneontology:hasDbXref": [
+        "Beilstein:1890696",
+        "CAS:117-81-7",
+        "KEGG:C03690",
+        "MetaCyc:BIS2-ETHYLHEXYLPHTHALATE",
+        "PMID:12963402",
+        "PMID:16874505",
+        "PMID:17286146",
+        "PMID:19211671",
+        "PMID:19840837",
+        "PMID:28199414",
+        "PMID:28763719",
+        "Reaxys:1890696",
+        "Wikipedia:Bis(2-ethylhexyl)_phthalate"
+    ],
+    "geneontology:hasId": "17747",
+    "geneontology:hasSynonym": [
+        "bis(2-ethylhexyl)phthalate",
+        "2-Ethylhexyl phthalate",
+        "1,2-Benzenedicarboxylic acid bis(2-ethylhexyl) ester",
+        "bis(2-ethylhexyl) benzene-1,2-dicarboxylate",
+        "Bis(2-ethylhexyl) o-phthalate",
+        "Bis(2-ethylhexyl)phthalate",
+        "Bis(ethylhexyl) phthalate",
+        "DEHP",
+        "Di(2-ethylhexyl) o-phthalate",
+        "Di(2-ethylhexyl)orthophthalate",
+        "Di(2-ethylhexyl)phthalate",
+        "Di(ethylhexyl) phthalate",
+        "Diethylhexyl phthalate",
+        "di-iso-Octyl phthalate",
+        "Dioctyl phthalate",
+        "Di-sec-octyl phthalate",
+        "Octyl phthalate",
+        "Phthalic acid bis(2-ethylhexyl) ester",
+        "Phthalic acid di(2-ethylhexyl) ester"
+    ],
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#3_STAR"
+    },
+    "rdfs:label": "bis(2-ethylhexyl) phthalate",
+    "rdfs:subClassOf": [
+        {
+            "@id": "obo:CHEBI_51307"
+        },
+        {
+            "@id": "obo:CHEBI_35484"
+        },
+        {
+            "@id": "b229_genid-00f1db82e1ab437c844115a94dc63e635-bn17747t11f68494"
+        },
+        {
+            "@id": "b229_genid-00f1db82e1ab437c844115a94dc63e635-bn17747t11f77326"
+        },
+        {
+            "@id": "b229_genid-00f1db82e1ab437c844115a94dc63e635-bn17747t11f79056"
+        }
+    ]
+}

@@ -1,0 +1,47 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_5569",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "obo:IAO_0000115": "A member of the class of guanidines that is dioctylamine in which a hydrogen from each of the terminal methyl groups is replaced by a guanidino group. Once used as a fungicidal seed dressing, it is no longer approved for use in the European Union.",
+    "chebi:charge": "0",
+    "chebi:formula": "C18H41N7",
+    "chebi:inchi": "InChI=1S/C18H41N7/c19-17(20)24-15-11-7-3-1-5-9-13-23-14-10-6-2-4-8-12-16-25-18(21)22/h23H,1-16H2,(H4,19,20,24)(H4,21,22,25)",
+    "chebi:inchikey": "RONFGUROBZGJKP-UHFFFAOYSA-N",
+    "chebi:smiles": "NC(=N)NCCCCCCCCNCCCCCCCCNC(N)=N",
+    "geneontology:hasDbXref": [
+        "CAS:13516-27-3",
+        "KEGG:C10997",
+        "PDBeChem:GZZ",
+        "Pesticides:iminoctadine",
+        "PPDB:398",
+        "Reaxys:1995978"
+    ],
+    "geneontology:hasId": "5569",
+    "geneontology:hasSynonym": [
+        "1,1'-(iminodioctane-8,1-diyl)diguanidine",
+        "Guazatine"
+    ],
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#3_STAR"
+    },
+    "rdfs:label": "iminoctadine",
+    "rdfs:subClassOf": [
+        {
+            "@id": "obo:CHEBI_50995"
+        },
+        {
+            "@id": "obo:CHEBI_24436"
+        },
+        {
+            "@id": "b87_genid-00f1db82e1ab437c844115a94dc63e635-bn5569t11f86328"
+        },
+        {
+            "@id": "obo:CHEBI_86417"
+        }
+    ]
+}

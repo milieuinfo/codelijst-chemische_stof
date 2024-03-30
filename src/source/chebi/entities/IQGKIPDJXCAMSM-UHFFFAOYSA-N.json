@@ -1,0 +1,54 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_83335",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "obo:IAO_0000115": "A member of the class of benzotriazines that is 1,2,4-benzotriazine 1-oxide which is substituted by chlorine at position 7 and by a 1H-imidazol-1-yl group at position 3. A fungicide, it is used as a seed treatment for control of seed-borne Pyrenophora graminea and Pyrenophora teres in barley.",
+    "chebi:charge": "0",
+    "chebi:formula": "C10H6ClN5O",
+    "chebi:inchi": "InChI=1S/C10H6ClN5O/c11-7-1-2-8-9(5-7)16(17)14-10(13-8)15-4-3-12-6-15/h1-6H",
+    "chebi:inchikey": "IQGKIPDJXCAMSM-UHFFFAOYSA-N",
+    "chebi:smiles": "[O-][n+]1nc(nc2ccc(Cl)cc12)-n1ccnc1",
+    "geneontology:hasDbXref": [
+        "CAS:72459-58-6",
+        "Patent:DE2802488",
+        "Patent:US4239760",
+        "PDBeChem:triazoxide",
+        "PMID:25269251",
+        "PPDB:654",
+        "Reaxys:617803"
+    ],
+    "geneontology:hasId": "83335",
+    "geneontology:hasSynonym": [
+        "7-chloro-3-(1H-imidazol-1-yl)-1,2,4-benzotriazine 1-oxide",
+        "7-chloro-3-imidazol-1-yl-1,2,4-benzotriazine 1-oxide"
+    ],
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#3_STAR"
+    },
+    "rdfs:label": "triazoxide",
+    "rdfs:subClassOf": [
+        {
+            "@id": "obo:CHEBI_36683"
+        },
+        {
+            "@id": "obo:CHEBI_24780"
+        },
+        {
+            "@id": "obo:CHEBI_35580"
+        },
+        {
+            "@id": "obo:CHEBI_51361"
+        },
+        {
+            "@id": "obo:CHEBI_87068"
+        },
+        {
+            "@id": "b7_genid-00f1db82e1ab437c844115a94dc63e635-bn83335t11f86328"
+        }
+    ]
+}

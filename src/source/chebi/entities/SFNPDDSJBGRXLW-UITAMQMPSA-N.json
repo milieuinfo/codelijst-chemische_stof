@@ -1,0 +1,53 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_38465",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "chebi:charge": "0",
+    "chebi:formula": "C7H14N2O2S",
+    "chebi:inchi": "InChI=1S/C7H14N2O2S/c1-5(6(2)12-4)9-11-7(10)8-3/h6H,1-4H3,(H,8,10)/b9-5-",
+    "chebi:inchikey": "SFNPDDSJBGRXLW-UITAMQMPSA-N",
+    "chebi:smiles": "CNC(=O)O\\N=C(\\C)C(C)SC",
+    "geneontology:hasDbXref": [
+        "Beilstein:2087348",
+        "CAS:34681-10-2",
+        "KEGG:C18645"
+    ],
+    "geneontology:hasId": "38465",
+    "geneontology:hasSynonym": [
+        "(2E)-2-(([(Methylamino)carbonyl]oxy)imino)-3-(methylsulfanyl)butane",
+        "3-(Methylthio)-2-butanone O-((methylamino)carbonyl)oxime",
+        "3-(Methylthio)-2-butanone O-(methylcarbamoyl)oxime",
+        "Afiline",
+        "Butocarboxime",
+        "N-(methylcarbamoyloxy)-3-(methylsulfanyl)butan-2-imine"
+    ],
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#3_STAR"
+    },
+    "rdfs:label": "butocarboxim",
+    "rdfs:subClassOf": [
+        {
+            "@id": "obo:CHEBI_23003"
+        },
+        {
+            "@id": "b344_genid-00f1db82e1ab437c844115a94dc63e635-bn38465t11f22153"
+        },
+        {
+            "@id": "b344_genid-00f1db82e1ab437c844115a94dc63e635-bn38465t11f33286"
+        },
+        {
+            "@id": "b344_genid-00f1db82e1ab437c844115a94dc63e635-bn38465t11f38461"
+        },
+        {
+            "@id": "b344_genid-00f1db82e1ab437c844115a94dc63e635-bn38465t11f38462"
+        },
+        {
+            "@id": "b344_genid-00f1db82e1ab437c844115a94dc63e635-bn38465t8f38469"
+        }
+    ]
+}

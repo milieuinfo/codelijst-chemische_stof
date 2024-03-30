@@ -1,0 +1,50 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_63484",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "obo:IAO_0000115": "A tertiary amino compound that consists of glycine bearing two N-phosphonomethyl substituents.",
+    "chebi:charge": "0",
+    "chebi:formula": "C4H11NO8P2",
+    "chebi:inchi": "InChI=1S/C4H11NO8P2/c6-4(7)1-5(2-14(8,9)10)3-15(11,12)13/h1-3H2,(H,6,7)(H2,8,9,10)(H2,11,12,13)",
+    "chebi:inchikey": "OXHDYFKENBXUEM-UHFFFAOYSA-N",
+    "chebi:smiles": "OC(=O)CN(CP(O)(O)=O)CP(O)(O)=O",
+    "geneontology:hasDbXref": [
+        "PMID:22043012",
+        "CAS:2439-99-8",
+        "KEGG:C19132",
+        "Patent:CN101314607",
+        "PMID:10606568",
+        "PMID:6710535",
+        "PPDB:2795",
+        "Reaxys:1884944"
+    ],
+    "geneontology:hasId": "63484",
+    "geneontology:hasSynonym": [
+        "Glyphosphine",
+        "N,N-bis(phosphonomethyl)aminoacetic acid",
+        "N,N-bis(phosphonomethyl)glycine"
+    ],
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#3_STAR"
+    },
+    "rdfs:label": "glyphosine",
+    "rdfs:subClassOf": [
+        {
+            "@id": "obo:CHEBI_50996"
+        },
+        {
+            "@id": "obo:CHEBI_26069"
+        },
+        {
+            "@id": "obo:CHEBI_24373"
+        },
+        {
+            "@id": "b42_genid-00f1db82e1ab437c844115a94dc63e635-bn63484t11f35219"
+        }
+    ]
+}

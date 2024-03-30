@@ -1,0 +1,55 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_3830",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "obo:IAO_0000115": "A monoterpene with a bicyclic skeleton that is bicyclo[2.2.1]heptane substituted by geminal methyl groups at position 2 and a methylidene group at position 3. It is a widespread natural product found in many essential oils.",
+    "chebi:charge": "0",
+    "chebi:formula": "C10H16",
+    "chebi:inchi": "InChI=1S/C10H16/c1-7-8-4-5-9(6-8)10(7,2)3/h8-9H,1,4-6H2,2-3H3",
+    "chebi:inchikey": "CRPUJAZIXJMDBK-UHFFFAOYSA-N",
+    "chebi:smiles": "CC1(C)C2CCC(C2)C1=C",
+    "geneontology:hasDbXref": [
+        "BPDB:2109",
+        "CAS:79-92-5",
+        "HMDB:HMDB0059839",
+        "KEGG:C06076",
+        "KNApSAcK:C00003029",
+        "PMID:15949824",
+        "PMID:23513745",
+        "Reaxys:1903765",
+        "Wikipedia:Camphene"
+    ],
+    "geneontology:hasId": "3830",
+    "geneontology:hasSynonym": [
+        "2,2-dimethyl-3-methylenebicyclo[2.2.1]heptane",
+        "2,2-dimethyl-3-methylenenorbornane",
+        "2,2-dimethyl-3-methylidenebicyclo[2.2.1]heptane",
+        "3,3-dimethyl-2-methylenenorbornane",
+        "3,3-dimethyl-2-methylenenorcamphane",
+        "Camphene",
+        "Comphene"
+    ],
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#3_STAR"
+    },
+    "rdfs:label": "camphene",
+    "rdfs:subClassOf": [
+        {
+            "@id": "obo:CHEBI_35187"
+        },
+        {
+            "@id": "obo:CHEBI_36785"
+        },
+        {
+            "@id": "b354_genid-00f1db82e1ab437c844115a94dc63e635-bn3830t11f48318"
+        },
+        {
+            "@id": "b354_genid-00f1db82e1ab437c844115a94dc63e635-bn3830t11f76924"
+        }
+    ]
+}

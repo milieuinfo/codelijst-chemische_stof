@@ -1,0 +1,44 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_49747",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "chebi:charge": "+1",
+    "chebi:formula": "CH3Hg",
+    "chebi:inchi": "InChI=1S/CH3.Hg/h1H3;/q;+1",
+    "chebi:inchikey": "DBUXSCUEGJMZAE-UHFFFAOYSA-N",
+    "chebi:smiles": "C[Hg+]",
+    "geneontology:hasDbXref": [
+        "Beilstein:3902999",
+        "CAS:22967-92-6",
+        "DrugBank:DB03674",
+        "Gmelin:1406",
+        "KEGG:C18672",
+        "PDBeChem:MMC"
+    ],
+    "geneontology:hasId": "49747",
+    "geneontology:hasSynonym": [
+        "[HgCH3](+)",
+        "[HgMe](+)",
+        "CH3Hg(+)",
+        "CH3Hg+",
+        "methylmercury(II)",
+        "methylmercury(II) cation",
+        "Methylmercury II",
+        "Methylmercury ion",
+        "METHYL MERCURY ION",
+        "methylmercury ion(1+)",
+        "monomethylmercury cation"
+    ],
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#3_STAR"
+    },
+    "rdfs:label": "methylmercury(1+)",
+    "rdfs:subClassOf": {
+        "@id": "obo:CHEBI_25322"
+    }
+}

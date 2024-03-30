@@ -1,0 +1,69 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_2962",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "obo:IAO_0000115": "A carboxylic ester that is the methyl ester of (2E)-(methoxyimino){2-[(2-methylphenoxy)methyl]phenyl}acetic acid. A fungicide for the control of scab on apples and pears and other fungal diseases on a wide range of crops.",
+    "chebi:charge": "0",
+    "chebi:formula": "C18H19NO4",
+    "chebi:inchi": "InChI=1S/C18H19NO4/c1-13-8-4-7-11-16(13)23-12-14-9-5-6-10-15(14)17(19-22-3)18(20)21-2/h4-11H,12H2,1-3H3/b19-17+",
+    "chebi:inchikey": "ZOTBXTZVPHCKPN-HTXNQAPBSA-N",
+    "chebi:smiles": "CO\\N=C(\\C(=O)OC)c1ccccc1COc1ccccc1C",
+    "geneontology:hasDbXref": [
+        "CAS:143390-89-0",
+        "KEGG:C11017",
+        "Pesticides:kresoxim-methyl",
+        "PMID:23197469",
+        "PMID:23277369",
+        "PMID:23452212",
+        "PMID:24061350",
+        "PMID:24210350",
+        "PMID:24611510",
+        "PMID:24936710",
+        "PMID:24997920",
+        "PPDB:414",
+        "Reaxys:8330581"
+    ],
+    "geneontology:hasId": "2962",
+    "geneontology:hasSynonym": [
+        "BAS 490 F",
+        "methyl (2E)-(methoxyimino){2-[(2-methylphenoxy)methyl]phenyl}acetate",
+        "methyl (alphaE)-alpha-(methoxyimino)-2-[(2-methylphenoxy)methyl]benzeneacetate",
+        "Methyl (E)-alpha-(methoxyimino)-2-((2-methylphenoxy)methyl)benzeneacetate",
+        "methyl (E)-methoxyimino[alpha-(o-tolyloxy)-o-tolyl]acetate"
+    ],
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#3_STAR"
+    },
+    "rdfs:label": "kresoxim-methyl",
+    "rdfs:subClassOf": [
+        {
+            "@id": "obo:CHEBI_35618"
+        },
+        {
+            "@id": "obo:CHEBI_25248"
+        },
+        {
+            "@id": "b171_genid-00f1db82e1ab437c844115a94dc63e635-bn2962t11f35703"
+        },
+        {
+            "@id": "obo:CHEBI_36816"
+        },
+        {
+            "@id": "b171_genid-00f1db82e1ab437c844115a94dc63e635-bn2962t11f38499"
+        },
+        {
+            "@id": "b171_genid-00f1db82e1ab437c844115a94dc63e635-bn2962t11f78298"
+        },
+        {
+            "@id": "b171_genid-00f1db82e1ab437c844115a94dc63e635-bn2962t11f86328"
+        },
+        {
+            "@id": "obo:CHEBI_86488"
+        }
+    ]
+}

@@ -1,0 +1,63 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_53556",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "obo:IAO_0000115": "A toluene meta-diisocyanate in which the isocyanato groups are at positions 2 and 4 relative to the methyl group on the benzene ring.",
+    "chebi:charge": "0",
+    "chebi:formula": "C9H6N2O2",
+    "chebi:inchi": "InChI=1S/C9H6N2O2/c1-7-2-3-8(10-5-12)4-9(7)11-6-13/h2-4H,1H3",
+    "chebi:inchikey": "DVKJHBMWWAPEIU-UHFFFAOYSA-N",
+    "chebi:smiles": "Cc1ccc(cc1N=C=O)N=C=O",
+    "geneontology:hasDbXref": [
+        "PMID:25042713",
+        "PMID:19647056",
+        "PMID:17042142",
+        "PMID:21878336",
+        "PMID:24572447",
+        "PMID:6296214",
+        "Beilstein:744602",
+        "CAS:584-84-9",
+        "PMID:21725071",
+        "PMID:22151392",
+        "PMID:22206939",
+        "PMID:22229538",
+        "PMID:24950844",
+        "PMID:9811173",
+        "Reaxys:744602",
+        "Wikipedia:Toluene_diisocyanate"
+    ],
+    "geneontology:hasId": "53556",
+    "geneontology:hasSynonym": [
+        "TDI",
+        "2,4-diisocyanato-1-methylbenzene",
+        "2,4-Diisocyanatotoluene",
+        "2,4-TDI",
+        "2,4-Toluene diisocyanate",
+        "2,4-Tolylene diisocyanate",
+        "4-Methyl-m-phenylene diisocyanate",
+        "Isocyanic acid, 4-methyl-m-phenylene ester",
+        "toluene-2,4-diyl diisocyanate",
+        "Toluylene-2,4-diisocyanate",
+        "Tolylene-2,4-diisocyanate"
+    ],
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#3_STAR"
+    },
+    "rdfs:label": "toluene 2,4-diisocyanate",
+    "rdfs:subClassOf": [
+        {
+            "@id": "obo:CHEBI_53555"
+        },
+        {
+            "@id": "b132_genid-00f1db82e1ab437c844115a94dc63e635-bn53556t11f50904"
+        },
+        {
+            "@id": "b132_genid-00f1db82e1ab437c844115a94dc63e635-bn53556t11f59174"
+        }
+    ]
+}

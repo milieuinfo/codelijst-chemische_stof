@@ -1,0 +1,82 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_30776",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "obo:IAO_0000115": "A C6, straight-chain saturated fatty acid.",
+    "chebi:charge": "0",
+    "chebi:formula": "C6H12O2",
+    "chebi:inchi": "InChI=1S/C6H12O2/c1-2-3-4-5-6(7)8/h2-5H2,1H3,(H,7,8)",
+    "chebi:inchikey": "FUZZWVXGSFPDMH-UHFFFAOYSA-N",
+    "chebi:smiles": "CCCCCC(O)=O",
+    "geneontology:hasDbXref": [
+        "ECMDB:ECMDB21229",
+        "KEGG:C01585",
+        "MetaCyc:HEXANOATE",
+        "PMID:1556177",
+        "Beilstein:773837",
+        "CAS:142-62-1",
+        "Gmelin:185066",
+        "HMDB:HMDB0000535",
+        "KNApSAcK:C00001218",
+        "LIPID_MAPS_instance:LMFA01010006",
+        "PDBeChem:6NA",
+        "PMID:10685018",
+        "PMID:24357269",
+        "PMID:24924750",
+        "Reaxys:773837",
+        "Wikipedia:Hexanoic_acid",
+        "YMDB:YMDB01424"
+    ],
+    "geneontology:hasId": "30776",
+    "geneontology:hasSynonym": [
+        "1-hexanoic acid",
+        "1-pentanecarboxylic acid",
+        "6:0",
+        "butylacetic acid",
+        "C6:0",
+        "caproic acid",
+        "capronic acid",
+        "CH3-[CH2]4-COOH",
+        "Hexanoate",
+        "Hexanoic acid",
+        "HEXANOIC ACID",
+        "hexoic acid",
+        "Hexylic acid",
+        "n-Caproic acid",
+        "n-hexanoic acid",
+        "n-hexoic acid",
+        "n-hexylic acid",
+        "Pentanecarboxylic acid",
+        "pentiformic acid",
+        "pentylformic acid"
+    ],
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#3_STAR"
+    },
+    "rdfs:label": "hexanoic acid",
+    "rdfs:subClassOf": [
+        {
+            "@id": "obo:CHEBI_59554"
+        },
+        {
+            "@id": "obo:CHEBI_39418"
+        },
+        {
+            "@id": "b251_genid-00f1db82e1ab437c844115a94dc63e635-bn30776tmms73f17120"
+        },
+        {
+            "@id": "b251_genid-00f1db82e1ab437c844115a94dc63e635-bn30776t4f17120"
+        },
+        {
+            "@id": "b251_genid-00f1db82e1ab437c844115a94dc63e635-bn30776t11f76924"
+        },
+        {
+            "@id": "b251_genid-00f1db82e1ab437c844115a94dc63e635-bn30776t11f77746"
+        }
+    ]
+}

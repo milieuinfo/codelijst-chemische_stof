@@ -1,0 +1,63 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_17700",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "obo:IAO_0000115": "A dialkyl ketone with methyl and nonyl as the two alkyl groups.",
+    "chebi:charge": "0",
+    "chebi:formula": "C11H22O",
+    "chebi:inchi": "InChI=1S/C11H22O/c1-3-4-5-6-7-8-9-10-11(2)12/h3-10H2,1-2H3",
+    "chebi:inchikey": "KYWIYKKSMDLRDC-UHFFFAOYSA-N",
+    "chebi:smiles": "CCCCCCCCCC(C)=O",
+    "http://purl.uniprot.org/core/name": "2-undecanone",
+    "geneontology:hasDbXref": [
+        "CAS:112-12-9",
+        "DrugBank:DB08688",
+        "HMDB:HMDB0033713",
+        "KEGG:C01875",
+        "KNApSAcK:C00030758",
+        "LIPID_MAPS_instance:LMFA12000002",
+        "MetaCyc:2-UNDECANONE",
+        "PDBeChem:UOC",
+        "PMID:17453350",
+        "PMID:20931852",
+        "PMID:21366058",
+        "PMID:21738794",
+        "PMID:23292923",
+        "PPDB:1397",
+        "Reaxys:1749573",
+        "Wikipedia:2-Undecanone"
+    ],
+    "geneontology:hasId": "17700",
+    "geneontology:hasSynonym": [
+        "2-undecanone",
+        "2-hendecanone",
+        "2-Hendecanone",
+        "2-Undecanone",
+        "Methyl nonyl ketone",
+        "rue ketone",
+        "Undecan-2-one"
+    ],
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#3_STAR"
+    },
+    "rdfs:label": "undecan-2-one",
+    "rdfs:subClassOf": [
+        {
+            "@id": "obo:CHEBI_18044"
+        },
+        {
+            "@id": "obo:CHEBI_51867"
+        },
+        {
+            "@id": "b334_genid-00f1db82e1ab437c844115a94dc63e635-bn17700t11f33288"
+        },
+        {
+            "@id": "b334_genid-00f1db82e1ab437c844115a94dc63e635-bn17700t11f76924"
+        }
+    ]
+}

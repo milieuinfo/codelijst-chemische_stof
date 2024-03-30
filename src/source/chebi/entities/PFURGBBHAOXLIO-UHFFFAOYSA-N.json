@@ -1,0 +1,33 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_24567",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "obo:IAO_0000115": "A diol that consists of a cyclohexane skeleton carrying two hydroxy substituents.",
+    "chebi:charge": "0",
+    "chebi:formula": "C6H12O2",
+    "chebi:inchi": "InChI=1S/C6H12O2/c7-5-3-1-2-4-6(5)8/h5-8H,1-4H2",
+    "chebi:inchikey": "PFURGBBHAOXLIO-UHFFFAOYSA-N",
+    "chebi:smiles": "OC1CCCCC1O",
+    "geneontology:hasDbXref": [
+        "CAS:931-17-9",
+        "Reaxys:2036627",
+        "Wikipedia:Cyclohexane-1,2-diol"
+    ],
+    "geneontology:hasId": "24567",
+    "geneontology:hasSynonym": [
+        "1,2-Cyclohexanediol",
+        "2-Hydroxycyclohexanol"
+    ],
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#3_STAR"
+    },
+    "rdfs:label": "cyclohexane-1,2-diol",
+    "rdfs:subClassOf": {
+        "@id": "obo:CHEBI_23824"
+    }
+}

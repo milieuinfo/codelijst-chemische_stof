@@ -1,0 +1,66 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_207496",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "obo:IAO_0000115": "A furan bearing a hydroxymethyl substituent at the 2-position.",
+    "chebi:charge": "0",
+    "chebi:formula": "C5H6O2",
+    "chebi:inchi": "InChI=1S/C5H6O2/c6-4-5-2-1-3-7-5/h1-3,6H,4H2",
+    "chebi:inchikey": "XPFVYQJUAUNWIW-UHFFFAOYSA-N",
+    "chebi:smiles": "OCc1ccco1",
+    "geneontology:hasDbXref": [
+        "PMID:2917974",
+        "PMID:22648683",
+        "Beilstein:106291",
+        "CAS:98-00-0",
+        "HMDB:HMDB0013742",
+        "KEGG:C20441",
+        "MetaCyc:CPD-14102",
+        "PMID:15081000",
+        "PMID:22785445",
+        "PMID:23466497",
+        "PMID:24215289",
+        "Reaxys:106291",
+        "Wikipedia:Furfuryl_alcohol"
+    ],
+    "geneontology:hasId": "207496",
+    "geneontology:hasSynonym": [
+        "(2-furyl)methanol",
+        "2-Furancarbinol",
+        "2-Furane-methanol",
+        "2-Furanmethanol",
+        "2-Furanylmethanol",
+        "2-Furfuryl alcohol",
+        "2-Furylcarbinol",
+        "2-Furylmethanol",
+        "2-Hydroxymethylfuran",
+        "2-hydroxymethylfurane",
+        "5-Hydroxymethylfuran",
+        "alpha-furylcarbinol",
+        "furan-2-ylmethanol",
+        "Furan-2-yl-methanol",
+        "Furfural alcohol",
+        "Furfuranol",
+        "Furylcarbinol"
+    ],
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#3_STAR"
+    },
+    "rdfs:label": "furfuryl alcohol",
+    "rdfs:subClassOf": [
+        {
+            "@id": "obo:CHEBI_15734"
+        },
+        {
+            "@id": "obo:CHEBI_24129"
+        },
+        {
+            "@id": "b435_genid-00f1db82e1ab437c844115a94dc63e635-bn207496t11f77523"
+        }
+    ]
+}

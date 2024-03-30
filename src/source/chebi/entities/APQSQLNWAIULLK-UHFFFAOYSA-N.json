@@ -1,0 +1,35 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_48609",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "obo:IAO_0000115": "A dimethylnaphthalene carrying methyl groups at positions 1 and 4.",
+    "chebi:charge": "0",
+    "chebi:formula": "C12H12",
+    "chebi:inchi": "InChI=1S/C12H12/c1-9-7-8-10(2)12-6-4-3-5-11(9)12/h3-8H,1-2H3",
+    "chebi:inchikey": "APQSQLNWAIULLK-UHFFFAOYSA-N",
+    "chebi:smiles": "Cc1ccc(C)c2ccccc12",
+    "geneontology:hasDbXref": [
+        "Patent:EP1852409",
+        "Beilstein:2039842",
+        "BPDB:2518",
+        "CAS:571-58-4",
+        "PMID:11276846",
+        "PMID:22113341",
+        "PPDB:2518",
+        "Reaxys:2039842"
+    ],
+    "geneontology:hasId": "48609",
+    "geneontology:hasSynonym": "1,4-DMN",
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#3_STAR"
+    },
+    "rdfs:label": "1,4-dimethylnaphthalene",
+    "rdfs:subClassOf": {
+        "@id": "obo:CHEBI_48853"
+    }
+}

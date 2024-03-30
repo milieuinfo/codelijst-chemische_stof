@@ -1,0 +1,54 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_39384",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "chebi:charge": "0",
+    "chebi:formula": "C17H8Cl2F8N2O3",
+    "chebi:inchi": "InChI=1S/C17H8Cl2F8N2O3/c18-6-5-11(32-17(26,27)14(22)16(23,24)25)7(19)4-10(6)28-15(31)29-13(30)12-8(20)2-1-3-9(12)21/h1-5,14H,(H2,28,29,30,31)",
+    "chebi:inchikey": "PWPJGUXAGUPAHP-UHFFFAOYSA-N",
+    "chebi:smiles": "FC(C(F)(F)F)C(F)(F)Oc1cc(Cl)c(NC(=O)NC(=O)c2c(F)cccc2F)cc1Cl",
+    "geneontology:hasDbXref": [
+        "Beilstein:8398291",
+        "CAS:103055-07-8",
+        "KEGG:C18434",
+        "KEGG:D08150",
+        "LINCS:LSM-21613",
+        "Pesticides:lufenuron",
+        "PPDB:420",
+        "VSDB:420"
+    ],
+    "geneontology:hasId": "39384",
+    "geneontology:hasSynonym": [
+        "1-(2,5-dichloro-4-(1,1,2,3,3,3-hexafluoropropoxy)phenyl)-3-(2,6-difluorobenzoyl)urea",
+        "Fluphenacur",
+        "Lufenuron",
+        "N-({[2,5-dichloro-4-(1,1,2,3,3,3-hexafluoropropoxy)phenyl]amino}carbonyl)-2,6-difluorobenzamide",
+        "N-{[2,5-dichloro-4-(1,1,2,3,3,3-hexafluoropropoxy)phenyl]carbamoyl}-2,6-difluorobenzamide"
+    ],
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#3_STAR"
+    },
+    "rdfs:label": "lufenuron",
+    "rdfs:subClassOf": [
+        {
+            "@id": "obo:CHEBI_35618"
+        },
+        {
+            "@id": "obo:CHEBI_23697"
+        },
+        {
+            "@id": "obo:CHEBI_74266"
+        },
+        {
+            "@id": "obo:CHEBI_37143"
+        },
+        {
+            "@id": "obo:CHEBI_38494"
+        }
+    ]
+}

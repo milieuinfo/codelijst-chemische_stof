@@ -1,0 +1,33 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_177811",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "chebi:charge": "0",
+    "chebi:formula": "C16H26O2",
+    "chebi:inchi": "InChI=1S/C16H26O2/c1-15(2,3)12-16(4,5)13-6-8-14(9-7-13)18-11-10-17/h6-9,17H,10-12H2,1-5H3",
+    "chebi:inchikey": "JYCQQPHGFMYQCF-UHFFFAOYSA-N",
+    "chebi:smiles": "O(C1=CC=C(C(CC(C)(C)C)(C)C)C=C1)CCO",
+    "geneontology:hasDbXref": [
+        "KEGG:D05229",
+        "CAS:2315-67-5",
+        "Chemspider:5388",
+        "KEGG:C11623"
+    ],
+    "geneontology:hasId": "177811",
+    "geneontology:hasSynonym": [
+        "2-[4-(2,4,4-trimethylpentan-2-yl)phenoxy]ethanol",
+        "OPEO"
+    ],
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#2_STAR"
+    },
+    "rdfs:label": "4-tert-Octylphenol monoethoxylate",
+    "rdfs:subClassOf": {
+        "@id": "obo:CHEBI_38976"
+    }
+}

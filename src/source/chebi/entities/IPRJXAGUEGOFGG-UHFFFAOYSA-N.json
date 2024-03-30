@@ -1,0 +1,50 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_44237",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "obo:IAO_0000115": "A sulfonamide that is benzenesulfonamide substituted by a butyl group at the nitrogen atom. It has been isolated from the plant Prunus africana and has been shown to exhibit antiandrogenic activity.",
+    "chebi:charge": "0",
+    "chebi:formula": "C10H15NO2S",
+    "chebi:inchi": "InChI=1S/C10H15NO2S/c1-2-3-9-11-14(12,13)10-7-5-4-6-8-10/h4-8,11H,2-3,9H2,1H3",
+    "chebi:inchikey": "IPRJXAGUEGOFGG-UHFFFAOYSA-N",
+    "chebi:smiles": "CCCCNS(=O)(=O)c1ccccc1",
+    "geneontology:hasDbXref": [
+        "CAS:3622-84-2",
+        "Patent:CA2596618",
+        "Patent:WO2006081994",
+        "PDBeChem:NBB",
+        "PMID:16783690",
+        "PMID:17369196",
+        "PMID:22789816",
+        "PMID:22824510",
+        "PMID:8512189",
+        "Reaxys:2725965"
+    ],
+    "geneontology:hasId": "44237",
+    "geneontology:hasSynonym": [
+        "Benzenesulfonic acid butyl amide",
+        "Dellatol BBS",
+        "N-(n-Butyl)benzenesulfonamide",
+        "Plastomoll BMB"
+    ],
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#3_STAR"
+    },
+    "rdfs:label": "N-butylbenzenesulfonamide",
+    "rdfs:subClassOf": [
+        {
+            "@id": "obo:CHEBI_35358"
+        },
+        {
+            "@id": "b5_genid-00f1db82e1ab437c844115a94dc63e635-bn44237t11f50910"
+        },
+        {
+            "@id": "b5_genid-00f1db82e1ab437c844115a94dc63e635-bn44237t11f76924"
+        }
+    ]
+}

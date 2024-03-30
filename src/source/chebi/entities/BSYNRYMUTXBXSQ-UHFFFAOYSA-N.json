@@ -1,0 +1,134 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_15365",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "obo:IAO_0000115": "A member of the class of benzoic acids that is salicylic acid in which the hydrogen that is attached to the phenolic hydroxy group has been replaced by an acetoxy group. A non-steroidal anti-inflammatory drug with cyclooxygenase inhibitor activity.",
+    "chebi:charge": "0",
+    "chebi:formula": "C9H8O4",
+    "chebi:inchi": "InChI=1S/C9H8O4/c1-6(10)13-8-5-3-2-4-7(8)9(11)12/h2-5H,1H3,(H,11,12)",
+    "chebi:inchikey": "BSYNRYMUTXBXSQ-UHFFFAOYSA-N",
+    "chebi:smiles": "CC(=O)Oc1ccccc1C(O)=O",
+    "geneontology:hasDbXref": [
+        "PMID:1650428",
+        "PMID:445303",
+        "PMID:22866967",
+        "PMID:18631321",
+        "HMDB:HMDB0001879",
+        "MetaCyc:CPD-524",
+        "Beilstein:779271",
+        "CAS:50-78-2",
+        "Drug_Central:74",
+        "DrugBank:DB00945",
+        "Gmelin:218864",
+        "KEGG:C01405",
+        "KEGG:D00109",
+        "LINCS:LSM-5288",
+        "PDBeChem:AIN",
+        "PMID:11203441",
+        "PMID:11402787",
+        "PMID:11597554",
+        "PMID:11733186",
+        "PMID:12852484",
+        "PMID:14753751",
+        "PMID:15542410",
+        "PMID:15590729",
+        "PMID:18226435",
+        "PMID:18335236",
+        "PMID:19010312",
+        "PMID:19386367",
+        "PMID:19706045",
+        "PMID:21699808",
+        "Reaxys:779271",
+        "Wikipedia:Aspirin"
+    ],
+    "geneontology:hasId": "15365",
+    "geneontology:hasSynonym": [
+        "2-(acetyloxy)benzoic acid",
+        "2-(ACETYLOXY)BENZOIC ACID",
+        "2-Acetoxybenzenecarboxylic acid",
+        "2-acetoxybenzoic acid",
+        "Acetylsalicylate",
+        "Acetylsalicylic acid",
+        "Acetylsalicylsaeure",
+        "acide 2-(acetyloxy)benzoique",
+        "acide acetylsalicylique",
+        "acido acetilsalicilico",
+        "acidum acetylsalicylicum",
+        "ASA",
+        "Aspirin",
+        "Azetylsalizylsaeure",
+        "Easprin",
+        "o-acetoxybenzoic acid",
+        "O-acetylsalicylic acid",
+        "o-carboxyphenyl acetate",
+        "salicylic acid acetate"
+    ],
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#3_STAR"
+    },
+    "rdfs:label": "acetylsalicylic acid",
+    "rdfs:subClassOf": [
+        {
+            "@id": "obo:CHEBI_140310"
+        },
+        {
+            "@id": "obo:CHEBI_22723"
+        },
+        {
+            "@id": "obo:CHEBI_26596"
+        },
+        {
+            "@id": "b238_genid-00f1db82e1ab437c844115a94dc63e635-bn15365tmms73f13719"
+        },
+        {
+            "@id": "b238_genid-00f1db82e1ab437c844115a94dc63e635-bn15365t4f13719"
+        },
+        {
+            "@id": "b238_genid-00f1db82e1ab437c844115a94dc63e635-bn15365t8f16914"
+        },
+        {
+            "@id": "b238_genid-00f1db82e1ab437c844115a94dc63e635-bn15365t11f35475"
+        },
+        {
+            "@id": "b238_genid-00f1db82e1ab437c844115a94dc63e635-bn15365t11f35481"
+        },
+        {
+            "@id": "b238_genid-00f1db82e1ab437c844115a94dc63e635-bn15365t11f35493"
+        },
+        {
+            "@id": "b238_genid-00f1db82e1ab437c844115a94dc63e635-bn15365t11f49023"
+        },
+        {
+            "@id": "b238_genid-00f1db82e1ab437c844115a94dc63e635-bn15365t11f50249"
+        },
+        {
+            "@id": "b238_genid-00f1db82e1ab437c844115a94dc63e635-bn15365t11f50427"
+        },
+        {
+            "@id": "b238_genid-00f1db82e1ab437c844115a94dc63e635-bn15365t11f50629"
+        },
+        {
+            "@id": "b238_genid-00f1db82e1ab437c844115a94dc63e635-bn15365t11f50630"
+        },
+        {
+            "@id": "b238_genid-00f1db82e1ab437c844115a94dc63e635-bn15365t11f50905"
+        },
+        {
+            "@id": "b238_genid-00f1db82e1ab437c844115a94dc63e635-bn15365t11f73182"
+        },
+        {
+            "@id": "b238_genid-00f1db82e1ab437c844115a94dc63e635-bn15365t11f77425"
+        },
+        {
+            "@id": "b238_genid-00f1db82e1ab437c844115a94dc63e635-bn15365t11f88188"
+        },
+        {
+            "@id": "b238_genid-00f1db82e1ab437c844115a94dc63e635-bn15365t11f176497"
+        }
+    ]
+}

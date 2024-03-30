@@ -1,0 +1,64 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_81841",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "obo:IAO_0000115": "A member of the class of imidazoles carrying dimethylsulfamyl, cyano, chloro and 4-tolyl substituents at positions 1, 2, 4 and 5 respectively. A fungicide used mainly for controlling Oomycete and Plasmodiophora diseases on potatoes and tomatoes. It is a skin and eye irritant and is moderately toxic to birds, most aquatic organisms, honeybees and earthworms.",
+    "chebi:charge": "0",
+    "chebi:formula": "C13H13ClN4O2S",
+    "chebi:inchi": "InChI=1S/C13H13ClN4O2S/c1-9-4-6-10(7-5-9)12-13(14)16-11(8-15)18(12)21(19,20)17(2)3/h4-7H,1-3H3",
+    "chebi:inchikey": "YXKMMRDKEKCERS-UHFFFAOYSA-N",
+    "chebi:smiles": "CN(C)S(=O)(=O)n1c(nc(Cl)c1-c1ccc(C)cc1)C#N",
+    "geneontology:hasDbXref": [
+        "PMID:24176337",
+        "CAS:120116-88-3",
+        "KEGG:C18573",
+        "Patent:CN101647451",
+        "Pesticides:cyazofamid",
+        "PMID:11852638",
+        "PMID:12639045",
+        "PMID:23919901",
+        "PMID:25173365",
+        "PPDB:186",
+        "Reaxys:9064229"
+    ],
+    "geneontology:hasId": "81841",
+    "geneontology:hasSynonym": [
+        "4-chloro-2-cyano-N,N-dimethyl-5-(4-methylphenyl)-1H-imidazole-1-sulfonamide",
+        "4-chloro-2-cyano-N,N-dimethyl-5-p-tolylimidazole-1-sulfonamide"
+    ],
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#3_STAR"
+    },
+    "rdfs:label": "cyazofamid",
+    "rdfs:subClassOf": [
+        {
+            "@id": "obo:CHEBI_18379"
+        },
+        {
+            "@id": "obo:CHEBI_36683"
+        },
+        {
+            "@id": "obo:CHEBI_24780"
+        },
+        {
+            "@id": "obo:CHEBI_87068"
+        },
+        {
+            "@id": "obo:CHEBI_51871"
+        },
+        {
+            "@id": "b446_genid-00f1db82e1ab437c844115a94dc63e635-bn81841t11f38499"
+        },
+        {
+            "@id": "b446_genid-00f1db82e1ab437c844115a94dc63e635-bn81841t11f86328"
+        },
+        {
+            "@id": "obo:CHEBI_87027"
+        }
+    ]
+}

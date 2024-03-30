@@ -1,0 +1,49 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_9463",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "chebi:charge": "0",
+    "chebi:formula": "C27H40O3",
+    "chebi:inchi": "InChI=1S/C27H40O3/c1-26-15-13-20(28)17-19(26)8-9-21-22-10-11-24(27(22,2)16-14-23(21)26)30-25(29)12-7-18-5-3-4-6-18/h17-18,21-24H,3-16H2,1-2H3/t21-,22-,23-,24-,26-,27-/m0/s1",
+    "chebi:inchikey": "HPFVBGJFAYZEBE-ZLQWOROUSA-N",
+    "chebi:smiles": "[H][C@@]12CCC3=CC(=O)CC[C@]3(C)[C@@]1([H])CC[C@]1(C)[C@H](CC[C@@]21[H])OC(=O)CCC1CCCC1",
+    "geneontology:hasDbXref": [
+        "DrugBank:DB00624",
+        "Beilstein:3174363",
+        "CAS:58-20-8",
+        "Drug_Central:4454",
+        "KEGG:C08156",
+        "KEGG:D00957",
+        "LIPID_MAPS_instance:LMST02020074"
+    ],
+    "geneontology:hasId": "9463",
+    "geneontology:hasSynonym": [
+        "3-oxoandrost-4-en-17beta-yl 3-cyclopentylpropanoate",
+        "testosterone 17beta-cyclopentanepropionate",
+        "testosterone 17beta-cyclopentylpropionate",
+        "testosterone 17beta-cypionate",
+        "Testosterone cyclopentanepropionate",
+        "Testosterone cyclopentylpropionate",
+        "Testosterone cypionate"
+    ],
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#3_STAR"
+    },
+    "rdfs:label": "testosterone cypionate",
+    "rdfs:subClassOf": [
+        {
+            "@id": "obo:CHEBI_35915"
+        },
+        {
+            "@id": "b511_genid-00f1db82e1ab437c844115a94dc63e635-bn9463t8f17347"
+        },
+        {
+            "@id": "b511_genid-00f1db82e1ab437c844115a94dc63e635-bn9463t8f50899"
+        }
+    ]
+}

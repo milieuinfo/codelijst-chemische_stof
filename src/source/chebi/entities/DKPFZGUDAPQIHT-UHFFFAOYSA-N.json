@@ -1,0 +1,57 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_31328",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "obo:IAO_0000115": "The acetate ester of butanol.",
+    "chebi:charge": "0",
+    "chebi:formula": "C6H12O2",
+    "chebi:inchi": "InChI=1S/C6H12O2/c1-3-4-5-8-6(2)7/h3-5H2,1-2H3",
+    "chebi:inchikey": "DKPFZGUDAPQIHT-UHFFFAOYSA-N",
+    "chebi:smiles": "CCCCOC(C)=O",
+    "http://purl.uniprot.org/core/name": "butyl acetate",
+    "geneontology:hasDbXref": [
+        "Beilstein:1741921",
+        "CAS:123-86-4",
+        "Gmelin:240398",
+        "KEGG:C12304",
+        "PDBeChem:8JZ"
+    ],
+    "geneontology:hasId": "31328",
+    "geneontology:hasSynonym": [
+        "1-acetoxybutane",
+        "1-butyl acetate",
+        "acetate de butyle",
+        "acetic acid, butyl ester",
+        "acetic acid n-butyl ester",
+        "Butylacetat",
+        "Butyl acetate",
+        "Butylazetat",
+        "butyl ester of acetic acid",
+        "butyl ethanoate",
+        "CH3COO(CH2)3CH3",
+        "Essigsaeurebutylester",
+        "Essigsaeure-n-butylester",
+        "n-butyl acetate",
+        "n-butyl ethanoate"
+    ],
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#3_STAR"
+    },
+    "rdfs:label": "butyl acetate",
+    "rdfs:subClassOf": [
+        {
+            "@id": "obo:CHEBI_47622"
+        },
+        {
+            "@id": "b61_genid-00f1db82e1ab437c844115a94dc63e635-bn31328t11f25212"
+        },
+        {
+            "@id": "b61_genid-00f1db82e1ab437c844115a94dc63e635-bn31328t8f28885"
+        }
+    ]
+}

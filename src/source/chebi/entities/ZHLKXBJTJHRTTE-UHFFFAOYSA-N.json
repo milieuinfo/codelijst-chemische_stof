@@ -1,0 +1,29 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_34625",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "chebi:charge": "0",
+    "chebi:formula": "C13H10Cl2S",
+    "chebi:inchi": "InChI=1S/C13H10Cl2S/c14-11-3-1-10(2-4-11)9-16-13-7-5-12(15)6-8-13/h1-8H,9H2",
+    "chebi:inchikey": "ZHLKXBJTJHRTTE-UHFFFAOYSA-N",
+    "chebi:smiles": "Clc1ccc(CSc2ccc(Cl)cc2)cc1",
+    "geneontology:hasDbXref": [
+        "CAS:103-17-3",
+        "KEGG:C14584",
+        "PPDB:1225"
+    ],
+    "geneontology:hasId": "34625",
+    "geneontology:hasSynonym": "4-Chlorobenzyl 4-chlorophenyl sulfide",
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#2_STAR"
+    },
+    "rdfs:label": "Chlorobenside",
+    "rdfs:subClassOf": {
+        "@id": "obo:CHEBI_16385"
+    }
+}

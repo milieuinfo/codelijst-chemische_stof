@@ -1,0 +1,57 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_141155",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "obo:IAO_0000115": "A C-nitro compound that is 5-nitroimidazole in which the hydrogens at positions 1 and 2 are replaced by methyl groups. An antiprotozoal drug, it has been banned by both the Government of Canada and the European Union as a livestock feed additive owing to  suspicions of it being carcinogenic.",
+    "chebi:charge": "0",
+    "chebi:formula": "C5H7N3O2",
+    "chebi:inchi": "InChI=1S/C5H7N3O2/c1-4-6-3-5(7(4)2)8(9)10/h3H,1-2H3",
+    "chebi:inchikey": "IBXPYPUJPLLOIN-UHFFFAOYSA-N",
+    "chebi:smiles": "C=1(N(C(=NC1)C)C)[N+]([O-])=O",
+    "geneontology:hasDbXref": [
+        "Patent:FR2625997",
+        "PMID:11321219",
+        "PMID:1542990",
+        "PMID:21383535",
+        "PMID:26731310",
+        "PMID:26911000",
+        "PMID:28414944",
+        "PMID:8533212",
+        "PMID:8711897",
+        "PMID:8913016",
+        "PMID:9374025",
+        "VSDB:1882"
+    ],
+    "geneontology:hasId": "141155",
+    "geneontology:hasSynonym": [
+        "dimetridazole",
+        "1,2-dimethyl-5-nitro-1H-imidazole",
+        "1,2-Dimethyl-5-nitroimidazole",
+        "5-Nitro-1,2-dimethylimidazole",
+        "dimetridazol",
+        "dimetridazolum"
+    ],
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#3_STAR"
+    },
+    "rdfs:label": "dimetridazole",
+    "rdfs:subClassOf": [
+        {
+            "@id": "obo:CHEBI_35716"
+        },
+        {
+            "@id": "obo:CHEBI_24780"
+        },
+        {
+            "@id": "b584_genid-00f1db82e1ab437c844115a94dc63e635-bn141155t11f35442"
+        },
+        {
+            "@id": "b584_genid-00f1db82e1ab437c844115a94dc63e635-bn141155t11f35820"
+        }
+    ]
+}

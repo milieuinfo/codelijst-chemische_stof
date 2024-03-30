@@ -1,0 +1,76 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_27561",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "obo:IAO_0000115": "A  saturated organic heteromonocyclic parent that is a three-membered heterocycle of two carbon atoms and one oxygen atom.",
+    "chebi:charge": "0",
+    "chebi:formula": "C2H4O",
+    "chebi:inchi": "InChI=1S/C2H4O/c1-2-3-1/h1-2H2",
+    "chebi:inchikey": "IAYPIBMASNFSPL-UHFFFAOYSA-N",
+    "chebi:smiles": "C1CO1",
+    "geneontology:hasDbXref": [
+        "Beilstein:102378",
+        "CAS:75-21-8",
+        "Gmelin:676",
+        "HMDB:HMDB0031305",
+        "KEGG:C06548",
+        "KEGG:D03474",
+        "PMID:11437638",
+        "PMID:24313866",
+        "PMID:24882394",
+        "PMID:25005741",
+        "PMID:3932500",
+        "Reaxys:102378",
+        "UM-BBD_compID:c0527",
+        "Wikipedia:Oxirane"
+    ],
+    "geneontology:hasId": "27561",
+    "geneontology:hasSynonym": [
+        "1,2-Epoxyaethan",
+        "1,2-epoxyethane",
+        "Aethylenoxid",
+        "Amprolene",
+        "Anprolene",
+        "Anproline",
+        "Dihydrooxirene",
+        "Dimethylene oxide",
+        "epoxyethane",
+        "ethene oxide",
+        "Ethylene oxide",
+        "ETO",
+        "Oxacyclopropane",
+        "Oxane",
+        "Oxidoethane",
+        "oxyde d'ethylene",
+        "Oxyfume"
+    ],
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#3_STAR"
+    },
+    "rdfs:label": "oxirane",
+    "rdfs:subClassOf": [
+        {
+            "@id": "obo:CHEBI_38104"
+        },
+        {
+            "@id": "obo:CHEBI_36389"
+        },
+        {
+            "@id": "obo:CHEBI_138675"
+        },
+        {
+            "@id": "b578_genid-00f1db82e1ab437c844115a94dc63e635-bn27561t11f25435"
+        },
+        {
+            "@id": "b578_genid-00f1db82e1ab437c844115a94dc63e635-bn27561t11f50904"
+        },
+        {
+            "@id": "b578_genid-00f1db82e1ab437c844115a94dc63e635-bn27561t11f75771"
+        }
+    ]
+}

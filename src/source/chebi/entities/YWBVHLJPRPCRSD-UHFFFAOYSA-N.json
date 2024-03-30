@@ -1,0 +1,33 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_82016",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "chebi:charge": "0",
+    "chebi:formula": "C19H14F3NO",
+    "chebi:inchi": "InChI=1S/C19H14F3NO/c1-23-11-16(13-6-3-2-4-7-13)18(24)17(12-23)14-8-5-9-15(10-14)19(20,21)22/h2-12H,1H3",
+    "chebi:inchikey": "YWBVHLJPRPCRSD-UHFFFAOYSA-N",
+    "chebi:smiles": "Cn1cc(-c2ccccc2)c(=O)c(c1)-c1cccc(c1)C(F)(F)F",
+    "geneontology:hasDbXref": [
+        "CAS:59756-60-4",
+        "KEGG:C18857",
+        "PPDB:345"
+    ],
+    "geneontology:hasId": "82016",
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#2_STAR"
+    },
+    "rdfs:label": "Fluridone",
+    "rdfs:subClassOf": [
+        {
+            "@id": "obo:CHEBI_38193"
+        },
+        {
+            "@id": "b465_genid-00f1db82e1ab437c844115a94dc63e635-bn82016t11f138208"
+        }
+    ]
+}

@@ -1,0 +1,67 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_35549",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "obo:IAO_0000115": "A fluoroalkanoic acid that is perfluorinated octanoic acid.",
+    "chebi:charge": "0",
+    "chebi:formula": "C8HF15O2",
+    "chebi:inchi": "InChI=1S/C8HF15O2/c9-2(10,1(24)25)3(11,12)4(13,14)5(15,16)6(17,18)7(19,20)8(21,22)23/h(H,24,25)",
+    "chebi:inchikey": "SNGREZUHAYWORS-UHFFFAOYSA-N",
+    "chebi:smiles": "OC(=O)C(F)(F)C(F)(F)C(F)(F)C(F)(F)C(F)(F)C(F)(F)C(F)(F)F",
+    "geneontology:hasDbXref": [
+        "Beilstein:1809678",
+        "CAS:335-67-1",
+        "Gmelin:34320",
+        "PMID:16020091",
+        "PMID:18467677",
+        "Reaxys:1809678",
+        "Wikipedia:Perfluorooctanoic_acid"
+    ],
+    "geneontology:hasId": "35549",
+    "geneontology:hasSynonym": [
+        "2,2,3,3,4,4,5,5,6,6,7,7,8,8,8-pentadecafluorooctanoic acid",
+        "pentadecafluoro-1-octanoic acid",
+        "pentadecafluoro-n-octanoic acid",
+        "pentadecafluorooctanoic acid",
+        "perfluorocaprylic acid",
+        "perfluoroheptanecarboxylic acid",
+        "perfluoro-n-octanoic acid",
+        "perfluorooctylcarboxylic acid",
+        "PFOA"
+    ],
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#3_STAR"
+    },
+    "rdfs:label": "perfluorooctanoic acid",
+    "rdfs:subClassOf": [
+        {
+            "@id": "obo:CHEBI_35551"
+        },
+        {
+            "@id": "b179_genid-00f1db82e1ab437c844115a94dc63e635-bn35549t8f28837"
+        },
+        {
+            "@id": "b179_genid-00f1db82e1ab437c844115a94dc63e635-bn35549t11f35195"
+        },
+        {
+            "@id": "b179_genid-00f1db82e1ab437c844115a94dc63e635-bn35549t11f35703"
+        },
+        {
+            "@id": "b179_genid-00f1db82e1ab437c844115a94dc63e635-bn35549t8f38826"
+        },
+        {
+            "@id": "b179_genid-00f1db82e1ab437c844115a94dc63e635-bn35549t11f50903"
+        },
+        {
+            "@id": "b179_genid-00f1db82e1ab437c844115a94dc63e635-bn35549t11f78298"
+        },
+        {
+            "@id": "b179_genid-00f1db82e1ab437c844115a94dc63e635-bn35549t11f138015"
+        }
+    ]
+}

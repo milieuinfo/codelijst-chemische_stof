@@ -1,0 +1,45 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_41808",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "obo:IAO_0000115": "A straight-chain alkane with 10 carbon atoms.",
+    "chebi:charge": "0",
+    "chebi:formula": "C10H22",
+    "chebi:inchi": "InChI=1S/C10H22/c1-3-5-7-9-10-8-6-4-2/h3-10H2,1-2H3",
+    "chebi:inchikey": "DIOQZVSQGTUSAI-UHFFFAOYSA-N",
+    "chebi:smiles": "CCCCCCCCCC",
+    "http://purl.uniprot.org/core/name": "decane",
+    "geneontology:hasDbXref": [
+        "Beilstein:1696981",
+        "CAS:124-18-5",
+        "DrugBank:DB02826",
+        "Gmelin:67816",
+        "HMDB:HMDB0031450",
+        "LIPID_MAPS_instance:LMFA11000568",
+        "MetaCyc:CPD-9287",
+        "PDBeChem:D10",
+        "PMID:11762597",
+        "Reaxys:1696981",
+        "Wikipedia:Decane"
+    ],
+    "geneontology:hasId": "41808",
+    "geneontology:hasSynonym": [
+        "CH3-[CH2]8-CH3",
+        "DECANE",
+        "Dekan",
+        "n-decane",
+        "n-Dekan"
+    ],
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#3_STAR"
+    },
+    "rdfs:label": "decane",
+    "rdfs:subClassOf": {
+        "@id": "obo:CHEBI_18310"
+    }
+}

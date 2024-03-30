@@ -1,0 +1,68 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@graph": [
+        {
+            "@id": "obo:CHEBI_27698",
+            "@type": "http://www.w3.org/2002/07/owl#Class",
+            "chebi:charge": "0",
+            "chebi:formula": "V",
+            "chebi:inchi": "InChI=1S/V",
+            "chebi:inchikey": "LEONUFNNVUYDNQ-UHFFFAOYSA-N",
+            "chebi:smiles": "[V]",
+            "geneontology:hasDbXref": [
+                "CAS:7440-62-2",
+                "KEGG:C06267",
+                "WebElements:V"
+            ],
+            "geneontology:hasId": "27698",
+            "geneontology:hasSynonym": [
+                "V",
+                "23V",
+                "vanadio",
+                "vanadium",
+                "Vanadium"
+            ],
+            "geneontology:inSubset": {
+                "@id": "obo:chebi#3_STAR"
+            },
+            "rdfs:label": "vanadium atom",
+            "rdfs:subClassOf": [
+                {
+                    "@id": "b368_genid-00f1db82e1ab437c844115a94dc63e635-bn27698t11f27027"
+                },
+                {
+                    "@id": "obo:CHEBI_33347"
+                }
+            ]
+        },
+        {
+            "@id": "obo:CHEBI_35170",
+            "@type": "http://www.w3.org/2002/07/owl#Class",
+            "chebi:charge": "0",
+            "chebi:formula": "V",
+            "chebi:inchi": "InChI=1S/V",
+            "chebi:inchikey": "LEONUFNNVUYDNQ-UHFFFAOYSA-N",
+            "chebi:smiles": "[V]",
+            "geneontology:hasDbXref": "CAS:7440-62-2",
+            "geneontology:hasId": "35170",
+            "geneontology:hasSynonym": [
+                "vanadium",
+                "V(0)",
+                "vanadium dust",
+                "Vn"
+            ],
+            "geneontology:inSubset": {
+                "@id": "obo:chebi#3_STAR"
+            },
+            "rdfs:label": "vanadium(0)",
+            "rdfs:subClassOf": {
+                "@id": "obo:CHEBI_35171"
+            }
+        }
+    ]
+}

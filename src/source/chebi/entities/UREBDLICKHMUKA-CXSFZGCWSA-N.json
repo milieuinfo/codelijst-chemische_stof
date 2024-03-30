@@ -1,0 +1,137 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_41879",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "obo:IAO_0000115": "A fluorinated steroid that is 9-fluoropregna-1,4-diene substituted by hydroxy groups at positions 11, 17 and 21, a methyl group at position 16 and oxo groups at positions 3 and 20. It is a synthetic member of the class of  glucocorticoids.",
+    "chebi:charge": "0",
+    "chebi:formula": "C22H29FO5",
+    "chebi:inchi": "InChI=1S/C22H29FO5/c1-12-8-16-15-5-4-13-9-14(25)6-7-19(13,2)21(15,23)17(26)10-20(16,3)22(12,28)18(27)11-24/h6-7,9,12,15-17,24,26,28H,4-5,8,10-11H2,1-3H3/t12-,15+,16+,17+,19+,20+,21+,22+/m1/s1",
+    "chebi:inchikey": "UREBDLICKHMUKA-CXSFZGCWSA-N",
+    "chebi:smiles": "C1=CC(C=C2[C@]1([C@@]3([C@@](CC2)([C@]4([C@](C[C@@H]3O)([C@]([C@@H](C4)C)(C(CO)=O)O)C)[H])[H])F)C)=O",
+    "http://purl.uniprot.org/core/name": "dexamethasone",
+    "geneontology:hasDbXref": [
+        "Beilstein:2066652",
+        "CAS:50-02-2",
+        "Drug_Central:824",
+        "DrugBank:DB01234",
+        "FooDB:FDB001355",
+        "HMDB:HMDB0015364",
+        "KEGG:C15643",
+        "KEGG:D00292",
+        "MetaCyc:CPD-10549",
+        "Patent:DE1113690",
+        "Patent:GB869511",
+        "Patent:US3007923",
+        "PMID:11508649",
+        "PMID:12151000",
+        "PMID:12686538",
+        "PMID:18272184",
+        "PMID:18524938",
+        "PMID:19779450",
+        "PMID:20850457",
+        "PMID:26602186",
+        "PMID:29958267",
+        "PMID:31391291",
+        "PMID:32195984",
+        "PMID:32280693",
+        "PMID:32496907",
+        "PMID:32551464",
+        "PMID:32570995",
+        "Reaxys:2066652",
+        "VSDB:1769",
+        "Wikipedia:Dexamethasone"
+    ],
+    "geneontology:hasId": "41879",
+    "geneontology:hasSynonym": [
+        "dexamethasone",
+        "(11beta,16alpha)-9-fluoro-11,17,21-trihydroxy-16-methylpregna-1,4-diene-3,20-dione",
+        "16alpha-methyl-9alpha-fluoro-1-dehydrocortisol",
+        "1-dehydro-16alpha-methyl-9alpha-fluorohydrocortisone",
+        "9alpha-fluoro-16alpha-methylprednisolone",
+        "9-fluoro-11beta,17,21-trihydroxy-16alpha-methylpregna-1,4-diene-3,20-dione",
+        "Aeroseb-Dex",
+        "Auxiron",
+        "Azium",
+        "Calonat",
+        "Corson",
+        "Cortisumman",
+        "Decacort",
+        "Decadron",
+        "Decaject",
+        "Decalix",
+        "Decameth",
+        "Dexacortal",
+        "Dexacortin",
+        "dexametasona",
+        "Dexamethasone",
+        "dexamethasonum",
+        "Dexason",
+        "Dexasone",
+        "DexPak",
+        "Diodex",
+        "fluormethylprednisolone",
+        "Hexadrol",
+        "Maxidex",
+        "Millicorten",
+        "Oradexon",
+        "Ozurdex",
+        "Solurex",
+        "Zema-Pak"
+    ],
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#3_STAR"
+    },
+    "rdfs:label": "dexamethasone",
+    "rdfs:subClassOf": [
+        {
+            "@id": "obo:CHEBI_35346"
+        },
+        {
+            "@id": "obo:CHEBI_77166"
+        },
+        {
+            "@id": "obo:CHEBI_35344"
+        },
+        {
+            "@id": "obo:CHEBI_36885"
+        },
+        {
+            "@id": "obo:CHEBI_35342"
+        },
+        {
+            "@id": "obo:CHEBI_24261"
+        },
+        {
+            "@id": "obo:CHEBI_50830"
+        },
+        {
+            "@id": "b24_genid-00f1db82e1ab437c844115a94dc63e635-bn41879t9f8386"
+        },
+        {
+            "@id": "b24_genid-00f1db82e1ab437c844115a94dc63e635-bn41879t11f35472"
+        },
+        {
+            "@id": "b24_genid-00f1db82e1ab437c844115a94dc63e635-bn41879t11f35610"
+        },
+        {
+            "@id": "b24_genid-00f1db82e1ab437c844115a94dc63e635-bn41879t11f35703"
+        },
+        {
+            "@id": "b24_genid-00f1db82e1ab437c844115a94dc63e635-bn41879t11f35705"
+        },
+        {
+            "@id": "b24_genid-00f1db82e1ab437c844115a94dc63e635-bn41879t11f37962"
+        },
+        {
+            "@id": "b24_genid-00f1db82e1ab437c844115a94dc63e635-bn41879t11f50919"
+        },
+        {
+            "@id": "b24_genid-00f1db82e1ab437c844115a94dc63e635-bn41879t11f78298"
+        }
+    ]
+}

@@ -1,0 +1,70 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@graph": [
+        {
+            "@id": "obo:CHEBI_28984",
+            "@type": "http://www.w3.org/2002/07/owl#Class",
+            "chebi:charge": "0",
+            "chebi:formula": "Al",
+            "chebi:inchi": "InChI=1S/Al",
+            "chebi:inchikey": "XAGFODPZIPBFFR-UHFFFAOYSA-N",
+            "chebi:smiles": "[Al]",
+            "geneontology:hasDbXref": [
+                "CAS:7429-90-5",
+                "DrugBank:DB01370",
+                "Gmelin:16248",
+                "KEGG:C06264",
+                "WebElements:Al"
+            ],
+            "geneontology:hasId": "28984",
+            "geneontology:hasSynonym": [
+                "Al",
+                "13Al",
+                "aluminio",
+                "aluminium",
+                "Aluminium",
+                "aluminum"
+            ],
+            "geneontology:inSubset": {
+                "@id": "obo:chebi#3_STAR"
+            },
+            "rdfs:label": "aluminium atom",
+            "rdfs:subClassOf": [
+                {
+                    "@id": "obo:CHEBI_33521"
+                },
+                {
+                    "@id": "obo:CHEBI_33317"
+                }
+            ]
+        },
+        {
+            "@id": "obo:CHEBI_33629",
+            "@type": "http://www.w3.org/2002/07/owl#Class",
+            "chebi:charge": "0",
+            "chebi:formula": "Al",
+            "chebi:inchi": "InChI=1S/Al",
+            "chebi:inchikey": "XAGFODPZIPBFFR-UHFFFAOYSA-N",
+            "chebi:smiles": "[Al]",
+            "geneontology:hasDbXref": "CAS:7429-90-5",
+            "geneontology:hasId": "33629",
+            "geneontology:hasSynonym": [
+                "Al(0)",
+                "Aln",
+                "aluminum metal"
+            ],
+            "geneontology:inSubset": {
+                "@id": "obo:chebi#3_STAR"
+            },
+            "rdfs:label": "aluminium(0)",
+            "rdfs:subClassOf": {
+                "@id": "obo:CHEBI_33628"
+            }
+        }
+    ]
+}

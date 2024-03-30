@@ -1,0 +1,58 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_5132",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "chebi:charge": "0",
+    "chebi:formula": "C11H11F3N2O3",
+    "chebi:inchi": "InChI=1S/C11H11F3N2O3/c1-6(2)10(17)15-7-3-4-9(16(18)19)8(5-7)11(12,13)14/h3-6H,1-2H3,(H,15,17)",
+    "chebi:inchikey": "MKXKFYHWDHIYRV-UHFFFAOYSA-N",
+    "chebi:smiles": "CC(C)C(=O)Nc1ccc(c(c1)C(F)(F)F)[N+]([O-])=O",
+    "geneontology:hasDbXref": [
+        "Beilstein:2157663",
+        "CAS:13311-84-7",
+        "Drug_Central:1223",
+        "DrugBank:DB00499",
+        "KEGG:C07653",
+        "KEGG:D00586",
+        "LINCS:LSM-2621",
+        "Patent:DE2130450",
+        "Patent:DE2261293",
+        "Patent:US3847988",
+        "Wikipedia:Flutamide"
+    ],
+    "geneontology:hasId": "5132",
+    "geneontology:hasSynonym": [
+        "2-methyl-N-[4-nitro-3-(trifluoromethyl)phenyl]propanamide",
+        "4'-nitro-3'-trifluoromethylisobutyranilide",
+        "alpha,alpha,alpha-trifluoro-2-methyl-4'-nitro-m-propionotoluidide",
+        "Eulexin",
+        "flutamida",
+        "Flutamide",
+        "flutamidum",
+        "niftolid",
+        "Niftolide"
+    ],
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#3_STAR"
+    },
+    "rdfs:label": "flutamide",
+    "rdfs:subClassOf": [
+        {
+            "@id": "obo:CHEBI_29347"
+        },
+        {
+            "@id": "obo:CHEBI_83565"
+        },
+        {
+            "@id": "b535_genid-00f1db82e1ab437c844115a94dc63e635-bn5132t11f35497"
+        },
+        {
+            "@id": "b535_genid-00f1db82e1ab437c844115a94dc63e635-bn5132t11f35610"
+        }
+    ]
+}

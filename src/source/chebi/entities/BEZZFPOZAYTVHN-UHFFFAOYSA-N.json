@@ -1,0 +1,55 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_35812",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "obo:IAO_0000115": "A member of the class of benzimidazoles that is fenbendazole in which the sulfur has been oxidised to the corresponding sulfoxide.",
+    "chebi:charge": "0",
+    "chebi:formula": "C15H13N3O3S",
+    "chebi:inchi": "InChI=1S/C15H13N3O3S/c1-21-15(19)18-14-16-12-8-7-11(9-13(12)17-14)22(20)10-5-3-2-4-6-10/h2-9H,1H3,(H2,16,17,18,19)",
+    "chebi:inchikey": "BEZZFPOZAYTVHN-UHFFFAOYSA-N",
+    "chebi:smiles": "COC(=O)Nc1nc2cc(ccc2[nH]1)S(=O)c1ccccc1",
+    "http://purl.uniprot.org/core/name": "fenbendazole S-oxide",
+    "geneontology:hasDbXref": [
+        "Beilstein:761290",
+        "CAS:53716-50-0",
+        "LINCS:LSM-1466",
+        "VSDB:1757",
+        "Wikipedia:Oxfendazole"
+    ],
+    "geneontology:hasId": "35812",
+    "geneontology:hasSynonym": [
+        "fenbendazole S-oxide",
+        "(5-(phenylsulfinyl)-1H-benzimidazol-2-yl)carbamic acid methyl ester",
+        "5-(phenylsulfinyl)-2-benzimidazolecarbamic acid methyl ester",
+        "5-phenylsulfinyl-2-carbomethoxyaminobenzimidazole",
+        "Fenbendazole sulfoxide",
+        "methyl [5-(phenylsulfinyl)-1H-benzimidazol-2-yl]carbamate",
+        "OFDZ"
+    ],
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#3_STAR"
+    },
+    "rdfs:label": "oxfendazole",
+    "rdfs:subClassOf": [
+        {
+            "@id": "obo:CHEBI_23003"
+        },
+        {
+            "@id": "obo:CHEBI_22063"
+        },
+        {
+            "@id": "obo:CHEBI_22715"
+        },
+        {
+            "@id": "b121_genid-00f1db82e1ab437c844115a94dc63e635-bn35812t11f35444"
+        },
+        {
+            "@id": "b121_genid-00f1db82e1ab437c844115a94dc63e635-bn35812t8f77092"
+        }
+    ]
+}

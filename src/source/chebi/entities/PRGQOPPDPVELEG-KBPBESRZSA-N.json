@@ -1,0 +1,34 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_83815",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "obo:IAO_0000115": "The (10S,11S)-enantiomer of 10,11-trans-dihydroxy-10,11-dihydrocarbamazepine.",
+    "chebi:charge": "0",
+    "chebi:formula": "C15H14N2O3",
+    "chebi:inchi": "InChI=1S/C15H14N2O3/c16-15(20)17-11-7-3-1-5-9(11)13(18)14(19)10-6-2-4-8-12(10)17/h1-8,13-14,18-19H,(H2,16,20)/t13-,14-/m0/s1",
+    "chebi:inchikey": "PRGQOPPDPVELEG-KBPBESRZSA-N",
+    "chebi:smiles": "NC(=O)N1c2ccccc2[C@H](O)[C@@H](O)c2ccccc12",
+    "geneontology:hasDbXref": "Reaxys:6278699",
+    "geneontology:hasId": "83815",
+    "geneontology:hasSynonym": [
+        "(-)-(S,S)-trans-10,11-dihydro-10,11-dihydroxy-5H-dibenzo[b,f]azepine-5-carboxamide",
+        "(10S,11S)-10,11-dihydroxy-10,11-dihydro-5H-dibenzo[b,f]azepine-5-carboxamide"
+    ],
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#3_STAR"
+    },
+    "rdfs:label": "(10S,11S)-dihydroxy-10,11-dihydrocarbamazepine",
+    "rdfs:subClassOf": [
+        {
+            "@id": "obo:CHEBI_83532"
+        },
+        {
+            "@id": "b135_genid-00f1db82e1ab437c844115a94dc63e635-bn83815t6f83816"
+        }
+    ]
+}

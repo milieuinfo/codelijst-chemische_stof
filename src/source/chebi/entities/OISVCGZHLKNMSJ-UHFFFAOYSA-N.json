@@ -1,0 +1,45 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_32548",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "obo:IAO_0000115": "A member of the class of  methylpyridines that is pyridine carrying methyl substituents at positions 2 and 6.",
+    "chebi:charge": "0",
+    "chebi:formula": "C7H9N",
+    "chebi:inchi": "InChI=1S/C7H9N/c1-6-4-3-5-7(2)8-6/h3-5H,1-2H3",
+    "chebi:inchikey": "OISVCGZHLKNMSJ-UHFFFAOYSA-N",
+    "chebi:smiles": "Cc1cccc(C)n1",
+    "geneontology:hasDbXref": [
+        "Beilstein:105690",
+        "CAS:108-48-5",
+        "Gmelin:2863",
+        "HMDB:HMDB0032972",
+        "PMID:16626224",
+        "Reaxys:105690",
+        "Wikipedia:2,6-Lutidine"
+    ],
+    "geneontology:hasId": "32548",
+    "geneontology:hasSynonym": [
+        "2,6-lutidine",
+        "alpha,alpha'-dimethylpyridine",
+        "alpha,alpha'-lutidine",
+        "lut",
+        "lutidine"
+    ],
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#3_STAR"
+    },
+    "rdfs:label": "2,6-dimethylpyridine",
+    "rdfs:subClassOf": [
+        {
+            "@id": "obo:CHEBI_25340"
+        },
+        {
+            "@id": "b105_genid-00f1db82e1ab437c844115a94dc63e635-bn32548t9f16227"
+        }
+    ]
+}

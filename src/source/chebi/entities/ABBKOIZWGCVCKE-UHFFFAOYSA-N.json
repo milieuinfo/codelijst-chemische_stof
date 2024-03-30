@@ -1,0 +1,37 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_83514",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "obo:IAO_0000115": "A member of the class of phenylureas that is urea substituted by a p-cumenyl group at position 1. It is a metabolite of the herbicide isoproturon.",
+    "chebi:charge": "0",
+    "chebi:formula": "C10H14N2O",
+    "chebi:inchi": "InChI=1S/C10H14N2O/c1-7(2)8-3-5-9(6-4-8)12-10(11)13/h3-7H,1-2H3,(H3,11,12,13)",
+    "chebi:inchikey": "ABBKOIZWGCVCKE-UHFFFAOYSA-N",
+    "chebi:smiles": "CC(C)c1ccc(NC(N)=O)cc1",
+    "geneontology:hasDbXref": [
+        "CAS:56046-17-4",
+        "Reaxys:2720648"
+    ],
+    "geneontology:hasId": "83514",
+    "geneontology:hasSynonym": [
+        "1-[4-(propan-2-yl)phenyl]urea",
+        "N'-(4-isopropylphenyl)-urea"
+    ],
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#3_STAR"
+    },
+    "rdfs:label": "isoproturon-didemethyl",
+    "rdfs:subClassOf": [
+        {
+            "@id": "obo:CHEBI_134043"
+        },
+        {
+            "@id": "b4_genid-00f1db82e1ab437c844115a94dc63e635-bn83514t11f83399"
+        }
+    ]
+}

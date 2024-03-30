@@ -1,0 +1,53 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_81994",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "obo:IAO_0000115": "An anilide having 2-methyl-2-furoyl as the N-acyl group. A seed-treatment fungicide used to control bunts and smuts in cereals.",
+    "chebi:charge": "0",
+    "chebi:formula": "C12H11NO2",
+    "chebi:inchi": "InChI=1S/C12H11NO2/c1-9-11(7-8-15-9)12(14)13-10-5-3-2-4-6-10/h2-8H,1H3,(H,13,14)",
+    "chebi:inchikey": "JFSPBVWPKOEZCB-UHFFFAOYSA-N",
+    "chebi:smiles": "Cc1occc1C(=O)Nc1ccccc1",
+    "geneontology:hasDbXref": [
+        "AGR:IND87099846",
+        "CAS:24691-80-3",
+        "KEGG:C18833",
+        "Pesticides:fenfuram",
+        "PPDB:297",
+        "Reaxys:153863"
+    ],
+    "geneontology:hasId": "81994",
+    "geneontology:hasSynonym": [
+        "2-Methyl-3-furanilide",
+        "2-Methylfuran-3-carboxanilide",
+        "2-Methyl-N-phenyl-3-furancarboxamide",
+        "2-Methyl-N-phenylfuran-3-carboxamide",
+        "Fenfurame"
+    ],
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#3_STAR"
+    },
+    "rdfs:label": "fenfuram",
+    "rdfs:subClassOf": [
+        {
+            "@id": "obo:CHEBI_13248"
+        },
+        {
+            "@id": "obo:CHEBI_24129"
+        },
+        {
+            "@id": "obo:CHEBI_87019"
+        },
+        {
+            "@id": "b103_genid-00f1db82e1ab437c844115a94dc63e635-bn81994t11f83072"
+        },
+        {
+            "@id": "b103_genid-00f1db82e1ab437c844115a94dc63e635-bn81994t11f86328"
+        }
+    ]
+}

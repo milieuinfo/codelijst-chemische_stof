@@ -1,0 +1,59 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_134092",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "obo:IAO_0000115": "An arsonium ion that is choline in which the central nitrogen has been replaced by arsenic.",
+    "chebi:charge": "+1",
+    "chebi:formula": "C5H14AsO",
+    "chebi:inchi": "InChI=1S/C5H14AsO/c1-6(2,3)4-5-7/h7H,4-5H2,1-3H3/q+1",
+    "chebi:inchikey": "ORLOBEXOFQEWFQ-UHFFFAOYSA-N",
+    "chebi:smiles": "[As+](CCO)(C)(C)C",
+    "geneontology:hasDbXref": [
+        "AGR:IND86035749",
+        "AGR:IND92025878",
+        "CAS:39895-81-3",
+        "HMDB:HMDB0032683",
+        "PMID:1580419",
+        "PMID:16746711",
+        "PMID:2363511",
+        "PMID:27277209",
+        "PMID:2953397",
+        "PMID:3288685",
+        "PMID:3349210",
+        "PMID:3435795",
+        "PMID:6642710",
+        "PMID:6719099",
+        "Reaxys:1736750"
+    ],
+    "geneontology:hasId": "134092",
+    "geneontology:hasSynonym": [
+        "(2-hydroxyethyl)(trimethyl)arsanium",
+        "(2-Hydroxyethyl)trimethylarsonium"
+    ],
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#3_STAR"
+    },
+    "rdfs:label": "arsenocholine",
+    "rdfs:subClassOf": [
+        {
+            "@id": "obo:CHEBI_33406"
+        },
+        {
+            "@id": "obo:CHEBI_62607"
+        },
+        {
+            "@id": "b6_genid-00f1db82e1ab437c844115a94dc63e635-bn134092t11f35703"
+        },
+        {
+            "@id": "b6_genid-00f1db82e1ab437c844115a94dc63e635-bn134092t11f76507"
+        },
+        {
+            "@id": "b6_genid-00f1db82e1ab437c844115a94dc63e635-bn134092t11f84087"
+        }
+    ]
+}

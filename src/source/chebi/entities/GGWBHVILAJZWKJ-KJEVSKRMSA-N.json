@@ -1,0 +1,54 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_8777",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "chebi:charge": "0",
+    "chebi:inchi": "InChI=1S/C13H22N4O3S.ClH/c1-14-13(9-17(18)19)15-6-7-21-10-12-5-4-11(20-12)8-16(2)3;/h4-5,9,14-15H,6-8,10H2,1-3H3;1H/b13-9+;",
+    "chebi:inchikey": "GGWBHVILAJZWKJ-KJEVSKRMSA-N",
+    "chebi:smiles": "[H+].[Cl-].CN\\C(NCCSCc1ccc(CN(C)C)o1)=C/[N+]([O-])=O",
+    "geneontology:hasDbXref": [
+        "DrugBank:DB00863",
+        "CAS:66357-59-3",
+        "KEGG:D00673"
+    ],
+    "geneontology:hasId": "8777",
+    "geneontology:hasSynonym": [
+        "(E)-N-{2-[({5-[(dimethylamino)methyl]-2-furyl}methyl)sulfanyl]ethyl}-N'-methyl-2-nitroethene-1,1-diamine hydrochloride",
+        "Alquen",
+        "Coralen",
+        "Fendibina",
+        "Gastrial",
+        "Gastridina",
+        "Gastrolav",
+        "Kuracid",
+        "Nu-Ranit",
+        "Raniben",
+        "Raniberl",
+        "Ranibeta",
+        "Ranibloc",
+        "Rani-nerton",
+        "Rani-Q",
+        "Ranitidine HCL",
+        "Zantac"
+    ],
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#3_STAR"
+    },
+    "rdfs:label": "ranitidine hydrochloride",
+    "rdfs:subClassOf": [
+        {
+            "@id": "obo:CHEBI_36807"
+        },
+        {
+            "@id": "b305_genid-00f1db82e1ab437c844115a94dc63e635-bn8777t10f8776"
+        },
+        {
+            "@id": "b305_genid-00f1db82e1ab437c844115a94dc63e635-bn8777t11f88188"
+        }
+    ]
+}

@@ -1,0 +1,28 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_82069",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "chebi:charge": "0",
+    "chebi:formula": "C12H19N6OP",
+    "chebi:inchi": "InChI=1S/C12H19N6OP/c1-16(2)20(19,17(3)4)18-12(13)14-11(15-18)10-8-6-5-7-9-10/h5-9H,1-4H3,(H2,13,14,15)",
+    "chebi:inchikey": "BABJTMNVJXLAEX-UHFFFAOYSA-N",
+    "chebi:smiles": "CN(C)P(=O)(N(C)C)n1nc(nc1N)-c1ccccc1",
+    "geneontology:hasDbXref": [
+        "CAS:1031-47-6",
+        "KEGG:C18927",
+        "PPDB:2858"
+    ],
+    "geneontology:hasId": "82069",
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#2_STAR"
+    },
+    "rdfs:label": "Triamiphos",
+    "rdfs:subClassOf": {
+        "@id": "obo:CHEBI_22712"
+    }
+}

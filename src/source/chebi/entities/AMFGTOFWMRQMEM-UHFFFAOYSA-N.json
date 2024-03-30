@@ -1,0 +1,57 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_38963",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "chebi:charge": "0",
+    "chebi:formula": "C12H16N3O3PS",
+    "chebi:inchi": "InChI=1S/C12H16N3O3PS/c1-3-16-19(20,17-4-2)18-12-13-10-15(14-12)11-8-6-5-7-9-11/h5-10H,3-4H2,1-2H3",
+    "chebi:inchikey": "AMFGTOFWMRQMEM-UHFFFAOYSA-N",
+    "chebi:smiles": "CCOP(=S)(OCC)Oc1ncn(n1)-c1ccccc1",
+    "geneontology:hasDbXref": [
+        "CAS:24017-47-8",
+        "KEGG:C18657",
+        "PPDB:653"
+    ],
+    "geneontology:hasId": "38963",
+    "geneontology:hasSynonym": [
+        "1-Phenyl-1,2,4-triazolyl-3-(O,O-diethylthionophosphate)",
+        "Hostathion",
+        "Methoxone",
+        "O,O-diethyl O-(1-phenyl-1H-1,2,4-triazol-3-yl) phosphorothioate",
+        "O,O-diethyl O-(1-phenyl-1H-1,2,4-triazol-3-yl) thiophosphate",
+        "Phosphorothioic acid, O,O-diethyl O-(1-phenyl-1H-1,2,4-triazol-3-yl) ester",
+        "Triazofos"
+    ],
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#3_STAR"
+    },
+    "rdfs:label": "triazophos",
+    "rdfs:subClassOf": [
+        {
+            "@id": "obo:CHEBI_37512"
+        },
+        {
+            "@id": "obo:CHEBI_25715"
+        },
+        {
+            "@id": "b47_genid-00f1db82e1ab437c844115a94dc63e635-bn38963t11f22153"
+        },
+        {
+            "@id": "b47_genid-00f1db82e1ab437c844115a94dc63e635-bn38963t11f25491"
+        },
+        {
+            "@id": "b47_genid-00f1db82e1ab437c844115a94dc63e635-bn38963t11f33286"
+        },
+        {
+            "@id": "b47_genid-00f1db82e1ab437c844115a94dc63e635-bn38963t11f38462"
+        },
+        {
+            "@id": "b47_genid-00f1db82e1ab437c844115a94dc63e635-bn38963t8f38966"
+        }
+    ]
+}

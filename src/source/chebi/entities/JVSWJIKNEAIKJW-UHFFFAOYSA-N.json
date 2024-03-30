@@ -1,0 +1,36 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_88849",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "chebi:charge": "0",
+    "chebi:formula": "C8H18",
+    "chebi:inchi": "InChI=1S/C8H18/c1-4-5-6-7-8(2)3/h8H,4-7H2,1-3H3",
+    "chebi:inchikey": "JVSWJIKNEAIKJW-UHFFFAOYSA-N",
+    "chebi:smiles": "CCCCCC(C)C",
+    "geneontology:hasDbXref": [
+        "PMID:24421258",
+        "HMDB:HMDB0061915",
+        "PMID:14458231",
+        "PMID:14953537",
+        "PMID:18903727",
+        "PMID:20265812",
+        "PMID:5136846",
+        "PMID:5632522",
+        "PMID:5632523",
+        "Wikipedia:2-Methylheptane"
+    ],
+    "geneontology:hasId": "88849",
+    "geneontology:hasSynonym": "2-methylheptane",
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#2_STAR"
+    },
+    "rdfs:label": "2-Methylheptane",
+    "rdfs:subClassOf": {
+        "@id": "obo:CHEBI_18310"
+    }
+}

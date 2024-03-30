@@ -1,0 +1,59 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_76288",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "obo:IAO_0000115": "A diamine that is toluene in which both of the hydrogens ortho- to the methyl group are replaced by amino groups.",
+    "chebi:charge": "0",
+    "chebi:formula": "C7H10N2",
+    "chebi:inchi": "InChI=1S/C7H10N2/c1-5-6(8)3-2-4-7(5)9/h2-4H,8-9H2,1H3",
+    "chebi:inchikey": "RLYCRLGLCUXUPO-UHFFFAOYSA-N",
+    "chebi:smiles": "Cc1c(N)cccc1N",
+    "geneontology:hasDbXref": [
+        "CAS:823-40-5",
+        "HMDB:HMDB0041801",
+        "PMID:1747922",
+        "PMID:20026473",
+        "PMID:2575496",
+        "PMID:7586147",
+        "PMID:7678174",
+        "PMID:7761993",
+        "Reaxys:2079476"
+    ],
+    "geneontology:hasId": "76288",
+    "geneontology:hasSynonym": [
+        "2,6-DAT",
+        "2,6-diamino-1-methylbenzene",
+        "2,6-toluylenediamine",
+        "2,6-tolylenediamine",
+        "2-methyl-1,3-benzenediamine",
+        "2-methyl-1,3-phenylenediamine",
+        "2-methylbenzene-1,3-diamine",
+        "2-methyl-m-phenylenediamine",
+        "EINECS 212-513-9",
+        "o-toluene diamine",
+        "toluene-2,6-diamine"
+    ],
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#3_STAR"
+    },
+    "rdfs:label": "2,6-diaminotoluene",
+    "rdfs:subClassOf": [
+        {
+            "@id": "obo:CHEBI_50994"
+        },
+        {
+            "@id": "obo:CHEBI_23666"
+        },
+        {
+            "@id": "b74_genid-00f1db82e1ab437c844115a94dc63e635-bn76288t9f17578"
+        },
+        {
+            "@id": "b74_genid-00f1db82e1ab437c844115a94dc63e635-bn76288t11f25435"
+        }
+    ]
+}

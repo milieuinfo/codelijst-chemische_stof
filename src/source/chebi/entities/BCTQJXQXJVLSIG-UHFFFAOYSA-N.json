@@ -1,0 +1,59 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_81823",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "obo:IAO_0000115": "A member of the class of benzamides, obtained by formal condensation of the carboxy group of 2-methylbenzoic acid with the amino group of 3-(ispropyloxy)aniline. A fungicide used to control diseases caused by Basidomycetes including Rhizoctonia and Puccinia spp.",
+    "chebi:charge": "0",
+    "chebi:formula": "C17H19NO2",
+    "chebi:inchi": "InChI=1S/C17H19NO2/c1-12(2)20-15-9-6-8-14(11-15)18-17(19)16-10-5-4-7-13(16)3/h4-12H,1-3H3,(H,18,19)",
+    "chebi:inchikey": "BCTQJXQXJVLSIG-UHFFFAOYSA-N",
+    "chebi:smiles": "CC(C)Oc1cccc(NC(=O)c2ccccc2C)c1",
+    "geneontology:hasDbXref": [
+        "PMID:20088408",
+        "AGR:IND44182803",
+        "CAS:55814-41-0",
+        "KEGG:C18548",
+        "Patent:NZ548018",
+        "PDBeChem:MRN",
+        "Pesticides:mepronil",
+        "PPDB:438",
+        "Reaxys:2381749"
+    ],
+    "geneontology:hasId": "81823",
+    "geneontology:hasSynonym": [
+        "2-Methyl-3'-isopropoxybenzanilide",
+        "2-Methyl-N-(3-(1-methylethoxy)phenyl)benzamide",
+        "2-methyl-N-[3-(propan-2-yloxy)phenyl]benzamide",
+        "3'-Isopropoxy-2-methylbenzanilide",
+        "3'-isopropoxy-2-methylbenzoic acid anilide",
+        "3'-Isopropoxy-o-toluanilide",
+        "B1-2459",
+        "Basitac"
+    ],
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#3_STAR"
+    },
+    "rdfs:label": "mepronil",
+    "rdfs:subClassOf": [
+        {
+            "@id": "obo:CHEBI_35618"
+        },
+        {
+            "@id": "obo:CHEBI_22702"
+        },
+        {
+            "@id": "obo:CHEBI_87018"
+        },
+        {
+            "@id": "b117_genid-00f1db82e1ab437c844115a94dc63e635-bn81823t11f83072"
+        },
+        {
+            "@id": "b117_genid-00f1db82e1ab437c844115a94dc63e635-bn81823t11f86328"
+        }
+    ]
+}

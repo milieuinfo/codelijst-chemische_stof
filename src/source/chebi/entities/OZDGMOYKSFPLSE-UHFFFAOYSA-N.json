@@ -1,0 +1,28 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_82340",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "chebi:charge": "0",
+    "chebi:formula": "C3H7N",
+    "chebi:inchi": "InChI=1S/C3H7N/c1-3-2-4-3/h3-4H,2H2,1H3",
+    "chebi:inchikey": "OZDGMOYKSFPLSE-UHFFFAOYSA-N",
+    "chebi:smiles": "CC1CN1",
+    "geneontology:hasDbXref": [
+        "CAS:75-55-8",
+        "KEGG:C19257"
+    ],
+    "geneontology:hasId": "82340",
+    "geneontology:hasSynonym": "Propyleneimine",
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#2_STAR"
+    },
+    "rdfs:label": "2-Methylaziridine",
+    "rdfs:subClassOf": {
+        "@id": "obo:CHEBI_22681"
+    }
+}

@@ -1,0 +1,47 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_134050",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "obo:IAO_0000115": "A polybromobiphenyl that is biphenyl in which the hydrogens at positions 2, 2', 4, 4', 5, and 5' have been replace by bromines.",
+    "chebi:charge": "0",
+    "chebi:formula": "C12H4Br6",
+    "chebi:inchi": "InChI=1S/C12H4Br6/c13-7-3-11(17)9(15)1-5(7)6-2-10(16)12(18)4-8(6)14/h1-4H",
+    "chebi:inchikey": "HMBBJSKXDBUNNT-UHFFFAOYSA-N",
+    "chebi:smiles": "C1(C2=C(C=C(C(=C2)Br)Br)Br)=C(C=C(C(=C1)Br)Br)Br",
+    "geneontology:hasDbXref": [
+        "CAS:59080-40-9",
+        "PMID:15099731",
+        "PMID:18255122",
+        "PMID:19034893",
+        "PMID:23721586",
+        "PMID:27474862",
+        "PMID:27521000",
+        "Reaxys:1991358"
+    ],
+    "geneontology:hasId": "134050",
+    "geneontology:hasSynonym": [
+        "2,2',4,4',5,5'-hexabromo[biphenyl]",
+        "2,2'4,4',5,5'-hexabromo-1,1'-biphenyl",
+        "2,4,5,2',4',5'-hexabromobiphenyl",
+        "PBB153",
+        "PBB 153",
+        "PBB-153"
+    ],
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#3_STAR"
+    },
+    "rdfs:label": "2,2',4,4',5,5'-hexabromobiphenyl",
+    "rdfs:subClassOf": [
+        {
+            "@id": "obo:CHEBI_172368"
+        },
+        {
+            "@id": "obo:CHEBI_134049"
+        }
+    ]
+}

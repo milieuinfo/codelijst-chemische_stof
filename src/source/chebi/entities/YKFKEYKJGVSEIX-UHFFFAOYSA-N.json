@@ -1,0 +1,29 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_188365",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "chebi:charge": "0",
+    "chebi:formula": "C10H18O",
+    "chebi:inchi": "InChI=1S/C10H18O/c1-10(2,3)8-4-6-9(11)7-5-8/h8H,4-7H2,1-3H3",
+    "chebi:inchikey": "YKFKEYKJGVSEIX-UHFFFAOYSA-N",
+    "chebi:smiles": "O=C1CCC(C(C)(C)C)CC1",
+    "geneontology:hasDbXref": [
+        "CAS:98-53-3",
+        "Chemspider:7114",
+        "HMDB:HMDB0059869"
+    ],
+    "geneontology:hasId": "188365",
+    "geneontology:hasSynonym": "4-tert-butylcyclohexan-1-one",
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#2_STAR"
+    },
+    "rdfs:label": "cyclohexanone, 4-(1,1-dimethylethyl)-",
+    "rdfs:subClassOf": {
+        "@id": "obo:CHEBI_3992"
+    }
+}

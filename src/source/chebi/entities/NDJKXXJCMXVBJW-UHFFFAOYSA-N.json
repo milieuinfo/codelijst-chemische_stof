@@ -1,0 +1,52 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_16148",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "obo:IAO_0000115": "A straight-chain alkane with 17 carbon atoms. It is a component of essential oils from plants like Opuntia littoralis and Annona squamosa.",
+    "chebi:charge": "0",
+    "chebi:formula": "C17H36",
+    "chebi:inchi": "InChI=1S/C17H36/c1-3-5-7-9-11-13-15-17-16-14-12-10-8-6-4-2/h3-17H2,1-2H3",
+    "chebi:inchikey": "NDJKXXJCMXVBJW-UHFFFAOYSA-N",
+    "chebi:smiles": "CCCCCCCCCCCCCCCCC",
+    "http://purl.uniprot.org/core/name": "heptadecane",
+    "geneontology:hasDbXref": [
+        "Beilstein:1738898",
+        "CAS:629-78-7",
+        "HMDB:HMDB0059830",
+        "KEGG:C01816",
+        "KNApSAcK:C00030472",
+        "LIPID_MAPS_instance:LMFA11000003",
+        "MetaCyc:HEPTADECANE-CPD",
+        "PMID:19296389",
+        "PMID:24354326",
+        "Reaxys:1738898",
+        "Wikipedia:Heptadecane"
+    ],
+    "geneontology:hasId": "16148",
+    "geneontology:hasSynonym": [
+        "CH3-[CH2]15-CH3",
+        "Heptadecane",
+        "Heptadekan",
+        "n-heptadecane"
+    ],
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#3_STAR"
+    },
+    "rdfs:label": "heptadecane",
+    "rdfs:subClassOf": [
+        {
+            "@id": "obo:CHEBI_83563"
+        },
+        {
+            "@id": "b43_genid-00f1db82e1ab437c844115a94dc63e635-bn16148t11f27311"
+        },
+        {
+            "@id": "b43_genid-00f1db82e1ab437c844115a94dc63e635-bn16148t11f76924"
+        }
+    ]
+}

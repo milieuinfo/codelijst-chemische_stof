@@ -1,0 +1,73 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_4537",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "obo:IAO_0000115": "A quinolone that is pefloxacin in which the ethyl group at position 1 of the quinolone has been replaced by a p-fluorophenyl group. A broad-spectrum antibiotic effective against both Gram-positive and Gram-negative bacteria, it is used (usually as the monohydrochloride salt) for the treatment of bacterial infections in dogs.",
+    "chebi:charge": "0",
+    "chebi:formula": "C21H19F2N3O3",
+    "chebi:inchi": "InChI=1S/C21H19F2N3O3/c1-24-6-8-25(9-7-24)19-11-18-15(10-17(19)23)20(27)16(21(28)29)12-26(18)14-4-2-13(22)3-5-14/h2-5,10-12H,6-9H2,1H3,(H,28,29)",
+    "chebi:inchikey": "NOCJXYPHIIZEHN-UHFFFAOYSA-N",
+    "chebi:smiles": "C12=C(C(C(C(O)=O)=CN1C3=CC=C(C=C3)F)=O)C=C(F)C(=C2)N4CCN(CC4)C",
+    "geneontology:hasDbXref": [
+        "CAS:98106-17-3",
+        "KEGG:C11234",
+        "KEGG:D07828",
+        "Patent:EP131839",
+        "Patent:US4730000",
+        "PMID:19751946",
+        "PMID:22751072",
+        "PMID:23742101",
+        "PMID:23962048",
+        "PMID:25229385",
+        "PMID:3800345",
+        "Reaxys:5835542",
+        "VSDB:1841",
+        "Wikipedia:Difloxacin"
+    ],
+    "geneontology:hasId": "4537",
+    "geneontology:hasSynonym": [
+        "6-fluoro-1-(4-fluorophenyl)-7-(4-methyl-1-piperazinyl)-4-oxo-1,4-dihydro-3-quinolinecarboxylic acid",
+        "6-fluoro-1-(4-fluorophenyl)-7-(4-methylpiperazin-1-yl)-4-oxo-1,4-dihydroquinoline-3-carboxylic acid",
+        "difloxacine",
+        "difloxacino",
+        "difloxacinum"
+    ],
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#3_STAR"
+    },
+    "rdfs:label": "difloxacin",
+    "rdfs:subClassOf": [
+        {
+            "@id": "obo:CHEBI_25384"
+        },
+        {
+            "@id": "obo:CHEBI_23765"
+        },
+        {
+            "@id": "obo:CHEBI_46845"
+        },
+        {
+            "@id": "obo:CHEBI_46848"
+        },
+        {
+            "@id": "obo:CHEBI_86324"
+        },
+        {
+            "@id": "obo:CHEBI_87211"
+        },
+        {
+            "@id": "b100_genid-00f1db82e1ab437c844115a94dc63e635-bn4537t11f36047"
+        },
+        {
+            "@id": "obo:CHEBI_83575"
+        },
+        {
+            "@id": "b100_genid-00f1db82e1ab437c844115a94dc63e635-bn4537t11f131604"
+        }
+    ]
+}

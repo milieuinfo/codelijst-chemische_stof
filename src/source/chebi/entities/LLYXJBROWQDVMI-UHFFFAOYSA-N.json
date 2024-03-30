@@ -1,0 +1,46 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_142283",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "obo:IAO_0000115": "A nitrotoluene that is p-nitrotoluene in which one of the hydrogens that is ortho to the methyl group has been replaced by a chlorine. A pale yellow crystalline compound that is insoluble in water but dissolves in most organic solvents, it is used in the manufacture of dyes.",
+    "chebi:charge": "0",
+    "chebi:formula": "C7H6ClNO2",
+    "chebi:inchi": "InChI=1S/C7H6ClNO2/c1-5-2-3-6(9(10)11)4-7(5)8/h2-4H,1H3",
+    "chebi:inchikey": "LLYXJBROWQDVMI-UHFFFAOYSA-N",
+    "chebi:smiles": "C1(=C(C=CC(=C1)[N+](=O)[O-])C)Cl",
+    "http://purl.uniprot.org/core/name": "2-chloro-4-nitrotoluene",
+    "geneontology:hasDbXref": [
+        "PMID:11823201",
+        "CAS:121-86-8",
+        "MetaCyc:CPD-18113",
+        "Patent:EP0071038",
+        "PMID:22343112",
+        "PMID:7364283",
+        "Reaxys:1817924"
+    ],
+    "geneontology:hasId": "142283",
+    "geneontology:hasSynonym": [
+        "2,4-chloronitrotoluene",
+        "2-chloro-1-methyl-4-nitrobenzene",
+        "2-chloro-4-nitro-1-methylbenzene",
+        "3-chloro-4-methylnitrobenzene",
+        "o-chloro-p-nitrotoluene"
+    ],
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#3_STAR"
+    },
+    "rdfs:label": "2-chloro-4-nitrotoluene",
+    "rdfs:subClassOf": [
+        {
+            "@id": "obo:CHEBI_25566"
+        },
+        {
+            "@id": "obo:CHEBI_83403"
+        }
+    ]
+}

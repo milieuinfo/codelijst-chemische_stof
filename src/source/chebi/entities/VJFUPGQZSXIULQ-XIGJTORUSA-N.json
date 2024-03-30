@@ -1,0 +1,39 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_27474",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "chebi:charge": "0",
+    "chebi:formula": "C22H28O5",
+    "chebi:inchi": "InChI=1S/C22H28O5/c1-7-8-9-10-15-14(3)18(12-17(15)23)27-21(25)19-16(22(19,4)5)11-13(2)20(24)26-6/h7-9,11,16,18-19H,1,10,12H2,2-6H3/b9-8-,13-11+/t16-,18+,19+/m1/s1",
+    "chebi:inchikey": "VJFUPGQZSXIULQ-XIGJTORUSA-N",
+    "chebi:smiles": "COC(=O)C(\\C)=C\\[C@@H]1[C@@H](C(=O)O[C@H]2CC(=O)C(C\\C=C/C=C)=C2C)C1(C)C",
+    "http://purl.uniprot.org/core/name": "pyrethrin II",
+    "geneontology:hasDbXref": [
+        "Beilstein:2179753",
+        "CAS:121-29-9",
+        "KEGG:C09894",
+        "KNApSAcK:C00003057"
+    ],
+    "geneontology:hasId": "27474",
+    "geneontology:hasSynonym": [
+        "(1S)-2-methyl-4-oxo-3-[(2Z)-penta-2,4-dien-1-yl]cyclopent-2-en-1-yl (1R,3R)-3-[(1E)-3-methoxy-2-methyl-3-oxoprop-1-en-1-yl]-2,2-dimethylcyclopropanecarboxylate",
+        "Pyrethrin II"
+    ],
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#3_STAR"
+    },
+    "rdfs:label": "pyrethrin II",
+    "rdfs:subClassOf": [
+        {
+            "@id": "obo:CHEBI_39098"
+        },
+        {
+            "@id": "b444_genid-00f1db82e1ab437c844115a94dc63e635-bn27474t8f27815"
+        }
+    ]
+}

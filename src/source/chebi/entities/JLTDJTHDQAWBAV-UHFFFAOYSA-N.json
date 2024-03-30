@@ -1,0 +1,49 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_16269",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "obo:IAO_0000115": "A tertiary amine that is aniline in which the amino hydrogens are replaced by two methyl groups.",
+    "chebi:charge": "0",
+    "chebi:formula": "C8H11N",
+    "chebi:inchi": "InChI=1S/C8H11N/c1-9(2)8-6-4-3-5-7-8/h3-7H,1-2H3",
+    "chebi:inchikey": "JLTDJTHDQAWBAV-UHFFFAOYSA-N",
+    "chebi:smiles": "CN(C)c1ccccc1",
+    "http://purl.uniprot.org/core/name": "N,N-dimethylaniline",
+    "geneontology:hasDbXref": [
+        "CAS:121-69-7",
+        "HMDB:HMDB0001020",
+        "KEGG:C02846",
+        "MetaCyc:NN-DIMETHYLANILINE",
+        "PMID:24315030",
+        "Reaxys:507140",
+        "Wikipedia:Dimethylaniline"
+    ],
+    "geneontology:hasId": "16269",
+    "geneontology:hasSynonym": [
+        "Dimethylaminobenzene",
+        "Dimethylaniline",
+        "Dimethylphenylamine",
+        "N,N-Dimethylaniline",
+        "N,N-Dimethylbenzenamine",
+        "N,N-Dimethylbenzeneamine",
+        "N,N-Dimethyl-N-phenylamine",
+        "N,N-Dimethylphenylamine"
+    ],
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#3_STAR"
+    },
+    "rdfs:label": "N,N-dimethylaniline",
+    "rdfs:subClassOf": [
+        {
+            "@id": "obo:CHEBI_32876"
+        },
+        {
+            "@id": "obo:CHEBI_23806"
+        }
+    ]
+}

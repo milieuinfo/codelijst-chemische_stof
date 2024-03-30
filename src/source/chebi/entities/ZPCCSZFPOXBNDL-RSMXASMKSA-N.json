@@ -1,0 +1,81 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_31168",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "obo:IAO_0000115": "A macrolide antibiotic produced by various Streptomyces species.",
+    "chebi:charge": "0",
+    "chebi:formula": "C45H76N2O15",
+    "chebi:inchi": "InChI=1S/C45H76N2O15/c1-25-22-31(20-21-48)41(62-44-39(51)38(47(10)11)40(28(4)58-44)61-37-24-45(7,53)43(52)29(5)57-37)42(54-12)34(59-30(6)49)23-35(50)55-26(2)16-14-13-15-17-33(25)60-36-19-18-32(46(8)9)27(3)56-36/h13-15,17,21,25-29,31-34,36-44,51-53H,16,18-20,22-24H2,1-12H3/b14-13+,17-15+/t25-,26-,27+,28-,29+,31+,32+,33+,34-,36+,37+,38-,39-,40-,41+,42+,43+,44+,45-/m1/s1",
+    "chebi:inchikey": "ZPCCSZFPOXBNDL-RSMXASMKSA-N",
+    "chebi:smiles": "CO[C@H]1[C@@H](CC(=O)O[C@H](C)C\\C=C\\C=C\\[C@H](O[C@H]2CC[C@@H]([C@H](C)O2)N(C)C)[C@H](C)C[C@H](CC=O)[C@@H]1O[C@@H]1O[C@H](C)[C@@H](O[C@H]2C[C@@](C)(O)[C@@H](O)[C@H](C)O2)[C@@H]([C@H]1O)N(C)C)OC(C)=O",
+    "geneontology:hasDbXref": [
+        "CAS:24916-51-6",
+        "KEGG:C12891",
+        "KEGG:D02420",
+        "LIPID_MAPS_instance:LMPK05000002",
+        "Patent:WO2011147316",
+        "PMID:15127585",
+        "PMID:16496680",
+        "PMID:20843520",
+        "PMID:2232146",
+        "PMID:23866271",
+        "PMID:24790408",
+        "PMID:25081985",
+        "PMID:25164320",
+        "PMID:3793330",
+        "PMID:4077347",
+        "PMID:6655800",
+        "PMID:7154255",
+        "PMID:7321185",
+        "PMID:7321187",
+        "Reaxys:25081792"
+    ],
+    "geneontology:hasId": "31168",
+    "geneontology:hasSynonym": [
+        "(4R,5S,6S,7R,9R,10R,11E,13E,16R)-6-{[(2S,3R,4R,5S,6R)-5-{[(2S,4R,5S,6S)-4,5-dihydroxy-4,6-dimethyloxan-2-yl]oxy}-4-(dimethylamino)-3-hydroxy-6-methyloxan-2-yl]oxy}-10-{[(2R,5S,6S)-5-(dimethylamino)-6-methyloxan-2-yl]oxy}-5-methoxy-9,16-dimethyl-2-oxo-7-(2-oxoethyl)-1-oxacyclohexadeca-11,13-dien-4-yl acetate",
+        "Acetylspiramycin",
+        "Acetylspiramycinum",
+        "Foromacidin B",
+        "Foromacidine B",
+        "Spiramycin 2",
+        "Spiramycin B"
+    ],
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#3_STAR"
+    },
+    "rdfs:label": "spiramycin II",
+    "rdfs:subClassOf": [
+        {
+            "@id": "obo:CHEBI_17478"
+        },
+        {
+            "@id": "obo:CHEBI_47622"
+        },
+        {
+            "@id": "obo:CHEBI_25698"
+        },
+        {
+            "@id": "obo:CHEBI_50996"
+        },
+        {
+            "@id": "obo:CHEBI_63353"
+        },
+        {
+            "@id": "obo:CHEBI_25106"
+        },
+        {
+            "@id": "b165_genid-00f1db82e1ab437c844115a94dc63e635-bn31168t11f33281"
+        },
+        {
+            "@id": "b165_genid-00f1db82e1ab437c844115a94dc63e635-bn31168t11f36047"
+        },
+        {
+            "@id": "b165_genid-00f1db82e1ab437c844115a94dc63e635-bn31168t11f76969"
+        }
+    ]
+}

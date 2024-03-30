@@ -1,0 +1,67 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_17907",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "obo:IAO_0000115": "An epoxide that is oxirane in which one of the hydrogens has been replaced by a phenyl group.",
+    "chebi:charge": "0",
+    "chebi:formula": "C8H8O",
+    "chebi:inchi": "InChI=1S/C8H8O/c1-2-4-7(5-3-1)8-6-9-8/h1-5,8H,6H2",
+    "chebi:inchikey": "AWMVMTVKBNGEAK-UHFFFAOYSA-N",
+    "chebi:smiles": "C1OC1c1ccccc1",
+    "http://purl.uniprot.org/core/name": "styrene oxide",
+    "geneontology:hasDbXref": [
+        "PMID:24320693",
+        "Beilstein:108582",
+        "CAS:96-09-3",
+        "Gmelin:50213",
+        "KEGG:C02083",
+        "MetaCyc:2-Phenyloxirane",
+        "PMID:11551533",
+        "PMID:19245253",
+        "Reaxys:108582",
+        "UM-BBD_compID:c0037",
+        "Wikipedia:Styrene_oxide"
+    ],
+    "geneontology:hasId": "17907",
+    "geneontology:hasSynonym": [
+        "(epoxyethyl)benzene",
+        "1,2-epoxy-1-phenylethane",
+        "1,2-epoxyethylbenzene",
+        "1-phenyl-1,2-epoxyethane",
+        "1-phenyloxirane",
+        "2-phenyloxirane",
+        "alpha,beta-epoxystyrene",
+        "epoxyethylbenzene",
+        "epoxystyrene",
+        "phenethylene oxide",
+        "phenylethylene oxide",
+        "phenyloxirane",
+        "phenyl oxirane",
+        "styrene 7,8-oxide",
+        "styrene-7,8-oxide",
+        "Styrene-7,8-oxide",
+        "styrene epoxide",
+        "Styrene oxide",
+        "styryl oxide"
+    ],
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#3_STAR"
+    },
+    "rdfs:label": "styrene oxide",
+    "rdfs:subClassOf": [
+        {
+            "@id": "obo:CHEBI_32955"
+        },
+        {
+            "@id": "b82_genid-00f1db82e1ab437c844115a94dc63e635-bn17907t9f27452"
+        },
+        {
+            "@id": "b82_genid-00f1db82e1ab437c844115a94dc63e635-bn17907t11f76967"
+        }
+    ]
+}

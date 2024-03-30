@@ -1,0 +1,44 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_64503",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "obo:IAO_0000115": "An unbranched nineteen-carbon alkene with one double bond between C-1 and C-2.",
+    "chebi:charge": "0",
+    "chebi:formula": "C19H38",
+    "chebi:inchi": "InChI=1S/C19H38/c1-3-5-7-9-11-13-15-17-19-18-16-14-12-10-8-6-4-2/h3H,1,4-19H2,2H3",
+    "chebi:inchikey": "NHLUYCJZUXOUBX-UHFFFAOYSA-N",
+    "chebi:smiles": "CCCCCCCCCCCCCCCCCC=C",
+    "geneontology:hasDbXref": [
+        "AGR:IND20413136",
+        "CAS:18435-45-5",
+        "LIPID_MAPS_instance:LMFA11000322",
+        "MetaCyc:CPD-14220",
+        "Patent:WO2011005548",
+        "PMID:17489359",
+        "PMID:21216900",
+        "PMID:22805798",
+        "Reaxys:1705613"
+    ],
+    "geneontology:hasId": "64503",
+    "geneontology:hasSynonym": "1-nonadecene",
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#3_STAR"
+    },
+    "rdfs:label": "nonadec-1-ene",
+    "rdfs:subClassOf": [
+        {
+            "@id": "obo:CHEBI_32878"
+        },
+        {
+            "@id": "b57_genid-00f1db82e1ab437c844115a94dc63e635-bn64503t11f76924"
+        },
+        {
+            "@id": "b57_genid-00f1db82e1ab437c844115a94dc63e635-bn64503t11f76969"
+        }
+    ]
+}

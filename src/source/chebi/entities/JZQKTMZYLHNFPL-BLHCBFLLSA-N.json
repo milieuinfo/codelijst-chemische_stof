@@ -1,0 +1,69 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_149547",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "obo:IAO_0000115": "A polyunsaturated fatty aldehyde that is decanal which has undergone formal dehydrogenation to introduce trans- double bonds at the 2-3 and 4-5 positions. A product of lipid peroxidation in cell membranes and a component of cooking oil fumes.",
+    "chebi:charge": "0",
+    "chebi:formula": "C10H16O",
+    "chebi:inchi": "InChI=1S/C10H16O/c1-2-3-4-5-6-7-8-9-10-11/h6-10H,2-5H2,1H3/b7-6+,9-8+",
+    "chebi:inchikey": "JZQKTMZYLHNFPL-BLHCBFLLSA-N",
+    "chebi:smiles": "C(/C=C/C=C/CCCCC)=O",
+    "geneontology:hasDbXref": [
+        "PMID:26040727",
+        "PMID:22224661",
+        "AGR:IND43862719",
+        "CAS:25152-84-5",
+        "LIPID_MAPS_instance:LMFA06000057",
+        "PMID:10898592",
+        "PMID:11764942",
+        "PMID:12204592",
+        "PMID:15144221",
+        "PMID:15201434",
+        "PMID:16014734",
+        "PMID:17658762",
+        "PMID:18187174",
+        "PMID:18368469",
+        "PMID:19797125",
+        "PMID:20143344",
+        "PMID:20936405",
+        "PMID:21704156",
+        "PMID:23992954",
+        "PMID:25244621",
+        "PMID:26322627",
+        "PMID:31918337",
+        "PMID:32238829",
+        "PMID:8564922",
+        "Wikipedia:(E,E)-2,4-Decadienal"
+    ],
+    "geneontology:hasId": "149547",
+    "geneontology:hasSynonym": [
+        "(2E,4E)-2,4-decadienal",
+        "(2E,4E)-decadienal",
+        "(E,E)-2,4-decadienal",
+        "2,4-trans,trans-decadienal",
+        "2-trans-4-trans-decadienal",
+        "trans,trans-2,4-decadien-1-al",
+        "trans,trans-2,4-decadienal",
+        "trans-2, trans-4-decadienal"
+    ],
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#3_STAR"
+    },
+    "rdfs:label": "(2E,4E)-deca-2,4-dienal",
+    "rdfs:subClassOf": [
+        {
+            "@id": "obo:CHEBI_72692"
+        },
+        {
+            "@id": "b210_genid-00f1db82e1ab437c844115a94dc63e635-bn149547t11f25491"
+        },
+        {
+            "@id": "b210_genid-00f1db82e1ab437c844115a94dc63e635-bn149547t11f68495"
+        }
+    ]
+}

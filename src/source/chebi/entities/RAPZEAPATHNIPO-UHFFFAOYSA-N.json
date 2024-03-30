@@ -1,0 +1,91 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_8871",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "obo:IAO_0000115": "A member of the class of pyridopyrimidines that is 2-methyl-6,7,8,9-tetrahydropyrido[1,2-a]pyrimidin-4-one carrying an additional 2-[4-(6-fluoro-1,2-benzoxazol-3-yl)piperidin-1-yl]ethyl group at position 2.",
+    "chebi:charge": "0",
+    "chebi:formula": "C23H27FN4O2",
+    "chebi:inchi": "InChI=1S/C23H27FN4O2/c1-15-18(23(29)28-10-3-2-4-21(28)25-15)9-13-27-11-7-16(8-12-27)22-19-6-5-17(24)14-20(19)30-26-22/h5-6,14,16H,2-4,7-13H2,1H3",
+    "chebi:inchikey": "RAPZEAPATHNIPO-UHFFFAOYSA-N",
+    "chebi:smiles": "Cc1nc2CCCCn2c(=O)c1CCN1CCC(CC1)c1noc2cc(F)ccc12",
+    "geneontology:hasDbXref": [
+        "PMID:20825390",
+        "Beilstein:4891881",
+        "CAS:106266-06-2",
+        "Drug_Central:2389",
+        "DrugBank:DB00734",
+        "HMDB:HMDB0005020",
+        "KEGG:D00426",
+        "LINCS:LSM-3193",
+        "Patent:EP196132",
+        "Patent:US4804663",
+        "PMID:11229618",
+        "PMID:11476125",
+        "PMID:14687852",
+        "PMID:14728058",
+        "PMID:15096074",
+        "PMID:17054229",
+        "PMID:18545060",
+        "PMID:18722468",
+        "PMID:19412457",
+        "PMID:23327578",
+        "Reaxys:4891881",
+        "Wikipedia:Risperidone"
+    ],
+    "geneontology:hasId": "8871",
+    "geneontology:hasSynonym": [
+        "risperidone",
+        "3-{2-[4-(6-fluoro-1,2-benzisoxazol-3-yl)piperidin-1-yl]ethyl}-2-methyl-6,7,8,9-tetrahydro-4H-pyrido[1,2-a]pyrimidin-4-one",
+        "Risperdal",
+        "risperidona",
+        "risperidonum",
+        "Risperin",
+        "Rispolept",
+        "Rispolin",
+        "Sequinan"
+    ],
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#3_STAR"
+    },
+    "rdfs:label": "risperidone",
+    "rdfs:subClassOf": [
+        {
+            "@id": "obo:CHEBI_37143"
+        },
+        {
+            "@id": "obo:CHEBI_38932"
+        },
+        {
+            "@id": "obo:CHEBI_48585"
+        },
+        {
+            "@id": "b14_genid-00f1db82e1ab437c844115a94dc63e635-bn8871t11f35471"
+        },
+        {
+            "@id": "b14_genid-00f1db82e1ab437c844115a94dc63e635-bn8871t11f37890"
+        },
+        {
+            "@id": "b14_genid-00f1db82e1ab437c844115a94dc63e635-bn8871t11f37955"
+        },
+        {
+            "@id": "b14_genid-00f1db82e1ab437c844115a94dc63e635-bn8871t11f48279"
+        },
+        {
+            "@id": "b14_genid-00f1db82e1ab437c844115a94dc63e635-bn8871t11f48561"
+        },
+        {
+            "@id": "obo:CHEBI_51545"
+        },
+        {
+            "@id": "b14_genid-00f1db82e1ab437c844115a94dc63e635-bn8871t11f65191"
+        },
+        {
+            "@id": "b14_genid-00f1db82e1ab437c844115a94dc63e635-bn8871t11f76779"
+        }
+    ]
+}

@@ -1,0 +1,44 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_33363",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "obo:IAO_0000115": "Chemical element (nickel group element atom) with atomic number 46.",
+    "chebi:charge": "0",
+    "chebi:formula": "Pd",
+    "chebi:inchi": "InChI=1S/Pd",
+    "chebi:inchikey": "KDLHZDBZIXYQEI-UHFFFAOYSA-N",
+    "chebi:smiles": "[Pd]",
+    "geneontology:hasDbXref": [
+        "CAS:7440-05-3",
+        "PMID:25097477",
+        "Reaxys:4937491",
+        "WebElements:Pd",
+        "Wikipedia:Palladium"
+    ],
+    "geneontology:hasId": "33363",
+    "geneontology:hasSynonym": [
+        "Pd",
+        "46Pd",
+        "paladio"
+    ],
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#3_STAR"
+    },
+    "rdfs:label": "palladium",
+    "rdfs:subClassOf": [
+        {
+            "@id": "obo:CHEBI_88184"
+        },
+        {
+            "@id": "obo:CHEBI_33362"
+        },
+        {
+            "@id": "obo:CHEBI_33365"
+        }
+    ]
+}

@@ -1,0 +1,58 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_8866",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "obo:IAO_0000115": "A  N-sulfonylurea that is N-carbamoyl-3-(ethylsulfonyl)pyridine-2-sulfonamide substituted by a 4,6-dimethoxypyrimidin-2-yl group at the amino nitrogen atom.",
+    "chebi:charge": "0",
+    "chebi:formula": "C14H17N5O7S2",
+    "chebi:inchi": "InChI=1S/C14H17N5O7S2/c1-4-27(21,22)9-6-5-7-15-12(9)28(23,24)19-14(20)18-13-16-10(25-2)8-11(17-13)26-3/h5-8H,4H2,1-3H3,(H2,16,17,18,19,20)",
+    "chebi:inchikey": "MEFOUWRMVYJCQC-UHFFFAOYSA-N",
+    "chebi:smiles": "CCS(=O)(=O)c1cccnc1S(=O)(=O)NC(=O)Nc1nc(OC)cc(OC)n1",
+    "geneontology:hasDbXref": [
+        "AGR:IND500602179",
+        "CAS:122931-48-0",
+        "KEGG:C10952",
+        "Pesticides:rimsulfuron",
+        "PMID:23076614",
+        "PMID:24238286",
+        "PPDB:586",
+        "Reaxys:7501778"
+    ],
+    "geneontology:hasId": "8866",
+    "geneontology:hasSynonym": "N-[(4,6-dimethoxypyrimidin-2-yl)carbamoyl]-3-(ethylsulfonyl)pyridine-2-sulfonamide",
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#3_STAR"
+    },
+    "rdfs:label": "rimsulfuron",
+    "rdfs:subClassOf": [
+        {
+            "@id": "obo:CHEBI_26421"
+        },
+        {
+            "@id": "obo:CHEBI_35618"
+        },
+        {
+            "@id": "obo:CHEBI_39447"
+        },
+        {
+            "@id": "obo:CHEBI_76983"
+        },
+        {
+            "@id": "obo:CHEBI_35850"
+        },
+        {
+            "@id": "b503_genid-00f1db82e1ab437c844115a94dc63e635-bn8866t11f24527"
+        },
+        {
+            "@id": "b503_genid-00f1db82e1ab437c844115a94dc63e635-bn8866t11f35703"
+        },
+        {
+            "@id": "b503_genid-00f1db82e1ab437c844115a94dc63e635-bn8866t11f78298"
+        }
+    ]
+}

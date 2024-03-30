@@ -1,0 +1,43 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_83061",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "obo:IAO_0000115": "A member of the class of dithiocarbamic acids that is dimethylcarbamic acid in which both of the oxygens are replaced by sulfur.",
+    "chebi:charge": "0",
+    "chebi:formula": "C3H7NS2",
+    "chebi:inchi": "InChI=1S/C3H7NS2/c1-4(2)3(5)6/h1-2H3,(H,5,6)",
+    "chebi:inchikey": "MZGNSEAPZQGJRB-UHFFFAOYSA-N",
+    "chebi:smiles": "CN(C)C(S)=S",
+    "geneontology:hasDbXref": [
+        "CAS:79-45-8",
+        "Reaxys:1740846"
+    ],
+    "geneontology:hasId": "83061",
+    "geneontology:hasSynonym": [
+        "dimethylcarbamodithioic acid",
+        "dimethyldithiocarbamate",
+        "DMDC",
+        "N,N-dimethyldithiocarbamate",
+        "N,N-dimethyldithiocarbamic acid"
+    ],
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#3_STAR"
+    },
+    "rdfs:label": "dimethyldithiocarbamic acid",
+    "rdfs:subClassOf": [
+        {
+            "@id": "obo:CHEBI_78787"
+        },
+        {
+            "@id": "b23_genid-00f1db82e1ab437c844115a94dc63e635-bn83061tmms73f84293"
+        },
+        {
+            "@id": "b23_genid-00f1db82e1ab437c844115a94dc63e635-bn83061t4f84293"
+        }
+    ]
+}

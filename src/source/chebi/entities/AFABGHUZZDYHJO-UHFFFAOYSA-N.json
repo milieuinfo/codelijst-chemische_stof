@@ -1,0 +1,35 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_88374",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "chebi:charge": "0",
+    "chebi:formula": "C6H14",
+    "chebi:inchi": "InChI=1S/C6H14/c1-4-5-6(2)3/h6H,4-5H2,1-3H3",
+    "chebi:inchikey": "AFABGHUZZDYHJO-UHFFFAOYSA-N",
+    "chebi:smiles": "CCCC(C)C",
+    "geneontology:hasDbXref": [
+        "PMID:17314143",
+        "PMID:24421258",
+        "PMID:422277",
+        "HMDB:HMDB0061884",
+        "PMID:10537374",
+        "Wikipedia:2-Methylpentane"
+    ],
+    "geneontology:hasId": "88374",
+    "geneontology:hasSynonym": [
+        "2-methylpentane",
+        "2-Methyl-pentane"
+    ],
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#2_STAR"
+    },
+    "rdfs:label": "2-Methylpentane",
+    "rdfs:subClassOf": {
+        "@id": "obo:CHEBI_18310"
+    }
+}

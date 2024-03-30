@@ -1,0 +1,75 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_166883",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "obo:IAO_0000115": "A methyl-branched fatty acid that is pentanoic acid which carries a methyl group at position 3.",
+    "chebi:charge": "0",
+    "chebi:formula": "C6H12O2",
+    "chebi:inchi": "InChI=1S/C6H12O2/c1-3-5(2)4-6(7)8/h5H,3-4H2,1-2H3,(H,7,8)",
+    "chebi:inchikey": "IGIDLTISMCAULB-UHFFFAOYSA-N",
+    "chebi:smiles": "CCC(C)CC(O)=O",
+    "geneontology:hasDbXref": [
+        "PMID:29732495",
+        "CAS:105-43-1",
+        "FooDB:FDB012545",
+        "HMDB:HMDB0033774",
+        "LIPID_MAPS_instance:LMFA01020075",
+        "PMID:26332370",
+        "PMID:31591212",
+        "PMID:32512824",
+        "PMID:32640344",
+        "PMID:32846567",
+        "PMID:6487265",
+        "Reaxys:1720696"
+    ],
+    "geneontology:hasId": "166883",
+    "geneontology:hasSynonym": [
+        "2-methylbutane-1-carboxylic acid",
+        "3-ethylbutanoic acid",
+        "3-methyl-n-valeric acid",
+        "3-methylpentanoic acid",
+        "3-methyl-pentanoic acid",
+        "beta-methylvaleric acid"
+    ],
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#3_STAR"
+    },
+    "rdfs:label": "3-methylvaleric acid",
+    "rdfs:subClassOf": [
+        {
+            "@id": "obo:CHEBI_25384"
+        },
+        {
+            "@id": "obo:CHEBI_26666"
+        },
+        {
+            "@id": "obo:CHEBI_39417"
+        },
+        {
+            "@id": "obo:CHEBI_62499"
+        },
+        {
+            "@id": "b607_genid-00f1db82e1ab437c844115a94dc63e635-bn166883tmms73f167610"
+        },
+        {
+            "@id": "b607_genid-00f1db82e1ab437c844115a94dc63e635-bn166883t11f35617"
+        },
+        {
+            "@id": "b607_genid-00f1db82e1ab437c844115a94dc63e635-bn166883t11f75767"
+        },
+        {
+            "@id": "b607_genid-00f1db82e1ab437c844115a94dc63e635-bn166883t11f76924"
+        },
+        {
+            "@id": "b607_genid-00f1db82e1ab437c844115a94dc63e635-bn166883t11f76946"
+        },
+        {
+            "@id": "b607_genid-00f1db82e1ab437c844115a94dc63e635-bn166883t4f167610"
+        }
+    ]
+}

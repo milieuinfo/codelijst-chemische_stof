@@ -1,0 +1,82 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_32888",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "chebi:charge": "0",
+    "chebi:formula": "C6H6Cl6",
+    "chebi:inchi": "InChI=1S/C6H6Cl6/c7-1-2(8)4(10)6(12)5(11)3(1)9/h1-6H/t1-,2-,3-,4+,5+,6+",
+    "chebi:inchikey": "JLYXXMFPNIAWKQ-GNIYUCBRSA-N",
+    "chebi:smiles": "Cl[C@H]1[C@H](Cl)[C@@H](Cl)[C@@H](Cl)[C@H](Cl)[C@H]1Cl",
+    "http://purl.uniprot.org/core/name": "gamma-hexachlorocyclohexane",
+    "geneontology:hasDbXref": [
+        "Beilstein:1907337",
+        "CAS:55963-79-6",
+        "CAS:58-89-9",
+        "Drug_Central:1583",
+        "DrugBank:DB00431",
+        "Gmelin:2179629",
+        "KEGG:C06595",
+        "KEGG:C07075",
+        "KEGG:D00360",
+        "PPDB:370",
+        "UM-BBD_compID:c0141",
+        "VSDB:370",
+        "Wikipedia:Lindane"
+    ],
+    "geneontology:hasId": "32888",
+    "geneontology:hasSynonym": [
+        "1,2,3,4,5,6-Hexachlorocyclohexane",
+        "(1alpha,2alpha,3beta,4alpha,5alpha,6beta)-1,2,3,4,5,6-hexachlorocyclohexane",
+        "(1r,2c,3t,4c,5c,6t)-1,2,3,4,5,6-hexachlorocyclohexane",
+        "(1r,2R,3S,4r,5R,6S)-1,2,3,4,5,6-hexachlorocyclohexane",
+        "Benzene hexachloride",
+        "gamma-1,2,3,4,5,6-hexachlorocyclohexane",
+        "gamma-benzene hexachloride",
+        "gamma-BHC",
+        "gamma-HCH",
+        "gamma-Hexachlorocyclohexane",
+        "gamma-Hexachlorzyklohexan",
+        "gamma-lindane",
+        "Kwell",
+        "Lindan",
+        "Lindane"
+    ],
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#3_STAR"
+    },
+    "rdfs:label": "gamma-hexachlorocyclohexane",
+    "rdfs:subClassOf": [
+        {
+            "@id": "obo:CHEBI_23457"
+        },
+        {
+            "@id": "obo:CHEBI_24536"
+        },
+        {
+            "@id": "b141_genid-00f1db82e1ab437c844115a94dc63e635-bn32888t11f24127"
+        },
+        {
+            "@id": "b141_genid-00f1db82e1ab437c844115a94dc63e635-bn32888t11f33282"
+        },
+        {
+            "@id": "b141_genid-00f1db82e1ab437c844115a94dc63e635-bn32888t11f33286"
+        },
+        {
+            "@id": "b141_genid-00f1db82e1ab437c844115a94dc63e635-bn32888t11f33288"
+        },
+        {
+            "@id": "b141_genid-00f1db82e1ab437c844115a94dc63e635-bn32888t11f38706"
+        },
+        {
+            "@id": "b141_genid-00f1db82e1ab437c844115a94dc63e635-bn32888t11f38999"
+        },
+        {
+            "@id": "b141_genid-00f1db82e1ab437c844115a94dc63e635-bn32888t11f77853"
+        }
+    ]
+}

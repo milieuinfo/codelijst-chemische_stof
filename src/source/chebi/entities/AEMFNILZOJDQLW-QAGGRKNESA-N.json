@@ -1,0 +1,71 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_16422",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "obo:IAO_0000115": "A 3-oxo Delta(4)-steroid that is androst-4-ene substituted by oxo groups at positions 3 and 17. It is a steroid hormone synthesized in the adrenal glands and gonads.",
+    "chebi:charge": "0",
+    "chebi:formula": "C19H26O2",
+    "chebi:inchi": "InChI=1S/C19H26O2/c1-18-9-7-13(20)11-12(18)3-4-14-15-5-6-17(21)19(15,2)10-8-16(14)18/h11,14-16H,3-10H2,1-2H3/t14-,15-,16-,18-,19-/m0/s1",
+    "chebi:inchikey": "AEMFNILZOJDQLW-QAGGRKNESA-N",
+    "chebi:smiles": "[H][C@@]12CCC3=CC(=O)CC[C@]3(C)[C@@]1([H])CC[C@]1(C)C(=O)CC[C@@]21[H]",
+    "http://purl.uniprot.org/core/name": "androst-4-ene-3,17-dione",
+    "geneontology:hasDbXref": [
+        "Beilstein:2059239",
+        "CAS:63-05-8",
+        "Drug_Central:215",
+        "DrugBank:DB01536",
+        "Gmelin:961672",
+        "HMDB:HMDB0000053",
+        "KEGG:C00280",
+        "KEGG:D00051",
+        "KNApSAcK:C00003644",
+        "LIPID_MAPS_instance:LMST02020007",
+        "MetaCyc:ANDROST4ENE",
+        "PDBeChem:ASD",
+        "PMID:24423344",
+        "PMID:24740546",
+        "Reaxys:2059239",
+        "Wikipedia:Androstenedione"
+    ],
+    "geneontology:hasId": "16422",
+    "geneontology:hasSynonym": [
+        "4-Androstene-3,17-dione",
+        "4-ANDROSTENE-3-17-DIONE",
+        "Androst-4-ene-3,17-dione",
+        "Androstenedione",
+        "Delta(4)-androsten-3,17-dione",
+        "Delta(4)-androstene-3,17-dione"
+    ],
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#3_STAR"
+    },
+    "rdfs:label": "androst-4-ene-3,17-dione",
+    "rdfs:subClassOf": [
+        {
+            "@id": "obo:CHEBI_47909"
+        },
+        {
+            "@id": "obo:CHEBI_19168"
+        },
+        {
+            "@id": "obo:CHEBI_50402"
+        },
+        {
+            "@id": "b191_genid-00f1db82e1ab437c844115a94dc63e635-bn16422t11f50113"
+        },
+        {
+            "@id": "b191_genid-00f1db82e1ab437c844115a94dc63e635-bn16422t11f75771"
+        },
+        {
+            "@id": "b191_genid-00f1db82e1ab437c844115a94dc63e635-bn16422t11f77746"
+        },
+        {
+            "@id": "b191_genid-00f1db82e1ab437c844115a94dc63e635-bn16422t11f83056"
+        }
+    ]
+}

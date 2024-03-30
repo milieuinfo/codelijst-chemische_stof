@@ -1,0 +1,70 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_15930",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "obo:IAO_0000115": "A diamino-1,3,5-triazine that is 1,3,5-triazine-2,4-diamine substituted by a chloro group at position 6 while one of hydrogens of each amino group is replaced respectively by an ethyl and a propan-2-yl group.",
+    "chebi:charge": "0",
+    "chebi:formula": "C8H14ClN5",
+    "chebi:inchi": "InChI=1S/C8H14ClN5/c1-4-10-7-12-6(9)13-8(14-7)11-5(2)3/h5H,4H2,1-3H3,(H2,10,11,12,13,14)",
+    "chebi:inchikey": "MXWJVTOOROXGIU-UHFFFAOYSA-N",
+    "chebi:smiles": "CCNc1nc(Cl)nc(NC(C)C)n1",
+    "http://purl.uniprot.org/core/name": "atrazine",
+    "geneontology:hasDbXref": [
+        "Beilstein:612020",
+        "CAS:1912-24-9",
+        "DrugBank:DB07392",
+        "HMDB:HMDB0041830",
+        "KEGG:C06551",
+        "LINCS:LSM-18990",
+        "MetaCyc:ATRAZINE",
+        "PDBeChem:ATZ",
+        "PMID:24211529",
+        "PMID:24239819",
+        "PMID:24246238",
+        "PPDB:43",
+        "Reaxys:612020",
+        "UM-BBD_compID:c0002",
+        "Wikipedia:Atrazine"
+    ],
+    "geneontology:hasId": "15930",
+    "geneontology:hasSynonym": [
+        "2-chloro-4-(ethylamino)-6-(isopropylamino)-1,3,5-triazine",
+        "2-chloro-4-ethylamino-6-isopropylamino-1,3,5-triazine",
+        "2-chloro-4-ethylamino-6-isopropylamino-s-triazine",
+        "2-CHLORO-4-ISOPROPYLAMINO-6-ETHYLAMINO-1,3,5-TRIAZINE",
+        "2-ethylamino-4-isopropylamino-6-chloro-s-triazine",
+        "6-chloro-N-ethyl-N'-(1-methylethyl)-1,3,5-triazine-2,4-diamine",
+        "6-chloro-N-ethyl-N'-(propan-2-yl)-1,3,5-triazine-2,4-diamine",
+        "6-chloro-N-ethyl-N'-isopropyl-1,3,5-triazine-2,4-diamine",
+        "Atrazine"
+    ],
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#3_STAR"
+    },
+    "rdfs:label": "atrazine",
+    "rdfs:subClassOf": [
+        {
+            "@id": "obo:CHEBI_38168"
+        },
+        {
+            "@id": "obo:CHEBI_38170"
+        },
+        {
+            "@id": "b13_genid-00f1db82e1ab437c844115a94dc63e635-bn15930t11f24527"
+        },
+        {
+            "@id": "b13_genid-00f1db82e1ab437c844115a94dc63e635-bn15930t8f27726"
+        },
+        {
+            "@id": "b13_genid-00f1db82e1ab437c844115a94dc63e635-bn15930t11f35703"
+        },
+        {
+            "@id": "b13_genid-00f1db82e1ab437c844115a94dc63e635-bn15930t11f78298"
+        }
+    ]
+}

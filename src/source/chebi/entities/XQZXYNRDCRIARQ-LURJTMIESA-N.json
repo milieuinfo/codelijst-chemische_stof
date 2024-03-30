@@ -1,0 +1,64 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_31711",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "obo:IAO_0000115": "A benzenedicarboxamide compound having N-substituted carbamoyl groups at the 1- and 3-positions, iodo substituents at the 2-, 4- and 6-positions and a (2S)-2-hydroxypropanamido group at the 5-position.",
+    "chebi:charge": "0",
+    "chebi:formula": "C17H22I3N3O8",
+    "chebi:inchi": "InChI=1S/C17H22I3N3O8/c1-6(28)15(29)23-14-12(19)9(16(30)21-7(2-24)3-25)11(18)10(13(14)20)17(31)22-8(4-26)5-27/h6-8,24-28H,2-5H2,1H3,(H,21,30)(H,22,31)(H,23,29)/t6-/m0/s1",
+    "chebi:inchikey": "XQZXYNRDCRIARQ-LURJTMIESA-N",
+    "chebi:smiles": "C[C@H](O)C(=O)Nc1c(I)c(C(=O)NC(CO)CO)c(I)c(C(=O)NC(CO)CO)c1I",
+    "geneontology:hasDbXref": [
+        "PMID:15206581",
+        "Beilstein:6250226",
+        "CAS:60166-93-0",
+        "Drug_Central:1464",
+        "KEGG:D01797",
+        "LINCS:LSM-5833",
+        "PMID:23359781",
+        "PMID:23518934",
+        "PMID:23608563",
+        "PMID:24060817",
+        "PMID:24091357",
+        "PMID:24570337",
+        "Reaxys:6250226",
+        "Wikipedia:Iopamidol"
+    ],
+    "geneontology:hasId": "31711",
+    "geneontology:hasSynonym": [
+        "(S)-N,N'-bis(2-Hydroxy-1-(hydroxymethyl)ethyl)-2,4,6-triiodo-5-lactamidoisophthalamide",
+        "iopamidolum",
+        "L-(+)-N,N'-Bis(2-hydroxy-1-hydroxymethylethyl)-2,4,6-triiodo-5-lactamide isophthalamide",
+        "L-5alpha-Hydroxypropionylamino-2,4,6-triiodoisophthalic acid di(1,3-dihydroxy-2-propylamide)",
+        "N,N'-bis(1,3-dihydroxypropan-2-yl)-5-{[(2S)-2-hydroxypropanoyl]amino}-2,4,6-triiodobenzene-1,3-dicarboxamide"
+    ],
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#3_STAR"
+    },
+    "rdfs:label": "iopamidol",
+    "rdfs:subClassOf": [
+        {
+            "@id": "obo:CHEBI_37142"
+        },
+        {
+            "@id": "obo:CHEBI_37205"
+        },
+        {
+            "@id": "obo:CHEBI_38800"
+        },
+        {
+            "@id": "b3_genid-00f1db82e1ab437c844115a94dc63e635-bn31711t11f35703"
+        },
+        {
+            "@id": "b3_genid-00f1db82e1ab437c844115a94dc63e635-bn31711t11f37338"
+        },
+        {
+            "@id": "b3_genid-00f1db82e1ab437c844115a94dc63e635-bn31711t11f78298"
+        }
+    ]
+}

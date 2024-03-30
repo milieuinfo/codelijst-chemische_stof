@@ -1,0 +1,47 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_38858",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "chebi:charge": "0",
+    "chebi:formula": "C13H21O4PS",
+    "chebi:inchi": "InChI=1S/C13H21O4PS/c1-4-10-15-18(14,16-11-5-2)17-12-6-8-13(19-3)9-7-12/h6-9H,4-5,10-11H2,1-3H3",
+    "chebi:inchikey": "PWYIUEFFPNVCMW-UHFFFAOYSA-N",
+    "chebi:smiles": "CCCOP(=O)(OCCC)Oc1ccc(SC)cc1",
+    "geneontology:hasDbXref": [
+        "Beilstein:2990614",
+        "CAS:7292-16-2",
+        "KEGG:C19013",
+        "PPDB:1677"
+    ],
+    "geneontology:hasId": "38858",
+    "geneontology:hasSynonym": [
+        "4-(methylsulfanyl)phenyl dipropyl phosphate",
+        "4-Methylthiophenyl dipropyl phosphate"
+    ],
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#3_STAR"
+    },
+    "rdfs:label": "propaphos",
+    "rdfs:subClassOf": [
+        {
+            "@id": "obo:CHEBI_25708"
+        },
+        {
+            "@id": "b160_genid-00f1db82e1ab437c844115a94dc63e635-bn38858t11f33286"
+        },
+        {
+            "@id": "b160_genid-00f1db82e1ab437c844115a94dc63e635-bn38858t11f38462"
+        },
+        {
+            "@id": "obo:CHEBI_38861"
+        },
+        {
+            "@id": "b160_genid-00f1db82e1ab437c844115a94dc63e635-bn38858t8f38862"
+        }
+    ]
+}

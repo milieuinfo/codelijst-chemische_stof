@@ -1,0 +1,39 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_34222",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "obo:IAO_0000115": "A trichlorobiphenyl that is biphenyl in which the hydrogens at positions 2, 3, and 4 on one of the benzene rings are replaced by chlorines.",
+    "chebi:charge": "0",
+    "chebi:formula": "C12H7Cl3",
+    "chebi:inchi": "InChI=1S/C12H7Cl3/c13-10-7-6-9(11(14)12(10)15)8-4-2-1-3-5-8/h1-7H",
+    "chebi:inchikey": "IUYHQGMDSZOPDZ-UHFFFAOYSA-N",
+    "chebi:smiles": "Clc1ccc(-c2ccccc2)c(Cl)c1Cl",
+    "geneontology:hasDbXref": [
+        "CAS:55702-46-0",
+        "KEGG:C14357"
+    ],
+    "geneontology:hasId": "34222",
+    "geneontology:hasSynonym": [
+        "1,1'-Biphenyl, 2,3,4-trichloro-",
+        "2,3,4-trichloro-1,1'-biphenyl",
+        "2,3,4-Trichlorobiphenyl",
+        "PCB 21"
+    ],
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#3_STAR"
+    },
+    "rdfs:label": "2,3,4-trichlorobiphenyl",
+    "rdfs:subClassOf": [
+        {
+            "@id": "obo:CHEBI_27096"
+        },
+        {
+            "@id": "obo:CHEBI_36719"
+        }
+    ]
+}

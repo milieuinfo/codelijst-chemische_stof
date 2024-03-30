@@ -1,0 +1,33 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_30514",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "chebi:charge": "0",
+    "chebi:formula": "Cs",
+    "chebi:inchi": "InChI=1S/Cs",
+    "chebi:inchikey": "TVFDJXOCXUVLDH-UHFFFAOYSA-N",
+    "chebi:smiles": "[Cs]",
+    "geneontology:hasDbXref": "WebElements:Cs",
+    "geneontology:hasId": "30514",
+    "geneontology:hasSynonym": [
+        "Cs",
+        "55Cs",
+        "caesium",
+        "Caesium",
+        "cesio",
+        "cesium",
+        "Zaesium"
+    ],
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#3_STAR"
+    },
+    "rdfs:label": "caesium atom",
+    "rdfs:subClassOf": {
+        "@id": "obo:CHEBI_22314"
+    }
+}

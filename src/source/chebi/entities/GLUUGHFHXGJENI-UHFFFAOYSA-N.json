@@ -1,0 +1,77 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_28568",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "obo:IAO_0000115": "An azacycloalkane that consists of a six-membered ring containing two nitrogen atoms at opposite positions.",
+    "chebi:charge": "0",
+    "chebi:formula": "C4H10N2",
+    "chebi:inchi": "InChI=1S/C4H10N2/c1-2-6-4-3-5-1/h5-6H,1-4H2",
+    "chebi:inchikey": "GLUUGHFHXGJENI-UHFFFAOYSA-N",
+    "chebi:smiles": "C1CNCCN1",
+    "geneontology:hasDbXref": [
+        "PMID:29438107",
+        "PMID:15017096",
+        "Beilstein:102555",
+        "CAS:110-85-0",
+        "CAS:142-88-1",
+        "Chemspider:13835459",
+        "Drug_Central:2188",
+        "DrugBank:DB00592",
+        "FooDB:FDB012189",
+        "Gmelin:25695",
+        "HMDB:HMDB0014730",
+        "KEGG:C07973",
+        "KEGG:D00807",
+        "KEGG:D02145",
+        "MetaCyc:PIPERAZINE",
+        "PDBeChem:PZE",
+        "Pesticides:piperazine",
+        "PMID:16987490",
+        "PMID:24201896",
+        "PMID:28842264",
+        "PMID:32912125",
+        "PMID:33336346",
+        "PMID:33751807",
+        "PMID:9265850",
+        "Reaxys:102555",
+        "VSDB:1781",
+        "Wikipedia:Piperazine"
+    ],
+    "geneontology:hasId": "28568",
+    "geneontology:hasSynonym": [
+        "1,4-diazacyclohexane",
+        "1,4-diethylenediamine",
+        "1,4-piperazine",
+        "Diethylenediamine",
+        "hexahydro-1,4-diazine",
+        "Piperazin",
+        "Piperazine",
+        "Vermizine (TN)"
+    ],
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#3_STAR"
+    },
+    "rdfs:label": "piperazine",
+    "rdfs:subClassOf": [
+        {
+            "@id": "obo:CHEBI_36389"
+        },
+        {
+            "@id": "obo:CHEBI_26144"
+        },
+        {
+            "@id": "obo:CHEBI_37949"
+        },
+        {
+            "@id": "b325_genid-00f1db82e1ab437c844115a94dc63e635-bn28568t11f35443"
+        },
+        {
+            "@id": "b325_genid-00f1db82e1ab437c844115a94dc63e635-bn28568t5f136874"
+        }
+    ]
+}

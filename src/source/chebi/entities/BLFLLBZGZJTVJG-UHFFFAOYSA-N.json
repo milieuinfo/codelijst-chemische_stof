@@ -1,0 +1,84 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_116735",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "obo:IAO_0000115": "A benzoate ester having 4-aminobenzoic acid as the acid component and ethanol as the alcohol component. A surface anaesthetic, it is used to suppress the gag reflex, and as a lubricant and topical anaesthetic on the larynx, mouth, nasal cavity, respiratory tract, oesophagus, rectum, urinary tract, and vagina.",
+    "chebi:charge": "0",
+    "chebi:formula": "C9H11NO2",
+    "chebi:inchi": "InChI=1S/C9H11NO2/c1-2-12-9(11)7-3-5-8(10)6-4-7/h3-6H,2,10H2,1H3",
+    "chebi:inchikey": "BLFLLBZGZJTVJG-UHFFFAOYSA-N",
+    "chebi:smiles": "CCOC(=O)c1ccc(N)cc1",
+    "geneontology:hasDbXref": [
+        "PMID:29079364",
+        "PMID:21616561",
+        "PMID:12873507",
+        "PMID:2579237",
+        "PMID:1155304",
+        "PMID:10866370",
+        "PMID:25097477",
+        "Beilstein:638434",
+        "CAS:94-09-7",
+        "Drug_Central:323",
+        "DrugBank:DB01086",
+        "HMDB:HMDB0004992",
+        "KEGG:C07527",
+        "KEGG:D00552",
+        "LINCS:LSM-5830",
+        "PMID:12574744",
+        "PMID:16640711",
+        "PMID:18971079",
+        "PMID:22015737",
+        "PMID:22105694",
+        "PMID:22551703",
+        "PMID:22556388",
+        "PMID:23301559",
+        "PMID:23565580",
+        "PMID:23696166",
+        "Reaxys:638434",
+        "Wikipedia:Benzocaine"
+    ],
+    "geneontology:hasId": "116735",
+    "geneontology:hasSynonym": [
+        "4-aminobenzoic acid ethyl ester",
+        "Amben ethyl ester",
+        "Benzocaina",
+        "Benzocaine",
+        "Benzocainum",
+        "ethyl 4-aminobenzoate",
+        "Ethyl aminobenzoate",
+        "Ethyl p-aminobenzoate",
+        "Ethyl p-aminophenylcarboxylate",
+        "p-(Ethoxycarbonyl)aniline",
+        "p-Carbethoxyaniline",
+        "p-Ethoxycarboxylic aniline"
+    ],
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#3_STAR"
+    },
+    "rdfs:label": "benzocaine",
+    "rdfs:subClassOf": [
+        {
+            "@id": "obo:CHEBI_36054"
+        },
+        {
+            "@id": "obo:CHEBI_48975"
+        },
+        {
+            "@id": "b157_genid-00f1db82e1ab437c844115a94dc63e635-bn116735t11f48425"
+        },
+        {
+            "@id": "b157_genid-00f1db82e1ab437c844115a94dc63e635-bn116735t11f50904"
+        },
+        {
+            "@id": "b157_genid-00f1db82e1ab437c844115a94dc63e635-bn116735t11f59683"
+        },
+        {
+            "@id": "b157_genid-00f1db82e1ab437c844115a94dc63e635-bn116735t11f139492"
+        }
+    ]
+}

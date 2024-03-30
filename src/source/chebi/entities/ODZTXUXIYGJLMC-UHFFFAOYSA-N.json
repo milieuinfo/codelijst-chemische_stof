@@ -1,0 +1,38 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_17878",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "chebi:charge": "0",
+    "chebi:formula": "C6H10O2",
+    "chebi:inchi": "InChI=1S/C6H10O2/c7-5-3-1-2-4-6(5)8/h5,7H,1-4H2",
+    "chebi:inchikey": "ODZTXUXIYGJLMC-UHFFFAOYSA-N",
+    "chebi:smiles": "OC1CCCCC1=O",
+    "http://purl.uniprot.org/core/name": "2-hydroxycyclohexan-1-one",
+    "geneontology:hasDbXref": [
+        "CAS:533-60-8",
+        "KEGG:C01147"
+    ],
+    "geneontology:hasId": "17878",
+    "geneontology:hasSynonym": [
+        "2-Hydroxycyclohexan-1-one",
+        "2-Hydroxycyclohexanone",
+        "Adipoin"
+    ],
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#3_STAR"
+    },
+    "rdfs:label": "2-hydroxycyclohexan-1-one",
+    "rdfs:subClassOf": [
+        {
+            "@id": "obo:CHEBI_2468"
+        },
+        {
+            "@id": "obo:CHEBI_24693"
+        }
+    ]
+}

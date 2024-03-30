@@ -1,0 +1,80 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_16482",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "obo:IAO_0000115": "An aromatic hydrocarbon comprising two fused benzene rings. It occurs in the essential oils of numerous plant species e.g. magnolia.",
+    "chebi:charge": "0",
+    "chebi:formula": "C10H8",
+    "chebi:inchi": "InChI=1S/C10H8/c1-2-6-10-8-4-3-7-9(10)5-1/h1-8H",
+    "chebi:inchikey": "UFWIBTONFRDIAS-UHFFFAOYSA-N",
+    "chebi:smiles": "c1ccc2ccccc2c1",
+    "http://purl.uniprot.org/core/name": "naphthalene",
+    "geneontology:hasDbXref": [
+        "Beilstein:1421310",
+        "CAS:91-20-3",
+        "Gmelin:3347",
+        "HMDB:HMDB0029751",
+        "KEGG:C00829",
+        "KNApSAcK:C00001259",
+        "MetaCyc:NAPHTHALENE",
+        "PDBeChem:NPY",
+        "PMID:10814889",
+        "PMID:11202734",
+        "PMID:16220979",
+        "PMID:16699520",
+        "PMID:17850896",
+        "PMID:26875834",
+        "PMID:26895256",
+        "PMID:27439360",
+        "PPDB:1312",
+        "Reaxys:1421310",
+        "UM-BBD_compID:c0333",
+        "Wikipedia:Naphthalene"
+    ],
+    "geneontology:hasId": "16482",
+    "geneontology:hasSynonym": [
+        "naftaleno",
+        "naftalina",
+        "naphtalene",
+        "naphtaline",
+        "Naphthalen",
+        "Naphthalene",
+        "NAPHTHALENE",
+        "Naphthalin"
+    ],
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#3_STAR"
+    },
+    "rdfs:label": "naphthalene",
+    "rdfs:subClassOf": [
+        {
+            "@id": "obo:CHEBI_25477"
+        },
+        {
+            "@id": "b312_genid-00f1db82e1ab437c844115a94dc63e635-bn16482t11f27311"
+        },
+        {
+            "@id": "obo:CHEBI_35426"
+        },
+        {
+            "@id": "b312_genid-00f1db82e1ab437c844115a94dc63e635-bn16482t11f50903"
+        },
+        {
+            "@id": "b312_genid-00f1db82e1ab437c844115a94dc63e635-bn16482t11f68494"
+        },
+        {
+            "@id": "b312_genid-00f1db82e1ab437c844115a94dc63e635-bn16482t11f75771"
+        },
+        {
+            "@id": "b312_genid-00f1db82e1ab437c844115a94dc63e635-bn16482t11f76924"
+        },
+        {
+            "@id": "b312_genid-00f1db82e1ab437c844115a94dc63e635-bn16482t11f78298"
+        }
+    ]
+}

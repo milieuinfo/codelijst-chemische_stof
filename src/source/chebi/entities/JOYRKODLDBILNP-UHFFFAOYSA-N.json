@@ -1,0 +1,50 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_17967",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "obo:IAO_0000115": "A carbamate ester obtained by the formal condensation of ethanol with carbamic acid. It has been found in alcoholic beverages.",
+    "chebi:charge": "0",
+    "chebi:formula": "C3H7NO2",
+    "chebi:inchi": "InChI=1S/C3H7NO2/c1-2-6-3(4)5/h2H2,1H3,(H2,4,5)",
+    "chebi:inchikey": "JOYRKODLDBILNP-UHFFFAOYSA-N",
+    "chebi:smiles": "CCOC(N)=O",
+    "http://purl.uniprot.org/core/name": "urethane",
+    "geneontology:hasDbXref": [
+        "CAS:51-79-6",
+        "DrugBank:DB04827",
+        "HMDB:HMDB0031219",
+        "KEGG:C01537",
+        "LINCS:LSM-37020",
+        "PMID:15790490",
+        "PMID:24386880",
+        "Reaxys:635810",
+        "Wikipedia:Ethyl_carbamate"
+    ],
+    "geneontology:hasId": "17967",
+    "geneontology:hasSynonym": [
+        "carbamic acid ethyl ester",
+        "ethyl carbamate",
+        "Ethyl carbamate",
+        "Urethane"
+    ],
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#3_STAR"
+    },
+    "rdfs:label": "urethane",
+    "rdfs:subClassOf": [
+        {
+            "@id": "obo:CHEBI_23003"
+        },
+        {
+            "@id": "b158_genid-00f1db82e1ab437c844115a94dc63e635-bn17967t11f25435"
+        },
+        {
+            "@id": "b158_genid-00f1db82e1ab437c844115a94dc63e635-bn17967t11f76946"
+        }
+    ]
+}

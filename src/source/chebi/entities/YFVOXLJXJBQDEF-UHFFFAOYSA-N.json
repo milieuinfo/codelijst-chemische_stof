@@ -1,0 +1,59 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_38704",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "chebi:charge": "0",
+    "chebi:formula": "C11H16NO4PS",
+    "chebi:inchi": "InChI=1S/C11H16NO4PS/c1-8(2)15-11(13)9-6-4-5-7-10(9)16-17(12,18)14-3/h4-8H,1-3H3,(H2,12,18)",
+    "chebi:inchikey": "YFVOXLJXJBQDEF-UHFFFAOYSA-N",
+    "chebi:smiles": "COP(N)(=S)Oc1ccccc1C(=O)OC(C)C",
+    "geneontology:hasDbXref": [
+        "CAS:24353-61-5",
+        "PPDB:987"
+    ],
+    "geneontology:hasId": "38704",
+    "geneontology:hasSynonym": [
+        "Isopropyl 2-((aminomethoxyphosphinothioyl)oxy)benzoate",
+        "isopropyl O-(methoxyaminothiophosphoryl)salicylate",
+        "O-Methylphosphoramidothioate, O-ester with isopropyl salicylate",
+        "propan-2-yl 2-{[amino(methoxy)phosphorothioyl]oxy}benzoate"
+    ],
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#3_STAR"
+    },
+    "rdfs:label": "isocarbophos",
+    "rdfs:subClassOf": [
+        {
+            "@id": "obo:CHEBI_25715"
+        },
+        {
+            "@id": "obo:CHEBI_35725"
+        },
+        {
+            "@id": "obo:CHEBI_26596"
+        },
+        {
+            "@id": "obo:CHEBI_37592"
+        },
+        {
+            "@id": "obo:CHEBI_37735"
+        },
+        {
+            "@id": "b460_genid-00f1db82e1ab437c844115a94dc63e635-bn38704t11f33286"
+        },
+        {
+            "@id": "b460_genid-00f1db82e1ab437c844115a94dc63e635-bn38704t11f33289"
+        },
+        {
+            "@id": "b460_genid-00f1db82e1ab437c844115a94dc63e635-bn38704t11f38462"
+        },
+        {
+            "@id": "b460_genid-00f1db82e1ab437c844115a94dc63e635-bn38704t8f38703"
+        }
+    ]
+}

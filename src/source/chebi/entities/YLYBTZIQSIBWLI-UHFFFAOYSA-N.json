@@ -1,0 +1,47 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_87495",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "obo:IAO_0000115": "The acetate ester of octan-1-ol.",
+    "chebi:charge": "0",
+    "chebi:formula": "C10H20O2",
+    "chebi:inchi": "InChI=1S/C10H20O2/c1-3-4-5-6-7-8-9-12-10(2)11/h3-9H2,1-2H3",
+    "chebi:inchikey": "YLYBTZIQSIBWLI-UHFFFAOYSA-N",
+    "chebi:smiles": "CCCCCCCCOC(C)=O",
+    "http://purl.uniprot.org/core/name": "octyl acetate",
+    "geneontology:hasDbXref": [
+        "CAS:112-14-1",
+        "HMDB:HMDB0038602",
+        "LIPID_MAPS_instance:LMFA07010197",
+        "PMID:24697288",
+        "PMID:26058155",
+        "Reaxys:1754554",
+        "Wikipedia:Octyl_acetate"
+    ],
+    "geneontology:hasId": "87495",
+    "geneontology:hasSynonym": [
+        "Caprylyl acetate",
+        "n-Octanyl acetate",
+        "Octyl ethanoate"
+    ],
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#3_STAR"
+    },
+    "rdfs:label": "octyl acetate",
+    "rdfs:subClassOf": [
+        {
+            "@id": "obo:CHEBI_47622"
+        },
+        {
+            "@id": "b390_genid-00f1db82e1ab437c844115a94dc63e635-bn87495t8f16188"
+        },
+        {
+            "@id": "b390_genid-00f1db82e1ab437c844115a94dc63e635-bn87495t11f76924"
+        }
+    ]
+}

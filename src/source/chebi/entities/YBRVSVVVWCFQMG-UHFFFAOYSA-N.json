@@ -1,0 +1,70 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_32506",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "obo:IAO_0000115": "An aromatic amine that is diphenylmethane substituted at the 4-position of each benzene ring by an amino group.",
+    "chebi:charge": "0",
+    "chebi:formula": "C13H14N2",
+    "chebi:inchi": "InChI=1S/C13H14N2/c14-12-5-1-10(2-6-12)9-11-3-7-13(15)8-4-11/h1-8H,9,14-15H2",
+    "chebi:inchikey": "YBRVSVVVWCFQMG-UHFFFAOYSA-N",
+    "chebi:smiles": "Nc1ccc(Cc2ccc(N)cc2)cc1",
+    "geneontology:hasDbXref": [
+        "Beilstein:474706",
+        "CAS:101-77-9",
+        "HMDB:HMDB0041808",
+        "KEGG:C14288",
+        "PMID:17061110",
+        "PMID:17482318",
+        "PMID:18844695",
+        "PMID:22393703",
+        "PMID:2607764",
+        "PMID:7265110",
+        "PMID:9022650",
+        "PPDB:1640",
+        "Reaxys:474706",
+        "Wikipedia:4,4'-Methylenedianiline"
+    ],
+    "geneontology:hasId": "32506",
+    "geneontology:hasSynonym": [
+        "DDM",
+        "4,4'-Diaminodiphenylmethane",
+        "4,4'-Diphenylmethanediamine",
+        "4,4'-Methylenebis(benzeneamine)",
+        "4,4'-methylenedianiline",
+        "4-(4-aminobenzyl)aniline",
+        "alpha-(p-aminophenyl)-p-toluidine",
+        "Bis(4-aminophenyl)methane",
+        "Bis(p-aminophenyl)methane",
+        "bis-p-aminophenylmethane",
+        "DADPM",
+        "DAPM",
+        "di-(4-aminophenyl)methane",
+        "di-(p-aminophenyl)methane",
+        "Dianilinomethane",
+        "p,p'-Diaminodiphenylmethane",
+        "p,p'-Methylenedianiline"
+    ],
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#3_STAR"
+    },
+    "rdfs:label": "4,4'-diaminodiphenylmethane",
+    "rdfs:subClassOf": [
+        {
+            "@id": "obo:CHEBI_33860"
+        },
+        {
+            "@id": "b61_genid-00f1db82e1ab437c844115a94dc63e635-bn32506t9f38884"
+        },
+        {
+            "@id": "b61_genid-00f1db82e1ab437c844115a94dc63e635-bn32506t11f50903"
+        },
+        {
+            "@id": "b61_genid-00f1db82e1ab437c844115a94dc63e635-bn32506t11f50904"
+        }
+    ]
+}

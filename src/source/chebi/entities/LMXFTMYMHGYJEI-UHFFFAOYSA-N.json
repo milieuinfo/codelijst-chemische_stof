@@ -1,0 +1,38 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_48250",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "obo:IAO_0000115": "A p-menthane monoterpenoid in which p-menthane carries hydroxy groups at C-3 and C-8.",
+    "chebi:charge": "0",
+    "chebi:formula": "C10H20O2",
+    "chebi:inchi": "InChI=1S/C10H20O2/c1-7-4-5-8(9(11)6-7)10(2,3)12/h7-9,11-12H,4-6H2,1-3H3",
+    "chebi:inchikey": "LMXFTMYMHGYJEI-UHFFFAOYSA-N",
+    "chebi:smiles": "CC1CCC(C(O)C1)C(C)(C)O",
+    "http://purl.uniprot.org/core/name": "p-menthane-3,8-diol",
+    "geneontology:hasDbXref": [
+        "Beilstein:2552262",
+        "BPDB:1385"
+    ],
+    "geneontology:hasId": "48250",
+    "geneontology:hasSynonym": [
+        "2-(1-hydroxy-1-methylethyl)-5-methylcyclohexanol",
+        "2-(2-hydroxypropan-2-yl)-5-methylcyclohexan-1-ol"
+    ],
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#3_STAR"
+    },
+    "rdfs:label": "p-menthane-3,8-diol",
+    "rdfs:subClassOf": [
+        {
+            "@id": "obo:CHEBI_25186"
+        },
+        {
+            "@id": "b424_genid-00f1db82e1ab437c844115a94dc63e635-bn48250t9f25826"
+        }
+    ]
+}

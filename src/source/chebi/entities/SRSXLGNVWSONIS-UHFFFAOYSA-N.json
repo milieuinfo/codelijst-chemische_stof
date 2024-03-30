@@ -1,0 +1,45 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_64455",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "obo:IAO_0000115": "The simplest member of the class of a benzenesulfonic acids that consists of a benzene carrying a single sulfo group.",
+    "chebi:charge": "0",
+    "chebi:formula": "C6H6O3S",
+    "chebi:inchi": "InChI=1S/C6H6O3S/c7-10(8,9)6-4-2-1-3-5-6/h1-5H,(H,7,8,9)",
+    "chebi:inchikey": "SRSXLGNVWSONIS-UHFFFAOYSA-N",
+    "chebi:smiles": "OS(=O)(=O)c1ccccc1",
+    "geneontology:hasDbXref": [
+        "Beilstein:742513",
+        "CAS:98-11-3",
+        "Reaxys:742513",
+        "Wikipedia:Benzenesulfonic acid"
+    ],
+    "geneontology:hasId": "64455",
+    "geneontology:hasSynonym": [
+        "Benzenemonosulfonic acid",
+        "Benzenesulphonic acid",
+        "Benzene sulphonic acid",
+        "Besylic acid",
+        "Phenylsulfonic acid"
+    ],
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#3_STAR"
+    },
+    "rdfs:label": "benzenesulfonic acid",
+    "rdfs:subClassOf": [
+        {
+            "@id": "b205_genid-00f1db82e1ab437c844115a94dc63e635-bn64455tmms73f64457"
+        },
+        {
+            "@id": "b205_genid-00f1db82e1ab437c844115a94dc63e635-bn64455t4f64457"
+        },
+        {
+            "@id": "obo:CHEBI_73942"
+        }
+    ]
+}

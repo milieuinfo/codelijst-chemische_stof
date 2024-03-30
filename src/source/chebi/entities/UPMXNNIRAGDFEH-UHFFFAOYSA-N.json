@@ -1,0 +1,67 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_17192",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "obo:IAO_0000115": "A dibromobenzene that is 2,6-dibromophenol substituted by a cyano group at position 4.",
+    "chebi:charge": "0",
+    "chebi:formula": "C7H3Br2NO",
+    "chebi:inchi": "InChI=1S/C7H3Br2NO/c8-5-1-4(3-10)2-6(9)7(5)11/h1-2,11H",
+    "chebi:inchikey": "UPMXNNIRAGDFEH-UHFFFAOYSA-N",
+    "chebi:smiles": "Oc1c(Br)cc(cc1Br)C#N",
+    "geneontology:hasDbXref": [
+        "Beilstein:2364039",
+        "CAS:1689-84-5",
+        "Gmelin:1473439",
+        "KEGG:C04178",
+        "Pesticides:bromoxynil",
+        "PMID:11910467",
+        "PMID:24458090",
+        "PPDB:96",
+        "UM-BBD_compID:c0480",
+        "Wikipedia:Bromoxynil"
+    ],
+    "geneontology:hasId": "17192",
+    "geneontology:hasSynonym": [
+        "2,6-dibromo-4-cyanophenol",
+        "3,5-Dibromo-4-hydroxybenzonitrile",
+        "bromoxynil"
+    ],
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#3_STAR"
+    },
+    "rdfs:label": "3,5-dibromo-4-hydroxybenzonitrile",
+    "rdfs:subClassOf": [
+        {
+            "@id": "obo:CHEBI_33853"
+        },
+        {
+            "@id": "obo:CHEBI_37147"
+        },
+        {
+            "@id": "obo:CHEBI_24730"
+        },
+        {
+            "@id": "b12_genid-00f1db82e1ab437c844115a94dc63e635-bn17192tmms73f58046"
+        },
+        {
+            "@id": "b12_genid-00f1db82e1ab437c844115a94dc63e635-bn17192t8f19391"
+        },
+        {
+            "@id": "b12_genid-00f1db82e1ab437c844115a94dc63e635-bn17192t11f24527"
+        },
+        {
+            "@id": "b12_genid-00f1db82e1ab437c844115a94dc63e635-bn17192t11f35703"
+        },
+        {
+            "@id": "b12_genid-00f1db82e1ab437c844115a94dc63e635-bn17192t4f58046"
+        },
+        {
+            "@id": "b12_genid-00f1db82e1ab437c844115a94dc63e635-bn17192t11f78298"
+        }
+    ]
+}

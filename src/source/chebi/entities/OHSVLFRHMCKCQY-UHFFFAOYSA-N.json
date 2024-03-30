@@ -1,0 +1,43 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_33382",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "chebi:charge": "0",
+    "chebi:formula": "Lu",
+    "chebi:inchi": "InChI=1S/Lu",
+    "chebi:inchikey": "OHSVLFRHMCKCQY-UHFFFAOYSA-N",
+    "chebi:smiles": "[Lu]",
+    "geneontology:hasDbXref": [
+        "CAS:7439-94-3",
+        "Gmelin:16202",
+        "WebElements:Lu"
+    ],
+    "geneontology:hasId": "33382",
+    "geneontology:hasSynonym": [
+        "Lu",
+        "71Lu",
+        "Cassiopeium",
+        "cassiopium",
+        "lutecio",
+        "lutecium",
+        "lutetium",
+        "Lutetium"
+    ],
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#3_STAR"
+    },
+    "rdfs:label": "lutetium atom",
+    "rdfs:subClassOf": [
+        {
+            "@id": "obo:CHEBI_33561"
+        },
+        {
+            "@id": "obo:CHEBI_33319"
+        }
+    ]
+}

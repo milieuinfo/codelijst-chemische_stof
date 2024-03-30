@@ -1,0 +1,27 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_82335",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "chebi:charge": "0",
+    "chebi:formula": "C22H12",
+    "chebi:inchi": "InChI=1S/C22H12/c1-2-7-17-16(6-1)18-11-10-14-9-8-13-4-3-5-15-12-19(17)22(18)21(14)20(13)15/h1-12H",
+    "chebi:inchikey": "SXQBHARYMNFBPS-UHFFFAOYSA-N",
+    "chebi:smiles": "c1ccc2c(c1)c1ccc3ccc4cccc5cc2c1c3c45",
+    "geneontology:hasDbXref": [
+        "CAS:193-39-5",
+        "KEGG:C19251"
+    ],
+    "geneontology:hasId": "82335",
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#2_STAR"
+    },
+    "rdfs:label": "Indeno[1,2,3-cd]pyrene",
+    "rdfs:subClassOf": {
+        "@id": "obo:CHEBI_59659"
+    }
+}

@@ -1,0 +1,66 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_16605",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "obo:IAO_0000115": "A propenol in which the C=C bond connects C-2 and C-3. It is has been found in garlic (Allium sativum). Formerly used as a herbicide for the control of various grass and weed seeds.",
+    "chebi:charge": "0",
+    "chebi:formula": "C3H6O",
+    "chebi:inchi": "InChI=1S/C3H6O/c1-2-3-4/h2,4H,1,3H2",
+    "chebi:inchikey": "XXROGKLTLUQVRX-UHFFFAOYSA-N",
+    "chebi:smiles": "OCC=C",
+    "http://purl.uniprot.org/core/name": "allyl alcohol",
+    "geneontology:hasDbXref": [
+        "CAS:107-18-6",
+        "HMDB:HMDB0031652",
+        "KEGG:C02001",
+        "MetaCyc:ALLYL-ALCOHOL",
+        "PMID:18383315",
+        "PMID:24594943",
+        "PPDB:2698",
+        "Reaxys:605307",
+        "Wikipedia:Allyl_alcohol"
+    ],
+    "geneontology:hasId": "16605",
+    "geneontology:hasSynonym": [
+        "2-Propen-1-ol",
+        "2-Propenol",
+        "2-Propenyl alcohol",
+        "3-Hydroxypropene",
+        "Allyl alcohol",
+        "prop-2-en-1-ol",
+        "Vinylcarbinol",
+        "Vinyl carbinol"
+    ],
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#3_STAR"
+    },
+    "rdfs:label": "allyl alcohol",
+    "rdfs:subClassOf": [
+        {
+            "@id": "obo:CHEBI_134394"
+        },
+        {
+            "@id": "b40_genid-00f1db82e1ab437c844115a94dc63e635-bn16605t11f24127"
+        },
+        {
+            "@id": "b40_genid-00f1db82e1ab437c844115a94dc63e635-bn16605t11f24527"
+        },
+        {
+            "@id": "b40_genid-00f1db82e1ab437c844115a94dc63e635-bn16605t11f24852"
+        },
+        {
+            "@id": "obo:CHEBI_26300"
+        },
+        {
+            "@id": "b40_genid-00f1db82e1ab437c844115a94dc63e635-bn16605t11f33282"
+        },
+        {
+            "@id": "b40_genid-00f1db82e1ab437c844115a94dc63e635-bn16605t11f76924"
+        }
+    ]
+}

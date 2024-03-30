@@ -1,0 +1,56 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_23414",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "obo:IAO_0000115": "A metal sulfate compound having copper(2+) as the metal ion.",
+    "chebi:charge": "0",
+    "chebi:formula": "CuO4S",
+    "chebi:inchi": "InChI=1S/Cu.H2O4S/c;1-5(2,3)4/h;(H2,1,2,3,4)/q+2;/p-2",
+    "chebi:inchikey": "ARUVKPQLZAKDPS-UHFFFAOYSA-L",
+    "chebi:smiles": "[Cu++].[O-]S([O-])(=O)=O",
+    "geneontology:hasDbXref": [
+        "PMID:29079364",
+        "CAS:7758-98-7",
+        "Gmelin:8294",
+        "KEGG:C18713",
+        "PMID:10469300",
+        "PMID:8566016",
+        "PPDB:178",
+        "Wikipedia:Copper(II)_sulfate"
+    ],
+    "geneontology:hasId": "23414",
+    "geneontology:hasSynonym": [
+        "copper(2+) sulfate",
+        "Copper(II) sulfate",
+        "copper sulfate",
+        "Cupric sulfate",
+        "cupric sulfate anhydrous",
+        "CuSO4"
+    ],
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#3_STAR"
+    },
+    "rdfs:label": "copper(II) sulfate",
+    "rdfs:subClassOf": [
+        {
+            "@id": "b64_genid-00f1db82e1ab437c844115a94dc63e635-bn23414t10f29036"
+        },
+        {
+            "@id": "b64_genid-00f1db82e1ab437c844115a94dc63e635-bn23414t11f33287"
+        },
+        {
+            "@id": "obo:CHEBI_51336"
+        },
+        {
+            "@id": "b64_genid-00f1db82e1ab437c844115a94dc63e635-bn23414t11f139492"
+        },
+        {
+            "@id": "b64_genid-00f1db82e1ab437c844115a94dc63e635-bn23414t11f149552"
+        }
+    ]
+}

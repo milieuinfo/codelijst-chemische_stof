@@ -1,0 +1,42 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_53177",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "obo:IAO_0000115": "A monoterpenoid formally derived from citral by cyclisation. It is a volatile compound produced by a cyanobacteria.",
+    "chebi:charge": "0",
+    "chebi:formula": "C10H16O",
+    "chebi:inchi": "InChI=1S/C10H16O/c1-8-5-4-6-10(2,3)9(8)7-11/h7H,4-6H2,1-3H3",
+    "chebi:inchikey": "MOQGCGNUWBPGTQ-UHFFFAOYSA-N",
+    "chebi:smiles": "CC1=C(C=O)C(C)(C)CCC1",
+    "geneontology:hasDbXref": [
+        "Beilstein:2042086",
+        "CAS:432-25-7",
+        "HMDB:HMDB0041011",
+        "PMID:18179811",
+        "PMID:19936836",
+        "PMID:24520691",
+        "Reaxys:2042086"
+    ],
+    "geneontology:hasId": "53177",
+    "geneontology:hasSynonym": [
+        "2,6,6-trimethyl-1-cyclohexene-1-carboxaldehyde",
+        "2,6,6-trimethylcyclohex-1-ene-1-carbaldehyde"
+    ],
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#3_STAR"
+    },
+    "rdfs:label": "beta-cyclocitral",
+    "rdfs:subClassOf": [
+        {
+            "@id": "obo:CHEBI_25409"
+        },
+        {
+            "@id": "b548_genid-00f1db82e1ab437c844115a94dc63e635-bn53177t11f76969"
+        }
+    ]
+}

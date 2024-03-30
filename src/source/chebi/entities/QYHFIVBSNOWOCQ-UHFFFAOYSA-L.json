@@ -1,0 +1,46 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_15075",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "obo:IAO_0000115": "A divalent inorganic anion obtained by removal of both protons from selenic acid.",
+    "chebi:charge": "-2",
+    "chebi:formula": "O4Se",
+    "chebi:inchi": "InChI=1S/H2O4Se/c1-5(2,3)4/h(H2,1,2,3,4)/p-2",
+    "chebi:inchikey": "QYHFIVBSNOWOCQ-UHFFFAOYSA-L",
+    "chebi:smiles": "[O-][Se]([O-])(=O)=O",
+    "http://purl.uniprot.org/core/name": "selenate",
+    "geneontology:hasDbXref": [
+        "CAS:14124-68-6",
+        "PDBeChem:SE4"
+    ],
+    "geneontology:hasId": "15075",
+    "geneontology:hasSynonym": [
+        "[SeO4](2-)",
+        "Selenate",
+        "SELENATE ION",
+        "tetraoxidoselenate(2-)"
+    ],
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#3_STAR"
+    },
+    "rdfs:label": "selenate",
+    "rdfs:subClassOf": [
+        {
+            "@id": "obo:CHEBI_33488"
+        },
+        {
+            "@id": "b358_genid-00f1db82e1ab437c844115a94dc63e635-bn15075t5f33490"
+        },
+        {
+            "@id": "b358_genid-00f1db82e1ab437c844115a94dc63e635-bn15075t11f77746"
+        },
+        {
+            "@id": "obo:CHEBI_79388"
+        }
+    ]
+}

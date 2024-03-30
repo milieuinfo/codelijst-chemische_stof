@@ -1,0 +1,44 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_83458",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "obo:IAO_0000115": "A  sulfonamide that is benzenesulfonamide substituted by an acetylamino group at position 4 and a pyrimidin-2-yl group at the nitrogen atom. It is a metabolite of the drug sulfadiazine.",
+    "chebi:charge": "0",
+    "chebi:formula": "C12H12N4O3S",
+    "chebi:inchi": "InChI=1S/C12H12N4O3S/c1-9(17)15-10-3-5-11(6-4-10)20(18,19)16-12-13-7-2-8-14-12/h2-8H,1H3,(H,15,17)(H,13,14,16)",
+    "chebi:inchikey": "NJIZUWGMNCUKGU-UHFFFAOYSA-N",
+    "chebi:smiles": "CC(=O)Nc1ccc(cc1)S(=O)(=O)Nc1ncccn1",
+    "geneontology:hasDbXref": [
+        "CAS:127-74-2",
+        "Reaxys:286028"
+    ],
+    "geneontology:hasId": "83458",
+    "geneontology:hasSynonym": [
+        "4-acetylamino-N-pyrimidin-2-yl-benzenesulfonamide",
+        "N(4)-Acetylsulfadiazine",
+        "N-[4-(pyrimidin-2-ylsulfamoyl)phenyl]acetamide"
+    ],
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#3_STAR"
+    },
+    "rdfs:label": "N(4)-acetylsulfadiazine",
+    "rdfs:subClassOf": [
+        {
+            "@id": "obo:CHEBI_39447"
+        },
+        {
+            "@id": "obo:CHEBI_22160"
+        },
+        {
+            "@id": "obo:CHEBI_35358"
+        },
+        {
+            "@id": "b78_genid-00f1db82e1ab437c844115a94dc63e635-bn83458t11f83399"
+        }
+    ]
+}

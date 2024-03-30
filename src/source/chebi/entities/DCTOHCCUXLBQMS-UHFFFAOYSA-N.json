@@ -1,0 +1,44 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_77444",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "obo:IAO_0000115": "An alkene that is undecane containing one double bond located at position 1.",
+    "chebi:charge": "0",
+    "chebi:formula": "C11H22",
+    "chebi:inchi": "InChI=1S/C11H22/c1-3-5-7-9-11-10-8-6-4-2/h3H,1,4-11H2,2H3",
+    "chebi:inchikey": "DCTOHCCUXLBQMS-UHFFFAOYSA-N",
+    "chebi:smiles": "CCCCCCCCCC=C",
+    "geneontology:hasDbXref": [
+        "CAS:821-95-4",
+        "HMDB:HMDB0029551"
+    ],
+    "geneontology:hasId": "77444",
+    "geneontology:hasSynonym": [
+        "1-Hendecene",
+        "alpha-Nonylethylene",
+        "alpha-undecene",
+        "alpha-Undecene",
+        "alpha-Undecylene",
+        "n-1-Undecene",
+        "undec-1-ene",
+        "Undecene",
+        "Undecene-1"
+    ],
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#3_STAR"
+    },
+    "rdfs:label": "1-undecene",
+    "rdfs:subClassOf": [
+        {
+            "@id": "obo:CHEBI_32878"
+        },
+        {
+            "@id": "b18_genid-00f1db82e1ab437c844115a94dc63e635-bn77444t11f76924"
+        }
+    ]
+}

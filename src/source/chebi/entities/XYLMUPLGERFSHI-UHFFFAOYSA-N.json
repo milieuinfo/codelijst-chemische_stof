@@ -1,0 +1,32 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_35060",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "chebi:charge": "0",
+    "chebi:formula": "C9H10",
+    "chebi:inchi": "InChI=1S/C9H10/c1-8(2)9-6-4-3-5-7-9/h3-7H,1H2,2H3",
+    "chebi:inchikey": "XYLMUPLGERFSHI-UHFFFAOYSA-N",
+    "chebi:smiles": "CC(=C)c1ccccc1",
+    "geneontology:hasDbXref": [
+        "CAS:98-83-9",
+        "HMDB:HMDB0059899",
+        "KEGG:C14395"
+    ],
+    "geneontology:hasId": "35060",
+    "geneontology:hasSynonym": [
+        "1-Methyl-1-phenylethylene",
+        "2-Phenylpropene"
+    ],
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#2_STAR"
+    },
+    "rdfs:label": "alpha-Methylstyrene",
+    "rdfs:subClassOf": {
+        "@id": "obo:CHEBI_78840"
+    }
+}

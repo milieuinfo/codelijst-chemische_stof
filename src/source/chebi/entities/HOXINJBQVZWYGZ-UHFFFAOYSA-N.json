@@ -1,0 +1,42 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_39294",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "chebi:charge": "0",
+    "chebi:formula": "C60H78OSn2",
+    "chebi:inchi": "InChI=1S/6C10H13.O.2Sn/c6*1-10(2,3)9-7-5-4-6-8-9;;;/h6*4-8H,1H2,2-3H3;;;",
+    "chebi:inchikey": "HOXINJBQVZWYGZ-UHFFFAOYSA-N",
+    "chebi:smiles": "CC(C)(C[Sn](CC(C)(C)c1ccccc1)(CC(C)(C)c1ccccc1)O[Sn](CC(C)(C)c1ccccc1)(CC(C)(C)c1ccccc1)CC(C)(C)c1ccccc1)c1ccccc1",
+    "geneontology:hasDbXref": [
+        "Beilstein:4097400",
+        "CAS:13356-08-6",
+        "Gmelin:1585258",
+        "Gmelin:1825781",
+        "Gmelin:27103",
+        "KEGG:C15435",
+        "PPDB:294"
+    ],
+    "geneontology:hasId": "39294",
+    "geneontology:hasSynonym": [
+        "bis(tris(2-methyl-2-phenylpropyl)tin)oxide",
+        "Bis[tris(2-methyl-2-phenylpropyl)tin]oxide",
+        "di(tri-(2,2-dimethyl-2-phenylethyl)tin)oxide",
+        "hexakis(2-methyl-2-phenylpropyl)distannoxane",
+        "hexakis(beta,beta-dimethylphenethyl)distannoxane",
+        "SD 14114",
+        "Torque",
+        "Vendex"
+    ],
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#3_STAR"
+    },
+    "rdfs:label": "fenbutatin oxide",
+    "rdfs:subClassOf": {
+        "@id": "obo:CHEBI_39292"
+    }
+}

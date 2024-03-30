@@ -1,0 +1,62 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_4035",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "obo:IAO_0000115": "A carboxylic ester obtained by formal condensation between 3-(2-chloro-3,3,3-trifluoroprop-1-en-1-yl)-2,2-dimethylcyclopropanecarboxylic acid and cyano(3-phenoxyphenyl)methanol.",
+    "chebi:charge": "0",
+    "chebi:formula": "C23H19ClF3NO3",
+    "chebi:inchi": "InChI=1S/C23H19ClF3NO3/c1-22(2)17(12-19(24)23(25,26)27)20(22)21(29)31-18(13-28)14-7-6-10-16(11-14)30-15-8-4-3-5-9-15/h3-12,17-18,20H,1-2H3/b19-12-",
+    "chebi:inchikey": "ZXQYGBMAQZUVMI-UNOMPAQXSA-N",
+    "chebi:smiles": "CC1(C)C(\\C=C(/Cl)C(F)(F)F)C1C(=O)OC(C#N)c1cccc(Oc2ccccc2)c1",
+    "geneontology:hasDbXref": [
+        "CAS:68085-85-8",
+        "KEGG:C10983",
+        "KEGG:D07762",
+        "Patent:DE2802962",
+        "Patent:US4183948"
+    ],
+    "geneontology:hasId": "4035",
+    "geneontology:hasSynonym": [
+        "3-(2-Chloro-3,3,3-trifluoro-1-propenyl)-2,2-dimethylcyclopropanecarboxylic acid cyano(3-phenoxyphenyl)methyl ester",
+        "cyano(3-phenoxyphenyl)methyl 3-[(1Z)-2-chloro-3,3,3-trifluoroprop-1-en-1-yl]-2,2-dimethylcyclopropanecarboxylate",
+        "Cyhalothrin"
+    ],
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#3_STAR"
+    },
+    "rdfs:label": "cyhalothrin",
+    "rdfs:subClassOf": [
+        {
+            "@id": "obo:CHEBI_18379"
+        },
+        {
+            "@id": "obo:CHEBI_35618"
+        },
+        {
+            "@id": "obo:CHEBI_36683"
+        },
+        {
+            "@id": "obo:CHEBI_37143"
+        },
+        {
+            "@id": "obo:CHEBI_50351"
+        },
+        {
+            "@id": "b211_genid-00f1db82e1ab437c844115a94dc63e635-bn4035t11f33286"
+        },
+        {
+            "@id": "b211_genid-00f1db82e1ab437c844115a94dc63e635-bn4035t11f39116"
+        },
+        {
+            "@id": "b211_genid-00f1db82e1ab437c844115a94dc63e635-bn4035t11f39259"
+        },
+        {
+            "@id": "b211_genid-00f1db82e1ab437c844115a94dc63e635-bn4035t8f39319"
+        }
+    ]
+}

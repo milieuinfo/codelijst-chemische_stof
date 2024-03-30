@@ -1,0 +1,53 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_35616",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "obo:IAO_0000115": "The trans-stereoisomer of anethole.",
+    "chebi:charge": "0",
+    "chebi:formula": "C10H12O",
+    "chebi:inchi": "InChI=1S/C10H12O/c1-3-4-9-5-7-10(11-2)8-6-9/h3-8H,1-2H3/b4-3+",
+    "chebi:inchikey": "RUVINXPYWBROJD-ONEGZZNKSA-N",
+    "chebi:smiles": "COc1ccc(\\C=C\\C)cc1",
+    "http://purl.uniprot.org/core/name": "(E)-anethole",
+    "geneontology:hasDbXref": [
+        "CAS:104-46-1",
+        "Beilstein:636190",
+        "BPDB:2339",
+        "CAS:4180-23-8",
+        "HMDB:HMDB0030837",
+        "KEGG:C10428",
+        "KEGG:D02377",
+        "KNApSAcK:C00002713",
+        "Reaxys:636190",
+        "Wikipedia:Anethole"
+    ],
+    "geneontology:hasId": "35616",
+    "geneontology:hasSynonym": [
+        "(E)-anethole",
+        "(E)-1-(4-Methoxyphenyl)propene",
+        "(E)-1-Methoxy-4-(1-propenyl)benzene",
+        "(E)-Anethole",
+        "(E)-p-Propenylanisole",
+        "1-methoxy-4-[(1E)-prop-1-en-1-yl]benzene",
+        "Anethole",
+        "trans-4-(1-Propenyl)anisole",
+        "trans-p-Methoxy-beta-methylstyrene"
+    ],
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#3_STAR"
+    },
+    "rdfs:label": "trans-anethole",
+    "rdfs:subClassOf": [
+        {
+            "@id": "obo:CHEBI_2716"
+        },
+        {
+            "@id": "b125_genid-00f1db82e1ab437c844115a94dc63e635-bn35616t11f35617"
+        }
+    ]
+}

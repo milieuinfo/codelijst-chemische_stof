@@ -1,0 +1,55 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_18422",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "chebi:charge": "0",
+    "chebi:formula": "O2S",
+    "chebi:inchi": "InChI=1S/O2S/c1-3-2",
+    "chebi:inchikey": "RAHZWNYVWXNFOC-UHFFFAOYSA-N",
+    "chebi:smiles": "O=S=O",
+    "geneontology:hasDbXref": [
+        "CAS:7446-09-5",
+        "Gmelin:1443",
+        "KEGG:C05532",
+        "KEGG:C09306",
+        "KEGG:D05961",
+        "PDBeChem:SO2"
+    ],
+    "geneontology:hasId": "18422",
+    "geneontology:hasSynonym": [
+        "[SO2]",
+        "dioxidosulfur",
+        "R-764",
+        "Schwefel(IV)-oxid",
+        "Schwefeldioxid",
+        "SO2",
+        "Sulfur dioxide",
+        "SULFUR DIOXIDE",
+        "sulfurous anhydride",
+        "sulfurous oxide",
+        "sulphur dioxide"
+    ],
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#3_STAR"
+    },
+    "rdfs:label": "sulfur dioxide",
+    "rdfs:subClassOf": [
+        {
+            "@id": "obo:CHEBI_48154"
+        },
+        {
+            "@id": "b9_genid-00f1db82e1ab437c844115a94dc63e635-bn18422t11f76971"
+        },
+        {
+            "@id": "b9_genid-00f1db82e1ab437c844115a94dc63e635-bn18422t11f78003"
+        },
+        {
+            "@id": "b9_genid-00f1db82e1ab437c844115a94dc63e635-bn18422t11f78433"
+        }
+    ]
+}

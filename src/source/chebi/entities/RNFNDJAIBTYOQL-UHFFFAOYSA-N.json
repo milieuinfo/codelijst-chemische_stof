@@ -1,0 +1,72 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_28142",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "obo:IAO_0000115": "An organochlorine compound that is the hydrate of trichloroacetaldehyde.",
+    "chebi:charge": "0",
+    "chebi:formula": "C2H3Cl3O2",
+    "chebi:inchi": "InChI=1S/C2H3Cl3O2/c3-2(4,5)1(6)7/h1,6-7H",
+    "chebi:inchikey": "RNFNDJAIBTYOQL-UHFFFAOYSA-N",
+    "chebi:smiles": "OC(O)C(Cl)(Cl)Cl",
+    "geneontology:hasDbXref": [
+        "Beilstein:1698497",
+        "CAS:302-17-0",
+        "Drug_Central:586",
+        "DrugBank:DB01563",
+        "Gmelin:101369",
+        "KEGG:C06899",
+        "KEGG:D00265",
+        "MetaCyc:CPD0-1476",
+        "PPDB:2987",
+        "UM-BBD_compID:c0011",
+        "VSDB:2987"
+    ],
+    "geneontology:hasId": "28142",
+    "geneontology:hasSynonym": [
+        "1,1,1-trichloro-2,2-dihydroxyethane",
+        "1,1,1-trichloro-2,2-ethanediol",
+        "2,2,2-trichloro-1,1-ethanediol",
+        "2,2,2-trichloroethane-1,1-diol",
+        "Aquachloral Supprettes",
+        "Chloralhydrat",
+        "Chloral hydrate",
+        "chloral monohydrate",
+        "knockout drops",
+        "Noctec",
+        "Somnote",
+        "Trichloracetaldehyd-hydrat",
+        "trichloroacetaldehyde hydrate"
+    ],
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#3_STAR"
+    },
+    "rdfs:label": "chloral hydrate",
+    "rdfs:subClassOf": [
+        {
+            "@id": "obo:CHEBI_36683"
+        },
+        {
+            "@id": "obo:CHEBI_63733"
+        },
+        {
+            "@id": "obo:CHEBI_23976"
+        },
+        {
+            "@id": "b83_genid-00f1db82e1ab437c844115a94dc63e635-bn28142t11f35703"
+        },
+        {
+            "@id": "b83_genid-00f1db82e1ab437c844115a94dc63e635-bn28142t11f35717"
+        },
+        {
+            "@id": "b83_genid-00f1db82e1ab437c844115a94dc63e635-bn28142t11f38869"
+        },
+        {
+            "@id": "b83_genid-00f1db82e1ab437c844115a94dc63e635-bn28142t11f75771"
+        }
+    ]
+}

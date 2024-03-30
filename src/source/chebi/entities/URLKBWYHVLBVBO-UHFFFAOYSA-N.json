@@ -1,0 +1,53 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_27417",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "obo:IAO_0000115": "A xylene with methyl groups at positions 1 and 4.",
+    "chebi:charge": "0",
+    "chebi:formula": "C8H10",
+    "chebi:inchi": "InChI=1S/C8H10/c1-7-3-5-8(2)6-4-7/h3-6H,1-2H3",
+    "chebi:inchikey": "URLKBWYHVLBVBO-UHFFFAOYSA-N",
+    "chebi:smiles": "Cc1ccc(C)cc1",
+    "http://purl.uniprot.org/core/name": "p-xylene",
+    "geneontology:hasDbXref": [
+        "Beilstein:1901563",
+        "CAS:106-42-3",
+        "DrugBank:DB03463",
+        "Gmelin:2697",
+        "HMDB:HMDB0059924",
+        "KEGG:C06756",
+        "MetaCyc:CPD-1422",
+        "PDBeChem:PXY",
+        "PMID:23316419",
+        "PMID:24028095",
+        "Reaxys:1901563",
+        "UM-BBD_compID:c0083",
+        "Wikipedia:P-Xylene"
+    ],
+    "geneontology:hasId": "27417",
+    "geneontology:hasSynonym": [
+        "1,4-Dimethylbenzene",
+        "1,4-Dimethylbenzol",
+        "1,4-xylene",
+        "4-methyltoluene",
+        "4-xylene",
+        "para-xylene",
+        "PARA-XYLENE",
+        "p-dimethylbenzene",
+        "p-Methyltoluene",
+        "p-Xylene",
+        "p-Xylol"
+    ],
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#3_STAR"
+    },
+    "rdfs:label": "p-xylene",
+    "rdfs:subClassOf": {
+        "@id": "obo:CHEBI_27338"
+    }
+}

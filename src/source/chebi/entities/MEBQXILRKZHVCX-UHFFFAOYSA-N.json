@@ -1,0 +1,54 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_34837",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "chebi:charge": "0",
+    "chebi:formula": "C6H11N2O4PS3",
+    "chebi:inchi": "InChI=1S/C6H11N2O4PS3/c1-10-5-7-8(6(9)16-5)4-15-13(14,11-2)12-3/h4H2,1-3H3",
+    "chebi:inchikey": "MEBQXILRKZHVCX-UHFFFAOYSA-N",
+    "chebi:smiles": "COc1nn(CSP(=S)(OC)OC)c(=O)s1",
+    "geneontology:hasDbXref": [
+        "Beilstein:619915",
+        "CAS:950-37-8",
+        "KEGG:C14431",
+        "PPDB:456"
+    ],
+    "geneontology:hasId": "34837",
+    "geneontology:hasSynonym": [
+        "Methidathion",
+        "phosphorodithioic acid, S-[(5-methoxy-2-oxo-1,3,4-thiadiazol-3(2H)-yl)methyl] O,O-dimethyl ester",
+        "S-(2,3-dihydro-5-methoxy-2-oxo-1,3,4-thiadiazol-3-methyl) dimethyl phosphorothiolothionate",
+        "S-[(5-methoxy-2-oxo-1,3,4-thiadiazol-3(2H)-yl)methyl] O,O-dimethyl dithiophosphate",
+        "S-[(5-methoxy-2-oxo-1,3,4-thiadiazol-3(2H)-yl)methyl] O,O-dimethyl phosphorodithioate",
+        "Supracide"
+    ],
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#3_STAR"
+    },
+    "rdfs:label": "methidathion",
+    "rdfs:subClassOf": [
+        {
+            "@id": "obo:CHEBI_37512"
+        },
+        {
+            "@id": "obo:CHEBI_25715"
+        },
+        {
+            "@id": "b500_genid-00f1db82e1ab437c844115a94dc63e635-bn34837t11f22153"
+        },
+        {
+            "@id": "b500_genid-00f1db82e1ab437c844115a94dc63e635-bn34837t11f33286"
+        },
+        {
+            "@id": "b500_genid-00f1db82e1ab437c844115a94dc63e635-bn34837t11f38462"
+        },
+        {
+            "@id": "b500_genid-00f1db82e1ab437c844115a94dc63e635-bn34837t8f38723"
+        }
+    ]
+}

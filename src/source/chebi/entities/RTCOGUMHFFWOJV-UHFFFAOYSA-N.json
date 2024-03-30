@@ -1,0 +1,52 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_7554",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "obo:IAO_0000115": "A N-sulfonylurea that is 2-(carbamoylsulfamoyl)-N,N-dimethylpyridine-3-carboxamide substituted by a 4,6-dimethoxypyrimidin-2-yl group at the amino nitrogen.",
+    "chebi:charge": "0",
+    "chebi:formula": "C15H18N6O6S",
+    "chebi:inchi": "InChI=1S/C15H18N6O6S/c1-21(2)13(22)9-6-5-7-16-12(9)28(24,25)20-15(23)19-14-17-10(26-3)8-11(18-14)27-4/h5-8H,1-4H3,(H2,17,18,19,20,23)",
+    "chebi:inchikey": "RTCOGUMHFFWOJV-UHFFFAOYSA-N",
+    "chebi:smiles": "COc1cc(OC)nc(NC(=O)NS(=O)(=O)c2ncccc2C(=O)N(C)C)n1",
+    "geneontology:hasDbXref": [
+        "CAS:111991-09-4",
+        "KEGG:C10949",
+        "Pesticides:nicosulfuron",
+        "PMID:25165819",
+        "PMID:25272750",
+        "PMID:25338136",
+        "PPDB:484",
+        "Reaxys:7233432"
+    ],
+    "geneontology:hasId": "7554",
+    "geneontology:hasSynonym": "2-{[(4,6-dimethoxypyrimidin-2-yl)carbamoyl]sulfamoyl}-N,N-dimethylpyridine-3-carboxamide",
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#3_STAR"
+    },
+    "rdfs:label": "nicosulfuron",
+    "rdfs:subClassOf": [
+        {
+            "@id": "obo:CHEBI_26421"
+        },
+        {
+            "@id": "obo:CHEBI_39447"
+        },
+        {
+            "@id": "obo:CHEBI_76983"
+        },
+        {
+            "@id": "b113_genid-00f1db82e1ab437c844115a94dc63e635-bn7554t11f24527"
+        },
+        {
+            "@id": "b113_genid-00f1db82e1ab437c844115a94dc63e635-bn7554t11f35703"
+        },
+        {
+            "@id": "b113_genid-00f1db82e1ab437c844115a94dc63e635-bn7554t11f78298"
+        }
+    ]
+}

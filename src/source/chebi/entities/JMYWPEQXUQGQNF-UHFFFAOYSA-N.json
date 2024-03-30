@@ -1,0 +1,29 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_184394",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "chebi:charge": "0",
+    "chebi:formula": "CH2S6",
+    "chebi:inchi": "InChI=1S/CH2S6/c1-2-4-6-7-5-3-1/h1H2",
+    "chebi:inchikey": "JMYWPEQXUQGQNF-UHFFFAOYSA-N",
+    "chebi:smiles": "S1SSSSSC1",
+    "geneontology:hasDbXref": [
+        "CAS:17233-71-5",
+        "Chemspider:78487",
+        "HMDB:HMDB0035871"
+    ],
+    "geneontology:hasId": "184394",
+    "geneontology:hasSynonym": "hexathiepane",
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#2_STAR"
+    },
+    "rdfs:label": "1,2,3,4,5,6-Hexathiepane",
+    "rdfs:subClassOf": {
+        "@id": "obo:CHEBI_24532"
+    }
+}

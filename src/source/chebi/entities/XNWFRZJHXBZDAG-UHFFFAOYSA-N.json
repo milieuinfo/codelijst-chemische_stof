@@ -1,0 +1,57 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_46790",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "obo:IAO_0000115": "A hydroxyether that is ethanol substituted by a methoxy group at position 2.",
+    "chebi:charge": "0",
+    "chebi:formula": "C3H8O2",
+    "chebi:inchi": "InChI=1S/C3H8O2/c1-5-3-2-4/h4H,2-3H2,1H3",
+    "chebi:inchikey": "XNWFRZJHXBZDAG-UHFFFAOYSA-N",
+    "chebi:smiles": "COCCO",
+    "geneontology:hasDbXref": [
+        "PMID:24399739",
+        "Beilstein:1731074",
+        "CAS:109-86-4",
+        "DrugBank:DB02806",
+        "Gmelin:81877",
+        "MetaCyc:2-METHOXYETHANOL",
+        "PDBeChem:MXE",
+        "PMID:11354470",
+        "PPDB:1639",
+        "Reaxys:1731074",
+        "Wikipedia:2-Methoxyethanol"
+    ],
+    "geneontology:hasId": "46790",
+    "geneontology:hasSynonym": [
+        "1-hydroxy-2-methoxyethane",
+        "2-hydroxyethyl methyl ether",
+        "2-methoxy-1-ethanol",
+        "2-METHOXYETHANOL",
+        "3-oxa-1-butanol",
+        "beta-methoxyethanol",
+        "HOCH2CH2OCH3",
+        "Methyl cellosolve",
+        "methyl oxitol",
+        "monomethyl ethylene glycol ether"
+    ],
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#3_STAR"
+    },
+    "rdfs:label": "2-methoxyethanol",
+    "rdfs:subClassOf": [
+        {
+            "@id": "obo:CHEBI_172390"
+        },
+        {
+            "@id": "b348_genid-00f1db82e1ab437c844115a94dc63e635-bn46790t11f46787"
+        },
+        {
+            "@id": "b348_genid-00f1db82e1ab437c844115a94dc63e635-bn46790t11f48356"
+        }
+    ]
+}

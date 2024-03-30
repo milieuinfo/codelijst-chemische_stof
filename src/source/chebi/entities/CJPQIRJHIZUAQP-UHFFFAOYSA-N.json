@@ -1,0 +1,36 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_82777",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "obo:IAO_0000115": "An alanine derivative that is the N-phenylacetyl derivative of methyl N-(2,6-dimethylphenyl)alaninate",
+    "chebi:charge": "0",
+    "chebi:formula": "C20H23NO3",
+    "chebi:inchi": "InChI=1S/C20H23NO3/c1-14-9-8-10-15(2)19(14)21(16(3)20(23)24-4)18(22)13-17-11-6-5-7-12-17/h5-12,16H,13H2,1-4H3",
+    "chebi:inchikey": "CJPQIRJHIZUAQP-UHFFFAOYSA-N",
+    "chebi:smiles": "COC(=O)C(C)N(C(=O)Cc1ccccc1)c1c(C)cccc1C",
+    "geneontology:hasDbXref": "PPDB:59",
+    "geneontology:hasId": "82777",
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#3_STAR"
+    },
+    "rdfs:label": "methyl N-(2,6-dimethylphenyl)-N-(phenylacetyl)alaninate",
+    "rdfs:subClassOf": [
+        {
+            "@id": "obo:CHEBI_37622"
+        },
+        {
+            "@id": "obo:CHEBI_25248"
+        },
+        {
+            "@id": "obo:CHEBI_62733"
+        },
+        {
+            "@id": "obo:CHEBI_22278"
+        }
+    ]
+}

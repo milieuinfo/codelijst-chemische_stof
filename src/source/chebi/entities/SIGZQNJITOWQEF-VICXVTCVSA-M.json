@@ -1,0 +1,40 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_52019",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "chebi:charge": "0",
+    "chebi:inchi": "InChI=1S/C19H17Cl2N3O5S.Na.H2O/c1-7-10(12(23-29-7)11-8(20)5-4-6-9(11)21)15(25)22-13-16(26)24-14(18(27)28)19(2,3)30-17(13)24;;/h4-6,13-14,17H,1-3H3,(H,22,25)(H,27,28);;1H2/q;+1;/p-1/t13-,14+,17-;;/m1../s1",
+    "chebi:inchikey": "SIGZQNJITOWQEF-VICXVTCVSA-M",
+    "chebi:smiles": "[Na+].[H]O[H].[H][C@]12SC(C)(C)[C@@H](N1C(=O)[C@H]2NC(=O)c1c(C)onc1-c1c(Cl)cccc1Cl)C([O-])=O",
+    "geneontology:hasDbXref": [
+        "KEGG:C13756",
+        "CAS:13412-64-1",
+        "KEGG:D02137"
+    ],
+    "geneontology:hasId": "52019",
+    "geneontology:hasSynonym": [
+        "Dicloxacillin sodium",
+        "Dicloxacillin sodium hydrate",
+        "Dicloxacillin sodium monohydrate",
+        "Dicloxacillin sodium salt hydrate",
+        "sodium (2S,5R,6R)-6-({[3-(2,6-dichlorophenyl)-5-methyl-1,2-oxazol-4-yl]carbonyl}amino)-3,3-dimethyl-7-oxo-4-thia-1-azabicyclo[3.2.0]heptane-2-carboxylate hydrate",
+        "sodium 6beta-{[3-(2,6-dichlorophenyl)-5-methyl-1,2-oxazol-4-yl]carboxamido}-2,2-dimethylpenam-3alpha-carboxylate--water (1/1)"
+    ],
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#3_STAR"
+    },
+    "rdfs:label": "dicloxacillin sodium monohydrate",
+    "rdfs:subClassOf": [
+        {
+            "@id": "obo:CHEBI_35505"
+        },
+        {
+            "@id": "b159_genid-00f1db82e1ab437c844115a94dc63e635-bn52019t10f34691"
+        }
+    ]
+}

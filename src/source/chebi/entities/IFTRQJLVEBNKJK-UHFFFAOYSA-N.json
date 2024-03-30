@@ -1,0 +1,29 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_187086",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "chebi:charge": "0",
+    "chebi:formula": "C7H14",
+    "chebi:inchi": "InChI=1S/C7H14/c1-2-7-5-3-4-6-7/h7H,2-6H2,1H3",
+    "chebi:inchikey": "IFTRQJLVEBNKJK-UHFFFAOYSA-N",
+    "chebi:smiles": "C1(CCCC1)CC",
+    "geneontology:hasDbXref": [
+        "CAS:1640-89-7",
+        "Chemspider:14686",
+        "LIPID_MAPS_instance:LMFA11000668"
+    ],
+    "geneontology:hasId": "187086",
+    "geneontology:hasSynonym": "ethylcyclopentane",
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#2_STAR"
+    },
+    "rdfs:label": "Ethylcyclopentane",
+    "rdfs:subClassOf": {
+        "@id": "obo:CHEBI_23453"
+    }
+}

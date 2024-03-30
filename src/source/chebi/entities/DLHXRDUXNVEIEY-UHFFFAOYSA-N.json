@@ -1,0 +1,28 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_166605",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "chebi:charge": "0",
+    "chebi:formula": "C10H8O2",
+    "chebi:inchi": "InChI=1S/C10H8O2/c1-7-2-3-8-4-5-10(11)12-9(8)6-7/h2-6H,1H3",
+    "chebi:inchikey": "DLHXRDUXNVEIEY-UHFFFAOYSA-N",
+    "chebi:smiles": "O1C2=C(C=CC(=C2)C)C=CC1=O",
+    "geneontology:hasDbXref": [
+        "CAS:2445-83-2",
+        "Chemspider:16215"
+    ],
+    "geneontology:hasId": "166605",
+    "geneontology:hasSynonym": "7-methylchromen-2-one",
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#2_STAR"
+    },
+    "rdfs:label": "7-Methylcoumarin",
+    "rdfs:subClassOf": {
+        "@id": "obo:CHEBI_23403"
+    }
+}

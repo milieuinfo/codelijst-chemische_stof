@@ -1,0 +1,87 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_16914",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "obo:IAO_0000115": "A monohydroxybenzoic acid that is benzoic acid with a hydroxy group at the ortho position. It is obtained from the bark of the white willow and wintergreen leaves.",
+    "chebi:charge": "0",
+    "chebi:formula": "C7H6O3",
+    "chebi:inchi": "InChI=1S/C7H6O3/c8-6-4-2-1-3-5(6)7(9)10/h1-4,8H,(H,9,10)",
+    "chebi:inchikey": "YGSDEFSMJLZEOE-UHFFFAOYSA-N",
+    "chebi:smiles": "OC(=O)c1ccccc1O",
+    "geneontology:hasDbXref": [
+        "PMID:29079364",
+        "PMID:22770225",
+        "PMID:1650428",
+        "PMID:3425858",
+        "Beilstein:774890",
+        "CAS:69-72-7",
+        "Drug_Central:2416",
+        "DrugBank:DB00936",
+        "Gmelin:3418",
+        "HMDB:HMDB0001895",
+        "KEGG:C00805",
+        "KEGG:D00097",
+        "KNApSAcK:C00000206",
+        "LINCS:LSM-4763",
+        "MetaCyc:CPD-110",
+        "PDBeChem:SAL",
+        "PMID:11016405",
+        "PMID:12865403",
+        "PMID:19400653",
+        "PMID:19816125",
+        "PMID:32807953",
+        "Reaxys:774890",
+        "Wikipedia:Salicylic_Acid"
+    ],
+    "geneontology:hasId": "16914",
+    "geneontology:hasSynonym": [
+        "2-carboxyphenol",
+        "2-hydroxybenzoic acid",
+        "2-HYDROXYBENZOIC ACID",
+        "o-carboxyphenol",
+        "o-hydroxybenzoic acid",
+        "o-Hydroxybenzoic acid",
+        "Salicylic acid"
+    ],
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#3_STAR"
+    },
+    "rdfs:label": "salicylic acid",
+    "rdfs:subClassOf": [
+        {
+            "@id": "obo:CHEBI_25389"
+        },
+        {
+            "@id": "b73_genid-00f1db82e1ab437c844115a94dc63e635-bn16914tmms73f30762"
+        },
+        {
+            "@id": "b73_genid-00f1db82e1ab437c844115a94dc63e635-bn16914t4f30762"
+        },
+        {
+            "@id": "b73_genid-00f1db82e1ab437c844115a94dc63e635-bn16914t11f35441"
+        },
+        {
+            "@id": "b73_genid-00f1db82e1ab437c844115a94dc63e635-bn16914t11f35718"
+        },
+        {
+            "@id": "b73_genid-00f1db82e1ab437c844115a94dc63e635-bn16914t11f37848"
+        },
+        {
+            "@id": "b73_genid-00f1db82e1ab437c844115a94dc63e635-bn16914t11f50176"
+        },
+        {
+            "@id": "b73_genid-00f1db82e1ab437c844115a94dc63e635-bn16914t11f73181"
+        },
+        {
+            "@id": "b73_genid-00f1db82e1ab437c844115a94dc63e635-bn16914t11f76924"
+        },
+        {
+            "@id": "b73_genid-00f1db82e1ab437c844115a94dc63e635-bn16914t11f84735"
+        }
+    ]
+}

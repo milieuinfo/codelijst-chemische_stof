@@ -1,0 +1,25 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_88866",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "chebi:charge": "0",
+    "chebi:formula": "C28H43N",
+    "chebi:inchi": "InChI=1S/C28H43N/c1-3-5-7-9-11-13-15-25-17-21-27(22-18-25)29-28-23-19-26(20-24-28)16-14-12-10-8-6-4-2/h17-24,29H,3-16H2,1-2H3",
+    "chebi:inchikey": "QAPVYZRWKDXNDK-UHFFFAOYSA-N",
+    "chebi:smiles": "CCCCCCCCC1=CC=C(C=C1)NC2=CC=C(CCCCCCCC)C=C2",
+    "geneontology:hasDbXref": "HMDB:HMDB0061926",
+    "geneontology:hasId": "88866",
+    "geneontology:hasSynonym": "4-octyl-N-(4-octylphenyl)aniline",
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#2_STAR"
+    },
+    "rdfs:label": "P,P-Dioctyldiphenylamine",
+    "rdfs:subClassOf": {
+        "@id": "obo:CHEBI_48975"
+    }
+}

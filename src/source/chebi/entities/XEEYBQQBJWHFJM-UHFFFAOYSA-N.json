@@ -1,0 +1,86 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@graph": [
+        {
+            "@id": "obo:CHEBI_18248",
+            "@type": "http://www.w3.org/2002/07/owl#Class",
+            "obo:IAO_0000115": "An iron group element atom that has atomic number 26.",
+            "chebi:charge": "0",
+            "chebi:formula": "Fe",
+            "chebi:inchi": "InChI=1S/Fe",
+            "chebi:inchikey": "XEEYBQQBJWHFJM-UHFFFAOYSA-N",
+            "chebi:smiles": "[Fe]",
+            "http://purl.uniprot.org/core/name": "Fe",
+            "geneontology:hasDbXref": [
+                "CAS:7439-89-6",
+                "DrugBank:DB01592",
+                "HMDB:HMDB0015531",
+                "KEGG:C00023",
+                "Reaxys:4122945",
+                "WebElements:Fe"
+            ],
+            "geneontology:hasId": "18248",
+            "geneontology:hasSynonym": [
+                "Fe",
+                "26Fe",
+                "Eisen",
+                "fer",
+                "ferrum",
+                "hierro",
+                "iron",
+                "Iron"
+            ],
+            "geneontology:inSubset": {
+                "@id": "obo:chebi#3_STAR"
+            },
+            "rdfs:label": "iron atom",
+            "rdfs:subClassOf": [
+                {
+                    "@id": "b281_genid-00f1db82e1ab437c844115a94dc63e635-bn18248t11f27027"
+                },
+                {
+                    "@id": "obo:CHEBI_33356"
+                },
+                {
+                    "@id": "b281_genid-00f1db82e1ab437c844115a94dc63e635-bn18248t11f76971"
+                }
+            ]
+        },
+        {
+            "@id": "obo:CHEBI_82664",
+            "@type": "http://www.w3.org/2002/07/owl#Class",
+            "obo:IAO_0000115": "An elemental iron in which the atom has an oxidation state of zero.",
+            "chebi:charge": "0",
+            "chebi:formula": "Fe",
+            "chebi:inchi": "InChI=1S/Fe",
+            "chebi:inchikey": "XEEYBQQBJWHFJM-UHFFFAOYSA-N",
+            "chebi:smiles": "[Fe]",
+            "geneontology:hasDbXref": [
+                "CAS:7439-89-6",
+                "Reaxys:4122945",
+                "Drug_Central:4277",
+                "Wikipedia:Iron"
+            ],
+            "geneontology:hasId": "82664",
+            "geneontology:hasSynonym": [
+                "Fe(0)",
+                "Fen",
+                "iron dust",
+                "iron metal",
+                "iron powder"
+            ],
+            "geneontology:inSubset": {
+                "@id": "obo:chebi#3_STAR"
+            },
+            "rdfs:label": "iron(0)",
+            "rdfs:subClassOf": {
+                "@id": "obo:CHEBI_82663"
+            }
+        }
+    ]
+}

@@ -1,0 +1,71 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_74875",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "obo:IAO_0000115": "A member of the class of sulfamides that is sulfamide in which the hydrogens attached to one of the nitrogens are replaced by methyl groups, while those attached to the other nitrogen are replaced by a phenyl and a [dichloro(fluoro)methyl]sulfanediyl group. A fungicide introduced in 1965 and used in the cultivation of fruit and vegetables, as well as in wood preservatives, it is no longer approved for use in the European Union.",
+    "chebi:charge": "0",
+    "chebi:formula": "C9H11Cl2FN2O2S2",
+    "chebi:inchi": "InChI=1S/C9H11Cl2FN2O2S2/c1-13(2)18(15,16)14(17-9(10,11)12)8-6-4-3-5-7-8/h3-7H,1-2H3",
+    "chebi:inchikey": "WURGXGVFSMYFCG-UHFFFAOYSA-N",
+    "chebi:smiles": "CN(C)S(=O)(=O)N(SC(F)(Cl)Cl)c1ccccc1",
+    "geneontology:hasDbXref": [
+        "CAS:1085-98-9",
+        "KEGG:C18820",
+        "Patent:BE609868",
+        "Patent:US3285929",
+        "Patent:US3341403",
+        "Pesticides:dichlofluanid",
+        "PMID:1864270",
+        "PMID:19680886",
+        "PMID:1991455",
+        "PMID:7758314",
+        "PMID:9325584",
+        "PPDB:216",
+        "Reaxys:2947992"
+    ],
+    "geneontology:hasId": "74875",
+    "geneontology:hasSynonym": [
+        "1,1-dichloro-N-((dimethylamino)sulfonyl)-1-fluoro-N-phenylmethanesulfenamide",
+        "BAY 47531",
+        "Bayer 47531",
+        "dichlofluanide",
+        "N,N-dimethyl-N'-phenyl-N'-fluorodichloromethylthiosulfamide",
+        "N-(Dichlor-fluor-methyl-thio)-N',N'-dimethyl-N-phenylschwefel-saeurediamid",
+        "N-(dichlorofluoromethylthio)-N',N'-dimethyl-N-phenylsulfamide",
+        "N-(dichlorofluoromethylthio)-N-(dimethylsulfamoyl)-aniline",
+        "N-{[dichloro(fluoro)methyl]sulfanyl}-N',N'-dimethyl-N-phenylsulfuric diamide",
+        "NSC 218451"
+    ],
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#3_STAR"
+    },
+    "rdfs:label": "dichlofluanid",
+    "rdfs:subClassOf": [
+        {
+            "@id": "obo:CHEBI_36683"
+        },
+        {
+            "@id": "obo:CHEBI_37143"
+        },
+        {
+            "@id": "obo:CHEBI_51871"
+        },
+        {
+            "@id": "b226_genid-00f1db82e1ab437c844115a94dc63e635-bn74875t11f22153"
+        },
+        {
+            "@id": "b226_genid-00f1db82e1ab437c844115a94dc63e635-bn74875t8f29368"
+        },
+        {
+            "@id": "b226_genid-00f1db82e1ab437c844115a94dc63e635-bn74875t11f86328"
+        },
+        {
+            "@id": "obo:CHEBI_87026"
+        }
+    ]
+}

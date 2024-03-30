@@ -1,0 +1,85 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_8499",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "obo:IAO_0000115": "A propanolamine that is propan-2-ol substituted by a propan-2-ylamino group at position 1 and a naphthalen-1-yloxy group at position 3.",
+    "chebi:charge": "0",
+    "chebi:formula": "C16H21NO2",
+    "chebi:inchi": "InChI=1S/C16H21NO2/c1-12(2)17-10-14(18)11-19-16-9-5-7-13-6-3-4-8-15(13)16/h3-9,12,14,17-18H,10-11H2,1-2H3",
+    "chebi:inchikey": "AQHHHDLHHXJYJD-UHFFFAOYSA-N",
+    "chebi:smiles": "CC(C)NCC(O)COc1cccc2ccccc12",
+    "geneontology:hasDbXref": [
+        "Beilstein:987417",
+        "CAS:525-66-6",
+        "Drug_Central:2303",
+        "DrugBank:DB00571",
+        "HMDB:HMDB0001849",
+        "KEGG:C07407",
+        "KEGG:D08443",
+        "LINCS:LSM-4329",
+        "PMID:18259090",
+        "PMID:24495884",
+        "PMID:24504055",
+        "Reaxys:987417",
+        "Wikipedia:Propranolol"
+    ],
+    "geneontology:hasId": "8499",
+    "geneontology:hasSynonym": [
+        "1-((1-Methylethyl)amino)-3-(1-naphthalenyloxy)-2-propanol",
+        "1-(isopropylamino)-3-(1-naphthyloxy)propan-2-ol",
+        "3-(naphthalen-1-yloxy)-1-(propan-2-ylamino)propan-2-ol",
+        "beta-Propranolol",
+        "Propanalol",
+        "Propanolol",
+        "Propranolol",
+        "propranololo",
+        "propranololum"
+    ],
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#3_STAR"
+    },
+    "rdfs:label": "propranolol",
+    "rdfs:subClassOf": [
+        {
+            "@id": "obo:CHEBI_25477"
+        },
+        {
+            "@id": "obo:CHEBI_35533"
+        },
+        {
+            "@id": "obo:CHEBI_32863"
+        },
+        {
+            "@id": "b206_genid-00f1db82e1ab437c844115a94dc63e635-bn8499t8f10319"
+        },
+        {
+            "@id": "b206_genid-00f1db82e1ab437c844115a94dc63e635-bn8499t11f35474"
+        },
+        {
+            "@id": "b206_genid-00f1db82e1ab437c844115a94dc63e635-bn8499t11f35530"
+        },
+        {
+            "@id": "b206_genid-00f1db82e1ab437c844115a94dc63e635-bn8499t11f35620"
+        },
+        {
+            "@id": "b206_genid-00f1db82e1ab437c844115a94dc63e635-bn8499t11f35674"
+        },
+        {
+            "@id": "b206_genid-00f1db82e1ab437c844115a94dc63e635-bn8499t11f35703"
+        },
+        {
+            "@id": "b206_genid-00f1db82e1ab437c844115a94dc63e635-bn8499t11f38070"
+        },
+        {
+            "@id": "b206_genid-00f1db82e1ab437c844115a94dc63e635-bn8499t11f78298"
+        },
+        {
+            "@id": "b206_genid-00f1db82e1ab437c844115a94dc63e635-bn8499t11f85234"
+        }
+    ]
+}

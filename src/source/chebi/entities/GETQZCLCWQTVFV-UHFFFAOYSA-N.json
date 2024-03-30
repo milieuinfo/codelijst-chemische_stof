@@ -1,0 +1,73 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_18139",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "obo:IAO_0000115": "A tertiary amine that is ammonia in which each hydrogen atom is substituted by an methyl group.",
+    "chebi:charge": "0",
+    "chebi:formula": "C3H9N",
+    "chebi:inchi": "InChI=1S/C3H9N/c1-4(2)3/h1-3H3",
+    "chebi:inchikey": "GETQZCLCWQTVFV-UHFFFAOYSA-N",
+    "chebi:smiles": "CN(C)C",
+    "geneontology:hasDbXref": [
+        "PMID:17190852",
+        "Beilstein:956566",
+        "CAS:75-50-3",
+        "Gmelin:1309",
+        "HMDB:HMDB0000906",
+        "KEGG:C00565",
+        "KNApSAcK:C00001433",
+        "MetaCyc:TRIMETHYLAMINE",
+        "PDBeChem:KEN",
+        "PMID:14047118",
+        "PMID:15304308",
+        "PMID:15752091",
+        "PMID:1801314",
+        "PMID:24591617",
+        "PMID:2501587",
+        "PMID:5161463",
+        "Reaxys:956566",
+        "Wikipedia:Trimethylamine"
+    ],
+    "geneontology:hasId": "18139",
+    "geneontology:hasSynonym": [
+        "(CH3)3N",
+        "N,N,N-trimethylamine",
+        "N,N-dimethylmethanamine",
+        "N,N-Dimethylmethanamine",
+        "N(CH3)3",
+        "NMe3",
+        "TMA",
+        "tridimethylaminomethane",
+        "Trimethylamin",
+        "Trimethylamine"
+    ],
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#3_STAR"
+    },
+    "rdfs:label": "trimethylamine",
+    "rdfs:subClassOf": [
+        {
+            "@id": "obo:CHEBI_32876"
+        },
+        {
+            "@id": "obo:CHEBI_25274"
+        },
+        {
+            "@id": "b297_genid-00f1db82e1ab437c844115a94dc63e635-bn18139tmms73f58389"
+        },
+        {
+            "@id": "b297_genid-00f1db82e1ab437c844115a94dc63e635-bn18139t5f58389"
+        },
+        {
+            "@id": "b297_genid-00f1db82e1ab437c844115a94dc63e635-bn18139t11f76967"
+        },
+        {
+            "@id": "b297_genid-00f1db82e1ab437c844115a94dc63e635-bn18139t11f76971"
+        }
+    ]
+}

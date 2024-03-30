@@ -1,0 +1,72 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_28941",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "obo:IAO_0000115": "A straight-chain, C22, long-chain saturated fatty acid.",
+    "chebi:charge": "0",
+    "chebi:formula": "C22H44O2",
+    "chebi:inchi": "InChI=1S/C22H44O2/c1-2-3-4-5-6-7-8-9-10-11-12-13-14-15-16-17-18-19-20-21-22(23)24/h2-21H2,1H3,(H,23,24)",
+    "chebi:inchikey": "UKMSUNONTOPOIO-UHFFFAOYSA-N",
+    "chebi:smiles": "CCCCCCCCCCCCCCCCCCCCCC(O)=O",
+    "geneontology:hasDbXref": [
+        "KEGG:C08281",
+        "PMID:32601219",
+        "Beilstein:1792887",
+        "CAS:112-85-6",
+        "Chemspider:7923",
+        "Drug_Central:3855",
+        "FooDB:FDB005830",
+        "Gmelin:232293",
+        "HMDB:HMDB0000944",
+        "KNApSAcK:C00001211",
+        "LIPID_MAPS_instance:LMFA01010022",
+        "PDBeChem:EO3",
+        "PMID:11124748",
+        "PMID:12357383",
+        "PMID:15716582",
+        "PMID:20565070",
+        "Reaxys:1792887",
+        "Wikipedia:Behenic acid"
+    ],
+    "geneontology:hasId": "28941",
+    "geneontology:hasSynonym": [
+        "Docosanoate",
+        "1-docosanoic acid",
+        "Behenic acid",
+        "Behensaeure",
+        "CH3-[CH2]20-COOH",
+        "docosanic acid",
+        "Docosanoic acid",
+        "Docosansaeure",
+        "docosoic acid",
+        "Dokosansaeure",
+        "Heneicosansaeure",
+        "n-docosanoic acid"
+    ],
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#3_STAR"
+    },
+    "rdfs:label": "docosanoic acid",
+    "rdfs:subClassOf": [
+        {
+            "@id": "obo:CHEBI_15904"
+        },
+        {
+            "@id": "obo:CHEBI_39418"
+        },
+        {
+            "@id": "b199_genid-00f1db82e1ab437c844115a94dc63e635-bn28941tmms73f23858"
+        },
+        {
+            "@id": "b199_genid-00f1db82e1ab437c844115a94dc63e635-bn28941t4f23858"
+        },
+        {
+            "@id": "b199_genid-00f1db82e1ab437c844115a94dc63e635-bn28941t11f76924"
+        }
+    ]
+}

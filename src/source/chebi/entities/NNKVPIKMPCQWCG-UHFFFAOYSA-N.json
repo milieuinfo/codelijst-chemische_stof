@@ -1,0 +1,61 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_38721",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "obo:IAO_0000115": "An organic thiophosphate resulting from the N-deacylation of the proinsecticide acephate.",
+    "chebi:charge": "0",
+    "chebi:formula": "C2H8NO2PS",
+    "chebi:inchi": "InChI=1S/C2H8NO2PS/c1-5-6(3,4)7-2/h1-2H3,(H2,3,4)",
+    "chebi:inchikey": "NNKVPIKMPCQWCG-UHFFFAOYSA-N",
+    "chebi:smiles": "COP(N)(=O)SC",
+    "geneontology:hasDbXref": [
+        "Beilstein:1098870",
+        "CAS:10265-92-6",
+        "KEGG:C18667",
+        "PMID:27990599",
+        "PMID:28036051",
+        "PMID:28540662",
+        "PPDB:453",
+        "Reaxys:8137714"
+    ],
+    "geneontology:hasId": "38721",
+    "geneontology:hasSynonym": [
+        "metamidophos",
+        "methyl phosphoramidothioate",
+        "O,S-dimethyl amidothiophosphate",
+        "O,S-Dimethyl phosphoramidothiolate",
+        "O,S-dimethyl phosphoroamidothioate",
+        "phosphoramidothioic acid, o,s-dimethyl ester",
+        "phosphoramidothioic acid, O,S-dimethyl ester",
+        "thiophosphoramidic acid O,S-dimethyl ester"
+    ],
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#3_STAR"
+    },
+    "rdfs:label": "methamidophos",
+    "rdfs:subClassOf": [
+        {
+            "@id": "obo:CHEBI_17102"
+        },
+        {
+            "@id": "obo:CHEBI_37512"
+        },
+        {
+            "@id": "obo:CHEBI_25715"
+        },
+        {
+            "@id": "b101_genid-00f1db82e1ab437c844115a94dc63e635-bn38721t11f22153"
+        },
+        {
+            "@id": "b101_genid-00f1db82e1ab437c844115a94dc63e635-bn38721t11f33286"
+        },
+        {
+            "@id": "b101_genid-00f1db82e1ab437c844115a94dc63e635-bn38721t11f33289"
+        }
+    ]
+}

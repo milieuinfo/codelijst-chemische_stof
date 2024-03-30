@@ -1,0 +1,28 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_81863",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "chebi:charge": "0",
+    "chebi:formula": "C20H20FNO4",
+    "chebi:inchi": "InChI=1S/C20H20FNO4/c1-3-4-11-24-20(23)14(2)25-16-6-8-17(9-7-16)26-19-10-5-15(13-22)12-18(19)21/h5-10,12,14H,3-4,11H2,1-2H3/t14-/m1/s1",
+    "chebi:inchikey": "TYIYMOAHACZAMQ-CQSZACIVSA-N",
+    "chebi:smiles": "CCCCOC(=O)[C@@H](C)Oc1ccc(Oc2ccc(cc2F)C#N)cc1",
+    "geneontology:hasDbXref": [
+        "CAS:122008-85-9",
+        "KEGG:C18607",
+        "PPDB:193"
+    ],
+    "geneontology:hasId": "81863",
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#2_STAR"
+    },
+    "rdfs:label": "Cyhalofop-butyl",
+    "rdfs:subClassOf": {
+        "@id": "obo:CHEBI_35618"
+    }
+}

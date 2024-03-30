@@ -1,0 +1,62 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_77424",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "obo:IAO_0000115": "An amino-nitrotoluene that is 2,6-dinitrotoluene substituted at position 4 by an amino group.",
+    "chebi:charge": "0",
+    "chebi:formula": "C7H7N3O4",
+    "chebi:inchi": "InChI=1S/C7H7N3O4/c1-4-6(9(11)12)2-5(8)3-7(4)10(13)14/h2-3H,8H2,1H3",
+    "chebi:inchikey": "KQRJATLINVYHEZ-UHFFFAOYSA-N",
+    "chebi:smiles": "Cc1c(cc(N)cc1[N+]([O-])=O)[N+]([O-])=O",
+    "geneontology:hasDbXref": [
+        "PMID:23983501",
+        "Beilstein:2462150",
+        "CAS:19406-51-0",
+        "KEGG:C16394",
+        "MetaCyc:CPD-10455",
+        "PMID:11467731",
+        "PMID:15081777",
+        "PMID:15820102",
+        "PMID:20390867",
+        "PMID:24234379",
+        "PMID:3378017",
+        "PMID:9198535",
+        "Reaxys:2462150",
+        "UM-BBD_compID:c0455"
+    ],
+    "geneontology:hasId": "77424",
+    "geneontology:hasSynonym": [
+        "2,6-Dinitro-4-aminotoluene",
+        "3,5-Dinitro-4-methylaniline",
+        "3,5-Dinitro-p-toluidine",
+        "4-ADNT",
+        "4-Amino-1-methyl-2,6-dinitrobenzene",
+        "4-methyl-3,5-dinitroaniline",
+        "4-Methyl-3,5-dinitrobenzenamine",
+        "4-Methyl-3,5-dinitrophenylamine",
+        "NSC 25010"
+    ],
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#3_STAR"
+    },
+    "rdfs:label": "4-amino-2,6-dinitrotoluene",
+    "rdfs:subClassOf": [
+        {
+            "@id": "obo:CHEBI_22482"
+        },
+        {
+            "@id": "b294_genid-00f1db82e1ab437c844115a94dc63e635-bn77424t11f63490"
+        },
+        {
+            "@id": "b294_genid-00f1db82e1ab437c844115a94dc63e635-bn77424t11f76507"
+        },
+        {
+            "@id": "b294_genid-00f1db82e1ab437c844115a94dc63e635-bn77424t11f76968"
+        }
+    ]
+}

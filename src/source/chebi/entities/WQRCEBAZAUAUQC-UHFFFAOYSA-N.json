@@ -1,0 +1,55 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_132897",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "obo:IAO_0000115": "The ethyl ester of benazolin. It is used as a post-emergence herbicide used (generally as a salt or ester) for the control of annual weeds in wheat and oilseed rape. It is not approved for use with the European Union.",
+    "chebi:charge": "0",
+    "chebi:formula": "C11H10ClNO3S",
+    "chebi:inchi": "InChI=1S/C11H10ClNO3S/c1-2-16-9(14)6-13-10-7(12)4-3-5-8(10)17-11(13)15/h3-5H,2,6H2,1H3",
+    "chebi:inchikey": "WQRCEBAZAUAUQC-UHFFFAOYSA-N",
+    "chebi:smiles": "C1=CC(=C2C(=C1)SC(N2CC(=O)OCC)=O)Cl",
+    "geneontology:hasDbXref": [
+        "CAS:25059-80-7",
+        "Pesticides:derivatives/benazolin-ethyl",
+        "PMID:20848105",
+        "PMID:22718745",
+        "PMID:3744655",
+        "PPDB:1086"
+    ],
+    "geneontology:hasId": "132897",
+    "geneontology:hasSynonym": [
+        "benazolin ethyl ester",
+        "ethyl (4-chloro-2-oxo-1,3-benzothiazol-3(2H)-yl)acetate",
+        "ethyl 4-chloro-2,3-dihydro-2-oxo-1,3-benzothiazol-3-ylacetate",
+        "ethyl 4-chloro-2-oxo-3(2H)-benzothiazoleacetate"
+    ],
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#3_STAR"
+    },
+    "rdfs:label": "benazolin-ethyl",
+    "rdfs:subClassOf": [
+        {
+            "@id": "obo:CHEBI_23990"
+        },
+        {
+            "@id": "obo:CHEBI_37947"
+        },
+        {
+            "@id": "obo:CHEBI_38656"
+        },
+        {
+            "@id": "b194_genid-00f1db82e1ab437c844115a94dc63e635-bn132897t11f26841"
+        },
+        {
+            "@id": "b194_genid-00f1db82e1ab437c844115a94dc63e635-bn132897t8f81951"
+        },
+        {
+            "@id": "b194_genid-00f1db82e1ab437c844115a94dc63e635-bn132897t11f136646"
+        }
+    ]
+}

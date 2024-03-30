@@ -1,0 +1,109 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_16136",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "obo:IAO_0000115": "A sulfur hydride consisting of a single sulfur atom bonded to two hydrogen atoms. A highly poisonous, flammable gas with a characteristic odour of rotten eggs, it is often produced by bacterial decomposition of organic matter in the absence of oxygen.",
+    "chebi:charge": "0",
+    "chebi:formula": "H2S",
+    "chebi:inchi": "InChI=1S/H2S/h1H2",
+    "chebi:inchikey": "RWSOTUBLDIXVET-UHFFFAOYSA-N",
+    "chebi:smiles": "[H]S[H]",
+    "geneontology:hasDbXref": [
+        "Beilstein:3535004",
+        "CAS:7783-06-4",
+        "Drug_Central:4260",
+        "Gmelin:303",
+        "KEGG:C00283",
+        "KNApSAcK:C00007266",
+        "MolBase:1709",
+        "PDBeChem:H2S",
+        "PMID:11788560",
+        "PMID:14654297",
+        "PMID:15003943",
+        "PMID:15607739",
+        "PMID:16446402",
+        "PMID:18098324",
+        "PMID:18524810",
+        "PMID:18948540",
+        "PMID:19695225",
+        "PMID:22004989",
+        "PMID:22378060",
+        "PMID:22448627",
+        "PMID:22473176",
+        "PMID:22486842",
+        "PMID:22520971",
+        "PMID:22787557",
+        "UM-BBD_compID:c0239",
+        "Wikipedia:Hydrogen_sulfide"
+    ],
+    "geneontology:hasId": "16136",
+    "geneontology:hasSynonym": [
+        "H2S",
+        "Sulfide",
+        "[SH2]",
+        "acide sulfhydrique",
+        "dihydridosulfur",
+        "dihydrogen(sulfide)",
+        "dihydrogen monosulfide",
+        "dihydrogen sulfide",
+        "hydrogene sulfure",
+        "hydrogen monosulfide",
+        "Hydrogen sulfide",
+        "Hydrogen-sulfide",
+        "hydrogen sulphide",
+        "HYDROSULFURIC ACID",
+        "Schwefelwasserstoff",
+        "sulfane",
+        "sulfure d'hydrogene"
+    ],
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#3_STAR"
+    },
+    "rdfs:label": "hydrogen sulfide",
+    "rdfs:subClassOf": [
+        {
+            "@id": "obo:CHEBI_33535"
+        },
+        {
+            "@id": "obo:CHEBI_37176"
+        },
+        {
+            "@id": "obo:CHEBI_138675"
+        },
+        {
+            "@id": "b138_genid-00f1db82e1ab437c844115a94dc63e635-bn16136tmms73f29919"
+        },
+        {
+            "@id": "b138_genid-00f1db82e1ab437c844115a94dc63e635-bn16136t11f25212"
+        },
+        {
+            "@id": "b138_genid-00f1db82e1ab437c844115a94dc63e635-bn16136t11f27026"
+        },
+        {
+            "@id": "b138_genid-00f1db82e1ab437c844115a94dc63e635-bn16136t4f29919"
+        },
+        {
+            "@id": "b138_genid-00f1db82e1ab437c844115a94dc63e635-bn16136t5f30488"
+        },
+        {
+            "@id": "obo:CHEBI_33405"
+        },
+        {
+            "@id": "b138_genid-00f1db82e1ab437c844115a94dc63e635-bn16136t11f35620"
+        },
+        {
+            "@id": "b138_genid-00f1db82e1ab437c844115a94dc63e635-bn16136t11f50902"
+        },
+        {
+            "@id": "b138_genid-00f1db82e1ab437c844115a94dc63e635-bn16136t11f62488"
+        },
+        {
+            "@id": "b138_genid-00f1db82e1ab437c844115a94dc63e635-bn16136t11f76971"
+        }
+    ]
+}

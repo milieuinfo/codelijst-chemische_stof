@@ -1,0 +1,52 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_76287",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "obo:IAO_0000115": "A member of the class of chloroethanes that is ethane in which five of the six hydrogens are replaced by chlorines. A non-flammable, high-boiling liquid (b.p. 161-162degreeC) with relative density 1.67 and an odour resembling that of chloroform, it is used as a solvent for oil and grease, in metal cleaning, and in the separation of coal from impurities.",
+    "chebi:charge": "0",
+    "chebi:formula": "C2HCl5",
+    "chebi:inchi": "InChI=1S/C2HCl5/c3-1(4)2(5,6)7/h1H",
+    "chebi:inchikey": "BNIXVQGCZULYKV-UHFFFAOYSA-N",
+    "chebi:smiles": "ClC(Cl)C(Cl)(Cl)Cl",
+    "geneontology:hasDbXref": [
+        "CAS:76-01-7",
+        "KEGG:C19496",
+        "MetaCyc:PENTACHLOROETHANE",
+        "PMID:10476437",
+        "PMID:12778204",
+        "PMID:2576814",
+        "PMID:2916082",
+        "PMID:3473034",
+        "PMID:5171121",
+        "PMID:8637849",
+        "Reaxys:1736845"
+    ],
+    "geneontology:hasId": "76287",
+    "geneontology:hasSynonym": [
+        "1,1,1,2,2-pentachloroethane",
+        "1,1,1,2,2-pentachloro-ethane",
+        "CCl3CHCl2",
+        "CHCl2CCl3",
+        "Cl3CCHCl2",
+        "EINECS 200-925-1",
+        "ethane pentachloride",
+        "pentalin"
+    ],
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#3_STAR"
+    },
+    "rdfs:label": "pentachloroethane",
+    "rdfs:subClassOf": [
+        {
+            "@id": "obo:CHEBI_36016"
+        },
+        {
+            "@id": "b163_genid-00f1db82e1ab437c844115a94dc63e635-bn76287t11f48355"
+        }
+    ]
+}

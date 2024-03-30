@@ -1,0 +1,73 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_17356",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "obo:IAO_0000115": "The parent of the class of 2-acetamidofluorenes, being an ortho-fused polycyclic arene that consists of 9H-fluorene bearing an acetamido substituent at position 2. It is a carcinogenic and mutagenic derivative of fluorene.",
+    "chebi:charge": "0",
+    "chebi:formula": "C15H13NO",
+    "chebi:inchi": "InChI=1S/C15H13NO/c1-10(17)16-13-6-7-15-12(9-13)8-11-4-2-3-5-14(11)15/h2-7,9H,8H2,1H3,(H,16,17)",
+    "chebi:inchikey": "CZIHNRWJTSTCEX-UHFFFAOYSA-N",
+    "chebi:smiles": "C(=O)(NC=1C=C2C(C=3C(C2)=CC=CC3)=CC1)C",
+    "http://purl.uniprot.org/core/name": "2-acetamidofluorene",
+    "geneontology:hasDbXref": [
+        "Beilstein:2807677",
+        "CAS:53-96-3",
+        "KEGG:C02778",
+        "LINCS:LSM-37153",
+        "PDBeChem:AFF",
+        "PMID:15380103",
+        "PMID:17434228",
+        "PMID:21417629",
+        "PMID:21668357",
+        "PMID:22514719",
+        "PMID:23536516",
+        "PMID:24021430",
+        "PMID:7151044",
+        "Reaxys:2807677",
+        "Wikipedia:2-Acetylaminofluorene"
+    ],
+    "geneontology:hasId": "17356",
+    "geneontology:hasSynonym": [
+        "2-(Acetylamino)fluorene",
+        "2-AAF",
+        "2-Acetamidofluorene",
+        "2-Acetaminofluorene",
+        "2-Acetoaminofluorene",
+        "2-Acetylaminofluorene",
+        "2-ACETYLAMINOFLUORENE-3-YL",
+        "2-FAA",
+        "N-(9H-fluoren-2-yl)acetamide",
+        "N-2-Fluorenylacetamide",
+        "N-Acetyl-2-aminofluorene",
+        "N-fluoren-2-ylacetamide"
+    ],
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#3_STAR"
+    },
+    "rdfs:label": "2-acetamidofluorene",
+    "rdfs:subClassOf": [
+        {
+            "@id": "obo:CHEBI_19432"
+        },
+        {
+            "@id": "b3_genid-00f1db82e1ab437c844115a94dc63e635-bn17356t11f25435"
+        },
+        {
+            "@id": "b3_genid-00f1db82e1ab437c844115a94dc63e635-bn17356t9f28266"
+        },
+        {
+            "@id": "b3_genid-00f1db82e1ab437c844115a94dc63e635-bn17356t11f50903"
+        },
+        {
+            "@id": "b3_genid-00f1db82e1ab437c844115a94dc63e635-bn17356t11f53000"
+        },
+        {
+            "@id": "b3_genid-00f1db82e1ab437c844115a94dc63e635-bn17356t11f64911"
+        }
+    ]
+}

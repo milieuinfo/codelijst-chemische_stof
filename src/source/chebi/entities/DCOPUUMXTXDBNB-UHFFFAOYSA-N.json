@@ -1,0 +1,103 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_47381",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "obo:IAO_0000115": "A monocarboxylic acid consisting of phenylacetic acid having a (2,6-dichlorophenyl)amino group at the 2-position.",
+    "chebi:charge": "0",
+    "chebi:formula": "C14H11Cl2NO2",
+    "chebi:inchi": "InChI=1S/C14H11Cl2NO2/c15-10-5-3-6-11(16)14(10)17-12-7-2-1-4-9(12)8-13(18)19/h1-7,17H,8H2,(H,18,19)",
+    "chebi:inchikey": "DCOPUUMXTXDBNB-UHFFFAOYSA-N",
+    "chebi:smiles": "C1(Cl)=CC=CC(=C1NC2=CC=CC=C2CC(=O)O)Cl",
+    "geneontology:hasDbXref": [
+        "PMID:27967303",
+        "PMID:1502708",
+        "DrugBank:DB00586",
+        "Beilstein:2146636",
+        "CAS:15307-86-5",
+        "Drug_Central:865",
+        "HMDB:HMDB0014724",
+        "KEGG:C01690",
+        "KEGG:D07816",
+        "LINCS:LSM-2160",
+        "Patent:NL6604752",
+        "Patent:US3558690",
+        "PDBeChem:DIF",
+        "PMID:11322639",
+        "PMID:23777257",
+        "PMID:7838674",
+        "Reaxys:2146636",
+        "VSDB:1933",
+        "Wikipedia:Diclofenac"
+    ],
+    "geneontology:hasId": "47381",
+    "geneontology:hasSynonym": [
+        "[2-(2,6-dichloroanilino)phenyl]acetic acid",
+        "{2-[(2,6-dichlorophenyl)amino]phenyl}acetic acid",
+        "2-((2,6-dichlorophenyl)amino)benzeneacetic acid",
+        "2-[(2,6-dichlorophenyl)amino]benzeneacetic acid",
+        "Diclofenac",
+        "diclofenac acid",
+        "diclofenaco",
+        "diclofenacum",
+        "diclofenamic acid"
+    ],
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#3_STAR"
+    },
+    "rdfs:label": "diclofenac",
+    "rdfs:subClassOf": [
+        {
+            "@id": "obo:CHEBI_25384"
+        },
+        {
+            "@id": "obo:CHEBI_33709"
+        },
+        {
+            "@id": "obo:CHEBI_33860"
+        },
+        {
+            "@id": "obo:CHEBI_23697"
+        },
+        {
+            "@id": "obo:CHEBI_50995"
+        },
+        {
+            "@id": "b19_genid-00f1db82e1ab437c844115a94dc63e635-bn47381tmms73f48311"
+        },
+        {
+            "@id": "b19_genid-00f1db82e1ab437c844115a94dc63e635-bn47381t8f4640"
+        },
+        {
+            "@id": "b19_genid-00f1db82e1ab437c844115a94dc63e635-bn47381t8f30745"
+        },
+        {
+            "@id": "b19_genid-00f1db82e1ab437c844115a94dc63e635-bn47381t11f35475"
+        },
+        {
+            "@id": "b19_genid-00f1db82e1ab437c844115a94dc63e635-bn47381t11f35481"
+        },
+        {
+            "@id": "b19_genid-00f1db82e1ab437c844115a94dc63e635-bn47381t11f35493"
+        },
+        {
+            "@id": "b19_genid-00f1db82e1ab437c844115a94dc63e635-bn47381t11f35544"
+        },
+        {
+            "@id": "b19_genid-00f1db82e1ab437c844115a94dc63e635-bn47381t11f35703"
+        },
+        {
+            "@id": "b19_genid-00f1db82e1ab437c844115a94dc63e635-bn47381t4f48311"
+        },
+        {
+            "@id": "b19_genid-00f1db82e1ab437c844115a94dc63e635-bn47381t11f78298"
+        },
+        {
+            "@id": "b19_genid-00f1db82e1ab437c844115a94dc63e635-bn47381t11f88188"
+        }
+    ]
+}

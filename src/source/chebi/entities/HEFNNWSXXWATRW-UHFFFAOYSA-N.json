@@ -1,0 +1,152 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_5855",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "obo:IAO_0000115": "A monocarboxylic acid that is propionic acid in which one of the hydrogens at position 2 is substituted by a 4-(2-methylpropyl)phenyl group.",
+    "chebi:charge": "0",
+    "chebi:formula": "C13H18O2",
+    "chebi:inchi": "InChI=1S/C13H18O2/c1-9(2)8-11-4-6-12(7-5-11)10(3)13(14)15/h4-7,9-10H,8H2,1-3H3,(H,14,15)",
+    "chebi:inchikey": "HEFNNWSXXWATRW-UHFFFAOYSA-N",
+    "chebi:smiles": "CC(C)Cc1ccc(cc1)C(C)C(O)=O",
+    "geneontology:hasDbXref": [
+        "Beilstein:2049713",
+        "CAS:15687-27-1",
+        "Drug_Central:1407",
+        "DrugBank:DB01050",
+        "HMDB:HMDB0001925",
+        "KEGG:C01588",
+        "KEGG:D00126",
+        "LINCS:LSM-1354",
+        "Patent:GB971700",
+        "Patent:US3228831",
+        "Patent:US3385886",
+        "Patent:US5215755",
+        "Patent:US6727286",
+        "PMID:11433218",
+        "PMID:12723739",
+        "PMID:14562167",
+        "PMID:15506544",
+        "PMID:16176022",
+        "PMID:18335846",
+        "PMID:18697608",
+        "PMID:21368281",
+        "PMID:24168233",
+        "PMID:25521617",
+        "PMID:25708941",
+        "PMID:25915907",
+        "PMID:29756342",
+        "Reaxys:2049713",
+        "Wikipedia:Ibuprofen"
+    ],
+    "geneontology:hasId": "5855",
+    "geneontology:hasSynonym": [
+        "(+-)-2-(p-isobutylphenyl)propionic acid",
+        "(+-)-alpha-methyl-4-(2-methylpropyl)benzeneacetic acid",
+        "(+-)-ibuprofen",
+        "(+-)-p-isobutylhydratropic acid",
+        "(4-isobutylphenyl)-alpha-methylacetic acid",
+        "(RS)-ibuprofen",
+        "2-(4-isobutylphenyl)propanoic acid",
+        "2-[4-(2-methylpropyl)phenyl]propanoic acid",
+        "4-isobutylhydratropic acid",
+        "Adran",
+        "Advil",
+        "alpha-(4-isobutylphenyl)propionic acid",
+        "alpha-(p-isobutylphenyl)propionic acid",
+        "Amibufen",
+        "Anco",
+        "Anflagen",
+        "Apsifen",
+        "Bluton",
+        "Brufen",
+        "Brufort",
+        "Buburone",
+        "Butylenin",
+        "Dolgin",
+        "Dolgirid",
+        "Dolgit",
+        "Dolo-Dolgit",
+        "Ebufac",
+        "Epobron",
+        "Femadon",
+        "Haltran",
+        "Ibu-Attritin",
+        "Ibumetin",
+        "Ibuprocin",
+        "Ibuprofen",
+        "Ibutid",
+        "Inabrin",
+        "Inoven",
+        "Lamidon",
+        "Lebrufen",
+        "Liptan",
+        "Medipren",
+        "Motrin",
+        "Mynosedin",
+        "Nobfen",
+        "Nobgen",
+        "Nuprin",
+        "Nurofen",
+        "Pediaprofen",
+        "Roidenin",
+        "Rufen",
+        "Seclodin",
+        "Suspren",
+        "Tabalon",
+        "Trendar",
+        "Urem"
+    ],
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#3_STAR"
+    },
+    "rdfs:label": "ibuprofen",
+    "rdfs:subClassOf": [
+        {
+            "@id": "obo:CHEBI_25384"
+        },
+        {
+            "@id": "b449_genid-00f1db82e1ab437c844115a94dc63e635-bn5855tmms73f132922"
+        },
+        {
+            "@id": "b449_genid-00f1db82e1ab437c844115a94dc63e635-bn5855t8f30768"
+        },
+        {
+            "@id": "b449_genid-00f1db82e1ab437c844115a94dc63e635-bn5855t11f35475"
+        },
+        {
+            "@id": "b449_genid-00f1db82e1ab437c844115a94dc63e635-bn5855t11f35481"
+        },
+        {
+            "@id": "b449_genid-00f1db82e1ab437c844115a94dc63e635-bn5855t11f35493"
+        },
+        {
+            "@id": "b449_genid-00f1db82e1ab437c844115a94dc63e635-bn5855t11f35703"
+        },
+        {
+            "@id": "b449_genid-00f1db82e1ab437c844115a94dc63e635-bn5855t11f48578"
+        },
+        {
+            "@id": "b449_genid-00f1db82e1ab437c844115a94dc63e635-bn5855t11f50629"
+        },
+        {
+            "@id": "b449_genid-00f1db82e1ab437c844115a94dc63e635-bn5855t11f50630"
+        },
+        {
+            "@id": "b449_genid-00f1db82e1ab437c844115a94dc63e635-bn5855t11f78298"
+        },
+        {
+            "@id": "b449_genid-00f1db82e1ab437c844115a94dc63e635-bn5855t11f88188"
+        },
+        {
+            "@id": "b449_genid-00f1db82e1ab437c844115a94dc63e635-bn5855t4f132922"
+        },
+        {
+            "@id": "b449_genid-00f1db82e1ab437c844115a94dc63e635-bn5855t11f176497"
+        }
+    ]
+}

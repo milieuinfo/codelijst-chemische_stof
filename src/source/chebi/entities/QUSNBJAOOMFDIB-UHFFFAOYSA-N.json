@@ -1,0 +1,55 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_15862",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "obo:IAO_0000115": "A two-carbon primary aliphatic amine.",
+    "chebi:charge": "0",
+    "chebi:formula": "C2H7N",
+    "chebi:inchi": "InChI=1S/C2H7N/c1-2-3/h2-3H2,1H3",
+    "chebi:inchikey": "QUSNBJAOOMFDIB-UHFFFAOYSA-N",
+    "chebi:smiles": "CCN",
+    "geneontology:hasDbXref": [
+        "PMID:10930630",
+        "Beilstein:505933",
+        "CAS:75-04-7",
+        "Gmelin:897",
+        "HMDB:HMDB0013231",
+        "KEGG:C00797",
+        "MetaCyc:ETHANAMINE",
+        "PDBeChem:NEH",
+        "PMID:11074065",
+        "Reaxys:505933",
+        "Wikipedia:Ethylamine"
+    ],
+    "geneontology:hasId": "15862",
+    "geneontology:hasSynonym": [
+        "1-aminoethane",
+        "aminoethane",
+        "ethanamine",
+        "ETHANAMINE",
+        "Ethylamine"
+    ],
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#3_STAR"
+    },
+    "rdfs:label": "ethylamine",
+    "rdfs:subClassOf": [
+        {
+            "@id": "obo:CHEBI_17062"
+        },
+        {
+            "@id": "b156_genid-00f1db82e1ab437c844115a94dc63e635-bn15862tmms73f566789"
+        },
+        {
+            "@id": "b156_genid-00f1db82e1ab437c844115a94dc63e635-bn15862t11f77746"
+        },
+        {
+            "@id": "b156_genid-00f1db82e1ab437c844115a94dc63e635-bn15862t5f566789"
+        }
+    ]
+}

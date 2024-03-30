@@ -1,0 +1,27 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_82465",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "chebi:charge": "0",
+    "chebi:formula": "C11H20O2",
+    "chebi:inchi": "InChI=1S/C11H20O2/c1-4-7-8-10(5-2)9-13-11(12)6-3/h6,10H,3-5,7-9H2,1-2H3",
+    "chebi:inchikey": "GOXQRTZXKQZDDN-UHFFFAOYSA-N",
+    "chebi:smiles": "CCCCC(CC)COC(=O)C=C",
+    "geneontology:hasDbXref": [
+        "CAS:103-11-7",
+        "KEGG:C19420"
+    ],
+    "geneontology:hasId": "82465",
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#2_STAR"
+    },
+    "rdfs:label": "2-Ethylhexyl acrylate",
+    "rdfs:subClassOf": {
+        "@id": "obo:CHEBI_51702"
+    }
+}

@@ -1,0 +1,29 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_6433",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "chebi:charge": "0",
+    "chebi:formula": "C11H12N2S.HCl",
+    "chebi:inchi": "InChI=1S/C11H12N2S.ClH/c1-2-4-9(5-3-1)10-8-13-6-7-14-11(13)12-10;/h1-5,10H,6-8H2;1H/t10-;/m1./s1",
+    "chebi:inchikey": "LAZPBGZRMVRFKY-HNCPQSOCSA-N",
+    "chebi:smiles": "Cl.C1CN2C[C@@H](N=C2S1)c1ccccc1",
+    "geneontology:hasDbXref": [
+        "CAS:16595-80-5",
+        "KEGG:C07906",
+        "KEGG:D00750"
+    ],
+    "geneontology:hasId": "6433",
+    "geneontology:hasSynonym": "Ergamisol",
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#2_STAR"
+    },
+    "rdfs:label": "Levamisole hydrochloride",
+    "rdfs:subClassOf": {
+        "@id": "obo:CHEBI_50860"
+    }
+}

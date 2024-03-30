@@ -1,0 +1,72 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_6904",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "obo:IAO_0000115": "A propanolamine that is 1-(propan-2-ylamino)propan-2-ol substituted by a  4-(2-methoxyethyl)phenoxy group at position 1.",
+    "chebi:charge": "0",
+    "chebi:formula": "C15H25NO3",
+    "chebi:inchi": "InChI=1S/C15H25NO3/c1-12(2)16-10-14(17)11-19-15-6-4-13(5-7-15)8-9-18-3/h4-7,12,14,16-17H,8-11H2,1-3H3",
+    "chebi:inchikey": "IUBSYMUCCVWXPE-UHFFFAOYSA-N",
+    "chebi:smiles": "COCCc1ccc(OCC(O)CNC(C)C)cc1",
+    "geneontology:hasDbXref": [
+        "CAS:37350-58-6",
+        "CAS:51384-51-1",
+        "Drug_Central:1786",
+        "DrugBank:DB00264",
+        "HMDB:HMDB0001932",
+        "KEGG:C07202",
+        "KEGG:D02358",
+        "LINCS:LSM-1259",
+        "PMID:15140634",
+        "PMID:15797646",
+        "PMID:23314750",
+        "PMID:24025984",
+        "Reaxys:1117585",
+        "Wikipedia:Metoprolol"
+    ],
+    "geneontology:hasId": "6904",
+    "geneontology:hasSynonym": [
+        "(RS)-Metoprolol",
+        "1-(isopropylamino)-3-[4-(2-methoxyethyl)phenoxy]propan-2-ol",
+        "1-[4-(2-methoxyethyl)phenoxy]-3-(propan-2-ylamino)propan-2-ol",
+        "Metoprolol"
+    ],
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#3_STAR"
+    },
+    "rdfs:label": "metoprolol",
+    "rdfs:subClassOf": [
+        {
+            "@id": "obo:CHEBI_35681"
+        },
+        {
+            "@id": "obo:CHEBI_35618"
+        },
+        {
+            "@id": "obo:CHEBI_35533"
+        },
+        {
+            "@id": "obo:CHEBI_50995"
+        },
+        {
+            "@id": "b30_genid-00f1db82e1ab437c844115a94dc63e635-bn6904t11f35530"
+        },
+        {
+            "@id": "b30_genid-00f1db82e1ab437c844115a94dc63e635-bn6904t11f35674"
+        },
+        {
+            "@id": "b30_genid-00f1db82e1ab437c844115a94dc63e635-bn6904t11f35703"
+        },
+        {
+            "@id": "b30_genid-00f1db82e1ab437c844115a94dc63e635-bn6904t11f78298"
+        },
+        {
+            "@id": "b30_genid-00f1db82e1ab437c844115a94dc63e635-bn6904t11f176497"
+        }
+    ]
+}

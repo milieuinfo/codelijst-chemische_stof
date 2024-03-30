@@ -1,0 +1,94 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_18346",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "obo:IAO_0000115": "A member of the class of benzaldehydes carrying methoxy and hydroxy substituents at positions 3 and 4 respectively.",
+    "chebi:charge": "0",
+    "chebi:formula": "C8H8O3",
+    "chebi:inchi": "InChI=1S/C8H8O3/c1-11-8-4-6(5-9)2-3-7(8)10/h2-5,10H,1H3",
+    "chebi:inchikey": "MWOOGOJBHIARFG-UHFFFAOYSA-N",
+    "chebi:smiles": "[H]C(=O)C1=CC(OC)=C(O)C=C1",
+    "http://purl.uniprot.org/core/name": "vanillin",
+    "geneontology:hasDbXref": [
+        "PMID:21417387",
+        "PMID:19812218",
+        "PMID:21542597",
+        "PMID:19238838",
+        "Beilstein:472792",
+        "CAS:121-33-5",
+        "FooDB:FDB000838",
+        "Gmelin:3596",
+        "HMDB:HMDB0012308",
+        "KEGG:C00755",
+        "KEGG:D00091",
+        "KNApSAcK:C00002683",
+        "KNApSAcK:C00029531",
+        "MetaCyc:VANILLIN",
+        "PDBeChem:V55",
+        "PMCID:PMC7790484",
+        "PMCID:PMC8235570",
+        "PMID:18479250",
+        "PMID:21846089",
+        "PMID:22308371",
+        "PMID:29950589",
+        "PMID:31661600",
+        "PMID:33477040",
+        "PMID:33938405",
+        "PMID:34013088",
+        "PMID:34035660",
+        "UM-BBD_compID:c0193",
+        "Wikipedia:Vanillin"
+    ],
+    "geneontology:hasId": "18346",
+    "geneontology:hasSynonym": [
+        "3-methoxy-4-hydroxybenzaldehyde",
+        "4-formyl-2-methoxyphenol",
+        "4-hydroxy-3-methoxybenzaldehyde",
+        "4-Hydroxy-3-methoxybenzaldehyde",
+        "4-Hydroxy-3-methoxy-benzaldehyde",
+        "4-hydroxy-m-anisaldehyde",
+        "methylprotocatechuic aldehyde",
+        "p-hydroxy-m-methoxybenzaldehyde",
+        "p-vanillin",
+        "vaniline",
+        "vanillaldehyde",
+        "Vanillaldehyde",
+        "vanillic aldehyde",
+        "Vanillin"
+    ],
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#3_STAR"
+    },
+    "rdfs:label": "vanillin",
+    "rdfs:subClassOf": [
+        {
+            "@id": "obo:CHEBI_33853"
+        },
+        {
+            "@id": "obo:CHEBI_25235"
+        },
+        {
+            "@id": "obo:CHEBI_22698"
+        },
+        {
+            "@id": "b12_genid-00f1db82e1ab437c844115a94dc63e635-bn18346t11f22586"
+        },
+        {
+            "@id": "b12_genid-00f1db82e1ab437c844115a94dc63e635-bn18346t11f35617"
+        },
+        {
+            "@id": "b12_genid-00f1db82e1ab437c844115a94dc63e635-bn18346t11f35623"
+        },
+        {
+            "@id": "b12_genid-00f1db82e1ab437c844115a94dc63e635-bn18346t11f67079"
+        },
+        {
+            "@id": "b12_genid-00f1db82e1ab437c844115a94dc63e635-bn18346t11f76924"
+        }
+    ]
+}

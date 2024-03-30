@@ -1,0 +1,64 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_9073",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "obo:IAO_0000115": "A member of the class of  barbiturates that is barbituric acid in which the hydrogens at position 5 are substituted by prop-2-en-1-yl and pentan-2-yl groups.",
+    "chebi:charge": "0",
+    "chebi:formula": "C12H18N2O3",
+    "chebi:inchi": "InChI=1S/C12H18N2O3/c1-4-6-8(3)12(7-5-2)9(15)13-11(17)14-10(12)16/h5,8H,2,4,6-7H2,1,3H3,(H2,13,14,15,16,17)",
+    "chebi:inchikey": "KQPKPCNLIDLUMF-UHFFFAOYSA-N",
+    "chebi:smiles": "CCCC(C)C1(CC=C)C(=O)NC(=O)NC1=O",
+    "geneontology:hasDbXref": [
+        "Beilstein:225330",
+        "CAS:76-73-3",
+        "Drug_Central:2428",
+        "DrugBank:DB00418",
+        "Gmelin:283703",
+        "HMDB:HMDB0014562",
+        "KEGG:D00430",
+        "Reaxys:225330",
+        "Wikipedia:Secobarbital"
+    ],
+    "geneontology:hasId": "9073",
+    "geneontology:hasSynonym": [
+        "(+-)-secobarbital",
+        "5-(1-methylbutyl)-5-(2-propenyl)-2,4,6(1H,3H,5H)-pyrimidinetrione",
+        "5-(pentan-2-yl)-5-(prop-2-en-1-yl)-pyrimidine-2,4,6(1H,3H,5H)-trione",
+        "5-allyl-5-(1-methylbutyl)-2,4,6(1H,3H,5H)-pyrimidinetrione",
+        "5-allyl-5-(1-methylbutyl)barbituric acid",
+        "5-allyl-5-(1-methylbutyl)pyrimidine-2,4,6(1H,3H,5H)-trione",
+        "quinalbarbitone",
+        "secobarbitalum",
+        "secobarbitone",
+        "Seconal"
+    ],
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#3_STAR"
+    },
+    "rdfs:label": "secobarbital",
+    "rdfs:subClassOf": [
+        {
+            "@id": "obo:CHEBI_22693"
+        },
+        {
+            "@id": "b292_genid-00f1db82e1ab437c844115a94dc63e635-bn9073t8f16294"
+        },
+        {
+            "@id": "b292_genid-00f1db82e1ab437c844115a94dc63e635-bn9073t11f35717"
+        },
+        {
+            "@id": "b292_genid-00f1db82e1ab437c844115a94dc63e635-bn9073t11f50268"
+        },
+        {
+            "@id": "b292_genid-00f1db82e1ab437c844115a94dc63e635-bn9073t11f60807"
+        },
+        {
+            "@id": "b292_genid-00f1db82e1ab437c844115a94dc63e635-bn9073t4f60810"
+        }
+    ]
+}

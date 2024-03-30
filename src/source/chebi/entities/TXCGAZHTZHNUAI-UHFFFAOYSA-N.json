@@ -1,0 +1,94 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_34648",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "obo:IAO_0000115": "A monocarboxylic acid that is isobutyric acid substituted at position 2 by a p-chlorophenoxy group. It is a metabolite of the drug clofibrate.",
+    "chebi:charge": "0",
+    "chebi:formula": "C10H11ClO3",
+    "chebi:inchi": "InChI=1S/C10H11ClO3/c1-10(2,9(12)13)14-8-5-3-7(11)4-6-8/h3-6H,1-2H3,(H,12,13)",
+    "chebi:inchikey": "TXCGAZHTZHNUAI-UHFFFAOYSA-N",
+    "chebi:smiles": "CC(C)(Oc1ccc(Cl)cc1)C(O)=O",
+    "geneontology:hasDbXref": [
+        "Beilstein:1874067",
+        "CAS:882-09-7",
+        "Drug_Central:695",
+        "KEGG:C13700",
+        "KEGG:D07723",
+        "LINCS:LSM-2427",
+        "Pesticides:clofibric%20acid",
+        "PMID:16442995",
+        "PMID:17431116",
+        "PMID:23062606",
+        "PMID:23135717",
+        "PMID:23352585",
+        "PMID:7320112",
+        "PMID:8944746",
+        "PPDB:2940",
+        "Reaxys:1874067",
+        "Wikipedia:Clofibric_acid"
+    ],
+    "geneontology:hasId": "34648",
+    "geneontology:hasSynonym": [
+        "2-(4-chlorophenoxy)-2-methylpropanoic acid",
+        "2-(4-Chlorophenoxy)-2-methylpropionic acid",
+        "2-(p-Chlorophenoxy)-2-methylpropionic acid",
+        "2-(p-Chlorophenoxy)isobutyric acid",
+        "4-CPIB",
+        "Acide (p-chlorophenoxy)-2 methyl-2 propionique",
+        "acide clofibrique",
+        "acido clofibrico",
+        "acidum clofibricum",
+        "alpha-(4-chlorophenoxy)-alpha-methylpropionic acid",
+        "alpha-(p-chlorophenoxy)isobutyric acid",
+        "Chlorfibrinic acid",
+        "Chlorofibrinic acid",
+        "Chlorophibrinic acid",
+        "Clofibrate free acid",
+        "Clofibric acid",
+        "Clofibrinsaeure",
+        "CPIB",
+        "PCIB",
+        "PCPIB"
+    ],
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#3_STAR"
+    },
+    "rdfs:label": "clofibric acid",
+    "rdfs:subClassOf": [
+        {
+            "@id": "obo:CHEBI_35618"
+        },
+        {
+            "@id": "obo:CHEBI_25384"
+        },
+        {
+            "@id": "obo:CHEBI_83403"
+        },
+        {
+            "@id": "b246_genid-00f1db82e1ab437c844115a94dc63e635-bn34648t8f16135"
+        },
+        {
+            "@id": "b246_genid-00f1db82e1ab437c844115a94dc63e635-bn34648t11f24527"
+        },
+        {
+            "@id": "b246_genid-00f1db82e1ab437c844115a94dc63e635-bn34648t11f35610"
+        },
+        {
+            "@id": "b246_genid-00f1db82e1ab437c844115a94dc63e635-bn34648t11f35679"
+        },
+        {
+            "@id": "b246_genid-00f1db82e1ab437c844115a94dc63e635-bn34648t11f35821"
+        },
+        {
+            "@id": "b246_genid-00f1db82e1ab437c844115a94dc63e635-bn34648t11f70782"
+        },
+        {
+            "@id": "b246_genid-00f1db82e1ab437c844115a94dc63e635-bn34648t11f83399"
+        }
+    ]
+}

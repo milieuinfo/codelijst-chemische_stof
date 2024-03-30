@@ -1,0 +1,53 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_63956",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "obo:IAO_0000115": "A benzamide obtained by formal condensation of the carboxy group of 2,6-dimethoxybenzoic acid and the amino group of 3-(3-methylpentan-3-yl)-1,2-oxazol-5-amine.",
+    "chebi:charge": "0",
+    "chebi:formula": "C18H24N2O4",
+    "chebi:inchi": "InChI=1S/C18H24N2O4/c1-6-18(3,7-2)14-11-15(24-20-14)19-17(21)16-12(22-4)9-8-10-13(16)23-5/h8-11H,6-7H2,1-5H3,(H,19,21)",
+    "chebi:inchikey": "PMHURSZHKKJGBM-UHFFFAOYSA-N",
+    "chebi:smiles": "CCC(C)(CC)c1cc(NC(=O)c2c(OC)cccc2OC)on1",
+    "geneontology:hasDbXref": [
+        "AGR:IND44386841",
+        "CAS:82558-50-7",
+        "KEGG:C18504",
+        "PMID:18413279",
+        "PMID:18485800",
+        "PMID:19103453",
+        "PMID:19198845",
+        "PMID:19269997",
+        "PMID:21421394",
+        "PPDB:411",
+        "Reaxys:6612136"
+    ],
+    "geneontology:hasId": "63956",
+    "geneontology:hasSynonym": [
+        "2,6-Dimethoxy-N-(3-(1-ethyl-1-methylpropyl)-5-isoxazolyl)benzamide",
+        "2,6-dimethoxy-N-[3-(3-methylpentan-3-yl)-1,2-oxazol-5-yl]benzamide",
+        "N-(3-(1-Ethyl-1-methylpropyl)-5-isoxazolyl)-2,6-dimethoxybenzamide"
+    ],
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#3_STAR"
+    },
+    "rdfs:label": "isoxaben",
+    "rdfs:subClassOf": [
+        {
+            "@id": "obo:CHEBI_22702"
+        },
+        {
+            "@id": "obo:CHEBI_55373"
+        },
+        {
+            "@id": "b111_genid-00f1db82e1ab437c844115a94dc63e635-bn63956t11f24527"
+        },
+        {
+            "@id": "b111_genid-00f1db82e1ab437c844115a94dc63e635-bn63956t11f63958"
+        }
+    ]
+}

@@ -1,0 +1,69 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_41237",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "obo:IAO_0000115": "A benzoate ester obtained by the formal condensation of benzoic acid with benzyl alcohol. It has been isolated from the plant species of the genus Polyalthia.",
+    "chebi:charge": "0",
+    "chebi:formula": "C14H12O2",
+    "chebi:inchi": "InChI=1S/C14H12O2/c15-14(13-9-5-2-6-10-13)16-11-12-7-3-1-4-8-12/h1-10H,11H2",
+    "chebi:inchikey": "SESFRYSPDFLNCH-UHFFFAOYSA-N",
+    "chebi:smiles": "O=C(OCc1ccccc1)c1ccccc1",
+    "http://purl.uniprot.org/core/name": "benzyl benzoate",
+    "geneontology:hasDbXref": [
+        "PMID:18247142",
+        "Beilstein:2049280",
+        "CAS:120-51-4",
+        "Drug_Central:335",
+        "DrugBank:DB00676",
+        "Gmelin:261816",
+        "HMDB:HMDB0014814",
+        "KEGG:D01138",
+        "MetaCyc:CPD-6443",
+        "PDBeChem:BZM",
+        "PMID:19681271",
+        "PMID:24146308",
+        "PMID:24520907",
+        "PMID:24761672",
+        "PPDB:1473",
+        "Reaxys:2049280",
+        "VSDB:1473",
+        "Wikipedia:Benzyl_Benzoate"
+    ],
+    "geneontology:hasId": "41237",
+    "geneontology:hasSynonym": [
+        "Benylate",
+        "benzoic acid, benzyl ester",
+        "benzoic acid, phenylmethyl ester",
+        "BENZOIC ACID PHENYLMETHYLESTER",
+        "phenylmethyl benzoate"
+    ],
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#3_STAR"
+    },
+    "rdfs:label": "benzyl benzoate",
+    "rdfs:subClassOf": [
+        {
+            "@id": "obo:CHEBI_90628"
+        },
+        {
+            "@id": "obo:CHEBI_36054"
+        },
+        {
+            "@id": "b329_genid-00f1db82e1ab437c844115a94dc63e635-bn41237t11f22153"
+        },
+        {
+            "@id": "b329_genid-00f1db82e1ab437c844115a94dc63e635-bn41237t8f30746"
+        },
+        {
+            "@id": "b329_genid-00f1db82e1ab437c844115a94dc63e635-bn41237t11f73333"
+        },
+        {
+            "@id": "b329_genid-00f1db82e1ab437c844115a94dc63e635-bn41237t11f76924"
+        }
+    ]
+}

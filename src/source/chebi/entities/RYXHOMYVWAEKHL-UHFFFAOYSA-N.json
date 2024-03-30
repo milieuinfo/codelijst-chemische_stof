@@ -1,0 +1,65 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@graph": [
+        {
+            "@id": "obo:CHEBI_30415",
+            "@type": "http://www.w3.org/2002/07/owl#Class",
+            "chebi:charge": "0",
+            "chebi:formula": "At",
+            "chebi:inchi": "InChI=1S/At",
+            "chebi:inchikey": "RYXHOMYVWAEKHL-UHFFFAOYSA-N",
+            "chebi:smiles": "[At]",
+            "geneontology:hasDbXref": [
+                "CAS:7440-68-8",
+                "Gmelin:40440",
+                "WebElements:At"
+            ],
+            "geneontology:hasId": "30415",
+            "geneontology:hasSynonym": [
+                "At",
+                "85At",
+                "Astat",
+                "astate",
+                "astatine",
+                "astato"
+            ],
+            "geneontology:inSubset": {
+                "@id": "obo:chebi#3_STAR"
+            },
+            "rdfs:label": "astatine atom",
+            "rdfs:subClassOf": {
+                "@id": "obo:CHEBI_24473"
+            }
+        },
+        {
+            "@id": "obo:CHEBI_30416",
+            "@type": "http://www.w3.org/2002/07/owl#Class",
+            "chebi:charge": "0",
+            "chebi:formula": "At",
+            "chebi:inchi": "InChI=1S/At",
+            "chebi:inchikey": "RYXHOMYVWAEKHL-UHFFFAOYSA-N",
+            "chebi:smiles": "[At]",
+            "geneontology:hasDbXref": [
+                "CAS:7440-68-8",
+                "Gmelin:40440"
+            ],
+            "geneontology:hasId": "30416",
+            "geneontology:hasSynonym": [
+                "At(.)",
+                "monoastatine"
+            ],
+            "geneontology:inSubset": {
+                "@id": "obo:chebi#3_STAR"
+            },
+            "rdfs:label": "astatine(.)",
+            "rdfs:subClassOf": {
+                "@id": "obo:CHEBI_37139"
+            }
+        }
+    ]
+}

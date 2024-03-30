@@ -1,0 +1,40 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_87755",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "obo:IAO_0000115": "A pentanone that is pentane carrying an oxo group at position 3. It has been isolated from  Triatoma brasiliensis and Triatoma infestans.",
+    "chebi:charge": "0",
+    "chebi:formula": "C5H10O",
+    "chebi:inchi": "InChI=1S/C5H10O/c1-3-5(6)4-2/h3-4H2,1-2H3",
+    "chebi:inchikey": "FDPIMTJIUBPUKL-UHFFFAOYSA-N",
+    "chebi:smiles": "C(CC)(CC)=O",
+    "http://purl.uniprot.org/core/name": "pentan-3-one",
+    "geneontology:hasDbXref": [
+        "PMID:21486009",
+        "CAS:96-22-0",
+        "Reaxys:635749",
+        "Wikipedia:3-Pentanone"
+    ],
+    "geneontology:hasId": "87755",
+    "geneontology:hasSynonym": [
+        "diethyl ketone",
+        "Ethyl propionyl"
+    ],
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#3_STAR"
+    },
+    "rdfs:label": "pentan-3-one",
+    "rdfs:subClassOf": [
+        {
+            "@id": "obo:CHEBI_25892"
+        },
+        {
+            "@id": "b170_genid-00f1db82e1ab437c844115a94dc63e635-bn87755t11f75767"
+        }
+    ]
+}

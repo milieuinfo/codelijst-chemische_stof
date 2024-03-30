@@ -1,0 +1,40 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_137937",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "obo:IAO_0000115": "An ethyl ester resulting from the formal condensation of the carboxy group of 2-{4-[(6-chloroquinoxalin-2-yl)oxy]phenoxy}propanoic acid with ethanol.",
+    "chebi:charge": "0",
+    "chebi:formula": "C19H17ClN2O4",
+    "chebi:inchi": "InChI=1S/C19H17ClN2O4/c1-3-24-19(23)12(2)25-14-5-7-15(8-6-14)26-18-11-21-17-10-13(20)4-9-16(17)22-18/h4-12H,3H2,1-2H3",
+    "chebi:inchikey": "OSUHJPCHFDQAIT-UHFFFAOYSA-N",
+    "chebi:smiles": "C1=C(N=C2C(=N1)C=C(C=C2)Cl)OC3=CC=C(C=C3)OC(C(OCC)=O)C",
+    "geneontology:hasDbXref": "PPDB:582",
+    "geneontology:hasId": "137937",
+    "geneontology:hasSynonym": "ethyl 2-{4-[(6-chloroquinoxalin-2-yl)oxy]phenoxy}propionate",
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#3_STAR"
+    },
+    "rdfs:label": "ethyl 2-{4-[(6-chloroquinoxalin-2-yl)oxy]phenoxy}propanoate",
+    "rdfs:subClassOf": [
+        {
+            "@id": "obo:CHEBI_35618"
+        },
+        {
+            "@id": "obo:CHEBI_23990"
+        },
+        {
+            "@id": "obo:CHEBI_36683"
+        },
+        {
+            "@id": "obo:CHEBI_38771"
+        },
+        {
+            "@id": "b28_genid-00f1db82e1ab437c844115a94dc63e635-bn137937t8f137509"
+        }
+    ]
+}

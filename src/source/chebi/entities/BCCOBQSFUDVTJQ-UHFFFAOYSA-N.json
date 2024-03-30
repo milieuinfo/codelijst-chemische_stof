@@ -1,0 +1,58 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_31007",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "obo:IAO_0000115": "A fluorocarbon that is cyclobutane in which all eight hydrogens are replaced by fluorines.",
+    "chebi:charge": "0",
+    "chebi:formula": "C4F8",
+    "chebi:inchi": "InChI=1S/C4F8/c5-1(6)2(7,8)4(11,12)3(1,9)10",
+    "chebi:inchikey": "BCCOBQSFUDVTJQ-UHFFFAOYSA-N",
+    "chebi:smiles": "FC1(F)C(F)(F)C(F)(F)C1(F)F",
+    "geneontology:hasDbXref": [
+        "Beilstein:1909266",
+        "CAS:115-25-3",
+        "Gmelin:131113",
+        "HMDB:HMDB0031292",
+        "PMID:4729778",
+        "PMID:806278",
+        "Reaxys:1909266",
+        "Wikipedia:Octafluorocyclobutane"
+    ],
+    "geneontology:hasId": "31007",
+    "geneontology:hasSynonym": [
+        "1,1,2,2,3,3,4,4-octafluorocyclobutane",
+        "E946",
+        "E 946",
+        "E-946",
+        "Freon 318",
+        "Freon C 318",
+        "Freon C-318",
+        "perfluorocyclobutane"
+    ],
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#3_STAR"
+    },
+    "rdfs:label": "octafluorocyclobutane",
+    "rdfs:subClassOf": [
+        {
+            "@id": "obo:CHEBI_156473"
+        },
+        {
+            "@id": "b257_genid-00f1db82e1ab437c844115a94dc63e635-bn31007t9f30377"
+        },
+        {
+            "@id": "obo:CHEBI_38824"
+        },
+        {
+            "@id": "b257_genid-00f1db82e1ab437c844115a94dc63e635-bn31007t11f77974"
+        },
+        {
+            "@id": "b257_genid-00f1db82e1ab437c844115a94dc63e635-bn31007t11f78017"
+        }
+    ]
+}

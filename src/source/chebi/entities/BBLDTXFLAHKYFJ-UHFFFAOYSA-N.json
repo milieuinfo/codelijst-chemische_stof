@@ -1,0 +1,28 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_210533",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "chebi:charge": "0",
+    "chebi:formula": "C8H16O",
+    "chebi:inchi": "InChI=1S/C8H16O/c1-7(2)5-6-8(3,4)9-7/h5-6H2,1-4H3",
+    "chebi:inchikey": "BBLDTXFLAHKYFJ-UHFFFAOYSA-N",
+    "chebi:smiles": "O1C(CCC1(C)C)(C)C",
+    "geneontology:hasDbXref": [
+        "Chemspider:25151",
+        "KEGG:D92900"
+    ],
+    "geneontology:hasId": "210533",
+    "geneontology:hasSynonym": "2,2,5,5-tetramethyloxolane",
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#2_STAR"
+    },
+    "rdfs:label": "2,2,5,5-Tetramethyltetrahydrofuran",
+    "rdfs:subClassOf": {
+        "@id": "obo:CHEBI_26912"
+    }
+}

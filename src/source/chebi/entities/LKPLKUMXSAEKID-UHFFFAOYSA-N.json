@@ -1,0 +1,84 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_34908",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "obo:IAO_0000115": "A C-nitro compound that is nitrobenzene in which every hydrogen has been replaced by a chlorine. A fungicide used on a variety of crops, including cotton, rice and seed grains, it is no longer approved for use within the European Union.",
+    "chebi:charge": "0",
+    "chebi:formula": "C6Cl5NO2",
+    "chebi:inchi": "InChI=1S/C6Cl5NO2/c7-1-2(8)4(10)6(12(13)14)5(11)3(1)9",
+    "chebi:inchikey": "LKPLKUMXSAEKID-UHFFFAOYSA-N",
+    "chebi:smiles": "[O-][N+](=O)c1c(Cl)c(Cl)c(Cl)c(Cl)c1Cl",
+    "geneontology:hasDbXref": [
+        "PMID:19298997",
+        "AGR:IND86085618",
+        "CAS:82-68-8",
+        "KEGG:C14338",
+        "Patent:US7629159",
+        "Pesticides:quintozene",
+        "PMID:18294675",
+        "PMID:19429557",
+        "PMID:19959285",
+        "PMID:20022079",
+        "PMID:20131084",
+        "PMID:20560598",
+        "PMID:22074892",
+        "PMID:22112041",
+        "PMID:23454455",
+        "PMID:23474338",
+        "PMID:3311683",
+        "PMID:7027636",
+        "PMID:7445521",
+        "PPDB:581",
+        "Reaxys:1914324",
+        "Wikipedia:Pentachloronitrobenzene"
+    ],
+    "geneontology:hasId": "34908",
+    "geneontology:hasSynonym": [
+        "1,2,3,4,5-pentachloro-6-nitrobenzene",
+        "2,3,4,5,6-pentachloronitrobenzene",
+        "Avicol",
+        "Batrilex",
+        "Botrilex",
+        "Brassicol",
+        "Earthcide",
+        "Fartox",
+        "Folosan",
+        "Fungiclor",
+        "nitropentachlorobenzene",
+        "PCNB",
+        "pentachlornitrobenzol",
+        "Pentachlornitrobenzol",
+        "Pentachloronitrobenzene",
+        "Pentagen",
+        "Phomasan",
+        "PKhNC",
+        "Quintozene",
+        "Terrachlor",
+        "Terraclor",
+        "Terrafun",
+        "Tilcarex"
+    ],
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#3_STAR"
+    },
+    "rdfs:label": "pentachloronitrobenzene",
+    "rdfs:subClassOf": [
+        {
+            "@id": "obo:CHEBI_35716"
+        },
+        {
+            "@id": "obo:CHEBI_87034"
+        },
+        {
+            "@id": "obo:CHEBI_83390"
+        },
+        {
+            "@id": "b411_genid-00f1db82e1ab437c844115a94dc63e635-bn34908t11f86328"
+        }
+    ]
+}

@@ -1,0 +1,69 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_34520",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "obo:IAO_0000115": "A  phosphoramide that is  methamidophos in which one of the hydrogens is replaced by an acetyl group.",
+    "chebi:charge": "0",
+    "chebi:formula": "C4H10NO3PS",
+    "chebi:inchi": "InChI=1S/C4H10NO3PS/c1-4(6)5-9(7,8-2)10-3/h1-3H3,(H,5,6,7)",
+    "chebi:inchikey": "YASYVMFAVPKPKE-UHFFFAOYSA-N",
+    "chebi:smiles": "COP(=O)(NC(C)=O)SC",
+    "geneontology:hasDbXref": [
+        "Beilstein:1936365",
+        "CAS:30560-19-1",
+        "KEGG:C14426",
+        "Patent:CN102989760",
+        "Patent:CN102993230",
+        "PMID:16526463",
+        "PMID:24001830",
+        "PMID:24138465",
+        "PPDB:9",
+        "Reaxys:1936365",
+        "Wikipedia:Acephate"
+    ],
+    "geneontology:hasId": "34520",
+    "geneontology:hasSynonym": [
+        "Acephate",
+        "Acetamidophos",
+        "Acetylphosphoramidothioic acid O,S-dimethyl ester",
+        "N-(Methoxy(methylthio)phosphinoyl)acetamide",
+        "O,S-dimethyl acetylamidothiophosphate",
+        "O,S-Dimethylacetylphosphoroamidothioate",
+        "O,S-dimethyl acetylphosphoroamidothioate"
+    ],
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#3_STAR"
+    },
+    "rdfs:label": "acephate",
+    "rdfs:subClassOf": [
+        {
+            "@id": "obo:CHEBI_17102"
+        },
+        {
+            "@id": "obo:CHEBI_37512"
+        },
+        {
+            "@id": "obo:CHEBI_25715"
+        },
+        {
+            "@id": "obo:CHEBI_37716"
+        },
+        {
+            "@id": "b52_genid-00f1db82e1ab437c844115a94dc63e635-bn34520t11f22153"
+        },
+        {
+            "@id": "b52_genid-00f1db82e1ab437c844115a94dc63e635-bn34520t11f33286"
+        },
+        {
+            "@id": "b52_genid-00f1db82e1ab437c844115a94dc63e635-bn34520t11f38462"
+        },
+        {
+            "@id": "b52_genid-00f1db82e1ab437c844115a94dc63e635-bn34520t8f38721"
+        }
+    ]
+}

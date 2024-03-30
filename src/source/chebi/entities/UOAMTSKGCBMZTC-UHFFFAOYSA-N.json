@@ -1,0 +1,56 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_34692",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "obo:IAO_0000115": "A tertiary alcohol that is DDT in which the benzylic hydrogen has been replaced by a hydroxy group.",
+    "chebi:charge": "0",
+    "chebi:formula": "C14H9Cl5O",
+    "chebi:inchi": "InChI=1S/C14H9Cl5O/c15-11-5-1-9(2-6-11)13(20,14(17,18)19)10-3-7-12(16)8-4-10/h1-8,20H",
+    "chebi:inchikey": "UOAMTSKGCBMZTC-UHFFFAOYSA-N",
+    "chebi:smiles": "OC(c1ccc(Cl)cc1)(c1ccc(Cl)cc1)C(Cl)(Cl)Cl",
+    "geneontology:hasDbXref": [
+        "Beilstein:1886299",
+        "CAS:115-32-2",
+        "KEGG:C14301",
+        "PPDB:223"
+    ],
+    "geneontology:hasId": "34692",
+    "geneontology:hasSynonym": [
+        "1,1-bis(4-chlorophenyl)-2,2,2-trichloroethanol",
+        "1,1-bis(p-chlorophenyl)-2,2,2-trichloroethanol",
+        "2,2,2-trichloro-1,1-bis(4-chlorophenyl)ethanol",
+        "2,2,2-trichloro-1,1-bis(p-chlorophenyl)ethanol",
+        "4,4'-dichloro-alpha-(trichloromethyl)benzhydrol",
+        "4-chloro-alpha-(4-chlorophenyl)-alpha-(trichloromethyl)benzenemethanol",
+        "Acarin",
+        "di-(p-chlorophenyl)trichloromethylcarbinol",
+        "Dicofol",
+        "DTMC",
+        "Kelthane",
+        "Mitigan",
+        "p,p-dicofol"
+    ],
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#3_STAR"
+    },
+    "rdfs:label": "dicofol",
+    "rdfs:subClassOf": [
+        {
+            "@id": "obo:CHEBI_26878"
+        },
+        {
+            "@id": "obo:CHEBI_83403"
+        },
+        {
+            "@id": "obo:CHEBI_38657"
+        },
+        {
+            "@id": "b0_genid-00f1db82e1ab437c844115a94dc63e635-bn34692t8f16130"
+        }
+    ]
+}

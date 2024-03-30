@@ -1,0 +1,80 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_33216",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "obo:IAO_0000115": "A bisphenol that is 4,4'-methanediyldiphenol in which the methylene hydrogens are replaced by two methyl groups.",
+    "chebi:charge": "0",
+    "chebi:formula": "C15H16O2",
+    "chebi:inchi": "InChI=1S/C15H16O2/c1-15(2,11-3-7-13(16)8-4-11)12-5-9-14(17)10-6-12/h3-10,16-17H,1-2H3",
+    "chebi:inchikey": "IISBACLAFKSPIT-UHFFFAOYSA-N",
+    "chebi:smiles": "CC(C)(C1=CC=C(O)C=C1)C1=CC=C(O)C=C1",
+    "http://purl.uniprot.org/core/name": "bisphenol A",
+    "geneontology:hasDbXref": [
+        "PMID:25042713",
+        "CAS:80-05-7",
+        "DrugBank:DB06973",
+        "HMDB:HMDB0032133",
+        "KEGG:C13624",
+        "LINCS:LSM-37080",
+        "PDBeChem:2OH",
+        "PMID:10593191",
+        "PMID:11361040",
+        "PMID:12860292",
+        "PMID:15936980",
+        "PMID:16904728",
+        "PMID:24471646",
+        "PMID:25148994",
+        "PMID:25524584",
+        "PMID:25569640",
+        "PMID:25637671",
+        "PMID:25663485",
+        "Reaxys:1107700",
+        "UM-BBD_compID:c0764",
+        "Wikipedia:Bisphenol_A"
+    ],
+    "geneontology:hasId": "33216",
+    "geneontology:hasSynonym": [
+        "2,2-Bis(4'-hydroxyphenyl)propane",
+        "2,2-Bis(4-Hydroxyphenyl)propane",
+        "2, 2-Bis(4-hydroxyphenyl)propane",
+        "2,2-Bis(p-hydroxyphenyl)propane",
+        "2,2-Di(4-hydroxyphenyl)propane",
+        "2,2-Di(4-phenylol)propane",
+        "4,4'-(1-Methylethane-1,1-diyl)diphenol",
+        "4,4'-(1-Methylethylidene)bisphenol",
+        "4,4'-(propane-2,2-diyl)diphenol",
+        "4,4'-(Propane-2,2-diyl)diphenol",
+        "4,4'-Bisphenol A",
+        "4,4'-Isopropylidenediphenol",
+        "Bisphenol A",
+        "bisphenol-A",
+        "BPA",
+        "Dianin's compound"
+    ],
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#3_STAR"
+    },
+    "rdfs:label": "bisphenol A",
+    "rdfs:subClassOf": [
+        {
+            "@id": "obo:CHEBI_22901"
+        },
+        {
+            "@id": "b615_genid-00f1db82e1ab437c844115a94dc63e635-bn33216t11f35703"
+        },
+        {
+            "@id": "b615_genid-00f1db82e1ab437c844115a94dc63e635-bn33216t11f76988"
+        },
+        {
+            "@id": "b615_genid-00f1db82e1ab437c844115a94dc63e635-bn33216t11f78298"
+        },
+        {
+            "@id": "b615_genid-00f1db82e1ab437c844115a94dc63e635-bn33216t11f138015"
+        }
+    ]
+}

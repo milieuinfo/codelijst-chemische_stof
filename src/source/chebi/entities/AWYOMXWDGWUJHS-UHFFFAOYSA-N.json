@@ -1,0 +1,47 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_38951",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "chebi:charge": "0",
+    "chebi:formula": "C13H23N2O3PS",
+    "chebi:inchi": "InChI=1S/C13H23N2O3PS/c1-7-16-19(20,17-10(2)3)18-11-8-14-12(15-9-11)13(4,5)6/h8-10H,7H2,1-6H3",
+    "chebi:inchikey": "AWYOMXWDGWUJHS-UHFFFAOYSA-N",
+    "chebi:smiles": "CCOP(=S)(OC(C)C)Oc1cnc(nc1)C(C)(C)C",
+    "geneontology:hasDbXref": [
+        "CAS:96182-53-5",
+        "KEGG:C18692",
+        "PPDB:1572"
+    ],
+    "geneontology:hasId": "38951",
+    "geneontology:hasSynonym": [
+        "O-(2-(1,1-Dimethylethyl)-5-pyrimidinyl) O-ethyl O-(1-methylethyl) phosphorothioate",
+        "O-(2-tert-butylpyrimidin-5-yl) O-ethyl O-(propan-2-yl) phosphorothioate",
+        "O-(2-tert-butylpyrimidin-5-yl) O-ethyl O-isopropyl thiophosphate",
+        "Phosphorothioic acid, O-(2-(1,1-dimethylethyl)-5-pyrimidinyl) O-ethyl O-(1-methylethyl) ester",
+        "Phostebupirim",
+        "Tebupirimphos"
+    ],
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#3_STAR"
+    },
+    "rdfs:label": "tebupirimfos",
+    "rdfs:subClassOf": [
+        {
+            "@id": "obo:CHEBI_37512"
+        },
+        {
+            "@id": "obo:CHEBI_25715"
+        },
+        {
+            "@id": "b84_genid-00f1db82e1ab437c844115a94dc63e635-bn38951t11f38462"
+        },
+        {
+            "@id": "b84_genid-00f1db82e1ab437c844115a94dc63e635-bn38951t8f38952"
+        }
+    ]
+}

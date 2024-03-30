@@ -1,0 +1,55 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_41607",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "obo:IAO_0000115": "An enal consisting of propene having a formyl group at the 1-position.",
+    "chebi:charge": "0",
+    "chebi:formula": "C4H6O",
+    "chebi:inchi": "InChI=1S/C4H6O/c1-2-3-4-5/h2-4H,1H3/b3-2+",
+    "chebi:inchikey": "MLUCVPSAIODCQM-NSCUHMNNSA-N",
+    "chebi:smiles": "[H]C(=O)\\C=C\\C",
+    "http://purl.uniprot.org/core/name": "(2E)-but-2-enal",
+    "geneontology:hasDbXref": [
+        "PMID:20736172",
+        "CAS:123-73-9",
+        "CAS:4170-30-3",
+        "KEGG:C19377",
+        "PDBeChem:CRD",
+        "PMID:20153411",
+        "PMID:20672270",
+        "PMID:21238556",
+        "PMID:21306579",
+        "Reaxys:1209254"
+    ],
+    "geneontology:hasId": "41607",
+    "geneontology:hasSynonym": [
+        "(2E)-but-2-enal",
+        "(2E)-BUT-2-ENAL",
+        "(E)-crotonaldehyde",
+        "1-formylpropene",
+        "2-Butenal",
+        "aldehyde crotonique",
+        "beta-methylacrolein",
+        "crotonal",
+        "crotonic aldehyde",
+        "crotylaldehyde",
+        "methylpropenal",
+        "propylene aldehyde",
+        "trans-2-butenal",
+        "trans-2-butenaldehyde",
+        "trans-but-2-enal",
+        "trans-crotonaldehyde"
+    ],
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#3_STAR"
+    },
+    "rdfs:label": "crotonaldehyde",
+    "rdfs:subClassOf": {
+        "@id": "obo:CHEBI_51688"
+    }
+}

@@ -1,0 +1,37 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_167398",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "chebi:charge": "0",
+    "chebi:formula": "C15H24",
+    "chebi:inchi": "InChI=1S/C15H24/c1-10-6-5-7-11-8-9-12-13(14(12,2)3)15(10,11)4/h7,10,12-13H,5-6,8-9H2,1-4H3",
+    "chebi:inchikey": "MBIPADCEHSKJDQ-UHFFFAOYSA-N",
+    "chebi:smiles": "C12C(C1CCC=3C2(C(CCC3)C)C)(C)C",
+    "http://purl.uniprot.org/core/name": "calarene",
+    "geneontology:hasDbXref": [
+        "CAS:17334-55-3",
+        "Chemspider:26497"
+    ],
+    "geneontology:hasId": "167398",
+    "geneontology:hasSynonym": [
+        "calarene",
+        "1,1,7,7a-tetramethyl-2,3,5,6,7,7b-hexahydro-1aH-cyclopropa[a]naphthalene"
+    ],
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#2_STAR"
+    },
+    "rdfs:label": "1(10)-Aristolene",
+    "rdfs:subClassOf": [
+        {
+            "@id": "obo:CHEBI_26658"
+        },
+        {
+            "@id": "b490_genid-00f1db82e1ab437c844115a94dc63e635-bn167398t9f35784"
+        }
+    ]
+}

@@ -1,0 +1,114 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_17076",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "obo:IAO_0000115": "A amino cyclitol glycoside that consists of streptidine having a disaccharyl moiety attached at the 4-position. The parent of the streptomycin class",
+    "chebi:charge": "0",
+    "chebi:formula": "C21H39N7O12",
+    "chebi:inchi": "InChI=1S/C21H39N7O12/c1-5-21(36,4-30)16(40-17-9(26-2)13(34)10(31)6(3-29)38-17)18(37-5)39-15-8(28-20(24)25)11(32)7(27-19(22)23)12(33)14(15)35/h4-18,26,29,31-36H,3H2,1-2H3,(H4,22,23,27)(H4,24,25,28)/t5-,6-,7+,8-,9-,10-,11+,12-,13-,14+,15+,16-,17-,18-,21+/m0/s1",
+    "chebi:inchikey": "UCSJYZPVAKXKNQ-HZYVHMACSA-N",
+    "chebi:smiles": "CN[C@H]1[C@H](O)[C@@H](O)[C@H](CO)O[C@H]1O[C@H]1[C@@H](O[C@@H](C)[C@]1(O)C=O)O[C@H]1[C@H](O)[C@@H](O)[C@H](NC(N)=N)[C@@H](O)[C@@H]1NC(N)=N",
+    "geneontology:hasDbXref": [
+        "Beilstein:74498",
+        "CAS:57-92-1",
+        "Drug_Central:2481",
+        "DrugBank:DB01082",
+        "HMDB:HMDB0015214",
+        "KEGG:C00413",
+        "KEGG:D08531",
+        "MetaCyc:STREPTOMYCIN",
+        "PDBeChem:SRY",
+        "Pesticides:streptomycin",
+        "PMID:11228320",
+        "PMID:11905029",
+        "PMID:12118520",
+        "PMID:13030054",
+        "PMID:13116094",
+        "PMID:13136149",
+        "PMID:13596285",
+        "PMID:13691614",
+        "PMID:13985260",
+        "PMID:13990247",
+        "PMID:14623118",
+        "PMID:14828344",
+        "PMID:14852338",
+        "PMID:14939639",
+        "PMID:15081082",
+        "PMID:15137533",
+        "PMID:15207172",
+        "PMID:15686853",
+        "PMID:15736038",
+        "PMID:16904706",
+        "PMID:17105735",
+        "PMID:17238915",
+        "PMID:17429930",
+        "PMID:18173084",
+        "PMID:18916143",
+        "PMID:19052412",
+        "PMID:19335957",
+        "PMID:21350946",
+        "PMID:21362244",
+        "PMID:21593257",
+        "PMID:21937264",
+        "PMID:22101040",
+        "Reaxys:74498",
+        "Wikipedia:Streptomycin"
+    ],
+    "geneontology:hasId": "17076",
+    "geneontology:hasSynonym": [
+        "Kantrex",
+        "[2-deoxy-2-(dimethylamino)-alpha-L-glucopyranosyl]-(1->2)-[5-deoxy-3-C-formyl-alpha-L-lyxofuranosyl]-(1->4)-{N',N'''-[(1,3,5/2,4,6)-2,4,5,6-tetrahydroxycyclohexane-1,3-diyl]diguanidine}",
+        "2,4-Diguanidino-3,5,6-trihydroxycyclohexyl 5-deoxy-2-O-(2-deoxy-2-methylamino-alpha-L-glucopyranosyl)-3-C-formyl-beta-L-lyxopentanofuranoside",
+        "N,N'''-[(1R,2R,3S,4R,5R,6S)-4-{5-deoxy-2-O-[2-deoxy-2-(methylamino)-alpha-L-glucopyranosyl]-3-C-formyl-alpha-L-lyxofuranosyloxy}-2,5,6-trihydroxycyclohexane-1,3-diyl]diguanidine",
+        "SM",
+        "streomycin",
+        "STREPTOMYCIN"
+    ],
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#3_STAR"
+    },
+    "rdfs:label": "streptomycin",
+    "rdfs:subClassOf": [
+        {
+            "@id": "obo:CHEBI_87113"
+        },
+        {
+            "@id": "obo:CHEBI_26788"
+        },
+        {
+            "@id": "b302_genid-00f1db82e1ab437c844115a94dc63e635-bn17076tmms73f58007"
+        },
+        {
+            "@id": "b302_genid-00f1db82e1ab437c844115a94dc63e635-bn17076t8f27405"
+        },
+        {
+            "@id": "b302_genid-00f1db82e1ab437c844115a94dc63e635-bn17076t11f33281"
+        },
+        {
+            "@id": "b302_genid-00f1db82e1ab437c844115a94dc63e635-bn17076t11f36043"
+        },
+        {
+            "@id": "b302_genid-00f1db82e1ab437c844115a94dc63e635-bn17076t11f36047"
+        },
+        {
+            "@id": "b302_genid-00f1db82e1ab437c844115a94dc63e635-bn17076t11f48001"
+        },
+        {
+            "@id": "b302_genid-00f1db82e1ab437c844115a94dc63e635-bn17076t5f58007"
+        },
+        {
+            "@id": "b302_genid-00f1db82e1ab437c844115a94dc63e635-bn17076t11f76969"
+        },
+        {
+            "@id": "b302_genid-00f1db82e1ab437c844115a94dc63e635-bn17076t11f86328"
+        },
+        {
+            "@id": "obo:CHEBI_87114"
+        }
+    ]
+}

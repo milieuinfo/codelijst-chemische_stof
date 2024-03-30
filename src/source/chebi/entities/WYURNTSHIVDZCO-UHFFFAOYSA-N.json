@@ -1,0 +1,63 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_26911",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "obo:IAO_0000115": "A cyclic ether that is butane in which one hydrogen from each methyl group is substituted by an oxygen.",
+    "chebi:charge": "0",
+    "chebi:formula": "C4H8O",
+    "chebi:inchi": "InChI=1S/C4H8O/c1-2-4-5-3-1/h1-4H2",
+    "chebi:inchikey": "WYURNTSHIVDZCO-UHFFFAOYSA-N",
+    "chebi:smiles": "C1CCOC1",
+    "geneontology:hasDbXref": [
+        "Beilstein:102391",
+        "CAS:109-99-9",
+        "Gmelin:1767",
+        "HMDB:HMDB0000246",
+        "PMID:12571688",
+        "PMID:1811956",
+        "PMID:1911404",
+        "PMID:19716170",
+        "PMID:21316415",
+        "PMID:21842397",
+        "PMID:2675957",
+        "Reaxys:102391",
+        "UM-BBD_compID:c0019",
+        "Wikipedia:THF"
+    ],
+    "geneontology:hasId": "26911",
+    "geneontology:hasSynonym": [
+        "THF",
+        "1,4-epoxybutane",
+        "butane alpha,delta-oxide",
+        "butylene oxide",
+        "furanidine",
+        "tetrahydrofuran",
+        "tetramethylene oxide"
+    ],
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#3_STAR"
+    },
+    "rdfs:label": "oxolane",
+    "rdfs:subClassOf": [
+        {
+            "@id": "obo:CHEBI_37407"
+        },
+        {
+            "@id": "obo:CHEBI_36389"
+        },
+        {
+            "@id": "obo:CHEBI_134179"
+        },
+        {
+            "@id": "obo:CHEBI_26912"
+        },
+        {
+            "@id": "b249_genid-00f1db82e1ab437c844115a94dc63e635-bn26911t11f48358"
+        }
+    ]
+}

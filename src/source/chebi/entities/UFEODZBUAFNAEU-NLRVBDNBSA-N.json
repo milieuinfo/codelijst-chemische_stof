@@ -1,0 +1,63 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_83253",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "obo:IAO_0000115": "An oxime O-ether that is the O-methyl oxime of (2-{[6-(2-chlorophenoxy)-5-fluoropyrimidin-4-yl]oxy}phenyl)(5,6-dihydro-1,4,2-dioxazin-3-yl)methanone. A fungicide used for disease control of potatoes and a wide range of vegetables.",
+    "chebi:charge": "0",
+    "chebi:formula": "C21H16ClFN4O5",
+    "chebi:inchi": "InChI=1S/C21H16ClFN4O5/c1-28-26-18(21-27-30-11-10-29-21)13-6-2-4-8-15(13)31-19-17(23)20(25-12-24-19)32-16-9-5-3-7-14(16)22/h2-9,12H,10-11H2,1H3/b26-18+",
+    "chebi:inchikey": "UFEODZBUAFNAEU-NLRVBDNBSA-N",
+    "chebi:smiles": "CO\\N=C(\\C1=NOCCO1)c1ccccc1Oc1ncnc(Oc2ccccc2Cl)c1F",
+    "geneontology:hasDbXref": [
+        "AGR:IND500677369",
+        "CAS:361377-29-9",
+        "Patent:EP2319308",
+        "Patent:NZ554381",
+        "Pesticides:fluoxastrobin",
+        "PPDB:340",
+        "Reaxys:11322454"
+    ],
+    "geneontology:hasId": "83253",
+    "geneontology:hasSynonym": [
+        "(1E)-(2-((6-(2-chlorophenoxy)-5-fluoro-4-pyrimidinyl)oxy)phenyl)(5,6-dihydro-1,4,2-dioxazin-3-yl)methanone O-methyloxime",
+        "(E)-1-(2-{[6-(2-chlorophenoxy)-5-fluoropyrimidin-4-yl]oxy}phenyl)-1-(5,6-dihydro-1,4,2-dioxazin-3-yl)-N-methoxymethanimine"
+    ],
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#3_STAR"
+    },
+    "rdfs:label": "fluoxastrobin",
+    "rdfs:subClassOf": [
+        {
+            "@id": "obo:CHEBI_35618"
+        },
+        {
+            "@id": "obo:CHEBI_39447"
+        },
+        {
+            "@id": "obo:CHEBI_83403"
+        },
+        {
+            "@id": "obo:CHEBI_37143"
+        },
+        {
+            "@id": "obo:CHEBI_36816"
+        },
+        {
+            "@id": "obo:CHEBI_86482"
+        },
+        {
+            "@id": "b306_genid-00f1db82e1ab437c844115a94dc63e635-bn83253t11f38499"
+        },
+        {
+            "@id": "obo:CHEBI_83256"
+        },
+        {
+            "@id": "b306_genid-00f1db82e1ab437c844115a94dc63e635-bn83253t11f86328"
+        }
+    ]
+}

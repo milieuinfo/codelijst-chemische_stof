@@ -1,0 +1,57 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_16227",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "obo:IAO_0000115": "An  azaarene comprising a benzene core in which one -CH group is replaced by a nitrogen atom. It is the parent compound of the class pyridines.",
+    "chebi:charge": "0",
+    "chebi:formula": "C5H5N",
+    "chebi:inchi": "InChI=1S/C5H5N/c1-2-4-6-5-3-1/h1-5H",
+    "chebi:inchikey": "JUJWROOIHBZHMG-UHFFFAOYSA-N",
+    "chebi:smiles": "c1ccncc1",
+    "http://purl.uniprot.org/core/name": "pyridine",
+    "geneontology:hasDbXref": [
+        "PMID:8070089",
+        "Beilstein:103233",
+        "CAS:110-86-1",
+        "Gmelin:1996",
+        "HMDB:HMDB0000926",
+        "KEGG:C00747",
+        "PDBeChem:0PY",
+        "PMID:24364496",
+        "PMID:24425539",
+        "Reaxys:103233",
+        "Wikipedia:Pyridine"
+    ],
+    "geneontology:hasId": "16227",
+    "geneontology:hasSynonym": [
+        "Azabenzene",
+        "py",
+        "Pyridine"
+    ],
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#3_STAR"
+    },
+    "rdfs:label": "pyridine",
+    "rdfs:subClassOf": [
+        {
+            "@id": "obo:CHEBI_26421"
+        },
+        {
+            "@id": "obo:CHEBI_50893"
+        },
+        {
+            "@id": "obo:CHEBI_35555"
+        },
+        {
+            "@id": "obo:CHEBI_38179"
+        },
+        {
+            "@id": "b180_genid-00f1db82e1ab437c844115a94dc63e635-bn16227t11f78298"
+        }
+    ]
+}

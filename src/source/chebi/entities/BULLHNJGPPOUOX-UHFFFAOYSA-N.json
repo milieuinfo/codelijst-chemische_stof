@@ -1,0 +1,45 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_47220",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "chebi:charge": "0",
+    "chebi:formula": "C3H5ClO",
+    "chebi:inchi": "InChI=1S/C3H5ClO/c1-3(5)2-4/h2H2,1H3",
+    "chebi:inchikey": "BULLHNJGPPOUOX-UHFFFAOYSA-N",
+    "chebi:smiles": "CC(=O)CCl",
+    "geneontology:hasDbXref": [
+        "Beilstein:605369",
+        "CAS:78-95-5",
+        "PDBeChem:ATO"
+    ],
+    "geneontology:hasId": "47220",
+    "geneontology:hasSynonym": [
+        "1-Chloro-2-ketopropane",
+        "1-Chloro-2-propanone",
+        "1-chloropropan-2-one",
+        "3-Chloro-2-propanone",
+        "Acetonyl chloride",
+        "alpha-Chloroacetone",
+        "CHLOROACETONE",
+        "Chloromethyl methyl ketone",
+        "Chloropropanone",
+        "Monochloroacetone"
+    ],
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#3_STAR"
+    },
+    "rdfs:label": "chloroacetone",
+    "rdfs:subClassOf": [
+        {
+            "@id": "obo:CHEBI_51841"
+        },
+        {
+            "@id": "b243_genid-00f1db82e1ab437c844115a94dc63e635-bn47220t8f15347"
+        }
+    ]
+}

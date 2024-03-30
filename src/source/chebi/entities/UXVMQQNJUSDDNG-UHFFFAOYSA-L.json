@@ -1,0 +1,63 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_3312",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "chebi:charge": "0",
+    "chebi:formula": "CaCl2",
+    "chebi:inchi": "InChI=1S/Ca.2ClH/h;2*1H/q+2;;/p-2",
+    "chebi:inchikey": "UXVMQQNJUSDDNG-UHFFFAOYSA-L",
+    "chebi:smiles": "[Cl-].[Cl-].[Ca++]",
+    "geneontology:hasDbXref": [
+        "AGR:IND607339542",
+        "CAS:10043-52-4",
+        "DrugBank:DB01164",
+        "FooDB:FDB015404",
+        "HMDB:HMDB0303526",
+        "KEGG:C08130",
+        "MetaCyc:CPD0-1589",
+        "MolBase:1869",
+        "PMID:11057678",
+        "PMID:13333715",
+        "PMID:32018153",
+        "PMID:32441097",
+        "PMID:34618995",
+        "PMID:34981086",
+        "PMID:35159430",
+        "PMID:35159592",
+        "PMID:35200459",
+        "PMID:35260323",
+        "PPDB:109",
+        "Wikipedia:Calcium_Chloride"
+    ],
+    "geneontology:hasId": "3312",
+    "geneontology:hasSynonym": [
+        "CaCl2",
+        "[CaCl2]",
+        "calcium chloride",
+        "calcium chloride anhydrous",
+        "Calcium chloride anhydrous"
+    ],
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#3_STAR"
+    },
+    "rdfs:label": "calcium dichloride",
+    "rdfs:subClassOf": [
+        {
+            "@id": "obo:CHEBI_35156"
+        },
+        {
+            "@id": "obo:CHEBI_190295"
+        },
+        {
+            "@id": "b379_genid-00f1db82e1ab437c844115a94dc63e635-bn3312t11f33287"
+        },
+        {
+            "@id": "obo:CHEBI_36093"
+        }
+    ]
+}

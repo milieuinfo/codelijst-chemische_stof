@@ -1,0 +1,79 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_17935",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "obo:IAO_0000115": "A saturated fatty aldehyde formally arising from reduction of the carboxy group of caprylic acid (octanoic acid).",
+    "chebi:charge": "0",
+    "chebi:formula": "C8H16O",
+    "chebi:inchi": "InChI=1S/C8H16O/c1-2-3-4-5-6-7-8-9/h8H,2-7H2,1H3",
+    "chebi:inchikey": "NUJGJRNETVAIRJ-UHFFFAOYSA-N",
+    "chebi:smiles": "CCCCCCCC=O",
+    "http://purl.uniprot.org/core/name": "octanal",
+    "geneontology:hasDbXref": [
+        "PMID:24295708",
+        "Beilstein:1744086",
+        "BPDB:1387",
+        "CAS:124-13-0",
+        "Gmelin:101464",
+        "HMDB:HMDB0001140",
+        "KEGG:C01545",
+        "KNApSAcK:C00030880",
+        "LIPID_MAPS_instance:LMFA06000028",
+        "MetaCyc:CPD-371",
+        "Patent:US2012164085",
+        "PDBeChem:OYA",
+        "PMID:24001856",
+        "PMID:24130214",
+        "Reaxys:1744086",
+        "UM-BBD_compID:c0046",
+        "Wikipedia:Octanal"
+    ],
+    "geneontology:hasId": "17935",
+    "geneontology:hasSynonym": [
+        "1-Caprylaldehyde",
+        "1-Octaldehyde",
+        "1-Octanal",
+        "1-Octylaldehyde",
+        "aldehyde C-8",
+        "C-8 aldehyde",
+        "Caprylaldehyd",
+        "caprylaldehyde",
+        "caprylic aldehyde",
+        "Kaprylaldehyd",
+        "n-caprylaldehyde",
+        "n-octaldehyde",
+        "n-octanal",
+        "n-octylal",
+        "n-octyl aldehyde",
+        "octan-1-al",
+        "octanaldehyde",
+        "octanoic aldehyde",
+        "Octylaldehyd",
+        "octylaldehyde",
+        "Oktanal",
+        "Oktylaldehyd"
+    ],
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#3_STAR"
+    },
+    "rdfs:label": "octanal",
+    "rdfs:subClassOf": [
+        {
+            "@id": "obo:CHEBI_12834"
+        },
+        {
+            "@id": "obo:CHEBI_142621"
+        },
+        {
+            "@id": "b18_genid-00f1db82e1ab437c844115a94dc63e635-bn17935t11f76924"
+        },
+        {
+            "@id": "obo:CHEBI_133249"
+        }
+    ]
+}

@@ -1,0 +1,60 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_81951",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "obo:IAO_0000115": "A member of the class of benzothiazoles that is 4-chloro-1,3-benzothiazol-2(3H)-one which is substituted on the nitrogen by a carboxymethyl group and at position 4 by chlorine. A post-emergence herbicide used (generally as a salt or ester) for the control of annual weeds in wheat and oilseed rape. It is not approved for use with the European Union.",
+    "chebi:charge": "0",
+    "chebi:formula": "C9H6ClNO3S",
+    "chebi:inchi": "InChI=1S/C9H6ClNO3S/c10-5-2-1-3-6-8(5)11(4-7(12)13)9(14)15-6/h1-3H,4H2,(H,12,13)",
+    "chebi:inchikey": "HYJSGOXICXYZGS-UHFFFAOYSA-N",
+    "chebi:smiles": "C1=CC(=C2C(=C1)SC(N2CC(=O)O)=O)Cl",
+    "geneontology:hasDbXref": [
+        "CAS:3813-05-6",
+        "KEGG:C18775",
+        "Pesticides:benazolin",
+        "PMID:17240026",
+        "PMID:17867883",
+        "PPDB:60",
+        "Reaxys:749788"
+    ],
+    "geneontology:hasId": "81951",
+    "geneontology:hasSynonym": [
+        "(4-chloro-2-oxo-1,3-benzothiazol-3(2H)-yl)acetic acid",
+        "4-chloro-2,3-dihydro-2-oxo-1,3-benzothiazol-3-ylacetic acid",
+        "4-chloro-2-oxo-3(2H)-benzothiazoleacetic acid",
+        "4-chloro-2-oxobenzothiazolin-3-ylacetic acid",
+        "benazoline"
+    ],
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#3_STAR"
+    },
+    "rdfs:label": "benazolin",
+    "rdfs:subClassOf": [
+        {
+            "@id": "obo:CHEBI_25384"
+        },
+        {
+            "@id": "obo:CHEBI_37947"
+        },
+        {
+            "@id": "obo:CHEBI_38656"
+        },
+        {
+            "@id": "b562_genid-00f1db82e1ab437c844115a94dc63e635-bn81951tmms73f132890"
+        },
+        {
+            "@id": "b562_genid-00f1db82e1ab437c844115a94dc63e635-bn81951t11f24527"
+        },
+        {
+            "@id": "b562_genid-00f1db82e1ab437c844115a94dc63e635-bn81951t11f26841"
+        },
+        {
+            "@id": "b562_genid-00f1db82e1ab437c844115a94dc63e635-bn81951t4f132890"
+        }
+    ]
+}

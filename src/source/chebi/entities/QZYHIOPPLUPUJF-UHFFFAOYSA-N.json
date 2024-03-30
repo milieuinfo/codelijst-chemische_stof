@@ -1,0 +1,45 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_39931",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "obo:IAO_0000115": "A mononitrotoluene carrying a nitro group at position 3.",
+    "chebi:charge": "0",
+    "chebi:formula": "C7H7NO2",
+    "chebi:inchi": "InChI=1S/C7H7NO2/c1-6-3-2-4-7(5-6)8(9)10/h2-5H,1H3",
+    "chebi:inchikey": "QZYHIOPPLUPUJF-UHFFFAOYSA-N",
+    "chebi:smiles": "Cc1cccc(c1)[N+]([O-])=O",
+    "http://purl.uniprot.org/core/name": "3-nitrotoluene",
+    "geneontology:hasDbXref": [
+        "PMID:23250222",
+        "Beilstein:1906910",
+        "CAS:99-08-1",
+        "Gmelin:279176",
+        "KEGG:C19486",
+        "PDBeChem:3NT",
+        "PMID:23212174",
+        "Reaxys:1906910",
+        "Wikipedia:3-Nitrotoluene"
+    ],
+    "geneontology:hasId": "39931",
+    "geneontology:hasSynonym": [
+        "1-methyl-3-nitrobenzene",
+        "3-NITROTOLUENE",
+        "3-Nitrotoluol",
+        "meta-Nitrotoluol",
+        "m-methylnitrobenzene",
+        "m-nitrotoluene",
+        "m-Nitrotoluol"
+    ],
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#3_STAR"
+    },
+    "rdfs:label": "3-nitrotoluene",
+    "rdfs:subClassOf": {
+        "@id": "obo:CHEBI_63171"
+    }
+}

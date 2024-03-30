@@ -1,0 +1,61 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_36592",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "obo:IAO_0000115": "The simplest member of the class of pyrrolidin-2-ones, consisting of pyrrolidine in which the hydrogens at position 2 are replaced by an oxo group. The lactam arising by the formal intramolecular condensation of the amino and carboxy groups of gamma-aminobutyric acid (GABA).",
+    "chebi:charge": "0",
+    "chebi:formula": "C4H7NO",
+    "chebi:inchi": "InChI=1S/C4H7NO/c6-4-2-1-3-5-4/h1-3H2,(H,5,6)",
+    "chebi:inchikey": "HNJBEVLQSNELDL-UHFFFAOYSA-N",
+    "chebi:smiles": "O=C1CCCN1",
+    "geneontology:hasDbXref": [
+        "Beilstein:105241",
+        "CAS:616-45-5",
+        "Gmelin:49671",
+        "HMDB:HMDB0002039",
+        "PMID:10332870",
+        "PMID:10403220",
+        "PMID:10840398",
+        "PMID:16321482",
+        "PMID:22113027",
+        "Reaxys:105241",
+        "Wikipedia:2-Pyrrolidone"
+    ],
+    "geneontology:hasId": "36592",
+    "geneontology:hasSynonym": [
+        "1-azacyclopentan-2-one",
+        "2-ketopyrrolidine",
+        "2-oxopyrrolidine",
+        "2-pyrrolidinone",
+        "2-pyrrolidone",
+        "4-aminobutyric acid lactam",
+        "alpha-pyrrolidinone",
+        "alpha-pyrrolidone",
+        "Butyrolactam",
+        "gamma-aminobutyric acid lactam",
+        "gamma-aminobutyric lactam",
+        "gamma-butyrolactam",
+        "Pyrrolidinone",
+        "Pyrrolidone"
+    ],
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#3_STAR"
+    },
+    "rdfs:label": "pyrrolidin-2-one",
+    "rdfs:subClassOf": [
+        {
+            "@id": "obo:CHEBI_74223"
+        },
+        {
+            "@id": "b497_genid-00f1db82e1ab437c844115a94dc63e635-bn36592t11f25212"
+        },
+        {
+            "@id": "b497_genid-00f1db82e1ab437c844115a94dc63e635-bn36592t11f48354"
+        }
+    ]
+}

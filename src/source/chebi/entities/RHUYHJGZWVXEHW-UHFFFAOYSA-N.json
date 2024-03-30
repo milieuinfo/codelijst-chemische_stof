@@ -1,0 +1,57 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_18853",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "obo:IAO_0000115": "A member of the class of  hydrazines that is  hydrazine substituted by two methyl groups at position 1.",
+    "chebi:charge": "0",
+    "chebi:formula": "C2H8N2",
+    "chebi:inchi": "InChI=1S/C2H8N2/c1-4(2)3/h3H2,1-2H3",
+    "chebi:inchikey": "RHUYHJGZWVXEHW-UHFFFAOYSA-N",
+    "chebi:smiles": "CN(C)N",
+    "geneontology:hasDbXref": [
+        "Beilstein:605261",
+        "CAS:57-14-7",
+        "KEGG:C19233",
+        "PMID:13438582",
+        "PMID:15585150",
+        "PMID:17234248",
+        "PMID:20638496",
+        "PMID:5569836",
+        "Reaxys:605261",
+        "Wikipedia:Unsymmetrical_dimethylhydrazine"
+    ],
+    "geneontology:hasId": "18853",
+    "geneontology:hasSynonym": [
+        "1,1-Dimethylhydrazin",
+        "Dimazine",
+        "gem-Dimethylhydrazine",
+        "N,N-Dimethylhydrazine",
+        "unsymmetrical dimethylhydrazine"
+    ],
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#3_STAR"
+    },
+    "rdfs:label": "1,1-dimethylhydrazine",
+    "rdfs:subClassOf": [
+        {
+            "@id": "obo:CHEBI_24631"
+        },
+        {
+            "@id": "b55_genid-00f1db82e1ab437c844115a94dc63e635-bn18853t8f15571"
+        },
+        {
+            "@id": "b55_genid-00f1db82e1ab437c844115a94dc63e635-bn18853t11f33292"
+        },
+        {
+            "@id": "b55_genid-00f1db82e1ab437c844115a94dc63e635-bn18853t11f50903"
+        },
+        {
+            "@id": "b55_genid-00f1db82e1ab437c844115a94dc63e635-bn18853t11f50905"
+        }
+    ]
+}

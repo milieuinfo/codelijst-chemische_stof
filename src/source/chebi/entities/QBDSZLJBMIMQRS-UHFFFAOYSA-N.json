@@ -1,0 +1,29 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_35092",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "chebi:charge": "0",
+    "chebi:formula": "C15H16O",
+    "chebi:inchi": "InChI=1S/C15H16O/c1-15(2,12-6-4-3-5-7-12)13-8-10-14(16)11-9-13/h3-11,16H,1-2H3",
+    "chebi:inchikey": "QBDSZLJBMIMQRS-UHFFFAOYSA-N",
+    "chebi:smiles": "CC(C)(c1ccccc1)c1ccc(O)cc1",
+    "geneontology:hasDbXref": [
+        "CAS:599-64-4",
+        "KEGG:C14258",
+        "PDBeChem:1OH"
+    ],
+    "geneontology:hasId": "35092",
+    "geneontology:hasSynonym": "2-Phenyl-2-(4-hydroxyphenyl)propane",
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#2_STAR"
+    },
+    "rdfs:label": "p-Cumylphenol",
+    "rdfs:subClassOf": {
+        "@id": "obo:CHEBI_51614"
+    }
+}

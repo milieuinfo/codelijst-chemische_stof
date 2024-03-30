@@ -1,0 +1,90 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_34393",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "obo:IAO_0000115": "A member of the class of phenols that is 3,5-xylenol which is substituted at position 4 by chlorine. It is bactericidal against most Gram-positive bacteria but less effective against Staphylococci and Gram-negative bacteria, and often inactive against Pseudomonas species. It is ineffective against bacterial spores.",
+    "chebi:charge": "0",
+    "chebi:formula": "C8H9ClO",
+    "chebi:inchi": "InChI=1S/C8H9ClO/c1-5-3-7(10)4-6(2)8(5)9/h3-4,10H,1-2H3",
+    "chebi:inchikey": "OSDLLIBGSJNGJE-UHFFFAOYSA-N",
+    "chebi:smiles": "Cc1cc(O)cc(C)c1Cl",
+    "geneontology:hasDbXref": [
+        "CAS:88-04-0",
+        "Drug_Central:3094",
+        "KEGG:C14715",
+        "KEGG:D03473",
+        "LINCS:LSM-19962",
+        "Patent:US2350677",
+        "PMID:12927380",
+        "PMID:15167195",
+        "PMID:1608902",
+        "PMID:17498419",
+        "PMID:19818989",
+        "PMID:21860168",
+        "PMID:22865169",
+        "PMID:27316554",
+        "PMID:27857768",
+        "PMID:28531838",
+        "PMID:3855184",
+        "PMID:6283866",
+        "PMID:7779444",
+        "PMID:8066978",
+        "PMID:8265774",
+        "PMID:8272409",
+        "PMID:8906435",
+        "PMID:9124667",
+        "PPDB:1615",
+        "Reaxys:1862539",
+        "VSDB:1615",
+        "Wikipedia:Chloroxylenol"
+    ],
+    "geneontology:hasId": "34393",
+    "geneontology:hasSynonym": [
+        "2-chloro-5-hydroxy-1,3-dimethylbenzene",
+        "2-chloro-5-hydroxy-m-xylene",
+        "2-Chloro-m-xylenol",
+        "3,5-dimethyl-4-chlorophenol",
+        "4-chloro-1-hydroxy-3,5-dimethylbenzene",
+        "4-chloro-m-xylenol",
+        "Benzytol",
+        "chloroxylenol",
+        "chloro-xylenol",
+        "chloroxylenolum",
+        "cloroxilenol",
+        "Dettol",
+        "parachlorometaxylenol",
+        "parametaxylenol",
+        "p-chloro-3,5-xylenol",
+        "p-chloro-m-xylenol",
+        "PCMX"
+    ],
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#3_STAR"
+    },
+    "rdfs:label": "4-chloro-3,5-dimethylphenol",
+    "rdfs:subClassOf": [
+        {
+            "@id": "obo:CHEBI_33853"
+        },
+        {
+            "@id": "obo:CHEBI_83403"
+        },
+        {
+            "@id": "b34_genid-00f1db82e1ab437c844115a94dc63e635-bn34393t11f33904"
+        },
+        {
+            "@id": "b34_genid-00f1db82e1ab437c844115a94dc63e635-bn34393t8f38572"
+        },
+        {
+            "@id": "b34_genid-00f1db82e1ab437c844115a94dc63e635-bn34393t11f48218"
+        },
+        {
+            "@id": "b34_genid-00f1db82e1ab437c844115a94dc63e635-bn34393t11f48219"
+        }
+    ]
+}

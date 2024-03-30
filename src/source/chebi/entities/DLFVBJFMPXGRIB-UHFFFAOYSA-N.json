@@ -1,0 +1,99 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@graph": [
+        {
+            "@id": "obo:CHEBI_27856",
+            "@type": "http://www.w3.org/2002/07/owl#Class",
+            "obo:IAO_0000115": "A member of the class of acetamides that results from the formal condensation of acetic acid with ammonia.",
+            "chebi:charge": "0",
+            "chebi:formula": "C2H5NO",
+            "chebi:inchi": "InChI=1S/C2H5NO/c1-2(3)4/h1H3,(H2,3,4)",
+            "chebi:inchikey": "DLFVBJFMPXGRIB-UHFFFAOYSA-N",
+            "chebi:smiles": "CC(N)=O",
+            "http://purl.uniprot.org/core/name": "acetamide",
+            "geneontology:hasDbXref": [
+                "Beilstein:1071207",
+                "CAS:60-35-5",
+                "DrugBank:DB02736",
+                "Gmelin:1500",
+                "KEGG:C06244",
+                "LINCS:LSM-37224",
+                "PDBeChem:ACM",
+                "PPDB:1641",
+                "UM-BBD_compID:c0658"
+            ],
+            "geneontology:hasId": "27856",
+            "geneontology:hasSynonym": [
+                "Acetamid",
+                "Acetamide",
+                "ACETAMIDE",
+                "acetic acid amide",
+                "Azetamid",
+                "CH3CONH2",
+                "Essigsaeureamid",
+                "Ethanamid",
+                "ethanamide",
+                "methanecarboxamide"
+            ],
+            "geneontology:inSubset": {
+                "@id": "obo:chebi#3_STAR"
+            },
+            "rdfs:label": "acetamide",
+            "rdfs:subClassOf": [
+                {
+                    "@id": "obo:CHEBI_83628"
+                },
+                {
+                    "@id": "obo:CHEBI_29347"
+                },
+                {
+                    "@id": "obo:CHEBI_22160"
+                },
+                {
+                    "@id": "b66_genid-00f1db82e1ab437c844115a94dc63e635-bn27856t7f49028"
+                }
+            ]
+        },
+        {
+            "@id": "obo:CHEBI_49028",
+            "@type": "http://www.w3.org/2002/07/owl#Class",
+            "obo:IAO_0000115": "A carboximidic acid that is  acetic acid in which the carbonyl oxygen is replaced by an imino group.",
+            "chebi:charge": "0",
+            "chebi:formula": "C2H5NO",
+            "chebi:inchi": "InChI=1S/C2H5NO/c1-2(3)4/h1H3,(H2,3,4)",
+            "chebi:inchikey": "DLFVBJFMPXGRIB-UHFFFAOYSA-N",
+            "chebi:smiles": "CC(O)=N",
+            "geneontology:hasDbXref": [
+                "Beilstein:2231425",
+                "PMID:17311153",
+                "PMID:18767022",
+                "Reaxys:2231425"
+            ],
+            "geneontology:hasId": "49028",
+            "geneontology:hasSynonym": "ethanimidic acid",
+            "geneontology:inSubset": {
+                "@id": "obo:chebi#3_STAR"
+            },
+            "rdfs:label": "acetimidic acid",
+            "rdfs:subClassOf": [
+                {
+                    "@id": "obo:CHEBI_48378"
+                },
+                {
+                    "@id": "b66_genid-00f1db82e1ab437c844115a94dc63e635-bn49028tmms73f27856"
+                },
+                {
+                    "@id": "b66_genid-00f1db82e1ab437c844115a94dc63e635-bn49028t8f15366"
+                },
+                {
+                    "@id": "b66_genid-00f1db82e1ab437c844115a94dc63e635-bn49028t7f27856"
+                }
+            ]
+        }
+    ]
+}

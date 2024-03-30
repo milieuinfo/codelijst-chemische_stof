@@ -1,0 +1,52 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_10125",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "obo:IAO_0000115": "An imidazo[1,2-a]pyridine compound having a 4-tolyl group at the 2-position, an N,N-dimethylcarbamoylmethyl group at the 3-position and a methyl substituent at the 6-position.",
+    "chebi:charge": "0",
+    "chebi:formula": "C19H21N3O",
+    "chebi:inchi": "InChI=1S/C19H21N3O/c1-13-5-8-15(9-6-13)19-16(11-18(23)21(3)4)22-12-14(2)7-10-17(22)20-19/h5-10,12H,11H2,1-4H3",
+    "chebi:inchikey": "ZAFYATHCZYHLPB-UHFFFAOYSA-N",
+    "chebi:smiles": "CN(C)C(=O)Cc1c(nc2ccc(C)cn12)-c1ccc(C)cc1",
+    "geneontology:hasDbXref": [
+        "Beilstein:4355785",
+        "CAS:82626-48-0",
+        "Drug_Central:2870",
+        "DrugBank:DB00425",
+        "KEGG:C07219",
+        "KEGG:D08690",
+        "LINCS:LSM-5560",
+        "Patent:EP50563",
+        "Patent:US4382938",
+        "Wikipedia:Zolpidem"
+    ],
+    "geneontology:hasId": "10125",
+    "geneontology:hasSynonym": [
+        "N,N,6-Trimethyl-2-(4-methylphenyl)imidazo(1,2-a)pyridine-3-acetamide",
+        "N,N-dimethyl-2-[6-methyl-2-(4-methylphenyl)imidazo[1,2-a]pyridin-3-yl]acetamide",
+        "zolpidemum"
+    ],
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#3_STAR"
+    },
+    "rdfs:label": "zolpidem",
+    "rdfs:subClassOf": [
+        {
+            "@id": "b440_genid-00f1db82e1ab437c844115a94dc63e635-bn10125t11f35488"
+        },
+        {
+            "@id": "b440_genid-00f1db82e1ab437c844115a94dc63e635-bn10125t11f35717"
+        },
+        {
+            "@id": "obo:CHEBI_46908"
+        },
+        {
+            "@id": "b440_genid-00f1db82e1ab437c844115a94dc63e635-bn10125t11f51373"
+        }
+    ]
+}

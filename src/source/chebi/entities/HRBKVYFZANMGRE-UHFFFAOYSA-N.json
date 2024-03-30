@@ -1,0 +1,69 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_34632",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "obo:IAO_0000115": "An organic thiophosphate that is O,O-dimethyl hydrogen phosphorothioate in which the hydrogen of the hydroxy group has been replaced by a 3,5,6-trichloropyridin-2-yl group.",
+    "chebi:charge": "0",
+    "chebi:formula": "C7H7Cl3NO3PS",
+    "chebi:inchi": "InChI=1S/C7H7Cl3NO3PS/c1-12-15(16,13-2)14-7-5(9)3-4(8)6(10)11-7/h3H,1-2H3",
+    "chebi:inchikey": "HRBKVYFZANMGRE-UHFFFAOYSA-N",
+    "chebi:smiles": "COP(=S)(OC)Oc1nc(Cl)c(Cl)cc1Cl",
+    "geneontology:hasDbXref": [
+        "Beilstein:1541078",
+        "CAS:5598-13-0",
+        "KEGG:C14520",
+        "Pesticides:chlorpyrifos-methyl",
+        "PPDB:155",
+        "Reaxys:1541078"
+    ],
+    "geneontology:hasId": "34632",
+    "geneontology:hasSynonym": [
+        "Chloropyriphos-methyl",
+        "Chlorpyrifos-methyl",
+        "Chlorpyrifos O,O-dimethyl analog",
+        "Methyl chlorpyrifos",
+        "Methyl chlorpyriphos",
+        "O,O-Dimethyl O-(3,5,6-trichloro-2-pyridyl) phosphorothioate",
+        "o,o-Dimethyl-o-(3,5,6-trichloro-2-pyridyl)phosphorothioate",
+        "O,O-dimethyl O-(3,5,6-trichloropyridin-2-yl) phosphorothioate",
+        "O,O-dimethyl O-(3,5,6-trichloropyridin-2-yl) thiophosphate",
+        "Phosphorothioic acid, O,O-dimethyl O-(3,5,6-trichloro-2-pyridinyl) ester",
+        "Phosphorothioic acid, O,O-dimethyl O-(3,5,6-trichloro-2-pyridyl) ester",
+        "Trichlormethylfos"
+    ],
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#3_STAR"
+    },
+    "rdfs:label": "chlorpyrifos-methyl",
+    "rdfs:subClassOf": [
+        {
+            "@id": "obo:CHEBI_37512"
+        },
+        {
+            "@id": "obo:CHEBI_39173"
+        },
+        {
+            "@id": "b524_genid-00f1db82e1ab437c844115a94dc63e635-bn34632t11f22153"
+        },
+        {
+            "@id": "b524_genid-00f1db82e1ab437c844115a94dc63e635-bn34632t11f24852"
+        },
+        {
+            "@id": "b524_genid-00f1db82e1ab437c844115a94dc63e635-bn34632t11f33286"
+        },
+        {
+            "@id": "b524_genid-00f1db82e1ab437c844115a94dc63e635-bn34632t11f35703"
+        },
+        {
+            "@id": "b524_genid-00f1db82e1ab437c844115a94dc63e635-bn34632t11f38462"
+        },
+        {
+            "@id": "b524_genid-00f1db82e1ab437c844115a94dc63e635-bn34632t11f78298"
+        }
+    ]
+}

@@ -1,0 +1,49 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_66891",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "obo:IAO_0000115": "A C-nitro compound in which the nitro compound is meta to the amino group and para to the methyl group of o-toluidine.",
+    "chebi:charge": "0",
+    "chebi:formula": "C7H8N2O2",
+    "chebi:inchi": "InChI=1S/C7H8N2O2/c1-5-2-3-6(9(10)11)4-7(5)8/h2-4H,8H2,1H3",
+    "chebi:inchikey": "DSBIJCMXAIKKKI-UHFFFAOYSA-N",
+    "chebi:smiles": "Cc1ccc(cc1N)[N+]([O-])=O",
+    "geneontology:hasDbXref": [
+        "PMID:1650428",
+        "CAS:99-55-8",
+        "KEGG:C16398",
+        "Reaxys:879021"
+    ],
+    "geneontology:hasId": "66891",
+    "geneontology:hasSynonym": [
+        "1-Amino-2-methyl-5-nitrobenzene",
+        "2-Amino-4-nitrotoluene",
+        "2-methyl-5-nitroaniline",
+        "2-Methyl-5-nitrobenzenamine",
+        "2-Methyl-5-nitro-benzeneamine",
+        "3-Nitro-6-methylaniline",
+        "4-Nitro-2-aminotoluene",
+        "5-Nitro-2-methylaniline",
+        "5-Nitro-2-toluidine",
+        "5-Nitro-o-toluidine",
+        "6-Methyl-3-nitroaniline",
+        "o-amino-p-nitrotoluene"
+    ],
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#3_STAR"
+    },
+    "rdfs:label": "5-nitro-o-toluidine",
+    "rdfs:subClassOf": [
+        {
+            "@id": "obo:CHEBI_35716"
+        },
+        {
+            "@id": "b111_genid-00f1db82e1ab437c844115a94dc63e635-bn66891t8f66892"
+        }
+    ]
+}

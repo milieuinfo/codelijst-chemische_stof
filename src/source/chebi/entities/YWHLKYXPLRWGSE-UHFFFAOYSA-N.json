@@ -1,0 +1,61 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_4614",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "chebi:charge": "0",
+    "chebi:formula": "C2H6S3",
+    "chebi:inchi": "InChI=1S/C2H6S3/c1-3-5-4-2/h1-2H3",
+    "chebi:inchikey": "YWHLKYXPLRWGSE-UHFFFAOYSA-N",
+    "chebi:smiles": "CSSSC",
+    "geneontology:hasDbXref": [
+        "PMID:19167006",
+        "PMID:24421258",
+        "CAS:3658-80-8",
+        "HMDB:HMDB0013780",
+        "KEGG:C08372",
+        "KNApSAcK:C00001246",
+        "PMID:11236158",
+        "PMID:14691119",
+        "PMID:5556886",
+        "PMID:8481097",
+        "Wikipedia:Dimethyl_trisulfide"
+    ],
+    "geneontology:hasId": "4614",
+    "geneontology:hasSynonym": [
+        "(methyldisulfanyl)methane",
+        "Dimethyl disulfide",
+        "Methyl disulfide",
+        "(methyldithio)methane",
+        "1,3-Dimethyltrisulfane (ACD/Name 4.0)",
+        "2,3,4-Trithiapentane",
+        "2,3-Dithiabutane",
+        "CH3SSSCH3",
+        "Dimethyldisulfide",
+        "Dimethyl disulphide",
+        "Dimethyl trisufide",
+        "dimethyltrisulfane",
+        "Dimethyl trisulphide",
+        "Disulfide dimethyl",
+        "DMDS",
+        "DMTS",
+        "Methyldisulfanylmethane",
+        "Methyldisulfide",
+        "Methyldithiomethane",
+        "Methyl trisulfide",
+        "Sulfa-hitech",
+        "Sulfa-hitech 0382",
+        "Trisulfide, dimethyl"
+    ],
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#2_STAR"
+    },
+    "rdfs:label": "Dimethyl trisulfide",
+    "rdfs:subClassOf": {
+        "@id": "obo:CHEBI_78493"
+    }
+}

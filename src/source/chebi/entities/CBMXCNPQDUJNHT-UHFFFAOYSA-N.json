@@ -1,0 +1,33 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_34065",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "chebi:charge": "0",
+    "chebi:formula": "C12H12",
+    "chebi:inchi": "InChI=1S/C12H12/c1-9-6-7-12-10(2)4-3-5-11(12)8-9/h3-8H,1-2H3",
+    "chebi:inchikey": "CBMXCNPQDUJNHT-UHFFFAOYSA-N",
+    "chebi:smiles": "Cc1ccc2c(C)cccc2c1",
+    "geneontology:hasDbXref": [
+        "Patent:EP1852409",
+        "Beilstein:1854429",
+        "CAS:575-43-9",
+        "KEGG:C14217"
+    ],
+    "geneontology:hasId": "34065",
+    "geneontology:hasSynonym": [
+        "1,6-Dimethylnaphthalene",
+        "1,6-DMN"
+    ],
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#3_STAR"
+    },
+    "rdfs:label": "1,6-dimethylnaphthalene",
+    "rdfs:subClassOf": {
+        "@id": "obo:CHEBI_48853"
+    }
+}

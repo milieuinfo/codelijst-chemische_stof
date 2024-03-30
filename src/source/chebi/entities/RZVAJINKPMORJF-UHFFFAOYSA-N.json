@@ -1,0 +1,120 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_46195",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "obo:IAO_0000115": "A member of the class of phenols that is 4-aminophenol in which one of the hydrogens attached to the amino group has been replaced by an acetyl group.",
+    "chebi:charge": "0",
+    "chebi:formula": "C8H9NO2",
+    "chebi:inchi": "InChI=1S/C8H9NO2/c1-6(10)9-7-2-4-8(11)5-3-7/h2-5,11H,1H3,(H,9,10)",
+    "chebi:inchikey": "RZVAJINKPMORJF-UHFFFAOYSA-N",
+    "chebi:smiles": "CC(=O)NC1=CC=C(O)C=C1",
+    "http://purl.uniprot.org/core/name": "4-acetamidophenol",
+    "geneontology:hasDbXref": [
+        "PMID:22770225",
+        "PMID:7602118",
+        "PMID:22114686",
+        "PMID:11304127",
+        "Beilstein:2208089",
+        "CAS:103-90-2",
+        "Chemspider:1906",
+        "Drug_Central:52",
+        "DrugBank:DB00316",
+        "HMDB:HMDB0001859",
+        "KEGG:C06804",
+        "KEGG:D00217",
+        "LINCS:LSM-5533",
+        "MetaCyc:CPD-7669",
+        "PDBeChem:TYL",
+        "PMID:11084378",
+        "PMID:16716555",
+        "PMID:18953082",
+        "PMID:21108564",
+        "PMID:25128677",
+        "PMID:25962350",
+        "PMID:27320817",
+        "PMID:28734939",
+        "PMID:29398597",
+        "Reaxys:2208089",
+        "Wikipedia:Acetaminophen"
+    ],
+    "geneontology:hasId": "46195",
+    "geneontology:hasSynonym": [
+        "paracetamol",
+        "4'-hydroxyacetanilide",
+        "4-(Acetylamino)phenol",
+        "4-acetamidophenol",
+        "Acenol",
+        "acetaminofen",
+        "Acetaminofen",
+        "Acetaminophen",
+        "acetaminophene",
+        "APAP",
+        "N-(4-hydroxyphenyl)acetamide",
+        "N-acetyl-p-aminophenol",
+        "p-acetamidophenol",
+        "p-acetaminophenol",
+        "p-Acetylaminophenol",
+        "Panadol",
+        "Paracetamol",
+        "paracetamolum",
+        "p-hydroxyacetanilide",
+        "p-hydroxyphenolacetamide",
+        "Tylenol"
+    ],
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#3_STAR"
+    },
+    "rdfs:label": "paracetamol",
+    "rdfs:subClassOf": [
+        {
+            "@id": "obo:CHEBI_33853"
+        },
+        {
+            "@id": "obo:CHEBI_22160"
+        },
+        {
+            "@id": "b286_genid-00f1db82e1ab437c844115a94dc63e635-bn46195t8f17602"
+        },
+        {
+            "@id": "b286_genid-00f1db82e1ab437c844115a94dc63e635-bn46195t11f35475"
+        },
+        {
+            "@id": "b286_genid-00f1db82e1ab437c844115a94dc63e635-bn46195t11f35481"
+        },
+        {
+            "@id": "b286_genid-00f1db82e1ab437c844115a94dc63e635-bn46195t11f35493"
+        },
+        {
+            "@id": "b286_genid-00f1db82e1ab437c844115a94dc63e635-bn46195t11f35703"
+        },
+        {
+            "@id": "b286_genid-00f1db82e1ab437c844115a94dc63e635-bn46195t11f50629"
+        },
+        {
+            "@id": "b286_genid-00f1db82e1ab437c844115a94dc63e635-bn46195t11f50630"
+        },
+        {
+            "@id": "b286_genid-00f1db82e1ab437c844115a94dc63e635-bn46195t11f50908"
+        },
+        {
+            "@id": "b286_genid-00f1db82e1ab437c844115a94dc63e635-bn46195t11f73263"
+        },
+        {
+            "@id": "b286_genid-00f1db82e1ab437c844115a94dc63e635-bn46195t11f78298"
+        },
+        {
+            "@id": "b286_genid-00f1db82e1ab437c844115a94dc63e635-bn46195t11f85234"
+        },
+        {
+            "@id": "b286_genid-00f1db82e1ab437c844115a94dc63e635-bn46195t11f173085"
+        },
+        {
+            "@id": "b286_genid-00f1db82e1ab437c844115a94dc63e635-bn46195t11f176497"
+        }
+    ]
+}

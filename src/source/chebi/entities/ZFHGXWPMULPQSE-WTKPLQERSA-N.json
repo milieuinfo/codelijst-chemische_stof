@@ -1,0 +1,36 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_78107",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "obo:IAO_0000115": "A cyclopropanecarboxylate ester resulting from the formal condensation of the carboxy group of 3-[(1Z)-2-chloro-3,3,3-trifluoroprop-1-en-1-yl]-2,2-dimethylcyclopropanecarboxylic acid with the hydroxy group of 2,3,5,6-tetrafluoro-4-methylbenzyl alcohol.",
+    "chebi:charge": "0",
+    "chebi:formula": "C17H14ClF7O2",
+    "chebi:inchi": "InChI=1S/C17H14ClF7O2/c1-6-11(19)13(21)7(14(22)12(6)20)5-27-15(26)10-8(16(10,2)3)4-9(18)17(23,24)25/h4,8,10H,5H2,1-3H3/b9-4-",
+    "chebi:inchikey": "ZFHGXWPMULPQSE-WTKPLQERSA-N",
+    "chebi:smiles": "Cc1c(F)c(F)c(COC(=O)C2C(\\C=C(/Cl)C(F)(F)F)C2(C)C)c(F)c1F",
+    "geneontology:hasDbXref": [
+        "CAS:79538-32-2",
+        "KEGG:C10992"
+    ],
+    "geneontology:hasId": "78107",
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#3_STAR"
+    },
+    "rdfs:label": "2,3,5,6-tetrafluoro-4-methylbenzyl 3-[(1Z)-2-chloro-3,3,3-trifluoroprop-1-en-1-yl]-2,2-dimethylcyclopropanecarboxylate",
+    "rdfs:subClassOf": [
+        {
+            "@id": "obo:CHEBI_36683"
+        },
+        {
+            "@id": "obo:CHEBI_37143"
+        },
+        {
+            "@id": "obo:CHEBI_50351"
+        }
+    ]
+}

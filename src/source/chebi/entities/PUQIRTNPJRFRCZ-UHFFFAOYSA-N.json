@@ -1,0 +1,53 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_83478",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "obo:IAO_0000115": "A monocarboxylic acid that is phenylacetic acid substituted by a 2-hydroxy-3-(propan-2-ylamino)propoxy group at position 4. It is a metabolite of the drug atenolol.",
+    "chebi:charge": "0",
+    "chebi:formula": "C14H21NO4",
+    "chebi:inchi": "InChI=1S/C14H21NO4/c1-10(2)15-8-12(16)9-19-13-5-3-11(4-6-13)7-14(17)18/h3-6,10,12,15-16H,7-9H2,1-2H3,(H,17,18)",
+    "chebi:inchikey": "PUQIRTNPJRFRCZ-UHFFFAOYSA-N",
+    "chebi:smiles": "CC(C)NCC(O)COc1ccc(CC(O)=O)cc1",
+    "geneontology:hasDbXref": [
+        "CAS:56392-14-4",
+        "PMID:24033151",
+        "PMID:24070867",
+        "PMID:25310538",
+        "Reaxys:8774963"
+    ],
+    "geneontology:hasId": "83478",
+    "geneontology:hasSynonym": [
+        "(2-Hydroxy-3-((1-methylethyl)amino)propoxy)benzeneacetic acid",
+        "{4-[2-hydroxy-3-(propan-2-ylamino)propoxy]phenyl}acetic acid",
+        "Metoprolol acid"
+    ],
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#3_STAR"
+    },
+    "rdfs:label": "atenolol acid",
+    "rdfs:subClassOf": [
+        {
+            "@id": "obo:CHEBI_35681"
+        },
+        {
+            "@id": "obo:CHEBI_35618"
+        },
+        {
+            "@id": "obo:CHEBI_25384"
+        },
+        {
+            "@id": "obo:CHEBI_50995"
+        },
+        {
+            "@id": "b147_genid-00f1db82e1ab437c844115a94dc63e635-bn83478t11f49103"
+        },
+        {
+            "@id": "b147_genid-00f1db82e1ab437c844115a94dc63e635-bn83478t11f83399"
+        }
+    ]
+}

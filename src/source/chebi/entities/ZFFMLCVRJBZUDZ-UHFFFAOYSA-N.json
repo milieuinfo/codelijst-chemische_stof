@@ -1,0 +1,49 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_141560",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "obo:IAO_0000115": "An alkane that is butane substituted by a methyl group at positions 2 and 3.",
+    "chebi:charge": "0",
+    "chebi:formula": "C6H14",
+    "chebi:inchi": "InChI=1S/C6H14/c1-5(2)6(3)4/h5-6H,1-4H3",
+    "chebi:inchikey": "ZFFMLCVRJBZUDZ-UHFFFAOYSA-N",
+    "chebi:smiles": "C(C(C)C)(C)C",
+    "geneontology:hasDbXref": [
+        "PMID:29587216",
+        "CAS:79-29-8",
+        "Chemspider:6340",
+        "Patent:CA2654918",
+        "PMID:10537377",
+        "PMID:28189307",
+        "Reaxys:1730737",
+        "Wikipedia:2,3-Dimethylbutane"
+    ],
+    "geneontology:hasId": "141560",
+    "geneontology:hasSynonym": [
+        "1,1,2,2-tetramethylethane",
+        "23DMB",
+        "biisopropyl",
+        "butane, 2,3-dimethyl-",
+        "diisopropyl"
+    ],
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#3_STAR"
+    },
+    "rdfs:label": "2,3-dimethylbutane",
+    "rdfs:subClassOf": [
+        {
+            "@id": "obo:CHEBI_18310"
+        },
+        {
+            "@id": "obo:CHEBI_134179"
+        },
+        {
+            "@id": "b124_genid-00f1db82e1ab437c844115a94dc63e635-bn141560t9f37808"
+        }
+    ]
+}

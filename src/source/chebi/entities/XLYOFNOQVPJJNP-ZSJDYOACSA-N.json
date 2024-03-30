@@ -1,0 +1,47 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_41981",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "chebi:charge": "0",
+    "chebi:formula": "D2O",
+    "chebi:inchi": "InChI=1S/H2O/h1H2/i/hD2",
+    "chebi:inchikey": "XLYOFNOQVPJJNP-ZSJDYOACSA-N",
+    "chebi:smiles": "[2H]O[2H]",
+    "geneontology:hasDbXref": [
+        "CAS:7789-20-0",
+        "Gmelin:97",
+        "MolBase:1647",
+        "PDBeChem:DOD"
+    ],
+    "geneontology:hasId": "41981",
+    "geneontology:hasSynonym": [
+        "D2O",
+        "((2)H2)water",
+        "[OD2]",
+        "DEUTERATED WATER",
+        "Deuteriumoxid",
+        "deuterium oxide",
+        "heavy water",
+        "schweres Wasser"
+    ],
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#3_STAR"
+    },
+    "rdfs:label": "dideuterium oxide",
+    "rdfs:subClassOf": [
+        {
+            "@id": "obo:CHEBI_15377"
+        },
+        {
+            "@id": "obo:CHEBI_76107"
+        },
+        {
+            "@id": "b327_genid-00f1db82e1ab437c844115a94dc63e635-bn41981t11f197449"
+        }
+    ]
+}

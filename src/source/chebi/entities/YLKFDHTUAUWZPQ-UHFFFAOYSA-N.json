@@ -1,0 +1,27 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_82358",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "chebi:charge": "0",
+    "chebi:formula": "C6H14N2O",
+    "chebi:inchi": "InChI=1S/C6H14N2O/c1-3-5-8(7-9)6-4-2/h3-6H2,1-2H3",
+    "chebi:inchikey": "YLKFDHTUAUWZPQ-UHFFFAOYSA-N",
+    "chebi:smiles": "CCCN(CCC)N=O",
+    "geneontology:hasDbXref": [
+        "CAS:621-64-7",
+        "KEGG:C19279"
+    ],
+    "geneontology:hasId": "82358",
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#2_STAR"
+    },
+    "rdfs:label": "N-Nitrosodi-n-propylamine",
+    "rdfs:subClassOf": {
+        "@id": "obo:CHEBI_35800"
+    }
+}

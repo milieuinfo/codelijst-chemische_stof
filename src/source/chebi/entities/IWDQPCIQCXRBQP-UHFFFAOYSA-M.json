@@ -1,0 +1,29 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_82078",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "chebi:charge": "0",
+    "chebi:formula": "C8H10N3NaO3S",
+    "chebi:inchi": "InChI=1S/C8H11N3O3S.Na/c1-11(2)8-5-3-7(4-6-8)9-10-15(12,13)14;/h3-6H,1-2H3,(H,12,13,14);/q;+1/p-1",
+    "chebi:inchikey": "IWDQPCIQCXRBQP-UHFFFAOYSA-M",
+    "chebi:smiles": "[Na+].CN(C)c1ccc(cc1)N=NS([O-])(=O)=O",
+    "geneontology:hasDbXref": [
+        "CAS:140-56-7",
+        "KEGG:C18937",
+        "PPDB:1130"
+    ],
+    "geneontology:hasId": "82078",
+    "geneontology:hasSynonym": "para-Dimethylaminoazobenzenediazo sodium sulfonate",
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#2_STAR"
+    },
+    "rdfs:label": "Fenaminosulf",
+    "rdfs:subClassOf": {
+        "@id": "obo:CHEBI_50860"
+    }
+}

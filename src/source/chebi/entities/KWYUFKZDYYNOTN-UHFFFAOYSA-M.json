@@ -1,0 +1,39 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_32035",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "chebi:charge": "0",
+    "chebi:formula": "HKO",
+    "chebi:inchi": "InChI=1S/K.H2O/h;1H2/q+1;/p-1",
+    "chebi:inchikey": "KWYUFKZDYYNOTN-UHFFFAOYSA-M",
+    "chebi:smiles": "[OH-].[K+]",
+    "geneontology:hasDbXref": [
+        "CAS:1310-58-3",
+        "Gmelin:100448",
+        "KEGG:C12568",
+        "KEGG:D01168"
+    ],
+    "geneontology:hasId": "32035",
+    "geneontology:hasSynonym": [
+        "Aetzkali",
+        "caustic potash",
+        "hydroxyde de potassium",
+        "Kaliumhydroxid",
+        "KOH",
+        "potash lye",
+        "potasse caustique",
+        "Potassium hydroxide"
+    ],
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#3_STAR"
+    },
+    "rdfs:label": "potassium hydroxide",
+    "rdfs:subClassOf": {
+        "@id": "obo:CHEBI_33978"
+    }
+}

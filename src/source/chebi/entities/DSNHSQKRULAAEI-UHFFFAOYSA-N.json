@@ -1,0 +1,28 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_34062",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "chebi:charge": "0",
+    "chebi:formula": "C10H14",
+    "chebi:inchi": "InChI=1S/C10H14/c1-3-9-5-7-10(4-2)8-6-9/h5-8H,3-4H2,1-2H3",
+    "chebi:inchikey": "DSNHSQKRULAAEI-UHFFFAOYSA-N",
+    "chebi:smiles": "CCc1ccc(CC)cc1",
+    "geneontology:hasDbXref": [
+        "CAS:105-05-5",
+        "KEGG:C14583"
+    ],
+    "geneontology:hasId": "34062",
+    "geneontology:hasSynonym": "p-Diethylbenzene",
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#2_STAR"
+    },
+    "rdfs:label": "1,4-Diethylbenzene",
+    "rdfs:subClassOf": {
+        "@id": "obo:CHEBI_22712"
+    }
+}

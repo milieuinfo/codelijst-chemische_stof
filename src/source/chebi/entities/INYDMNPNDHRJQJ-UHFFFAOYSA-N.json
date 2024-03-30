@@ -1,0 +1,46 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_142285",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "obo:IAO_0000115": "A dinitrotoluene in which the methyl group is meta to one of the nitro groups and para to the other. A uellow crystalline compound that is virtually insoluble in water but dissolves in most organic solvents.",
+    "chebi:charge": "0",
+    "chebi:formula": "C7H6N2O4",
+    "chebi:inchi": "InChI=1S/C7H6N2O4/c1-5-2-3-6(8(10)11)7(4-5)9(12)13/h2-4H,1H3",
+    "chebi:inchikey": "INYDMNPNDHRJQJ-UHFFFAOYSA-N",
+    "chebi:smiles": "C1=C(C(=CC=C1C)[N+]([O-])=O)[N+](=O)[O-]",
+    "http://purl.uniprot.org/core/name": "3,4-dinitrotoluene",
+    "geneontology:hasDbXref": [
+        "PMID:11823201",
+        "CAS:610-39-9",
+        "MetaCyc:CPD-18110",
+        "PMID:12776928",
+        "PMID:15568688",
+        "PMID:21215986",
+        "PMID:22422434",
+        "PMID:7525201",
+        "Reaxys:2213131"
+    ],
+    "geneontology:hasId": "142285",
+    "geneontology:hasSynonym": [
+        "1-methyl-3,4-dinitrobenzene",
+        "3,4-DNT",
+        "4-methyl-1,2-dinitrobenzene"
+    ],
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#3_STAR"
+    },
+    "rdfs:label": "3,4-dinitrotoluene",
+    "rdfs:subClassOf": [
+        {
+            "@id": "obo:CHEBI_23822"
+        },
+        {
+            "@id": "b651_genid-00f1db82e1ab437c844115a94dc63e635-bn142285t11f63490"
+        }
+    ]
+}

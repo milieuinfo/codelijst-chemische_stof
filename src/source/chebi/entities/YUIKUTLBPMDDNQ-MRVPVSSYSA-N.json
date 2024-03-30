@@ -1,0 +1,68 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_132841",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "obo:IAO_0000115": "An aromatic ether that is (R)-lactic acid in which the hydroxy group at position 2 has been converted to the corresponding p-[(5-chloro-3-fluoropyridin-2-yl)oxy]phenyl ether. It is the parent acid of the herbicide clodinafop-propargyl.",
+    "chebi:charge": "0",
+    "chebi:formula": "C14H11ClFNO4",
+    "chebi:inchi": "InChI=1S/C14H11ClFNO4/c1-8(14(18)19)20-10-2-4-11(5-3-10)21-13-12(16)6-9(15)7-17-13/h2-8H,1H3,(H,18,19)/t8-/m1/s1",
+    "chebi:inchikey": "YUIKUTLBPMDDNQ-MRVPVSSYSA-N",
+    "chebi:smiles": "C=1C(=C(N=CC1Cl)OC=2C=CC(=CC2)O[C@@H](C(O)=O)C)F",
+    "geneontology:hasDbXref": [
+        "AGR:IND43870723",
+        "AGR:IND44076496",
+        "Beilstein:10562170",
+        "CAS:114420-56-3",
+        "Pesticides:clodinafop",
+        "PMID:10557330",
+        "PMID:16047877",
+        "PMID:16977528",
+        "PMID:19290455",
+        "PMID:19594140",
+        "PMID:19756846",
+        "PMID:19784963",
+        "PMID:24121741",
+        "PMID:26065513",
+        "PPDB:1416",
+        "Reaxys:10562170"
+    ],
+    "geneontology:hasId": "132841",
+    "geneontology:hasSynonym": [
+        "(2R)-2-[4-[(5-chloro-3-fluoro-2-pyridinyl)oxy]phenoxy]propanoic acid",
+        "(2R)-2-{4-[(5-chloro-3-fluoropyridin-2-yl)oxy]phenoxy}propanoic acid",
+        "(R)-2-[4-(5-chloro-3-fluoro-2-pyridyloxy)phenoxy]propionic acid",
+        "(R)-2-{4-[(5-chloro-3-fluoropyridin-2-yl)oxy]phenoxy}propionic acid"
+    ],
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#3_STAR"
+    },
+    "rdfs:label": "clodinafop",
+    "rdfs:subClassOf": [
+        {
+            "@id": "obo:CHEBI_26421"
+        },
+        {
+            "@id": "obo:CHEBI_35618"
+        },
+        {
+            "@id": "obo:CHEBI_25384"
+        },
+        {
+            "@id": "obo:CHEBI_36683"
+        },
+        {
+            "@id": "obo:CHEBI_37143"
+        },
+        {
+            "@id": "b441_genid-00f1db82e1ab437c844115a94dc63e635-bn132841t11f60575"
+        },
+        {
+            "@id": "b441_genid-00f1db82e1ab437c844115a94dc63e635-bn132841t11f70722"
+        }
+    ]
+}

@@ -1,0 +1,136 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_28973",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "obo:IAO_0000115": "A monoterpenoid indole alkaloid that is strychnidine bearing a keto substituent at the 10-position.",
+    "chebi:charge": "0",
+    "chebi:formula": "C21H22N2O2",
+    "chebi:inchi": "InChI=1S/C21H22N2O2/c24-18-10-16-19-13-9-17-21(6-7-22(17)11-12(13)5-8-25-16)14-3-1-2-4-15(14)23(18)20(19)21/h1-5,13,16-17,19-20H,6-11H2/t13-,16-,17-,19-,20-,21+/m0/s1",
+    "chebi:inchikey": "QMGVPVSNSZLJIA-FVWCLLPLSA-N",
+    "chebi:smiles": "[H][C@@]12CC(=O)N3c4ccccc4[C@]45CCN6CC(=CCO1)[C@]([H])(C[C@@]46[H])[C@]2([H])[C@]35[H]",
+    "geneontology:hasDbXref": [
+        "PMID:16950410",
+        "Beilstein:52979",
+        "BPDB:2066",
+        "CAS:57-24-9",
+        "Drug_Central:2484",
+        "Gmelin:117894",
+        "KEGG:C06522",
+        "KNApSAcK:C00001770",
+        "KNApSAcK:C00025213",
+        "PDBeChem:SY9",
+        "PMID:10471592",
+        "PMID:10821054",
+        "PMID:11024105",
+        "PMID:11157095",
+        "PMID:11324564",
+        "PMID:11327524",
+        "PMID:11453337",
+        "PMID:11516560",
+        "PMID:11900860",
+        "PMID:12611967",
+        "PMID:12718443",
+        "PMID:12742643",
+        "PMID:12757728",
+        "PMID:14530208",
+        "PMID:14552874",
+        "PMID:14575889",
+        "PMID:15046720",
+        "PMID:15275654",
+        "PMID:15302677",
+        "PMID:15601738",
+        "PMID:15610168",
+        "PMID:16075189",
+        "PMID:16171972",
+        "PMID:16887371",
+        "PMID:17145135",
+        "PMID:17365101",
+        "PMID:17449162",
+        "PMID:17595105",
+        "PMID:17827655",
+        "PMID:17900376",
+        "PMID:18199816",
+        "PMID:19071748",
+        "PMID:19194159",
+        "PMID:19200346",
+        "PMID:19394327",
+        "PMID:19445923",
+        "PMID:19617896",
+        "PMID:19628662",
+        "PMID:20534469",
+        "PMID:20810461",
+        "PMID:20837125",
+        "PMID:21042643",
+        "PMID:21109870",
+        "PMID:21468359",
+        "PMID:21506420",
+        "PMID:21532268",
+        "PMID:21616062",
+        "PMID:21618309",
+        "PMID:21666516",
+        "PMID:21726589",
+        "PMID:22168233",
+        "PMID:22417832",
+        "PMID:23395890",
+        "PMID:25702781",
+        "PMID:25877308",
+        "PMID:25958869",
+        "PMID:26028680",
+        "PMID:26173662",
+        "PMID:26223366",
+        "PMID:26330182",
+        "PMID:26416729",
+        "PMID:26556179",
+        "PMID:26625339",
+        "PMID:9918589",
+        "Reaxys:52979",
+        "Wikipedia:Strychnine"
+    ],
+    "geneontology:hasId": "28973",
+    "geneontology:hasSynonym": [
+        "strychnidin-10-one",
+        "Strychnin",
+        "Strychnine"
+    ],
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#3_STAR"
+    },
+    "rdfs:label": "strychnine",
+    "rdfs:subClassOf": [
+        {
+            "@id": "obo:CHEBI_65323"
+        },
+        {
+            "@id": "obo:CHEBI_52157"
+        },
+        {
+            "@id": "b250_genid-00f1db82e1ab437c844115a94dc63e635-bn28973tmms73f90700"
+        },
+        {
+            "@id": "b250_genid-00f1db82e1ab437c844115a94dc63e635-bn28973t11f33288"
+        },
+        {
+            "@id": "b250_genid-00f1db82e1ab437c844115a94dc63e635-bn28973t11f33289"
+        },
+        {
+            "@id": "b250_genid-00f1db82e1ab437c844115a94dc63e635-bn28973t11f35942"
+        },
+        {
+            "@id": "b250_genid-00f1db82e1ab437c844115a94dc63e635-bn28973t9f36337"
+        },
+        {
+            "@id": "b250_genid-00f1db82e1ab437c844115a94dc63e635-bn28973t11f48873"
+        },
+        {
+            "@id": "b250_genid-00f1db82e1ab437c844115a94dc63e635-bn28973t11f62754"
+        },
+        {
+            "@id": "b250_genid-00f1db82e1ab437c844115a94dc63e635-bn28973t5f90700"
+        }
+    ]
+}

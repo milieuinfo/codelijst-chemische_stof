@@ -1,0 +1,60 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_35290",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "obo:IAO_0000115": "A dichlorobenzene carrying chloro substituents at positions 1 and 2.",
+    "chebi:charge": "0",
+    "chebi:formula": "C6H4Cl2",
+    "chebi:inchi": "InChI=1S/C6H4Cl2/c7-5-3-1-2-4-6(5)8/h1-4H",
+    "chebi:inchikey": "RFFLAFLAYFXFSW-UHFFFAOYSA-N",
+    "chebi:smiles": "Clc1ccccc1Cl",
+    "geneontology:hasDbXref": [
+        "Beilstein:606078",
+        "CAS:95-50-1",
+        "Gmelin:82493",
+        "KEGG:C14328",
+        "MetaCyc:O-DICHLOROBENZENE",
+        "PDBeChem:YAN",
+        "PMID:10048141",
+        "PMID:10698672",
+        "PMID:14168435",
+        "PMID:15792297",
+        "PMID:22165224",
+        "Reaxys:606078",
+        "Wikipedia:1,2-Dichlorobenzene"
+    ],
+    "geneontology:hasId": "35290",
+    "geneontology:hasSynonym": [
+        "1,2-dichlorbenzene",
+        "1,2-Dichlorobenzene",
+        "2-dichlorobenzene",
+        "ODB",
+        "ODCB",
+        "o-dichlorbenzene",
+        "o-dichlorbenzol",
+        "o-Dichlorobenzene",
+        "o-dichlorobenzol",
+        "ortho-dichlorobenzene",
+        "orthodichlorobenzol"
+    ],
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#3_STAR"
+    },
+    "rdfs:label": "1,2-dichlorobenzene",
+    "rdfs:subClassOf": [
+        {
+            "@id": "obo:CHEBI_23697"
+        },
+        {
+            "@id": "b40_genid-00f1db82e1ab437c844115a94dc63e635-bn35290t11f25212"
+        },
+        {
+            "@id": "b40_genid-00f1db82e1ab437c844115a94dc63e635-bn35290t11f50908"
+        }
+    ]
+}

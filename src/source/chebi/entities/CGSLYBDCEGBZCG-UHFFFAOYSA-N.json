@@ -1,0 +1,29 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_188855",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "chebi:charge": "0",
+    "chebi:formula": "C20H27O4P",
+    "chebi:inchi": "InChI=1S/C20H27O4P/c1-3-5-12-18(4-2)17-22-25(21,23-19-13-8-6-9-14-19)24-20-15-10-7-11-16-20/h6-11,13-16,18H,3-5,12,17H2,1-2H3",
+    "chebi:inchikey": "CGSLYBDCEGBZCG-UHFFFAOYSA-N",
+    "chebi:smiles": "P(OCC(CCCC)CC)(OC1=CC=CC=C1)(OC2=CC=CC=C2)=O",
+    "geneontology:hasDbXref": [
+        "CAS:1241-94-7",
+        "Chemspider:14040",
+        "KEGG:D78379"
+    ],
+    "geneontology:hasId": "188855",
+    "geneontology:hasSynonym": "2-ethylhexyl diphenyl phosphate",
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#2_STAR"
+    },
+    "rdfs:label": "Octicizer",
+    "rdfs:subClassOf": {
+        "@id": "obo:CHEBI_36943"
+    }
+}

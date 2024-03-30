@@ -1,0 +1,44 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_35037",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "obo:IAO_0000115": "A trialkyl phosphate that is the tris(2-chloroethyl) ester of phosphoric acid.",
+    "chebi:charge": "0",
+    "chebi:formula": "C6H12Cl3O4P",
+    "chebi:inchi": "InChI=1S/C6H12Cl3O4P/c7-1-4-11-14(10,12-5-2-8)13-6-3-9/h1-6H2",
+    "chebi:inchikey": "HQUQLFOMPYWACS-UHFFFAOYSA-N",
+    "chebi:smiles": "ClCCOP(=O)(OCCCl)OCCCl",
+    "geneontology:hasDbXref": [
+        "Beilstein:1710938",
+        "CAS:115-96-8",
+        "KEGG:C14445",
+        "PMID:19462192",
+        "Reaxys:1710938",
+        "Wikipedia:Tris(2-chloroethyl)_phosphate"
+    ],
+    "geneontology:hasId": "35037",
+    "geneontology:hasSynonym": [
+        "Phosphoric acid, tris(2-chloroethyl)ester",
+        "Tri(2-chloroethyl) phosphate",
+        "Tris(2-chloroethyl) orthophosphate",
+        "Tris(beta-chloroethyl) phosphate",
+        "Tris(chloroethyl)phosphate"
+    ],
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#3_STAR"
+    },
+    "rdfs:label": "tris(2-chloroethyl) phosphate",
+    "rdfs:subClassOf": [
+        {
+            "@id": "obo:CHEBI_36683"
+        },
+        {
+            "@id": "obo:CHEBI_37562"
+        }
+    ]
+}

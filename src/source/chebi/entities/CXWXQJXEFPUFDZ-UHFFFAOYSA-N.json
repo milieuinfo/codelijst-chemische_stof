@@ -1,0 +1,50 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_35008",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "obo:IAO_0000115": "An ortho-fused bicyclic hydrocarbon that is 1,2,3,4-tetrahydro derivative of naphthalene.",
+    "chebi:charge": "0",
+    "chebi:formula": "C10H12",
+    "chebi:inchi": "InChI=1S/C10H12/c1-2-6-10-8-4-3-7-9(10)5-1/h1-2,5-6H,3-4,7-8H2",
+    "chebi:inchikey": "CXWXQJXEFPUFDZ-UHFFFAOYSA-N",
+    "chebi:smiles": "C1CCc2ccccc2C1",
+    "geneontology:hasDbXref": [
+        "Beilstein:1446407",
+        "CAS:119-64-2",
+        "Gmelin:3348",
+        "KEGG:C14114",
+        "PMID:23732916",
+        "PMID:24325207",
+        "Reaxys:1446407",
+        "Wikipedia:Tetralin"
+    ],
+    "geneontology:hasId": "35008",
+    "geneontology:hasSynonym": [
+        "1,2,3,4-tetrahydronaphthalene",
+        "1,2,3,4-Tetrahydronaphthalene",
+        "benzocyclohexane",
+        "naphthalene 1,2,3,4-tetrahydride",
+        "tetralene",
+        "Tetralin"
+    ],
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#3_STAR"
+    },
+    "rdfs:label": "tetralin",
+    "rdfs:subClassOf": [
+        {
+            "@id": "obo:CHEBI_36786"
+        },
+        {
+            "@id": "obo:CHEBI_35428"
+        },
+        {
+            "@id": "b402_genid-00f1db82e1ab437c844115a94dc63e635-bn35008t9f16482"
+        }
+    ]
+}

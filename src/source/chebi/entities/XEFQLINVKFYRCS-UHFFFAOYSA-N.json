@@ -1,0 +1,136 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_164200",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "obo:IAO_0000115": "An aromatic ether that is phenol which is substituted at C-5 by a chloro group and at C-2 by a 2,4-dichlorophenoxy group. It is widely used as a preservative and antimicrobial agent in personal care products such as soaps, skin creams, toothpaste and deodorants as well as in household items such as plastic chopping boards, sports equipment and shoes.",
+    "chebi:charge": "0",
+    "chebi:formula": "C12H7Cl3O2",
+    "chebi:inchi": "InChI=1S/C12H7Cl3O2/c13-7-1-3-11(9(15)5-7)17-12-4-2-8(14)6-10(12)16/h1-6,16H",
+    "chebi:inchikey": "XEFQLINVKFYRCS-UHFFFAOYSA-N",
+    "chebi:smiles": "Oc1cc(Cl)ccc1Oc1ccc(Cl)cc1Cl",
+    "geneontology:hasDbXref": [
+        "PMID:18837732",
+        "Beilstein:2057142",
+        "CAS:3380-34-5",
+        "Drug_Central:3631",
+        "DrugBank:DB08604",
+        "KEGG:C12059",
+        "KEGG:D06226",
+        "LINCS:LSM-2929",
+        "Patent:NL6401526",
+        "Patent:US3506720",
+        "Patent:US3629477",
+        "PDBeChem:TCL",
+        "PMID:11175846",
+        "PMID:11418506",
+        "PMID:15269185",
+        "PMID:17567585",
+        "PMID:18937596",
+        "PMID:19388793",
+        "PMID:21094257",
+        "PMID:21166831",
+        "PMID:21833630",
+        "PMID:22105314",
+        "PMID:22561896",
+        "PMID:22746545",
+        "PMID:23146048",
+        "PMID:23161706",
+        "PMID:23192912",
+        "PMID:23282071",
+        "PMID:23313217",
+        "PMID:23320506",
+        "PMID:23368947",
+        "PMID:23435526",
+        "PMID:23561013",
+        "PMID:23592331",
+        "PMID:23614034",
+        "PMID:23648333",
+        "PMID:23791346",
+        "PMID:23831729",
+        "PMID:23890965",
+        "PMID:23927454",
+        "PMID:24079913",
+        "PMID:25179274",
+        "PMID:28236114",
+        "PMID:28339349",
+        "PMID:28632490",
+        "PMID:28741979",
+        "PMID:29030459",
+        "PMID:29067681",
+        "PMID:29100157",
+        "PMID:29109308",
+        "PMID:29111213",
+        "PMID:29111444",
+        "PMID:29131715",
+        "PMID:29150338",
+        "PMID:29154092",
+        "PMID:29172042",
+        "PMID:29175687",
+        "PMID:29197580",
+        "PMID:29205483",
+        "PMID:29214481",
+        "PMID:29232866",
+        "PMID:29277667",
+        "PMID:29332277",
+        "PMID:29340711",
+        "PMID:29348637",
+        "Reaxys:2057142",
+        "Wikipedia:Triclosan"
+    ],
+    "geneontology:hasId": "164200",
+    "geneontology:hasSynonym": [
+        "triclosan",
+        "2,4,4'-Trichloro-2'-hydroxydiphenyl ether",
+        "5-chloro-2-(2,4-dichlorophenoxy)phenol",
+        "5-Chloro-2-(2,4-dichloro-phenoxy)-phenol",
+        "Triclosan",
+        "triclosanum"
+    ],
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#3_STAR"
+    },
+    "rdfs:label": "triclosan",
+    "rdfs:subClassOf": [
+        {
+            "@id": "obo:CHEBI_33853"
+        },
+        {
+            "@id": "obo:CHEBI_35618"
+        },
+        {
+            "@id": "obo:CHEBI_23697"
+        },
+        {
+            "@id": "obo:CHEBI_83403"
+        },
+        {
+            "@id": "b284_genid-00f1db82e1ab437c844115a94dc63e635-bn164200t11f24127"
+        },
+        {
+            "@id": "b284_genid-00f1db82e1ab437c844115a94dc63e635-bn164200t11f33282"
+        },
+        {
+            "@id": "b284_genid-00f1db82e1ab437c844115a94dc63e635-bn164200t11f35703"
+        },
+        {
+            "@id": "b284_genid-00f1db82e1ab437c844115a94dc63e635-bn164200t11f38068"
+        },
+        {
+            "@id": "b284_genid-00f1db82e1ab437c844115a94dc63e635-bn164200t11f50683"
+        },
+        {
+            "@id": "b284_genid-00f1db82e1ab437c844115a94dc63e635-bn164200t11f77853"
+        },
+        {
+            "@id": "b284_genid-00f1db82e1ab437c844115a94dc63e635-bn164200t11f88188"
+        },
+        {
+            "@id": "b284_genid-00f1db82e1ab437c844115a94dc63e635-bn164200t11f139512"
+        }
+    ]
+}

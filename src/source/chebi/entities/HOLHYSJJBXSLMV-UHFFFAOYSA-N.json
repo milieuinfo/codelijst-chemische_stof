@@ -1,0 +1,37 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_28457",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "obo:IAO_0000115": "A dichlorophenol with the chloro substituents at positions 2 and 6.",
+    "chebi:charge": "0",
+    "chebi:formula": "C6H4Cl2O",
+    "chebi:inchi": "InChI=1S/C6H4Cl2O/c7-4-2-1-3-5(8)6(4)9/h1-3,9H",
+    "chebi:inchikey": "HOLHYSJJBXSLMV-UHFFFAOYSA-N",
+    "chebi:smiles": "Oc1c(Cl)cccc1Cl",
+    "geneontology:hasDbXref": [
+        "CAS:87-65-0",
+        "KEGG:C07096",
+        "MetaCyc:CPD-10865",
+        "PMID:11108396",
+        "Reaxys:1447806",
+        "UM-BBD_compID:c0329",
+        "Wikipedia:2,6-Dichlorophenol"
+    ],
+    "geneontology:hasId": "28457",
+    "geneontology:hasSynonym": [
+        "2,6-DCP",
+        "2,6-Dichlorophenol"
+    ],
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#3_STAR"
+    },
+    "rdfs:label": "2,6-dichlorophenol",
+    "rdfs:subClassOf": {
+        "@id": "obo:CHEBI_23702"
+    }
+}

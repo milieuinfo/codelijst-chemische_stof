@@ -1,0 +1,68 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_3652",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "obo:IAO_0000115": "An N-sulfonylurea that is N-carbamoyl-2-chlorobenzenesulfonamide in which one of the hydrogens attached to the non-sulfonylated nitrogen has been replaced by a 4-methoxy-6-methyl-1,3,5-triazin-2-yl group. A herbicide used for the control of broadleaf weeds in wheat, barley and oats.",
+    "chebi:charge": "0",
+    "chebi:formula": "C12H12ClN5O4S",
+    "chebi:inchi": "InChI=1S/C12H12ClN5O4S/c1-7-14-10(17-12(15-7)22-2)16-11(19)18-23(20,21)9-6-4-3-5-8(9)13/h3-6H,1-2H3,(H2,14,15,16,17,18,19)",
+    "chebi:inchikey": "VJYIFXVZLXQVHO-UHFFFAOYSA-N",
+    "chebi:smiles": "C1(=NC(=NC(=N1)NC(NS(C=2C(=CC=CC2)Cl)(=O)=O)=O)OC)C",
+    "geneontology:hasDbXref": [
+        "CAS:64902-72-3",
+        "KEGG:C05071",
+        "PDBeChem:1CS",
+        "Pesticides:chlorsulfuron",
+        "PMID:15709745",
+        "PMID:16407096",
+        "PMID:23688226",
+        "PMID:28587679",
+        "PMID:29986430",
+        "PMID:31443550",
+        "PPDB:156",
+        "Reaxys:577255"
+    ],
+    "geneontology:hasId": "3652",
+    "geneontology:hasSynonym": [
+        "1-(2-chlorophenylsulfonyl)-3-(4-methoxy-6-methyl-1,3,5-triazin-2-yl)urea",
+        "1-(2-chlorophenylsulphonyl)-3-(4-methoxy-6-methyl-1,3,5-triazin-2-yl)urea",
+        "2-chloro-N-((4-methoxy-6-methyl-1,3,5-triazin-2-yl)aminocarbonyl)-benzenesulfonamide",
+        "2-chloro-N-[(4-methoxy-6-methyl-1,3,5-triazin-2-yl)carbamoyl]benzene-1-sulfonamide",
+        "2-chloro-N-[(4-methoxy-6-methyl-1,3,5-triazin-2-yl)carbamoyl]benzenesulfonamide",
+        "2-chlorsulfuron",
+        "chlorsulfon",
+        "DPX 4189",
+        "Glean",
+        "Telar",
+        "W 4189"
+    ],
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#3_STAR"
+    },
+    "rdfs:label": "chlorsulfuron",
+    "rdfs:subClassOf": [
+        {
+            "@id": "obo:CHEBI_83403"
+        },
+        {
+            "@id": "obo:CHEBI_76983"
+        },
+        {
+            "@id": "b435_genid-00f1db82e1ab437c844115a94dc63e635-bn3652t11f22180"
+        },
+        {
+            "@id": "b435_genid-00f1db82e1ab437c844115a94dc63e635-bn3652t11f24527"
+        },
+        {
+            "@id": "b435_genid-00f1db82e1ab437c844115a94dc63e635-bn3652t11f33286"
+        },
+        {
+            "@id": "obo:CHEBI_38177"
+        }
+    ]
+}

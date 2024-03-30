@@ -1,0 +1,44 @@
+{
+    "@context": {
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "obo": "http://purl.obolibrary.org/obo/"
+    },
+    "@id": "obo:CHEBI_4509",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "obo:IAO_0000115": "The sodium salt of diclofenac.",
+    "chebi:charge": "0",
+    "chebi:inchi": "InChI=1S/C14H11Cl2NO2.Na/c15-10-5-3-6-11(16)14(10)17-12-7-2-1-4-9(12)8-13(18)19;/h1-7,17H,8H2,(H,18,19);/q;+1/p-1",
+    "chebi:inchikey": "KPHWPUGNDIVLNH-UHFFFAOYSA-M",
+    "chebi:smiles": "[Na+].[O-]C(=O)Cc1ccccc1Nc1c(Cl)cccc1Cl",
+    "geneontology:hasDbXref": [
+        "PMID:1502708",
+        "DrugBank:DB00586",
+        "Beilstein:3581138",
+        "CAS:15307-79-6",
+        "KEGG:D00904"
+    ],
+    "geneontology:hasId": "4509",
+    "geneontology:hasSynonym": [
+        "(o-(2,6-dichloroanilino)phenyl)acetic acid monosodium salt",
+        "(o-(2,6-dichloroanilino)phenyl)acetic acid sodium salt",
+        "2-((2,6-dichlorophenyl)amino)benzeneacetic acid monosodium salt",
+        "sodium (o-((2,6-dichlorophenyl)amino)phenyl)acetate",
+        "sodium (o-(2,6-dichloroanilino)phenyl)acetate",
+        "sodium {2-[(2,6-dichlorophenyl)amino]phenyl}acetate",
+        "sodium diclofenac"
+    ],
+    "geneontology:inSubset": {
+        "@id": "obo:chebi#3_STAR"
+    },
+    "rdfs:label": "diclofenac sodium",
+    "rdfs:subClassOf": [
+        {
+            "@id": "obo:CHEBI_38700"
+        },
+        {
+            "@id": "b289_genid-00f1db82e1ab437c844115a94dc63e635-bn4509t10f48311"
+        }
+    ]
+}
