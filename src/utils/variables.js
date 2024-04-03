@@ -1,7 +1,6 @@
 'use strict';
 import yaml from 'js-yaml';
-import fs from "fs";
-
+import fs, {readFileSync} from "fs";
 
 const config = yaml.load(fs.readFileSync('./source/config.yml', 'utf8'));
 
@@ -11,6 +10,32 @@ const context = JSON.parse(fs.readFileSync(config.source.path + config.source.co
 
 const context_prefixes = Object.assign({},context , prefixes)
 
+const context_extra = JSON.parse(readFileSync('./utils/context.json'));
+
+const prefixes_chebi = {
+    altLabel_en : {
+        "@id" : "http://www.w3.org/2004/02/skos/core#altLabel",
+        "@language" : "en"
+    },
+    note_en : {
+        "@id" : "http://www.w3.org/2004/02/skos/core#note",
+        "@language" : "en"
+    },
+    geneontology : "http://www.geneontology.org/formats/oboInOwl#",
+    rdfs : "http://www.w3.org/2000/01/rdf-schema#",
+    obo : "http://purl.obolibrary.org/obo/",
+    uniprot : "http://purl.uniprot.org/",
+    owl : "http://www.w3.org/2002/07/owl#",
+    concept: "https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/",
+    chebi : "http://purl.obolibrary.org/obo/chebi/",
+    skos: "http://www.w3.org/2004/02/skos/core#",
+    dbo: "http://dbpedia.org/ontology/",
+    dbp: "http://dbpedia.org/property/",
+
+    graph : {
+    "@id" : "@graph"
+    }
+}
 
 const frame_skos_prefixes = {
     "@context": context_prefixes,
@@ -91,7 +116,10 @@ const frame_skos_prefixes = {
     },
 
 }
-
+const frame_chebi = {
+    "@context": context_extra,
+    "@type": ["http://www.w3.org/2004/02/skos/core#Concept"]
+}
 
 const frame_skos_no_prefixes = {
     "@context": context,
@@ -192,10 +220,26 @@ const jsonld = [config.skos.path + config.skos.name + '/' + config.skos.name + c
 
 const csv = [config.skos.path + config.skos.name + '/' + config.skos.name + config.skos.csv, frame_skos_no_prefixes]
 
+const chemont_ttl = config.skos.path + config.skos.name + '/' + config.skos.name + '_chemont_taxonomy' + config.skos.turtle
+
+const chemont_jsonld = [config.skos.path + config.skos.name + '/' + config.skos.name + '_chemont_taxonomy' + config.skos.jsonld, frame_skos_prefixes]
+
+const chebi_ttl = config.skos.path + config.skos.name + '/' + config.skos.name + '_chebi' + config.skos.turtle
+
+const chebi_jsonld = [config.skos.path + config.skos.name + '/' + config.skos.name + '_chebi' + config.skos.jsonld, frame_skos_prefixes]
+
 
 export {
+    prefixes_chebi,
+    frame_chebi,
+    config,
     ttl,
     nt,
     jsonld,
-    csv
+    csv,
+    chemont_jsonld,
+    chemont_ttl,
+    chebi_jsonld,
+    chebi_ttl,
+    context_extra
 };
