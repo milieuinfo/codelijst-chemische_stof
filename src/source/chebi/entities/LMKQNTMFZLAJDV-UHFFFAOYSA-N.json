@@ -1,43 +1,45 @@
 {
     "@context": {
-        "chebi": "http://purl.obolibrary.org/obo/chebi/",
         "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
         "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-        "obo": "http://purl.obolibrary.org/obo/"
+        "obo": "http://purl.obolibrary.org/obo/",
+        "uniprot": "http://purl.uniprot.org/",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "concept": "https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/",
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "dbo": "http://dbpedia.org/ontology/",
+        "dbp": "http://dbpedia.org/property/",
+        "altLabel": {
+            "@id": "http://www.w3.org/2004/02/skos/core#altLabel",
+            "@language": "en"
+        },
+        "graph": {
+            "@id": "@graph"
+        }
     },
-    "@id": "obo:CHEBI_83522",
-    "@type": "http://www.w3.org/2002/07/owl#Class",
-    "obo:IAO_0000115": "A diamino-1,3,5-triazine that is 1,3,5-triazine-2,4-diamine substituted by a tert-butyl group at the amino nitrogen and a chloro group at position 6. It is metabolite of the herbicide terbutylazine.",
+    "@id": "concept:LMKQNTMFZLAJDV-UHFFFAOYSA-N",
+    "@type": "skos:Concept",
+    "dbo:formula": "C7H12ClN5",
+    "dbo:inchi": "InChI=1S/C7H12ClN5/c1-7(2,3)13-6-11-4(8)10-5(9)12-6/h1-3H3,(H3,9,10,11,12,13)",
+    "dbo:smiles": "CC(C)(C)Nc1nc(N)nc(Cl)n1",
+    "dbp:inchikey": "LMKQNTMFZLAJDV-UHFFFAOYSA-N",
     "chebi:charge": "0",
-    "chebi:formula": "C7H12ClN5",
-    "chebi:inchi": "InChI=1S/C7H12ClN5/c1-7(2,3)13-6-11-4(8)10-5(9)12-6/h1-3H3,(H3,9,10,11,12,13)",
-    "chebi:inchikey": "LMKQNTMFZLAJDV-UHFFFAOYSA-N",
-    "chebi:smiles": "CC(C)(C)Nc1nc(N)nc(Cl)n1",
-    "geneontology:hasDbXref": [
-        "CAS:30125-63-4",
-        "PMID:22752446",
-        "PMID:22983624",
-        "Reaxys:514392"
-    ],
-    "geneontology:hasId": "83522",
-    "geneontology:hasSynonym": [
+    "skos:altLabel": [
         "6-chloro-N-(1,1-dimethylethyl)-1,3,5-triazine-2,4-diamine",
         "desethylterbuthylazine",
         "N-tert-butyl-6-chloro-1,3,5-triazine-2,4-diamine"
     ],
-    "geneontology:inSubset": {
-        "@id": "obo:chebi#3_STAR"
+    "skos:exactMatch": {
+        "@id": "obo:CHEBI_83522"
     },
-    "rdfs:label": "terbutylazine-desethyl",
-    "rdfs:subClassOf": [
+    "skos:note": "A diamino-1,3,5-triazine that is 1,3,5-triazine-2,4-diamine substituted by a tert-butyl group at the amino nitrogen and a chloro group at position 6. It is metabolite of the herbicide terbutylazine.",
+    "skos:semanticRelation": [
         {
             "@id": "obo:CHEBI_38168"
         },
         {
             "@id": "obo:CHEBI_38170"
-        },
-        {
-            "@id": "b567_genid-00f1db82e1ab437c844115a94dc63e635-bn83522t11f83399"
         }
     ]
 }

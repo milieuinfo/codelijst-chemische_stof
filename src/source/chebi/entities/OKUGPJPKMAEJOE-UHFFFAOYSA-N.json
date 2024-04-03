@@ -1,29 +1,35 @@
 {
     "@context": {
-        "chebi": "http://purl.obolibrary.org/obo/chebi/",
         "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
         "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-        "obo": "http://purl.obolibrary.org/obo/"
+        "obo": "http://purl.obolibrary.org/obo/",
+        "uniprot": "http://purl.uniprot.org/",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "concept": "https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/",
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "dbo": "http://dbpedia.org/ontology/",
+        "dbp": "http://dbpedia.org/property/",
+        "altLabel": {
+            "@id": "http://www.w3.org/2004/02/skos/core#altLabel",
+            "@language": "en"
+        },
+        "graph": {
+            "@id": "@graph"
+        }
     },
-    "@id": "obo:CHEBI_82219",
-    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "@id": "concept:OKUGPJPKMAEJOE-UHFFFAOYSA-N",
+    "@type": "skos:Concept",
+    "dbo:formula": "C10H21NOS",
+    "dbo:inchi": "InChI=1S/C10H21NOS/c1-4-7-11(8-5-2)10(12)13-9-6-3/h4-9H2,1-3H3",
+    "dbo:smiles": "CCCSC(=O)N(CCC)CCC",
+    "dbp:inchikey": "OKUGPJPKMAEJOE-UHFFFAOYSA-N",
     "chebi:charge": "0",
-    "chebi:formula": "C10H21NOS",
-    "chebi:inchi": "InChI=1S/C10H21NOS/c1-4-7-11(8-5-2)10(12)13-9-6-3/h4-9H2,1-3H3",
-    "chebi:inchikey": "OKUGPJPKMAEJOE-UHFFFAOYSA-N",
-    "chebi:smiles": "CCCSC(=O)N(CCC)CCC",
-    "geneontology:hasDbXref": [
-        "CAS:1929-77-7",
-        "KEGG:C19097",
-        "PPDB:679"
-    ],
-    "geneontology:hasId": "82219",
-    "geneontology:hasSynonym": "Vernolate",
-    "geneontology:inSubset": {
-        "@id": "obo:chebi#2_STAR"
+    "skos:altLabel": "Vernolate",
+    "skos:exactMatch": {
+        "@id": "obo:CHEBI_82219"
     },
-    "rdfs:label": "S-propyl dipropylcarbamothioate",
-    "rdfs:subClassOf": {
+    "skos:semanticRelation": {
         "@id": "obo:CHEBI_32876"
     }
 }

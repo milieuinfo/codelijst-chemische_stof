@@ -1,35 +1,42 @@
 {
     "@context": {
-        "chebi": "http://purl.obolibrary.org/obo/chebi/",
         "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
         "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-        "obo": "http://purl.obolibrary.org/obo/"
+        "obo": "http://purl.obolibrary.org/obo/",
+        "uniprot": "http://purl.uniprot.org/",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "concept": "https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/",
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "dbo": "http://dbpedia.org/ontology/",
+        "dbp": "http://dbpedia.org/property/",
+        "altLabel": {
+            "@id": "http://www.w3.org/2004/02/skos/core#altLabel",
+            "@language": "en"
+        },
+        "graph": {
+            "@id": "@graph"
+        }
     },
-    "@id": "obo:CHEBI_49470",
-    "@type": "http://www.w3.org/2002/07/owl#Class",
-    "obo:IAO_0000115": "An aluminium cation that has a charge of +3.",
+    "@id": "concept:REDXJYDRNCIFBQ-UHFFFAOYSA-N",
+    "@type": "skos:Concept",
+    "dbo:formula": "Al",
+    "dbo:inchi": "InChI=1S/Al/q+3",
+    "dbo:smiles": "[Al+3]",
+    "dbp:inchikey": "REDXJYDRNCIFBQ-UHFFFAOYSA-N",
     "chebi:charge": "+3",
-    "chebi:formula": "Al",
-    "chebi:inchi": "InChI=1S/Al/q+3",
-    "chebi:inchikey": "REDXJYDRNCIFBQ-UHFFFAOYSA-N",
-    "chebi:smiles": "[Al+3]",
-    "geneontology:hasDbXref": [
-        "Gmelin:15989",
-        "PDBeChem:AL"
-    ],
-    "geneontology:hasId": "49470",
-    "geneontology:hasSynonym": [
+    "skos:altLabel": [
         "Al(3+)",
         "aluminium(3+) ion",
         "aluminium(III) cation",
         "aluminium ion",
         "ALUMINUM ION"
     ],
-    "geneontology:inSubset": {
-        "@id": "obo:chebi#3_STAR"
+    "skos:exactMatch": {
+        "@id": "obo:CHEBI_49470"
     },
-    "rdfs:label": "aluminium(3+)",
-    "rdfs:subClassOf": [
+    "skos:note": "An aluminium cation that has a charge of +3.",
+    "skos:semanticRelation": [
         {
             "@id": "obo:CHEBI_27153"
         },

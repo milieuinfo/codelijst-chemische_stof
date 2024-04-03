@@ -1,35 +1,31 @@
 {
     "@context": {
-        "chebi": "http://purl.obolibrary.org/obo/chebi/",
         "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
         "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-        "obo": "http://purl.obolibrary.org/obo/"
+        "obo": "http://purl.obolibrary.org/obo/",
+        "uniprot": "http://purl.uniprot.org/",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "concept": "https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/",
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "dbo": "http://dbpedia.org/ontology/",
+        "dbp": "http://dbpedia.org/property/",
+        "altLabel": {
+            "@id": "http://www.w3.org/2004/02/skos/core#altLabel",
+            "@language": "en"
+        },
+        "graph": {
+            "@id": "@graph"
+        }
     },
-    "@id": "obo:CHEBI_28398",
-    "@type": "http://www.w3.org/2002/07/owl#Class",
-    "obo:IAO_0000115": "A dialkyl ketone that is a four-carbon ketone carrying a single keto- group at position C-2.",
+    "@id": "concept:ZWEHNKRNPOVVGH-UHFFFAOYSA-N",
+    "@type": "skos:Concept",
+    "dbo:formula": "C4H8O",
+    "dbo:inchi": "InChI=1S/C4H8O/c1-3-4(2)5/h3H2,1-2H3",
+    "dbo:smiles": "CCC(C)=O",
+    "dbp:inchikey": "ZWEHNKRNPOVVGH-UHFFFAOYSA-N",
     "chebi:charge": "0",
-    "chebi:formula": "C4H8O",
-    "chebi:inchi": "InChI=1S/C4H8O/c1-3-4(2)5/h3H2,1-2H3",
-    "chebi:inchikey": "ZWEHNKRNPOVVGH-UHFFFAOYSA-N",
-    "chebi:smiles": "CCC(C)=O",
-    "http://purl.uniprot.org/core/name": "butan-2-one",
-    "geneontology:hasDbXref": [
-        "Beilstein:741880",
-        "CAS:78-93-3",
-        "Gmelin:25656",
-        "HMDB:HMDB0000474",
-        "KEGG:C02845",
-        "LIPID_MAPS_instance:LMFA12000043",
-        "MetaCyc:MEK",
-        "PMID:20403429",
-        "PMID:23050457",
-        "Reaxys:741880",
-        "UM-BBD_compID:c0020",
-        "Wikipedia:Butanone"
-    ],
-    "geneontology:hasId": "28398",
-    "geneontology:hasSynonym": [
+    "skos:altLabel": [
         "butanone",
         "2-Butanon",
         "2-Butanone",
@@ -53,11 +49,11 @@
         "Methyl ethyl ketone",
         "oxobutane"
     ],
-    "geneontology:inSubset": {
-        "@id": "obo:chebi#3_STAR"
+    "skos:exactMatch": {
+        "@id": "obo:CHEBI_28398"
     },
-    "rdfs:label": "butan-2-one",
-    "rdfs:subClassOf": [
+    "skos:note": "A dialkyl ketone that is a four-carbon ketone carrying a single keto- group at position C-2.",
+    "skos:semanticRelation": [
         {
             "@id": "obo:CHEBI_18044"
         },
@@ -69,12 +65,6 @@
         },
         {
             "@id": "obo:CHEBI_22951"
-        },
-        {
-            "@id": "b573_genid-00f1db82e1ab437c844115a94dc63e635-bn28398t11f48358"
-        },
-        {
-            "@id": "b573_genid-00f1db82e1ab437c844115a94dc63e635-bn28398t11f76969"
         }
     ]
 }

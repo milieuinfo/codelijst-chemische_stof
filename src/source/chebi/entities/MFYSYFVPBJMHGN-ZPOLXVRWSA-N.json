@@ -1,37 +1,31 @@
 {
     "@context": {
-        "chebi": "http://purl.obolibrary.org/obo/chebi/",
         "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
         "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-        "obo": "http://purl.obolibrary.org/obo/"
+        "obo": "http://purl.obolibrary.org/obo/",
+        "uniprot": "http://purl.uniprot.org/",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "concept": "https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/",
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "dbo": "http://dbpedia.org/ontology/",
+        "dbp": "http://dbpedia.org/property/",
+        "altLabel": {
+            "@id": "http://www.w3.org/2004/02/skos/core#altLabel",
+            "@language": "en"
+        },
+        "graph": {
+            "@id": "@graph"
+        }
     },
-    "@id": "obo:CHEBI_16962",
-    "@type": "http://www.w3.org/2002/07/owl#Class",
-    "obo:IAO_0000115": "A C21-steroid that is pregn-4-ene substituted by hydroxy groups at positions 17 and 21 and oxo group at positions 3, 11 and 20.",
+    "@id": "concept:MFYSYFVPBJMHGN-ZPOLXVRWSA-N",
+    "@type": "skos:Concept",
+    "dbo:formula": "C21H28O5",
+    "dbo:inchi": "InChI=1S/C21H28O5/c1-19-7-5-13(23)9-12(19)3-4-14-15-6-8-21(26,17(25)11-22)20(15,2)10-16(24)18(14)19/h9,14-15,18,22,26H,3-8,10-11H2,1-2H3/t14-,15-,18+,19-,20-,21-/m0/s1",
+    "dbo:smiles": "[H][C@@]12CCC3=CC(=O)CC[C@]3(C)[C@@]1([H])C(=O)C[C@@]1(C)[C@@]2([H])CC[C@]1(O)C(=O)CO",
+    "dbp:inchikey": "MFYSYFVPBJMHGN-ZPOLXVRWSA-N",
     "chebi:charge": "0",
-    "chebi:formula": "C21H28O5",
-    "chebi:inchi": "InChI=1S/C21H28O5/c1-19-7-5-13(23)9-12(19)3-4-14-15-6-8-21(26,17(25)11-22)20(15,2)10-16(24)18(14)19/h9,14-15,18,22,26H,3-8,10-11H2,1-2H3/t14-,15-,18+,19-,20-,21-/m0/s1",
-    "chebi:inchikey": "MFYSYFVPBJMHGN-ZPOLXVRWSA-N",
-    "chebi:smiles": "[H][C@@]12CCC3=CC(=O)CC[C@]3(C)[C@@]1([H])C(=O)C[C@@]1(C)[C@@]2([H])CC[C@]1(O)C(=O)CO",
-    "http://purl.uniprot.org/core/name": "cortisone",
-    "geneontology:hasDbXref": [
-        "Beilstein:1356062",
-        "CAS:53-06-5",
-        "HMDB:HMDB0002802",
-        "KEGG:C00762",
-        "KEGG:D07749",
-        "LIPID_MAPS_instance:LMST02030090",
-        "MetaCyc:CORTISONE",
-        "PMID:11710540",
-        "PMID:14874924",
-        "PMID:2268561",
-        "PMID:24391193",
-        "PMID:8989250",
-        "Reaxys:1356062",
-        "Wikipedia:Cortisone"
-    ],
-    "geneontology:hasId": "16962",
-    "geneontology:hasSynonym": [
+    "skos:altLabel": [
         "11-dehydro-17-hydroxycorticosterone",
         "17,21-dihydroxypregn-4-ene-3,11,20-trione",
         "17alpha,21-dihydroxy-4-pregnene-3,11,20-trione",
@@ -47,11 +41,11 @@
         "Reichstein's substance Fa",
         "Wintersteiner's compound F"
     ],
-    "geneontology:inSubset": {
-        "@id": "obo:chebi#3_STAR"
+    "skos:exactMatch": {
+        "@id": "obo:CHEBI_16962"
     },
-    "rdfs:label": "cortisone",
-    "rdfs:subClassOf": [
+    "skos:note": "A C21-steroid that is pregn-4-ene substituted by hydroxy groups at positions 17 and 21 and oxo group at positions 3, 11 and 20.",
+    "skos:semanticRelation": [
         {
             "@id": "obo:CHEBI_47787"
         },
@@ -78,15 +72,6 @@
         },
         {
             "@id": "obo:CHEBI_24261"
-        },
-        {
-            "@id": "b657_genid-00f1db82e1ab437c844115a94dc63e635-bn16962t9f8386"
-        },
-        {
-            "@id": "b657_genid-00f1db82e1ab437c844115a94dc63e635-bn16962t11f75771"
-        },
-        {
-            "@id": "b657_genid-00f1db82e1ab437c844115a94dc63e635-bn16962t11f77746"
         }
     ]
 }

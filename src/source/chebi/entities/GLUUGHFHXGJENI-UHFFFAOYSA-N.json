@@ -1,49 +1,27 @@
 {
     "@context": {
-        "chebi": "http://purl.obolibrary.org/obo/chebi/",
         "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
         "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-        "obo": "http://purl.obolibrary.org/obo/"
+        "obo": "http://purl.obolibrary.org/obo/",
+        "uniprot": "http://purl.uniprot.org/",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "concept": "https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/",
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "dbo": "http://dbpedia.org/ontology/",
+        "dbp": "http://dbpedia.org/property/",
+        "graph": {
+            "@id": "@graph"
+        }
     },
-    "@id": "obo:CHEBI_28568",
-    "@type": "http://www.w3.org/2002/07/owl#Class",
-    "obo:IAO_0000115": "An azacycloalkane that consists of a six-membered ring containing two nitrogen atoms at opposite positions.",
+    "@id": "concept:GLUUGHFHXGJENI-UHFFFAOYSA-N",
+    "@type": "skos:Concept",
+    "dbo:formula": "C4H10N2",
+    "dbo:inchi": "InChI=1S/C4H10N2/c1-2-6-4-3-5-1/h5-6H,1-4H2",
+    "dbo:smiles": "C1CNCCN1",
+    "dbp:inchikey": "GLUUGHFHXGJENI-UHFFFAOYSA-N",
     "chebi:charge": "0",
-    "chebi:formula": "C4H10N2",
-    "chebi:inchi": "InChI=1S/C4H10N2/c1-2-6-4-3-5-1/h5-6H,1-4H2",
-    "chebi:inchikey": "GLUUGHFHXGJENI-UHFFFAOYSA-N",
-    "chebi:smiles": "C1CNCCN1",
-    "geneontology:hasDbXref": [
-        "PMID:29438107",
-        "PMID:15017096",
-        "Beilstein:102555",
-        "CAS:110-85-0",
-        "CAS:142-88-1",
-        "Chemspider:13835459",
-        "Drug_Central:2188",
-        "DrugBank:DB00592",
-        "FooDB:FDB012189",
-        "Gmelin:25695",
-        "HMDB:HMDB0014730",
-        "KEGG:C07973",
-        "KEGG:D00807",
-        "KEGG:D02145",
-        "MetaCyc:PIPERAZINE",
-        "PDBeChem:PZE",
-        "Pesticides:piperazine",
-        "PMID:16987490",
-        "PMID:24201896",
-        "PMID:28842264",
-        "PMID:32912125",
-        "PMID:33336346",
-        "PMID:33751807",
-        "PMID:9265850",
-        "Reaxys:102555",
-        "VSDB:1781",
-        "Wikipedia:Piperazine"
-    ],
-    "geneontology:hasId": "28568",
-    "geneontology:hasSynonym": [
+    "skos:altLabel": [
         "1,4-diazacyclohexane",
         "1,4-diethylenediamine",
         "1,4-piperazine",
@@ -53,11 +31,11 @@
         "Piperazine",
         "Vermizine (TN)"
     ],
-    "geneontology:inSubset": {
-        "@id": "obo:chebi#3_STAR"
+    "skos:exactMatch": {
+        "@id": "obo:CHEBI_28568"
     },
-    "rdfs:label": "piperazine",
-    "rdfs:subClassOf": [
+    "skos:note": "An azacycloalkane that consists of a six-membered ring containing two nitrogen atoms at opposite positions.",
+    "skos:semanticRelation": [
         {
             "@id": "obo:CHEBI_36389"
         },
@@ -66,12 +44,6 @@
         },
         {
             "@id": "obo:CHEBI_37949"
-        },
-        {
-            "@id": "b736_genid-00f1db82e1ab437c844115a94dc63e635-bn28568t11f35443"
-        },
-        {
-            "@id": "b736_genid-00f1db82e1ab437c844115a94dc63e635-bn28568t5f136874"
         }
     ]
 }

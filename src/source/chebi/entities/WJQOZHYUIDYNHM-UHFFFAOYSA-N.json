@@ -1,27 +1,21 @@
 {
     "@context": {
-        "chebi": "http://purl.obolibrary.org/obo/chebi/",
         "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
         "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-        "obo": "http://purl.obolibrary.org/obo/"
-    },
-    "@id": "obo:CHEBI_34305",
-    "@type": "http://www.w3.org/2002/07/owl#Class",
-    "chebi:charge": "0",
-    "chebi:formula": "C10H14O",
-    "chebi:inchi": "InChI=1S/C10H14O/c1-10(2,3)8-6-4-5-7-9(8)11/h4-7,11H,1-3H3",
-    "chebi:inchikey": "WJQOZHYUIDYNHM-UHFFFAOYSA-N",
-    "chebi:smiles": "CC(C)(C)c1ccccc1O",
-    "geneontology:hasDbXref": [
-        "CAS:88-18-6",
-        "KEGG:C14130"
-    ],
-    "geneontology:hasId": "34305",
-    "geneontology:inSubset": {
-        "@id": "obo:chebi#2_STAR"
-    },
-    "rdfs:label": "2-tert-Butylphenol",
-    "rdfs:subClassOf": {
-        "@id": "obo:CHEBI_38976"
+        "obo": "http://purl.obolibrary.org/obo/",
+        "uniprot": "http://purl.uniprot.org/",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "concept": "https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/",
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "dbo": "http://dbpedia.org/ontology/",
+        "dbp": "http://dbpedia.org/property/",
+        "altLabel": {
+            "@id": "http://www.w3.org/2004/02/skos/core#altLabel",
+            "@language": "en"
+        },
+        "graph": {
+            "@id": "@graph"
+        }
     }
 }

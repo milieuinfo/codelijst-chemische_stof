@@ -1,33 +1,27 @@
 {
     "@context": {
-        "chebi": "http://purl.obolibrary.org/obo/chebi/",
         "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
         "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-        "obo": "http://purl.obolibrary.org/obo/"
+        "obo": "http://purl.obolibrary.org/obo/",
+        "uniprot": "http://purl.uniprot.org/",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "concept": "https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/",
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "dbo": "http://dbpedia.org/ontology/",
+        "dbp": "http://dbpedia.org/property/",
+        "graph": {
+            "@id": "@graph"
+        }
     },
-    "@id": "obo:CHEBI_82388",
-    "@type": "http://www.w3.org/2002/07/owl#Class",
-    "obo:IAO_0000115": "A substituted aniline that is aniline in which the hydrogen para to the amino group has been replaced by a methoxy group. It is used as a reagent for the detection of oxidation products such as aldehydes and ketones in fats and oils.",
+    "@id": "concept:BHAAPTBBJKJZER-UHFFFAOYSA-N",
+    "@type": "skos:Concept",
+    "dbo:formula": "C7H9NO",
+    "dbo:inchi": "InChI=1S/C7H9NO/c1-9-7-4-2-6(8)3-5-7/h2-5H,8H2,1H3",
+    "dbo:smiles": "C1=C(C=CC(=C1)OC)N",
+    "dbp:inchikey": "BHAAPTBBJKJZER-UHFFFAOYSA-N",
     "chebi:charge": "0",
-    "chebi:formula": "C7H9NO",
-    "chebi:inchi": "InChI=1S/C7H9NO/c1-9-7-4-2-6(8)3-5-7/h2-5H,8H2,1H3",
-    "chebi:inchikey": "BHAAPTBBJKJZER-UHFFFAOYSA-N",
-    "chebi:smiles": "C1=C(C=CC(=C1)OC)N",
-    "http://purl.uniprot.org/core/name": "4-methoxyaniline",
-    "geneontology:hasDbXref": [
-        "AGR:IND22044074",
-        "AGR:IND500608564",
-        "CAS:104-94-9",
-        "FooDB:FDB000339",
-        "HMDB:HMDB0029300",
-        "KEGG:C19326",
-        "PMID:12643317",
-        "PMID:12929121",
-        "PMID:18966208",
-        "Wikipedia:P-Anisidine"
-    ],
-    "geneontology:hasId": "82388",
-    "geneontology:hasSynonym": [
+    "skos:altLabel": [
         "1-amino-4-methoxybenzene",
         "4-aminoanisole",
         "4-anisidine",
@@ -40,11 +34,11 @@
         "p-methoxyaniline",
         "p-methoxyphenylamine"
     ],
-    "geneontology:inSubset": {
-        "@id": "obo:chebi#3_STAR"
+    "skos:exactMatch": {
+        "@id": "obo:CHEBI_82388"
     },
-    "rdfs:label": "p-anisidine",
-    "rdfs:subClassOf": [
+    "skos:note": "A substituted aniline that is aniline in which the hydrogen para to the amino group has been replaced by a methoxy group. It is used as a reagent for the detection of oxidation products such as aldehydes and ketones in fats and oils.",
+    "skos:semanticRelation": [
         {
             "@id": "obo:CHEBI_51683"
         },
@@ -53,12 +47,6 @@
         },
         {
             "@id": "obo:CHEBI_48975"
-        },
-        {
-            "@id": "b169_genid-00f1db82e1ab437c844115a94dc63e635-bn82388t11f33893"
-        },
-        {
-            "@id": "b169_genid-00f1db82e1ab437c844115a94dc63e635-bn82388t11f50902"
         }
     ]
 }

@@ -1,41 +1,39 @@
 {
     "@context": {
-        "chebi": "http://purl.obolibrary.org/obo/chebi/",
         "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
         "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-        "obo": "http://purl.obolibrary.org/obo/"
+        "obo": "http://purl.obolibrary.org/obo/",
+        "uniprot": "http://purl.uniprot.org/",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "concept": "https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/",
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "dbo": "http://dbpedia.org/ontology/",
+        "dbp": "http://dbpedia.org/property/",
+        "altLabel": {
+            "@id": "http://www.w3.org/2004/02/skos/core#altLabel",
+            "@language": "en"
+        },
+        "graph": {
+            "@id": "@graph"
+        }
     },
-    "@id": "obo:CHEBI_27815",
-    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "@id": "concept:ROVGZAWFACYCSP-VUMXUWRFSA-N",
+    "@type": "skos:Concept",
+    "dbo:formula": "C21H28O3",
+    "dbo:inchi": "InChI=1S/C21H28O3/c1-7-8-9-10-15-14(4)18(12-17(15)22)24-20(23)19-16(11-13(2)3)21(19,5)6/h7-9,11,16,18-19H,1,10,12H2,2-6H3/b9-8-/t16-,18+,19+/m1/s1",
+    "dbo:smiles": "CC(C)=C[C@@H]1[C@@H](C(=O)O[C@H]2CC(=O)C(C\\C=C/C=C)=C2C)C1(C)C",
+    "dbp:inchikey": "ROVGZAWFACYCSP-VUMXUWRFSA-N",
     "chebi:charge": "0",
-    "chebi:formula": "C21H28O3",
-    "chebi:inchi": "InChI=1S/C21H28O3/c1-7-8-9-10-15-14(4)18(12-17(15)22)24-20(23)19-16(11-13(2)3)21(19,5)6/h7-9,11,16,18-19H,1,10,12H2,2-6H3/b9-8-/t16-,18+,19+/m1/s1",
-    "chebi:inchikey": "ROVGZAWFACYCSP-VUMXUWRFSA-N",
-    "chebi:smiles": "CC(C)=C[C@@H]1[C@@H](C(=O)O[C@H]2CC(=O)C(C\\C=C/C=C)=C2C)C1(C)C",
-    "http://purl.uniprot.org/core/name": "pyrethrin I",
-    "geneontology:hasDbXref": [
-        "Beilstein:2004306",
-        "CAS:121-21-1",
-        "KEGG:C07594",
-        "KEGG:D08452",
-        "KNApSAcK:C00003056"
-    ],
-    "geneontology:hasId": "27815",
-    "geneontology:hasSynonym": [
+    "skos:altLabel": [
         "(1S)-2-methyl-4-oxo-3-[(2Z)-penta-2,4-dien-1-yl]cyclopent-2-en-1-yl (1R,3R)-2,2-dimethyl-3-(2-methylprop-1-en-1-yl)cyclopropanecarboxylate",
         "chrysanthemum monocarboxylic acid pyrethrolone ester",
         "Pyrethrin I"
     ],
-    "geneontology:inSubset": {
-        "@id": "obo:chebi#3_STAR"
+    "skos:exactMatch": {
+        "@id": "obo:CHEBI_27815"
     },
-    "rdfs:label": "pyrethrin I",
-    "rdfs:subClassOf": [
-        {
-            "@id": "obo:CHEBI_39098"
-        },
-        {
-            "@id": "b484_genid-00f1db82e1ab437c844115a94dc63e635-bn27815t8f39111"
-        }
-    ]
+    "skos:semanticRelation": {
+        "@id": "obo:CHEBI_39098"
+    }
 }

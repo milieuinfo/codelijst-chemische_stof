@@ -1,29 +1,31 @@
 {
     "@context": {
-        "chebi": "http://purl.obolibrary.org/obo/chebi/",
         "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
         "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-        "obo": "http://purl.obolibrary.org/obo/"
+        "obo": "http://purl.obolibrary.org/obo/",
+        "uniprot": "http://purl.uniprot.org/",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "concept": "https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/",
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "dbo": "http://dbpedia.org/ontology/",
+        "dbp": "http://dbpedia.org/property/",
+        "graph": {
+            "@id": "@graph"
+        }
     },
-    "@id": "obo:CHEBI_196451",
-    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "@id": "concept:BPRYUXCVCCNUFE-UHFFFAOYSA-N",
+    "@type": "skos:Concept",
+    "dbo:formula": "C9H12O",
+    "dbo:inchi": "InChI=1S/C9H12O/c1-6-4-7(2)9(10)8(3)5-6/h4-5,10H,1-3H3",
+    "dbo:smiles": "OC1=C(C=C(C=C1C)C)C",
+    "dbp:inchikey": "BPRYUXCVCCNUFE-UHFFFAOYSA-N",
     "chebi:charge": "0",
-    "chebi:formula": "C9H12O",
-    "chebi:inchi": "InChI=1S/C9H12O/c1-6-4-7(2)9(10)8(3)5-6/h4-5,10H,1-3H3",
-    "chebi:inchikey": "BPRYUXCVCCNUFE-UHFFFAOYSA-N",
-    "chebi:smiles": "OC1=C(C=C(C=C1C)C)C",
-    "geneontology:hasDbXref": [
-        "CAS:527-60-6",
-        "Chemspider:10248",
-        "HMDB:HMDB0032544"
-    ],
-    "geneontology:hasId": "196451",
-    "geneontology:hasSynonym": "2,4,6-trimethylphenol",
-    "geneontology:inSubset": {
-        "@id": "obo:chebi#2_STAR"
+    "skos:altLabel": "2,4,6-trimethylphenol",
+    "skos:exactMatch": {
+        "@id": "obo:CHEBI_196451"
     },
-    "rdfs:label": "2,4,6-Trimethylphenol",
-    "rdfs:subClassOf": {
+    "skos:semanticRelation": {
         "@id": "obo:CHEBI_24751"
     }
 }

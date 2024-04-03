@@ -1,28 +1,35 @@
 {
     "@context": {
-        "chebi": "http://purl.obolibrary.org/obo/chebi/",
         "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
         "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-        "obo": "http://purl.obolibrary.org/obo/"
+        "obo": "http://purl.obolibrary.org/obo/",
+        "uniprot": "http://purl.uniprot.org/",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "concept": "https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/",
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "dbo": "http://dbpedia.org/ontology/",
+        "dbp": "http://dbpedia.org/property/",
+        "altLabel": {
+            "@id": "http://www.w3.org/2004/02/skos/core#altLabel",
+            "@language": "en"
+        },
+        "graph": {
+            "@id": "@graph"
+        }
     },
-    "@id": "obo:CHEBI_183423",
-    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "@id": "concept:ZRIKZVLHMGYCIR-NSHDSACASA-N",
+    "@type": "skos:Concept",
+    "dbo:formula": "C14H19NO4",
+    "dbo:inchi": "InChI=1S/C14H19NO4/c1-9-6-5-7-10(2)13(9)15(11(3)14(17)18)12(16)8-19-4/h5-7,11H,8H2,1-4H3,(H,17,18)/t11-/m0/s1",
+    "dbo:smiles": "O(CC(=O)N(C1=C(C=CC=C1C)C)[C@@H](C)C(O)=O)C",
+    "dbp:inchikey": "ZRIKZVLHMGYCIR-NSHDSACASA-N",
     "chebi:charge": "0",
-    "chebi:formula": "C14H19NO4",
-    "chebi:inchi": "InChI=1S/C14H19NO4/c1-9-6-5-7-10(2)13(9)15(11(3)14(17)18)12(16)8-19-4/h5-7,11H,8H2,1-4H3,(H,17,18)/t11-/m0/s1",
-    "chebi:inchikey": "ZRIKZVLHMGYCIR-NSHDSACASA-N",
-    "chebi:smiles": "O(CC(=O)N(C1=C(C=CC=C1C)C)[C@@H](C)C(O)=O)C",
-    "geneontology:hasDbXref": [
-        "CAS:87764-37-2",
-        "Chemspider:139976"
-    ],
-    "geneontology:hasId": "183423",
-    "geneontology:hasSynonym": "(2S)-2-(N-(2-methoxyacetyl)-2,6-dimethylanilino)propanoic acid",
-    "geneontology:inSubset": {
-        "@id": "obo:chebi#2_STAR"
+    "skos:altLabel": "(2S)-2-(N-(2-methoxyacetyl)-2,6-dimethylanilino)propanoic acid",
+    "skos:exactMatch": {
+        "@id": "obo:CHEBI_183423"
     },
-    "rdfs:label": "N-(2,6-Dimethylphenyl)-N-(methoxyacetyl) alanine",
-    "rdfs:subClassOf": {
+    "skos:semanticRelation": {
         "@id": "obo:CHEBI_21644"
     }
 }

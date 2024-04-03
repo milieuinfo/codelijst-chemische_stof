@@ -1,85 +1,31 @@
 {
     "@context": {
-        "chebi": "http://purl.obolibrary.org/obo/chebi/",
         "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
         "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-        "obo": "http://purl.obolibrary.org/obo/"
+        "obo": "http://purl.obolibrary.org/obo/",
+        "uniprot": "http://purl.uniprot.org/",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "concept": "https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/",
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "dbo": "http://dbpedia.org/ontology/",
+        "dbp": "http://dbpedia.org/property/",
+        "altLabel": {
+            "@id": "http://www.w3.org/2004/02/skos/core#altLabel",
+            "@language": "en"
+        },
+        "graph": {
+            "@id": "@graph"
+        }
     },
-    "@id": "obo:CHEBI_17754",
-    "@type": "http://www.w3.org/2002/07/owl#Class",
-    "obo:IAO_0000115": "A triol with a structure of propane substituted at positions 1, 2 and 3 by hydroxy groups.",
+    "@id": "concept:PEDCQBHIVMGVHV-UHFFFAOYSA-N",
+    "@type": "skos:Concept",
+    "dbo:formula": "C3H8O3",
+    "dbo:inchi": "InChI=1S/C3H8O3/c4-1-3(6)2-5/h3-6H,1-2H2",
+    "dbo:smiles": "OCC(O)CO",
+    "dbp:inchikey": "PEDCQBHIVMGVHV-UHFFFAOYSA-N",
     "chebi:charge": "0",
-    "chebi:formula": "C3H8O3",
-    "chebi:inchi": "InChI=1S/C3H8O3/c4-1-3(6)2-5/h3-6H,1-2H2",
-    "chebi:inchikey": "PEDCQBHIVMGVHV-UHFFFAOYSA-N",
-    "chebi:smiles": "OCC(O)CO",
-    "http://purl.uniprot.org/core/name": "glycerol",
-    "geneontology:hasDbXref": [
-        "PMID:17439666",
-        "PMID:17336832",
-        "PMID:16901854",
-        "PMID:17979222",
-        "PMID:24643482",
-        "PMID:25108762",
-        "PMID:16664750",
-        "Beilstein:635685",
-        "CAS:56-81-5",
-        "Chemspider:733",
-        "Drug_Central:1316",
-        "DrugBank:DB04077",
-        "ECMDB:ECMDB00131",
-        "FooDB:FDB000756",
-        "Gmelin:26279",
-        "HMDB:HMDB0000131",
-        "KEGG:C00116",
-        "KEGG:D00028",
-        "KNApSAcK:C00001163",
-        "LINCS:LSM-37180",
-        "MetaCyc:GLYCEROL",
-        "PDB:2AJS",
-        "PDB:2D03",
-        "PDBeChem:GOL",
-        "PMID:11302662",
-        "PMID:11958517",
-        "PMID:11994365",
-        "PMID:12672239",
-        "PMID:12687625",
-        "PMID:12689633",
-        "PMID:12713573",
-        "PMID:14559393",
-        "PMID:14563847",
-        "PMID:15026783",
-        "PMID:15342117",
-        "PMID:15786693",
-        "PMID:15983192",
-        "PMID:16244855",
-        "PMID:16258193",
-        "PMID:16319039",
-        "PMID:16349488",
-        "PMID:16475911",
-        "PMID:16651733",
-        "PMID:19184438",
-        "PMID:19231894",
-        "PMID:19460032",
-        "PMID:19548674",
-        "PMID:19795216",
-        "PMID:19956799",
-        "PMID:22705534",
-        "PMID:23562176",
-        "PMID:23747440",
-        "PMID:24835191",
-        "PMID:558160",
-        "PMID:6299616",
-        "PMID:7031247",
-        "PMID:7392035",
-        "PPDB:1317",
-        "Reaxys:635685",
-        "UM-BBD_compID:c0066",
-        "Wikipedia:Glycerol",
-        "YMDB:YMDB00283"
-    ],
-    "geneontology:hasId": "17754",
-    "geneontology:hasSynonym": [
+    "skos:altLabel": [
         "glycerol",
         "1,2,3-Propanetriol",
         "1,2,3-Trihydroxypropane",
@@ -97,43 +43,16 @@
         "Propanetriol",
         "Trihydroxypropane"
     ],
-    "geneontology:inSubset": {
-        "@id": "obo:chebi#3_STAR"
+    "skos:exactMatch": {
+        "@id": "obo:CHEBI_17754"
     },
-    "rdfs:label": "glycerol",
-    "rdfs:subClassOf": [
+    "skos:note": "A triol with a structure of propane substituted at positions 1, 2 and 3 by hydroxy groups.",
+    "skos:semanticRelation": [
         {
             "@id": "obo:CHEBI_17522"
         },
         {
             "@id": "obo:CHEBI_27136"
-        },
-        {
-            "@id": "b122_genid-00f1db82e1ab437c844115a94dc63e635-bn17754t11f25728"
-        },
-        {
-            "@id": "b122_genid-00f1db82e1ab437c844115a94dc63e635-bn17754t11f27780"
-        },
-        {
-            "@id": "b122_genid-00f1db82e1ab437c844115a94dc63e635-bn17754t11f46787"
-        },
-        {
-            "@id": "b122_genid-00f1db82e1ab437c844115a94dc63e635-bn17754t11f75771"
-        },
-        {
-            "@id": "b122_genid-00f1db82e1ab437c844115a94dc63e635-bn17754t11f75772"
-        },
-        {
-            "@id": "b122_genid-00f1db82e1ab437c844115a94dc63e635-bn17754t11f76971"
-        },
-        {
-            "@id": "b122_genid-00f1db82e1ab437c844115a94dc63e635-bn17754t11f77746"
-        },
-        {
-            "@id": "b122_genid-00f1db82e1ab437c844115a94dc63e635-bn17754t11f84735"
-        },
-        {
-            "@id": "b122_genid-00f1db82e1ab437c844115a94dc63e635-bn17754t11f176497"
         }
     ]
 }

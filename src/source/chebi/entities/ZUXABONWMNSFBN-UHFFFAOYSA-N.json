@@ -1,24 +1,21 @@
 {
     "@context": {
-        "chebi": "http://purl.obolibrary.org/obo/chebi/",
         "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
         "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-        "obo": "http://purl.obolibrary.org/obo/"
-    },
-    "@id": "obo:CHEBI_92657",
-    "@type": "http://www.w3.org/2002/07/owl#Class",
-    "chebi:charge": "0",
-    "chebi:formula": "C18H19ClN4",
-    "chebi:inchi": "InChI=1S/C18H19ClN4/c1-22-8-10-23(11-9-22)18-14-4-2-3-5-15(14)20-16-7-6-13(19)12-17(16)21-18/h2-7,12,21H,8-11H2,1H3",
-    "chebi:inchikey": "ZUXABONWMNSFBN-UHFFFAOYSA-N",
-    "chebi:smiles": "CN1CCN(CC1)C2=C3C=CC=CC3=NC4=C(N2)C=C(C=C4)Cl",
-    "geneontology:hasDbXref": "LINCS:LSM-2823",
-    "geneontology:hasId": "92657",
-    "geneontology:inSubset": {
-        "@id": "obo:chebi#2_STAR"
-    },
-    "rdfs:label": "3-chloro-6-(4-methyl-1-piperazinyl)-5H-benzo[b][1,4]benzodiazepine",
-    "rdfs:subClassOf": {
-        "@id": "obo:CHEBI_64051"
+        "obo": "http://purl.obolibrary.org/obo/",
+        "uniprot": "http://purl.uniprot.org/",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "concept": "https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/",
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "dbo": "http://dbpedia.org/ontology/",
+        "dbp": "http://dbpedia.org/property/",
+        "altLabel": {
+            "@id": "http://www.w3.org/2004/02/skos/core#altLabel",
+            "@language": "en"
+        },
+        "graph": {
+            "@id": "@graph"
+        }
     }
 }

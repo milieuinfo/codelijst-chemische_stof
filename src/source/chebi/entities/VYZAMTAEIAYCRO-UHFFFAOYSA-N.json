@@ -1,25 +1,31 @@
 {
     "@context": {
-        "chebi": "http://purl.obolibrary.org/obo/chebi/",
         "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
         "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-        "obo": "http://purl.obolibrary.org/obo/"
+        "obo": "http://purl.obolibrary.org/obo/",
+        "uniprot": "http://purl.uniprot.org/",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "concept": "https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/",
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "dbo": "http://dbpedia.org/ontology/",
+        "dbp": "http://dbpedia.org/property/",
+        "altLabel": {
+            "@id": "http://www.w3.org/2004/02/skos/core#altLabel",
+            "@language": "en"
+        },
+        "graph": {
+            "@id": "@graph"
+        }
     },
-    "@id": "obo:CHEBI_28073",
-    "@type": "http://www.w3.org/2002/07/owl#Class",
-    "obo:IAO_0000115": "A chromium group element atom that has atomic number 24.",
+    "@id": "concept:VYZAMTAEIAYCRO-UHFFFAOYSA-N",
+    "@type": "skos:Concept",
+    "dbo:formula": "Cr",
+    "dbo:inchi": "InChI=1S/Cr",
+    "dbo:smiles": "[Cr]",
+    "dbp:inchikey": "VYZAMTAEIAYCRO-UHFFFAOYSA-N",
     "chebi:charge": "0",
-    "chebi:formula": "Cr",
-    "chebi:inchi": "InChI=1S/Cr",
-    "chebi:inchikey": "VYZAMTAEIAYCRO-UHFFFAOYSA-N",
-    "chebi:smiles": "[Cr]",
-    "geneontology:hasDbXref": [
-        "CAS:7440-47-3",
-        "KEGG:C06268",
-        "WebElements:Cr"
-    ],
-    "geneontology:hasId": "28073",
-    "geneontology:hasSynonym": [
+    "skos:altLabel": [
         "Cr",
         "24Cr",
         "Chrom",
@@ -28,19 +34,16 @@
         "Chromium",
         "cromo"
     ],
-    "geneontology:inSubset": {
-        "@id": "obo:chebi#3_STAR"
+    "skos:exactMatch": {
+        "@id": "obo:CHEBI_28073"
     },
-    "rdfs:label": "chromium atom",
-    "rdfs:subClassOf": [
+    "skos:note": "A chromium group element atom that has atomic number 24.",
+    "skos:semanticRelation": [
         {
             "@id": "obo:CHEBI_88184"
         },
         {
             "@id": "obo:CHEBI_33350"
-        },
-        {
-            "@id": "b1031_genid-00f1db82e1ab437c844115a94dc63e635-bn28073t11f27027"
         }
     ]
 }

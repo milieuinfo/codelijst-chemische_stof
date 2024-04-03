@@ -1,36 +1,40 @@
 {
     "@context": {
-        "chebi": "http://purl.obolibrary.org/obo/chebi/",
         "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
         "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-        "obo": "http://purl.obolibrary.org/obo/"
+        "obo": "http://purl.obolibrary.org/obo/",
+        "uniprot": "http://purl.uniprot.org/",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "concept": "https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/",
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "dbo": "http://dbpedia.org/ontology/",
+        "dbp": "http://dbpedia.org/property/",
+        "altLabel": {
+            "@id": "http://www.w3.org/2004/02/skos/core#altLabel",
+            "@language": "en"
+        },
+        "graph": {
+            "@id": "@graph"
+        }
     },
-    "@id": "obo:CHEBI_33363",
-    "@type": "http://www.w3.org/2002/07/owl#Class",
-    "obo:IAO_0000115": "Chemical element (nickel group element atom) with atomic number 46.",
+    "@id": "concept:KDLHZDBZIXYQEI-UHFFFAOYSA-N",
+    "@type": "skos:Concept",
+    "dbo:formula": "Pd",
+    "dbo:inchi": "InChI=1S/Pd",
+    "dbo:smiles": "[Pd]",
+    "dbp:inchikey": "KDLHZDBZIXYQEI-UHFFFAOYSA-N",
     "chebi:charge": "0",
-    "chebi:formula": "Pd",
-    "chebi:inchi": "InChI=1S/Pd",
-    "chebi:inchikey": "KDLHZDBZIXYQEI-UHFFFAOYSA-N",
-    "chebi:smiles": "[Pd]",
-    "geneontology:hasDbXref": [
-        "CAS:7440-05-3",
-        "PMID:25097477",
-        "Reaxys:4937491",
-        "WebElements:Pd",
-        "Wikipedia:Palladium"
-    ],
-    "geneontology:hasId": "33363",
-    "geneontology:hasSynonym": [
+    "skos:altLabel": [
         "Pd",
         "46Pd",
         "paladio"
     ],
-    "geneontology:inSubset": {
-        "@id": "obo:chebi#3_STAR"
+    "skos:exactMatch": {
+        "@id": "obo:CHEBI_33363"
     },
-    "rdfs:label": "palladium",
-    "rdfs:subClassOf": [
+    "skos:note": "Chemical element (nickel group element atom) with atomic number 46.",
+    "skos:semanticRelation": [
         {
             "@id": "obo:CHEBI_88184"
         },

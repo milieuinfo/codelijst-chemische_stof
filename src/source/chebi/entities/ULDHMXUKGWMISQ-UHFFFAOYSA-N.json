@@ -1,32 +1,31 @@
 {
     "@context": {
-        "chebi": "http://purl.obolibrary.org/obo/chebi/",
         "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
         "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-        "obo": "http://purl.obolibrary.org/obo/"
+        "obo": "http://purl.obolibrary.org/obo/",
+        "uniprot": "http://purl.uniprot.org/",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "concept": "https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/",
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "dbo": "http://dbpedia.org/ontology/",
+        "dbp": "http://dbpedia.org/property/",
+        "altLabel": {
+            "@id": "http://www.w3.org/2004/02/skos/core#altLabel",
+            "@language": "en"
+        },
+        "graph": {
+            "@id": "@graph"
+        }
     },
-    "@id": "obo:CHEBI_38265",
-    "@type": "http://www.w3.org/2002/07/owl#Class",
-    "obo:IAO_0000115": "A p-menthane monoterpenoid that consists of cyclohex-2-enone having methyl and isopropenyl substituents at positions 2 and 5, respectively.",
+    "@id": "concept:ULDHMXUKGWMISQ-UHFFFAOYSA-N",
+    "@type": "skos:Concept",
+    "dbo:formula": "C10H14O",
+    "dbo:inchi": "InChI=1S/C10H14O/c1-7(2)9-5-4-8(3)10(11)6-9/h4,9H,1,5-6H2,2-3H3",
+    "dbo:smiles": "CC(=C)C1CC=C(C)C(=O)C1",
+    "dbp:inchikey": "ULDHMXUKGWMISQ-UHFFFAOYSA-N",
     "chebi:charge": "0",
-    "chebi:formula": "C10H14O",
-    "chebi:inchi": "InChI=1S/C10H14O/c1-7(2)9-5-4-8(3)10(11)6-9/h4,9H,1,5-6H2,2-3H3",
-    "chebi:inchikey": "ULDHMXUKGWMISQ-UHFFFAOYSA-N",
-    "chebi:smiles": "CC(=C)C1CC=C(C)C(=O)C1",
-    "geneontology:hasDbXref": [
-        "Beilstein:1364206",
-        "CAS:99-49-0",
-        "Gmelin:102300",
-        "MetaCyc:Carvones",
-        "PMID:16638680",
-        "PMID:19876560",
-        "PMID:20233552",
-        "PMID:21428701",
-        "Reaxys:1364206",
-        "Wikipedia:Carvone"
-    ],
-    "geneontology:hasId": "38265",
-    "geneontology:hasSynonym": [
+    "skos:altLabel": [
         "1-carvone",
         "2-methyl-5-(1-methyl-1-ethenyl)-2-cyclohexen-1-one",
         "2-methyl-5-(1-methylethenyl)-2-cyclohexen-1-one",
@@ -40,19 +39,16 @@
         "p-mentha-1(6),8-dien-2-one",
         "p-mentha-6,8-dien-2-one"
     ],
-    "geneontology:inSubset": {
-        "@id": "obo:chebi#3_STAR"
+    "skos:exactMatch": {
+        "@id": "obo:CHEBI_38265"
     },
-    "rdfs:label": "carvone",
-    "rdfs:subClassOf": [
+    "skos:note": "A p-menthane monoterpenoid that consists of cyclohex-2-enone having methyl and isopropenyl substituents at positions 2 and 5, respectively.",
+    "skos:semanticRelation": [
         {
             "@id": "obo:CHEBI_86494"
         },
         {
             "@id": "obo:CHEBI_23048"
-        },
-        {
-            "@id": "b803_genid-00f1db82e1ab437c844115a94dc63e635-bn38265t11f50904"
         }
     ]
 }

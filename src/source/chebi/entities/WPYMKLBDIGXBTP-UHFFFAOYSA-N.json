@@ -1,42 +1,31 @@
 {
     "@context": {
-        "chebi": "http://purl.obolibrary.org/obo/chebi/",
         "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
         "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-        "obo": "http://purl.obolibrary.org/obo/"
+        "obo": "http://purl.obolibrary.org/obo/",
+        "uniprot": "http://purl.uniprot.org/",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "concept": "https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/",
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "dbo": "http://dbpedia.org/ontology/",
+        "dbp": "http://dbpedia.org/property/",
+        "altLabel": {
+            "@id": "http://www.w3.org/2004/02/skos/core#altLabel",
+            "@language": "en"
+        },
+        "graph": {
+            "@id": "@graph"
+        }
     },
-    "@id": "obo:CHEBI_30746",
-    "@type": "http://www.w3.org/2002/07/owl#Class",
-    "obo:IAO_0000115": "A compound comprising a benzene ring core carrying a carboxylic acid substituent.",
+    "@id": "concept:WPYMKLBDIGXBTP-UHFFFAOYSA-N",
+    "@type": "skos:Concept",
+    "dbo:formula": "C7H6O2",
+    "dbo:inchi": "InChI=1S/C7H6O2/c8-7(9)6-4-2-1-3-5-6/h1-5H,(H,8,9)",
+    "dbo:smiles": "OC(=O)c1ccccc1",
+    "dbp:inchikey": "WPYMKLBDIGXBTP-UHFFFAOYSA-N",
     "chebi:charge": "0",
-    "chebi:formula": "C7H6O2",
-    "chebi:inchi": "InChI=1S/C7H6O2/c8-7(9)6-4-2-1-3-5-6/h1-5H,(H,8,9)",
-    "chebi:inchikey": "WPYMKLBDIGXBTP-UHFFFAOYSA-N",
-    "chebi:smiles": "OC(=O)c1ccccc1",
-    "geneontology:hasDbXref": [
-        "PMID:17439666",
-        "HMDB:HMDB0001870",
-        "KEGG:C00180",
-        "MetaCyc:BENZOATE",
-        "PMID:18314336",
-        "Beilstein:636131",
-        "CAS:65-85-0",
-        "Drug_Central:4664",
-        "DrugBank:DB03793",
-        "Gmelin:2946",
-        "KEGG:C00539",
-        "KEGG:D00038",
-        "KNApSAcK:C00000207",
-        "LINCS:LSM-37118",
-        "PDBeChem:BEZ",
-        "PMID:16728954",
-        "PPDB:1475",
-        "Reaxys:636131",
-        "Wikipedia:Benzoic_Acid",
-        "YMDB:YMDB02301"
-    ],
-    "geneontology:hasId": "30746",
-    "geneontology:hasSynonym": [
+    "skos:altLabel": [
         "acide benzoique",
         "Aromatic carboxylic acid",
         "Benzenecarboxylic acid",
@@ -50,40 +39,11 @@
         "Phenylcarboxylic acid",
         "Phenylformic acid"
     ],
-    "geneontology:inSubset": {
-        "@id": "obo:chebi#3_STAR"
+    "skos:exactMatch": {
+        "@id": "obo:CHEBI_30746"
     },
-    "rdfs:label": "benzoic acid",
-    "rdfs:subClassOf": [
-        {
-            "@id": "obo:CHEBI_22723"
-        },
-        {
-            "@id": "b71_genid-00f1db82e1ab437c844115a94dc63e635-bn30746tmms73f16150"
-        },
-        {
-            "@id": "b71_genid-00f1db82e1ab437c844115a94dc63e635-bn30746t4f16150"
-        },
-        {
-            "@id": "b71_genid-00f1db82e1ab437c844115a94dc63e635-bn30746t11f64996"
-        },
-        {
-            "@id": "b71_genid-00f1db82e1ab437c844115a94dc63e635-bn30746t11f65001"
-        },
-        {
-            "@id": "b71_genid-00f1db82e1ab437c844115a94dc63e635-bn30746t11f65256"
-        },
-        {
-            "@id": "b71_genid-00f1db82e1ab437c844115a94dc63e635-bn30746t11f76924"
-        },
-        {
-            "@id": "b71_genid-00f1db82e1ab437c844115a94dc63e635-bn30746t11f76967"
-        },
-        {
-            "@id": "b71_genid-00f1db82e1ab437c844115a94dc63e635-bn30746t11f84735"
-        },
-        {
-            "@id": "b71_genid-00f1db82e1ab437c844115a94dc63e635-bn30746t11f88188"
-        }
-    ]
+    "skos:note": "A compound comprising a benzene ring core carrying a carboxylic acid substituent.",
+    "skos:semanticRelation": {
+        "@id": "obo:CHEBI_22723"
+    }
 }

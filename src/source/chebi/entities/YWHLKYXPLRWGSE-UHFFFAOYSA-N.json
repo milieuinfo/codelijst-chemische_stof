@@ -1,32 +1,31 @@
 {
     "@context": {
-        "chebi": "http://purl.obolibrary.org/obo/chebi/",
         "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
         "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-        "obo": "http://purl.obolibrary.org/obo/"
+        "obo": "http://purl.obolibrary.org/obo/",
+        "uniprot": "http://purl.uniprot.org/",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "concept": "https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/",
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "dbo": "http://dbpedia.org/ontology/",
+        "dbp": "http://dbpedia.org/property/",
+        "altLabel": {
+            "@id": "http://www.w3.org/2004/02/skos/core#altLabel",
+            "@language": "en"
+        },
+        "graph": {
+            "@id": "@graph"
+        }
     },
-    "@id": "obo:CHEBI_4614",
-    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "@id": "concept:YWHLKYXPLRWGSE-UHFFFAOYSA-N",
+    "@type": "skos:Concept",
+    "dbo:formula": "C2H6S3",
+    "dbo:inchi": "InChI=1S/C2H6S3/c1-3-5-4-2/h1-2H3",
+    "dbo:smiles": "CSSSC",
+    "dbp:inchikey": "YWHLKYXPLRWGSE-UHFFFAOYSA-N",
     "chebi:charge": "0",
-    "chebi:formula": "C2H6S3",
-    "chebi:inchi": "InChI=1S/C2H6S3/c1-3-5-4-2/h1-2H3",
-    "chebi:inchikey": "YWHLKYXPLRWGSE-UHFFFAOYSA-N",
-    "chebi:smiles": "CSSSC",
-    "geneontology:hasDbXref": [
-        "PMID:19167006",
-        "PMID:24421258",
-        "CAS:3658-80-8",
-        "HMDB:HMDB0013780",
-        "KEGG:C08372",
-        "KNApSAcK:C00001246",
-        "PMID:11236158",
-        "PMID:14691119",
-        "PMID:5556886",
-        "PMID:8481097",
-        "Wikipedia:Dimethyl_trisulfide"
-    ],
-    "geneontology:hasId": "4614",
-    "geneontology:hasSynonym": [
+    "skos:altLabel": [
         "(methyldisulfanyl)methane",
         "Dimethyl disulfide",
         "Methyl disulfide",
@@ -51,11 +50,10 @@
         "Sulfa-hitech 0382",
         "Trisulfide, dimethyl"
     ],
-    "geneontology:inSubset": {
-        "@id": "obo:chebi#2_STAR"
+    "skos:exactMatch": {
+        "@id": "obo:CHEBI_4614"
     },
-    "rdfs:label": "Dimethyl trisulfide",
-    "rdfs:subClassOf": {
+    "skos:semanticRelation": {
         "@id": "obo:CHEBI_78493"
     }
 }

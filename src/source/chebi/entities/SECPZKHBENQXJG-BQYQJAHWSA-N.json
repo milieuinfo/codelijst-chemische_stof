@@ -1,26 +1,31 @@
 {
     "@context": {
-        "chebi": "http://purl.obolibrary.org/obo/chebi/",
         "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
         "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-        "obo": "http://purl.obolibrary.org/obo/"
+        "obo": "http://purl.obolibrary.org/obo/",
+        "uniprot": "http://purl.uniprot.org/",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "concept": "https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/",
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "dbo": "http://dbpedia.org/ontology/",
+        "dbp": "http://dbpedia.org/property/",
+        "altLabel": {
+            "@id": "http://www.w3.org/2004/02/skos/core#altLabel",
+            "@language": "en"
+        },
+        "graph": {
+            "@id": "@graph"
+        }
     },
-    "@id": "obo:CHEBI_59265",
-    "@type": "http://www.w3.org/2002/07/owl#Class",
-    "obo:IAO_0000115": "A straight-chain, monounsaturated, 16-carbon fatty acid with a trans-double bond at position C-9; the trans-isomer of palmitoleic acid and predominant trans-16:1 isomer in cheeses from goat and ewe milk. Major dietary sources are partly hydrogenated vegetable oils.",
+    "@id": "concept:SECPZKHBENQXJG-BQYQJAHWSA-N",
+    "@type": "skos:Concept",
+    "dbo:formula": "C16H30O2",
+    "dbo:inchi": "InChI=1S/C16H30O2/c1-2-3-4-5-6-7-8-9-10-11-12-13-14-15-16(17)18/h7-8H,2-6,9-15H2,1H3,(H,17,18)/b8-7+",
+    "dbo:smiles": "CCCCCC\\C=C\\CCCCCCCC(O)=O",
+    "dbp:inchikey": "SECPZKHBENQXJG-BQYQJAHWSA-N",
     "chebi:charge": "0",
-    "chebi:formula": "C16H30O2",
-    "chebi:inchi": "InChI=1S/C16H30O2/c1-2-3-4-5-6-7-8-9-10-11-12-13-14-15-16(17)18/h7-8H,2-6,9-15H2,1H3,(H,17,18)/b8-7+",
-    "chebi:inchikey": "SECPZKHBENQXJG-BQYQJAHWSA-N",
-    "chebi:smiles": "CCCCCC\\C=C\\CCCCCCCC(O)=O",
-    "geneontology:hasDbXref": [
-        "Beilstein:1725390",
-        "CAS:10030-73-6",
-        "PMID:11026624",
-        "PMID:5947520"
-    ],
-    "geneontology:hasId": "59265",
-    "geneontology:hasSynonym": [
+    "skos:altLabel": [
         "(9E)-hexadec-9-enoic acid",
         "(9E)-hexadecenoic acid",
         "(E)-9-hexadecenoicacid",
@@ -31,11 +36,11 @@
         "trans-Delta(9)-hexadecenoic acid",
         "trans-palmitoleic acid"
     ],
-    "geneontology:inSubset": {
-        "@id": "obo:chebi#3_STAR"
+    "skos:exactMatch": {
+        "@id": "obo:CHEBI_59265"
     },
-    "rdfs:label": "palmitelaidic acid",
-    "rdfs:subClassOf": [
+    "skos:note": "A straight-chain, monounsaturated, 16-carbon fatty acid with a trans-double bond at position C-9; the trans-isomer of palmitoleic acid and predominant trans-16:1 isomer in cheeses from goat and ewe milk. Major dietary sources are partly hydrogenated vegetable oils.",
+    "skos:semanticRelation": [
         {
             "@id": "obo:CHEBI_15904"
         },

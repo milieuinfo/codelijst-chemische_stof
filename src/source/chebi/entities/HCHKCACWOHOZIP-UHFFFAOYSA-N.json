@@ -1,75 +1,52 @@
 {
     "@context": {
-        "chebi": "http://purl.obolibrary.org/obo/chebi/",
         "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
         "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-        "obo": "http://purl.obolibrary.org/obo/"
+        "obo": "http://purl.obolibrary.org/obo/",
+        "uniprot": "http://purl.uniprot.org/",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "concept": "https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/",
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "dbo": "http://dbpedia.org/ontology/",
+        "dbp": "http://dbpedia.org/property/",
+        "graph": {
+            "@id": "@graph"
+        }
     },
-    "@graph": [
+    "@id": "concept:HCHKCACWOHOZIP-UHFFFAOYSA-N",
+    "@type": "skos:Concept",
+    "dbo:formula": "Zn",
+    "dbo:inchi": "InChI=1S/Zn",
+    "dbo:smiles": "[Zn]",
+    "dbp:inchikey": "HCHKCACWOHOZIP-UHFFFAOYSA-N",
+    "chebi:charge": "0",
+    "skos:altLabel": [
+        "Zn",
+        "30Zn",
+        "cinc",
+        "zinc",
+        "zincum",
+        "Zink",
+        "Zn(II)",
+        "Zn2+",
+        "Zn(0)",
+        "Znn"
+    ],
+    "skos:exactMatch": [
         {
-            "@id": "obo:CHEBI_27363",
-            "@type": "http://www.w3.org/2002/07/owl#Class",
-            "chebi:charge": "0",
-            "chebi:formula": "Zn",
-            "chebi:inchi": "InChI=1S/Zn",
-            "chebi:inchikey": "HCHKCACWOHOZIP-UHFFFAOYSA-N",
-            "chebi:smiles": "[Zn]",
-            "geneontology:hasDbXref": [
-                "CAS:7440-66-6",
-                "Gmelin:16321",
-                "KEGG:C00038",
-                "PDBeChem:ZN",
-                "WebElements:Zn"
-            ],
-            "geneontology:hasId": "27363",
-            "geneontology:hasSynonym": [
-                "Zn",
-                "30Zn",
-                "cinc",
-                "zinc",
-                "zincum",
-                "Zink",
-                "Zn(II)",
-                "Zn2+"
-            ],
-            "geneontology:inSubset": {
-                "@id": "obo:chebi#3_STAR"
-            },
-            "rdfs:label": "zinc atom",
-            "rdfs:subClassOf": [
-                {
-                    "@id": "obo:CHEBI_33340"
-                },
-                {
-                    "@id": "b840_genid-00f1db82e1ab437c844115a94dc63e635-bn27363t11f27027"
-                }
-            ]
+            "@id": "obo:CHEBI_27363"
         },
         {
-            "@id": "obo:CHEBI_30185",
-            "@type": "http://www.w3.org/2002/07/owl#Class",
-            "chebi:charge": "0",
-            "chebi:formula": "Zn",
-            "chebi:inchi": "InChI=1S/Zn",
-            "chebi:inchikey": "HCHKCACWOHOZIP-UHFFFAOYSA-N",
-            "chebi:smiles": "[Zn]",
-            "geneontology:hasDbXref": [
-                "CAS:7440-66-6",
-                "DrugBank:DB01593"
-            ],
-            "geneontology:hasId": "30185",
-            "geneontology:hasSynonym": [
-                "zinc",
-                "Zn(0)",
-                "Znn"
-            ],
-            "geneontology:inSubset": {
-                "@id": "obo:chebi#3_STAR"
-            },
-            "rdfs:label": "zinc(0)",
-            "rdfs:subClassOf": {
-                "@id": "obo:CHEBI_37253"
-            }
+            "@id": "obo:CHEBI_30185"
+        }
+    ],
+    "skos:semanticRelation": [
+        {
+            "@id": "obo:CHEBI_33340"
+        },
+        {
+            "@id": "obo:CHEBI_37253"
         }
     ]
 }

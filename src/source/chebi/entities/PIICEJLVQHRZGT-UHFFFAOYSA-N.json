@@ -1,51 +1,40 @@
 {
     "@context": {
-        "chebi": "http://purl.obolibrary.org/obo/chebi/",
         "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
         "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-        "obo": "http://purl.obolibrary.org/obo/"
+        "obo": "http://purl.obolibrary.org/obo/",
+        "uniprot": "http://purl.uniprot.org/",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "concept": "https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/",
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "dbo": "http://dbpedia.org/ontology/",
+        "dbp": "http://dbpedia.org/property/",
+        "altLabel": {
+            "@id": "http://www.w3.org/2004/02/skos/core#altLabel",
+            "@language": "en"
+        },
+        "graph": {
+            "@id": "@graph"
+        }
     },
-    "@id": "obo:CHEBI_30347",
-    "@type": "http://www.w3.org/2002/07/owl#Class",
-    "obo:IAO_0000115": "An alkane-alpha,omega-diamine in which the alkane is ethane.",
+    "@id": "concept:PIICEJLVQHRZGT-UHFFFAOYSA-N",
+    "@type": "skos:Concept",
+    "dbo:formula": "C2H8N2",
+    "dbo:inchi": "InChI=1S/C2H8N2/c3-1-2-4/h1-4H2",
+    "dbo:smiles": "NCCN",
+    "dbp:inchikey": "PIICEJLVQHRZGT-UHFFFAOYSA-N",
     "chebi:charge": "0",
-    "chebi:formula": "C2H8N2",
-    "chebi:inchi": "InChI=1S/C2H8N2/c3-1-2-4/h1-4H2",
-    "chebi:inchikey": "PIICEJLVQHRZGT-UHFFFAOYSA-N",
-    "chebi:smiles": "NCCN",
-    "geneontology:hasDbXref": [
-        "PMID:21616561",
-        "Beilstein:605263",
-        "CAS:107-15-3",
-        "Gmelin:1098",
-        "HMDB:HMDB0031225",
-        "KEGG:D01114",
-        "MetaCyc:CPD-3682",
-        "PDBeChem:EDN",
-        "PMID:3692019",
-        "PMID:7070713",
-        "Reaxys:605263",
-        "Wikipedia:Ethylenediamine"
-    ],
-    "geneontology:hasId": "30347",
-    "geneontology:hasSynonym": [
+    "skos:altLabel": [
         "1,2-ethanediamine",
         "en",
         "ethane-1,2-diamine"
     ],
-    "geneontology:inSubset": {
-        "@id": "obo:chebi#3_STAR"
+    "skos:exactMatch": {
+        "@id": "obo:CHEBI_30347"
     },
-    "rdfs:label": "ethylenediamine",
-    "rdfs:subClassOf": [
-        {
-            "@id": "obo:CHEBI_35411"
-        },
-        {
-            "@id": "b147_genid-00f1db82e1ab437c844115a94dc63e635-bn30347t9f42266"
-        },
-        {
-            "@id": "b147_genid-00f1db82e1ab437c844115a94dc63e635-bn30347t11f51373"
-        }
-    ]
+    "skos:note": "An alkane-alpha,omega-diamine in which the alkane is ethane.",
+    "skos:semanticRelation": {
+        "@id": "obo:CHEBI_35411"
+    }
 }

@@ -1,39 +1,35 @@
 {
     "@context": {
-        "chebi": "http://purl.obolibrary.org/obo/chebi/",
         "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
         "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-        "obo": "http://purl.obolibrary.org/obo/"
+        "obo": "http://purl.obolibrary.org/obo/",
+        "uniprot": "http://purl.uniprot.org/",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "concept": "https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/",
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "dbo": "http://dbpedia.org/ontology/",
+        "dbp": "http://dbpedia.org/property/",
+        "graph": {
+            "@id": "@graph"
+        }
     },
-    "@id": "obo:CHEBI_34846",
-    "@type": "http://www.w3.org/2002/07/owl#Class",
-    "obo:IAO_0000115": "A member of the class of  1,2,4-triazines that is 1,2,4-triazin-5(4H)-one substituted by an amino group at position 4, tert-butyl group at position 6 and a methylsulfanyl group at position 3.",
+    "@id": "concept:FOXFZRUHNHCZPX-UHFFFAOYSA-N",
+    "@type": "skos:Concept",
+    "dbo:formula": "C8H14N4OS",
+    "dbo:inchi": "InChI=1S/C8H14N4OS/c1-8(2,3)5-6(13)12(9)7(14-4)11-10-5/h9H2,1-4H3",
+    "dbo:smiles": "CSc1nnc(c(=O)n1N)C(C)(C)C",
+    "dbp:inchikey": "FOXFZRUHNHCZPX-UHFFFAOYSA-N",
     "chebi:charge": "0",
-    "chebi:formula": "C8H14N4OS",
-    "chebi:inchi": "InChI=1S/C8H14N4OS/c1-8(2,3)5-6(13)12(9)7(14-4)11-10-5/h9H2,1-4H3",
-    "chebi:inchikey": "FOXFZRUHNHCZPX-UHFFFAOYSA-N",
-    "chebi:smiles": "CSc1nnc(c(=O)n1N)C(C)(C)C",
-    "geneontology:hasDbXref": [
-        "PMID:24631619",
-        "CAS:21087-64-9",
-        "KEGG:C14332",
-        "Pesticides:metribuzin",
-        "PMID:23139237",
-        "PMID:24328539",
-        "PPDB:469",
-        "Reaxys:746650",
-        "Wikipedia:Metribuzin"
-    ],
-    "geneontology:hasId": "34846",
-    "geneontology:hasSynonym": [
+    "skos:altLabel": [
         "4-amino-6-tert-butyl-3-(methylsulfanyl)-1,2,4-triazin-5(4H)-one",
         "4-amino-6-tert-butyl-4,5-dihydro-3-methylthio-1,2,4-triazin-5-one"
     ],
-    "geneontology:inSubset": {
-        "@id": "obo:chebi#3_STAR"
+    "skos:exactMatch": {
+        "@id": "obo:CHEBI_34846"
     },
-    "rdfs:label": "metribuzin",
-    "rdfs:subClassOf": [
+    "skos:note": "A member of the class of  1,2,4-triazines that is 1,2,4-triazin-5(4H)-one substituted by an amino group at position 4, tert-butyl group at position 6 and a methylsulfanyl group at position 3.",
+    "skos:semanticRelation": [
         {
             "@id": "obo:CHEBI_3992"
         },
@@ -42,18 +38,6 @@
         },
         {
             "@id": "obo:CHEBI_39410"
-        },
-        {
-            "@id": "b633_genid-00f1db82e1ab437c844115a94dc63e635-bn34846t11f24527"
-        },
-        {
-            "@id": "b633_genid-00f1db82e1ab437c844115a94dc63e635-bn34846t11f33286"
-        },
-        {
-            "@id": "b633_genid-00f1db82e1ab437c844115a94dc63e635-bn34846t11f35703"
-        },
-        {
-            "@id": "b633_genid-00f1db82e1ab437c844115a94dc63e635-bn34846t11f78298"
         }
     ]
 }

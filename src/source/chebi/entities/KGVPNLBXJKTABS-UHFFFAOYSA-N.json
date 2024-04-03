@@ -1,29 +1,31 @@
 {
     "@context": {
-        "chebi": "http://purl.obolibrary.org/obo/chebi/",
         "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
         "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-        "obo": "http://purl.obolibrary.org/obo/"
+        "obo": "http://purl.obolibrary.org/obo/",
+        "uniprot": "http://purl.uniprot.org/",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "concept": "https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/",
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "dbo": "http://dbpedia.org/ontology/",
+        "dbp": "http://dbpedia.org/property/",
+        "altLabel": {
+            "@id": "http://www.w3.org/2004/02/skos/core#altLabel",
+            "@language": "en"
+        },
+        "graph": {
+            "@id": "@graph"
+        }
     },
-    "@id": "obo:CHEBI_5827",
-    "@type": "http://www.w3.org/2002/07/owl#Class",
-    "obo:IAO_0000115": "A member of the class of isoxazoles carrying hydroxy and methyl substituents at positions 3 and 5 respectively. It is used worldwide as a systemic soil and seed fungicide for the control of diseases caused by Fusarium, Aphanomyces, Pythium, and Corticium spp. in rice, sugarbeet, fodderbeet, vegetables, cucurbits, and ornamentals.",
+    "@id": "concept:KGVPNLBXJKTABS-UHFFFAOYSA-N",
+    "@type": "skos:Concept",
+    "dbo:formula": "C4H5NO2",
+    "dbo:inchi": "InChI=1S/C4H5NO2/c1-3-2-4(6)5-7-3/h2H,1H3,(H,5,6)",
+    "dbo:smiles": "Cc1cc(O)no1",
+    "dbp:inchikey": "KGVPNLBXJKTABS-UHFFFAOYSA-N",
     "chebi:charge": "0",
-    "chebi:formula": "C4H5NO2",
-    "chebi:inchi": "InChI=1S/C4H5NO2/c1-3-2-4(6)5-7-3/h2H,1H3,(H,5,6)",
-    "chebi:inchikey": "KGVPNLBXJKTABS-UHFFFAOYSA-N",
-    "chebi:smiles": "Cc1cc(O)no1",
-    "geneontology:hasDbXref": [
-        "CAS:10004-44-1",
-        "KEGG:C11103",
-        "Pesticides:hymexazol",
-        "PMID:21959994",
-        "PMID:22307860",
-        "PPDB:388",
-        "Reaxys:606046"
-    ],
-    "geneontology:hasId": "5827",
-    "geneontology:hasSynonym": [
+    "skos:altLabel": [
         "3-Hydroxy-5-methylisoxazole",
         "5-methyl-1,2-oxazol-3(2H)-one",
         "5-Methyl-3(2H)-isoxazolone",
@@ -36,19 +38,16 @@
         "NSC 217971",
         "SF-6505"
     ],
-    "geneontology:inSubset": {
-        "@id": "obo:chebi#3_STAR"
+    "skos:exactMatch": {
+        "@id": "obo:CHEBI_5827"
     },
-    "rdfs:label": "hymexazol",
-    "rdfs:subClassOf": [
+    "skos:note": "A member of the class of isoxazoles carrying hydroxy and methyl substituents at positions 3 and 5 respectively. It is used worldwide as a systemic soil and seed fungicide for the control of diseases caused by Fusarium, Aphanomyces, Pythium, and Corticium spp. in rice, sugarbeet, fodderbeet, vegetables, cucurbits, and ornamentals.",
+    "skos:semanticRelation": [
         {
             "@id": "obo:CHEBI_55373"
         },
         {
             "@id": "obo:CHEBI_74818"
-        },
-        {
-            "@id": "b393_genid-00f1db82e1ab437c844115a94dc63e635-bn5827t11f86328"
         }
     ]
 }

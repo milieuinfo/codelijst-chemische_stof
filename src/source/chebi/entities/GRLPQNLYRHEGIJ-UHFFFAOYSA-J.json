@@ -1,26 +1,27 @@
 {
     "@context": {
-        "chebi": "http://purl.obolibrary.org/obo/chebi/",
         "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
         "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-        "obo": "http://purl.obolibrary.org/obo/"
+        "obo": "http://purl.obolibrary.org/obo/",
+        "uniprot": "http://purl.uniprot.org/",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "concept": "https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/",
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "dbo": "http://dbpedia.org/ontology/",
+        "dbp": "http://dbpedia.org/property/",
+        "graph": {
+            "@id": "@graph"
+        }
     },
-    "@id": "obo:CHEBI_86463",
-    "@type": "http://www.w3.org/2002/07/owl#Class",
-    "obo:IAO_0000115": "A metal sulfate composed of potassium, aluminium and sulfate ions in the ration 1:1:2.",
+    "@id": "concept:GRLPQNLYRHEGIJ-UHFFFAOYSA-J",
+    "@type": "skos:Concept",
+    "dbo:formula": "AlKO8S2",
+    "dbo:inchi": "InChI=1S/Al.K.2H2O4S/c;;2*1-5(2,3)4/h;;2*(H2,1,2,3,4)/q+3;+1;;/p-4",
+    "dbo:smiles": "[Al+3].[K+].[O-]S([O-])(=O)=O.[O-]S([O-])(=O)=O",
+    "dbp:inchikey": "GRLPQNLYRHEGIJ-UHFFFAOYSA-J",
     "chebi:charge": "0",
-    "chebi:formula": "AlKO8S2",
-    "chebi:inchi": "InChI=1S/Al.K.2H2O4S/c;;2*1-5(2,3)4/h;;2*(H2,1,2,3,4)/q+3;+1;;/p-4",
-    "chebi:inchikey": "GRLPQNLYRHEGIJ-UHFFFAOYSA-J",
-    "chebi:smiles": "[Al+3].[K+].[O-]S([O-])(=O)=O.[O-]S([O-])(=O)=O",
-    "geneontology:hasDbXref": [
-        "CAS:10043-67-1",
-        "Reaxys:11323401",
-        "Reaxys:27446053",
-        "Wikipedia:Potassium_alum"
-    ],
-    "geneontology:hasId": "86463",
-    "geneontology:hasSynonym": [
+    "skos:altLabel": [
         "AlK(SO4)2",
         "Aluminium potassium bis(sulphate)",
         "aluminium potassium sulfate (1/1/2)",
@@ -33,11 +34,11 @@
         "Potassium aluminum alum",
         "potassium aluminum disulfate"
     ],
-    "geneontology:inSubset": {
-        "@id": "obo:chebi#3_STAR"
+    "skos:exactMatch": {
+        "@id": "obo:CHEBI_86463"
     },
-    "rdfs:label": "potassium aluminium sulfate",
-    "rdfs:subClassOf": [
+    "skos:note": "A metal sulfate composed of potassium, aluminium and sulfate ions in the ration 1:1:2.",
+    "skos:semanticRelation": [
         {
             "@id": "obo:CHEBI_26218"
         },
@@ -46,18 +47,6 @@
         },
         {
             "@id": "obo:CHEBI_35510"
-        },
-        {
-            "@id": "b762_genid-00f1db82e1ab437c844115a94dc63e635-bn86463t10f49470"
-        },
-        {
-            "@id": "b762_genid-00f1db82e1ab437c844115a94dc63e635-bn86463t11f74152"
-        },
-        {
-            "@id": "b762_genid-00f1db82e1ab437c844115a94dc63e635-bn86463t11f74783"
-        },
-        {
-            "@id": "b762_genid-00f1db82e1ab437c844115a94dc63e635-bn86463t11f79314"
         }
     ]
 }

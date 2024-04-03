@@ -1,27 +1,21 @@
 {
     "@context": {
-        "chebi": "http://purl.obolibrary.org/obo/chebi/",
         "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
         "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-        "obo": "http://purl.obolibrary.org/obo/"
-    },
-    "@id": "obo:CHEBI_81542",
-    "@type": "http://www.w3.org/2002/07/owl#Class",
-    "chebi:charge": "0",
-    "chebi:formula": "C8Cl8",
-    "chebi:inchi": "InChI=1S/C8Cl8/c9-2-1(4(11)8(15)16)3(10)6(13)7(14)5(2)12",
-    "chebi:inchikey": "RUYUCCQRWINUHE-UHFFFAOYSA-N",
-    "chebi:smiles": "ClC(Cl)=C(Cl)c1c(Cl)c(Cl)c(Cl)c(Cl)c1Cl",
-    "geneontology:hasDbXref": [
-        "CAS:29082-74-4",
-        "KEGG:C18148"
-    ],
-    "geneontology:hasId": "81542",
-    "geneontology:inSubset": {
-        "@id": "obo:chebi#2_STAR"
-    },
-    "rdfs:label": "Octachlorostyrene",
-    "rdfs:subClassOf": {
-        "@id": "obo:CHEBI_36683"
+        "obo": "http://purl.obolibrary.org/obo/",
+        "uniprot": "http://purl.uniprot.org/",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "concept": "https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/",
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "dbo": "http://dbpedia.org/ontology/",
+        "dbp": "http://dbpedia.org/property/",
+        "altLabel": {
+            "@id": "http://www.w3.org/2004/02/skos/core#altLabel",
+            "@language": "en"
+        },
+        "graph": {
+            "@id": "@graph"
+        }
     }
 }

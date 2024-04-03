@@ -1,44 +1,27 @@
 {
     "@context": {
-        "chebi": "http://purl.obolibrary.org/obo/chebi/",
         "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
         "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-        "obo": "http://purl.obolibrary.org/obo/"
+        "obo": "http://purl.obolibrary.org/obo/",
+        "uniprot": "http://purl.uniprot.org/",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "concept": "https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/",
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "dbo": "http://dbpedia.org/ontology/",
+        "dbp": "http://dbpedia.org/property/",
+        "graph": {
+            "@id": "@graph"
+        }
     },
-    "@id": "obo:CHEBI_16509",
-    "@type": "http://www.w3.org/2002/07/owl#Class",
-    "obo:IAO_0000115": "The simplest member of the class of 1,4-benzoquinones, obtained by the formal oxidation of hydroquinone to the corresponding diketone. It is a metabolite of benzene.",
+    "@id": "concept:AZQWKYJCGOJGHM-UHFFFAOYSA-N",
+    "@type": "skos:Concept",
+    "dbo:formula": "C6H4O2",
+    "dbo:inchi": "InChI=1S/C6H4O2/c7-5-1-2-6(8)4-3-5/h1-4H",
+    "dbo:smiles": "O=C1C=CC(=O)C=C1",
+    "dbp:inchikey": "AZQWKYJCGOJGHM-UHFFFAOYSA-N",
     "chebi:charge": "0",
-    "chebi:formula": "C6H4O2",
-    "chebi:inchi": "InChI=1S/C6H4O2/c7-5-1-2-6(8)4-3-5/h1-4H",
-    "chebi:inchikey": "AZQWKYJCGOJGHM-UHFFFAOYSA-N",
-    "chebi:smiles": "O=C1C=CC(=O)C=C1",
-    "http://purl.uniprot.org/core/name": "1,4-benzoquinone",
-    "geneontology:hasDbXref": [
-        "PMID:24023812",
-        "PMID:11304127",
-        "PMID:1395635",
-        "PMID:15618234",
-        "Beilstein:773967",
-        "CAS:106-51-4",
-        "Gmelin:2741",
-        "HMDB:HMDB0003364",
-        "KEGG:C00472",
-        "KEGG:C15602",
-        "MetaCyc:P-BENZOQUINONE",
-        "PDBeChem:PLQ",
-        "PMID:10462055",
-        "PMID:15182198",
-        "PMID:15920754",
-        "PMID:16484134",
-        "PMID:25057895",
-        "PMID:9118901",
-        "Reaxys:773967",
-        "UM-BBD_compID:c0261",
-        "Wikipedia:1,4-Benzoquinone"
-    ],
-    "geneontology:hasId": "16509",
-    "geneontology:hasSynonym": [
+    "skos:altLabel": [
         "p-quinone",
         "1,4-Benzochinon",
         "1,4-Benzoquinone",
@@ -51,22 +34,11 @@
         "p-Chinon",
         "Quinone"
     ],
-    "geneontology:inSubset": {
-        "@id": "obo:chebi#3_STAR"
+    "skos:exactMatch": {
+        "@id": "obo:CHEBI_16509"
     },
-    "rdfs:label": "1,4-benzoquinone",
-    "rdfs:subClassOf": [
-        {
-            "@id": "obo:CHEBI_132124"
-        },
-        {
-            "@id": "b127_genid-00f1db82e1ab437c844115a94dc63e635-bn16509t11f23357"
-        },
-        {
-            "@id": "b127_genid-00f1db82e1ab437c844115a94dc63e635-bn16509t11f75771"
-        },
-        {
-            "@id": "b127_genid-00f1db82e1ab437c844115a94dc63e635-bn16509t11f76967"
-        }
-    ]
+    "skos:note": "The simplest member of the class of 1,4-benzoquinones, obtained by the formal oxidation of hydroquinone to the corresponding diketone. It is a metabolite of benzene.",
+    "skos:semanticRelation": {
+        "@id": "obo:CHEBI_132124"
+    }
 }

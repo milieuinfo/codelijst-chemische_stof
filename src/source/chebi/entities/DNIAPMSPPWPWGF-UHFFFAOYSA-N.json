@@ -1,40 +1,27 @@
 {
     "@context": {
-        "chebi": "http://purl.obolibrary.org/obo/chebi/",
         "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
         "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-        "obo": "http://purl.obolibrary.org/obo/"
+        "obo": "http://purl.obolibrary.org/obo/",
+        "uniprot": "http://purl.uniprot.org/",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "concept": "https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/",
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "dbo": "http://dbpedia.org/ontology/",
+        "dbp": "http://dbpedia.org/property/",
+        "graph": {
+            "@id": "@graph"
+        }
     },
-    "@id": "obo:CHEBI_16997",
-    "@type": "http://www.w3.org/2002/07/owl#Class",
-    "obo:IAO_0000115": "The simplest member of the class of propane-1,2-diols, consisting of propane in which a hydrogen at position 1 and a hydrogen at position 2 are substituted by hydroxy groups. A colourless, viscous, hygroscopic, low-melting (-59degreeC) and high-boiling (188degreeC) liquid with low toxicity, it is used as a solvent, emulsifying agent, and antifreeze.",
+    "@id": "concept:DNIAPMSPPWPWGF-UHFFFAOYSA-N",
+    "@type": "skos:Concept",
+    "dbo:formula": "C3H8O2",
+    "dbo:inchi": "InChI=1S/C3H8O2/c1-3(5)2-4/h3-5H,2H2,1H3",
+    "dbo:smiles": "CC(O)CO",
+    "dbp:inchikey": "DNIAPMSPPWPWGF-UHFFFAOYSA-N",
     "chebi:charge": "0",
-    "chebi:formula": "C3H8O2",
-    "chebi:inchi": "InChI=1S/C3H8O2/c1-3(5)2-4/h3-5H,2H2,1H3",
-    "chebi:inchikey": "DNIAPMSPPWPWGF-UHFFFAOYSA-N",
-    "chebi:smiles": "CC(O)CO",
-    "http://purl.uniprot.org/core/name": "propane-1,2-diol",
-    "geneontology:hasDbXref": [
-        "PMID:21616561",
-        "CAS:57-55-6",
-        "Drug_Central:4024",
-        "DrugBank:DB01839",
-        "HMDB:HMDB0001881",
-        "KEGG:C00583",
-        "KEGG:D00078",
-        "KNApSAcK:C00007410",
-        "LINCS:LSM-36856",
-        "PMID:15665701",
-        "PMID:16078503",
-        "PMID:18346395",
-        "PMID:18845115",
-        "PPDB:1304",
-        "Reaxys:1340498",
-        "VSDB:1304",
-        "Wikipedia:Propylene_glycol"
-    ],
-    "geneontology:hasId": "16997",
-    "geneontology:hasSynonym": [
+    "skos:altLabel": [
         "1,2-dihydroxypropane",
         "1,2-Propanediol",
         "1,2-Propylenglykol",
@@ -53,28 +40,16 @@
         "Propane-1,2-diol",
         "Propylene glycol"
     ],
-    "geneontology:inSubset": {
-        "@id": "obo:chebi#3_STAR"
+    "skos:exactMatch": {
+        "@id": "obo:CHEBI_16997"
     },
-    "rdfs:label": "propane-1,2-diol",
-    "rdfs:subClassOf": [
+    "skos:note": "The simplest member of the class of propane-1,2-diols, consisting of propane in which a hydrogen at position 1 and a hydrogen at position 2 are substituted by hydroxy groups. A colourless, viscous, hygroscopic, low-melting (-59degreeC) and high-boiling (188degreeC) liquid with low toxicity, it is used as a solvent, emulsifying agent, and antifreeze.",
+    "skos:semanticRelation": [
         {
             "@id": "obo:CHEBI_13643"
         },
         {
             "@id": "obo:CHEBI_26284"
-        },
-        {
-            "@id": "b489_genid-00f1db82e1ab437c844115a94dc63e635-bn16997t11f48356"
-        },
-        {
-            "@id": "b489_genid-00f1db82e1ab437c844115a94dc63e635-bn16997t11f50904"
-        },
-        {
-            "@id": "b489_genid-00f1db82e1ab437c844115a94dc63e635-bn16997t11f75771"
-        },
-        {
-            "@id": "b489_genid-00f1db82e1ab437c844115a94dc63e635-bn16997t11f76967"
         }
     ]
 }

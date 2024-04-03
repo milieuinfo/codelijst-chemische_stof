@@ -1,29 +1,31 @@
 {
     "@context": {
-        "chebi": "http://purl.obolibrary.org/obo/chebi/",
         "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
         "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-        "obo": "http://purl.obolibrary.org/obo/"
+        "obo": "http://purl.obolibrary.org/obo/",
+        "uniprot": "http://purl.uniprot.org/",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "concept": "https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/",
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "dbo": "http://dbpedia.org/ontology/",
+        "dbp": "http://dbpedia.org/property/",
+        "altLabel": {
+            "@id": "http://www.w3.org/2004/02/skos/core#altLabel",
+            "@language": "en"
+        },
+        "graph": {
+            "@id": "@graph"
+        }
     },
-    "@id": "obo:CHEBI_34677",
-    "@type": "http://www.w3.org/2002/07/owl#Class",
-    "obo:IAO_0000115": "The diheptyl ester of benzene-1,2-dicarboxylic acid.",
+    "@id": "concept:JQCXWCOOWVGKMT-UHFFFAOYSA-N",
+    "@type": "skos:Concept",
+    "dbo:formula": "C22H34O4",
+    "dbo:inchi": "InChI=1S/C22H34O4/c1-3-5-7-9-13-17-25-21(23)19-15-11-12-16-20(19)22(24)26-18-14-10-8-6-4-2/h11-12,15-16H,3-10,13-14,17-18H2,1-2H3",
+    "dbo:smiles": "CCCCCCCOC(=O)c1ccccc1C(=O)OCCCCCCC",
+    "dbp:inchikey": "JQCXWCOOWVGKMT-UHFFFAOYSA-N",
     "chebi:charge": "0",
-    "chebi:formula": "C22H34O4",
-    "chebi:inchi": "InChI=1S/C22H34O4/c1-3-5-7-9-13-17-25-21(23)19-15-11-12-16-20(19)22(24)26-18-14-10-8-6-4-2/h11-12,15-16H,3-10,13-14,17-18H2,1-2H3",
-    "chebi:inchikey": "JQCXWCOOWVGKMT-UHFFFAOYSA-N",
-    "chebi:smiles": "CCCCCCCOC(=O)c1ccccc1C(=O)OCCCCCCC",
-    "geneontology:hasDbXref": [
-        "PMID:19840837",
-        "Beilstein:2336623",
-        "CAS:3648-21-3",
-        "KEGG:C14575",
-        "PMID:19643158",
-        "PMID:22687992",
-        "PMID:6148222"
-    ],
-    "geneontology:hasId": "34677",
-    "geneontology:hasSynonym": [
+    "skos:altLabel": [
         "1,2-Benzenedicarboxylic acid diheptyl ester",
         "DHPP",
         "diheptyl benzene-1,2-dicarboxylate",
@@ -32,11 +34,11 @@
         "Heptyl phthalate",
         "Phthalic acid diheptyl ester"
     ],
-    "geneontology:inSubset": {
-        "@id": "obo:chebi#3_STAR"
+    "skos:exactMatch": {
+        "@id": "obo:CHEBI_34677"
     },
-    "rdfs:label": "diheptyl phthalate",
-    "rdfs:subClassOf": [
+    "skos:note": "The diheptyl ester of benzene-1,2-dicarboxylic acid.",
+    "skos:semanticRelation": [
         {
             "@id": "obo:CHEBI_51307"
         },

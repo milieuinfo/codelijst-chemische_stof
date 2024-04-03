@@ -1,29 +1,27 @@
 {
     "@context": {
-        "chebi": "http://purl.obolibrary.org/obo/chebi/",
         "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
         "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-        "obo": "http://purl.obolibrary.org/obo/"
+        "obo": "http://purl.obolibrary.org/obo/",
+        "uniprot": "http://purl.uniprot.org/",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "concept": "https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/",
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "dbo": "http://dbpedia.org/ontology/",
+        "dbp": "http://dbpedia.org/property/",
+        "graph": {
+            "@id": "@graph"
+        }
     },
-    "@id": "obo:CHEBI_29125",
-    "@type": "http://www.w3.org/2002/07/owl#Class",
-    "obo:IAO_0000115": "An arsenate ion resulting from the removal of three protons from arsenic acid.",
+    "@id": "concept:DJHGAFSJWGLOIV-UHFFFAOYSA-K",
+    "@type": "skos:Concept",
+    "dbo:formula": "AsO4",
+    "dbo:inchi": "InChI=1S/AsH3O4/c2-1(3,4)5/h(H3,2,3,4,5)/p-3",
+    "dbo:smiles": "[O-][As](=O)([O-])[O-]",
+    "dbp:inchikey": "DJHGAFSJWGLOIV-UHFFFAOYSA-K",
     "chebi:charge": "-3",
-    "chebi:formula": "AsO4",
-    "chebi:inchi": "InChI=1S/AsH3O4/c2-1(3,4)5/h(H3,2,3,4,5)/p-3",
-    "chebi:inchikey": "DJHGAFSJWGLOIV-UHFFFAOYSA-K",
-    "chebi:smiles": "[O-][As](=O)([O-])[O-]",
-    "geneontology:hasDbXref": [
-        "MetaCyc:ARSENATE",
-        "CAS:15584-04-0",
-        "Gmelin:2291",
-        "KEGG:C11215",
-        "PDBeChem:ART",
-        "Reaxys:3661213",
-        "UM-BBD_compID:c0540"
-    ],
-    "geneontology:hasId": "29125",
-    "geneontology:hasSynonym": [
+    "skos:altLabel": [
         "arsenate",
         "[AsO4](3-)",
         "Arsenate",
@@ -35,19 +33,11 @@
         "tetraoxoarsenate(3-)",
         "tetraoxoarsenate(V)"
     ],
-    "geneontology:inSubset": {
-        "@id": "obo:chebi#3_STAR"
+    "skos:exactMatch": {
+        "@id": "obo:CHEBI_29125"
     },
-    "rdfs:label": "arsenate(3-)",
-    "rdfs:subClassOf": [
-        {
-            "@id": "obo:CHEBI_22629"
-        },
-        {
-            "@id": "b467_genid-00f1db82e1ab437c844115a94dc63e635-bn29125tmms73f48597"
-        },
-        {
-            "@id": "b467_genid-00f1db82e1ab437c844115a94dc63e635-bn29125t5f48597"
-        }
-    ]
+    "skos:note": "An arsenate ion resulting from the removal of three protons from arsenic acid.",
+    "skos:semanticRelation": {
+        "@id": "obo:CHEBI_22629"
+    }
 }

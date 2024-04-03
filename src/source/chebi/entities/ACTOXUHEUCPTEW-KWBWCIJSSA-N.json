@@ -1,33 +1,27 @@
 {
     "@context": {
-        "chebi": "http://purl.obolibrary.org/obo/chebi/",
         "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
         "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-        "obo": "http://purl.obolibrary.org/obo/"
+        "obo": "http://purl.obolibrary.org/obo/",
+        "uniprot": "http://purl.uniprot.org/",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "concept": "https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/",
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "dbo": "http://dbpedia.org/ontology/",
+        "dbp": "http://dbpedia.org/property/",
+        "graph": {
+            "@id": "@graph"
+        }
     },
-    "@id": "obo:CHEBI_85260",
-    "@type": "http://www.w3.org/2002/07/owl#Class",
-    "obo:IAO_0000115": "A macrolide antibiotic produced by various Streptomyces species that is used to treat toxoplasmosis and various other infections of soft tissues.",
+    "@id": "concept:ACTOXUHEUCPTEW-KWBWCIJSSA-N",
+    "@type": "skos:Concept",
+    "dbo:formula": "C43H74N2O14",
+    "dbo:inchi": "InChI=1S/C43H74N2O14/c1-24-21-29(19-20-46)39(59-42-37(49)36(45(9)10)38(27(4)56-42)58-35-23-43(6,51)41(50)28(5)55-35)40(52-11)31(47)22-33(48)53-25(2)15-13-12-14-16-32(24)57-34-18-17-30(44(7)8)26(3)54-34/h12-14,16,20,24-32,34-42,47,49-51H,15,17-19,21-23H2,1-11H3/b13-12+,16-14+/t24-,25-,26+,27-,28+,29+,30+,31-,32+,34+,35+,36-,37-,38-,39+,40+,41+,42+,43-/m1/s1",
+    "dbo:smiles": "CO[C@H]1[C@H](O)CC(=O)O[C@H](C)C\\C=C\\C=C\\[C@H](O[C@H]2CC[C@@H]([C@H](C)O2)N(C)C)[C@H](C)C[C@H](CC=O)[C@@H]1O[C@@H]1O[C@H](C)[C@@H](O[C@H]2C[C@@](C)(O)[C@@H](O)[C@H](C)O2)[C@@H]([C@H]1O)N(C)C",
+    "dbp:inchikey": "ACTOXUHEUCPTEW-KWBWCIJSSA-N",
     "chebi:charge": "0",
-    "chebi:formula": "C43H74N2O14",
-    "chebi:inchi": "InChI=1S/C43H74N2O14/c1-24-21-29(19-20-46)39(59-42-37(49)36(45(9)10)38(27(4)56-42)58-35-23-43(6,51)41(50)28(5)55-35)40(52-11)31(47)22-33(48)53-25(2)15-13-12-14-16-32(24)57-34-18-17-30(44(7)8)26(3)54-34/h12-14,16,20,24-32,34-42,47,49-51H,15,17-19,21-23H2,1-11H3/b13-12+,16-14+/t24-,25-,26+,27-,28+,29+,30+,31-,32+,34+,35+,36-,37-,38-,39+,40+,41+,42+,43-/m1/s1",
-    "chebi:inchikey": "ACTOXUHEUCPTEW-KWBWCIJSSA-N",
-    "chebi:smiles": "CO[C@H]1[C@H](O)CC(=O)O[C@H](C)C\\C=C\\C=C\\[C@H](O[C@H]2CC[C@@H]([C@H](C)O2)N(C)C)[C@H](C)C[C@H](CC=O)[C@@H]1O[C@@H]1O[C@H](C)[C@@H](O[C@H]2C[C@@](C)(O)[C@@H](O)[C@H](C)O2)[C@@H]([C@H]1O)N(C)C",
-    "geneontology:hasDbXref": [
-        "CAS:24916-50-5",
-        "LIPID_MAPS_instance:LMPK04000005",
-        "MetaCyc:CPD-13983",
-        "PMID:11913495",
-        "PMID:15925222",
-        "PMID:17849607",
-        "PMID:19692628",
-        "PMID:22271863",
-        "PMID:22649946",
-        "PMID:24345568",
-        "Reaxys:21729639"
-    ],
-    "geneontology:hasId": "85260",
-    "geneontology:hasSynonym": [
+    "skos:altLabel": [
         "[(4R,5S,6S,7R,9R,10R,11E,13E,16R)-6-{[(2S,3R,4R,5S,6R)-5-{[(2S,4R,5S,6S)-4,5-dihydroxy-4,6-dimethyloxan-2-yl]oxy}-4-(dimethylamino)-3-hydroxy-6-methyloxan-2-yl]oxy}-10-{[(2R,5S,6S)-5-(dimethylamino)-6-methyloxan-2-yl]oxy}-4-hydroxy-5-methoxy-9,16-dimethyl-2-oxo-1-oxacyclohexadeca-11,13-dien-7-yl]acetaldehyde",
         "Demycarosylturimycin H",
         "foromacidin A",
@@ -36,11 +30,11 @@
         "Spiramycin 1",
         "Spiramycin A"
     ],
-    "geneontology:inSubset": {
-        "@id": "obo:chebi#3_STAR"
+    "skos:exactMatch": {
+        "@id": "obo:CHEBI_85260"
     },
-    "rdfs:label": "spiramycin I",
-    "rdfs:subClassOf": [
+    "skos:note": "A macrolide antibiotic produced by various Streptomyces species that is used to treat toxoplasmosis and various other infections of soft tissues.",
+    "skos:semanticRelation": [
         {
             "@id": "obo:CHEBI_17478"
         },
@@ -55,15 +49,6 @@
         },
         {
             "@id": "obo:CHEBI_25106"
-        },
-        {
-            "@id": "b10_genid-00f1db82e1ab437c844115a94dc63e635-bn85260t11f33281"
-        },
-        {
-            "@id": "b10_genid-00f1db82e1ab437c844115a94dc63e635-bn85260t11f36047"
-        },
-        {
-            "@id": "b10_genid-00f1db82e1ab437c844115a94dc63e635-bn85260t11f76969"
         }
     ]
 }

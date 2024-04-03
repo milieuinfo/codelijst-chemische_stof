@@ -1,32 +1,21 @@
 {
     "@context": {
-        "chebi": "http://purl.obolibrary.org/obo/chebi/",
         "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
         "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-        "obo": "http://purl.obolibrary.org/obo/"
-    },
-    "@id": "obo:CHEBI_141477",
-    "@type": "http://www.w3.org/2002/07/owl#Class",
-    "obo:IAO_0000115": "A diester that is diethyl succinate in which position 2 is substituted by a (dimethoxyphosphoryl)thio group.",
-    "chebi:charge": "0",
-    "chebi:formula": "C10H19O7PS",
-    "chebi:inchi": "InChI=1S/C10H19O7PS/c1-5-16-9(11)7-8(10(12)17-6-2)19-18(13,14-3)15-4/h8H,5-7H2,1-4H3",
-    "chebi:inchikey": "WSORODGWGUUOBO-UHFFFAOYSA-N",
-    "chebi:smiles": "C(C(OCC)=O)C(C(OCC)=O)SP(OC)(OC)=O",
-    "geneontology:hasId": "141477",
-    "geneontology:inSubset": {
-        "@id": "obo:chebi#3_STAR"
-    },
-    "rdfs:label": "diethyl 2-[(dimethoxyphosphoryl)thio]succinate",
-    "rdfs:subClassOf": [
-        {
-            "@id": "obo:CHEBI_23990"
+        "obo": "http://purl.obolibrary.org/obo/",
+        "uniprot": "http://purl.uniprot.org/",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "concept": "https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/",
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "dbo": "http://dbpedia.org/ontology/",
+        "dbp": "http://dbpedia.org/property/",
+        "altLabel": {
+            "@id": "http://www.w3.org/2004/02/skos/core#altLabel",
+            "@language": "en"
         },
-        {
-            "@id": "obo:CHEBI_51307"
-        },
-        {
-            "@id": "obo:CHEBI_37512"
+        "graph": {
+            "@id": "@graph"
         }
-    ]
+    }
 }

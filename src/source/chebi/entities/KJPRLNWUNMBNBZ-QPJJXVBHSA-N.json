@@ -1,50 +1,31 @@
 {
     "@context": {
-        "chebi": "http://purl.obolibrary.org/obo/chebi/",
         "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
         "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-        "obo": "http://purl.obolibrary.org/obo/"
+        "obo": "http://purl.obolibrary.org/obo/",
+        "uniprot": "http://purl.uniprot.org/",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "concept": "https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/",
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "dbo": "http://dbpedia.org/ontology/",
+        "dbp": "http://dbpedia.org/property/",
+        "altLabel": {
+            "@id": "http://www.w3.org/2004/02/skos/core#altLabel",
+            "@language": "en"
+        },
+        "graph": {
+            "@id": "@graph"
+        }
     },
-    "@id": "obo:CHEBI_16731",
-    "@type": "http://www.w3.org/2002/07/owl#Class",
-    "obo:IAO_0000115": "The E (trans) stereoisomer of cinnamaldehyde, the parent of the class of cinnamaldehydes.",
+    "@id": "concept:KJPRLNWUNMBNBZ-QPJJXVBHSA-N",
+    "@type": "skos:Concept",
+    "dbo:formula": "C9H8O",
+    "dbo:inchi": "InChI=1S/C9H8O/c10-8-4-7-9-5-2-1-3-6-9/h1-8H/b7-4+",
+    "dbo:smiles": "O=C\\C=C\\c1ccccc1",
+    "dbp:inchikey": "KJPRLNWUNMBNBZ-QPJJXVBHSA-N",
     "chebi:charge": "0",
-    "chebi:formula": "C9H8O",
-    "chebi:inchi": "InChI=1S/C9H8O/c10-8-4-7-9-5-2-1-3-6-9/h1-8H/b7-4+",
-    "chebi:inchikey": "KJPRLNWUNMBNBZ-QPJJXVBHSA-N",
-    "chebi:smiles": "O=C\\C=C\\c1ccccc1",
-    "http://purl.uniprot.org/core/name": "(E)-cinnamaldehyde",
-    "geneontology:hasDbXref": [
-        "PMID:29079364",
-        "Beilstein:1071571",
-        "BPDB:1069",
-        "CAS:14371-10-9",
-        "HMDB:HMDB0003441",
-        "KEGG:C00903",
-        "KNApSAcK:C00002725",
-        "KNApSAcK:C00035187",
-        "PMID:11975643",
-        "PMID:17140783",
-        "PMID:17662960",
-        "PMID:18218683",
-        "PMID:19845671",
-        "PMID:20431333",
-        "PMID:20955755",
-        "PMID:21266172",
-        "PMID:21388814",
-        "PMID:21394803",
-        "PMID:21466812",
-        "PMID:21469739",
-        "PMID:21517069",
-        "PMID:21603596",
-        "PMID:21708228",
-        "PMID:21767279",
-        "PMID:21788726",
-        "Reaxys:1071571",
-        "Wikipedia:Cinnamaldehyde"
-    ],
-    "geneontology:hasId": "16731",
-    "geneontology:hasSynonym": [
+    "skos:altLabel": [
         "(3E)-3-phenylprop-2-enal",
         "(E)-3-Phenyl-2-propenal",
         "(E)-3-Phenylpropenal",
@@ -56,34 +37,13 @@
         "Cinnamaldehyde",
         "trans-Cinnamic aldehyde"
     ],
-    "geneontology:inSubset": {
-        "@id": "obo:chebi#3_STAR"
+    "skos:exactMatch": {
+        "@id": "obo:CHEBI_16731"
     },
-    "rdfs:label": "(E)-cinnamaldehyde",
-    "rdfs:subClassOf": [
+    "skos:note": "The E (trans) stereoisomer of cinnamaldehyde, the parent of the class of cinnamaldehydes.",
+    "skos:semanticRelation": [
         {
             "@id": "obo:CHEBI_23245"
-        },
-        {
-            "@id": "b406_genid-00f1db82e1ab437c844115a94dc63e635-bn16731t11f35526"
-        },
-        {
-            "@id": "b406_genid-00f1db82e1ab437c844115a94dc63e635-bn16731t11f35617"
-        },
-        {
-            "@id": "b406_genid-00f1db82e1ab437c844115a94dc63e635-bn16731t11f35620"
-        },
-        {
-            "@id": "b406_genid-00f1db82e1ab437c844115a94dc63e635-bn16731t11f35718"
-        },
-        {
-            "@id": "b406_genid-00f1db82e1ab437c844115a94dc63e635-bn16731t11f62871"
-        },
-        {
-            "@id": "b406_genid-00f1db82e1ab437c844115a94dc63e635-bn16731t11f76924"
-        },
-        {
-            "@id": "b406_genid-00f1db82e1ab437c844115a94dc63e635-bn16731t11f139492"
         },
         {
             "@id": "obo:CHEBI_142921"

@@ -1,41 +1,42 @@
 {
     "@context": {
-        "chebi": "http://purl.obolibrary.org/obo/chebi/",
         "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
         "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-        "obo": "http://purl.obolibrary.org/obo/"
+        "obo": "http://purl.obolibrary.org/obo/",
+        "uniprot": "http://purl.uniprot.org/",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "concept": "https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/",
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "dbo": "http://dbpedia.org/ontology/",
+        "dbp": "http://dbpedia.org/property/",
+        "altLabel": {
+            "@id": "http://www.w3.org/2004/02/skos/core#altLabel",
+            "@language": "en"
+        },
+        "graph": {
+            "@id": "@graph"
+        }
     },
-    "@id": "obo:CHEBI_81736",
-    "@type": "http://www.w3.org/2002/07/owl#Class",
-    "obo:IAO_0000115": "A monothiocarbamic ester that is carbamic acid in which the oxygen of the oxo group is replaced by sulfur, the hydrogens attached to the nitrogen are replaced by methyl and 6-methoxypyridin-2-yl groups, and the hydrogen of the hydroxy group is replaced by a p-tert-butylphenyl group. It has fungicidal and herbicidal activity and is used in paddy rice and turf production.",
+    "@id": "concept:VTRWMTJQBQJKQH-UHFFFAOYSA-N",
+    "@type": "skos:Concept",
+    "dbo:formula": "C18H22N2O2S",
+    "dbo:inchi": "InChI=1S/C18H22N2O2S/c1-18(2,3)13-8-6-9-14(12-13)22-17(23)20(4)15-10-7-11-16(19-15)21-5/h6-12H,1-5H3",
+    "dbo:smiles": "COc1cccc(n1)N(C)C(=S)Oc1cccc(c1)C(C)(C)C",
+    "dbp:inchikey": "VTRWMTJQBQJKQH-UHFFFAOYSA-N",
     "chebi:charge": "0",
-    "chebi:formula": "C18H22N2O2S",
-    "chebi:inchi": "InChI=1S/C18H22N2O2S/c1-18(2,3)13-8-6-9-14(12-13)22-17(23)20(4)15-10-7-11-16(19-15)21-5/h6-12H,1-5H3",
-    "chebi:inchikey": "VTRWMTJQBQJKQH-UHFFFAOYSA-N",
-    "chebi:smiles": "COc1cccc(n1)N(C)C(=S)Oc1cccc(c1)C(C)(C)C",
-    "geneontology:hasDbXref": [
-        "CAS:88678-67-5",
-        "KEGG:C18422",
-        "Pesticides:pyributicarb",
-        "PMID:15853388",
-        "PMID:16233493",
-        "PMID:17293382",
-        "PMID:21115097",
-        "Reaxys:11343509"
-    ],
-    "geneontology:hasId": "81736",
-    "geneontology:hasSynonym": [
+    "skos:altLabel": [
         "O-(3-tert-butylphenyl) (6-methoxypyridin-2-yl)methylcarbamothioate",
         "O-[3-(1,1-dimethylethyl)phenyl] N-(6-methoxy-2-pyridinyl)-N-methylcarbamothioate",
         "O-3-tert-butylphenyl 6-methoxy-2-pyridyl(methyl)thiocarbamate",
         "pyributicarbe",
         "TSH-888"
     ],
-    "geneontology:inSubset": {
-        "@id": "obo:chebi#3_STAR"
+    "skos:exactMatch": {
+        "@id": "obo:CHEBI_81736"
     },
-    "rdfs:label": "pyributicarb",
-    "rdfs:subClassOf": [
+    "skos:note": "A monothiocarbamic ester that is carbamic acid in which the oxygen of the oxo group is replaced by sulfur, the hydrogens attached to the nitrogen are replaced by methyl and 6-methoxypyridin-2-yl groups, and the hydrogen of the hydroxy group is replaced by a p-tert-butylphenyl group. It has fungicidal and herbicidal activity and is used in paddy rice and turf production.",
+    "skos:semanticRelation": [
         {
             "@id": "obo:CHEBI_26421"
         },
@@ -44,15 +45,6 @@
         },
         {
             "@id": "obo:CHEBI_38128"
-        },
-        {
-            "@id": "b999_genid-00f1db82e1ab437c844115a94dc63e635-bn81736t11f24527"
-        },
-        {
-            "@id": "b999_genid-00f1db82e1ab437c844115a94dc63e635-bn81736t11f83317"
-        },
-        {
-            "@id": "b999_genid-00f1db82e1ab437c844115a94dc63e635-bn81736t11f86328"
         }
     ]
 }

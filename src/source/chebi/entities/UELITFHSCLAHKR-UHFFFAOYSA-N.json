@@ -1,47 +1,31 @@
 {
     "@context": {
-        "chebi": "http://purl.obolibrary.org/obo/chebi/",
         "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
         "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-        "obo": "http://purl.obolibrary.org/obo/"
+        "obo": "http://purl.obolibrary.org/obo/",
+        "uniprot": "http://purl.uniprot.org/",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "concept": "https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/",
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "dbo": "http://dbpedia.org/ontology/",
+        "dbp": "http://dbpedia.org/property/",
+        "altLabel": {
+            "@id": "http://www.w3.org/2004/02/skos/core#altLabel",
+            "@language": "en"
+        },
+        "graph": {
+            "@id": "@graph"
+        }
     },
-    "@id": "obo:CHEBI_73178",
-    "@type": "http://www.w3.org/2002/07/owl#Class",
-    "obo:IAO_0000115": "A benzothiadiazole that is the S-methyl thioester derivative of acibenzolar. A profungicide (by hydrolysis of the thioester group to give the corresponding carboxylic acid), it is used as a fungicide and plant activator on a variety of crops, including cotton, chili peppers, lettuce, onions, spinach, tobacco, and tomatoes.",
+    "@id": "concept:UELITFHSCLAHKR-UHFFFAOYSA-N",
+    "@type": "skos:Concept",
+    "dbo:formula": "C8H6N2OS2",
+    "dbo:inchi": "InChI=1S/C8H6N2OS2/c1-12-8(11)5-3-2-4-6-7(5)13-10-9-6/h2-4H,1H3",
+    "dbo:smiles": "CSC(=O)c1cccc2nnsc12",
+    "dbp:inchikey": "UELITFHSCLAHKR-UHFFFAOYSA-N",
     "chebi:charge": "0",
-    "chebi:formula": "C8H6N2OS2",
-    "chebi:inchi": "InChI=1S/C8H6N2OS2/c1-12-8(11)5-3-2-4-6-7(5)13-10-9-6/h2-4H,1H3",
-    "chebi:inchikey": "UELITFHSCLAHKR-UHFFFAOYSA-N",
-    "chebi:smiles": "CSC(=O)c1cccc2nnsc12",
-    "geneontology:hasDbXref": [
-        "PMID:26449612",
-        "AGR:IND44133747",
-        "AGR:IND44133762",
-        "AGR:IND44136158",
-        "AGR:IND44148919",
-        "AGR:IND44438913",
-        "AGR:IND44452869",
-        "CAS:135158-54-2",
-        "Pesticides:acibenzolar-s-methyl",
-        "PMID:11838287",
-        "PMID:19265983",
-        "PMID:20377227",
-        "PMID:20621100",
-        "PMID:20652832",
-        "PMID:20730989",
-        "PMID:21726155",
-        "PMID:22456950",
-        "PMID:22595304",
-        "PMID:22928310",
-        "PMID:25779462",
-        "PMID:27116913",
-        "PMID:27733862",
-        "PPDB:13",
-        "Reaxys:8055445",
-        "Wikipedia:Acibenzolar-S-methyl"
-    ],
-    "geneontology:hasId": "73178",
-    "geneontology:hasSynonym": [
+    "skos:altLabel": [
         "1,2,3-benzothiadiazole-7-carboxlic acid thiomethyl ester",
         "7-(methylthiocarbonyl)-benzo-1,2,3-thiadiazole",
         "Actigard",
@@ -50,28 +34,16 @@
         "S-methyl 1,2,3-benzothiadiazole-7-carbothioate",
         "S-methyl benzo[1,2,3]thiadiazole-7-carbothioate"
     ],
-    "geneontology:inSubset": {
-        "@id": "obo:chebi#3_STAR"
+    "skos:exactMatch": {
+        "@id": "obo:CHEBI_73178"
     },
-    "rdfs:label": "acibenzolar-S-methyl",
-    "rdfs:subClassOf": [
+    "skos:note": "A benzothiadiazole that is the S-methyl thioester derivative of acibenzolar. A profungicide (by hydrolysis of the thioester group to give the corresponding carboxylic acid), it is used as a fungicide and plant activator on a variety of crops, including cotton, chili peppers, lettuce, onions, spinach, tobacco, and tomatoes.",
+    "skos:semanticRelation": [
         {
             "@id": "obo:CHEBI_51277"
         },
         {
             "@id": "obo:CHEBI_48864"
-        },
-        {
-            "@id": "b768_genid-00f1db82e1ab437c844115a94dc63e635-bn73178t11f73182"
-        },
-        {
-            "@id": "b768_genid-00f1db82e1ab437c844115a94dc63e635-bn73178t8f73185"
-        },
-        {
-            "@id": "b768_genid-00f1db82e1ab437c844115a94dc63e635-bn73178t11f86328"
-        },
-        {
-            "@id": "b768_genid-00f1db82e1ab437c844115a94dc63e635-bn73178t11f136645"
         }
     ]
 }

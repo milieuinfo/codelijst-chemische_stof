@@ -1,50 +1,27 @@
 {
     "@context": {
-        "chebi": "http://purl.obolibrary.org/obo/chebi/",
         "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
         "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-        "obo": "http://purl.obolibrary.org/obo/"
+        "obo": "http://purl.obolibrary.org/obo/",
+        "uniprot": "http://purl.uniprot.org/",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "concept": "https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/",
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "dbo": "http://dbpedia.org/ontology/",
+        "dbp": "http://dbpedia.org/property/",
+        "graph": {
+            "@id": "@graph"
+        }
     },
-    "@id": "obo:CHEBI_51403",
-    "@type": "http://www.w3.org/2002/07/owl#Class",
-    "obo:IAO_0000115": "A phenylenediamine in which the amino functions are at positions 1 and 4 of the benzene nucleus.",
+    "@id": "concept:CBCKQZAAMUWICA-UHFFFAOYSA-N",
+    "@type": "skos:Concept",
+    "dbo:formula": "C6H8N2",
+    "dbo:inchi": "InChI=1S/C6H8N2/c7-5-1-2-6(8)4-3-5/h1-4H,7-8H2",
+    "dbo:smiles": "Nc1ccc(N)cc1",
+    "dbp:inchikey": "CBCKQZAAMUWICA-UHFFFAOYSA-N",
     "chebi:charge": "0",
-    "chebi:formula": "C6H8N2",
-    "chebi:inchi": "InChI=1S/C6H8N2/c7-5-1-2-6(8)4-3-5/h1-4H,7-8H2",
-    "chebi:inchikey": "CBCKQZAAMUWICA-UHFFFAOYSA-N",
-    "chebi:smiles": "Nc1ccc(N)cc1",
-    "geneontology:hasDbXref": [
-        "PMID:10771133",
-        "PMID:9540973",
-        "PMID:21616561",
-        "PMID:19469519",
-        "PMID:8735869",
-        "PMID:1395635",
-        "PMID:17827020",
-        "PMID:15462465",
-        "PMID:18837732",
-        "PMID:18844695",
-        "Beilstein:749029",
-        "CAS:106-50-3",
-        "Chemspider:13835179",
-        "DrugBank:DB14141",
-        "HMDB:HMDB0256055",
-        "KEGG:C19499",
-        "PMID:10694312",
-        "PMID:11495521",
-        "PMID:17256041",
-        "PMID:19099270",
-        "PMID:19958436",
-        "PMID:20565505",
-        "PMID:23257336",
-        "PMID:23510340",
-        "PMID:24385090",
-        "PMID:8254706",
-        "Reaxys:749029",
-        "Wikipedia:P-Phenylenediamine"
-    ],
-    "geneontology:hasId": "51403",
-    "geneontology:hasSynonym": [
+    "skos:altLabel": [
         "PPD",
         "1,4-Benzenediamine",
         "1,4-diaminobenzene",
@@ -60,25 +37,11 @@
         "p-Phenylenediamine",
         "p-phenylenediamine base"
     ],
-    "geneontology:inSubset": {
-        "@id": "obo:chebi#3_STAR"
+    "skos:exactMatch": {
+        "@id": "obo:CHEBI_51403"
     },
-    "rdfs:label": "1,4-phenylenediamine",
-    "rdfs:subClassOf": [
-        {
-            "@id": "obo:CHEBI_51402"
-        },
-        {
-            "@id": "b277_genid-00f1db82e1ab437c844115a94dc63e635-bn51403t11f33893"
-        },
-        {
-            "@id": "b277_genid-00f1db82e1ab437c844115a94dc63e635-bn51403t11f37958"
-        },
-        {
-            "@id": "b277_genid-00f1db82e1ab437c844115a94dc63e635-bn51403t11f50904"
-        },
-        {
-            "@id": "b277_genid-00f1db82e1ab437c844115a94dc63e635-bn51403t11f59174"
-        }
-    ]
+    "skos:note": "A phenylenediamine in which the amino functions are at positions 1 and 4 of the benzene nucleus.",
+    "skos:semanticRelation": {
+        "@id": "obo:CHEBI_51402"
+    }
 }

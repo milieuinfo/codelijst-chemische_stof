@@ -1,38 +1,31 @@
 {
     "@context": {
-        "chebi": "http://purl.obolibrary.org/obo/chebi/",
         "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
         "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-        "obo": "http://purl.obolibrary.org/obo/"
+        "obo": "http://purl.obolibrary.org/obo/",
+        "uniprot": "http://purl.uniprot.org/",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "concept": "https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/",
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "dbo": "http://dbpedia.org/ontology/",
+        "dbp": "http://dbpedia.org/property/",
+        "altLabel": {
+            "@id": "http://www.w3.org/2004/02/skos/core#altLabel",
+            "@language": "en"
+        },
+        "graph": {
+            "@id": "@graph"
+        }
     },
-    "@id": "obo:CHEBI_81810",
-    "@type": "http://www.w3.org/2002/07/owl#Class",
-    "obo:IAO_0000115": "A member of the class of naphthalenes that is naphthalene which is substituted by a 2-amino-2-oxoethyl group at position 1. It is a synthetic auxin that is widely used in agriculture to promote the growth of numerous fruits, for root cuttings and as a fruit thinning agent.",
+    "@id": "concept:XFNJVKMNNVCYEK-UHFFFAOYSA-N",
+    "@type": "skos:Concept",
+    "dbo:formula": "C12H11NO",
+    "dbo:inchi": "InChI=1S/C12H11NO/c13-12(14)8-10-6-3-5-9-4-1-2-7-11(9)10/h1-7H,8H2,(H2,13,14)",
+    "dbo:smiles": "C1=CC=C2C(=C1)C(=CC=C2)CC(N)=O",
+    "dbp:inchikey": "XFNJVKMNNVCYEK-UHFFFAOYSA-N",
     "chebi:charge": "0",
-    "chebi:formula": "C12H11NO",
-    "chebi:inchi": "InChI=1S/C12H11NO/c13-12(14)8-10-6-3-5-9-4-1-2-7-11(9)10/h1-7H,8H2,(H2,13,14)",
-    "chebi:inchikey": "XFNJVKMNNVCYEK-UHFFFAOYSA-N",
-    "chebi:smiles": "C1=CC=C2C(=C1)C(=CC=C2)CC(N)=O",
-    "http://purl.uniprot.org/core/name": "1-naphthaleneacetamide",
-    "geneontology:hasDbXref": [
-        "CAS:86-86-2",
-        "FooDB:FDB010671",
-        "HMDB:HMDB0032710",
-        "KEGG:C18533",
-        "MetaCyc:ALPHA-NAPHTHALENEACETAMIDE",
-        "Patent:DE10204456",
-        "Pesticides:naphthaleneacetamide",
-        "PMID:23175988",
-        "PMID:25690333",
-        "PMID:28958533",
-        "PMID:4840905",
-        "PMID:7380786",
-        "PPDB:1729",
-        "Reaxys:1945547",
-        "Wikipedia:1-Naphthaleneacetamide"
-    ],
-    "geneontology:hasId": "81810",
-    "geneontology:hasSynonym": [
+    "skos:altLabel": [
         "1-naphthylacetamide",
         "2-(1-naphthyl)acetamide",
         "2-(naphthalen-1-yl)acetamide",
@@ -48,19 +41,16 @@
         "NAAm",
         "Rootone"
     ],
-    "geneontology:inSubset": {
-        "@id": "obo:chebi#3_STAR"
+    "skos:exactMatch": {
+        "@id": "obo:CHEBI_81810"
     },
-    "rdfs:label": "1-naphthaleneacetamide",
-    "rdfs:subClassOf": [
+    "skos:note": "A member of the class of naphthalenes that is naphthalene which is substituted by a 2-amino-2-oxoethyl group at position 1. It is a synthetic auxin that is widely used in agriculture to promote the growth of numerous fruits, for root cuttings and as a fruit thinning agent.",
+    "skos:semanticRelation": [
         {
             "@id": "obo:CHEBI_25477"
         },
         {
             "@id": "obo:CHEBI_140324"
-        },
-        {
-            "@id": "b167_genid-00f1db82e1ab437c844115a94dc63e635-bn81810t11f26841"
         }
     ]
 }

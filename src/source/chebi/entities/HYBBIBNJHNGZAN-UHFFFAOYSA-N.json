@@ -1,45 +1,31 @@
 {
     "@context": {
-        "chebi": "http://purl.obolibrary.org/obo/chebi/",
         "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
         "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-        "obo": "http://purl.obolibrary.org/obo/"
+        "obo": "http://purl.obolibrary.org/obo/",
+        "uniprot": "http://purl.uniprot.org/",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "concept": "https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/",
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "dbo": "http://dbpedia.org/ontology/",
+        "dbp": "http://dbpedia.org/property/",
+        "altLabel": {
+            "@id": "http://www.w3.org/2004/02/skos/core#altLabel",
+            "@language": "en"
+        },
+        "graph": {
+            "@id": "@graph"
+        }
     },
-    "@id": "obo:CHEBI_34768",
-    "@type": "http://www.w3.org/2002/07/owl#Class",
-    "obo:IAO_0000115": "An aldehyde that is furan with the hydrogen at position 2 substituted by a formyl group.",
+    "@id": "concept:HYBBIBNJHNGZAN-UHFFFAOYSA-N",
+    "@type": "skos:Concept",
+    "dbo:formula": "C5H4O2",
+    "dbo:inchi": "InChI=1S/C5H4O2/c6-4-5-2-1-3-7-5/h1-4H",
+    "dbo:smiles": "O=Cc1ccco1",
+    "dbp:inchikey": "HYBBIBNJHNGZAN-UHFFFAOYSA-N",
     "chebi:charge": "0",
-    "chebi:formula": "C5H4O2",
-    "chebi:inchi": "InChI=1S/C5H4O2/c6-4-5-2-1-3-7-5/h1-4H",
-    "chebi:inchikey": "HYBBIBNJHNGZAN-UHFFFAOYSA-N",
-    "chebi:smiles": "O=Cc1ccco1",
-    "http://purl.uniprot.org/core/name": "furfural",
-    "geneontology:hasDbXref": [
-        "PMID:17439666",
-        "CAS:98-01-1",
-        "KEGG:C14279",
-        "KNApSAcK:C00030331",
-        "MetaCyc:CPD0-2357",
-        "PDBeChem:FU2",
-        "PMID:21925629",
-        "PMID:22081946",
-        "PMID:22133603",
-        "PMID:22213717",
-        "PMID:22277539",
-        "PMID:22315196",
-        "PMID:22504824",
-        "PMID:22512171",
-        "PMID:22592554",
-        "PMID:22639140",
-        "PMID:22648683",
-        "PMID:22703600",
-        "PPDB:368",
-        "Reaxys:105755",
-        "Wikipedia:Furfural",
-        "YMDB:YMDB01459"
-    ],
-    "geneontology:hasId": "34768",
-    "geneontology:hasSynonym": [
+    "skos:altLabel": [
         "2-Formylfuran",
         "2-Furaldehyde",
         "2-Furanaldehyde",
@@ -50,25 +36,16 @@
         "Furaldehyde",
         "furan-2-carbaldehyde"
     ],
-    "geneontology:inSubset": {
-        "@id": "obo:chebi#3_STAR"
+    "skos:exactMatch": {
+        "@id": "obo:CHEBI_34768"
     },
-    "rdfs:label": "furfural",
-    "rdfs:subClassOf": [
+    "skos:note": "An aldehyde that is furan with the hydrogen at position 2 substituted by a formyl group.",
+    "skos:semanticRelation": [
         {
             "@id": "obo:CHEBI_17478"
         },
         {
             "@id": "obo:CHEBI_24129"
-        },
-        {
-            "@id": "b52_genid-00f1db82e1ab437c844115a94dc63e635-bn34768t11f25212"
-        },
-        {
-            "@id": "b52_genid-00f1db82e1ab437c844115a94dc63e635-bn34768t8f35559"
-        },
-        {
-            "@id": "b52_genid-00f1db82e1ab437c844115a94dc63e635-bn34768t11f77523"
         }
     ]
 }

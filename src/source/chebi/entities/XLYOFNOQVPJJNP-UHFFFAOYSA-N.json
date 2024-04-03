@@ -1,34 +1,31 @@
 {
     "@context": {
-        "chebi": "http://purl.obolibrary.org/obo/chebi/",
         "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
         "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-        "obo": "http://purl.obolibrary.org/obo/"
+        "obo": "http://purl.obolibrary.org/obo/",
+        "uniprot": "http://purl.uniprot.org/",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "concept": "https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/",
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "dbo": "http://dbpedia.org/ontology/",
+        "dbp": "http://dbpedia.org/property/",
+        "altLabel": {
+            "@id": "http://www.w3.org/2004/02/skos/core#altLabel",
+            "@language": "en"
+        },
+        "graph": {
+            "@id": "@graph"
+        }
     },
-    "@id": "obo:CHEBI_15377",
-    "@type": "http://www.w3.org/2002/07/owl#Class",
-    "obo:IAO_0000115": "An oxygen hydride consisting of an oxygen atom that is covalently bonded to two hydrogen atoms",
+    "@id": "concept:XLYOFNOQVPJJNP-UHFFFAOYSA-N",
+    "@type": "skos:Concept",
+    "dbo:formula": "H2O",
+    "dbo:inchi": "InChI=1S/H2O/h1H2",
+    "dbo:smiles": "[H]O[H]",
+    "dbp:inchikey": "XLYOFNOQVPJJNP-UHFFFAOYSA-N",
     "chebi:charge": "0",
-    "chebi:formula": "H2O",
-    "chebi:inchi": "InChI=1S/H2O/h1H2",
-    "chebi:inchikey": "XLYOFNOQVPJJNP-UHFFFAOYSA-N",
-    "chebi:smiles": "[H]O[H]",
-    "http://purl.uniprot.org/core/name": "H2O",
-    "geneontology:hasDbXref": [
-        "Beilstein:3587155",
-        "CAS:7732-18-5",
-        "Gmelin:117",
-        "HMDB:HMDB0002111",
-        "KEGG:C00001",
-        "KEGG:D00001",
-        "MetaCyc:WATER",
-        "MolBase:1",
-        "PDBeChem:HOH",
-        "Reaxys:3587155",
-        "Wikipedia:Water"
-    ],
-    "geneontology:hasId": "15377",
-    "geneontology:hasSynonym": [
+    "skos:altLabel": [
         "H2O",
         "[OH2]",
         "acqua",
@@ -45,17 +42,11 @@
         "Water",
         "WATER"
     ],
-    "geneontology:inSubset": {
-        "@id": "obo:chebi#3_STAR"
+    "skos:exactMatch": {
+        "@id": "obo:CHEBI_15377"
     },
-    "rdfs:label": "water",
-    "rdfs:subClassOf": [
-        {
-            "@id": "b206_genid-00f1db82e1ab437c844115a94dc63e635-bn15377t4f16234"
-        },
-        {
-            "@id": "b206_genid-00f1db82e1ab437c844115a94dc63e635-bn15377t5f29412"
-        },
+    "skos:note": "An oxygen hydride consisting of an oxygen atom that is covalently bonded to two hydrogen atoms",
+    "skos:semanticRelation": [
         {
             "@id": "obo:CHEBI_33693"
         },
@@ -63,25 +54,7 @@
             "@id": "obo:CHEBI_37176"
         },
         {
-            "@id": "b206_genid-00f1db82e1ab437c844115a94dc63e635-bn15377t11f48360"
-        },
-        {
             "@id": "obo:CHEBI_52625"
-        },
-        {
-            "@id": "b206_genid-00f1db82e1ab437c844115a94dc63e635-bn15377t11f75771"
-        },
-        {
-            "@id": "b206_genid-00f1db82e1ab437c844115a94dc63e635-bn15377t11f75772"
-        },
-        {
-            "@id": "b206_genid-00f1db82e1ab437c844115a94dc63e635-bn15377t11f76413"
-        },
-        {
-            "@id": "b206_genid-00f1db82e1ab437c844115a94dc63e635-bn15377t11f76971"
-        },
-        {
-            "@id": "b206_genid-00f1db82e1ab437c844115a94dc63e635-bn15377t11f77746"
         }
     ]
 }

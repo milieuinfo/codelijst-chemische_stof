@@ -1,72 +1,31 @@
 {
     "@context": {
-        "chebi": "http://purl.obolibrary.org/obo/chebi/",
         "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
         "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-        "obo": "http://purl.obolibrary.org/obo/"
+        "obo": "http://purl.obolibrary.org/obo/",
+        "uniprot": "http://purl.uniprot.org/",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "concept": "https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/",
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "dbo": "http://dbpedia.org/ontology/",
+        "dbp": "http://dbpedia.org/property/",
+        "altLabel": {
+            "@id": "http://www.w3.org/2004/02/skos/core#altLabel",
+            "@language": "en"
+        },
+        "graph": {
+            "@id": "@graph"
+        }
     },
-    "@id": "obo:CHEBI_28262",
-    "@type": "http://www.w3.org/2002/07/owl#Class",
-    "obo:IAO_0000115": "A 2-carbon sulfoxide in which the sulfur atom has two methyl substituents.",
+    "@id": "concept:IAZDPXIOMUYVGZ-UHFFFAOYSA-N",
+    "@type": "skos:Concept",
+    "dbo:formula": "C2H6OS",
+    "dbo:inchi": "InChI=1S/C2H6OS/c1-4(2)3/h1-2H3",
+    "dbo:smiles": "CS(C)=O",
+    "dbp:inchikey": "IAZDPXIOMUYVGZ-UHFFFAOYSA-N",
     "chebi:charge": "0",
-    "chebi:formula": "C2H6OS",
-    "chebi:inchi": "InChI=1S/C2H6OS/c1-4(2)3/h1-2H3",
-    "chebi:inchikey": "IAZDPXIOMUYVGZ-UHFFFAOYSA-N",
-    "chebi:smiles": "CS(C)=O",
-    "http://purl.uniprot.org/core/name": "dimethyl sulfoxide",
-    "geneontology:hasDbXref": [
-        "PMID:11350866",
-        "PMID:15588915",
-        "PMID:23313473",
-        "Beilstein:506008",
-        "CAS:67-68-5",
-        "Chemspider:659",
-        "Drug_Central:906",
-        "DrugBank:DB01093",
-        "FooDB:FDB000764",
-        "Gmelin:1556",
-        "HMDB:HMDB0002151",
-        "KEGG:C11143",
-        "KEGG:D01043",
-        "KNApSAcK:C00053120",
-        "LINCS:LSM-36361",
-        "MetaCyc:DMSO",
-        "PDBeChem:DMS",
-        "PMID:10298633",
-        "PMID:11162043",
-        "PMID:11474739",
-        "PMID:12663039",
-        "PMID:15237653",
-        "PMID:15868171",
-        "PMID:16434015",
-        "PMID:16522014",
-        "PMID:19096138",
-        "PMID:19382398",
-        "PMID:19443933",
-        "PMID:20828537",
-        "PMID:21426213",
-        "PMID:22030943",
-        "PMID:22722716",
-        "PMID:22768202",
-        "PMID:22814967",
-        "PMID:23050031",
-        "PMID:28220525",
-        "PMID:29938311",
-        "PMID:31489176",
-        "PMID:3510103",
-        "PMID:3898376",
-        "PMID:3916302",
-        "PMID:4223708",
-        "PMID:4556944",
-        "PMID:4963226",
-        "PMID:6309056",
-        "PMID:6379027",
-        "Reaxys:506008",
-        "UM-BBD_compID:c0236",
-        "Wikipedia:Dimethyl_sulfoxide"
-    ],
-    "geneontology:hasId": "28262",
-    "geneontology:hasSynonym": [
+    "skos:altLabel": [
         "(CH3)2SO",
         "(methanesulfinyl)methane",
         "dimethyli sulfoxidum",
@@ -83,40 +42,16 @@
         "S(O)Me2",
         "sulfinylbis(methane)"
     ],
-    "geneontology:inSubset": {
-        "@id": "obo:chebi#3_STAR"
+    "skos:exactMatch": {
+        "@id": "obo:CHEBI_28262"
     },
-    "rdfs:label": "dimethyl sulfoxide",
-    "rdfs:subClassOf": [
+    "skos:note": "A 2-carbon sulfoxide in which the sulfur atom has two methyl substituents.",
+    "skos:semanticRelation": [
         {
             "@id": "obo:CHEBI_134179"
         },
         {
             "@id": "obo:CHEBI_22063"
-        },
-        {
-            "@id": "b70_genid-00f1db82e1ab437c844115a94dc63e635-bn28262t11f22333"
-        },
-        {
-            "@id": "b70_genid-00f1db82e1ab437c844115a94dc63e635-bn28262t11f35481"
-        },
-        {
-            "@id": "b70_genid-00f1db82e1ab437c844115a94dc63e635-bn28262t11f37335"
-        },
-        {
-            "@id": "b70_genid-00f1db82e1ab437c844115a94dc63e635-bn28262t11f48358"
-        },
-        {
-            "@id": "b70_genid-00f1db82e1ab437c844115a94dc63e635-bn28262t11f48578"
-        },
-        {
-            "@id": "b70_genid-00f1db82e1ab437c844115a94dc63e635-bn28262t11f50247"
-        },
-        {
-            "@id": "b70_genid-00f1db82e1ab437c844115a94dc63e635-bn28262t11f76971"
-        },
-        {
-            "@id": "b70_genid-00f1db82e1ab437c844115a94dc63e635-bn28262t11f176497"
         }
     ]
 }

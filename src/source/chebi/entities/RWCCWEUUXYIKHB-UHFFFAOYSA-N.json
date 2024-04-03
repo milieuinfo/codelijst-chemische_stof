@@ -1,60 +1,31 @@
 {
     "@context": {
-        "chebi": "http://purl.obolibrary.org/obo/chebi/",
         "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
         "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-        "obo": "http://purl.obolibrary.org/obo/"
+        "obo": "http://purl.obolibrary.org/obo/",
+        "uniprot": "http://purl.uniprot.org/",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "concept": "https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/",
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "dbo": "http://dbpedia.org/ontology/",
+        "dbp": "http://dbpedia.org/property/",
+        "altLabel": {
+            "@id": "http://www.w3.org/2004/02/skos/core#altLabel",
+            "@language": "en"
+        },
+        "graph": {
+            "@id": "@graph"
+        }
     },
-    "@id": "obo:CHEBI_41308",
-    "@type": "http://www.w3.org/2002/07/owl#Class",
-    "obo:IAO_0000115": "The simplest member of the class of benzophenones, being formaldehyde in which both hydrogens are replaced by phenyl groups.",
+    "@id": "concept:RWCCWEUUXYIKHB-UHFFFAOYSA-N",
+    "@type": "skos:Concept",
+    "dbo:formula": "C13H10O",
+    "dbo:inchi": "InChI=1S/C13H10O/c14-13(11-7-3-1-4-8-11)12-9-5-2-6-10-12/h1-10H",
+    "dbo:smiles": "O=C(C1=CC=CC=C1)C1=CC=CC=C1",
+    "dbp:inchikey": "RWCCWEUUXYIKHB-UHFFFAOYSA-N",
     "chebi:charge": "0",
-    "chebi:formula": "C13H10O",
-    "chebi:inchi": "InChI=1S/C13H10O/c14-13(11-7-3-1-4-8-11)12-9-5-2-6-10-12/h1-10H",
-    "chebi:inchikey": "RWCCWEUUXYIKHB-UHFFFAOYSA-N",
-    "chebi:smiles": "O=C(C1=CC=CC=C1)C1=CC=CC=C1",
-    "http://purl.uniprot.org/core/name": "benzophenone",
-    "geneontology:hasDbXref": [
-        "PMID:17439666",
-        "Beilstein:1238185",
-        "CAS:119-61-9",
-        "Chemspider:2991",
-        "DrugBank:DB01878",
-        "Gmelin:4256",
-        "HMDB:HMDB0032049",
-        "KEGG:C06354",
-        "PDBeChem:BZQ",
-        "PMID:10728861",
-        "PMID:10864504",
-        "PMID:10877357",
-        "PMID:14673848",
-        "PMID:15373829",
-        "PMID:15672204",
-        "PMID:16212356",
-        "PMID:16820853",
-        "PMID:16853025",
-        "PMID:16999485",
-        "PMID:17955805",
-        "PMID:19388040",
-        "PMID:19655709",
-        "PMID:19939518",
-        "PMID:20534002",
-        "PMID:21238557",
-        "PMID:21277784",
-        "PMID:21919502",
-        "PMID:23963450",
-        "PMID:24226914",
-        "PMID:25788150",
-        "PMID:26254646",
-        "PMID:26282042",
-        "PMID:30720459",
-        "PMID:32736220",
-        "PMID:33682414",
-        "Reaxys:1238185",
-        "Wikipedia:Benzophenone"
-    ],
-    "geneontology:hasId": "41308",
-    "geneontology:hasSynonym": [
+    "skos:altLabel": [
         "alpha-oxodiphenylmethane",
         "alpha-oxoditane",
         "Benzophenone",
@@ -64,19 +35,11 @@
         "DIPHENYLMETHANONE",
         "Ph2CO"
     ],
-    "geneontology:inSubset": {
-        "@id": "obo:chebi#3_STAR"
+    "skos:exactMatch": {
+        "@id": "obo:CHEBI_41308"
     },
-    "rdfs:label": "benzophenone",
-    "rdfs:subClassOf": [
-        {
-            "@id": "obo:CHEBI_22726"
-        },
-        {
-            "@id": "b534_genid-00f1db82e1ab437c844115a94dc63e635-bn41308t11f47868"
-        },
-        {
-            "@id": "b534_genid-00f1db82e1ab437c844115a94dc63e635-bn41308t11f76924"
-        }
-    ]
+    "skos:note": "The simplest member of the class of benzophenones, being formaldehyde in which both hydrogens are replaced by phenyl groups.",
+    "skos:semanticRelation": {
+        "@id": "obo:CHEBI_22726"
+    }
 }

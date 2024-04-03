@@ -1,39 +1,17 @@
 {
     "@context": {
-        "chebi": "http://purl.obolibrary.org/obo/chebi/",
         "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
         "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-        "obo": "http://purl.obolibrary.org/obo/"
-    },
-    "@id": "obo:CHEBI_7967",
-    "@type": "http://www.w3.org/2002/07/owl#Class",
-    "chebi:charge": "0",
-    "chebi:inchi": "InChI=1S/C16H18N2O5S.K/c1-16(2)12(15(21)22)18-13(20)11(14(18)24-16)17-10(19)8-23-9-6-4-3-5-7-9;/h3-7,11-12,14H,8H2,1-2H3,(H,17,19)(H,21,22);/q;+1/p-1/t11-,12+,14-;/m1./s1",
-    "chebi:inchikey": "HCTVWSOKIJULET-LQDWTQKMSA-M",
-    "chebi:smiles": "[K+].[H][C@]12SC(C)(C)[C@@H](N1C(=O)[C@H]2NC(=O)COc1ccccc1)C([O-])=O",
-    "geneontology:hasDbXref": [
-        "Beilstein:3899450",
-        "CAS:132-98-9",
-        "DrugBank:DB00417",
-        "KEGG:D00497"
-    ],
-    "geneontology:hasId": "7967",
-    "geneontology:hasSynonym": [
-        "Penicillin vk",
-        "Penicillin V potassium",
-        "Phenoxymethylpenicillin potassium",
-        "potassium 2,2-dimethyl-6beta-(phenoxyacetamido)penam-3alpha-carboxylate"
-    ],
-    "geneontology:inSubset": {
-        "@id": "obo:chebi#3_STAR"
-    },
-    "rdfs:label": "phenoxymethylpenicillin potassium",
-    "rdfs:subClassOf": [
-        {
-            "@id": "obo:CHEBI_50394"
-        },
-        {
-            "@id": "b845_genid-00f1db82e1ab437c844115a94dc63e635-bn7967t10f51355"
+        "obo": "http://purl.obolibrary.org/obo/",
+        "uniprot": "http://purl.uniprot.org/",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "concept": "https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/",
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "dbo": "http://dbpedia.org/ontology/",
+        "dbp": "http://dbpedia.org/property/",
+        "graph": {
+            "@id": "@graph"
         }
-    ]
+    }
 }

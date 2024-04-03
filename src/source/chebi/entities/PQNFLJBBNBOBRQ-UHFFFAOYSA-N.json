@@ -1,38 +1,40 @@
 {
     "@context": {
-        "chebi": "http://purl.obolibrary.org/obo/chebi/",
         "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
         "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-        "obo": "http://purl.obolibrary.org/obo/"
+        "obo": "http://purl.obolibrary.org/obo/",
+        "uniprot": "http://purl.uniprot.org/",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "concept": "https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/",
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "dbo": "http://dbpedia.org/ontology/",
+        "dbp": "http://dbpedia.org/property/",
+        "altLabel": {
+            "@id": "http://www.w3.org/2004/02/skos/core#altLabel",
+            "@language": "en"
+        },
+        "graph": {
+            "@id": "@graph"
+        }
     },
-    "@id": "obo:CHEBI_37911",
-    "@type": "http://www.w3.org/2002/07/owl#Class",
-    "obo:IAO_0000115": "An ortho-fused bicyclic hydrocarbon consisting of a benzene ring fused to a cyclopentane ring; a high-boiling (176 (o)C) colourless liquid.",
+    "@id": "concept:PQNFLJBBNBOBRQ-UHFFFAOYSA-N",
+    "@type": "skos:Concept",
+    "dbo:formula": "C9H10",
+    "dbo:inchi": "InChI=1S/C9H10/c1-2-5-9-7-3-6-8(9)4-1/h1-2,4-5H,3,6-7H2",
+    "dbo:smiles": "C1Cc2ccccc2C1",
+    "dbp:inchikey": "PQNFLJBBNBOBRQ-UHFFFAOYSA-N",
     "chebi:charge": "0",
-    "chebi:formula": "C9H10",
-    "chebi:inchi": "InChI=1S/C9H10/c1-2-5-9-7-3-6-8(9)4-1/h1-2,4-5H,3,6-7H2",
-    "chebi:inchikey": "PQNFLJBBNBOBRQ-UHFFFAOYSA-N",
-    "chebi:smiles": "C1Cc2ccccc2C1",
-    "geneontology:hasDbXref": [
-        "Beilstein:1904376",
-        "CAS:496-11-7",
-        "Gmelin:67817",
-        "HMDB:HMDB0059837",
-        "PMID:24784750",
-        "Reaxys:1904376",
-        "Wikipedia:Indane"
-    ],
-    "geneontology:hasId": "37911",
-    "geneontology:hasSynonym": [
+    "skos:altLabel": [
         "2,3-dihydro-1H-indene",
         "benzocyclopentane",
         "Indan"
     ],
-    "geneontology:inSubset": {
-        "@id": "obo:chebi#3_STAR"
+    "skos:exactMatch": {
+        "@id": "obo:CHEBI_37911"
     },
-    "rdfs:label": "indane",
-    "rdfs:subClassOf": [
+    "skos:note": "An ortho-fused bicyclic hydrocarbon consisting of a benzene ring fused to a cyclopentane ring; a high-boiling (176 (o)C) colourless liquid.",
+    "skos:semanticRelation": [
         {
             "@id": "obo:CHEBI_46940"
         },

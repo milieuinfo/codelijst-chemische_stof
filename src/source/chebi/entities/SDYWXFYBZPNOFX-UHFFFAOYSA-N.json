@@ -1,28 +1,31 @@
 {
     "@context": {
-        "chebi": "http://purl.obolibrary.org/obo/chebi/",
         "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
         "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-        "obo": "http://purl.obolibrary.org/obo/"
+        "obo": "http://purl.obolibrary.org/obo/",
+        "uniprot": "http://purl.uniprot.org/",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "concept": "https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/",
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "dbo": "http://dbpedia.org/ontology/",
+        "dbp": "http://dbpedia.org/property/",
+        "altLabel": {
+            "@id": "http://www.w3.org/2004/02/skos/core#altLabel",
+            "@language": "en"
+        },
+        "graph": {
+            "@id": "@graph"
+        }
     },
-    "@id": "obo:CHEBI_16767",
-    "@type": "http://www.w3.org/2002/07/owl#Class",
-    "obo:IAO_0000115": "A dichloroaniline having the two chloro-substituents at the 3- and 4-positions.",
+    "@id": "concept:SDYWXFYBZPNOFX-UHFFFAOYSA-N",
+    "@type": "skos:Concept",
+    "dbo:formula": "C6H5Cl2N",
+    "dbo:inchi": "InChI=1S/C6H5Cl2N/c7-5-2-1-4(9)3-6(5)8/h1-3H,9H2",
+    "dbo:smiles": "Nc1ccc(Cl)c(Cl)c1",
+    "dbp:inchikey": "SDYWXFYBZPNOFX-UHFFFAOYSA-N",
     "chebi:charge": "0",
-    "chebi:formula": "C6H5Cl2N",
-    "chebi:inchi": "InChI=1S/C6H5Cl2N/c7-5-2-1-4(9)3-6(5)8/h1-3H,9H2",
-    "chebi:inchikey": "SDYWXFYBZPNOFX-UHFFFAOYSA-N",
-    "chebi:smiles": "Nc1ccc(Cl)c(Cl)c1",
-    "http://purl.uniprot.org/core/name": "3,4-dichloroaniline",
-    "geneontology:hasDbXref": [
-        "Beilstein:636837",
-        "CAS:95-76-1",
-        "Gmelin:602350",
-        "KEGG:C02791",
-        "PMID:16169045"
-    ],
-    "geneontology:hasId": "16767",
-    "geneontology:hasSynonym": [
+    "skos:altLabel": [
         "1-amino-3,4-dichlorobenzene",
         "3,4-DCA",
         "3,4-Dichloranilin",
@@ -32,22 +35,11 @@
         "4,5-dichloroaniline",
         "m,p-dichloroaniline"
     ],
-    "geneontology:inSubset": {
-        "@id": "obo:chebi#3_STAR"
+    "skos:exactMatch": {
+        "@id": "obo:CHEBI_16767"
     },
-    "rdfs:label": "3,4-dichloroaniline",
-    "rdfs:subClassOf": [
-        {
-            "@id": "obo:CHEBI_23696"
-        },
-        {
-            "@id": "b584_genid-00f1db82e1ab437c844115a94dc63e635-bn16767t8f35290"
-        },
-        {
-            "@id": "b584_genid-00f1db82e1ab437c844115a94dc63e635-bn16767t11f35703"
-        },
-        {
-            "@id": "b584_genid-00f1db82e1ab437c844115a94dc63e635-bn16767t11f53000"
-        }
-    ]
+    "skos:note": "A dichloroaniline having the two chloro-substituents at the 3- and 4-positions.",
+    "skos:semanticRelation": {
+        "@id": "obo:CHEBI_23696"
+    }
 }

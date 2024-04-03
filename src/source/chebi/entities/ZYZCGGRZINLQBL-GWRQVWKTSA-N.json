@@ -1,45 +1,31 @@
 {
     "@context": {
-        "chebi": "http://purl.obolibrary.org/obo/chebi/",
         "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
         "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-        "obo": "http://purl.obolibrary.org/obo/"
+        "obo": "http://purl.obolibrary.org/obo/",
+        "uniprot": "http://purl.uniprot.org/",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "concept": "https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/",
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "dbo": "http://dbpedia.org/ontology/",
+        "dbp": "http://dbpedia.org/property/",
+        "altLabel": {
+            "@id": "http://www.w3.org/2004/02/skos/core#altLabel",
+            "@language": "en"
+        },
+        "graph": {
+            "@id": "@graph"
+        }
     },
-    "@id": "obo:CHEBI_6925",
-    "@type": "http://www.w3.org/2002/07/owl#Class",
-    "obo:IAO_0000115": "A microcystin consisting of D-alanyl, L-leucyl, (3S)-3-methyl-D-beta-aspartyl,L-arginyl, 2S,3S,4E,6E,8S,9S)-3-amino-4,5,6,7-tetradehydro-9-methoxy-2,6,8-trimethyl-10-phenyldecanoyl, D-gamma-glutamyl, and 2,3-didehydro-N-methylalanyl residues joined into a 25-membered macrocycle. Produced by the cyanobacterium Microcystis aeruginosa, it is the most studied of the microcystins.",
+    "@id": "concept:ZYZCGGRZINLQBL-GWRQVWKTSA-N",
+    "@type": "skos:Concept",
+    "dbo:formula": "C49H74N10O12",
+    "dbo:inchi": "InChI=1S/C49H74N10O12/c1-26(2)23-37-46(66)58-40(48(69)70)30(6)42(62)55-35(17-14-22-52-49(50)51)45(65)54-34(19-18-27(3)24-28(4)38(71-10)25-33-15-12-11-13-16-33)29(5)41(61)56-36(47(67)68)20-21-39(60)59(9)32(8)44(64)53-31(7)43(63)57-37/h11-13,15-16,18-19,24,26,28-31,34-38,40H,8,14,17,20-23,25H2,1-7,9-10H3,(H,53,64)(H,54,65)(H,55,62)(H,56,61)(H,57,63)(H,58,66)(H,67,68)(H,69,70)(H4,50,51,52)/b19-18+,27-24+/t28-,29-,30-,31+,34-,35-,36+,37-,38-,40+/m0/s1",
+    "dbo:smiles": "C([C@H](OC)[C@@H](C)/C=C(\\C)/C=C/[C@@]1(NC([C@H](CCCNC(=N)N)NC([C@H]([C@H](C(O)=O)NC([C@H](CC(C)C)NC([C@@H](C)NC(C(N(C(CC[C@@H](NC([C@H]1C)=O)C(O)=O)=O)C)=C)=O)=O)=O)C)=O)=O)[H])C=2C=CC=CC2",
+    "dbp:inchikey": "ZYZCGGRZINLQBL-GWRQVWKTSA-N",
     "chebi:charge": "0",
-    "chebi:formula": "C49H74N10O12",
-    "chebi:inchi": "InChI=1S/C49H74N10O12/c1-26(2)23-37-46(66)58-40(48(69)70)30(6)42(62)55-35(17-14-22-52-49(50)51)45(65)54-34(19-18-27(3)24-28(4)38(71-10)25-33-15-12-11-13-16-33)29(5)41(61)56-36(47(67)68)20-21-39(60)59(9)32(8)44(64)53-31(7)43(63)57-37/h11-13,15-16,18-19,24,26,28-31,34-38,40H,8,14,17,20-23,25H2,1-7,9-10H3,(H,53,64)(H,54,65)(H,55,62)(H,56,61)(H,57,63)(H,58,66)(H,67,68)(H,69,70)(H4,50,51,52)/b19-18+,27-24+/t28-,29-,30-,31+,34-,35-,36+,37-,38-,40+/m0/s1",
-    "chebi:inchikey": "ZYZCGGRZINLQBL-GWRQVWKTSA-N",
-    "chebi:smiles": "C([C@H](OC)[C@@H](C)/C=C(\\C)/C=C/[C@@]1(NC([C@H](CCCNC(=N)N)NC([C@H]([C@H](C(O)=O)NC([C@H](CC(C)C)NC([C@@H](C)NC(C(N(C(CC[C@@H](NC([C@H]1C)=O)C(O)=O)=O)C)=C)=O)=O)=O)C)=O)=O)[H])C=2C=CC=CC2",
-    "geneontology:hasDbXref": [
-        "Beilstein:4779759",
-        "CAS:101043-37-2",
-        "KEGG:C05371",
-        "PMID:10903983",
-        "PMID:17125460",
-        "PMID:18246549",
-        "PMID:21489775",
-        "PMID:22071605",
-        "PMID:22301162",
-        "PMID:22837451",
-        "PMID:22956115",
-        "PMID:23131420",
-        "PMID:23506857",
-        "PMID:23586662",
-        "PMID:23999063",
-        "PMID:24268348",
-        "PMID:24280256",
-        "PMID:24318164",
-        "PMID:24462717",
-        "PMID:24631598",
-        "PMID:28648727",
-        "Reaxys:4779759",
-        "Wikipedia:Microcystin-LR"
-    ],
-    "geneontology:hasId": "6925",
-    "geneontology:hasSynonym": [
+    "skos:altLabel": [
         "1,7-anhydro[D-alanyl-L-leucyl-(3S)-3-methyl-D-beta-aspartyl-L-arginyl-(2S,3S,4E,6E,8S,9S)-3-amino-4,5,6,7-tetradehydro-9-methoxy-2,6,8-trimethyl-10-phenyldecanoyl-D-gamma-glutamyl-2,3-didehydro-N-methylalanine]",
         "cyanoginosin LR",
         "cyclo[2,3-didehydro-N-methylalanyl-D-alanyl-L-leucyl-erythro-3-methyl-D-beta-aspartyl-L-arginyl-(2S,3S,4E,6E,8S,9S)-3-amino-4,5,6,7-tetradehydro-9-methoxy-2,6,8-trimethyl-10-phenyldecanoyl-D-gamma-glutamyl]",
@@ -49,25 +35,11 @@
         "Microcystis aeruginosa toxin",
         "toxin-LR"
     ],
-    "geneontology:inSubset": {
-        "@id": "obo:chebi#3_STAR"
+    "skos:exactMatch": {
+        "@id": "obo:CHEBI_6925"
     },
-    "rdfs:label": "microcystin-LR",
-    "rdfs:subClassOf": [
-        {
-            "@id": "b586_genid-00f1db82e1ab437c844115a94dc63e635-bn6925t11f35703"
-        },
-        {
-            "@id": "b586_genid-00f1db82e1ab437c844115a94dc63e635-bn6925t11f37153"
-        },
-        {
-            "@id": "obo:CHEBI_48041"
-        },
-        {
-            "@id": "b586_genid-00f1db82e1ab437c844115a94dc63e635-bn6925t11f76969"
-        },
-        {
-            "@id": "b586_genid-00f1db82e1ab437c844115a94dc63e635-bn6925t11f78298"
-        }
-    ]
+    "skos:note": "A microcystin consisting of D-alanyl, L-leucyl, (3S)-3-methyl-D-beta-aspartyl,L-arginyl, 2S,3S,4E,6E,8S,9S)-3-amino-4,5,6,7-tetradehydro-9-methoxy-2,6,8-trimethyl-10-phenyldecanoyl, D-gamma-glutamyl, and 2,3-didehydro-N-methylalanyl residues joined into a 25-membered macrocycle. Produced by the cyanobacterium Microcystis aeruginosa, it is the most studied of the microcystins.",
+    "skos:semanticRelation": {
+        "@id": "obo:CHEBI_48041"
+    }
 }

@@ -1,32 +1,31 @@
 {
     "@context": {
-        "chebi": "http://purl.obolibrary.org/obo/chebi/",
         "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
         "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-        "obo": "http://purl.obolibrary.org/obo/"
+        "obo": "http://purl.obolibrary.org/obo/",
+        "uniprot": "http://purl.uniprot.org/",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "concept": "https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/",
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "dbo": "http://dbpedia.org/ontology/",
+        "dbp": "http://dbpedia.org/property/",
+        "altLabel": {
+            "@id": "http://www.w3.org/2004/02/skos/core#altLabel",
+            "@language": "en"
+        },
+        "graph": {
+            "@id": "@graph"
+        }
     },
-    "@id": "obo:CHEBI_34757",
-    "@type": "http://www.w3.org/2002/07/owl#Class",
-    "obo:IAO_0000115": "An organic thiophosphate that is O,O-dimethyl O-phenyl phosphorothioate substituted by a methyl group at position 3 and a nitro group at position 4.",
+    "@id": "concept:ZNOLGFHPUIJIMJ-UHFFFAOYSA-N",
+    "@type": "skos:Concept",
+    "dbo:formula": "C9H12NO5PS",
+    "dbo:inchi": "InChI=1S/C9H12NO5PS/c1-7-6-8(4-5-9(7)10(11)12)15-16(17,13-2)14-3/h4-6H,1-3H3",
+    "dbo:smiles": "COP(=S)(OC)Oc1ccc(c(C)c1)[N+]([O-])=O",
+    "dbp:inchikey": "ZNOLGFHPUIJIMJ-UHFFFAOYSA-N",
     "chebi:charge": "0",
-    "chebi:formula": "C9H12NO5PS",
-    "chebi:inchi": "InChI=1S/C9H12NO5PS/c1-7-6-8(4-5-9(7)10(11)12)15-16(17,13-2)14-3/h4-6H,1-3H3",
-    "chebi:inchikey": "ZNOLGFHPUIJIMJ-UHFFFAOYSA-N",
-    "chebi:smiles": "COP(=S)(OC)Oc1ccc(c(C)c1)[N+]([O-])=O",
-    "geneontology:hasDbXref": [
-        "Beilstein:1887367",
-        "CAS:122-14-5",
-        "HMDB:HMDB0041893",
-        "KEGG:C14442",
-        "PMID:11201171",
-        "PMID:16628916",
-        "PMID:23668748",
-        "PPDB:299",
-        "Reaxys:1887367",
-        "Wikipedia:Fenitrothion"
-    ],
-    "geneontology:hasId": "34757",
-    "geneontology:hasSynonym": [
+    "skos:altLabel": [
         "Fenitrothion",
         "MEP",
         "O,O-dimethyl O-(3-methyl-4-nitrophenyl)phosphorothioate",
@@ -34,34 +33,16 @@
         "O,O-dimethyl O-(3-methyl-4-nitrophenyl) thiophosphate",
         "O,O-Dimethyl O-4-nitro-m-tolyl phosphorothioate"
     ],
-    "geneontology:inSubset": {
-        "@id": "obo:chebi#3_STAR"
+    "skos:exactMatch": {
+        "@id": "obo:CHEBI_34757"
     },
-    "rdfs:label": "fenitrothion",
-    "rdfs:subClassOf": [
+    "skos:note": "An organic thiophosphate that is O,O-dimethyl O-phenyl phosphorothioate substituted by a methyl group at position 3 and a nitro group at position 4.",
+    "skos:semanticRelation": [
         {
             "@id": "obo:CHEBI_35716"
         },
         {
             "@id": "obo:CHEBI_37512"
-        },
-        {
-            "@id": "b512_genid-00f1db82e1ab437c844115a94dc63e635-bn34757t11f22153"
-        },
-        {
-            "@id": "b512_genid-00f1db82e1ab437c844115a94dc63e635-bn34757t11f24852"
-        },
-        {
-            "@id": "b512_genid-00f1db82e1ab437c844115a94dc63e635-bn34757t11f33286"
-        },
-        {
-            "@id": "b512_genid-00f1db82e1ab437c844115a94dc63e635-bn34757t11f37733"
-        },
-        {
-            "@id": "b512_genid-00f1db82e1ab437c844115a94dc63e635-bn34757t11f38462"
-        },
-        {
-            "@id": "b512_genid-00f1db82e1ab437c844115a94dc63e635-bn34757t8f38683"
         }
     ]
 }

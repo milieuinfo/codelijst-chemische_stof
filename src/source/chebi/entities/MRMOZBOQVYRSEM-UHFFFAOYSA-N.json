@@ -1,42 +1,31 @@
 {
     "@context": {
-        "chebi": "http://purl.obolibrary.org/obo/chebi/",
         "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
         "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-        "obo": "http://purl.obolibrary.org/obo/"
+        "obo": "http://purl.obolibrary.org/obo/",
+        "uniprot": "http://purl.uniprot.org/",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "concept": "https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/",
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "dbo": "http://dbpedia.org/ontology/",
+        "dbp": "http://dbpedia.org/property/",
+        "altLabel": {
+            "@id": "http://www.w3.org/2004/02/skos/core#altLabel",
+            "@language": "en"
+        },
+        "graph": {
+            "@id": "@graph"
+        }
     },
-    "@id": "obo:CHEBI_30182",
-    "@type": "http://www.w3.org/2002/07/owl#Class",
-    "obo:IAO_0000115": "An organolead compound consisting of four ethyl groups joined to a central lead atom.",
+    "@id": "concept:MRMOZBOQVYRSEM-UHFFFAOYSA-N",
+    "@type": "skos:Concept",
+    "dbo:formula": "C8H20Pb",
+    "dbo:inchi": "InChI=1S/4C2H5.Pb/c4*1-2;/h4*1H2,2H3;",
+    "dbo:smiles": "CC[Pb](CC)(CC)CC",
+    "dbp:inchikey": "MRMOZBOQVYRSEM-UHFFFAOYSA-N",
     "chebi:charge": "0",
-    "chebi:formula": "C8H20Pb",
-    "chebi:inchi": "InChI=1S/4C2H5.Pb/c4*1-2;/h4*1H2,2H3;",
-    "chebi:inchikey": "MRMOZBOQVYRSEM-UHFFFAOYSA-N",
-    "chebi:smiles": "CC[Pb](CC)(CC)CC",
-    "geneontology:hasDbXref": [
-        "Beilstein:3903146",
-        "CAS:78-00-2",
-        "Gmelin:68951",
-        "MolBase:600",
-        "Patent:US1907701",
-        "PMID:114153",
-        "PMID:11496989",
-        "PMID:1237103",
-        "PMID:15327329",
-        "PMID:20877807",
-        "PMID:21619368",
-        "PMID:21650851",
-        "PMID:277123",
-        "PMID:3606972",
-        "PMID:3623324",
-        "PMID:4041386",
-        "PMID:4072246",
-        "PMID:7481745",
-        "Reaxys:3903146",
-        "Wikipedia:Tetraethyllead"
-    ],
-    "geneontology:hasId": "30182",
-    "geneontology:hasSynonym": [
+    "skos:altLabel": [
         "[PbEt4]",
         "Bleitetraethyl",
         "PbEt4",
@@ -44,16 +33,11 @@
         "tetraethyl lead",
         "tetraethylplumbane"
     ],
-    "geneontology:inSubset": {
-        "@id": "obo:chebi#3_STAR"
+    "skos:exactMatch": {
+        "@id": "obo:CHEBI_30182"
     },
-    "rdfs:label": "tetraethyllead",
-    "rdfs:subClassOf": [
-        {
-            "@id": "b711_genid-00f1db82e1ab437c844115a94dc63e635-bn30182t9f30181"
-        },
-        {
-            "@id": "obo:CHEBI_33586"
-        }
-    ]
+    "skos:note": "An organolead compound consisting of four ethyl groups joined to a central lead atom.",
+    "skos:semanticRelation": {
+        "@id": "obo:CHEBI_33586"
+    }
 }

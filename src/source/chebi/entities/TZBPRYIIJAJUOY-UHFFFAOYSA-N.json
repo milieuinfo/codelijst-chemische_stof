@@ -1,29 +1,35 @@
 {
     "@context": {
-        "chebi": "http://purl.obolibrary.org/obo/chebi/",
         "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
         "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-        "obo": "http://purl.obolibrary.org/obo/"
+        "obo": "http://purl.obolibrary.org/obo/",
+        "uniprot": "http://purl.uniprot.org/",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "concept": "https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/",
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "dbo": "http://dbpedia.org/ontology/",
+        "dbp": "http://dbpedia.org/property/",
+        "altLabel": {
+            "@id": "http://www.w3.org/2004/02/skos/core#altLabel",
+            "@language": "en"
+        },
+        "graph": {
+            "@id": "@graph"
+        }
     },
-    "@id": "obo:CHEBI_82146",
-    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "@id": "concept:TZBPRYIIJAJUOY-UHFFFAOYSA-N",
+    "@type": "skos:Concept",
+    "dbo:formula": "C13H24N3O3PS",
+    "dbo:inchi": "InChI=1S/C13H24N3O3PS/c1-6-16(7-2)13-14-11(5)10-12(15-13)19-20(21,17-8-3)18-9-4/h10H,6-9H2,1-5H3",
+    "dbo:smiles": "CCOP(=S)(OCC)Oc1cc(C)nc(n1)N(CC)CC",
+    "dbp:inchikey": "TZBPRYIIJAJUOY-UHFFFAOYSA-N",
     "chebi:charge": "0",
-    "chebi:formula": "C13H24N3O3PS",
-    "chebi:inchi": "InChI=1S/C13H24N3O3PS/c1-6-16(7-2)13-14-11(5)10-12(15-13)19-20(21,17-8-3)18-9-4/h10H,6-9H2,1-5H3",
-    "chebi:inchikey": "TZBPRYIIJAJUOY-UHFFFAOYSA-N",
-    "chebi:smiles": "CCOP(=S)(OCC)Oc1cc(C)nc(n1)N(CC)CC",
-    "geneontology:hasDbXref": [
-        "CAS:23505-41-1",
-        "KEGG:C19012",
-        "PPDB:531"
-    ],
-    "geneontology:hasId": "82146",
-    "geneontology:hasSynonym": "Pirimiphosethyl",
-    "geneontology:inSubset": {
-        "@id": "obo:chebi#2_STAR"
+    "skos:altLabel": "Pirimiphosethyl",
+    "skos:exactMatch": {
+        "@id": "obo:CHEBI_82146"
     },
-    "rdfs:label": "Pirimiphos-ethyl",
-    "rdfs:subClassOf": {
+    "skos:semanticRelation": {
         "@id": "obo:CHEBI_37512"
     }
 }

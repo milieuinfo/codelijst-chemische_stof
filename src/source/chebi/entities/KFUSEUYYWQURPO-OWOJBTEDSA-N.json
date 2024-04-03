@@ -1,27 +1,31 @@
 {
     "@context": {
-        "chebi": "http://purl.obolibrary.org/obo/chebi/",
         "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
         "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-        "obo": "http://purl.obolibrary.org/obo/"
+        "obo": "http://purl.obolibrary.org/obo/",
+        "uniprot": "http://purl.uniprot.org/",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "concept": "https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/",
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "dbo": "http://dbpedia.org/ontology/",
+        "dbp": "http://dbpedia.org/property/",
+        "altLabel": {
+            "@id": "http://www.w3.org/2004/02/skos/core#altLabel",
+            "@language": "en"
+        },
+        "graph": {
+            "@id": "@graph"
+        }
     },
-    "@id": "obo:CHEBI_29027",
-    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "@id": "concept:KFUSEUYYWQURPO-OWOJBTEDSA-N",
+    "@type": "skos:Concept",
+    "dbo:formula": "C2H2Cl2",
+    "dbo:inchi": "InChI=1S/C2H2Cl2/c3-1-2-4/h1-2H/b2-1+",
+    "dbo:smiles": "Cl\\C=C\\Cl",
+    "dbp:inchikey": "KFUSEUYYWQURPO-OWOJBTEDSA-N",
     "chebi:charge": "0",
-    "chebi:formula": "C2H2Cl2",
-    "chebi:inchi": "InChI=1S/C2H2Cl2/c3-1-2-4/h1-2H/b2-1+",
-    "chebi:inchikey": "KFUSEUYYWQURPO-OWOJBTEDSA-N",
-    "chebi:smiles": "Cl\\C=C\\Cl",
-    "geneontology:hasDbXref": [
-        "CAS:540-59-0",
-        "Beilstein:1420761",
-        "CAS:156-60-5",
-        "Gmelin:259701",
-        "KEGG:C06791",
-        "UM-BBD_compID:c0034"
-    ],
-    "geneontology:hasId": "29027",
-    "geneontology:hasSynonym": [
+    "skos:altLabel": [
         "(E)-1,2-dichloroethene",
         "(E)-1,2-dichloroethylene",
         "1,2-trans-dichloroethylene",
@@ -30,11 +34,10 @@
         "trans-Acetylene dichloride",
         "trans-dichloroethylene"
     ],
-    "geneontology:inSubset": {
-        "@id": "obo:chebi#3_STAR"
+    "skos:exactMatch": {
+        "@id": "obo:CHEBI_29027"
     },
-    "rdfs:label": "trans-1,2-dichloroethene",
-    "rdfs:subClassOf": {
+    "skos:semanticRelation": {
         "@id": "obo:CHEBI_18882"
     }
 }

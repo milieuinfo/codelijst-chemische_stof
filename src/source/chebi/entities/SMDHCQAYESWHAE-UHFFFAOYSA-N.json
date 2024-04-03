@@ -1,32 +1,31 @@
 {
     "@context": {
-        "chebi": "http://purl.obolibrary.org/obo/chebi/",
         "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
         "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-        "obo": "http://purl.obolibrary.org/obo/"
+        "obo": "http://purl.obolibrary.org/obo/",
+        "uniprot": "http://purl.uniprot.org/",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "concept": "https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/",
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "dbo": "http://dbpedia.org/ontology/",
+        "dbp": "http://dbpedia.org/property/",
+        "altLabel": {
+            "@id": "http://www.w3.org/2004/02/skos/core#altLabel",
+            "@language": "en"
+        },
+        "graph": {
+            "@id": "@graph"
+        }
     },
-    "@id": "obo:CHEBI_132878",
-    "@type": "http://www.w3.org/2002/07/owl#Class",
-    "obo:IAO_0000115": "A tertiany amino compound that is 2,6-dinitro-4-(trifluoromethyl)aniline in which the hydrogens attached to the aniline nitrogen have been replaced by one ethyl and one butyl group. It is used as a pre-emergence herbicide used for the control of grass and other weeds in a range of food and non-food crops.",
+    "@id": "concept:SMDHCQAYESWHAE-UHFFFAOYSA-N",
+    "@type": "skos:Concept",
+    "dbo:formula": "C13H16F3N3O4",
+    "dbo:inchi": "InChI=1S/C13H16F3N3O4/c1-3-5-6-17(4-2)12-10(18(20)21)7-9(13(14,15)16)8-11(12)19(22)23/h7-8H,3-6H2,1-2H3",
+    "dbo:smiles": "C=1(C(=C(C=C(C1)C(F)(F)F)[N+](=O)[O-])N(CCCC)CC)[N+]([O-])=O",
+    "dbp:inchikey": "SMDHCQAYESWHAE-UHFFFAOYSA-N",
     "chebi:charge": "0",
-    "chebi:formula": "C13H16F3N3O4",
-    "chebi:inchi": "InChI=1S/C13H16F3N3O4/c1-3-5-6-17(4-2)12-10(18(20)21)7-9(13(14,15)16)8-11(12)19(22)23/h7-8H,3-6H2,1-2H3",
-    "chebi:inchikey": "SMDHCQAYESWHAE-UHFFFAOYSA-N",
-    "chebi:smiles": "C=1(C(=C(C=C(C1)C(F)(F)F)[N+](=O)[O-])N(CCCC)CC)[N+]([O-])=O",
-    "geneontology:hasDbXref": [
-        "Patent:US2011152098",
-        "Patent:WO2011075562",
-        "Beilstein:2821329",
-        "CAS:1861-40-1",
-        "Patent:US3257190",
-        "Pesticides:benfluralin",
-        "PMID:25216471",
-        "PPDB:62",
-        "Reaxys:2821329",
-        "Wikipedia:Benfluralin"
-    ],
-    "geneontology:hasId": "132878",
-    "geneontology:hasSynonym": [
+    "skos:altLabel": [
         "alpha,alpha,alpha-trifluoro-2,6-dinitro-N,N-ethylbutyl-p-toluidine",
         "benefin",
         "benfluraline",
@@ -36,11 +35,11 @@
         "N-butyl-N-ethyl-2,6-dinitro-4-(trifluoromethyl)benzenamine",
         "N-butyl-N-ethyl-alpha,alpha,alpha-trifluoro-2,6-dinitro-p-toluidine"
     ],
-    "geneontology:inSubset": {
-        "@id": "obo:chebi#3_STAR"
+    "skos:exactMatch": {
+        "@id": "obo:CHEBI_132878"
     },
-    "rdfs:label": "benfluralin",
-    "rdfs:subClassOf": [
+    "skos:note": "A tertiany amino compound that is 2,6-dinitro-4-(trifluoromethyl)aniline in which the hydrogens attached to the aniline nitrogen have been replaced by one ethyl and one butyl group. It is used as a pre-emergence herbicide used for the control of grass and other weeds in a range of food and non-food crops.",
+    "skos:semanticRelation": [
         {
             "@id": "obo:CHEBI_50996"
         },
@@ -52,12 +51,6 @@
         },
         {
             "@id": "obo:CHEBI_37143"
-        },
-        {
-            "@id": "b624_genid-00f1db82e1ab437c844115a94dc63e635-bn132878t11f24527"
-        },
-        {
-            "@id": "b624_genid-00f1db82e1ab437c844115a94dc63e635-bn132878t11f33286"
         }
     ]
 }

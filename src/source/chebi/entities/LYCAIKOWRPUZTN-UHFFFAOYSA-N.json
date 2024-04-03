@@ -1,49 +1,31 @@
 {
     "@context": {
-        "chebi": "http://purl.obolibrary.org/obo/chebi/",
         "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
         "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-        "obo": "http://purl.obolibrary.org/obo/"
+        "obo": "http://purl.obolibrary.org/obo/",
+        "uniprot": "http://purl.uniprot.org/",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "concept": "https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/",
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "dbo": "http://dbpedia.org/ontology/",
+        "dbp": "http://dbpedia.org/property/",
+        "altLabel": {
+            "@id": "http://www.w3.org/2004/02/skos/core#altLabel",
+            "@language": "en"
+        },
+        "graph": {
+            "@id": "@graph"
+        }
     },
-    "@id": "obo:CHEBI_30742",
-    "@type": "http://www.w3.org/2002/07/owl#Class",
-    "obo:IAO_0000115": "A 1,2-glycol compound produced via reaction of ethylene oxide with water.",
+    "@id": "concept:LYCAIKOWRPUZTN-UHFFFAOYSA-N",
+    "@type": "skos:Concept",
+    "dbo:formula": "C2H6O2",
+    "dbo:inchi": "InChI=1S/C2H6O2/c3-1-2-4/h3-4H,1-2H2",
+    "dbo:smiles": "OCCO",
+    "dbp:inchikey": "LYCAIKOWRPUZTN-UHFFFAOYSA-N",
     "chebi:charge": "0",
-    "chebi:formula": "C2H6O2",
-    "chebi:inchi": "InChI=1S/C2H6O2/c3-1-2-4/h3-4H,1-2H2",
-    "chebi:inchikey": "LYCAIKOWRPUZTN-UHFFFAOYSA-N",
-    "chebi:smiles": "OCCO",
-    "http://purl.uniprot.org/core/name": "ethylene glycol",
-    "geneontology:hasDbXref": [
-        "PMID:17439666",
-        "PMID:17336832",
-        "PMID:16901854",
-        "PMID:15716482",
-        "PMID:17979222",
-        "PMID:24643482",
-        "PMID:25108762",
-        "Beilstein:505945",
-        "CAS:107-21-1",
-        "Gmelin:943",
-        "KEGG:C01380",
-        "KEGG:C15588",
-        "KNApSAcK:C00007409",
-        "MetaCyc:GLYCOL",
-        "PDBeChem:EDO",
-        "PMID:10349109",
-        "PMID:17186009",
-        "PMID:18612987",
-        "PMID:23764541",
-        "PMID:23827374",
-        "PMID:24045699",
-        "PMID:9463526",
-        "PPDB:1310",
-        "Reaxys:505945",
-        "UM-BBD_compID:c0542",
-        "Wikipedia:Ethylene_Glycol"
-    ],
-    "geneontology:hasId": "30742",
-    "geneontology:hasSynonym": [
+    "skos:altLabel": [
         "1,2-Dihydroxyethane",
         "1,2-Ethanediol",
         "1,2-ETHANEDIOL",
@@ -55,28 +37,16 @@
         "HO-CH2-CH2-OH",
         "Monoethylene glycol"
     ],
-    "geneontology:inSubset": {
-        "@id": "obo:chebi#3_STAR"
+    "skos:exactMatch": {
+        "@id": "obo:CHEBI_30742"
     },
-    "rdfs:label": "ethylene glycol",
-    "rdfs:subClassOf": [
+    "skos:note": "A 1,2-glycol compound produced via reaction of ethylene oxide with water.",
+    "skos:semanticRelation": [
         {
             "@id": "obo:CHEBI_13643"
         },
         {
             "@id": "obo:CHEBI_23976"
-        },
-        {
-            "@id": "b628_genid-00f1db82e1ab437c844115a94dc63e635-bn30742t11f25212"
-        },
-        {
-            "@id": "b628_genid-00f1db82e1ab437c844115a94dc63e635-bn30742t11f27026"
-        },
-        {
-            "@id": "b628_genid-00f1db82e1ab437c844115a94dc63e635-bn30742t11f46787"
-        },
-        {
-            "@id": "b628_genid-00f1db82e1ab437c844115a94dc63e635-bn30742t11f75771"
         }
     ]
 }

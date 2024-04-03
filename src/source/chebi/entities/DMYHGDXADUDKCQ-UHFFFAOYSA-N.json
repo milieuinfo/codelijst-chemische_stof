@@ -1,41 +1,34 @@
 {
     "@context": {
-        "chebi": "http://purl.obolibrary.org/obo/chebi/",
         "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
         "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-        "obo": "http://purl.obolibrary.org/obo/"
+        "obo": "http://purl.obolibrary.org/obo/",
+        "uniprot": "http://purl.uniprot.org/",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "concept": "https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/",
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "dbo": "http://dbpedia.org/ontology/",
+        "dbp": "http://dbpedia.org/property/",
+        "graph": {
+            "@id": "@graph"
+        }
     },
-    "@id": "obo:CHEBI_38593",
-    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "@id": "concept:DMYHGDXADUDKCQ-UHFFFAOYSA-N",
+    "@type": "skos:Concept",
+    "dbo:formula": "C20H22N2O",
+    "dbo:inchi": "InChI=1S/C20H22N2O/c1-20(2,3)16-10-8-15(9-11-16)12-13-23-19-17-6-4-5-7-18(17)21-14-22-19/h4-11,14H,12-13H2,1-3H3",
+    "dbo:smiles": "CC(C)(C)c1ccc(CCOc2ncnc3ccccc23)cc1",
+    "dbp:inchikey": "DMYHGDXADUDKCQ-UHFFFAOYSA-N",
     "chebi:charge": "0",
-    "chebi:formula": "C20H22N2O",
-    "chebi:inchi": "InChI=1S/C20H22N2O/c1-20(2,3)16-10-8-15(9-11-16)12-13-23-19-17-6-4-5-7-18(17)21-14-22-19/h4-11,14H,12-13H2,1-3H3",
-    "chebi:inchikey": "DMYHGDXADUDKCQ-UHFFFAOYSA-N",
-    "chebi:smiles": "CC(C)(C)c1ccc(CCOc2ncnc3ccccc23)cc1",
-    "geneontology:hasDbXref": [
-        "Beilstein:8331263",
-        "CAS:120928-09-8",
-        "KEGG:C18727",
-        "PPDB:292"
-    ],
-    "geneontology:hasId": "38593",
-    "geneontology:hasSynonym": [
+    "skos:altLabel": [
         "4-[2-(4-tert-butylphenyl)ethoxy]quinazoline",
         "4-tert-butylphenethylquinazolin-4-yl ether"
     ],
-    "geneontology:inSubset": {
-        "@id": "obo:chebi#3_STAR"
+    "skos:exactMatch": {
+        "@id": "obo:CHEBI_38593"
     },
-    "rdfs:label": "fenazaquin",
-    "rdfs:subClassOf": [
-        {
-            "@id": "obo:CHEBI_38530"
-        },
-        {
-            "@id": "b485_genid-00f1db82e1ab437c844115a94dc63e635-bn38593t11f22153"
-        },
-        {
-            "@id": "b485_genid-00f1db82e1ab437c844115a94dc63e635-bn38593t11f38498"
-        }
-    ]
+    "skos:semanticRelation": {
+        "@id": "obo:CHEBI_38530"
+    }
 }

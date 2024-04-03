@@ -1,36 +1,41 @@
 {
     "@context": {
-        "chebi": "http://purl.obolibrary.org/obo/chebi/",
         "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
         "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-        "obo": "http://purl.obolibrary.org/obo/"
+        "obo": "http://purl.obolibrary.org/obo/",
+        "uniprot": "http://purl.uniprot.org/",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "concept": "https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/",
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "dbo": "http://dbpedia.org/ontology/",
+        "dbp": "http://dbpedia.org/property/",
+        "altLabel": {
+            "@id": "http://www.w3.org/2004/02/skos/core#altLabel",
+            "@language": "en"
+        },
+        "graph": {
+            "@id": "@graph"
+        }
     },
-    "@id": "obo:CHEBI_38603",
-    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "@id": "concept:QGTYWWGEWOBMAK-UHFFFAOYSA-N",
+    "@type": "skos:Concept",
+    "dbo:formula": "C5H12ClO2PS2",
+    "dbo:inchi": "InChI=1S/C5H12ClO2PS2/c1-3-7-9(10,8-4-2)11-5-6/h3-5H2,1-2H3",
+    "dbo:smiles": "CCOP(=S)(OCC)SCCl",
+    "dbp:inchikey": "QGTYWWGEWOBMAK-UHFFFAOYSA-N",
     "chebi:charge": "0",
-    "chebi:formula": "C5H12ClO2PS2",
-    "chebi:inchi": "InChI=1S/C5H12ClO2PS2/c1-3-7-9(10,8-4-2)11-5-6/h3-5H2,1-2H3",
-    "chebi:inchikey": "QGTYWWGEWOBMAK-UHFFFAOYSA-N",
-    "chebi:smiles": "CCOP(=S)(OCC)SCCl",
-    "geneontology:hasDbXref": [
-        "Beilstein:1680996",
-        "CAS:24934-91-6",
-        "KEGG:C18686",
-        "PPDB:142"
-    ],
-    "geneontology:hasId": "38603",
-    "geneontology:hasSynonym": [
+    "skos:altLabel": [
         "Chlormephos",
         "Chlormethylfos",
         "Phosphorodithioic acid, S-(chloromethyl) O,O-diethyl ester",
         "S-(chloromethyl) O,O-diethyl dithiophosphate",
         "S-(chloromethyl) O,O-diethyl phosphorodithioate"
     ],
-    "geneontology:inSubset": {
-        "@id": "obo:chebi#3_STAR"
+    "skos:exactMatch": {
+        "@id": "obo:CHEBI_38603"
     },
-    "rdfs:label": "chlormephos",
-    "rdfs:subClassOf": [
+    "skos:semanticRelation": [
         {
             "@id": "obo:CHEBI_25705"
         },
@@ -39,12 +44,6 @@
         },
         {
             "@id": "obo:CHEBI_25715"
-        },
-        {
-            "@id": "b293_genid-00f1db82e1ab437c844115a94dc63e635-bn38603t11f33286"
-        },
-        {
-            "@id": "b293_genid-00f1db82e1ab437c844115a94dc63e635-bn38603t11f38462"
         }
     ]
 }

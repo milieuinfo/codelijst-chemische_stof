@@ -1,36 +1,31 @@
 {
     "@context": {
-        "chebi": "http://purl.obolibrary.org/obo/chebi/",
         "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
         "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-        "obo": "http://purl.obolibrary.org/obo/"
+        "obo": "http://purl.obolibrary.org/obo/",
+        "uniprot": "http://purl.uniprot.org/",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "concept": "https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/",
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "dbo": "http://dbpedia.org/ontology/",
+        "dbp": "http://dbpedia.org/property/",
+        "altLabel": {
+            "@id": "http://www.w3.org/2004/02/skos/core#altLabel",
+            "@language": "en"
+        },
+        "graph": {
+            "@id": "@graph"
+        }
     },
-    "@id": "obo:CHEBI_48347",
-    "@type": "http://www.w3.org/2002/07/owl#Class",
-    "obo:IAO_0000115": "A member of the class of phenylureas that is urea substituted by a 4-chlorophenyl group and a 3,4-dichlorophenyl group at positions 1 and 3 respectively.",
+    "@id": "concept:ICUTUKXCWQYESQ-UHFFFAOYSA-N",
+    "@type": "skos:Concept",
+    "dbo:formula": "C13H9Cl3N2O",
+    "dbo:inchi": "InChI=1S/C13H9Cl3N2O/c14-8-1-3-9(4-2-8)17-13(19)18-10-5-6-11(15)12(16)7-10/h1-7H,(H2,17,18,19)",
+    "dbo:smiles": "Clc1ccc(NC(=O)Nc2ccc(Cl)c(Cl)c2)cc1",
+    "dbp:inchikey": "ICUTUKXCWQYESQ-UHFFFAOYSA-N",
     "chebi:charge": "0",
-    "chebi:formula": "C13H9Cl3N2O",
-    "chebi:inchi": "InChI=1S/C13H9Cl3N2O/c14-8-1-3-9(4-2-8)17-13(19)18-10-5-6-11(15)12(16)7-10/h1-7H,(H2,17,18,19)",
-    "chebi:inchikey": "ICUTUKXCWQYESQ-UHFFFAOYSA-N",
-    "chebi:smiles": "Clc1ccc(NC(=O)Nc2ccc(Cl)c(Cl)c2)cc1",
-    "geneontology:hasDbXref": [
-        "Beilstein:2814890",
-        "CAS:101-20-2",
-        "Drug_Central:3630",
-        "DrugBank:DB11155",
-        "KEGG:D06223",
-        "Patent:GB769273",
-        "Patent:US2818390",
-        "PMID:18048496",
-        "PMID:24461429",
-        "PMID:24464075",
-        "PMID:24562054",
-        "PMID:30033524",
-        "Reaxys:2814890",
-        "Wikipedia:Triclocarban"
-    ],
-    "geneontology:hasId": "48347",
-    "geneontology:hasSynonym": [
+    "skos:altLabel": [
         "1-(3',4'-dichlorophenyl)-3-(4'-chlorophenyl)urea",
         "1-(4-chlorophenyl)-3-(3,4-dichlorophenyl)urea",
         "3,4,4'-trichlorocarbanilide",
@@ -43,11 +38,11 @@
         "TCC",
         "triclocarbanum"
     ],
-    "geneontology:inSubset": {
-        "@id": "obo:chebi#3_STAR"
+    "skos:exactMatch": {
+        "@id": "obo:CHEBI_48347"
     },
-    "rdfs:label": "triclocarban",
-    "rdfs:subClassOf": [
+    "skos:note": "A member of the class of phenylureas that is urea substituted by a 4-chlorophenyl group and a 3,4-dichlorophenyl group at positions 1 and 3 respectively.",
+    "skos:semanticRelation": [
         {
             "@id": "obo:CHEBI_23697"
         },
@@ -56,24 +51,6 @@
         },
         {
             "@id": "obo:CHEBI_134043"
-        },
-        {
-            "@id": "b83_genid-00f1db82e1ab437c844115a94dc63e635-bn48347t11f33281"
-        },
-        {
-            "@id": "b83_genid-00f1db82e1ab437c844115a94dc63e635-bn48347t11f35703"
-        },
-        {
-            "@id": "b83_genid-00f1db82e1ab437c844115a94dc63e635-bn48347t8f41320"
-        },
-        {
-            "@id": "b83_genid-00f1db82e1ab437c844115a94dc63e635-bn48347t11f48218"
-        },
-        {
-            "@id": "b83_genid-00f1db82e1ab437c844115a94dc63e635-bn48347t11f48219"
-        },
-        {
-            "@id": "b83_genid-00f1db82e1ab437c844115a94dc63e635-bn48347t11f78298"
         }
     ]
 }

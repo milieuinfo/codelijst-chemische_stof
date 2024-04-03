@@ -1,49 +1,27 @@
 {
     "@context": {
-        "chebi": "http://purl.obolibrary.org/obo/chebi/",
         "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
         "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-        "obo": "http://purl.obolibrary.org/obo/"
+        "obo": "http://purl.obolibrary.org/obo/",
+        "uniprot": "http://purl.uniprot.org/",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "concept": "https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/",
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "dbo": "http://dbpedia.org/ontology/",
+        "dbp": "http://dbpedia.org/property/",
+        "graph": {
+            "@id": "@graph"
+        }
     },
-    "@id": "obo:CHEBI_16125",
-    "@type": "http://www.w3.org/2002/07/owl#Class",
-    "obo:IAO_0000115": "A long-chain primary fatty alcohol that is hexadecane substituted by a hydroxy group at position 1.",
+    "@id": "concept:BXWNKGSJHAJOGX-UHFFFAOYSA-N",
+    "@type": "skos:Concept",
+    "dbo:formula": "C16H34O",
+    "dbo:inchi": "InChI=1S/C16H34O/c1-2-3-4-5-6-7-8-9-10-11-12-13-14-15-16-17/h17H,2-16H2,1H3",
+    "dbo:smiles": "C(CCCCCCCCCCCCCCC)O",
+    "dbp:inchikey": "BXWNKGSJHAJOGX-UHFFFAOYSA-N",
     "chebi:charge": "0",
-    "chebi:formula": "C16H34O",
-    "chebi:inchi": "InChI=1S/C16H34O/c1-2-3-4-5-6-7-8-9-10-11-12-13-14-15-16-17/h17H,2-16H2,1H3",
-    "chebi:inchikey": "BXWNKGSJHAJOGX-UHFFFAOYSA-N",
-    "chebi:smiles": "C(CCCCCCCCCCCCCCC)O",
-    "http://purl.uniprot.org/core/name": "hexadecan-1-ol",
-    "geneontology:hasDbXref": [
-        "PMID:12676987",
-        "PMID:24029555",
-        "CAS:36653-82-4",
-        "Drug_Central:4750",
-        "DrugBank:DB09494",
-        "FooDB:FDB003051",
-        "HMDB:HMDB0003424",
-        "KEGG:C00823",
-        "KEGG:D00099",
-        "KNApSAcK:C00052572",
-        "LIPID_MAPS_instance:LMFA05000061",
-        "MetaCyc:CPD-348",
-        "PDBeChem:PL3",
-        "PMID:10884288",
-        "PMID:14988513",
-        "PMID:16839564",
-        "PMID:16952239",
-        "PMID:18045091",
-        "PMID:20429444",
-        "PMID:25466225",
-        "PMID:26830023",
-        "PMID:31901073",
-        "PMID:4562642",
-        "PMID:8733635",
-        "Reaxys:1748475",
-        "Wikipedia:Cetyl_Alcohol"
-    ],
-    "geneontology:hasId": "16125",
-    "geneontology:hasSynonym": [
+    "skos:altLabel": [
         "16-Hexadecanol",
         "1-cetanol",
         "1-Hexadecanol",
@@ -58,25 +36,13 @@
         "n-hexadecyl alcohol",
         "Palmityl alcohol"
     ],
-    "geneontology:inSubset": {
-        "@id": "obo:chebi#3_STAR"
+    "skos:exactMatch": {
+        "@id": "obo:CHEBI_16125"
     },
-    "rdfs:label": "hexadecan-1-ol",
-    "rdfs:subClassOf": [
+    "skos:note": "A long-chain primary fatty alcohol that is hexadecane substituted by a hydroxy group at position 1.",
+    "skos:semanticRelation": [
         {
             "@id": "obo:CHEBI_77396"
-        },
-        {
-            "@id": "b259_genid-00f1db82e1ab437c844115a94dc63e635-bn16125t11f35617"
-        },
-        {
-            "@id": "b259_genid-00f1db82e1ab437c844115a94dc63e635-bn16125t11f76924"
-        },
-        {
-            "@id": "b259_genid-00f1db82e1ab437c844115a94dc63e635-bn16125t11f77746"
-        },
-        {
-            "@id": "b259_genid-00f1db82e1ab437c844115a94dc63e635-bn16125t11f84735"
         },
         {
             "@id": "obo:CHEBI_197387"

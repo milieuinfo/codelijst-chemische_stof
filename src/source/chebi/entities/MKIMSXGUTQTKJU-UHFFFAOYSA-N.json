@@ -1,33 +1,21 @@
 {
     "@context": {
-        "chebi": "http://purl.obolibrary.org/obo/chebi/",
         "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
         "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-        "obo": "http://purl.obolibrary.org/obo/"
-    },
-    "@id": "obo:CHEBI_81735",
-    "@type": "http://www.w3.org/2002/07/owl#Class",
-    "chebi:charge": "0",
-    "chebi:formula": "C9H21ClN2O2",
-    "chebi:inchi": "InChI=1S/C9H20N2O2.ClH/c1-4-8-13-9(12)10-6-5-7-11(2)3;/h4-8H2,1-3H3,(H,10,12);1H",
-    "chebi:inchikey": "MKIMSXGUTQTKJU-UHFFFAOYSA-N",
-    "chebi:smiles": "[Cl-].CCCOC(=O)NCCC[NH+](C)C",
-    "geneontology:hasDbXref": [
-        "CAS:25606-41-1",
-        "KEGG:C18421",
-        "PPDB:544"
-    ],
-    "geneontology:hasId": "81735",
-    "geneontology:inSubset": {
-        "@id": "obo:chebi#2_STAR"
-    },
-    "rdfs:label": "Propamocarb hydrochloride",
-    "rdfs:subClassOf": [
-        {
-            "@id": "obo:CHEBI_50860"
+        "obo": "http://purl.obolibrary.org/obo/",
+        "uniprot": "http://purl.uniprot.org/",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "concept": "https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/",
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "dbo": "http://dbpedia.org/ontology/",
+        "dbp": "http://dbpedia.org/property/",
+        "altLabel": {
+            "@id": "http://www.w3.org/2004/02/skos/core#altLabel",
+            "@language": "en"
         },
-        {
-            "@id": "obo:CHEBI_87061"
+        "graph": {
+            "@id": "@graph"
         }
-    ]
+    }
 }

@@ -1,39 +1,39 @@
 {
     "@context": {
-        "chebi": "http://purl.obolibrary.org/obo/chebi/",
         "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
         "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-        "obo": "http://purl.obolibrary.org/obo/"
+        "obo": "http://purl.obolibrary.org/obo/",
+        "uniprot": "http://purl.uniprot.org/",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "concept": "https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/",
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "dbo": "http://dbpedia.org/ontology/",
+        "dbp": "http://dbpedia.org/property/",
+        "altLabel": {
+            "@id": "http://www.w3.org/2004/02/skos/core#altLabel",
+            "@language": "en"
+        },
+        "graph": {
+            "@id": "@graph"
+        }
     },
-    "@id": "obo:CHEBI_50720",
-    "@type": "http://www.w3.org/2002/07/owl#Class",
-    "obo:IAO_0000115": "A  methylnaphthalene carrying a methyl substituent at position 2.",
+    "@id": "concept:QIMMUPPBPVKWKM-UHFFFAOYSA-N",
+    "@type": "skos:Concept",
+    "dbo:formula": "C11H10",
+    "dbo:inchi": "InChI=1S/C11H10/c1-9-6-7-10-4-2-3-5-11(10)8-9/h2-8H,1H3",
+    "dbo:smiles": "Cc1ccc2ccccc2c1",
+    "dbp:inchikey": "QIMMUPPBPVKWKM-UHFFFAOYSA-N",
     "chebi:charge": "0",
-    "chebi:formula": "C11H10",
-    "chebi:inchi": "InChI=1S/C11H10/c1-9-6-7-10-4-2-3-5-11(10)8-9/h2-8H,1H3",
-    "chebi:inchikey": "QIMMUPPBPVKWKM-UHFFFAOYSA-N",
-    "chebi:smiles": "Cc1ccc2ccccc2c1",
-    "geneontology:hasDbXref": [
-        "PMID:21478643",
-        "PMID:22324881",
-        "CAS:91-57-6",
-        "KEGG:C14098",
-        "PMID:22002322",
-        "PMID:24117136",
-        "PMID:24440761",
-        "Reaxys:906859",
-        "UM-BBD_compID:c0699"
-    ],
-    "geneontology:hasId": "50720",
-    "geneontology:hasSynonym": [
+    "skos:altLabel": [
         "2-Methylnaphthalene",
         "beta-Methylnaphthalene"
     ],
-    "geneontology:inSubset": {
-        "@id": "obo:chebi#3_STAR"
+    "skos:exactMatch": {
+        "@id": "obo:CHEBI_50720"
     },
-    "rdfs:label": "2-methylnaphthalene",
-    "rdfs:subClassOf": {
+    "skos:note": "A  methylnaphthalene carrying a methyl substituent at position 2.",
+    "skos:semanticRelation": {
         "@id": "obo:CHEBI_50715"
     }
 }

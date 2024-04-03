@@ -1,28 +1,31 @@
 {
     "@context": {
-        "chebi": "http://purl.obolibrary.org/obo/chebi/",
         "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
         "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-        "obo": "http://purl.obolibrary.org/obo/"
+        "obo": "http://purl.obolibrary.org/obo/",
+        "uniprot": "http://purl.uniprot.org/",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "concept": "https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/",
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "dbo": "http://dbpedia.org/ontology/",
+        "dbp": "http://dbpedia.org/property/",
+        "graph": {
+            "@id": "@graph"
+        }
     },
-    "@id": "obo:CHEBI_34062",
-    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "@id": "concept:DSNHSQKRULAAEI-UHFFFAOYSA-N",
+    "@type": "skos:Concept",
+    "dbo:formula": "C10H14",
+    "dbo:inchi": "InChI=1S/C10H14/c1-3-9-5-7-10(4-2)8-6-9/h5-8H,3-4H2,1-2H3",
+    "dbo:smiles": "CCc1ccc(CC)cc1",
+    "dbp:inchikey": "DSNHSQKRULAAEI-UHFFFAOYSA-N",
     "chebi:charge": "0",
-    "chebi:formula": "C10H14",
-    "chebi:inchi": "InChI=1S/C10H14/c1-3-9-5-7-10(4-2)8-6-9/h5-8H,3-4H2,1-2H3",
-    "chebi:inchikey": "DSNHSQKRULAAEI-UHFFFAOYSA-N",
-    "chebi:smiles": "CCc1ccc(CC)cc1",
-    "geneontology:hasDbXref": [
-        "CAS:105-05-5",
-        "KEGG:C14583"
-    ],
-    "geneontology:hasId": "34062",
-    "geneontology:hasSynonym": "p-Diethylbenzene",
-    "geneontology:inSubset": {
-        "@id": "obo:chebi#2_STAR"
+    "skos:altLabel": "p-Diethylbenzene",
+    "skos:exactMatch": {
+        "@id": "obo:CHEBI_34062"
     },
-    "rdfs:label": "1,4-Diethylbenzene",
-    "rdfs:subClassOf": {
+    "skos:semanticRelation": {
         "@id": "obo:CHEBI_22712"
     }
 }

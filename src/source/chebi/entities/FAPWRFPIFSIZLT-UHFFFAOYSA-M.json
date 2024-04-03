@@ -1,31 +1,27 @@
 {
     "@context": {
-        "chebi": "http://purl.obolibrary.org/obo/chebi/",
         "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
         "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-        "obo": "http://purl.obolibrary.org/obo/"
+        "obo": "http://purl.obolibrary.org/obo/",
+        "uniprot": "http://purl.uniprot.org/",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "concept": "https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/",
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "dbo": "http://dbpedia.org/ontology/",
+        "dbp": "http://dbpedia.org/property/",
+        "graph": {
+            "@id": "@graph"
+        }
     },
-    "@id": "obo:CHEBI_26710",
-    "@type": "http://www.w3.org/2002/07/owl#Class",
-    "obo:IAO_0000115": "An inorganic chloride salt having sodium(1+) as the counterion.",
+    "@id": "concept:FAPWRFPIFSIZLT-UHFFFAOYSA-M",
+    "@type": "skos:Concept",
+    "dbo:formula": "ClNa",
+    "dbo:inchi": "InChI=1S/ClH.Na/h1H;/q;+1/p-1",
+    "dbo:smiles": "[Na+].[Cl-]",
+    "dbp:inchikey": "FAPWRFPIFSIZLT-UHFFFAOYSA-M",
     "chebi:charge": "0",
-    "chebi:formula": "ClNa",
-    "chebi:inchi": "InChI=1S/ClH.Na/h1H;/q;+1/p-1",
-    "chebi:inchikey": "FAPWRFPIFSIZLT-UHFFFAOYSA-M",
-    "chebi:smiles": "[Na+].[Cl-]",
-    "geneontology:hasDbXref": [
-        "Beilstein:3534976",
-        "CAS:7647-14-5",
-        "Gmelin:13673",
-        "KEGG:C13563",
-        "KEGG:D02056",
-        "MetaCyc:NACL",
-        "PPDB:595",
-        "Reaxys:3534976",
-        "Wikipedia:Sodium_Chloride"
-    ],
-    "geneontology:hasId": "26710",
-    "geneontology:hasSynonym": [
+    "skos:altLabel": [
         "salt",
         "chlorure de sodium",
         "cloruro sodico",
@@ -38,22 +34,16 @@
         "rock salt",
         "table salt"
     ],
-    "geneontology:inSubset": {
-        "@id": "obo:chebi#3_STAR"
+    "skos:exactMatch": {
+        "@id": "obo:CHEBI_26710"
     },
-    "rdfs:label": "sodium chloride",
-    "rdfs:subClassOf": [
+    "skos:note": "An inorganic chloride salt having sodium(1+) as the counterion.",
+    "skos:semanticRelation": [
         {
             "@id": "obo:CHEBI_36093"
         },
         {
             "@id": "obo:CHEBI_38702"
-        },
-        {
-            "@id": "b565_genid-00f1db82e1ab437c844115a94dc63e635-bn26710t11f79314"
-        },
-        {
-            "@id": "b565_genid-00f1db82e1ab437c844115a94dc63e635-bn26710t11f149552"
         }
     ]
 }

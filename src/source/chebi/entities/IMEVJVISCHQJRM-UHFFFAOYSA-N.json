@@ -1,42 +1,40 @@
 {
     "@context": {
-        "chebi": "http://purl.obolibrary.org/obo/chebi/",
         "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
         "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-        "obo": "http://purl.obolibrary.org/obo/"
+        "obo": "http://purl.obolibrary.org/obo/",
+        "uniprot": "http://purl.uniprot.org/",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "concept": "https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/",
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "dbo": "http://dbpedia.org/ontology/",
+        "dbp": "http://dbpedia.org/property/",
+        "altLabel": {
+            "@id": "http://www.w3.org/2004/02/skos/core#altLabel",
+            "@language": "en"
+        },
+        "graph": {
+            "@id": "@graph"
+        }
     },
-    "@id": "obo:CHEBI_82047",
-    "@type": "http://www.w3.org/2002/07/owl#Class",
-    "obo:IAO_0000115": "A methyl ester resulting from the formal condensation of the carboxy group of triflusulfuron with methanol. A proherbicide for triflusulfuron.",
+    "@id": "concept:IMEVJVISCHQJRM-UHFFFAOYSA-N",
+    "@type": "skos:Concept",
+    "dbo:formula": "C17H19F3N6O6S",
+    "dbo:inchi": "InChI=1S/C17H19F3N6O6S/c1-9-6-5-7-10(12(27)31-4)11(9)33(29,30)25-15(28)22-13-21-14(26(2)3)24-16(23-13)32-8-17(18,19)20/h5-7H,8H2,1-4H3,(H2,21,22,23,24,25,28)",
+    "dbo:smiles": "C1=CC=C(C(=C1C(OC)=O)S(NC(NC2=NC(=NC(=N2)N(C)C)OCC(F)(F)F)=O)(=O)=O)C",
+    "dbp:inchikey": "IMEVJVISCHQJRM-UHFFFAOYSA-N",
     "chebi:charge": "0",
-    "chebi:formula": "C17H19F3N6O6S",
-    "chebi:inchi": "InChI=1S/C17H19F3N6O6S/c1-9-6-5-7-10(12(27)31-4)11(9)33(29,30)25-15(28)22-13-21-14(26(2)3)24-16(23-13)32-8-17(18,19)20/h5-7H,8H2,1-4H3,(H2,21,22,23,24,25,28)",
-    "chebi:inchikey": "IMEVJVISCHQJRM-UHFFFAOYSA-N",
-    "chebi:smiles": "C1=CC=C(C(=C1C(OC)=O)S(NC(NC2=NC(=NC(=N2)N(C)C)OCC(F)(F)F)=O)(=O)=O)C",
-    "geneontology:hasDbXref": [
-        "AGR:IND20531403",
-        "CAS:126535-15-7",
-        "KEGG:C18901",
-        "Pesticides:126535-15-7",
-        "Pesticides:derivatives/triflusulfuron-methyl",
-        "PMID:10956179",
-        "PMID:11407029",
-        "PMID:21837154",
-        "PMID:22058947",
-        "PMID:25151846",
-        "PPDB:668"
-    ],
-    "geneontology:hasId": "82047",
-    "geneontology:hasSynonym": [
+    "skos:altLabel": [
         "methyl 2-({[4-(dimethylamino)-6-(2,2,2-trifluoroethoxy)-1,3,5-triazin-2-yl]carbamoyl}sulfamoyl)-3-methylbenzoate",
         "methyl 2-[[[[[4-(dimethylamino)-6-(2,2,2-trifluoroethoxy)-1,3,5-triazin-2-yl]amino]carbonyl]amino]sulfonyl]-3-methylbenzoate",
         "methyl 2-[4-dimethylamino-6-(2,2,2-trifluoroethoxy)-1,3,5-triazin-2-ylcarbamoylsulfamoyl]-m-toluate"
     ],
-    "geneontology:inSubset": {
-        "@id": "obo:chebi#3_STAR"
+    "skos:exactMatch": {
+        "@id": "obo:CHEBI_82047"
     },
-    "rdfs:label": "triflusulfuron-methyl",
-    "rdfs:subClassOf": [
+    "skos:note": "A methyl ester resulting from the formal condensation of the carboxy group of triflusulfuron with methanol. A proherbicide for triflusulfuron.",
+    "skos:semanticRelation": [
         {
             "@id": "obo:CHEBI_35618"
         },
@@ -57,18 +55,6 @@
         },
         {
             "@id": "obo:CHEBI_76983"
-        },
-        {
-            "@id": "b122_genid-00f1db82e1ab437c844115a94dc63e635-bn82047t11f22180"
-        },
-        {
-            "@id": "b122_genid-00f1db82e1ab437c844115a94dc63e635-bn82047t11f33286"
-        },
-        {
-            "@id": "b122_genid-00f1db82e1ab437c844115a94dc63e635-bn82047t11f136646"
-        },
-        {
-            "@id": "b122_genid-00f1db82e1ab437c844115a94dc63e635-bn82047t8f142847"
         }
     ]
 }

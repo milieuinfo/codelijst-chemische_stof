@@ -1,32 +1,38 @@
 {
     "@context": {
-        "chebi": "http://purl.obolibrary.org/obo/chebi/",
         "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
         "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-        "obo": "http://purl.obolibrary.org/obo/"
+        "obo": "http://purl.obolibrary.org/obo/",
+        "uniprot": "http://purl.uniprot.org/",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "concept": "https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/",
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "dbo": "http://dbpedia.org/ontology/",
+        "dbp": "http://dbpedia.org/property/",
+        "altLabel": {
+            "@id": "http://www.w3.org/2004/02/skos/core#altLabel",
+            "@language": "en"
+        },
+        "graph": {
+            "@id": "@graph"
+        }
     },
-    "@id": "obo:CHEBI_34573",
-    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "@id": "concept:ZNSMNVMLTJELDZ-UHFFFAOYSA-N",
+    "@type": "skos:Concept",
+    "dbo:formula": "C4H8Cl2O",
+    "dbo:inchi": "InChI=1S/C4H8Cl2O/c5-1-3-7-4-2-6/h1-4H2",
+    "dbo:smiles": "ClCCOCCCl",
+    "dbp:inchikey": "ZNSMNVMLTJELDZ-UHFFFAOYSA-N",
     "chebi:charge": "0",
-    "chebi:formula": "C4H8Cl2O",
-    "chebi:inchi": "InChI=1S/C4H8Cl2O/c5-1-3-7-4-2-6/h1-4H2",
-    "chebi:inchikey": "ZNSMNVMLTJELDZ-UHFFFAOYSA-N",
-    "chebi:smiles": "ClCCOCCCl",
-    "geneontology:hasDbXref": [
-        "CAS:111-44-4",
-        "KEGG:C14688",
-        "PPDB:2714"
-    ],
-    "geneontology:hasId": "34573",
-    "geneontology:hasSynonym": [
+    "skos:altLabel": [
         "1,5-Dichloro-3-oxapentane",
         "2,2'-Dichlorethyl ether"
     ],
-    "geneontology:inSubset": {
-        "@id": "obo:chebi#2_STAR"
+    "skos:exactMatch": {
+        "@id": "obo:CHEBI_34573"
     },
-    "rdfs:label": "Bis(2-chloroethyl)ether",
-    "rdfs:subClassOf": {
+    "skos:semanticRelation": {
         "@id": "obo:CHEBI_25698"
     }
 }

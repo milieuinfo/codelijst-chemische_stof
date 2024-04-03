@@ -1,28 +1,17 @@
 {
     "@context": {
-        "chebi": "http://purl.obolibrary.org/obo/chebi/",
         "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
         "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-        "obo": "http://purl.obolibrary.org/obo/"
-    },
-    "@id": "obo:CHEBI_81771",
-    "@type": "http://www.w3.org/2002/07/owl#Class",
-    "chebi:charge": "0",
-    "chebi:formula": "C4H4N2O2",
-    "chebi:inchi": "InChI=1S/C4H4N2O2/c7-3-1-2-4(8)6-5-3/h1-2H,(H,5,7)(H,6,8)",
-    "chebi:inchikey": "BGRDGMRNKXEXQD-UHFFFAOYSA-N",
-    "chebi:smiles": "O=c1ccc(=O)[nH][nH]1",
-    "geneontology:hasDbXref": [
-        "CAS:123-33-1",
-        "KEGG:C18474",
-        "PPDB:422"
-    ],
-    "geneontology:hasId": "81771",
-    "geneontology:inSubset": {
-        "@id": "obo:chebi#2_STAR"
-    },
-    "rdfs:label": "Maleic hydrazide",
-    "rdfs:subClassOf": {
-        "@id": "obo:CHEBI_26414"
+        "obo": "http://purl.obolibrary.org/obo/",
+        "uniprot": "http://purl.uniprot.org/",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "concept": "https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/",
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "dbo": "http://dbpedia.org/ontology/",
+        "dbp": "http://dbpedia.org/property/",
+        "graph": {
+            "@id": "@graph"
+        }
     }
 }

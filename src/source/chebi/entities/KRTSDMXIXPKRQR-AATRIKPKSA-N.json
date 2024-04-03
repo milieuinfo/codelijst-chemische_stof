@@ -1,34 +1,31 @@
 {
     "@context": {
-        "chebi": "http://purl.obolibrary.org/obo/chebi/",
         "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
         "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-        "obo": "http://purl.obolibrary.org/obo/"
+        "obo": "http://purl.obolibrary.org/obo/",
+        "uniprot": "http://purl.uniprot.org/",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "concept": "https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/",
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "dbo": "http://dbpedia.org/ontology/",
+        "dbp": "http://dbpedia.org/property/",
+        "altLabel": {
+            "@id": "http://www.w3.org/2004/02/skos/core#altLabel",
+            "@language": "en"
+        },
+        "graph": {
+            "@id": "@graph"
+        }
     },
-    "@id": "obo:CHEBI_38728",
-    "@type": "http://www.w3.org/2002/07/owl#Class",
-    "obo:IAO_0000115": "An alkenyl phosphate that is the 4-(methylamino)-4-oxobut-2-en-2-yl ester of dimethyl phosphate.",
+    "@id": "concept:KRTSDMXIXPKRQR-AATRIKPKSA-N",
+    "@type": "skos:Concept",
+    "dbo:formula": "C7H14NO5P",
+    "dbo:inchi": "InChI=1S/C7H14NO5P/c1-6(5-7(9)8-2)13-14(10,11-3)12-4/h5H,1-4H3,(H,8,9)/b6-5+",
+    "dbo:smiles": "CNC(=O)\\C=C(/C)OP(=O)(OC)OC",
+    "dbp:inchikey": "KRTSDMXIXPKRQR-AATRIKPKSA-N",
     "chebi:charge": "0",
-    "chebi:formula": "C7H14NO5P",
-    "chebi:inchi": "InChI=1S/C7H14NO5P/c1-6(5-7(9)8-2)13-14(10,11-3)12-4/h5H,1-4H3,(H,8,9)/b6-5+",
-    "chebi:inchikey": "KRTSDMXIXPKRQR-AATRIKPKSA-N",
-    "chebi:smiles": "CNC(=O)\\C=C(/C)OP(=O)(OC)OC",
-    "geneontology:hasDbXref": [
-        "Beilstein:2331934",
-        "CAS:6923-22-4",
-        "HMDB:HMDB0031805",
-        "KEGG:C18663",
-        "PMID:23010531",
-        "PMID:23228476",
-        "PMID:23948368",
-        "PMID:24105069",
-        "PMID:24440807",
-        "PPDB:1111",
-        "Reaxys:8415832",
-        "Wikipedia:Monocrotophos"
-    ],
-    "geneontology:hasId": "38728",
-    "geneontology:hasSynonym": [
+    "skos:altLabel": [
         "(E)-monocrotophos",
         "Azodrin",
         "dimethyl (1E)-1-methyl-3-(methylamino)-3-oxoprop-1-en-1-yl phosphate",
@@ -36,11 +33,11 @@
         "Dimethyl (E)-3-hydroxy-N-methylcrotonamide",
         "Phosphoric acid, dimethyl (E)-1-methyl-3-(methylamino)-3-oxo-1-propenyl ester"
     ],
-    "geneontology:inSubset": {
-        "@id": "obo:chebi#3_STAR"
+    "skos:exactMatch": {
+        "@id": "obo:CHEBI_38728"
     },
-    "rdfs:label": "monocrotophos",
-    "rdfs:subClassOf": [
+    "skos:note": "An alkenyl phosphate that is the 4-(methylamino)-4-oxobut-2-en-2-yl ester of dimethyl phosphate.",
+    "skos:semanticRelation": [
         {
             "@id": "obo:CHEBI_29347"
         },
@@ -52,24 +49,6 @@
         },
         {
             "@id": "obo:CHEBI_37494"
-        },
-        {
-            "@id": "b449_genid-00f1db82e1ab437c844115a94dc63e635-bn38728t11f22153"
-        },
-        {
-            "@id": "b449_genid-00f1db82e1ab437c844115a94dc63e635-bn38728t11f33286"
-        },
-        {
-            "@id": "b449_genid-00f1db82e1ab437c844115a94dc63e635-bn38728t11f33289"
-        },
-        {
-            "@id": "b449_genid-00f1db82e1ab437c844115a94dc63e635-bn38728t11f37733"
-        },
-        {
-            "@id": "b449_genid-00f1db82e1ab437c844115a94dc63e635-bn38728t11f38462"
-        },
-        {
-            "@id": "b449_genid-00f1db82e1ab437c844115a94dc63e635-bn38728t11f38623"
         }
     ]
 }

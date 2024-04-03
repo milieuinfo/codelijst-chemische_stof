@@ -1,35 +1,36 @@
 {
     "@context": {
-        "chebi": "http://purl.obolibrary.org/obo/chebi/",
         "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
         "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-        "obo": "http://purl.obolibrary.org/obo/"
+        "obo": "http://purl.obolibrary.org/obo/",
+        "uniprot": "http://purl.uniprot.org/",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "concept": "https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/",
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "dbo": "http://dbpedia.org/ontology/",
+        "dbp": "http://dbpedia.org/property/",
+        "altLabel": {
+            "@id": "http://www.w3.org/2004/02/skos/core#altLabel",
+            "@language": "en"
+        },
+        "graph": {
+            "@id": "@graph"
+        }
     },
-    "@id": "obo:CHEBI_48973",
-    "@type": "http://www.w3.org/2002/07/owl#Class",
-    "obo:IAO_0000115": "A substituted aniline that is 3-nitroanisole in which the hydrogen para to the methoxy group is replaced by an amino group.",
+    "@id": "concept:QFMJFXFXQAFGBO-UHFFFAOYSA-N",
+    "@type": "skos:Concept",
+    "dbo:formula": "C7H8N2O3",
+    "dbo:inchi": "InChI=1S/C7H8N2O3/c1-12-5-2-3-6(8)7(4-5)9(10)11/h2-4H,8H2,1H3",
+    "dbo:smiles": "COc1ccc(N)c(c1)[N+]([O-])=O",
+    "dbp:inchikey": "QFMJFXFXQAFGBO-UHFFFAOYSA-N",
     "chebi:charge": "0",
-    "chebi:formula": "C7H8N2O3",
-    "chebi:inchi": "InChI=1S/C7H8N2O3/c1-12-5-2-3-6(8)7(4-5)9(10)11/h2-4H,8H2,1H3",
-    "chebi:inchikey": "QFMJFXFXQAFGBO-UHFFFAOYSA-N",
-    "chebi:smiles": "COc1ccc(N)c(c1)[N+]([O-])=O",
-    "geneontology:hasDbXref": [
-        "Beilstein:880318",
-        "CAS:96-96-8",
-        "PMID:16639589",
-        "PMID:22725680",
-        "PMID:25367778",
-        "PMID:7553614",
-        "PMID:9545601",
-        "Reaxys:880318"
-    ],
-    "geneontology:hasId": "48973",
-    "geneontology:hasSynonym": "2-Nitro-p-anisidine",
-    "geneontology:inSubset": {
-        "@id": "obo:chebi#3_STAR"
+    "skos:altLabel": "2-Nitro-p-anisidine",
+    "skos:exactMatch": {
+        "@id": "obo:CHEBI_48973"
     },
-    "rdfs:label": "4-methoxy-2-nitroaniline",
-    "rdfs:subClassOf": [
+    "skos:note": "A substituted aniline that is 3-nitroanisole in which the hydrogen para to the methoxy group is replaced by an amino group.",
+    "skos:semanticRelation": [
         {
             "@id": "obo:CHEBI_48975"
         },

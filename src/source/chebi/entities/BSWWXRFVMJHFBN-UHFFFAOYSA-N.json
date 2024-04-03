@@ -1,55 +1,37 @@
 {
     "@context": {
-        "chebi": "http://purl.obolibrary.org/obo/chebi/",
         "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
         "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-        "obo": "http://purl.obolibrary.org/obo/"
+        "obo": "http://purl.obolibrary.org/obo/",
+        "uniprot": "http://purl.uniprot.org/",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "concept": "https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/",
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "dbo": "http://dbpedia.org/ontology/",
+        "dbp": "http://dbpedia.org/property/",
+        "graph": {
+            "@id": "@graph"
+        }
     },
-    "@id": "obo:CHEBI_47696",
-    "@type": "http://www.w3.org/2002/07/owl#Class",
-    "obo:IAO_0000115": "A bromophenol that is phenol in which the hydrogens at positions 2, 4 and 6 have been replaced by bromines. It is commonly used as a fungicide and in the preparation of flame retardants.",
+    "@id": "concept:BSWWXRFVMJHFBN-UHFFFAOYSA-N",
+    "@type": "skos:Concept",
+    "dbo:formula": "C6H3Br3O",
+    "dbo:inchi": "InChI=1S/C6H3Br3O/c7-3-1-4(8)6(10)5(9)2-3/h1-2,10H",
+    "dbo:smiles": "C=1(C(=C(C=C(C1)Br)Br)O)Br",
+    "dbp:inchikey": "BSWWXRFVMJHFBN-UHFFFAOYSA-N",
     "chebi:charge": "0",
-    "chebi:formula": "C6H3Br3O",
-    "chebi:inchi": "InChI=1S/C6H3Br3O/c7-3-1-4(8)6(10)5(9)2-3/h1-2,10H",
-    "chebi:inchikey": "BSWWXRFVMJHFBN-UHFFFAOYSA-N",
-    "chebi:smiles": "C=1(C(=C(C=C(C1)Br)Br)O)Br",
-    "geneontology:hasDbXref": [
-        "CAS:118-79-6",
-        "DrugBank:DB02417",
-        "HMDB:HMDB0029642",
-        "KEGG:C14454",
-        "PDBeChem:TBP",
-        "PMID:16134480",
-        "PMID:18460800",
-        "PMID:19701836",
-        "PMID:19931292",
-        "PMID:24263137",
-        "Reaxys:776920",
-        "Wikipedia:2,4,6-tribromophenol"
-    ],
-    "geneontology:hasId": "47696",
-    "geneontology:hasSynonym": [
+    "skos:altLabel": [
         "2,4,6-TBP",
         "Bromol",
         "Tribromophenol",
         "Xeroform"
     ],
-    "geneontology:inSubset": {
-        "@id": "obo:chebi#3_STAR"
+    "skos:exactMatch": {
+        "@id": "obo:CHEBI_47696"
     },
-    "rdfs:label": "2,4,6-tribromophenol",
-    "rdfs:subClassOf": [
-        {
-            "@id": "obo:CHEBI_33624"
-        },
-        {
-            "@id": "b226_genid-00f1db82e1ab437c844115a94dc63e635-bn47696t11f24127"
-        },
-        {
-            "@id": "b226_genid-00f1db82e1ab437c844115a94dc63e635-bn47696t11f76507"
-        },
-        {
-            "@id": "b226_genid-00f1db82e1ab437c844115a94dc63e635-bn47696t11f78298"
-        }
-    ]
+    "skos:note": "A bromophenol that is phenol in which the hydrogens at positions 2, 4 and 6 have been replaced by bromines. It is commonly used as a fungicide and in the preparation of flame retardants.",
+    "skos:semanticRelation": {
+        "@id": "obo:CHEBI_33624"
+    }
 }

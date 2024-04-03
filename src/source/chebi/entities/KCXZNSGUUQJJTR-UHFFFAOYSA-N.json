@@ -1,31 +1,38 @@
 {
     "@context": {
-        "chebi": "http://purl.obolibrary.org/obo/chebi/",
         "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
         "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-        "obo": "http://purl.obolibrary.org/obo/"
+        "obo": "http://purl.obolibrary.org/obo/",
+        "uniprot": "http://purl.uniprot.org/",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "concept": "https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/",
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "dbo": "http://dbpedia.org/ontology/",
+        "dbp": "http://dbpedia.org/property/",
+        "altLabel": {
+            "@id": "http://www.w3.org/2004/02/skos/core#altLabel",
+            "@language": "en"
+        },
+        "graph": {
+            "@id": "@graph"
+        }
     },
-    "@id": "obo:CHEBI_34678",
-    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "@id": "concept:KCXZNSGUUQJJTR-UHFFFAOYSA-N",
+    "@type": "skos:Concept",
+    "dbo:formula": "C20H30O4",
+    "dbo:inchi": "InChI=1S/C20H30O4/c1-3-5-7-11-15-23-19(21)17-13-9-10-14-18(17)20(22)24-16-12-8-6-4-2/h9-10,13-14H,3-8,11-12,15-16H2,1-2H3",
+    "dbo:smiles": "CCCCCCOC(=O)c1ccccc1C(=O)OCCCCCC",
+    "dbp:inchikey": "KCXZNSGUUQJJTR-UHFFFAOYSA-N",
     "chebi:charge": "0",
-    "chebi:formula": "C20H30O4",
-    "chebi:inchi": "InChI=1S/C20H30O4/c1-3-5-7-11-15-23-19(21)17-13-9-10-14-18(17)20(22)24-16-12-8-6-4-2/h9-10,13-14H,3-8,11-12,15-16H2,1-2H3",
-    "chebi:inchikey": "KCXZNSGUUQJJTR-UHFFFAOYSA-N",
-    "chebi:smiles": "CCCCCCOC(=O)c1ccccc1C(=O)OCCCCCC",
-    "geneontology:hasDbXref": [
-        "CAS:84-75-3",
-        "KEGG:C14504"
-    ],
-    "geneontology:hasId": "34678",
-    "geneontology:hasSynonym": [
+    "skos:altLabel": [
         "Dihexyl 1,2-benzenedicarboxylate",
         "Dihexyl phthalate"
     ],
-    "geneontology:inSubset": {
-        "@id": "obo:chebi#2_STAR"
+    "skos:exactMatch": {
+        "@id": "obo:CHEBI_34678"
     },
-    "rdfs:label": "Di-n-hexyl phthalate",
-    "rdfs:subClassOf": {
+    "skos:semanticRelation": {
         "@id": "obo:CHEBI_19643"
     }
 }

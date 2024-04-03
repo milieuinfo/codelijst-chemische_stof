@@ -1,38 +1,32 @@
 {
     "@context": {
-        "chebi": "http://purl.obolibrary.org/obo/chebi/",
         "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
         "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-        "obo": "http://purl.obolibrary.org/obo/"
+        "obo": "http://purl.obolibrary.org/obo/",
+        "uniprot": "http://purl.uniprot.org/",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "concept": "https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/",
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "dbo": "http://dbpedia.org/ontology/",
+        "dbp": "http://dbpedia.org/property/",
+        "graph": {
+            "@id": "@graph"
+        }
     },
-    "@id": "obo:CHEBI_33083",
-    "@type": "http://www.w3.org/2002/07/owl#Class",
-    "obo:IAO_0000115": "An ortho- and peri-fused polycyclic arene consisting of a naphthalene and benzene unit connected by a five-membered ring.",
+    "@id": "concept:GVEPBJHOBDJJJI-UHFFFAOYSA-N",
+    "@type": "skos:Concept",
+    "dbo:formula": "C16H10",
+    "dbo:inchi": "InChI=1S/C16H10/c1-2-8-13-12(7-1)14-9-3-5-11-6-4-10-15(13)16(11)14/h1-10H",
+    "dbo:smiles": "c1ccc-2c(c1)-c1cccc3cccc-2c13",
+    "dbp:inchikey": "GVEPBJHOBDJJJI-UHFFFAOYSA-N",
     "chebi:charge": "0",
-    "chebi:formula": "C16H10",
-    "chebi:inchi": "InChI=1S/C16H10/c1-2-8-13-12(7-1)14-9-3-5-11-6-4-10-15(13)16(11)14/h1-10H",
-    "chebi:inchikey": "GVEPBJHOBDJJJI-UHFFFAOYSA-N",
-    "chebi:smiles": "c1ccc-2c(c1)-c1cccc3cccc-2c13",
-    "geneontology:hasDbXref": [
-        "Beilstein:1907918",
-        "CAS:206-44-0",
-        "Gmelin:262216",
-        "KEGG:C19425",
-        "MetaCyc:CPD-15564",
-        "PMID:15278918",
-        "PMID:17258277",
-        "PMID:23943046",
-        "PMID:24151025",
-        "Reaxys:1907918",
-        "Wikipedia:Fluoranthene"
-    ],
-    "geneontology:hasId": "33083",
-    "geneontology:hasSynonym": "benzo[jk]fluorene",
-    "geneontology:inSubset": {
-        "@id": "obo:chebi#3_STAR"
+    "skos:altLabel": "benzo[jk]fluorene",
+    "skos:exactMatch": {
+        "@id": "obo:CHEBI_33083"
     },
-    "rdfs:label": "fluoranthene",
-    "rdfs:subClassOf": {
+    "skos:note": "An ortho- and peri-fused polycyclic arene consisting of a naphthalene and benzene unit connected by a five-membered ring.",
+    "skos:semanticRelation": {
         "@id": "obo:CHEBI_35300"
     }
 }

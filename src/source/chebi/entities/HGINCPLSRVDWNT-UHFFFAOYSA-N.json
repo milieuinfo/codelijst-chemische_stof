@@ -1,58 +1,38 @@
 {
     "@context": {
-        "chebi": "http://purl.obolibrary.org/obo/chebi/",
         "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
         "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-        "obo": "http://purl.obolibrary.org/obo/"
+        "obo": "http://purl.obolibrary.org/obo/",
+        "uniprot": "http://purl.uniprot.org/",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "concept": "https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/",
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "dbo": "http://dbpedia.org/ontology/",
+        "dbp": "http://dbpedia.org/property/",
+        "graph": {
+            "@id": "@graph"
+        }
     },
-    "@id": "obo:CHEBI_15368",
-    "@type": "http://www.w3.org/2002/07/owl#Class",
-    "obo:IAO_0000115": "An enal that is prop-2-ene with an oxo group at position 1.",
+    "@id": "concept:HGINCPLSRVDWNT-UHFFFAOYSA-N",
+    "@type": "skos:Concept",
+    "dbo:formula": "C3H4O",
+    "dbo:inchi": "InChI=1S/C3H4O/c1-2-3-4/h2-3H,1H2",
+    "dbo:smiles": "[H]C(=C)C([H])=O",
+    "dbp:inchikey": "HGINCPLSRVDWNT-UHFFFAOYSA-N",
     "chebi:charge": "0",
-    "chebi:formula": "C3H4O",
-    "chebi:inchi": "InChI=1S/C3H4O/c1-2-3-4/h2-3H,1H2",
-    "chebi:inchikey": "HGINCPLSRVDWNT-UHFFFAOYSA-N",
-    "chebi:smiles": "[H]C(=C)C([H])=O",
-    "http://purl.uniprot.org/core/name": "acrolein",
-    "geneontology:hasDbXref": [
-        "CAS:107-02-8",
-        "HMDB:HMDB0041822",
-        "KEGG:C01471",
-        "MetaCyc:ACROLEIN",
-        "PMID:11888018",
-        "PMID:16725382",
-        "PMID:18023956",
-        "PMID:18234483",
-        "PMID:18686065",
-        "PMID:18823586",
-        "PPDB:1016",
-        "Reaxys:741856",
-        "Wikipedia:Acrolein"
-    ],
-    "geneontology:hasId": "15368",
-    "geneontology:hasSynonym": [
+    "skos:altLabel": [
         "Acrolein",
         "acrylaldehyde",
         "Acrylaldehyde",
         "Acrylic aldehyde",
         "Propenal"
     ],
-    "geneontology:inSubset": {
-        "@id": "obo:chebi#3_STAR"
+    "skos:exactMatch": {
+        "@id": "obo:CHEBI_15368"
     },
-    "rdfs:label": "acrolein",
-    "rdfs:subClassOf": [
-        {
-            "@id": "obo:CHEBI_51688"
-        },
-        {
-            "@id": "b877_genid-00f1db82e1ab437c844115a94dc63e635-bn15368t11f24527"
-        },
-        {
-            "@id": "b877_genid-00f1db82e1ab437c844115a94dc63e635-bn15368t11f27026"
-        },
-        {
-            "@id": "b877_genid-00f1db82e1ab437c844115a94dc63e635-bn15368t11f76967"
-        }
-    ]
+    "skos:note": "An enal that is prop-2-ene with an oxo group at position 1.",
+    "skos:semanticRelation": {
+        "@id": "obo:CHEBI_51688"
+    }
 }

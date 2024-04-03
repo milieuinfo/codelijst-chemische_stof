@@ -1,32 +1,31 @@
 {
     "@context": {
-        "chebi": "http://purl.obolibrary.org/obo/chebi/",
         "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
         "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-        "obo": "http://purl.obolibrary.org/obo/"
+        "obo": "http://purl.obolibrary.org/obo/",
+        "uniprot": "http://purl.uniprot.org/",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "concept": "https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/",
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "dbo": "http://dbpedia.org/ontology/",
+        "dbp": "http://dbpedia.org/property/",
+        "altLabel": {
+            "@id": "http://www.w3.org/2004/02/skos/core#altLabel",
+            "@language": "en"
+        },
+        "graph": {
+            "@id": "@graph"
+        }
     },
-    "@id": "obo:CHEBI_53767",
-    "@type": "http://www.w3.org/2002/07/owl#Class",
-    "obo:IAO_0000115": "An  organic sodium salt derivative of toluene-4-sulfonamide with a chloro substituent in place of an amino hydrogen.",
+    "@id": "concept:VDQQXEISLMTGAB-UHFFFAOYSA-N",
+    "@type": "skos:Concept",
+    "dbo:formula": "C7H7ClNNaO2S",
+    "dbo:inchi": "InChI=1S/C7H7ClNO2S.Na/c1-6-2-4-7(5-3-6)12(10,11)9-8;/h2-5H,1H3;/q-1;+1",
+    "dbo:smiles": "[Na+].Cc1ccc(cc1)S(=O)(=O)[N-]Cl",
+    "dbp:inchikey": "VDQQXEISLMTGAB-UHFFFAOYSA-N",
     "chebi:charge": "0",
-    "chebi:formula": "C7H7ClNNaO2S",
-    "chebi:inchi": "InChI=1S/C7H7ClNO2S.Na/c1-6-2-4-7(5-3-6)12(10,11)9-8;/h2-5H,1H3;/q-1;+1",
-    "chebi:inchikey": "VDQQXEISLMTGAB-UHFFFAOYSA-N",
-    "chebi:smiles": "[Na+].Cc1ccc(cc1)S(=O)(=O)[N-]Cl",
-    "geneontology:hasDbXref": [
-        "Beilstein:3599375",
-        "CAS:127-65-1",
-        "KEGG:D02445",
-        "PMID:10513008",
-        "PMID:11601449",
-        "PMID:24195278",
-        "PMID:24213014",
-        "PMID:2758361",
-        "Reaxys:3599375",
-        "Wikipedia:Chloramine_T"
-    ],
-    "geneontology:hasId": "53767",
-    "geneontology:hasSynonym": [
+    "skos:altLabel": [
         "(N-Chloro-p-toluenesulfonamido)sodium",
         "Acti-chlore",
         "Chloralone",
@@ -60,25 +59,11 @@
         "Tosylchloramide sodium",
         "Tosylchloramidum natricum"
     ],
-    "geneontology:inSubset": {
-        "@id": "obo:chebi#3_STAR"
+    "skos:exactMatch": {
+        "@id": "obo:CHEBI_53767"
     },
-    "rdfs:label": "chloramine T",
-    "rdfs:subClassOf": [
-        {
-            "@id": "obo:CHEBI_38700"
-        },
-        {
-            "@id": "b891_genid-00f1db82e1ab437c844115a94dc63e635-bn53767t11f48219"
-        },
-        {
-            "@id": "b891_genid-00f1db82e1ab437c844115a94dc63e635-bn53767t11f50904"
-        },
-        {
-            "@id": "b891_genid-00f1db82e1ab437c844115a94dc63e635-bn53767t11f51076"
-        },
-        {
-            "@id": "b891_genid-00f1db82e1ab437c844115a94dc63e635-bn53767t10f53787"
-        }
-    ]
+    "skos:note": "An  organic sodium salt derivative of toluene-4-sulfonamide with a chloro substituent in place of an amino hydrogen.",
+    "skos:semanticRelation": {
+        "@id": "obo:CHEBI_38700"
+    }
 }

@@ -1,34 +1,35 @@
 {
     "@context": {
-        "chebi": "http://purl.obolibrary.org/obo/chebi/",
         "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
         "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-        "obo": "http://purl.obolibrary.org/obo/"
+        "obo": "http://purl.obolibrary.org/obo/",
+        "uniprot": "http://purl.uniprot.org/",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "concept": "https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/",
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "dbo": "http://dbpedia.org/ontology/",
+        "dbp": "http://dbpedia.org/property/",
+        "graph": {
+            "@id": "@graph"
+        }
     },
-    "@id": "obo:CHEBI_30251",
-    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "@id": "concept:FYOFOKCECDGJBF-UHFFFAOYSA-N",
+    "@type": "skos:Concept",
+    "dbo:formula": "C5FeO5",
+    "dbo:inchi": "InChI=1S/5CO.Fe/c5*1-2;",
+    "dbo:smiles": "[O]#C[Fe](C#[O])(C#[O])(C#[O])C#[O]",
+    "dbp:inchikey": "FYOFOKCECDGJBF-UHFFFAOYSA-N",
     "chebi:charge": "0",
-    "chebi:formula": "C5FeO5",
-    "chebi:inchi": "InChI=1S/5CO.Fe/c5*1-2;",
-    "chebi:inchikey": "FYOFOKCECDGJBF-UHFFFAOYSA-N",
-    "chebi:smiles": "[O]#C[Fe](C#[O])(C#[O])(C#[O])C#[O]",
-    "geneontology:hasDbXref": [
-        "CAS:13463-40-6",
-        "Gmelin:3567",
-        "Gmelin:3568",
-        "MolBase:49"
-    ],
-    "geneontology:hasId": "30251",
-    "geneontology:hasSynonym": [
+    "skos:altLabel": [
         "[Fe(CO)5]",
         "iron pentacarbonyl",
         "pentacarbonyliron(0)"
     ],
-    "geneontology:inSubset": {
-        "@id": "obo:chebi#3_STAR"
+    "skos:exactMatch": {
+        "@id": "obo:CHEBI_30251"
     },
-    "rdfs:label": "pentacarbonyliron",
-    "rdfs:subClassOf": [
+    "skos:semanticRelation": [
         {
             "@id": "obo:CHEBI_33892"
         },

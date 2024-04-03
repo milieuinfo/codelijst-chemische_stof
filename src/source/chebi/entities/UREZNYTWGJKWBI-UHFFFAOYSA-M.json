@@ -1,38 +1,31 @@
 {
     "@context": {
-        "chebi": "http://purl.obolibrary.org/obo/chebi/",
         "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
         "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-        "obo": "http://purl.obolibrary.org/obo/"
+        "obo": "http://purl.obolibrary.org/obo/",
+        "uniprot": "http://purl.uniprot.org/",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "concept": "https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/",
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "dbo": "http://dbpedia.org/ontology/",
+        "dbp": "http://dbpedia.org/property/",
+        "altLabel": {
+            "@id": "http://www.w3.org/2004/02/skos/core#altLabel",
+            "@language": "en"
+        },
+        "graph": {
+            "@id": "@graph"
+        }
     },
-    "@id": "obo:CHEBI_31264",
-    "@type": "http://www.w3.org/2002/07/owl#Class",
-    "obo:IAO_0000115": "A (synthetic) quaternary ammonium salt that is benzyldimethylamine in which the nitrogen is quaternised by a 2-{2-[p-(2,4,4-trimethylpentan-2-yl)phenoxy]ethoxy}ethyl group, with chloride as the counter-ion. An antiseptic and disinfectant, it is active against a broad spectrum of bacteria, fungi, moulds and viruses.",
+    "@id": "concept:UREZNYTWGJKWBI-UHFFFAOYSA-M",
+    "@type": "skos:Concept",
+    "dbo:formula": "C27H42ClNO2",
+    "dbo:inchi": "InChI=1S/C27H42NO2.ClH/c1-26(2,3)22-27(4,5)24-13-15-25(16-14-24)30-20-19-29-18-17-28(6,7)21-23-11-9-8-10-12-23;/h8-16H,17-22H2,1-7H3;1H/q+1;/p-1",
+    "dbo:smiles": "[Cl-].CC(C)(C)CC(C)(C)c1ccc(OCCOCC[N+](C)(C)Cc2ccccc2)cc1",
+    "dbp:inchikey": "UREZNYTWGJKWBI-UHFFFAOYSA-M",
     "chebi:charge": "0",
-    "chebi:formula": "C27H42ClNO2",
-    "chebi:inchi": "InChI=1S/C27H42NO2.ClH/c1-26(2,3)22-27(4,5)24-13-15-25(16-14-24)30-20-19-29-18-17-28(6,7)21-23-11-9-8-10-12-23;/h8-16H,17-22H2,1-7H3;1H/q+1;/p-1",
-    "chebi:inchikey": "UREZNYTWGJKWBI-UHFFFAOYSA-M",
-    "chebi:smiles": "[Cl-].CC(C)(C)CC(C)(C)c1ccc(OCCOCC[N+](C)(C)Cc2ccccc2)cc1",
-    "geneontology:hasDbXref": [
-        "CAS:121-54-0",
-        "KEGG:C12539",
-        "KEGG:D01140",
-        "Patent:US2115250",
-        "PMID:11453769",
-        "PMID:11606328",
-        "PMID:12595925",
-        "PMID:16750419",
-        "PMID:17867553",
-        "PMID:22828255",
-        "PMID:2310164",
-        "PMID:2735743",
-        "PMID:3416474",
-        "PMID:3995765",
-        "Wikipedia:3898548",
-        "Wikipedia:Benzethonium_chloride"
-    ],
-    "geneontology:hasId": "31264",
-    "geneontology:hasSynonym": [
+    "skos:altLabel": [
         "{2-[2-(4-diisobutylphenoxy)ethoxy]ethyl}dimethylbenzylammonium chloride",
         "Anti-germ 77",
         "Antiseptol",
@@ -70,11 +63,11 @@
         "Solamin",
         "Solamine"
     ],
-    "geneontology:inSubset": {
-        "@id": "obo:chebi#3_STAR"
+    "skos:exactMatch": {
+        "@id": "obo:CHEBI_31264"
     },
-    "rdfs:label": "benzethonium chloride",
-    "rdfs:subClassOf": [
+    "skos:note": "A (synthetic) quaternary ammonium salt that is benzyldimethylamine in which the nitrogen is quaternised by a 2-{2-[p-(2,4,4-trimethylpentan-2-yl)phenoxy]ethoxy}ethyl group, with chloride as the counter-ion. An antiseptic and disinfectant, it is active against a broad spectrum of bacteria, fungi, moulds and viruses.",
+    "skos:semanticRelation": [
         {
             "@id": "obo:CHEBI_35618"
         },
@@ -83,21 +76,6 @@
         },
         {
             "@id": "obo:CHEBI_23114"
-        },
-        {
-            "@id": "b838_genid-00f1db82e1ab437c844115a94dc63e635-bn31264t11f22587"
-        },
-        {
-            "@id": "b838_genid-00f1db82e1ab437c844115a94dc63e635-bn31264t11f33282"
-        },
-        {
-            "@id": "b838_genid-00f1db82e1ab437c844115a94dc63e635-bn31264t11f35718"
-        },
-        {
-            "@id": "b838_genid-00f1db82e1ab437c844115a94dc63e635-bn31264t11f48218"
-        },
-        {
-            "@id": "b838_genid-00f1db82e1ab437c844115a94dc63e635-bn31264t11f48219"
         }
     ]
 }

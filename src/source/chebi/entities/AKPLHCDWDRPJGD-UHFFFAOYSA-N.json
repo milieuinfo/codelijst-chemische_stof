@@ -1,38 +1,27 @@
 {
     "@context": {
-        "chebi": "http://purl.obolibrary.org/obo/chebi/",
         "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
         "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-        "obo": "http://purl.obolibrary.org/obo/"
+        "obo": "http://purl.obolibrary.org/obo/",
+        "uniprot": "http://purl.uniprot.org/",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "concept": "https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/",
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "dbo": "http://dbpedia.org/ontology/",
+        "dbp": "http://dbpedia.org/property/",
+        "graph": {
+            "@id": "@graph"
+        }
     },
-    "@id": "obo:CHEBI_111762",
-    "@type": "http://www.w3.org/2002/07/owl#Class",
-    "obo:IAO_0000115": "A 1,4-benzodiazepinone having phenyl and chloro substituents at positions 5 and 7 respectively; it has anticonvulsant, anxiolytic, muscle relaxant and sedative properties but is used primarily in the treatment of anxiety.",
+    "@id": "concept:AKPLHCDWDRPJGD-UHFFFAOYSA-N",
+    "@type": "skos:Concept",
+    "dbo:formula": "C15H11ClN2O",
+    "dbo:inchi": "InChI=1S/C15H11ClN2O/c16-11-6-7-13-12(8-11)15(17-9-14(19)18-13)10-4-2-1-3-5-10/h1-8H,9H2,(H,18,19)",
+    "dbo:smiles": "Clc1ccc2NC(=O)CN=C(c3ccccc3)c2c1",
+    "dbp:inchikey": "AKPLHCDWDRPJGD-UHFFFAOYSA-N",
     "chebi:charge": "0",
-    "chebi:formula": "C15H11ClN2O",
-    "chebi:inchi": "InChI=1S/C15H11ClN2O/c16-11-6-7-13-12(8-11)15(17-9-14(19)18-13)10-4-2-1-3-5-10/h1-8H,9H2,(H,18,19)",
-    "chebi:inchikey": "AKPLHCDWDRPJGD-UHFFFAOYSA-N",
-    "chebi:smiles": "Clc1ccc2NC(=O)CN=C(c3ccccc3)c2c1",
-    "geneontology:hasDbXref": [
-        "Patent:DE1136709",
-        "Patent:US3051701",
-        "CAS:1088-11-5",
-        "Drug_Central:816",
-        "KEGG:C07486",
-        "KEGG:D08283",
-        "Patent:BE620020",
-        "Patent:US3202699",
-        "PMID:16622",
-        "PMID:19604",
-        "PMID:360230",
-        "PMID:364005",
-        "PMID:367407",
-        "PMID:4953859",
-        "Reaxys:751823",
-        "Wikipedia:Desmethyldiazepam"
-    ],
-    "geneontology:hasId": "111762",
-    "geneontology:hasSynonym": [
+    "skos:altLabel": [
         "1-Demethyldiazepam",
         "7-Chloro-1,3-dihydro-5-phenyl-(2H)-1,4-benzodiazepin-2-one",
         "7-Chloro-1,3-dihydro-5-phenyl-2H-1,4-benzodiazepin-2-one",
@@ -49,31 +38,16 @@
         "Nordiazepam",
         "Norprazepam"
     ],
-    "geneontology:inSubset": {
-        "@id": "obo:chebi#3_STAR"
+    "skos:exactMatch": {
+        "@id": "obo:CHEBI_111762"
     },
-    "rdfs:label": "nordazepam",
-    "rdfs:subClassOf": [
+    "skos:note": "A 1,4-benzodiazepinone having phenyl and chloro substituents at positions 5 and 7 respectively; it has anticonvulsant, anxiolytic, muscle relaxant and sedative properties but is used primarily in the treatment of anxiety.",
+    "skos:semanticRelation": [
         {
             "@id": "obo:CHEBI_36683"
         },
         {
             "@id": "obo:CHEBI_35500"
-        },
-        {
-            "@id": "b58_genid-00f1db82e1ab437c844115a94dc63e635-bn111762t11f35474"
-        },
-        {
-            "@id": "b58_genid-00f1db82e1ab437c844115a94dc63e635-bn111762t11f35623"
-        },
-        {
-            "@id": "b58_genid-00f1db82e1ab437c844115a94dc63e635-bn111762t11f35717"
-        },
-        {
-            "@id": "b58_genid-00f1db82e1ab437c844115a94dc63e635-bn111762t11f50268"
-        },
-        {
-            "@id": "b58_genid-00f1db82e1ab437c844115a94dc63e635-bn111762t11f77746"
         }
     ]
 }

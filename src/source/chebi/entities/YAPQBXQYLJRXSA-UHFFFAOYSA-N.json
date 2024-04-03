@@ -1,52 +1,31 @@
 {
     "@context": {
-        "chebi": "http://purl.obolibrary.org/obo/chebi/",
         "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
         "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-        "obo": "http://purl.obolibrary.org/obo/"
+        "obo": "http://purl.obolibrary.org/obo/",
+        "uniprot": "http://purl.uniprot.org/",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "concept": "https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/",
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "dbo": "http://dbpedia.org/ontology/",
+        "dbp": "http://dbpedia.org/property/",
+        "altLabel": {
+            "@id": "http://www.w3.org/2004/02/skos/core#altLabel",
+            "@language": "en"
+        },
+        "graph": {
+            "@id": "@graph"
+        }
     },
-    "@id": "obo:CHEBI_28946",
-    "@type": "http://www.w3.org/2002/07/owl#Class",
-    "obo:IAO_0000115": "A dimethylxanthine having the two methyl groups located at positions 3 and 7. A purine alkaloid derived from the cacao plant, it is found in chocolate, as well as in a number of other foods, and is a vasodilator, diuretic and heart stimulator.",
+    "@id": "concept:YAPQBXQYLJRXSA-UHFFFAOYSA-N",
+    "@type": "skos:Concept",
+    "dbo:formula": "C7H8N4O2",
+    "dbo:inchi": "InChI=1S/C7H8N4O2/c1-10-3-8-5-4(10)6(12)9-7(13)11(5)2/h3H,1-2H3,(H,9,12,13)",
+    "dbo:smiles": "Cn1cnc2n(C)c(=O)[nH]c(=O)c12",
+    "dbp:inchikey": "YAPQBXQYLJRXSA-UHFFFAOYSA-N",
     "chebi:charge": "0",
-    "chebi:formula": "C7H8N4O2",
-    "chebi:inchi": "InChI=1S/C7H8N4O2/c1-10-3-8-5-4(10)6(12)9-7(13)11(5)2/h3H,1-2H3,(H,9,12,13)",
-    "chebi:inchikey": "YAPQBXQYLJRXSA-UHFFFAOYSA-N",
-    "chebi:smiles": "Cn1cnc2n(C)c(=O)[nH]c(=O)c12",
-    "http://purl.uniprot.org/core/name": "theobromine",
-    "geneontology:hasDbXref": [
-        "PMID:22770225",
-        "PMID:28166217",
-        "Beilstein:16464",
-        "CAS:83-67-0",
-        "Drug_Central:2618",
-        "DrugBank:DB01412",
-        "Gmelin:143367",
-        "HMDB:HMDB0002825",
-        "KEGG:C07480",
-        "KNApSAcK:C00001509",
-        "LINCS:LSM-5483",
-        "MetaCyc:3-7-DIMETHYLXANTHINE",
-        "PDBeChem:37T",
-        "PMID:10456233",
-        "PMID:11600064",
-        "PMID:16979558",
-        "PMID:18632476",
-        "PMID:18964243",
-        "PMID:19018565",
-        "PMID:21839757",
-        "PMID:21871761",
-        "PMID:22751681",
-        "PMID:22824731",
-        "PMID:22866022",
-        "PMID:23094271",
-        "PMID:23236361",
-        "PMID:9468592",
-        "Reaxys:16464",
-        "Wikipedia:Theobromine"
-    ],
-    "geneontology:hasId": "28946",
-    "geneontology:hasSynonym": [
+    "skos:altLabel": [
         "theobromine",
         "3,7-dihydro-3,7-dimethyl-1H-purine-2,6-dione",
         "3,7-dimethyl-3,7-dihydro-1H-purine-2,6-dione",
@@ -57,34 +36,11 @@
         "Theobromine",
         "THEOBROMINE"
     ],
-    "geneontology:inSubset": {
-        "@id": "obo:chebi#3_STAR"
+    "skos:exactMatch": {
+        "@id": "obo:CHEBI_28946"
     },
-    "rdfs:label": "theobromine",
-    "rdfs:subClassOf": [
-        {
-            "@id": "obo:CHEBI_23818"
-        },
-        {
-            "@id": "b295_genid-00f1db82e1ab437c844115a94dc63e635-bn28946t11f35523"
-        },
-        {
-            "@id": "b295_genid-00f1db82e1ab437c844115a94dc63e635-bn28946t11f35620"
-        },
-        {
-            "@id": "b295_genid-00f1db82e1ab437c844115a94dc63e635-bn28946t11f71232"
-        },
-        {
-            "@id": "b295_genid-00f1db82e1ab437c844115a94dc63e635-bn28946t11f75771"
-        },
-        {
-            "@id": "b295_genid-00f1db82e1ab437c844115a94dc63e635-bn28946t11f76924"
-        },
-        {
-            "@id": "b295_genid-00f1db82e1ab437c844115a94dc63e635-bn28946t11f78295"
-        },
-        {
-            "@id": "b295_genid-00f1db82e1ab437c844115a94dc63e635-bn28946t11f85234"
-        }
-    ]
+    "skos:note": "A dimethylxanthine having the two methyl groups located at positions 3 and 7. A purine alkaloid derived from the cacao plant, it is found in chocolate, as well as in a number of other foods, and is a vasodilator, diuretic and heart stimulator.",
+    "skos:semanticRelation": {
+        "@id": "obo:CHEBI_23818"
+    }
 }

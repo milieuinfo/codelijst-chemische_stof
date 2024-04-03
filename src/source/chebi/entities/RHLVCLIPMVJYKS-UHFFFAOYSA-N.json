@@ -1,59 +1,31 @@
 {
     "@context": {
-        "chebi": "http://purl.obolibrary.org/obo/chebi/",
         "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
         "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-        "obo": "http://purl.obolibrary.org/obo/"
+        "obo": "http://purl.obolibrary.org/obo/",
+        "uniprot": "http://purl.uniprot.org/",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "concept": "https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/",
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "dbo": "http://dbpedia.org/ontology/",
+        "dbp": "http://dbpedia.org/property/",
+        "altLabel": {
+            "@id": "http://www.w3.org/2004/02/skos/core#altLabel",
+            "@language": "en"
+        },
+        "graph": {
+            "@id": "@graph"
+        }
     },
-    "@id": "obo:CHEBI_80946",
-    "@type": "http://www.w3.org/2002/07/owl#Class",
-    "obo:IAO_0000115": "A dialkyl ketone that is octane in which the two methylene protons at position 3 have been replaced by an oxo group.",
+    "@id": "concept:RHLVCLIPMVJYKS-UHFFFAOYSA-N",
+    "@type": "skos:Concept",
+    "dbo:formula": "C8H16O",
+    "dbo:inchi": "InChI=1S/C8H16O/c1-3-5-6-7-8(9)4-2/h3-7H2,1-2H3",
+    "dbo:smiles": "CCC(CCCCC)=O",
+    "dbp:inchikey": "RHLVCLIPMVJYKS-UHFFFAOYSA-N",
     "chebi:charge": "0",
-    "chebi:formula": "C8H16O",
-    "chebi:inchi": "InChI=1S/C8H16O/c1-3-5-6-7-8(9)4-2/h3-7H2,1-2H3",
-    "chebi:inchikey": "RHLVCLIPMVJYKS-UHFFFAOYSA-N",
-    "chebi:smiles": "CCC(CCCCC)=O",
-    "http://purl.uniprot.org/core/name": "octan-3-one",
-    "geneontology:hasDbXref": [
-        "PMID:24421258",
-        "PMID:21970810",
-        "PMID:24634568",
-        "PMID:25524148",
-        "AGR:IND20372171",
-        "AGR:IND44562988",
-        "AGR:IND92053572",
-        "CAS:106-68-3",
-        "FooDB:FDB005050",
-        "HMDB:HMDB0031295",
-        "KEGG:C17145",
-        "KNApSAcK:C00034765",
-        "LIPID_MAPS_instance:LMFA12000055",
-        "PMID:1139896",
-        "PMID:13633437",
-        "PMID:25103776",
-        "PMID:25174554",
-        "PMID:25767084",
-        "PMID:26017013",
-        "PMID:26372442",
-        "PMID:26563202",
-        "PMID:26567951",
-        "PMID:26593566",
-        "PMID:27593501",
-        "PMID:27748984",
-        "PMID:27829300",
-        "PMID:28074245",
-        "PMID:28232862",
-        "PMID:28490051",
-        "PMID:28717894",
-        "PMID:28901104",
-        "PMID:31238146",
-        "PMID:36652525",
-        "PMID:77899",
-        "Reaxys:1700021",
-        "Wikipedia:3-Octanone"
-    ],
-    "geneontology:hasId": "80946",
-    "geneontology:hasSynonym": [
+    "skos:altLabel": [
         "octan-3-one",
         "3-Oxooctane",
         "Amyl ethyl ketone",
@@ -64,37 +36,11 @@
         "Ethyl pentyl ketone",
         "n-Amyl ethyl ketone"
     ],
-    "geneontology:inSubset": {
-        "@id": "obo:chebi#3_STAR"
+    "skos:exactMatch": {
+        "@id": "obo:CHEBI_80946"
     },
-    "rdfs:label": "3-octanone",
-    "rdfs:subClassOf": [
-        {
-            "@id": "obo:CHEBI_18044"
-        },
-        {
-            "@id": "b439_genid-00f1db82e1ab437c844115a94dc63e635-bn80946t9f17590"
-        },
-        {
-            "@id": "b439_genid-00f1db82e1ab437c844115a94dc63e635-bn80946t11f22583"
-        },
-        {
-            "@id": "b439_genid-00f1db82e1ab437c844115a94dc63e635-bn80946t11f24850"
-        },
-        {
-            "@id": "b439_genid-00f1db82e1ab437c844115a94dc63e635-bn80946t11f27026"
-        },
-        {
-            "@id": "b439_genid-00f1db82e1ab437c844115a94dc63e635-bn80946t11f59163"
-        },
-        {
-            "@id": "b439_genid-00f1db82e1ab437c844115a94dc63e635-bn80946t11f76924"
-        },
-        {
-            "@id": "b439_genid-00f1db82e1ab437c844115a94dc63e635-bn80946t11f76946"
-        },
-        {
-            "@id": "b439_genid-00f1db82e1ab437c844115a94dc63e635-bn80946t11f84087"
-        }
-    ]
+    "skos:note": "A dialkyl ketone that is octane in which the two methylene protons at position 3 have been replaced by an oxo group.",
+    "skos:semanticRelation": {
+        "@id": "obo:CHEBI_18044"
+    }
 }

@@ -1,44 +1,27 @@
 {
     "@context": {
-        "chebi": "http://purl.obolibrary.org/obo/chebi/",
         "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
         "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-        "obo": "http://purl.obolibrary.org/obo/"
+        "obo": "http://purl.obolibrary.org/obo/",
+        "uniprot": "http://purl.uniprot.org/",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "concept": "https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/",
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "dbo": "http://dbpedia.org/ontology/",
+        "dbp": "http://dbpedia.org/property/",
+        "graph": {
+            "@id": "@graph"
+        }
     },
-    "@id": "obo:CHEBI_44884",
-    "@type": "http://www.w3.org/2002/07/owl#Class",
-    "obo:IAO_0000115": "A short-chain primary fatty alcohol that is pentane in which a hydrogen of one of the methyl groups is substituted by a hydroxy group. It has been isolated from Melicope ptelefolia.",
+    "@id": "concept:AMQJEAYHLZJPGS-UHFFFAOYSA-N",
+    "@type": "skos:Concept",
+    "dbo:formula": "C5H12O",
+    "dbo:inchi": "InChI=1S/C5H12O/c1-2-3-4-5-6/h6H,2-5H2,1H3",
+    "dbo:smiles": "CCCCCO",
+    "dbp:inchikey": "AMQJEAYHLZJPGS-UHFFFAOYSA-N",
     "chebi:charge": "0",
-    "chebi:formula": "C5H12O",
-    "chebi:inchi": "InChI=1S/C5H12O/c1-2-3-4-5-6/h6H,2-5H2,1H3",
-    "chebi:inchikey": "AMQJEAYHLZJPGS-UHFFFAOYSA-N",
-    "chebi:smiles": "CCCCCO",
-    "geneontology:hasDbXref": [
-        "PMID:17314143",
-        "PMID:24421258",
-        "PMID:21485271",
-        "AGR:IND608009856",
-        "Beilstein:1730975",
-        "CAS:71-41-0",
-        "Gmelin:25922",
-        "HMDB:HMDB0013036",
-        "KEGG:C16834",
-        "KNApSAcK:C00035784",
-        "MetaCyc:PENTANOL",
-        "PDBeChem:PE9",
-        "PMID:16348804",
-        "PMID:26839590",
-        "PMID:28900255",
-        "PMID:30821470",
-        "PMID:32053870",
-        "PMID:34233208",
-        "PMID:36266858",
-        "PMID:8033286",
-        "Reaxys:1730975",
-        "Wikipedia:1-Pentanol"
-    ],
-    "geneontology:hasId": "44884",
-    "geneontology:hasSynonym": [
+    "skos:altLabel": [
         "1-pentanol",
         "1-pentol",
         "1-pentyl alcohol",
@@ -58,19 +41,13 @@
         "Pentylalkohol",
         "primary amyl alcohol"
     ],
-    "geneontology:inSubset": {
-        "@id": "obo:chebi#3_STAR"
+    "skos:exactMatch": {
+        "@id": "obo:CHEBI_44884"
     },
-    "rdfs:label": "pentan-1-ol",
-    "rdfs:subClassOf": [
+    "skos:note": "A short-chain primary fatty alcohol that is pentane in which a hydrogen of one of the methyl groups is substituted by a hydroxy group. It has been isolated from Melicope ptelefolia.",
+    "skos:semanticRelation": [
         {
             "@id": "obo:CHEBI_157770"
-        },
-        {
-            "@id": "b67_genid-00f1db82e1ab437c844115a94dc63e635-bn44884t11f76924"
-        },
-        {
-            "@id": "b67_genid-00f1db82e1ab437c844115a94dc63e635-bn44884t11f77746"
         },
         {
             "@id": "obo:CHEBI_143597"

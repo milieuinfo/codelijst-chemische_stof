@@ -1,26 +1,31 @@
 {
     "@context": {
-        "chebi": "http://purl.obolibrary.org/obo/chebi/",
         "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
         "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-        "obo": "http://purl.obolibrary.org/obo/"
+        "obo": "http://purl.obolibrary.org/obo/",
+        "uniprot": "http://purl.uniprot.org/",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "concept": "https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/",
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "dbo": "http://dbpedia.org/ontology/",
+        "dbp": "http://dbpedia.org/property/",
+        "altLabel": {
+            "@id": "http://www.w3.org/2004/02/skos/core#altLabel",
+            "@language": "en"
+        },
+        "graph": {
+            "@id": "@graph"
+        }
     },
-    "@id": "obo:CHEBI_17359",
-    "@type": "http://www.w3.org/2002/07/owl#Class",
-    "obo:IAO_0000115": "A sulfur oxoanion that is the conjugate base of hydrogen sulfite (H2SO3).",
+    "@id": "concept:LSNNMFCWUKXFEE-UHFFFAOYSA-L",
+    "@type": "skos:Concept",
+    "dbo:formula": "O3S",
+    "dbo:inchi": "InChI=1S/H2O3S/c1-4(2)3/h(H2,1,2,3)/p-2",
+    "dbo:smiles": "[O-]S([O-])=O",
+    "dbp:inchikey": "LSNNMFCWUKXFEE-UHFFFAOYSA-L",
     "chebi:charge": "-2",
-    "chebi:formula": "O3S",
-    "chebi:inchi": "InChI=1S/H2O3S/c1-4(2)3/h(H2,1,2,3)/p-2",
-    "chebi:inchikey": "LSNNMFCWUKXFEE-UHFFFAOYSA-L",
-    "chebi:smiles": "[O-]S([O-])=O",
-    "http://purl.uniprot.org/core/name": "sulfite",
-    "geneontology:hasDbXref": [
-        "PDBeChem:SO3",
-        "CAS:14265-45-3",
-        "Gmelin:1449"
-    ],
-    "geneontology:hasId": "17359",
-    "geneontology:hasSynonym": [
+    "skos:altLabel": [
         "[SO3](2-)",
         "SO3",
         "SO3(2-)",
@@ -30,11 +35,11 @@
         "trioxosulfate(2-)",
         "trioxosulfate(IV)"
     ],
-    "geneontology:inSubset": {
-        "@id": "obo:chebi#3_STAR"
+    "skos:exactMatch": {
+        "@id": "obo:CHEBI_17359"
     },
-    "rdfs:label": "sulfite",
-    "rdfs:subClassOf": [
+    "skos:note": "A sulfur oxoanion that is the conjugate base of hydrogen sulfite (H2SO3).",
+    "skos:semanticRelation": [
         {
             "@id": "obo:CHEBI_33482"
         },
@@ -43,9 +48,6 @@
         },
         {
             "@id": "obo:CHEBI_48154"
-        },
-        {
-            "@id": "b602_genid-00f1db82e1ab437c844115a94dc63e635-bn17359t5f17137"
         }
     ]
 }

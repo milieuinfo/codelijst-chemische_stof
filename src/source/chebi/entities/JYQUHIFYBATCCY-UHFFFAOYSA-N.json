@@ -1,24 +1,31 @@
 {
     "@context": {
-        "chebi": "http://purl.obolibrary.org/obo/chebi/",
         "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
         "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-        "obo": "http://purl.obolibrary.org/obo/"
+        "obo": "http://purl.obolibrary.org/obo/",
+        "uniprot": "http://purl.uniprot.org/",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "concept": "https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/",
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "dbo": "http://dbpedia.org/ontology/",
+        "dbp": "http://dbpedia.org/property/",
+        "altLabel": {
+            "@id": "http://www.w3.org/2004/02/skos/core#altLabel",
+            "@language": "en"
+        },
+        "graph": {
+            "@id": "@graph"
+        }
     },
-    "@id": "obo:CHEBI_8712",
-    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "@id": "concept:JYQUHIFYBATCCY-UHFFFAOYSA-N",
+    "@type": "skos:Concept",
+    "dbo:formula": "C12H15N2O3PS",
+    "dbo:inchi": "InChI=1S/C12H15N2O3PS/c1-3-15-18(19,16-4-2)17-12-9-13-10-7-5-6-8-11(10)14-12/h5-9H,3-4H2,1-2H3",
+    "dbo:smiles": "CCOP(=S)(OCC)Oc1cnc2ccccc2n1",
+    "dbp:inchikey": "JYQUHIFYBATCCY-UHFFFAOYSA-N",
     "chebi:charge": "0",
-    "chebi:formula": "C12H15N2O3PS",
-    "chebi:inchi": "InChI=1S/C12H15N2O3PS/c1-3-15-18(19,16-4-2)17-12-9-13-10-7-5-6-8-11(10)14-12/h5-9H,3-4H2,1-2H3",
-    "chebi:inchikey": "JYQUHIFYBATCCY-UHFFFAOYSA-N",
-    "chebi:smiles": "CCOP(=S)(OCC)Oc1cnc2ccccc2n1",
-    "geneontology:hasDbXref": [
-        "CAS:13593-03-8",
-        "KEGG:C11030",
-        "PPDB:576"
-    ],
-    "geneontology:hasId": "8712",
-    "geneontology:hasSynonym": [
+    "skos:altLabel": [
         "Bayrusil",
         "Diethyl O-(2-quinoxalyl) phosphorothioate",
         "Diethyl O-(quinoxalin-2-yl) thiophosphate",
@@ -27,28 +34,15 @@
         "Phosphorothioic acid, O,O-diethyl O-(2-quinoxalinyl) ester",
         "Quinalphos"
     ],
-    "geneontology:inSubset": {
-        "@id": "obo:chebi#3_STAR"
+    "skos:exactMatch": {
+        "@id": "obo:CHEBI_8712"
     },
-    "rdfs:label": "quinalphos",
-    "rdfs:subClassOf": [
+    "skos:semanticRelation": [
         {
             "@id": "obo:CHEBI_37512"
         },
         {
             "@id": "obo:CHEBI_25715"
-        },
-        {
-            "@id": "b350_genid-00f1db82e1ab437c844115a94dc63e635-bn8712t11f22153"
-        },
-        {
-            "@id": "b350_genid-00f1db82e1ab437c844115a94dc63e635-bn8712t11f33286"
-        },
-        {
-            "@id": "b350_genid-00f1db82e1ab437c844115a94dc63e635-bn8712t11f38462"
-        },
-        {
-            "@id": "b350_genid-00f1db82e1ab437c844115a94dc63e635-bn8712t8f38890"
         }
     ]
 }

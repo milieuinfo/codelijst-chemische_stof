@@ -1,54 +1,31 @@
 {
     "@context": {
-        "chebi": "http://purl.obolibrary.org/obo/chebi/",
         "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
         "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-        "obo": "http://purl.obolibrary.org/obo/"
+        "obo": "http://purl.obolibrary.org/obo/",
+        "uniprot": "http://purl.uniprot.org/",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "concept": "https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/",
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "dbo": "http://dbpedia.org/ontology/",
+        "dbp": "http://dbpedia.org/property/",
+        "altLabel": {
+            "@id": "http://www.w3.org/2004/02/skos/core#altLabel",
+            "@language": "en"
+        },
+        "graph": {
+            "@id": "@graph"
+        }
     },
-    "@id": "obo:CHEBI_35895",
-    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "@id": "concept:OBSZRRSYVTXPNB-UHFFFAOYSA-N",
+    "@type": "skos:Concept",
+    "dbo:formula": "P4",
+    "dbo:inchi": "InChI=1S/P4/c1-2-3(1)4(1)2",
+    "dbo:smiles": "p12p3p1p23",
+    "dbp:inchikey": "OBSZRRSYVTXPNB-UHFFFAOYSA-N",
     "chebi:charge": "0",
-    "chebi:formula": "P4",
-    "chebi:inchi": "InChI=1S/P4/c1-2-3(1)4(1)2",
-    "chebi:inchikey": "OBSZRRSYVTXPNB-UHFFFAOYSA-N",
-    "chebi:smiles": "p12p3p1p23",
-    "geneontology:hasDbXref": [
-        "CAS:12185-10-3",
-        "Chemspider:109894",
-        "Gmelin:1856",
-        "Gmelin:25827",
-        "HMDB:HMDB0258930",
-        "PMID:11855718",
-        "PMID:12836650",
-        "PMID:15507746",
-        "PMID:16284670",
-        "PMID:16673028",
-        "PMID:18568890",
-        "PMID:19166369",
-        "PMID:19937871",
-        "PMID:20704355",
-        "PMID:21894967",
-        "PMID:22175455",
-        "PMID:22847949",
-        "PMID:25250790",
-        "PMID:26750104",
-        "PMID:27900815",
-        "PMID:28520181",
-        "PMID:28638766",
-        "PMID:28861275",
-        "PMID:29712122",
-        "PMID:30883971",
-        "PMID:32039071",
-        "PMID:32607432",
-        "PMID:33135828",
-        "PMID:33155395",
-        "PMID:33265012",
-        "PMID:33607587",
-        "PMID:34110267",
-        "Wikipedia:Allotropes_of_phosphorus#White_phosphorus"
-    ],
-    "geneontology:hasId": "35895",
-    "geneontology:hasSynonym": [
+    "skos:altLabel": [
         "P4",
         "phosphorus",
         "tetraatomic phosphorus",
@@ -72,11 +49,10 @@
         "white phosphorus",
         "yellow phosphorus"
     ],
-    "geneontology:inSubset": {
-        "@id": "obo:chebi#3_STAR"
+    "skos:exactMatch": {
+        "@id": "obo:CHEBI_35895"
     },
-    "rdfs:label": "tetraphosphorus",
-    "rdfs:subClassOf": {
+    "skos:semanticRelation": {
         "@id": "obo:CHEBI_35894"
     }
 }

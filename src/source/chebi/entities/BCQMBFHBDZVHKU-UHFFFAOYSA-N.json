@@ -1,59 +1,43 @@
 {
     "@context": {
-        "chebi": "http://purl.obolibrary.org/obo/chebi/",
         "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
         "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-        "obo": "http://purl.obolibrary.org/obo/"
+        "obo": "http://purl.obolibrary.org/obo/",
+        "uniprot": "http://purl.uniprot.org/",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "concept": "https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/",
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "dbo": "http://dbpedia.org/ontology/",
+        "dbp": "http://dbpedia.org/property/",
+        "graph": {
+            "@id": "@graph"
+        }
     },
-    "@id": "obo:CHEBI_81947",
-    "@type": "http://www.w3.org/2002/07/owl#Class",
-    "obo:IAO_0000115": "A diamino-1,3,5-triazine that is N-tert-butyl-N'-ethyl-1,3,5-triazine-2,4-diamine substituted by a methoxy group at position 6. It is an agrochemical used as a herbicide.",
+    "@id": "concept:BCQMBFHBDZVHKU-UHFFFAOYSA-N",
+    "@type": "skos:Concept",
+    "dbo:formula": "C10H19N5O",
+    "dbo:inchi": "InChI=1S/C10H19N5O/c1-6-11-7-12-8(15-10(2,3)4)14-9(13-7)16-5/h6H2,1-5H3,(H2,11,12,13,14,15)",
+    "dbo:smiles": "CCNc1nc(NC(C)(C)C)nc(OC)n1",
+    "dbp:inchikey": "BCQMBFHBDZVHKU-UHFFFAOYSA-N",
     "chebi:charge": "0",
-    "chebi:formula": "C10H19N5O",
-    "chebi:inchi": "InChI=1S/C10H19N5O/c1-6-11-7-12-8(15-10(2,3)4)14-9(13-7)16-5/h6H2,1-5H3,(H2,11,12,13,14,15)",
-    "chebi:inchikey": "BCQMBFHBDZVHKU-UHFFFAOYSA-N",
-    "chebi:smiles": "CCNc1nc(NC(C)(C)C)nc(OC)n1",
-    "geneontology:hasDbXref": [
-        "CAS:33693-04-8",
-        "KEGG:C18768",
-        "Patent:EA003143",
-        "Pesticides:terbumeton",
-        "PMID:16674993",
-        "PMID:24607694",
-        "PMID:25365583",
-        "PPDB:622",
-        "Reaxys:520400"
-    ],
-    "geneontology:hasId": "81947",
-    "geneontology:hasSynonym": [
+    "skos:altLabel": [
         "2-(tert-butylamino)-4-(ethylamino)-6-methoxy-s--triazine",
         "N-(1,1-dimethylethyl)-N'-ethyl-6-methoxy-1,3,5-triazine-2,4-diamine",
         "N(2)-tert-butyl-N(4)-ethyl-6-methoxy-1,3,5-triazine-2,4-diamine",
         "N-tert-butyl-N'-ethyl-6-methoxy-1,3,5-triazine-2,4-diamine",
         "terbuthylon"
     ],
-    "geneontology:inSubset": {
-        "@id": "obo:chebi#3_STAR"
+    "skos:exactMatch": {
+        "@id": "obo:CHEBI_81947"
     },
-    "rdfs:label": "terbumeton",
-    "rdfs:subClassOf": [
+    "skos:note": "A diamino-1,3,5-triazine that is N-tert-butyl-N'-ethyl-1,3,5-triazine-2,4-diamine substituted by a methoxy group at position 6. It is an agrochemical used as a herbicide.",
+    "skos:semanticRelation": [
         {
             "@id": "obo:CHEBI_38177"
         },
         {
             "@id": "obo:CHEBI_38170"
-        },
-        {
-            "@id": "b150_genid-00f1db82e1ab437c844115a94dc63e635-bn81947t11f24527"
-        },
-        {
-            "@id": "b150_genid-00f1db82e1ab437c844115a94dc63e635-bn81947t11f33286"
-        },
-        {
-            "@id": "b150_genid-00f1db82e1ab437c844115a94dc63e635-bn81947t11f35703"
-        },
-        {
-            "@id": "b150_genid-00f1db82e1ab437c844115a94dc63e635-bn81947t11f78298"
         }
     ]
 }

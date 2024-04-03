@@ -1,28 +1,31 @@
 {
     "@context": {
-        "chebi": "http://purl.obolibrary.org/obo/chebi/",
         "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
         "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-        "obo": "http://purl.obolibrary.org/obo/"
+        "obo": "http://purl.obolibrary.org/obo/",
+        "uniprot": "http://purl.uniprot.org/",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "concept": "https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/",
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "dbo": "http://dbpedia.org/ontology/",
+        "dbp": "http://dbpedia.org/property/",
+        "altLabel": {
+            "@id": "http://www.w3.org/2004/02/skos/core#altLabel",
+            "@language": "en"
+        },
+        "graph": {
+            "@id": "@graph"
+        }
     },
-    "@id": "obo:CHEBI_77320",
-    "@type": "http://www.w3.org/2002/07/owl#Class",
-    "obo:IAO_0000115": "A C-nitro compound that is m-xylene bearing three nitro substituents at positions 2, 4 and 6 as well as a tert-butyl group at position 5.",
+    "@id": "concept:XMWRWTSZNLOZFN-UHFFFAOYSA-N",
+    "@type": "skos:Concept",
+    "dbo:formula": "C12H15N3O6",
+    "dbo:inchi": "InChI=1S/C12H15N3O6/c1-6-9(13(16)17)7(2)11(15(20)21)8(12(3,4)5)10(6)14(18)19/h1-5H3",
+    "dbo:smiles": "Cc1c(c(C)c(c(c1[N+]([O-])=O)C(C)(C)C)[N+]([O-])=O)[N+]([O-])=O",
+    "dbp:inchikey": "XMWRWTSZNLOZFN-UHFFFAOYSA-N",
     "chebi:charge": "0",
-    "chebi:formula": "C12H15N3O6",
-    "chebi:inchi": "InChI=1S/C12H15N3O6/c1-6-9(13(16)17)7(2)11(15(20)21)8(12(3,4)5)10(6)14(18)19/h1-5H3",
-    "chebi:inchikey": "XMWRWTSZNLOZFN-UHFFFAOYSA-N",
-    "chebi:smiles": "Cc1c(c(C)c(c(c1[N+]([O-])=O)C(C)(C)C)[N+]([O-])=O)[N+]([O-])=O",
-    "geneontology:hasDbXref": [
-        "CAS:81-15-2",
-        "KEGG:C19462",
-        "PMID:23451522",
-        "PMID:23614546",
-        "Reaxys:2015910",
-        "Wikipedia:Musk_xylene"
-    ],
-    "geneontology:hasId": "77320",
-    "geneontology:hasSynonym": [
+    "skos:altLabel": [
         "1-(1,1-Dimethylethyl)-3,5-dimethyl-2,4,6-trinitrobenzene",
         "1-tert-butyl-3,5-dimethyl-2,4,6-trinitrobenzene",
         "2,4,6-Trinitro-1,3-dimethyl-5-tert-butylbenzene",
@@ -31,28 +34,11 @@
         "5-tert-Butyl-2,4,6-trinitroxylene",
         "Xylene musk"
     ],
-    "geneontology:inSubset": {
-        "@id": "obo:chebi#3_STAR"
+    "skos:exactMatch": {
+        "@id": "obo:CHEBI_77320"
     },
-    "rdfs:label": "musk xylene",
-    "rdfs:subClassOf": [
-        {
-            "@id": "obo:CHEBI_35716"
-        },
-        {
-            "@id": "b223_genid-00f1db82e1ab437c844115a94dc63e635-bn77320t8f28488"
-        },
-        {
-            "@id": "b223_genid-00f1db82e1ab437c844115a94dc63e635-bn77320t8f48113"
-        },
-        {
-            "@id": "b223_genid-00f1db82e1ab437c844115a94dc63e635-bn77320t11f48318"
-        },
-        {
-            "@id": "b223_genid-00f1db82e1ab437c844115a94dc63e635-bn77320t11f50903"
-        },
-        {
-            "@id": "b223_genid-00f1db82e1ab437c844115a94dc63e635-bn77320t11f63490"
-        }
-    ]
+    "skos:note": "A C-nitro compound that is m-xylene bearing three nitro substituents at positions 2, 4 and 6 as well as a tert-butyl group at position 5.",
+    "skos:semanticRelation": {
+        "@id": "obo:CHEBI_35716"
+    }
 }

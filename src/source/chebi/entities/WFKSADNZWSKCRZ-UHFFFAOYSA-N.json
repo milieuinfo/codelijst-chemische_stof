@@ -1,28 +1,21 @@
 {
     "@context": {
-        "chebi": "http://purl.obolibrary.org/obo/chebi/",
         "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
         "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-        "obo": "http://purl.obolibrary.org/obo/"
-    },
-    "@id": "obo:CHEBI_82178",
-    "@type": "http://www.w3.org/2002/07/owl#Class",
-    "chebi:charge": "0",
-    "chebi:formula": "C16H22ClNO3",
-    "chebi:inchi": "InChI=1S/C16H22ClNO3/c1-4-12-8-7-9-13(5-2)16(12)18(14(19)10-17)11-15(20)21-6-3/h7-9H,4-6,10-11H2,1-3H3",
-    "chebi:inchikey": "WFKSADNZWSKCRZ-UHFFFAOYSA-N",
-    "chebi:smiles": "CCOC(=O)CN(C(=O)CCl)c1c(CC)cccc1CC",
-    "geneontology:hasDbXref": [
-        "CAS:38727-55-8",
-        "KEGG:C19051",
-        "PPDB:2132"
-    ],
-    "geneontology:hasId": "82178",
-    "geneontology:inSubset": {
-        "@id": "obo:chebi#2_STAR"
-    },
-    "rdfs:label": "Diethatyl-ethyl",
-    "rdfs:subClassOf": {
-        "@id": "obo:CHEBI_50996"
+        "obo": "http://purl.obolibrary.org/obo/",
+        "uniprot": "http://purl.uniprot.org/",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "concept": "https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/",
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "dbo": "http://dbpedia.org/ontology/",
+        "dbp": "http://dbpedia.org/property/",
+        "altLabel": {
+            "@id": "http://www.w3.org/2004/02/skos/core#altLabel",
+            "@language": "en"
+        },
+        "graph": {
+            "@id": "@graph"
+        }
     }
 }

@@ -1,35 +1,31 @@
 {
     "@context": {
-        "chebi": "http://purl.obolibrary.org/obo/chebi/",
         "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
         "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-        "obo": "http://purl.obolibrary.org/obo/"
+        "obo": "http://purl.obolibrary.org/obo/",
+        "uniprot": "http://purl.uniprot.org/",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "concept": "https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/",
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "dbo": "http://dbpedia.org/ontology/",
+        "dbp": "http://dbpedia.org/property/",
+        "altLabel": {
+            "@id": "http://www.w3.org/2004/02/skos/core#altLabel",
+            "@language": "en"
+        },
+        "graph": {
+            "@id": "@graph"
+        }
     },
-    "@id": "obo:CHEBI_81755",
-    "@type": "http://www.w3.org/2002/07/owl#Class",
-    "obo:IAO_0000115": "A polymeric complex of zinc with the propylene 1,2-bis(dithiocarbamate) anionic ligand. A fungicide, it is used to control a wide range of fungal diseases, including downy mildew, brown rot, black rot, red fire, leaf spot, and blight in crops such as grapes, tomatoes, potatoes, berries, citrus, rice and tea.",
+    "@id": "concept:KKMLIVYBGSAJPM-UHFFFAOYSA-L",
+    "@type": "skos:Concept",
+    "dbo:formula": "C5H8N2S4Zn",
+    "dbo:inchi": "InChI=1S/C5H10N2S4.Zn/c1-3(7-5(10)11)2-6-4(8)9;/h3H,2H2,1H3,(H2,6,8,9)(H2,7,10,11);/q;+2/p-2",
+    "dbo:smiles": "[Zn++].CC(CNC([S-])=S)NC([S-])=S",
+    "dbp:inchikey": "KKMLIVYBGSAJPM-UHFFFAOYSA-L",
     "chebi:charge": "0",
-    "chebi:formula": "C5H8N2S4Zn",
-    "chebi:inchi": "InChI=1S/C5H10N2S4.Zn/c1-3(7-5(10)11)2-6-4(8)9;/h3H,2H2,1H3,(H2,6,8,9)(H2,7,10,11);/q;+2/p-2",
-    "chebi:inchikey": "KKMLIVYBGSAJPM-UHFFFAOYSA-L",
-    "chebi:smiles": "[Zn++].CC(CNC([S-])=S)NC([S-])=S",
-    "geneontology:hasDbXref": [
-        "CAS:12071-83-9",
-        "KEGG:C18450",
-        "Patent:BE611960",
-        "Patent:BE628114",
-        "Patent:EP2421371",
-        "Patent:IT611046",
-        "Patent:US2011269832",
-        "Pesticides:propineb",
-        "PMID:18822360",
-        "PMID:19911290",
-        "PMID:21442209",
-        "PMID:982313",
-        "Reaxys:12976494"
-    ],
-    "geneontology:hasId": "81755",
-    "geneontology:hasSynonym": [
+    "skos:altLabel": [
         "Airone",
         "Antracol",
         "BAY 46131",
@@ -42,11 +38,11 @@
         "zinc 1,2-propylene bisdithiocarbamate",
         "zinc propylene bisdithiocarbamate"
     ],
-    "geneontology:inSubset": {
-        "@id": "obo:chebi#3_STAR"
+    "skos:exactMatch": {
+        "@id": "obo:CHEBI_81755"
     },
-    "rdfs:label": "propineb",
-    "rdfs:subClassOf": [
+    "skos:note": "A polymeric complex of zinc with the propylene 1,2-bis(dithiocarbamate) anionic ligand. A fungicide, it is used to control a wide range of fungal diseases, including downy mildew, brown rot, black rot, red fire, leaf spot, and blight in crops such as grapes, tomatoes, potatoes, berries, citrus, rice and tea.",
+    "skos:semanticRelation": [
         {
             "@id": "obo:CHEBI_33839"
         },
@@ -55,12 +51,6 @@
         },
         {
             "@id": "obo:CHEBI_36566"
-        },
-        {
-            "@id": "b415_genid-00f1db82e1ab437c844115a94dc63e635-bn81755t10f84295"
-        },
-        {
-            "@id": "b415_genid-00f1db82e1ab437c844115a94dc63e635-bn81755t11f86328"
         }
     ]
 }

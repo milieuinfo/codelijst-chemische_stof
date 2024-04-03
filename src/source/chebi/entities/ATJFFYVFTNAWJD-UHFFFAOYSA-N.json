@@ -1,73 +1,55 @@
 {
     "@context": {
-        "chebi": "http://purl.obolibrary.org/obo/chebi/",
         "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
         "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-        "obo": "http://purl.obolibrary.org/obo/"
+        "obo": "http://purl.obolibrary.org/obo/",
+        "uniprot": "http://purl.uniprot.org/",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "concept": "https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/",
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "dbo": "http://dbpedia.org/ontology/",
+        "dbp": "http://dbpedia.org/property/",
+        "graph": {
+            "@id": "@graph"
+        }
     },
-    "@graph": [
+    "@id": "concept:ATJFFYVFTNAWJD-UHFFFAOYSA-N",
+    "@type": "skos:Concept",
+    "dbo:formula": "Sn",
+    "dbo:inchi": "InChI=1S/Sn",
+    "dbo:smiles": "[Sn]",
+    "dbp:inchikey": "ATJFFYVFTNAWJD-UHFFFAOYSA-N",
+    "chebi:charge": "0",
+    "skos:altLabel": [
+        "Sn",
+        "50Sn",
+        "estano",
+        "etain",
+        "stannum",
+        "tin",
+        "Zinn",
+        "metallic tin",
+        "Sn(0)",
+        "Snn"
+    ],
+    "skos:exactMatch": [
         {
-            "@id": "obo:CHEBI_27007",
-            "@type": "http://www.w3.org/2002/07/owl#Class",
-            "chebi:charge": "0",
-            "chebi:formula": "Sn",
-            "chebi:inchi": "InChI=1S/Sn",
-            "chebi:inchikey": "ATJFFYVFTNAWJD-UHFFFAOYSA-N",
-            "chebi:smiles": "[Sn]",
-            "geneontology:hasDbXref": [
-                "CAS:7440-31-5",
-                "UM-BBD_compID:c0585",
-                "WebElements:Sn"
-            ],
-            "geneontology:hasId": "27007",
-            "geneontology:hasSynonym": [
-                "Sn",
-                "50Sn",
-                "estano",
-                "etain",
-                "stannum",
-                "tin",
-                "Zinn"
-            ],
-            "geneontology:inSubset": {
-                "@id": "obo:chebi#3_STAR"
-            },
-            "rdfs:label": "tin atom",
-            "rdfs:subClassOf": [
-                {
-                    "@id": "obo:CHEBI_33521"
-                },
-                {
-                    "@id": "obo:CHEBI_33306"
-                },
-                {
-                    "@id": "b94_genid-00f1db82e1ab437c844115a94dc63e635-bn27007t11f27027"
-                }
-            ]
+            "@id": "obo:CHEBI_27007"
         },
         {
-            "@id": "obo:CHEBI_32990",
-            "@type": "http://www.w3.org/2002/07/owl#Class",
-            "chebi:charge": "0",
-            "chebi:formula": "Sn",
-            "chebi:inchi": "InChI=1S/Sn",
-            "chebi:inchikey": "ATJFFYVFTNAWJD-UHFFFAOYSA-N",
-            "chebi:smiles": "[Sn]",
-            "geneontology:hasDbXref": "CAS:7440-31-5",
-            "geneontology:hasId": "32990",
-            "geneontology:hasSynonym": [
-                "tin",
-                "metallic tin",
-                "Sn(0)",
-                "Snn"
-            ],
-            "geneontology:inSubset": {
-                "@id": "obo:chebi#3_STAR"
-            },
-            "rdfs:label": "tin(0)",
-            "rdfs:subClassOf": {
-                "@id": "obo:CHEBI_37767"
-            }
+            "@id": "obo:CHEBI_32990"
+        }
+    ],
+    "skos:semanticRelation": [
+        {
+            "@id": "obo:CHEBI_33521"
+        },
+        {
+            "@id": "obo:CHEBI_33306"
+        },
+        {
+            "@id": "obo:CHEBI_37767"
         }
     ]
 }

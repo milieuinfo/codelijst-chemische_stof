@@ -1,55 +1,47 @@
 {
     "@context": {
-        "chebi": "http://purl.obolibrary.org/obo/chebi/",
         "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
         "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-        "obo": "http://purl.obolibrary.org/obo/"
+        "obo": "http://purl.obolibrary.org/obo/",
+        "uniprot": "http://purl.uniprot.org/",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "concept": "https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/",
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "dbo": "http://dbpedia.org/ontology/",
+        "dbp": "http://dbpedia.org/property/",
+        "altLabel": {
+            "@id": "http://www.w3.org/2004/02/skos/core#altLabel",
+            "@language": "en"
+        },
+        "graph": {
+            "@id": "@graph"
+        }
     },
-    "@id": "obo:CHEBI_45919",
-    "@type": "http://www.w3.org/2002/07/owl#Class",
-    "obo:IAO_0000115": "A C13 straight-chain saturated fatty acid.",
+    "@id": "concept:SZHOJFHSIKHZHA-UHFFFAOYSA-N",
+    "@type": "skos:Concept",
+    "dbo:formula": "C13H26O2",
+    "dbo:inchi": "InChI=1S/C13H26O2/c1-2-3-4-5-6-7-8-9-10-11-12-13(14)15/h2-12H2,1H3,(H,14,15)",
+    "dbo:smiles": "CCCCCCCCCCCCC(O)=O",
+    "dbp:inchikey": "SZHOJFHSIKHZHA-UHFFFAOYSA-N",
     "chebi:charge": "0",
-    "chebi:formula": "C13H26O2",
-    "chebi:inchi": "InChI=1S/C13H26O2/c1-2-3-4-5-6-7-8-9-10-11-12-13(14)15/h2-12H2,1H3,(H,14,15)",
-    "chebi:inchikey": "SZHOJFHSIKHZHA-UHFFFAOYSA-N",
-    "chebi:smiles": "CCCCCCCCCCCCC(O)=O",
-    "geneontology:hasDbXref": [
-        "Beilstein:508317",
-        "CAS:638-53-9",
-        "DrugBank:DB02448",
-        "KEGG:C17076",
-        "KNApSAcK:C00007422",
-        "LIPID_MAPS_instance:LMFA01010013",
-        "PDBeChem:TDA",
-        "Reaxys:508317"
-    ],
-    "geneontology:hasId": "45919",
-    "geneontology:hasSynonym": [
+    "skos:altLabel": [
         "C13:0",
         "n-tridecanoic acid",
         "N-TRIDECANOIC ACID",
         "n-tridecoic acid",
         "tridecylic acid"
     ],
-    "geneontology:inSubset": {
-        "@id": "obo:chebi#3_STAR"
+    "skos:exactMatch": {
+        "@id": "obo:CHEBI_45919"
     },
-    "rdfs:label": "tridecanoic acid",
-    "rdfs:subClassOf": [
+    "skos:note": "A C13 straight-chain saturated fatty acid.",
+    "skos:semanticRelation": [
         {
             "@id": "obo:CHEBI_15904"
         },
         {
             "@id": "obo:CHEBI_39418"
-        },
-        {
-            "@id": "b707_genid-00f1db82e1ab437c844115a94dc63e635-bn45919tmms73f125832"
-        },
-        {
-            "@id": "b707_genid-00f1db82e1ab437c844115a94dc63e635-bn45919t11f76924"
-        },
-        {
-            "@id": "b707_genid-00f1db82e1ab437c844115a94dc63e635-bn45919t4f125832"
         }
     ]
 }

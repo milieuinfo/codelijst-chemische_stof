@@ -1,27 +1,31 @@
 {
     "@context": {
-        "chebi": "http://purl.obolibrary.org/obo/chebi/",
         "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
         "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-        "obo": "http://purl.obolibrary.org/obo/"
+        "obo": "http://purl.obolibrary.org/obo/",
+        "uniprot": "http://purl.uniprot.org/",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "concept": "https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/",
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "dbo": "http://dbpedia.org/ontology/",
+        "dbp": "http://dbpedia.org/property/",
+        "altLabel": {
+            "@id": "http://www.w3.org/2004/02/skos/core#altLabel",
+            "@language": "en"
+        },
+        "graph": {
+            "@id": "@graph"
+        }
     },
-    "@id": "obo:CHEBI_32223",
-    "@type": "http://www.w3.org/2002/07/owl#Class",
-    "obo:IAO_0000115": "Estran-3-one with a double bond between positions 5 and 10, and bearing both an ethynyl group and a hydroxy group at position 17 (R-configuration). A synthetic steroid hormone drug which acts as an agonist at all five type I steroid hormone receptors, it is used in the prevention of postmenopausal osteoporosis and for treatment of endometriosis.",
+    "@id": "concept:WZDGZWOAQTVYBX-XOINTXKNSA-N",
+    "@type": "skos:Concept",
+    "dbo:formula": "C21H28O2",
+    "dbo:inchi": "InChI=1S/C21H28O2/c1-4-21(23)10-8-18-19-13(2)11-14-12-15(22)5-6-16(14)17(19)7-9-20(18,21)3/h1,13,17-19,23H,5-12H2,2-3H3/t13-,17-,18+,19-,20+,21+/m1/s1",
+    "dbo:smiles": "[H][C@]12CC[C@@]3(C)[C@@]([H])(CC[C@@]3(O)C#C)[C@]1([H])[C@H](C)CC1=C2CCC(=O)C1",
+    "dbp:inchikey": "WZDGZWOAQTVYBX-XOINTXKNSA-N",
     "chebi:charge": "0",
-    "chebi:formula": "C21H28O2",
-    "chebi:inchi": "InChI=1S/C21H28O2/c1-4-21(23)10-8-18-19-13(2)11-14-12-15(22)5-6-16(14)17(19)7-9-20(18,21)3/h1,13,17-19,23H,5-12H2,2-3H3/t13-,17-,18+,19-,20+,21+/m1/s1",
-    "chebi:inchikey": "WZDGZWOAQTVYBX-XOINTXKNSA-N",
-    "chebi:smiles": "[H][C@]12CC[C@@]3(C)[C@@]([H])(CC[C@@]3(O)C#C)[C@]1([H])[C@H](C)CC1=C2CCC(=O)C1",
-    "geneontology:hasDbXref": [
-        "CAS:5630-53-5",
-        "Drug_Central:2655",
-        "KEGG:D01639",
-        "Patent:US3340279",
-        "Patent:US3475465"
-    ],
-    "geneontology:hasId": "32223",
-    "geneontology:hasSynonym": [
+    "skos:altLabel": [
         "(17R)-17-hydroxy-7alpha-methyl-19-norpregn-5(10)-en-20-yn-3-one",
         "(7alpha,17alpha)-17-hydroxy-7-methyl-19-norpregn-5(10)-en-20-yn-3-one",
         "(7alpha,17beta)-17-ethynyl-17-hydroxy-7-methylestr-5(10)en-3-one",
@@ -30,22 +34,16 @@
         "tibolona",
         "tibolonum"
     ],
-    "geneontology:inSubset": {
-        "@id": "obo:chebi#3_STAR"
+    "skos:exactMatch": {
+        "@id": "obo:CHEBI_32223"
     },
-    "rdfs:label": "tibolone",
-    "rdfs:subClassOf": [
+    "skos:note": "Estran-3-one with a double bond between positions 5 and 10, and bearing both an ethynyl group and a hydroxy group at position 17 (R-configuration). A synthetic steroid hormone drug which acts as an agonist at all five type I steroid hormone receptors, it is used in the prevention of postmenopausal osteoporosis and for treatment of endometriosis.",
+    "skos:semanticRelation": [
         {
             "@id": "obo:CHEBI_35343"
         },
         {
             "@id": "obo:CHEBI_73477"
-        },
-        {
-            "@id": "b135_genid-00f1db82e1ab437c844115a94dc63e635-bn32223t11f50646"
-        },
-        {
-            "@id": "b135_genid-00f1db82e1ab437c844115a94dc63e635-bn32223t11f51060"
         }
     ]
 }

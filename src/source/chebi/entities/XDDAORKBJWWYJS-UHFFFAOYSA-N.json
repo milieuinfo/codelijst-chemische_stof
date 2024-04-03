@@ -1,74 +1,45 @@
 {
     "@context": {
-        "chebi": "http://purl.obolibrary.org/obo/chebi/",
         "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
         "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-        "obo": "http://purl.obolibrary.org/obo/"
+        "obo": "http://purl.obolibrary.org/obo/",
+        "uniprot": "http://purl.uniprot.org/",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "concept": "https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/",
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "dbo": "http://dbpedia.org/ontology/",
+        "dbp": "http://dbpedia.org/property/",
+        "altLabel": {
+            "@id": "http://www.w3.org/2004/02/skos/core#altLabel",
+            "@language": "en"
+        },
+        "graph": {
+            "@id": "@graph"
+        }
     },
-    "@id": "obo:CHEBI_27744",
-    "@type": "http://www.w3.org/2002/07/owl#Class",
-    "obo:IAO_0000115": "A phosphonic acid resulting from the formal oxidative coupling of the methyl group of methylphosphonic acid with the amino group of glycine. It is one of the most commonly used herbicides worldwide, and the only one to target the enzyme 5-enolpyruvyl-3-shikimate phosphate synthase (EPSPS).",
+    "@id": "concept:XDDAORKBJWWYJS-UHFFFAOYSA-N",
+    "@type": "skos:Concept",
+    "dbo:formula": "C3H8NO5P",
+    "dbo:inchi": "InChI=1S/C3H8NO5P/c5-3(6)1-4-2-10(7,8)9/h4H,1-2H2,(H,5,6)(H2,7,8,9)",
+    "dbo:smiles": "OC(=O)CNCP(O)(O)=O",
+    "dbp:inchikey": "XDDAORKBJWWYJS-UHFFFAOYSA-N",
     "chebi:charge": "0",
-    "chebi:formula": "C3H8NO5P",
-    "chebi:inchi": "InChI=1S/C3H8NO5P/c5-3(6)1-4-2-10(7,8)9/h4H,1-2H2,(H,5,6)(H2,7,8,9)",
-    "chebi:inchikey": "XDDAORKBJWWYJS-UHFFFAOYSA-N",
-    "chebi:smiles": "OC(=O)CNCP(O)(O)=O",
-    "geneontology:hasDbXref": [
-        "Beilstein:2045054",
-        "CAS:1071-83-6",
-        "DrugBank:DB04539",
-        "Gmelin:279222",
-        "KEGG:C01705",
-        "PDBeChem:GPF",
-        "PDBeChem:GPJ",
-        "Pesticides:glyphosate",
-        "PMID:27758090",
-        "PMID:28266132",
-        "PMID:28474816",
-        "PMID:28643882",
-        "PMID:28711546",
-        "PMID:30471482",
-        "PMID:30875550",
-        "PMID:31030151",
-        "PMID:31342895",
-        "PPDB:373",
-        "UM-BBD_compID:c0134",
-        "Wikipedia:Glyphosate"
-    ],
-    "geneontology:hasId": "27744",
-    "geneontology:hasSynonym": [
+    "skos:altLabel": [
         "Glyphosate",
         "N-(phosphonomethyl)glycine",
         "Roundup"
     ],
-    "geneontology:inSubset": {
-        "@id": "obo:chebi#3_STAR"
+    "skos:exactMatch": {
+        "@id": "obo:CHEBI_27744"
     },
-    "rdfs:label": "glyphosate",
-    "rdfs:subClassOf": [
+    "skos:note": "A phosphonic acid resulting from the formal oxidative coupling of the methyl group of methylphosphonic acid with the amino group of glycine. It is one of the most commonly used herbicides worldwide, and the only one to target the enzyme 5-enolpyruvyl-3-shikimate phosphate synthase (EPSPS).",
+    "skos:semanticRelation": [
         {
             "@id": "obo:CHEBI_44976"
         },
         {
             "@id": "obo:CHEBI_24373"
-        },
-        {
-            "@id": "b154_genid-00f1db82e1ab437c844115a94dc63e635-bn27744tmms73f133673"
-        },
-        {
-            "@id": "b154_genid-00f1db82e1ab437c844115a94dc63e635-bn27744t11f20569"
-        },
-        {
-            "@id": "b154_genid-00f1db82e1ab437c844115a94dc63e635-bn27744t11f24527"
-        },
-        {
-            "@id": "b154_genid-00f1db82e1ab437c844115a94dc63e635-bn27744t11f33286"
-        },
-        {
-            "@id": "b154_genid-00f1db82e1ab437c844115a94dc63e635-bn27744t4f67052"
-        },
-        {
-            "@id": "b154_genid-00f1db82e1ab437c844115a94dc63e635-bn27744t4f133673"
         }
     ]
 }

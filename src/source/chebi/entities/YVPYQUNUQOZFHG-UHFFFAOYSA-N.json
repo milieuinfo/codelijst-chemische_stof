@@ -1,35 +1,31 @@
 {
     "@context": {
-        "chebi": "http://purl.obolibrary.org/obo/chebi/",
         "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
         "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-        "obo": "http://purl.obolibrary.org/obo/"
+        "obo": "http://purl.obolibrary.org/obo/",
+        "uniprot": "http://purl.uniprot.org/",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "concept": "https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/",
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "dbo": "http://dbpedia.org/ontology/",
+        "dbp": "http://dbpedia.org/property/",
+        "altLabel": {
+            "@id": "http://www.w3.org/2004/02/skos/core#altLabel",
+            "@language": "en"
+        },
+        "graph": {
+            "@id": "@graph"
+        }
     },
-    "@id": "obo:CHEBI_53691",
-    "@type": "http://www.w3.org/2002/07/owl#Class",
-    "obo:IAO_0000115": "A member of the class of benzoic acids that is benzoic acid having iodo substituents at the 2-, 4- and 6-positions and acetamido substituents at the 3- and 5-positions. It is used, mainly as its N-methylglucamine and sodium salts, as an X-ray contrast medium in gastrointestinal studies, angiography, and urography.",
+    "@id": "concept:YVPYQUNUQOZFHG-UHFFFAOYSA-N",
+    "@type": "skos:Concept",
+    "dbo:formula": "C11H9I3N2O4",
+    "dbo:inchi": "InChI=1S/C11H9I3N2O4/c1-3(17)15-9-6(12)5(11(19)20)7(13)10(8(9)14)16-4(2)18/h1-2H3,(H,15,17)(H,16,18)(H,19,20)",
+    "dbo:smiles": "CC(=O)Nc1c(I)c(NC(C)=O)c(I)c(C(O)=O)c1I",
+    "dbp:inchikey": "YVPYQUNUQOZFHG-UHFFFAOYSA-N",
     "chebi:charge": "0",
-    "chebi:formula": "C11H9I3N2O4",
-    "chebi:inchi": "InChI=1S/C11H9I3N2O4/c1-3(17)15-9-6(12)5(11(19)20)7(13)10(8(9)14)16-4(2)18/h1-2H3,(H,15,17)(H,16,18)(H,19,20)",
-    "chebi:inchikey": "YVPYQUNUQOZFHG-UHFFFAOYSA-N",
-    "chebi:smiles": "CC(=O)Nc1c(I)c(NC(C)=O)c(I)c(C(O)=O)c1I",
-    "geneontology:hasDbXref": [
-        "PMID:15206581",
-        "DrugBank:DB00271",
-        "Beilstein:2225144",
-        "CAS:117-96-4",
-        "Drug_Central:851",
-        "HMDB:HMDB0014416",
-        "KEGG:D02240",
-        "PMID:1742128",
-        "PMID:1910999",
-        "PMID:24662206",
-        "PMID:7756847",
-        "Reaxys:2225144",
-        "Wikipedia:Diatrizoic_acid"
-    ],
-    "geneontology:hasId": "53691",
-    "geneontology:hasSynonym": [
+    "skos:altLabel": [
         "2,4,6-Triiodo-3,5-diacetamidobenzoic acid",
         "3,5-Bis(acetylamino)-2,4,6-triiodobenzoic acid",
         "3,5-diacetamido-2,4,6-triiodobenzoic acid",
@@ -47,11 +43,11 @@
         "Urografin acid",
         "Urogranoic acid"
     ],
-    "geneontology:inSubset": {
-        "@id": "obo:chebi#3_STAR"
+    "skos:exactMatch": {
+        "@id": "obo:CHEBI_53691"
     },
-    "rdfs:label": "amidotrizoic acid",
-    "rdfs:subClassOf": [
+    "skos:note": "A member of the class of benzoic acids that is benzoic acid having iodo substituents at the 2-, 4- and 6-positions and acetamido substituents at the 3- and 5-positions. It is used, mainly as its N-methylglucamine and sodium salts, as an X-ray contrast medium in gastrointestinal studies, angiography, and urography.",
+    "skos:semanticRelation": [
         {
             "@id": "obo:CHEBI_22723"
         },
@@ -60,21 +56,6 @@
         },
         {
             "@id": "obo:CHEBI_37142"
-        },
-        {
-            "@id": "b415_genid-00f1db82e1ab437c844115a94dc63e635-bn53691tmms73f59731"
-        },
-        {
-            "@id": "b415_genid-00f1db82e1ab437c844115a94dc63e635-bn53691t11f35703"
-        },
-        {
-            "@id": "b415_genid-00f1db82e1ab437c844115a94dc63e635-bn53691t11f37338"
-        },
-        {
-            "@id": "b415_genid-00f1db82e1ab437c844115a94dc63e635-bn53691t4f59731"
-        },
-        {
-            "@id": "b415_genid-00f1db82e1ab437c844115a94dc63e635-bn53691t11f78298"
         }
     ]
 }

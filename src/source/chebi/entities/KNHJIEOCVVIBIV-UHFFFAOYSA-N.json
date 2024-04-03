@@ -1,38 +1,39 @@
 {
     "@context": {
-        "chebi": "http://purl.obolibrary.org/obo/chebi/",
         "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
         "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-        "obo": "http://purl.obolibrary.org/obo/"
+        "obo": "http://purl.obolibrary.org/obo/",
+        "uniprot": "http://purl.uniprot.org/",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "concept": "https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/",
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "dbo": "http://dbpedia.org/ontology/",
+        "dbp": "http://dbpedia.org/property/",
+        "altLabel": {
+            "@id": "http://www.w3.org/2004/02/skos/core#altLabel",
+            "@language": "en"
+        },
+        "graph": {
+            "@id": "@graph"
+        }
     },
-    "@id": "obo:CHEBI_63899",
-    "@type": "http://www.w3.org/2002/07/owl#Class",
-    "obo:IAO_0000115": "An isocyanate that consists of phenyl isocyanate bearing two additional methyl substituents at positions 2 and 3.",
+    "@id": "concept:KNHJIEOCVVIBIV-UHFFFAOYSA-N",
+    "@type": "skos:Concept",
+    "dbo:formula": "C9H9NO",
+    "dbo:inchi": "InChI=1S/C9H9NO/c1-7-4-3-5-9(8(7)2)10-6-11/h3-5H,1-2H3",
+    "dbo:smiles": "Cc1cccc(N=C=O)c1C",
+    "dbp:inchikey": "KNHJIEOCVVIBIV-UHFFFAOYSA-N",
     "chebi:charge": "0",
-    "chebi:formula": "C9H9NO",
-    "chebi:inchi": "InChI=1S/C9H9NO/c1-7-4-3-5-9(8(7)2)10-6-11/h3-5H,1-2H3",
-    "chebi:inchikey": "KNHJIEOCVVIBIV-UHFFFAOYSA-N",
-    "chebi:smiles": "Cc1cccc(N=C=O)c1C",
-    "geneontology:hasDbXref": [
-        "PMID:21878336",
-        "CAS:1591-99-7",
-        "Reaxys:6313438"
-    ],
-    "geneontology:hasId": "63899",
-    "geneontology:hasSynonym": [
+    "skos:altLabel": [
         "1-isocyanato-2,3-dimethylbenzene",
         "2,3-Dimethylphenylisocyanate"
     ],
-    "geneontology:inSubset": {
-        "@id": "obo:chebi#3_STAR"
+    "skos:exactMatch": {
+        "@id": "obo:CHEBI_63899"
     },
-    "rdfs:label": "2,3-dimethylphenyl isocyanate",
-    "rdfs:subClassOf": [
-        {
-            "@id": "obo:CHEBI_53212"
-        },
-        {
-            "@id": "b428_genid-00f1db82e1ab437c844115a94dc63e635-bn63899t11f59174"
-        }
-    ]
+    "skos:note": "An isocyanate that consists of phenyl isocyanate bearing two additional methyl substituents at positions 2 and 3.",
+    "skos:semanticRelation": {
+        "@id": "obo:CHEBI_53212"
+    }
 }

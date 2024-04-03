@@ -1,35 +1,38 @@
 {
     "@context": {
-        "chebi": "http://purl.obolibrary.org/obo/chebi/",
         "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
         "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-        "obo": "http://purl.obolibrary.org/obo/"
+        "obo": "http://purl.obolibrary.org/obo/",
+        "uniprot": "http://purl.uniprot.org/",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "concept": "https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/",
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "dbo": "http://dbpedia.org/ontology/",
+        "dbp": "http://dbpedia.org/property/",
+        "altLabel": {
+            "@id": "http://www.w3.org/2004/02/skos/core#altLabel",
+            "@language": "en"
+        },
+        "graph": {
+            "@id": "@graph"
+        }
     },
-    "@id": "obo:CHEBI_6690",
-    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "@id": "concept:QSLMDECMDJKHMQ-UHFFFAOYSA-N",
+    "@type": "skos:Concept",
+    "dbo:formula": "C20H23N",
+    "dbo:inchi": "InChI=1S/C20H23N/c1-21-14-6-12-20-13-11-15(16-7-2-4-9-18(16)20)17-8-3-5-10-19(17)20/h2-5,7-10,15,21H,6,11-14H2,1H3",
+    "dbo:smiles": "CNCCCC12CCC(c3ccccc13)c1ccccc21",
+    "dbp:inchikey": "QSLMDECMDJKHMQ-UHFFFAOYSA-N",
     "chebi:charge": "0",
-    "chebi:formula": "C20H23N",
-    "chebi:inchi": "InChI=1S/C20H23N/c1-21-14-6-12-20-13-11-15(16-7-2-4-9-18(16)20)17-8-3-5-10-19(17)20/h2-5,7-10,15,21H,6,11-14H2,1H3",
-    "chebi:inchikey": "QSLMDECMDJKHMQ-UHFFFAOYSA-N",
-    "chebi:smiles": "CNCCCC12CCC(c3ccccc13)c1ccccc21",
-    "geneontology:hasDbXref": [
-        "CAS:10262-69-8",
-        "Drug_Central:1634",
-        "HMDB:HMDB0015069",
-        "KEGG:C07107",
-        "KEGG:D02566",
-        "LINCS:LSM-2043"
-    ],
-    "geneontology:hasId": "6690",
-    "geneontology:hasSynonym": [
+    "skos:altLabel": [
         "maprotiline HCl",
         "maprotiline hydrochloride"
     ],
-    "geneontology:inSubset": {
-        "@id": "obo:chebi#2_STAR"
+    "skos:exactMatch": {
+        "@id": "obo:CHEBI_6690"
     },
-    "rdfs:label": "Maprotiline",
-    "rdfs:subClassOf": {
+    "skos:semanticRelation": {
         "@id": "obo:CHEBI_46955"
     }
 }

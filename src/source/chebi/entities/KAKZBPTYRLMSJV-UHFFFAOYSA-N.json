@@ -1,34 +1,31 @@
 {
     "@context": {
-        "chebi": "http://purl.obolibrary.org/obo/chebi/",
         "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
         "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-        "obo": "http://purl.obolibrary.org/obo/"
+        "obo": "http://purl.obolibrary.org/obo/",
+        "uniprot": "http://purl.uniprot.org/",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "concept": "https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/",
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "dbo": "http://dbpedia.org/ontology/",
+        "dbp": "http://dbpedia.org/property/",
+        "altLabel": {
+            "@id": "http://www.w3.org/2004/02/skos/core#altLabel",
+            "@language": "en"
+        },
+        "graph": {
+            "@id": "@graph"
+        }
     },
-    "@id": "obo:CHEBI_39478",
-    "@type": "http://www.w3.org/2002/07/owl#Class",
-    "obo:IAO_0000115": "A  butadiene with unsaturation at positions 1 and 3.",
+    "@id": "concept:KAKZBPTYRLMSJV-UHFFFAOYSA-N",
+    "@type": "skos:Concept",
+    "dbo:formula": "C4H6",
+    "dbo:inchi": "InChI=1S/C4H6/c1-3-4-2/h3-4H,1-2H2",
+    "dbo:smiles": "C=CC=C",
+    "dbp:inchikey": "KAKZBPTYRLMSJV-UHFFFAOYSA-N",
     "chebi:charge": "0",
-    "chebi:formula": "C4H6",
-    "chebi:inchi": "InChI=1S/C4H6/c1-3-4-2/h3-4H,1-2H2",
-    "chebi:inchikey": "KAKZBPTYRLMSJV-UHFFFAOYSA-N",
-    "chebi:smiles": "C=CC=C",
-    "geneontology:hasDbXref": [
-        "Beilstein:605258",
-        "CAS:106-99-0",
-        "Gmelin:25198",
-        "HMDB:HMDB0041792",
-        "KEGG:C16450",
-        "PMID:11018742",
-        "PMID:11397424",
-        "PMID:7520987",
-        "PMID:7859343",
-        "PPDB:1636",
-        "Reaxys:605258",
-        "Wikipedia:1,3-Butadiene"
-    ],
-    "geneontology:hasId": "39478",
-    "geneontology:hasSynonym": [
+    "skos:altLabel": [
         "1,3-Butadien",
         "1,3-butadiene",
         "alpha,gamma-butadiene",
@@ -38,19 +35,11 @@
         "divinyl",
         "vinylethylene"
     ],
-    "geneontology:inSubset": {
-        "@id": "obo:chebi#3_STAR"
+    "skos:exactMatch": {
+        "@id": "obo:CHEBI_39478"
     },
-    "rdfs:label": "buta-1,3-diene",
-    "rdfs:subClassOf": [
-        {
-            "@id": "b362_genid-00f1db82e1ab437c844115a94dc63e635-bn39478t11f25435"
-        },
-        {
-            "@id": "obo:CHEBI_39479"
-        },
-        {
-            "@id": "b362_genid-00f1db82e1ab437c844115a94dc63e635-bn39478t11f50903"
-        }
-    ]
+    "skos:note": "A  butadiene with unsaturation at positions 1 and 3.",
+    "skos:semanticRelation": {
+        "@id": "obo:CHEBI_39479"
+    }
 }

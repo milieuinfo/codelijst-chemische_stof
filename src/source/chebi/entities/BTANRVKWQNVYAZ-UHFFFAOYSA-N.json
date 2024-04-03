@@ -1,33 +1,27 @@
 {
     "@context": {
-        "chebi": "http://purl.obolibrary.org/obo/chebi/",
         "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
         "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-        "obo": "http://purl.obolibrary.org/obo/"
+        "obo": "http://purl.obolibrary.org/obo/",
+        "uniprot": "http://purl.uniprot.org/",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "concept": "https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/",
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "dbo": "http://dbpedia.org/ontology/",
+        "dbp": "http://dbpedia.org/property/",
+        "graph": {
+            "@id": "@graph"
+        }
     },
-    "@id": "obo:CHEBI_35687",
-    "@type": "http://www.w3.org/2002/07/owl#Class",
-    "obo:IAO_0000115": "A secondary alcohol that is butane substituted by a hydroxy group at position 2.",
+    "@id": "concept:BTANRVKWQNVYAZ-UHFFFAOYSA-N",
+    "@type": "skos:Concept",
+    "dbo:formula": "C4H10O",
+    "dbo:inchi": "InChI=1S/C4H10O/c1-3-4(2)5/h4-5H,3H2,1-2H3",
+    "dbo:smiles": "CCC(C)O",
+    "dbp:inchikey": "BTANRVKWQNVYAZ-UHFFFAOYSA-N",
     "chebi:charge": "0",
-    "chebi:formula": "C4H10O",
-    "chebi:inchi": "InChI=1S/C4H10O/c1-3-4(2)5/h4-5H,3H2,1-2H3",
-    "chebi:inchikey": "BTANRVKWQNVYAZ-UHFFFAOYSA-N",
-    "chebi:smiles": "CCC(C)O",
-    "http://purl.uniprot.org/core/name": "butan-2-ol",
-    "geneontology:hasDbXref": [
-        "Beilstein:773649",
-        "CAS:78-92-2",
-        "DrugBank:DB02606",
-        "Gmelin:1686",
-        "HMDB:HMDB0011469",
-        "MetaCyc:CPD-326",
-        "PMID:18214490",
-        "PMID:24078128",
-        "Reaxys:773649",
-        "Wikipedia:2-butanol"
-    ],
-    "geneontology:hasId": "35687",
-    "geneontology:hasSynonym": [
+    "skos:altLabel": [
         "1-methyl-1-propanol",
         "1-methylpropyl alcohol",
         "2-butanol",
@@ -40,16 +34,11 @@
         "sec-butanol",
         "sec-butyl alcohol"
     ],
-    "geneontology:inSubset": {
-        "@id": "obo:chebi#3_STAR"
+    "skos:exactMatch": {
+        "@id": "obo:CHEBI_35687"
     },
-    "rdfs:label": "butan-2-ol",
-    "rdfs:subClassOf": [
-        {
-            "@id": "obo:CHEBI_35681"
-        },
-        {
-            "@id": "b232_genid-00f1db82e1ab437c844115a94dc63e635-bn35687t9f37808"
-        }
-    ]
+    "skos:note": "A secondary alcohol that is butane substituted by a hydroxy group at position 2.",
+    "skos:semanticRelation": {
+        "@id": "obo:CHEBI_35681"
+    }
 }

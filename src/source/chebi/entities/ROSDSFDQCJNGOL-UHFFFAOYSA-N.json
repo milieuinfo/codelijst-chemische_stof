@@ -1,34 +1,31 @@
 {
     "@context": {
-        "chebi": "http://purl.obolibrary.org/obo/chebi/",
         "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
         "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-        "obo": "http://purl.obolibrary.org/obo/"
+        "obo": "http://purl.obolibrary.org/obo/",
+        "uniprot": "http://purl.uniprot.org/",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "concept": "https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/",
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "dbo": "http://dbpedia.org/ontology/",
+        "dbp": "http://dbpedia.org/property/",
+        "altLabel": {
+            "@id": "http://www.w3.org/2004/02/skos/core#altLabel",
+            "@language": "en"
+        },
+        "graph": {
+            "@id": "@graph"
+        }
     },
-    "@id": "obo:CHEBI_17170",
-    "@type": "http://www.w3.org/2002/07/owl#Class",
-    "obo:IAO_0000115": "A secondary aliphatic amine where both N-substituents are methyl.",
+    "@id": "concept:ROSDSFDQCJNGOL-UHFFFAOYSA-N",
+    "@type": "skos:Concept",
+    "dbo:formula": "C2H7N",
+    "dbo:inchi": "InChI=1S/C2H7N/c1-3-2/h3H,1-2H3",
+    "dbo:smiles": "[H]N(C)C",
+    "dbp:inchikey": "ROSDSFDQCJNGOL-UHFFFAOYSA-N",
     "chebi:charge": "0",
-    "chebi:formula": "C2H7N",
-    "chebi:inchi": "InChI=1S/C2H7N/c1-3-2/h3H,1-2H3",
-    "chebi:inchikey": "ROSDSFDQCJNGOL-UHFFFAOYSA-N",
-    "chebi:smiles": "[H]N(C)C",
-    "geneontology:hasDbXref": [
-        "PMID:17190852",
-        "Beilstein:605257",
-        "CAS:124-40-3",
-        "Gmelin:849",
-        "HMDB:HMDB0000087",
-        "KEGG:C00543",
-        "MetaCyc:DIMETHYLAMINE",
-        "PDBeChem:DMN",
-        "PMID:18282650",
-        "PMID:22074457",
-        "Reaxys:605257",
-        "Wikipedia:Dimethylamine"
-    ],
-    "geneontology:hasId": "17170",
-    "geneontology:hasSynonym": [
+    "skos:altLabel": [
         "DMA",
         "Dimethylamine",
         "DIMETHYLAMINE",
@@ -38,25 +35,16 @@
         "N,N-Dimethylamine",
         "N-methylmethanamine"
     ],
-    "geneontology:inSubset": {
-        "@id": "obo:chebi#3_STAR"
+    "skos:exactMatch": {
+        "@id": "obo:CHEBI_17170"
     },
-    "rdfs:label": "dimethylamine",
-    "rdfs:subClassOf": [
+    "skos:note": "A secondary aliphatic amine where both N-substituents are methyl.",
+    "skos:semanticRelation": [
         {
             "@id": "obo:CHEBI_25274"
         },
         {
-            "@id": "b485_genid-00f1db82e1ab437c844115a94dc63e635-bn17170tmms73f58040"
-        },
-        {
-            "@id": "b485_genid-00f1db82e1ab437c844115a94dc63e635-bn17170t11f25212"
-        },
-        {
             "@id": "obo:CHEBI_50981"
-        },
-        {
-            "@id": "b485_genid-00f1db82e1ab437c844115a94dc63e635-bn17170t5f58040"
         }
     ]
 }

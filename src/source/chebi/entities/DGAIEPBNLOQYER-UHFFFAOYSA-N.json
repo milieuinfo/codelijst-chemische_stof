@@ -1,79 +1,43 @@
 {
     "@context": {
-        "chebi": "http://purl.obolibrary.org/obo/chebi/",
         "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
         "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-        "obo": "http://purl.obolibrary.org/obo/"
+        "obo": "http://purl.obolibrary.org/obo/",
+        "uniprot": "http://purl.uniprot.org/",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "concept": "https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/",
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "dbo": "http://dbpedia.org/ontology/",
+        "dbp": "http://dbpedia.org/property/",
+        "graph": {
+            "@id": "@graph"
+        }
     },
-    "@id": "obo:CHEBI_63578",
-    "@type": "http://www.w3.org/2002/07/owl#Class",
-    "obo:IAO_0000115": "A dicarboxylic acid diamide that consists of N-methylisophthalamide bearing three iodo substituents at positions 2, 4 and 6, a methoxyacetyl substituent at position 5 and two 2,3-dihydroxypropyl groups attached to the amide nitrogens. A water soluble x-ray contrast agent for intravascular administration.",
+    "@id": "concept:DGAIEPBNLOQYER-UHFFFAOYSA-N",
+    "@type": "skos:Concept",
+    "dbo:formula": "C18H24I3N3O8",
+    "dbo:inchi": "InChI=1S/C18H24I3N3O8/c1-24(4-9(28)6-26)18(31)12-13(19)11(17(30)22-3-8(27)5-25)14(20)16(15(12)21)23-10(29)7-32-2/h8-9,25-28H,3-7H2,1-2H3,(H,22,30)(H,23,29)",
+    "dbo:smiles": "COCC(=O)Nc1c(I)c(C(=O)NCC(O)CO)c(I)c(C(=O)N(C)CC(O)CO)c1I",
+    "dbp:inchikey": "DGAIEPBNLOQYER-UHFFFAOYSA-N",
     "chebi:charge": "0",
-    "chebi:formula": "C18H24I3N3O8",
-    "chebi:inchi": "InChI=1S/C18H24I3N3O8/c1-24(4-9(28)6-26)18(31)12-13(19)11(17(30)22-3-8(27)5-25)14(20)16(15(12)21)23-10(29)7-32-2/h8-9,25-28H,3-7H2,1-2H3,(H,22,30)(H,23,29)",
-    "chebi:inchikey": "DGAIEPBNLOQYER-UHFFFAOYSA-N",
-    "chebi:smiles": "COCC(=O)Nc1c(I)c(C(=O)NCC(O)CO)c(I)c(C(=O)N(C)CC(O)CO)c1I",
-    "geneontology:hasDbXref": [
-        "Beilstein:7085608",
-        "CAS:73334-07-3",
-        "Drug_Central:1468",
-        "HMDB:HMDB0041910",
-        "KEGG:D01893",
-        "LINCS:LSM-5134",
-        "Patent:DE2909439",
-        "Patent:US4364921",
-        "PMID:20412314",
-        "PMID:20890877",
-        "PMID:20921088",
-        "PMID:21039317",
-        "PMID:21141818",
-        "PMID:21159465",
-        "PMID:21529272",
-        "PMID:21545991",
-        "PMID:21623210",
-        "PMID:21877755",
-        "PMID:21943940",
-        "PMID:22028567",
-        "PMID:22178894",
-        "Reaxys:7085608",
-        "Wikipedia:Iopromide"
-    ],
-    "geneontology:hasId": "63578",
-    "geneontology:hasSynonym": [
+    "skos:altLabel": [
         "iopromida",
         "iopromidum",
         "N,N'-Bis(2,3-dihydroxypropyl)-2,4,6-triiodo-5-(2-methoxyacetamido)-N-methylisophthalamide",
         "N,N'-bis(2,3-dihydroxypropyl)-2,4,6-triiodo-5-[(methoxyacetyl)amino]-N-methylisophthalamide",
         "Ultravist"
     ],
-    "geneontology:inSubset": {
-        "@id": "obo:chebi#3_STAR"
+    "skos:exactMatch": {
+        "@id": "obo:CHEBI_63578"
     },
-    "rdfs:label": "iopromide",
-    "rdfs:subClassOf": [
+    "skos:note": "A dicarboxylic acid diamide that consists of N-methylisophthalamide bearing three iodo substituents at positions 2, 4 and 6, a methoxyacetyl substituent at position 5 and two 2,3-dihydroxypropyl groups attached to the amide nitrogens. A water soluble x-ray contrast agent for intravascular administration.",
+    "skos:semanticRelation": [
         {
             "@id": "obo:CHEBI_37142"
         },
         {
             "@id": "obo:CHEBI_35779"
-        },
-        {
-            "@id": "b452_genid-00f1db82e1ab437c844115a94dc63e635-bn63578t8f17754"
-        },
-        {
-            "@id": "b452_genid-00f1db82e1ab437c844115a94dc63e635-bn63578t11f35703"
-        },
-        {
-            "@id": "b452_genid-00f1db82e1ab437c844115a94dc63e635-bn63578t11f37338"
-        },
-        {
-            "@id": "b452_genid-00f1db82e1ab437c844115a94dc63e635-bn63578t8f38801"
-        },
-        {
-            "@id": "b452_genid-00f1db82e1ab437c844115a94dc63e635-bn63578t11f50909"
-        },
-        {
-            "@id": "b452_genid-00f1db82e1ab437c844115a94dc63e635-bn63578t11f78298"
         }
     ]
 }

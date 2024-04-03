@@ -1,34 +1,31 @@
 {
     "@context": {
-        "chebi": "http://purl.obolibrary.org/obo/chebi/",
         "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
         "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-        "obo": "http://purl.obolibrary.org/obo/"
+        "obo": "http://purl.obolibrary.org/obo/",
+        "uniprot": "http://purl.uniprot.org/",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "concept": "https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/",
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "dbo": "http://dbpedia.org/ontology/",
+        "dbp": "http://dbpedia.org/property/",
+        "altLabel": {
+            "@id": "http://www.w3.org/2004/02/skos/core#altLabel",
+            "@language": "en"
+        },
+        "graph": {
+            "@id": "@graph"
+        }
     },
-    "@id": "obo:CHEBI_166883",
-    "@type": "http://www.w3.org/2002/07/owl#Class",
-    "obo:IAO_0000115": "A methyl-branched fatty acid that is pentanoic acid which carries a methyl group at position 3.",
+    "@id": "concept:IGIDLTISMCAULB-UHFFFAOYSA-N",
+    "@type": "skos:Concept",
+    "dbo:formula": "C6H12O2",
+    "dbo:inchi": "InChI=1S/C6H12O2/c1-3-5(2)4-6(7)8/h5H,3-4H2,1-2H3,(H,7,8)",
+    "dbo:smiles": "CCC(C)CC(O)=O",
+    "dbp:inchikey": "IGIDLTISMCAULB-UHFFFAOYSA-N",
     "chebi:charge": "0",
-    "chebi:formula": "C6H12O2",
-    "chebi:inchi": "InChI=1S/C6H12O2/c1-3-5(2)4-6(7)8/h5H,3-4H2,1-2H3,(H,7,8)",
-    "chebi:inchikey": "IGIDLTISMCAULB-UHFFFAOYSA-N",
-    "chebi:smiles": "CCC(C)CC(O)=O",
-    "geneontology:hasDbXref": [
-        "PMID:29732495",
-        "CAS:105-43-1",
-        "FooDB:FDB012545",
-        "HMDB:HMDB0033774",
-        "LIPID_MAPS_instance:LMFA01020075",
-        "PMID:26332370",
-        "PMID:31591212",
-        "PMID:32512824",
-        "PMID:32640344",
-        "PMID:32846567",
-        "PMID:6487265",
-        "Reaxys:1720696"
-    ],
-    "geneontology:hasId": "166883",
-    "geneontology:hasSynonym": [
+    "skos:altLabel": [
         "2-methylbutane-1-carboxylic acid",
         "3-ethylbutanoic acid",
         "3-methyl-n-valeric acid",
@@ -36,11 +33,11 @@
         "3-methyl-pentanoic acid",
         "beta-methylvaleric acid"
     ],
-    "geneontology:inSubset": {
-        "@id": "obo:chebi#3_STAR"
+    "skos:exactMatch": {
+        "@id": "obo:CHEBI_166883"
     },
-    "rdfs:label": "3-methylvaleric acid",
-    "rdfs:subClassOf": [
+    "skos:note": "A methyl-branched fatty acid that is pentanoic acid which carries a methyl group at position 3.",
+    "skos:semanticRelation": [
         {
             "@id": "obo:CHEBI_25384"
         },
@@ -52,24 +49,6 @@
         },
         {
             "@id": "obo:CHEBI_62499"
-        },
-        {
-            "@id": "b97_genid-00f1db82e1ab437c844115a94dc63e635-bn166883tmms73f167610"
-        },
-        {
-            "@id": "b97_genid-00f1db82e1ab437c844115a94dc63e635-bn166883t11f35617"
-        },
-        {
-            "@id": "b97_genid-00f1db82e1ab437c844115a94dc63e635-bn166883t11f75767"
-        },
-        {
-            "@id": "b97_genid-00f1db82e1ab437c844115a94dc63e635-bn166883t11f76924"
-        },
-        {
-            "@id": "b97_genid-00f1db82e1ab437c844115a94dc63e635-bn166883t11f76946"
-        },
-        {
-            "@id": "b97_genid-00f1db82e1ab437c844115a94dc63e635-bn166883t4f167610"
         }
     ]
 }

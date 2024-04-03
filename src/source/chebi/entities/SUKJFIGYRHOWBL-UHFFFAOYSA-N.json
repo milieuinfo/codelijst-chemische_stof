@@ -1,48 +1,31 @@
 {
     "@context": {
-        "chebi": "http://purl.obolibrary.org/obo/chebi/",
         "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
         "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-        "obo": "http://purl.obolibrary.org/obo/"
+        "obo": "http://purl.obolibrary.org/obo/",
+        "uniprot": "http://purl.uniprot.org/",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "concept": "https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/",
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "dbo": "http://dbpedia.org/ontology/",
+        "dbp": "http://dbpedia.org/property/",
+        "altLabel": {
+            "@id": "http://www.w3.org/2004/02/skos/core#altLabel",
+            "@language": "en"
+        },
+        "graph": {
+            "@id": "@graph"
+        }
     },
-    "@id": "obo:CHEBI_32146",
-    "@type": "http://www.w3.org/2002/07/owl#Class",
-    "obo:IAO_0000115": "An inorganic sodium salt in which hypochlorite is the counterion. It is used as a bleaching and disinfecting agent and is commonly found in household bleach.",
+    "@id": "concept:SUKJFIGYRHOWBL-UHFFFAOYSA-N",
+    "@type": "skos:Concept",
+    "dbo:formula": "ClNaO",
+    "dbo:inchi": "InChI=1S/ClO.Na/c1-2;/q-1;+1",
+    "dbo:smiles": "[Na+].[O-]Cl",
+    "dbp:inchikey": "SUKJFIGYRHOWBL-UHFFFAOYSA-N",
     "chebi:charge": "0",
-    "chebi:formula": "ClNaO",
-    "chebi:inchi": "InChI=1S/ClO.Na/c1-2;/q-1;+1",
-    "chebi:inchikey": "SUKJFIGYRHOWBL-UHFFFAOYSA-N",
-    "chebi:smiles": "[Na+].[O-]Cl",
-    "geneontology:hasDbXref": [
-        "AGR:IND606841968",
-        "CAS:7681-52-9",
-        "DrugBank:DBSALT001517",
-        "FooDB:FDB015395",
-        "KEGG:D01711",
-        "PMID:19707590",
-        "PMID:23011474",
-        "PMID:23355285",
-        "PMID:23701220",
-        "PMID:23710836",
-        "PMID:23892500",
-        "PMID:24308707",
-        "PMID:24331991",
-        "PMID:24417739",
-        "PMID:24554854",
-        "PMID:24554863",
-        "PMID:24701613",
-        "PMID:24717113",
-        "PMID:24784510",
-        "PMID:24862721",
-        "PMID:30689457",
-        "PMID:32336370",
-        "PMID:32414067",
-        "PPDB:1493",
-        "Reaxys:11342986",
-        "Wikipedia:Sodium_hypochlorite"
-    ],
-    "geneontology:hasId": "32146",
-    "geneontology:hasSynonym": [
+    "skos:altLabel": [
         "Hypochlorite sodium",
         "Hypochlorous acid, sodium salt",
         "NaClO",
@@ -50,22 +33,11 @@
         "Sodium oxychloride",
         "Texant"
     ],
-    "geneontology:inSubset": {
-        "@id": "obo:chebi#3_STAR"
+    "skos:exactMatch": {
+        "@id": "obo:CHEBI_32146"
     },
-    "rdfs:label": "sodium hypochlorite",
-    "rdfs:subClassOf": [
-        {
-            "@id": "obo:CHEBI_38702"
-        },
-        {
-            "@id": "b683_genid-00f1db82e1ab437c844115a94dc63e635-bn32146t10f29222"
-        },
-        {
-            "@id": "b683_genid-00f1db82e1ab437c844115a94dc63e635-bn32146t11f48219"
-        },
-        {
-            "@id": "b683_genid-00f1db82e1ab437c844115a94dc63e635-bn32146t11f132717"
-        }
-    ]
+    "skos:note": "An inorganic sodium salt in which hypochlorite is the counterion. It is used as a bleaching and disinfecting agent and is commonly found in household bleach.",
+    "skos:semanticRelation": {
+        "@id": "obo:CHEBI_38702"
+    }
 }

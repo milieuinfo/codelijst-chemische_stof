@@ -1,39 +1,31 @@
 {
     "@context": {
-        "chebi": "http://purl.obolibrary.org/obo/chebi/",
         "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
         "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-        "obo": "http://purl.obolibrary.org/obo/"
+        "obo": "http://purl.obolibrary.org/obo/",
+        "uniprot": "http://purl.uniprot.org/",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "concept": "https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/",
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "dbo": "http://dbpedia.org/ontology/",
+        "dbp": "http://dbpedia.org/property/",
+        "altLabel": {
+            "@id": "http://www.w3.org/2004/02/skos/core#altLabel",
+            "@language": "en"
+        },
+        "graph": {
+            "@id": "@graph"
+        }
     },
-    "@id": "obo:CHEBI_15767",
-    "@type": "http://www.w3.org/2002/07/owl#Class",
-    "obo:IAO_0000115": "A member of the class of chloromethanes that is methane in which two of the hydrogens have been replaced by chlorine. A dense, non-flammible colourless liquid at room temperature (b.p. 40degreeC, d = 1.33) which is immiscible with water, it is widely used as a solvent, a paint stripper, and for the removal of caffeine from coffee and tea.",
+    "@id": "concept:YMWUJEATGCHHMB-UHFFFAOYSA-N",
+    "@type": "skos:Concept",
+    "dbo:formula": "CH2Cl2",
+    "dbo:inchi": "InChI=1S/CH2Cl2/c2-1-3/h1H2",
+    "dbo:smiles": "[H]C([H])(Cl)Cl",
+    "dbp:inchikey": "YMWUJEATGCHHMB-UHFFFAOYSA-N",
     "chebi:charge": "0",
-    "chebi:formula": "CH2Cl2",
-    "chebi:inchi": "InChI=1S/CH2Cl2/c2-1-3/h1H2",
-    "chebi:inchikey": "YMWUJEATGCHHMB-UHFFFAOYSA-N",
-    "chebi:smiles": "[H]C([H])(Cl)Cl",
-    "http://purl.uniprot.org/core/name": "dichloromethane",
-    "geneontology:hasDbXref": [
-        "Beilstein:1730800",
-        "CAS:75-09-2",
-        "Gmelin:1302",
-        "HMDB:HMDB0031548",
-        "KEGG:C02271",
-        "KEGG:D02330",
-        "MetaCyc:CPD-681",
-        "Patent:US2792435",
-        "Patent:US2979541",
-        "Patent:US3126419",
-        "PMID:11884241",
-        "PMID:19091298",
-        "PMID:8465711",
-        "Reaxys:1730800",
-        "UM-BBD_compID:c0233",
-        "Wikipedia:Dichloromethane"
-    ],
-    "geneontology:hasId": "15767",
-    "geneontology:hasSynonym": [
+    "skos:altLabel": [
         "dichloromethane",
         "chlorure de methylene",
         "DCM",
@@ -45,25 +37,16 @@
         "Methylene chloride",
         "Methylene dichloride"
     ],
-    "geneontology:inSubset": {
-        "@id": "obo:chebi#3_STAR"
+    "skos:exactMatch": {
+        "@id": "obo:CHEBI_15767"
     },
-    "rdfs:label": "dichloromethane",
-    "rdfs:subClassOf": [
+    "skos:note": "A member of the class of chloromethanes that is methane in which two of the hydrogens have been replaced by chlorine. A dense, non-flammible colourless liquid at room temperature (b.p. 40degreeC, d = 1.33) which is immiscible with water, it is widely used as a solvent, a paint stripper, and for the removal of caffeine from coffee and tea.",
+    "skos:semanticRelation": [
         {
             "@id": "obo:CHEBI_134179"
         },
         {
             "@id": "obo:CHEBI_23148"
-        },
-        {
-            "@id": "b360_genid-00f1db82e1ab437c844115a94dc63e635-bn15767t11f48358"
-        },
-        {
-            "@id": "b360_genid-00f1db82e1ab437c844115a94dc63e635-bn15767t11f50903"
-        },
-        {
-            "@id": "b360_genid-00f1db82e1ab437c844115a94dc63e635-bn15767t11f78433"
         }
     ]
 }

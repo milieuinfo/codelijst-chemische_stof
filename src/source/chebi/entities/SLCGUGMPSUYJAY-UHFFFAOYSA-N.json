@@ -1,28 +1,21 @@
 {
     "@context": {
-        "chebi": "http://purl.obolibrary.org/obo/chebi/",
         "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
         "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-        "obo": "http://purl.obolibrary.org/obo/"
-    },
-    "@id": "obo:CHEBI_82171",
-    "@type": "http://www.w3.org/2002/07/owl#Class",
-    "chebi:charge": "0",
-    "chebi:formula": "C18H17Cl2NO3",
-    "chebi:inchi": "InChI=1S/C18H17Cl2NO3/c1-3-24-18(23)12(2)21(14-9-10-15(19)16(20)11-14)17(22)13-7-5-4-6-8-13/h4-12H,3H2,1-2H3",
-    "chebi:inchikey": "SLCGUGMPSUYJAY-UHFFFAOYSA-N",
-    "chebi:smiles": "CCOC(=O)C(C)N(C(=O)c1ccccc1)c1ccc(Cl)c(Cl)c1",
-    "geneontology:hasDbXref": [
-        "CAS:33878-50-1",
-        "KEGG:C19044",
-        "PPDB:1256"
-    ],
-    "geneontology:hasId": "82171",
-    "geneontology:inSubset": {
-        "@id": "obo:chebi#2_STAR"
-    },
-    "rdfs:label": "Benzoylprop-ethyl",
-    "rdfs:subClassOf": {
-        "@id": "obo:CHEBI_22702"
+        "obo": "http://purl.obolibrary.org/obo/",
+        "uniprot": "http://purl.uniprot.org/",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "concept": "https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/",
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "dbo": "http://dbpedia.org/ontology/",
+        "dbp": "http://dbpedia.org/property/",
+        "altLabel": {
+            "@id": "http://www.w3.org/2004/02/skos/core#altLabel",
+            "@language": "en"
+        },
+        "graph": {
+            "@id": "@graph"
+        }
     }
 }

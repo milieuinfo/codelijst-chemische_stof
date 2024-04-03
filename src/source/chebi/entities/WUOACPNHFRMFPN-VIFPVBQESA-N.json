@@ -1,31 +1,31 @@
 {
     "@context": {
-        "chebi": "http://purl.obolibrary.org/obo/chebi/",
         "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
         "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-        "obo": "http://purl.obolibrary.org/obo/"
+        "obo": "http://purl.obolibrary.org/obo/",
+        "uniprot": "http://purl.uniprot.org/",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "concept": "https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/",
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "dbo": "http://dbpedia.org/ontology/",
+        "dbp": "http://dbpedia.org/property/",
+        "altLabel": {
+            "@id": "http://www.w3.org/2004/02/skos/core#altLabel",
+            "@language": "en"
+        },
+        "graph": {
+            "@id": "@graph"
+        }
     },
-    "@id": "obo:CHEBI_300",
-    "@type": "http://www.w3.org/2002/07/owl#Class",
-    "obo:IAO_0000115": "The (4R)-stereoiosmer of alpha-terpineol.",
+    "@id": "concept:WUOACPNHFRMFPN-VIFPVBQESA-N",
+    "@type": "skos:Concept",
+    "dbo:formula": "C10H18O",
+    "dbo:inchi": "InChI=1S/C10H18O/c1-8-4-6-9(7-5-8)10(2,3)11/h4,9,11H,5-7H2,1-3H3/t9-/m0/s1",
+    "dbo:smiles": "[H][C@]1(CCC(C)=CC1)C(C)(C)O",
+    "dbp:inchikey": "WUOACPNHFRMFPN-VIFPVBQESA-N",
     "chebi:charge": "0",
-    "chebi:formula": "C10H18O",
-    "chebi:inchi": "InChI=1S/C10H18O/c1-8-4-6-9(7-5-8)10(2,3)11/h4,9,11H,5-7H2,1-3H3/t9-/m0/s1",
-    "chebi:inchikey": "WUOACPNHFRMFPN-VIFPVBQESA-N",
-    "chebi:smiles": "[H][C@]1(CCC(C)=CC1)C(C)(C)O",
-    "http://purl.uniprot.org/core/name": "(R)-alpha-terpineol",
-    "geneontology:hasDbXref": [
-        "KNApSAcK:C00029674",
-        "Beilstein:2041428",
-        "Beilstein:5729447",
-        "CAS:7785-53-7",
-        "KEGG:C09902",
-        "KNApSAcK:C00010931",
-        "LIPID_MAPS_instance:LMPR0102090028",
-        "Reaxys:2041428"
-    ],
-    "geneontology:hasId": "300",
-    "geneontology:hasSynonym": [
+    "skos:altLabel": [
         "(R)-alpha-terpineol",
         "(+)-p-menth-1-en-8-ol",
         "(1R)-alpha,alpha,4-trimethyl-3-cyclohexene-1-methanol",
@@ -34,16 +34,11 @@
         "(R)-alpha,alpha,4-trimethylcyclohex-3-ene-1-methanol",
         "2-[(1R)-4-methylcyclohex-3-en-1-yl]propan-2-ol"
     ],
-    "geneontology:inSubset": {
-        "@id": "obo:chebi#3_STAR"
+    "skos:exactMatch": {
+        "@id": "obo:CHEBI_300"
     },
-    "rdfs:label": "(R)-(+)-alpha-terpineol",
-    "rdfs:subClassOf": [
-        {
-            "@id": "obo:CHEBI_22469"
-        },
-        {
-            "@id": "b100_genid-00f1db82e1ab437c844115a94dc63e635-bn300t6f128"
-        }
-    ]
+    "skos:note": "The (4R)-stereoiosmer of alpha-terpineol.",
+    "skos:semanticRelation": {
+        "@id": "obo:CHEBI_22469"
+    }
 }

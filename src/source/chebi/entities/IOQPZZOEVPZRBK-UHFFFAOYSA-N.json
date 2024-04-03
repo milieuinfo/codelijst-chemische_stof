@@ -1,50 +1,42 @@
 {
     "@context": {
-        "chebi": "http://purl.obolibrary.org/obo/chebi/",
         "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
         "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-        "obo": "http://purl.obolibrary.org/obo/"
+        "obo": "http://purl.obolibrary.org/obo/",
+        "uniprot": "http://purl.uniprot.org/",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "concept": "https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/",
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "dbo": "http://dbpedia.org/ontology/",
+        "dbp": "http://dbpedia.org/property/",
+        "altLabel": {
+            "@id": "http://www.w3.org/2004/02/skos/core#altLabel",
+            "@language": "en"
+        },
+        "graph": {
+            "@id": "@graph"
+        }
     },
-    "@id": "obo:CHEBI_7728",
-    "@type": "http://www.w3.org/2002/07/owl#Class",
-    "obo:IAO_0000115": "An 8-carbon primary aliphatic amine.",
+    "@id": "concept:IOQPZZOEVPZRBK-UHFFFAOYSA-N",
+    "@type": "skos:Concept",
+    "dbo:formula": "C8H19N",
+    "dbo:inchi": "InChI=1S/C8H19N/c1-2-3-4-5-6-7-8-9/h2-9H2,1H3",
+    "dbo:smiles": "CCCCCCCCN",
+    "dbp:inchikey": "IOQPZZOEVPZRBK-UHFFFAOYSA-N",
     "chebi:charge": "0",
-    "chebi:formula": "C8H19N",
-    "chebi:inchi": "InChI=1S/C8H19N/c1-2-3-4-5-6-7-8-9/h2-9H2,1H3",
-    "chebi:inchikey": "IOQPZZOEVPZRBK-UHFFFAOYSA-N",
-    "chebi:smiles": "CCCCCCCCN",
-    "geneontology:hasDbXref": [
-        "CAS:111-86-4",
-        "KEGG:C01740",
-        "PMID:29674022",
-        "PMID:37438993",
-        "PMID:6216130",
-        "Reaxys:1679227"
-    ],
-    "geneontology:hasId": "7728",
-    "geneontology:hasSynonym": [
+    "skos:altLabel": [
         "1-Aminooctane",
         "1-octanamine",
         "Monoctylamine",
         "N-Octylamine",
         "Octylamine"
     ],
-    "geneontology:inSubset": {
-        "@id": "obo:chebi#3_STAR"
+    "skos:exactMatch": {
+        "@id": "obo:CHEBI_7728"
     },
-    "rdfs:label": "octan-1-amine",
-    "rdfs:subClassOf": [
-        {
-            "@id": "obo:CHEBI_17062"
-        },
-        {
-            "@id": "b145_genid-00f1db82e1ab437c844115a94dc63e635-bn7728tmms73f195453"
-        },
-        {
-            "@id": "b145_genid-00f1db82e1ab437c844115a94dc63e635-bn7728t11f25212"
-        },
-        {
-            "@id": "b145_genid-00f1db82e1ab437c844115a94dc63e635-bn7728t5f195453"
-        }
-    ]
+    "skos:note": "An 8-carbon primary aliphatic amine.",
+    "skos:semanticRelation": {
+        "@id": "obo:CHEBI_17062"
+    }
 }

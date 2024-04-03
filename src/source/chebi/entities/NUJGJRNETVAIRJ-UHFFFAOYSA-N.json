@@ -1,40 +1,31 @@
 {
     "@context": {
-        "chebi": "http://purl.obolibrary.org/obo/chebi/",
         "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
         "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-        "obo": "http://purl.obolibrary.org/obo/"
+        "obo": "http://purl.obolibrary.org/obo/",
+        "uniprot": "http://purl.uniprot.org/",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "concept": "https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/",
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "dbo": "http://dbpedia.org/ontology/",
+        "dbp": "http://dbpedia.org/property/",
+        "altLabel": {
+            "@id": "http://www.w3.org/2004/02/skos/core#altLabel",
+            "@language": "en"
+        },
+        "graph": {
+            "@id": "@graph"
+        }
     },
-    "@id": "obo:CHEBI_17935",
-    "@type": "http://www.w3.org/2002/07/owl#Class",
-    "obo:IAO_0000115": "A saturated fatty aldehyde formally arising from reduction of the carboxy group of caprylic acid (octanoic acid).",
+    "@id": "concept:NUJGJRNETVAIRJ-UHFFFAOYSA-N",
+    "@type": "skos:Concept",
+    "dbo:formula": "C8H16O",
+    "dbo:inchi": "InChI=1S/C8H16O/c1-2-3-4-5-6-7-8-9/h8H,2-7H2,1H3",
+    "dbo:smiles": "CCCCCCCC=O",
+    "dbp:inchikey": "NUJGJRNETVAIRJ-UHFFFAOYSA-N",
     "chebi:charge": "0",
-    "chebi:formula": "C8H16O",
-    "chebi:inchi": "InChI=1S/C8H16O/c1-2-3-4-5-6-7-8-9/h8H,2-7H2,1H3",
-    "chebi:inchikey": "NUJGJRNETVAIRJ-UHFFFAOYSA-N",
-    "chebi:smiles": "CCCCCCCC=O",
-    "http://purl.uniprot.org/core/name": "octanal",
-    "geneontology:hasDbXref": [
-        "PMID:24295708",
-        "Beilstein:1744086",
-        "BPDB:1387",
-        "CAS:124-13-0",
-        "Gmelin:101464",
-        "HMDB:HMDB0001140",
-        "KEGG:C01545",
-        "KNApSAcK:C00030880",
-        "LIPID_MAPS_instance:LMFA06000028",
-        "MetaCyc:CPD-371",
-        "Patent:US2012164085",
-        "PDBeChem:OYA",
-        "PMID:24001856",
-        "PMID:24130214",
-        "Reaxys:1744086",
-        "UM-BBD_compID:c0046",
-        "Wikipedia:Octanal"
-    ],
-    "geneontology:hasId": "17935",
-    "geneontology:hasSynonym": [
+    "skos:altLabel": [
         "1-Caprylaldehyde",
         "1-Octaldehyde",
         "1-Octanal",
@@ -58,19 +49,16 @@
         "Oktanal",
         "Oktylaldehyd"
     ],
-    "geneontology:inSubset": {
-        "@id": "obo:chebi#3_STAR"
+    "skos:exactMatch": {
+        "@id": "obo:CHEBI_17935"
     },
-    "rdfs:label": "octanal",
-    "rdfs:subClassOf": [
+    "skos:note": "A saturated fatty aldehyde formally arising from reduction of the carboxy group of caprylic acid (octanoic acid).",
+    "skos:semanticRelation": [
         {
             "@id": "obo:CHEBI_12834"
         },
         {
             "@id": "obo:CHEBI_142621"
-        },
-        {
-            "@id": "b859_genid-00f1db82e1ab437c844115a94dc63e635-bn17935t11f76924"
         },
         {
             "@id": "obo:CHEBI_133249"

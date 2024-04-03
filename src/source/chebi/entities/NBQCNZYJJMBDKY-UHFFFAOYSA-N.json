@@ -1,33 +1,21 @@
 {
     "@context": {
-        "chebi": "http://purl.obolibrary.org/obo/chebi/",
         "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
         "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-        "obo": "http://purl.obolibrary.org/obo/"
-    },
-    "@id": "obo:CHEBI_9447",
-    "@type": "http://www.w3.org/2002/07/owl#Class",
-    "chebi:charge": "0",
-    "chebi:formula": "C9H13ClN2O2",
-    "chebi:inchi": "InChI=1S/C9H13ClN2O2/c1-5-6(10)7(13)12(8(14)11-5)9(2,3)4/h1-4H3,(H,11,14)",
-    "chebi:inchikey": "NBQCNZYJJMBDKY-UHFFFAOYSA-N",
-    "chebi:smiles": "Cc1[nH]c(=O)n(c(=O)c1Cl)C(C)(C)C",
-    "geneontology:hasDbXref": [
-        "CAS:5902-51-2",
-        "KEGG:C10963",
-        "PPDB:620"
-    ],
-    "geneontology:hasId": "9447",
-    "geneontology:inSubset": {
-        "@id": "obo:chebi#2_STAR"
-    },
-    "rdfs:label": "Terbacil",
-    "rdfs:subClassOf": [
-        {
-            "@id": "obo:CHEBI_17792"
+        "obo": "http://purl.obolibrary.org/obo/",
+        "uniprot": "http://purl.uniprot.org/",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "concept": "https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/",
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "dbo": "http://dbpedia.org/ontology/",
+        "dbp": "http://dbpedia.org/property/",
+        "altLabel": {
+            "@id": "http://www.w3.org/2004/02/skos/core#altLabel",
+            "@language": "en"
         },
-        {
-            "@id": "obo:CHEBI_39447"
+        "graph": {
+            "@id": "@graph"
         }
-    ]
+    }
 }

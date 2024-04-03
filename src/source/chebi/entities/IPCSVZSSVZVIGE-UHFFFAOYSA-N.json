@@ -1,48 +1,31 @@
 {
     "@context": {
-        "chebi": "http://purl.obolibrary.org/obo/chebi/",
         "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
         "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-        "obo": "http://purl.obolibrary.org/obo/"
+        "obo": "http://purl.obolibrary.org/obo/",
+        "uniprot": "http://purl.uniprot.org/",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "concept": "https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/",
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "dbo": "http://dbpedia.org/ontology/",
+        "dbp": "http://dbpedia.org/property/",
+        "altLabel": {
+            "@id": "http://www.w3.org/2004/02/skos/core#altLabel",
+            "@language": "en"
+        },
+        "graph": {
+            "@id": "@graph"
+        }
     },
-    "@id": "obo:CHEBI_15756",
-    "@type": "http://www.w3.org/2002/07/owl#Class",
-    "obo:IAO_0000115": "A straight-chain, sixteen-carbon, saturated long-chain fatty acid.",
+    "@id": "concept:IPCSVZSSVZVIGE-UHFFFAOYSA-N",
+    "@type": "skos:Concept",
+    "dbo:formula": "C16H32O2",
+    "dbo:inchi": "InChI=1S/C16H32O2/c1-2-3-4-5-6-7-8-9-10-11-12-13-14-15-16(17)18/h2-15H2,1H3,(H,17,18)",
+    "dbo:smiles": "CCCCCCCCCCCCCCCC(O)=O",
+    "dbp:inchikey": "IPCSVZSSVZVIGE-UHFFFAOYSA-N",
     "chebi:charge": "0",
-    "chebi:formula": "C16H32O2",
-    "chebi:inchi": "InChI=1S/C16H32O2/c1-2-3-4-5-6-7-8-9-10-11-12-13-14-15-16(17)18/h2-15H2,1H3,(H,17,18)",
-    "chebi:inchikey": "IPCSVZSSVZVIGE-UHFFFAOYSA-N",
-    "chebi:smiles": "CCCCCCCCCCCCCCCC(O)=O",
-    "geneontology:hasDbXref": [
-        "PMID:17439666",
-        "PMID:22735334",
-        "PMID:25584012",
-        "HMDB:HMDB0000220",
-        "MetaCyc:PALMITATE",
-        "Beilstein:607489",
-        "CAS:57-10-3",
-        "DrugBank:DB03796",
-        "Gmelin:190200",
-        "KEGG:C00249",
-        "KEGG:D05341",
-        "KNApSAcK:C00001233",
-        "KNApSAcK:C00030479",
-        "LIPID_MAPS_instance:LMFA01010001",
-        "PDBeChem:PLM",
-        "PMID:12492626",
-        "PMID:15357969",
-        "PMID:1589452",
-        "PMID:16509590",
-        "PMID:16884313",
-        "PMID:17502136",
-        "PMID:20001317",
-        "PMID:28600633",
-        "PPDB:1336",
-        "Reaxys:607489",
-        "Wikipedia:Palmitic_acid"
-    ],
-    "geneontology:hasId": "15756",
-    "geneontology:hasSynonym": [
+    "skos:altLabel": [
         "16:00",
         "1-hexyldecanoic acid",
         "1-Pentadecanecarboxylic acid",
@@ -66,34 +49,16 @@
         "Palmitinsaeure",
         "Pentadecanecarboxylic acid"
     ],
-    "geneontology:inSubset": {
-        "@id": "obo:chebi#3_STAR"
+    "skos:exactMatch": {
+        "@id": "obo:CHEBI_15756"
     },
-    "rdfs:label": "hexadecanoic acid",
-    "rdfs:subClassOf": [
+    "skos:note": "A straight-chain, sixteen-carbon, saturated long-chain fatty acid.",
+    "skos:semanticRelation": [
         {
             "@id": "obo:CHEBI_15904"
         },
         {
             "@id": "obo:CHEBI_39418"
-        },
-        {
-            "@id": "b153_genid-00f1db82e1ab437c844115a94dc63e635-bn15756tmms73f7896"
-        },
-        {
-            "@id": "b153_genid-00f1db82e1ab437c844115a94dc63e635-bn15756t4f7896"
-        },
-        {
-            "@id": "b153_genid-00f1db82e1ab437c844115a94dc63e635-bn15756t11f76924"
-        },
-        {
-            "@id": "b153_genid-00f1db82e1ab437c844115a94dc63e635-bn15756t11f77119"
-        },
-        {
-            "@id": "b153_genid-00f1db82e1ab437c844115a94dc63e635-bn15756t11f83056"
-        },
-        {
-            "@id": "b153_genid-00f1db82e1ab437c844115a94dc63e635-bn15756t11f84735"
         }
     ]
 }

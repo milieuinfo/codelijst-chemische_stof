@@ -1,53 +1,42 @@
 {
     "@context": {
-        "chebi": "http://purl.obolibrary.org/obo/chebi/",
         "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
         "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-        "obo": "http://purl.obolibrary.org/obo/"
+        "obo": "http://purl.obolibrary.org/obo/",
+        "uniprot": "http://purl.uniprot.org/",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "concept": "https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/",
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "dbo": "http://dbpedia.org/ontology/",
+        "dbp": "http://dbpedia.org/property/",
+        "altLabel": {
+            "@id": "http://www.w3.org/2004/02/skos/core#altLabel",
+            "@language": "en"
+        },
+        "graph": {
+            "@id": "@graph"
+        }
     },
-    "@id": "obo:CHEBI_39426",
-    "@type": "http://www.w3.org/2002/07/owl#Class",
-    "obo:IAO_0000115": "A monocarboxylic acid that is perfluorinated butyric acid.",
+    "@id": "concept:YPJUNDFVDDCYIH-UHFFFAOYSA-N",
+    "@type": "skos:Concept",
+    "dbo:formula": "C4HF7O2",
+    "dbo:inchi": "InChI=1S/C4HF7O2/c5-2(6,1(12)13)3(7,8)4(9,10)11/h(H,12,13)",
+    "dbo:smiles": "OC(=O)C(F)(F)C(F)(F)C(F)(F)F",
+    "dbp:inchikey": "YPJUNDFVDDCYIH-UHFFFAOYSA-N",
     "chebi:charge": "0",
-    "chebi:formula": "C4HF7O2",
-    "chebi:inchi": "InChI=1S/C4HF7O2/c5-2(6,1(12)13)3(7,8)4(9,10)11/h(H,12,13)",
-    "chebi:inchikey": "YPJUNDFVDDCYIH-UHFFFAOYSA-N",
-    "chebi:smiles": "OC(=O)C(F)(F)C(F)(F)C(F)(F)F",
-    "geneontology:hasDbXref": [
-        "Beilstein:1426882",
-        "CAS:375-22-4",
-        "PMID:24114467",
-        "PMID:24756992",
-        "Reaxys:1426882",
-        "Wikipedia:Heptafluorobutyric_acid"
-    ],
-    "geneontology:hasId": "39426",
-    "geneontology:hasSynonym": [
+    "skos:altLabel": [
         "Heptafluoro-1-butanoic acid",
         "heptafluorobutanoic acid",
         "Heptafluorobutyric acid",
         "Perfluorobutanoic acid",
         "Perfluoropropanecarboxylic acid"
     ],
-    "geneontology:inSubset": {
-        "@id": "obo:chebi#3_STAR"
+    "skos:exactMatch": {
+        "@id": "obo:CHEBI_39426"
     },
-    "rdfs:label": "perfluorobutyric acid",
-    "rdfs:subClassOf": [
-        {
-            "@id": "obo:CHEBI_35551"
-        },
-        {
-            "@id": "b379_genid-00f1db82e1ab437c844115a94dc63e635-bn39426t8f30772"
-        },
-        {
-            "@id": "b379_genid-00f1db82e1ab437c844115a94dc63e635-bn39426t11f35703"
-        },
-        {
-            "@id": "b379_genid-00f1db82e1ab437c844115a94dc63e635-bn39426t11f59745"
-        },
-        {
-            "@id": "b379_genid-00f1db82e1ab437c844115a94dc63e635-bn39426t11f78298"
-        }
-    ]
+    "skos:note": "A monocarboxylic acid that is perfluorinated butyric acid.",
+    "skos:semanticRelation": {
+        "@id": "obo:CHEBI_35551"
+    }
 }

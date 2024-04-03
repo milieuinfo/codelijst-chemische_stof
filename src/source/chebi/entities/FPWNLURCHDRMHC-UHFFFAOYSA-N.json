@@ -1,31 +1,27 @@
 {
     "@context": {
-        "chebi": "http://purl.obolibrary.org/obo/chebi/",
         "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
         "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-        "obo": "http://purl.obolibrary.org/obo/"
+        "obo": "http://purl.obolibrary.org/obo/",
+        "uniprot": "http://purl.uniprot.org/",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "concept": "https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/",
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "dbo": "http://dbpedia.org/ontology/",
+        "dbp": "http://dbpedia.org/property/",
+        "graph": {
+            "@id": "@graph"
+        }
     },
-    "@id": "obo:CHEBI_27757",
-    "@type": "http://www.w3.org/2002/07/owl#Class",
-    "obo:IAO_0000115": "A monochlorobiphenyl carrying a chloro substituent at position 4.",
+    "@id": "concept:FPWNLURCHDRMHC-UHFFFAOYSA-N",
+    "@type": "skos:Concept",
+    "dbo:formula": "C12H9Cl",
+    "dbo:inchi": "InChI=1S/C12H9Cl/c13-12-8-6-11(7-9-12)10-4-2-1-3-5-10/h1-9H",
+    "dbo:smiles": "Clc1ccc(cc1)-c1ccccc1",
+    "dbp:inchikey": "FPWNLURCHDRMHC-UHFFFAOYSA-N",
     "chebi:charge": "0",
-    "chebi:formula": "C12H9Cl",
-    "chebi:inchi": "InChI=1S/C12H9Cl/c13-12-8-6-11(7-9-12)10-4-2-1-3-5-10/h1-9H",
-    "chebi:inchikey": "FPWNLURCHDRMHC-UHFFFAOYSA-N",
-    "chebi:smiles": "Clc1ccc(cc1)-c1ccccc1",
-    "geneontology:hasDbXref": [
-        "Beilstein:774966",
-        "CAS:2051-62-9",
-        "Gmelin:131583",
-        "KEGG:C06584",
-        "PMID:23137097",
-        "PMID:23250224",
-        "PMID:24007621",
-        "Reaxys:774966",
-        "UM-BBD_compID:c0177"
-    ],
-    "geneontology:hasId": "27757",
-    "geneontology:hasSynonym": [
+    "skos:altLabel": [
         "1-Chloro-4-phenyl benzene",
         "4-Chlorbiphenyl",
         "4-chloro-1,1'-biphenyl",
@@ -35,11 +31,11 @@
         "p-chlorobiphenyl",
         "p-chlorodiphenyl"
     ],
-    "geneontology:inSubset": {
-        "@id": "obo:chebi#3_STAR"
+    "skos:exactMatch": {
+        "@id": "obo:CHEBI_27757"
     },
-    "rdfs:label": "4-chlorobiphenyl",
-    "rdfs:subClassOf": {
+    "skos:note": "A monochlorobiphenyl carrying a chloro substituent at position 4.",
+    "skos:semanticRelation": {
         "@id": "obo:CHEBI_36717"
     }
 }

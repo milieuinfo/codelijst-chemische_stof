@@ -1,35 +1,31 @@
 {
     "@context": {
-        "chebi": "http://purl.obolibrary.org/obo/chebi/",
         "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
         "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-        "obo": "http://purl.obolibrary.org/obo/"
+        "obo": "http://purl.obolibrary.org/obo/",
+        "uniprot": "http://purl.uniprot.org/",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "concept": "https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/",
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "dbo": "http://dbpedia.org/ontology/",
+        "dbp": "http://dbpedia.org/property/",
+        "altLabel": {
+            "@id": "http://www.w3.org/2004/02/skos/core#altLabel",
+            "@language": "en"
+        },
+        "graph": {
+            "@id": "@graph"
+        }
     },
-    "@id": "obo:CHEBI_34938",
-    "@type": "http://www.w3.org/2002/07/owl#Class",
-    "obo:IAO_0000115": "A carbamate ester that is phenyl methylcarbamate substituted at position 2 by a propan-2-yloxy group.",
+    "@id": "concept:ISRUGXGCCGIOQO-UHFFFAOYSA-N",
+    "@type": "skos:Concept",
+    "dbo:formula": "C11H15NO3",
+    "dbo:inchi": "InChI=1S/C11H15NO3/c1-8(2)14-9-6-4-5-7-10(9)15-11(13)12-3/h4-8H,1-3H3,(H,12,13)",
+    "dbo:smiles": "CNC(=O)Oc1ccccc1OC(C)C",
+    "dbp:inchikey": "ISRUGXGCCGIOQO-UHFFFAOYSA-N",
     "chebi:charge": "0",
-    "chebi:formula": "C11H15NO3",
-    "chebi:inchi": "InChI=1S/C11H15NO3/c1-8(2)14-9-6-4-5-7-10(9)15-11(13)12-3/h4-8H,1-3H3,(H,12,13)",
-    "chebi:inchikey": "ISRUGXGCCGIOQO-UHFFFAOYSA-N",
-    "chebi:smiles": "CNC(=O)Oc1ccccc1OC(C)C",
-    "http://purl.uniprot.org/core/name": "propoxur",
-    "geneontology:hasDbXref": [
-        "CAS:114-26-1",
-        "KEGG:C14334",
-        "KEGG:D08442",
-        "Pesticides:propoxur",
-        "PMID:19019354",
-        "PMID:23201499",
-        "PMID:24733834",
-        "PMID:25016118",
-        "PPDB:553",
-        "Reaxys:1879891",
-        "VSDB:553",
-        "Wikipedia:Propoxur"
-    ],
-    "geneontology:hasId": "34938",
-    "geneontology:hasSynonym": [
+    "skos:altLabel": [
         "2-(1-methylethoxy)phenyl methylcarbamate",
         "2-(propan-2-yloxy)phenyl methylcarbamate",
         "2-Isopropoxyphenyl methylcarbamate",
@@ -38,34 +34,16 @@
         "Baygon",
         "Propoxur"
     ],
-    "geneontology:inSubset": {
-        "@id": "obo:chebi#3_STAR"
+    "skos:exactMatch": {
+        "@id": "obo:CHEBI_34938"
     },
-    "rdfs:label": "propoxur",
-    "rdfs:subClassOf": [
+    "skos:note": "A carbamate ester that is phenyl methylcarbamate substituted at position 2 by a propan-2-yloxy group.",
+    "skos:semanticRelation": [
         {
             "@id": "obo:CHEBI_35618"
         },
         {
             "@id": "obo:CHEBI_23003"
-        },
-        {
-            "@id": "b170_genid-00f1db82e1ab437c844115a94dc63e635-bn34938t11f22153"
-        },
-        {
-            "@id": "b170_genid-00f1db82e1ab437c844115a94dc63e635-bn34938t11f33286"
-        },
-        {
-            "@id": "b170_genid-00f1db82e1ab437c844115a94dc63e635-bn34938t11f38461"
-        },
-        {
-            "@id": "b170_genid-00f1db82e1ab437c844115a94dc63e635-bn34938t11f38462"
-        },
-        {
-            "@id": "b170_genid-00f1db82e1ab437c844115a94dc63e635-bn34938t8f38547"
-        },
-        {
-            "@id": "b170_genid-00f1db82e1ab437c844115a94dc63e635-bn34938t8f45379"
         }
     ]
 }

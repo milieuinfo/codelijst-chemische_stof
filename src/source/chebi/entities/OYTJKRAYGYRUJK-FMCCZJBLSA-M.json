@@ -1,66 +1,21 @@
 {
     "@context": {
-        "chebi": "http://purl.obolibrary.org/obo/chebi/",
         "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
         "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-        "obo": "http://purl.obolibrary.org/obo/"
-    },
-    "@id": "obo:CHEBI_8885",
-    "@type": "http://www.w3.org/2002/07/owl#Class",
-    "obo:IAO_0000115": "The organic bromide salt of a 5alpha androstane compound having 3alpha-hydroxy-, 17beta-acetoxy-, 2beta-morpholino- and 16beta-N-allyllyrrolidinium substituents.",
-    "chebi:charge": "0",
-    "chebi:inchi": "InChI=1S/C32H53N2O4.BrH/c1-5-14-34(15-6-7-16-34)28-20-26-24-9-8-23-19-29(36)27(33-12-17-37-18-13-33)21-32(23,4)25(24)10-11-31(26,3)30(28)38-22(2)35;/h5,23-30,36H,1,6-21H2,2-4H3;1H/q+1;/p-1/t23-,24+,25-,26-,27-,28-,29-,30-,31-,32-;/m0./s1",
-    "chebi:inchikey": "OYTJKRAYGYRUJK-FMCCZJBLSA-M",
-    "chebi:smiles": "[Br-].[H][C@@]12CC[C@]3([H])[C@]([H])(CC[C@]4(C)[C@@H](OC(C)=O)[C@H](C[C@@]34[H])[N+]3(CCCC3)CC=C)[C@@]1(C)C[C@@H]([C@@H](O)C2)N1CCOCC1",
-    "geneontology:hasDbXref": [
-        "PMID:17667569",
-        "DrugBank:DB00728",
-        "PMID:8279688",
-        "Beilstein:7161858",
-        "CAS:119302-91-9",
-        "KEGG:D00765",
-        "Patent:CN101687905",
-        "PMID:15078379",
-        "PMID:16426875",
-        "PMID:16856542",
-        "PMID:21253831",
-        "PMID:21263302",
-        "PMID:21733065",
-        "PMID:21772683",
-        "PMID:22189343",
-        "PMID:22338473",
-        "PMID:23480130",
-        "Reaxys:7161858",
-        "Wikipedia:Rocuronium_bromide"
-    ],
-    "geneontology:hasId": "8885",
-    "geneontology:hasSynonym": [
-        "17beta-(acetyloxy)-3alpha-hydroxy-2beta-(morpholin-4-yl)-16beta-[1-(prop-2-en-1-yl)pyrrolidinium-1-yl]-5alpha-androstane",
-        "17beta-acetoxy-16beta-(1-allylpyrrolidinium-1-yl)-3alpha-hydroxy-2beta-(morpholin-4-yl)-5alphaandrostane",
-        "1-Allyl-1-(3alpha,17beta-dihydroxy-2beta-morpholino-5alpha-androstan-16beta-yl)pyrrolidinium bromide, 17-acetate"
-    ],
-    "geneontology:inSubset": {
-        "@id": "obo:chebi#3_STAR"
-    },
-    "rdfs:label": "rocuronium bromide",
-    "rdfs:subClassOf": [
-        {
-            "@id": "obo:CHEBI_35273"
+        "obo": "http://purl.obolibrary.org/obo/",
+        "uniprot": "http://purl.uniprot.org/",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "concept": "https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/",
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "dbo": "http://dbpedia.org/ontology/",
+        "dbp": "http://dbpedia.org/property/",
+        "altLabel": {
+            "@id": "http://www.w3.org/2004/02/skos/core#altLabel",
+            "@language": "en"
         },
-        {
-            "@id": "obo:CHEBI_48369"
-        },
-        {
-            "@id": "b99_genid-00f1db82e1ab437c844115a94dc63e635-bn8885t10f8884"
-        },
-        {
-            "@id": "b99_genid-00f1db82e1ab437c844115a94dc63e635-bn8885t9f28859"
-        },
-        {
-            "@id": "b99_genid-00f1db82e1ab437c844115a94dc63e635-bn8885t11f51371"
-        },
-        {
-            "@id": "b99_genid-00f1db82e1ab437c844115a94dc63e635-bn8885t11f51372"
+        "graph": {
+            "@id": "@graph"
         }
-    ]
+    }
 }

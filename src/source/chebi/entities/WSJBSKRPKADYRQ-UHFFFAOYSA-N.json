@@ -1,46 +1,44 @@
 {
     "@context": {
-        "chebi": "http://purl.obolibrary.org/obo/chebi/",
         "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
         "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-        "obo": "http://purl.obolibrary.org/obo/"
+        "obo": "http://purl.obolibrary.org/obo/",
+        "uniprot": "http://purl.uniprot.org/",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "concept": "https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/",
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "dbo": "http://dbpedia.org/ontology/",
+        "dbp": "http://dbpedia.org/property/",
+        "altLabel": {
+            "@id": "http://www.w3.org/2004/02/skos/core#altLabel",
+            "@language": "en"
+        },
+        "graph": {
+            "@id": "@graph"
+        }
     },
-    "@id": "obo:CHEBI_83526",
-    "@type": "http://www.w3.org/2002/07/owl#Class",
-    "obo:IAO_0000115": "A  pyrazolone that is 1,2-dihydro-3H-pyrazol-3-one substituted by a formaylamino group at position 4, methyl groups at positions 1 and 5 and a phenyl group at position 2. It is a metabolite of aminophenazone.",
+    "@id": "concept:WSJBSKRPKADYRQ-UHFFFAOYSA-N",
+    "@type": "skos:Concept",
+    "dbo:formula": "C12H13N3O2",
+    "dbo:inchi": "InChI=1S/C12H13N3O2/c1-9-11(13-8-16)12(17)15(14(9)2)10-6-4-3-5-7-10/h3-8H,1-2H3,(H,13,16)",
+    "dbo:smiles": "Cc1c(NC=O)c(=O)n(-c2ccccc2)n1C",
+    "dbp:inchikey": "WSJBSKRPKADYRQ-UHFFFAOYSA-N",
     "chebi:charge": "0",
-    "chebi:formula": "C12H13N3O2",
-    "chebi:inchi": "InChI=1S/C12H13N3O2/c1-9-11(13-8-16)12(17)15(14(9)2)10-6-4-3-5-7-10/h3-8H,1-2H3,(H,13,16)",
-    "chebi:inchikey": "WSJBSKRPKADYRQ-UHFFFAOYSA-N",
-    "chebi:smiles": "Cc1c(NC=O)c(=O)n(-c2ccccc2)n1C",
-    "geneontology:hasDbXref": [
-        "CAS:1672-58-8",
-        "PMID:1182870",
-        "PMID:1182905",
-        "PMID:975420",
-        "Reaxys:217665"
-    ],
-    "geneontology:hasId": "83526",
-    "geneontology:hasSynonym": [
+    "skos:altLabel": [
         "N-(1,5-dimethyl-3-oxo-2-phenyl-2,3-dihydro-1H-pyrazol-4-yl)formamide",
         "N-antipyrinyl formamide"
     ],
-    "geneontology:inSubset": {
-        "@id": "obo:chebi#3_STAR"
+    "skos:exactMatch": {
+        "@id": "obo:CHEBI_83526"
     },
-    "rdfs:label": "4-formylaminoantipyrine",
-    "rdfs:subClassOf": [
+    "skos:note": "A  pyrazolone that is 1,2-dihydro-3H-pyrazol-3-one substituted by a formaylamino group at position 4, methyl groups at positions 1 and 5 and a phenyl group at position 2. It is a metabolite of aminophenazone.",
+    "skos:semanticRelation": [
         {
             "@id": "obo:CHEBI_24079"
         },
         {
             "@id": "obo:CHEBI_83328"
-        },
-        {
-            "@id": "b88_genid-00f1db82e1ab437c844115a94dc63e635-bn83526t11f49103"
-        },
-        {
-            "@id": "b88_genid-00f1db82e1ab437c844115a94dc63e635-bn83526t11f83399"
         }
     ]
 }

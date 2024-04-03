@@ -1,47 +1,31 @@
 {
     "@context": {
-        "chebi": "http://purl.obolibrary.org/obo/chebi/",
         "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
         "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-        "obo": "http://purl.obolibrary.org/obo/"
+        "obo": "http://purl.obolibrary.org/obo/",
+        "uniprot": "http://purl.uniprot.org/",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "concept": "https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/",
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "dbo": "http://dbpedia.org/ontology/",
+        "dbp": "http://dbpedia.org/property/",
+        "altLabel": {
+            "@id": "http://www.w3.org/2004/02/skos/core#altLabel",
+            "@language": "en"
+        },
+        "graph": {
+            "@id": "@graph"
+        }
     },
-    "@id": "obo:CHEBI_49566",
-    "@type": "http://www.w3.org/2002/07/owl#Class",
-    "obo:IAO_0000115": "A semisynthetic penicillin antibiotic carrying a 3-(2-chlorophenyl)-5-methylisoxazole-4-carboxamido group at position 6.",
+    "@id": "concept:LQOLIRLGBULYKD-JKIFEVAISA-N",
+    "@type": "skos:Concept",
+    "dbo:formula": "C19H18ClN3O5S",
+    "dbo:inchi": "InChI=1S/C19H18ClN3O5S/c1-8-11(12(22-28-8)9-6-4-5-7-10(9)20)15(24)21-13-16(25)23-14(18(26)27)19(2,3)29-17(13)23/h4-7,13-14,17H,1-3H3,(H,21,24)(H,26,27)/t13-,14+,17-/m1/s1",
+    "dbo:smiles": "[H][C@]12SC(C)(C)[C@@H](N1C(=O)[C@H]2NC(=O)c1c(C)onc1-c1ccccc1Cl)C(O)=O",
+    "dbp:inchikey": "LQOLIRLGBULYKD-JKIFEVAISA-N",
     "chebi:charge": "0",
-    "chebi:formula": "C19H18ClN3O5S",
-    "chebi:inchi": "InChI=1S/C19H18ClN3O5S/c1-8-11(12(22-28-8)9-6-4-5-7-10(9)20)15(24)21-13-16(25)23-14(18(26)27)19(2,3)29-17(13)23/h4-7,13-14,17H,1-3H3,(H,21,24)(H,26,27)/t13-,14+,17-/m1/s1",
-    "chebi:inchikey": "LQOLIRLGBULYKD-JKIFEVAISA-N",
-    "chebi:smiles": "[H][C@]12SC(C)(C)[C@@H](N1C(=O)[C@H]2NC(=O)c1c(C)onc1-c1ccccc1Cl)C(O)=O",
-    "geneontology:hasDbXref": [
-        "PMID:29017833",
-        "PMID:1701026",
-        "Patent:US2996501",
-        "PMID:8566082",
-        "Beilstein:1232834",
-        "CAS:61-72-3",
-        "Drug_Central:720",
-        "DrugBank:DB01147",
-        "HMDB:HMDB0015278",
-        "KEGG:C06923",
-        "KEGG:D07733",
-        "LINCS:LSM-15183",
-        "PDBeChem:CXN",
-        "PMID:16540070",
-        "PMID:16853954",
-        "PMID:24858821",
-        "PMID:25305230",
-        "PMID:25582344",
-        "PMID:26365730",
-        "PMID:27446834",
-        "PMID:27889744",
-        "PMID:7417768",
-        "Reaxys:1232834",
-        "VSDB:1859",
-        "Wikipedia:Cloxacillin"
-    ],
-    "geneontology:hasId": "49566",
-    "geneontology:hasSynonym": [
+    "skos:altLabel": [
         "(2S,5R,6R)-6-({[3-(2-chlorophenyl)-5-methylisoxazol-4-yl]carbonyl}amino)-3,3-dimethyl-7-oxo-4-thia-1-azabicyclo[3.2.0]heptane-2-carboxylic acid",
         "(3-(o-chlorophenyl)-5-methyl-4-isoxazolyl)penicillin",
         "2,2-dimethyl-6beta-({[5-methyl-3-(2-chlorophenyl)isoxazol-4-yl]carbonyl}amino)penam-3alpha-carboxylic acid",
@@ -52,11 +36,11 @@
         "cloxacilline",
         "cloxacillinum"
     ],
-    "geneontology:inSubset": {
-        "@id": "obo:chebi#3_STAR"
+    "skos:exactMatch": {
+        "@id": "obo:CHEBI_49566"
     },
-    "rdfs:label": "cloxacillin",
-    "rdfs:subClassOf": [
+    "skos:note": "A semisynthetic penicillin antibiotic carrying a 3-(2-chlorophenyl)-5-methylisoxazole-4-carboxamido group at position 6.",
+    "skos:semanticRelation": [
         {
             "@id": "obo:CHEBI_17334"
         },
@@ -65,21 +49,6 @@
         },
         {
             "@id": "obo:CHEBI_72588"
-        },
-        {
-            "@id": "b588_genid-00f1db82e1ab437c844115a94dc63e635-bn49566tmms73f51350"
-        },
-        {
-            "@id": "b588_genid-00f1db82e1ab437c844115a94dc63e635-bn49566t8f7809"
-        },
-        {
-            "@id": "b588_genid-00f1db82e1ab437c844115a94dc63e635-bn49566t11f33282"
-        },
-        {
-            "@id": "b588_genid-00f1db82e1ab437c844115a94dc63e635-bn49566t11f36047"
-        },
-        {
-            "@id": "b588_genid-00f1db82e1ab437c844115a94dc63e635-bn49566t4f51350"
         }
     ]
 }

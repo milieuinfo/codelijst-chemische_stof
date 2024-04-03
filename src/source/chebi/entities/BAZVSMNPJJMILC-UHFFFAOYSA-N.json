@@ -1,46 +1,37 @@
 {
     "@context": {
-        "chebi": "http://purl.obolibrary.org/obo/chebi/",
         "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
         "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-        "obo": "http://purl.obolibrary.org/obo/"
+        "obo": "http://purl.obolibrary.org/obo/",
+        "uniprot": "http://purl.uniprot.org/",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "concept": "https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/",
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "dbo": "http://dbpedia.org/ontology/",
+        "dbp": "http://dbpedia.org/property/",
+        "graph": {
+            "@id": "@graph"
+        }
     },
-    "@id": "obo:CHEBI_9666",
-    "@type": "http://www.w3.org/2002/07/owl#Class",
-    "obo:IAO_0000115": "A member of the class of triazoles that is 3,3-dimethyl-1-(1,2,4-triazol-1-yl)butane-1,2-diol substituted at position O1 by a 4-chlorophenyl group. A fungicide for cereals, beet and brassicas used to control a range of diseases including powdery mildew, rusts, bunts and smuts.",
+    "@id": "concept:BAZVSMNPJJMILC-UHFFFAOYSA-N",
+    "@type": "skos:Concept",
+    "dbo:formula": "C14H18ClN3O2",
+    "dbo:inchi": "InChI=1S/C14H18ClN3O2/c1-14(2,3)12(19)13(18-9-16-8-17-18)20-11-6-4-10(15)5-7-11/h4-9,12-13,19H,1-3H3",
+    "dbo:smiles": "CC(C)(C)C(O)C(Oc1ccc(Cl)cc1)n1cncn1",
+    "dbp:inchikey": "BAZVSMNPJJMILC-UHFFFAOYSA-N",
     "chebi:charge": "0",
-    "chebi:formula": "C14H18ClN3O2",
-    "chebi:inchi": "InChI=1S/C14H18ClN3O2/c1-14(2,3)12(19)13(18-9-16-8-17-18)20-11-6-4-10(15)5-7-11/h4-9,12-13,19H,1-3H3",
-    "chebi:inchikey": "BAZVSMNPJJMILC-UHFFFAOYSA-N",
-    "chebi:smiles": "CC(C)(C)C(O)C(Oc1ccc(Cl)cc1)n1cncn1",
-    "geneontology:hasDbXref": [
-        "PMID:23876258",
-        "PMID:24342051",
-        "PMID:25011125",
-        "CAS:55219-65-3",
-        "KEGG:C11127",
-        "LINCS:LSM-27940",
-        "Pesticides:triadimenol",
-        "PMID:21341686",
-        "PMID:22102610",
-        "PMID:22944149",
-        "PMID:23661341",
-        "PMID:24615979",
-        "PPDB:649",
-        "Reaxys:616470"
-    ],
-    "geneontology:hasId": "9666",
-    "geneontology:hasSynonym": [
+    "skos:altLabel": [
         "1-(4-chlorophenoxy)-3,3-dimethyl-1-(1H-1,2,4-triazol-1-yl)butan-2-ol",
         "2-(4-Chlorophenoxy)-1-tert-butyl-2-(1H-1,2,4-triazole-1-yl)ethanol",
         "alpha-tert-butyl-beta-(4-chlorophenoxy)-1H-1,2,4-triazole-1-ethanol",
         "beta-(4-Chlorophenoxy)-alpha-(1,1-dimethylethyl)-1H-1,2,4-triazole-1-ethanol"
     ],
-    "geneontology:inSubset": {
-        "@id": "obo:chebi#3_STAR"
+    "skos:exactMatch": {
+        "@id": "obo:CHEBI_9666"
     },
-    "rdfs:label": "triadimenol",
-    "rdfs:subClassOf": [
+    "skos:note": "A member of the class of triazoles that is 3,3-dimethyl-1-(1,2,4-triazol-1-yl)butane-1,2-diol substituted at position O1 by a 4-chlorophenyl group. A fungicide for cereals, beet and brassicas used to control a range of diseases including powdery mildew, rusts, bunts and smuts.",
+    "skos:semanticRelation": [
         {
             "@id": "obo:CHEBI_35681"
         },
@@ -58,15 +49,6 @@
         },
         {
             "@id": "obo:CHEBI_141498"
-        },
-        {
-            "@id": "b141_genid-00f1db82e1ab437c844115a94dc63e635-bn9666t11f76206"
-        },
-        {
-            "@id": "b141_genid-00f1db82e1ab437c844115a94dc63e635-bn9666t11f77884"
-        },
-        {
-            "@id": "b141_genid-00f1db82e1ab437c844115a94dc63e635-bn9666t11f86328"
         }
     ]
 }

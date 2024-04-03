@@ -1,55 +1,31 @@
 {
     "@context": {
-        "chebi": "http://purl.obolibrary.org/obo/chebi/",
         "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
         "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-        "obo": "http://purl.obolibrary.org/obo/"
+        "obo": "http://purl.obolibrary.org/obo/",
+        "uniprot": "http://purl.uniprot.org/",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "concept": "https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/",
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "dbo": "http://dbpedia.org/ontology/",
+        "dbp": "http://dbpedia.org/property/",
+        "altLabel": {
+            "@id": "http://www.w3.org/2004/02/skos/core#altLabel",
+            "@language": "en"
+        },
+        "graph": {
+            "@id": "@graph"
+        }
     },
-    "@id": "obo:CHEBI_4735",
-    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "@id": "concept:KCXVZYZYPLLWCC-UHFFFAOYSA-N",
+    "@type": "skos:Concept",
+    "dbo:formula": "C10H16N2O8",
+    "dbo:inchi": "InChI=1S/C10H16N2O8/c13-7(14)3-11(4-8(15)16)1-2-12(5-9(17)18)6-10(19)20/h1-6H2,(H,13,14)(H,15,16)(H,17,18)(H,19,20)",
+    "dbo:smiles": "OC(=O)CN(CCN(CC(O)=O)CC(O)=O)CC(O)=O",
+    "dbp:inchikey": "KCXVZYZYPLLWCC-UHFFFAOYSA-N",
     "chebi:charge": "0",
-    "chebi:formula": "C10H16N2O8",
-    "chebi:inchi": "InChI=1S/C10H16N2O8/c13-7(14)3-11(4-8(15)16)1-2-12(5-9(17)18)6-10(19)20/h1-6H2,(H,13,14)(H,15,16)(H,17,18)(H,19,20)",
-    "chebi:inchikey": "KCXVZYZYPLLWCC-UHFFFAOYSA-N",
-    "chebi:smiles": "OC(=O)CN(CCN(CC(O)=O)CC(O)=O)CC(O)=O",
-    "geneontology:hasDbXref": [
-        "CAS:60-00-4",
-        "Chemspider:5826",
-        "Drug_Central:987",
-        "DrugBank:DB00974",
-        "HMDB:HMDB0015109",
-        "KEGG:C00284",
-        "KEGG:D00052",
-        "KNApSAcK:C00062378",
-        "PDBeChem:EDT",
-        "PMID:33351441",
-        "PMID:34135967",
-        "PMID:34152137",
-        "PMID:34277313",
-        "PMID:34370848",
-        "PMID:34481414",
-        "PMID:35006635",
-        "PMID:35305029",
-        "PMID:35343279",
-        "PMID:35859250",
-        "PMID:35936934",
-        "PMID:35964552",
-        "PMID:36187868",
-        "PMID:36200920",
-        "PMID:36229181",
-        "PMID:36265367",
-        "PMID:36297869",
-        "PMID:36314569",
-        "PMID:36348502",
-        "PMID:36540522",
-        "PMID:36566396",
-        "PMID:36597320",
-        "PPDB:1337",
-        "Reaxys:1716295",
-        "Wikipedia:Ethylenediaminetetraacetic_acid"
-    ],
-    "geneontology:hasId": "4735",
-    "geneontology:hasSynonym": [
+    "skos:altLabel": [
         "EDTA",
         "(ethane-1,2-diyldinitrilo)tetraacetic acid",
         "(ethylenedinitrilo)tetraacetic acid",
@@ -70,40 +46,18 @@
         "N,N'-1,2-Ethane diylbis-(N-(carboxymethyl)glycine)",
         "N,N'-1,2-ethanediylbis[N-(carboxymethyl)glycine]"
     ],
-    "geneontology:inSubset": {
-        "@id": "obo:chebi#3_STAR"
+    "skos:exactMatch": {
+        "@id": "obo:CHEBI_4735"
     },
-    "rdfs:label": "ethylenediaminetetraacetic acid",
-    "rdfs:subClassOf": [
+    "skos:semanticRelation": [
         {
             "@id": "obo:CHEBI_35742"
-        },
-        {
-            "@id": "b370_genid-00f1db82e1ab437c844115a94dc63e635-bn4735tmms73f64755"
         },
         {
             "@id": "obo:CHEBI_31577"
         },
         {
-            "@id": "b370_genid-00f1db82e1ab437c844115a94dc63e635-bn4735t11f38161"
-        },
-        {
-            "@id": "b370_genid-00f1db82e1ab437c844115a94dc63e635-bn4735t11f50247"
-        },
-        {
-            "@id": "b370_genid-00f1db82e1ab437c844115a94dc63e635-bn4735t11f50249"
-        },
-        {
             "@id": "obo:CHEBI_60892"
-        },
-        {
-            "@id": "b370_genid-00f1db82e1ab437c844115a94dc63e635-bn4735t4f64755"
-        },
-        {
-            "@id": "b370_genid-00f1db82e1ab437c844115a94dc63e635-bn4735t11f166831"
-        },
-        {
-            "@id": "b370_genid-00f1db82e1ab437c844115a94dc63e635-bn4735t11f176497"
         }
     ]
 }

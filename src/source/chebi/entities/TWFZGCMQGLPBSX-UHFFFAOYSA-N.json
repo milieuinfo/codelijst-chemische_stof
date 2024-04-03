@@ -1,35 +1,31 @@
 {
     "@context": {
-        "chebi": "http://purl.obolibrary.org/obo/chebi/",
         "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
         "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-        "obo": "http://purl.obolibrary.org/obo/"
+        "obo": "http://purl.obolibrary.org/obo/",
+        "uniprot": "http://purl.uniprot.org/",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "concept": "https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/",
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "dbo": "http://dbpedia.org/ontology/",
+        "dbp": "http://dbpedia.org/property/",
+        "altLabel": {
+            "@id": "http://www.w3.org/2004/02/skos/core#altLabel",
+            "@language": "en"
+        },
+        "graph": {
+            "@id": "@graph"
+        }
     },
-    "@id": "obo:CHEBI_3392",
-    "@type": "http://www.w3.org/2002/07/owl#Class",
-    "obo:IAO_0000115": "A member of the class of benzimidazoles that is 2-aminobenzimidazole in which the primary amino group is substituted by a methoxycarbonyl group. A fungicide, carbendazim controls  Ascomycetes, Fungi Imperfecti, and Basidiomycetes on a wide variety of crops, including bananas, cereals, cotton, fruits, grapes, mushrooms, ornamentals, peanuts, sugarbeet, soybeans, tobacco, and vegetables.",
+    "@id": "concept:TWFZGCMQGLPBSX-UHFFFAOYSA-N",
+    "@type": "skos:Concept",
+    "dbo:formula": "C9H9N3O2",
+    "dbo:inchi": "InChI=1S/C9H9N3O2/c1-14-9(13)12-8-10-6-4-2-3-5-7(6)11-8/h2-5H,1H3,(H2,10,11,12,13)",
+    "dbo:smiles": "COC(=O)Nc1nc2ccccc2[nH]1",
+    "dbp:inchikey": "TWFZGCMQGLPBSX-UHFFFAOYSA-N",
     "chebi:charge": "0",
-    "chebi:formula": "C9H9N3O2",
-    "chebi:inchi": "InChI=1S/C9H9N3O2/c1-14-9(13)12-8-10-6-4-2-3-5-7(6)11-8/h2-5H,1H3,(H2,10,11,12,13)",
-    "chebi:inchikey": "TWFZGCMQGLPBSX-UHFFFAOYSA-N",
-    "chebi:smiles": "COC(=O)Nc1nc2ccccc2[nH]1",
-    "http://purl.uniprot.org/core/name": "carbendazim",
-    "geneontology:hasDbXref": [
-        "CAS:10605-21-7",
-        "HMDB:HMDB0031769",
-        "KEGG:C10897",
-        "Patent:US3010968",
-        "Pesticides:carbendazim",
-        "PMID:20833408",
-        "PMID:21315898",
-        "PMID:22077925",
-        "PMID:22903170",
-        "PPDB:116",
-        "Reaxys:649044",
-        "Wikipedia:Carbendazim"
-    ],
-    "geneontology:hasId": "3392",
-    "geneontology:hasSynonym": [
+    "skos:altLabel": [
         "1H-benzimidazol-2-ylcarbamic acid methyl ester",
         "2-(Methoxy-carbonylamino)-benzimidazol",
         "2-(methoxycarbonylamino)benzimidazole",
@@ -44,11 +40,11 @@
         "methyl 2-benzimidazolecarbamate",
         "methyl benzimidazol-2-ylcarbamate"
     ],
-    "geneontology:inSubset": {
-        "@id": "obo:chebi#3_STAR"
+    "skos:exactMatch": {
+        "@id": "obo:CHEBI_3392"
     },
-    "rdfs:label": "carbendazim",
-    "rdfs:subClassOf": [
+    "skos:note": "A member of the class of benzimidazoles that is 2-aminobenzimidazole in which the primary amino group is substituted by a methoxycarbonyl group. A fungicide, carbendazim controls  Ascomycetes, Fungi Imperfecti, and Basidiomycetes on a wide variety of crops, including bananas, cereals, cotton, fruits, grapes, mushrooms, ornamentals, peanuts, sugarbeet, soybeans, tobacco, and vegetables.",
+    "skos:semanticRelation": [
         {
             "@id": "obo:CHEBI_23003"
         },
@@ -60,21 +56,6 @@
         },
         {
             "@id": "obo:CHEBI_87064"
-        },
-        {
-            "@id": "b728_genid-00f1db82e1ab437c844115a94dc63e635-bn3392t11f25212"
-        },
-        {
-            "@id": "b728_genid-00f1db82e1ab437c844115a94dc63e635-bn3392t8f27822"
-        },
-        {
-            "@id": "b728_genid-00f1db82e1ab437c844115a94dc63e635-bn3392t11f35444"
-        },
-        {
-            "@id": "b728_genid-00f1db82e1ab437c844115a94dc63e635-bn3392t11f61951"
-        },
-        {
-            "@id": "b728_genid-00f1db82e1ab437c844115a94dc63e635-bn3392t11f86328"
         }
     ]
 }

@@ -1,47 +1,36 @@
 {
     "@context": {
-        "chebi": "http://purl.obolibrary.org/obo/chebi/",
         "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
         "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-        "obo": "http://purl.obolibrary.org/obo/"
+        "obo": "http://purl.obolibrary.org/obo/",
+        "uniprot": "http://purl.uniprot.org/",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "concept": "https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/",
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "dbo": "http://dbpedia.org/ontology/",
+        "dbp": "http://dbpedia.org/property/",
+        "graph": {
+            "@id": "@graph"
+        }
     },
-    "@id": "obo:CHEBI_32892",
-    "@type": "http://www.w3.org/2002/07/owl#Class",
-    "obo:IAO_0000115": "A straight chain alkane composed of 9 carbon atoms.",
+    "@id": "concept:BKIMMITUMNQMOS-UHFFFAOYSA-N",
+    "@type": "skos:Concept",
+    "dbo:formula": "C9H20",
+    "dbo:inchi": "InChI=1S/C9H20/c1-3-5-7-9-8-6-4-2/h3-9H2,1-2H3",
+    "dbo:smiles": "CCCCCCCCC",
+    "dbp:inchikey": "BKIMMITUMNQMOS-UHFFFAOYSA-N",
     "chebi:charge": "0",
-    "chebi:formula": "C9H20",
-    "chebi:inchi": "InChI=1S/C9H20/c1-3-5-7-9-8-6-4-2/h3-9H2,1-2H3",
-    "chebi:inchikey": "BKIMMITUMNQMOS-UHFFFAOYSA-N",
-    "chebi:smiles": "CCCCCCCCC",
-    "geneontology:hasDbXref": [
-        "Beilstein:1696917",
-        "CAS:111-84-2",
-        "Gmelin:240576",
-        "HMDB:HMDB0029595",
-        "KNApSAcK:C00034882",
-        "LIPID_MAPS_instance:LMFA11000579",
-        "PMID:23822267",
-        "Reaxys:1696917"
-    ],
-    "geneontology:hasId": "32892",
-    "geneontology:hasSynonym": [
+    "skos:altLabel": [
         "CH3-[CH2]7-CH3",
         "n-nonane",
         "Nonan"
     ],
-    "geneontology:inSubset": {
-        "@id": "obo:chebi#3_STAR"
+    "skos:exactMatch": {
+        "@id": "obo:CHEBI_32892"
     },
-    "rdfs:label": "nonane",
-    "rdfs:subClassOf": [
-        {
-            "@id": "obo:CHEBI_18310"
-        },
-        {
-            "@id": "b194_genid-00f1db82e1ab437c844115a94dc63e635-bn32892t11f27311"
-        },
-        {
-            "@id": "b194_genid-00f1db82e1ab437c844115a94dc63e635-bn32892t11f76924"
-        }
-    ]
+    "skos:note": "A straight chain alkane composed of 9 carbon atoms.",
+    "skos:semanticRelation": {
+        "@id": "obo:CHEBI_18310"
+    }
 }

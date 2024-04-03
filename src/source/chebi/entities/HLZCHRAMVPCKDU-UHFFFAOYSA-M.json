@@ -1,28 +1,27 @@
 {
     "@context": {
-        "chebi": "http://purl.obolibrary.org/obo/chebi/",
         "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
         "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-        "obo": "http://purl.obolibrary.org/obo/"
+        "obo": "http://purl.obolibrary.org/obo/",
+        "uniprot": "http://purl.uniprot.org/",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "concept": "https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/",
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "dbo": "http://dbpedia.org/ontology/",
+        "dbp": "http://dbpedia.org/property/",
+        "graph": {
+            "@id": "@graph"
+        }
     },
-    "@id": "obo:CHEBI_194158",
-    "@type": "http://www.w3.org/2002/07/owl#Class",
-    "obo:IAO_0000115": "An organic sodium salt of dicamba.",
+    "@id": "concept:HLZCHRAMVPCKDU-UHFFFAOYSA-M",
+    "@type": "skos:Concept",
+    "dbo:formula": "C8H5Cl2O3.Na",
+    "dbo:inchi": "InChI=1S/C8H6Cl2O3.Na/c1-13-7-5(10)3-2-4(9)6(7)8(11)12;/h2-3H,1H3,(H,11,12);/q;+1/p-1",
+    "dbo:smiles": "[Na+].COC1=C(C([O-])=O)C(Cl)=CC=C1Cl",
+    "dbp:inchikey": "HLZCHRAMVPCKDU-UHFFFAOYSA-M",
     "chebi:charge": "0",
-    "chebi:formula": "C8H5Cl2O3.Na",
-    "chebi:inchi": "InChI=1S/C8H6Cl2O3.Na/c1-13-7-5(10)3-2-4(9)6(7)8(11)12;/h2-3H,1H3,(H,11,12);/q;+1/p-1",
-    "chebi:inchikey": "HLZCHRAMVPCKDU-UHFFFAOYSA-M",
-    "chebi:smiles": "[Na+].COC1=C(C([O-])=O)C(Cl)=CC=C1Cl",
-    "geneontology:hasDbXref": [
-        "CAS:1982-69-0",
-        "Chemspider:15303",
-        "Pesticides:/derivatives/dicamba-sodium",
-        "PMCID:PMC9735837",
-        "PMID:34073369",
-        "PPDB:3373"
-    ],
-    "geneontology:hasId": "194158",
-    "geneontology:hasSynonym": [
+    "skos:altLabel": [
         "2-methoxy-3,6-dichlorobenzoic acid sodium salt",
         "dicamba sodium",
         "dicamba sodium salt",
@@ -31,22 +30,11 @@
         "sodium 3,6-dichloro-o-anisate",
         "sodium dicamba"
     ],
-    "geneontology:inSubset": {
-        "@id": "obo:chebi#3_STAR"
+    "skos:exactMatch": {
+        "@id": "obo:CHEBI_194158"
     },
-    "rdfs:label": "dicamba-sodium",
-    "rdfs:subClassOf": [
-        {
-            "@id": "obo:CHEBI_38700"
-        },
-        {
-            "@id": "b900_genid-00f1db82e1ab437c844115a94dc63e635-bn194158t11f24527"
-        },
-        {
-            "@id": "b900_genid-00f1db82e1ab437c844115a94dc63e635-bn194158t11f33286"
-        },
-        {
-            "@id": "b900_genid-00f1db82e1ab437c844115a94dc63e635-bn194158t10f141349"
-        }
-    ]
+    "skos:note": "An organic sodium salt of dicamba.",
+    "skos:semanticRelation": {
+        "@id": "obo:CHEBI_38700"
+    }
 }

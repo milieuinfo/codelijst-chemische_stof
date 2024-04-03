@@ -1,36 +1,41 @@
 {
     "@context": {
-        "chebi": "http://purl.obolibrary.org/obo/chebi/",
         "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
         "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-        "obo": "http://purl.obolibrary.org/obo/"
+        "obo": "http://purl.obolibrary.org/obo/",
+        "uniprot": "http://purl.uniprot.org/",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "concept": "https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/",
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "dbo": "http://dbpedia.org/ontology/",
+        "dbp": "http://dbpedia.org/property/",
+        "altLabel": {
+            "@id": "http://www.w3.org/2004/02/skos/core#altLabel",
+            "@language": "en"
+        },
+        "graph": {
+            "@id": "@graph"
+        }
     },
-    "@id": "obo:CHEBI_50076",
-    "@type": "http://www.w3.org/2002/07/owl#Class",
-    "obo:IAO_0000115": "A synthetic radioactive isotope of chromium having a half-life of 27.7 days and decaying by electron capture with emission of gamma rays (0.32 MeV); it is used to label red blood cells for measurement of mass or volume, survival time, and sequestration studies, for the diagnosis of gastrointestinal bleeding, and to label platelets to study their survival.",
+    "@id": "concept:VYZAMTAEIAYCRO-BJUDXGSMSA-N",
+    "@type": "skos:Concept",
+    "dbo:formula": "[51Cr]",
+    "dbo:inchi": "InChI=1S/Cr/i1-1",
+    "dbo:smiles": "[51Cr]",
+    "dbp:inchikey": "VYZAMTAEIAYCRO-BJUDXGSMSA-N",
     "chebi:charge": "0",
-    "chebi:formula": "[51Cr]",
-    "chebi:inchi": "InChI=1S/Cr/i1-1",
-    "chebi:inchikey": "VYZAMTAEIAYCRO-BJUDXGSMSA-N",
-    "chebi:smiles": "[51Cr]",
-    "geneontology:hasDbXref": "CAS:14392-02-0",
-    "geneontology:hasId": "50076",
-    "geneontology:hasSynonym": [
+    "skos:altLabel": [
         "(51)24Cr",
         "(51)Cr",
         "51Cr",
         "Chromium, isotope of mass 51"
     ],
-    "geneontology:inSubset": {
-        "@id": "obo:chebi#3_STAR"
+    "skos:exactMatch": {
+        "@id": "obo:CHEBI_50076"
     },
-    "rdfs:label": "chromium-51",
-    "rdfs:subClassOf": [
-        {
-            "@id": "obo:CHEBI_28073"
-        },
-        {
-            "@id": "b1028_genid-00f1db82e1ab437c844115a94dc63e635-bn50076t11f35211"
-        }
-    ]
+    "skos:note": "A synthetic radioactive isotope of chromium having a half-life of 27.7 days and decaying by electron capture with emission of gamma rays (0.32 MeV); it is used to label red blood cells for measurement of mass or volume, survival time, and sequestration studies, for the diagnosis of gastrointestinal bleeding, and to label platelets to study their survival.",
+    "skos:semanticRelation": {
+        "@id": "obo:CHEBI_28073"
+    }
 }

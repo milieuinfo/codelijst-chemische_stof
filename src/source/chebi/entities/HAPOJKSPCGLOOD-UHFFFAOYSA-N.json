@@ -1,28 +1,31 @@
 {
     "@context": {
-        "chebi": "http://purl.obolibrary.org/obo/chebi/",
         "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
         "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-        "obo": "http://purl.obolibrary.org/obo/"
+        "obo": "http://purl.obolibrary.org/obo/",
+        "uniprot": "http://purl.uniprot.org/",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "concept": "https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/",
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "dbo": "http://dbpedia.org/ontology/",
+        "dbp": "http://dbpedia.org/property/",
+        "graph": {
+            "@id": "@graph"
+        }
     },
-    "@id": "obo:CHEBI_34566",
-    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "@id": "concept:HAPOJKSPCGLOOD-UHFFFAOYSA-N",
+    "@type": "skos:Concept",
+    "dbo:formula": "C17H12",
+    "dbo:inchi": "InChI=1S/C17H12/c1-2-6-13-11-17-15(9-12(13)5-1)10-14-7-3-4-8-16(14)17/h1-9,11H,10H2",
+    "dbo:smiles": "C1c2ccccc2-c2cc3ccccc3cc12",
+    "dbp:inchikey": "HAPOJKSPCGLOOD-UHFFFAOYSA-N",
     "chebi:charge": "0",
-    "chebi:formula": "C17H12",
-    "chebi:inchi": "InChI=1S/C17H12/c1-2-6-13-11-17-15(9-12(13)5-1)10-14-7-3-4-8-16(14)17/h1-9,11H,10H2",
-    "chebi:inchikey": "HAPOJKSPCGLOOD-UHFFFAOYSA-N",
-    "chebi:smiles": "C1c2ccccc2-c2cc3ccccc3cc12",
-    "geneontology:hasDbXref": [
-        "CAS:243-17-4",
-        "KEGG:C14384"
-    ],
-    "geneontology:hasId": "34566",
-    "geneontology:hasSynonym": "2,3-Benzofluorene",
-    "geneontology:inSubset": {
-        "@id": "obo:chebi#2_STAR"
+    "skos:altLabel": "2,3-Benzofluorene",
+    "skos:exactMatch": {
+        "@id": "obo:CHEBI_34566"
     },
-    "rdfs:label": "Benzo[b]fluorene",
-    "rdfs:subClassOf": {
+    "skos:semanticRelation": {
         "@id": "obo:CHEBI_177332"
     }
 }

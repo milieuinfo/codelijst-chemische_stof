@@ -1,33 +1,21 @@
 {
     "@context": {
-        "chebi": "http://purl.obolibrary.org/obo/chebi/",
         "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
         "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-        "obo": "http://purl.obolibrary.org/obo/"
-    },
-    "@id": "obo:CHEBI_83768",
-    "@type": "http://www.w3.org/2002/07/owl#Class",
-    "obo:IAO_0000115": "A methanesulfonate ester that is methanesulfonic acid in which the hydrogen of the hydroxy group has been replaced by a 2-ethoxy-3,3-dimethyl-2,3-dihydro-1-benzofuran-5-yl group.",
-    "chebi:charge": "0",
-    "chebi:formula": "C13H18O5S",
-    "chebi:inchi": "InChI=1S/C13H18O5S/c1-5-16-12-13(2,3)10-8-9(18-19(4,14)15)6-7-11(10)17-12/h6-8,12H,5H2,1-4H3",
-    "chebi:inchikey": "IRCMYGHHKLLGHV-UHFFFAOYSA-N",
-    "chebi:smiles": "CCOC1Oc2ccc(OS(C)(=O)=O)cc2C1(C)C",
-    "geneontology:hasDbXref": "PPDB:278",
-    "geneontology:hasId": "83768",
-    "geneontology:inSubset": {
-        "@id": "obo:chebi#3_STAR"
-    },
-    "rdfs:label": "2-ethoxy-3,3-dimethyl-2,3-dihydro-1-benzofuran-5-yl methanesulfonate",
-    "rdfs:subClassOf": [
-        {
-            "@id": "obo:CHEBI_25698"
+        "obo": "http://purl.obolibrary.org/obo/",
+        "uniprot": "http://purl.uniprot.org/",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "concept": "https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/",
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "dbo": "http://dbpedia.org/ontology/",
+        "dbp": "http://dbpedia.org/property/",
+        "altLabel": {
+            "@id": "http://www.w3.org/2004/02/skos/core#altLabel",
+            "@language": "en"
         },
-        {
-            "@id": "obo:CHEBI_38830"
-        },
-        {
-            "@id": "obo:CHEBI_25223"
+        "graph": {
+            "@id": "@graph"
         }
-    ]
+    }
 }

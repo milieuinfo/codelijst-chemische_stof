@@ -1,28 +1,21 @@
 {
     "@context": {
-        "chebi": "http://purl.obolibrary.org/obo/chebi/",
         "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
         "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-        "obo": "http://purl.obolibrary.org/obo/"
-    },
-    "@id": "obo:CHEBI_82147",
-    "@type": "http://www.w3.org/2002/07/owl#Class",
-    "chebi:charge": "0",
-    "chebi:formula": "C9H20NO3PS2",
-    "chebi:inchi": "InChI=1S/C9H20NO3PS2/c1-5-12-14(15,13-6-2)16-7-9(11)10-8(3)4/h8H,5-7H2,1-4H3,(H,10,11)",
-    "chebi:inchikey": "QTXHFDHVLBDJIO-UHFFFAOYSA-N",
-    "chebi:smiles": "CCOP(=S)(OCC)SCC(=O)NC(C)C",
-    "geneontology:hasDbXref": [
-        "CAS:2275-18-5",
-        "KEGG:C19014",
-        "PPDB:561"
-    ],
-    "geneontology:hasId": "82147",
-    "geneontology:inSubset": {
-        "@id": "obo:chebi#2_STAR"
-    },
-    "rdfs:label": "Prothoate",
-    "rdfs:subClassOf": {
-        "@id": "obo:CHEBI_37512"
+        "obo": "http://purl.obolibrary.org/obo/",
+        "uniprot": "http://purl.uniprot.org/",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "concept": "https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/",
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "dbo": "http://dbpedia.org/ontology/",
+        "dbp": "http://dbpedia.org/property/",
+        "altLabel": {
+            "@id": "http://www.w3.org/2004/02/skos/core#altLabel",
+            "@language": "en"
+        },
+        "graph": {
+            "@id": "@graph"
+        }
     }
 }

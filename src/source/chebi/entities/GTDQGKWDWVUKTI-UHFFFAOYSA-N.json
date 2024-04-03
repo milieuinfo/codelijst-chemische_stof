@@ -1,35 +1,27 @@
 {
     "@context": {
-        "chebi": "http://purl.obolibrary.org/obo/chebi/",
         "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
         "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-        "obo": "http://purl.obolibrary.org/obo/"
+        "obo": "http://purl.obolibrary.org/obo/",
+        "uniprot": "http://purl.uniprot.org/",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "concept": "https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/",
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "dbo": "http://dbpedia.org/ontology/",
+        "dbp": "http://dbpedia.org/property/",
+        "graph": {
+            "@id": "@graph"
+        }
     },
-    "@id": "obo:CHEBI_91110",
-    "@type": "http://www.w3.org/2002/07/owl#Class",
-    "obo:IAO_0000115": "An aromatic ketone that is acetophenone in which one of the ortho hydrogens of the phenyl group has been replaced by an amino group.",
+    "@id": "concept:GTDQGKWDWVUKTI-UHFFFAOYSA-N",
+    "@type": "skos:Concept",
+    "dbo:formula": "C8H9NO",
+    "dbo:inchi": "InChI=1S/C8H9NO/c1-6(10)7-4-2-3-5-8(7)9/h2-5H,9H2,1H3",
+    "dbo:smiles": "C=1C(=C(C=CC1)N)C(C)=O",
+    "dbp:inchikey": "GTDQGKWDWVUKTI-UHFFFAOYSA-N",
     "chebi:charge": "0",
-    "chebi:formula": "C8H9NO",
-    "chebi:inchi": "InChI=1S/C8H9NO/c1-6(10)7-4-2-3-5-8(7)9/h2-5H,9H2,1H3",
-    "chebi:inchikey": "GTDQGKWDWVUKTI-UHFFFAOYSA-N",
-    "chebi:smiles": "C=1C(=C(C=CC1)N)C(C)=O",
-    "geneontology:hasDbXref": [
-        "CAS:551-93-9",
-        "PMID:110829",
-        "PMID:11946045",
-        "PMID:21054900",
-        "PMID:25043228",
-        "PMID:25047450",
-        "PMID:25488497",
-        "PMID:25614099",
-        "PMID:26777086",
-        "PMID:26804051",
-        "PMID:26935176",
-        "PMID:8920148",
-        "Reaxys:386122"
-    ],
-    "geneontology:hasId": "91110",
-    "geneontology:hasSynonym": [
+    "skos:altLabel": [
         "1-(2-aminophenyl)ethanone",
         "1-acetyl-2-aminobenzene",
         "2'-aminoacetophenone",
@@ -42,19 +34,16 @@
         "o-aminophenyl methyl ketone",
         "ortho-aminoacetophenone"
     ],
-    "geneontology:inSubset": {
-        "@id": "obo:chebi#3_STAR"
+    "skos:exactMatch": {
+        "@id": "obo:CHEBI_91110"
     },
-    "rdfs:label": "o-aminoacetophenone",
-    "rdfs:subClassOf": [
+    "skos:note": "An aromatic ketone that is acetophenone in which one of the ortho hydrogens of the phenyl group has been replaced by an amino group.",
+    "skos:semanticRelation": [
         {
             "@id": "obo:CHEBI_48975"
         },
         {
             "@id": "obo:CHEBI_22187"
-        },
-        {
-            "@id": "b773_genid-00f1db82e1ab437c844115a94dc63e635-bn91110t11f76969"
         }
     ]
 }

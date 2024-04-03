@@ -1,27 +1,31 @@
 {
     "@context": {
-        "chebi": "http://purl.obolibrary.org/obo/chebi/",
         "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
         "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-        "obo": "http://purl.obolibrary.org/obo/"
+        "obo": "http://purl.obolibrary.org/obo/",
+        "uniprot": "http://purl.uniprot.org/",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "concept": "https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/",
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "dbo": "http://dbpedia.org/ontology/",
+        "dbp": "http://dbpedia.org/property/",
+        "altLabel": {
+            "@id": "http://www.w3.org/2004/02/skos/core#altLabel",
+            "@language": "en"
+        },
+        "graph": {
+            "@id": "@graph"
+        }
     },
-    "@id": "obo:CHEBI_145568",
-    "@type": "http://www.w3.org/2002/07/owl#Class",
-    "obo:IAO_0000115": "A hydrate that is the monohydrate of cilazapril. It is used for the treatment of hypertension and heart failure.",
+    "@id": "concept:JQRZBPFGBRIWSN-YOTVLOEGSA-N",
+    "@type": "skos:Concept",
+    "dbo:formula": "C22H31N3O5.H2O",
+    "dbo:inchi": "InChI=1S/C22H31N3O5.H2O/c1-2-30-22(29)18(13-12-16-8-4-3-5-9-16)23-17-10-6-14-24-15-7-11-19(21(27)28)25(24)20(17)26;/h3-5,8-9,17-19,23H,2,6-7,10-15H2,1H3,(H,27,28);1H2/t17-,18-,19-;/m0./s1",
+    "dbo:smiles": "C1CC[C@@H](C(N2N1CCC[C@H]2C(=O)O)=O)N[C@H](C(OCC)=O)CCC3=CC=CC=C3.O",
+    "dbp:inchikey": "JQRZBPFGBRIWSN-YOTVLOEGSA-N",
     "chebi:charge": "0",
-    "chebi:formula": "C22H31N3O5.H2O",
-    "chebi:inchi": "InChI=1S/C22H31N3O5.H2O/c1-2-30-22(29)18(13-12-16-8-4-3-5-9-16)23-17-10-6-14-24-15-7-11-19(21(27)28)25(24)20(17)26;/h3-5,8-9,17-19,23H,2,6-7,10-15H2,1H3,(H,27,28);1H2/t17-,18-,19-;/m0./s1",
-    "chebi:inchikey": "JQRZBPFGBRIWSN-YOTVLOEGSA-N",
-    "chebi:smiles": "C1CC[C@@H](C(N2N1CCC[C@H]2C(=O)O)=O)N[C@H](C(OCC)=O)CCC3=CC=CC=C3.O",
-    "geneontology:hasDbXref": [
-        "PMID:1836986",
-        "CAS:92077-78-6",
-        "DrugBank:DBSALT001097",
-        "KEGG:D01069",
-        "PMID:1839765"
-    ],
-    "geneontology:hasId": "145568",
-    "geneontology:hasSynonym": [
+    "skos:altLabel": [
         "cilazapril",
         "Inhibace",
         "(1S,9S)-9-{[(2S)-1-ethoxy-1-oxo-4-phenylbutan-2-yl]amino}-10-oxooctahydro-6H-pyridazino[1,2-a][1,2]diazepine-1-carboxylic acid hydrate",
@@ -31,25 +35,11 @@
         "Justor",
         "Ro 31-2848 monohydrate"
     ],
-    "geneontology:inSubset": {
-        "@id": "obo:chebi#3_STAR"
+    "skos:exactMatch": {
+        "@id": "obo:CHEBI_145568"
     },
-    "rdfs:label": "cilazapril monohydrate",
-    "rdfs:subClassOf": [
-        {
-            "@id": "obo:CHEBI_35505"
-        },
-        {
-            "@id": "b310_genid-00f1db82e1ab437c844115a94dc63e635-bn145568t10f3698"
-        },
-        {
-            "@id": "b310_genid-00f1db82e1ab437c844115a94dc63e635-bn145568t11f35457"
-        },
-        {
-            "@id": "b310_genid-00f1db82e1ab437c844115a94dc63e635-bn145568t11f35674"
-        },
-        {
-            "@id": "b310_genid-00f1db82e1ab437c844115a94dc63e635-bn145568t11f50266"
-        }
-    ]
+    "skos:note": "A hydrate that is the monohydrate of cilazapril. It is used for the treatment of hypertension and heart failure.",
+    "skos:semanticRelation": {
+        "@id": "obo:CHEBI_35505"
+    }
 }

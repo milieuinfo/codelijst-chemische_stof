@@ -1,33 +1,27 @@
 {
     "@context": {
-        "chebi": "http://purl.obolibrary.org/obo/chebi/",
         "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
         "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-        "obo": "http://purl.obolibrary.org/obo/"
+        "obo": "http://purl.obolibrary.org/obo/",
+        "uniprot": "http://purl.uniprot.org/",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "concept": "https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/",
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "dbo": "http://dbpedia.org/ontology/",
+        "dbp": "http://dbpedia.org/property/",
+        "graph": {
+            "@id": "@graph"
+        }
     },
-    "@id": "obo:CHEBI_16619",
-    "@type": "http://www.w3.org/2002/07/owl#Class",
-    "obo:IAO_0000115": "The (2-trans,6-trans)-stereoisomer of  farnesol.",
+    "@id": "concept:CRDAMVZIKSXKFV-YFVJMOTDSA-N",
+    "@type": "skos:Concept",
+    "dbo:formula": "C15H26O",
+    "dbo:inchi": "InChI=1S/C15H26O/c1-13(2)7-5-8-14(3)9-6-10-15(4)11-12-16/h7,9,11,16H,5-6,8,10,12H2,1-4H3/b14-9+,15-11+",
+    "dbo:smiles": "CC(C)=CCC\\C(C)=C\\CC\\C(C)=C\\CO",
+    "dbp:inchikey": "CRDAMVZIKSXKFV-YFVJMOTDSA-N",
     "chebi:charge": "0",
-    "chebi:formula": "C15H26O",
-    "chebi:inchi": "InChI=1S/C15H26O/c1-13(2)7-5-8-14(3)9-6-10-15(4)11-12-16/h7,9,11,16H,5-6,8,10,12H2,1-4H3/b14-9+,15-11+",
-    "chebi:inchikey": "CRDAMVZIKSXKFV-YFVJMOTDSA-N",
-    "chebi:smiles": "CC(C)=CCC\\C(C)=C\\CC\\C(C)=C\\CO",
-    "http://purl.uniprot.org/core/name": "(2E,6E)-farnesol",
-    "geneontology:hasDbXref": [
-        "Beilstein:1723039",
-        "BPDB:2113",
-        "CAS:106-28-5",
-        "Gmelin:2210148",
-        "HMDB:HMDB0004305",
-        "KEGG:C01126",
-        "KNApSAcK:C00003132",
-        "LIPID_MAPS_instance:LMPR0103010001",
-        "MetaCyc:2-TRANS6-TRANS-FARNESOL",
-        "Reaxys:1723039"
-    ],
-    "geneontology:hasId": "16619",
-    "geneontology:hasSynonym": [
+    "skos:altLabel": [
         "(2E,6E)-farnesol",
         "(2E,6E)-3,7,11-trimethyl-2,6,10-dodecatrien-1-ol",
         "(2E,6E)-3,7,11-trimethyldodeca-2,6,10-trien-1-ol",
@@ -42,19 +36,11 @@
         "trans-farnesol",
         "trans-Farnesol"
     ],
-    "geneontology:inSubset": {
-        "@id": "obo:chebi#3_STAR"
+    "skos:exactMatch": {
+        "@id": "obo:CHEBI_16619"
     },
-    "rdfs:label": "(2-trans,6-trans)-farnesol",
-    "rdfs:subClassOf": [
-        {
-            "@id": "obo:CHEBI_28600"
-        },
-        {
-            "@id": "b352_genid-00f1db82e1ab437c844115a94dc63e635-bn16619t9f42362"
-        },
-        {
-            "@id": "b352_genid-00f1db82e1ab437c844115a94dc63e635-bn16619t11f76924"
-        }
-    ]
+    "skos:note": "The (2-trans,6-trans)-stereoisomer of  farnesol.",
+    "skos:semanticRelation": {
+        "@id": "obo:CHEBI_28600"
+    }
 }

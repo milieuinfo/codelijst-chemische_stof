@@ -1,29 +1,31 @@
 {
     "@context": {
-        "chebi": "http://purl.obolibrary.org/obo/chebi/",
         "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
         "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-        "obo": "http://purl.obolibrary.org/obo/"
+        "obo": "http://purl.obolibrary.org/obo/",
+        "uniprot": "http://purl.uniprot.org/",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "concept": "https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/",
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "dbo": "http://dbpedia.org/ontology/",
+        "dbp": "http://dbpedia.org/property/",
+        "altLabel": {
+            "@id": "http://www.w3.org/2004/02/skos/core#altLabel",
+            "@language": "en"
+        },
+        "graph": {
+            "@id": "@graph"
+        }
     },
-    "@id": "obo:CHEBI_15383",
-    "@type": "http://www.w3.org/2002/07/owl#Class",
-    "obo:IAO_0000115": "An optically active form of limonene having (4S)-configuration.",
+    "@id": "concept:XMGQYMWWDOXHJM-SNVBAGLBSA-N",
+    "@type": "skos:Concept",
+    "dbo:formula": "C10H16",
+    "dbo:inchi": "InChI=1S/C10H16/c1-8(2)10-6-4-9(3)5-7-10/h4,10H,1,5-7H2,2-3H3/t10-/m1/s1",
+    "dbo:smiles": "[H][C@@]1(CCC(C)=CC1)C(C)=C",
+    "dbp:inchikey": "XMGQYMWWDOXHJM-SNVBAGLBSA-N",
     "chebi:charge": "0",
-    "chebi:formula": "C10H16",
-    "chebi:inchi": "InChI=1S/C10H16/c1-8(2)10-6-4-9(3)5-7-10/h4,10H,1,5-7H2,2-3H3/t10-/m1/s1",
-    "chebi:inchikey": "XMGQYMWWDOXHJM-SNVBAGLBSA-N",
-    "chebi:smiles": "[H][C@@]1(CCC(C)=CC1)C(C)=C",
-    "http://purl.uniprot.org/core/name": "(4S)-limonene",
-    "geneontology:hasDbXref": [
-        "Beilstein:2323991",
-        "CAS:5989-54-8",
-        "Gmelin:363574",
-        "KEGG:C00521",
-        "KNApSAcK:C00000803",
-        "LIPID_MAPS_instance:LMPR0102090002"
-    ],
-    "geneontology:hasId": "15383",
-    "geneontology:hasSynonym": [
+    "skos:altLabel": [
         "(-)-(4S)-Limonene",
         "(-)-(S)-limonene",
         "(-)-(S)-Limonene",
@@ -38,16 +40,11 @@
         "L-Limonen",
         "L-limonene"
     ],
-    "geneontology:inSubset": {
-        "@id": "obo:chebi#3_STAR"
+    "skos:exactMatch": {
+        "@id": "obo:CHEBI_15383"
     },
-    "rdfs:label": "(4S)-limonene",
-    "rdfs:subClassOf": [
-        {
-            "@id": "obo:CHEBI_15384"
-        },
-        {
-            "@id": "b215_genid-00f1db82e1ab437c844115a94dc63e635-bn15383t6f15382"
-        }
-    ]
+    "skos:note": "An optically active form of limonene having (4S)-configuration.",
+    "skos:semanticRelation": {
+        "@id": "obo:CHEBI_15384"
+    }
 }

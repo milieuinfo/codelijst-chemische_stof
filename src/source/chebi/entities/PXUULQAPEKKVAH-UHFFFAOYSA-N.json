@@ -1,47 +1,39 @@
 {
     "@context": {
-        "chebi": "http://purl.obolibrary.org/obo/chebi/",
         "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
         "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-        "obo": "http://purl.obolibrary.org/obo/"
+        "obo": "http://purl.obolibrary.org/obo/",
+        "uniprot": "http://purl.uniprot.org/",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "concept": "https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/",
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "dbo": "http://dbpedia.org/ontology/",
+        "dbp": "http://dbpedia.org/property/",
+        "altLabel": {
+            "@id": "http://www.w3.org/2004/02/skos/core#altLabel",
+            "@language": "en"
+        },
+        "graph": {
+            "@id": "@graph"
+        }
     },
-    "@id": "obo:CHEBI_83492",
-    "@type": "http://www.w3.org/2002/07/owl#Class",
-    "obo:IAO_0000115": "A monocarboxylic acid that is perfluorinated hexanoic acid.",
+    "@id": "concept:PXUULQAPEKKVAH-UHFFFAOYSA-N",
+    "@type": "skos:Concept",
+    "dbo:formula": "C6HF11O2",
+    "dbo:inchi": "InChI=1S/C6HF11O2/c7-2(8,1(18)19)3(9,10)4(11,12)5(13,14)6(15,16)17/h(H,18,19)",
+    "dbo:smiles": "OC(=O)C(F)(F)C(F)(F)C(F)(F)C(F)(F)C(F)(F)F",
+    "dbp:inchikey": "PXUULQAPEKKVAH-UHFFFAOYSA-N",
     "chebi:charge": "0",
-    "chebi:formula": "C6HF11O2",
-    "chebi:inchi": "InChI=1S/C6HF11O2/c7-2(8,1(18)19)3(9,10)4(11,12)5(13,14)6(15,16)17/h(H,18,19)",
-    "chebi:inchikey": "PXUULQAPEKKVAH-UHFFFAOYSA-N",
-    "chebi:smiles": "OC(=O)C(F)(F)C(F)(F)C(F)(F)C(F)(F)C(F)(F)F",
-    "geneontology:hasDbXref": [
-        "CAS:307-24-4",
-        "PMID:24113473",
-        "PMID:24158108",
-        "PMID:24768527",
-        "PMID:25377447",
-        "Reaxys:1805852"
-    ],
-    "geneontology:hasId": "83492",
-    "geneontology:hasSynonym": [
+    "skos:altLabel": [
         "2,2,3,3,4,4,5,5,6,6,6-undecafluorohexanoic acid",
         "undecafluorohexanoic acid"
     ],
-    "geneontology:inSubset": {
-        "@id": "obo:chebi#3_STAR"
+    "skos:exactMatch": {
+        "@id": "obo:CHEBI_83492"
     },
-    "rdfs:label": "perfluorohexanoic acid",
-    "rdfs:subClassOf": [
-        {
-            "@id": "obo:CHEBI_35551"
-        },
-        {
-            "@id": "b233_genid-00f1db82e1ab437c844115a94dc63e635-bn83492t8f30776"
-        },
-        {
-            "@id": "b233_genid-00f1db82e1ab437c844115a94dc63e635-bn83492t11f35703"
-        },
-        {
-            "@id": "b233_genid-00f1db82e1ab437c844115a94dc63e635-bn83492t11f78298"
-        }
-    ]
+    "skos:note": "A monocarboxylic acid that is perfluorinated hexanoic acid.",
+    "skos:semanticRelation": {
+        "@id": "obo:CHEBI_35551"
+    }
 }

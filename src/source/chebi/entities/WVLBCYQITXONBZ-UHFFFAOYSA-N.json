@@ -1,30 +1,31 @@
 {
     "@context": {
-        "chebi": "http://purl.obolibrary.org/obo/chebi/",
         "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
         "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-        "obo": "http://purl.obolibrary.org/obo/"
+        "obo": "http://purl.obolibrary.org/obo/",
+        "uniprot": "http://purl.uniprot.org/",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "concept": "https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/",
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "dbo": "http://dbpedia.org/ontology/",
+        "dbp": "http://dbpedia.org/property/",
+        "altLabel": {
+            "@id": "http://www.w3.org/2004/02/skos/core#altLabel",
+            "@language": "en"
+        },
+        "graph": {
+            "@id": "@graph"
+        }
     },
-    "@id": "obo:CHEBI_46324",
-    "@type": "http://www.w3.org/2002/07/owl#Class",
-    "obo:IAO_0000115": "A trialkyl phosphate that is the trimethyl ester of phosphoric acid.",
+    "@id": "concept:WVLBCYQITXONBZ-UHFFFAOYSA-N",
+    "@type": "skos:Concept",
+    "dbo:formula": "C3H9O4P",
+    "dbo:inchi": "InChI=1S/C3H9O4P/c1-5-8(4,6-2)7-3/h1-3H3",
+    "dbo:smiles": "COP(=O)(OC)OC",
+    "dbp:inchikey": "WVLBCYQITXONBZ-UHFFFAOYSA-N",
     "chebi:charge": "0",
-    "chebi:formula": "C3H9O4P",
-    "chebi:inchi": "InChI=1S/C3H9O4P/c1-5-8(4,6-2)7-3/h1-3H3",
-    "chebi:inchikey": "WVLBCYQITXONBZ-UHFFFAOYSA-N",
-    "chebi:smiles": "COP(=O)(OC)OC",
-    "geneontology:hasDbXref": [
-        "Beilstein:1071731",
-        "CAS:512-56-1",
-        "Gmelin:49926",
-        "PDBeChem:TZZ",
-        "PMID:17083219",
-        "PMID:18409209",
-        "Reaxys:1071731",
-        "Wikipedia:Trimethyl_phosphate"
-    ],
-    "geneontology:hasId": "46324",
-    "geneontology:hasSynonym": [
+    "skos:altLabel": [
         "TMP",
         "O,O,O-Trimethyl phosphate",
         "Phosphoric acid, trimethyl ester",
@@ -34,16 +35,11 @@
         "Trimethyl orthophosphate",
         "TRIMETHYL PHOSPHATE"
     ],
-    "geneontology:inSubset": {
-        "@id": "obo:chebi#3_STAR"
+    "skos:exactMatch": {
+        "@id": "obo:CHEBI_46324"
     },
-    "rdfs:label": "trimethyl phosphate",
-    "rdfs:subClassOf": [
-        {
-            "@id": "obo:CHEBI_37562"
-        },
-        {
-            "@id": "b107_genid-00f1db82e1ab437c844115a94dc63e635-bn46324t11f24850"
-        }
-    ]
+    "skos:note": "A trialkyl phosphate that is the trimethyl ester of phosphoric acid.",
+    "skos:semanticRelation": {
+        "@id": "obo:CHEBI_37562"
+    }
 }

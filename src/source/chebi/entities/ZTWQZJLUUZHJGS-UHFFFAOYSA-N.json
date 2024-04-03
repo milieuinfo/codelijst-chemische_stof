@@ -1,31 +1,38 @@
 {
     "@context": {
-        "chebi": "http://purl.obolibrary.org/obo/chebi/",
         "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
         "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-        "obo": "http://purl.obolibrary.org/obo/"
+        "obo": "http://purl.obolibrary.org/obo/",
+        "uniprot": "http://purl.uniprot.org/",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "concept": "https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/",
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "dbo": "http://dbpedia.org/ontology/",
+        "dbp": "http://dbpedia.org/property/",
+        "altLabel": {
+            "@id": "http://www.w3.org/2004/02/skos/core#altLabel",
+            "@language": "en"
+        },
+        "graph": {
+            "@id": "@graph"
+        }
     },
-    "@id": "obo:CHEBI_82548",
-    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "@id": "concept:ZTWQZJLUUZHJGS-UHFFFAOYSA-N",
+    "@type": "skos:Concept",
+    "dbo:formula": "C24H12O2",
+    "dbo:inchi": "InChI=1S/C24H12O2/c25-23-17-7-3-1-5-13(17)15-9-11-20-22-16(10-12-19(23)21(15)22)14-6-2-4-8-18(14)24(20)26/h1-12H",
+    "dbo:smiles": "O=c1c2ccccc2c2ccc3c4c(ccc1c24)c1ccccc1c3=O",
+    "dbp:inchikey": "ZTWQZJLUUZHJGS-UHFFFAOYSA-N",
     "chebi:charge": "0",
-    "chebi:formula": "C24H12O2",
-    "chebi:inchi": "InChI=1S/C24H12O2/c25-23-17-7-3-1-5-13(17)15-9-11-20-22-16(10-12-19(23)21(15)22)14-6-2-4-8-18(14)24(20)26/h1-12H",
-    "chebi:inchikey": "ZTWQZJLUUZHJGS-UHFFFAOYSA-N",
-    "chebi:smiles": "O=c1c2ccccc2c2ccc3c4c(ccc1c24)c1ccccc1c3=O",
-    "geneontology:hasDbXref": [
-        "CAS:128-66-5",
-        "KEGG:C19545"
-    ],
-    "geneontology:hasId": "82548",
-    "geneontology:hasSynonym": [
+    "skos:altLabel": [
         "C.I. Vat Yellow 4",
         "Dibenzo[b,def]chrysene-7,14-dione"
     ],
-    "geneontology:inSubset": {
-        "@id": "obo:chebi#2_STAR"
+    "skos:exactMatch": {
+        "@id": "obo:CHEBI_82548"
     },
-    "rdfs:label": "Vat Yellow 4",
-    "rdfs:subClassOf": {
+    "skos:semanticRelation": {
         "@id": "obo:CHEBI_35300"
     }
 }

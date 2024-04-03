@@ -1,32 +1,39 @@
 {
     "@context": {
-        "chebi": "http://purl.obolibrary.org/obo/chebi/",
         "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
         "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-        "obo": "http://purl.obolibrary.org/obo/"
+        "obo": "http://purl.obolibrary.org/obo/",
+        "uniprot": "http://purl.uniprot.org/",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "concept": "https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/",
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "dbo": "http://dbpedia.org/ontology/",
+        "dbp": "http://dbpedia.org/property/",
+        "altLabel": {
+            "@id": "http://www.w3.org/2004/02/skos/core#altLabel",
+            "@language": "en"
+        },
+        "graph": {
+            "@id": "@graph"
+        }
     },
-    "@id": "obo:CHEBI_135936",
-    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "@id": "concept:ZOKXTWBITQBERF-AKLPVKDBSA-N",
+    "@type": "skos:Concept",
+    "dbo:formula": "[99Mo]",
+    "dbo:inchi": "InChI=1S/Mo/i1+3",
+    "dbo:smiles": "[Mo]",
+    "dbp:inchikey": "ZOKXTWBITQBERF-AKLPVKDBSA-N",
     "chebi:charge": "0",
-    "chebi:formula": "[99Mo]",
-    "chebi:inchi": "InChI=1S/Mo/i1+3",
-    "chebi:inchikey": "ZOKXTWBITQBERF-AKLPVKDBSA-N",
-    "chebi:smiles": "[Mo]",
-    "geneontology:hasDbXref": [
-        "CAS:14119-15-4",
-        "Drug_Central:4286"
-    ],
-    "geneontology:hasId": "135936",
-    "geneontology:hasSynonym": [
+    "skos:altLabel": [
         "99Mo",
         "Molybdenum-99",
         "Molybdenum isotope of mass 99"
     ],
-    "geneontology:inSubset": {
-        "@id": "obo:chebi#2_STAR"
+    "skos:exactMatch": {
+        "@id": "obo:CHEBI_135936"
     },
-    "rdfs:label": "Molybdenum Mo-99",
-    "rdfs:subClassOf": {
+    "skos:semanticRelation": {
         "@id": "obo:CHEBI_33497"
     }
 }

@@ -1,52 +1,45 @@
 {
     "@context": {
-        "chebi": "http://purl.obolibrary.org/obo/chebi/",
         "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
         "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-        "obo": "http://purl.obolibrary.org/obo/"
+        "obo": "http://purl.obolibrary.org/obo/",
+        "uniprot": "http://purl.uniprot.org/",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "concept": "https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/",
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "dbo": "http://dbpedia.org/ontology/",
+        "dbp": "http://dbpedia.org/property/",
+        "altLabel": {
+            "@id": "http://www.w3.org/2004/02/skos/core#altLabel",
+            "@language": "en"
+        },
+        "graph": {
+            "@id": "@graph"
+        }
     },
-    "@id": "obo:CHEBI_31710",
-    "@type": "http://www.w3.org/2002/07/owl#Class",
-    "obo:IAO_0000115": "A benzenedicarboxamide compound having N-substituted carbamoyl groups at the 1- and 3-positions, iodo substituents at the 2-, 4- and 6-positions and a glycoloyl(methyl)amino group at the 5-position.",
+    "@id": "concept:NJKDOADNQSYQEV-UHFFFAOYSA-N",
+    "@type": "skos:Concept",
+    "dbo:formula": "C17H22I3N3O8",
+    "dbo:inchi": "InChI=1S/C17H22I3N3O8/c1-23(9(29)6-26)15-13(19)10(16(30)21-2-7(27)4-24)12(18)11(14(15)20)17(31)22-3-8(28)5-25/h7-8,24-28H,2-6H2,1H3,(H,21,30)(H,22,31)",
+    "dbo:smiles": "CN(C(=O)CO)c1c(I)c(C(=O)NCC(O)CO)c(I)c(C(=O)NCC(O)CO)c1I",
+    "dbp:inchikey": "NJKDOADNQSYQEV-UHFFFAOYSA-N",
     "chebi:charge": "0",
-    "chebi:formula": "C17H22I3N3O8",
-    "chebi:inchi": "InChI=1S/C17H22I3N3O8/c1-23(9(29)6-26)15-13(19)10(16(30)21-2-7(27)4-24)12(18)11(14(15)20)17(31)22-3-8(28)5-25/h7-8,24-28H,2-6H2,1H3,(H,21,30)(H,22,31)",
-    "chebi:inchikey": "NJKDOADNQSYQEV-UHFFFAOYSA-N",
-    "chebi:smiles": "CN(C(=O)CO)c1c(I)c(C(=O)NCC(O)CO)c(I)c(C(=O)NCC(O)CO)c1I",
-    "geneontology:hasDbXref": [
-        "PMID:15206581",
-        "Beilstein:8177227",
-        "CAS:78649-41-9",
-        "Drug_Central:1463",
-        "KEGG:D01719",
-        "Reaxys:8177227",
-        "Wikipedia:Iomeprol"
-    ],
-    "geneontology:hasId": "31710",
-    "geneontology:hasSynonym": [
+    "skos:altLabel": [
         "iomeprolum",
         "N,N'-Bis(2,3-dihydroxypropyl)-2,4,6-triiodo-5-(N-methylglycolamido)isophthalamide",
         "N,N'-bis(2,3-dihydroxypropyl)-5-[glycoloyl(methyl)amino]-2,4,6-triiodoisophthalamide"
     ],
-    "geneontology:inSubset": {
-        "@id": "obo:chebi#3_STAR"
+    "skos:exactMatch": {
+        "@id": "obo:CHEBI_31710"
     },
-    "rdfs:label": "iomeprol",
-    "rdfs:subClassOf": [
+    "skos:note": "A benzenedicarboxamide compound having N-substituted carbamoyl groups at the 1- and 3-positions, iodo substituents at the 2-, 4- and 6-positions and a glycoloyl(methyl)amino group at the 5-position.",
+    "skos:semanticRelation": [
         {
             "@id": "obo:CHEBI_37142"
         },
         {
             "@id": "obo:CHEBI_38800"
-        },
-        {
-            "@id": "b801_genid-00f1db82e1ab437c844115a94dc63e635-bn31710t11f35703"
-        },
-        {
-            "@id": "b801_genid-00f1db82e1ab437c844115a94dc63e635-bn31710t11f37338"
-        },
-        {
-            "@id": "b801_genid-00f1db82e1ab437c844115a94dc63e635-bn31710t11f78298"
         }
     ]
 }

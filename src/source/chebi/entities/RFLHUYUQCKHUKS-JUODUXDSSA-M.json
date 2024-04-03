@@ -1,28 +1,21 @@
 {
     "@context": {
-        "chebi": "http://purl.obolibrary.org/obo/chebi/",
         "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
         "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-        "obo": "http://purl.obolibrary.org/obo/"
-    },
-    "@id": "obo:CHEBI_31383",
-    "@type": "http://www.w3.org/2002/07/owl#Class",
-    "chebi:charge": "0",
-    "chebi:formula": "C19H16N5O7S3.Na",
-    "chebi:inchi": "InChI=1S/C19H17N5O7S3.Na/c1-30-23-11(9-7-34-19(20)21-9)14(25)22-12-15(26)24-13(17(27)28)8(5-32-16(12)24)6-33-18(29)10-3-2-4-31-10;/h2-4,7,12,16H,5-6H2,1H3,(H2,20,21)(H,22,25)(H,27,28);/q;+1/p-1/b23-11-;/t12-,16-;/m1./s1",
-    "chebi:inchikey": "RFLHUYUQCKHUKS-JUODUXDSSA-M",
-    "chebi:smiles": "[Na+].CO\\N=C(/C(=O)N[C@H]1[C@H]2SCC(CSC(=O)c3ccco3)=C(N2C1=O)C([O-])=O)c1csc(N)n1",
-    "geneontology:hasDbXref": [
-        "CAS:104010-37-9",
-        "KEGG:C13143",
-        "KEGG:D01682"
-    ],
-    "geneontology:hasId": "31383",
-    "geneontology:inSubset": {
-        "@id": "obo:chebi#2_STAR"
-    },
-    "rdfs:label": "Ceftiofur sodium",
-    "rdfs:subClassOf": {
-        "@id": "obo:CHEBI_50860"
+        "obo": "http://purl.obolibrary.org/obo/",
+        "uniprot": "http://purl.uniprot.org/",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "concept": "https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/",
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "dbo": "http://dbpedia.org/ontology/",
+        "dbp": "http://dbpedia.org/property/",
+        "altLabel": {
+            "@id": "http://www.w3.org/2004/02/skos/core#altLabel",
+            "@language": "en"
+        },
+        "graph": {
+            "@id": "@graph"
+        }
     }
 }

@@ -1,35 +1,27 @@
 {
     "@context": {
-        "chebi": "http://purl.obolibrary.org/obo/chebi/",
         "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
         "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-        "obo": "http://purl.obolibrary.org/obo/"
+        "obo": "http://purl.obolibrary.org/obo/",
+        "uniprot": "http://purl.uniprot.org/",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "concept": "https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/",
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "dbo": "http://dbpedia.org/ontology/",
+        "dbp": "http://dbpedia.org/property/",
+        "graph": {
+            "@id": "@graph"
+        }
     },
-    "@id": "obo:CHEBI_4903",
-    "@type": "http://www.w3.org/2002/07/owl#Class",
-    "obo:IAO_0000115": "A 3-hydroxy steroid that is estradiol substituted by a ethynyl group at position 17. It is a  xenoestrogen synthesized from estradiol and has been shown to exhibit high estrogenic potency on oral administration.",
+    "@id": "concept:BFPYWIDHMRZLRN-SLHNCBLASA-N",
+    "@type": "skos:Concept",
+    "dbo:formula": "C20H24O2",
+    "dbo:inchi": "InChI=1S/C20H24O2/c1-3-20(22)11-9-18-17-6-4-13-12-14(21)5-7-15(13)16(17)8-10-19(18,20)2/h1,5,7,12,16-18,21-22H,4,6,8-11H2,2H3/t16-,17-,18+,19+,20+/m1/s1",
+    "dbo:smiles": "[H][C@]12CC[C@@]3(C)[C@@]([H])(CC[C@@]3(O)C#C)[C@]1([H])CCc1cc(O)ccc21",
+    "dbp:inchikey": "BFPYWIDHMRZLRN-SLHNCBLASA-N",
     "chebi:charge": "0",
-    "chebi:formula": "C20H24O2",
-    "chebi:inchi": "InChI=1S/C20H24O2/c1-3-20(22)11-9-18-17-6-4-13-12-14(21)5-7-15(13)16(17)8-10-19(18,20)2/h1,5,7,12,16-18,21-22H,4,6,8-11H2,2H3/t16-,17-,18+,19+,20+/m1/s1",
-    "chebi:inchikey": "BFPYWIDHMRZLRN-SLHNCBLASA-N",
-    "chebi:smiles": "[H][C@]12CC[C@@]3(C)[C@@]([H])(CC[C@@]3(O)C#C)[C@]1([H])CCc1cc(O)ccc21",
-    "http://purl.uniprot.org/core/name": "17alpha-ethynylestradiol",
-    "geneontology:hasDbXref": [
-        "Beilstein:2419975",
-        "CAS:57-63-6",
-        "Drug_Central:1082",
-        "DrugBank:DB00977",
-        "HMDB:HMDB0001926",
-        "KEGG:C07534",
-        "KEGG:D00554",
-        "LINCS:LSM-5593",
-        "LIPID_MAPS_instance:LMST02010036",
-        "PMID:20189629",
-        "Reaxys:2419975",
-        "VSDB:1887"
-    ],
-    "geneontology:hasId": "4903",
-    "geneontology:hasSynonym": [
+    "skos:altLabel": [
         "17alpha-Ethinyl estradiol",
         "17alpha-ethynylestra-1,3,5(10)-triene-3,17beta-diol",
         "17-ethinyl-3,17-estradiol",
@@ -40,11 +32,11 @@
         "ethinyloestradiol",
         "Ethynyl estradiol"
     ],
-    "geneontology:inSubset": {
-        "@id": "obo:chebi#3_STAR"
+    "skos:exactMatch": {
+        "@id": "obo:CHEBI_4903"
     },
-    "rdfs:label": "17alpha-ethynylestradiol",
-    "rdfs:subClassOf": [
+    "skos:note": "A 3-hydroxy steroid that is estradiol substituted by a ethynyl group at position 17. It is a  xenoestrogen synthesized from estradiol and has been shown to exhibit high estrogenic potency on oral administration.",
+    "skos:semanticRelation": [
         {
             "@id": "obo:CHEBI_36838"
         },
@@ -53,15 +45,6 @@
         },
         {
             "@id": "obo:CHEBI_73477"
-        },
-        {
-            "@id": "b160_genid-00f1db82e1ab437c844115a94dc63e635-bn4903t8f16469"
-        },
-        {
-            "@id": "b160_genid-00f1db82e1ab437c844115a94dc63e635-bn4903t8f23965"
-        },
-        {
-            "@id": "b160_genid-00f1db82e1ab437c844115a94dc63e635-bn4903t11f76988"
         }
     ]
 }

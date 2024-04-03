@@ -1,29 +1,31 @@
 {
     "@context": {
-        "chebi": "http://purl.obolibrary.org/obo/chebi/",
         "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
         "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-        "obo": "http://purl.obolibrary.org/obo/"
+        "obo": "http://purl.obolibrary.org/obo/",
+        "uniprot": "http://purl.uniprot.org/",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "concept": "https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/",
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "dbo": "http://dbpedia.org/ontology/",
+        "dbp": "http://dbpedia.org/property/",
+        "altLabel": {
+            "@id": "http://www.w3.org/2004/02/skos/core#altLabel",
+            "@language": "en"
+        },
+        "graph": {
+            "@id": "@graph"
+        }
     },
-    "@id": "obo:CHEBI_35546",
-    "@type": "http://www.w3.org/2002/07/owl#Class",
-    "obo:IAO_0000115": "A fluoroalkanoic acid that is perfluorinated decanoic acid.",
+    "@id": "concept:PCIUEQPBYFRTEM-UHFFFAOYSA-N",
+    "@type": "skos:Concept",
+    "dbo:formula": "C10HF19O2",
+    "dbo:inchi": "InChI=1S/C10HF19O2/c11-2(12,1(30)31)3(13,14)4(15,16)5(17,18)6(19,20)7(21,22)8(23,24)9(25,26)10(27,28)29/h(H,30,31)",
+    "dbo:smiles": "OC(=O)C(F)(F)C(F)(F)C(F)(F)C(F)(F)C(F)(F)C(F)(F)C(F)(F)C(F)(F)C(F)(F)F",
+    "dbp:inchikey": "PCIUEQPBYFRTEM-UHFFFAOYSA-N",
     "chebi:charge": "0",
-    "chebi:formula": "C10HF19O2",
-    "chebi:inchi": "InChI=1S/C10HF19O2/c11-2(12,1(30)31)3(13,14)4(15,16)5(17,18)6(19,20)7(21,22)8(23,24)9(25,26)10(27,28)29/h(H,30,31)",
-    "chebi:inchikey": "PCIUEQPBYFRTEM-UHFFFAOYSA-N",
-    "chebi:smiles": "OC(=O)C(F)(F)C(F)(F)C(F)(F)C(F)(F)C(F)(F)C(F)(F)C(F)(F)C(F)(F)C(F)(F)F",
-    "geneontology:hasDbXref": [
-        "Beilstein:1810811",
-        "CAS:335-76-2",
-        "Gmelin:35659",
-        "PMID:24367824",
-        "PMID:24582365",
-        "PMID:24630253",
-        "Reaxys:1810811"
-    ],
-    "geneontology:hasId": "35546",
-    "geneontology:hasSynonym": [
+    "skos:altLabel": [
         "2,2,3,3,4,4,5,5,6,6,7,7,8,8,9,9,10,10,10-nonadecafluorodecanoic acid",
         "Ndfda",
         "nonadecafluorodecanoic acid",
@@ -31,22 +33,11 @@
         "perfluoro-n-decanoic acid",
         "PFDA"
     ],
-    "geneontology:inSubset": {
-        "@id": "obo:chebi#3_STAR"
+    "skos:exactMatch": {
+        "@id": "obo:CHEBI_35546"
     },
-    "rdfs:label": "perfluorodecanoic acid",
-    "rdfs:subClassOf": [
-        {
-            "@id": "obo:CHEBI_35551"
-        },
-        {
-            "@id": "b117_genid-00f1db82e1ab437c844115a94dc63e635-bn35546t8f30813"
-        },
-        {
-            "@id": "b117_genid-00f1db82e1ab437c844115a94dc63e635-bn35546t11f35703"
-        },
-        {
-            "@id": "b117_genid-00f1db82e1ab437c844115a94dc63e635-bn35546t11f78298"
-        }
-    ]
+    "skos:note": "A fluoroalkanoic acid that is perfluorinated decanoic acid.",
+    "skos:semanticRelation": {
+        "@id": "obo:CHEBI_35551"
+    }
 }

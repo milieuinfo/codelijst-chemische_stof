@@ -1,39 +1,31 @@
 {
     "@context": {
-        "chebi": "http://purl.obolibrary.org/obo/chebi/",
         "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
         "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-        "obo": "http://purl.obolibrary.org/obo/"
+        "obo": "http://purl.obolibrary.org/obo/",
+        "uniprot": "http://purl.uniprot.org/",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "concept": "https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/",
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "dbo": "http://dbpedia.org/ontology/",
+        "dbp": "http://dbpedia.org/property/",
+        "altLabel": {
+            "@id": "http://www.w3.org/2004/02/skos/core#altLabel",
+            "@language": "en"
+        },
+        "graph": {
+            "@id": "@graph"
+        }
     },
-    "@id": "obo:CHEBI_28197",
-    "@type": "http://www.w3.org/2002/07/owl#Class",
-    "obo:IAO_0000115": "A member of the class of 7-hydroxyisoflavones that is 7-hydroxyisoflavone substituted by an additional hydroxy group at position 4'.",
+    "@id": "concept:ZQSIJRDFPHDXIC-UHFFFAOYSA-N",
+    "@type": "skos:Concept",
+    "dbo:formula": "C15H10O4",
+    "dbo:inchi": "InChI=1S/C15H10O4/c16-10-3-1-9(2-4-10)13-8-19-14-7-11(17)5-6-12(14)15(13)18/h1-8,16-17H",
+    "dbo:smiles": "Oc1ccc(cc1)-c1coc2cc(O)ccc2c1=O",
+    "dbp:inchikey": "ZQSIJRDFPHDXIC-UHFFFAOYSA-N",
     "chebi:charge": "0",
-    "chebi:formula": "C15H10O4",
-    "chebi:inchi": "InChI=1S/C15H10O4/c16-10-3-1-9(2-4-10)13-8-19-14-7-11(17)5-6-12(14)15(13)18/h1-8,16-17H",
-    "chebi:inchikey": "ZQSIJRDFPHDXIC-UHFFFAOYSA-N",
-    "chebi:smiles": "Oc1ccc(cc1)-c1coc2cc(O)ccc2c1=O",
-    "geneontology:hasDbXref": [
-        "Beilstein:231523",
-        "CAS:486-66-8",
-        "HMDB:HMDB0003312",
-        "KEGG:C10208",
-        "KNApSAcK:C00009380",
-        "LINCS:LSM-2935",
-        "LIPID_MAPS_instance:LMPK12050038",
-        "MetaCyc:DAIDZEIN",
-        "PMID:11193416",
-        "PMID:16802696",
-        "PMID:23267126",
-        "PMID:23337939",
-        "PMID:23342971",
-        "PMID:23439294",
-        "PMID:9544566",
-        "Reaxys:231523",
-        "Wikipedia:Daidzein"
-    ],
-    "geneontology:hasId": "28197",
-    "geneontology:hasSynonym": [
+    "skos:altLabel": [
         "4',7-dihydroxyisoflavone",
         "7,4'-dihydroxyisoflavone",
         "7-Hydroxy-3-(4-hydroxyphenyl)-4-benzopyrone",
@@ -43,34 +35,11 @@
         "daidzeol",
         "isoaurostatin"
     ],
-    "geneontology:inSubset": {
-        "@id": "obo:chebi#3_STAR"
+    "skos:exactMatch": {
+        "@id": "obo:CHEBI_28197"
     },
-    "rdfs:label": "daidzein",
-    "rdfs:subClassOf": [
-        {
-            "@id": "obo:CHEBI_55465"
-        },
-        {
-            "@id": "b536_genid-00f1db82e1ab437c844115a94dc63e635-bn28197tmms73f77764"
-        },
-        {
-            "@id": "b536_genid-00f1db82e1ab437c844115a94dc63e635-bn28197t11f35610"
-        },
-        {
-            "@id": "b536_genid-00f1db82e1ab437c844115a94dc63e635-bn28197t11f67239"
-        },
-        {
-            "@id": "b536_genid-00f1db82e1ab437c844115a94dc63e635-bn28197t11f76924"
-        },
-        {
-            "@id": "b536_genid-00f1db82e1ab437c844115a94dc63e635-bn28197t11f76989"
-        },
-        {
-            "@id": "b536_genid-00f1db82e1ab437c844115a94dc63e635-bn28197t4f77764"
-        },
-        {
-            "@id": "b536_genid-00f1db82e1ab437c844115a94dc63e635-bn28197t11f131699"
-        }
-    ]
+    "skos:note": "A member of the class of 7-hydroxyisoflavones that is 7-hydroxyisoflavone substituted by an additional hydroxy group at position 4'.",
+    "skos:semanticRelation": {
+        "@id": "obo:CHEBI_55465"
+    }
 }

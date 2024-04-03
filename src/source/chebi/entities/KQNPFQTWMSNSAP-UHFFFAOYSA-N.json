@@ -1,40 +1,31 @@
 {
     "@context": {
-        "chebi": "http://purl.obolibrary.org/obo/chebi/",
         "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
         "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-        "obo": "http://purl.obolibrary.org/obo/"
+        "obo": "http://purl.obolibrary.org/obo/",
+        "uniprot": "http://purl.uniprot.org/",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "concept": "https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/",
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "dbo": "http://dbpedia.org/ontology/",
+        "dbp": "http://dbpedia.org/property/",
+        "altLabel": {
+            "@id": "http://www.w3.org/2004/02/skos/core#altLabel",
+            "@language": "en"
+        },
+        "graph": {
+            "@id": "@graph"
+        }
     },
-    "@id": "obo:CHEBI_16135",
-    "@type": "http://www.w3.org/2002/07/owl#Class",
-    "obo:IAO_0000115": "A branched fatty acid comprising propanoic acid carrying a methyl branch at C-2.",
+    "@id": "concept:KQNPFQTWMSNSAP-UHFFFAOYSA-N",
+    "@type": "skos:Concept",
+    "dbo:formula": "C4H8O2",
+    "dbo:inchi": "InChI=1S/C4H8O2/c1-3(2)4(5)6/h3H,1-2H3,(H,5,6)",
+    "dbo:smiles": "CC(C)C(O)=O",
+    "dbp:inchikey": "KQNPFQTWMSNSAP-UHFFFAOYSA-N",
     "chebi:charge": "0",
-    "chebi:formula": "C4H8O2",
-    "chebi:inchi": "InChI=1S/C4H8O2/c1-3(2)4(5)6/h3H,1-2H3,(H,5,6)",
-    "chebi:inchikey": "KQNPFQTWMSNSAP-UHFFFAOYSA-N",
-    "chebi:smiles": "CC(C)C(O)=O",
-    "geneontology:hasDbXref": [
-        "Beilstein:635770",
-        "BPDB:3128",
-        "CAS:79-31-2",
-        "DrugBank:DB02531",
-        "Gmelin:49630",
-        "HMDB:HMDB0001873",
-        "KEGG:C02632",
-        "KNApSAcK:C00029462",
-        "LIPID_MAPS_instance:LMFA01020071",
-        "MetaCyc:ISOBUTYRATE",
-        "PDBeChem:ALQ",
-        "PMID:10757489",
-        "PMID:17580301",
-        "PMID:17877388",
-        "PPDB:3128",
-        "Reaxys:635770",
-        "UM-BBD_compID:c0383",
-        "Wikipedia:Isobutyric_acid"
-    ],
-    "geneontology:hasId": "16135",
-    "geneontology:hasSynonym": [
+    "skos:altLabel": [
         "2,2-dimethylacetic acid",
         "2-Methylpropanoate",
         "2-methylpropanoic acid",
@@ -55,11 +46,11 @@
         "iso-C3H7COOH",
         "isopropylformic acid"
     ],
-    "geneontology:inSubset": {
-        "@id": "obo:chebi#3_STAR"
+    "skos:exactMatch": {
+        "@id": "obo:CHEBI_16135"
     },
-    "rdfs:label": "isobutyric acid",
-    "rdfs:subClassOf": [
+    "skos:note": "A branched fatty acid comprising propanoic acid carrying a methyl branch at C-2.",
+    "skos:semanticRelation": [
         {
             "@id": "obo:CHEBI_140601"
         },
@@ -67,22 +58,7 @@
             "@id": "obo:CHEBI_39417"
         },
         {
-            "@id": "b440_genid-00f1db82e1ab437c844115a94dc63e635-bn16135tmms73f48944"
-        },
-        {
-            "@id": "b440_genid-00f1db82e1ab437c844115a94dc63e635-bn16135t11f27311"
-        },
-        {
-            "@id": "b440_genid-00f1db82e1ab437c844115a94dc63e635-bn16135t4f48944"
-        },
-        {
             "@id": "obo:CHEBI_62499"
-        },
-        {
-            "@id": "b440_genid-00f1db82e1ab437c844115a94dc63e635-bn16135t11f76924"
-        },
-        {
-            "@id": "b440_genid-00f1db82e1ab437c844115a94dc63e635-bn16135t11f83056"
         }
     ]
 }

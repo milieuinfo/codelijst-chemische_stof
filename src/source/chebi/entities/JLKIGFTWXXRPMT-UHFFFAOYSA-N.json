@@ -1,69 +1,31 @@
 {
     "@context": {
-        "chebi": "http://purl.obolibrary.org/obo/chebi/",
         "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
         "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-        "obo": "http://purl.obolibrary.org/obo/"
+        "obo": "http://purl.obolibrary.org/obo/",
+        "uniprot": "http://purl.uniprot.org/",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "concept": "https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/",
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "dbo": "http://dbpedia.org/ontology/",
+        "dbp": "http://dbpedia.org/property/",
+        "altLabel": {
+            "@id": "http://www.w3.org/2004/02/skos/core#altLabel",
+            "@language": "en"
+        },
+        "graph": {
+            "@id": "@graph"
+        }
     },
-    "@id": "obo:CHEBI_9332",
-    "@type": "http://www.w3.org/2002/07/owl#Class",
-    "obo:IAO_0000115": "An isoxazole (1,2-oxazole) compound having a methyl substituent at the 5-position and a 4-aminobenzenesulfonamido group at the 3-position.",
+    "@id": "concept:JLKIGFTWXXRPMT-UHFFFAOYSA-N",
+    "@type": "skos:Concept",
+    "dbo:formula": "C10H11N3O3S",
+    "dbo:inchi": "InChI=1S/C10H11N3O3S/c1-7-6-10(12-16-7)13-17(14,15)9-4-2-8(11)3-5-9/h2-6H,11H2,1H3,(H,12,13)",
+    "dbo:smiles": "C=1(C=CC(=CC1)N)S(NC=2C=C(ON2)C)(=O)=O",
+    "dbp:inchikey": "JLKIGFTWXXRPMT-UHFFFAOYSA-N",
     "chebi:charge": "0",
-    "chebi:formula": "C10H11N3O3S",
-    "chebi:inchi": "InChI=1S/C10H11N3O3S/c1-7-6-10(12-16-7)13-17(14,15)9-4-2-8(11)3-5-9/h2-6H,11H2,1H3,(H,12,13)",
-    "chebi:inchikey": "JLKIGFTWXXRPMT-UHFFFAOYSA-N",
-    "chebi:smiles": "C=1(C=CC(=CC1)N)S(NC=2C=C(ON2)C)(=O)=O",
-    "geneontology:hasDbXref": [
-        "PMID:7602118",
-        "PMID:11431418",
-        "PMID:7798534",
-        "PMID:10891117",
-        "PMID:6864729",
-        "CAS:723-46-6",
-        "Drug_Central:2514",
-        "DrugBank:DB01015",
-        "Gmelin:226453",
-        "HMDB:HMDB0015150",
-        "KEGG:C07315",
-        "KEGG:D00447",
-        "LINCS:LSM-5422",
-        "PMID:10843725",
-        "PMID:10969989",
-        "PMID:11350866",
-        "PMID:12019187",
-        "PMID:15497867",
-        "PMID:15588915",
-        "PMID:15967282",
-        "PMID:15984773",
-        "PMID:17095123",
-        "PMID:17110110",
-        "PMID:17158933",
-        "PMID:17311370",
-        "PMID:17442935",
-        "PMID:17573190",
-        "PMID:18334600",
-        "PMID:18958736",
-        "PMID:19436870",
-        "PMID:20564608",
-        "PMID:22534821",
-        "PMID:226453",
-        "PMID:23611245",
-        "PMID:23649399",
-        "PMID:23742687",
-        "PMID:25851465",
-        "PMID:313909",
-        "PMID:3906132",
-        "PMID:7486915",
-        "PMID:7490723",
-        "PMID:7534104",
-        "PMID:7731020",
-        "PMID:8208693",
-        "PMID:8632413",
-        "Reaxys:226453",
-        "Wikipedia:Sulfamethoxazole"
-    ],
-    "geneontology:hasId": "9332",
-    "geneontology:hasSynonym": [
+    "skos:altLabel": [
         "3-(p-Aminophenylsulfonamido)-5-methylisoxazole",
         "3-Sulfanilamido-5-methylisoxazole",
         "4-amino-N-(5-methyl-1,2-oxazol-3-yl)benzenesulfonamide",
@@ -73,11 +35,11 @@
         "Sulfamethoxazole",
         "sulphamethoxazole"
     ],
-    "geneontology:inSubset": {
-        "@id": "obo:chebi#3_STAR"
+    "skos:exactMatch": {
+        "@id": "obo:CHEBI_9332"
     },
-    "rdfs:label": "sulfamethoxazole",
-    "rdfs:subClassOf": [
+    "skos:note": "An isoxazole (1,2-oxazole) compound having a methyl substituent at the 5-position and a 4-aminobenzenesulfonamido group at the 3-position.",
+    "skos:semanticRelation": [
         {
             "@id": "obo:CHEBI_48975"
         },
@@ -89,39 +51,6 @@
         },
         {
             "@id": "obo:CHEBI_87228"
-        },
-        {
-            "@id": "b275_genid-00f1db82e1ab437c844115a94dc63e635-bn9332t11f33281"
-        },
-        {
-            "@id": "b275_genid-00f1db82e1ab437c844115a94dc63e635-bn9332t11f33282"
-        },
-        {
-            "@id": "b275_genid-00f1db82e1ab437c844115a94dc63e635-bn9332t11f35441"
-        },
-        {
-            "@id": "b275_genid-00f1db82e1ab437c844115a94dc63e635-bn9332t11f35703"
-        },
-        {
-            "@id": "b275_genid-00f1db82e1ab437c844115a94dc63e635-bn9332t8f45373"
-        },
-        {
-            "@id": "b275_genid-00f1db82e1ab437c844115a94dc63e635-bn9332t11f50183"
-        },
-        {
-            "@id": "b275_genid-00f1db82e1ab437c844115a94dc63e635-bn9332t11f50502"
-        },
-        {
-            "@id": "b275_genid-00f1db82e1ab437c844115a94dc63e635-bn9332t11f53000"
-        },
-        {
-            "@id": "b275_genid-00f1db82e1ab437c844115a94dc63e635-bn9332t11f74234"
-        },
-        {
-            "@id": "b275_genid-00f1db82e1ab437c844115a94dc63e635-bn9332t11f78298"
-        },
-        {
-            "@id": "b275_genid-00f1db82e1ab437c844115a94dc63e635-bn9332t11f88188"
         }
     ]
 }

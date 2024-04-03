@@ -1,29 +1,31 @@
 {
     "@context": {
-        "chebi": "http://purl.obolibrary.org/obo/chebi/",
         "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
         "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-        "obo": "http://purl.obolibrary.org/obo/"
+        "obo": "http://purl.obolibrary.org/obo/",
+        "uniprot": "http://purl.uniprot.org/",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "concept": "https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/",
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "dbo": "http://dbpedia.org/ontology/",
+        "dbp": "http://dbpedia.org/property/",
+        "altLabel": {
+            "@id": "http://www.w3.org/2004/02/skos/core#altLabel",
+            "@language": "en"
+        },
+        "graph": {
+            "@id": "@graph"
+        }
     },
-    "@id": "obo:CHEBI_35549",
-    "@type": "http://www.w3.org/2002/07/owl#Class",
-    "obo:IAO_0000115": "A fluoroalkanoic acid that is perfluorinated octanoic acid.",
+    "@id": "concept:SNGREZUHAYWORS-UHFFFAOYSA-N",
+    "@type": "skos:Concept",
+    "dbo:formula": "C8HF15O2",
+    "dbo:inchi": "InChI=1S/C8HF15O2/c9-2(10,1(24)25)3(11,12)4(13,14)5(15,16)6(17,18)7(19,20)8(21,22)23/h(H,24,25)",
+    "dbo:smiles": "OC(=O)C(F)(F)C(F)(F)C(F)(F)C(F)(F)C(F)(F)C(F)(F)C(F)(F)F",
+    "dbp:inchikey": "SNGREZUHAYWORS-UHFFFAOYSA-N",
     "chebi:charge": "0",
-    "chebi:formula": "C8HF15O2",
-    "chebi:inchi": "InChI=1S/C8HF15O2/c9-2(10,1(24)25)3(11,12)4(13,14)5(15,16)6(17,18)7(19,20)8(21,22)23/h(H,24,25)",
-    "chebi:inchikey": "SNGREZUHAYWORS-UHFFFAOYSA-N",
-    "chebi:smiles": "OC(=O)C(F)(F)C(F)(F)C(F)(F)C(F)(F)C(F)(F)C(F)(F)C(F)(F)F",
-    "geneontology:hasDbXref": [
-        "Beilstein:1809678",
-        "CAS:335-67-1",
-        "Gmelin:34320",
-        "PMID:16020091",
-        "PMID:18467677",
-        "Reaxys:1809678",
-        "Wikipedia:Perfluorooctanoic_acid"
-    ],
-    "geneontology:hasId": "35549",
-    "geneontology:hasSynonym": [
+    "skos:altLabel": [
         "2,2,3,3,4,4,5,5,6,6,7,7,8,8,8-pentadecafluorooctanoic acid",
         "pentadecafluoro-1-octanoic acid",
         "pentadecafluoro-n-octanoic acid",
@@ -34,34 +36,11 @@
         "perfluorooctylcarboxylic acid",
         "PFOA"
     ],
-    "geneontology:inSubset": {
-        "@id": "obo:chebi#3_STAR"
+    "skos:exactMatch": {
+        "@id": "obo:CHEBI_35549"
     },
-    "rdfs:label": "perfluorooctanoic acid",
-    "rdfs:subClassOf": [
-        {
-            "@id": "obo:CHEBI_35551"
-        },
-        {
-            "@id": "b632_genid-00f1db82e1ab437c844115a94dc63e635-bn35549t8f28837"
-        },
-        {
-            "@id": "b632_genid-00f1db82e1ab437c844115a94dc63e635-bn35549t11f35195"
-        },
-        {
-            "@id": "b632_genid-00f1db82e1ab437c844115a94dc63e635-bn35549t11f35703"
-        },
-        {
-            "@id": "b632_genid-00f1db82e1ab437c844115a94dc63e635-bn35549t8f38826"
-        },
-        {
-            "@id": "b632_genid-00f1db82e1ab437c844115a94dc63e635-bn35549t11f50903"
-        },
-        {
-            "@id": "b632_genid-00f1db82e1ab437c844115a94dc63e635-bn35549t11f78298"
-        },
-        {
-            "@id": "b632_genid-00f1db82e1ab437c844115a94dc63e635-bn35549t11f138015"
-        }
-    ]
+    "skos:note": "A fluoroalkanoic acid that is perfluorinated octanoic acid.",
+    "skos:semanticRelation": {
+        "@id": "obo:CHEBI_35551"
+    }
 }

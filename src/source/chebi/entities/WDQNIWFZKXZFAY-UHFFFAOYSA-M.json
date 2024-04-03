@@ -1,32 +1,31 @@
 {
     "@context": {
-        "chebi": "http://purl.obolibrary.org/obo/chebi/",
         "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
         "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-        "obo": "http://purl.obolibrary.org/obo/"
+        "obo": "http://purl.obolibrary.org/obo/",
+        "uniprot": "http://purl.uniprot.org/",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "concept": "https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/",
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "dbo": "http://dbpedia.org/ontology/",
+        "dbp": "http://dbpedia.org/property/",
+        "altLabel": {
+            "@id": "http://www.w3.org/2004/02/skos/core#altLabel",
+            "@language": "en"
+        },
+        "graph": {
+            "@id": "@graph"
+        }
     },
-    "@id": "obo:CHEBI_81918",
-    "@type": "http://www.w3.org/2002/07/owl#Class",
-    "obo:IAO_0000115": "An organotin compound that is the O-acetyl derivative of triphenyltin hydroxide. A fungicide used to control blights on potatoes, leaf spot diseases on sugar beet and anthracnose on beans.",
+    "@id": "concept:WDQNIWFZKXZFAY-UHFFFAOYSA-M",
+    "@type": "skos:Concept",
+    "dbo:formula": "C20H18O2Sn",
+    "dbo:inchi": "InChI=1S/3C6H5.C2H4O2.Sn/c3*1-2-4-6-5-3-1;1-2(3)4;/h3*1-5H;1H3,(H,3,4);/q;;;;+1/p-1",
+    "dbo:smiles": "CC(=O)O[Sn](c1ccccc1)(c1ccccc1)c1ccccc1",
+    "dbp:inchikey": "WDQNIWFZKXZFAY-UHFFFAOYSA-M",
     "chebi:charge": "0",
-    "chebi:formula": "C20H18O2Sn",
-    "chebi:inchi": "InChI=1S/3C6H5.C2H4O2.Sn/c3*1-2-4-6-5-3-1;1-2(3)4;/h3*1-5H;1H3,(H,3,4);/q;;;;+1/p-1",
-    "chebi:inchikey": "WDQNIWFZKXZFAY-UHFFFAOYSA-M",
-    "chebi:smiles": "CC(=O)O[Sn](c1ccccc1)(c1ccccc1)c1ccccc1",
-    "geneontology:hasDbXref": [
-        "AGR:IND91037778",
-        "CAS:900-95-8",
-        "HMDB:HMDB0031789",
-        "KEGG:C18728",
-        "Patent:GB2262037",
-        "PMID:15669734",
-        "PMID:3567403",
-        "PPDB:311",
-        "Reaxys:3819297",
-        "Wikipedia:Fentin_acetate"
-    ],
-    "geneontology:hasId": "81918",
-    "geneontology:hasSynonym": [
+    "skos:altLabel": [
         "(Acetyloxy)triphenylstannane",
         "Acetatotriphenylstannane",
         "Acetic acid, triphenylstannyl ester",
@@ -45,22 +44,16 @@
         "Triphenyltin acetate",
         "Triphenyl-zinnacetat"
     ],
-    "geneontology:inSubset": {
-        "@id": "obo:chebi#3_STAR"
+    "skos:exactMatch": {
+        "@id": "obo:CHEBI_81918"
     },
-    "rdfs:label": "fentin acetate",
-    "rdfs:subClassOf": [
+    "skos:note": "An organotin compound that is the O-acetyl derivative of triphenyltin hydroxide. A fungicide used to control blights on potatoes, leaf spot diseases on sugar beet and anthracnose on beans.",
+    "skos:semanticRelation": [
         {
             "@id": "obo:CHEBI_47622"
         },
         {
             "@id": "obo:CHEBI_25717"
-        },
-        {
-            "@id": "b383_genid-00f1db82e1ab437c844115a94dc63e635-bn81918t8f30473"
-        },
-        {
-            "@id": "b383_genid-00f1db82e1ab437c844115a94dc63e635-bn81918t11f86328"
         }
     ]
 }

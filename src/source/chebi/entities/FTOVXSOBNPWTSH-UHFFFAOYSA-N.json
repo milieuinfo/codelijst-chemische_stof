@@ -1,28 +1,27 @@
 {
     "@context": {
-        "chebi": "http://purl.obolibrary.org/obo/chebi/",
         "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
         "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-        "obo": "http://purl.obolibrary.org/obo/"
+        "obo": "http://purl.obolibrary.org/obo/",
+        "uniprot": "http://purl.uniprot.org/",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "concept": "https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/",
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "dbo": "http://dbpedia.org/ontology/",
+        "dbp": "http://dbpedia.org/property/",
+        "graph": {
+            "@id": "@graph"
+        }
     },
-    "@id": "obo:CHEBI_34565",
-    "@type": "http://www.w3.org/2002/07/owl#Class",
-    "obo:IAO_0000115": "An ortho- and peri-fused polycyclic arene that consists of a benzene ring fused with a acephenanthrylene ring.",
+    "@id": "concept:FTOVXSOBNPWTSH-UHFFFAOYSA-N",
+    "@type": "skos:Concept",
+    "dbo:formula": "C20H12",
+    "dbo:inchi": "InChI=1S/C20H12/c1-2-7-14-13(6-1)12-19-16-9-4-3-8-15(16)18-11-5-10-17(14)20(18)19/h1-12H",
+    "dbo:smiles": "c1ccc-2c(c1)-c1cccc3c4ccccc4cc-2c13",
+    "dbp:inchikey": "FTOVXSOBNPWTSH-UHFFFAOYSA-N",
     "chebi:charge": "0",
-    "chebi:formula": "C20H12",
-    "chebi:inchi": "InChI=1S/C20H12/c1-2-7-14-13(6-1)12-19-16-9-4-3-8-15(16)18-11-5-10-17(14)20(18)19/h1-12H",
-    "chebi:inchikey": "FTOVXSOBNPWTSH-UHFFFAOYSA-N",
-    "chebi:smiles": "c1ccc-2c(c1)-c1cccc3c4ccccc4cc-2c13",
-    "geneontology:hasDbXref": [
-        "Beilstein:1872553",
-        "CAS:205-99-2",
-        "KEGG:C14320",
-        "PMID:18830893",
-        "Reaxys:1872553",
-        "Wikipedia:Benzo(b)fluoranthene"
-    ],
-    "geneontology:hasId": "34565",
-    "geneontology:hasSynonym": [
+    "skos:altLabel": [
         "2,3-Benzfluoranthene",
         "2,3-Benzofluoranthene",
         "3,4-Benzfluoranthene",
@@ -31,16 +30,11 @@
         "benzo[e]acephenanthrylene",
         "BF"
     ],
-    "geneontology:inSubset": {
-        "@id": "obo:chebi#3_STAR"
+    "skos:exactMatch": {
+        "@id": "obo:CHEBI_34565"
     },
-    "rdfs:label": "benzo[b]fluoranthene",
-    "rdfs:subClassOf": [
-        {
-            "@id": "obo:CHEBI_35300"
-        },
-        {
-            "@id": "b658_genid-00f1db82e1ab437c844115a94dc63e635-bn34565t11f25435"
-        }
-    ]
+    "skos:note": "An ortho- and peri-fused polycyclic arene that consists of a benzene ring fused with a acephenanthrylene ring.",
+    "skos:semanticRelation": {
+        "@id": "obo:CHEBI_35300"
+    }
 }

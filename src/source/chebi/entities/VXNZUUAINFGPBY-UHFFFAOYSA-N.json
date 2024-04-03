@@ -1,28 +1,31 @@
 {
     "@context": {
-        "chebi": "http://purl.obolibrary.org/obo/chebi/",
         "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
         "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-        "obo": "http://purl.obolibrary.org/obo/"
+        "obo": "http://purl.obolibrary.org/obo/",
+        "uniprot": "http://purl.uniprot.org/",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "concept": "https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/",
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "dbo": "http://dbpedia.org/ontology/",
+        "dbp": "http://dbpedia.org/property/",
+        "altLabel": {
+            "@id": "http://www.w3.org/2004/02/skos/core#altLabel",
+            "@language": "en"
+        },
+        "graph": {
+            "@id": "@graph"
+        }
     },
-    "@id": "obo:CHEBI_48362",
-    "@type": "http://www.w3.org/2002/07/owl#Class",
-    "obo:IAO_0000115": "A butene with unsaturation at position 1.",
+    "@id": "concept:VXNZUUAINFGPBY-UHFFFAOYSA-N",
+    "@type": "skos:Concept",
+    "dbo:formula": "C4H8",
+    "dbo:inchi": "InChI=1S/C4H8/c1-3-4-2/h3H,1,4H2,2H3",
+    "dbo:smiles": "CCC=C",
+    "dbp:inchikey": "VXNZUUAINFGPBY-UHFFFAOYSA-N",
     "chebi:charge": "0",
-    "chebi:formula": "C4H8",
-    "chebi:inchi": "InChI=1S/C4H8/c1-3-4-2/h3H,1,4H2,2H3",
-    "chebi:inchikey": "VXNZUUAINFGPBY-UHFFFAOYSA-N",
-    "chebi:smiles": "CCC=C",
-    "geneontology:hasDbXref": [
-        "Beilstein:1098262",
-        "CAS:106-98-9",
-        "Gmelin:25205",
-        "PMID:24819240",
-        "Reaxys:1098262",
-        "Wikipedia:1-Butene"
-    ],
-    "geneontology:hasId": "48362",
-    "geneontology:hasSynonym": [
+    "skos:altLabel": [
         "1-butene",
         "1-butylene",
         "1-C4H8",
@@ -31,11 +34,11 @@
         "butene-1",
         "ethylethylene"
     ],
-    "geneontology:inSubset": {
-        "@id": "obo:chebi#3_STAR"
+    "skos:exactMatch": {
+        "@id": "obo:CHEBI_48362"
     },
-    "rdfs:label": "but-1-ene",
-    "rdfs:subClassOf": {
+    "skos:note": "A butene with unsaturation at position 1.",
+    "skos:semanticRelation": {
         "@id": "obo:CHEBI_48361"
     }
 }

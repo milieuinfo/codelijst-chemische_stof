@@ -1,56 +1,31 @@
 {
     "@context": {
-        "chebi": "http://purl.obolibrary.org/obo/chebi/",
         "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
         "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-        "obo": "http://purl.obolibrary.org/obo/"
+        "obo": "http://purl.obolibrary.org/obo/",
+        "uniprot": "http://purl.uniprot.org/",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "concept": "https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/",
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "dbo": "http://dbpedia.org/ontology/",
+        "dbp": "http://dbpedia.org/property/",
+        "altLabel": {
+            "@id": "http://www.w3.org/2004/02/skos/core#altLabel",
+            "@language": "en"
+        },
+        "graph": {
+            "@id": "@graph"
+        }
     },
-    "@id": "obo:CHEBI_53218",
-    "@type": "http://www.w3.org/2002/07/owl#Class",
-    "obo:IAO_0000115": "A diisocyanate consisting of diphenylmethane with two isocyanate groups at the 4- and 4'-positions.",
+    "@id": "concept:UPMLOUAZCHDJJD-UHFFFAOYSA-N",
+    "@type": "skos:Concept",
+    "dbo:formula": "C15H10N2O2",
+    "dbo:inchi": "InChI=1S/C15H10N2O2/c18-10-16-14-5-1-12(2-6-14)9-13-3-7-15(8-4-13)17-11-19/h1-8H,9H2",
+    "dbo:smiles": "O=C=Nc1ccc(Cc2ccc(cc2)N=C=O)cc1",
+    "dbp:inchikey": "UPMLOUAZCHDJJD-UHFFFAOYSA-N",
     "chebi:charge": "0",
-    "chebi:formula": "C15H10N2O2",
-    "chebi:inchi": "InChI=1S/C15H10N2O2/c18-10-16-14-5-1-12(2-6-14)9-13-3-7-15(8-4-13)17-11-19/h1-8H,9H2",
-    "chebi:inchikey": "UPMLOUAZCHDJJD-UHFFFAOYSA-N",
-    "chebi:smiles": "O=C=Nc1ccc(Cc2ccc(cc2)N=C=O)cc1",
-    "geneontology:hasDbXref": [
-        "PMID:6821040",
-        "PMID:17336832",
-        "PMID:1447476",
-        "PMID:17042142",
-        "PMID:14531868",
-        "PMID:8960156",
-        "Beilstein:797662",
-        "CAS:101-68-8",
-        "Gmelin:166464",
-        "KEGG:C19453",
-        "Patent:WO2010121997",
-        "PMID:11927838",
-        "PMID:18352975",
-        "PMID:18418755",
-        "PMID:18484168",
-        "PMID:18787742",
-        "PMID:19014769",
-        "PMID:19191163",
-        "PMID:19732394",
-        "PMID:19757291",
-        "PMID:20165612",
-        "PMID:20933064",
-        "PMID:21414210",
-        "PMID:21878336",
-        "PMID:21987383",
-        "PMID:24572447",
-        "PMID:26337647",
-        "PMID:26690039",
-        "PMID:26954368",
-        "PMID:6296214",
-        "PMID:8093967",
-        "PMID:8711735",
-        "Reaxys:797662",
-        "Wikipedia:Diphenylmethane_diisocyanate"
-    ],
-    "geneontology:hasId": "53218",
-    "geneontology:hasSynonym": [
+    "skos:altLabel": [
         "1,1'-methylenebis(4-isocyanatobenzene)",
         "1,1'-Methylenebis(4-isocyanatobenzene)",
         "4,4'-Diisocyanatodiphenylmethane",
@@ -94,22 +69,11 @@
         "para,para'-Diphenylmethane diisocyanate",
         "para,para'-Methylenebis(phenyl isocyanate)"
     ],
-    "geneontology:inSubset": {
-        "@id": "obo:chebi#3_STAR"
+    "skos:exactMatch": {
+        "@id": "obo:CHEBI_53218"
     },
-    "rdfs:label": "diphenylmethane-4,4'-diisocyanate",
-    "rdfs:subClassOf": [
-        {
-            "@id": "obo:CHEBI_53213"
-        },
-        {
-            "@id": "b823_genid-00f1db82e1ab437c844115a94dc63e635-bn53218t9f38884"
-        },
-        {
-            "@id": "b823_genid-00f1db82e1ab437c844115a94dc63e635-bn53218t11f50904"
-        },
-        {
-            "@id": "b823_genid-00f1db82e1ab437c844115a94dc63e635-bn53218t11f59174"
-        }
-    ]
+    "skos:note": "A diisocyanate consisting of diphenylmethane with two isocyanate groups at the 4- and 4'-positions.",
+    "skos:semanticRelation": {
+        "@id": "obo:CHEBI_53213"
+    }
 }

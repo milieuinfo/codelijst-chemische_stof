@@ -1,50 +1,42 @@
 {
     "@context": {
-        "chebi": "http://purl.obolibrary.org/obo/chebi/",
         "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
         "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-        "obo": "http://purl.obolibrary.org/obo/"
+        "obo": "http://purl.obolibrary.org/obo/",
+        "uniprot": "http://purl.uniprot.org/",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "concept": "https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/",
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "dbo": "http://dbpedia.org/ontology/",
+        "dbp": "http://dbpedia.org/property/",
+        "altLabel": {
+            "@id": "http://www.w3.org/2004/02/skos/core#altLabel",
+            "@language": "en"
+        },
+        "graph": {
+            "@id": "@graph"
+        }
     },
-    "@id": "obo:CHEBI_9230",
-    "@type": "http://www.w3.org/2002/07/owl#Class",
-    "obo:IAO_0000115": "A spinosyn in which the sugar amino and hydroxy groups are globally methylated. One of the two active ingredients of spinosad.",
+    "@id": "concept:SRJQTHAZUNRMPR-UYQKXTDMSA-N",
+    "@type": "skos:Concept",
+    "dbo:formula": "C41H65NO10",
+    "dbo:inchi": "InChI=1S/C41H65NO10/c1-10-26-12-11-13-34(52-36-17-16-33(42(5)6)23(3)48-36)22(2)37(44)32-20-30-28(31(32)21-35(43)50-26)15-14-25-18-27(19-29(25)30)51-41-40(47-9)39(46-8)38(45-7)24(4)49-41/h14-15,20,22-31,33-34,36,38-41H,10-13,16-19,21H2,1-9H3/t22-,23-,24+,25-,26+,27-,28-,29-,30-,31+,33+,34+,36+,38+,39-,40-,41+/m1/s1",
+    "dbo:smiles": "[H][C@@]12C[C@H](C[C@@]1([H])[C@]1([H])C=C3C(=O)[C@H](C)[C@H](CCC[C@H](CC)OC(=O)C[C@@]3([H])[C@]1([H])C=C2)O[C@H]1CC[C@@H]([C@@H](C)O1)N(C)C)O[C@@H]1O[C@@H](C)[C@H](OC)[C@@H](OC)[C@H]1OC",
+    "dbp:inchikey": "SRJQTHAZUNRMPR-UYQKXTDMSA-N",
     "chebi:charge": "0",
-    "chebi:formula": "C41H65NO10",
-    "chebi:inchi": "InChI=1S/C41H65NO10/c1-10-26-12-11-13-34(52-36-17-16-33(42(5)6)23(3)48-36)22(2)37(44)32-20-30-28(31(32)21-35(43)50-26)15-14-25-18-27(19-29(25)30)51-41-40(47-9)39(46-8)38(45-7)24(4)49-41/h14-15,20,22-31,33-34,36,38-41H,10-13,16-19,21H2,1-9H3/t22-,23-,24+,25-,26+,27-,28-,29-,30-,31+,33+,34+,36+,38+,39-,40-,41+/m1/s1",
-    "chebi:inchikey": "SRJQTHAZUNRMPR-UYQKXTDMSA-N",
-    "chebi:smiles": "[H][C@@]12C[C@H](C[C@@]1([H])[C@]1([H])C=C3C(=O)[C@H](C)[C@H](CCC[C@H](CC)OC(=O)C[C@@]3([H])[C@]1([H])C=C2)O[C@H]1CC[C@@H]([C@@H](C)O1)N(C)C)O[C@@H]1O[C@@H](C)[C@H](OC)[C@@H](OC)[C@H]1OC",
-    "geneontology:hasDbXref": [
-        "Beilstein:6838034",
-        "CAS:131929-60-7",
-        "KEGG:C11054",
-        "MetaCyc:CPD-13385",
-        "Patent:WO2004095926",
-        "Patent:WO2006127322",
-        "PMID:21544146",
-        "PMID:21834600",
-        "PMID:22097790",
-        "PMID:22200799",
-        "PMID:22686274",
-        "PMID:22885939",
-        "Reaxys:6838034",
-        "Wikipedia:Spinosad"
-    ],
-    "geneontology:hasId": "9230",
-    "geneontology:hasSynonym": [
+    "skos:altLabel": [
         "(2R,3aS,5aR,5bS,9S,13S,14R,16aS,16bR)-13-{[(2R,5S,6R)-5-(dimethylamino)-6-methyltetrahydro-2H-pyran-2-yl]oxy}-9-ethyl-14-methyl-7,15-dioxo-2,3,3a,5a,5b,6,7,9,10,11,12,13,14,15,16a,16b-hexadecahydro-1H-as-indaceno[3,2-d]oxacyclododecin-2-yl 6-deoxy-2,3,4-tri-O-methyl-alpha-L-mannopyranoside",
         "A 83543A",
         "lepicidin A",
         "Spinosad factor A",
         "Spinosyn A"
     ],
-    "geneontology:inSubset": {
-        "@id": "obo:chebi#3_STAR"
+    "skos:exactMatch": {
+        "@id": "obo:CHEBI_9230"
     },
-    "rdfs:label": "spinosyn A",
-    "rdfs:subClassOf": [
-        {
-            "@id": "b659_genid-00f1db82e1ab437c844115a94dc63e635-bn9230t11f38706"
-        },
+    "skos:note": "A spinosyn in which the sugar amino and hydroxy groups are globally methylated. One of the two active ingredients of spinosad.",
+    "skos:semanticRelation": [
         {
             "@id": "obo:CHEBI_39207"
         },

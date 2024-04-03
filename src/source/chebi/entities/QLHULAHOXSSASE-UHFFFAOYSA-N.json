@@ -1,28 +1,21 @@
 {
     "@context": {
-        "chebi": "http://purl.obolibrary.org/obo/chebi/",
         "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
         "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-        "obo": "http://purl.obolibrary.org/obo/"
-    },
-    "@id": "obo:CHEBI_143733",
-    "@type": "http://www.w3.org/2002/07/owl#Class",
-    "chebi:charge": "0",
-    "chebi:formula": "C12H23NO3",
-    "chebi:inchi": "InChI=1S/C12H23NO3/c1-3-10(2)16-12(15)13-8-5-4-6-11(13)7-9-14/h10-11,14H,3-9H2,1-2H3",
-    "chebi:inchikey": "QLHULAHOXSSASE-UHFFFAOYSA-N",
-    "chebi:smiles": "O=C(OC(CC)C)N1C(CCCC1)CCO",
-    "geneontology:hasId": "143733",
-    "geneontology:inSubset": {
-        "@id": "obo:chebi#2_STAR"
-    },
-    "rdfs:label": "butan-2-yl 2-(2-hydroxyethyl)piperidine-1-carboxylate",
-    "rdfs:subClassOf": [
-        {
-            "@id": "obo:CHEBI_26151"
+        "obo": "http://purl.obolibrary.org/obo/",
+        "uniprot": "http://purl.uniprot.org/",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "concept": "https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/",
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "dbo": "http://dbpedia.org/ontology/",
+        "dbp": "http://dbpedia.org/property/",
+        "altLabel": {
+            "@id": "http://www.w3.org/2004/02/skos/core#altLabel",
+            "@language": "en"
         },
-        {
-            "@id": "obo:CHEBI_33575"
+        "graph": {
+            "@id": "@graph"
         }
-    ]
+    }
 }

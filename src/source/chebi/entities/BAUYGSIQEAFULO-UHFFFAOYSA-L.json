@@ -1,27 +1,27 @@
 {
     "@context": {
-        "chebi": "http://purl.obolibrary.org/obo/chebi/",
         "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
         "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-        "obo": "http://purl.obolibrary.org/obo/"
+        "obo": "http://purl.obolibrary.org/obo/",
+        "uniprot": "http://purl.uniprot.org/",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "concept": "https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/",
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "dbo": "http://dbpedia.org/ontology/",
+        "dbp": "http://dbpedia.org/property/",
+        "graph": {
+            "@id": "@graph"
+        }
     },
-    "@id": "obo:CHEBI_75832",
-    "@type": "http://www.w3.org/2002/07/owl#Class",
-    "obo:IAO_0000115": "A compound of iron and sulfate in which the ratio of iron(2+) to sulfate ions is 1:1. Various hydrates occur naturally - most commonly the heptahydrate, which loses water to form the tetrahydrate at 57degreeC and the monohydrate at 65degreeC.",
+    "@id": "concept:BAUYGSIQEAFULO-UHFFFAOYSA-L",
+    "@type": "skos:Concept",
+    "dbo:formula": "FeO4S",
+    "dbo:inchi": "InChI=1S/Fe.H2O4S/c;1-5(2,3)4/h;(H2,1,2,3,4)/q+2;/p-2",
+    "dbo:smiles": "[Fe++].[O-]S([O-])(=O)=O",
+    "dbp:inchikey": "BAUYGSIQEAFULO-UHFFFAOYSA-L",
     "chebi:charge": "0",
-    "chebi:formula": "FeO4S",
-    "chebi:inchi": "InChI=1S/Fe.H2O4S/c;1-5(2,3)4/h;(H2,1,2,3,4)/q+2;/p-2",
-    "chebi:inchikey": "BAUYGSIQEAFULO-UHFFFAOYSA-L",
-    "chebi:smiles": "[Fe++].[O-]S([O-])(=O)=O",
-    "geneontology:hasDbXref": [
-        "CAS:7720-78-7",
-        "MetaCyc:CPD0-2386",
-        "PPDB:1399",
-        "Reaxys:4933679",
-        "Wikipedia:Iron(II)_sulfate"
-    ],
-    "geneontology:hasId": "75832",
-    "geneontology:hasSynonym": [
+    "skos:altLabel": [
         "Fe(II)SO4",
         "ferrous sulfate",
         "ferrous sulfate (anh.)",
@@ -34,22 +34,16 @@
         "iron(II) sulfate (1:1)",
         "iron sulfate (1:1)"
     ],
-    "geneontology:inSubset": {
-        "@id": "obo:chebi#3_STAR"
+    "skos:exactMatch": {
+        "@id": "obo:CHEBI_75832"
     },
-    "rdfs:label": "iron(2+) sulfate (anhydrous)",
-    "rdfs:subClassOf": [
+    "skos:note": "A compound of iron and sulfate in which the ratio of iron(2+) to sulfate ions is 1:1. Various hydrates occur naturally - most commonly the heptahydrate, which loses water to form the tetrahydrate at 57degreeC and the monohydrate at 65degreeC.",
+    "skos:semanticRelation": [
         {
             "@id": "obo:CHEBI_24873"
         },
         {
             "@id": "obo:CHEBI_51336"
-        },
-        {
-            "@id": "b137_genid-00f1db82e1ab437c844115a94dc63e635-bn75832t10f29033"
-        },
-        {
-            "@id": "b137_genid-00f1db82e1ab437c844115a94dc63e635-bn75832t11f63247"
         }
     ]
 }

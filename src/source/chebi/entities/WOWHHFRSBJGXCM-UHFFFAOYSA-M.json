@@ -1,38 +1,31 @@
 {
     "@context": {
-        "chebi": "http://purl.obolibrary.org/obo/chebi/",
         "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
         "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-        "obo": "http://purl.obolibrary.org/obo/"
+        "obo": "http://purl.obolibrary.org/obo/",
+        "uniprot": "http://purl.uniprot.org/",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "concept": "https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/",
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "dbo": "http://dbpedia.org/ontology/",
+        "dbp": "http://dbpedia.org/property/",
+        "altLabel": {
+            "@id": "http://www.w3.org/2004/02/skos/core#altLabel",
+            "@language": "en"
+        },
+        "graph": {
+            "@id": "@graph"
+        }
     },
-    "@id": "obo:CHEBI_53581",
-    "@type": "http://www.w3.org/2002/07/owl#Class",
-    "obo:IAO_0000115": "The organic chloride salt of cetyltrimethylammonium.",
+    "@id": "concept:WOWHHFRSBJGXCM-UHFFFAOYSA-M",
+    "@type": "skos:Concept",
+    "dbo:formula": "C19H42ClN",
+    "dbo:inchi": "InChI=1S/C19H42N.ClH/c1-5-6-7-8-9-10-11-12-13-14-15-16-17-18-19-20(2,3)4;/h5-19H2,1-4H3;1H/q+1;/p-1",
+    "dbo:smiles": "[Cl-].CCCCCCCCCCCCCCCC[N+](C)(C)C",
+    "dbp:inchikey": "WOWHHFRSBJGXCM-UHFFFAOYSA-M",
     "chebi:charge": "0",
-    "chebi:formula": "C19H42ClN",
-    "chebi:inchi": "InChI=1S/C19H42N.ClH/c1-5-6-7-8-9-10-11-12-13-14-15-16-17-18-19-20(2,3)4;/h5-19H2,1-4H3;1H/q+1;/p-1",
-    "chebi:inchikey": "WOWHHFRSBJGXCM-UHFFFAOYSA-M",
-    "chebi:smiles": "[Cl-].CCCCCCCCCCCCCCCC[N+](C)(C)C",
-    "geneontology:hasDbXref": [
-        "PMID:7526642",
-        "Beilstein:3657974",
-        "CAS:112-02-7",
-        "PMID:16112676",
-        "PMID:21850311",
-        "PMID:22149605",
-        "PMID:22440666",
-        "PMID:22805227",
-        "PMID:23072317",
-        "PMID:23303088",
-        "PMID:23325721",
-        "PMID:23771497",
-        "PMID:23934938",
-        "PMID:24001670",
-        "PMID:8287131",
-        "Reaxys:3657974"
-    ],
-    "geneontology:hasId": "53581",
-    "geneontology:hasSynonym": [
+    "skos:altLabel": [
         "Arquad 16-50",
         "Cetrimonium chloride",
         "cetyl(trimethyl)ammonium chloride",
@@ -45,22 +38,16 @@
         "Trimethylcetylammonium chloride",
         "Trimethylhexadecylammonium chloride"
     ],
-    "geneontology:inSubset": {
-        "@id": "obo:chebi#3_STAR"
+    "skos:exactMatch": {
+        "@id": "obo:CHEBI_53581"
     },
-    "rdfs:label": "cetyltrimethylammonium chloride",
-    "rdfs:subClassOf": [
+    "skos:note": "The organic chloride salt of cetyltrimethylammonium.",
+    "skos:semanticRelation": [
         {
             "@id": "obo:CHEBI_36094"
         },
         {
             "@id": "obo:CHEBI_35273"
-        },
-        {
-            "@id": "b65_genid-00f1db82e1ab437c844115a94dc63e635-bn53581t11f35195"
-        },
-        {
-            "@id": "b65_genid-00f1db82e1ab437c844115a94dc63e635-bn53581t10f39561"
         }
     ]
 }

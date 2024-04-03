@@ -1,60 +1,44 @@
 {
     "@context": {
-        "chebi": "http://purl.obolibrary.org/obo/chebi/",
         "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
         "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-        "obo": "http://purl.obolibrary.org/obo/"
+        "obo": "http://purl.obolibrary.org/obo/",
+        "uniprot": "http://purl.uniprot.org/",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "concept": "https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/",
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "dbo": "http://dbpedia.org/ontology/",
+        "dbp": "http://dbpedia.org/property/",
+        "altLabel": {
+            "@id": "http://www.w3.org/2004/02/skos/core#altLabel",
+            "@language": "en"
+        },
+        "graph": {
+            "@id": "@graph"
+        }
     },
-    "@id": "obo:CHEBI_83524",
-    "@type": "http://www.w3.org/2002/07/owl#Class",
-    "obo:IAO_0000115": "A pyrazolooxadiazepine that is 7-oxo-1,2,4,5-tetrahydro-7H-pyrazolo[1,2-d][1,4,5]oxadiazepin which is substituted at positions 8 and 9 by 2,6-diethyl-4-methylphenyl and pivaloyloxy groups, respectively. A pro-herbicide (by hydrolysis of the pivalate ester to give the corresponding enol), it is used for control of grass weeds in cereal crops.",
+    "@id": "concept:MGOHCFMYLBAPRN-UHFFFAOYSA-N",
+    "@type": "skos:Concept",
+    "dbo:formula": "C23H32N2O4",
+    "dbo:inchi": "InChI=1S/C23H32N2O4/c1-7-16-13-15(3)14-17(8-2)18(16)19-20(26)24-9-11-28-12-10-25(24)21(19)29-22(27)23(4,5)6/h13-14H,7-12H2,1-6H3",
+    "dbo:smiles": "CCc1cc(C)cc(CC)c1-c1c(OC(=O)C(C)(C)C)n2CCOCCn2c1=O",
+    "dbp:inchikey": "MGOHCFMYLBAPRN-UHFFFAOYSA-N",
     "chebi:charge": "0",
-    "chebi:formula": "C23H32N2O4",
-    "chebi:inchi": "InChI=1S/C23H32N2O4/c1-7-16-13-15(3)14-17(8-2)18(16)19-20(26)24-9-11-28-12-10-25(24)21(19)29-22(27)23(4,5)6/h13-14H,7-12H2,1-6H3",
-    "chebi:inchikey": "MGOHCFMYLBAPRN-UHFFFAOYSA-N",
-    "chebi:smiles": "CCc1cc(C)cc(CC)c1-c1c(OC(=O)C(C)(C)C)n2CCOCCn2c1=O",
-    "geneontology:hasDbXref": [
-        "PMID:26449612",
-        "CAS:243973-20-8",
-        "Pesticides:pinoxaden",
-        "PMID:24485310",
-        "PMID:24759052",
-        "PPDB:528",
-        "Reaxys:11330254"
-    ],
-    "geneontology:hasId": "83524",
-    "geneontology:hasSynonym": [
+    "skos:altLabel": [
         "8-(2,6-diethyl-4-methylphenyl)-7-oxo-1,2,4,5-tetrahydro-7H-pyrazolo[1,2-d][1,4,5]oxadiazepin-9-yl 2,2-dimethylpropanoate",
         "8-(2,6-diethyl-p-tolyl)-1,2,4,5-tetrahydro-7-oxo-7H-pyrazolo[1,2-d][1,4,5]oxadiazepin-9-yl 2,2-dimethylpropionate"
     ],
-    "geneontology:inSubset": {
-        "@id": "obo:chebi#3_STAR"
+    "skos:exactMatch": {
+        "@id": "obo:CHEBI_83524"
     },
-    "rdfs:label": "pinoxaden",
-    "rdfs:subClassOf": [
+    "skos:note": "A pyrazolooxadiazepine that is 7-oxo-1,2,4,5-tetrahydro-7H-pyrazolo[1,2-d][1,4,5]oxadiazepin which is substituted at positions 8 and 9 by 2,6-diethyl-4-methylphenyl and pivaloyloxy groups, respectively. A pro-herbicide (by hydrolysis of the pivalate ester to give the corresponding enol), it is used for control of grass weeds in cereal crops.",
+    "skos:semanticRelation": [
         {
             "@id": "obo:CHEBI_50784"
         },
         {
-            "@id": "b663_genid-00f1db82e1ab437c844115a94dc63e635-bn83524t11f33286"
-        },
-        {
-            "@id": "b663_genid-00f1db82e1ab437c844115a94dc63e635-bn83524t11f35703"
-        },
-        {
-            "@id": "b663_genid-00f1db82e1ab437c844115a94dc63e635-bn83524t11f70722"
-        },
-        {
-            "@id": "b663_genid-00f1db82e1ab437c844115a94dc63e635-bn83524t11f78298"
-        },
-        {
-            "@id": "b663_genid-00f1db82e1ab437c844115a94dc63e635-bn83524t11f136646"
-        },
-        {
             "@id": "obo:CHEBI_136684"
-        },
-        {
-            "@id": "b663_genid-00f1db82e1ab437c844115a94dc63e635-bn83524t8f141347"
         }
     ]
 }

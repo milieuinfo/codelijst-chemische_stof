@@ -1,35 +1,36 @@
 {
     "@context": {
-        "chebi": "http://purl.obolibrary.org/obo/chebi/",
         "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
         "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-        "obo": "http://purl.obolibrary.org/obo/"
+        "obo": "http://purl.obolibrary.org/obo/",
+        "uniprot": "http://purl.uniprot.org/",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "concept": "https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/",
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "dbo": "http://dbpedia.org/ontology/",
+        "dbp": "http://dbpedia.org/property/",
+        "altLabel": {
+            "@id": "http://www.w3.org/2004/02/skos/core#altLabel",
+            "@language": "en"
+        },
+        "graph": {
+            "@id": "@graph"
+        }
     },
-    "@id": "obo:CHEBI_81773",
-    "@type": "http://www.w3.org/2002/07/owl#Class",
-    "obo:IAO_0000115": "A member of the class of cyclopentanols carrying 1,2,4-triazol-1-ylmethyl and 4-chlorobenzyl and geminal dimethyl substituents at positions 1, 2 and 5 respectively. Used to control a range of fungal infections including alternaria, rusts, fusarium and septoria diseases.",
+    "@id": "concept:XWPZUHJBOLQNMN-UHFFFAOYSA-N",
+    "@type": "skos:Concept",
+    "dbo:formula": "C17H22ClN3O",
+    "dbo:inchi": "InChI=1S/C17H22ClN3O/c1-16(2)8-7-14(9-13-3-5-15(18)6-4-13)17(16,22)10-21-12-19-11-20-21/h3-6,11-12,14,22H,7-10H2,1-2H3",
+    "dbo:smiles": "CC1(C)CCC(Cc2ccc(Cl)cc2)C1(O)Cn1cncn1",
+    "dbp:inchikey": "XWPZUHJBOLQNMN-UHFFFAOYSA-N",
     "chebi:charge": "0",
-    "chebi:formula": "C17H22ClN3O",
-    "chebi:inchi": "InChI=1S/C17H22ClN3O/c1-16(2)8-7-14(9-13-3-5-15(18)6-4-13)17(16,22)10-21-12-19-11-20-21/h3-6,11-12,14,22H,7-10H2,1-2H3",
-    "chebi:inchikey": "XWPZUHJBOLQNMN-UHFFFAOYSA-N",
-    "chebi:smiles": "CC1(C)CCC(Cc2ccc(Cl)cc2)C1(O)Cn1cncn1",
-    "geneontology:hasDbXref": [
-        "CAS:125116-23-6",
-        "KEGG:C18476",
-        "Patent:US2011070278",
-        "Patent:WO2011037968",
-        "Pesticides:metconazole",
-        "PMID:24317365",
-        "PPDB:451",
-        "Reaxys:8333708"
-    ],
-    "geneontology:hasId": "81773",
-    "geneontology:hasSynonym": "5-(4-chlorobenzyl)-2,2-dimethyl-1-(1H-1,2,4-triazol-1-ylmethyl)cyclopentanol",
-    "geneontology:inSubset": {
-        "@id": "obo:chebi#3_STAR"
+    "skos:altLabel": "5-(4-chlorobenzyl)-2,2-dimethyl-1-(1H-1,2,4-triazol-1-ylmethyl)cyclopentanol",
+    "skos:exactMatch": {
+        "@id": "obo:CHEBI_81773"
     },
-    "rdfs:label": "metconazole",
-    "rdfs:subClassOf": [
+    "skos:note": "A member of the class of cyclopentanols carrying 1,2,4-triazol-1-ylmethyl and 4-chlorobenzyl and geminal dimethyl substituents at positions 1, 2 and 5 respectively. Used to control a range of fungal infections including alternaria, rusts, fusarium and septoria diseases.",
+    "skos:semanticRelation": [
         {
             "@id": "obo:CHEBI_26878"
         },
@@ -47,12 +48,6 @@
         },
         {
             "@id": "obo:CHEBI_23495"
-        },
-        {
-            "@id": "b274_genid-00f1db82e1ab437c844115a94dc63e635-bn81773t11f77884"
-        },
-        {
-            "@id": "b274_genid-00f1db82e1ab437c844115a94dc63e635-bn81773t11f86328"
         }
     ]
 }

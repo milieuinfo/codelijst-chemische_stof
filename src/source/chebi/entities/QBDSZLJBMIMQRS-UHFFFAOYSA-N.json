@@ -1,29 +1,35 @@
 {
     "@context": {
-        "chebi": "http://purl.obolibrary.org/obo/chebi/",
         "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
         "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-        "obo": "http://purl.obolibrary.org/obo/"
+        "obo": "http://purl.obolibrary.org/obo/",
+        "uniprot": "http://purl.uniprot.org/",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "concept": "https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/",
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "dbo": "http://dbpedia.org/ontology/",
+        "dbp": "http://dbpedia.org/property/",
+        "altLabel": {
+            "@id": "http://www.w3.org/2004/02/skos/core#altLabel",
+            "@language": "en"
+        },
+        "graph": {
+            "@id": "@graph"
+        }
     },
-    "@id": "obo:CHEBI_35092",
-    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "@id": "concept:QBDSZLJBMIMQRS-UHFFFAOYSA-N",
+    "@type": "skos:Concept",
+    "dbo:formula": "C15H16O",
+    "dbo:inchi": "InChI=1S/C15H16O/c1-15(2,12-6-4-3-5-7-12)13-8-10-14(16)11-9-13/h3-11,16H,1-2H3",
+    "dbo:smiles": "CC(C)(c1ccccc1)c1ccc(O)cc1",
+    "dbp:inchikey": "QBDSZLJBMIMQRS-UHFFFAOYSA-N",
     "chebi:charge": "0",
-    "chebi:formula": "C15H16O",
-    "chebi:inchi": "InChI=1S/C15H16O/c1-15(2,12-6-4-3-5-7-12)13-8-10-14(16)11-9-13/h3-11,16H,1-2H3",
-    "chebi:inchikey": "QBDSZLJBMIMQRS-UHFFFAOYSA-N",
-    "chebi:smiles": "CC(C)(c1ccccc1)c1ccc(O)cc1",
-    "geneontology:hasDbXref": [
-        "CAS:599-64-4",
-        "KEGG:C14258",
-        "PDBeChem:1OH"
-    ],
-    "geneontology:hasId": "35092",
-    "geneontology:hasSynonym": "2-Phenyl-2-(4-hydroxyphenyl)propane",
-    "geneontology:inSubset": {
-        "@id": "obo:chebi#2_STAR"
+    "skos:altLabel": "2-Phenyl-2-(4-hydroxyphenyl)propane",
+    "skos:exactMatch": {
+        "@id": "obo:CHEBI_35092"
     },
-    "rdfs:label": "p-Cumylphenol",
-    "rdfs:subClassOf": {
+    "skos:semanticRelation": {
         "@id": "obo:CHEBI_51614"
     }
 }

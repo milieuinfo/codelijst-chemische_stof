@@ -1,25 +1,31 @@
 {
     "@context": {
-        "chebi": "http://purl.obolibrary.org/obo/chebi/",
         "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
         "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-        "obo": "http://purl.obolibrary.org/obo/"
+        "obo": "http://purl.obolibrary.org/obo/",
+        "uniprot": "http://purl.uniprot.org/",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "concept": "https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/",
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "dbo": "http://dbpedia.org/ontology/",
+        "dbp": "http://dbpedia.org/property/",
+        "altLabel": {
+            "@id": "http://www.w3.org/2004/02/skos/core#altLabel",
+            "@language": "en"
+        },
+        "graph": {
+            "@id": "@graph"
+        }
     },
-    "@id": "obo:CHEBI_89993",
-    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "@id": "concept:SHOJXDKTYKFBRD-UHFFFAOYSA-N",
+    "@type": "skos:Concept",
+    "dbo:formula": "C6H10O",
+    "dbo:inchi": "InChI=1S/C6H10O/c1-5(2)4-6(3)7/h4H,1-3H3",
+    "dbo:smiles": "CC(C)=CC(C)=O",
+    "dbp:inchikey": "SHOJXDKTYKFBRD-UHFFFAOYSA-N",
     "chebi:charge": "0",
-    "chebi:formula": "C6H10O",
-    "chebi:inchi": "InChI=1S/C6H10O/c1-5(2)4-6(3)7/h4H,1-3H3",
-    "chebi:inchikey": "SHOJXDKTYKFBRD-UHFFFAOYSA-N",
-    "chebi:smiles": "CC(C)=CC(C)=O",
-    "geneontology:hasDbXref": [
-        "PMID:17314143",
-        "PMID:24657864",
-        "CAS:141-79-7",
-        "HMDB:HMDB0031563"
-    ],
-    "geneontology:hasId": "89993",
-    "geneontology:hasSynonym": [
+    "skos:altLabel": [
         "(CH3)2C=CHC(=O)CH3",
         "1-Methylpent-2-en-4-one",
         "2,2-Dimethylvinyl methyl ketone",
@@ -51,16 +57,10 @@
         "Ossido di mesitile",
         "Oxyde de mesityle"
     ],
-    "geneontology:inSubset": {
-        "@id": "obo:chebi#2_STAR"
+    "skos:exactMatch": {
+        "@id": "obo:CHEBI_89993"
     },
-    "rdfs:label": "4-Methyl-3-penten-2-one, 9CI",
-    "rdfs:subClassOf": [
-        {
-            "@id": "obo:CHEBI_78840"
-        },
-        {
-            "@id": "b604_genid-00f1db82e1ab437c844115a94dc63e635-bn89993t8f18308"
-        }
-    ]
+    "skos:semanticRelation": {
+        "@id": "obo:CHEBI_78840"
+    }
 }

@@ -1,32 +1,31 @@
 {
     "@context": {
-        "chebi": "http://purl.obolibrary.org/obo/chebi/",
         "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
         "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-        "obo": "http://purl.obolibrary.org/obo/"
+        "obo": "http://purl.obolibrary.org/obo/",
+        "uniprot": "http://purl.uniprot.org/",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "concept": "https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/",
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "dbo": "http://dbpedia.org/ontology/",
+        "dbp": "http://dbpedia.org/property/",
+        "altLabel": {
+            "@id": "http://www.w3.org/2004/02/skos/core#altLabel",
+            "@language": "en"
+        },
+        "graph": {
+            "@id": "@graph"
+        }
     },
-    "@id": "obo:CHEBI_38843",
-    "@type": "http://www.w3.org/2002/07/owl#Class",
-    "obo:IAO_0000115": "An  organic thiophosphate that is O,O-dimethyl O-pyrimidin-4-yl phosphorothioate substituted by a methyl group at position 6 and a diethylamino group at position 2.",
+    "@id": "concept:QHOQHJPRIBSPCY-UHFFFAOYSA-N",
+    "@type": "skos:Concept",
+    "dbo:formula": "C11H20N3O3PS",
+    "dbo:inchi": "InChI=1S/C11H20N3O3PS/c1-6-14(7-2)11-12-9(3)8-10(13-11)17-18(19,15-4)16-5/h8H,6-7H2,1-5H3",
+    "dbo:smiles": "CCN(CC)c1nc(C)cc(OP(=S)(OC)OC)n1",
+    "dbp:inchikey": "QHOQHJPRIBSPCY-UHFFFAOYSA-N",
     "chebi:charge": "0",
-    "chebi:formula": "C11H20N3O3PS",
-    "chebi:inchi": "InChI=1S/C11H20N3O3PS/c1-6-14(7-2)11-12-9(3)8-10(13-11)17-18(19,15-4)16-5/h8H,6-7H2,1-5H3",
-    "chebi:inchikey": "QHOQHJPRIBSPCY-UHFFFAOYSA-N",
-    "chebi:smiles": "CCN(CC)c1nc(C)cc(OP(=S)(OC)OC)n1",
-    "geneontology:hasDbXref": [
-        "Beilstein:755726",
-        "CAS:29232-93-7",
-        "KEGG:C18403",
-        "PMID:23343221",
-        "PMID:24476070",
-        "PMID:24685163",
-        "PMID:24711991",
-        "PPDB:532",
-        "Reaxys:755726",
-        "Wikipedia:Pirimiphos-methyl"
-    ],
-    "geneontology:hasId": "38843",
-    "geneontology:hasSynonym": [
+    "skos:altLabel": [
         "O-[2-(diethylamino)-6-methylpyrimidin-4-yl] O,O-dimethyl phosphorothioate",
         "O-[2-(diethylamino)-6-methylpyrimidin-4-yl] O,O-dimethyl thiophosphate",
         "Pirimifosmethyl",
@@ -34,34 +33,16 @@
         "Pirimiphos methyl",
         "Pyrimiphos methyl"
     ],
-    "geneontology:inSubset": {
-        "@id": "obo:chebi#3_STAR"
+    "skos:exactMatch": {
+        "@id": "obo:CHEBI_38843"
     },
-    "rdfs:label": "pirimiphos-methyl",
-    "rdfs:subClassOf": [
+    "skos:note": "An  organic thiophosphate that is O,O-dimethyl O-pyrimidin-4-yl phosphorothioate substituted by a methyl group at position 6 and a diethylamino group at position 2.",
+    "skos:semanticRelation": [
         {
             "@id": "obo:CHEBI_38338"
         },
         {
             "@id": "obo:CHEBI_37512"
-        },
-        {
-            "@id": "b298_genid-00f1db82e1ab437c844115a94dc63e635-bn38843t11f22153"
-        },
-        {
-            "@id": "b298_genid-00f1db82e1ab437c844115a94dc63e635-bn38843t11f24852"
-        },
-        {
-            "@id": "b298_genid-00f1db82e1ab437c844115a94dc63e635-bn38843t11f33286"
-        },
-        {
-            "@id": "b298_genid-00f1db82e1ab437c844115a94dc63e635-bn38843t11f38462"
-        },
-        {
-            "@id": "b298_genid-00f1db82e1ab437c844115a94dc63e635-bn38843t8f38844"
-        },
-        {
-            "@id": "b298_genid-00f1db82e1ab437c844115a94dc63e635-bn38843t11f78298"
         }
     ]
 }

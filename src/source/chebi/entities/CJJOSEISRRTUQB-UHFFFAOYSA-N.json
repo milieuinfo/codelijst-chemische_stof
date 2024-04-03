@@ -1,31 +1,27 @@
 {
     "@context": {
-        "chebi": "http://purl.obolibrary.org/obo/chebi/",
         "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
         "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-        "obo": "http://purl.obolibrary.org/obo/"
+        "obo": "http://purl.obolibrary.org/obo/",
+        "uniprot": "http://purl.uniprot.org/",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "concept": "https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/",
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "dbo": "http://dbpedia.org/ontology/",
+        "dbp": "http://dbpedia.org/property/",
+        "graph": {
+            "@id": "@graph"
+        }
     },
-    "@id": "obo:CHEBI_2953",
-    "@type": "http://www.w3.org/2002/07/owl#Class",
-    "obo:IAO_0000115": "A member of the class of  benzotriazines that is  1,2,3-benzotriazine substituted by an oxo group at position 4 and a [(dimethoxyphosphorothioyl)sulfanyl]methyl group at position 3.",
+    "@id": "concept:CJJOSEISRRTUQB-UHFFFAOYSA-N",
+    "@type": "skos:Concept",
+    "dbo:formula": "C10H12N3O3PS2",
+    "dbo:inchi": "InChI=1S/C10H12N3O3PS2/c1-15-17(18,16-2)19-7-13-10(14)8-5-3-4-6-9(8)11-12-13/h3-6H,7H2,1-2H3",
+    "dbo:smiles": "COP(=S)(OC)SCn1nnc2ccccc2c1=O",
+    "dbp:inchikey": "CJJOSEISRRTUQB-UHFFFAOYSA-N",
     "chebi:charge": "0",
-    "chebi:formula": "C10H12N3O3PS2",
-    "chebi:inchi": "InChI=1S/C10H12N3O3PS2/c1-15-17(18,16-2)19-7-13-10(14)8-5-3-4-6-9(8)11-12-13/h3-6H,7H2,1-2H3",
-    "chebi:inchikey": "CJJOSEISRRTUQB-UHFFFAOYSA-N",
-    "chebi:smiles": "COP(=S)(OC)SCn1nnc2ccccc2c1=O",
-    "geneontology:hasDbXref": [
-        "Beilstein:280476",
-        "CAS:86-50-0",
-        "KEGG:C11018",
-        "LINCS:LSM-20980",
-        "PMID:17097717",
-        "PMID:24177216",
-        "PPDB:51",
-        "Reaxys:280476",
-        "Wikipedia:Azinphos-methyl"
-    ],
-    "geneontology:hasId": "2953",
-    "geneontology:hasSynonym": [
+    "skos:altLabel": [
         "3-(mercaptomethyl)-1,2,3-benzotriazin-4(3H)-one, O,O-dimethyl phosphorodithioate",
         "Azinphosmethyl",
         "Azinphos methyl",
@@ -35,28 +31,16 @@
         "O,O-dimethyl S-[(4-oxo-1,2,3-benzotriazin-3(4H)-yl)methyl] phosphorodithioate",
         "Phosphorodithioic acid, O,O-dimethyl S-((4-oxo-1,2,3-benzotriazin-3(4H)-yl)methyl) ester"
     ],
-    "geneontology:inSubset": {
-        "@id": "obo:chebi#3_STAR"
+    "skos:exactMatch": {
+        "@id": "obo:CHEBI_2953"
     },
-    "rdfs:label": "azinphos-methyl",
-    "rdfs:subClassOf": [
+    "skos:note": "A member of the class of  benzotriazines that is  1,2,3-benzotriazine substituted by an oxo group at position 4 and a [(dimethoxyphosphorothioyl)sulfanyl]methyl group at position 3.",
+    "skos:semanticRelation": [
         {
             "@id": "obo:CHEBI_37512"
         },
         {
             "@id": "obo:CHEBI_25715"
-        },
-        {
-            "@id": "b318_genid-00f1db82e1ab437c844115a94dc63e635-bn2953t11f33286"
-        },
-        {
-            "@id": "b318_genid-00f1db82e1ab437c844115a94dc63e635-bn2953t11f37733"
-        },
-        {
-            "@id": "b318_genid-00f1db82e1ab437c844115a94dc63e635-bn2953t11f38462"
-        },
-        {
-            "@id": "b318_genid-00f1db82e1ab437c844115a94dc63e635-bn2953t9f38586"
         },
         {
             "@id": "obo:CHEBI_51361"

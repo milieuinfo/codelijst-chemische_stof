@@ -1,44 +1,31 @@
 {
     "@context": {
-        "chebi": "http://purl.obolibrary.org/obo/chebi/",
         "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
         "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-        "obo": "http://purl.obolibrary.org/obo/"
+        "obo": "http://purl.obolibrary.org/obo/",
+        "uniprot": "http://purl.uniprot.org/",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "concept": "https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/",
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "dbo": "http://dbpedia.org/ontology/",
+        "dbp": "http://dbpedia.org/property/",
+        "altLabel": {
+            "@id": "http://www.w3.org/2004/02/skos/core#altLabel",
+            "@language": "en"
+        },
+        "graph": {
+            "@id": "@graph"
+        }
     },
-    "@id": "obo:CHEBI_64276",
-    "@type": "http://www.w3.org/2002/07/owl#Class",
-    "obo:IAO_0000115": "A dialdehyde comprised of pentane with aldehyde functions at C-1 and C-5.",
+    "@id": "concept:SXRSQZLOMIGNAQ-UHFFFAOYSA-N",
+    "@type": "skos:Concept",
+    "dbo:formula": "C5H8O2",
+    "dbo:inchi": "InChI=1S/C5H8O2/c6-4-2-1-3-5-7/h4-5H,1-3H2",
+    "dbo:smiles": "O=CCCCC=O",
+    "dbp:inchikey": "SXRSQZLOMIGNAQ-UHFFFAOYSA-N",
     "chebi:charge": "0",
-    "chebi:formula": "C5H8O2",
-    "chebi:inchi": "InChI=1S/C5H8O2/c6-4-2-1-3-5-7/h4-5H,1-3H2",
-    "chebi:inchikey": "SXRSQZLOMIGNAQ-UHFFFAOYSA-N",
-    "chebi:smiles": "O=CCCCC=O",
-    "geneontology:hasDbXref": [
-        "Beilstein:605390",
-        "CAS:111-30-8",
-        "Drug_Central:3267",
-        "HMDB:HMDB0029599",
-        "KEGG:C12518",
-        "KEGG:D01120",
-        "PDBeChem:PTD",
-        "PMID:10672649",
-        "PMID:11378863",
-        "PMID:22020189",
-        "PMID:22221459",
-        "PMID:22233542",
-        "PMID:22266295",
-        "PMID:22269730",
-        "PMID:22348538",
-        "PMID:22351440",
-        "PMID:24332617",
-        "PMID:7701454",
-        "PMID:9582689",
-        "PPDB:1567",
-        "Reaxys:605390",
-        "Wikipedia:Glutaraldehyde"
-    ],
-    "geneontology:hasId": "64276",
-    "geneontology:hasSynonym": [
+    "skos:altLabel": [
         "1,3-Diformylpropane",
         "1,5-Pentanedial",
         "1,5-Pentanedione",
@@ -52,22 +39,11 @@
         "pentanedial",
         "PENTANEDIAL"
     ],
-    "geneontology:inSubset": {
-        "@id": "obo:chebi#3_STAR"
+    "skos:exactMatch": {
+        "@id": "obo:CHEBI_64276"
     },
-    "rdfs:label": "glutaraldehyde",
-    "rdfs:subClassOf": [
-        {
-            "@id": "obo:CHEBI_38124"
-        },
-        {
-            "@id": "b699_genid-00f1db82e1ab437c844115a94dc63e635-bn64276t11f48219"
-        },
-        {
-            "@id": "b699_genid-00f1db82e1ab437c844115a94dc63e635-bn64276t11f50684"
-        },
-        {
-            "@id": "b699_genid-00f1db82e1ab437c844115a94dc63e635-bn64276t11f50913"
-        }
-    ]
+    "skos:note": "A dialdehyde comprised of pentane with aldehyde functions at C-1 and C-5.",
+    "skos:semanticRelation": {
+        "@id": "obo:CHEBI_38124"
+    }
 }

@@ -1,35 +1,31 @@
 {
     "@context": {
-        "chebi": "http://purl.obolibrary.org/obo/chebi/",
         "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
         "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-        "obo": "http://purl.obolibrary.org/obo/"
+        "obo": "http://purl.obolibrary.org/obo/",
+        "uniprot": "http://purl.uniprot.org/",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "concept": "https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/",
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "dbo": "http://dbpedia.org/ontology/",
+        "dbp": "http://dbpedia.org/property/",
+        "altLabel": {
+            "@id": "http://www.w3.org/2004/02/skos/core#altLabel",
+            "@language": "en"
+        },
+        "graph": {
+            "@id": "@graph"
+        }
     },
-    "@id": "obo:CHEBI_6121",
-    "@type": "http://www.w3.org/2002/07/owl#Class",
-    "obo:IAO_0000115": "A member of the class of cyclohexanones in which one of the hydrogens at position 2 is substituted by a 2-chlorophenyl group, while the other is substituted by a methylamino group.",
+    "@id": "concept:YQEZLKZALYSWHR-UHFFFAOYSA-N",
+    "@type": "skos:Concept",
+    "dbo:formula": "C13H16ClNO",
+    "dbo:inchi": "InChI=1S/C13H16ClNO/c1-15-13(9-5-4-8-12(13)16)10-6-2-3-7-11(10)14/h2-3,6-7,15H,4-5,8-9H2,1H3",
+    "dbo:smiles": "CNC1(CCCCC1=O)c1ccccc1Cl",
+    "dbp:inchikey": "YQEZLKZALYSWHR-UHFFFAOYSA-N",
     "chebi:charge": "0",
-    "chebi:formula": "C13H16ClNO",
-    "chebi:inchi": "InChI=1S/C13H16ClNO/c1-15-13(9-5-4-8-12(13)16)10-6-2-3-7-11(10)14/h2-3,6-7,15H,4-5,8-9H2,1H3",
-    "chebi:inchikey": "YQEZLKZALYSWHR-UHFFFAOYSA-N",
-    "chebi:smiles": "CNC1(CCCCC1=O)c1ccccc1Cl",
-    "geneontology:hasDbXref": [
-        "CAS:100477-72-3",
-        "CAS:6740-88-1",
-        "Drug_Central:1523",
-        "DrugBank:DB01221",
-        "HMDB:HMDB0015352",
-        "KEGG:C07525",
-        "KEGG:D08098",
-        "Patent:BE634208",
-        "Patent:US3254124",
-        "PMID:3783598",
-        "Reaxys:2216965",
-        "VSDB:2978",
-        "Wikipedia:Ketamine"
-    ],
-    "geneontology:hasId": "6121",
-    "geneontology:hasSynonym": [
+    "skos:altLabel": [
         "ketamine",
         "(+-)-ketamine",
         "2-(2-chlorophenyl)-2-(methylamino)cyclohexanone",
@@ -45,11 +41,11 @@
         "NMDA",
         "special K"
     ],
-    "geneontology:inSubset": {
-        "@id": "obo:chebi#3_STAR"
+    "skos:exactMatch": {
+        "@id": "obo:CHEBI_6121"
     },
-    "rdfs:label": "ketamine",
-    "rdfs:subClassOf": [
+    "skos:note": "A member of the class of cyclohexanones in which one of the hydrogens at position 2 is substituted by a 2-chlorophenyl group, while the other is substituted by a methylamino group.",
+    "skos:semanticRelation": [
         {
             "@id": "obo:CHEBI_83403"
         },
@@ -58,24 +54,6 @@
         },
         {
             "@id": "obo:CHEBI_50995"
-        },
-        {
-            "@id": "b382_genid-00f1db82e1ab437c844115a94dc63e635-bn6121t11f35480"
-        },
-        {
-            "@id": "b382_genid-00f1db82e1ab437c844115a94dc63e635-bn6121t11f35703"
-        },
-        {
-            "@id": "b382_genid-00f1db82e1ab437c844115a94dc63e635-bn6121t11f38877"
-        },
-        {
-            "@id": "b382_genid-00f1db82e1ab437c844115a94dc63e635-bn6121t11f50910"
-        },
-        {
-            "@id": "b382_genid-00f1db82e1ab437c844115a94dc63e635-bn6121t11f60643"
-        },
-        {
-            "@id": "b382_genid-00f1db82e1ab437c844115a94dc63e635-bn6121t11f78298"
         }
     ]
 }

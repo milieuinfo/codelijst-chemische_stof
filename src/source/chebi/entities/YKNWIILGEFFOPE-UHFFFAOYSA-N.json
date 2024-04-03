@@ -1,56 +1,39 @@
 {
     "@context": {
-        "chebi": "http://purl.obolibrary.org/obo/chebi/",
         "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
         "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-        "obo": "http://purl.obolibrary.org/obo/"
+        "obo": "http://purl.obolibrary.org/obo/",
+        "uniprot": "http://purl.uniprot.org/",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "concept": "https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/",
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "dbo": "http://dbpedia.org/ontology/",
+        "dbp": "http://dbpedia.org/property/",
+        "altLabel": {
+            "@id": "http://www.w3.org/2004/02/skos/core#altLabel",
+            "@language": "en"
+        },
+        "graph": {
+            "@id": "@graph"
+        }
     },
-    "@id": "obo:CHEBI_32938",
-    "@type": "http://www.w3.org/2002/07/owl#Class",
-    "obo:IAO_0000115": "An alkane consisting of an unbranched chain of 25 carbon atoms.",
+    "@id": "concept:YKNWIILGEFFOPE-UHFFFAOYSA-N",
+    "@type": "skos:Concept",
+    "dbo:formula": "C25H52",
+    "dbo:inchi": "InChI=1S/C25H52/c1-3-5-7-9-11-13-15-17-19-21-23-25-24-22-20-18-16-14-12-10-8-6-4-2/h3-25H2,1-2H3",
+    "dbo:smiles": "CCCCCCCCCCCCCCCCCCCCCCCCC",
+    "dbp:inchikey": "YKNWIILGEFFOPE-UHFFFAOYSA-N",
     "chebi:charge": "0",
-    "chebi:formula": "C25H52",
-    "chebi:inchi": "InChI=1S/C25H52/c1-3-5-7-9-11-13-15-17-19-21-23-25-24-22-20-18-16-14-12-10-8-6-4-2/h3-25H2,1-2H3",
-    "chebi:inchikey": "YKNWIILGEFFOPE-UHFFFAOYSA-N",
-    "chebi:smiles": "CCCCCCCCCCCCCCCCCCCCCCCCC",
-    "geneontology:hasDbXref": [
-        "PMID:23157011",
-        "PMID:23811454",
-        "PMID:24673591",
-        "Beilstein:1763638",
-        "BPDB:1383",
-        "CAS:629-99-2",
-        "LIPID_MAPS_instance:LMFA11000582",
-        "MetaCyc:CPD-7944",
-        "PMID:15303317",
-        "PMID:16902824",
-        "PMID:22466147",
-        "PMID:22619691",
-        "PMID:23603188",
-        "PMID:23985485",
-        "PMID:24022760",
-        "PMID:24134005",
-        "PMID:7217787",
-        "Reaxys:1763638"
-    ],
-    "geneontology:hasId": "32938",
-    "geneontology:hasSynonym": [
+    "skos:altLabel": [
         "CH3-[CH2]23-CH3",
         "n-pentacosane"
     ],
-    "geneontology:inSubset": {
-        "@id": "obo:chebi#3_STAR"
+    "skos:exactMatch": {
+        "@id": "obo:CHEBI_32938"
     },
-    "rdfs:label": "pentacosane",
-    "rdfs:subClassOf": [
-        {
-            "@id": "obo:CHEBI_83563"
-        },
-        {
-            "@id": "b347_genid-00f1db82e1ab437c844115a94dc63e635-bn32938t11f26645"
-        },
-        {
-            "@id": "b347_genid-00f1db82e1ab437c844115a94dc63e635-bn32938t11f76924"
-        }
-    ]
+    "skos:note": "An alkane consisting of an unbranched chain of 25 carbon atoms.",
+    "skos:semanticRelation": {
+        "@id": "obo:CHEBI_83563"
+    }
 }

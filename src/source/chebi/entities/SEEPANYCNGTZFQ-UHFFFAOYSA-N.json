@@ -1,54 +1,31 @@
 {
     "@context": {
-        "chebi": "http://purl.obolibrary.org/obo/chebi/",
         "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
         "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-        "obo": "http://purl.obolibrary.org/obo/"
+        "obo": "http://purl.obolibrary.org/obo/",
+        "uniprot": "http://purl.uniprot.org/",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "concept": "https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/",
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "dbo": "http://dbpedia.org/ontology/",
+        "dbp": "http://dbpedia.org/property/",
+        "altLabel": {
+            "@id": "http://www.w3.org/2004/02/skos/core#altLabel",
+            "@language": "en"
+        },
+        "graph": {
+            "@id": "@graph"
+        }
     },
-    "@id": "obo:CHEBI_9328",
-    "@type": "http://www.w3.org/2002/07/owl#Class",
-    "obo:IAO_0000115": "A sulfonamide consisting of pyrimidine with a 4-aminobenzenesulfonamido group at the 2-position.",
+    "@id": "concept:SEEPANYCNGTZFQ-UHFFFAOYSA-N",
+    "@type": "skos:Concept",
+    "dbo:formula": "C10H10N4O2S",
+    "dbo:inchi": "InChI=1S/C10H10N4O2S/c11-8-2-4-9(5-3-8)17(15,16)14-10-12-6-1-7-13-10/h1-7H,11H2,(H,12,13,14)",
+    "dbo:smiles": "Nc1ccc(cc1)S(=O)(=O)Nc1ncccn1",
+    "dbp:inchikey": "SEEPANYCNGTZFQ-UHFFFAOYSA-N",
     "chebi:charge": "0",
-    "chebi:formula": "C10H10N4O2S",
-    "chebi:inchi": "InChI=1S/C10H10N4O2S/c11-8-2-4-9(5-3-8)17(15,16)14-10-12-6-1-7-13-10/h1-7H,11H2,(H,12,13,14)",
-    "chebi:inchikey": "SEEPANYCNGTZFQ-UHFFFAOYSA-N",
-    "chebi:smiles": "Nc1ccc(cc1)S(=O)(=O)Nc1ncccn1",
-    "geneontology:hasDbXref": [
-        "PMID:11431418",
-        "Beilstein:235192",
-        "CAS:68-35-9",
-        "Drug_Central:2500",
-        "DrugBank:DB00359",
-        "Gmelin:219136",
-        "HMDB:HMDB0014503",
-        "KEGG:C07658",
-        "KEGG:D00587",
-        "LINCS:LSM-5457",
-        "Patent:GB557055",
-        "Patent:US2407966",
-        "Patent:US2410793",
-        "PMID:12811231",
-        "PMID:13037579",
-        "PMID:15907564",
-        "PMID:18706672",
-        "PMID:20244050",
-        "PMID:23206954",
-        "PMID:23245764",
-        "PMID:23270807",
-        "PMID:23322489",
-        "PMID:23396336",
-        "PMID:23411088",
-        "PMID:23411170",
-        "PMID:23704574",
-        "PMID:23707894",
-        "PMID:7378112",
-        "PMID:8429812",
-        "Reaxys:235192",
-        "VSDB:1740",
-        "Wikipedia:Sulfadiazine"
-    ],
-    "geneontology:hasId": "9328",
-    "geneontology:hasSynonym": [
+    "skos:altLabel": [
         "2-sulfanilamidopyrimidine",
         "2-sulfanilylaminopyrimidine",
         "4-amino-N-(pyrimidin-2-yl)benzenesulfonamide",
@@ -62,11 +39,11 @@
         "sulfapyrimidine",
         "sulphadiazine"
     ],
-    "geneontology:inSubset": {
-        "@id": "obo:chebi#3_STAR"
+    "skos:exactMatch": {
+        "@id": "obo:CHEBI_9328"
     },
-    "rdfs:label": "sulfadiazine",
-    "rdfs:subClassOf": [
+    "skos:note": "A sulfonamide consisting of pyrimidine with a 4-aminobenzenesulfonamido group at the 2-position.",
+    "skos:semanticRelation": [
         {
             "@id": "obo:CHEBI_39447"
         },
@@ -78,42 +55,6 @@
         },
         {
             "@id": "obo:CHEBI_87228"
-        },
-        {
-            "@id": "b586_genid-00f1db82e1ab437c844115a94dc63e635-bn9328tmms73f33127"
-        },
-        {
-            "@id": "b586_genid-00f1db82e1ab437c844115a94dc63e635-bn9328t4f33127"
-        },
-        {
-            "@id": "b586_genid-00f1db82e1ab437c844115a94dc63e635-bn9328t11f33281"
-        },
-        {
-            "@id": "b586_genid-00f1db82e1ab437c844115a94dc63e635-bn9328t11f35441"
-        },
-        {
-            "@id": "b586_genid-00f1db82e1ab437c844115a94dc63e635-bn9328t11f35703"
-        },
-        {
-            "@id": "b586_genid-00f1db82e1ab437c844115a94dc63e635-bn9328t11f35818"
-        },
-        {
-            "@id": "b586_genid-00f1db82e1ab437c844115a94dc63e635-bn9328t11f35820"
-        },
-        {
-            "@id": "b586_genid-00f1db82e1ab437c844115a94dc63e635-bn9328t8f45373"
-        },
-        {
-            "@id": "b586_genid-00f1db82e1ab437c844115a94dc63e635-bn9328t11f50502"
-        },
-        {
-            "@id": "b586_genid-00f1db82e1ab437c844115a94dc63e635-bn9328t11f74234"
-        },
-        {
-            "@id": "b586_genid-00f1db82e1ab437c844115a94dc63e635-bn9328t11f78298"
-        },
-        {
-            "@id": "b586_genid-00f1db82e1ab437c844115a94dc63e635-bn9328t11f88188"
         }
     ]
 }

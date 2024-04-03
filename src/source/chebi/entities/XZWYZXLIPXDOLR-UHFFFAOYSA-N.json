@@ -1,64 +1,31 @@
 {
     "@context": {
-        "chebi": "http://purl.obolibrary.org/obo/chebi/",
         "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
         "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-        "obo": "http://purl.obolibrary.org/obo/"
+        "obo": "http://purl.obolibrary.org/obo/",
+        "uniprot": "http://purl.uniprot.org/",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "concept": "https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/",
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "dbo": "http://dbpedia.org/ontology/",
+        "dbp": "http://dbpedia.org/property/",
+        "altLabel": {
+            "@id": "http://www.w3.org/2004/02/skos/core#altLabel",
+            "@language": "en"
+        },
+        "graph": {
+            "@id": "@graph"
+        }
     },
-    "@id": "obo:CHEBI_6801",
-    "@type": "http://www.w3.org/2002/07/owl#Class",
-    "obo:IAO_0000115": "A member of the class of guanidines that is biguanide the carrying two methyl substituents at position 1.",
+    "@id": "concept:XZWYZXLIPXDOLR-UHFFFAOYSA-N",
+    "@type": "skos:Concept",
+    "dbo:formula": "C4H11N5",
+    "dbo:inchi": "InChI=1S/C4H11N5/c1-9(2)4(7)8-3(5)6/h1-2H3,(H5,5,6,7,8)",
+    "dbo:smiles": "CN(C)C(=N)NC(N)=N",
+    "dbp:inchikey": "XZWYZXLIPXDOLR-UHFFFAOYSA-N",
     "chebi:charge": "0",
-    "chebi:formula": "C4H11N5",
-    "chebi:inchi": "InChI=1S/C4H11N5/c1-9(2)4(7)8-3(5)6/h1-2H3,(H5,5,6,7,8)",
-    "chebi:inchikey": "XZWYZXLIPXDOLR-UHFFFAOYSA-N",
-    "chebi:smiles": "CN(C)C(=N)NC(N)=N",
-    "geneontology:hasDbXref": [
-        "CAS:657-24-9",
-        "Drug_Central:1725",
-        "DrugBank:DB00331",
-        "FooDB:FDB022739",
-        "HMDB:HMDB0001921",
-        "KEGG:C07151",
-        "KEGG:D04966",
-        "LINCS:LSM-4730",
-        "PDBeChem:MF8",
-        "PMID:10900588",
-        "PMID:10983737",
-        "PMID:10999803",
-        "PMID:11012555",
-        "PMID:11126815",
-        "PMID:11192132",
-        "PMID:11257323",
-        "PMID:11544610",
-        "PMID:11772907",
-        "PMID:12086935",
-        "PMID:12406042",
-        "PMID:12436333",
-        "PMID:12630933",
-        "PMID:12909816",
-        "PMID:15261814",
-        "PMID:15606381",
-        "PMID:15650645",
-        "PMID:15717887",
-        "PMID:15932841",
-        "PMID:16294070",
-        "PMID:16520442",
-        "PMID:16941277",
-        "PMID:17062558",
-        "PMID:18212742",
-        "PMID:18608522",
-        "PMID:23077661",
-        "PMID:23540700",
-        "PMID:24428821",
-        "PMID:28919040",
-        "PMID:31208831",
-        "PMID:33191721",
-        "Reaxys:606492",
-        "Wikipedia:Metformin"
-    ],
-    "geneontology:hasId": "6801",
-    "geneontology:hasSynonym": [
+    "skos:altLabel": [
         "1,1-dimethylbiguanide",
         "dimethylbiguanide",
         "dimethyldiguanide",
@@ -74,31 +41,11 @@
         "N,N-dimethyltriimidodicarbonic diamide",
         "N(1),N(1)-dimethylbiguanide"
     ],
-    "geneontology:inSubset": {
-        "@id": "obo:chebi#3_STAR"
+    "skos:exactMatch": {
+        "@id": "obo:CHEBI_6801"
     },
-    "rdfs:label": "metformin",
-    "rdfs:subClassOf": [
-        {
-            "@id": "obo:CHEBI_24436"
-        },
-        {
-            "@id": "b288_genid-00f1db82e1ab437c844115a94dc63e635-bn6801t8f3095"
-        },
-        {
-            "@id": "b288_genid-00f1db82e1ab437c844115a94dc63e635-bn6801t11f35526"
-        },
-        {
-            "@id": "b288_genid-00f1db82e1ab437c844115a94dc63e635-bn6801t11f35703"
-        },
-        {
-            "@id": "b288_genid-00f1db82e1ab437c844115a94dc63e635-bn6801t11f78298"
-        },
-        {
-            "@id": "b288_genid-00f1db82e1ab437c844115a94dc63e635-bn6801t5f90688"
-        },
-        {
-            "@id": "b288_genid-00f1db82e1ab437c844115a94dc63e635-bn6801t11f176497"
-        }
-    ]
+    "skos:note": "A member of the class of guanidines that is biguanide the carrying two methyl substituents at position 1.",
+    "skos:semanticRelation": {
+        "@id": "obo:CHEBI_24436"
+    }
 }

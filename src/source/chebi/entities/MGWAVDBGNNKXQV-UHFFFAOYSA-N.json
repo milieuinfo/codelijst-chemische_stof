@@ -1,34 +1,31 @@
 {
     "@context": {
-        "chebi": "http://purl.obolibrary.org/obo/chebi/",
         "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
         "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-        "obo": "http://purl.obolibrary.org/obo/"
+        "obo": "http://purl.obolibrary.org/obo/",
+        "uniprot": "http://purl.uniprot.org/",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "concept": "https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/",
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "dbo": "http://dbpedia.org/ontology/",
+        "dbp": "http://dbpedia.org/property/",
+        "altLabel": {
+            "@id": "http://www.w3.org/2004/02/skos/core#altLabel",
+            "@language": "en"
+        },
+        "graph": {
+            "@id": "@graph"
+        }
     },
-    "@id": "obo:CHEBI_79053",
-    "@type": "http://www.w3.org/2002/07/owl#Class",
-    "obo:IAO_0000115": "A phthalate ester that is the diester obtained by the formal condensation of the carboxy groups of phthalic acid with two molecules of isobutanol.",
+    "@id": "concept:MGWAVDBGNNKXQV-UHFFFAOYSA-N",
+    "@type": "skos:Concept",
+    "dbo:formula": "C16H22O4",
+    "dbo:inchi": "InChI=1S/C16H22O4/c1-11(2)9-19-15(17)13-7-5-6-8-14(13)16(18)20-10-12(3)4/h5-8,11-12H,9-10H2,1-4H3",
+    "dbo:smiles": "CC(C)COC(=O)c1ccccc1C(=O)OCC(C)C",
+    "dbp:inchikey": "MGWAVDBGNNKXQV-UHFFFAOYSA-N",
     "chebi:charge": "0",
-    "chebi:formula": "C16H22O4",
-    "chebi:inchi": "InChI=1S/C16H22O4/c1-11(2)9-19-15(17)13-7-5-6-8-14(13)16(18)20-10-12(3)4/h5-8,11-12H,9-10H2,1-4H3",
-    "chebi:inchikey": "MGWAVDBGNNKXQV-UHFFFAOYSA-N",
-    "chebi:smiles": "CC(C)COC(=O)c1ccccc1C(=O)OCC(C)C",
-    "geneontology:hasDbXref": [
-        "CAS:84-69-5",
-        "HMDB:HMDB0013835",
-        "KEGG:C15205",
-        "PMID:16458459",
-        "PMID:16516415",
-        "PMID:17454364",
-        "PMID:18602967",
-        "PMID:18706996",
-        "PMID:22820759",
-        "PMID:23955327",
-        "PMID:24349328",
-        "Wikipedia:Diisobutyl_phthalate"
-    ],
-    "geneontology:hasId": "79053",
-    "geneontology:hasSynonym": [
+    "skos:altLabel": [
         "1,2-benzenedicarboxylic acid, 1,2-bis(2-methylpropyl) ester",
         "1,2-benzenedicarboxylic acid bis(2-methylpropyl) ester",
         "1,2-benzenedicarboxylic acid di(2-methylpropyl) ester",
@@ -41,28 +38,16 @@
         "isobutyl phthalate",
         "phthalic acid, diisobutyl ester"
     ],
-    "geneontology:inSubset": {
-        "@id": "obo:chebi#3_STAR"
+    "skos:exactMatch": {
+        "@id": "obo:CHEBI_79053"
     },
-    "rdfs:label": "diisobutyl phthalate",
-    "rdfs:subClassOf": [
+    "skos:note": "A phthalate ester that is the diester obtained by the formal condensation of the carboxy groups of phthalic acid with two molecules of isobutanol.",
+    "skos:semanticRelation": [
         {
             "@id": "obo:CHEBI_51307"
         },
         {
             "@id": "obo:CHEBI_35484"
-        },
-        {
-            "@id": "b665_genid-00f1db82e1ab437c844115a94dc63e635-bn79053t8f46645"
-        },
-        {
-            "@id": "b665_genid-00f1db82e1ab437c844115a94dc63e635-bn79053t11f50905"
-        },
-        {
-            "@id": "b665_genid-00f1db82e1ab437c844115a94dc63e635-bn79053t11f70781"
-        },
-        {
-            "@id": "b665_genid-00f1db82e1ab437c844115a94dc63e635-bn79053t11f79056"
         }
     ]
 }

@@ -1,43 +1,31 @@
 {
     "@context": {
-        "chebi": "http://purl.obolibrary.org/obo/chebi/",
         "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
         "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-        "obo": "http://purl.obolibrary.org/obo/"
+        "obo": "http://purl.obolibrary.org/obo/",
+        "uniprot": "http://purl.uniprot.org/",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "concept": "https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/",
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "dbo": "http://dbpedia.org/ontology/",
+        "dbp": "http://dbpedia.org/property/",
+        "altLabel": {
+            "@id": "http://www.w3.org/2004/02/skos/core#altLabel",
+            "@language": "en"
+        },
+        "graph": {
+            "@id": "@graph"
+        }
     },
-    "@id": "obo:CHEBI_81582",
-    "@type": "http://www.w3.org/2002/07/owl#Class",
-    "obo:IAO_0000115": "A polybromodiphenyl ether that is diphenyl ether in which the hydrogens at the 2, 4, 5, 2', and 4' positions have been replaced by bromines.",
+    "@id": "concept:WHPVYXDFIXRKLN-UHFFFAOYSA-N",
+    "@type": "skos:Concept",
+    "dbo:formula": "C12H5Br5O",
+    "dbo:inchi": "InChI=1S/C12H5Br5O/c13-6-1-2-11(9(16)3-6)18-12-5-8(15)7(14)4-10(12)17/h1-5H",
+    "dbo:smiles": "O(C=1C=C(C(=CC1Br)Br)Br)C=2C=CC(=CC2Br)Br",
+    "dbp:inchikey": "WHPVYXDFIXRKLN-UHFFFAOYSA-N",
     "chebi:charge": "0",
-    "chebi:formula": "C12H5Br5O",
-    "chebi:inchi": "InChI=1S/C12H5Br5O/c13-6-1-2-11(9(16)3-6)18-12-5-8(15)7(14)4-10(12)17/h1-5H",
-    "chebi:inchikey": "WHPVYXDFIXRKLN-UHFFFAOYSA-N",
-    "chebi:smiles": "O(C=1C=C(C(=CC1Br)Br)Br)C=2C=CC(=CC2Br)Br",
-    "geneontology:hasDbXref": [
-        "CAS:60348-60-9",
-        "HMDB:HMDB0037516",
-        "KEGG:C18203",
-        "PMID:23258742",
-        "PMID:25081382",
-        "PMID:25747361",
-        "PMID:25908029",
-        "PMID:25956475",
-        "PMID:26505652",
-        "PMID:26923239",
-        "PMID:27343407",
-        "PMID:27471519",
-        "PMID:28006665",
-        "PMID:28007175",
-        "PMID:28034496",
-        "PMID:28104345",
-        "PMID:28317842",
-        "PMID:28512710",
-        "PMID:28525869",
-        "PMID:28557710",
-        "Reaxys:7538447"
-    ],
-    "geneontology:hasId": "81582",
-    "geneontology:hasSynonym": [
+    "skos:altLabel": [
         "1,2,4-tribromo-5-(2,4-dibromophenoxy)benzene",
         "2,2',4,4',5-pentabromodiphenyl ether",
         "BDE 99",
@@ -45,11 +33,11 @@
         "PBDE 99",
         "PBDE-99"
     ],
-    "geneontology:inSubset": {
-        "@id": "obo:chebi#3_STAR"
+    "skos:exactMatch": {
+        "@id": "obo:CHEBI_81582"
     },
-    "rdfs:label": "2,4-dibromophenyl 2,4,5-tribromophenyl ether",
-    "rdfs:subClassOf": {
+    "skos:note": "A polybromodiphenyl ether that is diphenyl ether in which the hydrogens at the 2, 4, 5, 2', and 4' positions have been replaced by bromines.",
+    "skos:semanticRelation": {
         "@id": "obo:CHEBI_134094"
     }
 }

@@ -1,29 +1,31 @@
 {
     "@context": {
-        "chebi": "http://purl.obolibrary.org/obo/chebi/",
         "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
         "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-        "obo": "http://purl.obolibrary.org/obo/"
+        "obo": "http://purl.obolibrary.org/obo/",
+        "uniprot": "http://purl.uniprot.org/",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "concept": "https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/",
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "dbo": "http://dbpedia.org/ontology/",
+        "dbp": "http://dbpedia.org/property/",
+        "altLabel": {
+            "@id": "http://www.w3.org/2004/02/skos/core#altLabel",
+            "@language": "en"
+        },
+        "graph": {
+            "@id": "@graph"
+        }
     },
-    "@id": "obo:CHEBI_39421",
-    "@type": "http://www.w3.org/2002/07/owl#Class",
-    "obo:IAO_0000115": "A perfluoroalkanesulfonic acid that is octane-1-sulfonic acid in which all seventeen of the hydrogens that are attached to carbons hvae been replaced by fluorines.",
+    "@id": "concept:YFSUTJLHUFNCNZ-UHFFFAOYSA-N",
+    "@type": "skos:Concept",
+    "dbo:formula": "C8HF17O3S",
+    "dbo:inchi": "InChI=1S/C8HF17O3S/c9-1(10,3(13,14)5(17,18)7(21,22)23)2(11,12)4(15,16)6(19,20)8(24,25)29(26,27)28/h(H,26,27,28)",
+    "dbo:smiles": "OS(=O)(=O)C(F)(F)C(F)(F)C(F)(F)C(F)(F)C(F)(F)C(F)(F)C(F)(F)C(F)(F)F",
+    "dbp:inchikey": "YFSUTJLHUFNCNZ-UHFFFAOYSA-N",
     "chebi:charge": "0",
-    "chebi:formula": "C8HF17O3S",
-    "chebi:inchi": "InChI=1S/C8HF17O3S/c9-1(10,3(13,14)5(17,18)7(21,22)23)2(11,12)4(15,16)6(19,20)8(24,25)29(26,27)28/h(H,26,27,28)",
-    "chebi:inchikey": "YFSUTJLHUFNCNZ-UHFFFAOYSA-N",
-    "chebi:smiles": "OS(=O)(=O)C(F)(F)C(F)(F)C(F)(F)C(F)(F)C(F)(F)C(F)(F)C(F)(F)C(F)(F)F",
-    "geneontology:hasDbXref": [
-        "Beilstein:1813859",
-        "CAS:1763-23-1",
-        "Gmelin:580137",
-        "HMDB:HMDB0059586",
-        "KEGG:C18142",
-        "Reaxys:1813859",
-        "Wikipedia:Perfluorooctanesulfonic_acid"
-    ],
-    "geneontology:hasId": "39421",
-    "geneontology:hasSynonym": [
+    "skos:altLabel": [
         "1,1,2,2,3,3,4,4,5,5,6,6,7,7,8,8,8-heptadecafluorooctane-1-sulfonic acid",
         "1-perfluorooctanesulfonic acid",
         "heptadecafluoro-1-octanesulfonic acid",
@@ -32,22 +34,11 @@
         "Perfluorooctylsulfonic acid",
         "PFOS"
     ],
-    "geneontology:inSubset": {
-        "@id": "obo:chebi#3_STAR"
+    "skos:exactMatch": {
+        "@id": "obo:CHEBI_39421"
     },
-    "rdfs:label": "perfluorooctane-1-sulfonic acid",
-    "rdfs:subClassOf": [
-        {
-            "@id": "b323_genid-00f1db82e1ab437c844115a94dc63e635-bn39421t11f35679"
-        },
-        {
-            "@id": "b323_genid-00f1db82e1ab437c844115a94dc63e635-bn39421t8f39422"
-        },
-        {
-            "@id": "b323_genid-00f1db82e1ab437c844115a94dc63e635-bn39421t11f77853"
-        },
-        {
-            "@id": "obo:CHEBI_132447"
-        }
-    ]
+    "skos:note": "A perfluoroalkanesulfonic acid that is octane-1-sulfonic acid in which all seventeen of the hydrogens that are attached to carbons hvae been replaced by fluorines.",
+    "skos:semanticRelation": {
+        "@id": "obo:CHEBI_132447"
+    }
 }

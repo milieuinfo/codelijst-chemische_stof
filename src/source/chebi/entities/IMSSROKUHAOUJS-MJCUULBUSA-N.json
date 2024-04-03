@@ -1,35 +1,31 @@
 {
     "@context": {
-        "chebi": "http://purl.obolibrary.org/obo/chebi/",
         "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
         "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-        "obo": "http://purl.obolibrary.org/obo/"
+        "obo": "http://purl.obolibrary.org/obo/",
+        "uniprot": "http://purl.uniprot.org/",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "concept": "https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/",
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "dbo": "http://dbpedia.org/ontology/",
+        "dbp": "http://dbpedia.org/property/",
+        "altLabel": {
+            "@id": "http://www.w3.org/2004/02/skos/core#altLabel",
+            "@language": "en"
+        },
+        "graph": {
+            "@id": "@graph"
+        }
     },
-    "@id": "obo:CHEBI_6784",
-    "@type": "http://www.w3.org/2002/07/owl#Class",
-    "obo:IAO_0000115": "A terminal acetylenic compound that is (17alpha)-17-ethynylestra-1(10),2,4-triene substituted by a methoxy group at position 3 and a hydroxy group at position 17.",
+    "@id": "concept:IMSSROKUHAOUJS-MJCUULBUSA-N",
+    "@type": "skos:Concept",
+    "dbo:formula": "C21H26O2",
+    "dbo:inchi": "InChI=1S/C21H26O2/c1-4-21(22)12-10-19-18-7-5-14-13-15(23-3)6-8-16(14)17(18)9-11-20(19,21)2/h1,6,8,13,17-19,22H,5,7,9-12H2,2-3H3/t17-,18-,19+,20+,21+/m1/s1",
+    "dbo:smiles": "[H][C@]12CC[C@@]3(C)[C@@]([H])(CC[C@@]3(O)C#C)[C@]1([H])CCc1cc(OC)ccc21",
+    "dbp:inchikey": "IMSSROKUHAOUJS-MJCUULBUSA-N",
     "chebi:charge": "0",
-    "chebi:formula": "C21H26O2",
-    "chebi:inchi": "InChI=1S/C21H26O2/c1-4-21(22)12-10-19-18-7-5-14-13-15(23-3)6-8-16(14)17(18)9-11-20(19,21)2/h1,6,8,13,17-19,22H,5,7,9-12H2,2-3H3/t17-,18-,19+,20+,21+/m1/s1",
-    "chebi:inchikey": "IMSSROKUHAOUJS-MJCUULBUSA-N",
-    "chebi:smiles": "[H][C@]12CC[C@@]3(C)[C@@]([H])(CC[C@@]3(O)C#C)[C@]1([H])CCc1cc(OC)ccc21",
-    "geneontology:hasDbXref": [
-        "Beilstein:2625905",
-        "CAS:72-33-3",
-        "Drug_Central:1714",
-        "DrugBank:DB01357",
-        "HMDB:HMDB0015446",
-        "KEGG:C07618",
-        "KEGG:D00575",
-        "LINCS:LSM-2693",
-        "Patent:US2666769",
-        "PMID:12139060",
-        "PMID:16414683",
-        "Reaxys:2625905",
-        "Wikipedia:Mestranol"
-    ],
-    "geneontology:hasId": "6784",
-    "geneontology:hasSynonym": [
+    "skos:altLabel": [
         "(+)-17alpha-Ethynyl-17beta-hydroxy-3-methoxy-1,3,5(10)-estratriene",
         "(+)-17alpha-Ethynyl-17beta-hydroxy-3-methoxy-1,3,5(10)-oestratriene",
         "17-ethynyl-3-methoxyestra-1(10),2,4-trien-17beta-ol",
@@ -40,11 +36,11 @@
         "Mestranol",
         "mestranolum"
     ],
-    "geneontology:inSubset": {
-        "@id": "obo:chebi#3_STAR"
+    "skos:exactMatch": {
+        "@id": "obo:CHEBI_6784"
     },
-    "rdfs:label": "mestranol",
-    "rdfs:subClassOf": [
+    "skos:note": "A terminal acetylenic compound that is (17alpha)-17-ethynylestra-1(10),2,4-triene substituted by a methoxy group at position 3 and a hydroxy group at position 17.",
+    "skos:semanticRelation": [
         {
             "@id": "obo:CHEBI_35343"
         },
@@ -53,15 +49,6 @@
         },
         {
             "@id": "obo:CHEBI_73477"
-        },
-        {
-            "@id": "b127_genid-00f1db82e1ab437c844115a94dc63e635-bn6784t8f16469"
-        },
-        {
-            "@id": "b127_genid-00f1db82e1ab437c844115a94dc63e635-bn6784t11f50266"
-        },
-        {
-            "@id": "b127_genid-00f1db82e1ab437c844115a94dc63e635-bn6784t11f76988"
         }
     ]
 }

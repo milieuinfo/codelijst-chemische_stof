@@ -1,30 +1,31 @@
 {
     "@context": {
-        "chebi": "http://purl.obolibrary.org/obo/chebi/",
         "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
         "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-        "obo": "http://purl.obolibrary.org/obo/"
+        "obo": "http://purl.obolibrary.org/obo/",
+        "uniprot": "http://purl.uniprot.org/",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "concept": "https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/",
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "dbo": "http://dbpedia.org/ontology/",
+        "dbp": "http://dbpedia.org/property/",
+        "altLabel": {
+            "@id": "http://www.w3.org/2004/02/skos/core#altLabel",
+            "@language": "en"
+        },
+        "graph": {
+            "@id": "@graph"
+        }
     },
-    "@id": "obo:CHEBI_73173",
-    "@type": "http://www.w3.org/2002/07/owl#Class",
-    "obo:IAO_0000115": "A monocarboxylic acid that is butyric acid in which one of the hydrogens at position 4 is replaced by a 2,4-dichlorophenoxy group. A selective post-emergence herbicide.",
+    "@id": "concept:YIVXMZJTEQBPQO-UHFFFAOYSA-N",
+    "@type": "skos:Concept",
+    "dbo:formula": "C10H10Cl2O3",
+    "dbo:inchi": "InChI=1S/C10H10Cl2O3/c11-7-3-4-9(8(12)6-7)15-5-1-2-10(13)14/h3-4,6H,1-2,5H2,(H,13,14)",
+    "dbo:smiles": "OC(=O)CCCOc1ccc(Cl)cc1Cl",
+    "dbp:inchikey": "YIVXMZJTEQBPQO-UHFFFAOYSA-N",
     "chebi:charge": "0",
-    "chebi:formula": "C10H10Cl2O3",
-    "chebi:inchi": "InChI=1S/C10H10Cl2O3/c11-7-3-4-9(8(12)6-7)15-5-1-2-10(13)14/h3-4,6H,1-2,5H2,(H,13,14)",
-    "chebi:inchikey": "YIVXMZJTEQBPQO-UHFFFAOYSA-N",
-    "chebi:smiles": "OC(=O)CCCOc1ccc(Cl)cc1Cl",
-    "geneontology:hasDbXref": [
-        "CAS:94-82-6",
-        "KEGG:C14404",
-        "Patent:GB804565",
-        "Patent:GB883255",
-        "Pesticides:2,4-db",
-        "PPDB:5",
-        "Reaxys:1976809",
-        "Wikipedia:2,4-DB"
-    ],
-    "geneontology:hasId": "73173",
-    "geneontology:hasSynonym": [
+    "skos:altLabel": [
         "2,4-D butyric acid",
         "4-(2,4-DB)",
         "4-(2,4-dichlorophenoxy)butanoic acid",
@@ -38,11 +39,11 @@
         "gamma-(2,4-dichlorophenoxy)-butyric acid",
         "Legumex"
     ],
-    "geneontology:inSubset": {
-        "@id": "obo:chebi#3_STAR"
+    "skos:exactMatch": {
+        "@id": "obo:CHEBI_73173"
     },
-    "rdfs:label": "2,4-DB",
-    "rdfs:subClassOf": [
+    "skos:note": "A monocarboxylic acid that is butyric acid in which one of the hydrogens at position 4 is replaced by a 2,4-dichlorophenoxy group. A selective post-emergence herbicide.",
+    "skos:semanticRelation": [
         {
             "@id": "obo:CHEBI_35618"
         },
@@ -51,21 +52,6 @@
         },
         {
             "@id": "obo:CHEBI_36683"
-        },
-        {
-            "@id": "b341_genid-00f1db82e1ab437c844115a94dc63e635-bn73173tmms73f143277"
-        },
-        {
-            "@id": "b341_genid-00f1db82e1ab437c844115a94dc63e635-bn73173t11f26841"
-        },
-        {
-            "@id": "b341_genid-00f1db82e1ab437c844115a94dc63e635-bn73173t11f33286"
-        },
-        {
-            "@id": "b341_genid-00f1db82e1ab437c844115a94dc63e635-bn73173t11f60575"
-        },
-        {
-            "@id": "b341_genid-00f1db82e1ab437c844115a94dc63e635-bn73173t4f143277"
         }
     ]
 }

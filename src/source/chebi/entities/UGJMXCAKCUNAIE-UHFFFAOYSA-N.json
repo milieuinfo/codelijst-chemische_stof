@@ -1,63 +1,31 @@
 {
     "@context": {
-        "chebi": "http://purl.obolibrary.org/obo/chebi/",
         "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
         "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-        "obo": "http://purl.obolibrary.org/obo/"
+        "obo": "http://purl.obolibrary.org/obo/",
+        "uniprot": "http://purl.uniprot.org/",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "concept": "https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/",
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "dbo": "http://dbpedia.org/ontology/",
+        "dbp": "http://dbpedia.org/property/",
+        "altLabel": {
+            "@id": "http://www.w3.org/2004/02/skos/core#altLabel",
+            "@language": "en"
+        },
+        "graph": {
+            "@id": "@graph"
+        }
     },
-    "@id": "obo:CHEBI_42797",
-    "@type": "http://www.w3.org/2002/07/owl#Class",
-    "obo:IAO_0000115": "A gamma-amino acid that is cyclohexane substituted at position 1 by aminomethyl and carboxymethyl groups. Used for treatment of neuropathic pain and restless legs syndrome.",
+    "@id": "concept:UGJMXCAKCUNAIE-UHFFFAOYSA-N",
+    "@type": "skos:Concept",
+    "dbo:formula": "C9H17NO2",
+    "dbo:inchi": "InChI=1S/C9H17NO2/c10-7-9(6-8(11)12)4-2-1-3-5-9/h1-7,10H2,(H,11,12)",
+    "dbo:smiles": "NCC1(CCCCC1)CC(O)=O",
+    "dbp:inchikey": "UGJMXCAKCUNAIE-UHFFFAOYSA-N",
     "chebi:charge": "0",
-    "chebi:formula": "C9H17NO2",
-    "chebi:inchi": "InChI=1S/C9H17NO2/c10-7-9(6-8(11)12)4-2-1-3-5-9/h1-7,10H2,(H,11,12)",
-    "chebi:inchikey": "UGJMXCAKCUNAIE-UHFFFAOYSA-N",
-    "chebi:smiles": "NCC1(CCCCC1)CC(O)=O",
-    "geneontology:hasDbXref": [
-        "Beilstein:2359739",
-        "CAS:60142-96-3",
-        "Drug_Central:1264",
-        "DrugBank:DB00996",
-        "HMDB:HMDB0005015",
-        "KEGG:D00332",
-        "LINCS:LSM-5716",
-        "Patent:EP1140793",
-        "Patent:US2008103334",
-        "Patent:US2008269326",
-        "Patent:US2009043126",
-        "Patent:US2009292138",
-        "Patent:US2012046272",
-        "Patent:WO2005037784",
-        "Patent:WO2008060572",
-        "Patent:WO2010023694",
-        "PDBeChem:GBN",
-        "PMID:22048285",
-        "PMID:22144034",
-        "PMID:22240839",
-        "PMID:22240859",
-        "PMID:22279347",
-        "PMID:22296650",
-        "PMID:22345405",
-        "PMID:22352861",
-        "PMID:22419014",
-        "PMID:22422817",
-        "PMID:22464746",
-        "PMID:22467888",
-        "PMID:22556282",
-        "PMID:22575516",
-        "PMID:22612015",
-        "PMID:22865488",
-        "PMID:22888801",
-        "PMID:22934077",
-        "PMID:22946876",
-        "PMID:23018586",
-        "PMID:23053645",
-        "Reaxys:2359739",
-        "VSDB:2975",
-        "Wikipedia:Gabapentin"
-    ],
-    "geneontology:hasId": "42797",
-    "geneontology:hasSynonym": [
+    "skos:altLabel": [
         "[1-(aminomethyl)cyclohexyl]acetic acid",
         "1-(Aminomethyl)cyclohexaneacetic acid",
         "gabapentina",
@@ -65,28 +33,11 @@
         "gabapentinum",
         "Neurontin"
     ],
-    "geneontology:inSubset": {
-        "@id": "obo:chebi#3_STAR"
+    "skos:exactMatch": {
+        "@id": "obo:CHEBI_42797"
     },
-    "rdfs:label": "gabapentin",
-    "rdfs:subClassOf": [
-        {
-            "@id": "obo:CHEBI_33707"
-        },
-        {
-            "@id": "b780_genid-00f1db82e1ab437c844115a94dc63e635-bn42797t8f16865"
-        },
-        {
-            "@id": "b780_genid-00f1db82e1ab437c844115a94dc63e635-bn42797t11f35623"
-        },
-        {
-            "@id": "b780_genid-00f1db82e1ab437c844115a94dc63e635-bn42797t11f35703"
-        },
-        {
-            "@id": "b780_genid-00f1db82e1ab437c844115a94dc63e635-bn42797t11f38215"
-        },
-        {
-            "@id": "b780_genid-00f1db82e1ab437c844115a94dc63e635-bn42797t11f78298"
-        }
-    ]
+    "skos:note": "A gamma-amino acid that is cyclohexane substituted at position 1 by aminomethyl and carboxymethyl groups. Used for treatment of neuropathic pain and restless legs syndrome.",
+    "skos:semanticRelation": {
+        "@id": "obo:CHEBI_33707"
+    }
 }

@@ -1,34 +1,31 @@
 {
     "@context": {
-        "chebi": "http://purl.obolibrary.org/obo/chebi/",
         "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
         "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-        "obo": "http://purl.obolibrary.org/obo/"
+        "obo": "http://purl.obolibrary.org/obo/",
+        "uniprot": "http://purl.uniprot.org/",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "concept": "https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/",
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "dbo": "http://dbpedia.org/ontology/",
+        "dbp": "http://dbpedia.org/property/",
+        "altLabel": {
+            "@id": "http://www.w3.org/2004/02/skos/core#altLabel",
+            "@language": "en"
+        },
+        "graph": {
+            "@id": "@graph"
+        }
     },
-    "@id": "obo:CHEBI_167184",
-    "@type": "http://www.w3.org/2002/07/owl#Class",
-    "obo:IAO_0000115": "An organic thiophosphate that is O,O-dimethyl O-phenyl phosphorothioate substituted by a chloro group at position 3 and a nitro group at position 4. It is a potent cholinesterase inhibitor and used as an insecticide for the control of a wide range of insects.",
+    "@id": "concept:NZNRRXXETLSZRO-UHFFFAOYSA-N",
+    "@type": "skos:Concept",
+    "dbo:formula": "C8H9ClNO5PS",
+    "dbo:inchi": "InChI=1S/C8H9ClNO5PS/c1-13-16(17,14-2)15-6-3-4-8(10(11)12)7(9)5-6/h3-5H,1-2H3",
+    "dbo:smiles": "COP(=S)(OC)OC1=CC=C(C(Cl)=C1)[N+]([O-])=O",
+    "dbp:inchikey": "NZNRRXXETLSZRO-UHFFFAOYSA-N",
     "chebi:charge": "0",
-    "chebi:formula": "C8H9ClNO5PS",
-    "chebi:inchi": "InChI=1S/C8H9ClNO5PS/c1-13-16(17,14-2)15-6-3-4-8(10(11)12)7(9)5-6/h3-5H,1-2H3",
-    "chebi:inchikey": "NZNRRXXETLSZRO-UHFFFAOYSA-N",
-    "chebi:smiles": "COP(=S)(OC)OC1=CC=C(C(Cl)=C1)[N+]([O-])=O",
-    "geneontology:hasDbXref": [
-        "CAS:500-28-7",
-        "Chemspider:9944",
-        "PMID:13259731",
-        "PMID:13275138",
-        "PMID:14353786",
-        "PMID:14438894",
-        "PMID:14461142",
-        "PMID:22320100",
-        "PMID:664939",
-        "PMID:696045",
-        "PPDB:1476",
-        "Reaxys:2292513"
-    ],
-    "geneontology:hasId": "167184",
-    "geneontology:hasSynonym": [
+    "skos:altLabel": [
         "3-chloro-4-nitrophenyl dimethyl phosphorothioate",
         "BAY 22/190",
         "BAY 22190",
@@ -51,11 +48,11 @@
         "phosphorothioic acid O-(3-chloro-4-nitrophenyl) O,O-dimethyl ester",
         "p-nitro-m-chlorophenyl dimethyl thionophosphate"
     ],
-    "geneontology:inSubset": {
-        "@id": "obo:chebi#3_STAR"
+    "skos:exactMatch": {
+        "@id": "obo:CHEBI_167184"
     },
-    "rdfs:label": "chlorthion",
-    "rdfs:subClassOf": [
+    "skos:note": "An organic thiophosphate that is O,O-dimethyl O-phenyl phosphorothioate substituted by a chloro group at position 3 and a nitro group at position 4. It is a potent cholinesterase inhibitor and used as an insecticide for the control of a wide range of insects.",
+    "skos:semanticRelation": [
         {
             "@id": "obo:CHEBI_35716"
         },
@@ -67,12 +64,6 @@
         },
         {
             "@id": "obo:CHEBI_25715"
-        },
-        {
-            "@id": "b883_genid-00f1db82e1ab437c844115a94dc63e635-bn167184t11f33286"
-        },
-        {
-            "@id": "b883_genid-00f1db82e1ab437c844115a94dc63e635-bn167184t11f37733"
         }
     ]
 }

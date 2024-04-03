@@ -1,42 +1,31 @@
 {
     "@context": {
-        "chebi": "http://purl.obolibrary.org/obo/chebi/",
         "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
         "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-        "obo": "http://purl.obolibrary.org/obo/"
+        "obo": "http://purl.obolibrary.org/obo/",
+        "uniprot": "http://purl.uniprot.org/",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "concept": "https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/",
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "dbo": "http://dbpedia.org/ontology/",
+        "dbp": "http://dbpedia.org/property/",
+        "altLabel": {
+            "@id": "http://www.w3.org/2004/02/skos/core#altLabel",
+            "@language": "en"
+        },
+        "graph": {
+            "@id": "@graph"
+        }
     },
-    "@id": "obo:CHEBI_3647",
-    "@type": "http://www.w3.org/2002/07/owl#Class",
-    "obo:IAO_0000115": "A substituted phenothiazine in which the ring nitrogen at position 10 is attached to C-3 of an N,N-dimethylpropanamine moiety.",
+    "@id": "concept:ZPEIMTDSQAKGNT-UHFFFAOYSA-N",
+    "@type": "skos:Concept",
+    "dbo:formula": "C17H19ClN2S",
+    "dbo:inchi": "InChI=1S/C17H19ClN2S/c1-19(2)10-5-11-20-14-6-3-4-7-16(14)21-17-9-8-13(18)12-15(17)20/h3-4,6-9,12H,5,10-11H2,1-2H3",
+    "dbo:smiles": "CN(C)CCCN1c2ccccc2Sc2ccc(Cl)cc12",
+    "dbp:inchikey": "ZPEIMTDSQAKGNT-UHFFFAOYSA-N",
     "chebi:charge": "0",
-    "chebi:formula": "C17H19ClN2S",
-    "chebi:inchi": "InChI=1S/C17H19ClN2S/c1-19(2)10-5-11-20-14-6-3-4-7-16(14)21-17-9-8-13(18)12-15(17)20/h3-4,6-9,12H,5,10-11H2,1-2H3",
-    "chebi:inchikey": "ZPEIMTDSQAKGNT-UHFFFAOYSA-N",
-    "chebi:smiles": "CN(C)CCCN1c2ccccc2Sc2ccc(Cl)cc12",
-    "geneontology:hasDbXref": [
-        "PMID:1650428",
-        "PMID:20825390",
-        "Beilstein:289793",
-        "CAS:50-53-3",
-        "Drug_Central:621",
-        "DrugBank:DB00477",
-        "HMDB:HMDB0014620",
-        "KEGG:C06906",
-        "KEGG:D00270",
-        "LINCS:LSM-4017",
-        "Patent:US2645640",
-        "PDBeChem:Z80",
-        "PMID:14354584",
-        "PMID:14404586",
-        "PMID:15170372",
-        "PMID:16653219",
-        "PMID:2427628",
-        "PMID:7192992",
-        "Reaxys:289793",
-        "Wikipedia:Chlorpromazine"
-    ],
-    "geneontology:hasId": "3647",
-    "geneontology:hasSynonym": [
+    "skos:altLabel": [
         "CPZ",
         "3-(2-chloro-10H-phenothiazin-10-yl)-N,N-dimethyl-1-propanamine",
         "3-(2-chloro-10H-phenothiazin-10-yl)-N,N-dimethylpropan-1-amine",
@@ -53,11 +42,11 @@
         "N-(3-dimethylaminopropyl)-3-chlorophenothiazine",
         "Thorazine"
     ],
-    "geneontology:inSubset": {
-        "@id": "obo:chebi#3_STAR"
+    "skos:exactMatch": {
+        "@id": "obo:CHEBI_3647"
     },
-    "rdfs:label": "chlorpromazine",
-    "rdfs:subClassOf": [
+    "skos:note": "A substituted phenothiazine in which the ring nitrogen at position 10 is attached to C-3 of an N,N-dimethylpropanamine moiety.",
+    "skos:semanticRelation": [
         {
             "@id": "obo:CHEBI_36683"
         },
@@ -66,21 +55,6 @@
         },
         {
             "@id": "obo:CHEBI_38093"
-        },
-        {
-            "@id": "b530_genid-00f1db82e1ab437c844115a94dc63e635-bn3647t11f37930"
-        },
-        {
-            "@id": "b530_genid-00f1db82e1ab437c844115a94dc63e635-bn3647t11f48561"
-        },
-        {
-            "@id": "b530_genid-00f1db82e1ab437c844115a94dc63e635-bn3647t11f50919"
-        },
-        {
-            "@id": "b530_genid-00f1db82e1ab437c844115a94dc63e635-bn3647t11f76779"
-        },
-        {
-            "@id": "b530_genid-00f1db82e1ab437c844115a94dc63e635-bn3647t11f149553"
         }
     ]
 }

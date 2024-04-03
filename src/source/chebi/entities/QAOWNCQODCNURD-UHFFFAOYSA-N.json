@@ -1,41 +1,31 @@
 {
     "@context": {
-        "chebi": "http://purl.obolibrary.org/obo/chebi/",
         "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
         "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-        "obo": "http://purl.obolibrary.org/obo/"
+        "obo": "http://purl.obolibrary.org/obo/",
+        "uniprot": "http://purl.uniprot.org/",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "concept": "https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/",
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "dbo": "http://dbpedia.org/ontology/",
+        "dbp": "http://dbpedia.org/property/",
+        "altLabel": {
+            "@id": "http://www.w3.org/2004/02/skos/core#altLabel",
+            "@language": "en"
+        },
+        "graph": {
+            "@id": "@graph"
+        }
     },
-    "@id": "obo:CHEBI_26836",
-    "@type": "http://www.w3.org/2002/07/owl#Class",
-    "obo:IAO_0000115": "A sulfur oxoacid that consists of two oxo and two hydroxy groups joined covalently to a central sulfur atom.",
+    "@id": "concept:QAOWNCQODCNURD-UHFFFAOYSA-N",
+    "@type": "skos:Concept",
+    "dbo:formula": "H2O4S",
+    "dbo:inchi": "InChI=1S/H2O4S/c1-5(2,3)4/h(H2,1,2,3,4)",
+    "dbo:smiles": "[H]OS(=O)(=O)O[H]",
+    "dbp:inchikey": "QAOWNCQODCNURD-UHFFFAOYSA-N",
     "chebi:charge": "0",
-    "chebi:formula": "H2O4S",
-    "chebi:inchi": "InChI=1S/H2O4S/c1-5(2,3)4/h(H2,1,2,3,4)",
-    "chebi:inchikey": "QAOWNCQODCNURD-UHFFFAOYSA-N",
-    "chebi:smiles": "[H]OS(=O)(=O)O[H]",
-    "geneontology:hasDbXref": [
-        "KEGG:C00059",
-        "KEGG:D05963",
-        "CAS:7664-93-9",
-        "Gmelin:2122",
-        "KNApSAcK:C00007530",
-        "MolBase:4",
-        "PMID:13568755",
-        "PMID:16122922",
-        "PMID:19397353",
-        "PMID:22047659",
-        "PMID:22136045",
-        "PMID:22204399",
-        "PMID:22267186",
-        "PMID:22296037",
-        "PMID:22364556",
-        "PMID:22435616",
-        "PPDB:606",
-        "Reaxys:2037554",
-        "Wikipedia:Sulfuric_acid"
-    ],
-    "geneontology:hasId": "26836",
-    "geneontology:hasSynonym": [
+    "skos:altLabel": [
         "[S(OH)2O2]",
         "[SO2(OH)2]",
         "Acide sulfurique",
@@ -51,22 +41,11 @@
         "sulphuric acid",
         "tetraoxosulfuric acid"
     ],
-    "geneontology:inSubset": {
-        "@id": "obo:chebi#3_STAR"
+    "skos:exactMatch": {
+        "@id": "obo:CHEBI_26836"
     },
-    "rdfs:label": "sulfuric acid",
-    "rdfs:subClassOf": [
-        {
-            "@id": "obo:CHEBI_33402"
-        },
-        {
-            "@id": "b253_genid-00f1db82e1ab437c844115a94dc63e635-bn26836tmms73f16189"
-        },
-        {
-            "@id": "b253_genid-00f1db82e1ab437c844115a94dc63e635-bn26836t11f35223"
-        },
-        {
-            "@id": "b253_genid-00f1db82e1ab437c844115a94dc63e635-bn26836t4f45696"
-        }
-    ]
+    "skos:note": "A sulfur oxoacid that consists of two oxo and two hydroxy groups joined covalently to a central sulfur atom.",
+    "skos:semanticRelation": {
+        "@id": "obo:CHEBI_33402"
+    }
 }

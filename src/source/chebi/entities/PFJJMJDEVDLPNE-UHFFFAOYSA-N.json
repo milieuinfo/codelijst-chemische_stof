@@ -1,28 +1,21 @@
 {
     "@context": {
-        "chebi": "http://purl.obolibrary.org/obo/chebi/",
         "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
         "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-        "obo": "http://purl.obolibrary.org/obo/"
-    },
-    "@id": "obo:CHEBI_3016",
-    "@type": "http://www.w3.org/2002/07/owl#Class",
-    "chebi:charge": "0",
-    "chebi:formula": "C11H11Cl2NO2",
-    "chebi:inchi": "InChI=1S/C11H11Cl2NO2/c1-7-6-16-9-5-3-2-4-8(9)14(7)11(15)10(12)13/h2-5,7,10H,6H2,1H3",
-    "chebi:inchikey": "PFJJMJDEVDLPNE-UHFFFAOYSA-N",
-    "chebi:smiles": "CC1COc2ccccc2N1C(=O)C(Cl)Cl",
-    "geneontology:hasDbXref": [
-        "CAS:98730-04-2",
-        "KEGG:C10964",
-        "PPDB:67"
-    ],
-    "geneontology:hasId": "3016",
-    "geneontology:inSubset": {
-        "@id": "obo:chebi#2_STAR"
-    },
-    "rdfs:label": "Benoxacor",
-    "rdfs:subClassOf": {
-        "@id": "obo:CHEBI_46969"
+        "obo": "http://purl.obolibrary.org/obo/",
+        "uniprot": "http://purl.uniprot.org/",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "concept": "https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/",
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "dbo": "http://dbpedia.org/ontology/",
+        "dbp": "http://dbpedia.org/property/",
+        "altLabel": {
+            "@id": "http://www.w3.org/2004/02/skos/core#altLabel",
+            "@language": "en"
+        },
+        "graph": {
+            "@id": "@graph"
+        }
     }
 }

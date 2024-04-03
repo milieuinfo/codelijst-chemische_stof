@@ -1,34 +1,31 @@
 {
     "@context": {
-        "chebi": "http://purl.obolibrary.org/obo/chebi/",
         "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
         "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-        "obo": "http://purl.obolibrary.org/obo/"
+        "obo": "http://purl.obolibrary.org/obo/",
+        "uniprot": "http://purl.uniprot.org/",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "concept": "https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/",
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "dbo": "http://dbpedia.org/ontology/",
+        "dbp": "http://dbpedia.org/property/",
+        "altLabel": {
+            "@id": "http://www.w3.org/2004/02/skos/core#altLabel",
+            "@language": "en"
+        },
+        "graph": {
+            "@id": "@graph"
+        }
     },
-    "@id": "obo:CHEBI_102524",
-    "@type": "http://www.w3.org/2002/07/owl#Class",
-    "obo:IAO_0000115": "A member of the class of  barbiturates that is barbituric acid in which the hydrogens at position 5 are substituted by an allyl group and an isobutyl group. Frequently combined with other medicines, such as aspirin, paracetamol and codeine, it is used for treatment of pain and headache.",
+    "@id": "concept:UZVHFVZFNXBMQJ-UHFFFAOYSA-N",
+    "@type": "skos:Concept",
+    "dbo:formula": "C11H16N2O3",
+    "dbo:inchi": "InChI=1S/C11H16N2O3/c1-4-5-11(6-7(2)3)8(14)12-10(16)13-9(11)15/h4,7H,1,5-6H2,2-3H3,(H2,12,13,14,15,16)",
+    "dbo:smiles": "CC(C)CC1(CC=C)C(=O)NC(=O)NC1=O",
+    "dbp:inchikey": "UZVHFVZFNXBMQJ-UHFFFAOYSA-N",
     "chebi:charge": "0",
-    "chebi:formula": "C11H16N2O3",
-    "chebi:inchi": "InChI=1S/C11H16N2O3/c1-4-5-11(6-7(2)3)8(14)12-10(16)13-9(11)15/h4,7H,1,5-6H2,2-3H3,(H2,12,13,14,15,16)",
-    "chebi:inchikey": "UZVHFVZFNXBMQJ-UHFFFAOYSA-N",
-    "chebi:smiles": "CC(C)CC1(CC=C)C(=O)NC(=O)NC1=O",
-    "geneontology:hasDbXref": [
-        "PMID:6864729",
-        "Beilstein:202119",
-        "CAS:77-26-9",
-        "Drug_Central:441",
-        "DrugBank:DB00241",
-        "HMDB:HMDB0014386",
-        "KEGG:D03182",
-        "LINCS:LSM-5793",
-        "PMID:23682958",
-        "PMID:24400754",
-        "Reaxys:202119",
-        "Wikipedia:Butalbital"
-    ],
-    "geneontology:hasId": "102524",
-    "geneontology:hasSynonym": [
+    "skos:altLabel": [
         "5-(2-methylpropyl)-5-(prop-2-en-1-yl)pyrimidine-2,4,6(1H,3H,5H)-trione",
         "5-(2-methylpropyl)-5-prop-2-enyl-1,3-diazinane-2,4,6-trione",
         "5-allyl-5-(2'-methyl-n-propyl) barbituric acid",
@@ -46,22 +43,11 @@
         "itobarbital",
         "tetrallobarbital"
     ],
-    "geneontology:inSubset": {
-        "@id": "obo:chebi#3_STAR"
+    "skos:exactMatch": {
+        "@id": "obo:CHEBI_102524"
     },
-    "rdfs:label": "butalbital",
-    "rdfs:subClassOf": [
-        {
-            "@id": "obo:CHEBI_22693"
-        },
-        {
-            "@id": "b873_genid-00f1db82e1ab437c844115a94dc63e635-bn102524t8f16294"
-        },
-        {
-            "@id": "b873_genid-00f1db82e1ab437c844115a94dc63e635-bn102524t11f35480"
-        },
-        {
-            "@id": "b873_genid-00f1db82e1ab437c844115a94dc63e635-bn102524t11f35717"
-        }
-    ]
+    "skos:note": "A member of the class of  barbiturates that is barbituric acid in which the hydrogens at position 5 are substituted by an allyl group and an isobutyl group. Frequently combined with other medicines, such as aspirin, paracetamol and codeine, it is used for treatment of pain and headache.",
+    "skos:semanticRelation": {
+        "@id": "obo:CHEBI_22693"
+    }
 }

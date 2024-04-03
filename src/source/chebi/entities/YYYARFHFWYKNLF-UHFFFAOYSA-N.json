@@ -1,41 +1,40 @@
 {
     "@context": {
-        "chebi": "http://purl.obolibrary.org/obo/chebi/",
         "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
         "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-        "obo": "http://purl.obolibrary.org/obo/"
+        "obo": "http://purl.obolibrary.org/obo/",
+        "uniprot": "http://purl.uniprot.org/",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "concept": "https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/",
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "dbo": "http://dbpedia.org/ontology/",
+        "dbp": "http://dbpedia.org/property/",
+        "altLabel": {
+            "@id": "http://www.w3.org/2004/02/skos/core#altLabel",
+            "@language": "en"
+        },
+        "graph": {
+            "@id": "@graph"
+        }
     },
-    "@id": "obo:CHEBI_87104",
-    "@type": "http://www.w3.org/2002/07/owl#Class",
-    "obo:IAO_0000115": "A naphthalenesulfonic acid that is naphthalene-2,7-disulfonic acid carrying additional hydroxy and (2,4-dimethylphenyl)diazenyl substituents at positions 3 and 4 respectively. The disodium salt is the biological stain 'acid red 26'.",
+    "@id": "concept:YYYARFHFWYKNLF-UHFFFAOYSA-N",
+    "@type": "skos:Concept",
+    "dbo:formula": "C18H16N2O7S2",
+    "dbo:inchi": "InChI=1S/C18H16N2O7S2/c1-10-3-6-15(11(2)7-10)19-20-17-14-5-4-13(28(22,23)24)8-12(14)9-16(18(17)21)29(25,26)27/h3-9,21H,1-2H3,(H,22,23,24)(H,25,26,27)",
+    "dbo:smiles": "Cc1ccc(N=Nc2c(O)c(cc3cc(ccc23)S(O)(=O)=O)S(O)(=O)=O)c(C)c1",
+    "dbp:inchikey": "YYYARFHFWYKNLF-UHFFFAOYSA-N",
     "chebi:charge": "0",
-    "chebi:formula": "C18H16N2O7S2",
-    "chebi:inchi": "InChI=1S/C18H16N2O7S2/c1-10-3-6-15(11(2)7-10)19-20-17-14-5-4-13(28(22,23)24)8-12(14)9-16(18(17)21)29(25,26)27/h3-9,21H,1-2H3,(H,22,23,24)(H,25,26,27)",
-    "chebi:inchikey": "YYYARFHFWYKNLF-UHFFFAOYSA-N",
-    "chebi:smiles": "Cc1ccc(N=Nc2c(O)c(cc3cc(ccc23)S(O)(=O)=O)S(O)(=O)=O)c(C)c1",
-    "geneontology:hasDbXref": [
-        "CAS:7481-49-4",
-        "PMID:4308811",
-        "PMID:5351707",
-        "PMID:5732320",
-        "PMID:5962926",
-        "PMID:5971935",
-        "PMID:5975243",
-        "PMID:888148",
-        "PMID:888149",
-        "Reaxys:728148"
-    ],
-    "geneontology:hasId": "87104",
-    "geneontology:hasSynonym": [
+    "skos:altLabel": [
         "1-(2,4-Xylylazo)-2-naphthol-3,6-disulfonic acid",
         "acid red 26 (free acid form)",
         "Ponceau MX"
     ],
-    "geneontology:inSubset": {
-        "@id": "obo:chebi#3_STAR"
+    "skos:exactMatch": {
+        "@id": "obo:CHEBI_87104"
     },
-    "rdfs:label": "4-[(2,4-dimethylphenyl)diazenyl]-3-hydroxynaphthalene-2,7-disulfonic acid",
-    "rdfs:subClassOf": [
+    "skos:note": "A naphthalenesulfonic acid that is naphthalene-2,7-disulfonic acid carrying additional hydroxy and (2,4-dimethylphenyl)diazenyl substituents at positions 3 and 4 respectively. The disodium salt is the biological stain 'acid red 26'.",
+    "skos:semanticRelation": [
         {
             "@id": "obo:CHEBI_36336"
         },
@@ -44,18 +43,6 @@
         },
         {
             "@id": "obo:CHEBI_22682"
-        },
-        {
-            "@id": "b2_genid-00f1db82e1ab437c844115a94dc63e635-bn87104tmms73f87105"
-        },
-        {
-            "@id": "b2_genid-00f1db82e1ab437c844115a94dc63e635-bn87104t11f50903"
-        },
-        {
-            "@id": "b2_genid-00f1db82e1ab437c844115a94dc63e635-bn87104t11f50912"
-        },
-        {
-            "@id": "b2_genid-00f1db82e1ab437c844115a94dc63e635-bn87104t4f87105"
         }
     ]
 }

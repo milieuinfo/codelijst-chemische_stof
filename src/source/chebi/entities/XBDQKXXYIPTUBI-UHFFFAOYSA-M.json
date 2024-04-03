@@ -1,31 +1,31 @@
 {
     "@context": {
-        "chebi": "http://purl.obolibrary.org/obo/chebi/",
         "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
         "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-        "obo": "http://purl.obolibrary.org/obo/"
+        "obo": "http://purl.obolibrary.org/obo/",
+        "uniprot": "http://purl.uniprot.org/",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "concept": "https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/",
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "dbo": "http://dbpedia.org/ontology/",
+        "dbp": "http://dbpedia.org/property/",
+        "altLabel": {
+            "@id": "http://www.w3.org/2004/02/skos/core#altLabel",
+            "@language": "en"
+        },
+        "graph": {
+            "@id": "@graph"
+        }
     },
-    "@id": "obo:CHEBI_17272",
-    "@type": "http://www.w3.org/2002/07/owl#Class",
-    "obo:IAO_0000115": "The conjugate base of propionic acid; a key precursor in lipid biosynthesis.",
+    "@id": "concept:XBDQKXXYIPTUBI-UHFFFAOYSA-M",
+    "@type": "skos:Concept",
+    "dbo:formula": "C3H5O2",
+    "dbo:inchi": "InChI=1S/C3H6O2/c1-2-3(4)5/h2H2,1H3,(H,4,5)/p-1",
+    "dbo:smiles": "CCC([O-])=O",
+    "dbp:inchikey": "XBDQKXXYIPTUBI-UHFFFAOYSA-M",
     "chebi:charge": "-1",
-    "chebi:formula": "C3H5O2",
-    "chebi:inchi": "InChI=1S/C3H6O2/c1-2-3(4)5/h2H2,1H3,(H,4,5)/p-1",
-    "chebi:inchikey": "XBDQKXXYIPTUBI-UHFFFAOYSA-M",
-    "chebi:smiles": "CCC([O-])=O",
-    "http://purl.uniprot.org/core/name": "propanoate",
-    "geneontology:hasDbXref": [
-        "KEGG:C00163",
-        "Beilstein:3587503",
-        "CAS:72-03-7",
-        "Gmelin:1820",
-        "PMID:17951291",
-        "PMID:18375549",
-        "PMID:2647392",
-        "UM-BBD_compID:c0277"
-    ],
-    "geneontology:hasId": "17272",
-    "geneontology:hasSynonym": [
+    "skos:altLabel": [
         "propanoate",
         "carboxylatoethane",
         "CH3-CH2-COO(-)",
@@ -38,19 +38,11 @@
         "propanoic acid, ion(1-)",
         "pseudoacetate"
     ],
-    "geneontology:inSubset": {
-        "@id": "obo:chebi#3_STAR"
+    "skos:exactMatch": {
+        "@id": "obo:CHEBI_17272"
     },
-    "rdfs:label": "propionate",
-    "rdfs:subClassOf": [
-        {
-            "@id": "b142_genid-00f1db82e1ab437c844115a94dc63e635-bn17272t5f30768"
-        },
-        {
-            "@id": "b142_genid-00f1db82e1ab437c844115a94dc63e635-bn17272t11f77746"
-        },
-        {
-            "@id": "obo:CHEBI_78113"
-        }
-    ]
+    "skos:note": "The conjugate base of propionic acid; a key precursor in lipid biosynthesis.",
+    "skos:semanticRelation": {
+        "@id": "obo:CHEBI_78113"
+    }
 }

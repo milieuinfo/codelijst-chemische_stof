@@ -1,38 +1,31 @@
 {
     "@context": {
-        "chebi": "http://purl.obolibrary.org/obo/chebi/",
         "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
         "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-        "obo": "http://purl.obolibrary.org/obo/"
+        "obo": "http://purl.obolibrary.org/obo/",
+        "uniprot": "http://purl.uniprot.org/",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "concept": "https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/",
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "dbo": "http://dbpedia.org/ontology/",
+        "dbp": "http://dbpedia.org/property/",
+        "altLabel": {
+            "@id": "http://www.w3.org/2004/02/skos/core#altLabel",
+            "@language": "en"
+        },
+        "graph": {
+            "@id": "@graph"
+        }
     },
-    "@id": "obo:CHEBI_196959",
-    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "@id": "concept:TVFDJXOCXUVLDH-RNFDNDRNSA-N",
+    "@type": "skos:Concept",
+    "dbo:formula": "[137Cs]",
+    "dbo:inchi": "InChI=1S/Cs/i1+4",
+    "dbo:smiles": "[137Cs]",
+    "dbp:inchikey": "TVFDJXOCXUVLDH-RNFDNDRNSA-N",
     "chebi:charge": "0",
-    "chebi:formula": "[137Cs]",
-    "chebi:inchi": "InChI=1S/Cs/i1+4",
-    "chebi:inchikey": "TVFDJXOCXUVLDH-RNFDNDRNSA-N",
-    "chebi:smiles": "[137Cs]",
-    "geneontology:hasDbXref": [
-        "CAS:10045-97-3",
-        "PMID:33631506",
-        "PMID:34328919",
-        "PMID:34361764",
-        "PMID:34781091",
-        "PMID:34982197",
-        "PMID:35391488",
-        "PMID:35588038",
-        "PMID:36125661",
-        "PMID:36515781",
-        "PMID:36558066",
-        "PMID:36730280",
-        "PMID:36958665",
-        "PMID:37225184",
-        "PMID:37240856",
-        "PMID:37526358",
-        "Wikipedia:Caesium-137"
-    ],
-    "geneontology:hasId": "196959",
-    "geneontology:hasSynonym": [
+    "skos:altLabel": [
         "((137)Cs)caesium",
         "((137)Cs)cesium",
         "(137)55Cs",
@@ -44,11 +37,10 @@
         "cesium-137 atom",
         "Cs-137"
     ],
-    "geneontology:inSubset": {
-        "@id": "obo:chebi#3_STAR"
+    "skos:exactMatch": {
+        "@id": "obo:CHEBI_196959"
     },
-    "rdfs:label": "caesium-137",
-    "rdfs:subClassOf": {
+    "skos:semanticRelation": {
         "@id": "obo:CHEBI_30514"
     }
 }

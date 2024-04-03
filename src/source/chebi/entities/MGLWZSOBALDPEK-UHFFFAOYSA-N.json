@@ -1,32 +1,31 @@
 {
     "@context": {
-        "chebi": "http://purl.obolibrary.org/obo/chebi/",
         "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
         "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-        "obo": "http://purl.obolibrary.org/obo/"
+        "obo": "http://purl.obolibrary.org/obo/",
+        "uniprot": "http://purl.uniprot.org/",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "concept": "https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/",
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "dbo": "http://dbpedia.org/ontology/",
+        "dbp": "http://dbpedia.org/property/",
+        "altLabel": {
+            "@id": "http://www.w3.org/2004/02/skos/core#altLabel",
+            "@language": "en"
+        },
+        "graph": {
+            "@id": "@graph"
+        }
     },
-    "@id": "obo:CHEBI_34976",
-    "@type": "http://www.w3.org/2002/07/owl#Class",
-    "obo:IAO_0000115": "A diamino-1,3,5-triazine that is N,N'-diethyl-1,3,5-triazine-2,4-diamine substituted by a methylthio group at position 6.",
+    "@id": "concept:MGLWZSOBALDPEK-UHFFFAOYSA-N",
+    "@type": "skos:Concept",
+    "dbo:formula": "C8H15N5S",
+    "dbo:inchi": "InChI=1S/C8H15N5S/c1-4-9-6-11-7(10-5-2)13-8(12-6)14-3/h4-5H2,1-3H3,(H2,9,10,11,12,13)",
+    "dbo:smiles": "CCNc1nc(NCC)nc(SC)n1",
+    "dbp:inchikey": "MGLWZSOBALDPEK-UHFFFAOYSA-N",
     "chebi:charge": "0",
-    "chebi:formula": "C8H15N5S",
-    "chebi:inchi": "InChI=1S/C8H15N5S/c1-4-9-6-11-7(10-5-2)13-8(12-6)14-3/h4-5H2,1-3H3,(H2,9,10,11,12,13)",
-    "chebi:inchikey": "MGLWZSOBALDPEK-UHFFFAOYSA-N",
-    "chebi:smiles": "CCNc1nc(NCC)nc(SC)n1",
-    "geneontology:hasDbXref": [
-        "PMID:20537391",
-        "PMID:23597675",
-        "Beilstein:11728",
-        "CAS:1014-70-6",
-        "KEGG:C14457",
-        "PMID:15091533",
-        "PMID:15969481",
-        "PMID:19277442",
-        "PPDB:1295",
-        "Reaxys:11728"
-    ],
-    "geneontology:hasId": "34976",
-    "geneontology:hasSynonym": [
+    "skos:altLabel": [
         "2,4-bis(ethylamino)-6-(methylthio)-s-triazine",
         "2,4-bis(ethylamino)-6-methylthio-1,3,5-triazine",
         "2,4-Di(ethylamino)-6-methylthio-1,3,5-triazine",
@@ -38,19 +37,16 @@
         "N(2),N(4)-diethyl-6-methylthio-1,3,5-triazine-2,4-diamine",
         "Simetryn"
     ],
-    "geneontology:inSubset": {
-        "@id": "obo:chebi#3_STAR"
+    "skos:exactMatch": {
+        "@id": "obo:CHEBI_34976"
     },
-    "rdfs:label": "simetryn",
-    "rdfs:subClassOf": [
+    "skos:note": "A diamino-1,3,5-triazine that is N,N'-diethyl-1,3,5-triazine-2,4-diamine substituted by a methylthio group at position 6.",
+    "skos:semanticRelation": [
         {
             "@id": "obo:CHEBI_38170"
         },
         {
             "@id": "obo:CHEBI_38174"
-        },
-        {
-            "@id": "b659_genid-00f1db82e1ab437c844115a94dc63e635-bn34976t11f24527"
         }
     ]
 }

@@ -1,25 +1,31 @@
 {
     "@context": {
-        "chebi": "http://purl.obolibrary.org/obo/chebi/",
         "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
         "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-        "obo": "http://purl.obolibrary.org/obo/"
+        "obo": "http://purl.obolibrary.org/obo/",
+        "uniprot": "http://purl.uniprot.org/",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "concept": "https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/",
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "dbo": "http://dbpedia.org/ontology/",
+        "dbp": "http://dbpedia.org/property/",
+        "altLabel": {
+            "@id": "http://www.w3.org/2004/02/skos/core#altLabel",
+            "@language": "en"
+        },
+        "graph": {
+            "@id": "@graph"
+        }
     },
-    "@id": "obo:CHEBI_86249",
-    "@type": "http://www.w3.org/2002/07/owl#Class",
-    "obo:IAO_0000115": "A hydrate that is the tetrahydrate form of iron dichloride.",
+    "@id": "concept:WSSMOXHYUFMBLS-UHFFFAOYSA-L",
+    "@type": "skos:Concept",
+    "dbo:formula": "Cl2FeH8O4",
+    "dbo:inchi": "InChI=1S/2ClH.Fe.4H2O/h2*1H;;4*1H2/q;;+2;;;;/p-2",
+    "dbo:smiles": "O.O.O.O.Cl[Fe]Cl",
+    "dbp:inchikey": "WSSMOXHYUFMBLS-UHFFFAOYSA-L",
     "chebi:charge": "0",
-    "chebi:formula": "Cl2FeH8O4",
-    "chebi:inchi": "InChI=1S/2ClH.Fe.4H2O/h2*1H;;4*1H2/q;;+2;;;;/p-2",
-    "chebi:inchikey": "WSSMOXHYUFMBLS-UHFFFAOYSA-L",
-    "chebi:smiles": "O.O.O.O.Cl[Fe]Cl",
-    "geneontology:hasDbXref": [
-        "Wikipedia:Iron(II)_chloride",
-        "CAS:13478-10-9",
-        "Reaxys:15675997"
-    ],
-    "geneontology:hasId": "86249",
-    "geneontology:hasSynonym": [
+    "skos:altLabel": [
         "dichloroiron--water (1/4)",
         "FeCl2.4H2O",
         "Ferrous chloride, tetrahydrate",
@@ -27,11 +33,11 @@
         "Iron (II) chloride, tetrahydrate",
         "Iron chloride tetrahydrate"
     ],
-    "geneontology:inSubset": {
-        "@id": "obo:chebi#3_STAR"
+    "skos:exactMatch": {
+        "@id": "obo:CHEBI_86249"
     },
-    "rdfs:label": "iron dichloride tetrahydrate",
-    "rdfs:subClassOf": [
+    "skos:note": "A hydrate that is the tetrahydrate form of iron dichloride.",
+    "skos:semanticRelation": [
         {
             "@id": "obo:CHEBI_35505"
         },
@@ -40,9 +46,6 @@
         },
         {
             "@id": "obo:CHEBI_33892"
-        },
-        {
-            "@id": "b93_genid-00f1db82e1ab437c844115a94dc63e635-bn86249t10f30812"
         }
     ]
 }

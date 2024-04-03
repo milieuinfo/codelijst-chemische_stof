@@ -1,28 +1,31 @@
 {
     "@context": {
-        "chebi": "http://purl.obolibrary.org/obo/chebi/",
         "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
         "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-        "obo": "http://purl.obolibrary.org/obo/"
+        "obo": "http://purl.obolibrary.org/obo/",
+        "uniprot": "http://purl.uniprot.org/",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "concept": "https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/",
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "dbo": "http://dbpedia.org/ontology/",
+        "dbp": "http://dbpedia.org/property/",
+        "graph": {
+            "@id": "@graph"
+        }
     },
-    "@id": "obo:CHEBI_82446",
-    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "@id": "concept:FQDIANVAWVHZIR-OWOJBTEDSA-N",
+    "@type": "skos:Concept",
+    "dbo:formula": "C4H6Cl2",
+    "dbo:inchi": "InChI=1S/C4H6Cl2/c5-3-1-2-4-6/h1-2H,3-4H2/b2-1+",
+    "dbo:smiles": "ClC\\C=C\\CCl",
+    "dbp:inchikey": "FQDIANVAWVHZIR-OWOJBTEDSA-N",
     "chebi:charge": "0",
-    "chebi:formula": "C4H6Cl2",
-    "chebi:inchi": "InChI=1S/C4H6Cl2/c5-3-1-2-4-6/h1-2H,3-4H2/b2-1+",
-    "chebi:inchikey": "FQDIANVAWVHZIR-OWOJBTEDSA-N",
-    "chebi:smiles": "ClC\\C=C\\CCl",
-    "geneontology:hasDbXref": [
-        "CAS:110-57-6",
-        "KEGG:C19398"
-    ],
-    "geneontology:hasId": "82446",
-    "geneontology:hasSynonym": "trans-1,4-Dichloro-2-butene",
-    "geneontology:inSubset": {
-        "@id": "obo:chebi#2_STAR"
+    "skos:altLabel": "trans-1,4-Dichloro-2-butene",
+    "skos:exactMatch": {
+        "@id": "obo:CHEBI_82446"
     },
-    "rdfs:label": "trans-1,4-Dichlorobutene",
-    "rdfs:subClassOf": {
+    "skos:semanticRelation": {
         "@id": "obo:CHEBI_36683"
     }
 }

@@ -1,35 +1,31 @@
 {
     "@context": {
-        "chebi": "http://purl.obolibrary.org/obo/chebi/",
         "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
         "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-        "obo": "http://purl.obolibrary.org/obo/"
+        "obo": "http://purl.obolibrary.org/obo/",
+        "uniprot": "http://purl.uniprot.org/",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "concept": "https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/",
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "dbo": "http://dbpedia.org/ontology/",
+        "dbp": "http://dbpedia.org/property/",
+        "altLabel": {
+            "@id": "http://www.w3.org/2004/02/skos/core#altLabel",
+            "@language": "en"
+        },
+        "graph": {
+            "@id": "@graph"
+        }
     },
-    "@id": "obo:CHEBI_27090",
-    "@type": "http://www.w3.org/2002/07/owl#Class",
-    "obo:IAO_0000115": "A member of the class of 1,4-benzoquinones that is 1,4-benzoquinone in which three of the ring hydrogens are replaced by aziridin-1-yl groups.",
+    "@id": "concept:PXSOHRWMIRDKMP-UHFFFAOYSA-N",
+    "@type": "skos:Concept",
+    "dbo:formula": "C12H13N3O2",
+    "dbo:inchi": "InChI=1S/C12H13N3O2/c16-9-7-8(13-1-2-13)12(17)11(15-5-6-15)10(9)14-3-4-14/h7H,1-6H2",
+    "dbo:smiles": "O=C1C=C(N2CC2)C(=O)C(N2CC2)=C1N1CC1",
+    "dbp:inchikey": "PXSOHRWMIRDKMP-UHFFFAOYSA-N",
     "chebi:charge": "0",
-    "chebi:formula": "C12H13N3O2",
-    "chebi:inchi": "InChI=1S/C12H13N3O2/c16-9-7-8(13-1-2-13)12(17)11(15-5-6-15)10(9)14-3-4-14/h7H,1-6H2",
-    "chebi:inchikey": "PXSOHRWMIRDKMP-UHFFFAOYSA-N",
-    "chebi:smiles": "O=C1C=C(N2CC2)C(=O)C(N2CC2)=C1N1CC1",
-    "geneontology:hasDbXref": [
-        "CAS:68-76-8",
-        "Drug_Central:4372",
-        "KEGG:C19542",
-        "KEGG:D07254",
-        "PMID:146335",
-        "PMID:20371239",
-        "PMID:362189",
-        "PMID:3672382",
-        "PMID:582920",
-        "PMID:624547",
-        "PMID:74416",
-        "Reaxys:238057",
-        "Wikipedia:Triaziquone"
-    ],
-    "geneontology:hasId": "27090",
-    "geneontology:hasSynonym": [
+    "skos:altLabel": [
         "1,1',1''-(3,6-Dioxo-1,4-cyclohexadiene-1,2,4-triyl)trisaziridine",
         "2,3,5-Ethylenimine-1,4-benzoquinone",
         "2,3,5-Tri(1-aziridinyl)-p-benzoquinone",
@@ -54,22 +50,16 @@
         "Tris(aziridinyl)-p-benzoquinone",
         "Tris(ethyleneimino)benzoquinone"
     ],
-    "geneontology:inSubset": {
-        "@id": "obo:chebi#3_STAR"
+    "skos:exactMatch": {
+        "@id": "obo:CHEBI_27090"
     },
-    "rdfs:label": "triaziquone",
-    "rdfs:subClassOf": [
+    "skos:note": "A member of the class of 1,4-benzoquinones that is 1,4-benzoquinone in which three of the ring hydrogens are replaced by aziridin-1-yl groups.",
+    "skos:semanticRelation": [
         {
             "@id": "obo:CHEBI_132124"
         },
         {
             "@id": "obo:CHEBI_22681"
-        },
-        {
-            "@id": "b230_genid-00f1db82e1ab437c844115a94dc63e635-bn27090t11f22333"
-        },
-        {
-            "@id": "b230_genid-00f1db82e1ab437c844115a94dc63e635-bn27090t11f35610"
         }
     ]
 }

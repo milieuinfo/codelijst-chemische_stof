@@ -1,55 +1,44 @@
 {
     "@context": {
-        "chebi": "http://purl.obolibrary.org/obo/chebi/",
         "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
         "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-        "obo": "http://purl.obolibrary.org/obo/"
+        "obo": "http://purl.obolibrary.org/obo/",
+        "uniprot": "http://purl.uniprot.org/",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "concept": "https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/",
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "dbo": "http://dbpedia.org/ontology/",
+        "dbp": "http://dbpedia.org/property/",
+        "altLabel": {
+            "@id": "http://www.w3.org/2004/02/skos/core#altLabel",
+            "@language": "en"
+        },
+        "graph": {
+            "@id": "@graph"
+        }
     },
-    "@id": "obo:CHEBI_28812",
-    "@type": "http://www.w3.org/2002/07/owl#Class",
-    "obo:IAO_0000115": "A member of the class of phosphonic acids that is phosphonic acid substituted by an aminomethyl group. It is a metabolite of the herbicide glyphosate.",
+    "@id": "concept:MGRVRXRGTBOSHW-UHFFFAOYSA-N",
+    "@type": "skos:Concept",
+    "dbo:formula": "CH6NO3P",
+    "dbo:inchi": "InChI=1S/CH6NO3P/c2-1-6(3,4)5/h1-2H2,(H2,3,4,5)",
+    "dbo:smiles": "NCP(O)(O)=O",
+    "dbp:inchikey": "MGRVRXRGTBOSHW-UHFFFAOYSA-N",
     "chebi:charge": "0",
-    "chebi:formula": "CH6NO3P",
-    "chebi:inchi": "InChI=1S/CH6NO3P/c2-1-6(3,4)5/h1-2H2,(H2,3,4,5)",
-    "chebi:inchikey": "MGRVRXRGTBOSHW-UHFFFAOYSA-N",
-    "chebi:smiles": "NCP(O)(O)=O",
-    "geneontology:hasDbXref": [
-        "Beilstein:1701219",
-        "CAS:1066-51-9",
-        "DrugBank:DB02057",
-        "Gmelin:793599",
-        "KEGG:C11033",
-        "MetaCyc:CPD0-1074",
-        "PMID:15291487",
-        "PMID:15950343",
-        "Reaxys:1701219",
-        "UM-BBD_compID:c0136",
-        "Wikipedia:Aminomethylphosphonic_acid"
-    ],
-    "geneontology:hasId": "28812",
-    "geneontology:hasSynonym": [
+    "skos:altLabel": [
         "1-Aminomethylphosphonic acid",
         "AMPA"
     ],
-    "geneontology:inSubset": {
-        "@id": "obo:chebi#3_STAR"
+    "skos:exactMatch": {
+        "@id": "obo:CHEBI_28812"
     },
-    "rdfs:label": "(aminomethyl)phosphonic acid",
-    "rdfs:subClassOf": [
+    "skos:note": "A member of the class of phosphonic acids that is phosphonic acid substituted by an aminomethyl group. It is a metabolite of the herbicide glyphosate.",
+    "skos:semanticRelation": [
         {
             "@id": "obo:CHEBI_26069"
         },
         {
             "@id": "obo:CHEBI_64708"
-        },
-        {
-            "@id": "b662_genid-00f1db82e1ab437c844115a94dc63e635-bn28812tmms73f133674"
-        },
-        {
-            "@id": "b662_genid-00f1db82e1ab437c844115a94dc63e635-bn28812t8f44976"
-        },
-        {
-            "@id": "b662_genid-00f1db82e1ab437c844115a94dc63e635-bn28812t4f133674"
         }
     ]
 }

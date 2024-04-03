@@ -1,33 +1,31 @@
 {
     "@context": {
-        "chebi": "http://purl.obolibrary.org/obo/chebi/",
         "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
         "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-        "obo": "http://purl.obolibrary.org/obo/"
+        "obo": "http://purl.obolibrary.org/obo/",
+        "uniprot": "http://purl.uniprot.org/",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "concept": "https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/",
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "dbo": "http://dbpedia.org/ontology/",
+        "dbp": "http://dbpedia.org/property/",
+        "altLabel": {
+            "@id": "http://www.w3.org/2004/02/skos/core#altLabel",
+            "@language": "en"
+        },
+        "graph": {
+            "@id": "@graph"
+        }
     },
-    "@id": "obo:CHEBI_82200",
-    "@type": "http://www.w3.org/2002/07/owl#Class",
-    "obo:IAO_0000115": "A member of the class of phenylureas that is N,N-dimethylurea in which a hydrogen of the amino group is replaced by a 4-(4-chlorophenoxy)phenyl group. It is a phenylurea herbicide used for the control of annual grasses, mosses and broad-leaved weeds. Common crop plants for which the herbicicide is useful are soy beans, onions, strawberries, and celery.",
+    "@id": "concept:IVUXTESCPZUGJC-UHFFFAOYSA-N",
+    "@type": "skos:Concept",
+    "dbo:formula": "C15H15ClN2O2",
+    "dbo:inchi": "InChI=1S/C15H15ClN2O2/c1-18(2)15(19)17-12-5-9-14(10-6-12)20-13-7-3-11(16)4-8-13/h3-10H,1-2H3,(H,17,19)",
+    "dbo:smiles": "CN(C)C(=O)NC1=CC=C(OC2=CC=C(Cl)C=C2)C=C1",
+    "dbp:inchikey": "IVUXTESCPZUGJC-UHFFFAOYSA-N",
     "chebi:charge": "0",
-    "chebi:formula": "C15H15ClN2O2",
-    "chebi:inchi": "InChI=1S/C15H15ClN2O2/c1-18(2)15(19)17-12-5-9-14(10-6-12)20-13-7-3-11(16)4-8-13/h3-10H,1-2H3,(H,17,19)",
-    "chebi:inchikey": "IVUXTESCPZUGJC-UHFFFAOYSA-N",
-    "chebi:smiles": "CN(C)C(=O)NC1=CC=C(OC2=CC=C(Cl)C=C2)C=C1",
-    "geneontology:hasDbXref": [
-        "AGR:IND43875696",
-        "CAS:1982-47-4",
-        "KEGG:C19075",
-        "Pesticides:chloroxuron",
-        "PMID:16628565",
-        "PMID:4074937",
-        "PMID:5736463",
-        "PMID:7518",
-        "PPDB:152",
-        "Reaxys:2814275",
-        "Wikipedia:Chloroxuron"
-    ],
-    "geneontology:hasId": "82200",
-    "geneontology:hasSynonym": [
+    "skos:altLabel": [
         "3-[4-(4-chlorophenoxy)phenyl]-1,1-dimethylurea",
         "3-[p-(p-chlorophenoxy)phenyl]-1,1-dimethylurea",
         "C 1983",
@@ -39,11 +37,11 @@
         "Norex",
         "Tenoran"
     ],
-    "geneontology:inSubset": {
-        "@id": "obo:chebi#3_STAR"
+    "skos:exactMatch": {
+        "@id": "obo:CHEBI_82200"
     },
-    "rdfs:label": "chloroxuron",
-    "rdfs:subClassOf": [
+    "skos:note": "A member of the class of phenylureas that is N,N-dimethylurea in which a hydrogen of the amino group is replaced by a 4-(4-chlorophenoxy)phenyl group. It is a phenylurea herbicide used for the control of annual grasses, mosses and broad-leaved weeds. Common crop plants for which the herbicicide is useful are soy beans, onions, strawberries, and celery.",
+    "skos:semanticRelation": [
         {
             "@id": "obo:CHEBI_35618"
         },
@@ -52,9 +50,6 @@
         },
         {
             "@id": "obo:CHEBI_134043"
-        },
-        {
-            "@id": "b182_genid-00f1db82e1ab437c844115a94dc63e635-bn82200t11f24527"
         }
     ]
 }

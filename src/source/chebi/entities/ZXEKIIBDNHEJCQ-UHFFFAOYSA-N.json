@@ -1,33 +1,31 @@
 {
     "@context": {
-        "chebi": "http://purl.obolibrary.org/obo/chebi/",
         "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
         "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-        "obo": "http://purl.obolibrary.org/obo/"
+        "obo": "http://purl.obolibrary.org/obo/",
+        "uniprot": "http://purl.uniprot.org/",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "concept": "https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/",
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "dbo": "http://dbpedia.org/ontology/",
+        "dbp": "http://dbpedia.org/property/",
+        "altLabel": {
+            "@id": "http://www.w3.org/2004/02/skos/core#altLabel",
+            "@language": "en"
+        },
+        "graph": {
+            "@id": "@graph"
+        }
     },
-    "@id": "obo:CHEBI_46645",
-    "@type": "http://www.w3.org/2002/07/owl#Class",
-    "obo:IAO_0000115": "An alkyl alcohol that is propan-1-ol substituted by a methyl group at position 2.",
+    "@id": "concept:ZXEKIIBDNHEJCQ-UHFFFAOYSA-N",
+    "@type": "skos:Concept",
+    "dbo:formula": "C4H10O",
+    "dbo:inchi": "InChI=1S/C4H10O/c1-4(2)3-5/h4-5H,3H2,1-2H3",
+    "dbo:smiles": "CC(C)CO",
+    "dbp:inchikey": "ZXEKIIBDNHEJCQ-UHFFFAOYSA-N",
     "chebi:charge": "0",
-    "chebi:formula": "C4H10O",
-    "chebi:inchi": "InChI=1S/C4H10O/c1-4(2)3-5/h4-5H,3H2,1-2H3",
-    "chebi:inchikey": "ZXEKIIBDNHEJCQ-UHFFFAOYSA-N",
-    "chebi:smiles": "CC(C)CO",
-    "http://purl.uniprot.org/core/name": "isobutanol",
-    "geneontology:hasDbXref": [
-        "Beilstein:1730878",
-        "CAS:78-83-1",
-        "Gmelin:49282",
-        "HMDB:HMDB0006006",
-        "KEGG:C14710",
-        "PMID:24305546",
-        "PMID:24430208",
-        "Reaxys:1730878",
-        "Wikipedia:Isobutanol",
-        "YMDB:YMDB00573"
-    ],
-    "geneontology:hasId": "46645",
-    "geneontology:hasSynonym": [
+    "skos:altLabel": [
         "IBA",
         "1-hydroxymethylpropane",
         "1-Hydroxymethylpropane",
@@ -43,22 +41,16 @@
         "iso-C4H9OH",
         "isopropylcarbinol"
     ],
-    "geneontology:inSubset": {
-        "@id": "obo:chebi#3_STAR"
+    "skos:exactMatch": {
+        "@id": "obo:CHEBI_46645"
     },
-    "rdfs:label": "isobutanol",
-    "rdfs:subClassOf": [
+    "skos:note": "An alkyl alcohol that is propan-1-ol substituted by a methyl group at position 2.",
+    "skos:semanticRelation": [
         {
             "@id": "obo:CHEBI_15734"
         },
         {
             "@id": "obo:CHEBI_50584"
-        },
-        {
-            "@id": "b577_genid-00f1db82e1ab437c844115a94dc63e635-bn46645t9f30363"
-        },
-        {
-            "@id": "b577_genid-00f1db82e1ab437c844115a94dc63e635-bn46645t11f75772"
         }
     ]
 }

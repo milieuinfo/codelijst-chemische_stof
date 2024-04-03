@@ -1,26 +1,31 @@
 {
     "@context": {
-        "chebi": "http://purl.obolibrary.org/obo/chebi/",
         "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
         "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-        "obo": "http://purl.obolibrary.org/obo/"
+        "obo": "http://purl.obolibrary.org/obo/",
+        "uniprot": "http://purl.uniprot.org/",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "concept": "https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/",
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "dbo": "http://dbpedia.org/ontology/",
+        "dbp": "http://dbpedia.org/property/",
+        "altLabel": {
+            "@id": "http://www.w3.org/2004/02/skos/core#altLabel",
+            "@language": "en"
+        },
+        "graph": {
+            "@id": "@graph"
+        }
     },
-    "@id": "obo:CHEBI_88542",
-    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "@id": "concept:QFOHBWFCKVYLES-UHFFFAOYSA-N",
+    "@type": "skos:Concept",
+    "dbo:formula": "C11H14O3",
+    "dbo:inchi": "InChI=1S/C11H14O3/c1-2-3-8-14-11(13)9-4-6-10(12)7-5-9/h4-7,12H,2-3,8H2,1H3",
+    "dbo:smiles": "CCCCOC(C1=CC=C(C=C1)O)=O",
+    "dbp:inchikey": "QFOHBWFCKVYLES-UHFFFAOYSA-N",
     "chebi:charge": "0",
-    "chebi:formula": "C11H14O3",
-    "chebi:inchi": "InChI=1S/C11H14O3/c1-2-3-8-14-11(13)9-4-6-10(12)7-5-9/h4-7,12H,2-3,8H2,1H3",
-    "chebi:inchikey": "QFOHBWFCKVYLES-UHFFFAOYSA-N",
-    "chebi:smiles": "CCCCOC(C1=CC=C(C=C1)O)=O",
-    "geneontology:hasDbXref": [
-        "CAS:94-26-8",
-        "HMDB:HMDB0032575",
-        "KEGG:D01420",
-        "LINCS:LSM-2161",
-        "PMID:18294789"
-    ],
-    "geneontology:hasId": "88542",
-    "geneontology:hasSynonym": [
+    "skos:altLabel": [
         "4-(Butoxycarbonyl)phenol",
         "4-Hydroxybenzoic acid, butyl ester",
         "4-Hydroxybenzoic acid butyl ester",
@@ -69,11 +74,10 @@
         "Tegosept B",
         "Tegosept butyl"
     ],
-    "geneontology:inSubset": {
-        "@id": "obo:chebi#2_STAR"
+    "skos:exactMatch": {
+        "@id": "obo:CHEBI_88542"
     },
-    "rdfs:label": "Butylparaben",
-    "rdfs:subClassOf": {
+    "skos:semanticRelation": {
         "@id": "obo:CHEBI_50860"
     }
 }

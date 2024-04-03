@@ -1,33 +1,39 @@
 {
     "@context": {
-        "chebi": "http://purl.obolibrary.org/obo/chebi/",
         "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
         "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-        "obo": "http://purl.obolibrary.org/obo/"
+        "obo": "http://purl.obolibrary.org/obo/",
+        "uniprot": "http://purl.uniprot.org/",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "concept": "https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/",
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "dbo": "http://dbpedia.org/ontology/",
+        "dbp": "http://dbpedia.org/property/",
+        "altLabel": {
+            "@id": "http://www.w3.org/2004/02/skos/core#altLabel",
+            "@language": "en"
+        },
+        "graph": {
+            "@id": "@graph"
+        }
     },
-    "@id": "obo:CHEBI_40810",
-    "@type": "http://www.w3.org/2002/07/owl#Class",
-    "obo:IAO_0000115": "A dinitrophenol having the nitro groups at the 2- and 5-positions.",
+    "@id": "concept:UWEZBKLLMKVIPI-UHFFFAOYSA-N",
+    "@type": "skos:Concept",
+    "dbo:formula": "C6H4N2O5",
+    "dbo:inchi": "InChI=1S/C6H4N2O5/c9-6-3-4(7(10)11)1-2-5(6)8(12)13/h1-3,9H",
+    "dbo:smiles": "Oc1cc(ccc1[N+]([O-])=O)[N+]([O-])=O",
+    "dbp:inchikey": "UWEZBKLLMKVIPI-UHFFFAOYSA-N",
     "chebi:charge": "0",
-    "chebi:formula": "C6H4N2O5",
-    "chebi:inchi": "InChI=1S/C6H4N2O5/c9-6-3-4(7(10)11)1-2-5(6)8(12)13/h1-3,9H",
-    "chebi:inchikey": "UWEZBKLLMKVIPI-UHFFFAOYSA-N",
-    "chebi:smiles": "Oc1cc(ccc1[N+]([O-])=O)[N+]([O-])=O",
-    "geneontology:hasDbXref": [
-        "Beilstein:1913411",
-        "CAS:329-71-5",
-        "Gmelin:102981"
-    ],
-    "geneontology:hasId": "40810",
-    "geneontology:hasSynonym": [
+    "skos:altLabel": [
         "2,5-DNP",
         "gamma-dinitrophenol"
     ],
-    "geneontology:inSubset": {
-        "@id": "obo:chebi#3_STAR"
+    "skos:exactMatch": {
+        "@id": "obo:CHEBI_40810"
     },
-    "rdfs:label": "2,5-dinitrophenol",
-    "rdfs:subClassOf": {
+    "skos:note": "A dinitrophenol having the nitro groups at the 2- and 5-positions.",
+    "skos:semanticRelation": {
         "@id": "obo:CHEBI_39352"
     }
 }

@@ -1,27 +1,31 @@
 {
     "@context": {
-        "chebi": "http://purl.obolibrary.org/obo/chebi/",
         "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
         "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-        "obo": "http://purl.obolibrary.org/obo/"
+        "obo": "http://purl.obolibrary.org/obo/",
+        "uniprot": "http://purl.uniprot.org/",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "concept": "https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/",
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "dbo": "http://dbpedia.org/ontology/",
+        "dbp": "http://dbpedia.org/property/",
+        "altLabel": {
+            "@id": "http://www.w3.org/2004/02/skos/core#altLabel",
+            "@language": "en"
+        },
+        "graph": {
+            "@id": "@graph"
+        }
     },
-    "@id": "obo:CHEBI_15571",
-    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "@id": "concept:OAKJQQAXSVQMHS-UHFFFAOYSA-N",
+    "@type": "skos:Concept",
+    "dbo:formula": "H4N2",
+    "dbo:inchi": "InChI=1S/H4N2/c1-2/h1-2H2",
+    "dbo:smiles": "NN",
+    "dbp:inchikey": "OAKJQQAXSVQMHS-UHFFFAOYSA-N",
     "chebi:charge": "0",
-    "chebi:formula": "H4N2",
-    "chebi:inchi": "InChI=1S/H4N2/c1-2/h1-2H2",
-    "chebi:inchikey": "OAKJQQAXSVQMHS-UHFFFAOYSA-N",
-    "chebi:smiles": "NN",
-    "http://purl.uniprot.org/core/name": "hydrazine",
-    "geneontology:hasDbXref": [
-        "Beilstein:878137",
-        "CAS:302-01-2",
-        "Gmelin:190",
-        "KEGG:C05361",
-        "UM-BBD_compID:c0651"
-    ],
-    "geneontology:hasId": "15571",
-    "geneontology:hasSynonym": [
+    "skos:altLabel": [
         "diamine",
         "diazane",
         "H2NNH2",
@@ -30,25 +34,15 @@
         "N2H4",
         "nitrogen hydride"
     ],
-    "geneontology:inSubset": {
-        "@id": "obo:chebi#3_STAR"
+    "skos:exactMatch": {
+        "@id": "obo:CHEBI_15571"
     },
-    "rdfs:label": "hydrazine",
-    "rdfs:subClassOf": [
+    "skos:semanticRelation": [
         {
             "@id": "obo:CHEBI_24631"
         },
         {
             "@id": "obo:CHEBI_35107"
-        },
-        {
-            "@id": "b888_genid-00f1db82e1ab437c844115a94dc63e635-bn15571t4f30095"
-        },
-        {
-            "@id": "b888_genid-00f1db82e1ab437c844115a94dc63e635-bn15571t5f35324"
-        },
-        {
-            "@id": "b888_genid-00f1db82e1ab437c844115a94dc63e635-bn15571t11f77090"
         }
     ]
 }

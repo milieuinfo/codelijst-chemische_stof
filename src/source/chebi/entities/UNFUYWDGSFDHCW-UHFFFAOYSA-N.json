@@ -1,40 +1,41 @@
 {
     "@context": {
-        "chebi": "http://purl.obolibrary.org/obo/chebi/",
         "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
         "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-        "obo": "http://purl.obolibrary.org/obo/"
+        "obo": "http://purl.obolibrary.org/obo/",
+        "uniprot": "http://purl.uniprot.org/",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "concept": "https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/",
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "dbo": "http://dbpedia.org/ontology/",
+        "dbp": "http://dbpedia.org/property/",
+        "altLabel": {
+            "@id": "http://www.w3.org/2004/02/skos/core#altLabel",
+            "@language": "en"
+        },
+        "graph": {
+            "@id": "@graph"
+        }
     },
-    "@id": "obo:CHEBI_39156",
-    "@type": "http://www.w3.org/2002/07/owl#Class",
-    "obo:IAO_0000115": "A chlorocyclohexane carrying a single chloro group.",
+    "@id": "concept:UNFUYWDGSFDHCW-UHFFFAOYSA-N",
+    "@type": "skos:Concept",
+    "dbo:formula": "C6H11Cl",
+    "dbo:inchi": "InChI=1S/C6H11Cl/c7-6-4-2-1-3-5-6/h6H,1-5H2",
+    "dbo:smiles": "ClC1CCCCC1",
+    "dbp:inchikey": "UNFUYWDGSFDHCW-UHFFFAOYSA-N",
     "chebi:charge": "0",
-    "chebi:formula": "C6H11Cl",
-    "chebi:inchi": "InChI=1S/C6H11Cl/c7-6-4-2-1-3-5-6/h6H,1-5H2",
-    "chebi:inchikey": "UNFUYWDGSFDHCW-UHFFFAOYSA-N",
-    "chebi:smiles": "ClC1CCCCC1",
-    "geneontology:hasDbXref": [
-        "Beilstein:1900796",
-        "CAS:542-18-7",
-        "Gmelin:49925",
-        "Patent:CN1660730",
-        "Patent:JP2008239610",
-        "PMID:17037866",
-        "PMID:20698523",
-        "Reaxys:1900796"
-    ],
-    "geneontology:hasId": "39156",
-    "geneontology:hasSynonym": [
+    "skos:altLabel": [
         "chlorocyclohexane",
         "Chlorcyclohexan",
         "Chlorzyklohexan",
         "cyclohexyl chloride"
     ],
-    "geneontology:inSubset": {
-        "@id": "obo:chebi#3_STAR"
+    "skos:exactMatch": {
+        "@id": "obo:CHEBI_39156"
     },
-    "rdfs:label": "monochlorocyclohexane",
-    "rdfs:subClassOf": {
+    "skos:note": "A chlorocyclohexane carrying a single chloro group.",
+    "skos:semanticRelation": {
         "@id": "obo:CHEBI_39154"
     }
 }

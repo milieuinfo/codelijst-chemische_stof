@@ -1,41 +1,27 @@
 {
     "@context": {
-        "chebi": "http://purl.obolibrary.org/obo/chebi/",
         "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
         "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-        "obo": "http://purl.obolibrary.org/obo/"
+        "obo": "http://purl.obolibrary.org/obo/",
+        "uniprot": "http://purl.uniprot.org/",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "concept": "https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/",
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "dbo": "http://dbpedia.org/ontology/",
+        "dbp": "http://dbpedia.org/property/",
+        "graph": {
+            "@id": "@graph"
+        }
     },
-    "@id": "obo:CHEBI_89816",
-    "@type": "http://www.w3.org/2002/07/owl#Class",
-    "obo:IAO_0000115": "A long-chain fatty aldehyde that is tridecane in which two hydrogens attached to a terminal carbon are replaced by an oxo group.",
+    "@id": "concept:BGEHHAVMRVXCGR-UHFFFAOYSA-N",
+    "@type": "skos:Concept",
+    "dbo:formula": "C13H26O",
+    "dbo:inchi": "InChI=1S/C13H26O/c1-2-3-4-5-6-7-8-9-10-11-12-13-14/h13H,2-12H2,1H3",
+    "dbo:smiles": "[H]C(=O)CCCCCCCCCCCC",
+    "dbp:inchikey": "BGEHHAVMRVXCGR-UHFFFAOYSA-N",
     "chebi:charge": "0",
-    "chebi:formula": "C13H26O",
-    "chebi:inchi": "InChI=1S/C13H26O/c1-2-3-4-5-6-7-8-9-10-11-12-13-14/h13H,2-12H2,1H3",
-    "chebi:inchikey": "BGEHHAVMRVXCGR-UHFFFAOYSA-N",
-    "chebi:smiles": "[H]C(=O)CCCCCCCCCCCC",
-    "http://purl.uniprot.org/core/name": "tridecanal",
-    "geneontology:hasDbXref": [
-        "PMID:24421258",
-        "PMID:19660770",
-        "CAS:10486-19-8",
-        "Chemspider:23643",
-        "FooDB:FDB002897",
-        "HMDB:HMDB0030928",
-        "KNApSAcK:C00048560",
-        "LIPID_MAPS_instance:LMFA06000074",
-        "PMID:20856967",
-        "PMID:22970932",
-        "PMID:28682068",
-        "PMID:29417841",
-        "PMID:29559321",
-        "PMID:30445858",
-        "PMID:33449989",
-        "PMID:33922234",
-        "PMID:34170144",
-        "Reaxys:1760949"
-    ],
-    "geneontology:hasId": "89816",
-    "geneontology:hasSynonym": [
+    "skos:altLabel": [
         "1-tridecanal",
         "aldehyde 13-13",
         "n-tridecanal",
@@ -44,11 +30,11 @@
         "tridecane aldehyde",
         "tridecyl aldehyde"
     ],
-    "geneontology:inSubset": {
-        "@id": "obo:chebi#3_STAR"
+    "skos:exactMatch": {
+        "@id": "obo:CHEBI_89816"
     },
-    "rdfs:label": "tridecanal",
-    "rdfs:subClassOf": [
+    "skos:note": "A long-chain fatty aldehyde that is tridecane in which two hydrogens attached to a terminal carbon are replaced by an oxo group.",
+    "skos:semanticRelation": [
         {
             "@id": "obo:CHEBI_17176"
         },
@@ -57,15 +43,6 @@
         },
         {
             "@id": "obo:CHEBI_133249"
-        },
-        {
-            "@id": "b166_genid-00f1db82e1ab437c844115a94dc63e635-bn89816t11f27311"
-        },
-        {
-            "@id": "b166_genid-00f1db82e1ab437c844115a94dc63e635-bn89816t9f35998"
-        },
-        {
-            "@id": "b166_genid-00f1db82e1ab437c844115a94dc63e635-bn89816t11f77746"
         }
     ]
 }

@@ -1,43 +1,37 @@
 {
     "@context": {
-        "chebi": "http://purl.obolibrary.org/obo/chebi/",
         "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
         "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-        "obo": "http://purl.obolibrary.org/obo/"
+        "obo": "http://purl.obolibrary.org/obo/",
+        "uniprot": "http://purl.uniprot.org/",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "concept": "https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/",
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "dbo": "http://dbpedia.org/ontology/",
+        "dbp": "http://dbpedia.org/property/",
+        "graph": {
+            "@id": "@graph"
+        }
     },
-    "@id": "obo:CHEBI_84254",
-    "@type": "http://www.w3.org/2002/07/owl#Class",
-    "obo:IAO_0000115": "A member of the class of  acetamides that is  acetamide in which the hydrogens attached to the N atom have been replaced by two methyl groups respectively. Metabolite observed in cancer metabolism.",
+    "@id": "concept:FXHOOIRPVKKKFG-UHFFFAOYSA-N",
+    "@type": "skos:Concept",
+    "dbo:formula": "C4H9NO",
+    "dbo:inchi": "InChI=1S/C4H9NO/c1-4(6)5(2)3/h1-3H3",
+    "dbo:smiles": "CN(C)C(C)=O",
+    "dbp:inchikey": "FXHOOIRPVKKKFG-UHFFFAOYSA-N",
     "chebi:charge": "0",
-    "chebi:formula": "C4H9NO",
-    "chebi:inchi": "InChI=1S/C4H9NO/c1-4(6)5(2)3/h1-3H3",
-    "chebi:inchikey": "FXHOOIRPVKKKFG-UHFFFAOYSA-N",
-    "chebi:smiles": "CN(C)C(C)=O",
-    "geneontology:hasDbXref": [
-        "PMID:25518943",
-        "CAS:127-19-5",
-        "KEGG:C20339",
-        "Reaxys:1737614",
-        "Wikipedia:Dimethylacetamide"
-    ],
-    "geneontology:hasId": "84254",
-    "geneontology:hasSynonym": "dimethylacetamide",
-    "geneontology:inSubset": {
-        "@id": "obo:chebi#3_STAR"
+    "skos:altLabel": "dimethylacetamide",
+    "skos:exactMatch": {
+        "@id": "obo:CHEBI_84254"
     },
-    "rdfs:label": "N,N-dimethylacetamide",
-    "rdfs:subClassOf": [
+    "skos:note": "A member of the class of  acetamides that is  acetamide in which the hydrogens attached to the N atom have been replaced by two methyl groups respectively. Metabolite observed in cancer metabolism.",
+    "skos:semanticRelation": [
         {
             "@id": "obo:CHEBI_29347"
         },
         {
             "@id": "obo:CHEBI_22160"
-        },
-        {
-            "@id": "b673_genid-00f1db82e1ab437c844115a94dc63e635-bn84254t8f27856"
-        },
-        {
-            "@id": "b673_genid-00f1db82e1ab437c844115a94dc63e635-bn84254t11f77746"
         }
     ]
 }

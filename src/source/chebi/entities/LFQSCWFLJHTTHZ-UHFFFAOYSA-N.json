@@ -1,107 +1,31 @@
 {
     "@context": {
-        "chebi": "http://purl.obolibrary.org/obo/chebi/",
         "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
         "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-        "obo": "http://purl.obolibrary.org/obo/"
+        "obo": "http://purl.obolibrary.org/obo/",
+        "uniprot": "http://purl.uniprot.org/",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "concept": "https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/",
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "dbo": "http://dbpedia.org/ontology/",
+        "dbp": "http://dbpedia.org/property/",
+        "altLabel": {
+            "@id": "http://www.w3.org/2004/02/skos/core#altLabel",
+            "@language": "en"
+        },
+        "graph": {
+            "@id": "@graph"
+        }
     },
-    "@id": "obo:CHEBI_16236",
-    "@type": "http://www.w3.org/2002/07/owl#Class",
-    "obo:IAO_0000115": "A primary alcohol that is ethane in which one of the hydrogens is substituted by a hydroxy group.",
+    "@id": "concept:LFQSCWFLJHTTHZ-UHFFFAOYSA-N",
+    "@type": "skos:Concept",
+    "dbo:formula": "C2H6O",
+    "dbo:inchi": "InChI=1S/C2H6O/c1-2-3/h3H,2H2,1H3",
+    "dbo:smiles": "CCO",
+    "dbp:inchikey": "LFQSCWFLJHTTHZ-UHFFFAOYSA-N",
     "chebi:charge": "0",
-    "chebi:formula": "C2H6O",
-    "chebi:inchi": "InChI=1S/C2H6O/c1-2-3/h3H,2H2,1H3",
-    "chebi:inchikey": "LFQSCWFLJHTTHZ-UHFFFAOYSA-N",
-    "chebi:smiles": "CCO",
-    "http://purl.uniprot.org/core/name": "ethanol",
-    "geneontology:hasDbXref": [
-        "PMID:17190852",
-        "PMID:15239123",
-        "Beilstein:1718733",
-        "CAS:64-17-5",
-        "Drug_Central:1076",
-        "DrugBank:DB00898",
-        "Gmelin:787",
-        "HMDB:HMDB0000108",
-        "KEGG:C00469",
-        "KEGG:D00068",
-        "KEGG:D06542",
-        "KNApSAcK:C00019560",
-        "MetaCyc:ETOH",
-        "MolBase:858",
-        "MolBase:859",
-        "PDBeChem:EOH",
-        "PMID:11046114",
-        "PMID:11090978",
-        "PMID:11198720",
-        "PMID:11200745",
-        "PMID:11262320",
-        "PMID:11303910",
-        "PMID:11333032",
-        "PMID:11505026",
-        "PMID:11590970",
-        "PMID:11728426",
-        "PMID:11750186",
-        "PMID:11754521",
-        "PMID:11810019",
-        "PMID:11826039",
-        "PMID:11981228",
-        "PMID:12824058",
-        "PMID:12829422",
-        "PMID:12888778",
-        "PMID:12946583",
-        "PMID:14674846",
-        "PMID:15019421",
-        "PMID:15285839",
-        "PMID:15464411",
-        "PMID:15465973",
-        "PMID:15749123",
-        "PMID:15900217",
-        "PMID:15902919",
-        "PMID:16084479",
-        "PMID:16133132",
-        "PMID:16352430",
-        "PMID:16390872",
-        "PMID:16737463",
-        "PMID:16891664",
-        "PMID:16934862",
-        "PMID:17043811",
-        "PMID:17663926",
-        "PMID:17687877",
-        "PMID:18095657",
-        "PMID:18249266",
-        "PMID:18320157",
-        "PMID:18347649",
-        "PMID:18408978",
-        "PMID:18411066",
-        "PMID:18456322",
-        "PMID:18513832",
-        "PMID:18922656",
-        "PMID:18925476",
-        "PMID:19280886",
-        "PMID:19359288",
-        "PMID:19384566",
-        "PMID:19458312",
-        "PMID:19851413",
-        "PMID:19901811",
-        "PMID:21600756",
-        "PMID:21762181",
-        "PMID:21881875",
-        "PMID:21967628",
-        "PMID:22019193",
-        "PMID:22222864",
-        "PMID:22261437",
-        "PMID:22286266",
-        "PMID:22306018",
-        "PMID:22331491",
-        "PMID:22336593",
-        "PPDB:1373",
-        "Reaxys:1718733",
-        "UM-BBD_compID:c0038",
-        "Wikipedia:Ethanol"
-    ],
-    "geneontology:hasId": "16236",
-    "geneontology:hasSynonym": [
+    "skos:altLabel": [
         "ethanol",
         "alcohol",
         "[CH2Me(OH)]",
@@ -123,11 +47,11 @@
         "Methylcarbinol",
         "spiritus vini"
     ],
-    "geneontology:inSubset": {
-        "@id": "obo:chebi#3_STAR"
+    "skos:exactMatch": {
+        "@id": "obo:CHEBI_16236"
     },
-    "rdfs:label": "ethanol",
-    "rdfs:subClassOf": [
+    "skos:note": "A primary alcohol that is ethane in which one of the hydrogens is substituted by a hydroxy group.",
+    "skos:semanticRelation": [
         {
             "@id": "obo:CHEBI_15734"
         },
@@ -139,45 +63,6 @@
         },
         {
             "@id": "obo:CHEBI_23982"
-        },
-        {
-            "@id": "b525_genid-00f1db82e1ab437c844115a94dc63e635-bn16236t11f35488"
-        },
-        {
-            "@id": "b525_genid-00f1db82e1ab437c844115a94dc63e635-bn16236t11f48218"
-        },
-        {
-            "@id": "b525_genid-00f1db82e1ab437c844115a94dc63e635-bn16236t11f48219"
-        },
-        {
-            "@id": "b525_genid-00f1db82e1ab437c844115a94dc63e635-bn16236t11f48354"
-        },
-        {
-            "@id": "b525_genid-00f1db82e1ab437c844115a94dc63e635-bn16236t11f50905"
-        },
-        {
-            "@id": "b525_genid-00f1db82e1ab437c844115a94dc63e635-bn16236t11f50910"
-        },
-        {
-            "@id": "b525_genid-00f1db82e1ab437c844115a94dc63e635-bn16236t4f52092"
-        },
-        {
-            "@id": "b525_genid-00f1db82e1ab437c844115a94dc63e635-bn16236t11f60643"
-        },
-        {
-            "@id": "b525_genid-00f1db82e1ab437c844115a94dc63e635-bn16236t11f64018"
-        },
-        {
-            "@id": "b525_genid-00f1db82e1ab437c844115a94dc63e635-bn16236t11f75771"
-        },
-        {
-            "@id": "b525_genid-00f1db82e1ab437c844115a94dc63e635-bn16236t11f75772"
-        },
-        {
-            "@id": "b525_genid-00f1db82e1ab437c844115a94dc63e635-bn16236t11f76971"
-        },
-        {
-            "@id": "b525_genid-00f1db82e1ab437c844115a94dc63e635-bn16236t11f77746"
         }
     ]
 }

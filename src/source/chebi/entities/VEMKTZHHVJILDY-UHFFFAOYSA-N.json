@@ -1,52 +1,46 @@
 {
     "@context": {
-        "chebi": "http://purl.obolibrary.org/obo/chebi/",
         "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
         "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-        "obo": "http://purl.obolibrary.org/obo/"
+        "obo": "http://purl.obolibrary.org/obo/",
+        "uniprot": "http://purl.uniprot.org/",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "concept": "https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/",
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "dbo": "http://dbpedia.org/ontology/",
+        "dbp": "http://dbpedia.org/property/",
+        "altLabel": {
+            "@id": "http://www.w3.org/2004/02/skos/core#altLabel",
+            "@language": "en"
+        },
+        "graph": {
+            "@id": "@graph"
+        }
     },
-    "@id": "obo:CHEBI_8811",
-    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "@id": "concept:VEMKTZHHVJILDY-UHFFFAOYSA-N",
+    "@type": "skos:Concept",
+    "dbo:formula": "C22H26O3",
+    "dbo:inchi": "InChI=1S/C22H26O3/c1-15(2)10-19-20(22(19,3)4)21(23)25-14-17-12-18(24-13-17)11-16-8-6-5-7-9-16/h5-10,12-13,19-20H,11,14H2,1-4H3",
+    "dbo:smiles": "CC(C)=CC1C(C(=O)OCc2coc(Cc3ccccc3)c2)C1(C)C",
+    "dbp:inchikey": "VEMKTZHHVJILDY-UHFFFAOYSA-N",
     "chebi:charge": "0",
-    "chebi:formula": "C22H26O3",
-    "chebi:inchi": "InChI=1S/C22H26O3/c1-15(2)10-19-20(22(19,3)4)21(23)25-14-17-12-18(24-13-17)11-16-8-6-5-7-9-16/h5-10,12-13,19-20H,11,14H2,1-4H3",
-    "chebi:inchikey": "VEMKTZHHVJILDY-UHFFFAOYSA-N",
-    "chebi:smiles": "CC(C)=CC1C(C(=O)OCc2coc(Cc3ccccc3)c2)C1(C)C",
-    "geneontology:hasDbXref": [
-        "Beilstein:1351757",
-        "CAS:10453-86-8",
-        "KEGG:C10991",
-        "KEGG:D08475",
-        "LINCS:LSM-1846",
-        "PPDB:585"
-    ],
-    "geneontology:hasId": "8811",
-    "geneontology:hasSynonym": [
+    "skos:altLabel": [
         "(5-(Phenylmethyl)-3-furanyl)methyl 2,2-dimethyl-3-(2-methyl-1-propenyl)cyclopropanecarboxylate",
         "(5-benzylfuran-3-yl)methyl 2,2-dimethyl-3-(2-methylprop-1-en-1-yl)cyclopropanecarboxylate",
         "5-Benzyl-3-furylmethyl (+-)-cis,trans-chrysanthemate",
         "5-Benzyl-3-furylmethyl (1RS,3RS;1RS,3SR)-2,2-dimethyl-3-(2-methylprop-1-enyl)cyclopropanecarboxylate",
         "Resmethrin"
     ],
-    "geneontology:inSubset": {
-        "@id": "obo:chebi#3_STAR"
+    "skos:exactMatch": {
+        "@id": "obo:CHEBI_8811"
     },
-    "rdfs:label": "resmethrin",
-    "rdfs:subClassOf": [
+    "skos:semanticRelation": [
         {
             "@id": "obo:CHEBI_24129"
         },
         {
             "@id": "obo:CHEBI_50351"
-        },
-        {
-            "@id": "b893_genid-00f1db82e1ab437c844115a94dc63e635-bn8811t8f3680"
-        },
-        {
-            "@id": "b893_genid-00f1db82e1ab437c844115a94dc63e635-bn8811t11f33286"
-        },
-        {
-            "@id": "b893_genid-00f1db82e1ab437c844115a94dc63e635-bn8811t11f39116"
         }
     ]
 }

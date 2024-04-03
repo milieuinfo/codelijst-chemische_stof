@@ -1,46 +1,40 @@
 {
     "@context": {
-        "chebi": "http://purl.obolibrary.org/obo/chebi/",
         "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
         "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-        "obo": "http://purl.obolibrary.org/obo/"
+        "obo": "http://purl.obolibrary.org/obo/",
+        "uniprot": "http://purl.uniprot.org/",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "concept": "https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/",
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "dbo": "http://dbpedia.org/ontology/",
+        "dbp": "http://dbpedia.org/property/",
+        "altLabel": {
+            "@id": "http://www.w3.org/2004/02/skos/core#altLabel",
+            "@language": "en"
+        },
+        "graph": {
+            "@id": "@graph"
+        }
     },
-    "@id": "obo:CHEBI_81843",
-    "@type": "http://www.w3.org/2002/07/owl#Class",
-    "obo:IAO_0000115": "A member of the class of aminopyridines that is 2-amino-5-(trifluoromethyl)pyridine in which one of the amino hydrogens is replaced by a 3-chloro-2,6-dinitro-4-(trifluoromethyl)phenyl group. A fungicide used to control grey mould, downy mildew and other fungal pathogens.",
+    "@id": "concept:UZCGKGPEKUCDTF-UHFFFAOYSA-N",
+    "@type": "skos:Concept",
+    "dbo:formula": "C13H4Cl2F6N4O4",
+    "dbo:inchi": "InChI=1S/C13H4Cl2F6N4O4/c14-6-1-4(12(16,17)18)3-22-11(6)23-9-7(24(26)27)2-5(13(19,20)21)8(15)10(9)25(28)29/h1-3H,(H,22,23)",
+    "dbo:smiles": "[O-][N+](=O)c1cc(c(Cl)c(c1Nc1ncc(cc1Cl)C(F)(F)F)[N+]([O-])=O)C(F)(F)F",
+    "dbp:inchikey": "UZCGKGPEKUCDTF-UHFFFAOYSA-N",
     "chebi:charge": "0",
-    "chebi:formula": "C13H4Cl2F6N4O4",
-    "chebi:inchi": "InChI=1S/C13H4Cl2F6N4O4/c14-6-1-4(12(16,17)18)3-22-11(6)23-9-7(24(26)27)2-5(13(19,20)21)8(15)10(9)25(28)29/h1-3H,(H,22,23)",
-    "chebi:inchikey": "UZCGKGPEKUCDTF-UHFFFAOYSA-N",
-    "chebi:smiles": "[O-][N+](=O)c1cc(c(Cl)c(c1Nc1ncc(cc1Cl)C(F)(F)F)[N+]([O-])=O)C(F)(F)F",
-    "geneontology:hasDbXref": [
-        "CAS:79622-59-6",
-        "KEGG:C18578",
-        "Patent:NZ582589",
-        "Patent:WO2011092618",
-        "Pesticides:fluazinam",
-        "PMID:19837458",
-        "PMID:21907236",
-        "PMID:22465686",
-        "PMID:23464902",
-        "PMID:24427089",
-        "PMID:24813983",
-        "PMID:7774188",
-        "PPDB:325",
-        "Reaxys:4772672",
-        "Wikipedia:Fluazinam"
-    ],
-    "geneontology:hasId": "81843",
-    "geneontology:hasSynonym": [
+    "skos:altLabel": [
         "3-chloro-N-(3-chloro-5-trifluoromethyl-2-pyridyl)-alpha,alpha,alpha-trifluoro-2,6-dinitro-p-toluidine",
         "3-chloro-N-[3-chloro-2,6-dinitro-4-(trifluoromethyl)phenyl]-5-(trifluoromethyl)pyridin-2-amine",
         "Shirlan"
     ],
-    "geneontology:inSubset": {
-        "@id": "obo:chebi#3_STAR"
+    "skos:exactMatch": {
+        "@id": "obo:CHEBI_81843"
     },
-    "rdfs:label": "fluazinam",
-    "rdfs:subClassOf": [
+    "skos:note": "A member of the class of aminopyridines that is 2-amino-5-(trifluoromethyl)pyridine in which one of the amino hydrogens is replaced by a 3-chloro-2,6-dinitro-4-(trifluoromethyl)phenyl group. A fungicide used to control grey mould, downy mildew and other fungal pathogens.",
+    "skos:semanticRelation": [
         {
             "@id": "obo:CHEBI_35716"
         },
@@ -58,21 +52,6 @@
         },
         {
             "@id": "obo:CHEBI_39173"
-        },
-        {
-            "@id": "b868_genid-00f1db82e1ab437c844115a94dc63e635-bn81843t11f35703"
-        },
-        {
-            "@id": "b868_genid-00f1db82e1ab437c844115a94dc63e635-bn81843t11f50904"
-        },
-        {
-            "@id": "b868_genid-00f1db82e1ab437c844115a94dc63e635-bn81843t11f68495"
-        },
-        {
-            "@id": "b868_genid-00f1db82e1ab437c844115a94dc63e635-bn81843t11f78298"
-        },
-        {
-            "@id": "b868_genid-00f1db82e1ab437c844115a94dc63e635-bn81843t11f86328"
         }
     ]
 }

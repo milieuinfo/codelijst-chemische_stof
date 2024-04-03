@@ -1,42 +1,40 @@
 {
     "@context": {
-        "chebi": "http://purl.obolibrary.org/obo/chebi/",
         "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
         "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-        "obo": "http://purl.obolibrary.org/obo/"
+        "obo": "http://purl.obolibrary.org/obo/",
+        "uniprot": "http://purl.uniprot.org/",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "concept": "https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/",
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "dbo": "http://dbpedia.org/ontology/",
+        "dbp": "http://dbpedia.org/property/",
+        "altLabel": {
+            "@id": "http://www.w3.org/2004/02/skos/core#altLabel",
+            "@language": "en"
+        },
+        "graph": {
+            "@id": "@graph"
+        }
     },
-    "@id": "obo:CHEBI_8489",
-    "@type": "http://www.w3.org/2002/07/owl#Class",
-    "obo:IAO_0000115": "The cyclic ketal obtained by formal condensation of 1-(2,4-dichlorophenyl)-2-(1H-1,2,4-triazol-1-yl)ethanone with pentane-1,2-diol. A triazole fungicide, it is used commercially as a diastereoisomeric mixture on soft fruit (including apricots, peaches, nectarines, plums and prunes), nuts (including peanuts, pecans and almonds), mushrooms, and grasses grown for seeds.",
+    "@id": "concept:STJLVHWMYQXCPB-UHFFFAOYSA-N",
+    "@type": "skos:Concept",
+    "dbo:formula": "C15H17Cl2N3O2",
+    "dbo:inchi": "InChI=1S/C15H17Cl2N3O2/c1-2-3-12-7-21-15(22-12,8-20-10-18-9-19-20)13-5-4-11(16)6-14(13)17/h4-6,9-10,12H,2-3,7-8H2,1H3",
+    "dbo:smiles": "CCCC1COC(Cn2cncn2)(O1)c1ccc(Cl)cc1Cl",
+    "dbp:inchikey": "STJLVHWMYQXCPB-UHFFFAOYSA-N",
     "chebi:charge": "0",
-    "chebi:formula": "C15H17Cl2N3O2",
-    "chebi:inchi": "InChI=1S/C15H17Cl2N3O2/c1-2-3-12-7-21-15(22-12,8-20-10-18-9-19-20)13-5-4-11(16)6-14(13)17/h4-6,9-10,12H,2-3,7-8H2,1H3",
-    "chebi:inchikey": "STJLVHWMYQXCPB-UHFFFAOYSA-N",
-    "chebi:smiles": "CCCC1COC(Cn2cncn2)(O1)c1ccc(Cl)cc1Cl",
-    "geneontology:hasDbXref": [
-        "CAS:60207-90-1",
-        "CAS:75881-82-2",
-        "KEGG:C11121",
-        "MetaCyc:CPD-14540",
-        "Patent:DE2551560",
-        "Patent:US4079062",
-        "Pesticides:propiconazole",
-        "PMID:19128860",
-        "PPDB:551",
-        "Reaxys:841361",
-        "Wikipedia:Propiconazole"
-    ],
-    "geneontology:hasId": "8489",
-    "geneontology:hasSynonym": [
+    "skos:altLabel": [
         "(+-)-1-[2-(2,4-dichlorophenyl)-4-propyl-1,3-dioxolan-2-yl-methyl]-1H-1,2,4-triazole",
         "1-{[2-(2,4-dichlorophenyl)-4-propyl-1,3-dioxolan-2-yl]methyl}-1H-1,2,4-triazole",
         "Propiconazole"
     ],
-    "geneontology:inSubset": {
-        "@id": "obo:chebi#3_STAR"
+    "skos:exactMatch": {
+        "@id": "obo:CHEBI_8489"
     },
-    "rdfs:label": "propiconazole",
-    "rdfs:subClassOf": [
+    "skos:note": "The cyclic ketal obtained by formal condensation of 1-(2,4-dichlorophenyl)-2-(1H-1,2,4-triazol-1-yl)ethanone with pentane-1,2-diol. A triazole fungicide, it is used commercially as a diastereoisomeric mixture on soft fruit (including apricots, peaches, nectarines, plums and prunes), nuts (including peanuts, pecans and almonds), mushrooms, and grasses grown for seeds.",
+    "skos:semanticRelation": [
         {
             "@id": "obo:CHEBI_35727"
         },
@@ -51,18 +49,6 @@
         },
         {
             "@id": "obo:CHEBI_87067"
-        },
-        {
-            "@id": "b671_genid-00f1db82e1ab437c844115a94dc63e635-bn8489t11f35703"
-        },
-        {
-            "@id": "b671_genid-00f1db82e1ab437c844115a94dc63e635-bn8489t11f77884"
-        },
-        {
-            "@id": "b671_genid-00f1db82e1ab437c844115a94dc63e635-bn8489t11f78298"
-        },
-        {
-            "@id": "b671_genid-00f1db82e1ab437c844115a94dc63e635-bn8489t11f86328"
         }
     ]
 }

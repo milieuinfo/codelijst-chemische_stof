@@ -1,32 +1,31 @@
 {
     "@context": {
-        "chebi": "http://purl.obolibrary.org/obo/chebi/",
         "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
         "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-        "obo": "http://purl.obolibrary.org/obo/"
+        "obo": "http://purl.obolibrary.org/obo/",
+        "uniprot": "http://purl.uniprot.org/",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "concept": "https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/",
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "dbo": "http://dbpedia.org/ontology/",
+        "dbp": "http://dbpedia.org/property/",
+        "altLabel": {
+            "@id": "http://www.w3.org/2004/02/skos/core#altLabel",
+            "@language": "en"
+        },
+        "graph": {
+            "@id": "@graph"
+        }
     },
-    "@id": "obo:CHEBI_282662",
-    "@type": "http://www.w3.org/2002/07/owl#Class",
-    "obo:IAO_0000115": "A quarternary ammonium cation having one dodecyl and three methyl substituents around the central nitrogen.",
+    "@id": "concept:XJWSAJYUBXQQDR-UHFFFAOYSA-M",
+    "@type": "skos:Concept",
+    "dbo:formula": "C15H34BrN",
+    "dbo:inchi": "InChI=1S/C15H34N.BrH/c1-5-6-7-8-9-10-11-12-13-14-15-16(2,3)4;/h5-15H2,1-4H3;1H/q+1;/p-1",
+    "dbo:smiles": "[Br-].CCCCCCCCCCCC[N+](C)(C)C",
+    "dbp:inchikey": "XJWSAJYUBXQQDR-UHFFFAOYSA-M",
     "chebi:charge": "0",
-    "chebi:formula": "C15H34BrN",
-    "chebi:inchi": "InChI=1S/C15H34N.BrH/c1-5-6-7-8-9-10-11-12-13-14-15-16(2,3)4;/h5-15H2,1-4H3;1H/q+1;/p-1",
-    "chebi:inchikey": "XJWSAJYUBXQQDR-UHFFFAOYSA-M",
-    "chebi:smiles": "[Br-].CCCCCCCCCCCC[N+](C)(C)C",
-    "geneontology:hasDbXref": [
-        "PMID:6196640",
-        "Beilstein:3597463",
-        "CAS:1119-94-4",
-        "PMID:23557027",
-        "PMID:24000823",
-        "PMID:24095792",
-        "PMID:24692308",
-        "PMID:24959928",
-        "PMID:25072661",
-        "Reaxys:3597463"
-    ],
-    "geneontology:hasId": "282662",
-    "geneontology:hasSynonym": [
+    "skos:altLabel": [
         "Dctab",
         "DDTMABr",
         "DTAB",
@@ -42,22 +41,16 @@
         "Trimethyldodecylammonium bromide",
         "Trimethyllaurylammonium bromide"
     ],
-    "geneontology:inSubset": {
-        "@id": "obo:chebi#3_STAR"
+    "skos:exactMatch": {
+        "@id": "obo:CHEBI_282662"
     },
-    "rdfs:label": "dodecyltrimethylammonium bromide",
-    "rdfs:subClassOf": [
+    "skos:note": "A quarternary ammonium cation having one dodecyl and three methyl substituents around the central nitrogen.",
+    "skos:semanticRelation": [
         {
             "@id": "obo:CHEBI_35273"
         },
         {
             "@id": "obo:CHEBI_22925"
-        },
-        {
-            "@id": "b189_genid-00f1db82e1ab437c844115a94dc63e635-bn282662t11f35195"
-        },
-        {
-            "@id": "b189_genid-00f1db82e1ab437c844115a94dc63e635-bn282662t10f41378"
         }
     ]
 }

@@ -1,32 +1,38 @@
 {
     "@context": {
-        "chebi": "http://purl.obolibrary.org/obo/chebi/",
         "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
         "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-        "obo": "http://purl.obolibrary.org/obo/"
+        "obo": "http://purl.obolibrary.org/obo/",
+        "uniprot": "http://purl.uniprot.org/",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "concept": "https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/",
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "dbo": "http://dbpedia.org/ontology/",
+        "dbp": "http://dbpedia.org/property/",
+        "altLabel": {
+            "@id": "http://www.w3.org/2004/02/skos/core#altLabel",
+            "@language": "en"
+        },
+        "graph": {
+            "@id": "@graph"
+        }
     },
-    "@id": "obo:CHEBI_88667",
-    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "@id": "concept:YBGZDTIWKVFICR-JLHYYAGUSA-N",
+    "@type": "skos:Concept",
+    "dbo:formula": "C18H26O3",
+    "dbo:inchi": "InChI=1S/C18H26O3/c1-4-6-7-15(5-2)14-21-18(19)13-10-16-8-11-17(20-3)12-9-16/h8-13,15H,4-7,14H2,1-3H3/b13-10+",
+    "dbo:smiles": "CCCCC(CC)COC(\\C(=C(\\C1=CC=C(C=C1)OC)/[H])\\[H])=O",
+    "dbp:inchikey": "YBGZDTIWKVFICR-JLHYYAGUSA-N",
     "chebi:charge": "0",
-    "chebi:formula": "C18H26O3",
-    "chebi:inchi": "InChI=1S/C18H26O3/c1-4-6-7-15(5-2)14-21-18(19)13-10-16-8-11-17(20-3)12-9-16/h8-13,15H,4-7,14H2,1-3H3/b13-10+",
-    "chebi:inchikey": "YBGZDTIWKVFICR-JLHYYAGUSA-N",
-    "chebi:smiles": "CCCCC(CC)COC(\\C(=C(\\C1=CC=C(C=C1)OC)/[H])\\[H])=O",
-    "geneontology:hasDbXref": [
-        "PMID:24421258",
-        "HMDB:HMDB0061861",
-        "PMID:16614896"
-    ],
-    "geneontology:hasId": "88667",
-    "geneontology:hasSynonym": [
+    "skos:altLabel": [
         "2-ethylhexyl (2E)-3-(4-methoxyphenyl)prop-2-enoate",
         "Octyl 4-methoxycinnamate"
     ],
-    "geneontology:inSubset": {
-        "@id": "obo:chebi#2_STAR"
+    "skos:exactMatch": {
+        "@id": "obo:CHEBI_88667"
     },
-    "rdfs:label": "Octyl 4-methoxycinnamic acid",
-    "rdfs:subClassOf": {
+    "skos:semanticRelation": {
         "@id": "obo:CHEBI_36087"
     }
 }

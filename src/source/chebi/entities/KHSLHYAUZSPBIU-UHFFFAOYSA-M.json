@@ -1,35 +1,31 @@
 {
     "@context": {
-        "chebi": "http://purl.obolibrary.org/obo/chebi/",
         "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
         "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-        "obo": "http://purl.obolibrary.org/obo/"
+        "obo": "http://purl.obolibrary.org/obo/",
+        "uniprot": "http://purl.uniprot.org/",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "concept": "https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/",
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "dbo": "http://dbpedia.org/ontology/",
+        "dbp": "http://dbpedia.org/property/",
+        "altLabel": {
+            "@id": "http://www.w3.org/2004/02/skos/core#altLabel",
+            "@language": "en"
+        },
+        "graph": {
+            "@id": "@graph"
+        }
     },
-    "@id": "obo:CHEBI_167207",
-    "@type": "http://www.w3.org/2002/07/owl#Class",
-    "obo:IAO_0000115": "The organic bromide salt of benzododecinium. It is a cationic surfactant that has antispetic and disinfectant properties.",
+    "@id": "concept:KHSLHYAUZSPBIU-UHFFFAOYSA-M",
+    "@type": "skos:Concept",
+    "dbo:formula": "C21H38N.Br",
+    "dbo:inchi": "InChI=1S/C21H38N.BrH/c1-4-5-6-7-8-9-10-11-12-16-19-22(2,3)20-21-17-14-13-15-18-21;/h13-15,17-18H,4-12,16,19-20H2,1-3H3;1H/q+1;/p-1",
+    "dbo:smiles": "[Br-].CCCCCCCCCCCC[N+](C)(C)CC1=CC=CC=C1",
+    "dbp:inchikey": "KHSLHYAUZSPBIU-UHFFFAOYSA-M",
     "chebi:charge": "0",
-    "chebi:formula": "C21H38N.Br",
-    "chebi:inchi": "InChI=1S/C21H38N.BrH/c1-4-5-6-7-8-9-10-11-12-16-19-22(2,3)20-21-17-14-13-15-18-21;/h13-15,17-18H,4-12,16,19-20H2,1-3H3;1H/q+1;/p-1",
-    "chebi:inchikey": "KHSLHYAUZSPBIU-UHFFFAOYSA-M",
-    "chebi:smiles": "[Br-].CCCCCCCCCCCC[N+](C)(C)CC1=CC=CC=C1",
-    "geneontology:hasDbXref": [
-        "CAS:7281-04-1",
-        "Chemspider:22165",
-        "PMID:15028484",
-        "PMID:15250425",
-        "PMID:18653213",
-        "PMID:19013584",
-        "PMID:1909133",
-        "PMID:19095241",
-        "PMID:20550489",
-        "PMID:30295500",
-        "PMID:7762946",
-        "Reaxys:3579193",
-        "Wikipedia:Benzododecinium_bromide"
-    ],
-    "geneontology:hasId": "167207",
-    "geneontology:hasSynonym": [
+    "skos:altLabel": [
         "Ajatin",
         "Bacfor BL",
         "benzyldimethyldodecylammonium bromide",
@@ -42,28 +38,16 @@
         "Sinnoquat BL 95",
         "Sterinol"
     ],
-    "geneontology:inSubset": {
-        "@id": "obo:chebi#3_STAR"
+    "skos:exactMatch": {
+        "@id": "obo:CHEBI_167207"
     },
-    "rdfs:label": "benzododecinium bromide",
-    "rdfs:subClassOf": [
+    "skos:note": "The organic bromide salt of benzododecinium. It is a cationic surfactant that has antispetic and disinfectant properties.",
+    "skos:semanticRelation": [
         {
             "@id": "obo:CHEBI_35273"
         },
         {
             "@id": "obo:CHEBI_48369"
-        },
-        {
-            "@id": "b397_genid-00f1db82e1ab437c844115a94dc63e635-bn167207t11f35195"
-        },
-        {
-            "@id": "b397_genid-00f1db82e1ab437c844115a94dc63e635-bn167207t11f48218"
-        },
-        {
-            "@id": "b397_genid-00f1db82e1ab437c844115a94dc63e635-bn167207t11f48219"
-        },
-        {
-            "@id": "b397_genid-00f1db82e1ab437c844115a94dc63e635-bn167207t10f135611"
         }
     ]
 }

@@ -1,26 +1,31 @@
 {
     "@context": {
-        "chebi": "http://purl.obolibrary.org/obo/chebi/",
         "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
         "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-        "obo": "http://purl.obolibrary.org/obo/"
+        "obo": "http://purl.obolibrary.org/obo/",
+        "uniprot": "http://purl.uniprot.org/",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "concept": "https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/",
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "dbo": "http://dbpedia.org/ontology/",
+        "dbp": "http://dbpedia.org/property/",
+        "altLabel": {
+            "@id": "http://www.w3.org/2004/02/skos/core#altLabel",
+            "@language": "en"
+        },
+        "graph": {
+            "@id": "@graph"
+        }
     },
-    "@id": "obo:CHEBI_17051",
-    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "@id": "concept:KRHYYFGTRYWZRS-UHFFFAOYSA-M",
+    "@type": "skos:Concept",
+    "dbo:formula": "F",
+    "dbo:inchi": "InChI=1S/FH/h1H/p-1",
+    "dbo:smiles": "[F-]",
+    "dbp:inchikey": "KRHYYFGTRYWZRS-UHFFFAOYSA-M",
     "chebi:charge": "-1",
-    "chebi:formula": "F",
-    "chebi:inchi": "InChI=1S/FH/h1H/p-1",
-    "chebi:inchikey": "KRHYYFGTRYWZRS-UHFFFAOYSA-M",
-    "chebi:smiles": "[F-]",
-    "http://purl.uniprot.org/core/name": "fluoride",
-    "geneontology:hasDbXref": [
-        "CAS:16984-48-8",
-        "Gmelin:14905",
-        "KEGG:C00742",
-        "PDBeChem:F"
-    ],
-    "geneontology:hasId": "17051",
-    "geneontology:hasSynonym": [
+    "skos:altLabel": [
         "F-",
         "F(-)",
         "Fluoride",
@@ -29,16 +34,12 @@
         "FLUORIDE ION",
         "Fluorine anion"
     ],
-    "geneontology:inSubset": {
-        "@id": "obo:chebi#3_STAR"
+    "skos:exactMatch": {
+        "@id": "obo:CHEBI_17051"
     },
-    "rdfs:label": "fluoride",
-    "rdfs:subClassOf": [
+    "skos:semanticRelation": [
         {
             "@id": "obo:CHEBI_16042"
-        },
-        {
-            "@id": "b444_genid-00f1db82e1ab437c844115a94dc63e635-bn17051t5f29228"
         },
         {
             "@id": "obo:CHEBI_36895"

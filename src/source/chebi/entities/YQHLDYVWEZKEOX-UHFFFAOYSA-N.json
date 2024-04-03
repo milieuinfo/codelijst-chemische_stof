@@ -1,33 +1,31 @@
 {
     "@context": {
-        "chebi": "http://purl.obolibrary.org/obo/chebi/",
         "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
         "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-        "obo": "http://purl.obolibrary.org/obo/"
+        "obo": "http://purl.obolibrary.org/obo/",
+        "uniprot": "http://purl.uniprot.org/",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "concept": "https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/",
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "dbo": "http://dbpedia.org/ontology/",
+        "dbp": "http://dbpedia.org/property/",
+        "altLabel": {
+            "@id": "http://www.w3.org/2004/02/skos/core#altLabel",
+            "@language": "en"
+        },
+        "graph": {
+            "@id": "@graph"
+        }
     },
-    "@id": "obo:CHEBI_78673",
-    "@type": "http://www.w3.org/2002/07/owl#Class",
-    "obo:IAO_0000115": "A peroxol that is cumene in which the alpha-hydrogen is replaced by a hydroperoxy group.",
+    "@id": "concept:YQHLDYVWEZKEOX-UHFFFAOYSA-N",
+    "@type": "skos:Concept",
+    "dbo:formula": "C9H12O2",
+    "dbo:inchi": "InChI=1S/C9H12O2/c1-9(2,11-10)8-6-4-3-5-7-8/h3-7,10H,1-2H3",
+    "dbo:smiles": "CC(C)(OO)c1ccccc1",
+    "dbp:inchikey": "YQHLDYVWEZKEOX-UHFFFAOYSA-N",
     "chebi:charge": "0",
-    "chebi:formula": "C9H12O2",
-    "chebi:inchi": "InChI=1S/C9H12O2/c1-9(2,11-10)8-6-4-3-5-7-8/h3-7,10H,1-2H3",
-    "chebi:inchikey": "YQHLDYVWEZKEOX-UHFFFAOYSA-N",
-    "chebi:smiles": "CC(C)(OO)c1ccccc1",
-    "http://purl.uniprot.org/core/name": "cumene hydroperoxide",
-    "geneontology:hasDbXref": [
-        "CAS:80-15-9",
-        "MetaCyc:CPD0-1449",
-        "PMID:23357941",
-        "PMID:23707950",
-        "PMID:23767299",
-        "PMID:24073228",
-        "PMID:24492382",
-        "PMID:26985019",
-        "Reaxys:1908117",
-        "Wikipedia:Cumene_hydroperoxide"
-    ],
-    "geneontology:hasId": "78673",
-    "geneontology:hasSynonym": [
+    "skos:altLabel": [
         "1-Methyl-1-phenylethyl hydroperoxide",
         "7-Cumyl hydroperoxide",
         "alpha,alpha-Dimethylbenzyl hydroperoxide",
@@ -41,25 +39,11 @@
         "Hydroperoxyde de cumyle",
         "Isopropylbenzene hydroperoxide"
     ],
-    "geneontology:inSubset": {
-        "@id": "obo:chebi#3_STAR"
+    "skos:exactMatch": {
+        "@id": "obo:CHEBI_78673"
     },
-    "rdfs:label": "cumene hydroperoxide",
-    "rdfs:subClassOf": [
-        {
-            "@id": "obo:CHEBI_35924"
-        },
-        {
-            "@id": "b385_genid-00f1db82e1ab437c844115a94dc63e635-bn78673t9f34656"
-        },
-        {
-            "@id": "b385_genid-00f1db82e1ab437c844115a94dc63e635-bn78673t11f63248"
-        },
-        {
-            "@id": "b385_genid-00f1db82e1ab437c844115a94dc63e635-bn78673t11f78298"
-        },
-        {
-            "@id": "b385_genid-00f1db82e1ab437c844115a94dc63e635-bn78673t11f131604"
-        }
-    ]
+    "skos:note": "A peroxol that is cumene in which the alpha-hydrogen is replaced by a hydroperoxy group.",
+    "skos:semanticRelation": {
+        "@id": "obo:CHEBI_35924"
+    }
 }

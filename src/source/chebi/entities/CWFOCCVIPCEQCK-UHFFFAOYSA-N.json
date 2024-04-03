@@ -1,43 +1,38 @@
 {
     "@context": {
-        "chebi": "http://purl.obolibrary.org/obo/chebi/",
         "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
         "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-        "obo": "http://purl.obolibrary.org/obo/"
+        "obo": "http://purl.obolibrary.org/obo/",
+        "uniprot": "http://purl.uniprot.org/",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "concept": "https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/",
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "dbo": "http://dbpedia.org/ontology/",
+        "dbp": "http://dbpedia.org/property/",
+        "graph": {
+            "@id": "@graph"
+        }
     },
-    "@id": "obo:CHEBI_39347",
-    "@type": "http://www.w3.org/2002/07/owl#Class",
-    "obo:IAO_0000115": "A member of the class of pyrroles that is 4-bromo-1H-pyrrole-3-carbonitrile which is substituted at positions 1, 2 and 5 by ethoxymethyl, p-chlorophenyl and trifluoromethyl groups, respectively. A proinsecticide used for termite control and crop protection against several insects and mite pests.",
+    "@id": "concept:CWFOCCVIPCEQCK-UHFFFAOYSA-N",
+    "@type": "skos:Concept",
+    "dbo:formula": "C15H11BrClF3N2O",
+    "dbo:inchi": "InChI=1S/C15H11BrClF3N2O/c1-2-23-8-22-13(9-3-5-10(17)6-4-9)11(7-21)12(16)14(22)15(18,19)20/h3-6H,2,8H2,1H3",
+    "dbo:smiles": "CCOCn1c(c(C#N)c(Br)c1C(F)(F)F)-c1ccc(Cl)cc1",
+    "dbp:inchikey": "CWFOCCVIPCEQCK-UHFFFAOYSA-N",
     "chebi:charge": "0",
-    "chebi:formula": "C15H11BrClF3N2O",
-    "chebi:inchi": "InChI=1S/C15H11BrClF3N2O/c1-2-23-8-22-13(9-3-5-10(17)6-4-9)11(7-21)12(16)14(22)15(18,19)20/h3-6H,2,8H2,1H3",
-    "chebi:inchikey": "CWFOCCVIPCEQCK-UHFFFAOYSA-N",
-    "chebi:smiles": "CCOCn1c(c(C#N)c(Br)c1C(F)(F)F)-c1ccc(Cl)cc1",
-    "geneontology:hasDbXref": [
-        "Beilstein:6940152",
-        "CAS:122453-73-0",
-        "KEGG:C18455",
-        "Pesticides:chlorfenapyr",
-        "PMID:25114438",
-        "PMID:27588945",
-        "PMID:27616623",
-        "PMID:28672113",
-        "PMID:29318380",
-        "PPDB:136"
-    ],
-    "geneontology:hasId": "39347",
-    "geneontology:hasSynonym": [
+    "skos:altLabel": [
         "4-bromo-2-(4-chlorophenyl)-1-(ethoxymethyl)-5-(trifluoromethyl)-1H-pyrrole-3-carbonitrile",
         "AC 303630",
         "Chlorfenapyr",
         "CL 303630",
         "Pirate"
     ],
-    "geneontology:inSubset": {
-        "@id": "obo:chebi#3_STAR"
+    "skos:exactMatch": {
+        "@id": "obo:CHEBI_39347"
     },
-    "rdfs:label": "chlorfenapyr",
-    "rdfs:subClassOf": [
+    "skos:note": "A member of the class of pyrroles that is 4-bromo-1H-pyrrole-3-carbonitrile which is substituted at positions 1, 2 and 5 by ethoxymethyl, p-chlorophenyl and trifluoromethyl groups, respectively. A proinsecticide used for termite control and crop protection against several insects and mite pests.",
+    "skos:semanticRelation": [
         {
             "@id": "obo:CHEBI_18379"
         },
@@ -61,15 +56,6 @@
         },
         {
             "@id": "obo:CHEBI_141498"
-        },
-        {
-            "@id": "b389_genid-00f1db82e1ab437c844115a94dc63e635-bn39347t11f136644"
-        },
-        {
-            "@id": "b389_genid-00f1db82e1ab437c844115a94dc63e635-bn39347t11f136647"
-        },
-        {
-            "@id": "b389_genid-00f1db82e1ab437c844115a94dc63e635-bn39347t8f141497"
         }
     ]
 }

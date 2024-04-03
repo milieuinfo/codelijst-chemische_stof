@@ -1,71 +1,55 @@
 {
     "@context": {
-        "chebi": "http://purl.obolibrary.org/obo/chebi/",
         "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
         "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-        "obo": "http://purl.obolibrary.org/obo/"
+        "obo": "http://purl.obolibrary.org/obo/",
+        "uniprot": "http://purl.uniprot.org/",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "concept": "https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/",
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "dbo": "http://dbpedia.org/ontology/",
+        "dbp": "http://dbpedia.org/property/",
+        "graph": {
+            "@id": "@graph"
+        }
     },
-    "@graph": [
+    "@id": "concept:BASFCYQUMIYNBI-UHFFFAOYSA-N",
+    "@type": "skos:Concept",
+    "dbo:formula": "Pt",
+    "dbo:inchi": "InChI=1S/Pt",
+    "dbo:smiles": "[Pt]",
+    "dbp:inchikey": "BASFCYQUMIYNBI-UHFFFAOYSA-N",
+    "chebi:charge": "0",
+    "skos:altLabel": [
+        "Pt",
+        "78Pt",
+        "Platin",
+        "platine",
+        "platino",
+        "platinum",
+        "platinum black",
+        "platinum metal",
+        "Pt(0)",
+        "Ptn"
+    ],
+    "skos:exactMatch": [
         {
-            "@id": "obo:CHEBI_33364",
-            "@type": "http://www.w3.org/2002/07/owl#Class",
-            "chebi:charge": "0",
-            "chebi:formula": "Pt",
-            "chebi:inchi": "InChI=1S/Pt",
-            "chebi:inchikey": "BASFCYQUMIYNBI-UHFFFAOYSA-N",
-            "chebi:smiles": "[Pt]",
-            "geneontology:hasDbXref": [
-                "CAS:7440-06-4",
-                "WebElements:Pt"
-            ],
-            "geneontology:hasId": "33364",
-            "geneontology:hasSynonym": [
-                "Pt",
-                "78Pt",
-                "Platin",
-                "platine",
-                "platino"
-            ],
-            "geneontology:inSubset": {
-                "@id": "obo:chebi#3_STAR"
-            },
-            "rdfs:label": "platinum",
-            "rdfs:subClassOf": [
-                {
-                    "@id": "obo:CHEBI_33362"
-                },
-                {
-                    "@id": "obo:CHEBI_33365"
-                }
-            ]
+            "@id": "obo:CHEBI_33364"
         },
         {
-            "@id": "obo:CHEBI_33400",
-            "@type": "http://www.w3.org/2002/07/owl#Class",
-            "chebi:charge": "0",
-            "chebi:formula": "Pt",
-            "chebi:inchi": "InChI=1S/Pt",
-            "chebi:inchikey": "BASFCYQUMIYNBI-UHFFFAOYSA-N",
-            "chebi:smiles": "[Pt]",
-            "geneontology:hasDbXref": [
-                "CAS:7440-06-4",
-                "Gmelin:8862"
-            ],
-            "geneontology:hasId": "33400",
-            "geneontology:hasSynonym": [
-                "platinum",
-                "platinum black",
-                "platinum metal",
-                "Pt(0)",
-                "Ptn"
-            ],
-            "geneontology:inSubset": {
-                "@id": "obo:chebi#3_STAR"
-            },
-            "rdfs:label": "platinum(0)",
-            "rdfs:subClassOf": {
-                "@id": "obo:CHEBI_49202"
-            }
+            "@id": "obo:CHEBI_33400"
+        }
+    ],
+    "skos:semanticRelation": [
+        {
+            "@id": "obo:CHEBI_33362"
+        },
+        {
+            "@id": "obo:CHEBI_33365"
+        },
+        {
+            "@id": "obo:CHEBI_49202"
         }
     ]
 }

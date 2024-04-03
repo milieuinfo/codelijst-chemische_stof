@@ -1,68 +1,47 @@
 {
     "@context": {
-        "chebi": "http://purl.obolibrary.org/obo/chebi/",
         "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
         "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-        "obo": "http://purl.obolibrary.org/obo/"
+        "obo": "http://purl.obolibrary.org/obo/",
+        "uniprot": "http://purl.uniprot.org/",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "concept": "https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/",
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "dbo": "http://dbpedia.org/ontology/",
+        "dbp": "http://dbpedia.org/property/",
+        "altLabel": {
+            "@id": "http://www.w3.org/2004/02/skos/core#altLabel",
+            "@language": "en"
+        },
+        "graph": {
+            "@id": "@graph"
+        }
     },
-    "@id": "obo:CHEBI_29021",
-    "@type": "http://www.w3.org/2002/07/owl#Class",
-    "obo:IAO_0000115": "An unbranched alkane containing six carbon atoms.",
+    "@id": "concept:VLKZOEOYAKHREP-UHFFFAOYSA-N",
+    "@type": "skos:Concept",
+    "dbo:formula": "C6H14",
+    "dbo:inchi": "InChI=1S/C6H14/c1-3-5-6-4-2/h3-6H2,1-2H3",
+    "dbo:smiles": "CCCCCC",
+    "dbp:inchikey": "VLKZOEOYAKHREP-UHFFFAOYSA-N",
     "chebi:charge": "0",
-    "chebi:formula": "C6H14",
-    "chebi:inchi": "InChI=1S/C6H14/c1-3-5-6-4-2/h3-6H2,1-2H3",
-    "chebi:inchikey": "VLKZOEOYAKHREP-UHFFFAOYSA-N",
-    "chebi:smiles": "CCCCCC",
-    "geneontology:hasDbXref": [
-        "PMID:11684179",
-        "PMID:19384711",
-        "Beilstein:1730733",
-        "CAS:110-54-3",
-        "DrugBank:DB02764",
-        "Gmelin:1985",
-        "HMDB:HMDB0029600",
-        "KEGG:C11271",
-        "LIPID_MAPS_instance:LMFA11000007",
-        "PDBeChem:HEX",
-        "PMID:11292478",
-        "PMID:11886809",
-        "PMID:15325316",
-        "PMID:18231777",
-        "PMID:19229957",
-        "PMID:23452516",
-        "PMID:23567114",
-        "PMID:23620851",
-        "PMID:23740543",
-        "PMID:23822317",
-        "PMID:23931182",
-        "PMID:7612176",
-        "Reaxys:1730733",
-        "Wikipedia:Hexane"
-    ],
-    "geneontology:hasId": "29021",
-    "geneontology:hasSynonym": [
+    "skos:altLabel": [
         "CH3-[CH2]4-CH3",
         "Hexan",
         "Hexane",
         "HEXANE",
         "n-Hexane"
     ],
-    "geneontology:inSubset": {
-        "@id": "obo:chebi#3_STAR"
+    "skos:exactMatch": {
+        "@id": "obo:CHEBI_29021"
     },
-    "rdfs:label": "hexane",
-    "rdfs:subClassOf": [
+    "skos:note": "An unbranched alkane containing six carbon atoms.",
+    "skos:semanticRelation": [
         {
             "@id": "obo:CHEBI_18310"
         },
         {
             "@id": "obo:CHEBI_134179"
-        },
-        {
-            "@id": "b949_genid-00f1db82e1ab437c844115a94dc63e635-bn29021t11f48355"
-        },
-        {
-            "@id": "b949_genid-00f1db82e1ab437c844115a94dc63e635-bn29021t11f50910"
         }
     ]
 }

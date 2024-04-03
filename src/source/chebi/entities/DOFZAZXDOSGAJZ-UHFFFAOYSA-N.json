@@ -1,31 +1,27 @@
 {
     "@context": {
-        "chebi": "http://purl.obolibrary.org/obo/chebi/",
         "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
         "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-        "obo": "http://purl.obolibrary.org/obo/"
+        "obo": "http://purl.obolibrary.org/obo/",
+        "uniprot": "http://purl.uniprot.org/",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "concept": "https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/",
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "dbo": "http://dbpedia.org/ontology/",
+        "dbp": "http://dbpedia.org/property/",
+        "graph": {
+            "@id": "@graph"
+        }
     },
-    "@id": "obo:CHEBI_38661",
-    "@type": "http://www.w3.org/2002/07/owl#Class",
-    "obo:IAO_0000115": "An organic thiophosphate that is the diethyl ester of S-[2-(ethylsulfanyl)ethyl] dihydrogen phosphorodithioate.",
+    "@id": "concept:DOFZAZXDOSGAJZ-UHFFFAOYSA-N",
+    "@type": "skos:Concept",
+    "dbo:formula": "C8H19O2PS3",
+    "dbo:inchi": "InChI=1S/C8H19O2PS3/c1-4-9-11(12,10-5-2)14-8-7-13-6-3/h4-8H2,1-3H3",
+    "dbo:smiles": "CCOP(=S)(OCC)SCCSCC",
+    "dbp:inchikey": "DOFZAZXDOSGAJZ-UHFFFAOYSA-N",
     "chebi:charge": "0",
-    "chebi:formula": "C8H19O2PS3",
-    "chebi:inchi": "InChI=1S/C8H19O2PS3/c1-4-9-11(12,10-5-2)14-8-7-13-6-3/h4-8H2,1-3H3",
-    "chebi:inchikey": "DOFZAZXDOSGAJZ-UHFFFAOYSA-N",
-    "chebi:smiles": "CCOP(=S)(OCC)SCCSCC",
-    "geneontology:hasDbXref": [
-        "Beilstein:1709167",
-        "CAS:298-04-4",
-        "KEGG:C18400",
-        "PMID:15294458",
-        "PMID:22818267",
-        "PMID:22968680",
-        "PMID:23303564",
-        "Reaxys:1709167",
-        "Wikipedia:Disulfoton"
-    ],
-    "geneontology:hasId": "38661",
-    "geneontology:hasSynonym": [
+    "skos:altLabel": [
         "Ethylthiometon",
         "O,O-Diethyl S-(2-(ethylthio)ethyl) dithiophosphate",
         "O,O-Diethyl S-(2-ethylmercaptoethyl) dithiophosphate",
@@ -33,25 +29,16 @@
         "Phosphorodithioic acid, O,O-diethyl S-(2-(ethylthio)ethyl) ester",
         "S-[2-(ethylsulfanyl)ethyl] O,O-dimethyl dithiophosphate"
     ],
-    "geneontology:inSubset": {
-        "@id": "obo:chebi#3_STAR"
+    "skos:exactMatch": {
+        "@id": "obo:CHEBI_38661"
     },
-    "rdfs:label": "disulfoton",
-    "rdfs:subClassOf": [
+    "skos:note": "An organic thiophosphate that is the diethyl ester of S-[2-(ethylsulfanyl)ethyl] dihydrogen phosphorodithioate.",
+    "skos:semanticRelation": [
         {
             "@id": "obo:CHEBI_37512"
         },
         {
             "@id": "obo:CHEBI_25715"
-        },
-        {
-            "@id": "b498_genid-00f1db82e1ab437c844115a94dc63e635-bn38661t11f22153"
-        },
-        {
-            "@id": "b498_genid-00f1db82e1ab437c844115a94dc63e635-bn38661t11f33286"
-        },
-        {
-            "@id": "b498_genid-00f1db82e1ab437c844115a94dc63e635-bn38661t11f38462"
         }
     ]
 }

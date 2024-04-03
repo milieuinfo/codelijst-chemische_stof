@@ -1,62 +1,42 @@
 {
     "@context": {
-        "chebi": "http://purl.obolibrary.org/obo/chebi/",
         "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
         "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-        "obo": "http://purl.obolibrary.org/obo/"
+        "obo": "http://purl.obolibrary.org/obo/",
+        "uniprot": "http://purl.uniprot.org/",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "concept": "https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/",
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "dbo": "http://dbpedia.org/ontology/",
+        "dbp": "http://dbpedia.org/property/",
+        "altLabel": {
+            "@id": "http://www.w3.org/2004/02/skos/core#altLabel",
+            "@language": "en"
+        },
+        "graph": {
+            "@id": "@graph"
+        }
     },
-    "@id": "obo:CHEBI_3082",
-    "@type": "http://www.w3.org/2002/07/owl#Class",
-    "obo:IAO_0000115": "A  propanolamine that is 3-aminopropane-1,2-diol in which the hydrogen of the primary hydoxy is substituted by a 4-[2-(cyclopropylmethoxy)ethyl]phenyl group and one of the hydrogens attached to the amino group is substituted by isopropyl. It is a selective  beta1-receptor blocker and is used in the treatment of glaucoma as well as hypertension, arrhythmias, and coronary heart disease. It is also used to reduce non-fatal cardiac events in patients with heart failure.",
+    "@id": "concept:NWIUTZDMDHAVTP-UHFFFAOYSA-N",
+    "@type": "skos:Concept",
+    "dbo:formula": "C18H29NO3",
+    "dbo:inchi": "InChI=1S/C18H29NO3/c1-14(2)19-11-17(20)13-22-18-7-5-15(6-8-18)9-10-21-12-16-3-4-16/h5-8,14,16-17,19-20H,3-4,9-13H2,1-2H3",
+    "dbo:smiles": "CC(C)NCC(O)COc1ccc(CCOCC2CC2)cc1",
+    "dbp:inchikey": "NWIUTZDMDHAVTP-UHFFFAOYSA-N",
     "chebi:charge": "0",
-    "chebi:formula": "C18H29NO3",
-    "chebi:inchi": "InChI=1S/C18H29NO3/c1-14(2)19-11-17(20)13-22-18-7-5-15(6-8-18)9-10-21-12-16-3-4-16/h5-8,14,16-17,19-20H,3-4,9-13H2,1-2H3",
-    "chebi:inchikey": "NWIUTZDMDHAVTP-UHFFFAOYSA-N",
-    "chebi:smiles": "CC(C)NCC(O)COc1ccc(CCOCC2CC2)cc1",
-    "geneontology:hasDbXref": [
-        "Beilstein:1991268",
-        "CAS:63659-18-7",
-        "Drug_Central:356",
-        "DrugBank:DB00195",
-        "HMDB:HMDB0014341",
-        "KEGG:C06849",
-        "KEGG:D07526",
-        "LINCS:LSM-1255",
-        "Patent:DE2649605",
-        "Patent:US4252984",
-        "PMID:10891117",
-        "PMID:1361581",
-        "PMID:14971904",
-        "PMID:15993593",
-        "PMID:1865331",
-        "PMID:2569884",
-        "Reaxys:1991268",
-        "Wikipedia:Betaxolol"
-    ],
-    "geneontology:hasId": "3082",
-    "geneontology:hasSynonym": [
+    "skos:altLabel": [
         "betaxolol",
         "1-(4-(2-(cyclopropylmethoxy)ethyl)phenoxy)-3-((1-methylethyl)amino)-2-propanol",
         "1-(isopropylamino)-3-[p-(cyclopropylmethoxyethyl)phenoxy]-2-propanol",
         "1-{4-[2-(cyclopropylmethoxy)ethyl]phenoxy}-3-(propan-2-ylamino)propan-2-ol",
         "betaxololum"
     ],
-    "geneontology:inSubset": {
-        "@id": "obo:chebi#3_STAR"
+    "skos:exactMatch": {
+        "@id": "obo:CHEBI_3082"
     },
-    "rdfs:label": "betaxolol",
-    "rdfs:subClassOf": [
-        {
-            "@id": "obo:CHEBI_35533"
-        },
-        {
-            "@id": "b871_genid-00f1db82e1ab437c844115a94dc63e635-bn3082t11f35530"
-        },
-        {
-            "@id": "b871_genid-00f1db82e1ab437c844115a94dc63e635-bn3082t11f35674"
-        },
-        {
-            "@id": "b871_genid-00f1db82e1ab437c844115a94dc63e635-bn3082t11f66991"
-        }
-    ]
+    "skos:note": "A  propanolamine that is 3-aminopropane-1,2-diol in which the hydrogen of the primary hydoxy is substituted by a 4-[2-(cyclopropylmethoxy)ethyl]phenyl group and one of the hydrogens attached to the amino group is substituted by isopropyl. It is a selective  beta1-receptor blocker and is used in the treatment of glaucoma as well as hypertension, arrhythmias, and coronary heart disease. It is also used to reduce non-fatal cardiac events in patients with heart failure.",
+    "skos:semanticRelation": {
+        "@id": "obo:CHEBI_35533"
+    }
 }

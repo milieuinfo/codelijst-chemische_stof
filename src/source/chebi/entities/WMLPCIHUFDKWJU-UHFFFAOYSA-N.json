@@ -1,28 +1,21 @@
 {
     "@context": {
-        "chebi": "http://purl.obolibrary.org/obo/chebi/",
         "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
         "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-        "obo": "http://purl.obolibrary.org/obo/"
-    },
-    "@id": "obo:CHEBI_81982",
-    "@type": "http://www.w3.org/2002/07/owl#Class",
-    "chebi:charge": "0",
-    "chebi:formula": "C15H19N5O7S",
-    "chebi:inchi": "InChI=1S/C15H19N5O7S/c1-24-8-9-27-10-6-4-5-7-11(10)28(22,23)20-13(21)16-12-17-14(25-2)19-15(18-12)26-3/h4-7H,8-9H2,1-3H3,(H2,16,17,18,19,20,21)",
-    "chebi:inchikey": "WMLPCIHUFDKWJU-UHFFFAOYSA-N",
-    "chebi:smiles": "COCCOc1ccccc1S(=O)(=O)NC(=O)Nc1nc(OC)nc(OC)n1",
-    "geneontology:hasDbXref": [
-        "CAS:94593-91-6",
-        "KEGG:C18818",
-        "PPDB:163"
-    ],
-    "geneontology:hasId": "81982",
-    "geneontology:inSubset": {
-        "@id": "obo:chebi#2_STAR"
-    },
-    "rdfs:label": "Cinosulfuron",
-    "rdfs:subClassOf": {
-        "@id": "obo:CHEBI_35618"
+        "obo": "http://purl.obolibrary.org/obo/",
+        "uniprot": "http://purl.uniprot.org/",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "concept": "https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/",
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "dbo": "http://dbpedia.org/ontology/",
+        "dbp": "http://dbpedia.org/property/",
+        "altLabel": {
+            "@id": "http://www.w3.org/2004/02/skos/core#altLabel",
+            "@language": "en"
+        },
+        "graph": {
+            "@id": "@graph"
+        }
     }
 }

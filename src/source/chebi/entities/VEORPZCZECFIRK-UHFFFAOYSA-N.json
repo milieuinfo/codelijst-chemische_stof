@@ -1,31 +1,31 @@
 {
     "@context": {
-        "chebi": "http://purl.obolibrary.org/obo/chebi/",
         "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
         "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-        "obo": "http://purl.obolibrary.org/obo/"
+        "obo": "http://purl.obolibrary.org/obo/",
+        "uniprot": "http://purl.uniprot.org/",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "concept": "https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/",
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "dbo": "http://dbpedia.org/ontology/",
+        "dbp": "http://dbpedia.org/property/",
+        "altLabel": {
+            "@id": "http://www.w3.org/2004/02/skos/core#altLabel",
+            "@language": "en"
+        },
+        "graph": {
+            "@id": "@graph"
+        }
     },
-    "@id": "obo:CHEBI_33217",
-    "@type": "http://www.w3.org/2002/07/owl#Class",
-    "obo:IAO_0000115": "A bromobisphenol that is 4,4'-methanediyldiphenol in which the methylene hydrogens are replaced by two methyl groups and the phenyl rings are substituted by bromo groups at positions 2, 2', 6 and 6'. It is a brominated flame retardant.",
+    "@id": "concept:VEORPZCZECFIRK-UHFFFAOYSA-N",
+    "@type": "skos:Concept",
+    "dbo:formula": "C15H12Br4O2",
+    "dbo:inchi": "InChI=1S/C15H12Br4O2/c1-15(2,7-3-9(16)13(20)10(17)4-7)8-5-11(18)14(21)12(19)6-8/h3-6,20-21H,1-2H3",
+    "dbo:smiles": "CC(C)(c1cc(Br)c(O)c(Br)c1)c1cc(Br)c(O)c(Br)c1",
+    "dbp:inchikey": "VEORPZCZECFIRK-UHFFFAOYSA-N",
     "chebi:charge": "0",
-    "chebi:formula": "C15H12Br4O2",
-    "chebi:inchi": "InChI=1S/C15H12Br4O2/c1-15(2,7-3-9(16)13(20)10(17)4-7)8-5-11(18)14(21)12(19)6-8/h3-6,20-21H,1-2H3",
-    "chebi:inchikey": "VEORPZCZECFIRK-UHFFFAOYSA-N",
-    "chebi:smiles": "CC(C)(c1cc(Br)c(O)c(Br)c1)c1cc(Br)c(O)c(Br)c1",
-    "geneontology:hasDbXref": [
-        "PMID:25042713",
-        "CAS:79-94-7",
-        "KEGG:C13620",
-        "PMID:17784851",
-        "PMID:24060738",
-        "PMID:24709479",
-        "Reaxys:1889048",
-        "UM-BBD_compID:c0763",
-        "Wikipedia:Tetrabromobisphenol_A"
-    ],
-    "geneontology:hasId": "33217",
-    "geneontology:hasSynonym": [
+    "skos:altLabel": [
         "2,2',6,6'-Tetrabromobisphenol A",
         "2,2-Bis(3,5-dibromo-4-hydroxyphenyl)propane",
         "3,3',5,5'-Tetrabromobisphenol A",
@@ -36,16 +36,13 @@
         "Tetrabromobisphenol A",
         "tetrabromobisphenol-A"
     ],
-    "geneontology:inSubset": {
-        "@id": "obo:chebi#3_STAR"
+    "skos:exactMatch": {
+        "@id": "obo:CHEBI_33217"
     },
-    "rdfs:label": "3,3',5,5'-tetrabromobisphenol A",
-    "rdfs:subClassOf": [
+    "skos:note": "A bromobisphenol that is 4,4'-methanediyldiphenol in which the methylene hydrogens are replaced by two methyl groups and the phenyl rings are substituted by bromo groups at positions 2, 2', 6 and 6'. It is a brominated flame retardant.",
+    "skos:semanticRelation": [
         {
             "@id": "obo:CHEBI_22931"
-        },
-        {
-            "@id": "b892_genid-00f1db82e1ab437c844115a94dc63e635-bn33217t8f33216"
         },
         {
             "@id": "obo:CHEBI_172368"

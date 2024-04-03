@@ -1,43 +1,31 @@
 {
     "@context": {
-        "chebi": "http://purl.obolibrary.org/obo/chebi/",
         "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
         "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-        "obo": "http://purl.obolibrary.org/obo/"
+        "obo": "http://purl.obolibrary.org/obo/",
+        "uniprot": "http://purl.uniprot.org/",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "concept": "https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/",
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "dbo": "http://dbpedia.org/ontology/",
+        "dbp": "http://dbpedia.org/property/",
+        "altLabel": {
+            "@id": "http://www.w3.org/2004/02/skos/core#altLabel",
+            "@language": "en"
+        },
+        "graph": {
+            "@id": "@graph"
+        }
     },
-    "@id": "obo:CHEBI_6909",
-    "@type": "http://www.w3.org/2002/07/owl#Class",
-    "obo:IAO_0000115": "A member of the class of imidazoles substituted at C-1, -2 and -5 with 2-hydroxyethyl, nitro and methyl groups respectively. It has activity against anaerobic bacteria and protozoa, and has a radiosensitising effect on hypoxic tumour cells. It may be given by mouth in tablets, or as the benzoate in an oral suspension. The hydrochloride salt can be used in intravenous infusions. Metronidazole is a prodrug and is selective for anaerobic bacteria due to their ability to intracellularly reduce the nitro group of metronidazole to give nitroso-containing intermediates. These can covalently bind to DNA, disrupting its helical structure, inducing DNA strand breaks and inhibiting bacterial nucleic acid synthesis, ultimately resulting in bacterial cell death.",
+    "@id": "concept:VAOCPAMSLUNLGC-UHFFFAOYSA-N",
+    "@type": "skos:Concept",
+    "dbo:formula": "C6H9N3O3",
+    "dbo:inchi": "InChI=1S/C6H9N3O3/c1-5-7-4-6(9(11)12)8(5)2-3-10/h4,10H,2-3H2,1H3",
+    "dbo:smiles": "Cc1ncc(n1CCO)[N+]([O-])=O",
+    "dbp:inchikey": "VAOCPAMSLUNLGC-UHFFFAOYSA-N",
     "chebi:charge": "0",
-    "chebi:formula": "C6H9N3O3",
-    "chebi:inchi": "InChI=1S/C6H9N3O3/c1-5-7-4-6(9(11)12)8(5)2-3-10/h4,10H,2-3H2,1H3",
-    "chebi:inchikey": "VAOCPAMSLUNLGC-UHFFFAOYSA-N",
-    "chebi:smiles": "Cc1ncc(n1CCO)[N+]([O-])=O",
-    "geneontology:hasDbXref": [
-        "Beilstein:611683",
-        "CAS:443-48-1",
-        "Drug_Central:1790",
-        "DrugBank:DB00916",
-        "HMDB:HMDB0015052",
-        "KEGG:D00409",
-        "LINCS:LSM-5628",
-        "Patent:US2944061",
-        "PDBeChem:2MN",
-        "PMID:11906111",
-        "PMID:14702395",
-        "PMID:15739364",
-        "PMID:16304169",
-        "PMID:16901452",
-        "PMID:18397330",
-        "PMID:19485831",
-        "PMID:22226009",
-        "PMID:22252819",
-        "Reaxys:611683",
-        "VSDB:1826",
-        "Wikipedia:Metronidazole"
-    ],
-    "geneontology:hasId": "6909",
-    "geneontology:hasSynonym": [
+    "skos:altLabel": [
         "metronidazole",
         "1-(2-hydroxy-1-ethyl)-2-methyl-5-nitroimidazole",
         "1-(2-hydroxyethyl)-2-methyl-5-nitroimidazole",
@@ -51,11 +39,11 @@
         "metronidazol",
         "metronidazolum"
     ],
-    "geneontology:inSubset": {
-        "@id": "obo:chebi#3_STAR"
+    "skos:exactMatch": {
+        "@id": "obo:CHEBI_6909"
     },
-    "rdfs:label": "metronidazole",
-    "rdfs:subClassOf": [
+    "skos:note": "A member of the class of imidazoles substituted at C-1, -2 and -5 with 2-hydroxyethyl, nitro and methyl groups respectively. It has activity against anaerobic bacteria and protozoa, and has a radiosensitising effect on hypoxic tumour cells. It may be given by mouth in tablets, or as the benzoate in an oral suspension. The hydrochloride salt can be used in intravenous infusions. Metronidazole is a prodrug and is selective for anaerobic bacteria due to their ability to intracellularly reduce the nitro group of metronidazole to give nitroso-containing intermediates. These can covalently bind to DNA, disrupting its helical structure, inducing DNA strand breaks and inhibiting bacterial nucleic acid synthesis, ultimately resulting in bacterial cell death.",
+    "skos:semanticRelation": [
         {
             "@id": "obo:CHEBI_15734"
         },
@@ -64,36 +52,6 @@
         },
         {
             "@id": "obo:CHEBI_24780"
-        },
-        {
-            "@id": "b877_genid-00f1db82e1ab437c844115a94dc63e635-bn6909t11f33281"
-        },
-        {
-            "@id": "b877_genid-00f1db82e1ab437c844115a94dc63e635-bn6909t11f35442"
-        },
-        {
-            "@id": "b877_genid-00f1db82e1ab437c844115a94dc63e635-bn6909t11f35703"
-        },
-        {
-            "@id": "b877_genid-00f1db82e1ab437c844115a94dc63e635-bn6909t11f36047"
-        },
-        {
-            "@id": "b877_genid-00f1db82e1ab437c844115a94dc63e635-bn6909t11f50266"
-        },
-        {
-            "@id": "b877_genid-00f1db82e1ab437c844115a94dc63e635-bn6909t11f50685"
-        },
-        {
-            "@id": "b877_genid-00f1db82e1ab437c844115a94dc63e635-bn6909t5f64682"
-        },
-        {
-            "@id": "b877_genid-00f1db82e1ab437c844115a94dc63e635-bn6909t11f78298"
-        },
-        {
-            "@id": "b877_genid-00f1db82e1ab437c844115a94dc63e635-bn6909t11f132992"
-        },
-        {
-            "@id": "b877_genid-00f1db82e1ab437c844115a94dc63e635-bn6909t11f171664"
         }
     ]
 }

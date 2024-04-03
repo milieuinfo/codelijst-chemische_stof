@@ -1,43 +1,41 @@
 {
     "@context": {
-        "chebi": "http://purl.obolibrary.org/obo/chebi/",
         "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
         "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-        "obo": "http://purl.obolibrary.org/obo/"
+        "obo": "http://purl.obolibrary.org/obo/",
+        "uniprot": "http://purl.uniprot.org/",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "concept": "https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/",
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "dbo": "http://dbpedia.org/ontology/",
+        "dbp": "http://dbpedia.org/property/",
+        "altLabel": {
+            "@id": "http://www.w3.org/2004/02/skos/core#altLabel",
+            "@language": "en"
+        },
+        "graph": {
+            "@id": "@graph"
+        }
     },
-    "@id": "obo:CHEBI_82274",
-    "@type": "http://www.w3.org/2002/07/owl#Class",
-    "obo:IAO_0000115": "An organochlorine compound that is toluene in which all three hydrogens of the methyl group have been replaced by chlorines. It is used as an intermediate in organic synthesis and dye chemistry.",
+    "@id": "concept:XEMRAKSQROQPBR-UHFFFAOYSA-N",
+    "@type": "skos:Concept",
+    "dbo:formula": "C7H5Cl3",
+    "dbo:inchi": "InChI=1S/C7H5Cl3/c8-7(9,10)6-4-2-1-3-5-6/h1-5H",
+    "dbo:smiles": "C1=CC=CC(=C1)C(Cl)(Cl)Cl",
+    "dbp:inchikey": "XEMRAKSQROQPBR-UHFFFAOYSA-N",
     "chebi:charge": "0",
-    "chebi:formula": "C7H5Cl3",
-    "chebi:inchi": "InChI=1S/C7H5Cl3/c8-7(9,10)6-4-2-1-3-5-6/h1-5H",
-    "chebi:inchikey": "XEMRAKSQROQPBR-UHFFFAOYSA-N",
-    "chebi:smiles": "C1=CC=CC(=C1)C(Cl)(Cl)Cl",
-    "geneontology:hasDbXref": [
-        "CAS:98-07-7",
-        "KEGG:C19166",
-        "Patent:US1828858",
-        "PMID:106269",
-        "PMID:15318374",
-        "PMID:21089811",
-        "PMID:21850111",
-        "PMID:3791187",
-        "PMID:6751993",
-        "PMID:8262817",
-        "Wikipedia:Benzotrichloride"
-    ],
-    "geneontology:hasId": "82274",
-    "geneontology:hasSynonym": [
+    "skos:altLabel": [
         "1-(trichloromethyl)benzene",
         "alpha,alpha,alpha-trichlorotoluene",
         "benzotrichloride",
         "phenylchloroform"
     ],
-    "geneontology:inSubset": {
-        "@id": "obo:chebi#3_STAR"
+    "skos:exactMatch": {
+        "@id": "obo:CHEBI_82274"
     },
-    "rdfs:label": "(trichloromethyl)benzene",
-    "rdfs:subClassOf": [
+    "skos:note": "An organochlorine compound that is toluene in which all three hydrogens of the methyl group have been replaced by chlorines. It is used as an intermediate in organic synthesis and dye chemistry.",
+    "skos:semanticRelation": [
         {
             "@id": "obo:CHEBI_22712"
         },
@@ -46,9 +44,6 @@
         },
         {
             "@id": "obo:CHEBI_134179"
-        },
-        {
-            "@id": "b163_genid-00f1db82e1ab437c844115a94dc63e635-bn82274t11f50903"
         }
     ]
 }

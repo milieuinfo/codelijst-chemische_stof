@@ -1,41 +1,41 @@
 {
     "@context": {
-        "chebi": "http://purl.obolibrary.org/obo/chebi/",
         "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
         "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-        "obo": "http://purl.obolibrary.org/obo/"
+        "obo": "http://purl.obolibrary.org/obo/",
+        "uniprot": "http://purl.uniprot.org/",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "concept": "https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/",
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "dbo": "http://dbpedia.org/ontology/",
+        "dbp": "http://dbpedia.org/property/",
+        "altLabel": {
+            "@id": "http://www.w3.org/2004/02/skos/core#altLabel",
+            "@language": "en"
+        },
+        "graph": {
+            "@id": "@graph"
+        }
     },
-    "@id": "obo:CHEBI_3388",
-    "@type": "http://www.w3.org/2002/07/owl#Class",
-    "obo:IAO_0000115": "An  epoxide and metabolite of carbamazepine.",
+    "@id": "concept:ZRWWEEVEIOGMMT-UHFFFAOYSA-N",
+    "@type": "skos:Concept",
+    "dbo:formula": "C15H12N2O2",
+    "dbo:inchi": "InChI=1S/C15H12N2O2/c16-15(18)17-11-7-3-1-5-9(11)13-14(19-13)10-6-2-4-8-12(10)17/h1-8,13-14H,(H2,16,18)",
+    "dbo:smiles": "NC(=O)N1c2ccccc2C2OC2c2ccccc12",
+    "dbp:inchikey": "ZRWWEEVEIOGMMT-UHFFFAOYSA-N",
     "chebi:charge": "0",
-    "chebi:formula": "C15H12N2O2",
-    "chebi:inchi": "InChI=1S/C15H12N2O2/c16-15(18)17-11-7-3-1-5-9(11)13-14(19-13)10-6-2-4-8-12(10)17/h1-8,13-14H,(H2,16,18)",
-    "chebi:inchikey": "ZRWWEEVEIOGMMT-UHFFFAOYSA-N",
-    "chebi:smiles": "NC(=O)N1c2ccccc2C2OC2c2ccccc12",
-    "geneontology:hasDbXref": [
-        "PMID:22322005",
-        "Beilstein:1219988",
-        "CAS:36507-30-9",
-        "HMDB:HMDB0060658",
-        "KEGG:C07496",
-        "PMID:22443929",
-        "PMID:24632353",
-        "PMID:7233491",
-        "Reaxys:1219988"
-    ],
-    "geneontology:hasId": "3388",
-    "geneontology:hasSynonym": [
+    "skos:altLabel": [
         "10,11-Epoxycarbamazepine",
         "1a,10b-dihydro-6H-dibenzo[b,f]oxireno[d]azepine-6-carboxamide",
         "Carbamazepine 10,11-oxide",
         "Carbamazepine epoxide"
     ],
-    "geneontology:inSubset": {
-        "@id": "obo:chebi#3_STAR"
+    "skos:exactMatch": {
+        "@id": "obo:CHEBI_3388"
     },
-    "rdfs:label": "carbamazepine-10,11-epoxide",
-    "rdfs:subClassOf": [
+    "skos:note": "An  epoxide and metabolite of carbamazepine.",
+    "skos:semanticRelation": [
         {
             "@id": "obo:CHEBI_32955"
         },
@@ -44,18 +44,6 @@
         },
         {
             "@id": "obo:CHEBI_47857"
-        },
-        {
-            "@id": "b547_genid-00f1db82e1ab437c844115a94dc63e635-bn3388t8f3387"
-        },
-        {
-            "@id": "b547_genid-00f1db82e1ab437c844115a94dc63e635-bn3388t11f49103"
-        },
-        {
-            "@id": "b547_genid-00f1db82e1ab437c844115a94dc63e635-bn3388t11f50904"
-        },
-        {
-            "@id": "b547_genid-00f1db82e1ab437c844115a94dc63e635-bn3388t11f83399"
         }
     ]
 }

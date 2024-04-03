@@ -1,50 +1,27 @@
 {
     "@context": {
-        "chebi": "http://purl.obolibrary.org/obo/chebi/",
         "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
         "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-        "obo": "http://purl.obolibrary.org/obo/"
+        "obo": "http://purl.obolibrary.org/obo/",
+        "uniprot": "http://purl.uniprot.org/",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "concept": "https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/",
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "dbo": "http://dbpedia.org/ontology/",
+        "dbp": "http://dbpedia.org/property/",
+        "graph": {
+            "@id": "@graph"
+        }
     },
-    "@id": "obo:CHEBI_32168",
-    "@type": "http://www.w3.org/2002/07/owl#Class",
-    "obo:IAO_0000115": "A member of the class of benzamides obtained from formal condensation between the carboxy group of 2-methoxy-5-sulfamoylbenzoic acid and the primary amino group of (1-ethylpyrrolidin-2-yl)methylamine.",
+    "@id": "concept:BGRJTUBHPOOWDU-UHFFFAOYSA-N",
+    "@type": "skos:Concept",
+    "dbo:formula": "C15H23N3O4S",
+    "dbo:inchi": "InChI=1S/C15H23N3O4S/c1-3-18-8-4-5-11(18)10-17-15(19)13-9-12(23(16,20)21)6-7-14(13)22-2/h6-7,9,11H,3-5,8,10H2,1-2H3,(H,17,19)(H2,16,20,21)",
+    "dbo:smiles": "CCN1CCCC1CNC(=O)c1cc(ccc1OC)S(N)(=O)=O",
+    "dbp:inchikey": "BGRJTUBHPOOWDU-UHFFFAOYSA-N",
     "chebi:charge": "0",
-    "chebi:formula": "C15H23N3O4S",
-    "chebi:inchi": "InChI=1S/C15H23N3O4S/c1-3-18-8-4-5-11(18)10-17-15(19)13-9-12(23(16,20)21)6-7-14(13)22-2/h6-7,9,11H,3-5,8,10H2,1-2H3,(H,17,19)(H2,16,20,21)",
-    "chebi:inchikey": "BGRJTUBHPOOWDU-UHFFFAOYSA-N",
-    "chebi:smiles": "CCN1CCCC1CNC(=O)c1cc(ccc1OC)S(N)(=O)=O",
-    "geneontology:hasDbXref": [
-        "CAS:15676-16-1",
-        "Drug_Central:2537",
-        "DrugBank:DB00391",
-        "KEGG:D01226",
-        "LINCS:LSM-5080",
-        "Patent:DE2903891",
-        "Patent:US3342826",
-        "PMID:16327907",
-        "PMID:16924461",
-        "PMID:17912501",
-        "PMID:17942035",
-        "PMID:18757738",
-        "PMID:18985321",
-        "PMID:19370694",
-        "PMID:19546258",
-        "PMID:19672580",
-        "PMID:19864199",
-        "PMID:19941957",
-        "PMID:20061345",
-        "PMID:20091661",
-        "PMID:20177884",
-        "PMID:20304506",
-        "PMID:20305607",
-        "PMID:20538381",
-        "PMID:20599913",
-        "PMID:20875676",
-        "Reaxys:494008",
-        "Wikipedia:Sulpiride"
-    ],
-    "geneontology:hasId": "32168",
-    "geneontology:hasSynonym": [
+    "skos:altLabel": [
         "(+-)-sulpiride",
         "5-(Aminosulfonyl)-N-((1-ethyl-2-pyrrolidinyl)methyl)-2-methoxybenzamide",
         "N-((1-Ethyl-2-pyrrolidinyl)methyl)-2-methoxy-5-sulfamoylbenzamide",
@@ -55,11 +32,11 @@
         "sulpiridum",
         "Sulpyrid"
     ],
-    "geneontology:inSubset": {
-        "@id": "obo:chebi#3_STAR"
+    "skos:exactMatch": {
+        "@id": "obo:CHEBI_32168"
     },
-    "rdfs:label": "sulpiride",
-    "rdfs:subClassOf": [
+    "skos:note": "A member of the class of benzamides obtained from formal condensation between the carboxy group of 2-methoxy-5-sulfamoylbenzoic acid and the primary amino group of (1-ethylpyrrolidin-2-yl)methylamine.",
+    "skos:semanticRelation": [
         {
             "@id": "obo:CHEBI_46775"
         },
@@ -68,18 +45,6 @@
         },
         {
             "@id": "obo:CHEBI_35358"
-        },
-        {
-            "@id": "b172_genid-00f1db82e1ab437c844115a94dc63e635-bn32168t11f35469"
-        },
-        {
-            "@id": "b172_genid-00f1db82e1ab437c844115a94dc63e635-bn32168t11f35476"
-        },
-        {
-            "@id": "b172_genid-00f1db82e1ab437c844115a94dc63e635-bn32168t11f48561"
-        },
-        {
-            "@id": "b172_genid-00f1db82e1ab437c844115a94dc63e635-bn32168t11f50919"
         }
     ]
 }

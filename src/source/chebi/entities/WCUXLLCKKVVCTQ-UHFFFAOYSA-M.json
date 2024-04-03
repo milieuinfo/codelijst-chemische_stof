@@ -1,29 +1,31 @@
 {
     "@context": {
-        "chebi": "http://purl.obolibrary.org/obo/chebi/",
         "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
         "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-        "obo": "http://purl.obolibrary.org/obo/"
+        "obo": "http://purl.obolibrary.org/obo/",
+        "uniprot": "http://purl.uniprot.org/",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "concept": "https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/",
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "dbo": "http://dbpedia.org/ontology/",
+        "dbp": "http://dbpedia.org/property/",
+        "altLabel": {
+            "@id": "http://www.w3.org/2004/02/skos/core#altLabel",
+            "@language": "en"
+        },
+        "graph": {
+            "@id": "@graph"
+        }
     },
-    "@id": "obo:CHEBI_32588",
-    "@type": "http://www.w3.org/2002/07/owl#Class",
-    "obo:IAO_0000115": "A metal chloride salt with a K(+) counterion.",
+    "@id": "concept:WCUXLLCKKVVCTQ-UHFFFAOYSA-M",
+    "@type": "skos:Concept",
+    "dbo:formula": "ClK",
+    "dbo:inchi": "InChI=1S/ClH.K/h1H;/q;+1/p-1",
+    "dbo:smiles": "[Cl-].[K+]",
+    "dbp:inchikey": "WCUXLLCKKVVCTQ-UHFFFAOYSA-M",
     "chebi:charge": "0",
-    "chebi:formula": "ClK",
-    "chebi:inchi": "InChI=1S/ClH.K/h1H;/q;+1/p-1",
-    "chebi:inchikey": "WCUXLLCKKVVCTQ-UHFFFAOYSA-M",
-    "chebi:smiles": "[Cl-].[K+]",
-    "geneontology:hasDbXref": [
-        "CAS:7447-40-7",
-        "DrugBank:DB00761",
-        "KEGG:D02060",
-        "MetaCyc:KCL",
-        "MolBase:881",
-        "Reaxys:3534978",
-        "Wikipedia:Potassium_Chloride"
-    ],
-    "geneontology:hasId": "32588",
-    "geneontology:hasSynonym": [
+    "skos:altLabel": [
         "[KCl]",
         "Kaliumchlorid",
         "Kaon-Cl 10",
@@ -34,11 +36,11 @@
         "muriate of potash",
         "sylvite"
     ],
-    "geneontology:inSubset": {
-        "@id": "obo:chebi#3_STAR"
+    "skos:exactMatch": {
+        "@id": "obo:CHEBI_32588"
     },
-    "rdfs:label": "potassium chloride",
-    "rdfs:subClassOf": [
+    "skos:note": "A metal chloride salt with a K(+) counterion.",
+    "skos:semanticRelation": [
         {
             "@id": "obo:CHEBI_26218"
         },
@@ -47,9 +49,6 @@
         },
         {
             "@id": "obo:CHEBI_190303"
-        },
-        {
-            "@id": "b0_genid-00f1db82e1ab437c844115a94dc63e635-bn32588t11f33287"
         }
     ]
 }

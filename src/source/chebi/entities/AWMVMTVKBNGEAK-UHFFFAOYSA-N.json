@@ -1,34 +1,27 @@
 {
     "@context": {
-        "chebi": "http://purl.obolibrary.org/obo/chebi/",
         "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
         "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-        "obo": "http://purl.obolibrary.org/obo/"
+        "obo": "http://purl.obolibrary.org/obo/",
+        "uniprot": "http://purl.uniprot.org/",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "concept": "https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/",
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "dbo": "http://dbpedia.org/ontology/",
+        "dbp": "http://dbpedia.org/property/",
+        "graph": {
+            "@id": "@graph"
+        }
     },
-    "@id": "obo:CHEBI_17907",
-    "@type": "http://www.w3.org/2002/07/owl#Class",
-    "obo:IAO_0000115": "An epoxide that is oxirane in which one of the hydrogens has been replaced by a phenyl group.",
+    "@id": "concept:AWMVMTVKBNGEAK-UHFFFAOYSA-N",
+    "@type": "skos:Concept",
+    "dbo:formula": "C8H8O",
+    "dbo:inchi": "InChI=1S/C8H8O/c1-2-4-7(5-3-1)8-6-9-8/h1-5,8H,6H2",
+    "dbo:smiles": "C1OC1c1ccccc1",
+    "dbp:inchikey": "AWMVMTVKBNGEAK-UHFFFAOYSA-N",
     "chebi:charge": "0",
-    "chebi:formula": "C8H8O",
-    "chebi:inchi": "InChI=1S/C8H8O/c1-2-4-7(5-3-1)8-6-9-8/h1-5,8H,6H2",
-    "chebi:inchikey": "AWMVMTVKBNGEAK-UHFFFAOYSA-N",
-    "chebi:smiles": "C1OC1c1ccccc1",
-    "http://purl.uniprot.org/core/name": "styrene oxide",
-    "geneontology:hasDbXref": [
-        "PMID:24320693",
-        "Beilstein:108582",
-        "CAS:96-09-3",
-        "Gmelin:50213",
-        "KEGG:C02083",
-        "MetaCyc:2-Phenyloxirane",
-        "PMID:11551533",
-        "PMID:19245253",
-        "Reaxys:108582",
-        "UM-BBD_compID:c0037",
-        "Wikipedia:Styrene_oxide"
-    ],
-    "geneontology:hasId": "17907",
-    "geneontology:hasSynonym": [
+    "skos:altLabel": [
         "(epoxyethyl)benzene",
         "1,2-epoxy-1-phenylethane",
         "1,2-epoxyethylbenzene",
@@ -49,19 +42,11 @@
         "Styrene oxide",
         "styryl oxide"
     ],
-    "geneontology:inSubset": {
-        "@id": "obo:chebi#3_STAR"
+    "skos:exactMatch": {
+        "@id": "obo:CHEBI_17907"
     },
-    "rdfs:label": "styrene oxide",
-    "rdfs:subClassOf": [
-        {
-            "@id": "obo:CHEBI_32955"
-        },
-        {
-            "@id": "b109_genid-00f1db82e1ab437c844115a94dc63e635-bn17907t9f27452"
-        },
-        {
-            "@id": "b109_genid-00f1db82e1ab437c844115a94dc63e635-bn17907t11f76967"
-        }
-    ]
+    "skos:note": "An epoxide that is oxirane in which one of the hydrogens has been replaced by a phenyl group.",
+    "skos:semanticRelation": {
+        "@id": "obo:CHEBI_32955"
+    }
 }

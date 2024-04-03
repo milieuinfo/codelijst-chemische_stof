@@ -1,52 +1,41 @@
 {
     "@context": {
-        "chebi": "http://purl.obolibrary.org/obo/chebi/",
         "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
         "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-        "obo": "http://purl.obolibrary.org/obo/"
+        "obo": "http://purl.obolibrary.org/obo/",
+        "uniprot": "http://purl.uniprot.org/",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "concept": "https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/",
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "dbo": "http://dbpedia.org/ontology/",
+        "dbp": "http://dbpedia.org/property/",
+        "altLabel": {
+            "@id": "http://www.w3.org/2004/02/skos/core#altLabel",
+            "@language": "en"
+        },
+        "graph": {
+            "@id": "@graph"
+        }
     },
-    "@id": "obo:CHEBI_4629",
-    "@type": "http://www.w3.org/2002/07/owl#Class",
-    "obo:IAO_0000115": "A  sapogenin that is spirostan which is substituted by a hydroxy group at the 3beta position, contains a double bond at the 5-6 position, and has R- configuration at position 25. A natural product found in Dioscorea (wild yam) species, it is used as the starting point for the commercial synthesis of a number of steroids, including cortisone, pregnenolone and progesterone.",
+    "@id": "concept:WQLVFSAGQJTQCK-VKROHFNGSA-N",
+    "@type": "skos:Concept",
+    "dbo:formula": "C27H42O3",
+    "dbo:inchi": "InChI=1S/C27H42O3/c1-16-7-12-27(29-15-16)17(2)24-23(30-27)14-22-20-6-5-18-13-19(28)8-10-25(18,3)21(20)9-11-26(22,24)4/h5,16-17,19-24,28H,6-15H2,1-4H3/t16-,17+,19+,20-,21+,22+,23+,24+,25+,26+,27-/m1/s1",
+    "dbo:smiles": "[H][C@]12C[C@@]3([H])[C@]4([H])CC=C5C[C@@H](O)CC[C@]5(C)[C@@]4([H])CC[C@]3(C)[C@@]1([H])[C@H](C)[C@@]1(CC[C@@H](C)CO1)O2",
+    "dbp:inchikey": "WQLVFSAGQJTQCK-VKROHFNGSA-N",
     "chebi:charge": "0",
-    "chebi:formula": "C27H42O3",
-    "chebi:inchi": "InChI=1S/C27H42O3/c1-16-7-12-27(29-15-16)17(2)24-23(30-27)14-22-20-6-5-18-13-19(28)8-10-25(18,3)21(20)9-11-26(22,24)4/h5,16-17,19-24,28H,6-15H2,1-4H3/t16-,17+,19+,20-,21+,22+,23+,24+,25+,26+,27-/m1/s1",
-    "chebi:inchikey": "WQLVFSAGQJTQCK-VKROHFNGSA-N",
-    "chebi:smiles": "[H][C@]12C[C@@]3([H])[C@]4([H])CC=C5C[C@@H](O)CC[C@]5(C)[C@@]4([H])CC[C@]3(C)[C@@]1([H])[C@H](C)[C@@]1(CC[C@@H](C)CO1)O2",
-    "http://purl.uniprot.org/core/name": "diosgenin",
-    "geneontology:hasDbXref": [
-        "CAS:512-04-9",
-        "KEGG:C08898",
-        "KNApSAcK:C00003576",
-        "LIPID_MAPS_instance:LMST01080037",
-        "Patent:US3019220",
-        "PMID:20622501",
-        "PMID:21391660",
-        "PMID:21990007",
-        "PMID:22266324",
-        "PMID:22719792",
-        "PMID:22754381",
-        "PMID:22837815",
-        "PMID:22901014",
-        "PMID:22904823",
-        "PMID:23246979",
-        "PMID:23302635",
-        "PMID:23423339",
-        "Reaxys:94582",
-        "Wikipedia:Diosgenin"
-    ],
-    "geneontology:hasId": "4629",
-    "geneontology:hasSynonym": [
+    "skos:altLabel": [
         "(20R,25R)-spirost-5-en-3beta-ol",
         "(25R)-spirost-5-en-3beta-ol",
         "(3beta,25R)-spirost-5-en-3-ol",
         "nitogenin"
     ],
-    "geneontology:inSubset": {
-        "@id": "obo:chebi#3_STAR"
+    "skos:exactMatch": {
+        "@id": "obo:CHEBI_4629"
     },
-    "rdfs:label": "diosgenin",
-    "rdfs:subClassOf": [
+    "skos:note": "A  sapogenin that is spirostan which is substituted by a hydroxy group at the 3beta position, contains a double bond at the 5-6 position, and has R- configuration at position 25. A natural product found in Dioscorea (wild yam) species, it is used as the starting point for the commercial synthesis of a number of steroids, including cortisone, pregnenolone and progesterone.",
+    "skos:semanticRelation": [
         {
             "@id": "obo:CHEBI_35348"
         },
@@ -58,21 +47,6 @@
         },
         {
             "@id": "obo:CHEBI_72600"
-        },
-        {
-            "@id": "b75_genid-00f1db82e1ab437c844115a94dc63e635-bn4629t11f22587"
-        },
-        {
-            "@id": "b75_genid-00f1db82e1ab437c844115a94dc63e635-bn4629t11f25212"
-        },
-        {
-            "@id": "b75_genid-00f1db82e1ab437c844115a94dc63e635-bn4629t9f26745"
-        },
-        {
-            "@id": "b75_genid-00f1db82e1ab437c844115a94dc63e635-bn4629t11f35610"
-        },
-        {
-            "@id": "b75_genid-00f1db82e1ab437c844115a94dc63e635-bn4629t11f68495"
         }
     ]
 }

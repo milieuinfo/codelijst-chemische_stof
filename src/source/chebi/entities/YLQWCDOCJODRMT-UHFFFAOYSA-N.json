@@ -1,34 +1,31 @@
 {
     "@context": {
-        "chebi": "http://purl.obolibrary.org/obo/chebi/",
         "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
         "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-        "obo": "http://purl.obolibrary.org/obo/"
+        "obo": "http://purl.obolibrary.org/obo/",
+        "uniprot": "http://purl.uniprot.org/",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "concept": "https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/",
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "dbo": "http://dbpedia.org/ontology/",
+        "dbp": "http://dbpedia.org/property/",
+        "altLabel": {
+            "@id": "http://www.w3.org/2004/02/skos/core#altLabel",
+            "@language": "en"
+        },
+        "graph": {
+            "@id": "@graph"
+        }
     },
-    "@id": "obo:CHEBI_17922",
-    "@type": "http://www.w3.org/2002/07/owl#Class",
-    "obo:IAO_0000115": "The simplest member of the class  fluoren-9-ones that is 9H-fluorene bearing an oxo substituent at position 9.",
+    "@id": "concept:YLQWCDOCJODRMT-UHFFFAOYSA-N",
+    "@type": "skos:Concept",
+    "dbo:formula": "C13H8O",
+    "dbo:inchi": "InChI=1S/C13H8O/c14-13-11-7-3-1-5-9(11)10-6-2-4-8-12(10)13/h1-8H",
+    "dbo:smiles": "O=C1c2ccccc2-c2ccccc12",
+    "dbp:inchikey": "YLQWCDOCJODRMT-UHFFFAOYSA-N",
     "chebi:charge": "0",
-    "chebi:formula": "C13H8O",
-    "chebi:inchi": "InChI=1S/C13H8O/c14-13-11-7-3-1-5-9(11)10-6-2-4-8-12(10)13/h1-8H",
-    "chebi:inchikey": "YLQWCDOCJODRMT-UHFFFAOYSA-N",
-    "chebi:smiles": "O=C1c2ccccc2-c2ccccc12",
-    "http://purl.uniprot.org/core/name": "9H-fluoren-9-one",
-    "geneontology:hasDbXref": [
-        "PMID:8328814",
-        "CAS:486-25-9",
-        "KEGG:C06712",
-        "MetaCyc:9FLUORENONE",
-        "PMID:25756381",
-        "PMID:28079374",
-        "PMID:34016776",
-        "PMID:34043310",
-        "Reaxys:1636531",
-        "UM-BBD_compID:c0390",
-        "Wikipedia:Fluorenone"
-    ],
-    "geneontology:hasId": "17922",
-    "geneontology:hasSynonym": [
+    "skos:altLabel": [
         "9H-fluoren-9-one",
         "9-fluorenone",
         "9-Fluorenone",
@@ -37,16 +34,11 @@
         "Fluoren-9-one",
         "Fluorenone"
     ],
-    "geneontology:inSubset": {
-        "@id": "obo:chebi#3_STAR"
+    "skos:exactMatch": {
+        "@id": "obo:CHEBI_17922"
     },
-    "rdfs:label": "fluoren-9-one",
-    "rdfs:subClassOf": [
-        {
-            "@id": "obo:CHEBI_24057"
-        },
-        {
-            "@id": "b357_genid-00f1db82e1ab437c844115a94dc63e635-bn17922t11f76968"
-        }
-    ]
+    "skos:note": "The simplest member of the class  fluoren-9-ones that is 9H-fluorene bearing an oxo substituent at position 9.",
+    "skos:semanticRelation": {
+        "@id": "obo:CHEBI_24057"
+    }
 }

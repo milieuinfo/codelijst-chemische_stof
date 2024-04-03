@@ -1,36 +1,31 @@
 {
     "@context": {
-        "chebi": "http://purl.obolibrary.org/obo/chebi/",
         "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
         "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-        "obo": "http://purl.obolibrary.org/obo/"
+        "obo": "http://purl.obolibrary.org/obo/",
+        "uniprot": "http://purl.uniprot.org/",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "concept": "https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/",
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "dbo": "http://dbpedia.org/ontology/",
+        "dbp": "http://dbpedia.org/property/",
+        "altLabel": {
+            "@id": "http://www.w3.org/2004/02/skos/core#altLabel",
+            "@language": "en"
+        },
+        "graph": {
+            "@id": "@graph"
+        }
     },
-    "@id": "obo:CHEBI_36946",
-    "@type": "http://www.w3.org/2002/07/owl#Class",
-    "obo:IAO_0000115": "The simplest member of the thiourea class, consisting of urea with the oxygen atom substituted by sulfur.",
+    "@id": "concept:UMGDCJDMYOKAJW-UHFFFAOYSA-N",
+    "@type": "skos:Concept",
+    "dbo:formula": "CH4N2S",
+    "dbo:inchi": "InChI=1S/CH4N2S/c2-1(3)4/h(H4,2,3,4)",
+    "dbo:smiles": "NC(N)=S",
+    "dbp:inchikey": "UMGDCJDMYOKAJW-UHFFFAOYSA-N",
     "chebi:charge": "0",
-    "chebi:formula": "CH4N2S",
-    "chebi:inchi": "InChI=1S/CH4N2S/c2-1(3)4/h(H4,2,3,4)",
-    "chebi:inchikey": "UMGDCJDMYOKAJW-UHFFFAOYSA-N",
-    "chebi:smiles": "NC(N)=S",
-    "geneontology:hasDbXref": [
-        "Beilstein:605327",
-        "CAS:62-56-6",
-        "Gmelin:1604",
-        "KEGG:C14415",
-        "Patent:US2173067",
-        "Patent:US2357149",
-        "Patent:US2393917",
-        "Patent:US2552584",
-        "Patent:US2560596",
-        "PDBeChem:TOU",
-        "PMID:12102173",
-        "PPDB:641",
-        "Reaxys:605327",
-        "Wikipedia:Thiourea"
-    ],
-    "geneontology:hasId": "36946",
-    "geneontology:hasSynonym": [
+    "skos:altLabel": [
         "2-thiourea",
         "aminothioamide",
         "aminothiocarboxamide",
@@ -45,11 +40,11 @@
         "THIOUREA",
         "tu"
     ],
-    "geneontology:inSubset": {
-        "@id": "obo:chebi#3_STAR"
+    "skos:exactMatch": {
+        "@id": "obo:CHEBI_36946"
     },
-    "rdfs:label": "thiourea",
-    "rdfs:subClassOf": [
+    "skos:note": "The simplest member of the thiourea class, consisting of urea with the oxygen atom substituted by sulfur.",
+    "skos:semanticRelation": [
         {
             "@id": "obo:CHEBI_47857"
         },
@@ -58,18 +53,6 @@
         },
         {
             "@id": "obo:CHEBI_51276"
-        },
-        {
-            "@id": "b807_genid-00f1db82e1ab437c844115a94dc63e635-bn36946t8f16199"
-        },
-        {
-            "@id": "b807_genid-00f1db82e1ab437c844115a94dc63e635-bn36946t11f22586"
-        },
-        {
-            "@id": "b807_genid-00f1db82e1ab437c844115a94dc63e635-bn36946t11f23240"
-        },
-        {
-            "@id": "b807_genid-00f1db82e1ab437c844115a94dc63e635-bn36946t8f36958"
         }
     ]
 }

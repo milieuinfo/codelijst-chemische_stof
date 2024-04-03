@@ -1,41 +1,27 @@
 {
     "@context": {
-        "chebi": "http://purl.obolibrary.org/obo/chebi/",
         "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
         "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-        "obo": "http://purl.obolibrary.org/obo/"
+        "obo": "http://purl.obolibrary.org/obo/",
+        "uniprot": "http://purl.uniprot.org/",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "concept": "https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/",
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "dbo": "http://dbpedia.org/ontology/",
+        "dbp": "http://dbpedia.org/property/",
+        "graph": {
+            "@id": "@graph"
+        }
     },
-    "@id": "obo:CHEBI_6964",
-    "@type": "http://www.w3.org/2002/07/owl#Class",
-    "obo:IAO_0000115": "A member of the class of azepanes that is azepane in which the nitrogen is substituted by an (ethylsulfanyl)carbonyl group, -C(=O)SEt. A thiocarbamate herbicide not approved for use in the U.S. or European Union, it is used control grass weeds in rice paddies.",
+    "@id": "concept:DEDOPGXGGQYYMW-UHFFFAOYSA-N",
+    "@type": "skos:Concept",
+    "dbo:formula": "C9H17NOS",
+    "dbo:inchi": "InChI=1S/C9H17NOS/c1-2-12-9(11)10-7-5-3-4-6-8-10/h2-8H2,1H3",
+    "dbo:smiles": "C1CN(C(SCC)=O)CCCC1",
+    "dbp:inchikey": "DEDOPGXGGQYYMW-UHFFFAOYSA-N",
     "chebi:charge": "0",
-    "chebi:formula": "C9H17NOS",
-    "chebi:inchi": "InChI=1S/C9H17NOS/c1-2-12-9(11)10-7-5-3-4-6-8-10/h2-8H2,1H3",
-    "chebi:inchikey": "DEDOPGXGGQYYMW-UHFFFAOYSA-N",
-    "chebi:smiles": "C1CN(C(SCC)=O)CCCC1",
-    "geneontology:hasDbXref": [
-        "AGR:IND91023048",
-        "CAS:2212-67-1",
-        "KEGG:C11086",
-        "Pesticides:molinate",
-        "PMID:11452140",
-        "PMID:16380149",
-        "PMID:16417035",
-        "PMID:19545510",
-        "PMID:20862524",
-        "PMID:20954713",
-        "PMID:21216347",
-        "PMID:22456730",
-        "PMID:24193246",
-        "PMID:24928378",
-        "PMID:24946031",
-        "PMID:25636851",
-        "PMID:25905461",
-        "PMID:27421102",
-        "PPDB:473"
-    ],
-    "geneontology:hasId": "6964",
-    "geneontology:hasSynonym": [
+    "skos:altLabel": [
         "ethyl 1-hexamethyleneiminecarbothiolate",
         "Ordram",
         "S-ethyl 1-hexamethyleneiminothiocarbamate",
@@ -48,25 +34,16 @@
         "S-ethyl perhydroazepine-1-carbothioate",
         "S-ethyl perhydroazepine-1-thiocarboxylate"
     ],
-    "geneontology:inSubset": {
-        "@id": "obo:chebi#3_STAR"
+    "skos:exactMatch": {
+        "@id": "obo:CHEBI_6964"
     },
-    "rdfs:label": "molinate",
-    "rdfs:subClassOf": [
-        {
-            "@id": "b440_genid-00f1db82e1ab437c844115a94dc63e635-bn6964t11f24527"
-        },
-        {
-            "@id": "b440_genid-00f1db82e1ab437c844115a94dc63e635-bn6964t11f33286"
-        },
+    "skos:note": "A member of the class of azepanes that is azepane in which the nitrogen is substituted by an (ethylsulfanyl)carbonyl group, -C(=O)SEt. A thiocarbamate herbicide not approved for use in the U.S. or European Union, it is used control grass weeds in rice paddies.",
+    "skos:semanticRelation": [
         {
             "@id": "obo:CHEBI_38128"
         },
         {
             "@id": "obo:CHEBI_46986"
-        },
-        {
-            "@id": "b440_genid-00f1db82e1ab437c844115a94dc63e635-bn6964t11f145047"
         }
     ]
 }

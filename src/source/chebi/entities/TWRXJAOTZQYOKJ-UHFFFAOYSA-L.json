@@ -1,38 +1,42 @@
 {
     "@context": {
-        "chebi": "http://purl.obolibrary.org/obo/chebi/",
         "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
         "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-        "obo": "http://purl.obolibrary.org/obo/"
+        "obo": "http://purl.obolibrary.org/obo/",
+        "uniprot": "http://purl.uniprot.org/",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "concept": "https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/",
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "dbo": "http://dbpedia.org/ontology/",
+        "dbp": "http://dbpedia.org/property/",
+        "altLabel": {
+            "@id": "http://www.w3.org/2004/02/skos/core#altLabel",
+            "@language": "en"
+        },
+        "graph": {
+            "@id": "@graph"
+        }
     },
-    "@id": "obo:CHEBI_6636",
-    "@type": "http://www.w3.org/2002/07/owl#Class",
-    "obo:IAO_0000115": "A magnesium salt comprising of two chlorine atoms bound to a magnesium atom.",
+    "@id": "concept:TWRXJAOTZQYOKJ-UHFFFAOYSA-L",
+    "@type": "skos:Concept",
+    "dbo:formula": "Cl2Mg",
+    "dbo:inchi": "InChI=1S/2ClH.Mg/h2*1H;/q;;+2/p-2",
+    "dbo:smiles": "[Mg++].[Cl-].[Cl-]",
+    "dbp:inchikey": "TWRXJAOTZQYOKJ-UHFFFAOYSA-L",
     "chebi:charge": "0",
-    "chebi:formula": "Cl2Mg",
-    "chebi:inchi": "InChI=1S/2ClH.Mg/h2*1H;/q;;+2/p-2",
-    "chebi:inchikey": "TWRXJAOTZQYOKJ-UHFFFAOYSA-L",
-    "chebi:smiles": "[Mg++].[Cl-].[Cl-]",
-    "geneontology:hasDbXref": [
-        "CAS:7786-30-3",
-        "Gmelin:9305",
-        "KEGG:C07755",
-        "MolBase:1868",
-        "Reaxys:8128169"
-    ],
-    "geneontology:hasId": "6636",
-    "geneontology:hasSynonym": [
+    "skos:altLabel": [
         "[MgCl2]",
         "Magnesiumchlorid",
         "Magnesium chloride",
         "Magnesium chloride anhydrous",
         "MgCl2"
     ],
-    "geneontology:inSubset": {
-        "@id": "obo:chebi#3_STAR"
+    "skos:exactMatch": {
+        "@id": "obo:CHEBI_6636"
     },
-    "rdfs:label": "magnesium dichloride",
-    "rdfs:subClassOf": [
+    "skos:note": "A magnesium salt comprising of two chlorine atoms bound to a magnesium atom.",
+    "skos:semanticRelation": [
         {
             "@id": "obo:CHEBI_36093"
         },

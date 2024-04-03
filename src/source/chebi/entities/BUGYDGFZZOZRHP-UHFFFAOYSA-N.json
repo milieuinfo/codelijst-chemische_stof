@@ -1,47 +1,27 @@
 {
     "@context": {
-        "chebi": "http://purl.obolibrary.org/obo/chebi/",
         "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
         "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-        "obo": "http://purl.obolibrary.org/obo/"
+        "obo": "http://purl.obolibrary.org/obo/",
+        "uniprot": "http://purl.uniprot.org/",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "concept": "https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/",
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "dbo": "http://dbpedia.org/ontology/",
+        "dbp": "http://dbpedia.org/property/",
+        "graph": {
+            "@id": "@graph"
+        }
     },
-    "@id": "obo:CHEBI_64312",
-    "@type": "http://www.w3.org/2002/07/owl#Class",
-    "obo:IAO_0000115": "A primary aliphatic amine that is the 3,5-dimethyl derivative of 1-aminoadamantane. A low to moderate affinity uncompetitive (open-channel); NMDA receptor antagonist which binds preferentially to the NMDA receptor-operated cation channels.",
+    "@id": "concept:BUGYDGFZZOZRHP-UHFFFAOYSA-N",
+    "@type": "skos:Concept",
+    "dbo:formula": "C12H21N",
+    "dbo:inchi": "InChI=1S/C12H21N/c1-10-3-9-4-11(2,6-10)8-12(13,5-9)7-10/h9H,3-8,13H2,1-2H3",
+    "dbo:smiles": "CC12CC3CC(C)(C1)CC(N)(C3)C2",
+    "dbp:inchikey": "BUGYDGFZZOZRHP-UHFFFAOYSA-N",
     "chebi:charge": "0",
-    "chebi:formula": "C12H21N",
-    "chebi:inchi": "InChI=1S/C12H21N/c1-10-3-9-4-11(2,6-10)8-12(13,5-9)7-10/h9H,3-8,13H2,1-2H3",
-    "chebi:inchikey": "BUGYDGFZZOZRHP-UHFFFAOYSA-N",
-    "chebi:smiles": "CC12CC3CC(C)(C1)CC(N)(C3)C2",
-    "geneontology:hasDbXref": [
-        "CAS:19982-08-2",
-        "Drug_Central:1679",
-        "DrugBank:DB01043",
-        "KEGG:C13736",
-        "KEGG:D08174",
-        "LINCS:LSM-5154",
-        "Patent:US2011282100",
-        "PMID:20104942",
-        "PMID:21953515",
-        "PMID:21955815",
-        "PMID:22030128",
-        "PMID:22134197",
-        "PMID:22245025",
-        "PMID:22248638",
-        "PMID:22290557",
-        "PMID:22297273",
-        "PMID:22300835",
-        "PMID:22311362",
-        "PMID:22327556",
-        "PMID:22329473",
-        "PMID:22392787",
-        "PMID:22414570",
-        "PMID:22425751",
-        "Reaxys:2075983",
-        "Wikipedia:Memantine"
-    ],
-    "geneontology:hasId": "64312",
-    "geneontology:hasSynonym": [
+    "skos:altLabel": [
         "1,3-Dimethyl-5-adamantanamine",
         "1-Amino-3,5-dimethyladamantane",
         "3,5-Dimethyl-1-adamantanamine",
@@ -51,40 +31,16 @@
         "memantina",
         "memantinum"
     ],
-    "geneontology:inSubset": {
-        "@id": "obo:chebi#3_STAR"
+    "skos:exactMatch": {
+        "@id": "obo:CHEBI_64312"
     },
-    "rdfs:label": "memantine",
-    "rdfs:subClassOf": [
+    "skos:note": "A primary aliphatic amine that is the 3,5-dimethyl derivative of 1-aminoadamantane. A low to moderate affinity uncompetitive (open-channel); NMDA receptor antagonist which binds preferentially to the NMDA receptor-operated cation channels.",
+    "skos:semanticRelation": [
         {
             "@id": "obo:CHEBI_17062"
         },
         {
             "@id": "obo:CHEBI_51339"
-        },
-        {
-            "@id": "b244_genid-00f1db82e1ab437c844115a94dc63e635-bn64312tmms73f64325"
-        },
-        {
-            "@id": "b244_genid-00f1db82e1ab437c844115a94dc63e635-bn64312t11f35469"
-        },
-        {
-            "@id": "b244_genid-00f1db82e1ab437c844115a94dc63e635-bn64312t9f40519"
-        },
-        {
-            "@id": "b244_genid-00f1db82e1ab437c844115a94dc63e635-bn64312t11f48407"
-        },
-        {
-            "@id": "b244_genid-00f1db82e1ab437c844115a94dc63e635-bn64312t11f48560"
-        },
-        {
-            "@id": "b244_genid-00f1db82e1ab437c844115a94dc63e635-bn64312t11f60643"
-        },
-        {
-            "@id": "b244_genid-00f1db82e1ab437c844115a94dc63e635-bn64312t11f63726"
-        },
-        {
-            "@id": "b244_genid-00f1db82e1ab437c844115a94dc63e635-bn64312t5f64325"
         }
     ]
 }

@@ -1,28 +1,17 @@
 {
     "@context": {
-        "chebi": "http://purl.obolibrary.org/obo/chebi/",
         "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
         "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-        "obo": "http://purl.obolibrary.org/obo/"
-    },
-    "@id": "obo:CHEBI_81914",
-    "@type": "http://www.w3.org/2002/07/owl#Class",
-    "chebi:charge": "0",
-    "chebi:formula": "C14H18N2O7",
-    "chebi:inchi": "InChI=1S/C14H18N2O7/c1-5-9(4)11-6-10(15(18)19)7-12(16(20)21)13(11)23-14(17)22-8(2)3/h6-9H,5H2,1-4H3",
-    "chebi:inchikey": "HDWLUGYOLUHEMN-UHFFFAOYSA-N",
-    "chebi:smiles": "CCC(C)c1cc(cc(c1OC(=O)OC(C)C)[N+]([O-])=O)[N+]([O-])=O",
-    "geneontology:hasDbXref": [
-        "CAS:973-21-7",
-        "KEGG:C18721",
-        "PPDB:249"
-    ],
-    "geneontology:hasId": "81914",
-    "geneontology:inSubset": {
-        "@id": "obo:chebi#2_STAR"
-    },
-    "rdfs:label": "Dinobuton",
-    "rdfs:subClassOf": {
-        "@id": "obo:CHEBI_35716"
+        "obo": "http://purl.obolibrary.org/obo/",
+        "uniprot": "http://purl.uniprot.org/",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "concept": "https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/",
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "dbo": "http://dbpedia.org/ontology/",
+        "dbp": "http://dbpedia.org/property/",
+        "graph": {
+            "@id": "@graph"
+        }
     }
 }

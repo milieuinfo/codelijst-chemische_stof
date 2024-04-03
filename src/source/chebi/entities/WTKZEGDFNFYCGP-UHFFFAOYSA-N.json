@@ -1,30 +1,31 @@
 {
     "@context": {
-        "chebi": "http://purl.obolibrary.org/obo/chebi/",
         "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
         "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-        "obo": "http://purl.obolibrary.org/obo/"
+        "obo": "http://purl.obolibrary.org/obo/",
+        "uniprot": "http://purl.uniprot.org/",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "concept": "https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/",
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "dbo": "http://dbpedia.org/ontology/",
+        "dbp": "http://dbpedia.org/property/",
+        "altLabel": {
+            "@id": "http://www.w3.org/2004/02/skos/core#altLabel",
+            "@language": "en"
+        },
+        "graph": {
+            "@id": "@graph"
+        }
     },
-    "@id": "obo:CHEBI_17241",
-    "@type": "http://www.w3.org/2002/07/owl#Class",
-    "obo:IAO_0000115": "The 1H-tautomer of pyrazole.",
+    "@id": "concept:WTKZEGDFNFYCGP-UHFFFAOYSA-N",
+    "@type": "skos:Concept",
+    "dbo:formula": "C3H4N2",
+    "dbo:inchi": "InChI=1S/C3H4N2/c1-2-4-5-3-1/h1-3H,(H,4,5)",
+    "dbo:smiles": "c1cn[nH]c1",
+    "dbp:inchikey": "WTKZEGDFNFYCGP-UHFFFAOYSA-N",
     "chebi:charge": "0",
-    "chebi:formula": "C3H4N2",
-    "chebi:inchi": "InChI=1S/C3H4N2/c1-2-4-5-3-1/h1-3H,(H,4,5)",
-    "chebi:inchikey": "WTKZEGDFNFYCGP-UHFFFAOYSA-N",
-    "chebi:smiles": "c1cn[nH]c1",
-    "http://purl.uniprot.org/core/name": "pyrazole",
-    "geneontology:hasDbXref": [
-        "Beilstein:103775",
-        "CAS:288-13-1",
-        "DrugBank:DB02757",
-        "Gmelin:1360",
-        "KEGG:C00481",
-        "PDBeChem:PZO",
-        "Reaxys:103775"
-    ],
-    "geneontology:hasId": "17241",
-    "geneontology:hasSynonym": [
+    "skos:altLabel": [
         "pyrazole",
         "1,2-Diazole",
         "1H-Pyrazol",
@@ -32,25 +33,11 @@
         "Pyrazole",
         "PYRAZOLE"
     ],
-    "geneontology:inSubset": {
-        "@id": "obo:chebi#3_STAR"
+    "skos:exactMatch": {
+        "@id": "obo:CHEBI_17241"
     },
-    "rdfs:label": "1H-pyrazole",
-    "rdfs:subClassOf": [
-        {
-            "@id": "obo:CHEBI_14973"
-        },
-        {
-            "@id": "b98_genid-00f1db82e1ab437c844115a94dc63e635-bn17241t4f30367"
-        },
-        {
-            "@id": "b98_genid-00f1db82e1ab437c844115a94dc63e635-bn17241t5f33140"
-        },
-        {
-            "@id": "b98_genid-00f1db82e1ab437c844115a94dc63e635-bn17241t7f38595"
-        },
-        {
-            "@id": "b98_genid-00f1db82e1ab437c844115a94dc63e635-bn17241t7f38599"
-        }
-    ]
+    "skos:note": "The 1H-tautomer of pyrazole.",
+    "skos:semanticRelation": {
+        "@id": "obo:CHEBI_14973"
+    }
 }

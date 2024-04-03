@@ -1,28 +1,17 @@
 {
     "@context": {
-        "chebi": "http://purl.obolibrary.org/obo/chebi/",
         "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
         "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-        "obo": "http://purl.obolibrary.org/obo/"
-    },
-    "@id": "obo:CHEBI_82199",
-    "@type": "http://www.w3.org/2002/07/owl#Class",
-    "chebi:charge": "0",
-    "chebi:formula": "C12H13ClN2O",
-    "chebi:inchi": "InChI=1S/C12H13ClN2O/c1-4-9(2)15(3)12(16)14-11-7-5-10(13)6-8-11/h1,5-9H,2-3H3,(H,14,16)",
-    "chebi:inchikey": "BYYMILHAKOURNM-UHFFFAOYSA-N",
-    "chebi:smiles": "CC(C#C)N(C)C(=O)Nc1ccc(Cl)cc1",
-    "geneontology:hasDbXref": [
-        "CAS:3766-60-7",
-        "KEGG:C19074",
-        "PPDB:1278"
-    ],
-    "geneontology:hasId": "82199",
-    "geneontology:inSubset": {
-        "@id": "obo:chebi#2_STAR"
-    },
-    "rdfs:label": "Buturon",
-    "rdfs:subClassOf": {
-        "@id": "obo:CHEBI_47857"
+        "obo": "http://purl.obolibrary.org/obo/",
+        "uniprot": "http://purl.uniprot.org/",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "concept": "https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/",
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "dbo": "http://dbpedia.org/ontology/",
+        "dbp": "http://dbpedia.org/property/",
+        "graph": {
+            "@id": "@graph"
+        }
     }
 }

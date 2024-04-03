@@ -1,29 +1,35 @@
 {
     "@context": {
-        "chebi": "http://purl.obolibrary.org/obo/chebi/",
         "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
         "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-        "obo": "http://purl.obolibrary.org/obo/"
+        "obo": "http://purl.obolibrary.org/obo/",
+        "uniprot": "http://purl.uniprot.org/",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "concept": "https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/",
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "dbo": "http://dbpedia.org/ontology/",
+        "dbp": "http://dbpedia.org/property/",
+        "altLabel": {
+            "@id": "http://www.w3.org/2004/02/skos/core#altLabel",
+            "@language": "en"
+        },
+        "graph": {
+            "@id": "@graph"
+        }
     },
-    "@id": "obo:CHEBI_186747",
-    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "@id": "concept:ZGEGCLOFRBLKSE-UHFFFAOYSA-N",
+    "@type": "skos:Concept",
+    "dbo:formula": "C7H14",
+    "dbo:inchi": "InChI=1S/C7H14/c1-3-5-7-6-4-2/h3H,1,4-7H2,2H3",
+    "dbo:smiles": "C(CCC=C)CC",
+    "dbp:inchikey": "ZGEGCLOFRBLKSE-UHFFFAOYSA-N",
     "chebi:charge": "0",
-    "chebi:formula": "C7H14",
-    "chebi:inchi": "InChI=1S/C7H14/c1-3-5-7-6-4-2/h3H,1,4-7H2,2H3",
-    "chebi:inchikey": "ZGEGCLOFRBLKSE-UHFFFAOYSA-N",
-    "chebi:smiles": "C(CCC=C)CC",
-    "geneontology:hasDbXref": [
-        "CAS:592-76-7",
-        "Chemspider:11121",
-        "LIPID_MAPS_instance:LMFA11000319"
-    ],
-    "geneontology:hasId": "186747",
-    "geneontology:hasSynonym": "hept-1-ene",
-    "geneontology:inSubset": {
-        "@id": "obo:chebi#2_STAR"
+    "skos:altLabel": "hept-1-ene",
+    "skos:exactMatch": {
+        "@id": "obo:CHEBI_186747"
     },
-    "rdfs:label": "1-Heptene",
-    "rdfs:subClassOf": {
+    "skos:semanticRelation": {
         "@id": "obo:CHEBI_24632"
     }
 }

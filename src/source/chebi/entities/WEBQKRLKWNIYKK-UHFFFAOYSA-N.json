@@ -1,25 +1,31 @@
 {
     "@context": {
-        "chebi": "http://purl.obolibrary.org/obo/chebi/",
         "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
         "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-        "obo": "http://purl.obolibrary.org/obo/"
+        "obo": "http://purl.obolibrary.org/obo/",
+        "uniprot": "http://purl.uniprot.org/",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "concept": "https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/",
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "dbo": "http://dbpedia.org/ontology/",
+        "dbp": "http://dbpedia.org/property/",
+        "altLabel": {
+            "@id": "http://www.w3.org/2004/02/skos/core#altLabel",
+            "@language": "en"
+        },
+        "graph": {
+            "@id": "@graph"
+        }
     },
-    "@id": "obo:CHEBI_38624",
-    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "@id": "concept:WEBQKRLKWNIYKK-UHFFFAOYSA-N",
+    "@type": "skos:Concept",
+    "dbo:formula": "C6H15O3PS2",
+    "dbo:inchi": "InChI=1S/C6H15O3PS2/c1-4-11-5-6-12-10(7,8-2)9-3/h4-6H2,1-3H3",
+    "dbo:smiles": "CCSCCSP(=O)(OC)OC",
+    "dbp:inchikey": "WEBQKRLKWNIYKK-UHFFFAOYSA-N",
     "chebi:charge": "0",
-    "chebi:formula": "C6H15O3PS2",
-    "chebi:inchi": "InChI=1S/C6H15O3PS2/c1-4-11-5-6-12-10(7,8-2)9-3/h4-6H2,1-3H3",
-    "chebi:inchikey": "WEBQKRLKWNIYKK-UHFFFAOYSA-N",
-    "chebi:smiles": "CCSCCSP(=O)(OC)OC",
-    "geneontology:hasDbXref": [
-        "Beilstein:1707311",
-        "CAS:919-86-8",
-        "KEGG:C18655",
-        "PPDB:206"
-    ],
-    "geneontology:hasId": "38624",
-    "geneontology:hasSynonym": [
+    "skos:altLabel": [
         "DSM",
         "O,O-dimethyl S-(2-(ethylthio)ethyl)phosphorothioate",
         "O,O-dimethyl S-ethylmercaptoethyl thiophosphate",
@@ -27,28 +33,15 @@
         "S-[2-(ethylsulfanyl)ethyl] O,O-dimethyl phosphorothioate",
         "S-[2-(ethylsulfanyl)ethyl] O,O-dimethyl thiophosphate"
     ],
-    "geneontology:inSubset": {
-        "@id": "obo:chebi#3_STAR"
+    "skos:exactMatch": {
+        "@id": "obo:CHEBI_38624"
     },
-    "rdfs:label": "demeton-S-methyl",
-    "rdfs:subClassOf": [
+    "skos:semanticRelation": [
         {
             "@id": "obo:CHEBI_37512"
         },
         {
             "@id": "obo:CHEBI_25715"
-        },
-        {
-            "@id": "b12_genid-00f1db82e1ab437c844115a94dc63e635-bn38624t11f22153"
-        },
-        {
-            "@id": "b12_genid-00f1db82e1ab437c844115a94dc63e635-bn38624t11f33286"
-        },
-        {
-            "@id": "b12_genid-00f1db82e1ab437c844115a94dc63e635-bn38624t11f38462"
-        },
-        {
-            "@id": "b12_genid-00f1db82e1ab437c844115a94dc63e635-bn38624t8f38625"
         }
     ]
 }

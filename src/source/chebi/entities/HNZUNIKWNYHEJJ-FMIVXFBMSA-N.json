@@ -1,66 +1,42 @@
 {
     "@context": {
-        "chebi": "http://purl.obolibrary.org/obo/chebi/",
         "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
         "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-        "obo": "http://purl.obolibrary.org/obo/"
+        "obo": "http://purl.obolibrary.org/obo/",
+        "uniprot": "http://purl.uniprot.org/",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "concept": "https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/",
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "dbo": "http://dbpedia.org/ontology/",
+        "dbp": "http://dbpedia.org/property/",
+        "altLabel": {
+            "@id": "http://www.w3.org/2004/02/skos/core#altLabel",
+            "@language": "en"
+        },
+        "graph": {
+            "@id": "@graph"
+        }
     },
-    "@id": "obo:CHEBI_67206",
-    "@type": "http://www.w3.org/2002/07/owl#Class",
-    "obo:IAO_0000115": "A monoterpene ketone in which an (E)-geranyl group is bonded to one of the alpha-methyls of acetone. It is a component of essential oils from various plants including  Nelumbo nucifera.",
+    "@id": "concept:HNZUNIKWNYHEJJ-FMIVXFBMSA-N",
+    "@type": "skos:Concept",
+    "dbo:formula": "C13H22O",
+    "dbo:inchi": "InChI=1S/C13H22O/c1-11(2)7-5-8-12(3)9-6-10-13(4)14/h7,9H,5-6,8,10H2,1-4H3/b12-9+",
+    "dbo:smiles": "CC(=O)CC\\C=C(/C)CCC=C(C)C",
+    "dbp:inchikey": "HNZUNIKWNYHEJJ-FMIVXFBMSA-N",
     "chebi:charge": "0",
-    "chebi:formula": "C13H22O",
-    "chebi:inchi": "InChI=1S/C13H22O/c1-11(2)7-5-8-12(3)9-6-10-13(4)14/h7,9H,5-6,8,10H2,1-4H3/b12-9+",
-    "chebi:inchikey": "HNZUNIKWNYHEJJ-FMIVXFBMSA-N",
-    "chebi:smiles": "CC(=O)CC\\C=C(/C)CCC=C(C)C",
-    "geneontology:hasDbXref": [
-        "AGR:IND44119406",
-        "AGR:IND44391750",
-        "CAS:3796-70-1",
-        "HMDB:HMDB0031846",
-        "PMID:11166310",
-        "PMID:19500173",
-        "PMID:19919095",
-        "PMID:20127888",
-        "PMID:20491081",
-        "PMID:20564458",
-        "PMID:20569134",
-        "PMID:20603878",
-        "PMID:20680414",
-        "PMID:21240765",
-        "PMID:22741541",
-        "Reaxys:1722277"
-    ],
-    "geneontology:hasId": "67206",
-    "geneontology:hasSynonym": [
+    "skos:altLabel": [
         "(5E)-6,10-dimethylundeca-5,9-dien-2-one",
         "(E)-6,10-dimethyl-5,9-undecadien-2-one",
         "(E)-6,10-Dimethylundeca-5,9-dien-2-one",
         "geranylacetone",
         "trans-Geranylacetone"
     ],
-    "geneontology:inSubset": {
-        "@id": "obo:chebi#3_STAR"
+    "skos:exactMatch": {
+        "@id": "obo:CHEBI_67206"
     },
-    "rdfs:label": "geranyl acetone",
-    "rdfs:subClassOf": [
-        {
-            "@id": "obo:CHEBI_25408"
-        },
-        {
-            "@id": "b913_genid-00f1db82e1ab437c844115a94dc63e635-bn67206t10f24224"
-        },
-        {
-            "@id": "b913_genid-00f1db82e1ab437c844115a94dc63e635-bn67206t11f27311"
-        },
-        {
-            "@id": "b913_genid-00f1db82e1ab437c844115a94dc63e635-bn67206t11f35617"
-        },
-        {
-            "@id": "b913_genid-00f1db82e1ab437c844115a94dc63e635-bn67206t11f48318"
-        },
-        {
-            "@id": "b913_genid-00f1db82e1ab437c844115a94dc63e635-bn67206t11f76924"
-        }
-    ]
+    "skos:note": "A monoterpene ketone in which an (E)-geranyl group is bonded to one of the alpha-methyls of acetone. It is a component of essential oils from various plants including  Nelumbo nucifera.",
+    "skos:semanticRelation": {
+        "@id": "obo:CHEBI_25408"
+    }
 }

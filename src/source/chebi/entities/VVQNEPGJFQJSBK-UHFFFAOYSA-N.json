@@ -1,43 +1,31 @@
 {
     "@context": {
-        "chebi": "http://purl.obolibrary.org/obo/chebi/",
         "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
         "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-        "obo": "http://purl.obolibrary.org/obo/"
+        "obo": "http://purl.obolibrary.org/obo/",
+        "uniprot": "http://purl.uniprot.org/",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "concept": "https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/",
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "dbo": "http://dbpedia.org/ontology/",
+        "dbp": "http://dbpedia.org/property/",
+        "altLabel": {
+            "@id": "http://www.w3.org/2004/02/skos/core#altLabel",
+            "@language": "en"
+        },
+        "graph": {
+            "@id": "@graph"
+        }
     },
-    "@id": "obo:CHEBI_34840",
-    "@type": "http://www.w3.org/2002/07/owl#Class",
-    "obo:IAO_0000115": "An enoate ester having methacrylic acid as the carboxylic acid component and methanol as the alcohol component.",
+    "@id": "concept:VVQNEPGJFQJSBK-UHFFFAOYSA-N",
+    "@type": "skos:Concept",
+    "dbo:formula": "C5H8O2",
+    "dbo:inchi": "InChI=1S/C5H8O2/c1-4(2)5(6)7-3/h1H2,2-3H3",
+    "dbo:smiles": "COC(C(C)=C)=O",
+    "dbp:inchikey": "VVQNEPGJFQJSBK-UHFFFAOYSA-N",
     "chebi:charge": "0",
-    "chebi:formula": "C5H8O2",
-    "chebi:inchi": "InChI=1S/C5H8O2/c1-4(2)5(6)7-3/h1H2,2-3H3",
-    "chebi:inchikey": "VVQNEPGJFQJSBK-UHFFFAOYSA-N",
-    "chebi:smiles": "COC(C(C)=C)=O",
-    "geneontology:hasDbXref": [
-        "PMID:10444249",
-        "PMID:11714252",
-        "Beilstein:605459",
-        "CAS:80-62-6",
-        "Gmelin:2691",
-        "HMDB:HMDB0032385",
-        "KEGG:C14527",
-        "PMID:16020090",
-        "PMID:22566411",
-        "PMID:23242048",
-        "PMID:23306624",
-        "PMID:23342990",
-        "PMID:23432523",
-        "PMID:23450227",
-        "PMID:23508285",
-        "PMID:23583434",
-        "PMID:23584430",
-        "PMID:23719017",
-        "PMID:9036138",
-        "Reaxys:605459",
-        "Wikipedia:Methyl_methacrylate"
-    ],
-    "geneontology:hasId": "34840",
-    "geneontology:hasSynonym": [
+    "skos:altLabel": [
         "MMA",
         "2-(Methoxycarbonyl)-1-propene",
         "2-Methyl-2-propenoic acid methyl ester",
@@ -54,25 +42,16 @@
         "Methyl methacrylate",
         "Methyl methylacrylate"
     ],
-    "geneontology:inSubset": {
-        "@id": "obo:chebi#3_STAR"
+    "skos:exactMatch": {
+        "@id": "obo:CHEBI_34840"
     },
-    "rdfs:label": "methyl methacrylate",
-    "rdfs:subClassOf": [
+    "skos:note": "An enoate ester having methacrylic acid as the carboxylic acid component and methanol as the alcohol component.",
+    "skos:semanticRelation": [
         {
             "@id": "obo:CHEBI_51702"
         },
         {
             "@id": "obo:CHEBI_25248"
-        },
-        {
-            "@id": "b1010_genid-00f1db82e1ab437c844115a94dc63e635-bn34840t8f25219"
-        },
-        {
-            "@id": "b1010_genid-00f1db82e1ab437c844115a94dc63e635-bn34840t11f50904"
-        },
-        {
-            "@id": "b1010_genid-00f1db82e1ab437c844115a94dc63e635-bn34840t11f74236"
         }
     ]
 }

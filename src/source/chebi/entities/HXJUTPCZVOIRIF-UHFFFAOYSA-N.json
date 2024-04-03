@@ -1,33 +1,31 @@
 {
     "@context": {
-        "chebi": "http://purl.obolibrary.org/obo/chebi/",
         "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
         "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-        "obo": "http://purl.obolibrary.org/obo/"
+        "obo": "http://purl.obolibrary.org/obo/",
+        "uniprot": "http://purl.uniprot.org/",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "concept": "https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/",
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "dbo": "http://dbpedia.org/ontology/",
+        "dbp": "http://dbpedia.org/property/",
+        "altLabel": {
+            "@id": "http://www.w3.org/2004/02/skos/core#altLabel",
+            "@language": "en"
+        },
+        "graph": {
+            "@id": "@graph"
+        }
     },
-    "@id": "obo:CHEBI_74794",
-    "@type": "http://www.w3.org/2002/07/owl#Class",
-    "obo:IAO_0000115": "A member of the class of tetrahydrothiophenes that is tetrahydrothiophene in which the sulfur has been oxidised to give the corresponding sulfone. A colourless, high-boiling (285degreeC) liquid that is miscible with both water and hydrocarbons, it is used as an industrial solvent, particularly for the purification of hydrocarbon mixtures by liquid-vapour extraction.",
+    "@id": "concept:HXJUTPCZVOIRIF-UHFFFAOYSA-N",
+    "@type": "skos:Concept",
+    "dbo:formula": "C4H8O2S",
+    "dbo:inchi": "InChI=1S/C4H8O2S/c5-7(6)3-1-2-4-7/h1-4H2",
+    "dbo:smiles": "O=S1(=O)CCCC1",
+    "dbp:inchikey": "HXJUTPCZVOIRIF-UHFFFAOYSA-N",
     "chebi:charge": "0",
-    "chebi:formula": "C4H8O2S",
-    "chebi:inchi": "InChI=1S/C4H8O2S/c5-7(6)3-1-2-4-7/h1-4H2",
-    "chebi:inchikey": "HXJUTPCZVOIRIF-UHFFFAOYSA-N",
-    "chebi:smiles": "O=S1(=O)CCCC1",
-    "geneontology:hasDbXref": [
-        "CAS:126-33-0",
-        "MetaCyc:CPD-3747",
-        "Patent:US2360859",
-        "PMID:11878596",
-        "PMID:22219044",
-        "PMID:22918536",
-        "PMID:22936336",
-        "PMID:3709502",
-        "PMID:4071560",
-        "Reaxys:107765",
-        "Wikipedia:Sulfolane"
-    ],
-    "geneontology:hasId": "74794",
-    "geneontology:hasSynonym": [
+    "skos:altLabel": [
         "(CH2)4SO2",
         "1,1-dioxidetetrahydrothiofuran",
         "1,1-dioxidetetrahydrothiophene",
@@ -45,22 +43,16 @@
         "thiophane dioxide",
         "thiophan sulfone"
     ],
-    "geneontology:inSubset": {
-        "@id": "obo:chebi#3_STAR"
+    "skos:exactMatch": {
+        "@id": "obo:CHEBI_74794"
     },
-    "rdfs:label": "sulfolane",
-    "rdfs:subClassOf": [
+    "skos:note": "A member of the class of tetrahydrothiophenes that is tetrahydrothiophene in which the sulfur has been oxidised to give the corresponding sulfone. A colourless, high-boiling (285degreeC) liquid that is miscible with both water and hydrocarbons, it is used as an industrial solvent, particularly for the purification of hydrocarbon mixtures by liquid-vapour extraction.",
+    "skos:semanticRelation": [
         {
             "@id": "obo:CHEBI_48224"
         },
         {
             "@id": "obo:CHEBI_35850"
-        },
-        {
-            "@id": "b44_genid-00f1db82e1ab437c844115a94dc63e635-bn74794t11f48358"
-        },
-        {
-            "@id": "b44_genid-00f1db82e1ab437c844115a94dc63e635-bn74794t9f48458"
         }
     ]
 }

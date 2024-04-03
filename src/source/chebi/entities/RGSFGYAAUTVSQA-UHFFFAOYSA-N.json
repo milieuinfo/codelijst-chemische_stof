@@ -1,38 +1,41 @@
 {
     "@context": {
-        "chebi": "http://purl.obolibrary.org/obo/chebi/",
         "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
         "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-        "obo": "http://purl.obolibrary.org/obo/"
+        "obo": "http://purl.obolibrary.org/obo/",
+        "uniprot": "http://purl.uniprot.org/",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "concept": "https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/",
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "dbo": "http://dbpedia.org/ontology/",
+        "dbp": "http://dbpedia.org/property/",
+        "altLabel": {
+            "@id": "http://www.w3.org/2004/02/skos/core#altLabel",
+            "@language": "en"
+        },
+        "graph": {
+            "@id": "@graph"
+        }
     },
-    "@id": "obo:CHEBI_23492",
-    "@type": "http://www.w3.org/2002/07/owl#Class",
-    "obo:IAO_0000115": "A cycloalkane that consists of five carbons each bonded with two hydrogens above and below the plane. The parent of the class of cyclopentanes.",
+    "@id": "concept:RGSFGYAAUTVSQA-UHFFFAOYSA-N",
+    "@type": "skos:Concept",
+    "dbo:formula": "C5H10",
+    "dbo:inchi": "InChI=1S/C5H10/c1-2-4-5-3-1/h1-5H2",
+    "dbo:smiles": "C1CCCC1",
+    "dbp:inchikey": "RGSFGYAAUTVSQA-UHFFFAOYSA-N",
     "chebi:charge": "0",
-    "chebi:formula": "C5H10",
-    "chebi:inchi": "InChI=1S/C5H10/c1-2-4-5-3-1/h1-5H2",
-    "chebi:inchikey": "RGSFGYAAUTVSQA-UHFFFAOYSA-N",
-    "chebi:smiles": "C1CCCC1",
-    "geneontology:hasDbXref": [
-        "Beilstein:1900195",
-        "CAS:287-92-3",
-        "Gmelin:1313",
-        "PMID:21598927",
-        "Reaxys:1900195",
-        "Wikipedia:Cyclopentane"
-    ],
-    "geneontology:hasId": "23492",
-    "geneontology:hasSynonym": [
+    "skos:altLabel": [
         "ciclopentano",
         "Cyclopentan",
         "pentamethylene",
         "Zyklopentan"
     ],
-    "geneontology:inSubset": {
-        "@id": "obo:chebi#3_STAR"
+    "skos:exactMatch": {
+        "@id": "obo:CHEBI_23492"
     },
-    "rdfs:label": "cyclopentane",
-    "rdfs:subClassOf": [
+    "skos:note": "A cycloalkane that consists of five carbons each bonded with two hydrogens above and below the plane. The parent of the class of cyclopentanes.",
+    "skos:semanticRelation": [
         {
             "@id": "obo:CHEBI_134179"
         },
@@ -41,9 +44,6 @@
         },
         {
             "@id": "obo:CHEBI_23453"
-        },
-        {
-            "@id": "b435_genid-00f1db82e1ab437c844115a94dc63e635-bn23492t11f48355"
         }
     ]
 }

@@ -1,35 +1,31 @@
 {
     "@context": {
-        "chebi": "http://purl.obolibrary.org/obo/chebi/",
         "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
         "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-        "obo": "http://purl.obolibrary.org/obo/"
+        "obo": "http://purl.obolibrary.org/obo/",
+        "uniprot": "http://purl.uniprot.org/",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "concept": "https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/",
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "dbo": "http://dbpedia.org/ontology/",
+        "dbp": "http://dbpedia.org/property/",
+        "altLabel": {
+            "@id": "http://www.w3.org/2004/02/skos/core#altLabel",
+            "@language": "en"
+        },
+        "graph": {
+            "@id": "@graph"
+        }
     },
-    "@id": "obo:CHEBI_4636",
-    "@type": "http://www.w3.org/2002/07/owl#Class",
-    "obo:IAO_0000115": "An ether that is the benzhydryl ether of 2-(dimethylamino)ethanol. It is a H1-receptor antagonist used as a antipruritic and antitussive drug.",
+    "@id": "concept:ZZVUWRFHKOJYTH-UHFFFAOYSA-N",
+    "@type": "skos:Concept",
+    "dbo:formula": "C17H21NO",
+    "dbo:inchi": "InChI=1S/C17H21NO/c1-18(2)13-14-19-17(15-9-5-3-6-10-15)16-11-7-4-8-12-16/h3-12,17H,13-14H2,1-2H3",
+    "dbo:smiles": "CN(C)CCOC(c1ccccc1)c1ccccc1",
+    "dbp:inchikey": "ZZVUWRFHKOJYTH-UHFFFAOYSA-N",
     "chebi:charge": "0",
-    "chebi:formula": "C17H21NO",
-    "chebi:inchi": "InChI=1S/C17H21NO/c1-18(2)13-14-19-17(15-9-5-3-6-10-15)16-11-7-4-8-12-16/h3-12,17H,13-14H2,1-2H3",
-    "chebi:inchikey": "ZZVUWRFHKOJYTH-UHFFFAOYSA-N",
-    "chebi:smiles": "CN(C)CCOC(c1ccccc1)c1ccccc1",
-    "geneontology:hasDbXref": [
-        "Beilstein:1914136",
-        "CAS:58-73-1",
-        "DrugBank:DB01075",
-        "HMDB:HMDB0001927",
-        "KEGG:C14015",
-        "KEGG:D00300",
-        "KEGG:D02419",
-        "LINCS:LSM-5581",
-        "Patent:US2421714",
-        "Patent:US2427878",
-        "PDBeChem:2PM",
-        "VSDB:2973",
-        "Wikipedia:Diphenhydramine"
-    ],
-    "geneontology:hasId": "4636",
-    "geneontology:hasSynonym": [
+    "skos:altLabel": [
         "2-(benzhydryloxy)-N,N-dimethylethylamine",
         "2-(diphenylmethoxy)-N,N-dimethylethanamine",
         "2-diphenylmethoxy-N,N-demthylethanamine",
@@ -41,49 +37,16 @@
         "N-(2-(diphenylmethoxy)ethyl)-N,N-dimethylamine",
         "O-benzhydryldimethylaminoethanol"
     ],
-    "geneontology:inSubset": {
-        "@id": "obo:chebi#3_STAR"
+    "skos:exactMatch": {
+        "@id": "obo:CHEBI_4636"
     },
-    "rdfs:label": "diphenhydramine",
-    "rdfs:subClassOf": [
+    "skos:note": "An ether that is the benzhydryl ether of 2-(dimethylamino)ethanol. It is a H1-receptor antagonist used as a antipruritic and antitussive drug.",
+    "skos:semanticRelation": [
         {
             "@id": "obo:CHEBI_25698"
         },
         {
             "@id": "obo:CHEBI_50996"
-        },
-        {
-            "@id": "b590_genid-00f1db82e1ab437c844115a94dc63e635-bn4636t11f35717"
-        },
-        {
-            "@id": "b590_genid-00f1db82e1ab437c844115a94dc63e635-bn4636t11f36333"
-        },
-        {
-            "@id": "b590_genid-00f1db82e1ab437c844115a94dc63e635-bn4636t11f37955"
-        },
-        {
-            "@id": "b590_genid-00f1db82e1ab437c844115a94dc63e635-bn4636t11f48407"
-        },
-        {
-            "@id": "b590_genid-00f1db82e1ab437c844115a94dc63e635-bn4636t11f48876"
-        },
-        {
-            "@id": "b590_genid-00f1db82e1ab437c844115a94dc63e635-bn4636t11f50857"
-        },
-        {
-            "@id": "b590_genid-00f1db82e1ab437c844115a94dc63e635-bn4636t11f50919"
-        },
-        {
-            "@id": "b590_genid-00f1db82e1ab437c844115a94dc63e635-bn4636t11f51177"
-        },
-        {
-            "@id": "b590_genid-00f1db82e1ab437c844115a94dc63e635-bn4636t11f59683"
-        },
-        {
-            "@id": "b590_genid-00f1db82e1ab437c844115a94dc63e635-bn4636t11f66956"
-        },
-        {
-            "@id": "b590_genid-00f1db82e1ab437c844115a94dc63e635-bn4636t11f146270"
         }
     ]
 }

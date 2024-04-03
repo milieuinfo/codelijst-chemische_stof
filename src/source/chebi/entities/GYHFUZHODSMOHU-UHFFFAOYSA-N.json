@@ -1,33 +1,27 @@
 {
     "@context": {
-        "chebi": "http://purl.obolibrary.org/obo/chebi/",
         "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
         "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-        "obo": "http://purl.obolibrary.org/obo/"
+        "obo": "http://purl.obolibrary.org/obo/",
+        "uniprot": "http://purl.uniprot.org/",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "concept": "https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/",
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "dbo": "http://dbpedia.org/ontology/",
+        "dbp": "http://dbpedia.org/property/",
+        "graph": {
+            "@id": "@graph"
+        }
     },
-    "@id": "obo:CHEBI_84268",
-    "@type": "http://www.w3.org/2002/07/owl#Class",
-    "obo:IAO_0000115": "A saturated fatty aldehyde formally arising from reduction of the carboxy group of nonanoic acid. Metabolite observed in cancer metabolism.",
+    "@id": "concept:GYHFUZHODSMOHU-UHFFFAOYSA-N",
+    "@type": "skos:Concept",
+    "dbo:formula": "C9H18O",
+    "dbo:inchi": "InChI=1S/C9H18O/c1-2-3-4-5-6-7-8-9-10/h9H,2-8H2,1H3",
+    "dbo:smiles": "CCCCCCCCC=O",
+    "dbp:inchikey": "GYHFUZHODSMOHU-UHFFFAOYSA-N",
     "chebi:charge": "0",
-    "chebi:formula": "C9H18O",
-    "chebi:inchi": "InChI=1S/C9H18O/c1-2-3-4-5-6-7-8-9-10/h9H,2-8H2,1H3",
-    "chebi:inchikey": "GYHFUZHODSMOHU-UHFFFAOYSA-N",
-    "chebi:smiles": "CCCCCCCCC=O",
-    "http://purl.uniprot.org/core/name": "nonanal",
-    "geneontology:hasDbXref": [
-        "PMID:25518943",
-        "PMID:25466114",
-        "CAS:124-19-6",
-        "HMDB:HMDB0059835",
-        "KNApSAcK:C00030828",
-        "LIPID_MAPS_instance:LMFA06000040",
-        "MetaCyc:CPD-8491",
-        "PMID:25172748",
-        "Reaxys:1236701",
-        "Wikipedia:Nonanal"
-    ],
-    "geneontology:hasId": "84268",
-    "geneontology:hasSynonym": [
+    "skos:altLabel": [
         "n-nonaldehyde",
         "nonanoic aldehyde",
         "nonylaldehyde",
@@ -36,11 +30,11 @@
         "pelargonaldehyde",
         "pelargonic aldehyde"
     ],
-    "geneontology:inSubset": {
-        "@id": "obo:chebi#3_STAR"
+    "skos:exactMatch": {
+        "@id": "obo:CHEBI_84268"
     },
-    "rdfs:label": "nonanal",
-    "rdfs:subClassOf": [
+    "skos:note": "A saturated fatty aldehyde formally arising from reduction of the carboxy group of nonanoic acid. Metabolite observed in cancer metabolism.",
+    "skos:semanticRelation": [
         {
             "@id": "obo:CHEBI_12834"
         },
@@ -49,15 +43,6 @@
         },
         {
             "@id": "obo:CHEBI_133249"
-        },
-        {
-            "@id": "b816_genid-00f1db82e1ab437c844115a94dc63e635-bn84268t8f29019"
-        },
-        {
-            "@id": "b816_genid-00f1db82e1ab437c844115a94dc63e635-bn84268t11f76924"
-        },
-        {
-            "@id": "b816_genid-00f1db82e1ab437c844115a94dc63e635-bn84268t11f77746"
         }
     ]
 }

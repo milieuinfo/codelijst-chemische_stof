@@ -1,37 +1,31 @@
 {
     "@context": {
-        "chebi": "http://purl.obolibrary.org/obo/chebi/",
         "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
         "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-        "obo": "http://purl.obolibrary.org/obo/"
+        "obo": "http://purl.obolibrary.org/obo/",
+        "uniprot": "http://purl.uniprot.org/",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "concept": "https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/",
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "dbo": "http://dbpedia.org/ontology/",
+        "dbp": "http://dbpedia.org/property/",
+        "altLabel": {
+            "@id": "http://www.w3.org/2004/02/skos/core#altLabel",
+            "@language": "en"
+        },
+        "graph": {
+            "@id": "@graph"
+        }
     },
-    "@id": "obo:CHEBI_18219",
-    "@type": "http://www.w3.org/2002/07/owl#Class",
-    "obo:IAO_0000115": "A solution of ammonia in water.",
+    "@id": "concept:VHUUQVKOLVNVRT-UHFFFAOYSA-N",
+    "@type": "skos:Concept",
+    "dbo:formula": "H5NO",
+    "dbo:inchi": "InChI=1S/H3N.H2O/h1H3;1H2",
+    "dbo:smiles": "[NH4+].[OH-]",
+    "dbp:inchikey": "VHUUQVKOLVNVRT-UHFFFAOYSA-N",
     "chebi:charge": "0",
-    "chebi:formula": "H5NO",
-    "chebi:inchi": "InChI=1S/H3N.H2O/h1H3;1H2",
-    "chebi:inchikey": "VHUUQVKOLVNVRT-UHFFFAOYSA-N",
-    "chebi:smiles": "[NH4+].[OH-]",
-    "geneontology:hasDbXref": [
-        "AGR:IND44476209",
-        "AGR:IND44570233",
-        "CAS:1336-21-6",
-        "KEGG:C01358",
-        "KEGG:D04594",
-        "MetaCyc:NH4OH",
-        "PMID:21145665",
-        "PMID:21375888",
-        "PMID:21450410",
-        "PMID:21535717",
-        "PMID:21535721",
-        "PMID:21939976",
-        "PMID:22532436",
-        "PPDB:34",
-        "Wikipedia:Ammonium_hydroxide"
-    ],
-    "geneontology:hasId": "18219",
-    "geneontology:hasSynonym": [
+    "skos:altLabel": [
         "agua de amoniaco",
         "ammonia aqueous",
         "ammoniaque",
@@ -44,16 +38,11 @@
         "hydroxyde d'ammonium",
         "NH4OH"
     ],
-    "geneontology:inSubset": {
-        "@id": "obo:chebi#3_STAR"
+    "skos:exactMatch": {
+        "@id": "obo:CHEBI_18219"
     },
-    "rdfs:label": "ammonium hydroxide",
-    "rdfs:subClassOf": [
-        {
-            "@id": "obo:CHEBI_52625"
-        },
-        {
-            "@id": "b919_genid-00f1db82e1ab437c844115a94dc63e635-bn18219t11f64049"
-        }
-    ]
+    "skos:note": "A solution of ammonia in water.",
+    "skos:semanticRelation": {
+        "@id": "obo:CHEBI_52625"
+    }
 }

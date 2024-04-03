@@ -1,35 +1,41 @@
 {
     "@context": {
-        "chebi": "http://purl.obolibrary.org/obo/chebi/",
         "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
         "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-        "obo": "http://purl.obolibrary.org/obo/"
+        "obo": "http://purl.obolibrary.org/obo/",
+        "uniprot": "http://purl.uniprot.org/",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "concept": "https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/",
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "dbo": "http://dbpedia.org/ontology/",
+        "dbp": "http://dbpedia.org/property/",
+        "altLabel": {
+            "@id": "http://www.w3.org/2004/02/skos/core#altLabel",
+            "@language": "en"
+        },
+        "graph": {
+            "@id": "@graph"
+        }
     },
-    "@id": "obo:CHEBI_135197",
-    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "@id": "concept:UVCOILFBWYKHHB-UHFFFAOYSA-N",
+    "@type": "skos:Concept",
+    "dbo:formula": "C15H10ClFN2O",
+    "dbo:inchi": "InChI=1S/C15H10ClFN2O/c16-9-5-6-13-11(7-9)15(18-8-14(20)19-13)10-3-1-2-4-12(10)17/h1-7H,8H2,(H,19,20)",
+    "dbo:smiles": "ClC=1C=C2C(=NCC(NC2=CC1)=O)C3=C(F)C=CC=C3",
+    "dbp:inchikey": "UVCOILFBWYKHHB-UHFFFAOYSA-N",
     "chebi:charge": "0",
-    "chebi:formula": "C15H10ClFN2O",
-    "chebi:inchi": "InChI=1S/C15H10ClFN2O/c16-9-5-6-13-11(7-9)15(18-8-14(20)19-13)10-3-1-2-4-12(10)17/h1-7H,8H2,(H,19,20)",
-    "chebi:inchikey": "UVCOILFBWYKHHB-UHFFFAOYSA-N",
-    "chebi:smiles": "ClC=1C=C2C(=NCC(NC2=CC1)=O)C3=C(F)C=CC=C3",
-    "geneontology:hasDbXref": [
-        "CAS:2886-65-9",
-        "Drug_Central:809",
-        "HMDB:HMDB0061161"
-    ],
-    "geneontology:hasId": "135197",
-    "geneontology:hasSynonym": [
+    "skos:altLabel": [
         "dealkylflurazepam",
         "descarbethoxyloflazepate",
         "norfludiazepam",
         "norflurazepam",
         "norflutoprazepam"
     ],
-    "geneontology:inSubset": {
-        "@id": "obo:chebi#2_STAR"
+    "skos:exactMatch": {
+        "@id": "obo:CHEBI_135197"
     },
-    "rdfs:label": "desalkylflurazepam",
-    "rdfs:subClassOf": {
+    "skos:semanticRelation": {
         "@id": "obo:CHEBI_22720"
     }
 }

@@ -1,40 +1,31 @@
 {
     "@context": {
-        "chebi": "http://purl.obolibrary.org/obo/chebi/",
         "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
         "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-        "obo": "http://purl.obolibrary.org/obo/"
+        "obo": "http://purl.obolibrary.org/obo/",
+        "uniprot": "http://purl.uniprot.org/",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "concept": "https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/",
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "dbo": "http://dbpedia.org/ontology/",
+        "dbp": "http://dbpedia.org/property/",
+        "altLabel": {
+            "@id": "http://www.w3.org/2004/02/skos/core#altLabel",
+            "@language": "en"
+        },
+        "graph": {
+            "@id": "@graph"
+        }
     },
-    "@id": "obo:CHEBI_49000",
-    "@type": "http://www.w3.org/2002/07/owl#Class",
-    "obo:IAO_0000115": "A primary alcohol that is ethanol substituted by a phenyl group at position 2.",
+    "@id": "concept:WRMNZCZEMHIOCP-UHFFFAOYSA-N",
+    "@type": "skos:Concept",
+    "dbo:formula": "C8H10O",
+    "dbo:inchi": "InChI=1S/C8H10O/c9-7-6-8-4-2-1-3-5-8/h1-5,9H,6-7H2",
+    "dbo:smiles": "OCCc1ccccc1",
+    "dbp:inchikey": "WRMNZCZEMHIOCP-UHFFFAOYSA-N",
     "chebi:charge": "0",
-    "chebi:formula": "C8H10O",
-    "chebi:inchi": "InChI=1S/C8H10O/c9-7-6-8-4-2-1-3-5-8/h1-5,9H,6-7H2",
-    "chebi:inchikey": "WRMNZCZEMHIOCP-UHFFFAOYSA-N",
-    "chebi:smiles": "OCCc1ccccc1",
-    "http://purl.uniprot.org/core/name": "2-phenylethanol",
-    "geneontology:hasDbXref": [
-        "PMID:23836015",
-        "Beilstein:1905732",
-        "CAS:60-12-8",
-        "DrugBank:DB02192",
-        "Gmelin:240469",
-        "HMDB:HMDB0033944",
-        "KEGG:C05853",
-        "KEGG:D00192",
-        "KNApSAcK:C00002663",
-        "MetaCyc:CPD-7035",
-        "PDBeChem:PEL",
-        "PMID:19517523",
-        "PMID:22690913",
-        "PMID:23385159",
-        "PMID:24423498",
-        "Reaxys:1905732",
-        "Wikipedia:Phenethyl_alcohol"
-    ],
-    "geneontology:hasId": "49000",
-    "geneontology:hasSynonym": [
+    "skos:altLabel": [
         "2-Hydroxyethylbenzene",
         "2-PEA",
         "2-Phenylethanol",
@@ -48,31 +39,16 @@
         "Phenethyl alcohol",
         "Phenylethyl alcohol"
     ],
-    "geneontology:inSubset": {
-        "@id": "obo:chebi#3_STAR"
+    "skos:exactMatch": {
+        "@id": "obo:CHEBI_49000"
     },
-    "rdfs:label": "2-phenylethanol",
-    "rdfs:subClassOf": [
+    "skos:note": "A primary alcohol that is ethanol substituted by a phenyl group at position 2.",
+    "skos:semanticRelation": [
         {
             "@id": "obo:CHEBI_15734"
         },
         {
             "@id": "obo:CHEBI_22712"
-        },
-        {
-            "@id": "b80_genid-00f1db82e1ab437c844115a94dc63e635-bn49000t11f35219"
-        },
-        {
-            "@id": "b80_genid-00f1db82e1ab437c844115a94dc63e635-bn49000t11f48318"
-        },
-        {
-            "@id": "b80_genid-00f1db82e1ab437c844115a94dc63e635-bn49000t11f75772"
-        },
-        {
-            "@id": "b80_genid-00f1db82e1ab437c844115a94dc63e635-bn49000t11f76924"
-        },
-        {
-            "@id": "b80_genid-00f1db82e1ab437c844115a94dc63e635-bn49000t11f76956"
         }
     ]
 }

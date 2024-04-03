@@ -1,28 +1,21 @@
 {
     "@context": {
-        "chebi": "http://purl.obolibrary.org/obo/chebi/",
         "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
         "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-        "obo": "http://purl.obolibrary.org/obo/"
-    },
-    "@id": "obo:CHEBI_82104",
-    "@type": "http://www.w3.org/2002/07/owl#Class",
-    "chebi:charge": "0",
-    "chebi:formula": "C8H8BrCl2O3PS",
-    "chebi:inchi": "InChI=1S/C8H8BrCl2O3PS/c1-12-15(16,13-2)14-8-4-6(10)5(9)3-7(8)11/h3-4H,1-2H3",
-    "chebi:inchikey": "NYQDCVLCJXRDSK-UHFFFAOYSA-N",
-    "chebi:smiles": "COP(=S)(OC)Oc1cc(Cl)c(Br)cc1Cl",
-    "geneontology:hasDbXref": [
-        "CAS:2104-96-3",
-        "KEGG:C18965",
-        "PPDB:93"
-    ],
-    "geneontology:hasId": "82104",
-    "geneontology:inSubset": {
-        "@id": "obo:chebi#2_STAR"
-    },
-    "rdfs:label": "Bromofos",
-    "rdfs:subClassOf": {
-        "@id": "obo:CHEBI_37512"
+        "obo": "http://purl.obolibrary.org/obo/",
+        "uniprot": "http://purl.uniprot.org/",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "concept": "https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/",
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "dbo": "http://dbpedia.org/ontology/",
+        "dbp": "http://dbpedia.org/property/",
+        "altLabel": {
+            "@id": "http://www.w3.org/2004/02/skos/core#altLabel",
+            "@language": "en"
+        },
+        "graph": {
+            "@id": "@graph"
+        }
     }
 }

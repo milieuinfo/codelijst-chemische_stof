@@ -1,38 +1,39 @@
 {
     "@context": {
-        "chebi": "http://purl.obolibrary.org/obo/chebi/",
         "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
         "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-        "obo": "http://purl.obolibrary.org/obo/"
+        "obo": "http://purl.obolibrary.org/obo/",
+        "uniprot": "http://purl.uniprot.org/",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "concept": "https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/",
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "dbo": "http://dbpedia.org/ontology/",
+        "dbp": "http://dbpedia.org/property/",
+        "altLabel": {
+            "@id": "http://www.w3.org/2004/02/skos/core#altLabel",
+            "@language": "en"
+        },
+        "graph": {
+            "@id": "@graph"
+        }
     },
-    "@id": "obo:CHEBI_62962",
-    "@type": "http://www.w3.org/2002/07/owl#Class",
-    "obo:IAO_0000115": "An organochlorine pesticide having a 3,6-dichlorinated 4-aminopicolinic acid structure.",
+    "@id": "concept:NIXXQNOQHKNPEJ-UHFFFAOYSA-N",
+    "@type": "skos:Concept",
+    "dbo:formula": "C6H4Cl2N2O2",
+    "dbo:inchi": "InChI=1S/C6H4Cl2N2O2/c7-3-1-2(9)4(8)5(10-3)6(11)12/h1H,(H2,9,10)(H,11,12)",
+    "dbo:smiles": "Nc1cc(Cl)nc(C(O)=O)c1Cl",
+    "dbp:inchikey": "NIXXQNOQHKNPEJ-UHFFFAOYSA-N",
     "chebi:charge": "0",
-    "chebi:formula": "C6H4Cl2N2O2",
-    "chebi:inchi": "InChI=1S/C6H4Cl2N2O2/c7-3-1-2(9)4(8)5(10-3)6(11)12/h1H,(H2,9,10)(H,11,12)",
-    "chebi:inchikey": "NIXXQNOQHKNPEJ-UHFFFAOYSA-N",
-    "chebi:smiles": "Nc1cc(Cl)nc(C(O)=O)c1Cl",
-    "geneontology:hasDbXref": [
-        "AGR:IND44149042",
-        "AGR:IND44442048",
-        "AGR:IND44442052",
-        "CAS:150114-71-9",
-        "PMID:21413141",
-        "PPDB:29",
-        "Reaxys:11403922",
-        "Wikipedia:Aminopyralid"
-    ],
-    "geneontology:hasId": "62962",
-    "geneontology:hasSynonym": [
+    "skos:altLabel": [
         "4-Amino-3,6-dichloro-2-pyridinecarboxylic acid",
         "4-amino-3,6-dichloropyridine-2-carboxylic acid"
     ],
-    "geneontology:inSubset": {
-        "@id": "obo:chebi#3_STAR"
+    "skos:exactMatch": {
+        "@id": "obo:CHEBI_62962"
     },
-    "rdfs:label": "aminopyralid",
-    "rdfs:subClassOf": [
+    "skos:note": "An organochlorine pesticide having a 3,6-dichlorinated 4-aminopicolinic acid structure.",
+    "skos:semanticRelation": [
         {
             "@id": "obo:CHEBI_26421"
         },
@@ -41,12 +42,6 @@
         },
         {
             "@id": "obo:CHEBI_38656"
-        },
-        {
-            "@id": "b799_genid-00f1db82e1ab437c844115a94dc63e635-bn62962t11f24527"
-        },
-        {
-            "@id": "b799_genid-00f1db82e1ab437c844115a94dc63e635-bn62962t8f28747"
         }
     ]
 }

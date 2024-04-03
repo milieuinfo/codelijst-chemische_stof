@@ -1,128 +1,31 @@
 {
     "@context": {
-        "chebi": "http://purl.obolibrary.org/obo/chebi/",
         "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
         "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-        "obo": "http://purl.obolibrary.org/obo/"
+        "obo": "http://purl.obolibrary.org/obo/",
+        "uniprot": "http://purl.uniprot.org/",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "concept": "https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/",
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "dbo": "http://dbpedia.org/ontology/",
+        "dbp": "http://dbpedia.org/property/",
+        "altLabel": {
+            "@id": "http://www.w3.org/2004/02/skos/core#altLabel",
+            "@language": "en"
+        },
+        "graph": {
+            "@id": "@graph"
+        }
     },
-    "@id": "obo:CHEBI_17688",
-    "@type": "http://www.w3.org/2002/07/owl#Class",
-    "obo:IAO_0000115": "A 3-(1-methylpyrrolidin-2-yl)pyridine in which the chiral centre has S-configuration. The naturally occurring and most active enantiomer of nicotine, isolated from Nicotiana tabacum.",
+    "@id": "concept:SNICXCGAKADSCV-JTQLQIEISA-N",
+    "@type": "skos:Concept",
+    "dbo:formula": "C10H14N2",
+    "dbo:inchi": "InChI=1S/C10H14N2/c1-12-7-3-5-10(12)9-4-2-6-11-8-9/h2,4,6,8,10H,3,5,7H2,1H3/t10-/m0/s1",
+    "dbo:smiles": "[H][C@]1(CCCN1C)C1=CC=CN=C1",
+    "dbp:inchikey": "SNICXCGAKADSCV-JTQLQIEISA-N",
     "chebi:charge": "0",
-    "chebi:formula": "C10H14N2",
-    "chebi:inchi": "InChI=1S/C10H14N2/c1-12-7-3-5-10(12)9-4-2-6-11-8-9/h2,4,6,8,10H,3,5,7H2,1H3/t10-/m0/s1",
-    "chebi:inchikey": "SNICXCGAKADSCV-JTQLQIEISA-N",
-    "chebi:smiles": "[H][C@]1(CCCN1C)C1=CC=CN=C1",
-    "geneontology:hasDbXref": [
-        "PMID:14674846",
-        "PMID:15019421",
-        "PMID:15902919",
-        "Beilstein:3604351",
-        "Beilstein:82109",
-        "BPDB:485",
-        "CAS:54-11-5",
-        "Drug_Central:1920",
-        "DrugBank:DB00184",
-        "HMDB:HMDB0001934",
-        "KEGG:C00745",
-        "KEGG:D03365",
-        "KNApSAcK:C00002057",
-        "LINCS:LSM-2093",
-        "MetaCyc:NICOTINE",
-        "PDBeChem:NCT",
-        "PMID:11209966",
-        "PMID:11322615",
-        "PMID:11406005",
-        "PMID:11719700",
-        "PMID:11768184",
-        "PMID:11821649",
-        "PMID:11851194",
-        "PMID:12575980",
-        "PMID:12692774",
-        "PMID:12769614",
-        "PMID:12850578",
-        "PMID:12971663",
-        "PMID:13590907",
-        "PMID:14761239",
-        "PMID:14975706",
-        "PMID:15027713",
-        "PMID:15251917",
-        "PMID:15276225",
-        "PMID:15380834",
-        "PMID:15502843",
-        "PMID:15527885",
-        "PMID:15707677",
-        "PMID:15734728",
-        "PMID:15826609",
-        "PMID:15894687",
-        "PMID:15960296",
-        "PMID:15963341",
-        "PMID:16059663",
-        "PMID:16212709",
-        "PMID:16333621",
-        "PMID:16370520",
-        "PMID:16496293",
-        "PMID:17023324",
-        "PMID:17206646",
-        "PMID:17292347",
-        "PMID:17350101",
-        "PMID:17498763",
-        "PMID:17504235",
-        "PMID:17525204",
-        "PMID:17560039",
-        "PMID:17683794",
-        "PMID:18380035",
-        "PMID:18383130",
-        "PMID:18490768",
-        "PMID:18683238",
-        "PMID:18685152",
-        "PMID:18805442",
-        "PMID:18922921",
-        "PMID:19100291",
-        "PMID:19100331",
-        "PMID:19287496",
-        "PMID:19389046",
-        "PMID:19448649",
-        "PMID:19465085",
-        "PMID:19850423",
-        "PMID:19954906",
-        "PMID:21521420",
-        "PMID:21636612",
-        "PMID:21822688",
-        "PMID:21945235",
-        "PMID:21947355",
-        "PMID:22030716",
-        "PMID:22129149",
-        "PMID:22218403",
-        "PMID:22265518",
-        "PMID:22331007",
-        "PMID:22377934",
-        "PMID:22459798",
-        "PMID:22529223",
-        "PMID:22530136",
-        "PMID:27951416",
-        "PMID:28187919",
-        "PMID:28391535",
-        "PMID:28574230",
-        "PMID:28641297",
-        "PMID:28678400",
-        "PMID:28683421",
-        "PMID:28686840",
-        "PMID:28698187",
-        "PMID:28700952",
-        "PMID:28704277",
-        "PMID:28710519",
-        "PMID:28711472",
-        "PMID:28714396",
-        "PMID:28718768",
-        "PMID:28718828",
-        "PMID:28726253",
-        "PMID:28735272",
-        "Reaxys:82109",
-        "Wikipedia:Nicotine"
-    ],
-    "geneontology:hasId": "17688",
-    "geneontology:hasSynonym": [
+    "skos:altLabel": [
         "(-)-3-(1-Methyl-2-pyrrolidyl)pyridine",
         "(-)-3-(N-Methylpyrrolidino)pyridine",
         "(-)-nicotine",
@@ -142,58 +45,11 @@
         "L-Nicotine",
         "Nicotine"
     ],
-    "geneontology:inSubset": {
-        "@id": "obo:chebi#3_STAR"
+    "skos:exactMatch": {
+        "@id": "obo:CHEBI_17688"
     },
-    "rdfs:label": "(S)-nicotine",
-    "rdfs:subClassOf": [
-        {
-            "@id": "b633_genid-00f1db82e1ab437c844115a94dc63e635-bn17688tmms73f59806"
-        },
-        {
-            "@id": "b633_genid-00f1db82e1ab437c844115a94dc63e635-bn17688t11f22917"
-        },
-        {
-            "@id": "b633_genid-00f1db82e1ab437c844115a94dc63e635-bn17688t11f35471"
-        },
-        {
-            "@id": "b633_genid-00f1db82e1ab437c844115a94dc63e635-bn17688t11f35474"
-        },
-        {
-            "@id": "b633_genid-00f1db82e1ab437c844115a94dc63e635-bn17688t11f35703"
-        },
-        {
-            "@id": "b633_genid-00f1db82e1ab437c844115a94dc63e635-bn17688t6f39162"
-        },
-        {
-            "@id": "b633_genid-00f1db82e1ab437c844115a94dc63e635-bn17688t11f47958"
-        },
-        {
-            "@id": "b633_genid-00f1db82e1ab437c844115a94dc63e635-bn17688t11f49110"
-        },
-        {
-            "@id": "b633_genid-00f1db82e1ab437c844115a94dc63e635-bn17688t11f50846"
-        },
-        {
-            "@id": "b633_genid-00f1db82e1ab437c844115a94dc63e635-bn17688t11f50905"
-        },
-        {
-            "@id": "b633_genid-00f1db82e1ab437c844115a94dc63e635-bn17688t11f50910"
-        },
-        {
-            "@id": "b633_genid-00f1db82e1ab437c844115a94dc63e635-bn17688t11f52290"
-        },
-        {
-            "@id": "b633_genid-00f1db82e1ab437c844115a94dc63e635-bn17688t11f59163"
-        },
-        {
-            "@id": "b633_genid-00f1db82e1ab437c844115a94dc63e635-bn17688t5f59806"
-        },
-        {
-            "@id": "b633_genid-00f1db82e1ab437c844115a94dc63e635-bn17688t11f76924"
-        },
-        {
-            "@id": "obo:CHEBI_138000"
-        }
-    ]
+    "skos:note": "A 3-(1-methylpyrrolidin-2-yl)pyridine in which the chiral centre has S-configuration. The naturally occurring and most active enantiomer of nicotine, isolated from Nicotiana tabacum.",
+    "skos:semanticRelation": {
+        "@id": "obo:CHEBI_138000"
+    }
 }

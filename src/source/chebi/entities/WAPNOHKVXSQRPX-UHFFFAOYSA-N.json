@@ -1,31 +1,31 @@
 {
     "@context": {
-        "chebi": "http://purl.obolibrary.org/obo/chebi/",
         "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
         "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-        "obo": "http://purl.obolibrary.org/obo/"
+        "obo": "http://purl.obolibrary.org/obo/",
+        "uniprot": "http://purl.uniprot.org/",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "concept": "https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/",
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "dbo": "http://dbpedia.org/ontology/",
+        "dbp": "http://dbpedia.org/property/",
+        "altLabel": {
+            "@id": "http://www.w3.org/2004/02/skos/core#altLabel",
+            "@language": "en"
+        },
+        "graph": {
+            "@id": "@graph"
+        }
     },
-    "@id": "obo:CHEBI_669",
-    "@type": "http://www.w3.org/2002/07/owl#Class",
-    "obo:IAO_0000115": "An aromatic alcohol that is ethanol substituted by a phenyl group at position 1.",
+    "@id": "concept:WAPNOHKVXSQRPX-UHFFFAOYSA-N",
+    "@type": "skos:Concept",
+    "dbo:formula": "C8H10O",
+    "dbo:inchi": "InChI=1S/C8H10O/c1-7(9)8-5-3-2-4-6-8/h2-7,9H,1H3",
+    "dbo:smiles": "CC(O)c1ccccc1",
+    "dbp:inchikey": "WAPNOHKVXSQRPX-UHFFFAOYSA-N",
     "chebi:charge": "0",
-    "chebi:formula": "C8H10O",
-    "chebi:inchi": "InChI=1S/C8H10O/c1-7(9)8-5-3-2-4-6-8/h2-7,9H,1H3",
-    "chebi:inchikey": "WAPNOHKVXSQRPX-UHFFFAOYSA-N",
-    "chebi:smiles": "CC(O)c1ccccc1",
-    "http://purl.uniprot.org/core/name": "1-phenylethanol",
-    "geneontology:hasDbXref": [
-        "Beilstein:1905149",
-        "CAS:98-85-1",
-        "Gmelin:2959",
-        "KEGG:C07112",
-        "PMID:16226717",
-        "PMID:24392725",
-        "PMID:24945457",
-        "Reaxys:1905149"
-    ],
-    "geneontology:hasId": "669",
-    "geneontology:hasSynonym": [
+    "skos:altLabel": [
         "(1-Hydroxyethyl)benzene",
         "1-Phenethyl alcohol",
         "1-Phenylethanol",
@@ -36,16 +36,11 @@
         "Methylphenyl carbinol",
         "Styrallyl alcohol"
     ],
-    "geneontology:inSubset": {
-        "@id": "obo:chebi#3_STAR"
+    "skos:exactMatch": {
+        "@id": "obo:CHEBI_669"
     },
-    "rdfs:label": "1-phenylethanol",
-    "rdfs:subClassOf": [
-        {
-            "@id": "obo:CHEBI_33854"
-        },
-        {
-            "@id": "b1042_genid-00f1db82e1ab437c844115a94dc63e635-bn669t11f75771"
-        }
-    ]
+    "skos:note": "An aromatic alcohol that is ethanol substituted by a phenyl group at position 1.",
+    "skos:semanticRelation": {
+        "@id": "obo:CHEBI_33854"
+    }
 }

@@ -1,37 +1,31 @@
 {
     "@context": {
-        "chebi": "http://purl.obolibrary.org/obo/chebi/",
         "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
         "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-        "obo": "http://purl.obolibrary.org/obo/"
+        "obo": "http://purl.obolibrary.org/obo/",
+        "uniprot": "http://purl.uniprot.org/",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "concept": "https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/",
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "dbo": "http://dbpedia.org/ontology/",
+        "dbp": "http://dbpedia.org/property/",
+        "altLabel": {
+            "@id": "http://www.w3.org/2004/02/skos/core#altLabel",
+            "@language": "en"
+        },
+        "graph": {
+            "@id": "@graph"
+        }
     },
-    "@id": "obo:CHEBI_78884",
-    "@type": "http://www.w3.org/2002/07/owl#Class",
-    "obo:IAO_0000115": "A terpineol that is 1-menthene carrying a hydroxy substituent at position 4.",
+    "@id": "concept:WRYLYDPHFGVWKC-UHFFFAOYSA-N",
+    "@type": "skos:Concept",
+    "dbo:formula": "C10H18O",
+    "dbo:inchi": "InChI=1S/C10H18O/c1-8(2)10(11)6-4-9(3)5-7-10/h4,8,11H,5-7H2,1-3H3",
+    "dbo:smiles": "CC(C)C1(O)CCC(C)=CC1",
+    "dbp:inchikey": "WRYLYDPHFGVWKC-UHFFFAOYSA-N",
     "chebi:charge": "0",
-    "chebi:formula": "C10H18O",
-    "chebi:inchi": "InChI=1S/C10H18O/c1-8(2)10(11)6-4-9(3)5-7-10/h4,8,11H,5-7H2,1-3H3",
-    "chebi:inchikey": "WRYLYDPHFGVWKC-UHFFFAOYSA-N",
-    "chebi:smiles": "CC(C)C1(O)CCC(C)=CC1",
-    "http://purl.uniprot.org/core/name": "4-terpineol",
-    "geneontology:hasDbXref": [
-        "BPDB:2012",
-        "CAS:562-74-3",
-        "HMDB:HMDB0035833",
-        "KEGG:C17073",
-        "PMID:21760828",
-        "PMID:22998411",
-        "PMID:23292030",
-        "PMID:23469686",
-        "PMID:23649340",
-        "PMID:24349880",
-        "PMID:24460330",
-        "PMID:24731375",
-        "Pubchem:11230",
-        "Reaxys:1906603"
-    ],
-    "geneontology:hasId": "78884",
-    "geneontology:hasSynonym": [
+    "skos:altLabel": [
         "(+-)-p-Menth-1-en-4-ol",
         "1-isopropyl-4-methylcyclohex-3-en-1-ol",
         "1-Menthene-4-ol",
@@ -52,40 +46,16 @@
         "Terpinenol-4",
         "Terpineol-4"
     ],
-    "geneontology:inSubset": {
-        "@id": "obo:chebi#3_STAR"
+    "skos:exactMatch": {
+        "@id": "obo:CHEBI_78884"
     },
-    "rdfs:label": "4-terpineol",
-    "rdfs:subClassOf": [
+    "skos:note": "A terpineol that is 1-menthene carrying a hydroxy substituent at position 4.",
+    "skos:semanticRelation": [
         {
             "@id": "obo:CHEBI_26878"
         },
         {
             "@id": "obo:CHEBI_26876"
-        },
-        {
-            "@id": "b84_genid-00f1db82e1ab437c844115a94dc63e635-bn78884t11f22586"
-        },
-        {
-            "@id": "b84_genid-00f1db82e1ab437c844115a94dc63e635-bn78884t11f27311"
-        },
-        {
-            "@id": "b84_genid-00f1db82e1ab437c844115a94dc63e635-bn78884t11f33282"
-        },
-        {
-            "@id": "b84_genid-00f1db82e1ab437c844115a94dc63e635-bn78884t11f35442"
-        },
-        {
-            "@id": "b84_genid-00f1db82e1ab437c844115a94dc63e635-bn78884t11f35610"
-        },
-        {
-            "@id": "b84_genid-00f1db82e1ab437c844115a94dc63e635-bn78884t11f67079"
-        },
-        {
-            "@id": "b84_genid-00f1db82e1ab437c844115a94dc63e635-bn78884t11f68495"
-        },
-        {
-            "@id": "b84_genid-00f1db82e1ab437c844115a94dc63e635-bn78884t11f76924"
         }
     ]
 }

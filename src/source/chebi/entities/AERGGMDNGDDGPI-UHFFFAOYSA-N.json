@@ -1,37 +1,36 @@
 {
     "@context": {
-        "chebi": "http://purl.obolibrary.org/obo/chebi/",
         "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
         "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-        "obo": "http://purl.obolibrary.org/obo/"
+        "obo": "http://purl.obolibrary.org/obo/",
+        "uniprot": "http://purl.uniprot.org/",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "concept": "https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/",
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "dbo": "http://dbpedia.org/ontology/",
+        "dbp": "http://dbpedia.org/property/",
+        "graph": {
+            "@id": "@graph"
+        }
     },
-    "@id": "obo:CHEBI_151035",
-    "@type": "http://www.w3.org/2002/07/owl#Class",
-    "obo:IAO_0000115": "A member of the class of cyclobutanes that is cyclobutane in which a hydrogen at positions 1 and 2 is replaced by a phenyl group.",
+    "@id": "concept:AERGGMDNGDDGPI-UHFFFAOYSA-N",
+    "@type": "skos:Concept",
+    "dbo:formula": "C16H16",
+    "dbo:inchi": "InChI=1S/C16H16/c1-3-7-13(8-4-1)15-11-12-16(15)14-9-5-2-6-10-14/h1-10,15-16H,11-12H2",
+    "dbo:smiles": "C1CC(C1C1=CC=CC=C1)C1=CC=CC=C1",
+    "dbp:inchikey": "AERGGMDNGDDGPI-UHFFFAOYSA-N",
     "chebi:charge": "0",
-    "chebi:formula": "C16H16",
-    "chebi:inchi": "InChI=1S/C16H16/c1-3-7-13(8-4-1)15-11-12-16(15)14-9-5-2-6-10-14/h1-10,15-16H,11-12H2",
-    "chebi:inchikey": "AERGGMDNGDDGPI-UHFFFAOYSA-N",
-    "chebi:smiles": "C1CC(C1C1=CC=CC=C1)C1=CC=CC=C1",
-    "geneontology:hasDbXref": [
-        "PMID:11485868",
-        "PMID:12611662",
-        "CAS:3018-21-1",
-        "Chemspider:124044",
-        "FooDB:FDB008499",
-        "HMDB:HMDB0031821"
-    ],
-    "geneontology:hasId": "151035",
-    "geneontology:hasSynonym": [
+    "skos:altLabel": [
         "(2-phenylcyclobutyl)benzene",
         "1,1'-(cyclobutane-1,2-diyl)dibenzene",
         "1,1'-cyclobutane-1,2-diyldibenzene"
     ],
-    "geneontology:inSubset": {
-        "@id": "obo:chebi#3_STAR"
+    "skos:exactMatch": {
+        "@id": "obo:CHEBI_151035"
     },
-    "rdfs:label": "1,2-diphenylcyclobutane",
-    "rdfs:subClassOf": [
+    "skos:note": "A member of the class of cyclobutanes that is cyclobutane in which a hydrogen at positions 1 and 2 is replaced by a phenyl group.",
+    "skos:semanticRelation": [
         {
             "@id": "obo:CHEBI_22712"
         },

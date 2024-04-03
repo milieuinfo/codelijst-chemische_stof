@@ -1,37 +1,31 @@
 {
     "@context": {
-        "chebi": "http://purl.obolibrary.org/obo/chebi/",
         "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
         "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-        "obo": "http://purl.obolibrary.org/obo/"
+        "obo": "http://purl.obolibrary.org/obo/",
+        "uniprot": "http://purl.uniprot.org/",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "concept": "https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/",
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "dbo": "http://dbpedia.org/ontology/",
+        "dbp": "http://dbpedia.org/property/",
+        "altLabel": {
+            "@id": "http://www.w3.org/2004/02/skos/core#altLabel",
+            "@language": "en"
+        },
+        "graph": {
+            "@id": "@graph"
+        }
     },
-    "@id": "obo:CHEBI_17231",
-    "@type": "http://www.w3.org/2002/07/owl#Class",
-    "obo:IAO_0000115": "A cresol with the methyl substituent at position 3. It is a minor urinary metabolite of toluene.",
+    "@id": "concept:RLSSMJSEOOYNOY-UHFFFAOYSA-N",
+    "@type": "skos:Concept",
+    "dbo:formula": "C7H8O",
+    "dbo:inchi": "InChI=1S/C7H8O/c1-6-3-2-4-7(8)5-6/h2-5,8H,1H3",
+    "dbo:smiles": "Cc1cccc(O)c1",
+    "dbp:inchikey": "RLSSMJSEOOYNOY-UHFFFAOYSA-N",
     "chebi:charge": "0",
-    "chebi:formula": "C7H8O",
-    "chebi:inchi": "InChI=1S/C7H8O/c1-6-3-2-4-7(8)5-6/h2-5,8H,1H3",
-    "chebi:inchikey": "RLSSMJSEOOYNOY-UHFFFAOYSA-N",
-    "chebi:smiles": "Cc1cccc(O)c1",
-    "http://purl.uniprot.org/core/name": "3-methylphenol",
-    "geneontology:hasDbXref": [
-        "PMID:15687000",
-        "Beilstein:506719",
-        "CAS:108-39-4",
-        "DrugBank:DB01776",
-        "Gmelin:101411",
-        "HMDB:HMDB0002048",
-        "KEGG:C01467",
-        "KEGG:D04951",
-        "MetaCyc:CPD-112",
-        "PDBeChem:CRS",
-        "PMID:23190556",
-        "Reaxys:506719",
-        "UM-BBD_compID:c0282",
-        "Wikipedia:M-cresol"
-    ],
-    "geneontology:hasId": "17231",
-    "geneontology:hasSynonym": [
+    "skos:altLabel": [
         "3-methylphenol",
         "1-hydroxy-3-methylbenzene",
         "3-Cresol",
@@ -43,16 +37,11 @@
         "m-Kresol",
         "m-methylphenol"
     ],
-    "geneontology:inSubset": {
-        "@id": "obo:chebi#3_STAR"
+    "skos:exactMatch": {
+        "@id": "obo:CHEBI_17231"
     },
-    "rdfs:label": "m-cresol",
-    "rdfs:subClassOf": [
-        {
-            "@id": "obo:CHEBI_25399"
-        },
-        {
-            "@id": "b471_genid-00f1db82e1ab437c844115a94dc63e635-bn17231t11f76967"
-        }
-    ]
+    "skos:note": "A cresol with the methyl substituent at position 3. It is a minor urinary metabolite of toluene.",
+    "skos:semanticRelation": {
+        "@id": "obo:CHEBI_25399"
+    }
 }

@@ -1,62 +1,45 @@
 {
     "@context": {
-        "chebi": "http://purl.obolibrary.org/obo/chebi/",
         "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
         "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-        "obo": "http://purl.obolibrary.org/obo/"
+        "obo": "http://purl.obolibrary.org/obo/",
+        "uniprot": "http://purl.uniprot.org/",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "concept": "https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/",
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "dbo": "http://dbpedia.org/ontology/",
+        "dbp": "http://dbpedia.org/property/",
+        "altLabel": {
+            "@id": "http://www.w3.org/2004/02/skos/core#altLabel",
+            "@language": "en"
+        },
+        "graph": {
+            "@id": "@graph"
+        }
     },
-    "@id": "obo:CHEBI_137938",
-    "@type": "http://www.w3.org/2002/07/owl#Class",
-    "obo:IAO_0000115": "An ethyl 2-{4-[(6-chloroquinoxalin-2-yl)oxy]phenoxy}propanoate that has R configuration. A proherbicide for quizalofop-P, it is used to control annual and perennial grass weeds in a variety of crops, including potatoes, sugar beet, peanuts, cotton and flax.",
+    "@id": "concept:OSUHJPCHFDQAIT-GFCCVEGCSA-N",
+    "@type": "skos:Concept",
+    "dbo:formula": "C19H17ClN2O4",
+    "dbo:inchi": "InChI=1S/C19H17ClN2O4/c1-3-24-19(23)12(2)25-14-5-7-15(8-6-14)26-18-11-21-17-10-13(20)4-9-16(17)22-18/h4-12H,3H2,1-2H3/t12-/m1/s1",
+    "dbo:smiles": "C1=C(N=C2C(=N1)C=C(C=C2)Cl)OC3=CC=C(C=C3)O[C@@H](C(OCC)=O)C",
+    "dbp:inchikey": "OSUHJPCHFDQAIT-GFCCVEGCSA-N",
     "chebi:charge": "0",
-    "chebi:formula": "C19H17ClN2O4",
-    "chebi:inchi": "InChI=1S/C19H17ClN2O4/c1-3-24-19(23)12(2)25-14-5-7-15(8-6-14)26-18-11-21-17-10-13(20)4-9-16(17)22-18/h4-12H,3H2,1-2H3/t12-/m1/s1",
-    "chebi:inchikey": "OSUHJPCHFDQAIT-GFCCVEGCSA-N",
-    "chebi:smiles": "C1=C(N=C2C(=N1)C=C(C=C2)Cl)OC3=CC=C(C=C3)O[C@@H](C(OCC)=O)C",
-    "geneontology:hasDbXref": [
-        "PMID:24964043",
-        "PMID:26971169",
-        "CAS:100646-51-3",
-        "Pesticides:derivatives/quizalofop-p-ethyl",
-        "PMID:17090107",
-        "PMID:17938739",
-        "PMID:26139867",
-        "PMID:27987479",
-        "PMID:28027504",
-        "PMID:28027508",
-        "PMID:28490371",
-        "PPDB:583",
-        "Reaxys:13263419",
-        "Reaxys:9648298"
-    ],
-    "geneontology:hasId": "137938",
-    "geneontology:hasSynonym": [
+    "skos:altLabel": [
         "(+)-quizalofop-ethyl",
         "ethyl (2R)-2-[4-(6-chloroquinoxalin-2-yloxy)phenoxy]propionate",
         "ethyl (2R)-2-{4-[(6-chloroquinoxalin-2-yl)oxy]phenoxy}propanoate"
     ],
-    "geneontology:inSubset": {
-        "@id": "obo:chebi#3_STAR"
+    "skos:exactMatch": {
+        "@id": "obo:CHEBI_137938"
     },
-    "rdfs:label": "quizalofop-P-ethyl",
-    "rdfs:subClassOf": [
+    "skos:note": "An ethyl 2-{4-[(6-chloroquinoxalin-2-yl)oxy]phenoxy}propanoate that has R configuration. A proherbicide for quizalofop-P, it is used to control annual and perennial grass weeds in a variety of crops, including potatoes, sugar beet, peanuts, cotton and flax.",
+    "skos:semanticRelation": [
         {
             "@id": "obo:CHEBI_137504"
         },
         {
             "@id": "obo:CHEBI_137937"
-        },
-        {
-            "@id": "b61_genid-00f1db82e1ab437c844115a94dc63e635-bn137938t11f33286"
-        },
-        {
-            "@id": "b61_genid-00f1db82e1ab437c844115a94dc63e635-bn137938t11f136646"
-        },
-        {
-            "@id": "b61_genid-00f1db82e1ab437c844115a94dc63e635-bn137938t8f137507"
-        },
-        {
-            "@id": "b61_genid-00f1db82e1ab437c844115a94dc63e635-bn137938t6f137939"
         }
     ]
 }

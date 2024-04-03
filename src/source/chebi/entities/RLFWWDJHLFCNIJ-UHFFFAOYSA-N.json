@@ -1,33 +1,31 @@
 {
     "@context": {
-        "chebi": "http://purl.obolibrary.org/obo/chebi/",
         "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
         "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-        "obo": "http://purl.obolibrary.org/obo/"
+        "obo": "http://purl.obolibrary.org/obo/",
+        "uniprot": "http://purl.uniprot.org/",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "concept": "https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/",
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "dbo": "http://dbpedia.org/ontology/",
+        "dbp": "http://dbpedia.org/property/",
+        "altLabel": {
+            "@id": "http://www.w3.org/2004/02/skos/core#altLabel",
+            "@language": "en"
+        },
+        "graph": {
+            "@id": "@graph"
+        }
     },
-    "@id": "obo:CHEBI_59026",
-    "@type": "http://www.w3.org/2002/07/owl#Class",
-    "obo:IAO_0000115": "A pyrazolone, a member of the class of  pyrazoles that is antipyrine substituted at C-4 by an amino group.  It is a metabolite of aminopyrine and of metamizole.",
+    "@id": "concept:RLFWWDJHLFCNIJ-UHFFFAOYSA-N",
+    "@type": "skos:Concept",
+    "dbo:formula": "C11H13N3O",
+    "dbo:inchi": "InChI=1S/C11H13N3O/c1-8-10(12)11(15)14(13(8)2)9-6-4-3-5-7-9/h3-7H,12H2,1-2H3",
+    "dbo:smiles": "Cc1c(N)c(=O)n(-c2ccccc2)n1C",
+    "dbp:inchikey": "RLFWWDJHLFCNIJ-UHFFFAOYSA-N",
     "chebi:charge": "0",
-    "chebi:formula": "C11H13N3O",
-    "chebi:inchi": "InChI=1S/C11H13N3O/c1-8-10(12)11(15)14(13(8)2)9-6-4-3-5-7-9/h3-7H,12H2,1-2H3",
-    "chebi:inchikey": "RLFWWDJHLFCNIJ-UHFFFAOYSA-N",
-    "chebi:smiles": "Cc1c(N)c(=O)n(-c2ccccc2)n1C",
-    "geneontology:hasDbXref": [
-        "PMID:3425858",
-        "Beilstein:181635",
-        "CAS:83-07-8",
-        "LINCS:LSM-5369",
-        "PMID:24056243",
-        "PMID:24508878",
-        "PMID:25476354",
-        "PMID:25652276",
-        "PMID:25947243",
-        "Reaxys:181635",
-        "Wikipedia:Ampyrone"
-    ],
-    "geneontology:hasId": "59026",
-    "geneontology:hasSynonym": [
+    "skos:altLabel": [
         "4-AAP",
         "4-amino-1,5-dimethyl-2-phenyl-1,2-dihydro-3H-pyrazol-3-one",
         "4-Amino-2,3-dimethyl-1-phenyl-3-pyrazolin-5-one",
@@ -42,43 +40,16 @@
         "Solnapyrin-A",
         "Solvapyrin-A"
     ],
-    "geneontology:inSubset": {
-        "@id": "obo:chebi#3_STAR"
+    "skos:exactMatch": {
+        "@id": "obo:CHEBI_59026"
     },
-    "rdfs:label": "4-aminoantipyrine",
-    "rdfs:subClassOf": [
+    "skos:note": "A pyrazolone, a member of the class of  pyrazoles that is antipyrine substituted at C-4 by an amino group.  It is a metabolite of aminopyrine and of metamizole.",
+    "skos:semanticRelation": [
         {
             "@id": "obo:CHEBI_50994"
         },
         {
             "@id": "obo:CHEBI_83328"
-        },
-        {
-            "@id": "b464_genid-00f1db82e1ab437c844115a94dc63e635-bn59026t8f31225"
-        },
-        {
-            "@id": "b464_genid-00f1db82e1ab437c844115a94dc63e635-bn59026t11f35475"
-        },
-        {
-            "@id": "b464_genid-00f1db82e1ab437c844115a94dc63e635-bn59026t11f35481"
-        },
-        {
-            "@id": "b464_genid-00f1db82e1ab437c844115a94dc63e635-bn59026t11f35493"
-        },
-        {
-            "@id": "b464_genid-00f1db82e1ab437c844115a94dc63e635-bn59026t11f35544"
-        },
-        {
-            "@id": "b464_genid-00f1db82e1ab437c844115a94dc63e635-bn59026t11f35842"
-        },
-        {
-            "@id": "b464_genid-00f1db82e1ab437c844115a94dc63e635-bn59026t11f49103"
-        },
-        {
-            "@id": "b464_genid-00f1db82e1ab437c844115a94dc63e635-bn59026t11f49110"
-        },
-        {
-            "@id": "b464_genid-00f1db82e1ab437c844115a94dc63e635-bn59026t11f83399"
         }
     ]
 }

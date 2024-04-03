@@ -1,28 +1,21 @@
 {
     "@context": {
-        "chebi": "http://purl.obolibrary.org/obo/chebi/",
         "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
         "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-        "obo": "http://purl.obolibrary.org/obo/"
-    },
-    "@id": "obo:CHEBI_81956",
-    "@type": "http://www.w3.org/2002/07/owl#Class",
-    "chebi:charge": "0",
-    "chebi:formula": "C8H11Cl2NO",
-    "chebi:inchi": "InChI=1S/C8H11Cl2NO/c1-3-5-11(6-4-2)8(12)7(9)10/h3-4,7H,1-2,5-6H2",
-    "chebi:inchikey": "YRMLFORXOOIJDR-UHFFFAOYSA-N",
-    "chebi:smiles": "ClC(Cl)C(=O)N(CC=C)CC=C",
-    "geneontology:hasDbXref": [
-        "CAS:37764-25-3",
-        "KEGG:C18782",
-        "PPDB:1189"
-    ],
-    "geneontology:hasId": "81956",
-    "geneontology:inSubset": {
-        "@id": "obo:chebi#2_STAR"
-    },
-    "rdfs:label": "Dichlormid",
-    "rdfs:subClassOf": {
-        "@id": "obo:CHEBI_140326"
+        "obo": "http://purl.obolibrary.org/obo/",
+        "uniprot": "http://purl.uniprot.org/",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "concept": "https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/",
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "dbo": "http://dbpedia.org/ontology/",
+        "dbp": "http://dbpedia.org/property/",
+        "altLabel": {
+            "@id": "http://www.w3.org/2004/02/skos/core#altLabel",
+            "@language": "en"
+        },
+        "graph": {
+            "@id": "@graph"
+        }
     }
 }

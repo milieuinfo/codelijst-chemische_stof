@@ -1,28 +1,35 @@
 {
     "@context": {
-        "chebi": "http://purl.obolibrary.org/obo/chebi/",
         "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
         "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-        "obo": "http://purl.obolibrary.org/obo/"
+        "obo": "http://purl.obolibrary.org/obo/",
+        "uniprot": "http://purl.uniprot.org/",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "concept": "https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/",
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "dbo": "http://dbpedia.org/ontology/",
+        "dbp": "http://dbpedia.org/property/",
+        "altLabel": {
+            "@id": "http://www.w3.org/2004/02/skos/core#altLabel",
+            "@language": "en"
+        },
+        "graph": {
+            "@id": "@graph"
+        }
     },
-    "@id": "obo:CHEBI_165220",
-    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "@id": "concept:WBHQEUPUMONIKF-UHFFFAOYSA-N",
+    "@type": "skos:Concept",
+    "dbo:formula": "C12H3Cl7",
+    "dbo:inchi": "InChI=1S/C12H3Cl7/c13-6-3-8(15)7(14)1-4(6)5-2-9(16)11(18)12(19)10(5)17/h1-3H",
+    "dbo:smiles": "ClC=1C(C=2C(Cl)=CC(Cl)=C(Cl)C2)=CC(Cl)=C(Cl)C1Cl",
+    "dbp:inchikey": "WBHQEUPUMONIKF-UHFFFAOYSA-N",
     "chebi:charge": "0",
-    "chebi:formula": "C12H3Cl7",
-    "chebi:inchi": "InChI=1S/C12H3Cl7/c13-6-3-8(15)7(14)1-4(6)5-2-9(16)11(18)12(19)10(5)17/h1-3H",
-    "chebi:inchikey": "WBHQEUPUMONIKF-UHFFFAOYSA-N",
-    "chebi:smiles": "ClC=1C(C=2C(Cl)=CC(Cl)=C(Cl)C2)=CC(Cl)=C(Cl)C1Cl",
-    "geneontology:hasDbXref": [
-        "CAS:35065-29-3",
-        "Chemspider:33985"
-    ],
-    "geneontology:hasId": "165220",
-    "geneontology:hasSynonym": "1,2,3,4-tetrachloro-5-(2,4,5-trichlorophenyl)benzene",
-    "geneontology:inSubset": {
-        "@id": "obo:chebi#2_STAR"
+    "skos:altLabel": "1,2,3,4-tetrachloro-5-(2,4,5-trichlorophenyl)benzene",
+    "skos:exactMatch": {
+        "@id": "obo:CHEBI_165220"
     },
-    "rdfs:label": "PCB180",
-    "rdfs:subClassOf": {
+    "skos:semanticRelation": {
         "@id": "obo:CHEBI_53156"
     }
 }

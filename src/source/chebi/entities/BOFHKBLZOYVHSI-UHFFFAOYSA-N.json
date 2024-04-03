@@ -1,29 +1,17 @@
 {
     "@context": {
-        "chebi": "http://purl.obolibrary.org/obo/chebi/",
         "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
         "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-        "obo": "http://purl.obolibrary.org/obo/"
-    },
-    "@id": "obo:CHEBI_82111",
-    "@type": "http://www.w3.org/2002/07/owl#Class",
-    "chebi:charge": "0",
-    "chebi:formula": "C12H19ClNO3P",
-    "chebi:inchi": "InChI=1S/C12H19ClNO3P/c1-12(2,3)9-6-7-11(10(13)8-9)17-18(15,14-4)16-5/h6-8H,1-5H3,(H,14,15)",
-    "chebi:inchikey": "BOFHKBLZOYVHSI-UHFFFAOYSA-N",
-    "chebi:smiles": "CNP(=O)(OC)Oc1ccc(cc1Cl)C(C)(C)C",
-    "geneontology:hasDbXref": [
-        "CAS:299-86-5",
-        "KEGG:C18972",
-        "KEGG:D03610",
-        "VSDB:1276"
-    ],
-    "geneontology:hasId": "82111",
-    "geneontology:inSubset": {
-        "@id": "obo:chebi#2_STAR"
-    },
-    "rdfs:label": "Crufomate",
-    "rdfs:subClassOf": {
-        "@id": "obo:CHEBI_38976"
+        "obo": "http://purl.obolibrary.org/obo/",
+        "uniprot": "http://purl.uniprot.org/",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "concept": "https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/",
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "dbo": "http://dbpedia.org/ontology/",
+        "dbp": "http://dbpedia.org/property/",
+        "graph": {
+            "@id": "@graph"
+        }
     }
 }

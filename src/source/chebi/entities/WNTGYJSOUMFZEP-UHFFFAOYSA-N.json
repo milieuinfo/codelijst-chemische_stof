@@ -1,26 +1,31 @@
 {
     "@context": {
-        "chebi": "http://purl.obolibrary.org/obo/chebi/",
         "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
         "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-        "obo": "http://purl.obolibrary.org/obo/"
+        "obo": "http://purl.obolibrary.org/obo/",
+        "uniprot": "http://purl.uniprot.org/",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "concept": "https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/",
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "dbo": "http://dbpedia.org/ontology/",
+        "dbp": "http://dbpedia.org/property/",
+        "altLabel": {
+            "@id": "http://www.w3.org/2004/02/skos/core#altLabel",
+            "@language": "en"
+        },
+        "graph": {
+            "@id": "@graph"
+        }
     },
-    "@id": "obo:CHEBI_75704",
-    "@type": "http://www.w3.org/2002/07/owl#Class",
-    "obo:IAO_0000115": "A monocarboxylic acid that is lactic acid in which the hydroxyl hydrogen is replaced by a 4-chloro-2-methylphenyl group.",
+    "@id": "concept:WNTGYJSOUMFZEP-UHFFFAOYSA-N",
+    "@type": "skos:Concept",
+    "dbo:formula": "C10H11ClO3",
+    "dbo:inchi": "InChI=1S/C10H11ClO3/c1-6-5-8(11)3-4-9(6)14-7(2)10(12)13/h3-5,7H,1-2H3,(H,12,13)",
+    "dbo:smiles": "CC(Oc1ccc(Cl)cc1C)C(O)=O",
+    "dbp:inchikey": "WNTGYJSOUMFZEP-UHFFFAOYSA-N",
     "chebi:charge": "0",
-    "chebi:formula": "C10H11ClO3",
-    "chebi:inchi": "InChI=1S/C10H11ClO3/c1-6-5-8(11)3-4-9(6)14-7(2)10(12)13/h3-5,7H,1-2H3,(H,12,13)",
-    "chebi:inchikey": "WNTGYJSOUMFZEP-UHFFFAOYSA-N",
-    "chebi:smiles": "CC(Oc1ccc(Cl)cc1C)C(O)=O",
-    "geneontology:hasDbXref": [
-        "Wikipedia:Mecoprop",
-        "CAS:93-65-2",
-        "KEGG:C18742",
-        "Reaxys:2212752"
-    ],
-    "geneontology:hasId": "75704",
-    "geneontology:hasSynonym": [
+    "skos:altLabel": [
         "2-(4-chloro-2-methylphenoxy)propionic acid",
         "2-(4-Chloro-2-tolyloxy)propionic acid",
         "2-(p-Chloro-o-tolyloxy)propionic acid",
@@ -28,11 +33,11 @@
         "Mecoprop",
         "O-(4-chloro-2-methylphenyl)lactic acid"
     ],
-    "geneontology:inSubset": {
-        "@id": "obo:chebi#3_STAR"
+    "skos:exactMatch": {
+        "@id": "obo:CHEBI_75704"
     },
-    "rdfs:label": "2-(4-chloro-2-methylphenoxy)propanoic acid",
-    "rdfs:subClassOf": [
+    "skos:note": "A monocarboxylic acid that is lactic acid in which the hydroxyl hydrogen is replaced by a 4-chloro-2-methylphenyl group.",
+    "skos:semanticRelation": [
         {
             "@id": "obo:CHEBI_35618"
         },
@@ -41,9 +46,6 @@
         },
         {
             "@id": "obo:CHEBI_83403"
-        },
-        {
-            "@id": "b61_genid-00f1db82e1ab437c844115a94dc63e635-bn75704t8f28358"
         }
     ]
 }

@@ -1,28 +1,21 @@
 {
     "@context": {
-        "chebi": "http://purl.obolibrary.org/obo/chebi/",
         "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
         "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-        "obo": "http://purl.obolibrary.org/obo/"
-    },
-    "@id": "obo:CHEBI_82151",
-    "@type": "http://www.w3.org/2002/07/owl#Class",
-    "chebi:charge": "0",
-    "chebi:formula": "C15H23ClO4S",
-    "chebi:inchi": "InChI=1S/C15H23ClO4S/c1-12(20-21(17)19-10-9-16)11-18-14-7-5-13(6-8-14)15(2,3)4/h5-8,12H,9-11H2,1-4H3",
-    "chebi:inchikey": "YKFRAOGHWKADFJ-UHFFFAOYSA-N",
-    "chebi:smiles": "CC(COc1ccc(cc1)C(C)(C)C)OS(=O)OCCCl",
-    "geneontology:hasDbXref": [
-        "CAS:140-57-8",
-        "KEGG:C19019",
-        "PPDB:1334"
-    ],
-    "geneontology:hasId": "82151",
-    "geneontology:inSubset": {
-        "@id": "obo:chebi#2_STAR"
-    },
-    "rdfs:label": "Aramite",
-    "rdfs:subClassOf": {
-        "@id": "obo:CHEBI_38976"
+        "obo": "http://purl.obolibrary.org/obo/",
+        "uniprot": "http://purl.uniprot.org/",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "concept": "https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/",
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "dbo": "http://dbpedia.org/ontology/",
+        "dbp": "http://dbpedia.org/property/",
+        "altLabel": {
+            "@id": "http://www.w3.org/2004/02/skos/core#altLabel",
+            "@language": "en"
+        },
+        "graph": {
+            "@id": "@graph"
+        }
     }
 }

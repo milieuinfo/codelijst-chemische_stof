@@ -1,38 +1,31 @@
 {
     "@context": {
-        "chebi": "http://purl.obolibrary.org/obo/chebi/",
         "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
         "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-        "obo": "http://purl.obolibrary.org/obo/"
+        "obo": "http://purl.obolibrary.org/obo/",
+        "uniprot": "http://purl.uniprot.org/",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "concept": "https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/",
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "dbo": "http://dbpedia.org/ontology/",
+        "dbp": "http://dbpedia.org/property/",
+        "altLabel": {
+            "@id": "http://www.w3.org/2004/02/skos/core#altLabel",
+            "@language": "en"
+        },
+        "graph": {
+            "@id": "@graph"
+        }
     },
-    "@id": "obo:CHEBI_28024",
-    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "@id": "concept:XLJMAIOERFSOGZ-UHFFFAOYSA-N",
+    "@type": "skos:Concept",
+    "dbo:formula": "CHNO",
+    "dbo:inchi": "InChI=1S/CHNO/c2-1-3/h3H",
+    "dbo:smiles": "OC#N",
+    "dbp:inchikey": "XLJMAIOERFSOGZ-UHFFFAOYSA-N",
     "chebi:charge": "0",
-    "chebi:formula": "CHNO",
-    "chebi:inchi": "InChI=1S/CHNO/c2-1-3/h3H",
-    "chebi:inchikey": "XLJMAIOERFSOGZ-UHFFFAOYSA-N",
-    "chebi:smiles": "OC#N",
-    "geneontology:hasDbXref": [
-        "Beilstein:1732479",
-        "CAS:420-05-3",
-        "Chemspider:525",
-        "Gmelin:839",
-        "KEGG:C01417",
-        "PDBeChem:0NM",
-        "PMID:12573832",
-        "PMID:12590561",
-        "PMID:16743625",
-        "PMID:16744204",
-        "PMID:19624192",
-        "PMID:20261791",
-        "PMID:20261792",
-        "PMID:20340793",
-        "PMID:237898",
-        "PMID:4368066",
-        "PMID:6493050"
-    ],
-    "geneontology:hasId": "28024",
-    "geneontology:hasSynonym": [
+    "skos:altLabel": [
         "[C(N)OH]",
         "acide cyanique",
         "acido cianico",
@@ -45,25 +38,15 @@
         "nitridooxocarbonic acid",
         "Zyansaeure"
     ],
-    "geneontology:inSubset": {
-        "@id": "obo:chebi#3_STAR"
+    "skos:exactMatch": {
+        "@id": "obo:CHEBI_28024"
     },
-    "rdfs:label": "cyanic acid",
-    "rdfs:subClassOf": [
+    "skos:semanticRelation": [
         {
             "@id": "obo:CHEBI_64708"
         },
         {
             "@id": "obo:CHEBI_23423"
-        },
-        {
-            "@id": "b198_genid-00f1db82e1ab437c844115a94dc63e635-bn28024tmms73f29195"
-        },
-        {
-            "@id": "b198_genid-00f1db82e1ab437c844115a94dc63e635-bn28024t4f29195"
-        },
-        {
-            "@id": "b198_genid-00f1db82e1ab437c844115a94dc63e635-bn28024t7f29202"
         }
     ]
 }

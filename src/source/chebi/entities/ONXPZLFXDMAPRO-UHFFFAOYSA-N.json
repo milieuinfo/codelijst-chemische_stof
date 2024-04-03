@@ -1,26 +1,31 @@
 {
     "@context": {
-        "chebi": "http://purl.obolibrary.org/obo/chebi/",
         "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
         "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-        "obo": "http://purl.obolibrary.org/obo/"
+        "obo": "http://purl.obolibrary.org/obo/",
+        "uniprot": "http://purl.uniprot.org/",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "concept": "https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/",
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "dbo": "http://dbpedia.org/ontology/",
+        "dbp": "http://dbpedia.org/property/",
+        "altLabel": {
+            "@id": "http://www.w3.org/2004/02/skos/core#altLabel",
+            "@language": "en"
+        },
+        "graph": {
+            "@id": "@graph"
+        }
     },
-    "@id": "obo:CHEBI_34666",
-    "@type": "http://www.w3.org/2002/07/owl#Class",
-    "obo:IAO_0000115": "A polychlorobiphenyl that is biphenyl in which all of the hydrogens are replaced by chlorines.",
+    "@id": "concept:ONXPZLFXDMAPRO-UHFFFAOYSA-N",
+    "@type": "skos:Concept",
+    "dbo:formula": "C12Cl10",
+    "dbo:inchi": "InChI=1S/C12Cl10/c13-3-1(4(14)8(18)11(21)7(3)17)2-5(15)9(19)12(22)10(20)6(2)16",
+    "dbo:smiles": "Clc1c(Cl)c(Cl)c(c(Cl)c1Cl)-c1c(Cl)c(Cl)c(Cl)c(Cl)c1Cl",
+    "dbp:inchikey": "ONXPZLFXDMAPRO-UHFFFAOYSA-N",
     "chebi:charge": "0",
-    "chebi:formula": "C12Cl10",
-    "chebi:inchi": "InChI=1S/C12Cl10/c13-3-1(4(14)8(18)11(21)7(3)17)2-5(15)9(19)12(22)10(20)6(2)16",
-    "chebi:inchikey": "ONXPZLFXDMAPRO-UHFFFAOYSA-N",
-    "chebi:smiles": "Clc1c(Cl)c(Cl)c(c(Cl)c1Cl)-c1c(Cl)c(Cl)c(Cl)c(Cl)c1Cl",
-    "geneontology:hasDbXref": [
-        "Beilstein:2065289",
-        "CAS:2051-24-3",
-        "Gmelin:1481615",
-        "KEGG:C14368"
-    ],
-    "geneontology:hasId": "34666",
-    "geneontology:hasSynonym": [
+    "skos:altLabel": [
         "2,2',3,3',4,4',5,5',6,6'-decachloro-1,1'-biphenyl",
         "2,2',3,3',4,4',5,5',6,6'-decachlorobiphenyl",
         "decachloro-1,1'-biphenyl",
@@ -28,11 +33,11 @@
         "PCB 209",
         "perchlorobiphenyl"
     ],
-    "geneontology:inSubset": {
-        "@id": "obo:chebi#3_STAR"
+    "skos:exactMatch": {
+        "@id": "obo:CHEBI_34666"
     },
-    "rdfs:label": "decachlorobiphenyl",
-    "rdfs:subClassOf": [
+    "skos:note": "A polychlorobiphenyl that is biphenyl in which all of the hydrogens are replaced by chlorines.",
+    "skos:semanticRelation": [
         {
             "@id": "obo:CHEBI_53156"
         },

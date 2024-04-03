@@ -1,71 +1,31 @@
 {
     "@context": {
-        "chebi": "http://purl.obolibrary.org/obo/chebi/",
         "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
         "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-        "obo": "http://purl.obolibrary.org/obo/"
+        "obo": "http://purl.obolibrary.org/obo/",
+        "uniprot": "http://purl.uniprot.org/",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "concept": "https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/",
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "dbo": "http://dbpedia.org/ontology/",
+        "dbp": "http://dbpedia.org/property/",
+        "altLabel": {
+            "@id": "http://www.w3.org/2004/02/skos/core#altLabel",
+            "@language": "en"
+        },
+        "graph": {
+            "@id": "@graph"
+        }
     },
-    "@id": "obo:CHEBI_16134",
-    "@type": "http://www.w3.org/2002/07/owl#Class",
-    "obo:IAO_0000115": "An azane that consists of a single nitrogen atom covelently bonded to three hydrogen atoms.",
+    "@id": "concept:QGZKDVFQNNGYKY-UHFFFAOYSA-N",
+    "@type": "skos:Concept",
+    "dbo:formula": "H3N",
+    "dbo:inchi": "InChI=1S/H3N/h1H3",
+    "dbo:smiles": "[H]N([H])[H]",
+    "dbp:inchikey": "QGZKDVFQNNGYKY-UHFFFAOYSA-N",
     "chebi:charge": "0",
-    "chebi:formula": "H3N",
-    "chebi:inchi": "InChI=1S/H3N/h1H3",
-    "chebi:inchikey": "QGZKDVFQNNGYKY-UHFFFAOYSA-N",
-    "chebi:smiles": "[H]N([H])[H]",
-    "http://purl.uniprot.org/core/name": "NH3",
-    "geneontology:hasDbXref": [
-        "PMID:17439666",
-        "PMID:110589",
-        "Beilstein:3587154",
-        "CAS:7664-41-7",
-        "Drug_Central:4625",
-        "Gmelin:79",
-        "HMDB:HMDB0000051",
-        "KEGG:C00014",
-        "KEGG:D02916",
-        "KNApSAcK:C00007267",
-        "MetaCyc:AMMONIA",
-        "MolBase:930",
-        "PDBeChem:NH3",
-        "PMID:11139349",
-        "PMID:11540049",
-        "PMID:11746427",
-        "PMID:11783653",
-        "PMID:13753780",
-        "PMID:14663195",
-        "PMID:15092448",
-        "PMID:15094021",
-        "PMID:15554424",
-        "PMID:15969015",
-        "PMID:16008360",
-        "PMID:16050680",
-        "PMID:16348008",
-        "PMID:16349403",
-        "PMID:16614889",
-        "PMID:16664306",
-        "PMID:16842901",
-        "PMID:17025297",
-        "PMID:17569513",
-        "PMID:17737668",
-        "PMID:18670398",
-        "PMID:22002069",
-        "PMID:22081570",
-        "PMID:22088435",
-        "PMID:22100291",
-        "PMID:22130175",
-        "PMID:22150211",
-        "PMID:22240068",
-        "PMID:22290316",
-        "PMID:22342082",
-        "PMID:22385337",
-        "PMID:22443779",
-        "PMID:22560242",
-        "Reaxys:3587154",
-        "Wikipedia:Ammonia"
-    ],
-    "geneontology:hasId": "16134",
-    "geneontology:hasSynonym": [
+    "skos:altLabel": [
         "[NH3]",
         "Ammonia",
         "AMMONIA",
@@ -77,11 +37,11 @@
         "R-717",
         "spirit of hartshorn"
     ],
-    "geneontology:inSubset": {
-        "@id": "obo:chebi#3_STAR"
+    "skos:exactMatch": {
+        "@id": "obo:CHEBI_16134"
     },
-    "rdfs:label": "ammonia",
-    "rdfs:subClassOf": [
+    "skos:note": "An azane that consists of a single nitrogen atom covelently bonded to three hydrogen atoms.",
+    "skos:semanticRelation": [
         {
             "@id": "obo:CHEBI_37176"
         },
@@ -90,33 +50,6 @@
         },
         {
             "@id": "obo:CHEBI_35107"
-        },
-        {
-            "@id": "b294_genid-00f1db82e1ab437c844115a94dc63e635-bn16134tmms73f28938"
-        },
-        {
-            "@id": "b294_genid-00f1db82e1ab437c844115a94dc63e635-bn16134t11f25212"
-        },
-        {
-            "@id": "b294_genid-00f1db82e1ab437c844115a94dc63e635-bn16134t5f28938"
-        },
-        {
-            "@id": "b294_genid-00f1db82e1ab437c844115a94dc63e635-bn16134t4f29337"
-        },
-        {
-            "@id": "b294_genid-00f1db82e1ab437c844115a94dc63e635-bn16134t11f50910"
-        },
-        {
-            "@id": "b294_genid-00f1db82e1ab437c844115a94dc63e635-bn16134t11f59740"
-        },
-        {
-            "@id": "b294_genid-00f1db82e1ab437c844115a94dc63e635-bn16134t11f75771"
-        },
-        {
-            "@id": "b294_genid-00f1db82e1ab437c844115a94dc63e635-bn16134t11f77941"
-        },
-        {
-            "@id": "b294_genid-00f1db82e1ab437c844115a94dc63e635-bn16134t11f78433"
         }
     ]
 }

@@ -1,56 +1,38 @@
 {
     "@context": {
-        "chebi": "http://purl.obolibrary.org/obo/chebi/",
         "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
         "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-        "obo": "http://purl.obolibrary.org/obo/"
+        "obo": "http://purl.obolibrary.org/obo/",
+        "uniprot": "http://purl.uniprot.org/",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "concept": "https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/",
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "dbo": "http://dbpedia.org/ontology/",
+        "dbp": "http://dbpedia.org/property/",
+        "graph": {
+            "@id": "@graph"
+        }
     },
-    "@id": "obo:CHEBI_81952",
-    "@type": "http://www.w3.org/2002/07/owl#Class",
-    "obo:IAO_0000115": "A member of the class of aminopyrimidines that is 2-ethylaminopyrimidine carrying methyl, butyl and dimethylaminosulfooxy substituents at posiitons 4, 5 and 6 respectively.",
+    "@id": "concept:DSKJPMWIHSOYEA-UHFFFAOYSA-N",
+    "@type": "skos:Concept",
+    "dbo:formula": "C13H24N4O3S",
+    "dbo:inchi": "InChI=1S/C13H24N4O3S/c1-6-8-9-11-10(3)15-13(14-7-2)16-12(11)20-21(18,19)17(4)5/h6-9H2,1-5H3,(H,14,15,16)",
+    "dbo:smiles": "CCCCc1c(C)nc(NCC)nc1OS(=O)(=O)N(C)C",
+    "dbp:inchikey": "DSKJPMWIHSOYEA-UHFFFAOYSA-N",
     "chebi:charge": "0",
-    "chebi:formula": "C13H24N4O3S",
-    "chebi:inchi": "InChI=1S/C13H24N4O3S/c1-6-8-9-11-10(3)15-13(14-7-2)16-12(11)20-21(18,19)17(4)5/h6-9H2,1-5H3,(H,14,15,16)",
-    "chebi:inchikey": "DSKJPMWIHSOYEA-UHFFFAOYSA-N",
-    "chebi:smiles": "CCCCc1c(C)nc(NCC)nc1OS(=O)(=O)N(C)C",
-    "geneontology:hasDbXref": [
-        "AGR:IND44683022",
-        "CAS:41483-43-6",
-        "KEGG:C18776",
-        "Patent:CN101617658",
-        "Patent:CN101632364",
-        "Patent:CN101632374",
-        "Patent:CN101647442",
-        "Patent:CN101647443",
-        "Patent:DE3441674",
-        "Patent:GB2112287",
-        "Pesticides:bupirimate",
-        "PMID:11271705",
-        "PMID:11407590",
-        "PMID:1322478",
-        "PMID:1333747",
-        "PMID:20736058",
-        "PMID:22467459",
-        "PMID:25035916",
-        "PMID:7835474",
-        "PMID:8381343",
-        "PPDB:99",
-        "Reaxys:758056",
-        "Wikipedia:Bupirimate"
-    ],
-    "geneontology:hasId": "81952",
-    "geneontology:hasSynonym": [
+    "skos:altLabel": [
         "2-Aethylamino-5-butyl-4-yl-dimethylsulfamat",
         "5-Butyl-2-(ethylamino)-6-methyl-4-pyrimidinyl dimethylsulfamate",
         "5-butyl-2-(ethylamino)-6-methylpyrimidin-4-yl dimethylsulfamate",
         "5-Butyl-2-ethylamino-6-methylpyrimidin-4-yl dimethylsulphamate",
         "Dimethylsulfamic acid 5-butyl-2-(ethylamino)-6-methyl-4-pyrimidinyl ester"
     ],
-    "geneontology:inSubset": {
-        "@id": "obo:chebi#3_STAR"
+    "skos:exactMatch": {
+        "@id": "obo:CHEBI_81952"
     },
-    "rdfs:label": "bupirimate",
-    "rdfs:subClassOf": [
+    "skos:note": "A member of the class of aminopyrimidines that is 2-ethylaminopyrimidine carrying methyl, butyl and dimethylaminosulfooxy substituents at posiitons 4, 5 and 6 respectively.",
+    "skos:semanticRelation": [
         {
             "@id": "obo:CHEBI_38338"
         },
@@ -62,12 +44,6 @@
         },
         {
             "@id": "obo:CHEBI_48199"
-        },
-        {
-            "@id": "b522_genid-00f1db82e1ab437c844115a94dc63e635-bn81952t11f35497"
-        },
-        {
-            "@id": "b522_genid-00f1db82e1ab437c844115a94dc63e635-bn81952t11f86328"
         }
     ]
 }

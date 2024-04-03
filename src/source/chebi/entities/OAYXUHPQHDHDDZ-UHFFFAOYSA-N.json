@@ -1,28 +1,35 @@
 {
     "@context": {
-        "chebi": "http://purl.obolibrary.org/obo/chebi/",
         "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
         "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-        "obo": "http://purl.obolibrary.org/obo/"
+        "obo": "http://purl.obolibrary.org/obo/",
+        "uniprot": "http://purl.uniprot.org/",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "concept": "https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/",
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "dbo": "http://dbpedia.org/ontology/",
+        "dbp": "http://dbpedia.org/property/",
+        "altLabel": {
+            "@id": "http://www.w3.org/2004/02/skos/core#altLabel",
+            "@language": "en"
+        },
+        "graph": {
+            "@id": "@graph"
+        }
     },
-    "@id": "obo:CHEBI_195270",
-    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "@id": "concept:OAYXUHPQHDHDDZ-UHFFFAOYSA-N",
+    "@type": "skos:Concept",
+    "dbo:formula": "C8H18O3",
+    "dbo:inchi": "InChI=1S/C8H18O3/c1-2-3-5-10-7-8-11-6-4-9/h9H,2-8H2,1H3",
+    "dbo:smiles": "O(CCCC)CCOCCO",
+    "dbp:inchikey": "OAYXUHPQHDHDDZ-UHFFFAOYSA-N",
     "chebi:charge": "0",
-    "chebi:formula": "C8H18O3",
-    "chebi:inchi": "InChI=1S/C8H18O3/c1-2-3-5-10-7-8-11-6-4-9/h9H,2-8H2,1H3",
-    "chebi:inchikey": "OAYXUHPQHDHDDZ-UHFFFAOYSA-N",
-    "chebi:smiles": "O(CCCC)CCOCCO",
-    "geneontology:hasDbXref": [
-        "CAS:112-34-5",
-        "Chemspider:13839549"
-    ],
-    "geneontology:hasId": "195270",
-    "geneontology:hasSynonym": "2-(2-butoxyethoxy)ethanol",
-    "geneontology:inSubset": {
-        "@id": "obo:chebi#2_STAR"
+    "skos:altLabel": "2-(2-butoxyethoxy)ethanol",
+    "skos:exactMatch": {
+        "@id": "obo:CHEBI_195270"
     },
-    "rdfs:label": "Ethanol, 2-(2-butoxyethoxy)-",
-    "rdfs:subClassOf": {
+    "skos:semanticRelation": {
         "@id": "obo:CHEBI_25698"
     }
 }

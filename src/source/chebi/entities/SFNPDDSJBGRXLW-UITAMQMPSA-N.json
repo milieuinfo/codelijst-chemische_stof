@@ -1,24 +1,31 @@
 {
     "@context": {
-        "chebi": "http://purl.obolibrary.org/obo/chebi/",
         "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
         "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-        "obo": "http://purl.obolibrary.org/obo/"
+        "obo": "http://purl.obolibrary.org/obo/",
+        "uniprot": "http://purl.uniprot.org/",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "concept": "https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/",
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "dbo": "http://dbpedia.org/ontology/",
+        "dbp": "http://dbpedia.org/property/",
+        "altLabel": {
+            "@id": "http://www.w3.org/2004/02/skos/core#altLabel",
+            "@language": "en"
+        },
+        "graph": {
+            "@id": "@graph"
+        }
     },
-    "@id": "obo:CHEBI_38465",
-    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "@id": "concept:SFNPDDSJBGRXLW-UITAMQMPSA-N",
+    "@type": "skos:Concept",
+    "dbo:formula": "C7H14N2O2S",
+    "dbo:inchi": "InChI=1S/C7H14N2O2S/c1-5(6(2)12-4)9-11-7(10)8-3/h6H,1-4H3,(H,8,10)/b9-5-",
+    "dbo:smiles": "CNC(=O)O\\N=C(\\C)C(C)SC",
+    "dbp:inchikey": "SFNPDDSJBGRXLW-UITAMQMPSA-N",
     "chebi:charge": "0",
-    "chebi:formula": "C7H14N2O2S",
-    "chebi:inchi": "InChI=1S/C7H14N2O2S/c1-5(6(2)12-4)9-11-7(10)8-3/h6H,1-4H3,(H,8,10)/b9-5-",
-    "chebi:inchikey": "SFNPDDSJBGRXLW-UITAMQMPSA-N",
-    "chebi:smiles": "CNC(=O)O\\N=C(\\C)C(C)SC",
-    "geneontology:hasDbXref": [
-        "Beilstein:2087348",
-        "CAS:34681-10-2",
-        "KEGG:C18645"
-    ],
-    "geneontology:hasId": "38465",
-    "geneontology:hasSynonym": [
+    "skos:altLabel": [
         "(2E)-2-(([(Methylamino)carbonyl]oxy)imino)-3-(methylsulfanyl)butane",
         "3-(Methylthio)-2-butanone O-((methylamino)carbonyl)oxime",
         "3-(Methylthio)-2-butanone O-(methylcarbamoyl)oxime",
@@ -26,28 +33,10 @@
         "Butocarboxime",
         "N-(methylcarbamoyloxy)-3-(methylsulfanyl)butan-2-imine"
     ],
-    "geneontology:inSubset": {
-        "@id": "obo:chebi#3_STAR"
+    "skos:exactMatch": {
+        "@id": "obo:CHEBI_38465"
     },
-    "rdfs:label": "butocarboxim",
-    "rdfs:subClassOf": [
-        {
-            "@id": "obo:CHEBI_23003"
-        },
-        {
-            "@id": "b594_genid-00f1db82e1ab437c844115a94dc63e635-bn38465t11f22153"
-        },
-        {
-            "@id": "b594_genid-00f1db82e1ab437c844115a94dc63e635-bn38465t11f33286"
-        },
-        {
-            "@id": "b594_genid-00f1db82e1ab437c844115a94dc63e635-bn38465t11f38461"
-        },
-        {
-            "@id": "b594_genid-00f1db82e1ab437c844115a94dc63e635-bn38465t11f38462"
-        },
-        {
-            "@id": "b594_genid-00f1db82e1ab437c844115a94dc63e635-bn38465t8f38469"
-        }
-    ]
+    "skos:semanticRelation": {
+        "@id": "obo:CHEBI_23003"
+    }
 }

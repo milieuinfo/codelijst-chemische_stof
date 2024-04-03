@@ -1,26 +1,31 @@
 {
     "@context": {
-        "chebi": "http://purl.obolibrary.org/obo/chebi/",
         "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
         "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-        "obo": "http://purl.obolibrary.org/obo/"
+        "obo": "http://purl.obolibrary.org/obo/",
+        "uniprot": "http://purl.uniprot.org/",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "concept": "https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/",
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "dbo": "http://dbpedia.org/ontology/",
+        "dbp": "http://dbpedia.org/property/",
+        "altLabel": {
+            "@id": "http://www.w3.org/2004/02/skos/core#altLabel",
+            "@language": "en"
+        },
+        "graph": {
+            "@id": "@graph"
+        }
     },
-    "@id": "obo:CHEBI_51874",
-    "@type": "http://www.w3.org/2002/07/owl#Class",
-    "obo:IAO_0000115": "A member of the class of imines that is benzophenone imine carrying two dimethylamino substituents at positions 4 and 4'. The hydrochloride salt is the biological stain 'auramine O'",
+    "@id": "concept:JPIYZTWMUGTEHX-UHFFFAOYSA-N",
+    "@type": "skos:Concept",
+    "dbo:formula": "C17H21N3",
+    "dbo:inchi": "InChI=1S/C17H21N3/c1-19(2)15-9-5-13(6-10-15)17(18)14-7-11-16(12-8-14)20(3)4/h5-12,18H,1-4H3",
+    "dbo:smiles": "CN(C)c1ccc(cc1)C(=N)c1ccc(cc1)N(C)C",
+    "dbp:inchikey": "JPIYZTWMUGTEHX-UHFFFAOYSA-N",
     "chebi:charge": "0",
-    "chebi:formula": "C17H21N3",
-    "chebi:inchi": "InChI=1S/C17H21N3/c1-19(2)15-9-5-13(6-10-15)17(18)14-7-11-16(12-8-14)20(3)4/h5-12,18H,1-4H3",
-    "chebi:inchikey": "JPIYZTWMUGTEHX-UHFFFAOYSA-N",
-    "chebi:smiles": "CN(C)c1ccc(cc1)C(=N)c1ccc(cc1)N(C)C",
-    "geneontology:hasDbXref": [
-        "Beilstein:2215338",
-        "CAS:492-80-8",
-        "KEGG:C19193",
-        "Reaxys:2215338"
-    ],
-    "geneontology:hasId": "51874",
-    "geneontology:hasSynonym": [
+    "skos:altLabel": [
         "4,4'-(Imidocarbonyl)bis(N,N-dimethylaniline)",
         "4,4'-carbonimidoylbis(N,N-dimethylaniline)",
         "4,4'-Dimethylaminobenzophenonimide",
@@ -35,11 +40,11 @@
         "Tetramethyl-p-diamino-imido-benzophenone",
         "Yellow pyoctanine"
     ],
-    "geneontology:inSubset": {
-        "@id": "obo:chebi#3_STAR"
+    "skos:exactMatch": {
+        "@id": "obo:CHEBI_51874"
     },
-    "rdfs:label": "auramine O free base",
-    "rdfs:subClassOf": [
+    "skos:note": "A member of the class of imines that is benzophenone imine carrying two dimethylamino substituents at positions 4 and 4'. The hydrochloride salt is the biological stain 'auramine O'",
+    "skos:semanticRelation": [
         {
             "@id": "obo:CHEBI_50996"
         },
@@ -48,18 +53,6 @@
         },
         {
             "@id": "obo:CHEBI_48975"
-        },
-        {
-            "@id": "b304_genid-00f1db82e1ab437c844115a94dc63e635-bn51874tmms73f87485"
-        },
-        {
-            "@id": "b304_genid-00f1db82e1ab437c844115a94dc63e635-bn51874t11f51217"
-        },
-        {
-            "@id": "b304_genid-00f1db82e1ab437c844115a94dc63e635-bn51874t11f77178"
-        },
-        {
-            "@id": "b304_genid-00f1db82e1ab437c844115a94dc63e635-bn51874t5f87485"
         }
     ]
 }

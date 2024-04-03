@@ -1,36 +1,31 @@
 {
     "@context": {
-        "chebi": "http://purl.obolibrary.org/obo/chebi/",
         "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
         "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-        "obo": "http://purl.obolibrary.org/obo/"
+        "obo": "http://purl.obolibrary.org/obo/",
+        "uniprot": "http://purl.uniprot.org/",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "concept": "https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/",
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "dbo": "http://dbpedia.org/ontology/",
+        "dbp": "http://dbpedia.org/property/",
+        "altLabel": {
+            "@id": "http://www.w3.org/2004/02/skos/core#altLabel",
+            "@language": "en"
+        },
+        "graph": {
+            "@id": "@graph"
+        }
     },
-    "@id": "obo:CHEBI_28661",
-    "@type": "http://www.w3.org/2002/07/owl#Class",
-    "obo:IAO_0000115": "A C18, omega-6 acid fatty acid comprising a linolenic acid having cis- double bonds at positions 6, 9 and 12.",
+    "@id": "concept:VZCCETWTMQHEPK-QNEBEIHSSA-N",
+    "@type": "skos:Concept",
+    "dbo:formula": "C18H30O2",
+    "dbo:inchi": "InChI=1S/C18H30O2/c1-2-3-4-5-6-7-8-9-10-11-12-13-14-15-16-17-18(19)20/h6-7,9-10,12-13H,2-5,8,11,14-17H2,1H3,(H,19,20)/b7-6-,10-9-,13-12-",
+    "dbo:smiles": "CCCCC\\C=C/C\\C=C/C\\C=C/CCCCC(O)=O",
+    "dbp:inchikey": "VZCCETWTMQHEPK-QNEBEIHSSA-N",
     "chebi:charge": "0",
-    "chebi:formula": "C18H30O2",
-    "chebi:inchi": "InChI=1S/C18H30O2/c1-2-3-4-5-6-7-8-9-10-11-12-13-14-15-16-17-18(19)20/h6-7,9-10,12-13H,2-5,8,11,14-17H2,1H3,(H,19,20)/b7-6-,10-9-,13-12-",
-    "chebi:inchikey": "VZCCETWTMQHEPK-QNEBEIHSSA-N",
-    "chebi:smiles": "CCCCC\\C=C/C\\C=C/C\\C=C/CCCCC(O)=O",
-    "geneontology:hasDbXref": [
-        "Beilstein:1712253",
-        "CAS:506-26-3",
-        "Drug_Central:1276",
-        "HMDB:HMDB0003073",
-        "KEGG:C06426",
-        "KEGG:D07213",
-        "KNApSAcK:C00001226",
-        "LIPID_MAPS_instance:LMFA01030141",
-        "MetaCyc:CPD-8117",
-        "PMID:11385052",
-        "PMID:24435467",
-        "PMID:9732298",
-        "Reaxys:1712253",
-        "Wikipedia:Gamma-Linolenic_acid"
-    ],
-    "geneontology:hasId": "28661",
-    "geneontology:hasSynonym": [
+    "skos:altLabel": [
         "(6,9,12)-linolenic acid",
         "(6Z,9Z,12Z)-octadeca-6,9,12-trienoic acid",
         "(6Z,9Z,12Z)-Octadecatrienoic acid",
@@ -50,31 +45,16 @@
         "GLA",
         "Octadeca-6,9,12-triensaeure"
     ],
-    "geneontology:inSubset": {
-        "@id": "obo:chebi#3_STAR"
+    "skos:exactMatch": {
+        "@id": "obo:CHEBI_28661"
     },
-    "rdfs:label": "gamma-linolenic acid",
-    "rdfs:subClassOf": [
+    "skos:note": "A C18, omega-6 acid fatty acid comprising a linolenic acid having cis- double bonds at positions 6, 9 and 12.",
+    "skos:semanticRelation": [
         {
             "@id": "obo:CHEBI_36009"
         },
         {
             "@id": "obo:CHEBI_25048"
-        },
-        {
-            "@id": "b1032_genid-00f1db82e1ab437c844115a94dc63e635-bn28661tmms73f32391"
-        },
-        {
-            "@id": "b1032_genid-00f1db82e1ab437c844115a94dc63e635-bn28661t4f32391"
-        },
-        {
-            "@id": "b1032_genid-00f1db82e1ab437c844115a94dc63e635-bn28661t11f75771"
-        },
-        {
-            "@id": "b1032_genid-00f1db82e1ab437c844115a94dc63e635-bn28661t11f76924"
-        },
-        {
-            "@id": "b1032_genid-00f1db82e1ab437c844115a94dc63e635-bn28661t11f77746"
         }
     ]
 }

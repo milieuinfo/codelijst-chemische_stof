@@ -1,34 +1,31 @@
 {
     "@context": {
-        "chebi": "http://purl.obolibrary.org/obo/chebi/",
         "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
         "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-        "obo": "http://purl.obolibrary.org/obo/"
+        "obo": "http://purl.obolibrary.org/obo/",
+        "uniprot": "http://purl.uniprot.org/",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "concept": "https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/",
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "dbo": "http://dbpedia.org/ontology/",
+        "dbp": "http://dbpedia.org/property/",
+        "altLabel": {
+            "@id": "http://www.w3.org/2004/02/skos/core#altLabel",
+            "@language": "en"
+        },
+        "graph": {
+            "@id": "@graph"
+        }
     },
-    "@id": "obo:CHEBI_32368",
-    "@type": "http://www.w3.org/2002/07/owl#Class",
-    "obo:IAO_0000115": "A straight-chain, eleven-carbon saturated medium-chain fatty acid found in body fluids; the most fungitoxic of the C7:0 - C18:0 fatty acid series.",
+    "@id": "concept:ZDPHROOEEOARMN-UHFFFAOYSA-N",
+    "@type": "skos:Concept",
+    "dbo:formula": "C11H22O2",
+    "dbo:inchi": "InChI=1S/C11H22O2/c1-2-3-4-5-6-7-8-9-10-11(12)13/h2-10H2,1H3,(H,12,13)",
+    "dbo:smiles": "CCCCCCCCCCC(O)=O",
+    "dbp:inchikey": "ZDPHROOEEOARMN-UHFFFAOYSA-N",
     "chebi:charge": "0",
-    "chebi:formula": "C11H22O2",
-    "chebi:inchi": "InChI=1S/C11H22O2/c1-2-3-4-5-6-7-8-9-10-11(12)13/h2-10H2,1H3,(H,12,13)",
-    "chebi:inchikey": "ZDPHROOEEOARMN-UHFFFAOYSA-N",
-    "chebi:smiles": "CCCCCCCCCCC(O)=O",
-    "geneontology:hasDbXref": [
-        "Beilstein:1759287",
-        "CAS:112-37-8",
-        "Gmelin:102992",
-        "HMDB:HMDB0000947",
-        "KEGG:C17715",
-        "LIPID_MAPS_instance:LMFA01010011",
-        "PDBeChem:11A",
-        "PMID:16332663",
-        "PMID:1739406",
-        "PMID:18516670",
-        "Reaxys:1759287",
-        "Wikipedia:Undecylic_acid"
-    ],
-    "geneontology:hasId": "32368",
-    "geneontology:hasSynonym": [
+    "skos:altLabel": [
         "1-decanecarboxylic acid",
         "CH3-[CH2]9-COOH",
         "hendecanoic acid",
@@ -41,31 +38,16 @@
         "undecylic acid",
         "Undekansaeure"
     ],
-    "geneontology:inSubset": {
-        "@id": "obo:chebi#3_STAR"
+    "skos:exactMatch": {
+        "@id": "obo:CHEBI_32368"
     },
-    "rdfs:label": "undecanoic acid",
-    "rdfs:subClassOf": [
+    "skos:note": "A straight-chain, eleven-carbon saturated medium-chain fatty acid found in body fluids; the most fungitoxic of the C7:0 - C18:0 fatty acid series.",
+    "skos:semanticRelation": [
         {
             "@id": "obo:CHEBI_59554"
         },
         {
             "@id": "obo:CHEBI_39418"
-        },
-        {
-            "@id": "b456_genid-00f1db82e1ab437c844115a94dc63e635-bn32368tmms73f32369"
-        },
-        {
-            "@id": "b456_genid-00f1db82e1ab437c844115a94dc63e635-bn32368t4f32369"
-        },
-        {
-            "@id": "b456_genid-00f1db82e1ab437c844115a94dc63e635-bn32368t11f35718"
-        },
-        {
-            "@id": "b456_genid-00f1db82e1ab437c844115a94dc63e635-bn32368t9f46342"
-        },
-        {
-            "@id": "b456_genid-00f1db82e1ab437c844115a94dc63e635-bn32368t11f77746"
         }
     ]
 }

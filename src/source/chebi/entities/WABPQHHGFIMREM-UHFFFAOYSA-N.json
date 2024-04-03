@@ -1,80 +1,60 @@
 {
     "@context": {
-        "chebi": "http://purl.obolibrary.org/obo/chebi/",
         "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
         "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-        "obo": "http://purl.obolibrary.org/obo/"
+        "obo": "http://purl.obolibrary.org/obo/",
+        "uniprot": "http://purl.uniprot.org/",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "concept": "https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/",
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "dbo": "http://dbpedia.org/ontology/",
+        "dbp": "http://dbpedia.org/property/",
+        "altLabel": {
+            "@id": "http://www.w3.org/2004/02/skos/core#altLabel",
+            "@language": "en"
+        },
+        "graph": {
+            "@id": "@graph"
+        }
     },
-    "@graph": [
+    "@id": "concept:WABPQHHGFIMREM-UHFFFAOYSA-N",
+    "@type": "skos:Concept",
+    "dbo:formula": "Pb",
+    "dbo:inchi": "InChI=1S/Pb",
+    "dbo:smiles": "[Pb]",
+    "dbp:inchikey": "WABPQHHGFIMREM-UHFFFAOYSA-N",
+    "chebi:charge": "0",
+    "skos:altLabel": [
+        "Pb",
+        "82Pb",
+        "Blei",
+        "lead",
+        "plomb",
+        "plomo",
+        "plumbum",
+        "Lead",
+        "lead metal",
+        "Pb(0)",
+        "Pbn"
+    ],
+    "skos:exactMatch": [
         {
-            "@id": "obo:CHEBI_25016",
-            "@type": "http://www.w3.org/2002/07/owl#Class",
-            "chebi:charge": "0",
-            "chebi:formula": "Pb",
-            "chebi:inchi": "InChI=1S/Pb",
-            "chebi:inchikey": "WABPQHHGFIMREM-UHFFFAOYSA-N",
-            "chebi:smiles": "[Pb]",
-            "geneontology:hasDbXref": [
-                "KEGG:C06696",
-                "WebElements:Pb"
-            ],
-            "geneontology:hasId": "25016",
-            "geneontology:hasSynonym": [
-                "Pb",
-                "82Pb",
-                "Blei",
-                "lead",
-                "plomb",
-                "plomo",
-                "plumbum"
-            ],
-            "geneontology:inSubset": {
-                "@id": "obo:chebi#3_STAR"
-            },
-            "rdfs:label": "lead atom",
-            "rdfs:subClassOf": [
-                {
-                    "@id": "obo:CHEBI_33521"
-                },
-                {
-                    "@id": "obo:CHEBI_33306"
-                }
-            ]
+            "@id": "obo:CHEBI_25016"
         },
         {
-            "@id": "obo:CHEBI_27889",
-            "@type": "http://www.w3.org/2002/07/owl#Class",
-            "chebi:charge": "0",
-            "chebi:formula": "Pb",
-            "chebi:inchi": "InChI=1S/Pb",
-            "chebi:inchikey": "WABPQHHGFIMREM-UHFFFAOYSA-N",
-            "chebi:smiles": "[Pb]",
-            "geneontology:hasDbXref": [
-                "KEGG:C06696",
-                "CAS:7439-92-1",
-                "Wikipedia:Lead"
-            ],
-            "geneontology:hasId": "27889",
-            "geneontology:hasSynonym": [
-                "Pb",
-                "lead",
-                "Lead",
-                "lead metal",
-                "Pb(0)",
-                "Pbn"
-            ],
-            "geneontology:inSubset": {
-                "@id": "obo:chebi#3_STAR"
-            },
-            "rdfs:label": "lead(0)",
-            "rdfs:subClassOf": [
-                {
-                    "@id": "obo:CHEBI_37193"
-                },
-                {
-                    "@id": "b1040_genid-00f1db82e1ab437c844115a94dc63e635-bn27889t11f50910"
-                }
-            ]
+            "@id": "obo:CHEBI_27889"
+        }
+    ],
+    "skos:semanticRelation": [
+        {
+            "@id": "obo:CHEBI_33521"
+        },
+        {
+            "@id": "obo:CHEBI_33306"
+        },
+        {
+            "@id": "obo:CHEBI_37193"
         }
     ]
 }

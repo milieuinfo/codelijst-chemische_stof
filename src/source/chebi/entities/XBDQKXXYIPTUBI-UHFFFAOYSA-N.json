@@ -1,34 +1,31 @@
 {
     "@context": {
-        "chebi": "http://purl.obolibrary.org/obo/chebi/",
         "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
         "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-        "obo": "http://purl.obolibrary.org/obo/"
+        "obo": "http://purl.obolibrary.org/obo/",
+        "uniprot": "http://purl.uniprot.org/",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "concept": "https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/",
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "dbo": "http://dbpedia.org/ontology/",
+        "dbp": "http://dbpedia.org/property/",
+        "altLabel": {
+            "@id": "http://www.w3.org/2004/02/skos/core#altLabel",
+            "@language": "en"
+        },
+        "graph": {
+            "@id": "@graph"
+        }
     },
-    "@id": "obo:CHEBI_30768",
-    "@type": "http://www.w3.org/2002/07/owl#Class",
-    "obo:IAO_0000115": "A short-chain saturated fatty acid comprising ethane attached to the carbon of a carboxy group.",
+    "@id": "concept:XBDQKXXYIPTUBI-UHFFFAOYSA-N",
+    "@type": "skos:Concept",
+    "dbo:formula": "C3H6O2",
+    "dbo:inchi": "InChI=1S/C3H6O2/c1-2-3(4)5/h2H2,1H3,(H,4,5)",
+    "dbo:smiles": "CCC(O)=O",
+    "dbp:inchikey": "XBDQKXXYIPTUBI-UHFFFAOYSA-N",
     "chebi:charge": "0",
-    "chebi:formula": "C3H6O2",
-    "chebi:inchi": "InChI=1S/C3H6O2/c1-2-3(4)5/h2H2,1H3,(H,4,5)",
-    "chebi:inchikey": "XBDQKXXYIPTUBI-UHFFFAOYSA-N",
-    "chebi:smiles": "CCC(O)=O",
-    "geneontology:hasDbXref": [
-        "KEGG:C00163",
-        "Beilstein:506071",
-        "CAS:79-09-4",
-        "DrugBank:DB03766",
-        "Gmelin:1821",
-        "KEGG:D02310",
-        "LIPID_MAPS_instance:LMFA01010003",
-        "PDBeChem:PPI",
-        "PMID:15868474",
-        "PMID:1628870",
-        "PMID:16763906",
-        "PPDB:1341"
-    ],
-    "geneontology:hasId": "30768",
-    "geneontology:hasSynonym": [
+    "skos:altLabel": [
         "PA",
         "acide propanoique",
         "acide propionique",
@@ -47,25 +44,16 @@
         "propoic acid",
         "pseudoacetic acid"
     ],
-    "geneontology:inSubset": {
-        "@id": "obo:chebi#3_STAR"
+    "skos:exactMatch": {
+        "@id": "obo:CHEBI_30768"
     },
-    "rdfs:label": "propionic acid",
-    "rdfs:subClassOf": [
+    "skos:note": "A short-chain saturated fatty acid comprising ethane attached to the carbon of a carboxy group.",
+    "skos:semanticRelation": [
         {
             "@id": "obo:CHEBI_26607"
         },
         {
             "@id": "obo:CHEBI_26666"
-        },
-        {
-            "@id": "b145_genid-00f1db82e1ab437c844115a94dc63e635-bn30768tmms73f17272"
-        },
-        {
-            "@id": "b145_genid-00f1db82e1ab437c844115a94dc63e635-bn30768t4f17272"
-        },
-        {
-            "@id": "b145_genid-00f1db82e1ab437c844115a94dc63e635-bn30768t11f86327"
         }
     ]
 }

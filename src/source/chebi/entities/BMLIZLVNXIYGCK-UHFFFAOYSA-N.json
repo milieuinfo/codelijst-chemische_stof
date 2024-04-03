@@ -1,30 +1,27 @@
 {
     "@context": {
-        "chebi": "http://purl.obolibrary.org/obo/chebi/",
         "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
         "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-        "obo": "http://purl.obolibrary.org/obo/"
+        "obo": "http://purl.obolibrary.org/obo/",
+        "uniprot": "http://purl.uniprot.org/",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "concept": "https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/",
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "dbo": "http://dbpedia.org/ontology/",
+        "dbp": "http://dbpedia.org/property/",
+        "graph": {
+            "@id": "@graph"
+        }
     },
-    "@id": "obo:CHEBI_38214",
-    "@type": "http://www.w3.org/2002/07/owl#Class",
-    "obo:IAO_0000115": "A member of the class of 3-(3,4-substituted-phenyl)-1,1-dimethylureas that is urea in which one of the nitrogens is substituted by a p-chlorophenyl group while the other is substituted by two methyl groups.",
+    "@id": "concept:BMLIZLVNXIYGCK-UHFFFAOYSA-N",
+    "@type": "skos:Concept",
+    "dbo:formula": "C9H11ClN2O",
+    "dbo:inchi": "InChI=1S/C9H11ClN2O/c1-12(2)9(13)11-8-5-3-7(10)4-6-8/h3-6H,1-2H3,(H,11,13)",
+    "dbo:smiles": "CN(C)C(=O)Nc1ccc(Cl)cc1",
+    "dbp:inchikey": "BMLIZLVNXIYGCK-UHFFFAOYSA-N",
     "chebi:charge": "0",
-    "chebi:formula": "C9H11ClN2O",
-    "chebi:inchi": "InChI=1S/C9H11ClN2O/c1-12(2)9(13)11-8-5-3-7(10)4-6-8/h3-6H,1-2H3,(H,11,13)",
-    "chebi:inchikey": "BMLIZLVNXIYGCK-UHFFFAOYSA-N",
-    "chebi:smiles": "CN(C)C(=O)Nc1ccc(Cl)cc1",
-    "http://purl.uniprot.org/core/name": "monuron",
-    "geneontology:hasDbXref": [
-        "Beilstein:2097922",
-        "CAS:150-68-5",
-        "KEGG:C19087",
-        "MetaCyc:CPD-23255",
-        "Pesticides:monuron",
-        "PPDB:476",
-        "Reaxys:2097922"
-    ],
-    "geneontology:hasId": "38214",
-    "geneontology:hasSynonym": [
+    "skos:altLabel": [
         "1,1-Dimethyl-3-(p-chlorophenyl)urea",
         "3-(4-chlorophenyl)-1,1-dimethylurea",
         "3-(p-Chlorophenyl)-1,1-dimethylurea",
@@ -33,25 +30,16 @@
         "N'-(4-chlorophenyl)-N,N-dimethylurea",
         "N-(4-chlorophenyl)-N',N'-dimethylurea"
     ],
-    "geneontology:inSubset": {
-        "@id": "obo:chebi#3_STAR"
+    "skos:exactMatch": {
+        "@id": "obo:CHEBI_38214"
     },
-    "rdfs:label": "monuron",
-    "rdfs:subClassOf": [
+    "skos:note": "A member of the class of 3-(3,4-substituted-phenyl)-1,1-dimethylureas that is urea in which one of the nitrogens is substituted by a p-chlorophenyl group while the other is substituted by two methyl groups.",
+    "skos:semanticRelation": [
         {
             "@id": "obo:CHEBI_157693"
         },
         {
             "@id": "obo:CHEBI_83403"
-        },
-        {
-            "@id": "b200_genid-00f1db82e1ab437c844115a94dc63e635-bn38214t11f24527"
-        },
-        {
-            "@id": "b200_genid-00f1db82e1ab437c844115a94dc63e635-bn38214t11f35703"
-        },
-        {
-            "@id": "b200_genid-00f1db82e1ab437c844115a94dc63e635-bn38214t11f78298"
         }
     ]
 }

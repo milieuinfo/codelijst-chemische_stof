@@ -1,49 +1,42 @@
 {
     "@context": {
-        "chebi": "http://purl.obolibrary.org/obo/chebi/",
         "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
         "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-        "obo": "http://purl.obolibrary.org/obo/"
+        "obo": "http://purl.obolibrary.org/obo/",
+        "uniprot": "http://purl.uniprot.org/",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "concept": "https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/",
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "dbo": "http://dbpedia.org/ontology/",
+        "dbp": "http://dbpedia.org/property/",
+        "altLabel": {
+            "@id": "http://www.w3.org/2004/02/skos/core#altLabel",
+            "@language": "en"
+        },
+        "graph": {
+            "@id": "@graph"
+        }
     },
-    "@id": "obo:CHEBI_16579",
-    "@type": "http://www.w3.org/2002/07/owl#Class",
-    "obo:IAO_0000115": "A monomethoxybenzene that is benzene substituted by a methoxy group.",
+    "@id": "concept:RDOXTESZEPMUJZ-UHFFFAOYSA-N",
+    "@type": "skos:Concept",
+    "dbo:formula": "C7H8O",
+    "dbo:inchi": "InChI=1S/C7H8O/c1-8-7-5-3-2-4-6-7/h2-6H,1H3",
+    "dbo:smiles": "COc1ccccc1",
+    "dbp:inchikey": "RDOXTESZEPMUJZ-UHFFFAOYSA-N",
     "chebi:charge": "0",
-    "chebi:formula": "C7H8O",
-    "chebi:inchi": "InChI=1S/C7H8O/c1-8-7-5-3-2-4-6-7/h2-6H,1H3",
-    "chebi:inchikey": "RDOXTESZEPMUJZ-UHFFFAOYSA-N",
-    "chebi:smiles": "COc1ccccc1",
-    "http://purl.uniprot.org/core/name": "anisole",
-    "geneontology:hasDbXref": [
-        "Beilstein:506892",
-        "CAS:100-66-3",
-        "Gmelin:2964",
-        "HMDB:HMDB0033895",
-        "KEGG:C01403",
-        "MetaCyc:CPD-395",
-        "PMID:11944828",
-        "PMID:24814399",
-        "Reaxys:506892",
-        "Wikipedia:Anisole"
-    ],
-    "geneontology:hasId": "16579",
-    "geneontology:hasSynonym": [
+    "skos:altLabel": [
         "Anisol",
         "Anisole",
         "Methoxybenzene",
         "Methyl phenyl ether",
         "Phenol methyl ether"
     ],
-    "geneontology:inSubset": {
-        "@id": "obo:chebi#3_STAR"
+    "skos:exactMatch": {
+        "@id": "obo:CHEBI_16579"
     },
-    "rdfs:label": "anisole",
-    "rdfs:subClassOf": [
-        {
-            "@id": "obo:CHEBI_25235"
-        },
-        {
-            "@id": "b409_genid-00f1db82e1ab437c844115a94dc63e635-bn16579t11f76924"
-        }
-    ]
+    "skos:note": "A monomethoxybenzene that is benzene substituted by a methoxy group.",
+    "skos:semanticRelation": {
+        "@id": "obo:CHEBI_25235"
+    }
 }

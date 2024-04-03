@@ -1,34 +1,31 @@
 {
     "@context": {
-        "chebi": "http://purl.obolibrary.org/obo/chebi/",
         "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
         "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-        "obo": "http://purl.obolibrary.org/obo/"
+        "obo": "http://purl.obolibrary.org/obo/",
+        "uniprot": "http://purl.uniprot.org/",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "concept": "https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/",
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "dbo": "http://dbpedia.org/ontology/",
+        "dbp": "http://dbpedia.org/property/",
+        "altLabel": {
+            "@id": "http://www.w3.org/2004/02/skos/core#altLabel",
+            "@language": "en"
+        },
+        "graph": {
+            "@id": "@graph"
+        }
     },
-    "@id": "obo:CHEBI_4653",
-    "@type": "http://www.w3.org/2002/07/owl#Class",
-    "obo:IAO_0000115": "A pyrimidopyrimidine that is 2,2',2'',2'''-(pyrimido[5,4-d]pyrimidine-2,6-diyldinitrilo)tetraethanol substituted by piperidin-1-yl groups at positions 4 and 8 respectively. A vasodilator agent, it inhibits the formation of blood clots.",
+    "@id": "concept:IZEKFCXSFNUWAM-UHFFFAOYSA-N",
+    "@type": "skos:Concept",
+    "dbo:formula": "C24H40N8O4",
+    "dbo:inchi": "InChI=1S/C24H40N8O4/c33-15-11-31(12-16-34)23-26-20-19(21(27-23)29-7-3-1-4-8-29)25-24(32(13-17-35)14-18-36)28-22(20)30-9-5-2-6-10-30/h33-36H,1-18H2",
+    "dbo:smiles": "OCCN(CCO)c1nc(N2CCCCC2)c2nc(nc(N3CCCCC3)c2n1)N(CCO)CCO",
+    "dbp:inchikey": "IZEKFCXSFNUWAM-UHFFFAOYSA-N",
     "chebi:charge": "0",
-    "chebi:formula": "C24H40N8O4",
-    "chebi:inchi": "InChI=1S/C24H40N8O4/c33-15-11-31(12-16-34)23-26-20-19(21(27-23)29-7-3-1-4-8-29)25-24(32(13-17-35)14-18-36)28-22(20)30-9-5-2-6-10-30/h33-36H,1-18H2",
-    "chebi:inchikey": "IZEKFCXSFNUWAM-UHFFFAOYSA-N",
-    "chebi:smiles": "OCCN(CCO)c1nc(N2CCCCC2)c2nc(nc(N3CCCCC3)c2n1)N(CCO)CCO",
-    "geneontology:hasDbXref": [
-        "Beilstein:0068373",
-        "CAS:58-32-2",
-        "Drug_Central:924",
-        "DrugBank:DB00975",
-        "KEGG:D00302",
-        "LINCS:LSM-3927",
-        "Patent:GB807826",
-        "Patent:US3031450",
-        "PMID:11098344",
-        "PMID:11709364",
-        "Reaxys:68373",
-        "Wikipedia:Dipyridamole"
-    ],
-    "geneontology:hasId": "4653",
-    "geneontology:hasSynonym": [
+    "skos:altLabel": [
         "2,2',2'',2'''-[(4,8-dipiperidin-1-ylpyrimido[5,4-d]pyrimidine-2,6-diyl)dinitrilo]tetraethanol",
         "Cardoxin",
         "Cleridium 150",
@@ -40,11 +37,11 @@
         "Dypyridamol",
         "Persantin"
     ],
-    "geneontology:inSubset": {
-        "@id": "obo:chebi#3_STAR"
+    "skos:exactMatch": {
+        "@id": "obo:CHEBI_4653"
     },
-    "rdfs:label": "dipyridamole",
-    "rdfs:subClassOf": [
+    "skos:note": "A pyrimidopyrimidine that is 2,2',2'',2'''-(pyrimido[5,4-d]pyrimidine-2,6-diyldinitrilo)tetraethanol substituted by piperidin-1-yl groups at positions 4 and 8 respectively. A vasodilator agent, it inhibits the formation of blood clots.",
+    "skos:semanticRelation": [
         {
             "@id": "obo:CHEBI_26151"
         },
@@ -55,19 +52,7 @@
             "@id": "obo:CHEBI_33573"
         },
         {
-            "@id": "b195_genid-00f1db82e1ab437c844115a94dc63e635-bn4653t11f35620"
-        },
-        {
             "@id": "obo:CHEBI_48514"
-        },
-        {
-            "@id": "b195_genid-00f1db82e1ab437c844115a94dc63e635-bn4653t11f50427"
-        },
-        {
-            "@id": "b195_genid-00f1db82e1ab437c844115a94dc63e635-bn4653t11f50444"
-        },
-        {
-            "@id": "b195_genid-00f1db82e1ab437c844115a94dc63e635-bn4653t11f50445"
         }
     ]
 }

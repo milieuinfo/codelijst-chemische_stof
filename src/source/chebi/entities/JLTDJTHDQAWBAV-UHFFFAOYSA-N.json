@@ -1,30 +1,31 @@
 {
     "@context": {
-        "chebi": "http://purl.obolibrary.org/obo/chebi/",
         "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
         "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-        "obo": "http://purl.obolibrary.org/obo/"
+        "obo": "http://purl.obolibrary.org/obo/",
+        "uniprot": "http://purl.uniprot.org/",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "concept": "https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/",
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "dbo": "http://dbpedia.org/ontology/",
+        "dbp": "http://dbpedia.org/property/",
+        "altLabel": {
+            "@id": "http://www.w3.org/2004/02/skos/core#altLabel",
+            "@language": "en"
+        },
+        "graph": {
+            "@id": "@graph"
+        }
     },
-    "@id": "obo:CHEBI_16269",
-    "@type": "http://www.w3.org/2002/07/owl#Class",
-    "obo:IAO_0000115": "A tertiary amine that is aniline in which the amino hydrogens are replaced by two methyl groups.",
+    "@id": "concept:JLTDJTHDQAWBAV-UHFFFAOYSA-N",
+    "@type": "skos:Concept",
+    "dbo:formula": "C8H11N",
+    "dbo:inchi": "InChI=1S/C8H11N/c1-9(2)8-6-4-3-5-7-8/h3-7H,1-2H3",
+    "dbo:smiles": "CN(C)c1ccccc1",
+    "dbp:inchikey": "JLTDJTHDQAWBAV-UHFFFAOYSA-N",
     "chebi:charge": "0",
-    "chebi:formula": "C8H11N",
-    "chebi:inchi": "InChI=1S/C8H11N/c1-9(2)8-6-4-3-5-7-8/h3-7H,1-2H3",
-    "chebi:inchikey": "JLTDJTHDQAWBAV-UHFFFAOYSA-N",
-    "chebi:smiles": "CN(C)c1ccccc1",
-    "http://purl.uniprot.org/core/name": "N,N-dimethylaniline",
-    "geneontology:hasDbXref": [
-        "CAS:121-69-7",
-        "HMDB:HMDB0001020",
-        "KEGG:C02846",
-        "MetaCyc:NN-DIMETHYLANILINE",
-        "PMID:24315030",
-        "Reaxys:507140",
-        "Wikipedia:Dimethylaniline"
-    ],
-    "geneontology:hasId": "16269",
-    "geneontology:hasSynonym": [
+    "skos:altLabel": [
         "Dimethylaminobenzene",
         "Dimethylaniline",
         "Dimethylphenylamine",
@@ -34,11 +35,11 @@
         "N,N-Dimethyl-N-phenylamine",
         "N,N-Dimethylphenylamine"
     ],
-    "geneontology:inSubset": {
-        "@id": "obo:chebi#3_STAR"
+    "skos:exactMatch": {
+        "@id": "obo:CHEBI_16269"
     },
-    "rdfs:label": "N,N-dimethylaniline",
-    "rdfs:subClassOf": [
+    "skos:note": "A tertiary amine that is aniline in which the amino hydrogens are replaced by two methyl groups.",
+    "skos:semanticRelation": [
         {
             "@id": "obo:CHEBI_32876"
         },

@@ -1,51 +1,41 @@
 {
     "@context": {
-        "chebi": "http://purl.obolibrary.org/obo/chebi/",
         "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
         "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-        "obo": "http://purl.obolibrary.org/obo/"
+        "obo": "http://purl.obolibrary.org/obo/",
+        "uniprot": "http://purl.uniprot.org/",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "concept": "https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/",
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "dbo": "http://dbpedia.org/ontology/",
+        "dbp": "http://dbpedia.org/property/",
+        "altLabel": {
+            "@id": "http://www.w3.org/2004/02/skos/core#altLabel",
+            "@language": "en"
+        },
+        "graph": {
+            "@id": "@graph"
+        }
     },
-    "@id": "obo:CHEBI_28078",
-    "@type": "http://www.w3.org/2002/07/owl#Class",
-    "obo:IAO_0000115": "A monochlorophenol substituted at the pare position by a chlorine atom.",
+    "@id": "concept:WXNZTHHGJRFXKQ-UHFFFAOYSA-N",
+    "@type": "skos:Concept",
+    "dbo:formula": "C6H5ClO",
+    "dbo:inchi": "InChI=1S/C6H5ClO/c7-5-1-3-6(8)4-2-5/h1-4,8H",
+    "dbo:smiles": "Oc1ccc(Cl)cc1",
+    "dbp:inchikey": "WXNZTHHGJRFXKQ-UHFFFAOYSA-N",
     "chebi:charge": "0",
-    "chebi:formula": "C6H5ClO",
-    "chebi:inchi": "InChI=1S/C6H5ClO/c7-5-1-3-6(8)4-2-5/h1-4,8H",
-    "chebi:inchikey": "WXNZTHHGJRFXKQ-UHFFFAOYSA-N",
-    "chebi:smiles": "Oc1ccc(Cl)cc1",
-    "geneontology:hasDbXref": [
-        "PMID:10848923",
-        "Beilstein:507004",
-        "CAS:106-48-9",
-        "Gmelin:2902",
-        "KEGG:C02124",
-        "KEGG:D00149",
-        "LINCS:LSM-2913",
-        "MetaCyc:CPD-10870",
-        "PDBeChem:4CH",
-        "PMID:24279624",
-        "PMID:24390833",
-        "PMID:24473310",
-        "PMID:24583212",
-        "PMID:24725749",
-        "PMID:24762698",
-        "PMID:24794625",
-        "PMID:24926596",
-        "Reaxys:507004",
-        "UM-BBD_compID:c0295"
-    ],
-    "geneontology:hasId": "28078",
-    "geneontology:hasSynonym": [
+    "skos:altLabel": [
         "4-Chlorophenol",
         "Parachlorophenol",
         "p-chlorophenol",
         "p-Chlorophenol"
     ],
-    "geneontology:inSubset": {
-        "@id": "obo:chebi#3_STAR"
+    "skos:exactMatch": {
+        "@id": "obo:CHEBI_28078"
     },
-    "rdfs:label": "4-chlorophenol",
-    "rdfs:subClassOf": {
+    "skos:note": "A monochlorophenol substituted at the pare position by a chlorine atom.",
+    "skos:semanticRelation": {
         "@id": "obo:CHEBI_38857"
     }
 }

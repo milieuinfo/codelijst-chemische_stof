@@ -1,29 +1,27 @@
 {
     "@context": {
-        "chebi": "http://purl.obolibrary.org/obo/chebi/",
         "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
         "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-        "obo": "http://purl.obolibrary.org/obo/"
+        "obo": "http://purl.obolibrary.org/obo/",
+        "uniprot": "http://purl.uniprot.org/",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "concept": "https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/",
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "dbo": "http://dbpedia.org/ontology/",
+        "dbp": "http://dbpedia.org/property/",
+        "graph": {
+            "@id": "@graph"
+        }
     },
-    "@id": "obo:CHEBI_79089",
-    "@type": "http://www.w3.org/2002/07/owl#Class",
-    "obo:IAO_0000115": "A metal oxide with formula CeO2. It is used for polishing glass, in coatings for infra-red filters to prevent reflection, and as an oxidant and catalyst in organic synthesis.",
+    "@id": "concept:CETPSERCERDGAM-UHFFFAOYSA-N",
+    "@type": "skos:Concept",
+    "dbo:formula": "CeO2",
+    "dbo:inchi": "InChI=1S/Ce.2O",
+    "dbo:smiles": "O=[Ce]=O",
+    "dbp:inchikey": "CETPSERCERDGAM-UHFFFAOYSA-N",
     "chebi:charge": "0",
-    "chebi:formula": "CeO2",
-    "chebi:inchi": "InChI=1S/Ce.2O",
-    "chebi:inchikey": "CETPSERCERDGAM-UHFFFAOYSA-N",
-    "chebi:smiles": "O=[Ce]=O",
-    "geneontology:hasDbXref": [
-        "CAS:1306-38-3",
-        "Patent:US2564241",
-        "PMID:21787599",
-        "PMID:24300997",
-        "Reaxys:11323272",
-        "Reaxys:23048445",
-        "Wikipedia:Cerium(IV)_oxide"
-    ],
-    "geneontology:hasId": "79089",
-    "geneontology:hasSynonym": [
+    "skos:altLabel": [
         "CeO2",
         "ceria",
         "ceric dioxide",
@@ -33,11 +31,11 @@
         "cerium dioxide",
         "dioxocerium"
     ],
-    "geneontology:inSubset": {
-        "@id": "obo:chebi#3_STAR"
+    "skos:exactMatch": {
+        "@id": "obo:CHEBI_79089"
     },
-    "rdfs:label": "ceric oxide",
-    "rdfs:subClassOf": [
+    "skos:note": "A metal oxide with formula CeO2. It is used for polishing glass, in coatings for infra-red filters to prevent reflection, and as an oxidant and catalyst in organic synthesis.",
+    "skos:semanticRelation": [
         {
             "@id": "obo:CHEBI_133331"
         },

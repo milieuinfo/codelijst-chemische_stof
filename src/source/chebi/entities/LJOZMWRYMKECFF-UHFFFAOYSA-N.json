@@ -1,43 +1,41 @@
 {
     "@context": {
-        "chebi": "http://purl.obolibrary.org/obo/chebi/",
         "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
         "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-        "obo": "http://purl.obolibrary.org/obo/"
+        "obo": "http://purl.obolibrary.org/obo/",
+        "uniprot": "http://purl.uniprot.org/",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "concept": "https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/",
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "dbo": "http://dbpedia.org/ontology/",
+        "dbp": "http://dbpedia.org/property/",
+        "altLabel": {
+            "@id": "http://www.w3.org/2004/02/skos/core#altLabel",
+            "@language": "en"
+        },
+        "graph": {
+            "@id": "@graph"
+        }
     },
-    "@id": "obo:CHEBI_82052",
-    "@type": "http://www.w3.org/2002/07/owl#Class",
-    "obo:IAO_0000115": "A member of the class of benzamides, obtained by formal condensation of the carboxy group of 2-iodobenzoic acid with the amino group of aniline. An obsolete fungicide once used mainly to control rust diseases.",
+    "@id": "concept:LJOZMWRYMKECFF-UHFFFAOYSA-N",
+    "@type": "skos:Concept",
+    "dbo:formula": "C13H10INO",
+    "dbo:inchi": "InChI=1S/C13H10INO/c14-12-9-5-4-8-11(12)13(16)15-10-6-2-1-3-7-10/h1-9H,(H,15,16)",
+    "dbo:smiles": "Ic1ccccc1C(=O)Nc1ccccc1",
+    "dbp:inchikey": "LJOZMWRYMKECFF-UHFFFAOYSA-N",
     "chebi:charge": "0",
-    "chebi:formula": "C13H10INO",
-    "chebi:inchi": "InChI=1S/C13H10INO/c14-12-9-5-4-8-11(12)13(16)15-10-6-2-1-3-7-10/h1-9H,(H,15,16)",
-    "chebi:inchikey": "LJOZMWRYMKECFF-UHFFFAOYSA-N",
-    "chebi:smiles": "Ic1ccccc1C(=O)Nc1ccccc1",
-    "geneontology:hasDbXref": [
-        "PMID:6732737",
-        "AGR:GUA85008832",
-        "AGR:IND500643958",
-        "CAS:15310-01-7",
-        "KEGG:C18907",
-        "Patent:WO2008135480",
-        "PDBeChem:BOL",
-        "Pesticides:benodanil",
-        "PMID:7171370",
-        "PPDB:65",
-        "Reaxys:2725018"
-    ],
-    "geneontology:hasId": "82052",
-    "geneontology:hasSynonym": [
+    "skos:altLabel": [
         "2-Iodobenzanilide",
         "2-Iodobenzoic acid anilide",
         "BAS-3170",
         "BAS 3170F"
     ],
-    "geneontology:inSubset": {
-        "@id": "obo:chebi#3_STAR"
+    "skos:exactMatch": {
+        "@id": "obo:CHEBI_82052"
     },
-    "rdfs:label": "benodanil",
-    "rdfs:subClassOf": [
+    "skos:note": "A member of the class of benzamides, obtained by formal condensation of the carboxy group of 2-iodobenzoic acid with the amino group of aniline. An obsolete fungicide once used mainly to control rust diseases.",
+    "skos:semanticRelation": [
         {
             "@id": "obo:CHEBI_13248"
         },
@@ -49,12 +47,6 @@
         },
         {
             "@id": "obo:CHEBI_87018"
-        },
-        {
-            "@id": "b552_genid-00f1db82e1ab437c844115a94dc63e635-bn82052t11f83072"
-        },
-        {
-            "@id": "b552_genid-00f1db82e1ab437c844115a94dc63e635-bn82052t11f86328"
         }
     ]
 }

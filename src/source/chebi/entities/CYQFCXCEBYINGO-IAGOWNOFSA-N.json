@@ -1,48 +1,27 @@
 {
     "@context": {
-        "chebi": "http://purl.obolibrary.org/obo/chebi/",
         "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
         "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-        "obo": "http://purl.obolibrary.org/obo/"
+        "obo": "http://purl.obolibrary.org/obo/",
+        "uniprot": "http://purl.uniprot.org/",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "concept": "https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/",
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "dbo": "http://dbpedia.org/ontology/",
+        "dbp": "http://dbpedia.org/property/",
+        "graph": {
+            "@id": "@graph"
+        }
     },
-    "@id": "obo:CHEBI_66964",
-    "@type": "http://www.w3.org/2002/07/owl#Class",
-    "obo:IAO_0000115": "A diterpenoid that is 6a,7,8,10a-tetrahydro-6H-benzo[c]chromene substituted at position 1 by a hydroxy group, positions 6, 6 and 9 by methyl groups and at position 3 by a pentyl group. The principal psychoactive constituent of the cannabis plant, it is used for treatment of anorexia associated with AIDS as well as nausea and vomiting associated with cancer chemotherapy.",
+    "@id": "concept:CYQFCXCEBYINGO-IAGOWNOFSA-N",
+    "@type": "skos:Concept",
+    "dbo:formula": "C21H30O2",
+    "dbo:inchi": "InChI=1S/C21H30O2/c1-5-6-7-8-15-12-18(22)20-16-11-14(2)9-10-17(16)21(3,4)23-19(20)13-15/h11-13,16-17,22H,5-10H2,1-4H3/t16-,17-/m1/s1",
+    "dbo:smiles": "[H][C@@]12CCC(C)=C[C@@]1([H])c1c(O)cc(CCCCC)cc1OC2(C)C",
+    "dbp:inchikey": "CYQFCXCEBYINGO-IAGOWNOFSA-N",
     "chebi:charge": "0",
-    "chebi:formula": "C21H30O2",
-    "chebi:inchi": "InChI=1S/C21H30O2/c1-5-6-7-8-15-12-18(22)20-16-11-14(2)9-10-17(16)21(3,4)23-19(20)13-15/h11-13,16-17,22H,5-10H2,1-4H3/t16-,17-/m1/s1",
-    "chebi:inchikey": "CYQFCXCEBYINGO-IAGOWNOFSA-N",
-    "chebi:smiles": "[H][C@@]12CCC(C)=C[C@@]1([H])c1c(O)cc(CCCCC)cc1OC2(C)C",
-    "http://purl.uniprot.org/core/name": "Delta(9)-tetrahydrocannabinol",
-    "geneontology:hasDbXref": [
-        "PMID:15190053",
-        "PMID:16511162",
-        "CAS:1972-08-3",
-        "Drug_Central:4109",
-        "DrugBank:DB00470",
-        "HMDB:HMDB0041865",
-        "KEGG:C06972",
-        "KEGG:D00306",
-        "KNApSAcK:C00002675",
-        "MetaCyc:CPD-7172",
-        "PDBeChem:TCI",
-        "PMID:21310551",
-        "PMID:21590520",
-        "PMID:21671456",
-        "PMID:21803011",
-        "PMID:22260337",
-        "PMID:22288893",
-        "PMID:22305029",
-        "PMID:22491047",
-        "PMID:22553980",
-        "PMID:22680341",
-        "PMID:22722508",
-        "PMID:22807156",
-        "Reaxys:4354308",
-        "Wikipedia:Tetrahydrocannabinol"
-    ],
-    "geneontology:hasId": "66964",
-    "geneontology:hasSynonym": [
+    "skos:altLabel": [
         "(-)-delta9-trans-Tetrahydrocannabinol",
         "(6aR,10aR)-6,6,9-trimethyl-3-pentyl-6a,7,8,10a-tetrahydro-6H-benzo[c]chromen-1-ol",
         "1-trans-delta-9-Tetrahydrocannabinol",
@@ -57,11 +36,11 @@
         "Syndros",
         "Tetrahydrocannabinol"
     ],
-    "geneontology:inSubset": {
-        "@id": "obo:chebi#3_STAR"
+    "skos:exactMatch": {
+        "@id": "obo:CHEBI_66964"
     },
-    "rdfs:label": "Delta(9)-tetrahydrocannabinol",
-    "rdfs:subClassOf": [
+    "skos:note": "A diterpenoid that is 6a,7,8,10a-tetrahydro-6H-benzo[c]chromene substituted at position 1 by a hydroxy group, positions 6, 6 and 9 by methyl groups and at position 3 by a pentyl group. The principal psychoactive constituent of the cannabis plant, it is used for treatment of anorexia associated with AIDS as well as nausea and vomiting associated with cancer chemotherapy.",
+    "skos:semanticRelation": [
         {
             "@id": "obo:CHEBI_23849"
         },
@@ -73,21 +52,6 @@
         },
         {
             "@id": "obo:CHEBI_38920"
-        },
-        {
-            "@id": "b407_genid-00f1db82e1ab437c844115a94dc63e635-bn66964t11f25212"
-        },
-        {
-            "@id": "b407_genid-00f1db82e1ab437c844115a94dc63e635-bn66964t11f35481"
-        },
-        {
-            "@id": "b407_genid-00f1db82e1ab437c844115a94dc63e635-bn66964t11f35499"
-        },
-        {
-            "@id": "b407_genid-00f1db82e1ab437c844115a94dc63e635-bn66964t11f53000"
-        },
-        {
-            "@id": "b407_genid-00f1db82e1ab437c844115a94dc63e635-bn66964t11f67072"
         }
     ]
 }

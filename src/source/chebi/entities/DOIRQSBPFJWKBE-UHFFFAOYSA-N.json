@@ -1,47 +1,27 @@
 {
     "@context": {
-        "chebi": "http://purl.obolibrary.org/obo/chebi/",
         "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
         "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-        "obo": "http://purl.obolibrary.org/obo/"
+        "obo": "http://purl.obolibrary.org/obo/",
+        "uniprot": "http://purl.uniprot.org/",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "concept": "https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/",
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "dbo": "http://dbpedia.org/ontology/",
+        "dbp": "http://dbpedia.org/property/",
+        "graph": {
+            "@id": "@graph"
+        }
     },
-    "@id": "obo:CHEBI_34687",
-    "@type": "http://www.w3.org/2002/07/owl#Class",
-    "obo:IAO_0000115": "A phthalate ester that is the diester obtained by the formal condensation of the carboxy groups of phthalic acid with two molecules of  butan-1-ol. Although used extensively as a plasticiser, it is a ubiquitous environmental contaminant that poses a risk to humans.",
+    "@id": "concept:DOIRQSBPFJWKBE-UHFFFAOYSA-N",
+    "@type": "skos:Concept",
+    "dbo:formula": "C16H22O4",
+    "dbo:inchi": "InChI=1S/C16H22O4/c1-3-5-11-19-15(17)13-9-7-8-10-14(13)16(18)20-12-6-4-2/h7-10H,3-6,11-12H2,1-2H3",
+    "dbo:smiles": "CCCCOC(=O)c1ccccc1C(=O)OCCCC",
+    "dbp:inchikey": "DOIRQSBPFJWKBE-UHFFFAOYSA-N",
     "chebi:charge": "0",
-    "chebi:formula": "C16H22O4",
-    "chebi:inchi": "InChI=1S/C16H22O4/c1-3-5-11-19-15(17)13-9-7-8-10-14(13)16(18)20-12-6-4-2/h7-10H,3-6,11-12H2,1-2H3",
-    "chebi:inchikey": "DOIRQSBPFJWKBE-UHFFFAOYSA-N",
-    "chebi:smiles": "CCCCOC(=O)c1ccccc1C(=O)OCCCC",
-    "geneontology:hasDbXref": [
-        "PMID:19840837",
-        "Beilstein:1914064",
-        "CAS:84-74-2",
-        "Drug_Central:4414",
-        "Gmelin:262569",
-        "HMDB:HMDB0033244",
-        "KEGG:C14214",
-        "PMID:11133400",
-        "PMID:16232742",
-        "PMID:24213843",
-        "PMID:24468924",
-        "PMID:24616073",
-        "PMID:26730679",
-        "PMID:27655612",
-        "PMID:28102498",
-        "PMID:28363850",
-        "PMID:28486587",
-        "PMID:28566680",
-        "PMID:28580302",
-        "PMID:28753974",
-        "PMID:28822891",
-        "PMID:28823096",
-        "PPDB:2924",
-        "Reaxys:1914064",
-        "Wikipedia:Dibutyl_phthalate"
-    ],
-    "geneontology:hasId": "34687",
-    "geneontology:hasSynonym": [
+    "skos:altLabel": [
         "1,2-Benzenedicarboxylic acid dibutyl ester",
         "Benzenedicarboxylic acid dibutyl ester",
         "Benzene-o-dicarboxylic acid di-n-butyl ester",
@@ -58,34 +38,16 @@
         "Phthalic acid dibutyl ester",
         "Phthalic acid di-n-butyl ester"
     ],
-    "geneontology:inSubset": {
-        "@id": "obo:chebi#3_STAR"
+    "skos:exactMatch": {
+        "@id": "obo:CHEBI_34687"
     },
-    "rdfs:label": "dibutyl phthalate",
-    "rdfs:subClassOf": [
+    "skos:note": "A phthalate ester that is the diester obtained by the formal condensation of the carboxy groups of phthalic acid with two molecules of  butan-1-ol. Although used extensively as a plasticiser, it is a ubiquitous environmental contaminant that poses a risk to humans.",
+    "skos:semanticRelation": [
         {
             "@id": "obo:CHEBI_51307"
         },
         {
             "@id": "obo:CHEBI_35484"
-        },
-        {
-            "@id": "b500_genid-00f1db82e1ab437c844115a94dc63e635-bn34687t11f25212"
-        },
-        {
-            "@id": "b500_genid-00f1db82e1ab437c844115a94dc63e635-bn34687t8f28885"
-        },
-        {
-            "@id": "b500_genid-00f1db82e1ab437c844115a94dc63e635-bn34687t11f50905"
-        },
-        {
-            "@id": "b500_genid-00f1db82e1ab437c844115a94dc63e635-bn34687t11f67239"
-        },
-        {
-            "@id": "b500_genid-00f1db82e1ab437c844115a94dc63e635-bn34687t11f78298"
-        },
-        {
-            "@id": "b500_genid-00f1db82e1ab437c844115a94dc63e635-bn34687t11f79056"
         }
     ]
 }

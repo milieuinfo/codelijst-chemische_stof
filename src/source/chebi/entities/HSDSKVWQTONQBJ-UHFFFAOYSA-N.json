@@ -1,28 +1,35 @@
 {
     "@context": {
-        "chebi": "http://purl.obolibrary.org/obo/chebi/",
         "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
         "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-        "obo": "http://purl.obolibrary.org/obo/"
+        "obo": "http://purl.obolibrary.org/obo/",
+        "uniprot": "http://purl.uniprot.org/",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "concept": "https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/",
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "dbo": "http://dbpedia.org/ontology/",
+        "dbp": "http://dbpedia.org/property/",
+        "altLabel": {
+            "@id": "http://www.w3.org/2004/02/skos/core#altLabel",
+            "@language": "en"
+        },
+        "graph": {
+            "@id": "@graph"
+        }
     },
-    "@id": "obo:CHEBI_195895",
-    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "@id": "concept:HSDSKVWQTONQBJ-UHFFFAOYSA-N",
+    "@type": "skos:Concept",
+    "dbo:formula": "C10H12O",
+    "dbo:inchi": "InChI=1S/C10H12O/c1-7-4-5-10(9(3)11)8(2)6-7/h4-6H,1-3H3",
+    "dbo:smiles": "O=C(C1=C(C=C(C=C1)C)C)C",
+    "dbp:inchikey": "HSDSKVWQTONQBJ-UHFFFAOYSA-N",
     "chebi:charge": "0",
-    "chebi:formula": "C10H12O",
-    "chebi:inchi": "InChI=1S/C10H12O/c1-7-4-5-10(9(3)11)8(2)6-7/h4-6H,1-3H3",
-    "chebi:inchikey": "HSDSKVWQTONQBJ-UHFFFAOYSA-N",
-    "chebi:smiles": "O=C(C1=C(C=C(C=C1)C)C)C",
-    "geneontology:hasDbXref": [
-        "Chemspider:21105883",
-        "HMDB:HMDB0032140"
-    ],
-    "geneontology:hasId": "195895",
-    "geneontology:hasSynonym": "1-(2,4-dimethylphenyl)ethanone",
-    "geneontology:inSubset": {
-        "@id": "obo:chebi#2_STAR"
+    "skos:altLabel": "1-(2,4-dimethylphenyl)ethanone",
+    "skos:exactMatch": {
+        "@id": "obo:CHEBI_195895"
     },
-    "rdfs:label": "2',4'-Dimethylacetophenone",
-    "rdfs:subClassOf": {
+    "skos:semanticRelation": {
         "@id": "obo:CHEBI_76224"
     }
 }

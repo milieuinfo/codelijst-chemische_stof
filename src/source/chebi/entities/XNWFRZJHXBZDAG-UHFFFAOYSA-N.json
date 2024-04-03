@@ -1,33 +1,31 @@
 {
     "@context": {
-        "chebi": "http://purl.obolibrary.org/obo/chebi/",
         "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
         "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-        "obo": "http://purl.obolibrary.org/obo/"
+        "obo": "http://purl.obolibrary.org/obo/",
+        "uniprot": "http://purl.uniprot.org/",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "concept": "https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/",
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "dbo": "http://dbpedia.org/ontology/",
+        "dbp": "http://dbpedia.org/property/",
+        "altLabel": {
+            "@id": "http://www.w3.org/2004/02/skos/core#altLabel",
+            "@language": "en"
+        },
+        "graph": {
+            "@id": "@graph"
+        }
     },
-    "@id": "obo:CHEBI_46790",
-    "@type": "http://www.w3.org/2002/07/owl#Class",
-    "obo:IAO_0000115": "A hydroxyether that is ethanol substituted by a methoxy group at position 2.",
+    "@id": "concept:XNWFRZJHXBZDAG-UHFFFAOYSA-N",
+    "@type": "skos:Concept",
+    "dbo:formula": "C3H8O2",
+    "dbo:inchi": "InChI=1S/C3H8O2/c1-5-3-2-4/h4H,2-3H2,1H3",
+    "dbo:smiles": "COCCO",
+    "dbp:inchikey": "XNWFRZJHXBZDAG-UHFFFAOYSA-N",
     "chebi:charge": "0",
-    "chebi:formula": "C3H8O2",
-    "chebi:inchi": "InChI=1S/C3H8O2/c1-5-3-2-4/h4H,2-3H2,1H3",
-    "chebi:inchikey": "XNWFRZJHXBZDAG-UHFFFAOYSA-N",
-    "chebi:smiles": "COCCO",
-    "geneontology:hasDbXref": [
-        "PMID:24399739",
-        "Beilstein:1731074",
-        "CAS:109-86-4",
-        "DrugBank:DB02806",
-        "Gmelin:81877",
-        "MetaCyc:2-METHOXYETHANOL",
-        "PDBeChem:MXE",
-        "PMID:11354470",
-        "PPDB:1639",
-        "Reaxys:1731074",
-        "Wikipedia:2-Methoxyethanol"
-    ],
-    "geneontology:hasId": "46790",
-    "geneontology:hasSynonym": [
+    "skos:altLabel": [
         "1-hydroxy-2-methoxyethane",
         "2-hydroxyethyl methyl ether",
         "2-methoxy-1-ethanol",
@@ -39,19 +37,11 @@
         "methyl oxitol",
         "monomethyl ethylene glycol ether"
     ],
-    "geneontology:inSubset": {
-        "@id": "obo:chebi#3_STAR"
+    "skos:exactMatch": {
+        "@id": "obo:CHEBI_46790"
     },
-    "rdfs:label": "2-methoxyethanol",
-    "rdfs:subClassOf": [
-        {
-            "@id": "obo:CHEBI_172390"
-        },
-        {
-            "@id": "b227_genid-00f1db82e1ab437c844115a94dc63e635-bn46790t11f46787"
-        },
-        {
-            "@id": "b227_genid-00f1db82e1ab437c844115a94dc63e635-bn46790t11f48356"
-        }
-    ]
+    "skos:note": "A hydroxyether that is ethanol substituted by a methoxy group at position 2.",
+    "skos:semanticRelation": {
+        "@id": "obo:CHEBI_172390"
+    }
 }

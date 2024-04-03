@@ -1,38 +1,31 @@
 {
     "@context": {
-        "chebi": "http://purl.obolibrary.org/obo/chebi/",
         "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
         "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-        "obo": "http://purl.obolibrary.org/obo/"
+        "obo": "http://purl.obolibrary.org/obo/",
+        "uniprot": "http://purl.uniprot.org/",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "concept": "https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/",
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "dbo": "http://dbpedia.org/ontology/",
+        "dbp": "http://dbpedia.org/property/",
+        "altLabel": {
+            "@id": "http://www.w3.org/2004/02/skos/core#altLabel",
+            "@language": "en"
+        },
+        "graph": {
+            "@id": "@graph"
+        }
     },
-    "@id": "obo:CHEBI_30805",
-    "@type": "http://www.w3.org/2002/07/owl#Class",
-    "obo:IAO_0000115": "A straight-chain, twelve-carbon medium-chain saturated fatty acid with strong bactericidal properties; the main fatty acid in coconut oil and palm kernel oil.",
+    "@id": "concept:POULHZVOKOAJMA-UHFFFAOYSA-N",
+    "@type": "skos:Concept",
+    "dbo:formula": "C12H24O2",
+    "dbo:inchi": "InChI=1S/C12H24O2/c1-2-3-4-5-6-7-8-9-10-11-12(13)14/h2-11H2,1H3,(H,13,14)",
+    "dbo:smiles": "CCCCCCCCCCCC(O)=O",
+    "dbp:inchikey": "POULHZVOKOAJMA-UHFFFAOYSA-N",
     "chebi:charge": "0",
-    "chebi:formula": "C12H24O2",
-    "chebi:inchi": "InChI=1S/C12H24O2/c1-2-3-4-5-6-7-8-9-10-11-12(13)14/h2-11H2,1H3,(H,13,14)",
-    "chebi:inchikey": "POULHZVOKOAJMA-UHFFFAOYSA-N",
-    "chebi:smiles": "CCCCCCCCCCCC(O)=O",
-    "geneontology:hasDbXref": [
-        "PMID:26884207",
-        "KEGG:C02679",
-        "MetaCyc:DODECANOATE",
-        "Beilstein:1099477",
-        "CAS:143-07-7",
-        "Drug_Central:4642",
-        "DrugBank:DB03017",
-        "Gmelin:103520",
-        "HMDB:HMDB0000638",
-        "KNApSAcK:C00001221",
-        "LIPID_MAPS_instance:LMFA01010012",
-        "PDBeChem:DAO",
-        "PMID:19387482",
-        "Reaxys:1099477",
-        "UM-BBD_compID:c0566",
-        "Wikipedia:Lauric_acid"
-    ],
-    "geneontology:hasId": "30805",
-    "geneontology:hasSynonym": [
+    "skos:altLabel": [
         "1-undecanecarboxylic acid",
         "ABL",
         "C12:0",
@@ -56,34 +49,16 @@
         "Undecane-1-carboxylic acid",
         "Vulvic acid"
     ],
-    "geneontology:inSubset": {
-        "@id": "obo:chebi#3_STAR"
+    "skos:exactMatch": {
+        "@id": "obo:CHEBI_30805"
     },
-    "rdfs:label": "dodecanoic acid",
-    "rdfs:subClassOf": [
+    "skos:note": "A straight-chain, twelve-carbon medium-chain saturated fatty acid with strong bactericidal properties; the main fatty acid in coconut oil and palm kernel oil.",
+    "skos:semanticRelation": [
         {
             "@id": "obo:CHEBI_59554"
         },
         {
             "@id": "obo:CHEBI_39418"
-        },
-        {
-            "@id": "b174_genid-00f1db82e1ab437c844115a94dc63e635-bn30805tmms73f18262"
-        },
-        {
-            "@id": "b174_genid-00f1db82e1ab437c844115a94dc63e635-bn30805t4f18262"
-        },
-        {
-            "@id": "b174_genid-00f1db82e1ab437c844115a94dc63e635-bn30805t9f28817"
-        },
-        {
-            "@id": "b174_genid-00f1db82e1ab437c844115a94dc63e635-bn30805t11f33282"
-        },
-        {
-            "@id": "b174_genid-00f1db82e1ab437c844115a94dc63e635-bn30805t11f76924"
-        },
-        {
-            "@id": "b174_genid-00f1db82e1ab437c844115a94dc63e635-bn30805t11f84735"
         }
     ]
 }

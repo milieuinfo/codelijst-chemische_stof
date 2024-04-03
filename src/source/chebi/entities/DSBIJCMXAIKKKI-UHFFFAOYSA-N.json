@@ -1,26 +1,27 @@
 {
     "@context": {
-        "chebi": "http://purl.obolibrary.org/obo/chebi/",
         "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
         "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-        "obo": "http://purl.obolibrary.org/obo/"
+        "obo": "http://purl.obolibrary.org/obo/",
+        "uniprot": "http://purl.uniprot.org/",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "concept": "https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/",
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "dbo": "http://dbpedia.org/ontology/",
+        "dbp": "http://dbpedia.org/property/",
+        "graph": {
+            "@id": "@graph"
+        }
     },
-    "@id": "obo:CHEBI_66891",
-    "@type": "http://www.w3.org/2002/07/owl#Class",
-    "obo:IAO_0000115": "A C-nitro compound in which the nitro compound is meta to the amino group and para to the methyl group of o-toluidine.",
+    "@id": "concept:DSBIJCMXAIKKKI-UHFFFAOYSA-N",
+    "@type": "skos:Concept",
+    "dbo:formula": "C7H8N2O2",
+    "dbo:inchi": "InChI=1S/C7H8N2O2/c1-5-2-3-6(9(10)11)4-7(5)8/h2-4H,8H2,1H3",
+    "dbo:smiles": "Cc1ccc(cc1N)[N+]([O-])=O",
+    "dbp:inchikey": "DSBIJCMXAIKKKI-UHFFFAOYSA-N",
     "chebi:charge": "0",
-    "chebi:formula": "C7H8N2O2",
-    "chebi:inchi": "InChI=1S/C7H8N2O2/c1-5-2-3-6(9(10)11)4-7(5)8/h2-4H,8H2,1H3",
-    "chebi:inchikey": "DSBIJCMXAIKKKI-UHFFFAOYSA-N",
-    "chebi:smiles": "Cc1ccc(cc1N)[N+]([O-])=O",
-    "geneontology:hasDbXref": [
-        "PMID:1650428",
-        "CAS:99-55-8",
-        "KEGG:C16398",
-        "Reaxys:879021"
-    ],
-    "geneontology:hasId": "66891",
-    "geneontology:hasSynonym": [
+    "skos:altLabel": [
         "1-Amino-2-methyl-5-nitrobenzene",
         "2-Amino-4-nitrotoluene",
         "2-methyl-5-nitroaniline",
@@ -34,16 +35,11 @@
         "6-Methyl-3-nitroaniline",
         "o-amino-p-nitrotoluene"
     ],
-    "geneontology:inSubset": {
-        "@id": "obo:chebi#3_STAR"
+    "skos:exactMatch": {
+        "@id": "obo:CHEBI_66891"
     },
-    "rdfs:label": "5-nitro-o-toluidine",
-    "rdfs:subClassOf": [
-        {
-            "@id": "obo:CHEBI_35716"
-        },
-        {
-            "@id": "b523_genid-00f1db82e1ab437c844115a94dc63e635-bn66891t8f66892"
-        }
-    ]
+    "skos:note": "A C-nitro compound in which the nitro compound is meta to the amino group and para to the methyl group of o-toluidine.",
+    "skos:semanticRelation": {
+        "@id": "obo:CHEBI_35716"
+    }
 }

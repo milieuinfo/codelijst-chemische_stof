@@ -1,49 +1,37 @@
 {
     "@context": {
-        "chebi": "http://purl.obolibrary.org/obo/chebi/",
         "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
         "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-        "obo": "http://purl.obolibrary.org/obo/"
+        "obo": "http://purl.obolibrary.org/obo/",
+        "uniprot": "http://purl.uniprot.org/",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "concept": "https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/",
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "dbo": "http://dbpedia.org/ontology/",
+        "dbp": "http://dbpedia.org/property/",
+        "graph": {
+            "@id": "@graph"
+        }
     },
-    "@id": "obo:CHEBI_4045",
-    "@type": "http://www.w3.org/2002/07/owl#Class",
-    "obo:IAO_0000115": "A member of the class of aminopyrimidine that is N-phenylpyrimidin-2-amine carrying additional cyclopropyl and methyl substituents at positions 4 and 6 respectively. A broad spectrum fungicide used to control a range of pathogens including Tapesia yallundae, Botrytis spp., Alternaria spp. and Rhynchospium secalis. Whilst it is a recognised irritant no serious human health concerns have been identified. It is moderately toxic to birds as well as most aquatic organisms and earthworms, but it is not considered toxic to honeybees.",
+    "@id": "concept:HAORKNGNJCEJBX-UHFFFAOYSA-N",
+    "@type": "skos:Concept",
+    "dbo:formula": "C14H15N3",
+    "dbo:inchi": "InChI=1S/C14H15N3/c1-10-9-13(11-7-8-11)17-14(15-10)16-12-5-3-2-4-6-12/h2-6,9,11H,7-8H2,1H3,(H,15,16,17)",
+    "dbo:smiles": "Cc1cc(nc(Nc2ccccc2)n1)C1CC1",
+    "dbp:inchikey": "HAORKNGNJCEJBX-UHFFFAOYSA-N",
     "chebi:charge": "0",
-    "chebi:formula": "C14H15N3",
-    "chebi:inchi": "InChI=1S/C14H15N3/c1-10-9-13(11-7-8-11)17-14(15-10)16-12-5-3-2-4-6-12/h2-6,9,11H,7-8H2,1H3,(H,15,16,17)",
-    "chebi:inchikey": "HAORKNGNJCEJBX-UHFFFAOYSA-N",
-    "chebi:smiles": "Cc1cc(nc(Nc2ccccc2)n1)C1CC1",
-    "geneontology:hasDbXref": [
-        "AGR:IND21380293",
-        "CAS:121552-61-2",
-        "HMDB:HMDB0034853",
-        "KEGG:C10914",
-        "Patent:EP1023838",
-        "Patent:US2011021580",
-        "Pesticides:cyprodinil",
-        "PMID:23073993",
-        "PMID:23228475",
-        "PMID:23436777",
-        "PMID:23799251",
-        "PMID:24598029",
-        "PMID:24746069",
-        "PMID:24809493",
-        "PMID:24901957",
-        "PPDB:199",
-        "Reaxys:7813601"
-    ],
-    "geneontology:hasId": "4045",
-    "geneontology:hasSynonym": [
+    "skos:altLabel": [
         "2-Anilino-4-cyclopropyl-6-methylpyrimidine",
         "4-Cyclopropyl-6-methyl-N-phenyl-2-pyrimidinamine",
         "4-cyclopropyl-6-methyl-N-phenylpyrimidin-2-amine",
         "HSDB 7019"
     ],
-    "geneontology:inSubset": {
-        "@id": "obo:chebi#3_STAR"
+    "skos:exactMatch": {
+        "@id": "obo:CHEBI_4045"
     },
-    "rdfs:label": "cyprodinil",
-    "rdfs:subClassOf": [
+    "skos:note": "A member of the class of aminopyrimidine that is N-phenylpyrimidin-2-amine carrying additional cyclopropyl and methyl substituents at positions 4 and 6 respectively. A broad spectrum fungicide used to control a range of pathogens including Tapesia yallundae, Botrytis spp., Alternaria spp. and Rhynchospium secalis. Whilst it is a recognised irritant no serious human health concerns have been identified. It is moderately toxic to birds as well as most aquatic organisms and earthworms, but it is not considered toxic to honeybees.",
+    "skos:semanticRelation": [
         {
             "@id": "obo:CHEBI_38338"
         },
@@ -52,18 +40,6 @@
         },
         {
             "@id": "obo:CHEBI_51454"
-        },
-        {
-            "@id": "b827_genid-00f1db82e1ab437c844115a94dc63e635-bn4045t11f35703"
-        },
-        {
-            "@id": "b827_genid-00f1db82e1ab437c844115a94dc63e635-bn4045t11f72768"
-        },
-        {
-            "@id": "b827_genid-00f1db82e1ab437c844115a94dc63e635-bn4045t11f78298"
-        },
-        {
-            "@id": "b827_genid-00f1db82e1ab437c844115a94dc63e635-bn4045t11f86328"
         },
         {
             "@id": "obo:CHEBI_87208"

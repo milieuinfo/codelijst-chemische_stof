@@ -1,61 +1,42 @@
 {
     "@context": {
-        "chebi": "http://purl.obolibrary.org/obo/chebi/",
         "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
         "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-        "obo": "http://purl.obolibrary.org/obo/"
+        "obo": "http://purl.obolibrary.org/obo/",
+        "uniprot": "http://purl.uniprot.org/",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "concept": "https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/",
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "dbo": "http://dbpedia.org/ontology/",
+        "dbp": "http://dbpedia.org/property/",
+        "altLabel": {
+            "@id": "http://www.w3.org/2004/02/skos/core#altLabel",
+            "@language": "en"
+        },
+        "graph": {
+            "@id": "@graph"
+        }
     },
-    "@id": "obo:CHEBI_38663",
-    "@type": "http://www.w3.org/2002/07/owl#Class",
-    "obo:IAO_0000115": "An organic thiophosphate that is S,S'-methanediyl bis[dihydrogen (phosphorodithioate)] in which all the hydroxy groups have been converted to their corresponding ethyl esters respectively. Ethion is an organophosphate insecticide with inhibitory activity towards the enzyme acetylcholinesterase ( EC 3.1.1.7).",
+    "@id": "concept:RIZMRRKBZQXFOY-UHFFFAOYSA-N",
+    "@type": "skos:Concept",
+    "dbo:formula": "C9H22O4P2S4",
+    "dbo:inchi": "InChI=1S/C9H22O4P2S4/c1-5-10-14(16,11-6-2)18-9-19-15(17,12-7-3)13-8-4/h5-9H2,1-4H3",
+    "dbo:smiles": "CCOP(=S)(OCC)SCSP(=S)(OCC)OCC",
+    "dbp:inchikey": "RIZMRRKBZQXFOY-UHFFFAOYSA-N",
     "chebi:charge": "0",
-    "chebi:formula": "C9H22O4P2S4",
-    "chebi:inchi": "InChI=1S/C9H22O4P2S4/c1-5-10-14(16,11-6-2)18-9-19-15(17,12-7-3)13-8-4/h5-9H2,1-4H3",
-    "chebi:inchikey": "RIZMRRKBZQXFOY-UHFFFAOYSA-N",
-    "chebi:smiles": "CCOP(=S)(OCC)SCSP(=S)(OCC)OCC",
-    "geneontology:hasDbXref": [
-        "Beilstein:1804530",
-        "CAS:563-12-2",
-        "KEGG:C18725",
-        "PMID:21366965",
-        "PMID:21560835",
-        "PMID:23127602",
-        "PMID:24398360",
-        "PMID:24401442",
-        "PPDB:276",
-        "Reaxys:1804530",
-        "Wikipedia:Ethion"
-    ],
-    "geneontology:hasId": "38663",
-    "geneontology:hasSynonym": [
+    "skos:altLabel": [
         "Bis(S-(diethoxyphosphinothioyl)mercapto)methane",
         "O,O,O',O'-tetraethyl S,S'-methanediyl bis(dithiophosphate)",
         "O,O,O',O'-tetraethyl S,S'-methanediyl bis(phosphorodithioate)",
         "O,O,O',O'-Tetraethyl S,S'-methylenebis(phosphorodithioate)",
         "S,S'-Methylene bis(O,O-diethyl phosphorodithioate)"
     ],
-    "geneontology:inSubset": {
-        "@id": "obo:chebi#3_STAR"
+    "skos:exactMatch": {
+        "@id": "obo:CHEBI_38663"
     },
-    "rdfs:label": "ethion",
-    "rdfs:subClassOf": [
-        {
-            "@id": "obo:CHEBI_37512"
-        },
-        {
-            "@id": "b451_genid-00f1db82e1ab437c844115a94dc63e635-bn38663t11f22153"
-        },
-        {
-            "@id": "b451_genid-00f1db82e1ab437c844115a94dc63e635-bn38663t11f24852"
-        },
-        {
-            "@id": "b451_genid-00f1db82e1ab437c844115a94dc63e635-bn38663t11f33286"
-        },
-        {
-            "@id": "b451_genid-00f1db82e1ab437c844115a94dc63e635-bn38663t11f38462"
-        },
-        {
-            "@id": "b451_genid-00f1db82e1ab437c844115a94dc63e635-bn38663t11f78298"
-        }
-    ]
+    "skos:note": "An organic thiophosphate that is S,S'-methanediyl bis[dihydrogen (phosphorodithioate)] in which all the hydroxy groups have been converted to their corresponding ethyl esters respectively. Ethion is an organophosphate insecticide with inhibitory activity towards the enzyme acetylcholinesterase ( EC 3.1.1.7).",
+    "skos:semanticRelation": {
+        "@id": "obo:CHEBI_37512"
+    }
 }

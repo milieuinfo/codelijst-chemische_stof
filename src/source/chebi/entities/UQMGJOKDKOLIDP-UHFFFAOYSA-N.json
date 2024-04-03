@@ -1,35 +1,41 @@
 {
     "@context": {
-        "chebi": "http://purl.obolibrary.org/obo/chebi/",
         "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
         "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-        "obo": "http://purl.obolibrary.org/obo/"
+        "obo": "http://purl.obolibrary.org/obo/",
+        "uniprot": "http://purl.uniprot.org/",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "concept": "https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/",
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "dbo": "http://dbpedia.org/ontology/",
+        "dbp": "http://dbpedia.org/property/",
+        "altLabel": {
+            "@id": "http://www.w3.org/2004/02/skos/core#altLabel",
+            "@language": "en"
+        },
+        "graph": {
+            "@id": "@graph"
+        }
     },
-    "@id": "obo:CHEBI_1367",
-    "@type": "http://www.w3.org/2002/07/owl#Class",
-    "obo:IAO_0000115": "A tetrachlorobiphenyl that is biphenyl in which the hydrogens at position 3 and 4 on each phenyl group are replaced by chlorines.",
+    "@id": "concept:UQMGJOKDKOLIDP-UHFFFAOYSA-N",
+    "@type": "skos:Concept",
+    "dbo:formula": "C12H6Cl4",
+    "dbo:inchi": "InChI=1S/C12H6Cl4/c13-9-3-1-7(5-11(9)15)8-2-4-10(14)12(16)6-8/h1-6H",
+    "dbo:smiles": "Clc1ccc(cc1Cl)-c1ccc(Cl)c(Cl)c1",
+    "dbp:inchikey": "UQMGJOKDKOLIDP-UHFFFAOYSA-N",
     "chebi:charge": "0",
-    "chebi:formula": "C12H6Cl4",
-    "chebi:inchi": "InChI=1S/C12H6Cl4/c13-9-3-1-7(5-11(9)15)8-2-4-10(14)12(16)6-8/h1-6H",
-    "chebi:inchikey": "UQMGJOKDKOLIDP-UHFFFAOYSA-N",
-    "chebi:smiles": "Clc1ccc(cc1Cl)-c1ccc(Cl)c(Cl)c1",
-    "geneontology:hasDbXref": [
-        "Beilstein:2051251",
-        "CAS:32598-13-3",
-        "KEGG:C11057"
-    ],
-    "geneontology:hasId": "1367",
-    "geneontology:hasSynonym": [
+    "skos:altLabel": [
         "3,3',4,4'-tetrachloro-1,1'-biphenyl",
         "3,4,3',4'-Tetrachlorobiphenyl",
         "3,4,3',4'-Tetra coplanar polychlorinated biphenyl",
         "PCB 77"
     ],
-    "geneontology:inSubset": {
-        "@id": "obo:chebi#3_STAR"
+    "skos:exactMatch": {
+        "@id": "obo:CHEBI_1367"
     },
-    "rdfs:label": "3,3',4,4'-tetrachlorobiphenyl",
-    "rdfs:subClassOf": [
+    "skos:note": "A tetrachlorobiphenyl that is biphenyl in which the hydrogens at position 3 and 4 on each phenyl group are replaced by chlorines.",
+    "skos:semanticRelation": [
         {
             "@id": "obo:CHEBI_23697"
         },

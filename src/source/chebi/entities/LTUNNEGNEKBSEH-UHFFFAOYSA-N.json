@@ -1,28 +1,21 @@
 {
     "@context": {
-        "chebi": "http://purl.obolibrary.org/obo/chebi/",
         "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
         "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-        "obo": "http://purl.obolibrary.org/obo/"
-    },
-    "@id": "obo:CHEBI_8523",
-    "@type": "http://www.w3.org/2002/07/owl#Class",
-    "chebi:charge": "0",
-    "chebi:formula": "C15H16F3N5O4S",
-    "chebi:inchi": "InChI=1S/C15H16F3N5O4S/c1-9-19-12(22-14(20-9)27-2)21-13(24)23-28(25,26)11-6-4-3-5-10(11)7-8-15(16,17)18/h3-6H,7-8H2,1-2H3,(H2,19,20,21,22,23,24)",
-    "chebi:inchikey": "LTUNNEGNEKBSEH-UHFFFAOYSA-N",
-    "chebi:smiles": "COc1nc(C)nc(NC(=O)NS(=O)(=O)c2ccccc2CCC(F)(F)F)n1",
-    "geneontology:hasDbXref": [
-        "CAS:94125-34-5",
-        "KEGG:C10950",
-        "PPDB:558"
-    ],
-    "geneontology:hasId": "8523",
-    "geneontology:inSubset": {
-        "@id": "obo:chebi#2_STAR"
-    },
-    "rdfs:label": "Prosulfuron",
-    "rdfs:subClassOf": {
-        "@id": "obo:CHEBI_38102"
+        "obo": "http://purl.obolibrary.org/obo/",
+        "uniprot": "http://purl.uniprot.org/",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "concept": "https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/",
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "dbo": "http://dbpedia.org/ontology/",
+        "dbp": "http://dbpedia.org/property/",
+        "altLabel": {
+            "@id": "http://www.w3.org/2004/02/skos/core#altLabel",
+            "@language": "en"
+        },
+        "graph": {
+            "@id": "@graph"
+        }
     }
 }

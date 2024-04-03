@@ -1,85 +1,59 @@
 {
     "@context": {
-        "chebi": "http://purl.obolibrary.org/obo/chebi/",
         "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
         "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-        "obo": "http://purl.obolibrary.org/obo/"
+        "obo": "http://purl.obolibrary.org/obo/",
+        "uniprot": "http://purl.uniprot.org/",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "concept": "https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/",
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "dbo": "http://dbpedia.org/ontology/",
+        "dbp": "http://dbpedia.org/property/",
+        "altLabel": {
+            "@id": "http://www.w3.org/2004/02/skos/core#altLabel",
+            "@language": "en"
+        },
+        "graph": {
+            "@id": "@graph"
+        }
     },
-    "@graph": [
+    "@id": "concept:SWQJXJOGLNCZEY-UHFFFAOYSA-N",
+    "@type": "skos:Concept",
+    "dbo:formula": "He",
+    "dbo:inchi": "InChI=1S/He",
+    "dbo:smiles": "[He]",
+    "dbp:inchikey": "SWQJXJOGLNCZEY-UHFFFAOYSA-N",
+    "chebi:charge": "0",
+    "skos:altLabel": [
+        "He",
+        "[He]",
+        "2He",
+        "helio",
+        "helium",
+        "Helium",
+        "atomic helium",
+        "E939",
+        "E 939",
+        "E-939"
+    ],
+    "skos:exactMatch": [
         {
-            "@id": "obo:CHEBI_30217",
-            "@type": "http://www.w3.org/2002/07/owl#Class",
-            "chebi:charge": "0",
-            "chebi:formula": "He",
-            "chebi:inchi": "InChI=1S/He",
-            "chebi:inchikey": "SWQJXJOGLNCZEY-UHFFFAOYSA-N",
-            "chebi:smiles": "[He]",
-            "geneontology:hasDbXref": [
-                "CAS:7440-59-7",
-                "Drug_Central:4262",
-                "Gmelin:16294",
-                "WebElements:He"
-            ],
-            "geneontology:hasId": "30217",
-            "geneontology:hasSynonym": [
-                "He",
-                "2He",
-                "helio",
-                "helium",
-                "Helium"
-            ],
-            "geneontology:inSubset": {
-                "@id": "obo:chebi#3_STAR"
-            },
-            "rdfs:label": "helium atom",
-            "rdfs:subClassOf": [
-                {
-                    "@id": "obo:CHEBI_33559"
-                },
-                {
-                    "@id": "obo:CHEBI_33309"
-                }
-            ]
+            "@id": "obo:CHEBI_30217"
         },
         {
-            "@id": "obo:CHEBI_33681",
-            "@type": "http://www.w3.org/2002/07/owl#Class",
-            "chebi:charge": "0",
-            "chebi:formula": "He",
-            "chebi:inchi": "InChI=1S/He",
-            "chebi:inchikey": "SWQJXJOGLNCZEY-UHFFFAOYSA-N",
-            "chebi:smiles": "[He]",
-            "geneontology:hasDbXref": [
-                "CAS:7440-59-7",
-                "MolBase:922",
-                "PMID:24383961",
-                "PMID:24406316",
-                "PMID:24430541",
-                "PMID:24553240",
-                "Wikipedia:Helium"
-            ],
-            "geneontology:hasId": "33681",
-            "geneontology:hasSynonym": [
-                "He",
-                "[He]",
-                "helium",
-                "atomic helium",
-                "E939",
-                "E 939",
-                "E-939"
-            ],
-            "geneontology:inSubset": {
-                "@id": "obo:chebi#3_STAR"
-            },
-            "rdfs:label": "helium(0)",
-            "rdfs:subClassOf": [
-                {
-                    "@id": "obo:CHEBI_33315"
-                },
-                {
-                    "@id": "b692_genid-00f1db82e1ab437c844115a94dc63e635-bn33681t11f77974"
-                }
-            ]
+            "@id": "obo:CHEBI_33681"
+        }
+    ],
+    "skos:semanticRelation": [
+        {
+            "@id": "obo:CHEBI_33559"
+        },
+        {
+            "@id": "obo:CHEBI_33309"
+        },
+        {
+            "@id": "obo:CHEBI_33315"
         }
     ]
 }

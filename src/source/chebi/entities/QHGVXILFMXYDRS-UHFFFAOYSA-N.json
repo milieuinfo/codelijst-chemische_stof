@@ -1,38 +1,41 @@
 {
     "@context": {
-        "chebi": "http://purl.obolibrary.org/obo/chebi/",
         "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
         "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-        "obo": "http://purl.obolibrary.org/obo/"
+        "obo": "http://purl.obolibrary.org/obo/",
+        "uniprot": "http://purl.uniprot.org/",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "concept": "https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/",
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "dbo": "http://dbpedia.org/ontology/",
+        "dbp": "http://dbpedia.org/property/",
+        "altLabel": {
+            "@id": "http://www.w3.org/2004/02/skos/core#altLabel",
+            "@language": "en"
+        },
+        "graph": {
+            "@id": "@graph"
+        }
     },
-    "@id": "obo:CHEBI_38876",
-    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "@id": "concept:QHGVXILFMXYDRS-UHFFFAOYSA-N",
+    "@type": "skos:Concept",
+    "dbo:formula": "C14H18ClN2O3PS",
+    "dbo:inchi": "InChI=1S/C14H18ClN2O3PS/c1-3-9-22-21(18,19-4-2)20-14-10-16-17(11-14)13-7-5-12(15)6-8-13/h5-8,10-11H,3-4,9H2,1-2H3",
+    "dbo:smiles": "CCCSP(=O)(OCC)Oc1cnn(c1)-c1ccc(Cl)cc1",
+    "dbp:inchikey": "QHGVXILFMXYDRS-UHFFFAOYSA-N",
     "chebi:charge": "0",
-    "chebi:formula": "C14H18ClN2O3PS",
-    "chebi:inchi": "InChI=1S/C14H18ClN2O3PS/c1-3-9-22-21(18,19-4-2)20-14-10-16-17(11-14)13-7-5-12(15)6-8-13/h5-8,10-11H,3-4,9H2,1-2H3",
-    "chebi:inchikey": "QHGVXILFMXYDRS-UHFFFAOYSA-N",
-    "chebi:smiles": "CCCSP(=O)(OCC)Oc1cnn(c1)-c1ccc(Cl)cc1",
-    "geneontology:hasDbXref": [
-        "Beilstein:8702515",
-        "CAS:77458-01-6",
-        "CAS:89784-60-1",
-        "KEGG:C18406",
-        "PPDB:563",
-        "VSDB:563"
-    ],
-    "geneontology:hasId": "38876",
-    "geneontology:hasSynonym": [
+    "skos:altLabel": [
         "Boltage",
         "O-[1-(4-chlorophenyl)-1H-pyrazol-4-yl] O-ethyl S-propyl phosphorothioate",
         "O-[1-(4-chlorophenyl)-1H-pyrazol-4-yl] O-ethyl S-propyl thiophosphate",
         "Phosphorothioic acid, O-(1-(4-chlorophenyl)-1H-pyrazol-4-yl) O-ethyl S-propyl ester",
         "Voltage"
     ],
-    "geneontology:inSubset": {
-        "@id": "obo:chebi#3_STAR"
+    "skos:exactMatch": {
+        "@id": "obo:CHEBI_38876"
     },
-    "rdfs:label": "pyraclofos",
-    "rdfs:subClassOf": [
+    "skos:semanticRelation": [
         {
             "@id": "obo:CHEBI_33261"
         },
@@ -50,12 +53,6 @@
         },
         {
             "@id": "obo:CHEBI_25715"
-        },
-        {
-            "@id": "b296_genid-00f1db82e1ab437c844115a94dc63e635-bn38876t11f33286"
-        },
-        {
-            "@id": "b296_genid-00f1db82e1ab437c844115a94dc63e635-bn38876t11f38462"
         }
     ]
 }

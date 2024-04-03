@@ -1,30 +1,31 @@
 {
     "@context": {
-        "chebi": "http://purl.obolibrary.org/obo/chebi/",
         "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
         "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-        "obo": "http://purl.obolibrary.org/obo/"
+        "obo": "http://purl.obolibrary.org/obo/",
+        "uniprot": "http://purl.uniprot.org/",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "concept": "https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/",
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "dbo": "http://dbpedia.org/ontology/",
+        "dbp": "http://dbpedia.org/property/",
+        "altLabel": {
+            "@id": "http://www.w3.org/2004/02/skos/core#altLabel",
+            "@language": "en"
+        },
+        "graph": {
+            "@id": "@graph"
+        }
     },
-    "@id": "obo:CHEBI_82288",
-    "@type": "http://www.w3.org/2002/07/owl#Class",
-    "obo:IAO_0000115": "A substituted aniline that is aniline in which the hydrogen ortho to the amino group has been replaced by a methoxy group. It is used as a chemical intermediate in the synthesis of azo pigments and dyes.",
+    "@id": "concept:VMPITZXILSNTON-UHFFFAOYSA-N",
+    "@type": "skos:Concept",
+    "dbo:formula": "C7H9NO",
+    "dbo:inchi": "InChI=1S/C7H9NO/c1-9-7-5-3-2-4-6(7)8/h2-5H,8H2,1H3",
+    "dbo:smiles": "C1=CC=CC(=C1N)OC",
+    "dbp:inchikey": "VMPITZXILSNTON-UHFFFAOYSA-N",
     "chebi:charge": "0",
-    "chebi:formula": "C7H9NO",
-    "chebi:inchi": "InChI=1S/C7H9NO/c1-9-7-5-3-2-4-6(7)8/h2-5H,8H2,1H3",
-    "chebi:inchikey": "VMPITZXILSNTON-UHFFFAOYSA-N",
-    "chebi:smiles": "C1=CC=CC(=C1N)OC",
-    "http://purl.uniprot.org/core/name": "2-methoxyaniline",
-    "geneontology:hasDbXref": [
-        "PMID:21187827",
-        "Beilstein:386210",
-        "CAS:90-04-0",
-        "KEGG:C19191",
-        "PMID:22403159",
-        "PMID:28089782",
-        "Wikipedia:O-Anisidine"
-    ],
-    "geneontology:hasId": "82288",
-    "geneontology:hasSynonym": [
+    "skos:altLabel": [
         "1-amino-2-methoxybenzene",
         "2-aminoanisole",
         "2-anisidine",
@@ -38,11 +39,11 @@
         "ortho-aminoanisole",
         "ortho-anisidine"
     ],
-    "geneontology:inSubset": {
-        "@id": "obo:chebi#3_STAR"
+    "skos:exactMatch": {
+        "@id": "obo:CHEBI_82288"
     },
-    "rdfs:label": "o-anisidine",
-    "rdfs:subClassOf": [
+    "skos:note": "A substituted aniline that is aniline in which the hydrogen ortho to the amino group has been replaced by a methoxy group. It is used as a chemical intermediate in the synthesis of azo pigments and dyes.",
+    "skos:semanticRelation": [
         {
             "@id": "obo:CHEBI_25235"
         },
@@ -51,12 +52,6 @@
         },
         {
             "@id": "obo:CHEBI_48975"
-        },
-        {
-            "@id": "b954_genid-00f1db82e1ab437c844115a94dc63e635-bn82288t11f33893"
-        },
-        {
-            "@id": "b954_genid-00f1db82e1ab437c844115a94dc63e635-bn82288t11f50902"
         }
     ]
 }

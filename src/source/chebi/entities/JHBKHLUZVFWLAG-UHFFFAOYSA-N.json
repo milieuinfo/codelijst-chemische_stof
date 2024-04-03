@@ -1,36 +1,39 @@
 {
     "@context": {
-        "chebi": "http://purl.obolibrary.org/obo/chebi/",
         "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
         "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-        "obo": "http://purl.obolibrary.org/obo/"
+        "obo": "http://purl.obolibrary.org/obo/",
+        "uniprot": "http://purl.uniprot.org/",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "concept": "https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/",
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "dbo": "http://dbpedia.org/ontology/",
+        "dbp": "http://dbpedia.org/property/",
+        "altLabel": {
+            "@id": "http://www.w3.org/2004/02/skos/core#altLabel",
+            "@language": "en"
+        },
+        "graph": {
+            "@id": "@graph"
+        }
     },
-    "@id": "obo:CHEBI_36697",
-    "@type": "http://www.w3.org/2002/07/owl#Class",
-    "obo:IAO_0000115": "A tetrachlorobenzene carrying chloro groups at positions 1, 2, 4 and 5.",
+    "@id": "concept:JHBKHLUZVFWLAG-UHFFFAOYSA-N",
+    "@type": "skos:Concept",
+    "dbo:formula": "C6H2Cl4",
+    "dbo:inchi": "InChI=1S/C6H2Cl4/c7-3-1-4(8)6(10)2-5(3)9/h1-2H",
+    "dbo:smiles": "Clc1cc(Cl)c(Cl)cc1Cl",
+    "dbp:inchikey": "JHBKHLUZVFWLAG-UHFFFAOYSA-N",
     "chebi:charge": "0",
-    "chebi:formula": "C6H2Cl4",
-    "chebi:inchi": "InChI=1S/C6H2Cl4/c7-3-1-4(8)6(10)2-5(3)9/h1-2H",
-    "chebi:inchikey": "JHBKHLUZVFWLAG-UHFFFAOYSA-N",
-    "chebi:smiles": "Clc1cc(Cl)c(Cl)cc1Cl",
-    "geneontology:hasDbXref": [
-        "Beilstein:1618315",
-        "CAS:95-94-3",
-        "Gmelin:1925561",
-        "MetaCyc:CPD-10620",
-        "PMID:12209161",
-        "Reaxys:1618315"
-    ],
-    "geneontology:hasId": "36697",
-    "geneontology:hasSynonym": [
+    "skos:altLabel": [
         "1,2,4,5-Tetrachlorbenzol",
         "s-tetrachlorobenzene"
     ],
-    "geneontology:inSubset": {
-        "@id": "obo:chebi#3_STAR"
+    "skos:exactMatch": {
+        "@id": "obo:CHEBI_36697"
     },
-    "rdfs:label": "1,2,4,5-tetrachlorobenzene",
-    "rdfs:subClassOf": {
+    "skos:note": "A tetrachlorobenzene carrying chloro groups at positions 1, 2, 4 and 5.",
+    "skos:semanticRelation": {
         "@id": "obo:CHEBI_26888"
     }
 }

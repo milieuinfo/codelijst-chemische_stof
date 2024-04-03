@@ -1,85 +1,21 @@
 {
     "@context": {
-        "chebi": "http://purl.obolibrary.org/obo/chebi/",
         "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
         "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-        "obo": "http://purl.obolibrary.org/obo/"
-    },
-    "@id": "obo:CHEBI_9546",
-    "@type": "http://www.w3.org/2002/07/owl#Class",
-    "obo:IAO_0000115": "An alkylmercury compound (approximately 49% mercury by weight) used as an antiseptic and antifungal agent.",
-    "chebi:charge": "0",
-    "chebi:inchi": "InChI=1S/C7H6O2S.C2H5.Hg.Na/c8-7(9)5-3-1-2-4-6(5)10;1-2;;/h1-4,10H,(H,8,9);1H2,2H3;;/q;;2*+1/p-2",
-    "chebi:inchikey": "RTKIYNMVFMVABJ-UHFFFAOYSA-L",
-    "chebi:smiles": "[Na+].CC[Hg]Sc1ccccc1C([O-])=O",
-    "geneontology:hasDbXref": [
-        "PMID:25042713",
-        "PMID:21616561",
-        "Beilstein:8169555",
-        "CAS:54-64-8",
-        "Gmelin:1677155",
-        "KEGG:D00864",
-        "PMID:18837732",
-        "PMID:21785120",
-        "PMID:22015977",
-        "PMID:22366633",
-        "PMID:22658806",
-        "PMID:22811707",
-        "PMID:23145070",
-        "PMID:23223227",
-        "PMID:23282150",
-        "PMID:23401210",
-        "PMID:23554557",
-        "PMID:23843785",
-        "PMID:23949514",
-        "PMID:23965928",
-        "PMID:23992327",
-        "PPDB:3062",
-        "Reaxys:8169555",
-        "VSDB:3062"
-    ],
-    "geneontology:hasId": "9546",
-    "geneontology:hasSynonym": [
-        "[(o-carboxyphenyl)thio]ethylmercury sodium salt",
-        "ethyl(2-mercaptobenzoato-S)mercury sodium salt",
-        "ethylmercurithiosalicylate sodium",
-        "ethylmercurithiosalicylic acid sodium salt",
-        "mercurothiolate",
-        "Merthiolate",
-        "o-(ethylmercurithio)benzoic acid sodium salt",
-        "sodium [(2-carboxylatophenyl)sulfanyl](ethyl)mercurate(1-)",
-        "sodium ethyl[2-(sulfanyl-kappaS)benzoato(2-)]mercurate(1-)",
-        "sodium ethylmercurithiosalicylate",
-        "sodium merthiolate",
-        "Thimerosal",
-        "thiomersal",
-        "Thiomersal",
-        "thiomersalate",
-        "thiomersalum",
-        "tiomersal"
-    ],
-    "geneontology:inSubset": {
-        "@id": "obo:chebi#3_STAR"
-    },
-    "rdfs:label": "thimerosal",
-    "rdfs:subClassOf": [
-        {
-            "@id": "b517_genid-00f1db82e1ab437c844115a94dc63e635-bn9546t10f33215"
+        "obo": "http://purl.obolibrary.org/obo/",
+        "uniprot": "http://purl.uniprot.org/",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "concept": "https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/",
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "dbo": "http://dbpedia.org/ontology/",
+        "dbp": "http://dbpedia.org/property/",
+        "altLabel": {
+            "@id": "http://www.w3.org/2004/02/skos/core#altLabel",
+            "@language": "en"
         },
-        {
-            "@id": "obo:CHEBI_33255"
-        },
-        {
-            "@id": "b517_genid-00f1db82e1ab437c844115a94dc63e635-bn9546t11f48218"
-        },
-        {
-            "@id": "b517_genid-00f1db82e1ab437c844115a94dc63e635-bn9546t11f48219"
-        },
-        {
-            "@id": "b517_genid-00f1db82e1ab437c844115a94dc63e635-bn9546t11f86327"
-        },
-        {
-            "@id": "b517_genid-00f1db82e1ab437c844115a94dc63e635-bn9546t11f88188"
+        "graph": {
+            "@id": "@graph"
         }
-    ]
+    }
 }

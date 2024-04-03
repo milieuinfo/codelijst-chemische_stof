@@ -1,47 +1,31 @@
 {
     "@context": {
-        "chebi": "http://purl.obolibrary.org/obo/chebi/",
         "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
         "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-        "obo": "http://purl.obolibrary.org/obo/"
+        "obo": "http://purl.obolibrary.org/obo/",
+        "uniprot": "http://purl.uniprot.org/",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "concept": "https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/",
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "dbo": "http://dbpedia.org/ontology/",
+        "dbp": "http://dbpedia.org/property/",
+        "altLabel": {
+            "@id": "http://www.w3.org/2004/02/skos/core#altLabel",
+            "@language": "en"
+        },
+        "graph": {
+            "@id": "@graph"
+        }
     },
-    "@id": "obo:CHEBI_16598",
-    "@type": "http://www.w3.org/2002/07/owl#Class",
-    "obo:IAO_0000115": "A chlorophenylethylene that is ethylene substituted by two 4-chlorophenyl groups at position 1 and two chlorine atoms at position 2.",
+    "@id": "concept:UCNVFOCBFJOQAL-UHFFFAOYSA-N",
+    "@type": "skos:Concept",
+    "dbo:formula": "C14H8Cl4",
+    "dbo:inchi": "InChI=1S/C14H8Cl4/c15-11-5-1-9(2-6-11)13(14(17)18)10-3-7-12(16)8-4-10/h1-8H",
+    "dbo:smiles": "ClC(Cl)=C(C1=CC=C(Cl)C=C1)C1=CC=C(Cl)C=C1",
+    "dbp:inchikey": "UCNVFOCBFJOQAL-UHFFFAOYSA-N",
     "chebi:charge": "0",
-    "chebi:formula": "C14H8Cl4",
-    "chebi:inchi": "InChI=1S/C14H8Cl4/c15-11-5-1-9(2-6-11)13(14(17)18)10-3-7-12(16)8-4-10/h1-8H",
-    "chebi:inchikey": "UCNVFOCBFJOQAL-UHFFFAOYSA-N",
-    "chebi:smiles": "ClC(Cl)=C(C1=CC=C(Cl)C=C1)C1=CC=C(Cl)C=C1",
-    "http://purl.uniprot.org/core/name": "1,1-dichloro-2,2-bis(4-chlorophenyl)ethylene",
-    "geneontology:hasDbXref": [
-        "PMID:22142728",
-        "PMID:24328540",
-        "CAS:72-55-9",
-        "FooDB:FDB097419",
-        "HMDB:HMDB0304759",
-        "KEGG:C04596",
-        "MetaCyc:DICHLOROBIS-CPD",
-        "PDBeChem:6WS",
-        "PMCID:PMC7208238",
-        "PMID:11513126",
-        "PMID:15070871",
-        "PMID:15710169",
-        "PMID:20368122",
-        "PMID:23415487",
-        "PMID:28042045",
-        "PMID:31792309",
-        "PMID:32393266",
-        "PMID:33287856",
-        "PMID:33756427",
-        "PMID:35623197",
-        "PMID:37236336",
-        "Reaxys:1913355",
-        "UM-BBD_compID:c0406",
-        "Wikipedia:Dichlorodiphenyldichloroethylene"
-    ],
-    "geneontology:hasId": "16598",
-    "geneontology:hasSynonym": [
+    "skos:altLabel": [
         "1,1-dichloro-2,2-bis(4-chlorophenyl)ethylene",
         "1,1'-(2,2-dichloroethene-1,1-diyl)bis(4-chlorobenzene)",
         "1,1-bis-(4-chlorophenyl)-2,2-dichloroethene",
@@ -54,22 +38,16 @@
         "p,p'-(Dichlorodiphenyl)-2,2-dichloroethylene",
         "p,p'-DDE"
     ],
-    "geneontology:inSubset": {
-        "@id": "obo:chebi#3_STAR"
+    "skos:exactMatch": {
+        "@id": "obo:CHEBI_16598"
     },
-    "rdfs:label": "DDE",
-    "rdfs:subClassOf": [
+    "skos:note": "A chlorophenylethylene that is ethylene substituted by two 4-chlorophenyl groups at position 1 and two chlorine atoms at position 2.",
+    "skos:semanticRelation": [
         {
             "@id": "obo:CHEBI_83403"
         },
         {
             "@id": "obo:CHEBI_23155"
-        },
-        {
-            "@id": "b756_genid-00f1db82e1ab437c844115a94dc63e635-bn16598t11f76967"
-        },
-        {
-            "@id": "b756_genid-00f1db82e1ab437c844115a94dc63e635-bn16598t11f77853"
         }
     ]
 }

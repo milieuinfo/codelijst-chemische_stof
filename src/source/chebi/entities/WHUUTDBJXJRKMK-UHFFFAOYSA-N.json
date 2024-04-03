@@ -1,35 +1,31 @@
 {
     "@context": {
-        "chebi": "http://purl.obolibrary.org/obo/chebi/",
         "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
         "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-        "obo": "http://purl.obolibrary.org/obo/"
+        "obo": "http://purl.obolibrary.org/obo/",
+        "uniprot": "http://purl.uniprot.org/",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "concept": "https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/",
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "dbo": "http://dbpedia.org/ontology/",
+        "dbp": "http://dbpedia.org/property/",
+        "altLabel": {
+            "@id": "http://www.w3.org/2004/02/skos/core#altLabel",
+            "@language": "en"
+        },
+        "graph": {
+            "@id": "@graph"
+        }
     },
-    "@id": "obo:CHEBI_18237",
-    "@type": "http://www.w3.org/2002/07/owl#Class",
-    "obo:IAO_0000115": "An alpha-amino acid that is glutaric acid bearing a single amino substituent at position 2.",
+    "@id": "concept:WHUUTDBJXJRKMK-UHFFFAOYSA-N",
+    "@type": "skos:Concept",
+    "dbo:formula": "C5H9NO4",
+    "dbo:inchi": "InChI=1S/C5H9NO4/c6-3(5(9)10)1-2-4(7)8/h3H,1-2,6H2,(H,7,8)(H,9,10)",
+    "dbo:smiles": "NC(CCC(O)=O)C(O)=O",
+    "dbp:inchikey": "WHUUTDBJXJRKMK-UHFFFAOYSA-N",
     "chebi:charge": "0",
-    "chebi:formula": "C5H9NO4",
-    "chebi:inchi": "InChI=1S/C5H9NO4/c6-3(5(9)10)1-2-4(7)8/h3H,1-2,6H2,(H,7,8)(H,9,10)",
-    "chebi:inchikey": "WHUUTDBJXJRKMK-UHFFFAOYSA-N",
-    "chebi:smiles": "NC(CCC(O)=O)C(O)=O",
-    "geneontology:hasDbXref": [
-        "PMID:17190852",
-        "KNApSAcK:C00001358",
-        "PMID:15739367",
-        "KNApSAcK:C00019577",
-        "Beilstein:1723799",
-        "CAS:617-65-2",
-        "Gmelin:101971",
-        "KEGG:C00302",
-        "KEGG:D04341",
-        "PMID:24616376",
-        "PMID:24984001",
-        "Reaxys:1723799",
-        "Wikipedia:Glutamic_acid"
-    ],
-    "geneontology:hasId": "18237",
-    "geneontology:hasSynonym": [
+    "skos:altLabel": [
         "E",
         "Glu",
         "Glutamate",
@@ -41,28 +37,16 @@
         "Glutaminic acid",
         "Glutaminsaeure"
     ],
-    "geneontology:inSubset": {
-        "@id": "obo:chebi#3_STAR"
+    "skos:exactMatch": {
+        "@id": "obo:CHEBI_18237"
     },
-    "rdfs:label": "glutamic acid",
-    "rdfs:subClassOf": [
+    "skos:note": "An alpha-amino acid that is glutaric acid bearing a single amino substituent at position 2.",
+    "skos:semanticRelation": [
         {
             "@id": "obo:CHEBI_33704"
         },
         {
             "@id": "obo:CHEBI_26167"
-        },
-        {
-            "@id": "b35_genid-00f1db82e1ab437c844115a94dc63e635-bn18237tmms73f14321"
-        },
-        {
-            "@id": "b35_genid-00f1db82e1ab437c844115a94dc63e635-bn18237t4f14321"
-        },
-        {
-            "@id": "b35_genid-00f1db82e1ab437c844115a94dc63e635-bn18237t10f50329"
-        },
-        {
-            "@id": "b35_genid-00f1db82e1ab437c844115a94dc63e635-bn18237t11f78675"
         }
     ]
 }

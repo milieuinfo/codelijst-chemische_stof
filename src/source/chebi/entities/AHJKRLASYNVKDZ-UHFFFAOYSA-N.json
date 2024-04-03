@@ -1,33 +1,27 @@
 {
     "@context": {
-        "chebi": "http://purl.obolibrary.org/obo/chebi/",
         "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
         "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-        "obo": "http://purl.obolibrary.org/obo/"
+        "obo": "http://purl.obolibrary.org/obo/",
+        "uniprot": "http://purl.uniprot.org/",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "concept": "https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/",
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "dbo": "http://dbpedia.org/ontology/",
+        "dbp": "http://dbpedia.org/property/",
+        "graph": {
+            "@id": "@graph"
+        }
     },
-    "@id": "obo:CHEBI_27841",
-    "@type": "http://www.w3.org/2002/07/owl#Class",
-    "obo:IAO_0000115": "A chlorophenylethane that is 2,2-bis(p-chlorophenyl)ethane substituted by two chloro groups at position 1. It is a metabolite of the  organochlorine insecticide, DDT.",
+    "@id": "concept:AHJKRLASYNVKDZ-UHFFFAOYSA-N",
+    "@type": "skos:Concept",
+    "dbo:formula": "C14H10Cl4",
+    "dbo:inchi": "InChI=1S/C14H10Cl4/c15-11-5-1-9(2-6-11)13(14(17)18)10-3-7-12(16)8-4-10/h1-8,13-14H",
+    "dbo:smiles": "ClC(Cl)C(c1ccc(Cl)cc1)c1ccc(Cl)cc1",
+    "dbp:inchikey": "AHJKRLASYNVKDZ-UHFFFAOYSA-N",
     "chebi:charge": "0",
-    "chebi:formula": "C14H10Cl4",
-    "chebi:inchi": "InChI=1S/C14H10Cl4/c15-11-5-1-9(2-6-11)13(14(17)18)10-3-7-12(16)8-4-10/h1-8,13-14H",
-    "chebi:inchikey": "AHJKRLASYNVKDZ-UHFFFAOYSA-N",
-    "chebi:smiles": "ClC(Cl)C(c1ccc(Cl)cc1)c1ccc(Cl)cc1",
-    "geneontology:hasDbXref": [
-        "Beilstein:1914072",
-        "CAS:72-54-8",
-        "Gmelin:509095",
-        "KEGG:C06636",
-        "PMID:19487035",
-        "PMID:21007656",
-        "PMID:9496653",
-        "PPDB:755",
-        "Reaxys:1914072",
-        "UM-BBD_compID:c0505",
-        "Wikipedia:Dichlorodiphenyldichloroethane"
-    ],
-    "geneontology:hasId": "27841",
-    "geneontology:hasSynonym": [
+    "skos:altLabel": [
         "1,1'-(2,2-dichloroethane-1,1-diyl)bis(4-chlorobenzene)",
         "1,1'-(2,2-dichloroethylidene)bis[4-chlorobenzene]",
         "1,1-Dichloro-2,2-bis(4'-chlorophenyl)ethane",
@@ -40,11 +34,11 @@
         "TDE",
         "tetrachlorodiphenylethane"
     ],
-    "geneontology:inSubset": {
-        "@id": "obo:chebi#3_STAR"
+    "skos:exactMatch": {
+        "@id": "obo:CHEBI_27841"
     },
-    "rdfs:label": "DDD",
-    "rdfs:subClassOf": [
+    "skos:note": "A chlorophenylethane that is 2,2-bis(p-chlorophenyl)ethane substituted by two chloro groups at position 1. It is a metabolite of the  organochlorine insecticide, DDT.",
+    "skos:semanticRelation": [
         {
             "@id": "obo:CHEBI_83403"
         },
@@ -53,9 +47,6 @@
         },
         {
             "@id": "obo:CHEBI_23154"
-        },
-        {
-            "@id": "b42_genid-00f1db82e1ab437c844115a94dc63e635-bn27841t11f76206"
         }
     ]
 }

@@ -1,33 +1,39 @@
 {
     "@context": {
-        "chebi": "http://purl.obolibrary.org/obo/chebi/",
         "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
         "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-        "obo": "http://purl.obolibrary.org/obo/"
+        "obo": "http://purl.obolibrary.org/obo/",
+        "uniprot": "http://purl.uniprot.org/",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "concept": "https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/",
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "dbo": "http://dbpedia.org/ontology/",
+        "dbp": "http://dbpedia.org/property/",
+        "altLabel": {
+            "@id": "http://www.w3.org/2004/02/skos/core#altLabel",
+            "@language": "en"
+        },
+        "graph": {
+            "@id": "@graph"
+        }
     },
-    "@id": "obo:CHEBI_17878",
-    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "@id": "concept:ODZTXUXIYGJLMC-UHFFFAOYSA-N",
+    "@type": "skos:Concept",
+    "dbo:formula": "C6H10O2",
+    "dbo:inchi": "InChI=1S/C6H10O2/c7-5-3-1-2-4-6(5)8/h5,7H,1-4H2",
+    "dbo:smiles": "OC1CCCCC1=O",
+    "dbp:inchikey": "ODZTXUXIYGJLMC-UHFFFAOYSA-N",
     "chebi:charge": "0",
-    "chebi:formula": "C6H10O2",
-    "chebi:inchi": "InChI=1S/C6H10O2/c7-5-3-1-2-4-6(5)8/h5,7H,1-4H2",
-    "chebi:inchikey": "ODZTXUXIYGJLMC-UHFFFAOYSA-N",
-    "chebi:smiles": "OC1CCCCC1=O",
-    "http://purl.uniprot.org/core/name": "2-hydroxycyclohexan-1-one",
-    "geneontology:hasDbXref": [
-        "CAS:533-60-8",
-        "KEGG:C01147"
-    ],
-    "geneontology:hasId": "17878",
-    "geneontology:hasSynonym": [
+    "skos:altLabel": [
         "2-Hydroxycyclohexan-1-one",
         "2-Hydroxycyclohexanone",
         "Adipoin"
     ],
-    "geneontology:inSubset": {
-        "@id": "obo:chebi#3_STAR"
+    "skos:exactMatch": {
+        "@id": "obo:CHEBI_17878"
     },
-    "rdfs:label": "2-hydroxycyclohexan-1-one",
-    "rdfs:subClassOf": [
+    "skos:semanticRelation": [
         {
             "@id": "obo:CHEBI_2468"
         },

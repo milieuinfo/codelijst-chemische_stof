@@ -1,37 +1,31 @@
 {
     "@context": {
-        "chebi": "http://purl.obolibrary.org/obo/chebi/",
         "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
         "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-        "obo": "http://purl.obolibrary.org/obo/"
+        "obo": "http://purl.obolibrary.org/obo/",
+        "uniprot": "http://purl.uniprot.org/",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "concept": "https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/",
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "dbo": "http://dbpedia.org/ontology/",
+        "dbp": "http://dbpedia.org/property/",
+        "altLabel": {
+            "@id": "http://www.w3.org/2004/02/skos/core#altLabel",
+            "@language": "en"
+        },
+        "graph": {
+            "@id": "@graph"
+        }
     },
-    "@id": "obo:CHEBI_28885",
-    "@type": "http://www.w3.org/2002/07/owl#Class",
-    "obo:IAO_0000115": "A primary alcohol that is butane in which a hydrogen of one of the methyl groups is substituted by a hydroxy group. It it produced in small amounts in humans by the gut microbes.",
+    "@id": "concept:LRHPLDYGYMQRHN-UHFFFAOYSA-N",
+    "@type": "skos:Concept",
+    "dbo:formula": "C4H10O",
+    "dbo:inchi": "InChI=1S/C4H10O/c1-2-3-4-5/h5H,2-4H2,1H3",
+    "dbo:smiles": "CCCCO",
+    "dbp:inchikey": "LRHPLDYGYMQRHN-UHFFFAOYSA-N",
     "chebi:charge": "0",
-    "chebi:formula": "C4H10O",
-    "chebi:inchi": "InChI=1S/C4H10O/c1-2-3-4-5/h5H,2-4H2,1H3",
-    "chebi:inchikey": "LRHPLDYGYMQRHN-UHFFFAOYSA-N",
-    "chebi:smiles": "CCCCO",
-    "http://purl.uniprot.org/core/name": "butan-1-ol",
-    "geneontology:hasDbXref": [
-        "Beilstein:969148",
-        "CAS:71-36-3",
-        "DrugBank:DB02145",
-        "Gmelin:25753",
-        "HMDB:HMDB0004327",
-        "KEGG:C06142",
-        "KEGG:D03200",
-        "MetaCyc:BUTANOL",
-        "PDBeChem:1BO",
-        "PMID:23980702",
-        "PMID:7096503",
-        "PPDB:1309",
-        "Reaxys:969148",
-        "Wikipedia:N-Butanol"
-    ],
-    "geneontology:hasId": "28885",
-    "geneontology:hasSynonym": [
+    "skos:altLabel": [
         "1-Butanol",
         "1-BUTANOL",
         "1-butyl alcohol",
@@ -43,11 +37,11 @@
         "n-Butylalkohol",
         "propyl carbinol"
     ],
-    "geneontology:inSubset": {
-        "@id": "obo:chebi#3_STAR"
+    "skos:exactMatch": {
+        "@id": "obo:CHEBI_28885"
     },
-    "rdfs:label": "butan-1-ol",
-    "rdfs:subClassOf": [
+    "skos:note": "A primary alcohol that is butane in which a hydrogen of one of the methyl groups is substituted by a hydroxy group. It it produced in small amounts in humans by the gut microbes.",
+    "skos:semanticRelation": [
         {
             "@id": "obo:CHEBI_15734"
         },
@@ -56,15 +50,6 @@
         },
         {
             "@id": "obo:CHEBI_157770"
-        },
-        {
-            "@id": "b590_genid-00f1db82e1ab437c844115a94dc63e635-bn28885t11f48356"
-        },
-        {
-            "@id": "b590_genid-00f1db82e1ab437c844115a94dc63e635-bn28885t11f75771"
-        },
-        {
-            "@id": "b590_genid-00f1db82e1ab437c844115a94dc63e635-bn28885t11f77746"
         }
     ]
 }

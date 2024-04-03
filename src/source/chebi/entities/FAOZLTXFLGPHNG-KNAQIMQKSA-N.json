@@ -1,37 +1,27 @@
 {
     "@context": {
-        "chebi": "http://purl.obolibrary.org/obo/chebi/",
         "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
         "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-        "obo": "http://purl.obolibrary.org/obo/"
+        "obo": "http://purl.obolibrary.org/obo/",
+        "uniprot": "http://purl.uniprot.org/",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "concept": "https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/",
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "dbo": "http://dbpedia.org/ontology/",
+        "dbp": "http://dbpedia.org/property/",
+        "graph": {
+            "@id": "@graph"
+        }
     },
-    "@id": "obo:CHEBI_31625",
-    "@type": "http://www.w3.org/2002/07/owl#Class",
-    "obo:IAO_0000115": "A member of the class of glucocorticoids that is Delta(1)-progesterone substituted at positions 11beta and 17 by hydroxy groups, at position 6alpha by a methyl group and at position 9 by a fluoro group. Used for the treatment of corticosteroid-responsive inflammation of the palpebral and bulbar conjunctiva, cornea and anterior segment of the globe.",
+    "@id": "concept:FAOZLTXFLGPHNG-KNAQIMQKSA-N",
+    "@type": "skos:Concept",
+    "dbo:formula": "C22H29FO4",
+    "dbo:inchi": "InChI=1S/C22H29FO4/c1-12-9-17-15-6-8-21(27,13(2)24)20(15,4)11-18(26)22(17,23)19(3)7-5-14(25)10-16(12)19/h5,7,10,12,15,17-18,26-27H,6,8-9,11H2,1-4H3/t12-,15-,17-,18-,19-,20-,21-,22-/m0/s1",
+    "dbo:smiles": "C[C@H]1C[C@H]2[C@@H]3CC[C@](O)(C(C)=O)[C@@]3(C)C[C@H](O)[C@]2(F)[C@@]2(C)C=CC(=O)C=C12",
+    "dbp:inchikey": "FAOZLTXFLGPHNG-KNAQIMQKSA-N",
     "chebi:charge": "0",
-    "chebi:formula": "C22H29FO4",
-    "chebi:inchi": "InChI=1S/C22H29FO4/c1-12-9-17-15-6-8-21(27,13(2)24)20(15,4)11-18(26)22(17,23)19(3)7-5-14(25)10-16(12)19/h5,7,10,12,15,17-18,26-27H,6,8-9,11H2,1-4H3/t12-,15-,17-,18-,19-,20-,21-,22-/m0/s1",
-    "chebi:inchikey": "FAOZLTXFLGPHNG-KNAQIMQKSA-N",
-    "chebi:smiles": "C[C@H]1C[C@H]2[C@@H]3CC[C@](O)(C(C)=O)[C@@]3(C)C[C@H](O)[C@]2(F)[C@@]2(C)C=CC(=O)C=C12",
-    "geneontology:hasDbXref": [
-        "CAS:426-13-1",
-        "Drug_Central:1208",
-        "DrugBank:DB00324",
-        "HMDB:HMDB0014469",
-        "KEGG:D01367",
-        "PMID:22821643",
-        "PMID:23023407",
-        "PMID:23225837",
-        "PMID:23429038",
-        "PMID:23865053",
-        "PMID:24074291",
-        "PMID:24227962",
-        "PMID:24493163",
-        "Reaxys:3172388",
-        "Wikipedia:Fluorometholone"
-    ],
-    "geneontology:hasId": "31625",
-    "geneontology:hasSynonym": [
+    "skos:altLabel": [
         "fluorometholone",
         "(6alpha,11beta)-9-fluoro-11,17-dihydroxy-6-methylpregna-1,4-diene-3,20-dione",
         "9-fluoro-11beta,17-dihydroxy-6alpha-methylpregna-1,4-diene-3,20-dione",
@@ -43,11 +33,11 @@
         "NSC 33001",
         "Oxylone"
     ],
-    "geneontology:inSubset": {
-        "@id": "obo:chebi#3_STAR"
+    "skos:exactMatch": {
+        "@id": "obo:CHEBI_31625"
     },
-    "rdfs:label": "fluorometholone",
-    "rdfs:subClassOf": [
+    "skos:note": "A member of the class of glucocorticoids that is Delta(1)-progesterone substituted at positions 11beta and 17 by hydroxy groups, at position 6alpha by a methyl group and at position 9 by a fluoro group. Used for the treatment of corticosteroid-responsive inflammation of the palpebral and bulbar conjunctiva, cornea and anterior segment of the globe.",
+    "skos:semanticRelation": [
         {
             "@id": "obo:CHEBI_35346"
         },
@@ -68,12 +58,6 @@
         },
         {
             "@id": "obo:CHEBI_50830"
-        },
-        {
-            "@id": "b562_genid-00f1db82e1ab437c844115a94dc63e635-bn31625t8f34073"
-        },
-        {
-            "@id": "b562_genid-00f1db82e1ab437c844115a94dc63e635-bn31625t11f35472"
         }
     ]
 }

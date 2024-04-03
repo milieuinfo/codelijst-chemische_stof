@@ -1,43 +1,39 @@
 {
     "@context": {
-        "chebi": "http://purl.obolibrary.org/obo/chebi/",
         "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
         "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-        "obo": "http://purl.obolibrary.org/obo/"
+        "obo": "http://purl.obolibrary.org/obo/",
+        "uniprot": "http://purl.uniprot.org/",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "concept": "https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/",
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "dbo": "http://dbpedia.org/ontology/",
+        "dbp": "http://dbpedia.org/property/",
+        "altLabel": {
+            "@id": "http://www.w3.org/2004/02/skos/core#altLabel",
+            "@language": "en"
+        },
+        "graph": {
+            "@id": "@graph"
+        }
     },
-    "@id": "obo:CHEBI_32943",
-    "@type": "http://www.w3.org/2002/07/owl#Class",
-    "obo:IAO_0000115": "A straight-chain alkane containing 28 carbon atoms.",
+    "@id": "concept:ZYURHZPYMFLWSH-UHFFFAOYSA-N",
+    "@type": "skos:Concept",
+    "dbo:formula": "C28H58",
+    "dbo:inchi": "InChI=1S/C28H58/c1-3-5-7-9-11-13-15-17-19-21-23-25-27-28-26-24-22-20-18-16-14-12-10-8-6-4-2/h3-28H2,1-2H3",
+    "dbo:smiles": "CCCCCCCCCCCCCCCCCCCCCCCCCCCC",
+    "dbp:inchikey": "ZYURHZPYMFLWSH-UHFFFAOYSA-N",
     "chebi:charge": "0",
-    "chebi:formula": "C28H58",
-    "chebi:inchi": "InChI=1S/C28H58/c1-3-5-7-9-11-13-15-17-19-21-23-25-27-28-26-24-22-20-18-16-14-12-10-8-6-4-2/h3-28H2,1-2H3",
-    "chebi:inchikey": "ZYURHZPYMFLWSH-UHFFFAOYSA-N",
-    "chebi:smiles": "CCCCCCCCCCCCCCCCCCCCCCCCCCCC",
-    "geneontology:hasDbXref": [
-        "PMID:17328933",
-        "Beilstein:1770570",
-        "CAS:630-02-4",
-        "KNApSAcK:C00034614",
-        "LIPID_MAPS_instance:LMFA11000580",
-        "MetaCyc:CPD-9765",
-        "PMID:22263592",
-        "Reaxys:1770570"
-    ],
-    "geneontology:hasId": "32943",
-    "geneontology:hasSynonym": [
+    "skos:altLabel": [
         "CH3-[CH2]26-CH3",
         "n-octacosane"
     ],
-    "geneontology:inSubset": {
-        "@id": "obo:chebi#3_STAR"
+    "skos:exactMatch": {
+        "@id": "obo:CHEBI_32943"
     },
-    "rdfs:label": "octacosane",
-    "rdfs:subClassOf": [
-        {
-            "@id": "obo:CHEBI_83563"
-        },
-        {
-            "@id": "b584_genid-00f1db82e1ab437c844115a94dc63e635-bn32943t11f76924"
-        }
-    ]
+    "skos:note": "A straight-chain alkane containing 28 carbon atoms.",
+    "skos:semanticRelation": {
+        "@id": "obo:CHEBI_83563"
+    }
 }

@@ -1,56 +1,47 @@
 {
     "@context": {
-        "chebi": "http://purl.obolibrary.org/obo/chebi/",
         "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
         "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-        "obo": "http://purl.obolibrary.org/obo/"
+        "obo": "http://purl.obolibrary.org/obo/",
+        "uniprot": "http://purl.uniprot.org/",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "concept": "https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/",
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "dbo": "http://dbpedia.org/ontology/",
+        "dbp": "http://dbpedia.org/property/",
+        "altLabel": {
+            "@id": "http://www.w3.org/2004/02/skos/core#altLabel",
+            "@language": "en"
+        },
+        "graph": {
+            "@id": "@graph"
+        }
     },
-    "@id": "obo:CHEBI_62961",
-    "@type": "http://www.w3.org/2002/07/owl#Class",
-    "obo:IAO_0000115": "An organochlorine pesticide having a 3,6-dichlorinated picolinic acid structure.",
+    "@id": "concept:HUBANNPOLNYSAD-UHFFFAOYSA-N",
+    "@type": "skos:Concept",
+    "dbo:formula": "C6H3Cl2NO2",
+    "dbo:inchi": "InChI=1S/C6H3Cl2NO2/c7-3-1-2-4(8)9-5(3)6(10)11/h1-2H,(H,10,11)",
+    "dbo:smiles": "OC(=O)c1nc(Cl)ccc1Cl",
+    "dbp:inchikey": "HUBANNPOLNYSAD-UHFFFAOYSA-N",
     "chebi:charge": "0",
-    "chebi:formula": "C6H3Cl2NO2",
-    "chebi:inchi": "InChI=1S/C6H3Cl2NO2/c7-3-1-2-4(8)9-5(3)6(10)11/h1-2H,(H,10,11)",
-    "chebi:inchikey": "HUBANNPOLNYSAD-UHFFFAOYSA-N",
-    "chebi:smiles": "OC(=O)c1nc(Cl)ccc1Cl",
-    "geneontology:hasDbXref": [
-        "Beilstein:473755",
-        "CAS:1702-17-6",
-        "KEGG:C18779",
-        "PMID:19222158",
-        "PMID:19264403",
-        "PMID:19777152",
-        "PMID:20657461",
-        "PMID:21184051",
-        "PMID:21692509",
-        "PPDB:169",
-        "Reaxys:473755",
-        "Wikipedia:Clopyralid"
-    ],
-    "geneontology:hasId": "62961",
-    "geneontology:hasSynonym": [
+    "skos:altLabel": [
         "3,6-Dichloro-2-pyridinecarboxylic acid",
         "3,6-Dichloropicolinic acid",
         "3,6-dichloropyridine-2-carboxylic acid",
         "Acide 3,6-dichloropicolinique",
         "Acide dichloro-3,6 picolinique"
     ],
-    "geneontology:inSubset": {
-        "@id": "obo:chebi#3_STAR"
+    "skos:exactMatch": {
+        "@id": "obo:CHEBI_62961"
     },
-    "rdfs:label": "clopyralid",
-    "rdfs:subClassOf": [
+    "skos:note": "An organochlorine pesticide having a 3,6-dichlorinated picolinic acid structure.",
+    "skos:semanticRelation": [
         {
             "@id": "obo:CHEBI_26421"
         },
         {
             "@id": "obo:CHEBI_38656"
-        },
-        {
-            "@id": "b29_genid-00f1db82e1ab437c844115a94dc63e635-bn62961t11f24527"
-        },
-        {
-            "@id": "b29_genid-00f1db82e1ab437c844115a94dc63e635-bn62961t8f28747"
         }
     ]
 }

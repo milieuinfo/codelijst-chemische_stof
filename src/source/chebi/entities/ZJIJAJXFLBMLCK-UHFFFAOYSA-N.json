@@ -1,27 +1,31 @@
 {
     "@context": {
-        "chebi": "http://purl.obolibrary.org/obo/chebi/",
         "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
         "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-        "obo": "http://purl.obolibrary.org/obo/"
+        "obo": "http://purl.obolibrary.org/obo/",
+        "uniprot": "http://purl.uniprot.org/",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "concept": "https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/",
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "dbo": "http://dbpedia.org/ontology/",
+        "dbp": "http://dbpedia.org/property/",
+        "altLabel": {
+            "@id": "http://www.w3.org/2004/02/skos/core#altLabel",
+            "@language": "en"
+        },
+        "graph": {
+            "@id": "@graph"
+        }
     },
-    "@id": "obo:CHEBI_39427",
-    "@type": "http://www.w3.org/2002/07/owl#Class",
-    "obo:IAO_0000115": "A fluoroalkane that is hexane in which all of the hydrogens have been replaced by fluorines.",
+    "@id": "concept:ZJIJAJXFLBMLCK-UHFFFAOYSA-N",
+    "@type": "skos:Concept",
+    "dbo:formula": "C6F14",
+    "dbo:inchi": "InChI=1S/C6F14/c7-1(8,3(11,12)5(15,16)17)2(9,10)4(13,14)6(18,19)20",
+    "dbo:smiles": "FC(F)(F)C(F)(F)C(F)(F)C(F)(F)C(F)(F)C(F)(F)F",
+    "dbp:inchikey": "ZJIJAJXFLBMLCK-UHFFFAOYSA-N",
     "chebi:charge": "0",
-    "chebi:formula": "C6F14",
-    "chebi:inchi": "InChI=1S/C6F14/c7-1(8,3(11,12)5(15,16)17)2(9,10)4(13,14)6(18,19)20",
-    "chebi:inchikey": "ZJIJAJXFLBMLCK-UHFFFAOYSA-N",
-    "chebi:smiles": "FC(F)(F)C(F)(F)C(F)(F)C(F)(F)C(F)(F)C(F)(F)F",
-    "geneontology:hasDbXref": [
-        "Beilstein:1802113",
-        "CAS:355-42-0",
-        "Drug_Central:3429",
-        "Gmelin:569173",
-        "Wikipedia:Perfluorohexane"
-    ],
-    "geneontology:hasId": "39427",
-    "geneontology:hasSynonym": [
+    "skos:altLabel": [
         "1,1,1,2,2,3,3,4,4,5,5,6,6,6-tetradecafluorohexane",
         "n-perfluorohexane",
         "n-tetradecafluorohexane",
@@ -29,11 +33,11 @@
         "Perfluorohexane",
         "tetradecafluorohexane"
     ],
-    "geneontology:inSubset": {
-        "@id": "obo:chebi#3_STAR"
+    "skos:exactMatch": {
+        "@id": "obo:CHEBI_39427"
     },
-    "rdfs:label": "perfluorohexane",
-    "rdfs:subClassOf": [
+    "skos:note": "A fluoroalkane that is hexane in which all of the hydrogens have been replaced by fluorines.",
+    "skos:semanticRelation": [
         {
             "@id": "obo:CHEBI_134179"
         },
@@ -42,15 +46,6 @@
         },
         {
             "@id": "obo:CHEBI_38824"
-        },
-        {
-            "@id": "b622_genid-00f1db82e1ab437c844115a94dc63e635-bn39427t9f29021"
-        },
-        {
-            "@id": "b622_genid-00f1db82e1ab437c844115a94dc63e635-bn39427t11f37338"
-        },
-        {
-            "@id": "b622_genid-00f1db82e1ab437c844115a94dc63e635-bn39427t11f48355"
         }
     ]
 }

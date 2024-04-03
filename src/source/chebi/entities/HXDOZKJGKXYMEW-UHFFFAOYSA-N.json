@@ -1,35 +1,31 @@
 {
     "@context": {
-        "chebi": "http://purl.obolibrary.org/obo/chebi/",
         "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
         "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-        "obo": "http://purl.obolibrary.org/obo/"
+        "obo": "http://purl.obolibrary.org/obo/",
+        "uniprot": "http://purl.uniprot.org/",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "concept": "https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/",
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "dbo": "http://dbpedia.org/ontology/",
+        "dbp": "http://dbpedia.org/property/",
+        "altLabel": {
+            "@id": "http://www.w3.org/2004/02/skos/core#altLabel",
+            "@language": "en"
+        },
+        "graph": {
+            "@id": "@graph"
+        }
     },
-    "@id": "obo:CHEBI_49584",
-    "@type": "http://www.w3.org/2002/07/owl#Class",
-    "obo:IAO_0000115": "A member of the class of  phenols carrying an ethyl substituent at position 4.",
+    "@id": "concept:HXDOZKJGKXYMEW-UHFFFAOYSA-N",
+    "@type": "skos:Concept",
+    "dbo:formula": "C8H10O",
+    "dbo:inchi": "InChI=1S/C8H10O/c1-2-7-3-5-8(9)6-4-7/h3-6,9H,2H2,1H3",
+    "dbo:smiles": "CCc1ccc(O)cc1",
+    "dbp:inchikey": "HXDOZKJGKXYMEW-UHFFFAOYSA-N",
     "chebi:charge": "0",
-    "chebi:formula": "C8H10O",
-    "chebi:inchi": "InChI=1S/C8H10O/c1-2-7-3-5-8(9)6-4-7/h3-6,9H,2H2,1H3",
-    "chebi:inchikey": "HXDOZKJGKXYMEW-UHFFFAOYSA-N",
-    "chebi:smiles": "CCc1ccc(O)cc1",
-    "http://purl.uniprot.org/core/name": "4-ethylphenol",
-    "geneontology:hasDbXref": [
-        "CAS:123-07-9",
-        "HMDB:HMDB0029306",
-        "KEGG:C13637",
-        "KNApSAcK:C00029528",
-        "MetaCyc:CPD-10596",
-        "PDBeChem:ETY",
-        "PMID:11724248",
-        "PMID:22908955",
-        "PMID:23311591",
-        "PMID:24444954",
-        "Reaxys:1363317",
-        "Wikipedia:4-Ethylphenol"
-    ],
-    "geneontology:hasId": "49584",
-    "geneontology:hasSynonym": [
+    "skos:altLabel": [
         "1-Ethyl-4-hydroxybenzene",
         "1-Hydroxy-4-ethylbenzene",
         "4-Ethylphenol",
@@ -37,16 +33,11 @@
         "para-Ethylphenol",
         "p-Ethylphenol"
     ],
-    "geneontology:inSubset": {
-        "@id": "obo:chebi#3_STAR"
+    "skos:exactMatch": {
+        "@id": "obo:CHEBI_49584"
     },
-    "rdfs:label": "4-ethylphenol",
-    "rdfs:subClassOf": [
-        {
-            "@id": "obo:CHEBI_33853"
-        },
-        {
-            "@id": "b47_genid-00f1db82e1ab437c844115a94dc63e635-bn49584t11f76968"
-        }
-    ]
+    "skos:note": "A member of the class of  phenols carrying an ethyl substituent at position 4.",
+    "skos:semanticRelation": {
+        "@id": "obo:CHEBI_33853"
+    }
 }

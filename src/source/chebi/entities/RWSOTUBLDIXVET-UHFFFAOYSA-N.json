@@ -1,48 +1,31 @@
 {
     "@context": {
-        "chebi": "http://purl.obolibrary.org/obo/chebi/",
         "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
         "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-        "obo": "http://purl.obolibrary.org/obo/"
+        "obo": "http://purl.obolibrary.org/obo/",
+        "uniprot": "http://purl.uniprot.org/",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "concept": "https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/",
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "dbo": "http://dbpedia.org/ontology/",
+        "dbp": "http://dbpedia.org/property/",
+        "altLabel": {
+            "@id": "http://www.w3.org/2004/02/skos/core#altLabel",
+            "@language": "en"
+        },
+        "graph": {
+            "@id": "@graph"
+        }
     },
-    "@id": "obo:CHEBI_16136",
-    "@type": "http://www.w3.org/2002/07/owl#Class",
-    "obo:IAO_0000115": "A sulfur hydride consisting of a single sulfur atom bonded to two hydrogen atoms. A highly poisonous, flammable gas with a characteristic odour of rotten eggs, it is often produced by bacterial decomposition of organic matter in the absence of oxygen.",
+    "@id": "concept:RWSOTUBLDIXVET-UHFFFAOYSA-N",
+    "@type": "skos:Concept",
+    "dbo:formula": "H2S",
+    "dbo:inchi": "InChI=1S/H2S/h1H2",
+    "dbo:smiles": "[H]S[H]",
+    "dbp:inchikey": "RWSOTUBLDIXVET-UHFFFAOYSA-N",
     "chebi:charge": "0",
-    "chebi:formula": "H2S",
-    "chebi:inchi": "InChI=1S/H2S/h1H2",
-    "chebi:inchikey": "RWSOTUBLDIXVET-UHFFFAOYSA-N",
-    "chebi:smiles": "[H]S[H]",
-    "geneontology:hasDbXref": [
-        "Beilstein:3535004",
-        "CAS:7783-06-4",
-        "Drug_Central:4260",
-        "Gmelin:303",
-        "KEGG:C00283",
-        "KNApSAcK:C00007266",
-        "MolBase:1709",
-        "PDBeChem:H2S",
-        "PMID:11788560",
-        "PMID:14654297",
-        "PMID:15003943",
-        "PMID:15607739",
-        "PMID:16446402",
-        "PMID:18098324",
-        "PMID:18524810",
-        "PMID:18948540",
-        "PMID:19695225",
-        "PMID:22004989",
-        "PMID:22378060",
-        "PMID:22448627",
-        "PMID:22473176",
-        "PMID:22486842",
-        "PMID:22520971",
-        "PMID:22787557",
-        "UM-BBD_compID:c0239",
-        "Wikipedia:Hydrogen_sulfide"
-    ],
-    "geneontology:hasId": "16136",
-    "geneontology:hasSynonym": [
+    "skos:altLabel": [
         "H2S",
         "Sulfide",
         "[SH2]",
@@ -61,11 +44,11 @@
         "sulfane",
         "sulfure d'hydrogene"
     ],
-    "geneontology:inSubset": {
-        "@id": "obo:chebi#3_STAR"
+    "skos:exactMatch": {
+        "@id": "obo:CHEBI_16136"
     },
-    "rdfs:label": "hydrogen sulfide",
-    "rdfs:subClassOf": [
+    "skos:note": "A sulfur hydride consisting of a single sulfur atom bonded to two hydrogen atoms. A highly poisonous, flammable gas with a characteristic odour of rotten eggs, it is often produced by bacterial decomposition of organic matter in the absence of oxygen.",
+    "skos:semanticRelation": [
         {
             "@id": "obo:CHEBI_33535"
         },
@@ -76,34 +59,7 @@
             "@id": "obo:CHEBI_138675"
         },
         {
-            "@id": "b541_genid-00f1db82e1ab437c844115a94dc63e635-bn16136tmms73f29919"
-        },
-        {
-            "@id": "b541_genid-00f1db82e1ab437c844115a94dc63e635-bn16136t11f25212"
-        },
-        {
-            "@id": "b541_genid-00f1db82e1ab437c844115a94dc63e635-bn16136t11f27026"
-        },
-        {
-            "@id": "b541_genid-00f1db82e1ab437c844115a94dc63e635-bn16136t4f29919"
-        },
-        {
-            "@id": "b541_genid-00f1db82e1ab437c844115a94dc63e635-bn16136t5f30488"
-        },
-        {
             "@id": "obo:CHEBI_33405"
-        },
-        {
-            "@id": "b541_genid-00f1db82e1ab437c844115a94dc63e635-bn16136t11f35620"
-        },
-        {
-            "@id": "b541_genid-00f1db82e1ab437c844115a94dc63e635-bn16136t11f50902"
-        },
-        {
-            "@id": "b541_genid-00f1db82e1ab437c844115a94dc63e635-bn16136t11f62488"
-        },
-        {
-            "@id": "b541_genid-00f1db82e1ab437c844115a94dc63e635-bn16136t11f76971"
         }
     ]
 }

@@ -1,30 +1,31 @@
 {
     "@context": {
-        "chebi": "http://purl.obolibrary.org/obo/chebi/",
         "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
         "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-        "obo": "http://purl.obolibrary.org/obo/"
+        "obo": "http://purl.obolibrary.org/obo/",
+        "uniprot": "http://purl.uniprot.org/",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "concept": "https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/",
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "dbo": "http://dbpedia.org/ontology/",
+        "dbp": "http://dbpedia.org/property/",
+        "altLabel": {
+            "@id": "http://www.w3.org/2004/02/skos/core#altLabel",
+            "@language": "en"
+        },
+        "graph": {
+            "@id": "@graph"
+        }
     },
-    "@id": "obo:CHEBI_34269",
-    "@type": "http://www.w3.org/2002/07/owl#Class",
-    "obo:IAO_0000115": "A monochlorobiphenyl carrying a single chloro substituent at position 2.",
+    "@id": "concept:LAXBNTIAOJWAOP-UHFFFAOYSA-N",
+    "@type": "skos:Concept",
+    "dbo:formula": "C12H9Cl",
+    "dbo:inchi": "InChI=1S/C12H9Cl/c13-12-9-5-4-8-11(12)10-6-2-1-3-7-10/h1-9H",
+    "dbo:smiles": "Clc1ccccc1-c1ccccc1",
+    "dbp:inchikey": "LAXBNTIAOJWAOP-UHFFFAOYSA-N",
     "chebi:charge": "0",
-    "chebi:formula": "C12H9Cl",
-    "chebi:inchi": "InChI=1S/C12H9Cl/c13-12-9-5-4-8-11(12)10-6-2-1-3-7-10/h1-9H",
-    "chebi:inchikey": "LAXBNTIAOJWAOP-UHFFFAOYSA-N",
-    "chebi:smiles": "Clc1ccccc1-c1ccccc1",
-    "geneontology:hasDbXref": [
-        "Beilstein:1907934",
-        "CAS:2051-60-7",
-        "Gmelin:407900",
-        "KEGG:C14353",
-        "PMID:22142725",
-        "PMID:23434481",
-        "PMID:23801320",
-        "Reaxys:1907934"
-    ],
-    "geneontology:hasId": "34269",
-    "geneontology:hasSynonym": [
+    "skos:altLabel": [
         "1-chloro-2-phenylbenzene",
         "2-Chlorbiphenyl",
         "2-chloro-1,1'-biphenyl",
@@ -35,11 +36,11 @@
         "o-chlorodiphenyl",
         "PCB 1"
     ],
-    "geneontology:inSubset": {
-        "@id": "obo:chebi#3_STAR"
+    "skos:exactMatch": {
+        "@id": "obo:CHEBI_34269"
     },
-    "rdfs:label": "2-chlorobiphenyl",
-    "rdfs:subClassOf": {
+    "skos:note": "A monochlorobiphenyl carrying a single chloro substituent at position 2.",
+    "skos:semanticRelation": {
         "@id": "obo:CHEBI_36717"
     }
 }

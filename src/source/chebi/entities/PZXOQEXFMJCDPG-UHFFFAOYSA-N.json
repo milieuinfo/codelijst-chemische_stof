@@ -1,25 +1,31 @@
 {
     "@context": {
-        "chebi": "http://purl.obolibrary.org/obo/chebi/",
         "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
         "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-        "obo": "http://purl.obolibrary.org/obo/"
+        "obo": "http://purl.obolibrary.org/obo/",
+        "uniprot": "http://purl.uniprot.org/",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "concept": "https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/",
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "dbo": "http://dbpedia.org/ontology/",
+        "dbp": "http://dbpedia.org/property/",
+        "altLabel": {
+            "@id": "http://www.w3.org/2004/02/skos/core#altLabel",
+            "@language": "en"
+        },
+        "graph": {
+            "@id": "@graph"
+        }
     },
-    "@id": "obo:CHEBI_38730",
-    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "@id": "concept:PZXOQEXFMJCDPG-UHFFFAOYSA-N",
+    "@type": "skos:Concept",
+    "dbo:formula": "C5H12NO4PS",
+    "dbo:inchi": "InChI=1S/C5H12NO4PS/c1-6-5(7)4-12-11(8,9-2)10-3/h4H2,1-3H3,(H,6,7)",
+    "dbo:smiles": "CNC(=O)CSP(=O)(OC)OC",
+    "dbp:inchikey": "PZXOQEXFMJCDPG-UHFFFAOYSA-N",
     "chebi:charge": "0",
-    "chebi:formula": "C5H12NO4PS",
-    "chebi:inchi": "InChI=1S/C5H12NO4PS/c1-6-5(7)4-12-11(8,9-2)10-3/h4H2,1-3H3,(H,6,7)",
-    "chebi:inchikey": "PZXOQEXFMJCDPG-UHFFFAOYSA-N",
-    "chebi:smiles": "CNC(=O)CSP(=O)(OC)OC",
-    "geneontology:hasDbXref": [
-        "Beilstein:1785256",
-        "CAS:1113-02-6",
-        "KEGG:C18662",
-        "PPDB:492"
-    ],
-    "geneontology:hasId": "38730",
-    "geneontology:hasSynonym": [
+    "skos:altLabel": [
         "2-Dimethoxyphosphinoylthio-N-methylacetamide",
         "Dimethoxon",
         "O,O-Dimethyl S-((methylcarbamoyl)methyl)phosphorothioate",
@@ -31,28 +37,15 @@
         "O,O-dimethyl S-[2-(methylamino)-2-oxoethyl] thiophosphate",
         "Phosphorothioic acid, O,O-dimethyl S-(2-(methylamino)-2-oxoethyl) ester"
     ],
-    "geneontology:inSubset": {
-        "@id": "obo:chebi#3_STAR"
+    "skos:exactMatch": {
+        "@id": "obo:CHEBI_38730"
     },
-    "rdfs:label": "omethoate",
-    "rdfs:subClassOf": [
+    "skos:semanticRelation": [
         {
             "@id": "obo:CHEBI_37512"
         },
         {
             "@id": "obo:CHEBI_25715"
-        },
-        {
-            "@id": "b248_genid-00f1db82e1ab437c844115a94dc63e635-bn38730t11f22153"
-        },
-        {
-            "@id": "b248_genid-00f1db82e1ab437c844115a94dc63e635-bn38730t11f33286"
-        },
-        {
-            "@id": "b248_genid-00f1db82e1ab437c844115a94dc63e635-bn38730t11f38462"
-        },
-        {
-            "@id": "b248_genid-00f1db82e1ab437c844115a94dc63e635-bn38730t8f38731"
         }
     ]
 }

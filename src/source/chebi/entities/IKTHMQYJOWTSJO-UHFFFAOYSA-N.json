@@ -1,29 +1,35 @@
 {
     "@context": {
-        "chebi": "http://purl.obolibrary.org/obo/chebi/",
         "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
         "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-        "obo": "http://purl.obolibrary.org/obo/"
+        "obo": "http://purl.obolibrary.org/obo/",
+        "uniprot": "http://purl.uniprot.org/",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "concept": "https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/",
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "dbo": "http://dbpedia.org/ontology/",
+        "dbp": "http://dbpedia.org/property/",
+        "altLabel": {
+            "@id": "http://www.w3.org/2004/02/skos/core#altLabel",
+            "@language": "en"
+        },
+        "graph": {
+            "@id": "@graph"
+        }
     },
-    "@id": "obo:CHEBI_172483",
-    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "@id": "concept:IKTHMQYJOWTSJO-UHFFFAOYSA-N",
+    "@type": "skos:Concept",
+    "dbo:formula": "C17H24O",
+    "dbo:inchi": "InChI=1S/C17H24O/c1-11(18)14-9-12(16(2,3)4)10-15-13(14)7-8-17(15,5)6/h9-10H,7-8H2,1-6H3",
+    "dbo:smiles": "O=C(C1=C2C(C(CC2)(C)C)=CC(C(C)(C)C)=C1)C",
+    "dbp:inchikey": "IKTHMQYJOWTSJO-UHFFFAOYSA-N",
     "chebi:charge": "0",
-    "chebi:formula": "C17H24O",
-    "chebi:inchi": "InChI=1S/C17H24O/c1-11(18)14-9-12(16(2,3)4)10-15-13(14)7-8-17(15,5)6/h9-10H,7-8H2,1-6H3",
-    "chebi:inchikey": "IKTHMQYJOWTSJO-UHFFFAOYSA-N",
-    "chebi:smiles": "O=C(C1=C2C(C(CC2)(C)C)=CC(C(C)(C)C)=C1)C",
-    "geneontology:hasDbXref": [
-        "CAS:13171-00-1",
-        "Chemspider:55495",
-        "HMDB:HMDB0031867"
-    ],
-    "geneontology:hasId": "172483",
-    "geneontology:hasSynonym": "1-(6-tert-butyl-1,1-dimethyl-2,3-dihydroinden-4-yl)ethanone",
-    "geneontology:inSubset": {
-        "@id": "obo:chebi#2_STAR"
+    "skos:altLabel": "1-(6-tert-butyl-1,1-dimethyl-2,3-dihydroinden-4-yl)ethanone",
+    "skos:exactMatch": {
+        "@id": "obo:CHEBI_172483"
     },
-    "rdfs:label": "4-Acetyl-6-tert-butyl-1,1-dimethylindane",
-    "rdfs:subClassOf": {
+    "skos:semanticRelation": {
         "@id": "obo:CHEBI_46940"
     }
 }

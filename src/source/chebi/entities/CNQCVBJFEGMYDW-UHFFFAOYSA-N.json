@@ -1,23 +1,27 @@
 {
     "@context": {
-        "chebi": "http://purl.obolibrary.org/obo/chebi/",
         "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
         "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-        "obo": "http://purl.obolibrary.org/obo/"
+        "obo": "http://purl.obolibrary.org/obo/",
+        "uniprot": "http://purl.uniprot.org/",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "concept": "https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/",
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "dbo": "http://dbpedia.org/ontology/",
+        "dbp": "http://dbpedia.org/property/",
+        "graph": {
+            "@id": "@graph"
+        }
     },
-    "@id": "obo:CHEBI_33397",
-    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "@id": "concept:CNQCVBJFEGMYDW-UHFFFAOYSA-N",
+    "@type": "skos:Concept",
+    "dbo:formula": "Lr",
+    "dbo:inchi": "InChI=1S/Lr",
+    "dbo:smiles": "[Lr]",
+    "dbp:inchikey": "CNQCVBJFEGMYDW-UHFFFAOYSA-N",
     "chebi:charge": "0",
-    "chebi:formula": "Lr",
-    "chebi:inchi": "InChI=1S/Lr",
-    "chebi:inchikey": "CNQCVBJFEGMYDW-UHFFFAOYSA-N",
-    "chebi:smiles": "[Lr]",
-    "geneontology:hasDbXref": [
-        "CAS:22537-19-5",
-        "WebElements:Lr"
-    ],
-    "geneontology:hasId": "33397",
-    "geneontology:hasSynonym": [
+    "skos:altLabel": [
         "Lr",
         "103Lr",
         "laurencio",
@@ -26,11 +30,10 @@
         "unniltrium",
         "Unt"
     ],
-    "geneontology:inSubset": {
-        "@id": "obo:chebi#3_STAR"
+    "skos:exactMatch": {
+        "@id": "obo:CHEBI_33397"
     },
-    "rdfs:label": "lawrencium atom",
-    "rdfs:subClassOf": [
+    "skos:semanticRelation": [
         {
             "@id": "obo:CHEBI_33561"
         },

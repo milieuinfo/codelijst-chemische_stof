@@ -1,38 +1,31 @@
 {
     "@context": {
-        "chebi": "http://purl.obolibrary.org/obo/chebi/",
         "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
         "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-        "obo": "http://purl.obolibrary.org/obo/"
+        "obo": "http://purl.obolibrary.org/obo/",
+        "uniprot": "http://purl.uniprot.org/",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "concept": "https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/",
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "dbo": "http://dbpedia.org/ontology/",
+        "dbp": "http://dbpedia.org/property/",
+        "altLabel": {
+            "@id": "http://www.w3.org/2004/02/skos/core#altLabel",
+            "@language": "en"
+        },
+        "graph": {
+            "@id": "@graph"
+        }
     },
-    "@id": "obo:CHEBI_16130",
-    "@type": "http://www.w3.org/2002/07/owl#Class",
-    "obo:IAO_0000115": "A chlorophenylethane that is 1,1,1-trichloro-2,2-diphenylethane substituted by additional chloro substituents at positions 4 of the phenyl substituents. It is a commonly used organochlorine insecticide.",
+    "@id": "concept:YVGGHNCTFXOJCH-UHFFFAOYSA-N",
+    "@type": "skos:Concept",
+    "dbo:formula": "C14H9Cl5",
+    "dbo:inchi": "InChI=1S/C14H9Cl5/c15-11-5-1-9(2-6-11)13(14(17,18)19)10-3-7-12(16)8-4-10/h1-8,13H",
+    "dbo:smiles": "Clc1ccc(cc1)C(c1ccc(Cl)cc1)C(Cl)(Cl)Cl",
+    "dbp:inchikey": "YVGGHNCTFXOJCH-UHFFFAOYSA-N",
     "chebi:charge": "0",
-    "chebi:formula": "C14H9Cl5",
-    "chebi:inchi": "InChI=1S/C14H9Cl5/c15-11-5-1-9(2-6-11)13(14(17,18)19)10-3-7-12(16)8-4-10/h1-8,13H",
-    "chebi:inchikey": "YVGGHNCTFXOJCH-UHFFFAOYSA-N",
-    "chebi:smiles": "Clc1ccc(cc1)C(c1ccc(Cl)cc1)C(Cl)(Cl)Cl",
-    "http://purl.uniprot.org/core/name": "1,1,1-trichloro-2,2-bis(4-chlorophenyl)ethane",
-    "geneontology:hasDbXref": [
-        "Beilstein:1882657",
-        "CAS:50-29-3",
-        "Drug_Central:4396",
-        "Gmelin:509864",
-        "HMDB:HMDB0032127",
-        "KEGG:C04623",
-        "KEGG:D07367",
-        "LINCS:LSM-19015",
-        "MetaCyc:CPD-43",
-        "PMID:17949680",
-        "PMID:24328540",
-        "PPDB:3140",
-        "Reaxys:1882657",
-        "UM-BBD_compID:c0384",
-        "Wikipedia:DDT"
-    ],
-    "geneontology:hasId": "16130",
-    "geneontology:hasSynonym": [
+    "skos:altLabel": [
         "1,1,1-trichloro-2,2-bis(4-chlorophenyl)ethane",
         "1,1,1-Trichloro-2,2-bis-(4'-chlorophenyl)ethane",
         "1,1,1-Trichloro-2,2-bis(4-chlorophenyl)ethane",
@@ -48,11 +41,11 @@
         "p,p'-DDT",
         "p,p'-dichlorodiphenyltrichloroethane"
     ],
-    "geneontology:inSubset": {
-        "@id": "obo:chebi#3_STAR"
+    "skos:exactMatch": {
+        "@id": "obo:CHEBI_16130"
     },
-    "rdfs:label": "DDT",
-    "rdfs:subClassOf": [
+    "skos:note": "A chlorophenylethane that is 1,1,1-trichloro-2,2-diphenylethane substituted by additional chloro substituents at positions 4 of the phenyl substituents. It is a commonly used organochlorine insecticide.",
+    "skos:semanticRelation": [
         {
             "@id": "obo:CHEBI_33836"
         },
@@ -64,24 +57,6 @@
         },
         {
             "@id": "obo:CHEBI_23154"
-        },
-        {
-            "@id": "b413_genid-00f1db82e1ab437c844115a94dc63e635-bn16130t8f28763"
-        },
-        {
-            "@id": "b413_genid-00f1db82e1ab437c844115a94dc63e635-bn16130t8f39161"
-        },
-        {
-            "@id": "b413_genid-00f1db82e1ab437c844115a94dc63e635-bn16130t11f39412"
-        },
-        {
-            "@id": "b413_genid-00f1db82e1ab437c844115a94dc63e635-bn16130t11f50903"
-        },
-        {
-            "@id": "b413_genid-00f1db82e1ab437c844115a94dc63e635-bn16130t11f77853"
-        },
-        {
-            "@id": "b413_genid-00f1db82e1ab437c844115a94dc63e635-bn16130t11f138015"
         }
     ]
 }

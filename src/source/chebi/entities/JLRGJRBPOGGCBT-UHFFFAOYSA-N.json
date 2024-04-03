@@ -1,56 +1,31 @@
 {
     "@context": {
-        "chebi": "http://purl.obolibrary.org/obo/chebi/",
         "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
         "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-        "obo": "http://purl.obolibrary.org/obo/"
+        "obo": "http://purl.obolibrary.org/obo/",
+        "uniprot": "http://purl.uniprot.org/",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "concept": "https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/",
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "dbo": "http://dbpedia.org/ontology/",
+        "dbp": "http://dbpedia.org/property/",
+        "altLabel": {
+            "@id": "http://www.w3.org/2004/02/skos/core#altLabel",
+            "@language": "en"
+        },
+        "graph": {
+            "@id": "@graph"
+        }
     },
-    "@id": "obo:CHEBI_27999",
-    "@type": "http://www.w3.org/2002/07/owl#Class",
-    "obo:IAO_0000115": "An N-sulfonylurea that consists of 1-butylurea having a tosyl group attached at the 3-position.",
+    "@id": "concept:JLRGJRBPOGGCBT-UHFFFAOYSA-N",
+    "@type": "skos:Concept",
+    "dbo:formula": "C12H18N2O3S",
+    "dbo:inchi": "InChI=1S/C12H18N2O3S/c1-3-4-9-13-12(15)14-18(16,17)11-7-5-10(2)6-8-11/h5-8H,3-4,9H2,1-2H3,(H2,13,14,15)",
+    "dbo:smiles": "CCCCNC(=O)NS(=O)(=O)c1ccc(C)cc1",
+    "dbp:inchikey": "JLRGJRBPOGGCBT-UHFFFAOYSA-N",
     "chebi:charge": "0",
-    "chebi:formula": "C12H18N2O3S",
-    "chebi:inchi": "InChI=1S/C12H18N2O3S/c1-3-4-9-13-12(15)14-18(16,17)11-7-5-10(2)6-8-11/h5-8H,3-4,9H2,1-2H3,(H2,13,14,15)",
-    "chebi:inchikey": "JLRGJRBPOGGCBT-UHFFFAOYSA-N",
-    "chebi:smiles": "CCCCNC(=O)NS(=O)(=O)c1ccc(C)cc1",
-    "geneontology:hasDbXref": [
-        "CAS:64-77-7",
-        "Drug_Central:2696",
-        "DrugBank:DB01124",
-        "KEGG:C07148",
-        "KEGG:D00380",
-        "LINCS:LSM-3907",
-        "Patent:DE1066575",
-        "Patent:GB808071",
-        "Patent:US2968158",
-        "PMID:11835228",
-        "PMID:11840346",
-        "PMID:11911494",
-        "PMID:12042355",
-        "PMID:12355256",
-        "PMID:15207658",
-        "PMID:15317941",
-        "PMID:15620874",
-        "PMID:15655519",
-        "PMID:16290322",
-        "PMID:16426753",
-        "PMID:19059420",
-        "PMID:20880646",
-        "PMID:21178111",
-        "PMID:21193530",
-        "PMID:21471135",
-        "PMID:21535124",
-        "PMID:21712613",
-        "PMID:21757329",
-        "PMID:21827497",
-        "PMID:21831467",
-        "PMID:22028182",
-        "PMID:22079696",
-        "Reaxys:1984428",
-        "Wikipedia:Tolbutamide"
-    ],
-    "geneontology:hasId": "27999",
-    "geneontology:hasSynonym": [
+    "skos:altLabel": [
         "1-Butyl-3-(p-methylphenylsulfonyl)urea",
         "1-Butyl-3-(p-tolylsulfonyl)urea",
         "1-Butyl-3-tosylurea",
@@ -71,25 +46,11 @@
         "tolbutamidum",
         "Tolylsulfonylbutylurea"
     ],
-    "geneontology:inSubset": {
-        "@id": "obo:chebi#3_STAR"
+    "skos:exactMatch": {
+        "@id": "obo:CHEBI_27999"
     },
-    "rdfs:label": "tolbutamide",
-    "rdfs:subClassOf": [
-        {
-            "@id": "obo:CHEBI_76983"
-        },
-        {
-            "@id": "b280_genid-00f1db82e1ab437c844115a94dc63e635-bn27999t11f35526"
-        },
-        {
-            "@id": "b280_genid-00f1db82e1ab437c844115a94dc63e635-bn27999t11f50509"
-        },
-        {
-            "@id": "b280_genid-00f1db82e1ab437c844115a94dc63e635-bn27999t11f77746"
-        },
-        {
-            "@id": "b280_genid-00f1db82e1ab437c844115a94dc63e635-bn27999t11f90415"
-        }
-    ]
+    "skos:note": "An N-sulfonylurea that consists of 1-butylurea having a tosyl group attached at the 3-position.",
+    "skos:semanticRelation": {
+        "@id": "obo:CHEBI_76983"
+    }
 }

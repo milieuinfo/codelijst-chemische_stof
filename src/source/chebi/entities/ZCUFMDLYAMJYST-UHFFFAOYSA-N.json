@@ -1,32 +1,39 @@
 {
     "@context": {
-        "chebi": "http://purl.obolibrary.org/obo/chebi/",
         "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
         "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-        "obo": "http://purl.obolibrary.org/obo/"
+        "obo": "http://purl.obolibrary.org/obo/",
+        "uniprot": "http://purl.uniprot.org/",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "concept": "https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/",
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "dbo": "http://dbpedia.org/ontology/",
+        "dbp": "http://dbpedia.org/property/",
+        "altLabel": {
+            "@id": "http://www.w3.org/2004/02/skos/core#altLabel",
+            "@language": "en"
+        },
+        "graph": {
+            "@id": "@graph"
+        }
     },
-    "@id": "obo:CHEBI_37339",
-    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "@id": "concept:ZCUFMDLYAMJYST-UHFFFAOYSA-N",
+    "@type": "skos:Concept",
+    "dbo:formula": "O2Th",
+    "dbo:inchi": "InChI=1S/2O.Th",
+    "dbo:smiles": "O=[Th]=O",
+    "dbp:inchikey": "ZCUFMDLYAMJYST-UHFFFAOYSA-N",
     "chebi:charge": "0",
-    "chebi:formula": "O2Th",
-    "chebi:inchi": "InChI=1S/2O.Th",
-    "chebi:inchikey": "ZCUFMDLYAMJYST-UHFFFAOYSA-N",
-    "chebi:smiles": "O=[Th]=O",
-    "geneontology:hasDbXref": [
-        "CAS:1314-20-1",
-        "Gmelin:141638"
-    ],
-    "geneontology:hasId": "37339",
-    "geneontology:hasSynonym": [
+    "skos:altLabel": [
         "ThO2",
         "thoria",
         "thorium(IV) oxide"
     ],
-    "geneontology:inSubset": {
-        "@id": "obo:chebi#3_STAR"
+    "skos:exactMatch": {
+        "@id": "obo:CHEBI_37339"
     },
-    "rdfs:label": "thorium dioxide",
-    "rdfs:subClassOf": {
+    "skos:semanticRelation": {
         "@id": "obo:CHEBI_37302"
     }
 }

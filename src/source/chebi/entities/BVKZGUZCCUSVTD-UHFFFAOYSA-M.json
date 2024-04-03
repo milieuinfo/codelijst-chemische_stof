@@ -1,39 +1,27 @@
 {
     "@context": {
-        "chebi": "http://purl.obolibrary.org/obo/chebi/",
         "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
         "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-        "obo": "http://purl.obolibrary.org/obo/"
+        "obo": "http://purl.obolibrary.org/obo/",
+        "uniprot": "http://purl.uniprot.org/",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "concept": "https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/",
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "dbo": "http://dbpedia.org/ontology/",
+        "dbp": "http://dbpedia.org/property/",
+        "graph": {
+            "@id": "@graph"
+        }
     },
-    "@id": "obo:CHEBI_17544",
-    "@type": "http://www.w3.org/2002/07/owl#Class",
-    "obo:IAO_0000115": "The carbon oxoanion resulting from the removal of a proton from carbonic acid.",
+    "@id": "concept:BVKZGUZCCUSVTD-UHFFFAOYSA-M",
+    "@type": "skos:Concept",
+    "dbo:formula": "CHO3",
+    "dbo:inchi": "InChI=1S/CH2O3/c2-1(3)4/h(H2,2,3,4)/p-1",
+    "dbo:smiles": "OC([O-])=O",
+    "dbp:inchikey": "BVKZGUZCCUSVTD-UHFFFAOYSA-M",
     "chebi:charge": "-1",
-    "chebi:formula": "CHO3",
-    "chebi:inchi": "InChI=1S/CH2O3/c2-1(3)4/h(H2,2,3,4)/p-1",
-    "chebi:inchikey": "BVKZGUZCCUSVTD-UHFFFAOYSA-M",
-    "chebi:smiles": "OC([O-])=O",
-    "http://purl.uniprot.org/core/name": "hydrogencarbonate",
-    "geneontology:hasDbXref": [
-        "Beilstein:3903504",
-        "CAS:71-52-3",
-        "Gmelin:49249",
-        "HMDB:HMDB0000595",
-        "KEGG:C00288",
-        "MetaCyc:HCO3",
-        "PDBeChem:BCT",
-        "PMID:17215880",
-        "PMID:17505962",
-        "PMID:18439416",
-        "PMID:28732801",
-        "PMID:29150416",
-        "PMID:29460248",
-        "PMID:29466234",
-        "PMID:4208463",
-        "Wikipedia:Bicarbonate"
-    ],
-    "geneontology:hasId": "17544",
-    "geneontology:hasSynonym": [
+    "skos:altLabel": [
         "[CO2(OH)](-)",
         "Acid carbonate",
         "Bicarbonate",
@@ -48,34 +36,11 @@
         "hydrogentrioxocarbonate(IV)",
         "hydroxidodioxidocarbonate(1-)"
     ],
-    "geneontology:inSubset": {
-        "@id": "obo:chebi#3_STAR"
+    "skos:exactMatch": {
+        "@id": "obo:CHEBI_17544"
     },
-    "rdfs:label": "hydrogencarbonate",
-    "rdfs:subClassOf": [
-        {
-            "@id": "b252_genid-00f1db82e1ab437c844115a94dc63e635-bn17544t11f23357"
-        },
-        {
-            "@id": "b252_genid-00f1db82e1ab437c844115a94dc63e635-bn17544t5f28976"
-        },
-        {
-            "@id": "obo:CHEBI_35604"
-        },
-        {
-            "@id": "b252_genid-00f1db82e1ab437c844115a94dc63e635-bn17544t4f41609"
-        },
-        {
-            "@id": "b252_genid-00f1db82e1ab437c844115a94dc63e635-bn17544t11f75771"
-        },
-        {
-            "@id": "b252_genid-00f1db82e1ab437c844115a94dc63e635-bn17544t11f75772"
-        },
-        {
-            "@id": "b252_genid-00f1db82e1ab437c844115a94dc63e635-bn17544t11f76971"
-        },
-        {
-            "@id": "b252_genid-00f1db82e1ab437c844115a94dc63e635-bn17544t11f77746"
-        }
-    ]
+    "skos:note": "The carbon oxoanion resulting from the removal of a proton from carbonic acid.",
+    "skos:semanticRelation": {
+        "@id": "obo:CHEBI_35604"
+    }
 }

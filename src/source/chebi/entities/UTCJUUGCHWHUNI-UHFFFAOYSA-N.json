@@ -1,35 +1,39 @@
 {
     "@context": {
-        "chebi": "http://purl.obolibrary.org/obo/chebi/",
         "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
         "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-        "obo": "http://purl.obolibrary.org/obo/"
+        "obo": "http://purl.obolibrary.org/obo/",
+        "uniprot": "http://purl.uniprot.org/",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "concept": "https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/",
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "dbo": "http://dbpedia.org/ontology/",
+        "dbp": "http://dbpedia.org/property/",
+        "altLabel": {
+            "@id": "http://www.w3.org/2004/02/skos/core#altLabel",
+            "@language": "en"
+        },
+        "graph": {
+            "@id": "@graph"
+        }
     },
-    "@id": "obo:CHEBI_83449",
-    "@type": "http://www.w3.org/2002/07/owl#Class",
-    "obo:IAO_0000115": "An organosulfonic acid that is 2-oxoethanesulfonic acid substituted by (2,6-diethylphenyl)(methoxymethyl)amino group at position 2. It is a metabolite of alachlor.",
+    "@id": "concept:UTCJUUGCHWHUNI-UHFFFAOYSA-N",
+    "@type": "skos:Concept",
+    "dbo:formula": "C14H21NO5S",
+    "dbo:inchi": "InChI=1S/C14H21NO5S/c1-4-11-7-6-8-12(5-2)14(11)15(10-20-3)13(16)9-21(17,18)19/h6-8H,4-5,9-10H2,1-3H3,(H,17,18,19)",
+    "dbo:smiles": "CCc1cccc(CC)c1N(COC)C(=O)CS(O)(=O)=O",
+    "dbp:inchikey": "UTCJUUGCHWHUNI-UHFFFAOYSA-N",
     "chebi:charge": "0",
-    "chebi:formula": "C14H21NO5S",
-    "chebi:inchi": "InChI=1S/C14H21NO5S/c1-4-11-7-6-8-12(5-2)14(11)15(10-20-3)13(16)9-21(17,18)19/h6-8H,4-5,9-10H2,1-3H3,(H,17,18,19)",
-    "chebi:inchikey": "UTCJUUGCHWHUNI-UHFFFAOYSA-N",
-    "chebi:smiles": "CCc1cccc(CC)c1N(COC)C(=O)CS(O)(=O)=O",
-    "geneontology:hasDbXref": [
-        "CAS:142363-53-9",
-        "PMID:12102310",
-        "PMID:20206657",
-        "PMID:20297815",
-        "Reaxys:7826742"
-    ],
-    "geneontology:hasId": "83449",
-    "geneontology:hasSynonym": [
+    "skos:altLabel": [
         "2-[(2,6-diethylphenyl)(methoxymethyl)amino]-2-oxoethanesulfonic acid",
         "alachlor ethanesulfonic acid"
     ],
-    "geneontology:inSubset": {
-        "@id": "obo:chebi#3_STAR"
+    "skos:exactMatch": {
+        "@id": "obo:CHEBI_83449"
     },
-    "rdfs:label": "alachlor ESA",
-    "rdfs:subClassOf": [
+    "skos:note": "An organosulfonic acid that is 2-oxoethanesulfonic acid substituted by (2,6-diethylphenyl)(methoxymethyl)amino group at position 2. It is a metabolite of alachlor.",
+    "skos:semanticRelation": [
         {
             "@id": "obo:CHEBI_25698"
         },
@@ -38,9 +42,6 @@
         },
         {
             "@id": "obo:CHEBI_62733"
-        },
-        {
-            "@id": "b844_genid-00f1db82e1ab437c844115a94dc63e635-bn83449t11f83399"
         }
     ]
 }

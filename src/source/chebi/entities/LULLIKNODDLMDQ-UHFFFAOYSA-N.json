@@ -1,29 +1,39 @@
 {
     "@context": {
-        "chebi": "http://purl.obolibrary.org/obo/chebi/",
         "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
         "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-        "obo": "http://purl.obolibrary.org/obo/"
+        "obo": "http://purl.obolibrary.org/obo/",
+        "uniprot": "http://purl.uniprot.org/",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "concept": "https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/",
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "dbo": "http://dbpedia.org/ontology/",
+        "dbp": "http://dbpedia.org/property/",
+        "altLabel": {
+            "@id": "http://www.w3.org/2004/02/skos/core#altLabel",
+            "@language": "en"
+        },
+        "graph": {
+            "@id": "@graph"
+        }
     },
-    "@id": "obo:CHEBI_35828",
-    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "@id": "concept:LULLIKNODDLMDQ-UHFFFAOYSA-N",
+    "@type": "skos:Concept",
+    "dbo:formula": "As",
+    "dbo:inchi": "InChI=1S/As/q+3",
+    "dbo:smiles": "[As+3]",
+    "dbp:inchikey": "LULLIKNODDLMDQ-UHFFFAOYSA-N",
     "chebi:charge": "+3",
-    "chebi:formula": "As",
-    "chebi:inchi": "InChI=1S/As/q+3",
-    "chebi:inchikey": "LULLIKNODDLMDQ-UHFFFAOYSA-N",
-    "chebi:smiles": "[As+3]",
-    "geneontology:hasDbXref": "Gmelin:40114",
-    "geneontology:hasId": "35828",
-    "geneontology:hasSynonym": [
+    "skos:altLabel": [
         "arsenic(3+) ion",
         "arsenic(III) cation",
         "As(3+)"
     ],
-    "geneontology:inSubset": {
-        "@id": "obo:chebi#3_STAR"
+    "skos:exactMatch": {
+        "@id": "obo:CHEBI_35828"
     },
-    "rdfs:label": "arsenic(3+)",
-    "rdfs:subClassOf": {
+    "skos:semanticRelation": {
         "@id": "obo:CHEBI_35827"
     }
 }

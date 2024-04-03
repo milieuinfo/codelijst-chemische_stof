@@ -1,28 +1,31 @@
 {
     "@context": {
-        "chebi": "http://purl.obolibrary.org/obo/chebi/",
         "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
         "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-        "obo": "http://purl.obolibrary.org/obo/"
+        "obo": "http://purl.obolibrary.org/obo/",
+        "uniprot": "http://purl.uniprot.org/",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "concept": "https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/",
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "dbo": "http://dbpedia.org/ontology/",
+        "dbp": "http://dbpedia.org/property/",
+        "graph": {
+            "@id": "@graph"
+        }
     },
-    "@id": "obo:CHEBI_82377",
-    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "@id": "concept:BBDKZWKEPDTENS-UHFFFAOYSA-N",
+    "@type": "skos:Concept",
+    "dbo:formula": "C8H12",
+    "dbo:inchi": "InChI=1S/C8H12/c1-2-8-6-4-3-5-7-8/h2-4,8H,1,5-7H2",
+    "dbo:smiles": "C1C=CCC(C1)C=C",
+    "dbp:inchikey": "BBDKZWKEPDTENS-UHFFFAOYSA-N",
     "chebi:charge": "0",
-    "chebi:formula": "C8H12",
-    "chebi:inchi": "InChI=1S/C8H12/c1-2-8-6-4-3-5-7-8/h2-4,8H,1,5-7H2",
-    "chebi:inchikey": "BBDKZWKEPDTENS-UHFFFAOYSA-N",
-    "chebi:smiles": "C1C=CCC(C1)C=C",
-    "geneontology:hasDbXref": [
-        "CAS:100-40-3",
-        "KEGG:C19310"
-    ],
-    "geneontology:hasId": "82377",
-    "geneontology:hasSynonym": "4-Vinyl-1-cyclohexene",
-    "geneontology:inSubset": {
-        "@id": "obo:chebi#2_STAR"
+    "skos:altLabel": "4-Vinyl-1-cyclohexene",
+    "skos:exactMatch": {
+        "@id": "obo:CHEBI_82377"
     },
-    "rdfs:label": "4-Vinylcyclohexene",
-    "rdfs:subClassOf": {
+    "skos:semanticRelation": {
         "@id": "obo:CHEBI_33642"
     }
 }

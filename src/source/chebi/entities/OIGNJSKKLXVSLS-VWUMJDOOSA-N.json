@@ -1,35 +1,31 @@
 {
     "@context": {
-        "chebi": "http://purl.obolibrary.org/obo/chebi/",
         "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
         "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-        "obo": "http://purl.obolibrary.org/obo/"
+        "obo": "http://purl.obolibrary.org/obo/",
+        "uniprot": "http://purl.uniprot.org/",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "concept": "https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/",
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "dbo": "http://dbpedia.org/ontology/",
+        "dbp": "http://dbpedia.org/property/",
+        "altLabel": {
+            "@id": "http://www.w3.org/2004/02/skos/core#altLabel",
+            "@language": "en"
+        },
+        "graph": {
+            "@id": "@graph"
+        }
     },
-    "@id": "obo:CHEBI_8378",
-    "@type": "http://www.w3.org/2002/07/owl#Class",
-    "obo:IAO_0000115": "A glucocorticoid that is prednisone in which the oxo group at position 11 has been reduced to the corresponding beta-hydroxy group. It is a drug metabolite of prednisone.",
+    "@id": "concept:OIGNJSKKLXVSLS-VWUMJDOOSA-N",
+    "@type": "skos:Concept",
+    "dbo:formula": "C21H28O5",
+    "dbo:inchi": "InChI=1S/C21H28O5/c1-19-7-5-13(23)9-12(19)3-4-14-15-6-8-21(26,17(25)11-22)20(15,2)10-16(24)18(14)19/h5,7,9,14-16,18,22,24,26H,3-4,6,8,10-11H2,1-2H3/t14-,15-,16-,18+,19-,20-,21-/m0/s1",
+    "dbo:smiles": "[H][C@@]12CCC3=CC(=O)C=C[C@]3(C)[C@@]1([H])[C@@H](O)C[C@@]1(C)[C@@]2([H])CC[C@]1(O)C(=O)CO",
+    "dbp:inchikey": "OIGNJSKKLXVSLS-VWUMJDOOSA-N",
     "chebi:charge": "0",
-    "chebi:formula": "C21H28O5",
-    "chebi:inchi": "InChI=1S/C21H28O5/c1-19-7-5-13(23)9-12(19)3-4-14-15-6-8-21(26,17(25)11-22)20(15,2)10-16(24)18(14)19/h5,7,9,14-16,18,22,24,26H,3-4,6,8,10-11H2,1-2H3/t14-,15-,16-,18+,19-,20-,21-/m0/s1",
-    "chebi:inchikey": "OIGNJSKKLXVSLS-VWUMJDOOSA-N",
-    "chebi:smiles": "[H][C@@]12CCC3=CC(=O)C=C[C@]3(C)[C@@]1([H])[C@@H](O)C[C@@]1(C)[C@@]2([H])CC[C@]1(O)C(=O)CO",
-    "geneontology:hasDbXref": [
-        "Beilstein:1354103",
-        "CAS:50-24-8",
-        "Drug_Central:2245",
-        "DrugBank:DB00860",
-        "HMDB:HMDB0014998",
-        "KEGG:C07369",
-        "KEGG:D00472",
-        "PMID:11294518",
-        "PMID:23625982",
-        "PMID:24392764",
-        "Reaxys:1354103",
-        "VSDB:1848",
-        "Wikipedia:Prednisolone"
-    ],
-    "geneontology:hasId": "8378",
-    "geneontology:hasSynonym": [
+    "skos:altLabel": [
         "(11beta)-11,17,21-trihydroxypregna-1,4-diene-3,20-dione",
         "1,4-pregnadiene-11beta,17alpha,21-triol-3,20-dione",
         "1,4-pregnadiene-3,20-dione-11beta,17alpha,21-triol",
@@ -43,11 +39,11 @@
         "prednisolona",
         "prednisolonum"
     ],
-    "geneontology:inSubset": {
-        "@id": "obo:chebi#3_STAR"
+    "skos:exactMatch": {
+        "@id": "obo:CHEBI_8378"
     },
-    "rdfs:label": "prednisolone",
-    "rdfs:subClassOf": [
+    "skos:note": "A glucocorticoid that is prednisone in which the oxo group at position 11 has been reduced to the corresponding beta-hydroxy group. It is a drug metabolite of prednisone.",
+    "skos:semanticRelation": [
         {
             "@id": "obo:CHEBI_35346"
         },
@@ -74,30 +70,6 @@
         },
         {
             "@id": "obo:CHEBI_24261"
-        },
-        {
-            "@id": "b939_genid-00f1db82e1ab437c844115a94dc63e635-bn8378t8f34073"
-        },
-        {
-            "@id": "b939_genid-00f1db82e1ab437c844115a94dc63e635-bn8378t11f35472"
-        },
-        {
-            "@id": "b939_genid-00f1db82e1ab437c844115a94dc63e635-bn8378t11f35610"
-        },
-        {
-            "@id": "b939_genid-00f1db82e1ab437c844115a94dc63e635-bn8378t11f35703"
-        },
-        {
-            "@id": "b939_genid-00f1db82e1ab437c844115a94dc63e635-bn8378t11f35705"
-        },
-        {
-            "@id": "b939_genid-00f1db82e1ab437c844115a94dc63e635-bn8378t11f37962"
-        },
-        {
-            "@id": "b939_genid-00f1db82e1ab437c844115a94dc63e635-bn8378t11f49103"
-        },
-        {
-            "@id": "b939_genid-00f1db82e1ab437c844115a94dc63e635-bn8378t11f78298"
         }
     ]
 }

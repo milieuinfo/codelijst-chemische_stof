@@ -1,64 +1,42 @@
 {
     "@context": {
-        "chebi": "http://purl.obolibrary.org/obo/chebi/",
         "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
         "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-        "obo": "http://purl.obolibrary.org/obo/"
+        "obo": "http://purl.obolibrary.org/obo/",
+        "uniprot": "http://purl.uniprot.org/",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "concept": "https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/",
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "dbo": "http://dbpedia.org/ontology/",
+        "dbp": "http://dbpedia.org/property/",
+        "altLabel": {
+            "@id": "http://www.w3.org/2004/02/skos/core#altLabel",
+            "@language": "en"
+        },
+        "graph": {
+            "@id": "@graph"
+        }
     },
-    "@id": "obo:CHEBI_278547",
-    "@type": "http://www.w3.org/2002/07/owl#Class",
-    "obo:IAO_0000115": "The sodium salt of hydrogen azide (hydrazoic acid).",
+    "@id": "concept:PXIPVTKHYLBLMZ-UHFFFAOYSA-N",
+    "@type": "skos:Concept",
+    "dbo:formula": "N3Na",
+    "dbo:inchi": "InChI=1S/N3.Na/c1-3-2;/q-1;+1",
+    "dbo:smiles": "[Na+].[N-]=[N+]=[N-]",
+    "dbp:inchikey": "PXIPVTKHYLBLMZ-UHFFFAOYSA-N",
     "chebi:charge": "0",
-    "chebi:formula": "N3Na",
-    "chebi:inchi": "InChI=1S/N3.Na/c1-3-2;/q-1;+1",
-    "chebi:inchikey": "PXIPVTKHYLBLMZ-UHFFFAOYSA-N",
-    "chebi:smiles": "[Na+].[N-]=[N+]=[N-]",
-    "geneontology:hasDbXref": [
-        "PMID:33400299",
-        "CAS:26628-22-8",
-        "MetaCyc:CPD-23697",
-        "Pesticides:sodium_azide",
-        "PMID:25916484",
-        "PMID:28712037",
-        "PMID:28849152",
-        "PMID:29947902",
-        "PMID:30664159",
-        "PMID:31088611",
-        "PMID:31821925",
-        "PMID:32437849",
-        "PMID:32844280",
-        "Wikipedia:Sodium_azide"
-    ],
-    "geneontology:hasId": "278547",
-    "geneontology:hasSynonym": [
+    "skos:altLabel": [
         "Azoture de sodium",
         "Hydrazoic acid, sodium salt",
         "hydrazoic acid sodium salt",
         "NaN3",
         "Natriumazid"
     ],
-    "geneontology:inSubset": {
-        "@id": "obo:chebi#3_STAR"
+    "skos:exactMatch": {
+        "@id": "obo:CHEBI_278547"
     },
-    "rdfs:label": "sodium azide",
-    "rdfs:subClassOf": [
-        {
-            "@id": "obo:CHEBI_38702"
-        },
-        {
-            "@id": "b227_genid-00f1db82e1ab437c844115a94dc63e635-bn278547t11f25355"
-        },
-        {
-            "@id": "b227_genid-00f1db82e1ab437c844115a94dc63e635-bn278547t11f25435"
-        },
-        {
-            "@id": "b227_genid-00f1db82e1ab437c844115a94dc63e635-bn278547t11f33282"
-        },
-        {
-            "@id": "b227_genid-00f1db82e1ab437c844115a94dc63e635-bn278547t10f40910"
-        },
-        {
-            "@id": "b227_genid-00f1db82e1ab437c844115a94dc63e635-bn278547t11f63490"
-        }
-    ]
+    "skos:note": "The sodium salt of hydrogen azide (hydrazoic acid).",
+    "skos:semanticRelation": {
+        "@id": "obo:CHEBI_38702"
+    }
 }

@@ -1,54 +1,46 @@
 {
     "@context": {
-        "chebi": "http://purl.obolibrary.org/obo/chebi/",
         "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
         "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-        "obo": "http://purl.obolibrary.org/obo/"
+        "obo": "http://purl.obolibrary.org/obo/",
+        "uniprot": "http://purl.uniprot.org/",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "concept": "https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/",
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "dbo": "http://dbpedia.org/ontology/",
+        "dbp": "http://dbpedia.org/property/",
+        "altLabel": {
+            "@id": "http://www.w3.org/2004/02/skos/core#altLabel",
+            "@language": "en"
+        },
+        "graph": {
+            "@id": "@graph"
+        }
     },
-    "@id": "obo:CHEBI_404903",
-    "@type": "http://www.w3.org/2002/07/owl#Class",
-    "obo:IAO_0000115": "Meropenem in which the one of the two methyl groups attached to the amide nitrogen is replaced by hydrogen while the other is replaced by a 3-carboxyphenyl group. The sodium salt is used for the treatment of moderate to severe susceptible infections including intra-abdominal  and acute gynaecological infections, pneumonia, and infections of the skin and of the urinary tract.",
+    "@id": "concept:JUZNIMUFDBIJCM-ANEDZVCMSA-N",
+    "@type": "skos:Concept",
+    "dbo:formula": "C22H25N3O7S",
+    "dbo:inchi": "InChI=1S/C22H25N3O7S/c1-9-16-15(10(2)26)20(28)25(16)17(22(31)32)18(9)33-13-7-14(23-8-13)19(27)24-12-5-3-4-11(6-12)21(29)30/h3-6,9-10,13-16,23,26H,7-8H2,1-2H3,(H,24,27)(H,29,30)(H,31,32)/t9-,10-,13+,14+,15-,16-/m1/s1",
+    "dbo:smiles": "[H][C@]1(CN[C@@]([H])(C1)C(=O)Nc1cccc(c1)C(O)=O)SC1=C(N2C(=O)[C@]([H])([C@@H](C)O)[C@@]2([H])[C@H]1C)C(O)=O",
+    "dbp:inchikey": "JUZNIMUFDBIJCM-ANEDZVCMSA-N",
     "chebi:charge": "0",
-    "chebi:formula": "C22H25N3O7S",
-    "chebi:inchi": "InChI=1S/C22H25N3O7S/c1-9-16-15(10(2)26)20(28)25(16)17(22(31)32)18(9)33-13-7-14(23-8-13)19(27)24-12-5-3-4-11(6-12)21(29)30/h3-6,9-10,13-16,23,26H,7-8H2,1-2H3,(H,24,27)(H,29,30)(H,31,32)/t9-,10-,13+,14+,15-,16-/m1/s1",
-    "chebi:inchikey": "JUZNIMUFDBIJCM-ANEDZVCMSA-N",
-    "chebi:smiles": "[H][C@]1(CN[C@@]([H])(C1)C(=O)Nc1cccc(c1)C(O)=O)SC1=C(N2C(=O)[C@]([H])([C@@H](C)O)[C@@]2([H])[C@H]1C)C(O)=O",
-    "geneontology:hasDbXref": [
-        "DrugBank:DB00303",
-        "Beilstein:9025520",
-        "CAS:153832-46-3",
-        "Drug_Central:1046",
-        "KEGG:D07908",
-        "Patent:US5478820",
-        "Patent:WO9315078",
-        "Wikipedia:Ertapenem"
-    ],
-    "geneontology:hasId": "404903",
-    "geneontology:hasSynonym": [
+    "skos:altLabel": [
         "(1R,5S,6S,8R,2'S,4'S)-2-(2-(3-carboxyphenylcarbamoyl)pyrrolidin-4-ylthio)-6-(1-hydroxyethyl)-1-methylcarbapenem-3-carboxylic acid",
         "(4R,5S,6S)-3-((3S,5S)-5-((3-carboxyphenyl)carbamoyl)pyrrolidin-3-ylthio)-6-((R)-1-hydroxyethyl)-4-methyl-7-oxo-1-aza-bicyclo[3.2.0]hept-2-ene-2-carboxylic acid",
         "(4R,5S,6S)-3-({(3S,5S)-5-[(3-carboxyphenyl)carbamoyl]pyrrolidin-3-yl}sulfanyl)-6-[(1R)-1-hydroxyethyl]-4-methyl-7-oxo-1-azabicyclo[3.2.0]hept-2-ene-2-carboxylic acid",
         "ERTAPENEM"
     ],
-    "geneontology:inSubset": {
-        "@id": "obo:chebi#3_STAR"
+    "skos:exactMatch": {
+        "@id": "obo:CHEBI_404903"
     },
-    "rdfs:label": "ertapenem",
-    "rdfs:subClassOf": [
+    "skos:note": "Meropenem in which the one of the two methyl groups attached to the amide nitrogen is replaced by hydrogen while the other is replaced by a 3-carboxyphenyl group. The sodium salt is used for the treatment of moderate to severe susceptible infections including intra-abdominal  and acute gynaecological infections, pneumonia, and infections of the skin and of the urinary tract.",
+    "skos:semanticRelation": [
         {
             "@id": "obo:CHEBI_46634"
         },
         {
             "@id": "obo:CHEBI_46770"
-        },
-        {
-            "@id": "b331_genid-00f1db82e1ab437c844115a94dc63e635-bn404903tmms73f60071"
-        },
-        {
-            "@id": "b331_genid-00f1db82e1ab437c844115a94dc63e635-bn404903t11f36047"
-        },
-        {
-            "@id": "b331_genid-00f1db82e1ab437c844115a94dc63e635-bn404903t4f60071"
         }
     ]
 }

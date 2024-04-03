@@ -1,29 +1,35 @@
 {
     "@context": {
-        "chebi": "http://purl.obolibrary.org/obo/chebi/",
         "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
         "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-        "obo": "http://purl.obolibrary.org/obo/"
+        "obo": "http://purl.obolibrary.org/obo/",
+        "uniprot": "http://purl.uniprot.org/",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "concept": "https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/",
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "dbo": "http://dbpedia.org/ontology/",
+        "dbp": "http://dbpedia.org/property/",
+        "altLabel": {
+            "@id": "http://www.w3.org/2004/02/skos/core#altLabel",
+            "@language": "en"
+        },
+        "graph": {
+            "@id": "@graph"
+        }
     },
-    "@id": "obo:CHEBI_39186",
-    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "@id": "concept:NWWZPOKUUAIXIW-DHZHZOJOSA-N",
+    "@type": "skos:Concept",
+    "dbo:formula": "C8H10ClN5O3S",
+    "dbo:inchi": "InChI=1S/C8H10ClN5O3S/c1-12-4-17-5-13(8(12)11-14(15)16)3-6-2-10-7(9)18-6/h2H,3-5H2,1H3/b11-8+",
+    "dbo:smiles": "CN1COCN(Cc2cnc(Cl)s2)\\C1=N\\[N+]([O-])=O",
+    "dbp:inchikey": "NWWZPOKUUAIXIW-DHZHZOJOSA-N",
     "chebi:charge": "0",
-    "chebi:formula": "C8H10ClN5O3S",
-    "chebi:inchi": "InChI=1S/C8H10ClN5O3S/c1-12-4-17-5-13(8(12)11-14(15)16)3-6-2-10-7(9)18-6/h2H,3-5H2,1H3/b11-8+",
-    "chebi:inchikey": "NWWZPOKUUAIXIW-DHZHZOJOSA-N",
-    "chebi:smiles": "CN1COCN(Cc2cnc(Cl)s2)\\C1=N\\[N+]([O-])=O",
-    "geneontology:hasDbXref": [
-        "CAS:153719-23-4",
-        "KEGG:C18513",
-        "Beilstein:8491021"
-    ],
-    "geneontology:hasId": "39186",
-    "geneontology:hasSynonym": "(4E)-3-[(2-chloro-1,3-thiazol-5-yl)methyl]-5-methyl-N-nitro-1,3,5-oxadiazinan-4-imine",
-    "geneontology:inSubset": {
-        "@id": "obo:chebi#3_STAR"
+    "skos:altLabel": "(4E)-3-[(2-chloro-1,3-thiazol-5-yl)methyl]-5-methyl-N-nitro-1,3,5-oxadiazinan-4-imine",
+    "skos:exactMatch": {
+        "@id": "obo:CHEBI_39186"
     },
-    "rdfs:label": "(E)-thiamethoxam",
-    "rdfs:subClassOf": {
+    "skos:semanticRelation": {
         "@id": "obo:CHEBI_39185"
     }
 }

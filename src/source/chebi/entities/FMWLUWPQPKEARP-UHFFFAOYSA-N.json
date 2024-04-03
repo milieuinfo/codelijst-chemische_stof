@@ -1,31 +1,27 @@
 {
     "@context": {
-        "chebi": "http://purl.obolibrary.org/obo/chebi/",
         "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
         "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-        "obo": "http://purl.obolibrary.org/obo/"
+        "obo": "http://purl.obolibrary.org/obo/",
+        "uniprot": "http://purl.uniprot.org/",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "concept": "https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/",
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "dbo": "http://dbpedia.org/ontology/",
+        "dbp": "http://dbpedia.org/property/",
+        "graph": {
+            "@id": "@graph"
+        }
     },
-    "@id": "obo:CHEBI_34591",
-    "@type": "http://www.w3.org/2002/07/owl#Class",
-    "obo:IAO_0000115": "A halomethane that is dichloromethane in which oneof the hydrogens has been replaced by a bromine atom. It occurs as a contaminant in drinking water.",
+    "@id": "concept:FMWLUWPQPKEARP-UHFFFAOYSA-N",
+    "@type": "skos:Concept",
+    "dbo:formula": "CHBrCl2",
+    "dbo:inchi": "InChI=1S/CHBrCl2/c2-1(3)4/h1H",
+    "dbo:smiles": "[H]C(Cl)(Cl)Br",
+    "dbp:inchikey": "FMWLUWPQPKEARP-UHFFFAOYSA-N",
     "chebi:charge": "0",
-    "chebi:formula": "CHBrCl2",
-    "chebi:inchi": "InChI=1S/CHBrCl2/c2-1(3)4/h1H",
-    "chebi:inchikey": "FMWLUWPQPKEARP-UHFFFAOYSA-N",
-    "chebi:smiles": "[H]C(Cl)(Cl)Br",
-    "geneontology:hasDbXref": [
-        "Beilstein:1697005",
-        "CAS:75-27-4",
-        "Gmelin:25941",
-        "KEGG:C14708",
-        "PMID:23446885",
-        "PMID:24001804",
-        "PMID:24647036",
-        "Reaxys:1697005",
-        "Wikipedia:Bromodichloromethane"
-    ],
-    "geneontology:hasId": "34591",
-    "geneontology:hasSynonym": [
+    "skos:altLabel": [
         "CHBrCl2",
         "bromo(dichloro)methane",
         "Bromodichloromethane",
@@ -33,19 +29,11 @@
         "dichloromonobromomethane",
         "monobromodichloromethane"
     ],
-    "geneontology:inSubset": {
-        "@id": "obo:chebi#3_STAR"
+    "skos:exactMatch": {
+        "@id": "obo:CHEBI_34591"
     },
-    "rdfs:label": "bromodichloromethane",
-    "rdfs:subClassOf": [
-        {
-            "@id": "obo:CHEBI_39279"
-        },
-        {
-            "@id": "b622_genid-00f1db82e1ab437c844115a94dc63e635-bn34591t11f33893"
-        },
-        {
-            "@id": "b622_genid-00f1db82e1ab437c844115a94dc63e635-bn34591t11f78298"
-        }
-    ]
+    "skos:note": "A halomethane that is dichloromethane in which oneof the hydrogens has been replaced by a bromine atom. It occurs as a contaminant in drinking water.",
+    "skos:semanticRelation": {
+        "@id": "obo:CHEBI_39279"
+    }
 }

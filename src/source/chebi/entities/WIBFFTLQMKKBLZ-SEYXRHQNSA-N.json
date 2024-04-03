@@ -1,48 +1,42 @@
 {
     "@context": {
-        "chebi": "http://purl.obolibrary.org/obo/chebi/",
         "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
         "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-        "obo": "http://purl.obolibrary.org/obo/"
+        "obo": "http://purl.obolibrary.org/obo/",
+        "uniprot": "http://purl.uniprot.org/",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "concept": "https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/",
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "dbo": "http://dbpedia.org/ontology/",
+        "dbp": "http://dbpedia.org/property/",
+        "altLabel": {
+            "@id": "http://www.w3.org/2004/02/skos/core#altLabel",
+            "@language": "en"
+        },
+        "graph": {
+            "@id": "@graph"
+        }
     },
-    "@id": "obo:CHEBI_82946",
-    "@type": "http://www.w3.org/2002/07/owl#Class",
-    "obo:IAO_0000115": "A fatty acid ester obtained by the formal condensation of the hydroxy group of butan-1-ol with the carboxy group of oleic acid.",
+    "@id": "concept:WIBFFTLQMKKBLZ-SEYXRHQNSA-N",
+    "@type": "skos:Concept",
+    "dbo:formula": "C22H42O2",
+    "dbo:inchi": "InChI=1S/C22H42O2/c1-3-5-7-8-9-10-11-12-13-14-15-16-17-18-19-20-22(23)24-21-6-4-2/h12-13H,3-11,14-21H2,1-2H3/b13-12-",
+    "dbo:smiles": "CCCCCCCC\\C=C/CCCCCCCC(=O)OCCCC",
+    "dbp:inchikey": "WIBFFTLQMKKBLZ-SEYXRHQNSA-N",
     "chebi:charge": "0",
-    "chebi:formula": "C22H42O2",
-    "chebi:inchi": "InChI=1S/C22H42O2/c1-3-5-7-8-9-10-11-12-13-14-15-16-17-18-19-20-22(23)24-21-6-4-2/h12-13H,3-11,14-21H2,1-2H3/b13-12-",
-    "chebi:inchikey": "WIBFFTLQMKKBLZ-SEYXRHQNSA-N",
-    "chebi:smiles": "CCCCCCCC\\C=C/CCCCCCCC(=O)OCCCC",
-    "geneontology:hasDbXref": [
-        "AGR:IND91014484",
-        "AGR:IND93054928",
-        "CAS:142-77-8",
-        "Reaxys:1728057"
-    ],
-    "geneontology:hasId": "82946",
-    "geneontology:hasSynonym": [
+    "skos:altLabel": [
         "1-butyl oleate",
         "butyl (9Z)-octadec-9-enoate",
         "butyl 9-octadecenoate",
         "butyl oleate",
         "Oleic acid, butyl ester"
     ],
-    "geneontology:inSubset": {
-        "@id": "obo:chebi#3_STAR"
+    "skos:exactMatch": {
+        "@id": "obo:CHEBI_82946"
     },
-    "rdfs:label": "n-butyl oleate",
-    "rdfs:subClassOf": [
-        {
-            "@id": "obo:CHEBI_35748"
-        },
-        {
-            "@id": "b37_genid-00f1db82e1ab437c844115a94dc63e635-bn82946t8f16196"
-        },
-        {
-            "@id": "b37_genid-00f1db82e1ab437c844115a94dc63e635-bn82946t8f28885"
-        },
-        {
-            "@id": "b37_genid-00f1db82e1ab437c844115a94dc63e635-bn82946t11f77746"
-        }
-    ]
+    "skos:note": "A fatty acid ester obtained by the formal condensation of the hydroxy group of butan-1-ol with the carboxy group of oleic acid.",
+    "skos:semanticRelation": {
+        "@id": "obo:CHEBI_35748"
+    }
 }

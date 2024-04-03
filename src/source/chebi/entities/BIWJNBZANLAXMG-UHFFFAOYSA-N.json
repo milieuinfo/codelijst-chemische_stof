@@ -1,25 +1,27 @@
 {
     "@context": {
-        "chebi": "http://purl.obolibrary.org/obo/chebi/",
         "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
         "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-        "obo": "http://purl.obolibrary.org/obo/"
+        "obo": "http://purl.obolibrary.org/obo/",
+        "uniprot": "http://purl.uniprot.org/",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "concept": "https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/",
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "dbo": "http://dbpedia.org/ontology/",
+        "dbp": "http://dbpedia.org/property/",
+        "graph": {
+            "@id": "@graph"
+        }
     },
-    "@id": "obo:CHEBI_34623",
-    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "@id": "concept:BIWJNBZANLAXMG-UHFFFAOYSA-N",
+    "@type": "skos:Concept",
+    "dbo:formula": "C10H6Cl8",
+    "dbo:inchi": "InChI=1S/C10H6Cl8/c11-3-1-2-4(5(3)12)9(16)7(14)6(13)8(2,15)10(9,17)18/h2-5H,1H2",
+    "dbo:smiles": "ClC1CC2C(C1Cl)C1(Cl)C(Cl)=C(Cl)C2(Cl)C1(Cl)Cl",
+    "dbp:inchikey": "BIWJNBZANLAXMG-UHFFFAOYSA-N",
     "chebi:charge": "0",
-    "chebi:formula": "C10H6Cl8",
-    "chebi:inchi": "InChI=1S/C10H6Cl8/c11-3-1-2-4(5(3)12)9(16)7(14)6(13)8(2,15)10(9,17)18/h2-5H,1H2",
-    "chebi:inchikey": "BIWJNBZANLAXMG-UHFFFAOYSA-N",
-    "chebi:smiles": "ClC1CC2C(C1Cl)C1(Cl)C(Cl)=C(Cl)C2(Cl)C1(Cl)Cl",
-    "geneontology:hasDbXref": [
-        "Beilstein:1915474",
-        "CAS:57-74-9",
-        "KEGG:C14176",
-        "PPDB:134"
-    ],
-    "geneontology:hasId": "34623",
-    "geneontology:hasSynonym": [
+    "skos:altLabel": [
         "1,2,4,5,6,7,10,10-Octachloro-4,7,8,9-tetrahydro-4,7-methyleneindane",
         "1,2,4,5,6,7,8,8-octachloro-2,3,3a,4,7,7a-hexahydro-1H-4,7-methanoindene",
         "1,2,4,5,6,7,8,8-octachloro-2,3,3a,4,7,7a-hexahydro-4,7-methanoindan",
@@ -28,22 +30,10 @@
         "Chlordane",
         "Chlorindan"
     ],
-    "geneontology:inSubset": {
-        "@id": "obo:chebi#3_STAR"
+    "skos:exactMatch": {
+        "@id": "obo:CHEBI_34623"
     },
-    "rdfs:label": "chlordane",
-    "rdfs:subClassOf": [
-        {
-            "@id": "obo:CHEBI_23457"
-        },
-        {
-            "@id": "b187_genid-00f1db82e1ab437c844115a94dc63e635-bn34623t9f37910"
-        },
-        {
-            "@id": "b187_genid-00f1db82e1ab437c844115a94dc63e635-bn34623t11f38999"
-        },
-        {
-            "@id": "b187_genid-00f1db82e1ab437c844115a94dc63e635-bn34623t11f77853"
-        }
-    ]
+    "skos:semanticRelation": {
+        "@id": "obo:CHEBI_23457"
+    }
 }

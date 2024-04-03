@@ -1,46 +1,31 @@
 {
     "@context": {
-        "chebi": "http://purl.obolibrary.org/obo/chebi/",
         "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
         "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-        "obo": "http://purl.obolibrary.org/obo/"
+        "obo": "http://purl.obolibrary.org/obo/",
+        "uniprot": "http://purl.uniprot.org/",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "concept": "https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/",
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "dbo": "http://dbpedia.org/ontology/",
+        "dbp": "http://dbpedia.org/property/",
+        "altLabel": {
+            "@id": "http://www.w3.org/2004/02/skos/core#altLabel",
+            "@language": "en"
+        },
+        "graph": {
+            "@id": "@graph"
+        }
     },
-    "@id": "obo:CHEBI_15366",
-    "@type": "http://www.w3.org/2002/07/owl#Class",
-    "obo:IAO_0000115": "A simple monocarboxylic acid containing two carbons.",
+    "@id": "concept:QTBSBXVTEAMEQO-UHFFFAOYSA-N",
+    "@type": "skos:Concept",
+    "dbo:formula": "C2H4O2",
+    "dbo:inchi": "InChI=1S/C2H4O2/c1-2(3)4/h1H3,(H,3,4)",
+    "dbo:smiles": "CC(O)=O",
+    "dbp:inchikey": "QTBSBXVTEAMEQO-UHFFFAOYSA-N",
     "chebi:charge": "0",
-    "chebi:formula": "C2H4O2",
-    "chebi:inchi": "InChI=1S/C2H4O2/c1-2(3)4/h1H3,(H,3,4)",
-    "chebi:inchikey": "QTBSBXVTEAMEQO-UHFFFAOYSA-N",
-    "chebi:smiles": "CC(O)=O",
-    "geneontology:hasDbXref": [
-        "PMID:17190852",
-        "Beilstein:506007",
-        "CAS:64-19-7",
-        "Drug_Central:4211",
-        "Gmelin:1380",
-        "HMDB:HMDB0000042",
-        "KEGG:C00033",
-        "KEGG:D00010",
-        "KNApSAcK:C00001176",
-        "LIPID_MAPS_instance:LMFA01010002",
-        "MetaCyc:ACET",
-        "PDBeChem:ACT",
-        "PDBeChem:ACY",
-        "PMID:12005138",
-        "PMID:15107950",
-        "PMID:16630552",
-        "PMID:16774200",
-        "PMID:19416101",
-        "PMID:19469536",
-        "PMID:22153255",
-        "PMID:22173419",
-        "PPDB:1333",
-        "Reaxys:506007",
-        "Wikipedia:Acetic_acid"
-    ],
-    "geneontology:hasId": "15366",
-    "geneontology:hasSynonym": [
+    "skos:altLabel": [
         "Acetic acid",
         "ACETIC ACID",
         "acide acetique",
@@ -60,31 +45,11 @@
         "MeCOOH",
         "Methanecarboxylic acid"
     ],
-    "geneontology:inSubset": {
-        "@id": "obo:chebi#3_STAR"
+    "skos:exactMatch": {
+        "@id": "obo:CHEBI_15366"
     },
-    "rdfs:label": "acetic acid",
-    "rdfs:subClassOf": [
-        {
-            "@id": "obo:CHEBI_25384"
-        },
-        {
-            "@id": "b351_genid-00f1db82e1ab437c844115a94dc63e635-bn15366tmms73f30089"
-        },
-        {
-            "@id": "b351_genid-00f1db82e1ab437c844115a94dc63e635-bn15366t4f30089"
-        },
-        {
-            "@id": "b351_genid-00f1db82e1ab437c844115a94dc63e635-bn15366t11f48356"
-        },
-        {
-            "@id": "b351_genid-00f1db82e1ab437c844115a94dc63e635-bn15366t11f64049"
-        },
-        {
-            "@id": "b351_genid-00f1db82e1ab437c844115a94dc63e635-bn15366t11f65256"
-        },
-        {
-            "@id": "b351_genid-00f1db82e1ab437c844115a94dc63e635-bn15366t11f83056"
-        }
-    ]
+    "skos:note": "A simple monocarboxylic acid containing two carbons.",
+    "skos:semanticRelation": {
+        "@id": "obo:CHEBI_25384"
+    }
 }

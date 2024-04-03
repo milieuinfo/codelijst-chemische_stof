@@ -1,34 +1,39 @@
 {
     "@context": {
-        "chebi": "http://purl.obolibrary.org/obo/chebi/",
         "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
         "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-        "obo": "http://purl.obolibrary.org/obo/"
+        "obo": "http://purl.obolibrary.org/obo/",
+        "uniprot": "http://purl.uniprot.org/",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "concept": "https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/",
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "dbo": "http://dbpedia.org/ontology/",
+        "dbp": "http://dbpedia.org/property/",
+        "altLabel": {
+            "@id": "http://www.w3.org/2004/02/skos/core#altLabel",
+            "@language": "en"
+        },
+        "graph": {
+            "@id": "@graph"
+        }
     },
-    "@id": "obo:CHEBI_39329",
-    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "@id": "concept:IXSZQYVWNJNRAL-UHFFFAOYSA-N",
+    "@type": "skos:Concept",
+    "dbo:formula": "C21H23F2NO2",
+    "dbo:inchi": "InChI=1S/C21H23F2NO2/c1-5-25-18-11-13(21(2,3)4)9-10-14(18)17-12-26-20(24-17)19-15(22)7-6-8-16(19)23/h6-11,17H,5,12H2,1-4H3",
+    "dbo:smiles": "CCOc1cc(ccc1C1COC(=N1)c1c(F)cccc1F)C(C)(C)C",
+    "dbp:inchikey": "IXSZQYVWNJNRAL-UHFFFAOYSA-N",
     "chebi:charge": "0",
-    "chebi:formula": "C21H23F2NO2",
-    "chebi:inchi": "InChI=1S/C21H23F2NO2/c1-5-25-18-11-13(21(2,3)4)9-10-14(18)17-12-26-20(24-17)19-15(22)7-6-8-16(19)23/h6-11,17H,5,12H2,1-4H3",
-    "chebi:inchikey": "IXSZQYVWNJNRAL-UHFFFAOYSA-N",
-    "chebi:smiles": "CCOc1cc(ccc1C1COC(=N1)c1c(F)cccc1F)C(C)(C)C",
-    "geneontology:hasDbXref": [
-        "Beilstein:8930214",
-        "CAS:153233-91-1",
-        "KEGG:C18495",
-        "PPDB:284"
-    ],
-    "geneontology:hasId": "39329",
-    "geneontology:hasSynonym": [
+    "skos:altLabel": [
         "2-(2,6-difluorophenyl)-4-(4-(1,1-dimethylethyl)-2-ethoxyphenyl)-4,5-dihydrooxazole",
         "4-(4-tert-butyl-2-ethoxyphenyl)-2-(2,6-difluorophenyl)-4,5-dihydro-1,3-oxazole",
         "Etoxazole"
     ],
-    "geneontology:inSubset": {
-        "@id": "obo:chebi#3_STAR"
+    "skos:exactMatch": {
+        "@id": "obo:CHEBI_39329"
     },
-    "rdfs:label": "etoxazole",
-    "rdfs:subClassOf": {
+    "skos:semanticRelation": {
         "@id": "obo:CHEBI_38806"
     }
 }

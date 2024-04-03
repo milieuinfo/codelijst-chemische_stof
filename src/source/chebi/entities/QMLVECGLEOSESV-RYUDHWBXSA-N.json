@@ -1,30 +1,35 @@
 {
     "@context": {
-        "chebi": "http://purl.obolibrary.org/obo/chebi/",
         "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
         "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-        "obo": "http://purl.obolibrary.org/obo/"
+        "obo": "http://purl.obolibrary.org/obo/",
+        "uniprot": "http://purl.uniprot.org/",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "concept": "https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/",
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "dbo": "http://dbpedia.org/ontology/",
+        "dbp": "http://dbpedia.org/property/",
+        "altLabel": {
+            "@id": "http://www.w3.org/2004/02/skos/core#altLabel",
+            "@language": "en"
+        },
+        "graph": {
+            "@id": "@graph"
+        }
     },
-    "@id": "obo:CHEBI_183837",
-    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "@id": "concept:QMLVECGLEOSESV-RYUDHWBXSA-N",
+    "@type": "skos:Concept",
+    "dbo:formula": "C19H20FN3O3",
+    "dbo:inchi": "InChI=1S/C19H20FN3O3/c1-21-7-12-4-11(21)8-22(12)17-6-16-13(5-15(17)20)18(24)14(19(25)26)9-23(16)10-2-3-10/h5-6,9-12H,2-4,7-8H2,1H3,(H,25,26)/t11-,12-/m0/s1",
+    "dbo:smiles": "FC1=C(N2[C@]3(C[C@](N(C3)C)(C2)[H])[H])C=C4N(C5CC5)C=C(C(=O)C4=C1)C(O)=O",
+    "dbp:inchikey": "QMLVECGLEOSESV-RYUDHWBXSA-N",
     "chebi:charge": "0",
-    "chebi:formula": "C19H20FN3O3",
-    "chebi:inchi": "InChI=1S/C19H20FN3O3/c1-21-7-12-4-11(21)8-22(12)17-6-16-13(5-15(17)20)18(24)14(19(25)26)9-23(16)10-2-3-10/h5-6,9-12H,2-4,7-8H2,1H3,(H,25,26)/t11-,12-/m0/s1",
-    "chebi:inchikey": "QMLVECGLEOSESV-RYUDHWBXSA-N",
-    "chebi:smiles": "FC1=C(N2[C@]3(C[C@](N(C3)C)(C2)[H])[H])C=C4N(C5CC5)C=C(C(=O)C4=C1)C(O)=O",
-    "geneontology:hasDbXref": [
-        "CAS:112398-08-0",
-        "Chemspider:64439",
-        "DrugBank:DB11393",
-        "KEGG:D07774"
-    ],
-    "geneontology:hasId": "183837",
-    "geneontology:hasSynonym": "1-cyclopropyl-6-luoro-7-[(1S,4S)-5-methyl-2,5-diazabicyclo[2.2.1]heptan-2-yl]-4-oxoquinoline-3-carboxylic acid",
-    "geneontology:inSubset": {
-        "@id": "obo:chebi#2_STAR"
+    "skos:altLabel": "1-cyclopropyl-6-luoro-7-[(1S,4S)-5-methyl-2,5-diazabicyclo[2.2.1]heptan-2-yl]-4-oxoquinoline-3-carboxylic acid",
+    "skos:exactMatch": {
+        "@id": "obo:CHEBI_183837"
     },
-    "rdfs:label": "Danofloxacin",
-    "rdfs:subClassOf": {
+    "skos:semanticRelation": {
         "@id": "obo:CHEBI_26513"
     }
 }

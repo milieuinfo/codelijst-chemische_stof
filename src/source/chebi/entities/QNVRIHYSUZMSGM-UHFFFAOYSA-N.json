@@ -1,45 +1,31 @@
 {
     "@context": {
-        "chebi": "http://purl.obolibrary.org/obo/chebi/",
         "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
         "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-        "obo": "http://purl.obolibrary.org/obo/"
+        "obo": "http://purl.obolibrary.org/obo/",
+        "uniprot": "http://purl.uniprot.org/",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "concept": "https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/",
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "dbo": "http://dbpedia.org/ontology/",
+        "dbp": "http://dbpedia.org/property/",
+        "altLabel": {
+            "@id": "http://www.w3.org/2004/02/skos/core#altLabel",
+            "@language": "en"
+        },
+        "graph": {
+            "@id": "@graph"
+        }
     },
-    "@id": "obo:CHEBI_88370",
-    "@type": "http://www.w3.org/2002/07/owl#Class",
-    "obo:IAO_0000115": "A hexanol in which the hydroxy group is at position 2.",
+    "@id": "concept:QNVRIHYSUZMSGM-UHFFFAOYSA-N",
+    "@type": "skos:Concept",
+    "dbo:formula": "C6H14O",
+    "dbo:inchi": "InChI=1S/C6H14O/c1-3-4-5-6(2)7/h6-7H,3-5H2,1-2H3",
+    "dbo:smiles": "CCCCC(C)O",
+    "dbp:inchikey": "QNVRIHYSUZMSGM-UHFFFAOYSA-N",
     "chebi:charge": "0",
-    "chebi:formula": "C6H14O",
-    "chebi:inchi": "InChI=1S/C6H14O/c1-3-4-5-6(2)7/h6-7H,3-5H2,1-2H3",
-    "chebi:inchikey": "QNVRIHYSUZMSGM-UHFFFAOYSA-N",
-    "chebi:smiles": "CCCCC(C)O",
-    "http://purl.uniprot.org/core/name": "hexan-2-ol",
-    "geneontology:hasDbXref": [
-        "PMID:24657864",
-        "AGR:IND601242539",
-        "CAS:626-93-7",
-        "Chemspider:11794",
-        "FooDB:FDB004514",
-        "HMDB:HMDB0061886",
-        "LIPID_MAPS_instance:LMFA05000467",
-        "MetaCyc:CPD-18993",
-        "PMID:10469537",
-        "PMID:11446806",
-        "PMID:22936621",
-        "PMID:26369156",
-        "PMID:26476310",
-        "PMID:30758196",
-        "PMID:31461927",
-        "PMID:32772709",
-        "PMID:33276068",
-        "PMID:33671950",
-        "PMID:6296504",
-        "PMID:734671",
-        "Reaxys:1718996",
-        "Wikipedia:2-Hexanol"
-    ],
-    "geneontology:hasId": "88370",
-    "geneontology:hasSynonym": [
+    "skos:altLabel": [
         "1-methyl-1-pentanol",
         "2-hexanol",
         "2-hexyl alcohol",
@@ -49,25 +35,16 @@
         "n-hexan-2-ol",
         "sec-hexyl alcohol"
     ],
-    "geneontology:inSubset": {
-        "@id": "obo:chebi#3_STAR"
+    "skos:exactMatch": {
+        "@id": "obo:CHEBI_88370"
     },
-    "rdfs:label": "hexan-2-ol",
-    "rdfs:subClassOf": [
+    "skos:note": "A hexanol in which the hydroxy group is at position 2.",
+    "skos:semanticRelation": [
         {
             "@id": "obo:CHEBI_35681"
         },
         {
             "@id": "obo:CHEBI_143552"
-        },
-        {
-            "@id": "b322_genid-00f1db82e1ab437c844115a94dc63e635-bn88370t11f26645"
-        },
-        {
-            "@id": "b322_genid-00f1db82e1ab437c844115a94dc63e635-bn88370t11f76924"
-        },
-        {
-            "@id": "b322_genid-00f1db82e1ab437c844115a94dc63e635-bn88370t11f77746"
         }
     ]
 }

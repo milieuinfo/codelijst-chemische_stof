@@ -1,56 +1,27 @@
 {
     "@context": {
-        "chebi": "http://purl.obolibrary.org/obo/chebi/",
         "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
         "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-        "obo": "http://purl.obolibrary.org/obo/"
+        "obo": "http://purl.obolibrary.org/obo/",
+        "uniprot": "http://purl.uniprot.org/",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "concept": "https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/",
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "dbo": "http://dbpedia.org/ontology/",
+        "dbp": "http://dbpedia.org/property/",
+        "graph": {
+            "@id": "@graph"
+        }
     },
-    "@id": "obo:CHEBI_30772",
-    "@type": "http://www.w3.org/2002/07/owl#Class",
-    "obo:IAO_0000115": "A straight-chain saturated fatty acid that is butane in which one of the terminal methyl groups has been oxidised to a carboxy group.",
+    "@id": "concept:FERIUCNNQQJTOY-UHFFFAOYSA-N",
+    "@type": "skos:Concept",
+    "dbo:formula": "C4H8O2",
+    "dbo:inchi": "InChI=1S/C4H8O2/c1-2-3-4(5)6/h2-3H2,1H3,(H,5,6)",
+    "dbo:smiles": "CCCC(O)=O",
+    "dbp:inchikey": "FERIUCNNQQJTOY-UHFFFAOYSA-N",
     "chebi:charge": "0",
-    "chebi:formula": "C4H8O2",
-    "chebi:inchi": "InChI=1S/C4H8O2/c1-2-3-4(5)6/h2-3H2,1H3,(H,5,6)",
-    "chebi:inchikey": "FERIUCNNQQJTOY-UHFFFAOYSA-N",
-    "chebi:smiles": "CCCC(O)=O",
-    "geneontology:hasDbXref": [
-        "KEGG:C00246",
-        "MetaCyc:BUTYRIC_ACID",
-        "Beilstein:906770",
-        "CAS:107-92-6",
-        "DrugBank:DB03568",
-        "Gmelin:26242",
-        "HMDB:HMDB0000039",
-        "KNApSAcK:C00001180",
-        "LIPID_MAPS_instance:LMFA01010004",
-        "PDBeChem:BUA",
-        "PMID:10736622",
-        "PMID:10956204",
-        "PMID:11201044",
-        "PMID:11208715",
-        "PMID:11238216",
-        "PMID:11305323",
-        "PMID:12068484",
-        "PMID:13678314",
-        "PMID:14962641",
-        "PMID:1542095",
-        "PMID:15809727",
-        "PMID:15810631",
-        "PMID:15938880",
-        "PMID:19318247",
-        "PMID:19366864",
-        "PMID:19703412",
-        "PMID:21699495",
-        "PMID:22038864",
-        "PMID:22194341",
-        "PMID:22322557",
-        "PMID:22339023",
-        "PMID:22466881",
-        "Reaxys:906770",
-        "Wikipedia:Butyric_acid"
-    ],
-    "geneontology:hasId": "30772",
-    "geneontology:hasSynonym": [
+    "skos:altLabel": [
         "1-butanoic acid",
         "1-butyric acid",
         "1-propanecarboxylic acid",
@@ -73,28 +44,16 @@
         "propanecarboxylic acid",
         "propylformic acid"
     ],
-    "geneontology:inSubset": {
-        "@id": "obo:chebi#3_STAR"
+    "skos:exactMatch": {
+        "@id": "obo:CHEBI_30772"
     },
-    "rdfs:label": "butyric acid",
-    "rdfs:subClassOf": [
+    "skos:note": "A straight-chain saturated fatty acid that is butane in which one of the terminal methyl groups has been oxidised to a carboxy group.",
+    "skos:semanticRelation": [
         {
             "@id": "obo:CHEBI_39418"
         },
         {
             "@id": "obo:CHEBI_140601"
-        },
-        {
-            "@id": "b584_genid-00f1db82e1ab437c844115a94dc63e635-bn30772tmms73f17968"
-        },
-        {
-            "@id": "b584_genid-00f1db82e1ab437c844115a94dc63e635-bn30772t4f17968"
-        },
-        {
-            "@id": "b584_genid-00f1db82e1ab437c844115a94dc63e635-bn30772t11f84087"
-        },
-        {
-            "@id": "b584_genid-00f1db82e1ab437c844115a94dc63e635-bn30772t11f131604"
         }
     ]
 }

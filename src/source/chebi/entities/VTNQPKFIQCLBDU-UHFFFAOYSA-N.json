@@ -1,32 +1,31 @@
 {
     "@context": {
-        "chebi": "http://purl.obolibrary.org/obo/chebi/",
         "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
         "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-        "obo": "http://purl.obolibrary.org/obo/"
+        "obo": "http://purl.obolibrary.org/obo/",
+        "uniprot": "http://purl.uniprot.org/",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "concept": "https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/",
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "dbo": "http://dbpedia.org/ontology/",
+        "dbp": "http://dbpedia.org/property/",
+        "altLabel": {
+            "@id": "http://www.w3.org/2004/02/skos/core#altLabel",
+            "@language": "en"
+        },
+        "graph": {
+            "@id": "@graph"
+        }
     },
-    "@id": "obo:CHEBI_2394",
-    "@type": "http://www.w3.org/2002/07/owl#Class",
-    "obo:IAO_0000115": "A monocarboxylic acid amide that is N-phenylacetamide carrying an ethyl and a methyl group at positions 2 and 6 respectively on the benzene ring while one of the methyl hydrogens as well as the hydrogen attached to the nitrogen atom have been replaced by a chloro and an ethoxymethyl group respectively.",
+    "@id": "concept:VTNQPKFIQCLBDU-UHFFFAOYSA-N",
+    "@type": "skos:Concept",
+    "dbo:formula": "C14H20ClNO2",
+    "dbo:inchi": "InChI=1S/C14H20ClNO2/c1-4-12-8-6-7-11(3)14(12)16(10-18-5-2)13(17)9-15/h6-8H,4-5,9-10H2,1-3H3",
+    "dbo:smiles": "CCOCN(C(=O)CCl)c1c(C)cccc1CC",
+    "dbp:inchikey": "VTNQPKFIQCLBDU-UHFFFAOYSA-N",
     "chebi:charge": "0",
-    "chebi:formula": "C14H20ClNO2",
-    "chebi:inchi": "InChI=1S/C14H20ClNO2/c1-4-12-8-6-7-11(3)14(12)16(10-18-5-2)13(17)9-15/h6-8H,4-5,9-10H2,1-3H3",
-    "chebi:inchikey": "VTNQPKFIQCLBDU-UHFFFAOYSA-N",
-    "chebi:smiles": "CCOCN(C(=O)CCl)c1c(C)cccc1CC",
-    "http://purl.uniprot.org/core/name": "acetochlor",
-    "geneontology:hasDbXref": [
-        "Beilstein:2859702",
-        "CAS:34256-82-1",
-        "KEGG:C10925",
-        "Pesticides:acetochlor",
-        "PMID:16646021",
-        "PMID:17534384",
-        "PPDB:12",
-        "Reaxys:2859702",
-        "Wikipedia:Acetochlor"
-    ],
-    "geneontology:hasId": "2394",
-    "geneontology:hasSynonym": [
+    "skos:altLabel": [
         "2-Chloro-2'-methyl-6-ethyl-N-ethoxymethylacetanilide",
         "2-Chloro-N-(ethoxymethyl)-6'-ethylacet-o-toluidide",
         "2-Chloro-N-(ethoxymethyl)-6'-ethyl-o-acetotoluidide",
@@ -34,11 +33,11 @@
         "Acetochlor",
         "Acetochlore"
     ],
-    "geneontology:inSubset": {
-        "@id": "obo:chebi#3_STAR"
+    "skos:exactMatch": {
+        "@id": "obo:CHEBI_2394"
     },
-    "rdfs:label": "acetochlor",
-    "rdfs:subClassOf": [
+    "skos:note": "A monocarboxylic acid amide that is N-phenylacetamide carrying an ethyl and a methyl group at positions 2 and 6 respectively on the benzene ring while one of the methyl hydrogens as well as the hydrogen attached to the nitrogen atom have been replaced by a chloro and an ethoxymethyl group respectively.",
+    "skos:semanticRelation": [
         {
             "@id": "obo:CHEBI_29347"
         },
@@ -47,18 +46,6 @@
         },
         {
             "@id": "obo:CHEBI_62733"
-        },
-        {
-            "@id": "b996_genid-00f1db82e1ab437c844115a94dc63e635-bn2394t11f24527"
-        },
-        {
-            "@id": "b996_genid-00f1db82e1ab437c844115a94dc63e635-bn2394t8f28884"
-        },
-        {
-            "@id": "b996_genid-00f1db82e1ab437c844115a94dc63e635-bn2394t11f35703"
-        },
-        {
-            "@id": "b996_genid-00f1db82e1ab437c844115a94dc63e635-bn2394t11f78298"
         }
     ]
 }

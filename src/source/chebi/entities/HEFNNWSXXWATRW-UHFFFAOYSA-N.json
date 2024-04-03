@@ -1,50 +1,27 @@
 {
     "@context": {
-        "chebi": "http://purl.obolibrary.org/obo/chebi/",
         "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
         "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-        "obo": "http://purl.obolibrary.org/obo/"
+        "obo": "http://purl.obolibrary.org/obo/",
+        "uniprot": "http://purl.uniprot.org/",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "concept": "https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/",
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "dbo": "http://dbpedia.org/ontology/",
+        "dbp": "http://dbpedia.org/property/",
+        "graph": {
+            "@id": "@graph"
+        }
     },
-    "@id": "obo:CHEBI_5855",
-    "@type": "http://www.w3.org/2002/07/owl#Class",
-    "obo:IAO_0000115": "A monocarboxylic acid that is propionic acid in which one of the hydrogens at position 2 is substituted by a 4-(2-methylpropyl)phenyl group.",
+    "@id": "concept:HEFNNWSXXWATRW-UHFFFAOYSA-N",
+    "@type": "skos:Concept",
+    "dbo:formula": "C13H18O2",
+    "dbo:inchi": "InChI=1S/C13H18O2/c1-9(2)8-11-4-6-12(7-5-11)10(3)13(14)15/h4-7,9-10H,8H2,1-3H3,(H,14,15)",
+    "dbo:smiles": "CC(C)Cc1ccc(cc1)C(C)C(O)=O",
+    "dbp:inchikey": "HEFNNWSXXWATRW-UHFFFAOYSA-N",
     "chebi:charge": "0",
-    "chebi:formula": "C13H18O2",
-    "chebi:inchi": "InChI=1S/C13H18O2/c1-9(2)8-11-4-6-12(7-5-11)10(3)13(14)15/h4-7,9-10H,8H2,1-3H3,(H,14,15)",
-    "chebi:inchikey": "HEFNNWSXXWATRW-UHFFFAOYSA-N",
-    "chebi:smiles": "CC(C)Cc1ccc(cc1)C(C)C(O)=O",
-    "geneontology:hasDbXref": [
-        "Beilstein:2049713",
-        "CAS:15687-27-1",
-        "Drug_Central:1407",
-        "DrugBank:DB01050",
-        "HMDB:HMDB0001925",
-        "KEGG:C01588",
-        "KEGG:D00126",
-        "LINCS:LSM-1354",
-        "Patent:GB971700",
-        "Patent:US3228831",
-        "Patent:US3385886",
-        "Patent:US5215755",
-        "Patent:US6727286",
-        "PMID:11433218",
-        "PMID:12723739",
-        "PMID:14562167",
-        "PMID:15506544",
-        "PMID:16176022",
-        "PMID:18335846",
-        "PMID:18697608",
-        "PMID:21368281",
-        "PMID:24168233",
-        "PMID:25521617",
-        "PMID:25708941",
-        "PMID:25915907",
-        "PMID:29756342",
-        "Reaxys:2049713",
-        "Wikipedia:Ibuprofen"
-    ],
-    "geneontology:hasId": "5855",
-    "geneontology:hasSynonym": [
+    "skos:altLabel": [
         "(+-)-2-(p-isobutylphenyl)propionic acid",
         "(+-)-alpha-methyl-4-(2-methylpropyl)benzeneacetic acid",
         "(+-)-ibuprofen",
@@ -101,52 +78,11 @@
         "Trendar",
         "Urem"
     ],
-    "geneontology:inSubset": {
-        "@id": "obo:chebi#3_STAR"
+    "skos:exactMatch": {
+        "@id": "obo:CHEBI_5855"
     },
-    "rdfs:label": "ibuprofen",
-    "rdfs:subClassOf": [
-        {
-            "@id": "obo:CHEBI_25384"
-        },
-        {
-            "@id": "b861_genid-00f1db82e1ab437c844115a94dc63e635-bn5855tmms73f132922"
-        },
-        {
-            "@id": "b861_genid-00f1db82e1ab437c844115a94dc63e635-bn5855t8f30768"
-        },
-        {
-            "@id": "b861_genid-00f1db82e1ab437c844115a94dc63e635-bn5855t11f35475"
-        },
-        {
-            "@id": "b861_genid-00f1db82e1ab437c844115a94dc63e635-bn5855t11f35481"
-        },
-        {
-            "@id": "b861_genid-00f1db82e1ab437c844115a94dc63e635-bn5855t11f35493"
-        },
-        {
-            "@id": "b861_genid-00f1db82e1ab437c844115a94dc63e635-bn5855t11f35703"
-        },
-        {
-            "@id": "b861_genid-00f1db82e1ab437c844115a94dc63e635-bn5855t11f48578"
-        },
-        {
-            "@id": "b861_genid-00f1db82e1ab437c844115a94dc63e635-bn5855t11f50629"
-        },
-        {
-            "@id": "b861_genid-00f1db82e1ab437c844115a94dc63e635-bn5855t11f50630"
-        },
-        {
-            "@id": "b861_genid-00f1db82e1ab437c844115a94dc63e635-bn5855t11f78298"
-        },
-        {
-            "@id": "b861_genid-00f1db82e1ab437c844115a94dc63e635-bn5855t11f88188"
-        },
-        {
-            "@id": "b861_genid-00f1db82e1ab437c844115a94dc63e635-bn5855t4f132922"
-        },
-        {
-            "@id": "b861_genid-00f1db82e1ab437c844115a94dc63e635-bn5855t11f176497"
-        }
-    ]
+    "skos:note": "A monocarboxylic acid that is propionic acid in which one of the hydrogens at position 2 is substituted by a 4-(2-methylpropyl)phenyl group.",
+    "skos:semanticRelation": {
+        "@id": "obo:CHEBI_25384"
+    }
 }

@@ -1,30 +1,31 @@
 {
     "@context": {
-        "chebi": "http://purl.obolibrary.org/obo/chebi/",
         "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
         "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-        "obo": "http://purl.obolibrary.org/obo/"
+        "obo": "http://purl.obolibrary.org/obo/",
+        "uniprot": "http://purl.uniprot.org/",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "concept": "https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/",
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "dbo": "http://dbpedia.org/ontology/",
+        "dbp": "http://dbpedia.org/property/",
+        "altLabel": {
+            "@id": "http://www.w3.org/2004/02/skos/core#altLabel",
+            "@language": "en"
+        },
+        "graph": {
+            "@id": "@graph"
+        }
     },
-    "@id": "obo:CHEBI_17996",
-    "@type": "http://www.w3.org/2002/07/owl#Class",
-    "obo:IAO_0000115": "A halide anion formed when chlorine picks up an electron to form an an anion.",
+    "@id": "concept:VEXZGXHMUGYJMC-UHFFFAOYSA-M",
+    "@type": "skos:Concept",
+    "dbo:formula": "Cl",
+    "dbo:inchi": "InChI=1S/ClH/h1H/p-1",
+    "dbo:smiles": "[Cl-]",
+    "dbp:inchikey": "VEXZGXHMUGYJMC-UHFFFAOYSA-M",
     "chebi:charge": "-1",
-    "chebi:formula": "Cl",
-    "chebi:inchi": "InChI=1S/ClH/h1H/p-1",
-    "chebi:inchikey": "VEXZGXHMUGYJMC-UHFFFAOYSA-M",
-    "chebi:smiles": "[Cl-]",
-    "http://purl.uniprot.org/core/name": "chloride",
-    "geneontology:hasDbXref": [
-        "Beilstein:3587171",
-        "CAS:16887-00-6",
-        "Gmelin:14910",
-        "KEGG:C00115",
-        "KEGG:C00698",
-        "PDBeChem:CL",
-        "UM-BBD_compID:c0884"
-    ],
-    "geneontology:hasId": "17996",
-    "geneontology:hasSynonym": [
+    "skos:altLabel": [
         "Chloride",
         "chloride(1-)",
         "Chloride(1-)",
@@ -34,28 +35,16 @@
         "Cl-",
         "Cl(-)"
     ],
-    "geneontology:inSubset": {
-        "@id": "obo:chebi#3_STAR"
+    "skos:exactMatch": {
+        "@id": "obo:CHEBI_17996"
     },
-    "rdfs:label": "chloride",
-    "rdfs:subClassOf": [
+    "skos:note": "A halide anion formed when chlorine picks up an electron to form an an anion.",
+    "skos:semanticRelation": [
         {
             "@id": "obo:CHEBI_16042"
         },
         {
-            "@id": "b896_genid-00f1db82e1ab437c844115a94dc63e635-bn17996t5f17883"
-        },
-        {
-            "@id": "b896_genid-00f1db82e1ab437c844115a94dc63e635-bn17996t11f23357"
-        },
-        {
             "@id": "obo:CHEBI_33432"
-        },
-        {
-            "@id": "b896_genid-00f1db82e1ab437c844115a94dc63e635-bn17996t11f76971"
-        },
-        {
-            "@id": "b896_genid-00f1db82e1ab437c844115a94dc63e635-bn17996t11f77746"
         }
     ]
 }

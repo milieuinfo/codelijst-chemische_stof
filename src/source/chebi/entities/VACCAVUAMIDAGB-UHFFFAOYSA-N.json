@@ -1,36 +1,31 @@
 {
     "@context": {
-        "chebi": "http://purl.obolibrary.org/obo/chebi/",
         "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
         "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-        "obo": "http://purl.obolibrary.org/obo/"
+        "obo": "http://purl.obolibrary.org/obo/",
+        "uniprot": "http://purl.uniprot.org/",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "concept": "https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/",
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "dbo": "http://dbpedia.org/ontology/",
+        "dbp": "http://dbpedia.org/property/",
+        "altLabel": {
+            "@id": "http://www.w3.org/2004/02/skos/core#altLabel",
+            "@language": "en"
+        },
+        "graph": {
+            "@id": "@graph"
+        }
     },
-    "@id": "obo:CHEBI_9331",
-    "@type": "http://www.w3.org/2002/07/owl#Class",
-    "obo:IAO_0000115": "A sulfonamide consisting of a 1,3,4-thiadiazole nucleus with a methyl substituent at C-5 and a 4-aminobenzenesulfonamido group at C-2.",
+    "@id": "concept:VACCAVUAMIDAGB-UHFFFAOYSA-N",
+    "@type": "skos:Concept",
+    "dbo:formula": "C9H10N4O2S2",
+    "dbo:inchi": "InChI=1S/C9H10N4O2S2/c1-6-11-12-9(16-6)13-17(14,15)8-4-2-7(10)3-5-8/h2-5H,10H2,1H3,(H,12,13)",
+    "dbo:smiles": "Cc1nnc(NS(=O)(=O)c2ccc(N)cc2)s1",
+    "dbp:inchikey": "VACCAVUAMIDAGB-UHFFFAOYSA-N",
     "chebi:charge": "0",
-    "chebi:formula": "C9H10N4O2S2",
-    "chebi:inchi": "InChI=1S/C9H10N4O2S2/c1-6-11-12-9(16-6)13-17(14,15)8-4-2-7(10)3-5-8/h2-5H,10H2,1H3,(H,12,13)",
-    "chebi:inchikey": "VACCAVUAMIDAGB-UHFFFAOYSA-N",
-    "chebi:smiles": "Cc1nnc(NS(=O)(=O)c2ccc(N)cc2)s1",
-    "geneontology:hasDbXref": [
-        "PMID:11431418",
-        "Beilstein:255002",
-        "CAS:144-82-1",
-        "Drug_Central:2512",
-        "DrugBank:DB00576",
-        "KEGG:C08050",
-        "KEGG:D00870",
-        "LINCS:LSM-5455",
-        "Patent:US2447702",
-        "PMID:17180970",
-        "PMID:20303138",
-        "PMID:21275251",
-        "Reaxys:255002",
-        "Wikipedia:Sulfamethizole"
-    ],
-    "geneontology:hasId": "9331",
-    "geneontology:hasSynonym": [
+    "skos:altLabel": [
         "4-amino-N-(5-methyl-1,3,4-thiadiazol-2-yl)benzenesulfonamide",
         "Rufol",
         "sulfamethizol",
@@ -41,11 +36,11 @@
         "sulphamethazole",
         "sulphamethiozole"
     ],
-    "geneontology:inSubset": {
-        "@id": "obo:chebi#3_STAR"
+    "skos:exactMatch": {
+        "@id": "obo:CHEBI_9331"
     },
-    "rdfs:label": "sulfamethizole",
-    "rdfs:subClassOf": [
+    "skos:note": "A sulfonamide consisting of a 1,3,4-thiadiazole nucleus with a methyl substituent at C-5 and a 4-aminobenzenesulfonamido group at C-2.",
+    "skos:semanticRelation": [
         {
             "@id": "obo:CHEBI_35358"
         },
@@ -54,18 +49,6 @@
         },
         {
             "@id": "obo:CHEBI_87228"
-        },
-        {
-            "@id": "b872_genid-00f1db82e1ab437c844115a94dc63e635-bn9331t11f33281"
-        },
-        {
-            "@id": "b872_genid-00f1db82e1ab437c844115a94dc63e635-bn9331t11f35441"
-        },
-        {
-            "@id": "b872_genid-00f1db82e1ab437c844115a94dc63e635-bn9331t11f50502"
-        },
-        {
-            "@id": "b872_genid-00f1db82e1ab437c844115a94dc63e635-bn9331t11f88188"
         }
     ]
 }

@@ -1,43 +1,31 @@
 {
     "@context": {
-        "chebi": "http://purl.obolibrary.org/obo/chebi/",
         "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
         "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-        "obo": "http://purl.obolibrary.org/obo/"
+        "obo": "http://purl.obolibrary.org/obo/",
+        "uniprot": "http://purl.uniprot.org/",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "concept": "https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/",
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "dbo": "http://dbpedia.org/ontology/",
+        "dbp": "http://dbpedia.org/property/",
+        "altLabel": {
+            "@id": "http://www.w3.org/2004/02/skos/core#altLabel",
+            "@language": "en"
+        },
+        "graph": {
+            "@id": "@graph"
+        }
     },
-    "@id": "obo:CHEBI_32161",
-    "@type": "http://www.w3.org/2002/07/owl#Class",
-    "obo:IAO_0000115": "A sulfonamide consisting of pyrimidine having methoxy substituents at the 2- and 6-positions and a 4-aminobenzenesulfonamido group at the 4-position.",
+    "@id": "concept:ZZORFUFYDOWNEF-UHFFFAOYSA-N",
+    "@type": "skos:Concept",
+    "dbo:formula": "C12H14N4O4S",
+    "dbo:inchi": "InChI=1S/C12H14N4O4S/c1-19-11-7-10(14-12(15-11)20-2)16-21(17,18)9-5-3-8(13)4-6-9/h3-7H,13H2,1-2H3,(H,14,15,16)",
+    "dbo:smiles": "COc1cc(NS(=O)(=O)c2ccc(N)cc2)nc(OC)n1",
+    "dbp:inchikey": "ZZORFUFYDOWNEF-UHFFFAOYSA-N",
     "chebi:charge": "0",
-    "chebi:formula": "C12H14N4O4S",
-    "chebi:inchi": "InChI=1S/C12H14N4O4S/c1-19-11-7-10(14-12(15-11)20-2)16-21(17,18)9-5-3-8(13)4-6-9/h3-7H,13H2,1-2H3,(H,14,15,16)",
-    "chebi:inchikey": "ZZORFUFYDOWNEF-UHFFFAOYSA-N",
-    "chebi:smiles": "COc1cc(NS(=O)(=O)c2ccc(N)cc2)nc(OC)n1",
-    "geneontology:hasDbXref": [
-        "PMID:11431418",
-        "Beilstein:306856",
-        "CAS:122-11-2",
-        "Drug_Central:2501",
-        "DrugBank:DB06150",
-        "Gmelin:677830",
-        "HMDB:HMDB0015621",
-        "KEGG:D01142",
-        "LINCS:LSM-5790",
-        "PMID:12038137",
-        "PMID:13831481",
-        "PMID:13840927",
-        "PMID:14435331",
-        "PMID:14437387",
-        "PMID:16001847",
-        "PMID:16390193",
-        "PMID:18574183",
-        "PMID:19927815",
-        "Reaxys:306856",
-        "VSDB:1833",
-        "Wikipedia:Sulfadimethoxine"
-    ],
-    "geneontology:hasId": "32161",
-    "geneontology:hasSynonym": [
+    "skos:altLabel": [
         "2,4-dimethoxy-6-sulfanilamido-1,3-diazine",
         "2,6-dimethoxy-4-(p-aminobenzenesulfonamido)pyrimidine",
         "2,6-dimethoxy-4-sulfanilamidopyrimidine",
@@ -53,11 +41,11 @@
         "sulfadimetoxina",
         "Sulphadimethoxine"
     ],
-    "geneontology:inSubset": {
-        "@id": "obo:chebi#3_STAR"
+    "skos:exactMatch": {
+        "@id": "obo:CHEBI_32161"
     },
-    "rdfs:label": "sulfadimethoxine",
-    "rdfs:subClassOf": [
+    "skos:note": "A sulfonamide consisting of pyrimidine having methoxy substituents at the 2- and 6-positions and a 4-aminobenzenesulfonamido group at the 4-position.",
+    "skos:semanticRelation": [
         {
             "@id": "obo:CHEBI_35618"
         },
@@ -72,24 +60,6 @@
         },
         {
             "@id": "obo:CHEBI_87228"
-        },
-        {
-            "@id": "b588_genid-00f1db82e1ab437c844115a94dc63e635-bn32161t11f33281"
-        },
-        {
-            "@id": "b588_genid-00f1db82e1ab437c844115a94dc63e635-bn32161t11f35441"
-        },
-        {
-            "@id": "b588_genid-00f1db82e1ab437c844115a94dc63e635-bn32161t11f35703"
-        },
-        {
-            "@id": "b588_genid-00f1db82e1ab437c844115a94dc63e635-bn32161t8f45373"
-        },
-        {
-            "@id": "b588_genid-00f1db82e1ab437c844115a94dc63e635-bn32161t11f78298"
-        },
-        {
-            "@id": "b588_genid-00f1db82e1ab437c844115a94dc63e635-bn32161t11f88188"
         }
     ]
 }

@@ -1,55 +1,27 @@
 {
     "@context": {
-        "chebi": "http://purl.obolibrary.org/obo/chebi/",
         "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
         "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-        "obo": "http://purl.obolibrary.org/obo/"
+        "obo": "http://purl.obolibrary.org/obo/",
+        "uniprot": "http://purl.uniprot.org/",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "concept": "https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/",
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "dbo": "http://dbpedia.org/ontology/",
+        "dbp": "http://dbpedia.org/property/",
+        "graph": {
+            "@id": "@graph"
+        }
     },
-    "@id": "obo:CHEBI_72449",
-    "@type": "http://www.w3.org/2002/07/owl#Class",
-    "obo:IAO_0000115": "An organic chloride salt that is the monochloride salt of malachite green cation. Used as a green-coloured dye, as a counter-stain in histology, and for its anti-fungal properties in aquaculture.",
+    "@id": "concept:FDZZZRQASAIRJF-UHFFFAOYSA-M",
+    "@type": "skos:Concept",
+    "dbo:formula": "C23H25ClN2",
+    "dbo:inchi": "InChI=1S/C23H25N2.ClH/c1-24(2)21-14-10-19(11-15-21)23(18-8-6-5-7-9-18)20-12-16-22(17-13-20)25(3)4;/h5-17H,1-4H3;1H/q+1;/p-1",
+    "dbo:smiles": "[Cl-].CN(C)c1ccc(cc1)C(c1ccccc1)=C1C=CC(C=C1)=[N+](C)C",
+    "dbp:inchikey": "FDZZZRQASAIRJF-UHFFFAOYSA-M",
     "chebi:charge": "0",
-    "chebi:formula": "C23H25ClN2",
-    "chebi:inchi": "InChI=1S/C23H25N2.ClH/c1-24(2)21-14-10-19(11-15-21)23(18-8-6-5-7-9-18)20-12-16-22(17-13-20)25(3)4;/h5-17H,1-4H3;1H/q+1;/p-1",
-    "chebi:inchikey": "FDZZZRQASAIRJF-UHFFFAOYSA-M",
-    "chebi:smiles": "[Cl-].CN(C)c1ccc(cc1)C(c1ccccc1)=C1C=CC(C=C1)=[N+](C)C",
-    "geneontology:hasDbXref": [
-        "PMID:22236952",
-        "PMID:22526306",
-        "PMID:23122763",
-        "PMID:23199816",
-        "PMID:23203820",
-        "PMID:23286983",
-        "PMID:23296502",
-        "PMID:23323052",
-        "Wikipedia:Malachite_green",
-        "CAS:569-64-2",
-        "KEGG:C18367",
-        "Patent:WO2008063374",
-        "PMID:22623907",
-        "PMID:25128680",
-        "PMID:25218224",
-        "PMID:25236201",
-        "PMID:25409587",
-        "PMID:25441361",
-        "PMID:25462308",
-        "PMID:25497025",
-        "PMID:25542168",
-        "PMID:25697373",
-        "PMID:25699703",
-        "PMID:25748983",
-        "PMID:25757145",
-        "PMID:25938698",
-        "PMID:25945894",
-        "PMID:26003716",
-        "PMID:26057094",
-        "PMID:26185924",
-        "PMID:26250058",
-        "PMID:26254991",
-        "Reaxys:3580148"
-    ],
-    "geneontology:hasId": "72449",
-    "geneontology:hasSynonym": [
+    "skos:altLabel": [
         "(4-(4-Dimethylaminobenzhydriylidene)cyclohexa-2,5-dienylidene)dimethylammonium chloride",
         "(4-(alpha-(4-Dimethylamino)phenyl)benzylidene)cyclohexa-2,5-dien-1-ylidene dimethylammonium chloride",
         "4-{[4-(dimethylamino)phenyl](phenyl)methylene}-N,N-dimethylcyclohexa-2,5-dien-1-iminium chloride",
@@ -63,37 +35,11 @@
         "malachite green chloride salt",
         "victoria green B"
     ],
-    "geneontology:inSubset": {
-        "@id": "obo:chebi#3_STAR"
+    "skos:exactMatch": {
+        "@id": "obo:CHEBI_72449"
     },
-    "rdfs:label": "malachite green",
-    "rdfs:subClassOf": [
-        {
-            "@id": "obo:CHEBI_36094"
-        },
-        {
-            "@id": "b583_genid-00f1db82e1ab437c844115a94dc63e635-bn72449t11f33282"
-        },
-        {
-            "@id": "b583_genid-00f1db82e1ab437c844115a94dc63e635-bn72449t10f44107"
-        },
-        {
-            "@id": "b583_genid-00f1db82e1ab437c844115a94dc63e635-bn72449t11f50903"
-        },
-        {
-            "@id": "b583_genid-00f1db82e1ab437c844115a94dc63e635-bn72449t11f50905"
-        },
-        {
-            "@id": "b583_genid-00f1db82e1ab437c844115a94dc63e635-bn72449t11f51217"
-        },
-        {
-            "@id": "b583_genid-00f1db82e1ab437c844115a94dc63e635-bn72449t11f77178"
-        },
-        {
-            "@id": "b583_genid-00f1db82e1ab437c844115a94dc63e635-bn72449t11f78298"
-        },
-        {
-            "@id": "b583_genid-00f1db82e1ab437c844115a94dc63e635-bn72449t11f86327"
-        }
-    ]
+    "skos:note": "An organic chloride salt that is the monochloride salt of malachite green cation. Used as a green-coloured dye, as a counter-stain in histology, and for its anti-fungal properties in aquaculture.",
+    "skos:semanticRelation": {
+        "@id": "obo:CHEBI_36094"
+    }
 }

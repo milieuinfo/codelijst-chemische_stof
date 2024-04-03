@@ -1,30 +1,31 @@
 {
     "@context": {
-        "chebi": "http://purl.obolibrary.org/obo/chebi/",
         "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
         "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-        "obo": "http://purl.obolibrary.org/obo/"
+        "obo": "http://purl.obolibrary.org/obo/",
+        "uniprot": "http://purl.uniprot.org/",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "concept": "https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/",
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "dbo": "http://dbpedia.org/ontology/",
+        "dbp": "http://dbpedia.org/property/",
+        "altLabel": {
+            "@id": "http://www.w3.org/2004/02/skos/core#altLabel",
+            "@language": "en"
+        },
+        "graph": {
+            "@id": "@graph"
+        }
     },
-    "@id": "obo:CHEBI_76358",
-    "@type": "http://www.w3.org/2002/07/owl#Class",
-    "obo:IAO_0000115": "An aromatic ether that is 4-methoxyphenol in which one of the hydrogens ortho- to the phenolic hydroxy group is replaced by a tert-butyl group.",
+    "@id": "concept:MRBKEAMVRSLQPH-UHFFFAOYSA-N",
+    "@type": "skos:Concept",
+    "dbo:formula": "C11H16O2",
+    "dbo:inchi": "InChI=1S/C11H16O2/c1-11(2,3)9-7-8(13-4)5-6-10(9)12/h5-7,12H,1-4H3",
+    "dbo:smiles": "COc1ccc(O)c(c1)C(C)(C)C",
+    "dbp:inchikey": "MRBKEAMVRSLQPH-UHFFFAOYSA-N",
     "chebi:charge": "0",
-    "chebi:formula": "C11H16O2",
-    "chebi:inchi": "InChI=1S/C11H16O2/c1-11(2,3)9-7-8(13-4)5-6-10(9)12/h5-7,12H,1-4H3",
-    "chebi:inchikey": "MRBKEAMVRSLQPH-UHFFFAOYSA-N",
-    "chebi:smiles": "COc1ccc(O)c(c1)C(C)(C)C",
-    "geneontology:hasDbXref": [
-        "HMDB:HMDB0031848",
-        "PMID:3201475",
-        "PMID:7388831",
-        "CAS:121-00-6",
-        "CAS:921-00-6",
-        "PMID:4053035",
-        "PMID:6542057",
-        "Reaxys:1867499"
-    ],
-    "geneontology:hasId": "76358",
-    "geneontology:hasSynonym": [
+    "skos:altLabel": [
         "2-(1,1-dimethylethyl)-4-methoxyphenol",
         "2-tert-butyl-4-methoxyphenol",
         "3-(1,1-dimethylethyl)-4-hydroxyanisole",
@@ -36,22 +37,16 @@
         "o-tert-butyl-p-methoxyphenol",
         "p-methoxy-o-tert-butylphenol"
     ],
-    "geneontology:inSubset": {
-        "@id": "obo:chebi#3_STAR"
+    "skos:exactMatch": {
+        "@id": "obo:CHEBI_76358"
     },
-    "rdfs:label": "3-tert-butyl-4-hydroxyanisole",
-    "rdfs:subClassOf": [
+    "skos:note": "An aromatic ether that is 4-methoxyphenol in which one of the hydrogens ortho- to the phenolic hydroxy group is replaced by a tert-butyl group.",
+    "skos:semanticRelation": [
         {
             "@id": "obo:CHEBI_33853"
         },
         {
             "@id": "obo:CHEBI_35618"
-        },
-        {
-            "@id": "b708_genid-00f1db82e1ab437c844115a94dc63e635-bn76358t11f22586"
-        },
-        {
-            "@id": "b708_genid-00f1db82e1ab437c844115a94dc63e635-bn76358t11f76967"
         }
     ]
 }

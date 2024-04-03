@@ -1,39 +1,31 @@
 {
     "@context": {
-        "chebi": "http://purl.obolibrary.org/obo/chebi/",
         "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
         "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-        "obo": "http://purl.obolibrary.org/obo/"
+        "obo": "http://purl.obolibrary.org/obo/",
+        "uniprot": "http://purl.uniprot.org/",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "concept": "https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/",
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "dbo": "http://dbpedia.org/ontology/",
+        "dbp": "http://dbpedia.org/property/",
+        "altLabel": {
+            "@id": "http://www.w3.org/2004/02/skos/core#altLabel",
+            "@language": "en"
+        },
+        "graph": {
+            "@id": "@graph"
+        }
     },
-    "@id": "obo:CHEBI_31835",
-    "@type": "http://www.w3.org/2002/07/owl#Class",
-    "obo:IAO_0000115": "A 4-hydroxybenzoate ester resulting from the formal condensation of the carboxy group of 4-hydroxybenzoic acid with methanol. It is the most frequently used antimicrobial preservative in cosmetics. It occurs naturally in several fruits, particularly in blueberries.",
+    "@id": "concept:LXCFILQKKLGQFO-UHFFFAOYSA-N",
+    "@type": "skos:Concept",
+    "dbo:formula": "C8H8O3",
+    "dbo:inchi": "InChI=1S/C8H8O3/c1-11-8(10)6-2-4-7(9)5-3-6/h2-5,9H,1H3",
+    "dbo:smiles": "COC(=O)c1ccc(O)cc1",
+    "dbp:inchikey": "LXCFILQKKLGQFO-UHFFFAOYSA-N",
     "chebi:charge": "0",
-    "chebi:formula": "C8H8O3",
-    "chebi:inchi": "InChI=1S/C8H8O3/c1-11-8(10)6-2-4-7(9)5-3-6/h2-5,9H,1H3",
-    "chebi:inchikey": "LXCFILQKKLGQFO-UHFFFAOYSA-N",
-    "chebi:smiles": "COC(=O)c1ccc(O)cc1",
-    "geneontology:hasDbXref": [
-        "CAS:99-76-3",
-        "Drug_Central:1766",
-        "HMDB:HMDB0032572",
-        "KEGG:D01400",
-        "PDBeChem:MPB",
-        "PMID:12115834",
-        "PMID:12387298",
-        "PMID:16938376",
-        "PMID:17306434",
-        "PMID:17351650",
-        "PMID:22734461",
-        "PMID:23068419",
-        "PMID:23324734",
-        "PMID:24083322",
-        "PMID:6631690",
-        "PMID:7334386",
-        "Wikipedia:Methylparaben"
-    ],
-    "geneontology:hasId": "31835",
-    "geneontology:hasSynonym": [
+    "skos:altLabel": [
         "4-hydroxybenzoic acid methyl ester",
         "E218",
         "E 218",
@@ -62,25 +54,11 @@
         "Solbrol",
         "Tegosept M"
     ],
-    "geneontology:inSubset": {
-        "@id": "obo:chebi#3_STAR"
+    "skos:exactMatch": {
+        "@id": "obo:CHEBI_31835"
     },
-    "rdfs:label": "methylparaben",
-    "rdfs:subClassOf": [
-        {
-            "@id": "obo:CHEBI_85122"
-        },
-        {
-            "@id": "b621_genid-00f1db82e1ab437c844115a94dc63e635-bn31835t11f35718"
-        },
-        {
-            "@id": "b621_genid-00f1db82e1ab437c844115a94dc63e635-bn31835t11f63726"
-        },
-        {
-            "@id": "b621_genid-00f1db82e1ab437c844115a94dc63e635-bn31835t11f65256"
-        },
-        {
-            "@id": "b621_genid-00f1db82e1ab437c844115a94dc63e635-bn31835t11f76924"
-        }
-    ]
+    "skos:note": "A 4-hydroxybenzoate ester resulting from the formal condensation of the carboxy group of 4-hydroxybenzoic acid with methanol. It is the most frequently used antimicrobial preservative in cosmetics. It occurs naturally in several fruits, particularly in blueberries.",
+    "skos:semanticRelation": {
+        "@id": "obo:CHEBI_85122"
+    }
 }

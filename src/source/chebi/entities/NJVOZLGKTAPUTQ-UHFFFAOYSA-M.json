@@ -1,38 +1,31 @@
 {
     "@context": {
-        "chebi": "http://purl.obolibrary.org/obo/chebi/",
         "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
         "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-        "obo": "http://purl.obolibrary.org/obo/"
+        "obo": "http://purl.obolibrary.org/obo/",
+        "uniprot": "http://purl.uniprot.org/",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "concept": "https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/",
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "dbo": "http://dbpedia.org/ontology/",
+        "dbp": "http://dbpedia.org/property/",
+        "altLabel": {
+            "@id": "http://www.w3.org/2004/02/skos/core#altLabel",
+            "@language": "en"
+        },
+        "graph": {
+            "@id": "@graph"
+        }
     },
-    "@id": "obo:CHEBI_35036",
-    "@type": "http://www.w3.org/2002/07/owl#Class",
-    "obo:IAO_0000115": "An organotin compound that is triphenylstannane in which the hydrogen attached to tin is replaced by a chloro group.  A fungicide used to control blights on potatoes, leaf spot diseases on sugar beet and anthracnose on beans.",
+    "@id": "concept:NJVOZLGKTAPUTQ-UHFFFAOYSA-M",
+    "@type": "skos:Concept",
+    "dbo:formula": "C18H15ClSn",
+    "dbo:inchi": "InChI=1S/3C6H5.ClH.Sn/c3*1-2-4-6-5-3-1;;/h3*1-5H;1H;/q;;;;+1/p-1",
+    "dbo:smiles": "Cl[Sn](c1ccccc1)(c1ccccc1)c1ccccc1",
+    "dbp:inchikey": "NJVOZLGKTAPUTQ-UHFFFAOYSA-M",
     "chebi:charge": "0",
-    "chebi:formula": "C18H15ClSn",
-    "chebi:inchi": "InChI=1S/3C6H5.ClH.Sn/c3*1-2-4-6-5-3-1;;/h3*1-5H;1H;/q;;;;+1/p-1",
-    "chebi:inchikey": "NJVOZLGKTAPUTQ-UHFFFAOYSA-M",
-    "chebi:smiles": "Cl[Sn](c1ccccc1)(c1ccccc1)c1ccccc1",
-    "geneontology:hasDbXref": [
-        "CAS:639-58-7",
-        "KEGG:C14413",
-        "LINCS:LSM-37196",
-        "PMID:1280083",
-        "PMID:1677872",
-        "PMID:19882143",
-        "PMID:20591183",
-        "PMID:20708649",
-        "PMID:2084225",
-        "PMID:22002760",
-        "PMID:23128992",
-        "PMID:23981671",
-        "PMID:25045140",
-        "PMID:7679203",
-        "PPDB:1477",
-        "Reaxys:524762"
-    ],
-    "geneontology:hasId": "35036",
-    "geneontology:hasSynonym": [
+    "skos:altLabel": [
         "Chlorotriphenylstannane",
         "Chlorotriphenyltin",
         "TPTC",
@@ -41,25 +34,16 @@
         "triphenylstannylium chloride",
         "Triphenyltin chloride"
     ],
-    "geneontology:inSubset": {
-        "@id": "obo:chebi#3_STAR"
+    "skos:exactMatch": {
+        "@id": "obo:CHEBI_35036"
     },
-    "rdfs:label": "fentin chloride",
-    "rdfs:subClassOf": [
+    "skos:note": "An organotin compound that is triphenylstannane in which the hydrogen attached to tin is replaced by a chloro group.  A fungicide used to control blights on potatoes, leaf spot diseases on sugar beet and anthracnose on beans.",
+    "skos:semanticRelation": [
         {
             "@id": "obo:CHEBI_23117"
         },
         {
             "@id": "obo:CHEBI_25717"
-        },
-        {
-            "@id": "b842_genid-00f1db82e1ab437c844115a94dc63e635-bn35036t8f30537"
-        },
-        {
-            "@id": "b842_genid-00f1db82e1ab437c844115a94dc63e635-bn35036t11f35705"
-        },
-        {
-            "@id": "b842_genid-00f1db82e1ab437c844115a94dc63e635-bn35036t11f86328"
         }
     ]
 }

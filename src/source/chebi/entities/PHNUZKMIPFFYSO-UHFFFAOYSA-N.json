@@ -1,34 +1,31 @@
 {
     "@context": {
-        "chebi": "http://purl.obolibrary.org/obo/chebi/",
         "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
         "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-        "obo": "http://purl.obolibrary.org/obo/"
+        "obo": "http://purl.obolibrary.org/obo/",
+        "uniprot": "http://purl.uniprot.org/",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "concept": "https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/",
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "dbo": "http://dbpedia.org/ontology/",
+        "dbp": "http://dbpedia.org/property/",
+        "altLabel": {
+            "@id": "http://www.w3.org/2004/02/skos/core#altLabel",
+            "@language": "en"
+        },
+        "graph": {
+            "@id": "@graph"
+        }
     },
-    "@id": "obo:CHEBI_34935",
-    "@type": "http://www.w3.org/2002/07/owl#Class",
-    "obo:IAO_0000115": "A member of the class of benzamides resulting from the formal condensation of the carboxy group of 3,5-dichlorobenzoic acid with the amino group of 2-methylbut-3-yn-2-amine. It is used as a systemic post-emergent herbicide for the control grass and broadleaf weeds in a wide range of in a wide variety of fruit and root crops.",
+    "@id": "concept:PHNUZKMIPFFYSO-UHFFFAOYSA-N",
+    "@type": "skos:Concept",
+    "dbo:formula": "C12H11Cl2NO",
+    "dbo:inchi": "InChI=1S/C12H11Cl2NO/c1-4-12(2,3)15-11(16)8-5-9(13)7-10(14)6-8/h1,5-7H,2-3H3,(H,15,16)",
+    "dbo:smiles": "C#CC(NC(C1=CC(=CC(=C1)Cl)Cl)=O)(C)C",
+    "dbp:inchikey": "PHNUZKMIPFFYSO-UHFFFAOYSA-N",
     "chebi:charge": "0",
-    "chebi:formula": "C12H11Cl2NO",
-    "chebi:inchi": "InChI=1S/C12H11Cl2NO/c1-4-12(2,3)15-11(16)8-5-9(13)7-10(14)6-8/h1,5-7H,2-3H3,(H,15,16)",
-    "chebi:inchikey": "PHNUZKMIPFFYSO-UHFFFAOYSA-N",
-    "chebi:smiles": "C#CC(NC(C1=CC(=CC(=C1)Cl)Cl)=O)(C)C",
-    "geneontology:hasDbXref": [
-        "CAS:23950-58-5",
-        "KEGG:C14333",
-        "Patent:US3534908",
-        "Patent:US3640699",
-        "Pesticides:propyzamide",
-        "PMID:25092647",
-        "PMID:25541381",
-        "PMID:25707858",
-        "PMID:25846364",
-        "PMID:25846366",
-        "PPDB:556",
-        "Reaxys:882391"
-    ],
-    "geneontology:hasId": "34935",
-    "geneontology:hasSynonym": [
+    "skos:altLabel": [
         "3,5-dichloro-N-(1,1-dimethyl-2-propyn-1-yl)benzamide",
         "3,5-dichloro-N-(1,1-dimethylprop-2-ynyl)benzamide",
         "3,5-dichloro-N-(2-methylbut-3-yn-2-yl)benzamide",
@@ -38,11 +35,11 @@
         "Pronamide",
         "Rustler"
     ],
-    "geneontology:inSubset": {
-        "@id": "obo:chebi#3_STAR"
+    "skos:exactMatch": {
+        "@id": "obo:CHEBI_34935"
     },
-    "rdfs:label": "propyzamide",
-    "rdfs:subClassOf": [
+    "skos:note": "A member of the class of benzamides resulting from the formal condensation of the carboxy group of 3,5-dichlorobenzoic acid with the amino group of 2-methylbut-3-yn-2-amine. It is used as a systemic post-emergent herbicide for the control grass and broadleaf weeds in a wide range of in a wide variety of fruit and root crops.",
+    "skos:semanticRelation": [
         {
             "@id": "obo:CHEBI_23697"
         },
@@ -51,12 +48,6 @@
         },
         {
             "@id": "obo:CHEBI_22702"
-        },
-        {
-            "@id": "b143_genid-00f1db82e1ab437c844115a94dc63e635-bn34935t11f24527"
-        },
-        {
-            "@id": "b143_genid-00f1db82e1ab437c844115a94dc63e635-bn34935t11f33286"
         }
     ]
 }

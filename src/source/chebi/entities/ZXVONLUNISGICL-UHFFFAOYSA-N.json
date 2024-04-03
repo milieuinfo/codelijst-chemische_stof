@@ -1,29 +1,31 @@
 {
     "@context": {
-        "chebi": "http://purl.obolibrary.org/obo/chebi/",
         "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
         "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-        "obo": "http://purl.obolibrary.org/obo/"
+        "obo": "http://purl.obolibrary.org/obo/",
+        "uniprot": "http://purl.uniprot.org/",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "concept": "https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/",
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "dbo": "http://dbpedia.org/ontology/",
+        "dbp": "http://dbpedia.org/property/",
+        "altLabel": {
+            "@id": "http://www.w3.org/2004/02/skos/core#altLabel",
+            "@language": "en"
+        },
+        "graph": {
+            "@id": "@graph"
+        }
     },
-    "@id": "obo:CHEBI_39349",
-    "@type": "http://www.w3.org/2002/07/owl#Class",
-    "obo:IAO_0000115": "A hydroxytoluene that is o-cresol carrying nitro substituents at positions 4 and 6.",
+    "@id": "concept:ZXVONLUNISGICL-UHFFFAOYSA-N",
+    "@type": "skos:Concept",
+    "dbo:formula": "C7H6N2O5",
+    "dbo:inchi": "InChI=1S/C7H6N2O5/c1-4-2-5(8(11)12)3-6(7(4)10)9(13)14/h2-3,10H,1H3",
+    "dbo:smiles": "Cc1cc(cc(c1O)[N+]([O-])=O)[N+]([O-])=O",
+    "dbp:inchikey": "ZXVONLUNISGICL-UHFFFAOYSA-N",
     "chebi:charge": "0",
-    "chebi:formula": "C7H6N2O5",
-    "chebi:inchi": "InChI=1S/C7H6N2O5/c1-4-2-5(8(11)12)3-6(7(4)10)9(13)14/h2-3,10H,1H3",
-    "chebi:inchikey": "ZXVONLUNISGICL-UHFFFAOYSA-N",
-    "chebi:smiles": "Cc1cc(cc(c1O)[N+]([O-])=O)[N+]([O-])=O",
-    "geneontology:hasDbXref": [
-        "Beilstein:2054389",
-        "CAS:534-52-1",
-        "KEGG:C18653",
-        "PMID:11775154",
-        "PMID:1960763",
-        "PPDB:261",
-        "Reaxys:2054389"
-    ],
-    "geneontology:hasId": "39349",
-    "geneontology:hasSynonym": [
+    "skos:altLabel": [
         "2,4-Dinitro-6-methylphenol",
         "2-methyl-4,6-dinitrophenol",
         "3,5-dinitro-2-hydroxytoluene",
@@ -32,11 +34,11 @@
         "Antinonnin",
         "DNOC"
     ],
-    "geneontology:inSubset": {
-        "@id": "obo:chebi#3_STAR"
+    "skos:exactMatch": {
+        "@id": "obo:CHEBI_39349"
     },
-    "rdfs:label": "4,6-dinitro-o-cresol",
-    "rdfs:subClassOf": [
+    "skos:note": "A hydroxytoluene that is o-cresol carrying nitro substituents at positions 4 and 6.",
+    "skos:semanticRelation": [
         {
             "@id": "obo:CHEBI_25566"
         },
@@ -44,22 +46,7 @@
             "@id": "obo:CHEBI_24751"
         },
         {
-            "@id": "b580_genid-00f1db82e1ab437c844115a94dc63e635-bn39349t11f24127"
-        },
-        {
-            "@id": "b580_genid-00f1db82e1ab437c844115a94dc63e635-bn39349t11f24527"
-        },
-        {
-            "@id": "b580_genid-00f1db82e1ab437c844115a94dc63e635-bn39349t8f28054"
-        },
-        {
             "@id": "obo:CHEBI_39363"
-        },
-        {
-            "@id": "b580_genid-00f1db82e1ab437c844115a94dc63e635-bn39349t11f39415"
-        },
-        {
-            "@id": "b580_genid-00f1db82e1ab437c844115a94dc63e635-bn39349t8f42017"
         }
     ]
 }

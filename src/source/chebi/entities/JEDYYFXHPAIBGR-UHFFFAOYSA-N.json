@@ -1,31 +1,31 @@
 {
     "@context": {
-        "chebi": "http://purl.obolibrary.org/obo/chebi/",
         "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
         "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-        "obo": "http://purl.obolibrary.org/obo/"
+        "obo": "http://purl.obolibrary.org/obo/",
+        "uniprot": "http://purl.uniprot.org/",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "concept": "https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/",
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "dbo": "http://dbpedia.org/ontology/",
+        "dbp": "http://dbpedia.org/property/",
+        "altLabel": {
+            "@id": "http://www.w3.org/2004/02/skos/core#altLabel",
+            "@language": "en"
+        },
+        "graph": {
+            "@id": "@graph"
+        }
     },
-    "@id": "obo:CHEBI_143863",
-    "@type": "http://www.w3.org/2002/07/owl#Class",
-    "obo:IAO_0000115": "An organofluorine compound that is 1-methyl-6-(trifluoromethyl)pyrimidine-2,4(1H,3H)-dione substituted by a 4-chloro-3-({[2-methyl-1-oxo-1-(prop-2-en-1-yloxy)propan-2-yl]oxy}carbonyl)phenyl group at position 3. It is a herbicide which inhibits the protoporphyrinogen-oxidase enzyme in plant chloroplasts, resulting in rapid knockdown of various broadleaf and grass weeds.",
+    "@id": "concept:JEDYYFXHPAIBGR-UHFFFAOYSA-N",
+    "@type": "skos:Concept",
+    "dbo:formula": "C20H18ClF3N2O6",
+    "dbo:inchi": "InChI=1S/C20H18ClF3N2O6/c1-5-8-31-17(29)19(2,3)32-16(28)12-9-11(6-7-13(12)21)26-15(27)10-14(20(22,23)24)25(4)18(26)30/h5-7,9-10H,1,8H2,2-4H3",
+    "dbo:smiles": "C=1C(N(C(N(C1C(F)(F)F)C)=O)C=2C=C(C(=CC2)Cl)C(=O)OC(C(OCC=C)=O)(C)C)=O",
+    "dbp:inchikey": "JEDYYFXHPAIBGR-UHFFFAOYSA-N",
     "chebi:charge": "0",
-    "chebi:formula": "C20H18ClF3N2O6",
-    "chebi:inchi": "InChI=1S/C20H18ClF3N2O6/c1-5-8-31-17(29)19(2,3)32-16(28)12-9-11(6-7-13(12)21)26-15(27)10-14(20(22,23)24)25(4)18(26)30/h5-7,9-10H,1,8H2,2-4H3",
-    "chebi:inchikey": "JEDYYFXHPAIBGR-UHFFFAOYSA-N",
-    "chebi:smiles": "C=1C(N(C(N(C1C(F)(F)F)C)=O)C=2C=C(C(=CC2)Cl)C(=O)OC(C(OCC=C)=O)(C)C)=O",
-    "geneontology:hasDbXref": [
-        "CAS:134605-64-4",
-        "DrugBank:DB15261",
-        "Pesticides:butafenacil",
-        "PMID:22856683",
-        "PMID:25090246",
-        "PMID:28962437",
-        "PMID:30968200",
-        "PPDB:1163",
-        "Reaxys:11322304"
-    ],
-    "geneontology:hasId": "143863",
-    "geneontology:hasSynonym": [
+    "skos:altLabel": [
         "1,1-dimethyl-2-oxo-2-(2-propen-1-yloxy)ethyl 2-chloro-5-[3,6-dihydro-3-methyl-2,6-dioxo-4-(trifluoromethyl)-1(2H)-pyrimidinyl]benzoate",
         "1-(allyloxycarbonyl)-1-methylethyl 2-chloro-5-[1,2,3,6-tetrahydro-3-methyl-2,6-dioxo-4-(trifluoromethyl)pyrimidin-1-yl]benzoate",
         "2-methyl-1-oxo-1-[(prop-2-en-1-yl)oxy]propan-2-yl 2-chloro-5-[3-methyl-2,6-dioxo-4-(trifluoromethyl)-3,6-dihydropyrimidin-1(2H)-yl]benzoate",
@@ -35,11 +35,11 @@
         "Logran B-Power",
         "Touchdown B-Power"
     ],
-    "geneontology:inSubset": {
-        "@id": "obo:chebi#3_STAR"
+    "skos:exactMatch": {
+        "@id": "obo:CHEBI_143863"
     },
-    "rdfs:label": "butafenacil",
-    "rdfs:subClassOf": [
+    "skos:note": "An organofluorine compound that is 1-methyl-6-(trifluoromethyl)pyrimidine-2,4(1H,3H)-dione substituted by a 4-chloro-3-({[2-methyl-1-oxo-1-(prop-2-en-1-yloxy)propan-2-yl]oxy}carbonyl)phenyl group at position 3. It is a herbicide which inhibits the protoporphyrinogen-oxidase enzyme in plant chloroplasts, resulting in rapid knockdown of various broadleaf and grass weeds.",
+    "skos:semanticRelation": [
         {
             "@id": "obo:CHEBI_36054"
         },
@@ -54,15 +54,6 @@
         },
         {
             "@id": "obo:CHEBI_37143"
-        },
-        {
-            "@id": "b236_genid-00f1db82e1ab437c844115a94dc63e635-bn143863t8f17568"
-        },
-        {
-            "@id": "b236_genid-00f1db82e1ab437c844115a94dc63e635-bn143863t11f24527"
-        },
-        {
-            "@id": "b236_genid-00f1db82e1ab437c844115a94dc63e635-bn143863t11f73192"
         }
     ]
 }

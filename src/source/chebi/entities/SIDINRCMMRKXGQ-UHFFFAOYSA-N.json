@@ -1,43 +1,36 @@
 {
     "@context": {
-        "chebi": "http://purl.obolibrary.org/obo/chebi/",
         "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
         "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-        "obo": "http://purl.obolibrary.org/obo/"
-    },
-    "@id": "obo:CHEBI_83493",
-    "@type": "http://www.w3.org/2002/07/owl#Class",
-    "obo:IAO_0000115": "A fluoroalkanoic acid that is perfluorinated undecanoic acid.",
-    "chebi:charge": "0",
-    "chebi:formula": "C11HF21O2",
-    "chebi:inchi": "InChI=1S/C11HF21O2/c12-2(13,1(33)34)3(14,15)4(16,17)5(18,19)6(20,21)7(22,23)8(24,25)9(26,27)10(28,29)11(30,31)32/h(H,33,34)",
-    "chebi:inchikey": "SIDINRCMMRKXGQ-UHFFFAOYSA-N",
-    "chebi:smiles": "OC(=O)C(F)(F)C(F)(F)C(F)(F)C(F)(F)C(F)(F)C(F)(F)C(F)(F)C(F)(F)C(F)(F)C(F)(F)F",
-    "geneontology:hasDbXref": [
-        "PMID:24952613",
-        "CAS:2058-94-8",
-        "PMID:24418714",
-        "PMID:24486970",
-        "Reaxys:2318888"
-    ],
-    "geneontology:hasId": "83493",
-    "geneontology:hasSynonym": "henicosafluoroundecanoic acid",
-    "geneontology:inSubset": {
-        "@id": "obo:chebi#3_STAR"
-    },
-    "rdfs:label": "perfluoroundecanoic acid",
-    "rdfs:subClassOf": [
-        {
-            "@id": "obo:CHEBI_35551"
+        "obo": "http://purl.obolibrary.org/obo/",
+        "uniprot": "http://purl.uniprot.org/",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "concept": "https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/",
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "dbo": "http://dbpedia.org/ontology/",
+        "dbp": "http://dbpedia.org/property/",
+        "altLabel": {
+            "@id": "http://www.w3.org/2004/02/skos/core#altLabel",
+            "@language": "en"
         },
-        {
-            "@id": "b607_genid-00f1db82e1ab437c844115a94dc63e635-bn83493t8f32368"
-        },
-        {
-            "@id": "b607_genid-00f1db82e1ab437c844115a94dc63e635-bn83493t11f35703"
-        },
-        {
-            "@id": "b607_genid-00f1db82e1ab437c844115a94dc63e635-bn83493t11f78298"
+        "graph": {
+            "@id": "@graph"
         }
-    ]
+    },
+    "@id": "concept:SIDINRCMMRKXGQ-UHFFFAOYSA-N",
+    "@type": "skos:Concept",
+    "dbo:formula": "C11HF21O2",
+    "dbo:inchi": "InChI=1S/C11HF21O2/c12-2(13,1(33)34)3(14,15)4(16,17)5(18,19)6(20,21)7(22,23)8(24,25)9(26,27)10(28,29)11(30,31)32/h(H,33,34)",
+    "dbo:smiles": "OC(=O)C(F)(F)C(F)(F)C(F)(F)C(F)(F)C(F)(F)C(F)(F)C(F)(F)C(F)(F)C(F)(F)C(F)(F)F",
+    "dbp:inchikey": "SIDINRCMMRKXGQ-UHFFFAOYSA-N",
+    "chebi:charge": "0",
+    "skos:altLabel": "henicosafluoroundecanoic acid",
+    "skos:exactMatch": {
+        "@id": "obo:CHEBI_83493"
+    },
+    "skos:note": "A fluoroalkanoic acid that is perfluorinated undecanoic acid.",
+    "skos:semanticRelation": {
+        "@id": "obo:CHEBI_35551"
+    }
 }

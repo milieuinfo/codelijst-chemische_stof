@@ -1,44 +1,31 @@
 {
     "@context": {
-        "chebi": "http://purl.obolibrary.org/obo/chebi/",
         "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
         "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-        "obo": "http://purl.obolibrary.org/obo/"
+        "obo": "http://purl.obolibrary.org/obo/",
+        "uniprot": "http://purl.uniprot.org/",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "concept": "https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/",
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "dbo": "http://dbpedia.org/ontology/",
+        "dbp": "http://dbpedia.org/property/",
+        "altLabel": {
+            "@id": "http://www.w3.org/2004/02/skos/core#altLabel",
+            "@language": "en"
+        },
+        "graph": {
+            "@id": "@graph"
+        }
     },
-    "@id": "obo:CHEBI_27750",
-    "@type": "http://www.w3.org/2002/07/owl#Class",
-    "obo:IAO_0000115": "The acetate ester formed between acetic acid and ethanol.",
+    "@id": "concept:XEKOWRVHYACXOJ-UHFFFAOYSA-N",
+    "@type": "skos:Concept",
+    "dbo:formula": "C4H8O2",
+    "dbo:inchi": "InChI=1S/C4H8O2/c1-3-6-4(2)5/h3H2,1-2H3",
+    "dbo:smiles": "CCOC(C)=O",
+    "dbp:inchikey": "XEKOWRVHYACXOJ-UHFFFAOYSA-N",
     "chebi:charge": "0",
-    "chebi:formula": "C4H8O2",
-    "chebi:inchi": "InChI=1S/C4H8O2/c1-3-6-4(2)5/h3H2,1-2H3",
-    "chebi:inchikey": "XEKOWRVHYACXOJ-UHFFFAOYSA-N",
-    "chebi:smiles": "CCOC(C)=O",
-    "http://purl.uniprot.org/core/name": "ethyl acetate",
-    "geneontology:hasDbXref": [
-        "KEGG:C01883",
-        "PMID:11684179",
-        "Beilstein:506104",
-        "CAS:141-78-6",
-        "Gmelin:26306",
-        "HMDB:HMDB0031217",
-        "KEGG:C00849",
-        "KEGG:D02319",
-        "KNApSAcK:C00001308",
-        "PDBeChem:EEE",
-        "PMID:15497757",
-        "PMID:21764274",
-        "PMID:21797203",
-        "PMID:23078109",
-        "PMID:23089728",
-        "PMID:23108979",
-        "PMID:23351147",
-        "PMID:23614288",
-        "Reaxys:506104",
-        "UM-BBD_compID:c0036",
-        "Wikipedia:Ethyl_acetate"
-    ],
-    "geneontology:hasId": "27750",
-    "geneontology:hasSynonym": [
+    "skos:altLabel": [
         "Acetyl ester",
         "1-acetoxyethane",
         "acetic acid, ethyl ester",
@@ -58,11 +45,11 @@
         "EtOAc",
         "vinegar naphtha"
     ],
-    "geneontology:inSubset": {
-        "@id": "obo:chebi#3_STAR"
+    "skos:exactMatch": {
+        "@id": "obo:CHEBI_27750"
     },
-    "rdfs:label": "ethyl acetate",
-    "rdfs:subClassOf": [
+    "skos:note": "The acetate ester formed between acetic acid and ethanol.",
+    "skos:semanticRelation": [
         {
             "@id": "obo:CHEBI_47622"
         },
@@ -71,18 +58,6 @@
         },
         {
             "@id": "obo:CHEBI_134179"
-        },
-        {
-            "@id": "b162_genid-00f1db82e1ab437c844115a94dc63e635-bn27750t11f25212"
-        },
-        {
-            "@id": "b162_genid-00f1db82e1ab437c844115a94dc63e635-bn27750t11f48358"
-        },
-        {
-            "@id": "b162_genid-00f1db82e1ab437c844115a94dc63e635-bn27750t11f75772"
-        },
-        {
-            "@id": "b162_genid-00f1db82e1ab437c844115a94dc63e635-bn27750t11f77706"
         }
     ]
 }

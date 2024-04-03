@@ -1,25 +1,31 @@
 {
     "@context": {
-        "chebi": "http://purl.obolibrary.org/obo/chebi/",
         "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
         "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-        "obo": "http://purl.obolibrary.org/obo/"
+        "obo": "http://purl.obolibrary.org/obo/",
+        "uniprot": "http://purl.uniprot.org/",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "concept": "https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/",
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "dbo": "http://dbpedia.org/ontology/",
+        "dbp": "http://dbpedia.org/property/",
+        "altLabel": {
+            "@id": "http://www.w3.org/2004/02/skos/core#altLabel",
+            "@language": "en"
+        },
+        "graph": {
+            "@id": "@graph"
+        }
     },
-    "@id": "obo:CHEBI_38658",
-    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "@id": "concept:VEENJGZXVHKXNB-VOTSOKGWSA-N",
+    "@type": "skos:Concept",
+    "dbo:formula": "C8H16NO5P",
+    "dbo:inchi": "InChI=1S/C8H16NO5P/c1-7(6-8(10)9(2)3)14-15(11,12-4)13-5/h6H,1-5H3/b7-6+",
+    "dbo:smiles": "COP(=O)(OC)O\\C(C)=C\\C(=O)N(C)C",
+    "dbp:inchikey": "VEENJGZXVHKXNB-VOTSOKGWSA-N",
     "chebi:charge": "0",
-    "chebi:formula": "C8H16NO5P",
-    "chebi:inchi": "InChI=1S/C8H16NO5P/c1-7(6-8(10)9(2)3)14-15(11,12-4)13-5/h6H,1-5H3/b7-6+",
-    "chebi:inchikey": "VEENJGZXVHKXNB-VOTSOKGWSA-N",
-    "chebi:smiles": "COP(=O)(OC)O\\C(C)=C\\C(=O)N(C)C",
-    "geneontology:hasDbXref": [
-        "Beilstein:1880084",
-        "CAS:141-66-2",
-        "KEGG:C18656",
-        "PPDB:224"
-    ],
-    "geneontology:hasId": "38658",
-    "geneontology:hasSynonym": [
+    "skos:altLabel": [
         "(1E)-3-(dimethylamino)-1-methyl-3-oxoprop-1-en-1-yl dimethyl phosphate",
         "(E)-2-Dimethylcarbamoyl-1-methylvinyl dimethyl phosphate",
         "(E)-Phosphoric acid, 3-(dimethylamino)-1-methyl-3-oxo-1-propenyl dimethyl ester",
@@ -28,28 +34,15 @@
         "Bidrin",
         "Dimethyl (E)-2-dimethyl-carbamoyl-1-methylvinyl phosphate"
     ],
-    "geneontology:inSubset": {
-        "@id": "obo:chebi#3_STAR"
+    "skos:exactMatch": {
+        "@id": "obo:CHEBI_38658"
     },
-    "rdfs:label": "dicrotophos",
-    "rdfs:subClassOf": [
+    "skos:semanticRelation": [
         {
             "@id": "obo:CHEBI_16648"
         },
         {
             "@id": "obo:CHEBI_25708"
-        },
-        {
-            "@id": "b889_genid-00f1db82e1ab437c844115a94dc63e635-bn38658t11f22153"
-        },
-        {
-            "@id": "b889_genid-00f1db82e1ab437c844115a94dc63e635-bn38658t11f33286"
-        },
-        {
-            "@id": "b889_genid-00f1db82e1ab437c844115a94dc63e635-bn38658t11f33289"
-        },
-        {
-            "@id": "b889_genid-00f1db82e1ab437c844115a94dc63e635-bn38658t11f38462"
         }
     ]
 }

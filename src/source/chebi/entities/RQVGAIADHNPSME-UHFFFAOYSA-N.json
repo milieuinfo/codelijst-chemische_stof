@@ -1,25 +1,31 @@
 {
     "@context": {
-        "chebi": "http://purl.obolibrary.org/obo/chebi/",
         "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
         "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-        "obo": "http://purl.obolibrary.org/obo/"
+        "obo": "http://purl.obolibrary.org/obo/",
+        "uniprot": "http://purl.uniprot.org/",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "concept": "https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/",
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "dbo": "http://dbpedia.org/ontology/",
+        "dbp": "http://dbpedia.org/property/",
+        "altLabel": {
+            "@id": "http://www.w3.org/2004/02/skos/core#altLabel",
+            "@language": "en"
+        },
+        "graph": {
+            "@id": "@graph"
+        }
     },
-    "@id": "obo:CHEBI_38587",
-    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "@id": "concept:RQVGAIADHNPSME-UHFFFAOYSA-N",
+    "@type": "skos:Concept",
+    "dbo:formula": "C12H16N3O3PS2",
+    "dbo:inchi": "InChI=1S/C12H16N3O3PS2/c1-3-17-19(20,18-4-2)21-9-15-12(16)10-7-5-6-8-11(10)13-14-15/h5-8H,3-4,9H2,1-2H3",
+    "dbo:smiles": "CCOP(=S)(OCC)SCn1nnc2ccccc2c1=O",
+    "dbp:inchikey": "RQVGAIADHNPSME-UHFFFAOYSA-N",
     "chebi:charge": "0",
-    "chebi:formula": "C12H16N3O3PS2",
-    "chebi:inchi": "InChI=1S/C12H16N3O3PS2/c1-3-17-19(20,18-4-2)21-9-15-12(16)10-7-5-6-8-11(10)13-14-15/h5-8H,3-4,9H2,1-2H3",
-    "chebi:inchikey": "RQVGAIADHNPSME-UHFFFAOYSA-N",
-    "chebi:smiles": "CCOP(=S)(OCC)SCn1nnc2ccccc2c1=O",
-    "geneontology:hasDbXref": [
-        "Beilstein:297468",
-        "CAS:2642-71-9",
-        "KEGG:C18644",
-        "PPDB:50"
-    ],
-    "geneontology:hasId": "38587",
-    "geneontology:hasSynonym": [
+    "skos:altLabel": [
         "3,4-Dihydro-4-oxo-3-benzotriazinylmethyl O,O-diethyl phosphorodithioate",
         "Azinphos ethyl",
         "Ethyl azinphos",
@@ -28,28 +34,15 @@
         "O,O-diethyl S-[(4-oxo-1,2,3-benzotriazin-3(4H)-yl)methyl] phosphorodithioate",
         "Phosphorodithioic acid, O,O-diethyl S-((4-oxo-1,2,3-benzotriazin-3(4H)-yl)methyl) ester"
     ],
-    "geneontology:inSubset": {
-        "@id": "obo:chebi#3_STAR"
+    "skos:exactMatch": {
+        "@id": "obo:CHEBI_38587"
     },
-    "rdfs:label": "azinphos-ethyl",
-    "rdfs:subClassOf": [
+    "skos:semanticRelation": [
         {
             "@id": "obo:CHEBI_37512"
         },
         {
             "@id": "obo:CHEBI_25715"
-        },
-        {
-            "@id": "b496_genid-00f1db82e1ab437c844115a94dc63e635-bn38587t11f22153"
-        },
-        {
-            "@id": "b496_genid-00f1db82e1ab437c844115a94dc63e635-bn38587t11f33286"
-        },
-        {
-            "@id": "b496_genid-00f1db82e1ab437c844115a94dc63e635-bn38587t11f38462"
-        },
-        {
-            "@id": "b496_genid-00f1db82e1ab437c844115a94dc63e635-bn38587t9f38586"
         }
     ]
 }

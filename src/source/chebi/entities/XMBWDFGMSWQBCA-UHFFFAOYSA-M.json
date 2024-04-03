@@ -1,27 +1,31 @@
 {
     "@context": {
-        "chebi": "http://purl.obolibrary.org/obo/chebi/",
         "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
         "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-        "obo": "http://purl.obolibrary.org/obo/"
+        "obo": "http://purl.obolibrary.org/obo/",
+        "uniprot": "http://purl.uniprot.org/",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "concept": "https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/",
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "dbo": "http://dbpedia.org/ontology/",
+        "dbp": "http://dbpedia.org/property/",
+        "altLabel": {
+            "@id": "http://www.w3.org/2004/02/skos/core#altLabel",
+            "@language": "en"
+        },
+        "graph": {
+            "@id": "@graph"
+        }
     },
-    "@id": "obo:CHEBI_16382",
-    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "@id": "concept:XMBWDFGMSWQBCA-UHFFFAOYSA-M",
+    "@type": "skos:Concept",
+    "dbo:formula": "I",
+    "dbo:inchi": "InChI=1S/HI/h1H/p-1",
+    "dbo:smiles": "[I-]",
+    "dbp:inchikey": "XMBWDFGMSWQBCA-UHFFFAOYSA-M",
     "chebi:charge": "-1",
-    "chebi:formula": "I",
-    "chebi:inchi": "InChI=1S/HI/h1H/p-1",
-    "chebi:inchikey": "XMBWDFGMSWQBCA-UHFFFAOYSA-M",
-    "chebi:smiles": "[I-]",
-    "http://purl.uniprot.org/core/name": "iodide",
-    "geneontology:hasDbXref": [
-        "Beilstein:3587184",
-        "CAS:20461-54-5",
-        "Gmelin:14912",
-        "KEGG:C00708",
-        "PDBeChem:IOD"
-    ],
-    "geneontology:hasId": "16382",
-    "geneontology:hasSynonym": [
+    "skos:altLabel": [
         "I-",
         "I(-)",
         "Iodide",
@@ -29,22 +33,15 @@
         "IODIDE ION",
         "iodine anion"
     ],
-    "geneontology:inSubset": {
-        "@id": "obo:chebi#3_STAR"
+    "skos:exactMatch": {
+        "@id": "obo:CHEBI_16382"
     },
-    "rdfs:label": "iodide",
-    "rdfs:subClassOf": [
+    "skos:semanticRelation": [
         {
             "@id": "obo:CHEBI_16042"
         },
         {
             "@id": "obo:CHEBI_36897"
-        },
-        {
-            "@id": "b210_genid-00f1db82e1ab437c844115a94dc63e635-bn16382t5f43451"
-        },
-        {
-            "@id": "b210_genid-00f1db82e1ab437c844115a94dc63e635-bn16382t11f77746"
         }
     ]
 }

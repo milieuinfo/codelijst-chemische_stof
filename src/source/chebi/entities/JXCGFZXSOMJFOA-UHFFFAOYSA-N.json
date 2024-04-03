@@ -1,59 +1,46 @@
 {
     "@context": {
-        "chebi": "http://purl.obolibrary.org/obo/chebi/",
         "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
         "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-        "obo": "http://purl.obolibrary.org/obo/"
+        "obo": "http://purl.obolibrary.org/obo/",
+        "uniprot": "http://purl.uniprot.org/",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "concept": "https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/",
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "dbo": "http://dbpedia.org/ontology/",
+        "dbp": "http://dbpedia.org/property/",
+        "altLabel": {
+            "@id": "http://www.w3.org/2004/02/skos/core#altLabel",
+            "@language": "en"
+        },
+        "graph": {
+            "@id": "@graph"
+        }
     },
-    "@id": "obo:CHEBI_81981",
-    "@type": "http://www.w3.org/2002/07/owl#Class",
-    "obo:IAO_0000115": "A member of the class of phenylureas that is urea in which one of the nitrogens is substituted by two methyl groups while the other is substituted by a 3-chloro-4-methylphenyl group. A herbicide that is non-toxic to honeybees but moderately toxic to mammals, birds, earthworms and most aquatic organisms.",
+    "@id": "concept:JXCGFZXSOMJFOA-UHFFFAOYSA-N",
+    "@type": "skos:Concept",
+    "dbo:formula": "C10H13ClN2O",
+    "dbo:inchi": "InChI=1S/C10H13ClN2O/c1-7-4-5-8(6-9(7)11)12-10(14)13(2)3/h4-6H,1-3H3,(H,12,14)",
+    "dbo:smiles": "CN(C)C(=O)Nc1ccc(C)c(Cl)c1",
+    "dbp:inchikey": "JXCGFZXSOMJFOA-UHFFFAOYSA-N",
     "chebi:charge": "0",
-    "chebi:formula": "C10H13ClN2O",
-    "chebi:inchi": "InChI=1S/C10H13ClN2O/c1-7-4-5-8(6-9(7)11)12-10(14)13(2)3/h4-6H,1-3H3,(H,12,14)",
-    "chebi:inchikey": "JXCGFZXSOMJFOA-UHFFFAOYSA-N",
-    "chebi:smiles": "CN(C)C(=O)Nc1ccc(C)c(Cl)c1",
-    "http://purl.uniprot.org/core/name": "chlorotoluron",
-    "geneontology:hasDbXref": [
-        "CAS:15545-48-9",
-        "KEGG:C18817",
-        "Pesticides:chlorotoluron",
-        "PMID:22927226",
-        "PMID:23819841",
-        "PMID:24485315",
-        "PPDB:151",
-        "Reaxys:2647688",
-        "Wikipedia:Chlortoluron"
-    ],
-    "geneontology:hasId": "81981",
-    "geneontology:hasSynonym": [
+    "skos:altLabel": [
         "3-(3-chloro-4-methylphenyl)-1,1-dimethylurea",
         "3-(3-chloro-p-tolyl)-1,1-dimethylurea",
         "chlortoluron",
         "N'-(3-chloro-4-methylphenyl)-N,N-dimethylurea"
     ],
-    "geneontology:inSubset": {
-        "@id": "obo:chebi#3_STAR"
+    "skos:exactMatch": {
+        "@id": "obo:CHEBI_81981"
     },
-    "rdfs:label": "chlorotoluron",
-    "rdfs:subClassOf": [
+    "skos:note": "A member of the class of phenylureas that is urea in which one of the nitrogens is substituted by two methyl groups while the other is substituted by a 3-chloro-4-methylphenyl group. A herbicide that is non-toxic to honeybees but moderately toxic to mammals, birds, earthworms and most aquatic organisms.",
+    "skos:semanticRelation": [
         {
             "@id": "obo:CHEBI_83403"
         },
         {
             "@id": "obo:CHEBI_134043"
-        },
-        {
-            "@id": "b340_genid-00f1db82e1ab437c844115a94dc63e635-bn81981t11f24527"
-        },
-        {
-            "@id": "b340_genid-00f1db82e1ab437c844115a94dc63e635-bn81981t11f33286"
-        },
-        {
-            "@id": "b340_genid-00f1db82e1ab437c844115a94dc63e635-bn81981t11f35703"
-        },
-        {
-            "@id": "b340_genid-00f1db82e1ab437c844115a94dc63e635-bn81981t11f78298"
         }
     ]
 }

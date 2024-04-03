@@ -1,46 +1,39 @@
 {
     "@context": {
-        "chebi": "http://purl.obolibrary.org/obo/chebi/",
         "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
         "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-        "obo": "http://purl.obolibrary.org/obo/"
+        "obo": "http://purl.obolibrary.org/obo/",
+        "uniprot": "http://purl.uniprot.org/",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "concept": "https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/",
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "dbo": "http://dbpedia.org/ontology/",
+        "dbp": "http://dbpedia.org/property/",
+        "altLabel": {
+            "@id": "http://www.w3.org/2004/02/skos/core#altLabel",
+            "@language": "en"
+        },
+        "graph": {
+            "@id": "@graph"
+        }
     },
-    "@id": "obo:CHEBI_32936",
-    "@type": "http://www.w3.org/2002/07/owl#Class",
-    "obo:IAO_0000115": "A straight-chain alkane containing 24 carbon atoms.",
+    "@id": "concept:POOSGDOYLQNASK-UHFFFAOYSA-N",
+    "@type": "skos:Concept",
+    "dbo:formula": "C24H50",
+    "dbo:inchi": "InChI=1S/C24H50/c1-3-5-7-9-11-13-15-17-19-21-23-24-22-20-18-16-14-12-10-8-6-4-2/h3-24H2,1-2H3",
+    "dbo:smiles": "CCCCCCCCCCCCCCCCCCCCCCCC",
+    "dbp:inchikey": "POOSGDOYLQNASK-UHFFFAOYSA-N",
     "chebi:charge": "0",
-    "chebi:formula": "C24H50",
-    "chebi:inchi": "InChI=1S/C24H50/c1-3-5-7-9-11-13-15-17-19-21-23-24-22-20-18-16-14-12-10-8-6-4-2/h3-24H2,1-2H3",
-    "chebi:inchikey": "POOSGDOYLQNASK-UHFFFAOYSA-N",
-    "chebi:smiles": "CCCCCCCCCCCCCCCCCCCCCCCC",
-    "geneontology:hasDbXref": [
-        "Beilstein:1758462",
-        "CAS:646-31-1",
-        "KNApSAcK:C00032307",
-        "PMID:22906240",
-        "PMID:25050317",
-        "PMID:25154406",
-        "Reaxys:1758462",
-        "Wikipedia:Tetracosane"
-    ],
-    "geneontology:hasId": "32936",
-    "geneontology:hasSynonym": [
+    "skos:altLabel": [
         "CH3-[CH2]22-CH3",
         "n-tetracosane"
     ],
-    "geneontology:inSubset": {
-        "@id": "obo:chebi#3_STAR"
+    "skos:exactMatch": {
+        "@id": "obo:CHEBI_32936"
     },
-    "rdfs:label": "tetracosane",
-    "rdfs:subClassOf": [
-        {
-            "@id": "obo:CHEBI_83563"
-        },
-        {
-            "@id": "b171_genid-00f1db82e1ab437c844115a94dc63e635-bn32936t11f27311"
-        },
-        {
-            "@id": "b171_genid-00f1db82e1ab437c844115a94dc63e635-bn32936t11f76924"
-        }
-    ]
+    "skos:note": "A straight-chain alkane containing 24 carbon atoms.",
+    "skos:semanticRelation": {
+        "@id": "obo:CHEBI_83563"
+    }
 }

@@ -1,49 +1,41 @@
 {
     "@context": {
-        "chebi": "http://purl.obolibrary.org/obo/chebi/",
         "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
         "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-        "obo": "http://purl.obolibrary.org/obo/"
+        "obo": "http://purl.obolibrary.org/obo/",
+        "uniprot": "http://purl.uniprot.org/",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "concept": "https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/",
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "dbo": "http://dbpedia.org/ontology/",
+        "dbp": "http://dbpedia.org/property/",
+        "graph": {
+            "@id": "@graph"
+        }
     },
-    "@id": "obo:CHEBI_38504",
-    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "@id": "concept:HAWJXYBZNNRMNO-UHFFFAOYSA-N",
+    "@type": "skos:Concept",
+    "dbo:formula": "C18H26N2O5S",
+    "dbo:inchi": "InChI=1S/C18H26N2O5S/c1-6-7-11-23-16(21)19(4)26-20(5)17(22)24-14-10-8-9-13-12-18(2,3)25-15(13)14/h8-10H,6-7,11-12H2,1-5H3",
+    "dbo:smiles": "CCCCOC(=O)N(C)SN(C)C(=O)Oc1cccc2CC(C)(C)Oc12",
+    "dbp:inchikey": "HAWJXYBZNNRMNO-UHFFFAOYSA-N",
     "chebi:charge": "0",
-    "chebi:formula": "C18H26N2O5S",
-    "chebi:inchi": "InChI=1S/C18H26N2O5S/c1-6-7-11-23-16(21)19(4)26-20(5)17(22)24-14-10-8-9-13-12-18(2,3)25-15(13)14/h8-10H,6-7,11-12H2,1-5H3",
-    "chebi:inchikey": "HAWJXYBZNNRMNO-UHFFFAOYSA-N",
-    "chebi:smiles": "CCCCOC(=O)N(C)SN(C)C(=O)Oc1cccc2CC(C)(C)Oc12",
-    "geneontology:hasDbXref": [
-        "Beilstein:8396473",
-        "CAS:65907-30-4",
-        "KEGG:C18650",
-        "PPDB:367"
-    ],
-    "geneontology:hasId": "38504",
-    "geneontology:hasSynonym": [
+    "skos:altLabel": [
         "2,3-Dihydro-2,2-dimethyl-7-benzofuranyl 2,4-dimethyl-5-oxo-6-oxa-3-thia-2,4-diazadecanoate",
         "butyl 2,2-dimethyl-2,3-dihydro-1-benzofuran-7-yl sulfanediylbis(methylcarbamate)",
         "Butyl 2,3-dihydro-2,2-dimethylbenzofuran-7-yl N,N-dimethyl-N,N-thiodicarbamate",
         "Deltanit"
     ],
-    "geneontology:inSubset": {
-        "@id": "obo:chebi#3_STAR"
+    "skos:exactMatch": {
+        "@id": "obo:CHEBI_38504"
     },
-    "rdfs:label": "furathiocarb",
-    "rdfs:subClassOf": [
+    "skos:semanticRelation": [
         {
             "@id": "obo:CHEBI_23003"
         },
         {
             "@id": "obo:CHEBI_38830"
-        },
-        {
-            "@id": "b831_genid-00f1db82e1ab437c844115a94dc63e635-bn38504t11f33286"
-        },
-        {
-            "@id": "b831_genid-00f1db82e1ab437c844115a94dc63e635-bn38504t11f38461"
-        },
-        {
-            "@id": "b831_genid-00f1db82e1ab437c844115a94dc63e635-bn38504t11f38462"
         }
     ]
 }

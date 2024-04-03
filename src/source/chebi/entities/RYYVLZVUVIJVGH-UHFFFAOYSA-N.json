@@ -1,104 +1,31 @@
 {
     "@context": {
-        "chebi": "http://purl.obolibrary.org/obo/chebi/",
         "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
         "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-        "obo": "http://purl.obolibrary.org/obo/"
+        "obo": "http://purl.obolibrary.org/obo/",
+        "uniprot": "http://purl.uniprot.org/",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "concept": "https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/",
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "dbo": "http://dbpedia.org/ontology/",
+        "dbp": "http://dbpedia.org/property/",
+        "altLabel": {
+            "@id": "http://www.w3.org/2004/02/skos/core#altLabel",
+            "@language": "en"
+        },
+        "graph": {
+            "@id": "@graph"
+        }
     },
-    "@id": "obo:CHEBI_27732",
-    "@type": "http://www.w3.org/2002/07/owl#Class",
-    "obo:IAO_0000115": "A trimethylxanthine in which the three methyl groups are located at positions 1, 3, and 7. A purine alkaloid that occurs naturally in tea and coffee.",
+    "@id": "concept:RYYVLZVUVIJVGH-UHFFFAOYSA-N",
+    "@type": "skos:Concept",
+    "dbo:formula": "C8H10N4O2",
+    "dbo:inchi": "InChI=1S/C8H10N4O2/c1-10-4-9-6-5(10)7(13)12(3)8(14)11(6)2/h4H,1-3H3",
+    "dbo:smiles": "Cn1cnc2n(C)c(=O)n(C)c(=O)c12",
+    "dbp:inchikey": "RYYVLZVUVIJVGH-UHFFFAOYSA-N",
     "chebi:charge": "0",
-    "chebi:formula": "C8H10N4O2",
-    "chebi:inchi": "InChI=1S/C8H10N4O2/c1-10-4-9-6-5(10)7(13)12(3)8(14)11(6)2/h4H,1-3H3",
-    "chebi:inchikey": "RYYVLZVUVIJVGH-UHFFFAOYSA-N",
-    "chebi:smiles": "Cn1cnc2n(C)c(=O)n(C)c(=O)c12",
-    "http://purl.uniprot.org/core/name": "caffeine",
-    "geneontology:hasDbXref": [
-        "PMID:22770225",
-        "PMID:11949272",
-        "PMID:22114686",
-        "PMID:11209966",
-        "Beilstein:17705",
-        "CAS:58-08-2",
-        "Drug_Central:463",
-        "DrugBank:DB00201",
-        "Gmelin:103040",
-        "HMDB:HMDB0001847",
-        "KEGG:C07481",
-        "KEGG:D00528",
-        "KNApSAcK:C00001492",
-        "LINCS:LSM-2026",
-        "MetaCyc:1-3-7-TRIMETHYLXANTHINE",
-        "PDBeChem:CFF",
-        "PMID:10510174",
-        "PMID:10796597",
-        "PMID:10803761",
-        "PMID:10822912",
-        "PMID:10884512",
-        "PMID:10924888",
-        "PMID:10983026",
-        "PMID:11014293",
-        "PMID:11022879",
-        "PMID:11312039",
-        "PMID:11410911",
-        "PMID:11431501",
-        "PMID:11815511",
-        "PMID:12397877",
-        "PMID:12457274",
-        "PMID:12574990",
-        "PMID:12915014",
-        "PMID:12943586",
-        "PMID:14521986",
-        "PMID:14607010",
-        "PMID:15257305",
-        "PMID:15280431",
-        "PMID:15681408",
-        "PMID:15718055",
-        "PMID:15840517",
-        "PMID:16143823",
-        "PMID:16391865",
-        "PMID:16528931",
-        "PMID:16644114",
-        "PMID:16709440",
-        "PMID:16805851",
-        "PMID:16856769",
-        "PMID:17132260",
-        "PMID:17387608",
-        "PMID:17508167",
-        "PMID:17724925",
-        "PMID:17932622",
-        "PMID:17957400",
-        "PMID:18068204",
-        "PMID:18258404",
-        "PMID:18421070",
-        "PMID:18513215",
-        "PMID:18625110",
-        "PMID:18647558",
-        "PMID:19007524",
-        "PMID:19047957",
-        "PMID:19084078",
-        "PMID:19088793",
-        "PMID:19418355",
-        "PMID:19879252",
-        "PMID:20164568",
-        "PMID:20470411",
-        "PMID:23551936",
-        "PMID:24039592",
-        "PMID:7441110",
-        "PMID:7689104",
-        "PMID:8332255",
-        "PMID:8347173",
-        "PMID:8679661",
-        "PMID:9063686",
-        "PMID:9067318",
-        "PMID:9132918",
-        "PMID:9218278",
-        "Reaxys:17705",
-        "Wikipedia:Caffeine"
-    ],
-    "geneontology:hasId": "27732",
-    "geneontology:hasSynonym": [
+    "skos:altLabel": [
         "1,3,7-trimethyl-2,6-dioxopurine",
         "1,3,7-trimethyl-3,7-dihydro-1H-purine-2,6-dione",
         "1,3,7-trimethylpurine-2,6-dione",
@@ -121,70 +48,16 @@
         "Thein",
         "theine"
     ],
-    "geneontology:inSubset": {
-        "@id": "obo:chebi#3_STAR"
+    "skos:exactMatch": {
+        "@id": "obo:CHEBI_27732"
     },
-    "rdfs:label": "caffeine",
-    "rdfs:subClassOf": [
+    "skos:note": "A trimethylxanthine in which the three methyl groups are located at positions 1, 3, and 7. A purine alkaloid that occurs naturally in tea and coffee.",
+    "skos:semanticRelation": [
         {
             "@id": "obo:CHEBI_26385"
         },
         {
             "@id": "obo:CHEBI_27134"
-        },
-        {
-            "@id": "b555_genid-00f1db82e1ab437c844115a94dc63e635-bn27732t11f25435"
-        },
-        {
-            "@id": "b555_genid-00f1db82e1ab437c844115a94dc63e635-bn27732t11f35337"
-        },
-        {
-            "@id": "b555_genid-00f1db82e1ab437c844115a94dc63e635-bn27732t11f35471"
-        },
-        {
-            "@id": "b555_genid-00f1db82e1ab437c844115a94dc63e635-bn27732t11f35498"
-        },
-        {
-            "@id": "b555_genid-00f1db82e1ab437c844115a94dc63e635-bn27732t11f35703"
-        },
-        {
-            "@id": "b555_genid-00f1db82e1ab437c844115a94dc63e635-bn27732t11f50218"
-        },
-        {
-            "@id": "b555_genid-00f1db82e1ab437c844115a94dc63e635-bn27732t11f50925"
-        },
-        {
-            "@id": "b555_genid-00f1db82e1ab437c844115a94dc63e635-bn27732t11f53121"
-        },
-        {
-            "@id": "b555_genid-00f1db82e1ab437c844115a94dc63e635-bn27732t11f60809"
-        },
-        {
-            "@id": "b555_genid-00f1db82e1ab437c844115a94dc63e635-bn27732t11f64047"
-        },
-        {
-            "@id": "b555_genid-00f1db82e1ab437c844115a94dc63e635-bn27732t11f67114"
-        },
-        {
-            "@id": "b555_genid-00f1db82e1ab437c844115a94dc63e635-bn27732t11f71232"
-        },
-        {
-            "@id": "b555_genid-00f1db82e1ab437c844115a94dc63e635-bn27732t11f75771"
-        },
-        {
-            "@id": "b555_genid-00f1db82e1ab437c844115a94dc63e635-bn27732t11f76924"
-        },
-        {
-            "@id": "b555_genid-00f1db82e1ab437c844115a94dc63e635-bn27732t11f76946"
-        },
-        {
-            "@id": "b555_genid-00f1db82e1ab437c844115a94dc63e635-bn27732t11f78298"
-        },
-        {
-            "@id": "b555_genid-00f1db82e1ab437c844115a94dc63e635-bn27732t11f85234"
-        },
-        {
-            "@id": "b555_genid-00f1db82e1ab437c844115a94dc63e635-bn27732t11f176497"
         }
     ]
 }

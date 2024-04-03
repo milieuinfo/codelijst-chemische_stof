@@ -1,46 +1,27 @@
 {
     "@context": {
-        "chebi": "http://purl.obolibrary.org/obo/chebi/",
         "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
         "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-        "obo": "http://purl.obolibrary.org/obo/"
+        "obo": "http://purl.obolibrary.org/obo/",
+        "uniprot": "http://purl.uniprot.org/",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "concept": "https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/",
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "dbo": "http://dbpedia.org/ontology/",
+        "dbp": "http://dbpedia.org/property/",
+        "graph": {
+            "@id": "@graph"
+        }
     },
-    "@id": "obo:CHEBI_34699",
-    "@type": "http://www.w3.org/2002/07/owl#Class",
-    "obo:IAO_0000115": "The diethyl ester of sulfuric acid.",
+    "@id": "concept:DENRZWYUOJLTMF-UHFFFAOYSA-N",
+    "@type": "skos:Concept",
+    "dbo:formula": "C4H10O4S",
+    "dbo:inchi": "InChI=1S/C4H10O4S/c1-3-7-9(5,6)8-4-2/h3-4H2,1-2H3",
+    "dbo:smiles": "CCOS(=O)(=O)OCC",
+    "dbp:inchikey": "DENRZWYUOJLTMF-UHFFFAOYSA-N",
     "chebi:charge": "0",
-    "chebi:formula": "C4H10O4S",
-    "chebi:inchi": "InChI=1S/C4H10O4S/c1-3-7-9(5,6)8-4-2/h3-4H2,1-2H3",
-    "chebi:inchikey": "DENRZWYUOJLTMF-UHFFFAOYSA-N",
-    "chebi:smiles": "CCOS(=O)(=O)OCC",
-    "geneontology:hasDbXref": [
-        "CAS:64-67-5",
-        "CBA:310330",
-        "CBA:374048",
-        "CBA:593867",
-        "Chemspider:5931",
-        "HMDB:HMDB0251240",
-        "KEGG:C14706",
-        "PMID:15323041",
-        "PMID:17619463",
-        "PMID:20566339",
-        "PMID:21089860",
-        "PMID:21852824",
-        "PMID:23830811",
-        "PMID:24681631",
-        "PMID:24686557",
-        "PMID:25484124",
-        "PMID:26591512",
-        "PMID:2797029",
-        "PMID:2927429",
-        "PMID:29397772",
-        "PMID:29615826",
-        "PMID:30417660",
-        "PMID:3312952",
-        "Wikipedia:Diethyl_sulfate"
-    ],
-    "geneontology:hasId": "34699",
-    "geneontology:hasSynonym": [
+    "skos:altLabel": [
         "DES",
         "Diaethylsulfat",
         "diethylsulfate",
@@ -51,25 +32,11 @@
         "sulfuric acid diethyl ester",
         "sulphuric acid diethyl ester"
     ],
-    "geneontology:inSubset": {
-        "@id": "obo:chebi#3_STAR"
+    "skos:exactMatch": {
+        "@id": "obo:CHEBI_34699"
     },
-    "rdfs:label": "diethyl sulfate",
-    "rdfs:subClassOf": [
-        {
-            "@id": "obo:CHEBI_29281"
-        },
-        {
-            "@id": "b442_genid-00f1db82e1ab437c844115a94dc63e635-bn34699t11f22333"
-        },
-        {
-            "@id": "b442_genid-00f1db82e1ab437c844115a94dc63e635-bn34699t11f25435"
-        },
-        {
-            "@id": "b442_genid-00f1db82e1ab437c844115a94dc63e635-bn34699t11f50903"
-        },
-        {
-            "@id": "b442_genid-00f1db82e1ab437c844115a94dc63e635-bn34699t11f68495"
-        }
-    ]
+    "skos:note": "The diethyl ester of sulfuric acid.",
+    "skos:semanticRelation": {
+        "@id": "obo:CHEBI_29281"
+    }
 }

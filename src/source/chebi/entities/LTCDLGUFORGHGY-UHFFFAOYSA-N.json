@@ -1,29 +1,35 @@
 {
     "@context": {
-        "chebi": "http://purl.obolibrary.org/obo/chebi/",
         "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
         "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-        "obo": "http://purl.obolibrary.org/obo/"
+        "obo": "http://purl.obolibrary.org/obo/",
+        "uniprot": "http://purl.uniprot.org/",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "concept": "https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/",
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "dbo": "http://dbpedia.org/ontology/",
+        "dbp": "http://dbpedia.org/property/",
+        "altLabel": {
+            "@id": "http://www.w3.org/2004/02/skos/core#altLabel",
+            "@language": "en"
+        },
+        "graph": {
+            "@id": "@graph"
+        }
     },
-    "@id": "obo:CHEBI_174707",
-    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "@id": "concept:LTCDLGUFORGHGY-UHFFFAOYSA-N",
+    "@type": "skos:Concept",
+    "dbo:formula": "C16H14FN3O",
+    "dbo:inchi": "InChI=1S/C16H14FN3O/c1-20-14-7-6-10(18)8-12(14)16(19-9-15(20)21)11-4-2-3-5-13(11)17/h2-8H,9,18H2,1H3",
+    "dbo:smiles": "FC=1C(C2=NCC(=O)N(C3=C2C=C(N)C=C3)C)=CC=CC1",
+    "dbp:inchikey": "LTCDLGUFORGHGY-UHFFFAOYSA-N",
     "chebi:charge": "0",
-    "chebi:formula": "C16H14FN3O",
-    "chebi:inchi": "InChI=1S/C16H14FN3O/c1-20-14-7-6-10(18)8-12(14)16(19-9-15(20)21)11-4-2-3-5-13(11)17/h2-8H,9,18H2,1H3",
-    "chebi:inchikey": "LTCDLGUFORGHGY-UHFFFAOYSA-N",
-    "chebi:smiles": "FC=1C(C2=NCC(=O)N(C3=C2C=C(N)C=C3)C)=CC=CC1",
-    "geneontology:hasDbXref": [
-        "CAS:34084-50-9",
-        "Chemspider:83325",
-        "HMDB:HMDB0041818"
-    ],
-    "geneontology:hasId": "174707",
-    "geneontology:hasSynonym": "7-amino-5-(2-luorophenyl)-1-methyl-3H-1,4-benzodiazepin-2-one",
-    "geneontology:inSubset": {
-        "@id": "obo:chebi#2_STAR"
+    "skos:altLabel": "7-amino-5-(2-luorophenyl)-1-methyl-3H-1,4-benzodiazepin-2-one",
+    "skos:exactMatch": {
+        "@id": "obo:CHEBI_174707"
     },
-    "rdfs:label": "7-Aminoflunitrazepam",
-    "rdfs:subClassOf": {
+    "skos:semanticRelation": {
         "@id": "obo:CHEBI_22720"
     }
 }

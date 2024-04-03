@@ -1,38 +1,27 @@
 {
     "@context": {
-        "chebi": "http://purl.obolibrary.org/obo/chebi/",
         "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
         "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-        "obo": "http://purl.obolibrary.org/obo/"
+        "obo": "http://purl.obolibrary.org/obo/",
+        "uniprot": "http://purl.uniprot.org/",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "concept": "https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/",
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "dbo": "http://dbpedia.org/ontology/",
+        "dbp": "http://dbpedia.org/property/",
+        "graph": {
+            "@id": "@graph"
+        }
     },
-    "@id": "obo:CHEBI_30813",
-    "@type": "http://www.w3.org/2002/07/owl#Class",
-    "obo:IAO_0000115": "A C10, straight-chain saturated fatty acid.",
+    "@id": "concept:GHVNFZFCNZKVNT-UHFFFAOYSA-N",
+    "@type": "skos:Concept",
+    "dbo:formula": "C10H20O2",
+    "dbo:inchi": "InChI=1S/C10H20O2/c1-2-3-4-5-6-7-8-9-10(11)12/h2-9H2,1H3,(H,11,12)",
+    "dbo:smiles": "C(CCCCCC)CCC(=O)O",
+    "dbp:inchikey": "GHVNFZFCNZKVNT-UHFFFAOYSA-N",
     "chebi:charge": "0",
-    "chebi:formula": "C10H20O2",
-    "chebi:inchi": "InChI=1S/C10H20O2/c1-2-3-4-5-6-7-8-9-10(11)12/h2-9H2,1H3,(H,11,12)",
-    "chebi:inchikey": "GHVNFZFCNZKVNT-UHFFFAOYSA-N",
-    "chebi:smiles": "C(CCCCCC)CCC(=O)O",
-    "geneontology:hasDbXref": [
-        "PMID:24357269",
-        "KEGG:C01571",
-        "MetaCyc:CPD-3617",
-        "Beilstein:1754556",
-        "CAS:334-48-5",
-        "DrugBank:DB03600",
-        "ECMDB:ECMDB21204",
-        "Gmelin:69184",
-        "HMDB:HMDB0000511",
-        "KNApSAcK:C00001213",
-        "LIPID_MAPS_instance:LMFA01010010",
-        "PDBeChem:DKA",
-        "PMID:19168249",
-        "PMID:20661498",
-        "PMID:24284257",
-        "YMDB:YMDB00677"
-    ],
-    "geneontology:hasId": "30813",
-    "geneontology:hasSynonym": [
+    "skos:altLabel": [
         "10:0",
         "1-nonanecarboxylic acid",
         "C10:0",
@@ -51,43 +40,16 @@
         "n-decoic acid",
         "n-decylic acid"
     ],
-    "geneontology:inSubset": {
-        "@id": "obo:chebi#3_STAR"
+    "skos:exactMatch": {
+        "@id": "obo:CHEBI_30813"
     },
-    "rdfs:label": "decanoic acid",
-    "rdfs:subClassOf": [
+    "skos:note": "A C10, straight-chain saturated fatty acid.",
+    "skos:semanticRelation": [
         {
             "@id": "obo:CHEBI_59554"
         },
         {
             "@id": "obo:CHEBI_39418"
-        },
-        {
-            "@id": "b720_genid-00f1db82e1ab437c844115a94dc63e635-bn30813tmms73f27689"
-        },
-        {
-            "@id": "b720_genid-00f1db82e1ab437c844115a94dc63e635-bn30813t11f27311"
-        },
-        {
-            "@id": "b720_genid-00f1db82e1ab437c844115a94dc63e635-bn30813t4f27689"
-        },
-        {
-            "@id": "b720_genid-00f1db82e1ab437c844115a94dc63e635-bn30813t11f33282"
-        },
-        {
-            "@id": "b720_genid-00f1db82e1ab437c844115a94dc63e635-bn30813t9f41808"
-        },
-        {
-            "@id": "b720_genid-00f1db82e1ab437c844115a94dc63e635-bn30813t11f67079"
-        },
-        {
-            "@id": "b720_genid-00f1db82e1ab437c844115a94dc63e635-bn30813t11f76924"
-        },
-        {
-            "@id": "b720_genid-00f1db82e1ab437c844115a94dc63e635-bn30813t11f77746"
-        },
-        {
-            "@id": "b720_genid-00f1db82e1ab437c844115a94dc63e635-bn30813t11f84735"
         }
     ]
 }

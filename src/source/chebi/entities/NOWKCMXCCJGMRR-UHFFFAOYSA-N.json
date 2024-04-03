@@ -1,25 +1,31 @@
 {
     "@context": {
-        "chebi": "http://purl.obolibrary.org/obo/chebi/",
         "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
         "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-        "obo": "http://purl.obolibrary.org/obo/"
+        "obo": "http://purl.obolibrary.org/obo/",
+        "uniprot": "http://purl.uniprot.org/",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "concept": "https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/",
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "dbo": "http://dbpedia.org/ontology/",
+        "dbp": "http://dbpedia.org/property/",
+        "altLabel": {
+            "@id": "http://www.w3.org/2004/02/skos/core#altLabel",
+            "@language": "en"
+        },
+        "graph": {
+            "@id": "@graph"
+        }
     },
-    "@id": "obo:CHEBI_30969",
-    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "@id": "concept:NOWKCMXCCJGMRR-UHFFFAOYSA-N",
+    "@type": "skos:Concept",
+    "dbo:formula": "C2H5N",
+    "dbo:inchi": "InChI=1S/C2H5N/c1-2-3-1/h3H,1-2H2",
+    "dbo:smiles": "C1CN1",
+    "dbp:inchikey": "NOWKCMXCCJGMRR-UHFFFAOYSA-N",
     "chebi:charge": "0",
-    "chebi:formula": "C2H5N",
-    "chebi:inchi": "InChI=1S/C2H5N/c1-2-3-1/h3H,1-2H2",
-    "chebi:inchikey": "NOWKCMXCCJGMRR-UHFFFAOYSA-N",
-    "chebi:smiles": "C1CN1",
-    "geneontology:hasDbXref": [
-        "Beilstein:102380",
-        "CAS:151-56-4",
-        "Gmelin:616",
-        "KEGG:C11687"
-    ],
-    "geneontology:hasId": "30969",
-    "geneontology:hasSynonym": [
+    "skos:altLabel": [
         "azacyclopropane",
         "Aziridine",
         "dimethyleneimine",
@@ -27,11 +33,10 @@
         "ethyleneimine",
         "ethylenimine"
     ],
-    "geneontology:inSubset": {
-        "@id": "obo:chebi#3_STAR"
+    "skos:exactMatch": {
+        "@id": "obo:CHEBI_30969"
     },
-    "rdfs:label": "aziridine",
-    "rdfs:subClassOf": [
+    "skos:semanticRelation": [
         {
             "@id": "obo:CHEBI_36389"
         },
@@ -40,15 +45,6 @@
         },
         {
             "@id": "obo:CHEBI_22681"
-        },
-        {
-            "@id": "b827_genid-00f1db82e1ab437c844115a94dc63e635-bn30969tmms73f50929"
-        },
-        {
-            "@id": "b827_genid-00f1db82e1ab437c844115a94dc63e635-bn30969t11f22333"
-        },
-        {
-            "@id": "b827_genid-00f1db82e1ab437c844115a94dc63e635-bn30969t5f50929"
         }
     ]
 }

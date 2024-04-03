@@ -1,40 +1,35 @@
 {
     "@context": {
-        "chebi": "http://purl.obolibrary.org/obo/chebi/",
         "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
         "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-        "obo": "http://purl.obolibrary.org/obo/"
+        "obo": "http://purl.obolibrary.org/obo/",
+        "uniprot": "http://purl.uniprot.org/",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "concept": "https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/",
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "dbo": "http://dbpedia.org/ontology/",
+        "dbp": "http://dbpedia.org/property/",
+        "graph": {
+            "@id": "@graph"
+        }
     },
-    "@id": "obo:CHEBI_87755",
-    "@type": "http://www.w3.org/2002/07/owl#Class",
-    "obo:IAO_0000115": "A pentanone that is pentane carrying an oxo group at position 3. It has been isolated from  Triatoma brasiliensis and Triatoma infestans.",
+    "@id": "concept:FDPIMTJIUBPUKL-UHFFFAOYSA-N",
+    "@type": "skos:Concept",
+    "dbo:formula": "C5H10O",
+    "dbo:inchi": "InChI=1S/C5H10O/c1-3-5(6)4-2/h3-4H2,1-2H3",
+    "dbo:smiles": "C(CC)(CC)=O",
+    "dbp:inchikey": "FDPIMTJIUBPUKL-UHFFFAOYSA-N",
     "chebi:charge": "0",
-    "chebi:formula": "C5H10O",
-    "chebi:inchi": "InChI=1S/C5H10O/c1-3-5(6)4-2/h3-4H2,1-2H3",
-    "chebi:inchikey": "FDPIMTJIUBPUKL-UHFFFAOYSA-N",
-    "chebi:smiles": "C(CC)(CC)=O",
-    "http://purl.uniprot.org/core/name": "pentan-3-one",
-    "geneontology:hasDbXref": [
-        "PMID:21486009",
-        "CAS:96-22-0",
-        "Reaxys:635749",
-        "Wikipedia:3-Pentanone"
-    ],
-    "geneontology:hasId": "87755",
-    "geneontology:hasSynonym": [
+    "skos:altLabel": [
         "diethyl ketone",
         "Ethyl propionyl"
     ],
-    "geneontology:inSubset": {
-        "@id": "obo:chebi#3_STAR"
+    "skos:exactMatch": {
+        "@id": "obo:CHEBI_87755"
     },
-    "rdfs:label": "pentan-3-one",
-    "rdfs:subClassOf": [
-        {
-            "@id": "obo:CHEBI_25892"
-        },
-        {
-            "@id": "b581_genid-00f1db82e1ab437c844115a94dc63e635-bn87755t11f75767"
-        }
-    ]
+    "skos:note": "A pentanone that is pentane carrying an oxo group at position 3. It has been isolated from  Triatoma brasiliensis and Triatoma infestans.",
+    "skos:semanticRelation": {
+        "@id": "obo:CHEBI_25892"
+    }
 }

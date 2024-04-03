@@ -1,58 +1,31 @@
 {
     "@context": {
-        "chebi": "http://purl.obolibrary.org/obo/chebi/",
         "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
         "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-        "obo": "http://purl.obolibrary.org/obo/"
+        "obo": "http://purl.obolibrary.org/obo/",
+        "uniprot": "http://purl.uniprot.org/",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "concept": "https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/",
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "dbo": "http://dbpedia.org/ontology/",
+        "dbp": "http://dbpedia.org/property/",
+        "altLabel": {
+            "@id": "http://www.w3.org/2004/02/skos/core#altLabel",
+            "@language": "en"
+        },
+        "graph": {
+            "@id": "@graph"
+        }
     },
-    "@id": "obo:CHEBI_34241",
-    "@type": "http://www.w3.org/2002/07/owl#Class",
-    "obo:IAO_0000115": "A member of the class of phenols that phenol substituted by methyl groups at positions 2 and 4.",
+    "@id": "concept:KUFFULVDNCHOFZ-UHFFFAOYSA-N",
+    "@type": "skos:Concept",
+    "dbo:formula": "C8H10O",
+    "dbo:inchi": "InChI=1S/C8H10O/c1-6-3-4-8(9)7(2)5-6/h3-5,9H,1-2H3",
+    "dbo:smiles": "CC1=CC(C)=C(O)C=C1",
+    "dbp:inchikey": "KUFFULVDNCHOFZ-UHFFFAOYSA-N",
     "chebi:charge": "0",
-    "chebi:formula": "C8H10O",
-    "chebi:inchi": "InChI=1S/C8H10O/c1-6-3-4-8(9)7(2)5-6/h3-5,9H,1-2H3",
-    "chebi:inchikey": "KUFFULVDNCHOFZ-UHFFFAOYSA-N",
-    "chebi:smiles": "CC1=CC(C)=C(O)C=C1",
-    "geneontology:hasDbXref": [
-        "AGR:IND607288222",
-        "CAS:105-67-9",
-        "Chemspider:13839123",
-        "HMDB:HMDB0245456",
-        "KEGG:C14582",
-        "KNApSAcK:C00052596",
-        "MetaCyc:CPD-18280",
-        "PDBeChem:N0D",
-        "PMID:18602751",
-        "PMID:18949436",
-        "PMID:18962311",
-        "PMID:19430139",
-        "PMID:20441950",
-        "PMID:21056717",
-        "PMID:21290525",
-        "PMID:22113936",
-        "PMID:23736872",
-        "PMID:24892532",
-        "PMID:25641836",
-        "PMID:26567311",
-        "PMID:26961915",
-        "PMID:29276958",
-        "PMID:30483493",
-        "PMID:30922799",
-        "PMID:31445024",
-        "PMID:32772833",
-        "PMID:32841770",
-        "PMID:33120340",
-        "PMID:33268651",
-        "PMID:34214809",
-        "PMID:4387388",
-        "PMID:6778378",
-        "PMID:7067652",
-        "PMID:8281889",
-        "PPDB:1619",
-        "Reaxys:636244"
-    ],
-    "geneontology:hasId": "34241",
-    "geneontology:hasSynonym": [
+    "skos:altLabel": [
         "1,3-dimethyl-4-hydroxybenzene",
         "1-hydroxy-2,4-dimethylbenzene",
         "2,4-dimethylphenol",
@@ -65,25 +38,16 @@
         "gallex",
         "m-xylenol"
     ],
-    "geneontology:inSubset": {
-        "@id": "obo:chebi#3_STAR"
+    "skos:exactMatch": {
+        "@id": "obo:CHEBI_34241"
     },
-    "rdfs:label": "2,4-xylenol",
-    "rdfs:subClassOf": [
+    "skos:note": "A member of the class of phenols that phenol substituted by methyl groups at positions 2 and 4.",
+    "skos:semanticRelation": [
         {
             "@id": "obo:CHEBI_33853"
         },
         {
             "@id": "obo:CHEBI_87034"
-        },
-        {
-            "@id": "b457_genid-00f1db82e1ab437c844115a94dc63e635-bn34241t11f27311"
-        },
-        {
-            "@id": "b457_genid-00f1db82e1ab437c844115a94dc63e635-bn34241t9f28488"
-        },
-        {
-            "@id": "b457_genid-00f1db82e1ab437c844115a94dc63e635-bn34241t11f48219"
         }
     ]
 }

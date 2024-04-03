@@ -1,26 +1,31 @@
 {
     "@context": {
-        "chebi": "http://purl.obolibrary.org/obo/chebi/",
         "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
         "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-        "obo": "http://purl.obolibrary.org/obo/"
+        "obo": "http://purl.obolibrary.org/obo/",
+        "uniprot": "http://purl.uniprot.org/",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "concept": "https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/",
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "dbo": "http://dbpedia.org/ontology/",
+        "dbp": "http://dbpedia.org/property/",
+        "altLabel": {
+            "@id": "http://www.w3.org/2004/02/skos/core#altLabel",
+            "@language": "en"
+        },
+        "graph": {
+            "@id": "@graph"
+        }
     },
-    "@id": "obo:CHEBI_18212",
-    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "@id": "concept:MCAHWIHFGHIESP-UHFFFAOYSA-L",
+    "@type": "skos:Concept",
+    "dbo:formula": "O3Se",
+    "dbo:inchi": "InChI=1S/H2O3Se/c1-4(2)3/h(H2,1,2,3)/p-2",
+    "dbo:smiles": "[O-][Se]([O-])=O",
+    "dbp:inchikey": "MCAHWIHFGHIESP-UHFFFAOYSA-L",
     "chebi:charge": "-2",
-    "chebi:formula": "O3Se",
-    "chebi:inchi": "InChI=1S/H2O3Se/c1-4(2)3/h(H2,1,2,3)/p-2",
-    "chebi:inchikey": "MCAHWIHFGHIESP-UHFFFAOYSA-L",
-    "chebi:smiles": "[O-][Se]([O-])=O",
-    "http://purl.uniprot.org/core/name": "selenite",
-    "geneontology:hasDbXref": [
-        "CAS:14124-67-5",
-        "Gmelin:100833",
-        "KEGG:C05684",
-        "UM-BBD_compID:c0741"
-    ],
-    "geneontology:hasId": "18212",
-    "geneontology:hasSynonym": [
+    "skos:altLabel": [
         "selenite",
         "[SeO3](2-)",
         "Selenit",
@@ -29,16 +34,10 @@
         "trioxoselenate(2-)",
         "trioxoselenate(IV)"
     ],
-    "geneontology:inSubset": {
-        "@id": "obo:chebi#3_STAR"
+    "skos:exactMatch": {
+        "@id": "obo:CHEBI_18212"
     },
-    "rdfs:label": "selenite(2-)",
-    "rdfs:subClassOf": [
-        {
-            "@id": "obo:CHEBI_33488"
-        },
-        {
-            "@id": "b640_genid-00f1db82e1ab437c844115a94dc63e635-bn18212t5f29924"
-        }
-    ]
+    "skos:semanticRelation": {
+        "@id": "obo:CHEBI_33488"
+    }
 }

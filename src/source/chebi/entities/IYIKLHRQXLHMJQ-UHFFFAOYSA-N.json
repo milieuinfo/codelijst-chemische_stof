@@ -1,36 +1,31 @@
 {
     "@context": {
-        "chebi": "http://purl.obolibrary.org/obo/chebi/",
         "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
         "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-        "obo": "http://purl.obolibrary.org/obo/"
+        "obo": "http://purl.obolibrary.org/obo/",
+        "uniprot": "http://purl.uniprot.org/",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "concept": "https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/",
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "dbo": "http://dbpedia.org/ontology/",
+        "dbp": "http://dbpedia.org/property/",
+        "altLabel": {
+            "@id": "http://www.w3.org/2004/02/skos/core#altLabel",
+            "@language": "en"
+        },
+        "graph": {
+            "@id": "@graph"
+        }
     },
-    "@id": "obo:CHEBI_2663",
-    "@type": "http://www.w3.org/2002/07/owl#Class",
-    "obo:IAO_0000115": "A member of the class of 1-benzofurans that is 1-benzofuran substituted by a butyl group at position 2 and a 4-[2-(diethylamino)ethoxy]-3,5-diiodobenzoyl group at position 3. It is a  cardiovascular drug used for the treatment of cardiac dysrhythmias.",
+    "@id": "concept:IYIKLHRQXLHMJQ-UHFFFAOYSA-N",
+    "@type": "skos:Concept",
+    "dbo:formula": "C25H29I2NO3",
+    "dbo:inchi": "InChI=1S/C25H29I2NO3/c1-4-7-11-22-23(18-10-8-9-12-21(18)31-22)24(29)17-15-19(26)25(20(27)16-17)30-14-13-28(5-2)6-3/h8-10,12,15-16H,4-7,11,13-14H2,1-3H3",
+    "dbo:smiles": "CCCCc1oc2ccccc2c1C(=O)c1cc(I)c(OCCN(CC)CC)c(I)c1",
+    "dbp:inchikey": "IYIKLHRQXLHMJQ-UHFFFAOYSA-N",
     "chebi:charge": "0",
-    "chebi:formula": "C25H29I2NO3",
-    "chebi:inchi": "InChI=1S/C25H29I2NO3/c1-4-7-11-22-23(18-10-8-9-12-21(18)31-22)24(29)17-15-19(26)25(20(27)16-17)30-14-13-28(5-2)6-3/h8-10,12,15-16H,4-7,11,13-14H2,1-3H3",
-    "chebi:inchikey": "IYIKLHRQXLHMJQ-UHFFFAOYSA-N",
-    "chebi:smiles": "CCCCc1oc2ccccc2c1C(=O)c1cc(I)c(OCCN(CC)CC)c(I)c1",
-    "geneontology:hasDbXref": [
-        "Beilstein:1271711",
-        "CAS:1951-25-3",
-        "Drug_Central:176",
-        "DrugBank:DB01118",
-        "HMDB:HMDB0015250",
-        "KEGG:C06823",
-        "KEGG:D02910",
-        "LINCS:LSM-2379",
-        "Patent:CA2826272",
-        "Patent:TW201400111",
-        "PMID:10188629",
-        "PMID:16479044",
-        "PMID:18368867",
-        "Wikipedia:Amiodarone"
-    ],
-    "geneontology:hasId": "2663",
-    "geneontology:hasSynonym": [
+    "skos:altLabel": [
         "(2-butyl-1-benzofuran-3-yl){4-[2-(diethylamino)ethoxy]-3,5-diiodophenyl}methanone",
         "2-Butyl-3-(3,5-diiodo-4-(2-diethylaminoethoxy)benzoyl)benzofuran",
         "2-Butyl-3-benzofuranyl 4-(2-(diethylamino)ethoxy)-3,5-diiodophenyl ketone",
@@ -39,11 +34,11 @@
         "Amiodarone",
         "amiodaronum"
     ],
-    "geneontology:inSubset": {
-        "@id": "obo:chebi#3_STAR"
+    "skos:exactMatch": {
+        "@id": "obo:CHEBI_2663"
     },
-    "rdfs:label": "amiodarone",
-    "rdfs:subClassOf": [
+    "skos:note": "A member of the class of 1-benzofurans that is 1-benzofuran substituted by a butyl group at position 2 and a 4-[2-(diethylamino)ethoxy]-3,5-diiodobenzoyl group at position 3. It is a  cardiovascular drug used for the treatment of cardiac dysrhythmias.",
+    "skos:semanticRelation": [
         {
             "@id": "obo:CHEBI_50996"
         },
@@ -52,9 +47,6 @@
         },
         {
             "@id": "obo:CHEBI_38830"
-        },
-        {
-            "@id": "b192_genid-00f1db82e1ab437c844115a94dc63e635-bn2663t11f35554"
         },
         {
             "@id": "obo:CHEBI_37142"

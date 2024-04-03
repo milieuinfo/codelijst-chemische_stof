@@ -1,34 +1,27 @@
 {
     "@context": {
-        "chebi": "http://purl.obolibrary.org/obo/chebi/",
         "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
         "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-        "obo": "http://purl.obolibrary.org/obo/"
+        "obo": "http://purl.obolibrary.org/obo/",
+        "uniprot": "http://purl.uniprot.org/",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "concept": "https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/",
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "dbo": "http://dbpedia.org/ontology/",
+        "dbp": "http://dbpedia.org/property/",
+        "graph": {
+            "@id": "@graph"
+        }
     },
-    "@id": "obo:CHEBI_34270",
-    "@type": "http://www.w3.org/2002/07/owl#Class",
-    "obo:IAO_0000115": "A C-nitro compound that is nitrobenzene in which one of the ortho- hydrogens has been replaced by chlorine.",
+    "@id": "concept:BFCFYVKQTRLZHA-UHFFFAOYSA-N",
+    "@type": "skos:Concept",
+    "dbo:formula": "C6H4ClNO2",
+    "dbo:inchi": "InChI=1S/C6H4ClNO2/c7-5-3-1-2-4-6(5)8(9)10/h1-4H",
+    "dbo:smiles": "C1(=C(C=CC=C1)Cl)[N+](=O)[O-]",
+    "dbp:inchikey": "BFCFYVKQTRLZHA-UHFFFAOYSA-N",
     "chebi:charge": "0",
-    "chebi:formula": "C6H4ClNO2",
-    "chebi:inchi": "InChI=1S/C6H4ClNO2/c7-5-3-1-2-4-6(5)8(9)10/h1-4H",
-    "chebi:inchikey": "BFCFYVKQTRLZHA-UHFFFAOYSA-N",
-    "chebi:smiles": "C1(=C(C=CC=C1)Cl)[N+](=O)[O-]",
-    "http://purl.uniprot.org/core/name": "1-chloro-2-nitrobenzene",
-    "geneontology:hasDbXref": [
-        "AGR:IND605527097",
-        "CAS:88-73-3",
-        "KEGG:C14407",
-        "MetaCyc:CPD-18106",
-        "PMID:11823201",
-        "PMID:27406223",
-        "PMID:28841432",
-        "PMID:29175585",
-        "PMID:9097109",
-        "Reaxys:509273",
-        "Wikipedia:2-Nitrochlorobenzene"
-    ],
-    "geneontology:hasId": "34270",
-    "geneontology:hasSynonym": [
+    "skos:altLabel": [
         "1-nitro-2-chlorobenzene",
         "2-chloro-1-nitrobenzene",
         "2-chloronitrobenzene",
@@ -39,11 +32,11 @@
         "ortho-chloronitrobenzene",
         "ortho-nitrochlorobenzene"
     ],
-    "geneontology:inSubset": {
-        "@id": "obo:chebi#3_STAR"
+    "skos:exactMatch": {
+        "@id": "obo:CHEBI_34270"
     },
-    "rdfs:label": "1-chloro-2-nitrobenzene",
-    "rdfs:subClassOf": [
+    "skos:note": "A C-nitro compound that is nitrobenzene in which one of the ortho- hydrogens has been replaced by chlorine.",
+    "skos:semanticRelation": [
         {
             "@id": "obo:CHEBI_35716"
         },

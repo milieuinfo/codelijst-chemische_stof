@@ -1,49 +1,38 @@
 {
     "@context": {
-        "chebi": "http://purl.obolibrary.org/obo/chebi/",
         "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
         "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-        "obo": "http://purl.obolibrary.org/obo/"
+        "obo": "http://purl.obolibrary.org/obo/",
+        "uniprot": "http://purl.uniprot.org/",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "concept": "https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/",
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "dbo": "http://dbpedia.org/ontology/",
+        "dbp": "http://dbpedia.org/property/",
+        "graph": {
+            "@id": "@graph"
+        }
     },
-    "@id": "obo:CHEBI_76603",
-    "@type": "http://www.w3.org/2002/07/owl#Class",
-    "obo:IAO_0000115": "A bridged organochlorine compound resulting from the Diels-Alder reaction of hexachlorocyclopentadiene with maleic anhydride followed by hydrolysis of the resulting anhydride. A chemical intermediate used in the preparation of fire-retardant polyester resins and plasticisers.",
+    "@id": "concept:DJKGDNKYTKCJKD-UHFFFAOYSA-N",
+    "@type": "skos:Concept",
+    "dbo:formula": "C9H4Cl6O4",
+    "dbo:inchi": "InChI=1S/C9H4Cl6O4/c10-3-4(11)8(13)2(6(18)19)1(5(16)17)7(3,12)9(8,14)15/h1-2H,(H,16,17)(H,18,19)",
+    "dbo:smiles": "OC(=O)C1C(C(O)=O)C2(Cl)C(Cl)=C(Cl)C1(Cl)C2(Cl)Cl",
+    "dbp:inchikey": "DJKGDNKYTKCJKD-UHFFFAOYSA-N",
     "chebi:charge": "0",
-    "chebi:formula": "C9H4Cl6O4",
-    "chebi:inchi": "InChI=1S/C9H4Cl6O4/c10-3-4(11)8(13)2(6(18)19)1(5(16)17)7(3,12)9(8,14)15/h1-2H,(H,16,17)(H,18,19)",
-    "chebi:inchikey": "DJKGDNKYTKCJKD-UHFFFAOYSA-N",
-    "chebi:smiles": "OC(=O)C1C(C(O)=O)C2(Cl)C(Cl)=C(Cl)C1(Cl)C2(Cl)Cl",
-    "geneontology:hasDbXref": [
-        "CAS:115-28-6",
-        "KEGG:C19204",
-        "PMID:12748725",
-        "PMID:1367592",
-        "PMID:15318386",
-        "PMID:18961903",
-        "PMID:21089823",
-        "PMID:21850124",
-        "PMID:2197462",
-        "PMID:22584684",
-        "PMID:2629100",
-        "PMID:7120517",
-        "PMID:8792842",
-        "Reaxys:1892213",
-        "Reaxys:8156979",
-        "Wikipedia:Chlorendic_acid"
-    ],
-    "geneontology:hasId": "76603",
-    "geneontology:hasSynonym": [
+    "skos:altLabel": [
         "1,4,5,6,7,7-Hexachloro-5-norbornene-2,3-dicarboxylic acid",
         "1,4,5,6,7,7-Hexachlorobicyclo(2.2.1)-5-heptene-2,3-dicarboxylic acid",
         "1,4,5,6,7,7-hexachlorobicyclo[2.2.1]hept-5-ene-2,3-dicarboxylic acid",
         "Chlorendic acid",
         "Hexachloro-endo-methylenetetrahydrophthalic acid"
     ],
-    "geneontology:inSubset": {
-        "@id": "obo:chebi#3_STAR"
+    "skos:exactMatch": {
+        "@id": "obo:CHEBI_76603"
     },
-    "rdfs:label": "chlorendic acid",
-    "rdfs:subClassOf": [
+    "skos:note": "A bridged organochlorine compound resulting from the Diels-Alder reaction of hexachlorocyclopentadiene with maleic anhydride followed by hydrolysis of the resulting anhydride. A chemical intermediate used in the preparation of fire-retardant polyester resins and plasticisers.",
+    "skos:semanticRelation": [
         {
             "@id": "obo:CHEBI_35692"
         },
@@ -52,9 +41,6 @@
         },
         {
             "@id": "obo:CHEBI_35990"
-        },
-        {
-            "@id": "b466_genid-00f1db82e1ab437c844115a94dc63e635-bn76603t11f50903"
         }
     ]
 }

@@ -1,93 +1,72 @@
 {
     "@context": {
-        "chebi": "http://purl.obolibrary.org/obo/chebi/",
         "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
         "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-        "obo": "http://purl.obolibrary.org/obo/"
+        "obo": "http://purl.obolibrary.org/obo/",
+        "uniprot": "http://purl.uniprot.org/",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "concept": "https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/",
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "dbo": "http://dbpedia.org/ontology/",
+        "dbp": "http://dbpedia.org/property/",
+        "altLabel": {
+            "@id": "http://www.w3.org/2004/02/skos/core#altLabel",
+            "@language": "en"
+        },
+        "graph": {
+            "@id": "@graph"
+        }
     },
-    "@graph": [
+    "@id": "concept:XUIIKFGFIJCVMT-UHFFFAOYSA-N",
+    "@type": "skos:Concept",
+    "dbo:formula": "C15H11I4NO4",
+    "dbo:inchi": "InChI=1S/C15H11I4NO4/c16-8-4-7(5-9(17)13(8)21)24-14-10(18)1-6(2-11(14)19)3-12(20)15(22)23/h1-2,4-5,12,21H,3,20H2,(H,22,23)",
+    "dbo:smiles": [
+        "[NH3+]C(Cc1cc(I)c(Oc2cc(I)c(O)c(I)c2)c(I)c1)C([O-])=O",
+        "NC(Cc1cc(I)c(Oc2cc(I)c(O)c(I)c2)c(I)c1)C(O)=O"
+    ],
+    "dbp:inchikey": "XUIIKFGFIJCVMT-UHFFFAOYSA-N",
+    "chebi:charge": "0",
+    "skos:altLabel": [
+        "thyroxine",
+        "(2S)-2-azaniumyl-3-[4-(4-hydroxy-3,5-diiodophenoxy)-3,5-diiodophenyl]propanoate",
+        "2-Amino-3-[4-(4-hydroxy-3,5-diiodo-phenoxy)-3,5-diiodo-phenyl]-propionate",
+        "2-amino-3-[4-(4-hydroxy-3,5-diiodophenoxy)-3,5-diiodophenyl]propanoic acid",
+        "DL-Thyroxine",
+        "O-(4-Hydroxy-3,5-diiodophenyl)-3,5-diiodo-DL-tyrosine",
+        "Thx"
+    ],
+    "skos:exactMatch": [
         {
-            "@id": "obo:CHEBI_305790",
-            "@type": "http://www.w3.org/2002/07/owl#Class",
-            "obo:IAO_0000115": "The amino acid zwitterion formed from thyroxine by transfer of a proton from the carboxy group to the amino group.  Major species at pH 7.3.",
-            "chebi:charge": "0",
-            "chebi:formula": "C15H11I4NO4",
-            "chebi:inchi": "InChI=1S/C15H11I4NO4/c16-8-4-7(5-9(17)13(8)21)24-14-10(18)1-6(2-11(14)19)3-12(20)15(22)23/h1-2,4-5,12,21H,3,20H2,(H,22,23)",
-            "chebi:inchikey": "XUIIKFGFIJCVMT-UHFFFAOYSA-N",
-            "chebi:smiles": "[NH3+]C(Cc1cc(I)c(Oc2cc(I)c(O)c(I)c2)c(I)c1)C([O-])=O",
-            "http://purl.uniprot.org/core/name": "thyroxine",
-            "geneontology:hasId": "305790",
-            "geneontology:hasSynonym": [
-                "thyroxine",
-                "(2S)-2-azaniumyl-3-[4-(4-hydroxy-3,5-diiodophenoxy)-3,5-diiodophenyl]propanoate",
-                "2-Amino-3-[4-(4-hydroxy-3,5-diiodo-phenoxy)-3,5-diiodo-phenyl]-propionate"
-            ],
-            "geneontology:inSubset": {
-                "@id": "obo:chebi#3_STAR"
-            },
-            "rdfs:label": "thyroxine zwitterion",
-            "rdfs:subClassOf": [
-                {
-                    "@id": "obo:CHEBI_35238"
-                },
-                {
-                    "@id": "b270_genid-00f1db82e1ab437c844115a94dc63e635-bn305790t7f30660"
-                }
-            ]
+            "@id": "obo:CHEBI_305790"
         },
         {
-            "@id": "obo:CHEBI_30660",
-            "@type": "http://www.w3.org/2002/07/owl#Class",
-            "obo:IAO_0000115": "An iodothyronine compound having iodo substituents at the 3-, 3'-, 5- and 5'-positions.",
-            "chebi:charge": "0",
-            "chebi:formula": "C15H11I4NO4",
-            "chebi:inchi": "InChI=1S/C15H11I4NO4/c16-8-4-7(5-9(17)13(8)21)24-14-10(18)1-6(2-11(14)19)3-12(20)15(22)23/h1-2,4-5,12,21H,3,20H2,(H,22,23)",
-            "chebi:inchikey": "XUIIKFGFIJCVMT-UHFFFAOYSA-N",
-            "chebi:smiles": "NC(Cc1cc(I)c(Oc2cc(I)c(O)c(I)c2)c(I)c1)C(O)=O",
-            "geneontology:hasDbXref": [
-                "PMID:15206581",
-                "Beilstein:2228514",
-                "CAS:300-30-1",
-                "PMID:24375501",
-                "PMID:9824273"
-            ],
-            "geneontology:hasId": "30660",
-            "geneontology:hasSynonym": [
-                "2-amino-3-[4-(4-hydroxy-3,5-diiodophenoxy)-3,5-diiodophenyl]propanoic acid",
-                "DL-Thyroxine",
-                "O-(4-Hydroxy-3,5-diiodophenyl)-3,5-diiodo-DL-tyrosine",
-                "Thx"
-            ],
-            "geneontology:inSubset": {
-                "@id": "obo:chebi#3_STAR"
-            },
-            "rdfs:label": "thyroxine",
-            "rdfs:subClassOf": [
-                {
-                    "@id": "obo:CHEBI_83925"
-                },
-                {
-                    "@id": "obo:CHEBI_62761"
-                },
-                {
-                    "@id": "obo:CHEBI_24863"
-                },
-                {
-                    "@id": "obo:CHEBI_53291"
-                },
-                {
-                    "@id": "obo:CHEBI_24864"
-                },
-                {
-                    "@id": "b270_genid-00f1db82e1ab437c844115a94dc63e635-bn30660tmms73f305790"
-                },
-                {
-                    "@id": "b270_genid-00f1db82e1ab437c844115a94dc63e635-bn30660t11f52290"
-                },
-                {
-                    "@id": "b270_genid-00f1db82e1ab437c844115a94dc63e635-bn30660t7f305790"
-                }
-            ]
+            "@id": "obo:CHEBI_30660"
+        }
+    ],
+    "skos:note": [
+        "The amino acid zwitterion formed from thyroxine by transfer of a proton from the carboxy group to the amino group.  Major species at pH 7.3.",
+        "An iodothyronine compound having iodo substituents at the 3-, 3'-, 5- and 5'-positions."
+    ],
+    "skos:semanticRelation": [
+        {
+            "@id": "obo:CHEBI_35238"
+        },
+        {
+            "@id": "obo:CHEBI_83925"
+        },
+        {
+            "@id": "obo:CHEBI_62761"
+        },
+        {
+            "@id": "obo:CHEBI_24863"
+        },
+        {
+            "@id": "obo:CHEBI_53291"
+        },
+        {
+            "@id": "obo:CHEBI_24864"
         }
     ]
 }

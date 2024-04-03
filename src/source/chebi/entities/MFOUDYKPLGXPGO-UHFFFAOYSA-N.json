@@ -1,32 +1,31 @@
 {
     "@context": {
-        "chebi": "http://purl.obolibrary.org/obo/chebi/",
         "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
         "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-        "obo": "http://purl.obolibrary.org/obo/"
+        "obo": "http://purl.obolibrary.org/obo/",
+        "uniprot": "http://purl.uniprot.org/",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "concept": "https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/",
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "dbo": "http://dbpedia.org/ontology/",
+        "dbp": "http://dbpedia.org/property/",
+        "altLabel": {
+            "@id": "http://www.w3.org/2004/02/skos/core#altLabel",
+            "@language": "en"
+        },
+        "graph": {
+            "@id": "@graph"
+        }
     },
-    "@id": "obo:CHEBI_19503",
-    "@type": "http://www.w3.org/2002/07/owl#Class",
-    "obo:IAO_0000115": "An anilide that consists of 2-chloroacetanilide bearing an N-isopropyl substituent.",
+    "@id": "concept:MFOUDYKPLGXPGO-UHFFFAOYSA-N",
+    "@type": "skos:Concept",
+    "dbo:formula": "C11H14ClNO",
+    "dbo:inchi": "InChI=1S/C11H14ClNO/c1-9(2)13(11(14)8-12)10-6-4-3-5-7-10/h3-7,9H,8H2,1-2H3",
+    "dbo:smiles": "CC(C)N(C(=O)CCl)c1ccccc1",
+    "dbp:inchikey": "MFOUDYKPLGXPGO-UHFFFAOYSA-N",
     "chebi:charge": "0",
-    "chebi:formula": "C11H14ClNO",
-    "chebi:inchi": "InChI=1S/C11H14ClNO/c1-9(2)13(11(14)8-12)10-6-4-3-5-7-10/h3-7,9H,8H2,1-2H3",
-    "chebi:inchikey": "MFOUDYKPLGXPGO-UHFFFAOYSA-N",
-    "chebi:smiles": "CC(C)N(C(=O)CCl)c1ccccc1",
-    "geneontology:hasDbXref": [
-        "Beilstein:2103903",
-        "CAS:1918-16-7",
-        "KEGG:C18759",
-        "Pesticides:propachlor",
-        "PMID:22953837",
-        "PMID:7272464",
-        "PPDB:543",
-        "Reaxys:2103903",
-        "UM-BBD_compID:c0653",
-        "Wikipedia:Propachlor"
-    ],
-    "geneontology:hasId": "19503",
-    "geneontology:hasSynonym": [
+    "skos:altLabel": [
         "2-Chloro-N-(1-methylethyl)-N-phenylacetamide",
         "2-chloro-N-isopropylacetanilide",
         "2-chloro-N-isopropyl-N-phenylacetamide",
@@ -42,11 +41,11 @@
         "Propachlore",
         "Ramrod 65"
     ],
-    "geneontology:inSubset": {
-        "@id": "obo:chebi#3_STAR"
+    "skos:exactMatch": {
+        "@id": "obo:CHEBI_19503"
     },
-    "rdfs:label": "propachlor",
-    "rdfs:subClassOf": [
+    "skos:note": "An anilide that consists of 2-chloroacetanilide bearing an N-isopropyl substituent.",
+    "skos:semanticRelation": [
         {
             "@id": "obo:CHEBI_13248"
         },
@@ -55,15 +54,6 @@
         },
         {
             "@id": "obo:CHEBI_36683"
-        },
-        {
-            "@id": "b654_genid-00f1db82e1ab437c844115a94dc63e635-bn19503t11f24527"
-        },
-        {
-            "@id": "b654_genid-00f1db82e1ab437c844115a94dc63e635-bn19503t11f35703"
-        },
-        {
-            "@id": "b654_genid-00f1db82e1ab437c844115a94dc63e635-bn19503t11f78298"
         }
     ]
 }

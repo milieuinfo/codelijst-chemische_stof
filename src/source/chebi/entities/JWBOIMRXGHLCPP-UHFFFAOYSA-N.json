@@ -1,26 +1,31 @@
 {
     "@context": {
-        "chebi": "http://purl.obolibrary.org/obo/chebi/",
         "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
         "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-        "obo": "http://purl.obolibrary.org/obo/"
+        "obo": "http://purl.obolibrary.org/obo/",
+        "uniprot": "http://purl.uniprot.org/",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "concept": "https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/",
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "dbo": "http://dbpedia.org/ontology/",
+        "dbp": "http://dbpedia.org/property/",
+        "altLabel": {
+            "@id": "http://www.w3.org/2004/02/skos/core#altLabel",
+            "@language": "en"
+        },
+        "graph": {
+            "@id": "@graph"
+        }
     },
-    "@id": "obo:CHEBI_6954",
-    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "@id": "concept:JWBOIMRXGHLCPP-UHFFFAOYSA-N",
+    "@type": "skos:Concept",
+    "dbo:formula": "C14H10Cl4",
+    "dbo:inchi": "InChI=1S/C14H10Cl4/c15-10-7-5-9(6-8-10)13(14(17)18)11-3-1-2-4-12(11)16/h1-8,13-14H",
+    "dbo:smiles": "C1=CC=C(C(=C1)C(C2=CC=C(C=C2)Cl)C(Cl)Cl)Cl",
+    "dbp:inchikey": "JWBOIMRXGHLCPP-UHFFFAOYSA-N",
     "chebi:charge": "0",
-    "chebi:formula": "C14H10Cl4",
-    "chebi:inchi": "InChI=1S/C14H10Cl4/c15-10-7-5-9(6-8-10)13(14(17)18)11-3-1-2-4-12(11)16/h1-8,13-14H",
-    "chebi:inchikey": "JWBOIMRXGHLCPP-UHFFFAOYSA-N",
-    "chebi:smiles": "C1=CC=C(C(=C1)C(C2=CC=C(C=C2)Cl)C(Cl)Cl)Cl",
-    "geneontology:hasDbXref": [
-        "CAS:53-19-0",
-        "Drug_Central:1820",
-        "HMDB:HMDB0014786",
-        "KEGG:D00420",
-        "LINCS:LSM-1451"
-    ],
-    "geneontology:hasId": "6954",
-    "geneontology:hasSynonym": [
+    "skos:altLabel": [
         "chloditan",
         "chlodithane",
         "lysodren",
@@ -28,11 +33,10 @@
         "mitotan",
         "opeprim"
     ],
-    "geneontology:inSubset": {
-        "@id": "obo:chebi#2_STAR"
+    "skos:exactMatch": {
+        "@id": "obo:CHEBI_6954"
     },
-    "rdfs:label": "Mitotane",
-    "rdfs:subClassOf": {
+    "skos:semanticRelation": {
         "@id": "obo:CHEBI_51614"
     }
 }

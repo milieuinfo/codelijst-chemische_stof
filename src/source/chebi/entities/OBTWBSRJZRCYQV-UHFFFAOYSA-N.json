@@ -1,24 +1,31 @@
 {
     "@context": {
-        "chebi": "http://purl.obolibrary.org/obo/chebi/",
         "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
         "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-        "obo": "http://purl.obolibrary.org/obo/"
+        "obo": "http://purl.obolibrary.org/obo/",
+        "uniprot": "http://purl.uniprot.org/",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "concept": "https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/",
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "dbo": "http://dbpedia.org/ontology/",
+        "dbp": "http://dbpedia.org/property/",
+        "altLabel": {
+            "@id": "http://www.w3.org/2004/02/skos/core#altLabel",
+            "@language": "en"
+        },
+        "graph": {
+            "@id": "@graph"
+        }
     },
-    "@id": "obo:CHEBI_39287",
-    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "@id": "concept:OBTWBSRJZRCYQV-UHFFFAOYSA-N",
+    "@type": "skos:Concept",
+    "dbo:formula": "F2O2S",
+    "dbo:inchi": "InChI=1S/F2O2S/c1-5(2,3)4",
+    "dbo:smiles": "FS(F)(=O)=O",
+    "dbp:inchikey": "OBTWBSRJZRCYQV-UHFFFAOYSA-N",
     "chebi:charge": "0",
-    "chebi:formula": "F2O2S",
-    "chebi:inchi": "InChI=1S/F2O2S/c1-5(2,3)4",
-    "chebi:inchikey": "OBTWBSRJZRCYQV-UHFFFAOYSA-N",
-    "chebi:smiles": "FS(F)(=O)=O",
-    "geneontology:hasDbXref": [
-        "CAS:2699-79-8",
-        "Gmelin:2095",
-        "PPDB:1569"
-    ],
-    "geneontology:hasId": "39287",
-    "geneontology:hasSynonym": [
+    "skos:altLabel": [
         "difluoridodioxidosulfur",
         "difluorodioxosulfur",
         "SF2O2",
@@ -33,16 +40,10 @@
         "sulphuryl difluoride",
         "sulphuryl fluoride"
     ],
-    "geneontology:inSubset": {
-        "@id": "obo:chebi#3_STAR"
+    "skos:exactMatch": {
+        "@id": "obo:CHEBI_39287"
     },
-    "rdfs:label": "sulfuryl difluoride",
-    "rdfs:subClassOf": [
-        {
-            "@id": "obo:CHEBI_39443"
-        },
-        {
-            "@id": "b894_genid-00f1db82e1ab437c844115a94dc63e635-bn39287t11f39277"
-        }
-    ]
+    "skos:semanticRelation": {
+        "@id": "obo:CHEBI_39443"
+    }
 }

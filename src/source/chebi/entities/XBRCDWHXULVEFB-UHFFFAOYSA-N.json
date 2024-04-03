@@ -1,41 +1,41 @@
 {
     "@context": {
-        "chebi": "http://purl.obolibrary.org/obo/chebi/",
         "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
         "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-        "obo": "http://purl.obolibrary.org/obo/"
+        "obo": "http://purl.obolibrary.org/obo/",
+        "uniprot": "http://purl.uniprot.org/",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "concept": "https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/",
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "dbo": "http://dbpedia.org/ontology/",
+        "dbp": "http://dbpedia.org/property/",
+        "altLabel": {
+            "@id": "http://www.w3.org/2004/02/skos/core#altLabel",
+            "@language": "en"
+        },
+        "graph": {
+            "@id": "@graph"
+        }
     },
-    "@id": "obo:CHEBI_27139",
-    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "@id": "concept:XBRCDWHXULVEFB-UHFFFAOYSA-N",
+    "@type": "skos:Concept",
+    "dbo:formula": "C18H15Sn",
+    "dbo:inchi": "InChI=1S/3C6H5.Sn/c3*1-2-4-6-5-3-1;/h3*1-5H;/q;;;+1",
+    "dbo:smiles": "c1ccc(cc1)[Sn+](c1ccccc1)c1ccccc1",
+    "dbp:inchikey": "XBRCDWHXULVEFB-UHFFFAOYSA-N",
     "chebi:charge": "+1",
-    "chebi:formula": "C18H15Sn",
-    "chebi:inchi": "InChI=1S/3C6H5.Sn/c3*1-2-4-6-5-3-1;/h3*1-5H;/q;;;+1",
-    "chebi:inchikey": "XBRCDWHXULVEFB-UHFFFAOYSA-N",
-    "chebi:smiles": "c1ccc(cc1)[Sn+](c1ccccc1)c1ccccc1",
-    "geneontology:hasDbXref": [
-        "Beilstein:3907538",
-        "CAS:668-34-8",
-        "Gmelin:336769",
-        "UM-BBD_compID:c0696"
-    ],
-    "geneontology:hasId": "27139",
-    "geneontology:hasSynonym": [
+    "skos:altLabel": [
         "[SnPh3](+)",
         "Fentin",
         "SnPh3(+)",
         "triphenylstannylium",
         "Triphenyltin"
     ],
-    "geneontology:inSubset": {
-        "@id": "obo:chebi#3_STAR"
+    "skos:exactMatch": {
+        "@id": "obo:CHEBI_27139"
     },
-    "rdfs:label": "triphenyltin(1+)",
-    "rdfs:subClassOf": [
-        {
-            "@id": "obo:CHEBI_25717"
-        },
-        {
-            "@id": "b147_genid-00f1db82e1ab437c844115a94dc63e635-bn27139t11f22583"
-        }
-    ]
+    "skos:semanticRelation": {
+        "@id": "obo:CHEBI_25717"
+    }
 }

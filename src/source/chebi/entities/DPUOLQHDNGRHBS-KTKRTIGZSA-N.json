@@ -1,34 +1,27 @@
 {
     "@context": {
-        "chebi": "http://purl.obolibrary.org/obo/chebi/",
         "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
         "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-        "obo": "http://purl.obolibrary.org/obo/"
+        "obo": "http://purl.obolibrary.org/obo/",
+        "uniprot": "http://purl.uniprot.org/",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "concept": "https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/",
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "dbo": "http://dbpedia.org/ontology/",
+        "dbp": "http://dbpedia.org/property/",
+        "graph": {
+            "@id": "@graph"
+        }
     },
-    "@id": "obo:CHEBI_28792",
-    "@type": "http://www.w3.org/2002/07/owl#Class",
-    "obo:IAO_0000115": "A docosenoic acid having a cis- double bond at C-13. It is found particularly in brassicas - it is a major component of mustard and rapeseed oils and is produced by broccoli, Brussels sprouts, kale, and wallflowers.",
+    "@id": "concept:DPUOLQHDNGRHBS-KTKRTIGZSA-N",
+    "@type": "skos:Concept",
+    "dbo:formula": "C22H42O2",
+    "dbo:inchi": "InChI=1S/C22H42O2/c1-2-3-4-5-6-7-8-9-10-11-12-13-14-15-16-17-18-19-20-21-22(23)24/h9-10H,2-8,11-21H2,1H3,(H,23,24)/b10-9-",
+    "dbo:smiles": "CCCCCCCC\\C=C/CCCCCCCCCCCC(O)=O",
+    "dbp:inchikey": "DPUOLQHDNGRHBS-KTKRTIGZSA-N",
     "chebi:charge": "0",
-    "chebi:formula": "C22H42O2",
-    "chebi:inchi": "InChI=1S/C22H42O2/c1-2-3-4-5-6-7-8-9-10-11-12-13-14-15-16-17-18-19-20-21-22(23)24/h9-10H,2-8,11-21H2,1H3,(H,23,24)/b10-9-",
-    "chebi:inchikey": "DPUOLQHDNGRHBS-KTKRTIGZSA-N",
-    "chebi:smiles": "CCCCCCCC\\C=C/CCCCCCCCCCCC(O)=O",
-    "geneontology:hasDbXref": [
-        "Beilstein:1728049",
-        "CAS:112-86-7",
-        "Gmelin:177365",
-        "HMDB:HMDB0002068",
-        "KEGG:C08316",
-        "KNApSAcK:C00001217",
-        "LIPID_MAPS_instance:LMFA01030089",
-        "MetaCyc:CPD-14292",
-        "PMID:1170010",
-        "PMID:7847331",
-        "Reaxys:1728049",
-        "Wikipedia:Erucic_acid"
-    ],
-    "geneontology:hasId": "28792",
-    "geneontology:hasSynonym": [
+    "skos:altLabel": [
         "(13Z)-13-docosenoic acid",
         "(13Z)-docos-13-enoic acid",
         "(13Z)-Docosenoic acid",
@@ -44,19 +37,11 @@
         "Erucasaeure",
         "Erucic acid"
     ],
-    "geneontology:inSubset": {
-        "@id": "obo:chebi#3_STAR"
+    "skos:exactMatch": {
+        "@id": "obo:CHEBI_28792"
     },
-    "rdfs:label": "erucic acid",
-    "rdfs:subClassOf": [
-        {
-            "@id": "b511_genid-00f1db82e1ab437c844115a94dc63e635-bn28792tmms73f32393"
-        },
-        {
-            "@id": "b511_genid-00f1db82e1ab437c844115a94dc63e635-bn28792t4f32393"
-        },
-        {
-            "@id": "obo:CHEBI_36031"
-        }
-    ]
+    "skos:note": "A docosenoic acid having a cis- double bond at C-13. It is found particularly in brassicas - it is a major component of mustard and rapeseed oils and is produced by broccoli, Brussels sprouts, kale, and wallflowers.",
+    "skos:semanticRelation": {
+        "@id": "obo:CHEBI_36031"
+    }
 }

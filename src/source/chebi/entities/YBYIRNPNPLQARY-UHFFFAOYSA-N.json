@@ -1,41 +1,41 @@
 {
     "@context": {
-        "chebi": "http://purl.obolibrary.org/obo/chebi/",
         "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
         "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-        "obo": "http://purl.obolibrary.org/obo/"
+        "obo": "http://purl.obolibrary.org/obo/",
+        "uniprot": "http://purl.uniprot.org/",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "concept": "https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/",
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "dbo": "http://dbpedia.org/ontology/",
+        "dbp": "http://dbpedia.org/property/",
+        "altLabel": {
+            "@id": "http://www.w3.org/2004/02/skos/core#altLabel",
+            "@language": "en"
+        },
+        "graph": {
+            "@id": "@graph"
+        }
     },
-    "@id": "obo:CHEBI_41921",
-    "@type": "http://www.w3.org/2002/07/owl#Class",
-    "obo:IAO_0000115": "An ortho-fused bicyclic arene comprising of benzene and cyclopentene rings.",
+    "@id": "concept:YBYIRNPNPLQARY-UHFFFAOYSA-N",
+    "@type": "skos:Concept",
+    "dbo:formula": "C9H8",
+    "dbo:inchi": "InChI=1S/C9H8/c1-2-5-9-7-3-6-8(9)4-1/h1-6H,7H2",
+    "dbo:smiles": "C1C=Cc2ccccc12",
+    "dbp:inchikey": "YBYIRNPNPLQARY-UHFFFAOYSA-N",
     "chebi:charge": "0",
-    "chebi:formula": "C9H8",
-    "chebi:inchi": "InChI=1S/C9H8/c1-2-5-9-7-3-6-8(9)4-1/h1-6H,7H2",
-    "chebi:inchikey": "YBYIRNPNPLQARY-UHFFFAOYSA-N",
-    "chebi:smiles": "C1C=Cc2ccccc12",
-    "geneontology:hasDbXref": [
-        "Beilstein:635873",
-        "CAS:95-13-6",
-        "DrugBank:DB02815",
-        "Gmelin:27265",
-        "PDBeChem:DEN",
-        "PMID:24217495",
-        "PMID:24804069",
-        "Reaxys:635873",
-        "Wikipedia:Indene"
-    ],
-    "geneontology:hasId": "41921",
-    "geneontology:hasSynonym": [
+    "skos:altLabel": [
         "indene",
         "Inden",
         "INDENE",
         "indonaphthene"
     ],
-    "geneontology:inSubset": {
-        "@id": "obo:chebi#3_STAR"
+    "skos:exactMatch": {
+        "@id": "obo:CHEBI_41921"
     },
-    "rdfs:label": "1H-indene",
-    "rdfs:subClassOf": [
+    "skos:note": "An ortho-fused bicyclic arene comprising of benzene and cyclopentene rings.",
+    "skos:semanticRelation": [
         {
             "@id": "obo:CHEBI_37910"
         },

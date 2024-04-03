@@ -1,38 +1,27 @@
 {
     "@context": {
-        "chebi": "http://purl.obolibrary.org/obo/chebi/",
         "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
         "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-        "obo": "http://purl.obolibrary.org/obo/"
+        "obo": "http://purl.obolibrary.org/obo/",
+        "uniprot": "http://purl.uniprot.org/",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "concept": "https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/",
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "dbo": "http://dbpedia.org/ontology/",
+        "dbp": "http://dbpedia.org/property/",
+        "graph": {
+            "@id": "@graph"
+        }
     },
-    "@id": "obo:CHEBI_74526",
-    "@type": "http://www.w3.org/2002/07/owl#Class",
-    "obo:IAO_0000115": "A primary aliphatic amine that is butane in which one hydrogen at position 2 is replaced by an amino group. A fumigant fungicide with a high potential for bioaccumulation, it is not approved for fungicidal use in the European Union.",
+    "@id": "concept:BHRZNVHARXXAHW-UHFFFAOYSA-N",
+    "@type": "skos:Concept",
+    "dbo:formula": "C4H11N",
+    "dbo:inchi": "InChI=1S/C4H11N/c1-3-4(2)5/h4H,3,5H2,1-2H3",
+    "dbo:smiles": "CCC(C)N",
+    "dbp:inchikey": "BHRZNVHARXXAHW-UHFFFAOYSA-N",
     "chebi:charge": "0",
-    "chebi:formula": "C4H11N",
-    "chebi:inchi": "InChI=1S/C4H11N/c1-3-4(2)5/h4H,3,5H2,1-2H3",
-    "chebi:inchikey": "BHRZNVHARXXAHW-UHFFFAOYSA-N",
-    "chebi:smiles": "CCC(C)N",
-    "geneontology:hasDbXref": [
-        "AGR:IND80058320",
-        "AGR:IND86074058",
-        "AGR:IND88025750",
-        "CAS:13952-84-6",
-        "HMDB:HMDB0032179",
-        "KEGG:C18706",
-        "MetaCyc:CPD-3627",
-        "Patent:CN101648874",
-        "Patent:CN101648875",
-        "Patent:CN1775736",
-        "Patent:US2636902",
-        "Patent:US2689868",
-        "PMID:5464092",
-        "PPDB:6",
-        "Reaxys:1361345",
-        "Wikipedia:Sec-Butylamine"
-    ],
-    "geneontology:hasId": "74526",
-    "geneontology:hasSynonym": [
+    "skos:altLabel": [
         "butylamine",
         "1-methylpropanamine",
         "1-methylpropylamine",
@@ -43,19 +32,16 @@
         "butan-2-amine",
         "secondary butylamine"
     ],
-    "geneontology:inSubset": {
-        "@id": "obo:chebi#3_STAR"
+    "skos:exactMatch": {
+        "@id": "obo:CHEBI_74526"
     },
-    "rdfs:label": "sec-butylamine",
-    "rdfs:subClassOf": [
+    "skos:note": "A primary aliphatic amine that is butane in which one hydrogen at position 2 is replaced by an amino group. A fumigant fungicide with a high potential for bioaccumulation, it is not approved for fungicidal use in the European Union.",
+    "skos:semanticRelation": [
         {
             "@id": "obo:CHEBI_17062"
         },
         {
             "@id": "obo:CHEBI_86417"
-        },
-        {
-            "@id": "b179_genid-00f1db82e1ab437c844115a94dc63e635-bn74526t11f86328"
         }
     ]
 }

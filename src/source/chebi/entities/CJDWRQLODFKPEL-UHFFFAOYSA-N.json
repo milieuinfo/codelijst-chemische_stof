@@ -1,43 +1,37 @@
 {
     "@context": {
-        "chebi": "http://purl.obolibrary.org/obo/chebi/",
         "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
         "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-        "obo": "http://purl.obolibrary.org/obo/"
+        "obo": "http://purl.obolibrary.org/obo/",
+        "uniprot": "http://purl.uniprot.org/",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "concept": "https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/",
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "dbo": "http://dbpedia.org/ontology/",
+        "dbp": "http://dbpedia.org/property/",
+        "graph": {
+            "@id": "@graph"
+        }
     },
-    "@id": "obo:CHEBI_39387",
-    "@type": "http://www.w3.org/2002/07/owl#Class",
-    "obo:IAO_0000115": "A N-acylurea that is N-carbamoyl-2,6-difluorobenzamide substituted by a 3,5-dichloro-2,4-difluorophenyl group at the terminal nitrogen atom.",
+    "@id": "concept:CJDWRQLODFKPEL-UHFFFAOYSA-N",
+    "@type": "skos:Concept",
+    "dbo:formula": "C14H6Cl2F4N2O2",
+    "dbo:inchi": "InChI=1S/C14H6Cl2F4N2O2/c15-5-4-8(12(20)10(16)11(5)19)21-14(24)22-13(23)9-6(17)2-1-3-7(9)18/h1-4H,(H2,21,22,23,24)",
+    "dbo:smiles": "Fc1cccc(F)c1C(=O)NC(=O)Nc1cc(Cl)c(F)c(Cl)c1F",
+    "dbp:inchikey": "CJDWRQLODFKPEL-UHFFFAOYSA-N",
     "chebi:charge": "0",
-    "chebi:formula": "C14H6Cl2F4N2O2",
-    "chebi:inchi": "InChI=1S/C14H6Cl2F4N2O2/c15-5-4-8(12(20)10(16)11(5)19)21-14(24)22-13(23)9-6(17)2-1-3-7(9)18/h1-4H,(H2,21,22,23,24)",
-    "chebi:inchikey": "CJDWRQLODFKPEL-UHFFFAOYSA-N",
-    "chebi:smiles": "Fc1cccc(F)c1C(=O)NC(=O)Nc1cc(Cl)c(F)c(Cl)c1F",
-    "geneontology:hasDbXref": [
-        "Beilstein:8229925",
-        "CAS:83121-18-0",
-        "CAS:99039-56-2",
-        "KEGG:C18437",
-        "Pesticides:teflubenzuron",
-        "PMID:22641111",
-        "PMID:23581694",
-        "PMID:24555954",
-        "PPDB:616",
-        "Reaxys:8229925",
-        "VSDB:616"
-    ],
-    "geneontology:hasId": "39387",
-    "geneontology:hasSynonym": [
+    "skos:altLabel": [
         "1-(3,5-dichloro-2,4-difluorophenyl)-3-(2,6-difluorobenzoyl)urea",
         "N-[(3,5-dichloro-2,4-difluorophenyl)carbamoyl]-2,6-difluorobenzamide",
         "N-{[(3,5-dichloro-2,4-difluorophenyl)amino]carbonyl}-2,6-difluorobenzamide",
         "Teflubenzuron"
     ],
-    "geneontology:inSubset": {
-        "@id": "obo:chebi#3_STAR"
+    "skos:exactMatch": {
+        "@id": "obo:CHEBI_39387"
     },
-    "rdfs:label": "teflubenzuron",
-    "rdfs:subClassOf": [
+    "skos:note": "A N-acylurea that is N-carbamoyl-2,6-difluorobenzamide substituted by a 3,5-dichloro-2,4-difluorophenyl group at the terminal nitrogen atom.",
+    "skos:semanticRelation": [
         {
             "@id": "obo:CHEBI_23697"
         },
@@ -46,18 +40,6 @@
         },
         {
             "@id": "obo:CHEBI_38582"
-        },
-        {
-            "@id": "b315_genid-00f1db82e1ab437c844115a94dc63e635-bn39387t11f24852"
-        },
-        {
-            "@id": "b315_genid-00f1db82e1ab437c844115a94dc63e635-bn39387t11f35703"
-        },
-        {
-            "@id": "b315_genid-00f1db82e1ab437c844115a94dc63e635-bn39387t8f39416"
-        },
-        {
-            "@id": "b315_genid-00f1db82e1ab437c844115a94dc63e635-bn39387t11f78298"
         }
     ]
 }

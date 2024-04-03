@@ -1,28 +1,17 @@
 {
     "@context": {
-        "chebi": "http://purl.obolibrary.org/obo/chebi/",
         "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
         "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-        "obo": "http://purl.obolibrary.org/obo/"
-    },
-    "@id": "obo:CHEBI_82226",
-    "@type": "http://www.w3.org/2002/07/owl#Class",
-    "chebi:charge": "0",
-    "chebi:formula": "C11H21N5OS",
-    "chebi:inchi": "InChI=1S/C11H21N5OS/c1-8(2)13-10-14-9(12-6-5-7-17-3)15-11(16-10)18-4/h8H,5-7H2,1-4H3,(H2,12,13,14,15,16)",
-    "chebi:inchikey": "DDUIUBPJPOKOMV-UHFFFAOYSA-N",
-    "chebi:smiles": "COCCCNc1nc(NC(C)C)nc(SC)n1",
-    "geneontology:hasDbXref": [
-        "CAS:841-06-5",
-        "KEGG:C19104",
-        "PPDB:1549"
-    ],
-    "geneontology:hasId": "82226",
-    "geneontology:inSubset": {
-        "@id": "obo:chebi#2_STAR"
-    },
-    "rdfs:label": "Methoprotryne",
-    "rdfs:subClassOf": {
-        "@id": "obo:CHEBI_26588"
+        "obo": "http://purl.obolibrary.org/obo/",
+        "uniprot": "http://purl.uniprot.org/",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "concept": "https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/",
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "dbo": "http://dbpedia.org/ontology/",
+        "dbp": "http://dbpedia.org/property/",
+        "graph": {
+            "@id": "@graph"
+        }
     }
 }

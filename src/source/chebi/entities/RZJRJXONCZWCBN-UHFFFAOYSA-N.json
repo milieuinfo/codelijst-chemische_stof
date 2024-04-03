@@ -1,45 +1,40 @@
 {
     "@context": {
-        "chebi": "http://purl.obolibrary.org/obo/chebi/",
         "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
         "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-        "obo": "http://purl.obolibrary.org/obo/"
+        "obo": "http://purl.obolibrary.org/obo/",
+        "uniprot": "http://purl.uniprot.org/",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "concept": "https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/",
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "dbo": "http://dbpedia.org/ontology/",
+        "dbp": "http://dbpedia.org/property/",
+        "altLabel": {
+            "@id": "http://www.w3.org/2004/02/skos/core#altLabel",
+            "@language": "en"
+        },
+        "graph": {
+            "@id": "@graph"
+        }
     },
-    "@id": "obo:CHEBI_32926",
-    "@type": "http://www.w3.org/2002/07/owl#Class",
-    "obo:IAO_0000115": "A straight-chain alkane carrying 18 carbon atoms.",
+    "@id": "concept:RZJRJXONCZWCBN-UHFFFAOYSA-N",
+    "@type": "skos:Concept",
+    "dbo:formula": "C18H38",
+    "dbo:inchi": "InChI=1S/C18H38/c1-3-5-7-9-11-13-15-17-18-16-14-12-10-8-6-4-2/h3-18H2,1-2H3",
+    "dbo:smiles": "CCCCCCCCCCCCCCCCCC",
+    "dbp:inchikey": "RZJRJXONCZWCBN-UHFFFAOYSA-N",
     "chebi:charge": "0",
-    "chebi:formula": "C18H38",
-    "chebi:inchi": "InChI=1S/C18H38/c1-3-5-7-9-11-13-15-17-18-16-14-12-10-8-6-4-2/h3-18H2,1-2H3",
-    "chebi:inchikey": "RZJRJXONCZWCBN-UHFFFAOYSA-N",
-    "chebi:smiles": "CCCCCCCCCCCCCCCCCC",
-    "geneontology:hasDbXref": [
-        "Beilstein:1740138",
-        "CAS:593-45-3",
-        "Gmelin:263389",
-        "KNApSAcK:C00030879",
-        "PMID:9842728",
-        "Reaxys:1740138"
-    ],
-    "geneontology:hasId": "32926",
-    "geneontology:hasSynonym": [
+    "skos:altLabel": [
         "CH3-[CH2]16-CH3",
         "n-octadecane",
         "Oktadekan"
     ],
-    "geneontology:inSubset": {
-        "@id": "obo:chebi#3_STAR"
+    "skos:exactMatch": {
+        "@id": "obo:CHEBI_32926"
     },
-    "rdfs:label": "octadecane",
-    "rdfs:subClassOf": [
-        {
-            "@id": "obo:CHEBI_83563"
-        },
-        {
-            "@id": "b559_genid-00f1db82e1ab437c844115a94dc63e635-bn32926t11f76924"
-        },
-        {
-            "@id": "b559_genid-00f1db82e1ab437c844115a94dc63e635-bn32926t11f76969"
-        }
-    ]
+    "skos:note": "A straight-chain alkane carrying 18 carbon atoms.",
+    "skos:semanticRelation": {
+        "@id": "obo:CHEBI_83563"
+    }
 }

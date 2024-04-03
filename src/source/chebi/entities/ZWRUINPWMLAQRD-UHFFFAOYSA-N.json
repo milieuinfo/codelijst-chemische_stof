@@ -1,43 +1,31 @@
 {
     "@context": {
-        "chebi": "http://purl.obolibrary.org/obo/chebi/",
         "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
         "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-        "obo": "http://purl.obolibrary.org/obo/"
+        "obo": "http://purl.obolibrary.org/obo/",
+        "uniprot": "http://purl.uniprot.org/",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "concept": "https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/",
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "dbo": "http://dbpedia.org/ontology/",
+        "dbp": "http://dbpedia.org/property/",
+        "altLabel": {
+            "@id": "http://www.w3.org/2004/02/skos/core#altLabel",
+            "@language": "en"
+        },
+        "graph": {
+            "@id": "@graph"
+        }
     },
-    "@id": "obo:CHEBI_35986",
-    "@type": "http://www.w3.org/2002/07/owl#Class",
-    "obo:IAO_0000115": "A nonanol that is nonane substituted by a hydroxy group at position 1. It has been isolated as a component of volatile oils from plants like Hordeum vulgare.",
+    "@id": "concept:ZWRUINPWMLAQRD-UHFFFAOYSA-N",
+    "@type": "skos:Concept",
+    "dbo:formula": "C9H20O",
+    "dbo:inchi": "InChI=1S/C9H20O/c1-2-3-4-5-6-7-8-9-10/h10H,2-9H2,1H3",
+    "dbo:smiles": "CCCCCCCCCO",
+    "dbp:inchikey": "ZWRUINPWMLAQRD-UHFFFAOYSA-N",
     "chebi:charge": "0",
-    "chebi:formula": "C9H20O",
-    "chebi:inchi": "InChI=1S/C9H20O/c1-2-3-4-5-6-7-8-9-10/h10H,2-9H2,1H3",
-    "chebi:inchikey": "ZWRUINPWMLAQRD-UHFFFAOYSA-N",
-    "chebi:smiles": "CCCCCCCCCO",
-    "http://purl.uniprot.org/core/name": "nonan-1-ol",
-    "geneontology:hasDbXref": [
-        "AGR:IND44158795",
-        "AGR:IND91035473",
-        "Beilstein:969213",
-        "CAS:143-08-8",
-        "DrugBank:DB03143",
-        "Gmelin:406178",
-        "HMDB:HMDB0031265",
-        "KEGG:C14696",
-        "KNApSAcK:C00030830",
-        "LIPID_MAPS_instance:LMFA05000092",
-        "PDBeChem:F09",
-        "PMID:15612735",
-        "PMID:19926216",
-        "PMID:23793896",
-        "PMID:32750448",
-        "PMID:34550439",
-        "PMID:35179628",
-        "PMID:5913174",
-        "Reaxys:969213",
-        "Wikipedia:1-Nonanol"
-    ],
-    "geneontology:hasId": "35986",
-    "geneontology:hasSynonym": [
+    "skos:altLabel": [
         "1-hydroxynonane",
         "1-nonanol",
         "FEMA 2789",
@@ -51,25 +39,13 @@
         "Pelargonalkohol",
         "pelargonic alcohol"
     ],
-    "geneontology:inSubset": {
-        "@id": "obo:chebi#3_STAR"
+    "skos:exactMatch": {
+        "@id": "obo:CHEBI_35986"
     },
-    "rdfs:label": "nonan-1-ol",
-    "rdfs:subClassOf": [
+    "skos:note": "A nonanol that is nonane substituted by a hydroxy group at position 1. It has been isolated as a component of volatile oils from plants like Hordeum vulgare.",
+    "skos:semanticRelation": [
         {
             "@id": "obo:CHEBI_15734"
-        },
-        {
-            "@id": "b575_genid-00f1db82e1ab437c844115a94dc63e635-bn35986t11f27311"
-        },
-        {
-            "@id": "b575_genid-00f1db82e1ab437c844115a94dc63e635-bn35986t11f35617"
-        },
-        {
-            "@id": "b575_genid-00f1db82e1ab437c844115a94dc63e635-bn35986t11f35718"
-        },
-        {
-            "@id": "b575_genid-00f1db82e1ab437c844115a94dc63e635-bn35986t11f76924"
         },
         {
             "@id": "obo:CHEBI_195604"

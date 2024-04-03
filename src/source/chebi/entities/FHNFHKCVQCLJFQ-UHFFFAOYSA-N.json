@@ -1,73 +1,52 @@
 {
     "@context": {
-        "chebi": "http://purl.obolibrary.org/obo/chebi/",
         "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
         "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-        "obo": "http://purl.obolibrary.org/obo/"
+        "obo": "http://purl.obolibrary.org/obo/",
+        "uniprot": "http://purl.uniprot.org/",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "concept": "https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/",
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "dbo": "http://dbpedia.org/ontology/",
+        "dbp": "http://dbpedia.org/property/",
+        "graph": {
+            "@id": "@graph"
+        }
     },
-    "@graph": [
+    "@id": "concept:FHNFHKCVQCLJFQ-UHFFFAOYSA-N",
+    "@type": "skos:Concept",
+    "dbo:formula": "Xe",
+    "dbo:inchi": "InChI=1S/Xe",
+    "dbo:smiles": "[Xe]",
+    "dbp:inchikey": "FHNFHKCVQCLJFQ-UHFFFAOYSA-N",
+    "chebi:charge": "0",
+    "skos:altLabel": [
+        "Xe",
+        "[Xe]",
+        "54Xe",
+        "xenon",
+        "Xenon",
+        "xenon atom",
+        "XENON"
+    ],
+    "skos:exactMatch": [
         {
-            "@id": "obo:CHEBI_49956",
-            "@type": "http://www.w3.org/2002/07/owl#Class",
-            "chebi:charge": "0",
-            "chebi:formula": "Xe",
-            "chebi:inchi": "InChI=1S/Xe",
-            "chebi:inchikey": "FHNFHKCVQCLJFQ-UHFFFAOYSA-N",
-            "chebi:smiles": "[Xe]",
-            "geneontology:hasDbXref": [
-                "CAS:7440-63-3",
-                "KEGG:C13373",
-                "KEGG:D01901",
-                "MolBase:926",
-                "PDBeChem:XE"
-            ],
-            "geneontology:hasId": "49956",
-            "geneontology:hasSynonym": [
-                "xenon atom",
-                "[Xe]",
-                "XENON"
-            ],
-            "geneontology:inSubset": {
-                "@id": "obo:chebi#3_STAR"
-            },
-            "rdfs:label": "xenon(0)",
-            "rdfs:subClassOf": {
-                "@id": "obo:CHEBI_49985"
-            }
+            "@id": "obo:CHEBI_49957"
         },
         {
-            "@id": "obo:CHEBI_49957",
-            "@type": "http://www.w3.org/2002/07/owl#Class",
-            "chebi:charge": "0",
-            "chebi:formula": "Xe",
-            "chebi:inchi": "InChI=1S/Xe",
-            "chebi:inchikey": "FHNFHKCVQCLJFQ-UHFFFAOYSA-N",
-            "chebi:smiles": "[Xe]",
-            "geneontology:hasDbXref": [
-                "CAS:7440-63-3",
-                "KEGG:C13373",
-                "Gmelin:16318",
-                "WebElements:Xe"
-            ],
-            "geneontology:hasId": "49957",
-            "geneontology:hasSynonym": [
-                "Xe",
-                "54Xe",
-                "xenon",
-                "Xenon"
-            ],
-            "geneontology:inSubset": {
-                "@id": "obo:chebi#3_STAR"
-            },
-            "rdfs:label": "xenon atom",
-            "rdfs:subClassOf": [
-                {
-                    "@id": "obo:CHEBI_33560"
-                },
-                {
-                    "@id": "obo:CHEBI_33309"
-                }
-            ]
+            "@id": "obo:CHEBI_49956"
+        }
+    ],
+    "skos:semanticRelation": [
+        {
+            "@id": "obo:CHEBI_33560"
+        },
+        {
+            "@id": "obo:CHEBI_33309"
+        },
+        {
+            "@id": "obo:CHEBI_49985"
         }
     ]
 }

@@ -1,28 +1,27 @@
 {
     "@context": {
-        "chebi": "http://purl.obolibrary.org/obo/chebi/",
         "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
         "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-        "obo": "http://purl.obolibrary.org/obo/"
+        "obo": "http://purl.obolibrary.org/obo/",
+        "uniprot": "http://purl.uniprot.org/",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "concept": "https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/",
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "dbo": "http://dbpedia.org/ontology/",
+        "dbp": "http://dbpedia.org/property/",
+        "graph": {
+            "@id": "@graph"
+        }
     },
-    "@id": "obo:CHEBI_36404",
-    "@type": "http://www.w3.org/2002/07/owl#Class",
-    "obo:IAO_0000115": "A cycloalkene that is cylohexane with a single double bond.",
+    "@id": "concept:HGCIXCUEYOPUTN-UHFFFAOYSA-N",
+    "@type": "skos:Concept",
+    "dbo:formula": "C6H10",
+    "dbo:inchi": "InChI=1S/C6H10/c1-2-4-6-5-3-1/h1-2H,3-6H2",
+    "dbo:smiles": "C1CCC=CC1",
+    "dbp:inchikey": "HGCIXCUEYOPUTN-UHFFFAOYSA-N",
     "chebi:charge": "0",
-    "chebi:formula": "C6H10",
-    "chebi:inchi": "InChI=1S/C6H10/c1-2-4-6-5-3-1/h1-2H,3-6H2",
-    "chebi:inchikey": "HGCIXCUEYOPUTN-UHFFFAOYSA-N",
-    "chebi:smiles": "C1CCC=CC1",
-    "geneontology:hasDbXref": [
-        "Beilstein:906737",
-        "CAS:110-83-8",
-        "Gmelin:1659",
-        "PMID:24227283",
-        "Reaxys:906737",
-        "Wikipedia:Cyclohexene"
-    ],
-    "geneontology:hasId": "36404",
-    "geneontology:hasSynonym": [
+    "skos:altLabel": [
         "1,2,3,4-tetrahydrobenzene",
         "1-cyclohexene",
         "3,4,5,6-tetrahydrobenzene",
@@ -32,11 +31,11 @@
         "tetrahydrobenzene",
         "Zyklohexen"
     ],
-    "geneontology:inSubset": {
-        "@id": "obo:chebi#3_STAR"
+    "skos:exactMatch": {
+        "@id": "obo:CHEBI_36404"
     },
-    "rdfs:label": "cyclohexene",
-    "rdfs:subClassOf": {
+    "skos:note": "A cycloalkene that is cylohexane with a single double bond.",
+    "skos:semanticRelation": {
         "@id": "obo:CHEBI_33643"
     }
 }

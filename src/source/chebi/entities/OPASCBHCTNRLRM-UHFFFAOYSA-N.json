@@ -1,25 +1,31 @@
 {
     "@context": {
-        "chebi": "http://purl.obolibrary.org/obo/chebi/",
         "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
         "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-        "obo": "http://purl.obolibrary.org/obo/"
+        "obo": "http://purl.obolibrary.org/obo/",
+        "uniprot": "http://purl.uniprot.org/",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "concept": "https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/",
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "dbo": "http://dbpedia.org/ontology/",
+        "dbp": "http://dbpedia.org/property/",
+        "altLabel": {
+            "@id": "http://www.w3.org/2004/02/skos/core#altLabel",
+            "@language": "en"
+        },
+        "graph": {
+            "@id": "@graph"
+        }
     },
-    "@id": "obo:CHEBI_38962",
-    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "@id": "concept:OPASCBHCTNRLRM-UHFFFAOYSA-N",
+    "@type": "skos:Concept",
+    "dbo:formula": "C6H15O2PS3",
+    "dbo:inchi": "InChI=1S/C6H15O2PS3/c1-4-11-5-6-12-9(10,7-2)8-3/h4-6H2,1-3H3",
+    "dbo:smiles": "CCSCCSP(=S)(OC)OC",
+    "dbp:inchikey": "OPASCBHCTNRLRM-UHFFFAOYSA-N",
     "chebi:charge": "0",
-    "chebi:formula": "C6H15O2PS3",
-    "chebi:inchi": "InChI=1S/C6H15O2PS3/c1-4-11-5-6-12-9(10,7-2)8-3/h4-6H2,1-3H3",
-    "chebi:inchikey": "OPASCBHCTNRLRM-UHFFFAOYSA-N",
-    "chebi:smiles": "CCSCCSP(=S)(OC)OC",
-    "geneontology:hasDbXref": [
-        "Beilstein:1707379",
-        "CAS:640-15-3",
-        "KEGG:C18665",
-        "PPDB:639"
-    ],
-    "geneontology:hasId": "38962",
-    "geneontology:hasSynonym": [
+    "skos:altLabel": [
         "S-[2-(ethylsulfanyl)ethyl] O,O-dimethyl dithiophosphate",
         "Ekatin",
         "M 81",
@@ -27,11 +33,10 @@
         "Phosphorodithioic acid, S-(2-(ethylthio)ethyl) O,O-dimethyl ester",
         "S-[2-(ethylsulfanyl)ethyl] O,O-dimethyl phosphorodithioate"
     ],
-    "geneontology:inSubset": {
-        "@id": "obo:chebi#3_STAR"
+    "skos:exactMatch": {
+        "@id": "obo:CHEBI_38962"
     },
-    "rdfs:label": "thiometon",
-    "rdfs:subClassOf": [
+    "skos:semanticRelation": [
         {
             "@id": "obo:CHEBI_33261"
         },
@@ -40,18 +45,6 @@
         },
         {
             "@id": "obo:CHEBI_25715"
-        },
-        {
-            "@id": "b37_genid-00f1db82e1ab437c844115a94dc63e635-bn38962t11f22153"
-        },
-        {
-            "@id": "b37_genid-00f1db82e1ab437c844115a94dc63e635-bn38962t11f33286"
-        },
-        {
-            "@id": "b37_genid-00f1db82e1ab437c844115a94dc63e635-bn38962t11f38462"
-        },
-        {
-            "@id": "b37_genid-00f1db82e1ab437c844115a94dc63e635-bn38962t8f38625"
         }
     ]
 }

@@ -1,39 +1,31 @@
 {
     "@context": {
-        "chebi": "http://purl.obolibrary.org/obo/chebi/",
         "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
         "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-        "obo": "http://purl.obolibrary.org/obo/"
+        "obo": "http://purl.obolibrary.org/obo/",
+        "uniprot": "http://purl.uniprot.org/",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "concept": "https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/",
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "dbo": "http://dbpedia.org/ontology/",
+        "dbp": "http://dbpedia.org/property/",
+        "altLabel": {
+            "@id": "http://www.w3.org/2004/02/skos/core#altLabel",
+            "@language": "en"
+        },
+        "graph": {
+            "@id": "@graph"
+        }
     },
-    "@id": "obo:CHEBI_49976",
-    "@type": "http://www.w3.org/2002/07/owl#Class",
-    "obo:IAO_0000115": "A compound of zinc and chloride ions in the ratio 1:2. It exists in four crystalline forms, in each of which the Zn(2+) ions are trigonal planar coordinated to four chloride ions.",
+    "@id": "concept:JIAARYAFYJHUJI-UHFFFAOYSA-L",
+    "@type": "skos:Concept",
+    "dbo:formula": "Cl2Zn",
+    "dbo:inchi": "InChI=1S/2ClH.Zn/h2*1H;/q;;+2/p-2",
+    "dbo:smiles": "[Cl-].[Cl-].[Zn++]",
+    "dbp:inchikey": "JIAARYAFYJHUJI-UHFFFAOYSA-L",
     "chebi:charge": "0",
-    "chebi:formula": "Cl2Zn",
-    "chebi:inchi": "InChI=1S/2ClH.Zn/h2*1H;/q;;+2/p-2",
-    "chebi:inchikey": "JIAARYAFYJHUJI-UHFFFAOYSA-L",
-    "chebi:smiles": "[Cl-].[Cl-].[Zn++]",
-    "geneontology:hasDbXref": [
-        "PMID:29079364",
-        "PMID:9730919",
-        "PMID:7615984",
-        "CAS:7646-85-7",
-        "Gmelin:430396",
-        "KEGG:D02058",
-        "MolBase:1125",
-        "PMID:23021350",
-        "PMID:23399499",
-        "PMID:23471775",
-        "PMID:23514640",
-        "PMID:23546181",
-        "PMID:23574241",
-        "PMID:23739012",
-        "PMID:23761032",
-        "PMID:23763136",
-        "Wikipedia:Zinc_Chloride"
-    ],
-    "geneontology:hasId": "49976",
-    "geneontology:hasSynonym": [
+    "skos:altLabel": [
         "butter of zinc",
         "chlorure de zinc",
         "dichlorozinc",
@@ -44,28 +36,16 @@
         "Zinkchlorid",
         "ZnCl2"
     ],
-    "geneontology:inSubset": {
-        "@id": "obo:chebi#3_STAR"
+    "skos:exactMatch": {
+        "@id": "obo:CHEBI_49976"
     },
-    "rdfs:label": "zinc dichloride",
-    "rdfs:subClassOf": [
+    "skos:note": "A compound of zinc and chloride ions in the ratio 1:2. It exists in four crystalline forms, in each of which the Zn(2+) ions are trigonal planar coordinated to four chloride ions.",
+    "skos:semanticRelation": [
         {
             "@id": "obo:CHEBI_36093"
         },
         {
             "@id": "obo:CHEBI_27364"
-        },
-        {
-            "@id": "b261_genid-00f1db82e1ab437c844115a94dc63e635-bn49976t11f39143"
-        },
-        {
-            "@id": "b261_genid-00f1db82e1ab437c844115a94dc63e635-bn49976t11f48219"
-        },
-        {
-            "@id": "b261_genid-00f1db82e1ab437c844115a94dc63e635-bn49976t11f74783"
-        },
-        {
-            "@id": "b261_genid-00f1db82e1ab437c844115a94dc63e635-bn49976t11f86385"
         }
     ]
 }

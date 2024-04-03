@@ -1,51 +1,31 @@
 {
     "@context": {
-        "chebi": "http://purl.obolibrary.org/obo/chebi/",
         "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
         "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-        "obo": "http://purl.obolibrary.org/obo/"
+        "obo": "http://purl.obolibrary.org/obo/",
+        "uniprot": "http://purl.uniprot.org/",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "concept": "https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/",
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "dbo": "http://dbpedia.org/ontology/",
+        "dbp": "http://dbpedia.org/property/",
+        "altLabel": {
+            "@id": "http://www.w3.org/2004/02/skos/core#altLabel",
+            "@language": "en"
+        },
+        "graph": {
+            "@id": "@graph"
+        }
     },
-    "@id": "obo:CHEBI_16716",
-    "@type": "http://www.w3.org/2002/07/owl#Class",
-    "obo:IAO_0000115": "A six-carbon aromatic annulene in which each carbon atom donates one of its two 2p electrons into a delocalised pi system. A toxic, flammable liquid byproduct of coal distillation, it is used as an industrial solvent. Benzene is a carcinogen that also damages bone marrow and the central nervous system.",
+    "@id": "concept:UHOVQNZJYSORNB-UHFFFAOYSA-N",
+    "@type": "skos:Concept",
+    "dbo:formula": "C6H6",
+    "dbo:inchi": "InChI=1S/C6H6/c1-2-4-6-5-3-1/h1-6H",
+    "dbo:smiles": "c1ccccc1",
+    "dbp:inchikey": "UHOVQNZJYSORNB-UHFFFAOYSA-N",
     "chebi:charge": "0",
-    "chebi:formula": "C6H6",
-    "chebi:inchi": "InChI=1S/C6H6/c1-2-4-6-5-3-1/h1-6H",
-    "chebi:inchikey": "UHOVQNZJYSORNB-UHFFFAOYSA-N",
-    "chebi:smiles": "c1ccccc1",
-    "http://purl.uniprot.org/core/name": "benzene",
-    "geneontology:hasDbXref": [
-        "PMID:11684179",
-        "Beilstein:969212",
-        "CAS:71-43-2",
-        "Gmelin:1671",
-        "HMDB:HMDB0001505",
-        "KEGG:C01407",
-        "PDBeChem:BNZ",
-        "PMID:11993966",
-        "PMID:12857942",
-        "PMID:14677922",
-        "PMID:15468289",
-        "PMID:15935818",
-        "PMID:16161967",
-        "PMID:17373369",
-        "PMID:18072742",
-        "PMID:18407866",
-        "PMID:18409691",
-        "PMID:18836923",
-        "PMID:19228219",
-        "PMID:21325737",
-        "PMID:23088855",
-        "PMID:23222815",
-        "PMID:23534829",
-        "PMID:6353911",
-        "PMID:8124204",
-        "Reaxys:969212",
-        "UM-BBD_compID:c0142",
-        "Wikipedia:Benzene"
-    ],
-    "geneontology:hasId": "16716",
-    "geneontology:hasSynonym": [
+    "skos:altLabel": [
         "benzene",
         "[6]annulene",
         "Benzen",
@@ -63,11 +43,11 @@
         "Pyrobenzol",
         "Pyrobenzole"
     ],
-    "geneontology:inSubset": {
-        "@id": "obo:chebi#3_STAR"
+    "skos:exactMatch": {
+        "@id": "obo:CHEBI_16716"
     },
-    "rdfs:label": "benzene",
-    "rdfs:subClassOf": [
+    "skos:note": "A six-carbon aromatic annulene in which each carbon atom donates one of its two 2p electrons into a delocalised pi system. A toxic, flammable liquid byproduct of coal distillation, it is used as an industrial solvent. Benzene is a carcinogen that also damages bone marrow and the central nervous system.",
+    "skos:semanticRelation": [
         {
             "@id": "obo:CHEBI_22712"
         },
@@ -76,15 +56,6 @@
         },
         {
             "@id": "obo:CHEBI_33842"
-        },
-        {
-            "@id": "b786_genid-00f1db82e1ab437c844115a94dc63e635-bn16716t11f48355"
-        },
-        {
-            "@id": "b786_genid-00f1db82e1ab437c844115a94dc63e635-bn16716t11f50903"
-        },
-        {
-            "@id": "b786_genid-00f1db82e1ab437c844115a94dc63e635-bn16716t11f78298"
         }
     ]
 }

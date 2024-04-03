@@ -1,46 +1,31 @@
 {
     "@context": {
-        "chebi": "http://purl.obolibrary.org/obo/chebi/",
         "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
         "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-        "obo": "http://purl.obolibrary.org/obo/"
+        "obo": "http://purl.obolibrary.org/obo/",
+        "uniprot": "http://purl.uniprot.org/",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "concept": "https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/",
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "dbo": "http://dbpedia.org/ontology/",
+        "dbp": "http://dbpedia.org/property/",
+        "altLabel": {
+            "@id": "http://www.w3.org/2004/02/skos/core#altLabel",
+            "@language": "en"
+        },
+        "graph": {
+            "@id": "@graph"
+        }
     },
-    "@id": "obo:CHEBI_28364",
-    "@type": "http://www.w3.org/2002/07/owl#Class",
-    "obo:IAO_0000115": "An icosapentaenoic acid having five cis-double bonds at positions 5, 8, 11, 14 and 17.",
+    "@id": "concept:JAZBEHYOTPTENJ-JLNKQSITSA-N",
+    "@type": "skos:Concept",
+    "dbo:formula": "C20H30O2",
+    "dbo:inchi": "InChI=1S/C20H30O2/c1-2-3-4-5-6-7-8-9-10-11-12-13-14-15-16-17-18-19-20(21)22/h3-4,6-7,9-10,12-13,15-16H,2,5,8,11,14,17-19H2,1H3,(H,21,22)/b4-3-,7-6-,10-9-,13-12-,16-15-",
+    "dbo:smiles": "CC\\C=C/C\\C=C/C\\C=C/C\\C=C/C\\C=C/CCCC(O)=O",
+    "dbp:inchikey": "JAZBEHYOTPTENJ-JLNKQSITSA-N",
     "chebi:charge": "0",
-    "chebi:formula": "C20H30O2",
-    "chebi:inchi": "InChI=1S/C20H30O2/c1-2-3-4-5-6-7-8-9-10-11-12-13-14-15-16-17-18-19-20(21)22/h3-4,6-7,9-10,12-13,15-16H,2,5,8,11,14,17-19H2,1H3,(H,21,22)/b4-3-,7-6-,10-9-,13-12-,16-15-",
-    "chebi:inchikey": "JAZBEHYOTPTENJ-JLNKQSITSA-N",
-    "chebi:smiles": "CC\\C=C/C\\C=C/C\\C=C/C\\C=C/C\\C=C/CCCC(O)=O",
-    "geneontology:hasDbXref": [
-        "PMID:9668087",
-        "Beilstein:1714433",
-        "CAS:10417-94-4",
-        "Drug_Central:3174",
-        "DrugBank:DB00159",
-        "HMDB:HMDB0001999",
-        "KEGG:C06428",
-        "KEGG:D08061",
-        "KNApSAcK:C00000408",
-        "KNApSAcK:C00001215",
-        "LIPID_MAPS_instance:LMFA01030759",
-        "MetaCyc:EICOSAPENTAENOATE",
-        "PDBeChem:EPA",
-        "PMID:12549599",
-        "PMID:18638380",
-        "PMID:19054597",
-        "PMID:21118482",
-        "PMID:21274596",
-        "PMID:23920312",
-        "PMID:24108131",
-        "PMID:24238887",
-        "PMID:24387137",
-        "PMID:24389665",
-        "Reaxys:1714433"
-    ],
-    "geneontology:hasId": "28364",
-    "geneontology:hasSynonym": [
+    "skos:altLabel": [
         "(5Z,8Z,11Z,14Z,17Z)-5,8,11,14,17-eicosapentaenoic acid",
         "(5Z,8Z,11Z,14Z,17Z)-Eicosapentaenoate",
         "(5Z,8Z,11Z,14Z,17Z)-Eicosapentaenoic acid",
@@ -63,46 +48,16 @@
         "icosapentum",
         "Timnodonic acid"
     ],
-    "geneontology:inSubset": {
-        "@id": "obo:chebi#3_STAR"
+    "skos:exactMatch": {
+        "@id": "obo:CHEBI_28364"
     },
-    "rdfs:label": "all-cis-5,8,11,14,17-icosapentaenoic acid",
-    "rdfs:subClassOf": [
+    "skos:note": "An icosapentaenoic acid having five cis-double bonds at positions 5, 8, 11, 14 and 17.",
+    "skos:semanticRelation": [
         {
             "@id": "obo:CHEBI_25681"
         },
         {
-            "@id": "b209_genid-00f1db82e1ab437c844115a94dc63e635-bn28364tmms73f58562"
-        },
-        {
-            "@id": "b209_genid-00f1db82e1ab437c844115a94dc63e635-bn28364t11f27027"
-        },
-        {
-            "@id": "b209_genid-00f1db82e1ab437c844115a94dc63e635-bn28364t11f35469"
-        },
-        {
-            "@id": "b209_genid-00f1db82e1ab437c844115a94dc63e635-bn28364t11f35610"
-        },
-        {
-            "@id": "b209_genid-00f1db82e1ab437c844115a94dc63e635-bn28364t11f35821"
-        },
-        {
             "@id": "obo:CHEBI_36006"
-        },
-        {
-            "@id": "b209_genid-00f1db82e1ab437c844115a94dc63e635-bn28364t11f50733"
-        },
-        {
-            "@id": "b209_genid-00f1db82e1ab437c844115a94dc63e635-bn28364t4f58562"
-        },
-        {
-            "@id": "b209_genid-00f1db82e1ab437c844115a94dc63e635-bn28364t11f75771"
-        },
-        {
-            "@id": "b209_genid-00f1db82e1ab437c844115a94dc63e635-bn28364t11f76946"
-        },
-        {
-            "@id": "b209_genid-00f1db82e1ab437c844115a94dc63e635-bn28364t11f83038"
         }
     ]
 }

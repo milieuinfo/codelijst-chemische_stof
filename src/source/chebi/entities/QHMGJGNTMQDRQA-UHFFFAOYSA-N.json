@@ -1,32 +1,39 @@
 {
     "@context": {
-        "chebi": "http://purl.obolibrary.org/obo/chebi/",
         "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
         "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-        "obo": "http://purl.obolibrary.org/obo/"
+        "obo": "http://purl.obolibrary.org/obo/",
+        "uniprot": "http://purl.uniprot.org/",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "concept": "https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/",
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "dbo": "http://dbpedia.org/ontology/",
+        "dbp": "http://dbpedia.org/property/",
+        "altLabel": {
+            "@id": "http://www.w3.org/2004/02/skos/core#altLabel",
+            "@language": "en"
+        },
+        "graph": {
+            "@id": "@graph"
+        }
     },
-    "@id": "obo:CHEBI_36020",
-    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "@id": "concept:QHMGJGNTMQDRQA-UHFFFAOYSA-N",
+    "@type": "skos:Concept",
+    "dbo:formula": "C32H66",
+    "dbo:inchi": "InChI=1S/C32H66/c1-3-5-7-9-11-13-15-17-19-21-23-25-27-29-31-32-30-28-26-24-22-20-18-16-14-12-10-8-6-4-2/h3-32H2,1-2H3",
+    "dbo:smiles": "CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC",
+    "dbp:inchikey": "QHMGJGNTMQDRQA-UHFFFAOYSA-N",
     "chebi:charge": "0",
-    "chebi:formula": "C32H66",
-    "chebi:inchi": "InChI=1S/C32H66/c1-3-5-7-9-11-13-15-17-19-21-23-25-27-29-31-32-30-28-26-24-22-20-18-16-14-12-10-8-6-4-2/h3-32H2,1-2H3",
-    "chebi:inchikey": "QHMGJGNTMQDRQA-UHFFFAOYSA-N",
-    "chebi:smiles": "CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC",
-    "geneontology:hasDbXref": [
-        "Beilstein:1783260",
-        "CAS:544-85-4"
-    ],
-    "geneontology:hasId": "36020",
-    "geneontology:hasSynonym": [
+    "skos:altLabel": [
         "bicetyl",
         "CH3-[CH2]30-CH3",
         "n-dotriacontane"
     ],
-    "geneontology:inSubset": {
-        "@id": "obo:chebi#3_STAR"
+    "skos:exactMatch": {
+        "@id": "obo:CHEBI_36020"
     },
-    "rdfs:label": "dotriacontane",
-    "rdfs:subClassOf": {
+    "skos:semanticRelation": {
         "@id": "obo:CHEBI_83563"
     }
 }

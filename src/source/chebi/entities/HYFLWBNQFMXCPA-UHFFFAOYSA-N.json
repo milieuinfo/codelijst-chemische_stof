@@ -1,30 +1,31 @@
 {
     "@context": {
-        "chebi": "http://purl.obolibrary.org/obo/chebi/",
         "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
         "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-        "obo": "http://purl.obolibrary.org/obo/"
+        "obo": "http://purl.obolibrary.org/obo/",
+        "uniprot": "http://purl.uniprot.org/",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "concept": "https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/",
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "dbo": "http://dbpedia.org/ontology/",
+        "dbp": "http://dbpedia.org/property/",
+        "altLabel": {
+            "@id": "http://www.w3.org/2004/02/skos/core#altLabel",
+            "@language": "en"
+        },
+        "graph": {
+            "@id": "@graph"
+        }
     },
-    "@id": "obo:CHEBI_34276",
-    "@type": "http://www.w3.org/2002/07/owl#Class",
-    "obo:IAO_0000115": "A member of the class of toluenes carrying an ethyl group at the ortho-position.",
+    "@id": "concept:HYFLWBNQFMXCPA-UHFFFAOYSA-N",
+    "@type": "skos:Concept",
+    "dbo:formula": "C9H12",
+    "dbo:inchi": "InChI=1S/C9H12/c1-3-9-7-5-4-6-8(9)2/h4-7H,3H2,1-2H3",
+    "dbo:smiles": "CCc1ccccc1C",
+    "dbp:inchikey": "HYFLWBNQFMXCPA-UHFFFAOYSA-N",
     "chebi:charge": "0",
-    "chebi:formula": "C9H12",
-    "chebi:inchi": "InChI=1S/C9H12/c1-3-9-7-5-4-6-8(9)2/h4-7H,3H2,1-2H3",
-    "chebi:inchikey": "HYFLWBNQFMXCPA-UHFFFAOYSA-N",
-    "chebi:smiles": "CCc1ccccc1C",
-    "geneontology:hasDbXref": [
-        "Beilstein:1851237",
-        "CAS:611-14-3",
-        "HMDB:HMDB0059819",
-        "KEGG:C14572",
-        "PMID:10192893",
-        "PMID:12744829",
-        "PMID:22204492",
-        "Reaxys:1851237"
-    ],
-    "geneontology:hasId": "34276",
-    "geneontology:hasSynonym": [
+    "skos:altLabel": [
         "1,2-methylethylbenzene",
         "1-Ethyl-2-methylbenzene",
         "1-Methyl-2-ethylbenzene",
@@ -33,11 +34,11 @@
         "o-Methylethylbenzene",
         "ortho-Ethyltoluene"
     ],
-    "geneontology:inSubset": {
-        "@id": "obo:chebi#3_STAR"
+    "skos:exactMatch": {
+        "@id": "obo:CHEBI_34276"
     },
-    "rdfs:label": "1-ethyl-2-methylbenzene",
-    "rdfs:subClassOf": {
+    "skos:note": "A member of the class of toluenes carrying an ethyl group at the ortho-position.",
+    "skos:semanticRelation": {
         "@id": "obo:CHEBI_27024"
     }
 }

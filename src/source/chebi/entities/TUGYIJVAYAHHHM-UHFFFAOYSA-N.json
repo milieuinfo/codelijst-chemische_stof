@@ -1,27 +1,21 @@
 {
     "@context": {
-        "chebi": "http://purl.obolibrary.org/obo/chebi/",
         "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
         "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-        "obo": "http://purl.obolibrary.org/obo/"
-    },
-    "@id": "obo:CHEBI_82314",
-    "@type": "http://www.w3.org/2002/07/owl#Class",
-    "chebi:charge": "0",
-    "chebi:formula": "C24H14",
-    "chebi:inchi": "InChI=1S/C24H14/c1-3-7-19-15(5-1)13-17-9-10-18-14-16-6-2-4-8-20(16)22-12-11-21(19)23(17)24(18)22/h1-14H",
-    "chebi:inchikey": "TUGYIJVAYAHHHM-UHFFFAOYSA-N",
-    "chebi:smiles": "c1ccc2c(c1)cc1ccc3cc4ccccc4c4ccc2c1c34",
-    "geneontology:hasDbXref": [
-        "CAS:189-55-9",
-        "KEGG:C19223"
-    ],
-    "geneontology:hasId": "82314",
-    "geneontology:inSubset": {
-        "@id": "obo:chebi#2_STAR"
-    },
-    "rdfs:label": "Dibenzo[a,i]pyrene",
-    "rdfs:subClassOf": {
-        "@id": "obo:CHEBI_35300"
+        "obo": "http://purl.obolibrary.org/obo/",
+        "uniprot": "http://purl.uniprot.org/",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "concept": "https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/",
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "dbo": "http://dbpedia.org/ontology/",
+        "dbp": "http://dbpedia.org/property/",
+        "altLabel": {
+            "@id": "http://www.w3.org/2004/02/skos/core#altLabel",
+            "@language": "en"
+        },
+        "graph": {
+            "@id": "@graph"
+        }
     }
 }

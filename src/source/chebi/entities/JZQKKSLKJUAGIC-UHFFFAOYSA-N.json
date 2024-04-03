@@ -1,38 +1,31 @@
 {
     "@context": {
-        "chebi": "http://purl.obolibrary.org/obo/chebi/",
         "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
         "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-        "obo": "http://purl.obolibrary.org/obo/"
+        "obo": "http://purl.obolibrary.org/obo/",
+        "uniprot": "http://purl.uniprot.org/",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "concept": "https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/",
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "dbo": "http://dbpedia.org/ontology/",
+        "dbp": "http://dbpedia.org/property/",
+        "altLabel": {
+            "@id": "http://www.w3.org/2004/02/skos/core#altLabel",
+            "@language": "en"
+        },
+        "graph": {
+            "@id": "@graph"
+        }
     },
-    "@id": "obo:CHEBI_8214",
-    "@type": "http://www.w3.org/2002/07/owl#Class",
-    "obo:IAO_0000115": "A member of the class of indols which is the 2-hydroxy-3-(isopropylamino)propyl ether derivative of 1H-indol-4-ol.",
+    "@id": "concept:JZQKKSLKJUAGIC-UHFFFAOYSA-N",
+    "@type": "skos:Concept",
+    "dbo:formula": "C14H20N2O2",
+    "dbo:inchi": "InChI=1S/C14H20N2O2/c1-10(2)16-8-11(17)9-18-14-5-3-4-13-12(14)6-7-15-13/h3-7,10-11,15-17H,8-9H2,1-2H3",
+    "dbo:smiles": "CC(C)NCC(O)COc1cccc2[nH]ccc12",
+    "dbp:inchikey": "JZQKKSLKJUAGIC-UHFFFAOYSA-N",
     "chebi:charge": "0",
-    "chebi:formula": "C14H20N2O2",
-    "chebi:inchi": "InChI=1S/C14H20N2O2/c1-10(2)16-8-11(17)9-18-14-5-3-4-13-12(14)6-7-15-13/h3-7,10-11,15-17H,8-9H2,1-2H3",
-    "chebi:inchikey": "JZQKKSLKJUAGIC-UHFFFAOYSA-N",
-    "chebi:smiles": "CC(C)NCC(O)COc1cccc2[nH]ccc12",
-    "geneontology:hasDbXref": [
-        "Beilstein:1536506",
-        "CAS:13523-86-9",
-        "Drug_Central:2176",
-        "DrugBank:DB00960",
-        "HMDB:HMDB0015095",
-        "KEGG:C07445",
-        "KEGG:D00513",
-        "LINCS:LSM-1953",
-        "Patent:NL6601040",
-        "PMID:11022403",
-        "PMID:11050366",
-        "PMID:11185947",
-        "PMID:11379796",
-        "PMID:23020995",
-        "Reaxys:1536506",
-        "Wikipedia:Pindolol"
-    ],
-    "geneontology:hasId": "8214",
-    "geneontology:hasSynonym": [
+    "skos:altLabel": [
         "1-(1H-indol-4-yloxy)-3-(isopropylamino)propan-2-ol",
         "1-(1H-indol-4-yloxy)-3-(propan-2-ylamino)-propan-2-ol",
         "1-(1H-indol-4-yloxy)-3-[(1-methylethyl)amino]propan-2-ol",
@@ -56,31 +49,16 @@
         "Pynastin",
         "Visken"
     ],
-    "geneontology:inSubset": {
-        "@id": "obo:chebi#3_STAR"
+    "skos:exactMatch": {
+        "@id": "obo:CHEBI_8214"
     },
-    "rdfs:label": "pindolol",
-    "rdfs:subClassOf": [
+    "skos:note": "A member of the class of indols which is the 2-hydroxy-3-(isopropylamino)propyl ether derivative of 1H-indol-4-ol.",
+    "skos:semanticRelation": [
         {
             "@id": "obo:CHEBI_24828"
         },
         {
             "@id": "obo:CHEBI_32863"
-        },
-        {
-            "@id": "b357_genid-00f1db82e1ab437c844115a94dc63e635-bn8214t11f35530"
-        },
-        {
-            "@id": "b357_genid-00f1db82e1ab437c844115a94dc63e635-bn8214t11f35620"
-        },
-        {
-            "@id": "b357_genid-00f1db82e1ab437c844115a94dc63e635-bn8214t11f35674"
-        },
-        {
-            "@id": "b357_genid-00f1db82e1ab437c844115a94dc63e635-bn8214t11f39456"
-        },
-        {
-            "@id": "b357_genid-00f1db82e1ab437c844115a94dc63e635-bn8214t11f48279"
         }
     ]
 }

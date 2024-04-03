@@ -1,38 +1,27 @@
 {
     "@context": {
-        "chebi": "http://purl.obolibrary.org/obo/chebi/",
         "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
         "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-        "obo": "http://purl.obolibrary.org/obo/"
+        "obo": "http://purl.obolibrary.org/obo/",
+        "uniprot": "http://purl.uniprot.org/",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "concept": "https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/",
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "dbo": "http://dbpedia.org/ontology/",
+        "dbp": "http://dbpedia.org/property/",
+        "graph": {
+            "@id": "@graph"
+        }
     },
-    "@id": "obo:CHEBI_18397",
-    "@type": "http://www.w3.org/2002/07/owl#Class",
-    "obo:IAO_0000115": "A phenylethylamine having the phenyl substituent at the 2-position.",
+    "@id": "concept:BHHGXPLMPWCGHP-UHFFFAOYSA-N",
+    "@type": "skos:Concept",
+    "dbo:formula": "C8H11N",
+    "dbo:inchi": "InChI=1S/C8H11N/c9-7-6-8-4-2-1-3-5-8/h1-5H,6-7,9H2",
+    "dbo:smiles": "NCCc1ccccc1",
+    "dbp:inchikey": "BHHGXPLMPWCGHP-UHFFFAOYSA-N",
     "chebi:charge": "0",
-    "chebi:formula": "C8H11N",
-    "chebi:inchi": "InChI=1S/C8H11N/c9-7-6-8-4-2-1-3-5-8/h1-5H,6-7,9H2",
-    "chebi:inchikey": "BHHGXPLMPWCGHP-UHFFFAOYSA-N",
-    "chebi:smiles": "NCCc1ccccc1",
-    "geneontology:hasDbXref": [
-        "Beilstein:507488",
-        "CAS:64-04-0",
-        "DrugBank:DB04325",
-        "ECMDB:ECMDB02654",
-        "Gmelin:50120",
-        "HMDB:HMDB0012275",
-        "KEGG:C05332",
-        "KNApSAcK:C00001426",
-        "PDBeChem:PEA",
-        "PMID:20390105",
-        "PMID:21191624",
-        "PMID:23225177",
-        "PMID:23564683",
-        "PMID:7906896",
-        "Reaxys:507488",
-        "Wikipedia:2-phenylethylamine"
-    ],
-    "geneontology:hasId": "18397",
-    "geneontology:hasSynonym": [
+    "skos:altLabel": [
         "2-phenylethanamine",
         "2-Phenylethylamine",
         "benzeneethanamine",
@@ -42,11 +31,11 @@
         "Phenethylamine",
         "Phenylethylamine"
     ],
-    "geneontology:inSubset": {
-        "@id": "obo:chebi#3_STAR"
+    "skos:exactMatch": {
+        "@id": "obo:CHEBI_18397"
     },
-    "rdfs:label": "2-phenylethylamine",
-    "rdfs:subClassOf": [
+    "skos:note": "A phenylethylamine having the phenyl substituent at the 2-position.",
+    "skos:semanticRelation": [
         {
             "@id": "obo:CHEBI_22315"
         },
@@ -55,21 +44,6 @@
         },
         {
             "@id": "obo:CHEBI_18000"
-        },
-        {
-            "@id": "b177_genid-00f1db82e1ab437c844115a94dc63e635-bn18397tmms73f225237"
-        },
-        {
-            "@id": "b177_genid-00f1db82e1ab437c844115a94dc63e635-bn18397t11f75771"
-        },
-        {
-            "@id": "b177_genid-00f1db82e1ab437c844115a94dc63e635-bn18397t11f76971"
-        },
-        {
-            "@id": "b177_genid-00f1db82e1ab437c844115a94dc63e635-bn18397t11f77746"
-        },
-        {
-            "@id": "b177_genid-00f1db82e1ab437c844115a94dc63e635-bn18397t5f225237"
         }
     ]
 }

@@ -1,33 +1,21 @@
 {
     "@context": {
-        "chebi": "http://purl.obolibrary.org/obo/chebi/",
         "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
         "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-        "obo": "http://purl.obolibrary.org/obo/"
-    },
-    "@id": "obo:CHEBI_82853",
-    "@type": "http://www.w3.org/2002/07/owl#Class",
-    "obo:IAO_0000115": "A member of the class of benzamides obtained by formal condensation of the carboxy group of 3,5-dichloro-4-methylbenzamide with the amino group of 3-amino-1-chloro-3-methylpentan-2-one.",
-    "chebi:charge": "0",
-    "chebi:formula": "C14H16Cl3NO2",
-    "chebi:inchi": "InChI=1S/C14H16Cl3NO2/c1-4-14(3,12(19)7-15)18-13(20)9-5-10(16)8(2)11(17)6-9/h5-6H,4,7H2,1-3H3,(H,18,20)",
-    "chebi:inchikey": "SOUGWDPPRBKJEX-UHFFFAOYSA-N",
-    "chebi:smiles": "CCC(C)(NC(=O)c1cc(Cl)c(C)c(Cl)c1)C(=O)CCl",
-    "geneontology:hasDbXref": "PPDB:685",
-    "geneontology:hasId": "82853",
-    "geneontology:inSubset": {
-        "@id": "obo:chebi#3_STAR"
-    },
-    "rdfs:label": "3,5-dichloro-N-(1-chloro-3-methyl-2-oxopentan-3-yl)-4-methylbenzamide",
-    "rdfs:subClassOf": [
-        {
-            "@id": "obo:CHEBI_23697"
+        "obo": "http://purl.obolibrary.org/obo/",
+        "uniprot": "http://purl.uniprot.org/",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "concept": "https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/",
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "dbo": "http://dbpedia.org/ontology/",
+        "dbp": "http://dbpedia.org/property/",
+        "altLabel": {
+            "@id": "http://www.w3.org/2004/02/skos/core#altLabel",
+            "@language": "en"
         },
-        {
-            "@id": "obo:CHEBI_22702"
-        },
-        {
-            "@id": "obo:CHEBI_51841"
+        "graph": {
+            "@id": "@graph"
         }
-    ]
+    }
 }

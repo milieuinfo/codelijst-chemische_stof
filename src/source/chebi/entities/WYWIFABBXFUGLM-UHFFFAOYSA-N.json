@@ -1,37 +1,31 @@
 {
     "@context": {
-        "chebi": "http://purl.obolibrary.org/obo/chebi/",
         "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
         "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-        "obo": "http://purl.obolibrary.org/obo/"
+        "obo": "http://purl.obolibrary.org/obo/",
+        "uniprot": "http://purl.uniprot.org/",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "concept": "https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/",
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "dbo": "http://dbpedia.org/ontology/",
+        "dbp": "http://dbpedia.org/property/",
+        "altLabel": {
+            "@id": "http://www.w3.org/2004/02/skos/core#altLabel",
+            "@language": "en"
+        },
+        "graph": {
+            "@id": "@graph"
+        }
     },
-    "@id": "obo:CHEBI_7862",
-    "@type": "http://www.w3.org/2002/07/owl#Class",
-    "obo:IAO_0000115": "A member of the class of phenols that is 2,4-dimethylphenol which is substituted at positions 3 and 6 by 4,5-dihydro-1H-imidazol-2-ylmethyl and tert-butyl groups, respectively. A direct-acting sympathomimetic with marked alpha-adrenergic activity, it is a vasoconstrictor that is used (generally as the hydrochloride salt) to relieve nasal congestion.",
+    "@id": "concept:WYWIFABBXFUGLM-UHFFFAOYSA-N",
+    "@type": "skos:Concept",
+    "dbo:formula": "C16H24N2O",
+    "dbo:inchi": "InChI=1S/C16H24N2O/c1-10-8-13(16(3,4)5)15(19)11(2)12(10)9-14-17-6-7-18-14/h8,19H,6-7,9H2,1-5H3,(H,17,18)",
+    "dbo:smiles": "Cc1cc(c(O)c(C)c1CC1=NCCN1)C(C)(C)C",
+    "dbp:inchikey": "WYWIFABBXFUGLM-UHFFFAOYSA-N",
     "chebi:charge": "0",
-    "chebi:formula": "C16H24N2O",
-    "chebi:inchi": "InChI=1S/C16H24N2O/c1-10-8-13(16(3,4)5)15(19)11(2)12(10)9-14-17-6-7-18-14/h8,19H,6-7,9H2,1-5H3,(H,17,18)",
-    "chebi:inchikey": "WYWIFABBXFUGLM-UHFFFAOYSA-N",
-    "chebi:smiles": "Cc1cc(c(O)c(C)c1CC1=NCCN1)C(C)(C)C",
-    "geneontology:hasDbXref": [
-        "CAS:1491-59-4",
-        "Drug_Central:2032",
-        "DrugBank:DB00935",
-        "HMDB:HMDB0015070",
-        "KEGG:C07363",
-        "KEGG:D08322",
-        "LINCS:LSM-2353",
-        "Patent:DE1117588",
-        "PMID:10487000",
-        "PMID:21177487",
-        "PMID:23679077",
-        "PMID:23988443",
-        "PMID:4003266",
-        "Reaxys:886303",
-        "Wikipedia:Oxymetazoline"
-    ],
-    "geneontology:hasId": "7862",
-    "geneontology:hasSynonym": [
+    "skos:altLabel": [
         "oxymetazoline",
         "2-(4-tert-butyl-2,6-dimethyl-3-hydroxybenzyl)-2-imidazoline",
         "3-[(4,5-dihydro-1H-imidazol-2-yl)methyl]-6-(1,1-dimethylethyl)-2,4-dimethylphenol",
@@ -41,11 +35,11 @@
         "oxymetazolina",
         "oxymetazolinum"
     ],
-    "geneontology:inSubset": {
-        "@id": "obo:chebi#3_STAR"
+    "skos:exactMatch": {
+        "@id": "obo:CHEBI_7862"
     },
-    "rdfs:label": "oxymetazoline",
-    "rdfs:subClassOf": [
+    "skos:note": "A member of the class of phenols that is 2,4-dimethylphenol which is substituted at positions 3 and 6 by 4,5-dihydro-1H-imidazol-2-ylmethyl and tert-butyl groups, respectively. A direct-acting sympathomimetic with marked alpha-adrenergic activity, it is a vasoconstrictor that is used (generally as the hydrochloride salt) to relieve nasal congestion.",
+    "skos:semanticRelation": [
         {
             "@id": "obo:CHEBI_33853"
         },
@@ -54,24 +48,6 @@
         },
         {
             "@id": "obo:CHEBI_53095"
-        },
-        {
-            "@id": "b131_genid-00f1db82e1ab437c844115a94dc63e635-bn7862tmms73f77716"
-        },
-        {
-            "@id": "b131_genid-00f1db82e1ab437c844115a94dc63e635-bn7862t11f35524"
-        },
-        {
-            "@id": "b131_genid-00f1db82e1ab437c844115a94dc63e635-bn7862t11f35569"
-        },
-        {
-            "@id": "b131_genid-00f1db82e1ab437c844115a94dc63e635-bn7862t11f50514"
-        },
-        {
-            "@id": "b131_genid-00f1db82e1ab437c844115a94dc63e635-bn7862t11f77715"
-        },
-        {
-            "@id": "b131_genid-00f1db82e1ab437c844115a94dc63e635-bn7862t5f77716"
         }
     ]
 }

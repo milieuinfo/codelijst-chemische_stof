@@ -1,60 +1,31 @@
 {
     "@context": {
-        "chebi": "http://purl.obolibrary.org/obo/chebi/",
         "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
         "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-        "obo": "http://purl.obolibrary.org/obo/"
+        "obo": "http://purl.obolibrary.org/obo/",
+        "uniprot": "http://purl.uniprot.org/",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "concept": "https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/",
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "dbo": "http://dbpedia.org/ontology/",
+        "dbp": "http://dbpedia.org/property/",
+        "altLabel": {
+            "@id": "http://www.w3.org/2004/02/skos/core#altLabel",
+            "@language": "en"
+        },
+        "graph": {
+            "@id": "@graph"
+        }
     },
-    "@id": "obo:CHEBI_42530",
-    "@type": "http://www.w3.org/2002/07/owl#Class",
-    "obo:IAO_0000115": "A peroxy acid that is acetic acid in which the OH group is substituted by a hydroperoxy group. It is a versatile oxidising agent that is used as a disinfectant.",
+    "@id": "concept:KFSLWBXXFJQRDL-UHFFFAOYSA-N",
+    "@type": "skos:Concept",
+    "dbo:formula": "C2H4O3",
+    "dbo:inchi": "InChI=1S/C2H4O3/c1-2(3)5-4/h4H,1H3",
+    "dbo:smiles": "CC(=O)OO",
+    "dbp:inchikey": "KFSLWBXXFJQRDL-UHFFFAOYSA-N",
     "chebi:charge": "0",
-    "chebi:formula": "C2H4O3",
-    "chebi:inchi": "InChI=1S/C2H4O3/c1-2(3)5-4/h4H,1H3",
-    "chebi:inchikey": "KFSLWBXXFJQRDL-UHFFFAOYSA-N",
-    "chebi:smiles": "CC(=O)OO",
-    "http://purl.uniprot.org/core/name": "peracetic acid",
-    "geneontology:hasDbXref": [
-        "AGR:IND606966078",
-        "AGR:IND607203798",
-        "AGR:IND607335062",
-        "AGR:IND607360796",
-        "AGR:IND607413586",
-        "CAS:79-21-0",
-        "Chemspider:6336",
-        "DrugBank:DB14556",
-        "HMDB:HMDB0031608",
-        "KEGG:D03467",
-        "PDBeChem:F50",
-        "PMID:12542698",
-        "PMID:32668349",
-        "PMID:32668774",
-        "PMID:33338779",
-        "PMID:33487017",
-        "PMID:33535247",
-        "PMID:33572069",
-        "PMID:33674898",
-        "PMID:33710104",
-        "PMID:33771784",
-        "PMID:33817475",
-        "PMID:33848928",
-        "PMID:34086895",
-        "PMID:34111613",
-        "PMID:34119969",
-        "PMID:34128639",
-        "PMID:34197219",
-        "PMID:34220734",
-        "PMID:34256318",
-        "PMID:34274900",
-        "PMID:34311370",
-        "PMID:34368829",
-        "PMID:34371230",
-        "PPDB:1466",
-        "Reaxys:1098464",
-        "Wikipedia:Peracetic_acid"
-    ],
-    "geneontology:hasId": "42530",
-    "geneontology:hasSynonym": [
+    "skos:altLabel": [
         "Acecide",
         "acetic peroxide",
         "acetyl hydroperoxide",
@@ -71,22 +42,11 @@
         "peroxyacetic acid",
         "Proxitane 4002"
     ],
-    "geneontology:inSubset": {
-        "@id": "obo:chebi#3_STAR"
+    "skos:exactMatch": {
+        "@id": "obo:CHEBI_42530"
     },
-    "rdfs:label": "peracetic acid",
-    "rdfs:subClassOf": [
-        {
-            "@id": "obo:CHEBI_177878"
-        },
-        {
-            "@id": "b385_genid-00f1db82e1ab437c844115a94dc63e635-bn42530t8f15366"
-        },
-        {
-            "@id": "b385_genid-00f1db82e1ab437c844115a94dc63e635-bn42530t11f48219"
-        },
-        {
-            "@id": "b385_genid-00f1db82e1ab437c844115a94dc63e635-bn42530t11f63248"
-        }
-    ]
+    "skos:note": "A peroxy acid that is acetic acid in which the OH group is substituted by a hydroperoxy group. It is a versatile oxidising agent that is used as a disinfectant.",
+    "skos:semanticRelation": {
+        "@id": "obo:CHEBI_177878"
+    }
 }

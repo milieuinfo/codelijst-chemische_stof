@@ -1,36 +1,41 @@
 {
     "@context": {
-        "chebi": "http://purl.obolibrary.org/obo/chebi/",
         "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
         "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-        "obo": "http://purl.obolibrary.org/obo/"
+        "obo": "http://purl.obolibrary.org/obo/",
+        "uniprot": "http://purl.uniprot.org/",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "concept": "https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/",
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "dbo": "http://dbpedia.org/ontology/",
+        "dbp": "http://dbpedia.org/property/",
+        "altLabel": {
+            "@id": "http://www.w3.org/2004/02/skos/core#altLabel",
+            "@language": "en"
+        },
+        "graph": {
+            "@id": "@graph"
+        }
     },
-    "@id": "obo:CHEBI_132448",
-    "@type": "http://www.w3.org/2002/07/owl#Class",
-    "obo:IAO_0000115": "A perfluoroalkanesulfonic acid that is hexane-1-sulfonic acid in which all thirteen of the hydrogens that are attached to carbons have been replaced by fluorines.",
+    "@id": "concept:QZHDEAJFRJCDMF-UHFFFAOYSA-N",
+    "@type": "skos:Concept",
+    "dbo:formula": "C6HF13O3S",
+    "dbo:inchi": "InChI=1S/C6HF13O3S/c7-1(8,3(11,12)5(15,16)17)2(9,10)4(13,14)6(18,19)23(20,21)22/h(H,20,21,22)",
+    "dbo:smiles": "C(C(C(S(O)(=O)=O)(F)F)(F)F)(C(C(C(F)(F)F)(F)F)(F)F)(F)F",
+    "dbp:inchikey": "QZHDEAJFRJCDMF-UHFFFAOYSA-N",
     "chebi:charge": "0",
-    "chebi:formula": "C6HF13O3S",
-    "chebi:inchi": "InChI=1S/C6HF13O3S/c7-1(8,3(11,12)5(15,16)17)2(9,10)4(13,14)6(18,19)23(20,21)22/h(H,20,21,22)",
-    "chebi:inchikey": "QZHDEAJFRJCDMF-UHFFFAOYSA-N",
-    "chebi:smiles": "C(C(C(S(O)(=O)=O)(F)F)(F)F)(C(C(C(F)(F)F)(F)F)(F)F)(F)F",
-    "geneontology:hasDbXref": [
-        "CAS:355-46-4",
-        "PMID:20471065",
-        "PMID:21346631",
-        "Reaxys:1813793"
-    ],
-    "geneontology:hasId": "132448",
-    "geneontology:hasSynonym": [
+    "skos:altLabel": [
         "1,1,2,2,3,3,4,4,5,5,6,6,6-tridecafluorohexane-1-sulfonic acid",
         "perfluorohexane-1-sulfonic acid",
         "perfluorohexane sulfonic acid",
         "tridecafluorohexane-1-sulfonic acid"
     ],
-    "geneontology:inSubset": {
-        "@id": "obo:chebi#3_STAR"
+    "skos:exactMatch": {
+        "@id": "obo:CHEBI_132448"
     },
-    "rdfs:label": "perfluorohexanesulfonic acid",
-    "rdfs:subClassOf": {
+    "skos:note": "A perfluoroalkanesulfonic acid that is hexane-1-sulfonic acid in which all thirteen of the hydrogens that are attached to carbons have been replaced by fluorines.",
+    "skos:semanticRelation": {
         "@id": "obo:CHEBI_132447"
     }
 }

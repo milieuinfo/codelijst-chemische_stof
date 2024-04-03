@@ -1,53 +1,31 @@
 {
     "@context": {
-        "chebi": "http://purl.obolibrary.org/obo/chebi/",
         "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
         "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-        "obo": "http://purl.obolibrary.org/obo/"
+        "obo": "http://purl.obolibrary.org/obo/",
+        "uniprot": "http://purl.uniprot.org/",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "concept": "https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/",
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "dbo": "http://dbpedia.org/ontology/",
+        "dbp": "http://dbpedia.org/property/",
+        "altLabel": {
+            "@id": "http://www.w3.org/2004/02/skos/core#altLabel",
+            "@language": "en"
+        },
+        "graph": {
+            "@id": "@graph"
+        }
     },
-    "@id": "obo:CHEBI_18208",
-    "@type": "http://www.w3.org/2002/07/owl#Class",
-    "obo:IAO_0000115": "A penicillin in which the substituent at position 6 of the penam ring is a phenylacetamido group.",
+    "@id": "concept:JGSARLDLIJGVTE-MBNYWOFBSA-N",
+    "@type": "skos:Concept",
+    "dbo:formula": "C16H18N2O4S",
+    "dbo:inchi": "InChI=1S/C16H18N2O4S/c1-16(2)12(15(21)22)18-13(20)11(14(18)23-16)17-10(19)8-9-6-4-3-5-7-9/h3-7,11-12,14H,8H2,1-2H3,(H,17,19)(H,21,22)/t11-,12+,14-/m1/s1",
+    "dbo:smiles": "N12C([C@H]([C@]1(SC([C@@H]2C(O)=O)(C)C)[H])NC(CC3=CC=CC=C3)=O)=O",
+    "dbp:inchikey": "JGSARLDLIJGVTE-MBNYWOFBSA-N",
     "chebi:charge": "0",
-    "chebi:formula": "C16H18N2O4S",
-    "chebi:inchi": "InChI=1S/C16H18N2O4S/c1-16(2)12(15(21)22)18-13(20)11(14(18)23-16)17-10(19)8-9-6-4-3-5-7-9/h3-7,11-12,14H,8H2,1-2H3,(H,17,19)(H,21,22)/t11-,12+,14-/m1/s1",
-    "chebi:inchikey": "JGSARLDLIJGVTE-MBNYWOFBSA-N",
-    "chebi:smiles": "N12C([C@H]([C@]1(SC([C@@H]2C(O)=O)(C)C)[H])NC(CC3=CC=CC=C3)=O)=O",
-    "geneontology:hasDbXref": [
-        "PMID:7602118",
-        "PMID:10930630",
-        "PMID:1384868",
-        "PMID:11431418",
-        "PMID:11906332",
-        "PMID:12569987",
-        "PMID:12850488",
-        "PMID:16033609",
-        "PMID:2083978",
-        "PMID:24631718",
-        "PMID:25998949",
-        "PMID:27731424",
-        "PMID:29017833",
-        "PMID:7716788",
-        "PMID:1709917",
-        "DrugBank:DB01053",
-        "Beilstein:44740",
-        "CAS:61-33-6",
-        "Drug_Central:2082",
-        "Gmelin:781913",
-        "HMDB:HMDB0015186",
-        "KEGG:C05551",
-        "KEGG:D02336",
-        "LINCS:LSM-3229",
-        "Patent:US3024169",
-        "PDBeChem:PNN",
-        "PMID:24485692",
-        "PMID:29355985",
-        "PMID:6161899",
-        "Reaxys:44740",
-        "Wikipedia:Benzylpenicillin"
-    ],
-    "geneontology:hasId": "18208",
-    "geneontology:hasSynonym": [
+    "skos:altLabel": [
         "PG",
         "(2S,5R,6R)-3,3-dimethyl-7-oxo-6-(phenylacetamido)-4-thia-1-azabicyclo[3.2.0]heptane-2-carboxylic acid",
         "2,2-dimethyl-6beta-(phenylacetamido)penam-3alpha-carboxylic acid",
@@ -64,31 +42,16 @@
         "Penicillin G",
         "PENICILLIN G"
     ],
-    "geneontology:inSubset": {
-        "@id": "obo:chebi#3_STAR"
+    "skos:exactMatch": {
+        "@id": "obo:CHEBI_18208"
     },
-    "rdfs:label": "benzylpenicillin",
-    "rdfs:subClassOf": [
+    "skos:note": "A penicillin in which the substituent at position 6 of the penam ring is a phenylacetamido group.",
+    "skos:semanticRelation": [
         {
             "@id": "obo:CHEBI_17334"
         },
         {
             "@id": "obo:CHEBI_88187"
-        },
-        {
-            "@id": "b253_genid-00f1db82e1ab437c844115a94dc63e635-bn18208tmms73f51354"
-        },
-        {
-            "@id": "b253_genid-00f1db82e1ab437c844115a94dc63e635-bn18208t11f36047"
-        },
-        {
-            "@id": "b253_genid-00f1db82e1ab437c844115a94dc63e635-bn18208t4f51354"
-        },
-        {
-            "@id": "b253_genid-00f1db82e1ab437c844115a94dc63e635-bn18208t11f53000"
-        },
-        {
-            "@id": "b253_genid-00f1db82e1ab437c844115a94dc63e635-bn18208t11f88188"
         }
     ]
 }

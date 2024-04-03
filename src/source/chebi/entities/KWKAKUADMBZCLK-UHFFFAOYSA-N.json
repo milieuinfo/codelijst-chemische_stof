@@ -1,30 +1,31 @@
 {
     "@context": {
-        "chebi": "http://purl.obolibrary.org/obo/chebi/",
         "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
         "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-        "obo": "http://purl.obolibrary.org/obo/"
+        "obo": "http://purl.obolibrary.org/obo/",
+        "uniprot": "http://purl.uniprot.org/",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "concept": "https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/",
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "dbo": "http://dbpedia.org/ontology/",
+        "dbp": "http://dbpedia.org/property/",
+        "altLabel": {
+            "@id": "http://www.w3.org/2004/02/skos/core#altLabel",
+            "@language": "en"
+        },
+        "graph": {
+            "@id": "@graph"
+        }
     },
-    "@id": "obo:CHEBI_46708",
-    "@type": "http://www.w3.org/2002/07/owl#Class",
-    "obo:IAO_0000115": "An octene with an unsaturation C-1.",
+    "@id": "concept:KWKAKUADMBZCLK-UHFFFAOYSA-N",
+    "@type": "skos:Concept",
+    "dbo:formula": "C8H16",
+    "dbo:inchi": "InChI=1S/C8H16/c1-3-5-7-8-6-4-2/h3H,1,4-8H2,2H3",
+    "dbo:smiles": "CCCCCCC=C",
+    "dbp:inchikey": "KWKAKUADMBZCLK-UHFFFAOYSA-N",
     "chebi:charge": "0",
-    "chebi:formula": "C8H16",
-    "chebi:inchi": "InChI=1S/C8H16/c1-3-5-7-8-6-4-2/h3H,1,4-8H2,2H3",
-    "chebi:inchikey": "KWKAKUADMBZCLK-UHFFFAOYSA-N",
-    "chebi:smiles": "CCCCCCC=C",
-    "geneontology:hasDbXref": [
-        "Beilstein:1734497",
-        "CAS:111-66-0",
-        "Gmelin:2825",
-        "HMDB:HMDB0032449",
-        "PMID:23763205",
-        "PMID:23822166",
-        "Reaxys:1734497",
-        "Wikipedia:1-Octene"
-    ],
-    "geneontology:hasId": "46708",
-    "geneontology:hasSynonym": [
+    "skos:altLabel": [
         "1-C8H16",
         "1-caprylene",
         "alpha-octene",
@@ -33,11 +34,11 @@
         "n-1-octene",
         "oct-1-ene"
     ],
-    "geneontology:inSubset": {
-        "@id": "obo:chebi#3_STAR"
+    "skos:exactMatch": {
+        "@id": "obo:CHEBI_46708"
     },
-    "rdfs:label": "1-octene",
-    "rdfs:subClassOf": {
+    "skos:note": "An octene with an unsaturation C-1.",
+    "skos:semanticRelation": {
         "@id": "obo:CHEBI_46709"
     }
 }

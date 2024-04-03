@@ -1,35 +1,31 @@
 {
     "@context": {
-        "chebi": "http://purl.obolibrary.org/obo/chebi/",
         "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
         "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-        "obo": "http://purl.obolibrary.org/obo/"
+        "obo": "http://purl.obolibrary.org/obo/",
+        "uniprot": "http://purl.uniprot.org/",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "concept": "https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/",
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "dbo": "http://dbpedia.org/ontology/",
+        "dbp": "http://dbpedia.org/property/",
+        "altLabel": {
+            "@id": "http://www.w3.org/2004/02/skos/core#altLabel",
+            "@language": "en"
+        },
+        "graph": {
+            "@id": "@graph"
+        }
     },
-    "@id": "obo:CHEBI_50931",
-    "@type": "http://www.w3.org/2002/07/owl#Class",
-    "obo:IAO_0000115": "A chlorprothixene in which the double bond adopts a (Z)-configuration.",
+    "@id": "concept:WSPOMRSOLSGNFJ-AUWJEWJLSA-N",
+    "@type": "skos:Concept",
+    "dbo:formula": "C18H18ClNS",
+    "dbo:inchi": "InChI=1S/C18H18ClNS/c1-20(2)11-5-7-14-15-6-3-4-8-17(15)21-18-10-9-13(19)12-16(14)18/h3-4,6-10,12H,5,11H2,1-2H3/b14-7-",
+    "dbo:smiles": "[H]\\C(CCN(C)C)=C1/c2ccccc2Sc2ccc(Cl)cc12",
+    "dbp:inchikey": "WSPOMRSOLSGNFJ-AUWJEWJLSA-N",
     "chebi:charge": "0",
-    "chebi:formula": "C18H18ClNS",
-    "chebi:inchi": "InChI=1S/C18H18ClNS/c1-20(2)11-5-7-14-15-6-3-4-8-17(15)21-18-10-9-13(19)12-16(14)18/h3-4,6-10,12H,5,11H2,1-2H3/b14-7-",
-    "chebi:inchikey": "WSPOMRSOLSGNFJ-AUWJEWJLSA-N",
-    "chebi:smiles": "[H]\\C(CCN(C)C)=C1/c2ccccc2Sc2ccc(Cl)cc12",
-    "geneontology:hasDbXref": [
-        "DrugBank:DB01239",
-        "KEGG:C07953",
-        "KEGG:D00790",
-        "Beilstein:9208755",
-        "CAS:113-59-7",
-        "Drug_Central:623",
-        "PMID:1791531",
-        "PMID:24036032",
-        "PMID:2444901",
-        "PMID:2753075",
-        "PMID:2865748",
-        "PMID:684078",
-        "Wikipedia:Chlorprothixene"
-    ],
-    "geneontology:hasId": "50931",
-    "geneontology:hasSynonym": [
+    "skos:altLabel": [
         "Chlorprothixene",
         "(3Z)-3-(2-chloro-9H-thioxanthen-9-ylidene)-N,N-dimethyl-1-propanamine",
         "(3Z)-3-(2-chloro-9H-thioxanthen-9-ylidene)-N,N-dimethylpropan-1-amine",
@@ -39,16 +35,11 @@
         "cis-chlorprothixene",
         "Clorprotixeno"
     ],
-    "geneontology:inSubset": {
-        "@id": "obo:chebi#3_STAR"
+    "skos:exactMatch": {
+        "@id": "obo:CHEBI_50931"
     },
-    "rdfs:label": "(Z)-chlorprothixene",
-    "rdfs:subClassOf": [
-        {
-            "@id": "obo:CHEBI_3651"
-        },
-        {
-            "@id": "b91_genid-00f1db82e1ab437c844115a94dc63e635-bn50931t6f50932"
-        }
-    ]
+    "skos:note": "A chlorprothixene in which the double bond adopts a (Z)-configuration.",
+    "skos:semanticRelation": {
+        "@id": "obo:CHEBI_3651"
+    }
 }

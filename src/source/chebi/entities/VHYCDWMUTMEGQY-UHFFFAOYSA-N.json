@@ -1,58 +1,46 @@
 {
     "@context": {
-        "chebi": "http://purl.obolibrary.org/obo/chebi/",
         "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
         "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-        "obo": "http://purl.obolibrary.org/obo/"
+        "obo": "http://purl.obolibrary.org/obo/",
+        "uniprot": "http://purl.uniprot.org/",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "concept": "https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/",
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "dbo": "http://dbpedia.org/ontology/",
+        "dbp": "http://dbpedia.org/property/",
+        "altLabel": {
+            "@id": "http://www.w3.org/2004/02/skos/core#altLabel",
+            "@language": "en"
+        },
+        "graph": {
+            "@id": "@graph"
+        }
     },
-    "@id": "obo:CHEBI_3127",
-    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "@id": "concept:VHYCDWMUTMEGQY-UHFFFAOYSA-N",
+    "@type": "skos:Concept",
+    "dbo:formula": "C18H31NO4",
+    "dbo:inchi": "InChI=1S/C18H31NO4/c1-14(2)19-11-17(20)13-23-18-7-5-16(6-8-18)12-21-9-10-22-15(3)4/h5-8,14-15,17,19-20H,9-13H2,1-4H3",
+    "dbo:smiles": "CC(C)NCC(O)COc1ccc(COCCOC(C)C)cc1",
+    "dbp:inchikey": "VHYCDWMUTMEGQY-UHFFFAOYSA-N",
     "chebi:charge": "0",
-    "chebi:formula": "C18H31NO4",
-    "chebi:inchi": "InChI=1S/C18H31NO4/c1-14(2)19-11-17(20)13-23-18-7-5-16(6-8-18)12-21-9-10-22-15(3)4/h5-8,14-15,17,19-20H,9-13H2,1-4H3",
-    "chebi:inchikey": "VHYCDWMUTMEGQY-UHFFFAOYSA-N",
-    "chebi:smiles": "CC(C)NCC(O)COc1ccc(COCCOC(C)C)cc1",
-    "geneontology:hasDbXref": [
-        "CAS:66722-44-9",
-        "Drug_Central:380",
-        "DrugBank:DB00612",
-        "KEGG:C06852",
-        "KEGG:D02342",
-        "LINCS:LSM-1886",
-        "Patent:BE859425",
-        "Patent:US4258062",
-        "Wikipedia:Bisoprolol"
-    ],
-    "geneontology:hasId": "3127",
-    "geneontology:hasSynonym": [
+    "skos:altLabel": [
         "(+-)-1-((alpha-(2-Isopropoxyethoxy)-p-tolyl)oxy)-3-(isopropylamino)-2-propanol",
         "(RS)-1-(4-(2-Isopropoxyethoxymethyl)phenoxy)-3-(isopropylamino)-2-propanol",
         "1-{4-[(2-isopropoxyethoxy)methyl]phenoxy}-3-(isopropylamino)propan-2-ol",
         "Bisoprolol",
         "bisoprololum"
     ],
-    "geneontology:inSubset": {
-        "@id": "obo:chebi#3_STAR"
+    "skos:exactMatch": {
+        "@id": "obo:CHEBI_3127"
     },
-    "rdfs:label": "bisoprolol",
-    "rdfs:subClassOf": [
+    "skos:semanticRelation": [
         {
             "@id": "obo:CHEBI_35681"
         },
         {
             "@id": "obo:CHEBI_32863"
-        },
-        {
-            "@id": "b922_genid-00f1db82e1ab437c844115a94dc63e635-bn3127t11f35530"
-        },
-        {
-            "@id": "b922_genid-00f1db82e1ab437c844115a94dc63e635-bn3127t11f35674"
-        },
-        {
-            "@id": "b922_genid-00f1db82e1ab437c844115a94dc63e635-bn3127t11f38070"
-        },
-        {
-            "@id": "b922_genid-00f1db82e1ab437c844115a94dc63e635-bn3127t11f66991"
         }
     ]
 }

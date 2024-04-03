@@ -1,48 +1,41 @@
 {
     "@context": {
-        "chebi": "http://purl.obolibrary.org/obo/chebi/",
         "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
         "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-        "obo": "http://purl.obolibrary.org/obo/"
+        "obo": "http://purl.obolibrary.org/obo/",
+        "uniprot": "http://purl.uniprot.org/",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "concept": "https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/",
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "dbo": "http://dbpedia.org/ontology/",
+        "dbp": "http://dbpedia.org/property/",
+        "altLabel": {
+            "@id": "http://www.w3.org/2004/02/skos/core#altLabel",
+            "@language": "en"
+        },
+        "graph": {
+            "@id": "@graph"
+        }
     },
-    "@id": "obo:CHEBI_59613",
-    "@type": "http://www.w3.org/2002/07/owl#Class",
-    "obo:IAO_0000115": "A monocarboxylic acid that is the 4'-hydroxylated metabolite of diclofenac.",
+    "@id": "concept:KGVXVPRLBMWZLG-UHFFFAOYSA-N",
+    "@type": "skos:Concept",
+    "dbo:formula": "C14H11Cl2NO3",
+    "dbo:inchi": "InChI=1S/C14H11Cl2NO3/c15-10-6-9(18)7-11(16)14(10)17-12-4-2-1-3-8(12)5-13(19)20/h1-4,6-7,17-18H,5H2,(H,19,20)",
+    "dbo:smiles": "OC(=O)Cc1ccccc1Nc1c(Cl)cc(O)cc1Cl",
+    "dbp:inchikey": "KGVXVPRLBMWZLG-UHFFFAOYSA-N",
     "chebi:charge": "0",
-    "chebi:formula": "C14H11Cl2NO3",
-    "chebi:inchi": "InChI=1S/C14H11Cl2NO3/c15-10-6-9(18)7-11(16)14(10)17-12-4-2-1-3-8(12)5-13(19)20/h1-4,6-7,17-18H,5H2,(H,19,20)",
-    "chebi:inchikey": "KGVXVPRLBMWZLG-UHFFFAOYSA-N",
-    "chebi:smiles": "OC(=O)Cc1ccccc1Nc1c(Cl)cc(O)cc1Cl",
-    "geneontology:hasDbXref": [
-        "PMID:15139759",
-        "PMID:17123753",
-        "PMID:10027798",
-        "PMID:14609740",
-        "PMID:15265128",
-        "PMID:18548238",
-        "PMID:2118185",
-        "PMID:9862754",
-        "Beilstein:4198042",
-        "CAS:64118-84-9",
-        "PMID:10709153",
-        "PMID:10807502",
-        "PMID:12966366",
-        "PMID:15455182",
-        "PMID:9226412",
-        "Reaxys:4198042"
-    ],
-    "geneontology:hasId": "59613",
-    "geneontology:hasSynonym": [
+    "skos:altLabel": [
         "(o-(2,6-Dichloro-4-hydroxyanilino)phenyl)acetic acid",
         "{2-[(2,6-dichloro-4-hydroxyphenyl)amino]phenyl}acetic acid",
         "4'-hydroxy diclofenac",
         "4'-OH DCF"
     ],
-    "geneontology:inSubset": {
-        "@id": "obo:chebi#3_STAR"
+    "skos:exactMatch": {
+        "@id": "obo:CHEBI_59613"
     },
-    "rdfs:label": "4'-hydroxydiclofenac",
-    "rdfs:subClassOf": [
+    "skos:note": "A monocarboxylic acid that is the 4'-hydroxylated metabolite of diclofenac.",
+    "skos:semanticRelation": [
         {
             "@id": "obo:CHEBI_33853"
         },
@@ -54,15 +47,6 @@
         },
         {
             "@id": "obo:CHEBI_50995"
-        },
-        {
-            "@id": "b392_genid-00f1db82e1ab437c844115a94dc63e635-bn59613t8f47381"
-        },
-        {
-            "@id": "b392_genid-00f1db82e1ab437c844115a94dc63e635-bn59613t11f49103"
-        },
-        {
-            "@id": "b392_genid-00f1db82e1ab437c844115a94dc63e635-bn59613t11f50904"
         }
     ]
 }

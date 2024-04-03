@@ -1,28 +1,35 @@
 {
     "@context": {
-        "chebi": "http://purl.obolibrary.org/obo/chebi/",
         "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
         "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-        "obo": "http://purl.obolibrary.org/obo/"
+        "obo": "http://purl.obolibrary.org/obo/",
+        "uniprot": "http://purl.uniprot.org/",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "concept": "https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/",
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "dbo": "http://dbpedia.org/ontology/",
+        "dbp": "http://dbpedia.org/property/",
+        "altLabel": {
+            "@id": "http://www.w3.org/2004/02/skos/core#altLabel",
+            "@language": "en"
+        },
+        "graph": {
+            "@id": "@graph"
+        }
     },
-    "@id": "obo:CHEBI_82313",
-    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "@id": "concept:RXUSYFJGDZFVND-UHFFFAOYSA-N",
+    "@type": "skos:Concept",
+    "dbo:formula": "C24H14",
+    "dbo:inchi": "InChI=1S/C24H14/c1-3-7-19-15(5-1)13-17-9-12-22-20-8-4-2-6-16(20)14-18-10-11-21(19)23(17)24(18)22/h1-14H",
+    "dbo:smiles": "c1ccc2c(c1)cc1ccc3c4ccccc4cc4ccc2c1c34",
+    "dbp:inchikey": "RXUSYFJGDZFVND-UHFFFAOYSA-N",
     "chebi:charge": "0",
-    "chebi:formula": "C24H14",
-    "chebi:inchi": "InChI=1S/C24H14/c1-3-7-19-15(5-1)13-17-9-12-22-20-8-4-2-6-16(20)14-18-10-11-21(19)23(17)24(18)22/h1-14H",
-    "chebi:inchikey": "RXUSYFJGDZFVND-UHFFFAOYSA-N",
-    "chebi:smiles": "c1ccc2c(c1)cc1ccc3c4ccccc4cc4ccc2c1c34",
-    "geneontology:hasDbXref": [
-        "CAS:189-64-0",
-        "KEGG:C19222"
-    ],
-    "geneontology:hasId": "82313",
-    "geneontology:hasSynonym": "3,4:8,9-Dibenzopyrene",
-    "geneontology:inSubset": {
-        "@id": "obo:chebi#2_STAR"
+    "skos:altLabel": "3,4:8,9-Dibenzopyrene",
+    "skos:exactMatch": {
+        "@id": "obo:CHEBI_82313"
     },
-    "rdfs:label": "Dibenzo[a,h]pyrene",
-    "rdfs:subClassOf": {
+    "skos:semanticRelation": {
         "@id": "obo:CHEBI_35300"
     }
 }

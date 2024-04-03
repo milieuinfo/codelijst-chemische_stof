@@ -1,38 +1,31 @@
 {
     "@context": {
-        "chebi": "http://purl.obolibrary.org/obo/chebi/",
         "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
         "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-        "obo": "http://purl.obolibrary.org/obo/"
+        "obo": "http://purl.obolibrary.org/obo/",
+        "uniprot": "http://purl.uniprot.org/",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "concept": "https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/",
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "dbo": "http://dbpedia.org/ontology/",
+        "dbp": "http://dbpedia.org/property/",
+        "altLabel": {
+            "@id": "http://www.w3.org/2004/02/skos/core#altLabel",
+            "@language": "en"
+        },
+        "graph": {
+            "@id": "@graph"
+        }
     },
-    "@id": "obo:CHEBI_28909",
-    "@type": "http://www.w3.org/2002/07/owl#Class",
-    "obo:IAO_0000115": "An imidazolidine-2,4-dione in which the nitrogen at position 1 is substituted by an N-(isopropyl)carboxamide group while that at position 3 is substituted by a 3,5-dichlorophenyl group. A contact fungicide, it blocks the growth of the fungal mycelium and inhibits the germination of fungal spores. It is used on fruit and vegetable crops affected by various fungal diseases. It is also used as a nematicide.",
+    "@id": "concept:ONUFESLQCSAYKA-UHFFFAOYSA-N",
+    "@type": "skos:Concept",
+    "dbo:formula": "C13H13Cl2N3O3",
+    "dbo:inchi": "InChI=1S/C13H13Cl2N3O3/c1-7(2)16-12(20)17-6-11(19)18(13(17)21)10-4-8(14)3-9(15)5-10/h3-5,7H,6H2,1-2H3,(H,16,20)",
+    "dbo:smiles": "CC(C)NC(=O)N1CC(=O)N(C1=O)c1cc(Cl)cc(Cl)c1",
+    "dbp:inchikey": "ONUFESLQCSAYKA-UHFFFAOYSA-N",
     "chebi:charge": "0",
-    "chebi:formula": "C13H13Cl2N3O3",
-    "chebi:inchi": "InChI=1S/C13H13Cl2N3O3/c1-7(2)16-12(20)17-6-11(19)18(13(17)21)10-4-8(14)3-9(15)5-10/h3-5,7H,6H2,1-2H3,(H,16,20)",
-    "chebi:inchikey": "ONUFESLQCSAYKA-UHFFFAOYSA-N",
-    "chebi:smiles": "CC(C)NC(=O)N1CC(=O)N(C1=O)c1cc(Cl)cc(Cl)c1",
-    "geneontology:hasDbXref": [
-        "Beilstein:895003",
-        "CAS:36734-19-7",
-        "HMDB:HMDB0031795",
-        "KEGG:C11208",
-        "Patent:CN103053579",
-        "Patent:CN103392726",
-        "Patent:DE2149923",
-        "Patent:US3755350",
-        "Pesticides:iprodione",
-        "PMID:11451425",
-        "PMID:22115616",
-        "PMID:22262495",
-        "PPDB:403",
-        "Reaxys:895003",
-        "UM-BBD_compID:c0635",
-        "Wikipedia:Iprodione"
-    ],
-    "geneontology:hasId": "28909",
-    "geneontology:hasSynonym": [
+    "skos:altLabel": [
         "3-(3,5-dichlorophenyl)-1-(1-methylethyl)carbamoylhydantoin",
         "3-(3,5-dichlorophenyl)-2,4-dioxo-N-(propan-2-yl)-imidazolidine-1-carboxamide",
         "3-(3,5-dichlorophenyl)hydantoin-1-carboxylic acid isopropylamide",
@@ -43,11 +36,11 @@
         "Rovral",
         "Rovrol"
     ],
-    "geneontology:inSubset": {
-        "@id": "obo:chebi#3_STAR"
+    "skos:exactMatch": {
+        "@id": "obo:CHEBI_28909"
     },
-    "rdfs:label": "iprodione",
-    "rdfs:subClassOf": [
+    "skos:note": "An imidazolidine-2,4-dione in which the nitrogen at position 1 is substituted by an N-(isopropyl)carboxamide group while that at position 3 is substituted by a 3,5-dichlorophenyl group. A contact fungicide, it blocks the growth of the fungal mycelium and inhibits the germination of fungal spores. It is used on fruit and vegetable crops affected by various fungal diseases. It is also used as a nematicide.",
+    "skos:semanticRelation": [
         {
             "@id": "obo:CHEBI_22712"
         },
@@ -62,12 +55,6 @@
         },
         {
             "@id": "obo:CHEBI_87068"
-        },
-        {
-            "@id": "b39_genid-00f1db82e1ab437c844115a94dc63e635-bn28909t11f25491"
-        },
-        {
-            "@id": "b39_genid-00f1db82e1ab437c844115a94dc63e635-bn28909t11f86328"
         }
     ]
 }

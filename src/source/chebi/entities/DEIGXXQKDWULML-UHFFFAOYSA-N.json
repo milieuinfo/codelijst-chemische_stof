@@ -1,59 +1,36 @@
 {
     "@context": {
-        "chebi": "http://purl.obolibrary.org/obo/chebi/",
         "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
         "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-        "obo": "http://purl.obolibrary.org/obo/"
+        "obo": "http://purl.obolibrary.org/obo/",
+        "uniprot": "http://purl.uniprot.org/",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "concept": "https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/",
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "dbo": "http://dbpedia.org/ontology/",
+        "dbp": "http://dbpedia.org/property/",
+        "graph": {
+            "@id": "@graph"
+        }
     },
-    "@id": "obo:CHEBI_134063",
-    "@type": "http://www.w3.org/2002/07/owl#Class",
-    "obo:IAO_0000115": "A bromoalkane consisting of cyclododecane bearing six bromo substituents at positions 1, 2, 5, 6, 9 and 10.",
+    "@id": "concept:DEIGXXQKDWULML-UHFFFAOYSA-N",
+    "@type": "skos:Concept",
+    "dbo:formula": "C12H18Br6",
+    "dbo:inchi": "InChI=1S/C12H18Br6/c13-7-1-2-8(14)10(16)5-6-12(18)11(17)4-3-9(7)15/h7-12H,1-6H2",
+    "dbo:smiles": "C1CC(C(CCC(C(CCC(C1Br)Br)Br)Br)Br)Br",
+    "dbp:inchikey": "DEIGXXQKDWULML-UHFFFAOYSA-N",
     "chebi:charge": "0",
-    "chebi:formula": "C12H18Br6",
-    "chebi:inchi": "InChI=1S/C12H18Br6/c13-7-1-2-8(14)10(16)5-6-12(18)11(17)4-3-9(7)15/h7-12H,1-6H2",
-    "chebi:inchikey": "DEIGXXQKDWULML-UHFFFAOYSA-N",
-    "chebi:smiles": "C1CC(C(CCC(C(CCC(C1Br)Br)Br)Br)Br)Br",
-    "geneontology:hasDbXref": [
-        "CAS:3194-55-6",
-        "PMID:26184837",
-        "PMID:26629593",
-        "PMID:26633745",
-        "PMID:26718265",
-        "PMID:26739916",
-        "PMID:26786581",
-        "PMID:26810304",
-        "PMID:26824278",
-        "PMID:26876804",
-        "PMID:26924755",
-        "PMID:26929994",
-        "PMID:27262547",
-        "PMID:27401979",
-        "PMID:27414104",
-        "PMID:27434255",
-        "PMID:27494656",
-        "PMID:27542735",
-        "PMID:27579339",
-        "PMID:27694046",
-        "PMID:27717803",
-        "PMID:27741390",
-        "PMID:27745666",
-        "PMID:27814246",
-        "PMID:27830419",
-        "PMID:27915102",
-        "Reaxys:1911324",
-        "Wikipedia:Hexabromocyclododecane"
-    ],
-    "geneontology:hasId": "134063",
-    "geneontology:hasSynonym": [
+    "skos:altLabel": [
         "Cyclododecane, 1,2,5,6,9,10-hexabromo-",
         "HBCD",
         "Hexabromocyclododecane"
     ],
-    "geneontology:inSubset": {
-        "@id": "obo:chebi#3_STAR"
+    "skos:exactMatch": {
+        "@id": "obo:CHEBI_134063"
     },
-    "rdfs:label": "1,2,5,6,9,10-hexabromocyclododecane",
-    "rdfs:subClassOf": [
+    "skos:note": "A bromoalkane consisting of cyclododecane bearing six bromo substituents at positions 1, 2, 5, 6, 9 and 10.",
+    "skos:semanticRelation": [
         {
             "@id": "obo:CHEBI_22926"
         },
@@ -62,15 +39,6 @@
         },
         {
             "@id": "obo:CHEBI_172368"
-        },
-        {
-            "@id": "b443_genid-00f1db82e1ab437c844115a94dc63e635-bn134063t11f35703"
-        },
-        {
-            "@id": "b443_genid-00f1db82e1ab437c844115a94dc63e635-bn134063t11f50910"
-        },
-        {
-            "@id": "b443_genid-00f1db82e1ab437c844115a94dc63e635-bn134063t11f77853"
         }
     ]
 }

@@ -1,32 +1,31 @@
 {
     "@context": {
-        "chebi": "http://purl.obolibrary.org/obo/chebi/",
         "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
         "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-        "obo": "http://purl.obolibrary.org/obo/"
+        "obo": "http://purl.obolibrary.org/obo/",
+        "uniprot": "http://purl.uniprot.org/",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "concept": "https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/",
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "dbo": "http://dbpedia.org/ontology/",
+        "dbp": "http://dbpedia.org/property/",
+        "altLabel": {
+            "@id": "http://www.w3.org/2004/02/skos/core#altLabel",
+            "@language": "en"
+        },
+        "graph": {
+            "@id": "@graph"
+        }
     },
-    "@id": "obo:CHEBI_27961",
-    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "@id": "concept:WEEGYLXZBRQIMU-WAAGHKOSSA-N",
+    "@type": "skos:Concept",
+    "dbo:formula": "C10H18O",
+    "dbo:inchi": "InChI=1S/C10H18O/c1-9(2)8-4-6-10(3,11-9)7-5-8/h8H,4-7H2,1-3H3/t8-,10+",
+    "dbo:smiles": "C[C@@]12CC[C@@H](CC1)C(C)(C)O2",
+    "dbp:inchikey": "WEEGYLXZBRQIMU-WAAGHKOSSA-N",
     "chebi:charge": "0",
-    "chebi:formula": "C10H18O",
-    "chebi:inchi": "InChI=1S/C10H18O/c1-9(2)8-4-6-10(3,11-9)7-5-8/h8H,4-7H2,1-3H3/t8-,10+",
-    "chebi:inchikey": "WEEGYLXZBRQIMU-WAAGHKOSSA-N",
-    "chebi:smiles": "C[C@@]12CC[C@@H](CC1)C(C)(C)O2",
-    "http://purl.uniprot.org/core/name": "1,8-cineole",
-    "geneontology:hasDbXref": [
-        "Beilstein:105109",
-        "Beilstein:5239941",
-        "CAS:470-82-6",
-        "DrugBank:DB03852",
-        "Gmelin:131076",
-        "KEGG:C09844",
-        "KEGG:D04115",
-        "KNApSAcK:C00000136",
-        "PDBeChem:CNL",
-        "Wikipedia:Eucalyptol"
-    ],
-    "geneontology:hasId": "27961",
-    "geneontology:hasSynonym": [
+    "skos:altLabel": [
         "cineole",
         "1,3,3-trimethyl-2-oxabicyclo[2.2.2]octane",
         "1,3,3-TRIMETHYL-2-OXABICYCLO[2.2.2]OCTANE",
@@ -38,16 +37,10 @@
         "eucalyptol",
         "Zineol"
     ],
-    "geneontology:inSubset": {
-        "@id": "obo:chebi#3_STAR"
+    "skos:exactMatch": {
+        "@id": "obo:CHEBI_27961"
     },
-    "rdfs:label": "1,8-cineole",
-    "rdfs:subClassOf": [
-        {
-            "@id": "obo:CHEBI_23243"
-        },
-        {
-            "@id": "b14_genid-00f1db82e1ab437c844115a94dc63e635-bn27961t11f35617"
-        }
-    ]
+    "skos:semanticRelation": {
+        "@id": "obo:CHEBI_23243"
+    }
 }

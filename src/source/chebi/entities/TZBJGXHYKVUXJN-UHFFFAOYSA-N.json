@@ -1,69 +1,31 @@
 {
     "@context": {
-        "chebi": "http://purl.obolibrary.org/obo/chebi/",
         "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
         "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-        "obo": "http://purl.obolibrary.org/obo/"
+        "obo": "http://purl.obolibrary.org/obo/",
+        "uniprot": "http://purl.uniprot.org/",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "concept": "https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/",
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "dbo": "http://dbpedia.org/ontology/",
+        "dbp": "http://dbpedia.org/property/",
+        "altLabel": {
+            "@id": "http://www.w3.org/2004/02/skos/core#altLabel",
+            "@language": "en"
+        },
+        "graph": {
+            "@id": "@graph"
+        }
     },
-    "@id": "obo:CHEBI_28088",
-    "@type": "http://www.w3.org/2002/07/owl#Class",
-    "obo:IAO_0000115": "A 7-hydroxyisoflavone with additional hydroxy groups at positions 5 and 4'. It is a phytoestrogenic isoflavone with antioxidant properties.",
+    "@id": "concept:TZBJGXHYKVUXJN-UHFFFAOYSA-N",
+    "@type": "skos:Concept",
+    "dbo:formula": "C15H10O5",
+    "dbo:inchi": "InChI=1S/C15H10O5/c16-9-3-1-8(2-4-9)11-7-20-13-6-10(17)5-12(18)14(13)15(11)19/h1-7,16-18H",
+    "dbo:smiles": "OC1=CC=C(C=C1)C1=COC2=C(C(O)=CC(O)=C2)C1=O",
+    "dbp:inchikey": "TZBJGXHYKVUXJN-UHFFFAOYSA-N",
     "chebi:charge": "0",
-    "chebi:formula": "C15H10O5",
-    "chebi:inchi": "InChI=1S/C15H10O5/c16-9-3-1-8(2-4-9)11-7-20-13-6-10(17)5-12(18)14(13)15(11)19/h1-7,16-18H",
-    "chebi:inchikey": "TZBJGXHYKVUXJN-UHFFFAOYSA-N",
-    "chebi:smiles": "OC1=CC=C(C=C1)C1=COC2=C(C(O)=CC(O)=C2)C1=O",
-    "geneontology:hasDbXref": [
-        "PMID:28166217",
-        "PMID:26322379",
-        "PMID:24023812",
-        "Beilstein:263823",
-        "CAS:446-72-0",
-        "Chemspider:4444448",
-        "DrugBank:DB01645",
-        "FooDB:FDB011828",
-        "HMDB:HMDB0003217",
-        "KEGG:C06563",
-        "KEGG:D11680",
-        "KNApSAcK:C00002526",
-        "LINCS:LSM-5549",
-        "LIPID_MAPS_instance:LMPK12050218",
-        "MetaCyc:CPD-3141",
-        "PDBeChem:GEN",
-        "PMID:10469641",
-        "PMID:10741415",
-        "PMID:10912792",
-        "PMID:11564287",
-        "PMID:12629420",
-        "PMID:14654166",
-        "PMID:15196699",
-        "PMID:15288519",
-        "PMID:15576033",
-        "PMID:15772566",
-        "PMID:15833883",
-        "PMID:15853412",
-        "PMID:16061678",
-        "PMID:16166295",
-        "PMID:17004897",
-        "PMID:17979711",
-        "PMID:18344977",
-        "PMID:18413741",
-        "PMID:18490856",
-        "PMID:18815740",
-        "PMID:19107852",
-        "PMID:19402570",
-        "PMID:20211733",
-        "PMID:22303062",
-        "PMID:24297371",
-        "PMID:24379139",
-        "PMID:25593647",
-        "PMID:28259640",
-        "PMID:34314575",
-        "Reaxys:263823",
-        "Wikipedia:Genistein"
-    ],
-    "geneontology:hasId": "28088",
-    "geneontology:hasSynonym": [
+    "skos:altLabel": [
         "Genistein",
         "4',5,7-trihydroxyisoflavone",
         "5,7,4'-Trihydroxyisoflavone",
@@ -73,40 +35,11 @@
         "Prunetol",
         "Sophoricol"
     ],
-    "geneontology:inSubset": {
-        "@id": "obo:chebi#3_STAR"
+    "skos:exactMatch": {
+        "@id": "obo:CHEBI_28088"
     },
-    "rdfs:label": "genistein",
-    "rdfs:subClassOf": [
-        {
-            "@id": "obo:CHEBI_55465"
-        },
-        {
-            "@id": "b740_genid-00f1db82e1ab437c844115a94dc63e635-bn28088tmms73f74224"
-        },
-        {
-            "@id": "b740_genid-00f1db82e1ab437c844115a94dc63e635-bn28088t11f35610"
-        },
-        {
-            "@id": "b740_genid-00f1db82e1ab437c844115a94dc63e635-bn28088t11f38637"
-        },
-        {
-            "@id": "b740_genid-00f1db82e1ab437c844115a94dc63e635-bn28088t11f50750"
-        },
-        {
-            "@id": "b740_genid-00f1db82e1ab437c844115a94dc63e635-bn28088t4f74224"
-        },
-        {
-            "@id": "b740_genid-00f1db82e1ab437c844115a94dc63e635-bn28088t11f76924"
-        },
-        {
-            "@id": "b740_genid-00f1db82e1ab437c844115a94dc63e635-bn28088t11f76989"
-        },
-        {
-            "@id": "b740_genid-00f1db82e1ab437c844115a94dc63e635-bn28088t11f84087"
-        },
-        {
-            "@id": "b740_genid-00f1db82e1ab437c844115a94dc63e635-bn28088t11f176497"
-        }
-    ]
+    "skos:note": "A 7-hydroxyisoflavone with additional hydroxy groups at positions 5 and 4'. It is a phytoestrogenic isoflavone with antioxidant properties.",
+    "skos:semanticRelation": {
+        "@id": "obo:CHEBI_55465"
+    }
 }

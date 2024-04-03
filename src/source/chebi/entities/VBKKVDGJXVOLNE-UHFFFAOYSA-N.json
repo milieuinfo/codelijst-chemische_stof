@@ -1,29 +1,21 @@
 {
     "@context": {
-        "chebi": "http://purl.obolibrary.org/obo/chebi/",
         "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
         "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-        "obo": "http://purl.obolibrary.org/obo/"
-    },
-    "@id": "obo:CHEBI_81364",
-    "@type": "http://www.w3.org/2002/07/owl#Class",
-    "chebi:charge": "0",
-    "chebi:formula": "C12H26O6P2S4",
-    "chebi:inchi": "InChI=1S/C12H26O6P2S4/c1-5-15-19(21,16-6-2)23-11-12(14-10-9-13-11)24-20(22,17-7-3)18-8-4/h11-12H,5-10H2,1-4H3",
-    "chebi:inchikey": "VBKKVDGJXVOLNE-UHFFFAOYSA-N",
-    "chebi:smiles": "CCOP(=S)(OCC)SC1OCCOC1SP(=S)(OCC)OCC",
-    "geneontology:hasDbXref": [
-        "CAS:78-34-2",
-        "KEGG:C17877",
-        "PPDB:1100",
-        "VSDB:1100"
-    ],
-    "geneontology:hasId": "81364",
-    "geneontology:inSubset": {
-        "@id": "obo:chebi#2_STAR"
-    },
-    "rdfs:label": "Dioxation",
-    "rdfs:subClassOf": {
-        "@id": "obo:CHEBI_46926"
+        "obo": "http://purl.obolibrary.org/obo/",
+        "uniprot": "http://purl.uniprot.org/",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "concept": "https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/",
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "dbo": "http://dbpedia.org/ontology/",
+        "dbp": "http://dbpedia.org/property/",
+        "altLabel": {
+            "@id": "http://www.w3.org/2004/02/skos/core#altLabel",
+            "@language": "en"
+        },
+        "graph": {
+            "@id": "@graph"
+        }
     }
 }

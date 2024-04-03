@@ -1,33 +1,31 @@
 {
     "@context": {
-        "chebi": "http://purl.obolibrary.org/obo/chebi/",
         "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
         "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-        "obo": "http://purl.obolibrary.org/obo/"
+        "obo": "http://purl.obolibrary.org/obo/",
+        "uniprot": "http://purl.uniprot.org/",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "concept": "https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/",
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "dbo": "http://dbpedia.org/ontology/",
+        "dbp": "http://dbpedia.org/property/",
+        "altLabel": {
+            "@id": "http://www.w3.org/2004/02/skos/core#altLabel",
+            "@language": "en"
+        },
+        "graph": {
+            "@id": "@graph"
+        }
     },
-    "@id": "obo:CHEBI_27781",
-    "@type": "http://www.w3.org/2002/07/owl#Class",
-    "obo:IAO_0000115": "A tetradecenoic acid in which the double bond is at the 9-10 position and has Z configuration. Myristoleic acid has been isolated from Serenoa repens and has cytotoxic and apoptosis-inducing effects.",
+    "@id": "concept:YWWVWXASSLXJHU-WAYWQWQTSA-N",
+    "@type": "skos:Concept",
+    "dbo:formula": "C14H26O2",
+    "dbo:inchi": "InChI=1S/C14H26O2/c1-2-3-4-5-6-7-8-9-10-11-12-13-14(15)16/h5-6H,2-4,7-13H2,1H3,(H,15,16)/b6-5-",
+    "dbo:smiles": "CCCC\\C=C/CCCCCCCC(O)=O",
+    "dbp:inchikey": "YWWVWXASSLXJHU-WAYWQWQTSA-N",
     "chebi:charge": "0",
-    "chebi:formula": "C14H26O2",
-    "chebi:inchi": "InChI=1S/C14H26O2/c1-2-3-4-5-6-7-8-9-10-11-12-13-14(15)16/h5-6H,2-4,7-13H2,1H3,(H,15,16)/b6-5-",
-    "chebi:inchikey": "YWWVWXASSLXJHU-WAYWQWQTSA-N",
-    "chebi:smiles": "CCCC\\C=C/CCCCCCCC(O)=O",
-    "geneontology:hasDbXref": [
-        "PMID:19761868",
-        "Beilstein:1724311",
-        "CAS:544-64-9",
-        "HMDB:HMDB0002000",
-        "KEGG:C08322",
-        "KNApSAcK:C00001229",
-        "LIPID_MAPS_instance:LMFA01030051",
-        "PMID:11304730",
-        "PMID:11380153",
-        "Reaxys:1724311",
-        "Wikipedia:Myristoleic_acid"
-    ],
-    "geneontology:hasId": "27781",
-    "geneontology:hasSynonym": [
+    "skos:altLabel": [
         "(9Z)-tetradec-9-enoic acid",
         "(9Z)-Tetradecenoic acid",
         "(Z)-Tetradec-9-enoic acid",
@@ -38,31 +36,16 @@
         "cis-tetradec-9-enoic acid",
         "Myristoleic acid"
     ],
-    "geneontology:inSubset": {
-        "@id": "obo:chebi#3_STAR"
+    "skos:exactMatch": {
+        "@id": "obo:CHEBI_27781"
     },
-    "rdfs:label": "myristoleic acid",
-    "rdfs:subClassOf": [
+    "skos:note": "A tetradecenoic acid in which the double bond is at the 9-10 position and has Z configuration. Myristoleic acid has been isolated from Serenoa repens and has cytotoxic and apoptosis-inducing effects.",
+    "skos:semanticRelation": [
         {
             "@id": "obo:CHEBI_15904"
         },
         {
-            "@id": "b420_genid-00f1db82e1ab437c844115a94dc63e635-bn27781tmms73f32370"
-        },
-        {
-            "@id": "b420_genid-00f1db82e1ab437c844115a94dc63e635-bn27781t4f32370"
-        },
-        {
             "@id": "obo:CHEBI_36004"
-        },
-        {
-            "@id": "b420_genid-00f1db82e1ab437c844115a94dc63e635-bn27781t11f68495"
-        },
-        {
-            "@id": "b420_genid-00f1db82e1ab437c844115a94dc63e635-bn27781t11f76924"
-        },
-        {
-            "@id": "b420_genid-00f1db82e1ab437c844115a94dc63e635-bn27781t11f78444"
         }
     ]
 }

@@ -1,46 +1,31 @@
 {
     "@context": {
-        "chebi": "http://purl.obolibrary.org/obo/chebi/",
         "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
         "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-        "obo": "http://purl.obolibrary.org/obo/"
+        "obo": "http://purl.obolibrary.org/obo/",
+        "uniprot": "http://purl.uniprot.org/",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "concept": "https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/",
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "dbo": "http://dbpedia.org/ontology/",
+        "dbp": "http://dbpedia.org/property/",
+        "altLabel": {
+            "@id": "http://www.w3.org/2004/02/skos/core#altLabel",
+            "@language": "en"
+        },
+        "graph": {
+            "@id": "@graph"
+        }
     },
-    "@id": "obo:CHEBI_53001",
-    "@type": "http://www.w3.org/2002/07/owl#Class",
-    "obo:IAO_0000115": "A metal sulfate having nickel(2+) as the metal ion.",
+    "@id": "concept:LGQLOGILCSXPEA-UHFFFAOYSA-L",
+    "@type": "skos:Concept",
+    "dbo:formula": "NiO4S",
+    "dbo:inchi": "InChI=1S/Ni.H2O4S/c;1-5(2,3)4/h;(H2,1,2,3,4)/q+2;/p-2",
+    "dbo:smiles": "[Ni++].[O-]S([O-])(=O)=O",
+    "dbp:inchikey": "LGQLOGILCSXPEA-UHFFFAOYSA-L",
     "chebi:charge": "0",
-    "chebi:formula": "NiO4S",
-    "chebi:inchi": "InChI=1S/Ni.H2O4S/c;1-5(2,3)4/h;(H2,1,2,3,4)/q+2;/p-2",
-    "chebi:inchikey": "LGQLOGILCSXPEA-UHFFFAOYSA-L",
-    "chebi:smiles": "[Ni++].[O-]S([O-])(=O)=O",
-    "geneontology:hasDbXref": [
-        "PMID:25042713",
-        "PMID:21616561",
-        "PMID:18837732",
-        "PMID:10469300",
-        "PMID:8566016",
-        "PMID:14634084",
-        "PMID:8991630",
-        "PMID:7615984",
-        "PMID:25097477",
-        "PMID:10444249",
-        "PMID:11207315",
-        "CAS:7786-81-4",
-        "Gmelin:8299",
-        "PMID:10444250",
-        "PMID:10975816",
-        "PMID:11851891",
-        "PMID:1694310",
-        "PMID:2026136",
-        "PMID:2415590",
-        "PMID:2477914",
-        "PMID:7687268",
-        "PMID:8891004",
-        "Reaxys:11329960",
-        "Wikipedia:Nickel(II)_sulfate"
-    ],
-    "geneontology:hasId": "53001",
-    "geneontology:hasSynonym": [
+    "skos:altLabel": [
         "nickel(2+) sulfate",
         "nickel(II) sulfate",
         "Nickel(II) sulfate (1:1)",
@@ -49,19 +34,11 @@
         "Nickel sulphate",
         "NiSO4"
     ],
-    "geneontology:inSubset": {
-        "@id": "obo:chebi#3_STAR"
+    "skos:exactMatch": {
+        "@id": "obo:CHEBI_53001"
     },
-    "rdfs:label": "nickel sulfate",
-    "rdfs:subClassOf": [
-        {
-            "@id": "obo:CHEBI_51336"
-        },
-        {
-            "@id": "b536_genid-00f1db82e1ab437c844115a94dc63e635-bn53001t10f49786"
-        },
-        {
-            "@id": "b536_genid-00f1db82e1ab437c844115a94dc63e635-bn53001t11f50904"
-        }
-    ]
+    "skos:note": "A metal sulfate having nickel(2+) as the metal ion.",
+    "skos:semanticRelation": {
+        "@id": "obo:CHEBI_51336"
+    }
 }

@@ -1,24 +1,31 @@
 {
     "@context": {
-        "chebi": "http://purl.obolibrary.org/obo/chebi/",
         "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
         "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-        "obo": "http://purl.obolibrary.org/obo/"
+        "obo": "http://purl.obolibrary.org/obo/",
+        "uniprot": "http://purl.uniprot.org/",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "concept": "https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/",
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "dbo": "http://dbpedia.org/ontology/",
+        "dbp": "http://dbpedia.org/property/",
+        "altLabel": {
+            "@id": "http://www.w3.org/2004/02/skos/core#altLabel",
+            "@language": "en"
+        },
+        "graph": {
+            "@id": "@graph"
+        }
     },
-    "@id": "obo:CHEBI_17903",
-    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "@id": "concept:JCYPECIVGRXBMO-UHFFFAOYSA-N",
+    "@type": "skos:Concept",
+    "dbo:formula": "C14H15N3",
+    "dbo:inchi": "InChI=1S/C14H15N3/c1-17(2)14-10-8-13(9-11-14)16-15-12-6-4-3-5-7-12/h3-11H,1-2H3",
+    "dbo:smiles": "CN(C)c1ccc(cc1)N=Nc1ccccc1",
+    "dbp:inchikey": "JCYPECIVGRXBMO-UHFFFAOYSA-N",
     "chebi:charge": "0",
-    "chebi:formula": "C14H15N3",
-    "chebi:inchi": "InChI=1S/C14H15N3/c1-17(2)14-10-8-13(9-11-14)16-15-12-6-4-3-5-7-12/h3-11H,1-2H3",
-    "chebi:inchikey": "JCYPECIVGRXBMO-UHFFFAOYSA-N",
-    "chebi:smiles": "CN(C)c1ccc(cc1)N=Nc1ccccc1",
-    "http://purl.uniprot.org/core/name": "4-(dimethylamino)azobenzene",
-    "geneontology:hasDbXref": [
-        "CAS:60-11-7",
-        "KEGG:C03764"
-    ],
-    "geneontology:hasId": "17903",
-    "geneontology:hasSynonym": [
+    "skos:altLabel": [
         "4-(Dimethylamino)azobenzene",
         "4-(Dimethylamino)phenylazobenzene",
         "4-(N,N-Dimethylamino)azobenzene",
@@ -30,11 +37,10 @@
         "N,N-Dimethyl-4-(phenylazo)benzenamine",
         "N,N-dimethyl-4-(phenyldiazenyl)aniline"
     ],
-    "geneontology:inSubset": {
-        "@id": "obo:chebi#3_STAR"
+    "skos:exactMatch": {
+        "@id": "obo:CHEBI_17903"
     },
-    "rdfs:label": "4-(dimethylamino)azobenzene",
-    "rdfs:subClassOf": {
+    "skos:semanticRelation": {
         "@id": "obo:CHEBI_22682"
     }
 }

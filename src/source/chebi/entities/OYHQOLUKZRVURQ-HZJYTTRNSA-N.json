@@ -1,52 +1,31 @@
 {
     "@context": {
-        "chebi": "http://purl.obolibrary.org/obo/chebi/",
         "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
         "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-        "obo": "http://purl.obolibrary.org/obo/"
+        "obo": "http://purl.obolibrary.org/obo/",
+        "uniprot": "http://purl.uniprot.org/",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "concept": "https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/",
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "dbo": "http://dbpedia.org/ontology/",
+        "dbp": "http://dbpedia.org/property/",
+        "altLabel": {
+            "@id": "http://www.w3.org/2004/02/skos/core#altLabel",
+            "@language": "en"
+        },
+        "graph": {
+            "@id": "@graph"
+        }
     },
-    "@id": "obo:CHEBI_17351",
-    "@type": "http://www.w3.org/2002/07/owl#Class",
-    "obo:IAO_0000115": "An octadecadienoic acid in which the two double bonds are at positions 9 and 12 and have Z (cis) stereochemistry.",
+    "@id": "concept:OYHQOLUKZRVURQ-HZJYTTRNSA-N",
+    "@type": "skos:Concept",
+    "dbo:formula": "C18H32O2",
+    "dbo:inchi": "InChI=1S/C18H32O2/c1-2-3-4-5-6-7-8-9-10-11-12-13-14-15-16-17-18(19)20/h6-7,9-10H,2-5,8,11-17H2,1H3,(H,19,20)/b7-6-,10-9-",
+    "dbo:smiles": "CCCCC\\C=C/C\\C=C/CCCCCCCC(O)=O",
+    "dbp:inchikey": "OYHQOLUKZRVURQ-HZJYTTRNSA-N",
     "chebi:charge": "0",
-    "chebi:formula": "C18H32O2",
-    "chebi:inchi": "InChI=1S/C18H32O2/c1-2-3-4-5-6-7-8-9-10-11-12-13-14-15-16-17-18(19)20/h6-7,9-10H,2-5,8,11-17H2,1H3,(H,19,20)/b7-6-,10-9-",
-    "chebi:inchikey": "OYHQOLUKZRVURQ-HZJYTTRNSA-N",
-    "chebi:smiles": "CCCCC\\C=C/C\\C=C/CCCCCCCC(O)=O",
-    "geneontology:hasDbXref": [
-        "PMID:6205897",
-        "PMID:11304127",
-        "Beilstein:1727101",
-        "CAS:60-33-3",
-        "Drug_Central:3323",
-        "Gmelin:57557",
-        "HMDB:HMDB0000673",
-        "KEGG:C01595",
-        "KNApSAcK:C00001224",
-        "LIPID_MAPS_instance:LMFA01030120",
-        "MetaCyc:LINOLEIC_ACID",
-        "PDBeChem:EIC",
-        "PMID:11113630",
-        "PMID:11322990",
-        "PMID:14667063",
-        "PMID:14993245",
-        "PMID:15115315",
-        "PMID:15642793",
-        "PMID:15969511",
-        "PMID:16254037",
-        "PMID:16563718",
-        "PMID:17647039",
-        "PMID:18044828",
-        "PMID:18990554",
-        "PMID:19628674",
-        "PMID:19936816",
-        "PMID:23900039",
-        "PMID:24081493",
-        "Reaxys:1727101",
-        "Wikipedia:Linoleic_acid"
-    ],
-    "geneontology:hasId": "17351",
-    "geneontology:hasSynonym": [
+    "skos:altLabel": [
         "(9Z,12Z)-octadeca-9,12-dienoic acid",
         "(9Z,12Z)-Octadecadienoic acid",
         "(Z,Z)-9,12-octadecadienoic acid",
@@ -66,31 +45,16 @@
         "LINOLEIC ACID",
         "linolic acid"
     ],
-    "geneontology:inSubset": {
-        "@id": "obo:chebi#3_STAR"
+    "skos:exactMatch": {
+        "@id": "obo:CHEBI_17351"
     },
-    "rdfs:label": "linoleic acid",
-    "rdfs:subClassOf": [
+    "skos:note": "An octadecadienoic acid in which the two double bonds are at positions 9 and 12 and have Z (cis) stereochemistry.",
+    "skos:semanticRelation": [
         {
             "@id": "obo:CHEBI_36009"
         },
         {
-            "@id": "b92_genid-00f1db82e1ab437c844115a94dc63e635-bn17351tmms73f30245"
-        },
-        {
             "@id": "obo:CHEBI_25627"
-        },
-        {
-            "@id": "b92_genid-00f1db82e1ab437c844115a94dc63e635-bn17351t4f30245"
-        },
-        {
-            "@id": "b92_genid-00f1db82e1ab437c844115a94dc63e635-bn17351t11f76924"
-        },
-        {
-            "@id": "b92_genid-00f1db82e1ab437c844115a94dc63e635-bn17351t11f83038"
-        },
-        {
-            "@id": "b92_genid-00f1db82e1ab437c844115a94dc63e635-bn17351t11f84735"
         }
     ]
 }

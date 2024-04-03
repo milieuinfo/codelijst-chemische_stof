@@ -1,33 +1,31 @@
 {
     "@context": {
-        "chebi": "http://purl.obolibrary.org/obo/chebi/",
         "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
         "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-        "obo": "http://purl.obolibrary.org/obo/"
+        "obo": "http://purl.obolibrary.org/obo/",
+        "uniprot": "http://purl.uniprot.org/",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "concept": "https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/",
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "dbo": "http://dbpedia.org/ontology/",
+        "dbp": "http://dbpedia.org/property/",
+        "altLabel": {
+            "@id": "http://www.w3.org/2004/02/skos/core#altLabel",
+            "@language": "en"
+        },
+        "graph": {
+            "@id": "@graph"
+        }
     },
-    "@id": "obo:CHEBI_50842",
-    "@type": "http://www.w3.org/2002/07/owl#Class",
-    "obo:IAO_0000115": "A pyridazinone that is pyridazin-3(2H)-one which is substituted at positions 2, 4, and 5 by m-(trifluoromethyl)phenyl, chloro, and methylamino groups, respectively. A pre-emergence herbicide used to control grasses and broad-leafed weeds in a variety of crops. Not approved for use within the European Union.",
+    "@id": "concept:NVGOPFQZYCNLDU-UHFFFAOYSA-N",
+    "@type": "skos:Concept",
+    "dbo:formula": "C12H9ClF3N3O",
+    "dbo:inchi": "InChI=1S/C12H9ClF3N3O/c1-17-9-6-18-19(11(20)10(9)13)8-4-2-3-7(5-8)12(14,15)16/h2-6,17H,1H3",
+    "dbo:smiles": "C(C1=CC(=CC=C1)N2C(C(=C(C=N2)NC)Cl)=O)(F)(F)F",
+    "dbp:inchikey": "NVGOPFQZYCNLDU-UHFFFAOYSA-N",
     "chebi:charge": "0",
-    "chebi:formula": "C12H9ClF3N3O",
-    "chebi:inchi": "InChI=1S/C12H9ClF3N3O/c1-17-9-6-18-19(11(20)10(9)13)8-4-2-3-7(5-8)12(14,15)16/h2-6,17H,1H3",
-    "chebi:inchikey": "NVGOPFQZYCNLDU-UHFFFAOYSA-N",
-    "chebi:smiles": "C(C1=CC(=CC=C1)N2C(C(=C(C=N2)NC)Cl)=O)(F)(F)F",
-    "geneontology:hasDbXref": [
-        "Beilstein:757115",
-        "CAS:27314-13-2",
-        "KEGG:C18874",
-        "Patent:BE712832",
-        "Patent:US3644355",
-        "PDBeChem:NRF",
-        "Pesticides:norflurazon",
-        "PMID:16659463",
-        "PMID:24936791",
-        "PMID:26735720",
-        "PPDB:486"
-    ],
-    "geneontology:hasId": "50842",
-    "geneontology:hasSynonym": [
+    "skos:altLabel": [
         "4-chloro-5-(methylamino)-2-(alpha,alpha,alpha-trifluoro-m-tolyl)-3(2H)-pyridazinone",
         "4-chloro-5-(methylamino)-2-[3-(trifluoromethyl)phenyl]-3(2H)-pyridazinone",
         "4-chloro-5-(methylamino)-2-[3-(trifluoromethyl)phenyl]pyridazin-3(2H)-one",
@@ -35,11 +33,11 @@
         "Solicam",
         "Zorial"
     ],
-    "geneontology:inSubset": {
-        "@id": "obo:chebi#3_STAR"
+    "skos:exactMatch": {
+        "@id": "obo:CHEBI_50842"
     },
-    "rdfs:label": "norflurazon",
-    "rdfs:subClassOf": [
+    "skos:note": "A pyridazinone that is pyridazin-3(2H)-one which is substituted at positions 2, 4, and 5 by m-(trifluoromethyl)phenyl, chloro, and methylamino groups, respectively. A pre-emergence herbicide used to control grasses and broad-leafed weeds in a variety of crops. Not approved for use within the European Union.",
+    "skos:semanticRelation": [
         {
             "@id": "obo:CHEBI_36683"
         },
@@ -51,15 +49,6 @@
         },
         {
             "@id": "obo:CHEBI_26414"
-        },
-        {
-            "@id": "b867_genid-00f1db82e1ab437c844115a94dc63e635-bn50842t11f24527"
-        },
-        {
-            "@id": "b867_genid-00f1db82e1ab437c844115a94dc63e635-bn50842t11f33286"
-        },
-        {
-            "@id": "b867_genid-00f1db82e1ab437c844115a94dc63e635-bn50842t11f138208"
         }
     ]
 }

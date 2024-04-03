@@ -1,77 +1,42 @@
 {
     "@context": {
-        "chebi": "http://purl.obolibrary.org/obo/chebi/",
         "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
         "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-        "obo": "http://purl.obolibrary.org/obo/"
+        "obo": "http://purl.obolibrary.org/obo/",
+        "uniprot": "http://purl.uniprot.org/",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "concept": "https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/",
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "dbo": "http://dbpedia.org/ontology/",
+        "dbp": "http://dbpedia.org/property/",
+        "altLabel": {
+            "@id": "http://www.w3.org/2004/02/skos/core#altLabel",
+            "@language": "en"
+        },
+        "graph": {
+            "@id": "@graph"
+        }
     },
-    "@id": "obo:CHEBI_25858",
-    "@type": "http://www.w3.org/2002/07/owl#Class",
-    "obo:IAO_0000115": "A dimethylxanthine having the two methyl groups located at positions 1 and 7. It is a metabolite of caffeine and theobromine in animals.",
+    "@id": "concept:QUNWUDVFRNGTCO-UHFFFAOYSA-N",
+    "@type": "skos:Concept",
+    "dbo:formula": "C7H8N4O2",
+    "dbo:inchi": "InChI=1S/C7H8N4O2/c1-10-3-8-5-4(10)6(12)11(2)7(13)9-5/h3H,1-2H3,(H,9,13)",
+    "dbo:smiles": "Cn1cnc2[nH]c(=O)n(C)c(=O)c12",
+    "dbp:inchikey": "QUNWUDVFRNGTCO-UHFFFAOYSA-N",
     "chebi:charge": "0",
-    "chebi:formula": "C7H8N4O2",
-    "chebi:inchi": "InChI=1S/C7H8N4O2/c1-10-3-8-5-4(10)6(12)11(2)7(13)9-5/h3H,1-2H3,(H,9,13)",
-    "chebi:inchikey": "QUNWUDVFRNGTCO-UHFFFAOYSA-N",
-    "chebi:smiles": "Cn1cnc2[nH]c(=O)n(C)c(=O)c12",
-    "http://purl.uniprot.org/core/name": "1,7-dimethylxanthine",
-    "geneontology:hasDbXref": [
-        "PMID:22770225",
-        "CAS:611-59-6",
-        "HMDB:HMDB0001860",
-        "KEGG:C13747",
-        "LINCS:LSM-20962",
-        "MetaCyc:1-7-DIMETHYLXANTHINE",
-        "PMID:10416066",
-        "PMID:10572151",
-        "PMID:10593655",
-        "PMID:10877011",
-        "PMID:11090584",
-        "PMID:1128545",
-        "PMID:12110375",
-        "PMID:16870158",
-        "PMID:17655324",
-        "PMID:18621927",
-        "PMID:20004571",
-        "PMID:20614853",
-        "PMID:20853468",
-        "PMID:21380987",
-        "PMID:2882985",
-        "PMID:3371146",
-        "PMID:3798364",
-        "PMID:7920690",
-        "PMID:7977734",
-        "PMID:8529334",
-        "PMID:9920286",
-        "Reaxys:197907",
-        "Wikipedia:Paraxanthine"
-    ],
-    "geneontology:hasId": "25858",
-    "geneontology:hasSynonym": [
+    "skos:altLabel": [
         "1,7-dimethyl-3,7-dihydro-1H-purine-2,6-dione",
         "1,7-Dimethylxanthine",
         "3,7-Dihydro-1,7-dimethyl-1H-purine-2,6-dione",
         "Paraxanthine",
         "p-Xanthine"
     ],
-    "geneontology:inSubset": {
-        "@id": "obo:chebi#3_STAR"
+    "skos:exactMatch": {
+        "@id": "obo:CHEBI_25858"
     },
-    "rdfs:label": "1,7-dimethylxanthine",
-    "rdfs:subClassOf": [
-        {
-            "@id": "obo:CHEBI_23818"
-        },
-        {
-            "@id": "b359_genid-00f1db82e1ab437c844115a94dc63e635-bn25858t11f35337"
-        },
-        {
-            "@id": "b359_genid-00f1db82e1ab437c844115a94dc63e635-bn25858t11f75771"
-        },
-        {
-            "@id": "b359_genid-00f1db82e1ab437c844115a94dc63e635-bn25858t11f76967"
-        },
-        {
-            "@id": "b359_genid-00f1db82e1ab437c844115a94dc63e635-bn25858t11f85234"
-        }
-    ]
+    "skos:note": "A dimethylxanthine having the two methyl groups located at positions 1 and 7. It is a metabolite of caffeine and theobromine in animals.",
+    "skos:semanticRelation": {
+        "@id": "obo:CHEBI_23818"
+    }
 }

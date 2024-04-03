@@ -1,34 +1,31 @@
 {
     "@context": {
-        "chebi": "http://purl.obolibrary.org/obo/chebi/",
         "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
         "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-        "obo": "http://purl.obolibrary.org/obo/"
+        "obo": "http://purl.obolibrary.org/obo/",
+        "uniprot": "http://purl.uniprot.org/",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "concept": "https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/",
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "dbo": "http://dbpedia.org/ontology/",
+        "dbp": "http://dbpedia.org/property/",
+        "altLabel": {
+            "@id": "http://www.w3.org/2004/02/skos/core#altLabel",
+            "@language": "en"
+        },
+        "graph": {
+            "@id": "@graph"
+        }
     },
-    "@id": "obo:CHEBI_89188",
-    "@type": "http://www.w3.org/2002/07/owl#Class",
-    "obo:IAO_0000115": "A member of the class of phenols carrying two tert-butyl substituents at positions 2 and 4.",
+    "@id": "concept:ICKWICRCANNIBI-UHFFFAOYSA-N",
+    "@type": "skos:Concept",
+    "dbo:formula": "C14H22O",
+    "dbo:inchi": "InChI=1S/C14H22O/c1-13(2,3)10-7-8-12(15)11(9-10)14(4,5)6/h7-9,15H,1-6H3",
+    "dbo:smiles": "OC1=CC=C(C(C)(C)C)C=C1C(C)(C)C",
+    "dbp:inchikey": "ICKWICRCANNIBI-UHFFFAOYSA-N",
     "chebi:charge": "0",
-    "chebi:formula": "C14H22O",
-    "chebi:inchi": "InChI=1S/C14H22O/c1-13(2,3)10-7-8-12(15)11(9-10)14(4,5)6/h7-9,15H,1-6H3",
-    "chebi:inchikey": "ICKWICRCANNIBI-UHFFFAOYSA-N",
-    "chebi:smiles": "OC1=CC=C(C(C)(C)C)C=C1C(C)(C)C",
-    "geneontology:hasDbXref": [
-        "Beilstein:1910383",
-        "CAS:96-76-4",
-        "HMDB:HMDB0013816",
-        "PMID:16595909",
-        "PMID:22020168",
-        "PMID:23450232",
-        "PMID:24074359",
-        "PMID:24934765",
-        "PMID:25641715",
-        "PMID:27107984",
-        "PMID:27524650",
-        "Reaxys:1910383"
-    ],
-    "geneontology:hasId": "89188",
-    "geneontology:hasSynonym": [
+    "skos:altLabel": [
         "1-Hydroxy-2,4-di-tert-butylbenzene",
         "2,4-Bis(1,1'-dimethylethyl)phenol",
         "2,4-Bis(1,1-dimethylethyl)phenol",
@@ -37,25 +34,16 @@
         "2,4-Di-t-Butylphenol",
         "2,4-Tert-butylphenol"
     ],
-    "geneontology:inSubset": {
-        "@id": "obo:chebi#3_STAR"
+    "skos:exactMatch": {
+        "@id": "obo:CHEBI_89188"
     },
-    "rdfs:label": "2,4-di-tert-butylphenol",
-    "rdfs:subClassOf": [
+    "skos:note": "A member of the class of phenols carrying two tert-butyl substituents at positions 2 and 4.",
+    "skos:semanticRelation": [
         {
             "@id": "obo:CHEBI_33853"
         },
         {
             "@id": "obo:CHEBI_38976"
-        },
-        {
-            "@id": "b78_genid-00f1db82e1ab437c844115a94dc63e635-bn89188t11f22586"
-        },
-        {
-            "@id": "b78_genid-00f1db82e1ab437c844115a94dc63e635-bn89188t11f76507"
-        },
-        {
-            "@id": "b78_genid-00f1db82e1ab437c844115a94dc63e635-bn89188t11f76969"
         }
     ]
 }

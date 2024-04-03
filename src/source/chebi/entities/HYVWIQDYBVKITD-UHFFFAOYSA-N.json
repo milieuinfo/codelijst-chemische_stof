@@ -1,60 +1,42 @@
 {
     "@context": {
-        "chebi": "http://purl.obolibrary.org/obo/chebi/",
         "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
         "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-        "obo": "http://purl.obolibrary.org/obo/"
+        "obo": "http://purl.obolibrary.org/obo/",
+        "uniprot": "http://purl.uniprot.org/",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "concept": "https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/",
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "dbo": "http://dbpedia.org/ontology/",
+        "dbp": "http://dbpedia.org/property/",
+        "altLabel": {
+            "@id": "http://www.w3.org/2004/02/skos/core#altLabel",
+            "@language": "en"
+        },
+        "graph": {
+            "@id": "@graph"
+        }
     },
-    "@id": "obo:CHEBI_75182",
-    "@type": "http://www.w3.org/2002/07/owl#Class",
-    "obo:IAO_0000115": "A member of the class of sulfamides that is dichlofluanid in which the hydrogen at the para position of the phenyl group is replaced by a methyl group. A fungicide first marketed in 1971 and used in the cultivation of fruit and vegetables, as well as in wood preservatives, it is no longer approved for use in the European Union.",
+    "@id": "concept:HYVWIQDYBVKITD-UHFFFAOYSA-N",
+    "@type": "skos:Concept",
+    "dbo:formula": "C10H13Cl2FN2O2S2",
+    "dbo:inchi": "InChI=1S/C10H13Cl2FN2O2S2/c1-8-4-6-9(7-5-8)15(18-10(11,12)13)19(16,17)14(2)3/h4-7H,1-3H3",
+    "dbo:smiles": "CN(C)S(=O)(=O)N(SC(F)(Cl)Cl)c1ccc(C)cc1",
+    "dbp:inchikey": "HYVWIQDYBVKITD-UHFFFAOYSA-N",
     "chebi:charge": "0",
-    "chebi:formula": "C10H13Cl2FN2O2S2",
-    "chebi:inchi": "InChI=1S/C10H13Cl2FN2O2S2/c1-8-4-6-9(7-5-8)15(18-10(11,12)13)19(16,17)14(2)3/h4-7H,1-3H3",
-    "chebi:inchikey": "HYVWIQDYBVKITD-UHFFFAOYSA-N",
-    "chebi:smiles": "CN(C)S(=O)(=O)N(SC(F)(Cl)Cl)c1ccc(C)cc1",
-    "geneontology:hasDbXref": [
-        "PMID:22562348",
-        "CAS:731-27-1",
-        "KEGG:C18899",
-        "Patent:EP1527683",
-        "Patent:US2011195946",
-        "Pesticides:tolylfluanid",
-        "PMID:15941588",
-        "PMID:17390776",
-        "PMID:1854993",
-        "PMID:19927138",
-        "PMID:20803363",
-        "PMID:20824571",
-        "PMID:20930027",
-        "PMID:21112833",
-        "PMID:21154844",
-        "PMID:21229388",
-        "PMID:21637552",
-        "PMID:22022782",
-        "PMID:22213400",
-        "PMID:22387882",
-        "PMID:22743627",
-        "PMID:22853990",
-        "PMID:23058941",
-        "PMID:23340252",
-        "PMID:23846394",
-        "PPDB:645",
-        "Reaxys:2949607"
-    ],
-    "geneontology:hasId": "75182",
-    "geneontology:hasSynonym": [
+    "skos:altLabel": [
         "1,1-Dichloro-N-((dimethylamino)sulfonyl)-1-fluoro-N-(4-methylphenyl)methanesulfenamide",
         "Dichloro-N-((dimethylamino)sulphonyl)fluoro-N-(p-tolyl)methanesulphenamide",
         "Euparen Multi",
         "N-{[dichloro(fluoro)methyl]sulfanyl}-N',N'-dimethyl-N-(4-methylphenyl)sulfuric diamide",
         "Tolylfluanide"
     ],
-    "geneontology:inSubset": {
-        "@id": "obo:chebi#3_STAR"
+    "skos:exactMatch": {
+        "@id": "obo:CHEBI_75182"
     },
-    "rdfs:label": "tolylfluanid",
-    "rdfs:subClassOf": [
+    "skos:note": "A member of the class of sulfamides that is dichlofluanid in which the hydrogen at the para position of the phenyl group is replaced by a methyl group. A fungicide first marketed in 1971 and used in the cultivation of fruit and vegetables, as well as in wood preservatives, it is no longer approved for use in the European Union.",
+    "skos:semanticRelation": [
         {
             "@id": "obo:CHEBI_36683"
         },
@@ -66,15 +48,6 @@
         },
         {
             "@id": "obo:CHEBI_87026"
-        },
-        {
-            "@id": "b57_genid-00f1db82e1ab437c844115a94dc63e635-bn75182t8f29368"
-        },
-        {
-            "@id": "b57_genid-00f1db82e1ab437c844115a94dc63e635-bn75182t11f50902"
-        },
-        {
-            "@id": "b57_genid-00f1db82e1ab437c844115a94dc63e635-bn75182t11f86328"
         }
     ]
 }

@@ -1,33 +1,39 @@
 {
     "@context": {
-        "chebi": "http://purl.obolibrary.org/obo/chebi/",
         "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
         "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-        "obo": "http://purl.obolibrary.org/obo/"
+        "obo": "http://purl.obolibrary.org/obo/",
+        "uniprot": "http://purl.uniprot.org/",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "concept": "https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/",
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "dbo": "http://dbpedia.org/ontology/",
+        "dbp": "http://dbpedia.org/property/",
+        "altLabel": {
+            "@id": "http://www.w3.org/2004/02/skos/core#altLabel",
+            "@language": "en"
+        },
+        "graph": {
+            "@id": "@graph"
+        }
     },
-    "@id": "obo:CHEBI_75370",
-    "@type": "http://www.w3.org/2002/07/owl#Class",
-    "obo:IAO_0000115": "An aromatic ether that is 2-hydroxypropanoic acid in which the hydroxy group at position 2 has been converted to its 2,4-dichlorophenyl ether.",
+    "@id": "concept:MZHCENGPTKEIGP-UHFFFAOYSA-N",
+    "@type": "skos:Concept",
+    "dbo:formula": "C9H8Cl2O3",
+    "dbo:inchi": "InChI=1S/C9H8Cl2O3/c1-5(9(12)13)14-8-3-2-6(10)4-7(8)11/h2-5H,1H3,(H,12,13)",
+    "dbo:smiles": "CC(Oc1ccc(Cl)cc1Cl)C(O)=O",
+    "dbp:inchikey": "MZHCENGPTKEIGP-UHFFFAOYSA-N",
     "chebi:charge": "0",
-    "chebi:formula": "C9H8Cl2O3",
-    "chebi:inchi": "InChI=1S/C9H8Cl2O3/c1-5(9(12)13)14-8-3-2-6(10)4-7(8)11/h2-5H,1H3,(H,12,13)",
-    "chebi:inchikey": "MZHCENGPTKEIGP-UHFFFAOYSA-N",
-    "chebi:smiles": "CC(Oc1ccc(Cl)cc1Cl)C(O)=O",
-    "geneontology:hasDbXref": [
-        "CAS:120-36-5",
-        "KEGG:C11020",
-        "PPDB:218"
-    ],
-    "geneontology:hasId": "75370",
-    "geneontology:hasSynonym": [
+    "skos:altLabel": [
         "2-(2,4-Dichlorophenoxy)propionic acid",
         "Dichlorprop"
     ],
-    "geneontology:inSubset": {
-        "@id": "obo:chebi#3_STAR"
+    "skos:exactMatch": {
+        "@id": "obo:CHEBI_75370"
     },
-    "rdfs:label": "2-(2,4-dichlorophenoxy)propanoic acid",
-    "rdfs:subClassOf": [
+    "skos:note": "An aromatic ether that is 2-hydroxypropanoic acid in which the hydroxy group at position 2 has been converted to its 2,4-dichlorophenyl ether.",
+    "skos:semanticRelation": [
         {
             "@id": "obo:CHEBI_35618"
         },

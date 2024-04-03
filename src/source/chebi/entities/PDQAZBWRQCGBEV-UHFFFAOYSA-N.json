@@ -1,28 +1,35 @@
 {
     "@context": {
-        "chebi": "http://purl.obolibrary.org/obo/chebi/",
         "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
         "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-        "obo": "http://purl.obolibrary.org/obo/"
+        "obo": "http://purl.obolibrary.org/obo/",
+        "uniprot": "http://purl.uniprot.org/",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "concept": "https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/",
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "dbo": "http://dbpedia.org/ontology/",
+        "dbp": "http://dbpedia.org/property/",
+        "altLabel": {
+            "@id": "http://www.w3.org/2004/02/skos/core#altLabel",
+            "@language": "en"
+        },
+        "graph": {
+            "@id": "@graph"
+        }
     },
-    "@id": "obo:CHEBI_34750",
-    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "@id": "concept:PDQAZBWRQCGBEV-UHFFFAOYSA-N",
+    "@type": "skos:Concept",
+    "dbo:formula": "C3H6N2S",
+    "dbo:inchi": "InChI=1S/C3H6N2S/c6-3-4-1-2-5-3/h1-2H2,(H2,4,5,6)",
+    "dbo:smiles": "S=C1NCCN1",
+    "dbp:inchikey": "PDQAZBWRQCGBEV-UHFFFAOYSA-N",
     "chebi:charge": "0",
-    "chebi:formula": "C3H6N2S",
-    "chebi:inchi": "InChI=1S/C3H6N2S/c6-3-4-1-2-5-3/h1-2H2,(H2,4,5,6)",
-    "chebi:inchikey": "PDQAZBWRQCGBEV-UHFFFAOYSA-N",
-    "chebi:smiles": "S=C1NCCN1",
-    "geneontology:hasDbXref": [
-        "CAS:96-45-7",
-        "KEGG:C14398"
-    ],
-    "geneontology:hasId": "34750",
-    "geneontology:hasSynonym": "2-Mercaptoimidazoline",
-    "geneontology:inSubset": {
-        "@id": "obo:chebi#2_STAR"
+    "skos:altLabel": "2-Mercaptoimidazoline",
+    "skos:exactMatch": {
+        "@id": "obo:CHEBI_34750"
     },
-    "rdfs:label": "Ethylenethiourea",
-    "rdfs:subClassOf": {
+    "skos:semanticRelation": {
         "@id": "obo:CHEBI_38261"
     }
 }

@@ -1,37 +1,31 @@
 {
     "@context": {
-        "chebi": "http://purl.obolibrary.org/obo/chebi/",
         "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
         "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-        "obo": "http://purl.obolibrary.org/obo/"
+        "obo": "http://purl.obolibrary.org/obo/",
+        "uniprot": "http://purl.uniprot.org/",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "concept": "https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/",
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "dbo": "http://dbpedia.org/ontology/",
+        "dbp": "http://dbpedia.org/property/",
+        "altLabel": {
+            "@id": "http://www.w3.org/2004/02/skos/core#altLabel",
+            "@language": "en"
+        },
+        "graph": {
+            "@id": "@graph"
+        }
     },
-    "@id": "obo:CHEBI_141564",
-    "@type": "http://www.w3.org/2002/07/owl#Class",
-    "obo:IAO_0000115": "An ether having ethyl and tert-butyl as the two alkyl components. It is used as an engine fuel additive to reduce emissions of carbon monoxide and soot.",
+    "@id": "concept:NUMQCACRALPSHD-UHFFFAOYSA-N",
+    "@type": "skos:Concept",
+    "dbo:formula": "C6H14O",
+    "dbo:inchi": "InChI=1S/C6H14O/c1-5-7-6(2,3)4/h5H2,1-4H3",
+    "dbo:smiles": "CCOC(C)(C)C",
+    "dbp:inchikey": "NUMQCACRALPSHD-UHFFFAOYSA-N",
     "chebi:charge": "0",
-    "chebi:formula": "C6H14O",
-    "chebi:inchi": "InChI=1S/C6H14O/c1-5-7-6(2,3)4/h5H2,1-4H3",
-    "chebi:inchikey": "NUMQCACRALPSHD-UHFFFAOYSA-N",
-    "chebi:smiles": "CCOC(C)(C)C",
-    "geneontology:hasDbXref": [
-        "CAS:637-92-3",
-        "Chemspider:11996",
-        "PMID:20544807",
-        "PMID:21288640",
-        "PMID:22177017",
-        "PMID:23474617",
-        "PMID:25108826",
-        "PMID:25559863",
-        "PMID:25644031",
-        "PMID:26538808",
-        "PMID:28152311",
-        "PMID:28279869",
-        "PMID:29478141",
-        "Reaxys:1731469",
-        "Wikipedia:Ethyl_tert-butyl_ether"
-    ],
-    "geneontology:hasId": "141564",
-    "geneontology:hasSynonym": [
+    "skos:altLabel": [
         "2-ethoxy-2-methylpropane",
         "2-methyl-2-ethoxypropane",
         "ETBE",
@@ -40,19 +34,16 @@
         "t-BuOEt",
         "t-butyl ethyl ether"
     ],
-    "geneontology:inSubset": {
-        "@id": "obo:chebi#3_STAR"
+    "skos:exactMatch": {
+        "@id": "obo:CHEBI_141564"
     },
-    "rdfs:label": "tert-butyl ethyl ether",
-    "rdfs:subClassOf": [
+    "skos:note": "An ether having ethyl and tert-butyl as the two alkyl components. It is used as an engine fuel additive to reduce emissions of carbon monoxide and soot.",
+    "skos:semanticRelation": [
         {
             "@id": "obo:CHEBI_25698"
         },
         {
             "@id": "obo:CHEBI_134179"
-        },
-        {
-            "@id": "b861_genid-00f1db82e1ab437c844115a94dc63e635-bn141564t11f62803"
         }
     ]
 }

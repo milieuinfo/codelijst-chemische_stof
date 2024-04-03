@@ -1,25 +1,27 @@
 {
     "@context": {
-        "chebi": "http://purl.obolibrary.org/obo/chebi/",
         "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
         "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-        "obo": "http://purl.obolibrary.org/obo/"
+        "obo": "http://purl.obolibrary.org/obo/",
+        "uniprot": "http://purl.uniprot.org/",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "concept": "https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/",
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "dbo": "http://dbpedia.org/ontology/",
+        "dbp": "http://dbpedia.org/property/",
+        "graph": {
+            "@id": "@graph"
+        }
     },
-    "@id": "obo:CHEBI_32145",
-    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "@id": "concept:HEMHJVSKTPXQMS-UHFFFAOYSA-M",
+    "@type": "skos:Concept",
+    "dbo:formula": "HNaO",
+    "dbo:inchi": "InChI=1S/Na.H2O/h;1H2/q+1;/p-1",
+    "dbo:smiles": "[OH-].[Na+]",
+    "dbp:inchikey": "HEMHJVSKTPXQMS-UHFFFAOYSA-M",
     "chebi:charge": "0",
-    "chebi:formula": "HNaO",
-    "chebi:inchi": "InChI=1S/Na.H2O/h;1H2/q+1;/p-1",
-    "chebi:inchikey": "HEMHJVSKTPXQMS-UHFFFAOYSA-M",
-    "chebi:smiles": "[OH-].[Na+]",
-    "geneontology:hasDbXref": [
-        "CAS:1310-73-2",
-        "Gmelin:68430",
-        "KEGG:C12569",
-        "KEGG:D01169"
-    ],
-    "geneontology:hasId": "32145",
-    "geneontology:hasSynonym": [
+    "skos:altLabel": [
         "Aetznatron",
         "caustic soda",
         "hydroxyde de sodium",
@@ -30,11 +32,10 @@
         "Sodium hydroxide",
         "soude caustique"
     ],
-    "geneontology:inSubset": {
-        "@id": "obo:chebi#3_STAR"
+    "skos:exactMatch": {
+        "@id": "obo:CHEBI_32145"
     },
-    "rdfs:label": "sodium hydroxide",
-    "rdfs:subClassOf": {
+    "skos:semanticRelation": {
         "@id": "obo:CHEBI_33978"
     }
 }

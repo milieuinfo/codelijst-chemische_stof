@@ -1,53 +1,41 @@
 {
     "@context": {
-        "chebi": "http://purl.obolibrary.org/obo/chebi/",
         "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
         "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-        "obo": "http://purl.obolibrary.org/obo/"
+        "obo": "http://purl.obolibrary.org/obo/",
+        "uniprot": "http://purl.uniprot.org/",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "concept": "https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/",
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "dbo": "http://dbpedia.org/ontology/",
+        "dbp": "http://dbpedia.org/property/",
+        "altLabel": {
+            "@id": "http://www.w3.org/2004/02/skos/core#altLabel",
+            "@language": "en"
+        },
+        "graph": {
+            "@id": "@graph"
+        }
     },
-    "@id": "obo:CHEBI_8674",
-    "@type": "http://www.w3.org/2002/07/owl#Class",
-    "obo:IAO_0000115": "A member of the class of aminopyrimidines that is N-phenylpyrimidin-2-amine carrying two additional methyl substituents at positions 4 and 6.  A fungicide used to control grey mould on fruit, vegetables and ornamentals as well as leaf scab on pome fruit. Also commonly employed to control Botrytis cinerea throughout the winemaking process in grapes, must, fermenting must and wine.",
+    "@id": "concept:ZLIBICFPKPWGIZ-UHFFFAOYSA-N",
+    "@type": "skos:Concept",
+    "dbo:formula": "C12H13N3",
+    "dbo:inchi": "InChI=1S/C12H13N3/c1-9-8-10(2)14-12(13-9)15-11-6-4-3-5-7-11/h3-8H,1-2H3,(H,13,14,15)",
+    "dbo:smiles": "Cc1cc(C)nc(Nc2ccccc2)n1",
+    "dbp:inchikey": "ZLIBICFPKPWGIZ-UHFFFAOYSA-N",
     "chebi:charge": "0",
-    "chebi:formula": "C12H13N3",
-    "chebi:inchi": "InChI=1S/C12H13N3/c1-9-8-10(2)14-12(13-9)15-11-6-4-3-5-7-11/h3-8H,1-2H3,(H,13,14,15)",
-    "chebi:inchikey": "ZLIBICFPKPWGIZ-UHFFFAOYSA-N",
-    "chebi:smiles": "Cc1cc(C)nc(Nc2ccccc2)n1",
-    "geneontology:hasDbXref": [
-        "PMID:23436777",
-        "PMID:23410121",
-        "CAS:53112-28-0",
-        "HMDB:HMDB0033135",
-        "KEGG:C11180",
-        "Pesticides:pyrimethanil",
-        "PMID:22949075",
-        "PMID:23246620",
-        "PMID:23258318",
-        "PMID:23673061",
-        "PMID:23993516",
-        "PMID:24081744",
-        "PMID:24365971",
-        "PMID:24380616",
-        "PMID:24652239",
-        "PMID:24835131",
-        "PMID:25145229",
-        "PMID:25216469",
-        "PPDB:573",
-        "Reaxys:151589",
-        "Wikipedia:Pyrimethanil"
-    ],
-    "geneontology:hasId": "8674",
-    "geneontology:hasSynonym": [
+    "skos:altLabel": [
         "2-Anilino-4,6-dimethylpyrimidine",
         "4,6-Dimethyl-N-phenyl-2-pyrimidinamine",
         "4,6-dimethyl-N-phenylpyrimidin-2-amine",
         "N-(4,6-dimethylpyrimidin-2-yl)aniline"
     ],
-    "geneontology:inSubset": {
-        "@id": "obo:chebi#3_STAR"
+    "skos:exactMatch": {
+        "@id": "obo:CHEBI_8674"
     },
-    "rdfs:label": "pyrimethanil",
-    "rdfs:subClassOf": [
+    "skos:note": "A member of the class of aminopyrimidines that is N-phenylpyrimidin-2-amine carrying two additional methyl substituents at positions 4 and 6.  A fungicide used to control grey mould on fruit, vegetables and ornamentals as well as leaf scab on pome fruit. Also commonly employed to control Botrytis cinerea throughout the winemaking process in grapes, must, fermenting must and wine.",
+    "skos:semanticRelation": [
         {
             "@id": "obo:CHEBI_38338"
         },
@@ -56,18 +44,6 @@
         },
         {
             "@id": "obo:CHEBI_87208"
-        },
-        {
-            "@id": "b499_genid-00f1db82e1ab437c844115a94dc63e635-bn8674t11f35703"
-        },
-        {
-            "@id": "b499_genid-00f1db82e1ab437c844115a94dc63e635-bn8674t11f72768"
-        },
-        {
-            "@id": "b499_genid-00f1db82e1ab437c844115a94dc63e635-bn8674t11f78298"
-        },
-        {
-            "@id": "b499_genid-00f1db82e1ab437c844115a94dc63e635-bn8674t11f86328"
         }
     ]
 }

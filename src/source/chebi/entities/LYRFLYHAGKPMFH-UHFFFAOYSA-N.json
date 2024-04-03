@@ -1,43 +1,39 @@
 {
     "@context": {
-        "chebi": "http://purl.obolibrary.org/obo/chebi/",
         "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
         "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-        "obo": "http://purl.obolibrary.org/obo/"
+        "obo": "http://purl.obolibrary.org/obo/",
+        "uniprot": "http://purl.uniprot.org/",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "concept": "https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/",
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "dbo": "http://dbpedia.org/ontology/",
+        "dbp": "http://dbpedia.org/property/",
+        "altLabel": {
+            "@id": "http://www.w3.org/2004/02/skos/core#altLabel",
+            "@language": "en"
+        },
+        "graph": {
+            "@id": "@graph"
+        }
     },
-    "@id": "obo:CHEBI_34900",
-    "@type": "http://www.w3.org/2002/07/owl#Class",
-    "obo:IAO_0000115": "A fatty amide of stearic acid.",
+    "@id": "concept:LYRFLYHAGKPMFH-UHFFFAOYSA-N",
+    "@type": "skos:Concept",
+    "dbo:formula": "C18H37NO",
+    "dbo:inchi": "InChI=1S/C18H37NO/c1-2-3-4-5-6-7-8-9-10-11-12-13-14-15-16-17-18(19)20/h2-17H2,1H3,(H2,19,20)",
+    "dbo:smiles": "CCCCCCCCCCCCCCCCCC(N)=O",
+    "dbp:inchikey": "LYRFLYHAGKPMFH-UHFFFAOYSA-N",
     "chebi:charge": "0",
-    "chebi:formula": "C18H37NO",
-    "chebi:inchi": "InChI=1S/C18H37NO/c1-2-3-4-5-6-7-8-9-10-11-12-13-14-15-16-17-18(19)20/h2-17H2,1H3,(H2,19,20)",
-    "chebi:inchikey": "LYRFLYHAGKPMFH-UHFFFAOYSA-N",
-    "chebi:smiles": "CCCCCCCCCCCCCCCCCC(N)=O",
-    "http://purl.uniprot.org/core/name": "octadecanamide",
-    "geneontology:hasDbXref": [
-        "CAS:124-26-5",
-        "HMDB:HMDB0034146",
-        "LIPID_MAPS_instance:LMFA08010003",
-        "Reaxys:909006"
-    ],
-    "geneontology:hasId": "34900",
-    "geneontology:hasSynonym": [
+    "skos:altLabel": [
         "Stearamide",
         "Stearic acid amide"
     ],
-    "geneontology:inSubset": {
-        "@id": "obo:chebi#3_STAR"
+    "skos:exactMatch": {
+        "@id": "obo:CHEBI_34900"
     },
-    "rdfs:label": "octadecanamide",
-    "rdfs:subClassOf": [
-        {
-            "@id": "obo:CHEBI_143129"
-        },
-        {
-            "@id": "b633_genid-00f1db82e1ab437c844115a94dc63e635-bn34900t11f25212"
-        },
-        {
-            "@id": "b633_genid-00f1db82e1ab437c844115a94dc63e635-bn34900t8f28842"
-        }
-    ]
+    "skos:note": "A fatty amide of stearic acid.",
+    "skos:semanticRelation": {
+        "@id": "obo:CHEBI_143129"
+    }
 }

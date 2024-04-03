@@ -1,31 +1,27 @@
 {
     "@context": {
-        "chebi": "http://purl.obolibrary.org/obo/chebi/",
         "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
         "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-        "obo": "http://purl.obolibrary.org/obo/"
+        "obo": "http://purl.obolibrary.org/obo/",
+        "uniprot": "http://purl.uniprot.org/",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "concept": "https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/",
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "dbo": "http://dbpedia.org/ontology/",
+        "dbp": "http://dbpedia.org/property/",
+        "graph": {
+            "@id": "@graph"
+        }
     },
-    "@id": "obo:CHEBI_31348",
-    "@type": "http://www.w3.org/2002/07/owl#Class",
-    "obo:IAO_0000115": "A carbamate ester that is cytidine in which the hydrogen at position 5 is replaced by fluorine and in which the amino group attached to position 4 is converted into its N-(penyloxy)carbonyl derivative. Capecitabine is a antineoplastic agent used in the treatment of cancers.",
+    "@id": "concept:GAGWJHPBXLXJQN-UORFTKCHSA-N",
+    "@type": "skos:Concept",
+    "dbo:formula": "C15H22FN3O6",
+    "dbo:inchi": "InChI=1S/C15H22FN3O6/c1-3-4-5-6-24-15(23)18-12-9(16)7-19(14(22)17-12)13-11(21)10(20)8(2)25-13/h7-8,10-11,13,20-21H,3-6H2,1-2H3,(H,17,18,22,23)/t8-,10-,11-,13-/m1/s1",
+    "dbo:smiles": "CCCCCOC(=O)Nc1nc(=O)n(cc1F)[C@@H]1O[C@H](C)[C@@H](O)[C@H]1O",
+    "dbp:inchikey": "GAGWJHPBXLXJQN-UORFTKCHSA-N",
     "chebi:charge": "0",
-    "chebi:formula": "C15H22FN3O6",
-    "chebi:inchi": "InChI=1S/C15H22FN3O6/c1-3-4-5-6-24-15(23)18-12-9(16)7-19(14(22)17-12)13-11(21)10(20)8(2)25-13/h7-8,10-11,13,20-21H,3-6H2,1-2H3,(H,17,18,22,23)/t8-,10-,11-,13-/m1/s1",
-    "chebi:inchikey": "GAGWJHPBXLXJQN-UORFTKCHSA-N",
-    "chebi:smiles": "CCCCCOC(=O)Nc1nc(=O)n(cc1F)[C@@H]1O[C@H](C)[C@@H](O)[C@H]1O",
-    "geneontology:hasDbXref": [
-        "CAS:154361-50-9",
-        "Drug_Central:480",
-        "DrugBank:DB01101",
-        "HMDB:HMDB0015233",
-        "KEGG:C12650",
-        "KEGG:D01223",
-        "LINCS:LSM-5705",
-        "Reaxys:8583270",
-        "Wikipedia:Capecitabine"
-    ],
-    "geneontology:hasId": "31348",
-    "geneontology:hasSynonym": [
+    "skos:altLabel": [
         "capecitabine",
         "(1-(5-Deoxy-beta-D-ribofuranosyl)-5-fluoro-1,2-dihydro-2-oxo-4-pyrimidinyl)-carbamic acid pentyl ester",
         "5'-deoxy-5-fluoro-N-[(pentyloxy)carbonyl]cytidine",
@@ -36,11 +32,11 @@
         "pentyl 1-(5-deoxy-beta-D-ribofuranosyl)-5-fluoro-1,2-dihydro-2-oxo-4-pyrimidinecarbamate",
         "Xeloda"
     ],
-    "geneontology:inSubset": {
-        "@id": "obo:chebi#3_STAR"
+    "skos:exactMatch": {
+        "@id": "obo:CHEBI_31348"
     },
-    "rdfs:label": "capecitabine",
-    "rdfs:subClassOf": [
+    "skos:note": "A carbamate ester that is cytidine in which the hydrogen at position 5 is replaced by fluorine and in which the amino group attached to position 4 is converted into its N-(penyloxy)carbonyl derivative. Capecitabine is a antineoplastic agent used in the treatment of cancers.",
+    "skos:semanticRelation": [
         {
             "@id": "obo:CHEBI_23003"
         },
@@ -49,15 +45,6 @@
         },
         {
             "@id": "obo:CHEBI_23524"
-        },
-        {
-            "@id": "b688_genid-00f1db82e1ab437c844115a94dc63e635-bn31348t11f35221"
-        },
-        {
-            "@id": "b688_genid-00f1db82e1ab437c844115a94dc63e635-bn31348t11f35610"
-        },
-        {
-            "@id": "b688_genid-00f1db82e1ab437c844115a94dc63e635-bn31348t11f50266"
         }
     ]
 }

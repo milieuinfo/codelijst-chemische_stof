@@ -1,28 +1,27 @@
 {
     "@context": {
-        "chebi": "http://purl.obolibrary.org/obo/chebi/",
         "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
         "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-        "obo": "http://purl.obolibrary.org/obo/"
+        "obo": "http://purl.obolibrary.org/obo/",
+        "uniprot": "http://purl.uniprot.org/",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "concept": "https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/",
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "dbo": "http://dbpedia.org/ontology/",
+        "dbp": "http://dbpedia.org/property/",
+        "graph": {
+            "@id": "@graph"
+        }
     },
-    "@id": "obo:CHEBI_35812",
-    "@type": "http://www.w3.org/2002/07/owl#Class",
-    "obo:IAO_0000115": "A member of the class of benzimidazoles that is fenbendazole in which the sulfur has been oxidised to the corresponding sulfoxide.",
+    "@id": "concept:BEZZFPOZAYTVHN-UHFFFAOYSA-N",
+    "@type": "skos:Concept",
+    "dbo:formula": "C15H13N3O3S",
+    "dbo:inchi": "InChI=1S/C15H13N3O3S/c1-21-15(19)18-14-16-12-8-7-11(9-13(12)17-14)22(20)10-5-3-2-4-6-10/h2-9H,1H3,(H2,16,17,18,19)",
+    "dbo:smiles": "COC(=O)Nc1nc2cc(ccc2[nH]1)S(=O)c1ccccc1",
+    "dbp:inchikey": "BEZZFPOZAYTVHN-UHFFFAOYSA-N",
     "chebi:charge": "0",
-    "chebi:formula": "C15H13N3O3S",
-    "chebi:inchi": "InChI=1S/C15H13N3O3S/c1-21-15(19)18-14-16-12-8-7-11(9-13(12)17-14)22(20)10-5-3-2-4-6-10/h2-9H,1H3,(H2,16,17,18,19)",
-    "chebi:inchikey": "BEZZFPOZAYTVHN-UHFFFAOYSA-N",
-    "chebi:smiles": "COC(=O)Nc1nc2cc(ccc2[nH]1)S(=O)c1ccccc1",
-    "http://purl.uniprot.org/core/name": "fenbendazole S-oxide",
-    "geneontology:hasDbXref": [
-        "Beilstein:761290",
-        "CAS:53716-50-0",
-        "LINCS:LSM-1466",
-        "VSDB:1757",
-        "Wikipedia:Oxfendazole"
-    ],
-    "geneontology:hasId": "35812",
-    "geneontology:hasSynonym": [
+    "skos:altLabel": [
         "fenbendazole S-oxide",
         "(5-(phenylsulfinyl)-1H-benzimidazol-2-yl)carbamic acid methyl ester",
         "5-(phenylsulfinyl)-2-benzimidazolecarbamic acid methyl ester",
@@ -31,11 +30,11 @@
         "methyl [5-(phenylsulfinyl)-1H-benzimidazol-2-yl]carbamate",
         "OFDZ"
     ],
-    "geneontology:inSubset": {
-        "@id": "obo:chebi#3_STAR"
+    "skos:exactMatch": {
+        "@id": "obo:CHEBI_35812"
     },
-    "rdfs:label": "oxfendazole",
-    "rdfs:subClassOf": [
+    "skos:note": "A member of the class of benzimidazoles that is fenbendazole in which the sulfur has been oxidised to the corresponding sulfoxide.",
+    "skos:semanticRelation": [
         {
             "@id": "obo:CHEBI_23003"
         },
@@ -44,12 +43,6 @@
         },
         {
             "@id": "obo:CHEBI_22715"
-        },
-        {
-            "@id": "b157_genid-00f1db82e1ab437c844115a94dc63e635-bn35812t11f35444"
-        },
-        {
-            "@id": "b157_genid-00f1db82e1ab437c844115a94dc63e635-bn35812t8f77092"
         }
     ]
 }

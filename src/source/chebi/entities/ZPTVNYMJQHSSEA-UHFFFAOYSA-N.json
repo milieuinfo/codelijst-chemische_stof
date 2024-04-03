@@ -1,31 +1,31 @@
 {
     "@context": {
-        "chebi": "http://purl.obolibrary.org/obo/chebi/",
         "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
         "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-        "obo": "http://purl.obolibrary.org/obo/"
+        "obo": "http://purl.obolibrary.org/obo/",
+        "uniprot": "http://purl.uniprot.org/",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "concept": "https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/",
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "dbo": "http://dbpedia.org/ontology/",
+        "dbp": "http://dbpedia.org/property/",
+        "altLabel": {
+            "@id": "http://www.w3.org/2004/02/skos/core#altLabel",
+            "@language": "en"
+        },
+        "graph": {
+            "@id": "@graph"
+        }
     },
-    "@id": "obo:CHEBI_35227",
-    "@type": "http://www.w3.org/2002/07/owl#Class",
-    "obo:IAO_0000115": "A mononitrotoluene that consists of toluene bearing a nitro substituent at the 4-position.",
+    "@id": "concept:ZPTVNYMJQHSSEA-UHFFFAOYSA-N",
+    "@type": "skos:Concept",
+    "dbo:formula": "C7H7NO2",
+    "dbo:inchi": "InChI=1S/C7H7NO2/c1-6-2-4-7(5-3-6)8(9)10/h2-5H,1H3",
+    "dbo:smiles": "Cc1ccc(cc1)[N+]([O-])=O",
+    "dbp:inchikey": "ZPTVNYMJQHSSEA-UHFFFAOYSA-N",
     "chebi:charge": "0",
-    "chebi:formula": "C7H7NO2",
-    "chebi:inchi": "InChI=1S/C7H7NO2/c1-6-2-4-7(5-3-6)8(9)10/h2-5H,1H3",
-    "chebi:inchikey": "ZPTVNYMJQHSSEA-UHFFFAOYSA-N",
-    "chebi:smiles": "Cc1ccc(cc1)[N+]([O-])=O",
-    "http://purl.uniprot.org/core/name": "4-nitrotoluene",
-    "geneontology:hasDbXref": [
-        "Beilstein:1906911",
-        "CAS:99-99-0",
-        "Gmelin:26926",
-        "KEGG:C14394",
-        "PMID:21895789",
-        "PMID:23389716",
-        "PMID:9139924",
-        "Reaxys:1906911"
-    ],
-    "geneontology:hasId": "35227",
-    "geneontology:hasSynonym": [
+    "skos:altLabel": [
         "1-methyl-4-nitrobenzene",
         "1-Methyl-4-nitrobenzene",
         "4-methylnitrobenzene",
@@ -36,11 +36,11 @@
         "p-nitrotoluene",
         "PNT"
     ],
-    "geneontology:inSubset": {
-        "@id": "obo:chebi#3_STAR"
+    "skos:exactMatch": {
+        "@id": "obo:CHEBI_35227"
     },
-    "rdfs:label": "4-nitrotoluene",
-    "rdfs:subClassOf": {
+    "skos:note": "A mononitrotoluene that consists of toluene bearing a nitro substituent at the 4-position.",
+    "skos:semanticRelation": {
         "@id": "obo:CHEBI_63171"
     }
 }

@@ -1,34 +1,38 @@
 {
     "@context": {
-        "chebi": "http://purl.obolibrary.org/obo/chebi/",
         "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
         "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-        "obo": "http://purl.obolibrary.org/obo/"
+        "obo": "http://purl.obolibrary.org/obo/",
+        "uniprot": "http://purl.uniprot.org/",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "concept": "https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/",
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "dbo": "http://dbpedia.org/ontology/",
+        "dbp": "http://dbpedia.org/property/",
+        "altLabel": {
+            "@id": "http://www.w3.org/2004/02/skos/core#altLabel",
+            "@language": "en"
+        },
+        "graph": {
+            "@id": "@graph"
+        }
     },
-    "@id": "obo:CHEBI_183815",
-    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "@id": "concept:VHKXXVVRRDYCIK-CWCPJSEDSA-N",
+    "@type": "skos:Concept",
+    "dbo:formula": "C43H72O11",
+    "dbo:inchi": "InChI=1S/C43H72O11/c1-12-30(35(46)27(8)34(45)28(9)36-23(4)21-24(5)37(51-36)31(13-2)39(47)48)38-25(6)22-26(7)42(52-38)18-15-32(44)43(54-42)20-19-40(11,53-43)33-16-17-41(49,14-3)29(10)50-33/h15,18,23-34,36-38,44-45,49H,12-14,16-17,19-22H2,1-11H3,(H,47,48)/t23-,24-,25-,26+,27-,28-,29-,30-,31+,32+,33+,34+,36+,37+,38-,40-,41+,42-,43-/m0/s1",
+    "dbo:smiles": "O1[C@@](CC[C@@]12O[C@@]3(O[C@@]([C@H](C[C@H]3C)C)([C@H](C(=O)[C@H]([C@@H](O)[C@@H]([C@@]4(O[C@]([C@H](C[C@@H]4C)C)([C@@H](CC)C(O)=O)[H])[H])C)C)CC)[H])C=C[C@H]2O)([C@@]5(O[C@H]([C@](O)(CC5)CC)C)[H])C",
+    "dbp:inchikey": "VHKXXVVRRDYCIK-CWCPJSEDSA-N",
     "chebi:charge": "0",
-    "chebi:formula": "C43H72O11",
-    "chebi:inchi": "InChI=1S/C43H72O11/c1-12-30(35(46)27(8)34(45)28(9)36-23(4)21-24(5)37(51-36)31(13-2)39(47)48)38-25(6)22-26(7)42(52-38)18-15-32(44)43(54-42)20-19-40(11,53-43)33-16-17-41(49,14-3)29(10)50-33/h15,18,23-34,36-38,44-45,49H,12-14,16-17,19-22H2,1-11H3,(H,47,48)/t23-,24-,25-,26+,27-,28-,29-,30-,31+,32+,33+,34+,36+,37+,38-,40-,41+,42-,43-/m0/s1",
-    "chebi:inchikey": "VHKXXVVRRDYCIK-CWCPJSEDSA-N",
-    "chebi:smiles": "O1[C@@](CC[C@@]12O[C@@]3(O[C@@]([C@H](C[C@H]3C)C)([C@H](C(=O)[C@H]([C@@H](O)[C@@H]([C@@]4(O[C@]([C@H](C[C@@H]4C)C)([C@@H](CC)C(O)=O)[H])[H])C)C)CC)[H])C=C[C@H]2O)([C@@]5(O[C@H]([C@](O)(CC5)CC)C)[H])C",
-    "geneontology:hasDbXref": [
-        "CAS:55134-13-9",
-        "Chemspider:31046971",
-        "Chemspider:58911",
-        "DrugBank:DB11432",
-        "KEGG:D05122"
-    ],
-    "geneontology:hasId": "183815",
-    "geneontology:hasSynonym": [
+    "skos:altLabel": [
         "(2R)-2-[(2R,3S,5S,6R)-6-[(2S,3S,4S,6R)-6-[(3S,5S,7R,9S,10S,12R,15R)-3-[(2R,5R,6S)-5-ethyl-5-hydroxy-6-methyloxan-2-yl]-15-hydroxy-3,10,12-trimethyl-4,6,8-trioxadispiro[4.1.57.35]pentadec-13-en-9-yl]-3-hydroxy-4-methyl-5-oxooctan-2-yl]-3,5-dimethyloxan-2-yl]butanoic acid",
         "2-[(2R,3S,5S,6R)-6-[(2S,3S,4S,6R)-6-[(3S,5S,7R,10S,12R,15R)-3-[(2R,5R,6S)-5-ethyl-5-hydroxy-6-methyloxan-2-yl]-15-hydroxy-3,10,12-trimethyl-4,6,8-trioxadispiro[4.1.57.35]pentadec-13-en-9-yl]-3-hydroxy-4-methyl-5-oxooctan-2-yl]-3,5-dimethyloxan-2-yl]butanoic acid"
     ],
-    "geneontology:inSubset": {
-        "@id": "obo:chebi#2_STAR"
+    "skos:exactMatch": {
+        "@id": "obo:CHEBI_183815"
     },
-    "rdfs:label": "Narasin",
-    "rdfs:subClassOf": {
+    "skos:semanticRelation": {
         "@id": "obo:CHEBI_71939"
     }
 }

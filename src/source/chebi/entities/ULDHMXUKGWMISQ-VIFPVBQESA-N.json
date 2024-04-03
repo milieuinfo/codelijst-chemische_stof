@@ -1,32 +1,31 @@
 {
     "@context": {
-        "chebi": "http://purl.obolibrary.org/obo/chebi/",
         "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
         "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-        "obo": "http://purl.obolibrary.org/obo/"
+        "obo": "http://purl.obolibrary.org/obo/",
+        "uniprot": "http://purl.uniprot.org/",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "concept": "https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/",
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "dbo": "http://dbpedia.org/ontology/",
+        "dbp": "http://dbpedia.org/property/",
+        "altLabel": {
+            "@id": "http://www.w3.org/2004/02/skos/core#altLabel",
+            "@language": "en"
+        },
+        "graph": {
+            "@id": "@graph"
+        }
     },
-    "@id": "obo:CHEBI_15399",
-    "@type": "http://www.w3.org/2002/07/owl#Class",
-    "obo:IAO_0000115": "A carvone having (S) configuration.",
+    "@id": "concept:ULDHMXUKGWMISQ-VIFPVBQESA-N",
+    "@type": "skos:Concept",
+    "dbo:formula": "C10H14O",
+    "dbo:inchi": "InChI=1S/C10H14O/c1-7(2)9-5-4-8(3)10(11)6-9/h4,9H,1,5-6H2,2-3H3/t9-/m0/s1",
+    "dbo:smiles": "CC(=C)[C@H]1CC=C(C)C(=O)C1",
+    "dbp:inchikey": "ULDHMXUKGWMISQ-VIFPVBQESA-N",
     "chebi:charge": "0",
-    "chebi:formula": "C10H14O",
-    "chebi:inchi": "InChI=1S/C10H14O/c1-7(2)9-5-4-8(3)10(11)6-9/h4,9H,1,5-6H2,2-3H3/t9-/m0/s1",
-    "chebi:inchikey": "ULDHMXUKGWMISQ-VIFPVBQESA-N",
-    "chebi:smiles": "CC(=C)[C@H]1CC=C(C)C(=O)C1",
-    "http://purl.uniprot.org/core/name": "(S)-carvone",
-    "geneontology:hasDbXref": [
-        "PMID:11380545",
-        "Beilstein:2042970",
-        "Beilstein:3588498",
-        "Beilstein:6767373",
-        "CAS:2244-16-8",
-        "Gmelin:637294",
-        "KEGG:C11383",
-        "KNApSAcK:C00010891",
-        "Reaxys:2042970"
-    ],
-    "geneontology:hasId": "15399",
-    "geneontology:hasSynonym": [
+    "skos:altLabel": [
         "(S)-carvone",
         "(+)-(4S)-carvone",
         "(+)-(S)-Carvone",
@@ -44,16 +43,11 @@
         "d-(+)-carvone",
         "d-carvone"
     ],
-    "geneontology:inSubset": {
-        "@id": "obo:chebi#3_STAR"
+    "skos:exactMatch": {
+        "@id": "obo:CHEBI_15399"
     },
-    "rdfs:label": "(+)-carvone",
-    "rdfs:subClassOf": [
-        {
-            "@id": "b804_genid-00f1db82e1ab437c844115a94dc63e635-bn15399t6f15400"
-        },
-        {
-            "@id": "obo:CHEBI_38265"
-        }
-    ]
+    "skos:note": "A carvone having (S) configuration.",
+    "skos:semanticRelation": {
+        "@id": "obo:CHEBI_38265"
+    }
 }

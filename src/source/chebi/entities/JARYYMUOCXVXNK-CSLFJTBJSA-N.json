@@ -1,47 +1,31 @@
 {
     "@context": {
-        "chebi": "http://purl.obolibrary.org/obo/chebi/",
         "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
         "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-        "obo": "http://purl.obolibrary.org/obo/"
+        "obo": "http://purl.obolibrary.org/obo/",
+        "uniprot": "http://purl.uniprot.org/",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "concept": "https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/",
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "dbo": "http://dbpedia.org/ontology/",
+        "dbp": "http://dbpedia.org/property/",
+        "altLabel": {
+            "@id": "http://www.w3.org/2004/02/skos/core#altLabel",
+            "@language": "en"
+        },
+        "graph": {
+            "@id": "@graph"
+        }
     },
-    "@id": "obo:CHEBI_29703",
-    "@type": "http://www.w3.org/2002/07/owl#Class",
-    "obo:IAO_0000115": "A member of the class of validamycins that is (1R,2S,3S,4S,6R)-4-amino-6-(hydroxymethyl)cyclohexane-1,2,3-triol in which the hydroxy group at position 1 has been converted to its beta-D-glucoside and in which one of the hydrogens attached to the nitrogen is replaced by a (1R,4R,5R,6S)-4,5,6-trihydroxy-3-(hydroxymethyl)cyclohex-2-en-1-yl group. It is the major validamycin produced by Streptomyces hygroscopicus.",
+    "@id": "concept:JARYYMUOCXVXNK-CSLFJTBJSA-N",
+    "@type": "skos:Concept",
+    "dbo:formula": "C20H35NO13",
+    "dbo:inchi": "InChI=1S/C20H35NO13/c22-3-6-1-8(12(26)15(29)11(6)25)21-9-2-7(4-23)19(17(31)13(9)27)34-20-18(32)16(30)14(28)10(5-24)33-20/h1,7-32H,2-5H2/t7-,8+,9+,10-,11-,12+,13+,14-,15+,16+,17-,18-,19-,20+/m1/s1",
+    "dbo:smiles": "OC[C@H]1C[C@H](N[C@H]2C=C(CO)[C@@H](O)[C@H](O)[C@H]2O)[C@H](O)[C@@H](O)[C@@H]1O[C@@H]1O[C@H](CO)[C@@H](O)[C@H](O)[C@H]1O",
+    "dbp:inchikey": "JARYYMUOCXVXNK-CSLFJTBJSA-N",
     "chebi:charge": "0",
-    "chebi:formula": "C20H35NO13",
-    "chebi:inchi": "InChI=1S/C20H35NO13/c22-3-6-1-8(12(26)15(29)11(6)25)21-9-2-7(4-23)19(17(31)13(9)27)34-20-18(32)16(30)14(28)10(5-24)33-20/h1,7-32H,2-5H2/t7-,8+,9+,10-,11-,12+,13+,14-,15+,16+,17-,18-,19-,20+/m1/s1",
-    "chebi:inchikey": "JARYYMUOCXVXNK-CSLFJTBJSA-N",
-    "chebi:smiles": "OC[C@H]1C[C@H](N[C@H]2C=C(CO)[C@@H](O)[C@H](O)[C@H]2O)[C@H](O)[C@@H](O)[C@@H]1O[C@@H]1O[C@H](CO)[C@@H](O)[C@H](O)[C@H]1O",
-    "geneontology:hasDbXref": [
-        "BPDB:677",
-        "CAS:37248-47-8",
-        "HMDB:HMDB0036592",
-        "KEGG:C12112",
-        "KNApSAcK:C00018797",
-        "MetaCyc:VALIDAMYCIN-A",
-        "Pesticides:validamycin",
-        "PMID:18943474",
-        "PMID:20952185",
-        "PMID:22036231",
-        "PMID:22481376",
-        "PMID:22521597",
-        "PMID:23295203",
-        "PMID:23340099",
-        "PMID:25060680",
-        "PMID:25102722",
-        "PMID:25236210",
-        "PMID:3269390",
-        "PMID:3570986",
-        "PMID:5549382",
-        "PMID:6548220",
-        "PMID:9242988",
-        "PMID:9813313",
-        "Reaxys:5319831",
-        "Wikipedia:Validamycin"
-    ],
-    "geneontology:hasId": "29703",
-    "geneontology:hasSynonym": [
+    "skos:altLabel": [
         "(+)-validamycin A",
         "(1R,2R,3S,4S,6R)-2,3-dihydroxy-6-(hydroxymethyl)-4-{[(1S,4R,5S,6S)-4,5,6-trihydroxy-3-(hydroxymethyl)cyclohex-2-en-1-yl]amino}cyclohexyl beta-D-glucopyranoside",
         "(1S-(1alpha,4alpha,5beta,6alpha))-1,5,6-trideoxy-4-O-beta-D-glucopyranosyl-5-(hydroxymethyl)-1-((4,5,6-trihydroxy-3-(hydroxymethyl)-2-cyclohexen-1-yl)amino)-D-chiro-inositol",
@@ -54,11 +38,11 @@
         "Validamycin",
         "Valimon"
     ],
-    "geneontology:inSubset": {
-        "@id": "obo:chebi#3_STAR"
+    "skos:exactMatch": {
+        "@id": "obo:CHEBI_29703"
     },
-    "rdfs:label": "validamycin A",
-    "rdfs:subClassOf": [
+    "skos:note": "A member of the class of validamycins that is (1R,2S,3S,4S,6R)-4-amino-6-(hydroxymethyl)cyclohexane-1,2,3-triol in which the hydroxy group at position 1 has been converted to its beta-D-glucoside and in which one of the hydrogens attached to the nitrogen is replaced by a (1R,4R,5R,6S)-4,5,6-trihydroxy-3-(hydroxymethyl)cyclohex-2-en-1-yl group. It is the major validamycin produced by Streptomyces hygroscopicus.",
+    "skos:semanticRelation": [
         {
             "@id": "obo:CHEBI_26191"
         },
@@ -69,25 +53,7 @@
             "@id": "obo:CHEBI_87114"
         },
         {
-            "@id": "b207_genid-00f1db82e1ab437c844115a94dc63e635-bn29703tmms73f90869"
-        },
-        {
             "@id": "obo:CHEBI_83745"
-        },
-        {
-            "@id": "b207_genid-00f1db82e1ab437c844115a94dc63e635-bn29703t11f83757"
-        },
-        {
-            "@id": "b207_genid-00f1db82e1ab437c844115a94dc63e635-bn29703t11f83760"
-        },
-        {
-            "@id": "b207_genid-00f1db82e1ab437c844115a94dc63e635-bn29703t11f83762"
-        },
-        {
-            "@id": "b207_genid-00f1db82e1ab437c844115a94dc63e635-bn29703t11f86328"
-        },
-        {
-            "@id": "b207_genid-00f1db82e1ab437c844115a94dc63e635-bn29703t5f90869"
         }
     ]
 }

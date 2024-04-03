@@ -1,29 +1,31 @@
 {
     "@context": {
-        "chebi": "http://purl.obolibrary.org/obo/chebi/",
         "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
         "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-        "obo": "http://purl.obolibrary.org/obo/"
+        "obo": "http://purl.obolibrary.org/obo/",
+        "uniprot": "http://purl.uniprot.org/",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "concept": "https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/",
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "dbo": "http://dbpedia.org/ontology/",
+        "dbp": "http://dbpedia.org/property/",
+        "graph": {
+            "@id": "@graph"
+        }
     },
-    "@id": "obo:CHEBI_178624",
-    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "@id": "concept:GISVICWQYMUPJF-UHFFFAOYSA-N",
+    "@type": "skos:Concept",
+    "dbo:formula": "C9H10O",
+    "dbo:inchi": "InChI=1S/C9H10O/c1-7-3-4-9(6-10)8(2)5-7/h3-6H,1-2H3",
+    "dbo:smiles": "O=CC1=C(C=C(C=C1)C)C",
+    "dbp:inchikey": "GISVICWQYMUPJF-UHFFFAOYSA-N",
     "chebi:charge": "0",
-    "chebi:formula": "C9H10O",
-    "chebi:inchi": "InChI=1S/C9H10O/c1-7-3-4-9(6-10)8(2)5-7/h3-6H,1-2H3",
-    "chebi:inchikey": "GISVICWQYMUPJF-UHFFFAOYSA-N",
-    "chebi:smiles": "O=CC1=C(C=C(C=C1)C)C",
-    "geneontology:hasDbXref": [
-        "CAS:15764-16-6",
-        "Chemspider:21105885",
-        "HMDB:HMDB0032142"
-    ],
-    "geneontology:hasId": "178624",
-    "geneontology:hasSynonym": "2,4-dimethylbenzaldehyde",
-    "geneontology:inSubset": {
-        "@id": "obo:chebi#2_STAR"
+    "skos:altLabel": "2,4-dimethylbenzaldehyde",
+    "skos:exactMatch": {
+        "@id": "obo:CHEBI_178624"
     },
-    "rdfs:label": "2,4-Dimethylbenzaldehyde",
-    "rdfs:subClassOf": {
+    "skos:semanticRelation": {
         "@id": "obo:CHEBI_36586"
     }
 }

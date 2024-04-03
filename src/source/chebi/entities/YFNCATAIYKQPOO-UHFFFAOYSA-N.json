@@ -1,27 +1,31 @@
 {
     "@context": {
-        "chebi": "http://purl.obolibrary.org/obo/chebi/",
         "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
         "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-        "obo": "http://purl.obolibrary.org/obo/"
+        "obo": "http://purl.obolibrary.org/obo/",
+        "uniprot": "http://purl.uniprot.org/",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "concept": "https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/",
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "dbo": "http://dbpedia.org/ontology/",
+        "dbp": "http://dbpedia.org/property/",
+        "altLabel": {
+            "@id": "http://www.w3.org/2004/02/skos/core#altLabel",
+            "@language": "en"
+        },
+        "graph": {
+            "@id": "@graph"
+        }
     },
-    "@id": "obo:CHEBI_82060",
-    "@type": "http://www.w3.org/2002/07/owl#Class",
-    "obo:IAO_0000115": "A member of the class of thioureas that is the diethyl ester of (1,2-phenylenedicarbamothioyl)biscarbamic acid. A fungicide effective against a broad spectrum of diseases in fruit, vegetables, turf and other crops including eyespot, scab, powdery mildew and grey mould.",
+    "@id": "concept:YFNCATAIYKQPOO-UHFFFAOYSA-N",
+    "@type": "skos:Concept",
+    "dbo:formula": "C14H18N4O4S2",
+    "dbo:inchi": "InChI=1S/C14H18N4O4S2/c1-3-21-13(19)17-11(23)15-9-7-5-6-8-10(9)16-12(24)18-14(20)22-4-2/h5-8H,3-4H2,1-2H3,(H2,15,17,19,23)(H2,16,18,20,24)",
+    "dbo:smiles": "CCOC(=O)NC(=S)Nc1ccccc1NC(=S)NC(=O)OCC",
+    "dbp:inchikey": "YFNCATAIYKQPOO-UHFFFAOYSA-N",
     "chebi:charge": "0",
-    "chebi:formula": "C14H18N4O4S2",
-    "chebi:inchi": "InChI=1S/C14H18N4O4S2/c1-3-21-13(19)17-11(23)15-9-7-5-6-8-10(9)16-12(24)18-14(20)22-4-2/h5-8H,3-4H2,1-2H3,(H2,15,17,19,23)(H2,16,18,20,24)",
-    "chebi:inchikey": "YFNCATAIYKQPOO-UHFFFAOYSA-N",
-    "chebi:smiles": "CCOC(=O)NC(=S)Nc1ccccc1NC(=S)NC(=O)OCC",
-    "geneontology:hasDbXref": [
-        "CAS:23564-06-9",
-        "KEGG:C18918",
-        "Pesticides:thiophanate",
-        "PPDB:2935",
-        "Reaxys:939969"
-    ],
-    "geneontology:hasId": "82060",
-    "geneontology:hasSynonym": [
+    "skos:altLabel": [
         "1,2-Bis(3-(ethoxycarbonyl)-2-thioureido)benzene",
         "1,2-Bis(3-ethoxycarbonyl-2-thioureido) benzene",
         "1,2-Di-(3-ethoxycarbonyl-2-thioureido)benzene",
@@ -33,11 +37,11 @@
         "Ethyl thiophanate",
         "Thiophanat"
     ],
-    "geneontology:inSubset": {
-        "@id": "obo:chebi#3_STAR"
+    "skos:exactMatch": {
+        "@id": "obo:CHEBI_82060"
     },
-    "rdfs:label": "thiophanate",
-    "rdfs:subClassOf": [
+    "skos:note": "A member of the class of thioureas that is the diethyl ester of (1,2-phenylenedicarbamothioyl)biscarbamic acid. A fungicide effective against a broad spectrum of diseases in fruit, vegetables, turf and other crops including eyespot, scab, powdery mildew and grey mould.",
+    "skos:semanticRelation": [
         {
             "@id": "obo:CHEBI_23003"
         },
@@ -49,12 +53,6 @@
         },
         {
             "@id": "obo:CHEBI_87037"
-        },
-        {
-            "@id": "b320_genid-00f1db82e1ab437c844115a94dc63e635-bn82060t8f34043"
-        },
-        {
-            "@id": "b320_genid-00f1db82e1ab437c844115a94dc63e635-bn82060t11f86327"
         }
     ]
 }

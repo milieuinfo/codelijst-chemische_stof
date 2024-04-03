@@ -1,316 +1,80 @@
 {
     "@context": {
-        "chebi": "http://purl.obolibrary.org/obo/chebi/",
         "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
         "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-        "obo": "http://purl.obolibrary.org/obo/"
+        "obo": "http://purl.obolibrary.org/obo/",
+        "uniprot": "http://purl.uniprot.org/",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "concept": "https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/",
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "dbo": "http://dbpedia.org/ontology/",
+        "dbp": "http://dbpedia.org/property/",
+        "altLabel": {
+            "@id": "http://www.w3.org/2004/02/skos/core#altLabel",
+            "@language": "en"
+        },
+        "graph": {
+            "@id": "@graph"
+        }
     },
-    "@graph": [
+    "@id": "concept:MYMOFIZGZYHOMD-UHFFFAOYSA-N",
+    "@type": "skos:Concept",
+    "dbo:formula": "O2",
+    "dbo:inchi": "InChI=1S/O2/c1-2",
+    "dbo:smiles": [
+        "O=O",
+        "[O][O]"
+    ],
+    "dbp:inchikey": "MYMOFIZGZYHOMD-UHFFFAOYSA-N",
+    "chebi:charge": "0",
+    "skos:altLabel": [
+        "O2",
+        "[OO]",
+        "dioxygene",
+        "Disauerstoff",
+        "E948",
+        "E 948",
+        "E-948",
+        "molecular oxygen",
+        "Oxygen",
+        "OXYGEN MOLECULE",
+        "(1)O2",
+        "singlet molecular oxygen",
+        "(O2)(..)",
+        "(O2)(2.)",
+        "dioxidanediyl",
+        "dioxygen(2.) (triplet)",
+        "O2(2.)",
+        "triplet molecular oxygen"
+    ],
+    "skos:exactMatch": [
         {
-            "@id": "obo:CHEBI_15379",
-            "@type": "http://www.w3.org/2002/07/owl#Class",
-            "chebi:charge": "0",
-            "chebi:formula": "O2",
-            "chebi:inchi": "InChI=1S/O2/c1-2",
-            "chebi:inchikey": "MYMOFIZGZYHOMD-UHFFFAOYSA-N",
-            "chebi:smiles": "O=O",
-            "http://purl.uniprot.org/core/name": "O2",
-            "geneontology:hasDbXref": [
-                "CAS:7782-44-7",
-                "Gmelin:485",
-                "HMDB:HMDB0001377",
-                "KEGG:C00007",
-                "KEGG:D00003",
-                "MetaCyc:OXYGEN-MOLECULE",
-                "MolBase:750",
-                "PDBeChem:OXY",
-                "PMID:10906528",
-                "PMID:16977326",
-                "PMID:18210929",
-                "PMID:18638417",
-                "PMID:19840863",
-                "PMID:7710549",
-                "PMID:9463773",
-                "Wikipedia:Oxygen"
-            ],
-            "geneontology:hasId": "15379",
-            "geneontology:hasSynonym": [
-                "O2",
-                "[OO]",
-                "dioxygene",
-                "Disauerstoff",
-                "E948",
-                "E 948",
-                "E-948",
-                "molecular oxygen",
-                "Oxygen",
-                "OXYGEN MOLECULE"
-            ],
-            "geneontology:inSubset": {
-                "@id": "obo:chebi#3_STAR"
-            },
-            "rdfs:label": "dioxygen",
-            "rdfs:subClassOf": [
-                {
-                    "@id": "obo:CHEBI_25362"
-                },
-                {
-                    "@id": "b742_genid-00f1db82e1ab437c844115a94dc63e635-bn15379t11f27027"
-                },
-                {
-                    "@id": "b742_genid-00f1db82e1ab437c844115a94dc63e635-bn15379t5f29793"
-                },
-                {
-                    "@id": "obo:CHEBI_33263"
-                },
-                {
-                    "@id": "b742_genid-00f1db82e1ab437c844115a94dc63e635-bn15379t11f33284"
-                },
-                {
-                    "@id": "b742_genid-00f1db82e1ab437c844115a94dc63e635-bn15379t11f33893"
-                },
-                {
-                    "@id": "b742_genid-00f1db82e1ab437c844115a94dc63e635-bn15379t11f35472"
-                },
-                {
-                    "@id": "b742_genid-00f1db82e1ab437c844115a94dc63e635-bn15379t11f63248"
-                },
-                {
-                    "@id": "b742_genid-00f1db82e1ab437c844115a94dc63e635-bn15379t11f75772"
-                },
-                {
-                    "@id": "b742_genid-00f1db82e1ab437c844115a94dc63e635-bn15379t11f77746"
-                },
-                {
-                    "@id": "b742_genid-00f1db82e1ab437c844115a94dc63e635-bn15379t11f77974"
-                },
-                {
-                    "@id": "obo:CHEBI_138675"
-                }
-            ]
+            "@id": "obo:CHEBI_15379"
         },
         {
-            "@id": "obo:CHEBI_26689",
-            "@type": "http://www.w3.org/2002/07/owl#Class",
-            "obo:IAO_0000115": "A reactive oxygen species that is the lowest excited state of the dioxygen molecule.",
-            "chebi:charge": "0",
-            "chebi:formula": "O2",
-            "chebi:inchi": "InChI=1S/O2/c1-2",
-            "chebi:inchikey": "MYMOFIZGZYHOMD-UHFFFAOYSA-N",
-            "chebi:smiles": "O=O",
-            "geneontology:hasDbXref": [
-                "Drug_Central:4235",
-                "Gmelin:491",
-                "PMID:18264592",
-                "PMID:21735018",
-                "PMID:21883246",
-                "Reaxys:16514885",
-                "Reaxys:3587218",
-                "Wikipedia:Singlet_oxygen"
-            ],
-            "geneontology:hasId": "26689",
-            "geneontology:hasSynonym": [
-                "(1)O2",
-                "singlet molecular oxygen"
-            ],
-            "geneontology:inSubset": {
-                "@id": "obo:chebi#3_STAR"
-            },
-            "rdfs:label": "singlet dioxygen",
-            "rdfs:subClassOf": [
-                {
-                    "@id": "obo:CHEBI_15379",
-                    "@type": "http://www.w3.org/2002/07/owl#Class",
-                    "chebi:charge": "0",
-                    "chebi:formula": "O2",
-                    "chebi:inchi": "InChI=1S/O2/c1-2",
-                    "chebi:inchikey": "MYMOFIZGZYHOMD-UHFFFAOYSA-N",
-                    "chebi:smiles": "O=O",
-                    "http://purl.uniprot.org/core/name": "O2",
-                    "geneontology:hasDbXref": [
-                        "CAS:7782-44-7",
-                        "Gmelin:485",
-                        "HMDB:HMDB0001377",
-                        "KEGG:C00007",
-                        "KEGG:D00003",
-                        "MetaCyc:OXYGEN-MOLECULE",
-                        "MolBase:750",
-                        "PDBeChem:OXY",
-                        "PMID:10906528",
-                        "PMID:16977326",
-                        "PMID:18210929",
-                        "PMID:18638417",
-                        "PMID:19840863",
-                        "PMID:7710549",
-                        "PMID:9463773",
-                        "Wikipedia:Oxygen"
-                    ],
-                    "geneontology:hasId": "15379",
-                    "geneontology:hasSynonym": [
-                        "O2",
-                        "[OO]",
-                        "dioxygene",
-                        "Disauerstoff",
-                        "E948",
-                        "E 948",
-                        "E-948",
-                        "molecular oxygen",
-                        "Oxygen",
-                        "OXYGEN MOLECULE"
-                    ],
-                    "geneontology:inSubset": {
-                        "@id": "obo:chebi#3_STAR"
-                    },
-                    "rdfs:label": "dioxygen",
-                    "rdfs:subClassOf": [
-                        {
-                            "@id": "obo:CHEBI_25362"
-                        },
-                        {
-                            "@id": "b742_genid-00f1db82e1ab437c844115a94dc63e635-bn15379t11f27027"
-                        },
-                        {
-                            "@id": "b742_genid-00f1db82e1ab437c844115a94dc63e635-bn15379t5f29793"
-                        },
-                        {
-                            "@id": "obo:CHEBI_33263"
-                        },
-                        {
-                            "@id": "b742_genid-00f1db82e1ab437c844115a94dc63e635-bn15379t11f33284"
-                        },
-                        {
-                            "@id": "b742_genid-00f1db82e1ab437c844115a94dc63e635-bn15379t11f33893"
-                        },
-                        {
-                            "@id": "b742_genid-00f1db82e1ab437c844115a94dc63e635-bn15379t11f35472"
-                        },
-                        {
-                            "@id": "b742_genid-00f1db82e1ab437c844115a94dc63e635-bn15379t11f63248"
-                        },
-                        {
-                            "@id": "b742_genid-00f1db82e1ab437c844115a94dc63e635-bn15379t11f75772"
-                        },
-                        {
-                            "@id": "b742_genid-00f1db82e1ab437c844115a94dc63e635-bn15379t11f77746"
-                        },
-                        {
-                            "@id": "b742_genid-00f1db82e1ab437c844115a94dc63e635-bn15379t11f77974"
-                        },
-                        {
-                            "@id": "obo:CHEBI_138675"
-                        }
-                    ]
-                },
-                {
-                    "@id": "obo:CHEBI_26523"
-                }
-            ]
+            "@id": "obo:CHEBI_26689"
         },
         {
-            "@id": "obo:CHEBI_27140",
-            "@type": "http://www.w3.org/2002/07/owl#Class",
-            "chebi:charge": "0",
-            "chebi:formula": "O2",
-            "chebi:inchi": "InChI=1S/O2/c1-2",
-            "chebi:inchikey": "MYMOFIZGZYHOMD-UHFFFAOYSA-N",
-            "chebi:smiles": "[O][O]",
-            "geneontology:hasDbXref": "Gmelin:492",
-            "geneontology:hasId": "27140",
-            "geneontology:hasSynonym": [
-                "(O2)(..)",
-                "(O2)(2.)",
-                "dioxidanediyl",
-                "dioxygen(2.) (triplet)",
-                "O2(2.)",
-                "triplet molecular oxygen"
-            ],
-            "geneontology:inSubset": {
-                "@id": "obo:chebi#3_STAR"
-            },
-            "rdfs:label": "triplet dioxygen",
-            "rdfs:subClassOf": {
-                "@id": "obo:CHEBI_15379",
-                "@type": "http://www.w3.org/2002/07/owl#Class",
-                "chebi:charge": "0",
-                "chebi:formula": "O2",
-                "chebi:inchi": "InChI=1S/O2/c1-2",
-                "chebi:inchikey": "MYMOFIZGZYHOMD-UHFFFAOYSA-N",
-                "chebi:smiles": "O=O",
-                "http://purl.uniprot.org/core/name": "O2",
-                "geneontology:hasDbXref": [
-                    "CAS:7782-44-7",
-                    "Gmelin:485",
-                    "HMDB:HMDB0001377",
-                    "KEGG:C00007",
-                    "KEGG:D00003",
-                    "MetaCyc:OXYGEN-MOLECULE",
-                    "MolBase:750",
-                    "PDBeChem:OXY",
-                    "PMID:10906528",
-                    "PMID:16977326",
-                    "PMID:18210929",
-                    "PMID:18638417",
-                    "PMID:19840863",
-                    "PMID:7710549",
-                    "PMID:9463773",
-                    "Wikipedia:Oxygen"
-                ],
-                "geneontology:hasId": "15379",
-                "geneontology:hasSynonym": [
-                    "O2",
-                    "[OO]",
-                    "dioxygene",
-                    "Disauerstoff",
-                    "E948",
-                    "E 948",
-                    "E-948",
-                    "molecular oxygen",
-                    "Oxygen",
-                    "OXYGEN MOLECULE"
-                ],
-                "geneontology:inSubset": {
-                    "@id": "obo:chebi#3_STAR"
-                },
-                "rdfs:label": "dioxygen",
-                "rdfs:subClassOf": [
-                    {
-                        "@id": "obo:CHEBI_25362"
-                    },
-                    {
-                        "@id": "b742_genid-00f1db82e1ab437c844115a94dc63e635-bn15379t11f27027"
-                    },
-                    {
-                        "@id": "b742_genid-00f1db82e1ab437c844115a94dc63e635-bn15379t5f29793"
-                    },
-                    {
-                        "@id": "obo:CHEBI_33263"
-                    },
-                    {
-                        "@id": "b742_genid-00f1db82e1ab437c844115a94dc63e635-bn15379t11f33284"
-                    },
-                    {
-                        "@id": "b742_genid-00f1db82e1ab437c844115a94dc63e635-bn15379t11f33893"
-                    },
-                    {
-                        "@id": "b742_genid-00f1db82e1ab437c844115a94dc63e635-bn15379t11f35472"
-                    },
-                    {
-                        "@id": "b742_genid-00f1db82e1ab437c844115a94dc63e635-bn15379t11f63248"
-                    },
-                    {
-                        "@id": "b742_genid-00f1db82e1ab437c844115a94dc63e635-bn15379t11f75772"
-                    },
-                    {
-                        "@id": "b742_genid-00f1db82e1ab437c844115a94dc63e635-bn15379t11f77746"
-                    },
-                    {
-                        "@id": "b742_genid-00f1db82e1ab437c844115a94dc63e635-bn15379t11f77974"
-                    },
-                    {
-                        "@id": "obo:CHEBI_138675"
-                    }
-                ]
-            }
+            "@id": "obo:CHEBI_27140"
+        }
+    ],
+    "skos:note": "A reactive oxygen species that is the lowest excited state of the dioxygen molecule.",
+    "skos:semanticRelation": [
+        {
+            "@id": "obo:CHEBI_15379"
+        },
+        {
+            "@id": "obo:CHEBI_25362"
+        },
+        {
+            "@id": "obo:CHEBI_33263"
+        },
+        {
+            "@id": "obo:CHEBI_138675"
+        },
+        {
+            "@id": "obo:CHEBI_26523"
         }
     ]
 }

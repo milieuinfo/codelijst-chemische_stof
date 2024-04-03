@@ -1,27 +1,31 @@
 {
     "@context": {
-        "chebi": "http://purl.obolibrary.org/obo/chebi/",
         "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
         "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-        "obo": "http://purl.obolibrary.org/obo/"
+        "obo": "http://purl.obolibrary.org/obo/",
+        "uniprot": "http://purl.uniprot.org/",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "concept": "https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/",
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "dbo": "http://dbpedia.org/ontology/",
+        "dbp": "http://dbpedia.org/property/",
+        "altLabel": {
+            "@id": "http://www.w3.org/2004/02/skos/core#altLabel",
+            "@language": "en"
+        },
+        "graph": {
+            "@id": "@graph"
+        }
     },
-    "@id": "obo:CHEBI_44557",
-    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "@id": "concept:MGFYIUFZLHCRTH-UHFFFAOYSA-N",
+    "@type": "skos:Concept",
+    "dbo:formula": "C6H9NO6",
+    "dbo:inchi": "InChI=1S/C6H9NO6/c8-4(9)1-7(2-5(10)11)3-6(12)13/h1-3H2,(H,8,9)(H,10,11)(H,12,13)",
+    "dbo:smiles": "OC(=O)CN(CC(O)=O)CC(O)=O",
+    "dbp:inchikey": "MGFYIUFZLHCRTH-UHFFFAOYSA-N",
     "chebi:charge": "0",
-    "chebi:formula": "C6H9NO6",
-    "chebi:inchi": "InChI=1S/C6H9NO6/c8-4(9)1-7(2-5(10)11)3-6(12)13/h1-3H2,(H,8,9)(H,10,11)(H,12,13)",
-    "chebi:inchikey": "MGFYIUFZLHCRTH-UHFFFAOYSA-N",
-    "chebi:smiles": "OC(=O)CN(CC(O)=O)CC(O)=O",
-    "geneontology:hasDbXref": [
-        "Beilstein:1710776",
-        "CAS:139-13-9",
-        "DrugBank:DB03040",
-        "Gmelin:3726",
-        "KEGG:C14695",
-        "PDBeChem:NTA"
-    ],
-    "geneontology:hasId": "44557",
-    "geneontology:hasSynonym": [
+    "skos:altLabel": [
         "NTA",
         "alpha,alpha',alpha''-trimethylaminetricarboxylic acid",
         "Complexon I",
@@ -39,28 +43,15 @@
         "Triglycollamic acid",
         "Trilon A"
     ],
-    "geneontology:inSubset": {
-        "@id": "obo:chebi#3_STAR"
+    "skos:exactMatch": {
+        "@id": "obo:CHEBI_44557"
     },
-    "rdfs:label": "nitrilotriacetic acid",
-    "rdfs:subClassOf": [
+    "skos:semanticRelation": [
         {
             "@id": "obo:CHEBI_27093"
         },
         {
             "@id": "obo:CHEBI_39054"
-        },
-        {
-            "@id": "b658_genid-00f1db82e1ab437c844115a94dc63e635-bn44557tmms73f39057"
-        },
-        {
-            "@id": "b658_genid-00f1db82e1ab437c844115a94dc63e635-bn44557t4f39053"
-        },
-        {
-            "@id": "b658_genid-00f1db82e1ab437c844115a94dc63e635-bn44557t11f50903"
-        },
-        {
-            "@id": "b658_genid-00f1db82e1ab437c844115a94dc63e635-bn44557t11f50909"
         }
     ]
 }

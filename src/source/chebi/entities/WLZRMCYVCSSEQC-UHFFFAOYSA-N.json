@@ -1,26 +1,31 @@
 {
     "@context": {
-        "chebi": "http://purl.obolibrary.org/obo/chebi/",
         "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
         "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-        "obo": "http://purl.obolibrary.org/obo/"
+        "obo": "http://purl.obolibrary.org/obo/",
+        "uniprot": "http://purl.uniprot.org/",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "concept": "https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/",
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "dbo": "http://dbpedia.org/ontology/",
+        "dbp": "http://dbpedia.org/property/",
+        "altLabel": {
+            "@id": "http://www.w3.org/2004/02/skos/core#altLabel",
+            "@language": "en"
+        },
+        "graph": {
+            "@id": "@graph"
+        }
     },
-    "@id": "obo:CHEBI_48775",
-    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "@id": "concept:WLZRMCYVCSSEQC-UHFFFAOYSA-N",
+    "@type": "skos:Concept",
+    "dbo:formula": "Cd",
+    "dbo:inchi": "InChI=1S/Cd/q+2",
+    "dbo:smiles": "[Cd++]",
+    "dbp:inchikey": "WLZRMCYVCSSEQC-UHFFFAOYSA-N",
     "chebi:charge": "+2",
-    "chebi:formula": "Cd",
-    "chebi:inchi": "InChI=1S/Cd/q+2",
-    "chebi:inchikey": "WLZRMCYVCSSEQC-UHFFFAOYSA-N",
-    "chebi:smiles": "[Cd++]",
-    "http://purl.uniprot.org/core/name": "Cd(2+)",
-    "geneontology:hasDbXref": [
-        "KEGG:C01413",
-        "CAS:22537-48-0",
-        "Gmelin:6851",
-        "PDBeChem:CD"
-    ],
-    "geneontology:hasId": "48775",
-    "geneontology:hasSynonym": [
+    "skos:altLabel": [
         "Cd(2+)",
         "cadmium, ion (Cd2+)",
         "cadmium(2+) ion",
@@ -28,19 +33,15 @@
         "CADMIUM ION",
         "Cd2+"
     ],
-    "geneontology:inSubset": {
-        "@id": "obo:chebi#3_STAR"
+    "skos:exactMatch": {
+        "@id": "obo:CHEBI_48775"
     },
-    "rdfs:label": "cadmium(2+)",
-    "rdfs:subClassOf": [
+    "skos:semanticRelation": [
         {
             "@id": "obo:CHEBI_30412"
         },
         {
             "@id": "obo:CHEBI_60240"
-        },
-        {
-            "@id": "b53_genid-00f1db82e1ab437c844115a94dc63e635-bn48775t11f23357"
         },
         {
             "@id": "obo:CHEBI_63063"

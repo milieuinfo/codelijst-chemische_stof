@@ -1,32 +1,31 @@
 {
     "@context": {
-        "chebi": "http://purl.obolibrary.org/obo/chebi/",
         "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
         "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-        "obo": "http://purl.obolibrary.org/obo/"
+        "obo": "http://purl.obolibrary.org/obo/",
+        "uniprot": "http://purl.uniprot.org/",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "concept": "https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/",
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "dbo": "http://dbpedia.org/ontology/",
+        "dbp": "http://dbpedia.org/property/",
+        "altLabel": {
+            "@id": "http://www.w3.org/2004/02/skos/core#altLabel",
+            "@language": "en"
+        },
+        "graph": {
+            "@id": "@graph"
+        }
     },
-    "@id": "obo:CHEBI_137392",
-    "@type": "http://www.w3.org/2002/07/owl#Class",
-    "obo:IAO_0000115": "An organic chloride salt comprising equal numbers of chlormequat and chloride ions. A gibberellin biosynthesis inhibitor, it is used as a plant growth retardant to produce plants with sturdier, thicker stalks, facilitating the havesting of ornamental flowers and cereal crops.",
+    "@id": "concept:UHZZMRAGKVHANO-UHFFFAOYSA-M",
+    "@type": "skos:Concept",
+    "dbo:formula": "C5H13Cl2N",
+    "dbo:inchi": "InChI=1S/C5H13ClN.ClH/c1-7(2,3)5-4-6;/h4-5H2,1-3H3;1H/q+1;/p-1",
+    "dbo:smiles": "[Cl-].[N+](CCCl)(C)(C)C",
+    "dbp:inchikey": "UHZZMRAGKVHANO-UHFFFAOYSA-M",
     "chebi:charge": "0",
-    "chebi:formula": "C5H13Cl2N",
-    "chebi:inchi": "InChI=1S/C5H13ClN.ClH/c1-7(2,3)5-4-6;/h4-5H2,1-3H3;1H/q+1;/p-1",
-    "chebi:inchikey": "UHZZMRAGKVHANO-UHFFFAOYSA-M",
-    "chebi:smiles": "[Cl-].[N+](CCCl)(C)(C)C",
-    "geneontology:hasDbXref": [
-        "AGR:IND43634315",
-        "AGR:IND44259564",
-        "CAS:999-81-5",
-        "Pesticides:derivatives/chlormequat%20chloride",
-        "PMID:26318380",
-        "PMID:27165806",
-        "PMID:27653211",
-        "PMID:28214531",
-        "PPDB:143",
-        "Reaxys:3563994"
-    ],
-    "geneontology:hasId": "137392",
-    "geneontology:hasSynonym": [
+    "skos:altLabel": [
         "(2-chloroethyl)trimethylammonium chloride",
         "(beta-chloroethyl)trimethylammonium chloride",
         "2-chloroethyltrimethylammonium chloride",
@@ -35,25 +34,16 @@
         "2-chloro-N,N,N-trimethylethanaminium chloride",
         "2-chloro-N,N,N-trimethylethanaminium chloride (1:1)"
     ],
-    "geneontology:inSubset": {
-        "@id": "obo:chebi#3_STAR"
+    "skos:exactMatch": {
+        "@id": "obo:CHEBI_137392"
     },
-    "rdfs:label": "chlormequat chloride",
-    "rdfs:subClassOf": [
+    "skos:note": "An organic chloride salt comprising equal numbers of chlormequat and chloride ions. A gibberellin biosynthesis inhibitor, it is used as a plant growth retardant to produce plants with sturdier, thicker stalks, facilitating the havesting of ornamental flowers and cereal crops.",
+    "skos:semanticRelation": [
         {
             "@id": "obo:CHEBI_36094"
         },
         {
             "@id": "obo:CHEBI_35273"
-        },
-        {
-            "@id": "b789_genid-00f1db82e1ab437c844115a94dc63e635-bn137392t11f33286"
-        },
-        {
-            "@id": "b789_genid-00f1db82e1ab437c844115a94dc63e635-bn137392t11f35219"
-        },
-        {
-            "@id": "b789_genid-00f1db82e1ab437c844115a94dc63e635-bn137392t10f81850"
         }
     ]
 }

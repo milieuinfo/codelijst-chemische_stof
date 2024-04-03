@@ -1,61 +1,27 @@
 {
     "@context": {
-        "chebi": "http://purl.obolibrary.org/obo/chebi/",
         "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
         "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-        "obo": "http://purl.obolibrary.org/obo/"
+        "obo": "http://purl.obolibrary.org/obo/",
+        "uniprot": "http://purl.uniprot.org/",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "concept": "https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/",
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "dbo": "http://dbpedia.org/ontology/",
+        "dbp": "http://dbpedia.org/property/",
+        "graph": {
+            "@id": "@graph"
+        }
     },
-    "@id": "obo:CHEBI_102265",
-    "@type": "http://www.w3.org/2002/07/owl#Class",
-    "obo:IAO_0000115": "A sulfonamide consisting of pyrimidine with methyl substituents at the 4- and 6-positions and a 4-aminobenzenesulfonamido group at the 2-position.",
+    "@id": "concept:ASWVTGNCAZCNNR-UHFFFAOYSA-N",
+    "@type": "skos:Concept",
+    "dbo:formula": "C12H14N4O2S",
+    "dbo:inchi": "InChI=1S/C12H14N4O2S/c1-8-7-9(2)15-12(14-8)16-19(17,18)11-5-3-10(13)4-6-11/h3-7H,13H2,1-2H3,(H,14,15,16)",
+    "dbo:smiles": "Cc1cc(C)nc(NS(=O)(=O)c2ccc(N)cc2)n1",
+    "dbp:inchikey": "ASWVTGNCAZCNNR-UHFFFAOYSA-N",
     "chebi:charge": "0",
-    "chebi:formula": "C12H14N4O2S",
-    "chebi:inchi": "InChI=1S/C12H14N4O2S/c1-8-7-9(2)15-12(14-8)16-19(17,18)11-5-3-10(13)4-6-11/h3-7H,13H2,1-2H3,(H,14,15,16)",
-    "chebi:inchikey": "ASWVTGNCAZCNNR-UHFFFAOYSA-N",
-    "chebi:smiles": "Cc1cc(C)nc(NS(=O)(=O)c2ccc(N)cc2)n1",
-    "geneontology:hasDbXref": [
-        "PMID:11431418",
-        "PMID:6864729",
-        "PMID:17311370",
-        "Patent:US2407966",
-        "PMID:23704574",
-        "PMID:9886437",
-        "Beilstein:261304",
-        "CAS:57-68-1",
-        "Drug_Central:2502",
-        "DrugBank:DB01582",
-        "Gmelin:1009759",
-        "HMDB:HMDB0015522",
-        "KEGG:C19530",
-        "KEGG:D02436",
-        "LINCS:LSM-5295",
-        "Patent:EP1861101",
-        "Patent:GB546158",
-        "Patent:GB552887",
-        "Patent:US3119818",
-        "Patent:WO2005016386",
-        "PMID:14552772",
-        "PMID:15603963",
-        "PMID:17596632",
-        "PMID:20028131",
-        "PMID:22903812",
-        "PMID:23218311",
-        "PMID:23384282",
-        "PMID:23434485",
-        "PMID:23454458",
-        "PMID:23562141",
-        "PMID:23636590",
-        "PMID:23673752",
-        "PMID:23673946",
-        "PMID:7021831",
-        "PMID:7328159",
-        "PMID:8199304",
-        "Reaxys:261304",
-        "VSDB:1829",
-        "Wikipedia:Sulfadimidine"
-    ],
-    "geneontology:hasId": "102265",
-    "geneontology:hasSynonym": [
+    "skos:altLabel": [
         "(p-Aminobenzolsulfonyl)-2-amino-4,6-dimethylpyrimidin",
         "2-(4-Aminobenzenesulfonamido)-4,6-dimethylpyrimidine",
         "2-(p-Aminobenzenesulfonamido)-4,6-dimethylpyrimidine",
@@ -81,11 +47,11 @@
         "Sulphadimethylpyrimidine",
         "Sulphamethazine"
     ],
-    "geneontology:inSubset": {
-        "@id": "obo:chebi#3_STAR"
+    "skos:exactMatch": {
+        "@id": "obo:CHEBI_102265"
     },
-    "rdfs:label": "sulfamethazine",
-    "rdfs:subClassOf": [
+    "skos:note": "A sulfonamide consisting of pyrimidine with methyl substituents at the 4- and 6-positions and a 4-aminobenzenesulfonamido group at the 2-position.",
+    "skos:semanticRelation": [
         {
             "@id": "obo:CHEBI_39447"
         },
@@ -94,36 +60,6 @@
         },
         {
             "@id": "obo:CHEBI_87228"
-        },
-        {
-            "@id": "b89_genid-00f1db82e1ab437c844115a94dc63e635-bn102265t11f33281"
-        },
-        {
-            "@id": "b89_genid-00f1db82e1ab437c844115a94dc63e635-bn102265t11f35441"
-        },
-        {
-            "@id": "b89_genid-00f1db82e1ab437c844115a94dc63e635-bn102265t11f35703"
-        },
-        {
-            "@id": "b89_genid-00f1db82e1ab437c844115a94dc63e635-bn102265t11f36047"
-        },
-        {
-            "@id": "b89_genid-00f1db82e1ab437c844115a94dc63e635-bn102265t8f45373"
-        },
-        {
-            "@id": "b89_genid-00f1db82e1ab437c844115a94dc63e635-bn102265t11f50502"
-        },
-        {
-            "@id": "b89_genid-00f1db82e1ab437c844115a94dc63e635-bn102265t11f50903"
-        },
-        {
-            "@id": "b89_genid-00f1db82e1ab437c844115a94dc63e635-bn102265t11f52214"
-        },
-        {
-            "@id": "b89_genid-00f1db82e1ab437c844115a94dc63e635-bn102265t11f78298"
-        },
-        {
-            "@id": "b89_genid-00f1db82e1ab437c844115a94dc63e635-bn102265t11f88188"
         }
     ]
 }

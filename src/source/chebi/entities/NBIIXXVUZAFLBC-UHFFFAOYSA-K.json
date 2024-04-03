@@ -1,28 +1,31 @@
 {
     "@context": {
-        "chebi": "http://purl.obolibrary.org/obo/chebi/",
         "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
         "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-        "obo": "http://purl.obolibrary.org/obo/"
+        "obo": "http://purl.obolibrary.org/obo/",
+        "uniprot": "http://purl.uniprot.org/",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "concept": "https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/",
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "dbo": "http://dbpedia.org/ontology/",
+        "dbp": "http://dbpedia.org/property/",
+        "altLabel": {
+            "@id": "http://www.w3.org/2004/02/skos/core#altLabel",
+            "@language": "en"
+        },
+        "graph": {
+            "@id": "@graph"
+        }
     },
-    "@id": "obo:CHEBI_18367",
-    "@type": "http://www.w3.org/2002/07/owl#Class",
-    "obo:IAO_0000115": "A phosphate ion that is the conjugate base of hydrogenphosphate.",
+    "@id": "concept:NBIIXXVUZAFLBC-UHFFFAOYSA-K",
+    "@type": "skos:Concept",
+    "dbo:formula": "O4P",
+    "dbo:inchi": "InChI=1S/H3O4P/c1-5(2,3)4/h(H3,1,2,3,4)/p-3",
+    "dbo:smiles": "[O-]P([O-])([O-])=O",
+    "dbp:inchikey": "NBIIXXVUZAFLBC-UHFFFAOYSA-K",
     "chebi:charge": "-3",
-    "chebi:formula": "O4P",
-    "chebi:inchi": "InChI=1S/H3O4P/c1-5(2,3)4/h(H3,1,2,3,4)/p-3",
-    "chebi:inchikey": "NBIIXXVUZAFLBC-UHFFFAOYSA-K",
-    "chebi:smiles": "[O-]P([O-])([O-])=O",
-    "geneontology:hasDbXref": [
-        "KEGG:C00009",
-        "Beilstein:3903772",
-        "CAS:14265-44-2",
-        "Gmelin:1997",
-        "PDBeChem:PO4",
-        "Reaxys:3903772"
-    ],
-    "geneontology:hasId": "18367",
-    "geneontology:hasSynonym": [
+    "skos:altLabel": [
         "phosphate",
         "Phosphate",
         "[PO4](3-)",
@@ -33,22 +36,16 @@
         "tetraoxophosphate(3-)",
         "tetraoxophosphate(V)"
     ],
-    "geneontology:inSubset": {
-        "@id": "obo:chebi#3_STAR"
+    "skos:exactMatch": {
+        "@id": "obo:CHEBI_18367"
     },
-    "rdfs:label": "phosphate(3-)",
-    "rdfs:subClassOf": [
+    "skos:note": "A phosphate ion that is the conjugate base of hydrogenphosphate.",
+    "skos:semanticRelation": [
         {
             "@id": "obo:CHEBI_79387"
         },
         {
-            "@id": "b756_genid-00f1db82e1ab437c844115a94dc63e635-bn18367tmms73f43474"
-        },
-        {
             "@id": "obo:CHEBI_35780"
-        },
-        {
-            "@id": "b756_genid-00f1db82e1ab437c844115a94dc63e635-bn18367t5f43474"
         }
     ]
 }

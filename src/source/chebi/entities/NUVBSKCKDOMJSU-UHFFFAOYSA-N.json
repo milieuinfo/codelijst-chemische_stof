@@ -1,33 +1,31 @@
 {
     "@context": {
-        "chebi": "http://purl.obolibrary.org/obo/chebi/",
         "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
         "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-        "obo": "http://purl.obolibrary.org/obo/"
+        "obo": "http://purl.obolibrary.org/obo/",
+        "uniprot": "http://purl.uniprot.org/",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "concept": "https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/",
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "dbo": "http://dbpedia.org/ontology/",
+        "dbp": "http://dbpedia.org/property/",
+        "altLabel": {
+            "@id": "http://www.w3.org/2004/02/skos/core#altLabel",
+            "@language": "en"
+        },
+        "graph": {
+            "@id": "@graph"
+        }
     },
-    "@id": "obo:CHEBI_31575",
-    "@type": "http://www.w3.org/2002/07/owl#Class",
-    "obo:IAO_0000115": "An ethyl ester resulting from the formal condensation of the carboxy group of 4-hydroxybenzoic acid with ethanol,",
+    "@id": "concept:NUVBSKCKDOMJSU-UHFFFAOYSA-N",
+    "@type": "skos:Concept",
+    "dbo:formula": "C9H10O3",
+    "dbo:inchi": "InChI=1S/C9H10O3/c1-2-12-9(11)7-3-5-8(10)6-4-7/h3-6,10H,2H2,1H3",
+    "dbo:smiles": "C(=O)(C1=CC=C(C=C1)O)OCC",
+    "dbp:inchikey": "NUVBSKCKDOMJSU-UHFFFAOYSA-N",
     "chebi:charge": "0",
-    "chebi:formula": "C9H10O3",
-    "chebi:inchi": "InChI=1S/C9H10O3/c1-2-12-9(11)7-3-5-8(10)6-4-7/h3-6,10H,2H2,1H3",
-    "chebi:inchikey": "NUVBSKCKDOMJSU-UHFFFAOYSA-N",
-    "chebi:smiles": "C(=O)(C1=CC=C(C=C1)O)OCC",
-    "geneontology:hasDbXref": [
-        "CAS:120-47-8",
-        "Drug_Central:4773",
-        "HMDB:HMDB0032573",
-        "KEGG:D01647",
-        "KNApSAcK:C00033837",
-        "PDBeChem:E4B",
-        "PMID:26901724",
-        "PMID:27106519",
-        "PMID:27377865",
-        "Reaxys:1101972",
-        "Wikipedia:Ethylparaben"
-    ],
-    "geneontology:hasId": "31575",
-    "geneontology:hasSynonym": [
+    "skos:altLabel": [
         "4-hydroxybenzoic acid ethyl ester",
         "E214",
         "E-214",
@@ -38,25 +36,13 @@
         "p-hydroxybenzoic acid ethyl ester",
         "p-Oxybenzoesaeureaethylester"
     ],
-    "geneontology:inSubset": {
-        "@id": "obo:chebi#3_STAR"
+    "skos:exactMatch": {
+        "@id": "obo:CHEBI_31575"
     },
-    "rdfs:label": "ethylparaben",
-    "rdfs:subClassOf": [
+    "skos:note": "An ethyl ester resulting from the formal condensation of the carboxy group of 4-hydroxybenzoic acid with ethanol,",
+    "skos:semanticRelation": [
         {
             "@id": "obo:CHEBI_23990"
-        },
-        {
-            "@id": "b865_genid-00f1db82e1ab437c844115a94dc63e635-bn31575t11f35718"
-        },
-        {
-            "@id": "b865_genid-00f1db82e1ab437c844115a94dc63e635-bn31575t11f65256"
-        },
-        {
-            "@id": "b865_genid-00f1db82e1ab437c844115a94dc63e635-bn31575t11f76924"
-        },
-        {
-            "@id": "b865_genid-00f1db82e1ab437c844115a94dc63e635-bn31575t11f76989"
         },
         {
             "@id": "obo:CHEBI_85122"

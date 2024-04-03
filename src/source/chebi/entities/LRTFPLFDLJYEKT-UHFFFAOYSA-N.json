@@ -1,28 +1,31 @@
 {
     "@context": {
-        "chebi": "http://purl.obolibrary.org/obo/chebi/",
         "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
         "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-        "obo": "http://purl.obolibrary.org/obo/"
+        "obo": "http://purl.obolibrary.org/obo/",
+        "uniprot": "http://purl.uniprot.org/",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "concept": "https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/",
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "dbo": "http://dbpedia.org/ontology/",
+        "dbp": "http://dbpedia.org/property/",
+        "altLabel": {
+            "@id": "http://www.w3.org/2004/02/skos/core#altLabel",
+            "@language": "en"
+        },
+        "graph": {
+            "@id": "@graph"
+        }
     },
-    "@id": "obo:CHEBI_43405",
-    "@type": "http://www.w3.org/2002/07/owl#Class",
-    "obo:IAO_0000115": "A substituted aniline carrying an isopropyl group at position 4. It is a metabolite of isoproturon.",
+    "@id": "concept:LRTFPLFDLJYEKT-UHFFFAOYSA-N",
+    "@type": "skos:Concept",
+    "dbo:formula": "C9H13N",
+    "dbo:inchi": "InChI=1S/C9H13N/c1-7(2)8-3-5-9(10)6-4-8/h3-7H,10H2,1-2H3",
+    "dbo:smiles": "CC(C)c1ccc(N)cc1",
+    "dbp:inchikey": "LRTFPLFDLJYEKT-UHFFFAOYSA-N",
     "chebi:charge": "0",
-    "chebi:formula": "C9H13N",
-    "chebi:inchi": "InChI=1S/C9H13N/c1-7(2)8-3-5-9(10)6-4-8/h3-7H,10H2,1-2H3",
-    "chebi:inchikey": "LRTFPLFDLJYEKT-UHFFFAOYSA-N",
-    "chebi:smiles": "CC(C)c1ccc(N)cc1",
-    "geneontology:hasDbXref": [
-        "CAS:99-88-7",
-        "PDBeChem:ISO",
-        "PMID:11838430",
-        "PMID:19836052",
-        "PMID:21110068",
-        "Reaxys:1930544"
-    ],
-    "geneontology:hasId": "43405",
-    "geneontology:hasSynonym": [
+    "skos:altLabel": [
         "4-(1-methylethyl)aniline",
         "4-(propan-2-yl)aniline",
         "4-Amino-1-isopropylbenzene",
@@ -30,19 +33,11 @@
         "Cumidine",
         "p-Cumidine"
     ],
-    "geneontology:inSubset": {
-        "@id": "obo:chebi#3_STAR"
+    "skos:exactMatch": {
+        "@id": "obo:CHEBI_43405"
     },
-    "rdfs:label": "para-isopropylaniline",
-    "rdfs:subClassOf": [
-        {
-            "@id": "obo:CHEBI_48975"
-        },
-        {
-            "@id": "b593_genid-00f1db82e1ab437c844115a94dc63e635-bn43405t11f76976"
-        },
-        {
-            "@id": "b593_genid-00f1db82e1ab437c844115a94dc63e635-bn43405t11f83399"
-        }
-    ]
+    "skos:note": "A substituted aniline carrying an isopropyl group at position 4. It is a metabolite of isoproturon.",
+    "skos:semanticRelation": {
+        "@id": "obo:CHEBI_48975"
+    }
 }

@@ -1,62 +1,31 @@
 {
     "@context": {
-        "chebi": "http://purl.obolibrary.org/obo/chebi/",
         "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
         "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-        "obo": "http://purl.obolibrary.org/obo/"
+        "obo": "http://purl.obolibrary.org/obo/",
+        "uniprot": "http://purl.uniprot.org/",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "concept": "https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/",
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "dbo": "http://dbpedia.org/ontology/",
+        "dbp": "http://dbpedia.org/property/",
+        "altLabel": {
+            "@id": "http://www.w3.org/2004/02/skos/core#altLabel",
+            "@language": "en"
+        },
+        "graph": {
+            "@id": "@graph"
+        }
     },
-    "@id": "obo:CHEBI_88764",
-    "@type": "http://www.w3.org/2002/07/owl#Class",
-    "obo:IAO_0000115": "A butyrate ester resulting from the formal condensation of the hydroxy group of ethanol with the carboxy group of butyric acid.",
+    "@id": "concept:OBNCKNCVKJNDBV-UHFFFAOYSA-N",
+    "@type": "skos:Concept",
+    "dbo:formula": "C6H12O2",
+    "dbo:inchi": "InChI=1S/C6H12O2/c1-3-5-6(7)8-4-2/h3-5H2,1-2H3",
+    "dbo:smiles": "CCCC(=O)OCC",
+    "dbp:inchikey": "OBNCKNCVKJNDBV-UHFFFAOYSA-N",
     "chebi:charge": "0",
-    "chebi:formula": "C6H12O2",
-    "chebi:inchi": "InChI=1S/C6H12O2/c1-3-5-6(7)8-4-2/h3-5H2,1-2H3",
-    "chebi:inchikey": "OBNCKNCVKJNDBV-UHFFFAOYSA-N",
-    "chebi:smiles": "CCCC(=O)OCC",
-    "http://purl.uniprot.org/core/name": "ethyl butanoate",
-    "geneontology:hasDbXref": [
-        "PMID:19167006",
-        "PMID:28036078",
-        "AGR:IND20363758",
-        "AGR:IND21978680",
-        "AGR:IND44476186",
-        "AGR:IND500604094",
-        "AGR:IND601124441",
-        "CAS:105-54-4",
-        "HMDB:HMDB0033889",
-        "KNApSAcK:C00050446",
-        "Patent:US6153246",
-        "PMID:15432357",
-        "PMID:16131132",
-        "PMID:16506838",
-        "PMID:23305408",
-        "PMID:24679778",
-        "PMID:24844439",
-        "PMID:26471403",
-        "PMID:26715051",
-        "PMID:27167034",
-        "PMID:27440155",
-        "PMID:27862955",
-        "PMID:27989125",
-        "PMID:27999263",
-        "PMID:28192158",
-        "PMID:28285516",
-        "PMID:28317768",
-        "PMID:28363857",
-        "PMID:28476120",
-        "PMID:28740317",
-        "PMID:28763947",
-        "PMID:28784506",
-        "PMID:28868973",
-        "PMID:28928527",
-        "PMID:28992408",
-        "PMID:29019010",
-        "PMID:727513",
-        "Reaxys:506331",
-        "Wikipedia:Ethyl_butyrate"
-    ],
-    "geneontology:hasId": "88764",
-    "geneontology:hasSynonym": [
+    "skos:altLabel": [
         "ethyl butanoate",
         "Butanoic acid ethyl ester",
         "Butyric acid ethyl ester",
@@ -66,19 +35,11 @@
         "Ethyl n-butyrate",
         "n-Butyric acid ethyl ester"
     ],
-    "geneontology:inSubset": {
-        "@id": "obo:chebi#3_STAR"
+    "skos:exactMatch": {
+        "@id": "obo:CHEBI_88764"
     },
-    "rdfs:label": "ethyl butyrate",
-    "rdfs:subClassOf": [
-        {
-            "@id": "obo:CHEBI_50477"
-        },
-        {
-            "@id": "b892_genid-00f1db82e1ab437c844115a94dc63e635-bn88764t8f16236"
-        },
-        {
-            "@id": "b892_genid-00f1db82e1ab437c844115a94dc63e635-bn88764t11f76924"
-        }
-    ]
+    "skos:note": "A butyrate ester resulting from the formal condensation of the hydroxy group of ethanol with the carboxy group of butyric acid.",
+    "skos:semanticRelation": {
+        "@id": "obo:CHEBI_50477"
+    }
 }

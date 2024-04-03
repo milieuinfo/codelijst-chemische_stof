@@ -1,36 +1,17 @@
 {
     "@context": {
-        "chebi": "http://purl.obolibrary.org/obo/chebi/",
         "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
         "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-        "obo": "http://purl.obolibrary.org/obo/"
-    },
-    "@id": "obo:CHEBI_83732",
-    "@type": "http://www.w3.org/2002/07/owl#Class",
-    "obo:IAO_0000115": "A member of the class of oxazolidinones that is 5-ethenyl-5-methyl-2,4-oxazolidinedione in which the imide hydrogen is replaced by a 3,5-dichlorophenyl group.",
-    "chebi:charge": "0",
-    "chebi:formula": "C12H9Cl2NO3",
-    "chebi:inchi": "InChI=1S/C12H9Cl2NO3/c1-3-12(2)10(16)15(11(17)18-12)9-5-7(13)4-8(14)6-9/h3-6H,1H2,2H3",
-    "chebi:inchikey": "FSCWZHGZWWDELK-UHFFFAOYSA-N",
-    "chebi:smiles": "CC1(OC(=O)N(C1=O)c1cc(Cl)cc(Cl)c1)C=C",
-    "geneontology:hasDbXref": "PPDB:680",
-    "geneontology:hasId": "83732",
-    "geneontology:inSubset": {
-        "@id": "obo:chebi#3_STAR"
-    },
-    "rdfs:label": "3-(3,5-dichlorophenyl)-5-ethenyl-5-methyl-2,4-oxazolidinedione",
-    "rdfs:subClassOf": [
-        {
-            "@id": "obo:CHEBI_78840"
-        },
-        {
-            "@id": "obo:CHEBI_23697"
-        },
-        {
-            "@id": "obo:CHEBI_55374"
-        },
-        {
-            "@id": "obo:CHEBI_35356"
+        "obo": "http://purl.obolibrary.org/obo/",
+        "uniprot": "http://purl.uniprot.org/",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "concept": "https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/",
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "dbo": "http://dbpedia.org/ontology/",
+        "dbp": "http://dbpedia.org/property/",
+        "graph": {
+            "@id": "@graph"
         }
-    ]
+    }
 }

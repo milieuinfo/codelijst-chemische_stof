@@ -1,28 +1,21 @@
 {
     "@context": {
-        "chebi": "http://purl.obolibrary.org/obo/chebi/",
         "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
         "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-        "obo": "http://purl.obolibrary.org/obo/"
-    },
-    "@id": "obo:CHEBI_82191",
-    "@type": "http://www.w3.org/2002/07/owl#Class",
-    "chebi:charge": "0",
-    "chebi:formula": "C14H16F3N3O4",
-    "chebi:inchi": "InChI=1S/C14H16F3N3O4/c1-2-5-18(8-9-3-4-9)13-11(19(21)22)6-10(14(15,16)17)7-12(13)20(23)24/h6-7,9H,2-5,8H2,1H3",
-    "chebi:inchikey": "ITVQAKZNYJEWKS-UHFFFAOYSA-N",
-    "chebi:smiles": "CCCN(CC1CC1)c1c(cc(cc1[N+]([O-])=O)C(F)(F)F)[N+]([O-])=O",
-    "geneontology:hasDbXref": [
-        "CAS:26399-36-0",
-        "KEGG:C19065",
-        "PPDB:2843"
-    ],
-    "geneontology:hasId": "82191",
-    "geneontology:inSubset": {
-        "@id": "obo:chebi#2_STAR"
-    },
-    "rdfs:label": "Profluralin",
-    "rdfs:subClassOf": {
-        "@id": "obo:CHEBI_35716"
+        "obo": "http://purl.obolibrary.org/obo/",
+        "uniprot": "http://purl.uniprot.org/",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "concept": "https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/",
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "dbo": "http://dbpedia.org/ontology/",
+        "dbp": "http://dbpedia.org/property/",
+        "altLabel": {
+            "@id": "http://www.w3.org/2004/02/skos/core#altLabel",
+            "@language": "en"
+        },
+        "graph": {
+            "@id": "@graph"
+        }
     }
 }

@@ -1,28 +1,21 @@
 {
     "@context": {
-        "chebi": "http://purl.obolibrary.org/obo/chebi/",
         "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
         "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-        "obo": "http://purl.obolibrary.org/obo/"
-    },
-    "@id": "obo:CHEBI_82105",
-    "@type": "http://www.w3.org/2002/07/owl#Class",
-    "chebi:charge": "0",
-    "chebi:formula": "C10H12BrCl2O3PS",
-    "chebi:inchi": "InChI=1S/C10H12BrCl2O3PS/c1-3-14-17(18,15-4-2)16-10-6-8(12)7(11)5-9(10)13/h5-6H,3-4H2,1-2H3",
-    "chebi:inchikey": "KWGUFOITWDSNQY-UHFFFAOYSA-N",
-    "chebi:smiles": "CCOP(=S)(OCC)Oc1cc(Cl)c(Br)cc1Cl",
-    "geneontology:hasDbXref": [
-        "CAS:4824-78-6",
-        "KEGG:C18966",
-        "PPDB:94"
-    ],
-    "geneontology:hasId": "82105",
-    "geneontology:inSubset": {
-        "@id": "obo:chebi#2_STAR"
-    },
-    "rdfs:label": "Bromophos-ethyl",
-    "rdfs:subClassOf": {
-        "@id": "obo:CHEBI_37512"
+        "obo": "http://purl.obolibrary.org/obo/",
+        "uniprot": "http://purl.uniprot.org/",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "concept": "https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/",
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "dbo": "http://dbpedia.org/ontology/",
+        "dbp": "http://dbpedia.org/property/",
+        "altLabel": {
+            "@id": "http://www.w3.org/2004/02/skos/core#altLabel",
+            "@language": "en"
+        },
+        "graph": {
+            "@id": "@graph"
+        }
     }
 }

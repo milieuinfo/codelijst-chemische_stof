@@ -1,27 +1,27 @@
 {
     "@context": {
-        "chebi": "http://purl.obolibrary.org/obo/chebi/",
         "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
         "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-        "obo": "http://purl.obolibrary.org/obo/"
+        "obo": "http://purl.obolibrary.org/obo/",
+        "uniprot": "http://purl.uniprot.org/",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "concept": "https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/",
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "dbo": "http://dbpedia.org/ontology/",
+        "dbp": "http://dbpedia.org/property/",
+        "graph": {
+            "@id": "@graph"
+        }
     },
-    "@id": "obo:CHEBI_28119",
-    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "@id": "concept:HGUFODBRKLSHSI-UHFFFAOYSA-N",
+    "@type": "skos:Concept",
+    "dbo:formula": "C12H4Cl4O2",
+    "dbo:inchi": "InChI=1S/C12H4Cl4O2/c13-5-1-9-10(2-6(5)14)18-12-4-8(16)7(15)3-11(12)17-9/h1-4H",
+    "dbo:smiles": "Clc1cc2Oc3cc(Cl)c(Cl)cc3Oc2cc1Cl",
+    "dbp:inchikey": "HGUFODBRKLSHSI-UHFFFAOYSA-N",
     "chebi:charge": "0",
-    "chebi:formula": "C12H4Cl4O2",
-    "chebi:inchi": "InChI=1S/C12H4Cl4O2/c13-5-1-9-10(2-6(5)14)18-12-4-8(16)7(15)3-11(12)17-9/h1-4H",
-    "chebi:inchikey": "HGUFODBRKLSHSI-UHFFFAOYSA-N",
-    "chebi:smiles": "Clc1cc2Oc3cc(Cl)c(Cl)cc3Oc2cc1Cl",
-    "geneontology:hasDbXref": [
-        "Beilstein:271116",
-        "CAS:1746-01-6",
-        "Gmelin:366537",
-        "KEGG:C07557",
-        "LINCS:LSM-37232",
-        "Wikipedia:2,3,7,8-Tetrachlorodibenzo-P-Dioxin"
-    ],
-    "geneontology:hasId": "28119",
-    "geneontology:hasSynonym": [
+    "skos:altLabel": [
         "2,3,7,8-Tetrachlorodibenzodioxin",
         "2,3,7,8-Tetrachlorodibenzo-p-dioxin",
         "2,3,7,8-tetrachlorooxanthrene",
@@ -32,11 +32,10 @@
         "Tetrachlorodibenzodioxin",
         "tetradioxin"
     ],
-    "geneontology:inSubset": {
-        "@id": "obo:chebi#3_STAR"
+    "skos:exactMatch": {
+        "@id": "obo:CHEBI_28119"
     },
-    "rdfs:label": "2,3,7,8-tetrachlorodibenzodioxine",
-    "rdfs:subClassOf": {
+    "skos:semanticRelation": {
         "@id": "obo:CHEBI_36682"
     }
 }

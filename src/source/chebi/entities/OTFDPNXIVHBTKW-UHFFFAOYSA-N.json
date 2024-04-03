@@ -1,26 +1,21 @@
 {
     "@context": {
-        "chebi": "http://purl.obolibrary.org/obo/chebi/",
         "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
         "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-        "obo": "http://purl.obolibrary.org/obo/"
-    },
-    "@id": "obo:CHEBI_32220",
-    "@type": "http://www.w3.org/2002/07/owl#Class",
-    "chebi:charge": "0",
-    "chebi:inchi": "InChI=1S/C15H24N2O4S.ClH/c1-5-17(6-2)10-9-16-15(18)13-11-12(22(4,19)20)7-8-14(13)21-3;/h7-8,11H,5-6,9-10H2,1-4H3,(H,16,18);1H",
-    "chebi:inchikey": "OTFDPNXIVHBTKW-UHFFFAOYSA-N",
-    "chebi:smiles": "S(C=1C=C(C(OC)=CC1)C(=O)NCCN(CC)CC)(C)(=O)=O.Cl",
-    "geneontology:hasDbXref": [
-        "CAS:51012-33-0",
-        "KEGG:D01522"
-    ],
-    "geneontology:hasId": "32220",
-    "geneontology:inSubset": {
-        "@id": "obo:chebi#2_STAR"
-    },
-    "rdfs:label": "Tiapride hydrochloride",
-    "rdfs:subClassOf": {
-        "@id": "obo:CHEBI_22702"
+        "obo": "http://purl.obolibrary.org/obo/",
+        "uniprot": "http://purl.uniprot.org/",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "concept": "https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/",
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "dbo": "http://dbpedia.org/ontology/",
+        "dbp": "http://dbpedia.org/property/",
+        "altLabel": {
+            "@id": "http://www.w3.org/2004/02/skos/core#altLabel",
+            "@language": "en"
+        },
+        "graph": {
+            "@id": "@graph"
+        }
     }
 }

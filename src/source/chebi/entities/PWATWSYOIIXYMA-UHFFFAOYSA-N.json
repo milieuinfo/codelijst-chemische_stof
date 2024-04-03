@@ -1,30 +1,35 @@
 {
     "@context": {
-        "chebi": "http://purl.obolibrary.org/obo/chebi/",
         "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
         "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-        "obo": "http://purl.obolibrary.org/obo/"
+        "obo": "http://purl.obolibrary.org/obo/",
+        "uniprot": "http://purl.uniprot.org/",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "concept": "https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/",
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "dbo": "http://dbpedia.org/ontology/",
+        "dbp": "http://dbpedia.org/property/",
+        "altLabel": {
+            "@id": "http://www.w3.org/2004/02/skos/core#altLabel",
+            "@language": "en"
+        },
+        "graph": {
+            "@id": "@graph"
+        }
     },
-    "@id": "obo:CHEBI_176693",
-    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "@id": "concept:PWATWSYOIIXYMA-UHFFFAOYSA-N",
+    "@type": "skos:Concept",
+    "dbo:formula": "C11H16",
+    "dbo:inchi": "InChI=1S/C11H16/c1-2-3-5-8-11-9-6-4-7-10-11/h4,6-7,9-10H,2-3,5,8H2,1H3",
+    "dbo:smiles": "C(CCC)CC1=CC=CC=C1",
+    "dbp:inchikey": "PWATWSYOIIXYMA-UHFFFAOYSA-N",
     "chebi:charge": "0",
-    "chebi:formula": "C11H16",
-    "chebi:inchi": "InChI=1S/C11H16/c1-2-3-5-8-11-9-6-4-7-10-11/h4,6-7,9-10H,2-3,5,8H2,1H3",
-    "chebi:inchikey": "PWATWSYOIIXYMA-UHFFFAOYSA-N",
-    "chebi:smiles": "C(CCC)CC1=CC=CC=C1",
-    "geneontology:hasDbXref": [
-        "CAS:538-68-1",
-        "Chemspider:10404",
-        "HMDB:HMDB0059834",
-        "PDBeChem:3H2"
-    ],
-    "geneontology:hasId": "176693",
-    "geneontology:hasSynonym": "pentylbenzene",
-    "geneontology:inSubset": {
-        "@id": "obo:chebi#2_STAR"
+    "skos:altLabel": "pentylbenzene",
+    "skos:exactMatch": {
+        "@id": "obo:CHEBI_176693"
     },
-    "rdfs:label": "Pentylbenzene",
-    "rdfs:subClassOf": {
+    "skos:semanticRelation": {
         "@id": "obo:CHEBI_22712"
     }
 }

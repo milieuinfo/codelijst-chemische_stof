@@ -1,47 +1,31 @@
 {
     "@context": {
-        "chebi": "http://purl.obolibrary.org/obo/chebi/",
         "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
         "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-        "obo": "http://purl.obolibrary.org/obo/"
+        "obo": "http://purl.obolibrary.org/obo/",
+        "uniprot": "http://purl.uniprot.org/",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "concept": "https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/",
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "dbo": "http://dbpedia.org/ontology/",
+        "dbp": "http://dbpedia.org/property/",
+        "altLabel": {
+            "@id": "http://www.w3.org/2004/02/skos/core#altLabel",
+            "@language": "en"
+        },
+        "graph": {
+            "@id": "@graph"
+        }
     },
-    "@id": "obo:CHEBI_17594",
-    "@type": "http://www.w3.org/2002/07/owl#Class",
-    "obo:IAO_0000115": "A benzenediol comprising benzene core carrying two hydroxy substituents para to each other.",
+    "@id": "concept:QIGBRXMKCJKVMJ-UHFFFAOYSA-N",
+    "@type": "skos:Concept",
+    "dbo:formula": "C6H6O2",
+    "dbo:inchi": "InChI=1S/C6H6O2/c7-5-1-2-6(8)4-3-5/h1-4,7-8H",
+    "dbo:smiles": "Oc1ccc(O)cc1",
+    "dbp:inchikey": "QIGBRXMKCJKVMJ-UHFFFAOYSA-N",
     "chebi:charge": "0",
-    "chebi:formula": "C6H6O2",
-    "chebi:inchi": "InChI=1S/C6H6O2/c7-5-1-2-6(8)4-3-5/h1-4,7-8H",
-    "chebi:inchikey": "QIGBRXMKCJKVMJ-UHFFFAOYSA-N",
-    "chebi:smiles": "Oc1ccc(O)cc1",
-    "http://purl.uniprot.org/core/name": "hydroquinone",
-    "geneontology:hasDbXref": [
-        "PMID:1395635",
-        "PMID:15618234",
-        "Beilstein:605970",
-        "CAS:123-31-9",
-        "Drug_Central:3282",
-        "Gmelin:2742",
-        "HMDB:HMDB0002434",
-        "KEGG:C00530",
-        "KEGG:C15603",
-        "KEGG:D00073",
-        "KNApSAcK:C00002656",
-        "MetaCyc:HYDROQUINONE",
-        "PMID:11170505",
-        "PMID:12213471",
-        "PMID:15894107",
-        "PMID:1899343",
-        "PMID:19148301",
-        "PMID:24407054",
-        "PMID:24858384",
-        "PMID:25586344",
-        "PPDB:1503",
-        "Reaxys:605970",
-        "UM-BBD_compID:c0091",
-        "Wikipedia:Hydroquinone"
-    ],
-    "geneontology:hasId": "17594",
-    "geneontology:hasSynonym": [
+    "skos:altLabel": [
         "1,4-Benzenediol",
         "1,4-Dihydroxybenzene",
         "4-Hydroxyphenol",
@@ -54,37 +38,16 @@
         "p-hydroxyphenol",
         "Quinol"
     ],
-    "geneontology:inSubset": {
-        "@id": "obo:chebi#3_STAR"
+    "skos:exactMatch": {
+        "@id": "obo:CHEBI_17594"
     },
-    "rdfs:label": "hydroquinone",
-    "rdfs:subClassOf": [
+    "skos:note": "A benzenediol comprising benzene core carrying two hydroxy substituents para to each other.",
+    "skos:semanticRelation": [
         {
             "@id": "obo:CHEBI_24646"
         },
         {
             "@id": "obo:CHEBI_17701"
-        },
-        {
-            "@id": "b304_genid-00f1db82e1ab437c844115a94dc63e635-bn17594t11f22586"
-        },
-        {
-            "@id": "b304_genid-00f1db82e1ab437c844115a94dc63e635-bn17594t11f23357"
-        },
-        {
-            "@id": "b304_genid-00f1db82e1ab437c844115a94dc63e635-bn17594t11f50903"
-        },
-        {
-            "@id": "b304_genid-00f1db82e1ab437c844115a94dc63e635-bn17594t11f75771"
-        },
-        {
-            "@id": "b304_genid-00f1db82e1ab437c844115a94dc63e635-bn17594t11f76967"
-        },
-        {
-            "@id": "b304_genid-00f1db82e1ab437c844115a94dc63e635-bn17594t11f76971"
-        },
-        {
-            "@id": "b304_genid-00f1db82e1ab437c844115a94dc63e635-bn17594t11f85046"
         }
     ]
 }

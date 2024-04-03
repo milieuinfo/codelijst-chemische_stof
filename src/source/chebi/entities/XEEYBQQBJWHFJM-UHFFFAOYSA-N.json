@@ -1,86 +1,63 @@
 {
     "@context": {
-        "chebi": "http://purl.obolibrary.org/obo/chebi/",
         "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
         "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-        "obo": "http://purl.obolibrary.org/obo/"
+        "obo": "http://purl.obolibrary.org/obo/",
+        "uniprot": "http://purl.uniprot.org/",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "concept": "https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/",
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "dbo": "http://dbpedia.org/ontology/",
+        "dbp": "http://dbpedia.org/property/",
+        "altLabel": {
+            "@id": "http://www.w3.org/2004/02/skos/core#altLabel",
+            "@language": "en"
+        },
+        "graph": {
+            "@id": "@graph"
+        }
     },
-    "@graph": [
+    "@id": "concept:XEEYBQQBJWHFJM-UHFFFAOYSA-N",
+    "@type": "skos:Concept",
+    "dbo:formula": "Fe",
+    "dbo:inchi": "InChI=1S/Fe",
+    "dbo:smiles": "[Fe]",
+    "dbp:inchikey": "XEEYBQQBJWHFJM-UHFFFAOYSA-N",
+    "chebi:charge": "0",
+    "skos:altLabel": [
+        "Fe",
+        "26Fe",
+        "Eisen",
+        "fer",
+        "ferrum",
+        "hierro",
+        "iron",
+        "Iron",
+        "Fe(0)",
+        "Fen",
+        "iron dust",
+        "iron metal",
+        "iron powder"
+    ],
+    "skos:exactMatch": [
         {
-            "@id": "obo:CHEBI_18248",
-            "@type": "http://www.w3.org/2002/07/owl#Class",
-            "obo:IAO_0000115": "An iron group element atom that has atomic number 26.",
-            "chebi:charge": "0",
-            "chebi:formula": "Fe",
-            "chebi:inchi": "InChI=1S/Fe",
-            "chebi:inchikey": "XEEYBQQBJWHFJM-UHFFFAOYSA-N",
-            "chebi:smiles": "[Fe]",
-            "http://purl.uniprot.org/core/name": "Fe",
-            "geneontology:hasDbXref": [
-                "CAS:7439-89-6",
-                "DrugBank:DB01592",
-                "HMDB:HMDB0015531",
-                "KEGG:C00023",
-                "Reaxys:4122945",
-                "WebElements:Fe"
-            ],
-            "geneontology:hasId": "18248",
-            "geneontology:hasSynonym": [
-                "Fe",
-                "26Fe",
-                "Eisen",
-                "fer",
-                "ferrum",
-                "hierro",
-                "iron",
-                "Iron"
-            ],
-            "geneontology:inSubset": {
-                "@id": "obo:chebi#3_STAR"
-            },
-            "rdfs:label": "iron atom",
-            "rdfs:subClassOf": [
-                {
-                    "@id": "b159_genid-00f1db82e1ab437c844115a94dc63e635-bn18248t11f27027"
-                },
-                {
-                    "@id": "obo:CHEBI_33356"
-                },
-                {
-                    "@id": "b159_genid-00f1db82e1ab437c844115a94dc63e635-bn18248t11f76971"
-                }
-            ]
+            "@id": "obo:CHEBI_18248"
         },
         {
-            "@id": "obo:CHEBI_82664",
-            "@type": "http://www.w3.org/2002/07/owl#Class",
-            "obo:IAO_0000115": "An elemental iron in which the atom has an oxidation state of zero.",
-            "chebi:charge": "0",
-            "chebi:formula": "Fe",
-            "chebi:inchi": "InChI=1S/Fe",
-            "chebi:inchikey": "XEEYBQQBJWHFJM-UHFFFAOYSA-N",
-            "chebi:smiles": "[Fe]",
-            "geneontology:hasDbXref": [
-                "CAS:7439-89-6",
-                "Reaxys:4122945",
-                "Drug_Central:4277",
-                "Wikipedia:Iron"
-            ],
-            "geneontology:hasId": "82664",
-            "geneontology:hasSynonym": [
-                "Fe(0)",
-                "Fen",
-                "iron dust",
-                "iron metal",
-                "iron powder"
-            ],
-            "geneontology:inSubset": {
-                "@id": "obo:chebi#3_STAR"
-            },
-            "rdfs:label": "iron(0)",
-            "rdfs:subClassOf": {
-                "@id": "obo:CHEBI_82663"
-            }
+            "@id": "obo:CHEBI_82664"
+        }
+    ],
+    "skos:note": [
+        "An iron group element atom that has atomic number 26.",
+        "An elemental iron in which the atom has an oxidation state of zero."
+    ],
+    "skos:semanticRelation": [
+        {
+            "@id": "obo:CHEBI_33356"
+        },
+        {
+            "@id": "obo:CHEBI_82663"
         }
     ]
 }

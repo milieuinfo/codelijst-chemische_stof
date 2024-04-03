@@ -1,41 +1,41 @@
 {
     "@context": {
-        "chebi": "http://purl.obolibrary.org/obo/chebi/",
         "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
         "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-        "obo": "http://purl.obolibrary.org/obo/"
+        "obo": "http://purl.obolibrary.org/obo/",
+        "uniprot": "http://purl.uniprot.org/",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "concept": "https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/",
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "dbo": "http://dbpedia.org/ontology/",
+        "dbp": "http://dbpedia.org/property/",
+        "altLabel": {
+            "@id": "http://www.w3.org/2004/02/skos/core#altLabel",
+            "@language": "en"
+        },
+        "graph": {
+            "@id": "@graph"
+        }
     },
-    "@id": "obo:CHEBI_87528",
-    "@type": "http://www.w3.org/2002/07/owl#Class",
-    "obo:IAO_0000115": "A monoterpenoid that is oct-7-en-2-ol substituted by methyl groups at positions 2 and 6 respectively.",
+    "@id": "concept:XSNQECSCDATQEL-UHFFFAOYSA-N",
+    "@type": "skos:Concept",
+    "dbo:formula": "C10H20O",
+    "dbo:inchi": "InChI=1S/C10H20O/c1-5-9(2)7-6-8-10(3,4)11/h5,9,11H,1,6-8H2,2-4H3",
+    "dbo:smiles": "CC(CCCC(C)(C)O)C=C",
+    "dbp:inchikey": "XSNQECSCDATQEL-UHFFFAOYSA-N",
     "chebi:charge": "0",
-    "chebi:formula": "C10H20O",
-    "chebi:inchi": "InChI=1S/C10H20O/c1-5-9(2)7-6-8-10(3,4)11/h5,9,11H,1,6-8H2,2-4H3",
-    "chebi:inchikey": "XSNQECSCDATQEL-UHFFFAOYSA-N",
-    "chebi:smiles": "CC(CCCC(C)(C)O)C=C",
-    "geneontology:hasDbXref": [
-        "PMID:22287404",
-        "CAS:18479-58-8",
-        "Reaxys:1840872"
-    ],
-    "geneontology:hasId": "87528",
-    "geneontology:hasSynonym": "2,6-dimethyloct-7-en-2-ol",
-    "geneontology:inSubset": {
-        "@id": "obo:chebi#3_STAR"
+    "skos:altLabel": "2,6-dimethyloct-7-en-2-ol",
+    "skos:exactMatch": {
+        "@id": "obo:CHEBI_87528"
     },
-    "rdfs:label": "dihydromyrcenol",
-    "rdfs:subClassOf": [
+    "skos:note": "A monoterpenoid that is oct-7-en-2-ol substituted by methyl groups at positions 2 and 6 respectively.",
+    "skos:semanticRelation": [
         {
             "@id": "obo:CHEBI_25409"
         },
         {
             "@id": "obo:CHEBI_26878"
-        },
-        {
-            "@id": "b255_genid-00f1db82e1ab437c844115a94dc63e635-bn87528t11f25212"
-        },
-        {
-            "@id": "b255_genid-00f1db82e1ab437c844115a94dc63e635-bn87528t11f48318"
         }
     ]
 }

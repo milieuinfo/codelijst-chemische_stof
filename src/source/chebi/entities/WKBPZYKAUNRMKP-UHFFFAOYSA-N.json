@@ -1,26 +1,36 @@
 {
     "@context": {
-        "chebi": "http://purl.obolibrary.org/obo/chebi/",
         "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
         "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-        "obo": "http://purl.obolibrary.org/obo/"
+        "obo": "http://purl.obolibrary.org/obo/",
+        "uniprot": "http://purl.uniprot.org/",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "concept": "https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/",
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "dbo": "http://dbpedia.org/ontology/",
+        "dbp": "http://dbpedia.org/property/",
+        "altLabel": {
+            "@id": "http://www.w3.org/2004/02/skos/core#altLabel",
+            "@language": "en"
+        },
+        "graph": {
+            "@id": "@graph"
+        }
     },
-    "@id": "obo:CHEBI_83993",
-    "@type": "http://www.w3.org/2002/07/owl#Class",
-    "obo:IAO_0000115": "A member of the classof triazoles that is 1,2,4-triazole substituted at position 1 by a 2-(2,4-dichlorophenyl)pentyl group.",
+    "@id": "concept:WKBPZYKAUNRMKP-UHFFFAOYSA-N",
+    "@type": "skos:Concept",
+    "dbo:formula": "C13H15Cl2N3",
+    "dbo:inchi": "InChI=1S/C13H15Cl2N3/c1-2-3-10(7-18-9-16-8-17-18)12-5-4-11(14)6-13(12)15/h4-6,8-10H,2-3,7H2,1H3",
+    "dbo:smiles": "CCCC(Cn1cncn1)c1ccc(Cl)cc1Cl",
+    "dbp:inchikey": "WKBPZYKAUNRMKP-UHFFFAOYSA-N",
     "chebi:charge": "0",
-    "chebi:formula": "C13H15Cl2N3",
-    "chebi:inchi": "InChI=1S/C13H15Cl2N3/c1-2-3-10(7-18-9-16-8-17-18)12-5-4-11(14)6-13(12)15/h4-6,8-10H,2-3,7H2,1H3",
-    "chebi:inchikey": "WKBPZYKAUNRMKP-UHFFFAOYSA-N",
-    "chebi:smiles": "CCCC(Cn1cncn1)c1ccc(Cl)cc1Cl",
-    "geneontology:hasDbXref": "PPDB:509",
-    "geneontology:hasId": "83993",
-    "geneontology:hasSynonym": "1-[2-(2,4-dichlorophenyl)pentyl]-1H-1,2,4-triazole",
-    "geneontology:inSubset": {
-        "@id": "obo:chebi#3_STAR"
+    "skos:altLabel": "1-[2-(2,4-dichlorophenyl)pentyl]-1H-1,2,4-triazole",
+    "skos:exactMatch": {
+        "@id": "obo:CHEBI_83993"
     },
-    "rdfs:label": "1-[2-(2,4-dichlorophenyl)pentyl]1,2,4-triazole",
-    "rdfs:subClassOf": [
+    "skos:note": "A member of the classof triazoles that is 1,2,4-triazole substituted at position 1 by a 2-(2,4-dichlorophenyl)pentyl group.",
+    "skos:semanticRelation": [
         {
             "@id": "obo:CHEBI_35727"
         },

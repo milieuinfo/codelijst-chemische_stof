@@ -1,76 +1,54 @@
 {
     "@context": {
-        "chebi": "http://purl.obolibrary.org/obo/chebi/",
         "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
         "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-        "obo": "http://purl.obolibrary.org/obo/"
+        "obo": "http://purl.obolibrary.org/obo/",
+        "uniprot": "http://purl.uniprot.org/",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "concept": "https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/",
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "dbo": "http://dbpedia.org/ontology/",
+        "dbp": "http://dbpedia.org/property/",
+        "graph": {
+            "@id": "@graph"
+        }
     },
-    "@graph": [
+    "@id": "concept:BQCADISMDOOEFD-UHFFFAOYSA-N",
+    "@type": "skos:Concept",
+    "dbo:formula": "Ag",
+    "dbo:inchi": "InChI=1S/Ag",
+    "dbo:smiles": "[Ag]",
+    "dbp:inchikey": "BQCADISMDOOEFD-UHFFFAOYSA-N",
+    "chebi:charge": "0",
+    "skos:altLabel": [
+        "Ag",
+        "Ag(0)",
+        "Agn",
+        "Argentum",
+        "silver",
+        "Silver",
+        "silver metal",
+        "47Ag",
+        "argent",
+        "argentum",
+        "plata",
+        "Silber"
+    ],
+    "skos:exactMatch": [
         {
-            "@id": "obo:CHEBI_30512",
-            "@type": "http://www.w3.org/2002/07/owl#Class",
-            "chebi:charge": "0",
-            "chebi:formula": "Ag",
-            "chebi:inchi": "InChI=1S/Ag",
-            "chebi:inchikey": "BQCADISMDOOEFD-UHFFFAOYSA-N",
-            "chebi:smiles": "[Ag]",
-            "geneontology:hasDbXref": [
-                "CAS:7440-22-4",
-                "WebElements:Ag"
-            ],
-            "geneontology:hasId": "30512",
-            "geneontology:hasSynonym": [
-                "Ag",
-                "silver",
-                "47Ag",
-                "argent",
-                "argentum",
-                "plata",
-                "Silber"
-            ],
-            "geneontology:inSubset": {
-                "@id": "obo:chebi#3_STAR"
-            },
-            "rdfs:label": "silver atom",
-            "rdfs:subClassOf": {
-                "@id": "obo:CHEBI_33366"
-            }
+            "@id": "obo:CHEBI_9141"
         },
         {
-            "@id": "obo:CHEBI_9141",
-            "@type": "http://www.w3.org/2002/07/owl#Class",
-            "chebi:charge": "0",
-            "chebi:formula": "Ag",
-            "chebi:inchi": "InChI=1S/Ag",
-            "chebi:inchikey": "BQCADISMDOOEFD-UHFFFAOYSA-N",
-            "chebi:smiles": "[Ag]",
-            "geneontology:hasDbXref": [
-                "CAS:7440-22-4",
-                "KEGG:C06710",
-                "PDBeChem:AG"
-            ],
-            "geneontology:hasId": "9141",
-            "geneontology:hasSynonym": [
-                "Ag",
-                "Ag(0)",
-                "Agn",
-                "Argentum",
-                "silver",
-                "Silver",
-                "silver metal"
-            ],
-            "geneontology:inSubset": {
-                "@id": "obo:chebi#3_STAR"
-            },
-            "rdfs:label": "silver(0)",
-            "rdfs:subClassOf": [
-                {
-                    "@id": "obo:CHEBI_33966"
-                },
-                {
-                    "@id": "b220_genid-00f1db82e1ab437c844115a94dc63e635-bn9141t11f76971"
-                }
-            ]
+            "@id": "obo:CHEBI_30512"
+        }
+    ],
+    "skos:semanticRelation": [
+        {
+            "@id": "obo:CHEBI_33966"
+        },
+        {
+            "@id": "obo:CHEBI_33366"
         }
     ]
 }

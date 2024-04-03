@@ -1,42 +1,31 @@
 {
     "@context": {
-        "chebi": "http://purl.obolibrary.org/obo/chebi/",
         "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
         "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-        "obo": "http://purl.obolibrary.org/obo/"
+        "obo": "http://purl.obolibrary.org/obo/",
+        "uniprot": "http://purl.uniprot.org/",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "concept": "https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/",
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "dbo": "http://dbpedia.org/ontology/",
+        "dbp": "http://dbpedia.org/property/",
+        "altLabel": {
+            "@id": "http://www.w3.org/2004/02/skos/core#altLabel",
+            "@language": "en"
+        },
+        "graph": {
+            "@id": "@graph"
+        }
     },
-    "@id": "obo:CHEBI_18135",
-    "@type": "http://www.w3.org/2002/07/owl#Class",
-    "obo:IAO_0000115": "A  benzenediol comprising of a benzene core carrying two hydroxy substituents ortho to each other.",
+    "@id": "concept:YCIMNLLNPGFGHC-UHFFFAOYSA-N",
+    "@type": "skos:Concept",
+    "dbo:formula": "C6H6O2",
+    "dbo:inchi": "InChI=1S/C6H6O2/c7-5-3-1-2-4-6(5)8/h1-4,7-8H",
+    "dbo:smiles": "Oc1ccccc1O",
+    "dbp:inchikey": "YCIMNLLNPGFGHC-UHFFFAOYSA-N",
     "chebi:charge": "0",
-    "chebi:formula": "C6H6O2",
-    "chebi:inchi": "InChI=1S/C6H6O2/c7-5-3-1-2-4-6(5)8/h1-4,7-8H",
-    "chebi:inchikey": "YCIMNLLNPGFGHC-UHFFFAOYSA-N",
-    "chebi:smiles": "Oc1ccccc1O",
-    "http://purl.uniprot.org/core/name": "catechol",
-    "geneontology:hasDbXref": [
-        "KEGG:C15571",
-        "CAS:12385-08-9",
-        "KEGG:C01785",
-        "Beilstein:471401",
-        "CAS:120-80-9",
-        "DrugBank:DB02232",
-        "Gmelin:2936",
-        "HMDB:HMDB0000957",
-        "KEGG:C00090",
-        "KNApSAcK:C00002644",
-        "MetaCyc:CATECHOL",
-        "PDBeChem:CAQ",
-        "PMID:10651166",
-        "PMID:11470755",
-        "PMID:15951152",
-        "PMID:16610220",
-        "Reaxys:471401",
-        "UM-BBD_compID:c0097",
-        "Wikipedia:Catechol"
-    ],
-    "geneontology:hasId": "18135",
-    "geneontology:hasSynonym": [
+    "skos:altLabel": [
         "1,2-Benzenediol",
         "1,2-Dihydroxybenzene",
         "2-hydroxyphenol",
@@ -49,25 +38,11 @@
         "pyrocatechin",
         "Pyrocatechol"
     ],
-    "geneontology:inSubset": {
-        "@id": "obo:chebi#3_STAR"
+    "skos:exactMatch": {
+        "@id": "obo:CHEBI_18135"
     },
-    "rdfs:label": "catechol",
-    "rdfs:subClassOf": [
-        {
-            "@id": "obo:CHEBI_33566"
-        },
-        {
-            "@id": "b307_genid-00f1db82e1ab437c844115a94dc63e635-bn18135t4f50524"
-        },
-        {
-            "@id": "b307_genid-00f1db82e1ab437c844115a94dc63e635-bn18135t11f50902"
-        },
-        {
-            "@id": "b307_genid-00f1db82e1ab437c844115a94dc63e635-bn18135t11f62215"
-        },
-        {
-            "@id": "b307_genid-00f1db82e1ab437c844115a94dc63e635-bn18135t11f76924"
-        }
-    ]
+    "skos:note": "A  benzenediol comprising of a benzene core carrying two hydroxy substituents ortho to each other.",
+    "skos:semanticRelation": {
+        "@id": "obo:CHEBI_33566"
+    }
 }

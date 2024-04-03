@@ -1,63 +1,42 @@
 {
     "@context": {
-        "chebi": "http://purl.obolibrary.org/obo/chebi/",
         "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
         "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-        "obo": "http://purl.obolibrary.org/obo/"
+        "obo": "http://purl.obolibrary.org/obo/",
+        "uniprot": "http://purl.uniprot.org/",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "concept": "https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/",
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "dbo": "http://dbpedia.org/ontology/",
+        "dbp": "http://dbpedia.org/property/",
+        "altLabel": {
+            "@id": "http://www.w3.org/2004/02/skos/core#altLabel",
+            "@language": "en"
+        },
+        "graph": {
+            "@id": "@graph"
+        }
     },
-    "@id": "obo:CHEBI_15440",
-    "@type": "http://www.w3.org/2002/07/owl#Class",
-    "obo:IAO_0000115": "A triterpene consisting of 2,6,10,15,19,23-hexamethyltetracosane having six double bonds at the 2-, 6-, 10-, 14-, 18- and 22-positions with (all-E)-configuration.",
+    "@id": "concept:YYGNTYWPHWGJRM-AAJYLUCBSA-N",
+    "@type": "skos:Concept",
+    "dbo:formula": "C30H50",
+    "dbo:inchi": "InChI=1S/C30H50/c1-25(2)15-11-19-29(7)23-13-21-27(5)17-9-10-18-28(6)22-14-24-30(8)20-12-16-26(3)4/h15-18,23-24H,9-14,19-22H2,1-8H3/b27-17+,28-18+,29-23+,30-24+",
+    "dbo:smiles": "CC(C)=CCC\\C(C)=C\\CC\\C(C)=C\\CC\\C=C(/C)CC\\C=C(/C)CCC=C(C)C",
+    "dbp:inchikey": "YYGNTYWPHWGJRM-AAJYLUCBSA-N",
     "chebi:charge": "0",
-    "chebi:formula": "C30H50",
-    "chebi:inchi": "InChI=1S/C30H50/c1-25(2)15-11-19-29(7)23-13-21-27(5)17-9-10-18-28(6)22-14-24-30(8)20-12-16-26(3)4/h15-18,23-24H,9-14,19-22H2,1-8H3/b27-17+,28-18+,29-23+,30-24+",
-    "chebi:inchikey": "YYGNTYWPHWGJRM-AAJYLUCBSA-N",
-    "chebi:smiles": "CC(C)=CCC\\C(C)=C\\CC\\C(C)=C\\CC\\C=C(/C)CC\\C=C(/C)CCC=C(C)C",
-    "http://purl.uniprot.org/core/name": "squalene",
-    "geneontology:hasDbXref": [
-        "PMID:16341241",
-        "Beilstein:1728920",
-        "CAS:111-02-4",
-        "HMDB:HMDB0000256",
-        "KEGG:C00751",
-        "KNApSAcK:C00003755",
-        "LIPID_MAPS_instance:LMPR0106010002",
-        "MetaCyc:SQUALENE",
-        "PDBeChem:SQL",
-        "PMID:23625688",
-        "PMID:24362891",
-        "PMID:25286851",
-        "PMID:25286853",
-        "PMID:25987292",
-        "Wikipedia:Squalene"
-    ],
-    "geneontology:hasId": "15440",
-    "geneontology:hasSynonym": [
+    "skos:altLabel": [
         "(6E,10E,14E,18E)-2,6,10,15,19,23-hexamethyltetracosa-2,6,10,14,18,22-hexaene",
         "(all-E)-2,6,10,15,19,23-hexamethyl-2,6,10,14,18,22-tetracosahexaene",
         "Spinacene",
         "Squalene",
         "Supraene"
     ],
-    "geneontology:inSubset": {
-        "@id": "obo:chebi#3_STAR"
+    "skos:exactMatch": {
+        "@id": "obo:CHEBI_15440"
     },
-    "rdfs:label": "squalene",
-    "rdfs:subClassOf": [
-        {
-            "@id": "obo:CHEBI_35191"
-        },
-        {
-            "@id": "b433_genid-00f1db82e1ab437c844115a94dc63e635-bn15440t11f75771"
-        },
-        {
-            "@id": "b433_genid-00f1db82e1ab437c844115a94dc63e635-bn15440t11f75772"
-        },
-        {
-            "@id": "b433_genid-00f1db82e1ab437c844115a94dc63e635-bn15440t11f76924"
-        },
-        {
-            "@id": "b433_genid-00f1db82e1ab437c844115a94dc63e635-bn15440t11f77746"
-        }
-    ]
+    "skos:note": "A triterpene consisting of 2,6,10,15,19,23-hexamethyltetracosane having six double bonds at the 2-, 6-, 10-, 14-, 18- and 22-positions with (all-E)-configuration.",
+    "skos:semanticRelation": {
+        "@id": "obo:CHEBI_35191"
+    }
 }

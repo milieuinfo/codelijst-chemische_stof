@@ -1,58 +1,41 @@
 {
     "@context": {
-        "chebi": "http://purl.obolibrary.org/obo/chebi/",
         "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
         "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-        "obo": "http://purl.obolibrary.org/obo/"
+        "obo": "http://purl.obolibrary.org/obo/",
+        "uniprot": "http://purl.uniprot.org/",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "concept": "https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/",
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "dbo": "http://dbpedia.org/ontology/",
+        "dbp": "http://dbpedia.org/property/",
+        "altLabel": {
+            "@id": "http://www.w3.org/2004/02/skos/core#altLabel",
+            "@language": "en"
+        },
+        "graph": {
+            "@id": "@graph"
+        }
     },
-    "@id": "obo:CHEBI_10454",
-    "@type": "http://www.w3.org/2002/07/owl#Class",
-    "obo:IAO_0000115": "A flupenthixol in which the double bond adopts a cis-configuration.",
+    "@id": "concept:NJMYODHXAKYRHW-DVZOWYKESA-N",
+    "@type": "skos:Concept",
+    "dbo:formula": "C23H25F3N2OS",
+    "dbo:inchi": "InChI=1S/C23H25F3N2OS/c24-23(25,26)17-7-8-22-20(16-17)18(19-4-1-2-6-21(19)30-22)5-3-9-27-10-12-28(13-11-27)14-15-29/h1-2,4-8,16,29H,3,9-15H2/b18-5-",
+    "dbo:smiles": "OCCN1CCN(CC\\C=C2\\C3=C(SC4=C2C=C(C=C4)C(F)(F)F)C=CC=C3)CC1",
+    "dbp:inchikey": "NJMYODHXAKYRHW-DVZOWYKESA-N",
     "chebi:charge": "0",
-    "chebi:formula": "C23H25F3N2OS",
-    "chebi:inchi": "InChI=1S/C23H25F3N2OS/c24-23(25,26)17-7-8-22-20(16-17)18(19-4-1-2-6-21(19)30-22)5-3-9-27-10-12-28(13-11-27)14-15-29/h1-2,4-8,16,29H,3,9-15H2/b18-5-",
-    "chebi:inchikey": "NJMYODHXAKYRHW-DVZOWYKESA-N",
-    "chebi:smiles": "OCCN1CCN(CC\\C=C2\\C3=C(SC4=C2C=C(C=C4)C(F)(F)F)C=CC=C3)CC1",
-    "geneontology:hasDbXref": [
-        "PMID:24134630",
-        "CAS:53772-82-0",
-        "KEGG:C11191",
-        "PMID:10320779",
-        "PMID:11080543",
-        "PMID:17277934",
-        "PMID:2054609",
-        "PMID:22926199",
-        "PMID:24012795",
-        "PMID:3298419",
-        "PMID:3359281",
-        "PMID:3439426",
-        "PMID:3828778",
-        "PMID:3927361",
-        "PMID:569233",
-        "PMID:6684429",
-        "PMID:6889662",
-        "PMID:8278431"
-    ],
-    "geneontology:hasId": "10454",
-    "geneontology:hasSynonym": [
+    "skos:altLabel": [
         "(Z)-flupenthixol",
         "2-(4-{(3Z)-3-[2-(trifluoromethyl)-9H-thioxanthen-9-ylidene]propyl}piperazin-1-yl)ethan-1-ol",
         "2-(4-{(3Z)-3-[2-(trifluoromethyl)-9H-thioxanthen-9-ylidene]propyl}piperazin-1-yl)ethanol",
         "cis-(Z)-flupenthixol"
     ],
-    "geneontology:inSubset": {
-        "@id": "obo:chebi#3_STAR"
+    "skos:exactMatch": {
+        "@id": "obo:CHEBI_10454"
     },
-    "rdfs:label": "cis-flupenthixol",
-    "rdfs:subClassOf": [
-        {
-            "@id": "obo:CHEBI_5121"
-        },
-        {
-            "@id": "b800_genid-00f1db82e1ab437c844115a94dc63e635-bn10454t11f48561"
-        },
-        {
-            "@id": "b800_genid-00f1db82e1ab437c844115a94dc63e635-bn10454t5f180488"
-        }
-    ]
+    "skos:note": "A flupenthixol in which the double bond adopts a cis-configuration.",
+    "skos:semanticRelation": {
+        "@id": "obo:CHEBI_5121"
+    }
 }

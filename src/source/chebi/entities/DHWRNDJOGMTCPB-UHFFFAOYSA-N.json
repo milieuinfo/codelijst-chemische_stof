@@ -1,28 +1,17 @@
 {
     "@context": {
-        "chebi": "http://purl.obolibrary.org/obo/chebi/",
         "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
         "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-        "obo": "http://purl.obolibrary.org/obo/"
-    },
-    "@id": "obo:CHEBI_81957",
-    "@type": "http://www.w3.org/2002/07/owl#Class",
-    "chebi:charge": "0",
-    "chebi:formula": "C15H19ClN4O3",
-    "chebi:inchi": "InChI=1S/C15H19ClN4O3/c1-15(2,3)12-18-20(14(22)23-12)11-7-6-9(8-10(11)16)17-13(21)19(4)5/h6-8H,1-5H3,(H,17,21)",
-    "chebi:inchikey": "DHWRNDJOGMTCPB-UHFFFAOYSA-N",
-    "chebi:smiles": "CN(C)C(=O)Nc1ccc(c(Cl)c1)-n1nc(oc1=O)C(C)(C)C",
-    "geneontology:hasDbXref": [
-        "CAS:34205-21-5",
-        "KEGG:C18783",
-        "PPDB:237"
-    ],
-    "geneontology:hasId": "81957",
-    "geneontology:inSubset": {
-        "@id": "obo:chebi#2_STAR"
-    },
-    "rdfs:label": "Dimefuron",
-    "rdfs:subClassOf": {
-        "@id": "obo:CHEBI_47857"
+        "obo": "http://purl.obolibrary.org/obo/",
+        "uniprot": "http://purl.uniprot.org/",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "concept": "https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/",
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "dbo": "http://dbpedia.org/ontology/",
+        "dbp": "http://dbpedia.org/property/",
+        "graph": {
+            "@id": "@graph"
+        }
     }
 }

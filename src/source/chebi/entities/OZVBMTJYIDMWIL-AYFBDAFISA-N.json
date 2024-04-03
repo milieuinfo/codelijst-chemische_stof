@@ -1,31 +1,31 @@
 {
     "@context": {
-        "chebi": "http://purl.obolibrary.org/obo/chebi/",
         "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
         "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-        "obo": "http://purl.obolibrary.org/obo/"
+        "obo": "http://purl.obolibrary.org/obo/",
+        "uniprot": "http://purl.uniprot.org/",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "concept": "https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/",
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "dbo": "http://dbpedia.org/ontology/",
+        "dbp": "http://dbpedia.org/property/",
+        "altLabel": {
+            "@id": "http://www.w3.org/2004/02/skos/core#altLabel",
+            "@language": "en"
+        },
+        "graph": {
+            "@id": "@graph"
+        }
     },
-    "@id": "obo:CHEBI_3181",
-    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "@id": "concept:OZVBMTJYIDMWIL-AYFBDAFISA-N",
+    "@type": "skos:Concept",
+    "dbo:formula": "C32H40BrN5O5",
+    "dbo:inchi": "InChI=1S/C32H40BrN5O5/c1-16(2)12-24-29(40)37-11-7-10-25(37)32(42)38(24)30(41)31(43-32,17(3)4)35-28(39)18-13-20-19-8-6-9-22-26(19)21(27(33)34-22)14-23(20)36(5)15-18/h6,8-9,13,16-18,23-25,34,42H,7,10-12,14-15H2,1-5H3,(H,35,39)/t18-,23-,24+,25+,31-,32+/m1/s1",
+    "dbo:smiles": "[H][C@@]12Cc3c(Br)[nH]c4cccc(C1=C[C@H](CN2C)C(=O)N[C@@]1(O[C@]2(O)N([C@@H](CC(C)C)C(=O)N5CCC[C@@]25[H])C1=O)C(C)C)c34",
+    "dbp:inchikey": "OZVBMTJYIDMWIL-AYFBDAFISA-N",
     "chebi:charge": "0",
-    "chebi:formula": "C32H40BrN5O5",
-    "chebi:inchi": "InChI=1S/C32H40BrN5O5/c1-16(2)12-24-29(40)37-11-7-10-25(37)32(42)38(24)30(41)31(43-32,17(3)4)35-28(39)18-13-20-19-8-6-9-22-26(19)21(27(33)34-22)14-23(20)36(5)15-18/h6,8-9,13,16-18,23-25,34,42H,7,10-12,14-15H2,1-5H3,(H,35,39)/t18-,23-,24+,25+,31-,32+/m1/s1",
-    "chebi:inchikey": "OZVBMTJYIDMWIL-AYFBDAFISA-N",
-    "chebi:smiles": "[H][C@@]12Cc3c(Br)[nH]c4cccc(C1=C[C@H](CN2C)C(=O)N[C@@]1(O[C@]2(O)N([C@@H](CC(C)C)C(=O)N5CCC[C@@]25[H])C1=O)C(C)C)c34",
-    "geneontology:hasDbXref": [
-        "Beilstein:741357",
-        "CAS:25614-03-3",
-        "Drug_Central:403",
-        "DrugBank:DB01200",
-        "KEGG:C06856",
-        "KEGG:D03165",
-        "LINCS:LSM-6550",
-        "Patent:DE1926045",
-        "Patent:US3752814",
-        "Wikipedia:Bromocriptine"
-    ],
-    "geneontology:hasId": "3181",
-    "geneontology:hasSynonym": [
+    "skos:altLabel": [
         "(5'alpha)-2-bromo-12'-hydroxy-2'-(1-methylethyl)-5'-(2-methylpropyl)-3',6',18-trioxoergotaman",
         "(5'alpha)-2-bromo-12'-hydroxy-2'-(1-methylethyl)-5'-(2-methylpropyl)ergotaman-3',6',18-trione",
         "(5'alpha)-2-bromo-12'-hydroxy-5'-(2-methylpropyl)-2'-(propan-2-yl)-3',6',18-trioxoergotaman",
@@ -38,28 +38,10 @@
         "bromocryptine",
         "bromoergocriptine"
     ],
-    "geneontology:inSubset": {
-        "@id": "obo:chebi#3_STAR"
+    "skos:exactMatch": {
+        "@id": "obo:CHEBI_3181"
     },
-    "rdfs:label": "bromocriptine",
-    "rdfs:subClassOf": [
-        {
-            "@id": "obo:CHEBI_38958"
-        },
-        {
-            "@id": "b102_genid-00f1db82e1ab437c844115a94dc63e635-bn3181t9f36185"
-        },
-        {
-            "@id": "b102_genid-00f1db82e1ab437c844115a94dc63e635-bn3181t11f48407"
-        },
-        {
-            "@id": "b102_genid-00f1db82e1ab437c844115a94dc63e635-bn3181t11f49020"
-        },
-        {
-            "@id": "b102_genid-00f1db82e1ab437c844115a94dc63e635-bn3181t11f51065"
-        },
-        {
-            "@id": "b102_genid-00f1db82e1ab437c844115a94dc63e635-bn3181t11f66956"
-        }
-    ]
+    "skos:semanticRelation": {
+        "@id": "obo:CHEBI_38958"
+    }
 }

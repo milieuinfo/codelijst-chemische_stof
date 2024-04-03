@@ -1,30 +1,21 @@
 {
     "@context": {
-        "chebi": "http://purl.obolibrary.org/obo/chebi/",
         "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
         "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-        "obo": "http://purl.obolibrary.org/obo/"
-    },
-    "@id": "obo:CHEBI_31306",
-    "@type": "http://www.w3.org/2002/07/owl#Class",
-    "chebi:charge": "0",
-    "chebi:formula": "C3H6BrNO4",
-    "chebi:inchi": "InChI=1S/C3H6BrNO4/c4-3(1-6,2-7)5(8)9/h6-7H,1-2H2",
-    "chebi:inchikey": "LVDKZNITIUWNER-UHFFFAOYSA-N",
-    "chebi:smiles": "OCC(Br)(CO)[N+]([O-])=O",
-    "geneontology:hasDbXref": [
-        "CAS:52-51-7",
-        "KEGG:C13034",
-        "KEGG:D01577",
-        "PPDB:98",
-        "VSDB:98"
-    ],
-    "geneontology:hasId": "31306",
-    "geneontology:inSubset": {
-        "@id": "obo:chebi#2_STAR"
-    },
-    "rdfs:label": "Bronopol",
-    "rdfs:subClassOf": {
-        "@id": "obo:CHEBI_35715"
+        "obo": "http://purl.obolibrary.org/obo/",
+        "uniprot": "http://purl.uniprot.org/",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "concept": "https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/",
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "dbo": "http://dbpedia.org/ontology/",
+        "dbp": "http://dbpedia.org/property/",
+        "altLabel": {
+            "@id": "http://www.w3.org/2004/02/skos/core#altLabel",
+            "@language": "en"
+        },
+        "graph": {
+            "@id": "@graph"
+        }
     }
 }

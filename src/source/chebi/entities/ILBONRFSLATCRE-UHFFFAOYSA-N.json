@@ -1,28 +1,21 @@
 {
     "@context": {
-        "chebi": "http://purl.obolibrary.org/obo/chebi/",
         "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
         "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-        "obo": "http://purl.obolibrary.org/obo/"
-    },
-    "@id": "obo:CHEBI_82145",
-    "@type": "http://www.w3.org/2002/07/owl#Class",
-    "chebi:charge": "0",
-    "chebi:formula": "C7H14NO3PS2",
-    "chebi:inchi": "InChI=1S/C7H14NO3PS2/c1-3-10-12(9,11-4-2)8-7-13-5-6-14-7/h3-6H2,1-2H3",
-    "chebi:inchikey": "ILBONRFSLATCRE-UHFFFAOYSA-N",
-    "chebi:smiles": "CCOP(=O)(OCC)N=C1SCCS1",
-    "geneontology:hasDbXref": [
-        "CAS:947-02-4",
-        "KEGG:C19011",
-        "PPDB:2841"
-    ],
-    "geneontology:hasId": "82145",
-    "geneontology:inSubset": {
-        "@id": "obo:chebi#2_STAR"
-    },
-    "rdfs:label": "Phosfolan",
-    "rdfs:subClassOf": {
-        "@id": "obo:CHEBI_37734"
+        "obo": "http://purl.obolibrary.org/obo/",
+        "uniprot": "http://purl.uniprot.org/",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "concept": "https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/",
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "dbo": "http://dbpedia.org/ontology/",
+        "dbp": "http://dbpedia.org/property/",
+        "altLabel": {
+            "@id": "http://www.w3.org/2004/02/skos/core#altLabel",
+            "@language": "en"
+        },
+        "graph": {
+            "@id": "@graph"
+        }
     }
 }

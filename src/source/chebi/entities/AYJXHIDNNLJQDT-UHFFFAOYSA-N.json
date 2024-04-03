@@ -1,29 +1,31 @@
 {
     "@context": {
-        "chebi": "http://purl.obolibrary.org/obo/chebi/",
         "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
         "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-        "obo": "http://purl.obolibrary.org/obo/"
+        "obo": "http://purl.obolibrary.org/obo/",
+        "uniprot": "http://purl.uniprot.org/",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "concept": "https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/",
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "dbo": "http://dbpedia.org/ontology/",
+        "dbp": "http://dbpedia.org/property/",
+        "graph": {
+            "@id": "@graph"
+        }
     },
-    "@id": "obo:CHEBI_179251",
-    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "@id": "concept:AYJXHIDNNLJQDT-UHFFFAOYSA-N",
+    "@type": "skos:Concept",
+    "dbo:formula": "C9H12O2",
+    "dbo:inchi": "InChI=1S/C9H12O2/c1-6-4-7(10)5-9(2,3)8(6)11/h4H,5H2,1-3H3",
+    "dbo:smiles": "O=C1C(CC(=O)C=C1C)(C)C",
+    "dbp:inchikey": "AYJXHIDNNLJQDT-UHFFFAOYSA-N",
     "chebi:charge": "0",
-    "chebi:formula": "C9H12O2",
-    "chebi:inchi": "InChI=1S/C9H12O2/c1-6-4-7(10)5-9(2,3)8(6)11/h4H,5H2,1-3H3",
-    "chebi:inchikey": "AYJXHIDNNLJQDT-UHFFFAOYSA-N",
-    "chebi:smiles": "O=C1C(CC(=O)C=C1C)(C)C",
-    "geneontology:hasDbXref": [
-        "CAS:1125-21-9",
-        "Chemspider:56162",
-        "HMDB:HMDB0040216"
-    ],
-    "geneontology:hasId": "179251",
-    "geneontology:hasSynonym": "2,6,6-trimethylcyclohex-2-ene-1,4-dione",
-    "geneontology:inSubset": {
-        "@id": "obo:chebi#2_STAR"
+    "skos:altLabel": "2,6,6-trimethylcyclohex-2-ene-1,4-dione",
+    "skos:exactMatch": {
+        "@id": "obo:CHEBI_179251"
     },
-    "rdfs:label": "2,6,6-Trimethyl-2-cyclohexene-1,4-dione",
-    "rdfs:subClassOf": {
+    "skos:semanticRelation": {
         "@id": "obo:CHEBI_48953"
     }
 }

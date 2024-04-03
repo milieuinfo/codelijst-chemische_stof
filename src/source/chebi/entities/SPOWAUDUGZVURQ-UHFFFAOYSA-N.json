@@ -1,35 +1,36 @@
 {
     "@context": {
-        "chebi": "http://purl.obolibrary.org/obo/chebi/",
         "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
         "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-        "obo": "http://purl.obolibrary.org/obo/"
-    },
-    "@id": "obo:CHEBI_19389",
-    "@type": "http://www.w3.org/2002/07/owl#Class",
-    "obo:IAO_0000115": "A member of the class of amino-nitrotoluenes that is 2,6-diaminotoluene bearing a nitro substituent at position 4.",
-    "chebi:charge": "0",
-    "chebi:formula": "C7H9N3O2",
-    "chebi:inchi": "InChI=1S/C7H9N3O2/c1-4-6(8)2-5(10(11)12)3-7(4)9/h2-3H,8-9H2,1H3",
-    "chebi:inchikey": "SPOWAUDUGZVURQ-UHFFFAOYSA-N",
-    "chebi:smiles": "Cc1c(N)cc(cc1N)[N+]([O-])=O",
-    "geneontology:hasDbXref": [
-        "CAS:59229-75-3",
-        "KEGG:C16397",
-        "Reaxys:2724113"
-    ],
-    "geneontology:hasId": "19389",
-    "geneontology:hasSynonym": "4-Nitro-2,6-toluenediamine",
-    "geneontology:inSubset": {
-        "@id": "obo:chebi#3_STAR"
-    },
-    "rdfs:label": "2,6-diamino-4-nitrotoluene",
-    "rdfs:subClassOf": [
-        {
-            "@id": "obo:CHEBI_22482"
+        "obo": "http://purl.obolibrary.org/obo/",
+        "uniprot": "http://purl.uniprot.org/",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "concept": "https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/",
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "dbo": "http://dbpedia.org/ontology/",
+        "dbp": "http://dbpedia.org/property/",
+        "altLabel": {
+            "@id": "http://www.w3.org/2004/02/skos/core#altLabel",
+            "@language": "en"
         },
-        {
-            "@id": "b649_genid-00f1db82e1ab437c844115a94dc63e635-bn19389t11f76206"
+        "graph": {
+            "@id": "@graph"
         }
-    ]
+    },
+    "@id": "concept:SPOWAUDUGZVURQ-UHFFFAOYSA-N",
+    "@type": "skos:Concept",
+    "dbo:formula": "C7H9N3O2",
+    "dbo:inchi": "InChI=1S/C7H9N3O2/c1-4-6(8)2-5(10(11)12)3-7(4)9/h2-3H,8-9H2,1H3",
+    "dbo:smiles": "Cc1c(N)cc(cc1N)[N+]([O-])=O",
+    "dbp:inchikey": "SPOWAUDUGZVURQ-UHFFFAOYSA-N",
+    "chebi:charge": "0",
+    "skos:altLabel": "4-Nitro-2,6-toluenediamine",
+    "skos:exactMatch": {
+        "@id": "obo:CHEBI_19389"
+    },
+    "skos:note": "A member of the class of amino-nitrotoluenes that is 2,6-diaminotoluene bearing a nitro substituent at position 4.",
+    "skos:semanticRelation": {
+        "@id": "obo:CHEBI_22482"
+    }
 }

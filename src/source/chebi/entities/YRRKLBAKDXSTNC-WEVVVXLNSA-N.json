@@ -1,27 +1,21 @@
 {
     "@context": {
-        "chebi": "http://purl.obolibrary.org/obo/chebi/",
         "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
         "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-        "obo": "http://purl.obolibrary.org/obo/"
-    },
-    "@id": "obo:CHEBI_82051",
-    "@type": "http://www.w3.org/2002/07/owl#Class",
-    "chebi:charge": "0",
-    "chebi:formula": "C7H14N2O4S",
-    "chebi:inchi": "InChI=1S/C7H14N2O4S/c1-7(2,14(4,11)12)5-9-13-6(10)8-3/h5H,1-4H3,(H,8,10)/b9-5+",
-    "chebi:inchikey": "YRRKLBAKDXSTNC-WEVVVXLNSA-N",
-    "chebi:smiles": "CNC(=O)O\\N=C\\C(C)(C)S(C)(=O)=O",
-    "geneontology:hasDbXref": [
-        "CAS:1646-88-4",
-        "KEGG:C18906"
-    ],
-    "geneontology:hasId": "82051",
-    "geneontology:inSubset": {
-        "@id": "obo:chebi#2_STAR"
-    },
-    "rdfs:label": "Aldoxycarb",
-    "rdfs:subClassOf": {
-        "@id": "obo:CHEBI_35850"
+        "obo": "http://purl.obolibrary.org/obo/",
+        "uniprot": "http://purl.uniprot.org/",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "concept": "https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/",
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "dbo": "http://dbpedia.org/ontology/",
+        "dbp": "http://dbpedia.org/property/",
+        "altLabel": {
+            "@id": "http://www.w3.org/2004/02/skos/core#altLabel",
+            "@language": "en"
+        },
+        "graph": {
+            "@id": "@graph"
+        }
     }
 }

@@ -1,28 +1,31 @@
 {
     "@context": {
-        "chebi": "http://purl.obolibrary.org/obo/chebi/",
         "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
         "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-        "obo": "http://purl.obolibrary.org/obo/"
+        "obo": "http://purl.obolibrary.org/obo/",
+        "uniprot": "http://purl.uniprot.org/",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "concept": "https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/",
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "dbo": "http://dbpedia.org/ontology/",
+        "dbp": "http://dbpedia.org/property/",
+        "graph": {
+            "@id": "@graph"
+        }
     },
-    "@id": "obo:CHEBI_39358",
-    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "@id": "concept:AKLOLDQYWQAREW-UHFFFAOYSA-N",
+    "@type": "skos:Concept",
+    "dbo:formula": "C6H4N2O5",
+    "dbo:inchi": "InChI=1S/C6H4N2O5/c9-4-1-2-5(7(10)11)6(3-4)8(12)13/h1-3,9H",
+    "dbo:smiles": "Oc1ccc(c(c1)[N+]([O-])=O)[N+]([O-])=O",
+    "dbp:inchikey": "AKLOLDQYWQAREW-UHFFFAOYSA-N",
     "chebi:charge": "0",
-    "chebi:formula": "C6H4N2O5",
-    "chebi:inchi": "InChI=1S/C6H4N2O5/c9-4-1-2-5(7(10)11)6(3-4)8(12)13/h1-3,9H",
-    "chebi:inchikey": "AKLOLDQYWQAREW-UHFFFAOYSA-N",
-    "chebi:smiles": "Oc1ccc(c(c1)[N+]([O-])=O)[N+]([O-])=O",
-    "geneontology:hasDbXref": [
-        "Beilstein:1969398",
-        "CAS:577-71-9"
-    ],
-    "geneontology:hasId": "39358",
-    "geneontology:hasSynonym": "3,4-DNP",
-    "geneontology:inSubset": {
-        "@id": "obo:chebi#3_STAR"
+    "skos:altLabel": "3,4-DNP",
+    "skos:exactMatch": {
+        "@id": "obo:CHEBI_39358"
     },
-    "rdfs:label": "3,4-dinitrophenol",
-    "rdfs:subClassOf": {
+    "skos:semanticRelation": {
         "@id": "obo:CHEBI_39352"
     }
 }

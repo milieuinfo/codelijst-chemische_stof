@@ -1,37 +1,31 @@
 {
     "@context": {
-        "chebi": "http://purl.obolibrary.org/obo/chebi/",
         "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
         "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-        "obo": "http://purl.obolibrary.org/obo/"
+        "obo": "http://purl.obolibrary.org/obo/",
+        "uniprot": "http://purl.uniprot.org/",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "concept": "https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/",
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "dbo": "http://dbpedia.org/ontology/",
+        "dbp": "http://dbpedia.org/property/",
+        "altLabel": {
+            "@id": "http://www.w3.org/2004/02/skos/core#altLabel",
+            "@language": "en"
+        },
+        "graph": {
+            "@id": "@graph"
+        }
     },
-    "@id": "obo:CHEBI_102130",
-    "@type": "http://www.w3.org/2002/07/owl#Class",
-    "obo:IAO_0000115": "A sulfonamide consisting of pyrimidine with a methyl substituent at the 4-position and a 4-aminobenzenesulfonamido group at the 2-position.",
+    "@id": "concept:QPPBRPIAZZHUNT-UHFFFAOYSA-N",
+    "@type": "skos:Concept",
+    "dbo:formula": "C11H12N4O2S",
+    "dbo:inchi": "InChI=1S/C11H12N4O2S/c1-8-6-7-13-11(14-8)15-18(16,17)10-4-2-9(12)3-5-10/h2-7H,12H2,1H3,(H,13,14,15)",
+    "dbo:smiles": "Cc1ccnc(NS(=O)(=O)c2ccc(N)cc2)n1",
+    "dbp:inchikey": "QPPBRPIAZZHUNT-UHFFFAOYSA-N",
     "chebi:charge": "0",
-    "chebi:formula": "C11H12N4O2S",
-    "chebi:inchi": "InChI=1S/C11H12N4O2S/c1-8-6-7-13-11(14-8)15-18(16,17)10-4-2-9(12)3-5-10/h2-7H,12H2,1H3,(H,13,14,15)",
-    "chebi:inchikey": "QPPBRPIAZZHUNT-UHFFFAOYSA-N",
-    "chebi:smiles": "Cc1ccnc(NS(=O)(=O)c2ccc(N)cc2)n1",
-    "geneontology:hasDbXref": [
-        "PMID:11431418",
-        "PMID:2434548",
-        "PMID:6864729",
-        "Patent:US2407966",
-        "PMID:13037579",
-        "Beilstein:249133",
-        "CAS:127-79-7",
-        "Drug_Central:2510",
-        "DrugBank:DB01581",
-        "Gmelin:219949",
-        "KEGG:D02435",
-        "LINCS:LSM-5979",
-        "PMID:23627444",
-        "PMID:24508883",
-        "Wikipedia:Sulfamerazine"
-    ],
-    "geneontology:hasId": "102130",
-    "geneontology:hasSynonym": [
+    "skos:altLabel": [
         "(p-Aminobenzolsulfonyl)-2-amino-4-methylpyrimidin",
         "2-(4-Aminobenzenesulfonamido)-4-methylpyrimidine",
         "2-(p-Aminobenzolsulfonamido)-4-methylpyrimidine",
@@ -46,11 +40,11 @@
         "Sulfamethyldiazine",
         "Sulphamerazine"
     ],
-    "geneontology:inSubset": {
-        "@id": "obo:chebi#3_STAR"
+    "skos:exactMatch": {
+        "@id": "obo:CHEBI_102130"
     },
-    "rdfs:label": "sulfamerazine",
-    "rdfs:subClassOf": [
+    "skos:note": "A sulfonamide consisting of pyrimidine with a methyl substituent at the 4-position and a 4-aminobenzenesulfonamido group at the 2-position.",
+    "skos:semanticRelation": [
         {
             "@id": "obo:CHEBI_39447"
         },
@@ -59,15 +53,6 @@
         },
         {
             "@id": "obo:CHEBI_87228"
-        },
-        {
-            "@id": "b331_genid-00f1db82e1ab437c844115a94dc63e635-bn102130t11f35441"
-        },
-        {
-            "@id": "b331_genid-00f1db82e1ab437c844115a94dc63e635-bn102130t8f45373"
-        },
-        {
-            "@id": "b331_genid-00f1db82e1ab437c844115a94dc63e635-bn102130t11f88188"
         }
     ]
 }

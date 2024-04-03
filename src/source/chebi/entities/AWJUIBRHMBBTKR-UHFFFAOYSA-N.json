@@ -1,33 +1,27 @@
 {
     "@context": {
-        "chebi": "http://purl.obolibrary.org/obo/chebi/",
         "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
         "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-        "obo": "http://purl.obolibrary.org/obo/"
+        "obo": "http://purl.obolibrary.org/obo/",
+        "uniprot": "http://purl.uniprot.org/",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "concept": "https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/",
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "dbo": "http://dbpedia.org/ontology/",
+        "dbp": "http://dbpedia.org/property/",
+        "graph": {
+            "@id": "@graph"
+        }
     },
-    "@id": "obo:CHEBI_16092",
-    "@type": "http://www.w3.org/2002/07/owl#Class",
-    "obo:IAO_0000115": "An ortho-fused heteroarene that is a benzopyridine in which the N atom not directly attached to the benzene ring.",
+    "@id": "concept:AWJUIBRHMBBTKR-UHFFFAOYSA-N",
+    "@type": "skos:Concept",
+    "dbo:formula": "C9H7N",
+    "dbo:inchi": "InChI=1S/C9H7N/c1-2-4-9-7-10-6-5-8(9)3-1/h1-7H",
+    "dbo:smiles": "c1ccc2cnccc2c1",
+    "dbp:inchikey": "AWJUIBRHMBBTKR-UHFFFAOYSA-N",
     "chebi:charge": "0",
-    "chebi:formula": "C9H7N",
-    "chebi:inchi": "InChI=1S/C9H7N/c1-2-4-9-7-10-6-5-8(9)3-1/h1-7H",
-    "chebi:inchikey": "AWJUIBRHMBBTKR-UHFFFAOYSA-N",
-    "chebi:smiles": "c1ccc2cnccc2c1",
-    "http://purl.uniprot.org/core/name": "isoquinoline",
-    "geneontology:hasDbXref": [
-        "Beilstein:107549",
-        "CAS:119-65-3",
-        "DrugBank:DB04329",
-        "Gmelin:3676",
-        "HMDB:HMDB0034244",
-        "KEGG:C06323",
-        "MetaCyc:ISOQUINOLINE",
-        "PDBeChem:ISQ",
-        "Reaxys:107549",
-        "Wikipedia:Isoquinoline"
-    ],
-    "geneontology:hasId": "16092",
-    "geneontology:hasSynonym": [
+    "skos:altLabel": [
         "2-benzazine",
         "2-Benzazine",
         "Benzo[c]pyridine",
@@ -35,11 +29,11 @@
         "Isoquinoline",
         "ISOQUINOLINE"
     ],
-    "geneontology:inSubset": {
-        "@id": "obo:chebi#3_STAR"
+    "skos:exactMatch": {
+        "@id": "obo:CHEBI_16092"
     },
-    "rdfs:label": "isoquinoline",
-    "rdfs:subClassOf": [
+    "skos:note": "An ortho-fused heteroarene that is a benzopyridine in which the N atom not directly attached to the benzene ring.",
+    "skos:semanticRelation": [
         {
             "@id": "obo:CHEBI_24922"
         },

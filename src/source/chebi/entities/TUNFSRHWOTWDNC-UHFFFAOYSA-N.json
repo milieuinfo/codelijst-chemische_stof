@@ -1,50 +1,31 @@
 {
     "@context": {
-        "chebi": "http://purl.obolibrary.org/obo/chebi/",
         "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
         "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-        "obo": "http://purl.obolibrary.org/obo/"
+        "obo": "http://purl.obolibrary.org/obo/",
+        "uniprot": "http://purl.uniprot.org/",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "concept": "https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/",
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "dbo": "http://dbpedia.org/ontology/",
+        "dbp": "http://dbpedia.org/property/",
+        "altLabel": {
+            "@id": "http://www.w3.org/2004/02/skos/core#altLabel",
+            "@language": "en"
+        },
+        "graph": {
+            "@id": "@graph"
+        }
     },
-    "@id": "obo:CHEBI_28875",
-    "@type": "http://www.w3.org/2002/07/owl#Class",
-    "obo:IAO_0000115": "A straight-chain, fourteen-carbon, long-chain saturated fatty acid mostly found in milk fat.",
+    "@id": "concept:TUNFSRHWOTWDNC-UHFFFAOYSA-N",
+    "@type": "skos:Concept",
+    "dbo:formula": "C14H28O2",
+    "dbo:inchi": "InChI=1S/C14H28O2/c1-2-3-4-5-6-7-8-9-10-11-12-13-14(15)16/h2-13H2,1H3,(H,15,16)",
+    "dbo:smiles": "CCCCCCCCCCCCCC(O)=O",
+    "dbp:inchikey": "TUNFSRHWOTWDNC-UHFFFAOYSA-N",
     "chebi:charge": "0",
-    "chebi:formula": "C14H28O2",
-    "chebi:inchi": "InChI=1S/C14H28O2/c1-2-3-4-5-6-7-8-9-10-11-12-13-14(15)16/h2-13H2,1H3,(H,15,16)",
-    "chebi:inchikey": "TUNFSRHWOTWDNC-UHFFFAOYSA-N",
-    "chebi:smiles": "CCCCCCCCCCCCCC(O)=O",
-    "geneontology:hasDbXref": [
-        "PMID:15149689",
-        "PMID:16509590",
-        "PMID:28600633",
-        "PMID:20920594",
-        "PMID:19761868",
-        "Beilstein:508624",
-        "CAS:544-63-8",
-        "DrugBank:DB08231",
-        "Gmelin:242115",
-        "HMDB:HMDB0000806",
-        "KEGG:C06424",
-        "KNApSAcK:C00001228",
-        "LIPID_MAPS_instance:LMFA01010014",
-        "MetaCyc:CPD-7836",
-        "PDBeChem:MYR",
-        "PMID:13129458",
-        "PMID:16554156",
-        "PMID:19154695",
-        "PMID:19786012",
-        "PMID:19902021",
-        "PMID:19955401",
-        "PMID:20634506",
-        "PMID:21955528",
-        "PMID:22030224",
-        "PMID:27206979",
-        "PMID:6802973",
-        "Reaxys:508624",
-        "Wikipedia:Myristic_acid"
-    ],
-    "geneontology:hasId": "28875",
-    "geneontology:hasSynonym": [
+    "skos:altLabel": [
         "14",
         "14:0",
         "14:00",
@@ -62,34 +43,16 @@
         "Tetradecanoic acid",
         "tetradecoic acid"
     ],
-    "geneontology:inSubset": {
-        "@id": "obo:chebi#3_STAR"
+    "skos:exactMatch": {
+        "@id": "obo:CHEBI_28875"
     },
-    "rdfs:label": "tetradecanoic acid",
-    "rdfs:subClassOf": [
+    "skos:note": "A straight-chain, fourteen-carbon, long-chain saturated fatty acid mostly found in milk fat.",
+    "skos:semanticRelation": [
         {
             "@id": "obo:CHEBI_15904"
         },
         {
             "@id": "obo:CHEBI_39418"
-        },
-        {
-            "@id": "b716_genid-00f1db82e1ab437c844115a94dc63e635-bn28875tmms73f30807"
-        },
-        {
-            "@id": "b716_genid-00f1db82e1ab437c844115a94dc63e635-bn28875t4f30807"
-        },
-        {
-            "@id": "b716_genid-00f1db82e1ab437c844115a94dc63e635-bn28875t11f77746"
-        },
-        {
-            "@id": "b716_genid-00f1db82e1ab437c844115a94dc63e635-bn28875t11f78444"
-        },
-        {
-            "@id": "b716_genid-00f1db82e1ab437c844115a94dc63e635-bn28875t11f83056"
-        },
-        {
-            "@id": "b716_genid-00f1db82e1ab437c844115a94dc63e635-bn28875t11f84735"
         }
     ]
 }

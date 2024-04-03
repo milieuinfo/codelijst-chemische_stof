@@ -1,27 +1,21 @@
 {
     "@context": {
-        "chebi": "http://purl.obolibrary.org/obo/chebi/",
         "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
         "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-        "obo": "http://purl.obolibrary.org/obo/"
-    },
-    "@id": "obo:CHEBI_92609",
-    "@type": "http://www.w3.org/2002/07/owl#Class",
-    "chebi:charge": "0",
-    "chebi:formula": "C24H34N4O5S",
-    "chebi:inchi": "InChI=1S/C24H34N4O5S/c1-4-21-17(3)15-28(22(21)29)24(31)25-14-13-18-7-11-20(12-8-18)34(32,33)27-23(30)26-19-9-5-16(2)6-10-19/h7-8,11-12,16,19H,4-6,9-10,13-15H2,1-3H3,(H,25,31)(H2,26,27,30)",
-    "chebi:inchikey": "WIGIZIANZCJQQY-UHFFFAOYSA-N",
-    "chebi:smiles": "CCC1=C(CN(C1=O)C(=O)NCCC2=CC=C(C=C2)S(=O)(=O)NC(=O)NC3CCC(CC3)C)C",
-    "geneontology:hasDbXref": [
-        "HMDB:HMDB0014367",
-        "LINCS:LSM-2760"
-    ],
-    "geneontology:hasId": "92609",
-    "geneontology:inSubset": {
-        "@id": "obo:chebi#2_STAR"
-    },
-    "rdfs:label": "4-ethyl-3-methyl-N-[2-[4-[[[(4-methylcyclohexyl)amino]-oxomethyl]sulfamoyl]phenyl]ethyl]-5-oxo-2H-pyrrole-1-carboxamide",
-    "rdfs:subClassOf": {
-        "@id": "obo:CHEBI_35358"
+        "obo": "http://purl.obolibrary.org/obo/",
+        "uniprot": "http://purl.uniprot.org/",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "concept": "https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/",
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "dbo": "http://dbpedia.org/ontology/",
+        "dbp": "http://dbpedia.org/property/",
+        "altLabel": {
+            "@id": "http://www.w3.org/2004/02/skos/core#altLabel",
+            "@language": "en"
+        },
+        "graph": {
+            "@id": "@graph"
+        }
     }
 }

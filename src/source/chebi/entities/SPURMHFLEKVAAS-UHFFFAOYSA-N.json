@@ -1,38 +1,36 @@
 {
     "@context": {
-        "chebi": "http://purl.obolibrary.org/obo/chebi/",
         "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
         "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-        "obo": "http://purl.obolibrary.org/obo/"
-    },
-    "@id": "obo:CHEBI_84220",
-    "@type": "http://www.w3.org/2002/07/owl#Class",
-    "obo:IAO_0000115": "An alkene that is docosane with an unsaturation at position 1. Metabolite observed in cancer metabolism.",
-    "chebi:charge": "0",
-    "chebi:formula": "C22H44",
-    "chebi:inchi": "InChI=1S/C22H44/c1-3-5-7-9-11-13-15-17-19-21-22-20-18-16-14-12-10-8-6-4-2/h3H,1,4-22H2,2H3",
-    "chebi:inchikey": "SPURMHFLEKVAAS-UHFFFAOYSA-N",
-    "chebi:smiles": "CCCCCCCCCCCCCCCCCCCCC=C",
-    "geneontology:hasDbXref": [
-        "PMID:25518943",
-        "AGR:IND44243411",
-        "CAS:1599-67-3",
-        "LIPID_MAPS_instance:LMFA11000312",
-        "PMID:19475337",
-        "Reaxys:1775030"
-    ],
-    "geneontology:hasId": "84220",
-    "geneontology:hasSynonym": "docos-1-ene",
-    "geneontology:inSubset": {
-        "@id": "obo:chebi#3_STAR"
-    },
-    "rdfs:label": "1-docosene",
-    "rdfs:subClassOf": [
-        {
-            "@id": "obo:CHEBI_32878"
+        "obo": "http://purl.obolibrary.org/obo/",
+        "uniprot": "http://purl.uniprot.org/",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "concept": "https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/",
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "dbo": "http://dbpedia.org/ontology/",
+        "dbp": "http://dbpedia.org/property/",
+        "altLabel": {
+            "@id": "http://www.w3.org/2004/02/skos/core#altLabel",
+            "@language": "en"
         },
-        {
-            "@id": "b652_genid-00f1db82e1ab437c844115a94dc63e635-bn84220t11f77746"
+        "graph": {
+            "@id": "@graph"
         }
-    ]
+    },
+    "@id": "concept:SPURMHFLEKVAAS-UHFFFAOYSA-N",
+    "@type": "skos:Concept",
+    "dbo:formula": "C22H44",
+    "dbo:inchi": "InChI=1S/C22H44/c1-3-5-7-9-11-13-15-17-19-21-22-20-18-16-14-12-10-8-6-4-2/h3H,1,4-22H2,2H3",
+    "dbo:smiles": "CCCCCCCCCCCCCCCCCCCCC=C",
+    "dbp:inchikey": "SPURMHFLEKVAAS-UHFFFAOYSA-N",
+    "chebi:charge": "0",
+    "skos:altLabel": "docos-1-ene",
+    "skos:exactMatch": {
+        "@id": "obo:CHEBI_84220"
+    },
+    "skos:note": "An alkene that is docosane with an unsaturation at position 1. Metabolite observed in cancer metabolism.",
+    "skos:semanticRelation": {
+        "@id": "obo:CHEBI_32878"
+    }
 }

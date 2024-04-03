@@ -1,24 +1,27 @@
 {
     "@context": {
-        "chebi": "http://purl.obolibrary.org/obo/chebi/",
         "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
         "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-        "obo": "http://purl.obolibrary.org/obo/"
+        "obo": "http://purl.obolibrary.org/obo/",
+        "uniprot": "http://purl.uniprot.org/",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "concept": "https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/",
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "dbo": "http://dbpedia.org/ontology/",
+        "dbp": "http://dbpedia.org/property/",
+        "graph": {
+            "@id": "@graph"
+        }
     },
-    "@id": "obo:CHEBI_50098",
-    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "@id": "concept:GBHCABUWWQUMAJ-UHFFFAOYSA-N",
+    "@type": "skos:Concept",
+    "dbo:formula": "C2H8N2O",
+    "dbo:inchi": "InChI=1S/C2H8N2O/c3-4-1-2-5/h4-5H,1-3H2",
+    "dbo:smiles": "NNCCO",
+    "dbp:inchikey": "GBHCABUWWQUMAJ-UHFFFAOYSA-N",
     "chebi:charge": "0",
-    "chebi:formula": "C2H8N2O",
-    "chebi:inchi": "InChI=1S/C2H8N2O/c3-4-1-2-5/h4-5H,1-3H2",
-    "chebi:inchikey": "GBHCABUWWQUMAJ-UHFFFAOYSA-N",
-    "chebi:smiles": "NNCCO",
-    "geneontology:hasDbXref": [
-        "Beilstein:1731669",
-        "CAS:109-84-2",
-        "PPDB:2803"
-    ],
-    "geneontology:hasId": "50098",
-    "geneontology:hasSynonym": [
+    "skos:altLabel": [
         "1-(2-Hydroxyethyl)hydrazine",
         "2-Hydrazinoethyl alcohol",
         "2-hydrazinylethanol",
@@ -28,19 +31,10 @@
         "N-(2-Hydroxyethyl)hydrazine",
         "Omaflora"
     ],
-    "geneontology:inSubset": {
-        "@id": "obo:chebi#3_STAR"
+    "skos:exactMatch": {
+        "@id": "obo:CHEBI_50098"
     },
-    "rdfs:label": "2-hydrazinoethanol",
-    "rdfs:subClassOf": [
-        {
-            "@id": "obo:CHEBI_24631"
-        },
-        {
-            "@id": "b692_genid-00f1db82e1ab437c844115a94dc63e635-bn50098t8f16236"
-        },
-        {
-            "@id": "b692_genid-00f1db82e1ab437c844115a94dc63e635-bn50098t11f24527"
-        }
-    ]
+    "skos:semanticRelation": {
+        "@id": "obo:CHEBI_24631"
+    }
 }

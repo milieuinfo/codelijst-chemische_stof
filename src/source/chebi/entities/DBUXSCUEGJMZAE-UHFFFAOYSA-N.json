@@ -1,27 +1,27 @@
 {
     "@context": {
-        "chebi": "http://purl.obolibrary.org/obo/chebi/",
         "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
         "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-        "obo": "http://purl.obolibrary.org/obo/"
+        "obo": "http://purl.obolibrary.org/obo/",
+        "uniprot": "http://purl.uniprot.org/",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "concept": "https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/",
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "dbo": "http://dbpedia.org/ontology/",
+        "dbp": "http://dbpedia.org/property/",
+        "graph": {
+            "@id": "@graph"
+        }
     },
-    "@id": "obo:CHEBI_49747",
-    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "@id": "concept:DBUXSCUEGJMZAE-UHFFFAOYSA-N",
+    "@type": "skos:Concept",
+    "dbo:formula": "CH3Hg",
+    "dbo:inchi": "InChI=1S/CH3.Hg/h1H3;/q;+1",
+    "dbo:smiles": "C[Hg+]",
+    "dbp:inchikey": "DBUXSCUEGJMZAE-UHFFFAOYSA-N",
     "chebi:charge": "+1",
-    "chebi:formula": "CH3Hg",
-    "chebi:inchi": "InChI=1S/CH3.Hg/h1H3;/q;+1",
-    "chebi:inchikey": "DBUXSCUEGJMZAE-UHFFFAOYSA-N",
-    "chebi:smiles": "C[Hg+]",
-    "geneontology:hasDbXref": [
-        "Beilstein:3902999",
-        "CAS:22967-92-6",
-        "DrugBank:DB03674",
-        "Gmelin:1406",
-        "KEGG:C18672",
-        "PDBeChem:MMC"
-    ],
-    "geneontology:hasId": "49747",
-    "geneontology:hasSynonym": [
+    "skos:altLabel": [
         "[HgCH3](+)",
         "[HgMe](+)",
         "CH3Hg(+)",
@@ -34,11 +34,10 @@
         "methylmercury ion(1+)",
         "monomethylmercury cation"
     ],
-    "geneontology:inSubset": {
-        "@id": "obo:chebi#3_STAR"
+    "skos:exactMatch": {
+        "@id": "obo:CHEBI_49747"
     },
-    "rdfs:label": "methylmercury(1+)",
-    "rdfs:subClassOf": {
+    "skos:semanticRelation": {
         "@id": "obo:CHEBI_25322"
     }
 }

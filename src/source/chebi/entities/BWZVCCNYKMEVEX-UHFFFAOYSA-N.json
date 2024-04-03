@@ -1,29 +1,31 @@
 {
     "@context": {
-        "chebi": "http://purl.obolibrary.org/obo/chebi/",
         "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
         "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-        "obo": "http://purl.obolibrary.org/obo/"
+        "obo": "http://purl.obolibrary.org/obo/",
+        "uniprot": "http://purl.uniprot.org/",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "concept": "https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/",
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "dbo": "http://dbpedia.org/ontology/",
+        "dbp": "http://dbpedia.org/property/",
+        "graph": {
+            "@id": "@graph"
+        }
     },
-    "@id": "obo:CHEBI_189131",
-    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "@id": "concept:BWZVCCNYKMEVEX-UHFFFAOYSA-N",
+    "@type": "skos:Concept",
+    "dbo:formula": "C8H11N",
+    "dbo:inchi": "InChI=1S/C8H11N/c1-6-4-7(2)9-8(3)5-6/h4-5H,1-3H3",
+    "dbo:smiles": "N1=C(C=C(C=C1C)C)C",
+    "dbp:inchikey": "BWZVCCNYKMEVEX-UHFFFAOYSA-N",
     "chebi:charge": "0",
-    "chebi:formula": "C8H11N",
-    "chebi:inchi": "InChI=1S/C8H11N/c1-6-4-7(2)9-8(3)5-6/h4-5H,1-3H3",
-    "chebi:inchikey": "BWZVCCNYKMEVEX-UHFFFAOYSA-N",
-    "chebi:smiles": "N1=C(C=C(C=C1C)C)C",
-    "geneontology:hasDbXref": [
-        "CAS:108-75-8",
-        "Chemspider:21106174",
-        "KEGG:D77846"
-    ],
-    "geneontology:hasId": "189131",
-    "geneontology:hasSynonym": "2,4,6-trimethylpyridine",
-    "geneontology:inSubset": {
-        "@id": "obo:chebi#2_STAR"
+    "skos:altLabel": "2,4,6-trimethylpyridine",
+    "skos:exactMatch": {
+        "@id": "obo:CHEBI_189131"
     },
-    "rdfs:label": "2,4,6-Trimethylpyridine",
-    "rdfs:subClassOf": {
+    "skos:semanticRelation": {
         "@id": "obo:CHEBI_25340"
     }
 }

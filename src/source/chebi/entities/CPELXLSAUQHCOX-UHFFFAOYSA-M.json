@@ -1,28 +1,27 @@
 {
     "@context": {
-        "chebi": "http://purl.obolibrary.org/obo/chebi/",
         "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
         "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-        "obo": "http://purl.obolibrary.org/obo/"
+        "obo": "http://purl.obolibrary.org/obo/",
+        "uniprot": "http://purl.uniprot.org/",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "concept": "https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/",
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "dbo": "http://dbpedia.org/ontology/",
+        "dbp": "http://dbpedia.org/property/",
+        "graph": {
+            "@id": "@graph"
+        }
     },
-    "@id": "obo:CHEBI_15858",
-    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "@id": "concept:CPELXLSAUQHCOX-UHFFFAOYSA-M",
+    "@type": "skos:Concept",
+    "dbo:formula": "Br",
+    "dbo:inchi": "InChI=1S/BrH/h1H/p-1",
+    "dbo:smiles": "[Br-]",
+    "dbp:inchikey": "CPELXLSAUQHCOX-UHFFFAOYSA-M",
     "chebi:charge": "-1",
-    "chebi:formula": "Br",
-    "chebi:inchi": "InChI=1S/BrH/h1H/p-1",
-    "chebi:inchikey": "CPELXLSAUQHCOX-UHFFFAOYSA-M",
-    "chebi:smiles": "[Br-]",
-    "http://purl.uniprot.org/core/name": "bromide",
-    "geneontology:hasDbXref": [
-        "Beilstein:3587179",
-        "CAS:24959-67-9",
-        "Gmelin:14908",
-        "KEGG:C00720",
-        "KEGG:C01324",
-        "PDBeChem:BR"
-    ],
-    "geneontology:hasId": "15858",
-    "geneontology:hasSynonym": [
+    "skos:altLabel": [
         "Br-",
         "Br(-)",
         "Bromide",
@@ -30,19 +29,15 @@
         "BROMIDE ION",
         "bromine anion"
     ],
-    "geneontology:inSubset": {
-        "@id": "obo:chebi#3_STAR"
+    "skos:exactMatch": {
+        "@id": "obo:CHEBI_15858"
     },
-    "rdfs:label": "bromide",
-    "rdfs:subClassOf": [
+    "skos:semanticRelation": [
         {
             "@id": "obo:CHEBI_16042"
         },
         {
             "@id": "obo:CHEBI_36896"
-        },
-        {
-            "@id": "b346_genid-00f1db82e1ab437c844115a94dc63e635-bn15858t5f47266"
         }
     ]
 }

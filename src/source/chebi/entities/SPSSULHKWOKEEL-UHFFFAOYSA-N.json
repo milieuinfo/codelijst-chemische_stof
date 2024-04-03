@@ -1,32 +1,31 @@
 {
     "@context": {
-        "chebi": "http://purl.obolibrary.org/obo/chebi/",
         "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
         "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-        "obo": "http://purl.obolibrary.org/obo/"
+        "obo": "http://purl.obolibrary.org/obo/",
+        "uniprot": "http://purl.uniprot.org/",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "concept": "https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/",
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "dbo": "http://dbpedia.org/ontology/",
+        "dbp": "http://dbpedia.org/property/",
+        "altLabel": {
+            "@id": "http://www.w3.org/2004/02/skos/core#altLabel",
+            "@language": "en"
+        },
+        "graph": {
+            "@id": "@graph"
+        }
     },
-    "@id": "obo:CHEBI_46053",
-    "@type": "http://www.w3.org/2002/07/owl#Class",
-    "obo:IAO_0000115": "A trinitrotoluene having the nitro groups at positions 2, 4 and 6.",
+    "@id": "concept:SPSSULHKWOKEEL-UHFFFAOYSA-N",
+    "@type": "skos:Concept",
+    "dbo:formula": "C7H5N3O6",
+    "dbo:inchi": "InChI=1S/C7H5N3O6/c1-4-6(9(13)14)2-5(8(11)12)3-7(4)10(15)16/h2-3H,1H3",
+    "dbo:smiles": "Cc1c(cc(cc1[N+]([O-])=O)[N+]([O-])=O)[N+]([O-])=O",
+    "dbp:inchikey": "SPSSULHKWOKEEL-UHFFFAOYSA-N",
     "chebi:charge": "0",
-    "chebi:formula": "C7H5N3O6",
-    "chebi:inchi": "InChI=1S/C7H5N3O6/c1-4-6(9(13)14)2-5(8(11)12)3-7(4)10(15)16/h2-3H,1H3",
-    "chebi:inchikey": "SPSSULHKWOKEEL-UHFFFAOYSA-N",
-    "chebi:smiles": "Cc1c(cc(cc1[N+]([O-])=O)[N+]([O-])=O)[N+]([O-])=O",
-    "geneontology:hasDbXref": [
-        "PMID:20219247",
-        "Beilstein:1887900",
-        "CAS:118-96-7",
-        "DrugBank:DB01676",
-        "KEGG:C16391",
-        "PDBeChem:TNL",
-        "PMID:19427119",
-        "PMID:28845964",
-        "Reaxys:1887900",
-        "Wikipedia:Trinitrotoluene"
-    ],
-    "geneontology:hasId": "46053",
-    "geneontology:hasSynonym": [
+    "skos:altLabel": [
         "trinitrotoluene",
         "1-methyl-2,4,6-trinitrobenzene",
         "2,4,6-TNT",
@@ -43,19 +42,11 @@
         "Tritol",
         "Trotyl"
     ],
-    "geneontology:inSubset": {
-        "@id": "obo:chebi#3_STAR"
+    "skos:exactMatch": {
+        "@id": "obo:CHEBI_46053"
     },
-    "rdfs:label": "2,4,6-trinitrotoluene",
-    "rdfs:subClassOf": [
-        {
-            "@id": "obo:CHEBI_27135"
-        },
-        {
-            "@id": "b651_genid-00f1db82e1ab437c844115a94dc63e635-bn46053t8f48113"
-        },
-        {
-            "@id": "b651_genid-00f1db82e1ab437c844115a94dc63e635-bn46053t11f63490"
-        }
-    ]
+    "skos:note": "A trinitrotoluene having the nitro groups at positions 2, 4 and 6.",
+    "skos:semanticRelation": {
+        "@id": "obo:CHEBI_27135"
+    }
 }

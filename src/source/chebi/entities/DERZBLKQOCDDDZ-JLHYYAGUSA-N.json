@@ -1,48 +1,27 @@
 {
     "@context": {
-        "chebi": "http://purl.obolibrary.org/obo/chebi/",
         "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
         "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-        "obo": "http://purl.obolibrary.org/obo/"
+        "obo": "http://purl.obolibrary.org/obo/",
+        "uniprot": "http://purl.uniprot.org/",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "concept": "https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/",
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "dbo": "http://dbpedia.org/ontology/",
+        "dbp": "http://dbpedia.org/property/",
+        "graph": {
+            "@id": "@graph"
+        }
     },
-    "@id": "obo:CHEBI_31403",
-    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "@id": "concept:DERZBLKQOCDDDZ-JLHYYAGUSA-N",
+    "@type": "skos:Concept",
+    "dbo:formula": "C26H28N2",
+    "dbo:inchi": "InChI=1S/C26H28N2/c1-4-11-23(12-5-1)13-10-18-27-19-21-28(22-20-27)26(24-14-6-2-7-15-24)25-16-8-3-9-17-25/h1-17,26H,18-22H2/b13-10+",
+    "dbo:smiles": "C1CN(CCN1C\\C=C\\c1ccccc1)C(c1ccccc1)c1ccccc1",
+    "dbp:inchikey": "DERZBLKQOCDDDZ-JLHYYAGUSA-N",
     "chebi:charge": "0",
-    "chebi:formula": "C26H28N2",
-    "chebi:inchi": "InChI=1S/C26H28N2/c1-4-11-23(12-5-1)13-10-18-27-19-21-28(22-20-27)26(24-14-6-2-7-15-24)25-16-8-3-9-17-25/h1-17,26H,18-22H2/b13-10+",
-    "chebi:inchikey": "DERZBLKQOCDDDZ-JLHYYAGUSA-N",
-    "chebi:smiles": "C1CN(CCN1C\\C=C\\c1ccccc1)C(c1ccccc1)c1ccccc1",
-    "geneontology:hasDbXref": [
-        "PMID:24134630",
-        "Beilstein:626121",
-        "CAS:298-57-7",
-        "Chemspider:1264793",
-        "Drug_Central:654",
-        "DrugBank:DB00568",
-        "KEGG:D01295",
-        "LINCS:LSM-42858",
-        "Patent:US2882271",
-        "PMID:12609783",
-        "PMID:28386684",
-        "PMID:28567501",
-        "PMID:29175776",
-        "PMID:29807074",
-        "PMID:30322124",
-        "PMID:30803454",
-        "PMID:30868302",
-        "PMID:31420703",
-        "PMID:31707814",
-        "PMID:31750127",
-        "PMID:32597267",
-        "PMID:32904111",
-        "PMID:33359616",
-        "PMID:33946152",
-        "PMID:34466453",
-        "PMID:7000939",
-        "Wikipedia:Cinnarizine"
-    ],
-    "geneontology:hasId": "31403",
-    "geneontology:hasSynonym": [
+    "skos:altLabel": [
         "1-(Diphenylmethyl)-4-(3-phenyl-2-propenyl)piperazine",
         "1-(diphenylmethyl)-4-[(2E)-3-phenylprop-2-en-1-yl]piperazine",
         "1-Benzhydryl-4-cinnamylpiperazin",
@@ -50,11 +29,10 @@
         "cinarizina",
         "cinnarizinum"
     ],
-    "geneontology:inSubset": {
-        "@id": "obo:chebi#3_STAR"
+    "skos:exactMatch": {
+        "@id": "obo:CHEBI_31403"
     },
-    "rdfs:label": "cinnarizine",
-    "rdfs:subClassOf": [
+    "skos:semanticRelation": [
         {
             "@id": "obo:CHEBI_78840"
         },
@@ -63,27 +41,6 @@
         },
         {
             "@id": "obo:CHEBI_51614"
-        },
-        {
-            "@id": "b444_genid-00f1db82e1ab437c844115a94dc63e635-bn31403t11f37955"
-        },
-        {
-            "@id": "b444_genid-00f1db82e1ab437c844115a94dc63e635-bn31403t11f37956"
-        },
-        {
-            "@id": "b444_genid-00f1db82e1ab437c844115a94dc63e635-bn31403t11f38215"
-        },
-        {
-            "@id": "b444_genid-00f1db82e1ab437c844115a94dc63e635-bn31403t11f48876"
-        },
-        {
-            "@id": "b444_genid-00f1db82e1ab437c844115a94dc63e635-bn31403t11f50857"
-        },
-        {
-            "@id": "b444_genid-00f1db82e1ab437c844115a94dc63e635-bn31403t11f50919"
-        },
-        {
-            "@id": "b444_genid-00f1db82e1ab437c844115a94dc63e635-bn31403t11f176497"
         }
     ]
 }

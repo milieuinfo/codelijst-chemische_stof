@@ -1,54 +1,43 @@
 {
     "@context": {
-        "chebi": "http://purl.obolibrary.org/obo/chebi/",
         "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
         "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-        "obo": "http://purl.obolibrary.org/obo/"
+        "obo": "http://purl.obolibrary.org/obo/",
+        "uniprot": "http://purl.uniprot.org/",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "concept": "https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/",
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "dbo": "http://dbpedia.org/ontology/",
+        "dbp": "http://dbpedia.org/property/",
+        "graph": {
+            "@id": "@graph"
+        }
     },
-    "@id": "obo:CHEBI_77052",
-    "@type": "http://www.w3.org/2002/07/owl#Class",
-    "obo:IAO_0000115": "A pyridinium salt that has N-hexadecylpyridinium as the cation and bromide as the anion.",
+    "@id": "concept:DVBJBNKEBPCGSY-UHFFFAOYSA-M",
+    "@type": "skos:Concept",
+    "dbo:formula": "C21H38BrN",
+    "dbo:inchi": "InChI=1S/C21H38N.BrH/c1-2-3-4-5-6-7-8-9-10-11-12-13-14-16-19-22-20-17-15-18-21-22;/h15,17-18,20-21H,2-14,16,19H2,1H3;1H/q+1;/p-1",
+    "dbo:smiles": "[Br-].CCCCCCCCCCCCCCCC[n+]1ccccc1",
+    "dbp:inchikey": "DVBJBNKEBPCGSY-UHFFFAOYSA-M",
     "chebi:charge": "0",
-    "chebi:formula": "C21H38BrN",
-    "chebi:inchi": "InChI=1S/C21H38N.BrH/c1-2-3-4-5-6-7-8-9-10-11-12-13-14-16-19-22-20-17-15-18-21-22;/h15,17-18,20-21H,2-14,16,19H2,1H3;1H/q+1;/p-1",
-    "chebi:inchikey": "DVBJBNKEBPCGSY-UHFFFAOYSA-M",
-    "chebi:smiles": "[Br-].CCCCCCCCCCCCCCCC[n+]1ccccc1",
-    "geneontology:hasDbXref": [
-        "CAS:140-72-7",
-        "PMID:15731386",
-        "PMID:21174962",
-        "PMID:21237561",
-        "PMID:21482290",
-        "PMID:23676386",
-        "Reaxys:3778948"
-    ],
-    "geneontology:hasId": "77052",
-    "geneontology:hasSynonym": [
+    "skos:altLabel": [
         "1-cetylpyridinium bromide",
         "1-hexadecylpyridinium bromide",
         "hexadecylpyridinium bromide",
         "N-cetylpyridinium bromide",
         "N-hexadecylpyridinium bromide"
     ],
-    "geneontology:inSubset": {
-        "@id": "obo:chebi#3_STAR"
+    "skos:exactMatch": {
+        "@id": "obo:CHEBI_77052"
     },
-    "rdfs:label": "cetylpyridinium bromide",
-    "rdfs:subClassOf": [
+    "skos:note": "A pyridinium salt that has N-hexadecylpyridinium as the cation and bromide as the anion.",
+    "skos:semanticRelation": [
         {
             "@id": "obo:CHEBI_22925"
         },
         {
             "@id": "obo:CHEBI_38188"
-        },
-        {
-            "@id": "b540_genid-00f1db82e1ab437c844115a94dc63e635-bn77052t11f35195"
-        },
-        {
-            "@id": "b540_genid-00f1db82e1ab437c844115a94dc63e635-bn77052t11f48218"
-        },
-        {
-            "@id": "b540_genid-00f1db82e1ab437c844115a94dc63e635-bn77052t11f78763"
         }
     ]
 }

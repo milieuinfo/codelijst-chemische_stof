@@ -1,39 +1,39 @@
 {
     "@context": {
-        "chebi": "http://purl.obolibrary.org/obo/chebi/",
         "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
         "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-        "obo": "http://purl.obolibrary.org/obo/"
+        "obo": "http://purl.obolibrary.org/obo/",
+        "uniprot": "http://purl.uniprot.org/",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "concept": "https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/",
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "dbo": "http://dbpedia.org/ontology/",
+        "dbp": "http://dbpedia.org/property/",
+        "altLabel": {
+            "@id": "http://www.w3.org/2004/02/skos/core#altLabel",
+            "@language": "en"
+        },
+        "graph": {
+            "@id": "@graph"
+        }
     },
-    "@id": "obo:CHEBI_9682",
-    "@type": "http://www.w3.org/2002/07/owl#Class",
-    "obo:IAO_0000115": "A monocarboxylic acid that is (pyridin-2-yloxy)acetic acid substituted by chloro groups at positions 3, 5 and 6. It is an agrochemical used as a herbicide.",
+    "@id": "concept:REEQLXCGVXDJSQ-UHFFFAOYSA-N",
+    "@type": "skos:Concept",
+    "dbo:formula": "C7H4Cl3NO3",
+    "dbo:inchi": "InChI=1S/C7H4Cl3NO3/c8-3-1-4(9)7(11-6(3)10)14-2-5(12)13/h1H,2H2,(H,12,13)",
+    "dbo:smiles": "OC(=O)COc1nc(Cl)c(Cl)cc1Cl",
+    "dbp:inchikey": "REEQLXCGVXDJSQ-UHFFFAOYSA-N",
     "chebi:charge": "0",
-    "chebi:formula": "C7H4Cl3NO3",
-    "chebi:inchi": "InChI=1S/C7H4Cl3NO3/c8-3-1-4(9)7(11-6(3)10)14-2-5(12)13/h1H,2H2,(H,12,13)",
-    "chebi:inchikey": "REEQLXCGVXDJSQ-UHFFFAOYSA-N",
-    "chebi:smiles": "OC(=O)COc1nc(Cl)c(Cl)cc1Cl",
-    "geneontology:hasDbXref": [
-        "CAS:55335-06-3",
-        "KEGG:C11032",
-        "Pesticides:triclopyr",
-        "PMID:23688229",
-        "PMID:24623388",
-        "PMID:25309266",
-        "PPDB:659",
-        "Reaxys:225301",
-        "Wikipedia:Triclopyr"
-    ],
-    "geneontology:hasId": "9682",
-    "geneontology:hasSynonym": [
+    "skos:altLabel": [
         "[(3,5,6-trichloropyridin-2-yl)oxy]acetic acid",
         "Triclopyr"
     ],
-    "geneontology:inSubset": {
-        "@id": "obo:chebi#3_STAR"
+    "skos:exactMatch": {
+        "@id": "obo:CHEBI_9682"
     },
-    "rdfs:label": "trichlopyr",
-    "rdfs:subClassOf": [
+    "skos:note": "A monocarboxylic acid that is (pyridin-2-yloxy)acetic acid substituted by chloro groups at positions 3, 5 and 6. It is an agrochemical used as a herbicide.",
+    "skos:semanticRelation": [
         {
             "@id": "obo:CHEBI_35618"
         },
@@ -42,18 +42,6 @@
         },
         {
             "@id": "obo:CHEBI_39173"
-        },
-        {
-            "@id": "b417_genid-00f1db82e1ab437c844115a94dc63e635-bn9682t11f24527"
-        },
-        {
-            "@id": "b417_genid-00f1db82e1ab437c844115a94dc63e635-bn9682t11f33286"
-        },
-        {
-            "@id": "b417_genid-00f1db82e1ab437c844115a94dc63e635-bn9682t11f35703"
-        },
-        {
-            "@id": "b417_genid-00f1db82e1ab437c844115a94dc63e635-bn9682t11f78298"
         }
     ]
 }

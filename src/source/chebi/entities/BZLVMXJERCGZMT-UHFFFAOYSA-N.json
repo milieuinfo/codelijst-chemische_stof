@@ -1,43 +1,27 @@
 {
     "@context": {
-        "chebi": "http://purl.obolibrary.org/obo/chebi/",
         "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
         "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-        "obo": "http://purl.obolibrary.org/obo/"
+        "obo": "http://purl.obolibrary.org/obo/",
+        "uniprot": "http://purl.uniprot.org/",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "concept": "https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/",
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "dbo": "http://dbpedia.org/ontology/",
+        "dbp": "http://dbpedia.org/property/",
+        "graph": {
+            "@id": "@graph"
+        }
     },
-    "@id": "obo:CHEBI_27642",
-    "@type": "http://www.w3.org/2002/07/owl#Class",
-    "obo:IAO_0000115": "An ether having methyl and tert-butyl as the two alkyl components.",
+    "@id": "concept:BZLVMXJERCGZMT-UHFFFAOYSA-N",
+    "@type": "skos:Concept",
+    "dbo:formula": "C5H12O",
+    "dbo:inchi": "InChI=1S/C5H12O/c1-5(2,3)6-4/h1-4H3",
+    "dbo:smiles": "COC(C)(C)C",
+    "dbp:inchikey": "BZLVMXJERCGZMT-UHFFFAOYSA-N",
     "chebi:charge": "0",
-    "chebi:formula": "C5H12O",
-    "chebi:inchi": "InChI=1S/C5H12O/c1-5(2,3)6-4/h1-4H3",
-    "chebi:inchikey": "BZLVMXJERCGZMT-UHFFFAOYSA-N",
-    "chebi:smiles": "COC(C)(C)C",
-    "geneontology:hasDbXref": [
-        "Beilstein:1730942",
-        "CAS:1634-04-4",
-        "Gmelin:773738",
-        "KEGG:C11344",
-        "PMID:19201538",
-        "PMID:21044818",
-        "PMID:21072404",
-        "PMID:21112690",
-        "PMID:21130999",
-        "PMID:21131048",
-        "PMID:21227585",
-        "PMID:21315889",
-        "PMID:21330701",
-        "PMID:21482276",
-        "PMID:21644118",
-        "PMID:21684239",
-        "PMID:21780613",
-        "PMID:21782339",
-        "PMID:9472332",
-        "Reaxys:1730942",
-        "Wikipedia:MTBE"
-    ],
-    "geneontology:hasId": "27642",
-    "geneontology:hasSynonym": [
+    "skos:altLabel": [
         "2-Methoxy-2-methylpropane",
         "2-Methyl-2-methoxypropane",
         "Methyl 1,1-dimethylethyl ether",
@@ -50,22 +34,11 @@
         "tert-Butyl methyl ether",
         "tert-C4H9OCH3"
     ],
-    "geneontology:inSubset": {
-        "@id": "obo:chebi#3_STAR"
+    "skos:exactMatch": {
+        "@id": "obo:CHEBI_27642"
     },
-    "rdfs:label": "methyl tert-butyl ether",
-    "rdfs:subClassOf": [
-        {
-            "@id": "obo:CHEBI_25698"
-        },
-        {
-            "@id": "b267_genid-00f1db82e1ab437c844115a94dc63e635-bn27642t11f25212"
-        },
-        {
-            "@id": "b267_genid-00f1db82e1ab437c844115a94dc63e635-bn27642t11f48355"
-        },
-        {
-            "@id": "b267_genid-00f1db82e1ab437c844115a94dc63e635-bn27642t11f62803"
-        }
-    ]
+    "skos:note": "An ether having methyl and tert-butyl as the two alkyl components.",
+    "skos:semanticRelation": {
+        "@id": "obo:CHEBI_25698"
+    }
 }

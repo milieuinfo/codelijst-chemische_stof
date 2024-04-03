@@ -1,39 +1,31 @@
 {
     "@context": {
-        "chebi": "http://purl.obolibrary.org/obo/chebi/",
         "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
         "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-        "obo": "http://purl.obolibrary.org/obo/"
+        "obo": "http://purl.obolibrary.org/obo/",
+        "uniprot": "http://purl.uniprot.org/",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "concept": "https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/",
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "dbo": "http://dbpedia.org/ontology/",
+        "dbp": "http://dbpedia.org/property/",
+        "altLabel": {
+            "@id": "http://www.w3.org/2004/02/skos/core#altLabel",
+            "@language": "en"
+        },
+        "graph": {
+            "@id": "@graph"
+        }
     },
-    "@id": "obo:CHEBI_47554",
-    "@type": "http://www.w3.org/2002/07/owl#Class",
-    "obo:IAO_0000115": "The simplest and least toxic member of the class of chloroethanes, that is ethane in which a single hydrogen is substituted by a chlorine. A colourless gas at room temperature and pressure (boiling point 12degreeC), it is used as a mild topical anaesthetic to numb the skin prior to ear piercing, skin biopsies, etc., and is also used in the treatment of sports injuries. It was formerly used in the production of tetraethyllead.",
+    "@id": "concept:HRYZWHHZPQKTII-UHFFFAOYSA-N",
+    "@type": "skos:Concept",
+    "dbo:formula": "C2H5Cl",
+    "dbo:inchi": "InChI=1S/C2H5Cl/c1-2-3/h2H2,1H3",
+    "dbo:smiles": "CCCl",
+    "dbp:inchikey": "HRYZWHHZPQKTII-UHFFFAOYSA-N",
     "chebi:charge": "0",
-    "chebi:formula": "C2H5Cl",
-    "chebi:inchi": "InChI=1S/C2H5Cl/c1-2-3/h2H2,1H3",
-    "chebi:inchikey": "HRYZWHHZPQKTII-UHFFFAOYSA-N",
-    "chebi:smiles": "CCCl",
-    "http://purl.uniprot.org/core/name": "chloroethane",
-    "geneontology:hasDbXref": [
-        "Beilstein:1730751",
-        "CAS:75-00-3",
-        "Drug_Central:3196",
-        "Gmelin:100545",
-        "KEGG:C18248",
-        "KEGG:D04088",
-        "Patent:CN101844962",
-        "Patent:US2396639",
-        "PMID:19078818",
-        "PMID:19769833",
-        "PMID:19958731",
-        "PMID:21099198",
-        "PMID:21137521",
-        "PMID:8210013",
-        "Reaxys:1730751",
-        "Wikipedia:Chloroethane"
-    ],
-    "geneontology:hasId": "47554",
-    "geneontology:hasSynonym": [
+    "skos:altLabel": [
         "C2H5Cl",
         "1-chloroethane",
         "Aethylchlorid",
@@ -48,22 +40,11 @@
         "mono-chloroethane",
         "Muriatic ether"
     ],
-    "geneontology:inSubset": {
-        "@id": "obo:chebi#3_STAR"
+    "skos:exactMatch": {
+        "@id": "obo:CHEBI_47554"
     },
-    "rdfs:label": "chloroethane",
-    "rdfs:subClassOf": [
-        {
-            "@id": "obo:CHEBI_36016"
-        },
-        {
-            "@id": "b18_genid-00f1db82e1ab437c844115a94dc63e635-bn47554t11f36333"
-        },
-        {
-            "@id": "b18_genid-00f1db82e1ab437c844115a94dc63e635-bn47554t11f38870"
-        },
-        {
-            "@id": "b18_genid-00f1db82e1ab437c844115a94dc63e635-bn47554t11f59683"
-        }
-    ]
+    "skos:note": "The simplest and least toxic member of the class of chloroethanes, that is ethane in which a single hydrogen is substituted by a chlorine. A colourless gas at room temperature and pressure (boiling point 12degreeC), it is used as a mild topical anaesthetic to numb the skin prior to ear piercing, skin biopsies, etc., and is also used in the treatment of sports injuries. It was formerly used in the production of tetraethyllead.",
+    "skos:semanticRelation": {
+        "@id": "obo:CHEBI_36016"
+    }
 }

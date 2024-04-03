@@ -1,31 +1,27 @@
 {
     "@context": {
-        "chebi": "http://purl.obolibrary.org/obo/chebi/",
         "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
         "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-        "obo": "http://purl.obolibrary.org/obo/"
+        "obo": "http://purl.obolibrary.org/obo/",
+        "uniprot": "http://purl.uniprot.org/",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "concept": "https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/",
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "dbo": "http://dbpedia.org/ontology/",
+        "dbp": "http://dbpedia.org/property/",
+        "graph": {
+            "@id": "@graph"
+        }
     },
-    "@id": "obo:CHEBI_44185",
-    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "@id": "concept:FBOZXECLQNJBKD-ZDUSSCGKSA-N",
+    "@type": "skos:Concept",
+    "dbo:formula": "C20H22N8O5",
+    "dbo:inchi": "InChI=1S/C20H22N8O5/c1-28(9-11-8-23-17-15(24-11)16(21)26-20(22)27-17)12-4-2-10(3-5-12)18(31)25-13(19(32)33)6-7-14(29)30/h2-5,8,13H,6-7,9H2,1H3,(H,25,31)(H,29,30)(H,32,33)(H4,21,22,23,26,27)/t13-/m0/s1",
+    "dbo:smiles": "CN(Cc1cnc2nc(N)nc(N)c2n1)c1ccc(cc1)C(=O)N[C@@H](CCC(O)=O)C(O)=O",
+    "dbp:inchikey": "FBOZXECLQNJBKD-ZDUSSCGKSA-N",
     "chebi:charge": "0",
-    "chebi:formula": "C20H22N8O5",
-    "chebi:inchi": "InChI=1S/C20H22N8O5/c1-28(9-11-8-23-17-15(24-11)16(21)26-20(22)27-17)12-4-2-10(3-5-12)18(31)25-13(19(32)33)6-7-14(29)30/h2-5,8,13H,6-7,9H2,1H3,(H,25,31)(H,29,30)(H,32,33)(H4,21,22,23,26,27)/t13-/m0/s1",
-    "chebi:inchikey": "FBOZXECLQNJBKD-ZDUSSCGKSA-N",
-    "chebi:smiles": "CN(Cc1cnc2nc(N)nc(N)c2n1)c1ccc(cc1)C(=O)N[C@@H](CCC(O)=O)C(O)=O",
-    "geneontology:hasDbXref": [
-        "Beilstein:70669",
-        "CAS:59-05-2",
-        "Drug_Central:1751",
-        "DrugBank:DB00563",
-        "KEGG:C01937",
-        "KEGG:D00142",
-        "LINCS:LSM-5690",
-        "Patent:US2512572",
-        "PDBeChem:MTX",
-        "Wikipedia:Methotrexate"
-    ],
-    "geneontology:hasId": "44185",
-    "geneontology:hasSynonym": [
+    "skos:altLabel": [
         "4-amino-10-methylfolic acid",
         "4-amino-N(10)-methylpteroylglutamic acid",
         "Emtexate",
@@ -40,11 +36,10 @@
         "Rheumatrex",
         "Trexall"
     ],
-    "geneontology:inSubset": {
-        "@id": "obo:chebi#3_STAR"
+    "skos:exactMatch": {
+        "@id": "obo:CHEBI_44185"
     },
-    "rdfs:label": "methotrexate",
-    "rdfs:subClassOf": [
+    "skos:semanticRelation": [
         {
             "@id": "obo:CHEBI_29347"
         },
@@ -53,39 +48,6 @@
         },
         {
             "@id": "obo:CHEBI_26373"
-        },
-        {
-            "@id": "b573_genid-00f1db82e1ab437c844115a94dc63e635-bn44185tmms73f50681"
-        },
-        {
-            "@id": "b573_genid-00f1db82e1ab437c844115a94dc63e635-bn44185t8f16015"
-        },
-        {
-            "@id": "b573_genid-00f1db82e1ab437c844115a94dc63e635-bn44185t11f35221"
-        },
-        {
-            "@id": "b573_genid-00f1db82e1ab437c844115a94dc63e635-bn44185t11f35610"
-        },
-        {
-            "@id": "b573_genid-00f1db82e1ab437c844115a94dc63e635-bn44185t11f35705"
-        },
-        {
-            "@id": "b573_genid-00f1db82e1ab437c844115a94dc63e635-bn44185t11f35842"
-        },
-        {
-            "@id": "b573_genid-00f1db82e1ab437c844115a94dc63e635-bn44185t11f50177"
-        },
-        {
-            "@id": "b573_genid-00f1db82e1ab437c844115a94dc63e635-bn44185t4f50680"
-        },
-        {
-            "@id": "b573_genid-00f1db82e1ab437c844115a94dc63e635-bn44185t11f50683"
-        },
-        {
-            "@id": "b573_genid-00f1db82e1ab437c844115a94dc63e635-bn44185t11f50691"
-        },
-        {
-            "@id": "b573_genid-00f1db82e1ab437c844115a94dc63e635-bn44185t11f59517"
         }
     ]
 }

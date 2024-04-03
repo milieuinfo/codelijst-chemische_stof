@@ -1,24 +1,21 @@
 {
     "@context": {
-        "chebi": "http://purl.obolibrary.org/obo/chebi/",
         "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
         "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-        "obo": "http://purl.obolibrary.org/obo/"
-    },
-    "@id": "obo:CHEBI_93350",
-    "@type": "http://www.w3.org/2002/07/owl#Class",
-    "chebi:charge": "0",
-    "chebi:formula": "C17H10O",
-    "chebi:inchi": "InChI=1S/C17H10O/c18-17-14-8-2-1-7-12(14)13-9-3-5-11-6-4-10-15(17)16(11)13/h1-10H",
-    "chebi:inchikey": "HUKPVYBUJRAUAG-UHFFFAOYSA-N",
-    "chebi:smiles": "C1=CC=C2C(=C1)C3=CC=CC4=C3C(=CC=C4)C2=O",
-    "geneontology:hasDbXref": "LINCS:LSM-3723",
-    "geneontology:hasId": "93350",
-    "geneontology:inSubset": {
-        "@id": "obo:chebi#2_STAR"
-    },
-    "rdfs:label": "7-benzo[a]phenalenone",
-    "rdfs:subClassOf": {
-        "@id": "obo:CHEBI_25961"
+        "obo": "http://purl.obolibrary.org/obo/",
+        "uniprot": "http://purl.uniprot.org/",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "concept": "https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/",
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "dbo": "http://dbpedia.org/ontology/",
+        "dbp": "http://dbpedia.org/property/",
+        "altLabel": {
+            "@id": "http://www.w3.org/2004/02/skos/core#altLabel",
+            "@language": "en"
+        },
+        "graph": {
+            "@id": "@graph"
+        }
     }
 }

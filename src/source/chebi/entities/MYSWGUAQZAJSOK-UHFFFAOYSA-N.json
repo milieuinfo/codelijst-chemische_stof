@@ -1,143 +1,83 @@
 {
     "@context": {
-        "chebi": "http://purl.obolibrary.org/obo/chebi/",
         "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
         "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-        "obo": "http://purl.obolibrary.org/obo/"
+        "obo": "http://purl.obolibrary.org/obo/",
+        "uniprot": "http://purl.uniprot.org/",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "concept": "https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/",
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "dbo": "http://dbpedia.org/ontology/",
+        "dbp": "http://dbpedia.org/property/",
+        "altLabel": {
+            "@id": "http://www.w3.org/2004/02/skos/core#altLabel",
+            "@language": "en"
+        },
+        "graph": {
+            "@id": "@graph"
+        }
     },
-    "@graph": [
+    "@id": "concept:MYSWGUAQZAJSOK-UHFFFAOYSA-N",
+    "@type": "skos:Concept",
+    "dbo:formula": "C17H18FN3O3",
+    "dbo:inchi": "InChI=1S/C17H18FN3O3/c18-13-7-11-14(8-15(13)20-5-3-19-4-6-20)21(10-1-2-10)9-12(16(11)22)17(23)24/h7-10,19H,1-6H2,(H,23,24)",
+    "dbo:smiles": [
+        "OC(=O)c1cn(C2CC2)c2cc(N3CCNCC3)c(F)cc2c1=O",
+        "[O-]C(=O)C1=CN(C2CC2)C2=CC(N3CC[NH2+]CC3)=C(F)C=C2C1=O"
+    ],
+    "dbp:inchikey": "MYSWGUAQZAJSOK-UHFFFAOYSA-N",
+    "chebi:charge": "0",
+    "skos:altLabel": [
+        "1-cyclopropyl-6-fluoro-1,4-dihydro-4-oxo-7-(1-piperazinyl)-3-quinolinecarboxylic acid",
+        "1-cyclopropyl-6-fluoro-4-oxo-7-(piperazin-1-yl)-1,4-dihydroquinoline-3-carboxylic acid",
+        "1-CYCLOPROPYL-6-FLUORO-4-OXO-7-PIPERAZIN-1-YL-1,4-DIHYDROQUINOLINE-3-CARBOXYLIC ACID",
+        "1-Cyclopropyl-6-fluoro-4-oxo-7-piperazin-1-yl-1,4-dihydro-quinoline-3-carboxylic acid",
+        "1-cyclopropyl-6-fluoro-4-oxo-7-piperazin-1-ylquinoline-3-carboxylic acid",
+        "1-Cyclopropyl-6-fluoro-7-(4-methyl-piperazin-1-yl)-4-oxo-1,4-dihydro-quinoline-3-carboxylic acid",
+        "1-cyclopropyl-6-fluoro-7-hexahydro-1-pyrazinyl-4-oxo-1,4-dihydro-3-quinolinecarboxylic acid",
+        "Ciprofloxacin",
+        "ciprofloxacine",
+        "ciprofloxacino",
+        "ciprofloxacinum",
+        "1-cyclopropyl-6-fluoro-4-oxo-7-(piperazin-4-ium-1-yl)-1,4-dihydroquinoline-3-carboxylate"
+    ],
+    "skos:exactMatch": [
         {
-            "@id": "obo:CHEBI_100241",
-            "@type": "http://www.w3.org/2002/07/owl#Class",
-            "obo:IAO_0000115": "A  quinolone that is quinolin-4(1H)-one bearing cyclopropyl, carboxylic acid, fluoro and piperazin-1-yl substituents at positions 1, 3, 6 and 7, respectively.",
-            "chebi:charge": "0",
-            "chebi:formula": "C17H18FN3O3",
-            "chebi:inchi": "InChI=1S/C17H18FN3O3/c18-13-7-11-14(8-15(13)20-5-3-19-4-6-20)21(10-1-2-10)9-12(16(11)22)17(23)24/h7-10,19H,1-6H2,(H,23,24)",
-            "chebi:inchikey": "MYSWGUAQZAJSOK-UHFFFAOYSA-N",
-            "chebi:smiles": "OC(=O)c1cn(C2CC2)c2cc(N3CCNCC3)c(F)cc2c1=O",
-            "geneontology:hasDbXref": [
-                "PMID:10737746",
-                "DrugBank:DB00537",
-                "Beilstein:3568352",
-                "CAS:85721-33-1",
-                "Drug_Central:659",
-                "HMDB:HMDB0014677",
-                "KEGG:C05349",
-                "KEGG:D00186",
-                "LINCS:LSM-5226",
-                "Patent:DE3142854",
-                "Patent:US4670444",
-                "PDBeChem:CPF",
-                "PMID:10397494",
-                "Reaxys:3568352",
-                "VSDB:1763",
-                "Wikipedia:Ciprofloxacin"
-            ],
-            "geneontology:hasId": "100241",
-            "geneontology:hasSynonym": [
-                "1-cyclopropyl-6-fluoro-1,4-dihydro-4-oxo-7-(1-piperazinyl)-3-quinolinecarboxylic acid",
-                "1-cyclopropyl-6-fluoro-4-oxo-7-(piperazin-1-yl)-1,4-dihydroquinoline-3-carboxylic acid",
-                "1-CYCLOPROPYL-6-FLUORO-4-OXO-7-PIPERAZIN-1-YL-1,4-DIHYDROQUINOLINE-3-CARBOXYLIC ACID",
-                "1-Cyclopropyl-6-fluoro-4-oxo-7-piperazin-1-yl-1,4-dihydro-quinoline-3-carboxylic acid",
-                "1-cyclopropyl-6-fluoro-4-oxo-7-piperazin-1-ylquinoline-3-carboxylic acid",
-                "1-Cyclopropyl-6-fluoro-7-(4-methyl-piperazin-1-yl)-4-oxo-1,4-dihydro-quinoline-3-carboxylic acid",
-                "1-cyclopropyl-6-fluoro-7-hexahydro-1-pyrazinyl-4-oxo-1,4-dihydro-3-quinolinecarboxylic acid",
-                "Ciprofloxacin",
-                "ciprofloxacine",
-                "ciprofloxacino",
-                "ciprofloxacinum"
-            ],
-            "geneontology:inSubset": {
-                "@id": "obo:chebi#3_STAR"
-            },
-            "rdfs:label": "ciprofloxacin",
-            "rdfs:subClassOf": [
-                {
-                    "@id": "obo:CHEBI_23765"
-                },
-                {
-                    "@id": "obo:CHEBI_26512"
-                },
-                {
-                    "@id": "obo:CHEBI_36709"
-                },
-                {
-                    "@id": "obo:CHEBI_51454"
-                },
-                {
-                    "@id": "obo:CHEBI_46848"
-                },
-                {
-                    "@id": "obo:CHEBI_86324"
-                },
-                {
-                    "@id": "obo:CHEBI_87211"
-                },
-                {
-                    "@id": "b741_genid-00f1db82e1ab437c844115a94dc63e635-bn100241tmms73f192484"
-                },
-                {
-                    "@id": "b741_genid-00f1db82e1ab437c844115a94dc63e635-bn100241t11f33281"
-                },
-                {
-                    "@id": "b741_genid-00f1db82e1ab437c844115a94dc63e635-bn100241t11f35441"
-                },
-                {
-                    "@id": "b741_genid-00f1db82e1ab437c844115a94dc63e635-bn100241t11f35703"
-                },
-                {
-                    "@id": "b741_genid-00f1db82e1ab437c844115a94dc63e635-bn100241t11f36047"
-                },
-                {
-                    "@id": "b741_genid-00f1db82e1ab437c844115a94dc63e635-bn100241t11f50750"
-                },
-                {
-                    "@id": "b741_genid-00f1db82e1ab437c844115a94dc63e635-bn100241t11f53559"
-                },
-                {
-                    "@id": "b741_genid-00f1db82e1ab437c844115a94dc63e635-bn100241t11f59517"
-                },
-                {
-                    "@id": "b741_genid-00f1db82e1ab437c844115a94dc63e635-bn100241t11f78298"
-                },
-                {
-                    "@id": "b741_genid-00f1db82e1ab437c844115a94dc63e635-bn100241t7f192484"
-                },
-                {
-                    "@id": "b741_genid-00f1db82e1ab437c844115a94dc63e635-bn100241t5f192486"
-                }
-            ]
+            "@id": "obo:CHEBI_100241"
         },
         {
-            "@id": "obo:CHEBI_192484",
-            "@type": "http://www.w3.org/2002/07/owl#Class",
-            "obo:IAO_0000115": "A zwitterion formed from ciprofloxacin by transfer of a proton from the carboxy to the amino group; major species at pH 7.3.",
-            "chebi:charge": "0",
-            "chebi:formula": "C17H18FN3O3",
-            "chebi:inchi": "InChI=1S/C17H18FN3O3/c18-13-7-11-14(8-15(13)20-5-3-19-4-6-20)21(10-1-2-10)9-12(16(11)22)17(23)24/h7-10,19H,1-6H2,(H,23,24)",
-            "chebi:inchikey": "MYSWGUAQZAJSOK-UHFFFAOYSA-N",
-            "chebi:smiles": "[O-]C(=O)C1=CN(C2CC2)C2=CC(N3CC[NH2+]CC3)=C(F)C=C2C1=O",
-            "geneontology:hasDbXref": [
-                "MetaCyc:CPD-12843",
-                "PMID:11202360",
-                "PMID:12084502",
-                "PMID:21368411",
-                "PMID:9303400"
-            ],
-            "geneontology:hasId": "192484",
-            "geneontology:hasSynonym": "1-cyclopropyl-6-fluoro-4-oxo-7-(piperazin-4-ium-1-yl)-1,4-dihydroquinoline-3-carboxylate",
-            "geneontology:inSubset": {
-                "@id": "obo:chebi#3_STAR"
-            },
-            "rdfs:label": "ciprofloxacin zwitterion",
-            "rdfs:subClassOf": [
-                {
-                    "@id": "obo:CHEBI_27369"
-                },
-                {
-                    "@id": "b741_genid-00f1db82e1ab437c844115a94dc63e635-bn192484t7f100241"
-                }
-            ]
+            "@id": "obo:CHEBI_192484"
+        }
+    ],
+    "skos:note": [
+        "A  quinolone that is quinolin-4(1H)-one bearing cyclopropyl, carboxylic acid, fluoro and piperazin-1-yl substituents at positions 1, 3, 6 and 7, respectively.",
+        "A zwitterion formed from ciprofloxacin by transfer of a proton from the carboxy to the amino group; major species at pH 7.3."
+    ],
+    "skos:semanticRelation": [
+        {
+            "@id": "obo:CHEBI_23765"
+        },
+        {
+            "@id": "obo:CHEBI_26512"
+        },
+        {
+            "@id": "obo:CHEBI_36709"
+        },
+        {
+            "@id": "obo:CHEBI_51454"
+        },
+        {
+            "@id": "obo:CHEBI_46848"
+        },
+        {
+            "@id": "obo:CHEBI_86324"
+        },
+        {
+            "@id": "obo:CHEBI_87211"
+        },
+        {
+            "@id": "obo:CHEBI_27369"
         }
     ]
 }

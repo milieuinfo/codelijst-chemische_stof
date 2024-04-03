@@ -1,28 +1,35 @@
 {
     "@context": {
-        "chebi": "http://purl.obolibrary.org/obo/chebi/",
         "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
         "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-        "obo": "http://purl.obolibrary.org/obo/"
+        "obo": "http://purl.obolibrary.org/obo/",
+        "uniprot": "http://purl.uniprot.org/",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "concept": "https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/",
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "dbo": "http://dbpedia.org/ontology/",
+        "dbp": "http://dbpedia.org/property/",
+        "altLabel": {
+            "@id": "http://www.w3.org/2004/02/skos/core#altLabel",
+            "@language": "en"
+        },
+        "graph": {
+            "@id": "@graph"
+        }
     },
-    "@id": "obo:CHEBI_82321",
-    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "@id": "concept:JRBJSXQPQWSCCF-UHFFFAOYSA-N",
+    "@type": "skos:Concept",
+    "dbo:formula": "C14H16N2O2",
+    "dbo:inchi": "InChI=1S/C14H16N2O2/c1-17-13-7-9(3-5-11(13)15)10-4-6-12(16)14(8-10)18-2/h3-8H,15-16H2,1-2H3",
+    "dbo:smiles": "COc1cc(ccc1N)-c1ccc(N)c(OC)c1",
+    "dbp:inchikey": "JRBJSXQPQWSCCF-UHFFFAOYSA-N",
     "chebi:charge": "0",
-    "chebi:formula": "C14H16N2O2",
-    "chebi:inchi": "InChI=1S/C14H16N2O2/c1-17-13-7-9(3-5-11(13)15)10-4-6-12(16)14(8-10)18-2/h3-8H,15-16H2,1-2H3",
-    "chebi:inchikey": "JRBJSXQPQWSCCF-UHFFFAOYSA-N",
-    "chebi:smiles": "COc1cc(ccc1N)-c1ccc(N)c(OC)c1",
-    "geneontology:hasDbXref": [
-        "CAS:119-90-4",
-        "KEGG:C19231"
-    ],
-    "geneontology:hasId": "82321",
-    "geneontology:hasSynonym": "ortho-Dianisidine",
-    "geneontology:inSubset": {
-        "@id": "obo:chebi#2_STAR"
+    "skos:altLabel": "ortho-Dianisidine",
+    "skos:exactMatch": {
+        "@id": "obo:CHEBI_82321"
     },
-    "rdfs:label": "3,3'-Dimethoxybenzidine",
-    "rdfs:subClassOf": {
+    "skos:semanticRelation": {
         "@id": "obo:CHEBI_22888"
     }
 }

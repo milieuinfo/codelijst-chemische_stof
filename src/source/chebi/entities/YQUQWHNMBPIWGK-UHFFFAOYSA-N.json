@@ -1,34 +1,31 @@
 {
     "@context": {
-        "chebi": "http://purl.obolibrary.org/obo/chebi/",
         "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
         "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-        "obo": "http://purl.obolibrary.org/obo/"
+        "obo": "http://purl.obolibrary.org/obo/",
+        "uniprot": "http://purl.uniprot.org/",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "concept": "https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/",
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "dbo": "http://dbpedia.org/ontology/",
+        "dbp": "http://dbpedia.org/property/",
+        "altLabel": {
+            "@id": "http://www.w3.org/2004/02/skos/core#altLabel",
+            "@language": "en"
+        },
+        "graph": {
+            "@id": "@graph"
+        }
     },
-    "@id": "obo:CHEBI_167172",
-    "@type": "http://www.w3.org/2002/07/owl#Class",
-    "obo:IAO_0000115": "A member of the class of phenols that is phenol which is carrying an isopropyl group at position 4.",
+    "@id": "concept:YQUQWHNMBPIWGK-UHFFFAOYSA-N",
+    "@type": "skos:Concept",
+    "dbo:formula": "C9H12O",
+    "dbo:inchi": "InChI=1S/C9H12O/c1-7(2)8-3-5-9(10)6-4-8/h3-7,10H,1-2H3",
+    "dbo:smiles": "CC(C)C1=CC=C(O)C=C1",
+    "dbp:inchikey": "YQUQWHNMBPIWGK-UHFFFAOYSA-N",
     "chebi:charge": "0",
-    "chebi:formula": "C9H12O",
-    "chebi:inchi": "InChI=1S/C9H12O/c1-7(2)8-3-5-9(10)6-4-8/h3-7,10H,1-2H3",
-    "chebi:inchikey": "YQUQWHNMBPIWGK-UHFFFAOYSA-N",
-    "chebi:smiles": "CC(C)C1=CC=C(O)C=C1",
-    "http://purl.uniprot.org/core/name": "4-isopropylphenol",
-    "geneontology:hasDbXref": [
-        "PMID:16567400",
-        "CAS:99-89-8",
-        "Chemspider:7185",
-        "FooDB:FDB005302",
-        "HMDB:HMDB0031446",
-        "PMID:26219367",
-        "PMID:27486708",
-        "PMID:29225186",
-        "PMID:30519707",
-        "PMID:32970353",
-        "Reaxys:1363564"
-    ],
-    "geneontology:hasId": "167172",
-    "geneontology:hasSynonym": [
+    "skos:altLabel": [
         "1-hydroxy-4-isopropylbenzene",
         "4-(1-methylethyl)phenol",
         "4-(propan-2-yl)phenol",
@@ -37,19 +34,11 @@
         "p-hydroxycumene",
         "p-isopropylphenol"
     ],
-    "geneontology:inSubset": {
-        "@id": "obo:chebi#3_STAR"
+    "skos:exactMatch": {
+        "@id": "obo:CHEBI_167172"
     },
-    "rdfs:label": "4-isopropylphenol",
-    "rdfs:subClassOf": [
-        {
-            "@id": "obo:CHEBI_33853"
-        },
-        {
-            "@id": "b384_genid-00f1db82e1ab437c844115a94dc63e635-bn167172t9f34656"
-        },
-        {
-            "@id": "b384_genid-00f1db82e1ab437c844115a94dc63e635-bn167172t11f35617"
-        }
-    ]
+    "skos:note": "A member of the class of phenols that is phenol which is carrying an isopropyl group at position 4.",
+    "skos:semanticRelation": {
+        "@id": "obo:CHEBI_33853"
+    }
 }

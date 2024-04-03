@@ -1,39 +1,31 @@
 {
     "@context": {
-        "chebi": "http://purl.obolibrary.org/obo/chebi/",
         "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
         "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-        "obo": "http://purl.obolibrary.org/obo/"
+        "obo": "http://purl.obolibrary.org/obo/",
+        "uniprot": "http://purl.uniprot.org/",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "concept": "https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/",
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "dbo": "http://dbpedia.org/ontology/",
+        "dbp": "http://dbpedia.org/property/",
+        "altLabel": {
+            "@id": "http://www.w3.org/2004/02/skos/core#altLabel",
+            "@language": "en"
+        },
+        "graph": {
+            "@id": "@graph"
+        }
     },
-    "@id": "obo:CHEBI_8028",
-    "@type": "http://www.w3.org/2002/07/owl#Class",
-    "obo:IAO_0000115": "A phenothiazine derivative in which the phenothiazine tricycle carries a chloro substituent at the 2-position and a 3-[4-(2-hydroxyethyl)piperazin-1-yl]propyl group at N-10.",
+    "@id": "concept:RGCVKNLCSQQDEP-UHFFFAOYSA-N",
+    "@type": "skos:Concept",
+    "dbo:formula": "C21H26ClN3OS",
+    "dbo:inchi": "InChI=1S/C21H26ClN3OS/c22-17-6-7-21-19(16-17)25(18-4-1-2-5-20(18)27-21)9-3-8-23-10-12-24(13-11-23)14-15-26/h1-2,4-7,16,26H,3,8-15H2",
+    "dbo:smiles": "OCCN1CCN(CCCN2c3ccccc3Sc3ccc(Cl)cc23)CC1",
+    "dbp:inchikey": "RGCVKNLCSQQDEP-UHFFFAOYSA-N",
     "chebi:charge": "0",
-    "chebi:formula": "C21H26ClN3OS",
-    "chebi:inchi": "InChI=1S/C21H26ClN3OS/c22-17-6-7-21-19(16-17)25(18-4-1-2-5-20(18)27-21)9-3-8-23-10-12-24(13-11-23)14-15-26/h1-2,4-7,16,26H,3,8-15H2",
-    "chebi:inchikey": "RGCVKNLCSQQDEP-UHFFFAOYSA-N",
-    "chebi:smiles": "OCCN1CCN(CCCN2c3ccccc3Sc3ccc(Cl)cc23)CC1",
-    "geneontology:hasDbXref": [
-        "PMID:1650428",
-        "Beilstein:54730",
-        "CAS:58-39-9",
-        "Drug_Central:2113",
-        "DrugBank:DB00850",
-        "HMDB:HMDB0014988",
-        "KEGG:C07427",
-        "KEGG:D00503",
-        "LINCS:LSM-2224",
-        "Patent:US2766235",
-        "Patent:US2860138",
-        "PMID:14401911",
-        "PMID:15674907",
-        "PMID:26660173",
-        "PMID:27150024",
-        "Reaxys:54730",
-        "Wikipedia:Perphenazine"
-    ],
-    "geneontology:hasId": "8028",
-    "geneontology:hasSynonym": [
+    "skos:altLabel": [
         "perphenazine",
         "2-(4-[3-(2-chloro-10H-phenothiazin-10-yl)propyl]-1-piperazinyl)ethanol",
         "2-{4-[3-(2-chloro-10H-phenothiazin-10-yl)propyl]piperazin-1-yl}ethanol",
@@ -49,11 +41,11 @@
         "perphenazinum",
         "Trilafon"
     ],
-    "geneontology:inSubset": {
-        "@id": "obo:chebi#3_STAR"
+    "skos:exactMatch": {
+        "@id": "obo:CHEBI_8028"
     },
-    "rdfs:label": "perphenazine",
-    "rdfs:subClassOf": [
+    "skos:note": "A phenothiazine derivative in which the phenothiazine tricycle carries a chloro substituent at the 2-position and a 3-[4-(2-hydroxyethyl)piperazin-1-yl]propyl group at N-10.",
+    "skos:semanticRelation": [
         {
             "@id": "obo:CHEBI_36683"
         },
@@ -65,18 +57,6 @@
         },
         {
             "@id": "obo:CHEBI_46851"
-        },
-        {
-            "@id": "b432_genid-00f1db82e1ab437c844115a94dc63e635-bn8028t11f37930"
-        },
-        {
-            "@id": "b432_genid-00f1db82e1ab437c844115a94dc63e635-bn8028t9f37931"
-        },
-        {
-            "@id": "b432_genid-00f1db82e1ab437c844115a94dc63e635-bn8028t11f48561"
-        },
-        {
-            "@id": "b432_genid-00f1db82e1ab437c844115a94dc63e635-bn8028t11f50919"
         }
     ]
 }

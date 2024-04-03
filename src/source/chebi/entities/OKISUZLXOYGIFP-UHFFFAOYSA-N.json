@@ -1,28 +1,35 @@
 {
     "@context": {
-        "chebi": "http://purl.obolibrary.org/obo/chebi/",
         "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
         "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-        "obo": "http://purl.obolibrary.org/obo/"
+        "obo": "http://purl.obolibrary.org/obo/",
+        "uniprot": "http://purl.uniprot.org/",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "concept": "https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/",
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "dbo": "http://dbpedia.org/ontology/",
+        "dbp": "http://dbpedia.org/property/",
+        "altLabel": {
+            "@id": "http://www.w3.org/2004/02/skos/core#altLabel",
+            "@language": "en"
+        },
+        "graph": {
+            "@id": "@graph"
+        }
     },
-    "@id": "obo:CHEBI_194706",
-    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "@id": "concept:OKISUZLXOYGIFP-UHFFFAOYSA-N",
+    "@type": "skos:Concept",
+    "dbo:formula": "C13H8Cl2O",
+    "dbo:inchi": "InChI=1S/C13H8Cl2O/c14-11-5-1-9(2-6-11)13(16)10-3-7-12(15)8-4-10/h1-8H",
+    "dbo:smiles": "ClC1=CC=C(C(=O)C2=CC=C(Cl)C=C2)C=C1",
+    "dbp:inchikey": "OKISUZLXOYGIFP-UHFFFAOYSA-N",
     "chebi:charge": "0",
-    "chebi:formula": "C13H8Cl2O",
-    "chebi:inchi": "InChI=1S/C13H8Cl2O/c14-11-5-1-9(2-6-11)13(16)10-3-7-12(15)8-4-10/h1-8H",
-    "chebi:inchikey": "OKISUZLXOYGIFP-UHFFFAOYSA-N",
-    "chebi:smiles": "ClC1=CC=C(C(=O)C2=CC=C(Cl)C=C2)C=C1",
-    "geneontology:hasDbXref": [
-        "Chemspider:6767",
-        "KEGG:C06643"
-    ],
-    "geneontology:hasId": "194706",
-    "geneontology:hasSynonym": "bis(4-chlorophenyl)methanone",
-    "geneontology:inSubset": {
-        "@id": "obo:chebi#2_STAR"
+    "skos:altLabel": "bis(4-chlorophenyl)methanone",
+    "skos:exactMatch": {
+        "@id": "obo:CHEBI_194706"
     },
-    "rdfs:label": "4-4-Dichlorobenzophenone",
-    "rdfs:subClassOf": {
+    "skos:semanticRelation": {
         "@id": "obo:CHEBI_22726"
     }
 }

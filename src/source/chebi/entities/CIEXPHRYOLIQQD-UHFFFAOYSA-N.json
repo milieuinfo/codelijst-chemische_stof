@@ -1,39 +1,17 @@
 {
     "@context": {
-        "chebi": "http://purl.obolibrary.org/obo/chebi/",
         "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
         "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-        "obo": "http://purl.obolibrary.org/obo/"
-    },
-    "@id": "obo:CHEBI_82787",
-    "@type": "http://www.w3.org/2002/07/owl#Class",
-    "obo:IAO_0000115": "An alanine derivative that is the N-furoyl derivative of methyl N-(2,6-dimethylphenyl)alaninate",
-    "chebi:charge": "0",
-    "chebi:formula": "C17H19NO4",
-    "chebi:inchi": "InChI=1S/C17H19NO4/c1-11-7-5-8-12(2)15(11)18(13(3)17(20)21-4)16(19)14-9-6-10-22-14/h5-10,13H,1-4H3",
-    "chebi:inchikey": "CIEXPHRYOLIQQD-UHFFFAOYSA-N",
-    "chebi:smiles": "COC(=O)C(C)N(C(=O)c1ccco1)c1c(C)cccc1C",
-    "geneontology:hasDbXref": "PPDB:366",
-    "geneontology:hasId": "82787",
-    "geneontology:inSubset": {
-        "@id": "obo:chebi#3_STAR"
-    },
-    "rdfs:label": "methyl N-(2,6-dimethylphenyl)-N-2-furoylalaninate",
-    "rdfs:subClassOf": [
-        {
-            "@id": "obo:CHEBI_37622"
-        },
-        {
-            "@id": "obo:CHEBI_25248"
-        },
-        {
-            "@id": "obo:CHEBI_62733"
-        },
-        {
-            "@id": "obo:CHEBI_22278"
-        },
-        {
-            "@id": "obo:CHEBI_24129"
+        "obo": "http://purl.obolibrary.org/obo/",
+        "uniprot": "http://purl.uniprot.org/",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "concept": "https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/",
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "dbo": "http://dbpedia.org/ontology/",
+        "dbp": "http://dbpedia.org/property/",
+        "graph": {
+            "@id": "@graph"
         }
-    ]
+    }
 }

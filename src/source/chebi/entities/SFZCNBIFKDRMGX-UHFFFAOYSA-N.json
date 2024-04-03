@@ -1,34 +1,31 @@
 {
     "@context": {
-        "chebi": "http://purl.obolibrary.org/obo/chebi/",
         "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
         "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-        "obo": "http://purl.obolibrary.org/obo/"
+        "obo": "http://purl.obolibrary.org/obo/",
+        "uniprot": "http://purl.uniprot.org/",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "concept": "https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/",
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "dbo": "http://dbpedia.org/ontology/",
+        "dbp": "http://dbpedia.org/property/",
+        "altLabel": {
+            "@id": "http://www.w3.org/2004/02/skos/core#altLabel",
+            "@language": "en"
+        },
+        "graph": {
+            "@id": "@graph"
+        }
     },
-    "@id": "obo:CHEBI_30496",
-    "@type": "http://www.w3.org/2002/07/owl#Class",
-    "obo:IAO_0000115": "A sulfur coordination entity consisting of six fluorine atoms attached to a central sulfur atom. It is the most potent greenhouse gas currently known, with a global warming potential of 23,900 times that of CO2 over a 100 year period (SF6 has an estimated lifetime in the atmosphere of between 800 and 3,000 years).",
+    "@id": "concept:SFZCNBIFKDRMGX-UHFFFAOYSA-N",
+    "@type": "skos:Concept",
+    "dbo:formula": "F6S",
+    "dbo:inchi": "InChI=1S/F6S/c1-7(2,3,4,5)6",
+    "dbo:smiles": "FS(F)(F)(F)(F)F",
+    "dbp:inchikey": "SFZCNBIFKDRMGX-UHFFFAOYSA-N",
     "chebi:charge": "0",
-    "chebi:formula": "F6S",
-    "chebi:inchi": "InChI=1S/F6S/c1-7(2,3,4,5)6",
-    "chebi:inchikey": "SFZCNBIFKDRMGX-UHFFFAOYSA-N",
-    "chebi:smiles": "FS(F)(F)(F)(F)F",
-    "geneontology:hasDbXref": [
-        "CAS:2551-62-4",
-        "Drug_Central:4039",
-        "Gmelin:2752",
-        "KEGG:D05962",
-        "MolBase:971",
-        "PMID:25459612",
-        "PMID:25559529",
-        "PMID:25607376",
-        "PMID:25647411",
-        "PMID:25660738",
-        "Reaxys:7247840",
-        "Wikipedia:Sulfur_hexafluoride"
-    ],
-    "geneontology:hasId": "30496",
-    "geneontology:hasSynonym": [
+    "skos:altLabel": [
         "[SF6]",
         "hexafluoridosulfur",
         "SF6",
@@ -36,19 +33,11 @@
         "sulfur(6+) fluoride",
         "sulfur(VI) fluoride"
     ],
-    "geneontology:inSubset": {
-        "@id": "obo:chebi#3_STAR"
+    "skos:exactMatch": {
+        "@id": "obo:CHEBI_30496"
     },
-    "rdfs:label": "sulfur hexafluoride",
-    "rdfs:subClassOf": [
-        {
-            "@id": "obo:CHEBI_50094"
-        },
-        {
-            "@id": "b597_genid-00f1db82e1ab437c844115a94dc63e635-bn30496t11f37337"
-        },
-        {
-            "@id": "b597_genid-00f1db82e1ab437c844115a94dc63e635-bn30496t11f76413"
-        }
-    ]
+    "skos:note": "A sulfur coordination entity consisting of six fluorine atoms attached to a central sulfur atom. It is the most potent greenhouse gas currently known, with a global warming potential of 23,900 times that of CO2 over a 100 year period (SF6 has an estimated lifetime in the atmosphere of between 800 and 3,000 years).",
+    "skos:semanticRelation": {
+        "@id": "obo:CHEBI_50094"
+    }
 }

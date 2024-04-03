@@ -1,34 +1,31 @@
 {
     "@context": {
-        "chebi": "http://purl.obolibrary.org/obo/chebi/",
         "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
         "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-        "obo": "http://purl.obolibrary.org/obo/"
+        "obo": "http://purl.obolibrary.org/obo/",
+        "uniprot": "http://purl.uniprot.org/",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "concept": "https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/",
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "dbo": "http://dbpedia.org/ontology/",
+        "dbp": "http://dbpedia.org/property/",
+        "altLabel": {
+            "@id": "http://www.w3.org/2004/02/skos/core#altLabel",
+            "@language": "en"
+        },
+        "graph": {
+            "@id": "@graph"
+        }
     },
-    "@id": "obo:CHEBI_34690",
-    "@type": "http://www.w3.org/2002/07/owl#Class",
-    "obo:IAO_0000115": "An alkenyl phosphate that is the 2,2-dichloroethenyl ester of dimethyl phosphate.",
+    "@id": "concept:OEBRKCOSUFCWJD-UHFFFAOYSA-N",
+    "@type": "skos:Concept",
+    "dbo:formula": "C4H7Cl2O4P",
+    "dbo:inchi": "InChI=1S/C4H7Cl2O4P/c1-8-11(7,9-2)10-3-4(5)6/h3H,1-2H3",
+    "dbo:smiles": "COP(=O)(OC)OC=C(Cl)Cl",
+    "dbp:inchikey": "OEBRKCOSUFCWJD-UHFFFAOYSA-N",
     "chebi:charge": "0",
-    "chebi:formula": "C4H7Cl2O4P",
-    "chebi:inchi": "InChI=1S/C4H7Cl2O4P/c1-8-11(7,9-2)10-3-4(5)6/h3H,1-2H3",
-    "chebi:inchikey": "OEBRKCOSUFCWJD-UHFFFAOYSA-N",
-    "chebi:smiles": "COP(=O)(OC)OC=C(Cl)Cl",
-    "geneontology:hasDbXref": [
-        "Beilstein:1709141",
-        "CAS:62-73-7",
-        "HMDB:HMDB0033956",
-        "KEGG:C14430",
-        "KEGG:D03791",
-        "MetaCyc:CPD-10185",
-        "PMID:24021659",
-        "PMID:24231740",
-        "PMID:24374570",
-        "PPDB:220",
-        "Reaxys:1709141",
-        "Wikipedia:Dichlorvos"
-    ],
-    "geneontology:hasId": "34690",
-    "geneontology:hasSynonym": [
+    "skos:altLabel": [
         "2,2-dichloroethenyl dimethyl phosphate",
         "2,2-Dichloroethenyl dimethyl phosphate",
         "DDVP",
@@ -38,11 +35,11 @@
         "Phosphoric acid, 2,2-dichloroethenyl dimethyl ester",
         "Phosphoric acid, 2,2-dichlorovinyl dimethyl ester"
     ],
-    "geneontology:inSubset": {
-        "@id": "obo:chebi#3_STAR"
+    "skos:exactMatch": {
+        "@id": "obo:CHEBI_34690"
     },
-    "rdfs:label": "dichlorvos",
-    "rdfs:subClassOf": [
+    "skos:note": "An alkenyl phosphate that is the 2,2-dichloroethenyl ester of dimethyl phosphate.",
+    "skos:semanticRelation": [
         {
             "@id": "obo:CHEBI_16648"
         },
@@ -53,22 +50,7 @@
             "@id": "obo:CHEBI_25708"
         },
         {
-            "@id": "b914_genid-00f1db82e1ab437c844115a94dc63e635-bn34690t11f33282"
-        },
-        {
-            "@id": "b914_genid-00f1db82e1ab437c844115a94dc63e635-bn34690t11f35443"
-        },
-        {
-            "@id": "b914_genid-00f1db82e1ab437c844115a94dc63e635-bn34690t11f35718"
-        },
-        {
             "@id": "obo:CHEBI_37494"
-        },
-        {
-            "@id": "b914_genid-00f1db82e1ab437c844115a94dc63e635-bn34690t11f37733"
-        },
-        {
-            "@id": "b914_genid-00f1db82e1ab437c844115a94dc63e635-bn34690t11f38462"
         }
     ]
 }

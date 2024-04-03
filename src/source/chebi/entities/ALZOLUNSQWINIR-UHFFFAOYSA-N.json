@@ -1,56 +1,41 @@
 {
     "@context": {
-        "chebi": "http://purl.obolibrary.org/obo/chebi/",
         "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
         "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-        "obo": "http://purl.obolibrary.org/obo/"
+        "obo": "http://purl.obolibrary.org/obo/",
+        "uniprot": "http://purl.uniprot.org/",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "concept": "https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/",
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "dbo": "http://dbpedia.org/ontology/",
+        "dbp": "http://dbpedia.org/property/",
+        "graph": {
+            "@id": "@graph"
+        }
     },
-    "@id": "obo:CHEBI_84199",
-    "@type": "http://www.w3.org/2002/07/owl#Class",
-    "obo:IAO_0000115": "A quinolinemonocarboxylic acid that is quinoline-8-carboxylic acid carrying additional methyl and chloro substituents at positions 3 and 7 respectively. A residual herbicide used to control broad-leaved weeds on a range of crops including cereals, rape and beet.",
+    "@id": "concept:ALZOLUNSQWINIR-UHFFFAOYSA-N",
+    "@type": "skos:Concept",
+    "dbo:formula": "C11H8ClNO2",
+    "dbo:inchi": "InChI=1S/C11H8ClNO2/c1-6-4-7-2-3-8(12)9(11(14)15)10(7)13-5-6/h2-5H,1H3,(H,14,15)",
+    "dbo:smiles": "Cc1cnc2c(C(O)=O)c(Cl)ccc2c1",
+    "dbp:inchikey": "ALZOLUNSQWINIR-UHFFFAOYSA-N",
     "chebi:charge": "0",
-    "chebi:formula": "C11H8ClNO2",
-    "chebi:inchi": "InChI=1S/C11H8ClNO2/c1-6-4-7-2-3-8(12)9(11(14)15)10(7)13-5-6/h2-5H,1H3,(H,14,15)",
-    "chebi:inchikey": "ALZOLUNSQWINIR-UHFFFAOYSA-N",
-    "chebi:smiles": "Cc1cnc2c(C(O)=O)c(Cl)ccc2c1",
-    "geneontology:hasDbXref": [
-        "CAS:90717-03-6",
-        "KEGG:C18891",
-        "Patent:EP0445420",
-        "Patent:EP2272349",
-        "Pesticides:quinmerac",
-        "PMID:11080318",
-        "PMID:11520869",
-        "PMID:11871567",
-        "PMID:25551708",
-        "PPDB:578",
-        "Reaxys:8392904"
-    ],
-    "geneontology:hasId": "84199",
-    "geneontology:hasSynonym": [
+    "skos:altLabel": [
         "7-Chloro-3-methyl-8-quinolinecarboxylic acid",
         "7-chloro-3-methylquinoline-8-carboxylic acid",
         "BAS 518"
     ],
-    "geneontology:inSubset": {
-        "@id": "obo:chebi#3_STAR"
+    "skos:exactMatch": {
+        "@id": "obo:CHEBI_84199"
     },
-    "rdfs:label": "quinmerac",
-    "rdfs:subClassOf": [
+    "skos:note": "A quinolinemonocarboxylic acid that is quinoline-8-carboxylic acid carrying additional methyl and chloro substituents at positions 3 and 7 respectively. A residual herbicide used to control broad-leaved weeds on a range of crops including cereals, rape and beet.",
+    "skos:semanticRelation": [
         {
             "@id": "obo:CHEBI_36683"
         },
         {
             "@id": "obo:CHEBI_26512"
-        },
-        {
-            "@id": "b61_genid-00f1db82e1ab437c844115a94dc63e635-bn84199t11f24527"
-        },
-        {
-            "@id": "b61_genid-00f1db82e1ab437c844115a94dc63e635-bn84199t11f26841"
-        },
-        {
-            "@id": "b61_genid-00f1db82e1ab437c844115a94dc63e635-bn84199t11f78298"
         }
     ]
 }

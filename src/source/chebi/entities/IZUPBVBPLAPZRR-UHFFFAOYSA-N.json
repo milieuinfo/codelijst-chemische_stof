@@ -1,48 +1,41 @@
 {
     "@context": {
-        "chebi": "http://purl.obolibrary.org/obo/chebi/",
         "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
         "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-        "obo": "http://purl.obolibrary.org/obo/"
+        "obo": "http://purl.obolibrary.org/obo/",
+        "uniprot": "http://purl.uniprot.org/",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "concept": "https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/",
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "dbo": "http://dbpedia.org/ontology/",
+        "dbp": "http://dbpedia.org/property/",
+        "altLabel": {
+            "@id": "http://www.w3.org/2004/02/skos/core#altLabel",
+            "@language": "en"
+        },
+        "graph": {
+            "@id": "@graph"
+        }
     },
-    "@id": "obo:CHEBI_17642",
-    "@type": "http://www.w3.org/2002/07/owl#Class",
-    "obo:IAO_0000115": "A  chlorophenol that is phenol substituted by 5 chloro groups.",
+    "@id": "concept:IZUPBVBPLAPZRR-UHFFFAOYSA-N",
+    "@type": "skos:Concept",
+    "dbo:formula": "C6HCl5O",
+    "dbo:inchi": "InChI=1S/C6HCl5O/c7-1-2(8)4(10)6(12)5(11)3(1)9/h12H",
+    "dbo:smiles": "Oc1c(Cl)c(Cl)c(Cl)c(Cl)c1Cl",
+    "dbp:inchikey": "IZUPBVBPLAPZRR-UHFFFAOYSA-N",
     "chebi:charge": "0",
-    "chebi:formula": "C6HCl5O",
-    "chebi:inchi": "InChI=1S/C6HCl5O/c7-1-2(8)4(10)6(12)5(11)3(1)9/h12H",
-    "chebi:inchikey": "IZUPBVBPLAPZRR-UHFFFAOYSA-N",
-    "chebi:smiles": "Oc1c(Cl)c(Cl)c(Cl)c(Cl)c1Cl",
-    "geneontology:hasDbXref": [
-        "Beilstein:1285380",
-        "CAS:87-86-5",
-        "Gmelin:102794",
-        "HMDB:HMDB0041974",
-        "KEGG:C02575",
-        "KNApSAcK:C00007496",
-        "LINCS:LSM-37108",
-        "MetaCyc:PENTACHLOROPHENOL",
-        "PDBeChem:PCI",
-        "PMID:17497895",
-        "PMID:23636589",
-        "PMID:24123209",
-        "PPDB:513",
-        "Reaxys:1285380",
-        "UM-BBD_compID:c0326",
-        "Wikipedia:Pentachlorophenol"
-    ],
-    "geneontology:hasId": "17642",
-    "geneontology:hasSynonym": [
+    "skos:altLabel": [
         "PCP",
         "2,3,4,5,6-pentachlorophenol",
         "Pentachlorophenol",
         "PENTACHLOROPHENOL"
     ],
-    "geneontology:inSubset": {
-        "@id": "obo:chebi#3_STAR"
+    "skos:exactMatch": {
+        "@id": "obo:CHEBI_17642"
     },
-    "rdfs:label": "pentachlorophenol",
-    "rdfs:subClassOf": [
+    "skos:note": "A  chlorophenol that is phenol substituted by 5 chloro groups.",
+    "skos:semanticRelation": [
         {
             "@id": "obo:CHEBI_87034"
         },
@@ -51,18 +44,6 @@
         },
         {
             "@id": "obo:CHEBI_23150"
-        },
-        {
-            "@id": "b203_genid-00f1db82e1ab437c844115a94dc63e635-bn17642tmms73f58217"
-        },
-        {
-            "@id": "b203_genid-00f1db82e1ab437c844115a94dc63e635-bn17642t8f47136"
-        },
-        {
-            "@id": "b203_genid-00f1db82e1ab437c844115a94dc63e635-bn17642t4f58217"
-        },
-        {
-            "@id": "b203_genid-00f1db82e1ab437c844115a94dc63e635-bn17642t11f76967"
         },
         {
             "@id": "obo:CHEBI_83390"

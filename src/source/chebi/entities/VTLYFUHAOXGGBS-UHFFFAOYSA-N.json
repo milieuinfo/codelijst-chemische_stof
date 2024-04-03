@@ -1,26 +1,31 @@
 {
     "@context": {
-        "chebi": "http://purl.obolibrary.org/obo/chebi/",
         "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
         "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-        "obo": "http://purl.obolibrary.org/obo/"
+        "obo": "http://purl.obolibrary.org/obo/",
+        "uniprot": "http://purl.uniprot.org/",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "concept": "https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/",
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "dbo": "http://dbpedia.org/ontology/",
+        "dbp": "http://dbpedia.org/property/",
+        "altLabel": {
+            "@id": "http://www.w3.org/2004/02/skos/core#altLabel",
+            "@language": "en"
+        },
+        "graph": {
+            "@id": "@graph"
+        }
     },
-    "@id": "obo:CHEBI_29034",
-    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "@id": "concept:VTLYFUHAOXGGBS-UHFFFAOYSA-N",
+    "@type": "skos:Concept",
+    "dbo:formula": "Fe",
+    "dbo:inchi": "InChI=1S/Fe/q+3",
+    "dbo:smiles": "[Fe+3]",
+    "dbp:inchikey": "VTLYFUHAOXGGBS-UHFFFAOYSA-N",
     "chebi:charge": "+3",
-    "chebi:formula": "Fe",
-    "chebi:inchi": "InChI=1S/Fe/q+3",
-    "chebi:inchikey": "VTLYFUHAOXGGBS-UHFFFAOYSA-N",
-    "chebi:smiles": "[Fe+3]",
-    "http://purl.uniprot.org/core/name": "Fe(3+)",
-    "geneontology:hasDbXref": [
-        "CAS:20074-52-6",
-        "Gmelin:15986",
-        "KEGG:C14819",
-        "PDBeChem:FE"
-    ],
-    "geneontology:hasId": "29034",
-    "geneontology:hasSynonym": [
+    "skos:altLabel": [
         "Fe(3+)",
         "Fe(III)",
         "FE (III) ION",
@@ -32,28 +37,15 @@
         "iron(3+) ion",
         "iron(III) cation"
     ],
-    "geneontology:inSubset": {
-        "@id": "obo:chebi#3_STAR"
+    "skos:exactMatch": {
+        "@id": "obo:CHEBI_29034"
     },
-    "rdfs:label": "iron(3+)",
-    "rdfs:subClassOf": [
+    "skos:semanticRelation": [
         {
             "@id": "obo:CHEBI_24875"
         },
         {
             "@id": "obo:CHEBI_27153"
-        },
-        {
-            "@id": "b997_genid-00f1db82e1ab437c844115a94dc63e635-bn29034t11f23357"
-        },
-        {
-            "@id": "b997_genid-00f1db82e1ab437c844115a94dc63e635-bn29034t11f75771"
-        },
-        {
-            "@id": "b997_genid-00f1db82e1ab437c844115a94dc63e635-bn29034t11f76971"
-        },
-        {
-            "@id": "b997_genid-00f1db82e1ab437c844115a94dc63e635-bn29034t11f77746"
         }
     ]
 }

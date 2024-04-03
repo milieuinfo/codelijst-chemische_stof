@@ -1,43 +1,27 @@
 {
     "@context": {
-        "chebi": "http://purl.obolibrary.org/obo/chebi/",
         "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
         "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-        "obo": "http://purl.obolibrary.org/obo/"
+        "obo": "http://purl.obolibrary.org/obo/",
+        "uniprot": "http://purl.uniprot.org/",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "concept": "https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/",
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "dbo": "http://dbpedia.org/ontology/",
+        "dbp": "http://dbpedia.org/property/",
+        "graph": {
+            "@id": "@graph"
+        }
     },
-    "@id": "obo:CHEBI_81922",
-    "@type": "http://www.w3.org/2002/07/owl#Class",
-    "obo:IAO_0000115": "An organosilicon compound that is dimethylsilane in which the hydrogens attached to the silicon are replaced by p-fluorophenyl groups and a hydrogen attached to one of the methyl groups is replaced by a 1H-1,2,4-triazol-1-yl group. It is a broad-sepctrum fungicide used to protect a variety of crops.",
+    "@id": "concept:FQKUGOMFVDPBIZ-UHFFFAOYSA-N",
+    "@type": "skos:Concept",
+    "dbo:formula": "C16H15F2N3Si",
+    "dbo:inchi": "InChI=1S/C16H15F2N3Si/c1-22(12-21-11-19-10-20-21,15-6-2-13(17)3-7-15)16-8-4-14(18)5-9-16/h2-11H,12H2,1H3",
+    "dbo:smiles": "C[Si](Cn1cncn1)(c1ccc(F)cc1)c1ccc(F)cc1",
+    "dbp:inchikey": "FQKUGOMFVDPBIZ-UHFFFAOYSA-N",
     "chebi:charge": "0",
-    "chebi:formula": "C16H15F2N3Si",
-    "chebi:inchi": "InChI=1S/C16H15F2N3Si/c1-22(12-21-11-19-10-20-21,15-6-2-13(17)3-7-15)16-8-4-14(18)5-9-16/h2-11H,12H2,1H3",
-    "chebi:inchikey": "FQKUGOMFVDPBIZ-UHFFFAOYSA-N",
-    "chebi:smiles": "C[Si](Cn1cncn1)(c1ccc(F)cc1)c1ccc(F)cc1",
-    "geneontology:hasDbXref": [
-        "AGR:IND20337341",
-        "AGR:IND20616435",
-        "AGR:IND90014030",
-        "AGR:IND91021305",
-        "AGR:IND91051285",
-        "CAS:85509-19-9",
-        "CAS:96827-34-8",
-        "HMDB:HMDB0039815",
-        "KEGG:C18733",
-        "Patent:EP68813",
-        "Patent:US4510136",
-        "Pesticides:flusilazole",
-        "PMID:17187383",
-        "PMID:21238576",
-        "PMID:21290102",
-        "PMID:22382673",
-        "PMID:23657738",
-        "PMID:25149233",
-        "PPDB:350",
-        "Reaxys:5824097",
-        "Wikipedia:Flusilazole"
-    ],
-    "geneontology:hasId": "81922",
-    "geneontology:hasSynonym": [
+    "skos:altLabel": [
         "1-[[bis(4-fluorophenyl)methylsilyl]methyl]-1H-1,2,4-triazole",
         "1-{[bis(4-fluorophenyl)(methyl)silyl]methyl}-1H-1,2,4-triazole",
         "bis(4-fluorophenyl)(methyl)(1H-1,2,4-triazol-1-ylmethyl)silane",
@@ -46,11 +30,11 @@
         "flusilazol",
         "Nustar"
     ],
-    "geneontology:inSubset": {
-        "@id": "obo:chebi#3_STAR"
+    "skos:exactMatch": {
+        "@id": "obo:CHEBI_81922"
     },
-    "rdfs:label": "flusilazole",
-    "rdfs:subClassOf": [
+    "skos:note": "An organosilicon compound that is dimethylsilane in which the hydrogens attached to the silicon are replaced by p-fluorophenyl groups and a hydrogen attached to one of the methyl groups is replaced by a 1H-1,2,4-triazol-1-yl group. It is a broad-sepctrum fungicide used to protect a variety of crops.",
+    "skos:semanticRelation": [
         {
             "@id": "obo:CHEBI_35727"
         },
@@ -65,18 +49,6 @@
         },
         {
             "@id": "obo:CHEBI_25713"
-        },
-        {
-            "@id": "b639_genid-00f1db82e1ab437c844115a94dc63e635-bn81922t11f35703"
-        },
-        {
-            "@id": "b639_genid-00f1db82e1ab437c844115a94dc63e635-bn81922t11f77884"
-        },
-        {
-            "@id": "b639_genid-00f1db82e1ab437c844115a94dc63e635-bn81922t11f78298"
-        },
-        {
-            "@id": "b639_genid-00f1db82e1ab437c844115a94dc63e635-bn81922t11f86328"
         }
     ]
 }

@@ -1,35 +1,31 @@
 {
     "@context": {
-        "chebi": "http://purl.obolibrary.org/obo/chebi/",
         "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
         "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-        "obo": "http://purl.obolibrary.org/obo/"
+        "obo": "http://purl.obolibrary.org/obo/",
+        "uniprot": "http://purl.uniprot.org/",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "concept": "https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/",
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "dbo": "http://dbpedia.org/ontology/",
+        "dbp": "http://dbpedia.org/property/",
+        "altLabel": {
+            "@id": "http://www.w3.org/2004/02/skos/core#altLabel",
+            "@language": "en"
+        },
+        "graph": {
+            "@id": "@graph"
+        }
     },
-    "@id": "obo:CHEBI_9329",
-    "@type": "http://www.w3.org/2002/07/owl#Class",
-    "obo:IAO_0000115": "A sulfonamide consisting of pyrimidine having methoxy substituents at the 5- and 6-positions and a 4-aminobenzenesulfonamido group at the 4-position. In combination with the antiprotozoal pyrimethamine (CHEBI:8673) it is used as an antimalarial.",
+    "@id": "concept:PJSFRIWCGOHTNF-UHFFFAOYSA-N",
+    "@type": "skos:Concept",
+    "dbo:formula": "C12H14N4O4S",
+    "dbo:inchi": "InChI=1S/C12H14N4O4S/c1-19-10-11(14-7-15-12(10)20-2)16-21(17,18)9-5-3-8(13)4-6-9/h3-7H,13H2,1-2H3,(H,14,15,16)",
+    "dbo:smiles": "COc1ncnc(NS(=O)(=O)c2ccc(N)cc2)c1OC",
+    "dbp:inchikey": "PJSFRIWCGOHTNF-UHFFFAOYSA-N",
     "chebi:charge": "0",
-    "chebi:formula": "C12H14N4O4S",
-    "chebi:inchi": "InChI=1S/C12H14N4O4S/c1-19-10-11(14-7-15-12(10)20-2)16-21(17,18)9-5-3-8(13)4-6-9/h3-7H,13H2,1-2H3,(H,14,15,16)",
-    "chebi:inchikey": "PJSFRIWCGOHTNF-UHFFFAOYSA-N",
-    "chebi:smiles": "COc1ncnc(NS(=O)(=O)c2ccc(N)cc2)c1OC",
-    "geneontology:hasDbXref": [
-        "PMID:11431418",
-        "Beilstein:625453",
-        "CAS:2447-57-6",
-        "Drug_Central:2503",
-        "DrugBank:DB01299",
-        "KEGG:C07630",
-        "KEGG:D00580",
-        "LINCS:LSM-5657",
-        "PMID:14711594",
-        "PMID:23183348",
-        "Reaxys:625453",
-        "VSDB:1784",
-        "Wikipedia:Sulfadoxine"
-    ],
-    "geneontology:hasId": "9329",
-    "geneontology:hasSynonym": [
+    "skos:altLabel": [
         "4-amino-N-(5,6-dimethoxypyrimidin-4-yl)benzenesulfonamide",
         "4-Sulfanilamido-5,6-dimethoxypyrimidine",
         "sulfadoxina",
@@ -39,22 +35,16 @@
         "Sulphadoxine",
         "Sulphormethoxine"
     ],
-    "geneontology:inSubset": {
-        "@id": "obo:chebi#3_STAR"
+    "skos:exactMatch": {
+        "@id": "obo:CHEBI_9329"
     },
-    "rdfs:label": "sulfadoxine",
-    "rdfs:subClassOf": [
+    "skos:note": "A sulfonamide consisting of pyrimidine having methoxy substituents at the 5- and 6-positions and a 4-aminobenzenesulfonamido group at the 4-position. In combination with the antiprotozoal pyrimethamine (CHEBI:8673) it is used as an antimalarial.",
+    "skos:semanticRelation": [
         {
             "@id": "obo:CHEBI_39447"
         },
         {
             "@id": "obo:CHEBI_35358"
-        },
-        {
-            "@id": "b150_genid-00f1db82e1ab437c844115a94dc63e635-bn9329t11f36047"
-        },
-        {
-            "@id": "b150_genid-00f1db82e1ab437c844115a94dc63e635-bn9329t11f38068"
         }
     ]
 }

@@ -1,34 +1,31 @@
 {
     "@context": {
-        "chebi": "http://purl.obolibrary.org/obo/chebi/",
         "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
         "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-        "obo": "http://purl.obolibrary.org/obo/"
+        "obo": "http://purl.obolibrary.org/obo/",
+        "uniprot": "http://purl.uniprot.org/",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "concept": "https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/",
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "dbo": "http://dbpedia.org/ontology/",
+        "dbp": "http://dbpedia.org/property/",
+        "altLabel": {
+            "@id": "http://www.w3.org/2004/02/skos/core#altLabel",
+            "@language": "en"
+        },
+        "graph": {
+            "@id": "@graph"
+        }
     },
-    "@id": "obo:CHEBI_47032",
-    "@type": "http://www.w3.org/2002/07/owl#Class",
-    "obo:IAO_0000115": "A dioxane with oxygen atoms at positions 1 and 4.",
+    "@id": "concept:RYHBNJHYFVUHQT-UHFFFAOYSA-N",
+    "@type": "skos:Concept",
+    "dbo:formula": "C4H8O2",
+    "dbo:inchi": "InChI=1S/C4H8O2/c1-2-6-4-3-5-1/h1-4H2",
+    "dbo:smiles": "C1COCCO1",
+    "dbp:inchikey": "RYHBNJHYFVUHQT-UHFFFAOYSA-N",
     "chebi:charge": "0",
-    "chebi:formula": "C4H8O2",
-    "chebi:inchi": "InChI=1S/C4H8O2/c1-2-6-4-3-5-1/h1-4H2",
-    "chebi:inchikey": "RYHBNJHYFVUHQT-UHFFFAOYSA-N",
-    "chebi:smiles": "C1COCCO1",
-    "geneontology:hasDbXref": [
-        "Beilstein:102551",
-        "CAS:123-91-1",
-        "DrugBank:DB03316",
-        "KEGG:C14440",
-        "LINCS:LSM-37087",
-        "PDBeChem:DIO",
-        "PMID:14550759",
-        "PMID:18044507",
-        "PMID:20598439",
-        "PPDB:1638",
-        "Reaxys:102551",
-        "Wikipedia:1,4-Dioxane"
-    ],
-    "geneontology:hasId": "47032",
-    "geneontology:hasSynonym": [
+    "skos:altLabel": [
         "1,4-DIETHYLENE DIOXIDE",
         "1,4-dioxacyclohexane",
         "1,4-Dioxan",
@@ -42,25 +39,16 @@
         "tetrahydro-para-dioxin",
         "tetrahydro-p-dioxin"
     ],
-    "geneontology:inSubset": {
-        "@id": "obo:chebi#3_STAR"
+    "skos:exactMatch": {
+        "@id": "obo:CHEBI_47032"
     },
-    "rdfs:label": "1,4-dioxane",
-    "rdfs:subClassOf": [
+    "skos:note": "A dioxane with oxygen atoms at positions 1 and 4.",
+    "skos:semanticRelation": [
         {
             "@id": "obo:CHEBI_134179"
         },
         {
             "@id": "obo:CHEBI_46923"
-        },
-        {
-            "@id": "b551_genid-00f1db82e1ab437c844115a94dc63e635-bn47032t11f25212"
-        },
-        {
-            "@id": "b551_genid-00f1db82e1ab437c844115a94dc63e635-bn47032t11f48355"
-        },
-        {
-            "@id": "b551_genid-00f1db82e1ab437c844115a94dc63e635-bn47032t11f50903"
         }
     ]
 }

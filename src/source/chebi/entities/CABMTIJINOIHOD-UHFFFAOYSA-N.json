@@ -1,32 +1,17 @@
 {
     "@context": {
-        "chebi": "http://purl.obolibrary.org/obo/chebi/",
         "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
         "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-        "obo": "http://purl.obolibrary.org/obo/"
-    },
-    "@id": "obo:CHEBI_147361",
-    "@type": "http://www.w3.org/2002/07/owl#Class",
-    "obo:IAO_0000115": "A quinolinemonocarboxylic acid that is quinoline-3-carboxylic acid which is substituted by a 4-methyl-5-oxo-4-(propan-2-yl)-4,5-dihydro-1H-imidazol-2-yl group at position 2.",
-    "chebi:charge": "0",
-    "chebi:formula": "C17H17N3O3",
-    "chebi:inchi": "InChI=1S/C17H17N3O3/c1-9(2)17(3)16(23)19-14(20-17)13-11(15(21)22)8-10-6-4-5-7-12(10)18-13/h4-9H,1-3H3,(H,21,22)(H,19,20,23)",
-    "chebi:inchikey": "CABMTIJINOIHOD-UHFFFAOYSA-N",
-    "chebi:smiles": "C=1(C(=CC=2C=CC=CC2N1)C(O)=O)C=3NC(C(N3)(C)C(C)C)=O",
-    "geneontology:hasId": "147361",
-    "geneontology:inSubset": {
-        "@id": "obo:chebi#3_STAR"
-    },
-    "rdfs:label": "2-[4-methyl-5-oxo-4-(propan-2-yl)-4,5-dihydro-1H-imidazol-2-yl]quinoline-3-carboxylic acid",
-    "rdfs:subClassOf": [
-        {
-            "@id": "obo:CHEBI_25384"
-        },
-        {
-            "@id": "obo:CHEBI_26512"
-        },
-        {
-            "@id": "obo:CHEBI_20432"
+        "obo": "http://purl.obolibrary.org/obo/",
+        "uniprot": "http://purl.uniprot.org/",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "concept": "https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/",
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "dbo": "http://dbpedia.org/ontology/",
+        "dbp": "http://dbpedia.org/property/",
+        "graph": {
+            "@id": "@graph"
         }
-    ]
+    }
 }

@@ -1,56 +1,40 @@
 {
     "@context": {
-        "chebi": "http://purl.obolibrary.org/obo/chebi/",
         "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
         "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-        "obo": "http://purl.obolibrary.org/obo/"
+        "obo": "http://purl.obolibrary.org/obo/",
+        "uniprot": "http://purl.uniprot.org/",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "concept": "https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/",
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "dbo": "http://dbpedia.org/ontology/",
+        "dbp": "http://dbpedia.org/property/",
+        "altLabel": {
+            "@id": "http://www.w3.org/2004/02/skos/core#altLabel",
+            "@language": "en"
+        },
+        "graph": {
+            "@id": "@graph"
+        }
     },
-    "@id": "obo:CHEBI_81733",
-    "@type": "http://www.w3.org/2002/07/owl#Class",
-    "obo:IAO_0000115": "A carbamate ester that is phenylcarbamic acid in which the hydrogen of the hydroxy group has been replaced by a 3-[(ethoxycarbonyl)amino]phenyl group. It is an agrochemical used as a herbicide.",
+    "@id": "concept:WZJZMXBKUWKXTQ-UHFFFAOYSA-N",
+    "@type": "skos:Concept",
+    "dbo:formula": "C16H16N2O4",
+    "dbo:inchi": "InChI=1S/C16H16N2O4/c1-2-21-15(19)18-13-9-6-10-14(11-13)22-16(20)17-12-7-4-3-5-8-12/h3-11H,2H2,1H3,(H,17,20)(H,18,19)",
+    "dbo:smiles": "CCOC(=O)Nc1cccc(OC(=O)Nc2ccccc2)c1",
+    "dbp:inchikey": "WZJZMXBKUWKXTQ-UHFFFAOYSA-N",
     "chebi:charge": "0",
-    "chebi:formula": "C16H16N2O4",
-    "chebi:inchi": "InChI=1S/C16H16N2O4/c1-2-21-15(19)18-13-9-6-10-14(11-13)22-16(20)17-12-7-4-3-5-8-12/h3-11H,2H2,1H3,(H,17,20)(H,18,19)",
-    "chebi:inchikey": "WZJZMXBKUWKXTQ-UHFFFAOYSA-N",
-    "chebi:smiles": "CCOC(=O)Nc1cccc(OC(=O)Nc2ccccc2)c1",
-    "geneontology:hasDbXref": [
-        "CAS:13684-56-5",
-        "KEGG:C18417",
-        "Pesticides:desmedipham",
-        "PMID:11601459",
-        "PMID:21374783",
-        "PMID:3412424",
-        "PPDB:207",
-        "Reaxys:2395716"
-    ],
-    "geneontology:hasId": "81733",
-    "geneontology:hasSynonym": [
+    "skos:altLabel": [
         "3-[(ethoxycarbonyl)amino]phenyl phenylcarbamate",
         "3-Ethoxycarbonylaminophenyl-N-phenylcarbamate",
         "Ethyl 3'-phenylcarbamoyloxycarbanilate"
     ],
-    "geneontology:inSubset": {
-        "@id": "obo:chebi#3_STAR"
+    "skos:exactMatch": {
+        "@id": "obo:CHEBI_81733"
     },
-    "rdfs:label": "desmedipham",
-    "rdfs:subClassOf": [
-        {
-            "@id": "obo:CHEBI_23003"
-        },
-        {
-            "@id": "b137_genid-00f1db82e1ab437c844115a94dc63e635-bn81733t11f24527"
-        },
-        {
-            "@id": "b137_genid-00f1db82e1ab437c844115a94dc63e635-bn81733t11f33286"
-        },
-        {
-            "@id": "b137_genid-00f1db82e1ab437c844115a94dc63e635-bn81733t11f35703"
-        },
-        {
-            "@id": "b137_genid-00f1db82e1ab437c844115a94dc63e635-bn81733t8f52496"
-        },
-        {
-            "@id": "b137_genid-00f1db82e1ab437c844115a94dc63e635-bn81733t11f78298"
-        }
-    ]
+    "skos:note": "A carbamate ester that is phenylcarbamic acid in which the hydrogen of the hydroxy group has been replaced by a 3-[(ethoxycarbonyl)amino]phenyl group. It is an agrochemical used as a herbicide.",
+    "skos:semanticRelation": {
+        "@id": "obo:CHEBI_23003"
+    }
 }

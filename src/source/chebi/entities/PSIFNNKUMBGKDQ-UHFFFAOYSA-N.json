@@ -1,79 +1,21 @@
 {
     "@context": {
-        "chebi": "http://purl.obolibrary.org/obo/chebi/",
         "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
         "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-        "obo": "http://purl.obolibrary.org/obo/"
-    },
-    "@id": "obo:CHEBI_6541",
-    "@type": "http://www.w3.org/2002/07/owl#Class",
-    "obo:IAO_0000115": "A biphenylyltetrazole where a 1,1'-biphenyl group is attached at the 5-position and has an additional trisubstituted imidazol-1-ylmethyl group at the 4'-position",
-    "chebi:charge": "0",
-    "chebi:inchi": "InChI=1S/C22H23ClN6O/c1-2-3-8-20-24-21(23)19(14-30)29(20)13-15-9-11-16(12-10-15)17-6-4-5-7-18(17)22-25-27-28-26-22/h4-7,9-12,30H,2-3,8,13-14H2,1H3,(H,25,26,27,28)",
-    "chebi:inchikey": "PSIFNNKUMBGKDQ-UHFFFAOYSA-N",
-    "chebi:smiles": "CCCCc1nc(Cl)c(CO)n1Cc1ccc(cc1)-c1ccccc1-c1nnn[nH]1",
-    "geneontology:hasDbXref": [
-        "Beilstein:4770867",
-        "CAS:114798-26-4",
-        "Drug_Central:1610",
-        "DrugBank:DB00678",
-        "HMDB:HMDB0014816",
-        "KEGG:C07072",
-        "KEGG:D08146",
-        "LINCS:LSM-3701",
-        "Patent:EP253310",
-        "Patent:US5138069",
-        "PMID:11115412",
-        "PMID:11589260",
-        "PMID:12561964",
-        "PMID:15703421",
-        "PMID:18800450",
-        "PMID:18800451",
-        "PMID:18800458",
-        "PMID:18940180",
-        "PMID:31299855",
-        "PMID:31613648",
-        "PMID:31636311",
-        "PMID:31893179",
-        "PMID:32048541",
-        "Reaxys:4770867",
-        "Wikipedia:Losartan"
-    ],
-    "geneontology:hasId": "6541",
-    "geneontology:hasSynonym": [
-        "(2-butyl-4-chloro-1-{[2'-(1H-tetrazol-5-yl)[1,1'-biphenyl]-4-yl]methyl}-1H-imidazol-5-yl)methanol",
-        "(2-butyl-4-chloro-1-{[2'-(1H-tetrazol-5-yl)biphenyl-4-yl]methyl}-1H-imidazol-5-yl)methanol",
-        "2-n-butyl-4-chloro-5-hydroxymethyl-1-[(2'-(1H-tetrazol-5-yl)biphenyl-4-yl)methyl]imidazole",
-        "Losartan"
-    ],
-    "geneontology:inSubset": {
-        "@id": "obo:chebi#3_STAR"
-    },
-    "rdfs:label": "losartan",
-    "rdfs:subClassOf": [
-        {
-            "@id": "obo:CHEBI_24780"
+        "obo": "http://purl.obolibrary.org/obo/",
+        "uniprot": "http://purl.uniprot.org/",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "concept": "https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/",
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "dbo": "http://dbpedia.org/ontology/",
+        "dbp": "http://dbpedia.org/property/",
+        "altLabel": {
+            "@id": "http://www.w3.org/2004/02/skos/core#altLabel",
+            "@language": "en"
         },
-        {
-            "@id": "obo:CHEBI_48420"
-        },
-        {
-            "@id": "b197_genid-00f1db82e1ab437c844115a94dc63e635-bn6541tmms73f149504"
-        },
-        {
-            "@id": "b197_genid-00f1db82e1ab437c844115a94dc63e635-bn6541t11f35674"
-        },
-        {
-            "@id": "b197_genid-00f1db82e1ab437c844115a94dc63e635-bn6541t11f38070"
-        },
-        {
-            "@id": "b197_genid-00f1db82e1ab437c844115a94dc63e635-bn6541t11f51451"
-        },
-        {
-            "@id": "b197_genid-00f1db82e1ab437c844115a94dc63e635-bn6541t11f61016"
-        },
-        {
-            "@id": "b197_genid-00f1db82e1ab437c844115a94dc63e635-bn6541t4f149504"
+        "graph": {
+            "@id": "@graph"
         }
-    ]
+    }
 }

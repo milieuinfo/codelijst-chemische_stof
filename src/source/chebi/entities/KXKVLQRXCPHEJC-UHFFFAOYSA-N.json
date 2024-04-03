@@ -1,35 +1,31 @@
 {
     "@context": {
-        "chebi": "http://purl.obolibrary.org/obo/chebi/",
         "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
         "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-        "obo": "http://purl.obolibrary.org/obo/"
+        "obo": "http://purl.obolibrary.org/obo/",
+        "uniprot": "http://purl.uniprot.org/",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "concept": "https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/",
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "dbo": "http://dbpedia.org/ontology/",
+        "dbp": "http://dbpedia.org/property/",
+        "altLabel": {
+            "@id": "http://www.w3.org/2004/02/skos/core#altLabel",
+            "@language": "en"
+        },
+        "graph": {
+            "@id": "@graph"
+        }
     },
-    "@id": "obo:CHEBI_77700",
-    "@type": "http://www.w3.org/2002/07/owl#Class",
-    "obo:IAO_0000115": "An acetate ester resulting from the formal condensation of acetic acid with methanol. A low-boiling (57 degreeC) colourless, flammable liquid, it is used as a solvent for many resins and oils.",
+    "@id": "concept:KXKVLQRXCPHEJC-UHFFFAOYSA-N",
+    "@type": "skos:Concept",
+    "dbo:formula": "C3H6O2",
+    "dbo:inchi": "InChI=1S/C3H6O2/c1-3(4)5-2/h1-2H3",
+    "dbo:smiles": "COC(C)=O",
+    "dbp:inchikey": "KXKVLQRXCPHEJC-UHFFFAOYSA-N",
     "chebi:charge": "0",
-    "chebi:formula": "C3H6O2",
-    "chebi:inchi": "InChI=1S/C3H6O2/c1-3(4)5-2/h1-2H3",
-    "chebi:inchikey": "KXKVLQRXCPHEJC-UHFFFAOYSA-N",
-    "chebi:smiles": "COC(C)=O",
-    "http://purl.uniprot.org/core/name": "methyl acetate",
-    "geneontology:hasDbXref": [
-        "CAS:79-20-9",
-        "HMDB:HMDB0031523",
-        "KEGG:C17530",
-        "MetaCyc:METHYL-ACETATE",
-        "PMID:1323358",
-        "PMID:14168434",
-        "PMID:22869894",
-        "PMID:23340101",
-        "PMID:23602747",
-        "PMID:23862653",
-        "Reaxys:1736662",
-        "Wikipedia:Methyl_acetate"
-    ],
-    "geneontology:hasId": "77700",
-    "geneontology:hasSynonym": [
+    "skos:altLabel": [
         "acetate de methyle",
         "acetic acid methyl ester",
         "AcOMe",
@@ -41,11 +37,11 @@
         "methyl ethanoate",
         "Tereton"
     ],
-    "geneontology:inSubset": {
-        "@id": "obo:chebi#3_STAR"
+    "skos:exactMatch": {
+        "@id": "obo:CHEBI_77700"
     },
-    "rdfs:label": "methyl acetate",
-    "rdfs:subClassOf": [
+    "skos:note": "An acetate ester resulting from the formal condensation of acetic acid with methanol. A low-boiling (57 degreeC) colourless, flammable liquid, it is used as a solvent for many resins and oils.",
+    "skos:semanticRelation": [
         {
             "@id": "obo:CHEBI_47622"
         },
@@ -54,15 +50,6 @@
         },
         {
             "@id": "obo:CHEBI_134179"
-        },
-        {
-            "@id": "b476_genid-00f1db82e1ab437c844115a94dc63e635-bn77700t11f48318"
-        },
-        {
-            "@id": "b476_genid-00f1db82e1ab437c844115a94dc63e635-bn77700t11f48358"
-        },
-        {
-            "@id": "b476_genid-00f1db82e1ab437c844115a94dc63e635-bn77700t11f77706"
         }
     ]
 }

@@ -1,41 +1,31 @@
 {
     "@context": {
-        "chebi": "http://purl.obolibrary.org/obo/chebi/",
         "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
         "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-        "obo": "http://purl.obolibrary.org/obo/"
+        "obo": "http://purl.obolibrary.org/obo/",
+        "uniprot": "http://purl.uniprot.org/",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "concept": "https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/",
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "dbo": "http://dbpedia.org/ontology/",
+        "dbp": "http://dbpedia.org/property/",
+        "altLabel": {
+            "@id": "http://www.w3.org/2004/02/skos/core#altLabel",
+            "@language": "en"
+        },
+        "graph": {
+            "@id": "@graph"
+        }
     },
-    "@id": "obo:CHEBI_5001",
-    "@type": "http://www.w3.org/2002/07/owl#Class",
-    "obo:IAO_0000115": "A chlorobenzophenone that is (4-chlorophenyl)(phenyl)methanone substituted by a [2-methyl-1-oxo-1-(propan-2-yloxy)propan-2-yl]oxy group at position 1 on the phenyl ring.",
+    "@id": "concept:YMTINGFKWWXKFG-UHFFFAOYSA-N",
+    "@type": "skos:Concept",
+    "dbo:formula": "C20H21ClO4",
+    "dbo:inchi": "InChI=1S/C20H21ClO4/c1-13(2)24-19(23)20(3,4)25-17-11-7-15(8-12-17)18(22)14-5-9-16(21)10-6-14/h5-13H,1-4H3",
+    "dbo:smiles": "CC(C)OC(=O)C(C)(C)Oc1ccc(cc1)C(=O)c1ccc(Cl)cc1",
+    "dbp:inchikey": "YMTINGFKWWXKFG-UHFFFAOYSA-N",
     "chebi:charge": "0",
-    "chebi:formula": "C20H21ClO4",
-    "chebi:inchi": "InChI=1S/C20H21ClO4/c1-13(2)24-19(23)20(3,4)25-17-11-7-15(8-12-17)18(22)14-5-9-16(21)10-6-14/h5-13H,1-4H3",
-    "chebi:inchikey": "YMTINGFKWWXKFG-UHFFFAOYSA-N",
-    "chebi:smiles": "CC(C)OC(=O)C(C)(C)Oc1ccc(cc1)C(=O)c1ccc(Cl)cc1",
-    "geneontology:hasDbXref": [
-        "PMID:23603800",
-        "CAS:49562-28-9",
-        "Chemspider:3222",
-        "Drug_Central:1152",
-        "DrugBank:DB01039",
-        "HMDB:HMDB0015173",
-        "KEGG:C07586",
-        "KEGG:D00565",
-        "LINCS:LSM-3107",
-        "Patent:DE2250327",
-        "Patent:US4058552",
-        "PMID:17449930",
-        "PMID:18212815",
-        "PMID:32675219",
-        "PMID:33704429",
-        "PMID:34244236",
-        "PMID:34515330",
-        "Reaxys:2062462",
-        "Wikipedia:Fenofibrate"
-    ],
-    "geneontology:hasId": "5001",
-    "geneontology:hasSynonym": [
+    "skos:altLabel": [
         "2-(4-(4-Chlorobenzoyl)phenoxy)-2-methylpropanoic acid 1-methylethyl ester",
         "Antara",
         "Fenofibrate",
@@ -50,11 +40,11 @@
         "Tricor",
         "Triglide"
     ],
-    "geneontology:inSubset": {
-        "@id": "obo:chebi#3_STAR"
+    "skos:exactMatch": {
+        "@id": "obo:CHEBI_5001"
     },
-    "rdfs:label": "fenofibrate",
-    "rdfs:subClassOf": [
+    "skos:note": "A chlorobenzophenone that is (4-chlorophenyl)(phenyl)methanone substituted by a [2-methyl-1-oxo-1-(propan-2-yloxy)propan-2-yl]oxy group at position 1 on the phenyl ring.",
+    "skos:semanticRelation": [
         {
             "@id": "obo:CHEBI_35618"
         },
@@ -65,22 +55,7 @@
             "@id": "obo:CHEBI_23135"
         },
         {
-            "@id": "b361_genid-00f1db82e1ab437c844115a94dc63e635-bn5001t11f35679"
-        },
-        {
-            "@id": "b361_genid-00f1db82e1ab437c844115a94dc63e635-bn5001t11f35703"
-        },
-        {
             "@id": "obo:CHEBI_35725"
-        },
-        {
-            "@id": "b361_genid-00f1db82e1ab437c844115a94dc63e635-bn5001t8f41308"
-        },
-        {
-            "@id": "b361_genid-00f1db82e1ab437c844115a94dc63e635-bn5001t11f78298"
-        },
-        {
-            "@id": "b361_genid-00f1db82e1ab437c844115a94dc63e635-bn5001t11f176497"
         }
     ]
 }

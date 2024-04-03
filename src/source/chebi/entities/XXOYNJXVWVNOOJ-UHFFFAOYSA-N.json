@@ -1,43 +1,31 @@
 {
     "@context": {
-        "chebi": "http://purl.obolibrary.org/obo/chebi/",
         "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
         "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-        "obo": "http://purl.obolibrary.org/obo/"
+        "obo": "http://purl.obolibrary.org/obo/",
+        "uniprot": "http://purl.uniprot.org/",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "concept": "https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/",
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "dbo": "http://dbpedia.org/ontology/",
+        "dbp": "http://dbpedia.org/property/",
+        "altLabel": {
+            "@id": "http://www.w3.org/2004/02/skos/core#altLabel",
+            "@language": "en"
+        },
+        "graph": {
+            "@id": "@graph"
+        }
     },
-    "@id": "obo:CHEBI_5013",
-    "@type": "http://www.w3.org/2002/07/owl#Class",
-    "obo:IAO_0000115": "A member of the class of 3-(3,4-substituted-phenyl)-1,1-dimethylureas that is urea in which one of the nitrogens is substituted by a phenyl group while the other is substituted by two methyl groups. It is a herbicide used for the control of weeds in beetroot as well as various vegetable and ornamental crops.",
+    "@id": "concept:XXOYNJXVWVNOOJ-UHFFFAOYSA-N",
+    "@type": "skos:Concept",
+    "dbo:formula": "C9H12N2O",
+    "dbo:inchi": "InChI=1S/C9H12N2O/c1-11(2)9(12)10-8-6-4-3-5-7-8/h3-7H,1-2H3,(H,10,12)",
+    "dbo:smiles": "CN(C)C(=O)NC1=CC=CC=C1",
+    "dbp:inchikey": "XXOYNJXVWVNOOJ-UHFFFAOYSA-N",
     "chebi:charge": "0",
-    "chebi:formula": "C9H12N2O",
-    "chebi:inchi": "InChI=1S/C9H12N2O/c1-11(2)9(12)10-8-6-4-3-5-7-8/h3-7H,1-2H3,(H,10,12)",
-    "chebi:inchikey": "XXOYNJXVWVNOOJ-UHFFFAOYSA-N",
-    "chebi:smiles": "CN(C)C(=O)NC1=CC=CC=C1",
-    "http://purl.uniprot.org/core/name": "fenuron",
-    "geneontology:hasDbXref": [
-        "AGR:IND87057830",
-        "CAS:101-42-8",
-        "KEGG:C11224",
-        "MetaCyc:CPD-23258",
-        "Pesticides:fenuron",
-        "PMID:10808993",
-        "PMID:11561405",
-        "PMID:17675205",
-        "PMID:25128892",
-        "PMID:26102217",
-        "PMID:29604424",
-        "PMID:30623886",
-        "PMID:30784165",
-        "PMID:31304416",
-        "PMID:32905395",
-        "PMID:3992974",
-        "PMID:5057445",
-        "PMID:7084728",
-        "PPDB:313",
-        "Reaxys:2208535"
-    ],
-    "geneontology:hasId": "5013",
-    "geneontology:hasSynonym": [
+    "skos:altLabel": [
         "1,1-dimethyl-3-phenylurea",
         "1-phenyl-3,3-dimethylurea",
         "3-phenyl-1,1-dimethylurea",
@@ -58,28 +46,11 @@
         "PDU",
         "Quintex"
     ],
-    "geneontology:inSubset": {
-        "@id": "obo:chebi#3_STAR"
+    "skos:exactMatch": {
+        "@id": "obo:CHEBI_5013"
     },
-    "rdfs:label": "fenuron",
-    "rdfs:subClassOf": [
-        {
-            "@id": "obo:CHEBI_157693"
-        },
-        {
-            "@id": "b281_genid-00f1db82e1ab437c844115a94dc63e635-bn5013t11f24527"
-        },
-        {
-            "@id": "b281_genid-00f1db82e1ab437c844115a94dc63e635-bn5013t11f26089"
-        },
-        {
-            "@id": "b281_genid-00f1db82e1ab437c844115a94dc63e635-bn5013t11f33286"
-        },
-        {
-            "@id": "b281_genid-00f1db82e1ab437c844115a94dc63e635-bn5013t11f35703"
-        },
-        {
-            "@id": "b281_genid-00f1db82e1ab437c844115a94dc63e635-bn5013t11f78298"
-        }
-    ]
+    "skos:note": "A member of the class of 3-(3,4-substituted-phenyl)-1,1-dimethylureas that is urea in which one of the nitrogens is substituted by a phenyl group while the other is substituted by two methyl groups. It is a herbicide used for the control of weeds in beetroot as well as various vegetable and ornamental crops.",
+    "skos:semanticRelation": {
+        "@id": "obo:CHEBI_157693"
+    }
 }

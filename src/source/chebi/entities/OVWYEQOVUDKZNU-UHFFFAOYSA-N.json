@@ -1,31 +1,31 @@
 {
     "@context": {
-        "chebi": "http://purl.obolibrary.org/obo/chebi/",
         "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
         "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-        "obo": "http://purl.obolibrary.org/obo/"
+        "obo": "http://purl.obolibrary.org/obo/",
+        "uniprot": "http://purl.uniprot.org/",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "concept": "https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/",
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "dbo": "http://dbpedia.org/ontology/",
+        "dbp": "http://dbpedia.org/property/",
+        "altLabel": {
+            "@id": "http://www.w3.org/2004/02/skos/core#altLabel",
+            "@language": "en"
+        },
+        "graph": {
+            "@id": "@graph"
+        }
     },
-    "@id": "obo:CHEBI_28476",
-    "@type": "http://www.w3.org/2002/07/owl#Class",
-    "obo:IAO_0000115": "A tolualdehyde compound with the methyl substituent at the 3-position.",
+    "@id": "concept:OVWYEQOVUDKZNU-UHFFFAOYSA-N",
+    "@type": "skos:Concept",
+    "dbo:formula": "C8H8O",
+    "dbo:inchi": "InChI=1S/C8H8O/c1-7-3-2-4-8(5-7)6-9/h2-6H,1H3",
+    "dbo:smiles": "Cc1cccc(C=O)c1",
+    "dbp:inchikey": "OVWYEQOVUDKZNU-UHFFFAOYSA-N",
     "chebi:charge": "0",
-    "chebi:formula": "C8H8O",
-    "chebi:inchi": "InChI=1S/C8H8O/c1-7-3-2-4-8(5-7)6-9/h2-6H,1H3",
-    "chebi:inchikey": "OVWYEQOVUDKZNU-UHFFFAOYSA-N",
-    "chebi:smiles": "Cc1cccc(C=O)c1",
-    "geneontology:hasDbXref": [
-        "PMID:24312872",
-        "PMID:12791539",
-        "Beilstein:741964",
-        "CAS:620-23-5",
-        "Gmelin:482069",
-        "HMDB:HMDB0029637",
-        "KEGG:C07209",
-        "MetaCyc:CPD-8774",
-        "Reaxys:741964"
-    ],
-    "geneontology:hasId": "28476",
-    "geneontology:hasSynonym": [
+    "skos:altLabel": [
         "3-methylbenzaldehyde",
         "3-Methylbenzaldehyde",
         "3-Tolylaldehyde",
@@ -34,16 +34,11 @@
         "m-Toluylaldehyde",
         "m-Tolyl aldehyde"
     ],
-    "geneontology:inSubset": {
-        "@id": "obo:chebi#3_STAR"
+    "skos:exactMatch": {
+        "@id": "obo:CHEBI_28476"
     },
-    "rdfs:label": "m-tolualdehyde",
-    "rdfs:subClassOf": [
-        {
-            "@id": "obo:CHEBI_27020"
-        },
-        {
-            "@id": "b70_genid-00f1db82e1ab437c844115a94dc63e635-bn28476t11f76924"
-        }
-    ]
+    "skos:note": "A tolualdehyde compound with the methyl substituent at the 3-position.",
+    "skos:semanticRelation": {
+        "@id": "obo:CHEBI_27020"
+    }
 }

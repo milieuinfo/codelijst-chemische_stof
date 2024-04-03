@@ -1,35 +1,31 @@
 {
     "@context": {
-        "chebi": "http://purl.obolibrary.org/obo/chebi/",
         "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
         "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-        "obo": "http://purl.obolibrary.org/obo/"
+        "obo": "http://purl.obolibrary.org/obo/",
+        "uniprot": "http://purl.uniprot.org/",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "concept": "https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/",
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "dbo": "http://dbpedia.org/ontology/",
+        "dbp": "http://dbpedia.org/property/",
+        "altLabel": {
+            "@id": "http://www.w3.org/2004/02/skos/core#altLabel",
+            "@language": "en"
+        },
+        "graph": {
+            "@id": "@graph"
+        }
     },
-    "@id": "obo:CHEBI_81938",
-    "@type": "http://www.w3.org/2002/07/owl#Class",
-    "obo:IAO_0000115": "A dicarboximide that captan in which the trichloromethyl group is replaced by a 1,1,2,2-tetrachloroethyl group. A broad-spectrum fungicide used to control diseases in fruit and potatoes, it is no longer approved for use in the European Community.",
+    "@id": "concept:JHRWWRDRBPCWTF-UHFFFAOYSA-N",
+    "@type": "skos:Concept",
+    "dbo:formula": "C10H9Cl4NO2S",
+    "dbo:inchi": "InChI=1S/C10H9Cl4NO2S/c11-9(12)10(13,14)18-15-7(16)5-3-1-2-4-6(5)8(15)17/h1-2,5-6,9H,3-4H2",
+    "dbo:smiles": "ClC(Cl)C(Cl)(Cl)SN1C(=O)C2CC=CCC2C1=O",
+    "dbp:inchikey": "JHRWWRDRBPCWTF-UHFFFAOYSA-N",
     "chebi:charge": "0",
-    "chebi:formula": "C10H9Cl4NO2S",
-    "chebi:inchi": "InChI=1S/C10H9Cl4NO2S/c11-9(12)10(13,14)18-15-7(16)5-3-1-2-4-6(5)8(15)17/h1-2,5-6,9H,3-4H2",
-    "chebi:inchikey": "JHRWWRDRBPCWTF-UHFFFAOYSA-N",
-    "chebi:smiles": "ClC(Cl)C(Cl)(Cl)SN1C(=O)C2CC=CCC2C1=O",
-    "geneontology:hasDbXref": [
-        "CAS:2425-06-1",
-        "HMDB:HMDB0031669",
-        "KEGG:C18754",
-        "Patent:BE633205",
-        "Pesticides:captafol",
-        "PMID:159800",
-        "PMID:1842583",
-        "PMID:21822319",
-        "PMID:8426061",
-        "PPDB:113",
-        "Reaxys:1543712",
-        "Reaxys:234872",
-        "Wikipedia:Captafol"
-    ],
-    "geneontology:hasId": "81938",
-    "geneontology:hasSynonym": [
+    "skos:altLabel": [
         "(tetrachloroethylthio)tetrahydrophthalimide",
         "1,2,3,6-tetrahydro-N-(1,1,2,2-tetrachloroethylthio)phthalimide",
         "2-[(1,1,2,2-tetrachloroethyl)sulfanyl]-3a,4,7,7a-tetrahydro-1H-isoindole-1,3(2H)-dione",
@@ -48,11 +44,11 @@
         "Sanspor",
         "Terrazol"
     ],
-    "geneontology:inSubset": {
-        "@id": "obo:chebi#3_STAR"
+    "skos:exactMatch": {
+        "@id": "obo:CHEBI_81938"
     },
-    "rdfs:label": "captafol",
-    "rdfs:subClassOf": [
+    "skos:note": "A dicarboximide that captan in which the trichloromethyl group is replaced by a 1,1,2,2-tetrachloroethyl group. A broad-spectrum fungicide used to control diseases in fruit and potatoes, it is no longer approved for use in the European Community.",
+    "skos:semanticRelation": [
         {
             "@id": "obo:CHEBI_33261"
         },
@@ -64,9 +60,6 @@
         },
         {
             "@id": "obo:CHEBI_87198"
-        },
-        {
-            "@id": "b258_genid-00f1db82e1ab437c844115a94dc63e635-bn81938t11f86328"
         }
     ]
 }

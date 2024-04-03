@@ -1,51 +1,46 @@
 {
     "@context": {
-        "chebi": "http://purl.obolibrary.org/obo/chebi/",
         "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
         "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-        "obo": "http://purl.obolibrary.org/obo/"
+        "obo": "http://purl.obolibrary.org/obo/",
+        "uniprot": "http://purl.uniprot.org/",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "concept": "https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/",
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "dbo": "http://dbpedia.org/ontology/",
+        "dbp": "http://dbpedia.org/property/",
+        "altLabel": {
+            "@id": "http://www.w3.org/2004/02/skos/core#altLabel",
+            "@language": "en"
+        },
+        "graph": {
+            "@id": "@graph"
+        }
     },
-    "@id": "obo:CHEBI_16881",
-    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "@id": "concept:SIKJAQJRHWYJAI-UHFFFAOYSA-N",
+    "@type": "skos:Concept",
+    "dbo:formula": "C8H7N",
+    "dbo:inchi": "InChI=1S/C8H7N/c1-2-4-8-7(3-1)5-6-9-8/h1-6,9H",
+    "dbo:smiles": "c1cc2ccccc2[nH]1",
+    "dbp:inchikey": "SIKJAQJRHWYJAI-UHFFFAOYSA-N",
     "chebi:charge": "0",
-    "chebi:formula": "C8H7N",
-    "chebi:inchi": "InChI=1S/C8H7N/c1-2-4-8-7(3-1)5-6-9-8/h1-6,9H",
-    "chebi:inchikey": "SIKJAQJRHWYJAI-UHFFFAOYSA-N",
-    "chebi:smiles": "c1cc2ccccc2[nH]1",
-    "http://purl.uniprot.org/core/name": "indole",
-    "geneontology:hasDbXref": [
-        "Beilstein:107693",
-        "CAS:120-72-9",
-        "DrugBank:DB04532",
-        "Gmelin:3477",
-        "KEGG:C00463",
-        "KNApSAcK:C00001418",
-        "PDBeChem:IND"
-    ],
-    "geneontology:hasId": "16881",
-    "geneontology:hasSynonym": [
+    "skos:altLabel": [
         "indole",
         "2,3-Benzopyrrole",
         "Indol",
         "Indole",
         "INDOLE"
     ],
-    "geneontology:inSubset": {
-        "@id": "obo:chebi#3_STAR"
+    "skos:exactMatch": {
+        "@id": "obo:CHEBI_16881"
     },
-    "rdfs:label": "1H-indole",
-    "rdfs:subClassOf": [
+    "skos:semanticRelation": [
         {
             "@id": "obo:CHEBI_38180"
         },
         {
-            "@id": "b612_genid-00f1db82e1ab437c844115a94dc63e635-bn16881t7f35579"
-        },
-        {
             "@id": "obo:CHEBI_35581"
-        },
-        {
-            "@id": "b612_genid-00f1db82e1ab437c844115a94dc63e635-bn16881t11f76971"
         }
     ]
 }

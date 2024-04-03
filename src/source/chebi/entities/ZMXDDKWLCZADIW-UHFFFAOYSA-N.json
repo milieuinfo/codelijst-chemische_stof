@@ -1,63 +1,47 @@
 {
     "@context": {
-        "chebi": "http://purl.obolibrary.org/obo/chebi/",
         "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
         "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-        "obo": "http://purl.obolibrary.org/obo/"
+        "obo": "http://purl.obolibrary.org/obo/",
+        "uniprot": "http://purl.uniprot.org/",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "concept": "https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/",
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "dbo": "http://dbpedia.org/ontology/",
+        "dbp": "http://dbpedia.org/property/",
+        "altLabel": {
+            "@id": "http://www.w3.org/2004/02/skos/core#altLabel",
+            "@language": "en"
+        },
+        "graph": {
+            "@id": "@graph"
+        }
     },
-    "@id": "obo:CHEBI_17741",
-    "@type": "http://www.w3.org/2002/07/owl#Class",
-    "obo:IAO_0000115": "A member of the class of formamides that is formamide in which the amino hydrogens are replaced by methyl groups.",
+    "@id": "concept:ZMXDDKWLCZADIW-UHFFFAOYSA-N",
+    "@type": "skos:Concept",
+    "dbo:formula": "C3H7NO",
+    "dbo:inchi": "InChI=1S/C3H7NO/c1-4(2)3-5/h3H,1-2H3",
+    "dbo:smiles": "[H]C(=O)N(C)C",
+    "dbp:inchikey": "ZMXDDKWLCZADIW-UHFFFAOYSA-N",
     "chebi:charge": "0",
-    "chebi:formula": "C3H7NO",
-    "chebi:inchi": "InChI=1S/C3H7NO/c1-4(2)3-5/h3H,1-2H3",
-    "chebi:inchikey": "ZMXDDKWLCZADIW-UHFFFAOYSA-N",
-    "chebi:smiles": "[H]C(=O)N(C)C",
-    "http://purl.uniprot.org/core/name": "N,N-dimethylformamide",
-    "geneontology:hasDbXref": [
-        "CAS:68-12-2",
-        "DrugBank:DB01844",
-        "HMDB:HMDB0001888",
-        "KEGG:C03134",
-        "MetaCyc:CPD-581",
-        "PDBeChem:DMF",
-        "PMID:18666198",
-        "PMID:19608215",
-        "PMID:23313473",
-        "PMID:3824392",
-        "Reaxys:605365",
-        "Wikipedia:Dimethylformamide"
-    ],
-    "geneontology:hasId": "17741",
-    "geneontology:hasSynonym": [
+    "skos:altLabel": [
         "Dimethylformamide",
         "DMF",
         "N,N-Dimethylformamide",
         "N,N-Dimethylmethanamide",
         "N-Formyldimethylamine"
     ],
-    "geneontology:inSubset": {
-        "@id": "obo:chebi#3_STAR"
+    "skos:exactMatch": {
+        "@id": "obo:CHEBI_17741"
     },
-    "rdfs:label": "N,N-dimethylformamide",
-    "rdfs:subClassOf": [
+    "skos:note": "A member of the class of formamides that is formamide in which the amino hydrogens are replaced by methyl groups.",
+    "skos:semanticRelation": [
         {
             "@id": "obo:CHEBI_134179"
         },
         {
             "@id": "obo:CHEBI_24079"
-        },
-        {
-            "@id": "b506_genid-00f1db82e1ab437c844115a94dc63e635-bn17741t8f16397"
-        },
-        {
-            "@id": "b506_genid-00f1db82e1ab437c844115a94dc63e635-bn17741t11f48358"
-        },
-        {
-            "@id": "b506_genid-00f1db82e1ab437c844115a94dc63e635-bn17741t11f50908"
-        },
-        {
-            "@id": "b506_genid-00f1db82e1ab437c844115a94dc63e635-bn17741t11f176497"
         }
     ]
 }

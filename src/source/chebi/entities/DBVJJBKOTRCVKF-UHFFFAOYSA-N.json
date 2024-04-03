@@ -1,44 +1,27 @@
 {
     "@context": {
-        "chebi": "http://purl.obolibrary.org/obo/chebi/",
         "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
         "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-        "obo": "http://purl.obolibrary.org/obo/"
+        "obo": "http://purl.obolibrary.org/obo/",
+        "uniprot": "http://purl.uniprot.org/",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "concept": "https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/",
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "dbo": "http://dbpedia.org/ontology/",
+        "dbp": "http://dbpedia.org/property/",
+        "graph": {
+            "@id": "@graph"
+        }
     },
-    "@id": "obo:CHEBI_4907",
-    "@type": "http://www.w3.org/2002/07/owl#Class",
-    "obo:IAO_0000115": "A  1,1-bis(phosphonic acid) that is (ethane-1,1-diyl)bis(phosphonic acid) having a hydroxy substituent at the 1-position. It inhibits the formation, growth, and dissolution of hydroxyapatite crystals by chemisorption to calcium phosphate surfaces.",
+    "@id": "concept:DBVJJBKOTRCVKF-UHFFFAOYSA-N",
+    "@type": "skos:Concept",
+    "dbo:formula": "C2H8O7P2",
+    "dbo:inchi": "InChI=1S/C2H8O7P2/c1-2(3,10(4,5)6)11(7,8)9/h3H,1H3,(H2,4,5,6)(H2,7,8,9)",
+    "dbo:smiles": "CC(O)(P(O)(O)=O)P(O)(O)=O",
+    "dbp:inchikey": "DBVJJBKOTRCVKF-UHFFFAOYSA-N",
     "chebi:charge": "0",
-    "chebi:formula": "C2H8O7P2",
-    "chebi:inchi": "InChI=1S/C2H8O7P2/c1-2(3,10(4,5)6)11(7,8)9/h3H,1H3,(H2,4,5,6)(H2,7,8,9)",
-    "chebi:inchikey": "DBVJJBKOTRCVKF-UHFFFAOYSA-N",
-    "chebi:smiles": "CC(O)(P(O)(O)=O)P(O)(O)=O",
-    "geneontology:hasDbXref": [
-        "DrugBank:DB01077",
-        "HMDB:HMDB0015210",
-        "CAS:2809-21-4",
-        "Drug_Central:1098",
-        "KEGG:C07736",
-        "KEGG:D02373",
-        "LINCS:LSM-5508",
-        "Patent:US3159581",
-        "Patent:US3400147",
-        "Patent:US3468935",
-        "Patent:US3475486",
-        "PDBeChem:911",
-        "PMID:10385693",
-        "PMID:11503828",
-        "PMID:17157266",
-        "PMID:17214981",
-        "PMID:18313802",
-        "PMID:18646327",
-        "PMID:22515905",
-        "PMID:7858370",
-        "Reaxys:1789291",
-        "Wikipedia:Etidronic_acid"
-    ],
-    "geneontology:hasId": "4907",
-    "geneontology:hasSynonym": [
+    "skos:altLabel": [
         "(1-hydroxyethane-1,1-diyl)bis(phosphonic acid)",
         "(1-Hydroxyethylene)diphosphonic acid",
         "(1-Hydroxyethylidene)bis(phosphonic acid)",
@@ -67,25 +50,11 @@
         "Hydroxyethanediphosphonic acid",
         "Oxyethylidenediphosphonic acid"
     ],
-    "geneontology:inSubset": {
-        "@id": "obo:chebi#3_STAR"
+    "skos:exactMatch": {
+        "@id": "obo:CHEBI_4907"
     },
-    "rdfs:label": "etidronic acid",
-    "rdfs:subClassOf": [
-        {
-            "@id": "obo:CHEBI_77383"
-        },
-        {
-            "@id": "b425_genid-00f1db82e1ab437c844115a94dc63e635-bn4907t11f35610"
-        },
-        {
-            "@id": "b425_genid-00f1db82e1ab437c844115a94dc63e635-bn4907t11f38161"
-        },
-        {
-            "@id": "b425_genid-00f1db82e1ab437c844115a94dc63e635-bn4907t11f50646"
-        },
-        {
-            "@id": "b425_genid-00f1db82e1ab437c844115a94dc63e635-bn4907t4f77356"
-        }
-    ]
+    "skos:note": "A  1,1-bis(phosphonic acid) that is (ethane-1,1-diyl)bis(phosphonic acid) having a hydroxy substituent at the 1-position. It inhibits the formation, growth, and dissolution of hydroxyapatite crystals by chemisorption to calcium phosphate surfaces.",
+    "skos:semanticRelation": {
+        "@id": "obo:CHEBI_77383"
+    }
 }

@@ -1,49 +1,39 @@
 {
     "@context": {
-        "chebi": "http://purl.obolibrary.org/obo/chebi/",
         "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
         "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-        "obo": "http://purl.obolibrary.org/obo/"
+        "obo": "http://purl.obolibrary.org/obo/",
+        "uniprot": "http://purl.uniprot.org/",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "concept": "https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/",
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "dbo": "http://dbpedia.org/ontology/",
+        "dbp": "http://dbpedia.org/property/",
+        "graph": {
+            "@id": "@graph"
+        }
     },
-    "@id": "obo:CHEBI_38463",
-    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "@id": "concept:GMAUQNJOSOMMHI-JXAWBTAJSA-N",
+    "@type": "skos:Concept",
+    "dbo:formula": "C17H25N3O4S2",
+    "dbo:inchi": "InChI=1S/C17H25N3O4S2/c1-5-23-16(21)11-12-20(13-15-9-7-6-8-10-15)26-19(3)17(22)24-18-14(2)25-4/h6-10H,5,11-13H2,1-4H3/b18-14-",
+    "dbo:smiles": "CCOC(=O)CCN(Cc1ccccc1)SN(C)C(=O)O\\N=C(\\C)SC",
+    "dbp:inchikey": "GMAUQNJOSOMMHI-JXAWBTAJSA-N",
     "chebi:charge": "0",
-    "chebi:formula": "C17H25N3O4S2",
-    "chebi:inchi": "InChI=1S/C17H25N3O4S2/c1-5-23-16(21)11-12-20(13-15-9-7-6-8-10-15)26-19(3)17(22)24-18-14(2)25-4/h6-10H,5,11-13H2,1-4H3/b18-14-",
-    "chebi:inchikey": "GMAUQNJOSOMMHI-JXAWBTAJSA-N",
-    "chebi:smiles": "CCOC(=O)CCN(Cc1ccccc1)SN(C)C(=O)O\\N=C(\\C)SC",
-    "geneontology:hasDbXref": [
-        "CAS:83130-01-2",
-        "KEGG:C18414",
-        "PPDB:18"
-    ],
-    "geneontology:hasId": "38463",
-    "geneontology:hasSynonym": [
+    "skos:altLabel": [
         "ethyl (3Z)-9-benzyl-3,7-dimethyl-6-oxo-5-oxa-2,8-dithia-4,7,9-triazadodec-3-en-12-oate",
         "ethyl N-benzyl-N-({methyl[({[(1Z)-1-(methylsulfanyl)ethylidene]amino}oxy)carbonyl]amino}sulfanyl)-beta-alaninate"
     ],
-    "geneontology:inSubset": {
-        "@id": "obo:chebi#3_STAR"
+    "skos:exactMatch": {
+        "@id": "obo:CHEBI_38463"
     },
-    "rdfs:label": "alanycarb",
-    "rdfs:subClassOf": [
+    "skos:semanticRelation": [
         {
             "@id": "obo:CHEBI_23990"
         },
         {
             "@id": "obo:CHEBI_23003"
-        },
-        {
-            "@id": "b740_genid-00f1db82e1ab437c844115a94dc63e635-bn38463t11f25491"
-        },
-        {
-            "@id": "b740_genid-00f1db82e1ab437c844115a94dc63e635-bn38463t11f33286"
-        },
-        {
-            "@id": "b740_genid-00f1db82e1ab437c844115a94dc63e635-bn38463t11f38461"
-        },
-        {
-            "@id": "b740_genid-00f1db82e1ab437c844115a94dc63e635-bn38463t11f38462"
         }
     ]
 }

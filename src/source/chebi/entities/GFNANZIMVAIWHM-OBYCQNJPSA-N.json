@@ -1,42 +1,27 @@
 {
     "@context": {
-        "chebi": "http://purl.obolibrary.org/obo/chebi/",
         "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
         "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-        "obo": "http://purl.obolibrary.org/obo/"
+        "obo": "http://purl.obolibrary.org/obo/",
+        "uniprot": "http://purl.uniprot.org/",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "concept": "https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/",
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "dbo": "http://dbpedia.org/ontology/",
+        "dbp": "http://dbpedia.org/property/",
+        "graph": {
+            "@id": "@graph"
+        }
     },
-    "@id": "obo:CHEBI_9667",
-    "@type": "http://www.w3.org/2002/07/owl#Class",
-    "obo:IAO_0000115": "A C21-steroid hormone that is 1,4-pregnadiene-3,20-dione carrying four hydroxy substituents at positions 11beta, 16alpha, 17alpha and 21 as well as a fluoro substituent at position 9. Used in the form of its 16,17-acetonide to treat various skin infections.",
+    "@id": "concept:GFNANZIMVAIWHM-OBYCQNJPSA-N",
+    "@type": "skos:Concept",
+    "dbo:formula": "C21H27FO6",
+    "dbo:inchi": "InChI=1S/C21H27FO6/c1-18-6-5-12(24)7-11(18)3-4-13-14-8-15(25)21(28,17(27)10-23)19(14,2)9-16(26)20(13,18)22/h5-7,13-16,23,25-26,28H,3-4,8-10H2,1-2H3/t13-,14-,15+,16-,18-,19-,20-,21-/m0/s1",
+    "dbo:smiles": "[H][C@@]12C[C@@H](O)[C@](O)(C(=O)CO)[C@@]1(C)C[C@H](O)[C@@]1(F)[C@@]2([H])CCC2=CC(=O)C=C[C@]12C",
+    "dbp:inchikey": "GFNANZIMVAIWHM-OBYCQNJPSA-N",
     "chebi:charge": "0",
-    "chebi:formula": "C21H27FO6",
-    "chebi:inchi": "InChI=1S/C21H27FO6/c1-18-6-5-12(24)7-11(18)3-4-13-14-8-15(25)21(28,17(27)10-23)19(14,2)9-16(26)20(13,18)22/h5-7,13-16,23,25-26,28H,3-4,8-10H2,1-2H3/t13-,14-,15+,16-,18-,19-,20-,21-/m0/s1",
-    "chebi:inchikey": "GFNANZIMVAIWHM-OBYCQNJPSA-N",
-    "chebi:smiles": "[H][C@@]12C[C@@H](O)[C@](O)(C(=O)CO)[C@@]1(C)C[C@H](O)[C@@]1(F)[C@@]2([H])CCC2=CC(=O)C=C[C@]12C",
-    "geneontology:hasDbXref": [
-        "CAS:124-94-7",
-        "Drug_Central:2725",
-        "DrugBank:DB00620",
-        "HMDB:HMDB0014758",
-        "KEGG:D00385",
-        "Patent:WO2005028495",
-        "PMID:11583068",
-        "PMID:15305946",
-        "PMID:19668443",
-        "PMID:22846803",
-        "PMID:23151875",
-        "PMID:23337526",
-        "PMID:23370580",
-        "PMID:23440982",
-        "PMID:23449717",
-        "PMID:23473287",
-        "PMID:23562859",
-        "PMID:7509503",
-        "Reaxys:2341955",
-        "Wikipedia:Triamcinolone"
-    ],
-    "geneontology:hasId": "9667",
-    "geneontology:hasSynonym": [
+    "skos:altLabel": [
         "(11beta,16alpha)-9-fluoro-11,16,17,21-tetrahydroxypregna-1,4-diene-3,20-dione",
         "11beta,16alpha,17alpha,21-tetrahydroxy-9alpha-fluoro-1,4-pregnadiene-3,20-dione",
         "9alpha-fluoro-11beta,16alpha,17,21-tetrahydroxypregna-1,4-diene-3,20-dione",
@@ -47,11 +32,11 @@
         "triamcinolona",
         "triamcinolonum"
     ],
-    "geneontology:inSubset": {
-        "@id": "obo:chebi#3_STAR"
+    "skos:exactMatch": {
+        "@id": "obo:CHEBI_9667"
     },
-    "rdfs:label": "triamcinolone",
-    "rdfs:subClassOf": [
+    "skos:note": "A C21-steroid hormone that is 1,4-pregnadiene-3,20-dione carrying four hydroxy substituents at positions 11beta, 16alpha, 17alpha and 21 as well as a fluoro substituent at position 9. Used in the form of its 16,17-acetonide to treat various skin infections.",
+    "skos:semanticRelation": [
         {
             "@id": "obo:CHEBI_35346"
         },
@@ -81,15 +66,6 @@
         },
         {
             "@id": "obo:CHEBI_50830"
-        },
-        {
-            "@id": "b711_genid-00f1db82e1ab437c844115a94dc63e635-bn9667t9f8386"
-        },
-        {
-            "@id": "b711_genid-00f1db82e1ab437c844115a94dc63e635-bn9667t11f35472"
-        },
-        {
-            "@id": "b711_genid-00f1db82e1ab437c844115a94dc63e635-bn9667t11f50857"
         },
         {
             "@id": "obo:CHEBI_64600"

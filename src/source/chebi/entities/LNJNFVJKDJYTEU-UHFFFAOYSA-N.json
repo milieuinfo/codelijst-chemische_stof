@@ -1,59 +1,47 @@
 {
     "@context": {
-        "chebi": "http://purl.obolibrary.org/obo/chebi/",
         "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
         "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-        "obo": "http://purl.obolibrary.org/obo/"
+        "obo": "http://purl.obolibrary.org/obo/",
+        "uniprot": "http://purl.uniprot.org/",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "concept": "https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/",
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "dbo": "http://dbpedia.org/ontology/",
+        "dbp": "http://dbpedia.org/property/",
+        "altLabel": {
+            "@id": "http://www.w3.org/2004/02/skos/core#altLabel",
+            "@language": "en"
+        },
+        "graph": {
+            "@id": "@graph"
+        }
     },
-    "@id": "obo:CHEBI_4520",
-    "@type": "http://www.w3.org/2002/07/owl#Class",
-    "obo:IAO_0000115": "A carbamate ester that is the isopropyl ester of (3,4-diethoxyphenyl)carbamic acid. A fungicide with strong activity against Botrytis cinerea and benzimidazole-resistant strains of Botryis spp.",
+    "@id": "concept:LNJNFVJKDJYTEU-UHFFFAOYSA-N",
+    "@type": "skos:Concept",
+    "dbo:formula": "C14H21NO4",
+    "dbo:inchi": "InChI=1S/C14H21NO4/c1-5-17-12-8-7-11(9-13(12)18-6-2)15-14(16)19-10(3)4/h7-10H,5-6H2,1-4H3,(H,15,16)",
+    "dbo:smiles": "CCOc1ccc(NC(=O)OC(C)C)cc1OCC",
+    "dbp:inchikey": "LNJNFVJKDJYTEU-UHFFFAOYSA-N",
     "chebi:charge": "0",
-    "chebi:formula": "C14H21NO4",
-    "chebi:inchi": "InChI=1S/C14H21NO4/c1-5-17-12-8-7-11(9-13(12)18-6-2)15-14(16)19-10(3)4/h7-10H,5-6H2,1-4H3,(H,15,16)",
-    "chebi:inchikey": "LNJNFVJKDJYTEU-UHFFFAOYSA-N",
-    "chebi:smiles": "CCOc1ccc(NC(=O)OC(C)C)cc1OCC",
-    "geneontology:hasDbXref": [
-        "CAS:87130-20-9",
-        "KEGG:C11077",
-        "Pesticides:diethofencarb",
-        "PMID:21174194",
-        "PMID:21763813",
-        "PMID:22921656",
-        "PMID:23404952",
-        "PMID:23597988",
-        "PMID:23760810",
-        "PMID:24679760",
-        "PMID:24817605",
-        "PMID:24861738",
-        "PMID:24973804",
-        "PPDB:228",
-        "Reaxys:8393454"
-    ],
-    "geneontology:hasId": "4520",
-    "geneontology:hasSynonym": [
+    "skos:altLabel": [
         "1-Methylethyl (3,4-diethoxyphenyl)carbamate",
         "1-methylethyl N-(3,4-diethoxyphenyl)carbamate",
         "isopropyl (3,4-diethoxyphenyl)carbamate",
         "Isopropyl 3,4-diethoxycarbanilate",
         "propan-2-yl (3,4-diethoxyphenyl)carbamate"
     ],
-    "geneontology:inSubset": {
-        "@id": "obo:chebi#3_STAR"
+    "skos:exactMatch": {
+        "@id": "obo:CHEBI_4520"
     },
-    "rdfs:label": "diethofencarb",
-    "rdfs:subClassOf": [
+    "skos:note": "A carbamate ester that is the isopropyl ester of (3,4-diethoxyphenyl)carbamic acid. A fungicide with strong activity against Botrytis cinerea and benzimidazole-resistant strains of Botryis spp.",
+    "skos:semanticRelation": [
         {
             "@id": "obo:CHEBI_35618"
         },
         {
             "@id": "obo:CHEBI_23003"
-        },
-        {
-            "@id": "b575_genid-00f1db82e1ab437c844115a94dc63e635-bn4520t8f17296"
-        },
-        {
-            "@id": "b575_genid-00f1db82e1ab437c844115a94dc63e635-bn4520t11f86328"
         },
         {
             "@id": "obo:CHEBI_87066"

@@ -1,48 +1,33 @@
 {
     "@context": {
-        "chebi": "http://purl.obolibrary.org/obo/chebi/",
         "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
         "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-        "obo": "http://purl.obolibrary.org/obo/"
+        "obo": "http://purl.obolibrary.org/obo/",
+        "uniprot": "http://purl.uniprot.org/",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "concept": "https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/",
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "dbo": "http://dbpedia.org/ontology/",
+        "dbp": "http://dbpedia.org/property/",
+        "altLabel": {
+            "@id": "http://www.w3.org/2004/02/skos/core#altLabel",
+            "@language": "en"
+        },
+        "graph": {
+            "@id": "@graph"
+        }
     },
-    "@id": "obo:CHEBI_16183",
-    "@type": "http://www.w3.org/2002/07/owl#Class",
-    "obo:IAO_0000115": "A one-carbon compound in which the carbon is attached by single bonds to four hydrogen atoms. It is a colourless, odourless, non-toxic but flammable gas (b.p. -161degreeC).",
+    "@id": "concept:VNWKTOKETHGBQD-UHFFFAOYSA-N",
+    "@type": "skos:Concept",
+    "dbo:formula": "CH4",
+    "dbo:inchi": "InChI=1S/CH4/h1H4",
+    "dbo:smiles": "[H]C([H])([H])[H]",
+    "dbp:inchikey": "VNWKTOKETHGBQD-UHFFFAOYSA-N",
     "chebi:charge": "0",
-    "chebi:formula": "CH4",
-    "chebi:inchi": "InChI=1S/CH4/h1H4",
-    "chebi:inchikey": "VNWKTOKETHGBQD-UHFFFAOYSA-N",
-    "chebi:smiles": "[H]C([H])([H])[H]",
-    "http://purl.uniprot.org/core/name": "methane",
-    "geneontology:hasDbXref": [
-        "Beilstein:1718732",
-        "CAS:74-82-8",
-        "Gmelin:59",
-        "HMDB:HMDB0002714",
-        "KEGG:C01438",
-        "MetaCyc:CH4",
-        "Patent:FR994032",
-        "Patent:US2583090",
-        "PMID:17791569",
-        "PMID:23104415",
-        "PMID:23353606",
-        "PMID:23376302",
-        "PMID:23397538",
-        "PMID:23718889",
-        "PMID:23739479",
-        "PMID:23742231",
-        "PMID:23756351",
-        "PMID:24132456",
-        "PMID:24161402",
-        "PMID:24259373",
-        "Reaxys:1718732",
-        "UM-BBD_compID:c0095",
-        "Wikipedia:Methane"
-    ],
-    "geneontology:hasId": "16183",
-    "geneontology:hasSynonym": [
-        "methane",
+    "skos:altLabel": [
         "CH4",
+        "methane",
         "marsh gas",
         "metano",
         "Methan",
@@ -50,11 +35,11 @@
         "methyl hydride",
         "tetrahydridocarbon"
     ],
-    "geneontology:inSubset": {
-        "@id": "obo:chebi#3_STAR"
+    "skos:exactMatch": {
+        "@id": "obo:CHEBI_16183"
     },
-    "rdfs:label": "methane",
-    "rdfs:subClassOf": [
+    "skos:note": "A one-carbon compound in which the carbon is attached by single bonds to four hydrogen atoms. It is a colourless, odourless, non-toxic but flammable gas (b.p. -161degreeC).",
+    "skos:semanticRelation": [
         {
             "@id": "obo:CHEBI_18310"
         },
@@ -66,18 +51,6 @@
         },
         {
             "@id": "obo:CHEBI_138675"
-        },
-        {
-            "@id": "b965_genid-00f1db82e1ab437c844115a94dc63e635-bn16183t4f29438"
-        },
-        {
-            "@id": "b965_genid-00f1db82e1ab437c844115a94dc63e635-bn16183t11f35230"
-        },
-        {
-            "@id": "b965_genid-00f1db82e1ab437c844115a94dc63e635-bn16183t11f76413"
-        },
-        {
-            "@id": "b965_genid-00f1db82e1ab437c844115a94dc63e635-bn16183t11f76969"
         }
     ]
 }

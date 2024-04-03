@@ -1,41 +1,31 @@
 {
     "@context": {
-        "chebi": "http://purl.obolibrary.org/obo/chebi/",
         "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
         "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-        "obo": "http://purl.obolibrary.org/obo/"
+        "obo": "http://purl.obolibrary.org/obo/",
+        "uniprot": "http://purl.uniprot.org/",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "concept": "https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/",
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "dbo": "http://dbpedia.org/ontology/",
+        "dbp": "http://dbpedia.org/property/",
+        "altLabel": {
+            "@id": "http://www.w3.org/2004/02/skos/core#altLabel",
+            "@language": "en"
+        },
+        "graph": {
+            "@id": "@graph"
+        }
     },
-    "@id": "obo:CHEBI_16000",
-    "@type": "http://www.w3.org/2002/07/owl#Class",
-    "obo:IAO_0000115": "A member of the class of  ethanolamines that is ethane with an amino substituent at C-1 and a hydroxy substituent at C-2, making it both a primary amine and a primary alcohol.",
+    "@id": "concept:HZAXFHJVJLSVMW-UHFFFAOYSA-N",
+    "@type": "skos:Concept",
+    "dbo:formula": "C2H7NO",
+    "dbo:inchi": "InChI=1S/C2H7NO/c3-1-2-4/h4H,1-3H2",
+    "dbo:smiles": "NCCO",
+    "dbp:inchikey": "HZAXFHJVJLSVMW-UHFFFAOYSA-N",
     "chebi:charge": "0",
-    "chebi:formula": "C2H7NO",
-    "chebi:inchi": "InChI=1S/C2H7NO/c3-1-2-4/h4H,1-3H2",
-    "chebi:inchikey": "HZAXFHJVJLSVMW-UHFFFAOYSA-N",
-    "chebi:smiles": "NCCO",
-    "geneontology:hasDbXref": [
-        "PMID:10930630",
-        "PMID:24023812",
-        "PMID:6196640",
-        "PMID:3654008",
-        "PMID:12834252",
-        "Beilstein:505944",
-        "CAS:141-43-5",
-        "DrugBank:DB03994",
-        "Gmelin:1650",
-        "HMDB:HMDB0000149",
-        "KEGG:C00189",
-        "KEGG:D05074",
-        "KNApSAcK:C00007279",
-        "PDBeChem:ETA",
-        "PMID:15149650",
-        "PMID:6708049",
-        "Reaxys:505944",
-        "UM-BBD_compID:c0594",
-        "Wikipedia:Ethanolamine"
-    ],
-    "geneontology:hasId": "16000",
-    "geneontology:hasSynonym": [
+    "skos:altLabel": [
         "MEA",
         "1-amino-2-hydroxyethane",
         "2-amino-1-ethanol",
@@ -58,11 +48,11 @@
         "monoethanolamine",
         "MONOETHANOLAMINE"
     ],
-    "geneontology:inSubset": {
-        "@id": "obo:chebi#3_STAR"
+    "skos:exactMatch": {
+        "@id": "obo:CHEBI_16000"
     },
-    "rdfs:label": "ethanolamine",
-    "rdfs:subClassOf": [
+    "skos:note": "A member of the class of  ethanolamines that is ethane with an amino substituent at C-1 and a hydroxy substituent at C-2, making it both a primary amine and a primary alcohol.",
+    "skos:semanticRelation": [
         {
             "@id": "obo:CHEBI_15734"
         },
@@ -71,21 +61,6 @@
         },
         {
             "@id": "obo:CHEBI_32877"
-        },
-        {
-            "@id": "b60_genid-00f1db82e1ab437c844115a94dc63e635-bn16000tmms73f57603"
-        },
-        {
-            "@id": "b60_genid-00f1db82e1ab437c844115a94dc63e635-bn16000t5f57603"
-        },
-        {
-            "@id": "b60_genid-00f1db82e1ab437c844115a94dc63e635-bn16000t11f75771"
-        },
-        {
-            "@id": "b60_genid-00f1db82e1ab437c844115a94dc63e635-bn16000t11f76971"
-        },
-        {
-            "@id": "b60_genid-00f1db82e1ab437c844115a94dc63e635-bn16000t11f77746"
         }
     ]
 }

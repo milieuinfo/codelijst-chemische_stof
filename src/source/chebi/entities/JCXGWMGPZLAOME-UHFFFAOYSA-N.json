@@ -1,23 +1,31 @@
 {
     "@context": {
-        "chebi": "http://purl.obolibrary.org/obo/chebi/",
         "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
         "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-        "obo": "http://purl.obolibrary.org/obo/"
+        "obo": "http://purl.obolibrary.org/obo/",
+        "uniprot": "http://purl.uniprot.org/",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "concept": "https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/",
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "dbo": "http://dbpedia.org/ontology/",
+        "dbp": "http://dbpedia.org/property/",
+        "altLabel": {
+            "@id": "http://www.w3.org/2004/02/skos/core#altLabel",
+            "@language": "en"
+        },
+        "graph": {
+            "@id": "@graph"
+        }
     },
-    "@id": "obo:CHEBI_33301",
-    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "@id": "concept:JCXGWMGPZLAOME-UHFFFAOYSA-N",
+    "@type": "skos:Concept",
+    "dbo:formula": "Bi",
+    "dbo:inchi": "InChI=1S/Bi",
+    "dbo:smiles": "[Bi]",
+    "dbp:inchikey": "JCXGWMGPZLAOME-UHFFFAOYSA-N",
     "chebi:charge": "0",
-    "chebi:formula": "Bi",
-    "chebi:inchi": "InChI=1S/Bi",
-    "chebi:inchikey": "JCXGWMGPZLAOME-UHFFFAOYSA-N",
-    "chebi:smiles": "[Bi]",
-    "geneontology:hasDbXref": [
-        "CAS:7440-69-9",
-        "WebElements:Bi"
-    ],
-    "geneontology:hasId": "33301",
-    "geneontology:hasSynonym": [
+    "skos:altLabel": [
         "Bi",
         "83Bi",
         "Bismut",
@@ -25,11 +33,10 @@
         "bismuto",
         "Wismut"
     ],
-    "geneontology:inSubset": {
-        "@id": "obo:chebi#3_STAR"
+    "skos:exactMatch": {
+        "@id": "obo:CHEBI_33301"
     },
-    "rdfs:label": "bismuth atom",
-    "rdfs:subClassOf": [
+    "skos:semanticRelation": [
         {
             "@id": "obo:CHEBI_33521"
         },

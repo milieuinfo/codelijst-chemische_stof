@@ -1,34 +1,31 @@
 {
     "@context": {
-        "chebi": "http://purl.obolibrary.org/obo/chebi/",
         "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
         "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-        "obo": "http://purl.obolibrary.org/obo/"
+        "obo": "http://purl.obolibrary.org/obo/",
+        "uniprot": "http://purl.uniprot.org/",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "concept": "https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/",
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "dbo": "http://dbpedia.org/ontology/",
+        "dbp": "http://dbpedia.org/property/",
+        "altLabel": {
+            "@id": "http://www.w3.org/2004/02/skos/core#altLabel",
+            "@language": "en"
+        },
+        "graph": {
+            "@id": "@graph"
+        }
     },
-    "@id": "obo:CHEBI_183318",
-    "@type": "http://www.w3.org/2002/07/owl#Class",
-    "obo:IAO_0000115": "A member of the class of  tertiary phosphines that is phosphane in which the three hydrogens are replaced by phenyl groups.",
+    "@id": "concept:RIOQSEWOXXDEQQ-UHFFFAOYSA-N",
+    "@type": "skos:Concept",
+    "dbo:formula": "C18H15P",
+    "dbo:inchi": "InChI=1S/C18H15P/c1-4-10-16(11-5-1)19(17-12-6-2-7-13-17)18-14-8-3-9-15-18/h1-15H",
+    "dbo:smiles": "C1=CC=C(C=C1)P(C1=CC=CC=C1)C1=CC=CC=C1",
+    "dbp:inchikey": "RIOQSEWOXXDEQQ-UHFFFAOYSA-N",
     "chebi:charge": "0",
-    "chebi:formula": "C18H15P",
-    "chebi:inchi": "InChI=1S/C18H15P/c1-4-10-16(11-5-1)19(17-12-6-2-7-13-17)18-14-8-3-9-15-18/h1-15H",
-    "chebi:inchikey": "RIOQSEWOXXDEQQ-UHFFFAOYSA-N",
-    "chebi:smiles": "C1=CC=C(C=C1)P(C1=CC=CC=C1)C1=CC=CC=C1",
-    "geneontology:hasDbXref": [
-        "CAS:603-35-0",
-        "Chemspider:11283",
-        "HMDB:HMDB0259265",
-        "PMCID:PMC8513919",
-        "PMID:2531144",
-        "PMID:31948233",
-        "PMID:32124602",
-        "PMID:32259335",
-        "PMID:34260204",
-        "PMID:34338057",
-        "Reaxys:610776",
-        "Wikipedia:Triphenylphosphine"
-    ],
-    "geneontology:hasId": "183318",
-    "geneontology:hasSynonym": [
+    "skos:altLabel": [
         "TPP",
         "Ph3P",
         "phosphorus triphenyl",
@@ -41,19 +38,16 @@
         "triphenyl phosphine",
         "triphenylphosphorus"
     ],
-    "geneontology:inSubset": {
-        "@id": "obo:chebi#3_STAR"
+    "skos:exactMatch": {
+        "@id": "obo:CHEBI_183318"
     },
-    "rdfs:label": "triphenylphosphine",
-    "rdfs:subClassOf": [
+    "skos:note": "A member of the class of  tertiary phosphines that is phosphane in which the three hydrogens are replaced by phenyl groups.",
+    "skos:semanticRelation": [
         {
             "@id": "obo:CHEBI_22712"
         },
         {
             "@id": "obo:CHEBI_35886"
-        },
-        {
-            "@id": "b447_genid-00f1db82e1ab437c844115a94dc63e635-bn183318t11f63247"
         }
     ]
 }

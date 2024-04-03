@@ -1,32 +1,31 @@
 {
     "@context": {
-        "chebi": "http://purl.obolibrary.org/obo/chebi/",
         "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
         "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-        "obo": "http://purl.obolibrary.org/obo/"
+        "obo": "http://purl.obolibrary.org/obo/",
+        "uniprot": "http://purl.uniprot.org/",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "concept": "https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/",
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "dbo": "http://dbpedia.org/ontology/",
+        "dbp": "http://dbpedia.org/property/",
+        "altLabel": {
+            "@id": "http://www.w3.org/2004/02/skos/core#altLabel",
+            "@language": "en"
+        },
+        "graph": {
+            "@id": "@graph"
+        }
     },
-    "@id": "obo:CHEBI_38067",
-    "@type": "http://www.w3.org/2002/07/owl#Class",
-    "obo:IAO_0000115": "A  diamino-1,3,5-triazine that is N,N'-di(propan-2-yl)-1,3,5-triazine-2,4-diamine substituted by a chloro group at position 6.",
+    "@id": "concept:WJNRPILHGGKWCK-UHFFFAOYSA-N",
+    "@type": "skos:Concept",
+    "dbo:formula": "C9H16ClN5",
+    "dbo:inchi": "InChI=1S/C9H16ClN5/c1-5(2)11-8-13-7(10)14-9(15-8)12-6(3)4/h5-6H,1-4H3,(H2,11,12,13,14,15)",
+    "dbo:smiles": "CC(C)Nc1nc(Cl)nc(NC(C)C)n1",
+    "dbp:inchikey": "WJNRPILHGGKWCK-UHFFFAOYSA-N",
     "chebi:charge": "0",
-    "chebi:formula": "C9H16ClN5",
-    "chebi:inchi": "InChI=1S/C9H16ClN5/c1-5(2)11-8-13-7(10)14-9(15-8)12-6(3)4/h5-6H,1-4H3,(H2,11,12,13,14,15)",
-    "chebi:inchikey": "WJNRPILHGGKWCK-UHFFFAOYSA-N",
-    "chebi:smiles": "CC(C)Nc1nc(Cl)nc(NC(C)C)n1",
-    "geneontology:hasDbXref": [
-        "Beilstein:747081",
-        "CAS:139-40-2",
-        "KEGG:C14312",
-        "LINCS:LSM-20981",
-        "Pesticides:propazine",
-        "PMID:16986790",
-        "PMID:23875679",
-        "PPDB:548",
-        "Reaxys:747081",
-        "UM-BBD_compID:c0253"
-    ],
-    "geneontology:hasId": "38067",
-    "geneontology:hasSynonym": [
+    "skos:altLabel": [
         "2,4-bis(isopropylamino)-6-chloro-s-triazine",
         "2-Chloro-4,6-bis(isopropylamino)-1,3,5-triazine",
         "2-chloro-4,6-bis(isopropylamino)-s-triazine",
@@ -38,25 +37,16 @@
         "Propazine",
         "Prozinex"
     ],
-    "geneontology:inSubset": {
-        "@id": "obo:chebi#3_STAR"
+    "skos:exactMatch": {
+        "@id": "obo:CHEBI_38067"
     },
-    "rdfs:label": "propazine",
-    "rdfs:subClassOf": [
+    "skos:note": "A  diamino-1,3,5-triazine that is N,N'-di(propan-2-yl)-1,3,5-triazine-2,4-diamine substituted by a chloro group at position 6.",
+    "skos:semanticRelation": [
         {
             "@id": "obo:CHEBI_38168"
         },
         {
             "@id": "obo:CHEBI_38170"
-        },
-        {
-            "@id": "b45_genid-00f1db82e1ab437c844115a94dc63e635-bn38067t11f24527"
-        },
-        {
-            "@id": "b45_genid-00f1db82e1ab437c844115a94dc63e635-bn38067t11f35703"
-        },
-        {
-            "@id": "b45_genid-00f1db82e1ab437c844115a94dc63e635-bn38067t11f78298"
         }
     ]
 }

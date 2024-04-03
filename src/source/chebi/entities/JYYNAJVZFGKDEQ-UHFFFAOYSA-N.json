@@ -1,30 +1,35 @@
 {
     "@context": {
-        "chebi": "http://purl.obolibrary.org/obo/chebi/",
         "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
         "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-        "obo": "http://purl.obolibrary.org/obo/"
+        "obo": "http://purl.obolibrary.org/obo/",
+        "uniprot": "http://purl.uniprot.org/",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "concept": "https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/",
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "dbo": "http://dbpedia.org/ontology/",
+        "dbp": "http://dbpedia.org/property/",
+        "altLabel": {
+            "@id": "http://www.w3.org/2004/02/skos/core#altLabel",
+            "@language": "en"
+        },
+        "graph": {
+            "@id": "@graph"
+        }
     },
-    "@id": "obo:CHEBI_192115",
-    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "@id": "concept:JYYNAJVZFGKDEQ-UHFFFAOYSA-N",
+    "@type": "skos:Concept",
+    "dbo:formula": "C7H9N",
+    "dbo:inchi": "InChI=1S/C7H9N/c1-6-3-4-8-7(2)5-6/h3-5H,1-2H3",
+    "dbo:smiles": "N1=C(C=C(C=C1)C)C",
+    "dbp:inchikey": "JYYNAJVZFGKDEQ-UHFFFAOYSA-N",
     "chebi:charge": "0",
-    "chebi:formula": "C7H9N",
-    "chebi:inchi": "InChI=1S/C7H9N/c1-6-3-4-8-7(2)5-6/h3-5H,1-2H3",
-    "chebi:inchikey": "JYYNAJVZFGKDEQ-UHFFFAOYSA-N",
-    "chebi:smiles": "N1=C(C=C(C=C1)C)C",
-    "geneontology:hasDbXref": [
-        "CAS:108-47-4",
-        "Chemspider:21132380",
-        "HMDB:HMDB0032244",
-        "PDBeChem:RVV"
-    ],
-    "geneontology:hasId": "192115",
-    "geneontology:hasSynonym": "2,4-dimethylpyridine",
-    "geneontology:inSubset": {
-        "@id": "obo:chebi#2_STAR"
+    "skos:altLabel": "2,4-dimethylpyridine",
+    "skos:exactMatch": {
+        "@id": "obo:CHEBI_192115"
     },
-    "rdfs:label": "2,4-Dimethylpyridine",
-    "rdfs:subClassOf": {
+    "skos:semanticRelation": {
         "@id": "obo:CHEBI_25340"
     }
 }

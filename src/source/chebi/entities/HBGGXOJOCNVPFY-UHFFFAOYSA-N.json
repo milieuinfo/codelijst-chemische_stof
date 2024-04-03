@@ -1,43 +1,43 @@
 {
     "@context": {
-        "chebi": "http://purl.obolibrary.org/obo/chebi/",
         "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
         "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-        "obo": "http://purl.obolibrary.org/obo/"
+        "obo": "http://purl.obolibrary.org/obo/",
+        "uniprot": "http://purl.uniprot.org/",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "concept": "https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/",
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "dbo": "http://dbpedia.org/ontology/",
+        "dbp": "http://dbpedia.org/property/",
+        "graph": {
+            "@id": "@graph"
+        }
     },
-    "@id": "obo:CHEBI_35459",
-    "@type": "http://www.w3.org/2002/07/owl#Class",
-    "obo:IAO_0000115": "The diisononyl ester of benzene-1,2-dicarboxylic acid.",
+    "@id": "concept:HBGGXOJOCNVPFY-UHFFFAOYSA-N",
+    "@type": "skos:Concept",
+    "dbo:formula": "C26H42O4",
+    "dbo:inchi": "InChI=1S/C26H42O4/c1-21(2)15-9-5-7-13-19-29-25(27)23-17-11-12-18-24(23)26(28)30-20-14-8-6-10-16-22(3)4/h11-12,17-18,21-22H,5-10,13-16,19-20H2,1-4H3",
+    "dbo:smiles": "CC(C)CCCCCCOC(=O)c1ccccc1C(=O)OCCCCCCC(C)C",
+    "dbp:inchikey": "HBGGXOJOCNVPFY-UHFFFAOYSA-N",
     "chebi:charge": "0",
-    "chebi:formula": "C26H42O4",
-    "chebi:inchi": "InChI=1S/C26H42O4/c1-21(2)15-9-5-7-13-19-29-25(27)23-17-11-12-18-24(23)26(28)30-20-14-8-6-10-16-22(3)4/h11-12,17-18,21-22H,5-10,13-16,19-20H2,1-4H3",
-    "chebi:inchikey": "HBGGXOJOCNVPFY-UHFFFAOYSA-N",
-    "chebi:smiles": "CC(C)CCCCCCOC(=O)c1ccccc1C(=O)OCCCCCCC(C)C",
-    "geneontology:hasDbXref": [
-        "CAS:28553-12-0",
-        "KEGG:C15221"
-    ],
-    "geneontology:hasId": "35459",
-    "geneontology:hasSynonym": [
+    "skos:altLabel": [
         "1,2-Benzenedicarboxylic acid, diisononyl ester",
         "bis(7-methyloctyl) benzene-1,2-dicarboxylate",
         "Diisononyl phthalate",
         "Enj 2065",
         "Phthalic acid, diisononyl ester"
     ],
-    "geneontology:inSubset": {
-        "@id": "obo:chebi#3_STAR"
+    "skos:exactMatch": {
+        "@id": "obo:CHEBI_35459"
     },
-    "rdfs:label": "diisononyl phthalate",
-    "rdfs:subClassOf": [
+    "skos:note": "The diisononyl ester of benzene-1,2-dicarboxylic acid.",
+    "skos:semanticRelation": [
         {
             "@id": "obo:CHEBI_51307"
         },
         {
             "@id": "obo:CHEBI_35484"
-        },
-        {
-            "@id": "b832_genid-00f1db82e1ab437c844115a94dc63e635-bn35459t11f79056"
         }
     ]
 }

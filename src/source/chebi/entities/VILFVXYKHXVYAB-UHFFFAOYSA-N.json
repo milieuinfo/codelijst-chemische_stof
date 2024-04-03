@@ -1,45 +1,40 @@
 {
     "@context": {
-        "chebi": "http://purl.obolibrary.org/obo/chebi/",
         "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
         "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-        "obo": "http://purl.obolibrary.org/obo/"
+        "obo": "http://purl.obolibrary.org/obo/",
+        "uniprot": "http://purl.uniprot.org/",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "concept": "https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/",
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "dbo": "http://dbpedia.org/ontology/",
+        "dbp": "http://dbpedia.org/property/",
+        "altLabel": {
+            "@id": "http://www.w3.org/2004/02/skos/core#altLabel",
+            "@language": "en"
+        },
+        "graph": {
+            "@id": "@graph"
+        }
     },
-    "@id": "obo:CHEBI_30898",
-    "@type": "http://www.w3.org/2002/07/owl#Class",
-    "obo:IAO_0000115": "A naphthalenesulfonic acid in which the sulfo groups are attached to positions 2 and 7 of the naphthalene ring.",
+    "@id": "concept:VILFVXYKHXVYAB-UHFFFAOYSA-N",
+    "@type": "skos:Concept",
+    "dbo:formula": "C10H8O6S2",
+    "dbo:inchi": "InChI=1S/C10H8O6S2/c11-17(12,13)9-3-1-7-2-4-10(18(14,15)16)6-8(7)5-9/h1-6H,(H,11,12,13)(H,14,15,16)",
+    "dbo:smiles": "OS(=O)(=O)c1ccc2ccc(cc2c1)S(O)(=O)=O",
+    "dbp:inchikey": "VILFVXYKHXVYAB-UHFFFAOYSA-N",
     "chebi:charge": "0",
-    "chebi:formula": "C10H8O6S2",
-    "chebi:inchi": "InChI=1S/C10H8O6S2/c11-17(12,13)9-3-1-7-2-4-10(18(14,15)16)6-8(7)5-9/h1-6H,(H,11,12,13)(H,14,15,16)",
-    "chebi:inchikey": "VILFVXYKHXVYAB-UHFFFAOYSA-N",
-    "chebi:smiles": "OS(=O)(=O)c1ccc2ccc(cc2c1)S(O)(=O)=O",
-    "geneontology:hasDbXref": [
-        "Beilstein:2221087",
-        "CAS:92-41-1",
-        "Reaxys:2221087"
-    ],
-    "geneontology:hasId": "30898",
-    "geneontology:hasSynonym": [
+    "skos:altLabel": [
         "2,7-naphthalenedisulfonic acid",
         "Ebert-Merz alpha-acid",
         "naphthalene-2,7-disulphonic acid"
     ],
-    "geneontology:inSubset": {
-        "@id": "obo:chebi#3_STAR"
+    "skos:exactMatch": {
+        "@id": "obo:CHEBI_30898"
     },
-    "rdfs:label": "naphthalene-2,7-disulfonic acid",
-    "rdfs:subClassOf": [
-        {
-            "@id": "obo:CHEBI_36336"
-        },
-        {
-            "@id": "b928_genid-00f1db82e1ab437c844115a94dc63e635-bn30898tmms73f30899"
-        },
-        {
-            "@id": "b928_genid-00f1db82e1ab437c844115a94dc63e635-bn30898t11f35703"
-        },
-        {
-            "@id": "b928_genid-00f1db82e1ab437c844115a94dc63e635-bn30898t11f78298"
-        }
-    ]
+    "skos:note": "A naphthalenesulfonic acid in which the sulfo groups are attached to positions 2 and 7 of the naphthalene ring.",
+    "skos:semanticRelation": {
+        "@id": "obo:CHEBI_36336"
+    }
 }

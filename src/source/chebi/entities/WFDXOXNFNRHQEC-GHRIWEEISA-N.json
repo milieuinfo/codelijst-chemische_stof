@@ -1,56 +1,40 @@
 {
     "@context": {
-        "chebi": "http://purl.obolibrary.org/obo/chebi/",
         "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
         "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-        "obo": "http://purl.obolibrary.org/obo/"
+        "obo": "http://purl.obolibrary.org/obo/",
+        "uniprot": "http://purl.uniprot.org/",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "concept": "https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/",
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "dbo": "http://dbpedia.org/ontology/",
+        "dbp": "http://dbpedia.org/property/",
+        "altLabel": {
+            "@id": "http://www.w3.org/2004/02/skos/core#altLabel",
+            "@language": "en"
+        },
+        "graph": {
+            "@id": "@graph"
+        }
     },
-    "@id": "obo:CHEBI_40909",
-    "@type": "http://www.w3.org/2002/07/owl#Class",
-    "obo:IAO_0000115": "An aryloxypyrimidine having a 4,6-diphenoxypyrimidine  skeleton in which one of the phenyl rings is cyano-substituted at C-2 and the other carries a 2-methoxy-1-(methoxycarbonyl)vinyl substituent, also at C-2. An inhibitor of mitochondrial respiration by blocking electron transfer between cytochromes b and c1, it is used widely as a fungicide in agriculture.",
+    "@id": "concept:WFDXOXNFNRHQEC-GHRIWEEISA-N",
+    "@type": "skos:Concept",
+    "dbo:formula": "C22H17N3O5",
+    "dbo:inchi": "InChI=1S/C22H17N3O5/c1-27-13-17(22(26)28-2)16-8-4-6-10-19(16)30-21-11-20(24-14-25-21)29-18-9-5-3-7-15(18)12-23/h3-11,13-14H,1-2H3/b17-13+",
+    "dbo:smiles": "CO\\C=C(\\C(=O)OC)c1ccccc1Oc1cc(Oc2ccccc2C#N)ncn1",
+    "dbp:inchikey": "WFDXOXNFNRHQEC-GHRIWEEISA-N",
     "chebi:charge": "0",
-    "chebi:formula": "C22H17N3O5",
-    "chebi:inchi": "InChI=1S/C22H17N3O5/c1-27-13-17(22(26)28-2)16-8-4-6-10-19(16)30-21-11-20(24-14-25-21)29-18-9-5-3-7-15(18)12-23/h3-11,13-14H,1-2H3/b17-13+",
-    "chebi:inchikey": "WFDXOXNFNRHQEC-GHRIWEEISA-N",
-    "chebi:smiles": "CO\\C=C(\\C(=O)OC)c1ccccc1Oc1cc(Oc2ccccc2C#N)ncn1",
-    "geneontology:hasDbXref": [
-        "Beilstein:8350244",
-        "CAS:131860-33-8",
-        "KEGG:C18558",
-        "Patent:EP382375",
-        "Patent:US5395837",
-        "PDBeChem:AZO",
-        "Pesticides:azoxystrobin",
-        "PMID:20818521",
-        "PMID:21153804",
-        "PMID:21671616",
-        "PMID:21777591",
-        "PMID:21884765",
-        "PMID:22092932",
-        "PMID:22224459",
-        "PMID:22278367",
-        "PMID:24125711",
-        "PMID:24405376",
-        "PMID:24700092",
-        "PMID:24726979",
-        "PMID:25011117",
-        "PMID:25090100",
-        "PMID:25196149",
-        "PPDB:54",
-        "Reaxys:8350244",
-        "Wikipedia:Azoxystrobin"
-    ],
-    "geneontology:hasId": "40909",
-    "geneontology:hasSynonym": [
+    "skos:altLabel": [
         "(alphaE)-2-[[6-(2-cyanophenoxy)-4-pyrimidinyl]oxy]-alpha-(methoxymethylene) benzeneacetic acid methyl ester",
         "methyl (2E)-2-(2-{[6-(2-cyanophenoxy)pyrimidin-4-yl]oxy}phenyl)-3-methoxyprop-2-enoate",
         "methyl (E)-2-[2-[6-(2-cyanophenoxy)pyrimidin-4-yloxy]phenyl]-3-methoxyacrylate"
     ],
-    "geneontology:inSubset": {
-        "@id": "obo:chebi#3_STAR"
+    "skos:exactMatch": {
+        "@id": "obo:CHEBI_40909"
     },
-    "rdfs:label": "azoxystrobin",
-    "rdfs:subClassOf": [
+    "skos:note": "An aryloxypyrimidine having a 4,6-diphenoxypyrimidine  skeleton in which one of the phenyl rings is cyano-substituted at C-2 and the other carries a 2-methoxy-1-(methoxycarbonyl)vinyl substituent, also at C-2. An inhibitor of mitochondrial respiration by blocking electron transfer between cytochromes b and c1, it is used widely as a fungicide in agriculture.",
+    "skos:semanticRelation": [
         {
             "@id": "obo:CHEBI_18379"
         },
@@ -67,22 +51,7 @@
             "@id": "obo:CHEBI_48535"
         },
         {
-            "@id": "b13_genid-00f1db82e1ab437c844115a94dc63e635-bn40909t11f35703"
-        },
-        {
-            "@id": "b13_genid-00f1db82e1ab437c844115a94dc63e635-bn40909t11f38499"
-        },
-        {
-            "@id": "b13_genid-00f1db82e1ab437c844115a94dc63e635-bn40909t11f78298"
-        },
-        {
-            "@id": "b13_genid-00f1db82e1ab437c844115a94dc63e635-bn40909t11f86328"
-        },
-        {
             "@id": "obo:CHEBI_86484"
-        },
-        {
-            "@id": "b13_genid-00f1db82e1ab437c844115a94dc63e635-bn40909t11f141153"
         }
     ]
 }

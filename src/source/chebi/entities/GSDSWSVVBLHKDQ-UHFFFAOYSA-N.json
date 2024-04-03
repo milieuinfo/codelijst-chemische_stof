@@ -1,38 +1,17 @@
 {
     "@context": {
-        "chebi": "http://purl.obolibrary.org/obo/chebi/",
         "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
         "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-        "obo": "http://purl.obolibrary.org/obo/"
-    },
-    "@id": "obo:CHEBI_194135",
-    "@type": "http://www.w3.org/2002/07/owl#Class",
-    "obo:IAO_0000115": "An oxazinoquinoline that is 2,3-dihydro-7H-[1,4]oxazino[2,3,4-ij]quinolin-7-one substituted by methyl, carboxy, fluoro, and 4-methylpiperazin-1-yl groups at positions 3, 6, 9, and 10, respectively.",
-    "chebi:charge": "0",
-    "chebi:formula": "C18H20FN3O4",
-    "chebi:inchi": "InChI=1S/C18H20FN3O4/c1-10-9-26-17-14-11(16(23)12(18(24)25)8-22(10)14)7-13(19)15(17)21-5-3-20(2)4-6-21/h7-8,10H,3-6,9H2,1-2H3,(H,24,25)",
-    "chebi:inchikey": "GSDSWSVVBLHKDQ-UHFFFAOYSA-N",
-    "chebi:smiles": "CC1COC2=C(N3CCN(C)CC3)C(F)=CC3=C2N1C=C(C(O)=O)C3=O",
-    "geneontology:hasId": "194135",
-    "geneontology:inSubset": {
-        "@id": "obo:chebi#3_STAR"
-    },
-    "rdfs:label": "9-fluoro-3-methyl-10-(4-methylpiperazin-1-yl)-7-oxo-2,3-dihydro-7H-[1,4]oxazino[2,3,4-ij]quinoline-6-carboxylic acid",
-    "rdfs:subClassOf": [
-        {
-            "@id": "obo:CHEBI_47881"
-        },
-        {
-            "@id": "obo:CHEBI_37143"
-        },
-        {
-            "@id": "obo:CHEBI_46848"
-        },
-        {
-            "@id": "obo:CHEBI_46920"
-        },
-        {
-            "@id": "obo:CHEBI_53665"
+        "obo": "http://purl.obolibrary.org/obo/",
+        "uniprot": "http://purl.uniprot.org/",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "concept": "https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/",
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "dbo": "http://dbpedia.org/ontology/",
+        "dbp": "http://dbpedia.org/property/",
+        "graph": {
+            "@id": "@graph"
         }
-    ]
+    }
 }

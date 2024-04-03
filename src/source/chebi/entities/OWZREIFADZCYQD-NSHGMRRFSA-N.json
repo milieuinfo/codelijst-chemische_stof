@@ -1,57 +1,31 @@
 {
     "@context": {
-        "chebi": "http://purl.obolibrary.org/obo/chebi/",
         "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
         "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-        "obo": "http://purl.obolibrary.org/obo/"
+        "obo": "http://purl.obolibrary.org/obo/",
+        "uniprot": "http://purl.uniprot.org/",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "concept": "https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/",
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "dbo": "http://dbpedia.org/ontology/",
+        "dbp": "http://dbpedia.org/property/",
+        "altLabel": {
+            "@id": "http://www.w3.org/2004/02/skos/core#altLabel",
+            "@language": "en"
+        },
+        "graph": {
+            "@id": "@graph"
+        }
     },
-    "@id": "obo:CHEBI_4388",
-    "@type": "http://www.w3.org/2002/07/owl#Class",
-    "obo:IAO_0000115": "A cyclopropanecarboxylate ester obtained by formal condensation between 3-(2,2-dibromovinyl)-2,2-dimethylcyclopropanecarboxylic acid and cyano(3-phenoxyphenyl)methanol. It is the active insecticide of the proinsecticide tralomethrin.",
+    "@id": "concept:OWZREIFADZCYQD-NSHGMRRFSA-N",
+    "@type": "skos:Concept",
+    "dbo:formula": "C22H19Br2NO3",
+    "dbo:inchi": "InChI=1S/C22H19Br2NO3/c1-22(2)17(12-19(23)24)20(22)21(26)28-18(13-25)14-7-6-10-16(11-14)27-15-8-4-3-5-9-15/h3-12,17-18,20H,1-2H3/t17-,18+,20-/m0/s1",
+    "dbo:smiles": "CC1(C)[C@@H](C=C(Br)Br)[C@H]1C(=O)O[C@H](C#N)c1cccc(Oc2ccccc2)c1",
+    "dbp:inchikey": "OWZREIFADZCYQD-NSHGMRRFSA-N",
     "chebi:charge": "0",
-    "chebi:formula": "C22H19Br2NO3",
-    "chebi:inchi": "InChI=1S/C22H19Br2NO3/c1-22(2)17(12-19(23)24)20(22)21(26)28-18(13-25)14-7-6-10-16(11-14)27-15-8-4-3-5-9-15/h3-12,17-18,20H,1-2H3/t17-,18+,20-/m0/s1",
-    "chebi:inchikey": "OWZREIFADZCYQD-NSHGMRRFSA-N",
-    "chebi:smiles": "CC1(C)[C@@H](C=C(Br)Br)[C@H]1C(=O)O[C@H](C#N)c1cccc(Oc2ccccc2)c1",
-    "geneontology:hasDbXref": [
-        "Beilstein:6746312",
-        "CAS:52918-63-5",
-        "Drug_Central:4378",
-        "DrugBank:DB13600",
-        "HMDB:HMDB0041866",
-        "KEGG:C10985",
-        "KEGG:D07785",
-        "Pesticides:deltamethrin",
-        "PMID:12049274",
-        "PMID:12706396",
-        "PMID:14563173",
-        "PMID:15088704",
-        "PMID:16169030",
-        "PMID:16310970",
-        "PMID:17507155",
-        "PMID:20839770",
-        "PMID:21324359",
-        "PMID:21771693",
-        "PMID:32249328",
-        "PMID:32485514",
-        "PMID:32596996",
-        "PMID:32651933",
-        "PMID:32757256",
-        "PMID:32799158",
-        "PMID:32876326",
-        "PMID:32914306",
-        "PMID:32976580",
-        "PMID:33001569",
-        "PMID:33035892",
-        "PMID:33046642",
-        "PMID:33069802",
-        "PPDB:205",
-        "Reaxys:6746312",
-        "VSDB:205",
-        "Wikipedia:Deltamethrin"
-    ],
-    "geneontology:hasId": "4388",
-    "geneontology:hasSynonym": [
+    "skos:altLabel": [
         "(S)-alpha-cyano-3-phenoxybenzyl (1R,3R)-3-(2,2-dibromovinyl)-2,2-dimethylcyclopropanecarboxylate",
         "(S)-alpha-cyano-3-phenoxybenzyl (1R)-cis-3-(2,2-dibromovinyl)-2,2-dimethylcyclopropanecarboxylate",
         "(S)-cyano(3-phenoxyphenyl)methyl (1R,3R)-3-(2,2-dibromoethenyl)-2,2-dimethylcyclopropane-1-carboxylate",
@@ -67,11 +41,11 @@
         "Deltashield",
         "Scalibor"
     ],
-    "geneontology:inSubset": {
-        "@id": "obo:chebi#3_STAR"
+    "skos:exactMatch": {
+        "@id": "obo:CHEBI_4388"
     },
-    "rdfs:label": "deltamethrin",
-    "rdfs:subClassOf": [
+    "skos:note": "A cyclopropanecarboxylate ester obtained by formal condensation between 3-(2,2-dibromovinyl)-2,2-dimethylcyclopropanecarboxylic acid and cyano(3-phenoxyphenyl)methanol. It is the active insecticide of the proinsecticide tralomethrin.",
+    "skos:semanticRelation": [
         {
             "@id": "obo:CHEBI_18379"
         },
@@ -83,24 +57,6 @@
         },
         {
             "@id": "obo:CHEBI_37141"
-        },
-        {
-            "@id": "b80_genid-00f1db82e1ab437c844115a94dc63e635-bn4388t11f22583"
-        },
-        {
-            "@id": "b80_genid-00f1db82e1ab437c844115a94dc63e635-bn4388t11f33286"
-        },
-        {
-            "@id": "b80_genid-00f1db82e1ab437c844115a94dc63e635-bn4388t11f37153"
-        },
-        {
-            "@id": "b80_genid-00f1db82e1ab437c844115a94dc63e635-bn4388t11f38807"
-        },
-        {
-            "@id": "b80_genid-00f1db82e1ab437c844115a94dc63e635-bn4388t11f39116"
-        },
-        {
-            "@id": "b80_genid-00f1db82e1ab437c844115a94dc63e635-bn4388t8f39344"
         }
     ]
 }

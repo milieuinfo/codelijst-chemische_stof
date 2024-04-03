@@ -1,28 +1,31 @@
 {
     "@context": {
-        "chebi": "http://purl.obolibrary.org/obo/chebi/",
         "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
         "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-        "obo": "http://purl.obolibrary.org/obo/"
+        "obo": "http://purl.obolibrary.org/obo/",
+        "uniprot": "http://purl.uniprot.org/",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "concept": "https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/",
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "dbo": "http://dbpedia.org/ontology/",
+        "dbp": "http://dbpedia.org/property/",
+        "altLabel": {
+            "@id": "http://www.w3.org/2004/02/skos/core#altLabel",
+            "@language": "en"
+        },
+        "graph": {
+            "@id": "@graph"
+        }
     },
-    "@id": "obo:CHEBI_75456",
-    "@type": "http://www.w3.org/2002/07/owl#Class",
-    "obo:IAO_0000115": "A 2-monoglyceride where the acyl group is octadecanoyl (stearoyl).",
+    "@id": "concept:YQEMORVAKMFKLG-UHFFFAOYSA-N",
+    "@type": "skos:Concept",
+    "dbo:formula": "C21H42O4",
+    "dbo:inchi": "InChI=1S/C21H42O4/c1-2-3-4-5-6-7-8-9-10-11-12-13-14-15-16-17-21(24)25-20(18-22)19-23/h20,22-23H,2-19H2,1H3",
+    "dbo:smiles": "CCCCCCCCCCCCCCCCCC(=O)OC(CO)CO",
+    "dbp:inchikey": "YQEMORVAKMFKLG-UHFFFAOYSA-N",
     "chebi:charge": "0",
-    "chebi:formula": "C21H42O4",
-    "chebi:inchi": "InChI=1S/C21H42O4/c1-2-3-4-5-6-7-8-9-10-11-12-13-14-15-16-17-21(24)25-20(18-22)19-23/h20,22-23H,2-19H2,1H3",
-    "chebi:inchikey": "YQEMORVAKMFKLG-UHFFFAOYSA-N",
-    "chebi:smiles": "CCCCCCCCCCCCCCCCCC(=O)OC(CO)CO",
-    "http://purl.uniprot.org/core/name": "2-octadecanoylglycerol",
-    "geneontology:hasDbXref": [
-        "CAS:621-61-4",
-        "Patent:CN101416677",
-        "Patent:WO2005053622",
-        "PMID:2397244",
-        "Reaxys:1799576"
-    ],
-    "geneontology:hasId": "75456",
-    "geneontology:hasSynonym": [
+    "skos:altLabel": [
         "2-octadecanoylglycerol",
         "1,3-dihydroxypropan-2-yl octadecanoate",
         "1,3-dihydroxypropan-2-yl stearate",
@@ -32,16 +35,11 @@
         "glycerol monostearate",
         "MG (0:0/18:0/0:0)"
     ],
-    "geneontology:inSubset": {
-        "@id": "obo:chebi#3_STAR"
+    "skos:exactMatch": {
+        "@id": "obo:CHEBI_75456"
     },
-    "rdfs:label": "2-stearoylglycerol",
-    "rdfs:subClassOf": [
-        {
-            "@id": "b383_genid-00f1db82e1ab437c844115a94dc63e635-bn75456t8f28842"
-        },
-        {
-            "@id": "obo:CHEBI_134140"
-        }
-    ]
+    "skos:note": "A 2-monoglyceride where the acyl group is octadecanoyl (stearoyl).",
+    "skos:semanticRelation": {
+        "@id": "obo:CHEBI_134140"
+    }
 }

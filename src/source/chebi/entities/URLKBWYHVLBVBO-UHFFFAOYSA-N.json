@@ -1,36 +1,31 @@
 {
     "@context": {
-        "chebi": "http://purl.obolibrary.org/obo/chebi/",
         "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
         "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-        "obo": "http://purl.obolibrary.org/obo/"
+        "obo": "http://purl.obolibrary.org/obo/",
+        "uniprot": "http://purl.uniprot.org/",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "concept": "https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/",
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "dbo": "http://dbpedia.org/ontology/",
+        "dbp": "http://dbpedia.org/property/",
+        "altLabel": {
+            "@id": "http://www.w3.org/2004/02/skos/core#altLabel",
+            "@language": "en"
+        },
+        "graph": {
+            "@id": "@graph"
+        }
     },
-    "@id": "obo:CHEBI_27417",
-    "@type": "http://www.w3.org/2002/07/owl#Class",
-    "obo:IAO_0000115": "A xylene with methyl groups at positions 1 and 4.",
+    "@id": "concept:URLKBWYHVLBVBO-UHFFFAOYSA-N",
+    "@type": "skos:Concept",
+    "dbo:formula": "C8H10",
+    "dbo:inchi": "InChI=1S/C8H10/c1-7-3-5-8(2)6-4-7/h3-6H,1-2H3",
+    "dbo:smiles": "Cc1ccc(C)cc1",
+    "dbp:inchikey": "URLKBWYHVLBVBO-UHFFFAOYSA-N",
     "chebi:charge": "0",
-    "chebi:formula": "C8H10",
-    "chebi:inchi": "InChI=1S/C8H10/c1-7-3-5-8(2)6-4-7/h3-6H,1-2H3",
-    "chebi:inchikey": "URLKBWYHVLBVBO-UHFFFAOYSA-N",
-    "chebi:smiles": "Cc1ccc(C)cc1",
-    "http://purl.uniprot.org/core/name": "p-xylene",
-    "geneontology:hasDbXref": [
-        "Beilstein:1901563",
-        "CAS:106-42-3",
-        "DrugBank:DB03463",
-        "Gmelin:2697",
-        "HMDB:HMDB0059924",
-        "KEGG:C06756",
-        "MetaCyc:CPD-1422",
-        "PDBeChem:PXY",
-        "PMID:23316419",
-        "PMID:24028095",
-        "Reaxys:1901563",
-        "UM-BBD_compID:c0083",
-        "Wikipedia:P-Xylene"
-    ],
-    "geneontology:hasId": "27417",
-    "geneontology:hasSynonym": [
+    "skos:altLabel": [
         "1,4-Dimethylbenzene",
         "1,4-Dimethylbenzol",
         "1,4-xylene",
@@ -43,11 +38,11 @@
         "p-Xylene",
         "p-Xylol"
     ],
-    "geneontology:inSubset": {
-        "@id": "obo:chebi#3_STAR"
+    "skos:exactMatch": {
+        "@id": "obo:CHEBI_27417"
     },
-    "rdfs:label": "p-xylene",
-    "rdfs:subClassOf": {
+    "skos:note": "A xylene with methyl groups at positions 1 and 4.",
+    "skos:semanticRelation": {
         "@id": "obo:CHEBI_27338"
     }
 }

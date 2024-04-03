@@ -1,35 +1,34 @@
 {
     "@context": {
-        "chebi": "http://purl.obolibrary.org/obo/chebi/",
         "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
         "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-        "obo": "http://purl.obolibrary.org/obo/"
+        "obo": "http://purl.obolibrary.org/obo/",
+        "uniprot": "http://purl.uniprot.org/",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "concept": "https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/",
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "dbo": "http://dbpedia.org/ontology/",
+        "dbp": "http://dbpedia.org/property/",
+        "graph": {
+            "@id": "@graph"
+        }
     },
-    "@id": "obo:CHEBI_88374",
-    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "@id": "concept:AFABGHUZZDYHJO-UHFFFAOYSA-N",
+    "@type": "skos:Concept",
+    "dbo:formula": "C6H14",
+    "dbo:inchi": "InChI=1S/C6H14/c1-4-5-6(2)3/h6H,4-5H2,1-3H3",
+    "dbo:smiles": "CCCC(C)C",
+    "dbp:inchikey": "AFABGHUZZDYHJO-UHFFFAOYSA-N",
     "chebi:charge": "0",
-    "chebi:formula": "C6H14",
-    "chebi:inchi": "InChI=1S/C6H14/c1-4-5-6(2)3/h6H,4-5H2,1-3H3",
-    "chebi:inchikey": "AFABGHUZZDYHJO-UHFFFAOYSA-N",
-    "chebi:smiles": "CCCC(C)C",
-    "geneontology:hasDbXref": [
-        "PMID:17314143",
-        "PMID:24421258",
-        "PMID:422277",
-        "HMDB:HMDB0061884",
-        "PMID:10537374",
-        "Wikipedia:2-Methylpentane"
-    ],
-    "geneontology:hasId": "88374",
-    "geneontology:hasSynonym": [
+    "skos:altLabel": [
         "2-methylpentane",
         "2-Methyl-pentane"
     ],
-    "geneontology:inSubset": {
-        "@id": "obo:chebi#2_STAR"
+    "skos:exactMatch": {
+        "@id": "obo:CHEBI_88374"
     },
-    "rdfs:label": "2-Methylpentane",
-    "rdfs:subClassOf": {
+    "skos:semanticRelation": {
         "@id": "obo:CHEBI_18310"
     }
 }

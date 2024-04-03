@@ -1,41 +1,31 @@
 {
     "@context": {
-        "chebi": "http://purl.obolibrary.org/obo/chebi/",
         "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
         "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-        "obo": "http://purl.obolibrary.org/obo/"
+        "obo": "http://purl.obolibrary.org/obo/",
+        "uniprot": "http://purl.uniprot.org/",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "concept": "https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/",
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "dbo": "http://dbpedia.org/ontology/",
+        "dbp": "http://dbpedia.org/property/",
+        "altLabel": {
+            "@id": "http://www.w3.org/2004/02/skos/core#altLabel",
+            "@language": "en"
+        },
+        "graph": {
+            "@id": "@graph"
+        }
     },
-    "@id": "obo:CHEBI_28787",
-    "@type": "http://www.w3.org/2002/07/owl#Class",
-    "obo:IAO_0000115": "A nitroglycerol that is glycerol in which the hydrogen atoms of all three hydroxy groups are replaced by nitro groups. It acts as a prodrug, releasing nitric oxide to open blood vessels and so alleviate heart pain.",
+    "@id": "concept:SNIOPGDIGTZGOP-UHFFFAOYSA-N",
+    "@type": "skos:Concept",
+    "dbo:formula": "C3H5N3O9",
+    "dbo:inchi": "InChI=1S/C3H5N3O9/c7-4(8)13-1-3(15-6(11)12)2-14-5(9)10/h3H,1-2H2",
+    "dbo:smiles": "[O-][N+](=O)OCC(CO[N+]([O-])=O)O[N+]([O-])=O",
+    "dbp:inchikey": "SNIOPGDIGTZGOP-UHFFFAOYSA-N",
     "chebi:charge": "0",
-    "chebi:formula": "C3H5N3O9",
-    "chebi:inchi": "InChI=1S/C3H5N3O9/c7-4(8)13-1-3(15-6(11)12)2-14-5(9)10/h3H,1-2H2",
-    "chebi:inchikey": "SNIOPGDIGTZGOP-UHFFFAOYSA-N",
-    "chebi:smiles": "[O-][N+](=O)OCC(CO[N+]([O-])=O)O[N+]([O-])=O",
-    "geneontology:hasDbXref": [
-        "Beilstein:1802063",
-        "CAS:55-63-0",
-        "Drug_Central:1952",
-        "DrugBank:DB00727",
-        "Gmelin:165859",
-        "KEGG:C07455",
-        "KEGG:D00515",
-        "PMID:11016328",
-        "PMID:11470751",
-        "PMID:11943517",
-        "PMID:22040938",
-        "PMID:22675243",
-        "PMID:23205544",
-        "PMID:23301717",
-        "PMID:9492718",
-        "Reaxys:1802063",
-        "UM-BBD_compID:c0061",
-        "Wikipedia:Glyceryl_trinitrate_(pharmacology)",
-        "Wikipedia:Nitroglycerin"
-    ],
-    "geneontology:hasId": "28787",
-    "geneontology:hasSynonym": [
+    "skos:altLabel": [
         "nitroglycerol",
         "1,2,3-propanetrioltrinitrate",
         "1,2,3-propanetriyl nitrate",
@@ -59,34 +49,11 @@
         "trinitroglycerin",
         "trinitroglycerol"
     ],
-    "geneontology:inSubset": {
-        "@id": "obo:chebi#3_STAR"
+    "skos:exactMatch": {
+        "@id": "obo:CHEBI_28787"
     },
-    "rdfs:label": "nitroglycerin",
-    "rdfs:subClassOf": [
-        {
-            "@id": "obo:CHEBI_25560"
-        },
-        {
-            "@id": "b634_genid-00f1db82e1ab437c844115a94dc63e635-bn28787t11f35620"
-        },
-        {
-            "@id": "b634_genid-00f1db82e1ab437c844115a94dc63e635-bn28787t11f35703"
-        },
-        {
-            "@id": "b634_genid-00f1db82e1ab437c844115a94dc63e635-bn28787t11f50266"
-        },
-        {
-            "@id": "b634_genid-00f1db82e1ab437c844115a94dc63e635-bn28787t11f50566"
-        },
-        {
-            "@id": "b634_genid-00f1db82e1ab437c844115a94dc63e635-bn28787t11f51371"
-        },
-        {
-            "@id": "b634_genid-00f1db82e1ab437c844115a94dc63e635-bn28787t11f63490"
-        },
-        {
-            "@id": "b634_genid-00f1db82e1ab437c844115a94dc63e635-bn28787t11f66993"
-        }
-    ]
+    "skos:note": "A nitroglycerol that is glycerol in which the hydrogen atoms of all three hydroxy groups are replaced by nitro groups. It acts as a prodrug, releasing nitric oxide to open blood vessels and so alleviate heart pain.",
+    "skos:semanticRelation": {
+        "@id": "obo:CHEBI_25560"
+    }
 }

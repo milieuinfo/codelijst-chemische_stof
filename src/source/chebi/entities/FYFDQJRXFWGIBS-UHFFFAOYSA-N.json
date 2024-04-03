@@ -1,33 +1,32 @@
 {
     "@context": {
-        "chebi": "http://purl.obolibrary.org/obo/chebi/",
         "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
         "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-        "obo": "http://purl.obolibrary.org/obo/"
+        "obo": "http://purl.obolibrary.org/obo/",
+        "uniprot": "http://purl.uniprot.org/",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "concept": "https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/",
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "dbo": "http://dbpedia.org/ontology/",
+        "dbp": "http://dbpedia.org/property/",
+        "graph": {
+            "@id": "@graph"
+        }
     },
-    "@id": "obo:CHEBI_51398",
-    "@type": "http://www.w3.org/2002/07/owl#Class",
-    "obo:IAO_0000115": "A dinitrobenzene carrying nitro groups at positions 1 and 4.",
+    "@id": "concept:FYFDQJRXFWGIBS-UHFFFAOYSA-N",
+    "@type": "skos:Concept",
+    "dbo:formula": "C6H4N2O4",
+    "dbo:inchi": "InChI=1S/C6H4N2O4/c9-7(10)5-1-2-6(4-3-5)8(11)12/h1-4H",
+    "dbo:smiles": "[O-][N+](=O)c1ccc(cc1)[N+]([O-])=O",
+    "dbp:inchikey": "FYFDQJRXFWGIBS-UHFFFAOYSA-N",
     "chebi:charge": "0",
-    "chebi:formula": "C6H4N2O4",
-    "chebi:inchi": "InChI=1S/C6H4N2O4/c9-7(10)5-1-2-6(4-3-5)8(11)12/h1-4H",
-    "chebi:inchikey": "FYFDQJRXFWGIBS-UHFFFAOYSA-N",
-    "chebi:smiles": "[O-][N+](=O)c1ccc(cc1)[N+]([O-])=O",
-    "http://purl.uniprot.org/core/name": "1,4-dinitrobenzene",
-    "geneontology:hasDbXref": [
-        "Beilstein:1105828",
-        "CAS:100-25-4",
-        "PMID:24752547",
-        "PMID:749274",
-        "Reaxys:1105828"
-    ],
-    "geneontology:hasId": "51398",
-    "geneontology:hasSynonym": "p-Dinitrobenzene",
-    "geneontology:inSubset": {
-        "@id": "obo:chebi#3_STAR"
+    "skos:altLabel": "p-Dinitrobenzene",
+    "skos:exactMatch": {
+        "@id": "obo:CHEBI_51398"
     },
-    "rdfs:label": "1,4-dinitrobenzene",
-    "rdfs:subClassOf": {
+    "skos:note": "A dinitrobenzene carrying nitro groups at positions 1 and 4.",
+    "skos:semanticRelation": {
         "@id": "obo:CHEBI_51396"
     }
 }

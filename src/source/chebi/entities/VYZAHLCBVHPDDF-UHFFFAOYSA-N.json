@@ -1,46 +1,31 @@
 {
     "@context": {
-        "chebi": "http://purl.obolibrary.org/obo/chebi/",
         "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
         "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-        "obo": "http://purl.obolibrary.org/obo/"
+        "obo": "http://purl.obolibrary.org/obo/",
+        "uniprot": "http://purl.uniprot.org/",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "concept": "https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/",
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "dbo": "http://dbpedia.org/ontology/",
+        "dbp": "http://dbpedia.org/property/",
+        "altLabel": {
+            "@id": "http://www.w3.org/2004/02/skos/core#altLabel",
+            "@language": "en"
+        },
+        "graph": {
+            "@id": "@graph"
+        }
     },
-    "@id": "obo:CHEBI_34718",
-    "@type": "http://www.w3.org/2002/07/owl#Class",
-    "obo:IAO_0000115": "A C-nitro compound that is chlorobenzene carrying a nitro substituent at each of the 2- and 4-positions.",
+    "@id": "concept:VYZAHLCBVHPDDF-UHFFFAOYSA-N",
+    "@type": "skos:Concept",
+    "dbo:formula": "C6H3ClN2O4",
+    "dbo:inchi": "InChI=1S/C6H3ClN2O4/c7-5-2-1-4(8(10)11)3-6(5)9(12)13/h1-3H",
+    "dbo:smiles": "[O-][N+](=O)c1ccc(Cl)c(c1)[N+]([O-])=O",
+    "dbp:inchikey": "VYZAHLCBVHPDDF-UHFFFAOYSA-N",
     "chebi:charge": "0",
-    "chebi:formula": "C6H3ClN2O4",
-    "chebi:inchi": "InChI=1S/C6H3ClN2O4/c7-5-2-1-4(8(10)11)3-6(5)9(12)13/h1-3H",
-    "chebi:inchikey": "VYZAHLCBVHPDDF-UHFFFAOYSA-N",
-    "chebi:smiles": "[O-][N+](=O)c1ccc(Cl)c(c1)[N+]([O-])=O",
-    "http://purl.uniprot.org/core/name": "1-chloro-2,4-dinitrobenzene",
-    "geneontology:hasDbXref": [
-        "PMID:29079364",
-        "PMID:1640019",
-        "PMID:25515858",
-        "PMID:15588915",
-        "PMID:6446435",
-        "PMID:18775882",
-        "PMID:1155304",
-        "Beilstein:613161",
-        "CAS:97-00-7",
-        "Gmelin:28481",
-        "KEGG:C14397",
-        "PMID:12176098",
-        "PMID:1447476",
-        "PMID:15009707",
-        "PMID:18316151",
-        "PMID:19171927",
-        "PMID:1982449",
-        "PMID:3180787",
-        "PMID:7059096",
-        "PMID:7179722",
-        "PMID:7994925",
-        "Reaxys:613161",
-        "Wikipedia:2,4-Dinitrochlorobenzene"
-    ],
-    "geneontology:hasId": "34718",
-    "geneontology:hasSynonym": [
+    "skos:altLabel": [
         "1,3-Dinitro-4-chlorobenzene",
         "1-Chloro-2,4-dinitrobenzene",
         "1-Chloro-2,4-dinitrobenzol",
@@ -57,25 +42,16 @@
         "DNCB",
         "DNPCl"
     ],
-    "geneontology:inSubset": {
-        "@id": "obo:chebi#3_STAR"
+    "skos:exactMatch": {
+        "@id": "obo:CHEBI_34718"
     },
-    "rdfs:label": "1-chloro-2,4-dinitrobenzene",
-    "rdfs:subClassOf": [
+    "skos:note": "A C-nitro compound that is chlorobenzene carrying a nitro substituent at each of the 2- and 4-positions.",
+    "skos:semanticRelation": [
         {
             "@id": "obo:CHEBI_35716"
         },
         {
             "@id": "obo:CHEBI_83403"
-        },
-        {
-            "@id": "b1029_genid-00f1db82e1ab437c844115a94dc63e635-bn34718t11f50904"
-        },
-        {
-            "@id": "b1029_genid-00f1db82e1ab437c844115a94dc63e635-bn34718t11f53000"
-        },
-        {
-            "@id": "b1029_genid-00f1db82e1ab437c844115a94dc63e635-bn34718t11f139492"
         }
     ]
 }

@@ -1,33 +1,39 @@
 {
     "@context": {
-        "chebi": "http://purl.obolibrary.org/obo/chebi/",
         "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
         "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-        "obo": "http://purl.obolibrary.org/obo/"
+        "obo": "http://purl.obolibrary.org/obo/",
+        "uniprot": "http://purl.uniprot.org/",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "concept": "https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/",
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "dbo": "http://dbpedia.org/ontology/",
+        "dbp": "http://dbpedia.org/property/",
+        "altLabel": {
+            "@id": "http://www.w3.org/2004/02/skos/core#altLabel",
+            "@language": "en"
+        },
+        "graph": {
+            "@id": "@graph"
+        }
     },
-    "@id": "obo:CHEBI_38531",
-    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "@id": "concept:IQVNEKKDSLOHHK-FNCQTZNRSA-N",
+    "@type": "skos:Concept",
+    "dbo:formula": "C25H24F6N4",
+    "dbo:inchi": "InChI=1S/C25H24F6N4/c1-23(2)15-32-22(33-16-23)35-34-21(13-7-17-3-9-19(10-4-17)24(26,27)28)14-8-18-5-11-20(12-6-18)25(29,30)31/h3-14H,15-16H2,1-2H3,(H2,32,33,35)/b13-7+,14-8+",
+    "dbo:smiles": "CC1(C)CNC(NC1)=NN=C(\\C=C\\c1ccc(cc1)C(F)(F)F)/C=C/c1ccc(cc1)C(F)(F)F",
+    "dbp:inchikey": "IQVNEKKDSLOHHK-FNCQTZNRSA-N",
     "chebi:charge": "0",
-    "chebi:formula": "C25H24F6N4",
-    "chebi:inchi": "InChI=1S/C25H24F6N4/c1-23(2)15-32-22(33-16-23)35-34-21(13-7-17-3-9-19(10-4-17)24(26,27)28)14-8-18-5-11-20(12-6-18)25(29,30)31/h3-14H,15-16H2,1-2H3,(H2,32,33,35)/b13-7+,14-8+",
-    "chebi:inchikey": "IQVNEKKDSLOHHK-FNCQTZNRSA-N",
-    "chebi:smiles": "CC1(C)CNC(NC1)=NN=C(\\C=C\\c1ccc(cc1)C(F)(F)F)/C=C/c1ccc(cc1)C(F)(F)F",
-    "geneontology:hasDbXref": [
-        "CAS:67485-29-4",
-        "KEGG:C10994",
-        "Beilstein:9095665"
-    ],
-    "geneontology:hasId": "38531",
-    "geneontology:hasSynonym": [
+    "skos:altLabel": [
         "(1E,4E)-1,5-bis[4-(trifluoromethyl)phenyl]-1,4-pentadien-3-one (5,5-dimethyltetrahydro-2(1H)-pyrimidinylidene)hydrazone",
         "5,5-dimethyltetrahydropyrimidin-2(1H)-one [(2E)-3-[4-(trifluoromethyl)phenyl]-1-{(E)-2-[4-(trifluoromethyl)phenyl]ethenyl}prop-2-en-1-ylidene]hydrazone",
         "Amdro"
     ],
-    "geneontology:inSubset": {
-        "@id": "obo:chebi#3_STAR"
+    "skos:exactMatch": {
+        "@id": "obo:CHEBI_38531"
     },
-    "rdfs:label": "(E,E)-hydramethylnon",
-    "rdfs:subClassOf": {
+    "skos:semanticRelation": {
         "@id": "obo:CHEBI_2630"
     }
 }

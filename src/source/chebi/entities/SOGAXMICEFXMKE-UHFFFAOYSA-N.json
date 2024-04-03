@@ -1,28 +1,35 @@
 {
     "@context": {
-        "chebi": "http://purl.obolibrary.org/obo/chebi/",
         "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
         "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-        "obo": "http://purl.obolibrary.org/obo/"
+        "obo": "http://purl.obolibrary.org/obo/",
+        "uniprot": "http://purl.uniprot.org/",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "concept": "https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/",
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "dbo": "http://dbpedia.org/ontology/",
+        "dbp": "http://dbpedia.org/property/",
+        "altLabel": {
+            "@id": "http://www.w3.org/2004/02/skos/core#altLabel",
+            "@language": "en"
+        },
+        "graph": {
+            "@id": "@graph"
+        }
     },
-    "@id": "obo:CHEBI_180322",
-    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "@id": "concept:SOGAXMICEFXMKE-UHFFFAOYSA-N",
+    "@type": "skos:Concept",
+    "dbo:formula": "C8H14O2",
+    "dbo:inchi": "InChI=1S/C8H14O2/c1-4-5-6-10-8(9)7(2)3/h2,4-6H2,1,3H3",
+    "dbo:smiles": "O(CCCC)C(=O)C(C)=C",
+    "dbp:inchikey": "SOGAXMICEFXMKE-UHFFFAOYSA-N",
     "chebi:charge": "0",
-    "chebi:formula": "C8H14O2",
-    "chebi:inchi": "InChI=1S/C8H14O2/c1-4-5-6-10-8(9)7(2)3/h2,4-6H2,1,3H3",
-    "chebi:inchikey": "SOGAXMICEFXMKE-UHFFFAOYSA-N",
-    "chebi:smiles": "O(CCCC)C(=O)C(C)=C",
-    "geneontology:hasDbXref": [
-        "CAS:97-88-1",
-        "Chemspider:7076"
-    ],
-    "geneontology:hasId": "180322",
-    "geneontology:hasSynonym": "butyl 2-methylprop-2-enoate",
-    "geneontology:inSubset": {
-        "@id": "obo:chebi#2_STAR"
+    "skos:altLabel": "butyl 2-methylprop-2-enoate",
+    "skos:exactMatch": {
+        "@id": "obo:CHEBI_180322"
     },
-    "rdfs:label": "Butylmethacrylate",
-    "rdfs:subClassOf": {
+    "skos:semanticRelation": {
         "@id": "obo:CHEBI_51702"
     }
 }

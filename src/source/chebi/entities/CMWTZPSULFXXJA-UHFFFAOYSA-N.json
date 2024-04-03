@@ -1,24 +1,17 @@
 {
     "@context": {
-        "chebi": "http://purl.obolibrary.org/obo/chebi/",
         "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
         "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-        "obo": "http://purl.obolibrary.org/obo/"
-    },
-    "@id": "obo:CHEBI_91939",
-    "@type": "http://www.w3.org/2002/07/owl#Class",
-    "chebi:charge": "0",
-    "chebi:formula": "C14H14O3",
-    "chebi:inchi": "InChI=1S/C14H14O3/c1-9(14(15)16)10-3-4-12-8-13(17-2)6-5-11(12)7-10/h3-9H,1-2H3,(H,15,16)",
-    "chebi:inchikey": "CMWTZPSULFXXJA-UHFFFAOYSA-N",
-    "chebi:smiles": "CC(C1=CC2=C(C=C1)C=C(C=C2)OC)C(=O)O",
-    "geneontology:hasDbXref": "LINCS:LSM-1880",
-    "geneontology:hasId": "91939",
-    "geneontology:inSubset": {
-        "@id": "obo:chebi#2_STAR"
-    },
-    "rdfs:label": "2-(6-methoxy-2-naphthalenyl)propanoic acid",
-    "rdfs:subClassOf": {
-        "@id": "obo:CHEBI_25477"
+        "obo": "http://purl.obolibrary.org/obo/",
+        "uniprot": "http://purl.uniprot.org/",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "concept": "https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/",
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "dbo": "http://dbpedia.org/ontology/",
+        "dbp": "http://dbpedia.org/property/",
+        "graph": {
+            "@id": "@graph"
+        }
     }
 }

@@ -1,65 +1,54 @@
 {
     "@context": {
-        "chebi": "http://purl.obolibrary.org/obo/chebi/",
         "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
         "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-        "obo": "http://purl.obolibrary.org/obo/"
+        "obo": "http://purl.obolibrary.org/obo/",
+        "uniprot": "http://purl.uniprot.org/",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "concept": "https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/",
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "dbo": "http://dbpedia.org/ontology/",
+        "dbp": "http://dbpedia.org/property/",
+        "altLabel": {
+            "@id": "http://www.w3.org/2004/02/skos/core#altLabel",
+            "@language": "en"
+        },
+        "graph": {
+            "@id": "@graph"
+        }
     },
-    "@graph": [
+    "@id": "concept:RYXHOMYVWAEKHL-UHFFFAOYSA-N",
+    "@type": "skos:Concept",
+    "dbo:formula": "At",
+    "dbo:inchi": "InChI=1S/At",
+    "dbo:smiles": "[At]",
+    "dbp:inchikey": "RYXHOMYVWAEKHL-UHFFFAOYSA-N",
+    "chebi:charge": "0",
+    "skos:altLabel": [
+        "At",
+        "85At",
+        "Astat",
+        "astate",
+        "astatine",
+        "astato",
+        "At(.)",
+        "monoastatine"
+    ],
+    "skos:exactMatch": [
         {
-            "@id": "obo:CHEBI_30415",
-            "@type": "http://www.w3.org/2002/07/owl#Class",
-            "chebi:charge": "0",
-            "chebi:formula": "At",
-            "chebi:inchi": "InChI=1S/At",
-            "chebi:inchikey": "RYXHOMYVWAEKHL-UHFFFAOYSA-N",
-            "chebi:smiles": "[At]",
-            "geneontology:hasDbXref": [
-                "CAS:7440-68-8",
-                "Gmelin:40440",
-                "WebElements:At"
-            ],
-            "geneontology:hasId": "30415",
-            "geneontology:hasSynonym": [
-                "At",
-                "85At",
-                "Astat",
-                "astate",
-                "astatine",
-                "astato"
-            ],
-            "geneontology:inSubset": {
-                "@id": "obo:chebi#3_STAR"
-            },
-            "rdfs:label": "astatine atom",
-            "rdfs:subClassOf": {
-                "@id": "obo:CHEBI_24473"
-            }
+            "@id": "obo:CHEBI_30415"
         },
         {
-            "@id": "obo:CHEBI_30416",
-            "@type": "http://www.w3.org/2002/07/owl#Class",
-            "chebi:charge": "0",
-            "chebi:formula": "At",
-            "chebi:inchi": "InChI=1S/At",
-            "chebi:inchikey": "RYXHOMYVWAEKHL-UHFFFAOYSA-N",
-            "chebi:smiles": "[At]",
-            "geneontology:hasDbXref": [
-                "CAS:7440-68-8",
-                "Gmelin:40440"
-            ],
-            "geneontology:hasId": "30416",
-            "geneontology:hasSynonym": [
-                "At(.)",
-                "monoastatine"
-            ],
-            "geneontology:inSubset": {
-                "@id": "obo:chebi#3_STAR"
-            },
-            "rdfs:label": "astatine(.)",
-            "rdfs:subClassOf": {
-                "@id": "obo:CHEBI_37139"
-            }
+            "@id": "obo:CHEBI_30416"
+        }
+    ],
+    "skos:semanticRelation": [
+        {
+            "@id": "obo:CHEBI_24473"
+        },
+        {
+            "@id": "obo:CHEBI_37139"
         }
     ]
 }

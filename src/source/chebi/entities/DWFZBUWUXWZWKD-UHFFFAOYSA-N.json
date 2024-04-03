@@ -1,34 +1,35 @@
 {
     "@context": {
-        "chebi": "http://purl.obolibrary.org/obo/chebi/",
         "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
         "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-        "obo": "http://purl.obolibrary.org/obo/"
+        "obo": "http://purl.obolibrary.org/obo/",
+        "uniprot": "http://purl.uniprot.org/",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "concept": "https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/",
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "dbo": "http://dbpedia.org/ontology/",
+        "dbp": "http://dbpedia.org/property/",
+        "graph": {
+            "@id": "@graph"
+        }
     },
-    "@id": "obo:CHEBI_38626",
-    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "@id": "concept:DWFZBUWUXWZWKD-UHFFFAOYSA-N",
+    "@type": "skos:Concept",
+    "dbo:formula": "C19H25ClN2OS",
+    "dbo:inchi": "InChI=1S/C19H25ClN2OS/c1-18(2,3)14-9-7-13(8-10-14)12-24-15-11-21-22(19(4,5)6)17(23)16(15)20/h7-11H,12H2,1-6H3",
+    "dbo:smiles": "CC(C)(C)c1ccc(CSc2cnn(c(=O)c2Cl)C(C)(C)C)cc1",
+    "dbp:inchikey": "DWFZBUWUXWZWKD-UHFFFAOYSA-N",
     "chebi:charge": "0",
-    "chebi:formula": "C19H25ClN2OS",
-    "chebi:inchi": "InChI=1S/C19H25ClN2OS/c1-18(2,3)14-9-7-13(8-10-14)12-24-15-11-21-22(19(4,5)6)17(23)16(15)20/h7-11H,12H2,1-6H3",
-    "chebi:inchikey": "DWFZBUWUXWZWKD-UHFFFAOYSA-N",
-    "chebi:smiles": "CC(C)(C)c1ccc(CSc2cnn(c(=O)c2Cl)C(C)(C)C)cc1",
-    "geneontology:hasDbXref": [
-        "Beilstein:7933972",
-        "CAS:96489-71-3",
-        "KEGG:C18614",
-        "PPDB:569"
-    ],
-    "geneontology:hasId": "38626",
-    "geneontology:hasSynonym": [
+    "skos:altLabel": [
         "2-tert-butyl-5-[(4-tert-butylbenzyl)thio]-4-chloropyridazin-3(2H)-one",
         "4-chloro-2-(1,1-dimethylethyl)-5-(((4-(1,1-dimethylethyl)phenyl)methyl)thio)-3(2H)-pyridazinone",
         "Sanmite"
     ],
-    "geneontology:inSubset": {
-        "@id": "obo:chebi#3_STAR"
+    "skos:exactMatch": {
+        "@id": "obo:CHEBI_38626"
     },
-    "rdfs:label": "pyridaben",
-    "rdfs:subClassOf": [
+    "skos:semanticRelation": [
         {
             "@id": "obo:CHEBI_25705"
         },
@@ -37,9 +38,6 @@
         },
         {
             "@id": "obo:CHEBI_26414"
-        },
-        {
-            "@id": "b546_genid-00f1db82e1ab437c844115a94dc63e635-bn38626t11f38498"
         }
     ]
 }

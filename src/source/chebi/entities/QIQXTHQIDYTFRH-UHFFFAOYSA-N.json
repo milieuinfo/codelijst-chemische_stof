@@ -1,45 +1,31 @@
 {
     "@context": {
-        "chebi": "http://purl.obolibrary.org/obo/chebi/",
         "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
         "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-        "obo": "http://purl.obolibrary.org/obo/"
+        "obo": "http://purl.obolibrary.org/obo/",
+        "uniprot": "http://purl.uniprot.org/",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "concept": "https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/",
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "dbo": "http://dbpedia.org/ontology/",
+        "dbp": "http://dbpedia.org/property/",
+        "altLabel": {
+            "@id": "http://www.w3.org/2004/02/skos/core#altLabel",
+            "@language": "en"
+        },
+        "graph": {
+            "@id": "@graph"
+        }
     },
-    "@id": "obo:CHEBI_28842",
-    "@type": "http://www.w3.org/2002/07/owl#Class",
-    "obo:IAO_0000115": "A C18 straight-chain saturated fatty acid component of many animal and vegetable lipids. As well as in the diet, it is used in hardening soaps, softening plastics and in making cosmetics, candles and  plastics.",
+    "@id": "concept:QIQXTHQIDYTFRH-UHFFFAOYSA-N",
+    "@type": "skos:Concept",
+    "dbo:formula": "C18H36O2",
+    "dbo:inchi": "InChI=1S/C18H36O2/c1-2-3-4-5-6-7-8-9-10-11-12-13-14-15-16-17-18(19)20/h2-17H2,1H3,(H,19,20)",
+    "dbo:smiles": "C(CCCCCCCCCC)CCCCCCC(=O)O",
+    "dbp:inchikey": "QIQXTHQIDYTFRH-UHFFFAOYSA-N",
     "chebi:charge": "0",
-    "chebi:formula": "C18H36O2",
-    "chebi:inchi": "InChI=1S/C18H36O2/c1-2-3-4-5-6-7-8-9-10-11-12-13-14-15-16-17-18(19)20/h2-17H2,1H3,(H,19,20)",
-    "chebi:inchikey": "QIQXTHQIDYTFRH-UHFFFAOYSA-N",
-    "chebi:smiles": "C(CCCCCCCCCC)CCCCCCC(=O)O",
-    "geneontology:hasDbXref": [
-        "PMID:17439666",
-        "PMID:22735334",
-        "PMID:26884207",
-        "KEGG:C01530",
-        "MetaCyc:STEARIC_ACID",
-        "Beilstein:608585",
-        "CAS:57-11-4",
-        "Drug_Central:4611",
-        "DrugBank:DB03193",
-        "Gmelin:11738",
-        "HMDB:HMDB0000827",
-        "KEGG:D00119",
-        "KNApSAcK:C00001238",
-        "LIPID_MAPS_instance:LMFA01010018",
-        "PDBeChem:STE",
-        "PMID:11425337",
-        "PMID:16448636",
-        "PMID:18982377",
-        "PMID:19468063",
-        "PMID:19838949",
-        "PMID:7763343",
-        "Reaxys:608585",
-        "Wikipedia:Stearic_acid"
-    ],
-    "geneontology:hasId": "28842",
-    "geneontology:hasSynonym": [
+    "skos:altLabel": [
         "18:0",
         "acide octadecanoique",
         "acide stearique",
@@ -54,11 +40,11 @@
         "STEARIC ACID",
         "Stearinsaeure"
     ],
-    "geneontology:inSubset": {
-        "@id": "obo:chebi#3_STAR"
+    "skos:exactMatch": {
+        "@id": "obo:CHEBI_28842"
     },
-    "rdfs:label": "octadecanoic acid",
-    "rdfs:subClassOf": [
+    "skos:note": "A C18 straight-chain saturated fatty acid component of many animal and vegetable lipids. As well as in the diet, it is used in hardening soaps, softening plastics and in making cosmetics, candles and  plastics.",
+    "skos:semanticRelation": [
         {
             "@id": "obo:CHEBI_15904"
         },
@@ -67,27 +53,6 @@
         },
         {
             "@id": "obo:CHEBI_39418"
-        },
-        {
-            "@id": "b308_genid-00f1db82e1ab437c844115a94dc63e635-bn28842tmms73f25629"
-        },
-        {
-            "@id": "b308_genid-00f1db82e1ab437c844115a94dc63e635-bn28842t4f25629"
-        },
-        {
-            "@id": "b308_genid-00f1db82e1ab437c844115a94dc63e635-bn28842t9f32926"
-        },
-        {
-            "@id": "b308_genid-00f1db82e1ab437c844115a94dc63e635-bn28842t11f76924"
-        },
-        {
-            "@id": "b308_genid-00f1db82e1ab437c844115a94dc63e635-bn28842t11f77746"
-        },
-        {
-            "@id": "b308_genid-00f1db82e1ab437c844115a94dc63e635-bn28842t11f83056"
-        },
-        {
-            "@id": "b308_genid-00f1db82e1ab437c844115a94dc63e635-bn28842t11f84735"
         }
     ]
 }

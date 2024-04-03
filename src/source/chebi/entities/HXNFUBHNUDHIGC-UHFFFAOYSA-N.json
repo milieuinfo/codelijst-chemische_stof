@@ -1,53 +1,42 @@
 {
     "@context": {
-        "chebi": "http://purl.obolibrary.org/obo/chebi/",
         "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
         "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-        "obo": "http://purl.obolibrary.org/obo/"
+        "obo": "http://purl.obolibrary.org/obo/",
+        "uniprot": "http://purl.uniprot.org/",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "concept": "https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/",
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "dbo": "http://dbpedia.org/ontology/",
+        "dbp": "http://dbpedia.org/property/",
+        "altLabel": {
+            "@id": "http://www.w3.org/2004/02/skos/core#altLabel",
+            "@language": "en"
+        },
+        "graph": {
+            "@id": "@graph"
+        }
     },
-    "@id": "obo:CHEBI_28315",
-    "@type": "http://www.w3.org/2002/07/owl#Class",
-    "obo:IAO_0000115": "A  pyrazolopyrimidine that is 4,5,6,7-tetrahydro-H-pyrazolo[3,4-d]pyrimidine substituted by oxo groups at positions 4 and 6.",
+    "@id": "concept:HXNFUBHNUDHIGC-UHFFFAOYSA-N",
+    "@type": "skos:Concept",
+    "dbo:formula": "C5H4N4O2",
+    "dbo:inchi": "InChI=1S/C5H4N4O2/c10-4-2-1-6-9-3(2)7-5(11)8-4/h1H,(H3,6,7,8,9,10,11)",
+    "dbo:smiles": "O=c1[nH]c2[nH]ncc2c(=O)[nH]1",
+    "dbp:inchikey": "HXNFUBHNUDHIGC-UHFFFAOYSA-N",
     "chebi:charge": "0",
-    "chebi:formula": "C5H4N4O2",
-    "chebi:inchi": "InChI=1S/C5H4N4O2/c10-4-2-1-6-9-3(2)7-5(11)8-4/h1H,(H3,6,7,8,9,10,11)",
-    "chebi:inchikey": "HXNFUBHNUDHIGC-UHFFFAOYSA-N",
-    "chebi:smiles": "O=c1[nH]c2[nH]ncc2c(=O)[nH]1",
-    "geneontology:hasDbXref": [
-        "Beilstein:139956",
-        "BPDB:2154",
-        "CAS:2465-59-0",
-        "HMDB:HMDB0000786",
-        "KEGG:C07599",
-        "KEGG:D02365",
-        "PMID:18484017",
-        "PMID:23751350",
-        "PMID:24184830",
-        "PMID:24591375",
-        "Reaxys:139956",
-        "Wikipedia:Oxypurinol"
-    ],
-    "geneontology:hasId": "28315",
-    "geneontology:hasSynonym": [
+    "skos:altLabel": [
         "1H-pyrazolo[3,4-d]pyrimidine-4,6(5H,7H)-dione",
         "Alloxanthine",
         "Oxipurinol",
         "Oxoallopurinol",
         "Oxypurinol"
     ],
-    "geneontology:inSubset": {
-        "@id": "obo:chebi#3_STAR"
+    "skos:exactMatch": {
+        "@id": "obo:CHEBI_28315"
     },
-    "rdfs:label": "alloxanthine",
-    "rdfs:subClassOf": [
-        {
-            "@id": "obo:CHEBI_38669"
-        },
-        {
-            "@id": "b48_genid-00f1db82e1ab437c844115a94dc63e635-bn28315t11f35634"
-        },
-        {
-            "@id": "b48_genid-00f1db82e1ab437c844115a94dc63e635-bn28315t11f49103"
-        }
-    ]
+    "skos:note": "A  pyrazolopyrimidine that is 4,5,6,7-tetrahydro-H-pyrazolo[3,4-d]pyrimidine substituted by oxo groups at positions 4 and 6.",
+    "skos:semanticRelation": {
+        "@id": "obo:CHEBI_38669"
+    }
 }

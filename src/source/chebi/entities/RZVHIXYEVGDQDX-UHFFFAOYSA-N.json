@@ -1,33 +1,31 @@
 {
     "@context": {
-        "chebi": "http://purl.obolibrary.org/obo/chebi/",
         "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
         "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-        "obo": "http://purl.obolibrary.org/obo/"
+        "obo": "http://purl.obolibrary.org/obo/",
+        "uniprot": "http://purl.uniprot.org/",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "concept": "https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/",
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "dbo": "http://dbpedia.org/ontology/",
+        "dbp": "http://dbpedia.org/property/",
+        "altLabel": {
+            "@id": "http://www.w3.org/2004/02/skos/core#altLabel",
+            "@language": "en"
+        },
+        "graph": {
+            "@id": "@graph"
+        }
     },
-    "@id": "obo:CHEBI_40448",
-    "@type": "http://www.w3.org/2002/07/owl#Class",
-    "obo:IAO_0000115": "An anthraquinone that is anthracene in which positions 9 and 10 have been oxidised to carbonyls.",
+    "@id": "concept:RZVHIXYEVGDQDX-UHFFFAOYSA-N",
+    "@type": "skos:Concept",
+    "dbo:formula": "C14H8O2",
+    "dbo:inchi": "InChI=1S/C14H8O2/c15-13-9-5-1-2-6-10(9)14(16)12-8-4-3-7-11(12)13/h1-8H",
+    "dbo:smiles": "O=C1c2ccccc2C(=O)c2ccccc12",
+    "dbp:inchikey": "RZVHIXYEVGDQDX-UHFFFAOYSA-N",
     "chebi:charge": "0",
-    "chebi:formula": "C14H8O2",
-    "chebi:inchi": "InChI=1S/C14H8O2/c15-13-9-5-1-2-6-10(9)14(16)12-8-4-3-7-11(12)13/h1-8H",
-    "chebi:inchikey": "RZVHIXYEVGDQDX-UHFFFAOYSA-N",
-    "chebi:smiles": "O=C1c2ccccc2C(=O)c2ccccc12",
-    "geneontology:hasDbXref": [
-        "PMID:14500876",
-        "Beilstein:390030",
-        "CAS:84-65-1",
-        "Gmelin:102870",
-        "KEGG:C16207",
-        "LINCS:LSM-19969",
-        "MetaCyc:CPD-10180",
-        "PDBeChem:9TA",
-        "PPDB:41",
-        "Reaxys:390030",
-        "Wikipedia:Anthraquinone"
-    ],
-    "geneontology:hasId": "40448",
-    "geneontology:hasSynonym": [
+    "skos:altLabel": [
         "anthraquinone",
         "9,10-Anthracendion",
         "9,10-anthracenedione",
@@ -41,11 +39,11 @@
         "anthradione",
         "Az-Q"
     ],
-    "geneontology:inSubset": {
-        "@id": "obo:chebi#3_STAR"
+    "skos:exactMatch": {
+        "@id": "obo:CHEBI_40448"
     },
-    "rdfs:label": "9,10-anthraquinone",
-    "rdfs:subClassOf": {
+    "skos:note": "An anthraquinone that is anthracene in which positions 9 and 10 have been oxidised to carbonyls.",
+    "skos:semanticRelation": {
         "@id": "obo:CHEBI_22580"
     }
 }

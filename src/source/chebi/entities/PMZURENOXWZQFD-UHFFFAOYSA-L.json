@@ -1,37 +1,21 @@
 {
     "@context": {
-        "chebi": "http://purl.obolibrary.org/obo/chebi/",
         "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
         "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-        "obo": "http://purl.obolibrary.org/obo/"
-    },
-    "@id": "obo:CHEBI_32149",
-    "@type": "http://www.w3.org/2002/07/owl#Class",
-    "chebi:charge": "0",
-    "chebi:inchi": "InChI=1S/2Na.H2O4S/c;;1-5(2,3)4/h;;(H2,1,2,3,4)/q2*+1;/p-2",
-    "chebi:inchikey": "PMZURENOXWZQFD-UHFFFAOYSA-L",
-    "chebi:smiles": "[Na+].[Na+].[O-]S([O-])(=O)=O",
-    "geneontology:hasDbXref": [
-        "CAS:7757-82-6",
-        "KEGG:C13199",
-        "KEGG:D01732"
-    ],
-    "geneontology:hasId": "32149",
-    "geneontology:hasSynonym": [
-        "disodium sulfate",
-        "disodium sulphate",
-        "Na2SO4",
-        "Natriumsulfat",
-        "salt cake",
-        "Sodium sulfate",
-        "sodium sulfate, anhydrous",
-        "sodium sulphate"
-    ],
-    "geneontology:inSubset": {
-        "@id": "obo:chebi#3_STAR"
-    },
-    "rdfs:label": "sodium sulfate",
-    "rdfs:subClassOf": {
-        "@id": "obo:CHEBI_38702"
+        "obo": "http://purl.obolibrary.org/obo/",
+        "uniprot": "http://purl.uniprot.org/",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "concept": "https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/",
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "dbo": "http://dbpedia.org/ontology/",
+        "dbp": "http://dbpedia.org/property/",
+        "altLabel": {
+            "@id": "http://www.w3.org/2004/02/skos/core#altLabel",
+            "@language": "en"
+        },
+        "graph": {
+            "@id": "@graph"
+        }
     }
 }

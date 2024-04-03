@@ -1,32 +1,31 @@
 {
     "@context": {
-        "chebi": "http://purl.obolibrary.org/obo/chebi/",
         "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
         "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-        "obo": "http://purl.obolibrary.org/obo/"
+        "obo": "http://purl.obolibrary.org/obo/",
+        "uniprot": "http://purl.uniprot.org/",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "concept": "https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/",
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "dbo": "http://dbpedia.org/ontology/",
+        "dbp": "http://dbpedia.org/property/",
+        "altLabel": {
+            "@id": "http://www.w3.org/2004/02/skos/core#altLabel",
+            "@language": "en"
+        },
+        "graph": {
+            "@id": "@graph"
+        }
     },
-    "@id": "obo:CHEBI_7789",
-    "@type": "http://www.w3.org/2002/07/owl#Class",
-    "obo:IAO_0000115": "A tertiary amino compound which is the phenyl-o-tolylmethyl ether of 2-(dimethylamino)ethanol.",
+    "@id": "concept:QVYRGXJJSLMXQH-UHFFFAOYSA-N",
+    "@type": "skos:Concept",
+    "dbo:formula": "C18H23NO",
+    "dbo:inchi": "InChI=1S/C18H23NO/c1-15-9-7-8-12-17(15)18(20-14-13-19(2)3)16-10-5-4-6-11-16/h4-12,18H,13-14H2,1-3H3",
+    "dbo:smiles": "CN(C)CCOC(c1ccccc1)c1ccccc1C",
+    "dbp:inchikey": "QVYRGXJJSLMXQH-UHFFFAOYSA-N",
     "chebi:charge": "0",
-    "chebi:formula": "C18H23NO",
-    "chebi:inchi": "InChI=1S/C18H23NO/c1-15-9-7-8-12-17(15)18(20-14-13-19(2)3)16-10-5-4-6-11-16/h4-12,18H,13-14H2,1-3H3",
-    "chebi:inchikey": "QVYRGXJJSLMXQH-UHFFFAOYSA-N",
-    "chebi:smiles": "CN(C)CCOC(c1ccccc1)c1ccccc1C",
-    "geneontology:hasDbXref": [
-        "CAS:83-98-7",
-        "Drug_Central:1999",
-        "DrugBank:DB01173",
-        "KEGG:C07935",
-        "KEGG:D08305",
-        "LINCS:LSM-1630",
-        "Patent:US2567351",
-        "Patent:US2991225",
-        "Reaxys:1885151",
-        "Wikipedia:Orphenadrine"
-    ],
-    "geneontology:hasId": "7789",
-    "geneontology:hasSynonym": [
+    "skos:altLabel": [
         "2-(phenyl-o-tolylmethoxy)ethyldimethylamine",
         "2-methyldiphenhydramine",
         "beta-dimethylaminoethyl 2-methylbenzhydryl ether",
@@ -43,37 +42,16 @@
         "orphenadrinum",
         "phenyl-o-tolylmethyl dimethyaminoethyl ether"
     ],
-    "geneontology:inSubset": {
-        "@id": "obo:chebi#3_STAR"
+    "skos:exactMatch": {
+        "@id": "obo:CHEBI_7789"
     },
-    "rdfs:label": "orphenadrine",
-    "rdfs:subClassOf": [
+    "skos:note": "A tertiary amino compound which is the phenyl-o-tolylmethyl ether of 2-(dimethylamino)ethanol.",
+    "skos:semanticRelation": [
         {
             "@id": "obo:CHEBI_25698"
         },
         {
             "@id": "obo:CHEBI_50996"
-        },
-        {
-            "@id": "b365_genid-00f1db82e1ab437c844115a94dc63e635-bn7789t11f37955"
-        },
-        {
-            "@id": "b365_genid-00f1db82e1ab437c844115a94dc63e635-bn7789t11f48407"
-        },
-        {
-            "@id": "b365_genid-00f1db82e1ab437c844115a94dc63e635-bn7789t11f48876"
-        },
-        {
-            "@id": "b365_genid-00f1db82e1ab437c844115a94dc63e635-bn7789t11f50370"
-        },
-        {
-            "@id": "b365_genid-00f1db82e1ab437c844115a94dc63e635-bn7789t11f51371"
-        },
-        {
-            "@id": "b365_genid-00f1db82e1ab437c844115a94dc63e635-bn7789t11f60643"
-        },
-        {
-            "@id": "b365_genid-00f1db82e1ab437c844115a94dc63e635-bn7789t11f66956"
         }
     ]
 }

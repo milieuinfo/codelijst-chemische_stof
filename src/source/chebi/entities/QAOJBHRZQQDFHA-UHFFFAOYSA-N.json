@@ -1,58 +1,44 @@
 {
     "@context": {
-        "chebi": "http://purl.obolibrary.org/obo/chebi/",
         "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
         "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-        "obo": "http://purl.obolibrary.org/obo/"
+        "obo": "http://purl.obolibrary.org/obo/",
+        "uniprot": "http://purl.uniprot.org/",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "concept": "https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/",
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "dbo": "http://dbpedia.org/ontology/",
+        "dbp": "http://dbpedia.org/property/",
+        "altLabel": {
+            "@id": "http://www.w3.org/2004/02/skos/core#altLabel",
+            "@language": "en"
+        },
+        "graph": {
+            "@id": "@graph"
+        }
     },
-    "@id": "obo:CHEBI_166845",
-    "@type": "http://www.w3.org/2002/07/owl#Class",
-    "obo:IAO_0000115": "A chlorobenzoic acid that is benzoic acid in which the ring hydrogens at positions 2 and 3 are substituted by chloro groups.",
+    "@id": "concept:QAOJBHRZQQDFHA-UHFFFAOYSA-N",
+    "@type": "skos:Concept",
+    "dbo:formula": "C7H4Cl2O2",
+    "dbo:inchi": "InChI=1S/C7H4Cl2O2/c8-5-3-1-2-4(6(5)9)7(10)11/h1-3H,(H,10,11)",
+    "dbo:smiles": "OC(=O)C1=C(Cl)C(Cl)=CC=C1",
+    "dbp:inchikey": "QAOJBHRZQQDFHA-UHFFFAOYSA-N",
     "chebi:charge": "0",
-    "chebi:formula": "C7H4Cl2O2",
-    "chebi:inchi": "InChI=1S/C7H4Cl2O2/c8-5-3-1-2-4(6(5)9)7(10)11/h1-3H,(H,10,11)",
-    "chebi:inchikey": "QAOJBHRZQQDFHA-UHFFFAOYSA-N",
-    "chebi:smiles": "OC(=O)C1=C(Cl)C(Cl)=CC=C1",
-    "geneontology:hasDbXref": [
-        "AGR:IND22008468",
-        "CAS:50-45-3",
-        "PMID:16656441",
-        "PMID:17409544",
-        "PMID:22454391",
-        "PMID:24394535",
-        "PMID:3111366",
-        "Reaxys:1946217"
-    ],
-    "geneontology:hasId": "166845",
-    "geneontology:hasSynonym": [
+    "skos:altLabel": [
         "2,3-dichloro-benzoic acid",
         "benzoic acid, 2,3-dichloro-"
     ],
-    "geneontology:inSubset": {
-        "@id": "obo:chebi#3_STAR"
+    "skos:exactMatch": {
+        "@id": "obo:CHEBI_166845"
     },
-    "rdfs:label": "2,3-dichlorobenzoic acid",
-    "rdfs:subClassOf": [
+    "skos:note": "A chlorobenzoic acid that is benzoic acid in which the ring hydrogens at positions 2 and 3 are substituted by chloro groups.",
+    "skos:semanticRelation": [
         {
             "@id": "obo:CHEBI_23697"
         },
         {
             "@id": "obo:CHEBI_23134"
-        },
-        {
-            "@id": "b251_genid-00f1db82e1ab437c844115a94dc63e635-bn166845tmms73f166851"
-        },
-        {
-            "@id": "b251_genid-00f1db82e1ab437c844115a94dc63e635-bn166845t8f30746"
-        },
-        {
-            "@id": "b251_genid-00f1db82e1ab437c844115a94dc63e635-bn166845t11f76976"
-        },
-        {
-            "@id": "b251_genid-00f1db82e1ab437c844115a94dc63e635-bn166845t11f143130"
-        },
-        {
-            "@id": "b251_genid-00f1db82e1ab437c844115a94dc63e635-bn166845t4f166851"
         }
     ]
 }

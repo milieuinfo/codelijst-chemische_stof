@@ -1,80 +1,31 @@
 {
     "@context": {
-        "chebi": "http://purl.obolibrary.org/obo/chebi/",
         "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
         "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-        "obo": "http://purl.obolibrary.org/obo/"
+        "obo": "http://purl.obolibrary.org/obo/",
+        "uniprot": "http://purl.uniprot.org/",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "concept": "https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/",
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "dbo": "http://dbpedia.org/ontology/",
+        "dbp": "http://dbpedia.org/property/",
+        "altLabel": {
+            "@id": "http://www.w3.org/2004/02/skos/core#altLabel",
+            "@language": "en"
+        },
+        "graph": {
+            "@id": "@graph"
+        }
     },
-    "@id": "obo:CHEBI_16240",
-    "@type": "http://www.w3.org/2002/07/owl#Class",
-    "obo:IAO_0000115": "An inorganic peroxide consisting of two hydroxy groups joined by a covalent oxygen-oxygen single bond.",
+    "@id": "concept:MHAJPDPJQMAIIY-UHFFFAOYSA-N",
+    "@type": "skos:Concept",
+    "dbo:formula": "H2O2",
+    "dbo:inchi": "InChI=1S/H2O2/c1-2/h1-2H",
+    "dbo:smiles": "[H]OO[H]",
+    "dbp:inchikey": "MHAJPDPJQMAIIY-UHFFFAOYSA-N",
     "chebi:charge": "0",
-    "chebi:formula": "H2O2",
-    "chebi:inchi": "InChI=1S/H2O2/c1-2/h1-2H",
-    "chebi:inchikey": "MHAJPDPJQMAIIY-UHFFFAOYSA-N",
-    "chebi:smiles": "[H]OO[H]",
-    "http://purl.uniprot.org/core/name": "H2O2",
-    "geneontology:hasDbXref": [
-        "Beilstein:3587191",
-        "CAS:7722-84-1",
-        "Drug_Central:3281",
-        "Gmelin:509",
-        "HMDB:HMDB0003125",
-        "KEGG:C00027",
-        "KEGG:D00008",
-        "MetaCyc:HYDROGEN-PEROXIDE",
-        "MolBase:932",
-        "PDBeChem:PEO",
-        "PMID:10455187",
-        "PMID:10557015",
-        "PMID:10849784",
-        "PMID:11033421",
-        "PMID:11105916",
-        "PMID:11318558",
-        "PMID:11387393",
-        "PMID:11809417",
-        "PMID:11864786",
-        "PMID:11893576",
-        "PMID:12867293",
-        "PMID:12934880",
-        "PMID:14679422",
-        "PMID:15028418",
-        "PMID:15133946",
-        "PMID:15298493",
-        "PMID:16337875",
-        "PMID:16463018",
-        "PMID:16864869",
-        "PMID:17020896",
-        "PMID:17179007",
-        "PMID:17610934",
-        "PMID:17948137",
-        "PMID:18179203",
-        "PMID:18182702",
-        "PMID:18306736",
-        "PMID:18443210",
-        "PMID:18592736",
-        "PMID:19107210",
-        "PMID:19229032",
-        "PMID:19297450",
-        "PMID:19509065",
-        "PMID:26352695",
-        "PMID:26365231",
-        "PMID:7548021",
-        "PMID:7581816",
-        "PMID:8048546",
-        "PMID:8375042",
-        "PMID:8451754",
-        "PMID:9051670",
-        "PMID:9100841",
-        "PMID:9168257",
-        "PMID:9202721",
-        "PMID:9558114",
-        "PPDB:387",
-        "Reaxys:3587191",
-        "Wikipedia:Hydrogen_peroxide"
-    ],
-    "geneontology:hasId": "16240",
-    "geneontology:hasSynonym": [
+    "skos:altLabel": [
         "H2O2",
         "[OH(OH)]",
         "bis(hydridooxygen)(O--O)",
@@ -88,67 +39,16 @@
         "Oxydol",
         "perhydrol"
     ],
-    "geneontology:inSubset": {
-        "@id": "obo:chebi#3_STAR"
+    "skos:exactMatch": {
+        "@id": "obo:CHEBI_16240"
     },
-    "rdfs:label": "hydrogen peroxide",
-    "rdfs:subClassOf": [
-        {
-            "@id": "b666_genid-00f1db82e1ab437c844115a94dc63e635-bn16240t11f23357"
-        },
+    "skos:note": "An inorganic peroxide consisting of two hydroxy groups joined by a covalent oxygen-oxygen single bond.",
+    "skos:semanticRelation": [
         {
             "@id": "obo:CHEBI_24837"
         },
         {
             "@id": "obo:CHEBI_26523"
-        },
-        {
-            "@id": "b666_genid-00f1db82e1ab437c844115a94dc63e635-bn16240t4f29192"
-        },
-        {
-            "@id": "b666_genid-00f1db82e1ab437c844115a94dc63e635-bn16240t11f33281"
-        },
-        {
-            "@id": "b666_genid-00f1db82e1ab437c844115a94dc63e635-bn16240t11f48219"
-        },
-        {
-            "@id": "b666_genid-00f1db82e1ab437c844115a94dc63e635-bn16240t11f50902"
-        },
-        {
-            "@id": "b666_genid-00f1db82e1ab437c844115a94dc63e635-bn16240t11f50910"
-        },
-        {
-            "@id": "b666_genid-00f1db82e1ab437c844115a94dc63e635-bn16240t11f59163"
-        },
-        {
-            "@id": "b666_genid-00f1db82e1ab437c844115a94dc63e635-bn16240t11f63248"
-        },
-        {
-            "@id": "b666_genid-00f1db82e1ab437c844115a94dc63e635-bn16240t11f63490"
-        },
-        {
-            "@id": "b666_genid-00f1db82e1ab437c844115a94dc63e635-bn16240t11f65259"
-        },
-        {
-            "@id": "b666_genid-00f1db82e1ab437c844115a94dc63e635-bn16240t11f68495"
-        },
-        {
-            "@id": "b666_genid-00f1db82e1ab437c844115a94dc63e635-bn16240t11f75771"
-        },
-        {
-            "@id": "b666_genid-00f1db82e1ab437c844115a94dc63e635-bn16240t11f75772"
-        },
-        {
-            "@id": "b666_genid-00f1db82e1ab437c844115a94dc63e635-bn16240t11f76967"
-        },
-        {
-            "@id": "b666_genid-00f1db82e1ab437c844115a94dc63e635-bn16240t11f76971"
-        },
-        {
-            "@id": "b666_genid-00f1db82e1ab437c844115a94dc63e635-bn16240t11f132717"
-        },
-        {
-            "@id": "b666_genid-00f1db82e1ab437c844115a94dc63e635-bn16240t11f149552"
         }
     ]
 }

@@ -1,42 +1,36 @@
 {
     "@context": {
-        "chebi": "http://purl.obolibrary.org/obo/chebi/",
         "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
         "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-        "obo": "http://purl.obolibrary.org/obo/"
+        "obo": "http://purl.obolibrary.org/obo/",
+        "uniprot": "http://purl.uniprot.org/",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "concept": "https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/",
+        "chebi": "http://purl.obolibrary.org/obo/chebi/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "dbo": "http://dbpedia.org/ontology/",
+        "dbp": "http://dbpedia.org/property/",
+        "graph": {
+            "@id": "@graph"
+        }
     },
-    "@id": "obo:CHEBI_41070",
-    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "@id": "concept:FITZJYAVATZPMJ-UHFFFAOYSA-N",
+    "@type": "skos:Concept",
+    "dbo:formula": "C10H8O6S2",
+    "dbo:inchi": "InChI=1S/C10H8O6S2/c11-17(12,13)9-3-1-7-5-10(18(14,15)16)4-2-8(7)6-9/h1-6H,(H,11,12,13)(H,14,15,16)",
+    "dbo:smiles": "OS(=O)(=O)c1ccc2cc(ccc2c1)S(O)(=O)=O",
+    "dbp:inchikey": "FITZJYAVATZPMJ-UHFFFAOYSA-N",
     "chebi:charge": "0",
-    "chebi:formula": "C10H8O6S2",
-    "chebi:inchi": "InChI=1S/C10H8O6S2/c11-17(12,13)9-3-1-7-5-10(18(14,15)16)4-2-8(7)6-9/h1-6H,(H,11,12,13)(H,14,15,16)",
-    "chebi:inchikey": "FITZJYAVATZPMJ-UHFFFAOYSA-N",
-    "chebi:smiles": "OS(=O)(=O)c1ccc2cc(ccc2c1)S(O)(=O)=O",
-    "geneontology:hasDbXref": [
-        "Beilstein:2221088",
-        "CAS:581-75-9",
-        "DrugBank:DB04640",
-        "Gmelin:1831721",
-        "KEGG:C16194",
-        "PDBeChem:BIH"
-    ],
-    "geneontology:hasId": "41070",
-    "geneontology:hasSynonym": [
+    "skos:altLabel": [
         "2,6-naphthalenedisulfonic acid",
         "Ebert-Merz beta-acid",
         "NAPHTHALENE-2,6-DISULFONIC ACID",
         "naphthalene-2,6-disulphonic acid"
     ],
-    "geneontology:inSubset": {
-        "@id": "obo:chebi#3_STAR"
+    "skos:exactMatch": {
+        "@id": "obo:CHEBI_41070"
     },
-    "rdfs:label": "naphthalene-2,6-disulfonic acid",
-    "rdfs:subClassOf": [
-        {
-            "@id": "obo:CHEBI_36336"
-        },
-        {
-            "@id": "b611_genid-00f1db82e1ab437c844115a94dc63e635-bn41070tmms73f25475"
-        }
-    ]
+    "skos:semanticRelation": {
+        "@id": "obo:CHEBI_36336"
+    }
 }
