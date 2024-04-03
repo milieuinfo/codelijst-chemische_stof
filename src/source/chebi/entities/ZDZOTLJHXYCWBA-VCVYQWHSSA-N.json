@@ -1,31 +1,91 @@
 {
     "@context": {
-        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
-        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-        "obo": "http://purl.obolibrary.org/obo/",
-        "uniprot": "http://purl.uniprot.org/",
-        "owl": "http://www.w3.org/2002/07/owl#",
-        "concept": "https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/",
-        "chebi": "http://purl.obolibrary.org/obo/chebi/",
-        "skos": "http://www.w3.org/2004/02/skos/core#",
-        "dbo": "http://dbpedia.org/ontology/",
-        "dbp": "http://dbpedia.org/property/",
-        "altLabel": {
+        "smiles": {
+            "@id": "http://dbpedia.org/ontology/smiles"
+        },
+        "name": {
+            "@id": "http://www.w3.org/2004/02/skos/core#prefLabel",
+            "@language": "en"
+        },
+        "url": {
+            "@id": "http://www.w3.org/2000/01/rdf-schema#seeAlso",
+            "@type": "@id"
+        },
+        "inchikey": {
+            "@id": "http://dbpedia.org/property/inchikey"
+        },
+        "intermediate_nodes": {
+            "@id": "http://www.w3.org/2004/02/skos/core#broaderTransitive",
+            "@type": "@id"
+        },
+        "subclass": {
+            "@id": "http://www.w3.org/2004/02/skos/core#broaderTransitive",
+            "@type": "@id"
+        },
+        "kingdom": {
+            "@id": "http://www.w3.org/2004/02/skos/core#broaderTransitive",
+            "@type": "@id"
+        },
+        "class": {
+            "@id": "http://www.w3.org/2004/02/skos/core#broaderTransitive",
+            "@type": "@id"
+        },
+        "ancestors": {
+            "@id": "http://purl.org/dc/elements/1.1/relation",
+            "@language": "en"
+        },
+        "description": {
+            "@id": "http://www.w3.org/2004/02/skos/core#definition",
+            "@language": "en"
+        },
+        "direct_parent": {
+            "@id": "http://www.w3.org/2004/02/skos/core#broader",
+            "@type": "@id"
+        },
+        "alternative_parents": {
+            "@id": "http://www.w3.org/2004/02/skos/core#semanticRelation",
+            "@type": "@id"
+        },
+        "_id": {
+            "@id": "@id"
+        },
+        "chemont_id": {
+            "@id": "@id"
+        },
+        "altLabel_en": {
             "@id": "http://www.w3.org/2004/02/skos/core#altLabel",
+            "@language": "en"
+        },
+        "note_en": {
+            "@id": "http://www.w3.org/2004/02/skos/core#note",
             "@language": "en"
         },
         "graph": {
             "@id": "@graph"
-        }
+        },
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "obo": "http://purl.obolibrary.org/obo/",
+        "uniprot": "http://purl.uniprot.org/",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "CHEMONTID": "https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/",
+        "chebi": "http://purl.obolibrary.org/obo/",
+        "dbo": "http://dbpedia.org/ontology/",
+        "dbp": "http://dbpedia.org/property/",
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "tax_nodes": "http://classyfire.wishartlab.com/tax_nodes/",
+        "concept": "https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "@base": "https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/"
     },
-    "@id": "concept:ZDZOTLJHXYCWBA-VCVYQWHSSA-N",
+    "_id": "concept:ZDZOTLJHXYCWBA-VCVYQWHSSA-N",
     "@type": "skos:Concept",
     "dbo:formula": "C43H53NO14",
     "dbo:inchi": "InChI=1S/C43H53NO14/c1-22-26(55-37(51)32(48)30(24-15-11-9-12-16-24)44-38(52)58-39(3,4)5)20-43(53)35(56-36(50)25-17-13-10-14-18-25)33-41(8,34(49)31(47)29(22)40(43,6)7)27(46)19-28-42(33,21-54-28)57-23(2)45/h9-18,26-28,30-33,35,46-48,53H,19-21H2,1-8H3,(H,44,52)/t26-,27-,28+,30-,31+,32+,33-,35-,41+,42-,43+/m0/s1",
-    "dbo:smiles": "[H][C@@]1(C[C@@]2(O)[C@@H](OC(=O)c3ccccc3)[C@]3([H])[C@@]4(CO[C@@H]4C[C@H](O)[C@@]3(C)C(=O)[C@H](O)C(=C1C)C2(C)C)OC(C)=O)OC(=O)[C@H](O)[C@@H](NC(=O)OC(C)(C)C)c1ccccc1",
-    "dbp:inchikey": "ZDZOTLJHXYCWBA-VCVYQWHSSA-N",
-    "chebi:charge": "0",
-    "skos:altLabel": [
+    "smiles": "[H][C@@]1(C[C@@]2(O)[C@@H](OC(=O)c3ccccc3)[C@]3([H])[C@@]4(CO[C@@H]4C[C@H](O)[C@@]3(C)C(=O)[C@H](O)C(=C1C)C2(C)C)OC(C)=O)OC(=O)[C@H](O)[C@@H](NC(=O)OC(C)(C)C)c1ccccc1",
+    "inchikey": "ZDZOTLJHXYCWBA-VCVYQWHSSA-N",
+    "obo:chebi/charge": "0",
+    "altLabel_en": [
         "4-(acetyloxy)-13alpha-({(2R,3S)-3-[(tert-butoxycarbonyl)amino]-2-hydroxy-3-phenylpropanoyl}oxy)-1,7beta,10beta-trihydroxy-9-oxo-5beta,20-epoxytax-11-en-2alpha-yl benzoate",
         "Docetaxel",
         "Docetaxel anhydrous",
@@ -34,15 +94,11 @@
         "TXL"
     ],
     "skos:exactMatch": {
-        "@id": "obo:CHEBI_4672"
+        "_id": "obo:CHEBI_4672"
     },
-    "skos:note": "A tetracyclic diterpenoid that is paclitaxel with the N-benzyloxycarbonyl group replaced by N-tert-butoxycarbonyl, and the acetoxy group at position 10 replaced by a hydroxy group.",
-    "skos:semanticRelation": [
-        {
-            "@id": "obo:CHEBI_52557"
-        },
-        {
-            "@id": "obo:CHEBI_2468"
-        }
+    "note_en": "A tetracyclic diterpenoid that is paclitaxel with the N-benzyloxycarbonyl group replaced by N-tert-butoxycarbonyl, and the acetoxy group at position 10 replaced by a hydroxy group.",
+    "alternative_parents": [
+        "obo:CHEBI_52557",
+        "obo:CHEBI_2468"
     ]
 }

@@ -1,57 +1,105 @@
 {
     "@context": {
-        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
-        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-        "obo": "http://purl.obolibrary.org/obo/",
-        "uniprot": "http://purl.uniprot.org/",
-        "owl": "http://www.w3.org/2002/07/owl#",
-        "concept": "https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/",
-        "chebi": "http://purl.obolibrary.org/obo/chebi/",
-        "skos": "http://www.w3.org/2004/02/skos/core#",
-        "dbo": "http://dbpedia.org/ontology/",
-        "dbp": "http://dbpedia.org/property/",
-        "altLabel": {
+        "smiles": {
+            "@id": "http://dbpedia.org/ontology/smiles"
+        },
+        "name": {
+            "@id": "http://www.w3.org/2004/02/skos/core#prefLabel",
+            "@language": "en"
+        },
+        "url": {
+            "@id": "http://www.w3.org/2000/01/rdf-schema#seeAlso",
+            "@type": "@id"
+        },
+        "inchikey": {
+            "@id": "http://dbpedia.org/property/inchikey"
+        },
+        "intermediate_nodes": {
+            "@id": "http://www.w3.org/2004/02/skos/core#broaderTransitive",
+            "@type": "@id"
+        },
+        "subclass": {
+            "@id": "http://www.w3.org/2004/02/skos/core#broaderTransitive",
+            "@type": "@id"
+        },
+        "kingdom": {
+            "@id": "http://www.w3.org/2004/02/skos/core#broaderTransitive",
+            "@type": "@id"
+        },
+        "class": {
+            "@id": "http://www.w3.org/2004/02/skos/core#broaderTransitive",
+            "@type": "@id"
+        },
+        "ancestors": {
+            "@id": "http://purl.org/dc/elements/1.1/relation",
+            "@language": "en"
+        },
+        "description": {
+            "@id": "http://www.w3.org/2004/02/skos/core#definition",
+            "@language": "en"
+        },
+        "direct_parent": {
+            "@id": "http://www.w3.org/2004/02/skos/core#broader",
+            "@type": "@id"
+        },
+        "alternative_parents": {
+            "@id": "http://www.w3.org/2004/02/skos/core#semanticRelation",
+            "@type": "@id"
+        },
+        "_id": {
+            "@id": "@id"
+        },
+        "chemont_id": {
+            "@id": "@id"
+        },
+        "altLabel_en": {
             "@id": "http://www.w3.org/2004/02/skos/core#altLabel",
+            "@language": "en"
+        },
+        "note_en": {
+            "@id": "http://www.w3.org/2004/02/skos/core#note",
             "@language": "en"
         },
         "graph": {
             "@id": "@graph"
-        }
+        },
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "obo": "http://purl.obolibrary.org/obo/",
+        "uniprot": "http://purl.uniprot.org/",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "CHEMONTID": "https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/",
+        "chebi": "http://purl.obolibrary.org/obo/",
+        "dbo": "http://dbpedia.org/ontology/",
+        "dbp": "http://dbpedia.org/property/",
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "tax_nodes": "http://classyfire.wishartlab.com/tax_nodes/",
+        "concept": "https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "@base": "https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/"
     },
-    "@id": "concept:QTYCMDBMOLSEAM-UHFFFAOYSA-N",
+    "_id": "concept:QTYCMDBMOLSEAM-UHFFFAOYSA-N",
     "@type": "skos:Concept",
     "dbo:formula": "C18H24ClN3O",
     "dbo:inchi": "InChI=1S/C18H24ClN3O/c1-13(2)17-8-5-15(9-14-3-6-16(19)7-4-14)18(17,23)10-22-12-20-11-21-22/h3-4,6-7,11-13,15,17,23H,5,8-10H2,1-2H3",
-    "dbo:smiles": "CC(C)C1CCC(Cc2ccc(Cl)cc2)C1(O)Cn1cncn1",
-    "dbp:inchikey": "QTYCMDBMOLSEAM-UHFFFAOYSA-N",
-    "chebi:charge": "0",
-    "skos:altLabel": [
+    "smiles": "CC(C)C1CCC(Cc2ccc(Cl)cc2)C1(O)Cn1cncn1",
+    "inchikey": "QTYCMDBMOLSEAM-UHFFFAOYSA-N",
+    "obo:chebi/charge": "0",
+    "altLabel_en": [
         "2-((4-chlorophenyl)methyl)-5-(1-methylethyl)-1-(1H-1,2,4-triazol-1-ylmethyl)cyclopentanol",
         "2-(4-chlorobenzyl)-5-isopropyl-1-(1H-1,2,4-triazol-1-ylmethyl)cyclopentanol",
         "2-[(4-chlorophenyl)methyl]-5-(1-methylethyl)-1-(1H-1,2,4-triazol-1-ylmethyl)cyclopentanol"
     ],
     "skos:exactMatch": {
-        "@id": "obo:CHEBI_81770"
+        "_id": "obo:CHEBI_81770"
     },
-    "skos:note": "A member of the class of cyclopentanols carrying 1,2,4-triazol-1-ylmethyl, 4-chlorobenzyl and isopropyl substituents at positions 1, 2 and 5 respectively. Used to control a range of seed diseases in rice, vegetables and other, mainly non-food, crops.",
-    "skos:semanticRelation": [
-        {
-            "@id": "obo:CHEBI_26878"
-        },
-        {
-            "@id": "obo:CHEBI_35727"
-        },
-        {
-            "@id": "obo:CHEBI_83403"
-        },
-        {
-            "@id": "obo:CHEBI_87100"
-        },
-        {
-            "@id": "obo:CHEBI_87067"
-        },
-        {
-            "@id": "obo:CHEBI_23495"
-        }
+    "note_en": "A member of the class of cyclopentanols carrying 1,2,4-triazol-1-ylmethyl, 4-chlorobenzyl and isopropyl substituents at positions 1, 2 and 5 respectively. Used to control a range of seed diseases in rice, vegetables and other, mainly non-food, crops.",
+    "alternative_parents": [
+        "obo:CHEBI_26878",
+        "obo:CHEBI_35727",
+        "obo:CHEBI_83403",
+        "obo:CHEBI_87100",
+        "obo:CHEBI_87067",
+        "obo:CHEBI_23495"
     ]
 }

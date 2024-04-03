@@ -1,6 +1,7 @@
 'use strict';
 import yaml from 'js-yaml';
 import fs, {readFileSync} from "fs";
+import rdf from "@zazuko/env-node";
 
 const config = yaml.load(fs.readFileSync('./source/config.yml', 'utf8'));
 
@@ -228,8 +229,11 @@ const chebi_ttl = config.skos.path + config.skos.name + '/' + config.skos.name +
 
 const chebi_jsonld = [config.skos.path + config.skos.name + '/' + config.skos.name + '_chebi' + config.skos.jsonld, frame_skos_prefixes]
 
+const shapes_skos = await rdf.dataset().import(rdf.fromFile(config.ap.path + config.ap.name + '-' + config.ap.type + '/' + config.ap.name + '-' + config.ap.type + config.ap.turtle))
+
 
 export {
+    shapes_skos,
     prefixes_chebi,
     frame_chebi,
     config,

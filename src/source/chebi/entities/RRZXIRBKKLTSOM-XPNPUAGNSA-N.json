@@ -1,39 +1,97 @@
 {
     "@context": {
-        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
-        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-        "obo": "http://purl.obolibrary.org/obo/",
-        "uniprot": "http://purl.uniprot.org/",
-        "owl": "http://www.w3.org/2002/07/owl#",
-        "concept": "https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/",
-        "chebi": "http://purl.obolibrary.org/obo/chebi/",
-        "skos": "http://www.w3.org/2004/02/skos/core#",
-        "dbo": "http://dbpedia.org/ontology/",
-        "dbp": "http://dbpedia.org/property/",
-        "altLabel": {
+        "smiles": {
+            "@id": "http://dbpedia.org/ontology/smiles"
+        },
+        "name": {
+            "@id": "http://www.w3.org/2004/02/skos/core#prefLabel",
+            "@language": "en"
+        },
+        "url": {
+            "@id": "http://www.w3.org/2000/01/rdf-schema#seeAlso",
+            "@type": "@id"
+        },
+        "inchikey": {
+            "@id": "http://dbpedia.org/property/inchikey"
+        },
+        "intermediate_nodes": {
+            "@id": "http://www.w3.org/2004/02/skos/core#broaderTransitive",
+            "@type": "@id"
+        },
+        "subclass": {
+            "@id": "http://www.w3.org/2004/02/skos/core#broaderTransitive",
+            "@type": "@id"
+        },
+        "kingdom": {
+            "@id": "http://www.w3.org/2004/02/skos/core#broaderTransitive",
+            "@type": "@id"
+        },
+        "class": {
+            "@id": "http://www.w3.org/2004/02/skos/core#broaderTransitive",
+            "@type": "@id"
+        },
+        "ancestors": {
+            "@id": "http://purl.org/dc/elements/1.1/relation",
+            "@language": "en"
+        },
+        "description": {
+            "@id": "http://www.w3.org/2004/02/skos/core#definition",
+            "@language": "en"
+        },
+        "direct_parent": {
+            "@id": "http://www.w3.org/2004/02/skos/core#broader",
+            "@type": "@id"
+        },
+        "alternative_parents": {
+            "@id": "http://www.w3.org/2004/02/skos/core#semanticRelation",
+            "@type": "@id"
+        },
+        "_id": {
+            "@id": "@id"
+        },
+        "chemont_id": {
+            "@id": "@id"
+        },
+        "altLabel_en": {
             "@id": "http://www.w3.org/2004/02/skos/core#altLabel",
+            "@language": "en"
+        },
+        "note_en": {
+            "@id": "http://www.w3.org/2004/02/skos/core#note",
             "@language": "en"
         },
         "graph": {
             "@id": "@graph"
-        }
+        },
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "obo": "http://purl.obolibrary.org/obo/",
+        "uniprot": "http://purl.uniprot.org/",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "CHEMONTID": "https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/",
+        "chebi": "http://purl.obolibrary.org/obo/",
+        "dbo": "http://dbpedia.org/ontology/",
+        "dbp": "http://dbpedia.org/property/",
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "tax_nodes": "http://classyfire.wishartlab.com/tax_nodes/",
+        "concept": "https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "@base": "https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/"
     },
-    "@id": "concept:RRZXIRBKKLTSOM-XPNPUAGNSA-N",
+    "_id": "concept:RRZXIRBKKLTSOM-XPNPUAGNSA-N",
     "@type": "skos:Concept",
     "dbo:formula": "C48H72O14",
     "dbo:inchi": "InChI=1S/C48H72O14/c1-11-25(2)43-28(5)17-18-47(62-43)23-34-20-33(61-47)16-15-27(4)42(26(3)13-12-14-32-24-55-45-40(49)29(6)19-35(46(51)58-34)48(32,45)52)59-39-22-37(54-10)44(31(8)57-39)60-38-21-36(53-9)41(50)30(7)56-38/h12-15,17-19,25-26,28,30-31,33-45,49-50,52H,11,16,20-24H2,1-10H3/b13-12+,27-15+,32-14+/t25-,26-,28-,30-,31-,33+,34-,35-,36-,37-,38-,39-,40+,41-,42-,43+,44-,45+,47+,48+/m0/s1",
-    "dbo:smiles": "CC[C@H](C)[C@H]1O[C@@]2(C[C@@H]3C[C@@H](C\\C=C(C)\\[C@@H](O[C@H]4C[C@H](OC)[C@@H](O[C@H]5C[C@H](OC)[C@@H](O)[C@H](C)O5)[C@H](C)O4)[C@@H](C)\\C=C\\C=C4/CO[C@@H]5[C@H](O)C(C)=C[C@@H](C(=O)O3)[C@]45O)O2)C=C[C@@H]1C",
-    "dbp:inchikey": "RRZXIRBKKLTSOM-XPNPUAGNSA-N",
-    "chebi:charge": "0",
-    "skos:altLabel": [
+    "smiles": "CC[C@H](C)[C@H]1O[C@@]2(C[C@@H]3C[C@@H](C\\C=C(C)\\[C@@H](O[C@H]4C[C@H](OC)[C@@H](O[C@H]5C[C@H](OC)[C@@H](O)[C@H](C)O5)[C@H](C)O4)[C@@H](C)\\C=C\\C=C4/CO[C@@H]5[C@H](O)C(C)=C[C@@H](C(=O)O3)[C@]45O)O2)C=C[C@@H]1C",
+    "inchikey": "RRZXIRBKKLTSOM-XPNPUAGNSA-N",
+    "obo:chebi/charge": "0",
+    "altLabel_en": [
         "(2aE,4E,5'S,6S,6'R,7S,8E,11R,13S,15S,17aR,20R,20aR,20bS)-20,20b-dihydroxy-5',6,8,19-tetramethyl-6'-[(1S)-1-methylpropyl]-17-oxo-5',6,6',10,11,14,15,17,17a,20,20a,20b-dodecahydro-2H,7H-spiro[11,15-methanofuro[4,3,2-pq][2,6]benzodioxacyclooctadecine-13,2'-pyran]-7-yl 2,6-dideoxy-4-O-(2,6-dideoxy-3-O-methyl-alpha-L-arabino-hexopyranosyl)-3-O-methyl-alpha-L-arabino-hexopyranoside",
         "abamectin component B1a",
         "Avermectin B1a"
     ],
     "skos:exactMatch": {
-        "@id": "obo:CHEBI_29534"
+        "_id": "obo:CHEBI_29534"
     },
-    "skos:semanticRelation": {
-        "@id": "obo:CHEBI_50344"
-    }
+    "alternative_parents": "obo:CHEBI_50344"
 }

@@ -1,31 +1,91 @@
 {
     "@context": {
-        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
-        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-        "obo": "http://purl.obolibrary.org/obo/",
-        "uniprot": "http://purl.uniprot.org/",
-        "owl": "http://www.w3.org/2002/07/owl#",
-        "concept": "https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/",
-        "chebi": "http://purl.obolibrary.org/obo/chebi/",
-        "skos": "http://www.w3.org/2004/02/skos/core#",
-        "dbo": "http://dbpedia.org/ontology/",
-        "dbp": "http://dbpedia.org/property/",
-        "altLabel": {
+        "smiles": {
+            "@id": "http://dbpedia.org/ontology/smiles"
+        },
+        "name": {
+            "@id": "http://www.w3.org/2004/02/skos/core#prefLabel",
+            "@language": "en"
+        },
+        "url": {
+            "@id": "http://www.w3.org/2000/01/rdf-schema#seeAlso",
+            "@type": "@id"
+        },
+        "inchikey": {
+            "@id": "http://dbpedia.org/property/inchikey"
+        },
+        "intermediate_nodes": {
+            "@id": "http://www.w3.org/2004/02/skos/core#broaderTransitive",
+            "@type": "@id"
+        },
+        "subclass": {
+            "@id": "http://www.w3.org/2004/02/skos/core#broaderTransitive",
+            "@type": "@id"
+        },
+        "kingdom": {
+            "@id": "http://www.w3.org/2004/02/skos/core#broaderTransitive",
+            "@type": "@id"
+        },
+        "class": {
+            "@id": "http://www.w3.org/2004/02/skos/core#broaderTransitive",
+            "@type": "@id"
+        },
+        "ancestors": {
+            "@id": "http://purl.org/dc/elements/1.1/relation",
+            "@language": "en"
+        },
+        "description": {
+            "@id": "http://www.w3.org/2004/02/skos/core#definition",
+            "@language": "en"
+        },
+        "direct_parent": {
+            "@id": "http://www.w3.org/2004/02/skos/core#broader",
+            "@type": "@id"
+        },
+        "alternative_parents": {
+            "@id": "http://www.w3.org/2004/02/skos/core#semanticRelation",
+            "@type": "@id"
+        },
+        "_id": {
+            "@id": "@id"
+        },
+        "chemont_id": {
+            "@id": "@id"
+        },
+        "altLabel_en": {
             "@id": "http://www.w3.org/2004/02/skos/core#altLabel",
+            "@language": "en"
+        },
+        "note_en": {
+            "@id": "http://www.w3.org/2004/02/skos/core#note",
             "@language": "en"
         },
         "graph": {
             "@id": "@graph"
-        }
+        },
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "obo": "http://purl.obolibrary.org/obo/",
+        "uniprot": "http://purl.uniprot.org/",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "CHEMONTID": "https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/",
+        "chebi": "http://purl.obolibrary.org/obo/",
+        "dbo": "http://dbpedia.org/ontology/",
+        "dbp": "http://dbpedia.org/property/",
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "tax_nodes": "http://classyfire.wishartlab.com/tax_nodes/",
+        "concept": "https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "@base": "https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/"
     },
-    "@id": "concept:PMCVMORKVPSKHZ-UHFFFAOYSA-N",
+    "_id": "concept:PMCVMORKVPSKHZ-UHFFFAOYSA-N",
     "@type": "skos:Concept",
     "dbo:formula": "C6H15O4PS2",
     "dbo:inchi": "InChI=1S/C6H15O4PS2/c1-4-13(8)6-5-12-11(7,9-2)10-3/h4-6H2,1-3H3",
-    "dbo:smiles": "CCS(=O)CCSP(=O)(OC)OC",
-    "dbp:inchikey": "PMCVMORKVPSKHZ-UHFFFAOYSA-N",
-    "chebi:charge": "0",
-    "skos:altLabel": [
+    "smiles": "CCS(=O)CCSP(=O)(OC)OC",
+    "inchikey": "PMCVMORKVPSKHZ-UHFFFAOYSA-N",
+    "obo:chebi/charge": "0",
+    "altLabel_en": [
         "Metasystox-R",
         "Oxydemeton methyl",
         "Phosphorothioic acid, S-(2-(ethylsulfinyl)ethyl) O,O-dimethyl ester",
@@ -33,14 +93,10 @@
         "S-[2-(ethylsulfinyl)ethyl] O,O-dimethyl thiophosphate"
     ],
     "skos:exactMatch": {
-        "@id": "obo:CHEBI_38735"
+        "_id": "obo:CHEBI_38735"
     },
-    "skos:semanticRelation": [
-        {
-            "@id": "obo:CHEBI_37512"
-        },
-        {
-            "@id": "obo:CHEBI_25715"
-        }
+    "alternative_parents": [
+        "obo:CHEBI_37512",
+        "obo:CHEBI_25715"
     ]
 }

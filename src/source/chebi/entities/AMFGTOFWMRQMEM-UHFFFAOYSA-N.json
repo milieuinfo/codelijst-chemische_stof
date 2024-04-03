@@ -1,27 +1,91 @@
 {
     "@context": {
+        "smiles": {
+            "@id": "http://dbpedia.org/ontology/smiles"
+        },
+        "name": {
+            "@id": "http://www.w3.org/2004/02/skos/core#prefLabel",
+            "@language": "en"
+        },
+        "url": {
+            "@id": "http://www.w3.org/2000/01/rdf-schema#seeAlso",
+            "@type": "@id"
+        },
+        "inchikey": {
+            "@id": "http://dbpedia.org/property/inchikey"
+        },
+        "intermediate_nodes": {
+            "@id": "http://www.w3.org/2004/02/skos/core#broaderTransitive",
+            "@type": "@id"
+        },
+        "subclass": {
+            "@id": "http://www.w3.org/2004/02/skos/core#broaderTransitive",
+            "@type": "@id"
+        },
+        "kingdom": {
+            "@id": "http://www.w3.org/2004/02/skos/core#broaderTransitive",
+            "@type": "@id"
+        },
+        "class": {
+            "@id": "http://www.w3.org/2004/02/skos/core#broaderTransitive",
+            "@type": "@id"
+        },
+        "ancestors": {
+            "@id": "http://purl.org/dc/elements/1.1/relation",
+            "@language": "en"
+        },
+        "description": {
+            "@id": "http://www.w3.org/2004/02/skos/core#definition",
+            "@language": "en"
+        },
+        "direct_parent": {
+            "@id": "http://www.w3.org/2004/02/skos/core#broader",
+            "@type": "@id"
+        },
+        "alternative_parents": {
+            "@id": "http://www.w3.org/2004/02/skos/core#semanticRelation",
+            "@type": "@id"
+        },
+        "_id": {
+            "@id": "@id"
+        },
+        "chemont_id": {
+            "@id": "@id"
+        },
+        "altLabel_en": {
+            "@id": "http://www.w3.org/2004/02/skos/core#altLabel",
+            "@language": "en"
+        },
+        "note_en": {
+            "@id": "http://www.w3.org/2004/02/skos/core#note",
+            "@language": "en"
+        },
+        "graph": {
+            "@id": "@graph"
+        },
         "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
-        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
         "obo": "http://purl.obolibrary.org/obo/",
         "uniprot": "http://purl.uniprot.org/",
         "owl": "http://www.w3.org/2002/07/owl#",
-        "concept": "https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/",
-        "chebi": "http://purl.obolibrary.org/obo/chebi/",
-        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "CHEMONTID": "https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/",
+        "chebi": "http://purl.obolibrary.org/obo/",
         "dbo": "http://dbpedia.org/ontology/",
         "dbp": "http://dbpedia.org/property/",
-        "graph": {
-            "@id": "@graph"
-        }
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "tax_nodes": "http://classyfire.wishartlab.com/tax_nodes/",
+        "concept": "https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "@base": "https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/"
     },
-    "@id": "concept:AMFGTOFWMRQMEM-UHFFFAOYSA-N",
+    "_id": "concept:AMFGTOFWMRQMEM-UHFFFAOYSA-N",
     "@type": "skos:Concept",
     "dbo:formula": "C12H16N3O3PS",
     "dbo:inchi": "InChI=1S/C12H16N3O3PS/c1-3-16-19(20,17-4-2)18-12-13-10-15(14-12)11-8-6-5-7-9-11/h5-10H,3-4H2,1-2H3",
-    "dbo:smiles": "CCOP(=S)(OCC)Oc1ncn(n1)-c1ccccc1",
-    "dbp:inchikey": "AMFGTOFWMRQMEM-UHFFFAOYSA-N",
-    "chebi:charge": "0",
-    "skos:altLabel": [
+    "smiles": "CCOP(=S)(OCC)Oc1ncn(n1)-c1ccccc1",
+    "inchikey": "AMFGTOFWMRQMEM-UHFFFAOYSA-N",
+    "obo:chebi/charge": "0",
+    "altLabel_en": [
         "1-Phenyl-1,2,4-triazolyl-3-(O,O-diethylthionophosphate)",
         "Hostathion",
         "Methoxone",
@@ -31,14 +95,10 @@
         "Triazofos"
     ],
     "skos:exactMatch": {
-        "@id": "obo:CHEBI_38963"
+        "_id": "obo:CHEBI_38963"
     },
-    "skos:semanticRelation": [
-        {
-            "@id": "obo:CHEBI_37512"
-        },
-        {
-            "@id": "obo:CHEBI_25715"
-        }
+    "alternative_parents": [
+        "obo:CHEBI_37512",
+        "obo:CHEBI_25715"
     ]
 }

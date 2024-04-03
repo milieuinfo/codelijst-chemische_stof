@@ -1,31 +1,91 @@
 {
     "@context": {
-        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
-        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-        "obo": "http://purl.obolibrary.org/obo/",
-        "uniprot": "http://purl.uniprot.org/",
-        "owl": "http://www.w3.org/2002/07/owl#",
-        "concept": "https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/",
-        "chebi": "http://purl.obolibrary.org/obo/chebi/",
-        "skos": "http://www.w3.org/2004/02/skos/core#",
-        "dbo": "http://dbpedia.org/ontology/",
-        "dbp": "http://dbpedia.org/property/",
-        "altLabel": {
+        "smiles": {
+            "@id": "http://dbpedia.org/ontology/smiles"
+        },
+        "name": {
+            "@id": "http://www.w3.org/2004/02/skos/core#prefLabel",
+            "@language": "en"
+        },
+        "url": {
+            "@id": "http://www.w3.org/2000/01/rdf-schema#seeAlso",
+            "@type": "@id"
+        },
+        "inchikey": {
+            "@id": "http://dbpedia.org/property/inchikey"
+        },
+        "intermediate_nodes": {
+            "@id": "http://www.w3.org/2004/02/skos/core#broaderTransitive",
+            "@type": "@id"
+        },
+        "subclass": {
+            "@id": "http://www.w3.org/2004/02/skos/core#broaderTransitive",
+            "@type": "@id"
+        },
+        "kingdom": {
+            "@id": "http://www.w3.org/2004/02/skos/core#broaderTransitive",
+            "@type": "@id"
+        },
+        "class": {
+            "@id": "http://www.w3.org/2004/02/skos/core#broaderTransitive",
+            "@type": "@id"
+        },
+        "ancestors": {
+            "@id": "http://purl.org/dc/elements/1.1/relation",
+            "@language": "en"
+        },
+        "description": {
+            "@id": "http://www.w3.org/2004/02/skos/core#definition",
+            "@language": "en"
+        },
+        "direct_parent": {
+            "@id": "http://www.w3.org/2004/02/skos/core#broader",
+            "@type": "@id"
+        },
+        "alternative_parents": {
+            "@id": "http://www.w3.org/2004/02/skos/core#semanticRelation",
+            "@type": "@id"
+        },
+        "_id": {
+            "@id": "@id"
+        },
+        "chemont_id": {
+            "@id": "@id"
+        },
+        "altLabel_en": {
             "@id": "http://www.w3.org/2004/02/skos/core#altLabel",
+            "@language": "en"
+        },
+        "note_en": {
+            "@id": "http://www.w3.org/2004/02/skos/core#note",
             "@language": "en"
         },
         "graph": {
             "@id": "@graph"
-        }
+        },
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "obo": "http://purl.obolibrary.org/obo/",
+        "uniprot": "http://purl.uniprot.org/",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "CHEMONTID": "https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/",
+        "chebi": "http://purl.obolibrary.org/obo/",
+        "dbo": "http://dbpedia.org/ontology/",
+        "dbp": "http://dbpedia.org/property/",
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "tax_nodes": "http://classyfire.wishartlab.com/tax_nodes/",
+        "concept": "https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "@base": "https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/"
     },
-    "@id": "concept:KRTSDMXIXPKRQR-AATRIKPKSA-N",
+    "_id": "concept:KRTSDMXIXPKRQR-AATRIKPKSA-N",
     "@type": "skos:Concept",
     "dbo:formula": "C7H14NO5P",
     "dbo:inchi": "InChI=1S/C7H14NO5P/c1-6(5-7(9)8-2)13-14(10,11-3)12-4/h5H,1-4H3,(H,8,9)/b6-5+",
-    "dbo:smiles": "CNC(=O)\\C=C(/C)OP(=O)(OC)OC",
-    "dbp:inchikey": "KRTSDMXIXPKRQR-AATRIKPKSA-N",
-    "chebi:charge": "0",
-    "skos:altLabel": [
+    "smiles": "CNC(=O)\\C=C(/C)OP(=O)(OC)OC",
+    "inchikey": "KRTSDMXIXPKRQR-AATRIKPKSA-N",
+    "obo:chebi/charge": "0",
+    "altLabel_en": [
         "(E)-monocrotophos",
         "Azodrin",
         "dimethyl (1E)-1-methyl-3-(methylamino)-3-oxoprop-1-en-1-yl phosphate",
@@ -34,21 +94,13 @@
         "Phosphoric acid, dimethyl (E)-1-methyl-3-(methylamino)-3-oxo-1-propenyl ester"
     ],
     "skos:exactMatch": {
-        "@id": "obo:CHEBI_38728"
+        "_id": "obo:CHEBI_38728"
     },
-    "skos:note": "An alkenyl phosphate that is the 4-(methylamino)-4-oxobut-2-en-2-yl ester of dimethyl phosphate.",
-    "skos:semanticRelation": [
-        {
-            "@id": "obo:CHEBI_29347"
-        },
-        {
-            "@id": "obo:CHEBI_16648"
-        },
-        {
-            "@id": "obo:CHEBI_25708"
-        },
-        {
-            "@id": "obo:CHEBI_37494"
-        }
+    "note_en": "An alkenyl phosphate that is the 4-(methylamino)-4-oxobut-2-en-2-yl ester of dimethyl phosphate.",
+    "alternative_parents": [
+        "obo:CHEBI_29347",
+        "obo:CHEBI_16648",
+        "obo:CHEBI_25708",
+        "obo:CHEBI_37494"
     ]
 }

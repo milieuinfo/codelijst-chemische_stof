@@ -1,31 +1,91 @@
 {
     "@context": {
-        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
-        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-        "obo": "http://purl.obolibrary.org/obo/",
-        "uniprot": "http://purl.uniprot.org/",
-        "owl": "http://www.w3.org/2002/07/owl#",
-        "concept": "https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/",
-        "chebi": "http://purl.obolibrary.org/obo/chebi/",
-        "skos": "http://www.w3.org/2004/02/skos/core#",
-        "dbo": "http://dbpedia.org/ontology/",
-        "dbp": "http://dbpedia.org/property/",
-        "altLabel": {
+        "smiles": {
+            "@id": "http://dbpedia.org/ontology/smiles"
+        },
+        "name": {
+            "@id": "http://www.w3.org/2004/02/skos/core#prefLabel",
+            "@language": "en"
+        },
+        "url": {
+            "@id": "http://www.w3.org/2000/01/rdf-schema#seeAlso",
+            "@type": "@id"
+        },
+        "inchikey": {
+            "@id": "http://dbpedia.org/property/inchikey"
+        },
+        "intermediate_nodes": {
+            "@id": "http://www.w3.org/2004/02/skos/core#broaderTransitive",
+            "@type": "@id"
+        },
+        "subclass": {
+            "@id": "http://www.w3.org/2004/02/skos/core#broaderTransitive",
+            "@type": "@id"
+        },
+        "kingdom": {
+            "@id": "http://www.w3.org/2004/02/skos/core#broaderTransitive",
+            "@type": "@id"
+        },
+        "class": {
+            "@id": "http://www.w3.org/2004/02/skos/core#broaderTransitive",
+            "@type": "@id"
+        },
+        "ancestors": {
+            "@id": "http://purl.org/dc/elements/1.1/relation",
+            "@language": "en"
+        },
+        "description": {
+            "@id": "http://www.w3.org/2004/02/skos/core#definition",
+            "@language": "en"
+        },
+        "direct_parent": {
+            "@id": "http://www.w3.org/2004/02/skos/core#broader",
+            "@type": "@id"
+        },
+        "alternative_parents": {
+            "@id": "http://www.w3.org/2004/02/skos/core#semanticRelation",
+            "@type": "@id"
+        },
+        "_id": {
+            "@id": "@id"
+        },
+        "chemont_id": {
+            "@id": "@id"
+        },
+        "altLabel_en": {
             "@id": "http://www.w3.org/2004/02/skos/core#altLabel",
+            "@language": "en"
+        },
+        "note_en": {
+            "@id": "http://www.w3.org/2004/02/skos/core#note",
             "@language": "en"
         },
         "graph": {
             "@id": "@graph"
-        }
+        },
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "obo": "http://purl.obolibrary.org/obo/",
+        "uniprot": "http://purl.uniprot.org/",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "CHEMONTID": "https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/",
+        "chebi": "http://purl.obolibrary.org/obo/",
+        "dbo": "http://dbpedia.org/ontology/",
+        "dbp": "http://dbpedia.org/property/",
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "tax_nodes": "http://classyfire.wishartlab.com/tax_nodes/",
+        "concept": "https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "@base": "https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/"
     },
-    "@id": "concept:UWFYSQMTEOIJJG-FDTZYFLXSA-N",
+    "_id": "concept:UWFYSQMTEOIJJG-FDTZYFLXSA-N",
     "@type": "skos:Concept",
     "dbo:formula": "C24H29ClO4",
     "dbo:inchi": "InChI=1S/C24H29ClO4/c1-12(26)24(29-13(2)27)8-6-16-14-10-20(25)19-11-21(28)15-9-18(15)23(19,4)17(14)5-7-22(16,24)3/h10-11,14-18H,5-9H2,1-4H3/t14-,15+,16-,17-,18-,22-,23-,24-/m0/s1",
-    "dbo:smiles": "[H][C@@]12C[C@]1([H])[C@@]1(C)C(=CC2=O)C(Cl)=C[C@@]2([H])[C@]3([H])CC[C@](OC(C)=O)(C(C)=O)[C@@]3(C)CC[C@]12[H]",
-    "dbp:inchikey": "UWFYSQMTEOIJJG-FDTZYFLXSA-N",
-    "chebi:charge": "0",
-    "skos:altLabel": [
+    "smiles": "[H][C@@]12C[C@]1([H])[C@@]1(C)C(=CC2=O)C(Cl)=C[C@@]2([H])[C@]3([H])CC[C@](OC(C)=O)(C(C)=O)[C@@]3(C)CC[C@]12[H]",
+    "inchikey": "UWFYSQMTEOIJJG-FDTZYFLXSA-N",
+    "obo:chebi/charge": "0",
+    "altLabel_en": [
         "(1beta,2beta)-17-(acetyloxy)-6-chloro-1,2-dihydro-3'H-cyclopropa[1,2]pregna-1,4,6-triene-3,20-dione",
         "(1R,3aS,3bR,7aR,8aS,8bS,8cS,10aS)-1-acetyl-5-chloro-8b,10a-dimethyl-7-oxo-1,2,3,3a,3b,7,7a,8,8a,8b,8c,9,10,10a-tetradecahydrocyclopenta[a]cyclopropa[g]phenanthren-1-yl acetate",
         "1,2alpha-methylene-6-chloro-17alpha-acetoxy-4,6-pregnadiene-3,20-dione",
@@ -45,24 +105,14 @@
         "SH 714"
     ],
     "skos:exactMatch": {
-        "@id": "obo:CHEBI_50743"
+        "_id": "obo:CHEBI_50743"
     },
-    "skos:note": "A steroid ester resulting from the formal condensation of the carboxy group of acetic acid with the 17-hydroxy group of cyproterone. It is an antiandrogenic drug which has recently been recognized to promote the occurrence and growth of intracranial meningiomas.",
-    "skos:semanticRelation": [
-        {
-            "@id": "obo:CHEBI_47622"
-        },
-        {
-            "@id": "obo:CHEBI_47909"
-        },
-        {
-            "@id": "obo:CHEBI_36885"
-        },
-        {
-            "@id": "obo:CHEBI_47880"
-        },
-        {
-            "@id": "obo:CHEBI_77175"
-        }
+    "note_en": "A steroid ester resulting from the formal condensation of the carboxy group of acetic acid with the 17-hydroxy group of cyproterone. It is an antiandrogenic drug which has recently been recognized to promote the occurrence and growth of intracranial meningiomas.",
+    "alternative_parents": [
+        "obo:CHEBI_47622",
+        "obo:CHEBI_47909",
+        "obo:CHEBI_36885",
+        "obo:CHEBI_47880",
+        "obo:CHEBI_77175"
     ]
 }

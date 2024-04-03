@@ -1,31 +1,91 @@
 {
     "@context": {
-        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
-        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-        "obo": "http://purl.obolibrary.org/obo/",
-        "uniprot": "http://purl.uniprot.org/",
-        "owl": "http://www.w3.org/2002/07/owl#",
-        "concept": "https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/",
-        "chebi": "http://purl.obolibrary.org/obo/chebi/",
-        "skos": "http://www.w3.org/2004/02/skos/core#",
-        "dbo": "http://dbpedia.org/ontology/",
-        "dbp": "http://dbpedia.org/property/",
-        "altLabel": {
+        "smiles": {
+            "@id": "http://dbpedia.org/ontology/smiles"
+        },
+        "name": {
+            "@id": "http://www.w3.org/2004/02/skos/core#prefLabel",
+            "@language": "en"
+        },
+        "url": {
+            "@id": "http://www.w3.org/2000/01/rdf-schema#seeAlso",
+            "@type": "@id"
+        },
+        "inchikey": {
+            "@id": "http://dbpedia.org/property/inchikey"
+        },
+        "intermediate_nodes": {
+            "@id": "http://www.w3.org/2004/02/skos/core#broaderTransitive",
+            "@type": "@id"
+        },
+        "subclass": {
+            "@id": "http://www.w3.org/2004/02/skos/core#broaderTransitive",
+            "@type": "@id"
+        },
+        "kingdom": {
+            "@id": "http://www.w3.org/2004/02/skos/core#broaderTransitive",
+            "@type": "@id"
+        },
+        "class": {
+            "@id": "http://www.w3.org/2004/02/skos/core#broaderTransitive",
+            "@type": "@id"
+        },
+        "ancestors": {
+            "@id": "http://purl.org/dc/elements/1.1/relation",
+            "@language": "en"
+        },
+        "description": {
+            "@id": "http://www.w3.org/2004/02/skos/core#definition",
+            "@language": "en"
+        },
+        "direct_parent": {
+            "@id": "http://www.w3.org/2004/02/skos/core#broader",
+            "@type": "@id"
+        },
+        "alternative_parents": {
+            "@id": "http://www.w3.org/2004/02/skos/core#semanticRelation",
+            "@type": "@id"
+        },
+        "_id": {
+            "@id": "@id"
+        },
+        "chemont_id": {
+            "@id": "@id"
+        },
+        "altLabel_en": {
             "@id": "http://www.w3.org/2004/02/skos/core#altLabel",
+            "@language": "en"
+        },
+        "note_en": {
+            "@id": "http://www.w3.org/2004/02/skos/core#note",
             "@language": "en"
         },
         "graph": {
             "@id": "@graph"
-        }
+        },
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "obo": "http://purl.obolibrary.org/obo/",
+        "uniprot": "http://purl.uniprot.org/",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "CHEMONTID": "https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/",
+        "chebi": "http://purl.obolibrary.org/obo/",
+        "dbo": "http://dbpedia.org/ontology/",
+        "dbp": "http://dbpedia.org/property/",
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "tax_nodes": "http://classyfire.wishartlab.com/tax_nodes/",
+        "concept": "https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "@base": "https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/"
     },
-    "@id": "concept:PQSUYGKTWSAVDQ-ZVIOFETBSA-N",
+    "_id": "concept:PQSUYGKTWSAVDQ-ZVIOFETBSA-N",
     "@type": "skos:Concept",
     "dbo:formula": "C21H28O5",
     "dbo:inchi": "InChI=1S/C21H28O5/c1-20-7-6-13(24)8-12(20)2-3-14-15-4-5-16(18(26)10-22)21(15,11-23)9-17(25)19(14)20/h8,11,14-17,19,22,25H,2-7,9-10H2,1H3/t14-,15-,16+,17-,19+,20-,21+/m0/s1",
-    "dbo:smiles": "[H][C@@]1(CC[C@@]2([H])[C@]3([H])CCC4=CC(=O)CC[C@]4(C)[C@@]3([H])[C@@H](O)C[C@]12C=O)C(=O)CO",
-    "dbp:inchikey": "PQSUYGKTWSAVDQ-ZVIOFETBSA-N",
-    "chebi:charge": "0",
-    "skos:altLabel": [
+    "smiles": "[H][C@@]1(CC[C@@]2([H])[C@]3([H])CCC4=CC(=O)CC[C@]4(C)[C@@]3([H])[C@@H](O)C[C@]12C=O)C(=O)CO",
+    "inchikey": "PQSUYGKTWSAVDQ-ZVIOFETBSA-N",
+    "obo:chebi/charge": "0",
+    "altLabel_en": [
         "(+)-aldosterone",
         "(11beta)-11,21-dihydroxy-3,20-dioxopregn-4-en-18-al",
         "11beta,21-Dihydroxy-3,20-dioxo-4-pregnen-18-al",
@@ -34,36 +94,18 @@
         "ALDOSTERONE"
     ],
     "skos:exactMatch": {
-        "@id": "obo:CHEBI_27584"
+        "_id": "obo:CHEBI_27584"
     },
-    "skos:note": "A pregnane-based steroidal hormone produced by the outer-section (zona glomerulosa) of the adrenal cortex in the adrenal gland, and acts on the distal tubules and collecting ducts of the kidney to cause the conservation of sodium, secretion of potassium, increased water retention, and increased blood pressure. The overall effect of aldosterone is to increase reabsorption of ions and water in the kidney.",
-    "skos:semanticRelation": [
-        {
-            "@id": "obo:CHEBI_35346"
-        },
-        {
-            "@id": "obo:CHEBI_47909"
-        },
-        {
-            "@id": "obo:CHEBI_35344"
-        },
-        {
-            "@id": "obo:CHEBI_36885"
-        },
-        {
-            "@id": "obo:CHEBI_139590"
-        },
-        {
-            "@id": "obo:CHEBI_131565"
-        },
-        {
-            "@id": "obo:CHEBI_25354"
-        },
-        {
-            "@id": "obo:CHEBI_64600"
-        },
-        {
-            "@id": "obo:CHEBI_36887"
-        }
+    "note_en": "A pregnane-based steroidal hormone produced by the outer-section (zona glomerulosa) of the adrenal cortex in the adrenal gland, and acts on the distal tubules and collecting ducts of the kidney to cause the conservation of sodium, secretion of potassium, increased water retention, and increased blood pressure. The overall effect of aldosterone is to increase reabsorption of ions and water in the kidney.",
+    "alternative_parents": [
+        "obo:CHEBI_35346",
+        "obo:CHEBI_47909",
+        "obo:CHEBI_35344",
+        "obo:CHEBI_36885",
+        "obo:CHEBI_139590",
+        "obo:CHEBI_131565",
+        "obo:CHEBI_25354",
+        "obo:CHEBI_64600",
+        "obo:CHEBI_36887"
     ]
 }

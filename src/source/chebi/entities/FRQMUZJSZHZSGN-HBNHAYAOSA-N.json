@@ -1,27 +1,91 @@
 {
     "@context": {
+        "smiles": {
+            "@id": "http://dbpedia.org/ontology/smiles"
+        },
+        "name": {
+            "@id": "http://www.w3.org/2004/02/skos/core#prefLabel",
+            "@language": "en"
+        },
+        "url": {
+            "@id": "http://www.w3.org/2000/01/rdf-schema#seeAlso",
+            "@type": "@id"
+        },
+        "inchikey": {
+            "@id": "http://dbpedia.org/property/inchikey"
+        },
+        "intermediate_nodes": {
+            "@id": "http://www.w3.org/2004/02/skos/core#broaderTransitive",
+            "@type": "@id"
+        },
+        "subclass": {
+            "@id": "http://www.w3.org/2004/02/skos/core#broaderTransitive",
+            "@type": "@id"
+        },
+        "kingdom": {
+            "@id": "http://www.w3.org/2004/02/skos/core#broaderTransitive",
+            "@type": "@id"
+        },
+        "class": {
+            "@id": "http://www.w3.org/2004/02/skos/core#broaderTransitive",
+            "@type": "@id"
+        },
+        "ancestors": {
+            "@id": "http://purl.org/dc/elements/1.1/relation",
+            "@language": "en"
+        },
+        "description": {
+            "@id": "http://www.w3.org/2004/02/skos/core#definition",
+            "@language": "en"
+        },
+        "direct_parent": {
+            "@id": "http://www.w3.org/2004/02/skos/core#broader",
+            "@type": "@id"
+        },
+        "alternative_parents": {
+            "@id": "http://www.w3.org/2004/02/skos/core#semanticRelation",
+            "@type": "@id"
+        },
+        "_id": {
+            "@id": "@id"
+        },
+        "chemont_id": {
+            "@id": "@id"
+        },
+        "altLabel_en": {
+            "@id": "http://www.w3.org/2004/02/skos/core#altLabel",
+            "@language": "en"
+        },
+        "note_en": {
+            "@id": "http://www.w3.org/2004/02/skos/core#note",
+            "@language": "en"
+        },
+        "graph": {
+            "@id": "@graph"
+        },
         "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
-        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
         "obo": "http://purl.obolibrary.org/obo/",
         "uniprot": "http://purl.uniprot.org/",
         "owl": "http://www.w3.org/2002/07/owl#",
-        "concept": "https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/",
-        "chebi": "http://purl.obolibrary.org/obo/chebi/",
-        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "CHEMONTID": "https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/",
+        "chebi": "http://purl.obolibrary.org/obo/",
         "dbo": "http://dbpedia.org/ontology/",
         "dbp": "http://dbpedia.org/property/",
-        "graph": {
-            "@id": "@graph"
-        }
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "tax_nodes": "http://classyfire.wishartlab.com/tax_nodes/",
+        "concept": "https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "@base": "https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/"
     },
-    "@id": "concept:FRQMUZJSZHZSGN-HBNHAYAOSA-N",
+    "_id": "concept:FRQMUZJSZHZSGN-HBNHAYAOSA-N",
     "@type": "skos:Concept",
     "dbo:formula": "C22H32O3",
     "dbo:inchi": "InChI=1S/C22H32O3/c1-13-11-16-17(20(3)8-5-15(24)12-19(13)20)6-9-21(4)18(16)7-10-22(21,25)14(2)23/h12-13,16-18,25H,5-11H2,1-4H3/t13-,16+,17-,18-,20+,21-,22-/m0/s1",
-    "dbo:smiles": "C1[C@]2([C@]3([C@@]([C@@]4(C(=CC(CC4)=O)[C@H](C3)C)C)(CC[C@@]2([C@@](C1)(O)C(=O)C)C)[H])[H])[H]",
-    "dbp:inchikey": "FRQMUZJSZHZSGN-HBNHAYAOSA-N",
-    "chebi:charge": "0",
-    "skos:altLabel": [
+    "smiles": "C1[C@]2([C@]3([C@@]([C@@]4(C(=CC(CC4)=O)[C@H](C3)C)C)(CC[C@@]2([C@@](C1)(O)C(=O)C)C)[H])[H])[H]",
+    "inchikey": "FRQMUZJSZHZSGN-HBNHAYAOSA-N",
+    "obo:chebi/charge": "0",
+    "altLabel_en": [
         "medroxyprogesterone",
         "(6alpha)-17-hydroxy-6-methylpregn-4-ene-3,20-dione",
         "17alpha-Hydroxy-6alpha-methylprogesterone",
@@ -34,21 +98,13 @@
         "medroxyprogesteronum"
     ],
     "skos:exactMatch": {
-        "@id": "obo:CHEBI_6715"
+        "_id": "obo:CHEBI_6715"
     },
-    "skos:note": "A 3-oxo Delta(4)-steroid that is pregn-4-ene-3,20-dione substituted by an alpha-hydroxy group at position 17 and a methyl group at position 6.",
-    "skos:semanticRelation": [
-        {
-            "@id": "obo:CHEBI_47909"
-        },
-        {
-            "@id": "obo:CHEBI_36885"
-        },
-        {
-            "@id": "obo:CHEBI_139592"
-        },
-        {
-            "@id": "obo:CHEBI_35342"
-        }
+    "note_en": "A 3-oxo Delta(4)-steroid that is pregn-4-ene-3,20-dione substituted by an alpha-hydroxy group at position 17 and a methyl group at position 6.",
+    "alternative_parents": [
+        "obo:CHEBI_47909",
+        "obo:CHEBI_36885",
+        "obo:CHEBI_139592",
+        "obo:CHEBI_35342"
     ]
 }

@@ -1,31 +1,91 @@
 {
     "@context": {
-        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
-        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-        "obo": "http://purl.obolibrary.org/obo/",
-        "uniprot": "http://purl.uniprot.org/",
-        "owl": "http://www.w3.org/2002/07/owl#",
-        "concept": "https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/",
-        "chebi": "http://purl.obolibrary.org/obo/chebi/",
-        "skos": "http://www.w3.org/2004/02/skos/core#",
-        "dbo": "http://dbpedia.org/ontology/",
-        "dbp": "http://dbpedia.org/property/",
-        "altLabel": {
+        "smiles": {
+            "@id": "http://dbpedia.org/ontology/smiles"
+        },
+        "name": {
+            "@id": "http://www.w3.org/2004/02/skos/core#prefLabel",
+            "@language": "en"
+        },
+        "url": {
+            "@id": "http://www.w3.org/2000/01/rdf-schema#seeAlso",
+            "@type": "@id"
+        },
+        "inchikey": {
+            "@id": "http://dbpedia.org/property/inchikey"
+        },
+        "intermediate_nodes": {
+            "@id": "http://www.w3.org/2004/02/skos/core#broaderTransitive",
+            "@type": "@id"
+        },
+        "subclass": {
+            "@id": "http://www.w3.org/2004/02/skos/core#broaderTransitive",
+            "@type": "@id"
+        },
+        "kingdom": {
+            "@id": "http://www.w3.org/2004/02/skos/core#broaderTransitive",
+            "@type": "@id"
+        },
+        "class": {
+            "@id": "http://www.w3.org/2004/02/skos/core#broaderTransitive",
+            "@type": "@id"
+        },
+        "ancestors": {
+            "@id": "http://purl.org/dc/elements/1.1/relation",
+            "@language": "en"
+        },
+        "description": {
+            "@id": "http://www.w3.org/2004/02/skos/core#definition",
+            "@language": "en"
+        },
+        "direct_parent": {
+            "@id": "http://www.w3.org/2004/02/skos/core#broader",
+            "@type": "@id"
+        },
+        "alternative_parents": {
+            "@id": "http://www.w3.org/2004/02/skos/core#semanticRelation",
+            "@type": "@id"
+        },
+        "_id": {
+            "@id": "@id"
+        },
+        "chemont_id": {
+            "@id": "@id"
+        },
+        "altLabel_en": {
             "@id": "http://www.w3.org/2004/02/skos/core#altLabel",
+            "@language": "en"
+        },
+        "note_en": {
+            "@id": "http://www.w3.org/2004/02/skos/core#note",
             "@language": "en"
         },
         "graph": {
             "@id": "@graph"
-        }
+        },
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "obo": "http://purl.obolibrary.org/obo/",
+        "uniprot": "http://purl.uniprot.org/",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "CHEMONTID": "https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/",
+        "chebi": "http://purl.obolibrary.org/obo/",
+        "dbo": "http://dbpedia.org/ontology/",
+        "dbp": "http://dbpedia.org/property/",
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "tax_nodes": "http://classyfire.wishartlab.com/tax_nodes/",
+        "concept": "https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "@base": "https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/"
     },
-    "@id": "concept:WBPYTXDJUQJLPQ-VMXQISHHSA-N",
+    "_id": "concept:WBPYTXDJUQJLPQ-VMXQISHHSA-N",
     "@type": "skos:Concept",
     "dbo:formula": "C46H77NO17",
     "dbo:inchi": "InChI=1S/C46H77NO17/c1-13-33-30(22-58-45-42(57-12)41(56-11)37(52)26(5)60-45)18-23(2)14-15-31(49)24(3)19-29(16-17-48)39(25(4)32(50)20-34(51)62-33)64-44-38(53)36(47(9)10)40(27(6)61-44)63-35-21-46(8,55)43(54)28(7)59-35/h14-15,17-18,24-30,32-33,35-45,50,52-55H,13,16,19-22H2,1-12H3/b15-14+,23-18+/t24-,25+,26-,27-,28+,29+,30-,32-,33-,35+,36-,37-,38-,39-,40-,41-,42-,43+,44+,45-,46-/m1/s1",
-    "dbo:smiles": "CC[C@H]1OC(=O)C[C@@H](O)[C@H](C)[C@@H](O[C@@H]2O[C@H](C)[C@@H](O[C@H]3C[C@@](C)(O)[C@@H](O)[C@H](C)O3)[C@@H]([C@H]2O)N(C)C)[C@@H](CC=O)C[C@@H](C)C(=O)\\C=C\\C(\\C)=C\\[C@@H]1CO[C@@H]1O[C@H](C)[C@@H](O)[C@@H](OC)[C@H]1OC",
-    "dbp:inchikey": "WBPYTXDJUQJLPQ-VMXQISHHSA-N",
-    "chebi:charge": "0",
-    "skos:altLabel": [
+    "smiles": "CC[C@H]1OC(=O)C[C@@H](O)[C@H](C)[C@@H](O[C@@H]2O[C@H](C)[C@@H](O[C@H]3C[C@@](C)(O)[C@@H](O)[C@H](C)O3)[C@@H]([C@H]2O)N(C)C)[C@@H](CC=O)C[C@@H](C)C(=O)\\C=C\\C(\\C)=C\\[C@@H]1CO[C@@H]1O[C@H](C)[C@@H](O)[C@@H](OC)[C@H]1OC",
+    "inchikey": "WBPYTXDJUQJLPQ-VMXQISHHSA-N",
+    "obo:chebi/charge": "0",
+    "altLabel_en": [
         "[(2R,3R,4E,6E,9R,11R,12S,13S,14R)-12-[3,6-dideoxy-4-O-(2,6-dideoxy-3-C-methyl-alpha-L-ribo-hexopyranosyl)-3-(dimethylamino)-beta-D-glucopyranosyloxy]-2-ethyl-14-hydroxy-5,9,13-trimethyl-8,16-dioxo-11-(2-oxoethyl)oxacyclohexadeca-4,6-dien-3-yl]methyl 6-deoxy-2,3-di-O-methyl-beta-D-allopyranoside",
         "tilosina",
         "Tylan",
@@ -36,27 +96,15 @@
         "tylosinum"
     ],
     "skos:exactMatch": {
-        "@id": "obo:CHEBI_17658"
+        "_id": "obo:CHEBI_17658"
     },
-    "skos:note": "A macrolide antibiotic that is tylonolide having mono- and diglycosyl moieties attached to two of its hydroxy groups. It is found naturally as a fermentation product of Streptomyces fradiae.",
-    "skos:semanticRelation": [
-        {
-            "@id": "obo:CHEBI_17478"
-        },
-        {
-            "@id": "obo:CHEBI_63367"
-        },
-        {
-            "@id": "obo:CHEBI_51689"
-        },
-        {
-            "@id": "obo:CHEBI_63353"
-        },
-        {
-            "@id": "obo:CHEBI_25105"
-        },
-        {
-            "@id": "obo:CHEBI_25022"
-        }
+    "note_en": "A macrolide antibiotic that is tylonolide having mono- and diglycosyl moieties attached to two of its hydroxy groups. It is found naturally as a fermentation product of Streptomyces fradiae.",
+    "alternative_parents": [
+        "obo:CHEBI_17478",
+        "obo:CHEBI_63367",
+        "obo:CHEBI_51689",
+        "obo:CHEBI_63353",
+        "obo:CHEBI_25105",
+        "obo:CHEBI_25022"
     ]
 }

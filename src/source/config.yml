@@ -14,7 +14,7 @@ skos:
   turtle: .ttl
   jsonld: .jsonld
   csv: .csv
-  xlsx: .xlsx
+#  xlsx: .xlsx
   nt: .nt
 
 source:
@@ -63,10 +63,10 @@ metadata :
     temporal : https://data.omgeving.vlaanderen.be/id/periodoftime/dataset_omg
     type : http://www.w3.org/ns/dcat#Dataset
   distribution :
-    xlsx:
-      mediaType: https://www.iana.org/assignments/media-types/application/vnd.openxmlformats-officedocument.spreadsheetml.sheet
-      format: http://publications.europa.eu/resource/authority/file-type/XLSX
-      type: http://www.w3.org/ns/dcat#Distribution
+#    xlsx:
+#      mediaType: https://www.iana.org/assignments/media-types/application/vnd.openxmlformats-officedocument.spreadsheetml.sheet
+#      format: http://publications.europa.eu/resource/authority/file-type/XLSX
+#      type: http://www.w3.org/ns/dcat#Distribution
     csv :
       mediaType : https://www.iana.org/assignments/media-types/text/csv
       format : http://publications.europa.eu/resource/authority/file-type/CSV

@@ -1,34 +1,94 @@
 {
     "@context": {
-        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
-        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-        "obo": "http://purl.obolibrary.org/obo/",
-        "uniprot": "http://purl.uniprot.org/",
-        "owl": "http://www.w3.org/2002/07/owl#",
-        "concept": "https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/",
-        "chebi": "http://purl.obolibrary.org/obo/chebi/",
-        "skos": "http://www.w3.org/2004/02/skos/core#",
-        "dbo": "http://dbpedia.org/ontology/",
-        "dbp": "http://dbpedia.org/property/",
-        "altLabel": {
+        "smiles": {
+            "@id": "http://dbpedia.org/ontology/smiles"
+        },
+        "name": {
+            "@id": "http://www.w3.org/2004/02/skos/core#prefLabel",
+            "@language": "en"
+        },
+        "url": {
+            "@id": "http://www.w3.org/2000/01/rdf-schema#seeAlso",
+            "@type": "@id"
+        },
+        "inchikey": {
+            "@id": "http://dbpedia.org/property/inchikey"
+        },
+        "intermediate_nodes": {
+            "@id": "http://www.w3.org/2004/02/skos/core#broaderTransitive",
+            "@type": "@id"
+        },
+        "subclass": {
+            "@id": "http://www.w3.org/2004/02/skos/core#broaderTransitive",
+            "@type": "@id"
+        },
+        "kingdom": {
+            "@id": "http://www.w3.org/2004/02/skos/core#broaderTransitive",
+            "@type": "@id"
+        },
+        "class": {
+            "@id": "http://www.w3.org/2004/02/skos/core#broaderTransitive",
+            "@type": "@id"
+        },
+        "ancestors": {
+            "@id": "http://purl.org/dc/elements/1.1/relation",
+            "@language": "en"
+        },
+        "description": {
+            "@id": "http://www.w3.org/2004/02/skos/core#definition",
+            "@language": "en"
+        },
+        "direct_parent": {
+            "@id": "http://www.w3.org/2004/02/skos/core#broader",
+            "@type": "@id"
+        },
+        "alternative_parents": {
+            "@id": "http://www.w3.org/2004/02/skos/core#semanticRelation",
+            "@type": "@id"
+        },
+        "_id": {
+            "@id": "@id"
+        },
+        "chemont_id": {
+            "@id": "@id"
+        },
+        "altLabel_en": {
             "@id": "http://www.w3.org/2004/02/skos/core#altLabel",
+            "@language": "en"
+        },
+        "note_en": {
+            "@id": "http://www.w3.org/2004/02/skos/core#note",
             "@language": "en"
         },
         "graph": {
             "@id": "@graph"
-        }
+        },
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "obo": "http://purl.obolibrary.org/obo/",
+        "uniprot": "http://purl.uniprot.org/",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "CHEMONTID": "https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/",
+        "chebi": "http://purl.obolibrary.org/obo/",
+        "dbo": "http://dbpedia.org/ontology/",
+        "dbp": "http://dbpedia.org/property/",
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "tax_nodes": "http://classyfire.wishartlab.com/tax_nodes/",
+        "concept": "https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "@base": "https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/"
     },
-    "@id": "concept:SLXKOJJOQWFEFD-UHFFFAOYSA-N",
+    "_id": "concept:SLXKOJJOQWFEFD-UHFFFAOYSA-N",
     "@type": "skos:Concept",
     "dbo:formula": "C6H13NO2",
     "dbo:inchi": "InChI=1S/C6H13NO2/c7-5-3-1-2-4-6(8)9/h1-5,7H2,(H,8,9)",
-    "dbo:smiles": [
+    "smiles": [
         "[NH3+]CCCCCC([O-])=O",
         "NCCCCCC(O)=O"
     ],
-    "dbp:inchikey": "SLXKOJJOQWFEFD-UHFFFAOYSA-N",
-    "chebi:charge": "0",
-    "skos:altLabel": [
+    "inchikey": "SLXKOJJOQWFEFD-UHFFFAOYSA-N",
+    "obo:chebi/charge": "0",
+    "altLabel_en": [
         "6-aminohexanoate",
         "6-ammoniohexanoate",
         "6-azaniumylhexanoate",
@@ -70,25 +130,19 @@
     ],
     "skos:exactMatch": [
         {
-            "@id": "obo:CHEBI_57826"
+            "_id": "obo:CHEBI_57826"
         },
         {
-            "@id": "obo:CHEBI_16586"
+            "_id": "obo:CHEBI_16586"
         }
     ],
-    "skos:note": [
+    "note_en": [
         "Zwitterionic form of 6-aminohexanoic acid arising from migration of a proton from the carboxy group to the amino group; major species at pH 7.3.",
         "An epsilon-amino acid comprising hexanoic acid carrying an amino substituent at position C-6. Used to control postoperative bleeding, and to treat overdose effects of the thrombolytic agents streptokinase and tissue plasminogen activator."
     ],
-    "skos:semanticRelation": [
-        {
-            "@id": "obo:CHEBI_35238"
-        },
-        {
-            "@id": "obo:CHEBI_59758"
-        },
-        {
-            "@id": "obo:CHEBI_35958"
-        }
+    "alternative_parents": [
+        "obo:CHEBI_35238",
+        "obo:CHEBI_59758",
+        "obo:CHEBI_35958"
     ]
 }

@@ -1,31 +1,91 @@
 {
     "@context": {
-        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
-        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-        "obo": "http://purl.obolibrary.org/obo/",
-        "uniprot": "http://purl.uniprot.org/",
-        "owl": "http://www.w3.org/2002/07/owl#",
-        "concept": "https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/",
-        "chebi": "http://purl.obolibrary.org/obo/chebi/",
-        "skos": "http://www.w3.org/2004/02/skos/core#",
-        "dbo": "http://dbpedia.org/ontology/",
-        "dbp": "http://dbpedia.org/property/",
-        "altLabel": {
+        "smiles": {
+            "@id": "http://dbpedia.org/ontology/smiles"
+        },
+        "name": {
+            "@id": "http://www.w3.org/2004/02/skos/core#prefLabel",
+            "@language": "en"
+        },
+        "url": {
+            "@id": "http://www.w3.org/2000/01/rdf-schema#seeAlso",
+            "@type": "@id"
+        },
+        "inchikey": {
+            "@id": "http://dbpedia.org/property/inchikey"
+        },
+        "intermediate_nodes": {
+            "@id": "http://www.w3.org/2004/02/skos/core#broaderTransitive",
+            "@type": "@id"
+        },
+        "subclass": {
+            "@id": "http://www.w3.org/2004/02/skos/core#broaderTransitive",
+            "@type": "@id"
+        },
+        "kingdom": {
+            "@id": "http://www.w3.org/2004/02/skos/core#broaderTransitive",
+            "@type": "@id"
+        },
+        "class": {
+            "@id": "http://www.w3.org/2004/02/skos/core#broaderTransitive",
+            "@type": "@id"
+        },
+        "ancestors": {
+            "@id": "http://purl.org/dc/elements/1.1/relation",
+            "@language": "en"
+        },
+        "description": {
+            "@id": "http://www.w3.org/2004/02/skos/core#definition",
+            "@language": "en"
+        },
+        "direct_parent": {
+            "@id": "http://www.w3.org/2004/02/skos/core#broader",
+            "@type": "@id"
+        },
+        "alternative_parents": {
+            "@id": "http://www.w3.org/2004/02/skos/core#semanticRelation",
+            "@type": "@id"
+        },
+        "_id": {
+            "@id": "@id"
+        },
+        "chemont_id": {
+            "@id": "@id"
+        },
+        "altLabel_en": {
             "@id": "http://www.w3.org/2004/02/skos/core#altLabel",
+            "@language": "en"
+        },
+        "note_en": {
+            "@id": "http://www.w3.org/2004/02/skos/core#note",
             "@language": "en"
         },
         "graph": {
             "@id": "@graph"
-        }
+        },
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "obo": "http://purl.obolibrary.org/obo/",
+        "uniprot": "http://purl.uniprot.org/",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "CHEMONTID": "https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/",
+        "chebi": "http://purl.obolibrary.org/obo/",
+        "dbo": "http://dbpedia.org/ontology/",
+        "dbp": "http://dbpedia.org/property/",
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "tax_nodes": "http://classyfire.wishartlab.com/tax_nodes/",
+        "concept": "https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "@base": "https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/"
     },
-    "@id": "concept:KDLRVYVGXIQJDK-NOWPCOIGSA-N",
+    "_id": "concept:KDLRVYVGXIQJDK-NOWPCOIGSA-N",
     "@type": "skos:Concept",
     "dbo:formula": "C18H33ClN2O5S",
     "dbo:inchi": "InChI=1S/C18H33ClN2O5S/c1-5-6-10-7-11(21(3)8-10)17(25)20-12(9(2)19)16-14(23)13(22)15(24)18(26-16)27-4/h9-16,18,22-24H,5-8H2,1-4H3,(H,20,25)/t9?,10-,11+,12?,13+,14-,15-,16-,18-/m1/s1",
-    "dbo:smiles": "CCC[C@@H]1C[C@H](N(C)C1)C(=O)NC(C(C)Cl)[C@H]1O[C@H](SC)[C@H](O)[C@@H](O)[C@H]1O",
-    "dbp:inchikey": "KDLRVYVGXIQJDK-NOWPCOIGSA-N",
-    "chebi:charge": "0",
-    "skos:altLabel": [
+    "smiles": "CCC[C@@H]1C[C@H](N(C)C1)C(=O)NC(C(C)Cl)[C@H]1O[C@H](SC)[C@H](O)[C@@H](O)[C@H]1O",
+    "inchikey": "KDLRVYVGXIQJDK-NOWPCOIGSA-N",
+    "obo:chebi/charge": "0",
+    "altLabel_en": [
         "7(S)-Chloro-7-deoxylincomycin",
         "7-CDL",
         "Cleocin (TN)",
@@ -34,24 +94,14 @@
         "Methyl 7-chloro-6,7,8-trideoxy-6-(1-methyl-trans-4-propyl-L-2-pyrrolidinecarboxamido)-1-thio-L-threo-alpha-D-galacto-octopyranoside"
     ],
     "skos:exactMatch": {
-        "@id": "obo:CHEBI_3745"
+        "_id": "obo:CHEBI_3745"
     },
-    "skos:note": "A carbohydrate-containing antibiotic that is the  semisynthetic derivative of lincomycin, a natural antibiotic.",
-    "skos:semanticRelation": [
-        {
-            "@id": "obo:CHEBI_36683"
-        },
-        {
-            "@id": "obo:CHEBI_35275"
-        },
-        {
-            "@id": "obo:CHEBI_72588"
-        },
-        {
-            "@id": "obo:CHEBI_23007"
-        },
-        {
-            "@id": "obo:CHEBI_46770"
-        }
+    "note_en": "A carbohydrate-containing antibiotic that is the  semisynthetic derivative of lincomycin, a natural antibiotic.",
+    "alternative_parents": [
+        "obo:CHEBI_36683",
+        "obo:CHEBI_35275",
+        "obo:CHEBI_72588",
+        "obo:CHEBI_23007",
+        "obo:CHEBI_46770"
     ]
 }

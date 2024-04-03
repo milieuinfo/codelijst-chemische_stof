@@ -1,31 +1,91 @@
 {
     "@context": {
-        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
-        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-        "obo": "http://purl.obolibrary.org/obo/",
-        "uniprot": "http://purl.uniprot.org/",
-        "owl": "http://www.w3.org/2002/07/owl#",
-        "concept": "https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/",
-        "chebi": "http://purl.obolibrary.org/obo/chebi/",
-        "skos": "http://www.w3.org/2004/02/skos/core#",
-        "dbo": "http://dbpedia.org/ontology/",
-        "dbp": "http://dbpedia.org/property/",
-        "altLabel": {
+        "smiles": {
+            "@id": "http://dbpedia.org/ontology/smiles"
+        },
+        "name": {
+            "@id": "http://www.w3.org/2004/02/skos/core#prefLabel",
+            "@language": "en"
+        },
+        "url": {
+            "@id": "http://www.w3.org/2000/01/rdf-schema#seeAlso",
+            "@type": "@id"
+        },
+        "inchikey": {
+            "@id": "http://dbpedia.org/property/inchikey"
+        },
+        "intermediate_nodes": {
+            "@id": "http://www.w3.org/2004/02/skos/core#broaderTransitive",
+            "@type": "@id"
+        },
+        "subclass": {
+            "@id": "http://www.w3.org/2004/02/skos/core#broaderTransitive",
+            "@type": "@id"
+        },
+        "kingdom": {
+            "@id": "http://www.w3.org/2004/02/skos/core#broaderTransitive",
+            "@type": "@id"
+        },
+        "class": {
+            "@id": "http://www.w3.org/2004/02/skos/core#broaderTransitive",
+            "@type": "@id"
+        },
+        "ancestors": {
+            "@id": "http://purl.org/dc/elements/1.1/relation",
+            "@language": "en"
+        },
+        "description": {
+            "@id": "http://www.w3.org/2004/02/skos/core#definition",
+            "@language": "en"
+        },
+        "direct_parent": {
+            "@id": "http://www.w3.org/2004/02/skos/core#broader",
+            "@type": "@id"
+        },
+        "alternative_parents": {
+            "@id": "http://www.w3.org/2004/02/skos/core#semanticRelation",
+            "@type": "@id"
+        },
+        "_id": {
+            "@id": "@id"
+        },
+        "chemont_id": {
+            "@id": "@id"
+        },
+        "altLabel_en": {
             "@id": "http://www.w3.org/2004/02/skos/core#altLabel",
+            "@language": "en"
+        },
+        "note_en": {
+            "@id": "http://www.w3.org/2004/02/skos/core#note",
             "@language": "en"
         },
         "graph": {
             "@id": "@graph"
-        }
+        },
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "obo": "http://purl.obolibrary.org/obo/",
+        "uniprot": "http://purl.uniprot.org/",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "CHEMONTID": "https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/",
+        "chebi": "http://purl.obolibrary.org/obo/",
+        "dbo": "http://dbpedia.org/ontology/",
+        "dbp": "http://dbpedia.org/property/",
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "tax_nodes": "http://classyfire.wishartlab.com/tax_nodes/",
+        "concept": "https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "@base": "https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/"
     },
-    "@id": "concept:WWJZWCUNLNYYAU-UHFFFAOYSA-N",
+    "_id": "concept:WWJZWCUNLNYYAU-UHFFFAOYSA-N",
     "@type": "skos:Concept",
     "dbo:formula": "C16H20O6P2S3",
     "dbo:inchi": "InChI=1S/C16H20O6P2S3/c1-17-23(25,18-2)21-13-5-9-15(10-6-13)27-16-11-7-14(8-12-16)22-24(26,19-3)20-4/h5-12H,1-4H3",
-    "dbo:smiles": "S=P(OC)(OC1=CC=C(C=C1)SC2=CC=C(C=C2)OP(=S)(OC)OC)OC",
-    "dbp:inchikey": "WWJZWCUNLNYYAU-UHFFFAOYSA-N",
-    "chebi:charge": "0",
-    "skos:altLabel": [
+    "smiles": "S=P(OC)(OC1=CC=C(C=C1)SC2=CC=C(C=C2)OP(=S)(OC)OC)OC",
+    "inchikey": "WWJZWCUNLNYYAU-UHFFFAOYSA-N",
+    "obo:chebi/charge": "0",
+    "altLabel_en": [
         "temephos",
         "Abate",
         "O,O,O',O'-tetramethyl O,O'-(sulfanediyldi-4,1-phenylene) bis(phosphorothioate)",
@@ -39,18 +99,12 @@
         "temefos"
     ],
     "skos:exactMatch": {
-        "@id": "obo:CHEBI_38954"
+        "_id": "obo:CHEBI_38954"
     },
-    "skos:note": "An organic sulfide that is diphenyl sulfide in which the hydrogen at the para position of each of the phenyl groups has been replaced by a (dimethoxyphosphorothioyl)oxy group.",
-    "skos:semanticRelation": [
-        {
-            "@id": "obo:CHEBI_16385"
-        },
-        {
-            "@id": "obo:CHEBI_37512"
-        },
-        {
-            "@id": "obo:CHEBI_25715"
-        }
+    "note_en": "An organic sulfide that is diphenyl sulfide in which the hydrogen at the para position of each of the phenyl groups has been replaced by a (dimethoxyphosphorothioyl)oxy group.",
+    "alternative_parents": [
+        "obo:CHEBI_16385",
+        "obo:CHEBI_37512",
+        "obo:CHEBI_25715"
     ]
 }

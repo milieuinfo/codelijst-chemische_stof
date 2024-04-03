@@ -1,31 +1,91 @@
 {
     "@context": {
-        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
-        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-        "obo": "http://purl.obolibrary.org/obo/",
-        "uniprot": "http://purl.uniprot.org/",
-        "owl": "http://www.w3.org/2002/07/owl#",
-        "concept": "https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/",
-        "chebi": "http://purl.obolibrary.org/obo/chebi/",
-        "skos": "http://www.w3.org/2004/02/skos/core#",
-        "dbo": "http://dbpedia.org/ontology/",
-        "dbp": "http://dbpedia.org/property/",
-        "altLabel": {
+        "smiles": {
+            "@id": "http://dbpedia.org/ontology/smiles"
+        },
+        "name": {
+            "@id": "http://www.w3.org/2004/02/skos/core#prefLabel",
+            "@language": "en"
+        },
+        "url": {
+            "@id": "http://www.w3.org/2000/01/rdf-schema#seeAlso",
+            "@type": "@id"
+        },
+        "inchikey": {
+            "@id": "http://dbpedia.org/property/inchikey"
+        },
+        "intermediate_nodes": {
+            "@id": "http://www.w3.org/2004/02/skos/core#broaderTransitive",
+            "@type": "@id"
+        },
+        "subclass": {
+            "@id": "http://www.w3.org/2004/02/skos/core#broaderTransitive",
+            "@type": "@id"
+        },
+        "kingdom": {
+            "@id": "http://www.w3.org/2004/02/skos/core#broaderTransitive",
+            "@type": "@id"
+        },
+        "class": {
+            "@id": "http://www.w3.org/2004/02/skos/core#broaderTransitive",
+            "@type": "@id"
+        },
+        "ancestors": {
+            "@id": "http://purl.org/dc/elements/1.1/relation",
+            "@language": "en"
+        },
+        "description": {
+            "@id": "http://www.w3.org/2004/02/skos/core#definition",
+            "@language": "en"
+        },
+        "direct_parent": {
+            "@id": "http://www.w3.org/2004/02/skos/core#broader",
+            "@type": "@id"
+        },
+        "alternative_parents": {
+            "@id": "http://www.w3.org/2004/02/skos/core#semanticRelation",
+            "@type": "@id"
+        },
+        "_id": {
+            "@id": "@id"
+        },
+        "chemont_id": {
+            "@id": "@id"
+        },
+        "altLabel_en": {
             "@id": "http://www.w3.org/2004/02/skos/core#altLabel",
+            "@language": "en"
+        },
+        "note_en": {
+            "@id": "http://www.w3.org/2004/02/skos/core#note",
             "@language": "en"
         },
         "graph": {
             "@id": "@graph"
-        }
+        },
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "obo": "http://purl.obolibrary.org/obo/",
+        "uniprot": "http://purl.uniprot.org/",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "CHEMONTID": "https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/",
+        "chebi": "http://purl.obolibrary.org/obo/",
+        "dbo": "http://dbpedia.org/ontology/",
+        "dbp": "http://dbpedia.org/property/",
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "tax_nodes": "http://classyfire.wishartlab.com/tax_nodes/",
+        "concept": "https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "@base": "https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/"
     },
-    "@id": "concept:XKTMIJODWOEBKO-UHFFFAOYSA-M",
+    "_id": "concept:XKTMIJODWOEBKO-UHFFFAOYSA-M",
     "@type": "skos:Concept",
     "dbo:formula": "C37H35N2NaO6S2",
     "dbo:inchi": "InChI=1S/C37H36N2O6S2.Na/c1-3-38(26-28-10-8-14-35(24-28)46(40,41)42)33-20-16-31(17-21-33)37(30-12-6-5-7-13-30)32-18-22-34(23-19-32)39(4-2)27-29-11-9-15-36(25-29)47(43,44)45;/h5-25H,3-4,26-27H2,1-2H3,(H-,40,41,42,43,44,45);/q;+1/p-1",
-    "dbo:smiles": "[Na+].C/1(=C(/C2=CC=C(C=C2)N(CC)CC3=CC(=CC=C3)S([O-])(=O)=O)\\C4=CC=CC=C4)\\C=C/C(=[N+](\\CC5=CC(=CC=C5)S([O-])(=O)=O)/CC)/C=C1",
-    "dbp:inchikey": "XKTMIJODWOEBKO-UHFFFAOYSA-M",
-    "chebi:charge": "0",
-    "skos:altLabel": [
+    "smiles": "[Na+].C/1(=C(/C2=CC=C(C=C2)N(CC)CC3=CC(=CC=C3)S([O-])(=O)=O)\\C4=CC=CC=C4)\\C=C/C(=[N+](\\CC5=CC(=CC=C5)S([O-])(=O)=O)/CC)/C=C1",
+    "inchikey": "XKTMIJODWOEBKO-UHFFFAOYSA-M",
+    "obo:chebi/charge": "0",
+    "altLabel_en": [
         "C.I. Acid Green 3",
         "Acid green 3",
         "C.I. 42085",
@@ -39,10 +99,8 @@
         "sodium 3-[(ethyl{4-[(4-{ethyl[(3-sulfonatophenyl)methyl]amino}phenyl)(phenyl)methylidene]cyclohexa-2,5-dien-1-ylidene}azaniumyl)methyl]benzene-1-sulfonate"
     ],
     "skos:exactMatch": {
-        "@id": "obo:CHEBI_90112"
+        "_id": "obo:CHEBI_90112"
     },
-    "skos:note": "An organic sodium salt having 3-[(ethyl{4-[(4-{ethyl[(3-sulfonatophenyl)methyl]amino}phenyl)(phenyl)methylidene]cyclohexa-2,5-dien-1-ylidene}azaniumyl)methyl]benzene-1-sulfonate. Used as a substitute for Light green SF yellowish in Masson's trichrome, although it is prone to fade. Previously used as a food dye but is now no longer approved.",
-    "skos:semanticRelation": {
-        "@id": "obo:CHEBI_38700"
-    }
+    "note_en": "An organic sodium salt having 3-[(ethyl{4-[(4-{ethyl[(3-sulfonatophenyl)methyl]amino}phenyl)(phenyl)methylidene]cyclohexa-2,5-dien-1-ylidene}azaniumyl)methyl]benzene-1-sulfonate. Used as a substitute for Light green SF yellowish in Masson's trichrome, although it is prone to fade. Previously used as a food dye but is now no longer approved.",
+    "alternative_parents": "obo:CHEBI_38700"
 }

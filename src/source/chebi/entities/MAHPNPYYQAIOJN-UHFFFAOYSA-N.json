@@ -1,31 +1,91 @@
 {
     "@context": {
-        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
-        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-        "obo": "http://purl.obolibrary.org/obo/",
-        "uniprot": "http://purl.uniprot.org/",
-        "owl": "http://www.w3.org/2002/07/owl#",
-        "concept": "https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/",
-        "chebi": "http://purl.obolibrary.org/obo/chebi/",
-        "skos": "http://www.w3.org/2004/02/skos/core#",
-        "dbo": "http://dbpedia.org/ontology/",
-        "dbp": "http://dbpedia.org/property/",
-        "altLabel": {
+        "smiles": {
+            "@id": "http://dbpedia.org/ontology/smiles"
+        },
+        "name": {
+            "@id": "http://www.w3.org/2004/02/skos/core#prefLabel",
+            "@language": "en"
+        },
+        "url": {
+            "@id": "http://www.w3.org/2000/01/rdf-schema#seeAlso",
+            "@type": "@id"
+        },
+        "inchikey": {
+            "@id": "http://dbpedia.org/property/inchikey"
+        },
+        "intermediate_nodes": {
+            "@id": "http://www.w3.org/2004/02/skos/core#broaderTransitive",
+            "@type": "@id"
+        },
+        "subclass": {
+            "@id": "http://www.w3.org/2004/02/skos/core#broaderTransitive",
+            "@type": "@id"
+        },
+        "kingdom": {
+            "@id": "http://www.w3.org/2004/02/skos/core#broaderTransitive",
+            "@type": "@id"
+        },
+        "class": {
+            "@id": "http://www.w3.org/2004/02/skos/core#broaderTransitive",
+            "@type": "@id"
+        },
+        "ancestors": {
+            "@id": "http://purl.org/dc/elements/1.1/relation",
+            "@language": "en"
+        },
+        "description": {
+            "@id": "http://www.w3.org/2004/02/skos/core#definition",
+            "@language": "en"
+        },
+        "direct_parent": {
+            "@id": "http://www.w3.org/2004/02/skos/core#broader",
+            "@type": "@id"
+        },
+        "alternative_parents": {
+            "@id": "http://www.w3.org/2004/02/skos/core#semanticRelation",
+            "@type": "@id"
+        },
+        "_id": {
+            "@id": "@id"
+        },
+        "chemont_id": {
+            "@id": "@id"
+        },
+        "altLabel_en": {
             "@id": "http://www.w3.org/2004/02/skos/core#altLabel",
+            "@language": "en"
+        },
+        "note_en": {
+            "@id": "http://www.w3.org/2004/02/skos/core#note",
             "@language": "en"
         },
         "graph": {
             "@id": "@graph"
-        }
+        },
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "obo": "http://purl.obolibrary.org/obo/",
+        "uniprot": "http://purl.uniprot.org/",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "CHEMONTID": "https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/",
+        "chebi": "http://purl.obolibrary.org/obo/",
+        "dbo": "http://dbpedia.org/ontology/",
+        "dbp": "http://dbpedia.org/property/",
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "tax_nodes": "http://classyfire.wishartlab.com/tax_nodes/",
+        "concept": "https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "@base": "https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/"
     },
-    "@id": "concept:MAHPNPYYQAIOJN-UHFFFAOYSA-N",
+    "_id": "concept:MAHPNPYYQAIOJN-UHFFFAOYSA-N",
     "@type": "skos:Concept",
     "dbo:formula": "C13H16N10O5S",
     "dbo:inchi": "InChI=1S/C13H16N10O5S/c1-22-11(7(6-14-22)10-18-21-23(2)19-10)29(25,26)20-13(24)17-12-15-8(27-3)5-9(16-12)28-4/h5-6H,1-4H3,(H2,15,16,17,20,24)",
-    "dbo:smiles": "C1(=CC(=NC(=N1)NC(NS(C=2N(N=CC2C3=NN(N=N3)C)C)(=O)=O)=O)OC)OC",
-    "dbp:inchikey": "MAHPNPYYQAIOJN-UHFFFAOYSA-N",
-    "chebi:charge": "0",
-    "skos:altLabel": [
+    "smiles": "C1(=CC(=NC(=N1)NC(NS(C=2N(N=CC2C3=NN(N=N3)C)C)(=O)=O)=O)OC)OC",
+    "inchikey": "MAHPNPYYQAIOJN-UHFFFAOYSA-N",
+    "obo:chebi/charge": "0",
+    "altLabel_en": [
         "1-(4,6-dimethoxypyrimidin-2-yl)-3-[1-methyl-4-(2-methyl-2H-tetrazol-5-yl)pyrazol-5-ylsulfonyl]urea",
         "A8947",
         "A 8947",
@@ -37,24 +97,14 @@
         "N-[[(4,6-dimethoxy-2-pyrimidinyl)amino]carbonyl]-1-methyl-4-(2-methyl-2H-tetrazol-5-yl)-1H-pyrazole-5-sulfonamide"
     ],
     "skos:exactMatch": {
-        "@id": "obo:CHEBI_81746"
+        "_id": "obo:CHEBI_81746"
     },
-    "skos:note": "An N-sulfonylurea that is urea in which a nitrogen attached to one of the nitrogens has been replaced by a 4,6-dipyrimidin-2-yl group while a hydrogen attached to the other urea nitrogen has been replaced by a [1-methyl-4-(2-methyl-2H-tetrazol-5-yl)-1H-pyrazol-5-yl]sulfonyl group. An acetolactate synthase inhibitor, it is used as a herbicide for the control of a variety of broad-leaved and sedge weeds in paddy fields and other aquatic situations.",
-    "skos:semanticRelation": [
-        {
-            "@id": "obo:CHEBI_35618"
-        },
-        {
-            "@id": "obo:CHEBI_64459"
-        },
-        {
-            "@id": "obo:CHEBI_76983"
-        },
-        {
-            "@id": "obo:CHEBI_35689"
-        },
-        {
-            "@id": "obo:CHEBI_38601"
-        }
+    "note_en": "An N-sulfonylurea that is urea in which a nitrogen attached to one of the nitrogens has been replaced by a 4,6-dipyrimidin-2-yl group while a hydrogen attached to the other urea nitrogen has been replaced by a [1-methyl-4-(2-methyl-2H-tetrazol-5-yl)-1H-pyrazol-5-yl]sulfonyl group. An acetolactate synthase inhibitor, it is used as a herbicide for the control of a variety of broad-leaved and sedge weeds in paddy fields and other aquatic situations.",
+    "alternative_parents": [
+        "obo:CHEBI_35618",
+        "obo:CHEBI_64459",
+        "obo:CHEBI_76983",
+        "obo:CHEBI_35689",
+        "obo:CHEBI_38601"
     ]
 }

@@ -1,27 +1,91 @@
 {
     "@context": {
+        "smiles": {
+            "@id": "http://dbpedia.org/ontology/smiles"
+        },
+        "name": {
+            "@id": "http://www.w3.org/2004/02/skos/core#prefLabel",
+            "@language": "en"
+        },
+        "url": {
+            "@id": "http://www.w3.org/2000/01/rdf-schema#seeAlso",
+            "@type": "@id"
+        },
+        "inchikey": {
+            "@id": "http://dbpedia.org/property/inchikey"
+        },
+        "intermediate_nodes": {
+            "@id": "http://www.w3.org/2004/02/skos/core#broaderTransitive",
+            "@type": "@id"
+        },
+        "subclass": {
+            "@id": "http://www.w3.org/2004/02/skos/core#broaderTransitive",
+            "@type": "@id"
+        },
+        "kingdom": {
+            "@id": "http://www.w3.org/2004/02/skos/core#broaderTransitive",
+            "@type": "@id"
+        },
+        "class": {
+            "@id": "http://www.w3.org/2004/02/skos/core#broaderTransitive",
+            "@type": "@id"
+        },
+        "ancestors": {
+            "@id": "http://purl.org/dc/elements/1.1/relation",
+            "@language": "en"
+        },
+        "description": {
+            "@id": "http://www.w3.org/2004/02/skos/core#definition",
+            "@language": "en"
+        },
+        "direct_parent": {
+            "@id": "http://www.w3.org/2004/02/skos/core#broader",
+            "@type": "@id"
+        },
+        "alternative_parents": {
+            "@id": "http://www.w3.org/2004/02/skos/core#semanticRelation",
+            "@type": "@id"
+        },
+        "_id": {
+            "@id": "@id"
+        },
+        "chemont_id": {
+            "@id": "@id"
+        },
+        "altLabel_en": {
+            "@id": "http://www.w3.org/2004/02/skos/core#altLabel",
+            "@language": "en"
+        },
+        "note_en": {
+            "@id": "http://www.w3.org/2004/02/skos/core#note",
+            "@language": "en"
+        },
+        "graph": {
+            "@id": "@graph"
+        },
         "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
-        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
         "obo": "http://purl.obolibrary.org/obo/",
         "uniprot": "http://purl.uniprot.org/",
         "owl": "http://www.w3.org/2002/07/owl#",
-        "concept": "https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/",
-        "chebi": "http://purl.obolibrary.org/obo/chebi/",
-        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "CHEMONTID": "https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/",
+        "chebi": "http://purl.obolibrary.org/obo/",
         "dbo": "http://dbpedia.org/ontology/",
         "dbp": "http://dbpedia.org/property/",
-        "graph": {
-            "@id": "@graph"
-        }
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "tax_nodes": "http://classyfire.wishartlab.com/tax_nodes/",
+        "concept": "https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "@base": "https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/"
     },
-    "@id": "concept:CYQFCXCEBYINGO-IAGOWNOFSA-N",
+    "_id": "concept:CYQFCXCEBYINGO-IAGOWNOFSA-N",
     "@type": "skos:Concept",
     "dbo:formula": "C21H30O2",
     "dbo:inchi": "InChI=1S/C21H30O2/c1-5-6-7-8-15-12-18(22)20-16-11-14(2)9-10-17(16)21(3,4)23-19(20)13-15/h11-13,16-17,22H,5-10H2,1-4H3/t16-,17-/m1/s1",
-    "dbo:smiles": "[H][C@@]12CCC(C)=C[C@@]1([H])c1c(O)cc(CCCCC)cc1OC2(C)C",
-    "dbp:inchikey": "CYQFCXCEBYINGO-IAGOWNOFSA-N",
-    "chebi:charge": "0",
-    "skos:altLabel": [
+    "smiles": "[H][C@@]12CCC(C)=C[C@@]1([H])c1c(O)cc(CCCCC)cc1OC2(C)C",
+    "inchikey": "CYQFCXCEBYINGO-IAGOWNOFSA-N",
+    "obo:chebi/charge": "0",
+    "altLabel_en": [
         "(-)-delta9-trans-Tetrahydrocannabinol",
         "(6aR,10aR)-6,6,9-trimethyl-3-pentyl-6a,7,8,10a-tetrahydro-6H-benzo[c]chromen-1-ol",
         "1-trans-delta-9-Tetrahydrocannabinol",
@@ -37,21 +101,13 @@
         "Tetrahydrocannabinol"
     ],
     "skos:exactMatch": {
-        "@id": "obo:CHEBI_66964"
+        "_id": "obo:CHEBI_66964"
     },
-    "skos:note": "A diterpenoid that is 6a,7,8,10a-tetrahydro-6H-benzo[c]chromene substituted at position 1 by a hydroxy group, positions 6, 6 and 9 by methyl groups and at position 3 by a pentyl group. The principal psychoactive constituent of the cannabis plant, it is used for treatment of anorexia associated with AIDS as well as nausea and vomiting associated with cancer chemotherapy.",
-    "skos:semanticRelation": [
-        {
-            "@id": "obo:CHEBI_23849"
-        },
-        {
-            "@id": "obo:CHEBI_26188"
-        },
-        {
-            "@id": "obo:CHEBI_67196"
-        },
-        {
-            "@id": "obo:CHEBI_38920"
-        }
+    "note_en": "A diterpenoid that is 6a,7,8,10a-tetrahydro-6H-benzo[c]chromene substituted at position 1 by a hydroxy group, positions 6, 6 and 9 by methyl groups and at position 3 by a pentyl group. The principal psychoactive constituent of the cannabis plant, it is used for treatment of anorexia associated with AIDS as well as nausea and vomiting associated with cancer chemotherapy.",
+    "alternative_parents": [
+        "obo:CHEBI_23849",
+        "obo:CHEBI_26188",
+        "obo:CHEBI_67196",
+        "obo:CHEBI_38920"
     ]
 }

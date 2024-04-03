@@ -1,44 +1,100 @@
 {
     "@context": {
-        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
-        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-        "obo": "http://purl.obolibrary.org/obo/",
-        "uniprot": "http://purl.uniprot.org/",
-        "owl": "http://www.w3.org/2002/07/owl#",
-        "concept": "https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/",
-        "chebi": "http://purl.obolibrary.org/obo/chebi/",
-        "skos": "http://www.w3.org/2004/02/skos/core#",
-        "dbo": "http://dbpedia.org/ontology/",
-        "dbp": "http://dbpedia.org/property/",
-        "altLabel": {
+        "smiles": {
+            "@id": "http://dbpedia.org/ontology/smiles"
+        },
+        "name": {
+            "@id": "http://www.w3.org/2004/02/skos/core#prefLabel",
+            "@language": "en"
+        },
+        "url": {
+            "@id": "http://www.w3.org/2000/01/rdf-schema#seeAlso",
+            "@type": "@id"
+        },
+        "inchikey": {
+            "@id": "http://dbpedia.org/property/inchikey"
+        },
+        "intermediate_nodes": {
+            "@id": "http://www.w3.org/2004/02/skos/core#broaderTransitive",
+            "@type": "@id"
+        },
+        "subclass": {
+            "@id": "http://www.w3.org/2004/02/skos/core#broaderTransitive",
+            "@type": "@id"
+        },
+        "kingdom": {
+            "@id": "http://www.w3.org/2004/02/skos/core#broaderTransitive",
+            "@type": "@id"
+        },
+        "class": {
+            "@id": "http://www.w3.org/2004/02/skos/core#broaderTransitive",
+            "@type": "@id"
+        },
+        "ancestors": {
+            "@id": "http://purl.org/dc/elements/1.1/relation",
+            "@language": "en"
+        },
+        "description": {
+            "@id": "http://www.w3.org/2004/02/skos/core#definition",
+            "@language": "en"
+        },
+        "direct_parent": {
+            "@id": "http://www.w3.org/2004/02/skos/core#broader",
+            "@type": "@id"
+        },
+        "alternative_parents": {
+            "@id": "http://www.w3.org/2004/02/skos/core#semanticRelation",
+            "@type": "@id"
+        },
+        "_id": {
+            "@id": "@id"
+        },
+        "chemont_id": {
+            "@id": "@id"
+        },
+        "altLabel_en": {
             "@id": "http://www.w3.org/2004/02/skos/core#altLabel",
+            "@language": "en"
+        },
+        "note_en": {
+            "@id": "http://www.w3.org/2004/02/skos/core#note",
             "@language": "en"
         },
         "graph": {
             "@id": "@graph"
-        }
+        },
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "obo": "http://purl.obolibrary.org/obo/",
+        "uniprot": "http://purl.uniprot.org/",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "CHEMONTID": "https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/",
+        "chebi": "http://purl.obolibrary.org/obo/",
+        "dbo": "http://dbpedia.org/ontology/",
+        "dbp": "http://dbpedia.org/property/",
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "tax_nodes": "http://classyfire.wishartlab.com/tax_nodes/",
+        "concept": "https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "@base": "https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/"
     },
-    "@id": "concept:YYJNOYZRYGDPNH-MFKUBSTISA-N",
+    "_id": "concept:YYJNOYZRYGDPNH-MFKUBSTISA-N",
     "@type": "skos:Concept",
     "dbo:formula": "C24H27N3O4",
     "dbo:inchi": "InChI=1S/C24H27N3O4/c1-17-21(22(27(5)26-17)30-20-9-7-6-8-10-20)15-25-29-16-18-11-13-19(14-12-18)23(28)31-24(2,3)4/h6-15H,16H2,1-5H3/b25-15+",
-    "dbo:smiles": "Cc1nn(C)c(Oc2ccccc2)c1\\C=N\\OCc1ccc(cc1)C(=O)OC(C)(C)C",
-    "dbp:inchikey": "YYJNOYZRYGDPNH-MFKUBSTISA-N",
-    "chebi:charge": "0",
-    "skos:altLabel": [
+    "smiles": "Cc1nn(C)c(Oc2ccccc2)c1\\C=N\\OCc1ccc(cc1)C(=O)OC(C)(C)C",
+    "inchikey": "YYJNOYZRYGDPNH-MFKUBSTISA-N",
+    "obo:chebi/charge": "0",
+    "altLabel_en": [
         "Fenpyroximate",
         "t-butyl (E)-alpha-(1,3-dimethyl-5-phenoxypyrazol-4-ylmethyleneaminooxy)-p-toluate",
         "tert-butyl 4-[({[(1E)-(1,3-dimethyl-5-phenoxy-1H-pyrazol-4-yl)methylene]amino}oxy)methyl]benzoate"
     ],
     "skos:exactMatch": {
-        "@id": "obo:CHEBI_5011"
+        "_id": "obo:CHEBI_5011"
     },
-    "skos:semanticRelation": [
-        {
-            "@id": "obo:CHEBI_38602"
-        },
-        {
-            "@id": "obo:CHEBI_140402"
-        }
+    "alternative_parents": [
+        "obo:CHEBI_38602",
+        "obo:CHEBI_140402"
     ]
 }

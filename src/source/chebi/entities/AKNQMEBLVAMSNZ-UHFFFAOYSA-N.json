@@ -1,53 +1,105 @@
 {
     "@context": {
+        "smiles": {
+            "@id": "http://dbpedia.org/ontology/smiles"
+        },
+        "name": {
+            "@id": "http://www.w3.org/2004/02/skos/core#prefLabel",
+            "@language": "en"
+        },
+        "url": {
+            "@id": "http://www.w3.org/2000/01/rdf-schema#seeAlso",
+            "@type": "@id"
+        },
+        "inchikey": {
+            "@id": "http://dbpedia.org/property/inchikey"
+        },
+        "intermediate_nodes": {
+            "@id": "http://www.w3.org/2004/02/skos/core#broaderTransitive",
+            "@type": "@id"
+        },
+        "subclass": {
+            "@id": "http://www.w3.org/2004/02/skos/core#broaderTransitive",
+            "@type": "@id"
+        },
+        "kingdom": {
+            "@id": "http://www.w3.org/2004/02/skos/core#broaderTransitive",
+            "@type": "@id"
+        },
+        "class": {
+            "@id": "http://www.w3.org/2004/02/skos/core#broaderTransitive",
+            "@type": "@id"
+        },
+        "ancestors": {
+            "@id": "http://purl.org/dc/elements/1.1/relation",
+            "@language": "en"
+        },
+        "description": {
+            "@id": "http://www.w3.org/2004/02/skos/core#definition",
+            "@language": "en"
+        },
+        "direct_parent": {
+            "@id": "http://www.w3.org/2004/02/skos/core#broader",
+            "@type": "@id"
+        },
+        "alternative_parents": {
+            "@id": "http://www.w3.org/2004/02/skos/core#semanticRelation",
+            "@type": "@id"
+        },
+        "_id": {
+            "@id": "@id"
+        },
+        "chemont_id": {
+            "@id": "@id"
+        },
+        "altLabel_en": {
+            "@id": "http://www.w3.org/2004/02/skos/core#altLabel",
+            "@language": "en"
+        },
+        "note_en": {
+            "@id": "http://www.w3.org/2004/02/skos/core#note",
+            "@language": "en"
+        },
+        "graph": {
+            "@id": "@graph"
+        },
         "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
-        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
         "obo": "http://purl.obolibrary.org/obo/",
         "uniprot": "http://purl.uniprot.org/",
         "owl": "http://www.w3.org/2002/07/owl#",
-        "concept": "https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/",
-        "chebi": "http://purl.obolibrary.org/obo/chebi/",
-        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "CHEMONTID": "https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/",
+        "chebi": "http://purl.obolibrary.org/obo/",
         "dbo": "http://dbpedia.org/ontology/",
         "dbp": "http://dbpedia.org/property/",
-        "graph": {
-            "@id": "@graph"
-        }
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "tax_nodes": "http://classyfire.wishartlab.com/tax_nodes/",
+        "concept": "https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "@base": "https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/"
     },
-    "@id": "concept:AKNQMEBLVAMSNZ-UHFFFAOYSA-N",
+    "_id": "concept:AKNQMEBLVAMSNZ-UHFFFAOYSA-N",
     "@type": "skos:Concept",
     "dbo:formula": "C12H11Cl2N3O2",
     "dbo:inchi": "InChI=1S/C12H11Cl2N3O2/c13-9-1-2-10(11(14)5-9)12(18-3-4-19-12)6-17-8-15-7-16-17/h1-2,5,7-8H,3-4,6H2",
-    "dbo:smiles": "Clc1ccc(c(Cl)c1)C1(Cn2cncn2)OCCO1",
-    "dbp:inchikey": "AKNQMEBLVAMSNZ-UHFFFAOYSA-N",
-    "chebi:charge": "0",
-    "skos:altLabel": [
+    "smiles": "Clc1ccc(c(Cl)c1)C1(Cn2cncn2)OCCO1",
+    "inchikey": "AKNQMEBLVAMSNZ-UHFFFAOYSA-N",
+    "obo:chebi/charge": "0",
+    "altLabel_en": [
         "azaconazol",
         "azaconazolum",
         "R-28644"
     ],
     "skos:exactMatch": {
-        "@id": "obo:CHEBI_81898"
+        "_id": "obo:CHEBI_81898"
     },
-    "skos:note": "A member of the class of dioxolanes that is 1,3-dioxolane substituted at position 2 by 2,4-dichlorophenyl and 1,2,4-triazol-1-ylmethyl groups. A fungicide used mainly in ornamental crops to control canker and other diseases. Azaconazole is moderately toxic to mammals but is not expected to bioaccumulate. It is moderately toxic to birds, fish and aquatic invertebrates.",
-    "skos:semanticRelation": [
-        {
-            "@id": "obo:CHEBI_35727"
-        },
-        {
-            "@id": "obo:CHEBI_23697"
-        },
-        {
-            "@id": "obo:CHEBI_59779"
-        },
-        {
-            "@id": "obo:CHEBI_87100"
-        },
-        {
-            "@id": "obo:CHEBI_87067"
-        },
-        {
-            "@id": "obo:CHEBI_39430"
-        }
+    "note_en": "A member of the class of dioxolanes that is 1,3-dioxolane substituted at position 2 by 2,4-dichlorophenyl and 1,2,4-triazol-1-ylmethyl groups. A fungicide used mainly in ornamental crops to control canker and other diseases. Azaconazole is moderately toxic to mammals but is not expected to bioaccumulate. It is moderately toxic to birds, fish and aquatic invertebrates.",
+    "alternative_parents": [
+        "obo:CHEBI_35727",
+        "obo:CHEBI_23697",
+        "obo:CHEBI_59779",
+        "obo:CHEBI_87100",
+        "obo:CHEBI_87067",
+        "obo:CHEBI_39430"
     ]
 }

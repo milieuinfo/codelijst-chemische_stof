@@ -1,54 +1,104 @@
 {
     "@context": {
-        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
-        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-        "obo": "http://purl.obolibrary.org/obo/",
-        "uniprot": "http://purl.uniprot.org/",
-        "owl": "http://www.w3.org/2002/07/owl#",
-        "concept": "https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/",
-        "chebi": "http://purl.obolibrary.org/obo/chebi/",
-        "skos": "http://www.w3.org/2004/02/skos/core#",
-        "dbo": "http://dbpedia.org/ontology/",
-        "dbp": "http://dbpedia.org/property/",
-        "altLabel": {
+        "smiles": {
+            "@id": "http://dbpedia.org/ontology/smiles"
+        },
+        "name": {
+            "@id": "http://www.w3.org/2004/02/skos/core#prefLabel",
+            "@language": "en"
+        },
+        "url": {
+            "@id": "http://www.w3.org/2000/01/rdf-schema#seeAlso",
+            "@type": "@id"
+        },
+        "inchikey": {
+            "@id": "http://dbpedia.org/property/inchikey"
+        },
+        "intermediate_nodes": {
+            "@id": "http://www.w3.org/2004/02/skos/core#broaderTransitive",
+            "@type": "@id"
+        },
+        "subclass": {
+            "@id": "http://www.w3.org/2004/02/skos/core#broaderTransitive",
+            "@type": "@id"
+        },
+        "kingdom": {
+            "@id": "http://www.w3.org/2004/02/skos/core#broaderTransitive",
+            "@type": "@id"
+        },
+        "class": {
+            "@id": "http://www.w3.org/2004/02/skos/core#broaderTransitive",
+            "@type": "@id"
+        },
+        "ancestors": {
+            "@id": "http://purl.org/dc/elements/1.1/relation",
+            "@language": "en"
+        },
+        "description": {
+            "@id": "http://www.w3.org/2004/02/skos/core#definition",
+            "@language": "en"
+        },
+        "direct_parent": {
+            "@id": "http://www.w3.org/2004/02/skos/core#broader",
+            "@type": "@id"
+        },
+        "alternative_parents": {
+            "@id": "http://www.w3.org/2004/02/skos/core#semanticRelation",
+            "@type": "@id"
+        },
+        "_id": {
+            "@id": "@id"
+        },
+        "chemont_id": {
+            "@id": "@id"
+        },
+        "altLabel_en": {
             "@id": "http://www.w3.org/2004/02/skos/core#altLabel",
+            "@language": "en"
+        },
+        "note_en": {
+            "@id": "http://www.w3.org/2004/02/skos/core#note",
             "@language": "en"
         },
         "graph": {
             "@id": "@graph"
-        }
+        },
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "obo": "http://purl.obolibrary.org/obo/",
+        "uniprot": "http://purl.uniprot.org/",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "CHEMONTID": "https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/",
+        "chebi": "http://purl.obolibrary.org/obo/",
+        "dbo": "http://dbpedia.org/ontology/",
+        "dbp": "http://dbpedia.org/property/",
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "tax_nodes": "http://classyfire.wishartlab.com/tax_nodes/",
+        "concept": "https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "@base": "https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/"
     },
-    "@id": "concept:QQODLKZGRKWIFG-UHFFFAOYSA-N",
+    "_id": "concept:QQODLKZGRKWIFG-UHFFFAOYSA-N",
     "@type": "skos:Concept",
     "dbo:formula": "C22H18Cl2FNO3",
     "dbo:inchi": "InChI=1S/C22H18Cl2FNO3/c1-22(2)15(11-19(23)24)20(22)21(27)29-18(12-26)13-8-9-16(25)17(10-13)28-14-6-4-3-5-7-14/h3-11,15,18,20H,1-2H3",
-    "dbo:smiles": "CC1(C)C(C=C(Cl)Cl)C1C(=O)OC(C#N)c1ccc(F)c(Oc2ccccc2)c1",
-    "dbp:inchikey": "QQODLKZGRKWIFG-UHFFFAOYSA-N",
-    "chebi:charge": "0",
-    "skos:altLabel": [
+    "smiles": "CC1(C)C(C=C(Cl)Cl)C1C(=O)OC(C#N)c1ccc(F)c(Oc2ccccc2)c1",
+    "inchikey": "QQODLKZGRKWIFG-UHFFFAOYSA-N",
+    "obo:chebi/charge": "0",
+    "altLabel_en": [
         "(R,S)-alpha-Cyano-4-fluoro-3-phenoxybenzyl-(1R,S)-cis,trans-3-(2,2-dichlorovinyl)-2,2-dimethylcyclopropanecarboxylate",
         "cyano(4-fluoro-3-phenoxyphenyl)methyl 3-(2,2-dichloroethenyl)-2,2-dimethylcyclopropanecarboxylate",
         "Cyfluthrin"
     ],
     "skos:exactMatch": {
-        "@id": "obo:CHEBI_4034"
+        "_id": "obo:CHEBI_4034"
     },
-    "skos:note": "A carboxylic ester obtained by formal condensation between 3-(2,2-dichloroethenyl)-2,2-dimethylcyclopropanecarboxylic acid and (4-fluoro-3-phenoxyphenyl)(hydroxy)acetonitrile.",
-    "skos:semanticRelation": [
-        {
-            "@id": "obo:CHEBI_18379"
-        },
-        {
-            "@id": "obo:CHEBI_35618"
-        },
-        {
-            "@id": "obo:CHEBI_36683"
-        },
-        {
-            "@id": "obo:CHEBI_37143"
-        },
-        {
-            "@id": "obo:CHEBI_50351"
-        }
+    "note_en": "A carboxylic ester obtained by formal condensation between 3-(2,2-dichloroethenyl)-2,2-dimethylcyclopropanecarboxylic acid and (4-fluoro-3-phenoxyphenyl)(hydroxy)acetonitrile.",
+    "alternative_parents": [
+        "obo:CHEBI_18379",
+        "obo:CHEBI_35618",
+        "obo:CHEBI_36683",
+        "obo:CHEBI_37143",
+        "obo:CHEBI_50351"
     ]
 }

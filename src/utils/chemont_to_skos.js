@@ -6,9 +6,8 @@ import {readFileSync} from "fs";
 
 import {
     config,
-    chemont_ttl,
-    chemont_jsonld,
-    context_extra
+    context_extra,
+    shapes_skos
 } from './variables.js';
 
 
@@ -66,13 +65,13 @@ async function resolve_parent_from_inchikey(inchikeys) {
     return {"@graph": new_json, "@context": context_extra}
 }
 
-async function parent_information() {
+async function parent_information(chemont_ttl, chemont_jsonld) {
     const inchikeys = await inchikeys_from_csv()
     const jsonld = await resolve_parent_from_inchikey(inchikeys)
     //fs.writeFileSync('/home/gehau/git/codelijst-chemische_stof/src/main/resources/be/vlaanderen/omgeving/data/id/conceptscheme/chemische_stof/chemische_stof_chemont_taxonomy-test.jsonld'
     //   , JSON.stringify(jsonld, null, 4));
     const nt = await n3_reasoning(jsonld, config.skos.rules)
-    output('/home/gehau/git/codelijst-chemische_stof/src/main/resources/be/vlaanderen/data/ns/chemische_stof_shapes/shacl.ttl', nt, chemont_ttl, chemont_jsonld)
+    output(shapes_skos, nt, chemont_ttl, chemont_jsonld)
     console.log("parent information");
 }
 

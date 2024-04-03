@@ -1,59 +1,105 @@
 {
     "@context": {
-        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
-        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-        "obo": "http://purl.obolibrary.org/obo/",
-        "uniprot": "http://purl.uniprot.org/",
-        "owl": "http://www.w3.org/2002/07/owl#",
-        "concept": "https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/",
-        "chebi": "http://purl.obolibrary.org/obo/chebi/",
-        "skos": "http://www.w3.org/2004/02/skos/core#",
-        "dbo": "http://dbpedia.org/ontology/",
-        "dbp": "http://dbpedia.org/property/",
-        "altLabel": {
+        "smiles": {
+            "@id": "http://dbpedia.org/ontology/smiles"
+        },
+        "name": {
+            "@id": "http://www.w3.org/2004/02/skos/core#prefLabel",
+            "@language": "en"
+        },
+        "url": {
+            "@id": "http://www.w3.org/2000/01/rdf-schema#seeAlso",
+            "@type": "@id"
+        },
+        "inchikey": {
+            "@id": "http://dbpedia.org/property/inchikey"
+        },
+        "intermediate_nodes": {
+            "@id": "http://www.w3.org/2004/02/skos/core#broaderTransitive",
+            "@type": "@id"
+        },
+        "subclass": {
+            "@id": "http://www.w3.org/2004/02/skos/core#broaderTransitive",
+            "@type": "@id"
+        },
+        "kingdom": {
+            "@id": "http://www.w3.org/2004/02/skos/core#broaderTransitive",
+            "@type": "@id"
+        },
+        "class": {
+            "@id": "http://www.w3.org/2004/02/skos/core#broaderTransitive",
+            "@type": "@id"
+        },
+        "ancestors": {
+            "@id": "http://purl.org/dc/elements/1.1/relation",
+            "@language": "en"
+        },
+        "description": {
+            "@id": "http://www.w3.org/2004/02/skos/core#definition",
+            "@language": "en"
+        },
+        "direct_parent": {
+            "@id": "http://www.w3.org/2004/02/skos/core#broader",
+            "@type": "@id"
+        },
+        "alternative_parents": {
+            "@id": "http://www.w3.org/2004/02/skos/core#semanticRelation",
+            "@type": "@id"
+        },
+        "_id": {
+            "@id": "@id"
+        },
+        "chemont_id": {
+            "@id": "@id"
+        },
+        "altLabel_en": {
             "@id": "http://www.w3.org/2004/02/skos/core#altLabel",
+            "@language": "en"
+        },
+        "note_en": {
+            "@id": "http://www.w3.org/2004/02/skos/core#note",
             "@language": "en"
         },
         "graph": {
             "@id": "@graph"
-        }
+        },
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "obo": "http://purl.obolibrary.org/obo/",
+        "uniprot": "http://purl.uniprot.org/",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "CHEMONTID": "https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/",
+        "chebi": "http://purl.obolibrary.org/obo/",
+        "dbo": "http://dbpedia.org/ontology/",
+        "dbp": "http://dbpedia.org/property/",
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "tax_nodes": "http://classyfire.wishartlab.com/tax_nodes/",
+        "concept": "https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "@base": "https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/"
     },
-    "@id": "concept:UFEODZBUAFNAEU-NLRVBDNBSA-N",
+    "_id": "concept:UFEODZBUAFNAEU-NLRVBDNBSA-N",
     "@type": "skos:Concept",
     "dbo:formula": "C21H16ClFN4O5",
     "dbo:inchi": "InChI=1S/C21H16ClFN4O5/c1-28-26-18(21-27-30-11-10-29-21)13-6-2-4-8-15(13)31-19-17(23)20(25-12-24-19)32-16-9-5-3-7-14(16)22/h2-9,12H,10-11H2,1H3/b26-18+",
-    "dbo:smiles": "CO\\N=C(\\C1=NOCCO1)c1ccccc1Oc1ncnc(Oc2ccccc2Cl)c1F",
-    "dbp:inchikey": "UFEODZBUAFNAEU-NLRVBDNBSA-N",
-    "chebi:charge": "0",
-    "skos:altLabel": [
+    "smiles": "CO\\N=C(\\C1=NOCCO1)c1ccccc1Oc1ncnc(Oc2ccccc2Cl)c1F",
+    "inchikey": "UFEODZBUAFNAEU-NLRVBDNBSA-N",
+    "obo:chebi/charge": "0",
+    "altLabel_en": [
         "(1E)-(2-((6-(2-chlorophenoxy)-5-fluoro-4-pyrimidinyl)oxy)phenyl)(5,6-dihydro-1,4,2-dioxazin-3-yl)methanone O-methyloxime",
         "(E)-1-(2-{[6-(2-chlorophenoxy)-5-fluoropyrimidin-4-yl]oxy}phenyl)-1-(5,6-dihydro-1,4,2-dioxazin-3-yl)-N-methoxymethanimine"
     ],
     "skos:exactMatch": {
-        "@id": "obo:CHEBI_83253"
+        "_id": "obo:CHEBI_83253"
     },
-    "skos:note": "An oxime O-ether that is the O-methyl oxime of (2-{[6-(2-chlorophenoxy)-5-fluoropyrimidin-4-yl]oxy}phenyl)(5,6-dihydro-1,4,2-dioxazin-3-yl)methanone. A fungicide used for disease control of potatoes and a wide range of vegetables.",
-    "skos:semanticRelation": [
-        {
-            "@id": "obo:CHEBI_35618"
-        },
-        {
-            "@id": "obo:CHEBI_39447"
-        },
-        {
-            "@id": "obo:CHEBI_83403"
-        },
-        {
-            "@id": "obo:CHEBI_37143"
-        },
-        {
-            "@id": "obo:CHEBI_36816"
-        },
-        {
-            "@id": "obo:CHEBI_86482"
-        },
-        {
-            "@id": "obo:CHEBI_83256"
-        }
+    "note_en": "An oxime O-ether that is the O-methyl oxime of (2-{[6-(2-chlorophenoxy)-5-fluoropyrimidin-4-yl]oxy}phenyl)(5,6-dihydro-1,4,2-dioxazin-3-yl)methanone. A fungicide used for disease control of potatoes and a wide range of vegetables.",
+    "alternative_parents": [
+        "obo:CHEBI_35618",
+        "obo:CHEBI_39447",
+        "obo:CHEBI_83403",
+        "obo:CHEBI_37143",
+        "obo:CHEBI_36816",
+        "obo:CHEBI_86482",
+        "obo:CHEBI_83256"
     ]
 }

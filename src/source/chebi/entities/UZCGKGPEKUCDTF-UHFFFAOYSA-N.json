@@ -1,57 +1,105 @@
 {
     "@context": {
-        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
-        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-        "obo": "http://purl.obolibrary.org/obo/",
-        "uniprot": "http://purl.uniprot.org/",
-        "owl": "http://www.w3.org/2002/07/owl#",
-        "concept": "https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/",
-        "chebi": "http://purl.obolibrary.org/obo/chebi/",
-        "skos": "http://www.w3.org/2004/02/skos/core#",
-        "dbo": "http://dbpedia.org/ontology/",
-        "dbp": "http://dbpedia.org/property/",
-        "altLabel": {
+        "smiles": {
+            "@id": "http://dbpedia.org/ontology/smiles"
+        },
+        "name": {
+            "@id": "http://www.w3.org/2004/02/skos/core#prefLabel",
+            "@language": "en"
+        },
+        "url": {
+            "@id": "http://www.w3.org/2000/01/rdf-schema#seeAlso",
+            "@type": "@id"
+        },
+        "inchikey": {
+            "@id": "http://dbpedia.org/property/inchikey"
+        },
+        "intermediate_nodes": {
+            "@id": "http://www.w3.org/2004/02/skos/core#broaderTransitive",
+            "@type": "@id"
+        },
+        "subclass": {
+            "@id": "http://www.w3.org/2004/02/skos/core#broaderTransitive",
+            "@type": "@id"
+        },
+        "kingdom": {
+            "@id": "http://www.w3.org/2004/02/skos/core#broaderTransitive",
+            "@type": "@id"
+        },
+        "class": {
+            "@id": "http://www.w3.org/2004/02/skos/core#broaderTransitive",
+            "@type": "@id"
+        },
+        "ancestors": {
+            "@id": "http://purl.org/dc/elements/1.1/relation",
+            "@language": "en"
+        },
+        "description": {
+            "@id": "http://www.w3.org/2004/02/skos/core#definition",
+            "@language": "en"
+        },
+        "direct_parent": {
+            "@id": "http://www.w3.org/2004/02/skos/core#broader",
+            "@type": "@id"
+        },
+        "alternative_parents": {
+            "@id": "http://www.w3.org/2004/02/skos/core#semanticRelation",
+            "@type": "@id"
+        },
+        "_id": {
+            "@id": "@id"
+        },
+        "chemont_id": {
+            "@id": "@id"
+        },
+        "altLabel_en": {
             "@id": "http://www.w3.org/2004/02/skos/core#altLabel",
+            "@language": "en"
+        },
+        "note_en": {
+            "@id": "http://www.w3.org/2004/02/skos/core#note",
             "@language": "en"
         },
         "graph": {
             "@id": "@graph"
-        }
+        },
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "obo": "http://purl.obolibrary.org/obo/",
+        "uniprot": "http://purl.uniprot.org/",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "CHEMONTID": "https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/",
+        "chebi": "http://purl.obolibrary.org/obo/",
+        "dbo": "http://dbpedia.org/ontology/",
+        "dbp": "http://dbpedia.org/property/",
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "tax_nodes": "http://classyfire.wishartlab.com/tax_nodes/",
+        "concept": "https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "@base": "https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/"
     },
-    "@id": "concept:UZCGKGPEKUCDTF-UHFFFAOYSA-N",
+    "_id": "concept:UZCGKGPEKUCDTF-UHFFFAOYSA-N",
     "@type": "skos:Concept",
     "dbo:formula": "C13H4Cl2F6N4O4",
     "dbo:inchi": "InChI=1S/C13H4Cl2F6N4O4/c14-6-1-4(12(16,17)18)3-22-11(6)23-9-7(24(26)27)2-5(13(19,20)21)8(15)10(9)25(28)29/h1-3H,(H,22,23)",
-    "dbo:smiles": "[O-][N+](=O)c1cc(c(Cl)c(c1Nc1ncc(cc1Cl)C(F)(F)F)[N+]([O-])=O)C(F)(F)F",
-    "dbp:inchikey": "UZCGKGPEKUCDTF-UHFFFAOYSA-N",
-    "chebi:charge": "0",
-    "skos:altLabel": [
+    "smiles": "[O-][N+](=O)c1cc(c(Cl)c(c1Nc1ncc(cc1Cl)C(F)(F)F)[N+]([O-])=O)C(F)(F)F",
+    "inchikey": "UZCGKGPEKUCDTF-UHFFFAOYSA-N",
+    "obo:chebi/charge": "0",
+    "altLabel_en": [
         "3-chloro-N-(3-chloro-5-trifluoromethyl-2-pyridyl)-alpha,alpha,alpha-trifluoro-2,6-dinitro-p-toluidine",
         "3-chloro-N-[3-chloro-2,6-dinitro-4-(trifluoromethyl)phenyl]-5-(trifluoromethyl)pyridin-2-amine",
         "Shirlan"
     ],
     "skos:exactMatch": {
-        "@id": "obo:CHEBI_81843"
+        "_id": "obo:CHEBI_81843"
     },
-    "skos:note": "A member of the class of aminopyridines that is 2-amino-5-(trifluoromethyl)pyridine in which one of the amino hydrogens is replaced by a 3-chloro-2,6-dinitro-4-(trifluoromethyl)phenyl group. A fungicide used to control grey mould, downy mildew and other fungal pathogens.",
-    "skos:semanticRelation": [
-        {
-            "@id": "obo:CHEBI_35716"
-        },
-        {
-            "@id": "obo:CHEBI_83403"
-        },
-        {
-            "@id": "obo:CHEBI_50995"
-        },
-        {
-            "@id": "obo:CHEBI_83565"
-        },
-        {
-            "@id": "obo:CHEBI_38207"
-        },
-        {
-            "@id": "obo:CHEBI_39173"
-        }
+    "note_en": "A member of the class of aminopyridines that is 2-amino-5-(trifluoromethyl)pyridine in which one of the amino hydrogens is replaced by a 3-chloro-2,6-dinitro-4-(trifluoromethyl)phenyl group. A fungicide used to control grey mould, downy mildew and other fungal pathogens.",
+    "alternative_parents": [
+        "obo:CHEBI_35716",
+        "obo:CHEBI_83403",
+        "obo:CHEBI_50995",
+        "obo:CHEBI_83565",
+        "obo:CHEBI_38207",
+        "obo:CHEBI_39173"
     ]
 }

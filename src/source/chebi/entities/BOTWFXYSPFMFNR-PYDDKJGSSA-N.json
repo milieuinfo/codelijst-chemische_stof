@@ -1,42 +1,102 @@
 {
     "@context": {
+        "smiles": {
+            "@id": "http://dbpedia.org/ontology/smiles"
+        },
+        "name": {
+            "@id": "http://www.w3.org/2004/02/skos/core#prefLabel",
+            "@language": "en"
+        },
+        "url": {
+            "@id": "http://www.w3.org/2000/01/rdf-schema#seeAlso",
+            "@type": "@id"
+        },
+        "inchikey": {
+            "@id": "http://dbpedia.org/property/inchikey"
+        },
+        "intermediate_nodes": {
+            "@id": "http://www.w3.org/2004/02/skos/core#broaderTransitive",
+            "@type": "@id"
+        },
+        "subclass": {
+            "@id": "http://www.w3.org/2004/02/skos/core#broaderTransitive",
+            "@type": "@id"
+        },
+        "kingdom": {
+            "@id": "http://www.w3.org/2004/02/skos/core#broaderTransitive",
+            "@type": "@id"
+        },
+        "class": {
+            "@id": "http://www.w3.org/2004/02/skos/core#broaderTransitive",
+            "@type": "@id"
+        },
+        "ancestors": {
+            "@id": "http://purl.org/dc/elements/1.1/relation",
+            "@language": "en"
+        },
+        "description": {
+            "@id": "http://www.w3.org/2004/02/skos/core#definition",
+            "@language": "en"
+        },
+        "direct_parent": {
+            "@id": "http://www.w3.org/2004/02/skos/core#broader",
+            "@type": "@id"
+        },
+        "alternative_parents": {
+            "@id": "http://www.w3.org/2004/02/skos/core#semanticRelation",
+            "@type": "@id"
+        },
+        "_id": {
+            "@id": "@id"
+        },
+        "chemont_id": {
+            "@id": "@id"
+        },
+        "altLabel_en": {
+            "@id": "http://www.w3.org/2004/02/skos/core#altLabel",
+            "@language": "en"
+        },
+        "note_en": {
+            "@id": "http://www.w3.org/2004/02/skos/core#note",
+            "@language": "en"
+        },
+        "graph": {
+            "@id": "@graph"
+        },
         "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
-        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
         "obo": "http://purl.obolibrary.org/obo/",
         "uniprot": "http://purl.uniprot.org/",
         "owl": "http://www.w3.org/2002/07/owl#",
-        "concept": "https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/",
-        "chebi": "http://purl.obolibrary.org/obo/chebi/",
-        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "CHEMONTID": "https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/",
+        "chebi": "http://purl.obolibrary.org/obo/",
         "dbo": "http://dbpedia.org/ontology/",
         "dbp": "http://dbpedia.org/property/",
-        "graph": {
-            "@id": "@graph"
-        }
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "tax_nodes": "http://classyfire.wishartlab.com/tax_nodes/",
+        "concept": "https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "@base": "https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/"
     },
-    "@id": "concept:BOTWFXYSPFMFNR-PYDDKJGSSA-N",
+    "_id": "concept:BOTWFXYSPFMFNR-PYDDKJGSSA-N",
     "@type": "skos:Concept",
     "dbo:formula": "C20H40O",
     "dbo:inchi": "InChI=1S/C20H40O/c1-17(2)9-6-10-18(3)11-7-12-19(4)13-8-14-20(5)15-16-21/h15,17-19,21H,6-14,16H2,1-5H3/b20-15+/t18-,19-/m1/s1",
-    "dbo:smiles": "CC(C)CCC[C@@H](C)CCC[C@@H](C)CCC\\C(C)=C\\CO",
-    "dbp:inchikey": "BOTWFXYSPFMFNR-PYDDKJGSSA-N",
-    "chebi:charge": "0",
-    "skos:altLabel": [
+    "smiles": "CC(C)CCC[C@@H](C)CCC[C@@H](C)CCC\\C(C)=C\\CO",
+    "inchikey": "BOTWFXYSPFMFNR-PYDDKJGSSA-N",
+    "obo:chebi/charge": "0",
+    "altLabel_en": [
         "(2E,7R,11R)-3,7,11,15-tetramethyl-2-hexadecen-1-ol",
         "(2E,7R,11R)-3,7,11,15-tetramethylhexadec-2-en-1-ol",
         "Phytol",
         "trans-Phytol"
     ],
     "skos:exactMatch": {
-        "@id": "obo:CHEBI_17327"
+        "_id": "obo:CHEBI_17327"
     },
-    "skos:note": "A diterpenoid that is hexadec-2-en-1-ol substituted by methyl groups at positions 3, 7, 11 and 15.",
-    "skos:semanticRelation": [
-        {
-            "@id": "obo:CHEBI_77396"
-        },
-        {
-            "@id": "obo:CHEBI_23849"
-        }
+    "note_en": "A diterpenoid that is hexadec-2-en-1-ol substituted by methyl groups at positions 3, 7, 11 and 15.",
+    "alternative_parents": [
+        "obo:CHEBI_77396",
+        "obo:CHEBI_23849"
     ]
 }

@@ -1,27 +1,91 @@
 {
     "@context": {
+        "smiles": {
+            "@id": "http://dbpedia.org/ontology/smiles"
+        },
+        "name": {
+            "@id": "http://www.w3.org/2004/02/skos/core#prefLabel",
+            "@language": "en"
+        },
+        "url": {
+            "@id": "http://www.w3.org/2000/01/rdf-schema#seeAlso",
+            "@type": "@id"
+        },
+        "inchikey": {
+            "@id": "http://dbpedia.org/property/inchikey"
+        },
+        "intermediate_nodes": {
+            "@id": "http://www.w3.org/2004/02/skos/core#broaderTransitive",
+            "@type": "@id"
+        },
+        "subclass": {
+            "@id": "http://www.w3.org/2004/02/skos/core#broaderTransitive",
+            "@type": "@id"
+        },
+        "kingdom": {
+            "@id": "http://www.w3.org/2004/02/skos/core#broaderTransitive",
+            "@type": "@id"
+        },
+        "class": {
+            "@id": "http://www.w3.org/2004/02/skos/core#broaderTransitive",
+            "@type": "@id"
+        },
+        "ancestors": {
+            "@id": "http://purl.org/dc/elements/1.1/relation",
+            "@language": "en"
+        },
+        "description": {
+            "@id": "http://www.w3.org/2004/02/skos/core#definition",
+            "@language": "en"
+        },
+        "direct_parent": {
+            "@id": "http://www.w3.org/2004/02/skos/core#broader",
+            "@type": "@id"
+        },
+        "alternative_parents": {
+            "@id": "http://www.w3.org/2004/02/skos/core#semanticRelation",
+            "@type": "@id"
+        },
+        "_id": {
+            "@id": "@id"
+        },
+        "chemont_id": {
+            "@id": "@id"
+        },
+        "altLabel_en": {
+            "@id": "http://www.w3.org/2004/02/skos/core#altLabel",
+            "@language": "en"
+        },
+        "note_en": {
+            "@id": "http://www.w3.org/2004/02/skos/core#note",
+            "@language": "en"
+        },
+        "graph": {
+            "@id": "@graph"
+        },
         "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
-        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
         "obo": "http://purl.obolibrary.org/obo/",
         "uniprot": "http://purl.uniprot.org/",
         "owl": "http://www.w3.org/2002/07/owl#",
-        "concept": "https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/",
-        "chebi": "http://purl.obolibrary.org/obo/chebi/",
-        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "CHEMONTID": "https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/",
+        "chebi": "http://purl.obolibrary.org/obo/",
         "dbo": "http://dbpedia.org/ontology/",
         "dbp": "http://dbpedia.org/property/",
-        "graph": {
-            "@id": "@graph"
-        }
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "tax_nodes": "http://classyfire.wishartlab.com/tax_nodes/",
+        "concept": "https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "@base": "https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/"
     },
-    "@id": "concept:FCOAHACKGGIURQ-UHFFFAOYSA-N",
+    "_id": "concept:FCOAHACKGGIURQ-UHFFFAOYSA-N",
     "@type": "skos:Concept",
     "dbo:formula": "C13H21O3PS",
     "dbo:inchi": "InChI=1S/C13H21O3PS/c1-11(2)15-17(14,16-12(3)4)18-10-13-8-6-5-7-9-13/h5-9,11-12H,10H2,1-4H3",
-    "dbo:smiles": "CC(C)OP(=O)(OC(C)C)SCc1ccccc1",
-    "dbp:inchikey": "FCOAHACKGGIURQ-UHFFFAOYSA-N",
-    "chebi:charge": "0",
-    "skos:altLabel": [
+    "smiles": "CC(C)OP(=O)(OC(C)C)SCc1ccccc1",
+    "inchikey": "FCOAHACKGGIURQ-UHFFFAOYSA-N",
+    "obo:chebi/charge": "0",
+    "altLabel_en": [
         "Kitazin P",
         "O,O-Bis(1-methylethyl) S-(phenylmethyl)phosphorothioate",
         "O,O-Diisopropyl S-benzyl phosphorothioate",
@@ -33,10 +97,8 @@
         "S-benzyl O,O-dipropan-2-yl phosphorothioate"
     ],
     "skos:exactMatch": {
-        "@id": "obo:CHEBI_79737"
+        "_id": "obo:CHEBI_79737"
     },
-    "skos:note": "An organic thiophosphate that is the S-benzyl O,O-diisopropyl ester of phosphorothioic acid. Used as a rice fungicide to control leaf and ear blast, stem rot and sheath blight.",
-    "skos:semanticRelation": {
-        "@id": "obo:CHEBI_37512"
-    }
+    "note_en": "An organic thiophosphate that is the S-benzyl O,O-diisopropyl ester of phosphorothioic acid. Used as a rice fungicide to control leaf and ear blast, stem rot and sheath blight.",
+    "alternative_parents": "obo:CHEBI_37512"
 }

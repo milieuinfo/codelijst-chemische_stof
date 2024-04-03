@@ -1,31 +1,91 @@
 {
     "@context": {
-        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
-        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-        "obo": "http://purl.obolibrary.org/obo/",
-        "uniprot": "http://purl.uniprot.org/",
-        "owl": "http://www.w3.org/2002/07/owl#",
-        "concept": "https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/",
-        "chebi": "http://purl.obolibrary.org/obo/chebi/",
-        "skos": "http://www.w3.org/2004/02/skos/core#",
-        "dbo": "http://dbpedia.org/ontology/",
-        "dbp": "http://dbpedia.org/property/",
-        "altLabel": {
+        "smiles": {
+            "@id": "http://dbpedia.org/ontology/smiles"
+        },
+        "name": {
+            "@id": "http://www.w3.org/2004/02/skos/core#prefLabel",
+            "@language": "en"
+        },
+        "url": {
+            "@id": "http://www.w3.org/2000/01/rdf-schema#seeAlso",
+            "@type": "@id"
+        },
+        "inchikey": {
+            "@id": "http://dbpedia.org/property/inchikey"
+        },
+        "intermediate_nodes": {
+            "@id": "http://www.w3.org/2004/02/skos/core#broaderTransitive",
+            "@type": "@id"
+        },
+        "subclass": {
+            "@id": "http://www.w3.org/2004/02/skos/core#broaderTransitive",
+            "@type": "@id"
+        },
+        "kingdom": {
+            "@id": "http://www.w3.org/2004/02/skos/core#broaderTransitive",
+            "@type": "@id"
+        },
+        "class": {
+            "@id": "http://www.w3.org/2004/02/skos/core#broaderTransitive",
+            "@type": "@id"
+        },
+        "ancestors": {
+            "@id": "http://purl.org/dc/elements/1.1/relation",
+            "@language": "en"
+        },
+        "description": {
+            "@id": "http://www.w3.org/2004/02/skos/core#definition",
+            "@language": "en"
+        },
+        "direct_parent": {
+            "@id": "http://www.w3.org/2004/02/skos/core#broader",
+            "@type": "@id"
+        },
+        "alternative_parents": {
+            "@id": "http://www.w3.org/2004/02/skos/core#semanticRelation",
+            "@type": "@id"
+        },
+        "_id": {
+            "@id": "@id"
+        },
+        "chemont_id": {
+            "@id": "@id"
+        },
+        "altLabel_en": {
             "@id": "http://www.w3.org/2004/02/skos/core#altLabel",
+            "@language": "en"
+        },
+        "note_en": {
+            "@id": "http://www.w3.org/2004/02/skos/core#note",
             "@language": "en"
         },
         "graph": {
             "@id": "@graph"
-        }
+        },
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "obo": "http://purl.obolibrary.org/obo/",
+        "uniprot": "http://purl.uniprot.org/",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "CHEMONTID": "https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/",
+        "chebi": "http://purl.obolibrary.org/obo/",
+        "dbo": "http://dbpedia.org/ontology/",
+        "dbp": "http://dbpedia.org/property/",
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "tax_nodes": "http://classyfire.wishartlab.com/tax_nodes/",
+        "concept": "https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "@base": "https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/"
     },
-    "@id": "concept:PNVNVHUZROJLTJ-UHFFFAOYSA-N",
+    "_id": "concept:PNVNVHUZROJLTJ-UHFFFAOYSA-N",
     "@type": "skos:Concept",
     "dbo:formula": "C17H27NO2",
     "dbo:inchi": "InChI=1S/C17H27NO2/c1-18(2)13-16(17(19)11-5-4-6-12-17)14-7-9-15(20-3)10-8-14/h7-10,16,19H,4-6,11-13H2,1-3H3",
-    "dbo:smiles": "COc1ccc(cc1)C(CN(C)C)C1(O)CCCCC1",
-    "dbp:inchikey": "PNVNVHUZROJLTJ-UHFFFAOYSA-N",
-    "chebi:charge": "0",
-    "skos:altLabel": [
+    "smiles": "COc1ccc(cc1)C(CN(C)C)C1(O)CCCCC1",
+    "inchikey": "PNVNVHUZROJLTJ-UHFFFAOYSA-N",
+    "obo:chebi/charge": "0",
+    "altLabel_en": [
         "1-[2-(dimethylamino)-1-(4-methoxyphenyl)ethyl]cyclohexanol",
         "Elafax",
         "venlafaxina",
@@ -33,21 +93,13 @@
         "venlafaxinum"
     ],
     "skos:exactMatch": {
-        "@id": "obo:CHEBI_9943"
+        "_id": "obo:CHEBI_9943"
     },
-    "skos:note": "A tertiary amino compound that is N,N-dimethylethanamine substituted at position 1 by a 1-hydroxycyclohexyl and 4-methoxyphenyl group.",
-    "skos:semanticRelation": [
-        {
-            "@id": "obo:CHEBI_26878"
-        },
-        {
-            "@id": "obo:CHEBI_50996"
-        },
-        {
-            "@id": "obo:CHEBI_25235"
-        },
-        {
-            "@id": "obo:CHEBI_23480"
-        }
+    "note_en": "A tertiary amino compound that is N,N-dimethylethanamine substituted at position 1 by a 1-hydroxycyclohexyl and 4-methoxyphenyl group.",
+    "alternative_parents": [
+        "obo:CHEBI_26878",
+        "obo:CHEBI_50996",
+        "obo:CHEBI_25235",
+        "obo:CHEBI_23480"
     ]
 }

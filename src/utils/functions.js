@@ -1,14 +1,12 @@
 import fs from "fs";
 import util from 'util'
 import stream from 'stream'
-const streamPipeline = util.promisify(stream.pipeline)
 import mime from 'mime-types'
 import fetch from 'node-fetch'
-
+const streamPipeline = util.promisify(stream.pipeline)
 import Environment from '@zazuko/env/Environment.js'
 import baseEnv from '@zazuko/env'
 import { FsUtilsFactory } from '@zazuko/rdf-utils-fs'
-import fromStream from 'rdf-dataset-ext/fromStream.js'
 import formats from '@rdfjs/formats'
 
 // create an environment by adding FsUtilsFactory

@@ -1,31 +1,91 @@
 {
     "@context": {
-        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
-        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-        "obo": "http://purl.obolibrary.org/obo/",
-        "uniprot": "http://purl.uniprot.org/",
-        "owl": "http://www.w3.org/2002/07/owl#",
-        "concept": "https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/",
-        "chebi": "http://purl.obolibrary.org/obo/chebi/",
-        "skos": "http://www.w3.org/2004/02/skos/core#",
-        "dbo": "http://dbpedia.org/ontology/",
-        "dbp": "http://dbpedia.org/property/",
-        "altLabel": {
+        "smiles": {
+            "@id": "http://dbpedia.org/ontology/smiles"
+        },
+        "name": {
+            "@id": "http://www.w3.org/2004/02/skos/core#prefLabel",
+            "@language": "en"
+        },
+        "url": {
+            "@id": "http://www.w3.org/2000/01/rdf-schema#seeAlso",
+            "@type": "@id"
+        },
+        "inchikey": {
+            "@id": "http://dbpedia.org/property/inchikey"
+        },
+        "intermediate_nodes": {
+            "@id": "http://www.w3.org/2004/02/skos/core#broaderTransitive",
+            "@type": "@id"
+        },
+        "subclass": {
+            "@id": "http://www.w3.org/2004/02/skos/core#broaderTransitive",
+            "@type": "@id"
+        },
+        "kingdom": {
+            "@id": "http://www.w3.org/2004/02/skos/core#broaderTransitive",
+            "@type": "@id"
+        },
+        "class": {
+            "@id": "http://www.w3.org/2004/02/skos/core#broaderTransitive",
+            "@type": "@id"
+        },
+        "ancestors": {
+            "@id": "http://purl.org/dc/elements/1.1/relation",
+            "@language": "en"
+        },
+        "description": {
+            "@id": "http://www.w3.org/2004/02/skos/core#definition",
+            "@language": "en"
+        },
+        "direct_parent": {
+            "@id": "http://www.w3.org/2004/02/skos/core#broader",
+            "@type": "@id"
+        },
+        "alternative_parents": {
+            "@id": "http://www.w3.org/2004/02/skos/core#semanticRelation",
+            "@type": "@id"
+        },
+        "_id": {
+            "@id": "@id"
+        },
+        "chemont_id": {
+            "@id": "@id"
+        },
+        "altLabel_en": {
             "@id": "http://www.w3.org/2004/02/skos/core#altLabel",
+            "@language": "en"
+        },
+        "note_en": {
+            "@id": "http://www.w3.org/2004/02/skos/core#note",
             "@language": "en"
         },
         "graph": {
             "@id": "@graph"
-        }
+        },
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "obo": "http://purl.obolibrary.org/obo/",
+        "uniprot": "http://purl.uniprot.org/",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "CHEMONTID": "https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/",
+        "chebi": "http://purl.obolibrary.org/obo/",
+        "dbo": "http://dbpedia.org/ontology/",
+        "dbp": "http://dbpedia.org/property/",
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "tax_nodes": "http://classyfire.wishartlab.com/tax_nodes/",
+        "concept": "https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "@base": "https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/"
     },
-    "@id": "concept:PYZSVQVRHDXQSL-UHFFFAOYSA-N",
+    "_id": "concept:PYZSVQVRHDXQSL-UHFFFAOYSA-N",
     "@type": "skos:Concept",
     "dbo:formula": "C14H4N2O2S2",
     "dbo:inchi": "InChI=1S/C14H4N2O2S2/c15-5-9-10(6-16)20-14-12(18)8-4-2-1-3-7(8)11(17)13(14)19-9/h1-4H",
-    "dbo:smiles": "O=c1c2ccccc2c(=O)c2sc(C#N)c(sc12)C#N",
-    "dbp:inchikey": "PYZSVQVRHDXQSL-UHFFFAOYSA-N",
-    "chebi:charge": "0",
-    "skos:altLabel": [
+    "smiles": "O=c1c2ccccc2c(=O)c2sc(C#N)c(sc12)C#N",
+    "inchikey": "PYZSVQVRHDXQSL-UHFFFAOYSA-N",
+    "obo:chebi/charge": "0",
+    "altLabel_en": [
         "1,4-dithiaanthraquinone-2,3-dinitrile",
         "2,3-Dicarbonitrilo-1,4-diathiaanthrachinon",
         "2,3-dicyano-1,4-dithia-anthraquinone",
@@ -37,18 +97,12 @@
         "dithianone"
     ],
     "skos:exactMatch": {
-        "@id": "obo:CHEBI_81842"
+        "_id": "obo:CHEBI_81842"
     },
-    "skos:note": "A naphthodithiin that is 5,10-dioxo-5,10-dihydronaphtho[2,3-b][1,4]dithiin which is substituted by nitrile groups at positions 2 and 3. It is a broad spectrum fungicide used to control scab, downy mildew, rust, and leaf spot in the commercial growing of grapes and other fruit, citrus, coffee, and vegetables.",
-    "skos:semanticRelation": [
-        {
-            "@id": "obo:CHEBI_25830"
-        },
-        {
-            "@id": "obo:CHEBI_51308"
-        },
-        {
-            "@id": "obo:CHEBI_82826"
-        }
+    "note_en": "A naphthodithiin that is 5,10-dioxo-5,10-dihydronaphtho[2,3-b][1,4]dithiin which is substituted by nitrile groups at positions 2 and 3. It is a broad spectrum fungicide used to control scab, downy mildew, rust, and leaf spot in the commercial growing of grapes and other fruit, citrus, coffee, and vegetables.",
+    "alternative_parents": [
+        "obo:CHEBI_25830",
+        "obo:CHEBI_51308",
+        "obo:CHEBI_82826"
     ]
 }

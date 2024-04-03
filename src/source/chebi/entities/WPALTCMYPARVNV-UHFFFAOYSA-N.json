@@ -1,50 +1,102 @@
 {
     "@context": {
-        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
-        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-        "obo": "http://purl.obolibrary.org/obo/",
-        "uniprot": "http://purl.uniprot.org/",
-        "owl": "http://www.w3.org/2002/07/owl#",
-        "concept": "https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/",
-        "chebi": "http://purl.obolibrary.org/obo/chebi/",
-        "skos": "http://www.w3.org/2004/02/skos/core#",
-        "dbo": "http://dbpedia.org/ontology/",
-        "dbp": "http://dbpedia.org/property/",
-        "altLabel": {
+        "smiles": {
+            "@id": "http://dbpedia.org/ontology/smiles"
+        },
+        "name": {
+            "@id": "http://www.w3.org/2004/02/skos/core#prefLabel",
+            "@language": "en"
+        },
+        "url": {
+            "@id": "http://www.w3.org/2000/01/rdf-schema#seeAlso",
+            "@type": "@id"
+        },
+        "inchikey": {
+            "@id": "http://dbpedia.org/property/inchikey"
+        },
+        "intermediate_nodes": {
+            "@id": "http://www.w3.org/2004/02/skos/core#broaderTransitive",
+            "@type": "@id"
+        },
+        "subclass": {
+            "@id": "http://www.w3.org/2004/02/skos/core#broaderTransitive",
+            "@type": "@id"
+        },
+        "kingdom": {
+            "@id": "http://www.w3.org/2004/02/skos/core#broaderTransitive",
+            "@type": "@id"
+        },
+        "class": {
+            "@id": "http://www.w3.org/2004/02/skos/core#broaderTransitive",
+            "@type": "@id"
+        },
+        "ancestors": {
+            "@id": "http://purl.org/dc/elements/1.1/relation",
+            "@language": "en"
+        },
+        "description": {
+            "@id": "http://www.w3.org/2004/02/skos/core#definition",
+            "@language": "en"
+        },
+        "direct_parent": {
+            "@id": "http://www.w3.org/2004/02/skos/core#broader",
+            "@type": "@id"
+        },
+        "alternative_parents": {
+            "@id": "http://www.w3.org/2004/02/skos/core#semanticRelation",
+            "@type": "@id"
+        },
+        "_id": {
+            "@id": "@id"
+        },
+        "chemont_id": {
+            "@id": "@id"
+        },
+        "altLabel_en": {
             "@id": "http://www.w3.org/2004/02/skos/core#altLabel",
+            "@language": "en"
+        },
+        "note_en": {
+            "@id": "http://www.w3.org/2004/02/skos/core#note",
             "@language": "en"
         },
         "graph": {
             "@id": "@graph"
-        }
+        },
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "obo": "http://purl.obolibrary.org/obo/",
+        "uniprot": "http://purl.uniprot.org/",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "CHEMONTID": "https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/",
+        "chebi": "http://purl.obolibrary.org/obo/",
+        "dbo": "http://dbpedia.org/ontology/",
+        "dbp": "http://dbpedia.org/property/",
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "tax_nodes": "http://classyfire.wishartlab.com/tax_nodes/",
+        "concept": "https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "@base": "https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/"
     },
-    "@id": "concept:WPALTCMYPARVNV-UHFFFAOYSA-N",
+    "_id": "concept:WPALTCMYPARVNV-UHFFFAOYSA-N",
     "@type": "skos:Concept",
     "dbo:formula": "C21H22ClN3O2",
     "dbo:inchi": "InChI=1S/C21H22ClN3O2/c1-4-18-19(22)20(25(3)24-18)21(26)23-13-15-7-11-17(12-8-15)27-16-9-5-14(2)6-10-16/h5-12H,4,13H2,1-3H3,(H,23,26)",
-    "dbo:smiles": "CCc1nn(C)c(C(=O)NCc2ccc(Oc3ccc(C)cc3)cc2)c1Cl",
-    "dbp:inchikey": "WPALTCMYPARVNV-UHFFFAOYSA-N",
-    "chebi:charge": "0",
-    "skos:altLabel": [
+    "smiles": "CCc1nn(C)c(C(=O)NCc2ccc(Oc3ccc(C)cc3)cc2)c1Cl",
+    "inchikey": "WPALTCMYPARVNV-UHFFFAOYSA-N",
+    "obo:chebi/charge": "0",
+    "altLabel_en": [
         "4-chloro-3-ethyl-1-methyl-N-(4-(p-tolyloxy)benzyl)pyrazole-5-carboxamide",
         "4-chloro-3-ethyl-1-methyl-N-[4-(4-methylphenoxy)benzyl]-1H-pyrazole-5-carboxamide"
     ],
     "skos:exactMatch": {
-        "@id": "obo:CHEBI_38628"
+        "_id": "obo:CHEBI_38628"
     },
-    "skos:note": "An aromatic amide obtained by formal condensation of the carboxy group of 4-chloro-3-ethyl-1-methylpyrazole-5-carboxylic acid with the amino group of 1-[4-(4-methylphenoxy)phenyl]methylamine.",
-    "skos:semanticRelation": [
-        {
-            "@id": "obo:CHEBI_35618"
-        },
-        {
-            "@id": "obo:CHEBI_36683"
-        },
-        {
-            "@id": "obo:CHEBI_62733"
-        },
-        {
-            "@id": "obo:CHEBI_26409"
-        }
+    "note_en": "An aromatic amide obtained by formal condensation of the carboxy group of 4-chloro-3-ethyl-1-methylpyrazole-5-carboxylic acid with the amino group of 1-[4-(4-methylphenoxy)phenyl]methylamine.",
+    "alternative_parents": [
+        "obo:CHEBI_35618",
+        "obo:CHEBI_36683",
+        "obo:CHEBI_62733",
+        "obo:CHEBI_26409"
     ]
 }

@@ -1,31 +1,91 @@
 {
     "@context": {
-        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
-        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-        "obo": "http://purl.obolibrary.org/obo/",
-        "uniprot": "http://purl.uniprot.org/",
-        "owl": "http://www.w3.org/2002/07/owl#",
-        "concept": "https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/",
-        "chebi": "http://purl.obolibrary.org/obo/chebi/",
-        "skos": "http://www.w3.org/2004/02/skos/core#",
-        "dbo": "http://dbpedia.org/ontology/",
-        "dbp": "http://dbpedia.org/property/",
-        "altLabel": {
+        "smiles": {
+            "@id": "http://dbpedia.org/ontology/smiles"
+        },
+        "name": {
+            "@id": "http://www.w3.org/2004/02/skos/core#prefLabel",
+            "@language": "en"
+        },
+        "url": {
+            "@id": "http://www.w3.org/2000/01/rdf-schema#seeAlso",
+            "@type": "@id"
+        },
+        "inchikey": {
+            "@id": "http://dbpedia.org/property/inchikey"
+        },
+        "intermediate_nodes": {
+            "@id": "http://www.w3.org/2004/02/skos/core#broaderTransitive",
+            "@type": "@id"
+        },
+        "subclass": {
+            "@id": "http://www.w3.org/2004/02/skos/core#broaderTransitive",
+            "@type": "@id"
+        },
+        "kingdom": {
+            "@id": "http://www.w3.org/2004/02/skos/core#broaderTransitive",
+            "@type": "@id"
+        },
+        "class": {
+            "@id": "http://www.w3.org/2004/02/skos/core#broaderTransitive",
+            "@type": "@id"
+        },
+        "ancestors": {
+            "@id": "http://purl.org/dc/elements/1.1/relation",
+            "@language": "en"
+        },
+        "description": {
+            "@id": "http://www.w3.org/2004/02/skos/core#definition",
+            "@language": "en"
+        },
+        "direct_parent": {
+            "@id": "http://www.w3.org/2004/02/skos/core#broader",
+            "@type": "@id"
+        },
+        "alternative_parents": {
+            "@id": "http://www.w3.org/2004/02/skos/core#semanticRelation",
+            "@type": "@id"
+        },
+        "_id": {
+            "@id": "@id"
+        },
+        "chemont_id": {
+            "@id": "@id"
+        },
+        "altLabel_en": {
             "@id": "http://www.w3.org/2004/02/skos/core#altLabel",
+            "@language": "en"
+        },
+        "note_en": {
+            "@id": "http://www.w3.org/2004/02/skos/core#note",
             "@language": "en"
         },
         "graph": {
             "@id": "@graph"
-        }
+        },
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "obo": "http://purl.obolibrary.org/obo/",
+        "uniprot": "http://purl.uniprot.org/",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "CHEMONTID": "https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/",
+        "chebi": "http://purl.obolibrary.org/obo/",
+        "dbo": "http://dbpedia.org/ontology/",
+        "dbp": "http://dbpedia.org/property/",
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "tax_nodes": "http://classyfire.wishartlab.com/tax_nodes/",
+        "concept": "https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "@base": "https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/"
     },
-    "@id": "concept:VTRWMTJQBQJKQH-UHFFFAOYSA-N",
+    "_id": "concept:VTRWMTJQBQJKQH-UHFFFAOYSA-N",
     "@type": "skos:Concept",
     "dbo:formula": "C18H22N2O2S",
     "dbo:inchi": "InChI=1S/C18H22N2O2S/c1-18(2,3)13-8-6-9-14(12-13)22-17(23)20(4)15-10-7-11-16(19-15)21-5/h6-12H,1-5H3",
-    "dbo:smiles": "COc1cccc(n1)N(C)C(=S)Oc1cccc(c1)C(C)(C)C",
-    "dbp:inchikey": "VTRWMTJQBQJKQH-UHFFFAOYSA-N",
-    "chebi:charge": "0",
-    "skos:altLabel": [
+    "smiles": "COc1cccc(n1)N(C)C(=S)Oc1cccc(c1)C(C)(C)C",
+    "inchikey": "VTRWMTJQBQJKQH-UHFFFAOYSA-N",
+    "obo:chebi/charge": "0",
+    "altLabel_en": [
         "O-(3-tert-butylphenyl) (6-methoxypyridin-2-yl)methylcarbamothioate",
         "O-[3-(1,1-dimethylethyl)phenyl] N-(6-methoxy-2-pyridinyl)-N-methylcarbamothioate",
         "O-3-tert-butylphenyl 6-methoxy-2-pyridyl(methyl)thiocarbamate",
@@ -33,18 +93,12 @@
         "TSH-888"
     ],
     "skos:exactMatch": {
-        "@id": "obo:CHEBI_81736"
+        "_id": "obo:CHEBI_81736"
     },
-    "skos:note": "A monothiocarbamic ester that is carbamic acid in which the oxygen of the oxo group is replaced by sulfur, the hydrogens attached to the nitrogen are replaced by methyl and 6-methoxypyridin-2-yl groups, and the hydrogen of the hydroxy group is replaced by a p-tert-butylphenyl group. It has fungicidal and herbicidal activity and is used in paddy rice and turf production.",
-    "skos:semanticRelation": [
-        {
-            "@id": "obo:CHEBI_26421"
-        },
-        {
-            "@id": "obo:CHEBI_35618"
-        },
-        {
-            "@id": "obo:CHEBI_38128"
-        }
+    "note_en": "A monothiocarbamic ester that is carbamic acid in which the oxygen of the oxo group is replaced by sulfur, the hydrogens attached to the nitrogen are replaced by methyl and 6-methoxypyridin-2-yl groups, and the hydrogen of the hydroxy group is replaced by a p-tert-butylphenyl group. It has fungicidal and herbicidal activity and is used in paddy rice and turf production.",
+    "alternative_parents": [
+        "obo:CHEBI_26421",
+        "obo:CHEBI_35618",
+        "obo:CHEBI_38128"
     ]
 }

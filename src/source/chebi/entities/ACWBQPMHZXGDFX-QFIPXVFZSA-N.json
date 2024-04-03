@@ -1,27 +1,91 @@
 {
     "@context": {
+        "smiles": {
+            "@id": "http://dbpedia.org/ontology/smiles"
+        },
+        "name": {
+            "@id": "http://www.w3.org/2004/02/skos/core#prefLabel",
+            "@language": "en"
+        },
+        "url": {
+            "@id": "http://www.w3.org/2000/01/rdf-schema#seeAlso",
+            "@type": "@id"
+        },
+        "inchikey": {
+            "@id": "http://dbpedia.org/property/inchikey"
+        },
+        "intermediate_nodes": {
+            "@id": "http://www.w3.org/2004/02/skos/core#broaderTransitive",
+            "@type": "@id"
+        },
+        "subclass": {
+            "@id": "http://www.w3.org/2004/02/skos/core#broaderTransitive",
+            "@type": "@id"
+        },
+        "kingdom": {
+            "@id": "http://www.w3.org/2004/02/skos/core#broaderTransitive",
+            "@type": "@id"
+        },
+        "class": {
+            "@id": "http://www.w3.org/2004/02/skos/core#broaderTransitive",
+            "@type": "@id"
+        },
+        "ancestors": {
+            "@id": "http://purl.org/dc/elements/1.1/relation",
+            "@language": "en"
+        },
+        "description": {
+            "@id": "http://www.w3.org/2004/02/skos/core#definition",
+            "@language": "en"
+        },
+        "direct_parent": {
+            "@id": "http://www.w3.org/2004/02/skos/core#broader",
+            "@type": "@id"
+        },
+        "alternative_parents": {
+            "@id": "http://www.w3.org/2004/02/skos/core#semanticRelation",
+            "@type": "@id"
+        },
+        "_id": {
+            "@id": "@id"
+        },
+        "chemont_id": {
+            "@id": "@id"
+        },
+        "altLabel_en": {
+            "@id": "http://www.w3.org/2004/02/skos/core#altLabel",
+            "@language": "en"
+        },
+        "note_en": {
+            "@id": "http://www.w3.org/2004/02/skos/core#note",
+            "@language": "en"
+        },
+        "graph": {
+            "@id": "@graph"
+        },
         "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
-        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
         "obo": "http://purl.obolibrary.org/obo/",
         "uniprot": "http://purl.uniprot.org/",
         "owl": "http://www.w3.org/2002/07/owl#",
-        "concept": "https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/",
-        "chebi": "http://purl.obolibrary.org/obo/chebi/",
-        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "CHEMONTID": "https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/",
+        "chebi": "http://purl.obolibrary.org/obo/",
         "dbo": "http://dbpedia.org/ontology/",
         "dbp": "http://dbpedia.org/property/",
-        "graph": {
-            "@id": "@graph"
-        }
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "tax_nodes": "http://classyfire.wishartlab.com/tax_nodes/",
+        "concept": "https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "@base": "https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/"
     },
-    "@id": "concept:ACWBQPMHZXGDFX-QFIPXVFZSA-N",
+    "_id": "concept:ACWBQPMHZXGDFX-QFIPXVFZSA-N",
     "@type": "skos:Concept",
     "dbo:formula": "C24H29N5O3",
     "dbo:inchi": "InChI=1S/C24H29N5O3/c1-4-5-10-21(30)29(22(16(2)3)24(31)32)15-17-11-13-18(14-12-17)19-8-6-7-9-20(19)23-25-27-28-26-23/h6-9,11-14,16,22H,4-5,10,15H2,1-3H3,(H,31,32)(H,25,26,27,28)/t22-/m0/s1",
-    "dbo:smiles": "CCCCC(=O)N(Cc1ccc(cc1)-c1ccccc1-c1nnn[nH]1)[C@@H](C(C)C)C(O)=O",
-    "dbp:inchikey": "ACWBQPMHZXGDFX-QFIPXVFZSA-N",
-    "chebi:charge": "0",
-    "skos:altLabel": [
+    "smiles": "CCCCC(=O)N(Cc1ccc(cc1)-c1ccccc1-c1nnn[nH]1)[C@@H](C(C)C)C(O)=O",
+    "inchikey": "ACWBQPMHZXGDFX-QFIPXVFZSA-N",
+    "obo:chebi/charge": "0",
+    "altLabel_en": [
         "(S)-N-valeryl-N-{[2'-(1H-tetrazol-5-yl)biphenyl-4-yl]-methyl}-valine",
         "Diovan",
         "N-(p-(o-1H-tetrazol-5-ylphenyl)benzyl)-N-valeryl-L-valine",
@@ -29,18 +93,12 @@
         "N-pentanoyl-N-{[2'-(1H-tetrazol-5-yl)biphenyl-4-yl]methyl}-L-valine"
     ],
     "skos:exactMatch": {
-        "@id": "obo:CHEBI_9927"
+        "_id": "obo:CHEBI_9927"
     },
-    "skos:note": "A monocarboxylic acid amide consisting of L-valine in which the amino hydrogens have been replaced by a pentanoyl and a  [2'-(1H-tetrazol-5-yl)biphenyl]-4-yl]methyl group. It exhibits  antihypertensive activity.",
-    "skos:semanticRelation": [
-        {
-            "@id": "obo:CHEBI_29347"
-        },
-        {
-            "@id": "obo:CHEBI_25384"
-        },
-        {
-            "@id": "obo:CHEBI_48420"
-        }
+    "note_en": "A monocarboxylic acid amide consisting of L-valine in which the amino hydrogens have been replaced by a pentanoyl and a  [2'-(1H-tetrazol-5-yl)biphenyl]-4-yl]methyl group. It exhibits  antihypertensive activity.",
+    "alternative_parents": [
+        "obo:CHEBI_29347",
+        "obo:CHEBI_25384",
+        "obo:CHEBI_48420"
     ]
 }

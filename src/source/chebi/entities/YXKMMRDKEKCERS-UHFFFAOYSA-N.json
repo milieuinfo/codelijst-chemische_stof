@@ -1,56 +1,104 @@
 {
     "@context": {
-        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
-        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-        "obo": "http://purl.obolibrary.org/obo/",
-        "uniprot": "http://purl.uniprot.org/",
-        "owl": "http://www.w3.org/2002/07/owl#",
-        "concept": "https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/",
-        "chebi": "http://purl.obolibrary.org/obo/chebi/",
-        "skos": "http://www.w3.org/2004/02/skos/core#",
-        "dbo": "http://dbpedia.org/ontology/",
-        "dbp": "http://dbpedia.org/property/",
-        "altLabel": {
+        "smiles": {
+            "@id": "http://dbpedia.org/ontology/smiles"
+        },
+        "name": {
+            "@id": "http://www.w3.org/2004/02/skos/core#prefLabel",
+            "@language": "en"
+        },
+        "url": {
+            "@id": "http://www.w3.org/2000/01/rdf-schema#seeAlso",
+            "@type": "@id"
+        },
+        "inchikey": {
+            "@id": "http://dbpedia.org/property/inchikey"
+        },
+        "intermediate_nodes": {
+            "@id": "http://www.w3.org/2004/02/skos/core#broaderTransitive",
+            "@type": "@id"
+        },
+        "subclass": {
+            "@id": "http://www.w3.org/2004/02/skos/core#broaderTransitive",
+            "@type": "@id"
+        },
+        "kingdom": {
+            "@id": "http://www.w3.org/2004/02/skos/core#broaderTransitive",
+            "@type": "@id"
+        },
+        "class": {
+            "@id": "http://www.w3.org/2004/02/skos/core#broaderTransitive",
+            "@type": "@id"
+        },
+        "ancestors": {
+            "@id": "http://purl.org/dc/elements/1.1/relation",
+            "@language": "en"
+        },
+        "description": {
+            "@id": "http://www.w3.org/2004/02/skos/core#definition",
+            "@language": "en"
+        },
+        "direct_parent": {
+            "@id": "http://www.w3.org/2004/02/skos/core#broader",
+            "@type": "@id"
+        },
+        "alternative_parents": {
+            "@id": "http://www.w3.org/2004/02/skos/core#semanticRelation",
+            "@type": "@id"
+        },
+        "_id": {
+            "@id": "@id"
+        },
+        "chemont_id": {
+            "@id": "@id"
+        },
+        "altLabel_en": {
             "@id": "http://www.w3.org/2004/02/skos/core#altLabel",
+            "@language": "en"
+        },
+        "note_en": {
+            "@id": "http://www.w3.org/2004/02/skos/core#note",
             "@language": "en"
         },
         "graph": {
             "@id": "@graph"
-        }
+        },
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "obo": "http://purl.obolibrary.org/obo/",
+        "uniprot": "http://purl.uniprot.org/",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "CHEMONTID": "https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/",
+        "chebi": "http://purl.obolibrary.org/obo/",
+        "dbo": "http://dbpedia.org/ontology/",
+        "dbp": "http://dbpedia.org/property/",
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "tax_nodes": "http://classyfire.wishartlab.com/tax_nodes/",
+        "concept": "https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "@base": "https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/"
     },
-    "@id": "concept:YXKMMRDKEKCERS-UHFFFAOYSA-N",
+    "_id": "concept:YXKMMRDKEKCERS-UHFFFAOYSA-N",
     "@type": "skos:Concept",
     "dbo:formula": "C13H13ClN4O2S",
     "dbo:inchi": "InChI=1S/C13H13ClN4O2S/c1-9-4-6-10(7-5-9)12-13(14)16-11(8-15)18(12)21(19,20)17(2)3/h4-7H,1-3H3",
-    "dbo:smiles": "CN(C)S(=O)(=O)n1c(nc(Cl)c1-c1ccc(C)cc1)C#N",
-    "dbp:inchikey": "YXKMMRDKEKCERS-UHFFFAOYSA-N",
-    "chebi:charge": "0",
-    "skos:altLabel": [
+    "smiles": "CN(C)S(=O)(=O)n1c(nc(Cl)c1-c1ccc(C)cc1)C#N",
+    "inchikey": "YXKMMRDKEKCERS-UHFFFAOYSA-N",
+    "obo:chebi/charge": "0",
+    "altLabel_en": [
         "4-chloro-2-cyano-N,N-dimethyl-5-(4-methylphenyl)-1H-imidazole-1-sulfonamide",
         "4-chloro-2-cyano-N,N-dimethyl-5-p-tolylimidazole-1-sulfonamide"
     ],
     "skos:exactMatch": {
-        "@id": "obo:CHEBI_81841"
+        "_id": "obo:CHEBI_81841"
     },
-    "skos:note": "A member of the class of imidazoles carrying dimethylsulfamyl, cyano, chloro and 4-tolyl substituents at positions 1, 2, 4 and 5 respectively. A fungicide used mainly for controlling Oomycete and Plasmodiophora diseases on potatoes and tomatoes. It is a skin and eye irritant and is moderately toxic to birds, most aquatic organisms, honeybees and earthworms.",
-    "skos:semanticRelation": [
-        {
-            "@id": "obo:CHEBI_18379"
-        },
-        {
-            "@id": "obo:CHEBI_36683"
-        },
-        {
-            "@id": "obo:CHEBI_24780"
-        },
-        {
-            "@id": "obo:CHEBI_87068"
-        },
-        {
-            "@id": "obo:CHEBI_51871"
-        },
-        {
-            "@id": "obo:CHEBI_87027"
-        }
+    "note_en": "A member of the class of imidazoles carrying dimethylsulfamyl, cyano, chloro and 4-tolyl substituents at positions 1, 2, 4 and 5 respectively. A fungicide used mainly for controlling Oomycete and Plasmodiophora diseases on potatoes and tomatoes. It is a skin and eye irritant and is moderately toxic to birds, most aquatic organisms, honeybees and earthworms.",
+    "alternative_parents": [
+        "obo:CHEBI_18379",
+        "obo:CHEBI_36683",
+        "obo:CHEBI_24780",
+        "obo:CHEBI_87068",
+        "obo:CHEBI_51871",
+        "obo:CHEBI_87027"
     ]
 }

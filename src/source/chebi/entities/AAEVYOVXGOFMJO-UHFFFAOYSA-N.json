@@ -1,27 +1,91 @@
 {
     "@context": {
+        "smiles": {
+            "@id": "http://dbpedia.org/ontology/smiles"
+        },
+        "name": {
+            "@id": "http://www.w3.org/2004/02/skos/core#prefLabel",
+            "@language": "en"
+        },
+        "url": {
+            "@id": "http://www.w3.org/2000/01/rdf-schema#seeAlso",
+            "@type": "@id"
+        },
+        "inchikey": {
+            "@id": "http://dbpedia.org/property/inchikey"
+        },
+        "intermediate_nodes": {
+            "@id": "http://www.w3.org/2004/02/skos/core#broaderTransitive",
+            "@type": "@id"
+        },
+        "subclass": {
+            "@id": "http://www.w3.org/2004/02/skos/core#broaderTransitive",
+            "@type": "@id"
+        },
+        "kingdom": {
+            "@id": "http://www.w3.org/2004/02/skos/core#broaderTransitive",
+            "@type": "@id"
+        },
+        "class": {
+            "@id": "http://www.w3.org/2004/02/skos/core#broaderTransitive",
+            "@type": "@id"
+        },
+        "ancestors": {
+            "@id": "http://purl.org/dc/elements/1.1/relation",
+            "@language": "en"
+        },
+        "description": {
+            "@id": "http://www.w3.org/2004/02/skos/core#definition",
+            "@language": "en"
+        },
+        "direct_parent": {
+            "@id": "http://www.w3.org/2004/02/skos/core#broader",
+            "@type": "@id"
+        },
+        "alternative_parents": {
+            "@id": "http://www.w3.org/2004/02/skos/core#semanticRelation",
+            "@type": "@id"
+        },
+        "_id": {
+            "@id": "@id"
+        },
+        "chemont_id": {
+            "@id": "@id"
+        },
+        "altLabel_en": {
+            "@id": "http://www.w3.org/2004/02/skos/core#altLabel",
+            "@language": "en"
+        },
+        "note_en": {
+            "@id": "http://www.w3.org/2004/02/skos/core#note",
+            "@language": "en"
+        },
+        "graph": {
+            "@id": "@graph"
+        },
         "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
-        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
         "obo": "http://purl.obolibrary.org/obo/",
         "uniprot": "http://purl.uniprot.org/",
         "owl": "http://www.w3.org/2002/07/owl#",
-        "concept": "https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/",
-        "chebi": "http://purl.obolibrary.org/obo/chebi/",
-        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "CHEMONTID": "https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/",
+        "chebi": "http://purl.obolibrary.org/obo/",
         "dbo": "http://dbpedia.org/ontology/",
         "dbp": "http://dbpedia.org/property/",
-        "graph": {
-            "@id": "@graph"
-        }
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "tax_nodes": "http://classyfire.wishartlab.com/tax_nodes/",
+        "concept": "https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "@base": "https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/"
     },
-    "@id": "concept:AAEVYOVXGOFMJO-UHFFFAOYSA-N",
+    "_id": "concept:AAEVYOVXGOFMJO-UHFFFAOYSA-N",
     "@type": "skos:Concept",
     "dbo:formula": "C10H19N5S",
     "dbo:inchi": "InChI=1S/C10H19N5S/c1-6(2)11-8-13-9(12-7(3)4)15-10(14-8)16-5/h6-7H,1-5H3,(H2,11,12,13,14,15)",
-    "dbo:smiles": "CSc1nc(NC(C)C)nc(NC(C)C)n1",
-    "dbp:inchikey": "AAEVYOVXGOFMJO-UHFFFAOYSA-N",
-    "chebi:charge": "0",
-    "skos:altLabel": [
+    "smiles": "CSc1nc(NC(C)C)nc(NC(C)C)n1",
+    "inchikey": "AAEVYOVXGOFMJO-UHFFFAOYSA-N",
+    "obo:chebi/charge": "0",
+    "altLabel_en": [
         "2-(methylthio)-4,6-bis(isopropylamino)-s-triazine",
         "6-(methylsulfanyl)-N,N'-di(propan-2-yl)-1,3,5-triazine-2,4-diamine",
         "N,N'-bis(1-methylethyl)-6-methylthio-1,3,5-triazine-2,4-diamine",
@@ -30,15 +94,11 @@
         "Prometryne"
     ],
     "skos:exactMatch": {
-        "@id": "obo:CHEBI_26276"
+        "_id": "obo:CHEBI_26276"
     },
-    "skos:note": "A diamino-1,3,5-triazine that is N,N'-di(propan-2-yl)-1,3,5-triazine-2,4-diamine substituted by a methylsulfanediyl group at position 6.",
-    "skos:semanticRelation": [
-        {
-            "@id": "obo:CHEBI_38170"
-        },
-        {
-            "@id": "obo:CHEBI_38174"
-        }
+    "note_en": "A diamino-1,3,5-triazine that is N,N'-di(propan-2-yl)-1,3,5-triazine-2,4-diamine substituted by a methylsulfanediyl group at position 6.",
+    "alternative_parents": [
+        "obo:CHEBI_38170",
+        "obo:CHEBI_38174"
     ]
 }

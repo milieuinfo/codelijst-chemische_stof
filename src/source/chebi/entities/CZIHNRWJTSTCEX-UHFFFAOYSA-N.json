@@ -1,27 +1,91 @@
 {
     "@context": {
+        "smiles": {
+            "@id": "http://dbpedia.org/ontology/smiles"
+        },
+        "name": {
+            "@id": "http://www.w3.org/2004/02/skos/core#prefLabel",
+            "@language": "en"
+        },
+        "url": {
+            "@id": "http://www.w3.org/2000/01/rdf-schema#seeAlso",
+            "@type": "@id"
+        },
+        "inchikey": {
+            "@id": "http://dbpedia.org/property/inchikey"
+        },
+        "intermediate_nodes": {
+            "@id": "http://www.w3.org/2004/02/skos/core#broaderTransitive",
+            "@type": "@id"
+        },
+        "subclass": {
+            "@id": "http://www.w3.org/2004/02/skos/core#broaderTransitive",
+            "@type": "@id"
+        },
+        "kingdom": {
+            "@id": "http://www.w3.org/2004/02/skos/core#broaderTransitive",
+            "@type": "@id"
+        },
+        "class": {
+            "@id": "http://www.w3.org/2004/02/skos/core#broaderTransitive",
+            "@type": "@id"
+        },
+        "ancestors": {
+            "@id": "http://purl.org/dc/elements/1.1/relation",
+            "@language": "en"
+        },
+        "description": {
+            "@id": "http://www.w3.org/2004/02/skos/core#definition",
+            "@language": "en"
+        },
+        "direct_parent": {
+            "@id": "http://www.w3.org/2004/02/skos/core#broader",
+            "@type": "@id"
+        },
+        "alternative_parents": {
+            "@id": "http://www.w3.org/2004/02/skos/core#semanticRelation",
+            "@type": "@id"
+        },
+        "_id": {
+            "@id": "@id"
+        },
+        "chemont_id": {
+            "@id": "@id"
+        },
+        "altLabel_en": {
+            "@id": "http://www.w3.org/2004/02/skos/core#altLabel",
+            "@language": "en"
+        },
+        "note_en": {
+            "@id": "http://www.w3.org/2004/02/skos/core#note",
+            "@language": "en"
+        },
+        "graph": {
+            "@id": "@graph"
+        },
         "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
-        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
         "obo": "http://purl.obolibrary.org/obo/",
         "uniprot": "http://purl.uniprot.org/",
         "owl": "http://www.w3.org/2002/07/owl#",
-        "concept": "https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/",
-        "chebi": "http://purl.obolibrary.org/obo/chebi/",
-        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "CHEMONTID": "https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/",
+        "chebi": "http://purl.obolibrary.org/obo/",
         "dbo": "http://dbpedia.org/ontology/",
         "dbp": "http://dbpedia.org/property/",
-        "graph": {
-            "@id": "@graph"
-        }
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "tax_nodes": "http://classyfire.wishartlab.com/tax_nodes/",
+        "concept": "https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "@base": "https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/"
     },
-    "@id": "concept:CZIHNRWJTSTCEX-UHFFFAOYSA-N",
+    "_id": "concept:CZIHNRWJTSTCEX-UHFFFAOYSA-N",
     "@type": "skos:Concept",
     "dbo:formula": "C15H13NO",
     "dbo:inchi": "InChI=1S/C15H13NO/c1-10(17)16-13-6-7-15-12(9-13)8-11-4-2-3-5-14(11)15/h2-7,9H,8H2,1H3,(H,16,17)",
-    "dbo:smiles": "C(=O)(NC=1C=C2C(C=3C(C2)=CC=CC3)=CC1)C",
-    "dbp:inchikey": "CZIHNRWJTSTCEX-UHFFFAOYSA-N",
-    "chebi:charge": "0",
-    "skos:altLabel": [
+    "smiles": "C(=O)(NC=1C=C2C(C=3C(C2)=CC=CC3)=CC1)C",
+    "inchikey": "CZIHNRWJTSTCEX-UHFFFAOYSA-N",
+    "obo:chebi/charge": "0",
+    "altLabel_en": [
         "2-(Acetylamino)fluorene",
         "2-AAF",
         "2-Acetamidofluorene",
@@ -36,10 +100,8 @@
         "N-fluoren-2-ylacetamide"
     ],
     "skos:exactMatch": {
-        "@id": "obo:CHEBI_17356"
+        "_id": "obo:CHEBI_17356"
     },
-    "skos:note": "The parent of the class of 2-acetamidofluorenes, being an ortho-fused polycyclic arene that consists of 9H-fluorene bearing an acetamido substituent at position 2. It is a carcinogenic and mutagenic derivative of fluorene.",
-    "skos:semanticRelation": {
-        "@id": "obo:CHEBI_19432"
-    }
+    "note_en": "The parent of the class of 2-acetamidofluorenes, being an ortho-fused polycyclic arene that consists of 9H-fluorene bearing an acetamido substituent at position 2. It is a carcinogenic and mutagenic derivative of fluorene.",
+    "alternative_parents": "obo:CHEBI_19432"
 }

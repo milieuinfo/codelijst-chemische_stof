@@ -6,24 +6,12 @@ import { QueryEngine } from "@comunica/query-sparql";
 import rdfDataset from "@rdfjs/dataset";
 import {jsonld_writer, n3_reasoning, output} from 'maven-metadata-generator-npm';
 import {
-    chebi_jsonld,
-    chebi_ttl,
     config,
     frame_chebi,
-    context_extra
+    context_extra,
+    shapes_skos
 } from './variables.js';
-import Environment from '@zazuko/env/Environment.js'
-import baseEnv from '@zazuko/env'
-import { FsUtilsFactory } from '@zazuko/rdf-utils-fs'
-import formats from '@rdfjs/formats'
 import { inchikeys_from_csv } from './inchikeys.js'
-
-//const context = JSON.parse(readFileSync('./utils/context.json'));
-// create an environment by adding FsUtilsFactory
-const env = new Environment([FsUtilsFactory], { parent: baseEnv })
-// add parsers+serializers
-env.formats.import(formats)
-
 
 
 async function write_json(json, filepath) {
@@ -103,14 +91,14 @@ async function get_chebi_from_inchikey(inchikeys){
 }
 
 
-async function chebi_information() {
+async function chebi_information(chebi_ttl, chebi_jsonld) {
     const inchikeys = await inchikeys_from_csv()
     const my_jsonld = await get_chebi_from_inchikey(inchikeys)
     //fs.writeFileSync('/home/gehau/git/codelijst-chemische_stof/src/main/resources/be/vlaanderen/omgeving/data/id/conceptscheme/chemische_stof/chemische_stof_chebi_taxonomy-test.jsonld'
     //     , JSON.stringify(await jsonld.frame(my_jsonld, frame_chebi), null, 4));
     // //write_json(jsonld, './source/chemont/entities/error/' + inchikey + '.json');
     const nt = await n3_reasoning(my_jsonld, config.skos.rules)
-    output('/home/gehau/git/codelijst-chemische_stof/src/main/resources/be/vlaanderen/data/ns/chemische_stof_shapes/shacl.ttl', nt, chebi_ttl, chebi_jsonld)
+    output(shapes_skos, nt, chebi_ttl, chebi_jsonld)
     console.log("parent information");
 }
 

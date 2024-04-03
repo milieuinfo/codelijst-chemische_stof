@@ -1,27 +1,91 @@
 {
     "@context": {
+        "smiles": {
+            "@id": "http://dbpedia.org/ontology/smiles"
+        },
+        "name": {
+            "@id": "http://www.w3.org/2004/02/skos/core#prefLabel",
+            "@language": "en"
+        },
+        "url": {
+            "@id": "http://www.w3.org/2000/01/rdf-schema#seeAlso",
+            "@type": "@id"
+        },
+        "inchikey": {
+            "@id": "http://dbpedia.org/property/inchikey"
+        },
+        "intermediate_nodes": {
+            "@id": "http://www.w3.org/2004/02/skos/core#broaderTransitive",
+            "@type": "@id"
+        },
+        "subclass": {
+            "@id": "http://www.w3.org/2004/02/skos/core#broaderTransitive",
+            "@type": "@id"
+        },
+        "kingdom": {
+            "@id": "http://www.w3.org/2004/02/skos/core#broaderTransitive",
+            "@type": "@id"
+        },
+        "class": {
+            "@id": "http://www.w3.org/2004/02/skos/core#broaderTransitive",
+            "@type": "@id"
+        },
+        "ancestors": {
+            "@id": "http://purl.org/dc/elements/1.1/relation",
+            "@language": "en"
+        },
+        "description": {
+            "@id": "http://www.w3.org/2004/02/skos/core#definition",
+            "@language": "en"
+        },
+        "direct_parent": {
+            "@id": "http://www.w3.org/2004/02/skos/core#broader",
+            "@type": "@id"
+        },
+        "alternative_parents": {
+            "@id": "http://www.w3.org/2004/02/skos/core#semanticRelation",
+            "@type": "@id"
+        },
+        "_id": {
+            "@id": "@id"
+        },
+        "chemont_id": {
+            "@id": "@id"
+        },
+        "altLabel_en": {
+            "@id": "http://www.w3.org/2004/02/skos/core#altLabel",
+            "@language": "en"
+        },
+        "note_en": {
+            "@id": "http://www.w3.org/2004/02/skos/core#note",
+            "@language": "en"
+        },
+        "graph": {
+            "@id": "@graph"
+        },
         "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
-        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
         "obo": "http://purl.obolibrary.org/obo/",
         "uniprot": "http://purl.uniprot.org/",
         "owl": "http://www.w3.org/2002/07/owl#",
-        "concept": "https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/",
-        "chebi": "http://purl.obolibrary.org/obo/chebi/",
-        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "CHEMONTID": "https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/",
+        "chebi": "http://purl.obolibrary.org/obo/",
         "dbo": "http://dbpedia.org/ontology/",
         "dbp": "http://dbpedia.org/property/",
-        "graph": {
-            "@id": "@graph"
-        }
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "tax_nodes": "http://classyfire.wishartlab.com/tax_nodes/",
+        "concept": "https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "@base": "https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/"
     },
-    "@id": "concept:FYQGBXGJFWXIPP-UEVLXMDPSA-N",
+    "_id": "concept:FYQGBXGJFWXIPP-UEVLXMDPSA-N",
     "@type": "skos:Concept",
     "dbo:formula": "C17H30O2",
     "dbo:inchi": "InChI=1S/C17H30O2/c1-6-19-17(18)13-16(5)12-8-11-15(4)10-7-9-14(2)3/h8,12-15H,6-7,9-11H2,1-5H3/b12-8+,16-13+",
-    "dbo:smiles": "CCOC(=O)\\C=C(C)\\C=C\\CC(C)CCCC(C)C",
-    "dbp:inchikey": "FYQGBXGJFWXIPP-UEVLXMDPSA-N",
-    "chebi:charge": "0",
-    "skos:altLabel": [
+    "smiles": "CCOC(=O)\\C=C(C)\\C=C\\CC(C)CCCC(C)C",
+    "inchikey": "FYQGBXGJFWXIPP-UEVLXMDPSA-N",
+    "obo:chebi/charge": "0",
+    "altLabel_en": [
         "(2E,4E)-3,7,11-trimethyldodeca-2,4-dienoic acid, ethyl ester",
         "(2E,4E)-hydroprene",
         "(E,E)-3,7,11-trimethyl-2,4-dodecadienoic acid, ethyl ester",
@@ -36,15 +100,11 @@
         "ZR 512"
     ],
     "skos:exactMatch": {
-        "@id": "obo:CHEBI_39234"
+        "_id": "obo:CHEBI_39234"
     },
-    "skos:note": "The ethyl ester of (2E,4E)-3,7,11-trimethyldodeca-2,4-dienoic acid",
-    "skos:semanticRelation": [
-        {
-            "@id": "obo:CHEBI_23990"
-        },
-        {
-            "@id": "obo:CHEBI_36757"
-        }
+    "note_en": "The ethyl ester of (2E,4E)-3,7,11-trimethyldodeca-2,4-dienoic acid",
+    "alternative_parents": [
+        "obo:CHEBI_23990",
+        "obo:CHEBI_36757"
     ]
 }
