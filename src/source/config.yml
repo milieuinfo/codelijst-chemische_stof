@@ -3,6 +3,7 @@ skos:
   rules :
     skos_rules : /../node_modules/maven-metadata-generator-npm/src/n3/skos-rules.n3
     dcterms_rules : /../node_modules/maven-metadata-generator-npm/src/n3/dcterms-rules.n3
+    dbpedia_rules : /../node_modules/maven-metadata-generator-npm/src/n3/dbpedia-rules.n3
   prefixes :
     concept : https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/
     collectie : https://data.omgeving.vlaanderen.be/id/collection/chemische_stof/
@@ -90,6 +91,7 @@ prefixes :
   adms: http://www.w3.org/ns/adms#
   assettype: http://purl.org/adms/assettype/
   bioindicator: https://data.omgeving.vlaanderen.be/id/concept/bioindicator/
+  chebi : http://purl.obolibrary.org/obo/chebi/
   chemische_stof: https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/
   compound : https://pubchem.ncbi.nlm.nih.gov/compound/
   conceptscheme: https://data.omgeving.vlaanderen.be/id/conceptscheme/
@@ -98,6 +100,7 @@ prefixes :
   datatheme_be: http://vocab.belgif.be/auth/datatheme/
   datatheme_eu: http://publications.europa.eu/resource/authority/data-theme/
   dbo: http://dbpedia.org/ontology/
+  dbp: http://dbpedia.org/property/
   dcat: http://www.w3.org/ns/dcat#
   dc: http://purl.org/dc/elements/1.1/
   dcterms: http://purl.org/dc/terms/
@@ -109,6 +112,7 @@ prefixes :
   frequency: http://publications.europa.eu/resource/authority/frequency/
   gemet: http://www.eionet.europa.eu/gemet/concept/
   licence: http://data.vlaanderen.be/id/licentie/modellicentie-gratis-hergebruik/
+  obo: http://purl.obolibrary.org/obo/
   observatieprocedure: https://data.omgeving.vlaanderen.be/id/concept/observatieprocedure/
   metadata: https://data.omgeving.vlaanderen.be/ns/metadata#
   omg_catalog: https://data.omgeving.vlaanderen.be/id/catalog/
