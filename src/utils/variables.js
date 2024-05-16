@@ -221,9 +221,13 @@ const jsonld = [config.skos.path + config.skos.name + '/' + config.skos.name + c
 
 const csv = [config.skos.path + config.skos.name + '/' + config.skos.name + config.skos.csv, frame_skos_no_prefixes]
 
-const chemont_ttl = config.skos.path + config.skos.name + '/' + config.skos.name + '_chemont_taxonomy' + config.skos.turtle
+const chemont_tax_ttl = config.skos.path + config.skos.name + '/' + config.skos.name + '_chemont_taxonomy' + config.skos.turtle
 
-const chemont_jsonld = [config.skos.path + config.skos.name + '/' + config.skos.name + '_chemont_taxonomy' + config.skos.jsonld, frame_skos_prefixes]
+const chemont_tax_jsonld = [config.skos.path + config.skos.name + '/' + config.skos.name + '_chemont_taxonomy' + config.skos.jsonld, frame_skos_prefixes]
+
+const chemont_ttl = config.skos.path + config.skos.name + '/' + config.skos.name + '_chemont_parent' + config.skos.turtle
+
+const chemont_jsonld = [config.skos.path + config.skos.name + '/' + config.skos.name + '_chemont_parent' + config.skos.jsonld, frame_skos_prefixes]
 
 const chebi_ttl = config.skos.path + config.skos.name + '/' + config.skos.name + '_chebi' + config.skos.turtle
 
@@ -231,8 +235,11 @@ const chebi_jsonld = [config.skos.path + config.skos.name + '/' + config.skos.na
 
 const shapes_skos = await rdf.dataset().import(rdf.fromFile(config.ap.path + config.ap.name + '-' + config.ap.type + '/' + config.ap.name + '-' + config.ap.type + config.ap.turtle))
 
+const shapes_skos_chebi = await rdf.dataset().import(rdf.fromFile(config.ap.path + config.ap.name + '-' + config.ap.type + '/' + config.ap.name + '_chebi-' + config.ap.type + config.ap.turtle))
 
 export {
+    chemont_tax_jsonld,
+    chemont_tax_ttl,
     shapes_skos,
     prefixes_chebi,
     frame_chebi,
@@ -245,5 +252,6 @@ export {
     chemont_ttl,
     chebi_jsonld,
     chebi_ttl,
-    context_extra
+    context_extra,
+    shapes_skos_chebi
 };

@@ -14,19 +14,20 @@ construct
     ?stof skos:exactMatch ?chebi ; skos:note ?note ; dct:type ?type ; a ?chebi .
 }
 where
-{{
+{
+    {
     ?stof a dbo:ChemicalCompound ; dbp:inchikey ?inchikey .
     ?chebi chebi:inchikey ?inchikey .
     optional {?chebi obo:IAO_0000115 ?def}
     BIND(STRLANG(?def, "en") AS ?note)
-}
+    }
 UNION
-{
+    {
     ?stof a dbo:ChemicalCompound ; dbp:inchikey ?inchikey .
     ?chebi chebi:inchikey ?inchikey ; rdfs:subClassOf [owl:onProperty obo:RO_0000087 ; owl:someValuesFrom ?type] .
     optional {?chebi obo:IAO_0000115 ?def}
     BIND(STRLANG(?def, "en") AS ?note)
-}
+    }
 }
 
 

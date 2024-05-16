@@ -9,7 +9,8 @@ import {
     config,
     frame_chebi,
     context_extra,
-    shapes_skos
+    shapes_skos,
+    shapes_skos_chebi
 } from './variables.js';
 import { inchikeys_from_csv } from './inchikeys.js'
 
@@ -34,43 +35,7 @@ async function get_chebi_from_inchikey(inchikeys){
         else {
             try {
                 const myEngine = new QueryEngine();
-                var query =
-                    'PREFIX skos:  <http://www.w3.org/2004/02/skos/core#> ' +
-                    'prefix chebi:  <http://purl.obolibrary.org/obo/chebi/> ' +
-                    'prefix geneontology: <http://www.geneontology.org/formats/oboInOwl#> ' +
-                    'prefix rdfs:   <http://www.w3.org/2000/01/rdf-schema#> ' +
-                    'prefix obo:   <http://purl.obolibrary.org/obo/> ' +
-                    'prefix dbo:   <http://dbpedia.org/ontology/>' +
-                    'prefix dbp:   <http://dbpedia.org/property/>' +
-                    'prefix owl:   <http://www.w3.org/2002/07/owl#>' +
-                    'construct {\n' +
-                    '  ?stof a skos:Concept  ;         \n' +
-                    '    skos:note         ?note ;        \n' +
-                    '    chebi:charge             ?charge;       \n' +
-                    '    dbo:formula           ?formula;        \n' +
-                    '    dbo:inchi              ?inchi;       \n' +
-                    '    dbp:inchikey           ?inchikey;        \n' +
-                    '    dbo:smiles             ?smiles;              \n' +
-                    '    skos:altLabel             ?hasSynonym;        \n' +
-                    '    skos:exactMatch        ?chebi_id  ;        \n' +
-                    '    skos:semanticRelation  ?subclass  .} \n' +
-                    'where { \n' +
-                    '  ?chebi_id chebi:inchikey "' + inchikey + '" ;   \n' +
-                    '                                                            \n' +
-                    '                                                         chebi:charge             ?charge;         \n' +
-                    '                                                         chebi:formula            ?formula;         \n' +
-                    '                                                         chebi:inchi              ?inchi;         \n' +
-                    '                                                         chebi:inchikey           ?inchikey;         \n' +
-                    '                                                         chebi:smiles             ?smiles;       \n' +
-                    '                                                         geneontology:hasSynonym ?hasSyn . \n' +
-                    '  optional {?chebi_id         rdfs:subClassOf        ?subclass .  \n' +
-                    '    ?subclass ?p2 ?o2 .\n' +
-                    '    ?subclass a owl:Class .}\n' +
-                    '  optional { ?chebi_id   obo:IAO_0000115         ?IAO_0000115 }\n' +
-                    '    bind(iri(concat("https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/",  "' + inchikey + '")) as ?stof)\n' +
-                    ' BIND(STRLANG(?hasSyn, "en") AS ?hasSynonym)' +
-                    ' BIND(STRLANG(?IAO_0000115, "en") AS ?note)' +
-                    ' }';
+                var query = fs.readFileSync(config.skos.sparql.chebi_skos, 'utf8').replace(/INCHIKEY/g, inchikey)
 
                 const dataset = rdfDataset.dataset()
                 const quadStream = await myEngine.queryQuads(query, { sources: ['https://sparql.rhea-db.org/sparql'] });
@@ -98,7 +63,7 @@ async function chebi_information(chebi_ttl, chebi_jsonld) {
     //     , JSON.stringify(await jsonld.frame(my_jsonld, frame_chebi), null, 4));
     // //write_json(jsonld, './source/chemont/entities/error/' + inchikey + '.json');
     const nt = await n3_reasoning(my_jsonld, config.skos.rules)
-    output(shapes_skos, nt, chebi_ttl, chebi_jsonld)
+    output(shapes_skos_chebi, nt, chebi_ttl, chebi_jsonld)
     console.log("parent information");
 }
 

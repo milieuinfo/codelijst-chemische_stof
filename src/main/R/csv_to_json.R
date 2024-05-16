@@ -118,5 +118,3 @@ df_classification <-df_classification[ , -which(names(df_classification) %in% c(
 write(to_jsonld(df_classification), "/tmp/classification.jsonld")
 system("riot --formatted=TURTLE /tmp/classification.jsonld > ../chemont/turtle/skos_chemont_2_1_verrijkt.ttl")
 
-
-

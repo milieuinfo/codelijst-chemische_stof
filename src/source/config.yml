@@ -1,5 +1,9 @@
 types : chemische_stoftypes
 skos:
+  sparql:
+    chemont_skos : ./source/sparql/chemont_to_skos.rq
+    chemont_xkos : ./source/sparql/chemont_to_xkos.rq
+    chebi_skos : ./source/sparql/chebi_to_skos.rq
   rules :
     skos_rules : /../node_modules/maven-metadata-generator-npm/src/n3/skos-rules.n3
     dcterms_rules : /../node_modules/maven-metadata-generator-npm/src/n3/dcterms-rules.n3

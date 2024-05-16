@@ -14,5 +14,5 @@ echo "query exact match"
 sparql --results=TURTLE --data=/tmp/chebi.ttl  --query ../sparql/exact_match_chebi.rq  > ../resources/be/vlaanderen/omgeving/data/id/conceptscheme/chemische_stof/exact_match_chebi.ttl
 echo "make jsonld"
 riot --formatted=JSONLD ../resources/be/vlaanderen/omgeving/data/id/conceptscheme/chemische_stof/exact_match_chebi.ttl >  ../resources/be/vlaanderen/omgeving/data/id/conceptscheme/chemische_stof/exact_match_chebi.jsonld
-rm ../chebi/*.owl
+#rm ../chebi/*.owl
 popd

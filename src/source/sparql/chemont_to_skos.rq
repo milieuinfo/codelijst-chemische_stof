@@ -1,0 +1,34 @@
+prefix skos:  <http://www.w3.org/2004/02/skos/core#>
+prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#>
+prefix dbo:   <http://dbpedia.org/ontology/>
+prefix cs:    <https://data.vlaanderen.be/ns/chemische_stof#>
+prefix dbp:   <http://dbpedia.org/property/>
+prefix owl: <http://www.w3.org/2002/07/owl#>
+prefix csc: <http://purl.obolibrary.org/obo/>
+prefix vlcs:  <https://data.omgeving.vlaanderen.be/id/conceptscheme/>
+prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+construct
+{
+    ?stof a skos:Concept ;
+    skos:broader ?broader ;
+    skos:prefLabel ?label ;
+    skos:inScheme   vlcs:chemische_stof .
+    vlcs:chemische_stof a skos:ConceptScheme .
+    ?stof2 skos:topConceptOf vlcs:chemische_stof .vlcs:chemische_stof skos:hasTopConcept ?stof2 .}
+where
+{{
+    ?s a owl:Class ;
+    rdfs:subClassOf ?b ;
+    rdfs:label ?la .
+    BIND(STRLANG(?la, "en") AS ?label)
+    FILTER( ?b != <http://purl.obolibrary.org/obo/CHEMONTID_9999999> )
+    FILTER( ?s != <http://purl.obolibrary.org/obo/CHEMONTID_9999999> )
+    BIND(IRI(REPLACE(STR(?s), "http://purl.obolibrary.org/obo/CHEMONTID_", "https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/", "i")) AS ?stof)
+    BIND(IRI(REPLACE(STR(?b), "http://purl.obolibrary.org/obo/CHEMONTID_", "https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/", "i")) AS ?broader)
+}
+UNION
+{
+    ?o rdfs:subClassOf ?s ;  a owl:Class .
+    FILTER( ?s = <http://purl.obolibrary.org/obo/CHEMONTID_9999999> )
+    BIND(IRI(REPLACE(STR(?o), "http://purl.obolibrary.org/obo/CHEMONTID_", "https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/", "i")) AS ?stof2)
+}}
