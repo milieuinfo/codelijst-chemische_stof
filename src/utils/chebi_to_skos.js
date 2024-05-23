@@ -59,9 +59,6 @@ async function get_chebi_from_inchikey(inchikeys){
 async function chebi_information(chebi_ttl, chebi_jsonld) {
     const inchikeys = await inchikeys_from_csv()
     const my_jsonld = await get_chebi_from_inchikey(inchikeys)
-    //fs.writeFileSync('/home/gehau/git/codelijst-chemische_stof/src/main/resources/be/vlaanderen/omgeving/data/id/conceptscheme/chemische_stof/chemische_stof_chebi_taxonomy-test.jsonld'
-    //     , JSON.stringify(await jsonld.frame(my_jsonld, frame_chebi), null, 4));
-    // //write_json(jsonld, './source/chemont/entities/error/' + inchikey + '.json');
     const nt = await n3_reasoning(my_jsonld, config.skos.rules)
     output(shapes_skos_chebi, nt, chebi_ttl, chebi_jsonld)
     console.log("parent information");
