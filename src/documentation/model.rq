@@ -30,6 +30,7 @@ where
     )  as ?datatype)
 NOT EXISTS { ?s a dbo:ChemicalCompound  }
 NOT EXISTS { ?s a dbo:ChemicalSubstance  }
+NOT EXISTS { ?s a dbo:Drug  }
 }
 UNION
 {
