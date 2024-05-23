@@ -1,0 +1,260 @@
+@prefix vv:            <https://data.vlaanderen.be/ns/> .
+@prefix owl:           <http://www.w3.org/2002/07/owl#> .
+@prefix xhv:           <http://www.w3.org/1999/xhtml/vocab#> .
+@prefix xsd:           <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:          <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs:          <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix omg_dataset:   <https://data.omgeving.vlaanderen.be/id/dataset/> .
+@prefix dct:           <http://purl.org/dc/terms/> .
+@prefix dc:           <http://purl.org/dc/elements/1.1/> .
+@prefix sh:            <http://www.w3.org/ns/shacl#> .
+@prefix omg_ont:       <https://data.omgeving.vlaanderen.be/id/ontology/> .
+@prefix omg_ag_cl:     <https://data.omgeving.vlaanderen.be/id/person/codelijst/> .
+@prefix omg_voc:       <https://data.omgeving.vlaanderen.be/ns/> .
+@prefix vl_org:        <http://data.vlaanderen.be/id/organisatie/> .
+@prefix xkos:          <http://rdf-vocabulary.ddialliance.org/xkos#> .
+@prefix dbo:           <http://dbpedia.org/ontology/> .
+@prefix vcs:            <https://data.vlaanderen.be/ns/chemische_stof#> .
+@prefix dbp:           <http://dbpedia.org/property/> .
+@prefix omg_ps:        <https://data.omgeving.vlaanderen.be/id/propertyshape/> .
+@prefix rdf:           <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix ons:           <https://data.omgeving.vlaanderen.be/id/nodeshape/> .
+@prefix schema:        <http://schema.org/> .
+@prefix foaf:          <http://xmlns.com/foaf/0.1/> .
+@prefix chebi:         <http://purl.obolibrary.org/obo/chebi/>.
+
+omg_ont:chemische-stof-chebi-ap-constraints
+    a               owl:Ontology ;
+    rdfs:comment
+                    "Specifieert hoe de data in de codelijst van chemische stoffen te encoderen in RDF (i.e. RDF termen, kardinaliteiten,...)."@en ;
+    rdfs:label      "Chemische stof AP Constraints"@en ;
+    dct:abstract    "Het chemische stof applicatieprofiel specifieert de RDF termen (klassen en properties) en bijhorende constraints die gebruikt worden voor het beschrijven van chemische stoffen. Het maakt hierbij zoveel mogelijk gebruik van bestaande termen (klassen en properties) uit bestaande , skos, dbo, dbp en een minimale set van nieuwe termen gedefinieerd in het Chemische stof Vocabularium."@en ;
+    dct:alternative "Chemische stof AP Shapes"@en ;
+    dct:creator     omg_ag_cl:creator ;
+    dct:description "Dit is de SHACL encodering van het applicatieprofiel van een chemische stof."@en ;
+    dct:issued      "2022-10-03"^^xsd:date ;
+    dct:title       "Chemische stof AP Constraints"@en ;
+    xkos:belongsTo  omg_dataset:codelijst-chemische_stof ;
+    xhv:last        omg_voc:chemische-stof-chebi-ap-constraints ;
+    owl:sameAs      omg_voc:chemische-stof-chebi-ap-constraints ;
+    owl:versionInfo "Versie 2.0.0  oktober 2023"@en .
+
+
+omg_voc:chemische-stof-chebi-ap-constraints
+    a          owl:Ontology ;
+    rdfs:label "Chemische stof AP Constraints"@en ;
+    owl:sameAs omg_ont:chemische-stof-chebi-ap-constraints .
+
+omg_ag_cl:creator
+    rdfs:label "Ontwikkelaar codelijst"@en ;
+    schema:affiliation vl_org:OVO003751 ;
+    a foaf:Person;
+    foaf:firstName "Geert";
+    foaf:lastName "Van Haute";
+    foaf:mbox <mailto:geert.vanhaute@vlaanderen.be>.
+
+
+
+ons:chemische_stof_chebi
+    a                sh:NodeShape ;
+    rdfs:label       "chemische stof"@en ;
+    sh:name          "chemische stof"@en ;
+    sh:description   "Een stof is in de scheikunde een vorm van materie die een gelijke chemische samenstelling heeft, een chemisch zuivere stof. Deze wordt gekenmerkt door specifieke, uniforme stofeigenschappen, zoals dichtheid, geleidbaarheid en smeltpunt."@en ;
+    rdfs:comment     "De uniciteit van een chemische stof wordt bepaald door haar IUPAC-naam. InChI's kunnen gezien worden als verkorte, geformaliseerde versies van de IUPAC-namen van stoffen. InChIKey is een formaat met een vaste lengte dat direct is afgeleid van een InChI. De URI van de chemische stoffen is gebaseerd op de InChIKey."@en ;
+    rdfs:isDefinedBy omg_ont:chemische-stof-chebi-ap-constraints, omg_voc:chemische-stof-chebi-ap-constraints ;
+    sh:property      omg_ps:min_1_inchi,
+                     omg_ps:chemische_stof_formula,
+                     omg_ps:min_1_smiles,
+                     omg_ps:min_1_inchikey,
+                    omg_ps:min_1_charge,
+                    omg_ps:rdf_type,
+                     omg_ps:altLabel,
+                     omg_ps:closeMatch,
+                     omg_ps:exactMatch,
+                     omg_ps:mappingRelation,
+                     omg_ps:note,
+                     omg_ps:semanticRelation ;
+    sh:closed true ;
+    sh:targetClass   dbo:ChemicalSubstance .
+
+
+ons:concept_chebi
+    a                sh:NodeShape ;
+    rdfs:label       "chemische stof"@en ;
+    sh:name          "chemische stof"@en ;
+    sh:description   "Een stof is in de scheikunde een vorm van materie die een gelijke chemische samenstelling heeft, een chemisch zuivere stof. Deze wordt gekenmerkt door specifieke, uniforme stofeigenschappen, zoals dichtheid, geleidbaarheid en smeltpunt."@en ;
+    rdfs:comment     "De uniciteit van een chemische stof wordt bepaald door haar IUPAC-naam. InChI's kunnen gezien worden als verkorte, geformaliseerde versies van de IUPAC-namen van stoffen. InChIKey is een formaat met een vaste lengte dat direct is afgeleid van een InChI. De URI van de chemische stoffen is gebaseerd op de InChIKey."@en ;
+    rdfs:isDefinedBy omg_ont:chemische-stof-chebi-ap-constraints, omg_voc:chemische-stof-chebi-ap-constraints ;
+    sh:property      omg_ps:closeMatch,
+                     omg_ps:exactMatch,
+                     omg_ps:mappingRelation,
+                     omg_ps:semanticRelation ;
+    sh:targetClass   skos:Concept .
+
+
+# Property Shapes
+
+
+omg_ps:min_1_inchikey
+    a                sh:PropertyShape ;
+    rdfs:label       "InChIKey"@en ;
+    sh:name          "InChIKey"@en ;
+    sh:description   "InChIKey is een formaat met een vaste lengte die rechtstreeks is afgeleid van InChI. Het is gebaseerd op een sterke hash (SHA-256-algoritme) van een InChI-string."@en ;
+    rdfs:isDefinedBy omg_ont:chemische-stof-ap-constraints, omg_voc:chemische-stof-ap-constraints ;
+    sh:datatype      xsd:string ;
+    sh:maxCount      1 ;
+    sh:minCount      1 ;
+    sh:property      omg_ps:unique_inchikey ;
+    sh:nodeKind      sh:Literal ;
+    sh:path          dbp:inchikey .
+
+
+omg_ps:unique_inchikey
+    a                  sh:PropertyShape ;
+    rdfs:label         "unieke InChIKey"@en ;
+    sh:name            "unieke InChIKey"@en ;
+    sh:description     "Vanuit 1 InChIKey kan slechts naar 1 stof worden verwezen."@en ;
+    rdfs:isDefinedBy   omg_ont:chemische-stof-ap-constraints, omg_voc:chemische-stof-ap-constraints ;
+    sh:nodeKind        sh:IRI ;
+    sh:targetObjectsOf dbp:inchikey ;
+    sh:path            [ sh:inversePath dbp:inchikey ] ;
+    sh:minCount        1 ;
+    sh:maxCount        1 .
+
+omg_ps:min_1_inchi
+    a                sh:PropertyShape ;
+    rdfs:label       "InChI"@en ;
+    sh:name          "InChI"@en ;
+    sh:description   "De International Chemical Identifier, afgekort InChI, is een tekstuele identificatiecode voor chemische stoffen, vooral bedoeld om moleculen ondubbelzinnig en op een voor mensen leesbare manier te coderen, waarbij het zoeken naar die stof in databanken en via het web gemakkelijker zou worden gemaakt. "@en ;
+    rdfs:isDefinedBy omg_ont:chemische-stof-ap-constraints, omg_voc:chemische-stof-ap-constraints ;
+    sh:datatype      xsd:string ;
+    sh:maxCount      1 ;
+    sh:minCount      1 ;
+    sh:property      omg_ps:chemische_stof_unique_inchi ;
+    sh:nodeKind      sh:Literal ;
+    sh:path          dbo:inchi .
+
+
+
+omg_ps:chemische_stof_unique_inchi
+    a                  sh:PropertyShape ;
+    rdfs:label         "unieke InChI"@en ;
+    sh:name            "unieke InChI"@en ;
+    sh:description     "Vanuit 1 InChI kan slechts naar 1 stof worden verwezen."@en ;
+    rdfs:isDefinedBy   omg_ont:chemische-stof-ap-constraints, omg_voc:chemische-stof-ap-constraints ;
+    sh:nodeKind        sh:IRI ;
+    sh:targetObjectsOf dbo:inchi ;
+    sh:path            [ sh:inversePath dbo:inchi ] ;
+    sh:minCount        1 ;
+    sh:maxCount        1 .
+
+omg_ps:chemische_stof_formula
+    a                sh:PropertyShape ;
+    rdfs:label       "formule"@en ;
+    sh:name          "formule"@en ;
+    sh:description   "De molecuulformule is de korte aanduiding voor een molecuul die aangeeft uit welke elementen en in welke aantallen atomen het is opgebouwd. "@en ;
+    rdfs:isDefinedBy omg_ont:chemische-stof-ap-constraints, omg_voc:chemische-stof-ap-constraints ;
+    sh:datatype      xsd:string ;
+    sh:maxCount      1 ;
+    sh:minCount      1 ;
+    sh:nodeKind      sh:Literal ;
+    sh:path          dbo:formula .
+
+omg_ps:min_1_smiles
+    a                sh:PropertyShape ;
+    rdfs:label       "SMILES"@en ;
+    sh:name          "SMILES"@en ;
+    sh:description   "SMILES of voluit simplified molecular-input line-entry specification is een specificatie om de structuur van chemische moleculen op eenduidige wijze te beschrijven als een tekenreeks. SMILES kunnen door de meeste chemische tekenprogramma's ingelezen worden en worden omgezet in een tweedimensionale tekening of een driedimensionaal model van het molecuul. "@en ;
+    rdfs:isDefinedBy omg_ont:chemische-stof-ap-constraints, omg_voc:chemische-stof-ap-constraints ;
+    sh:datatype      xsd:string ;
+    sh:maxCount      3 ;
+    sh:minCount      1 ;
+    sh:nodeKind      sh:Literal ;
+    sh:path          dbo:smiles .
+
+omg_ps:min_1_charge
+    a                sh:PropertyShape ;
+    rdfs:label       "Lading"@en ;
+    sh:name          "Lading"@en ;
+    sh:description   ""@en ;
+    rdfs:isDefinedBy omg_ont:chemische-stof-ap-constraints, omg_voc:chemische-stof-ap-constraints ;
+    sh:datatype      xsd:string ;
+    sh:maxCount      1 ;
+    sh:minCount      1 ;
+    sh:nodeKind      sh:Literal ;
+    sh:path          chebi:charge .
+
+omg_ps:rdf_type
+    a                sh:PropertyShape ;
+    rdfs:label       "rdf type"@en ;
+    sh:name          "rdf type"@en ;
+    sh:description   "Aanduiding dat een bron een instantie van een bepaalde klasse is."@en ;
+    rdfs:isDefinedBy omg_ont:chemische-stof-ap-constraints, omg_voc:chemische-stof-ap-constraints ;
+    sh:minCount      1 ;
+    sh:nodeKind      sh:IRI ;
+    sh:path          rdf:type .
+
+omg_ps:altLabel
+    a                sh:PropertyShape ;
+    rdfs:label       "voorkeurslabel"@en ;
+    sh:name          "voorkeurslabel"@en ;
+    sh:description   "Het voorkeurslabel."@en ;
+    rdfs:isDefinedBy omg_ont:chemische-stof-ap-constraints, omg_voc:chemische-stof-ap-constraints ;
+    sh:datatype      rdf:langString ;
+    sh:languageIn    ( "en" "nl" ) ;
+    sh:nodeKind      sh:Literal ;
+    sh:path          skos:altLabel .
+
+
+omg_ps:closeMatch
+    a                sh:PropertyShape ;
+    rdfs:label       "heeft nauwe overeenkomst"@en ;
+    sh:name          "heeft nauw verwante overeenkomst"@en ;
+    sh:description   "skos:closeMatch wordt gebruikt om twee concepten te koppelen, wat aangeeft dat er een hoge mate van vertrouwen bestaat dat de concepten onderling uitwisselbaar kunnen worden gebruikt in een breed scala aan toepassingen voor het ophalen van informatie. skos:exactMatch is een transitieve eigenschap en is een subeigenschap van skos:closeMatch"@en ;
+    rdfs:isDefinedBy omg_ont:chemische-stof-ap-constraints, omg_voc:chemische-stof-ap-constraints ;
+    sh:nodeKind      sh:IRI ;
+    sh:path          skos:closeMatch .
+
+omg_ps:exactMatch
+    a                sh:PropertyShape ;
+    rdfs:label       "heeft exacte overeenkomst"@en ;
+    sh:name          "heeft exacte overeenkomst"@en ;
+    sh:description   "skos:exactMatch wordt gebruikt om twee concepten te koppelen, wat aangeeft dat er een hoge mate van vertrouwen bestaat dat de concepten onderling uitwisselbaar kunnen worden gebruikt in een breed scala aan toepassingen voor het ophalen van informatie. skos:exactMatch is een transitieve eigenschap en is een subeigenschap van skos:closeMatch"@en ;
+    rdfs:isDefinedBy omg_ont:chemische-stof-ap-constraints, omg_voc:chemische-stof-ap-constraints ; ;
+    sh:nodeKind      sh:IRI ;
+    sh:path          skos:exactMatch .
+
+
+
+
+
+omg_ps:mappingRelation
+    a                sh:PropertyShape ;
+    rdfs:label       "relatie"@en ;
+    sh:name          "relatie"@en ;
+    sh:description   ""@en ;
+    rdfs:isDefinedBy omg_ont:chemische-stof-ap-constraints, omg_voc:chemische-stof-ap-constraints ;
+    sh:class         skos:Concept ;
+    sh:nodeKind      sh:IRI ;
+    sh:path          skos:mappingRelation; .
+
+omg_ps:note
+    a                sh:PropertyShape ;
+    rdfs:label       "nota"@en ;
+    sh:name          "nota"@en ;
+    sh:description   "Een nota."@en ;
+    rdfs:isDefinedBy omg_ont:chemische-stof-ap-constraints, omg_voc:chemische-stof-ap-constraints ;
+    sh:datatype      rdf:langString ;
+    sh:languageIn    ( "en" "nl" ) ;
+    sh:nodeKind      sh:Literal ;
+    sh:path          skos:note .
+
+
+omg_ps:semanticRelation
+    a                sh:PropertyShape ;
+    rdfs:label       "gerelateerd concept"@en ;
+    sh:name          "gerelateerd concept"@en ;
+    sh:description   "gerelateerd concept."@en ;
+    rdfs:isDefinedBy omg_ont:chemische-stof-ap-constraints, omg_voc:chemische-stof-ap-constraints ;
+    sh:nodeKind      sh:IRI ;
+    sh:path          skos:semanticRelation; .

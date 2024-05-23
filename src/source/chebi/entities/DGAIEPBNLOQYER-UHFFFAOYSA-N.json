@@ -1,0 +1,103 @@
+{
+    "@context": {
+        "smiles": {
+            "@id": "http://dbpedia.org/ontology/smiles"
+        },
+        "name": {
+            "@id": "http://www.w3.org/2004/02/skos/core#prefLabel",
+            "@language": "en"
+        },
+        "url": {
+            "@id": "http://www.w3.org/2000/01/rdf-schema#seeAlso",
+            "@type": "@id"
+        },
+        "inchikey": {
+            "@id": "http://dbpedia.org/property/inchikey"
+        },
+        "intermediate_nodes": {
+            "@id": "http://www.w3.org/2004/02/skos/core#broaderTransitive",
+            "@type": "@id"
+        },
+        "subclass": {
+            "@id": "http://www.w3.org/2004/02/skos/core#broaderTransitive",
+            "@type": "@id"
+        },
+        "kingdom": {
+            "@id": "http://www.w3.org/2004/02/skos/core#broaderTransitive",
+            "@type": "@id"
+        },
+        "class": {
+            "@id": "http://www.w3.org/2004/02/skos/core#broaderTransitive",
+            "@type": "@id"
+        },
+        "ancestors": {
+            "@id": "http://purl.org/dc/elements/1.1/relation",
+            "@language": "en"
+        },
+        "description": {
+            "@id": "http://www.w3.org/2004/02/skos/core#definition",
+            "@language": "en"
+        },
+        "direct_parent": {
+            "@id": "http://www.w3.org/2004/02/skos/core#broader",
+            "@type": "@id"
+        },
+        "alternative_parents": {
+            "@id": "http://www.w3.org/2004/02/skos/core#semanticRelation",
+            "@type": "@id"
+        },
+        "_id": {
+            "@id": "@id"
+        },
+        "chemont_id": {
+            "@id": "@id"
+        },
+        "altLabel_en": {
+            "@id": "http://www.w3.org/2004/02/skos/core#altLabel",
+            "@language": "en"
+        },
+        "note_en": {
+            "@id": "http://www.w3.org/2004/02/skos/core#note",
+            "@language": "en"
+        },
+        "graph": {
+            "@id": "@graph"
+        },
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "obo": "http://purl.obolibrary.org/obo/",
+        "uniprot": "http://purl.uniprot.org/",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "CHEMONTID": "https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/",
+        "chebi": "http://purl.obolibrary.org/obo/",
+        "dbo": "http://dbpedia.org/ontology/",
+        "dbp": "http://dbpedia.org/property/",
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "tax_nodes": "http://classyfire.wishartlab.com/tax_nodes/",
+        "concept": "https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "@base": "https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/"
+    },
+    "_id": "concept:DGAIEPBNLOQYER-UHFFFAOYSA-N",
+    "@type": "skos:Concept",
+    "dbo:formula": "C18H24I3N3O8",
+    "dbo:inchi": "InChI=1S/C18H24I3N3O8/c1-24(4-9(28)6-26)18(31)12-13(19)11(17(30)22-3-8(27)5-25)14(20)16(15(12)21)23-10(29)7-32-2/h8-9,25-28H,3-7H2,1-2H3,(H,22,30)(H,23,29)",
+    "smiles": "COCC(=O)Nc1c(I)c(C(=O)NCC(O)CO)c(I)c(C(=O)N(C)CC(O)CO)c1I",
+    "inchikey": "DGAIEPBNLOQYER-UHFFFAOYSA-N",
+    "obo:chebi/charge": "0",
+    "altLabel_en": [
+        "iopromida",
+        "iopromidum",
+        "N,N'-Bis(2,3-dihydroxypropyl)-2,4,6-triiodo-5-(2-methoxyacetamido)-N-methylisophthalamide",
+        "N,N'-bis(2,3-dihydroxypropyl)-2,4,6-triiodo-5-[(methoxyacetyl)amino]-N-methylisophthalamide",
+        "Ultravist"
+    ],
+    "skos:exactMatch": {
+        "_id": "obo:CHEBI_63578"
+    },
+    "note_en": "A dicarboxylic acid diamide that consists of N-methylisophthalamide bearing three iodo substituents at positions 2, 4 and 6, a methoxyacetyl substituent at position 5 and two 2,3-dihydroxypropyl groups attached to the amide nitrogens. A water soluble x-ray contrast agent for intravascular administration.",
+    "alternative_parents": [
+        "obo:CHEBI_37142",
+        "obo:CHEBI_35779"
+    ]
+}

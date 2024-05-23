@@ -1,0 +1,104 @@
+{
+    "@context": {
+        "smiles": {
+            "@id": "http://dbpedia.org/ontology/smiles"
+        },
+        "name": {
+            "@id": "http://www.w3.org/2004/02/skos/core#prefLabel",
+            "@language": "en"
+        },
+        "url": {
+            "@id": "http://www.w3.org/2000/01/rdf-schema#seeAlso",
+            "@type": "@id"
+        },
+        "inchikey": {
+            "@id": "http://dbpedia.org/property/inchikey"
+        },
+        "intermediate_nodes": {
+            "@id": "http://www.w3.org/2004/02/skos/core#broaderTransitive",
+            "@type": "@id"
+        },
+        "subclass": {
+            "@id": "http://www.w3.org/2004/02/skos/core#broaderTransitive",
+            "@type": "@id"
+        },
+        "kingdom": {
+            "@id": "http://www.w3.org/2004/02/skos/core#broaderTransitive",
+            "@type": "@id"
+        },
+        "class": {
+            "@id": "http://www.w3.org/2004/02/skos/core#broaderTransitive",
+            "@type": "@id"
+        },
+        "ancestors": {
+            "@id": "http://purl.org/dc/elements/1.1/relation",
+            "@language": "en"
+        },
+        "description": {
+            "@id": "http://www.w3.org/2004/02/skos/core#definition",
+            "@language": "en"
+        },
+        "direct_parent": {
+            "@id": "http://www.w3.org/2004/02/skos/core#broader",
+            "@type": "@id"
+        },
+        "alternative_parents": {
+            "@id": "http://www.w3.org/2004/02/skos/core#semanticRelation",
+            "@type": "@id"
+        },
+        "_id": {
+            "@id": "@id"
+        },
+        "chemont_id": {
+            "@id": "@id"
+        },
+        "altLabel_en": {
+            "@id": "http://www.w3.org/2004/02/skos/core#altLabel",
+            "@language": "en"
+        },
+        "note_en": {
+            "@id": "http://www.w3.org/2004/02/skos/core#note",
+            "@language": "en"
+        },
+        "graph": {
+            "@id": "@graph"
+        },
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "obo": "http://purl.obolibrary.org/obo/",
+        "uniprot": "http://purl.uniprot.org/",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "CHEMONTID": "https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/",
+        "chebi": "http://purl.obolibrary.org/obo/",
+        "dbo": "http://dbpedia.org/ontology/",
+        "dbp": "http://dbpedia.org/property/",
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "tax_nodes": "http://classyfire.wishartlab.com/tax_nodes/",
+        "concept": "https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "@base": "https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/"
+    },
+    "_id": "concept:STJLVHWMYQXCPB-UHFFFAOYSA-N",
+    "@type": "skos:Concept",
+    "dbo:formula": "C15H17Cl2N3O2",
+    "dbo:inchi": "InChI=1S/C15H17Cl2N3O2/c1-2-3-12-7-21-15(22-12,8-20-10-18-9-19-20)13-5-4-11(16)6-14(13)17/h4-6,9-10,12H,2-3,7-8H2,1H3",
+    "smiles": "CCCC1COC(Cn2cncn2)(O1)c1ccc(Cl)cc1Cl",
+    "inchikey": "STJLVHWMYQXCPB-UHFFFAOYSA-N",
+    "obo:chebi/charge": "0",
+    "altLabel_en": [
+        "(+-)-1-[2-(2,4-dichlorophenyl)-4-propyl-1,3-dioxolan-2-yl-methyl]-1H-1,2,4-triazole",
+        "1-{[2-(2,4-dichlorophenyl)-4-propyl-1,3-dioxolan-2-yl]methyl}-1H-1,2,4-triazole",
+        "Propiconazole"
+    ],
+    "skos:exactMatch": {
+        "_id": "obo:CHEBI_8489"
+    },
+    "note_en": "The cyclic ketal obtained by formal condensation of 1-(2,4-dichlorophenyl)-2-(1H-1,2,4-triazol-1-yl)ethanone with pentane-1,2-diol. A triazole fungicide, it is used commercially as a diastereoisomeric mixture on soft fruit (including apricots, peaches, nectarines, plums and prunes), nuts (including peanuts, pecans and almonds), mushrooms, and grasses grown for seeds.",
+    "alternative_parents": [
+        "obo:CHEBI_35727",
+        "obo:CHEBI_23697",
+        "obo:CHEBI_59779",
+        "obo:CHEBI_87100",
+        "obo:CHEBI_87067"
+    ]
+}

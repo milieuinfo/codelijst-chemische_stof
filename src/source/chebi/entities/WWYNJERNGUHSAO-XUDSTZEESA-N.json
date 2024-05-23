@@ -1,0 +1,125 @@
+{
+    "@context": {
+        "smiles": {
+            "@id": "http://dbpedia.org/ontology/smiles"
+        },
+        "name": {
+            "@id": "http://www.w3.org/2004/02/skos/core#prefLabel",
+            "@language": "en"
+        },
+        "url": {
+            "@id": "http://www.w3.org/2000/01/rdf-schema#seeAlso",
+            "@type": "@id"
+        },
+        "inchikey": {
+            "@id": "http://dbpedia.org/property/inchikey"
+        },
+        "intermediate_nodes": {
+            "@id": "http://www.w3.org/2004/02/skos/core#broaderTransitive",
+            "@type": "@id"
+        },
+        "subclass": {
+            "@id": "http://www.w3.org/2004/02/skos/core#broaderTransitive",
+            "@type": "@id"
+        },
+        "kingdom": {
+            "@id": "http://www.w3.org/2004/02/skos/core#broaderTransitive",
+            "@type": "@id"
+        },
+        "class": {
+            "@id": "http://www.w3.org/2004/02/skos/core#broaderTransitive",
+            "@type": "@id"
+        },
+        "ancestors": {
+            "@id": "http://purl.org/dc/elements/1.1/relation",
+            "@language": "en"
+        },
+        "description": {
+            "@id": "http://www.w3.org/2004/02/skos/core#definition",
+            "@language": "en"
+        },
+        "direct_parent": {
+            "@id": "http://www.w3.org/2004/02/skos/core#broader",
+            "@type": "@id"
+        },
+        "alternative_parents": {
+            "@id": "http://www.w3.org/2004/02/skos/core#semanticRelation",
+            "@type": "@id"
+        },
+        "_id": {
+            "@id": "@id"
+        },
+        "chemont_id": {
+            "@id": "@id"
+        },
+        "altLabel_en": {
+            "@id": "http://www.w3.org/2004/02/skos/core#altLabel",
+            "@language": "en"
+        },
+        "note_en": {
+            "@id": "http://www.w3.org/2004/02/skos/core#note",
+            "@language": "en"
+        },
+        "graph": {
+            "@id": "@graph"
+        },
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "obo": "http://purl.obolibrary.org/obo/",
+        "uniprot": "http://purl.uniprot.org/",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "CHEMONTID": "https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/",
+        "chebi": "http://purl.obolibrary.org/obo/",
+        "dbo": "http://dbpedia.org/ontology/",
+        "dbp": "http://dbpedia.org/property/",
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "tax_nodes": "http://classyfire.wishartlab.com/tax_nodes/",
+        "concept": "https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "@base": "https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/"
+    },
+    "_id": "concept:WWYNJERNGUHSAO-XUDSTZEESA-N",
+    "@type": "skos:Concept",
+    "dbo:formula": "C21H28O2",
+    "dbo:inchi": "InChI=1S/C21H28O2/c1-3-20-11-9-17-16-8-6-15(22)13-14(16)5-7-18(17)19(20)10-12-21(20,23)4-2/h2,13,16-19,23H,3,5-12H2,1H3/t16-,17+,18+,19-,20-,21-/m0/s1",
+    "smiles": "[H][C@]12CCC(=O)C=C1CC[C@]1([H])[C@]2([H])CC[C@@]2(CC)[C@@]1([H])CC[C@@]2(O)C#C",
+    "inchikey": "WWYNJERNGUHSAO-XUDSTZEESA-N",
+    "obo:chebi/charge": "0",
+    "altLabel_en": [
+        "levonorgestrel",
+        "(-)-13-Ethyl-17-hydroxy-18,19-dinor-17alpha-pregn-4-en-20-yn-3-one",
+        "13-beta-Ethyl-17alpha-ethynyl-17beta-hydroxygon-4-en-3-one",
+        "13-Ethyl-17-alpha-ethynyl-17-beta-hydroxy-4-gonen-3-one",
+        "13-Ethyl-17-alpha-ethynylgon-4-en-17-beta-ol-3-one",
+        "17-alpha-Ethinyl-13-beta-ethyl-17-beta-hydroxy-4-estren-3-one",
+        "17alpha-Ethynyl-13beta-ethyl-3-oxo-4-estren-17beta-ol",
+        "17-alpha-Ethynyl-13-ethyl-19-nortestosterone",
+        "17alpha-ethynyl-17beta-hydroxy-18a-homoestr-4-en-3-one",
+        "17alpha-Ethynyl-17-hydroxy-18-methylestr-4-en-3-one",
+        "17alpha-Ethynyl-18-homo-19-nortestosterone",
+        "17-Ethynyl-18-methyl-19-nortestosterone",
+        "18-Methyl-17-alpha-ethynyl-19-nortestosterone",
+        "18-Methylnorethisterone",
+        "d(-)-Norgestrel",
+        "Jadelle",
+        "Levonelle",
+        "Levonorgestrel",
+        "levonorgestrelum",
+        "Levonova",
+        "Microlut",
+        "Microluton",
+        "Microval",
+        "Mirena",
+        "NorLevo",
+        "Plan B",
+        "Postinor"
+    ],
+    "skos:exactMatch": {
+        "_id": "obo:CHEBI_6443"
+    },
+    "alternative_parents": [
+        "obo:CHEBI_47909",
+        "obo:CHEBI_35343",
+        "obo:CHEBI_73477"
+    ]
+}

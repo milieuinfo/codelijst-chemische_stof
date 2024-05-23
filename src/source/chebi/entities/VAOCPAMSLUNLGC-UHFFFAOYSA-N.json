@@ -1,0 +1,111 @@
+{
+    "@context": {
+        "smiles": {
+            "@id": "http://dbpedia.org/ontology/smiles"
+        },
+        "name": {
+            "@id": "http://www.w3.org/2004/02/skos/core#prefLabel",
+            "@language": "en"
+        },
+        "url": {
+            "@id": "http://www.w3.org/2000/01/rdf-schema#seeAlso",
+            "@type": "@id"
+        },
+        "inchikey": {
+            "@id": "http://dbpedia.org/property/inchikey"
+        },
+        "intermediate_nodes": {
+            "@id": "http://www.w3.org/2004/02/skos/core#broaderTransitive",
+            "@type": "@id"
+        },
+        "subclass": {
+            "@id": "http://www.w3.org/2004/02/skos/core#broaderTransitive",
+            "@type": "@id"
+        },
+        "kingdom": {
+            "@id": "http://www.w3.org/2004/02/skos/core#broaderTransitive",
+            "@type": "@id"
+        },
+        "class": {
+            "@id": "http://www.w3.org/2004/02/skos/core#broaderTransitive",
+            "@type": "@id"
+        },
+        "ancestors": {
+            "@id": "http://purl.org/dc/elements/1.1/relation",
+            "@language": "en"
+        },
+        "description": {
+            "@id": "http://www.w3.org/2004/02/skos/core#definition",
+            "@language": "en"
+        },
+        "direct_parent": {
+            "@id": "http://www.w3.org/2004/02/skos/core#broader",
+            "@type": "@id"
+        },
+        "alternative_parents": {
+            "@id": "http://www.w3.org/2004/02/skos/core#semanticRelation",
+            "@type": "@id"
+        },
+        "_id": {
+            "@id": "@id"
+        },
+        "chemont_id": {
+            "@id": "@id"
+        },
+        "altLabel_en": {
+            "@id": "http://www.w3.org/2004/02/skos/core#altLabel",
+            "@language": "en"
+        },
+        "note_en": {
+            "@id": "http://www.w3.org/2004/02/skos/core#note",
+            "@language": "en"
+        },
+        "graph": {
+            "@id": "@graph"
+        },
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "obo": "http://purl.obolibrary.org/obo/",
+        "uniprot": "http://purl.uniprot.org/",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "CHEMONTID": "https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/",
+        "chebi": "http://purl.obolibrary.org/obo/",
+        "dbo": "http://dbpedia.org/ontology/",
+        "dbp": "http://dbpedia.org/property/",
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "tax_nodes": "http://classyfire.wishartlab.com/tax_nodes/",
+        "concept": "https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "@base": "https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/"
+    },
+    "_id": "concept:VAOCPAMSLUNLGC-UHFFFAOYSA-N",
+    "@type": "skos:Concept",
+    "dbo:formula": "C6H9N3O3",
+    "dbo:inchi": "InChI=1S/C6H9N3O3/c1-5-7-4-6(9(11)12)8(5)2-3-10/h4,10H,2-3H2,1H3",
+    "smiles": "Cc1ncc(n1CCO)[N+]([O-])=O",
+    "inchikey": "VAOCPAMSLUNLGC-UHFFFAOYSA-N",
+    "obo:chebi/charge": "0",
+    "altLabel_en": [
+        "metronidazole",
+        "1-(2-hydroxy-1-ethyl)-2-methyl-5-nitroimidazole",
+        "1-(2-hydroxyethyl)-2-methyl-5-nitroimidazole",
+        "1-(beta-ethylol)-2-methyl-5-nitro-3-azapyrrole",
+        "1-(beta-hydroxyethyl)-2-methyl-5-nitroimidazole",
+        "1-(beta-oxyethyl)-2-methyl-5-nitroimidazole",
+        "2-(2-methyl-5-nitro-1H-imidazol-1-yl)ethanol",
+        "2-methyl-1-(2-hydroxyethyl)-5-nitroimidazole",
+        "2-methyl-3-(2-hydroxyethyl)-4-nitroimidazole",
+        "2-methyl-5-nitroimidazole-1-ethanol",
+        "metronidazol",
+        "metronidazolum"
+    ],
+    "skos:exactMatch": {
+        "_id": "obo:CHEBI_6909"
+    },
+    "note_en": "A member of the class of imidazoles substituted at C-1, -2 and -5 with 2-hydroxyethyl, nitro and methyl groups respectively. It has activity against anaerobic bacteria and protozoa, and has a radiosensitising effect on hypoxic tumour cells. It may be given by mouth in tablets, or as the benzoate in an oral suspension. The hydrochloride salt can be used in intravenous infusions. Metronidazole is a prodrug and is selective for anaerobic bacteria due to their ability to intracellularly reduce the nitro group of metronidazole to give nitroso-containing intermediates. These can covalently bind to DNA, disrupting its helical structure, inducing DNA strand breaks and inhibiting bacterial nucleic acid synthesis, ultimately resulting in bacterial cell death.",
+    "alternative_parents": [
+        "obo:CHEBI_15734",
+        "obo:CHEBI_35716",
+        "obo:CHEBI_24780"
+    ]
+}

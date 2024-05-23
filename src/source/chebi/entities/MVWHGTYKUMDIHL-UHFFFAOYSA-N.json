@@ -1,0 +1,99 @@
+{
+    "@context": {
+        "smiles": {
+            "@id": "http://dbpedia.org/ontology/smiles"
+        },
+        "name": {
+            "@id": "http://www.w3.org/2004/02/skos/core#prefLabel",
+            "@language": "en"
+        },
+        "url": {
+            "@id": "http://www.w3.org/2000/01/rdf-schema#seeAlso",
+            "@type": "@id"
+        },
+        "inchikey": {
+            "@id": "http://dbpedia.org/property/inchikey"
+        },
+        "intermediate_nodes": {
+            "@id": "http://www.w3.org/2004/02/skos/core#broaderTransitive",
+            "@type": "@id"
+        },
+        "subclass": {
+            "@id": "http://www.w3.org/2004/02/skos/core#broaderTransitive",
+            "@type": "@id"
+        },
+        "kingdom": {
+            "@id": "http://www.w3.org/2004/02/skos/core#broaderTransitive",
+            "@type": "@id"
+        },
+        "class": {
+            "@id": "http://www.w3.org/2004/02/skos/core#broaderTransitive",
+            "@type": "@id"
+        },
+        "ancestors": {
+            "@id": "http://purl.org/dc/elements/1.1/relation",
+            "@language": "en"
+        },
+        "description": {
+            "@id": "http://www.w3.org/2004/02/skos/core#definition",
+            "@language": "en"
+        },
+        "direct_parent": {
+            "@id": "http://www.w3.org/2004/02/skos/core#broader",
+            "@type": "@id"
+        },
+        "alternative_parents": {
+            "@id": "http://www.w3.org/2004/02/skos/core#semanticRelation",
+            "@type": "@id"
+        },
+        "_id": {
+            "@id": "@id"
+        },
+        "chemont_id": {
+            "@id": "@id"
+        },
+        "altLabel_en": {
+            "@id": "http://www.w3.org/2004/02/skos/core#altLabel",
+            "@language": "en"
+        },
+        "note_en": {
+            "@id": "http://www.w3.org/2004/02/skos/core#note",
+            "@language": "en"
+        },
+        "graph": {
+            "@id": "@graph"
+        },
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "obo": "http://purl.obolibrary.org/obo/",
+        "uniprot": "http://purl.uniprot.org/",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "CHEMONTID": "https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/",
+        "chebi": "http://purl.obolibrary.org/obo/",
+        "dbo": "http://dbpedia.org/ontology/",
+        "dbp": "http://dbpedia.org/property/",
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "tax_nodes": "http://classyfire.wishartlab.com/tax_nodes/",
+        "concept": "https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "@base": "https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/"
+    },
+    "_id": "concept:MVWHGTYKUMDIHL-UHFFFAOYSA-N",
+    "@type": "skos:Concept",
+    "dbo:formula": "C12H4Cl6",
+    "dbo:inchi": "InChI=1S/C12H4Cl6/c13-7-3-11(17)9(15)1-5(7)6-2-10(16)12(18)4-8(6)14/h1-4H",
+    "smiles": "Clc1cc(Cl)c(cc1Cl)-c1cc(Cl)c(Cl)cc1Cl",
+    "inchikey": "MVWHGTYKUMDIHL-UHFFFAOYSA-N",
+    "obo:chebi/charge": "0",
+    "altLabel_en": [
+        "1,1'-Biphenyl, 2,2',4,4',5,5'-hexachloro-",
+        "2,2',4,4',5,5'-hexachloro-1,1'-biphenyl",
+        "2,2',4,4',5,5'-Hexachlorobiphenyl",
+        "2,4,5,2',4',5'-Hexachlorobiphenyl",
+        "PCB 153"
+    ],
+    "skos:exactMatch": {
+        "_id": "obo:CHEBI_34202"
+    },
+    "alternative_parents": "obo:CHEBI_36722"
+}

@@ -1,0 +1,122 @@
+{
+    "@context": {
+        "smiles": {
+            "@id": "http://dbpedia.org/ontology/smiles"
+        },
+        "name": {
+            "@id": "http://www.w3.org/2004/02/skos/core#prefLabel",
+            "@language": "en"
+        },
+        "url": {
+            "@id": "http://www.w3.org/2000/01/rdf-schema#seeAlso",
+            "@type": "@id"
+        },
+        "inchikey": {
+            "@id": "http://dbpedia.org/property/inchikey"
+        },
+        "intermediate_nodes": {
+            "@id": "http://www.w3.org/2004/02/skos/core#broaderTransitive",
+            "@type": "@id"
+        },
+        "subclass": {
+            "@id": "http://www.w3.org/2004/02/skos/core#broaderTransitive",
+            "@type": "@id"
+        },
+        "kingdom": {
+            "@id": "http://www.w3.org/2004/02/skos/core#broaderTransitive",
+            "@type": "@id"
+        },
+        "class": {
+            "@id": "http://www.w3.org/2004/02/skos/core#broaderTransitive",
+            "@type": "@id"
+        },
+        "ancestors": {
+            "@id": "http://purl.org/dc/elements/1.1/relation",
+            "@language": "en"
+        },
+        "description": {
+            "@id": "http://www.w3.org/2004/02/skos/core#definition",
+            "@language": "en"
+        },
+        "direct_parent": {
+            "@id": "http://www.w3.org/2004/02/skos/core#broader",
+            "@type": "@id"
+        },
+        "alternative_parents": {
+            "@id": "http://www.w3.org/2004/02/skos/core#semanticRelation",
+            "@type": "@id"
+        },
+        "_id": {
+            "@id": "@id"
+        },
+        "chemont_id": {
+            "@id": "@id"
+        },
+        "altLabel_en": {
+            "@id": "http://www.w3.org/2004/02/skos/core#altLabel",
+            "@language": "en"
+        },
+        "note_en": {
+            "@id": "http://www.w3.org/2004/02/skos/core#note",
+            "@language": "en"
+        },
+        "graph": {
+            "@id": "@graph"
+        },
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "obo": "http://purl.obolibrary.org/obo/",
+        "uniprot": "http://purl.uniprot.org/",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "CHEMONTID": "https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/",
+        "chebi": "http://purl.obolibrary.org/obo/",
+        "dbo": "http://dbpedia.org/ontology/",
+        "dbp": "http://dbpedia.org/property/",
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "tax_nodes": "http://classyfire.wishartlab.com/tax_nodes/",
+        "concept": "https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "@base": "https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/"
+    },
+    "_id": "concept:MQJKPEGWNLWLTK-UHFFFAOYSA-N",
+    "@type": "skos:Concept",
+    "dbo:formula": "C12H12N2O2S",
+    "dbo:inchi": "InChI=1S/C12H12N2O2S/c13-9-1-5-11(6-2-9)17(15,16)12-7-3-10(14)4-8-12/h1-8H,13-14H2",
+    "smiles": "Nc1ccc(cc1)S(=O)(=O)c1ccc(N)cc1",
+    "inchikey": "MQJKPEGWNLWLTK-UHFFFAOYSA-N",
+    "obo:chebi/charge": "0",
+    "altLabel_en": [
+        "1,1'-sulfonylbis(4-aminobenzene)",
+        "4,4'-dapsone",
+        "4,4'-diaminodiphenyl sulfone",
+        "4,4'-sulfonylbisaniline",
+        "4,4'-Sulfonylbisbenzenamine",
+        "4,4'-sulfonyldianiline",
+        "4-(4-amino-benzenesulfonyl)-phenylamine",
+        "4-(4-aminophenylsulfonyl)aniline",
+        "4-(4-aminophenylsulfonyl)benzenamine",
+        "4-aminophenyl sulfone",
+        "bis(4-aminophenyl)sulfone",
+        "Bis(p-aminophenyl) sulfone",
+        "DADPS",
+        "dapsona",
+        "Dapsone",
+        "DAPSONE",
+        "dapsonum",
+        "DDS",
+        "Diaphenylsulfone",
+        "DIAPHENYLSULFONE",
+        "p,p'-diaminodiphenyl sulfone",
+        "p,p-sulphonylbisbenzamine",
+        "p,p-sulphonylbisbenzenamine",
+        "p-aminophenyl sulfone"
+    ],
+    "skos:exactMatch": {
+        "_id": "obo:CHEBI_4325"
+    },
+    "note_en": "A  sulfone that is diphenylsulfone in which the hydrogen atom at the 4 position of each of the phenyl groups is substituted by an amino group. It is active against a wide  range of bacteria, but is mainly employed for its actions against Mycobacterium leprae, being used as part of multidrug regimens in the treatment of all forms of leprosy.",
+    "alternative_parents": [
+        "obo:CHEBI_48975",
+        "obo:CHEBI_35850"
+    ]
+}

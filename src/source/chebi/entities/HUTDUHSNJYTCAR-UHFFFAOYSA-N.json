@@ -1,0 +1,107 @@
+{
+    "@context": {
+        "smiles": {
+            "@id": "http://dbpedia.org/ontology/smiles"
+        },
+        "name": {
+            "@id": "http://www.w3.org/2004/02/skos/core#prefLabel",
+            "@language": "en"
+        },
+        "url": {
+            "@id": "http://www.w3.org/2000/01/rdf-schema#seeAlso",
+            "@type": "@id"
+        },
+        "inchikey": {
+            "@id": "http://dbpedia.org/property/inchikey"
+        },
+        "intermediate_nodes": {
+            "@id": "http://www.w3.org/2004/02/skos/core#broaderTransitive",
+            "@type": "@id"
+        },
+        "subclass": {
+            "@id": "http://www.w3.org/2004/02/skos/core#broaderTransitive",
+            "@type": "@id"
+        },
+        "kingdom": {
+            "@id": "http://www.w3.org/2004/02/skos/core#broaderTransitive",
+            "@type": "@id"
+        },
+        "class": {
+            "@id": "http://www.w3.org/2004/02/skos/core#broaderTransitive",
+            "@type": "@id"
+        },
+        "ancestors": {
+            "@id": "http://purl.org/dc/elements/1.1/relation",
+            "@language": "en"
+        },
+        "description": {
+            "@id": "http://www.w3.org/2004/02/skos/core#definition",
+            "@language": "en"
+        },
+        "direct_parent": {
+            "@id": "http://www.w3.org/2004/02/skos/core#broader",
+            "@type": "@id"
+        },
+        "alternative_parents": {
+            "@id": "http://www.w3.org/2004/02/skos/core#semanticRelation",
+            "@type": "@id"
+        },
+        "_id": {
+            "@id": "@id"
+        },
+        "chemont_id": {
+            "@id": "@id"
+        },
+        "altLabel_en": {
+            "@id": "http://www.w3.org/2004/02/skos/core#altLabel",
+            "@language": "en"
+        },
+        "note_en": {
+            "@id": "http://www.w3.org/2004/02/skos/core#note",
+            "@language": "en"
+        },
+        "graph": {
+            "@id": "@graph"
+        },
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "obo": "http://purl.obolibrary.org/obo/",
+        "uniprot": "http://purl.uniprot.org/",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "CHEMONTID": "https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/",
+        "chebi": "http://purl.obolibrary.org/obo/",
+        "dbo": "http://dbpedia.org/ontology/",
+        "dbp": "http://dbpedia.org/property/",
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "tax_nodes": "http://classyfire.wishartlab.com/tax_nodes/",
+        "concept": "https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "@base": "https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/"
+    },
+    "_id": "concept:HUTDUHSNJYTCAR-UHFFFAOYSA-N",
+    "@type": "skos:Concept",
+    "dbo:formula": "C15H16N2O2",
+    "dbo:inchi": "InChI=1S/C15H16N2O2/c1-19-14-6-4-12(5-7-14)15(18,11-2-3-11)13-8-16-10-17-9-13/h4-11,18H,2-3H2,1H3",
+    "smiles": "COc1ccc(cc1)C(O)(C1CC1)c1cncnc1",
+    "inchikey": "HUTDUHSNJYTCAR-UHFFFAOYSA-N",
+    "obo:chebi/charge": "0",
+    "altLabel_en": [
+        "Abide",
+        "alpha-cyclopropyl-4-methoxy-alpha-(pyrimidin-5-yl)benzyl alcohol",
+        "alpha-Cyclopropyl-4-methoxy-alpha-(pyrimidin-5-yl)benzylalkohol",
+        "alpha-cyclopropyl-alpha-(4-methoxyphenyl)-5-pyrimidinemethanol",
+        "ancymidole",
+        "A-rest",
+        "cyclopropyl(4-methoxyphenyl)pyrimidin-5-ylmethanol",
+        "EL-531",
+        "Reducymol"
+    ],
+    "skos:exactMatch": {
+        "_id": "obo:CHEBI_73171"
+    },
+    "note_en": "A tertiary alcohol that is methanol in which the hydrogens attached to the carbon are replaced by cyclopropyl, p-methoxyphenyl and pyrimidin-5-yl groups. By inhibiting gibberellin biosynthesis, ancymidol reduces plant growth, resulting in reduced internode elongation and thus more compact plants. It is used in the commercial production of a wide variety of container-grown bedding and foliage plants, including chrysanthemums, Easter lilies and poinsettias.",
+    "alternative_parents": [
+        "obo:CHEBI_26878",
+        "obo:CHEBI_39447"
+    ]
+}

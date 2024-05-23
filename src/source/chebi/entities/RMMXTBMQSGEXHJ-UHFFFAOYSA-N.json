@@ -1,0 +1,124 @@
+{
+    "@context": {
+        "smiles": {
+            "@id": "http://dbpedia.org/ontology/smiles"
+        },
+        "name": {
+            "@id": "http://www.w3.org/2004/02/skos/core#prefLabel",
+            "@language": "en"
+        },
+        "url": {
+            "@id": "http://www.w3.org/2000/01/rdf-schema#seeAlso",
+            "@type": "@id"
+        },
+        "inchikey": {
+            "@id": "http://dbpedia.org/property/inchikey"
+        },
+        "intermediate_nodes": {
+            "@id": "http://www.w3.org/2004/02/skos/core#broaderTransitive",
+            "@type": "@id"
+        },
+        "subclass": {
+            "@id": "http://www.w3.org/2004/02/skos/core#broaderTransitive",
+            "@type": "@id"
+        },
+        "kingdom": {
+            "@id": "http://www.w3.org/2004/02/skos/core#broaderTransitive",
+            "@type": "@id"
+        },
+        "class": {
+            "@id": "http://www.w3.org/2004/02/skos/core#broaderTransitive",
+            "@type": "@id"
+        },
+        "ancestors": {
+            "@id": "http://purl.org/dc/elements/1.1/relation",
+            "@language": "en"
+        },
+        "description": {
+            "@id": "http://www.w3.org/2004/02/skos/core#definition",
+            "@language": "en"
+        },
+        "direct_parent": {
+            "@id": "http://www.w3.org/2004/02/skos/core#broader",
+            "@type": "@id"
+        },
+        "alternative_parents": {
+            "@id": "http://www.w3.org/2004/02/skos/core#semanticRelation",
+            "@type": "@id"
+        },
+        "_id": {
+            "@id": "@id"
+        },
+        "chemont_id": {
+            "@id": "@id"
+        },
+        "altLabel_en": {
+            "@id": "http://www.w3.org/2004/02/skos/core#altLabel",
+            "@language": "en"
+        },
+        "note_en": {
+            "@id": "http://www.w3.org/2004/02/skos/core#note",
+            "@language": "en"
+        },
+        "graph": {
+            "@id": "@graph"
+        },
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "obo": "http://purl.obolibrary.org/obo/",
+        "uniprot": "http://purl.uniprot.org/",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "CHEMONTID": "https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/",
+        "chebi": "http://purl.obolibrary.org/obo/",
+        "dbo": "http://dbpedia.org/ontology/",
+        "dbp": "http://dbpedia.org/property/",
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "tax_nodes": "http://classyfire.wishartlab.com/tax_nodes/",
+        "concept": "https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "@base": "https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/"
+    },
+    "_id": "concept:RMMXTBMQSGEXHJ-UHFFFAOYSA-N",
+    "@type": "skos:Concept",
+    "dbo:formula": "C13H17N3O",
+    "dbo:inchi": "InChI=1S/C13H17N3O/c1-10-12(14(2)3)13(17)16(15(10)4)11-8-6-5-7-9-11/h5-9H,1-4H3",
+    "smiles": "CN(C)c1c(C)n(C)n(-c2ccccc2)c1=O",
+    "inchikey": "RMMXTBMQSGEXHJ-UHFFFAOYSA-N",
+    "obo:chebi/charge": "0",
+    "altLabel_en": [
+        "(Dimethylamino)phenazone",
+        "1,5-Dimethyl-4-dimethylamino-2-phenyl-3-pyrazolone",
+        "1-Phenyl-2,3-dimethyl-4-(dimethylamino)-5-pyrazolone",
+        "1-Phenyl-2,3-dimethyl-4-dimethylaminopyrazol-5-one",
+        "2,3-Dimethyl-4-dimethylamino-1-phenyl-5-pyrazolone",
+        "3-Keto-1,5-dimethyl-4-dimethylamino-2-phenyl-2,3-dihydropyrazole",
+        "4-(Dimethylamino)-1,2-dihydro-1,5-dimethyl-2-phenyl-3H-pyrazol-3-one",
+        "4-(dimethylamino)-1,5-dimethyl-2-phenyl-1,2-dihydro-3H-pyrazol-3-one",
+        "4-(Dimethylamino)-1,5-dimethyl-2-phenyl-1,2-dihydro-3H-pyrazol-3-one",
+        "4-(Dimethylamino)antipyrine",
+        "4-Dimethylamino-1-phenyl-2,3-dimethylpyrazolone",
+        "4-Dimethylamino-2,3-dimethyl-1-phenyl-3-pyrazolin-5-one",
+        "4-Dimethylamino-2,3-dimethyl-1-phenyl-5-pyrazolone",
+        "4-Dimethylaminoantipyrine",
+        "4-Dimethylaminophenazone",
+        "aminofenazona",
+        "Aminofenazone",
+        "Aminophenazon",
+        "aminophenazonum",
+        "Aminopyrine",
+        "Dimethylaminoantipyrine",
+        "Dimethylaminoazophene",
+        "Dimethylaminophenazon",
+        "Dimethylaminophenazone",
+        "Dimethylaminophenyldimethylpyrazolone",
+        "Dipyrine"
+    ],
+    "skos:exactMatch": {
+        "_id": "obo:CHEBI_160246"
+    },
+    "note_en": "A  pyrazolone  that is 1,2-dihydro-3H-pyrazol-3-one substituted by a dimethylamino group at position 4, methyl groups at positions 1 and 5 and a phenyl group at position 2. It exhibits analgesic, anti-inflammatory, and antipyretic properties.",
+    "alternative_parents": [
+        "obo:CHEBI_50996",
+        "obo:CHEBI_83328"
+    ]
+}

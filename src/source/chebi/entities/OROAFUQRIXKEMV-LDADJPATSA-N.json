@@ -1,0 +1,104 @@
+{
+    "@context": {
+        "smiles": {
+            "@id": "http://dbpedia.org/ontology/smiles"
+        },
+        "name": {
+            "@id": "http://www.w3.org/2004/02/skos/core#prefLabel",
+            "@language": "en"
+        },
+        "url": {
+            "@id": "http://www.w3.org/2000/01/rdf-schema#seeAlso",
+            "@type": "@id"
+        },
+        "inchikey": {
+            "@id": "http://dbpedia.org/property/inchikey"
+        },
+        "intermediate_nodes": {
+            "@id": "http://www.w3.org/2004/02/skos/core#broaderTransitive",
+            "@type": "@id"
+        },
+        "subclass": {
+            "@id": "http://www.w3.org/2004/02/skos/core#broaderTransitive",
+            "@type": "@id"
+        },
+        "kingdom": {
+            "@id": "http://www.w3.org/2004/02/skos/core#broaderTransitive",
+            "@type": "@id"
+        },
+        "class": {
+            "@id": "http://www.w3.org/2004/02/skos/core#broaderTransitive",
+            "@type": "@id"
+        },
+        "ancestors": {
+            "@id": "http://purl.org/dc/elements/1.1/relation",
+            "@language": "en"
+        },
+        "description": {
+            "@id": "http://www.w3.org/2004/02/skos/core#definition",
+            "@language": "en"
+        },
+        "direct_parent": {
+            "@id": "http://www.w3.org/2004/02/skos/core#broader",
+            "@type": "@id"
+        },
+        "alternative_parents": {
+            "@id": "http://www.w3.org/2004/02/skos/core#semanticRelation",
+            "@type": "@id"
+        },
+        "_id": {
+            "@id": "@id"
+        },
+        "chemont_id": {
+            "@id": "@id"
+        },
+        "altLabel_en": {
+            "@id": "http://www.w3.org/2004/02/skos/core#altLabel",
+            "@language": "en"
+        },
+        "note_en": {
+            "@id": "http://www.w3.org/2004/02/skos/core#note",
+            "@language": "en"
+        },
+        "graph": {
+            "@id": "@graph"
+        },
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "obo": "http://purl.obolibrary.org/obo/",
+        "uniprot": "http://purl.uniprot.org/",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "CHEMONTID": "https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/",
+        "chebi": "http://purl.obolibrary.org/obo/",
+        "dbo": "http://dbpedia.org/ontology/",
+        "dbp": "http://dbpedia.org/property/",
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "tax_nodes": "http://classyfire.wishartlab.com/tax_nodes/",
+        "concept": "https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "@base": "https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/"
+    },
+    "_id": "concept:OROAFUQRIXKEMV-LDADJPATSA-N",
+    "@type": "skos:Concept",
+    "dbo:formula": "C23H24N2O4S",
+    "dbo:inchi": "InChI=1S/C23H24N2O4S/c1-2-3-6-21-24-14-19(12-18(23(28)29)13-20-5-4-11-30-20)25(21)15-16-7-9-17(10-8-16)22(26)27/h4-5,7-12,14H,2-3,6,13,15H2,1H3,(H,26,27)(H,28,29)/b18-12+",
+    "smiles": "CCCCc1ncc(\\C=C(/Cc2cccs2)C(O)=O)n1Cc1ccc(cc1)C(O)=O",
+    "inchikey": "OROAFUQRIXKEMV-LDADJPATSA-N",
+    "obo:chebi/charge": "0",
+    "altLabel_en": [
+        "(E)-2-butyl-1-(p-carboxybenzyl)-alpha-2-thenylimidazole-5-acrylic acid",
+        "(E)-3-[2-n-butyl-1-{(4-carboxyphenyl)methyl}-1H-imidazol-5-yl]-2-(2-thienyl)methyl-2-propenoic acid",
+        "(E)-alpha{[2-butyl-1-[(4-carboxyphenyl)methyl]-1H-imidazole-5-yl]methylene}-2-thiopheneproprionic acid",
+        "4-({2-butyl-5-[(1E)-2-carboxy-3-(2-thienyl)prop-1-en-1-yl]-1H-imidazol-1-yl}methyl)benzoic acid",
+        "Eprosartan"
+    ],
+    "skos:exactMatch": {
+        "_id": "obo:CHEBI_4814"
+    },
+    "note_en": "A member of the class of  imidazoles and  thiophenes  that is an angiotensin II receptor antagonist used for the treatment of high blood pressure.",
+    "alternative_parents": [
+        "obo:CHEBI_35692",
+        "obo:CHEBI_26961",
+        "obo:CHEBI_24780"
+    ]
+}

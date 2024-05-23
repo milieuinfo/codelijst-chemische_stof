@@ -1,0 +1,104 @@
+{
+    "@context": {
+        "smiles": {
+            "@id": "http://dbpedia.org/ontology/smiles"
+        },
+        "name": {
+            "@id": "http://www.w3.org/2004/02/skos/core#prefLabel",
+            "@language": "en"
+        },
+        "url": {
+            "@id": "http://www.w3.org/2000/01/rdf-schema#seeAlso",
+            "@type": "@id"
+        },
+        "inchikey": {
+            "@id": "http://dbpedia.org/property/inchikey"
+        },
+        "intermediate_nodes": {
+            "@id": "http://www.w3.org/2004/02/skos/core#broaderTransitive",
+            "@type": "@id"
+        },
+        "subclass": {
+            "@id": "http://www.w3.org/2004/02/skos/core#broaderTransitive",
+            "@type": "@id"
+        },
+        "kingdom": {
+            "@id": "http://www.w3.org/2004/02/skos/core#broaderTransitive",
+            "@type": "@id"
+        },
+        "class": {
+            "@id": "http://www.w3.org/2004/02/skos/core#broaderTransitive",
+            "@type": "@id"
+        },
+        "ancestors": {
+            "@id": "http://purl.org/dc/elements/1.1/relation",
+            "@language": "en"
+        },
+        "description": {
+            "@id": "http://www.w3.org/2004/02/skos/core#definition",
+            "@language": "en"
+        },
+        "direct_parent": {
+            "@id": "http://www.w3.org/2004/02/skos/core#broader",
+            "@type": "@id"
+        },
+        "alternative_parents": {
+            "@id": "http://www.w3.org/2004/02/skos/core#semanticRelation",
+            "@type": "@id"
+        },
+        "_id": {
+            "@id": "@id"
+        },
+        "chemont_id": {
+            "@id": "@id"
+        },
+        "altLabel_en": {
+            "@id": "http://www.w3.org/2004/02/skos/core#altLabel",
+            "@language": "en"
+        },
+        "note_en": {
+            "@id": "http://www.w3.org/2004/02/skos/core#note",
+            "@language": "en"
+        },
+        "graph": {
+            "@id": "@graph"
+        },
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "obo": "http://purl.obolibrary.org/obo/",
+        "uniprot": "http://purl.uniprot.org/",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "CHEMONTID": "https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/",
+        "chebi": "http://purl.obolibrary.org/obo/",
+        "dbo": "http://dbpedia.org/ontology/",
+        "dbp": "http://dbpedia.org/property/",
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "tax_nodes": "http://classyfire.wishartlab.com/tax_nodes/",
+        "concept": "https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "@base": "https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/"
+    },
+    "_id": "concept:DJKGDNKYTKCJKD-UHFFFAOYSA-N",
+    "@type": "skos:Concept",
+    "dbo:formula": "C9H4Cl6O4",
+    "dbo:inchi": "InChI=1S/C9H4Cl6O4/c10-3-4(11)8(13)2(6(18)19)1(5(16)17)7(3,12)9(8,14)15/h1-2H,(H,16,17)(H,18,19)",
+    "smiles": "OC(=O)C1C(C(O)=O)C2(Cl)C(Cl)=C(Cl)C1(Cl)C2(Cl)Cl",
+    "inchikey": "DJKGDNKYTKCJKD-UHFFFAOYSA-N",
+    "obo:chebi/charge": "0",
+    "altLabel_en": [
+        "1,4,5,6,7,7-Hexachloro-5-norbornene-2,3-dicarboxylic acid",
+        "1,4,5,6,7,7-Hexachlorobicyclo(2.2.1)-5-heptene-2,3-dicarboxylic acid",
+        "1,4,5,6,7,7-hexachlorobicyclo[2.2.1]hept-5-ene-2,3-dicarboxylic acid",
+        "Chlorendic acid",
+        "Hexachloro-endo-methylenetetrahydrophthalic acid"
+    ],
+    "skos:exactMatch": {
+        "_id": "obo:CHEBI_76603"
+    },
+    "note_en": "A bridged organochlorine compound resulting from the Diels-Alder reaction of hexachlorocyclopentadiene with maleic anhydride followed by hydrolysis of the resulting anhydride. A chemical intermediate used in the preparation of fire-retardant polyester resins and plasticisers.",
+    "alternative_parents": [
+        "obo:CHEBI_35692",
+        "obo:CHEBI_36683",
+        "obo:CHEBI_35990"
+    ]
+}

@@ -1,0 +1,111 @@
+{
+    "@context": {
+        "smiles": {
+            "@id": "http://dbpedia.org/ontology/smiles"
+        },
+        "name": {
+            "@id": "http://www.w3.org/2004/02/skos/core#prefLabel",
+            "@language": "en"
+        },
+        "url": {
+            "@id": "http://www.w3.org/2000/01/rdf-schema#seeAlso",
+            "@type": "@id"
+        },
+        "inchikey": {
+            "@id": "http://dbpedia.org/property/inchikey"
+        },
+        "intermediate_nodes": {
+            "@id": "http://www.w3.org/2004/02/skos/core#broaderTransitive",
+            "@type": "@id"
+        },
+        "subclass": {
+            "@id": "http://www.w3.org/2004/02/skos/core#broaderTransitive",
+            "@type": "@id"
+        },
+        "kingdom": {
+            "@id": "http://www.w3.org/2004/02/skos/core#broaderTransitive",
+            "@type": "@id"
+        },
+        "class": {
+            "@id": "http://www.w3.org/2004/02/skos/core#broaderTransitive",
+            "@type": "@id"
+        },
+        "ancestors": {
+            "@id": "http://purl.org/dc/elements/1.1/relation",
+            "@language": "en"
+        },
+        "description": {
+            "@id": "http://www.w3.org/2004/02/skos/core#definition",
+            "@language": "en"
+        },
+        "direct_parent": {
+            "@id": "http://www.w3.org/2004/02/skos/core#broader",
+            "@type": "@id"
+        },
+        "alternative_parents": {
+            "@id": "http://www.w3.org/2004/02/skos/core#semanticRelation",
+            "@type": "@id"
+        },
+        "_id": {
+            "@id": "@id"
+        },
+        "chemont_id": {
+            "@id": "@id"
+        },
+        "altLabel_en": {
+            "@id": "http://www.w3.org/2004/02/skos/core#altLabel",
+            "@language": "en"
+        },
+        "note_en": {
+            "@id": "http://www.w3.org/2004/02/skos/core#note",
+            "@language": "en"
+        },
+        "graph": {
+            "@id": "@graph"
+        },
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "obo": "http://purl.obolibrary.org/obo/",
+        "uniprot": "http://purl.uniprot.org/",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "CHEMONTID": "https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/",
+        "chebi": "http://purl.obolibrary.org/obo/",
+        "dbo": "http://dbpedia.org/ontology/",
+        "dbp": "http://dbpedia.org/property/",
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "tax_nodes": "http://classyfire.wishartlab.com/tax_nodes/",
+        "concept": "https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "@base": "https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/"
+    },
+    "_id": "concept:ULDHMXUKGWMISQ-VIFPVBQESA-N",
+    "@type": "skos:Concept",
+    "dbo:formula": "C10H14O",
+    "dbo:inchi": "InChI=1S/C10H14O/c1-7(2)9-5-4-8(3)10(11)6-9/h4,9H,1,5-6H2,2-3H3/t9-/m0/s1",
+    "smiles": "CC(=C)[C@H]1CC=C(C)C(=O)C1",
+    "inchikey": "ULDHMXUKGWMISQ-VIFPVBQESA-N",
+    "obo:chebi/charge": "0",
+    "altLabel_en": [
+        "(S)-carvone",
+        "(+)-(4S)-carvone",
+        "(+)-(S)-Carvone",
+        "(+)-Carvone",
+        "(4S)-p-mentha-1(6),8-dien-2-one",
+        "(5S)-2-methyl-5-(1-methylethenyl)-2-cyclohexen-1-one",
+        "(5S)-2-methyl-5-(prop-1-en-2-yl)cyclohex-2-en-1-one",
+        "(S)-(+)-carvone",
+        "(S)-(+)-p-mentha-6,8-dien-2-one",
+        "(S)-2-methyl-5-(1-methylethenyl)-2-cyclohexen-1-one",
+        "(S)-2-methyl-5-(1-methylvinyl)cyclohex-2-en-1-one",
+        "(S)-5-isopropenyl-2-methylcyclohex-2-en-1-one",
+        "Carvol",
+        "Carvone",
+        "d-(+)-carvone",
+        "d-carvone"
+    ],
+    "skos:exactMatch": {
+        "_id": "obo:CHEBI_15399"
+    },
+    "note_en": "A carvone having (S) configuration.",
+    "alternative_parents": "obo:CHEBI_38265"
+}

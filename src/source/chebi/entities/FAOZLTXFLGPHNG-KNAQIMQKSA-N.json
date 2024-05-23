@@ -1,0 +1,113 @@
+{
+    "@context": {
+        "smiles": {
+            "@id": "http://dbpedia.org/ontology/smiles"
+        },
+        "name": {
+            "@id": "http://www.w3.org/2004/02/skos/core#prefLabel",
+            "@language": "en"
+        },
+        "url": {
+            "@id": "http://www.w3.org/2000/01/rdf-schema#seeAlso",
+            "@type": "@id"
+        },
+        "inchikey": {
+            "@id": "http://dbpedia.org/property/inchikey"
+        },
+        "intermediate_nodes": {
+            "@id": "http://www.w3.org/2004/02/skos/core#broaderTransitive",
+            "@type": "@id"
+        },
+        "subclass": {
+            "@id": "http://www.w3.org/2004/02/skos/core#broaderTransitive",
+            "@type": "@id"
+        },
+        "kingdom": {
+            "@id": "http://www.w3.org/2004/02/skos/core#broaderTransitive",
+            "@type": "@id"
+        },
+        "class": {
+            "@id": "http://www.w3.org/2004/02/skos/core#broaderTransitive",
+            "@type": "@id"
+        },
+        "ancestors": {
+            "@id": "http://purl.org/dc/elements/1.1/relation",
+            "@language": "en"
+        },
+        "description": {
+            "@id": "http://www.w3.org/2004/02/skos/core#definition",
+            "@language": "en"
+        },
+        "direct_parent": {
+            "@id": "http://www.w3.org/2004/02/skos/core#broader",
+            "@type": "@id"
+        },
+        "alternative_parents": {
+            "@id": "http://www.w3.org/2004/02/skos/core#semanticRelation",
+            "@type": "@id"
+        },
+        "_id": {
+            "@id": "@id"
+        },
+        "chemont_id": {
+            "@id": "@id"
+        },
+        "altLabel_en": {
+            "@id": "http://www.w3.org/2004/02/skos/core#altLabel",
+            "@language": "en"
+        },
+        "note_en": {
+            "@id": "http://www.w3.org/2004/02/skos/core#note",
+            "@language": "en"
+        },
+        "graph": {
+            "@id": "@graph"
+        },
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "obo": "http://purl.obolibrary.org/obo/",
+        "uniprot": "http://purl.uniprot.org/",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "CHEMONTID": "https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/",
+        "chebi": "http://purl.obolibrary.org/obo/",
+        "dbo": "http://dbpedia.org/ontology/",
+        "dbp": "http://dbpedia.org/property/",
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "tax_nodes": "http://classyfire.wishartlab.com/tax_nodes/",
+        "concept": "https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "@base": "https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/"
+    },
+    "_id": "concept:FAOZLTXFLGPHNG-KNAQIMQKSA-N",
+    "@type": "skos:Concept",
+    "dbo:formula": "C22H29FO4",
+    "dbo:inchi": "InChI=1S/C22H29FO4/c1-12-9-17-15-6-8-21(27,13(2)24)20(15,4)11-18(26)22(17,23)19(3)7-5-14(25)10-16(12)19/h5,7,10,12,15,17-18,26-27H,6,8-9,11H2,1-4H3/t12-,15-,17-,18-,19-,20-,21-,22-/m0/s1",
+    "smiles": "C[C@H]1C[C@H]2[C@@H]3CC[C@](O)(C(C)=O)[C@@]3(C)C[C@H](O)[C@]2(F)[C@@]2(C)C=CC(=O)C=C12",
+    "inchikey": "FAOZLTXFLGPHNG-KNAQIMQKSA-N",
+    "obo:chebi/charge": "0",
+    "altLabel_en": [
+        "fluorometholone",
+        "(6alpha,11beta)-9-fluoro-11,17-dihydroxy-6-methylpregna-1,4-diene-3,20-dione",
+        "9-fluoro-11beta,17-dihydroxy-6alpha-methylpregna-1,4-diene-3,20-dione",
+        "9-Fluoro-11beta,17-dihydroxy-6alpha-methylpregna-1,4-diene-3,20-dione",
+        "Fluorometholon",
+        "fluorometholonum",
+        "fluorometolona",
+        "Fluor-op",
+        "NSC 33001",
+        "Oxylone"
+    ],
+    "skos:exactMatch": {
+        "_id": "obo:CHEBI_31625"
+    },
+    "note_en": "A member of the class of glucocorticoids that is Delta(1)-progesterone substituted at positions 11beta and 17 by hydroxy groups, at position 6alpha by a methyl group and at position 9 by a fluoro group. Used for the treatment of corticosteroid-responsive inflammation of the palpebral and bulbar conjunctiva, cornea and anterior segment of the globe.",
+    "alternative_parents": [
+        "obo:CHEBI_35346",
+        "obo:CHEBI_77166",
+        "obo:CHEBI_36885",
+        "obo:CHEBI_139592",
+        "obo:CHEBI_35342",
+        "obo:CHEBI_24261",
+        "obo:CHEBI_50830"
+    ]
+}

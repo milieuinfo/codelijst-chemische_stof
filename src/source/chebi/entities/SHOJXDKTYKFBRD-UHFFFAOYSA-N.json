@@ -1,0 +1,124 @@
+{
+    "@context": {
+        "smiles": {
+            "@id": "http://dbpedia.org/ontology/smiles"
+        },
+        "name": {
+            "@id": "http://www.w3.org/2004/02/skos/core#prefLabel",
+            "@language": "en"
+        },
+        "url": {
+            "@id": "http://www.w3.org/2000/01/rdf-schema#seeAlso",
+            "@type": "@id"
+        },
+        "inchikey": {
+            "@id": "http://dbpedia.org/property/inchikey"
+        },
+        "intermediate_nodes": {
+            "@id": "http://www.w3.org/2004/02/skos/core#broaderTransitive",
+            "@type": "@id"
+        },
+        "subclass": {
+            "@id": "http://www.w3.org/2004/02/skos/core#broaderTransitive",
+            "@type": "@id"
+        },
+        "kingdom": {
+            "@id": "http://www.w3.org/2004/02/skos/core#broaderTransitive",
+            "@type": "@id"
+        },
+        "class": {
+            "@id": "http://www.w3.org/2004/02/skos/core#broaderTransitive",
+            "@type": "@id"
+        },
+        "ancestors": {
+            "@id": "http://purl.org/dc/elements/1.1/relation",
+            "@language": "en"
+        },
+        "description": {
+            "@id": "http://www.w3.org/2004/02/skos/core#definition",
+            "@language": "en"
+        },
+        "direct_parent": {
+            "@id": "http://www.w3.org/2004/02/skos/core#broader",
+            "@type": "@id"
+        },
+        "alternative_parents": {
+            "@id": "http://www.w3.org/2004/02/skos/core#semanticRelation",
+            "@type": "@id"
+        },
+        "_id": {
+            "@id": "@id"
+        },
+        "chemont_id": {
+            "@id": "@id"
+        },
+        "altLabel_en": {
+            "@id": "http://www.w3.org/2004/02/skos/core#altLabel",
+            "@language": "en"
+        },
+        "note_en": {
+            "@id": "http://www.w3.org/2004/02/skos/core#note",
+            "@language": "en"
+        },
+        "graph": {
+            "@id": "@graph"
+        },
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "obo": "http://purl.obolibrary.org/obo/",
+        "uniprot": "http://purl.uniprot.org/",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "CHEMONTID": "https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/",
+        "chebi": "http://purl.obolibrary.org/obo/",
+        "dbo": "http://dbpedia.org/ontology/",
+        "dbp": "http://dbpedia.org/property/",
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "tax_nodes": "http://classyfire.wishartlab.com/tax_nodes/",
+        "concept": "https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "@base": "https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/"
+    },
+    "_id": "concept:SHOJXDKTYKFBRD-UHFFFAOYSA-N",
+    "@type": "skos:Concept",
+    "dbo:formula": "C6H10O",
+    "dbo:inchi": "InChI=1S/C6H10O/c1-5(2)4-6(3)7/h4H,1-3H3",
+    "smiles": "CC(C)=CC(C)=O",
+    "inchikey": "SHOJXDKTYKFBRD-UHFFFAOYSA-N",
+    "obo:chebi/charge": "0",
+    "altLabel_en": [
+        "(CH3)2C=CHC(=O)CH3",
+        "1-Methylpent-2-en-4-one",
+        "2,2-Dimethylvinyl methyl ketone",
+        "2-Methyl-2-penten-4-one",
+        "2-Methyl-2-pentenone-4",
+        "2-Methyl-4-oxo-2-pentene",
+        "3-Isohexen-2-one",
+        "3-PENTEN,2-ONE,4-METHYL MESITYLOXIDE",
+        "4-Methyl-3-penten-2-on",
+        "4-Methyl-3-Penten-2-one",
+        "4-Methyl-3-penten-2-one (mesityl oxide)",
+        "4-Methyl-3-pentene-2-one",
+        "4-methylpent-3-en-2-one",
+        "4-Methylpent-3-en-2-one",
+        "4-Metil-3-penten-2-one",
+        "FEMA 3368",
+        "Isobutenyl methyl ketone",
+        "Isopropylideneacetone",
+        "Isopropylidene acetone",
+        "Isopropylidene-Acetone",
+        "Mesityloxid",
+        "Mesityloxid(german)",
+        "Mesityl oxide",
+        "Mesityl oxide [UN1229] [Flammable liquid]",
+        "Mesityloxyde",
+        "Methyl 2,2-dimethylvinyl ketone",
+        "Methyl 2-methyl-1-propenyl ketone",
+        "Methyl isobutenyl ketone",
+        "Ossido di mesitile",
+        "Oxyde de mesityle"
+    ],
+    "skos:exactMatch": {
+        "_id": "obo:CHEBI_89993"
+    },
+    "alternative_parents": "obo:CHEBI_78840"
+}

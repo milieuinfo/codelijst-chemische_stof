@@ -1,0 +1,109 @@
+{
+    "@context": {
+        "smiles": {
+            "@id": "http://dbpedia.org/ontology/smiles"
+        },
+        "name": {
+            "@id": "http://www.w3.org/2004/02/skos/core#prefLabel",
+            "@language": "en"
+        },
+        "url": {
+            "@id": "http://www.w3.org/2000/01/rdf-schema#seeAlso",
+            "@type": "@id"
+        },
+        "inchikey": {
+            "@id": "http://dbpedia.org/property/inchikey"
+        },
+        "intermediate_nodes": {
+            "@id": "http://www.w3.org/2004/02/skos/core#broaderTransitive",
+            "@type": "@id"
+        },
+        "subclass": {
+            "@id": "http://www.w3.org/2004/02/skos/core#broaderTransitive",
+            "@type": "@id"
+        },
+        "kingdom": {
+            "@id": "http://www.w3.org/2004/02/skos/core#broaderTransitive",
+            "@type": "@id"
+        },
+        "class": {
+            "@id": "http://www.w3.org/2004/02/skos/core#broaderTransitive",
+            "@type": "@id"
+        },
+        "ancestors": {
+            "@id": "http://purl.org/dc/elements/1.1/relation",
+            "@language": "en"
+        },
+        "description": {
+            "@id": "http://www.w3.org/2004/02/skos/core#definition",
+            "@language": "en"
+        },
+        "direct_parent": {
+            "@id": "http://www.w3.org/2004/02/skos/core#broader",
+            "@type": "@id"
+        },
+        "alternative_parents": {
+            "@id": "http://www.w3.org/2004/02/skos/core#semanticRelation",
+            "@type": "@id"
+        },
+        "_id": {
+            "@id": "@id"
+        },
+        "chemont_id": {
+            "@id": "@id"
+        },
+        "altLabel_en": {
+            "@id": "http://www.w3.org/2004/02/skos/core#altLabel",
+            "@language": "en"
+        },
+        "note_en": {
+            "@id": "http://www.w3.org/2004/02/skos/core#note",
+            "@language": "en"
+        },
+        "graph": {
+            "@id": "@graph"
+        },
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "obo": "http://purl.obolibrary.org/obo/",
+        "uniprot": "http://purl.uniprot.org/",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "CHEMONTID": "https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/",
+        "chebi": "http://purl.obolibrary.org/obo/",
+        "dbo": "http://dbpedia.org/ontology/",
+        "dbp": "http://dbpedia.org/property/",
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "tax_nodes": "http://classyfire.wishartlab.com/tax_nodes/",
+        "concept": "https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "@base": "https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/"
+    },
+    "_id": "concept:VHVPQPYKVGDNFY-ZPGVKDDISA-N",
+    "@type": "skos:Concept",
+    "dbo:formula": "C35H38Cl2N8O4",
+    "dbo:inchi": "InChI=1S/C35H38Cl2N8O4/c1-3-25(2)45-34(46)44(24-40-45)29-7-5-27(6-8-29)41-14-16-42(17-15-41)28-9-11-30(12-10-28)47-19-31-20-48-35(49-31,21-43-23-38-22-39-43)32-13-4-26(36)18-33(32)37/h4-13,18,22-25,31H,3,14-17,19-21H2,1-2H3/t25?,31-,35-/m0/s1",
+    "smiles": "CCC(C)n1ncn(-c2ccc(cc2)N2CCN(CC2)c2ccc(OC[C@H]3CO[C@@](Cn4cncn4)(O3)c3ccc(Cl)cc3Cl)cc2)c1=O",
+    "inchikey": "VHVPQPYKVGDNFY-ZPGVKDDISA-N",
+    "obo:chebi/charge": "0",
+    "altLabel_en": [
+        "2-(butan-2-yl)-4-{4-[4-(4-{[(2R,4S)-2-(2,4-dichlorophenyl)-2-(1H-1,2,4-triazol-1-ylmethyl)-1,3-dioxolan-4-yl]methoxy}phenyl)piperazin-1-yl]phenyl}-2,4-dihydro-3H-1,2,4-triazol-3-one",
+        "Itraconazole",
+        "Itrizole (TN)",
+        "Oriconazole",
+        "Sporanox (TN)"
+    ],
+    "skos:exactMatch": {
+        "_id": "obo:CHEBI_6076"
+    },
+    "note_en": "An N-arylpiperazine that is cis-ketoconazole in which the imidazol-1-yl group is replaced by a 1,2,4-triazol-1-yl group and in which the actyl group attached to the piperazine moiety is replaced by a p-[(+-)1-sec-butyl-5-oxo-1,5-dihydro-4H-1,2,4-triazol-4-yl]phenyl group. A potent P-glycoprotein and CYP3A4 inhibitor, it is used as an antifungal drug for the treatment of various fungal infections, including aspergillosis, blastomycosis, candidiasis, chromoblastomycosis, coccidioidomycosis, cryptococcosis, histoplasmosis, and sporotrichosis.",
+    "alternative_parents": [
+        "obo:CHEBI_35618",
+        "obo:CHEBI_35727",
+        "obo:CHEBI_23697",
+        "obo:CHEBI_59779",
+        "obo:CHEBI_46848",
+        "obo:CHEBI_87071",
+        "obo:CHEBI_39430",
+        "obo:CHEBI_87101"
+    ]
+}

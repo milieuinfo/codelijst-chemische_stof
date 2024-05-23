@@ -1,0 +1,141 @@
+{
+    "@context": {
+        "smiles": {
+            "@id": "http://dbpedia.org/ontology/smiles"
+        },
+        "name": {
+            "@id": "http://www.w3.org/2004/02/skos/core#prefLabel",
+            "@language": "en"
+        },
+        "url": {
+            "@id": "http://www.w3.org/2000/01/rdf-schema#seeAlso",
+            "@type": "@id"
+        },
+        "inchikey": {
+            "@id": "http://dbpedia.org/property/inchikey"
+        },
+        "intermediate_nodes": {
+            "@id": "http://www.w3.org/2004/02/skos/core#broaderTransitive",
+            "@type": "@id"
+        },
+        "subclass": {
+            "@id": "http://www.w3.org/2004/02/skos/core#broaderTransitive",
+            "@type": "@id"
+        },
+        "kingdom": {
+            "@id": "http://www.w3.org/2004/02/skos/core#broaderTransitive",
+            "@type": "@id"
+        },
+        "class": {
+            "@id": "http://www.w3.org/2004/02/skos/core#broaderTransitive",
+            "@type": "@id"
+        },
+        "ancestors": {
+            "@id": "http://purl.org/dc/elements/1.1/relation",
+            "@language": "en"
+        },
+        "description": {
+            "@id": "http://www.w3.org/2004/02/skos/core#definition",
+            "@language": "en"
+        },
+        "direct_parent": {
+            "@id": "http://www.w3.org/2004/02/skos/core#broader",
+            "@type": "@id"
+        },
+        "alternative_parents": {
+            "@id": "http://www.w3.org/2004/02/skos/core#semanticRelation",
+            "@type": "@id"
+        },
+        "_id": {
+            "@id": "@id"
+        },
+        "chemont_id": {
+            "@id": "@id"
+        },
+        "altLabel_en": {
+            "@id": "http://www.w3.org/2004/02/skos/core#altLabel",
+            "@language": "en"
+        },
+        "note_en": {
+            "@id": "http://www.w3.org/2004/02/skos/core#note",
+            "@language": "en"
+        },
+        "graph": {
+            "@id": "@graph"
+        },
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "obo": "http://purl.obolibrary.org/obo/",
+        "uniprot": "http://purl.uniprot.org/",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "CHEMONTID": "https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/",
+        "chebi": "http://purl.obolibrary.org/obo/",
+        "dbo": "http://dbpedia.org/ontology/",
+        "dbp": "http://dbpedia.org/property/",
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "tax_nodes": "http://classyfire.wishartlab.com/tax_nodes/",
+        "concept": "https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "@base": "https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/"
+    },
+    "_id": "concept:LFULEKSKNZEWOE-UHFFFAOYSA-N",
+    "@type": "skos:Concept",
+    "dbo:formula": "C9H9Cl2NO",
+    "dbo:inchi": "InChI=1S/C9H9Cl2NO/c1-2-9(13)12-6-3-4-7(10)8(11)5-6/h3-5H,2H2,1H3,(H,12,13)",
+    "smiles": "C1=C(C(=CC=C1NC(CC)=O)Cl)Cl",
+    "inchikey": "LFULEKSKNZEWOE-UHFFFAOYSA-N",
+    "obo:chebi/charge": "0",
+    "altLabel_en": [
+        "DPA",
+        "3,4-DCPA",
+        "3,4-dichloropropionanilide",
+        "3',4'-dichlorophenylpropionanilide",
+        "3',4'-dichloropropionanilide",
+        "Arrosol",
+        "BAY 30130",
+        "Cekupropanil",
+        "Chem Rice",
+        "Chem-Rice",
+        "Crystal propanil-4",
+        "DCPA",
+        "Dipram",
+        "Dropaven",
+        "Erban",
+        "FW 734",
+        "Herbax",
+        "Herbax 4E",
+        "N-(3,4-dichlorophenyl)propanamide",
+        "N-(3,4-dichlorophenyl)propionamide",
+        "Propanac",
+        "Propanex",
+        "Propanile",
+        "propanilo",
+        "propasint",
+        "Prop Job",
+        "Prop-Job",
+        "Riselect",
+        "Rogue",
+        "S 10145",
+        "Stam",
+        "Stam 80 EDF",
+        "Stam F 34",
+        "Stam M-4",
+        "Stampede",
+        "Strel",
+        "Supernox",
+        "Surcopur",
+        "Surpur",
+        "Synpran N",
+        "Vertac",
+        "Wham DF",
+        "Wham EZ"
+    ],
+    "skos:exactMatch": {
+        "_id": "obo:CHEBI_34936"
+    },
+    "note_en": "An anilide resulting from the formal condensation of the carboxy group of propanoic acid with the amino group of 3,4-dichloroaniline. It is a herbicide used for the treatment of numerous grasses and broad-leaved weeds in rice, potatoes, and wheat.",
+    "alternative_parents": [
+        "obo:CHEBI_13248",
+        "obo:CHEBI_23697"
+    ]
+}

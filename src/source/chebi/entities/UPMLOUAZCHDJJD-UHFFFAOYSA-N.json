@@ -1,0 +1,137 @@
+{
+    "@context": {
+        "smiles": {
+            "@id": "http://dbpedia.org/ontology/smiles"
+        },
+        "name": {
+            "@id": "http://www.w3.org/2004/02/skos/core#prefLabel",
+            "@language": "en"
+        },
+        "url": {
+            "@id": "http://www.w3.org/2000/01/rdf-schema#seeAlso",
+            "@type": "@id"
+        },
+        "inchikey": {
+            "@id": "http://dbpedia.org/property/inchikey"
+        },
+        "intermediate_nodes": {
+            "@id": "http://www.w3.org/2004/02/skos/core#broaderTransitive",
+            "@type": "@id"
+        },
+        "subclass": {
+            "@id": "http://www.w3.org/2004/02/skos/core#broaderTransitive",
+            "@type": "@id"
+        },
+        "kingdom": {
+            "@id": "http://www.w3.org/2004/02/skos/core#broaderTransitive",
+            "@type": "@id"
+        },
+        "class": {
+            "@id": "http://www.w3.org/2004/02/skos/core#broaderTransitive",
+            "@type": "@id"
+        },
+        "ancestors": {
+            "@id": "http://purl.org/dc/elements/1.1/relation",
+            "@language": "en"
+        },
+        "description": {
+            "@id": "http://www.w3.org/2004/02/skos/core#definition",
+            "@language": "en"
+        },
+        "direct_parent": {
+            "@id": "http://www.w3.org/2004/02/skos/core#broader",
+            "@type": "@id"
+        },
+        "alternative_parents": {
+            "@id": "http://www.w3.org/2004/02/skos/core#semanticRelation",
+            "@type": "@id"
+        },
+        "_id": {
+            "@id": "@id"
+        },
+        "chemont_id": {
+            "@id": "@id"
+        },
+        "altLabel_en": {
+            "@id": "http://www.w3.org/2004/02/skos/core#altLabel",
+            "@language": "en"
+        },
+        "note_en": {
+            "@id": "http://www.w3.org/2004/02/skos/core#note",
+            "@language": "en"
+        },
+        "graph": {
+            "@id": "@graph"
+        },
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "obo": "http://purl.obolibrary.org/obo/",
+        "uniprot": "http://purl.uniprot.org/",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "CHEMONTID": "https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/",
+        "chebi": "http://purl.obolibrary.org/obo/",
+        "dbo": "http://dbpedia.org/ontology/",
+        "dbp": "http://dbpedia.org/property/",
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "tax_nodes": "http://classyfire.wishartlab.com/tax_nodes/",
+        "concept": "https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "@base": "https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/"
+    },
+    "_id": "concept:UPMLOUAZCHDJJD-UHFFFAOYSA-N",
+    "@type": "skos:Concept",
+    "dbo:formula": "C15H10N2O2",
+    "dbo:inchi": "InChI=1S/C15H10N2O2/c18-10-16-14-5-1-12(2-6-14)9-13-3-7-15(8-4-13)17-11-19/h1-8H,9H2",
+    "smiles": "O=C=Nc1ccc(Cc2ccc(cc2)N=C=O)cc1",
+    "inchikey": "UPMLOUAZCHDJJD-UHFFFAOYSA-N",
+    "obo:chebi/charge": "0",
+    "altLabel_en": [
+        "1,1'-methylenebis(4-isocyanatobenzene)",
+        "1,1'-Methylenebis(4-isocyanatobenzene)",
+        "4,4'-Diisocyanatodiphenylmethane",
+        "4,4'-Diphenylmethane diisocyanate",
+        "4,4'-Methylenebis(phenyl isocyanate)",
+        "4,4'-Methylenedi(phenyl isocyanate)",
+        "4,4'-Methylenediphenyl diisocyanate",
+        "4,4'-methylene diphenyl diisocyanate",
+        "4,4'-Methylenediphenylene diisocyanate",
+        "4,4'-Methylenediphenylene isocyanate",
+        "4,4'-Methylenediphenyl isocyanate",
+        "4,4'-Methylenedi-p-phenylene diisocyanate",
+        "4-4'-Diisocyanate de diphenylmethane",
+        "Bis(1,4-isocyanatophenyl)methane",
+        "Bis(4-isocyanatophenyl)methane",
+        "Bis(para-isocyanatophenyl)methane",
+        "Bis(p-isocyanatophenyl)methane",
+        "Diphenylmethan-4,4'-diisocyanat",
+        "Diphenylmethane-4,4'-diisocyanate",
+        "Diphenylmethane diisocyanate",
+        "Diphenyl methane diisocyanate",
+        "Diphenylmethyl diisocyanate",
+        "MDI",
+        "MDR",
+        "Methylbisphenyl isocyanate",
+        "Methylenebis(4-isocyanatobenzene)",
+        "Methylenebis(4-phenylene isocyanate)",
+        "Methylenebis(4-phenyl isocyanate)",
+        "Methylenebis(para-phenylene isocyanate)",
+        "Methylenebis(para-phenyl isocyanate)",
+        "Methylenebis(p-phenylene isocyanate)",
+        "Methylenebis(p-phenyl isocyanate)",
+        "Methylenebisphenyl diisocyanate",
+        "Methylene bisphenyl isocyanate",
+        "Methylenedi-para-phenylene diisocyanate",
+        "Methylene diphenyl diisocyanate",
+        "Methylenedi-p-phenylene diisocyanate",
+        "Methylene di-p-phenylene isocyanate",
+        "p,p'-Diphenylmethane diisocyanate",
+        "p,p'-Methylenebis(phenyl isocyanate)",
+        "para,para'-Diphenylmethane diisocyanate",
+        "para,para'-Methylenebis(phenyl isocyanate)"
+    ],
+    "skos:exactMatch": {
+        "_id": "obo:CHEBI_53218"
+    },
+    "note_en": "A diisocyanate consisting of diphenylmethane with two isocyanate groups at the 4- and 4'-positions.",
+    "alternative_parents": "obo:CHEBI_53213"
+}

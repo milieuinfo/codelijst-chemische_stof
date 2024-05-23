@@ -1,0 +1,119 @@
+{
+    "@context": {
+        "smiles": {
+            "@id": "http://dbpedia.org/ontology/smiles"
+        },
+        "name": {
+            "@id": "http://www.w3.org/2004/02/skos/core#prefLabel",
+            "@language": "en"
+        },
+        "url": {
+            "@id": "http://www.w3.org/2000/01/rdf-schema#seeAlso",
+            "@type": "@id"
+        },
+        "inchikey": {
+            "@id": "http://dbpedia.org/property/inchikey"
+        },
+        "intermediate_nodes": {
+            "@id": "http://www.w3.org/2004/02/skos/core#broaderTransitive",
+            "@type": "@id"
+        },
+        "subclass": {
+            "@id": "http://www.w3.org/2004/02/skos/core#broaderTransitive",
+            "@type": "@id"
+        },
+        "kingdom": {
+            "@id": "http://www.w3.org/2004/02/skos/core#broaderTransitive",
+            "@type": "@id"
+        },
+        "class": {
+            "@id": "http://www.w3.org/2004/02/skos/core#broaderTransitive",
+            "@type": "@id"
+        },
+        "ancestors": {
+            "@id": "http://purl.org/dc/elements/1.1/relation",
+            "@language": "en"
+        },
+        "description": {
+            "@id": "http://www.w3.org/2004/02/skos/core#definition",
+            "@language": "en"
+        },
+        "direct_parent": {
+            "@id": "http://www.w3.org/2004/02/skos/core#broader",
+            "@type": "@id"
+        },
+        "alternative_parents": {
+            "@id": "http://www.w3.org/2004/02/skos/core#semanticRelation",
+            "@type": "@id"
+        },
+        "_id": {
+            "@id": "@id"
+        },
+        "chemont_id": {
+            "@id": "@id"
+        },
+        "altLabel_en": {
+            "@id": "http://www.w3.org/2004/02/skos/core#altLabel",
+            "@language": "en"
+        },
+        "note_en": {
+            "@id": "http://www.w3.org/2004/02/skos/core#note",
+            "@language": "en"
+        },
+        "graph": {
+            "@id": "@graph"
+        },
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "obo": "http://purl.obolibrary.org/obo/",
+        "uniprot": "http://purl.uniprot.org/",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "CHEMONTID": "https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/",
+        "chebi": "http://purl.obolibrary.org/obo/",
+        "dbo": "http://dbpedia.org/ontology/",
+        "dbp": "http://dbpedia.org/property/",
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "tax_nodes": "http://classyfire.wishartlab.com/tax_nodes/",
+        "concept": "https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "@base": "https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/"
+    },
+    "_id": "concept:MFYSYFVPBJMHGN-ZPOLXVRWSA-N",
+    "@type": "skos:Concept",
+    "dbo:formula": "C21H28O5",
+    "dbo:inchi": "InChI=1S/C21H28O5/c1-19-7-5-13(23)9-12(19)3-4-14-15-6-8-21(26,17(25)11-22)20(15,2)10-16(24)18(14)19/h9,14-15,18,22,26H,3-8,10-11H2,1-2H3/t14-,15-,18+,19-,20-,21-/m0/s1",
+    "smiles": "[H][C@@]12CCC3=CC(=O)CC[C@]3(C)[C@@]1([H])C(=O)C[C@@]1(C)[C@@]2([H])CC[C@]1(O)C(=O)CO",
+    "inchikey": "MFYSYFVPBJMHGN-ZPOLXVRWSA-N",
+    "obo:chebi/charge": "0",
+    "altLabel_en": [
+        "11-dehydro-17-hydroxycorticosterone",
+        "17,21-dihydroxypregn-4-ene-3,11,20-trione",
+        "17alpha,21-dihydroxy-4-pregnene-3,11,20-trione",
+        "17alpha,21-Dihydroxy-4-pregnene-3,11,20-trione",
+        "17-hydroxy-11-dehydrocorticosterone",
+        "4-pregnene-17alpha,21-diol-3,11,20-trione",
+        "Cortison",
+        "Cortisone",
+        "Delta(4)-pregnene-17alpha,21-diol-3,11,20-trione",
+        "Kendall's compound E",
+        "Kortison",
+        "pregn-4-en-17alpha,21-diol-3,11,20-trione",
+        "Reichstein's substance Fa",
+        "Wintersteiner's compound F"
+    ],
+    "skos:exactMatch": {
+        "_id": "obo:CHEBI_16962"
+    },
+    "note_en": "A C21-steroid that is pregn-4-ene substituted by hydroxy groups at positions 17 and 21 and oxo group at positions 3, 11 and 20.",
+    "alternative_parents": [
+        "obo:CHEBI_47787",
+        "obo:CHEBI_47909",
+        "obo:CHEBI_61313",
+        "obo:CHEBI_35344",
+        "obo:CHEBI_36885",
+        "obo:CHEBI_139590",
+        "obo:CHEBI_139592",
+        "obo:CHEBI_35342",
+        "obo:CHEBI_24261"
+    ]
+}

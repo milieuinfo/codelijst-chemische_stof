@@ -1,0 +1,114 @@
+{
+    "@context": {
+        "smiles": {
+            "@id": "http://dbpedia.org/ontology/smiles"
+        },
+        "name": {
+            "@id": "http://www.w3.org/2004/02/skos/core#prefLabel",
+            "@language": "en"
+        },
+        "url": {
+            "@id": "http://www.w3.org/2000/01/rdf-schema#seeAlso",
+            "@type": "@id"
+        },
+        "inchikey": {
+            "@id": "http://dbpedia.org/property/inchikey"
+        },
+        "intermediate_nodes": {
+            "@id": "http://www.w3.org/2004/02/skos/core#broaderTransitive",
+            "@type": "@id"
+        },
+        "subclass": {
+            "@id": "http://www.w3.org/2004/02/skos/core#broaderTransitive",
+            "@type": "@id"
+        },
+        "kingdom": {
+            "@id": "http://www.w3.org/2004/02/skos/core#broaderTransitive",
+            "@type": "@id"
+        },
+        "class": {
+            "@id": "http://www.w3.org/2004/02/skos/core#broaderTransitive",
+            "@type": "@id"
+        },
+        "ancestors": {
+            "@id": "http://purl.org/dc/elements/1.1/relation",
+            "@language": "en"
+        },
+        "description": {
+            "@id": "http://www.w3.org/2004/02/skos/core#definition",
+            "@language": "en"
+        },
+        "direct_parent": {
+            "@id": "http://www.w3.org/2004/02/skos/core#broader",
+            "@type": "@id"
+        },
+        "alternative_parents": {
+            "@id": "http://www.w3.org/2004/02/skos/core#semanticRelation",
+            "@type": "@id"
+        },
+        "_id": {
+            "@id": "@id"
+        },
+        "chemont_id": {
+            "@id": "@id"
+        },
+        "altLabel_en": {
+            "@id": "http://www.w3.org/2004/02/skos/core#altLabel",
+            "@language": "en"
+        },
+        "note_en": {
+            "@id": "http://www.w3.org/2004/02/skos/core#note",
+            "@language": "en"
+        },
+        "graph": {
+            "@id": "@graph"
+        },
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "obo": "http://purl.obolibrary.org/obo/",
+        "uniprot": "http://purl.uniprot.org/",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "CHEMONTID": "https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/",
+        "chebi": "http://purl.obolibrary.org/obo/",
+        "dbo": "http://dbpedia.org/ontology/",
+        "dbp": "http://dbpedia.org/property/",
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "tax_nodes": "http://classyfire.wishartlab.com/tax_nodes/",
+        "concept": "https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "@base": "https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/"
+    },
+    "_id": "concept:GPXLRLUVLMHHIK-UHFFFAOYSA-N",
+    "@type": "skos:Concept",
+    "dbo:formula": "C12H10ClN3O",
+    "dbo:inchi": "InChI=1S/C12H10ClN3O/c13-11-8-10(6-7-14-11)16-12(17)15-9-4-2-1-3-5-9/h1-8H,(H2,14,15,16,17)",
+    "smiles": "ClC1=NC=CC(NC(=O)NC2=CC=CC=C2)=C1",
+    "inchikey": "GPXLRLUVLMHHIK-UHFFFAOYSA-N",
+    "obo:chebi/charge": "0",
+    "altLabel_en": [
+        "1-(2-chloro-4-pyridyl)-3-phenylurea",
+        "1-(2-chloropyridin-4-yl)-3-phenylurea",
+        "4PU-30",
+        "CN-11-3183",
+        "CPPU",
+        "Fulmet",
+        "KT-30",
+        "N-(2-chloro-4-pyridinyl)-N'-phenylurea",
+        "N-(2-chloro-4-pyridyl)-N'-phenylurea",
+        "N-(2-chloropyridin-4-yl)-N'-phenylurea",
+        "N-phenyl-N'-(2-chloro-4-pyridyl)urea",
+        "PreStage",
+        "Prestige",
+        "Sitofex",
+        "SKW 20010",
+        "Trigger"
+    ],
+    "skos:exactMatch": {
+        "_id": "obo:CHEBI_81861"
+    },
+    "note_en": "A member of the class of phenylureas that is urea substituted by a phenyl group and a 2-chloropyridin-4-yl group at positions 1 and 3 respectively. It is a plant growth regulator widely used in agriculture for improving fruit quality and fruit size.",
+    "alternative_parents": [
+        "obo:CHEBI_134043",
+        "obo:CHEBI_39172"
+    ]
+}

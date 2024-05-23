@@ -1,0 +1,117 @@
+{
+    "@context": {
+        "smiles": {
+            "@id": "http://dbpedia.org/ontology/smiles"
+        },
+        "name": {
+            "@id": "http://www.w3.org/2004/02/skos/core#prefLabel",
+            "@language": "en"
+        },
+        "url": {
+            "@id": "http://www.w3.org/2000/01/rdf-schema#seeAlso",
+            "@type": "@id"
+        },
+        "inchikey": {
+            "@id": "http://dbpedia.org/property/inchikey"
+        },
+        "intermediate_nodes": {
+            "@id": "http://www.w3.org/2004/02/skos/core#broaderTransitive",
+            "@type": "@id"
+        },
+        "subclass": {
+            "@id": "http://www.w3.org/2004/02/skos/core#broaderTransitive",
+            "@type": "@id"
+        },
+        "kingdom": {
+            "@id": "http://www.w3.org/2004/02/skos/core#broaderTransitive",
+            "@type": "@id"
+        },
+        "class": {
+            "@id": "http://www.w3.org/2004/02/skos/core#broaderTransitive",
+            "@type": "@id"
+        },
+        "ancestors": {
+            "@id": "http://purl.org/dc/elements/1.1/relation",
+            "@language": "en"
+        },
+        "description": {
+            "@id": "http://www.w3.org/2004/02/skos/core#definition",
+            "@language": "en"
+        },
+        "direct_parent": {
+            "@id": "http://www.w3.org/2004/02/skos/core#broader",
+            "@type": "@id"
+        },
+        "alternative_parents": {
+            "@id": "http://www.w3.org/2004/02/skos/core#semanticRelation",
+            "@type": "@id"
+        },
+        "_id": {
+            "@id": "@id"
+        },
+        "chemont_id": {
+            "@id": "@id"
+        },
+        "altLabel_en": {
+            "@id": "http://www.w3.org/2004/02/skos/core#altLabel",
+            "@language": "en"
+        },
+        "note_en": {
+            "@id": "http://www.w3.org/2004/02/skos/core#note",
+            "@language": "en"
+        },
+        "graph": {
+            "@id": "@graph"
+        },
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "obo": "http://purl.obolibrary.org/obo/",
+        "uniprot": "http://purl.uniprot.org/",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "CHEMONTID": "https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/",
+        "chebi": "http://purl.obolibrary.org/obo/",
+        "dbo": "http://dbpedia.org/ontology/",
+        "dbp": "http://dbpedia.org/property/",
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "tax_nodes": "http://classyfire.wishartlab.com/tax_nodes/",
+        "concept": "https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "@base": "https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/"
+    },
+    "_id": "concept:RWSOTUBLDIXVET-UHFFFAOYSA-N",
+    "@type": "skos:Concept",
+    "dbo:formula": "H2S",
+    "dbo:inchi": "InChI=1S/H2S/h1H2",
+    "smiles": "[H]S[H]",
+    "inchikey": "RWSOTUBLDIXVET-UHFFFAOYSA-N",
+    "obo:chebi/charge": "0",
+    "altLabel_en": [
+        "Sulfide",
+        "H2S",
+        "[SH2]",
+        "acide sulfhydrique",
+        "dihydridosulfur",
+        "dihydrogen(sulfide)",
+        "dihydrogen monosulfide",
+        "dihydrogen sulfide",
+        "hydrogene sulfure",
+        "hydrogen monosulfide",
+        "Hydrogen sulfide",
+        "Hydrogen-sulfide",
+        "hydrogen sulphide",
+        "HYDROSULFURIC ACID",
+        "Schwefelwasserstoff",
+        "sulfane",
+        "sulfure d'hydrogene"
+    ],
+    "skos:exactMatch": {
+        "_id": "obo:CHEBI_16136"
+    },
+    "note_en": "A sulfur hydride consisting of a single sulfur atom bonded to two hydrogen atoms. A highly poisonous, flammable gas with a characteristic odour of rotten eggs, it is often produced by bacterial decomposition of organic matter in the absence of oxygen.",
+    "alternative_parents": [
+        "obo:CHEBI_33535",
+        "obo:CHEBI_37176",
+        "obo:CHEBI_138675",
+        "obo:CHEBI_33405"
+    ]
+}

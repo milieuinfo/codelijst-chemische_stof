@@ -1,0 +1,107 @@
+{
+    "@context": {
+        "smiles": {
+            "@id": "http://dbpedia.org/ontology/smiles"
+        },
+        "name": {
+            "@id": "http://www.w3.org/2004/02/skos/core#prefLabel",
+            "@language": "en"
+        },
+        "url": {
+            "@id": "http://www.w3.org/2000/01/rdf-schema#seeAlso",
+            "@type": "@id"
+        },
+        "inchikey": {
+            "@id": "http://dbpedia.org/property/inchikey"
+        },
+        "intermediate_nodes": {
+            "@id": "http://www.w3.org/2004/02/skos/core#broaderTransitive",
+            "@type": "@id"
+        },
+        "subclass": {
+            "@id": "http://www.w3.org/2004/02/skos/core#broaderTransitive",
+            "@type": "@id"
+        },
+        "kingdom": {
+            "@id": "http://www.w3.org/2004/02/skos/core#broaderTransitive",
+            "@type": "@id"
+        },
+        "class": {
+            "@id": "http://www.w3.org/2004/02/skos/core#broaderTransitive",
+            "@type": "@id"
+        },
+        "ancestors": {
+            "@id": "http://purl.org/dc/elements/1.1/relation",
+            "@language": "en"
+        },
+        "description": {
+            "@id": "http://www.w3.org/2004/02/skos/core#definition",
+            "@language": "en"
+        },
+        "direct_parent": {
+            "@id": "http://www.w3.org/2004/02/skos/core#broader",
+            "@type": "@id"
+        },
+        "alternative_parents": {
+            "@id": "http://www.w3.org/2004/02/skos/core#semanticRelation",
+            "@type": "@id"
+        },
+        "_id": {
+            "@id": "@id"
+        },
+        "chemont_id": {
+            "@id": "@id"
+        },
+        "altLabel_en": {
+            "@id": "http://www.w3.org/2004/02/skos/core#altLabel",
+            "@language": "en"
+        },
+        "note_en": {
+            "@id": "http://www.w3.org/2004/02/skos/core#note",
+            "@language": "en"
+        },
+        "graph": {
+            "@id": "@graph"
+        },
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "obo": "http://purl.obolibrary.org/obo/",
+        "uniprot": "http://purl.uniprot.org/",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "CHEMONTID": "https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/",
+        "chebi": "http://purl.obolibrary.org/obo/",
+        "dbo": "http://dbpedia.org/ontology/",
+        "dbp": "http://dbpedia.org/property/",
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "tax_nodes": "http://classyfire.wishartlab.com/tax_nodes/",
+        "concept": "https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "@base": "https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/"
+    },
+    "_id": "concept:XSFJVAJPIHIPKU-XWCQMRHXSA-N",
+    "@type": "skos:Concept",
+    "dbo:formula": "C24H31FO6",
+    "dbo:inchi": "InChI=1S/C24H31FO6/c1-21(2)30-19-9-14-13-8-16(25)15-7-12(27)5-6-22(15,3)20(13)17(28)10-23(14,4)24(19,31-21)18(29)11-26/h5-7,13-14,16-17,19-20,26,28H,8-11H2,1-4H3/t13-,14-,16-,17-,19+,20+,22-,23-,24+/m0/s1",
+    "smiles": "CC1(C)O[C@@H]2C[C@H]3[C@@H]4C[C@H](F)C5=CC(=O)C=C[C@]5(C)[C@H]4[C@@H](O)C[C@]3(C)[C@@]2(O1)C(=O)CO",
+    "inchikey": "XSFJVAJPIHIPKU-XWCQMRHXSA-N",
+    "obo:chebi/charge": "0",
+    "altLabel_en": [
+        "6alpha-fluoro-11beta,21-dihydroxy-16alpha,17alpha-(isopropylidenedioxy)pregna-1,4-diene-3,20-dione",
+        "flunisolida",
+        "Flunisolide",
+        "Flunisolide anhydrous",
+        "flunisolidum"
+    ],
+    "skos:exactMatch": {
+        "_id": "obo:CHEBI_5106"
+    },
+    "alternative_parents": [
+        "obo:CHEBI_35346",
+        "obo:CHEBI_77166",
+        "obo:CHEBI_35344",
+        "obo:CHEBI_36885",
+        "obo:CHEBI_139590",
+        "obo:CHEBI_59779",
+        "obo:CHEBI_50830"
+    ]
+}

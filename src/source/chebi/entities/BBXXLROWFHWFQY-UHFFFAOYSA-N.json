@@ -1,0 +1,105 @@
+{
+    "@context": {
+        "smiles": {
+            "@id": "http://dbpedia.org/ontology/smiles"
+        },
+        "name": {
+            "@id": "http://www.w3.org/2004/02/skos/core#prefLabel",
+            "@language": "en"
+        },
+        "url": {
+            "@id": "http://www.w3.org/2000/01/rdf-schema#seeAlso",
+            "@type": "@id"
+        },
+        "inchikey": {
+            "@id": "http://dbpedia.org/property/inchikey"
+        },
+        "intermediate_nodes": {
+            "@id": "http://www.w3.org/2004/02/skos/core#broaderTransitive",
+            "@type": "@id"
+        },
+        "subclass": {
+            "@id": "http://www.w3.org/2004/02/skos/core#broaderTransitive",
+            "@type": "@id"
+        },
+        "kingdom": {
+            "@id": "http://www.w3.org/2004/02/skos/core#broaderTransitive",
+            "@type": "@id"
+        },
+        "class": {
+            "@id": "http://www.w3.org/2004/02/skos/core#broaderTransitive",
+            "@type": "@id"
+        },
+        "ancestors": {
+            "@id": "http://purl.org/dc/elements/1.1/relation",
+            "@language": "en"
+        },
+        "description": {
+            "@id": "http://www.w3.org/2004/02/skos/core#definition",
+            "@language": "en"
+        },
+        "direct_parent": {
+            "@id": "http://www.w3.org/2004/02/skos/core#broader",
+            "@type": "@id"
+        },
+        "alternative_parents": {
+            "@id": "http://www.w3.org/2004/02/skos/core#semanticRelation",
+            "@type": "@id"
+        },
+        "_id": {
+            "@id": "@id"
+        },
+        "chemont_id": {
+            "@id": "@id"
+        },
+        "altLabel_en": {
+            "@id": "http://www.w3.org/2004/02/skos/core#altLabel",
+            "@language": "en"
+        },
+        "note_en": {
+            "@id": "http://www.w3.org/2004/02/skos/core#note",
+            "@language": "en"
+        },
+        "graph": {
+            "@id": "@graph"
+        },
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "obo": "http://purl.obolibrary.org/obo/",
+        "uniprot": "http://purl.uniprot.org/",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "CHEMONTID": "https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/",
+        "chebi": "http://purl.obolibrary.org/obo/",
+        "dbo": "http://dbpedia.org/ontology/",
+        "dbp": "http://dbpedia.org/property/",
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "tax_nodes": "http://classyfire.wishartlab.com/tax_nodes/",
+        "concept": "https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "@base": "https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/"
+    },
+    "_id": "concept:BBXXLROWFHWFQY-UHFFFAOYSA-N",
+    "@type": "skos:Concept",
+    "dbo:formula": "C11H19N3O",
+    "dbo:inchi": "InChI=1S/C11H19N3O/c1-4-6-7-9-8(3)13-11(12-5-2)14-10(9)15/h4-7H2,1-3H3,(H2,12,13,14,15)",
+    "smiles": "CCCCc1c(C)[nH]c(NCC)nc1=O",
+    "inchikey": "BBXXLROWFHWFQY-UHFFFAOYSA-N",
+    "obo:chebi/charge": "0",
+    "altLabel_en": [
+        "2-Ethylamino-4-methyl-5-n-butyl-6-hydroxypyrimidine",
+        "5-Butyl-2-(ethylamino)-6-methyl-4(1H)-pyrimidinone",
+        "5-Butyl-2-(ethylamino)-6-methyl-4-pyrimidinol",
+        "5-butyl-2-(ethylamino)-6-methylpyrimidin-4(1H)-one",
+        "5-n-Butyl-2-ethylamino-4-hydroxy-6-methylpyrimidine"
+    ],
+    "skos:exactMatch": {
+        "_id": "obo:CHEBI_81989"
+    },
+    "note_en": "An aminopyrimidine that is 2-ethylaminopyrimidin-4-one carrying butyl and methyl substituents at positions 5 and 6 respectively. A fungicide first marketed in 1970 and used as a seed treatment for diseaases such as damping-off, it is not licensed for use within the European Union.",
+    "alternative_parents": [
+        "obo:CHEBI_38337",
+        "obo:CHEBI_38338",
+        "obo:CHEBI_50995",
+        "obo:CHEBI_87207"
+    ]
+}

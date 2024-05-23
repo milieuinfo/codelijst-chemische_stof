@@ -1,0 +1,116 @@
+{
+    "@context": {
+        "smiles": {
+            "@id": "http://dbpedia.org/ontology/smiles"
+        },
+        "name": {
+            "@id": "http://www.w3.org/2004/02/skos/core#prefLabel",
+            "@language": "en"
+        },
+        "url": {
+            "@id": "http://www.w3.org/2000/01/rdf-schema#seeAlso",
+            "@type": "@id"
+        },
+        "inchikey": {
+            "@id": "http://dbpedia.org/property/inchikey"
+        },
+        "intermediate_nodes": {
+            "@id": "http://www.w3.org/2004/02/skos/core#broaderTransitive",
+            "@type": "@id"
+        },
+        "subclass": {
+            "@id": "http://www.w3.org/2004/02/skos/core#broaderTransitive",
+            "@type": "@id"
+        },
+        "kingdom": {
+            "@id": "http://www.w3.org/2004/02/skos/core#broaderTransitive",
+            "@type": "@id"
+        },
+        "class": {
+            "@id": "http://www.w3.org/2004/02/skos/core#broaderTransitive",
+            "@type": "@id"
+        },
+        "ancestors": {
+            "@id": "http://purl.org/dc/elements/1.1/relation",
+            "@language": "en"
+        },
+        "description": {
+            "@id": "http://www.w3.org/2004/02/skos/core#definition",
+            "@language": "en"
+        },
+        "direct_parent": {
+            "@id": "http://www.w3.org/2004/02/skos/core#broader",
+            "@type": "@id"
+        },
+        "alternative_parents": {
+            "@id": "http://www.w3.org/2004/02/skos/core#semanticRelation",
+            "@type": "@id"
+        },
+        "_id": {
+            "@id": "@id"
+        },
+        "chemont_id": {
+            "@id": "@id"
+        },
+        "altLabel_en": {
+            "@id": "http://www.w3.org/2004/02/skos/core#altLabel",
+            "@language": "en"
+        },
+        "note_en": {
+            "@id": "http://www.w3.org/2004/02/skos/core#note",
+            "@language": "en"
+        },
+        "graph": {
+            "@id": "@graph"
+        },
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "obo": "http://purl.obolibrary.org/obo/",
+        "uniprot": "http://purl.uniprot.org/",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "CHEMONTID": "https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/",
+        "chebi": "http://purl.obolibrary.org/obo/",
+        "dbo": "http://dbpedia.org/ontology/",
+        "dbp": "http://dbpedia.org/property/",
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "tax_nodes": "http://classyfire.wishartlab.com/tax_nodes/",
+        "concept": "https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "@base": "https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/"
+    },
+    "_id": "concept:NRZWYNLTFLDQQX-UHFFFAOYSA-N",
+    "@type": "skos:Concept",
+    "dbo:formula": "C11H16O",
+    "dbo:inchi": "InChI=1S/C11H16O/c1-4-11(2,3)9-5-7-10(12)8-6-9/h5-8,12H,4H2,1-3H3",
+    "smiles": "CCC(C)(C)c1ccc(O)cc1",
+    "inchikey": "NRZWYNLTFLDQQX-UHFFFAOYSA-N",
+    "obo:chebi/charge": "0",
+    "altLabel_en": [
+        "4-tert-Octylphenol",
+        "4-(1,1,3,3-Tetramethylbutyl)phenol",
+        "4-(1,1,3,3-Tetramethylbutyl)-Phenol",
+        "4-(1,1,3,3-Tetramethylbutyl)phenol (ACD/Name 4.0)",
+        "4-(2-methylbutan-2-yl)phenol",
+        "4-t-Amylphenol",
+        "4-Tert-Octylphenol",
+        "4-tert-Pentylphenol",
+        "Octylphenol pt",
+        "p-(1,1,3,3-Tetramethylbutyl)phenol",
+        "p-(1,1,3,3-Tetramethylbutyl)-Phenol",
+        "p-(1',1',3',3'-Tetramethylbutyl)phenol",
+        "p-(1',1',3', 3'-Tetramethylbutyl)phenol",
+        "p-(Tert-octyl)-Phenol",
+        "Para-tert-Octylphenol",
+        "p-Octylphenol",
+        "p-Octylphenol (VAN)",
+        "p-Terc.oktylfenol",
+        "p-Terc.oktylfenol(Czech)",
+        "p-tert-Octylphenol",
+        "p-Tert-Octylphenol",
+        "Tert-Octylphenol, flaked"
+    ],
+    "skos:exactMatch": {
+        "_id": "obo:CHEBI_35096"
+    },
+    "alternative_parents": "obo:CHEBI_38976"
+}

@@ -1,0 +1,113 @@
+{
+    "@context": {
+        "smiles": {
+            "@id": "http://dbpedia.org/ontology/smiles"
+        },
+        "name": {
+            "@id": "http://www.w3.org/2004/02/skos/core#prefLabel",
+            "@language": "en"
+        },
+        "url": {
+            "@id": "http://www.w3.org/2000/01/rdf-schema#seeAlso",
+            "@type": "@id"
+        },
+        "inchikey": {
+            "@id": "http://dbpedia.org/property/inchikey"
+        },
+        "intermediate_nodes": {
+            "@id": "http://www.w3.org/2004/02/skos/core#broaderTransitive",
+            "@type": "@id"
+        },
+        "subclass": {
+            "@id": "http://www.w3.org/2004/02/skos/core#broaderTransitive",
+            "@type": "@id"
+        },
+        "kingdom": {
+            "@id": "http://www.w3.org/2004/02/skos/core#broaderTransitive",
+            "@type": "@id"
+        },
+        "class": {
+            "@id": "http://www.w3.org/2004/02/skos/core#broaderTransitive",
+            "@type": "@id"
+        },
+        "ancestors": {
+            "@id": "http://purl.org/dc/elements/1.1/relation",
+            "@language": "en"
+        },
+        "description": {
+            "@id": "http://www.w3.org/2004/02/skos/core#definition",
+            "@language": "en"
+        },
+        "direct_parent": {
+            "@id": "http://www.w3.org/2004/02/skos/core#broader",
+            "@type": "@id"
+        },
+        "alternative_parents": {
+            "@id": "http://www.w3.org/2004/02/skos/core#semanticRelation",
+            "@type": "@id"
+        },
+        "_id": {
+            "@id": "@id"
+        },
+        "chemont_id": {
+            "@id": "@id"
+        },
+        "altLabel_en": {
+            "@id": "http://www.w3.org/2004/02/skos/core#altLabel",
+            "@language": "en"
+        },
+        "note_en": {
+            "@id": "http://www.w3.org/2004/02/skos/core#note",
+            "@language": "en"
+        },
+        "graph": {
+            "@id": "@graph"
+        },
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "obo": "http://purl.obolibrary.org/obo/",
+        "uniprot": "http://purl.uniprot.org/",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "CHEMONTID": "https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/",
+        "chebi": "http://purl.obolibrary.org/obo/",
+        "dbo": "http://dbpedia.org/ontology/",
+        "dbp": "http://dbpedia.org/property/",
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "tax_nodes": "http://classyfire.wishartlab.com/tax_nodes/",
+        "concept": "https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "@base": "https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/"
+    },
+    "_id": "concept:GYSSRZJIHXQEHQ-UHFFFAOYSA-N",
+    "@type": "skos:Concept",
+    "dbo:formula": "C12H13NO2S",
+    "dbo:inchi": "InChI=1S/C12H13NO2S/c1-9-11(16-8-7-15-9)12(14)13-10-5-3-2-4-6-10/h2-6H,7-8H2,1H3,(H,13,14)",
+    "smiles": "CC1=C(SCCO1)C(=O)NC1=CC=CC=C1",
+    "inchikey": "GYSSRZJIHXQEHQ-UHFFFAOYSA-N",
+    "obo:chebi/charge": "0",
+    "altLabel_en": [
+        "2,3-Dihydro-5-carboxanilido-6-methyl-1,4-oxathiin",
+        "2,3-Dihydro-6-methyl-1,4-oxathiin-5-carboxanilide",
+        "2,3-Dihydro-6-methyl-5-phenylcarbamoyl-1,4-oxathiin",
+        "2-methyl-N-phenyl-5,6-dihydro-1,4-oxathiine-3-carboxamide",
+        "5,6-Dihydro-2-methyl-1,4-oxathiin-3-carboxanilide",
+        "5,6-Dihydro-2-methyl-3-carboxanilido-1,4-oxathiin",
+        "5,6-Dihydro-2-methyl-N-phenyl-1,4-oxathiin-3-carboxamide",
+        "5-Carboxanilido-2,3-dihydro-6-methyl-1,4-oxathiin",
+        "Carbathiin",
+        "Carboxine",
+        "oxatin"
+    ],
+    "skos:exactMatch": {
+        "_id": "obo:CHEBI_3405"
+    },
+    "note_en": "An anilide obtained by formal condensation of the amino group of aniline with the carboxy group of 2-methyl-5,6-dihydro-1,4-oxathiine-3-carboxylic acid. A fungicide for control of bunts and smuts that is normally used as a seed treatment.",
+    "alternative_parents": [
+        "obo:CHEBI_13248",
+        "obo:CHEBI_38104",
+        "obo:CHEBI_38106",
+        "obo:CHEBI_51751",
+        "obo:CHEBI_87015",
+        "obo:CHEBI_140325"
+    ]
+}

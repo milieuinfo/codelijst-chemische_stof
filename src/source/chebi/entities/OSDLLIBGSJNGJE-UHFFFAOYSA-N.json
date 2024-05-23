@@ -1,0 +1,115 @@
+{
+    "@context": {
+        "smiles": {
+            "@id": "http://dbpedia.org/ontology/smiles"
+        },
+        "name": {
+            "@id": "http://www.w3.org/2004/02/skos/core#prefLabel",
+            "@language": "en"
+        },
+        "url": {
+            "@id": "http://www.w3.org/2000/01/rdf-schema#seeAlso",
+            "@type": "@id"
+        },
+        "inchikey": {
+            "@id": "http://dbpedia.org/property/inchikey"
+        },
+        "intermediate_nodes": {
+            "@id": "http://www.w3.org/2004/02/skos/core#broaderTransitive",
+            "@type": "@id"
+        },
+        "subclass": {
+            "@id": "http://www.w3.org/2004/02/skos/core#broaderTransitive",
+            "@type": "@id"
+        },
+        "kingdom": {
+            "@id": "http://www.w3.org/2004/02/skos/core#broaderTransitive",
+            "@type": "@id"
+        },
+        "class": {
+            "@id": "http://www.w3.org/2004/02/skos/core#broaderTransitive",
+            "@type": "@id"
+        },
+        "ancestors": {
+            "@id": "http://purl.org/dc/elements/1.1/relation",
+            "@language": "en"
+        },
+        "description": {
+            "@id": "http://www.w3.org/2004/02/skos/core#definition",
+            "@language": "en"
+        },
+        "direct_parent": {
+            "@id": "http://www.w3.org/2004/02/skos/core#broader",
+            "@type": "@id"
+        },
+        "alternative_parents": {
+            "@id": "http://www.w3.org/2004/02/skos/core#semanticRelation",
+            "@type": "@id"
+        },
+        "_id": {
+            "@id": "@id"
+        },
+        "chemont_id": {
+            "@id": "@id"
+        },
+        "altLabel_en": {
+            "@id": "http://www.w3.org/2004/02/skos/core#altLabel",
+            "@language": "en"
+        },
+        "note_en": {
+            "@id": "http://www.w3.org/2004/02/skos/core#note",
+            "@language": "en"
+        },
+        "graph": {
+            "@id": "@graph"
+        },
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "obo": "http://purl.obolibrary.org/obo/",
+        "uniprot": "http://purl.uniprot.org/",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "CHEMONTID": "https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/",
+        "chebi": "http://purl.obolibrary.org/obo/",
+        "dbo": "http://dbpedia.org/ontology/",
+        "dbp": "http://dbpedia.org/property/",
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "tax_nodes": "http://classyfire.wishartlab.com/tax_nodes/",
+        "concept": "https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "@base": "https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/"
+    },
+    "_id": "concept:OSDLLIBGSJNGJE-UHFFFAOYSA-N",
+    "@type": "skos:Concept",
+    "dbo:formula": "C8H9ClO",
+    "dbo:inchi": "InChI=1S/C8H9ClO/c1-5-3-7(10)4-6(2)8(5)9/h3-4,10H,1-2H3",
+    "smiles": "Cc1cc(O)cc(C)c1Cl",
+    "inchikey": "OSDLLIBGSJNGJE-UHFFFAOYSA-N",
+    "obo:chebi/charge": "0",
+    "altLabel_en": [
+        "2-chloro-5-hydroxy-1,3-dimethylbenzene",
+        "2-chloro-5-hydroxy-m-xylene",
+        "2-Chloro-m-xylenol",
+        "3,5-dimethyl-4-chlorophenol",
+        "4-chloro-1-hydroxy-3,5-dimethylbenzene",
+        "4-chloro-m-xylenol",
+        "Benzytol",
+        "chloroxylenol",
+        "chloro-xylenol",
+        "chloroxylenolum",
+        "cloroxilenol",
+        "Dettol",
+        "parachlorometaxylenol",
+        "parametaxylenol",
+        "p-chloro-3,5-xylenol",
+        "p-chloro-m-xylenol",
+        "PCMX"
+    ],
+    "skos:exactMatch": {
+        "_id": "obo:CHEBI_34393"
+    },
+    "note_en": "A member of the class of phenols that is 3,5-xylenol which is substituted at position 4 by chlorine. It is bactericidal against most Gram-positive bacteria but less effective against Staphylococci and Gram-negative bacteria, and often inactive against Pseudomonas species. It is ineffective against bacterial spores.",
+    "alternative_parents": [
+        "obo:CHEBI_33853",
+        "obo:CHEBI_83403"
+    ]
+}

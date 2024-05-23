@@ -1,0 +1,141 @@
+{
+    "@context": {
+        "smiles": {
+            "@id": "http://dbpedia.org/ontology/smiles"
+        },
+        "name": {
+            "@id": "http://www.w3.org/2004/02/skos/core#prefLabel",
+            "@language": "en"
+        },
+        "url": {
+            "@id": "http://www.w3.org/2000/01/rdf-schema#seeAlso",
+            "@type": "@id"
+        },
+        "inchikey": {
+            "@id": "http://dbpedia.org/property/inchikey"
+        },
+        "intermediate_nodes": {
+            "@id": "http://www.w3.org/2004/02/skos/core#broaderTransitive",
+            "@type": "@id"
+        },
+        "subclass": {
+            "@id": "http://www.w3.org/2004/02/skos/core#broaderTransitive",
+            "@type": "@id"
+        },
+        "kingdom": {
+            "@id": "http://www.w3.org/2004/02/skos/core#broaderTransitive",
+            "@type": "@id"
+        },
+        "class": {
+            "@id": "http://www.w3.org/2004/02/skos/core#broaderTransitive",
+            "@type": "@id"
+        },
+        "ancestors": {
+            "@id": "http://purl.org/dc/elements/1.1/relation",
+            "@language": "en"
+        },
+        "description": {
+            "@id": "http://www.w3.org/2004/02/skos/core#definition",
+            "@language": "en"
+        },
+        "direct_parent": {
+            "@id": "http://www.w3.org/2004/02/skos/core#broader",
+            "@type": "@id"
+        },
+        "alternative_parents": {
+            "@id": "http://www.w3.org/2004/02/skos/core#semanticRelation",
+            "@type": "@id"
+        },
+        "_id": {
+            "@id": "@id"
+        },
+        "chemont_id": {
+            "@id": "@id"
+        },
+        "altLabel_en": {
+            "@id": "http://www.w3.org/2004/02/skos/core#altLabel",
+            "@language": "en"
+        },
+        "note_en": {
+            "@id": "http://www.w3.org/2004/02/skos/core#note",
+            "@language": "en"
+        },
+        "graph": {
+            "@id": "@graph"
+        },
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "obo": "http://purl.obolibrary.org/obo/",
+        "uniprot": "http://purl.uniprot.org/",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "CHEMONTID": "https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/",
+        "chebi": "http://purl.obolibrary.org/obo/",
+        "dbo": "http://dbpedia.org/ontology/",
+        "dbp": "http://dbpedia.org/property/",
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "tax_nodes": "http://classyfire.wishartlab.com/tax_nodes/",
+        "concept": "https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "@base": "https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/"
+    },
+    "_id": "concept:QFOHBWFCKVYLES-UHFFFAOYSA-N",
+    "@type": "skos:Concept",
+    "dbo:formula": "C11H14O3",
+    "dbo:inchi": "InChI=1S/C11H14O3/c1-2-3-8-14-11(13)9-4-6-10(12)7-5-9/h4-7,12H,2-3,8H2,1H3",
+    "smiles": "CCCCOC(C1=CC=C(C=C1)O)=O",
+    "inchikey": "QFOHBWFCKVYLES-UHFFFAOYSA-N",
+    "obo:chebi/charge": "0",
+    "altLabel_en": [
+        "4-(Butoxycarbonyl)phenol",
+        "4-Hydroxybenzoic acid, butyl ester",
+        "4-Hydroxybenzoic acid butyl ester",
+        "Aseptoform butyl",
+        "Benzoic acid, 4-hydroxy-, butyl ester",
+        "Benzoic acid, p-hydroxy-, butyl ester",
+        "Butoben",
+        "Butyl //p//-hydroxybenzoate",
+        "butyl 4-hydroxybenzoate",
+        "Butyl 4-hydroxybenzoate",
+        "Butyl butex",
+        "Butyl chemosept",
+        "Butyl paraben",
+        "Butylparaben (NF)",
+        "Butylparaben (TN)",
+        "Butylparaben [usan]",
+        "Butyl parahydroxybenzoate",
+        "Butyl parahydroxybenzoate (JP15)",
+        "Butyl parahydroxybenzoate (TN)",
+        "Butyl parasept",
+        "Butyl par asept",
+        "Butyl-parasept",
+        "Butyl p-hydroxybenzoate",
+        "Butyl-p-hydroxybenzoate",
+        "Butyl tegosept",
+        "FEMA 2203",
+        "Lexgard b",
+        "N-Butyl 4-hydroxybenzoate",
+        "N-Butyl-4-hydroxybenzoate",
+        "N-Butyl hydroxybenzoate",
+        "N-Butyl paraben",
+        "N-Butyl-paraben",
+        "N-Butyl parahydroxybenzoate",
+        "N-Butyl p-hydroxybenzoate",
+        "N-Butyl-p-hydroxybenzoate",
+        "Nipabutyl",
+        "Parasept",
+        "P-Hydroxybenzoic acid, butyl ester",
+        "P-Hydroxybenzoic acid butyl ester",
+        "P-Hydroxybenzoic acid N-butyl ester",
+        "P-Hydroxybenzoic butyl ester",
+        "P-Hydroxy butyl benzoate",
+        "Preserval b",
+        "Solbrol b",
+        "SPF",
+        "Tegosept B",
+        "Tegosept butyl"
+    ],
+    "skos:exactMatch": {
+        "_id": "obo:CHEBI_88542"
+    },
+    "alternative_parents": "obo:CHEBI_50860"
+}

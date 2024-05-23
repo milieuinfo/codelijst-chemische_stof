@@ -1,0 +1,139 @@
+{
+    "@context": {
+        "smiles": {
+            "@id": "http://dbpedia.org/ontology/smiles"
+        },
+        "name": {
+            "@id": "http://www.w3.org/2004/02/skos/core#prefLabel",
+            "@language": "en"
+        },
+        "url": {
+            "@id": "http://www.w3.org/2000/01/rdf-schema#seeAlso",
+            "@type": "@id"
+        },
+        "inchikey": {
+            "@id": "http://dbpedia.org/property/inchikey"
+        },
+        "intermediate_nodes": {
+            "@id": "http://www.w3.org/2004/02/skos/core#broaderTransitive",
+            "@type": "@id"
+        },
+        "subclass": {
+            "@id": "http://www.w3.org/2004/02/skos/core#broaderTransitive",
+            "@type": "@id"
+        },
+        "kingdom": {
+            "@id": "http://www.w3.org/2004/02/skos/core#broaderTransitive",
+            "@type": "@id"
+        },
+        "class": {
+            "@id": "http://www.w3.org/2004/02/skos/core#broaderTransitive",
+            "@type": "@id"
+        },
+        "ancestors": {
+            "@id": "http://www.w3.org/2004/02/skos/core#altLabel",
+            "@language": "en"
+        },
+        "description": {
+            "@id": "http://www.w3.org/2004/02/skos/core#definition",
+            "@language": "en"
+        },
+        "direct_parent": {
+            "@id": "http://www.w3.org/2004/02/skos/core#broader",
+            "@type": "@id"
+        },
+        "alternative_parents": {
+            "@id": "http://www.w3.org/2004/02/skos/core#mappingRelation",
+            "@type": "@id"
+        },
+        "_id": {
+            "@id": "@id"
+        },
+        "chemont_id": {
+            "@id": "@id"
+        },
+        "CHEMONTID": "https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/",
+        "chebi": "http://purl.obolibrary.org/obo/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "tax_nodes": "http://classyfire.wishartlab.com/tax_nodes/",
+        "concept": "https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "@base": "https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/"
+    },
+    "_id": "concept:HGINCPLSRVDWNT-UHFFFAOYSA-N",
+    "smiles": "C=CC=O",
+    "inchikey": "InChIKey=HGINCPLSRVDWNT-UHFFFAOYSA-N",
+    "ancestors": [
+        "Aldehydes",
+        "Alpha,beta-unsaturated aldehydes",
+        "Alpha,beta-unsaturated carbonyl compounds",
+        "Carbonyl compounds",
+        "Chemical entities",
+        "Enals",
+        "Hydrocarbon derivatives",
+        "Organic compounds",
+        "Organic oxides",
+        "Organic oxygen compounds",
+        "Organooxygen compounds",
+        "Short-chain aldehydes"
+    ],
+    "direct_parent": {
+        "_id": "concept:0002436",
+        "url": "tax_nodes:C0002436",
+        "description": "An alpha,beta-unsaturated aldehyde of general formula RC=C-CH=O in which the aldehydic C=O function is conjugated to a C=C triple bond at the alpha,beta position.",
+        "name": "Enals"
+    },
+    "class": [
+        {
+            "_id": "concept:0000323",
+            "url": "tax_nodes:C0000323",
+            "description": "Organic compounds containing a bond between a carbon atom and an oxygen atom.",
+            "name": "Organooxygen compounds"
+        },
+        {
+            "_id": "concept:0003131",
+            "url": "tax_nodes:C0003131",
+            "description": "Carbonyl compounds with the general structure R#CC(=O)R' or R=CC(=O)R', where R=organyl, R'=H, N, O, organyl group or halide group.",
+            "name": "Alpha,beta-unsaturated carbonyl compounds"
+        },
+        {
+            "_id": "concept:0002433",
+            "url": "tax_nodes:C0002433",
+            "description": "Aldehydes of general formula R(1)R(2)C=CR(3)-CH=O or RC#C-CH=O in which the aldehydic C=O function is conjugated to an unsaturated C-C bond at the alpha,beta position.",
+            "name": "Alpha,beta-unsaturated aldehydes"
+        },
+        {
+            "_id": "concept:0000000",
+            "url": "tax_nodes:C0000000",
+            "description": "Compounds that contain at least one carbon atom, excluding isocyanide/cyanide and their non-hydrocarbyl derivatives, thiophosgene, carbon diselenide, carbon monosulfide, carbon disulfide, carbon subsulfide, carbon monoxide, carbon dioxide, Carbon suboxide, and dicarbon monoxide.",
+            "name": "Organic compounds"
+        },
+        {
+            "_id": "concept:0001831",
+            "url": "tax_nodes:C0001831",
+            "description": "Organic compounds containing a carbonyl group, with the general structure RC(=O)R', where R=organyl, R'=H, N, O, organyl group or halide group.",
+            "name": "Carbonyl compounds"
+        }
+    ],
+    "description": "This compound belongs to the class of organic compounds known as enals. These are an alpha,beta-unsaturated aldehyde of general formula RC=C-CH=O in which the aldehydic C=O function is conjugated to a C=C triple bond at the alpha,beta position.",
+    "alternative_parents": [
+        {
+            "_id": "concept:0002230",
+            "url": "tax_nodes:C0002230",
+            "description": "An aldehyde with a chain length containing between 2 and 5 carbon atoms.",
+            "name": "Short-chain aldehydes"
+        },
+        {
+            "_id": "concept:0003940",
+            "url": "tax_nodes:C0003940",
+            "description": "Organic compounds containing an oxide group.",
+            "name": "Organic oxides"
+        },
+        {
+            "_id": "concept:0004150",
+            "url": "tax_nodes:C0004150",
+            "description": "Derivatives of hydrocarbons obtained by substituting one or more carbon atoms by an heteroatom. They contain at least one carbon atom and heteroatom.",
+            "name": "Hydrocarbon derivatives"
+        }
+    ]
+}

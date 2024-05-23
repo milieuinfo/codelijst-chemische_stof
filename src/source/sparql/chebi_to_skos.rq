@@ -1,0 +1,39 @@
+PREFIX skos:  <http://www.w3.org/2004/02/skos/core#>
+prefix chebi:  <http://purl.obolibrary.org/obo/chebi/>
+prefix geneontology: <http://www.geneontology.org/formats/oboInOwl#>
+prefix rdfs:   <http://www.w3.org/2000/01/rdf-schema#>
+prefix obo:   <http://purl.obolibrary.org/obo/>
+prefix dbo:   <http://dbpedia.org/ontology/>
+prefix conceptscheme: <https://data.omgeving.vlaanderen.be/id/conceptscheme/>
+prefix dbp:   <http://dbpedia.org/property/>
+prefix owl:   <http://www.w3.org/2002/07/owl#>
+construct
+{
+    ?stof a skos:Concept  ;
+    skos:note         ?note ;
+    chebi:charge             ?charge;
+    skos:inScheme  conceptscheme:chemische_stof;
+    dbo:formula           ?formula;
+    dbo:inchi              ?inchi;
+    dbp:inchikey           ?inchikey;
+    dbo:smiles             ?smiles;
+    skos:altLabel             ?hasSynonym;
+    skos:exactMatch        ?chebi_id  ;
+    skos:semanticRelation  ?subclass  .
+}
+where
+{
+    ?chebi_id chebi:inchikey "INCHIKEY" ;
+    chebi:charge             ?charge;
+    chebi:formula            ?formula;
+    chebi:inchi              ?inchi;
+    chebi:inchikey           ?inchikey;
+    chebi:smiles             ?smiles;
+    geneontology:hasSynonym ?hasSyn .
+    optional {?chebi_id         rdfs:subClassOf        ?subclass .
+    ?subclass ?p2 ?o2 .
+    ?subclass a owl:Class .}
+    optional { ?chebi_id   obo:IAO_0000115         ?IAO_0000115 }
+    bind(iri(concat("https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/",  "INCHIKEY")) as ?stof)
+    BIND(STRLANG(?hasSyn, "en") AS ?hasSynonym) BIND(STRLANG(?IAO_0000115, "en") AS ?note)
+}

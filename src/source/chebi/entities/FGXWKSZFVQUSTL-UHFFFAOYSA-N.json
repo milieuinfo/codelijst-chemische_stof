@@ -1,0 +1,105 @@
+{
+    "@context": {
+        "smiles": {
+            "@id": "http://dbpedia.org/ontology/smiles"
+        },
+        "name": {
+            "@id": "http://www.w3.org/2004/02/skos/core#prefLabel",
+            "@language": "en"
+        },
+        "url": {
+            "@id": "http://www.w3.org/2000/01/rdf-schema#seeAlso",
+            "@type": "@id"
+        },
+        "inchikey": {
+            "@id": "http://dbpedia.org/property/inchikey"
+        },
+        "intermediate_nodes": {
+            "@id": "http://www.w3.org/2004/02/skos/core#broaderTransitive",
+            "@type": "@id"
+        },
+        "subclass": {
+            "@id": "http://www.w3.org/2004/02/skos/core#broaderTransitive",
+            "@type": "@id"
+        },
+        "kingdom": {
+            "@id": "http://www.w3.org/2004/02/skos/core#broaderTransitive",
+            "@type": "@id"
+        },
+        "class": {
+            "@id": "http://www.w3.org/2004/02/skos/core#broaderTransitive",
+            "@type": "@id"
+        },
+        "ancestors": {
+            "@id": "http://purl.org/dc/elements/1.1/relation",
+            "@language": "en"
+        },
+        "description": {
+            "@id": "http://www.w3.org/2004/02/skos/core#definition",
+            "@language": "en"
+        },
+        "direct_parent": {
+            "@id": "http://www.w3.org/2004/02/skos/core#broader",
+            "@type": "@id"
+        },
+        "alternative_parents": {
+            "@id": "http://www.w3.org/2004/02/skos/core#semanticRelation",
+            "@type": "@id"
+        },
+        "_id": {
+            "@id": "@id"
+        },
+        "chemont_id": {
+            "@id": "@id"
+        },
+        "altLabel_en": {
+            "@id": "http://www.w3.org/2004/02/skos/core#altLabel",
+            "@language": "en"
+        },
+        "note_en": {
+            "@id": "http://www.w3.org/2004/02/skos/core#note",
+            "@language": "en"
+        },
+        "graph": {
+            "@id": "@graph"
+        },
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "obo": "http://purl.obolibrary.org/obo/",
+        "uniprot": "http://purl.uniprot.org/",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "CHEMONTID": "https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/",
+        "chebi": "http://purl.obolibrary.org/obo/",
+        "dbo": "http://dbpedia.org/ontology/",
+        "dbp": "http://dbpedia.org/property/",
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "tax_nodes": "http://classyfire.wishartlab.com/tax_nodes/",
+        "concept": "https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "@base": "https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/"
+    },
+    "_id": "concept:FGXWKSZFVQUSTL-UHFFFAOYSA-N",
+    "@type": "skos:Concept",
+    "dbo:formula": "C22H24ClN5O2",
+    "dbo:inchi": "InChI=1S/C22H24ClN5O2/c23-15-6-7-20-18(14-15)25-22(30)28(20)16-8-12-26(13-9-16)10-3-11-27-19-5-2-1-4-17(19)24-21(27)29/h1-2,4-7,14,16H,3,8-13H2,(H,24,29)(H,25,30)",
+    "smiles": "Clc1ccc2n(C3CCN(CCCn4c5ccccc5[nH]c4=O)CC3)c(=O)[nH]c2c1",
+    "inchikey": "FGXWKSZFVQUSTL-UHFFFAOYSA-N",
+    "obo:chebi/charge": "0",
+    "altLabel_en": [
+        "1-(3-(4-(5-chloro-2-oxo-2,3-dihydrobenzo[d]imidazol-1-yl)piperidin-1-yl)propyl)-1H-benzo[d]imidazol-2(3H)-one",
+        "5-chloro-1-(1-(3-(2-oxo-1-benzimidazolinyl)propyl)-4-piperidyl)-2-benzimidazolinone",
+        "5-chloro-1-(1-(3-(2-oxo-2,3-dihydrobenzo[d]imidazol-1-yl)propyl)piperidin-4-yl)-1H-benzo[d]imidazol-2(3H)-one",
+        "5-chloro-1-{1-[3-(2-oxo-2,3-dihydro-1H-benzimidazol-1-yl)propyl]piperidin-4-yl}-1,3-dihydro-2H-benzimidazol-2-one",
+        "5-chloro-1-{1-[3-(2-oxo-2,3-dihydro-benzoimidazol-1-yl)-propyl]-piperidin-4-yl}-1,3-dihydro-benzoimidazol-2-one",
+        "domperidona",
+        "domperidonum"
+    ],
+    "skos:exactMatch": {
+        "_id": "obo:CHEBI_31515"
+    },
+    "note_en": "1-[3-(Piperidin-1-yl)propyl]-1,3-dihydro-2H-benzimidazol-2-one in which the 4-position of the piperidine ring is substituted by a 5-chloro-1,3-dihydro-2H-benzimidazol-2-on-1-yl group. A dopamine antagonist, it is used as an antiemetic for the short-term treatment of nausea and vomiting, and to control gastrointestinal effects of dopaminergic drugs given in the management of parkinsonism. The free base is used in oral suspensions, while the maleate salt is used in tablet preparations.",
+    "alternative_parents": [
+        "obo:CHEBI_22715",
+        "obo:CHEBI_48585"
+    ]
+}

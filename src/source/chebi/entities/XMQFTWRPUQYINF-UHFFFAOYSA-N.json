@@ -1,0 +1,107 @@
+{
+    "@context": {
+        "smiles": {
+            "@id": "http://dbpedia.org/ontology/smiles"
+        },
+        "name": {
+            "@id": "http://www.w3.org/2004/02/skos/core#prefLabel",
+            "@language": "en"
+        },
+        "url": {
+            "@id": "http://www.w3.org/2000/01/rdf-schema#seeAlso",
+            "@type": "@id"
+        },
+        "inchikey": {
+            "@id": "http://dbpedia.org/property/inchikey"
+        },
+        "intermediate_nodes": {
+            "@id": "http://www.w3.org/2004/02/skos/core#broaderTransitive",
+            "@type": "@id"
+        },
+        "subclass": {
+            "@id": "http://www.w3.org/2004/02/skos/core#broaderTransitive",
+            "@type": "@id"
+        },
+        "kingdom": {
+            "@id": "http://www.w3.org/2004/02/skos/core#broaderTransitive",
+            "@type": "@id"
+        },
+        "class": {
+            "@id": "http://www.w3.org/2004/02/skos/core#broaderTransitive",
+            "@type": "@id"
+        },
+        "ancestors": {
+            "@id": "http://purl.org/dc/elements/1.1/relation",
+            "@language": "en"
+        },
+        "description": {
+            "@id": "http://www.w3.org/2004/02/skos/core#definition",
+            "@language": "en"
+        },
+        "direct_parent": {
+            "@id": "http://www.w3.org/2004/02/skos/core#broader",
+            "@type": "@id"
+        },
+        "alternative_parents": {
+            "@id": "http://www.w3.org/2004/02/skos/core#semanticRelation",
+            "@type": "@id"
+        },
+        "_id": {
+            "@id": "@id"
+        },
+        "chemont_id": {
+            "@id": "@id"
+        },
+        "altLabel_en": {
+            "@id": "http://www.w3.org/2004/02/skos/core#altLabel",
+            "@language": "en"
+        },
+        "note_en": {
+            "@id": "http://www.w3.org/2004/02/skos/core#note",
+            "@language": "en"
+        },
+        "graph": {
+            "@id": "@graph"
+        },
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "obo": "http://purl.obolibrary.org/obo/",
+        "uniprot": "http://purl.uniprot.org/",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "CHEMONTID": "https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/",
+        "chebi": "http://purl.obolibrary.org/obo/",
+        "dbo": "http://dbpedia.org/ontology/",
+        "dbp": "http://dbpedia.org/property/",
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "tax_nodes": "http://classyfire.wishartlab.com/tax_nodes/",
+        "concept": "https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "@base": "https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/"
+    },
+    "_id": "concept:XMQFTWRPUQYINF-UHFFFAOYSA-N",
+    "@type": "skos:Concept",
+    "dbo:formula": "C16H18N4O7S",
+    "dbo:inchi": "InChI=1S/C16H18N4O7S/c1-25-12-8-13(26-2)18-15(17-12)19-16(22)20-28(23,24)9-10-6-4-5-7-11(10)14(21)27-3/h4-8H,9H2,1-3H3,(H2,17,18,19,20,22)",
+    "smiles": "O=C(NS(CC=1C=CC=CC1C(OC)=O)(=O)=O)NC2=NC(=CC(=N2)OC)OC",
+    "inchikey": "XMQFTWRPUQYINF-UHFFFAOYSA-N",
+    "obo:chebi/charge": "0",
+    "altLabel_en": [
+        "Bensulfuron methyl",
+        "bensulfuron methyl ester",
+        "methyl 2-({[(4,6-dimethoxypyrimidin-2-yl)carbamoyl]sulfamoyl}methyl)benzoate",
+        "methyl 2-[[[[[(4,6-dimethoxy-2-pyrimidinyl)amino]carbonyl]amino]sulfonyl]methyl]benzoate",
+        "methyl alpha-((4,6-dimethoxypyrimidin-2-yl)ureidosulfonyl)-o-toluate",
+        "methyl alpha-[(4,6-dimethoxypyrimidin-2-ylcarbamoyl)sulfamoyl]-o-toluate",
+        "Methyl bensulfuron"
+    ],
+    "skos:exactMatch": {
+        "_id": "obo:CHEBI_3017"
+    },
+    "note_en": "The methyl ester of bensulfuron. An acetolactate synthase inhibitor, it is used as a herbicide for the control of a variety of both annual and perennial weeds in crops, particularly wheat and rice. It is not licensed for use within the UK.",
+    "alternative_parents": [
+        "obo:CHEBI_35618",
+        "obo:CHEBI_25248",
+        "obo:CHEBI_39447",
+        "obo:CHEBI_76983"
+    ]
+}

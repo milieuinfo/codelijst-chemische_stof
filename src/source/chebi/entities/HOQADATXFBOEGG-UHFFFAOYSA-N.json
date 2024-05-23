@@ -1,0 +1,110 @@
+{
+    "@context": {
+        "smiles": {
+            "@id": "http://dbpedia.org/ontology/smiles"
+        },
+        "name": {
+            "@id": "http://www.w3.org/2004/02/skos/core#prefLabel",
+            "@language": "en"
+        },
+        "url": {
+            "@id": "http://www.w3.org/2000/01/rdf-schema#seeAlso",
+            "@type": "@id"
+        },
+        "inchikey": {
+            "@id": "http://dbpedia.org/property/inchikey"
+        },
+        "intermediate_nodes": {
+            "@id": "http://www.w3.org/2004/02/skos/core#broaderTransitive",
+            "@type": "@id"
+        },
+        "subclass": {
+            "@id": "http://www.w3.org/2004/02/skos/core#broaderTransitive",
+            "@type": "@id"
+        },
+        "kingdom": {
+            "@id": "http://www.w3.org/2004/02/skos/core#broaderTransitive",
+            "@type": "@id"
+        },
+        "class": {
+            "@id": "http://www.w3.org/2004/02/skos/core#broaderTransitive",
+            "@type": "@id"
+        },
+        "ancestors": {
+            "@id": "http://purl.org/dc/elements/1.1/relation",
+            "@language": "en"
+        },
+        "description": {
+            "@id": "http://www.w3.org/2004/02/skos/core#definition",
+            "@language": "en"
+        },
+        "direct_parent": {
+            "@id": "http://www.w3.org/2004/02/skos/core#broader",
+            "@type": "@id"
+        },
+        "alternative_parents": {
+            "@id": "http://www.w3.org/2004/02/skos/core#semanticRelation",
+            "@type": "@id"
+        },
+        "_id": {
+            "@id": "@id"
+        },
+        "chemont_id": {
+            "@id": "@id"
+        },
+        "altLabel_en": {
+            "@id": "http://www.w3.org/2004/02/skos/core#altLabel",
+            "@language": "en"
+        },
+        "note_en": {
+            "@id": "http://www.w3.org/2004/02/skos/core#note",
+            "@language": "en"
+        },
+        "graph": {
+            "@id": "@graph"
+        },
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "obo": "http://purl.obolibrary.org/obo/",
+        "uniprot": "http://purl.uniprot.org/",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "CHEMONTID": "https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/",
+        "chebi": "http://purl.obolibrary.org/obo/",
+        "dbo": "http://dbpedia.org/ontology/",
+        "dbp": "http://dbpedia.org/property/",
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "tax_nodes": "http://classyfire.wishartlab.com/tax_nodes/",
+        "concept": "https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "@base": "https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/"
+    },
+    "_id": "concept:HOQADATXFBOEGG-UHFFFAOYSA-N",
+    "@type": "skos:Concept",
+    "dbo:formula": "C15H24NO4PS",
+    "dbo:inchi": "InChI=1S/C15H24NO4PS/c1-6-18-21(22,16-11(2)3)20-14-10-8-7-9-13(14)15(17)19-12(4)5/h7-12H,6H2,1-5H3,(H,16,22)",
+    "smiles": "CCOP(=S)(NC(C)C)Oc1ccccc1C(=O)OC(C)C",
+    "inchikey": "HOQADATXFBOEGG-UHFFFAOYSA-N",
+    "obo:chebi/charge": "0",
+    "altLabel_en": [
+        "1-methylethyl-2-((ethoxy((1-methylethyl)amino)phosphinothioyl)oxy) benzoate",
+        "1-methylethyl 2-({ethoxy[(1-methylethyl)amino]phosphorothioyl}oxy)benzoate",
+        "2-[[ethoxy[(1-methylethyl)amino]phosphinothioyl]oxy]benzoic acid 1-methylethyl ester",
+        "Isofenphos",
+        "isophenphos",
+        "isopropyl 2-{[ethoxy(isopropylamino)phosphorothioyl]oxy}benzoate",
+        "isopropylsalicylate, O-ester with O-ethyl isopropylphosphoramidothioate",
+        "O-ethyl O-(2-isopropoxycarbonyl)phenyl isopropylphosphoramidothioate",
+        "Oftanol",
+        "propan-2-yl 2-({ethoxy[(propan-2-yl)amino]phosphorothioyl}oxy)benzoate"
+    ],
+    "skos:exactMatch": {
+        "_id": "obo:CHEBI_6009"
+    },
+    "alternative_parents": [
+        "obo:CHEBI_25715",
+        "obo:CHEBI_35725",
+        "obo:CHEBI_26596",
+        "obo:CHEBI_37592",
+        "obo:CHEBI_37735"
+    ]
+}

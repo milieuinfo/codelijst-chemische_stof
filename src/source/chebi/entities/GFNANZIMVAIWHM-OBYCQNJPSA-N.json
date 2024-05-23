@@ -1,0 +1,116 @@
+{
+    "@context": {
+        "smiles": {
+            "@id": "http://dbpedia.org/ontology/smiles"
+        },
+        "name": {
+            "@id": "http://www.w3.org/2004/02/skos/core#prefLabel",
+            "@language": "en"
+        },
+        "url": {
+            "@id": "http://www.w3.org/2000/01/rdf-schema#seeAlso",
+            "@type": "@id"
+        },
+        "inchikey": {
+            "@id": "http://dbpedia.org/property/inchikey"
+        },
+        "intermediate_nodes": {
+            "@id": "http://www.w3.org/2004/02/skos/core#broaderTransitive",
+            "@type": "@id"
+        },
+        "subclass": {
+            "@id": "http://www.w3.org/2004/02/skos/core#broaderTransitive",
+            "@type": "@id"
+        },
+        "kingdom": {
+            "@id": "http://www.w3.org/2004/02/skos/core#broaderTransitive",
+            "@type": "@id"
+        },
+        "class": {
+            "@id": "http://www.w3.org/2004/02/skos/core#broaderTransitive",
+            "@type": "@id"
+        },
+        "ancestors": {
+            "@id": "http://purl.org/dc/elements/1.1/relation",
+            "@language": "en"
+        },
+        "description": {
+            "@id": "http://www.w3.org/2004/02/skos/core#definition",
+            "@language": "en"
+        },
+        "direct_parent": {
+            "@id": "http://www.w3.org/2004/02/skos/core#broader",
+            "@type": "@id"
+        },
+        "alternative_parents": {
+            "@id": "http://www.w3.org/2004/02/skos/core#semanticRelation",
+            "@type": "@id"
+        },
+        "_id": {
+            "@id": "@id"
+        },
+        "chemont_id": {
+            "@id": "@id"
+        },
+        "altLabel_en": {
+            "@id": "http://www.w3.org/2004/02/skos/core#altLabel",
+            "@language": "en"
+        },
+        "note_en": {
+            "@id": "http://www.w3.org/2004/02/skos/core#note",
+            "@language": "en"
+        },
+        "graph": {
+            "@id": "@graph"
+        },
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "obo": "http://purl.obolibrary.org/obo/",
+        "uniprot": "http://purl.uniprot.org/",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "CHEMONTID": "https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/",
+        "chebi": "http://purl.obolibrary.org/obo/",
+        "dbo": "http://dbpedia.org/ontology/",
+        "dbp": "http://dbpedia.org/property/",
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "tax_nodes": "http://classyfire.wishartlab.com/tax_nodes/",
+        "concept": "https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "@base": "https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/"
+    },
+    "_id": "concept:GFNANZIMVAIWHM-OBYCQNJPSA-N",
+    "@type": "skos:Concept",
+    "dbo:formula": "C21H27FO6",
+    "dbo:inchi": "InChI=1S/C21H27FO6/c1-18-6-5-12(24)7-11(18)3-4-13-14-8-15(25)21(28,17(27)10-23)19(14,2)9-16(26)20(13,18)22/h5-7,13-16,23,25-26,28H,3-4,8-10H2,1-2H3/t13-,14-,15+,16-,18-,19-,20-,21-/m0/s1",
+    "smiles": "[H][C@@]12C[C@@H](O)[C@](O)(C(=O)CO)[C@@]1(C)C[C@H](O)[C@@]1(F)[C@@]2([H])CCC2=CC(=O)C=C[C@]12C",
+    "inchikey": "GFNANZIMVAIWHM-OBYCQNJPSA-N",
+    "obo:chebi/charge": "0",
+    "altLabel_en": [
+        "(11beta,16alpha)-9-fluoro-11,16,17,21-tetrahydroxypregna-1,4-diene-3,20-dione",
+        "11beta,16alpha,17alpha,21-tetrahydroxy-9alpha-fluoro-1,4-pregnadiene-3,20-dione",
+        "9alpha-fluoro-11beta,16alpha,17,21-tetrahydroxypregna-1,4-diene-3,20-dione",
+        "9alpha-fluoro-11beta,16alpha,17alpha,21-tetrahydroxypregna-1,4-diene-3,20-dione",
+        "9alpha-fluoro-16alpha-hydroxyprednisolone",
+        "9-fluoro-11beta,16alpha,17,21-tetrahydroxypregna-1,4-diene-3,20-dione",
+        "Fluoxyprednisolone",
+        "triamcinolona",
+        "triamcinolonum"
+    ],
+    "skos:exactMatch": {
+        "_id": "obo:CHEBI_9667"
+    },
+    "note_en": "A C21-steroid hormone that is 1,4-pregnadiene-3,20-dione carrying four hydroxy substituents at positions 11beta, 16alpha, 17alpha and 21 as well as a fluoro substituent at position 9. Used in the form of its 16,17-acetonide to treat various skin infections.",
+    "alternative_parents": [
+        "obo:CHEBI_35346",
+        "obo:CHEBI_47909",
+        "obo:CHEBI_16799",
+        "obo:CHEBI_35344",
+        "obo:CHEBI_36885",
+        "obo:CHEBI_139590",
+        "obo:CHEBI_139592",
+        "obo:CHEBI_35342",
+        "obo:CHEBI_24261",
+        "obo:CHEBI_50830",
+        "obo:CHEBI_64600"
+    ]
+}

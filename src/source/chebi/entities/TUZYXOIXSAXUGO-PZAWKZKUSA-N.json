@@ -1,0 +1,108 @@
+{
+    "@context": {
+        "smiles": {
+            "@id": "http://dbpedia.org/ontology/smiles"
+        },
+        "name": {
+            "@id": "http://www.w3.org/2004/02/skos/core#prefLabel",
+            "@language": "en"
+        },
+        "url": {
+            "@id": "http://www.w3.org/2000/01/rdf-schema#seeAlso",
+            "@type": "@id"
+        },
+        "inchikey": {
+            "@id": "http://dbpedia.org/property/inchikey"
+        },
+        "intermediate_nodes": {
+            "@id": "http://www.w3.org/2004/02/skos/core#broaderTransitive",
+            "@type": "@id"
+        },
+        "subclass": {
+            "@id": "http://www.w3.org/2004/02/skos/core#broaderTransitive",
+            "@type": "@id"
+        },
+        "kingdom": {
+            "@id": "http://www.w3.org/2004/02/skos/core#broaderTransitive",
+            "@type": "@id"
+        },
+        "class": {
+            "@id": "http://www.w3.org/2004/02/skos/core#broaderTransitive",
+            "@type": "@id"
+        },
+        "ancestors": {
+            "@id": "http://purl.org/dc/elements/1.1/relation",
+            "@language": "en"
+        },
+        "description": {
+            "@id": "http://www.w3.org/2004/02/skos/core#definition",
+            "@language": "en"
+        },
+        "direct_parent": {
+            "@id": "http://www.w3.org/2004/02/skos/core#broader",
+            "@type": "@id"
+        },
+        "alternative_parents": {
+            "@id": "http://www.w3.org/2004/02/skos/core#semanticRelation",
+            "@type": "@id"
+        },
+        "_id": {
+            "@id": "@id"
+        },
+        "chemont_id": {
+            "@id": "@id"
+        },
+        "altLabel_en": {
+            "@id": "http://www.w3.org/2004/02/skos/core#altLabel",
+            "@language": "en"
+        },
+        "note_en": {
+            "@id": "http://www.w3.org/2004/02/skos/core#note",
+            "@language": "en"
+        },
+        "graph": {
+            "@id": "@graph"
+        },
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "obo": "http://purl.obolibrary.org/obo/",
+        "uniprot": "http://purl.uniprot.org/",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "CHEMONTID": "https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/",
+        "chebi": "http://purl.obolibrary.org/obo/",
+        "dbo": "http://dbpedia.org/ontology/",
+        "dbp": "http://dbpedia.org/property/",
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "tax_nodes": "http://classyfire.wishartlab.com/tax_nodes/",
+        "concept": "https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "@base": "https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/"
+    },
+    "_id": "concept:TUZYXOIXSAXUGO-PZAWKZKUSA-N",
+    "@type": "skos:Concept",
+    "dbo:formula": "C23H36O7",
+    "dbo:inchi": "InChI=1S/C23H36O7/c1-4-13(2)23(29)30-20-11-17(25)9-15-6-5-14(3)19(22(15)20)8-7-16(24)10-18(26)12-21(27)28/h5-6,9,13-14,16-20,22,24-26H,4,7-8,10-12H2,1-3H3,(H,27,28)/t13-,14-,16+,17+,18+,19-,20-,22-/m0/s1",
+    "smiles": "[H][C@]12[C@H](C[C@H](O)C=C1C=C[C@H](C)[C@@H]2CC[C@@H](O)C[C@@H](O)CC(O)=O)OC(=O)[C@@H](C)CC",
+    "inchikey": "TUZYXOIXSAXUGO-PZAWKZKUSA-N",
+    "obo:chebi/charge": "0",
+    "altLabel_en": [
+        "(+)-(3R,5R)-3,5-dihydroxy-7-[(1S,2S,6S,8S,8aR)-6-hydroxy-2-methyl-8-{[(S)-2-methylbutyryl]oxy}-1,2,6,7,8,8a-hexahydro-1-naphthyl]heptanoic acid",
+        "(3R,5R)-3,5-dihydroxy-7-[(1S,2S,6S,8S,8aR)-6-hydroxy-2-methyl-8-{[(2S)-2-methylbutanoyl]oxy}-1,2,6,7,8,8a-hexahydronaphthalen-1-yl]heptanoic acid",
+        "pravastatina",
+        "pravastatin acid",
+        "pravastatine",
+        "pravastatinum"
+    ],
+    "skos:exactMatch": {
+        "_id": "obo:CHEBI_63618"
+    },
+    "note_en": "A carboxylic ester resulting from the formal condensation of (S)-2-methylbutyric acid with the hydroxy group adjacent to the ring junction of (3R,5R)-7-[(1S,2S,6S,8S,8aR)-6,8-dihydroxy-2-methyl-1,2,6,7,8,8a-hexahydronaphthalen-1-yl]-3,5-dihydroxyheptanoic acid. Derived from microbial transformation of mevastatin, pravastatin is a reversible inhibitor of 3-hydroxy-3-methylglutaryl-coenzyme A (HMG-CoA). The sodium salt is used for lowering cholesterol and preventing cardiovascular disease. It is one of the lower potency statins, but has the advantage of fewer side effects compared with lovastatin and simvastatin.",
+    "alternative_parents": [
+        "obo:CHEBI_35681",
+        "obo:CHEBI_33308",
+        "obo:CHEBI_36785",
+        "obo:CHEBI_35868",
+        "obo:CHEBI_61355",
+        "obo:CHEBI_87633"
+    ]
+}

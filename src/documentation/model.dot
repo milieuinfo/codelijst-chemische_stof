@@ -1,0 +1,66 @@
+digraph { 
+ node [ fontname="DejaVu Sans" ] ; 
+	node1 -> node2 [ color=BLACK, label=< <font point-size='10' color='#336633'>skos:closeMatch</font> > ] ;
+	node0 -> node1 [ color=BLACK, label=< <font point-size='10' color='#336633'>skos:narrowerTransitive</font> > ] ;
+	node0 -> node4 [ color=BLACK, label=< <font point-size='10' color='#336633'>skos:exactMatch</font> > ] ;
+	node1 -> node0 [ color=BLACK, label=< <font point-size='10' color='#336633'>skos:closeMatch</font> > ] ;
+	node0 -> node4 [ color=BLACK, label=< <font point-size='10' color='#336633'>skos:narrower</font> > ] ;
+	node0 -> node4 [ color=BLACK, label=< <font point-size='10' color='#336633'>skos:mappingRelation</font> > ] ;
+	node5 -> node3 [ color=BLACK, label=< <font point-size='10' color='#336633'>skos:inScheme</font> > ] ;
+	node0 -> node3 [ color=BLACK, label=< <font point-size='10' color='#336633'>skos:inScheme</font> > ] ;
+	node0 -> node1 [ color=BLACK, label=< <font point-size='10' color='#336633'>skos:exactMatch</font> > ] ;
+	node0 -> node2 [ color=BLACK, label=< <font point-size='10' color='#336633'>skos:exactMatch</font> > ] ;
+	node0 -> node2 [ color=BLACK, label=< <font point-size='10' color='#336633'>skos:narrower</font> > ] ;
+	node0 -> node2 [ color=BLACK, label=< <font point-size='10' color='#336633'>skos:mappingRelation</font> > ] ;
+	node0 -> node4 [ color=BLACK, label=< <font point-size='10' color='#336633'>skos:semanticRelation</font> > ] ;
+	node0 -> node0 [ color=BLACK, label=< <font point-size='10' color='#336633'>skos:narrower</font> > ] ;
+	node0 -> node0 [ color=BLACK, label=< <font point-size='10' color='#336633'>skos:mappingRelation</font> > ] ;
+	node0 -> node3 [ color=BLACK, label=< <font point-size='10' color='#336633'>skos:topConceptOf</font> > ] ;
+	node1 -> node4 [ color=BLACK, label=< <font point-size='10' color='#336633'>skos:exactMatch</font> > ] ;
+	node1 -> node3 [ color=BLACK, label=< <font point-size='10' color='#336633'>skos:inScheme</font> > ] ;
+	node1 -> node0 [ color=BLACK, label=< <font point-size='10' color='#336633'>skos:broader</font> > ] ;
+	node1 -> node1 [ color=BLACK, label=< <font point-size='10' color='#336633'>skos:exactMatch</font> > ] ;
+	node0 -> node0 [ color=BLACK, label=< <font point-size='10' color='#336633'>skos:closeMatch</font> > ] ;
+	node0 -> node2 [ color=BLACK, label=< <font point-size='10' color='#336633'>skos:semanticRelation</font> > ] ;
+	node0 -> node0 [ color=BLACK, label=< <font point-size='10' color='#336633'>skos:semanticRelation</font> > ] ;
+	node1 -> node2 [ color=BLACK, label=< <font point-size='10' color='#336633'>skos:exactMatch</font> > ] ;
+	node1 -> node1 [ color=BLACK, label=< <font point-size='10' color='#336633'>skos:semanticRelation</font> > ] ;
+	node5 -> node4 [ color=BLACK, label=< <font point-size='10' color='#336633'>skos:member</font> > ] ;
+	node1 -> node1 [ color=BLACK, label=< <font point-size='10' color='#336633'>skos:mappingRelation</font> > ] ;
+	node1 -> node0 [ color=BLACK, label=< <font point-size='10' color='#336633'>skos:broaderTransitive</font> > ] ;
+	node5 -> node2 [ color=BLACK, label=< <font point-size='10' color='#336633'>skos:member</font> > ] ;
+	node1 -> node1 [ color=BLACK, label=< <font point-size='10' color='#336633'>skos:closeMatch</font> > ] ;
+	node5 -> node0 [ color=BLACK, label=< <font point-size='10' color='#336633'>skos:member</font> > ] ;
+	node0 -> node4 [ color=BLACK, label=< <font point-size='10' color='#336633'>skos:narrowerTransitive</font> > ] ;
+	node0 -> node1 [ color=BLACK, label=< <font point-size='10' color='#336633'>skos:narrower</font> > ] ;
+	node0 -> node2 [ color=BLACK, label=< <font point-size='10' color='#336633'>skos:narrowerTransitive</font> > ] ;
+	node0 -> node1 [ color=BLACK, label=< <font point-size='10' color='#336633'>skos:mappingRelation</font> > ] ;
+	node0 -> node0 [ color=BLACK, label=< <font point-size='10' color='#336633'>skos:narrowerTransitive</font> > ] ;
+	node0 -> node4 [ color=BLACK, label=< <font point-size='10' color='#336633'>skos:closeMatch</font> > ] ;
+	node0 -> node0 [ color=BLACK, label=< <font point-size='10' color='#336633'>skos:exactMatch</font> > ] ;
+	node0 -> node1 [ color=BLACK, label=< <font point-size='10' color='#336633'>skos:closeMatch</font> > ] ;
+	node3 -> node0 [ color=BLACK, label=< <font point-size='10' color='#336633'>skos:hasTopConcept</font> > ] ;
+	node0 -> node1 [ color=BLACK, label=< <font point-size='10' color='#336633'>skos:semanticRelation</font> > ] ;
+	node0 -> node2 [ color=BLACK, label=< <font point-size='10' color='#336633'>skos:closeMatch</font> > ] ;
+	node1 -> node4 [ color=BLACK, label=< <font point-size='10' color='#336633'>skos:semanticRelation</font> > ] ;
+	node1 -> node4 [ color=BLACK, label=< <font point-size='10' color='#336633'>skos:mappingRelation</font> > ] ;
+	node1 -> node0 [ color=BLACK, label=< <font point-size='10' color='#336633'>skos:exactMatch</font> > ] ;
+	node5 -> node1 [ color=BLACK, label=< <font point-size='10' color='#336633'>skos:member</font> > ] ;
+	node1 -> node2 [ color=BLACK, label=< <font point-size='10' color='#336633'>skos:semanticRelation</font> > ] ;
+	node1 -> node4 [ color=BLACK, label=< <font point-size='10' color='#336633'>skos:closeMatch</font> > ] ;
+	node1 -> node2 [ color=BLACK, label=< <font point-size='10' color='#336633'>skos:mappingRelation</font> > ] ;
+	node1 -> node0 [ color=BLACK, label=< <font point-size='10' color='#336633'>skos:semanticRelation</font> > ] ;
+	node1 -> node0 [ color=BLACK, label=< <font point-size='10' color='#336633'>skos:mappingRelation</font> > ] ;
+# http://www.w3.org/2004/02/skos/core#Concept node0
+node0 [ shape=none, color=black label=< <table color='#666666' cellborder='0' cellspacing='0' border='1'><tr><td colspan='2' bgcolor='grey'><B>Concept</B></td></tr><tr><td href='http://www.w3.org/2004/02/skos/core#Concept' bgcolor='#eeeeee' colspan='2'><font point-size='10' color='#6666ff'>http://www.w3.org/2004/02/skos/core#Concept</font></td></tr><tr><td align='left'>rdf:type</td><td align='left'>&quot;rdfs:Resource&quot;</td></tr><tr><td align='left'>rdfs:seeAlso</td><td align='left'>&quot;rdfs:Resource&quot;</td></tr><tr><td align='left'>skos:definition</td><td align='left'>&quot;http://www.w3.org/1999/02/22-rdf-syntax-ns#langString&quot;</td></tr><tr><td align='left'>skos:note</td><td align='left'>&quot;http://www.w3.org/1999/02/22-rdf-syntax-ns#langString&quot;</td></tr><tr><td align='left'>skos:prefLabel</td><td align='left'>&quot;http://www.w3.org/1999/02/22-rdf-syntax-ns#langString&quot;</td></tr></table> > ] 
+# http://dbpedia.org/ontology/ChemicalCompound node1
+node1 [ shape=none, color=black label=< <table color='#666666' cellborder='0' cellspacing='0' border='1'><tr><td colspan='2' bgcolor='grey'><B>ChemicalCompound</B></td></tr><tr><td href='http://dbpedia.org/ontology/ChemicalCompound' bgcolor='#eeeeee' colspan='2'><font point-size='10' color='#6666ff'>http://dbpedia.org/ontology/ChemicalCompound</font></td></tr><tr><td align='left'>chebi:charge</td><td align='left'>&quot;http://www.w3.org/2001/XMLSchema#string&quot;</td></tr><tr><td align='left'>dbo:casNumber</td><td align='left'>&quot;http://www.w3.org/2001/XMLSchema#string&quot;</td></tr><tr><td align='left'>dbo:formula</td><td align='left'>&quot;http://www.w3.org/2001/XMLSchema#string&quot;</td></tr><tr><td align='left'>dbo:inchi</td><td align='left'>&quot;http://www.w3.org/2001/XMLSchema#string&quot;</td></tr><tr><td align='left'>dbo:iupacName</td><td align='left'>&quot;http://www.w3.org/1999/02/22-rdf-syntax-ns#langString&quot;</td></tr><tr><td align='left'>dbo:pubchem</td><td align='left'>&quot;http://www.w3.org/2001/XMLSchema#int&quot;</td></tr><tr><td align='left'>dbo:smiles</td><td align='left'>&quot;http://www.w3.org/2001/XMLSchema#string&quot;</td></tr><tr><td align='left'>dbp:inchikey</td><td align='left'>&quot;http://www.w3.org/2001/XMLSchema#string&quot;</td></tr><tr><td align='left'>dc:relation</td><td align='left'>&quot;http://www.w3.org/1999/02/22-rdf-syntax-ns#langString&quot;</td></tr><tr><td align='left'>rdf:type</td><td align='left'>&quot;rdfs:Resource&quot;</td></tr><tr><td align='left'>rdfs:comment</td><td align='left'>&quot;http://www.w3.org/1999/02/22-rdf-syntax-ns#langString&quot;</td></tr><tr><td align='left'>rdfs:seeAlso</td><td align='left'>&quot;rdfs:Resource&quot;</td></tr><tr><td align='left'>skos:altLabel</td><td align='left'>&quot;http://www.w3.org/1999/02/22-rdf-syntax-ns#langString&quot;</td></tr><tr><td align='left'>skos:definition</td><td align='left'>&quot;http://www.w3.org/1999/02/22-rdf-syntax-ns#langString&quot;</td></tr><tr><td align='left'>skos:notation</td><td align='left'>&quot;http://www.w3.org/2001/XMLSchema#string&quot;</td></tr><tr><td align='left'>skos:note</td><td align='left'>&quot;http://www.w3.org/1999/02/22-rdf-syntax-ns#langString&quot;</td></tr><tr><td align='left'>skos:prefLabel</td><td align='left'>&quot;http://www.w3.org/1999/02/22-rdf-syntax-ns#langString&quot;</td></tr></table> > ] 
+# http://dbpedia.org/ontology/ChemicalSubstance node2
+node2 [ shape=none, color=black label=< <table color='#666666' cellborder='0' cellspacing='0' border='1'><tr><td colspan='2' bgcolor='grey'><B>ChemicalSubstance</B></td></tr><tr><td href='http://dbpedia.org/ontology/ChemicalSubstance' bgcolor='#eeeeee' colspan='2'><font point-size='10' color='#6666ff'>http://dbpedia.org/ontology/ChemicalSubstance</font></td></tr></table> > ] 
+# http://www.w3.org/2004/02/skos/core#ConceptScheme node3
+node3 [ shape=none, color=black label=< <table color='#666666' cellborder='0' cellspacing='0' border='1'><tr><td colspan='2' bgcolor='grey'><B>ConceptScheme</B></td></tr><tr><td href='http://www.w3.org/2004/02/skos/core#ConceptScheme' bgcolor='#eeeeee' colspan='2'><font point-size='10' color='#6666ff'>http://www.w3.org/2004/02/skos/core#ConceptScheme</font></td></tr><tr><td align='left'>rdf:type</td><td align='left'>&quot;rdfs:Resource&quot;</td></tr><tr><td align='left'>skos:definition</td><td align='left'>&quot;http://www.w3.org/1999/02/22-rdf-syntax-ns#langString&quot;</td></tr><tr><td align='left'>skos:note</td><td align='left'>&quot;http://www.w3.org/1999/02/22-rdf-syntax-ns#langString&quot;</td></tr><tr><td align='left'>skos:prefLabel</td><td align='left'>&quot;http://www.w3.org/1999/02/22-rdf-syntax-ns#langString&quot;</td></tr><tr><td align='left'>xkos:belongsTo</td><td align='left'>&quot;rdfs:Resource&quot;</td></tr></table> > ] 
+# http://dbpedia.org/ontology/Drug node4
+node4 [ shape=none, color=black label=< <table color='#666666' cellborder='0' cellspacing='0' border='1'><tr><td colspan='2' bgcolor='grey'><B>Drug</B></td></tr><tr><td href='http://dbpedia.org/ontology/Drug' bgcolor='#eeeeee' colspan='2'><font point-size='10' color='#6666ff'>http://dbpedia.org/ontology/Drug</font></td></tr></table> > ] 
+# http://www.w3.org/2004/02/skos/core#Collection node5
+node5 [ shape=none, color=black label=< <table color='#666666' cellborder='0' cellspacing='0' border='1'><tr><td colspan='2' bgcolor='grey'><B>Collection</B></td></tr><tr><td href='http://www.w3.org/2004/02/skos/core#Collection' bgcolor='#eeeeee' colspan='2'><font point-size='10' color='#6666ff'>http://www.w3.org/2004/02/skos/core#Collection</font></td></tr><tr><td align='left'>rdf:type</td><td align='left'>&quot;rdfs:Resource&quot;</td></tr><tr><td align='left'>skos:prefLabel</td><td align='left'>&quot;http://www.w3.org/1999/02/22-rdf-syntax-ns#langString&quot;</td></tr></table> > ] 
+}

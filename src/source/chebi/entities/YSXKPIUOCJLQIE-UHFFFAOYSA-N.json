@@ -1,0 +1,106 @@
+{
+    "@context": {
+        "smiles": {
+            "@id": "http://dbpedia.org/ontology/smiles"
+        },
+        "name": {
+            "@id": "http://www.w3.org/2004/02/skos/core#prefLabel",
+            "@language": "en"
+        },
+        "url": {
+            "@id": "http://www.w3.org/2000/01/rdf-schema#seeAlso",
+            "@type": "@id"
+        },
+        "inchikey": {
+            "@id": "http://dbpedia.org/property/inchikey"
+        },
+        "intermediate_nodes": {
+            "@id": "http://www.w3.org/2004/02/skos/core#broaderTransitive",
+            "@type": "@id"
+        },
+        "subclass": {
+            "@id": "http://www.w3.org/2004/02/skos/core#broaderTransitive",
+            "@type": "@id"
+        },
+        "kingdom": {
+            "@id": "http://www.w3.org/2004/02/skos/core#broaderTransitive",
+            "@type": "@id"
+        },
+        "class": {
+            "@id": "http://www.w3.org/2004/02/skos/core#broaderTransitive",
+            "@type": "@id"
+        },
+        "ancestors": {
+            "@id": "http://purl.org/dc/elements/1.1/relation",
+            "@language": "en"
+        },
+        "description": {
+            "@id": "http://www.w3.org/2004/02/skos/core#definition",
+            "@language": "en"
+        },
+        "direct_parent": {
+            "@id": "http://www.w3.org/2004/02/skos/core#broader",
+            "@type": "@id"
+        },
+        "alternative_parents": {
+            "@id": "http://www.w3.org/2004/02/skos/core#semanticRelation",
+            "@type": "@id"
+        },
+        "_id": {
+            "@id": "@id"
+        },
+        "chemont_id": {
+            "@id": "@id"
+        },
+        "altLabel_en": {
+            "@id": "http://www.w3.org/2004/02/skos/core#altLabel",
+            "@language": "en"
+        },
+        "note_en": {
+            "@id": "http://www.w3.org/2004/02/skos/core#note",
+            "@language": "en"
+        },
+        "graph": {
+            "@id": "@graph"
+        },
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "obo": "http://purl.obolibrary.org/obo/",
+        "uniprot": "http://purl.uniprot.org/",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "CHEMONTID": "https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/",
+        "chebi": "http://purl.obolibrary.org/obo/",
+        "dbo": "http://dbpedia.org/ontology/",
+        "dbp": "http://dbpedia.org/property/",
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "tax_nodes": "http://classyfire.wishartlab.com/tax_nodes/",
+        "concept": "https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "@base": "https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/"
+    },
+    "_id": "concept:YSXKPIUOCJLQIE-UHFFFAOYSA-N",
+    "@type": "skos:Concept",
+    "dbo:formula": "C21H29NO",
+    "dbo:inchi": "InChI=1S/C21H29NO/c23-21(19-7-3-1-4-8-19,11-14-22-12-5-2-6-13-22)20-16-17-9-10-18(20)15-17/h1,3-4,7-10,17-18,20,23H,2,5-6,11-16H2",
+    "smiles": "OC(CCN1CCCCC1)(C1CC2CC1C=C2)c1ccccc1",
+    "inchikey": "YSXKPIUOCJLQIE-UHFFFAOYSA-N",
+    "obo:chebi/charge": "0",
+    "altLabel_en": [
+        "1-(bicyclo[2.2.1]hept-5-en-2-yl)-1-phenyl-3-(piperidin-1-yl)propan-1-ol",
+        "1-Bicyclo[2.2.1]hept-5-en-2-yl-1-phenyl-3-piperidin-1-yl-propan-1-ol",
+        "alpha-5-norbornen-2-yl-alpha-phenyl-1-piperidinepropanol",
+        "alpha-bicyclo[2.2.1]hept-5-en-2-yl-alpha-phenyl-1-piperidinepropanol",
+        "biperidene",
+        "biperideno",
+        "biperidenum"
+    ],
+    "skos:exactMatch": {
+        "_id": "obo:CHEBI_3112"
+    },
+    "note_en": "A member of the class of piperidines that is N-propylpiperidine in which the methyl hydrogens have been replaced by hydroxy, phenyl, and 5-norbornen-2-yl groups. A muscarinic antagonist affecting both the central and peripheral nervous systems, it is used in the treatment of all forms of Parkinson's disease.",
+    "alternative_parents": [
+        "obo:CHEBI_26878",
+        "obo:CHEBI_26151",
+        "obo:CHEBI_50996"
+    ]
+}

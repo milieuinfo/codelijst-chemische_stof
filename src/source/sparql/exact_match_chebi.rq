@@ -1,0 +1,41 @@
+prefix skos:    <http://www.w3.org/2004/02/skos/core#>
+prefix dbo:     <http://dbpedia.org/ontology/>
+prefix dbp:     <http://dbpedia.org/property/>
+prefix chebi:   <http://purl.obolibrary.org/obo/chebi/>
+prefix csc:     <https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/>
+PREFIX dct: <http://purl.org/dc/terms/>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX obo: <http://purl.obolibrary.org/obo/>
+prefix owl: <http://www.w3.org/2002/07/owl#>
+
+construct
+{
+    ?stof skos:exactMatch ?chebi ; skos:note ?note ; dct:type ?type ; a ?chebi .
+}
+where
+{
+    ?stof a dbo:ChemicalCompound ; dbp:inchikey ?inchikey .
+    ?chebi chebi:inchikey ?inchikey .
+    optional {?chebi obo:IAO_0000115 ?def}
+    BIND(STRLANG(?def, "en") AS ?note)
+}
+
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+prefix chebi:  <http://purl.obolibrary.org/obo/chebi/>
+prefix concept: <https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/>
+
+
+construct {
+?stof ?p ?o;
+skos:semanticRelation ?subclass  . ?subclass ?p2 ?o2 .
+}
+where
+{ ?chebi_id chebi:inchikey "ADIMAYPTOBDMTL-UHFFFAOYSA-N" ;
+?p ?o .
+?chebi_id rdfs:subClassOf ?subclass . ?subclass ?p2 ?o2 .
+
+bind(iri(concat("https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/",  "ADIMAYPTOBDMTL-UHFFFAOYSA-N")) as ?stof)
+}
