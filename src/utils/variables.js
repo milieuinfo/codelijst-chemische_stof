@@ -225,9 +225,9 @@ const chemont_tax_ttl = config.skos.path + config.skos.name + '/' + config.skos.
 
 const chemont_tax_jsonld = [config.skos.path + config.skos.name + '/' + config.skos.name + '_chemont_taxonomy' + config.skos.jsonld, frame_skos_prefixes]
 
-const chemont_ttl = config.skos.path + config.skos.name + '/' + config.skos.name + '_chemont_parent' + config.skos.turtle
+const chemont_ttl = config.skos.path + config.skos.name + '/' + config.skos.name + '_chemont_classificationlevels' + config.skos.turtle
 
-const chemont_jsonld = [config.skos.path + config.skos.name + '/' + config.skos.name + '_chemont_parent' + config.skos.jsonld, frame_skos_prefixes]
+const chemont_jsonld = [config.skos.path + config.skos.name + '/' + config.skos.name + '_chemont_classificationlevels' + config.skos.jsonld, frame_skos_prefixes]
 
 const chebi_ttl = config.skos.path + config.skos.name + '/' + config.skos.name + '_chebi' + config.skos.turtle
 

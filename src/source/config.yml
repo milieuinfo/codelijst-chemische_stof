@@ -2,6 +2,7 @@ types : chemische_stoftypes
 skos:
   sparql:
     chemont_skos : ./source/sparql/chemont_to_skos.rq
+    broader_skos : ./source/sparql/broader_relations.rq
     chemont_xkos : ./source/sparql/chemont_to_xkos.rq
     chebi_skos : ./source/sparql/chebi_to_skos.rq
   rules :
@@ -22,6 +23,8 @@ skos:
   nt: .nt
 
 source:
+  chemont: ./source/chemont/ChemOnt_2_1.ttl
+  chemont_skos: ./source/chemont/skos_chemont_2_1.ttl
   path: ./source/
   codelijst_csv: codelijst-source.csv
   context: context.json
@@ -40,6 +43,7 @@ ap :
   type: ap-constraints
   name: chemische_stof
   turtle: .ttl
+  chemont: ./main/resources/be/vlaanderen/omgeving/data/id/ontology/chemische_stof-ap-constraints/chemische_stof_chemont-ap-constraints.ttl
 
 metadata :
   sparqlservice:

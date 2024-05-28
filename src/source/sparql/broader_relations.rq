@@ -10,11 +10,9 @@ prefix owl:   <http://www.w3.org/2002/07/owl#>
 construct
 {
     ?group ?p ?o .
-    ?stof skos:broader ?o2 ; skos:inScheme conceptscheme:chemische_stof .
-
 }
 where
 {
-   ?stof a dbo:ChemicalCompound ; skos:broader+ ?group ; skos:broader ?o2 .
+    ?stof dbp:inchikey ?key ; skos:broader+ ?group  .
     ?group ?p ?o .
 }
