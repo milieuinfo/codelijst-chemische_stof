@@ -222,6 +222,10 @@
             "@id": "http://purl.org/dc/elements/1.1/language",
             "@language": "nl"
         },
+        "dc_relation_en": {
+            "@id": "http://purl.org/dc/elements/1.1/relation",
+            "@language": "en"
+        },
         "dc.source": {
             "@id": "http://purl.org/dc/elements/1.1/source"
         },
@@ -265,6 +269,10 @@
         "note": {
             "@id": "http://www.w3.org/2004/02/skos/core#note",
             "@language": "nl"
+        },
+        "note_en": {
+            "@id": "http://www.w3.org/2004/02/skos/core#note",
+            "@language": "en"
         },
         "definition": {
             "@id": "http://www.w3.org/2004/02/skos/core#definition",
@@ -11023,12 +11031,6 @@
                 "concept:HFPZCAJZSCWRBC-UHFFFAOYSA-N"
             ],
             "prefLabel": "Chemische stoffen die in water gemeten worden."
-        },
-        {
-            "id": "concept:0000000",
-            "type": "skos:Concept",
-            "inScheme": "conceptscheme:chemische_stof",
-            "topConceptOf": "conceptscheme:chemische_stof"
         },
         {
             "id": "concept:AAEVYOVXGOFMJO-UHFFFAOYSA-N",
@@ -30842,7 +30844,6 @@
             "type": "skos:ConceptScheme",
             "belongsTo": "omg_dataset:codelijst-chemische_stof",
             "definition": "Een stof is in de scheikunde een vorm van materie die een gelijke chemische samenstelling heeft, een chemisch zuivere stof. Deze wordt gekenmerkt door specifieke, uniforme stofeigenschappen, zoals dichtheid, geleidbaarheid en smeltpunt.",
-            "hasTopConcept": "concept:0000000",
             "note": "Een stof is in de scheikunde een vorm van materie die een gelijke chemische samenstelling heeft, een chemisch zuivere stof. Deze wordt gekenmerkt door specifieke, uniforme stofeigenschappen, zoals dichtheid, geleidbaarheid en smeltpunt.",
             "prefLabel": "Conceptschema Chemische Stoffen"
         }

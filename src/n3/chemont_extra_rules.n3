@@ -3,6 +3,4 @@
 @prefix skos:                 <http://www.w3.org/2004/02/skos/core#> .
 
 
-{ chemische_stof:0000000 a skos:Concept } => { chemische_stof:0000000 skos:topConceptOf conceptscheme:chemische_stof }
-{ chemische_stof:0000000 skos:narrowerTransitive ?x } => { chemische_stof:0000000 skos:inScheme conceptscheme:chemische_stof }
 
