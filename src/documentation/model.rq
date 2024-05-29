@@ -31,6 +31,8 @@ where
 NOT EXISTS { ?s a dbo:ChemicalCompound  }
 NOT EXISTS { ?s a dbo:ChemicalSubstance  }
 NOT EXISTS { ?s a dbo:Drug  }
+NOT EXISTS { ?o a dbo:ChemicalSubstance  }
+NOT EXISTS { ?o a dbo:Drug  }
 }
 UNION
 {
@@ -42,5 +44,7 @@ IF(exists{?o a ?type2}, ?type2, 1/0),
 "rdfs:Resource"
 )  as ?datatype)
 FILTER (?type = dbo:ChemicalCompound )
+NOT EXISTS { ?o a dbo:ChemicalSubstance  }
+NOT EXISTS { ?o a dbo:Drug  }
 }
 }
