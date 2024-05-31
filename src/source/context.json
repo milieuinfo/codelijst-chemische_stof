@@ -285,6 +285,9 @@
   "casNumber" : {
     "@id" : "http://dbpedia.org/ontology/casNumber"
   },
+  "ecNumber" : {
+    "@id" : "http://dbpedia.org/ontology/ecNumber"
+  },
   "references" : {
     "@id" : "http://purl.org/dc/terms/references",
     "@type" : "@id"
@@ -355,8 +358,7 @@
     "@id" : "https://schema.org/subjectOf"
   },
   "smiles" : {
-    "@id" : "http://dbpedia.org/ontology/smiles",
-    "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    "@id" : "http://dbpedia.org/ontology/smiles"
   },
   "pubchem" : {
     "@id" : "http://dbpedia.org/ontology/pubchem",
@@ -366,12 +368,9 @@
     "@id" : "http://dbpedia.org/ontology/iupacName",
     "@language" : "en"
   },
-
   "inchikey" : {
-    "@id" : "http://dbpedia.org/property/inchikey",
-    "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    "@id" : "http://dbpedia.org/property/inchikey"
   },
-
   "prefLabel_en" : {
     "@id" : "http://www.w3.org/2004/02/skos/core#prefLabel",
     "@language" : "en"
@@ -381,12 +380,10 @@
     "@language" : "en"
   },
   "inchi" : {
-    "@id" : "http://dbpedia.org/ontology/inchi",
-    "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    "@id" : "http://dbpedia.org/ontology/inchi"
   },
   "formula" : {
-    "@id" : "http://dbpedia.org/ontology/formula",
-    "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    "@id" : "http://dbpedia.org/ontology/formula"
   },
   "vmmParameterId" : {
     "@id" : "https://data.vlaanderen.be/ns/chemische_stof#vmmParameterId",
