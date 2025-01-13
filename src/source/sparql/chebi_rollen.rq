@@ -1,0 +1,25 @@
+# riot --output=turtle /home/gehau/git/codelijst-chemische_stof/src/source/chebi/chebi.owl /home/gehau/git/codelijst-chemische_stof/src/main/resources/be/vlaanderen/omgeving/data/id/conceptscheme/chemische_stof/*ttl > /home/gehau/git/codelijst-chemische_stof/src/source/chebi/chebiplusskos.ttl
+# sparql --results=TTL --data=/home/gehau/git/codelijst-chemische_stof/src/source/chebi/chebiplusskos.ttl  --query /home/gehau/git/codelijst-chemische_stof/src/source/sparql/chebi_rollen.rq  > /home/gehau/git/codelijst-chemische_stof/src/main/resources/be/vlaanderen/omgeving/data/id/conceptscheme/chemische_stof/roles.ttl
+
+
+PREFIX skos:  <http://www.w3.org/2004/02/skos/core#>
+prefix chebi:  <http://purl.obolibrary.org/obo/chebi/>
+prefix geneontology: <http://www.geneontology.org/formats/oboInOwl#>
+prefix rdfs:   <http://www.w3.org/2000/01/rdf-schema#>
+prefix obo:   <http://purl.obolibrary.org/obo/>
+prefix dbo:   <http://dbpedia.org/ontology/>
+prefix conceptscheme: <https://data.omgeving.vlaanderen.be/id/conceptscheme/>
+prefix dbp:   <http://dbpedia.org/property/>
+prefix owl:   <http://www.w3.org/2002/07/owl#>
+
+construct
+{?s a ?o .
+?o ?p ?o2 .
+}
+WHERE {
+   ?s skos:mappingRelation ?s1 .
+   ?s1 rdfs:subClassOf ?restr .
+    ?restr  owl:onProperty <http://purl.obolibrary.org/obo/RO_0000087> ;    owl:someValuesFrom ?o .
+    ?o ?p ?o2 .
+
+}
