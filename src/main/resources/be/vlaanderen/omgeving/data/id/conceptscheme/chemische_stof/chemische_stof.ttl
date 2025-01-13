@@ -17971,82 +17971,97 @@ chemische_stof:JLYXXMFPNIAWKQ-CDRYSYESSA-N dbo:casNumber "319-85-7";
     dbo:formula "C6H6Cl6";
     dbo:inchi "InChI=1S/C6H6Cl6/c7-1-2(8)4(10)6(12)5(11)3(1)9/h1-6H/t1-,2-,3+,4+,5-,6-";
     dbo:iupacName "(1r,2t,3c,4t,5c,6t)-1,2,3,4,5,6-hexachlorocyclohexane"@en;
+    dbo:pubchem "727"^^xsd:int;
     dbo:smiles "Cl[C@H]1[C@H](Cl)[C@@H](Cl)[C@H](Cl)[C@@H](Cl)[C@@H]1Cl";
     dbp:inchikey "JLYXXMFPNIAWKQ-CDRYSYESSA-N";
     a dbo:ChemicalCompound, dbo:ChemicalSubstance, dbo:Drug, skos:Concept;
-    rdfs:seeAlso <https://pubchem.ncbi.nlm.nih.gov/compound/727>;
+    rdfs:seeAlso <https://pubchem.ncbi.nlm.nih.gov/compound/727>, <https://pubchem.ncbi.nlm.nih.gov/substance/363596824>;
     skos:altLabel "β-hexachlorocyclohexaan"@nl, "β-lindaan"@nl;
+    skos:broader chemische_stof:JLYXXMFPNIAWKQ-UHFFFAOYSA-N;
+    skos:broaderTransitive chemische_stof:JLYXXMFPNIAWKQ-UHFFFAOYSA-N;
     skos:closeMatch wise:CAS_319-85-7, chemische_stof:JLYXXMFPNIAWKQ-CDRYSYESSA-N;
     skos:exactMatch wise:CAS_319-85-7, chemische_stof:JLYXXMFPNIAWKQ-CDRYSYESSA-N;
     skos:inScheme conceptscheme:chemische_stof;
     skos:mappingRelation wise:CAS_319-85-7, chemische_stof:JLYXXMFPNIAWKQ-CDRYSYESSA-N;
     skos:notation "bHCH";
     skos:prefLabel "beta-hexachloorcyclohexaan"@nl;
-    skos:semanticRelation wise:CAS_319-85-7, chemische_stof:JLYXXMFPNIAWKQ-CDRYSYESSA-N.
+    skos:semanticRelation wise:CAS_319-85-7, chemische_stof:JLYXXMFPNIAWKQ-CDRYSYESSA-N, chemische_stof:JLYXXMFPNIAWKQ-UHFFFAOYSA-N.
 chemische_stof:JLYXXMFPNIAWKQ-DCLYFUHFNA-N dbo:casNumber "6108-10-7";
     dbo:formula "C6H6Cl6";
     dbo:inchi "InChI=1S/C6H6Cl6/c7-1-2(8)4(10)6(12)5(11)3(1)9/h1-6H/t1-,2-,3-,4-,5-,6-";
     dbo:iupacName "(1R,2R,3R,4S,5S,6S)-1,2,3,4,5,6-hexachlorocyclohexane"@en;
+    dbo:pubchem "727"^^xsd:int;
     dbo:smiles "Cl[C@H]1[C@H](Cl)[C@H](Cl)[C@H](Cl)[C@@H](Cl)[C@H]1Cl";
     dbp:inchikey "JLYXXMFPNIAWKQ-DCLYFUHFNA-N";
     a dbo:ChemicalCompound, dbo:ChemicalSubstance, dbo:Drug, skos:Concept;
     rdfs:seeAlso <https://pubchem.ncbi.nlm.nih.gov/compound/727>;
     skos:altLabel "ε-1,2,3,4,5,6-hexachlorocyclohexaan"@nl, "ε-hexachlorocyclohexaan"@nl;
+    skos:broader chemische_stof:JLYXXMFPNIAWKQ-UHFFFAOYSA-N;
+    skos:broaderTransitive chemische_stof:JLYXXMFPNIAWKQ-UHFFFAOYSA-N;
     skos:closeMatch wise:CAS_6108-10-7, chemische_stof:JLYXXMFPNIAWKQ-DCLYFUHFNA-N;
     skos:exactMatch wise:CAS_6108-10-7, chemische_stof:JLYXXMFPNIAWKQ-DCLYFUHFNA-N;
     skos:inScheme conceptscheme:chemische_stof;
     skos:mappingRelation wise:CAS_6108-10-7, chemische_stof:JLYXXMFPNIAWKQ-DCLYFUHFNA-N;
     skos:notation "eHCH";
     skos:prefLabel "epsilon-hexachloorcyclohexaan"@nl;
-    skos:semanticRelation wise:CAS_6108-10-7, chemische_stof:JLYXXMFPNIAWKQ-DCLYFUHFNA-N.
+    skos:semanticRelation wise:CAS_6108-10-7, chemische_stof:JLYXXMFPNIAWKQ-DCLYFUHFNA-N, chemische_stof:JLYXXMFPNIAWKQ-UHFFFAOYSA-N.
 chemische_stof:JLYXXMFPNIAWKQ-GNIYUCBRSA-N dbo:casNumber "58-89-9";
     dbo:formula "C6H6Cl6";
     dbo:inchi "InChI=1S/C6H6Cl6/c7-1-2(8)4(10)6(12)5(11)3(1)9/h1-6H/t1-,2-,3-,4+,5+,6+";
     dbo:iupacName "(1r,2R,3S,4r,5R,6S)-1,2,3,4,5,6-hexachlorocyclohexane"@en;
+    dbo:pubchem "727"^^xsd:int;
     dbo:smiles "Cl[C@H]1[C@H](Cl)[C@@H](Cl)[C@@H](Cl)[C@H](Cl)[C@H]1Cl";
     dbp:inchikey "JLYXXMFPNIAWKQ-GNIYUCBRSA-N";
     a dbo:ChemicalCompound, dbo:ChemicalSubstance, dbo:Drug, skos:Concept;
-    rdfs:seeAlso <https://pubchem.ncbi.nlm.nih.gov/compound/727>;
+    rdfs:seeAlso <https://pubchem.ncbi.nlm.nih.gov/compound/727>, <https://pubchem.ncbi.nlm.nih.gov/substance/223860378>;
     skos:altLabel "lindaan"@nl, "γ-hexachlorocyclohexaan"@nl, "γ-lindaan"@nl;
+    skos:broader chemische_stof:JLYXXMFPNIAWKQ-UHFFFAOYSA-N;
+    skos:broaderTransitive chemische_stof:JLYXXMFPNIAWKQ-UHFFFAOYSA-N;
     skos:closeMatch wise:CAS_58-89-9, chemische_stof:JLYXXMFPNIAWKQ-GNIYUCBRSA-N;
     skos:exactMatch wise:CAS_58-89-9, chemische_stof:JLYXXMFPNIAWKQ-GNIYUCBRSA-N;
     skos:inScheme conceptscheme:chemische_stof;
     skos:mappingRelation wise:CAS_58-89-9, chemische_stof:JLYXXMFPNIAWKQ-GNIYUCBRSA-N;
     skos:notation "gHCH";
     skos:prefLabel "gamma-hexachloorcyclohexaan"@nl;
-    skos:semanticRelation wise:CAS_58-89-9, chemische_stof:JLYXXMFPNIAWKQ-GNIYUCBRSA-N.
+    skos:semanticRelation wise:CAS_58-89-9, chemische_stof:JLYXXMFPNIAWKQ-GNIYUCBRSA-N, chemische_stof:JLYXXMFPNIAWKQ-UHFFFAOYSA-N.
 chemische_stof:JLYXXMFPNIAWKQ-GPIVLXJGSA-N dbo:casNumber "319-86-8";
     dbo:formula "C6H6Cl6";
     dbo:inchi "InChI=1S/C6H6Cl6/c7-1-2(8)4(10)6(12)5(11)3(1)9/h1-6H/t1-,2-,3-,4+,5-,6-";
     dbo:iupacName "(1r,2R,3S,4s,5R,6S)-1,2,3,4,5,6-hexachlorocyclohexane"@en;
+    dbo:pubchem "727"^^xsd:int;
     dbo:smiles "Cl[C@H]1[C@H](Cl)[C@@H](Cl)[C@H](Cl)[C@H](Cl)[C@@H]1Cl";
     dbp:inchikey "JLYXXMFPNIAWKQ-GPIVLXJGSA-N";
     a dbo:ChemicalCompound, dbo:ChemicalSubstance, dbo:Drug, skos:Concept;
-    rdfs:seeAlso <https://pubchem.ncbi.nlm.nih.gov/compound/727>;
+    rdfs:seeAlso <https://pubchem.ncbi.nlm.nih.gov/compound/727>, <https://pubchem.ncbi.nlm.nih.gov/substance/250138257>;
     skos:altLabel "δ-hexachlorocyclohexaan"@nl, "δ-lindaan"@nl;
+    skos:broader chemische_stof:JLYXXMFPNIAWKQ-UHFFFAOYSA-N;
+    skos:broaderTransitive chemische_stof:JLYXXMFPNIAWKQ-UHFFFAOYSA-N;
     skos:closeMatch wise:CAS_319-86-8, chemische_stof:JLYXXMFPNIAWKQ-GPIVLXJGSA-N;
     skos:exactMatch wise:CAS_319-86-8, chemische_stof:JLYXXMFPNIAWKQ-GPIVLXJGSA-N;
     skos:inScheme conceptscheme:chemische_stof;
     skos:mappingRelation wise:CAS_319-86-8, chemische_stof:JLYXXMFPNIAWKQ-GPIVLXJGSA-N;
     skos:notation "dHCH";
     skos:prefLabel "delta-hexachloorcyclohexaan"@nl;
-    skos:semanticRelation wise:CAS_319-86-8, chemische_stof:JLYXXMFPNIAWKQ-GPIVLXJGSA-N.
+    skos:semanticRelation wise:CAS_319-86-8, chemische_stof:JLYXXMFPNIAWKQ-GPIVLXJGSA-N, chemische_stof:JLYXXMFPNIAWKQ-UHFFFAOYSA-N.
 chemische_stof:JLYXXMFPNIAWKQ-SHFUYGGZSA-N dbo:casNumber "319-84-6";
     dbo:formula "C6H6Cl6";
     dbo:inchi "InChI=1S/C6H6Cl6/c7-1-2(8)4(10)6(12)5(11)3(1)9/h1-6H/t1-,2-,3-,4-,5+,6+/m1/s1";
     dbo:iupacName "(1R,2R,3R,4R,5S,6S)-1,2,3,4,5,6-hexachlorocyclohexane"@en;
+    dbo:pubchem "727"^^xsd:int;
     dbo:smiles "Cl[C@H]1[C@H](Cl)[C@@H](Cl)[C@H](Cl)[C@H](Cl)[C@H]1Cl";
     dbp:inchikey "JLYXXMFPNIAWKQ-SHFUYGGZSA-N";
     a dbo:ChemicalCompound, dbo:ChemicalSubstance, dbo:Drug, skos:Concept;
-    rdfs:seeAlso <https://pubchem.ncbi.nlm.nih.gov/compound/727>;
+    rdfs:seeAlso <https://pubchem.ncbi.nlm.nih.gov/compound/727>, <https://pubchem.ncbi.nlm.nih.gov/substance/387109717>;
     skos:altLabel "α-hexachlorocyclohexaan"@nl, "α-lindaan"@nl;
+    skos:broader chemische_stof:JLYXXMFPNIAWKQ-UHFFFAOYSA-N;
+    skos:broaderTransitive chemische_stof:JLYXXMFPNIAWKQ-UHFFFAOYSA-N;
     skos:closeMatch wise:CAS_319-84-6, chemische_stof:JLYXXMFPNIAWKQ-SHFUYGGZSA-N;
     skos:exactMatch wise:CAS_319-84-6, chemische_stof:JLYXXMFPNIAWKQ-SHFUYGGZSA-N;
     skos:inScheme conceptscheme:chemische_stof;
     skos:mappingRelation wise:CAS_319-84-6, chemische_stof:JLYXXMFPNIAWKQ-SHFUYGGZSA-N;
     skos:notation "aHCH";
     skos:prefLabel "alfa-hexachloorcyclohexaan"@nl;
-    skos:semanticRelation wise:CAS_319-84-6, chemische_stof:JLYXXMFPNIAWKQ-SHFUYGGZSA-N.
+    skos:semanticRelation wise:CAS_319-84-6, chemische_stof:JLYXXMFPNIAWKQ-SHFUYGGZSA-N, chemische_stof:JLYXXMFPNIAWKQ-UHFFFAOYSA-N.
 chemische_stof:JLYXXMFPNIAWKQ-UHFFFAOYSA-N dbo:casNumber "20437-97-2", "39284-22-5", "60291-32-9", "608-73-1", "6108-11-8", "6108-12-9", "6108-13-0", "89609-19-8";
     dbo:formula "C6H6Cl6";
     dbo:inchi "InChI=1S/C6H6Cl6/c7-1-2(8)4(10)6(12)5(11)3(1)9/h1-6H";
@@ -18056,14 +18071,16 @@ chemische_stof:JLYXXMFPNIAWKQ-UHFFFAOYSA-N dbo:casNumber "20437-97-2", "39284-22
     dbp:inchikey "JLYXXMFPNIAWKQ-UHFFFAOYSA-N";
     a dbo:ChemicalCompound, dbo:ChemicalSubstance, dbo:Drug, skos:Concept;
     rdfs:seeAlso <https://pubchem.ncbi.nlm.nih.gov/compound/727>;
-    skos:altLabel "lindaan"@nl, "som hexachloorcyclohexaan-isomeren"@nl;
+    skos:altLabel "lindaan"@nl, "som hexachloorcyclohexaan-stereoisomeren"@nl;
     skos:closeMatch wise:CAS_608-73-1, chemische_stof:JLYXXMFPNIAWKQ-UHFFFAOYSA-N;
     skos:exactMatch wise:CAS_608-73-1, chemische_stof:JLYXXMFPNIAWKQ-UHFFFAOYSA-N;
     skos:inScheme conceptscheme:chemische_stof;
     skos:mappingRelation wise:CAS_608-73-1, chemische_stof:JLYXXMFPNIAWKQ-UHFFFAOYSA-N;
+    skos:narrower chemische_stof:JLYXXMFPNIAWKQ-CDRYSYESSA-N, chemische_stof:JLYXXMFPNIAWKQ-DCLYFUHFNA-N, chemische_stof:JLYXXMFPNIAWKQ-GNIYUCBRSA-N, chemische_stof:JLYXXMFPNIAWKQ-GPIVLXJGSA-N, chemische_stof:JLYXXMFPNIAWKQ-SHFUYGGZSA-N;
+    skos:narrowerTransitive chemische_stof:JLYXXMFPNIAWKQ-CDRYSYESSA-N, chemische_stof:JLYXXMFPNIAWKQ-DCLYFUHFNA-N, chemische_stof:JLYXXMFPNIAWKQ-GNIYUCBRSA-N, chemische_stof:JLYXXMFPNIAWKQ-GPIVLXJGSA-N, chemische_stof:JLYXXMFPNIAWKQ-SHFUYGGZSA-N;
     skos:notation "HCH";
-    skos:prefLabel "hexachloorcyclohexaan, alle isomeren"@nl;
-    skos:semanticRelation wise:CAS_608-73-1, chemische_stof:JLYXXMFPNIAWKQ-UHFFFAOYSA-N.
+    skos:prefLabel "hexachloorcyclohexaan, alle stereoisomeren"@nl;
+    skos:semanticRelation wise:CAS_608-73-1, chemische_stof:JLYXXMFPNIAWKQ-CDRYSYESSA-N, chemische_stof:JLYXXMFPNIAWKQ-DCLYFUHFNA-N, chemische_stof:JLYXXMFPNIAWKQ-GNIYUCBRSA-N, chemische_stof:JLYXXMFPNIAWKQ-GPIVLXJGSA-N, chemische_stof:JLYXXMFPNIAWKQ-SHFUYGGZSA-N, chemische_stof:JLYXXMFPNIAWKQ-UHFFFAOYSA-N.
 chemische_stof:JMIXTHMPTMXARZ-UHFFFAOYSA-N dbo:casNumber "791563-89-8";
     dbo:formula "C13HF27O3S";
     dbo:inchi "InChI=1S/C13HF27O3S/c14-1(15,2(16,17)4(20,21)6(24,25)8(28,29)10(32,33)12(36,37)38)3(18,19)5(22,23)7(26,27)9(30,31)11(34,35)13(39,40)44(41,42)43/h(H,41,42,43)";
