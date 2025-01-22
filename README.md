@@ -38,3 +38,4 @@ apt-get install npm
 cd $PROJECT_HOME
 /usr/bin/node /usr/lib/node_modules/npm/bin/npm-cli.js install --scripts-prepend-node-path=auto
 ```
+Dit is mijn toevoeging.
