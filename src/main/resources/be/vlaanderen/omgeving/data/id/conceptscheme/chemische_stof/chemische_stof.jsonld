@@ -86,6 +86,22 @@
             "@id": "http://purl.org/dc/terms/publisher",
             "@type": "@id"
         },
+        "_issued": {
+            "@id": "http://purl.org/dc/terms/issued",
+            "@type": "http://www.w3.org/2001/XMLSchema#date"
+        },
+        "creator": {
+            "@id": "http://purl.org/dc/terms/creator",
+            "@type": "@id"
+        },
+        "created": {
+            "@id": "http://purl.org/dc/terms/created",
+            "@type": "http://www.w3.org/2001/XMLSchema#date"
+        },
+        "valid": {
+            "@id": "http://purl.org/dc/terms/valid",
+            "@type": "http://www.w3.org/2001/XMLSchema#date"
+        },
         "dct.language": {
             "@id": "http://purl.org/dc/terms/language",
             "@type": "@id"
@@ -409,12 +425,25 @@
             "@id": "http://www.w3.org/1999/02/22-rdf-syntax-ns#rest",
             "@type": "@id"
         },
+        "hasBody": {
+            "@id": "http://www.w3.org/ns/oa#hasBody",
+            "@type": "@id"
+        },
+        "hasTarget": {
+            "@id": "http://www.w3.org/ns/oa#hasTarget",
+            "@type": "@id"
+        },
+        "motivatedBy": {
+            "@id": "http://www.w3.org/ns/oa#motivatedBy",
+            "@type": "@id"
+        },
         "concept": "https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/",
         "collectie": "https://data.omgeving.vlaanderen.be/id/collection/chemische_stof/",
         "classificationlevel": "https://data.omgeving.vlaanderen.be/id/classificationlevel/chemische_stof/",
         "list": "https://data.omgeving.vlaanderen.be/id/list/chemische_stof/",
         "access_right": "http://publications.europa.eu/resource/authority/access-right/",
         "adms": "http://www.w3.org/ns/adms#",
+        "annotation": "https://data.omgeving.vlaanderen.be/id/annotation/",
         "assettype": "http://purl.org/adms/assettype/",
         "bioindicator": "https://data.omgeving.vlaanderen.be/id/concept/bioindicator/",
         "chebi": "http://purl.obolibrary.org/obo/chebi/",
@@ -438,6 +467,7 @@
         "frequency": "http://publications.europa.eu/resource/authority/frequency/",
         "gemet": "http://www.eionet.europa.eu/gemet/concept/",
         "licence": "http://data.vlaanderen.be/id/licentie/modellicentie-gratis-hergebruik/",
+        "oa": "http://www.w3.org/ns/oa#",
         "obo": "http://purl.obolibrary.org/obo/",
         "observatieprocedure": "https://data.omgeving.vlaanderen.be/id/concept/observatieprocedure/",
         "metadata": "https://data.omgeving.vlaanderen.be/ns/metadata#",

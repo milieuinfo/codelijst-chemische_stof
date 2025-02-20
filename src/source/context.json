@@ -85,6 +85,22 @@
     "@id" : "http://purl.org/dc/terms/publisher",
     "@type" : "@id"
   },
+  "_issued" : {
+    "@id" : "http://purl.org/dc/terms/issued",
+    "@type" : "http://www.w3.org/2001/XMLSchema#date"
+  },
+  "creator" : {
+    "@id" : "http://purl.org/dc/terms/creator",
+    "@type" : "@id"
+  },
+  "created" : {
+    "@id" : "http://purl.org/dc/terms/created",
+    "@type" : "http://www.w3.org/2001/XMLSchema#date"
+  },
+  "valid" : {
+    "@id" : "http://purl.org/dc/terms/valid",
+    "@type" : "http://www.w3.org/2001/XMLSchema#date"
+  },
   "dct.language" : {
     "@id" : "http://purl.org/dc/terms/language",
     "@type" : "@id"
@@ -407,6 +423,18 @@
   },
   "rest" : {
     "@id" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#rest",
+    "@type" : "@id"
+  },
+  "hasBody" : {
+    "@id" : "http://www.w3.org/ns/oa#hasBody",
+    "@type" : "@id"
+  },
+  "hasTarget" : {
+    "@id" : "http://www.w3.org/ns/oa#hasTarget",
+    "@type" : "@id"
+  },
+  "motivatedBy" : {
+    "@id" : "http://www.w3.org/ns/oa#motivatedBy",
     "@type" : "@id"
   }
 }

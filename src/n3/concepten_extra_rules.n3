@@ -1,6 +1,9 @@
 @prefix dbo:	<http://dbpedia.org/ontology/> .
 @prefix skos:   <http://www.w3.org/2004/02/skos/core#> .
+@prefix oa:   <http://www.w3.org/ns/oa#> .
 
 { ?x a dbo:ChemicalCompound } => { ?x a skos:Concept } .
 { ?x a dbo:ChemicalSubstance } => { ?x a skos:Concept } .
 { ?x a dbo:Drug } => { ?x a skos:Concept } .
+
+

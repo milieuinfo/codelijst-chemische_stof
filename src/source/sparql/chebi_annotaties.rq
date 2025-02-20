@@ -1,0 +1,40 @@
+# riot --output=turtle /home/gehau/git/codelijst-chemische_stof/src/source/chebi/chebi.owl /home/gehau/git/codelijst-chemische_stof/src/main/resources/be/vlaanderen/omgeving/data/id/conceptscheme/chemische_stof/*ttl > /home/gehau/git/codelijst-chemische_stof/src/source/chebi/chebiplusskos.ttl
+# sparql --results=TTL --data=/home/gehau/git/codelijst-chemische_stof/src/source/chebi/chebiplusskos.ttl  --query /home/gehau/git/codelijst-chemische_stof/src/source/sparql/chebi_rollen.rq  > /home/gehau/git/codelijst-chemische_stof/src/main/resources/be/vlaanderen/omgeving/data/id/conceptscheme/chemische_stof/roles.ttl
+
+PREFIX oa: <http://www.w3.org/ns/oa#>
+PREFIX skos:  <http://www.w3.org/2004/02/skos/core#>
+prefix chebi:  <http://purl.obolibrary.org/obo/chebi/>
+prefix geneontology: <http://www.geneontology.org/formats/oboInOwl#>
+prefix rdfs:   <http://www.w3.org/2000/01/rdf-schema#>
+prefix obo:   <http://purl.obolibrary.org/obo/>
+prefix dbo:         <http://dbpedia.org/ontology/>
+prefix conceptscheme: <https://data.omgeving.vlaanderen.be/id/conceptscheme/>
+prefix dbp:         <http://dbpedia.org/property/>
+prefix owl:         <http://www.w3.org/2002/07/owl#>
+prefix annotation:  <https://data.omgeving.vlaanderen.be/id/annotation/>
+prefix dct: <http://purl.org/dc/terms/>
+prefix dc: <http://purl.org/dc/elements/1.1/>
+prefix ovo: <http://data.vlaanderen.be/id/organisatie/>
+
+construct
+{
+    ?annotation a oa:Annotation;
+    dct:source ?o ;
+    dc:source "chebi_ontology";
+    dct:creator ovo:OVO003323;
+    skos:prefLabel ?label;
+    oa:hasBody ?o ;
+    oa:hasTarget ?s ;
+    oa:motivatedBy oa:tagging .
+
+?o ?p ?o2 .
+}
+WHERE {
+   ?s skos:exactMatch ?s1 ;
+   dbp:inchikey ?inchikey .
+   ?s1 rdfs:subClassOf ?restr .
+    ?restr  owl:onProperty <http://purl.obolibrary.org/obo/RO_0000087> ;    owl:someValuesFrom ?o .
+    ?o ?p ?o2 ;
+    rdfs:label ?label .
+   BIND(IRI(CONCAT('https://data.omgeving.vlaanderen.be/id/annotation/', STR( ?inchikey ), '_', REPLACE(STR( ?label ), " ", "_", "i")))  AS ?annotation )
+}
