@@ -65,7 +65,10 @@ metadata :
     supportedLanguage: http://www.w3.org/ns/sparql-service-description#SPARQL10Query
   all :
     accessURL : https://github.com/milieuinfo/codelijst-chemische_stof.git
-    contactPoint : https://data.omgeving.vlaanderen.be/id/vcard/helpdesk
+    contactPoint :
+      id: https://data.omgeving.vlaanderen.be/id/vcard/helpdesk
+      fn: 'Helpdesk departement Omgeving'
+      hasEmail: mailto:help@omgevingvlaanderen.be
     license : http://data.vlaanderen.be/id/licentie/modellicentie-gratis-hergebruik/v1.0
     publisher : http://data.vlaanderen.be/id/organisatie/OVO003323
     rightsHolder :  http://data.vlaanderen.be/id/organisatie/OVO003751

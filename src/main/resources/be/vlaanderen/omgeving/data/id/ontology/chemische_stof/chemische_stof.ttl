@@ -21,12 +21,14 @@
 @prefix schema:        <http://schema.org/> .
 @prefix foaf:          <http://xmlns.com/foaf/0.1/> .
 @prefix vl_org:        <http://data.vlaanderen.be/id/organisatie/> .
+@prefix omg_vcard: <https://data.omgeving.vlaanderen.be/id/vcard/>.
 
 vl_voc:chemische_stof
     a            owl:Ontology ;
     rdfs:label   "Chemische stof Vocabularium"@nl ;
     rdfs:member  vcs:vmmParameterId, rdfs:seeAlso, rdfs:comment, dbp:inchikey , dbo:pubchem , dbo:casNumber , dbo:Drug , dbo:inchi , dbo:ChemicalCompound , dbo:iupacName , dbo:ChemicalSubstance , dbo:smiles , dbo:formula  , skos:altLabel , skos:Collection , skos:Concept , skos:ConceptScheme , skos:hasTopConcept , skos:inScheme , skos:member , skos:notation , skos:prefLabel , skos:topConceptOf, dct:isReferencedBy;
     owl:sameAs   omg_ont:chemische_stof .
+
 
 omg_ont:chemische_stof
     a                owl:Ontology ;
