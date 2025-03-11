@@ -1,5 +1,5 @@
 @prefix owl:   <http://www.w3.org/2002/07/owl#> .
-@prefix vcs:   <https://data.vlaanderen.be/ns/chemische_stof#> .
+@prefix vcs:   <https://data.omgeving.vlaanderen.be/ns/chemische_stof#> .
 @prefix ov:    <http://open.vocab.org/terms/> .
 @prefix xhv:   <http://www.w3.org/1999/xhtml/vocab#> .
 @prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
@@ -14,7 +14,7 @@
 @prefix dct:   <http://purl.org/dc/terms/> .
 @prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix wdrs:  <http://www.w3.org/2007/05/powder-s#> .
-@prefix vl_voc: <https://data.vlaanderen.be/ns/> .
+@prefix vl_voc: <https://data.omgeving.vlaanderen.be/ns/> .
 @prefix prov:  <http://www.w3.org/ns/prov#> .
 @prefix wikidata: <http://www.wikidata.org/entity/> .
 @prefix omg_ag_cl: <https://data.omgeving.vlaanderen.be/id/person/codelijst/> .
@@ -22,6 +22,8 @@
 @prefix foaf:          <http://xmlns.com/foaf/0.1/> .
 @prefix vl_org:        <http://data.vlaanderen.be/id/organisatie/> .
 @prefix omg_vcard: <https://data.omgeving.vlaanderen.be/id/vcard/>.
+@prefix oa: <http://www.w3.org/ns/oa#>.
+
 
 vl_voc:chemische_stof
     a            owl:Ontology ;
@@ -43,7 +45,7 @@ omg_ont:chemische_stof
     xkos:belongsTo   omg_dataset:codelijst-chemische_stof ;
     xhv:last         vl_voc:chemische_stof ;
     owl:sameAs       vl_voc:chemische_stof ;
-    rdfs:member  vcs:vmmParameterId, rdfs:seeAlso, rdfs:comment, dbp:inchikey , dbo:pubchem , dbo:casNumber , dbo:Drug , dbo:inchi , dbo:ChemicalCompound , dbo:iupacName , dbo:ChemicalSubstance , dbo:smiles , dbo:formula  , skos:altLabel , skos:Collection , skos:Concept , skos:ConceptScheme , skos:hasTopConcept , skos:inScheme , skos:member , skos:notation , skos:prefLabel , skos:topConceptOf, dct:isReferencedBy;
+    rdfs:member  oa:Annotation, vcs:Zorgwekkende_stof, vcs:vmmParameterId, rdfs:seeAlso, rdfs:comment, dbp:inchikey , dbo:pubchem , dbo:casNumber , dbo:Drug , dbo:inchi , dbo:ChemicalCompound , dbo:iupacName , dbo:ChemicalSubstance , dbo:smiles , dbo:formula  , skos:altLabel , skos:Collection , skos:Concept , skos:ConceptScheme , skos:hasTopConcept , skos:inScheme , skos:member , skos:notation , skos:prefLabel , skos:topConceptOf, dct:isReferencedBy;
     owl:versionInfo  "Versie 1.0.0  oktober 2022"@nl .
 
 omg_ag_cl:creator
@@ -219,4 +221,15 @@ dct:isReferencedBy
     rdfs:comment        "A related resource that references, cites, or otherwise points to the described resource."@en ;
     rdfs:isDefinedBy    dct: ;
     rdf:type            rdf:Property .
+
+vcs:Zorgwekkende_stof  a     rdfs:Class ;
+                    rdfs:subClassOf   oa:Annotation ;
+                    rdfs:comment      "Een zorgwekkende stof is een stempel die, door de Vlaamse overheid, op een chemische stof of een mengsel van chemische stoffen wordt gekleefd."@nl ;
+                    rdfs:isDefinedBy  omg_ont:chemische_stof , vl_voc:chemische_stof ;
+                    rdfs:label        "Zorgwekkende stof"@nl .
+
+oa:Annotation a rdfs:Class ;
+              rdfs:label "Annotation" ;
+              rdfs:comment "The class for Web Annotations."@en ;
+              rdfs:isDefinedBy oa: .
 
