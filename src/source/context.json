@@ -271,6 +271,11 @@
     "@id" : "@id",
     "@type" : "@id"
   },
+  "uri_inchikey" : {
+    "@id" : "@id",
+    "@type" : "@id"
+  },
+
   "prefLabel" : {
     "@id" : "http://www.w3.org/2004/02/skos/core#prefLabel",
     "@language" : "nl"
@@ -378,7 +383,7 @@
   },
   "pubchem" : {
     "@id" : "http://dbpedia.org/ontology/pubchem",
-    "@type" : "http://www.w3.org/2001/XMLSchema#int"
+    "@type" : "@id"
   },
   "iupacName" : {
     "@id" : "http://dbpedia.org/ontology/iupacName",

@@ -9,7 +9,7 @@
 @prefix bioindicator: <https://data.omgeving.vlaanderen.be/id/concept/bioindicator/>.
 @prefix chebi: <http://purl.obolibrary.org/obo/chebi/>.
 @prefix chemische_stof: <https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/>.
-@prefix compound: <https://pubchem.ncbi.nlm.nih.gov/compound/>.
+@prefix compound: <http://rdf.ncbi.nlm.nih.gov/pubchem/compound/>.
 @prefix conceptscheme: <https://data.omgeving.vlaanderen.be/id/conceptscheme/>.
 @prefix country: <http://publications.europa.eu/resource/authority/country/>.
 @prefix datasets: <https://datasets.omgeving.vlaanderen.be/>.
@@ -66,6 +66,7 @@
 @prefix wise: <http://dd.eionet.europa.eu/vocabulary/wise/ObservedProperty/>.
 @prefix xkos: <http://rdf-vocabulary.ddialliance.org/xkos#>.
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+@prefix zorgwekkende_stof: <https://data.omgeving.vlaanderen.be/id/concept/zorgwekkende_stof/>.
 
 <https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/0000000> a skos:Concept;
     skos:broader <https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/9999999>;

@@ -15,7 +15,7 @@ async function inchikeys_from_csv() {
         .then((jsonObj)=>{
             for(var i = 0; i < jsonObj.length; i++){
                 Object.keys(jsonObj[i]).forEach(function(key) {
-                    if (key === 'uri' && re.test(jsonObj[i][key])  ) {
+                    if (key === 'uri_inchikey' && re.test(jsonObj[i][key])  ) {
                         inchikeys.push(jsonObj[i][key])
                     }
                 })

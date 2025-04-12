@@ -16,6 +16,6 @@ console.log = function() {}
 //     console.log = function() {}
 // }
 generate_skos(ttl, jsonld, nt, csv);
-chemont_taxonomy_to_skos()
-chebi_information(chebi_ttl, chebi_jsonld)
+//chemont_taxonomy_to_skos()
+//chebi_information(chebi_ttl, chebi_jsonld)
 

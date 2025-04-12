@@ -122,7 +122,7 @@ prefixes :
   bioindicator: https://data.omgeving.vlaanderen.be/id/concept/bioindicator/
   chebi : http://purl.obolibrary.org/obo/chebi/
   chemische_stof: https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/
-  compound : https://pubchem.ncbi.nlm.nih.gov/compound/
+  compound : http://rdf.ncbi.nlm.nih.gov/pubchem/compound/
   conceptscheme: https://data.omgeving.vlaanderen.be/id/conceptscheme/
   country: http://publications.europa.eu/resource/authority/country/
   datasets: https://datasets.omgeving.vlaanderen.be/
@@ -179,5 +179,6 @@ prefixes :
   wise: http://dd.eionet.europa.eu/vocabulary/wise/ObservedProperty/
   xkos: http://rdf-vocabulary.ddialliance.org/xkos#
   xsd: http://www.w3.org/2001/XMLSchema#
+  zorgwekkende_stof: https://data.omgeving.vlaanderen.be/id/concept/zorgwekkende_stof/
 deploy:
   virtuoso: virtuoso-algemeen

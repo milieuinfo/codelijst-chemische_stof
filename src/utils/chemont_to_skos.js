@@ -51,6 +51,8 @@ async function resolve_parent_from_inchikey(inchikeys) {
             new_json.push(object)
         }
         else {
+            const delay = ms => new Promise(resolve => setTimeout(resolve, ms))
+            await delay(10000)
             request(url, options, (error, res, body) => {
                 if (error) {
                     console.log(error)
