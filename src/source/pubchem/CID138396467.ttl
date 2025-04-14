@@ -1,0 +1,76 @@
+@base <http://rdf.ncbi.nlm.nih.gov/pubchem/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+
+<compound/CID138396467>
+    <http://purl.org/dc/terms/identifier> "138396467" ;
+    <http://semanticscience.org/resource/SIO_000008> <descriptor/CID138396467_Canonical_SMILES>, <descriptor/CID138396467_Compound_Identifier>, <descriptor/CID138396467_Covalent_Unit_Count>, <descriptor/CID138396467_Defined_Atom_Stereo_Count>, <descriptor/CID138396467_Defined_Bond_Stereo_Count>, <descriptor/CID138396467_Exact_Mass>, <descriptor/CID138396467_Hydrogen_Bond_Acceptor_Count>, <descriptor/CID138396467_Hydrogen_Bond_Donor_Count>, <descriptor/CID138396467_IUPAC_InChI>, <descriptor/CID138396467_Isomeric_SMILES>, <descriptor/CID138396467_Isotope_Atom_Count>, <descriptor/CID138396467_Molecular_Formula>, <descriptor/CID138396467_Molecular_Weight>, <descriptor/CID138396467_Mono_Isotopic_Weight>, <descriptor/CID138396467_Non-hydrogen_Atom_Count>, <descriptor/CID138396467_Preferred_IUPAC_Name>, <descriptor/CID138396467_Rotatable_Bond_Count>, <descriptor/CID138396467_Structure_Complexity>, <descriptor/CID138396467_TPSA>, <descriptor/CID138396467_Total_Formal_Charge>, <descriptor/CID138396467_Undefined_Atom_Stereo_Count>, <descriptor/CID138396467_Undefined_Bond_Stereo_Count>, <descriptor/CID138396467_XLogP3-AA> ;
+    a <vocabulary#Compound> ;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "2,2,3,4,4,5,6,6,6-Nonafluoro-3,5-bis(trifluoromethyl)hexanoic acid" .
+
+<cooccurrence/CID138396467_CID24848983>
+    rdf:subject <compound/CID138396467> .
+
+<cooccurrence/CID138396467_CID24848984>
+    rdf:subject <compound/CID138396467> .
+
+<cooccurrence/CID138396467_CID9554>
+    rdf:subject <compound/CID138396467> .
+
+<cooccurrence/CID138396467_CID962>
+    rdf:subject <compound/CID138396467> .
+
+<cooccurrence/CID24848983_CID138396467>
+    rdf:object <compound/CID138396467> .
+
+<cooccurrence/CID24848984_CID138396467>
+    rdf:object <compound/CID138396467> .
+
+<cooccurrence/CID9554_CID138396467>
+    rdf:object <compound/CID138396467> .
+
+<inchikey/RCVKPKVLBNNSMW-UHFFFAOYSA-N>
+    <http://semanticscience.org/resource/SIO_000011> <compound/CID138396467> .
+
+<substance/SID384461924>
+    <http://semanticscience.org/resource/CHEMINF_000477> <compound/CID138396467> .
+
+<substance/SID387147416>
+    <http://semanticscience.org/resource/CHEMINF_000477> <compound/CID138396467> .
+
+<substance/SID445675046>
+    <http://semanticscience.org/resource/CHEMINF_000477> <compound/CID138396467> .
+
+<substance/SID447283156>
+    <http://semanticscience.org/resource/CHEMINF_000477> <compound/CID138396467> .
+
+<substance/SID464101511>
+    <http://semanticscience.org/resource/CHEMINF_000477> <compound/CID138396467> .
+
+<substance/SID464856218>
+    <http://semanticscience.org/resource/CHEMINF_000477> <compound/CID138396467> .
+
+<substance/SID497639926>
+    <http://semanticscience.org/resource/CHEMINF_000477> <compound/CID138396467> .
+
+<substance/SID504477969>
+    <http://semanticscience.org/resource/CHEMINF_000477> <compound/CID138396467> .
+
+<synonym/MD5_46353de23c6db638e7d2c5f9d4fc6118>
+    <http://semanticscience.org/resource/SIO_000011> <compound/CID138396467> .
+
+<synonym/MD5_514d342e991c3d4888f262dd70b7ff45>
+    <http://semanticscience.org/resource/SIO_000011> <compound/CID138396467> .
+
+<synonym/MD5_5827651675a67ca3ad8e90a7e6e1f239>
+    <http://semanticscience.org/resource/SIO_000011> <compound/CID138396467> .
+
+<synonym/MD5_7a848177eb602ecd6cd1178ae8e8f4a1>
+    <http://semanticscience.org/resource/SIO_000011> <compound/CID138396467> .
+
+<synonym/MD5_abaa4e636d67ba89ad4923d79924b411>
+    <http://semanticscience.org/resource/SIO_000011> <compound/CID138396467> .
+
+<synonym/MD5_d94d08b463b5fd76f693225f0cdca446>
+    <http://semanticscience.org/resource/SIO_000011> <compound/CID138396467> .
+
+

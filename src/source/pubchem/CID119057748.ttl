@@ -1,0 +1,36 @@
+@base <http://rdf.ncbi.nlm.nih.gov/pubchem/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+
+<compound/CID119057748>
+    <http://purl.org/dc/terms/identifier> "119057748" ;
+    <vocabulary#has_parent> <compound/CID111470> ;
+    <http://semanticscience.org/resource/CHEMINF_000480> <compound/CID23973> ;
+    <http://semanticscience.org/resource/SIO_000008> <descriptor/CID119057748_Canonical_SMILES>, <descriptor/CID119057748_Compound_Identifier>, <descriptor/CID119057748_Covalent_Unit_Count>, <descriptor/CID119057748_Defined_Atom_Stereo_Count>, <descriptor/CID119057748_Defined_Bond_Stereo_Count>, <descriptor/CID119057748_Exact_Mass>, <descriptor/CID119057748_Hydrogen_Bond_Acceptor_Count>, <descriptor/CID119057748_Hydrogen_Bond_Donor_Count>, <descriptor/CID119057748_IUPAC_InChI>, <descriptor/CID119057748_Isomeric_SMILES>, <descriptor/CID119057748_Isotope_Atom_Count>, <descriptor/CID119057748_Molecular_Formula>, <descriptor/CID119057748_Molecular_Weight>, <descriptor/CID119057748_Mono_Isotopic_Weight>, <descriptor/CID119057748_Non-hydrogen_Atom_Count>, <descriptor/CID119057748_Preferred_IUPAC_Name>, <descriptor/CID119057748_Rotatable_Bond_Count>, <descriptor/CID119057748_Structure_Complexity>, <descriptor/CID119057748_TPSA>, <descriptor/CID119057748_Total_Formal_Charge>, <descriptor/CID119057748_Undefined_Atom_Stereo_Count>, <descriptor/CID119057748_Undefined_Bond_Stereo_Count> ;
+    a <vocabulary#Compound> ;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Cadmium tert-decanoate" .
+
+<inchikey/FAZKBTBVXRTJLW-UHFFFAOYSA-N>
+    <http://semanticscience.org/resource/SIO_000011> <compound/CID119057748> .
+
+<substance/SID135317329>
+    <http://semanticscience.org/resource/CHEMINF_000477> <compound/CID119057748> .
+
+<substance/SID481764277>
+    <http://semanticscience.org/resource/CHEMINF_000477> <compound/CID119057748> .
+
+<substance/SID505569012>
+    <http://semanticscience.org/resource/CHEMINF_000477> <compound/CID119057748> .
+
+<synonym/MD5_91cf5b0e61426080863b1df7f45e5cd0>
+    <http://semanticscience.org/resource/SIO_000011> <compound/CID119057748> .
+
+<synonym/MD5_b8b2661941879eb175e6c5ba861d9717>
+    <http://semanticscience.org/resource/SIO_000011> <compound/CID119057748> .
+
+<synonym/MD5_bd0ba2789a749c35f301a13f41dfcd45>
+    <http://semanticscience.org/resource/SIO_000011> <compound/CID119057748> .
+
+<synonym/MD5_bdfc7ead2f447d2542dd17841b55b4fe>
+    <http://semanticscience.org/resource/SIO_000011> <compound/CID119057748> .
+
+

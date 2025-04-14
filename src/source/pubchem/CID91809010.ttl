@@ -1,0 +1,42 @@
+@base <http://rdf.ncbi.nlm.nih.gov/pubchem/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+
+<compound/CID91809010>
+    <http://purl.org/dc/terms/identifier> "91809010" ;
+    <vocabulary#has_parent> <compound/CID441071> ;
+    <http://semanticscience.org/resource/CHEMINF_000480> <compound/CID8948> ;
+    <http://semanticscience.org/resource/SIO_000008> <descriptor/CID91809010_Canonical_SMILES>, <descriptor/CID91809010_Compound_Identifier>, <descriptor/CID91809010_Covalent_Unit_Count>, <descriptor/CID91809010_Defined_Atom_Stereo_Count>, <descriptor/CID91809010_Defined_Bond_Stereo_Count>, <descriptor/CID91809010_Exact_Mass>, <descriptor/CID91809010_Hydrogen_Bond_Acceptor_Count>, <descriptor/CID91809010_Hydrogen_Bond_Donor_Count>, <descriptor/CID91809010_IUPAC_InChI>, <descriptor/CID91809010_Isomeric_SMILES>, <descriptor/CID91809010_Isotope_Atom_Count>, <descriptor/CID91809010_Molecular_Formula>, <descriptor/CID91809010_Molecular_Weight>, <descriptor/CID91809010_Mono_Isotopic_Weight>, <descriptor/CID91809010_Non-hydrogen_Atom_Count>, <descriptor/CID91809010_Preferred_IUPAC_Name>, <descriptor/CID91809010_Rotatable_Bond_Count>, <descriptor/CID91809010_Structure_Complexity>, <descriptor/CID91809010_TPSA>, <descriptor/CID91809010_Total_Formal_Charge>, <descriptor/CID91809010_Undefined_Atom_Stereo_Count>, <descriptor/CID91809010_Undefined_Bond_Stereo_Count> ;
+    a <vocabulary#Compound> ;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Strychnidin-10-one, compd. with methylarsonate (1:1)" .
+
+<inchikey/BMGIVNDVKUXRPC-ZEYGOCRCSA-N>
+    <http://semanticscience.org/resource/SIO_000011> <compound/CID91809010> .
+
+<substance/SID135352671>
+    <http://semanticscience.org/resource/CHEMINF_000477> <compound/CID91809010> .
+
+<substance/SID319422024>
+    <http://semanticscience.org/resource/CHEMINF_000477> <compound/CID91809010> .
+
+<substance/SID472287445>
+    <http://semanticscience.org/resource/CHEMINF_000477> <compound/CID91809010> .
+
+<substance/SID481751357>
+    <http://semanticscience.org/resource/CHEMINF_000477> <compound/CID91809010> .
+
+<substance/SID500829544>
+    <http://semanticscience.org/resource/CHEMINF_000477> <compound/CID91809010> .
+
+<synonym/MD5_1280806e1fab215da346902785081d9c>
+    <http://semanticscience.org/resource/SIO_000011> <compound/CID91809010> .
+
+<synonym/MD5_4dfccc76a3feab5d7068d1e8e34019a6>
+    <http://semanticscience.org/resource/SIO_000011> <compound/CID91809010> .
+
+<synonym/MD5_95aef6e2c6f31bc59c52264de9c8762f>
+    <http://semanticscience.org/resource/SIO_000011> <compound/CID91809010> .
+
+<synonym/MD5_d2ce3e822e6852cc2e87e9099d7dd144>
+    <http://semanticscience.org/resource/SIO_000011> <compound/CID91809010> .
+
+

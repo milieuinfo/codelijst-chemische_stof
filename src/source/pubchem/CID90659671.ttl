@@ -1,0 +1,58 @@
+@base <http://rdf.ncbi.nlm.nih.gov/pubchem/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+
+<compound/CID119057778>
+    <http://semanticscience.org/resource/CHEMINF_000461> <compound/CID90659671> .
+
+<compound/CID90659671>
+    <http://purl.org/dc/terms/identifier> "90659671" ;
+    <vocabulary#has_parent> <compound/CID7405> ;
+    <http://semanticscience.org/resource/CHEMINF_000461> <compound/CID119057778> ;
+    <http://semanticscience.org/resource/CHEMINF_000480> <compound/CID935> ;
+    <http://semanticscience.org/resource/SIO_000008> <descriptor/CID90659671_Canonical_SMILES>, <descriptor/CID90659671_Compound_Identifier>, <descriptor/CID90659671_Covalent_Unit_Count>, <descriptor/CID90659671_Defined_Atom_Stereo_Count>, <descriptor/CID90659671_Defined_Bond_Stereo_Count>, <descriptor/CID90659671_Exact_Mass>, <descriptor/CID90659671_Hydrogen_Bond_Acceptor_Count>, <descriptor/CID90659671_Hydrogen_Bond_Donor_Count>, <descriptor/CID90659671_IUPAC_InChI>, <descriptor/CID90659671_Isomeric_SMILES>, <descriptor/CID90659671_Isotope_Atom_Count>, <descriptor/CID90659671_Molecular_Formula>, <descriptor/CID90659671_Molecular_Weight>, <descriptor/CID90659671_Mono_Isotopic_Weight>, <descriptor/CID90659671_Non-hydrogen_Atom_Count>, <descriptor/CID90659671_Preferred_IUPAC_Name>, <descriptor/CID90659671_Rotatable_Bond_Count>, <descriptor/CID90659671_Structure_Complexity>, <descriptor/CID90659671_TPSA>, <descriptor/CID90659671_Total_Formal_Charge>, <descriptor/CID90659671_Undefined_Atom_Stereo_Count>, <descriptor/CID90659671_Undefined_Bond_Stereo_Count> ;
+    a <vocabulary#Compound> ;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Bis(5-oxo-L-prolinato-N1,O2)nickel" .
+
+<cooccurrence/CID5289118_CID90659671>
+    rdf:object <compound/CID90659671> .
+
+<cooccurrence/CID7757_CID90659671>
+    rdf:object <compound/CID90659671> .
+
+<cooccurrence/CID90659671_CID5289118>
+    rdf:subject <compound/CID90659671> .
+
+<cooccurrence/CID90659671_CID7405>
+    rdf:subject <compound/CID90659671> .
+
+<cooccurrence/CID90659671_CID7757>
+    rdf:subject <compound/CID90659671> .
+
+<inchikey/LNHBBTUTBBHIBN-QHTZZOMLSA-N>
+    <http://semanticscience.org/resource/SIO_000011> <compound/CID90659671> .
+
+<substance/SID135339183>
+    <http://semanticscience.org/resource/CHEMINF_000477> <compound/CID90659671> .
+
+<substance/SID319420763>
+    <http://semanticscience.org/resource/CHEMINF_000477> <compound/CID90659671> .
+
+<substance/SID341768821>
+    <http://semanticscience.org/resource/CHEMINF_000477> <compound/CID90659671> .
+
+<substance/SID481759629>
+    <http://semanticscience.org/resource/CHEMINF_000477> <compound/CID90659671> .
+
+<synonym/MD5_65790a318735a83485c7beaa864366c8>
+    <http://semanticscience.org/resource/SIO_000011> <compound/CID90659671> .
+
+<synonym/MD5_d55132895cb5bfd01ab44844eccbfa83>
+    <http://semanticscience.org/resource/SIO_000011> <compound/CID90659671> .
+
+<synonym/MD5_e0584d2bf21e3c1a1573b3e7f0f770d8>
+    <http://semanticscience.org/resource/SIO_000011> <compound/CID90659671> .
+
+<synonym/MD5_fda9383a2ffbd48c12be2c7ebd3a3d36>
+    <http://semanticscience.org/resource/SIO_000011> <compound/CID90659671> .
+
+

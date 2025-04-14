@@ -1,0 +1,55 @@
+@base <http://rdf.ncbi.nlm.nih.gov/pubchem/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+
+<compound/CID14598117>
+    <http://semanticscience.org/resource/CHEMINF_000461> <compound/CID14598118> .
+
+<compound/CID14598118>
+    <http://purl.org/dc/terms/identifier> "14598118" ;
+    <vocabulary#has_parent> <compound/CID444305> ;
+    <http://semanticscience.org/resource/CHEMINF_000461> <compound/CID14598117> ;
+    <http://semanticscience.org/resource/CHEMINF_000480> <compound/CID23973> ;
+    <http://semanticscience.org/resource/SIO_000008> <descriptor/CID14598118_Canonical_SMILES>, <descriptor/CID14598118_Compound_Identifier>, <descriptor/CID14598118_Covalent_Unit_Count>, <descriptor/CID14598118_Defined_Atom_Stereo_Count>, <descriptor/CID14598118_Defined_Bond_Stereo_Count>, <descriptor/CID14598118_Exact_Mass>, <descriptor/CID14598118_Hydrogen_Bond_Acceptor_Count>, <descriptor/CID14598118_Hydrogen_Bond_Donor_Count>, <descriptor/CID14598118_IUPAC_InChI>, <descriptor/CID14598118_Isomeric_SMILES>, <descriptor/CID14598118_Isotope_Atom_Count>, <descriptor/CID14598118_Molecular_Formula>, <descriptor/CID14598118_Molecular_Weight>, <descriptor/CID14598118_Mono_Isotopic_Weight>, <descriptor/CID14598118_Non-hydrogen_Atom_Count>, <descriptor/CID14598118_Preferred_IUPAC_Name>, <descriptor/CID14598118_Rotatable_Bond_Count>, <descriptor/CID14598118_Structure_Complexity>, <descriptor/CID14598118_TPSA>, <descriptor/CID14598118_Total_Formal_Charge>, <descriptor/CID14598118_Undefined_Atom_Stereo_Count>, <descriptor/CID14598118_Undefined_Bond_Stereo_Count> ;
+    a <vocabulary#Compound> ;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Cadmium [R-(R*,R*)]-tartrate" .
+
+<inchikey/GPZWFVHFXGHERV-ZVGUSBNCSA-L>
+    <http://semanticscience.org/resource/SIO_000011> <compound/CID14598118> .
+
+<substance/SID135265620>
+    <http://semanticscience.org/resource/CHEMINF_000477> <compound/CID14598118> .
+
+<substance/SID315748067>
+    <http://semanticscience.org/resource/CHEMINF_000477> <compound/CID14598118> .
+
+<substance/SID481762112>
+    <http://semanticscience.org/resource/CHEMINF_000477> <compound/CID14598118> .
+
+<substance/SID485794448>
+    <http://semanticscience.org/resource/CHEMINF_000477> <compound/CID14598118> .
+
+<substance/SID500765978>
+    <http://semanticscience.org/resource/CHEMINF_000477> <compound/CID14598118> .
+
+<synonym/MD5_096505261654089ac75ec73ba72cd349>
+    <http://semanticscience.org/resource/SIO_000011> <compound/CID14598118> .
+
+<synonym/MD5_32bb715f19c7d164465e443a4bd12ed2>
+    <http://semanticscience.org/resource/SIO_000011> <compound/CID14598118> .
+
+<synonym/MD5_3d41de7949674240c772ad2973d6bc51>
+    <http://semanticscience.org/resource/SIO_000011> <compound/CID14598118> .
+
+<synonym/MD5_4bbcb3fe657e41849c91773443379d4c>
+    <http://semanticscience.org/resource/SIO_000011> <compound/CID14598118> .
+
+<synonym/MD5_a0c1d593bbf95f7352dbc69a496eff76>
+    <http://semanticscience.org/resource/SIO_000011> <compound/CID14598118> .
+
+<synonym/MD5_a15776937178affe7b800bef8d1ee989>
+    <http://semanticscience.org/resource/SIO_000011> <compound/CID14598118> .
+
+<synonym/MD5_afa544e5e5fbab9aa3908d74a21ad50c>
+    <http://semanticscience.org/resource/SIO_000011> <compound/CID14598118> .
+
+

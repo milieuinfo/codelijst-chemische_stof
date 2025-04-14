@@ -1,0 +1,48 @@
+@base <http://rdf.ncbi.nlm.nih.gov/pubchem/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+
+<compound/CID83033>
+    <http://purl.org/dc/terms/identifier> "83033" ;
+    <vocabulary#has_parent> <compound/CID8580> ;
+    <http://semanticscience.org/resource/CHEMINF_000480> <compound/CID935> ;
+    <http://semanticscience.org/resource/SIO_000008> <descriptor/CID83033_Canonical_SMILES>, <descriptor/CID83033_Compound_Identifier>, <descriptor/CID83033_Covalent_Unit_Count>, <descriptor/CID83033_Defined_Atom_Stereo_Count>, <descriptor/CID83033_Defined_Bond_Stereo_Count>, <descriptor/CID83033_Exact_Mass>, <descriptor/CID83033_Hydrogen_Bond_Acceptor_Count>, <descriptor/CID83033_Hydrogen_Bond_Donor_Count>, <descriptor/CID83033_IUPAC_InChI>, <descriptor/CID83033_Isomeric_SMILES>, <descriptor/CID83033_Isotope_Atom_Count>, <descriptor/CID83033_Molecular_Formula>, <descriptor/CID83033_Molecular_Weight>, <descriptor/CID83033_Mono_Isotopic_Weight>, <descriptor/CID83033_Non-hydrogen_Atom_Count>, <descriptor/CID83033_Preferred_IUPAC_Name>, <descriptor/CID83033_Rotatable_Bond_Count>, <descriptor/CID83033_Structure_Complexity>, <descriptor/CID83033_TPSA>, <descriptor/CID83033_Total_Formal_Charge>, <descriptor/CID83033_Undefined_Atom_Stereo_Count>, <descriptor/CID83033_Undefined_Bond_Stereo_Count> ;
+    a <vocabulary#Compound> ;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Bis(1-nitroso-2-naphtholato)nickel" .
+
+<inchikey/XXUXZYUEOIIYNY-UHFFFAOYSA-N>
+    <http://semanticscience.org/resource/SIO_000011> <compound/CID83033> .
+
+<substance/SID135041193>
+    <http://semanticscience.org/resource/CHEMINF_000477> <compound/CID83033> .
+
+<substance/SID341699125>
+    <http://semanticscience.org/resource/CHEMINF_000477> <compound/CID83033> .
+
+<substance/SID43138073>
+    <http://semanticscience.org/resource/CHEMINF_000477> <compound/CID83033> .
+
+<substance/SID484020089>
+    <http://semanticscience.org/resource/CHEMINF_000477> <compound/CID83033> .
+
+<substance/SID50535476>
+    <http://semanticscience.org/resource/CHEMINF_000477> <compound/CID83033> .
+
+<substance/SID505564272>
+    <http://semanticscience.org/resource/CHEMINF_000477> <compound/CID83033> .
+
+<synonym/MD5_0b96af7ec97e0bd6c191b5afa6df88b5>
+    <http://semanticscience.org/resource/SIO_000011> <compound/CID83033> .
+
+<synonym/MD5_3025a969a354d02fe6a1d77433dc7f1f>
+    <http://semanticscience.org/resource/SIO_000011> <compound/CID83033> .
+
+<synonym/MD5_7c4b638e7936d317136d3f115a6c4e6b>
+    <http://semanticscience.org/resource/SIO_000011> <compound/CID83033> .
+
+<synonym/MD5_eda9bf3ad8d8cf35f74b438b901e5e2c>
+    <http://semanticscience.org/resource/SIO_000011> <compound/CID83033> .
+
+<synonym/MD5_efe41e6ca06b3ad593c1ffa8315c1221>
+    <http://semanticscience.org/resource/SIO_000011> <compound/CID83033> .
+
+

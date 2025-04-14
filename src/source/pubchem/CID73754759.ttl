@@ -1,0 +1,37 @@
+@base <http://rdf.ncbi.nlm.nih.gov/pubchem/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+
+<compound/CID165363647>
+    <http://semanticscience.org/resource/CHEMINF_000461> <compound/CID73754759> .
+
+<compound/CID21138709>
+    <http://semanticscience.org/resource/CHEMINF_000461> <compound/CID73754759> .
+
+<compound/CID59071809>
+    <http://semanticscience.org/resource/CHEMINF_000461> <compound/CID73754759> .
+
+<compound/CID73754759>
+    <http://purl.org/dc/terms/identifier> "73754759" ;
+    <vocabulary#has_parent> <compound/CID53788226> ;
+    <http://semanticscience.org/resource/CHEMINF_000461> <compound/CID165363647>, <compound/CID21138709>, <compound/CID59071809> ;
+    <http://semanticscience.org/resource/CHEMINF_000480> <compound/CID5462222> ;
+    <http://semanticscience.org/resource/SIO_000008> <descriptor/CID73754759_Canonical_SMILES>, <descriptor/CID73754759_Compound_Identifier>, <descriptor/CID73754759_Covalent_Unit_Count>, <descriptor/CID73754759_Defined_Atom_Stereo_Count>, <descriptor/CID73754759_Defined_Bond_Stereo_Count>, <descriptor/CID73754759_Exact_Mass>, <descriptor/CID73754759_Hydrogen_Bond_Acceptor_Count>, <descriptor/CID73754759_Hydrogen_Bond_Donor_Count>, <descriptor/CID73754759_IUPAC_InChI>, <descriptor/CID73754759_Isomeric_SMILES>, <descriptor/CID73754759_Isotope_Atom_Count>, <descriptor/CID73754759_Molecular_Formula>, <descriptor/CID73754759_Molecular_Weight>, <descriptor/CID73754759_Mono_Isotopic_Weight>, <descriptor/CID73754759_Non-hydrogen_Atom_Count>, <descriptor/CID73754759_Preferred_IUPAC_Name>, <descriptor/CID73754759_Rotatable_Bond_Count>, <descriptor/CID73754759_Structure_Complexity>, <descriptor/CID73754759_TPSA>, <descriptor/CID73754759_Total_Formal_Charge>, <descriptor/CID73754759_Undefined_Atom_Stereo_Count>, <descriptor/CID73754759_Undefined_Bond_Stereo_Count> ;
+    a <vocabulary#Compound> ;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Potassium 1-methyl-4-{3-[1-methyl-3-(morpholine-4-carbonyl)-5-oxo-1,5-dihydro-4H-pyrazol-4-ylidene]prop-1-en-1-yl}-3-(morpholine-4-carbonyl)-1H-pyrazol-5-olate" .
+
+<inchikey/UNWCBEJNGJRTAI-UHFFFAOYSA-M>
+    <http://semanticscience.org/resource/SIO_000011> <compound/CID73754759> .
+
+<substance/SID472273545>
+    <http://semanticscience.org/resource/CHEMINF_000477> <compound/CID73754759> .
+
+<synonym/MD5_32d3bd00dce33c2e8ee8b81f7368d642>
+    <http://semanticscience.org/resource/SIO_000011> <compound/CID73754759> .
+
+<synonym/MD5_68571180050e58bdac77e93514ae752c>
+    <http://semanticscience.org/resource/SIO_000011> <compound/CID73754759> .
+
+<synonym/MD5_87c4621a9276716cb53b4fcc704fe04c>
+    <http://semanticscience.org/resource/SIO_000011> <compound/CID73754759> .
+
+

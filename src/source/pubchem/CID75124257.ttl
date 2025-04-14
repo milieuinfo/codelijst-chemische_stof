@@ -1,0 +1,37 @@
+@base <http://rdf.ncbi.nlm.nih.gov/pubchem/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+
+<compound/CID75124257>
+    <http://purl.org/dc/terms/identifier> "75124257" ;
+    <http://semanticscience.org/resource/SIO_000008> <descriptor/CID75124257_Canonical_SMILES>, <descriptor/CID75124257_Compound_Identifier>, <descriptor/CID75124257_Covalent_Unit_Count>, <descriptor/CID75124257_Defined_Atom_Stereo_Count>, <descriptor/CID75124257_Defined_Bond_Stereo_Count>, <descriptor/CID75124257_Exact_Mass>, <descriptor/CID75124257_Hydrogen_Bond_Acceptor_Count>, <descriptor/CID75124257_Hydrogen_Bond_Donor_Count>, <descriptor/CID75124257_IUPAC_InChI>, <descriptor/CID75124257_Isomeric_SMILES>, <descriptor/CID75124257_Isotope_Atom_Count>, <descriptor/CID75124257_Molecular_Formula>, <descriptor/CID75124257_Molecular_Weight>, <descriptor/CID75124257_Mono_Isotopic_Weight>, <descriptor/CID75124257_Non-hydrogen_Atom_Count>, <descriptor/CID75124257_Preferred_IUPAC_Name>, <descriptor/CID75124257_Rotatable_Bond_Count>, <descriptor/CID75124257_Structure_Complexity>, <descriptor/CID75124257_TPSA>, <descriptor/CID75124257_Total_Formal_Charge>, <descriptor/CID75124257_Undefined_Atom_Stereo_Count>, <descriptor/CID75124257_Undefined_Bond_Stereo_Count> ;
+    a <vocabulary#Compound> ;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Bis((+)-lactato)mercury" .
+
+<inchikey/IJVGIFSYGYHUEV-UHFFFAOYSA-L>
+    <http://semanticscience.org/resource/SIO_000011> <compound/CID75124257> .
+
+<substance/SID135298443>
+    <http://semanticscience.org/resource/CHEMINF_000477> <compound/CID75124257> .
+
+<substance/SID341192425>
+    <http://semanticscience.org/resource/CHEMINF_000477> <compound/CID75124257> .
+
+<substance/SID396730947>
+    <http://semanticscience.org/resource/CHEMINF_000477> <compound/CID75124257> .
+
+<substance/SID481763974>
+    <http://semanticscience.org/resource/CHEMINF_000477> <compound/CID75124257> .
+
+<synonym/MD5_48831b08873afb3c1b5c71bfb473a7d6>
+    <http://semanticscience.org/resource/SIO_000011> <compound/CID75124257> .
+
+<synonym/MD5_ec123932a9e86c76777622f04cc160b2>
+    <http://semanticscience.org/resource/SIO_000011> <compound/CID75124257> .
+
+<synonym/MD5_ece83790766b99bae42a6c167d05388b>
+    <http://semanticscience.org/resource/SIO_000011> <compound/CID75124257> .
+
+<synonym/MD5_f4f00a4d4e0ad237f775171ebb9ce01b>
+    <http://semanticscience.org/resource/SIO_000011> <compound/CID75124257> .
+
+

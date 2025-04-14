@@ -1,0 +1,59 @@
+@base <http://rdf.ncbi.nlm.nih.gov/pubchem/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+
+<compound/CID24863442>
+    <http://purl.org/dc/terms/identifier> "24863442" ;
+    <http://semanticscience.org/resource/CHEMINF_000480> <compound/CID29109>, <compound/CID5352425> ;
+    <http://semanticscience.org/resource/SIO_000008> <descriptor/CID24863442_Canonical_SMILES>, <descriptor/CID24863442_Compound_Identifier>, <descriptor/CID24863442_Covalent_Unit_Count>, <descriptor/CID24863442_Defined_Atom_Stereo_Count>, <descriptor/CID24863442_Defined_Bond_Stereo_Count>, <descriptor/CID24863442_Exact_Mass>, <descriptor/CID24863442_Hydrogen_Bond_Acceptor_Count>, <descriptor/CID24863442_Hydrogen_Bond_Donor_Count>, <descriptor/CID24863442_IUPAC_InChI>, <descriptor/CID24863442_Isomeric_SMILES>, <descriptor/CID24863442_Isotope_Atom_Count>, <descriptor/CID24863442_Molecular_Formula>, <descriptor/CID24863442_Molecular_Weight>, <descriptor/CID24863442_Mono_Isotopic_Weight>, <descriptor/CID24863442_Non-hydrogen_Atom_Count>, <descriptor/CID24863442_Rotatable_Bond_Count>, <descriptor/CID24863442_Structure_Complexity>, <descriptor/CID24863442_TPSA>, <descriptor/CID24863442_Total_Formal_Charge>, <descriptor/CID24863442_Undefined_Atom_Stereo_Count>, <descriptor/CID24863442_Undefined_Bond_Stereo_Count> ;
+    a <vocabulary#Compound> ;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Lead disulphide" .
+
+<cooccurrence/CID24863442_CID108196>
+    rdf:subject <compound/CID24863442> .
+
+<cooccurrence/CID24863442_DZID11449>
+    rdf:subject <compound/CID24863442> .
+
+<inchikey/CFCOCNLKEULEBS-UHFFFAOYSA-N>
+    <http://semanticscience.org/resource/SIO_000011> <compound/CID24863442> .
+
+<substance/SID135203308>
+    <http://semanticscience.org/resource/CHEMINF_000477> <compound/CID24863442> .
+
+<substance/SID468716633>
+    <http://semanticscience.org/resource/CHEMINF_000477> <compound/CID24863442> .
+
+<substance/SID472549604>
+    <http://semanticscience.org/resource/CHEMINF_000477> <compound/CID24863442> .
+
+<substance/SID481765600>
+    <http://semanticscience.org/resource/CHEMINF_000477> <compound/CID24863442> .
+
+<substance/SID489079245>
+    <http://semanticscience.org/resource/CHEMINF_000477> <compound/CID24863442> .
+
+<substance/SID50095447>
+    <http://semanticscience.org/resource/CHEMINF_000477> <compound/CID24863442> .
+
+<substance/SID504195914>
+    <http://semanticscience.org/resource/CHEMINF_000477> <compound/CID24863442> .
+
+<substance/SID505794464>
+    <http://semanticscience.org/resource/CHEMINF_000477> <compound/CID24863442> .
+
+<synonym/MD5_2f6accdae377801b3ac20c60c569f62d>
+    <http://semanticscience.org/resource/SIO_000011> <compound/CID24863442> .
+
+<synonym/MD5_40608de057f220a602c9531728c8191b>
+    <http://semanticscience.org/resource/SIO_000011> <compound/CID24863442> .
+
+<synonym/MD5_86803bca3ba228438f8e9365e0eb46fc>
+    <http://semanticscience.org/resource/SIO_000011> <compound/CID24863442> .
+
+<synonym/MD5_8d9707ae882bb4bc77c3b8d819a22500>
+    <http://semanticscience.org/resource/SIO_000011> <compound/CID24863442> .
+
+<synonym/MD5_fde0f31f4ccfe0678dc7373344ff0179>
+    <http://semanticscience.org/resource/SIO_000011> <compound/CID24863442> .
+
+

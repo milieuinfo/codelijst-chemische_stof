@@ -1,0 +1,38 @@
+@base <http://rdf.ncbi.nlm.nih.gov/pubchem/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+
+<compound/CID101946321>
+    <http://purl.org/dc/terms/identifier> "101946321" ;
+    <http://semanticscience.org/resource/CHEMINF_000480> <compound/CID23976>, <compound/CID5359596> ;
+    <http://semanticscience.org/resource/SIO_000008> <descriptor/CID101946321_Canonical_SMILES>, <descriptor/CID101946321_Compound_Identifier>, <descriptor/CID101946321_Covalent_Unit_Count>, <descriptor/CID101946321_Defined_Atom_Stereo_Count>, <descriptor/CID101946321_Defined_Bond_Stereo_Count>, <descriptor/CID101946321_Exact_Mass>, <descriptor/CID101946321_Hydrogen_Bond_Acceptor_Count>, <descriptor/CID101946321_Hydrogen_Bond_Donor_Count>, <descriptor/CID101946321_IUPAC_InChI>, <descriptor/CID101946321_Isomeric_SMILES>, <descriptor/CID101946321_Isotope_Atom_Count>, <descriptor/CID101946321_Molecular_Formula>, <descriptor/CID101946321_Molecular_Weight>, <descriptor/CID101946321_Mono_Isotopic_Weight>, <descriptor/CID101946321_Non-hydrogen_Atom_Count>, <descriptor/CID101946321_Preferred_IUPAC_Name>, <descriptor/CID101946321_Rotatable_Bond_Count>, <descriptor/CID101946321_Structure_Complexity>, <descriptor/CID101946321_TPSA>, <descriptor/CID101946321_Total_Formal_Charge>, <descriptor/CID101946321_Undefined_Atom_Stereo_Count>, <descriptor/CID101946321_Undefined_Bond_Stereo_Count> ;
+    a <vocabulary#Compound> ;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Chromium arsenide (Cr2As)" .
+
+<inchikey/OTJXRUHUGBSPCL-UHFFFAOYSA-N>
+    <http://semanticscience.org/resource/SIO_000011> <compound/CID101946321> .
+
+<substance/SID274838599>
+    <http://semanticscience.org/resource/CHEMINF_000477> <compound/CID101946321> .
+
+<substance/SID442922434>
+    <http://semanticscience.org/resource/CHEMINF_000477> <compound/CID101946321> .
+
+<substance/SID483716694>
+    <http://semanticscience.org/resource/CHEMINF_000477> <compound/CID101946321> .
+
+<substance/SID505572611>
+    <http://semanticscience.org/resource/CHEMINF_000477> <compound/CID101946321> .
+
+<synonym/MD5_5c8590074bdf3932447f767a7786c925>
+    <http://semanticscience.org/resource/SIO_000011> <compound/CID101946321> .
+
+<synonym/MD5_b4c9767f495d302e01bb7cafdff64259>
+    <http://semanticscience.org/resource/SIO_000011> <compound/CID101946321> .
+
+<synonym/MD5_ba41ddcad6e09029794c491dda8ac7ca>
+    <http://semanticscience.org/resource/SIO_000011> <compound/CID101946321> .
+
+<synonym/MD5_bdf50ad2d6b29a9324b6c06f77e461c2>
+    <http://semanticscience.org/resource/SIO_000011> <compound/CID101946321> .
+
+

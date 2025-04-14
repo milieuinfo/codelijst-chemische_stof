@@ -1,0 +1,35 @@
+@base <http://rdf.ncbi.nlm.nih.gov/pubchem/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+
+<compound/CID44154013>
+    <http://purl.org/dc/terms/identifier> "44154013" ;
+    <http://semanticscience.org/resource/CHEMINF_000480> <compound/CID190217>, <compound/CID23964>, <compound/CID5352425> ;
+    <http://semanticscience.org/resource/SIO_000008> <descriptor/CID44154013_Canonical_SMILES>, <descriptor/CID44154013_Compound_Identifier>, <descriptor/CID44154013_Covalent_Unit_Count>, <descriptor/CID44154013_Defined_Atom_Stereo_Count>, <descriptor/CID44154013_Defined_Bond_Stereo_Count>, <descriptor/CID44154013_Exact_Mass>, <descriptor/CID44154013_Hydrogen_Bond_Acceptor_Count>, <descriptor/CID44154013_Hydrogen_Bond_Donor_Count>, <descriptor/CID44154013_IUPAC_InChI>, <descriptor/CID44154013_Isomeric_SMILES>, <descriptor/CID44154013_Isotope_Atom_Count>, <descriptor/CID44154013_Molecular_Formula>, <descriptor/CID44154013_Molecular_Weight>, <descriptor/CID44154013_Mono_Isotopic_Weight>, <descriptor/CID44154013_Non-hydrogen_Atom_Count>, <descriptor/CID44154013_Preferred_IUPAC_Name>, <descriptor/CID44154013_Rotatable_Bond_Count>, <descriptor/CID44154013_Structure_Complexity>, <descriptor/CID44154013_TPSA>, <descriptor/CID44154013_Total_Formal_Charge>, <descriptor/CID44154013_Undefined_Atom_Stereo_Count>, <descriptor/CID44154013_Undefined_Bond_Stereo_Count> ;
+    a <vocabulary#Compound> ;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Lead tungsten oxide" .
+
+<inchikey/PPOHKRRIWIOADJ-UHFFFAOYSA-N>
+    <http://semanticscience.org/resource/SIO_000011> <compound/CID44154013> .
+
+<substance/SID135270142>
+    <http://semanticscience.org/resource/CHEMINF_000477> <compound/CID44154013> .
+
+<substance/SID472550891>
+    <http://semanticscience.org/resource/CHEMINF_000477> <compound/CID44154013> .
+
+<substance/SID505794507>
+    <http://semanticscience.org/resource/CHEMINF_000477> <compound/CID44154013> .
+
+<synonym/MD5_01192a265d089c395309d3db712630f5>
+    <http://semanticscience.org/resource/SIO_000011> <compound/CID44154013> .
+
+<synonym/MD5_273733addecdf39c6750b0fa618051cd>
+    <http://semanticscience.org/resource/SIO_000011> <compound/CID44154013> .
+
+<synonym/MD5_758bdf39a213dd1f9895a74f4a425f4d>
+    <http://semanticscience.org/resource/SIO_000011> <compound/CID44154013> .
+
+<synonym/MD5_94c3be2898b2da27093de7b1288e3667>
+    <http://semanticscience.org/resource/SIO_000011> <compound/CID44154013> .
+
+

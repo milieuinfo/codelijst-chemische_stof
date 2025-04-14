@@ -1,0 +1,42 @@
+@base <http://rdf.ncbi.nlm.nih.gov/pubchem/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+
+<compound/CID86278680>
+    <http://purl.org/dc/terms/identifier> "86278680" ;
+    <vocabulary#has_parent> <compound/CID8758> ;
+    <http://semanticscience.org/resource/CHEMINF_000480> <compound/CID5462222>, <compound/CID935> ;
+    <http://semanticscience.org/resource/SIO_000008> <descriptor/CID86278680_Canonical_SMILES>, <descriptor/CID86278680_Compound_Identifier>, <descriptor/CID86278680_Covalent_Unit_Count>, <descriptor/CID86278680_Defined_Atom_Stereo_Count>, <descriptor/CID86278680_Defined_Bond_Stereo_Count>, <descriptor/CID86278680_Exact_Mass>, <descriptor/CID86278680_Hydrogen_Bond_Acceptor_Count>, <descriptor/CID86278680_Hydrogen_Bond_Donor_Count>, <descriptor/CID86278680_IUPAC_InChI>, <descriptor/CID86278680_Isomeric_SMILES>, <descriptor/CID86278680_Isotope_Atom_Count>, <descriptor/CID86278680_Molecular_Formula>, <descriptor/CID86278680_Molecular_Weight>, <descriptor/CID86278680_Mono_Isotopic_Weight>, <descriptor/CID86278680_Non-hydrogen_Atom_Count>, <descriptor/CID86278680_Preferred_IUPAC_Name>, <descriptor/CID86278680_Rotatable_Bond_Count>, <descriptor/CID86278680_Structure_Complexity>, <descriptor/CID86278680_TPSA>, <descriptor/CID86278680_Total_Formal_Charge>, <descriptor/CID86278680_Undefined_Atom_Stereo_Count>, <descriptor/CID86278680_Undefined_Bond_Stereo_Count> ;
+    a <vocabulary#Compound> ;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Potassium (N,N-bis(carboxymethyl)glycinato(3-)-N,O,O',O'')nickelate(1-)" .
+
+<inchikey/WZMYCNZOXCYIKX-UHFFFAOYSA-N>
+    <http://semanticscience.org/resource/SIO_000011> <compound/CID86278680> .
+
+<substance/SID135334625>
+    <http://semanticscience.org/resource/CHEMINF_000477> <compound/CID86278680> .
+
+<substance/SID319417922>
+    <http://semanticscience.org/resource/CHEMINF_000477> <compound/CID86278680> .
+
+<substance/SID481743274>
+    <http://semanticscience.org/resource/CHEMINF_000477> <compound/CID86278680> .
+
+<substance/SID505863390>
+    <http://semanticscience.org/resource/CHEMINF_000477> <compound/CID86278680> .
+
+<synonym/MD5_186c40d5f9d98af1979b5fd99c6c17b2>
+    <http://semanticscience.org/resource/SIO_000011> <compound/CID86278680> .
+
+<synonym/MD5_71e20c3ab0e2a7794414ccd0845070fb>
+    <http://semanticscience.org/resource/SIO_000011> <compound/CID86278680> .
+
+<synonym/MD5_7a38025cdb516a7a2fccc325e54a2f75>
+    <http://semanticscience.org/resource/SIO_000011> <compound/CID86278680> .
+
+<synonym/MD5_b7a7bb8a88e70c79fcf5a2014c4d8fa5>
+    <http://semanticscience.org/resource/SIO_000011> <compound/CID86278680> .
+
+<synonym/MD5_faa0f2aff0033e2fc732e5d8fc94ac08>
+    <http://semanticscience.org/resource/SIO_000011> <compound/CID86278680> .
+
+

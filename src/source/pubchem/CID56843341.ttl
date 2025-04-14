@@ -1,0 +1,52 @@
+@base <http://rdf.ncbi.nlm.nih.gov/pubchem/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+
+<compound/CID56843341>
+    <http://purl.org/dc/terms/identifier> "56843341" ;
+    <vocabulary#has_parent> <compound/CID499> ;
+    <http://semanticscience.org/resource/CHEMINF_000461> <compound/CID56843913> ;
+    <http://semanticscience.org/resource/CHEMINF_000480> <compound/CID23973> ;
+    <http://semanticscience.org/resource/SIO_000008> <descriptor/CID56843341_Canonical_SMILES>, <descriptor/CID56843341_Compound_Identifier>, <descriptor/CID56843341_Covalent_Unit_Count>, <descriptor/CID56843341_Defined_Atom_Stereo_Count>, <descriptor/CID56843341_Defined_Bond_Stereo_Count>, <descriptor/CID56843341_Exact_Mass>, <descriptor/CID56843341_Hydrogen_Bond_Acceptor_Count>, <descriptor/CID56843341_Hydrogen_Bond_Donor_Count>, <descriptor/CID56843341_IUPAC_InChI>, <descriptor/CID56843341_Isomeric_SMILES>, <descriptor/CID56843341_Isotope_Atom_Count>, <descriptor/CID56843341_Molecular_Formula>, <descriptor/CID56843341_Molecular_Weight>, <descriptor/CID56843341_Mono_Isotopic_Weight>, <descriptor/CID56843341_Non-hydrogen_Atom_Count>, <descriptor/CID56843341_Preferred_IUPAC_Name>, <descriptor/CID56843341_Rotatable_Bond_Count>, <descriptor/CID56843341_Structure_Complexity>, <descriptor/CID56843341_TPSA>, <descriptor/CID56843341_Total_Formal_Charge>, <descriptor/CID56843341_Undefined_Atom_Stereo_Count>, <descriptor/CID56843341_Undefined_Bond_Stereo_Count> ;
+    a <vocabulary#Compound> ;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Bis(5-oxo-DL-prolinato-N1,O2)cadmium" .
+
+<compound/CID56843913>
+    <http://semanticscience.org/resource/CHEMINF_000461> <compound/CID56843341> .
+
+<inchikey/KFNCXNRYWQOQQM-UHFFFAOYSA-N>
+    <http://semanticscience.org/resource/SIO_000011> <compound/CID56843341> .
+
+<substance/SID135267279>
+    <http://semanticscience.org/resource/CHEMINF_000477> <compound/CID56843341> .
+
+<substance/SID319402606>
+    <http://semanticscience.org/resource/CHEMINF_000477> <compound/CID56843341> .
+
+<substance/SID472292493>
+    <http://semanticscience.org/resource/CHEMINF_000477> <compound/CID56843341> .
+
+<substance/SID481758787>
+    <http://semanticscience.org/resource/CHEMINF_000477> <compound/CID56843341> .
+
+<substance/SID505564671>
+    <http://semanticscience.org/resource/CHEMINF_000477> <compound/CID56843341> .
+
+<synonym/MD5_2102f5e950f62049249ece8db6391fad>
+    <http://semanticscience.org/resource/SIO_000011> <compound/CID56843341> .
+
+<synonym/MD5_99405a485a34a02712f6bae6b402c91e>
+    <http://semanticscience.org/resource/SIO_000011> <compound/CID56843341> .
+
+<synonym/MD5_bfa96eea450944c5fa7597f0dccc1a51>
+    <http://semanticscience.org/resource/SIO_000011> <compound/CID56843341> .
+
+<synonym/MD5_cf28256a6c0bd0ac3f1d08497dd795bc>
+    <http://semanticscience.org/resource/SIO_000011> <compound/CID56843341> .
+
+<synonym/MD5_f31a7ef7abc511af96dfd682daee0d4c>
+    <http://semanticscience.org/resource/SIO_000011> <compound/CID56843341> .
+
+<synonym/MD5_f42447100ed5e77958eff6c326280419>
+    <http://semanticscience.org/resource/SIO_000011> <compound/CID56843341> .
+
+

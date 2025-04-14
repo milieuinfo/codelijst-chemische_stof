@@ -1,0 +1,65 @@
+@base <http://rdf.ncbi.nlm.nih.gov/pubchem/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+
+<compound/CID145699646>
+    <vocabulary#has_parent> <compound/CID67567606> .
+
+<compound/CID67567606>
+    <http://purl.org/dc/terms/identifier> "67567606" ;
+    <http://semanticscience.org/resource/CHEMINF_000461> <compound/CID90264800> ;
+    <http://semanticscience.org/resource/SIO_000008> <descriptor/CID67567606_Canonical_SMILES>, <descriptor/CID67567606_Compound_Identifier>, <descriptor/CID67567606_Covalent_Unit_Count>, <descriptor/CID67567606_Defined_Atom_Stereo_Count>, <descriptor/CID67567606_Defined_Bond_Stereo_Count>, <descriptor/CID67567606_Exact_Mass>, <descriptor/CID67567606_Hydrogen_Bond_Acceptor_Count>, <descriptor/CID67567606_Hydrogen_Bond_Donor_Count>, <descriptor/CID67567606_IUPAC_InChI>, <descriptor/CID67567606_Isomeric_SMILES>, <descriptor/CID67567606_Isotope_Atom_Count>, <descriptor/CID67567606_Molecular_Formula>, <descriptor/CID67567606_Molecular_Weight>, <descriptor/CID67567606_Mono_Isotopic_Weight>, <descriptor/CID67567606_Non-hydrogen_Atom_Count>, <descriptor/CID67567606_Preferred_IUPAC_Name>, <descriptor/CID67567606_Rotatable_Bond_Count>, <descriptor/CID67567606_Structure_Complexity>, <descriptor/CID67567606_TPSA>, <descriptor/CID67567606_Total_Formal_Charge>, <descriptor/CID67567606_Undefined_Atom_Stereo_Count>, <descriptor/CID67567606_Undefined_Bond_Stereo_Count>, <descriptor/CID67567606_XLogP3> ;
+    a <vocabulary#Compound> ;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "4-(1,3,3-Trimethylbutyl)phenol" .
+
+<compound/CID90264800>
+    <http://semanticscience.org/resource/CHEMINF_000461> <compound/CID67567606> .
+
+<inchikey/IBFRFTCWVRITCN-UHFFFAOYSA-N>
+    <http://semanticscience.org/resource/SIO_000011> <compound/CID67567606> .
+
+<substance/SID233893976>
+    <http://semanticscience.org/resource/CHEMINF_000477> <compound/CID67567606> .
+
+<substance/SID247962823>
+    <http://semanticscience.org/resource/CHEMINF_000477> <compound/CID67567606> .
+
+<substance/SID402149173>
+    <http://semanticscience.org/resource/CHEMINF_000477> <compound/CID67567606> .
+
+<substance/SID427855020>
+    <http://semanticscience.org/resource/CHEMINF_000477> <compound/CID67567606> .
+
+<substance/SID472273636>
+    <http://semanticscience.org/resource/CHEMINF_000477> <compound/CID67567606> .
+
+<substance/SID482321938>
+    <http://semanticscience.org/resource/CHEMINF_000477> <compound/CID67567606> .
+
+<substance/SID495656620>
+    <http://semanticscience.org/resource/CHEMINF_000477> <compound/CID67567606> .
+
+<substance/SID504395626>
+    <http://semanticscience.org/resource/CHEMINF_000477> <compound/CID67567606> .
+
+<substance/SID505505863>
+    <http://semanticscience.org/resource/CHEMINF_000477> <compound/CID67567606> .
+
+<synonym/MD5_0f7f048acbe7c3d6cc233e5ffcd545b9>
+    <http://semanticscience.org/resource/SIO_000011> <compound/CID67567606> .
+
+<synonym/MD5_249161baa261d67a7360a735d17222e2>
+    <http://semanticscience.org/resource/SIO_000011> <compound/CID67567606> .
+
+<synonym/MD5_403c760de62d2588f4233c3483b5d072>
+    <http://semanticscience.org/resource/SIO_000011> <compound/CID67567606> .
+
+<synonym/MD5_5e90e6f014ed5e49810adb6957f7cd8e>
+    <http://semanticscience.org/resource/SIO_000011> <compound/CID67567606> .
+
+<synonym/MD5_82b68746f24af924f50cb38a96b1950f>
+    <http://semanticscience.org/resource/SIO_000011> <compound/CID67567606> .
+
+<synonym/MD5_a447a7cf8c0c5f84a195c94057a2461c>
+    <http://semanticscience.org/resource/SIO_000011> <compound/CID67567606> .
+
+

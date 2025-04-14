@@ -1,0 +1,39 @@
+@base <http://rdf.ncbi.nlm.nih.gov/pubchem/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+
+<compound/CID138396485>
+    <http://purl.org/dc/terms/identifier> "138396485" ;
+    <vocabulary#has_parent> <compound/CID19078939> ;
+    <http://semanticscience.org/resource/CHEMINF_000480> <compound/CID5360545> ;
+    <http://semanticscience.org/resource/SIO_000008> <descriptor/CID138396485_Canonical_SMILES>, <descriptor/CID138396485_Compound_Identifier>, <descriptor/CID138396485_Covalent_Unit_Count>, <descriptor/CID138396485_Defined_Atom_Stereo_Count>, <descriptor/CID138396485_Defined_Bond_Stereo_Count>, <descriptor/CID138396485_Exact_Mass>, <descriptor/CID138396485_Hydrogen_Bond_Acceptor_Count>, <descriptor/CID138396485_Hydrogen_Bond_Donor_Count>, <descriptor/CID138396485_IUPAC_InChI>, <descriptor/CID138396485_Isomeric_SMILES>, <descriptor/CID138396485_Isotope_Atom_Count>, <descriptor/CID138396485_Molecular_Formula>, <descriptor/CID138396485_Molecular_Weight>, <descriptor/CID138396485_Mono_Isotopic_Weight>, <descriptor/CID138396485_Non-hydrogen_Atom_Count>, <descriptor/CID138396485_Preferred_IUPAC_Name>, <descriptor/CID138396485_Rotatable_Bond_Count>, <descriptor/CID138396485_Structure_Complexity>, <descriptor/CID138396485_TPSA>, <descriptor/CID138396485_Total_Formal_Charge>, <descriptor/CID138396485_Undefined_Atom_Stereo_Count>, <descriptor/CID138396485_Undefined_Bond_Stereo_Count> ;
+    a <vocabulary#Compound> ;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Sodium perfluoro-2-ethylhexanoate" .
+
+<inchikey/UJQUPNIPLJTIOV-UHFFFAOYSA-M>
+    <http://semanticscience.org/resource/SIO_000011> <compound/CID138396485> .
+
+<substance/SID384461976>
+    <http://semanticscience.org/resource/CHEMINF_000477> <compound/CID138396485> .
+
+<substance/SID387159809>
+    <http://semanticscience.org/resource/CHEMINF_000477> <compound/CID138396485> .
+
+<substance/SID464858475>
+    <http://semanticscience.org/resource/CHEMINF_000477> <compound/CID138396485> .
+
+<synonym/MD5_536054378dae820d732ebe72f7f7133d>
+    <http://semanticscience.org/resource/SIO_000011> <compound/CID138396485> .
+
+<synonym/MD5_8be2587ff1cb3fff812bec9cc6aa725d>
+    <http://semanticscience.org/resource/SIO_000011> <compound/CID138396485> .
+
+<synonym/MD5_c3bd7a1b191a6d28dbdf7761b9fe910e>
+    <http://semanticscience.org/resource/SIO_000011> <compound/CID138396485> .
+
+<synonym/MD5_dc114bbd545306601bb76bd956e3460b>
+    <http://semanticscience.org/resource/SIO_000011> <compound/CID138396485> .
+
+<synonym/MD5_f645db8b7edcdcd4c81194e954e7e32f>
+    <http://semanticscience.org/resource/SIO_000011> <compound/CID138396485> .
+
+

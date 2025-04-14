@@ -1,0 +1,42 @@
+@base <http://rdf.ncbi.nlm.nih.gov/pubchem/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+
+<compound/CID122361334>
+    <http://purl.org/dc/terms/identifier> "122361334" ;
+    <vocabulary#has_parent> <compound/CID90716> ;
+    <http://semanticscience.org/resource/CHEMINF_000480> <compound/CID935> ;
+    <http://semanticscience.org/resource/SIO_000008> <descriptor/CID122361334_Canonical_SMILES>, <descriptor/CID122361334_Compound_Identifier>, <descriptor/CID122361334_Covalent_Unit_Count>, <descriptor/CID122361334_Defined_Atom_Stereo_Count>, <descriptor/CID122361334_Defined_Bond_Stereo_Count>, <descriptor/CID122361334_Exact_Mass>, <descriptor/CID122361334_Hydrogen_Bond_Acceptor_Count>, <descriptor/CID122361334_Hydrogen_Bond_Donor_Count>, <descriptor/CID122361334_IUPAC_InChI>, <descriptor/CID122361334_Isomeric_SMILES>, <descriptor/CID122361334_Isotope_Atom_Count>, <descriptor/CID122361334_Molecular_Formula>, <descriptor/CID122361334_Molecular_Weight>, <descriptor/CID122361334_Mono_Isotopic_Weight>, <descriptor/CID122361334_Non-hydrogen_Atom_Count>, <descriptor/CID122361334_Preferred_IUPAC_Name>, <descriptor/CID122361334_Rotatable_Bond_Count>, <descriptor/CID122361334_Structure_Complexity>, <descriptor/CID122361334_TPSA>, <descriptor/CID122361334_Total_Formal_Charge>, <descriptor/CID122361334_Undefined_Atom_Stereo_Count>, <descriptor/CID122361334_Undefined_Bond_Stereo_Count> ;
+    a <vocabulary#Compound> ;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Nickel isooctanoate" .
+
+<inchikey/OEJHMYWNMXTAJY-UHFFFAOYSA-N>
+    <http://semanticscience.org/resource/SIO_000011> <compound/CID122361334> .
+
+<substance/SID135335210>
+    <http://semanticscience.org/resource/CHEMINF_000477> <compound/CID122361334> .
+
+<substance/SID441066862>
+    <http://semanticscience.org/resource/CHEMINF_000477> <compound/CID122361334> .
+
+<substance/SID481765030>
+    <http://semanticscience.org/resource/CHEMINF_000477> <compound/CID122361334> .
+
+<substance/SID498195284>
+    <http://semanticscience.org/resource/CHEMINF_000477> <compound/CID122361334> .
+
+<substance/SID500809090>
+    <http://semanticscience.org/resource/CHEMINF_000477> <compound/CID122361334> .
+
+<synonym/MD5_82051439b28a113cd963e0aaf8adf096>
+    <http://semanticscience.org/resource/SIO_000011> <compound/CID122361334> .
+
+<synonym/MD5_87656823bbc2d91c11b7d8a1b608e94a>
+    <http://semanticscience.org/resource/SIO_000011> <compound/CID122361334> .
+
+<synonym/MD5_ae4f87a2034c5c126479ab0eddb91678>
+    <http://semanticscience.org/resource/SIO_000011> <compound/CID122361334> .
+
+<synonym/MD5_ce7a62fe8cc35aa71e0e19e6686329d6>
+    <http://semanticscience.org/resource/SIO_000011> <compound/CID122361334> .
+
+

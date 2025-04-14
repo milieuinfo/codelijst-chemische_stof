@@ -1,0 +1,45 @@
+@base <http://rdf.ncbi.nlm.nih.gov/pubchem/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+
+<compound/CID15848508>
+    <http://purl.org/dc/terms/identifier> "15848508" ;
+    <vocabulary#has_parent> <compound/CID176> ;
+    <http://semanticscience.org/resource/CHEMINF_000480> <compound/CID935> ;
+    <http://semanticscience.org/resource/SIO_000008> <descriptor/CID15848508_Canonical_SMILES>, <descriptor/CID15848508_Compound_Identifier>, <descriptor/CID15848508_Covalent_Unit_Count>, <descriptor/CID15848508_Defined_Atom_Stereo_Count>, <descriptor/CID15848508_Defined_Bond_Stereo_Count>, <descriptor/CID15848508_Exact_Mass>, <descriptor/CID15848508_Hydrogen_Bond_Acceptor_Count>, <descriptor/CID15848508_Hydrogen_Bond_Donor_Count>, <descriptor/CID15848508_IUPAC_InChI>, <descriptor/CID15848508_Isomeric_SMILES>, <descriptor/CID15848508_Isotope_Atom_Count>, <descriptor/CID15848508_Molecular_Formula>, <descriptor/CID15848508_Molecular_Weight>, <descriptor/CID15848508_Mono_Isotopic_Weight>, <descriptor/CID15848508_Non-hydrogen_Atom_Count>, <descriptor/CID15848508_Preferred_IUPAC_Name>, <descriptor/CID15848508_Rotatable_Bond_Count>, <descriptor/CID15848508_Structure_Complexity>, <descriptor/CID15848508_TPSA>, <descriptor/CID15848508_Total_Formal_Charge>, <descriptor/CID15848508_Undefined_Atom_Stereo_Count>, <descriptor/CID15848508_Undefined_Bond_Stereo_Count> ;
+    a <vocabulary#Compound> ;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "acetic acid, nickel salt" .
+
+<inchikey/HGHGWMFSVVJPKV-UHFFFAOYSA-M>
+    <http://semanticscience.org/resource/SIO_000011> <compound/CID15848508> .
+
+<substance/SID135261191>
+    <http://semanticscience.org/resource/CHEMINF_000477> <compound/CID15848508> .
+
+<substance/SID319359480>
+    <http://semanticscience.org/resource/CHEMINF_000477> <compound/CID15848508> .
+
+<substance/SID37345145>
+    <http://semanticscience.org/resource/CHEMINF_000477> <compound/CID15848508> .
+
+<substance/SID449337670>
+    <http://semanticscience.org/resource/CHEMINF_000477> <compound/CID15848508> .
+
+<substance/SID481763550>
+    <http://semanticscience.org/resource/CHEMINF_000477> <compound/CID15848508> .
+
+<substance/SID500752391>
+    <http://semanticscience.org/resource/CHEMINF_000477> <compound/CID15848508> .
+
+<synonym/MD5_0c3bffc3ee953f73dd34e360e7ed8e31>
+    <http://semanticscience.org/resource/SIO_000011> <compound/CID15848508> .
+
+<synonym/MD5_1ae6c74ed0f1da33c73abed162c9225d>
+    <http://semanticscience.org/resource/SIO_000011> <compound/CID15848508> .
+
+<synonym/MD5_37825ce98d60663e811ef2812601db00>
+    <http://semanticscience.org/resource/SIO_000011> <compound/CID15848508> .
+
+<synonym/MD5_f635bdfd78337db6e8c99a1dc3577ebf>
+    <http://semanticscience.org/resource/SIO_000011> <compound/CID15848508> .
+
+

@@ -1,0 +1,30 @@
+@base <http://rdf.ncbi.nlm.nih.gov/pubchem/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+
+<compound/CID91808928>
+    <http://purl.org/dc/terms/identifier> "91808928" ;
+    <vocabulary#has_parent> <compound/CID91808929> ;
+    <http://semanticscience.org/resource/CHEMINF_000480> <compound/CID935> ;
+    <http://semanticscience.org/resource/SIO_000008> <descriptor/CID91808928_Canonical_SMILES>, <descriptor/CID91808928_Compound_Identifier>, <descriptor/CID91808928_Covalent_Unit_Count>, <descriptor/CID91808928_Defined_Atom_Stereo_Count>, <descriptor/CID91808928_Defined_Bond_Stereo_Count>, <descriptor/CID91808928_Exact_Mass>, <descriptor/CID91808928_Hydrogen_Bond_Acceptor_Count>, <descriptor/CID91808928_Hydrogen_Bond_Donor_Count>, <descriptor/CID91808928_IUPAC_InChI>, <descriptor/CID91808928_Isomeric_SMILES>, <descriptor/CID91808928_Isotope_Atom_Count>, <descriptor/CID91808928_Molecular_Formula>, <descriptor/CID91808928_Molecular_Weight>, <descriptor/CID91808928_Mono_Isotopic_Weight>, <descriptor/CID91808928_Non-hydrogen_Atom_Count>, <descriptor/CID91808928_Preferred_IUPAC_Name>, <descriptor/CID91808928_Rotatable_Bond_Count>, <descriptor/CID91808928_Structure_Complexity>, <descriptor/CID91808928_TPSA>, <descriptor/CID91808928_Total_Formal_Charge>, <descriptor/CID91808928_Undefined_Atom_Stereo_Count>, <descriptor/CID91808928_Undefined_Bond_Stereo_Count> ;
+    a <vocabulary#Compound> ;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Nickel, bis((didecyl (1,2-dicyano-1,2-ethenediyl)bis(carbamato))(2-))-" .
+
+<inchikey/ANOXRQJTDCFENL-QZVDAIQISA-J>
+    <http://semanticscience.org/resource/SIO_000011> <compound/CID91808928> .
+
+<substance/SID135361249>
+    <http://semanticscience.org/resource/CHEMINF_000477> <compound/CID91808928> .
+
+<substance/SID319421958>
+    <http://semanticscience.org/resource/CHEMINF_000477> <compound/CID91808928> .
+
+<substance/SID481750957>
+    <http://semanticscience.org/resource/CHEMINF_000477> <compound/CID91808928> .
+
+<synonym/MD5_666a9a0ddf301da67eb5da206c029d76>
+    <http://semanticscience.org/resource/SIO_000011> <compound/CID91808928> .
+
+<synonym/MD5_87fc84344397f6377b2848af1fc5ba23>
+    <http://semanticscience.org/resource/SIO_000011> <compound/CID91808928> .
+
+

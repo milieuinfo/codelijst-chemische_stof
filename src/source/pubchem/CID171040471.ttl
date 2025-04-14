@@ -1,0 +1,27 @@
+@base <http://rdf.ncbi.nlm.nih.gov/pubchem/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+
+<compound/CID171040471>
+    <http://purl.org/dc/terms/identifier> "171040471" ;
+    <vocabulary#has_parent> <compound/CID170840660> ;
+    <http://semanticscience.org/resource/CHEMINF_000480> <compound/CID935> ;
+    <http://semanticscience.org/resource/SIO_000008> <descriptor/CID171040471_Canonical_SMILES>, <descriptor/CID171040471_Compound_Identifier>, <descriptor/CID171040471_Covalent_Unit_Count>, <descriptor/CID171040471_Defined_Atom_Stereo_Count>, <descriptor/CID171040471_Defined_Bond_Stereo_Count>, <descriptor/CID171040471_Exact_Mass>, <descriptor/CID171040471_Hydrogen_Bond_Acceptor_Count>, <descriptor/CID171040471_Hydrogen_Bond_Donor_Count>, <descriptor/CID171040471_IUPAC_InChI>, <descriptor/CID171040471_Isomeric_SMILES>, <descriptor/CID171040471_Isotope_Atom_Count>, <descriptor/CID171040471_Molecular_Formula>, <descriptor/CID171040471_Molecular_Weight>, <descriptor/CID171040471_Mono_Isotopic_Weight>, <descriptor/CID171040471_Non-hydrogen_Atom_Count>, <descriptor/CID171040471_Preferred_IUPAC_Name>, <descriptor/CID171040471_Rotatable_Bond_Count>, <descriptor/CID171040471_Structure_Complexity>, <descriptor/CID171040471_TPSA>, <descriptor/CID171040471_Total_Formal_Charge>, <descriptor/CID171040471_Undefined_Atom_Stereo_Count>, <descriptor/CID171040471_Undefined_Bond_Stereo_Count> ;
+    a <vocabulary#Compound> ;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Nickel, [6,8,16,18-tetrachloro-1,11-bis(2-furanylmethyl)-1,10,11,20-tetrahydrodibenzo[c,j]dipyrazolo[3,4-f:3a(2),4a(2)-m][1,2,5,8,9,12]hexaazacyclotetradecinato(2-)-N5,N10,N15,N20]-" .
+
+<inchikey/LFVTVBJWHCGNEG-UHFFFAOYSA-N>
+    <http://semanticscience.org/resource/SIO_000011> <compound/CID171040471> .
+
+<substance/SID472288471>
+    <http://semanticscience.org/resource/CHEMINF_000477> <compound/CID171040471> .
+
+<synonym/MD5_52ea123fa415942d8d1c0aa48e5e3ea6>
+    <http://semanticscience.org/resource/SIO_000011> <compound/CID171040471> .
+
+<synonym/MD5_707958afb31fbb11c459df99084277eb>
+    <http://semanticscience.org/resource/SIO_000011> <compound/CID171040471> .
+
+<synonym/MD5_ad2d374ea21e512cfa049bfa2d99b057>
+    <http://semanticscience.org/resource/SIO_000011> <compound/CID171040471> .
+
+

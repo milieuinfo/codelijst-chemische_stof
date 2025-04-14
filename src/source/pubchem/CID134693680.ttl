@@ -1,0 +1,27 @@
+@base <http://rdf.ncbi.nlm.nih.gov/pubchem/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+
+<compound/CID134693680>
+    <http://purl.org/dc/terms/identifier> "134693680" ;
+    <vocabulary#has_parent> <compound/CID62847> ;
+    <http://semanticscience.org/resource/CHEMINF_000480> <compound/CID7628>, <compound/CID935> ;
+    <http://semanticscience.org/resource/SIO_000008> <descriptor/CID134693680_Canonical_SMILES>, <descriptor/CID134693680_Compound_Identifier>, <descriptor/CID134693680_Covalent_Unit_Count>, <descriptor/CID134693680_Defined_Atom_Stereo_Count>, <descriptor/CID134693680_Defined_Bond_Stereo_Count>, <descriptor/CID134693680_Exact_Mass>, <descriptor/CID134693680_Hydrogen_Bond_Acceptor_Count>, <descriptor/CID134693680_Hydrogen_Bond_Donor_Count>, <descriptor/CID134693680_IUPAC_InChI>, <descriptor/CID134693680_Isomeric_SMILES>, <descriptor/CID134693680_Isotope_Atom_Count>, <descriptor/CID134693680_Molecular_Formula>, <descriptor/CID134693680_Molecular_Weight>, <descriptor/CID134693680_Mono_Isotopic_Weight>, <descriptor/CID134693680_Non-hydrogen_Atom_Count>, <descriptor/CID134693680_Preferred_IUPAC_Name>, <descriptor/CID134693680_Rotatable_Bond_Count>, <descriptor/CID134693680_Structure_Complexity>, <descriptor/CID134693680_TPSA>, <descriptor/CID134693680_Total_Formal_Charge>, <descriptor/CID134693680_Undefined_Atom_Stereo_Count>, <descriptor/CID134693680_Undefined_Bond_Stereo_Count> ;
+    a <vocabulary#Compound> ;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Nickel, tris(neodecanoato-kappaO)(mu3-(orthoborato(3-)-kappaO:kappaO':kappaO''))tri-" .
+
+<inchikey/SLYORNZQZRXRMO-UHFFFAOYSA-N>
+    <http://semanticscience.org/resource/SIO_000011> <compound/CID134693680> .
+
+<substance/SID375571531>
+    <http://semanticscience.org/resource/CHEMINF_000477> <compound/CID134693680> .
+
+<substance/SID481744481>
+    <http://semanticscience.org/resource/CHEMINF_000477> <compound/CID134693680> .
+
+<synonym/MD5_23bcf1b3b8cacad872f9cbfdf28b0faa>
+    <http://semanticscience.org/resource/SIO_000011> <compound/CID134693680> .
+
+<synonym/MD5_36a8b9f16a8eafbf081f578cf96fb74d>
+    <http://semanticscience.org/resource/SIO_000011> <compound/CID134693680> .
+
+

@@ -1,0 +1,27 @@
+@base <http://rdf.ncbi.nlm.nih.gov/pubchem/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+
+<compound/CID165362333>
+    <http://purl.org/dc/terms/identifier> "165362333" ;
+    <vocabulary#has_parent> <compound/CID67734> ;
+    <http://semanticscience.org/resource/CHEMINF_000480> <compound/CID23993> ;
+    <http://semanticscience.org/resource/SIO_000008> <descriptor/CID165362333_Canonical_SMILES>, <descriptor/CID165362333_Compound_Identifier>, <descriptor/CID165362333_Covalent_Unit_Count>, <descriptor/CID165362333_Defined_Atom_Stereo_Count>, <descriptor/CID165362333_Defined_Bond_Stereo_Count>, <descriptor/CID165362333_Exact_Mass>, <descriptor/CID165362333_Hydrogen_Bond_Acceptor_Count>, <descriptor/CID165362333_Hydrogen_Bond_Donor_Count>, <descriptor/CID165362333_IUPAC_InChI>, <descriptor/CID165362333_Isomeric_SMILES>, <descriptor/CID165362333_Isotope_Atom_Count>, <descriptor/CID165362333_Molecular_Formula>, <descriptor/CID165362333_Molecular_Weight>, <descriptor/CID165362333_Mono_Isotopic_Weight>, <descriptor/CID165362333_Non-hydrogen_Atom_Count>, <descriptor/CID165362333_Preferred_IUPAC_Name>, <descriptor/CID165362333_Rotatable_Bond_Count>, <descriptor/CID165362333_Structure_Complexity>, <descriptor/CID165362333_TPSA>, <descriptor/CID165362333_Total_Formal_Charge>, <descriptor/CID165362333_Undefined_Atom_Stereo_Count>, <descriptor/CID165362333_Undefined_Bond_Stereo_Count> ;
+    a <vocabulary#Compound> ;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Perfluorohexanesulfonic acid, yttrium(3+) salt (3:1)" .
+
+<inchikey/NTVWDNITACNSGD-UHFFFAOYSA-K>
+    <http://semanticscience.org/resource/SIO_000011> <compound/CID165362333> .
+
+<substance/SID472182152>
+    <http://semanticscience.org/resource/CHEMINF_000477> <compound/CID165362333> .
+
+<synonym/MD5_312e430b52eacb8492e37d025b0598d3>
+    <http://semanticscience.org/resource/SIO_000011> <compound/CID165362333> .
+
+<synonym/MD5_bcb432e73e5fd54fcecee30ce0ea17d2>
+    <http://semanticscience.org/resource/SIO_000011> <compound/CID165362333> .
+
+<synonym/MD5_cf7f27cada2efdd02658c7537097b19b>
+    <http://semanticscience.org/resource/SIO_000011> <compound/CID165362333> .
+
+

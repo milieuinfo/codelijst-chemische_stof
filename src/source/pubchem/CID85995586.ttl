@@ -1,0 +1,26 @@
+@base <http://rdf.ncbi.nlm.nih.gov/pubchem/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+
+<compound/CID85995586>
+    <http://purl.org/dc/terms/identifier> "85995586" ;
+    <http://semanticscience.org/resource/CHEMINF_000480> <compound/CID23973>, <compound/CID297>, <compound/CID33558> ;
+    <http://semanticscience.org/resource/SIO_000008> <descriptor/CID85995586_Canonical_SMILES>, <descriptor/CID85995586_Compound_Identifier>, <descriptor/CID85995586_Covalent_Unit_Count>, <descriptor/CID85995586_Defined_Atom_Stereo_Count>, <descriptor/CID85995586_Defined_Bond_Stereo_Count>, <descriptor/CID85995586_Exact_Mass>, <descriptor/CID85995586_Hydrogen_Bond_Acceptor_Count>, <descriptor/CID85995586_Hydrogen_Bond_Donor_Count>, <descriptor/CID85995586_IUPAC_InChI>, <descriptor/CID85995586_Isomeric_SMILES>, <descriptor/CID85995586_Isotope_Atom_Count>, <descriptor/CID85995586_Molecular_Formula>, <descriptor/CID85995586_Molecular_Weight>, <descriptor/CID85995586_Mono_Isotopic_Weight>, <descriptor/CID85995586_Non-hydrogen_Atom_Count>, <descriptor/CID85995586_Preferred_IUPAC_Name>, <descriptor/CID85995586_Rotatable_Bond_Count>, <descriptor/CID85995586_Structure_Complexity>, <descriptor/CID85995586_TPSA>, <descriptor/CID85995586_Total_Formal_Charge>, <descriptor/CID85995586_Undefined_Atom_Stereo_Count>, <descriptor/CID85995586_Undefined_Bond_Stereo_Count> ;
+    a <vocabulary#Compound> ;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Methylcadmium azide" .
+
+<inchikey/DTFAGIMTASEZBY-UHFFFAOYSA-N>
+    <http://semanticscience.org/resource/SIO_000011> <compound/CID85995586> .
+
+<substance/SID472173045>
+    <http://semanticscience.org/resource/CHEMINF_000477> <compound/CID85995586> .
+
+<synonym/MD5_17f2fd913fc623f34deb96fff7529134>
+    <http://semanticscience.org/resource/SIO_000011> <compound/CID85995586> .
+
+<synonym/MD5_9371b084fc7be94f5551004958145188>
+    <http://semanticscience.org/resource/SIO_000011> <compound/CID85995586> .
+
+<synonym/MD5_b3139aeb2f409323df41f7f842a05be1>
+    <http://semanticscience.org/resource/SIO_000011> <compound/CID85995586> .
+
+

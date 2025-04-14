@@ -1,0 +1,44 @@
+@base <http://rdf.ncbi.nlm.nih.gov/pubchem/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+
+<compound/CID131954751>
+    <http://purl.org/dc/terms/identifier> "131954751" ;
+    <http://semanticscience.org/resource/CHEMINF_000461> <compound/CID165350368> ;
+    <http://semanticscience.org/resource/SIO_000008> <descriptor/CID131954751_Canonical_SMILES>, <descriptor/CID131954751_Compound_Identifier>, <descriptor/CID131954751_Covalent_Unit_Count>, <descriptor/CID131954751_Defined_Atom_Stereo_Count>, <descriptor/CID131954751_Defined_Bond_Stereo_Count>, <descriptor/CID131954751_Exact_Mass>, <descriptor/CID131954751_Hydrogen_Bond_Acceptor_Count>, <descriptor/CID131954751_Hydrogen_Bond_Donor_Count>, <descriptor/CID131954751_IUPAC_InChI>, <descriptor/CID131954751_Isomeric_SMILES>, <descriptor/CID131954751_Isotope_Atom_Count>, <descriptor/CID131954751_Molecular_Formula>, <descriptor/CID131954751_Molecular_Weight>, <descriptor/CID131954751_Mono_Isotopic_Weight>, <descriptor/CID131954751_Non-hydrogen_Atom_Count>, <descriptor/CID131954751_Preferred_IUPAC_Name>, <descriptor/CID131954751_Rotatable_Bond_Count>, <descriptor/CID131954751_Structure_Complexity>, <descriptor/CID131954751_TPSA>, <descriptor/CID131954751_Total_Formal_Charge>, <descriptor/CID131954751_Undefined_Atom_Stereo_Count>, <descriptor/CID131954751_Undefined_Bond_Stereo_Count> ;
+    a <vocabulary#Compound> ;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "(mu-((Oxydiethylene but-2-enedioato)(2-)))diphenyldimercury" .
+
+<compound/CID165350368>
+    <http://semanticscience.org/resource/CHEMINF_000461> <compound/CID131954751> .
+
+<inchikey/BEMCOZJLAXTSFU-YWUQBMRFSA-L>
+    <http://semanticscience.org/resource/SIO_000011> <compound/CID131954751> .
+
+<substance/SID135361023>
+    <http://semanticscience.org/resource/CHEMINF_000477> <compound/CID131954751> .
+
+<substance/SID481748068>
+    <http://semanticscience.org/resource/CHEMINF_000477> <compound/CID131954751> .
+
+<substance/SID504470561>
+    <http://semanticscience.org/resource/CHEMINF_000477> <compound/CID131954751> .
+
+<substance/SID504509046>
+    <http://semanticscience.org/resource/CHEMINF_000477> <compound/CID131954751> .
+
+<synonym/MD5_04d82036f6e4d95cc0a720e926ac432e>
+    <http://semanticscience.org/resource/SIO_000011> <compound/CID131954751> .
+
+<synonym/MD5_1d1f9895eab02e2b72581661a340485c>
+    <http://semanticscience.org/resource/SIO_000011> <compound/CID131954751> .
+
+<synonym/MD5_22d0ae969389a9e3f1c4d2c07df2942e>
+    <http://semanticscience.org/resource/SIO_000011> <compound/CID131954751> .
+
+<synonym/MD5_702a08d5692cc3020f128b10570689f5>
+    <http://semanticscience.org/resource/SIO_000011> <compound/CID131954751> .
+
+<synonym/MD5_c74f9ba0127648f28297f1586bcb32fa>
+    <http://semanticscience.org/resource/SIO_000011> <compound/CID131954751> .
+
+

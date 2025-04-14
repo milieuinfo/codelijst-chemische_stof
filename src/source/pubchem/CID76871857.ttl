@@ -1,0 +1,38 @@
+@base <http://rdf.ncbi.nlm.nih.gov/pubchem/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+
+<compound/CID76871857>
+    <http://purl.org/dc/terms/identifier> "76871857" ;
+    <http://semanticscience.org/resource/CHEMINF_000480> <compound/CID1118>, <compound/CID24425>, <compound/CID5352425> ;
+    <http://semanticscience.org/resource/SIO_000008> <descriptor/CID76871857_Canonical_SMILES>, <descriptor/CID76871857_Compound_Identifier>, <descriptor/CID76871857_Covalent_Unit_Count>, <descriptor/CID76871857_Defined_Atom_Stereo_Count>, <descriptor/CID76871857_Defined_Bond_Stereo_Count>, <descriptor/CID76871857_Exact_Mass>, <descriptor/CID76871857_Hydrogen_Bond_Acceptor_Count>, <descriptor/CID76871857_Hydrogen_Bond_Donor_Count>, <descriptor/CID76871857_IUPAC_InChI>, <descriptor/CID76871857_Isomeric_SMILES>, <descriptor/CID76871857_Isotope_Atom_Count>, <descriptor/CID76871857_Molecular_Formula>, <descriptor/CID76871857_Molecular_Weight>, <descriptor/CID76871857_Mono_Isotopic_Weight>, <descriptor/CID76871857_Non-hydrogen_Atom_Count>, <descriptor/CID76871857_Preferred_IUPAC_Name>, <descriptor/CID76871857_Rotatable_Bond_Count>, <descriptor/CID76871857_Structure_Complexity>, <descriptor/CID76871857_TPSA>, <descriptor/CID76871857_Total_Formal_Charge>, <descriptor/CID76871857_Undefined_Atom_Stereo_Count>, <descriptor/CID76871857_Undefined_Bond_Stereo_Count> ;
+    a <vocabulary#Compound> ;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Lead chromate sulfate (Pb9(CrO4)5(SO4)4)" .
+
+<inchikey/WWGUZNAASMSRTD-UHFFFAOYSA-F>
+    <http://semanticscience.org/resource/SIO_000011> <compound/CID76871857> .
+
+<substance/SID135361038>
+    <http://semanticscience.org/resource/CHEMINF_000477> <compound/CID76871857> .
+
+<substance/SID176280015>
+    <http://semanticscience.org/resource/CHEMINF_000477> <compound/CID76871857> .
+
+<substance/SID319416547>
+    <http://semanticscience.org/resource/CHEMINF_000477> <compound/CID76871857> .
+
+<substance/SID481763975>
+    <http://semanticscience.org/resource/CHEMINF_000477> <compound/CID76871857> .
+
+<substance/SID505794451>
+    <http://semanticscience.org/resource/CHEMINF_000477> <compound/CID76871857> .
+
+<synonym/MD5_22b608509ba84708dc20591cd7173f99>
+    <http://semanticscience.org/resource/SIO_000011> <compound/CID76871857> .
+
+<synonym/MD5_23bcb9b7efc3af4c92670fac8631b0be>
+    <http://semanticscience.org/resource/SIO_000011> <compound/CID76871857> .
+
+<synonym/MD5_91c5eacf13926d986b3b884f9d1f8d90>
+    <http://semanticscience.org/resource/SIO_000011> <compound/CID76871857> .
+
+

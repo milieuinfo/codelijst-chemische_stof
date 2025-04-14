@@ -1,0 +1,33 @@
+@base <http://rdf.ncbi.nlm.nih.gov/pubchem/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+
+<compound/CID165363664>
+    <http://purl.org/dc/terms/identifier> "165363664" ;
+    <vocabulary#has_parent> <compound/CID165363665> ;
+    <http://semanticscience.org/resource/CHEMINF_000480> <compound/CID313> ;
+    <http://semanticscience.org/resource/SIO_000008> <descriptor/CID165363664_Canonical_SMILES>, <descriptor/CID165363664_Compound_Identifier>, <descriptor/CID165363664_Covalent_Unit_Count>, <descriptor/CID165363664_Defined_Atom_Stereo_Count>, <descriptor/CID165363664_Defined_Bond_Stereo_Count>, <descriptor/CID165363664_Exact_Mass>, <descriptor/CID165363664_Hydrogen_Bond_Acceptor_Count>, <descriptor/CID165363664_Hydrogen_Bond_Donor_Count>, <descriptor/CID165363664_IUPAC_InChI>, <descriptor/CID165363664_Isomeric_SMILES>, <descriptor/CID165363664_Isotope_Atom_Count>, <descriptor/CID165363664_Molecular_Formula>, <descriptor/CID165363664_Molecular_Weight>, <descriptor/CID165363664_Mono_Isotopic_Weight>, <descriptor/CID165363664_Non-hydrogen_Atom_Count>, <descriptor/CID165363664_Preferred_IUPAC_Name>, <descriptor/CID165363664_Rotatable_Bond_Count>, <descriptor/CID165363664_Structure_Complexity>, <descriptor/CID165363664_TPSA>, <descriptor/CID165363664_Total_Formal_Charge>, <descriptor/CID165363664_Undefined_Atom_Stereo_Count>, <descriptor/CID165363664_Undefined_Bond_Stereo_Count> ;
+    a <vocabulary#Compound> ;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "1,3a(2)-Bipyridinium, 5a(2),5a(2)a(2)a(2)-[methylenebis(4,1-phenylene-2,1-diazenediyl)]bis[1a(2)-[3-(dimethylamino)propyl]-1a(2),2a(2)-dihydro-6a(2)-hydroxy-4a(2)-methyl-2a(2)-oxo-, chloride, hydrochloride (1:2:2)" .
+
+<inchikey/GWARXKOQOBLBQG-UHFFFAOYSA-N>
+    <http://semanticscience.org/resource/SIO_000011> <compound/CID165363664> .
+
+<substance/SID472273690>
+    <http://semanticscience.org/resource/CHEMINF_000477> <compound/CID165363664> .
+
+<substance/SID482321932>
+    <http://semanticscience.org/resource/CHEMINF_000477> <compound/CID165363664> .
+
+<synonym/MD5_01992f495108a7b2d2640b32b8e9bdca>
+    <http://semanticscience.org/resource/SIO_000011> <compound/CID165363664> .
+
+<synonym/MD5_1d42beed6047e6231d9121e161c723de>
+    <http://semanticscience.org/resource/SIO_000011> <compound/CID165363664> .
+
+<synonym/MD5_9889e36246934ea71eaf35da624d2bb5>
+    <http://semanticscience.org/resource/SIO_000011> <compound/CID165363664> .
+
+<synonym/MD5_ccdeb060106b99467925e413aa92879d>
+    <http://semanticscience.org/resource/SIO_000011> <compound/CID165363664> .
+
+

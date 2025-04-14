@@ -1,0 +1,35 @@
+@base <http://rdf.ncbi.nlm.nih.gov/pubchem/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+
+<compound/CID136192446>
+    <http://purl.org/dc/terms/identifier> "136192446" ;
+    <http://semanticscience.org/resource/CHEMINF_000480> <compound/CID135401403>, <compound/CID135761082>, <compound/CID935> ;
+    <http://semanticscience.org/resource/SIO_000008> <descriptor/CID136192446_Canonical_SMILES>, <descriptor/CID136192446_Compound_Identifier>, <descriptor/CID136192446_Covalent_Unit_Count>, <descriptor/CID136192446_Defined_Atom_Stereo_Count>, <descriptor/CID136192446_Defined_Bond_Stereo_Count>, <descriptor/CID136192446_Exact_Mass>, <descriptor/CID136192446_Hydrogen_Bond_Acceptor_Count>, <descriptor/CID136192446_Hydrogen_Bond_Donor_Count>, <descriptor/CID136192446_IUPAC_InChI>, <descriptor/CID136192446_Isomeric_SMILES>, <descriptor/CID136192446_Isotope_Atom_Count>, <descriptor/CID136192446_Molecular_Formula>, <descriptor/CID136192446_Molecular_Weight>, <descriptor/CID136192446_Mono_Isotopic_Weight>, <descriptor/CID136192446_Non-hydrogen_Atom_Count>, <descriptor/CID136192446_Preferred_IUPAC_Name>, <descriptor/CID136192446_Rotatable_Bond_Count>, <descriptor/CID136192446_Structure_Complexity>, <descriptor/CID136192446_TPSA>, <descriptor/CID136192446_Total_Formal_Charge>, <descriptor/CID136192446_Undefined_Atom_Stereo_Count>, <descriptor/CID136192446_Undefined_Bond_Stereo_Count> ;
+    a <vocabulary#Compound> ;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Bis(2,3-bis(hydroxyimino)-N-(2-methoxyphenyl)butyramidato)nickel" .
+
+<inchikey/VUQKDXIETONNTR-SRMAXIPRSA-N>
+    <http://semanticscience.org/resource/SIO_000011> <compound/CID136192446> .
+
+<substance/SID135272416>
+    <http://semanticscience.org/resource/CHEMINF_000477> <compound/CID136192446> .
+
+<substance/SID319416509>
+    <http://semanticscience.org/resource/CHEMINF_000477> <compound/CID136192446> .
+
+<substance/SID481543421>
+    <http://semanticscience.org/resource/CHEMINF_000477> <compound/CID136192446> .
+
+<synonym/MD5_1c7ee6ec522c257d3dab4ae0ddda2f97>
+    <http://semanticscience.org/resource/SIO_000011> <compound/CID136192446> .
+
+<synonym/MD5_3cc96e953c00f33ac6b81843c8947fef>
+    <http://semanticscience.org/resource/SIO_000011> <compound/CID136192446> .
+
+<synonym/MD5_7f2fe089210749024899b6bd07613e4e>
+    <http://semanticscience.org/resource/SIO_000011> <compound/CID136192446> .
+
+<synonym/MD5_d0957abbae9a3609a2b8df4e13a7fc26>
+    <http://semanticscience.org/resource/SIO_000011> <compound/CID136192446> .
+
+

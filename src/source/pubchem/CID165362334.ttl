@@ -1,0 +1,32 @@
+@base <http://rdf.ncbi.nlm.nih.gov/pubchem/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+
+<compound/CID165362334>
+    <http://purl.org/dc/terms/identifier> "165362334" ;
+    <http://semanticscience.org/resource/CHEMINF_000480> <compound/CID498988>, <compound/CID67734> ;
+    <http://semanticscience.org/resource/SIO_000008> <descriptor/CID165362334_Canonical_SMILES>, <descriptor/CID165362334_Compound_Identifier>, <descriptor/CID165362334_Covalent_Unit_Count>, <descriptor/CID165362334_Defined_Atom_Stereo_Count>, <descriptor/CID165362334_Defined_Bond_Stereo_Count>, <descriptor/CID165362334_Exact_Mass>, <descriptor/CID165362334_Hydrogen_Bond_Acceptor_Count>, <descriptor/CID165362334_Hydrogen_Bond_Donor_Count>, <descriptor/CID165362334_IUPAC_InChI>, <descriptor/CID165362334_Isomeric_SMILES>, <descriptor/CID165362334_Isotope_Atom_Count>, <descriptor/CID165362334_Molecular_Formula>, <descriptor/CID165362334_Molecular_Weight>, <descriptor/CID165362334_Mono_Isotopic_Weight>, <descriptor/CID165362334_Non-hydrogen_Atom_Count>, <descriptor/CID165362334_Preferred_IUPAC_Name>, <descriptor/CID165362334_Rotatable_Bond_Count>, <descriptor/CID165362334_Structure_Complexity>, <descriptor/CID165362334_TPSA>, <descriptor/CID165362334_Total_Formal_Charge>, <descriptor/CID165362334_Undefined_Atom_Stereo_Count>, <descriptor/CID165362334_Undefined_Bond_Stereo_Count> ;
+    a <vocabulary#Compound> ;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Sulfonium, (thiodi-4,1-phenylene)bis[diphenyl-, salt with perfluorohexanesulfonic acid (1:2)" .
+
+<inchikey/KIVAZSOOGCFOFV-UHFFFAOYSA-L>
+    <http://semanticscience.org/resource/SIO_000011> <compound/CID165362334> .
+
+<substance/SID472182153>
+    <http://semanticscience.org/resource/CHEMINF_000477> <compound/CID165362334> .
+
+<substance/SID505885593>
+    <http://semanticscience.org/resource/CHEMINF_000477> <compound/CID165362334> .
+
+<synonym/MD5_30acebe274cc7584fa20789cd185406d>
+    <http://semanticscience.org/resource/SIO_000011> <compound/CID165362334> .
+
+<synonym/MD5_55842956ae5f5ddb765dd2ab29d1afb9>
+    <http://semanticscience.org/resource/SIO_000011> <compound/CID165362334> .
+
+<synonym/MD5_a6e7d909dc020782ff9999909a775b7b>
+    <http://semanticscience.org/resource/SIO_000011> <compound/CID165362334> .
+
+<synonym/MD5_f5da75e8ce87bd4c31b72b2fe3dddcb1>
+    <http://semanticscience.org/resource/SIO_000011> <compound/CID165362334> .
+
+

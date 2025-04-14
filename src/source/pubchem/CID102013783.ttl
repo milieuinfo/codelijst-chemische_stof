@@ -1,0 +1,30 @@
+@base <http://rdf.ncbi.nlm.nih.gov/pubchem/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+
+<compound/CID102013783>
+    <http://purl.org/dc/terms/identifier> "102013783" ;
+    <vocabulary#has_parent> <compound/CID62695> ;
+    <http://semanticscience.org/resource/CHEMINF_000480> <compound/CID23973> ;
+    <http://semanticscience.org/resource/SIO_000008> <descriptor/CID102013783_Canonical_SMILES>, <descriptor/CID102013783_Compound_Identifier>, <descriptor/CID102013783_Covalent_Unit_Count>, <descriptor/CID102013783_Defined_Atom_Stereo_Count>, <descriptor/CID102013783_Defined_Bond_Stereo_Count>, <descriptor/CID102013783_Exact_Mass>, <descriptor/CID102013783_Hydrogen_Bond_Acceptor_Count>, <descriptor/CID102013783_Hydrogen_Bond_Donor_Count>, <descriptor/CID102013783_IUPAC_InChI>, <descriptor/CID102013783_Isomeric_SMILES>, <descriptor/CID102013783_Isotope_Atom_Count>, <descriptor/CID102013783_Molecular_Formula>, <descriptor/CID102013783_Molecular_Weight>, <descriptor/CID102013783_Mono_Isotopic_Weight>, <descriptor/CID102013783_Non-hydrogen_Atom_Count>, <descriptor/CID102013783_Preferred_IUPAC_Name>, <descriptor/CID102013783_Rotatable_Bond_Count>, <descriptor/CID102013783_Structure_Complexity>, <descriptor/CID102013783_TPSA>, <descriptor/CID102013783_Total_Formal_Charge>, <descriptor/CID102013783_Undefined_Atom_Stereo_Count>, <descriptor/CID102013783_Undefined_Bond_Stereo_Count> ;
+    a <vocabulary#Compound> ;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Di(2-butenyl) cadmium" .
+
+<inchikey/KBZXNQGIZAIVKF-SYWGCQIGSA-N>
+    <http://semanticscience.org/resource/SIO_000011> <compound/CID102013783> .
+
+<substance/SID274976114>
+    <http://semanticscience.org/resource/CHEMINF_000477> <compound/CID102013783> .
+
+<substance/SID472173044>
+    <http://semanticscience.org/resource/CHEMINF_000477> <compound/CID102013783> .
+
+<synonym/MD5_1772062cb3a6b370f29256cca9477719>
+    <http://semanticscience.org/resource/SIO_000011> <compound/CID102013783> .
+
+<synonym/MD5_5bfb5537faaa80f61661ab61b749fb63>
+    <http://semanticscience.org/resource/SIO_000011> <compound/CID102013783> .
+
+<synonym/MD5_be0947ddd82f3d57c7d270d6d4203d46>
+    <http://semanticscience.org/resource/SIO_000011> <compound/CID102013783> .
+
+

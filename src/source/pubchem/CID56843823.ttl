@@ -1,0 +1,42 @@
+@base <http://rdf.ncbi.nlm.nih.gov/pubchem/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+
+<compound/CID56843823>
+    <http://purl.org/dc/terms/identifier> "56843823" ;
+    <vocabulary#has_parent> <compound/CID56843824> ;
+    <http://semanticscience.org/resource/CHEMINF_000480> <compound/CID68199> ;
+    <http://semanticscience.org/resource/SIO_000008> <descriptor/CID56843823_Canonical_SMILES>, <descriptor/CID56843823_Compound_Identifier>, <descriptor/CID56843823_Covalent_Unit_Count>, <descriptor/CID56843823_Defined_Atom_Stereo_Count>, <descriptor/CID56843823_Defined_Bond_Stereo_Count>, <descriptor/CID56843823_Exact_Mass>, <descriptor/CID56843823_Hydrogen_Bond_Acceptor_Count>, <descriptor/CID56843823_Hydrogen_Bond_Donor_Count>, <descriptor/CID56843823_IUPAC_InChI>, <descriptor/CID56843823_Isomeric_SMILES>, <descriptor/CID56843823_Isotope_Atom_Count>, <descriptor/CID56843823_Molecular_Formula>, <descriptor/CID56843823_Molecular_Weight>, <descriptor/CID56843823_Mono_Isotopic_Weight>, <descriptor/CID56843823_Non-hydrogen_Atom_Count>, <descriptor/CID56843823_Preferred_IUPAC_Name>, <descriptor/CID56843823_Rotatable_Bond_Count>, <descriptor/CID56843823_Structure_Complexity>, <descriptor/CID56843823_TPSA>, <descriptor/CID56843823_Total_Formal_Charge>, <descriptor/CID56843823_Undefined_Atom_Stereo_Count>, <descriptor/CID56843823_Undefined_Bond_Stereo_Count> ;
+    a <vocabulary#Compound> ;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Leucomycin V, 9-O-(5-(dimethylamino)tetrahydro-6-methyl-2H-pyran-2-yl)-, (9(5S,6R))-, (1,2-ethanediylbis(imino-4,1-phenylene))bis(arsonate) (1:1) (salt)" .
+
+<inchikey/MCJCSKLQRRSJRN-ZWVUVTSFSA-N>
+    <http://semanticscience.org/resource/SIO_000011> <compound/CID56843823> .
+
+<substance/SID135268494>
+    <http://semanticscience.org/resource/CHEMINF_000477> <compound/CID56843823> .
+
+<substance/SID319402943>
+    <http://semanticscience.org/resource/CHEMINF_000477> <compound/CID56843823> .
+
+<substance/SID481118674>
+    <http://semanticscience.org/resource/CHEMINF_000477> <compound/CID56843823> .
+
+<substance/SID489107986>
+    <http://semanticscience.org/resource/CHEMINF_000477> <compound/CID56843823> .
+
+<substance/SID504184530>
+    <http://semanticscience.org/resource/CHEMINF_000477> <compound/CID56843823> .
+
+<synonym/MD5_01ed9a562ecf3e6a876680a234913b03>
+    <http://semanticscience.org/resource/SIO_000011> <compound/CID56843823> .
+
+<synonym/MD5_0ddb0226c0971a1fd6feb616dff7d153>
+    <http://semanticscience.org/resource/SIO_000011> <compound/CID56843823> .
+
+<synonym/MD5_8e9af68613514ef3da79c6db9f213836>
+    <http://semanticscience.org/resource/SIO_000011> <compound/CID56843823> .
+
+<synonym/MD5_fb29237ce541bdef147aedc81f2571b7>
+    <http://semanticscience.org/resource/SIO_000011> <compound/CID56843823> .
+
+

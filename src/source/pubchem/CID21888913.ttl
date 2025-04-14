@@ -1,0 +1,104 @@
+@base <http://rdf.ncbi.nlm.nih.gov/pubchem/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+
+<compound/CID21888913>
+    <http://purl.org/dc/terms/identifier> "21888913" ;
+    <http://semanticscience.org/resource/SIO_000008> <descriptor/CID21888913_Canonical_SMILES>, <descriptor/CID21888913_Compound_Identifier>, <descriptor/CID21888913_Covalent_Unit_Count>, <descriptor/CID21888913_Defined_Atom_Stereo_Count>, <descriptor/CID21888913_Defined_Bond_Stereo_Count>, <descriptor/CID21888913_Exact_Mass>, <descriptor/CID21888913_Hydrogen_Bond_Acceptor_Count>, <descriptor/CID21888913_Hydrogen_Bond_Donor_Count>, <descriptor/CID21888913_IUPAC_InChI>, <descriptor/CID21888913_Isomeric_SMILES>, <descriptor/CID21888913_Isotope_Atom_Count>, <descriptor/CID21888913_Molecular_Formula>, <descriptor/CID21888913_Molecular_Weight>, <descriptor/CID21888913_Mono_Isotopic_Weight>, <descriptor/CID21888913_Non-hydrogen_Atom_Count>, <descriptor/CID21888913_Preferred_IUPAC_Name>, <descriptor/CID21888913_Rotatable_Bond_Count>, <descriptor/CID21888913_Structure_Complexity>, <descriptor/CID21888913_TPSA>, <descriptor/CID21888913_Total_Formal_Charge>, <descriptor/CID21888913_Undefined_Atom_Stereo_Count>, <descriptor/CID21888913_Undefined_Bond_Stereo_Count> ;
+    a <vocabulary#Compound> ;
+    <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://www.wikidata.org/entity/Q82899821> ;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Selanylidenearsenic" .
+
+<cooccurrence/CID16745368_CID21888913>
+    rdf:object <compound/CID21888913> .
+
+<cooccurrence/CID21888913_CID16745368>
+    rdf:subject <compound/CID21888913> .
+
+<cooccurrence/CID21888913_CID23993>
+    rdf:subject <compound/CID21888913> .
+
+<cooccurrence/CID21888913_CID24261>
+    rdf:subject <compound/CID21888913> .
+
+<cooccurrence/CID21888913_CID28179>
+    rdf:subject <compound/CID21888913> .
+
+<cooccurrence/CID21888913_CID312>
+    rdf:subject <compound/CID21888913> .
+
+<cooccurrence/CID21888913_CID5462310>
+    rdf:subject <compound/CID21888913> .
+
+<cooccurrence/CID21888913_CID61569>
+    rdf:subject <compound/CID21888913> .
+
+<cooccurrence/CID21888913_CID6326970>
+    rdf:subject <compound/CID21888913> .
+
+<cooccurrence/CID21888913_CID71586773>
+    rdf:subject <compound/CID21888913> .
+
+<cooccurrence/CID21888913_CID94407>
+    rdf:subject <compound/CID21888913> .
+
+<cooccurrence/CID21888913_CID977>
+    rdf:subject <compound/CID21888913> .
+
+<cooccurrence/CID21888913_DZID8489>
+    rdf:subject <compound/CID21888913> .
+
+<cooccurrence/CID21888913_meox2>
+    rdf:subject <compound/CID21888913> .
+
+<cooccurrence/CID61569_CID21888913>
+    rdf:object <compound/CID21888913> .
+
+<cooccurrence/CID71586773_CID21888913>
+    rdf:object <compound/CID21888913> .
+
+<cooccurrence/CID94407_CID21888913>
+    rdf:object <compound/CID21888913> .
+
+<cooccurrence/meox2_CID21888913>
+    rdf:object <compound/CID21888913> .
+
+<inchikey/UEQXZDBVFNJKDD-UHFFFAOYSA-N>
+    <http://semanticscience.org/resource/SIO_000011> <compound/CID21888913> .
+
+<substance/SID135271843>
+    <http://semanticscience.org/resource/CHEMINF_000477> <compound/CID21888913> .
+
+<substance/SID319369774>
+    <http://semanticscience.org/resource/CHEMINF_000477> <compound/CID21888913> .
+
+<substance/SID355145141>
+    <http://semanticscience.org/resource/CHEMINF_000477> <compound/CID21888913> .
+
+<substance/SID445731383>
+    <http://semanticscience.org/resource/CHEMINF_000477> <compound/CID21888913> .
+
+<substance/SID446508282>
+    <http://semanticscience.org/resource/CHEMINF_000477> <compound/CID21888913> .
+
+<substance/SID452991898>
+    <http://semanticscience.org/resource/CHEMINF_000477> <compound/CID21888913> .
+
+<substance/SID462877674>
+    <http://semanticscience.org/resource/CHEMINF_000477> <compound/CID21888913> .
+
+<substance/SID481982064>
+    <http://semanticscience.org/resource/CHEMINF_000477> <compound/CID21888913> .
+
+<substance/SID485767248>
+    <http://semanticscience.org/resource/CHEMINF_000477> <compound/CID21888913> .
+
+<substance/SID57384931>
+    <http://semanticscience.org/resource/CHEMINF_000477> <compound/CID21888913> .
+
+<synonym/MD5_4d20573f9fb4cac1a9ed20f4df9de5ce>
+    <http://semanticscience.org/resource/SIO_000011> <compound/CID21888913> .
+
+<synonym/MD5_f3df114672859fffa599ad11ba166463>
+    <http://semanticscience.org/resource/SIO_000011> <compound/CID21888913> .
+
+

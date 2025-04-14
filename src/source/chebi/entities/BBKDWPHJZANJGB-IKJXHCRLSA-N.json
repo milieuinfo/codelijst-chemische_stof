@@ -1,0 +1,111 @@
+{
+    "@context": {
+        "smiles": {
+            "@id": "http://dbpedia.org/ontology/smiles"
+        },
+        "name": {
+            "@id": "http://www.w3.org/2004/02/skos/core#prefLabel",
+            "@language": "en"
+        },
+        "url": {
+            "@id": "http://www.w3.org/2000/01/rdf-schema#seeAlso",
+            "@type": "@id"
+        },
+        "inchikey": {
+            "@id": "http://dbpedia.org/property/inchikey"
+        },
+        "intermediate_nodes": {
+            "@id": "http://www.w3.org/2004/02/skos/core#broaderTransitive",
+            "@type": "@id"
+        },
+        "subclass": {
+            "@id": "http://www.w3.org/2004/02/skos/core#broaderTransitive",
+            "@type": "@id"
+        },
+        "kingdom": {
+            "@id": "http://www.w3.org/2004/02/skos/core#broaderTransitive",
+            "@type": "@id"
+        },
+        "class": {
+            "@id": "http://www.w3.org/2004/02/skos/core#broaderTransitive",
+            "@type": "@id"
+        },
+        "ancestors": {
+            "@id": "http://purl.org/dc/elements/1.1/relation",
+            "@language": "en"
+        },
+        "description": {
+            "@id": "http://www.w3.org/2004/02/skos/core#definition",
+            "@language": "en"
+        },
+        "direct_parent": {
+            "@id": "http://www.w3.org/2004/02/skos/core#broader",
+            "@type": "@id"
+        },
+        "alternative_parents": {
+            "@id": "http://www.w3.org/2004/02/skos/core#semanticRelation",
+            "@type": "@id"
+        },
+        "_id": {
+            "@id": "@id"
+        },
+        "chemont_id": {
+            "@id": "@id"
+        },
+        "altLabel_en": {
+            "@id": "http://www.w3.org/2004/02/skos/core#altLabel",
+            "@language": "en"
+        },
+        "note_en": {
+            "@id": "http://www.w3.org/2004/02/skos/core#note",
+            "@language": "en"
+        },
+        "graph": {
+            "@id": "@graph"
+        },
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "obo": "http://purl.obolibrary.org/obo/",
+        "uniprot": "http://purl.uniprot.org/",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "CHEMONTID": "https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/",
+        "chebi": "http://purl.obolibrary.org/obo/",
+        "dbo": "http://dbpedia.org/ontology/",
+        "dbp": "http://dbpedia.org/property/",
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "tax_nodes": "http://classyfire.wishartlab.com/tax_nodes/",
+        "concept": "https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "@base": "https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/"
+    },
+    "_id": "concept:BBKDWPHJZANJGB-IKJXHCRLSA-N",
+    "@type": "skos:Concept",
+    "dbo:formula": "C22H21ClN2O5",
+    "dbo:inchi": "InChI=1S/C22H21ClN2O5/c1-14(22(26)28-13-18-3-2-10-27-18)29-16-5-7-17(8-6-16)30-21-12-24-20-11-15(23)4-9-19(20)25-21/h4-9,11-12,14,18H,2-3,10,13H2,1H3/t14-,18?/m1/s1",
+    "smiles": "C1=C(N=C2C(=N1)C=C(C=C2)Cl)OC3=CC=C(C=C3)O[C@@H](C(OCC4CCCO4)=O)C",
+    "inchikey": "BBKDWPHJZANJGB-IKJXHCRLSA-N",
+    "obo:chebi/charge": "0",
+    "altLabel_en": [
+        "(+-) tetrahydrofurfuryl (R)-2-(4-(6-chloroquinoxalin-2-yloxy)phenyloxy)propionate",
+        "(RS)-tetrahydrofurfuryl (R)-2-[4-(6-chloroquinoxalin-2-yloxy)phenoxy]propionate",
+        "(tetrahydro-2-furanyl)methyl (2R)-2-[4-[(6-chloro-2-quinoxalinyl)oxy]phenoxy]propanoate",
+        "EC 414-200-4",
+        "Pantera",
+        "[(2Xi)-oxolan-2-yl]methyl (2R)-2-{4-[(6-chloroquinoxalin-2-yl)oxy]phenoxy}propanoate",
+        "[(2Xi)-tetrahydrofuran-2-yl]methyl (2R)-2-{4-[(6-chloroquinoxalin-2-yl)oxy]phenoxy}propanoate",
+        "[(2Xi)-tetrahydrofuran-2-yl]methyl (2R)-2-{4-[(6-chloroquinoxalin-2-yl)oxy]phenoxy}propionate"
+    ],
+    "skos:exactMatch": {
+        "_id": "obo:CHEBI_81944"
+    },
+    "skos:inScheme": {
+        "_id": "../../conceptscheme/chemische_stof"
+    },
+    "note_en": "A tetrahydrofurylmethyl ester resulting from the formyl condensation of the carboxy group of quizalofop-P with the hydroxy group of tetrahydrofurfuryl alcohol.",
+    "alternative_parents": [
+        "obo:CHEBI_35618",
+        "obo:CHEBI_36683",
+        "obo:CHEBI_47030",
+        "obo:CHEBI_137504"
+    ]
+}

@@ -1,0 +1,52 @@
+@base <http://rdf.ncbi.nlm.nih.gov/pubchem/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+
+<compound/CID142107402>
+    <vocabulary#has_parent> <compound/CID67477267> .
+
+<compound/CID67477267>
+    <http://purl.org/dc/terms/identifier> "67477267" ;
+    <http://semanticscience.org/resource/SIO_000008> <descriptor/CID67477267_Canonical_SMILES>, <descriptor/CID67477267_Compound_Identifier>, <descriptor/CID67477267_Covalent_Unit_Count>, <descriptor/CID67477267_Defined_Atom_Stereo_Count>, <descriptor/CID67477267_Defined_Bond_Stereo_Count>, <descriptor/CID67477267_Exact_Mass>, <descriptor/CID67477267_Hydrogen_Bond_Acceptor_Count>, <descriptor/CID67477267_Hydrogen_Bond_Donor_Count>, <descriptor/CID67477267_IUPAC_InChI>, <descriptor/CID67477267_Isomeric_SMILES>, <descriptor/CID67477267_Isotope_Atom_Count>, <descriptor/CID67477267_Molecular_Formula>, <descriptor/CID67477267_Molecular_Weight>, <descriptor/CID67477267_Mono_Isotopic_Weight>, <descriptor/CID67477267_Non-hydrogen_Atom_Count>, <descriptor/CID67477267_Preferred_IUPAC_Name>, <descriptor/CID67477267_Rotatable_Bond_Count>, <descriptor/CID67477267_Structure_Complexity>, <descriptor/CID67477267_TPSA>, <descriptor/CID67477267_Total_Formal_Charge>, <descriptor/CID67477267_Undefined_Atom_Stereo_Count>, <descriptor/CID67477267_Undefined_Bond_Stereo_Count>, <descriptor/CID67477267_XLogP3-AA> ;
+    a <vocabulary#Compound> ;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "4-(1,2,2-Trimethylbutyl)phenol" .
+
+<inchikey/BCVTXGBALHYMLR-UHFFFAOYSA-N>
+    <http://semanticscience.org/resource/SIO_000011> <compound/CID67477267> .
+
+<substance/SID228722309>
+    <http://semanticscience.org/resource/CHEMINF_000477> <compound/CID67477267> .
+
+<substance/SID472273617>
+    <http://semanticscience.org/resource/CHEMINF_000477> <compound/CID67477267> .
+
+<substance/SID482321908>
+    <http://semanticscience.org/resource/CHEMINF_000477> <compound/CID67477267> .
+
+<substance/SID495656580>
+    <http://semanticscience.org/resource/CHEMINF_000477> <compound/CID67477267> .
+
+<substance/SID504395563>
+    <http://semanticscience.org/resource/CHEMINF_000477> <compound/CID67477267> .
+
+<substance/SID505505829>
+    <http://semanticscience.org/resource/CHEMINF_000477> <compound/CID67477267> .
+
+<synonym/MD5_37581bc19fa8f90799f67aa5f48c0a3f>
+    <http://semanticscience.org/resource/SIO_000011> <compound/CID67477267> .
+
+<synonym/MD5_441537cba0d43be1812fe394a84e921c>
+    <http://semanticscience.org/resource/SIO_000011> <compound/CID67477267> .
+
+<synonym/MD5_83d5c5a252a0c80c5a76d7f68bffab88>
+    <http://semanticscience.org/resource/SIO_000011> <compound/CID67477267> .
+
+<synonym/MD5_ba13cdc01ae0a66f4f6cdbb697c9bb4b>
+    <http://semanticscience.org/resource/SIO_000011> <compound/CID67477267> .
+
+<synonym/MD5_f0804ea6eea4915844354ea6a2feaa91>
+    <http://semanticscience.org/resource/SIO_000011> <compound/CID67477267> .
+
+<synonym/MD5_fda9e4dc856299524da05f9685bcf35c>
+    <http://semanticscience.org/resource/SIO_000011> <compound/CID67477267> .
+
+

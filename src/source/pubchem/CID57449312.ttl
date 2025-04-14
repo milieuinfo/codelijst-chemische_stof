@@ -1,0 +1,86 @@
+@base <http://rdf.ncbi.nlm.nih.gov/pubchem/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+
+<compound/CID57449312>
+    <http://purl.org/dc/terms/identifier> "57449312" ;
+    <http://semanticscience.org/resource/CHEMINF_000480> <compound/CID5354495>, <compound/CID5359596> ;
+    <http://semanticscience.org/resource/SIO_000008> <descriptor/CID57449312_Canonical_SMILES>, <descriptor/CID57449312_Compound_Identifier>, <descriptor/CID57449312_Covalent_Unit_Count>, <descriptor/CID57449312_Defined_Atom_Stereo_Count>, <descriptor/CID57449312_Defined_Bond_Stereo_Count>, <descriptor/CID57449312_Exact_Mass>, <descriptor/CID57449312_Hydrogen_Bond_Acceptor_Count>, <descriptor/CID57449312_Hydrogen_Bond_Donor_Count>, <descriptor/CID57449312_IUPAC_InChI>, <descriptor/CID57449312_Isomeric_SMILES>, <descriptor/CID57449312_Isotope_Atom_Count>, <descriptor/CID57449312_Molecular_Formula>, <descriptor/CID57449312_Molecular_Weight>, <descriptor/CID57449312_Mono_Isotopic_Weight>, <descriptor/CID57449312_Non-hydrogen_Atom_Count>, <descriptor/CID57449312_Preferred_IUPAC_Name>, <descriptor/CID57449312_Rotatable_Bond_Count>, <descriptor/CID57449312_Structure_Complexity>, <descriptor/CID57449312_TPSA>, <descriptor/CID57449312_Total_Formal_Charge>, <descriptor/CID57449312_Undefined_Atom_Stereo_Count>, <descriptor/CID57449312_Undefined_Bond_Stereo_Count> ;
+    a <vocabulary#Compound> ;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Antimony arsenide (Sb3As)" .
+
+<cooccurrence/CID5354495_CID57449312>
+    rdf:object <compound/CID57449312> .
+
+<cooccurrence/CID57449312_CID5354495>
+    rdf:subject <compound/CID57449312> .
+
+<cooccurrence/CID57449312_CID5359596>
+    rdf:subject <compound/CID57449312> .
+
+<cooccurrence/CID57449312_CID5462309>
+    rdf:subject <compound/CID57449312> .
+
+<cooccurrence/CID57449312_CID5462310>
+    rdf:subject <compound/CID57449312> .
+
+<cooccurrence/CID57449312_shkbp1>
+    rdf:subject <compound/CID57449312> .
+
+<cooccurrence/shkbp1_CID57449312>
+    rdf:object <compound/CID57449312> .
+
+<inchikey/DLISVFCFLGSHAB-UHFFFAOYSA-N>
+    <http://semanticscience.org/resource/SIO_000011> <compound/CID57449312> .
+
+<substance/SID443252714>
+    <http://semanticscience.org/resource/CHEMINF_000477> <compound/CID57449312> .
+
+<substance/SID444654637>
+    <http://semanticscience.org/resource/CHEMINF_000477> <compound/CID57449312> .
+
+<substance/SID462754609>
+    <http://semanticscience.org/resource/CHEMINF_000477> <compound/CID57449312> .
+
+<substance/SID464032110>
+    <http://semanticscience.org/resource/CHEMINF_000477> <compound/CID57449312> .
+
+<substance/SID472550119>
+    <http://semanticscience.org/resource/CHEMINF_000477> <compound/CID57449312> .
+
+<substance/SID485741513>
+    <http://semanticscience.org/resource/CHEMINF_000477> <compound/CID57449312> .
+
+<substance/SID486415738>
+    <http://semanticscience.org/resource/CHEMINF_000477> <compound/CID57449312> .
+
+<substance/SID489079379>
+    <http://semanticscience.org/resource/CHEMINF_000477> <compound/CID57449312> .
+
+<substance/SID500756571>
+    <http://semanticscience.org/resource/CHEMINF_000477> <compound/CID57449312> .
+
+<substance/SID504090455>
+    <http://semanticscience.org/resource/CHEMINF_000477> <compound/CID57449312> .
+
+<substance/SID504116636>
+    <http://semanticscience.org/resource/CHEMINF_000477> <compound/CID57449312> .
+
+<synonym/MD5_0dc77bc598f7acdeb6fb903240648558>
+    <http://semanticscience.org/resource/SIO_000011> <compound/CID57449312> .
+
+<synonym/MD5_3a18479269155494f73cacc77c870ef0>
+    <http://semanticscience.org/resource/SIO_000011> <compound/CID57449312> .
+
+<synonym/MD5_6e7b3ec5a0252cdfeed35970e6918c5e>
+    <http://semanticscience.org/resource/SIO_000011> <compound/CID57449312> .
+
+<synonym/MD5_b8eccb5843a7dfd81ecdc3bf960cef76>
+    <http://semanticscience.org/resource/SIO_000011> <compound/CID57449312> .
+
+<synonym/MD5_c1aab53b2a9d5ecf5f5f8f02420c4517>
+    <http://semanticscience.org/resource/SIO_000011> <compound/CID57449312> .
+
+<synonym/MD5_c8faec1d91cab9da4c1f1077fb39607e>
+    <http://semanticscience.org/resource/SIO_000011> <compound/CID57449312> .
+
+

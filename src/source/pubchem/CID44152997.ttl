@@ -1,0 +1,49 @@
+@base <http://rdf.ncbi.nlm.nih.gov/pubchem/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+
+<compound/CID44152997>
+    <http://purl.org/dc/terms/identifier> "44152997" ;
+    <http://semanticscience.org/resource/SIO_000008> <descriptor/CID44152997_Canonical_SMILES>, <descriptor/CID44152997_Compound_Identifier>, <descriptor/CID44152997_Covalent_Unit_Count>, <descriptor/CID44152997_Defined_Atom_Stereo_Count>, <descriptor/CID44152997_Defined_Bond_Stereo_Count>, <descriptor/CID44152997_Exact_Mass>, <descriptor/CID44152997_Hydrogen_Bond_Acceptor_Count>, <descriptor/CID44152997_Hydrogen_Bond_Donor_Count>, <descriptor/CID44152997_IUPAC_InChI>, <descriptor/CID44152997_Isomeric_SMILES>, <descriptor/CID44152997_Isotope_Atom_Count>, <descriptor/CID44152997_Molecular_Formula>, <descriptor/CID44152997_Molecular_Weight>, <descriptor/CID44152997_Mono_Isotopic_Weight>, <descriptor/CID44152997_Non-hydrogen_Atom_Count>, <descriptor/CID44152997_Preferred_IUPAC_Name>, <descriptor/CID44152997_Rotatable_Bond_Count>, <descriptor/CID44152997_Structure_Complexity>, <descriptor/CID44152997_TPSA>, <descriptor/CID44152997_Total_Formal_Charge>, <descriptor/CID44152997_Undefined_Atom_Stereo_Count>, <descriptor/CID44152997_Undefined_Bond_Stereo_Count> ;
+    a <vocabulary#Compound> ;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "tris[(8alpha)-6'-methoxycinchonan-9(R)-ol] arsenite" .
+
+<inchikey/RHJWUDDRYOYURK-QLUGMFLWSA-N>
+    <http://semanticscience.org/resource/SIO_000011> <compound/CID44152997> .
+
+<substance/SID135203501>
+    <http://semanticscience.org/resource/CHEMINF_000477> <compound/CID44152997> .
+
+<substance/SID319389786>
+    <http://semanticscience.org/resource/CHEMINF_000477> <compound/CID44152997> .
+
+<substance/SID481751718>
+    <http://semanticscience.org/resource/CHEMINF_000477> <compound/CID44152997> .
+
+<substance/SID485862515>
+    <http://semanticscience.org/resource/CHEMINF_000477> <compound/CID44152997> .
+
+<substance/SID504091945>
+    <http://semanticscience.org/resource/CHEMINF_000477> <compound/CID44152997> .
+
+<substance/SID504371600>
+    <http://semanticscience.org/resource/CHEMINF_000477> <compound/CID44152997> .
+
+<substance/SID504685016>
+    <http://semanticscience.org/resource/CHEMINF_000477> <compound/CID44152997> .
+
+<synonym/MD5_6ec54d4653ac08d0e5b32e170ebecd6d>
+    <http://semanticscience.org/resource/SIO_000011> <compound/CID44152997> .
+
+<synonym/MD5_8249afff2d68791856f281102a4b3ac2>
+    <http://semanticscience.org/resource/SIO_000011> <compound/CID44152997> .
+
+<synonym/MD5_932d4b48fd97c03aca22e2f2f6729c22>
+    <http://semanticscience.org/resource/SIO_000011> <compound/CID44152997> .
+
+<synonym/MD5_a19731fb71d466d1a055f64ae3478043>
+    <http://semanticscience.org/resource/SIO_000011> <compound/CID44152997> .
+
+<synonym/MD5_e32b1e346b3ebfc3696a5c7bb433bc06>
+    <http://semanticscience.org/resource/SIO_000011> <compound/CID44152997> .
+
+

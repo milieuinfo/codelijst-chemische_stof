@@ -1,0 +1,41 @@
+@base <http://rdf.ncbi.nlm.nih.gov/pubchem/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+
+<compound/CID49822480>
+    <http://purl.org/dc/terms/identifier> "49822480" ;
+    <http://semanticscience.org/resource/CHEMINF_000480> <compound/CID176>, <compound/CID222>, <compound/CID7629> ;
+    <http://semanticscience.org/resource/SIO_000008> <descriptor/CID49822480_Canonical_SMILES>, <descriptor/CID49822480_Compound_Identifier>, <descriptor/CID49822480_Covalent_Unit_Count>, <descriptor/CID49822480_Defined_Atom_Stereo_Count>, <descriptor/CID49822480_Defined_Bond_Stereo_Count>, <descriptor/CID49822480_Exact_Mass>, <descriptor/CID49822480_Hydrogen_Bond_Acceptor_Count>, <descriptor/CID49822480_Hydrogen_Bond_Donor_Count>, <descriptor/CID49822480_IUPAC_InChI>, <descriptor/CID49822480_Isomeric_SMILES>, <descriptor/CID49822480_Isotope_Atom_Count>, <descriptor/CID49822480_Molecular_Formula>, <descriptor/CID49822480_Molecular_Weight>, <descriptor/CID49822480_Mono_Isotopic_Weight>, <descriptor/CID49822480_Non-hydrogen_Atom_Count>, <descriptor/CID49822480_Preferred_IUPAC_Name>, <descriptor/CID49822480_Rotatable_Bond_Count>, <descriptor/CID49822480_Structure_Complexity>, <descriptor/CID49822480_TPSA>, <descriptor/CID49822480_Total_Formal_Charge>, <descriptor/CID49822480_Undefined_Atom_Stereo_Count>, <descriptor/CID49822480_Undefined_Bond_Stereo_Count> ;
+    a <vocabulary#Compound> ;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Mercury(1+), amminephenyl-, acetate" .
+
+<inchikey/UJTABUXRHHQREO-UHFFFAOYSA-M>
+    <http://semanticscience.org/resource/SIO_000011> <compound/CID49822480> .
+
+<substance/SID103811830>
+    <http://semanticscience.org/resource/CHEMINF_000477> <compound/CID49822480> .
+
+<substance/SID104400107>
+    <http://semanticscience.org/resource/CHEMINF_000477> <compound/CID49822480> .
+
+<substance/SID117559427>
+    <http://semanticscience.org/resource/CHEMINF_000477> <compound/CID49822480> .
+
+<substance/SID176272917>
+    <http://semanticscience.org/resource/CHEMINF_000477> <compound/CID49822480> .
+
+<substance/SID505806800>
+    <http://semanticscience.org/resource/CHEMINF_000477> <compound/CID49822480> .
+
+<synonym/MD5_6478be302457b96496fe8111f3eb176f>
+    <http://semanticscience.org/resource/SIO_000011> <compound/CID49822480> .
+
+<synonym/MD5_76e2b317ebc6772ef1a30f6d3513c3ac>
+    <http://semanticscience.org/resource/SIO_000011> <compound/CID49822480> .
+
+<synonym/MD5_84ff9b0c5d3628021dafb6fe16427107>
+    <http://semanticscience.org/resource/SIO_000011> <compound/CID49822480> .
+
+<synonym/MD5_c4e2419573eddeb11508a34c2fa1d8c2>
+    <http://semanticscience.org/resource/SIO_000011> <compound/CID49822480> .
+
+

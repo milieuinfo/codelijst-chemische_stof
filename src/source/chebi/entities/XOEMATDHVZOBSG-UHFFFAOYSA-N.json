@@ -1,0 +1,108 @@
+{
+    "@context": {
+        "smiles": {
+            "@id": "http://dbpedia.org/ontology/smiles"
+        },
+        "name": {
+            "@id": "http://www.w3.org/2004/02/skos/core#prefLabel",
+            "@language": "en"
+        },
+        "url": {
+            "@id": "http://www.w3.org/2000/01/rdf-schema#seeAlso",
+            "@type": "@id"
+        },
+        "inchikey": {
+            "@id": "http://dbpedia.org/property/inchikey"
+        },
+        "intermediate_nodes": {
+            "@id": "http://www.w3.org/2004/02/skos/core#broaderTransitive",
+            "@type": "@id"
+        },
+        "subclass": {
+            "@id": "http://www.w3.org/2004/02/skos/core#broaderTransitive",
+            "@type": "@id"
+        },
+        "kingdom": {
+            "@id": "http://www.w3.org/2004/02/skos/core#broaderTransitive",
+            "@type": "@id"
+        },
+        "class": {
+            "@id": "http://www.w3.org/2004/02/skos/core#broaderTransitive",
+            "@type": "@id"
+        },
+        "ancestors": {
+            "@id": "http://purl.org/dc/elements/1.1/relation",
+            "@language": "en"
+        },
+        "description": {
+            "@id": "http://www.w3.org/2004/02/skos/core#definition",
+            "@language": "en"
+        },
+        "direct_parent": {
+            "@id": "http://www.w3.org/2004/02/skos/core#broader",
+            "@type": "@id"
+        },
+        "alternative_parents": {
+            "@id": "http://www.w3.org/2004/02/skos/core#semanticRelation",
+            "@type": "@id"
+        },
+        "_id": {
+            "@id": "@id"
+        },
+        "chemont_id": {
+            "@id": "@id"
+        },
+        "altLabel_en": {
+            "@id": "http://www.w3.org/2004/02/skos/core#altLabel",
+            "@language": "en"
+        },
+        "note_en": {
+            "@id": "http://www.w3.org/2004/02/skos/core#note",
+            "@language": "en"
+        },
+        "graph": {
+            "@id": "@graph"
+        },
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "obo": "http://purl.obolibrary.org/obo/",
+        "uniprot": "http://purl.uniprot.org/",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "CHEMONTID": "https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/",
+        "chebi": "http://purl.obolibrary.org/obo/",
+        "dbo": "http://dbpedia.org/ontology/",
+        "dbp": "http://dbpedia.org/property/",
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "tax_nodes": "http://classyfire.wishartlab.com/tax_nodes/",
+        "concept": "https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "@base": "https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/"
+    },
+    "_id": "concept:XOEMATDHVZOBSG-UHFFFAOYSA-N",
+    "@type": "skos:Concept",
+    "dbo:formula": "C15H13Cl2N3O2",
+    "dbo:inchi": "InChI=1S/C15H13Cl2N3O2/c1-2-7-22-13-9-12(10(16)8-11(13)17)20-15(21)19-6-4-3-5-14(19)18-20/h1,8-9H,3-7H2",
+    "smiles": "C1CCC=2N(C1)C(=O)N(N2)C3=CC(=C(C=C3Cl)Cl)OCC#C",
+    "inchikey": "XOEMATDHVZOBSG-UHFFFAOYSA-N",
+    "obo:chebi/charge": "0",
+    "altLabel_en": [
+        "2-(2,4-dichloro-5-prop-2-ynyloxyphenyl)-5,6,7,8-tetrahydro-1,2,4-triazolo[4,3-a]pyridin-3(2H)-one",
+        "2-[2,4-dichloro-5-(prop-2-yn-1-yloxy)phenyl]-5,6,7,8-tetrahydro[1,2,4]triazolo[4,3-a]pyridin-3(2H)-one",
+        "DPX-R6447",
+        "Evolus",
+        "Milestone",
+        "azafenidine"
+    ],
+    "skos:exactMatch": {
+        "_id": "obo:CHEBI_2943"
+    },
+    "skos:inScheme": {
+        "_id": "../../conceptscheme/chemische_stof"
+    },
+    "note_en": "A triazolopyridine that is 5,6,7,8-tetrahydro[1,2,4]triazolo[4,3-a]pyridin-3(2H)-one which is substituted at position 2 by a 2,4-dichloro-5-(prop-2-yn-1-yloxy)phenyl group. A protoporphyrinogen oxidase inhibitor, it is used as a herbicide to control weeds in fruit crops such as pineapple, citrus, melons, and grapes. Not approved for use within the European Union.",
+    "alternative_parents": [
+        "obo:CHEBI_23697",
+        "obo:CHEBI_73477",
+        "obo:CHEBI_46746"
+    ]
+}

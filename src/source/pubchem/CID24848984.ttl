@@ -1,0 +1,109 @@
+@base <http://rdf.ncbi.nlm.nih.gov/pubchem/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+
+<compound/CID101561193>
+    <vocabulary#has_parent> <compound/CID24848984> .
+
+<compound/CID24848982>
+    <http://semanticscience.org/resource/CHEMINF_000480> <compound/CID24848984> .
+
+<compound/CID24848984>
+    <http://purl.org/dc/terms/identifier> "24848984" ;
+    <http://semanticscience.org/resource/SIO_000008> <descriptor/CID24848984_Canonical_SMILES>, <descriptor/CID24848984_Compound_Identifier>, <descriptor/CID24848984_Covalent_Unit_Count>, <descriptor/CID24848984_Defined_Atom_Stereo_Count>, <descriptor/CID24848984_Defined_Bond_Stereo_Count>, <descriptor/CID24848984_Exact_Mass>, <descriptor/CID24848984_Hydrogen_Bond_Acceptor_Count>, <descriptor/CID24848984_Hydrogen_Bond_Donor_Count>, <descriptor/CID24848984_IUPAC_InChI>, <descriptor/CID24848984_Isomeric_SMILES>, <descriptor/CID24848984_Isotope_Atom_Count>, <descriptor/CID24848984_Molecular_Formula>, <descriptor/CID24848984_Molecular_Weight>, <descriptor/CID24848984_Mono_Isotopic_Weight>, <descriptor/CID24848984_Non-hydrogen_Atom_Count>, <descriptor/CID24848984_Preferred_IUPAC_Name>, <descriptor/CID24848984_Rotatable_Bond_Count>, <descriptor/CID24848984_Structure_Complexity>, <descriptor/CID24848984_TPSA>, <descriptor/CID24848984_Total_Formal_Charge>, <descriptor/CID24848984_Undefined_Atom_Stereo_Count>, <descriptor/CID24848984_Undefined_Bond_Stereo_Count>, <descriptor/CID24848984_XLogP3-AA> ;
+    a <vocabulary#Compound> ;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "2,2,3,3,4,5,5,6,6,7,7,7-Dodecafluoro-4-(trifluoromethyl)heptanoic acid" .
+
+<compound/CID24849007>
+    <http://semanticscience.org/resource/CHEMINF_000480> <compound/CID24848984> .
+
+<cooccurrence/CID138396467_CID24848984>
+    rdf:object <compound/CID24848984> .
+
+<cooccurrence/CID24848983_CID24848984>
+    rdf:object <compound/CID24848984> .
+
+<cooccurrence/CID24848984_CID138396467>
+    rdf:subject <compound/CID24848984> .
+
+<cooccurrence/CID24848984_CID24848983>
+    rdf:subject <compound/CID24848984> .
+
+<cooccurrence/CID24848984_CID9554>
+    rdf:subject <compound/CID24848984> .
+
+<cooccurrence/CID24848984_CID962>
+    rdf:subject <compound/CID24848984> .
+
+<cooccurrence/CID9554_CID24848984>
+    rdf:object <compound/CID24848984> .
+
+<inchikey/RGXLMLZPWKONOH-UHFFFAOYSA-N>
+    <http://semanticscience.org/resource/SIO_000011> <compound/CID24848984> .
+
+<substance/SID275856620>
+    <http://semanticscience.org/resource/CHEMINF_000477> <compound/CID24848984> .
+
+<substance/SID341699127>
+    <http://semanticscience.org/resource/CHEMINF_000477> <compound/CID24848984> .
+
+<substance/SID363603894>
+    <http://semanticscience.org/resource/CHEMINF_000477> <compound/CID24848984> .
+
+<substance/SID384461922>
+    <http://semanticscience.org/resource/CHEMINF_000477> <compound/CID24848984> .
+
+<substance/SID387148207>
+    <http://semanticscience.org/resource/CHEMINF_000477> <compound/CID24848984> .
+
+<substance/SID404765942>
+    <http://semanticscience.org/resource/CHEMINF_000477> <compound/CID24848984> .
+
+<substance/SID459645489>
+    <http://semanticscience.org/resource/CHEMINF_000477> <compound/CID24848984> .
+
+<substance/SID462704808>
+    <http://semanticscience.org/resource/CHEMINF_000477> <compound/CID24848984> .
+
+<substance/SID464101517>
+    <http://semanticscience.org/resource/CHEMINF_000477> <compound/CID24848984> .
+
+<substance/SID464856201>
+    <http://semanticscience.org/resource/CHEMINF_000477> <compound/CID24848984> .
+
+<substance/SID485837187>
+    <http://semanticscience.org/resource/CHEMINF_000477> <compound/CID24848984> .
+
+<substance/SID497639900>
+    <http://semanticscience.org/resource/CHEMINF_000477> <compound/CID24848984> .
+
+<substance/SID498310533>
+    <http://semanticscience.org/resource/CHEMINF_000477> <compound/CID24848984> .
+
+<synonym/MD5_04ba8de5bcabcec6dc444e149973c637>
+    <http://semanticscience.org/resource/SIO_000011> <compound/CID24848984> .
+
+<synonym/MD5_15802ec97bf5c9b5233571fc5c410dbe>
+    <http://semanticscience.org/resource/SIO_000011> <compound/CID24848984> .
+
+<synonym/MD5_475cd1505874c9dfe51387ec9343c846>
+    <http://semanticscience.org/resource/SIO_000011> <compound/CID24848984> .
+
+<synonym/MD5_47d62df67dfd4c09d8448fa9df447176>
+    <http://semanticscience.org/resource/SIO_000011> <compound/CID24848984> .
+
+<synonym/MD5_a250e4be1803120b6224ea6226c7ee4c>
+    <http://semanticscience.org/resource/SIO_000011> <compound/CID24848984> .
+
+<synonym/MD5_caccef52a18a6a12912cca3d3ff4aff5>
+    <http://semanticscience.org/resource/SIO_000011> <compound/CID24848984> .
+
+<synonym/MD5_ce405c9e39f09789d531820aa4de0179>
+    <http://semanticscience.org/resource/SIO_000011> <compound/CID24848984> .
+
+<synonym/MD5_efa8db7ee0d9ef76a54a7909e9262a37>
+    <http://semanticscience.org/resource/SIO_000011> <compound/CID24848984> .
+
+<synonym/MD5_f1765ad382991412b7bfd62816d156e9>
+    <http://semanticscience.org/resource/SIO_000011> <compound/CID24848984> .
+
+

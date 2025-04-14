@@ -1,0 +1,58 @@
+@base <http://rdf.ncbi.nlm.nih.gov/pubchem/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+
+<compound/CID159476041>
+    <http://purl.org/dc/terms/identifier> "159476041" ;
+    <vocabulary#has_parent> <compound/CID137216268> ;
+    <http://semanticscience.org/resource/CHEMINF_000461> <compound/CID170842633> ;
+    <http://semanticscience.org/resource/CHEMINF_000480> <compound/CID935> ;
+    <http://semanticscience.org/resource/SIO_000008> <descriptor/CID159476041_Canonical_SMILES>, <descriptor/CID159476041_Compound_Identifier>, <descriptor/CID159476041_Covalent_Unit_Count>, <descriptor/CID159476041_Defined_Atom_Stereo_Count>, <descriptor/CID159476041_Defined_Bond_Stereo_Count>, <descriptor/CID159476041_Exact_Mass>, <descriptor/CID159476041_Hydrogen_Bond_Acceptor_Count>, <descriptor/CID159476041_Hydrogen_Bond_Donor_Count>, <descriptor/CID159476041_IUPAC_InChI>, <descriptor/CID159476041_Isomeric_SMILES>, <descriptor/CID159476041_Isotope_Atom_Count>, <descriptor/CID159476041_Molecular_Formula>, <descriptor/CID159476041_Molecular_Weight>, <descriptor/CID159476041_Mono_Isotopic_Weight>, <descriptor/CID159476041_Non-hydrogen_Atom_Count>, <descriptor/CID159476041_Preferred_IUPAC_Name>, <descriptor/CID159476041_Rotatable_Bond_Count>, <descriptor/CID159476041_Structure_Complexity>, <descriptor/CID159476041_TPSA>, <descriptor/CID159476041_Total_Formal_Charge>, <descriptor/CID159476041_Undefined_Atom_Stereo_Count>, <descriptor/CID159476041_Undefined_Bond_Stereo_Count> ;
+    a <vocabulary#Compound> ;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "(2,3'-Bis(((2-hydroxyphenyl)methylene)amino)but-2-enedinitrilato(2-)-N2,N3,O2,O3)nickel" .
+
+<compound/CID170842633>
+    <http://semanticscience.org/resource/CHEMINF_000461> <compound/CID159476041> .
+
+<inchikey/LWJXGIDVJYVQKD-BTKZGBQCSA-L>
+    <http://semanticscience.org/resource/SIO_000011> <compound/CID159476041> .
+
+<substance/SID450724299>
+    <http://semanticscience.org/resource/CHEMINF_000477> <compound/CID159476041> .
+
+<substance/SID472279209>
+    <http://semanticscience.org/resource/CHEMINF_000477> <compound/CID159476041> .
+
+<substance/SID489059879>
+    <http://semanticscience.org/resource/CHEMINF_000477> <compound/CID159476041> .
+
+<substance/SID504091372>
+    <http://semanticscience.org/resource/CHEMINF_000477> <compound/CID159476041> .
+
+<substance/SID504186022>
+    <http://semanticscience.org/resource/CHEMINF_000477> <compound/CID159476041> .
+
+<substance/SID505390184>
+    <http://semanticscience.org/resource/CHEMINF_000477> <compound/CID159476041> .
+
+<synonym/MD5_0929620447d66a00a9ee75271b7e9bbd>
+    <http://semanticscience.org/resource/SIO_000011> <compound/CID159476041> .
+
+<synonym/MD5_09d6313206ffee5aba1d3071edd673e7>
+    <http://semanticscience.org/resource/SIO_000011> <compound/CID159476041> .
+
+<synonym/MD5_1463fa5e23e2f5b52ad066b1306bd25d>
+    <http://semanticscience.org/resource/SIO_000011> <compound/CID159476041> .
+
+<synonym/MD5_5e1687eb6b1259dccc10ba4580b0776d>
+    <http://semanticscience.org/resource/SIO_000011> <compound/CID159476041> .
+
+<synonym/MD5_9ea53d5800db24ca4e25a13285d614ee>
+    <http://semanticscience.org/resource/SIO_000011> <compound/CID159476041> .
+
+<synonym/MD5_9fea974b2c15dc18da00ac462c9c3fec>
+    <http://semanticscience.org/resource/SIO_000011> <compound/CID159476041> .
+
+<synonym/MD5_f6929ad3462743604a09d8e50288f31f>
+    <http://semanticscience.org/resource/SIO_000011> <compound/CID159476041> .
+
+

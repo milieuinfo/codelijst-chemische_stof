@@ -1,0 +1,36 @@
+@base <http://rdf.ncbi.nlm.nih.gov/pubchem/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+
+<compound/CID133065680>
+    <http://purl.org/dc/terms/identifier> "133065680" ;
+    <vocabulary#has_parent> <compound/CID133065681> ;
+    <http://semanticscience.org/resource/CHEMINF_000480> <compound/CID5360545>, <compound/CID962> ;
+    <http://semanticscience.org/resource/SIO_000008> <descriptor/CID133065680_Canonical_SMILES>, <descriptor/CID133065680_Compound_Identifier>, <descriptor/CID133065680_Covalent_Unit_Count>, <descriptor/CID133065680_Defined_Atom_Stereo_Count>, <descriptor/CID133065680_Defined_Bond_Stereo_Count>, <descriptor/CID133065680_Exact_Mass>, <descriptor/CID133065680_Hydrogen_Bond_Acceptor_Count>, <descriptor/CID133065680_Hydrogen_Bond_Donor_Count>, <descriptor/CID133065680_IUPAC_InChI>, <descriptor/CID133065680_Isomeric_SMILES>, <descriptor/CID133065680_Isotope_Atom_Count>, <descriptor/CID133065680_Molecular_Formula>, <descriptor/CID133065680_Molecular_Weight>, <descriptor/CID133065680_Mono_Isotopic_Weight>, <descriptor/CID133065680_Non-hydrogen_Atom_Count>, <descriptor/CID133065680_Preferred_IUPAC_Name>, <descriptor/CID133065680_Rotatable_Bond_Count>, <descriptor/CID133065680_Structure_Complexity>, <descriptor/CID133065680_TPSA>, <descriptor/CID133065680_Total_Formal_Charge>, <descriptor/CID133065680_Undefined_Atom_Stereo_Count>, <descriptor/CID133065680_Undefined_Bond_Stereo_Count> ;
+    a <vocabulary#Compound> ;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Sodium (3-(((3-carboxylatopropionamido)carbonyl)amino)-2-methoxypropyl)hydroxymercurate(1-)" .
+
+<inchikey/CGWMCUDSKOXNFW-UHFFFAOYSA-M>
+    <http://semanticscience.org/resource/SIO_000011> <compound/CID133065680> .
+
+<substance/SID135348413>
+    <http://semanticscience.org/resource/CHEMINF_000477> <compound/CID133065680> .
+
+<substance/SID481735468>
+    <http://semanticscience.org/resource/CHEMINF_000477> <compound/CID133065680> .
+
+<substance/SID486381061>
+    <http://semanticscience.org/resource/CHEMINF_000477> <compound/CID133065680> .
+
+<substance/SID488421629>
+    <http://semanticscience.org/resource/CHEMINF_000477> <compound/CID133065680> .
+
+<synonym/MD5_ae2fe44bb952ff9c0dde580ae153a220>
+    <http://semanticscience.org/resource/SIO_000011> <compound/CID133065680> .
+
+<synonym/MD5_e5218aea6400562ef04ef7d78e78d235>
+    <http://semanticscience.org/resource/SIO_000011> <compound/CID133065680> .
+
+<synonym/MD5_e9d5dd712b32694fcdf89da649075f2b>
+    <http://semanticscience.org/resource/SIO_000011> <compound/CID133065680> .
+
+

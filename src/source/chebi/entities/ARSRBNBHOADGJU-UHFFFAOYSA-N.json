@@ -1,0 +1,114 @@
+{
+    "@context": {
+        "smiles": {
+            "@id": "http://dbpedia.org/ontology/smiles"
+        },
+        "name": {
+            "@id": "http://www.w3.org/2004/02/skos/core#prefLabel",
+            "@language": "en"
+        },
+        "url": {
+            "@id": "http://www.w3.org/2000/01/rdf-schema#seeAlso",
+            "@type": "@id"
+        },
+        "inchikey": {
+            "@id": "http://dbpedia.org/property/inchikey"
+        },
+        "intermediate_nodes": {
+            "@id": "http://www.w3.org/2004/02/skos/core#broaderTransitive",
+            "@type": "@id"
+        },
+        "subclass": {
+            "@id": "http://www.w3.org/2004/02/skos/core#broaderTransitive",
+            "@type": "@id"
+        },
+        "kingdom": {
+            "@id": "http://www.w3.org/2004/02/skos/core#broaderTransitive",
+            "@type": "@id"
+        },
+        "class": {
+            "@id": "http://www.w3.org/2004/02/skos/core#broaderTransitive",
+            "@type": "@id"
+        },
+        "ancestors": {
+            "@id": "http://purl.org/dc/elements/1.1/relation",
+            "@language": "en"
+        },
+        "description": {
+            "@id": "http://www.w3.org/2004/02/skos/core#definition",
+            "@language": "en"
+        },
+        "direct_parent": {
+            "@id": "http://www.w3.org/2004/02/skos/core#broader",
+            "@type": "@id"
+        },
+        "alternative_parents": {
+            "@id": "http://www.w3.org/2004/02/skos/core#semanticRelation",
+            "@type": "@id"
+        },
+        "_id": {
+            "@id": "@id"
+        },
+        "chemont_id": {
+            "@id": "@id"
+        },
+        "altLabel_en": {
+            "@id": "http://www.w3.org/2004/02/skos/core#altLabel",
+            "@language": "en"
+        },
+        "note_en": {
+            "@id": "http://www.w3.org/2004/02/skos/core#note",
+            "@language": "en"
+        },
+        "graph": {
+            "@id": "@graph"
+        },
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "obo": "http://purl.obolibrary.org/obo/",
+        "uniprot": "http://purl.uniprot.org/",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "CHEMONTID": "https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/",
+        "chebi": "http://purl.obolibrary.org/obo/",
+        "dbo": "http://dbpedia.org/ontology/",
+        "dbp": "http://dbpedia.org/property/",
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "tax_nodes": "http://classyfire.wishartlab.com/tax_nodes/",
+        "concept": "https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "@base": "https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/"
+    },
+    "_id": "concept:ARSRBNBHOADGJU-UHFFFAOYSA-N",
+    "@type": "skos:Concept",
+    "dbo:formula": "C20H16",
+    "dbo:inchi": "InChI=1S/C20H16/c1-13-16-8-5-6-9-17(16)14(2)20-18(13)12-11-15-7-3-4-10-19(15)20/h3-12H,1-2H3",
+    "smiles": "Cc1c2ccccc2c(C)c2c1ccc1ccccc21",
+    "inchikey": "ARSRBNBHOADGJU-UHFFFAOYSA-N",
+    "obo:chebi/charge": "0",
+    "altLabel_en": [
+        "1,4-Dimethyl-2,3-benzphenanthrene",
+        "6,7-Dimethyl-1,2-benzanthracene",
+        "7,12-DMBA",
+        "7,12-Dimethyl-1,2-benzanthracene",
+        "7,12-Dimethyl-1:2-benz(a)anthracene",
+        "7,12-Dimethylbenz(a)anthracene",
+        "7,12-Dimethylbenzanthracene",
+        "7,12-Dimethylbenzanthrancene",
+        "7,12-dimethylbenzo[a]anthracene",
+        "9,10-Dimethyl-1,2-benzanthracene",
+        "9,10-Dimethyl-1,2-benzanthrazen",
+        "9,10-Dimethylbenz(a)anthracene",
+        "DMBA"
+    ],
+    "skos:exactMatch": {
+        "_id": "obo:CHEBI_254496"
+    },
+    "skos:inScheme": {
+        "_id": "../../conceptscheme/chemische_stof"
+    },
+    "note_en": "A tetraphene having methyl substituents at the 7- and 12-positions. It is a potent carcinogen and is present in tobacco smoke.",
+    "alternative_parents": [
+        "obo:CHEBI_35296",
+        "obo:CHEBI_51067"
+    ]
+}

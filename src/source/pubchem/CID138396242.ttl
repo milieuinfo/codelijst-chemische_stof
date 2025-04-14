@@ -1,0 +1,36 @@
+@base <http://rdf.ncbi.nlm.nih.gov/pubchem/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+
+<compound/CID138396242>
+    <http://purl.org/dc/terms/identifier> "138396242" ;
+    <vocabulary#has_parent> <compound/CID138396243> ;
+    <http://semanticscience.org/resource/CHEMINF_000480> <compound/CID5360545> ;
+    <http://semanticscience.org/resource/SIO_000008> <descriptor/CID138396242_Canonical_SMILES>, <descriptor/CID138396242_Compound_Identifier>, <descriptor/CID138396242_Covalent_Unit_Count>, <descriptor/CID138396242_Defined_Atom_Stereo_Count>, <descriptor/CID138396242_Defined_Bond_Stereo_Count>, <descriptor/CID138396242_Exact_Mass>, <descriptor/CID138396242_Hydrogen_Bond_Acceptor_Count>, <descriptor/CID138396242_Hydrogen_Bond_Donor_Count>, <descriptor/CID138396242_IUPAC_InChI>, <descriptor/CID138396242_Isomeric_SMILES>, <descriptor/CID138396242_Isotope_Atom_Count>, <descriptor/CID138396242_Molecular_Formula>, <descriptor/CID138396242_Molecular_Weight>, <descriptor/CID138396242_Mono_Isotopic_Weight>, <descriptor/CID138396242_Non-hydrogen_Atom_Count>, <descriptor/CID138396242_Preferred_IUPAC_Name>, <descriptor/CID138396242_Rotatable_Bond_Count>, <descriptor/CID138396242_Structure_Complexity>, <descriptor/CID138396242_TPSA>, <descriptor/CID138396242_Total_Formal_Charge>, <descriptor/CID138396242_Undefined_Atom_Stereo_Count>, <descriptor/CID138396242_Undefined_Bond_Stereo_Count> ;
+    a <vocabulary#Compound> ;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "3-[Ethyl(perfluoro-1-oxooctyl)amino]-1-propanesulfonic acid sodium salt" .
+
+<inchikey/RXJIIPMAZRURMG-UHFFFAOYSA-M>
+    <http://semanticscience.org/resource/SIO_000011> <compound/CID138396242> .
+
+<substance/SID384460552>
+    <http://semanticscience.org/resource/CHEMINF_000477> <compound/CID138396242> .
+
+<substance/SID387151354>
+    <http://semanticscience.org/resource/CHEMINF_000477> <compound/CID138396242> .
+
+<substance/SID464856832>
+    <http://semanticscience.org/resource/CHEMINF_000477> <compound/CID138396242> .
+
+<synonym/MD5_8a0c6d031f217789a65c24956b344dee>
+    <http://semanticscience.org/resource/SIO_000011> <compound/CID138396242> .
+
+<synonym/MD5_8dcf216113f135f474ee97ca695a95f7>
+    <http://semanticscience.org/resource/SIO_000011> <compound/CID138396242> .
+
+<synonym/MD5_ae4761825c9f30f26bf119c4e8156efc>
+    <http://semanticscience.org/resource/SIO_000011> <compound/CID138396242> .
+
+<synonym/MD5_badd2a4f8cd0b486ac9882cc5a4d2ceb>
+    <http://semanticscience.org/resource/SIO_000011> <compound/CID138396242> .
+
+

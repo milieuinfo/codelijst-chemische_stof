@@ -1,0 +1,38 @@
+@base <http://rdf.ncbi.nlm.nih.gov/pubchem/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+
+<compound/CID20313255>
+    <http://purl.org/dc/terms/identifier> "20313255" ;
+    <http://semanticscience.org/resource/CHEMINF_000480> <compound/CID23931>, <compound/CID33558> ;
+    <http://semanticscience.org/resource/SIO_000008> <descriptor/CID20313255_Canonical_SMILES>, <descriptor/CID20313255_Compound_Identifier>, <descriptor/CID20313255_Covalent_Unit_Count>, <descriptor/CID20313255_Defined_Atom_Stereo_Count>, <descriptor/CID20313255_Defined_Bond_Stereo_Count>, <descriptor/CID20313255_Exact_Mass>, <descriptor/CID20313255_Hydrogen_Bond_Acceptor_Count>, <descriptor/CID20313255_Hydrogen_Bond_Donor_Count>, <descriptor/CID20313255_IUPAC_InChI>, <descriptor/CID20313255_Isomeric_SMILES>, <descriptor/CID20313255_Isotope_Atom_Count>, <descriptor/CID20313255_Molecular_Formula>, <descriptor/CID20313255_Molecular_Weight>, <descriptor/CID20313255_Mono_Isotopic_Weight>, <descriptor/CID20313255_Non-hydrogen_Atom_Count>, <descriptor/CID20313255_Preferred_IUPAC_Name>, <descriptor/CID20313255_Rotatable_Bond_Count>, <descriptor/CID20313255_Structure_Complexity>, <descriptor/CID20313255_TPSA>, <descriptor/CID20313255_Total_Formal_Charge>, <descriptor/CID20313255_Undefined_Atom_Stereo_Count>, <descriptor/CID20313255_Undefined_Bond_Stereo_Count> ;
+    a <vocabulary#Compound> ;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Mercury II azide" .
+
+<inchikey/RNHOPGDSIQQZLN-UHFFFAOYSA-N>
+    <http://semanticscience.org/resource/SIO_000011> <compound/CID20313255> .
+
+<substance/SID135298517>
+    <http://semanticscience.org/resource/CHEMINF_000477> <compound/CID20313255> .
+
+<substance/SID481765345>
+    <http://semanticscience.org/resource/CHEMINF_000477> <compound/CID20313255> .
+
+<substance/SID485795433>
+    <http://semanticscience.org/resource/CHEMINF_000477> <compound/CID20313255> .
+
+<substance/SID505806796>
+    <http://semanticscience.org/resource/CHEMINF_000477> <compound/CID20313255> .
+
+<synonym/MD5_98f14a0f75aa9b1ef945eaebca295051>
+    <http://semanticscience.org/resource/SIO_000011> <compound/CID20313255> .
+
+<synonym/MD5_a934147bf63fd3f571461e23cf6ea9c6>
+    <http://semanticscience.org/resource/SIO_000011> <compound/CID20313255> .
+
+<synonym/MD5_e4b4157d9ada481405ab8922ab553c58>
+    <http://semanticscience.org/resource/SIO_000011> <compound/CID20313255> .
+
+<synonym/MD5_f999d2482e64ca1448a9f6a7058dd934>
+    <http://semanticscience.org/resource/SIO_000011> <compound/CID20313255> .
+
+

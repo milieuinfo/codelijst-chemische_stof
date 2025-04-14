@@ -1,0 +1,35 @@
+@base <http://rdf.ncbi.nlm.nih.gov/pubchem/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+
+<compound/CID19733971>
+    <http://purl.org/dc/terms/identifier> "19733971" ;
+    <http://semanticscience.org/resource/CHEMINF_000480> <compound/CID23973>, <compound/CID23994>, <compound/CID29109> ;
+    <http://semanticscience.org/resource/SIO_000008> <descriptor/CID19733971_Canonical_SMILES>, <descriptor/CID19733971_Compound_Identifier>, <descriptor/CID19733971_Covalent_Unit_Count>, <descriptor/CID19733971_Defined_Atom_Stereo_Count>, <descriptor/CID19733971_Defined_Bond_Stereo_Count>, <descriptor/CID19733971_Exact_Mass>, <descriptor/CID19733971_Hydrogen_Bond_Acceptor_Count>, <descriptor/CID19733971_Hydrogen_Bond_Donor_Count>, <descriptor/CID19733971_IUPAC_InChI>, <descriptor/CID19733971_Isomeric_SMILES>, <descriptor/CID19733971_Isotope_Atom_Count>, <descriptor/CID19733971_Molecular_Formula>, <descriptor/CID19733971_Molecular_Weight>, <descriptor/CID19733971_Mono_Isotopic_Weight>, <descriptor/CID19733971_Non-hydrogen_Atom_Count>, <descriptor/CID19733971_Preferred_IUPAC_Name>, <descriptor/CID19733971_Rotatable_Bond_Count>, <descriptor/CID19733971_Structure_Complexity>, <descriptor/CID19733971_TPSA>, <descriptor/CID19733971_Total_Formal_Charge>, <descriptor/CID19733971_Undefined_Atom_Stereo_Count>, <descriptor/CID19733971_Undefined_Bond_Stereo_Count> ;
+    a <vocabulary#Compound> ;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Cadmium zinc sulfide ((Cd,Zn)S)" .
+
+<inchikey/SWNQWWDIBQLFNK-UHFFFAOYSA-N>
+    <http://semanticscience.org/resource/SIO_000011> <compound/CID19733971> .
+
+<substance/SID176268934>
+    <http://semanticscience.org/resource/CHEMINF_000477> <compound/CID19733971> .
+
+<substance/SID32495460>
+    <http://semanticscience.org/resource/CHEMINF_000477> <compound/CID19733971> .
+
+<substance/SID435376195>
+    <http://semanticscience.org/resource/CHEMINF_000477> <compound/CID19733971> .
+
+<substance/SID505569017>
+    <http://semanticscience.org/resource/CHEMINF_000477> <compound/CID19733971> .
+
+<synonym/MD5_2d17e4a7107371c638e2bba61c611a0d>
+    <http://semanticscience.org/resource/SIO_000011> <compound/CID19733971> .
+
+<synonym/MD5_7b47d81671f2b234ed0be039152b0b7e>
+    <http://semanticscience.org/resource/SIO_000011> <compound/CID19733971> .
+
+<synonym/MD5_df3d6c20df061f35d4bad22b7c3d08d0>
+    <http://semanticscience.org/resource/SIO_000011> <compound/CID19733971> .
+
+

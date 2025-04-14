@@ -1,0 +1,42 @@
+@base <http://rdf.ncbi.nlm.nih.gov/pubchem/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+
+<compound/CID90659656>
+    <http://purl.org/dc/terms/identifier> "90659656" ;
+    <vocabulary#has_parent> <compound/CID136048259> ;
+    <http://semanticscience.org/resource/CHEMINF_000480> <compound/CID783>, <compound/CID935> ;
+    <http://semanticscience.org/resource/SIO_000008> <descriptor/CID90659656_Canonical_SMILES>, <descriptor/CID90659656_Compound_Identifier>, <descriptor/CID90659656_Covalent_Unit_Count>, <descriptor/CID90659656_Defined_Atom_Stereo_Count>, <descriptor/CID90659656_Defined_Bond_Stereo_Count>, <descriptor/CID90659656_Exact_Mass>, <descriptor/CID90659656_Hydrogen_Bond_Acceptor_Count>, <descriptor/CID90659656_Hydrogen_Bond_Donor_Count>, <descriptor/CID90659656_IUPAC_InChI>, <descriptor/CID90659656_Isomeric_SMILES>, <descriptor/CID90659656_Isotope_Atom_Count>, <descriptor/CID90659656_Molecular_Formula>, <descriptor/CID90659656_Molecular_Weight>, <descriptor/CID90659656_Mono_Isotopic_Weight>, <descriptor/CID90659656_Non-hydrogen_Atom_Count>, <descriptor/CID90659656_Preferred_IUPAC_Name>, <descriptor/CID90659656_Rotatable_Bond_Count>, <descriptor/CID90659656_Structure_Complexity>, <descriptor/CID90659656_TPSA>, <descriptor/CID90659656_Total_Formal_Charge>, <descriptor/CID90659656_Undefined_Atom_Stereo_Count>, <descriptor/CID90659656_Undefined_Bond_Stereo_Count> ;
+    a <vocabulary#Compound> ;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Nickelate(4-), [22-[[(4-sulfophenyl)amino]sulfonyl]-29H,31H-phthalocyanine-1,8,15-trisulfonato(6-)-kappaN29,kappaN30,kappaN31,kappaN32]-, hydrogen (1:4), (SP-4-2)-" .
+
+<inchikey/MUZVDXSUBSNMIZ-UHFFFAOYSA-N>
+    <http://semanticscience.org/resource/SIO_000011> <compound/CID90659656> .
+
+<substance/SID135360537>
+    <http://semanticscience.org/resource/CHEMINF_000477> <compound/CID90659656> .
+
+<substance/SID319420751>
+    <http://semanticscience.org/resource/CHEMINF_000477> <compound/CID90659656> .
+
+<substance/SID480478140>
+    <http://semanticscience.org/resource/CHEMINF_000477> <compound/CID90659656> .
+
+<substance/SID505849999>
+    <http://semanticscience.org/resource/CHEMINF_000477> <compound/CID90659656> .
+
+<synonym/MD5_1c9c5aac7170fe4273c3099155c005dc>
+    <http://semanticscience.org/resource/SIO_000011> <compound/CID90659656> .
+
+<synonym/MD5_68d05717bbe29701e248ce02566bd21f>
+    <http://semanticscience.org/resource/SIO_000011> <compound/CID90659656> .
+
+<synonym/MD5_95600c988dd57d4ceda8ad49976a9f76>
+    <http://semanticscience.org/resource/SIO_000011> <compound/CID90659656> .
+
+<synonym/MD5_c4c014ec870a49599401c045192a4a88>
+    <http://semanticscience.org/resource/SIO_000011> <compound/CID90659656> .
+
+<synonym/MD5_f380647d6ab954cd20ba263c314af588>
+    <http://semanticscience.org/resource/SIO_000011> <compound/CID90659656> .
+
+

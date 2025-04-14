@@ -1,0 +1,29 @@
+@base <http://rdf.ncbi.nlm.nih.gov/pubchem/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+
+<compound/CID132427575>
+    <http://purl.org/dc/terms/identifier> "132427575" ;
+    <http://semanticscience.org/resource/CHEMINF_000480> <compound/CID1118>, <compound/CID284>, <compound/CID783>, <compound/CID935> ;
+    <http://semanticscience.org/resource/SIO_000008> <descriptor/CID132427575_Canonical_SMILES>, <descriptor/CID132427575_Compound_Identifier>, <descriptor/CID132427575_Covalent_Unit_Count>, <descriptor/CID132427575_Defined_Atom_Stereo_Count>, <descriptor/CID132427575_Defined_Bond_Stereo_Count>, <descriptor/CID132427575_Exact_Mass>, <descriptor/CID132427575_Hydrogen_Bond_Acceptor_Count>, <descriptor/CID132427575_Hydrogen_Bond_Donor_Count>, <descriptor/CID132427575_IUPAC_InChI>, <descriptor/CID132427575_Isomeric_SMILES>, <descriptor/CID132427575_Isotope_Atom_Count>, <descriptor/CID132427575_Molecular_Formula>, <descriptor/CID132427575_Molecular_Weight>, <descriptor/CID132427575_Mono_Isotopic_Weight>, <descriptor/CID132427575_Non-hydrogen_Atom_Count>, <descriptor/CID132427575_Preferred_IUPAC_Name>, <descriptor/CID132427575_Rotatable_Bond_Count>, <descriptor/CID132427575_Structure_Complexity>, <descriptor/CID132427575_TPSA>, <descriptor/CID132427575_Total_Formal_Charge>, <descriptor/CID132427575_Undefined_Atom_Stereo_Count>, <descriptor/CID132427575_Undefined_Bond_Stereo_Count> ;
+    a <vocabulary#Compound> ;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Nickelate(1-), (formato-O)(sulfato(2-)-O)-, hydrogen" .
+
+<inchikey/AOCBSKJGAZMQKM-UHFFFAOYSA-O>
+    <http://semanticscience.org/resource/SIO_000011> <compound/CID132427575> .
+
+<substance/SID135354536>
+    <http://semanticscience.org/resource/CHEMINF_000477> <compound/CID132427575> .
+
+<substance/SID355190603>
+    <http://semanticscience.org/resource/CHEMINF_000477> <compound/CID132427575> .
+
+<substance/SID481758848>
+    <http://semanticscience.org/resource/CHEMINF_000477> <compound/CID132427575> .
+
+<synonym/MD5_49fd410a97183250db1666222c89c653>
+    <http://semanticscience.org/resource/SIO_000011> <compound/CID132427575> .
+
+<synonym/MD5_d898943a2593b7d962eab9b2b3fa1c1f>
+    <http://semanticscience.org/resource/SIO_000011> <compound/CID132427575> .
+
+

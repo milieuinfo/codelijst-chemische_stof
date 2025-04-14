@@ -1,0 +1,42 @@
+@base <http://rdf.ncbi.nlm.nih.gov/pubchem/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+
+<compound/CID136048270>
+    <http://purl.org/dc/terms/identifier> "136048270" ;
+    <vocabulary#has_parent> <compound/CID221227> ;
+    <http://semanticscience.org/resource/CHEMINF_000480> <compound/CID935> ;
+    <http://semanticscience.org/resource/SIO_000008> <descriptor/CID136048270_Canonical_SMILES>, <descriptor/CID136048270_Compound_Identifier>, <descriptor/CID136048270_Covalent_Unit_Count>, <descriptor/CID136048270_Defined_Atom_Stereo_Count>, <descriptor/CID136048270_Defined_Bond_Stereo_Count>, <descriptor/CID136048270_Exact_Mass>, <descriptor/CID136048270_Hydrogen_Bond_Acceptor_Count>, <descriptor/CID136048270_Hydrogen_Bond_Donor_Count>, <descriptor/CID136048270_IUPAC_InChI>, <descriptor/CID136048270_Isomeric_SMILES>, <descriptor/CID136048270_Isotope_Atom_Count>, <descriptor/CID136048270_Molecular_Formula>, <descriptor/CID136048270_Molecular_Weight>, <descriptor/CID136048270_Mono_Isotopic_Weight>, <descriptor/CID136048270_Non-hydrogen_Atom_Count>, <descriptor/CID136048270_Preferred_IUPAC_Name>, <descriptor/CID136048270_Rotatable_Bond_Count>, <descriptor/CID136048270_Structure_Complexity>, <descriptor/CID136048270_TPSA>, <descriptor/CID136048270_Total_Formal_Charge>, <descriptor/CID136048270_Undefined_Atom_Stereo_Count>, <descriptor/CID136048270_Undefined_Bond_Stereo_Count> ;
+    a <vocabulary#Compound> ;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Nickel, ((2,2'-(1,2-phenylenebis((nitrilo-kappaN)methylidyne))bis(phenolato-kappaO))(2-))-" .
+
+<inchikey/NGCXCGQPUMDVAF-UHFFFAOYSA-N>
+    <http://semanticscience.org/resource/SIO_000011> <compound/CID136048270> .
+
+<substance/SID135361337>
+    <http://semanticscience.org/resource/CHEMINF_000477> <compound/CID136048270> .
+
+<substance/SID435376776>
+    <http://semanticscience.org/resource/CHEMINF_000477> <compound/CID136048270> .
+
+<substance/SID481742549>
+    <http://semanticscience.org/resource/CHEMINF_000477> <compound/CID136048270> .
+
+<substance/SID505849897>
+    <http://semanticscience.org/resource/CHEMINF_000477> <compound/CID136048270> .
+
+<synonym/MD5_09a95980185208ecf24131e9bb042d10>
+    <http://semanticscience.org/resource/SIO_000011> <compound/CID136048270> .
+
+<synonym/MD5_3b1fdd0d9d5fd882ec82cc7ef6c9f5f6>
+    <http://semanticscience.org/resource/SIO_000011> <compound/CID136048270> .
+
+<synonym/MD5_a9e2473a8a3335d9d72cd5004cbedabb>
+    <http://semanticscience.org/resource/SIO_000011> <compound/CID136048270> .
+
+<synonym/MD5_ab84e4ef852553a112576d38f5058e97>
+    <http://semanticscience.org/resource/SIO_000011> <compound/CID136048270> .
+
+<synonym/MD5_d8c66d79d4b3e3e8736d7c1bd08af96b>
+    <http://semanticscience.org/resource/SIO_000011> <compound/CID136048270> .
+
+

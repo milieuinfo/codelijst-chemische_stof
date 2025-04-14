@@ -1,0 +1,2915 @@
+@base <http://rdf.ncbi.nlm.nih.gov/pubchem/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+
+<compound/CID10219853>
+    <http://purl.obolibrary.org/obo/RO_0000087> <vocabulary#FDAApprovedDrugs> ;
+    <http://purl.org/dc/terms/identifier> "10219853" ;
+    <vocabulary#is_active_ingredient_of> <http://purl.bioontology.org/ontology/SNOMEDCT/50306007> ;
+    <http://semanticscience.org/resource/CHEMINF_000480> <compound/CID516845>, <compound/CID5360545> ;
+    <http://semanticscience.org/resource/SIO_000008> <descriptor/CID10219853_Canonical_SMILES>, <descriptor/CID10219853_Compound_Identifier>, <descriptor/CID10219853_Covalent_Unit_Count>, <descriptor/CID10219853_Defined_Atom_Stereo_Count>, <descriptor/CID10219853_Defined_Bond_Stereo_Count>, <descriptor/CID10219853_Exact_Mass>, <descriptor/CID10219853_Hydrogen_Bond_Acceptor_Count>, <descriptor/CID10219853_Hydrogen_Bond_Donor_Count>, <descriptor/CID10219853_IUPAC_InChI>, <descriptor/CID10219853_Isomeric_SMILES>, <descriptor/CID10219853_Isotope_Atom_Count>, <descriptor/CID10219853_Molecular_Formula>, <descriptor/CID10219853_Molecular_Weight>, <descriptor/CID10219853_Mono_Isotopic_Weight>, <descriptor/CID10219853_Non-hydrogen_Atom_Count>, <descriptor/CID10219853_Preferred_IUPAC_Name>, <descriptor/CID10219853_Rotatable_Bond_Count>, <descriptor/CID10219853_Structure_Complexity>, <descriptor/CID10219853_TPSA>, <descriptor/CID10219853_Total_Formal_Charge>, <descriptor/CID10219853_Undefined_Atom_Stereo_Count>, <descriptor/CID10219853_Undefined_Bond_Stereo_Count> ;
+    a <http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C76754>, <http://purl.bioontology.org/ontology/SNOMEDCT/50306007>, <vocabulary#Compound> ;
+    <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://identifiers.org/ncit:C76754>, <http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C76754> ;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Sodium Borate" .
+
+<cooccurrence/CID100528_CID10219853>
+    rdf:object <compound/CID10219853> .
+
+<cooccurrence/CID10063_CID10219853>
+    rdf:object <compound/CID10219853> .
+
+<cooccurrence/CID10076238_CID10219853>
+    rdf:object <compound/CID10219853> .
+
+<cooccurrence/CID10085878_CID10219853>
+    rdf:object <compound/CID10219853> .
+
+<cooccurrence/CID101136808_CID10219853>
+    rdf:object <compound/CID10219853> .
+
+<cooccurrence/CID10114_CID10219853>
+    rdf:object <compound/CID10219853> .
+
+<cooccurrence/CID101164912_CID10219853>
+    rdf:object <compound/CID10219853> .
+
+<cooccurrence/CID101288336_CID10219853>
+    rdf:object <compound/CID10219853> .
+
+<cooccurrence/CID10129950_CID10219853>
+    rdf:object <compound/CID10219853> .
+
+<cooccurrence/CID101368991_CID10219853>
+    rdf:object <compound/CID10219853> .
+
+<cooccurrence/CID101416499_CID10219853>
+    rdf:object <compound/CID10219853> .
+
+<cooccurrence/CID101593074_CID10219853>
+    rdf:object <compound/CID10219853> .
+
+<cooccurrence/CID10166_CID10219853>
+    rdf:object <compound/CID10219853> .
+
+<cooccurrence/CID10171019_CID10219853>
+    rdf:object <compound/CID10219853> .
+
+<cooccurrence/CID101855662_CID10219853>
+    rdf:object <compound/CID10219853> .
+
+<cooccurrence/CID101868826_CID10219853>
+    rdf:object <compound/CID10219853> .
+
+<cooccurrence/CID101875618_CID10219853>
+    rdf:object <compound/CID10219853> .
+
+<cooccurrence/CID101926676_CID10219853>
+    rdf:object <compound/CID10219853> .
+
+<cooccurrence/CID10198698_CID10219853>
+    rdf:object <compound/CID10219853> .
+
+<cooccurrence/CID102004803_CID10219853>
+    rdf:object <compound/CID10219853> .
+
+<cooccurrence/CID10204_CID10219853>
+    rdf:object <compound/CID10219853> .
+
+<cooccurrence/CID10211_CID10219853>
+    rdf:object <compound/CID10219853> .
+
+<cooccurrence/CID10215_CID10219853>
+    rdf:object <compound/CID10219853> .
+
+<cooccurrence/CID10219853_CID100528>
+    rdf:subject <compound/CID10219853> .
+
+<cooccurrence/CID10219853_CID10063>
+    rdf:subject <compound/CID10219853> .
+
+<cooccurrence/CID10219853_CID10076238>
+    rdf:subject <compound/CID10219853> .
+
+<cooccurrence/CID10219853_CID10085878>
+    rdf:subject <compound/CID10219853> .
+
+<cooccurrence/CID10219853_CID101136808>
+    rdf:subject <compound/CID10219853> .
+
+<cooccurrence/CID10219853_CID10114>
+    rdf:subject <compound/CID10219853> .
+
+<cooccurrence/CID10219853_CID101164912>
+    rdf:subject <compound/CID10219853> .
+
+<cooccurrence/CID10219853_CID101288336>
+    rdf:subject <compound/CID10219853> .
+
+<cooccurrence/CID10219853_CID10129950>
+    rdf:subject <compound/CID10219853> .
+
+<cooccurrence/CID10219853_CID101368991>
+    rdf:subject <compound/CID10219853> .
+
+<cooccurrence/CID10219853_CID101416499>
+    rdf:subject <compound/CID10219853> .
+
+<cooccurrence/CID10219853_CID101593074>
+    rdf:subject <compound/CID10219853> .
+
+<cooccurrence/CID10219853_CID10166>
+    rdf:subject <compound/CID10219853> .
+
+<cooccurrence/CID10219853_CID10171019>
+    rdf:subject <compound/CID10219853> .
+
+<cooccurrence/CID10219853_CID101855662>
+    rdf:subject <compound/CID10219853> .
+
+<cooccurrence/CID10219853_CID101868826>
+    rdf:subject <compound/CID10219853> .
+
+<cooccurrence/CID10219853_CID101875618>
+    rdf:subject <compound/CID10219853> .
+
+<cooccurrence/CID10219853_CID101926676>
+    rdf:subject <compound/CID10219853> .
+
+<cooccurrence/CID10219853_CID10198698>
+    rdf:subject <compound/CID10219853> .
+
+<cooccurrence/CID10219853_CID102004803>
+    rdf:subject <compound/CID10219853> .
+
+<cooccurrence/CID10219853_CID10204>
+    rdf:subject <compound/CID10219853> .
+
+<cooccurrence/CID10219853_CID10207>
+    rdf:subject <compound/CID10219853> .
+
+<cooccurrence/CID10219853_CID1021>
+    rdf:subject <compound/CID10219853> .
+
+<cooccurrence/CID10219853_CID10211>
+    rdf:subject <compound/CID10219853> .
+
+<cooccurrence/CID10219853_CID10215>
+    rdf:subject <compound/CID10219853> .
+
+<cooccurrence/CID10219853_CID10220941>
+    rdf:subject <compound/CID10219853> .
+
+<cooccurrence/CID10219853_CID102413419>
+    rdf:subject <compound/CID10219853> .
+
+<cooccurrence/CID10219853_CID102454891>
+    rdf:subject <compound/CID10219853> .
+
+<cooccurrence/CID10219853_CID10251>
+    rdf:subject <compound/CID10219853> .
+
+<cooccurrence/CID10219853_CID10255083>
+    rdf:subject <compound/CID10219853> .
+
+<cooccurrence/CID10219853_CID10290800>
+    rdf:subject <compound/CID10219853> .
+
+<cooccurrence/CID10219853_CID10297>
+    rdf:subject <compound/CID10219853> .
+
+<cooccurrence/CID10219853_CID1031>
+    rdf:subject <compound/CID10219853> .
+
+<cooccurrence/CID10219853_CID10337660>
+    rdf:subject <compound/CID10219853> .
+
+<cooccurrence/CID10219853_CID10340>
+    rdf:subject <compound/CID10219853> .
+
+<cooccurrence/CID10219853_CID10393>
+    rdf:subject <compound/CID10219853> .
+
+<cooccurrence/CID10219853_CID10434>
+    rdf:subject <compound/CID10219853> .
+
+<cooccurrence/CID10219853_CID10436>
+    rdf:subject <compound/CID10219853> .
+
+<cooccurrence/CID10219853_CID1044>
+    rdf:subject <compound/CID10219853> .
+
+<cooccurrence/CID10219853_CID10445924>
+    rdf:subject <compound/CID10219853> .
+
+<cooccurrence/CID10219853_CID10471931>
+    rdf:subject <compound/CID10219853> .
+
+<cooccurrence/CID10219853_CID104770>
+    rdf:subject <compound/CID10219853> .
+
+<cooccurrence/CID10219853_CID1049>
+    rdf:subject <compound/CID10219853> .
+
+<cooccurrence/CID10219853_CID105089>
+    rdf:subject <compound/CID10219853> .
+
+<cooccurrence/CID10219853_CID105146>
+    rdf:subject <compound/CID10219853> .
+
+<cooccurrence/CID10219853_CID1061>
+    rdf:subject <compound/CID10219853> .
+
+<cooccurrence/CID10219853_CID10637>
+    rdf:subject <compound/CID10219853> .
+
+<cooccurrence/CID10219853_CID10638>
+    rdf:subject <compound/CID10219853> .
+
+<cooccurrence/CID10219853_CID10689752>
+    rdf:subject <compound/CID10219853> .
+
+<cooccurrence/CID10219853_CID10724>
+    rdf:subject <compound/CID10219853> .
+
+<cooccurrence/CID10219853_CID10726>
+    rdf:subject <compound/CID10219853> .
+
+<cooccurrence/CID10219853_CID10762>
+    rdf:subject <compound/CID10219853> .
+
+<cooccurrence/CID10219853_CID107646>
+    rdf:subject <compound/CID10219853> .
+
+<cooccurrence/CID10219853_CID107720>
+    rdf:subject <compound/CID10219853> .
+
+<cooccurrence/CID10219853_CID107905>
+    rdf:subject <compound/CID10219853> .
+
+<cooccurrence/CID10219853_CID107971>
+    rdf:subject <compound/CID10219853> .
+
+<cooccurrence/CID10219853_CID107982>
+    rdf:subject <compound/CID10219853> .
+
+<cooccurrence/CID10219853_CID107985>
+    rdf:subject <compound/CID10219853> .
+
+<cooccurrence/CID10219853_CID10915>
+    rdf:subject <compound/CID10219853> .
+
+<cooccurrence/CID10219853_CID10964>
+    rdf:subject <compound/CID10219853> .
+
+<cooccurrence/CID10219853_CID10975657>
+    rdf:subject <compound/CID10219853> .
+
+<cooccurrence/CID10219853_CID10991489>
+    rdf:subject <compound/CID10219853> .
+
+<cooccurrence/CID10219853_CID11048104>
+    rdf:subject <compound/CID10219853> .
+
+<cooccurrence/CID10219853_CID11150163>
+    rdf:subject <compound/CID10219853> .
+
+<cooccurrence/CID10219853_CID1117>
+    rdf:subject <compound/CID10219853> .
+
+<cooccurrence/CID10219853_CID1118>
+    rdf:subject <compound/CID10219853> .
+
+<cooccurrence/CID10219853_CID1123>
+    rdf:subject <compound/CID10219853> .
+
+<cooccurrence/CID10219853_CID11249520>
+    rdf:subject <compound/CID10219853> .
+
+<cooccurrence/CID10219853_CID1133>
+    rdf:subject <compound/CID10219853> .
+
+<cooccurrence/CID10219853_CID11381>
+    rdf:subject <compound/CID10219853> .
+
+<cooccurrence/CID10219853_CID1140>
+    rdf:subject <compound/CID10219853> .
+
+<cooccurrence/CID10219853_CID11442>
+    rdf:subject <compound/CID10219853> .
+
+<cooccurrence/CID10219853_CID1148>
+    rdf:subject <compound/CID10219853> .
+
+<cooccurrence/CID10219853_CID115102>
+    rdf:subject <compound/CID10219853> .
+
+<cooccurrence/CID10219853_CID115149>
+    rdf:subject <compound/CID10219853> .
+
+<cooccurrence/CID10219853_CID115224>
+    rdf:subject <compound/CID10219853> .
+
+<cooccurrence/CID10219853_CID11579>
+    rdf:subject <compound/CID10219853> .
+
+<cooccurrence/CID10219853_CID11599836>
+    rdf:subject <compound/CID10219853> .
+
+<cooccurrence/CID10219853_CID11600642>
+    rdf:subject <compound/CID10219853> .
+
+<cooccurrence/CID10219853_CID11629084>
+    rdf:subject <compound/CID10219853> .
+
+<cooccurrence/CID10219853_CID11671>
+    rdf:subject <compound/CID10219853> .
+
+<cooccurrence/CID10219853_CID11679800>
+    rdf:subject <compound/CID10219853> .
+
+<cooccurrence/CID10219853_CID1174>
+    rdf:subject <compound/CID10219853> .
+
+<cooccurrence/CID10219853_CID1175>
+    rdf:subject <compound/CID10219853> .
+
+<cooccurrence/CID10219853_CID1176>
+    rdf:subject <compound/CID10219853> .
+
+<cooccurrence/CID10219853_CID1183>
+    rdf:subject <compound/CID10219853> .
+
+<cooccurrence/CID10219853_CID11833>
+    rdf:subject <compound/CID10219853> .
+
+<cooccurrence/CID10219853_CID11865>
+    rdf:subject <compound/CID10219853> .
+
+<cooccurrence/CID10219853_CID1188>
+    rdf:subject <compound/CID10219853> .
+
+<cooccurrence/CID10219853_CID119>
+    rdf:subject <compound/CID10219853> .
+
+<cooccurrence/CID10219853_CID11908385>
+    rdf:subject <compound/CID10219853> .
+
+<cooccurrence/CID10219853_CID119177>
+    rdf:subject <compound/CID10219853> .
+
+<cooccurrence/CID10219853_CID11955>
+    rdf:subject <compound/CID10219853> .
+
+<cooccurrence/CID10219853_CID11969542>
+    rdf:subject <compound/CID10219853> .
+
+<cooccurrence/CID10219853_CID1203>
+    rdf:subject <compound/CID10219853> .
+
+<cooccurrence/CID10219853_CID120393>
+    rdf:subject <compound/CID10219853> .
+
+<cooccurrence/CID10219853_CID120697>
+    rdf:subject <compound/CID10219853> .
+
+<cooccurrence/CID10219853_CID12086>
+    rdf:subject <compound/CID10219853> .
+
+<cooccurrence/CID10219853_CID121225360>
+    rdf:subject <compound/CID10219853> .
+
+<cooccurrence/CID10219853_CID12193680>
+    rdf:subject <compound/CID10219853> .
+
+<cooccurrence/CID10219853_CID122130387>
+    rdf:subject <compound/CID10219853> .
+
+<cooccurrence/CID10219853_CID122143>
+    rdf:subject <compound/CID10219853> .
+
+<cooccurrence/CID10219853_CID12218596>
+    rdf:subject <compound/CID10219853> .
+
+<cooccurrence/CID10219853_CID122198188>
+    rdf:subject <compound/CID10219853> .
+
+<cooccurrence/CID10219853_CID122325>
+    rdf:subject <compound/CID10219853> .
+
+<cooccurrence/CID10219853_CID122635>
+    rdf:subject <compound/CID10219853> .
+
+<cooccurrence/CID10219853_CID122706103>
+    rdf:subject <compound/CID10219853> .
+
+<cooccurrence/CID10219853_CID122767>
+    rdf:subject <compound/CID10219853> .
+
+<cooccurrence/CID10219853_CID122903>
+    rdf:subject <compound/CID10219853> .
+
+<cooccurrence/CID10219853_CID12302673>
+    rdf:subject <compound/CID10219853> .
+
+<cooccurrence/CID10219853_CID12303065>
+    rdf:subject <compound/CID10219853> .
+
+<cooccurrence/CID10219853_CID12305761>
+    rdf:subject <compound/CID10219853> .
+
+<cooccurrence/CID10219853_CID12305763>
+    rdf:subject <compound/CID10219853> .
+
+<cooccurrence/CID10219853_CID12306866>
+    rdf:subject <compound/CID10219853> .
+
+<cooccurrence/CID10219853_CID123105>
+    rdf:subject <compound/CID10219853> .
+
+<cooccurrence/CID10219853_CID12310714>
+    rdf:subject <compound/CID10219853> .
+
+<cooccurrence/CID10219853_CID12310716>
+    rdf:subject <compound/CID10219853> .
+
+<cooccurrence/CID10219853_CID12311316>
+    rdf:subject <compound/CID10219853> .
+
+<cooccurrence/CID10219853_CID12313693>
+    rdf:subject <compound/CID10219853> .
+
+<cooccurrence/CID10219853_CID12313740>
+    rdf:subject <compound/CID10219853> .
+
+<cooccurrence/CID10219853_CID123145>
+    rdf:subject <compound/CID10219853> .
+
+<cooccurrence/CID10219853_CID123389017>
+    rdf:subject <compound/CID10219853> .
+
+<cooccurrence/CID10219853_CID123934>
+    rdf:subject <compound/CID10219853> .
+
+<cooccurrence/CID10219853_CID124030>
+    rdf:subject <compound/CID10219853> .
+
+<cooccurrence/CID10219853_CID124052>
+    rdf:subject <compound/CID10219853> .
+
+<cooccurrence/CID10219853_CID124079507>
+    rdf:subject <compound/CID10219853> .
+
+<cooccurrence/CID10219853_CID124427842>
+    rdf:subject <compound/CID10219853> .
+
+<cooccurrence/CID10219853_CID12442859>
+    rdf:subject <compound/CID10219853> .
+
+<cooccurrence/CID10219853_CID12456>
+    rdf:subject <compound/CID10219853> .
+
+<cooccurrence/CID10219853_CID124886>
+    rdf:subject <compound/CID10219853> .
+
+<cooccurrence/CID10219853_CID125132>
+    rdf:subject <compound/CID10219853> .
+
+<cooccurrence/CID10219853_CID1253>
+    rdf:subject <compound/CID10219853> .
+
+<cooccurrence/CID10219853_CID12599>
+    rdf:subject <compound/CID10219853> .
+
+<cooccurrence/CID10219853_CID126941>
+    rdf:subject <compound/CID10219853> .
+
+<cooccurrence/CID10219853_CID126963722>
+    rdf:subject <compound/CID10219853> .
+
+<cooccurrence/CID10219853_CID12856218>
+    rdf:subject <compound/CID10219853> .
+
+<cooccurrence/CID10219853_CID129316823>
+    rdf:subject <compound/CID10219853> .
+
+<cooccurrence/CID10219853_CID129316868>
+    rdf:subject <compound/CID10219853> .
+
+<cooccurrence/CID10219853_CID129628814>
+    rdf:subject <compound/CID10219853> .
+
+<cooccurrence/CID10219853_CID129628892>
+    rdf:subject <compound/CID10219853> .
+
+<cooccurrence/CID10219853_CID129644008>
+    rdf:subject <compound/CID10219853> .
+
+<cooccurrence/CID10219853_CID129724567>
+    rdf:subject <compound/CID10219853> .
+
+<cooccurrence/CID10219853_CID12974>
+    rdf:subject <compound/CID10219853> .
+
+<cooccurrence/CID10219853_CID130796>
+    rdf:subject <compound/CID10219853> .
+
+<cooccurrence/CID10219853_CID131632347>
+    rdf:subject <compound/CID10219853> .
+
+<cooccurrence/CID10219853_CID131632429>
+    rdf:subject <compound/CID10219853> .
+
+<cooccurrence/CID10219853_CID131634907>
+    rdf:subject <compound/CID10219853> .
+
+<cooccurrence/CID10219853_CID131637431>
+    rdf:subject <compound/CID10219853> .
+
+<cooccurrence/CID10219853_CID131841462>
+    rdf:subject <compound/CID10219853> .
+
+<cooccurrence/CID10219853_CID13194807>
+    rdf:subject <compound/CID10219853> .
+
+<cooccurrence/CID10219853_CID132477936>
+    rdf:subject <compound/CID10219853> .
+
+<cooccurrence/CID10219853_CID132940665>
+    rdf:subject <compound/CID10219853> .
+
+<cooccurrence/CID10219853_CID13314>
+    rdf:subject <compound/CID10219853> .
+
+<cooccurrence/CID10219853_CID133568304>
+    rdf:subject <compound/CID10219853> .
+
+<cooccurrence/CID10219853_CID133611792>
+    rdf:subject <compound/CID10219853> .
+
+<cooccurrence/CID10219853_CID134688431>
+    rdf:subject <compound/CID10219853> .
+
+<cooccurrence/CID10219853_CID134688695>
+    rdf:subject <compound/CID10219853> .
+
+<cooccurrence/CID10219853_CID134692201>
+    rdf:subject <compound/CID10219853> .
+
+<cooccurrence/CID10219853_CID134693125>
+    rdf:subject <compound/CID10219853> .
+
+<cooccurrence/CID10219853_CID134737241>
+    rdf:subject <compound/CID10219853> .
+
+<cooccurrence/CID10219853_CID135191>
+    rdf:subject <compound/CID10219853> .
+
+<cooccurrence/CID10219853_CID135398559>
+    rdf:subject <compound/CID10219853> .
+
+<cooccurrence/CID10219853_CID135398634>
+    rdf:subject <compound/CID10219853> .
+
+<cooccurrence/CID10219853_CID135398658>
+    rdf:subject <compound/CID10219853> .
+
+<cooccurrence/CID10219853_CID135398739>
+    rdf:subject <compound/CID10219853> .
+
+<cooccurrence/CID10219853_CID135398752>
+    rdf:subject <compound/CID10219853> .
+
+<cooccurrence/CID10219853_CID135400182>
+    rdf:subject <compound/CID10219853> .
+
+<cooccurrence/CID10219853_CID135403647>
+    rdf:subject <compound/CID10219853> .
+
+<cooccurrence/CID10219853_CID135430812>
+    rdf:subject <compound/CID10219853> .
+
+<cooccurrence/CID10219853_CID135500522>
+    rdf:subject <compound/CID10219853> .
+
+<cooccurrence/CID10219853_CID135502804>
+    rdf:subject <compound/CID10219853> .
+
+<cooccurrence/CID10219853_CID135527764>
+    rdf:subject <compound/CID10219853> .
+
+<cooccurrence/CID10219853_CID135529435>
+    rdf:subject <compound/CID10219853> .
+
+<cooccurrence/CID10219853_CID135541675>
+    rdf:subject <compound/CID10219853> .
+
+<cooccurrence/CID10219853_CID135779804>
+    rdf:subject <compound/CID10219853> .
+
+<cooccurrence/CID10219853_CID13580871>
+    rdf:subject <compound/CID10219853> .
+
+<cooccurrence/CID10219853_CID135871623>
+    rdf:subject <compound/CID10219853> .
+
+<cooccurrence/CID10219853_CID136047905>
+    rdf:subject <compound/CID10219853> .
+
+<cooccurrence/CID10219853_CID136257761>
+    rdf:subject <compound/CID10219853> .
+
+<cooccurrence/CID10219853_CID13666>
+    rdf:subject <compound/CID10219853> .
+
+<cooccurrence/CID10219853_CID13811>
+    rdf:subject <compound/CID10219853> .
+
+<cooccurrence/CID10219853_CID13846689>
+    rdf:subject <compound/CID10219853> .
+
+<cooccurrence/CID10219853_CID13846690>
+    rdf:subject <compound/CID10219853> .
+
+<cooccurrence/CID10219853_CID139033153>
+    rdf:subject <compound/CID10219853> .
+
+<cooccurrence/CID10219853_CID139036281>
+    rdf:subject <compound/CID10219853> .
+
+<cooccurrence/CID10219853_CID139181052>
+    rdf:subject <compound/CID10219853> .
+
+<cooccurrence/CID10219853_CID13918144>
+    rdf:subject <compound/CID10219853> .
+
+<cooccurrence/CID10219853_CID139298>
+    rdf:subject <compound/CID10219853> .
+
+<cooccurrence/CID10219853_CID13991585>
+    rdf:subject <compound/CID10219853> .
+
+<cooccurrence/CID10219853_CID13991587>
+    rdf:subject <compound/CID10219853> .
+
+<cooccurrence/CID10219853_CID13991589>
+    rdf:subject <compound/CID10219853> .
+
+<cooccurrence/CID10219853_CID13991590>
+    rdf:subject <compound/CID10219853> .
+
+<cooccurrence/CID10219853_CID14013>
+    rdf:subject <compound/CID10219853> .
+
+<cooccurrence/CID10219853_CID14017>
+    rdf:subject <compound/CID10219853> .
+
+<cooccurrence/CID10219853_CID14098>
+    rdf:subject <compound/CID10219853> .
+
+<cooccurrence/CID1021_CID10219853>
+    rdf:object <compound/CID10219853> .
+
+<cooccurrence/CID10220941_CID10219853>
+    rdf:object <compound/CID10219853> .
+
+<cooccurrence/CID102413419_CID10219853>
+    rdf:object <compound/CID10219853> .
+
+<cooccurrence/CID102454891_CID10219853>
+    rdf:object <compound/CID10219853> .
+
+<cooccurrence/CID10255083_CID10219853>
+    rdf:object <compound/CID10219853> .
+
+<cooccurrence/CID10290800_CID10219853>
+    rdf:object <compound/CID10219853> .
+
+<cooccurrence/CID10297_CID10219853>
+    rdf:object <compound/CID10219853> .
+
+<cooccurrence/CID1031_CID10219853>
+    rdf:object <compound/CID10219853> .
+
+<cooccurrence/CID10337660_CID10219853>
+    rdf:object <compound/CID10219853> .
+
+<cooccurrence/CID10340_CID10219853>
+    rdf:object <compound/CID10219853> .
+
+<cooccurrence/CID10393_CID10219853>
+    rdf:object <compound/CID10219853> .
+
+<cooccurrence/CID10434_CID10219853>
+    rdf:object <compound/CID10219853> .
+
+<cooccurrence/CID10436_CID10219853>
+    rdf:object <compound/CID10219853> .
+
+<cooccurrence/CID10445924_CID10219853>
+    rdf:object <compound/CID10219853> .
+
+<cooccurrence/CID10471931_CID10219853>
+    rdf:object <compound/CID10219853> .
+
+<cooccurrence/CID104770_CID10219853>
+    rdf:object <compound/CID10219853> .
+
+<cooccurrence/CID105089_CID10219853>
+    rdf:object <compound/CID10219853> .
+
+<cooccurrence/CID10637_CID10219853>
+    rdf:object <compound/CID10219853> .
+
+<cooccurrence/CID10689752_CID10219853>
+    rdf:object <compound/CID10219853> .
+
+<cooccurrence/CID10724_CID10219853>
+    rdf:object <compound/CID10219853> .
+
+<cooccurrence/CID10726_CID10219853>
+    rdf:object <compound/CID10219853> .
+
+<cooccurrence/CID10762_CID10219853>
+    rdf:object <compound/CID10219853> .
+
+<cooccurrence/CID107646_CID10219853>
+    rdf:object <compound/CID10219853> .
+
+<cooccurrence/CID107720_CID10219853>
+    rdf:object <compound/CID10219853> .
+
+<cooccurrence/CID107971_CID10219853>
+    rdf:object <compound/CID10219853> .
+
+<cooccurrence/CID107982_CID10219853>
+    rdf:object <compound/CID10219853> .
+
+<cooccurrence/CID10915_CID10219853>
+    rdf:object <compound/CID10219853> .
+
+<cooccurrence/CID11048104_CID10219853>
+    rdf:object <compound/CID10219853> .
+
+<cooccurrence/CID11150163_CID10219853>
+    rdf:object <compound/CID10219853> .
+
+<cooccurrence/CID1118_CID10219853>
+    rdf:object <compound/CID10219853> .
+
+<cooccurrence/CID11249520_CID10219853>
+    rdf:object <compound/CID10219853> .
+
+<cooccurrence/CID1133_CID10219853>
+    rdf:object <compound/CID10219853> .
+
+<cooccurrence/CID11381_CID10219853>
+    rdf:object <compound/CID10219853> .
+
+<cooccurrence/CID11442_CID10219853>
+    rdf:object <compound/CID10219853> .
+
+<cooccurrence/CID1148_CID10219853>
+    rdf:object <compound/CID10219853> .
+
+<cooccurrence/CID115102_CID10219853>
+    rdf:object <compound/CID10219853> .
+
+<cooccurrence/CID115149_CID10219853>
+    rdf:object <compound/CID10219853> .
+
+<cooccurrence/CID115224_CID10219853>
+    rdf:object <compound/CID10219853> .
+
+<cooccurrence/CID11579_CID10219853>
+    rdf:object <compound/CID10219853> .
+
+<cooccurrence/CID11599836_CID10219853>
+    rdf:object <compound/CID10219853> .
+
+<cooccurrence/CID11600642_CID10219853>
+    rdf:object <compound/CID10219853> .
+
+<cooccurrence/CID11671_CID10219853>
+    rdf:object <compound/CID10219853> .
+
+<cooccurrence/CID11679800_CID10219853>
+    rdf:object <compound/CID10219853> .
+
+<cooccurrence/CID11833_CID10219853>
+    rdf:object <compound/CID10219853> .
+
+<cooccurrence/CID11865_CID10219853>
+    rdf:object <compound/CID10219853> .
+
+<cooccurrence/CID11955_CID10219853>
+    rdf:object <compound/CID10219853> .
+
+<cooccurrence/CID11969542_CID10219853>
+    rdf:object <compound/CID10219853> .
+
+<cooccurrence/CID120393_CID10219853>
+    rdf:object <compound/CID10219853> .
+
+<cooccurrence/CID1203_CID10219853>
+    rdf:object <compound/CID10219853> .
+
+<cooccurrence/CID120697_CID10219853>
+    rdf:object <compound/CID10219853> .
+
+<cooccurrence/CID12086_CID10219853>
+    rdf:object <compound/CID10219853> .
+
+<cooccurrence/CID121225360_CID10219853>
+    rdf:object <compound/CID10219853> .
+
+<cooccurrence/CID122074_CID10219853>
+    rdf:object <compound/CID10219853> .
+
+<cooccurrence/CID122143_CID10219853>
+    rdf:object <compound/CID10219853> .
+
+<cooccurrence/CID12218596_CID10219853>
+    rdf:object <compound/CID10219853> .
+
+<cooccurrence/CID122198188_CID10219853>
+    rdf:object <compound/CID10219853> .
+
+<cooccurrence/CID122325_CID10219853>
+    rdf:object <compound/CID10219853> .
+
+<cooccurrence/CID122635_CID10219853>
+    rdf:object <compound/CID10219853> .
+
+<cooccurrence/CID122706103_CID10219853>
+    rdf:object <compound/CID10219853> .
+
+<cooccurrence/CID122767_CID10219853>
+    rdf:object <compound/CID10219853> .
+
+<cooccurrence/CID122903_CID10219853>
+    rdf:object <compound/CID10219853> .
+
+<cooccurrence/CID12303065_CID10219853>
+    rdf:object <compound/CID10219853> .
+
+<cooccurrence/CID12305761_CID10219853>
+    rdf:object <compound/CID10219853> .
+
+<cooccurrence/CID12305763_CID10219853>
+    rdf:object <compound/CID10219853> .
+
+<cooccurrence/CID12306866_CID10219853>
+    rdf:object <compound/CID10219853> .
+
+<cooccurrence/CID123105_CID10219853>
+    rdf:object <compound/CID10219853> .
+
+<cooccurrence/CID12311316_CID10219853>
+    rdf:object <compound/CID10219853> .
+
+<cooccurrence/CID12313693_CID10219853>
+    rdf:object <compound/CID10219853> .
+
+<cooccurrence/CID12313740_CID10219853>
+    rdf:object <compound/CID10219853> .
+
+<cooccurrence/CID123145_CID10219853>
+    rdf:object <compound/CID10219853> .
+
+<cooccurrence/CID123389017_CID10219853>
+    rdf:object <compound/CID10219853> .
+
+<cooccurrence/CID123934_CID10219853>
+    rdf:object <compound/CID10219853> .
+
+<cooccurrence/CID124030_CID10219853>
+    rdf:object <compound/CID10219853> .
+
+<cooccurrence/CID124052_CID10219853>
+    rdf:object <compound/CID10219853> .
+
+<cooccurrence/CID124079507_CID10219853>
+    rdf:object <compound/CID10219853> .
+
+<cooccurrence/CID124427842_CID10219853>
+    rdf:object <compound/CID10219853> .
+
+<cooccurrence/CID12442859_CID10219853>
+    rdf:object <compound/CID10219853> .
+
+<cooccurrence/CID12447_CID10219853>
+    rdf:object <compound/CID10219853> .
+
+<cooccurrence/CID12456_CID10219853>
+    rdf:object <compound/CID10219853> .
+
+<cooccurrence/CID125132_CID10219853>
+    rdf:object <compound/CID10219853> .
+
+<cooccurrence/CID1253_CID10219853>
+    rdf:object <compound/CID10219853> .
+
+<cooccurrence/CID12599_CID10219853>
+    rdf:object <compound/CID10219853> .
+
+<cooccurrence/CID126963722_CID10219853>
+    rdf:object <compound/CID10219853> .
+
+<cooccurrence/CID12856218_CID10219853>
+    rdf:object <compound/CID10219853> .
+
+<cooccurrence/CID129316823_CID10219853>
+    rdf:object <compound/CID10219853> .
+
+<cooccurrence/CID129316868_CID10219853>
+    rdf:object <compound/CID10219853> .
+
+<cooccurrence/CID129628814_CID10219853>
+    rdf:object <compound/CID10219853> .
+
+<cooccurrence/CID129628892_CID10219853>
+    rdf:object <compound/CID10219853> .
+
+<cooccurrence/CID129644008_CID10219853>
+    rdf:object <compound/CID10219853> .
+
+<cooccurrence/CID129724567_CID10219853>
+    rdf:object <compound/CID10219853> .
+
+<cooccurrence/CID12974_CID10219853>
+    rdf:object <compound/CID10219853> .
+
+<cooccurrence/CID130796_CID10219853>
+    rdf:object <compound/CID10219853> .
+
+<cooccurrence/CID131634907_CID10219853>
+    rdf:object <compound/CID10219853> .
+
+<cooccurrence/CID131637431_CID10219853>
+    rdf:object <compound/CID10219853> .
+
+<cooccurrence/CID131841462_CID10219853>
+    rdf:object <compound/CID10219853> .
+
+<cooccurrence/CID13194807_CID10219853>
+    rdf:object <compound/CID10219853> .
+
+<cooccurrence/CID132940665_CID10219853>
+    rdf:object <compound/CID10219853> .
+
+<cooccurrence/CID13314_CID10219853>
+    rdf:object <compound/CID10219853> .
+
+<cooccurrence/CID133611792_CID10219853>
+    rdf:object <compound/CID10219853> .
+
+<cooccurrence/CID134688431_CID10219853>
+    rdf:object <compound/CID10219853> .
+
+<cooccurrence/CID134692201_CID10219853>
+    rdf:object <compound/CID10219853> .
+
+<cooccurrence/CID134693125_CID10219853>
+    rdf:object <compound/CID10219853> .
+
+<cooccurrence/CID134737241_CID10219853>
+    rdf:object <compound/CID10219853> .
+
+<cooccurrence/CID135191_CID10219853>
+    rdf:object <compound/CID10219853> .
+
+<cooccurrence/CID135398559_CID10219853>
+    rdf:object <compound/CID10219853> .
+
+<cooccurrence/CID135398739_CID10219853>
+    rdf:object <compound/CID10219853> .
+
+<cooccurrence/CID135398752_CID10219853>
+    rdf:object <compound/CID10219853> .
+
+<cooccurrence/CID135400182_CID10219853>
+    rdf:object <compound/CID10219853> .
+
+<cooccurrence/CID135403647_CID10219853>
+    rdf:object <compound/CID10219853> .
+
+<cooccurrence/CID135430812_CID10219853>
+    rdf:object <compound/CID10219853> .
+
+<cooccurrence/CID135500522_CID10219853>
+    rdf:object <compound/CID10219853> .
+
+<cooccurrence/CID135502804_CID10219853>
+    rdf:object <compound/CID10219853> .
+
+<cooccurrence/CID135527764_CID10219853>
+    rdf:object <compound/CID10219853> .
+
+<cooccurrence/CID135529435_CID10219853>
+    rdf:object <compound/CID10219853> .
+
+<cooccurrence/CID135541675_CID10219853>
+    rdf:object <compound/CID10219853> .
+
+<cooccurrence/CID135779804_CID10219853>
+    rdf:object <compound/CID10219853> .
+
+<cooccurrence/CID13580871_CID10219853>
+    rdf:object <compound/CID10219853> .
+
+<cooccurrence/CID135871623_CID10219853>
+    rdf:object <compound/CID10219853> .
+
+<cooccurrence/CID136047905_CID10219853>
+    rdf:object <compound/CID10219853> .
+
+<cooccurrence/CID136257761_CID10219853>
+    rdf:object <compound/CID10219853> .
+
+<cooccurrence/CID13666_CID10219853>
+    rdf:object <compound/CID10219853> .
+
+<cooccurrence/CID13811_CID10219853>
+    rdf:object <compound/CID10219853> .
+
+<cooccurrence/CID13846689_CID10219853>
+    rdf:object <compound/CID10219853> .
+
+<cooccurrence/CID13846690_CID10219853>
+    rdf:object <compound/CID10219853> .
+
+<cooccurrence/CID139033153_CID10219853>
+    rdf:object <compound/CID10219853> .
+
+<cooccurrence/CID139036281_CID10219853>
+    rdf:object <compound/CID10219853> .
+
+<cooccurrence/CID13918144_CID10219853>
+    rdf:object <compound/CID10219853> .
+
+<cooccurrence/CID139298_CID10219853>
+    rdf:object <compound/CID10219853> .
+
+<cooccurrence/CID13991590_CID10219853>
+    rdf:object <compound/CID10219853> .
+
+<cooccurrence/CID14013_CID10219853>
+    rdf:object <compound/CID10219853> .
+
+<cooccurrence/CID14017_CID10219853>
+    rdf:object <compound/CID10219853> .
+
+<cooccurrence/CID14098_CID10219853>
+    rdf:object <compound/CID10219853> .
+
+<cooccurrence/CID14108469_CID10219853>
+    rdf:object <compound/CID10219853> .
+
+<cooccurrence/CID14136859_CID10219853>
+    rdf:object <compound/CID10219853> .
+
+<cooccurrence/CID14250_CID10219853>
+    rdf:object <compound/CID10219853> .
+
+<cooccurrence/CID14251_CID10219853>
+    rdf:object <compound/CID10219853> .
+
+<cooccurrence/CID14313856_CID10219853>
+    rdf:object <compound/CID10219853> .
+
+<cooccurrence/CID14319_CID10219853>
+    rdf:object <compound/CID10219853> .
+
+<cooccurrence/CID145815_CID10219853>
+    rdf:object <compound/CID10219853> .
+
+<cooccurrence/CID146156443_CID10219853>
+    rdf:object <compound/CID10219853> .
+
+<cooccurrence/CID146157717_CID10219853>
+    rdf:object <compound/CID10219853> .
+
+<cooccurrence/CID146158032_CID10219853>
+    rdf:object <compound/CID10219853> .
+
+<cooccurrence/CID146158328_CID10219853>
+    rdf:object <compound/CID10219853> .
+
+<cooccurrence/CID146158753_CID10219853>
+    rdf:object <compound/CID10219853> .
+
+<cooccurrence/CID146158754_CID10219853>
+    rdf:object <compound/CID10219853> .
+
+<cooccurrence/CID146158932_CID10219853>
+    rdf:object <compound/CID10219853> .
+
+<cooccurrence/CID14707658_CID10219853>
+    rdf:object <compound/CID10219853> .
+
+<cooccurrence/CID14720269_CID10219853>
+    rdf:object <compound/CID10219853> .
+
+<cooccurrence/CID14797_CID10219853>
+    rdf:object <compound/CID10219853> .
+
+<cooccurrence/CID14798_CID10219853>
+    rdf:object <compound/CID10219853> .
+
+<cooccurrence/CID1480_CID10219853>
+    rdf:object <compound/CID10219853> .
+
+<cooccurrence/CID14816_CID10219853>
+    rdf:object <compound/CID10219853> .
+
+<cooccurrence/CID148431_CID10219853>
+    rdf:object <compound/CID10219853> .
+
+<cooccurrence/CID1489_CID10219853>
+    rdf:object <compound/CID10219853> .
+
+<cooccurrence/CID14989_CID10219853>
+    rdf:object <compound/CID10219853> .
+
+<cooccurrence/CID154582017_CID10219853>
+    rdf:object <compound/CID10219853> .
+
+<cooccurrence/CID154584970_CID10219853>
+    rdf:object <compound/CID10219853> .
+
+<cooccurrence/CID154725475_CID10219853>
+    rdf:object <compound/CID10219853> .
+
+<cooccurrence/CID154828048_CID10219853>
+    rdf:object <compound/CID10219853> .
+
+<cooccurrence/CID154828049_CID10219853>
+    rdf:object <compound/CID10219853> .
+
+<cooccurrence/CID154828054_CID10219853>
+    rdf:object <compound/CID10219853> .
+
+<cooccurrence/CID1549237_CID10219853>
+    rdf:object <compound/CID10219853> .
+
+<cooccurrence/CID15558638_CID10219853>
+    rdf:object <compound/CID10219853> .
+
+<cooccurrence/CID15559465_CID10219853>
+    rdf:object <compound/CID10219853> .
+
+<cooccurrence/CID155802404_CID10219853>
+    rdf:object <compound/CID10219853> .
+
+<cooccurrence/CID156595281_CID10219853>
+    rdf:object <compound/CID10219853> .
+
+<cooccurrence/CID156599145_CID10219853>
+    rdf:object <compound/CID10219853> .
+
+<cooccurrence/CID156599146_CID10219853>
+    rdf:object <compound/CID10219853> .
+
+<cooccurrence/CID15764120_CID10219853>
+    rdf:object <compound/CID10219853> .
+
+<cooccurrence/CID15764247_CID10219853>
+    rdf:object <compound/CID10219853> .
+
+<cooccurrence/CID157857_CID10219853>
+    rdf:object <compound/CID10219853> .
+
+<cooccurrence/CID15788243_CID10219853>
+    rdf:object <compound/CID10219853> .
+
+<cooccurrence/CID15942890_CID10219853>
+    rdf:object <compound/CID10219853> .
+
+<cooccurrence/CID159922_CID10219853>
+    rdf:object <compound/CID10219853> .
+
+<cooccurrence/CID16047608_CID10219853>
+    rdf:object <compound/CID10219853> .
+
+<cooccurrence/CID16072310_CID10219853>
+    rdf:object <compound/CID10219853> .
+
+<cooccurrence/CID160998_CID10219853>
+    rdf:object <compound/CID10219853> .
+
+<cooccurrence/CID161571_CID10219853>
+    rdf:object <compound/CID10219853> .
+
+<cooccurrence/CID16204494_CID10219853>
+    rdf:object <compound/CID10219853> .
+
+<cooccurrence/CID16211214_CID10219853>
+    rdf:object <compound/CID10219853> .
+
+<cooccurrence/CID162265_CID10219853>
+    rdf:object <compound/CID10219853> .
+
+<cooccurrence/CID162642207_CID10219853>
+    rdf:object <compound/CID10219853> .
+
+<cooccurrence/CID162642213_CID10219853>
+    rdf:object <compound/CID10219853> .
+
+<cooccurrence/CID162823_CID10219853>
+    rdf:object <compound/CID10219853> .
+
+<cooccurrence/CID163304497_CID10219853>
+    rdf:object <compound/CID10219853> .
+
+<cooccurrence/CID163342861_CID10219853>
+    rdf:object <compound/CID10219853> .
+
+<cooccurrence/CID1633595_CID10219853>
+    rdf:object <compound/CID10219853> .
+
+<cooccurrence/CID16401639_CID10219853>
+    rdf:object <compound/CID10219853> .
+
+<cooccurrence/CID16422_CID10219853>
+    rdf:object <compound/CID10219853> .
+
+<cooccurrence/CID164628_CID10219853>
+    rdf:object <compound/CID10219853> .
+
+<cooccurrence/CID1646_CID10219853>
+    rdf:object <compound/CID10219853> .
+
+<cooccurrence/CID16547_CID10219853>
+    rdf:object <compound/CID10219853> .
+
+<cooccurrence/CID165580_CID10219853>
+    rdf:object <compound/CID10219853> .
+
+<cooccurrence/CID166725_CID10219853>
+    rdf:object <compound/CID10219853> .
+
+<cooccurrence/CID16683095_CID10219853>
+    rdf:object <compound/CID10219853> .
+
+<cooccurrence/CID167155_CID10219853>
+    rdf:object <compound/CID10219853> .
+
+<cooccurrence/CID167250_CID10219853>
+    rdf:object <compound/CID10219853> .
+
+<cooccurrence/CID168265116_CID10219853>
+    rdf:object <compound/CID10219853> .
+
+<cooccurrence/CID168314673_CID10219853>
+    rdf:object <compound/CID10219853> .
+
+<cooccurrence/CID168432608_CID10219853>
+    rdf:object <compound/CID10219853> .
+
+<cooccurrence/CID169607_CID10219853>
+    rdf:object <compound/CID10219853> .
+
+<cooccurrence/CID16961_CID10219853>
+    rdf:object <compound/CID10219853> .
+
+<cooccurrence/CID169877_CID10219853>
+    rdf:object <compound/CID10219853> .
+
+<cooccurrence/CID173273_CID10219853>
+    rdf:object <compound/CID10219853> .
+
+<cooccurrence/CID17520_CID10219853>
+    rdf:object <compound/CID10219853> .
+
+<cooccurrence/CID177700_CID10219853>
+    rdf:object <compound/CID10219853> .
+
+<cooccurrence/CID18529_CID10219853>
+    rdf:object <compound/CID10219853> .
+
+<cooccurrence/CID18535981_CID10219853>
+    rdf:object <compound/CID10219853> .
+
+<cooccurrence/CID18541957_CID10219853>
+    rdf:object <compound/CID10219853> .
+
+<cooccurrence/CID18619901_CID10219853>
+    rdf:object <compound/CID10219853> .
+
+<cooccurrence/CID18669_CID10219853>
+    rdf:object <compound/CID10219853> .
+
+<cooccurrence/CID187808_CID10219853>
+    rdf:object <compound/CID10219853> .
+
+<cooccurrence/CID1892_CID10219853>
+    rdf:object <compound/CID10219853> .
+
+<cooccurrence/CID189670_CID10219853>
+    rdf:object <compound/CID10219853> .
+
+<cooccurrence/CID199542_CID10219853>
+    rdf:object <compound/CID10219853> .
+
+<cooccurrence/CID20437942_CID10219853>
+    rdf:object <compound/CID10219853> .
+
+<cooccurrence/CID204_CID10219853>
+    rdf:object <compound/CID10219853> .
+
+<cooccurrence/CID20587905_CID10219853>
+    rdf:object <compound/CID10219853> .
+
+<cooccurrence/CID21124737_CID10219853>
+    rdf:object <compound/CID10219853> .
+
+<cooccurrence/CID21146529_CID10219853>
+    rdf:object <compound/CID10219853> .
+
+<cooccurrence/CID213021_CID10219853>
+    rdf:object <compound/CID10219853> .
+
+<cooccurrence/CID21602045_CID10219853>
+    rdf:object <compound/CID10219853> .
+
+<cooccurrence/CID21917771_CID10219853>
+    rdf:object <compound/CID10219853> .
+
+<cooccurrence/CID2198_CID10219853>
+    rdf:object <compound/CID10219853> .
+
+<cooccurrence/CID220014_CID10219853>
+    rdf:object <compound/CID10219853> .
+
+<cooccurrence/CID2202_CID10219853>
+    rdf:object <compound/CID10219853> .
+
+<cooccurrence/CID22146145_CID10219853>
+    rdf:object <compound/CID10219853> .
+
+<cooccurrence/CID221493_CID10219853>
+    rdf:object <compound/CID10219853> .
+
+<cooccurrence/CID22217226_CID10219853>
+    rdf:object <compound/CID10219853> .
+
+<cooccurrence/CID222515_CID10219853>
+    rdf:object <compound/CID10219853> .
+
+<cooccurrence/CID22262465_CID10219853>
+    rdf:object <compound/CID10219853> .
+
+<cooccurrence/CID2236_CID10219853>
+    rdf:object <compound/CID10219853> .
+
+<cooccurrence/CID22382373_CID10219853>
+    rdf:object <compound/CID10219853> .
+
+<cooccurrence/CID2239_CID10219853>
+    rdf:object <compound/CID10219853> .
+
+<cooccurrence/CID22728543_CID10219853>
+    rdf:object <compound/CID10219853> .
+
+<cooccurrence/CID22985_CID10219853>
+    rdf:object <compound/CID10219853> .
+
+<cooccurrence/CID23266_CID10219853>
+    rdf:object <compound/CID10219853> .
+
+<cooccurrence/CID23662025_CID10219853>
+    rdf:object <compound/CID10219853> .
+
+<cooccurrence/CID23665760_CID10219853>
+    rdf:object <compound/CID10219853> .
+
+<cooccurrence/CID23666409_CID10219853>
+    rdf:object <compound/CID10219853> .
+
+<cooccurrence/CID23668194_CID10219853>
+    rdf:object <compound/CID10219853> .
+
+<cooccurrence/CID23668196_CID10219853>
+    rdf:object <compound/CID10219853> .
+
+<cooccurrence/CID23672064_CID10219853>
+    rdf:object <compound/CID10219853> .
+
+<cooccurrence/CID23676735_CID10219853>
+    rdf:object <compound/CID10219853> .
+
+<cooccurrence/CID23687712_CID10219853>
+    rdf:object <compound/CID10219853> .
+
+<cooccurrence/CID23694267_CID10219853>
+    rdf:object <compound/CID10219853> .
+
+<cooccurrence/CID23730644_CID10219853>
+    rdf:object <compound/CID10219853> .
+
+<cooccurrence/CID23912_CID10219853>
+    rdf:object <compound/CID10219853> .
+
+<cooccurrence/CID23951_CID10219853>
+    rdf:object <compound/CID10219853> .
+
+<cooccurrence/CID2405_CID10219853>
+    rdf:object <compound/CID10219853> .
+
+<cooccurrence/CID24150641_CID10219853>
+    rdf:object <compound/CID10219853> .
+
+<cooccurrence/CID24176_CID10219853>
+    rdf:object <compound/CID10219853> .
+
+<cooccurrence/CID24203_CID10219853>
+    rdf:object <compound/CID10219853> .
+
+<cooccurrence/CID24211991_CID10219853>
+    rdf:object <compound/CID10219853> .
+
+<cooccurrence/CID24212135_CID10219853>
+    rdf:object <compound/CID10219853> .
+
+<cooccurrence/CID24238_CID10219853>
+    rdf:object <compound/CID10219853> .
+
+<cooccurrence/CID24243_CID10219853>
+    rdf:object <compound/CID10219853> .
+
+<cooccurrence/CID24261_CID10219853>
+    rdf:object <compound/CID10219853> .
+
+<cooccurrence/CID24403_CID10219853>
+    rdf:object <compound/CID10219853> .
+
+<cooccurrence/CID24412_CID10219853>
+    rdf:object <compound/CID10219853> .
+
+<cooccurrence/CID24414_CID10219853>
+    rdf:object <compound/CID10219853> .
+
+<cooccurrence/CID2441_CID10219853>
+    rdf:object <compound/CID10219853> .
+
+<cooccurrence/CID24425_CID10219853>
+    rdf:object <compound/CID10219853> .
+
+<cooccurrence/CID24437_CID10219853>
+    rdf:object <compound/CID10219853> .
+
+<cooccurrence/CID24470_CID10219853>
+    rdf:object <compound/CID10219853> .
+
+<cooccurrence/CID24488_CID10219853>
+    rdf:object <compound/CID10219853> .
+
+<cooccurrence/CID24502_CID10219853>
+    rdf:object <compound/CID10219853> .
+
+<cooccurrence/CID24530_CID10219853>
+    rdf:object <compound/CID10219853> .
+
+<cooccurrence/CID24721256_CID10219853>
+    rdf:object <compound/CID10219853> .
+
+<cooccurrence/CID24728702_CID10219853>
+    rdf:object <compound/CID10219853> .
+
+<cooccurrence/CID24750_CID10219853>
+    rdf:object <compound/CID10219853> .
+
+<cooccurrence/CID24769_CID10219853>
+    rdf:object <compound/CID10219853> .
+
+<cooccurrence/CID24893783_CID10219853>
+    rdf:object <compound/CID10219853> .
+
+<cooccurrence/CID24982496_CID10219853>
+    rdf:object <compound/CID10219853> .
+
+<cooccurrence/CID25021359_CID10219853>
+    rdf:object <compound/CID10219853> .
+
+<cooccurrence/CID25043_CID10219853>
+    rdf:object <compound/CID10219853> .
+
+<cooccurrence/CID25113235_CID10219853>
+    rdf:object <compound/CID10219853> .
+
+<cooccurrence/CID253881_CID10219853>
+    rdf:object <compound/CID10219853> .
+
+<cooccurrence/CID25429_CID10219853>
+    rdf:object <compound/CID10219853> .
+
+<cooccurrence/CID25897919_CID10219853>
+    rdf:object <compound/CID10219853> .
+
+<cooccurrence/CID259992_CID10219853>
+    rdf:object <compound/CID10219853> .
+
+<cooccurrence/CID263_CID10219853>
+    rdf:object <compound/CID10219853> .
+
+<cooccurrence/CID26574_CID10219853>
+    rdf:object <compound/CID10219853> .
+
+<cooccurrence/CID26934_CID10219853>
+    rdf:object <compound/CID10219853> .
+
+<cooccurrence/CID2712_CID10219853>
+    rdf:object <compound/CID10219853> .
+
+<cooccurrence/CID2723810_CID10219853>
+    rdf:object <compound/CID10219853> .
+
+<cooccurrence/CID2724247_CID10219853>
+    rdf:object <compound/CID10219853> .
+
+<cooccurrence/CID2724258_CID10219853>
+    rdf:object <compound/CID10219853> .
+
+<cooccurrence/CID2734174_CID10219853>
+    rdf:object <compound/CID10219853> .
+
+<cooccurrence/CID2734178_CID10219853>
+    rdf:object <compound/CID10219853> .
+
+<cooccurrence/CID2735071_CID10219853>
+    rdf:object <compound/CID10219853> .
+
+<cooccurrence/CID2735107_CID10219853>
+    rdf:object <compound/CID10219853> .
+
+<cooccurrence/CID275196_CID10219853>
+    rdf:object <compound/CID10219853> .
+
+<cooccurrence/CID2758731_CID10219853>
+    rdf:object <compound/CID10219853> .
+
+<cooccurrence/CID2762599_CID10219853>
+    rdf:object <compound/CID10219853> .
+
+<cooccurrence/CID2762604_CID10219853>
+    rdf:object <compound/CID10219853> .
+
+<cooccurrence/CID2762_CID10219853>
+    rdf:object <compound/CID10219853> .
+
+<cooccurrence/CID2802_CID10219853>
+    rdf:object <compound/CID10219853> .
+
+<cooccurrence/CID2811_CID10219853>
+    rdf:object <compound/CID10219853> .
+
+<cooccurrence/CID28125549_CID10219853>
+    rdf:object <compound/CID10219853> .
+
+<cooccurrence/CID28127_CID10219853>
+    rdf:object <compound/CID10219853> .
+
+<cooccurrence/CID29092_CID10219853>
+    rdf:object <compound/CID10219853> .
+
+<cooccurrence/CID3002219_CID10219853>
+    rdf:object <compound/CID10219853> .
+
+<cooccurrence/CID3002220_CID10219853>
+    rdf:object <compound/CID10219853> .
+
+<cooccurrence/CID30318_CID10219853>
+    rdf:object <compound/CID10219853> .
+
+<cooccurrence/CID3032325_CID10219853>
+    rdf:object <compound/CID10219853> .
+
+<cooccurrence/CID3032806_CID10219853>
+    rdf:object <compound/CID10219853> .
+
+<cooccurrence/CID3034285_CID10219853>
+    rdf:object <compound/CID10219853> .
+
+<cooccurrence/CID3034287_CID10219853>
+    rdf:object <compound/CID10219853> .
+
+<cooccurrence/CID30479_CID10219853>
+    rdf:object <compound/CID10219853> .
+
+<cooccurrence/CID30976_CID10219853>
+    rdf:object <compound/CID10219853> .
+
+<cooccurrence/CID31236_CID10219853>
+    rdf:object <compound/CID10219853> .
+
+<cooccurrence/CID313325_CID10219853>
+    rdf:object <compound/CID10219853> .
+
+<cooccurrence/CID31645_CID10219853>
+    rdf:object <compound/CID10219853> .
+
+<cooccurrence/CID3182_CID10219853>
+    rdf:object <compound/CID10219853> .
+
+<cooccurrence/CID320760_CID10219853>
+    rdf:object <compound/CID10219853> .
+
+<cooccurrence/CID320761_CID10219853>
+    rdf:object <compound/CID10219853> .
+
+<cooccurrence/CID3229_CID10219853>
+    rdf:object <compound/CID10219853> .
+
+<cooccurrence/CID3261_CID10219853>
+    rdf:object <compound/CID10219853> .
+
+<cooccurrence/CID32756_CID10219853>
+    rdf:object <compound/CID10219853> .
+
+<cooccurrence/CID3282_CID10219853>
+    rdf:object <compound/CID10219853> .
+
+<cooccurrence/CID3374_CID10219853>
+    rdf:object <compound/CID10219853> .
+
+<cooccurrence/CID339622_CID10219853>
+    rdf:object <compound/CID10219853> .
+
+<cooccurrence/CID3423265_CID10219853>
+    rdf:object <compound/CID10219853> .
+
+<cooccurrence/CID34367_CID10219853>
+    rdf:object <compound/CID10219853> .
+
+<cooccurrence/CID3451_CID10219853>
+    rdf:object <compound/CID10219853> .
+
+<cooccurrence/CID3516_CID10219853>
+    rdf:object <compound/CID10219853> .
+
+<cooccurrence/CID356_CID10219853>
+    rdf:object <compound/CID10219853> .
+
+<cooccurrence/CID36119_CID10219853>
+    rdf:object <compound/CID10219853> .
+
+<cooccurrence/CID3623_CID10219853>
+    rdf:object <compound/CID10219853> .
+
+<cooccurrence/CID36242_CID10219853>
+    rdf:object <compound/CID10219853> .
+
+<cooccurrence/CID36294_CID10219853>
+    rdf:object <compound/CID10219853> .
+
+<cooccurrence/CID36689482_CID10219853>
+    rdf:object <compound/CID10219853> .
+
+<cooccurrence/CID3707243_CID10219853>
+    rdf:object <compound/CID10219853> .
+
+<cooccurrence/CID3733033_CID10219853>
+    rdf:object <compound/CID10219853> .
+
+<cooccurrence/CID3746_CID10219853>
+    rdf:object <compound/CID10219853> .
+
+<cooccurrence/CID37768_CID10219853>
+    rdf:object <compound/CID10219853> .
+
+<cooccurrence/CID3776_CID10219853>
+    rdf:object <compound/CID10219853> .
+
+<cooccurrence/CID37927_CID10219853>
+    rdf:object <compound/CID10219853> .
+
+<cooccurrence/CID38258_CID10219853>
+    rdf:object <compound/CID10219853> .
+
+<cooccurrence/CID3917786_CID10219853>
+    rdf:object <compound/CID10219853> .
+
+<cooccurrence/CID3948_CID10219853>
+    rdf:object <compound/CID10219853> .
+
+<cooccurrence/CID3969_CID10219853>
+    rdf:object <compound/CID10219853> .
+
+<cooccurrence/CID40299_CID10219853>
+    rdf:object <compound/CID10219853> .
+
+<cooccurrence/CID403_CID10219853>
+    rdf:object <compound/CID10219853> .
+
+<cooccurrence/CID4041_CID10219853>
+    rdf:object <compound/CID10219853> .
+
+<cooccurrence/CID41909_CID10219853>
+    rdf:object <compound/CID10219853> .
+
+<cooccurrence/CID42586_CID10219853>
+    rdf:object <compound/CID10219853> .
+
+<cooccurrence/CID4273754_CID10219853>
+    rdf:object <compound/CID10219853> .
+
+<cooccurrence/CID43226_CID10219853>
+    rdf:object <compound/CID10219853> .
+
+<cooccurrence/CID43232_CID10219853>
+    rdf:object <compound/CID10219853> .
+
+<cooccurrence/CID4369233_CID10219853>
+    rdf:object <compound/CID10219853> .
+
+<cooccurrence/CID4374_CID10219853>
+    rdf:object <compound/CID10219853> .
+
+<cooccurrence/CID439195_CID10219853>
+    rdf:object <compound/CID10219853> .
+
+<cooccurrence/CID439318_CID10219853>
+    rdf:object <compound/CID10219853> .
+
+<cooccurrence/CID439531_CID10219853>
+    rdf:object <compound/CID10219853> .
+
+<cooccurrence/CID439630_CID10219853>
+    rdf:object <compound/CID10219853> .
+
+<cooccurrence/CID440141_CID10219853>
+    rdf:object <compound/CID10219853> .
+
+<cooccurrence/CID440623_CID10219853>
+    rdf:object <compound/CID10219853> .
+
+<cooccurrence/CID440624_CID10219853>
+    rdf:object <compound/CID10219853> .
+
+<cooccurrence/CID441243_CID10219853>
+    rdf:object <compound/CID10219853> .
+
+<cooccurrence/CID441306_CID10219853>
+    rdf:object <compound/CID10219853> .
+
+<cooccurrence/CID44134730_CID10219853>
+    rdf:object <compound/CID10219853> .
+
+<cooccurrence/CID44134771_CID10219853>
+    rdf:object <compound/CID10219853> .
+
+<cooccurrence/CID44135406_CID10219853>
+    rdf:object <compound/CID10219853> .
+
+<cooccurrence/CID441421_CID10219853>
+    rdf:object <compound/CID10219853> .
+
+<cooccurrence/CID441434_CID10219853>
+    rdf:object <compound/CID10219853> .
+
+<cooccurrence/CID44155973_CID10219853>
+    rdf:object <compound/CID10219853> .
+
+<cooccurrence/CID44181907_CID10219853>
+    rdf:object <compound/CID10219853> .
+
+<cooccurrence/CID441921_CID10219853>
+    rdf:object <compound/CID10219853> .
+
+<cooccurrence/CID441934_CID10219853>
+    rdf:object <compound/CID10219853> .
+
+<cooccurrence/CID442556_CID10219853>
+    rdf:object <compound/CID10219853> .
+
+<cooccurrence/CID44257215_CID10219853>
+    rdf:object <compound/CID10219853> .
+
+<cooccurrence/CID442813_CID10219853>
+    rdf:object <compound/CID10219853> .
+
+<cooccurrence/CID442866_CID10219853>
+    rdf:object <compound/CID10219853> .
+
+<cooccurrence/CID442993_CID10219853>
+    rdf:object <compound/CID10219853> .
+
+<cooccurrence/CID443005_CID10219853>
+    rdf:object <compound/CID10219853> .
+
+<cooccurrence/CID443046_CID10219853>
+    rdf:object <compound/CID10219853> .
+
+<cooccurrence/CID443314_CID10219853>
+    rdf:object <compound/CID10219853> .
+
+<cooccurrence/CID44343890_CID10219853>
+    rdf:object <compound/CID10219853> .
+
+<cooccurrence/CID443753_CID10219853>
+    rdf:object <compound/CID10219853> .
+
+<cooccurrence/CID444041_CID10219853>
+    rdf:object <compound/CID10219853> .
+
+<cooccurrence/CID44420324_CID10219853>
+    rdf:object <compound/CID10219853> .
+
+<cooccurrence/CID44435791_CID10219853>
+    rdf:object <compound/CID10219853> .
+
+<cooccurrence/CID444865_CID10219853>
+    rdf:object <compound/CID10219853> .
+
+<cooccurrence/CID444913_CID10219853>
+    rdf:object <compound/CID10219853> .
+
+<cooccurrence/CID44563965_CID10219853>
+    rdf:object <compound/CID10219853> .
+
+<cooccurrence/CID44583778_CID10219853>
+    rdf:object <compound/CID10219853> .
+
+<cooccurrence/CID446101_CID10219853>
+    rdf:object <compound/CID10219853> .
+
+<cooccurrence/CID4474425_CID10219853>
+    rdf:object <compound/CID10219853> .
+
+<cooccurrence/CID44826349_CID10219853>
+    rdf:object <compound/CID10219853> .
+
+<cooccurrence/CID4483892_CID10219853>
+    rdf:object <compound/CID10219853> .
+
+<cooccurrence/CID4486822_CID10219853>
+    rdf:object <compound/CID10219853> .
+
+<cooccurrence/CID449069_CID10219853>
+    rdf:object <compound/CID10219853> .
+
+<cooccurrence/CID4506_CID10219853>
+    rdf:object <compound/CID10219853> .
+
+<cooccurrence/CID453205_CID10219853>
+    rdf:object <compound/CID10219853> .
+
+<cooccurrence/CID456468_CID10219853>
+    rdf:object <compound/CID10219853> .
+
+<cooccurrence/CID4583_CID10219853>
+    rdf:object <compound/CID10219853> .
+
+<cooccurrence/CID4616_CID10219853>
+    rdf:object <compound/CID10219853> .
+
+<cooccurrence/CID4628_CID10219853>
+    rdf:object <compound/CID10219853> .
+
+<cooccurrence/CID4632_CID10219853>
+    rdf:object <compound/CID10219853> .
+
+<cooccurrence/CID4649_CID10219853>
+    rdf:object <compound/CID10219853> .
+
+<cooccurrence/CID464_CID10219853>
+    rdf:object <compound/CID10219853> .
+
+<cooccurrence/CID4696_CID10219853>
+    rdf:object <compound/CID10219853> .
+
+<cooccurrence/CID47491_CID10219853>
+    rdf:object <compound/CID10219853> .
+
+<cooccurrence/CID4771_CID10219853>
+    rdf:object <compound/CID10219853> .
+
+<cooccurrence/CID477611_CID10219853>
+    rdf:object <compound/CID10219853> .
+
+<cooccurrence/CID4786_CID10219853>
+    rdf:object <compound/CID10219853> .
+
+<cooccurrence/CID4794_CID10219853>
+    rdf:object <compound/CID10219853> .
+
+<cooccurrence/CID4807_CID10219853>
+    rdf:object <compound/CID10219853> .
+
+<cooccurrence/CID4831_CID10219853>
+    rdf:object <compound/CID10219853> .
+
+<cooccurrence/CID4855_CID10219853>
+    rdf:object <compound/CID10219853> .
+
+<cooccurrence/CID4909_CID10219853>
+    rdf:object <compound/CID10219853> .
+
+<cooccurrence/CID4932_CID10219853>
+    rdf:object <compound/CID10219853> .
+
+<cooccurrence/CID493591_CID10219853>
+    rdf:object <compound/CID10219853> .
+
+<cooccurrence/CID5018304_CID10219853>
+    rdf:object <compound/CID10219853> .
+
+<cooccurrence/CID5049265_CID10219853>
+    rdf:object <compound/CID10219853> .
+
+<cooccurrence/CID5054_CID10219853>
+    rdf:object <compound/CID10219853> .
+
+<cooccurrence/CID51066534_CID10219853>
+    rdf:object <compound/CID10219853> .
+
+<cooccurrence/CID5123904_CID10219853>
+    rdf:object <compound/CID10219853> .
+
+<cooccurrence/CID51340199_CID10219853>
+    rdf:object <compound/CID10219853> .
+
+<cooccurrence/CID51369_CID10219853>
+    rdf:object <compound/CID10219853> .
+
+<cooccurrence/CID516949_CID10219853>
+    rdf:object <compound/CID10219853> .
+
+<cooccurrence/CID516951_CID10219853>
+    rdf:object <compound/CID10219853> .
+
+<cooccurrence/CID517072_CID10219853>
+    rdf:object <compound/CID10219853> .
+
+<cooccurrence/CID5231474_CID10219853>
+    rdf:object <compound/CID10219853> .
+
+<cooccurrence/CID5241825_CID10219853>
+    rdf:object <compound/CID10219853> .
+
+<cooccurrence/CID527_CID10219853>
+    rdf:object <compound/CID10219853> .
+
+<cooccurrence/CID5280536_CID10219853>
+    rdf:object <compound/CID10219853> .
+
+<cooccurrence/CID5280802_CID10219853>
+    rdf:object <compound/CID10219853> .
+
+<cooccurrence/CID5281068_CID10219853>
+    rdf:object <compound/CID10219853> .
+
+<cooccurrence/CID5281071_CID10219853>
+    rdf:object <compound/CID10219853> .
+
+<cooccurrence/CID5281127_CID10219853>
+    rdf:object <compound/CID10219853> .
+
+<cooccurrence/CID5281232_CID10219853>
+    rdf:object <compound/CID10219853> .
+
+<cooccurrence/CID5281233_CID10219853>
+    rdf:object <compound/CID10219853> .
+
+<cooccurrence/CID5281377_CID10219853>
+    rdf:object <compound/CID10219853> .
+
+<cooccurrence/CID5281416_CID10219853>
+    rdf:object <compound/CID10219853> .
+
+<cooccurrence/CID5281511_CID10219853>
+    rdf:object <compound/CID10219853> .
+
+<cooccurrence/CID5281544_CID10219853>
+    rdf:object <compound/CID10219853> .
+
+<cooccurrence/CID5281616_CID10219853>
+    rdf:object <compound/CID10219853> .
+
+<cooccurrence/CID5281632_CID10219853>
+    rdf:object <compound/CID10219853> .
+
+<cooccurrence/CID5281636_CID10219853>
+    rdf:object <compound/CID10219853> .
+
+<cooccurrence/CID5281640_CID10219853>
+    rdf:object <compound/CID10219853> .
+
+<cooccurrence/CID5281788_CID10219853>
+    rdf:object <compound/CID10219853> .
+
+<cooccurrence/CID5281793_CID10219853>
+    rdf:object <compound/CID10219853> .
+
+<cooccurrence/CID5281800_CID10219853>
+    rdf:object <compound/CID10219853> .
+
+<cooccurrence/CID5281873_CID10219853>
+    rdf:object <compound/CID10219853> .
+
+<cooccurrence/CID5282253_CID10219853>
+    rdf:object <compound/CID10219853> .
+
+<cooccurrence/CID5282402_CID10219853>
+    rdf:object <compound/CID10219853> .
+
+<cooccurrence/CID5282409_CID10219853>
+    rdf:object <compound/CID10219853> .
+
+<cooccurrence/CID5282593_CID10219853>
+    rdf:object <compound/CID10219853> .
+
+<cooccurrence/CID5282761_CID10219853>
+    rdf:object <compound/CID10219853> .
+
+<cooccurrence/CID5284371_CID10219853>
+    rdf:object <compound/CID10219853> .
+
+<cooccurrence/CID5284443_CID10219853>
+    rdf:object <compound/CID10219853> .
+
+<cooccurrence/CID5287407_CID10219853>
+    rdf:object <compound/CID10219853> .
+
+<cooccurrence/CID5289590_CID10219853>
+    rdf:object <compound/CID10219853> .
+
+<cooccurrence/CID52999_CID10219853>
+    rdf:object <compound/CID10219853> .
+
+<cooccurrence/CID5311356_CID10219853>
+    rdf:object <compound/CID10219853> .
+
+<cooccurrence/CID5315472_CID10219853>
+    rdf:object <compound/CID10219853> .
+
+<cooccurrence/CID5315_CID10219853>
+    rdf:object <compound/CID10219853> .
+
+<cooccurrence/CID5317750_CID10219853>
+    rdf:object <compound/CID10219853> .
+
+<cooccurrence/CID5318517_CID10219853>
+    rdf:object <compound/CID10219853> .
+
+<cooccurrence/CID5318624_CID10219853>
+    rdf:object <compound/CID10219853> .
+
+<cooccurrence/CID5318980_CID10219853>
+    rdf:object <compound/CID10219853> .
+
+<cooccurrence/CID5318998_CID10219853>
+    rdf:object <compound/CID10219853> .
+
+<cooccurrence/CID5319081_CID10219853>
+    rdf:object <compound/CID10219853> .
+
+<cooccurrence/CID5319485_CID10219853>
+    rdf:object <compound/CID10219853> .
+
+<cooccurrence/CID5324289_CID10219853>
+    rdf:object <compound/CID10219853> .
+
+<cooccurrence/CID53245640_CID10219853>
+    rdf:object <compound/CID10219853> .
+
+<cooccurrence/CID53249254_CID10219853>
+    rdf:object <compound/CID10219853> .
+
+<cooccurrence/CID5328_CID10219853>
+    rdf:object <compound/CID10219853> .
+
+<cooccurrence/CID53297354_CID10219853>
+    rdf:object <compound/CID10219853> .
+
+<cooccurrence/CID53394883_CID10219853>
+    rdf:object <compound/CID10219853> .
+
+<cooccurrence/CID5353639_CID10219853>
+    rdf:object <compound/CID10219853> .
+
+<cooccurrence/CID5359575_CID10219853>
+    rdf:object <compound/CID10219853> .
+
+<cooccurrence/CID5360696_CID10219853>
+    rdf:object <compound/CID10219853> .
+
+<cooccurrence/CID53627505_CID10219853>
+    rdf:object <compound/CID10219853> .
+
+<cooccurrence/CID53671171_CID10219853>
+    rdf:object <compound/CID10219853> .
+
+<cooccurrence/CID5379_CID10219853>
+    rdf:object <compound/CID10219853> .
+
+<cooccurrence/CID5380091_CID10219853>
+    rdf:object <compound/CID10219853> .
+
+<cooccurrence/CID538552_CID10219853>
+    rdf:object <compound/CID10219853> .
+
+<cooccurrence/CID5391_CID10219853>
+    rdf:object <compound/CID10219853> .
+
+<cooccurrence/CID540150_CID10219853>
+    rdf:object <compound/CID10219853> .
+
+<cooccurrence/CID5408233_CID10219853>
+    rdf:object <compound/CID10219853> .
+
+<cooccurrence/CID5447130_CID10219853>
+    rdf:object <compound/CID10219853> .
+
+<cooccurrence/CID5460626_CID10219853>
+    rdf:object <compound/CID10219853> .
+
+<cooccurrence/CID5461003_CID10219853>
+    rdf:object <compound/CID10219853> .
+
+<cooccurrence/CID5462306_CID10219853>
+    rdf:object <compound/CID10219853> .
+
+<cooccurrence/CID5462311_CID10219853>
+    rdf:object <compound/CID10219853> .
+
+<cooccurrence/CID5462442_CID10219853>
+    rdf:object <compound/CID10219853> .
+
+<cooccurrence/CID54676743_CID10219853>
+    rdf:object <compound/CID10219853> .
+
+<cooccurrence/CID54682469_CID10219853>
+    rdf:object <compound/CID10219853> .
+
+<cooccurrence/CID54692967_CID10219853>
+    rdf:object <compound/CID10219853> .
+
+<cooccurrence/CID5469424_CID10219853>
+    rdf:object <compound/CID10219853> .
+
+<cooccurrence/CID5469881_CID10219853>
+    rdf:object <compound/CID10219853> .
+
+<cooccurrence/CID5472440_CID10219853>
+    rdf:object <compound/CID10219853> .
+
+<cooccurrence/CID54739048_CID10219853>
+    rdf:object <compound/CID10219853> .
+
+<cooccurrence/CID54747168_CID10219853>
+    rdf:object <compound/CID10219853> .
+
+<cooccurrence/CID54749602_CID10219853>
+    rdf:object <compound/CID10219853> .
+
+<cooccurrence/CID5481663_CID10219853>
+    rdf:object <compound/CID10219853> .
+
+<cooccurrence/CID5485188_CID10219853>
+    rdf:object <compound/CID10219853> .
+
+<cooccurrence/CID5488036_CID10219853>
+    rdf:object <compound/CID10219853> .
+
+<cooccurrence/CID5493302_CID10219853>
+    rdf:object <compound/CID10219853> .
+
+<cooccurrence/CID55182_CID10219853>
+    rdf:object <compound/CID10219853> .
+
+<cooccurrence/CID5634_CID10219853>
+    rdf:object <compound/CID10219853> .
+
+<cooccurrence/CID567_CID10219853>
+    rdf:object <compound/CID10219853> .
+
+<cooccurrence/CID56841620_CID10219853>
+    rdf:object <compound/CID10219853> .
+
+<cooccurrence/CID5702059_CID10219853>
+    rdf:object <compound/CID10219853> .
+
+<cooccurrence/CID5702060_CID10219853>
+    rdf:object <compound/CID10219853> .
+
+<cooccurrence/CID5702065_CID10219853>
+    rdf:object <compound/CID10219853> .
+
+<cooccurrence/CID5702220_CID10219853>
+    rdf:object <compound/CID10219853> .
+
+<cooccurrence/CID57357472_CID10219853>
+    rdf:object <compound/CID10219853> .
+
+<cooccurrence/CID57449_CID10219853>
+    rdf:object <compound/CID10219853> .
+
+<cooccurrence/CID5748205_CID10219853>
+    rdf:object <compound/CID10219853> .
+
+<cooccurrence/CID5748621_CID10219853>
+    rdf:object <compound/CID10219853> .
+
+<cooccurrence/CID5778_CID10219853>
+    rdf:object <compound/CID10219853> .
+
+<cooccurrence/CID5782694_CID10219853>
+    rdf:object <compound/CID10219853> .
+
+<cooccurrence/CID5802_CID10219853>
+    rdf:object <compound/CID10219853> .
+
+<cooccurrence/CID5821911_CID10219853>
+    rdf:object <compound/CID10219853> .
+
+<cooccurrence/CID5853_CID10219853>
+    rdf:object <compound/CID10219853> .
+
+<cooccurrence/CID5912039_CID10219853>
+    rdf:object <compound/CID10219853> .
+
+<cooccurrence/CID5974_CID10219853>
+    rdf:object <compound/CID10219853> .
+
+<cooccurrence/CID600959_CID10219853>
+    rdf:object <compound/CID10219853> .
+
+<cooccurrence/CID6010_CID10219853>
+    rdf:object <compound/CID10219853> .
+
+<cooccurrence/CID601100_CID10219853>
+    rdf:object <compound/CID10219853> .
+
+<cooccurrence/CID6032_CID10219853>
+    rdf:object <compound/CID10219853> .
+
+<cooccurrence/CID60464_CID10219853>
+    rdf:object <compound/CID10219853> .
+
+<cooccurrence/CID60613_CID10219853>
+    rdf:object <compound/CID10219853> .
+
+<cooccurrence/CID60751_CID10219853>
+    rdf:object <compound/CID10219853> .
+
+<cooccurrence/CID60837_CID10219853>
+    rdf:object <compound/CID10219853> .
+
+<cooccurrence/CID60966_CID10219853>
+    rdf:object <compound/CID10219853> .
+
+<cooccurrence/CID61041_CID10219853>
+    rdf:object <compound/CID10219853> .
+
+<cooccurrence/CID61424_CID10219853>
+    rdf:object <compound/CID10219853> .
+
+<cooccurrence/CID6144_CID10219853>
+    rdf:object <compound/CID10219853> .
+
+<cooccurrence/CID62258_CID10219853>
+    rdf:object <compound/CID10219853> .
+
+<cooccurrence/CID62698_CID10219853>
+    rdf:object <compound/CID10219853> .
+
+<cooccurrence/CID62829_CID10219853>
+    rdf:object <compound/CID10219853> .
+
+<cooccurrence/CID62942_CID10219853>
+    rdf:object <compound/CID10219853> .
+
+<cooccurrence/CID62943_CID10219853>
+    rdf:object <compound/CID10219853> .
+
+<cooccurrence/CID63009_CID10219853>
+    rdf:object <compound/CID10219853> .
+
+<cooccurrence/CID6326804_CID10219853>
+    rdf:object <compound/CID10219853> .
+
+<cooccurrence/CID6327189_CID10219853>
+    rdf:object <compound/CID10219853> .
+
+<cooccurrence/CID6336860_CID10219853>
+    rdf:object <compound/CID10219853> .
+
+<cooccurrence/CID6342_CID10219853>
+    rdf:object <compound/CID10219853> .
+
+<cooccurrence/CID64143_CID10219853>
+    rdf:object <compound/CID10219853> .
+
+<cooccurrence/CID6419933_CID10219853>
+    rdf:object <compound/CID10219853> .
+
+<cooccurrence/CID6432059_CID10219853>
+    rdf:object <compound/CID10219853> .
+
+<cooccurrence/CID6433169_CID10219853>
+    rdf:object <compound/CID10219853> .
+
+<cooccurrence/CID643460_CID10219853>
+    rdf:object <compound/CID10219853> .
+
+<cooccurrence/CID6435500_CID10219853>
+    rdf:object <compound/CID10219853> .
+
+<cooccurrence/CID6440554_CID10219853>
+    rdf:object <compound/CID10219853> .
+
+<cooccurrence/CID6440557_CID10219853>
+    rdf:object <compound/CID10219853> .
+
+<cooccurrence/CID6444190_CID10219853>
+    rdf:object <compound/CID10219853> .
+
+<cooccurrence/CID64695_CID10219853>
+    rdf:object <compound/CID10219853> .
+
+<cooccurrence/CID64704_CID10219853>
+    rdf:object <compound/CID10219853> .
+
+<cooccurrence/CID6473762_CID10219853>
+    rdf:object <compound/CID10219853> .
+
+<cooccurrence/CID64981_CID10219853>
+    rdf:object <compound/CID10219853> .
+
+<cooccurrence/CID6503_CID10219853>
+    rdf:object <compound/CID10219853> .
+
+<cooccurrence/CID65090_CID10219853>
+    rdf:object <compound/CID10219853> .
+
+<cooccurrence/CID6517_CID10219853>
+    rdf:object <compound/CID10219853> .
+
+<cooccurrence/CID6518168_CID10219853>
+    rdf:object <compound/CID10219853> .
+
+<cooccurrence/CID65411_CID10219853>
+    rdf:object <compound/CID10219853> .
+
+<cooccurrence/CID6565233_CID10219853>
+    rdf:object <compound/CID10219853> .
+
+<cooccurrence/CID657309_CID10219853>
+    rdf:object <compound/CID10219853> .
+
+<cooccurrence/CID65957_CID10219853>
+    rdf:object <compound/CID10219853> .
+
+<cooccurrence/CID6604365_CID10219853>
+    rdf:object <compound/CID10219853> .
+
+<cooccurrence/CID66227_CID10219853>
+    rdf:object <compound/CID10219853> .
+
+<cooccurrence/CID66577045_CID10219853>
+    rdf:object <compound/CID10219853> .
+
+<cooccurrence/CID66579015_CID10219853>
+    rdf:object <compound/CID10219853> .
+
+<cooccurrence/CID66586529_CID10219853>
+    rdf:object <compound/CID10219853> .
+
+<cooccurrence/CID666418_CID10219853>
+    rdf:object <compound/CID10219853> .
+
+<cooccurrence/CID66666_CID10219853>
+    rdf:object <compound/CID10219853> .
+
+<cooccurrence/CID66825_CID10219853>
+    rdf:object <compound/CID10219853> .
+
+<cooccurrence/CID6683_CID10219853>
+    rdf:object <compound/CID10219853> .
+
+<cooccurrence/CID66898_CID10219853>
+    rdf:object <compound/CID10219853> .
+
+<cooccurrence/CID68071_CID10219853>
+    rdf:object <compound/CID10219853> .
+
+<cooccurrence/CID68073_CID10219853>
+    rdf:object <compound/CID10219853> .
+
+<cooccurrence/CID68079_CID10219853>
+    rdf:object <compound/CID10219853> .
+
+<cooccurrence/CID68114_CID10219853>
+    rdf:object <compound/CID10219853> .
+
+<cooccurrence/CID6811_CID10219853>
+    rdf:object <compound/CID10219853> .
+
+<cooccurrence/CID68275_CID10219853>
+    rdf:object <compound/CID10219853> .
+
+<cooccurrence/CID6857486_CID10219853>
+    rdf:object <compound/CID10219853> .
+
+<cooccurrence/CID688024_CID10219853>
+    rdf:object <compound/CID10219853> .
+
+<cooccurrence/CID6917974_CID10219853>
+    rdf:object <compound/CID10219853> .
+
+<cooccurrence/CID6918554_CID10219853>
+    rdf:object <compound/CID10219853> .
+
+<cooccurrence/CID6918612_CID10219853>
+    rdf:object <compound/CID10219853> .
+
+<cooccurrence/CID6918840_CID10219853>
+    rdf:object <compound/CID10219853> .
+
+<cooccurrence/CID6947_CID10219853>
+    rdf:object <compound/CID10219853> .
+
+<cooccurrence/CID69894_CID10219853>
+    rdf:object <compound/CID10219853> .
+
+<cooccurrence/CID7005_CID10219853>
+    rdf:object <compound/CID10219853> .
+
+<cooccurrence/CID7018_CID10219853>
+    rdf:object <compound/CID10219853> .
+
+<cooccurrence/CID70481745_CID10219853>
+    rdf:object <compound/CID10219853> .
+
+<cooccurrence/CID70639872_CID10219853>
+    rdf:object <compound/CID10219853> .
+
+<cooccurrence/CID70697839_CID10219853>
+    rdf:object <compound/CID10219853> .
+
+<cooccurrence/CID70697925_CID10219853>
+    rdf:object <compound/CID10219853> .
+
+<cooccurrence/CID70702285_CID10219853>
+    rdf:object <compound/CID10219853> .
+
+<cooccurrence/CID70726_CID10219853>
+    rdf:object <compound/CID10219853> .
+
+<cooccurrence/CID70815_CID10219853>
+    rdf:object <compound/CID10219853> .
+
+<cooccurrence/CID7083_CID10219853>
+    rdf:object <compound/CID10219853> .
+
+<cooccurrence/CID71068_CID10219853>
+    rdf:object <compound/CID10219853> .
+
+<cooccurrence/CID71070_CID10219853>
+    rdf:object <compound/CID10219853> .
+
+<cooccurrence/CID71306822_CID10219853>
+    rdf:object <compound/CID10219853> .
+
+<cooccurrence/CID71308731_CID10219853>
+    rdf:object <compound/CID10219853> .
+
+<cooccurrence/CID71311169_CID10219853>
+    rdf:object <compound/CID10219853> .
+
+<cooccurrence/CID71315066_CID10219853>
+    rdf:object <compound/CID10219853> .
+
+<cooccurrence/CID71464055_CID10219853>
+    rdf:object <compound/CID10219853> .
+
+<cooccurrence/CID7153_CID10219853>
+    rdf:object <compound/CID10219853> .
+
+<cooccurrence/CID71587168_CID10219853>
+    rdf:object <compound/CID10219853> .
+
+<cooccurrence/CID71587892_CID10219853>
+    rdf:object <compound/CID10219853> .
+
+<cooccurrence/CID71719928_CID10219853>
+    rdf:object <compound/CID10219853> .
+
+<cooccurrence/CID71749303_CID10219853>
+    rdf:object <compound/CID10219853> .
+
+<cooccurrence/CID7175_CID10219853>
+    rdf:object <compound/CID10219853> .
+
+<cooccurrence/CID7184_CID10219853>
+    rdf:object <compound/CID10219853> .
+
+<cooccurrence/CID72300_CID10219853>
+    rdf:object <compound/CID10219853> .
+
+<cooccurrence/CID72303_CID10219853>
+    rdf:object <compound/CID10219853> .
+
+<cooccurrence/CID72616_CID10219853>
+    rdf:object <compound/CID10219853> .
+
+<cooccurrence/CID72724_CID10219853>
+    rdf:object <compound/CID10219853> .
+
+<cooccurrence/CID73252_CID10219853>
+    rdf:object <compound/CID10219853> .
+
+<cooccurrence/CID73285_CID10219853>
+    rdf:object <compound/CID10219853> .
+
+<cooccurrence/CID73320_CID10219853>
+    rdf:object <compound/CID10219853> .
+
+<cooccurrence/CID73321_CID10219853>
+    rdf:object <compound/CID10219853> .
+
+<cooccurrence/CID73384_CID10219853>
+    rdf:object <compound/CID10219853> .
+
+<cooccurrence/CID73707487_CID10219853>
+    rdf:object <compound/CID10219853> .
+
+<cooccurrence/CID74236_CID10219853>
+    rdf:object <compound/CID10219853> .
+
+<cooccurrence/CID7456_CID10219853>
+    rdf:object <compound/CID10219853> .
+
+<cooccurrence/CID7628_CID10219853>
+    rdf:object <compound/CID10219853> .
+
+<cooccurrence/CID76551_CID10219853>
+    rdf:object <compound/CID10219853> .
+
+<cooccurrence/CID7808_CID10219853>
+    rdf:object <compound/CID10219853> .
+
+<cooccurrence/CID78577438_CID10219853>
+    rdf:object <compound/CID10219853> .
+
+<cooccurrence/CID78759336_CID10219853>
+    rdf:object <compound/CID10219853> .
+
+<cooccurrence/CID78938_CID10219853>
+    rdf:object <compound/CID10219853> .
+
+<cooccurrence/CID79222_CID10219853>
+    rdf:object <compound/CID10219853> .
+
+<cooccurrence/CID79784_CID10219853>
+    rdf:object <compound/CID10219853> .
+
+<cooccurrence/CID80349_CID10219853>
+    rdf:object <compound/CID10219853> .
+
+<cooccurrence/CID8063_CID10219853>
+    rdf:object <compound/CID10219853> .
+
+<cooccurrence/CID8174_CID10219853>
+    rdf:object <compound/CID10219853> .
+
+<cooccurrence/CID82755_CID10219853>
+    rdf:object <compound/CID10219853> .
+
+<cooccurrence/CID8305_CID10219853>
+    rdf:object <compound/CID10219853> .
+
+<cooccurrence/CID8314_CID10219853>
+    rdf:object <compound/CID10219853> .
+
+<cooccurrence/CID83887_CID10219853>
+    rdf:object <compound/CID10219853> .
+
+<cooccurrence/CID8417_CID10219853>
+    rdf:object <compound/CID10219853> .
+
+<cooccurrence/CID8427_CID10219853>
+    rdf:object <compound/CID10219853> .
+
+<cooccurrence/CID8479_CID10219853>
+    rdf:object <compound/CID10219853> .
+
+<cooccurrence/CID85076954_CID10219853>
+    rdf:object <compound/CID10219853> .
+
+<cooccurrence/CID854026_CID10219853>
+    rdf:object <compound/CID10219853> .
+
+<cooccurrence/CID8564_CID10219853>
+    rdf:object <compound/CID10219853> .
+
+<cooccurrence/CID85703983_CID10219853>
+    rdf:object <compound/CID10219853> .
+
+<cooccurrence/CID8572_CID10219853>
+    rdf:object <compound/CID10219853> .
+
+<cooccurrence/CID86287518_CID10219853>
+    rdf:object <compound/CID10219853> .
+
+<cooccurrence/CID86287519_CID10219853>
+    rdf:object <compound/CID10219853> .
+
+<cooccurrence/CID8655_CID10219853>
+    rdf:object <compound/CID10219853> .
+
+<cooccurrence/CID86587655_CID10219853>
+    rdf:object <compound/CID10219853> .
+
+<cooccurrence/CID86757154_CID10219853>
+    rdf:object <compound/CID10219853> .
+
+<cooccurrence/CID86767267_CID10219853>
+    rdf:object <compound/CID10219853> .
+
+<cooccurrence/CID8714_CID10219853>
+    rdf:object <compound/CID10219853> .
+
+<cooccurrence/CID8786_CID10219853>
+    rdf:object <compound/CID10219853> .
+
+<cooccurrence/CID887_CID10219853>
+    rdf:object <compound/CID10219853> .
+
+<cooccurrence/CID8900_CID10219853>
+    rdf:object <compound/CID10219853> .
+
+<cooccurrence/CID89483142_CID10219853>
+    rdf:object <compound/CID10219853> .
+
+<cooccurrence/CID8980_CID10219853>
+    rdf:object <compound/CID10219853> .
+
+<cooccurrence/CID90384115_CID10219853>
+    rdf:object <compound/CID10219853> .
+
+<cooccurrence/CID90471821_CID10219853>
+    rdf:object <compound/CID10219853> .
+
+<cooccurrence/CID90478760_CID10219853>
+    rdf:object <compound/CID10219853> .
+
+<cooccurrence/CID9065_CID10219853>
+    rdf:object <compound/CID10219853> .
+
+<cooccurrence/CID907504_CID10219853>
+    rdf:object <compound/CID10219853> .
+
+<cooccurrence/CID91458_CID10219853>
+    rdf:object <compound/CID10219853> .
+
+<cooccurrence/CID91520_CID10219853>
+    rdf:object <compound/CID10219853> .
+
+<cooccurrence/CID91526_CID10219853>
+    rdf:object <compound/CID10219853> .
+
+<cooccurrence/CID91585_CID10219853>
+    rdf:object <compound/CID10219853> .
+
+<cooccurrence/CID91650_CID10219853>
+    rdf:object <compound/CID10219853> .
+
+<cooccurrence/CID91668478_CID10219853>
+    rdf:object <compound/CID10219853> .
+
+<cooccurrence/CID91683_CID10219853>
+    rdf:object <compound/CID10219853> .
+
+<cooccurrence/CID91693_CID10219853>
+    rdf:object <compound/CID10219853> .
+
+<cooccurrence/CID91773_CID10219853>
+    rdf:object <compound/CID10219853> .
+
+<cooccurrence/CID91864535_CID10219853>
+    rdf:object <compound/CID10219853> .
+
+<cooccurrence/CID91886148_CID10219853>
+    rdf:object <compound/CID10219853> .
+
+<cooccurrence/CID91895385_CID10219853>
+    rdf:object <compound/CID10219853> .
+
+<cooccurrence/CID92105_CID10219853>
+    rdf:object <compound/CID10219853> .
+
+<cooccurrence/CID92268_CID10219853>
+    rdf:object <compound/CID10219853> .
+
+<cooccurrence/CID9231_CID10219853>
+    rdf:object <compound/CID10219853> .
+
+<cooccurrence/CID92337_CID10219853>
+    rdf:object <compound/CID10219853> .
+
+<cooccurrence/CID9294_CID10219853>
+    rdf:object <compound/CID10219853> .
+
+<cooccurrence/CID934_CID10219853>
+    rdf:object <compound/CID10219853> .
+
+<cooccurrence/CID94154_CID10219853>
+    rdf:object <compound/CID10219853> .
+
+<cooccurrence/CID95224384_CID10219853>
+    rdf:object <compound/CID10219853> .
+
+<cooccurrence/CID9553856_CID10219853>
+    rdf:object <compound/CID10219853> .
+
+<cooccurrence/CID9581_CID10219853>
+    rdf:object <compound/CID10219853> .
+
+<cooccurrence/CID96400_CID10219853>
+    rdf:object <compound/CID10219853> .
+
+<cooccurrence/CID97479_CID10219853>
+    rdf:object <compound/CID10219853> .
+
+<cooccurrence/CID978344_CID10219853>
+    rdf:object <compound/CID10219853> .
+
+<cooccurrence/CID978461_CID10219853>
+    rdf:object <compound/CID10219853> .
+
+<cooccurrence/CID9794806_CID10219853>
+    rdf:object <compound/CID10219853> .
+
+<cooccurrence/CID9816075_CID10219853>
+    rdf:object <compound/CID10219853> .
+
+<cooccurrence/CID9817511_CID10219853>
+    rdf:object <compound/CID10219853> .
+
+<cooccurrence/CID9837297_CID10219853>
+    rdf:object <compound/CID10219853> .
+
+<cooccurrence/CID9852185_CID10219853>
+    rdf:object <compound/CID10219853> .
+
+<cooccurrence/CID9855350_CID10219853>
+    rdf:object <compound/CID10219853> .
+
+<cooccurrence/CID9855541_CID10219853>
+    rdf:object <compound/CID10219853> .
+
+<cooccurrence/CID98608_CID10219853>
+    rdf:object <compound/CID10219853> .
+
+<cooccurrence/CID9866696_CID10219853>
+    rdf:object <compound/CID10219853> .
+
+<cooccurrence/CID9933439_CID10219853>
+    rdf:object <compound/CID10219853> .
+
+<cooccurrence/CID994_CID10219853>
+    rdf:object <compound/CID10219853> .
+
+<cooccurrence/CID9962298_CID10219853>
+    rdf:object <compound/CID10219853> .
+
+<cooccurrence/CID99639195_CID10219853>
+    rdf:object <compound/CID10219853> .
+
+<cooccurrence/DZID10354_CID10219853>
+    rdf:object <compound/CID10219853> .
+
+<cooccurrence/DZID6921_CID10219853>
+    rdf:object <compound/CID10219853> .
+
+<cooccurrence/DZID7344_CID10219853>
+    rdf:object <compound/CID10219853> .
+
+<cooccurrence/DZID8277_CID10219853>
+    rdf:object <compound/CID10219853> .
+
+<cooccurrence/DZID9255_CID10219853>
+    rdf:object <compound/CID10219853> .
+
+<cooccurrence/DZID9268_CID10219853>
+    rdf:object <compound/CID10219853> .
+
+<cooccurrence/DZID9384_CID10219853>
+    rdf:object <compound/CID10219853> .
+
+<cooccurrence/DZID9448_CID10219853>
+    rdf:object <compound/CID10219853> .
+
+<cooccurrence/DZID9507_CID10219853>
+    rdf:object <compound/CID10219853> .
+
+<cooccurrence/EC_2.1.3.3_CID10219853>
+    rdf:object <compound/CID10219853> .
+
+<cooccurrence/EC_2.7.4.9_CID10219853>
+    rdf:object <compound/CID10219853> .
+
+<cooccurrence/EC_3.2.1.46_CID10219853>
+    rdf:object <compound/CID10219853> .
+
+<cooccurrence/EC_3.2.1.68_CID10219853>
+    rdf:object <compound/CID10219853> .
+
+<cooccurrence/EC_3.4.19.9_CID10219853>
+    rdf:object <compound/CID10219853> .
+
+<cooccurrence/EC_4.2.1.24_CID10219853>
+    rdf:object <compound/CID10219853> .
+
+<cooccurrence/EC_5.1.1.18_CID10219853>
+    rdf:object <compound/CID10219853> .
+
+<cooccurrence/EC_5.3.1.5_CID10219853>
+    rdf:object <compound/CID10219853> .
+
+<cooccurrence/a2m_CID10219853>
+    rdf:object <compound/CID10219853> .
+
+<cooccurrence/aff1_CID10219853>
+    rdf:object <compound/CID10219853> .
+
+<cooccurrence/arid4b_CID10219853>
+    rdf:object <compound/CID10219853> .
+
+<cooccurrence/arsa_CID10219853>
+    rdf:object <compound/CID10219853> .
+
+<cooccurrence/bcaa_CID10219853>
+    rdf:object <compound/CID10219853> .
+
+<cooccurrence/cdk9_CID10219853>
+    rdf:object <compound/CID10219853> .
+
+<cooccurrence/cmb_CID10219853>
+    rdf:object <compound/CID10219853> .
+
+<cooccurrence/cstb_CID10219853>
+    rdf:object <compound/CID10219853> .
+
+<cooccurrence/ctsg_CID10219853>
+    rdf:object <compound/CID10219853> .
+
+<cooccurrence/galns_CID10219853>
+    rdf:object <compound/CID10219853> .
+
+<cooccurrence/ggh_CID10219853>
+    rdf:object <compound/CID10219853> .
+
+<cooccurrence/gmk_CID10219853>
+    rdf:object <compound/CID10219853> .
+
+<cooccurrence/hoxc6.s_CID10219853>
+    rdf:object <compound/CID10219853> .
+
+<cooccurrence/mef2c_CID10219853>
+    rdf:object <compound/CID10219853> .
+
+<cooccurrence/myog_CID10219853>
+    rdf:object <compound/CID10219853> .
+
+<cooccurrence/nkx2-5_CID10219853>
+    rdf:object <compound/CID10219853> .
+
+<cooccurrence/nkx2.5_CID10219853>
+    rdf:object <compound/CID10219853> .
+
+<cooccurrence/ntf2_CID10219853>
+    rdf:object <compound/CID10219853> .
+
+<cooccurrence/nutf2_CID10219853>
+    rdf:object <compound/CID10219853> .
+
+<cooccurrence/otc_CID10219853>
+    rdf:object <compound/CID10219853> .
+
+<cooccurrence/scgb2b3p_CID10219853>
+    rdf:object <compound/CID10219853> .
+
+<cooccurrence/slc13a4_CID10219853>
+    rdf:object <compound/CID10219853> .
+
+<cooccurrence/spb_CID10219853>
+    rdf:object <compound/CID10219853> .
+
+<cooccurrence/srr_CID10219853>
+    rdf:object <compound/CID10219853> .
+
+<cooccurrence/sts_CID10219853>
+    rdf:object <compound/CID10219853> .
+
+<cooccurrence/sut1_CID10219853>
+    rdf:object <compound/CID10219853> .
+
+<cooccurrence/uox_CID10219853>
+    rdf:object <compound/CID10219853> .
+
+<cooccurrence/xylb_CID10219853>
+    rdf:object <compound/CID10219853> .
+
+

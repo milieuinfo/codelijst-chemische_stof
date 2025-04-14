@@ -1,0 +1,151 @@
+@base <http://rdf.ncbi.nlm.nih.gov/pubchem/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+
+<compound/CID10285774>
+    <http://purl.org/dc/terms/identifier> "10285774" ;
+    <http://semanticscience.org/resource/SIO_000008> <descriptor/CID10285774_Canonical_SMILES>, <descriptor/CID10285774_Compound_Identifier>, <descriptor/CID10285774_Covalent_Unit_Count>, <descriptor/CID10285774_Defined_Atom_Stereo_Count>, <descriptor/CID10285774_Defined_Bond_Stereo_Count>, <descriptor/CID10285774_Exact_Mass>, <descriptor/CID10285774_Hydrogen_Bond_Acceptor_Count>, <descriptor/CID10285774_Hydrogen_Bond_Donor_Count>, <descriptor/CID10285774_IUPAC_InChI>, <descriptor/CID10285774_Isomeric_SMILES>, <descriptor/CID10285774_Isotope_Atom_Count>, <descriptor/CID10285774_Molecular_Formula>, <descriptor/CID10285774_Molecular_Weight>, <descriptor/CID10285774_Mono_Isotopic_Weight>, <descriptor/CID10285774_Non-hydrogen_Atom_Count>, <descriptor/CID10285774_Preferred_IUPAC_Name>, <descriptor/CID10285774_Rotatable_Bond_Count>, <descriptor/CID10285774_Structure_Complexity>, <descriptor/CID10285774_TPSA>, <descriptor/CID10285774_Total_Formal_Charge>, <descriptor/CID10285774_Undefined_Atom_Stereo_Count>, <descriptor/CID10285774_Undefined_Bond_Stereo_Count> ;
+    a <vocabulary#Compound> ;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Arsinoborane" .
+
+<cooccurrence/CID10058088_CID10285774>
+    rdf:object <compound/CID10285774> .
+
+<cooccurrence/CID10285774_CID10058088>
+    rdf:subject <compound/CID10285774> .
+
+<cooccurrence/CID10285774_CID10313163>
+    rdf:subject <compound/CID10285774> .
+
+<cooccurrence/CID10285774_CID117559>
+    rdf:subject <compound/CID10285774> .
+
+<cooccurrence/CID10285774_CID14821>
+    rdf:subject <compound/CID10285774> .
+
+<cooccurrence/CID10285774_CID24524>
+    rdf:subject <compound/CID10285774> .
+
+<cooccurrence/CID10285774_CID5359596>
+    rdf:subject <compound/CID10285774> .
+
+<cooccurrence/CID10285774_CID5362487>
+    rdf:subject <compound/CID10285774> .
+
+<cooccurrence/CID10285774_CID5462310>
+    rdf:subject <compound/CID10285774> .
+
+<cooccurrence/CID10285774_CID5462311>
+    rdf:subject <compound/CID10285774> .
+
+<cooccurrence/CID10285774_CID6326970>
+    rdf:subject <compound/CID10285774> .
+
+<cooccurrence/CID10285774_CID66227>
+    rdf:subject <compound/CID10285774> .
+
+<cooccurrence/CID10285774_CID71739>
+    rdf:subject <compound/CID10285774> .
+
+<cooccurrence/CID10285774_CID783>
+    rdf:subject <compound/CID10285774> .
+
+<cooccurrence/CID10285774_CID88409>
+    rdf:subject <compound/CID10285774> .
+
+<cooccurrence/CID10285774_CID947>
+    rdf:subject <compound/CID10285774> .
+
+<cooccurrence/CID10285774_CID9863>
+    rdf:subject <compound/CID10285774> .
+
+<cooccurrence/CID10285774_DZID7336>
+    rdf:subject <compound/CID10285774> .
+
+<cooccurrence/CID10285774_DZID8489>
+    rdf:subject <compound/CID10285774> .
+
+<cooccurrence/CID10285774_axin2>
+    rdf:subject <compound/CID10285774> .
+
+<cooccurrence/CID10285774_grhpr>
+    rdf:subject <compound/CID10285774> .
+
+<cooccurrence/CID10285774_igkv1-131>
+    rdf:subject <compound/CID10285774> .
+
+<cooccurrence/CID10285774_me3>
+    rdf:subject <compound/CID10285774> .
+
+<cooccurrence/CID10285774_mol>
+    rdf:subject <compound/CID10285774> .
+
+<cooccurrence/CID117559_CID10285774>
+    rdf:object <compound/CID10285774> .
+
+<cooccurrence/CID14821_CID10285774>
+    rdf:object <compound/CID10285774> .
+
+<cooccurrence/CID5462311_CID10285774>
+    rdf:object <compound/CID10285774> .
+
+<cooccurrence/CID66227_CID10285774>
+    rdf:object <compound/CID10285774> .
+
+<cooccurrence/CID88409_CID10285774>
+    rdf:object <compound/CID10285774> .
+
+<cooccurrence/CID9863_CID10285774>
+    rdf:object <compound/CID10285774> .
+
+<cooccurrence/grhpr_CID10285774>
+    rdf:object <compound/CID10285774> .
+
+<cooccurrence/igkv1-131_CID10285774>
+    rdf:object <compound/CID10285774> .
+
+<cooccurrence/me3_CID10285774>
+    rdf:object <compound/CID10285774> .
+
+<cooccurrence/mol_CID10285774>
+    rdf:object <compound/CID10285774> .
+
+<inchikey/DBKNIEBLJMAJHX-UHFFFAOYSA-N>
+    <http://semanticscience.org/resource/SIO_000011> <compound/CID10285774> .
+
+<substance/SID15291551>
+    <http://semanticscience.org/resource/CHEMINF_000477> <compound/CID10285774> .
+
+<substance/SID22661611>
+    <http://semanticscience.org/resource/CHEMINF_000477> <compound/CID10285774> .
+
+<substance/SID341287992>
+    <http://semanticscience.org/resource/CHEMINF_000477> <compound/CID10285774> .
+
+<substance/SID35557771>
+    <http://semanticscience.org/resource/CHEMINF_000477> <compound/CID10285774> .
+
+<substance/SID472285395>
+    <http://semanticscience.org/resource/CHEMINF_000477> <compound/CID10285774> .
+
+<substance/SID484131036>
+    <http://semanticscience.org/resource/CHEMINF_000477> <compound/CID10285774> .
+
+<substance/SID504328575>
+    <http://semanticscience.org/resource/CHEMINF_000477> <compound/CID10285774> .
+
+<substance/SID77960002>
+    <http://semanticscience.org/resource/CHEMINF_000477> <compound/CID10285774> .
+
+<synonym/MD5_4c5ad98f4dfb3a0511119ef9b77c4188>
+    <http://semanticscience.org/resource/SIO_000011> <compound/CID10285774> .
+
+<synonym/MD5_85379a8b11b3fb8f90ebb2a4993d5735>
+    <http://semanticscience.org/resource/SIO_000011> <compound/CID10285774> .
+
+<synonym/MD5_99e67bd4b12e40e088bc93c4620de9b6>
+    <http://semanticscience.org/resource/SIO_000011> <compound/CID10285774> .
+
+<synonym/MD5_b767099ad82b1180e23f7c0f97bc28c2>
+    <http://semanticscience.org/resource/SIO_000011> <compound/CID10285774> .
+
+

@@ -1,0 +1,28 @@
+@base <http://rdf.ncbi.nlm.nih.gov/pubchem/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+
+<compound/CID71438064>
+    <http://purl.org/dc/terms/identifier> "71438064" ;
+    <http://semanticscience.org/resource/SIO_000008> <descriptor/CID71438064_Canonical_SMILES>, <descriptor/CID71438064_Compound_Identifier>, <descriptor/CID71438064_Covalent_Unit_Count>, <descriptor/CID71438064_Defined_Atom_Stereo_Count>, <descriptor/CID71438064_Defined_Bond_Stereo_Count>, <descriptor/CID71438064_Exact_Mass>, <descriptor/CID71438064_Hydrogen_Bond_Acceptor_Count>, <descriptor/CID71438064_Hydrogen_Bond_Donor_Count>, <descriptor/CID71438064_IUPAC_InChI>, <descriptor/CID71438064_Isomeric_SMILES>, <descriptor/CID71438064_Isotope_Atom_Count>, <descriptor/CID71438064_Molecular_Formula>, <descriptor/CID71438064_Molecular_Weight>, <descriptor/CID71438064_Mono_Isotopic_Weight>, <descriptor/CID71438064_Non-hydrogen_Atom_Count>, <descriptor/CID71438064_Preferred_IUPAC_Name>, <descriptor/CID71438064_Rotatable_Bond_Count>, <descriptor/CID71438064_Structure_Complexity>, <descriptor/CID71438064_TPSA>, <descriptor/CID71438064_Total_Formal_Charge>, <descriptor/CID71438064_Undefined_Atom_Stereo_Count>, <descriptor/CID71438064_Undefined_Bond_Stereo_Count> ;
+    a <vocabulary#Compound> ;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Thiodimercury(I)" .
+
+<inchikey/LPXUMDPYLHOPIE-UHFFFAOYSA-N>
+    <http://semanticscience.org/resource/SIO_000011> <compound/CID71438064> .
+
+<substance/SID163164604>
+    <http://semanticscience.org/resource/CHEMINF_000477> <compound/CID71438064> .
+
+<substance/SID472158271>
+    <http://semanticscience.org/resource/CHEMINF_000477> <compound/CID71438064> .
+
+<synonym/MD5_0378e057fd6db336f1339835a449780d>
+    <http://semanticscience.org/resource/SIO_000011> <compound/CID71438064> .
+
+<synonym/MD5_4f1561c620f0f29127fc5d6cd3a75f18>
+    <http://semanticscience.org/resource/SIO_000011> <compound/CID71438064> .
+
+<synonym/MD5_cdfb1685889736497dcc2bcb21429696>
+    <http://semanticscience.org/resource/SIO_000011> <compound/CID71438064> .
+
+

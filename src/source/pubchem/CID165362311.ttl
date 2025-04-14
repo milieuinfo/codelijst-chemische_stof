@@ -1,0 +1,27 @@
+@base <http://rdf.ncbi.nlm.nih.gov/pubchem/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+
+<compound/CID165362311>
+    <http://purl.org/dc/terms/identifier> "165362311" ;
+    <vocabulary#has_parent> <compound/CID67734> ;
+    <http://semanticscience.org/resource/CHEMINF_000480> <compound/CID31268> ;
+    <http://semanticscience.org/resource/SIO_000008> <descriptor/CID165362311_Canonical_SMILES>, <descriptor/CID165362311_Compound_Identifier>, <descriptor/CID165362311_Covalent_Unit_Count>, <descriptor/CID165362311_Defined_Atom_Stereo_Count>, <descriptor/CID165362311_Defined_Bond_Stereo_Count>, <descriptor/CID165362311_Exact_Mass>, <descriptor/CID165362311_Hydrogen_Bond_Acceptor_Count>, <descriptor/CID165362311_Hydrogen_Bond_Donor_Count>, <descriptor/CID165362311_IUPAC_InChI>, <descriptor/CID165362311_Isomeric_SMILES>, <descriptor/CID165362311_Isotope_Atom_Count>, <descriptor/CID165362311_Molecular_Formula>, <descriptor/CID165362311_Molecular_Weight>, <descriptor/CID165362311_Mono_Isotopic_Weight>, <descriptor/CID165362311_Non-hydrogen_Atom_Count>, <descriptor/CID165362311_Preferred_IUPAC_Name>, <descriptor/CID165362311_Rotatable_Bond_Count>, <descriptor/CID165362311_Structure_Complexity>, <descriptor/CID165362311_TPSA>, <descriptor/CID165362311_Total_Formal_Charge>, <descriptor/CID165362311_Undefined_Atom_Stereo_Count>, <descriptor/CID165362311_Undefined_Bond_Stereo_Count> ;
+    a <vocabulary#Compound> ;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Tridecafluorohexane-1-sulfonic acidapyrrolidine" .
+
+<inchikey/QXJXHTNHQMQWLS-UHFFFAOYSA-N>
+    <http://semanticscience.org/resource/SIO_000011> <compound/CID165362311> .
+
+<substance/SID472181969>
+    <http://semanticscience.org/resource/CHEMINF_000477> <compound/CID165362311> .
+
+<synonym/MD5_2fb54cf0c991afa83f38abba49c1dadc>
+    <http://semanticscience.org/resource/SIO_000011> <compound/CID165362311> .
+
+<synonym/MD5_3fb7620aecddbcf283f0b910dff6a795>
+    <http://semanticscience.org/resource/SIO_000011> <compound/CID165362311> .
+
+<synonym/MD5_53618a3ccd530c51718413972b6e09a0>
+    <http://semanticscience.org/resource/SIO_000011> <compound/CID165362311> .
+
+

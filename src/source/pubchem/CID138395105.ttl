@@ -1,0 +1,35 @@
+@base <http://rdf.ncbi.nlm.nih.gov/pubchem/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+
+<compound/CID138395105>
+    <http://purl.org/dc/terms/identifier> "138395105" ;
+    <http://semanticscience.org/resource/SIO_000008> <descriptor/CID138395105_Canonical_SMILES>, <descriptor/CID138395105_Compound_Identifier>, <descriptor/CID138395105_Covalent_Unit_Count>, <descriptor/CID138395105_Defined_Atom_Stereo_Count>, <descriptor/CID138395105_Defined_Bond_Stereo_Count>, <descriptor/CID138395105_Exact_Mass>, <descriptor/CID138395105_Hydrogen_Bond_Acceptor_Count>, <descriptor/CID138395105_Hydrogen_Bond_Donor_Count>, <descriptor/CID138395105_IUPAC_InChI>, <descriptor/CID138395105_Isomeric_SMILES>, <descriptor/CID138395105_Isotope_Atom_Count>, <descriptor/CID138395105_Molecular_Formula>, <descriptor/CID138395105_Molecular_Weight>, <descriptor/CID138395105_Mono_Isotopic_Weight>, <descriptor/CID138395105_Non-hydrogen_Atom_Count>, <descriptor/CID138395105_Rotatable_Bond_Count>, <descriptor/CID138395105_Structure_Complexity>, <descriptor/CID138395105_TPSA>, <descriptor/CID138395105_Total_Formal_Charge>, <descriptor/CID138395105_Undefined_Atom_Stereo_Count>, <descriptor/CID138395105_Undefined_Bond_Stereo_Count> ;
+    a <vocabulary#Compound> ;
+    <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://www.wikidata.org/entity/Q81988249> ;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Arsenic oxychloride" .
+
+<inchikey/ACPUVNIGVWZMRX-UHFFFAOYSA-N>
+    <http://semanticscience.org/resource/SIO_000011> <compound/CID138395105> .
+
+<substance/SID384443810>
+    <http://semanticscience.org/resource/CHEMINF_000477> <compound/CID138395105> .
+
+<substance/SID431899872>
+    <http://semanticscience.org/resource/CHEMINF_000477> <compound/CID138395105> .
+
+<substance/SID463390660>
+    <http://semanticscience.org/resource/CHEMINF_000477> <compound/CID138395105> .
+
+<substance/SID504090095>
+    <http://semanticscience.org/resource/CHEMINF_000477> <compound/CID138395105> .
+
+<synonym/MD5_45994dfa024a1c5c66059aa8d362470e>
+    <http://semanticscience.org/resource/SIO_000011> <compound/CID138395105> .
+
+<synonym/MD5_6dc659dd7dd623720c790ede0ab8161e>
+    <http://semanticscience.org/resource/SIO_000011> <compound/CID138395105> .
+
+<synonym/MD5_f84536bb91e5aa6ab8847eec6168149f>
+    <http://semanticscience.org/resource/SIO_000011> <compound/CID138395105> .
+
+

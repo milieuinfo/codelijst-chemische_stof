@@ -1,0 +1,39 @@
+@base <http://rdf.ncbi.nlm.nih.gov/pubchem/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+
+<compound/CID136056772>
+    <http://purl.org/dc/terms/identifier> "136056772" ;
+    <vocabulary#has_parent> <compound/CID136056773> ;
+    <http://semanticscience.org/resource/CHEMINF_000480> <compound/CID935> ;
+    <http://semanticscience.org/resource/SIO_000008> <descriptor/CID136056772_Canonical_SMILES>, <descriptor/CID136056772_Compound_Identifier>, <descriptor/CID136056772_Covalent_Unit_Count>, <descriptor/CID136056772_Defined_Atom_Stereo_Count>, <descriptor/CID136056772_Defined_Bond_Stereo_Count>, <descriptor/CID136056772_Exact_Mass>, <descriptor/CID136056772_Hydrogen_Bond_Acceptor_Count>, <descriptor/CID136056772_Hydrogen_Bond_Donor_Count>, <descriptor/CID136056772_IUPAC_InChI>, <descriptor/CID136056772_Isomeric_SMILES>, <descriptor/CID136056772_Isotope_Atom_Count>, <descriptor/CID136056772_Molecular_Formula>, <descriptor/CID136056772_Molecular_Weight>, <descriptor/CID136056772_Mono_Isotopic_Weight>, <descriptor/CID136056772_Non-hydrogen_Atom_Count>, <descriptor/CID136056772_Preferred_IUPAC_Name>, <descriptor/CID136056772_Rotatable_Bond_Count>, <descriptor/CID136056772_Structure_Complexity>, <descriptor/CID136056772_TPSA>, <descriptor/CID136056772_Total_Formal_Charge>, <descriptor/CID136056772_Undefined_Atom_Stereo_Count>, <descriptor/CID136056772_Undefined_Bond_Stereo_Count> ;
+    a <vocabulary#Compound> ;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Bis[N-(2,4-dimethoxyphenyl)-2,3-bis(hydroxyimino)butyramidato-N2,N3]nickel" .
+
+<inchikey/OXNHGWBGQVFFDJ-MRXUXJDNSA-N>
+    <http://semanticscience.org/resource/SIO_000011> <compound/CID136056772> .
+
+<substance/SID135338525>
+    <http://semanticscience.org/resource/CHEMINF_000477> <compound/CID136056772> .
+
+<substance/SID481742159>
+    <http://semanticscience.org/resource/CHEMINF_000477> <compound/CID136056772> .
+
+<substance/SID505564908>
+    <http://semanticscience.org/resource/CHEMINF_000477> <compound/CID136056772> .
+
+<synonym/MD5_7deed0ecd9469b31904a7e1c7933c0fc>
+    <http://semanticscience.org/resource/SIO_000011> <compound/CID136056772> .
+
+<synonym/MD5_914f8e7f5a52064b562a4bcd1a6d5a91>
+    <http://semanticscience.org/resource/SIO_000011> <compound/CID136056772> .
+
+<synonym/MD5_9b3f1b5a5d2f14e76c3cbc681cd041b1>
+    <http://semanticscience.org/resource/SIO_000011> <compound/CID136056772> .
+
+<synonym/MD5_da9323b1b2daa0bf7e1541c1cec7e158>
+    <http://semanticscience.org/resource/SIO_000011> <compound/CID136056772> .
+
+<synonym/MD5_f505ae57f695fa376ff7456373a82fec>
+    <http://semanticscience.org/resource/SIO_000011> <compound/CID136056772> .
+
+

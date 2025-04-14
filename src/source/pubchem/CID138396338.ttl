@@ -1,0 +1,39 @@
+@base <http://rdf.ncbi.nlm.nih.gov/pubchem/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+
+<compound/CID138396338>
+    <http://purl.org/dc/terms/identifier> "138396338" ;
+    <vocabulary#has_parent> <compound/CID9554> ;
+    <http://semanticscience.org/resource/CHEMINF_000480> <compound/CID5413> ;
+    <http://semanticscience.org/resource/SIO_000008> <descriptor/CID138396338_Canonical_SMILES>, <descriptor/CID138396338_Compound_Identifier>, <descriptor/CID138396338_Covalent_Unit_Count>, <descriptor/CID138396338_Defined_Atom_Stereo_Count>, <descriptor/CID138396338_Defined_Bond_Stereo_Count>, <descriptor/CID138396338_Exact_Mass>, <descriptor/CID138396338_Hydrogen_Bond_Acceptor_Count>, <descriptor/CID138396338_Hydrogen_Bond_Donor_Count>, <descriptor/CID138396338_IUPAC_InChI>, <descriptor/CID138396338_Isomeric_SMILES>, <descriptor/CID138396338_Isotope_Atom_Count>, <descriptor/CID138396338_Molecular_Formula>, <descriptor/CID138396338_Molecular_Weight>, <descriptor/CID138396338_Mono_Isotopic_Weight>, <descriptor/CID138396338_Non-hydrogen_Atom_Count>, <descriptor/CID138396338_Preferred_IUPAC_Name>, <descriptor/CID138396338_Rotatable_Bond_Count>, <descriptor/CID138396338_Structure_Complexity>, <descriptor/CID138396338_TPSA>, <descriptor/CID138396338_Total_Formal_Charge>, <descriptor/CID138396338_Undefined_Atom_Stereo_Count>, <descriptor/CID138396338_Undefined_Bond_Stereo_Count> ;
+    a <vocabulary#Compound> ;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "N,N,N-Triethylethanaminium perfluorooctanoate" .
+
+<inchikey/BNXNIMCQNOPNFR-UHFFFAOYSA-M>
+    <http://semanticscience.org/resource/SIO_000011> <compound/CID138396338> .
+
+<substance/SID384461041>
+    <http://semanticscience.org/resource/CHEMINF_000477> <compound/CID138396338> .
+
+<substance/SID387075461>
+    <http://semanticscience.org/resource/CHEMINF_000477> <compound/CID138396338> .
+
+<substance/SID464857897>
+    <http://semanticscience.org/resource/CHEMINF_000477> <compound/CID138396338> .
+
+<synonym/MD5_60e67fdc5941f93dce4565fe5a476d6b>
+    <http://semanticscience.org/resource/SIO_000011> <compound/CID138396338> .
+
+<synonym/MD5_803beb6c4295dcb9ea6afbfc1b05f1da>
+    <http://semanticscience.org/resource/SIO_000011> <compound/CID138396338> .
+
+<synonym/MD5_ad8b34b984979b3505fef07b6c7fe8ee>
+    <http://semanticscience.org/resource/SIO_000011> <compound/CID138396338> .
+
+<synonym/MD5_d174755f1a69acd9305bf3d4e2fdbd89>
+    <http://semanticscience.org/resource/SIO_000011> <compound/CID138396338> .
+
+<synonym/MD5_f7fb84deaff102cc52f36ddc3104abc8>
+    <http://semanticscience.org/resource/SIO_000011> <compound/CID138396338> .
+
+

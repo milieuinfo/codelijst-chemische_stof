@@ -1,0 +1,66 @@
+@base <http://rdf.ncbi.nlm.nih.gov/pubchem/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+
+<compound/CID133065570>
+    <http://purl.org/dc/terms/identifier> "133065570" ;
+    <vocabulary#has_parent> <compound/CID133065571> ;
+    <http://semanticscience.org/resource/CHEMINF_000480> <compound/CID5360545>, <compound/CID935> ;
+    <http://semanticscience.org/resource/SIO_000008> <descriptor/CID133065570_Canonical_SMILES>, <descriptor/CID133065570_Compound_Identifier>, <descriptor/CID133065570_Covalent_Unit_Count>, <descriptor/CID133065570_Defined_Atom_Stereo_Count>, <descriptor/CID133065570_Defined_Bond_Stereo_Count>, <descriptor/CID133065570_Exact_Mass>, <descriptor/CID133065570_Hydrogen_Bond_Acceptor_Count>, <descriptor/CID133065570_Hydrogen_Bond_Donor_Count>, <descriptor/CID133065570_IUPAC_InChI>, <descriptor/CID133065570_Isomeric_SMILES>, <descriptor/CID133065570_Isotope_Atom_Count>, <descriptor/CID133065570_Molecular_Formula>, <descriptor/CID133065570_Molecular_Weight>, <descriptor/CID133065570_Mono_Isotopic_Weight>, <descriptor/CID133065570_Non-hydrogen_Atom_Count>, <descriptor/CID133065570_Preferred_IUPAC_Name>, <descriptor/CID133065570_Rotatable_Bond_Count>, <descriptor/CID133065570_Structure_Complexity>, <descriptor/CID133065570_TPSA>, <descriptor/CID133065570_Total_Formal_Charge>, <descriptor/CID133065570_Undefined_Atom_Stereo_Count>, <descriptor/CID133065570_Undefined_Bond_Stereo_Count> ;
+    a <vocabulary#Compound> ;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "hexasodium;(2Z,20Z)-32-[[3-[[3-methyl-5-oxo-1-[2-sulfo-4-[(Z)-2-[2-sulfo-3-[(2,5,6-trichloropyrimidin-4-yl)amino]phenyl]ethenyl]phenyl]-4H-pyrazol-4-yl]diazenyl]-4-sulfophenyl]sulfamoyl]-2,11,20,29,37,39-hexaza-38,40-diazanidanonacyclo[28.6.1.13,10.112,19.121,28.04,9.013,18.022,27.031,36]tetraconta-2,4(9),5,7,10,12(39),13(18),14,16,20,22(27),23,25,28,30(37),31(36),32,34-octadecaene-5,14,23-trisulfonic acid;nickel" .
+
+<cooccurrence/CID133065570_CID1117>
+    rdf:subject <compound/CID133065570> .
+
+<cooccurrence/CID133065570_CID139594444>
+    rdf:subject <compound/CID133065570> .
+
+<cooccurrence/CID133065570_CID24526>
+    rdf:subject <compound/CID133065570> .
+
+<cooccurrence/CID133065570_CID259>
+    rdf:subject <compound/CID133065570> .
+
+<cooccurrence/CID133065570_CID312>
+    rdf:subject <compound/CID133065570> .
+
+<cooccurrence/CID133065570_CID443314>
+    rdf:subject <compound/CID133065570> .
+
+<cooccurrence/CID133065570_CID769>
+    rdf:subject <compound/CID133065570> .
+
+<cooccurrence/CID133065570_CID943>
+    rdf:subject <compound/CID133065570> .
+
+<cooccurrence/CID133065570_CID946>
+    rdf:subject <compound/CID133065570> .
+
+<cooccurrence/CID133065570_CID962>
+    rdf:subject <compound/CID133065570> .
+
+<cooccurrence/CID139594444_CID133065570>
+    rdf:object <compound/CID133065570> .
+
+<inchikey/YZULMMQMLISWJT-CDLWIYHMSA-N>
+    <http://semanticscience.org/resource/SIO_000011> <compound/CID133065570> .
+
+<substance/SID135314627>
+    <http://semanticscience.org/resource/CHEMINF_000477> <compound/CID133065570> .
+
+<synonym/MD5_5f045c14d46b8e90bb4bb3de98bfc3cf>
+    <http://semanticscience.org/resource/SIO_000011> <compound/CID133065570> .
+
+<synonym/MD5_984015b07b2bf4e74355d36d0de7ef40>
+    <http://semanticscience.org/resource/SIO_000011> <compound/CID133065570> .
+
+<synonym/MD5_a320b20856b11e5b69930080374ff9ee>
+    <http://semanticscience.org/resource/SIO_000011> <compound/CID133065570> .
+
+<synonym/MD5_d1c8cc920c84d63016e93b2e768fb446>
+    <http://semanticscience.org/resource/SIO_000011> <compound/CID133065570> .
+
+<synonym/MD5_feea167b50d1261c2abf903197f000b1>
+    <http://semanticscience.org/resource/SIO_000011> <compound/CID133065570> .
+
+

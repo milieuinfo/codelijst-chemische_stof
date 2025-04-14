@@ -52,7 +52,7 @@ async function resolve_parent_from_inchikey(inchikeys) {
         }
         else {
             const delay = ms => new Promise(resolve => setTimeout(resolve, ms))
-            await delay(10000)
+            await delay(5000)
             request(url, options, (error, res, body) => {
                 if (error) {
                     console.log(error)

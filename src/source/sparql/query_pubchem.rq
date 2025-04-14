@@ -1,0 +1,9 @@
+PREFIX wdt:      <http://www.wikidata.org/prop/direct/>
+PREFIX wdtn:     <http://www.wikidata.org/prop/direct-normalized/>
+select distinct ?pubchem ?prefLabel ?iupac
+where
+{
+    ?pubchem <http://semanticscience.org/resource/SIO_000008> ?o .
+    ?o <http://semanticscience.org/resource/SIO_000300> ?iupac.
+    optional {?pubchem <http://www.w3.org/2004/02/skos/core#prefLabel> ?prefLabel .}
+}

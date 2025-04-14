@@ -1,0 +1,29 @@
+@base <http://rdf.ncbi.nlm.nih.gov/pubchem/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+
+<compound/CID44154680>
+    <http://purl.org/dc/terms/identifier> "44154680" ;
+    <http://semanticscience.org/resource/CHEMINF_000480> <compound/CID14942>, <compound/CID935> ;
+    <http://semanticscience.org/resource/SIO_000008> <descriptor/CID44154680_Canonical_SMILES>, <descriptor/CID44154680_Compound_Identifier>, <descriptor/CID44154680_Covalent_Unit_Count>, <descriptor/CID44154680_Defined_Atom_Stereo_Count>, <descriptor/CID44154680_Defined_Bond_Stereo_Count>, <descriptor/CID44154680_Exact_Mass>, <descriptor/CID44154680_Hydrogen_Bond_Acceptor_Count>, <descriptor/CID44154680_Hydrogen_Bond_Donor_Count>, <descriptor/CID44154680_IUPAC_InChI>, <descriptor/CID44154680_Isomeric_SMILES>, <descriptor/CID44154680_Isotope_Atom_Count>, <descriptor/CID44154680_Molecular_Formula>, <descriptor/CID44154680_Molecular_Weight>, <descriptor/CID44154680_Mono_Isotopic_Weight>, <descriptor/CID44154680_Non-hydrogen_Atom_Count>, <descriptor/CID44154680_Preferred_IUPAC_Name>, <descriptor/CID44154680_Rotatable_Bond_Count>, <descriptor/CID44154680_Structure_Complexity>, <descriptor/CID44154680_TPSA>, <descriptor/CID44154680_Total_Formal_Charge>, <descriptor/CID44154680_Undefined_Atom_Stereo_Count>, <descriptor/CID44154680_Undefined_Bond_Stereo_Count> ;
+    a <vocabulary#Compound> ;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Nickel(2+) silicate" .
+
+<inchikey/BCDOSBUUKIYWJZ-UHFFFAOYSA-N>
+    <http://semanticscience.org/resource/SIO_000011> <compound/CID44154680> .
+
+<substance/SID135317189>
+    <http://semanticscience.org/resource/CHEMINF_000477> <compound/CID44154680> .
+
+<substance/SID504663962>
+    <http://semanticscience.org/resource/CHEMINF_000477> <compound/CID44154680> .
+
+<synonym/MD5_2cabde80b8386b8710aa030c3f9cc585>
+    <http://semanticscience.org/resource/SIO_000011> <compound/CID44154680> .
+
+<synonym/MD5_c58941039728a20296664ffc2d9d3f56>
+    <http://semanticscience.org/resource/SIO_000011> <compound/CID44154680> .
+
+<synonym/MD5_e839bdeda12396d70b8658cee6657621>
+    <http://semanticscience.org/resource/SIO_000011> <compound/CID44154680> .
+
+

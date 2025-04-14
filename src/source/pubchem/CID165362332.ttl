@@ -1,0 +1,33 @@
+@base <http://rdf.ncbi.nlm.nih.gov/pubchem/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+
+<compound/CID165362332>
+    <http://purl.org/dc/terms/identifier> "165362332" ;
+    <vocabulary#has_parent> <compound/CID67734> ;
+    <http://semanticscience.org/resource/CHEMINF_000480> <compound/CID23934> ;
+    <http://semanticscience.org/resource/SIO_000008> <descriptor/CID165362332_Canonical_SMILES>, <descriptor/CID165362332_Compound_Identifier>, <descriptor/CID165362332_Covalent_Unit_Count>, <descriptor/CID165362332_Defined_Atom_Stereo_Count>, <descriptor/CID165362332_Defined_Bond_Stereo_Count>, <descriptor/CID165362332_Exact_Mass>, <descriptor/CID165362332_Hydrogen_Bond_Acceptor_Count>, <descriptor/CID165362332_Hydrogen_Bond_Donor_Count>, <descriptor/CID165362332_IUPAC_InChI>, <descriptor/CID165362332_Isomeric_SMILES>, <descriptor/CID165362332_Isotope_Atom_Count>, <descriptor/CID165362332_Molecular_Formula>, <descriptor/CID165362332_Molecular_Weight>, <descriptor/CID165362332_Mono_Isotopic_Weight>, <descriptor/CID165362332_Non-hydrogen_Atom_Count>, <descriptor/CID165362332_Preferred_IUPAC_Name>, <descriptor/CID165362332_Rotatable_Bond_Count>, <descriptor/CID165362332_Structure_Complexity>, <descriptor/CID165362332_TPSA>, <descriptor/CID165362332_Total_Formal_Charge>, <descriptor/CID165362332_Undefined_Atom_Stereo_Count>, <descriptor/CID165362332_Undefined_Bond_Stereo_Count> ;
+    a <vocabulary#Compound> ;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Perfluorohexanesulfonic acid, neodymium(3+) salt (3:1)" .
+
+<inchikey/VNSTVFXYEULBDQ-UHFFFAOYSA-K>
+    <http://semanticscience.org/resource/SIO_000011> <compound/CID165362332> .
+
+<substance/SID472182150>
+    <http://semanticscience.org/resource/CHEMINF_000477> <compound/CID165362332> .
+
+<substance/SID505856185>
+    <http://semanticscience.org/resource/CHEMINF_000477> <compound/CID165362332> .
+
+<synonym/MD5_09faa7410f4738c52990cad1dd143f91>
+    <http://semanticscience.org/resource/SIO_000011> <compound/CID165362332> .
+
+<synonym/MD5_1ab4e866a2657afc7091090da7c73193>
+    <http://semanticscience.org/resource/SIO_000011> <compound/CID165362332> .
+
+<synonym/MD5_85880eecbae15a33ce74f4d4ffa8183b>
+    <http://semanticscience.org/resource/SIO_000011> <compound/CID165362332> .
+
+<synonym/MD5_a6043aae035687b946af6939a17535b8>
+    <http://semanticscience.org/resource/SIO_000011> <compound/CID165362332> .
+
+

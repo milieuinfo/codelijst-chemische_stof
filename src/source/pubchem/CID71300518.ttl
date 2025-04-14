@@ -1,0 +1,34 @@
+@base <http://rdf.ncbi.nlm.nih.gov/pubchem/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+
+<compound/CID71300518>
+    <http://purl.org/dc/terms/identifier> "71300518" ;
+    <http://semanticscience.org/resource/SIO_000008> <descriptor/CID71300518_Canonical_SMILES>, <descriptor/CID71300518_Compound_Identifier>, <descriptor/CID71300518_Covalent_Unit_Count>, <descriptor/CID71300518_Defined_Atom_Stereo_Count>, <descriptor/CID71300518_Defined_Bond_Stereo_Count>, <descriptor/CID71300518_Exact_Mass>, <descriptor/CID71300518_Hydrogen_Bond_Acceptor_Count>, <descriptor/CID71300518_Hydrogen_Bond_Donor_Count>, <descriptor/CID71300518_IUPAC_InChI>, <descriptor/CID71300518_Isomeric_SMILES>, <descriptor/CID71300518_Isotope_Atom_Count>, <descriptor/CID71300518_Molecular_Formula>, <descriptor/CID71300518_Molecular_Weight>, <descriptor/CID71300518_Mono_Isotopic_Weight>, <descriptor/CID71300518_Non-hydrogen_Atom_Count>, <descriptor/CID71300518_Preferred_IUPAC_Name>, <descriptor/CID71300518_Rotatable_Bond_Count>, <descriptor/CID71300518_Structure_Complexity>, <descriptor/CID71300518_TPSA>, <descriptor/CID71300518_Total_Formal_Charge>, <descriptor/CID71300518_Undefined_Atom_Stereo_Count>, <descriptor/CID71300518_Undefined_Bond_Stereo_Count> ;
+    a <vocabulary#Compound> ;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "(2-Ethylhexanoato-O)(isodecanoato-O)lead" .
+
+<inchikey/HXRFYASIPIRYLI-UHFFFAOYSA-L>
+    <http://semanticscience.org/resource/SIO_000011> <compound/CID71300518> .
+
+<substance/SID135345225>
+    <http://semanticscience.org/resource/CHEMINF_000477> <compound/CID71300518> .
+
+<substance/SID319408071>
+    <http://semanticscience.org/resource/CHEMINF_000477> <compound/CID71300518> .
+
+<substance/SID481757044>
+    <http://semanticscience.org/resource/CHEMINF_000477> <compound/CID71300518> .
+
+<substance/SID504182655>
+    <http://semanticscience.org/resource/CHEMINF_000477> <compound/CID71300518> .
+
+<synonym/MD5_056fa84afede967870517c5f61b6985d>
+    <http://semanticscience.org/resource/SIO_000011> <compound/CID71300518> .
+
+<synonym/MD5_71f89f4260366f8ad4480dd85773eb8a>
+    <http://semanticscience.org/resource/SIO_000011> <compound/CID71300518> .
+
+<synonym/MD5_999afe5930b58c4d5a5e856e67b18d4e>
+    <http://semanticscience.org/resource/SIO_000011> <compound/CID71300518> .
+
+

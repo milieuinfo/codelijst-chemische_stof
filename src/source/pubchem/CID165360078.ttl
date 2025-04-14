@@ -1,0 +1,27 @@
+@base <http://rdf.ncbi.nlm.nih.gov/pubchem/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+
+<compound/CID165360078>
+    <http://purl.org/dc/terms/identifier> "165360078" ;
+    <vocabulary#has_parent> <compound/CID165360079> ;
+    <http://semanticscience.org/resource/CHEMINF_000480> <compound/CID5360545>, <compound/CID962> ;
+    <http://semanticscience.org/resource/SIO_000008> <descriptor/CID165360078_Canonical_SMILES>, <descriptor/CID165360078_Compound_Identifier>, <descriptor/CID165360078_Covalent_Unit_Count>, <descriptor/CID165360078_Defined_Atom_Stereo_Count>, <descriptor/CID165360078_Defined_Bond_Stereo_Count>, <descriptor/CID165360078_Exact_Mass>, <descriptor/CID165360078_Hydrogen_Bond_Acceptor_Count>, <descriptor/CID165360078_Hydrogen_Bond_Donor_Count>, <descriptor/CID165360078_IUPAC_InChI>, <descriptor/CID165360078_Isomeric_SMILES>, <descriptor/CID165360078_Isotope_Atom_Count>, <descriptor/CID165360078_Molecular_Formula>, <descriptor/CID165360078_Molecular_Weight>, <descriptor/CID165360078_Mono_Isotopic_Weight>, <descriptor/CID165360078_Non-hydrogen_Atom_Count>, <descriptor/CID165360078_Preferred_IUPAC_Name>, <descriptor/CID165360078_Rotatable_Bond_Count>, <descriptor/CID165360078_Structure_Complexity>, <descriptor/CID165360078_TPSA>, <descriptor/CID165360078_Total_Formal_Charge>, <descriptor/CID165360078_Undefined_Atom_Stereo_Count>, <descriptor/CID165360078_Undefined_Bond_Stereo_Count> ;
+    a <vocabulary#Compound> ;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Sodium (4-hydroxy-2-nitrophenyl)(oxido)mercury" .
+
+<inchikey/LUIAKQWDMBJEPL-UHFFFAOYSA-M>
+    <http://semanticscience.org/resource/SIO_000011> <compound/CID165360078> .
+
+<substance/SID472174550>
+    <http://semanticscience.org/resource/CHEMINF_000477> <compound/CID165360078> .
+
+<synonym/MD5_9fafba37fc25ac553df6802e092bd364>
+    <http://semanticscience.org/resource/SIO_000011> <compound/CID165360078> .
+
+<synonym/MD5_f39341d2530e98bda32677984aa7a7d2>
+    <http://semanticscience.org/resource/SIO_000011> <compound/CID165360078> .
+
+<synonym/MD5_fc808f5316a1f92a43f003233e76860d>
+    <http://semanticscience.org/resource/SIO_000011> <compound/CID165360078> .
+
+

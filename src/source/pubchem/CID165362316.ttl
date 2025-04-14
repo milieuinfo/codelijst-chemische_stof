@@ -1,0 +1,30 @@
+@base <http://rdf.ncbi.nlm.nih.gov/pubchem/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+
+<compound/CID165362316>
+    <http://purl.org/dc/terms/identifier> "165362316" ;
+    <vocabulary#has_parent> <compound/CID5287407> ;
+    <http://semanticscience.org/resource/CHEMINF_000480> <compound/CID67734> ;
+    <http://semanticscience.org/resource/SIO_000008> <descriptor/CID165362316_Canonical_SMILES>, <descriptor/CID165362316_Compound_Identifier>, <descriptor/CID165362316_Covalent_Unit_Count>, <descriptor/CID165362316_Defined_Atom_Stereo_Count>, <descriptor/CID165362316_Defined_Bond_Stereo_Count>, <descriptor/CID165362316_Exact_Mass>, <descriptor/CID165362316_Hydrogen_Bond_Acceptor_Count>, <descriptor/CID165362316_Hydrogen_Bond_Donor_Count>, <descriptor/CID165362316_IUPAC_InChI>, <descriptor/CID165362316_Isomeric_SMILES>, <descriptor/CID165362316_Isotope_Atom_Count>, <descriptor/CID165362316_Molecular_Formula>, <descriptor/CID165362316_Molecular_Weight>, <descriptor/CID165362316_Mono_Isotopic_Weight>, <descriptor/CID165362316_Non-hydrogen_Atom_Count>, <descriptor/CID165362316_Preferred_IUPAC_Name>, <descriptor/CID165362316_Rotatable_Bond_Count>, <descriptor/CID165362316_Structure_Complexity>, <descriptor/CID165362316_TPSA>, <descriptor/CID165362316_Total_Formal_Charge>, <descriptor/CID165362316_Undefined_Atom_Stereo_Count>, <descriptor/CID165362316_Undefined_Bond_Stereo_Count> ;
+    a <vocabulary#Compound> ;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "gamma-Cyclodextrin, compd. with perfluorohexanesulfonic acid ion(1-) (1:1)" .
+
+<inchikey/BOQAMFYQESQJBB-SMTXKKGASA-M>
+    <http://semanticscience.org/resource/SIO_000011> <compound/CID165362316> .
+
+<substance/SID472181991>
+    <http://semanticscience.org/resource/CHEMINF_000477> <compound/CID165362316> .
+
+<substance/SID505635309>
+    <http://semanticscience.org/resource/CHEMINF_000477> <compound/CID165362316> .
+
+<synonym/MD5_11f7a26306cadf6331046538fc4ab43d>
+    <http://semanticscience.org/resource/SIO_000011> <compound/CID165362316> .
+
+<synonym/MD5_1338f3c1d9fb976c9079553ccc3f53df>
+    <http://semanticscience.org/resource/SIO_000011> <compound/CID165362316> .
+
+<synonym/MD5_d8b058dcc0a3b5efdebd39276bf6986d>
+    <http://semanticscience.org/resource/SIO_000011> <compound/CID165362316> .
+
+

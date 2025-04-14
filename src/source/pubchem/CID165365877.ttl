@@ -1,0 +1,26 @@
+@base <http://rdf.ncbi.nlm.nih.gov/pubchem/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+
+<compound/CID165365877>
+    <http://purl.org/dc/terms/identifier> "165365877" ;
+    <http://semanticscience.org/resource/CHEMINF_000480> <compound/CID3084658>, <compound/CID5352425> ;
+    <http://semanticscience.org/resource/SIO_000008> <descriptor/CID165365877_Canonical_SMILES>, <descriptor/CID165365877_Compound_Identifier>, <descriptor/CID165365877_Covalent_Unit_Count>, <descriptor/CID165365877_Defined_Atom_Stereo_Count>, <descriptor/CID165365877_Defined_Bond_Stereo_Count>, <descriptor/CID165365877_Exact_Mass>, <descriptor/CID165365877_Hydrogen_Bond_Acceptor_Count>, <descriptor/CID165365877_Hydrogen_Bond_Donor_Count>, <descriptor/CID165365877_IUPAC_InChI>, <descriptor/CID165365877_Isomeric_SMILES>, <descriptor/CID165365877_Isotope_Atom_Count>, <descriptor/CID165365877_Molecular_Formula>, <descriptor/CID165365877_Molecular_Weight>, <descriptor/CID165365877_Mono_Isotopic_Weight>, <descriptor/CID165365877_Non-hydrogen_Atom_Count>, <descriptor/CID165365877_Preferred_IUPAC_Name>, <descriptor/CID165365877_Rotatable_Bond_Count>, <descriptor/CID165365877_Structure_Complexity>, <descriptor/CID165365877_TPSA>, <descriptor/CID165365877_Total_Formal_Charge>, <descriptor/CID165365877_Undefined_Atom_Stereo_Count>, <descriptor/CID165365877_Undefined_Bond_Stereo_Count> ;
+    a <vocabulary#Compound> ;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Diphosphonic acid lead(II) salt" .
+
+<inchikey/VPTUHJKUKASVCA-UHFFFAOYSA-N>
+    <http://semanticscience.org/resource/SIO_000011> <compound/CID165365877> .
+
+<substance/SID472287284>
+    <http://semanticscience.org/resource/CHEMINF_000477> <compound/CID165365877> .
+
+<synonym/MD5_1b22505ddd6c11c2767d26a15134e16f>
+    <http://semanticscience.org/resource/SIO_000011> <compound/CID165365877> .
+
+<synonym/MD5_1b880436ae06883d2497ee5eb0c9f344>
+    <http://semanticscience.org/resource/SIO_000011> <compound/CID165365877> .
+
+<synonym/MD5_26205601d8a2a6b337c59d2a43e4892c>
+    <http://semanticscience.org/resource/SIO_000011> <compound/CID165365877> .
+
+

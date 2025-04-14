@@ -1,0 +1,51 @@
+@base <http://rdf.ncbi.nlm.nih.gov/pubchem/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+
+<compound/CID91809011>
+    <http://purl.org/dc/terms/identifier> "91809011" ;
+    <vocabulary#has_parent> <compound/CID8969> ;
+    <http://semanticscience.org/resource/CHEMINF_000480> <compound/CID8948> ;
+    <http://semanticscience.org/resource/SIO_000008> <descriptor/CID91809011_Canonical_SMILES>, <descriptor/CID91809011_Compound_Identifier>, <descriptor/CID91809011_Covalent_Unit_Count>, <descriptor/CID91809011_Defined_Atom_Stereo_Count>, <descriptor/CID91809011_Defined_Bond_Stereo_Count>, <descriptor/CID91809011_Exact_Mass>, <descriptor/CID91809011_Hydrogen_Bond_Acceptor_Count>, <descriptor/CID91809011_Hydrogen_Bond_Donor_Count>, <descriptor/CID91809011_IUPAC_InChI>, <descriptor/CID91809011_Isomeric_SMILES>, <descriptor/CID91809011_Isotope_Atom_Count>, <descriptor/CID91809011_Molecular_Formula>, <descriptor/CID91809011_Molecular_Weight>, <descriptor/CID91809011_Mono_Isotopic_Weight>, <descriptor/CID91809011_Non-hydrogen_Atom_Count>, <descriptor/CID91809011_Preferred_IUPAC_Name>, <descriptor/CID91809011_Rotatable_Bond_Count>, <descriptor/CID91809011_Structure_Complexity>, <descriptor/CID91809011_TPSA>, <descriptor/CID91809011_Total_Formal_Charge>, <descriptor/CID91809011_Undefined_Atom_Stereo_Count>, <descriptor/CID91809011_Undefined_Bond_Stereo_Count> ;
+    a <vocabulary#Compound> ;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Methyl 17alpha-hydroxyyohimban-16alpha-carboxylate, methylarsonate(1:1)" .
+
+<inchikey/HMIONEQVOXRBSX-VJDCAHTMSA-N>
+    <http://semanticscience.org/resource/SIO_000011> <compound/CID91809011> .
+
+<substance/SID135358929>
+    <http://semanticscience.org/resource/CHEMINF_000477> <compound/CID91809011> .
+
+<substance/SID319422025>
+    <http://semanticscience.org/resource/CHEMINF_000477> <compound/CID91809011> .
+
+<substance/SID441154463>
+    <http://semanticscience.org/resource/CHEMINF_000477> <compound/CID91809011> .
+
+<substance/SID472158328>
+    <http://semanticscience.org/resource/CHEMINF_000477> <compound/CID91809011> .
+
+<substance/SID481718227>
+    <http://semanticscience.org/resource/CHEMINF_000477> <compound/CID91809011> .
+
+<substance/SID486346616>
+    <http://semanticscience.org/resource/CHEMINF_000477> <compound/CID91809011> .
+
+<synonym/MD5_0162138279af8defecfdb090e20eea1a>
+    <http://semanticscience.org/resource/SIO_000011> <compound/CID91809011> .
+
+<synonym/MD5_2aae5eae3561bdd56dc164f4232c1cb2>
+    <http://semanticscience.org/resource/SIO_000011> <compound/CID91809011> .
+
+<synonym/MD5_484329d10d0945865b932696b4ed68e2>
+    <http://semanticscience.org/resource/SIO_000011> <compound/CID91809011> .
+
+<synonym/MD5_93b457848196c95956fc128e0020beee>
+    <http://semanticscience.org/resource/SIO_000011> <compound/CID91809011> .
+
+<synonym/MD5_bbe9eeeb38b8b57758b6e78dd4833939>
+    <http://semanticscience.org/resource/SIO_000011> <compound/CID91809011> .
+
+<synonym/MD5_f6dafe78c8a25eff231fcebe198b7d7c>
+    <http://semanticscience.org/resource/SIO_000011> <compound/CID91809011> .
+
+

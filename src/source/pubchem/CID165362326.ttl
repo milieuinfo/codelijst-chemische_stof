@@ -1,0 +1,35 @@
+@base <http://rdf.ncbi.nlm.nih.gov/pubchem/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+
+<compound/CID165362326>
+    <http://purl.org/dc/terms/identifier> "165362326" ;
+    <http://semanticscience.org/resource/CHEMINF_000480> <compound/CID12877>, <compound/CID67734> ;
+    <http://semanticscience.org/resource/SIO_000008> <descriptor/CID165362326_Canonical_SMILES>, <descriptor/CID165362326_Compound_Identifier>, <descriptor/CID165362326_Covalent_Unit_Count>, <descriptor/CID165362326_Defined_Atom_Stereo_Count>, <descriptor/CID165362326_Defined_Bond_Stereo_Count>, <descriptor/CID165362326_Exact_Mass>, <descriptor/CID165362326_Hydrogen_Bond_Acceptor_Count>, <descriptor/CID165362326_Hydrogen_Bond_Donor_Count>, <descriptor/CID165362326_IUPAC_InChI>, <descriptor/CID165362326_Isomeric_SMILES>, <descriptor/CID165362326_Isotope_Atom_Count>, <descriptor/CID165362326_Molecular_Formula>, <descriptor/CID165362326_Molecular_Weight>, <descriptor/CID165362326_Mono_Isotopic_Weight>, <descriptor/CID165362326_Non-hydrogen_Atom_Count>, <descriptor/CID165362326_Preferred_IUPAC_Name>, <descriptor/CID165362326_Rotatable_Bond_Count>, <descriptor/CID165362326_Structure_Complexity>, <descriptor/CID165362326_TPSA>, <descriptor/CID165362326_Total_Formal_Charge>, <descriptor/CID165362326_Undefined_Atom_Stereo_Count>, <descriptor/CID165362326_Undefined_Bond_Stereo_Count> ;
+    a <vocabulary#Compound> ;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Diphenyliodanium tridecafluorohexane-1-sulfonate" .
+
+<inchikey/PIHZJOWYGQFDSU-UHFFFAOYSA-M>
+    <http://semanticscience.org/resource/SIO_000011> <compound/CID165362326> .
+
+<substance/SID472182076>
+    <http://semanticscience.org/resource/CHEMINF_000477> <compound/CID165362326> .
+
+<substance/SID505584635>
+    <http://semanticscience.org/resource/CHEMINF_000477> <compound/CID165362326> .
+
+<synonym/MD5_33088102d549773f7e5791960d1d932f>
+    <http://semanticscience.org/resource/SIO_000011> <compound/CID165362326> .
+
+<synonym/MD5_5de2f63d33ce84742d564be83d8a0f85>
+    <http://semanticscience.org/resource/SIO_000011> <compound/CID165362326> .
+
+<synonym/MD5_c88d6dbdcf7d058301471d259e1879a8>
+    <http://semanticscience.org/resource/SIO_000011> <compound/CID165362326> .
+
+<synonym/MD5_d95cd1f6e8b94367fd4060a2d2c519fb>
+    <http://semanticscience.org/resource/SIO_000011> <compound/CID165362326> .
+
+<synonym/MD5_e229e1a7308a47d06003990595d9a595>
+    <http://semanticscience.org/resource/SIO_000011> <compound/CID165362326> .
+
+

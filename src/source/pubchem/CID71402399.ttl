@@ -1,0 +1,32 @@
+@base <http://rdf.ncbi.nlm.nih.gov/pubchem/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+
+<compound/CID71402399>
+    <http://purl.org/dc/terms/identifier> "71402399" ;
+    <http://semanticscience.org/resource/CHEMINF_000480> <compound/CID23973>, <compound/CID313>, <compound/CID962> ;
+    <http://semanticscience.org/resource/SIO_000008> <descriptor/CID71402399_Canonical_SMILES>, <descriptor/CID71402399_Compound_Identifier>, <descriptor/CID71402399_Covalent_Unit_Count>, <descriptor/CID71402399_Defined_Atom_Stereo_Count>, <descriptor/CID71402399_Defined_Bond_Stereo_Count>, <descriptor/CID71402399_Exact_Mass>, <descriptor/CID71402399_Hydrogen_Bond_Acceptor_Count>, <descriptor/CID71402399_Hydrogen_Bond_Donor_Count>, <descriptor/CID71402399_IUPAC_InChI>, <descriptor/CID71402399_Isomeric_SMILES>, <descriptor/CID71402399_Isotope_Atom_Count>, <descriptor/CID71402399_Molecular_Formula>, <descriptor/CID71402399_Molecular_Weight>, <descriptor/CID71402399_Mono_Isotopic_Weight>, <descriptor/CID71402399_Non-hydrogen_Atom_Count>, <descriptor/CID71402399_Preferred_IUPAC_Name>, <descriptor/CID71402399_Rotatable_Bond_Count>, <descriptor/CID71402399_Structure_Complexity>, <descriptor/CID71402399_TPSA>, <descriptor/CID71402399_Total_Formal_Charge>, <descriptor/CID71402399_Undefined_Atom_Stereo_Count>, <descriptor/CID71402399_Undefined_Bond_Stereo_Count> ;
+    a <vocabulary#Compound> ;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Cadmium chloride--water (1/2/4)" .
+
+<inchikey/BRVVNYWBDPDQHF-UHFFFAOYSA-L>
+    <http://semanticscience.org/resource/SIO_000011> <compound/CID71402399> .
+
+<substance/SID162640292>
+    <http://semanticscience.org/resource/CHEMINF_000477> <compound/CID71402399> .
+
+<substance/SID316352985>
+    <http://semanticscience.org/resource/CHEMINF_000477> <compound/CID71402399> .
+
+<substance/SID475831397>
+    <http://semanticscience.org/resource/CHEMINF_000477> <compound/CID71402399> .
+
+<synonym/MD5_618352ac78655d836a361f4c382dd396>
+    <http://semanticscience.org/resource/SIO_000011> <compound/CID71402399> .
+
+<synonym/MD5_dcec40ceb7f17063e710d36ad83247c7>
+    <http://semanticscience.org/resource/SIO_000011> <compound/CID71402399> .
+
+<synonym/MD5_e11feef323efd3a5d8098f4e17114642>
+    <http://semanticscience.org/resource/SIO_000011> <compound/CID71402399> .
+
+

@@ -1,0 +1,42 @@
+@base <http://rdf.ncbi.nlm.nih.gov/pubchem/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+
+<compound/CID136192513>
+    <http://purl.org/dc/terms/identifier> "136192513" ;
+    <vocabulary#has_parent> <compound/CID354929> ;
+    <http://semanticscience.org/resource/CHEMINF_000480> <compound/CID935> ;
+    <http://semanticscience.org/resource/SIO_000008> <descriptor/CID136192513_Canonical_SMILES>, <descriptor/CID136192513_Compound_Identifier>, <descriptor/CID136192513_Covalent_Unit_Count>, <descriptor/CID136192513_Defined_Atom_Stereo_Count>, <descriptor/CID136192513_Defined_Bond_Stereo_Count>, <descriptor/CID136192513_Exact_Mass>, <descriptor/CID136192513_Hydrogen_Bond_Acceptor_Count>, <descriptor/CID136192513_Hydrogen_Bond_Donor_Count>, <descriptor/CID136192513_IUPAC_InChI>, <descriptor/CID136192513_Isomeric_SMILES>, <descriptor/CID136192513_Isotope_Atom_Count>, <descriptor/CID136192513_Molecular_Formula>, <descriptor/CID136192513_Molecular_Weight>, <descriptor/CID136192513_Mono_Isotopic_Weight>, <descriptor/CID136192513_Non-hydrogen_Atom_Count>, <descriptor/CID136192513_Preferred_IUPAC_Name>, <descriptor/CID136192513_Rotatable_Bond_Count>, <descriptor/CID136192513_Structure_Complexity>, <descriptor/CID136192513_TPSA>, <descriptor/CID136192513_Total_Formal_Charge>, <descriptor/CID136192513_Undefined_Atom_Stereo_Count>, <descriptor/CID136192513_Undefined_Bond_Stereo_Count> ;
+    a <vocabulary#Compound> ;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Bis(4-benzoyl-2,4-dihydro-5-methyl-2-phenyl-3H-pyrazol-3-onato-O,O')nickel" .
+
+<inchikey/MDNLKSCFFIAIFV-UHFFFAOYSA-N>
+    <http://semanticscience.org/resource/SIO_000011> <compound/CID136192513> .
+
+<substance/SID135278285>
+    <http://semanticscience.org/resource/CHEMINF_000477> <compound/CID136192513> .
+
+<substance/SID481742164>
+    <http://semanticscience.org/resource/CHEMINF_000477> <compound/CID136192513> .
+
+<substance/SID486373414>
+    <http://semanticscience.org/resource/CHEMINF_000477> <compound/CID136192513> .
+
+<substance/SID488232795>
+    <http://semanticscience.org/resource/CHEMINF_000477> <compound/CID136192513> .
+
+<substance/SID505564610>
+    <http://semanticscience.org/resource/CHEMINF_000477> <compound/CID136192513> .
+
+<synonym/MD5_1194674cace6c88f6ab7101272385e7c>
+    <http://semanticscience.org/resource/SIO_000011> <compound/CID136192513> .
+
+<synonym/MD5_5ab4615b9b8ddb3f2f91b810c480ef98>
+    <http://semanticscience.org/resource/SIO_000011> <compound/CID136192513> .
+
+<synonym/MD5_6d0e878d07254ca8f5f1aa0061790b8c>
+    <http://semanticscience.org/resource/SIO_000011> <compound/CID136192513> .
+
+<synonym/MD5_d4002a0dcc1c6f3b1ee734a4f0374b6c>
+    <http://semanticscience.org/resource/SIO_000011> <compound/CID136192513> .
+
+

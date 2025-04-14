@@ -1,0 +1,111 @@
+{
+    "@context": {
+        "smiles": {
+            "@id": "http://dbpedia.org/ontology/smiles"
+        },
+        "name": {
+            "@id": "http://www.w3.org/2004/02/skos/core#prefLabel",
+            "@language": "en"
+        },
+        "url": {
+            "@id": "http://www.w3.org/2000/01/rdf-schema#seeAlso",
+            "@type": "@id"
+        },
+        "inchikey": {
+            "@id": "http://dbpedia.org/property/inchikey"
+        },
+        "intermediate_nodes": {
+            "@id": "http://www.w3.org/2004/02/skos/core#broaderTransitive",
+            "@type": "@id"
+        },
+        "subclass": {
+            "@id": "http://www.w3.org/2004/02/skos/core#broaderTransitive",
+            "@type": "@id"
+        },
+        "kingdom": {
+            "@id": "http://www.w3.org/2004/02/skos/core#broaderTransitive",
+            "@type": "@id"
+        },
+        "class": {
+            "@id": "http://www.w3.org/2004/02/skos/core#broaderTransitive",
+            "@type": "@id"
+        },
+        "ancestors": {
+            "@id": "http://purl.org/dc/elements/1.1/relation",
+            "@language": "en"
+        },
+        "description": {
+            "@id": "http://www.w3.org/2004/02/skos/core#definition",
+            "@language": "en"
+        },
+        "direct_parent": {
+            "@id": "http://www.w3.org/2004/02/skos/core#broader",
+            "@type": "@id"
+        },
+        "alternative_parents": {
+            "@id": "http://www.w3.org/2004/02/skos/core#semanticRelation",
+            "@type": "@id"
+        },
+        "_id": {
+            "@id": "@id"
+        },
+        "chemont_id": {
+            "@id": "@id"
+        },
+        "altLabel_en": {
+            "@id": "http://www.w3.org/2004/02/skos/core#altLabel",
+            "@language": "en"
+        },
+        "note_en": {
+            "@id": "http://www.w3.org/2004/02/skos/core#note",
+            "@language": "en"
+        },
+        "graph": {
+            "@id": "@graph"
+        },
+        "geneontology": "http://www.geneontology.org/formats/oboInOwl#",
+        "obo": "http://purl.obolibrary.org/obo/",
+        "uniprot": "http://purl.uniprot.org/",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "CHEMONTID": "https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/",
+        "chebi": "http://purl.obolibrary.org/obo/",
+        "dbo": "http://dbpedia.org/ontology/",
+        "dbp": "http://dbpedia.org/property/",
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "tax_nodes": "http://classyfire.wishartlab.com/tax_nodes/",
+        "concept": "https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "@base": "https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/"
+    },
+    "_id": "concept:VZUNGTLZRAYYDE-UHFFFAOYSA-N",
+    "@type": "skos:Concept",
+    "dbo:formula": "C2H5N5O3",
+    "dbo:inchi": "InChI=1S/C2H5N5O3/c1-6(5-8)2(3)4-7(9)10/h1H3,(H2,3,4)",
+    "smiles": "CN(N=O)C(=N)N[N+]([O-])=O",
+    "inchikey": "VZUNGTLZRAYYDE-UHFFFAOYSA-N",
+    "obo:chebi/charge": "0",
+    "altLabel_en": [
+        "1-Methyl-1-nitroso-3-nitroguanidine",
+        "1-Methyl-3-nitro-1-nitrosoguanidine",
+        "1-Nitroso-3-nitro-1-methylguanidine",
+        "1-methyl-3-nitro-1-nitrosoguanidine",
+        "MNG",
+        "MNNG",
+        "Methylnitronitrosoguanidine",
+        "N'-Nitro-N-nitroso-N-methylguanidine",
+        "N-Methyl-N',2-dioxohydrazinecarboximidohydrazide 2-oxide",
+        "N-Methyl-N'-nitro-N-nitrosoguanidine",
+        "N-Methyl-N-nitroso-N'-nitroguanidine",
+        "N-Methyl-N-nitrosonitroguanidin",
+        "N-Nitroso-N-methyl-N'-nitroguanidine"
+    ],
+    "skos:exactMatch": {
+        "_id": "obo:CHEBI_21759"
+    },
+    "skos:inScheme": {
+        "_id": "../../conceptscheme/chemische_stof"
+    },
+    "note_en": "An N-nitroguanidine compound having nitroso and methyl substituents at the N'-position",
+    "alternative_parents": "obo:CHEBI_35800"
+}

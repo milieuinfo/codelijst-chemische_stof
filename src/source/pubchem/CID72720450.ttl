@@ -1,0 +1,31 @@
+@base <http://rdf.ncbi.nlm.nih.gov/pubchem/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+
+<compound/CID72720450>
+    <http://purl.org/dc/terms/identifier> "72720450" ;
+    <http://semanticscience.org/resource/SIO_000008> <descriptor/CID72720450_Canonical_SMILES>, <descriptor/CID72720450_Compound_Identifier>, <descriptor/CID72720450_Covalent_Unit_Count>, <descriptor/CID72720450_Defined_Atom_Stereo_Count>, <descriptor/CID72720450_Defined_Bond_Stereo_Count>, <descriptor/CID72720450_Exact_Mass>, <descriptor/CID72720450_Hydrogen_Bond_Acceptor_Count>, <descriptor/CID72720450_Hydrogen_Bond_Donor_Count>, <descriptor/CID72720450_IUPAC_InChI>, <descriptor/CID72720450_Isomeric_SMILES>, <descriptor/CID72720450_Isotope_Atom_Count>, <descriptor/CID72720450_Molecular_Formula>, <descriptor/CID72720450_Molecular_Weight>, <descriptor/CID72720450_Mono_Isotopic_Weight>, <descriptor/CID72720450_Non-hydrogen_Atom_Count>, <descriptor/CID72720450_Preferred_IUPAC_Name>, <descriptor/CID72720450_Rotatable_Bond_Count>, <descriptor/CID72720450_Structure_Complexity>, <descriptor/CID72720450_TPSA>, <descriptor/CID72720450_Total_Formal_Charge>, <descriptor/CID72720450_Undefined_Atom_Stereo_Count>, <descriptor/CID72720450_Undefined_Bond_Stereo_Count> ;
+    a <vocabulary#Compound> ;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Nickel carbide (NiC)" .
+
+<inchikey/VMWYVTOHEQQZHQ-UHFFFAOYSA-N>
+    <http://semanticscience.org/resource/SIO_000011> <compound/CID72720450> .
+
+<substance/SID135292653>
+    <http://semanticscience.org/resource/CHEMINF_000477> <compound/CID72720450> .
+
+<substance/SID319413924>
+    <http://semanticscience.org/resource/CHEMINF_000477> <compound/CID72720450> .
+
+<substance/SID481981910>
+    <http://semanticscience.org/resource/CHEMINF_000477> <compound/CID72720450> .
+
+<substance/SID484188458>
+    <http://semanticscience.org/resource/CHEMINF_000477> <compound/CID72720450> .
+
+<synonym/MD5_4a8b26011a73ebb6312aab28de67d261>
+    <http://semanticscience.org/resource/SIO_000011> <compound/CID72720450> .
+
+<synonym/MD5_f45cebb7d2e82481aa0253fcc72a7792>
+    <http://semanticscience.org/resource/SIO_000011> <compound/CID72720450> .
+
+

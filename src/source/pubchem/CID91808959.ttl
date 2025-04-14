@@ -1,0 +1,35 @@
+@base <http://rdf.ncbi.nlm.nih.gov/pubchem/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+
+<compound/CID91808959>
+    <http://purl.org/dc/terms/identifier> "91808959" ;
+    <http://semanticscience.org/resource/CHEMINF_000480> <compound/CID631596>, <compound/CID935>, <compound/CID97690> ;
+    <http://semanticscience.org/resource/SIO_000008> <descriptor/CID91808959_Canonical_SMILES>, <descriptor/CID91808959_Compound_Identifier>, <descriptor/CID91808959_Covalent_Unit_Count>, <descriptor/CID91808959_Defined_Atom_Stereo_Count>, <descriptor/CID91808959_Defined_Bond_Stereo_Count>, <descriptor/CID91808959_Exact_Mass>, <descriptor/CID91808959_Hydrogen_Bond_Acceptor_Count>, <descriptor/CID91808959_Hydrogen_Bond_Donor_Count>, <descriptor/CID91808959_IUPAC_InChI>, <descriptor/CID91808959_Isomeric_SMILES>, <descriptor/CID91808959_Isotope_Atom_Count>, <descriptor/CID91808959_Molecular_Formula>, <descriptor/CID91808959_Molecular_Weight>, <descriptor/CID91808959_Mono_Isotopic_Weight>, <descriptor/CID91808959_Non-hydrogen_Atom_Count>, <descriptor/CID91808959_Preferred_IUPAC_Name>, <descriptor/CID91808959_Rotatable_Bond_Count>, <descriptor/CID91808959_Structure_Complexity>, <descriptor/CID91808959_TPSA>, <descriptor/CID91808959_Total_Formal_Charge>, <descriptor/CID91808959_Undefined_Atom_Stereo_Count>, <descriptor/CID91808959_Undefined_Bond_Stereo_Count> ;
+    a <vocabulary#Compound> ;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Bis[4-(benzoyl-kappaO)-2,4-dihydro-5-methyl-2-phenyl-3H-pyrazol-3-onato-kappaO3](2,2,4,4-tetramethyl-7-oxa-3,20-diazadispiro[5.1.11.2]heneicosan-21-one-kappaO21)nickel" .
+
+<inchikey/OFUUALQAMDZKEP-UHFFFAOYSA-N>
+    <http://semanticscience.org/resource/SIO_000011> <compound/CID91808959> .
+
+<substance/SID135344005>
+    <http://semanticscience.org/resource/CHEMINF_000477> <compound/CID91808959> .
+
+<substance/SID319421985>
+    <http://semanticscience.org/resource/CHEMINF_000477> <compound/CID91808959> .
+
+<substance/SID481171747>
+    <http://semanticscience.org/resource/CHEMINF_000477> <compound/CID91808959> .
+
+<substance/SID504628168>
+    <http://semanticscience.org/resource/CHEMINF_000477> <compound/CID91808959> .
+
+<synonym/MD5_290406b69dbef1c9db64da095397d95e>
+    <http://semanticscience.org/resource/SIO_000011> <compound/CID91808959> .
+
+<synonym/MD5_519e0923979b709d41091486505923db>
+    <http://semanticscience.org/resource/SIO_000011> <compound/CID91808959> .
+
+<synonym/MD5_ed2863b41f84c496fc675825cae9dc89>
+    <http://semanticscience.org/resource/SIO_000011> <compound/CID91808959> .
+
+

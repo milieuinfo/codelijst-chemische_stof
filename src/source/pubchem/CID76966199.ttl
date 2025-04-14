@@ -1,0 +1,35 @@
+@base <http://rdf.ncbi.nlm.nih.gov/pubchem/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+
+<compound/CID76966199>
+    <http://purl.org/dc/terms/identifier> "76966199" ;
+    <http://semanticscience.org/resource/CHEMINF_000480> <compound/CID222>, <compound/CID313>, <compound/CID5359268> ;
+    <http://semanticscience.org/resource/SIO_000008> <descriptor/CID76966199_Canonical_SMILES>, <descriptor/CID76966199_Compound_Identifier>, <descriptor/CID76966199_Covalent_Unit_Count>, <descriptor/CID76966199_Defined_Atom_Stereo_Count>, <descriptor/CID76966199_Defined_Bond_Stereo_Count>, <descriptor/CID76966199_Exact_Mass>, <descriptor/CID76966199_Hydrogen_Bond_Acceptor_Count>, <descriptor/CID76966199_Hydrogen_Bond_Donor_Count>, <descriptor/CID76966199_IUPAC_InChI>, <descriptor/CID76966199_Isomeric_SMILES>, <descriptor/CID76966199_Isotope_Atom_Count>, <descriptor/CID76966199_Molecular_Formula>, <descriptor/CID76966199_Molecular_Weight>, <descriptor/CID76966199_Mono_Isotopic_Weight>, <descriptor/CID76966199_Non-hydrogen_Atom_Count>, <descriptor/CID76966199_Preferred_IUPAC_Name>, <descriptor/CID76966199_Rotatable_Bond_Count>, <descriptor/CID76966199_Structure_Complexity>, <descriptor/CID76966199_TPSA>, <descriptor/CID76966199_Total_Formal_Charge>, <descriptor/CID76966199_Undefined_Atom_Stereo_Count>, <descriptor/CID76966199_Undefined_Bond_Stereo_Count> ;
+    a <vocabulary#Compound> ;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Ammonium chloroaluminate" .
+
+<inchikey/IKKGBNMXVOHABP-UHFFFAOYSA-K>
+    <http://semanticscience.org/resource/SIO_000011> <compound/CID76966199> .
+
+<substance/SID198967275>
+    <http://semanticscience.org/resource/CHEMINF_000477> <compound/CID76966199> .
+
+<synonym/MD5_2e13aead5f0bd65781229060c7c2696c>
+    <http://semanticscience.org/resource/SIO_000011> <compound/CID76966199> .
+
+<synonym/MD5_3b56fe115e459b71cfb04d5619983035>
+    <http://semanticscience.org/resource/SIO_000011> <compound/CID76966199> .
+
+<synonym/MD5_9b287c6112981ac66ca1ddfdfdd42f0b>
+    <http://semanticscience.org/resource/SIO_000011> <compound/CID76966199> .
+
+<synonym/MD5_a527127933fb7762361fbcf87e8bf4d7>
+    <http://semanticscience.org/resource/SIO_000011> <compound/CID76966199> .
+
+<synonym/MD5_d1d7cc4f897fcf8c51498f2a37d7d49b>
+    <http://semanticscience.org/resource/SIO_000011> <compound/CID76966199> .
+
+<synonym/MD5_dc92c3c72a211aca849e3d65128b4960>
+    <http://semanticscience.org/resource/SIO_000011> <compound/CID76966199> .
+
+

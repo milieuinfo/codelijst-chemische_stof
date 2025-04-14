@@ -1,0 +1,41 @@
+@base <http://rdf.ncbi.nlm.nih.gov/pubchem/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+
+<compound/CID18435199>
+    <http://purl.org/dc/terms/identifier> "18435199" ;
+    <http://semanticscience.org/resource/CHEMINF_000480> <compound/CID612>, <compound/CID700>, <compound/CID7629> ;
+    <http://semanticscience.org/resource/SIO_000008> <descriptor/CID18435199_Canonical_SMILES>, <descriptor/CID18435199_Compound_Identifier>, <descriptor/CID18435199_Covalent_Unit_Count>, <descriptor/CID18435199_Defined_Atom_Stereo_Count>, <descriptor/CID18435199_Defined_Bond_Stereo_Count>, <descriptor/CID18435199_Exact_Mass>, <descriptor/CID18435199_Hydrogen_Bond_Acceptor_Count>, <descriptor/CID18435199_Hydrogen_Bond_Donor_Count>, <descriptor/CID18435199_IUPAC_InChI>, <descriptor/CID18435199_Isomeric_SMILES>, <descriptor/CID18435199_Isotope_Atom_Count>, <descriptor/CID18435199_Molecular_Formula>, <descriptor/CID18435199_Molecular_Weight>, <descriptor/CID18435199_Mono_Isotopic_Weight>, <descriptor/CID18435199_Non-hydrogen_Atom_Count>, <descriptor/CID18435199_Preferred_IUPAC_Name>, <descriptor/CID18435199_Rotatable_Bond_Count>, <descriptor/CID18435199_Structure_Complexity>, <descriptor/CID18435199_TPSA>, <descriptor/CID18435199_Total_Formal_Charge>, <descriptor/CID18435199_Undefined_Atom_Stereo_Count>, <descriptor/CID18435199_Undefined_Bond_Stereo_Count> ;
+    a <vocabulary#Compound> ;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Mercurate(1-), (2-aminoethanolato-N,O)(2-hydroxypropanoato-O1,O2)phenyl-, hydrogen" .
+
+<inchikey/IREIIHSSMVSVPX-UHFFFAOYSA-M>
+    <http://semanticscience.org/resource/SIO_000011> <compound/CID18435199> .
+
+<substance/SID176264095>
+    <http://semanticscience.org/resource/CHEMINF_000477> <compound/CID18435199> .
+
+<substance/SID241093510>
+    <http://semanticscience.org/resource/CHEMINF_000477> <compound/CID18435199> .
+
+<substance/SID319363727>
+    <http://semanticscience.org/resource/CHEMINF_000477> <compound/CID18435199> .
+
+<substance/SID347922595>
+    <http://semanticscience.org/resource/CHEMINF_000477> <compound/CID18435199> .
+
+<substance/SID449762858>
+    <http://semanticscience.org/resource/CHEMINF_000477> <compound/CID18435199> .
+
+<synonym/MD5_0bb2ed831b70b3a2de06172ab0d9c0fe>
+    <http://semanticscience.org/resource/SIO_000011> <compound/CID18435199> .
+
+<synonym/MD5_668c05cdd59feb300ba5c6a6dddc1466>
+    <http://semanticscience.org/resource/SIO_000011> <compound/CID18435199> .
+
+<synonym/MD5_6d67ef87f1d9e506a6a179100aab4b14>
+    <http://semanticscience.org/resource/SIO_000011> <compound/CID18435199> .
+
+<synonym/MD5_d559308450ad084c5738ffa38f3bf0e5>
+    <http://semanticscience.org/resource/SIO_000011> <compound/CID18435199> .
+
+

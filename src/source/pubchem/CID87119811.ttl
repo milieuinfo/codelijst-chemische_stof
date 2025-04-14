@@ -1,0 +1,48 @@
+@base <http://rdf.ncbi.nlm.nih.gov/pubchem/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+
+<compound/CID87119811>
+    <http://purl.org/dc/terms/identifier> "87119811" ;
+    <vocabulary#has_parent> <compound/CID14671316> ;
+    <http://semanticscience.org/resource/CHEMINF_000480> <compound/CID222> ;
+    <http://semanticscience.org/resource/SIO_000008> <descriptor/CID87119811_Canonical_SMILES>, <descriptor/CID87119811_Compound_Identifier>, <descriptor/CID87119811_Covalent_Unit_Count>, <descriptor/CID87119811_Defined_Atom_Stereo_Count>, <descriptor/CID87119811_Defined_Bond_Stereo_Count>, <descriptor/CID87119811_Exact_Mass>, <descriptor/CID87119811_Hydrogen_Bond_Acceptor_Count>, <descriptor/CID87119811_Hydrogen_Bond_Donor_Count>, <descriptor/CID87119811_IUPAC_InChI>, <descriptor/CID87119811_Isomeric_SMILES>, <descriptor/CID87119811_Isotope_Atom_Count>, <descriptor/CID87119811_Molecular_Formula>, <descriptor/CID87119811_Molecular_Weight>, <descriptor/CID87119811_Mono_Isotopic_Weight>, <descriptor/CID87119811_Non-hydrogen_Atom_Count>, <descriptor/CID87119811_Preferred_IUPAC_Name>, <descriptor/CID87119811_Rotatable_Bond_Count>, <descriptor/CID87119811_Structure_Complexity>, <descriptor/CID87119811_TPSA>, <descriptor/CID87119811_Total_Formal_Charge>, <descriptor/CID87119811_Undefined_Atom_Stereo_Count>, <descriptor/CID87119811_Undefined_Bond_Stereo_Count> ;
+    a <vocabulary#Compound> ;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Ammonium perfluoro-6-methylheptanoate" .
+
+<inchikey/FEPNWJQHVCVVDS-UHFFFAOYSA-N>
+    <http://semanticscience.org/resource/SIO_000011> <compound/CID87119811> .
+
+<substance/SID226829505>
+    <http://semanticscience.org/resource/CHEMINF_000477> <compound/CID87119811> .
+
+<substance/SID384461974>
+    <http://semanticscience.org/resource/CHEMINF_000477> <compound/CID87119811> .
+
+<substance/SID387088569>
+    <http://semanticscience.org/resource/CHEMINF_000477> <compound/CID87119811> .
+
+<substance/SID397007009>
+    <http://semanticscience.org/resource/CHEMINF_000477> <compound/CID87119811> .
+
+<substance/SID464857298>
+    <http://semanticscience.org/resource/CHEMINF_000477> <compound/CID87119811> .
+
+<synonym/MD5_51010ac6276d095932534fba9aedfa2e>
+    <http://semanticscience.org/resource/SIO_000011> <compound/CID87119811> .
+
+<synonym/MD5_572fcc2522063119417e6c0d82118c58>
+    <http://semanticscience.org/resource/SIO_000011> <compound/CID87119811> .
+
+<synonym/MD5_57606894be564b9a15851de66f8c433e>
+    <http://semanticscience.org/resource/SIO_000011> <compound/CID87119811> .
+
+<synonym/MD5_5816f1df0cb7c68204412839e96d0b36>
+    <http://semanticscience.org/resource/SIO_000011> <compound/CID87119811> .
+
+<synonym/MD5_d40778881c2bccfc336c0925fd829f43>
+    <http://semanticscience.org/resource/SIO_000011> <compound/CID87119811> .
+
+<synonym/MD5_e1ba3d97369367ab882c1dd285b4cec6>
+    <http://semanticscience.org/resource/SIO_000011> <compound/CID87119811> .
+
+

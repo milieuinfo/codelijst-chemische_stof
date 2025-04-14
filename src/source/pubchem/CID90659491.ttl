@@ -1,0 +1,38 @@
+@base <http://rdf.ncbi.nlm.nih.gov/pubchem/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+
+<compound/CID90659491>
+    <http://purl.org/dc/terms/identifier> "90659491" ;
+    <http://semanticscience.org/resource/CHEMINF_000480> <compound/CID23931>, <compound/CID6326> ;
+    <http://semanticscience.org/resource/SIO_000008> <descriptor/CID90659491_Canonical_SMILES>, <descriptor/CID90659491_Compound_Identifier>, <descriptor/CID90659491_Covalent_Unit_Count>, <descriptor/CID90659491_Defined_Atom_Stereo_Count>, <descriptor/CID90659491_Defined_Bond_Stereo_Count>, <descriptor/CID90659491_Exact_Mass>, <descriptor/CID90659491_Hydrogen_Bond_Acceptor_Count>, <descriptor/CID90659491_Hydrogen_Bond_Donor_Count>, <descriptor/CID90659491_IUPAC_InChI>, <descriptor/CID90659491_Isomeric_SMILES>, <descriptor/CID90659491_Isotope_Atom_Count>, <descriptor/CID90659491_Molecular_Formula>, <descriptor/CID90659491_Molecular_Weight>, <descriptor/CID90659491_Mono_Isotopic_Weight>, <descriptor/CID90659491_Non-hydrogen_Atom_Count>, <descriptor/CID90659491_Preferred_IUPAC_Name>, <descriptor/CID90659491_Rotatable_Bond_Count>, <descriptor/CID90659491_Structure_Complexity>, <descriptor/CID90659491_TPSA>, <descriptor/CID90659491_Total_Formal_Charge>, <descriptor/CID90659491_Undefined_Atom_Stereo_Count>, <descriptor/CID90659491_Undefined_Bond_Stereo_Count> ;
+    a <vocabulary#Compound> ;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Mercury acetylide" .
+
+<inchikey/KZXVOMYVNQPCKX-UHFFFAOYSA-N>
+    <http://semanticscience.org/resource/SIO_000011> <compound/CID90659491> .
+
+<substance/SID135295836>
+    <http://semanticscience.org/resource/CHEMINF_000477> <compound/CID90659491> .
+
+<substance/SID319420609>
+    <http://semanticscience.org/resource/CHEMINF_000477> <compound/CID90659491> .
+
+<substance/SID450465085>
+    <http://semanticscience.org/resource/CHEMINF_000477> <compound/CID90659491> .
+
+<substance/SID481748963>
+    <http://semanticscience.org/resource/CHEMINF_000477> <compound/CID90659491> .
+
+<synonym/MD5_30c144b70a94ddafd71959ae27e70d4f>
+    <http://semanticscience.org/resource/SIO_000011> <compound/CID90659491> .
+
+<synonym/MD5_5f1cf036233940b962a41df41c944122>
+    <http://semanticscience.org/resource/SIO_000011> <compound/CID90659491> .
+
+<synonym/MD5_bf1720a8b625832fe8ccde2a9596ba82>
+    <http://semanticscience.org/resource/SIO_000011> <compound/CID90659491> .
+
+<synonym/MD5_fc1aebbd44d7c3bedb86166c3cfd442e>
+    <http://semanticscience.org/resource/SIO_000011> <compound/CID90659491> .
+
+

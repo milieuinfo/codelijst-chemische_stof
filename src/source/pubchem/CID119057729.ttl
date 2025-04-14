@@ -1,0 +1,42 @@
+@base <http://rdf.ncbi.nlm.nih.gov/pubchem/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+
+<compound/CID119057729>
+    <http://purl.org/dc/terms/identifier> "119057729" ;
+    <vocabulary#has_parent> <compound/CID119057730> ;
+    <http://semanticscience.org/resource/CHEMINF_000480> <compound/CID962> ;
+    <http://semanticscience.org/resource/SIO_000008> <descriptor/CID119057729_Canonical_SMILES>, <descriptor/CID119057729_Compound_Identifier>, <descriptor/CID119057729_Covalent_Unit_Count>, <descriptor/CID119057729_Defined_Atom_Stereo_Count>, <descriptor/CID119057729_Defined_Bond_Stereo_Count>, <descriptor/CID119057729_Exact_Mass>, <descriptor/CID119057729_Hydrogen_Bond_Acceptor_Count>, <descriptor/CID119057729_Hydrogen_Bond_Donor_Count>, <descriptor/CID119057729_IUPAC_InChI>, <descriptor/CID119057729_Isomeric_SMILES>, <descriptor/CID119057729_Isotope_Atom_Count>, <descriptor/CID119057729_Molecular_Formula>, <descriptor/CID119057729_Molecular_Weight>, <descriptor/CID119057729_Mono_Isotopic_Weight>, <descriptor/CID119057729_Non-hydrogen_Atom_Count>, <descriptor/CID119057729_Rotatable_Bond_Count>, <descriptor/CID119057729_Structure_Complexity>, <descriptor/CID119057729_TPSA>, <descriptor/CID119057729_Total_Formal_Charge>, <descriptor/CID119057729_Undefined_Atom_Stereo_Count>, <descriptor/CID119057729_Undefined_Bond_Stereo_Count> ;
+    a <vocabulary#Compound> ;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "(mu-(4,6-Dinitroresorcinolato(2-)-O1,O3))dihydroxydilead" .
+
+<inchikey/GGLWHYKAXKMWRW-UHFFFAOYSA-L>
+    <http://semanticscience.org/resource/SIO_000011> <compound/CID119057729> .
+
+<substance/SID135322320>
+    <http://semanticscience.org/resource/CHEMINF_000477> <compound/CID119057729> .
+
+<substance/SID319431667>
+    <http://semanticscience.org/resource/CHEMINF_000477> <compound/CID119057729> .
+
+<substance/SID472060753>
+    <http://semanticscience.org/resource/CHEMINF_000477> <compound/CID119057729> .
+
+<substance/SID481749786>
+    <http://semanticscience.org/resource/CHEMINF_000477> <compound/CID119057729> .
+
+<synonym/MD5_27455a89445924e0b74aa09d35b3a724>
+    <http://semanticscience.org/resource/SIO_000011> <compound/CID119057729> .
+
+<synonym/MD5_421112f8b881c08435608a0a3d23e16d>
+    <http://semanticscience.org/resource/SIO_000011> <compound/CID119057729> .
+
+<synonym/MD5_b310f782bb7ad92daeb1fb2516119e15>
+    <http://semanticscience.org/resource/SIO_000011> <compound/CID119057729> .
+
+<synonym/MD5_be8efda737587555970776141a7f652e>
+    <http://semanticscience.org/resource/SIO_000011> <compound/CID119057729> .
+
+<synonym/MD5_f27794cb370de8897e3cf091e11a6835>
+    <http://semanticscience.org/resource/SIO_000011> <compound/CID119057729> .
+
+

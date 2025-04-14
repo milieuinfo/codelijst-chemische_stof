@@ -1,0 +1,36 @@
+@base <http://rdf.ncbi.nlm.nih.gov/pubchem/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+
+<compound/CID136180131>
+    <http://purl.org/dc/terms/identifier> "136180131" ;
+    <vocabulary#has_parent> <compound/CID136180132> ;
+    <http://semanticscience.org/resource/CHEMINF_000480> <compound/CID935> ;
+    <http://semanticscience.org/resource/SIO_000008> <descriptor/CID136180131_Canonical_SMILES>, <descriptor/CID136180131_Compound_Identifier>, <descriptor/CID136180131_Covalent_Unit_Count>, <descriptor/CID136180131_Defined_Atom_Stereo_Count>, <descriptor/CID136180131_Defined_Bond_Stereo_Count>, <descriptor/CID136180131_Exact_Mass>, <descriptor/CID136180131_Hydrogen_Bond_Acceptor_Count>, <descriptor/CID136180131_Hydrogen_Bond_Donor_Count>, <descriptor/CID136180131_IUPAC_InChI>, <descriptor/CID136180131_Isomeric_SMILES>, <descriptor/CID136180131_Isotope_Atom_Count>, <descriptor/CID136180131_Molecular_Formula>, <descriptor/CID136180131_Molecular_Weight>, <descriptor/CID136180131_Mono_Isotopic_Weight>, <descriptor/CID136180131_Non-hydrogen_Atom_Count>, <descriptor/CID136180131_Preferred_IUPAC_Name>, <descriptor/CID136180131_Rotatable_Bond_Count>, <descriptor/CID136180131_Structure_Complexity>, <descriptor/CID136180131_TPSA>, <descriptor/CID136180131_Total_Formal_Charge>, <descriptor/CID136180131_Undefined_Atom_Stereo_Count>, <descriptor/CID136180131_Undefined_Bond_Stereo_Count> ;
+    a <vocabulary#Compound> ;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "((2,2'-(4,8-Dichlorobenzo(1,2-d:4,5-d')bisoxazole-2,6-diyl)bis(4,6-dichlorophenolato))(2-))nickel" .
+
+<inchikey/KRASZLXTDSDRKM-UHFFFAOYSA-N>
+    <http://semanticscience.org/resource/SIO_000011> <compound/CID136180131> .
+
+<substance/SID135307045>
+    <http://semanticscience.org/resource/CHEMINF_000477> <compound/CID136180131> .
+
+<substance/SID481717762>
+    <http://semanticscience.org/resource/CHEMINF_000477> <compound/CID136180131> .
+
+<substance/SID486385228>
+    <http://semanticscience.org/resource/CHEMINF_000477> <compound/CID136180131> .
+
+<substance/SID488265018>
+    <http://semanticscience.org/resource/CHEMINF_000477> <compound/CID136180131> .
+
+<synonym/MD5_c3500301741af4426c02e77d4027358f>
+    <http://semanticscience.org/resource/SIO_000011> <compound/CID136180131> .
+
+<synonym/MD5_e4d57de8138e2c55f67eaccec521b587>
+    <http://semanticscience.org/resource/SIO_000011> <compound/CID136180131> .
+
+<synonym/MD5_ea2c7723ecdae39201517bf737ff974c>
+    <http://semanticscience.org/resource/SIO_000011> <compound/CID136180131> .
+
+

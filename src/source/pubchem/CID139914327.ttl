@@ -1,0 +1,39 @@
+@base <http://rdf.ncbi.nlm.nih.gov/pubchem/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+
+<compound/CID139914327>
+    <http://purl.org/dc/terms/identifier> "139914327" ;
+    <vocabulary#has_parent> <compound/CID67734> ;
+    <http://semanticscience.org/resource/CHEMINF_000480> <compound/CID6380> ;
+    <http://semanticscience.org/resource/SIO_000008> <descriptor/CID139914327_Canonical_SMILES>, <descriptor/CID139914327_Compound_Identifier>, <descriptor/CID139914327_Covalent_Unit_Count>, <descriptor/CID139914327_Defined_Atom_Stereo_Count>, <descriptor/CID139914327_Defined_Bond_Stereo_Count>, <descriptor/CID139914327_Exact_Mass>, <descriptor/CID139914327_Hydrogen_Bond_Acceptor_Count>, <descriptor/CID139914327_Hydrogen_Bond_Donor_Count>, <descriptor/CID139914327_IUPAC_InChI>, <descriptor/CID139914327_Isomeric_SMILES>, <descriptor/CID139914327_Isotope_Atom_Count>, <descriptor/CID139914327_Molecular_Formula>, <descriptor/CID139914327_Molecular_Weight>, <descriptor/CID139914327_Mono_Isotopic_Weight>, <descriptor/CID139914327_Non-hydrogen_Atom_Count>, <descriptor/CID139914327_Preferred_IUPAC_Name>, <descriptor/CID139914327_Rotatable_Bond_Count>, <descriptor/CID139914327_Structure_Complexity>, <descriptor/CID139914327_TPSA>, <descriptor/CID139914327_Total_Formal_Charge>, <descriptor/CID139914327_Undefined_Atom_Stereo_Count>, <descriptor/CID139914327_Undefined_Bond_Stereo_Count> ;
+    a <vocabulary#Compound> ;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Tetramethylammonium perfluorohexane sulfonate" .
+
+<inchikey/ZMMLPZABSVWHCR-UHFFFAOYSA-M>
+    <http://semanticscience.org/resource/SIO_000011> <compound/CID139914327> .
+
+<substance/SID387716812>
+    <http://semanticscience.org/resource/CHEMINF_000477> <compound/CID139914327> .
+
+<substance/SID459280752>
+    <http://semanticscience.org/resource/CHEMINF_000477> <compound/CID139914327> .
+
+<substance/SID472276816>
+    <http://semanticscience.org/resource/CHEMINF_000477> <compound/CID139914327> .
+
+<substance/SID505893261>
+    <http://semanticscience.org/resource/CHEMINF_000477> <compound/CID139914327> .
+
+<synonym/MD5_03d52c19fb7cb27515e64c279c2c3d2b>
+    <http://semanticscience.org/resource/SIO_000011> <compound/CID139914327> .
+
+<synonym/MD5_5754f24499e98a7e7a273147effb5b16>
+    <http://semanticscience.org/resource/SIO_000011> <compound/CID139914327> .
+
+<synonym/MD5_c60added3b9241dbafe321261d4dc5e7>
+    <http://semanticscience.org/resource/SIO_000011> <compound/CID139914327> .
+
+<synonym/MD5_d539df99e32826e64eb41d4b55f77a27>
+    <http://semanticscience.org/resource/SIO_000011> <compound/CID139914327> .
+
+

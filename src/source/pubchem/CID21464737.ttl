@@ -1,0 +1,42 @@
+@base <http://rdf.ncbi.nlm.nih.gov/pubchem/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+
+<compound/CID21464737>
+    <http://purl.org/dc/terms/identifier> "21464737" ;
+    <vocabulary#has_parent> <compound/CID19078939> ;
+    <http://semanticscience.org/resource/CHEMINF_000480> <compound/CID222> ;
+    <http://semanticscience.org/resource/SIO_000008> <descriptor/CID21464737_Canonical_SMILES>, <descriptor/CID21464737_Compound_Identifier>, <descriptor/CID21464737_Covalent_Unit_Count>, <descriptor/CID21464737_Defined_Atom_Stereo_Count>, <descriptor/CID21464737_Defined_Bond_Stereo_Count>, <descriptor/CID21464737_Exact_Mass>, <descriptor/CID21464737_Hydrogen_Bond_Acceptor_Count>, <descriptor/CID21464737_Hydrogen_Bond_Donor_Count>, <descriptor/CID21464737_IUPAC_InChI>, <descriptor/CID21464737_Isomeric_SMILES>, <descriptor/CID21464737_Isotope_Atom_Count>, <descriptor/CID21464737_Molecular_Formula>, <descriptor/CID21464737_Molecular_Weight>, <descriptor/CID21464737_Mono_Isotopic_Weight>, <descriptor/CID21464737_Non-hydrogen_Atom_Count>, <descriptor/CID21464737_Preferred_IUPAC_Name>, <descriptor/CID21464737_Rotatable_Bond_Count>, <descriptor/CID21464737_Structure_Complexity>, <descriptor/CID21464737_TPSA>, <descriptor/CID21464737_Total_Formal_Charge>, <descriptor/CID21464737_Undefined_Atom_Stereo_Count>, <descriptor/CID21464737_Undefined_Bond_Stereo_Count> ;
+    a <vocabulary#Compound> ;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Ammonium perfluoro-2-ethylhexanoate" .
+
+<inchikey/XPJUIQUTJIIQNM-UHFFFAOYSA-N>
+    <http://semanticscience.org/resource/SIO_000011> <compound/CID21464737> .
+
+<substance/SID384461972>
+    <http://semanticscience.org/resource/CHEMINF_000477> <compound/CID21464737> .
+
+<substance/SID387175872>
+    <http://semanticscience.org/resource/CHEMINF_000477> <compound/CID21464737> .
+
+<substance/SID464857303>
+    <http://semanticscience.org/resource/CHEMINF_000477> <compound/CID21464737> .
+
+<substance/SID485787620>
+    <http://semanticscience.org/resource/CHEMINF_000477> <compound/CID21464737> .
+
+<synonym/MD5_05eddcdf006a806c8a2b6a0f86020254>
+    <http://semanticscience.org/resource/SIO_000011> <compound/CID21464737> .
+
+<synonym/MD5_8332f1ffeffe50038ad6b82190619ac0>
+    <http://semanticscience.org/resource/SIO_000011> <compound/CID21464737> .
+
+<synonym/MD5_84b8a6ed6ab735a2350bc79bc599d6ca>
+    <http://semanticscience.org/resource/SIO_000011> <compound/CID21464737> .
+
+<synonym/MD5_ad4522391fb84e0ce4485fc4c958e41b>
+    <http://semanticscience.org/resource/SIO_000011> <compound/CID21464737> .
+
+<synonym/MD5_ff0d37ef20152e5c8e588b781cd2d450>
+    <http://semanticscience.org/resource/SIO_000011> <compound/CID21464737> .
+
+

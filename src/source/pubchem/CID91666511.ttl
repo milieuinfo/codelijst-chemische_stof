@@ -1,0 +1,36 @@
+@base <http://rdf.ncbi.nlm.nih.gov/pubchem/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+
+<compound/CID91666511>
+    <http://purl.org/dc/terms/identifier> "91666511" ;
+    <vocabulary#has_parent> <compound/CID74949> ;
+    <http://semanticscience.org/resource/CHEMINF_000480> <compound/CID935> ;
+    <http://semanticscience.org/resource/SIO_000008> <descriptor/CID91666511_Canonical_SMILES>, <descriptor/CID91666511_Compound_Identifier>, <descriptor/CID91666511_Covalent_Unit_Count>, <descriptor/CID91666511_Defined_Atom_Stereo_Count>, <descriptor/CID91666511_Defined_Bond_Stereo_Count>, <descriptor/CID91666511_Exact_Mass>, <descriptor/CID91666511_Hydrogen_Bond_Acceptor_Count>, <descriptor/CID91666511_Hydrogen_Bond_Donor_Count>, <descriptor/CID91666511_IUPAC_InChI>, <descriptor/CID91666511_Isomeric_SMILES>, <descriptor/CID91666511_Isotope_Atom_Count>, <descriptor/CID91666511_Molecular_Formula>, <descriptor/CID91666511_Molecular_Weight>, <descriptor/CID91666511_Mono_Isotopic_Weight>, <descriptor/CID91666511_Non-hydrogen_Atom_Count>, <descriptor/CID91666511_Preferred_IUPAC_Name>, <descriptor/CID91666511_Rotatable_Bond_Count>, <descriptor/CID91666511_Structure_Complexity>, <descriptor/CID91666511_TPSA>, <descriptor/CID91666511_Total_Formal_Charge>, <descriptor/CID91666511_Undefined_Atom_Stereo_Count>, <descriptor/CID91666511_Undefined_Bond_Stereo_Count> ;
+    a <vocabulary#Compound> ;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Nickel, ((2,2'-(methylenebis(thio-kappaS))bis(acetato-kappaO))(2-))-" .
+
+<inchikey/LJYHDMCIDOGTDA-UHFFFAOYSA-N>
+    <http://semanticscience.org/resource/SIO_000011> <compound/CID91666511> .
+
+<substance/SID135343512>
+    <http://semanticscience.org/resource/CHEMINF_000477> <compound/CID91666511> .
+
+<substance/SID481736351>
+    <http://semanticscience.org/resource/CHEMINF_000477> <compound/CID91666511> .
+
+<substance/SID505849899>
+    <http://semanticscience.org/resource/CHEMINF_000477> <compound/CID91666511> .
+
+<synonym/MD5_56fa6458294592637a7243c36991e755>
+    <http://semanticscience.org/resource/SIO_000011> <compound/CID91666511> .
+
+<synonym/MD5_8c3f523d8d8018b941490a4d11f75c47>
+    <http://semanticscience.org/resource/SIO_000011> <compound/CID91666511> .
+
+<synonym/MD5_bfb055e1ca75708d7028b32bde63fdbd>
+    <http://semanticscience.org/resource/SIO_000011> <compound/CID91666511> .
+
+<synonym/MD5_d8723e42783c833c7432ae84a4349111>
+    <http://semanticscience.org/resource/SIO_000011> <compound/CID91666511> .
+
+

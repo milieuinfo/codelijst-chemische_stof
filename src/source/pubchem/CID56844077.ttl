@@ -1,0 +1,40 @@
+@base <http://rdf.ncbi.nlm.nih.gov/pubchem/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+
+<compound/CID56844077>
+    <http://purl.org/dc/terms/identifier> "56844077" ;
+    <http://semanticscience.org/resource/SIO_000008> <descriptor/CID56844077_Canonical_SMILES>, <descriptor/CID56844077_Compound_Identifier>, <descriptor/CID56844077_Covalent_Unit_Count>, <descriptor/CID56844077_Defined_Atom_Stereo_Count>, <descriptor/CID56844077_Defined_Bond_Stereo_Count>, <descriptor/CID56844077_Exact_Mass>, <descriptor/CID56844077_Hydrogen_Bond_Acceptor_Count>, <descriptor/CID56844077_Hydrogen_Bond_Donor_Count>, <descriptor/CID56844077_IUPAC_InChI>, <descriptor/CID56844077_Isomeric_SMILES>, <descriptor/CID56844077_Isotope_Atom_Count>, <descriptor/CID56844077_Molecular_Formula>, <descriptor/CID56844077_Molecular_Weight>, <descriptor/CID56844077_Mono_Isotopic_Weight>, <descriptor/CID56844077_Non-hydrogen_Atom_Count>, <descriptor/CID56844077_Preferred_IUPAC_Name>, <descriptor/CID56844077_Rotatable_Bond_Count>, <descriptor/CID56844077_Structure_Complexity>, <descriptor/CID56844077_TPSA>, <descriptor/CID56844077_Total_Formal_Charge>, <descriptor/CID56844077_Undefined_Atom_Stereo_Count>, <descriptor/CID56844077_Undefined_Bond_Stereo_Count> ;
+    a <vocabulary#Compound> ;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "(neononanoato-O)(neoundecanoato-O)lead" .
+
+<inchikey/JUGLKTZTGWYCLS-UHFFFAOYSA-L>
+    <http://semanticscience.org/resource/SIO_000011> <compound/CID56844077> .
+
+<substance/SID135269173>
+    <http://semanticscience.org/resource/CHEMINF_000477> <compound/CID56844077> .
+
+<substance/SID319403127>
+    <http://semanticscience.org/resource/CHEMINF_000477> <compound/CID56844077> .
+
+<substance/SID481757910>
+    <http://semanticscience.org/resource/CHEMINF_000477> <compound/CID56844077> .
+
+<substance/SID504174476>
+    <http://semanticscience.org/resource/CHEMINF_000477> <compound/CID56844077> .
+
+<substance/SID505402428>
+    <http://semanticscience.org/resource/CHEMINF_000477> <compound/CID56844077> .
+
+<synonym/MD5_063ae262f246e11e4fbbdcd7ea540dbd>
+    <http://semanticscience.org/resource/SIO_000011> <compound/CID56844077> .
+
+<synonym/MD5_cc3a3eb4519889bef7532088c4320949>
+    <http://semanticscience.org/resource/SIO_000011> <compound/CID56844077> .
+
+<synonym/MD5_e60edbae7b543936e474f69aa9ddf16e>
+    <http://semanticscience.org/resource/SIO_000011> <compound/CID56844077> .
+
+<synonym/MD5_ed2d3a28a9c39e6f0e248399513d850b>
+    <http://semanticscience.org/resource/SIO_000011> <compound/CID56844077> .
+
+

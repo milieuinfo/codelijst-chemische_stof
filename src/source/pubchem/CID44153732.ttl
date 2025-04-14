@@ -1,0 +1,38 @@
+@base <http://rdf.ncbi.nlm.nih.gov/pubchem/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+
+<compound/CID44153732>
+    <http://purl.org/dc/terms/identifier> "44153732" ;
+    <http://semanticscience.org/resource/CHEMINF_000480> <compound/CID190217>, <compound/CID5352426>, <compound/CID935> ;
+    <http://semanticscience.org/resource/SIO_000008> <descriptor/CID44153732_Canonical_SMILES>, <descriptor/CID44153732_Compound_Identifier>, <descriptor/CID44153732_Covalent_Unit_Count>, <descriptor/CID44153732_Defined_Atom_Stereo_Count>, <descriptor/CID44153732_Defined_Bond_Stereo_Count>, <descriptor/CID44153732_Exact_Mass>, <descriptor/CID44153732_Hydrogen_Bond_Acceptor_Count>, <descriptor/CID44153732_Hydrogen_Bond_Donor_Count>, <descriptor/CID44153732_IUPAC_InChI>, <descriptor/CID44153732_Isomeric_SMILES>, <descriptor/CID44153732_Isotope_Atom_Count>, <descriptor/CID44153732_Molecular_Formula>, <descriptor/CID44153732_Molecular_Weight>, <descriptor/CID44153732_Mono_Isotopic_Weight>, <descriptor/CID44153732_Non-hydrogen_Atom_Count>, <descriptor/CID44153732_Preferred_IUPAC_Name>, <descriptor/CID44153732_Rotatable_Bond_Count>, <descriptor/CID44153732_Structure_Complexity>, <descriptor/CID44153732_TPSA>, <descriptor/CID44153732_Total_Formal_Charge>, <descriptor/CID44153732_Undefined_Atom_Stereo_Count>, <descriptor/CID44153732_Undefined_Bond_Stereo_Count> ;
+    a <vocabulary#Compound> ;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Nickel tin trioxide" .
+
+<inchikey/SHULAURIUQUJKN-UHFFFAOYSA-N>
+    <http://semanticscience.org/resource/SIO_000011> <compound/CID44153732> .
+
+<substance/SID135204322>
+    <http://semanticscience.org/resource/CHEMINF_000477> <compound/CID44153732> .
+
+<substance/SID374401847>
+    <http://semanticscience.org/resource/CHEMINF_000477> <compound/CID44153732> .
+
+<substance/SID481764993>
+    <http://semanticscience.org/resource/CHEMINF_000477> <compound/CID44153732> .
+
+<substance/SID485848979>
+    <http://semanticscience.org/resource/CHEMINF_000477> <compound/CID44153732> .
+
+<substance/SID504663951>
+    <http://semanticscience.org/resource/CHEMINF_000477> <compound/CID44153732> .
+
+<synonym/MD5_1013046f66e7f39c753a1874415275dd>
+    <http://semanticscience.org/resource/SIO_000011> <compound/CID44153732> .
+
+<synonym/MD5_15e82a84d416a8d092fc733b8ca4c05c>
+    <http://semanticscience.org/resource/SIO_000011> <compound/CID44153732> .
+
+<synonym/MD5_7b4395c63546a63eb6df0fd8f6ffedf8>
+    <http://semanticscience.org/resource/SIO_000011> <compound/CID44153732> .
+
+

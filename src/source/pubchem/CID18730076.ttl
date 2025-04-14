@@ -1,0 +1,61 @@
+@base <http://rdf.ncbi.nlm.nih.gov/pubchem/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+
+<compound/CID162112687>
+    <vocabulary#has_parent> <compound/CID18730076> .
+
+<compound/CID18730076>
+    <http://purl.org/dc/terms/identifier> "18730076" ;
+    <http://semanticscience.org/resource/SIO_000008> <descriptor/CID18730076_Canonical_SMILES>, <descriptor/CID18730076_Compound_Identifier>, <descriptor/CID18730076_Covalent_Unit_Count>, <descriptor/CID18730076_Defined_Atom_Stereo_Count>, <descriptor/CID18730076_Defined_Bond_Stereo_Count>, <descriptor/CID18730076_Exact_Mass>, <descriptor/CID18730076_Hydrogen_Bond_Acceptor_Count>, <descriptor/CID18730076_Hydrogen_Bond_Donor_Count>, <descriptor/CID18730076_IUPAC_InChI>, <descriptor/CID18730076_Isomeric_SMILES>, <descriptor/CID18730076_Isotope_Atom_Count>, <descriptor/CID18730076_Molecular_Formula>, <descriptor/CID18730076_Molecular_Weight>, <descriptor/CID18730076_Mono_Isotopic_Weight>, <descriptor/CID18730076_Non-hydrogen_Atom_Count>, <descriptor/CID18730076_Preferred_IUPAC_Name>, <descriptor/CID18730076_Rotatable_Bond_Count>, <descriptor/CID18730076_Structure_Complexity>, <descriptor/CID18730076_TPSA>, <descriptor/CID18730076_Total_Formal_Charge>, <descriptor/CID18730076_Undefined_Atom_Stereo_Count>, <descriptor/CID18730076_Undefined_Bond_Stereo_Count>, <descriptor/CID18730076_XLogP3> ;
+    a <vocabulary#Compound> ;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "4-(3-Ethylpentyl)phenol" .
+
+<inchikey/AJSOQFSSIPJHMP-UHFFFAOYSA-N>
+    <http://semanticscience.org/resource/SIO_000011> <compound/CID18730076> .
+
+<substance/SID142031763>
+    <http://semanticscience.org/resource/CHEMINF_000477> <compound/CID18730076> .
+
+<substance/SID227237688>
+    <http://semanticscience.org/resource/CHEMINF_000477> <compound/CID18730076> .
+
+<substance/SID248608088>
+    <http://semanticscience.org/resource/CHEMINF_000477> <compound/CID18730076> .
+
+<substance/SID31008932>
+    <http://semanticscience.org/resource/CHEMINF_000477> <compound/CID18730076> .
+
+<substance/SID472273616>
+    <http://semanticscience.org/resource/CHEMINF_000477> <compound/CID18730076> .
+
+<substance/SID482321899>
+    <http://semanticscience.org/resource/CHEMINF_000477> <compound/CID18730076> .
+
+<substance/SID485782036>
+    <http://semanticscience.org/resource/CHEMINF_000477> <compound/CID18730076> .
+
+<substance/SID504353746>
+    <http://semanticscience.org/resource/CHEMINF_000477> <compound/CID18730076> .
+
+<substance/SID505508910>
+    <http://semanticscience.org/resource/CHEMINF_000477> <compound/CID18730076> .
+
+<synonym/MD5_2d00d33557df5d7e5931add16138c819>
+    <http://semanticscience.org/resource/SIO_000011> <compound/CID18730076> .
+
+<synonym/MD5_4d0ca59f86eff305bc2f12ba613a4814>
+    <http://semanticscience.org/resource/SIO_000011> <compound/CID18730076> .
+
+<synonym/MD5_59be458ce818cc81d2400d11e475dd1b>
+    <http://semanticscience.org/resource/SIO_000011> <compound/CID18730076> .
+
+<synonym/MD5_5b843637ca3504255dc1e4ba0c50ee2b>
+    <http://semanticscience.org/resource/SIO_000011> <compound/CID18730076> .
+
+<synonym/MD5_70c0061b102ecaf325647917df6bfa88>
+    <http://semanticscience.org/resource/SIO_000011> <compound/CID18730076> .
+
+<synonym/MD5_a6833084e057ce6c141e229103076eda>
+    <http://semanticscience.org/resource/SIO_000011> <compound/CID18730076> .
+
+

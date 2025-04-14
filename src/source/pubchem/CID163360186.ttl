@@ -1,0 +1,38 @@
+@base <http://rdf.ncbi.nlm.nih.gov/pubchem/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+
+<compound/CID163360186>
+    <http://purl.org/dc/terms/identifier> "163360186" ;
+    <http://semanticscience.org/resource/CHEMINF_000480> <compound/CID23936>, <compound/CID23963>, <compound/CID935>, <compound/CID962> ;
+    <http://semanticscience.org/resource/SIO_000008> <descriptor/CID163360186_Canonical_SMILES>, <descriptor/CID163360186_Compound_Identifier>, <descriptor/CID163360186_Covalent_Unit_Count>, <descriptor/CID163360186_Defined_Atom_Stereo_Count>, <descriptor/CID163360186_Defined_Bond_Stereo_Count>, <descriptor/CID163360186_Exact_Mass>, <descriptor/CID163360186_Hydrogen_Bond_Acceptor_Count>, <descriptor/CID163360186_Hydrogen_Bond_Donor_Count>, <descriptor/CID163360186_IUPAC_InChI>, <descriptor/CID163360186_Isomeric_SMILES>, <descriptor/CID163360186_Isotope_Atom_Count>, <descriptor/CID163360186_Molecular_Formula>, <descriptor/CID163360186_Molecular_Weight>, <descriptor/CID163360186_Mono_Isotopic_Weight>, <descriptor/CID163360186_Non-hydrogen_Atom_Count>, <descriptor/CID163360186_Preferred_IUPAC_Name>, <descriptor/CID163360186_Rotatable_Bond_Count>, <descriptor/CID163360186_Structure_Complexity>, <descriptor/CID163360186_TPSA>, <descriptor/CID163360186_Total_Formal_Charge>, <descriptor/CID163360186_Undefined_Atom_Stereo_Count>, <descriptor/CID163360186_Undefined_Bond_Stereo_Count> ;
+    a <vocabulary#Compound> ;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "C.I. Pigment Yellow 161" .
+
+<inchikey/YIWHPGMNCQLWJS-UHFFFAOYSA-J>
+    <http://semanticscience.org/resource/SIO_000011> <compound/CID163360186> .
+
+<substance/SID176297409>
+    <http://semanticscience.org/resource/CHEMINF_000477> <compound/CID163360186> .
+
+<substance/SID489045179>
+    <http://semanticscience.org/resource/CHEMINF_000477> <compound/CID163360186> .
+
+<substance/SID504092645>
+    <http://semanticscience.org/resource/CHEMINF_000477> <compound/CID163360186> .
+
+<substance/SID504695608>
+    <http://semanticscience.org/resource/CHEMINF_000477> <compound/CID163360186> .
+
+<substance/SID505568316>
+    <http://semanticscience.org/resource/CHEMINF_000477> <compound/CID163360186> .
+
+<synonym/MD5_0cce31437525032a73bac7614a1893af>
+    <http://semanticscience.org/resource/SIO_000011> <compound/CID163360186> .
+
+<synonym/MD5_0f1f16ec7dd5944a29f4e1b80d38b462>
+    <http://semanticscience.org/resource/SIO_000011> <compound/CID163360186> .
+
+<synonym/MD5_199603a192d5aa1b71abf299b7669a0a>
+    <http://semanticscience.org/resource/SIO_000011> <compound/CID163360186> .
+
+

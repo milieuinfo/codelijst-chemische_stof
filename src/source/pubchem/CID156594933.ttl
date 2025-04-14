@@ -1,0 +1,45 @@
+@base <http://rdf.ncbi.nlm.nih.gov/pubchem/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+
+<compound/CID156594933>
+    <http://purl.org/dc/terms/identifier> "156594933" ;
+    <vocabulary#has_parent> <compound/CID33635> ;
+    <http://semanticscience.org/resource/CHEMINF_000480> <compound/CID5352425> ;
+    <http://semanticscience.org/resource/SIO_000008> <descriptor/CID156594933_Canonical_SMILES>, <descriptor/CID156594933_Compound_Identifier>, <descriptor/CID156594933_Covalent_Unit_Count>, <descriptor/CID156594933_Defined_Atom_Stereo_Count>, <descriptor/CID156594933_Defined_Bond_Stereo_Count>, <descriptor/CID156594933_Exact_Mass>, <descriptor/CID156594933_Hydrogen_Bond_Acceptor_Count>, <descriptor/CID156594933_Hydrogen_Bond_Donor_Count>, <descriptor/CID156594933_IUPAC_InChI>, <descriptor/CID156594933_Isomeric_SMILES>, <descriptor/CID156594933_Isotope_Atom_Count>, <descriptor/CID156594933_Molecular_Formula>, <descriptor/CID156594933_Molecular_Weight>, <descriptor/CID156594933_Mono_Isotopic_Weight>, <descriptor/CID156594933_Non-hydrogen_Atom_Count>, <descriptor/CID156594933_Rotatable_Bond_Count>, <descriptor/CID156594933_Structure_Complexity>, <descriptor/CID156594933_TPSA>, <descriptor/CID156594933_Total_Formal_Charge>, <descriptor/CID156594933_Undefined_Atom_Stereo_Count>, <descriptor/CID156594933_Undefined_Bond_Stereo_Count> ;
+    a <vocabulary#Compound> ;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Octanoic acid, 7-methyl-, lead salt (1:?)" .
+
+<inchikey/MFWJVWVMOONDCL-UHFFFAOYSA-N>
+    <http://semanticscience.org/resource/SIO_000011> <compound/CID156594933> .
+
+<substance/SID312850896>
+    <http://semanticscience.org/resource/CHEMINF_000477> <compound/CID156594933> .
+
+<substance/SID443321786>
+    <http://semanticscience.org/resource/CHEMINF_000477> <compound/CID156594933> .
+
+<substance/SID444587025>
+    <http://semanticscience.org/resource/CHEMINF_000477> <compound/CID156594933> .
+
+<substance/SID450834124>
+    <http://semanticscience.org/resource/CHEMINF_000477> <compound/CID156594933> .
+
+<substance/SID459069753>
+    <http://semanticscience.org/resource/CHEMINF_000477> <compound/CID156594933> .
+
+<substance/SID486338554>
+    <http://semanticscience.org/resource/CHEMINF_000477> <compound/CID156594933> .
+
+<substance/SID504665321>
+    <http://semanticscience.org/resource/CHEMINF_000477> <compound/CID156594933> .
+
+<synonym/MD5_03f995795862613e8c240f974b34ce27>
+    <http://semanticscience.org/resource/SIO_000011> <compound/CID156594933> .
+
+<synonym/MD5_5a795ae3bc32cc193766c01176ef061d>
+    <http://semanticscience.org/resource/SIO_000011> <compound/CID156594933> .
+
+<synonym/MD5_702e9321952b43943e8cec2204a7e53e>
+    <http://semanticscience.org/resource/SIO_000011> <compound/CID156594933> .
+
+

@@ -1,0 +1,2436 @@
+@base <http://rdf.ncbi.nlm.nih.gov/pubchem/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+
+<compound/CID13037716>
+    <http://semanticscience.org/resource/CHEMINF_000480> <compound/CID28094> .
+
+<compound/CID141015817>
+    <http://semanticscience.org/resource/CHEMINF_000480> <compound/CID28094> .
+
+<compound/CID15320842>
+    <http://semanticscience.org/resource/CHEMINF_000480> <compound/CID28094> .
+
+<compound/CID154083811>
+    <http://semanticscience.org/resource/CHEMINF_000480> <compound/CID28094> .
+
+<compound/CID157187045>
+    <http://semanticscience.org/resource/CHEMINF_000480> <compound/CID28094> .
+
+<compound/CID157224427>
+    <http://semanticscience.org/resource/CHEMINF_000480> <compound/CID28094> .
+
+<compound/CID157753183>
+    <http://semanticscience.org/resource/CHEMINF_000480> <compound/CID28094> .
+
+<compound/CID157899437>
+    <http://semanticscience.org/resource/CHEMINF_000480> <compound/CID28094> .
+
+<compound/CID158022664>
+    <http://semanticscience.org/resource/CHEMINF_000480> <compound/CID28094> .
+
+<compound/CID158202154>
+    <http://semanticscience.org/resource/CHEMINF_000480> <compound/CID28094> .
+
+<compound/CID158496353>
+    <http://semanticscience.org/resource/CHEMINF_000480> <compound/CID28094> .
+
+<compound/CID158635193>
+    <http://semanticscience.org/resource/CHEMINF_000480> <compound/CID28094> .
+
+<compound/CID158907258>
+    <http://semanticscience.org/resource/CHEMINF_000480> <compound/CID28094> .
+
+<compound/CID159305291>
+    <http://semanticscience.org/resource/CHEMINF_000480> <compound/CID28094> .
+
+<compound/CID159512677>
+    <http://semanticscience.org/resource/CHEMINF_000480> <compound/CID28094> .
+
+<compound/CID159674843>
+    <http://semanticscience.org/resource/CHEMINF_000480> <compound/CID28094> .
+
+<compound/CID159789411>
+    <http://semanticscience.org/resource/CHEMINF_000480> <compound/CID28094> .
+
+<compound/CID160128721>
+    <http://semanticscience.org/resource/CHEMINF_000480> <compound/CID28094> .
+
+<compound/CID160361340>
+    <http://semanticscience.org/resource/CHEMINF_000480> <compound/CID28094> .
+
+<compound/CID160418726>
+    <http://semanticscience.org/resource/CHEMINF_000480> <compound/CID28094> .
+
+<compound/CID160494458>
+    <http://semanticscience.org/resource/CHEMINF_000480> <compound/CID28094> .
+
+<compound/CID160795466>
+    <http://semanticscience.org/resource/CHEMINF_000480> <compound/CID28094> .
+
+<compound/CID160821768>
+    <http://semanticscience.org/resource/CHEMINF_000480> <compound/CID28094> .
+
+<compound/CID161005527>
+    <http://semanticscience.org/resource/CHEMINF_000480> <compound/CID28094> .
+
+<compound/CID161510532>
+    <http://semanticscience.org/resource/CHEMINF_000480> <compound/CID28094> .
+
+<compound/CID161562640>
+    <http://semanticscience.org/resource/CHEMINF_000480> <compound/CID28094> .
+
+<compound/CID161604220>
+    <http://semanticscience.org/resource/CHEMINF_000480> <compound/CID28094> .
+
+<compound/CID161944737>
+    <http://semanticscience.org/resource/CHEMINF_000480> <compound/CID28094> .
+
+<compound/CID161955218>
+    <http://semanticscience.org/resource/CHEMINF_000480> <compound/CID28094> .
+
+<compound/CID163810976>
+    <http://semanticscience.org/resource/CHEMINF_000480> <compound/CID28094> .
+
+<compound/CID167433240>
+    <http://semanticscience.org/resource/CHEMINF_000480> <compound/CID28094> .
+
+<compound/CID25199732>
+    <http://semanticscience.org/resource/CHEMINF_000480> <compound/CID28094> .
+
+<compound/CID28094>
+    <http://purl.obolibrary.org/obo/RO_0000087> <vocabulary#FDAApprovedDrugs> ;
+    <http://purl.org/dc/terms/identifier> "28094" ;
+    <http://semanticscience.org/resource/SIO_000008> <descriptor/CID28094_Canonical_SMILES>, <descriptor/CID28094_Compound_Identifier>, <descriptor/CID28094_Covalent_Unit_Count>, <descriptor/CID28094_Defined_Atom_Stereo_Count>, <descriptor/CID28094_Defined_Bond_Stereo_Count>, <descriptor/CID28094_Exact_Mass>, <descriptor/CID28094_Hydrogen_Bond_Acceptor_Count>, <descriptor/CID28094_Hydrogen_Bond_Donor_Count>, <descriptor/CID28094_IUPAC_InChI>, <descriptor/CID28094_Isomeric_SMILES>, <descriptor/CID28094_Isotope_Atom_Count>, <descriptor/CID28094_Molecular_Formula>, <descriptor/CID28094_Molecular_Weight>, <descriptor/CID28094_Mono_Isotopic_Weight>, <descriptor/CID28094_Non-hydrogen_Atom_Count>, <descriptor/CID28094_Preferred_IUPAC_Name>, <descriptor/CID28094_Rotatable_Bond_Count>, <descriptor/CID28094_Structure_Complexity>, <descriptor/CID28094_TPSA>, <descriptor/CID28094_Total_Formal_Charge>, <descriptor/CID28094_Undefined_Atom_Stereo_Count>, <descriptor/CID28094_Undefined_Bond_Stereo_Count> ;
+    a <vocabulary#Compound> ;
+    <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://www.wikidata.org/entity/Q1985595> ;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Nickel sulfide" .
+
+<compound/CID4251231>
+    <http://semanticscience.org/resource/CHEMINF_000480> <compound/CID28094> .
+
+<compound/CID57468125>
+    <http://semanticscience.org/resource/CHEMINF_000480> <compound/CID28094> .
+
+<compound/CID71343828>
+    <http://semanticscience.org/resource/CHEMINF_000480> <compound/CID28094> .
+
+<compound/CID71350020>
+    <http://semanticscience.org/resource/CHEMINF_000480> <compound/CID28094> .
+
+<compound/CID71442700>
+    <http://semanticscience.org/resource/CHEMINF_000480> <compound/CID28094> .
+
+<compound/CID71443086>
+    <http://semanticscience.org/resource/CHEMINF_000480> <compound/CID28094> .
+
+<compound/CID85533117>
+    <http://semanticscience.org/resource/CHEMINF_000480> <compound/CID28094> .
+
+<compound/CID85771103>
+    <http://semanticscience.org/resource/CHEMINF_000480> <compound/CID28094> .
+
+<compound/CID87127653>
+    <http://semanticscience.org/resource/CHEMINF_000480> <compound/CID28094> .
+
+<cooccurrence/2d5_CID28094>
+    rdf:object <compound/CID28094> .
+
+<cooccurrence/CID10039_CID28094>
+    rdf:object <compound/CID28094> .
+
+<cooccurrence/CID101532310_CID28094>
+    rdf:object <compound/CID28094> .
+
+<cooccurrence/CID10261079_CID28094>
+    rdf:object <compound/CID28094> .
+
+<cooccurrence/CID104730_CID28094>
+    rdf:object <compound/CID28094> .
+
+<cooccurrence/CID105054_CID28094>
+    rdf:object <compound/CID28094> .
+
+<cooccurrence/CID107674_CID28094>
+    rdf:object <compound/CID28094> .
+
+<cooccurrence/CID11169_CID28094>
+    rdf:object <compound/CID28094> .
+
+<cooccurrence/CID11389393_CID28094>
+    rdf:object <compound/CID28094> .
+
+<cooccurrence/CID120273_CID28094>
+    rdf:object <compound/CID28094> .
+
+<cooccurrence/CID12090686_CID28094>
+    rdf:object <compound/CID28094> .
+
+<cooccurrence/CID122164822_CID28094>
+    rdf:object <compound/CID28094> .
+
+<cooccurrence/CID123110_CID28094>
+    rdf:object <compound/CID28094> .
+
+<cooccurrence/CID123131981_CID28094>
+    rdf:object <compound/CID28094> .
+
+<cooccurrence/CID12749_CID28094>
+    rdf:object <compound/CID28094> .
+
+<cooccurrence/CID129628444_CID28094>
+    rdf:object <compound/CID28094> .
+
+<cooccurrence/CID129651881_CID28094>
+    rdf:object <compound/CID28094> .
+
+<cooccurrence/CID131675689_CID28094>
+    rdf:object <compound/CID28094> .
+
+<cooccurrence/CID13436_CID28094>
+    rdf:object <compound/CID28094> .
+
+<cooccurrence/CID135465089_CID28094>
+    rdf:object <compound/CID28094> .
+
+<cooccurrence/CID13597441_CID28094>
+    rdf:object <compound/CID28094> .
+
+<cooccurrence/CID14783_CID28094>
+    rdf:object <compound/CID28094> .
+
+<cooccurrence/CID14788_CID28094>
+    rdf:object <compound/CID28094> .
+
+<cooccurrence/CID14803_CID28094>
+    rdf:object <compound/CID28094> .
+
+<cooccurrence/CID14804_CID28094>
+    rdf:object <compound/CID28094> .
+
+<cooccurrence/CID14805_CID28094>
+    rdf:object <compound/CID28094> .
+
+<cooccurrence/CID14819_CID28094>
+    rdf:object <compound/CID28094> .
+
+<cooccurrence/CID14821_CID28094>
+    rdf:object <compound/CID28094> .
+
+<cooccurrence/CID14823_CID28094>
+    rdf:object <compound/CID28094> .
+
+<cooccurrence/CID14831_CID28094>
+    rdf:object <compound/CID28094> .
+
+<cooccurrence/CID14832_CID28094>
+    rdf:object <compound/CID28094> .
+
+<cooccurrence/CID154269_CID28094>
+    rdf:object <compound/CID28094> .
+
+<cooccurrence/CID15666_CID28094>
+    rdf:object <compound/CID28094> .
+
+<cooccurrence/CID159367_CID28094>
+    rdf:object <compound/CID28094> .
+
+<cooccurrence/CID159394_CID28094>
+    rdf:object <compound/CID28094> .
+
+<cooccurrence/CID16020005_CID28094>
+    rdf:object <compound/CID28094> .
+
+<cooccurrence/CID165868_CID28094>
+    rdf:object <compound/CID28094> .
+
+<cooccurrence/CID16938_CID28094>
+    rdf:object <compound/CID28094> .
+
+<cooccurrence/CID197148_CID28094>
+    rdf:object <compound/CID28094> .
+
+<cooccurrence/CID197200_CID28094>
+    rdf:object <compound/CID28094> .
+
+<cooccurrence/CID197905_CID28094>
+    rdf:object <compound/CID28094> .
+
+<cooccurrence/CID1984_CID28094>
+    rdf:object <compound/CID28094> .
+
+<cooccurrence/CID20353_CID28094>
+    rdf:object <compound/CID28094> .
+
+<cooccurrence/CID20851_CID28094>
+    rdf:object <compound/CID28094> .
+
+<cooccurrence/CID21226445_CID28094>
+    rdf:object <compound/CID28094> .
+
+<cooccurrence/CID22833473_CID28094>
+    rdf:object <compound/CID28094> .
+
+<cooccurrence/CID23435_CID28094>
+    rdf:object <compound/CID28094> .
+
+<cooccurrence/CID23665730_CID28094>
+    rdf:object <compound/CID28094> .
+
+<cooccurrence/CID23675242_CID28094>
+    rdf:object <compound/CID28094> .
+
+<cooccurrence/CID237873_CID28094>
+    rdf:object <compound/CID28094> .
+
+<cooccurrence/CID23912_CID28094>
+    rdf:object <compound/CID28094> .
+
+<cooccurrence/CID23939_CID28094>
+    rdf:object <compound/CID28094> .
+
+<cooccurrence/CID23990_CID28094>
+    rdf:object <compound/CID28094> .
+
+<cooccurrence/CID24008_CID28094>
+    rdf:object <compound/CID28094> .
+
+<cooccurrence/CID24385_CID28094>
+    rdf:object <compound/CID28094> .
+
+<cooccurrence/CID24477_CID28094>
+    rdf:object <compound/CID28094> .
+
+<cooccurrence/CID24580_CID28094>
+    rdf:object <compound/CID28094> .
+
+<cooccurrence/CID24586_CID28094>
+    rdf:object <compound/CID28094> .
+
+<cooccurrence/CID24748041_CID28094>
+    rdf:object <compound/CID28094> .
+
+<cooccurrence/CID24826_CID28094>
+    rdf:object <compound/CID28094> .
+
+<cooccurrence/CID25199732_CID28094>
+    rdf:object <compound/CID28094> .
+
+<cooccurrence/CID25517_CID28094>
+    rdf:object <compound/CID28094> .
+
+<cooccurrence/CID25736_CID28094>
+    rdf:object <compound/CID28094> .
+
+<cooccurrence/CID26039_CID28094>
+    rdf:object <compound/CID28094> .
+
+<cooccurrence/CID2723622_CID28094>
+    rdf:object <compound/CID28094> .
+
+<cooccurrence/CID2723790_CID28094>
+    rdf:object <compound/CID28094> .
+
+<cooccurrence/CID2723949_CID28094>
+    rdf:object <compound/CID28094> .
+
+<cooccurrence/CID2724251_CID28094>
+    rdf:object <compound/CID28094> .
+
+<cooccurrence/CID2724822_CID28094>
+    rdf:object <compound/CID28094> .
+
+<cooccurrence/CID2760820_CID28094>
+    rdf:object <compound/CID28094> .
+
+<cooccurrence/CID28094_2d5>
+    rdf:subject <compound/CID28094> .
+
+<cooccurrence/CID28094_CID10039>
+    rdf:subject <compound/CID28094> .
+
+<cooccurrence/CID28094_CID1004>
+    rdf:subject <compound/CID28094> .
+
+<cooccurrence/CID28094_CID10112>
+    rdf:subject <compound/CID28094> .
+
+<cooccurrence/CID28094_CID101136808>
+    rdf:subject <compound/CID28094> .
+
+<cooccurrence/CID28094_CID101532310>
+    rdf:subject <compound/CID28094> .
+
+<cooccurrence/CID28094_CID102090456>
+    rdf:subject <compound/CID28094> .
+
+<cooccurrence/CID28094_CID10261079>
+    rdf:subject <compound/CID28094> .
+
+<cooccurrence/CID28094_CID10364>
+    rdf:subject <compound/CID28094> .
+
+<cooccurrence/CID28094_CID104729>
+    rdf:subject <compound/CID28094> .
+
+<cooccurrence/CID28094_CID104730>
+    rdf:subject <compound/CID28094> .
+
+<cooccurrence/CID28094_CID105034>
+    rdf:subject <compound/CID28094> .
+
+<cooccurrence/CID28094_CID105054>
+    rdf:subject <compound/CID28094> .
+
+<cooccurrence/CID28094_CID1061>
+    rdf:subject <compound/CID28094> .
+
+<cooccurrence/CID28094_CID107674>
+    rdf:subject <compound/CID28094> .
+
+<cooccurrence/CID28094_CID1084>
+    rdf:subject <compound/CID28094> .
+
+<cooccurrence/CID28094_CID1088>
+    rdf:subject <compound/CID28094> .
+
+<cooccurrence/CID28094_CID1099>
+    rdf:subject <compound/CID28094> .
+
+<cooccurrence/CID28094_CID11057>
+    rdf:subject <compound/CID28094> .
+
+<cooccurrence/CID28094_CID11169>
+    rdf:subject <compound/CID28094> .
+
+<cooccurrence/CID28094_CID1117>
+    rdf:subject <compound/CID28094> .
+
+<cooccurrence/CID28094_CID1118>
+    rdf:subject <compound/CID28094> .
+
+<cooccurrence/CID28094_CID1119>
+    rdf:subject <compound/CID28094> .
+
+<cooccurrence/CID28094_CID11313>
+    rdf:subject <compound/CID28094> .
+
+<cooccurrence/CID28094_CID11389393>
+    rdf:subject <compound/CID28094> .
+
+<cooccurrence/CID28094_CID1140>
+    rdf:subject <compound/CID28094> .
+
+<cooccurrence/CID28094_CID1175>
+    rdf:subject <compound/CID28094> .
+
+<cooccurrence/CID28094_CID1176>
+    rdf:subject <compound/CID28094> .
+
+<cooccurrence/CID28094_CID11776>
+    rdf:subject <compound/CID28094> .
+
+<cooccurrence/CID28094_CID11966311>
+    rdf:subject <compound/CID28094> .
+
+<cooccurrence/CID28094_CID120273>
+    rdf:subject <compound/CID28094> .
+
+<cooccurrence/CID28094_CID12090686>
+    rdf:subject <compound/CID28094> .
+
+<cooccurrence/CID28094_CID121825>
+    rdf:subject <compound/CID28094> .
+
+<cooccurrence/CID28094_CID122164822>
+    rdf:subject <compound/CID28094> .
+
+<cooccurrence/CID28094_CID123110>
+    rdf:subject <compound/CID28094> .
+
+<cooccurrence/CID28094_CID123131981>
+    rdf:subject <compound/CID28094> .
+
+<cooccurrence/CID28094_CID123146>
+    rdf:subject <compound/CID28094> .
+
+<cooccurrence/CID28094_CID123159>
+    rdf:subject <compound/CID28094> .
+
+<cooccurrence/CID28094_CID124079507>
+    rdf:subject <compound/CID28094> .
+
+<cooccurrence/CID28094_CID124886>
+    rdf:subject <compound/CID28094> .
+
+<cooccurrence/CID28094_CID12749>
+    rdf:subject <compound/CID28094> .
+
+<cooccurrence/CID28094_CID129628444>
+    rdf:subject <compound/CID28094> .
+
+<cooccurrence/CID28094_CID129651881>
+    rdf:subject <compound/CID28094> .
+
+<cooccurrence/CID28094_CID131675689>
+    rdf:subject <compound/CID28094> .
+
+<cooccurrence/CID28094_CID13436>
+    rdf:subject <compound/CID28094> .
+
+<cooccurrence/CID28094_CID135398633>
+    rdf:subject <compound/CID28094> .
+
+<cooccurrence/CID28094_CID135440064>
+    rdf:subject <compound/CID28094> .
+
+<cooccurrence/CID28094_CID135465089>
+    rdf:subject <compound/CID28094> .
+
+<cooccurrence/CID28094_CID13597441>
+    rdf:subject <compound/CID28094> .
+
+<cooccurrence/CID28094_CID139202519>
+    rdf:subject <compound/CID28094> .
+
+<cooccurrence/CID28094_CID139246511>
+    rdf:subject <compound/CID28094> .
+
+<cooccurrence/CID28094_CID145068>
+    rdf:subject <compound/CID28094> .
+
+<cooccurrence/CID28094_CID14769>
+    rdf:subject <compound/CID28094> .
+
+<cooccurrence/CID28094_CID14783>
+    rdf:subject <compound/CID28094> .
+
+<cooccurrence/CID28094_CID14788>
+    rdf:subject <compound/CID28094> .
+
+<cooccurrence/CID28094_CID14798>
+    rdf:subject <compound/CID28094> .
+
+<cooccurrence/CID28094_CID14803>
+    rdf:subject <compound/CID28094> .
+
+<cooccurrence/CID28094_CID14804>
+    rdf:subject <compound/CID28094> .
+
+<cooccurrence/CID28094_CID14805>
+    rdf:subject <compound/CID28094> .
+
+<cooccurrence/CID28094_CID14819>
+    rdf:subject <compound/CID28094> .
+
+<cooccurrence/CID28094_CID14821>
+    rdf:subject <compound/CID28094> .
+
+<cooccurrence/CID28094_CID14823>
+    rdf:subject <compound/CID28094> .
+
+<cooccurrence/CID28094_CID14831>
+    rdf:subject <compound/CID28094> .
+
+<cooccurrence/CID28094_CID14832>
+    rdf:subject <compound/CID28094> .
+
+<cooccurrence/CID28094_CID14985>
+    rdf:subject <compound/CID28094> .
+
+<cooccurrence/CID28094_CID154269>
+    rdf:subject <compound/CID28094> .
+
+<cooccurrence/CID28094_CID15666>
+    rdf:subject <compound/CID28094> .
+
+<cooccurrence/CID28094_CID1567>
+    rdf:subject <compound/CID28094> .
+
+<cooccurrence/CID28094_CID159367>
+    rdf:subject <compound/CID28094> .
+
+<cooccurrence/CID28094_CID159394>
+    rdf:subject <compound/CID28094> .
+
+<cooccurrence/CID28094_CID16020005>
+    rdf:subject <compound/CID28094> .
+
+<cooccurrence/CID28094_CID16211032>
+    rdf:subject <compound/CID28094> .
+
+<cooccurrence/CID28094_CID165868>
+    rdf:subject <compound/CID28094> .
+
+<cooccurrence/CID28094_CID1674>
+    rdf:subject <compound/CID28094> .
+
+<cooccurrence/CID28094_CID16938>
+    rdf:subject <compound/CID28094> .
+
+<cooccurrence/CID28094_CID171548>
+    rdf:subject <compound/CID28094> .
+
+<cooccurrence/CID28094_CID174>
+    rdf:subject <compound/CID28094> .
+
+<cooccurrence/CID28094_CID1742210>
+    rdf:subject <compound/CID28094> .
+
+<cooccurrence/CID28094_CID175>
+    rdf:subject <compound/CID28094> .
+
+<cooccurrence/CID28094_CID176>
+    rdf:subject <compound/CID28094> .
+
+<cooccurrence/CID28094_CID177>
+    rdf:subject <compound/CID28094> .
+
+<cooccurrence/CID28094_CID190217>
+    rdf:subject <compound/CID28094> .
+
+<cooccurrence/CID28094_CID19660>
+    rdf:subject <compound/CID28094> .
+
+<cooccurrence/CID28094_CID197148>
+    rdf:subject <compound/CID28094> .
+
+<cooccurrence/CID28094_CID197200>
+    rdf:subject <compound/CID28094> .
+
+<cooccurrence/CID28094_CID197905>
+    rdf:subject <compound/CID28094> .
+
+<cooccurrence/CID28094_CID1983>
+    rdf:subject <compound/CID28094> .
+
+<cooccurrence/CID28094_CID1984>
+    rdf:subject <compound/CID28094> .
+
+<cooccurrence/CID28094_CID20353>
+    rdf:subject <compound/CID28094> .
+
+<cooccurrence/CID28094_CID20851>
+    rdf:subject <compound/CID28094> .
+
+<cooccurrence/CID28094_CID21226445>
+    rdf:subject <compound/CID28094> .
+
+<cooccurrence/CID28094_CID21896651>
+    rdf:subject <compound/CID28094> .
+
+<cooccurrence/CID28094_CID22833473>
+    rdf:subject <compound/CID28094> .
+
+<cooccurrence/CID28094_CID2336>
+    rdf:subject <compound/CID28094> .
+
+<cooccurrence/CID28094_CID23435>
+    rdf:subject <compound/CID28094> .
+
+<cooccurrence/CID28094_CID2349>
+    rdf:subject <compound/CID28094> .
+
+<cooccurrence/CID28094_CID23664709>
+    rdf:subject <compound/CID28094> .
+
+<cooccurrence/CID28094_CID23665730>
+    rdf:subject <compound/CID28094> .
+
+<cooccurrence/CID28094_CID23668834>
+    rdf:subject <compound/CID28094> .
+
+<cooccurrence/CID28094_CID23673835>
+    rdf:subject <compound/CID28094> .
+
+<cooccurrence/CID28094_CID23675242>
+    rdf:subject <compound/CID28094> .
+
+<cooccurrence/CID28094_CID237873>
+    rdf:subject <compound/CID28094> .
+
+<cooccurrence/CID28094_CID23912>
+    rdf:subject <compound/CID28094> .
+
+<cooccurrence/CID28094_CID23924>
+    rdf:subject <compound/CID28094> .
+
+<cooccurrence/CID28094_CID23925>
+    rdf:subject <compound/CID28094> .
+
+<cooccurrence/CID28094_CID23930>
+    rdf:subject <compound/CID28094> .
+
+<cooccurrence/CID28094_CID23931>
+    rdf:subject <compound/CID28094> .
+
+<cooccurrence/CID28094_CID23932>
+    rdf:subject <compound/CID28094> .
+
+<cooccurrence/CID28094_CID23937>
+    rdf:subject <compound/CID28094> .
+
+<cooccurrence/CID28094_CID23938>
+    rdf:subject <compound/CID28094> .
+
+<cooccurrence/CID28094_CID23939>
+    rdf:subject <compound/CID28094> .
+
+<cooccurrence/CID28094_CID23948>
+    rdf:subject <compound/CID28094> .
+
+<cooccurrence/CID28094_CID23950>
+    rdf:subject <compound/CID28094> .
+
+<cooccurrence/CID28094_CID23954>
+    rdf:subject <compound/CID28094> .
+
+<cooccurrence/CID28094_CID23963>
+    rdf:subject <compound/CID28094> .
+
+<cooccurrence/CID28094_CID23973>
+    rdf:subject <compound/CID28094> .
+
+<cooccurrence/CID28094_CID23974>
+    rdf:subject <compound/CID28094> .
+
+<cooccurrence/CID28094_CID23978>
+    rdf:subject <compound/CID28094> .
+
+<cooccurrence/CID28094_CID23985>
+    rdf:subject <compound/CID28094> .
+
+<cooccurrence/CID28094_CID23990>
+    rdf:subject <compound/CID28094> .
+
+<cooccurrence/CID28094_CID23994>
+    rdf:subject <compound/CID28094> .
+
+<cooccurrence/CID28094_CID24008>
+    rdf:subject <compound/CID28094> .
+
+<cooccurrence/CID28094_CID241>
+    rdf:subject <compound/CID28094> .
+
+<cooccurrence/CID28094_CID24238>
+    rdf:subject <compound/CID28094> .
+
+<cooccurrence/CID28094_CID24261>
+    rdf:subject <compound/CID28094> .
+
+<cooccurrence/CID28094_CID24385>
+    rdf:subject <compound/CID28094> .
+
+<cooccurrence/CID28094_CID24393>
+    rdf:subject <compound/CID28094> .
+
+<cooccurrence/CID28094_CID24436>
+    rdf:subject <compound/CID28094> .
+
+<cooccurrence/CID28094_CID24461>
+    rdf:subject <compound/CID28094> .
+
+<cooccurrence/CID28094_CID24462>
+    rdf:subject <compound/CID28094> .
+
+<cooccurrence/CID28094_CID24470>
+    rdf:subject <compound/CID28094> .
+
+<cooccurrence/CID28094_CID24477>
+    rdf:subject <compound/CID28094> .
+
+<cooccurrence/CID28094_CID24489>
+    rdf:subject <compound/CID28094> .
+
+<cooccurrence/CID28094_CID24497>
+    rdf:subject <compound/CID28094> .
+
+<cooccurrence/CID28094_CID24524>
+    rdf:subject <compound/CID28094> .
+
+<cooccurrence/CID28094_CID24526>
+    rdf:subject <compound/CID28094> .
+
+<cooccurrence/CID28094_CID24580>
+    rdf:subject <compound/CID28094> .
+
+<cooccurrence/CID28094_CID24586>
+    rdf:subject <compound/CID28094> .
+
+<cooccurrence/CID28094_CID24748041>
+    rdf:subject <compound/CID28094> .
+
+<cooccurrence/CID28094_CID24826>
+    rdf:subject <compound/CID28094> .
+
+<cooccurrence/CID28094_CID25199732>
+    rdf:subject <compound/CID28094> .
+
+<cooccurrence/CID28094_CID25474>
+    rdf:subject <compound/CID28094> .
+
+<cooccurrence/CID28094_CID25517>
+    rdf:subject <compound/CID28094> .
+
+<cooccurrence/CID28094_CID25736>
+    rdf:subject <compound/CID28094> .
+
+<cooccurrence/CID28094_CID26039>
+    rdf:subject <compound/CID28094> .
+
+<cooccurrence/CID28094_CID26042>
+    rdf:subject <compound/CID28094> .
+
+<cooccurrence/CID28094_CID26518>
+    rdf:subject <compound/CID28094> .
+
+<cooccurrence/CID28094_CID2723622>
+    rdf:subject <compound/CID28094> .
+
+<cooccurrence/CID28094_CID2723790>
+    rdf:subject <compound/CID28094> .
+
+<cooccurrence/CID28094_CID2723800>
+    rdf:subject <compound/CID28094> .
+
+<cooccurrence/CID28094_CID2723949>
+    rdf:subject <compound/CID28094> .
+
+<cooccurrence/CID28094_CID2724251>
+    rdf:subject <compound/CID28094> .
+
+<cooccurrence/CID28094_CID2724822>
+    rdf:subject <compound/CID28094> .
+
+<cooccurrence/CID28094_CID27284>
+    rdf:subject <compound/CID28094> .
+
+<cooccurrence/CID28094_CID2760820>
+    rdf:subject <compound/CID28094> .
+
+<cooccurrence/CID28094_CID27924>
+    rdf:subject <compound/CID28094> .
+
+<cooccurrence/CID28094_CID281>
+    rdf:subject <compound/CID28094> .
+
+<cooccurrence/CID28094_CID283>
+    rdf:subject <compound/CID28094> .
+
+<cooccurrence/CID28094_CID28343>
+    rdf:subject <compound/CID28094> .
+
+<cooccurrence/CID28094_CID28486>
+    rdf:subject <compound/CID28094> .
+
+<cooccurrence/CID28094_CID28557>
+    rdf:subject <compound/CID28094> .
+
+<cooccurrence/CID28094_CID29109>
+    rdf:subject <compound/CID28094> .
+
+<cooccurrence/CID28094_CID294>
+    rdf:subject <compound/CID28094> .
+
+<cooccurrence/CID28094_CID297>
+    rdf:subject <compound/CID28094> .
+
+<cooccurrence/CID28094_CID3001860>
+    rdf:subject <compound/CID28094> .
+
+<cooccurrence/CID28094_CID30165>
+    rdf:subject <compound/CID28094> .
+
+<cooccurrence/CID28094_CID3028194>
+    rdf:subject <compound/CID28094> .
+
+<cooccurrence/CID28094_CID3032314>
+    rdf:subject <compound/CID28094> .
+
+<cooccurrence/CID28094_CID3037131>
+    rdf:subject <compound/CID28094> .
+
+<cooccurrence/CID28094_CID311>
+    rdf:subject <compound/CID28094> .
+
+<cooccurrence/CID28094_CID312>
+    rdf:subject <compound/CID28094> .
+
+<cooccurrence/CID28094_CID313>
+    rdf:subject <compound/CID28094> .
+
+<cooccurrence/CID28094_CID31348>
+    rdf:subject <compound/CID28094> .
+
+<cooccurrence/CID28094_CID31703>
+    rdf:subject <compound/CID28094> .
+
+<cooccurrence/CID28094_CID320761>
+    rdf:subject <compound/CID28094> .
+
+<cooccurrence/CID28094_CID3283>
+    rdf:subject <compound/CID28094> .
+
+<cooccurrence/CID28094_CID3301>
+    rdf:subject <compound/CID28094> .
+
+<cooccurrence/CID28094_CID3385>
+    rdf:subject <compound/CID28094> .
+
+<cooccurrence/CID28094_CID366248>
+    rdf:subject <compound/CID28094> .
+
+<cooccurrence/CID28094_CID402>
+    rdf:subject <compound/CID28094> .
+
+<cooccurrence/CID28094_CID41206>
+    rdf:subject <compound/CID28094> .
+
+<cooccurrence/CID28094_CID41322>
+    rdf:subject <compound/CID28094> .
+
+<cooccurrence/CID28094_CID417214>
+    rdf:subject <compound/CID28094> .
+
+<cooccurrence/CID28094_CID439375>
+    rdf:subject <compound/CID28094> .
+
+<cooccurrence/CID28094_CID439655>
+    rdf:subject <compound/CID28094> .
+
+<cooccurrence/CID28094_CID44155713>
+    rdf:subject <compound/CID28094> .
+
+<cooccurrence/CID28094_CID444041>
+    rdf:subject <compound/CID28094> .
+
+<cooccurrence/CID28094_CID444305>
+    rdf:subject <compound/CID28094> .
+
+<cooccurrence/CID28094_CID444732>
+    rdf:subject <compound/CID28094> .
+
+<cooccurrence/CID28094_CID444795>
+    rdf:subject <compound/CID28094> .
+
+<cooccurrence/CID28094_CID445639>
+    rdf:subject <compound/CID28094> .
+
+<cooccurrence/CID28094_CID446142>
+    rdf:subject <compound/CID28094> .
+
+<cooccurrence/CID28094_CID44630049>
+    rdf:subject <compound/CID28094> .
+
+<cooccurrence/CID28094_CID447626>
+    rdf:subject <compound/CID28094> .
+
+<cooccurrence/CID28094_CID451668>
+    rdf:subject <compound/CID28094> .
+
+<cooccurrence/CID28094_CID45357349>
+    rdf:subject <compound/CID28094> .
+
+<cooccurrence/CID28094_CID4583>
+    rdf:subject <compound/CID28094> .
+
+<cooccurrence/CID28094_CID4604180>
+    rdf:subject <compound/CID28094> .
+
+<cooccurrence/CID28094_CID4685>
+    rdf:subject <compound/CID28094> .
+
+<cooccurrence/CID28094_CID517573>
+    rdf:subject <compound/CID28094> .
+
+<cooccurrence/CID28094_CID5182128>
+    rdf:subject <compound/CID28094> .
+
+<cooccurrence/CID28094_CID518481>
+    rdf:subject <compound/CID28094> .
+
+<cooccurrence/CID28094_CID518710>
+    rdf:subject <compound/CID28094> .
+
+<cooccurrence/CID28094_CID5234>
+    rdf:subject <compound/CID28094> .
+
+<cooccurrence/CID28094_CID5283387>
+    rdf:subject <compound/CID28094> .
+
+<cooccurrence/CID28094_CID5352426>
+    rdf:subject <compound/CID28094> .
+
+<cooccurrence/CID28094_CID5355457>
+    rdf:subject <compound/CID28094> .
+
+<cooccurrence/CID28094_CID5356789>
+    rdf:subject <compound/CID28094> .
+
+<cooccurrence/CID28094_CID5359367>
+    rdf:subject <compound/CID28094> .
+
+<cooccurrence/CID28094_CID5359464>
+    rdf:subject <compound/CID28094> .
+
+<cooccurrence/CID28094_CID5359597>
+    rdf:subject <compound/CID28094> .
+
+<cooccurrence/CID28094_CID5360545>
+    rdf:subject <compound/CID28094> .
+
+<cooccurrence/CID28094_CID5362487>
+    rdf:subject <compound/CID28094> .
+
+<cooccurrence/CID28094_CID5460221>
+    rdf:subject <compound/CID28094> .
+
+<cooccurrence/CID28094_CID5460613>
+    rdf:subject <compound/CID28094> .
+
+<cooccurrence/CID28094_CID54607813>
+    rdf:subject <compound/CID28094> .
+
+<cooccurrence/CID28094_CID5462222>
+    rdf:subject <compound/CID28094> .
+
+<cooccurrence/CID28094_CID5462224>
+    rdf:subject <compound/CID28094> .
+
+<cooccurrence/CID28094_CID5462309>
+    rdf:subject <compound/CID28094> .
+
+<cooccurrence/CID28094_CID5462310>
+    rdf:subject <compound/CID28094> .
+
+<cooccurrence/CID28094_CID54670067>
+    rdf:subject <compound/CID28094> .
+
+<cooccurrence/CID28094_CID54675776>
+    rdf:subject <compound/CID28094> .
+
+<cooccurrence/CID28094_CID54675779>
+    rdf:subject <compound/CID28094> .
+
+<cooccurrence/CID28094_CID5566>
+    rdf:subject <compound/CID28094> .
+
+<cooccurrence/CID28094_CID57741935>
+    rdf:subject <compound/CID28094> .
+
+<cooccurrence/CID28094_CID5789>
+    rdf:subject <compound/CID28094> .
+
+<cooccurrence/CID28094_CID5793>
+    rdf:subject <compound/CID28094> .
+
+<cooccurrence/CID28094_CID5862>
+    rdf:subject <compound/CID28094> .
+
+<cooccurrence/CID28094_CID5904>
+    rdf:subject <compound/CID28094> .
+
+<cooccurrence/CID28094_CID5921>
+    rdf:subject <compound/CID28094> .
+
+<cooccurrence/CID28094_CID5961>
+    rdf:subject <compound/CID28094> .
+
+<cooccurrence/CID28094_CID5962>
+    rdf:subject <compound/CID28094> .
+
+<cooccurrence/CID28094_CID5974>
+    rdf:subject <compound/CID28094> .
+
+<cooccurrence/CID28094_CID5975>
+    rdf:subject <compound/CID28094> .
+
+<cooccurrence/CID28094_CID5988>
+    rdf:subject <compound/CID28094> .
+
+<cooccurrence/CID28094_CID6029>
+    rdf:subject <compound/CID28094> .
+
+<cooccurrence/CID28094_CID6049>
+    rdf:subject <compound/CID28094> .
+
+<cooccurrence/CID28094_CID6099>
+    rdf:subject <compound/CID28094> .
+
+<cooccurrence/CID28094_CID61>
+    rdf:subject <compound/CID28094> .
+
+<cooccurrence/CID28094_CID6106>
+    rdf:subject <compound/CID28094> .
+
+<cooccurrence/CID28094_CID612>
+    rdf:subject <compound/CID28094> .
+
+<cooccurrence/CID28094_CID61534>
+    rdf:subject <compound/CID28094> .
+
+<cooccurrence/CID28094_CID61630>
+    rdf:subject <compound/CID28094> .
+
+<cooccurrence/CID28094_CID61739>
+    rdf:subject <compound/CID28094> .
+
+<cooccurrence/CID28094_CID61767>
+    rdf:subject <compound/CID28094> .
+
+<cooccurrence/CID28094_CID6212>
+    rdf:subject <compound/CID28094> .
+
+<cooccurrence/CID28094_CID62391>
+    rdf:subject <compound/CID28094> .
+
+<cooccurrence/CID28094_CID62394>
+    rdf:subject <compound/CID28094> .
+
+<cooccurrence/CID28094_CID62780>
+    rdf:subject <compound/CID28094> .
+
+<cooccurrence/CID28094_CID6300>
+    rdf:subject <compound/CID28094> .
+
+<cooccurrence/CID28094_CID6324>
+    rdf:subject <compound/CID28094> .
+
+<cooccurrence/CID28094_CID6325>
+    rdf:subject <compound/CID28094> .
+
+<cooccurrence/CID28094_CID6326>
+    rdf:subject <compound/CID28094> .
+
+<cooccurrence/CID28094_CID6326970>
+    rdf:subject <compound/CID28094> .
+
+<cooccurrence/CID28094_CID6338>
+    rdf:subject <compound/CID28094> .
+
+<cooccurrence/CID28094_CID640429>
+    rdf:subject <compound/CID28094> .
+
+<cooccurrence/CID28094_CID6432095>
+    rdf:subject <compound/CID28094> .
+
+<cooccurrence/CID28094_CID643833>
+    rdf:subject <compound/CID28094> .
+
+<cooccurrence/CID28094_CID6451226>
+    rdf:subject <compound/CID28094> .
+
+<cooccurrence/CID28094_CID65046>
+    rdf:subject <compound/CID28094> .
+
+<cooccurrence/CID28094_CID6518168>
+    rdf:subject <compound/CID28094> .
+
+<cooccurrence/CID28094_CID65275>
+    rdf:subject <compound/CID28094> .
+
+<cooccurrence/CID28094_CID65577>
+    rdf:subject <compound/CID28094> .
+
+<cooccurrence/CID28094_CID6575>
+    rdf:subject <compound/CID28094> .
+
+<cooccurrence/CID28094_CID6694>
+    rdf:subject <compound/CID28094> .
+
+<cooccurrence/CID28094_CID67000>
+    rdf:subject <compound/CID28094> .
+
+<cooccurrence/CID28094_CID681>
+    rdf:subject <compound/CID28094> .
+
+<cooccurrence/CID28094_CID68245>
+    rdf:subject <compound/CID28094> .
+
+<cooccurrence/CID28094_CID6989>
+    rdf:subject <compound/CID28094> .
+
+<cooccurrence/CID28094_CID700999>
+    rdf:subject <compound/CID28094> .
+
+<cooccurrence/CID28094_CID702>
+    rdf:subject <compound/CID28094> .
+
+<cooccurrence/CID28094_CID70702285>
+    rdf:subject <compound/CID28094> .
+
+<cooccurrence/CID28094_CID7095>
+    rdf:subject <compound/CID28094> .
+
+<cooccurrence/CID28094_CID712>
+    rdf:subject <compound/CID28094> .
+
+<cooccurrence/CID28094_CID71306822>
+    rdf:subject <compound/CID28094> .
+
+<cooccurrence/CID28094_CID71315066>
+    rdf:subject <compound/CID28094> .
+
+<cooccurrence/CID28094_CID71739>
+    rdf:subject <compound/CID28094> .
+
+<cooccurrence/CID28094_CID71853>
+    rdf:subject <compound/CID28094> .
+
+<cooccurrence/CID28094_CID72720442>
+    rdf:subject <compound/CID28094> .
+
+<cooccurrence/CID28094_CID72801>
+    rdf:subject <compound/CID28094> .
+
+<cooccurrence/CID28094_CID7497>
+    rdf:subject <compound/CID28094> .
+
+<cooccurrence/CID28094_CID750>
+    rdf:subject <compound/CID28094> .
+
+<cooccurrence/CID28094_CID7501>
+    rdf:subject <compound/CID28094> .
+
+<cooccurrence/CID28094_CID76470>
+    rdf:subject <compound/CID28094> .
+
+<cooccurrence/CID28094_CID768>
+    rdf:subject <compound/CID28094> .
+
+<cooccurrence/CID28094_CID76961>
+    rdf:subject <compound/CID28094> .
+
+<cooccurrence/CID28094_CID7814>
+    rdf:subject <compound/CID28094> .
+
+<cooccurrence/CID28094_CID783>
+    rdf:subject <compound/CID28094> .
+
+<cooccurrence/CID28094_CID784>
+    rdf:subject <compound/CID28094> .
+
+<cooccurrence/CID28094_CID8030>
+    rdf:subject <compound/CID28094> .
+
+<cooccurrence/CID28094_CID807>
+    rdf:subject <compound/CID28094> .
+
+<cooccurrence/CID28094_CID8195>
+    rdf:subject <compound/CID28094> .
+
+<cooccurrence/CID28094_CID8217>
+    rdf:subject <compound/CID28094> .
+
+<cooccurrence/CID28094_CID8272>
+    rdf:subject <compound/CID28094> .
+
+<cooccurrence/CID28094_CID82791>
+    rdf:subject <compound/CID28094> .
+
+<cooccurrence/CID28094_CID82899>
+    rdf:subject <compound/CID28094> .
+
+<cooccurrence/CID28094_CID82916>
+    rdf:subject <compound/CID28094> .
+
+<cooccurrence/CID28094_CID8301>
+    rdf:subject <compound/CID28094> .
+
+<cooccurrence/CID28094_CID8447>
+    rdf:subject <compound/CID28094> .
+
+<cooccurrence/CID28094_CID875>
+    rdf:subject <compound/CID28094> .
+
+<cooccurrence/CID28094_CID8758>
+    rdf:subject <compound/CID28094> .
+
+<cooccurrence/CID28094_CID8766>
+    rdf:subject <compound/CID28094> .
+
+<cooccurrence/CID28094_CID878>
+    rdf:subject <compound/CID28094> .
+
+<cooccurrence/CID28094_CID87809>
+    rdf:subject <compound/CID28094> .
+
+<cooccurrence/CID28094_CID8793>
+    rdf:subject <compound/CID28094> .
+
+<cooccurrence/CID28094_CID8823>
+    rdf:subject <compound/CID28094> .
+
+<cooccurrence/CID28094_CID8846>
+    rdf:subject <compound/CID28094> .
+
+<cooccurrence/CID28094_CID887>
+    rdf:subject <compound/CID28094> .
+
+<cooccurrence/CID28094_CID88989>
+    rdf:subject <compound/CID28094> .
+
+<cooccurrence/CID28094_CID8926>
+    rdf:subject <compound/CID28094> .
+
+<cooccurrence/CID28094_CID9032>
+    rdf:subject <compound/CID28094> .
+
+<cooccurrence/CID28094_CID90384115>
+    rdf:subject <compound/CID28094> .
+
+<cooccurrence/CID28094_CID91435>
+    rdf:subject <compound/CID28094> .
+
+<cooccurrence/CID28094_CID91502>
+    rdf:subject <compound/CID28094> .
+
+<cooccurrence/CID28094_CID91886670>
+    rdf:subject <compound/CID28094> .
+
+<cooccurrence/CID28094_CID923>
+    rdf:subject <compound/CID28094> .
+
+<cooccurrence/CID28094_CID9322>
+    rdf:subject <compound/CID28094> .
+
+<cooccurrence/CID28094_CID934>
+    rdf:subject <compound/CID28094> .
+
+<cooccurrence/CID28094_CID935>
+    rdf:subject <compound/CID28094> .
+
+<cooccurrence/CID28094_CID943>
+    rdf:subject <compound/CID28094> .
+
+<cooccurrence/CID28094_CID9444>
+    rdf:subject <compound/CID28094> .
+
+<cooccurrence/CID28094_CID946>
+    rdf:subject <compound/CID28094> .
+
+<cooccurrence/CID28094_CID947>
+    rdf:subject <compound/CID28094> .
+
+<cooccurrence/CID28094_CID948>
+    rdf:subject <compound/CID28094> .
+
+<cooccurrence/CID28094_CID961>
+    rdf:subject <compound/CID28094> .
+
+<cooccurrence/CID28094_CID962>
+    rdf:subject <compound/CID28094> .
+
+<cooccurrence/CID28094_CID971>
+    rdf:subject <compound/CID28094> .
+
+<cooccurrence/CID28094_CID9756>
+    rdf:subject <compound/CID28094> .
+
+<cooccurrence/CID28094_CID977>
+    rdf:subject <compound/CID28094> .
+
+<cooccurrence/CID28094_CID980>
+    rdf:subject <compound/CID28094> .
+
+<cooccurrence/CID28094_CID996>
+    rdf:subject <compound/CID28094> .
+
+<cooccurrence/CID28094_CID9999>
+    rdf:subject <compound/CID28094> .
+
+<cooccurrence/CID28094_DZID10054>
+    rdf:subject <compound/CID28094> .
+
+<cooccurrence/CID28094_DZID10154>
+    rdf:subject <compound/CID28094> .
+
+<cooccurrence/CID28094_DZID10218>
+    rdf:subject <compound/CID28094> .
+
+<cooccurrence/CID28094_DZID10371>
+    rdf:subject <compound/CID28094> .
+
+<cooccurrence/CID28094_DZID10788>
+    rdf:subject <compound/CID28094> .
+
+<cooccurrence/CID28094_DZID10929>
+    rdf:subject <compound/CID28094> .
+
+<cooccurrence/CID28094_DZID11249>
+    rdf:subject <compound/CID28094> .
+
+<cooccurrence/CID28094_DZID11431>
+    rdf:subject <compound/CID28094> .
+
+<cooccurrence/CID28094_DZID11449>
+    rdf:subject <compound/CID28094> .
+
+<cooccurrence/CID28094_DZID508>
+    rdf:subject <compound/CID28094> .
+
+<cooccurrence/CID28094_DZID6799>
+    rdf:subject <compound/CID28094> .
+
+<cooccurrence/CID28094_DZID6816>
+    rdf:subject <compound/CID28094> .
+
+<cooccurrence/CID28094_DZID6891>
+    rdf:subject <compound/CID28094> .
+
+<cooccurrence/CID28094_DZID6914>
+    rdf:subject <compound/CID28094> .
+
+<cooccurrence/CID28094_DZID6965>
+    rdf:subject <compound/CID28094> .
+
+<cooccurrence/CID28094_DZID6969>
+    rdf:subject <compound/CID28094> .
+
+<cooccurrence/CID28094_DZID6996>
+    rdf:subject <compound/CID28094> .
+
+<cooccurrence/CID28094_DZID7001>
+    rdf:subject <compound/CID28094> .
+
+<cooccurrence/CID28094_DZID7102>
+    rdf:subject <compound/CID28094> .
+
+<cooccurrence/CID28094_DZID7156>
+    rdf:subject <compound/CID28094> .
+
+<cooccurrence/CID28094_DZID7157>
+    rdf:subject <compound/CID28094> .
+
+<cooccurrence/CID28094_DZID7161>
+    rdf:subject <compound/CID28094> .
+
+<cooccurrence/CID28094_DZID7162>
+    rdf:subject <compound/CID28094> .
+
+<cooccurrence/CID28094_DZID7168>
+    rdf:subject <compound/CID28094> .
+
+<cooccurrence/CID28094_DZID7172>
+    rdf:subject <compound/CID28094> .
+
+<cooccurrence/CID28094_DZID7199>
+    rdf:subject <compound/CID28094> .
+
+<cooccurrence/CID28094_DZID7277>
+    rdf:subject <compound/CID28094> .
+
+<cooccurrence/CID28094_DZID7428>
+    rdf:subject <compound/CID28094> .
+
+<cooccurrence/CID28094_DZID7433>
+    rdf:subject <compound/CID28094> .
+
+<cooccurrence/CID28094_DZID7706>
+    rdf:subject <compound/CID28094> .
+
+<cooccurrence/CID28094_DZID7738>
+    rdf:subject <compound/CID28094> .
+
+<cooccurrence/CID28094_DZID7739>
+    rdf:subject <compound/CID28094> .
+
+<cooccurrence/CID28094_DZID7771>
+    rdf:subject <compound/CID28094> .
+
+<cooccurrence/CID28094_DZID7998>
+    rdf:subject <compound/CID28094> .
+
+<cooccurrence/CID28094_DZID8084>
+    rdf:subject <compound/CID28094> .
+
+<cooccurrence/CID28094_DZID8094>
+    rdf:subject <compound/CID28094> .
+
+<cooccurrence/CID28094_DZID8096>
+    rdf:subject <compound/CID28094> .
+
+<cooccurrence/CID28094_DZID8166>
+    rdf:subject <compound/CID28094> .
+
+<cooccurrence/CID28094_DZID8167>
+    rdf:subject <compound/CID28094> .
+
+<cooccurrence/CID28094_DZID8173>
+    rdf:subject <compound/CID28094> .
+
+<cooccurrence/CID28094_DZID8233>
+    rdf:subject <compound/CID28094> .
+
+<cooccurrence/CID28094_DZID8235>
+    rdf:subject <compound/CID28094> .
+
+<cooccurrence/CID28094_DZID8289>
+    rdf:subject <compound/CID28094> .
+
+<cooccurrence/CID28094_DZID8366>
+    rdf:subject <compound/CID28094> .
+
+<cooccurrence/CID28094_DZID8572>
+    rdf:subject <compound/CID28094> .
+
+<cooccurrence/CID28094_DZID8603>
+    rdf:subject <compound/CID28094> .
+
+<cooccurrence/CID28094_DZID8607>
+    rdf:subject <compound/CID28094> .
+
+<cooccurrence/CID28094_DZID8674>
+    rdf:subject <compound/CID28094> .
+
+<cooccurrence/CID28094_DZID8869>
+    rdf:subject <compound/CID28094> .
+
+<cooccurrence/CID28094_DZID8911>
+    rdf:subject <compound/CID28094> .
+
+<cooccurrence/CID28094_DZID8927>
+    rdf:subject <compound/CID28094> .
+
+<cooccurrence/CID28094_DZID8933>
+    rdf:subject <compound/CID28094> .
+
+<cooccurrence/CID28094_DZID8937>
+    rdf:subject <compound/CID28094> .
+
+<cooccurrence/CID28094_DZID8995>
+    rdf:subject <compound/CID28094> .
+
+<cooccurrence/CID28094_DZID9025>
+    rdf:subject <compound/CID28094> .
+
+<cooccurrence/CID28094_DZID9105>
+    rdf:subject <compound/CID28094> .
+
+<cooccurrence/CID28094_DZID9149>
+    rdf:subject <compound/CID28094> .
+
+<cooccurrence/CID28094_DZID9156>
+    rdf:subject <compound/CID28094> .
+
+<cooccurrence/CID28094_DZID9355>
+    rdf:subject <compound/CID28094> .
+
+<cooccurrence/CID28094_DZID9709>
+    rdf:subject <compound/CID28094> .
+
+<cooccurrence/CID28094_DZID9774>
+    rdf:subject <compound/CID28094> .
+
+<cooccurrence/CID28094_EC_1.11.1.7>
+    rdf:subject <compound/CID28094> .
+
+<cooccurrence/CID28094_EC_1.15.1.1>
+    rdf:subject <compound/CID28094> .
+
+<cooccurrence/CID28094_EC_2.1.1.37>
+    rdf:subject <compound/CID28094> .
+
+<cooccurrence/CID28094_EC_2.4.2.22>
+    rdf:subject <compound/CID28094> .
+
+<cooccurrence/CID28094_EC_2.7.11.24>
+    rdf:subject <compound/CID28094> .
+
+<cooccurrence/CID28094_EC_3.1.3.2>
+    rdf:subject <compound/CID28094> .
+
+<cooccurrence/CID28094_EC_3.2.1.18>
+    rdf:subject <compound/CID28094> .
+
+<cooccurrence/CID28094_EC_3.4.21.77>
+    rdf:subject <compound/CID28094> .
+
+<cooccurrence/CID28094_EC_3.5.1.98>
+    rdf:subject <compound/CID28094> .
+
+<cooccurrence/CID28094_agtr1>
+    rdf:subject <compound/CID28094> .
+
+<cooccurrence/CID28094_anon-2da>
+    rdf:subject <compound/CID28094> .
+
+<cooccurrence/CID28094_arg1>
+    rdf:subject <compound/CID28094> .
+
+<cooccurrence/CID28094_atrn>
+    rdf:subject <compound/CID28094> .
+
+<cooccurrence/CID28094_axin2>
+    rdf:subject <compound/CID28094> .
+
+<cooccurrence/CID28094_canx>
+    rdf:subject <compound/CID28094> .
+
+<cooccurrence/CID28094_cat>
+    rdf:subject <compound/CID28094> .
+
+<cooccurrence/CID28094_cd1>
+    rdf:subject <compound/CID28094> .
+
+<cooccurrence/CID28094_cd1a>
+    rdf:subject <compound/CID28094> .
+
+<cooccurrence/CID28094_cd1b>
+    rdf:subject <compound/CID28094> .
+
+<cooccurrence/CID28094_cd1c>
+    rdf:subject <compound/CID28094> .
+
+<cooccurrence/CID28094_cd2>
+    rdf:subject <compound/CID28094> .
+
+<cooccurrence/CID28094_cd4>
+    rdf:subject <compound/CID28094> .
+
+<cooccurrence/CID28094_cdkn2a>
+    rdf:subject <compound/CID28094> .
+
+<cooccurrence/CID28094_cdon>
+    rdf:subject <compound/CID28094> .
+
+<cooccurrence/CID28094_col18a1>
+    rdf:subject <compound/CID28094> .
+
+<cooccurrence/CID28094_ctsb>
+    rdf:subject <compound/CID28094> .
+
+<cooccurrence/CID28094_cycs>
+    rdf:subject <compound/CID28094> .
+
+<cooccurrence/CID28094_cyns>
+    rdf:subject <compound/CID28094> .
+
+<cooccurrence/CID28094_des>
+    rdf:subject <compound/CID28094> .
+
+<cooccurrence/CID28094_dnmt1>
+    rdf:subject <compound/CID28094> .
+
+<cooccurrence/CID28094_ect2>
+    rdf:subject <compound/CID28094> .
+
+<cooccurrence/CID28094_epo>
+    rdf:subject <compound/CID28094> .
+
+<cooccurrence/CID28094_fes1>
+    rdf:subject <compound/CID28094> .
+
+<cooccurrence/CID28094_fhit>
+    rdf:subject <compound/CID28094> .
+
+<cooccurrence/CID28094_fto>
+    rdf:subject <compound/CID28094> .
+
+<cooccurrence/CID28094_gcnt7>
+    rdf:subject <compound/CID28094> .
+
+<cooccurrence/CID28094_gli3>
+    rdf:subject <compound/CID28094> .
+
+<cooccurrence/CID28094_gpkow>
+    rdf:subject <compound/CID28094> .
+
+<cooccurrence/CID28094_gpt>
+    rdf:subject <compound/CID28094> .
+
+<cooccurrence/CID28094_grhpr>
+    rdf:subject <compound/CID28094> .
+
+<cooccurrence/CID28094_h3p10>
+    rdf:subject <compound/CID28094> .
+
+<cooccurrence/CID28094_hbe>
+    rdf:subject <compound/CID28094> .
+
+<cooccurrence/CID28094_hbe1>
+    rdf:subject <compound/CID28094> .
+
+<cooccurrence/CID28094_hcs>
+    rdf:subject <compound/CID28094> .
+
+<cooccurrence/CID28094_hlcs>
+    rdf:subject <compound/CID28094> .
+
+<cooccurrence/CID28094_hprt>
+    rdf:subject <compound/CID28094> .
+
+<cooccurrence/CID28094_hprt1>
+    rdf:subject <compound/CID28094> .
+
+<cooccurrence/CID28094_hsp90b1>
+    rdf:subject <compound/CID28094> .
+
+<cooccurrence/CID28094_hspbp1>
+    rdf:subject <compound/CID28094> .
+
+<cooccurrence/CID28094_ifna1>
+    rdf:subject <compound/CID28094> .
+
+<cooccurrence/CID28094_ifnlr1>
+    rdf:subject <compound/CID28094> .
+
+<cooccurrence/CID28094_il2>
+    rdf:subject <compound/CID28094> .
+
+<cooccurrence/CID28094_kat8>
+    rdf:subject <compound/CID28094> .
+
+<cooccurrence/CID28094_klk3>
+    rdf:subject <compound/CID28094> .
+
+<cooccurrence/CID28094_kno>
+    rdf:subject <compound/CID28094> .
+
+<cooccurrence/CID28094_ldh>
+    rdf:subject <compound/CID28094> .
+
+<cooccurrence/CID28094_mb>
+    rdf:subject <compound/CID28094> .
+
+<cooccurrence/CID28094_mecp2>
+    rdf:subject <compound/CID28094> .
+
+<cooccurrence/CID28094_med4>
+    rdf:subject <compound/CID28094> .
+
+<cooccurrence/CID28094_mir152>
+    rdf:subject <compound/CID28094> .
+
+<cooccurrence/CID28094_mof>
+    rdf:subject <compound/CID28094> .
+
+<cooccurrence/CID28094_mos2>
+    rdf:subject <compound/CID28094> .
+
+<cooccurrence/CID28094_myc>
+    rdf:subject <compound/CID28094> .
+
+<cooccurrence/CID28094_mylk>
+    rdf:subject <compound/CID28094> .
+
+<cooccurrence/CID28094_nsd1>
+    rdf:subject <compound/CID28094> .
+
+<cooccurrence/CID28094_odc1>
+    rdf:subject <compound/CID28094> .
+
+<cooccurrence/CID28094_p53>
+    rdf:subject <compound/CID28094> .
+
+<cooccurrence/CID28094_pb2>
+    rdf:subject <compound/CID28094> .
+
+<cooccurrence/CID28094_pfdn5>
+    rdf:subject <compound/CID28094> .
+
+<cooccurrence/CID28094_prdx2>
+    rdf:subject <compound/CID28094> .
+
+<cooccurrence/CID28094_ptges>
+    rdf:subject <compound/CID28094> .
+
+<cooccurrence/CID28094_sfrp4>
+    rdf:subject <compound/CID28094> .
+
+<cooccurrence/CID28094_sto>
+    rdf:subject <compound/CID28094> .
+
+<cooccurrence/CID28094_tco>
+    rdf:subject <compound/CID28094> .
+
+<cooccurrence/CID28094_tp53>
+    rdf:subject <compound/CID28094> .
+
+<cooccurrence/CID28094_vim>
+    rdf:subject <compound/CID28094> .
+
+<cooccurrence/CID28094_wdr1>
+    rdf:subject <compound/CID28094> .
+
+<cooccurrence/CID28094_wg>
+    rdf:subject <compound/CID28094> .
+
+<cooccurrence/CID28486_CID28094>
+    rdf:object <compound/CID28094> .
+
+<cooccurrence/CID28557_CID28094>
+    rdf:object <compound/CID28094> .
+
+<cooccurrence/CID29109_CID28094>
+    rdf:object <compound/CID28094> .
+
+<cooccurrence/CID3001860_CID28094>
+    rdf:object <compound/CID28094> .
+
+<cooccurrence/CID3032314_CID28094>
+    rdf:object <compound/CID28094> .
+
+<cooccurrence/CID3037131_CID28094>
+    rdf:object <compound/CID28094> .
+
+<cooccurrence/CID41206_CID28094>
+    rdf:object <compound/CID28094> .
+
+<cooccurrence/CID41322_CID28094>
+    rdf:object <compound/CID28094> .
+
+<cooccurrence/CID439375_CID28094>
+    rdf:object <compound/CID28094> .
+
+<cooccurrence/CID44155713_CID28094>
+    rdf:object <compound/CID28094> .
+
+<cooccurrence/CID446142_CID28094>
+    rdf:object <compound/CID28094> .
+
+<cooccurrence/CID447626_CID28094>
+    rdf:object <compound/CID28094> .
+
+<cooccurrence/CID4685_CID28094>
+    rdf:object <compound/CID28094> .
+
+<cooccurrence/CID5182128_CID28094>
+    rdf:object <compound/CID28094> .
+
+<cooccurrence/CID518481_CID28094>
+    rdf:object <compound/CID28094> .
+
+<cooccurrence/CID518710_CID28094>
+    rdf:object <compound/CID28094> .
+
+<cooccurrence/CID5283387_CID28094>
+    rdf:object <compound/CID28094> .
+
+<cooccurrence/CID5356789_CID28094>
+    rdf:object <compound/CID28094> .
+
+<cooccurrence/CID5362487_CID28094>
+    rdf:object <compound/CID28094> .
+
+<cooccurrence/CID61534_CID28094>
+    rdf:object <compound/CID28094> .
+
+<cooccurrence/CID61630_CID28094>
+    rdf:object <compound/CID28094> .
+
+<cooccurrence/CID61767_CID28094>
+    rdf:object <compound/CID28094> .
+
+<cooccurrence/CID61_CID28094>
+    rdf:object <compound/CID28094> .
+
+<cooccurrence/CID62391_CID28094>
+    rdf:object <compound/CID28094> .
+
+<cooccurrence/CID62394_CID28094>
+    rdf:object <compound/CID28094> .
+
+<cooccurrence/CID62780_CID28094>
+    rdf:object <compound/CID28094> .
+
+<cooccurrence/CID6300_CID28094>
+    rdf:object <compound/CID28094> .
+
+<cooccurrence/CID6326_CID28094>
+    rdf:object <compound/CID28094> .
+
+<cooccurrence/CID6338_CID28094>
+    rdf:object <compound/CID28094> .
+
+<cooccurrence/CID643833_CID28094>
+    rdf:object <compound/CID28094> .
+
+<cooccurrence/CID6451226_CID28094>
+    rdf:object <compound/CID28094> .
+
+<cooccurrence/CID65046_CID28094>
+    rdf:object <compound/CID28094> .
+
+<cooccurrence/CID65275_CID28094>
+    rdf:object <compound/CID28094> .
+
+<cooccurrence/CID65577_CID28094>
+    rdf:object <compound/CID28094> .
+
+<cooccurrence/CID67000_CID28094>
+    rdf:object <compound/CID28094> .
+
+<cooccurrence/CID700999_CID28094>
+    rdf:object <compound/CID28094> .
+
+<cooccurrence/CID72720442_CID28094>
+    rdf:object <compound/CID28094> .
+
+<cooccurrence/CID72801_CID28094>
+    rdf:object <compound/CID28094> .
+
+<cooccurrence/CID76470_CID28094>
+    rdf:object <compound/CID28094> .
+
+<cooccurrence/CID76961_CID28094>
+    rdf:object <compound/CID28094> .
+
+<cooccurrence/CID783_CID28094>
+    rdf:object <compound/CID28094> .
+
+<cooccurrence/CID8030_CID28094>
+    rdf:object <compound/CID28094> .
+
+<cooccurrence/CID8195_CID28094>
+    rdf:object <compound/CID28094> .
+
+<cooccurrence/CID8217_CID28094>
+    rdf:object <compound/CID28094> .
+
+<cooccurrence/CID8272_CID28094>
+    rdf:object <compound/CID28094> .
+
+<cooccurrence/CID82791_CID28094>
+    rdf:object <compound/CID28094> .
+
+<cooccurrence/CID82899_CID28094>
+    rdf:object <compound/CID28094> .
+
+<cooccurrence/CID8447_CID28094>
+    rdf:object <compound/CID28094> .
+
+<cooccurrence/CID8766_CID28094>
+    rdf:object <compound/CID28094> .
+
+<cooccurrence/CID87809_CID28094>
+    rdf:object <compound/CID28094> .
+
+<cooccurrence/CID8793_CID28094>
+    rdf:object <compound/CID28094> .
+
+<cooccurrence/CID8823_CID28094>
+    rdf:object <compound/CID28094> .
+
+<cooccurrence/CID8846_CID28094>
+    rdf:object <compound/CID28094> .
+
+<cooccurrence/CID88989_CID28094>
+    rdf:object <compound/CID28094> .
+
+<cooccurrence/CID8926_CID28094>
+    rdf:object <compound/CID28094> .
+
+<cooccurrence/CID91502_CID28094>
+    rdf:object <compound/CID28094> .
+
+<cooccurrence/CID91886670_CID28094>
+    rdf:object <compound/CID28094> .
+
+<cooccurrence/CID934_CID28094>
+    rdf:object <compound/CID28094> .
+
+<cooccurrence/CID935_CID28094>
+    rdf:object <compound/CID28094> .
+
+<cooccurrence/CID9756_CID28094>
+    rdf:object <compound/CID28094> .
+
+<cooccurrence/CID9999_CID28094>
+    rdf:object <compound/CID28094> .
+
+<cooccurrence/DZID10054_CID28094>
+    rdf:object <compound/CID28094> .
+
+<cooccurrence/DZID10154_CID28094>
+    rdf:object <compound/CID28094> .
+
+<cooccurrence/DZID10218_CID28094>
+    rdf:object <compound/CID28094> .
+
+<cooccurrence/DZID10371_CID28094>
+    rdf:object <compound/CID28094> .
+
+<cooccurrence/DZID10929_CID28094>
+    rdf:object <compound/CID28094> .
+
+<cooccurrence/DZID508_CID28094>
+    rdf:object <compound/CID28094> .
+
+<cooccurrence/DZID7161_CID28094>
+    rdf:object <compound/CID28094> .
+
+<cooccurrence/DZID7162_CID28094>
+    rdf:object <compound/CID28094> .
+
+<cooccurrence/DZID7199_CID28094>
+    rdf:object <compound/CID28094> .
+
+<cooccurrence/DZID7738_CID28094>
+    rdf:object <compound/CID28094> .
+
+<cooccurrence/DZID8084_CID28094>
+    rdf:object <compound/CID28094> .
+
+<cooccurrence/DZID8289_CID28094>
+    rdf:object <compound/CID28094> .
+
+<cooccurrence/DZID8572_CID28094>
+    rdf:object <compound/CID28094> .
+
+<cooccurrence/DZID8674_CID28094>
+    rdf:object <compound/CID28094> .
+
+<cooccurrence/DZID8933_CID28094>
+    rdf:object <compound/CID28094> .
+
+<cooccurrence/DZID9105_CID28094>
+    rdf:object <compound/CID28094> .
+
+<cooccurrence/DZID9149_CID28094>
+    rdf:object <compound/CID28094> .
+
+<cooccurrence/DZID9355_CID28094>
+    rdf:object <compound/CID28094> .
+
+<cooccurrence/DZID9774_CID28094>
+    rdf:object <compound/CID28094> .
+
+<cooccurrence/EC_2.1.1.37_CID28094>
+    rdf:object <compound/CID28094> .
+
+<cooccurrence/EC_2.4.2.22_CID28094>
+    rdf:object <compound/CID28094> .
+
+<cooccurrence/canx_CID28094>
+    rdf:object <compound/CID28094> .
+
+<cooccurrence/cdon_CID28094>
+    rdf:object <compound/CID28094> .
+
+<cooccurrence/col18a1_CID28094>
+    rdf:object <compound/CID28094> .
+
+<cooccurrence/cycs_CID28094>
+    rdf:object <compound/CID28094> .
+
+<cooccurrence/cyns_CID28094>
+    rdf:object <compound/CID28094> .
+
+<cooccurrence/des_CID28094>
+    rdf:object <compound/CID28094> .
+
+<cooccurrence/dnmt1_CID28094>
+    rdf:object <compound/CID28094> .
+
+<cooccurrence/ect2_CID28094>
+    rdf:object <compound/CID28094> .
+
+<cooccurrence/fes1_CID28094>
+    rdf:object <compound/CID28094> .
+
+<cooccurrence/fhit_CID28094>
+    rdf:object <compound/CID28094> .
+
+<cooccurrence/fto_CID28094>
+    rdf:object <compound/CID28094> .
+
+<cooccurrence/gcnt7_CID28094>
+    rdf:object <compound/CID28094> .
+
+<cooccurrence/gpkow_CID28094>
+    rdf:object <compound/CID28094> .
+
+<cooccurrence/grhpr_CID28094>
+    rdf:object <compound/CID28094> .
+
+<cooccurrence/hbe1_CID28094>
+    rdf:object <compound/CID28094> .
+
+<cooccurrence/hbe_CID28094>
+    rdf:object <compound/CID28094> .
+
+<cooccurrence/hcs_CID28094>
+    rdf:object <compound/CID28094> .
+
+<cooccurrence/hlcs_CID28094>
+    rdf:object <compound/CID28094> .
+
+<cooccurrence/hprt1_CID28094>
+    rdf:object <compound/CID28094> .
+
+<cooccurrence/hprt_CID28094>
+    rdf:object <compound/CID28094> .
+
+<cooccurrence/hspbp1_CID28094>
+    rdf:object <compound/CID28094> .
+
+<cooccurrence/ifna1_CID28094>
+    rdf:object <compound/CID28094> .
+
+<cooccurrence/kno_CID28094>
+    rdf:object <compound/CID28094> .
+
+<cooccurrence/mecp2_CID28094>
+    rdf:object <compound/CID28094> .
+
+<cooccurrence/med4_CID28094>
+    rdf:object <compound/CID28094> .
+
+<cooccurrence/mir152_CID28094>
+    rdf:object <compound/CID28094> .
+
+<cooccurrence/mos2_CID28094>
+    rdf:object <compound/CID28094> .
+
+<cooccurrence/nsd1_CID28094>
+    rdf:object <compound/CID28094> .
+
+<cooccurrence/pfdn5_CID28094>
+    rdf:object <compound/CID28094> .
+
+<cooccurrence/ptges_CID28094>
+    rdf:object <compound/CID28094> .
+
+<cooccurrence/sfrp4_CID28094>
+    rdf:object <compound/CID28094> .
+
+<cooccurrence/sto_CID28094>
+    rdf:object <compound/CID28094> .
+
+<cooccurrence/tco_CID28094>
+    rdf:object <compound/CID28094> .
+
+<cooccurrence/wdr1_CID28094>
+    rdf:object <compound/CID28094> .
+
+<inchikey/WWNBZGLDODTKEM-UHFFFAOYSA-N>
+    <http://semanticscience.org/resource/SIO_000011> <compound/CID28094> .
+
+<substance/SID104301789>
+    <http://semanticscience.org/resource/CHEMINF_000477> <compound/CID28094> .
+
+<substance/SID10510275>
+    <http://semanticscience.org/resource/CHEMINF_000477> <compound/CID28094> .
+
+<substance/SID134993303>
+    <http://semanticscience.org/resource/CHEMINF_000477> <compound/CID28094> .
+
+<substance/SID135018186>
+    <http://semanticscience.org/resource/CHEMINF_000477> <compound/CID28094> .
+
+<substance/SID135020594>
+    <http://semanticscience.org/resource/CHEMINF_000477> <compound/CID28094> .
+
+<substance/SID135371459>
+    <http://semanticscience.org/resource/CHEMINF_000477> <compound/CID28094> .
+
+<substance/SID152050877>
+    <http://semanticscience.org/resource/CHEMINF_000477> <compound/CID28094> .
+
+<substance/SID162096993>
+    <http://semanticscience.org/resource/CHEMINF_000477> <compound/CID28094> .
+
+<substance/SID163302725>
+    <http://semanticscience.org/resource/CHEMINF_000477> <compound/CID28094> .
+
+<substance/SID176261302>
+    <http://semanticscience.org/resource/CHEMINF_000477> <compound/CID28094> .
+
+<substance/SID176271300>
+    <http://semanticscience.org/resource/CHEMINF_000477> <compound/CID28094> .
+
+<substance/SID316398843>
+    <http://semanticscience.org/resource/CHEMINF_000477> <compound/CID28094> .
+
+<substance/SID316470559>
+    <http://semanticscience.org/resource/CHEMINF_000477> <compound/CID28094> .
+
+<substance/SID319082281>
+    <http://semanticscience.org/resource/CHEMINF_000477> <compound/CID28094> .
+
+<substance/SID319082282>
+    <http://semanticscience.org/resource/CHEMINF_000477> <compound/CID28094> .
+
+<substance/SID341150230>
+    <http://semanticscience.org/resource/CHEMINF_000477> <compound/CID28094> .
+
+<substance/SID34670564>
+    <http://semanticscience.org/resource/CHEMINF_000477> <compound/CID28094> .
+
+<substance/SID349692337>
+    <http://semanticscience.org/resource/CHEMINF_000477> <compound/CID28094> .
+
+<substance/SID355190569>
+    <http://semanticscience.org/resource/CHEMINF_000477> <compound/CID28094> .
+
+<substance/SID355190571>
+    <http://semanticscience.org/resource/CHEMINF_000477> <compound/CID28094> .
+
+<substance/SID363901683>
+    <http://semanticscience.org/resource/CHEMINF_000477> <compound/CID28094> .
+
+<substance/SID363904378>
+    <http://semanticscience.org/resource/CHEMINF_000477> <compound/CID28094> .
+
+<substance/SID364120051>
+    <http://semanticscience.org/resource/CHEMINF_000477> <compound/CID28094> .
+
+<substance/SID375080852>
+    <http://semanticscience.org/resource/CHEMINF_000477> <compound/CID28094> .
+
+<substance/SID381004719>
+    <http://semanticscience.org/resource/CHEMINF_000477> <compound/CID28094> .
+
+<substance/SID385644580>
+    <http://semanticscience.org/resource/CHEMINF_000477> <compound/CID28094> .
+
+<substance/SID386480909>
+    <http://semanticscience.org/resource/CHEMINF_000477> <compound/CID28094> .
+
+<substance/SID403383266>
+    <http://semanticscience.org/resource/CHEMINF_000477> <compound/CID28094> .
+
+<substance/SID405461736>
+    <http://semanticscience.org/resource/CHEMINF_000477> <compound/CID28094> .
+
+<substance/SID415715486>
+    <http://semanticscience.org/resource/CHEMINF_000477> <compound/CID28094> .
+
+<substance/SID439369271>
+    <http://semanticscience.org/resource/CHEMINF_000477> <compound/CID28094> .
+
+<substance/SID439642119>
+    <http://semanticscience.org/resource/CHEMINF_000477> <compound/CID28094> .
+
+<substance/SID440008398>
+    <http://semanticscience.org/resource/CHEMINF_000477> <compound/CID28094> .
+
+<substance/SID441066241>
+    <http://semanticscience.org/resource/CHEMINF_000477> <compound/CID28094> .
+
+<substance/SID442843118>
+    <http://semanticscience.org/resource/CHEMINF_000477> <compound/CID28094> .
+
+<substance/SID445636562>
+    <http://semanticscience.org/resource/CHEMINF_000477> <compound/CID28094> .
+
+<substance/SID445745081>
+    <http://semanticscience.org/resource/CHEMINF_000477> <compound/CID28094> .
+
+<substance/SID445845563>
+    <http://semanticscience.org/resource/CHEMINF_000477> <compound/CID28094> .
+
+<substance/SID445873229>
+    <http://semanticscience.org/resource/CHEMINF_000477> <compound/CID28094> .
+
+<substance/SID446234366>
+    <http://semanticscience.org/resource/CHEMINF_000477> <compound/CID28094> .
+
+<substance/SID446453625>
+    <http://semanticscience.org/resource/CHEMINF_000477> <compound/CID28094> .
+
+<substance/SID446806877>
+    <http://semanticscience.org/resource/CHEMINF_000477> <compound/CID28094> .
+
+<substance/SID464240162>
+    <http://semanticscience.org/resource/CHEMINF_000477> <compound/CID28094> .
+
+<substance/SID468713248>
+    <http://semanticscience.org/resource/CHEMINF_000477> <compound/CID28094> .
+
+<substance/SID468740435>
+    <http://semanticscience.org/resource/CHEMINF_000477> <compound/CID28094> .
+
+<substance/SID468740438>
+    <http://semanticscience.org/resource/CHEMINF_000477> <compound/CID28094> .
+
+<substance/SID470413322>
+    <http://semanticscience.org/resource/CHEMINF_000477> <compound/CID28094> .
+
+<substance/SID471144554>
+    <http://semanticscience.org/resource/CHEMINF_000477> <compound/CID28094> .
+
+<substance/SID472155940>
+    <http://semanticscience.org/resource/CHEMINF_000477> <compound/CID28094> .
+
+<substance/SID473102385>
+    <http://semanticscience.org/resource/CHEMINF_000477> <compound/CID28094> .
+
+<substance/SID479826541>
+    <http://semanticscience.org/resource/CHEMINF_000477> <compound/CID28094> .
+
+<substance/SID480498691>
+    <http://semanticscience.org/resource/CHEMINF_000477> <compound/CID28094> .
+
+<substance/SID481146227>
+    <http://semanticscience.org/resource/CHEMINF_000477> <compound/CID28094> .
+
+<substance/SID481999192>
+    <http://semanticscience.org/resource/CHEMINF_000477> <compound/CID28094> .
+
+<substance/SID482003263>
+    <http://semanticscience.org/resource/CHEMINF_000477> <compound/CID28094> .
+
+<substance/SID482046036>
+    <http://semanticscience.org/resource/CHEMINF_000477> <compound/CID28094> .
+
+<substance/SID482322027>
+    <http://semanticscience.org/resource/CHEMINF_000477> <compound/CID28094> .
+
+<substance/SID482788403>
+    <http://semanticscience.org/resource/CHEMINF_000477> <compound/CID28094> .
+
+<substance/SID483577089>
+    <http://semanticscience.org/resource/CHEMINF_000477> <compound/CID28094> .
+
+<substance/SID483969866>
+    <http://semanticscience.org/resource/CHEMINF_000477> <compound/CID28094> .
+
+<substance/SID485174025>
+    <http://semanticscience.org/resource/CHEMINF_000477> <compound/CID28094> .
+
+<substance/SID485889768>
+    <http://semanticscience.org/resource/CHEMINF_000477> <compound/CID28094> .
+
+<substance/SID488183071>
+    <http://semanticscience.org/resource/CHEMINF_000477> <compound/CID28094> .
+
+<substance/SID491047334>
+    <http://semanticscience.org/resource/CHEMINF_000477> <compound/CID28094> .
+
+<substance/SID497685484>
+    <http://semanticscience.org/resource/CHEMINF_000477> <compound/CID28094> .
+
+<substance/SID498180834>
+    <http://semanticscience.org/resource/CHEMINF_000477> <compound/CID28094> .
+
+<substance/SID49992479>
+    <http://semanticscience.org/resource/CHEMINF_000477> <compound/CID28094> .
+
+<substance/SID49997347>
+    <http://semanticscience.org/resource/CHEMINF_000477> <compound/CID28094> .
+
+<substance/SID49997348>
+    <http://semanticscience.org/resource/CHEMINF_000477> <compound/CID28094> .
+
+<substance/SID50161369>
+    <http://semanticscience.org/resource/CHEMINF_000477> <compound/CID28094> .
+
+<substance/SID503573607>
+    <http://semanticscience.org/resource/CHEMINF_000477> <compound/CID28094> .
+
+<substance/SID504214188>
+    <http://semanticscience.org/resource/CHEMINF_000477> <compound/CID28094> .
+
+<substance/SID505096242>
+    <http://semanticscience.org/resource/CHEMINF_000477> <compound/CID28094> .
+
+<substance/SID53787777>
+    <http://semanticscience.org/resource/CHEMINF_000477> <compound/CID28094> .
+
+<substance/SID57310581>
+    <http://semanticscience.org/resource/CHEMINF_000477> <compound/CID28094> .
+
+<substance/SID8170201>
+    <http://semanticscience.org/resource/CHEMINF_000477> <compound/CID28094> .
+
+<substance/SID85091411>
+    <http://semanticscience.org/resource/CHEMINF_000477> <compound/CID28094> .
+
+<synonym/MD5_00ccf7f727de693c05d837370ba6e7dd>
+    <http://semanticscience.org/resource/SIO_000011> <compound/CID28094> .
+
+<synonym/MD5_04aaa27bb43f2f8deb77cd452feeeb40>
+    <http://semanticscience.org/resource/SIO_000011> <compound/CID28094> .
+
+<synonym/MD5_13a56ea0af0c90bef20bbee4c676cccc>
+    <http://semanticscience.org/resource/SIO_000011> <compound/CID28094> .
+
+<synonym/MD5_181b18ca0ec671391cb5264dfccd0d38>
+    <http://semanticscience.org/resource/SIO_000011> <compound/CID28094> .
+
+<synonym/MD5_1d06a6c7e9de89492e5613e0760b20d7>
+    <http://semanticscience.org/resource/SIO_000011> <compound/CID28094> .
+
+<synonym/MD5_1d31f48daf2efd7687ab05e7b149a787>
+    <http://semanticscience.org/resource/SIO_000011> <compound/CID28094> .
+
+<synonym/MD5_257ac0eb88bb5e89582010970579171e>
+    <http://semanticscience.org/resource/SIO_000011> <compound/CID28094> .
+
+<synonym/MD5_336778497b3c3f831f0d33080e56376e>
+    <http://semanticscience.org/resource/SIO_000011> <compound/CID28094> .
+
+<synonym/MD5_4ef6f53b64dcdc1acd7cd9db7b2b93f1>
+    <http://semanticscience.org/resource/SIO_000011> <compound/CID28094> .
+
+<synonym/MD5_537a998266c9685b93fdf34fcd3eb344>
+    <http://semanticscience.org/resource/SIO_000011> <compound/CID28094> .
+
+<synonym/MD5_5937a599d8824027048ac84d3abd902c>
+    <http://semanticscience.org/resource/SIO_000011> <compound/CID28094> .
+
+<synonym/MD5_618b6d796866c955b8239d3388119055>
+    <http://semanticscience.org/resource/SIO_000011> <compound/CID28094> .
+
+<synonym/MD5_6b307a64c10cd40f4ae429e22ff19ce6>
+    <http://semanticscience.org/resource/SIO_000011> <compound/CID28094> .
+
+<synonym/MD5_6e33bae59276bf30c3536b9604a83352>
+    <http://semanticscience.org/resource/SIO_000011> <compound/CID28094> .
+
+<synonym/MD5_6f211b90ec96eb18f25ae0d240683931>
+    <http://semanticscience.org/resource/SIO_000011> <compound/CID28094> .
+
+<synonym/MD5_706eff012b3a785d1bb7e72571868d5c>
+    <http://semanticscience.org/resource/SIO_000011> <compound/CID28094> .
+
+<synonym/MD5_77620e063b8ce5da4f4649b3c7afa68d>
+    <http://semanticscience.org/resource/SIO_000011> <compound/CID28094> .
+
+<synonym/MD5_77b213e6140c9938f0551c417616995a>
+    <http://semanticscience.org/resource/SIO_000011> <compound/CID28094> .
+
+<synonym/MD5_7d783a5cb3312015d21b39be5d0389fa>
+    <http://semanticscience.org/resource/SIO_000011> <compound/CID28094> .
+
+<synonym/MD5_876a46aaed8e2b9c517f1a4efddd4e2e>
+    <http://semanticscience.org/resource/SIO_000011> <compound/CID28094> .
+
+<synonym/MD5_890980c86a246e9ac2f40af1cfd1a182>
+    <http://semanticscience.org/resource/SIO_000011> <compound/CID28094> .
+
+<synonym/MD5_8b4d92f72e17d4582fee44c1deb85363>
+    <http://semanticscience.org/resource/SIO_000011> <compound/CID28094> .
+
+<synonym/MD5_a83b0993020c0569c5af061875781fb3>
+    <http://semanticscience.org/resource/SIO_000011> <compound/CID28094> .
+
+<synonym/MD5_aa97df404857471c514e1c9d4e4e395b>
+    <http://semanticscience.org/resource/SIO_000011> <compound/CID28094> .
+
+<synonym/MD5_ae714f8682dd6cd823d25263d352c725>
+    <http://semanticscience.org/resource/SIO_000011> <compound/CID28094> .
+
+<synonym/MD5_bb02b754e74e578a9b9a8b1f35c5f420>
+    <http://semanticscience.org/resource/SIO_000011> <compound/CID28094> .
+
+<synonym/MD5_c91aea658b1d35fdd47c501410e0b7b1>
+    <http://semanticscience.org/resource/SIO_000011> <compound/CID28094> .
+
+<synonym/MD5_cc23e2185e4205079e2d97e106d2c85d>
+    <http://semanticscience.org/resource/SIO_000011> <compound/CID28094> .
+
+<synonym/MD5_d6ae1d0b81adeb757c2222d322ce76a4>
+    <http://semanticscience.org/resource/SIO_000011> <compound/CID28094> .
+
+<synonym/MD5_d906bb2c049c17d116a767d4010412a5>
+    <http://semanticscience.org/resource/SIO_000011> <compound/CID28094> .
+
+<synonym/MD5_f0fce766215155d39715a0cfe2ab8ad5>
+    <http://semanticscience.org/resource/SIO_000011> <compound/CID28094> .
+
+<synonym/MD5_facfb8ee8b295f283aec490b99f1992f>
+    <http://semanticscience.org/resource/SIO_000011> <compound/CID28094> .
+
+

@@ -1,0 +1,42 @@
+@base <http://rdf.ncbi.nlm.nih.gov/pubchem/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+
+<compound/CID90684411>
+    <http://purl.org/dc/terms/identifier> "90684411" ;
+    <vocabulary#has_parent> <compound/CID90684412> ;
+    <http://semanticscience.org/resource/CHEMINF_000480> <compound/CID783> ;
+    <http://semanticscience.org/resource/SIO_000008> <descriptor/CID90684411_Canonical_SMILES>, <descriptor/CID90684411_Compound_Identifier>, <descriptor/CID90684411_Covalent_Unit_Count>, <descriptor/CID90684411_Defined_Atom_Stereo_Count>, <descriptor/CID90684411_Defined_Bond_Stereo_Count>, <descriptor/CID90684411_Exact_Mass>, <descriptor/CID90684411_Hydrogen_Bond_Acceptor_Count>, <descriptor/CID90684411_Hydrogen_Bond_Donor_Count>, <descriptor/CID90684411_IUPAC_InChI>, <descriptor/CID90684411_Isomeric_SMILES>, <descriptor/CID90684411_Isotope_Atom_Count>, <descriptor/CID90684411_Molecular_Formula>, <descriptor/CID90684411_Molecular_Weight>, <descriptor/CID90684411_Mono_Isotopic_Weight>, <descriptor/CID90684411_Non-hydrogen_Atom_Count>, <descriptor/CID90684411_Rotatable_Bond_Count>, <descriptor/CID90684411_Structure_Complexity>, <descriptor/CID90684411_TPSA>, <descriptor/CID90684411_Total_Formal_Charge>, <descriptor/CID90684411_Undefined_Atom_Stereo_Count>, <descriptor/CID90684411_Undefined_Bond_Stereo_Count> ;
+    a <vocabulary#Compound> ;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Hydrogen (metasilicato(2-)-O)(2-methoxyethyl)mercurate(1-)" .
+
+<inchikey/FSNHYYQHGAEENZ-UHFFFAOYSA-O>
+    <http://semanticscience.org/resource/SIO_000011> <compound/CID90684411> .
+
+<substance/SID135309542>
+    <http://semanticscience.org/resource/CHEMINF_000477> <compound/CID90684411> .
+
+<substance/SID319420800>
+    <http://semanticscience.org/resource/CHEMINF_000477> <compound/CID90684411> .
+
+<substance/SID472157178>
+    <http://semanticscience.org/resource/CHEMINF_000477> <compound/CID90684411> .
+
+<substance/SID481748056>
+    <http://semanticscience.org/resource/CHEMINF_000477> <compound/CID90684411> .
+
+<synonym/MD5_150c2c573c32e127a731b3ce85c50497>
+    <http://semanticscience.org/resource/SIO_000011> <compound/CID90684411> .
+
+<synonym/MD5_463e47e0e1dfaa990d18d3883464b7ab>
+    <http://semanticscience.org/resource/SIO_000011> <compound/CID90684411> .
+
+<synonym/MD5_6300905a608857e0cc897939f65b0009>
+    <http://semanticscience.org/resource/SIO_000011> <compound/CID90684411> .
+
+<synonym/MD5_693f1fd34d75c4cf129e59053a6e622b>
+    <http://semanticscience.org/resource/SIO_000011> <compound/CID90684411> .
+
+<synonym/MD5_6b4f086b7b5c6ccb4c2927be22dc0c5f>
+    <http://semanticscience.org/resource/SIO_000011> <compound/CID90684411> .
+
+

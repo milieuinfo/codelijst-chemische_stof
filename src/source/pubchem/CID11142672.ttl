@@ -1,0 +1,690 @@
+@base <http://rdf.ncbi.nlm.nih.gov/pubchem/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+
+<compound/CID11142672>
+    <http://purl.org/dc/terms/identifier> "11142672" ;
+    <http://semanticscience.org/resource/CHEMINF_000461> <compound/CID134820397>, <compound/CID19839147>, <compound/CID57052287> ;
+    <http://semanticscience.org/resource/SIO_000008> <descriptor/CID11142672_Canonical_SMILES>, <descriptor/CID11142672_Compound_Identifier>, <descriptor/CID11142672_Covalent_Unit_Count>, <descriptor/CID11142672_Defined_Atom_Stereo_Count>, <descriptor/CID11142672_Defined_Bond_Stereo_Count>, <descriptor/CID11142672_Exact_Mass>, <descriptor/CID11142672_Hydrogen_Bond_Acceptor_Count>, <descriptor/CID11142672_Hydrogen_Bond_Donor_Count>, <descriptor/CID11142672_IUPAC_InChI>, <descriptor/CID11142672_Isomeric_SMILES>, <descriptor/CID11142672_Isotope_Atom_Count>, <descriptor/CID11142672_Molecular_Formula>, <descriptor/CID11142672_Molecular_Weight>, <descriptor/CID11142672_Mono_Isotopic_Weight>, <descriptor/CID11142672_Non-hydrogen_Atom_Count>, <descriptor/CID11142672_Preferred_IUPAC_Name>, <descriptor/CID11142672_Rotatable_Bond_Count>, <descriptor/CID11142672_Structure_Complexity>, <descriptor/CID11142672_TPSA>, <descriptor/CID11142672_Total_Formal_Charge>, <descriptor/CID11142672_Undefined_Atom_Stereo_Count>, <descriptor/CID11142672_Undefined_Bond_Stereo_Count>, <descriptor/CID11142672_XLogP3> ;
+    a <http://purl.obolibrary.org/obo/CHEBI_53160>, <vocabulary#Compound> ;
+    <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://www.wikidata.org/entity/Q27123989> ;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "2,7,11-Trimethyl-13-(2,6,6-trimethylcyclohex-1-en-1-yl)tridecahexaen-2,4,6,8,10,12-al" .
+
+<compound/CID134820397>
+    <http://semanticscience.org/resource/CHEMINF_000461> <compound/CID11142672> .
+
+<compound/CID158520502>
+    <http://semanticscience.org/resource/CHEMINF_000480> <compound/CID11142672> .
+
+<compound/CID159962133>
+    <vocabulary#has_parent> <compound/CID11142672> .
+
+<compound/CID163544700>
+    <http://semanticscience.org/resource/CHEMINF_000480> <compound/CID11142672> .
+
+<compound/CID19839147>
+    <http://semanticscience.org/resource/CHEMINF_000461> <compound/CID11142672> .
+
+<compound/CID57052287>
+    <http://semanticscience.org/resource/CHEMINF_000461> <compound/CID11142672> .
+
+<cooccurrence/CID101536858_CID11142672>
+    rdf:object <compound/CID11142672> .
+
+<cooccurrence/CID10313272_CID11142672>
+    rdf:object <compound/CID11142672> .
+
+<cooccurrence/CID10907_CID11142672>
+    rdf:object <compound/CID11142672> .
+
+<cooccurrence/CID11104507_CID11142672>
+    rdf:object <compound/CID11142672> .
+
+<cooccurrence/CID11142672_CID101536858>
+    rdf:subject <compound/CID11142672> .
+
+<cooccurrence/CID11142672_CID10313272>
+    rdf:subject <compound/CID11142672> .
+
+<cooccurrence/CID11142672_CID104729>
+    rdf:subject <compound/CID11142672> .
+
+<cooccurrence/CID11142672_CID10680>
+    rdf:subject <compound/CID11142672> .
+
+<cooccurrence/CID11142672_CID10907>
+    rdf:subject <compound/CID11142672> .
+
+<cooccurrence/CID11142672_CID11104507>
+    rdf:subject <compound/CID11142672> .
+
+<cooccurrence/CID11142672_CID11349>
+    rdf:subject <compound/CID11142672> .
+
+<cooccurrence/CID11142672_CID131751642>
+    rdf:subject <compound/CID11142672> .
+
+<cooccurrence/CID11142672_CID13380>
+    rdf:subject <compound/CID11142672> .
+
+<cooccurrence/CID11142672_CID134688154>
+    rdf:subject <compound/CID11142672> .
+
+<cooccurrence/CID11142672_CID13917079>
+    rdf:subject <compound/CID11142672> .
+
+<cooccurrence/CID11142672_CID14192316>
+    rdf:subject <compound/CID11142672> .
+
+<cooccurrence/CID11142672_CID14985>
+    rdf:subject <compound/CID11142672> .
+
+<cooccurrence/CID11142672_CID15406689>
+    rdf:subject <compound/CID11142672> .
+
+<cooccurrence/CID11142672_CID1548943>
+    rdf:subject <compound/CID11142672> .
+
+<cooccurrence/CID11142672_CID177>
+    rdf:subject <compound/CID11142672> .
+
+<cooccurrence/CID11142672_CID180>
+    rdf:subject <compound/CID11142672> .
+
+<cooccurrence/CID11142672_CID186907>
+    rdf:subject <compound/CID11142672> .
+
+<cooccurrence/CID11142672_CID20056893>
+    rdf:subject <compound/CID11142672> .
+
+<cooccurrence/CID11142672_CID2116>
+    rdf:subject <compound/CID11142672> .
+
+<cooccurrence/CID11142672_CID21226129>
+    rdf:subject <compound/CID11142672> .
+
+<cooccurrence/CID11142672_CID2336>
+    rdf:subject <compound/CID11142672> .
+
+<cooccurrence/CID11142672_CID23985>
+    rdf:subject <compound/CID11142672> .
+
+<cooccurrence/CID11142672_CID24090>
+    rdf:subject <compound/CID11142672> .
+
+<cooccurrence/CID11142672_CID24762>
+    rdf:subject <compound/CID11142672> .
+
+<cooccurrence/CID11142672_CID264>
+    rdf:subject <compound/CID11142672> .
+
+<cooccurrence/CID11142672_CID28123>
+    rdf:subject <compound/CID11142672> .
+
+<cooccurrence/CID11142672_CID2907>
+    rdf:subject <compound/CID11142672> .
+
+<cooccurrence/CID11142672_CID3776>
+    rdf:subject <compound/CID11142672> .
+
+<cooccurrence/CID11142672_CID379>
+    rdf:subject <compound/CID11142672> .
+
+<cooccurrence/CID11142672_CID4369188>
+    rdf:subject <compound/CID11142672> .
+
+<cooccurrence/CID11142672_CID44224033>
+    rdf:subject <compound/CID11142672> .
+
+<cooccurrence/CID11142672_CID444795>
+    rdf:subject <compound/CID11142672> .
+
+<cooccurrence/CID11142672_CID44521071>
+    rdf:subject <compound/CID11142672> .
+
+<cooccurrence/CID11142672_CID445354>
+    rdf:subject <compound/CID11142672> .
+
+<cooccurrence/CID11142672_CID446925>
+    rdf:subject <compound/CID11142672> .
+
+<cooccurrence/CID11142672_CID517165>
+    rdf:subject <compound/CID11142672> .
+
+<cooccurrence/CID11142672_CID5280459>
+    rdf:subject <compound/CID11142672> .
+
+<cooccurrence/CID11142672_CID5280489>
+    rdf:subject <compound/CID11142672> .
+
+<cooccurrence/CID11142672_CID5280531>
+    rdf:subject <compound/CID11142672> .
+
+<cooccurrence/CID11142672_CID5280791>
+    rdf:subject <compound/CID11142672> .
+
+<cooccurrence/CID11142672_CID5280899>
+    rdf:subject <compound/CID11142672> .
+
+<cooccurrence/CID11142672_CID5280992>
+    rdf:subject <compound/CID11142672> .
+
+<cooccurrence/CID11142672_CID5281224>
+    rdf:subject <compound/CID11142672> .
+
+<cooccurrence/CID11142672_CID5281226>
+    rdf:subject <compound/CID11142672> .
+
+<cooccurrence/CID11142672_CID5281227>
+    rdf:subject <compound/CID11142672> .
+
+<cooccurrence/CID11142672_CID5281228>
+    rdf:subject <compound/CID11142672> .
+
+<cooccurrence/CID11142672_CID5281229>
+    rdf:subject <compound/CID11142672> .
+
+<cooccurrence/CID11142672_CID5281231>
+    rdf:subject <compound/CID11142672> .
+
+<cooccurrence/CID11142672_CID5281235>
+    rdf:subject <compound/CID11142672> .
+
+<cooccurrence/CID11142672_CID5281243>
+    rdf:subject <compound/CID11142672> .
+
+<cooccurrence/CID11142672_CID5281248>
+    rdf:subject <compound/CID11142672> .
+
+<cooccurrence/CID11142672_CID5282379>
+    rdf:subject <compound/CID11142672> .
+
+<cooccurrence/CID11142672_CID5289155>
+    rdf:subject <compound/CID11142672> .
+
+<cooccurrence/CID11142672_CID53462>
+    rdf:subject <compound/CID11142672> .
+
+<cooccurrence/CID11142672_CID5355026>
+    rdf:subject <compound/CID11142672> .
+
+<cooccurrence/CID11142672_CID5363697>
+    rdf:subject <compound/CID11142672> .
+
+<cooccurrence/CID11142672_CID5363876>
+    rdf:subject <compound/CID11142672> .
+
+<cooccurrence/CID11142672_CID54708748>
+    rdf:subject <compound/CID11142672> .
+
+<cooccurrence/CID11142672_CID5478003>
+    rdf:subject <compound/CID11142672> .
+
+<cooccurrence/CID11142672_CID5770>
+    rdf:subject <compound/CID11142672> .
+
+<cooccurrence/CID11142672_CID5886>
+    rdf:subject <compound/CID11142672> .
+
+<cooccurrence/CID11142672_CID5892>
+    rdf:subject <compound/CID11142672> .
+
+<cooccurrence/CID11142672_CID5997>
+    rdf:subject <compound/CID11142672> .
+
+<cooccurrence/CID11142672_CID6274>
+    rdf:subject <compound/CID11142672> .
+
+<cooccurrence/CID11142672_CID6342>
+    rdf:subject <compound/CID11142672> .
+
+<cooccurrence/CID11142672_CID6344>
+    rdf:subject <compound/CID11142672> .
+
+<cooccurrence/CID11142672_CID6373>
+    rdf:subject <compound/CID11142672> .
+
+<cooccurrence/CID11142672_CID6376436>
+    rdf:subject <compound/CID11142672> .
+
+<cooccurrence/CID11142672_CID638011>
+    rdf:subject <compound/CID11142672> .
+
+<cooccurrence/CID11142672_CID638015>
+    rdf:subject <compound/CID11142672> .
+
+<cooccurrence/CID11142672_CID638034>
+    rdf:subject <compound/CID11142672> .
+
+<cooccurrence/CID11142672_CID6391647>
+    rdf:subject <compound/CID11142672> .
+
+<cooccurrence/CID11142672_CID6419725>
+    rdf:subject <compound/CID11142672> .
+
+<cooccurrence/CID11142672_CID6427090>
+    rdf:subject <compound/CID11142672> .
+
+<cooccurrence/CID11142672_CID6450190>
+    rdf:subject <compound/CID11142672> .
+
+<cooccurrence/CID11142672_CID6450220>
+    rdf:subject <compound/CID11142672> .
+
+<cooccurrence/CID11142672_CID6857447>
+    rdf:subject <compound/CID11142672> .
+
+<cooccurrence/CID11142672_CID69357>
+    rdf:subject <compound/CID11142672> .
+
+<cooccurrence/CID11142672_CID702>
+    rdf:subject <compound/CID11142672> .
+
+<cooccurrence/CID11142672_CID8028>
+    rdf:subject <compound/CID11142672> .
+
+<cooccurrence/CID11142672_CID8058>
+    rdf:subject <compound/CID11142672> .
+
+<cooccurrence/CID11142672_CID86472>
+    rdf:subject <compound/CID11142672> .
+
+<cooccurrence/CID11142672_CID887>
+    rdf:subject <compound/CID11142672> .
+
+<cooccurrence/CID11142672_CID91556>
+    rdf:subject <compound/CID11142672> .
+
+<cooccurrence/CID11142672_CID9576834>
+    rdf:subject <compound/CID11142672> .
+
+<cooccurrence/CID11142672_CID962>
+    rdf:subject <compound/CID11142672> .
+
+<cooccurrence/CID11142672_CID977>
+    rdf:subject <compound/CID11142672> .
+
+<cooccurrence/CID11142672_CID9828626>
+    rdf:subject <compound/CID11142672> .
+
+<cooccurrence/CID11142672_CID9845703>
+    rdf:subject <compound/CID11142672> .
+
+<cooccurrence/CID11142672_CID985>
+    rdf:subject <compound/CID11142672> .
+
+<cooccurrence/CID11142672_DZID11338>
+    rdf:subject <compound/CID11142672> .
+
+<cooccurrence/CID11142672_DZID8607>
+    rdf:subject <compound/CID11142672> .
+
+<cooccurrence/CID11142672_DZID8937>
+    rdf:subject <compound/CID11142672> .
+
+<cooccurrence/CID11142672_DZID9264>
+    rdf:subject <compound/CID11142672> .
+
+<cooccurrence/CID11142672_EC_1.13.11.63>
+    rdf:subject <compound/CID11142672> .
+
+<cooccurrence/CID11142672_EC_1.14.14.1>
+    rdf:subject <compound/CID11142672> .
+
+<cooccurrence/CID11142672_EC_1.14.99.n4>
+    rdf:subject <compound/CID11142672> .
+
+<cooccurrence/CID11142672_acaa>
+    rdf:subject <compound/CID11142672> .
+
+<cooccurrence/CID11142672_cars>
+    rdf:subject <compound/CID11142672> .
+
+<cooccurrence/CID11142672_cars1>
+    rdf:subject <compound/CID11142672> .
+
+<cooccurrence/CID11142672_chl>
+    rdf:subject <compound/CID11142672> .
+
+<cooccurrence/CID11142672_chrdl1>
+    rdf:subject <compound/CID11142672> .
+
+<cooccurrence/CID11142672_mme>
+    rdf:subject <compound/CID11142672> .
+
+<cooccurrence/CID11142672_thbs1>
+    rdf:subject <compound/CID11142672> .
+
+<cooccurrence/CID11142672_tsp1>
+    rdf:subject <compound/CID11142672> .
+
+<cooccurrence/CID131751642_CID11142672>
+    rdf:object <compound/CID11142672> .
+
+<cooccurrence/CID13380_CID11142672>
+    rdf:object <compound/CID11142672> .
+
+<cooccurrence/CID134688154_CID11142672>
+    rdf:object <compound/CID11142672> .
+
+<cooccurrence/CID13917079_CID11142672>
+    rdf:object <compound/CID11142672> .
+
+<cooccurrence/CID14192316_CID11142672>
+    rdf:object <compound/CID11142672> .
+
+<cooccurrence/CID15406689_CID11142672>
+    rdf:object <compound/CID11142672> .
+
+<cooccurrence/CID20056893_CID11142672>
+    rdf:object <compound/CID11142672> .
+
+<cooccurrence/CID21226129_CID11142672>
+    rdf:object <compound/CID11142672> .
+
+<cooccurrence/CID24090_CID11142672>
+    rdf:object <compound/CID11142672> .
+
+<cooccurrence/CID24762_CID11142672>
+    rdf:object <compound/CID11142672> .
+
+<cooccurrence/CID4369188_CID11142672>
+    rdf:object <compound/CID11142672> .
+
+<cooccurrence/CID44224033_CID11142672>
+    rdf:object <compound/CID11142672> .
+
+<cooccurrence/CID44521071_CID11142672>
+    rdf:object <compound/CID11142672> .
+
+<cooccurrence/CID445354_CID11142672>
+    rdf:object <compound/CID11142672> .
+
+<cooccurrence/CID446925_CID11142672>
+    rdf:object <compound/CID11142672> .
+
+<cooccurrence/CID5280489_CID11142672>
+    rdf:object <compound/CID11142672> .
+
+<cooccurrence/CID5280531_CID11142672>
+    rdf:object <compound/CID11142672> .
+
+<cooccurrence/CID5280791_CID11142672>
+    rdf:object <compound/CID11142672> .
+
+<cooccurrence/CID5280899_CID11142672>
+    rdf:object <compound/CID11142672> .
+
+<cooccurrence/CID5280992_CID11142672>
+    rdf:object <compound/CID11142672> .
+
+<cooccurrence/CID5281226_CID11142672>
+    rdf:object <compound/CID11142672> .
+
+<cooccurrence/CID5281227_CID11142672>
+    rdf:object <compound/CID11142672> .
+
+<cooccurrence/CID5281228_CID11142672>
+    rdf:object <compound/CID11142672> .
+
+<cooccurrence/CID5281229_CID11142672>
+    rdf:object <compound/CID11142672> .
+
+<cooccurrence/CID5281231_CID11142672>
+    rdf:object <compound/CID11142672> .
+
+<cooccurrence/CID5281235_CID11142672>
+    rdf:object <compound/CID11142672> .
+
+<cooccurrence/CID5281243_CID11142672>
+    rdf:object <compound/CID11142672> .
+
+<cooccurrence/CID5281248_CID11142672>
+    rdf:object <compound/CID11142672> .
+
+<cooccurrence/CID5289155_CID11142672>
+    rdf:object <compound/CID11142672> .
+
+<cooccurrence/CID53462_CID11142672>
+    rdf:object <compound/CID11142672> .
+
+<cooccurrence/CID5355026_CID11142672>
+    rdf:object <compound/CID11142672> .
+
+<cooccurrence/CID5363697_CID11142672>
+    rdf:object <compound/CID11142672> .
+
+<cooccurrence/CID5363876_CID11142672>
+    rdf:object <compound/CID11142672> .
+
+<cooccurrence/CID5478003_CID11142672>
+    rdf:object <compound/CID11142672> .
+
+<cooccurrence/CID6373_CID11142672>
+    rdf:object <compound/CID11142672> .
+
+<cooccurrence/CID6376436_CID11142672>
+    rdf:object <compound/CID11142672> .
+
+<cooccurrence/CID638034_CID11142672>
+    rdf:object <compound/CID11142672> .
+
+<cooccurrence/CID6391647_CID11142672>
+    rdf:object <compound/CID11142672> .
+
+<cooccurrence/CID6419725_CID11142672>
+    rdf:object <compound/CID11142672> .
+
+<cooccurrence/CID6427090_CID11142672>
+    rdf:object <compound/CID11142672> .
+
+<cooccurrence/CID6450190_CID11142672>
+    rdf:object <compound/CID11142672> .
+
+<cooccurrence/CID6450220_CID11142672>
+    rdf:object <compound/CID11142672> .
+
+<cooccurrence/CID6857447_CID11142672>
+    rdf:object <compound/CID11142672> .
+
+<cooccurrence/CID69357_CID11142672>
+    rdf:object <compound/CID11142672> .
+
+<cooccurrence/CID86472_CID11142672>
+    rdf:object <compound/CID11142672> .
+
+<cooccurrence/CID91556_CID11142672>
+    rdf:object <compound/CID11142672> .
+
+<cooccurrence/CID9576834_CID11142672>
+    rdf:object <compound/CID11142672> .
+
+<cooccurrence/CID9828626_CID11142672>
+    rdf:object <compound/CID11142672> .
+
+<cooccurrence/CID9845703_CID11142672>
+    rdf:object <compound/CID11142672> .
+
+<cooccurrence/EC_1.13.11.63_CID11142672>
+    rdf:object <compound/CID11142672> .
+
+<cooccurrence/EC_1.14.99.n4_CID11142672>
+    rdf:object <compound/CID11142672> .
+
+<cooccurrence/acaa_CID11142672>
+    rdf:object <compound/CID11142672> .
+
+<cooccurrence/cars1_CID11142672>
+    rdf:object <compound/CID11142672> .
+
+<cooccurrence/cars_CID11142672>
+    rdf:object <compound/CID11142672> .
+
+<cooccurrence/chl_CID11142672>
+    rdf:object <compound/CID11142672> .
+
+<cooccurrence/chrdl1_CID11142672>
+    rdf:object <compound/CID11142672> .
+
+<cooccurrence/thbs1_CID11142672>
+    rdf:object <compound/CID11142672> .
+
+<cooccurrence/tsp1_CID11142672>
+    rdf:object <compound/CID11142672> .
+
+<inchikey/BQTOMHXDSCUCFR-PHPDKTIJSA-N>
+    <http://semanticscience.org/resource/SIO_000011> <compound/CID11142672> .
+
+<substance/SID135354588>
+    <http://semanticscience.org/resource/CHEMINF_000477> <compound/CID11142672> .
+
+<substance/SID138073296>
+    <http://semanticscience.org/resource/CHEMINF_000477> <compound/CID11142672> .
+
+<substance/SID16220528>
+    <http://semanticscience.org/resource/CHEMINF_000477> <compound/CID11142672> .
+
+<substance/SID23339953>
+    <http://semanticscience.org/resource/CHEMINF_000477> <compound/CID11142672> .
+
+<substance/SID235740574>
+    <http://semanticscience.org/resource/CHEMINF_000477> <compound/CID11142672> .
+
+<substance/SID273537780>
+    <http://semanticscience.org/resource/CHEMINF_000477> <compound/CID11142672> .
+
+<substance/SID273902523>
+    <http://semanticscience.org/resource/CHEMINF_000477> <compound/CID11142672> .
+
+<substance/SID275023707>
+    <http://semanticscience.org/resource/CHEMINF_000477> <compound/CID11142672> .
+
+<substance/SID312240826>
+    <http://semanticscience.org/resource/CHEMINF_000477> <compound/CID11142672> .
+
+<substance/SID315728089>
+    <http://semanticscience.org/resource/CHEMINF_000477> <compound/CID11142672> .
+
+<substance/SID319345121>
+    <http://semanticscience.org/resource/CHEMINF_000477> <compound/CID11142672> .
+
+<substance/SID341278126>
+    <http://semanticscience.org/resource/CHEMINF_000477> <compound/CID11142672> .
+
+<substance/SID348128217>
+    <http://semanticscience.org/resource/CHEMINF_000477> <compound/CID11142672> .
+
+<substance/SID355076464>
+    <http://semanticscience.org/resource/CHEMINF_000477> <compound/CID11142672> .
+
+<substance/SID376292213>
+    <http://semanticscience.org/resource/CHEMINF_000477> <compound/CID11142672> .
+
+<substance/SID383570792>
+    <http://semanticscience.org/resource/CHEMINF_000477> <compound/CID11142672> .
+
+<substance/SID385669194>
+    <http://semanticscience.org/resource/CHEMINF_000477> <compound/CID11142672> .
+
+<substance/SID386505747>
+    <http://semanticscience.org/resource/CHEMINF_000477> <compound/CID11142672> .
+
+<substance/SID387076038>
+    <http://semanticscience.org/resource/CHEMINF_000477> <compound/CID11142672> .
+
+<substance/SID391972788>
+    <http://semanticscience.org/resource/CHEMINF_000477> <compound/CID11142672> .
+
+<substance/SID419567144>
+    <http://semanticscience.org/resource/CHEMINF_000477> <compound/CID11142672> .
+
+<substance/SID42197496>
+    <http://semanticscience.org/resource/CHEMINF_000477> <compound/CID11142672> .
+
+<substance/SID446821568>
+    <http://semanticscience.org/resource/CHEMINF_000477> <compound/CID11142672> .
+
+<substance/SID470408632>
+    <http://semanticscience.org/resource/CHEMINF_000477> <compound/CID11142672> .
+
+<substance/SID481544135>
+    <http://semanticscience.org/resource/CHEMINF_000477> <compound/CID11142672> .
+
+<substance/SID484133948>
+    <http://semanticscience.org/resource/CHEMINF_000477> <compound/CID11142672> .
+
+<substance/SID485238771>
+    <http://semanticscience.org/resource/CHEMINF_000477> <compound/CID11142672> .
+
+<substance/SID485737141>
+    <http://semanticscience.org/resource/CHEMINF_000477> <compound/CID11142672> .
+
+<substance/SID489029288>
+    <http://semanticscience.org/resource/CHEMINF_000477> <compound/CID11142672> .
+
+<substance/SID495968404>
+    <http://semanticscience.org/resource/CHEMINF_000477> <compound/CID11142672> .
+
+<substance/SID500854548>
+    <http://semanticscience.org/resource/CHEMINF_000477> <compound/CID11142672> .
+
+<substance/SID505441611>
+    <http://semanticscience.org/resource/CHEMINF_000477> <compound/CID11142672> .
+
+<substance/SID74467011>
+    <http://semanticscience.org/resource/CHEMINF_000477> <compound/CID11142672> .
+
+<substance/SID85240215>
+    <http://semanticscience.org/resource/CHEMINF_000477> <compound/CID11142672> .
+
+<synonym/MD5_19a22da5ee1f9e8c17404765dea6e224>
+    <http://semanticscience.org/resource/SIO_000011> <compound/CID11142672> .
+
+<synonym/MD5_1c038b5c23aef03c28f1fd51dc90ffb6>
+    <http://semanticscience.org/resource/SIO_000011> <compound/CID11142672> .
+
+<synonym/MD5_24fb03e34f41ff251f88caea7529b630>
+    <http://semanticscience.org/resource/SIO_000011> <compound/CID11142672> .
+
+<synonym/MD5_2cbb823f8ec6ffd1b5817ad791be54d2>
+    <http://semanticscience.org/resource/SIO_000011> <compound/CID11142672> .
+
+<synonym/MD5_61daefaf14c102d8681f4ec3534b13e4>
+    <http://semanticscience.org/resource/SIO_000011> <compound/CID11142672> .
+
+<synonym/MD5_66bb8459aa2150723a3b5349e2daa3aa>
+    <http://semanticscience.org/resource/SIO_000011> <compound/CID11142672> .
+
+<synonym/MD5_6bc4326d27f624818917b99992df9008>
+    <http://semanticscience.org/resource/SIO_000011> <compound/CID11142672> .
+
+<synonym/MD5_6c3a968c58974939b899dc2a0bda2c3a>
+    <http://semanticscience.org/resource/SIO_000011> <compound/CID11142672> .
+
+<synonym/MD5_761a835e35b21ff165dbdfb6b0d4199c>
+    <http://semanticscience.org/resource/SIO_000011> <compound/CID11142672> .
+
+<synonym/MD5_769dac634ed1b6d653d33f5c53a67650>
+    <http://semanticscience.org/resource/SIO_000011> <compound/CID11142672> .
+
+<synonym/MD5_7d0838e251d5cf6394405894672ca700>
+    <http://semanticscience.org/resource/SIO_000011> <compound/CID11142672> .
+
+<synonym/MD5_91faeeb4355ca14e47c4fa11ee415d04>
+    <http://semanticscience.org/resource/SIO_000011> <compound/CID11142672> .
+
+<synonym/MD5_9e5df530eb8ab63d1faaddabde5345f9>
+    <http://semanticscience.org/resource/SIO_000011> <compound/CID11142672> .
+
+<synonym/MD5_a1a185a0d906f1314ed0fe30704e5d8e>
+    <http://semanticscience.org/resource/SIO_000011> <compound/CID11142672> .
+
+<synonym/MD5_c63980ec5cc4a91f675dff8c3a1b45a6>
+    <http://semanticscience.org/resource/SIO_000011> <compound/CID11142672> .
+
+<synonym/MD5_d0b0dd6975fc16dab1f63d7b4cbee143>
+    <http://semanticscience.org/resource/SIO_000011> <compound/CID11142672> .
+
+<synonym/MD5_f4ee0fcd2623b6106cc238a370faefc6>
+    <http://semanticscience.org/resource/SIO_000011> <compound/CID11142672> .
+
+

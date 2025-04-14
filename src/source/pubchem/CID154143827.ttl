@@ -1,0 +1,28 @@
+@base <http://rdf.ncbi.nlm.nih.gov/pubchem/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+
+<compound/CID154143827>
+    <http://purl.org/dc/terms/identifier> "154143827" ;
+    <http://semanticscience.org/resource/SIO_000008> <descriptor/CID154143827_Canonical_SMILES>, <descriptor/CID154143827_Compound_Identifier>, <descriptor/CID154143827_Covalent_Unit_Count>, <descriptor/CID154143827_Defined_Atom_Stereo_Count>, <descriptor/CID154143827_Defined_Bond_Stereo_Count>, <descriptor/CID154143827_Exact_Mass>, <descriptor/CID154143827_Hydrogen_Bond_Acceptor_Count>, <descriptor/CID154143827_Hydrogen_Bond_Donor_Count>, <descriptor/CID154143827_IUPAC_InChI>, <descriptor/CID154143827_Isomeric_SMILES>, <descriptor/CID154143827_Isotope_Atom_Count>, <descriptor/CID154143827_Molecular_Formula>, <descriptor/CID154143827_Molecular_Weight>, <descriptor/CID154143827_Mono_Isotopic_Weight>, <descriptor/CID154143827_Non-hydrogen_Atom_Count>, <descriptor/CID154143827_Preferred_IUPAC_Name>, <descriptor/CID154143827_Rotatable_Bond_Count>, <descriptor/CID154143827_Structure_Complexity>, <descriptor/CID154143827_TPSA>, <descriptor/CID154143827_Total_Formal_Charge>, <descriptor/CID154143827_Undefined_Atom_Stereo_Count>, <descriptor/CID154143827_Undefined_Bond_Stereo_Count> ;
+    a <vocabulary#Compound> ;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "4-Methyl-N-phenyl-N-phenylmercuriobenzenesulfonamide" .
+
+<inchikey/JUIRJKMZBWRFAY-UHFFFAOYSA-N>
+    <http://semanticscience.org/resource/SIO_000011> <compound/CID154143827> .
+
+<substance/SID432046479>
+    <http://semanticscience.org/resource/CHEMINF_000477> <compound/CID154143827> .
+
+<substance/SID472172677>
+    <http://semanticscience.org/resource/CHEMINF_000477> <compound/CID154143827> .
+
+<synonym/MD5_2413300cdd6eb1d720a497ce8603e522>
+    <http://semanticscience.org/resource/SIO_000011> <compound/CID154143827> .
+
+<synonym/MD5_ef5ded2cc189de5a158c988c884bfdbf>
+    <http://semanticscience.org/resource/SIO_000011> <compound/CID154143827> .
+
+<synonym/MD5_f58083271558f3c9721d794886be5487>
+    <http://semanticscience.org/resource/SIO_000011> <compound/CID154143827> .
+
+

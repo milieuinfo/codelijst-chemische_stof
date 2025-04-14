@@ -1,0 +1,37 @@
+@base <http://rdf.ncbi.nlm.nih.gov/pubchem/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+
+<compound/CID44149478>
+    <http://purl.org/dc/terms/identifier> "44149478" ;
+    <http://semanticscience.org/resource/SIO_000008> <descriptor/CID44149478_Canonical_SMILES>, <descriptor/CID44149478_Compound_Identifier>, <descriptor/CID44149478_Covalent_Unit_Count>, <descriptor/CID44149478_Defined_Atom_Stereo_Count>, <descriptor/CID44149478_Defined_Bond_Stereo_Count>, <descriptor/CID44149478_Exact_Mass>, <descriptor/CID44149478_Hydrogen_Bond_Acceptor_Count>, <descriptor/CID44149478_Hydrogen_Bond_Donor_Count>, <descriptor/CID44149478_IUPAC_InChI>, <descriptor/CID44149478_Isomeric_SMILES>, <descriptor/CID44149478_Isotope_Atom_Count>, <descriptor/CID44149478_Molecular_Formula>, <descriptor/CID44149478_Molecular_Weight>, <descriptor/CID44149478_Mono_Isotopic_Weight>, <descriptor/CID44149478_Non-hydrogen_Atom_Count>, <descriptor/CID44149478_Preferred_IUPAC_Name>, <descriptor/CID44149478_Rotatable_Bond_Count>, <descriptor/CID44149478_Structure_Complexity>, <descriptor/CID44149478_TPSA>, <descriptor/CID44149478_Total_Formal_Charge>, <descriptor/CID44149478_Undefined_Atom_Stereo_Count>, <descriptor/CID44149478_Undefined_Bond_Stereo_Count> ;
+    a <vocabulary#Compound> ;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Diiodo(5-iodopyridin-2-amine-N1)mercury" .
+
+<inchikey/NGRZSLZBFDXZJO-UHFFFAOYSA-N>
+    <http://semanticscience.org/resource/SIO_000011> <compound/CID44149478> .
+
+<substance/SID135257271>
+    <http://semanticscience.org/resource/CHEMINF_000477> <compound/CID44149478> .
+
+<substance/SID241164907>
+    <http://semanticscience.org/resource/CHEMINF_000477> <compound/CID44149478> .
+
+<substance/SID319387242>
+    <http://semanticscience.org/resource/CHEMINF_000477> <compound/CID44149478> .
+
+<substance/SID481757374>
+    <http://semanticscience.org/resource/CHEMINF_000477> <compound/CID44149478> .
+
+<substance/SID485792532>
+    <http://semanticscience.org/resource/CHEMINF_000477> <compound/CID44149478> .
+
+<synonym/MD5_bbb459d6c6bc6ac8aac75e45ca1a0964>
+    <http://semanticscience.org/resource/SIO_000011> <compound/CID44149478> .
+
+<synonym/MD5_e0a211816516fc41c55955591dbc70d7>
+    <http://semanticscience.org/resource/SIO_000011> <compound/CID44149478> .
+
+<synonym/MD5_e24c9fc143872a096fe8e27fb43cd327>
+    <http://semanticscience.org/resource/SIO_000011> <compound/CID44149478> .
+
+

@@ -1,0 +1,43 @@
+@base <http://rdf.ncbi.nlm.nih.gov/pubchem/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+
+<compound/CID71300517>
+    <http://purl.org/dc/terms/identifier> "71300517" ;
+    <http://semanticscience.org/resource/SIO_000008> <descriptor/CID71300517_Canonical_SMILES>, <descriptor/CID71300517_Compound_Identifier>, <descriptor/CID71300517_Covalent_Unit_Count>, <descriptor/CID71300517_Defined_Atom_Stereo_Count>, <descriptor/CID71300517_Defined_Bond_Stereo_Count>, <descriptor/CID71300517_Exact_Mass>, <descriptor/CID71300517_Hydrogen_Bond_Acceptor_Count>, <descriptor/CID71300517_Hydrogen_Bond_Donor_Count>, <descriptor/CID71300517_IUPAC_InChI>, <descriptor/CID71300517_Isomeric_SMILES>, <descriptor/CID71300517_Isotope_Atom_Count>, <descriptor/CID71300517_Molecular_Formula>, <descriptor/CID71300517_Molecular_Weight>, <descriptor/CID71300517_Mono_Isotopic_Weight>, <descriptor/CID71300517_Non-hydrogen_Atom_Count>, <descriptor/CID71300517_Preferred_IUPAC_Name>, <descriptor/CID71300517_Rotatable_Bond_Count>, <descriptor/CID71300517_Structure_Complexity>, <descriptor/CID71300517_TPSA>, <descriptor/CID71300517_Total_Formal_Charge>, <descriptor/CID71300517_Undefined_Atom_Stereo_Count>, <descriptor/CID71300517_Undefined_Bond_Stereo_Count> ;
+    a <vocabulary#Compound> ;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "(2-Ethylhexanoato-O)(isononanoato-O)lead" .
+
+<inchikey/JIBIFMHUBGSXGH-UHFFFAOYSA-L>
+    <http://semanticscience.org/resource/SIO_000011> <compound/CID71300517> .
+
+<substance/SID135361371>
+    <http://semanticscience.org/resource/CHEMINF_000477> <compound/CID71300517> .
+
+<substance/SID319408070>
+    <http://semanticscience.org/resource/CHEMINF_000477> <compound/CID71300517> .
+
+<substance/SID428400623>
+    <http://semanticscience.org/resource/CHEMINF_000477> <compound/CID71300517> .
+
+<substance/SID481757043>
+    <http://semanticscience.org/resource/CHEMINF_000477> <compound/CID71300517> .
+
+<substance/SID504182654>
+    <http://semanticscience.org/resource/CHEMINF_000477> <compound/CID71300517> .
+
+<substance/SID505391516>
+    <http://semanticscience.org/resource/CHEMINF_000477> <compound/CID71300517> .
+
+<synonym/MD5_8f373bf17b0214d94fe6af1cf1d66723>
+    <http://semanticscience.org/resource/SIO_000011> <compound/CID71300517> .
+
+<synonym/MD5_b8105a68a7eec0e2246399b9c57c2a7f>
+    <http://semanticscience.org/resource/SIO_000011> <compound/CID71300517> .
+
+<synonym/MD5_f64e9ee4cdf9b0b7f169e7a240d51893>
+    <http://semanticscience.org/resource/SIO_000011> <compound/CID71300517> .
+
+<synonym/MD5_f9733b91fc66f6ee07de8aa68eafea04>
+    <http://semanticscience.org/resource/SIO_000011> <compound/CID71300517> .
+
+

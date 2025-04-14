@@ -1,0 +1,123 @@
+@base <http://rdf.ncbi.nlm.nih.gov/pubchem/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+
+<compound/CID91617643>
+    <http://purl.org/dc/terms/identifier> "91617643" ;
+    <http://semanticscience.org/resource/CHEMINF_000480> <compound/CID190217>, <compound/CID5352425> ;
+    <http://semanticscience.org/resource/SIO_000008> <descriptor/CID91617643_Canonical_SMILES>, <descriptor/CID91617643_Compound_Identifier>, <descriptor/CID91617643_Covalent_Unit_Count>, <descriptor/CID91617643_Defined_Atom_Stereo_Count>, <descriptor/CID91617643_Defined_Bond_Stereo_Count>, <descriptor/CID91617643_Exact_Mass>, <descriptor/CID91617643_Hydrogen_Bond_Acceptor_Count>, <descriptor/CID91617643_Hydrogen_Bond_Donor_Count>, <descriptor/CID91617643_IUPAC_InChI>, <descriptor/CID91617643_Isomeric_SMILES>, <descriptor/CID91617643_Isotope_Atom_Count>, <descriptor/CID91617643_Molecular_Formula>, <descriptor/CID91617643_Molecular_Weight>, <descriptor/CID91617643_Mono_Isotopic_Weight>, <descriptor/CID91617643_Non-hydrogen_Atom_Count>, <descriptor/CID91617643_Rotatable_Bond_Count>, <descriptor/CID91617643_Structure_Complexity>, <descriptor/CID91617643_TPSA>, <descriptor/CID91617643_Total_Formal_Charge>, <descriptor/CID91617643_Undefined_Atom_Stereo_Count>, <descriptor/CID91617643_Undefined_Bond_Stereo_Count> ;
+    a <vocabulary#Compound> ;
+    <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://www.wikidata.org/entity/Q25383589> ;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Lead oxide (Pb2O3)" .
+
+<cooccurrence/CID5352425_CID91617643>
+    rdf:object <compound/CID91617643> .
+
+<cooccurrence/CID91617643_CID5352425>
+    rdf:subject <compound/CID91617643> .
+
+<cooccurrence/CID91617643_DZID11449>
+    rdf:subject <compound/CID91617643> .
+
+<cooccurrence/CID91617643_DZID7077>
+    rdf:subject <compound/CID91617643> .
+
+<cooccurrence/CID91617643_DZID8277>
+    rdf:subject <compound/CID91617643> .
+
+<cooccurrence/CID91617643_EC_3.1.3.1>
+    rdf:subject <compound/CID91617643> .
+
+<cooccurrence/CID91617643_bmp3>
+    rdf:subject <compound/CID91617643> .
+
+<cooccurrence/DZID8277_CID91617643>
+    rdf:object <compound/CID91617643> .
+
+<inchikey/RFCOXNAJGUDLNN-UHFFFAOYSA-N>
+    <http://semanticscience.org/resource/SIO_000011> <compound/CID91617643> .
+
+<substance/SID135304464>
+    <http://semanticscience.org/resource/CHEMINF_000477> <compound/CID91617643> .
+
+<substance/SID176330934>
+    <http://semanticscience.org/resource/CHEMINF_000477> <compound/CID91617643> .
+
+<substance/SID249492235>
+    <http://semanticscience.org/resource/CHEMINF_000477> <compound/CID91617643> .
+
+<substance/SID374917896>
+    <http://semanticscience.org/resource/CHEMINF_000477> <compound/CID91617643> .
+
+<substance/SID385737688>
+    <http://semanticscience.org/resource/CHEMINF_000477> <compound/CID91617643> .
+
+<substance/SID441385807>
+    <http://semanticscience.org/resource/CHEMINF_000477> <compound/CID91617643> .
+
+<substance/SID445745091>
+    <http://semanticscience.org/resource/CHEMINF_000477> <compound/CID91617643> .
+
+<substance/SID445998360>
+    <http://semanticscience.org/resource/CHEMINF_000477> <compound/CID91617643> .
+
+<substance/SID452324301>
+    <http://semanticscience.org/resource/CHEMINF_000477> <compound/CID91617643> .
+
+<substance/SID462784795>
+    <http://semanticscience.org/resource/CHEMINF_000477> <compound/CID91617643> .
+
+<substance/SID481748964>
+    <http://semanticscience.org/resource/CHEMINF_000477> <compound/CID91617643> .
+
+<substance/SID485741483>
+    <http://semanticscience.org/resource/CHEMINF_000477> <compound/CID91617643> .
+
+<substance/SID485781110>
+    <http://semanticscience.org/resource/CHEMINF_000477> <compound/CID91617643> .
+
+<substance/SID489028178>
+    <http://semanticscience.org/resource/CHEMINF_000477> <compound/CID91617643> .
+
+<substance/SID504184594>
+    <http://semanticscience.org/resource/CHEMINF_000477> <compound/CID91617643> .
+
+<substance/SID505794484>
+    <http://semanticscience.org/resource/CHEMINF_000477> <compound/CID91617643> .
+
+<synonym/MD5_0143968872a949f2cb336b8e40484b73>
+    <http://semanticscience.org/resource/SIO_000011> <compound/CID91617643> .
+
+<synonym/MD5_01b6b840f3c54d4d787cc712b35273bb>
+    <http://semanticscience.org/resource/SIO_000011> <compound/CID91617643> .
+
+<synonym/MD5_0877537c481c40c7f92550478a3676f1>
+    <http://semanticscience.org/resource/SIO_000011> <compound/CID91617643> .
+
+<synonym/MD5_095f6a8b9384ef4889db950233dacb7d>
+    <http://semanticscience.org/resource/SIO_000011> <compound/CID91617643> .
+
+<synonym/MD5_85671a42d21a7a174d0b936808d09375>
+    <http://semanticscience.org/resource/SIO_000011> <compound/CID91617643> .
+
+<synonym/MD5_8a1433d2c8e6329df32119a44a9e7495>
+    <http://semanticscience.org/resource/SIO_000011> <compound/CID91617643> .
+
+<synonym/MD5_9264cd6a0a1862ee5af050aa8e907061>
+    <http://semanticscience.org/resource/SIO_000011> <compound/CID91617643> .
+
+<synonym/MD5_95c168b195a32009677099130f1e1b6a>
+    <http://semanticscience.org/resource/SIO_000011> <compound/CID91617643> .
+
+<synonym/MD5_b31f03c6c7de1c68c49f534457cde9d2>
+    <http://semanticscience.org/resource/SIO_000011> <compound/CID91617643> .
+
+<synonym/MD5_bd7d5b90069c6d24f132f95e8f9b71bb>
+    <http://semanticscience.org/resource/SIO_000011> <compound/CID91617643> .
+
+<synonym/MD5_e2520e063f5aafbf3b5a9502fafba948>
+    <http://semanticscience.org/resource/SIO_000011> <compound/CID91617643> .
+
+<synonym/MD5_eab0c2f645fbb6d6de3cfb2239fec5fe>
+    <http://semanticscience.org/resource/SIO_000011> <compound/CID91617643> .
+
+

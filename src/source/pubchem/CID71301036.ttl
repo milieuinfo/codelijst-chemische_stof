@@ -1,0 +1,57 @@
+@base <http://rdf.ncbi.nlm.nih.gov/pubchem/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+
+<compound/CID102058822>
+    <http://semanticscience.org/resource/CHEMINF_000461> <compound/CID71301036> .
+
+<compound/CID71301036>
+    <http://purl.org/dc/terms/identifier> "71301036" ;
+    <http://semanticscience.org/resource/CHEMINF_000461> <compound/CID102058822>, <compound/CID86128310> ;
+    <http://semanticscience.org/resource/CHEMINF_000480> <compound/CID23973>, <compound/CID6366032>, <compound/CID6436885> ;
+    <http://semanticscience.org/resource/SIO_000008> <descriptor/CID71301036_Canonical_SMILES>, <descriptor/CID71301036_Compound_Identifier>, <descriptor/CID71301036_Covalent_Unit_Count>, <descriptor/CID71301036_Defined_Atom_Stereo_Count>, <descriptor/CID71301036_Defined_Bond_Stereo_Count>, <descriptor/CID71301036_Exact_Mass>, <descriptor/CID71301036_Hydrogen_Bond_Acceptor_Count>, <descriptor/CID71301036_Hydrogen_Bond_Donor_Count>, <descriptor/CID71301036_IUPAC_InChI>, <descriptor/CID71301036_Isomeric_SMILES>, <descriptor/CID71301036_Isotope_Atom_Count>, <descriptor/CID71301036_Molecular_Formula>, <descriptor/CID71301036_Molecular_Weight>, <descriptor/CID71301036_Mono_Isotopic_Weight>, <descriptor/CID71301036_Non-hydrogen_Atom_Count>, <descriptor/CID71301036_Preferred_IUPAC_Name>, <descriptor/CID71301036_Rotatable_Bond_Count>, <descriptor/CID71301036_Structure_Complexity>, <descriptor/CID71301036_TPSA>, <descriptor/CID71301036_Total_Formal_Charge>, <descriptor/CID71301036_Undefined_Atom_Stereo_Count>, <descriptor/CID71301036_Undefined_Bond_Stereo_Count> ;
+    a <vocabulary#Compound> ;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Cadmium diisobutyl dimaleate" .
+
+<compound/CID86128310>
+    <http://semanticscience.org/resource/CHEMINF_000461> <compound/CID71301036> .
+
+<inchikey/DWEVQUURSGETLQ-OHSCNOFNSA-L>
+    <http://semanticscience.org/resource/SIO_000011> <compound/CID71301036> .
+
+<substance/SID135356933>
+    <http://semanticscience.org/resource/CHEMINF_000477> <compound/CID71301036> .
+
+<substance/SID319408421>
+    <http://semanticscience.org/resource/CHEMINF_000477> <compound/CID71301036> .
+
+<substance/SID481762249>
+    <http://semanticscience.org/resource/CHEMINF_000477> <compound/CID71301036> .
+
+<substance/SID486338062>
+    <http://semanticscience.org/resource/CHEMINF_000477> <compound/CID71301036> .
+
+<substance/SID489112003>
+    <http://semanticscience.org/resource/CHEMINF_000477> <compound/CID71301036> .
+
+<substance/SID504116671>
+    <http://semanticscience.org/resource/CHEMINF_000477> <compound/CID71301036> .
+
+<substance/SID504629976>
+    <http://semanticscience.org/resource/CHEMINF_000477> <compound/CID71301036> .
+
+<synonym/MD5_51d4943528eb8df67416379eb1c38f27>
+    <http://semanticscience.org/resource/SIO_000011> <compound/CID71301036> .
+
+<synonym/MD5_800246b2cc9f178a9665af68f36a99d4>
+    <http://semanticscience.org/resource/SIO_000011> <compound/CID71301036> .
+
+<synonym/MD5_81578eae67dc6dcb05e10a4e063855f2>
+    <http://semanticscience.org/resource/SIO_000011> <compound/CID71301036> .
+
+<synonym/MD5_90634574f68c37ccc66eee1261444f61>
+    <http://semanticscience.org/resource/SIO_000011> <compound/CID71301036> .
+
+<synonym/MD5_f9bbc3ae6ae2ea711e1ffb332a27b61d>
+    <http://semanticscience.org/resource/SIO_000011> <compound/CID71301036> .
+
+

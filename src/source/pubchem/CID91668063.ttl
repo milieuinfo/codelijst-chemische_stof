@@ -1,0 +1,38 @@
+@base <http://rdf.ncbi.nlm.nih.gov/pubchem/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+
+<compound/CID91668063>
+    <http://purl.org/dc/terms/identifier> "91668063" ;
+    <http://semanticscience.org/resource/CHEMINF_000480> <compound/CID24947>, <compound/CID795> ;
+    <http://semanticscience.org/resource/SIO_000008> <descriptor/CID91668063_Canonical_SMILES>, <descriptor/CID91668063_Compound_Identifier>, <descriptor/CID91668063_Covalent_Unit_Count>, <descriptor/CID91668063_Defined_Atom_Stereo_Count>, <descriptor/CID91668063_Defined_Bond_Stereo_Count>, <descriptor/CID91668063_Exact_Mass>, <descriptor/CID91668063_Hydrogen_Bond_Acceptor_Count>, <descriptor/CID91668063_Hydrogen_Bond_Donor_Count>, <descriptor/CID91668063_IUPAC_InChI>, <descriptor/CID91668063_Isomeric_SMILES>, <descriptor/CID91668063_Isotope_Atom_Count>, <descriptor/CID91668063_Molecular_Formula>, <descriptor/CID91668063_Molecular_Weight>, <descriptor/CID91668063_Mono_Isotopic_Weight>, <descriptor/CID91668063_Non-hydrogen_Atom_Count>, <descriptor/CID91668063_Preferred_IUPAC_Name>, <descriptor/CID91668063_Rotatable_Bond_Count>, <descriptor/CID91668063_Structure_Complexity>, <descriptor/CID91668063_TPSA>, <descriptor/CID91668063_Total_Formal_Charge>, <descriptor/CID91668063_Undefined_Atom_Stereo_Count>, <descriptor/CID91668063_Undefined_Bond_Stereo_Count> ;
+    a <vocabulary#Compound> ;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Cadmium, dichlorotetrakis(1H-imidazole-kappaN3)-" .
+
+<inchikey/YLVPACHNUOWQFM-UHFFFAOYSA-L>
+    <http://semanticscience.org/resource/SIO_000011> <compound/CID91668063> .
+
+<substance/SID135337449>
+    <http://semanticscience.org/resource/CHEMINF_000477> <compound/CID91668063> .
+
+<substance/SID176307996>
+    <http://semanticscience.org/resource/CHEMINF_000477> <compound/CID91668063> .
+
+<substance/SID319421395>
+    <http://semanticscience.org/resource/CHEMINF_000477> <compound/CID91668063> .
+
+<substance/SID481760836>
+    <http://semanticscience.org/resource/CHEMINF_000477> <compound/CID91668063> .
+
+<substance/SID505569032>
+    <http://semanticscience.org/resource/CHEMINF_000477> <compound/CID91668063> .
+
+<synonym/MD5_077243a32941775246feced7404d2fdf>
+    <http://semanticscience.org/resource/SIO_000011> <compound/CID91668063> .
+
+<synonym/MD5_5ed304f7f45fbe6c7f4ca7aee23d7047>
+    <http://semanticscience.org/resource/SIO_000011> <compound/CID91668063> .
+
+<synonym/MD5_94f150c5221e7375d2687836df5275ff>
+    <http://semanticscience.org/resource/SIO_000011> <compound/CID91668063> .
+
+

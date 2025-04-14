@@ -1,0 +1,40 @@
+@base <http://rdf.ncbi.nlm.nih.gov/pubchem/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+
+<compound/CID71300519>
+    <http://purl.org/dc/terms/identifier> "71300519" ;
+    <http://semanticscience.org/resource/SIO_000008> <descriptor/CID71300519_Canonical_SMILES>, <descriptor/CID71300519_Compound_Identifier>, <descriptor/CID71300519_Covalent_Unit_Count>, <descriptor/CID71300519_Defined_Atom_Stereo_Count>, <descriptor/CID71300519_Defined_Bond_Stereo_Count>, <descriptor/CID71300519_Exact_Mass>, <descriptor/CID71300519_Hydrogen_Bond_Acceptor_Count>, <descriptor/CID71300519_Hydrogen_Bond_Donor_Count>, <descriptor/CID71300519_IUPAC_InChI>, <descriptor/CID71300519_Isomeric_SMILES>, <descriptor/CID71300519_Isotope_Atom_Count>, <descriptor/CID71300519_Molecular_Formula>, <descriptor/CID71300519_Molecular_Weight>, <descriptor/CID71300519_Mono_Isotopic_Weight>, <descriptor/CID71300519_Non-hydrogen_Atom_Count>, <descriptor/CID71300519_Preferred_IUPAC_Name>, <descriptor/CID71300519_Rotatable_Bond_Count>, <descriptor/CID71300519_Structure_Complexity>, <descriptor/CID71300519_TPSA>, <descriptor/CID71300519_Total_Formal_Charge>, <descriptor/CID71300519_Undefined_Atom_Stereo_Count>, <descriptor/CID71300519_Undefined_Bond_Stereo_Count> ;
+    a <vocabulary#Compound> ;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "(2-Ethylhexanoato-O)(neodecanoato-O)lead" .
+
+<inchikey/OLQFFKPSKUTQIA-UHFFFAOYSA-L>
+    <http://semanticscience.org/resource/SIO_000011> <compound/CID71300519> .
+
+<substance/SID135325513>
+    <http://semanticscience.org/resource/CHEMINF_000477> <compound/CID71300519> .
+
+<substance/SID319408072>
+    <http://semanticscience.org/resource/CHEMINF_000477> <compound/CID71300519> .
+
+<substance/SID481757045>
+    <http://semanticscience.org/resource/CHEMINF_000477> <compound/CID71300519> .
+
+<substance/SID504182648>
+    <http://semanticscience.org/resource/CHEMINF_000477> <compound/CID71300519> .
+
+<substance/SID505391521>
+    <http://semanticscience.org/resource/CHEMINF_000477> <compound/CID71300519> .
+
+<synonym/MD5_21a19510562bc8e2b9917406f34b995c>
+    <http://semanticscience.org/resource/SIO_000011> <compound/CID71300519> .
+
+<synonym/MD5_30c366210652e1bd4bcfa865ebca6f33>
+    <http://semanticscience.org/resource/SIO_000011> <compound/CID71300519> .
+
+<synonym/MD5_adf3f475f03f8793eb276aada54090b5>
+    <http://semanticscience.org/resource/SIO_000011> <compound/CID71300519> .
+
+<synonym/MD5_de6341589884153f8b8b674ef99edb5f>
+    <http://semanticscience.org/resource/SIO_000011> <compound/CID71300519> .
+
+

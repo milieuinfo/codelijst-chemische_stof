@@ -1,0 +1,35 @@
+@base <http://rdf.ncbi.nlm.nih.gov/pubchem/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+
+<compound/CID165362310>
+    <http://purl.org/dc/terms/identifier> "165362310" ;
+    <http://semanticscience.org/resource/CHEMINF_000480> <compound/CID14917>, <compound/CID5462222>, <compound/CID935> ;
+    <http://semanticscience.org/resource/SIO_000008> <descriptor/CID165362310_Canonical_SMILES>, <descriptor/CID165362310_Compound_Identifier>, <descriptor/CID165362310_Covalent_Unit_Count>, <descriptor/CID165362310_Defined_Atom_Stereo_Count>, <descriptor/CID165362310_Defined_Bond_Stereo_Count>, <descriptor/CID165362310_Exact_Mass>, <descriptor/CID165362310_Hydrogen_Bond_Acceptor_Count>, <descriptor/CID165362310_Hydrogen_Bond_Donor_Count>, <descriptor/CID165362310_IUPAC_InChI>, <descriptor/CID165362310_Isomeric_SMILES>, <descriptor/CID165362310_Isotope_Atom_Count>, <descriptor/CID165362310_Molecular_Formula>, <descriptor/CID165362310_Molecular_Weight>, <descriptor/CID165362310_Mono_Isotopic_Weight>, <descriptor/CID165362310_Non-hydrogen_Atom_Count>, <descriptor/CID165362310_Preferred_IUPAC_Name>, <descriptor/CID165362310_Rotatable_Bond_Count>, <descriptor/CID165362310_Structure_Complexity>, <descriptor/CID165362310_TPSA>, <descriptor/CID165362310_Total_Formal_Charge>, <descriptor/CID165362310_Undefined_Atom_Stereo_Count>, <descriptor/CID165362310_Undefined_Bond_Stereo_Count> ;
+    a <vocabulary#Compound> ;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Potassium nickel fluoride (K3Ni2F7)" .
+
+<inchikey/SUXSHZNRVQGVFR-UHFFFAOYSA-G>
+    <http://semanticscience.org/resource/SIO_000011> <compound/CID165362310> .
+
+<substance/SID472181964>
+    <http://semanticscience.org/resource/CHEMINF_000477> <compound/CID165362310> .
+
+<substance/SID489165526>
+    <http://semanticscience.org/resource/CHEMINF_000477> <compound/CID165362310> .
+
+<substance/SID495656678>
+    <http://semanticscience.org/resource/CHEMINF_000477> <compound/CID165362310> .
+
+<substance/SID504693133>
+    <http://semanticscience.org/resource/CHEMINF_000477> <compound/CID165362310> .
+
+<synonym/MD5_1037dfc823739b8aaa15c851bc29e87f>
+    <http://semanticscience.org/resource/SIO_000011> <compound/CID165362310> .
+
+<synonym/MD5_29dc682be126f556b5f14c244169f8a3>
+    <http://semanticscience.org/resource/SIO_000011> <compound/CID165362310> .
+
+<synonym/MD5_49dc6ed6eb66d2bc1a9aa473263a6f0c>
+    <http://semanticscience.org/resource/SIO_000011> <compound/CID165362310> .
+
+

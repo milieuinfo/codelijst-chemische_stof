@@ -1,0 +1,165 @@
+@base <http://rdf.ncbi.nlm.nih.gov/pubchem/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+
+<compound/CID197005>
+    <http://purl.org/dc/terms/identifier> "197005" ;
+    <vocabulary#has_parent> <compound/CID3893> ;
+    <http://semanticscience.org/resource/CHEMINF_000480> <compound/CID23973> ;
+    <http://semanticscience.org/resource/SIO_000008> <descriptor/CID197005_Canonical_SMILES>, <descriptor/CID197005_Compound_Identifier>, <descriptor/CID197005_Covalent_Unit_Count>, <descriptor/CID197005_Defined_Atom_Stereo_Count>, <descriptor/CID197005_Defined_Bond_Stereo_Count>, <descriptor/CID197005_Exact_Mass>, <descriptor/CID197005_Hydrogen_Bond_Acceptor_Count>, <descriptor/CID197005_Hydrogen_Bond_Donor_Count>, <descriptor/CID197005_IUPAC_InChI>, <descriptor/CID197005_Isomeric_SMILES>, <descriptor/CID197005_Isotope_Atom_Count>, <descriptor/CID197005_Molecular_Formula>, <descriptor/CID197005_Molecular_Weight>, <descriptor/CID197005_Mono_Isotopic_Weight>, <descriptor/CID197005_Non-hydrogen_Atom_Count>, <descriptor/CID197005_Preferred_IUPAC_Name>, <descriptor/CID197005_Rotatable_Bond_Count>, <descriptor/CID197005_Structure_Complexity>, <descriptor/CID197005_TPSA>, <descriptor/CID197005_Total_Formal_Charge>, <descriptor/CID197005_Undefined_Atom_Stereo_Count>, <descriptor/CID197005_Undefined_Bond_Stereo_Count> ;
+    a <vocabulary#Compound> ;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Cadmium laurate" .
+
+<cooccurrence/CID12163534_CID197005>
+    rdf:object <compound/CID197005> .
+
+<cooccurrence/CID16681_CID197005>
+    rdf:object <compound/CID197005> .
+
+<cooccurrence/CID197005_CID11005>
+    rdf:subject <compound/CID197005> .
+
+<cooccurrence/CID197005_CID12163534>
+    rdf:subject <compound/CID197005> .
+
+<cooccurrence/CID197005_CID16681>
+    rdf:subject <compound/CID197005> .
+
+<cooccurrence/CID197005_CID21149332>
+    rdf:subject <compound/CID197005> .
+
+<cooccurrence/CID197005_CID23973>
+    rdf:subject <compound/CID197005> .
+
+<cooccurrence/CID197005_CID57741935>
+    rdf:subject <compound/CID197005> .
+
+<cooccurrence/CID197005_CID65577>
+    rdf:subject <compound/CID197005> .
+
+<cooccurrence/CID197005_CID66290>
+    rdf:subject <compound/CID197005> .
+
+<cooccurrence/CID21149332_CID197005>
+    rdf:object <compound/CID197005> .
+
+<cooccurrence/CID65577_CID197005>
+    rdf:object <compound/CID197005> .
+
+<cooccurrence/CID66290_CID197005>
+    rdf:object <compound/CID197005> .
+
+<inchikey/ITQVEYJXZXMBTR-UHFFFAOYSA-L>
+    <http://semanticscience.org/resource/SIO_000011> <compound/CID197005> .
+
+<substance/SID10262252>
+    <http://semanticscience.org/resource/CHEMINF_000477> <compound/CID197005> .
+
+<substance/SID113464271>
+    <http://semanticscience.org/resource/CHEMINF_000477> <compound/CID197005> .
+
+<substance/SID135174542>
+    <http://semanticscience.org/resource/CHEMINF_000477> <compound/CID197005> .
+
+<substance/SID135196498>
+    <http://semanticscience.org/resource/CHEMINF_000477> <compound/CID197005> .
+
+<substance/SID163272319>
+    <http://semanticscience.org/resource/CHEMINF_000477> <compound/CID197005> .
+
+<substance/SID176322137>
+    <http://semanticscience.org/resource/CHEMINF_000477> <compound/CID197005> .
+
+<substance/SID227692160>
+    <http://semanticscience.org/resource/CHEMINF_000477> <compound/CID197005> .
+
+<substance/SID274117468>
+    <http://semanticscience.org/resource/CHEMINF_000477> <compound/CID197005> .
+
+<substance/SID315690654>
+    <http://semanticscience.org/resource/CHEMINF_000477> <compound/CID197005> .
+
+<substance/SID319198542>
+    <http://semanticscience.org/resource/CHEMINF_000477> <compound/CID197005> .
+
+<substance/SID319198543>
+    <http://semanticscience.org/resource/CHEMINF_000477> <compound/CID197005> .
+
+<substance/SID33516992>
+    <http://semanticscience.org/resource/CHEMINF_000477> <compound/CID197005> .
+
+<substance/SID387106150>
+    <http://semanticscience.org/resource/CHEMINF_000477> <compound/CID197005> .
+
+<substance/SID449791317>
+    <http://semanticscience.org/resource/CHEMINF_000477> <compound/CID197005> .
+
+<substance/SID472512509>
+    <http://semanticscience.org/resource/CHEMINF_000477> <compound/CID197005> .
+
+<substance/SID472929423>
+    <http://semanticscience.org/resource/CHEMINF_000477> <compound/CID197005> .
+
+<substance/SID476256403>
+    <http://semanticscience.org/resource/CHEMINF_000477> <compound/CID197005> .
+
+<substance/SID489027601>
+    <http://semanticscience.org/resource/CHEMINF_000477> <compound/CID197005> .
+
+<substance/SID491188707>
+    <http://semanticscience.org/resource/CHEMINF_000477> <compound/CID197005> .
+
+<substance/SID49988651>
+    <http://semanticscience.org/resource/CHEMINF_000477> <compound/CID197005> .
+
+<substance/SID504166249>
+    <http://semanticscience.org/resource/CHEMINF_000477> <compound/CID197005> .
+
+<substance/SID77132429>
+    <http://semanticscience.org/resource/CHEMINF_000477> <compound/CID197005> .
+
+<synonym/MD5_04bf42f8ca86cb03cd712d5179e84da9>
+    <http://semanticscience.org/resource/SIO_000011> <compound/CID197005> .
+
+<synonym/MD5_2875b2f385c67e586f51533ac32a72dc>
+    <http://semanticscience.org/resource/SIO_000011> <compound/CID197005> .
+
+<synonym/MD5_32080e1e0709a7002d9b775010d77354>
+    <http://semanticscience.org/resource/SIO_000011> <compound/CID197005> .
+
+<synonym/MD5_366f6b70a041f6e6d654731886a36742>
+    <http://semanticscience.org/resource/SIO_000011> <compound/CID197005> .
+
+<synonym/MD5_4abff73c8887be75cec26ed2fd7315c2>
+    <http://semanticscience.org/resource/SIO_000011> <compound/CID197005> .
+
+<synonym/MD5_57c495e4dad0312b6defe330979b077c>
+    <http://semanticscience.org/resource/SIO_000011> <compound/CID197005> .
+
+<synonym/MD5_5f679617bd2dbbe6f1dbcdac2fb06149>
+    <http://semanticscience.org/resource/SIO_000011> <compound/CID197005> .
+
+<synonym/MD5_860642d368d8a5a0f284987b7d1be05c>
+    <http://semanticscience.org/resource/SIO_000011> <compound/CID197005> .
+
+<synonym/MD5_a34dd7a191e57a7f9260162c3cb9b431>
+    <http://semanticscience.org/resource/SIO_000011> <compound/CID197005> .
+
+<synonym/MD5_c5eabc2777f3fd5a1edf88652b68ccba>
+    <http://semanticscience.org/resource/SIO_000011> <compound/CID197005> .
+
+<synonym/MD5_e0e2d3b8427ae005afbec1fa11363187>
+    <http://semanticscience.org/resource/SIO_000011> <compound/CID197005> .
+
+<synonym/MD5_e38378e80806751b79e9c9a58ce9446a>
+    <http://semanticscience.org/resource/SIO_000011> <compound/CID197005> .
+
+<synonym/MD5_e91e8cafd834bd682b61b2a925fadeb0>
+    <http://semanticscience.org/resource/SIO_000011> <compound/CID197005> .
+
+<synonym/MD5_ea95a6b0a3b76400abe2c7fe87ad1d63>
+    <http://semanticscience.org/resource/SIO_000011> <compound/CID197005> .
+
+<synonym/MD5_fd98b7f3d8dfb8171a0cd3fa20e094c4>
+    <http://semanticscience.org/resource/SIO_000011> <compound/CID197005> .
+
+

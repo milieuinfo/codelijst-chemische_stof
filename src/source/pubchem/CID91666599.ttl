@@ -1,0 +1,32 @@
+@base <http://rdf.ncbi.nlm.nih.gov/pubchem/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+
+<compound/CID91666599>
+    <http://purl.org/dc/terms/identifier> "91666599" ;
+    <http://semanticscience.org/resource/CHEMINF_000480> <compound/CID10916>, <compound/CID176>, <compound/CID935> ;
+    <http://semanticscience.org/resource/SIO_000008> <descriptor/CID91666599_Canonical_SMILES>, <descriptor/CID91666599_Compound_Identifier>, <descriptor/CID91666599_Covalent_Unit_Count>, <descriptor/CID91666599_Defined_Atom_Stereo_Count>, <descriptor/CID91666599_Defined_Bond_Stereo_Count>, <descriptor/CID91666599_Exact_Mass>, <descriptor/CID91666599_Hydrogen_Bond_Acceptor_Count>, <descriptor/CID91666599_Hydrogen_Bond_Donor_Count>, <descriptor/CID91666599_IUPAC_InChI>, <descriptor/CID91666599_Isomeric_SMILES>, <descriptor/CID91666599_Isotope_Atom_Count>, <descriptor/CID91666599_Molecular_Formula>, <descriptor/CID91666599_Molecular_Weight>, <descriptor/CID91666599_Mono_Isotopic_Weight>, <descriptor/CID91666599_Non-hydrogen_Atom_Count>, <descriptor/CID91666599_Preferred_IUPAC_Name>, <descriptor/CID91666599_Rotatable_Bond_Count>, <descriptor/CID91666599_Structure_Complexity>, <descriptor/CID91666599_TPSA>, <descriptor/CID91666599_Total_Formal_Charge>, <descriptor/CID91666599_Undefined_Atom_Stereo_Count>, <descriptor/CID91666599_Undefined_Bond_Stereo_Count> ;
+    a <vocabulary#Compound> ;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Nickel uranyl tetraacetate, of uranium depleted in uranium-235" .
+
+<inchikey/WFCRVEQLMKCZBW-UHFFFAOYSA-N>
+    <http://semanticscience.org/resource/SIO_000011> <compound/CID91666599> .
+
+<substance/SID135345792>
+    <http://semanticscience.org/resource/CHEMINF_000477> <compound/CID91666599> .
+
+<substance/SID319421227>
+    <http://semanticscience.org/resource/CHEMINF_000477> <compound/CID91666599> .
+
+<substance/SID481746875>
+    <http://semanticscience.org/resource/CHEMINF_000477> <compound/CID91666599> .
+
+<synonym/MD5_090eae8d419389f46b2471462d53219d>
+    <http://semanticscience.org/resource/SIO_000011> <compound/CID91666599> .
+
+<synonym/MD5_2b61f26bfa627725738c114abbd930cf>
+    <http://semanticscience.org/resource/SIO_000011> <compound/CID91666599> .
+
+<synonym/MD5_efe2cab98e04ac8dfc7434e956c15fdb>
+    <http://semanticscience.org/resource/SIO_000011> <compound/CID91666599> .
+
+

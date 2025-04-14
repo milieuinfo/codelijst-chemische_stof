@@ -1,0 +1,36 @@
+@base <http://rdf.ncbi.nlm.nih.gov/pubchem/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+
+<compound/CID75124267>
+    <http://purl.org/dc/terms/identifier> "75124267" ;
+    <vocabulary#has_parent> <compound/CID9864> ;
+    <http://semanticscience.org/resource/CHEMINF_000480> <compound/CID5352425> ;
+    <http://semanticscience.org/resource/SIO_000008> <descriptor/CID75124267_Canonical_SMILES>, <descriptor/CID75124267_Compound_Identifier>, <descriptor/CID75124267_Covalent_Unit_Count>, <descriptor/CID75124267_Defined_Atom_Stereo_Count>, <descriptor/CID75124267_Defined_Bond_Stereo_Count>, <descriptor/CID75124267_Exact_Mass>, <descriptor/CID75124267_Hydrogen_Bond_Acceptor_Count>, <descriptor/CID75124267_Hydrogen_Bond_Donor_Count>, <descriptor/CID75124267_IUPAC_InChI>, <descriptor/CID75124267_Isomeric_SMILES>, <descriptor/CID75124267_Isotope_Atom_Count>, <descriptor/CID75124267_Molecular_Formula>, <descriptor/CID75124267_Molecular_Weight>, <descriptor/CID75124267_Mono_Isotopic_Weight>, <descriptor/CID75124267_Non-hydrogen_Atom_Count>, <descriptor/CID75124267_Preferred_IUPAC_Name>, <descriptor/CID75124267_Rotatable_Bond_Count>, <descriptor/CID75124267_Structure_Complexity>, <descriptor/CID75124267_TPSA>, <descriptor/CID75124267_Total_Formal_Charge>, <descriptor/CID75124267_Undefined_Atom_Stereo_Count>, <descriptor/CID75124267_Undefined_Bond_Stereo_Count> ;
+    a <vocabulary#Compound> ;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Lead cyanamide" .
+
+<inchikey/SLSDODKZMOJKRY-UHFFFAOYSA-N>
+    <http://semanticscience.org/resource/SIO_000011> <compound/CID75124267> .
+
+<substance/SID135284549>
+    <http://semanticscience.org/resource/CHEMINF_000477> <compound/CID75124267> .
+
+<substance/SID319416303>
+    <http://semanticscience.org/resource/CHEMINF_000477> <compound/CID75124267> .
+
+<substance/SID441081613>
+    <http://semanticscience.org/resource/CHEMINF_000477> <compound/CID75124267> .
+
+<substance/SID481754992>
+    <http://semanticscience.org/resource/CHEMINF_000477> <compound/CID75124267> .
+
+<synonym/MD5_297f0ef567638c3cb32166bee4645b84>
+    <http://semanticscience.org/resource/SIO_000011> <compound/CID75124267> .
+
+<synonym/MD5_a27bf038077ac0437d1484502f4b15c5>
+    <http://semanticscience.org/resource/SIO_000011> <compound/CID75124267> .
+
+<synonym/MD5_fd3b3078b59b195f9338d2e539090065>
+    <http://semanticscience.org/resource/SIO_000011> <compound/CID75124267> .
+
+

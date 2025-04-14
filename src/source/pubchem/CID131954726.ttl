@@ -1,0 +1,31 @@
+@base <http://rdf.ncbi.nlm.nih.gov/pubchem/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+
+<compound/CID131954726>
+    <http://purl.org/dc/terms/identifier> "131954726" ;
+    <http://semanticscience.org/resource/SIO_000008> <descriptor/CID131954726_Canonical_SMILES>, <descriptor/CID131954726_Compound_Identifier>, <descriptor/CID131954726_Covalent_Unit_Count>, <descriptor/CID131954726_Defined_Atom_Stereo_Count>, <descriptor/CID131954726_Defined_Bond_Stereo_Count>, <descriptor/CID131954726_Exact_Mass>, <descriptor/CID131954726_Hydrogen_Bond_Acceptor_Count>, <descriptor/CID131954726_Hydrogen_Bond_Donor_Count>, <descriptor/CID131954726_IUPAC_InChI>, <descriptor/CID131954726_Isomeric_SMILES>, <descriptor/CID131954726_Isotope_Atom_Count>, <descriptor/CID131954726_Molecular_Formula>, <descriptor/CID131954726_Molecular_Weight>, <descriptor/CID131954726_Mono_Isotopic_Weight>, <descriptor/CID131954726_Non-hydrogen_Atom_Count>, <descriptor/CID131954726_Preferred_IUPAC_Name>, <descriptor/CID131954726_Rotatable_Bond_Count>, <descriptor/CID131954726_Structure_Complexity>, <descriptor/CID131954726_TPSA>, <descriptor/CID131954726_Total_Formal_Charge>, <descriptor/CID131954726_Undefined_Atom_Stereo_Count>, <descriptor/CID131954726_Undefined_Bond_Stereo_Count> ;
+    a <vocabulary#Compound> ;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "(mu-((4,4'-(Oxydiethylene) bis(dodecenylsuccinato))(2-)))diphenyldimercury" .
+
+<inchikey/PMNNVJVLAKDYBZ-UHFFFAOYSA-L>
+    <http://semanticscience.org/resource/SIO_000011> <compound/CID131954726> .
+
+<substance/SID135322532>
+    <http://semanticscience.org/resource/CHEMINF_000477> <compound/CID131954726> .
+
+<substance/SID481742141>
+    <http://semanticscience.org/resource/CHEMINF_000477> <compound/CID131954726> .
+
+<substance/SID504114711>
+    <http://semanticscience.org/resource/CHEMINF_000477> <compound/CID131954726> .
+
+<synonym/MD5_410d9089637d2752cb2c75e0c739dc92>
+    <http://semanticscience.org/resource/SIO_000011> <compound/CID131954726> .
+
+<synonym/MD5_85e798c57542bc368072b47ae99e5033>
+    <http://semanticscience.org/resource/SIO_000011> <compound/CID131954726> .
+
+<synonym/MD5_984ab2fdfb80dc1f1cd868db3034cf6d>
+    <http://semanticscience.org/resource/SIO_000011> <compound/CID131954726> .
+
+

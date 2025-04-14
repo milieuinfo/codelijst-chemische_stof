@@ -1,0 +1,38 @@
+@base <http://rdf.ncbi.nlm.nih.gov/pubchem/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+
+<compound/CID119057736>
+    <http://purl.org/dc/terms/identifier> "119057736" ;
+    <http://semanticscience.org/resource/CHEMINF_000480> <compound/CID8697>, <compound/CID90716>, <compound/CID935> ;
+    <http://semanticscience.org/resource/SIO_000008> <descriptor/CID119057736_Canonical_SMILES>, <descriptor/CID119057736_Compound_Identifier>, <descriptor/CID119057736_Covalent_Unit_Count>, <descriptor/CID119057736_Defined_Atom_Stereo_Count>, <descriptor/CID119057736_Defined_Bond_Stereo_Count>, <descriptor/CID119057736_Exact_Mass>, <descriptor/CID119057736_Hydrogen_Bond_Acceptor_Count>, <descriptor/CID119057736_Hydrogen_Bond_Donor_Count>, <descriptor/CID119057736_IUPAC_InChI>, <descriptor/CID119057736_Isomeric_SMILES>, <descriptor/CID119057736_Isotope_Atom_Count>, <descriptor/CID119057736_Molecular_Formula>, <descriptor/CID119057736_Molecular_Weight>, <descriptor/CID119057736_Mono_Isotopic_Weight>, <descriptor/CID119057736_Non-hydrogen_Atom_Count>, <descriptor/CID119057736_Preferred_IUPAC_Name>, <descriptor/CID119057736_Rotatable_Bond_Count>, <descriptor/CID119057736_Structure_Complexity>, <descriptor/CID119057736_TPSA>, <descriptor/CID119057736_Total_Formal_Charge>, <descriptor/CID119057736_Undefined_Atom_Stereo_Count>, <descriptor/CID119057736_Undefined_Bond_Stereo_Count> ;
+    a <vocabulary#Compound> ;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "(2-ethylhexanoato-O)(isooctanoato-O)nickel" .
+
+<inchikey/XVXNHRQLVGOWBG-UHFFFAOYSA-N>
+    <http://semanticscience.org/resource/SIO_000011> <compound/CID119057736> .
+
+<substance/SID135352284>
+    <http://semanticscience.org/resource/CHEMINF_000477> <compound/CID119057736> .
+
+<substance/SID319431673>
+    <http://semanticscience.org/resource/CHEMINF_000477> <compound/CID119057736> .
+
+<substance/SID481756226>
+    <http://semanticscience.org/resource/CHEMINF_000477> <compound/CID119057736> .
+
+<substance/SID505391520>
+    <http://semanticscience.org/resource/CHEMINF_000477> <compound/CID119057736> .
+
+<synonym/MD5_1aaaef6e697d236adfce228d08e9f2d0>
+    <http://semanticscience.org/resource/SIO_000011> <compound/CID119057736> .
+
+<synonym/MD5_ca05aafdeaa481f6da9b72b111a748bc>
+    <http://semanticscience.org/resource/SIO_000011> <compound/CID119057736> .
+
+<synonym/MD5_e2d5004ddb5f911466168202b96872e8>
+    <http://semanticscience.org/resource/SIO_000011> <compound/CID119057736> .
+
+<synonym/MD5_f56ed22db963604b9c18a1a2e833553e>
+    <http://semanticscience.org/resource/SIO_000011> <compound/CID119057736> .
+
+

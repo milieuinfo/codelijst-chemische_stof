@@ -1,0 +1,35 @@
+@base <http://rdf.ncbi.nlm.nih.gov/pubchem/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+
+<compound/CID56843640>
+    <http://purl.org/dc/terms/identifier> "56843640" ;
+    <http://semanticscience.org/resource/CHEMINF_000480> <compound/CID168191>, <compound/CID222>, <compound/CID962> ;
+    <http://semanticscience.org/resource/SIO_000008> <descriptor/CID56843640_Canonical_SMILES>, <descriptor/CID56843640_Compound_Identifier>, <descriptor/CID56843640_Covalent_Unit_Count>, <descriptor/CID56843640_Defined_Atom_Stereo_Count>, <descriptor/CID56843640_Defined_Bond_Stereo_Count>, <descriptor/CID56843640_Exact_Mass>, <descriptor/CID56843640_Hydrogen_Bond_Acceptor_Count>, <descriptor/CID56843640_Hydrogen_Bond_Donor_Count>, <descriptor/CID56843640_IUPAC_InChI>, <descriptor/CID56843640_Isomeric_SMILES>, <descriptor/CID56843640_Isotope_Atom_Count>, <descriptor/CID56843640_Molecular_Formula>, <descriptor/CID56843640_Molecular_Weight>, <descriptor/CID56843640_Mono_Isotopic_Weight>, <descriptor/CID56843640_Non-hydrogen_Atom_Count>, <descriptor/CID56843640_Preferred_IUPAC_Name>, <descriptor/CID56843640_Rotatable_Bond_Count>, <descriptor/CID56843640_Structure_Complexity>, <descriptor/CID56843640_TPSA>, <descriptor/CID56843640_Total_Formal_Charge>, <descriptor/CID56843640_Undefined_Atom_Stereo_Count>, <descriptor/CID56843640_Undefined_Bond_Stereo_Count> ;
+    a <vocabulary#Compound> ;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Nickel ammonium chloride, hexahydrate" .
+
+<inchikey/HJKDJECHBARBHG-UHFFFAOYSA-L>
+    <http://semanticscience.org/resource/SIO_000011> <compound/CID56843640> .
+
+<substance/SID135268089>
+    <http://semanticscience.org/resource/CHEMINF_000477> <compound/CID56843640> .
+
+<substance/SID319402816>
+    <http://semanticscience.org/resource/CHEMINF_000477> <compound/CID56843640> .
+
+<substance/SID449373590>
+    <http://semanticscience.org/resource/CHEMINF_000477> <compound/CID56843640> .
+
+<substance/SID481744064>
+    <http://semanticscience.org/resource/CHEMINF_000477> <compound/CID56843640> .
+
+<synonym/MD5_188ba832c64d6ee62bb2d8a440c162d8>
+    <http://semanticscience.org/resource/SIO_000011> <compound/CID56843640> .
+
+<synonym/MD5_43423a99c3f5d1c752eb27dbe78d6673>
+    <http://semanticscience.org/resource/SIO_000011> <compound/CID56843640> .
+
+<synonym/MD5_f70ba13c8cd48e0d3fba0a700ad06cf3>
+    <http://semanticscience.org/resource/SIO_000011> <compound/CID56843640> .
+
+

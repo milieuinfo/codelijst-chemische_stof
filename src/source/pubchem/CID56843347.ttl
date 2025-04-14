@@ -1,0 +1,41 @@
+@base <http://rdf.ncbi.nlm.nih.gov/pubchem/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+
+<compound/CID56843347>
+    <http://purl.org/dc/terms/identifier> "56843347" ;
+    <http://semanticscience.org/resource/CHEMINF_000480> <compound/CID234>, <compound/CID5460341> ;
+    <http://semanticscience.org/resource/SIO_000008> <descriptor/CID56843347_Canonical_SMILES>, <descriptor/CID56843347_Compound_Identifier>, <descriptor/CID56843347_Covalent_Unit_Count>, <descriptor/CID56843347_Defined_Atom_Stereo_Count>, <descriptor/CID56843347_Defined_Bond_Stereo_Count>, <descriptor/CID56843347_Exact_Mass>, <descriptor/CID56843347_Hydrogen_Bond_Acceptor_Count>, <descriptor/CID56843347_Hydrogen_Bond_Donor_Count>, <descriptor/CID56843347_IUPAC_InChI>, <descriptor/CID56843347_Isomeric_SMILES>, <descriptor/CID56843347_Isotope_Atom_Count>, <descriptor/CID56843347_Molecular_Formula>, <descriptor/CID56843347_Molecular_Weight>, <descriptor/CID56843347_Mono_Isotopic_Weight>, <descriptor/CID56843347_Non-hydrogen_Atom_Count>, <descriptor/CID56843347_Preferred_IUPAC_Name>, <descriptor/CID56843347_Rotatable_Bond_Count>, <descriptor/CID56843347_Structure_Complexity>, <descriptor/CID56843347_TPSA>, <descriptor/CID56843347_Total_Formal_Charge>, <descriptor/CID56843347_Undefined_Atom_Stereo_Count>, <descriptor/CID56843347_Undefined_Bond_Stereo_Count> ;
+    a <vocabulary#Compound> ;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Calcium arsenate ((Ca5H2)(AsO4)4)" .
+
+<inchikey/WWKCRKFJSZDBMZ-UHFFFAOYSA-N>
+    <http://semanticscience.org/resource/SIO_000011> <compound/CID56843347> .
+
+<substance/SID135267286>
+    <http://semanticscience.org/resource/CHEMINF_000477> <compound/CID56843347> .
+
+<substance/SID319402611>
+    <http://semanticscience.org/resource/CHEMINF_000477> <compound/CID56843347> .
+
+<substance/SID481748924>
+    <http://semanticscience.org/resource/CHEMINF_000477> <compound/CID56843347> .
+
+<substance/SID489128779>
+    <http://semanticscience.org/resource/CHEMINF_000477> <compound/CID56843347> .
+
+<substance/SID504183147>
+    <http://semanticscience.org/resource/CHEMINF_000477> <compound/CID56843347> .
+
+<synonym/MD5_0698cc2e97300f976e1eb4b5cded9065>
+    <http://semanticscience.org/resource/SIO_000011> <compound/CID56843347> .
+
+<synonym/MD5_3dee6a9678266743ab117ad8ea0613be>
+    <http://semanticscience.org/resource/SIO_000011> <compound/CID56843347> .
+
+<synonym/MD5_c049e16c4e1a3ba7780968a9d2850519>
+    <http://semanticscience.org/resource/SIO_000011> <compound/CID56843347> .
+
+<synonym/MD5_ca4e70c31de4c888a3e3dd02e7127836>
+    <http://semanticscience.org/resource/SIO_000011> <compound/CID56843347> .
+
+

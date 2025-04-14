@@ -1,0 +1,29 @@
+@base <http://rdf.ncbi.nlm.nih.gov/pubchem/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+
+<compound/CID73456808>
+    <http://purl.org/dc/terms/identifier> "73456808" ;
+    <http://semanticscience.org/resource/CHEMINF_000480> <compound/CID14768>, <compound/CID5352425> ;
+    <http://semanticscience.org/resource/SIO_000008> <descriptor/CID73456808_Canonical_SMILES>, <descriptor/CID73456808_Compound_Identifier>, <descriptor/CID73456808_Covalent_Unit_Count>, <descriptor/CID73456808_Defined_Atom_Stereo_Count>, <descriptor/CID73456808_Defined_Bond_Stereo_Count>, <descriptor/CID73456808_Exact_Mass>, <descriptor/CID73456808_Hydrogen_Bond_Acceptor_Count>, <descriptor/CID73456808_Hydrogen_Bond_Donor_Count>, <descriptor/CID73456808_IUPAC_InChI>, <descriptor/CID73456808_Isomeric_SMILES>, <descriptor/CID73456808_Isotope_Atom_Count>, <descriptor/CID73456808_Molecular_Formula>, <descriptor/CID73456808_Molecular_Weight>, <descriptor/CID73456808_Mono_Isotopic_Weight>, <descriptor/CID73456808_Non-hydrogen_Atom_Count>, <descriptor/CID73456808_Preferred_IUPAC_Name>, <descriptor/CID73456808_Rotatable_Bond_Count>, <descriptor/CID73456808_Structure_Complexity>, <descriptor/CID73456808_TPSA>, <descriptor/CID73456808_Total_Formal_Charge>, <descriptor/CID73456808_Undefined_Atom_Stereo_Count>, <descriptor/CID73456808_Undefined_Bond_Stereo_Count> ;
+    a <vocabulary#Compound> ;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Silicic acid (H2SiO3), lead salt" .
+
+<inchikey/ICJVGDDZSCDWGH-UHFFFAOYSA-N>
+    <http://semanticscience.org/resource/SIO_000011> <compound/CID73456808> .
+
+<substance/SID135318536>
+    <http://semanticscience.org/resource/CHEMINF_000477> <compound/CID73456808> .
+
+<substance/SID319415020>
+    <http://semanticscience.org/resource/CHEMINF_000477> <compound/CID73456808> .
+
+<synonym/MD5_0e7a8c88ad4b1482a7ed4242829c1a98>
+    <http://semanticscience.org/resource/SIO_000011> <compound/CID73456808> .
+
+<synonym/MD5_10df6c2705e94ed39db90d6855188711>
+    <http://semanticscience.org/resource/SIO_000011> <compound/CID73456808> .
+
+<synonym/MD5_92dc38bf59d82e5eff069f19b7b2c75d>
+    <http://semanticscience.org/resource/SIO_000011> <compound/CID73456808> .
+
+

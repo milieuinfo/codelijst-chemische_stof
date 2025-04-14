@@ -1,0 +1,32 @@
+@base <http://rdf.ncbi.nlm.nih.gov/pubchem/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+
+<compound/CID155886048>
+    <http://purl.org/dc/terms/identifier> "155886048" ;
+    <http://semanticscience.org/resource/CHEMINF_000480> <compound/CID12159131>, <compound/CID23930> ;
+    <http://semanticscience.org/resource/SIO_000008> <descriptor/CID155886048_Canonical_SMILES>, <descriptor/CID155886048_Compound_Identifier>, <descriptor/CID155886048_Covalent_Unit_Count>, <descriptor/CID155886048_Defined_Atom_Stereo_Count>, <descriptor/CID155886048_Defined_Bond_Stereo_Count>, <descriptor/CID155886048_Exact_Mass>, <descriptor/CID155886048_Hydrogen_Bond_Acceptor_Count>, <descriptor/CID155886048_Hydrogen_Bond_Donor_Count>, <descriptor/CID155886048_IUPAC_InChI>, <descriptor/CID155886048_Isomeric_SMILES>, <descriptor/CID155886048_Isotope_Atom_Count>, <descriptor/CID155886048_Molecular_Formula>, <descriptor/CID155886048_Molecular_Weight>, <descriptor/CID155886048_Mono_Isotopic_Weight>, <descriptor/CID155886048_Non-hydrogen_Atom_Count>, <descriptor/CID155886048_Preferred_IUPAC_Name>, <descriptor/CID155886048_Rotatable_Bond_Count>, <descriptor/CID155886048_Structure_Complexity>, <descriptor/CID155886048_TPSA>, <descriptor/CID155886048_Total_Formal_Charge>, <descriptor/CID155886048_Undefined_Atom_Stereo_Count>, <descriptor/CID155886048_Undefined_Bond_Stereo_Count> ;
+    a <vocabulary#Compound> ;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Manganese nitride (Mn4N)" .
+
+<inchikey/OHIWLJWDEUZUFQ-UHFFFAOYSA-N>
+    <http://semanticscience.org/resource/SIO_000011> <compound/CID155886048> .
+
+<substance/SID176261610>
+    <http://semanticscience.org/resource/CHEMINF_000477> <compound/CID155886048> .
+
+<substance/SID444655388>
+    <http://semanticscience.org/resource/CHEMINF_000477> <compound/CID155886048> .
+
+<substance/SID505805598>
+    <http://semanticscience.org/resource/CHEMINF_000477> <compound/CID155886048> .
+
+<synonym/MD5_14d0915037201c0c4728e231ec65760e>
+    <http://semanticscience.org/resource/SIO_000011> <compound/CID155886048> .
+
+<synonym/MD5_6f66194313bb901aabc057b89b03da97>
+    <http://semanticscience.org/resource/SIO_000011> <compound/CID155886048> .
+
+<synonym/MD5_cca4ba1bf57f1bd7da871ff4bd9b9a3f>
+    <http://semanticscience.org/resource/SIO_000011> <compound/CID155886048> .
+
+
