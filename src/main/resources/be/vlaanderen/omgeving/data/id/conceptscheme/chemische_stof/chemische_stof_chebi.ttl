@@ -59,6 +59,7 @@
 @prefix skos: <http://www.w3.org/2004/02/skos/core#>.
 @prefix spdx: <http://spdx.org/rdf/terms#>.
 @prefix ssd: <http://www.w3.org/ns/sparql-service-description#>.
+@prefix substance: <http://rdf.ncbi.nlm.nih.gov/pubchem/substance/>.
 @prefix tax_nodes: <http://classyfire.wishartlab.com/tax_nodes/>.
 @prefix ts: <http://www.w3.org/ns/formats/>.
 @prefix vcard: <http://www.w3.org/2006/vcard/ns#>.
@@ -2865,6 +2866,7 @@ obo:CHEBI_25362 a skos:Concept.
 obo:CHEBI_25381 a skos:Concept.
 obo:CHEBI_25384 a skos:Concept.
 obo:CHEBI_25389 a skos:Concept.
+obo:CHEBI_25392 a skos:Concept.
 obo:CHEBI_25399 a skos:Concept.
 obo:CHEBI_25408 a skos:Concept.
 obo:CHEBI_25409 a skos:Concept.
@@ -7697,6 +7699,11 @@ obo:CHEBI_39426 a skos:Concept;
     skos:exactMatch obo:CHEBI_39426, chemische_stof:YPJUNDFVDDCYIH-UHFFFAOYSA-N;
     skos:mappingRelation obo:CHEBI_39426, chemische_stof:YPJUNDFVDDCYIH-UHFFFAOYSA-N;
     skos:semanticRelation obo:CHEBI_39426, chemische_stof:YPJUNDFVDDCYIH-UHFFFAOYSA-N.
+obo:CHEBI_39427 a skos:Concept;
+    skos:closeMatch obo:CHEBI_39427, chemische_stof:ZJIJAJXFLBMLCK-UHFFFAOYSA-N;
+    skos:exactMatch obo:CHEBI_39427, chemische_stof:ZJIJAJXFLBMLCK-UHFFFAOYSA-N;
+    skos:mappingRelation obo:CHEBI_39427, chemische_stof:ZJIJAJXFLBMLCK-UHFFFAOYSA-N;
+    skos:semanticRelation obo:CHEBI_39427, chemische_stof:ZJIJAJXFLBMLCK-UHFFFAOYSA-N.
 obo:CHEBI_39428 a skos:Concept;
     skos:closeMatch obo:CHEBI_39428, chemische_stof:NJCBUSHGCBERSK-UHFFFAOYSA-N;
     skos:exactMatch obo:CHEBI_39428, chemische_stof:NJCBUSHGCBERSK-UHFFFAOYSA-N;
@@ -12038,6 +12045,11 @@ obo:CHEBI_8707 a skos:Concept;
     skos:semanticRelation obo:CHEBI_8707, chemische_stof:URKOMYMAXPYINW-UHFFFAOYSA-N.
 obo:CHEBI_87100 a skos:Concept.
 obo:CHEBI_87101 a skos:Concept.
+obo:CHEBI_87104 a skos:Concept;
+    skos:closeMatch obo:CHEBI_87104, chemische_stof:YYYARFHFWYKNLF-UHFFFAOYSA-N;
+    skos:exactMatch obo:CHEBI_87104, chemische_stof:YYYARFHFWYKNLF-UHFFFAOYSA-N;
+    skos:mappingRelation obo:CHEBI_87104, chemische_stof:YYYARFHFWYKNLF-UHFFFAOYSA-N;
+    skos:semanticRelation obo:CHEBI_87104, chemische_stof:YYYARFHFWYKNLF-UHFFFAOYSA-N.
 obo:CHEBI_87110 a skos:Concept.
 obo:CHEBI_87113 a skos:Concept.
 obo:CHEBI_87114 a skos:Concept.
@@ -37751,6 +37763,18 @@ chemische_stof:YYJNOYZRYGDPNH-MFKUBSTISA-N dbo:formula "C24H27N3O4";
     skos:exactMatch obo:CHEBI_5011, chemische_stof:YYJNOYZRYGDPNH-MFKUBSTISA-N;
     skos:mappingRelation obo:CHEBI_5011, chemische_stof:YYJNOYZRYGDPNH-MFKUBSTISA-N;
     skos:semanticRelation obo:CHEBI_140402, obo:CHEBI_38602, obo:CHEBI_5011, chemische_stof:YYJNOYZRYGDPNH-MFKUBSTISA-N.
+chemische_stof:YYYARFHFWYKNLF-UHFFFAOYSA-N dbo:formula "C18H16N2O7S2";
+    dbo:inchi "InChI=1S/C18H16N2O7S2/c1-10-3-6-15(11(2)7-10)19-20-17-14-5-4-13(28(22,23)24)8-12(14)9-16(18(17)21)29(25,26)27/h3-9,21H,1-2H3,(H,22,23,24)(H,25,26,27)";
+    dbo:smiles "Cc1ccc(N=Nc2c(O)c(cc3cc(ccc23)S(O)(=O)=O)S(O)(=O)=O)c(C)c1";
+    dbp:inchikey "YYYARFHFWYKNLF-UHFFFAOYSA-N";
+    chebi:charge "0";
+    a dbo:ChemicalCompound, dbo:ChemicalSubstance, skos:Concept;
+    skos:altLabel "1-(2,4-Xylylazo)-2-naphthol-3,6-disulfonic acid"@en, "Ponceau MX"@en, "acid red 26 (free acid form)"@en;
+    skos:closeMatch obo:CHEBI_87104, chemische_stof:YYYARFHFWYKNLF-UHFFFAOYSA-N;
+    skos:exactMatch obo:CHEBI_87104, chemische_stof:YYYARFHFWYKNLF-UHFFFAOYSA-N;
+    skos:mappingRelation obo:CHEBI_87104, chemische_stof:YYYARFHFWYKNLF-UHFFFAOYSA-N;
+    skos:note "A naphthalenesulfonic acid that is naphthalene-2,7-disulfonic acid carrying additional hydroxy and (2,4-dimethylphenyl)diazenyl substituents at positions 3 and 4 respectively. The disodium salt is the biological stain 'acid red 26'."@en;
+    skos:semanticRelation obo:CHEBI_22682, obo:CHEBI_25392, obo:CHEBI_36336, obo:CHEBI_87104, chemische_stof:YYYARFHFWYKNLF-UHFFFAOYSA-N.
 chemische_stof:YZCKVEUIGOORGS-UHFFFAOYSA-N dbo:formula "H";
     dbo:inchi "InChI=1S/H";
     dbo:smiles "[H]";
@@ -38120,6 +38144,18 @@ chemische_stof:ZIBGPFATKBEMQZ-UHFFFAOYSA-N dbo:formula "C6H14O4";
     skos:mappingRelation obo:CHEBI_44926, chemische_stof:ZIBGPFATKBEMQZ-UHFFFAOYSA-N;
     skos:note "A poly(ethylene glycol) that is octane-1,8-diol in which the carbon atoms at positions 3 and 6 have been replaced by oxygen atoms."@en;
     skos:semanticRelation obo:CHEBI_15734, obo:CHEBI_23824, obo:CHEBI_44926, obo:CHEBI_46793, chemische_stof:ZIBGPFATKBEMQZ-UHFFFAOYSA-N.
+chemische_stof:ZJIJAJXFLBMLCK-UHFFFAOYSA-N dbo:formula "C6F14";
+    dbo:inchi "InChI=1S/C6F14/c7-1(8,3(11,12)5(15,16)17)2(9,10)4(13,14)6(18,19)20";
+    dbo:smiles "FC(F)(F)C(F)(F)C(F)(F)C(F)(F)C(F)(F)C(F)(F)F";
+    dbp:inchikey "ZJIJAJXFLBMLCK-UHFFFAOYSA-N";
+    chebi:charge "0";
+    a dbo:ChemicalCompound, dbo:ChemicalSubstance, skos:Concept;
+    skos:altLabel "1,1,1,2,2,3,3,4,4,5,5,6,6,6-tetradecafluorohexane"@en, "Perflexane"@en, "Perfluorohexane"@en, "n-perfluorohexane"@en, "n-tetradecafluorohexane"@en, "tetradecafluorohexane"@en;
+    skos:closeMatch obo:CHEBI_39427, chemische_stof:ZJIJAJXFLBMLCK-UHFFFAOYSA-N;
+    skos:exactMatch obo:CHEBI_39427, chemische_stof:ZJIJAJXFLBMLCK-UHFFFAOYSA-N;
+    skos:mappingRelation obo:CHEBI_39427, chemische_stof:ZJIJAJXFLBMLCK-UHFFFAOYSA-N;
+    skos:note "A fluoroalkane that is hexane in which all of the hydrogens have been replaced by fluorines."@en;
+    skos:semanticRelation obo:CHEBI_134179, obo:CHEBI_24067, obo:CHEBI_38824, obo:CHEBI_39427, chemische_stof:ZJIJAJXFLBMLCK-UHFFFAOYSA-N.
 chemische_stof:ZJMLMBICUVVJDX-UHFFFAOYSA-N dbo:formula "C23H23NO";
     dbo:inchi "InChI=1S/C23H23NO/c1-4-10-20(11-5-1)23(21-12-6-2-7-13-21,22-14-8-3-9-15-22)24-16-18-25-19-17-24/h1-15H,16-19H2";
     dbo:smiles "C1CN(CCO1)C(c1ccccc1)(c1ccccc1)c1ccccc1";
