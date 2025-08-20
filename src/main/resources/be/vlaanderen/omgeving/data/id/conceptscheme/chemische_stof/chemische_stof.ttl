@@ -680,10 +680,10 @@ wise:CAS_1610-18-0 a skos:Concept;
     skos:mappingRelation wise:CAS_1610-18-0, chemische_stof:ISEUFVQQFVOBCY-UHFFFAOYSA-N;
     skos:semanticRelation wise:CAS_1610-18-0, chemische_stof:ISEUFVQQFVOBCY-UHFFFAOYSA-N.
 wise:CAS_16118-49-3 a skos:Concept;
-    skos:closeMatch wise:CAS_16118-49-3, chemische_stof:AMRQXHFXNZFDCH-VIFPVBQESA-N;
-    skos:exactMatch wise:CAS_16118-49-3, chemische_stof:AMRQXHFXNZFDCH-VIFPVBQESA-N;
-    skos:mappingRelation wise:CAS_16118-49-3, chemische_stof:AMRQXHFXNZFDCH-VIFPVBQESA-N;
-    skos:semanticRelation wise:CAS_16118-49-3, chemische_stof:AMRQXHFXNZFDCH-VIFPVBQESA-N.
+    skos:closeMatch wise:CAS_16118-49-3, chemische_stof:AMRQXHFXNZFDCH-SECBINFHSA-N;
+    skos:exactMatch wise:CAS_16118-49-3, chemische_stof:AMRQXHFXNZFDCH-SECBINFHSA-N;
+    skos:mappingRelation wise:CAS_16118-49-3, chemische_stof:AMRQXHFXNZFDCH-SECBINFHSA-N;
+    skos:semanticRelation wise:CAS_16118-49-3, chemische_stof:AMRQXHFXNZFDCH-SECBINFHSA-N.
 wise:CAS_1634-04-4 a skos:Concept;
     skos:closeMatch wise:CAS_1634-04-4, chemische_stof:BZLVMXJERCGZMT-UHFFFAOYSA-N;
     skos:exactMatch wise:CAS_1634-04-4, chemische_stof:BZLVMXJERCGZMT-UHFFFAOYSA-N;
@@ -2561,10 +2561,11 @@ chemische_stof:AAECWZSULYTBQR-UHFFFAOYSA-N dbo:casNumber "36341-27-2";
     a dbo:Biomolecule, dbo:ChemicalSubstance, dbo:Drug, skos:Concept;
     skos:inScheme conceptscheme:chemische_stof;
     skos:prefLabel "Benzidine acetate"@en.
-chemische_stof:AAEVYOVXGOFMJO-UHFFFAOYSA-N dbo:casNumber "7287-19-6", "83653-07-0";
+chemische_stof:AAEVYOVXGOFMJO-UHFFFAOYSA-N dbo:casNumber "7287-19-6";
+    dbo:ecNumber "230-711-3";
     dbo:iupacName "6-methylsulfanyl-N,N'-di(propan-2-yl)-1,3,5-triazine-2,4-diamine"@en;
     dbo:pubchem compound:CID4929;
-    a dbo:ChemicalSubstance, dbo:Drug, skos:Concept;
+    a dbo:Biomolecule, dbo:ChemicalSubstance, dbo:Drug, skos:Concept;
     skos:altLabel "prometryne"@nl;
     skos:closeMatch wise:CAS_7287-19-6, chemische_stof:AAEVYOVXGOFMJO-UHFFFAOYSA-N;
     skos:exactMatch wise:CAS_7287-19-6, chemische_stof:AAEVYOVXGOFMJO-UHFFFAOYSA-N;
@@ -3355,17 +3356,18 @@ chemische_stof:AMQJEAYHLZJPGS-UHFFFAOYSA-N dbo:casNumber "71-41-0";
     skos:inScheme conceptscheme:chemische_stof;
     skos:notation "C5ol";
     skos:prefLabel "pentanol"@nl.
-chemische_stof:AMRQXHFXNZFDCH-VIFPVBQESA-N dbo:casNumber "16118-49-3";
-    dbo:iupacName "[(2S)-1-ethylamino-1-oxopropan-2-yl] N-phenylcarbamate"@en;
+chemische_stof:AMRQXHFXNZFDCH-SECBINFHSA-N dbo:casNumber "16118-49-3";
+    dbo:ecNumber "240-286-6";
+    dbo:iupacName "[(2R)-1-ethylamino-1-oxopropan-2-yl] N-phenylcarbamate"@en;
     dbo:pubchem compound:CID443067;
-    a dbo:ChemicalSubstance, dbo:Drug, skos:Concept;
-    skos:closeMatch wise:CAS_16118-49-3, chemische_stof:AMRQXHFXNZFDCH-VIFPVBQESA-N;
-    skos:exactMatch wise:CAS_16118-49-3, chemische_stof:AMRQXHFXNZFDCH-VIFPVBQESA-N;
+    a dbo:Biomolecule, dbo:ChemicalSubstance, dbo:Drug, skos:Concept;
+    skos:closeMatch wise:CAS_16118-49-3, chemische_stof:AMRQXHFXNZFDCH-SECBINFHSA-N;
+    skos:exactMatch wise:CAS_16118-49-3, chemische_stof:AMRQXHFXNZFDCH-SECBINFHSA-N;
     skos:inScheme conceptscheme:chemische_stof;
-    skos:mappingRelation wise:CAS_16118-49-3, chemische_stof:AMRQXHFXNZFDCH-VIFPVBQESA-N;
+    skos:mappingRelation wise:CAS_16118-49-3, chemische_stof:AMRQXHFXNZFDCH-SECBINFHSA-N;
     skos:notation "carbtAd";
     skos:prefLabel "carbetamide"@nl;
-    skos:semanticRelation wise:CAS_16118-49-3, chemische_stof:AMRQXHFXNZFDCH-VIFPVBQESA-N.
+    skos:semanticRelation wise:CAS_16118-49-3, chemische_stof:AMRQXHFXNZFDCH-SECBINFHSA-N.
 chemische_stof:AMSPWOYQQAWRRM-UHFFFAOYSA-N dbo:casNumber "220899-03-6";
     dbo:iupacName "(3-bromo-6-methoxy-2-methylphenyl)-(2,3,4-trimethoxy-6-methylphenyl)methanone"@en;
     dbo:pubchem compound:CID6451057;
@@ -6038,10 +6040,11 @@ chemische_stof:BZNDWPRGXNILMS-CLFYSBASSA-N dbo:casNumber "31218-83-4";
     skos:inScheme conceptscheme:chemische_stof;
     skos:notation "proptfs";
     skos:prefLabel "propetamfos"@nl.
-chemische_stof:BZRUVKZGXNSXMB-UHFFFAOYSA-N dbo:casNumber "109829-45-0", "7286-69-3";
+chemische_stof:BZRUVKZGXNSXMB-UHFFFAOYSA-N dbo:casNumber "7286-69-3";
+    dbo:ecNumber "230-710-8";
     dbo:iupacName "N-butan-2-yl-6-chloro-N'-ethyl-1,3,5-triazine-2,4-diamine"@en;
     dbo:pubchem compound:CID23712;
-    a dbo:ChemicalSubstance, dbo:Drug, skos:Concept;
+    a dbo:Biomolecule, dbo:ChemicalSubstance, dbo:Drug, skos:Concept;
     skos:altLabel "sebutylazine"@nl;
     skos:closeMatch wise:CAS_7286-69-3, chemische_stof:BZRUVKZGXNSXMB-UHFFFAOYSA-N;
     skos:exactMatch wise:CAS_7286-69-3, chemische_stof:BZRUVKZGXNSXMB-UHFFFAOYSA-N;
@@ -6097,15 +6100,16 @@ chemische_stof:CAHQGWAXKLQREW-UHFFFAOYSA-N dbo:casNumber "29797-40-8", "37808-21
     skos:prefLabel "alfa,alfa-dichloortolueen"@nl;
     skos:semanticRelation wise:CAS_98-87-3, chemische_stof:CAHQGWAXKLQREW-UHFFFAOYSA-N.
 chemische_stof:CAWXEEYDBZRFPE-UHFFFAOYSA-N dbo:casNumber "51235-04-2";
+    dbo:ecNumber "257-074-4";
     dbo:iupacName "3-cyclohexyl-6-dimethylamino-1-methyl-1,3,5-triazine-2,4-dione"@en;
     dbo:pubchem compound:CID39965;
-    a dbo:ChemicalSubstance, dbo:Drug, skos:Concept;
+    a dbo:Biomolecule, dbo:ChemicalSubstance, dbo:Drug, skos:Concept;
     skos:closeMatch wise:CAS_51235-04-2, chemische_stof:CAWXEEYDBZRFPE-UHFFFAOYSA-N;
     skos:exactMatch wise:CAS_51235-04-2, chemische_stof:CAWXEEYDBZRFPE-UHFFFAOYSA-N;
     skos:inScheme conceptscheme:chemische_stof;
     skos:mappingRelation wise:CAS_51235-04-2, chemische_stof:CAWXEEYDBZRFPE-UHFFFAOYSA-N;
     skos:notation "Hxznn";
-    skos:prefLabel "hexazinon"@nl;
+    skos:prefLabel "hexazinon"@nl, "hexazinone"@en;
     skos:semanticRelation wise:CAS_51235-04-2, chemische_stof:CAWXEEYDBZRFPE-UHFFFAOYSA-N.
 chemische_stof:CAYGQBVSOZLICD-UHFFFAOYSA-N dbo:casNumber "87-82-1";
     dbo:iupacName "1,2,3,4,5,6-hexabromobenzene"@en;
@@ -8227,9 +8231,11 @@ chemische_stof:DFJWPGPUWHLJIJ-UHFFFAOYSA-L dbo:casNumber "73491-34-6";
     skos:inScheme conceptscheme:chemische_stof;
     skos:prefLabel "mercury(II) perchlorate trihydrate"@en.
 chemische_stof:DFWFIQKMSFGDCQ-UHFFFAOYSA-N dbo:casNumber "6190-65-4";
+    dbo:ecNumber "622-793-8";
     dbo:iupacName "6-chloro-N-propan-2-yl-1,3,5-triazine-2,4-diamine"@en;
     dbo:pubchem compound:CID22563;
-    a dbo:ChemicalSubstance, dbo:Drug, skos:Concept;
+    a dbo:Biomolecule, dbo:ChemicalSubstance, dbo:Drug, skos:Concept;
+    skos:altLabel "deethylatrazine"@nl;
     skos:closeMatch wise:CAS_6190-65-4, chemische_stof:DFWFIQKMSFGDCQ-UHFFFAOYSA-N;
     skos:exactMatch wise:CAS_6190-65-4, chemische_stof:DFWFIQKMSFGDCQ-UHFFFAOYSA-N;
     skos:inScheme conceptscheme:chemische_stof;
@@ -9128,9 +9134,10 @@ chemische_stof:DSNHSQKRULAAEI-UHFFFAOYSA-N dbo:casNumber "105-05-5";
     skos:notation "14DC2yBen";
     skos:prefLabel "1,4-diethylbenzeen"@nl.
 chemische_stof:DSRNRYQBBJQVCW-UHFFFAOYSA-N dbo:casNumber "19937-59-8";
-    dbo:iupacName "3-(3-Chloro-4-methoxyphenyl)-1,1-dimethylurea"@en;
+    dbo:ecNumber "243-433-2";
+    dbo:iupacName "3-(3-chloro-4-methoxyphenyl)-1,1-dimethylurea"@en;
     dbo:pubchem compound:CID29863;
-    a dbo:ChemicalSubstance, dbo:Drug, skos:Concept;
+    a dbo:Biomolecule, dbo:ChemicalSubstance, dbo:Drug, skos:Concept;
     skos:closeMatch wise:CAS_19937-59-8, chemische_stof:DSRNRYQBBJQVCW-UHFFFAOYSA-N;
     skos:exactMatch wise:CAS_19937-59-8, chemische_stof:DSRNRYQBBJQVCW-UHFFFAOYSA-N;
     skos:inScheme conceptscheme:chemische_stof;
@@ -10065,16 +10072,17 @@ chemische_stof:FHENBBPEACDTCF-UHFFFAOYSA-N dbo:casNumber "1895-26-7";
     a dbo:Biomolecule, dbo:ChemicalSubstance, dbo:Drug, skos:Concept;
     skos:inScheme conceptscheme:chemische_stof;
     skos:prefLabel "Bis(3,3,4,4,5,5,6,6,7,7,8,8,9,9,10,10,11,11,12,12,12-henicosafluorododecyl) hydrogen phosphate"@en.
-chemische_stof:FHIVAFMUCKRCQO-UHFFFAOYSA-N dbo:casNumber "27936-40-9", "30583-38-1", "333-41-5", "65863-03-8";
-    dbo:iupacName "diethoxy-(6-methyl-2-propan-2-ylpyrimidin-4-yl)oxy-sulfanylidenephosphorane"@en;
+chemische_stof:FHIVAFMUCKRCQO-UHFFFAOYSA-N dbo:casNumber "333-41-5";
+    dbo:ecNumber "206-373-8";
+    dbo:iupacName "diethoxy-(6-methyl-2-propan-2-ylpyrimidin-4-yl)oxy-sulfanylidene-λ5-phosphane"@en;
     dbo:pubchem compound:CID3017;
-    a dbo:ChemicalSubstance, dbo:Drug, skos:Concept;
+    a dbo:Biomolecule, dbo:ChemicalSubstance, dbo:Drug, skos:Concept;
     skos:closeMatch wise:CAS_333-41-5, chemische_stof:FHIVAFMUCKRCQO-UHFFFAOYSA-N;
     skos:exactMatch wise:CAS_333-41-5, chemische_stof:FHIVAFMUCKRCQO-UHFFFAOYSA-N;
     skos:inScheme conceptscheme:chemische_stof;
     skos:mappingRelation wise:CAS_333-41-5, chemische_stof:FHIVAFMUCKRCQO-UHFFFAOYSA-N;
     skos:notation "Daznn";
-    skos:prefLabel "diazinon"@nl;
+    skos:prefLabel "diazinon"@en, "diazinon"@nl;
     skos:semanticRelation wise:CAS_333-41-5, chemische_stof:FHIVAFMUCKRCQO-UHFFFAOYSA-N.
 chemische_stof:FHKLOBNGYGFRSF-UHFFFAOYSA-N dbo:casNumber "10022-70-5";
     dbo:iupacName "Sodium hypochlorite pentahydrate"@en;
@@ -14303,16 +14311,17 @@ chemische_stof:HRAQMGWTPNOILP-UHFFFAOYSA-N dbo:casNumber "23676-09-7";
     skos:notation "4C2oxC1ybenz";
     skos:prefLabel "4-ethoxyethylbenzoezuur"@nl.
 chemische_stof:HRBKVYFZANMGRE-UHFFFAOYSA-N dbo:casNumber "5598-13-0";
-    dbo:iupacName "dimethoxy-sulfanylidene-(3,5,6-trichloropyridin-2-yl)oxyphosphorane"@en;
+    dbo:ecNumber "227-011-5";
+    dbo:iupacName "dimethoxy-sulfanylidene-(3,5,6-trichloropyridin-2-yl)oxy-λ5-phosphane"@en;
     dbo:pubchem compound:CID21803;
-    a dbo:ChemicalSubstance, dbo:Drug, skos:Concept;
-    skos:altLabel "chloorpyrifos-methyl"@nl, "methylchloorpyrifos"@nl;
+    a dbo:Biomolecule, dbo:ChemicalSubstance, dbo:Drug, skos:Concept;
+    skos:altLabel "methylchloorpyrifos"@nl;
     skos:closeMatch wise:CAS_5598-13-0, chemische_stof:HRBKVYFZANMGRE-UHFFFAOYSA-N;
     skos:exactMatch wise:CAS_5598-13-0, chemische_stof:HRBKVYFZANMGRE-UHFFFAOYSA-N;
     skos:inScheme conceptscheme:chemische_stof;
     skos:mappingRelation wise:CAS_5598-13-0, chemische_stof:HRBKVYFZANMGRE-UHFFFAOYSA-N;
     skos:notation "C1yClprfs";
-    skos:prefLabel "chlorpyrifos-methyl"@nl;
+    skos:prefLabel "chlorpyrifos-methyl"@nl, "chlorpyriphos-methyl"@en;
     skos:semanticRelation wise:CAS_5598-13-0, chemische_stof:HRBKVYFZANMGRE-UHFFFAOYSA-N.
 chemische_stof:HRCBNZHNCWEFFR-UHFFFAOYSA-M dbo:casNumber "123334-18-9";
     dbo:ecNumber "621-302-4";
@@ -16492,10 +16501,11 @@ chemische_stof:IWDQPCIQCXRBQP-UHFFFAOYSA-M dbo:casNumber "140-56-7", "150-70-9";
     skos:inScheme conceptscheme:chemische_stof;
     skos:notation "fenmnsf";
     skos:prefLabel "fenaminosulf"@nl.
-chemische_stof:IWEDIXLBFLAXBO-UHFFFAOYSA-N dbo:casNumber "1918-00-9", "62610-39-3";
-    dbo:iupacName "3,6-Dichloro-2-methoxybenzoic acid"@en;
+chemische_stof:IWEDIXLBFLAXBO-UHFFFAOYSA-N dbo:casNumber "1918-00-9";
+    dbo:ecNumber "217-635-6";
+    dbo:iupacName "3,6-dichloro-2-methoxybenzoic acid"@en;
     dbo:pubchem compound:CID3030;
-    a dbo:ChemicalSubstance, dbo:Drug, skos:Concept;
+    a dbo:Biomolecule, dbo:ChemicalSubstance, dbo:Drug, skos:Concept;
     skos:closeMatch wise:CAS_1918-00-9, chemische_stof:IWEDIXLBFLAXBO-UHFFFAOYSA-N;
     skos:exactMatch wise:CAS_1918-00-9, chemische_stof:IWEDIXLBFLAXBO-UHFFFAOYSA-N;
     skos:inScheme conceptscheme:chemische_stof;
@@ -18441,17 +18451,18 @@ chemische_stof:JWZXKXIUSSIAMR-UHFFFAOYSA-N dbo:casNumber "6317-18-6";
     skos:inScheme conceptscheme:chemische_stof;
     skos:notation "C1yebtoCN";
     skos:prefLabel "methyleenbisthiocyanaat"@nl.
-chemische_stof:JXCGFZXSOMJFOA-UHFFFAOYSA-N dbo:casNumber "11111-56-1", "15545-48-9";
+chemische_stof:JXCGFZXSOMJFOA-UHFFFAOYSA-N dbo:casNumber "15545-48-9";
+    dbo:ecNumber "239-592-2";
     dbo:iupacName "3-(3-chloro-4-methylphenyl)-1,1-dimethylurea"@en;
     dbo:pubchem compound:CID27375;
-    a dbo:ChemicalSubstance, dbo:Drug, skos:Concept;
+    a dbo:Biomolecule, dbo:ChemicalSubstance, dbo:Drug, skos:Concept;
     skos:altLabel "chlorotoluron"@nl;
     skos:closeMatch wise:CAS_15545-48-9, chemische_stof:JXCGFZXSOMJFOA-UHFFFAOYSA-N;
     skos:exactMatch wise:CAS_15545-48-9, chemische_stof:JXCGFZXSOMJFOA-UHFFFAOYSA-N;
     skos:inScheme conceptscheme:chemische_stof;
     skos:mappingRelation wise:CAS_15545-48-9, chemische_stof:JXCGFZXSOMJFOA-UHFFFAOYSA-N;
     skos:notation "Cltlrn";
-    skos:prefLabel "chloortoluron"@nl;
+    skos:prefLabel "chloortoluron"@nl, "chlortoluron"@en;
     skos:semanticRelation wise:CAS_15545-48-9, chemische_stof:JXCGFZXSOMJFOA-UHFFFAOYSA-N.
 chemische_stof:JXFNFRYAEPSEGH-UHFFFAOYSA-N dbo:casNumber "65122-13-6";
     dbo:iupacName "butyl-diethyl-methylplumbane"@en;
@@ -20118,16 +20129,17 @@ chemische_stof:KVFIJIWMDBAGDP-UHFFFAOYSA-N dbo:casNumber "1392-50-3", "13925-00-
     skos:inScheme conceptscheme:chemische_stof;
     skos:notation "2C2yprzne";
     skos:prefLabel "2-ethylpyrazine"@nl.
-chemische_stof:KVGLBTYUCJYMND-UHFFFAOYSA-N dbo:casNumber "66767-39-3", "944-22-9";
-    dbo:iupacName "ethoxy-ethyl-phenylsulfanyl-sulfanylidenephosphorane"@en;
+chemische_stof:KVGLBTYUCJYMND-UHFFFAOYSA-N dbo:casNumber "944-22-9";
+    dbo:ecNumber "213-408-0";
+    dbo:iupacName "ethoxy-ethyl-phenylsulfanyl-sulfanylidene-λ5-phosphane"@en;
     dbo:pubchem compound:CID13676;
-    a dbo:ChemicalSubstance, dbo:Drug, skos:Concept;
+    a dbo:Biomolecule, dbo:ChemicalSubstance, dbo:Drug, skos:Concept;
     skos:closeMatch wise:CAS_944-22-9, chemische_stof:KVGLBTYUCJYMND-UHFFFAOYSA-N;
     skos:exactMatch wise:CAS_944-22-9, chemische_stof:KVGLBTYUCJYMND-UHFFFAOYSA-N;
     skos:inScheme conceptscheme:chemische_stof;
     skos:mappingRelation wise:CAS_944-22-9, chemische_stof:KVGLBTYUCJYMND-UHFFFAOYSA-N;
     skos:notation "fonfs";
-    skos:prefLabel "fonofos"@nl;
+    skos:prefLabel "fonofos"@nl, "fonophos"@en;
     skos:semanticRelation wise:CAS_944-22-9, chemische_stof:KVGLBTYUCJYMND-UHFFFAOYSA-N.
 chemische_stof:KVMPUXDNESXNOH-UHFFFAOYSA-N dbo:casNumber "13674-84-5", "16839-32-0", "215035-31-7", "76025-08-6";
     dbo:iupacName "tris(1-chloropropan-2-yl) phosphate"@en;
@@ -20173,13 +20185,14 @@ chemische_stof:KVWWIYGFBYDJQC-UHFFFAOYSA-N dbo:casNumber "24851-98-7", "2630-39-
     skos:notation "C1yDHjasmnt";
     skos:prefLabel "methyldihydrojasmonaat"@nl.
 chemische_stof:KWGUFOITWDSNQY-UHFFFAOYSA-N dbo:casNumber "4824-78-6";
-    dbo:iupacName "(4-bromo-2,5-dichlorophenoxy)-diethoxy-sulfanylidenephosphorane"@en;
+    dbo:ecNumber "225-399-0";
+    dbo:iupacName "(4-bromo-2,5-dichlorophenoxy)-diethoxy-sulfanylidene-λ5-phosphane"@en;
     dbo:pubchem compound:CID20965;
-    a dbo:ChemicalSubstance, dbo:Drug, skos:Concept;
-    skos:altLabel "bromofos-ethyl"@nl, "bromophos-ethyl"@nl;
+    a dbo:Biomolecule, dbo:ChemicalSubstance, dbo:Drug, skos:Concept;
+    skos:altLabel "ethylbromofos"@nl;
     skos:inScheme conceptscheme:chemische_stof;
     skos:notation "C2yBrfs";
-    skos:prefLabel "ethylbromofos"@nl.
+    skos:prefLabel "bromofos-ethyl"@nl, "bromophos-ethyl"@en.
 chemische_stof:KWIXNFOTNVKIGM-UHFFFAOYSA-N dbo:casNumber "6283-25-6";
     dbo:iupacName "2-Chloro-5-nitroaniline"@en;
     dbo:pubchem compound:CID22691;
@@ -21328,16 +21341,17 @@ chemische_stof:LLVFMJQPUWTQTM-UHFFFAOYSA-M dbo:casNumber "20936-32-7";
     skos:inScheme conceptscheme:chemische_stof;
     skos:prefLabel "Lead 2,4-dihydroxybenzoate"@en.
 chemische_stof:LLWADFLAOKUBDR-UHFFFAOYSA-N dbo:casNumber "94-81-5";
-    dbo:iupacName "4-(4-Chloro-2-methylphenoxy)butanoic acid"@en;
+    dbo:ecNumber "202-365-3";
+    dbo:iupacName "4-(4-chloro-2-methylphenoxy)butanoic acid"@en;
     dbo:pubchem compound:CID7207;
-    a dbo:ChemicalSubstance, dbo:Drug, skos:Concept;
-    skos:altLabel "4-(4-chloor-2-methylfenoxy)boterzuur"@nl, "4-(4-chloro-2-methylfenoxy)boterzuur (mcpb)"@nl;
+    a dbo:Biomolecule, dbo:ChemicalSubstance, dbo:Drug, skos:Concept;
+    skos:altLabel "2-methyl-4-chloorfenoxyboterzuur"@nl, "MCPB"@nl;
     skos:closeMatch wise:CAS_94-81-5, chemische_stof:LLWADFLAOKUBDR-UHFFFAOYSA-N;
     skos:exactMatch wise:CAS_94-81-5, chemische_stof:LLWADFLAOKUBDR-UHFFFAOYSA-N;
     skos:inScheme conceptscheme:chemische_stof;
     skos:mappingRelation wise:CAS_94-81-5, chemische_stof:LLWADFLAOKUBDR-UHFFFAOYSA-N;
     skos:notation "MCPB";
-    skos:prefLabel "2-methyl-4-chloorfenoxyboterzuur"@nl;
+    skos:prefLabel "2-methyl-4-chloorfenoxybutaanzuur"@nl;
     skos:semanticRelation wise:CAS_94-81-5, chemische_stof:LLWADFLAOKUBDR-UHFFFAOYSA-N.
 chemische_stof:LLYXJBROWQDVMI-UHFFFAOYSA-N dbo:casNumber "121-86-8";
     dbo:iupacName "2-Chloro-1-methyl-4-nitrobenzene"@en;
@@ -22503,16 +22517,17 @@ chemische_stof:MDQPHUOPBNXBFF-UHFFFAOYSA-N dbo:casNumber "64475-90-7";
     a dbo:Biomolecule, dbo:ChemicalSubstance, skos:Concept;
     skos:inScheme conceptscheme:chemische_stof.
 chemische_stof:MEBQXILRKZHVCX-UHFFFAOYSA-N dbo:casNumber "950-37-8";
+    dbo:ecNumber "213-449-4";
     dbo:iupacName "3-(dimethoxyphosphinothioylsulfanylmethyl)-5-methoxy-1,3,4-thiadiazol-2-one"@en;
     dbo:pubchem compound:CID13709;
-    a dbo:ChemicalSubstance, dbo:Drug, skos:Concept;
-    skos:altLabel "methidathion"@nl;
+    a dbo:Biomolecule, dbo:ChemicalSubstance, dbo:Drug, skos:Concept;
+    skos:altLabel "methidation"@nl;
     skos:closeMatch wise:CAS_950-37-8, chemische_stof:MEBQXILRKZHVCX-UHFFFAOYSA-N;
     skos:exactMatch wise:CAS_950-37-8, chemische_stof:MEBQXILRKZHVCX-UHFFFAOYSA-N;
     skos:inScheme conceptscheme:chemische_stof;
     skos:mappingRelation wise:CAS_950-37-8, chemische_stof:MEBQXILRKZHVCX-UHFFFAOYSA-N;
     skos:notation "metdton";
-    skos:prefLabel "methidation"@nl;
+    skos:prefLabel "methidathion"@en, "methidathion"@nl;
     skos:semanticRelation wise:CAS_950-37-8, chemische_stof:MEBQXILRKZHVCX-UHFFFAOYSA-N.
 chemische_stof:MECHNRXZTMCUDQ-VLOQVYPSSA-N dbo:casNumber "50-14-6";
     dbo:iupacName "['(1S,3E)-3-[(2E)-2-[(1R,3aS,7aR)-1-[(E,2R,5R)-5,6-dimethylhept-3-en-2-yl]-7a-methyl-2,3,3a,5,6,7-hexahydro-1H-inden-4-ylidene]ethylidene]-4-methylidenecyclohexan-1-ol', '(1S)-3-[2-[(1R,3aS,7aR)-1-[(E,2R,5R)-5,6-dimethylhept-3-en-2-yl]-7a-methyl-2,3,3a,5,6,7-hexahydro-1H-inden-4-ylidene]ethylidene]-4-methylidenecyclohexan-1-ol']"@en;
@@ -22529,9 +22544,10 @@ chemische_stof:MEFOUWRMVYJCQC-UHFFFAOYSA-N dbo:casNumber "122931-48-0";
     skos:notation "rimsfrn";
     skos:prefLabel "rimsulfuron"@nl.
 chemische_stof:MEFQWPUMEMWTJP-UHFFFAOYSA-N dbo:casNumber "69377-81-7";
+    dbo:ecNumber "614-957-2";
     dbo:iupacName "2-(4-amino-3,5-dichloro-6-fluoropyridin-2-yl)oxyacetic acid"@en;
     dbo:pubchem compound:CID50465;
-    a dbo:ChemicalSubstance, dbo:Drug, skos:Concept;
+    a dbo:Biomolecule, dbo:ChemicalSubstance, dbo:Drug, skos:Concept;
     skos:closeMatch wise:CAS_69377-81-7, chemische_stof:MEFQWPUMEMWTJP-UHFFFAOYSA-N;
     skos:exactMatch wise:CAS_69377-81-7, chemische_stof:MEFQWPUMEMWTJP-UHFFFAOYSA-N;
     skos:inScheme conceptscheme:chemische_stof;
@@ -22603,10 +22619,11 @@ chemische_stof:MFFLHUNPSHBKRG-UHFFFAOYSA-P dbo:casNumber "7788-98-9";
     a dbo:Biomolecule, dbo:ChemicalSubstance, dbo:Drug, skos:Concept;
     skos:inScheme conceptscheme:chemische_stof;
     skos:prefLabel "Ammonium chromate"@en.
-chemische_stof:MFOUDYKPLGXPGO-UHFFFAOYSA-N dbo:casNumber "1918-16-7", "63704-81-4";
+chemische_stof:MFOUDYKPLGXPGO-UHFFFAOYSA-N dbo:casNumber "1918-16-7";
+    dbo:ecNumber "217-638-2";
     dbo:iupacName "2-chloro-N-phenyl-N-propan-2-ylacetamide"@en;
     dbo:pubchem compound:CID4931;
-    a dbo:ChemicalSubstance, dbo:Drug, skos:Concept;
+    a dbo:Biomolecule, dbo:ChemicalSubstance, dbo:Drug, skos:Concept;
     skos:altLabel "propachlor"@nl;
     skos:closeMatch wise:CAS_1918-16-7, chemische_stof:MFOUDYKPLGXPGO-UHFFFAOYSA-N;
     skos:exactMatch wise:CAS_1918-16-7, chemische_stof:MFOUDYKPLGXPGO-UHFFFAOYSA-N;
@@ -23712,10 +23729,11 @@ chemische_stof:MZSJGCPBOVTKHR-UHFFFAOYSA-N dbo:casNumber "1122-82-3";
     skos:inScheme conceptscheme:chemische_stof;
     skos:notation "ccC6yitoCN";
     skos:prefLabel "cyclohexyl-isothiocyanaat"@nl.
-chemische_stof:MZZBPDKVEFVLFF-UHFFFAOYSA-N dbo:casNumber "11096-88-1", "12679-53-7", "21725-46-2";
+chemische_stof:MZZBPDKVEFVLFF-UHFFFAOYSA-N dbo:casNumber "21725-46-2";
+    dbo:ecNumber "244-544-9";
     dbo:iupacName "2-[(4-chloro-6-ethylamino-1,3,5-triazin-2-yl)amino]-2-methylpropanenitrile"@en;
     dbo:pubchem compound:CID30773;
-    a dbo:ChemicalSubstance, dbo:Drug, skos:Concept;
+    a dbo:Biomolecule, dbo:ChemicalSubstance, dbo:Drug, skos:Concept;
     skos:closeMatch wise:CAS_21725-46-2, chemische_stof:MZZBPDKVEFVLFF-UHFFFAOYSA-N;
     skos:exactMatch wise:CAS_21725-46-2, chemische_stof:MZZBPDKVEFVLFF-UHFFFAOYSA-N;
     skos:inScheme conceptscheme:chemische_stof;
@@ -25295,17 +25313,18 @@ chemische_stof:NYPJDWWKZLNGGM-UHFFFAOYSA-N dbo:casNumber "131641-62-8", "51630-5
     skos:inScheme conceptscheme:chemische_stof;
     skos:notation "fenvlrt";
     skos:prefLabel "fenvaleraat"@nl.
-chemische_stof:NYQDCVLCJXRDSK-UHFFFAOYSA-N dbo:casNumber "12778-41-5", "12778-42-6", "2104-96-3";
-    dbo:iupacName "(4-bromo-2,5-dichlorophenoxy)-dimethoxy-sulfanylidenephosphorane"@en;
+chemische_stof:NYQDCVLCJXRDSK-UHFFFAOYSA-N dbo:casNumber "2104-96-3";
+    dbo:ecNumber "218-277-3";
+    dbo:iupacName "(4-bromo-2,5-dichlorophenoxy)-dimethoxy-sulfanylidene-λ5-phosphane"@en;
     dbo:pubchem compound:CID16422;
-    a dbo:ChemicalSubstance, dbo:Drug, skos:Concept;
+    a dbo:Biomolecule, dbo:ChemicalSubstance, dbo:Drug, skos:Concept;
     skos:altLabel "bromofos-methyl"@nl, "methylbromofos"@nl;
     skos:closeMatch wise:CAS_2104-96-3, chemische_stof:NYQDCVLCJXRDSK-UHFFFAOYSA-N;
     skos:exactMatch wise:CAS_2104-96-3, chemische_stof:NYQDCVLCJXRDSK-UHFFFAOYSA-N;
     skos:inScheme conceptscheme:chemische_stof;
     skos:mappingRelation wise:CAS_2104-96-3, chemische_stof:NYQDCVLCJXRDSK-UHFFFAOYSA-N;
     skos:notation "C1yBrfs";
-    skos:prefLabel "bromophos"@nl;
+    skos:prefLabel "bromofos"@nl, "bromophos"@en;
     skos:semanticRelation wise:CAS_2104-96-3, chemische_stof:NYQDCVLCJXRDSK-UHFFFAOYSA-N.
 chemische_stof:NYRMIJKDBAQCHC-UHFFFAOYSA-N dbo:casNumber "96525-23-4";
     dbo:iupacName "5-methylamino-2-phenyl-4-[3-(trifluoromethyl)phenyl]furan-3-one"@en;
@@ -29690,16 +29709,17 @@ chemische_stof:QHMTXANCGGJZRX-WUXMJOGZSA-N dbo:casNumber "123312-89-0";
     skos:notation "pymtzne";
     skos:prefLabel "pymetrozine"@nl.
 chemische_stof:QHOQHJPRIBSPCY-UHFFFAOYSA-N dbo:casNumber "29232-93-7";
+    dbo:ecNumber "249-528-5";
     dbo:iupacName "4-dimethoxyphosphinothioyloxy-N,N-diethyl-6-methylpyrimidin-2-amine"@en;
     dbo:pubchem compound:CID34526;
-    a dbo:ChemicalSubstance, dbo:Drug, skos:Concept;
-    skos:altLabel "pirimifos-methyl"@nl, "pirimiphos-methyl"@nl;
+    a dbo:Biomolecule, dbo:ChemicalSubstance, dbo:Drug, skos:Concept;
+    skos:altLabel "methylpirimifos"@nl;
     skos:closeMatch wise:CAS_29232-93-7, chemische_stof:QHOQHJPRIBSPCY-UHFFFAOYSA-N;
     skos:exactMatch wise:CAS_29232-93-7, chemische_stof:QHOQHJPRIBSPCY-UHFFFAOYSA-N;
     skos:inScheme conceptscheme:chemische_stof;
     skos:mappingRelation wise:CAS_29232-93-7, chemische_stof:QHOQHJPRIBSPCY-UHFFFAOYSA-N;
     skos:notation "C1yprmfs";
-    skos:prefLabel "methylpirimifos"@nl;
+    skos:prefLabel "pirimifos-methyl"@nl, "pirimiphos-methyl"@en;
     skos:semanticRelation wise:CAS_29232-93-7, chemische_stof:QHOQHJPRIBSPCY-UHFFFAOYSA-N.
 chemische_stof:QHPQWRBYOIRBIT-UHFFFAOYSA-N dbo:casNumber "98-54-4";
     dbo:iupacName "4-tert-Butylphenol"@en;
@@ -32228,9 +32248,10 @@ chemische_stof:RRSIMIHTHWYRRA-UHFFFAOYSA-L dbo:casNumber "312696-09-6";
     skos:inScheme conceptscheme:chemische_stof;
     skos:prefLabel "Nickel(II) bromide 2-methoxyethyl ether complex"@en.
 chemische_stof:RRVIAQKBTUQODI-UHFFFAOYSA-N dbo:casNumber "18691-97-9";
+    dbo:ecNumber "242-505-0";
     dbo:iupacName "1-(1,3-benzothiazol-2-yl)-1,3-dimethylurea"@en;
     dbo:pubchem compound:CID29216;
-    a dbo:ChemicalSubstance, dbo:Drug, skos:Concept;
+    a dbo:Biomolecule, dbo:ChemicalSubstance, dbo:Drug, skos:Concept;
     skos:altLabel "methabenzthiazuron"@nl;
     skos:closeMatch wise:CAS_18691-97-9, chemische_stof:RRVIAQKBTUQODI-UHFFFAOYSA-N;
     skos:exactMatch wise:CAS_18691-97-9, chemische_stof:RRVIAQKBTUQODI-UHFFFAOYSA-N;
@@ -34213,9 +34234,10 @@ chemische_stof:STEOHWLXOZVVIU-UHFFFAOYSA-N dbo:casNumber "534-33-8";
     skos:inScheme conceptscheme:chemische_stof;
     skos:prefLabel "Acetarsone diethylamine salt"@en.
 chemische_stof:STEPQTYSZVCJPV-UHFFFAOYSA-N dbo:casNumber "67129-08-2";
+    dbo:ecNumber "266-583-0";
     dbo:iupacName "2-chloro-N-(2,6-dimethylphenyl)-N-(pyrazol-1-ylmethyl)acetamide"@en;
     dbo:pubchem compound:CID49384;
-    a dbo:ChemicalSubstance, dbo:Drug, skos:Concept;
+    a dbo:Biomolecule, dbo:ChemicalSubstance, dbo:Drug, skos:Concept;
     skos:altLabel "metazachlor"@nl;
     skos:closeMatch wise:CAS_67129-08-2, chemische_stof:STEPQTYSZVCJPV-UHFFFAOYSA-N;
     skos:exactMatch wise:CAS_67129-08-2, chemische_stof:STEPQTYSZVCJPV-UHFFFAOYSA-N;
@@ -34878,10 +34900,11 @@ chemische_stof:TWFQKNGANGSSRM-UHFFFAOYSA-M dbo:casNumber "623-07-4";
     a dbo:ChemicalSubstance, dbo:Drug, skos:Concept;
     skos:inScheme conceptscheme:chemische_stof;
     skos:prefLabel "4-Hydroxyphenylmercuric chloride"@en, "Mercury, chloro(4-hydroxyphenyl)-"@en.
-chemische_stof:TWFZGCMQGLPBSX-UHFFFAOYSA-N dbo:casNumber "102040-01-7", "105268-95-9", "10605-21-7", "110342-67-1", "212384-28-6", "37953-07-4", "39413-19-9", "59758-95-1", "63090-40-4", "63278-70-6";
+chemische_stof:TWFZGCMQGLPBSX-UHFFFAOYSA-N dbo:casNumber "10605-21-7", "37953-07-4";
+    dbo:ecNumber "234-232-0";
     dbo:iupacName "methyl N-(1H-benzimidazol-2-yl)carbamate"@en;
     dbo:pubchem compound:CID25429;
-    a dbo:ChemicalSubstance, dbo:Drug, skos:Concept;
+    a dbo:Biomolecule, dbo:ChemicalSubstance, dbo:Drug, skos:Concept;
     skos:closeMatch wise:CAS_10605-21-7, chemische_stof:TWFZGCMQGLPBSX-UHFFFAOYSA-N;
     skos:exactMatch wise:CAS_10605-21-7, chemische_stof:TWFZGCMQGLPBSX-UHFFFAOYSA-N;
     skos:inScheme conceptscheme:chemische_stof;
@@ -37709,15 +37732,16 @@ chemische_stof:VJTAZCKMHINUKO-UHFFFAOYSA-M dbo:casNumber "123-88-6";
     skos:notation "C1oxC2yHgCl";
     skos:prefLabel "methoxyethylkwikchloride"@nl.
 chemische_stof:VJYFKVYYMZPMAB-UHFFFAOYSA-N dbo:casNumber "13194-48-4";
+    dbo:ecNumber "236-152-1";
     dbo:iupacName "1-(ethoxy-propylsulfanylphosphoryl)sulfanylpropane"@en;
     dbo:pubchem compound:CID3289;
-    a dbo:ChemicalSubstance, dbo:Drug, skos:Concept;
+    a dbo:Biomolecule, dbo:ChemicalSubstance, dbo:Drug, skos:Concept;
     skos:closeMatch wise:CAS_13194-48-4, chemische_stof:VJYFKVYYMZPMAB-UHFFFAOYSA-N;
     skos:exactMatch wise:CAS_13194-48-4, chemische_stof:VJYFKVYYMZPMAB-UHFFFAOYSA-N;
     skos:inScheme conceptscheme:chemische_stof;
     skos:mappingRelation wise:CAS_13194-48-4, chemische_stof:VJYFKVYYMZPMAB-UHFFFAOYSA-N;
     skos:notation "etpfs";
-    skos:prefLabel "ethoprofos"@nl;
+    skos:prefLabel "ethoprofos"@nl, "ethoprophos"@en;
     skos:semanticRelation wise:CAS_13194-48-4, chemische_stof:VJYFKVYYMZPMAB-UHFFFAOYSA-N.
 chemische_stof:VJYIFXVZLXQVHO-UHFFFAOYSA-N dbo:casNumber "112143-77-8", "64902-72-3", "79793-04-7";
     dbo:iupacName "1-(2-chlorophenyl)sulfonyl-3-(4-methoxy-6-methyl-1,3,5-triazin-2-yl)urea"@en;
@@ -39583,9 +39607,10 @@ chemische_stof:WJGPNUBJBMCRQH-UHFFFAOYSA-N dbo:casNumber "1563-38-8";
     skos:notation "carbfrFol";
     skos:prefLabel "carbofuran-fenol"@nl.
 chemische_stof:WJNRPILHGGKWCK-UHFFFAOYSA-N dbo:casNumber "139-40-2";
+    dbo:ecNumber "205-359-9";
     dbo:iupacName "6-chloro-N,N'-di(propan-2-yl)-1,3,5-triazine-2,4-diamine"@en;
     dbo:pubchem compound:CID4937;
-    a dbo:ChemicalSubstance, dbo:Drug, skos:Concept;
+    a dbo:Biomolecule, dbo:ChemicalSubstance, dbo:Drug, skos:Concept;
     skos:closeMatch wise:CAS_139-40-2, chemische_stof:WJNRPILHGGKWCK-UHFFFAOYSA-N;
     skos:exactMatch wise:CAS_139-40-2, chemische_stof:WJNRPILHGGKWCK-UHFFFAOYSA-N;
     skos:inScheme conceptscheme:chemische_stof;
@@ -39687,9 +39712,10 @@ chemische_stof:WLDLVNUQGNWKJD-UHFFFAOYSA-N dbo:casNumber "12255-09-3";
     skos:inScheme conceptscheme:chemische_stof;
     skos:prefLabel "Arsenic;neodymium"@en, "Neodymium arsenide (NdAs)"@en.
 chemische_stof:WLFDQEVORAMCIM-UHFFFAOYSA-N dbo:casNumber "3060-89-7";
-    dbo:iupacName "3-(4-Bromophenyl)-1-methoxy-1-methylurea"@en;
+    dbo:ecNumber "221-301-5";
+    dbo:iupacName "3-(4-bromophenyl)-1-methoxy-1-methylurea"@en;
     dbo:pubchem compound:CID18290;
-    a dbo:ChemicalSubstance, dbo:Drug, skos:Concept;
+    a dbo:Biomolecule, dbo:ChemicalSubstance, dbo:Drug, skos:Concept;
     skos:closeMatch wise:CAS_3060-89-7, chemische_stof:WLFDQEVORAMCIM-UHFFFAOYSA-N;
     skos:exactMatch wise:CAS_3060-89-7, chemische_stof:WLFDQEVORAMCIM-UHFFFAOYSA-N;
     skos:inScheme conceptscheme:chemische_stof;
@@ -40369,17 +40395,18 @@ chemische_stof:WVLBCYQITXONBZ-UHFFFAOYSA-N dbo:casNumber "512-56-1", "91316-44-8
     skos:inScheme conceptscheme:chemische_stof;
     skos:notation "TC1yPO4";
     skos:prefLabel "trimethylfosfaat"@nl.
-chemische_stof:WVQBLGZPHOPPFO-UHFFFAOYSA-N dbo:casNumber "51218-45-2", "55762-76-0", "63150-68-5", "82535-90-8", "94449-58-8";
+chemische_stof:WVQBLGZPHOPPFO-UHFFFAOYSA-N dbo:casNumber "51218-45-2";
+    dbo:ecNumber "257-060-8";
     dbo:iupacName "2-chloro-N-(2-ethyl-6-methylphenyl)-N-(1-methoxypropan-2-yl)acetamide"@en;
     dbo:pubchem compound:CID4169;
-    a dbo:ChemicalSubstance, dbo:Drug, skos:Concept;
-    skos:altLabel "metolachloor"@nl;
+    a dbo:Biomolecule, dbo:ChemicalSubstance, dbo:Drug, skos:Concept;
+    skos:altLabel "metolachlor"@nl;
     skos:closeMatch wise:CAS_51218-45-2, chemische_stof:WVQBLGZPHOPPFO-UHFFFAOYSA-N;
     skos:exactMatch wise:CAS_51218-45-2, chemische_stof:WVQBLGZPHOPPFO-UHFFFAOYSA-N;
     skos:inScheme conceptscheme:chemische_stof;
     skos:mappingRelation wise:CAS_51218-45-2, chemische_stof:WVQBLGZPHOPPFO-UHFFFAOYSA-N;
     skos:notation "metlCl";
-    skos:prefLabel "metolachlor"@nl;
+    skos:prefLabel "metolachloor"@nl;
     skos:semanticRelation wise:CAS_51218-45-2, chemische_stof:WVQBLGZPHOPPFO-UHFFFAOYSA-N.
 chemische_stof:WVYWICLMDOOCFB-UHFFFAOYSA-N dbo:casNumber "108-11-2", "20281-88-3", "40747-85-1", "72847-31-5";
     dbo:iupacName "4-Methylpentan-2-ol"@en;
@@ -41503,15 +41530,16 @@ chemische_stof:XLLIQLLCWZCATF-UHFFFAOYSA-N dbo:casNumber "110-49-6", "32718-56-2
     skos:notation "2C1oxC2yactt";
     skos:prefLabel "2-methoxyethylacetaat"@nl.
 chemische_stof:XLNZEKHULJKQBA-UHFFFAOYSA-N dbo:casNumber "13071-79-9";
-    dbo:iupacName "tert-butylsulfanylmethylsulfanyl-diethoxy-sulfanylidenephosphorane"@en;
+    dbo:ecNumber "235-963-8";
+    dbo:iupacName "tert-butylsulfanylmethylsulfanyl-diethoxy-sulfanylidene-λ5-phosphane"@en;
     dbo:pubchem compound:CID25670;
-    a dbo:ChemicalSubstance, dbo:Drug, skos:Concept;
+    a dbo:Biomolecule, dbo:ChemicalSubstance, dbo:Drug, skos:Concept;
     skos:closeMatch wise:CAS_13071-79-9, chemische_stof:XLNZEKHULJKQBA-UHFFFAOYSA-N;
     skos:exactMatch wise:CAS_13071-79-9, chemische_stof:XLNZEKHULJKQBA-UHFFFAOYSA-N;
     skos:inScheme conceptscheme:chemische_stof;
     skos:mappingRelation wise:CAS_13071-79-9, chemische_stof:XLNZEKHULJKQBA-UHFFFAOYSA-N;
     skos:notation "terbfs";
-    skos:prefLabel "terbufos"@nl;
+    skos:prefLabel "terbufos"@en, "terbufos"@nl;
     skos:semanticRelation wise:CAS_13071-79-9, chemische_stof:XLNZEKHULJKQBA-UHFFFAOYSA-N.
 chemische_stof:XLOMVQKBTHCTTD-UHFFFAOYSA-N dbo:casNumber "1314-13-2", "185461-95-4", "56592-00-8", "57206-86-7", "78590-82-6", "8011-84-5", "8047-36-7", "8047-69-6", "8050-42-8", "8051-03-4";
     dbo:iupacName "oxozinc"@en;
@@ -43257,10 +43285,11 @@ chemische_stof:YIQVOMZDSOSAQY-UHFFFAOYSA-N dbo:casNumber "85938-56-3";
     skos:inScheme conceptscheme:chemische_stof;
     skos:prefLabel "N-(3-aminopropyl)-2,2,3,3,4,4,5,5,6,6,7,7,8,8,8-pentadecafluorooctanamide"@en.
 chemische_stof:YIVXMZJTEQBPQO-UHFFFAOYSA-N dbo:casNumber "94-82-6";
-    dbo:iupacName "4-(2,4-Dichlorophenoxy)butanoic acid"@en;
+    dbo:ecNumber "202-366-9";
+    dbo:iupacName "4-(2,4-dichlorophenoxy)butanoic acid"@en;
     dbo:pubchem compound:CID1489;
-    a dbo:ChemicalSubstance, dbo:Drug, skos:Concept;
-    skos:altLabel "(2,4-dichloorfenoxy)boterzuur (2,4-db)"@nl, "2,4-dichloorfenoxyboterzuur"@nl;
+    a dbo:Biomolecule, dbo:ChemicalSubstance, dbo:Drug, skos:Concept;
+    skos:altLabel "(2,4-dichloorfenoxy)boterzuur"@nl, "2,4-DB"@nl;
     skos:closeMatch wise:CAS_94-82-6, chemische_stof:YIVXMZJTEQBPQO-UHFFFAOYSA-N;
     skos:exactMatch wise:CAS_94-82-6, chemische_stof:YIVXMZJTEQBPQO-UHFFFAOYSA-N;
     skos:inScheme conceptscheme:chemische_stof;
@@ -45076,11 +45105,12 @@ chemische_stof:ZLSIMKBKOKXMFC-UHFFFAOYSA-N dbo:casNumber "12006-08-5";
     a dbo:Biomolecule, dbo:ChemicalSubstance, dbo:Drug, skos:Concept;
     skos:inScheme conceptscheme:chemische_stof;
     skos:prefLabel "Arsenic;terbium"@en, "Terbium arsenide (TbAs)"@en.
-chemische_stof:ZLSWBLPERHFHIS-UHFFFAOYSA-N dbo:casNumber "32795-97-4", "7361-37-7", "93-72-1";
+chemische_stof:ZLSWBLPERHFHIS-UHFFFAOYSA-N dbo:casNumber "93-72-1";
+    dbo:ecNumber "202-271-2";
     dbo:iupacName "2-(2,4,5-trichlorophenoxy)propanoic acid"@en;
     dbo:pubchem compound:CID7158;
-    a dbo:ChemicalSubstance, dbo:Drug, skos:Concept;
-    skos:altLabel "2,4,5-trichloorfenoxypropionzuur"@nl;
+    a dbo:Biomolecule, dbo:ChemicalSubstance, dbo:Drug, skos:Concept;
+    skos:altLabel "2,4,5-TP"@nl, "2,4,5-trichloorfenoxypropionzuur"@nl;
     skos:closeMatch wise:CAS_93-72-1, chemische_stof:ZLSWBLPERHFHIS-UHFFFAOYSA-N;
     skos:exactMatch wise:CAS_93-72-1, chemische_stof:ZLSWBLPERHFHIS-UHFFFAOYSA-N;
     skos:inScheme conceptscheme:chemische_stof;

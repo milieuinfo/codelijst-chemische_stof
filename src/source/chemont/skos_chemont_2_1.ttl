@@ -52619,14 +52619,7 @@ conceptscheme:chemische_stof a skos:ConceptScheme.
     skos:definition "Aromatic heterocyclic compound containing a thiophene ring that carries a nitro group, as well as an halogen atom.";
     skos:notation "CHEMONTID:0004339";
     skos:inScheme conceptscheme:chemische_stof.
-conceptscheme:chemische_stof a skos:ConceptScheme, skos:ConceptScheme.
-<https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/9999999> skos:topConceptOf conceptscheme:chemische_stof;
-    skos:prefLabel "Chemical entities"@en;
-    skos:altLabel "a chemical entity";
-    skos:definition "Constitutionally or isotopically distinct atoms, molecules, ions, ion pairs, radicals, radical ions, complexes, conformers etc., identifiable as a separately distinguishable entity.";
-    skos:notation "CHEMONTID:9999999";
-    skos:inScheme conceptscheme:chemische_stof.
-conceptscheme:chemische_stof skos:hasTopConcept <https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/9999999>.
+conceptscheme:chemische_stof a skos:ConceptScheme.
 <https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/0004340> a skos:Concept;
     skos:broader <https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/0004339>;
     skos:prefLabel "2-nitrohalothiophenes"@en;
@@ -52869,7 +52862,14 @@ conceptscheme:chemische_stof a skos:ConceptScheme.
     skos:definition "Organosilicon compounds where the tetravalent silicon atom is linked to one or more chlorine atoms.";
     skos:notation "CHEMONTID:0004444";
     skos:inScheme conceptscheme:chemische_stof.
-conceptscheme:chemische_stof a skos:ConceptScheme.
+conceptscheme:chemische_stof a skos:ConceptScheme, skos:ConceptScheme.
+<https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/9999999> skos:topConceptOf conceptscheme:chemische_stof;
+    skos:prefLabel "Chemical entities"@en;
+    skos:altLabel "a chemical entity";
+    skos:definition "Constitutionally or isotopically distinct atoms, molecules, ions, ion pairs, radicals, radical ions, complexes, conformers etc., identifiable as a separately distinguishable entity.";
+    skos:notation "CHEMONTID:9999999";
+    skos:inScheme conceptscheme:chemische_stof.
+conceptscheme:chemische_stof skos:hasTopConcept <https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/9999999>.
 <https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/0004479> a skos:Concept;
     skos:broader <https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/0004445>;
     skos:prefLabel "Trialkylheterosilanes"@en;

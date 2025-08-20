@@ -2983,19 +2983,19 @@
             "type": "skos:Concept",
             "closeMatch": [
                 "wise:CAS_16118-49-3",
-                "concept:AMRQXHFXNZFDCH-VIFPVBQESA-N"
+                "concept:AMRQXHFXNZFDCH-SECBINFHSA-N"
             ],
             "exactMatch": [
                 "wise:CAS_16118-49-3",
-                "concept:AMRQXHFXNZFDCH-VIFPVBQESA-N"
+                "concept:AMRQXHFXNZFDCH-SECBINFHSA-N"
             ],
             "mappingRelation": [
                 "wise:CAS_16118-49-3",
-                "concept:AMRQXHFXNZFDCH-VIFPVBQESA-N"
+                "concept:AMRQXHFXNZFDCH-SECBINFHSA-N"
             ],
             "semanticRelation": [
                 "wise:CAS_16118-49-3",
-                "concept:AMRQXHFXNZFDCH-VIFPVBQESA-N"
+                "concept:AMRQXHFXNZFDCH-SECBINFHSA-N"
             ]
         },
         {
@@ -10528,13 +10528,12 @@
             "id": "concept:AAEVYOVXGOFMJO-UHFFFAOYSA-N",
             "type": [
                 "skos:Concept",
+                "dbo:Biomolecule",
                 "dbo:ChemicalSubstance",
                 "dbo:Drug"
             ],
-            "casNumber": [
-                "7287-19-6",
-                "83653-07-0"
-            ],
+            "casNumber": "7287-19-6",
+            "ecNumber": "230-711-3",
             "iupacName": "6-methylsulfanyl-N,N'-di(propan-2-yl)-1,3,5-triazine-2,4-diamine",
             "pubchem": "compound:CID4929",
             "altLabel": "prometryne",
@@ -12395,33 +12394,35 @@
             "prefLabel": "pentanol"
         },
         {
-            "id": "concept:AMRQXHFXNZFDCH-VIFPVBQESA-N",
+            "id": "concept:AMRQXHFXNZFDCH-SECBINFHSA-N",
             "type": [
                 "skos:Concept",
+                "dbo:Biomolecule",
                 "dbo:ChemicalSubstance",
                 "dbo:Drug"
             ],
             "casNumber": "16118-49-3",
-            "iupacName": "[(2S)-1-ethylamino-1-oxopropan-2-yl] N-phenylcarbamate",
+            "ecNumber": "240-286-6",
+            "iupacName": "[(2R)-1-ethylamino-1-oxopropan-2-yl] N-phenylcarbamate",
             "pubchem": "compound:CID443067",
             "closeMatch": [
                 "wise:CAS_16118-49-3",
-                "concept:AMRQXHFXNZFDCH-VIFPVBQESA-N"
+                "concept:AMRQXHFXNZFDCH-SECBINFHSA-N"
             ],
             "exactMatch": [
                 "wise:CAS_16118-49-3",
-                "concept:AMRQXHFXNZFDCH-VIFPVBQESA-N"
+                "concept:AMRQXHFXNZFDCH-SECBINFHSA-N"
             ],
             "inScheme": "conceptscheme:chemische_stof",
             "mappingRelation": [
                 "wise:CAS_16118-49-3",
-                "concept:AMRQXHFXNZFDCH-VIFPVBQESA-N"
+                "concept:AMRQXHFXNZFDCH-SECBINFHSA-N"
             ],
             "notation": "carbtAd",
             "prefLabel": "carbetamide",
             "semanticRelation": [
                 "wise:CAS_16118-49-3",
-                "concept:AMRQXHFXNZFDCH-VIFPVBQESA-N"
+                "concept:AMRQXHFXNZFDCH-SECBINFHSA-N"
             ]
         },
         {
@@ -18645,13 +18646,12 @@
             "id": "concept:BZRUVKZGXNSXMB-UHFFFAOYSA-N",
             "type": [
                 "skos:Concept",
+                "dbo:Biomolecule",
                 "dbo:ChemicalSubstance",
                 "dbo:Drug"
             ],
-            "casNumber": [
-                "109829-45-0",
-                "7286-69-3"
-            ],
+            "casNumber": "7286-69-3",
+            "ecNumber": "230-710-8",
             "iupacName": "N-butan-2-yl-6-chloro-N'-ethyl-1,3,5-triazine-2,4-diamine",
             "pubchem": "compound:CID23712",
             "altLabel": "sebutylazine",
@@ -18797,10 +18797,12 @@
             "id": "concept:CAWXEEYDBZRFPE-UHFFFAOYSA-N",
             "type": [
                 "skos:Concept",
+                "dbo:Biomolecule",
                 "dbo:ChemicalSubstance",
                 "dbo:Drug"
             ],
             "casNumber": "51235-04-2",
+            "ecNumber": "257-074-4",
             "iupacName": "3-cyclohexyl-6-dimethylamino-1-methyl-1,3,5-triazine-2,4-dione",
             "pubchem": "compound:CID39965",
             "closeMatch": [
@@ -18818,6 +18820,7 @@
             ],
             "notation": "Hxznn",
             "prefLabel": "hexazinon",
+            "prefLabel_en": "hexazinone",
             "semanticRelation": [
                 "wise:CAS_51235-04-2",
                 "concept:CAWXEEYDBZRFPE-UHFFFAOYSA-N"
@@ -23859,12 +23862,15 @@
             "id": "concept:DFWFIQKMSFGDCQ-UHFFFAOYSA-N",
             "type": [
                 "skos:Concept",
+                "dbo:Biomolecule",
                 "dbo:ChemicalSubstance",
                 "dbo:Drug"
             ],
             "casNumber": "6190-65-4",
+            "ecNumber": "622-793-8",
             "iupacName": "6-chloro-N-propan-2-yl-1,3,5-triazine-2,4-diamine",
             "pubchem": "compound:CID22563",
+            "altLabel": "deethylatrazine",
             "closeMatch": [
                 "wise:CAS_6190-65-4",
                 "concept:DFWFIQKMSFGDCQ-UHFFFAOYSA-N"
@@ -25916,11 +25922,13 @@
             "id": "concept:DSRNRYQBBJQVCW-UHFFFAOYSA-N",
             "type": [
                 "skos:Concept",
+                "dbo:Biomolecule",
                 "dbo:ChemicalSubstance",
                 "dbo:Drug"
             ],
             "casNumber": "19937-59-8",
-            "iupacName": "3-(3-Chloro-4-methoxyphenyl)-1,1-dimethylurea",
+            "ecNumber": "243-433-2",
+            "iupacName": "3-(3-chloro-4-methoxyphenyl)-1,1-dimethylurea",
             "pubchem": "compound:CID29863",
             "closeMatch": [
                 "wise:CAS_19937-59-8",
@@ -28076,16 +28084,13 @@
             "id": "concept:FHIVAFMUCKRCQO-UHFFFAOYSA-N",
             "type": [
                 "skos:Concept",
+                "dbo:Biomolecule",
                 "dbo:ChemicalSubstance",
                 "dbo:Drug"
             ],
-            "casNumber": [
-                "27936-40-9",
-                "30583-38-1",
-                "333-41-5",
-                "65863-03-8"
-            ],
-            "iupacName": "diethoxy-(6-methyl-2-propan-2-ylpyrimidin-4-yl)oxy-sulfanylidenephosphorane",
+            "casNumber": "333-41-5",
+            "ecNumber": "206-373-8",
+            "iupacName": "diethoxy-(6-methyl-2-propan-2-ylpyrimidin-4-yl)oxy-sulfanylidene-λ5-phosphane",
             "pubchem": "compound:CID3017",
             "closeMatch": [
                 "wise:CAS_333-41-5",
@@ -28101,6 +28106,7 @@
                 "concept:FHIVAFMUCKRCQO-UHFFFAOYSA-N"
             ],
             "notation": "Daznn",
+            "prefLabel_en": "diazinon",
             "prefLabel": "diazinon",
             "semanticRelation": [
                 "wise:CAS_333-41-5",
@@ -37981,16 +37987,15 @@
             "id": "concept:HRBKVYFZANMGRE-UHFFFAOYSA-N",
             "type": [
                 "skos:Concept",
+                "dbo:Biomolecule",
                 "dbo:ChemicalSubstance",
                 "dbo:Drug"
             ],
             "casNumber": "5598-13-0",
-            "iupacName": "dimethoxy-sulfanylidene-(3,5,6-trichloropyridin-2-yl)oxyphosphorane",
+            "ecNumber": "227-011-5",
+            "iupacName": "dimethoxy-sulfanylidene-(3,5,6-trichloropyridin-2-yl)oxy-λ5-phosphane",
             "pubchem": "compound:CID21803",
-            "altLabel": [
-                "chloorpyrifos-methyl",
-                "methylchloorpyrifos"
-            ],
+            "altLabel": "methylchloorpyrifos",
             "closeMatch": [
                 "wise:CAS_5598-13-0",
                 "concept:HRBKVYFZANMGRE-UHFFFAOYSA-N"
@@ -38006,6 +38011,7 @@
             ],
             "notation": "C1yClprfs",
             "prefLabel": "chlorpyrifos-methyl",
+            "prefLabel_en": "chlorpyriphos-methyl",
             "semanticRelation": [
                 "wise:CAS_5598-13-0",
                 "concept:HRBKVYFZANMGRE-UHFFFAOYSA-N"
@@ -43234,14 +43240,13 @@
             "id": "concept:IWEDIXLBFLAXBO-UHFFFAOYSA-N",
             "type": [
                 "skos:Concept",
+                "dbo:Biomolecule",
                 "dbo:ChemicalSubstance",
                 "dbo:Drug"
             ],
-            "casNumber": [
-                "1918-00-9",
-                "62610-39-3"
-            ],
-            "iupacName": "3,6-Dichloro-2-methoxybenzoic acid",
+            "casNumber": "1918-00-9",
+            "ecNumber": "217-635-6",
+            "iupacName": "3,6-dichloro-2-methoxybenzoic acid",
             "pubchem": "compound:CID3030",
             "closeMatch": [
                 "wise:CAS_1918-00-9",
@@ -47876,13 +47881,12 @@
             "id": "concept:JXCGFZXSOMJFOA-UHFFFAOYSA-N",
             "type": [
                 "skos:Concept",
+                "dbo:Biomolecule",
                 "dbo:ChemicalSubstance",
                 "dbo:Drug"
             ],
-            "casNumber": [
-                "11111-56-1",
-                "15545-48-9"
-            ],
+            "casNumber": "15545-48-9",
+            "ecNumber": "239-592-2",
             "iupacName": "3-(3-chloro-4-methylphenyl)-1,1-dimethylurea",
             "pubchem": "compound:CID27375",
             "altLabel": "chlorotoluron",
@@ -47901,6 +47905,7 @@
             ],
             "notation": "Cltlrn",
             "prefLabel": "chloortoluron",
+            "prefLabel_en": "chlortoluron",
             "semanticRelation": [
                 "wise:CAS_15545-48-9",
                 "concept:JXCGFZXSOMJFOA-UHFFFAOYSA-N"
@@ -51855,14 +51860,13 @@
             "id": "concept:KVGLBTYUCJYMND-UHFFFAOYSA-N",
             "type": [
                 "skos:Concept",
+                "dbo:Biomolecule",
                 "dbo:ChemicalSubstance",
                 "dbo:Drug"
             ],
-            "casNumber": [
-                "66767-39-3",
-                "944-22-9"
-            ],
-            "iupacName": "ethoxy-ethyl-phenylsulfanyl-sulfanylidenephosphorane",
+            "casNumber": "944-22-9",
+            "ecNumber": "213-408-0",
+            "iupacName": "ethoxy-ethyl-phenylsulfanyl-sulfanylidene-λ5-phosphane",
             "pubchem": "compound:CID13676",
             "closeMatch": [
                 "wise:CAS_944-22-9",
@@ -51879,6 +51883,7 @@
             ],
             "notation": "fonfs",
             "prefLabel": "fonofos",
+            "prefLabel_en": "fonophos",
             "semanticRelation": [
                 "wise:CAS_944-22-9",
                 "concept:KVGLBTYUCJYMND-UHFFFAOYSA-N"
@@ -51991,19 +51996,19 @@
             "id": "concept:KWGUFOITWDSNQY-UHFFFAOYSA-N",
             "type": [
                 "skos:Concept",
+                "dbo:Biomolecule",
                 "dbo:ChemicalSubstance",
                 "dbo:Drug"
             ],
             "casNumber": "4824-78-6",
-            "iupacName": "(4-bromo-2,5-dichlorophenoxy)-diethoxy-sulfanylidenephosphorane",
+            "ecNumber": "225-399-0",
+            "iupacName": "(4-bromo-2,5-dichlorophenoxy)-diethoxy-sulfanylidene-λ5-phosphane",
             "pubchem": "compound:CID20965",
-            "altLabel": [
-                "bromofos-ethyl",
-                "bromophos-ethyl"
-            ],
+            "altLabel": "ethylbromofos",
             "inScheme": "conceptscheme:chemische_stof",
             "notation": "C2yBrfs",
-            "prefLabel": "ethylbromofos"
+            "prefLabel": "bromofos-ethyl",
+            "prefLabel_en": "bromophos-ethyl"
         },
         {
             "id": "concept:KWIXNFOTNVKIGM-UHFFFAOYSA-N",
@@ -54760,15 +54765,17 @@
             "id": "concept:LLWADFLAOKUBDR-UHFFFAOYSA-N",
             "type": [
                 "skos:Concept",
+                "dbo:Biomolecule",
                 "dbo:ChemicalSubstance",
                 "dbo:Drug"
             ],
             "casNumber": "94-81-5",
-            "iupacName": "4-(4-Chloro-2-methylphenoxy)butanoic acid",
+            "ecNumber": "202-365-3",
+            "iupacName": "4-(4-chloro-2-methylphenoxy)butanoic acid",
             "pubchem": "compound:CID7207",
             "altLabel": [
-                "4-(4-chloor-2-methylfenoxy)boterzuur",
-                "4-(4-chloro-2-methylfenoxy)boterzuur (mcpb)"
+                "2-methyl-4-chloorfenoxyboterzuur",
+                "MCPB"
             ],
             "closeMatch": [
                 "wise:CAS_94-81-5",
@@ -54784,7 +54791,7 @@
                 "concept:LLWADFLAOKUBDR-UHFFFAOYSA-N"
             ],
             "notation": "MCPB",
-            "prefLabel": "2-methyl-4-chloorfenoxyboterzuur",
+            "prefLabel": "2-methyl-4-chloorfenoxybutaanzuur",
             "semanticRelation": [
                 "wise:CAS_94-81-5",
                 "concept:LLWADFLAOKUBDR-UHFFFAOYSA-N"
@@ -57462,13 +57469,15 @@
             "id": "concept:MEBQXILRKZHVCX-UHFFFAOYSA-N",
             "type": [
                 "skos:Concept",
+                "dbo:Biomolecule",
                 "dbo:ChemicalSubstance",
                 "dbo:Drug"
             ],
             "casNumber": "950-37-8",
+            "ecNumber": "213-449-4",
             "iupacName": "3-(dimethoxyphosphinothioylsulfanylmethyl)-5-methoxy-1,3,4-thiadiazol-2-one",
             "pubchem": "compound:CID13709",
-            "altLabel": "methidathion",
+            "altLabel": "methidation",
             "closeMatch": [
                 "wise:CAS_950-37-8",
                 "concept:MEBQXILRKZHVCX-UHFFFAOYSA-N"
@@ -57483,7 +57492,8 @@
                 "concept:MEBQXILRKZHVCX-UHFFFAOYSA-N"
             ],
             "notation": "metdton",
-            "prefLabel": "methidation",
+            "prefLabel_en": "methidathion",
+            "prefLabel": "methidathion",
             "semanticRelation": [
                 "wise:CAS_950-37-8",
                 "concept:MEBQXILRKZHVCX-UHFFFAOYSA-N"
@@ -57521,10 +57531,12 @@
             "id": "concept:MEFQWPUMEMWTJP-UHFFFAOYSA-N",
             "type": [
                 "skos:Concept",
+                "dbo:Biomolecule",
                 "dbo:ChemicalSubstance",
                 "dbo:Drug"
             ],
             "casNumber": "69377-81-7",
+            "ecNumber": "614-957-2",
             "iupacName": "2-(4-amino-3,5-dichloro-6-fluoropyridin-2-yl)oxyacetic acid",
             "pubchem": "compound:CID50465",
             "closeMatch": [
@@ -57719,13 +57731,12 @@
             "id": "concept:MFOUDYKPLGXPGO-UHFFFAOYSA-N",
             "type": [
                 "skos:Concept",
+                "dbo:Biomolecule",
                 "dbo:ChemicalSubstance",
                 "dbo:Drug"
             ],
-            "casNumber": [
-                "1918-16-7",
-                "63704-81-4"
-            ],
+            "casNumber": "1918-16-7",
+            "ecNumber": "217-638-2",
             "iupacName": "2-chloro-N-phenyl-N-propan-2-ylacetamide",
             "pubchem": "compound:CID4931",
             "altLabel": "propachlor",
@@ -60318,14 +60329,12 @@
             "id": "concept:MZZBPDKVEFVLFF-UHFFFAOYSA-N",
             "type": [
                 "skos:Concept",
+                "dbo:Biomolecule",
                 "dbo:ChemicalSubstance",
                 "dbo:Drug"
             ],
-            "casNumber": [
-                "11096-88-1",
-                "12679-53-7",
-                "21725-46-2"
-            ],
+            "casNumber": "21725-46-2",
+            "ecNumber": "244-544-9",
             "iupacName": "2-[(4-chloro-6-ethylamino-1,3,5-triazin-2-yl)amino]-2-methylpropanenitrile",
             "pubchem": "compound:CID30773",
             "closeMatch": [
@@ -64152,15 +64161,13 @@
             "id": "concept:NYQDCVLCJXRDSK-UHFFFAOYSA-N",
             "type": [
                 "skos:Concept",
+                "dbo:Biomolecule",
                 "dbo:ChemicalSubstance",
                 "dbo:Drug"
             ],
-            "casNumber": [
-                "12778-41-5",
-                "12778-42-6",
-                "2104-96-3"
-            ],
-            "iupacName": "(4-bromo-2,5-dichlorophenoxy)-dimethoxy-sulfanylidenephosphorane",
+            "casNumber": "2104-96-3",
+            "ecNumber": "218-277-3",
+            "iupacName": "(4-bromo-2,5-dichlorophenoxy)-dimethoxy-sulfanylidene-λ5-phosphane",
             "pubchem": "compound:CID16422",
             "altLabel": [
                 "bromofos-methyl",
@@ -64180,7 +64187,8 @@
                 "concept:NYQDCVLCJXRDSK-UHFFFAOYSA-N"
             ],
             "notation": "C1yBrfs",
-            "prefLabel": "bromophos",
+            "prefLabel": "bromofos",
+            "prefLabel_en": "bromophos",
             "semanticRelation": [
                 "wise:CAS_2104-96-3",
                 "concept:NYQDCVLCJXRDSK-UHFFFAOYSA-N"
@@ -74476,16 +74484,15 @@
             "id": "concept:QHOQHJPRIBSPCY-UHFFFAOYSA-N",
             "type": [
                 "skos:Concept",
+                "dbo:Biomolecule",
                 "dbo:ChemicalSubstance",
                 "dbo:Drug"
             ],
             "casNumber": "29232-93-7",
+            "ecNumber": "249-528-5",
             "iupacName": "4-dimethoxyphosphinothioyloxy-N,N-diethyl-6-methylpyrimidin-2-amine",
             "pubchem": "compound:CID34526",
-            "altLabel": [
-                "pirimifos-methyl",
-                "pirimiphos-methyl"
-            ],
+            "altLabel": "methylpirimifos",
             "closeMatch": [
                 "wise:CAS_29232-93-7",
                 "concept:QHOQHJPRIBSPCY-UHFFFAOYSA-N"
@@ -74500,7 +74507,8 @@
                 "concept:QHOQHJPRIBSPCY-UHFFFAOYSA-N"
             ],
             "notation": "C1yprmfs",
-            "prefLabel": "methylpirimifos",
+            "prefLabel": "pirimifos-methyl",
+            "prefLabel_en": "pirimiphos-methyl",
             "semanticRelation": [
                 "wise:CAS_29232-93-7",
                 "concept:QHOQHJPRIBSPCY-UHFFFAOYSA-N"
@@ -80553,10 +80561,12 @@
             "id": "concept:RRVIAQKBTUQODI-UHFFFAOYSA-N",
             "type": [
                 "skos:Concept",
+                "dbo:Biomolecule",
                 "dbo:ChemicalSubstance",
                 "dbo:Drug"
             ],
             "casNumber": "18691-97-9",
+            "ecNumber": "242-505-0",
             "iupacName": "1-(1,3-benzothiazol-2-yl)-1,3-dimethylurea",
             "pubchem": "compound:CID29216",
             "altLabel": "methabenzthiazuron",
@@ -85327,10 +85337,12 @@
             "id": "concept:STEPQTYSZVCJPV-UHFFFAOYSA-N",
             "type": [
                 "skos:Concept",
+                "dbo:Biomolecule",
                 "dbo:ChemicalSubstance",
                 "dbo:Drug"
             ],
             "casNumber": "67129-08-2",
+            "ecNumber": "266-583-0",
             "iupacName": "2-chloro-N-(2,6-dimethylphenyl)-N-(pyrazol-1-ylmethyl)acetamide",
             "pubchem": "compound:CID49384",
             "altLabel": "metazachlor",
@@ -86911,21 +86923,15 @@
             "id": "concept:TWFZGCMQGLPBSX-UHFFFAOYSA-N",
             "type": [
                 "skos:Concept",
+                "dbo:Biomolecule",
                 "dbo:ChemicalSubstance",
                 "dbo:Drug"
             ],
             "casNumber": [
-                "102040-01-7",
-                "105268-95-9",
                 "10605-21-7",
-                "110342-67-1",
-                "212384-28-6",
-                "37953-07-4",
-                "39413-19-9",
-                "59758-95-1",
-                "63090-40-4",
-                "63278-70-6"
+                "37953-07-4"
             ],
+            "ecNumber": "234-232-0",
             "iupacName": "methyl N-(1H-benzimidazol-2-yl)carbamate",
             "pubchem": "compound:CID25429",
             "closeMatch": [
@@ -93665,10 +93671,12 @@
             "id": "concept:VJYFKVYYMZPMAB-UHFFFAOYSA-N",
             "type": [
                 "skos:Concept",
+                "dbo:Biomolecule",
                 "dbo:ChemicalSubstance",
                 "dbo:Drug"
             ],
             "casNumber": "13194-48-4",
+            "ecNumber": "236-152-1",
             "iupacName": "1-(ethoxy-propylsulfanylphosphoryl)sulfanylpropane",
             "pubchem": "compound:CID3289",
             "closeMatch": [
@@ -93686,6 +93694,7 @@
             ],
             "notation": "etpfs",
             "prefLabel": "ethoprofos",
+            "prefLabel_en": "ethoprophos",
             "semanticRelation": [
                 "wise:CAS_13194-48-4",
                 "concept:VJYFKVYYMZPMAB-UHFFFAOYSA-N"
@@ -98120,10 +98129,12 @@
             "id": "concept:WJNRPILHGGKWCK-UHFFFAOYSA-N",
             "type": [
                 "skos:Concept",
+                "dbo:Biomolecule",
                 "dbo:ChemicalSubstance",
                 "dbo:Drug"
             ],
             "casNumber": "139-40-2",
+            "ecNumber": "205-359-9",
             "iupacName": "6-chloro-N,N'-di(propan-2-yl)-1,3,5-triazine-2,4-diamine",
             "pubchem": "compound:CID4937",
             "closeMatch": [
@@ -98382,11 +98393,13 @@
             "id": "concept:WLFDQEVORAMCIM-UHFFFAOYSA-N",
             "type": [
                 "skos:Concept",
+                "dbo:Biomolecule",
                 "dbo:ChemicalSubstance",
                 "dbo:Drug"
             ],
             "casNumber": "3060-89-7",
-            "iupacName": "3-(4-Bromophenyl)-1-methoxy-1-methylurea",
+            "ecNumber": "221-301-5",
+            "iupacName": "3-(4-bromophenyl)-1-methoxy-1-methylurea",
             "pubchem": "compound:CID18290",
             "closeMatch": [
                 "wise:CAS_3060-89-7",
@@ -100033,19 +100046,15 @@
             "id": "concept:WVQBLGZPHOPPFO-UHFFFAOYSA-N",
             "type": [
                 "skos:Concept",
+                "dbo:Biomolecule",
                 "dbo:ChemicalSubstance",
                 "dbo:Drug"
             ],
-            "casNumber": [
-                "51218-45-2",
-                "55762-76-0",
-                "63150-68-5",
-                "82535-90-8",
-                "94449-58-8"
-            ],
+            "casNumber": "51218-45-2",
+            "ecNumber": "257-060-8",
             "iupacName": "2-chloro-N-(2-ethyl-6-methylphenyl)-N-(1-methoxypropan-2-yl)acetamide",
             "pubchem": "compound:CID4169",
-            "altLabel": "metolachloor",
+            "altLabel": "metolachlor",
             "closeMatch": [
                 "wise:CAS_51218-45-2",
                 "concept:WVQBLGZPHOPPFO-UHFFFAOYSA-N"
@@ -100060,7 +100069,7 @@
                 "concept:WVQBLGZPHOPPFO-UHFFFAOYSA-N"
             ],
             "notation": "metlCl",
-            "prefLabel": "metolachlor",
+            "prefLabel": "metolachloor",
             "semanticRelation": [
                 "wise:CAS_51218-45-2",
                 "concept:WVQBLGZPHOPPFO-UHFFFAOYSA-N"
@@ -102726,11 +102735,13 @@
             "id": "concept:XLNZEKHULJKQBA-UHFFFAOYSA-N",
             "type": [
                 "skos:Concept",
+                "dbo:Biomolecule",
                 "dbo:ChemicalSubstance",
                 "dbo:Drug"
             ],
             "casNumber": "13071-79-9",
-            "iupacName": "tert-butylsulfanylmethylsulfanyl-diethoxy-sulfanylidenephosphorane",
+            "ecNumber": "235-963-8",
+            "iupacName": "tert-butylsulfanylmethylsulfanyl-diethoxy-sulfanylidene-λ5-phosphane",
             "pubchem": "compound:CID25670",
             "closeMatch": [
                 "wise:CAS_13071-79-9",
@@ -102746,6 +102757,7 @@
                 "concept:XLNZEKHULJKQBA-UHFFFAOYSA-N"
             ],
             "notation": "terbfs",
+            "prefLabel_en": "terbufos",
             "prefLabel": "terbufos",
             "semanticRelation": [
                 "wise:CAS_13071-79-9",
@@ -106940,15 +106952,17 @@
             "id": "concept:YIVXMZJTEQBPQO-UHFFFAOYSA-N",
             "type": [
                 "skos:Concept",
+                "dbo:Biomolecule",
                 "dbo:ChemicalSubstance",
                 "dbo:Drug"
             ],
             "casNumber": "94-82-6",
-            "iupacName": "4-(2,4-Dichlorophenoxy)butanoic acid",
+            "ecNumber": "202-366-9",
+            "iupacName": "4-(2,4-dichlorophenoxy)butanoic acid",
             "pubchem": "compound:CID1489",
             "altLabel": [
-                "(2,4-dichloorfenoxy)boterzuur (2,4-db)",
-                "2,4-dichloorfenoxyboterzuur"
+                "(2,4-dichloorfenoxy)boterzuur",
+                "2,4-DB"
             ],
             "closeMatch": [
                 "wise:CAS_94-82-6",
@@ -111229,17 +111243,18 @@
             "id": "concept:ZLSWBLPERHFHIS-UHFFFAOYSA-N",
             "type": [
                 "skos:Concept",
+                "dbo:Biomolecule",
                 "dbo:ChemicalSubstance",
                 "dbo:Drug"
             ],
-            "casNumber": [
-                "32795-97-4",
-                "7361-37-7",
-                "93-72-1"
-            ],
+            "casNumber": "93-72-1",
+            "ecNumber": "202-271-2",
             "iupacName": "2-(2,4,5-trichlorophenoxy)propanoic acid",
             "pubchem": "compound:CID7158",
-            "altLabel": "2,4,5-trichloorfenoxypropionzuur",
+            "altLabel": [
+                "2,4,5-TP",
+                "2,4,5-trichloorfenoxypropionzuur"
+            ],
             "closeMatch": [
                 "wise:CAS_93-72-1",
                 "concept:ZLSWBLPERHFHIS-UHFFFAOYSA-N"
