@@ -5324,11 +5324,6 @@ obo:CHEBI_3392 a skos:Concept;
     skos:exactMatch obo:CHEBI_3392, chemische_stof:TWFZGCMQGLPBSX-UHFFFAOYSA-N;
     skos:mappingRelation obo:CHEBI_3392, chemische_stof:TWFZGCMQGLPBSX-UHFFFAOYSA-N;
     skos:semanticRelation obo:CHEBI_3392, chemische_stof:TWFZGCMQGLPBSX-UHFFFAOYSA-N.
-obo:CHEBI_3394 a skos:Concept;
-    skos:closeMatch obo:CHEBI_3394, chemische_stof:AMRQXHFXNZFDCH-VIFPVBQESA-N;
-    skos:exactMatch obo:CHEBI_3394, chemische_stof:AMRQXHFXNZFDCH-VIFPVBQESA-N;
-    skos:mappingRelation obo:CHEBI_3394, chemische_stof:AMRQXHFXNZFDCH-VIFPVBQESA-N;
-    skos:semanticRelation obo:CHEBI_3394, chemische_stof:AMRQXHFXNZFDCH-VIFPVBQESA-N.
 obo:CHEBI_33966 a skos:Concept.
 obo:CHEBI_33968 a skos:Concept.
 obo:CHEBI_33970 a skos:Concept.
@@ -13093,18 +13088,6 @@ chemische_stof:AMQJEAYHLZJPGS-UHFFFAOYSA-N dbo:formula "C5H12O";
     skos:mappingRelation obo:CHEBI_44884, chemische_stof:AMQJEAYHLZJPGS-UHFFFAOYSA-N;
     skos:note "A short-chain primary fatty alcohol that is pentane in which a hydrogen of one of the methyl groups is substituted by a hydroxy group. It has been isolated from Melicope ptelefolia."@en;
     skos:semanticRelation obo:CHEBI_143597, obo:CHEBI_157770, obo:CHEBI_44884, chemische_stof:AMQJEAYHLZJPGS-UHFFFAOYSA-N.
-chemische_stof:AMRQXHFXNZFDCH-VIFPVBQESA-N dbo:formula "C12H16N2O3";
-    dbo:inchi "InChI=1S/C12H16N2O3/c1-3-13-11(15)9(2)17-12(16)14-10-7-5-4-6-8-10/h4-9H,3H2,1-2H3,(H,13,15)(H,14,16)/t9-/m0/s1";
-    dbo:smiles "CCNC(=O)[C@H](C)OC(=O)Nc1ccccc1";
-    dbp:inchikey "AMRQXHFXNZFDCH-VIFPVBQESA-N";
-    chebi:charge "0";
-    a dbo:ChemicalCompound, dbo:ChemicalSubstance, skos:Concept;
-    skos:altLabel "(2S)-1-(ethylamino)-1-oxopropan-2-yl phenylcarbamate"@en;
-    skos:closeMatch obo:CHEBI_3394, chemische_stof:AMRQXHFXNZFDCH-VIFPVBQESA-N;
-    skos:exactMatch obo:CHEBI_3394, chemische_stof:AMRQXHFXNZFDCH-VIFPVBQESA-N;
-    skos:mappingRelation obo:CHEBI_3394, chemische_stof:AMRQXHFXNZFDCH-VIFPVBQESA-N;
-    skos:note "A carbamate ester obtained by the formal condensation of  phenylcarbamic acid with the hydroxy group of N-ethyl-2-hydroxypropanamide."@en;
-    skos:semanticRelation obo:CHEBI_23003, obo:CHEBI_29347, obo:CHEBI_3394, chemische_stof:AMRQXHFXNZFDCH-VIFPVBQESA-N.
 chemische_stof:AMSPWOYQQAWRRM-UHFFFAOYSA-N dbo:formula "C19H21BrO5";
     dbo:inchi "InChI=1S/C19H21BrO5/c1-10-9-14(23-4)18(24-5)19(25-6)15(10)17(21)16-11(2)12(20)7-8-13(16)22-3/h7-9H,1-6H3";
     dbo:smiles "COc1ccc(Br)c(C)c1C(=O)c1c(C)cc(OC)c(OC)c1OC";
