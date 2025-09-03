@@ -9939,11 +9939,6 @@ obo:CHEBI_6824 a skos:Concept;
     skos:exactMatch obo:CHEBI_6824, chemische_stof:VKYKSIONXSXAKP-UHFFFAOYSA-N;
     skos:mappingRelation obo:CHEBI_6824, chemische_stof:VKYKSIONXSXAKP-UHFFFAOYSA-N;
     skos:semanticRelation obo:CHEBI_6824, chemische_stof:VKYKSIONXSXAKP-UHFFFAOYSA-N.
-obo:CHEBI_6842 a skos:Concept;
-    skos:closeMatch obo:CHEBI_6842, chemische_stof:IAKOZHOLGAGEJT-UHFFFAOYSA-N;
-    skos:exactMatch obo:CHEBI_6842, chemische_stof:IAKOZHOLGAGEJT-UHFFFAOYSA-N;
-    skos:mappingRelation obo:CHEBI_6842, chemische_stof:IAKOZHOLGAGEJT-UHFFFAOYSA-N;
-    skos:semanticRelation obo:CHEBI_6842, chemische_stof:IAKOZHOLGAGEJT-UHFFFAOYSA-N.
 obo:CHEBI_6888 a skos:Concept;
     skos:closeMatch obo:CHEBI_6888, chemische_stof:VHRSUDSXCMQTMA-PJHHCJLFSA-N;
     skos:exactMatch obo:CHEBI_6888, chemische_stof:VHRSUDSXCMQTMA-PJHHCJLFSA-N;
@@ -19995,17 +19990,6 @@ chemische_stof:IAKHMKGGTNLKSZ-INIZCTEOSA-N dbo:formula "C22H25NO6";
     skos:mappingRelation obo:CHEBI_27882, chemische_stof:IAKHMKGGTNLKSZ-INIZCTEOSA-N;
     skos:note "A colchicine that has (S)-configuration. It is a secondary metabolite, has anti-inflammatory properties and is used to treat gout, crystal-induced joint inflammation, familial Mediterranean fever, and many other conditions."@en;
     skos:semanticRelation obo:CHEBI_22315, obo:CHEBI_23359, obo:CHEBI_27882, chemische_stof:IAKHMKGGTNLKSZ-INIZCTEOSA-N.
-chemische_stof:IAKOZHOLGAGEJT-UHFFFAOYSA-N dbo:formula "C16H15Cl3O2";
-    dbo:inchi "InChI=1S/C16H15Cl3O2/c1-20-13-7-3-11(4-8-13)15(16(17,18)19)12-5-9-14(21-2)10-6-12/h3-10,15H,1-2H3";
-    dbo:smiles "COc1ccc(cc1)C(c1ccc(OC)cc1)C(Cl)(Cl)Cl";
-    dbp:inchikey "IAKOZHOLGAGEJT-UHFFFAOYSA-N";
-    chebi:charge "0";
-    a dbo:ChemicalCompound, dbo:ChemicalSubstance, skos:Concept;
-    skos:altLabel "1,1'-(2,2,2-trichloroethane-1,1-diyl)bis(4-methoxybenzene)"@en, "1,1,1-trichloro-2,2-bis(p-anisyl)ethane"@en, "1,1,1-trichloro-2,2-bis(p-methoxyphenyl)ethane"@en, "1,1,1-trichloro-2,2-di(4-methoxyphenyl)ethane"@en, "2,2-bis(p-anisyl)-1,1,1-trichloroethane"@en, "2,2-bis(p-methoxyphenyl)-1,1,1-trichloroethane"@en, "2,2-di(p-methoxyphenyl)-1,1,1-trichloroethane"@en, "Methoxychlor"@en, "dimethoxy-DDT"@en, "methoxy-DDT"@en, "p,p'-methoxychlor"@en;
-    skos:closeMatch obo:CHEBI_6842, chemische_stof:IAKOZHOLGAGEJT-UHFFFAOYSA-N;
-    skos:exactMatch obo:CHEBI_6842, chemische_stof:IAKOZHOLGAGEJT-UHFFFAOYSA-N;
-    skos:mappingRelation obo:CHEBI_6842, chemische_stof:IAKOZHOLGAGEJT-UHFFFAOYSA-N;
-    skos:semanticRelation obo:CHEBI_25705, obo:CHEBI_6842, chemische_stof:IAKOZHOLGAGEJT-UHFFFAOYSA-N.
 chemische_stof:IANUJLZYFUDJIH-UHFFFAOYSA-N dbo:formula "C14H13F4N3O2S";
     dbo:inchi "InChI=1S/C14H13F4N3O2S/c1-8(2)21(10-5-3-9(15)4-6-10)11(22)7-23-13-20-19-12(24-13)14(16,17)18/h3-6,8H,7H2,1-2H3";
     dbo:smiles "CC(C)N(C(=O)COc1nnc(s1)C(F)(F)F)c1ccc(F)cc1";

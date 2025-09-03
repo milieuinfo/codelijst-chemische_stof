@@ -14,7 +14,8 @@
   "id": "@id",
   "type" : {
     "@id" : "@type",
-    "@type" : "@id"
+    "@type" : "@id",
+    "@container": "@set"
   },
   "source" : {
     "@id" : "http://purl.org/dc/terms/source",
@@ -285,7 +286,8 @@
   },
   "altLabel" : {
     "@id" : "http://www.w3.org/2004/02/skos/core#altLabel",
-    "@language" : "nl"
+    "@language" : "nl",
+    "@container": "@set"
   },
   "note" : {
     "@id" : "http://www.w3.org/2004/02/skos/core#note",
@@ -304,7 +306,8 @@
     "@type" : "@id"
   },
   "casNumber" : {
-    "@id" : "http://dbpedia.org/ontology/casNumber"
+    "@id" : "http://dbpedia.org/ontology/casNumber",
+    "@container": "@set"
   },
   "ecNumber" : {
     "@id" : "http://dbpedia.org/ontology/ecNumber"
@@ -326,7 +329,8 @@
   },
   "broaderTransitive" : {
     "@id" : "http://www.w3.org/2004/02/skos/core#broaderTransitive",
-    "@type" : "@id"
+    "@type" : "@id",
+    "@container": "@set"
   },
   "broadMatch" : {
     "@id" : "http://www.w3.org/2004/02/skos/core#broadMatch",
@@ -334,15 +338,18 @@
   },
   "closeMatch" : {
     "@id" : "http://www.w3.org/2004/02/skos/core#closeMatch",
-    "@type" : "@id"
+    "@type" : "@id",
+    "@container": "@set"
   },
   "exactMatch" : {
     "@id" : "http://www.w3.org/2004/02/skos/core#exactMatch",
-    "@type" : "@id"
+    "@type" : "@id",
+    "@container": "@set"
   },
   "mappingRelation" : {
     "@id" : "http://www.w3.org/2004/02/skos/core#mappingRelation",
-    "@type" : "@id"
+    "@type" : "@id",
+    "@container": "@set"
   },
   "broader" : {
     "@id" : "http://www.w3.org/2004/02/skos/core#broader",
@@ -350,19 +357,23 @@
   },
   "narrower" : {
     "@id" : "http://www.w3.org/2004/02/skos/core#narrower",
-    "@type" : "@id"
+    "@type" : "@id",
+    "@container": "@set"
   },
   "narrowerTransitive" : {
     "@id" : "http://www.w3.org/2004/02/skos/core#narrowerTransitive",
-    "@type" : "@id"
+    "@type" : "@id",
+    "@container": "@set"
   },
   "narrowMatch" : {
     "@id" : "http://www.w3.org/2004/02/skos/core#narrowMatch",
-    "@type" : "@id"
+    "@type" : "@id",
+    "@container": "@set"
   },
   "semanticRelation" : {
     "@id" : "http://www.w3.org/2004/02/skos/core#semanticRelation",
-    "@type" : "@id"
+    "@type" : "@id",
+    "@container": "@set"
   },
   "belongsTo" : {
     "@id" : "http://rdf-vocabulary.ddialliance.org/xkos#belongsTo",
@@ -398,7 +409,8 @@
   },
   "altLabel_en" : {
     "@id" : "http://www.w3.org/2004/02/skos/core#altLabel",
-    "@language" : "en"
+    "@language" : "en",
+    "@container": "@set"
   },
   "inchi" : {
     "@id" : "http://dbpedia.org/ontology/inchi"
