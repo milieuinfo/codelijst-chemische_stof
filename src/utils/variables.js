@@ -2,6 +2,8 @@
 import yaml from 'js-yaml';
 import fs, {readFileSync} from "fs";
 import rdf from "@zazuko/env-node";
+import {metadataOptions, shapes_dcat, dcat_rules, frame_catalog} from "@milieuinfo/maven-metadata-generator-npm/src/utils/variables.js";
+
 
 const config = yaml.load(fs.readFileSync('./source/config.yml', 'utf8'));
 
@@ -42,7 +44,7 @@ const prefixes_chebi = {
 
 const frame_skos_prefixes = {
     "@context": context_prefixes,
-    "@type": ["rdfs:Resource", "skos:ConceptScheme", "skos:Collection", "skos:Concept"],
+    "@type": ["rdfs:Resource", "skos:ConceptScheme", "skos:Concept", "http://qudt.org/schema/qudt/QuantityKind"],
     "member": {
         "@type": "skos:Concept",
         "@embed": "@never",
@@ -59,7 +61,6 @@ const frame_skos_prefixes = {
         "@omitDefault": true
     },
     "broader": {
-        "@type": "skos:Concept",
         "@embed": "@never",
         "@omitDefault": true
     },
@@ -215,9 +216,29 @@ const frame_skos_no_prefixes = {
 
 }
 
-const ttl = config.skos.path + config.skos.name + '/' + config.skos.name + config.skos.turtle
 
-const nt = config.skos.path + config.skos.name + '/' + config.skos.name + config.skos.nt
+
+const xsdOptions = {"file": config.skos.path + config.skos.name + '/' + config.skos.name + config.skos.xsd, "urn": ('urn:' + metadataOptions.groupId + ':' + metadataOptions.artifactId)}
+
+const turtlePath = config.skos.path + config.skos.name + '/' + config.skos.name + config.skos.turtle
+
+const ntriplesPath = config.skos.path + config.skos.name + '/' + config.skos.name + config.skos.nt
+
+const jsonldOptions = {"file": config.skos.path + config.skos.name + '/' + config.skos.name + config.skos.jsonld, "frame": frame_skos_prefixes}
+
+const csvOptions = {"file": config.skos.path + config.skos.name + '/' + config.skos.name + config.skos.csv, "frame": frame_skos_no_prefixes}
+
+const jsonOptions = {"file": config.skos.path + config.skos.name + '/' + config.skos.name + config.skos.json, "frame": frame_skos_no_prefixes}
+
+const parquetOptions = {"file": config.skos.path + config.skos.name + '/' + config.skos.name + config.skos.parquet, "frame": frame_skos_no_prefixes}
+
+const excelOptions = {"file": config.skos.path + config.skos.name + '/' + config.skos.name + config.skos.xlsx,
+    "sourcefile": config.skos.path + config.skos.name + '/' + config.skos.name + config.skos.csv,
+    "sheetName": config.types}
+
+const skos_prefixes = Object.assign( {}, config.skos.prefixes, config.prefixes, { '@base' : config.skos.prefixes.concept })
+
+const skos_context = JSON.parse(readFileSync(config.source.path + config.source.context));
 
 const jsonld = [config.skos.path + config.skos.name + '/' + config.skos.name + config.skos.jsonld, frame_skos_prefixes]
 
@@ -239,22 +260,76 @@ const shapes_skos = await rdf.dataset().import(rdf.fromFile(config.ap.path + con
 
 const shapes_skos_chebi = await rdf.dataset().import(rdf.fromFile(config.ap.path + config.ap.name + '-' + config.ap.type + '/' + config.ap.name + '_chebi-' + config.ap.type + config.ap.turtle))
 
+
+const dcat_dataset_jsonld = '../temp/' + config.dcat.path_dataset + metadataOptions.artifactId + '/' + config.dcat.dataset_jsonld
+
+const dcat_dataset_turtle = '../temp/' + config.dcat.path_dataset + metadataOptions.artifactId + '/' + config.dcat.dataset_turtle
+
+const dcat_catalog_jsonld = '../temp/' + config.dcat.path_catalog + metadataOptions.artifactId + '/' + config.dcat.catalog_jsonld
+
+const dcat_catalog_turtle = '../temp/' + config.dcat.path_catalog + metadataOptions.artifactId + '/' + config.dcat.catalog_turtle
+
+const datasetOptions = {
+    "turtlePath": dcat_dataset_turtle,
+    "jsonldOptions": {"file": dcat_dataset_jsonld, "frame": frame_catalog}
+}
+
+const catalogOptions = {
+    "turtlePath": dcat_catalog_turtle,
+    "jsonldOptions": {"file": dcat_catalog_jsonld, "frame": frame_catalog}
+}
+
+const skosOptions = {
+    "turtlePath": turtlePath,
+    "jsonOptions": jsonOptions,
+    "jsonldOptions": jsonldOptions,
+    "ntriplesPath": ntriplesPath,
+    "csvOptions": csvOptions,
+    "parquetOptions": parquetOptions,
+    "excelOptions": excelOptions,
+    //"xsdOptions": xsdOptions
+}
+
+const skosSource = {
+    "sourcePath": config.source.path + config.source.codelijst_csv,
+    "contextPrefixes": Object.assign({},skos_context , skos_prefixes),
+    "rules": config.skos.rules,
+    "shapesDataset": await rdf.dataset().import(rdf.fromFile(config.ap.path + config.ap.name + '-' + config.ap.type + '/' + config.ap.name + '-' + config.ap.type + config.ap.turtle)),
+    "prefixes": Object.assign( {}, config.skos.prefixes, config.prefixes)
+}
+
+const metadataSource = {
+    "shapesDataset": shapes_dcat,
+    "rules": dcat_rules,
+    "prefixes": config.prefixes
+}
+
+
 export {
-    chemont_tax_jsonld,
-    chemont_tax_ttl,
-    shapes_skos,
-    prefixes_chebi,
-    frame_chebi,
-    config,
-    ttl,
-    nt,
-    jsonld,
-    csv,
-    chemont_jsonld,
-    chemont_ttl,
-    chebi_jsonld,
-    chebi_ttl,
-    context_extra,
-    shapes_skos_chebi,
-    virtuoso
+    virtuoso,
+    skosOptions,
+    skosSource,
+    metadataSource,
+    metadataOptions,
+    datasetOptions,
+    catalogOptions
 };
+// export {
+//     chemont_tax_jsonld,
+//     chemont_tax_ttl,
+//     shapes_skos,
+//     prefixes_chebi,
+//     frame_chebi,
+//     config,
+//     ttl,
+//     nt,
+//     jsonld,
+//     csv,
+//     chemont_jsonld,
+//     chemont_ttl,
+//     chebi_jsonld,
+//     chebi_ttl,
+//     context_extra,
+//     shapes_skos_chebi,
+//     virtuoso
+// };

@@ -6,10 +6,10 @@ skos:
     chemont_xkos : ./source/sparql/chemont_to_xkos.rq
     chebi_skos : ./source/sparql/chebi_to_skos.rq
   rules :
-    skos_rules : /../node_modules/maven-metadata-generator-npm/src/n3/skos-rules.n3
-    oa_rules : /../node_modules/maven-metadata-generator-npm/src/n3/oa-rules.n3
-    dcterms_rules : /../node_modules/maven-metadata-generator-npm/src/n3/dcterms-rules.n3
-    dbpedia_rules : /../node_modules/maven-metadata-generator-npm/src/n3/dbpedia-rules.n3
+    skos_rules : /../node_modules/@milieuinfo/maven-metadata-generator-npm/src/n3/skos-rules.n3
+    oa_rules : /../node_modules/@milieuinfo/maven-metadata-generator-npm/src/n3/oa-rules.n3
+    dcterms_rules : /../node_modules/@milieuinfo/maven-metadata-generator-npm/src/n3/dcterms-rules.n3
+    dbpedia_rules : /../node_modules/@milieuinfo/maven-metadata-generator-npm/src/n3/dbpedia-rules.n3
     concepten_extra_rules : /n3/concepten_extra_rules.n3
   prefixes :
     concept : https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/
@@ -21,8 +21,10 @@ skos:
   turtle: .ttl
   jsonld: .jsonld
   csv: .csv
-#  xlsx: .xlsx
+  json: .json
+  xlsx: .xlsx
   nt: .nt
+  parquet: .parquet
 
 source:
   chemont: ./source/chemont/ChemOnt_2_1.ttl
@@ -48,7 +50,10 @@ ap :
   chemont: ./main/resources/be/vlaanderen/omgeving/data/id/ontology/chemische_stof-ap-constraints/chemische_stof_chemont-ap-constraints.ttl
 
 metadata :
+  start_version : 4.0.0
   sparqlservice:
+    title: "Sparql service op endpoint https://data.omgeving.vlaanderen.be/sparql"
+    description: "Een beschrijving van de sparql service, met de verschillende kenmerken."
     endpoint: https://data.omgeving.vlaanderen.be/sparql
     feature:
       - http://www.w3.org/ns/sparql-service-description#DereferencesURIs
@@ -71,7 +76,7 @@ metadata :
       hasEmail: mailto:help@omgevingvlaanderen.be
     license : http://data.vlaanderen.be/id/licentie/modellicentie-gratis-hergebruik/v1.0
     publisher : http://data.vlaanderen.be/id/organisatie/OVO003323
-    rightsHolder :  http://data.vlaanderen.be/id/organisatie/OVO003751
+    rightsHolder :  http://data.vlaanderen.be/id/organisatie/OVO003323
     theme :
       - http://eurovoc.europa.eu/2407
       - http://publications.europa.eu/resource/authority/data-theme/ENVI
@@ -85,16 +90,22 @@ metadata :
     dct.language : http://publications.europa.eu/resource/authority/language/NLD
     landingPage  : https://data.omgeving.vlaanderen.be/doc/catalog/codelijst.html
   catalog :
+    title: "Catalogus van datasets van codelijsten."
+    description: "Catalogus van datasets van codelijsten die onder het domein data.omgeving.vlaanderen.be gepubliceerd worden."
     uri : https://data.omgeving.vlaanderen.be/id/catalog/codelijst
     type: http://www.w3.org/ns/dcat#Catalog
   dataset :
     temporal : https://data.omgeving.vlaanderen.be/id/periodoftime/dataset_omg
     type : http://www.w3.org/ns/dcat#Dataset
   distribution :
-#    xlsx:
-#      mediaType: https://www.iana.org/assignments/media-types/application/vnd.openxmlformats-officedocument.spreadsheetml.sheet
-#      format: http://publications.europa.eu/resource/authority/file-type/XLSX
-#      type: http://www.w3.org/ns/dcat#Distribution
+    parquet:
+      mediaType: https://www.iana.org/assignments/media-types/application/vnd.apache.parquet
+      format: http://publications.europa.eu/resource/authority/file-type/PARQUET
+      type: http://www.w3.org/ns/dcat#Distribution
+    xlsx:
+      mediaType: https://www.iana.org/assignments/media-types/application/vnd.openxmlformats-officedocument.spreadsheetml.sheet
+      format: http://publications.europa.eu/resource/authority/file-type/XLSX
+      type: http://www.w3.org/ns/dcat#Distribution
     csv :
       mediaType : https://www.iana.org/assignments/media-types/text/csv
       format : http://publications.europa.eu/resource/authority/file-type/CSV
