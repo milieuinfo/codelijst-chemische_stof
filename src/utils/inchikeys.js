@@ -3,25 +3,26 @@ import {
     config
 } from './variables.js';
 
+const INCHIKEY = /^[A-Z]{14}-[A-Z]{10}-[A-Z]$/;
+
+/**
+ * Alle InChIKeys (kolom uri_inchikey) uit de codelijst-CSV's in config.source.codelijst_csv.
+ * @returns {Promise<string[]>}
+ */
 async function inchikeys_from_csv() {
     console.log("inchikeys_from_csv");
-    var inchikeys = [];
-    var re = new RegExp("^..............-..........-.$");
-    await csv({
-        ignoreEmpty:true,
-        flatKeys:true
-    })
-        .fromFile(config.source.path + config.source.codelijst_csv)
-        .then((jsonObj)=>{
-            for(var i = 0; i < jsonObj.length; i++){
-                Object.keys(jsonObj[i]).forEach(function(key) {
-                    if (key === 'uri_inchikey' && re.test(jsonObj[i][key])  ) {
-                        inchikeys.push(jsonObj[i][key])
-                    }
-                })
+    const files = [].concat(config.source.codelijst_csv);
+    const inchikeys = new Set();
+    for (const file of files) {
+        const rows = await csv({ ignoreEmpty: true, flatKeys: true }).fromFile(config.source.path + file);
+        for (const row of rows) {
+            const key = (row.uri_inchikey ?? '').trim();
+            if (INCHIKEY.test(key)) {
+                inchikeys.add(key);
             }
-        })
-    return inchikeys
+        }
+    }
+    return [...inchikeys];
 }
 
 function clean_inchikey(key, value) {

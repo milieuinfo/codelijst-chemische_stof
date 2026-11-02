@@ -109,11 +109,16 @@ ons:chemische_stof
     sh:description   "Een stof is in de scheikunde een vorm van materie die een gelijke chemische samenstelling heeft, een chemisch zuivere stof. Deze wordt gekenmerkt door specifieke, uniforme stofeigenschappen, zoals dichtheid, geleidbaarheid en smeltpunt."@en ;
     rdfs:comment     "De uniciteit van een chemische stof wordt bepaald door haar IUPAC-naam. InChI's kunnen gezien worden als verkorte, geformaliseerde versies van de IUPAC-namen van stoffen. InChIKey is een formaat met een vaste lengte dat direct is afgeleid van een InChI. De URI van de chemische stoffen is gebaseerd op de InChIKey."@en ;
     rdfs:isDefinedBy omg_ont:chemische-stof-ap-constraints, omg_voc:chemische-stof-ap-constraints ;
-    sh:property      omg_ps:rdf_type, omg_ps:chemische_stof_seeAlso, omg_ps:min_1_inchi, omg_ps:chemische_stof_casNumber,
-                     omg_ps:chemische_stof_notation, omg_ps:min_1_smiles, omg_ps:narrowertransitive, omg_ps:chemische_stof_narrower,
-                     omg_ps:chemische_stof_iupacName, omg_ps:chemische_stof_exactMatch, omg_ps:chemische_stof_inScheme,
+    # inchi, smiles, formula en inchikey zijn optioneel: de codelijst-CSV levert ze niet aan
+    # (ze staan in de aparte chemont/chebi-verrijking). De inchikey zit wel in de URI van de stof.
+    # iupacName is optioneel: PubChem heeft er geen voor veel anorganische stoffen en legeringen.
+    sh:property      omg_ps:rdf_type, omg_ps:chemische_stof_seeAlso, omg_ps:inchi, omg_ps:chemische_stof_casNumber,
+                     omg_ps:chemische_stof_notation, omg_ps:smiles, omg_ps:narrowertransitive, omg_ps:chemische_stof_narrower,
+                     omg_ps:iupacName, omg_ps:chemische_stof_exactMatch, omg_ps:chemische_stof_inScheme,
                      omg_ps:chemische_stof_comment, omg_ps:chemische_stof_definition, omg_ps:note,
-                     omg_ps:altLabel, omg_ps:chemische_stof_formula, omg_ps:chemische_stof_prefLabel,
+                     omg_ps:altLabel, omg_ps:formula, omg_ps:chemische_stof_prefLabel,
+                     omg_ps:ecNumber,
+                     omg_ps:source,
                      omg_ps:exactMatch,
                      omg_ps:mappingRelation,
                      omg_ps:closeMatch,
@@ -121,7 +126,7 @@ ons:chemische_stof
                      omg_ps:relation,
                      omg_ps:dc_relation,
                      omg_ps:semanticRelation,
-                     omg_ps:min_1_inchikey,  omg_ps:pubchem , omg_ps:broader, omg_ps:broadertransitive;
+                     omg_ps:inchikey,  omg_ps:pubchem , omg_ps:broader, omg_ps:broadertransitive;
     sh:closed true ;
     sh:targetClass   dbo:ChemicalSubstance . #, dbo:ChemicalCompound . #skos:Concept
     #sh:target ons:ChemicalSubstance_ChemicalCompound_Concept .
@@ -144,6 +149,8 @@ ons:categorie
                      omg_ps:note,
                      omg_ps:pubchem,
                      omg_ps:casNumber,
+                     omg_ps:ecNumber,
+                     omg_ps:source,
                      omg_ps:iupacName,
                      omg_ps:inchi,
                      omg_ps:mappingRelation,
@@ -524,13 +531,32 @@ omg_ps:pubchem
     a                sh:PropertyShape ;
     rdfs:label       "pubchem"@en ;
     sh:name          "pubchem"@en ;
-    sh:description   "Verwijst binnen deze stoffenlijst naar de PubChem CID, de unieke 'compound identifier' van PubChem. PubChem is een databank van chemische molecules en hun bio-assays."@en ;
+    sh:description   "Verwijst binnen deze stoffenlijst naar de PubChem-records van de stof: een compound (CID) of een substance (SID). PubChem is een databank van chemische molecules en hun bio-assays. Een stof kan naar meerdere PubChem-records verwijzen."@en ;
     rdfs:isDefinedBy omg_ont:chemische-stof-ap-constraints, omg_voc:chemische-stof-ap-constraints ;
-    sh:datatype      xsd:int ;
-    sh:maxCount      1 ;
     sh:property      omg_ps:chemische_stof_unique_pubchem ;
-    sh:nodeKind      sh:Literal ;
+    sh:nodeKind      sh:IRI ;
+    sh:pattern       "^http://rdf\\.ncbi\\.nlm\\.nih\\.gov/pubchem/(compound/CID|substance/SID)[0-9]+$" ;
     sh:path          dbo:pubchem .
+
+omg_ps:ecNumber
+    a                sh:PropertyShape ;
+    rdfs:label       "EC-nummer"@en ;
+    sh:name          "EC-nummer"@en ;
+    sh:description   "Het EC-nummer (European Community number) is de identifier van een stof in de Europese stoffeninventaris (EINECS, ELINCS of NLP), van de vorm xxx-xxx-x."@en ;
+    rdfs:isDefinedBy omg_ont:chemische-stof-ap-constraints, omg_voc:chemische-stof-ap-constraints ;
+    sh:datatype      xsd:string ;
+    sh:nodeKind      sh:Literal ;
+    sh:pattern       "^[0-9]{3}-[0-9]{3}-[0-9]$" ;
+    sh:path          dbo:ecNumber .
+
+omg_ps:source
+    a                sh:PropertyShape ;
+    rdfs:label       "bron"@en ;
+    sh:name          "bron"@en ;
+    sh:description   "Een gerelateerde bron waaruit de stof is afgeleid, bv. de lijst van zorgwekkende stoffen."@en ;
+    rdfs:isDefinedBy omg_ont:chemische-stof-ap-constraints, omg_voc:chemische-stof-ap-constraints ;
+    sh:nodeKind      sh:IRI ;
+    sh:path          dct:source .
 
 
 omg_ps:chemische_stof_unique_pubchem
@@ -674,11 +700,12 @@ omg_ps:chemische_stof_prefLabel
     a                sh:PropertyShape ;
     rdfs:label       "voorkeurslabel"@en ;
     sh:name          "voorkeurslabel"@en ;
-    sh:description   "Het voorkeurslabel in de Nederlandse taal. Slechts 1 voorkeurslabel is toegelaten."@en ;
+    sh:description   "Het voorkeurslabel in het Nederlands en/of het Engels. Minstens 1 voorkeurslabel, en maximaal 1 per taal."@en ;
     rdfs:isDefinedBy omg_ont:chemische-stof-ap-constraints, omg_voc:chemische-stof-ap-constraints ;
     sh:datatype      rdf:langString ;
-    sh:languageIn    ( "nl" ) ;
-    sh:maxCount      1 ;
+    sh:languageIn    ( "nl" "en" ) ;
+    sh:uniqueLang    true ;
+    sh:maxCount      2 ;
     sh:minCount      1 ;
     sh:nodeKind      sh:Literal ;
     sh:path          skos:prefLabel .
@@ -687,11 +714,12 @@ omg_ps:categorie_prefLabel
     a                sh:PropertyShape ;
     rdfs:label       "voorkeurslabel"@en ;
     sh:name          "voorkeurslabel"@en ;
-    sh:description   "Het voorkeurslabel in de engelse taal. Slechts 1 voorkeurslabel is toegelaten."@en ;
+    sh:description   "Het voorkeurslabel in het Engels en/of het Nederlands. Maximaal 1 voorkeurslabel per taal."@en ;
     rdfs:isDefinedBy omg_ont:chemische-stof-ap-constraints, omg_voc:chemische-stof-ap-constraints ;
     sh:datatype      rdf:langString ;
     sh:languageIn    ( "en" "nl" ) ;
-    sh:maxCount      1 ;
+    sh:uniqueLang    true ;
+    sh:maxCount      2 ;
 
     sh:nodeKind      sh:Literal ;
     sh:path          skos:prefLabel .

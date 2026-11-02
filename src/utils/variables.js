@@ -42,9 +42,30 @@ const prefixes_chebi = {
     }
 }
 
-const frame_skos_prefixes = {
+// Elke property die naar een IRI verwijst (@type: @id in context.json) krijgt "@embed": "@never",
+// zodat de frames nooit nodes nesten. Expliciet opgegeven property-frames in de frame zelf
+// (bv. met een extra @type-filter) gaan voor.
+const embedNever = { "@embed": "@never", "@omitDefault": true };
+const iriTerms = Object.entries(context)
+    .filter(([term, def]) => typeof def === "object" && def["@type"] === "@id"
+        && typeof def["@id"] === "string" && !def["@id"].startsWith("@"))
+    .map(([term]) => term);
+const withEmbedNever = (frame) => Object.assign(
+    Object.fromEntries(iriTerms.map(term => [term, { ...embedNever }])),
+    frame
+);
+
+const frame_skos_prefixes = withEmbedNever({
     "@context": context_prefixes,
     "@type": ["rdfs:Resource", "skos:ConceptScheme", "skos:Concept", "http://qudt.org/schema/qudt/QuantityKind"],
+    "pubchem": {
+        "@embed": "@never",
+        "@omitDefault": true
+    },
+    "source": {
+        "@embed": "@never",
+        "@omitDefault": true
+    },
     "member": {
         "@type": "skos:Concept",
         "@embed": "@never",
@@ -119,15 +140,23 @@ const frame_skos_prefixes = {
         "@omitDefault": true
     },
 
-}
+})
 const frame_chebi = {
     "@context": context_extra,
     "@type": ["http://www.w3.org/2004/02/skos/core#Concept"]
 }
 
-const frame_skos_no_prefixes = {
+const frame_skos_no_prefixes = withEmbedNever({
     "@context": context,
     "@type": ["http://www.w3.org/2004/02/skos/core#ConceptScheme", "http://www.w3.org/2004/02/skos/core#Collection", "http://www.w3.org/2004/02/skos/core#Concept"],
+    "pubchem": {
+        "@embed": "@never",
+        "@omitDefault": true
+    },
+    "source": {
+        "@embed": "@never",
+        "@omitDefault": true
+    },
     "member": {
         "@type": "http://www.w3.org/2004/02/skos/core#Concept",
         "@embed": "@never",
@@ -214,11 +243,9 @@ const frame_skos_no_prefixes = {
         "@omitDefault": true
     },
 
-}
+})
 
 
-
-const xsdOptions = {"file": config.skos.path + config.skos.name + '/' + config.skos.name + config.skos.xsd, "urn": ('urn:' + metadataOptions.groupId + ':' + metadataOptions.artifactId)}
 
 const turtlePath = config.skos.path + config.skos.name + '/' + config.skos.name + config.skos.turtle
 
@@ -231,10 +258,6 @@ const csvOptions = {"file": config.skos.path + config.skos.name + '/' + config.s
 const jsonOptions = {"file": config.skos.path + config.skos.name + '/' + config.skos.name + config.skos.json, "frame": frame_skos_no_prefixes}
 
 const parquetOptions = {"file": config.skos.path + config.skos.name + '/' + config.skos.name + config.skos.parquet, "frame": frame_skos_no_prefixes}
-
-const excelOptions = {"file": config.skos.path + config.skos.name + '/' + config.skos.name + config.skos.xlsx,
-    "sourcefile": config.skos.path + config.skos.name + '/' + config.skos.name + config.skos.csv,
-    "sheetName": config.types}
 
 const skos_prefixes = Object.assign( {}, config.skos.prefixes, config.prefixes, { '@base' : config.skos.prefixes.concept })
 
@@ -286,12 +309,11 @@ const skosOptions = {
     "ntriplesPath": ntriplesPath,
     "csvOptions": csvOptions,
     "parquetOptions": parquetOptions,
-    "excelOptions": excelOptions,
     //"xsdOptions": xsdOptions
 }
 
 const skosSource = {
-    "sourcePath": config.source.path + config.source.codelijst_csv,
+    "sourcePaths": config.source.codelijst_csv.map(csv => config.source.path + csv),
     "contextPrefixes": Object.assign({},skos_context , skos_prefixes),
     "rules": config.skos.rules,
     "shapesDataset": await rdf.dataset().import(rdf.fromFile(config.ap.path + config.ap.name + '-' + config.ap.type + '/' + config.ap.name + '-' + config.ap.type + config.ap.turtle)),
@@ -304,6 +326,33 @@ const metadataSource = {
     "prefixes": config.prefixes
 }
 
+// Verrijking: ChemOnt-taxonomie (classyfire) en ChEBI, als aparte bestanden naast de codelijst.
+const enrichmentPrefixes = Object.assign({}, config.skos.prefixes, config.prefixes)
+
+const chemontSource = {
+    "shapesDataset": await rdf.dataset().import(rdf.fromFile(config.ap.chemont)),
+    "prefixes": enrichmentPrefixes
+}
+
+const chebiSource = {
+    "shapesDataset": shapes_skos_chebi,
+    "prefixes": enrichmentPrefixes
+}
+
+const chemontTaxonomyOptions = {
+    "turtlePath": chemont_tax_ttl,
+    "jsonldOptions": {"file": chemont_tax_jsonld[0], "frame": frame_skos_prefixes}
+}
+
+const chemontLevelsOptions = {
+    "turtlePath": chemont_ttl
+}
+
+const chebiOptions = {
+    "turtlePath": chebi_ttl,
+    "jsonldOptions": {"file": chebi_jsonld[0], "frame": frame_skos_prefixes}
+}
+
 
 export {
     virtuoso,
@@ -312,7 +361,15 @@ export {
     metadataSource,
     metadataOptions,
     datasetOptions,
-    catalogOptions
+    catalogOptions,
+    config,
+    context_extra,
+    frame_chebi,
+    chemontSource,
+    chemontTaxonomyOptions,
+    chemontLevelsOptions,
+    chebiSource,
+    chebiOptions
 };
 // export {
 //     chemont_tax_jsonld,

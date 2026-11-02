@@ -1,3 +1,13 @@
-import { create_metadata } from 'maven-metadata-generator-npm';
-//console.log = function() {}
-create_metadata()
+import { create_metadata } from '@milieuinfo/maven-metadata-generator-npm';
+import {
+    metadataSource,
+    metadataOptions,
+    datasetOptions,
+    catalogOptions
+} from './utils/variables.js';
+
+create_metadata(
+    metadataSource,
+    metadataOptions,
+    datasetOptions,
+    catalogOptions)

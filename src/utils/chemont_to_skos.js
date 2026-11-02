@@ -1,192 +1,135 @@
-import fs from 'fs-extra';
-import request from 'request';
-import { inchikeys_from_csv , clean_inchikey } from './inchikeys.js'
-import {n3_reasoning, output} from "maven-metadata-generator-npm";
-import {readFileSync} from "fs";
-import rdf from "@zazuko/env-node";
-import { QueryEngine } from "@comunica/query-sparql-rdfjs";
-import { RdfStore } from "rdf-stores";
+import fs from 'fs';
 import N3 from 'n3';
-import {RoxiReasoner} from "roxi-js";
-
-
+import jsonld from 'jsonld';
+import rdf from '@zazuko/env-node';
+import { QueryEngine } from '@comunica/query-sparql-rdfjs';
+import { RdfStore } from 'rdf-stores';
+import { output } from '@milieuinfo/maven-metadata-generator-npm';
+import { sortLines } from '@milieuinfo/maven-metadata-generator-npm/src/utils/functions.js';
+import eyeling from 'eyeling';
+import { inchikeys_from_csv, clean_inchikey } from './inchikeys.js';
 import {
     config,
     context_extra,
-    shapes_skos,
-    chemont_jsonld,
-    chemont_ttl,
-    chemont_tax_jsonld,
-    chemont_tax_ttl
+    chemontSource,
+    chemontTaxonomyOptions,
+    chemontLevelsOptions
 } from './variables.js';
-import path from "path";
-//import {artifactId} from "maven-metadata-generator-npm/src/utils/variables";
-import jsonld from "jsonld";
 
+const ENTITIES_DIR = './source/chemont/entities/';
+const ENTITY_ENDPOINT = 'https://cfb.fiehnlab.ucdavis.edu/entities/';
+const delay = ms => new Promise(resolve => setTimeout(resolve, ms));
 
-async function write_json(json, filepath) {
-    try {
-        await fs.writeFile(filepath, JSON.stringify(json, null, 4))
-        console.log('success!')
-    } catch (err) {
-        console.error(err)
-    }
+function writeJson(json, filepath) {
+    fs.mkdirSync(filepath.substring(0, filepath.lastIndexOf('/')), { recursive: true });
+    fs.writeFileSync(filepath, JSON.stringify(json, null, 4));
 }
 
-const sortLines = str => Array.from(new Set(str.split(/\r?\n/))).sort().join('\n'); // To sort the dump of the reasoner for turtle pretty printing. Easier than using the Sink or Store.
+function cleanEntity(entity) {
+    const object = {};
+    Object.keys(entity).forEach(key => { object[key] = clean_inchikey(key, entity[key]); });
+    return object;
+}
 
+/**
+ * Classyfire-classificatie (ouders in ChemOnt) per InChIKey. Gebruikt de cache in
+ * source/chemont/entities/ en haalt ontbrekende stoffen op bij de classyfire entity-service.
+ */
 async function resolve_parent_from_inchikey(inchikeys) {
-    var new_json = new Array();
-    let endpoint = "https://cfb.fiehnlab.ucdavis.edu/entities/";
+    const entities = [];
+    let fetched = 0, failed = 0;
     for (const inchikey of inchikeys) {
-        const url = new URL(inchikey, endpoint).href
-        let options = {json: true};
-        const json_file = './source/chemont/entities/' + inchikey + '.json'
-        if (fs.existsSync(json_file)) {
-            const my_json = JSON.parse(readFileSync(json_file))
-            const object = {};
-            Object.keys(my_json).forEach(function(key) {
-                object[key] = clean_inchikey(key, my_json[key]);
-            })
-            new_json.push(object)
+        const jsonFile = ENTITIES_DIR + inchikey + '.json';
+        if (fs.existsSync(jsonFile)) {
+            entities.push(cleanEntity(JSON.parse(fs.readFileSync(jsonFile, 'utf8'))));
+            continue;
         }
-        else {
-            const delay = ms => new Promise(resolve => setTimeout(resolve, ms))
-            await delay(5000)
-            request(url, options, (error, res, body) => {
-                if (error) {
-                    console.log(error)
-                }
-                ;
-                if (!error && res.statusCode == 200) {
-
-                    write_json(body, json_file);
-                    const object = {};
-                    Object.keys(body).forEach(function(key) {
-                        object[key] = clean_inchikey(key, body[key]);
-                    })
-                    new_json.push(object)
-                }
-                else {
-                    write_json(body, './source/chemont/entities/error/' + inchikey + '.json');
-                }
-            });
+        await delay(5000); // de service niet overbelasten
+        try {
+            const res = await fetch(new URL(inchikey, ENTITY_ENDPOINT));
+            const body = await res.json().catch(() => ({ status: res.status }));
+            if (res.ok) {
+                writeJson(body, jsonFile);
+                entities.push(cleanEntity(body));
+                fetched++;
+            } else {
+                writeJson(body, ENTITIES_DIR + 'error/' + inchikey + '.json');
+                failed++;
+            }
+        } catch (err) {
+            writeJson({ inchikey, error: err.message }, ENTITIES_DIR + 'error/' + inchikey + '.json');
+            failed++;
         }
     }
-    return {"@graph": new_json, "@context": context_extra}
+    console.log(`chemont: ${entities.length} stoffen geclassificeerd (${fetched} nieuw opgehaald, ${failed} niet gevonden)`);
+    return { "@graph": entities, "@context": context_extra };
 }
 
+async function constructNt(query, store) {
+    const quads = await (await new QueryEngine().queryQuads(query, { sources: [store] })).toArray();
+    return new N3.Writer({ format: 'N-Triples' }).quadsToString(quads);
+}
 
-
-async function chemont_taxonomy_to_skos(){
-    const chemont = await rdf.dataset().import(rdf.fromFile(config.source.chemont))
+function storeFromNt(nt) {
     const store = RdfStore.createDefault();
-    chemont._quads.forEach(async (quad) => {
-        store.addQuad(quad)
-    });
-    const myEngine = new QueryEngine();
-    var query = fs.readFileSync(config.skos.sparql.chemont_skos, 'utf8')
-    const nt_writer = new N3.Writer({ format: 'N-Triples' });
-    const ttl_writer = new N3.Writer({ format: 'text/turtle' , prefixes: Object.assign({},config.skos.prefixes, config.prefixes ) });
-    const quadStream = await myEngine.queryQuads(query, { sources: [store] });
-    quadStream.on('data', (quad) => {
-        ttl_writer.addQuad(quad);
-        nt_writer.addQuad(quad);
-    });
-    quadStream.on('end', () => {
-        nt_writer.end((error, result) => merge_taxonomy_and_parents(result));
-        ttl_writer.end((error, result) => fs.writeFileSync(config.source.chemont_skos, result));
-    });
+    new N3.Parser({ format: 'N-Triples' }).parse(nt).forEach(quad => store.addQuad(quad));
+    return store;
 }
 
-
-async function merge_taxonomy_and_parents(chemont_taxonomy) {
-    console.log('Merge turtle files to one n-triple file')
-    const inchikeys = await inchikeys_from_csv()
-    const json_ld = await resolve_parent_from_inchikey(inchikeys)
-    const parents = await jsonld.toRDF(json_ld, { format: "application/n-quads" })
-    const reasoner = RoxiReasoner.new();
-    const rdf = await sortLines(chemont_taxonomy + '\n' + parents);
-    reasoner.add_abox(rdf);
-    const tax_p = await sortLines(reasoner.get_abox_dump())
-    const merged_chemont_taxonomy_parents_store = RdfStore.createDefault();
-    const parser = new N3.Parser();
-    //const ttl_writer = new N3.Writer({ format: 'text/turtle' , prefixes: Object.assign({},config.skos.prefixes, config.prefixes ) });
-    parser.parse(tax_p,
-        (error, quad, prefixes) => {
-            if (quad){
-                merged_chemont_taxonomy_parents_store.addQuad(quad);
-                //ttl_writer.addQuad(quad);
-            }
-            else {
-                only_broader(merged_chemont_taxonomy_parents_store, parents)
-                //ttl_writer.end((error, result) => fs.writeFileSync('/tmp/merge.ttl', result));
-            }
-        });
-}
-
-async function only_broader(store, parents){
-    const myEngine = new QueryEngine();
-    var query = fs.readFileSync(config.skos.sparql.broader_skos, 'utf8')
-    const nt_writer = new N3.Writer({ format: 'N-Triples' });
-    const quadStream = await myEngine.queryQuads(query, { sources: [store] });
-    //const ttl_writer = new N3.Writer({ format: 'text/turtle' , prefixes: Object.assign({},config.skos.prefixes, config.prefixes ) });
-    quadStream.on('data', (quad) => {
-        nt_writer.addQuad(quad);
-        //ttl_writer.addQuad(quad);
-    });
-    quadStream.on('end', () => {
-        nt_writer.end((error, result) => reason_taxonomy(result, parents));
-        //ttl_writer.end((error, result) => fs.writeFileSync('/tmp/broader.ttl', result));
-    });
-}
-async function reason_taxonomy(my_taxonomy,parents) {
-    console.log("n3 reasoning ");
-    const rdf = await sortLines(my_taxonomy + '\n' + parents);
-    const reasoner = RoxiReasoner.new();
-    reasoner.add_abox(rdf);
-    for (let rule in config.skos.rules) {
-        reasoner.add_rules(fs.readFileSync(process.cwd() + config.skos.rules[rule], 'utf8'));
+/**
+ * Notation3-redenering (regels uit config.skos.rules) op N-Triples, met eyeling: dezelfde redeneerder en
+ * aanroep als n3_reasoning uit de library. Die verwacht echter JSON-LD, en de omzetting N-Triples ->
+ * JSON-LD -> N-Triples van de ~185.000 triples van de taxonomie duurt te lang; daarom roepen we eyeling
+ * rechtstreeks aan op de N-Triples. Enkel de regels uit de regelbestanden worden gebruikt.
+ */
+function reason(nt) {
+    const frules = [];
+    const brules = [];
+    for (const rule of Object.values(config.skos.rules)) {
+        const parsed = eyeling.parseN3Text(fs.readFileSync(process.cwd() + rule, 'utf8'));
+        frules.push(...parsed.frules);
+        brules.push(...parsed.brules);
     }
-    reasoner.materialize();
-    const nt = await sortLines(reasoner.get_abox_dump());
-    output(config.ap.chemont, nt, chemont_tax_ttl, chemont_tax_jsonld)
-    const store = RdfStore.createDefault();
-    const parser = new N3.Parser();
-    parser.parse(nt,
-        (error, quad, prefixes) => {
-            if (quad){
-                store.addQuad(quad);
-            }
-            else {
-                chemont_taxonomy_to_xkos(store)
-            }
-        });
+    const result = eyeling.reasonStream({ n3: nt, frules, brules }, { rdfjs: true });
+    return sortLines(new N3.Writer({ format: 'N-Triples' }).quadsToString(result.closureQuads));
 }
 
-async function chemont_taxonomy_to_xkos(store){
-    const myEngine = new QueryEngine();
-    var query = fs.readFileSync(config.skos.sparql.chemont_xkos, 'utf8')
-    const nt_writer = new N3.Writer({ format: 'N-Triples' });
-    const quadStream = await myEngine.queryQuads(query, { sources: [store] });
-    //const ttl_writer = new N3.Writer({ format: 'text/turtle' , prefixes: Object.assign({},config.skos.prefixes, config.prefixes ) });
-    quadStream.on('data', (quad) => {
-        nt_writer.addQuad(quad);
-        //ttl_writer.addQuad(quad);
-    });
-    quadStream.on('end', () => {
-        //ttl_writer.end((error, result) => fs.writeFileSync('/tmp/xkos.ttl', result));
-        nt_writer.end((error, result) => sort(result));
-    });
-}
+/**
+ * Bouwt de ChemOnt-taxonomie op voor de stoffen in de codelijst:
+ * 1. ChemOnt (OWL) naar SKOS (source/chemont/skos_chemont_2_1.ttl)
+ * 2. per stof de classyfire-ouders, en enkel de takken van de taxonomie die door stoffen gebruikt worden
+ * 3. redenering + validatie -> chemische_stof_chemont_taxonomy.ttl/.jsonld
+ * 4. classificatieniveaus (xkos) -> chemische_stof_chemont_classificationlevels.ttl
+ */
+async function chemont_taxonomy_to_skos() {
+    console.log('chemont: taxonomie naar skos');
+    const chemont = await rdf.dataset().import(rdf.fromFile(config.source.chemont));
+    const chemontStore = RdfStore.createDefault();
+    for (const quad of chemont) chemontStore.addQuad(quad);
+    const taxonomyNt = await constructNt(fs.readFileSync(config.skos.sparql.chemont_skos, 'utf8'), chemontStore);
+    const ttlWriter = new N3.Writer({ format: 'text/turtle', prefixes: chemontSource.prefixes });
+    ttlWriter.addQuads(new N3.Parser({ format: 'N-Triples' }).parse(taxonomyNt));
+    await new Promise((resolve, reject) => ttlWriter.end((err, result) => {
+        if (err) return reject(err);
+        fs.writeFileSync(config.source.chemont_skos, result);
+        resolve();
+    }));
 
-async function sort(rdf_input) {
-    let rdf = await sortLines( rdf_input )
-    fs.writeFileSync('/tmp/xkos.nt', rdf)
-    output(config.ap.chemont, rdf, chemont_ttl)
-}
+    console.log('chemont: ouders van de stoffen');
+    const inchikeys = await inchikeys_from_csv();
+    const parentsNt = await jsonld.toRDF(await resolve_parent_from_inchikey(inchikeys), { format: 'application/n-quads' });
 
+    console.log('chemont: enkel gebruikte takken van de taxonomie');
+    const mergedStore = storeFromNt(sortLines(taxonomyNt + '\n' + parentsNt));
+    const broaderNt = await constructNt(fs.readFileSync(config.skos.sparql.broader_skos, 'utf8'), mergedStore);
+
+    console.log('chemont: redenering');
+    const taxonomy = reason(sortLines(broaderNt + '\n' + parentsNt));
+    await output(chemontSource, taxonomy, chemontTaxonomyOptions);
+
+    console.log('chemont: classificatieniveaus (xkos)');
+    const levelsNt = await constructNt(fs.readFileSync(config.skos.sparql.chemont_xkos, 'utf8'), storeFromNt(taxonomy));
+    await output(chemontSource, sortLines(levelsNt), chemontLevelsOptions);
+}
 
 export { chemont_taxonomy_to_skos }
-
-

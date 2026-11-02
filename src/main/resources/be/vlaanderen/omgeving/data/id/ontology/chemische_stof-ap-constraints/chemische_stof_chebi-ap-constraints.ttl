@@ -73,7 +73,8 @@ ons:chemische_stof_chebi
                      omg_ps:exactMatch,
                      omg_ps:mappingRelation,
                      omg_ps:note,
-                     omg_ps:semanticRelation ;
+                     omg_ps:semanticRelation,
+                     omg_ps:chebi_inScheme ;
     sh:closed true ;
     sh:targetClass   dbo:ChemicalSubstance .
 
@@ -258,3 +259,13 @@ omg_ps:semanticRelation
     rdfs:isDefinedBy omg_ont:chemische-stof-ap-constraints, omg_voc:chemische-stof-ap-constraints ;
     sh:nodeKind      sh:IRI ;
     sh:path          skos:semanticRelation; .
+
+omg_ps:chebi_inScheme
+    a                sh:PropertyShape ;
+    rdfs:label       "is in schema"@en ;
+    sh:name          "is in schema"@en ;
+    sh:description   "Drukt de relatie uit tussen een 'resource' en het schema dat het bevat. Het schema zelf staat in de codelijst, niet in de ChEBI-verrijking; daarom geen sh:class."@en ;
+    rdfs:isDefinedBy omg_ont:chemische-stof-ap-constraints, omg_voc:chemische-stof-ap-constraints ;
+    sh:maxCount      1 ;
+    sh:nodeKind      sh:IRI ;
+    sh:path          skos:inScheme .

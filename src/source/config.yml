@@ -22,7 +22,6 @@ skos:
   jsonld: .jsonld
   csv: .csv
   json: .json
-  xlsx: .xlsx
   nt: .nt
   parquet: .parquet
 
@@ -30,7 +29,8 @@ source:
   chemont: ./source/chemont/ChemOnt_2_1.ttl
   chemont_skos: ./source/chemont/skos_chemont_2_1.ttl
   path: ./source/
-  codelijst_csv: codelijst-source.csv
+  codelijst_csv:
+    - codelijst-source.csv
   context: context.json
 
 dcat:
@@ -95,16 +95,18 @@ metadata :
     uri : https://data.omgeving.vlaanderen.be/id/catalog/codelijst
     type: http://www.w3.org/ns/dcat#Catalog
   dataset :
+    provenance:
+      label: "TODO: herkomst van de codelijst chemische_stoftypes."
     temporal : https://data.omgeving.vlaanderen.be/id/periodoftime/dataset_omg
     type : http://www.w3.org/ns/dcat#Dataset
   distribution :
+    json:
+      mediaType: https://www.iana.org/assignments/media-types/application/json
+      format: http://publications.europa.eu/resource/authority/file-type/JSON
+      type: http://www.w3.org/ns/dcat#Distribution
     parquet:
       mediaType: https://www.iana.org/assignments/media-types/application/vnd.apache.parquet
       format: http://publications.europa.eu/resource/authority/file-type/PARQUET
-      type: http://www.w3.org/ns/dcat#Distribution
-    xlsx:
-      mediaType: https://www.iana.org/assignments/media-types/application/vnd.openxmlformats-officedocument.spreadsheetml.sheet
-      format: http://publications.europa.eu/resource/authority/file-type/XLSX
       type: http://www.w3.org/ns/dcat#Distribution
     csv :
       mediaType : https://www.iana.org/assignments/media-types/text/csv

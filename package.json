@@ -4,7 +4,9 @@
   "version": "1.0.0",
   "description": "",
   "main": "src/main/nodejs/01_codelijst_skos_from_csv.js",
+  "packageManager": "pnpm@9.15.9",
   "scripts": {
+    "create_skos": "cd src && node 01_codelijst_skos_from_csv.js",
     "create_metadata": "cd src && node 02_metadata.js"
   },
   "keywords": [
@@ -21,20 +23,29 @@
   "dependencies": {
     "@comunica/query-sparql": "^4.4.1",
     "@comunica/query-sparql-rdfjs": "^3.1.1",
-    "@zazuko/env-node": "^2.1.1",
+    "@milieuinfo/maven-metadata-generator-npm": "^0.7.5",
+    "@zazuko/env-node": "^1.0.2",
     "adm-zip": "^0.5.12",
     "child_process": "^1.0.2",
+    "csv-parser": "^3.2.0",
+    "csvtojson": "^2.0.14",
     "dotenv": "^16.4.5",
+    "eyeling": "^2.35.30",
     "js-yaml": "^4.1.0",
-    "@milieuinfo/maven-metadata-generator-npm": "^0.4.6",
+    "jsonld": "^9.0.0",
     "mime-types": "^2.1.35",
+    "n3": "^2.13.12",
     "node-fetch": "^3.3.2",
-    "package.json": "^0.0.0",
     "rdf-stores": "^2.1.1",
     "readable-stream": "^4.5.2",
     "stream": "^0.0.2",
     "util": "^0.12.5",
     "yauzl": "^3.1.2",
     "zlib": "^1.0.5"
+  },
+  "pnpm": {
+    "overrides": {
+      "@rdfjs/types": "^2.0.1"
+    }
   }
 }

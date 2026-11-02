@@ -4842,11 +4842,6 @@ obo:CHEBI_33015 a skos:Concept;
     skos:exactMatch obo:CHEBI_33015, chemische_stof:YRIZYWQGELRKNT-UHFFFAOYSA-N;
     skos:mappingRelation obo:CHEBI_33015, chemische_stof:YRIZYWQGELRKNT-UHFFFAOYSA-N;
     skos:semanticRelation obo:CHEBI_33015, chemische_stof:YRIZYWQGELRKNT-UHFFFAOYSA-N.
-obo:CHEBI_33038 a skos:Concept;
-    skos:closeMatch obo:CHEBI_33038, chemische_stof:AHXGRMIPHCAXFP-UHFFFAOYSA-L;
-    skos:exactMatch obo:CHEBI_33038, chemische_stof:AHXGRMIPHCAXFP-UHFFFAOYSA-L;
-    skos:mappingRelation obo:CHEBI_33038, chemische_stof:AHXGRMIPHCAXFP-UHFFFAOYSA-L;
-    skos:semanticRelation obo:CHEBI_33038, chemische_stof:AHXGRMIPHCAXFP-UHFFFAOYSA-L.
 obo:CHEBI_33050 a skos:Concept;
     skos:closeMatch obo:CHEBI_33050, chemische_stof:ZOMNIUBKTOKEHS-UHFFFAOYSA-L;
     skos:exactMatch obo:CHEBI_33050, chemische_stof:ZOMNIUBKTOKEHS-UHFFFAOYSA-L;
@@ -9939,6 +9934,11 @@ obo:CHEBI_6824 a skos:Concept;
     skos:exactMatch obo:CHEBI_6824, chemische_stof:VKYKSIONXSXAKP-UHFFFAOYSA-N;
     skos:mappingRelation obo:CHEBI_6824, chemische_stof:VKYKSIONXSXAKP-UHFFFAOYSA-N;
     skos:semanticRelation obo:CHEBI_6824, chemische_stof:VKYKSIONXSXAKP-UHFFFAOYSA-N.
+obo:CHEBI_6842 a skos:Concept;
+    skos:closeMatch obo:CHEBI_6842, chemische_stof:IAKOZHOLGAGEJT-UHFFFAOYSA-N;
+    skos:exactMatch obo:CHEBI_6842, chemische_stof:IAKOZHOLGAGEJT-UHFFFAOYSA-N;
+    skos:mappingRelation obo:CHEBI_6842, chemische_stof:IAKOZHOLGAGEJT-UHFFFAOYSA-N;
+    skos:semanticRelation obo:CHEBI_6842, chemische_stof:IAKOZHOLGAGEJT-UHFFFAOYSA-N.
 obo:CHEBI_6888 a skos:Concept;
     skos:closeMatch obo:CHEBI_6888, chemische_stof:VHRSUDSXCMQTMA-PJHHCJLFSA-N;
     skos:exactMatch obo:CHEBI_6888, chemische_stof:VHRSUDSXCMQTMA-PJHHCJLFSA-N;
@@ -11922,11 +11922,6 @@ obo:CHEBI_84873 a skos:Concept;
     skos:exactMatch obo:CHEBI_84873, chemische_stof:SNXPWYFWAZVIAU-GKFVBPDJSA-N;
     skos:mappingRelation obo:CHEBI_84873, chemische_stof:SNXPWYFWAZVIAU-GKFVBPDJSA-N;
     skos:semanticRelation obo:CHEBI_84873, chemische_stof:SNXPWYFWAZVIAU-GKFVBPDJSA-N.
-obo:CHEBI_84879 a skos:Concept;
-    skos:closeMatch obo:CHEBI_84879, chemische_stof:ODUCDPQEXGNKDN-UHFFFAOYSA-N;
-    skos:exactMatch obo:CHEBI_84879, chemische_stof:ODUCDPQEXGNKDN-UHFFFAOYSA-N;
-    skos:mappingRelation obo:CHEBI_84879, chemische_stof:ODUCDPQEXGNKDN-UHFFFAOYSA-N;
-    skos:semanticRelation obo:CHEBI_84879, chemische_stof:ODUCDPQEXGNKDN-UHFFFAOYSA-N.
 obo:CHEBI_8489 a skos:Concept;
     skos:closeMatch obo:CHEBI_8489, chemische_stof:STJLVHWMYQXCPB-UHFFFAOYSA-N;
     skos:exactMatch obo:CHEBI_8489, chemische_stof:STJLVHWMYQXCPB-UHFFFAOYSA-N;
@@ -12920,18 +12915,6 @@ chemische_stof:AHTPATJNIAFOLR-UHFFFAOYSA-N dbo:formula "C12H13N5O6S2";
     skos:mappingRelation obo:CHEBI_83453, chemische_stof:AHTPATJNIAFOLR-UHFFFAOYSA-N;
     skos:note "A methyl ester resulting from the formal condensation of the carboxy group of thifensulfuron with methanol. It is used  as a post-emergence herbicide for the control of grass and broad-leaved weeds."@en;
     skos:semanticRelation obo:CHEBI_25248, obo:CHEBI_26588, obo:CHEBI_26961, obo:CHEBI_76983, obo:CHEBI_83453, chemische_stof:AHTPATJNIAFOLR-UHFFFAOYSA-N.
-chemische_stof:AHXGRMIPHCAXFP-UHFFFAOYSA-L dbo:formula "Cl2CrO2";
-    dbo:inchi "InChI=1S/2ClH.Cr.2O/h2*1H;;;/q;;+2;;/p-2";
-    dbo:smiles "Cl[Cr](Cl)(=O)=O";
-    dbp:inchikey "AHXGRMIPHCAXFP-UHFFFAOYSA-L";
-    chebi:charge "0";
-    a dbo:ChemicalCompound, dbo:ChemicalSubstance, skos:Concept;
-    skos:altLabel "(T-4)-dichlorodioxochromium"@en, "[CrCl2O2]"@en, "chromium dichloride dioxide"@en, "chromium(VI) dioxychloride"@en, "chromyl chloride"@en, "dichloridodioxidochromium"@en, "dichlorodioxochromium"@en, "dioxodichlorochromium"@en;
-    skos:closeMatch obo:CHEBI_33038, chemische_stof:AHXGRMIPHCAXFP-UHFFFAOYSA-L;
-    skos:exactMatch obo:CHEBI_33038, chemische_stof:AHXGRMIPHCAXFP-UHFFFAOYSA-L;
-    skos:inScheme conceptscheme:chemische_stof;
-    skos:mappingRelation obo:CHEBI_33038, chemische_stof:AHXGRMIPHCAXFP-UHFFFAOYSA-L;
-    skos:semanticRelation obo:CHEBI_33038, obo:CHEBI_35403, chemische_stof:AHXGRMIPHCAXFP-UHFFFAOYSA-L.
 chemische_stof:AIGRXSNSLVJMEA-UHFFFAOYSA-N dbo:formula "C14H14NO4PS";
     dbo:inchi "InChI=1S/C14H14NO4PS/c1-2-18-20(21,14-6-4-3-5-7-14)19-13-10-8-12(9-11-13)15(16)17/h3-11H,2H2,1H3";
     dbo:smiles "CCOP(=S)(Oc1ccc(cc1)[N+]([O-])=O)c1ccccc1";
@@ -19990,6 +19973,17 @@ chemische_stof:IAKHMKGGTNLKSZ-INIZCTEOSA-N dbo:formula "C22H25NO6";
     skos:mappingRelation obo:CHEBI_27882, chemische_stof:IAKHMKGGTNLKSZ-INIZCTEOSA-N;
     skos:note "A colchicine that has (S)-configuration. It is a secondary metabolite, has anti-inflammatory properties and is used to treat gout, crystal-induced joint inflammation, familial Mediterranean fever, and many other conditions."@en;
     skos:semanticRelation obo:CHEBI_22315, obo:CHEBI_23359, obo:CHEBI_27882, chemische_stof:IAKHMKGGTNLKSZ-INIZCTEOSA-N.
+chemische_stof:IAKOZHOLGAGEJT-UHFFFAOYSA-N dbo:formula "C16H15Cl3O2";
+    dbo:inchi "InChI=1S/C16H15Cl3O2/c1-20-13-7-3-11(4-8-13)15(16(17,18)19)12-5-9-14(21-2)10-6-12/h3-10,15H,1-2H3";
+    dbo:smiles "COc1ccc(cc1)C(c1ccc(OC)cc1)C(Cl)(Cl)Cl";
+    dbp:inchikey "IAKOZHOLGAGEJT-UHFFFAOYSA-N";
+    chebi:charge "0";
+    a dbo:ChemicalCompound, dbo:ChemicalSubstance, skos:Concept;
+    skos:altLabel "1,1'-(2,2,2-trichloroethane-1,1-diyl)bis(4-methoxybenzene)"@en, "1,1,1-trichloro-2,2-bis(p-anisyl)ethane"@en, "1,1,1-trichloro-2,2-bis(p-methoxyphenyl)ethane"@en, "1,1,1-trichloro-2,2-di(4-methoxyphenyl)ethane"@en, "2,2-bis(p-anisyl)-1,1,1-trichloroethane"@en, "2,2-bis(p-methoxyphenyl)-1,1,1-trichloroethane"@en, "2,2-di(p-methoxyphenyl)-1,1,1-trichloroethane"@en, "Methoxychlor"@en, "dimethoxy-DDT"@en, "methoxy-DDT"@en, "p,p'-methoxychlor"@en;
+    skos:closeMatch obo:CHEBI_6842, chemische_stof:IAKOZHOLGAGEJT-UHFFFAOYSA-N;
+    skos:exactMatch obo:CHEBI_6842, chemische_stof:IAKOZHOLGAGEJT-UHFFFAOYSA-N;
+    skos:mappingRelation obo:CHEBI_6842, chemische_stof:IAKOZHOLGAGEJT-UHFFFAOYSA-N;
+    skos:semanticRelation obo:CHEBI_25705, obo:CHEBI_6842, chemische_stof:IAKOZHOLGAGEJT-UHFFFAOYSA-N.
 chemische_stof:IANUJLZYFUDJIH-UHFFFAOYSA-N dbo:formula "C14H13F4N3O2S";
     dbo:inchi "InChI=1S/C14H13F4N3O2S/c1-8(2)21(10-5-3-9(15)4-6-10)11(22)7-23-13-20-19-12(24-13)14(16,17)18/h3-6,8H,7H2,1-2H3";
     dbo:smiles "CC(C)N(C(=O)COc1nnc(s1)C(F)(F)F)c1ccc(F)cc1";
@@ -26565,18 +26559,6 @@ chemische_stof:ODLMAHJVESYWTB-UHFFFAOYSA-N dbo:formula "C9H12";
     skos:mappingRelation obo:CHEBI_42630, chemische_stof:ODLMAHJVESYWTB-UHFFFAOYSA-N;
     skos:note "An alkylbenzene that is benzene having one of its aromatic hydrogens substituted by a propyl group."@en;
     skos:semanticRelation obo:CHEBI_38976, obo:CHEBI_42630, chemische_stof:ODLMAHJVESYWTB-UHFFFAOYSA-N.
-chemische_stof:ODUCDPQEXGNKDN-UHFFFAOYSA-N dbo:formula "HNO";
-    dbo:inchi "InChI=1S/HNO/c1-2/h1H";
-    dbo:smiles "N=O";
-    dbp:inchikey "ODUCDPQEXGNKDN-UHFFFAOYSA-N";
-    chebi:charge "0";
-    a dbo:ChemicalCompound, dbo:ChemicalSubstance, skos:Concept;
-    skos:altLabel "azanone"@en, "nitronous oxide"@en, "nitrosyl hydride"@en, "oxidanimine"@en;
-    skos:closeMatch obo:CHEBI_84879, chemische_stof:ODUCDPQEXGNKDN-UHFFFAOYSA-N;
-    skos:exactMatch obo:CHEBI_84879, chemische_stof:ODUCDPQEXGNKDN-UHFFFAOYSA-N;
-    skos:mappingRelation obo:CHEBI_84879, chemische_stof:ODUCDPQEXGNKDN-UHFFFAOYSA-N;
-    skos:note "A nitrogen oxoacid consisting of an oxygen atom double-bonded to an NH group."@en;
-    skos:semanticRelation obo:CHEBI_33455, obo:CHEBI_84879, chemische_stof:ODUCDPQEXGNKDN-UHFFFAOYSA-N.
 chemische_stof:ODZTXUXIYGJLMC-UHFFFAOYSA-N dbo:formula "C6H10O2";
     dbo:inchi "InChI=1S/C6H10O2/c7-5-3-1-2-4-6(5)8/h5,7H,1-4H2";
     dbo:smiles "OC1CCCCC1=O";
